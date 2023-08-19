@@ -25,19 +25,40 @@ jobs:
 
       - name: Install CoreUtils & Deps
         run: |
+          set +e
           sudo apt-get update -y
           sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq make musl musl-dev musl-tools p7zip-full wget -y
           sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential ca-certificates flex file jq patch patchelf pkg-config python3-pip qemu-user-static wget 
+          #libpcap
+          sudo apt install 'libpcap*' -y
+          sudo apt install 'nmap' -y
+        continue-on-error: true
+        
+      - name: Install PythonUtils & Deps
+        run: |       
+          set +e
+          sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev xcb -y
           pip install ansi2txt
           pip install scons
           pip install staticx
+          pip install pyinstaller
+          pip install py2static
+          pip install typer
+        continue-on-error: true
+        
+      - name: Install CargoUtils & Deps
+        run: |    
+          set +e
+          cargo install cross --git "https://github.com/cross-rs/cross"
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          set +e
           #eget
           curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
           sudo mv ./eget* "/usr/local/bin/eget"
           sudo chmod +xwr "/usr/local/bin/eget"
-          #libpcap
-          sudo apt install 'libpcap*' -y
-          sudo apt install 'nmap' -y
         continue-on-error: true
 
       - name: Install 7z
@@ -63,7 +84,7 @@ jobs:
       - name: Setup Env
         run: |
           # Create Output Dir
-          mkdir -p "$GITHUB_WORKSPACE/main/Binaries/Toolpacks/x86_64"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64"
           
       - name: Download Binaries
         run: |
@@ -81,7 +102,7 @@ jobs:
         run: |
           #Copy to Repo
           #Exclude copying bins > 100 MB
-          find "$HOME/bin" -maxdepth 1 -type f ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/Binaries/Toolpacks/x86_64" \;
+          find "$HOME/bin" -maxdepth 1 -type f ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/x86_64" \;
           #Copy to /tmp/toolpack_x86_64
           mkdir -p /tmp/toolpack_x86_64
           find "$HOME/bin" -maxdepth 1 -type f -exec cp {} "/tmp/toolpack_x86_64" \; 
@@ -476,7 +497,7 @@ jobs:
           echo '```' >> /tmp/RELEASE_NOTE.md         
           echo -e "" >> /tmp/RELEASE_NOTE.md                  
         continue-on-error: true
-
+          
       - name: Get Safe_DateTime
         run: |
           # Date Time
