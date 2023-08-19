@@ -137,7 +137,12 @@ fi
   #dust
   eget "bootandy/dust" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/dust"
   #dysk
-  eget "https://github.com/Azathothas/Utils/raw/main/Binaries/Tools/dysk/dysk_amd_x86_64_musl_Linux" --to "$HOME/bin/dysk"
+  pushd $(mktemp -d) && curl -qfLJO $(curl -qfsSL "https://api.github.com/repos/Canop/dysk/releases/latest" | jq -r '.assets[].browser_download_url' | grep -i 'dysk' | grep -i 'zip')
+  find . -type f -name '*.zip*' -exec unzip -o {} \;
+  find . -type f -name '*.md' -exec rm {} \;
+  #mv "$(find . -type d -name '*x86_64*' -name '*linux*' ! -name '*musl*')/dysk" "$HOME/bin/dysk_gcc"   
+  mv "$(find . -type d -name '*x86_64*' -name '*linux*' -name '*musl*')/dysk" "$HOME/bin/dysk"
+  popd
   #enumerepo
   eget "trickest/enumerepo" --asset "amd64" --to "$HOME/bin/enumerepo"
   #exa
@@ -193,11 +198,15 @@ fi
   pushd $(mktemp -d) && git clone "https://github.com/ItsIgnacioPortal/hacker-scoper" && cd hacker-scoper
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hacker-scoper" "$HOME/bin/hacker-scoper" ; popd
   #hakoriginfinder  
-  eget "https://raw.githubusercontent.com/Azathothas/Utils/main/Binaries/Tools/hakoriginfinder/hakoriginfinder_amd_x86_64_Linux" --to "$HOME/bin/hakoriginfinder" 
+  pushd$(mktemp -d) && git clone https://github.com/hakluke/hakoriginfinder && cd hakoriginfinder 
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakoriginfinder" "$HOME/bin/hakoriginfinder" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #hakrawler
-  eget "https://raw.githubusercontent.com/Azathothas/Utils/main/Binaries/Tools/hakrawler/hakrawler_amd_x86_64_Linux" --to "$HOME/bin/hakrawler"
+  pushd $(mktemp -d) && git clone https://github.com/hakluke/hakrawler && cd hakrawler
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakrawler" "$HOME/bin/hakrawler" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #hakrevdns
-  eget "https://raw.githubusercontent.com/Azathothas/Utils/main/Binaries/Tools/hakrevdns/hakrevdns_amd_x86_64_Linux" --to "$HOME/bin/hakrevdns"
+  pushd $(mktemp -d) && git clone https://github.com/hakluke/hakrevdns && cd hakrevdns
+  go mod init github.com/hakluke/hakrevdns ; go mod tidy
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakrevdns" "$HOME/bin/hakrevdns" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #hrekt: https://github.com/ethicalhackingplayground/hrekt
   #eget "ethicalhackingplayground/hrekt" --asset "^exe" --to "$HOME/bin/hrekt"
   pushd $(mktemp -d) && git clone https://github.com/ethicalhackingplayground/hrekt && cd hrekt
@@ -240,8 +249,7 @@ fi
   pushd $(mktemp -d) && mkdir inscope && cd inscope
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/inscope/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/inscope/go.mod"
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd
-  go clean -cache -fuzzcache -modcache -testcache  
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
   #interactsh-client
   eget "projectdiscovery/interactsh" --asset "amd64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
   #jaeles
@@ -253,7 +261,15 @@ fi
   eget "kellyjonbrazil/jc" --asset "linux-x86_64.tar.gz" --to "$HOME/bin/jc"
   staticx --loglevel DEBUG "$HOME/bin/jc" --strip "$HOME/bin/jc_staticx"
   #jless 
-  eget "https://github.com/Azathothas/Utils/raw/main/Binaries/Tools/jless/jless_amd_x86_64_staticx_Linux" --to "$HOME/bin/jless"
+  pushd $(mktemp -d) && git clone https://github.com/PaulJuliusMartinez/jless && cd jless
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET"
+  # Currenttly can't build static, flags get overidden, instead use staticX
+  #export RUSTFLAGS="-C target-feature=+crt-static"  
+  #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  unset RUSTFLAGS ; cargo build --target "$TARGET" --release
+  mv "./target/$TARGET/release/jless" "$HOME/bin/jless_dynamic"
+  staticx --loglevel DEBUG "$HOME/bin/jless_dynamic" --strip "$HOME/bin/jless_staticx"
+  popd
   #jq
   # this needs to be updated
   eget "jqlang/jq"  --pre-release --tag "jq-1.7rc1" --asset "jq-linux-amd64" --to "$HOME/bin/jq"
@@ -265,13 +281,18 @@ fi
   #ksubdomain
   eget "boy-hack/ksubdomain" --asset "linux.tar" --to "$HOME/bin/ksubdomain"
   staticx --loglevel DEBUG "$HOME/bin/ksubdomain" --strip "$HOME/bin/ksubdomain_staticx"
+  #lit-bb-hack-tools
+  pushd $(mktemp -d) && git clone https://github.com/edoardottt/lit-bb-hack-tools && cd lit-bb-hack-tools
+  find . -type f -name '*.md' -exec rm {} \;
+  find . -maxdepth 1 -type d ! -name '.git*' -exec sh -c 'CGO_ENABLED=0 go build -o "$1/$1_amd_x86_64_Linux" -v -a -gcflags=all="-l -B -wb=false" -ldflags="-s -w -extldflags '\''-static'\''" "$1/"*' _ {} \;
+  find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/" \;
+  popd ; go clean -cache -fuzzcache -modcache -testcache
   #logtimer
   eget "Eun/logtimer" --asset "linux" --asset "x86_64.tar.gz" --to "$HOME/bin/logtimer"
   #mapcidr
   #eget "projectdiscovery/mapcidr" --asset "amd64" --asset "linux" --to "$HOME/bin/mapcidr"
   pushd $(mktemp -d) && git clone "https://github.com/projectdiscovery/mapcidr" && cd mapcidr
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/mapcidr" ; mv "./mapcidr" "$HOME/bin/mapcidr" ; popd
-  go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/mapcidr" ; mv "./mapcidr" "$HOME/bin/mapcidr" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #massdns
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/massdns/massdns_linux_x86_64_gcc" --to "$HOME/bin/massdns"
   #masscan
@@ -347,6 +368,13 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #puredns
   eget "d3mondev/puredns" --asset "amd64" --to "$HOME/bin/puredns"
+  #recollapse
+  pushd $(mktemp -d) && git clone https://github.com/0xacb/recollapse && cd recollapse
+  pip install --upgrade -r requirements.txt ; mv "./recollapse" "./recollapse.py"
+  pyinstaller --clean "./recollapse.py" --noconfirm
+  pyinstaller --strip --onefile "./recollapse.py" --noconfirm
+  staticx --loglevel DEBUG "./dist/recollapse" --strip "$HOME/bin/recollapse_staticx"
+  popd
   #rescope
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
@@ -357,7 +385,10 @@ fi
   #ripgrep
   eget "BurntSushi/ripgrep" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/ripgrep" && ln -s "$HOME/bin/ripgrep" "$HOME/bin/rg"
   #Rustscan --> build this, releases are outdated
-  eget "https://github.com/Azathothas/Utils/raw/main/Binaries/Tools/rustscan/rustscan_amd_x86_64_Linux" --to "$HOME/bin/rustscan"
+  pushd $(mktemp -d) && git clone https://github.com/RustScan/RustScan && cd RustScan
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustscan" "$HOME/bin/rustcan" ; popd
   #scopegen
   pushd $(mktemp -d) && mkdir scopegen && cd scopegen
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/scopegen/scopegen.go"
@@ -376,6 +407,12 @@ fi
   eget "Azathothas/static-toolbox" --tag "socat" --asset "x86_64" --to "$HOME/bin/socat"
   #speedtest-go
   eget "showwin/speedtest-go" --asset "Linux_x86_64.tar.gz" --to "$HOME/bin/speedtest-go"
+  #spk
+  pushd $(mktemp -d) && git clone https://github.com/dhn/spk && cd spk
+  CGO_ENABLED=0 go build -o "spk_amd_x86_64_Linux" -v -ldflags="-s -w -extldflags '-static'"
+  find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/spk" \;
+  go clean -cache -fuzzcache -modcache -testcache
+  popd
   #sshd
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/openssh/sshd_amd_x86_64_Linux" --to "$HOME/bin/sshd"  
   #ssh-keys
@@ -425,6 +462,13 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #upx
   eget "https://github.com/borestad/static-binaries/raw/main/x86_64/upx" --to "$HOME/bin/upx"
+  #viewgen
+  pushd $(mktemp -d) && git clone https://github.com/0xacb/viewgen && cd viewgen
+  pip install --upgrade -r requirements.txt ; mv "./viewgen" "./viewgen.py"
+  pyinstaller --clean "./viewgen.py" --noconfirm
+  pyinstaller --strip --onefile "./viewgen.py" --noconfirm
+  staticx --loglevel DEBUG "./dist/viewgen" --strip "$HOME/bin/viewgen_staticx"
+  popd
   #wappalyzergo (Just a library not cli)
   #eget "projectdiscovery/wappalyzergo" --asset "amd64" --asset "linux" --to "$HOME/bin/wappalyzergo"
   #watchexec
@@ -451,6 +495,11 @@ fi
   # popd  
   #xurls
   eget "mvdan/xurls" --asset "linux_amd64" --to "$HOME/bin/xurls" 
+  #yataf
+  pushd $(mktemp -d) && git clone https://github.com/Damian89/yataf && cd yataf
+  CGO_ENABLED=0 go build -o "yataf_amd_x86_64_Linux" -v -ldflags="-s -w -extldflags '-static'"
+  find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/yataf" \;
+  popd ; go clean -cache -fuzzcache -modcache -testcache
   #yq
   eget "mikefarah/yq" --asset "yq_linux_amd64" --asset "^.tar.gz" --to "$HOME/bin/yq"
   #zdns
