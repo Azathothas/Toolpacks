@@ -247,8 +247,8 @@ fi
   eget "projectdiscovery/httpx" --asset "amd64" --asset "linux" --to "$HOME/bin/httpx"
   #inscope
   pushd $(mktemp -d) && mkdir inscope && cd inscope
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/inscope/main.go"
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/inscope/go.mod"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/main.go"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/go.mod"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
   #interactsh-client
   eget "projectdiscovery/interactsh" --asset "amd64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
@@ -391,12 +391,12 @@ fi
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustscan" "$HOME/bin/rustcan" ; popd
   #scopegen
   pushd $(mktemp -d) && mkdir scopegen && cd scopegen
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/scopegen/scopegen.go"
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/scopegen/go.mod"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/scopegen.go"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/go.mod"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "scopegen" "./scopegen.go" ; mv "./scopegen" "$HOME/bin/scopegen" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #scopeview
-  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/scopeview/scopeview.sh" --to "$HOME/bin/scopeview"  
+  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopeview/scopeview.sh" --to "$HOME/bin/scopeview"  
   #sftp
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/openssh/sftp_server_amd_x86_64_Linux" --to "$HOME/bin/sftp"
   #shfmt
@@ -424,7 +424,7 @@ fi
   #subfinder
   eget "projectdiscovery/subfinder" --asset "amd64" --asset "linux" --to "$HOME/bin/subfinder"
   #subxtract
-  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/subxtract/subxtract.sh" --to "$HOME/bin/subxtract"
+  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$HOME/bin/subxtract"
   #tailscale
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscale_amd_x86_64_Linux" --to "$HOME/bin/tailscale"
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscale_merged_amd_x86_64_Linux" --to "$HOME/bin/tailscale_merged"
