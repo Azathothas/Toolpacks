@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
   
 env:
-  GITHUB_TOKEN: ${{ secrets.UTILS }}
+  GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
   
 jobs:
 #------------------------------------------------------------------------------------#
