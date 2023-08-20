@@ -382,7 +382,7 @@ fi
   #rescope
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
-  pushd $(mktemp -d) && git clone https://github.com/root4loot/rescope && cd rescope
+  cd /tmp && git clone https://github.com/root4loot/rescope && cd rescope
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"  
   mv "./rescope" "$HOMR/bin/rescope" ; popd
   go clean -cache -fuzzcache -modcache -testcache
