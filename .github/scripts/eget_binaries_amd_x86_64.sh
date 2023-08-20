@@ -116,6 +116,10 @@ fi
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/curl/curl_amd_x86_64_Linux" --to "$HOME/bin/curl"
   #curlie
   eget "rs/curlie" --asset "linux_amd64.tar.gz" --to "$HOME/bin/curlie"
+  #cut-cdn
+  pushd $(mktemp -d) && git clone "https://github.com/ImAyrix/cut-cdn" && cd cut-cdn
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./cut-cdn" "$HOME/bin/cut-cdn" ; popd
+  go clean -cache -fuzzcache -modcache -testcache 
   #dalfox
   eget "hahwul/dalfox" --asset "amd64" --to "$HOME/bin/dalfox"
   #dnsx
