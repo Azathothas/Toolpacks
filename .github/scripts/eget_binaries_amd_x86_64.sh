@@ -69,12 +69,18 @@ fi
   #amass
   #eget "owasp-amass/amass" --asset "amd64" --asset "zip" --to "$HOME/bin/amass" && mkdir -p "$HOME/.config/amass"
   pushd $(mktemp -d) && git clone "https://github.com/owasp-amass/amass" && cd amass
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/amass" ; mv "./amass" "$HOME/bin/amass" ; popd
-  go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/amass" ; mv "./amass" "$HOME/bin/amass" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #analyticsrelationships
+  pushd $(mktemp -d) && git clone "https://github.com/Josue87/AnalyticsRelationships" && cd AnalyticsRelationships
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./analyticsrelationships" "$HOME/bin/analyticsrelationships" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #anew
   eget "tomnomnom/anew" --asset "amd64" --asset "linux" --to "$HOME/bin/anew"
   #aria2c
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux" --to "$HOME/bin/aria2c"
+  #assetfinder
+  pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/assetfinder" && cd assetfinder
+  go mod init github.com/tomnomnom/assetfinder ; go mod tidy
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./assetfinder" "$HOME/bin/assetfinder" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #asn
   eget "https://raw.githubusercontent.com/nitefood/asn/master/asn" --to "$HOME/bin/asn" 
   #asnmap
@@ -93,6 +99,10 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #busybox
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/busybox/busybox_amd_x86_64_musl_Linux" --to "$HOME/bin/busybox"
+  #byp4xx
+  pushd $(mktemp -d) && git clone "https://github.com/lobuhi/byp4xx" && cd byp4xx
+  go mod init github.com/lobuhi/byp4xx ; go mod tidy
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./byp4xx" "$HOME/bin/byp4xx" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #cdncheck
   eget "projectdiscovery/cdncheck" --asset "amd64" --asset "linux" --to "$HOME/bin/cdncheck"
   #cent
@@ -108,10 +118,15 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #cloudlist
   eget "projectdiscovery/cloudlist" --asset "amd64" --asset "linux" --to "$HOME/bin/cloudlist"
+  #crlfuzz
+  pushd $(mktemp -d) && git clone "https://github.com/dwisiswant0/crlfuzz" && cd crlfuzz
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/crlfuzz" ; mv "./crlfuzz" "$HOME/bin/crlfuzz" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #croc
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/croc/croc_amd_x86_64_Linux" --to "$HOME/bin/croc"
   #crt
-  eget "cemulus/crt" --asset "x86_64" --to "$HOME/bin/crt"
+  #eget "cemulus/crt" --asset "x86_64" --to "$HOME/bin/crt"
+  pushd $(mktemp -d) && git clone "https://github.com/cemulus/crt" && cd crt
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./crt" "$HOME/bin/crt" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #curl
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/curl/curl_amd_x86_64_Linux" --to "$HOME/bin/curl"
   #curlie
@@ -122,6 +137,9 @@ fi
   go clean -cache -fuzzcache -modcache -testcache 
   #dalfox
   eget "hahwul/dalfox" --asset "amd64" --to "$HOME/bin/dalfox"
+  #dnstake
+  pushd $(mktemp -d) && git clone "https://github.com/pwnesia/dnstake" && cd dnstake
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/dnstake" ; mv "./dnstake" "$HOME/bin/dnstake" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #dnsx
   eget "projectdiscovery/dnsx" --asset "amd64" --asset "linux" --to "$HOME/bin/dnsx"
   #dirstat-rs
@@ -170,6 +188,10 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #gdu
   eget "dundee/gdu" --asset "gdu_linux_amd64_static.tgz" --to "$HOME/bin/gdu"
+  #gf
+  pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/gf" && cd gf
+  go mod init github.com/tomnomnom/gf ; go mod tidy
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gf" "$HOME/bin/gf" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #gfx --> symlinked to gf
   #eget "dwisiswant0/gfx" --asset "amd64" --asset "linux" --to "$HOME/bin/gfx" && ln -s "$HOME/bin/gfx" "$HOME/bin/gf"
   pushd $(mktemp -d) && git clone "https://github.com/dwisiswant0/gfx" && cd gfx
@@ -180,6 +202,15 @@ fi
   #git
   # requires additional binaries
   #eget "Azathothas/static-toolbox" --tag "git" --asset "git_amd_x86_64_Linux" --to "$HOME/bin/git"
+  #gitdorks_go
+  pushd $(mktemp -d) && git clone "https://github.com/damit5/gitdorks_go" && cd gitdorks_go
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gitdorks_go" "$HOME/bin/gitdorks_go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #github-endpoints
+  pushd $(mktemp -d) && git clone "https://github.com/gwen001/github-endpoints" && cd github-endpoints
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-endpoints" "$HOME/bin/github-endpoints" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #github-subdomains
+  pushd $(mktemp -d) && git clone "https://github.com/gwen001/github-subdomains" && cd github-subdomains
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-subdomains" "$HOME/bin/github-subdomains" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #gitui
   eget "extrawurst/gitui" --asset "gitui-linux-musl.tar.gz" --to "$HOME/bin/gitui"
   #gobuster
@@ -191,6 +222,9 @@ fi
   eget "mr-pmillz/gofireprox" --asset "amd64" --asset "linux" --to "$HOME/bin/gofireprox"
   #gost
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/gost/gost_amd_x86_64_Linux" --to "$HOME/bin/gost"
+  #gotator
+  pushd $(mktemp -d) && git clone "https://github.com/Josue87/gotator" && cd gotator
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gotator" "$HOME/bin/gotator" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #gowitness
   #eget "sensepost/gowitness" --asset "amd64" --asset "linux" --to "$HOME/bin/gowitness"
   pushd $(mktemp -d) && git clone "https://github.com/sensepost/gowitness" && cd gowitness
@@ -198,9 +232,15 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #gping: https://github.com/orf/gping
   eget "orf/gping" --asset "unknown-linux-musl" --asset "linux" --to "$HOME/bin/gping"
+  #Gxss
+  pushd $(mktemp -d) && git clone "https://github.com/KathanP19/Gxss" && cd Gxss
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/Gxss" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #hacker-scoper
   pushd $(mktemp -d) && git clone "https://github.com/ItsIgnacioPortal/hacker-scoper" && cd hacker-scoper
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hacker-scoper" "$HOME/bin/hacker-scoper" ; popd
+  #hakip2host
+  pushd $(mktemp -d) && git clone "https://github.com/hakluke/hakip2host" && cd hakip2host
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakip2host" "$HOME/bin/hakip2host" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #hakoriginfinder  
   pushd$(mktemp -d) && git clone https://github.com/hakluke/hakoriginfinder && cd hakoriginfinder 
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakoriginfinder" "$HOME/bin/hakoriginfinder" ; popd ; go clean -cache -fuzzcache -modcache -testcache
@@ -245,8 +285,10 @@ fi
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release
   file "./target/$TARGET/release/htmlq" ; ldd "./target/$TARGET/release/htmlq" ; ls "./target/$TARGET/release/htmlq" -lah
-  mv "./target/$TARGET/release/htmlq" "$HOMR/bin/htmlq"
-  popd
+  mv "./target/$TARGET/release/htmlq" "$HOMR/bin/htmlq" ; popd
+  #httprobe
+  pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/httprobe" && cd httprobe
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./httprobe" "$HOME/bin/httprobe" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #httpx
   eget "projectdiscovery/httpx" --asset "amd64" --asset "linux" --to "$HOME/bin/httpx"
   #inscope
@@ -293,6 +335,9 @@ fi
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #logtimer
   eget "Eun/logtimer" --asset "linux" --asset "x86_64.tar.gz" --to "$HOME/bin/logtimer"
+  #mantra
+  pushd $(mktemp -d) && git clone "https://github.com/MrEmpy/mantra" && cd mantra
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Mantra" "$HOME/bin/mantra" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #mapcidr
   #eget "projectdiscovery/mapcidr" --asset "amd64" --asset "linux" --to "$HOME/bin/mapcidr"
   pushd $(mktemp -d) && git clone "https://github.com/projectdiscovery/mapcidr" && cd mapcidr
@@ -372,6 +417,9 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #puredns
   eget "d3mondev/puredns" --asset "amd64" --to "$HOME/bin/puredns"
+  #qsreplace
+  pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/qsreplace" && cd qsreplace
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #recollapse
   pushd $(mktemp -d) && git clone https://github.com/0xacb/recollapse && cd recollapse
   pip install --upgrade -r requirements.txt ; mv "./recollapse" "./recollapse.py"
@@ -383,11 +431,19 @@ fi
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
   cd /tmp && git clone https://github.com/root4loot/rescope && cd rescope
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"  
-  mv "./rescope" "$HOMR/bin/rescope" ; popd
-  go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./rescope" "$HOMR/bin/rescope" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #ripgen
+  pushd $(mktemp -d) && git clone https://github.com/resyncgg/ripgen && cd ripgen
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ripgen" "$HOME/bin/ripgen" ; popd
   #ripgrep
   eget "BurntSushi/ripgrep" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/ripgrep" && ln -s "$HOME/bin/ripgrep" "$HOME/bin/rg"
+  #roboxtractor
+  pushd $(mktemp -d) && git clone "https://github.com/Josue87/roboxtractor" && cd roboxtractor
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./roboxtractor" "$HOME/bin/roboxtractor" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #rush
+  eget "shenwei356/rush" --asset "rush_linux_amd64.tar.gz" --to "$HOME/bin/rush"
   #Rustscan --> build this, releases are outdated
   pushd $(mktemp -d) && git clone https://github.com/RustScan/RustScan && cd RustScan
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
@@ -407,6 +463,9 @@ fi
   eget "mvdan/sh" --asset "linux_amd64" --to "$HOME/bin/shfmt"
   #shuffledns
   eget "projectdiscovery/shuffledns" --asset "amd64" --asset "linux" --to "$HOME/bin/shuffledns"
+  #smap
+  pushd $(mktemp -d) && git clone "https://github.com/s0md3v/Smap" && cd Smap
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/smap" ; mv "./smap" "$HOME/bin/smap" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #socat
   eget "Azathothas/static-toolbox" --tag "socat" --asset "x86_64" --to "$HOME/bin/socat"
   #speedtest-go
@@ -427,6 +486,9 @@ fi
   eget "Azathothas/static-toolbox" --tag "strace" --asset "x86_64" --to "$HOME/bin/strace"
   #subfinder
   eget "projectdiscovery/subfinder" --asset "amd64" --asset "linux" --to "$HOME/bin/subfinder"
+  #subjs
+  pushd $(mktemp -d) && git clone "https://github.com/lc/subjs" && cd subjs
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./subjs" "$HOME/bin/subjs" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #subxtract
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$HOME/bin/subxtract"
   #tailscale
@@ -481,9 +543,11 @@ fi
   # pre made is static
   #eget "tomnomnom/waybackurls" --asset "amd64" --asset "linux" --to "$HOME/bin/waybackurls"
   pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/waybackurls" && cd waybackurls
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
-  mv "./waybackurls" "$HOME/bin/waybackurls"
-  popd
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./waybackurls" "$HOME/bin/waybackurls"
+  popd ; go clean -cache -fuzzcache -modcache -testcache
+  #Web-Cache-Vulnerability-Scanner
+  pushd $(mktemp -d) && git clone "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner" && cd Web-Cache-Vulnerability-Scanner
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/Web-Cache-Vulnerability-Scanner" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #x8
   eget "Sh1Yo/x8" --asset "linux" --to "$HOME/bin/x8"
   # attempt to build a static binary produces dynamic anyway  
