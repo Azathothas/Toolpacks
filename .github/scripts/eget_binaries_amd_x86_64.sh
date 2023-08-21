@@ -127,6 +127,9 @@ fi
   #eget "cemulus/crt" --asset "x86_64" --to "$HOME/bin/crt"
   pushd $(mktemp -d) && git clone "https://github.com/cemulus/crt" && cd crt
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./crt" "$HOME/bin/crt" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #csprecon
+  pushd $(mktemp -d) && git clone "https://github.com/edoardottt/csprecon" && cd csprecon
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/csprecon" ; mv "./csprecon" "$HOME/bin/csprecon" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #curl
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/curl/curl_amd_x86_64_Linux" --to "$HOME/bin/curl"
   #curlie
