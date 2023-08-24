@@ -95,7 +95,10 @@ jobs:
       - name: Strip || Cleanup
         run: |
            set +e
+           cd "$HOME/bin"
            find "$HOME/bin" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
+           # Strip && Rename anything with *_amd*
+           find "$HOME/bin" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
         continue-on-error: true
         
       - name: Pack Binaries
