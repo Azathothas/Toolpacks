@@ -1,0 +1,49 @@
+name: 🐧 dos2unixfy scripts 🖳
+#MAX_RUNTIME: 02 Minutes */10 * * * * 
+
+on:
+  #push:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "*/10 * * * *"  # Every 10 Mins
+  # https://crontab.guru
+  # https://savvytime.com/converter/utc-to-nepal-kathmandu
+
+env:
+  USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          path: main
+
+      - name: Setup Env
+        run: |
+          sudo apt update -y
+          sudo apt install dos2unix -y
+
+      - name: Dos2Unix Everything
+        run: |
+          cd "$GITHUB_WORKSPACE/main"
+          find . -type f -exec dos2unix {} \;
+
+     # - name: Git Pull
+     #   run: |
+     #      cd "$GITHUB_WORKSPACE/main" && git pull origin main
+     #   continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          repository: ./main        
+          commit_user_name: Azathothas # defaults to "github-actions[bot]"
+          commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "✅ Dos2Unix-fied 🐧🖳 Everything "
+          #push_options: '--force'
