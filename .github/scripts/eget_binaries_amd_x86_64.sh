@@ -211,9 +211,17 @@ fi
   #github-endpoints
   pushd $(mktemp -d) && git clone "https://github.com/gwen001/github-endpoints" && cd github-endpoints
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-endpoints" "$HOME/bin/github-endpoints" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #github-regexp
+  pushd $(mktemp -d) && git clone "https://github.com/gwen001/github-regexp" && cd github-regexp
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-regexp" "$HOME/bin/github-regexp" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #github-subdomains
   pushd $(mktemp -d) && git clone "https://github.com/gwen001/github-subdomains" && cd github-subdomains
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-subdomains" "$HOME/bin/github-subdomains" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #gitlab-subdomains
+  pushd $(mktemp -d) && git clone "https://github.com/gwen001/gitlab-subdomains" && cd gitlab-subdomains
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gitlab-subdomains" "$HOME/bin/gitlab-subdomains" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
+  #gitleaks
+  eget "gitleaks/gitleaks" --asset "linux_x64.tar.gz" --to "$HOME/bin/gitleaks"
   #gitui
   eget "extrawurst/gitui" --asset "gitui-linux-musl.tar.gz" --to "$HOME/bin/gitui"
   #gobuster
@@ -409,6 +417,11 @@ fi
   # file "./target/$TARGET/release/pathbuster" ; ldd "./target/$TARGET/release/pathbuster" ; ls "./target/$TARGET/release/pathbuster" -lah
   # mv "./target/$TARGET/release/pathbuster" "$HOMR/bin/pathbuster"
   # popd  
+  #ppfuzz
+  pushd $(mktemp -d) && git clone https://github.com/dwisiswant0/ppfuzz && cd ppfuzz
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ppfuzz" "$HOME/bin/ppfuzz" ; popd  
   #pping
   eget "wzv5/pping" --asset "Linux_x86_64.tar.gz" --to "$HOME/bin/pping"
   #procs
