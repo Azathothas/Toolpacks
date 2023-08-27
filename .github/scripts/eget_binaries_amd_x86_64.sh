@@ -467,6 +467,9 @@ fi
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustscan" "$HOME/bin/rustcan" ; popd
   #s3scanner
   eget "sa7mon/S3Scanner" --asset "Linux_x86_64.tar.gz" --to "$HOME/bin/s3scanner"
+  #scilla
+  pushd $(mktemp -d) && git clone "https://github.com/edoardottt/scilla" && cd scilla
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/scilla" ; mv "./scilla" "$HOME/bin/scilla" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #scopegen
   pushd $(mktemp -d) && mkdir scopegen && cd scopegen
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/scopegen.go"
