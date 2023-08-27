@@ -465,6 +465,8 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustscan" "$HOME/bin/rustcan" ; popd
+  #s3scanner
+  eget "sa7mon/S3Scanner" --asset "Linux_x86_64.tar.gz" --to "$HOME/bin/s3scanner"
   #scopegen
   pushd $(mktemp -d) && mkdir scopegen && cd scopegen
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/scopegen.go"
