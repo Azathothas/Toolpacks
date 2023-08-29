@@ -436,6 +436,8 @@ fi
   #qsreplace
   pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/qsreplace" && cd qsreplace
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #rclone
+  eget "rclone/rclone" --asset "linux-amd64.zip" --to "$HOME/bin/rclone"
   #recollapse
   pushd $(mktemp -d) && git clone https://github.com/0xacb/recollapse && cd recollapse
   pip install --upgrade -r requirements.txt ; mv "./recollapse" "./recollapse.py"
