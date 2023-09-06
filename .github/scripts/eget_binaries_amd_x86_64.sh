@@ -191,6 +191,12 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #gdu
   eget "dundee/gdu" --asset "gdu_linux_amd64_static.tgz" --to "$HOME/bin/gdu"
+  #getJS
+  pushd $(mktemp -d) && mkdir getJS && cd getJS
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/getJS/main.go"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/getJS/go.mod"
+  go get github.com/Azathothas/Arsenal/getJS
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./getJS" ; mv "./getJS" "$HOME/bin/getJS" ; popd ; go clean -cache -fuzzcache -modcache 
   #gf
   pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/gf" && cd gf
   go mod init github.com/tomnomnom/gf ; go mod tidy
