@@ -176,6 +176,12 @@ fi
   eget "sharkdp/fd" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/fd" && ln -s "$HOME/bin/fd" "$HOME/bin/fd-find"
   #feroxbuster
   eget "epi052/feroxbuster" --asset "linux" --asset "zip" --to "$HOME/bin/feroxbuster"
+  #fget
+  pushd $(mktemp -d) && mkdir fget && cd fget
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/main.go"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/go.mod"
+  go get github.com/Azathothas/Arsenal/fget
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./fget" ; mv "./fget" "$HOME/bin/fget" ; popd ; go clean -cache -fuzzcache -modcache 
   #Findomain
   eget "Findomain/Findomain" --asset "findomain-linux.zip" --asset "^386" --to "$HOME/bin/findomain"
   #fingerprintx
