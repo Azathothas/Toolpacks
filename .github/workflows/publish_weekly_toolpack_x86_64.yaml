@@ -61,6 +61,13 @@ jobs:
           sudo chmod +xwr "/usr/local/bin/eget"
         continue-on-error: true
 
+      - name: Install Crystal
+        if: env.versions_same != 'true'
+        run: |
+          #https://crystal-lang.org/install/on_ubuntu/
+          curl -fsSL https://crystal-lang.org/install.sh | sudo bash
+        continue-on-error: true
+
       - name: Install 7z
         run: |
           set -x ; set +e
