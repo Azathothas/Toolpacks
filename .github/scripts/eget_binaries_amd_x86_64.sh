@@ -398,6 +398,10 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #nnn
   eget "jarun/nnn" --asset "musl-static" --asset "x86_64" --to "$HOME/bin/nnn"
+  #noir
+  pushd $(mktemp -d) && git clone "https://github.com/hahwul/noir" && cd noir
+  shards build --release --no-debug --production --static ; mv "./bin/noir" "$HOME/bin/noir" ; popd
+  #staticx --loglevel DEBUG "$HOME/bin/noir" --strip "$HOME/bin/noir_staticx"
   #notify
   eget "projectdiscovery/notify" --asset "amd64" --asset "linux" --to "$HOME/bin/notify"
   #nrich
@@ -576,6 +580,9 @@ fi
   pyinstaller --strip --onefile "./viewgen.py" --noconfirm
   staticx --loglevel DEBUG "./dist/viewgen" --strip "$HOME/bin/viewgen_staticx"
   popd
+  #wadl-dumper
+  pushd $(mktemp -d) && git clone "https://github.com/dwisiswant0/wadl-dumper" && cd wadl-dumper
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./wadl-dumper" "$HOME/bin/wadl-dumper" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #wappalyzergo (Just a library not cli)
   #eget "projectdiscovery/wappalyzergo" --asset "amd64" --asset "linux" --to "$HOME/bin/wappalyzergo"
   #watchexec
