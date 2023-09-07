@@ -109,6 +109,12 @@ fi
   eget "xm1k3/cent" --asset "amd64" --asset "linux" --to "$HOME/bin/cent"
   #Chameleon 
   eget "iustin24/chameleon" --asset "linux" --to "$HOME/bin/chameleon" 
+  #cherrybomb
+  pushd $(mktemp -d) && git clone https://github.com/blst-security/cherrybomb && cd cherrybomb
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/cherrybomb" "$HOMR/bin/cherrybomb"
   #chaos
   eget "projectdiscovery/chaos-client" --asset "amd64" --asset "linux" --to "$HOME/bin/chaos-client"
   #Cloudfox
