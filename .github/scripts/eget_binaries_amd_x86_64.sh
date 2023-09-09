@@ -172,8 +172,10 @@ fi
   find . -type f -name '*.zip*' -exec unzip -o {} \;
   find . -type f -name '*.md' -exec rm {} \;
   #mv "$(find . -type d -name '*x86_64*' -name '*linux*' ! -name '*musl*')/dysk" "$HOME/bin/dysk_gcc"   
-  mv "$(find . -type d -name '*x86_64*' -name '*linux*' -name '*musl*')/dysk" "$HOME/bin/dysk"
-  popd
+  mv "$(find . -type d -name '*x86_64*' -name '*linux*' -name '*musl*')/dysk" "$HOME/bin/dysk" ; popd
+  #encode
+  pushd $(mktemp -d) && git clone "https://github.com/Brum3ns/encode" && cd encode
+C GO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/encode" ; mv "./encode" "$HOME/bin/encode" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #enumerepo
   eget "trickest/enumerepo" --asset "amd64" --to "$HOME/bin/enumerepo"
   #exa
