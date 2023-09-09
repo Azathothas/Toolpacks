@@ -194,6 +194,9 @@ fi
   eget "praetorian-inc/fingerprintx" --asset "amd64" --asset "linux" --to "$HOME/bin/fingerprintx"
   #ffuf
   eget "ffuf/ffuf" --asset "amd64" --asset "linux" --to "$HOME/bin/ffuf"
+  #ffufPostprocessing
+  pushd $(mktemp -d) && git clone "https://github.com/Damian89/ffufPostprocessing" && cd ffufPostprocessing
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./ffufPostprocessing" "$HOME/bin/ffufPostprocessing" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #fzf
   eget "junegunn/fzf" --asset "linux_amd64.tar.gz" --to "$HOME/bin/fzf"
   #gau
