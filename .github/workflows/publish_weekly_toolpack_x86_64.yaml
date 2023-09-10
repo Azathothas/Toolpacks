@@ -93,7 +93,7 @@ jobs:
           # Create Output Dir
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64"
           
-      - name: Download Binaries
+      - name: Download || Build Binaries
         run: |
           eget --rate
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/eget_binaries_amd_x86_64.sh")
@@ -122,8 +122,8 @@ jobs:
         run: |
           cd /tmp ; set +e ; set -x
           # Compress to tar (size ~ orignal_size, maybe slight increase)
-          #tar -cvf /tmp/toolpack_x86_64.tar -C /tmp toolpack_x86_64
-          7z a -r -ttar -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar /tmp/toolpack_x86_64 2>/dev/null
+          tar -cvf /tmp/toolpack_x86_64.tar -C /tmp toolpack_x86_64
+          #7z a -r -ttar -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar /tmp/toolpack_x86_64 2>/dev/null
           sha256sum /tmp/toolpack_x86_64.tar
         continue-on-error: true
 
