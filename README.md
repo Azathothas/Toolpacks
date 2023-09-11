@@ -2,7 +2,7 @@
 Packaged Tools &amp; Binaries all in one place
 ---
 ```bash
-!# Install eget
+!# Install eget: https://github.com/zyedidia/eget
 !# As $USER
 mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
 curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
