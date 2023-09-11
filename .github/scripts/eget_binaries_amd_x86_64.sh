@@ -143,6 +143,11 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #cloudlist
   eget "projectdiscovery/cloudlist" --asset "amd64" --asset "linux" --to "$HOME/bin/cloudlist"
+  #comb
+  pushd $(mktemp -d) && mkdir comb && cd comb
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/main.go"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/go.mod"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./comb" ; mv "./comb" "$HOME/bin/comb" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
   #crlfuzz
   pushd $(mktemp -d) && git clone "https://github.com/dwisiswant0/crlfuzz" && cd crlfuzz
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/crlfuzz" ; mv "./crlfuzz" "$HOME/bin/crlfuzz" ; popd ; go clean -cache -fuzzcache -modcache -testcache
