@@ -556,6 +556,10 @@ fi
   #smap
   pushd $(mktemp -d) && git clone "https://github.com/s0md3v/Smap" && cd Smap
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/smap" ; mv "./smap" "$HOME/bin/smap" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #sns
+  pushd $(mktemp -d) && git clone "https://github.com/sw33tLie/sns" && cd sns
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./sns" "$HOME/bin/sns" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #socat
   eget "Azathothas/static-toolbox" --tag "socat" --asset "x86_64" --to "$HOME/bin/socat"
   #speedtest-go
