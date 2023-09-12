@@ -382,6 +382,10 @@ fi
   #jq
   # this needs to be updated
   eget "jqlang/jq"  --pre-release --tag "jq-1.7rc1" --asset "jq-linux-amd64" --to "$HOME/bin/jq"
+  #jwthack
+  pushd $(mktemp -d) && git clone "https://github.com/hahwul/jwt-hack" && cd jwt-hack
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #katana
   eget "projectdiscovery/katana" --asset "amd64" --asset "linux" --to "$HOME/bin/katana"
   staticx --loglevel DEBUG "$HOME/bin/katana" --strip "$HOME/bin/katana_staticx"
