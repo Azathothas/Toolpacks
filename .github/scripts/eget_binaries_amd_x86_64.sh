@@ -422,7 +422,8 @@ fi
   #massdns
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/massdns/massdns_linux_x86_64_gcc" --to "$HOME/bin/massdns"
   #masscan
-  eget "https://github.com/Azathothas/Static-Binaries/raw/main/masscan/masscan_linux_x86_64_gcc" --to "$HOME/bin/masscan"
+  #Doesn't work
+  #eget "https://github.com/Azathothas/Static-Binaries/raw/main/masscan/masscan_linux_x86_64_gcc" --to "$HOME/bin/masscan"
   #mgwls
   eget "trickest/mgwls" --asset "amd64" --asset "linux" --to "$HOME/bin/mgwls"  
   #micro : https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md
