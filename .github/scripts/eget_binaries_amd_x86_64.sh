@@ -126,6 +126,12 @@ fi
   eget "projectdiscovery/cdncheck" --asset "amd64" --asset "linux" --to "$HOME/bin/cdncheck"
   #cent
   eget "xm1k3/cent" --asset "amd64" --asset "linux" --to "$HOME/bin/cent"
+  #certstream
+  pushd $(mktemp -d) && mkdir certstream && cd certstream
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
+  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/go.mod"
+  go get github.com/Azathothas/Arsenal/certstream
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
   #Chameleon 
   eget "iustin24/chameleon" --asset "linux" --to "$HOME/bin/chameleon" 
   #cherrybomb
@@ -143,12 +149,6 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #cloudlist
   eget "projectdiscovery/cloudlist" --asset "amd64" --asset "linux" --to "$HOME/bin/cloudlist"
-  #certstream
-  pushd $(mktemp -d) && mkdir certstream && cd certstream
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/go.mod"
-  go get github.com/Azathothas/Arsenal/certstream
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
   #comb
   pushd $(mktemp -d) && mkdir comb && cd comb
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/main.go"
