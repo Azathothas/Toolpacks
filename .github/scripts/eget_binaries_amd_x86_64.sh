@@ -314,7 +314,7 @@ fi
   #hakip2host
   pushd $(mktemp -d) && git clone "https://github.com/hakluke/hakip2host" && cd hakip2host
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakip2host" "$HOME/bin/hakip2host" ; popd ; go clean -cache -fuzzcache -modcache -testcache
-  #hakoriginfinder  
+  #hakoriginfinder
   pushd$(mktemp -d) && git clone https://github.com/hakluke/hakoriginfinder && cd hakoriginfinder 
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakoriginfinder" "$HOME/bin/hakoriginfinder" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #hakrawler
@@ -522,7 +522,13 @@ fi
   cd /tmp && git clone https://github.com/root4loot/rescope && cd rescope
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./rescope" "$HOMR/bin/rescope" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #resDNS
-  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/resdns/resdns.sh" --to "$HOME/bin/resdns"  
+  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/resdns/resdns.sh" --to "$HOME/bin/resdns"
+  #revit
+  pushd $(mktemp -d) && git clone "https://github.com/devanshbatham/revit" && cd revit
+  rm go.mod ; rm go.sum ; go mod init github.com/devanshbatham/revit ; go mod tidy
+  go get github.com/devanshbatham/revit/cmd/revit
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/revit" ; mv "./revit" "$HOME/bin/revit" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #ripgen
   pushd $(mktemp -d) && git clone https://github.com/resyncgg/ripgen && cd ripgen
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
