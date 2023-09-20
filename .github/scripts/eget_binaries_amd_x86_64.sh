@@ -674,6 +674,8 @@ fi
   #Web-Cache-Vulnerability-Scanner
   pushd $(mktemp -d) && git clone "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner" && cd Web-Cache-Vulnerability-Scanner
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/Web-Cache-Vulnerability-Scanner" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #WebSocat
+  eget "vi/websocat" --asset "x86_64-unknown-linux-musl" --asset "max" --to "$HOME/bin/websocat"
   #x8
   eget "Sh1Yo/x8" --asset "linux" --to "$HOME/bin/x8"
   # attempt to build a static binary produces dynamic anyway  
