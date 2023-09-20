@@ -305,6 +305,10 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #gping: https://github.com/orf/gping
   eget "orf/gping" --asset "unknown-linux-musl" --asset "linux" --to "$HOME/bin/gping"
+  #GRPCurl
+  pushd $(mktemp -d) && git clone "https://github.com/fullstorydev/grpcurl" && cd grpcurl
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/grpcurl" ; mv "./grpcurl" "$HOME/bin/grpcurl" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #Gxss
   pushd $(mktemp -d) && git clone "https://github.com/KathanP19/Gxss" && cd Gxss
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/Gxss" ; popd ; go clean -cache -fuzzcache -modcache -testcache
