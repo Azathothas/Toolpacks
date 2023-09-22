@@ -328,6 +328,10 @@ fi
   pushd $(mktemp -d) && git clone https://github.com/hakluke/hakrevdns && cd hakrevdns
   go mod init github.com/hakluke/hakrevdns ; go mod tidy
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakrevdns" "$HOME/bin/hakrevdns" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #HEDnsExtractor
+  pushd $(mktemp -d) && git clone "https://github.com/HuntDownProject/HEDnsExtractor" && cd HEDnsExtractor
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/hednsextractor" ; mv "./hednsextractor" "$HOME/bin/hednsextractor" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #hrekt: https://github.com/ethicalhackingplayground/hrekt
   #eget "ethicalhackingplayground/hrekt" --asset "^exe" --to "$HOME/bin/hrekt"
   pushd $(mktemp -d) && git clone https://github.com/ethicalhackingplayground/hrekt && cd hrekt
