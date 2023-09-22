@@ -665,6 +665,10 @@ fi
   #eget "projectdiscovery/wappalyzergo" --asset "amd64" --asset "linux" --to "$HOME/bin/wappalyzergo"
   #watchexec
   eget "https://github.com/borestad/static-binaries/raw/main/x86_64/watchexec" --to "$HOME/bin/watchexec"
+  #waybackrobots
+  pushd $(mktemp -d) && git clone "https://github.com/mhmdiaa/waybackrobots" && cd waybackrobots
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./waybackrobots" "$HOME/bin/waybackrobots" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #waybackurls
   # pre made is static
   #eget "tomnomnom/waybackurls" --asset "amd64" --asset "linux" --to "$HOME/bin/waybackurls"
