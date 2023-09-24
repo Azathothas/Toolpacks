@@ -116,6 +116,10 @@ fi
   #btop
   pushd $(mktemp -d) && curl -qfsSL $(curl -s "https://api.github.com/repos/aristocratos/btop/actions/artifacts" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" && unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
   go clean -cache -fuzzcache -modcache -testcache
+  #BucketLoot
+  pushd $(mktemp -d) && git clone "https://github.com/redhuntlabs/BucketLoot" && cd BucketLoot
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./bucketloot" "$HOME/bin/bucketloot" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #busybox
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/busybox/busybox_amd_x86_64_musl_Linux" --to "$HOME/bin/busybox"
   #byp4xx
