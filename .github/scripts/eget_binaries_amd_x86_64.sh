@@ -703,7 +703,11 @@ fi
   # mv "./target/$TARGET/release/x8" "$HOMR/bin/x8"
   # popd  
   #xurls
-  eget "mvdan/xurls" --asset "linux_amd64" --to "$HOME/bin/xurls" 
+  eget "mvdan/xurls" --asset "linux_amd64" --to "$HOME/bin/xurls"
+  #yalis
+  pushd $(mktemp -d) && git clone "https://github.com/EatonChips/yalis" && cd yalis
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./yalis" "$HOME/bin/yalis" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #yataf
   pushd $(mktemp -d) && git clone https://github.com/Damian89/yataf && cd yataf
   CGO_ENABLED=0 go build -o "yataf_amd_x86_64_Linux" -v -ldflags="-s -w -extldflags '-static'"
