@@ -529,10 +529,12 @@ fi
   #recollapse
   pushd $(mktemp -d) && git clone https://github.com/0xacb/recollapse && cd recollapse
   pip install --upgrade -r requirements.txt ; mv "./recollapse" "./recollapse.py"
-  pyinstaller --clean "./recollapse.py" --noconfirm
-  pyinstaller --strip --onefile "./recollapse.py" --noconfirm
-  staticx --loglevel DEBUG "./dist/recollapse" --strip "$HOME/bin/recollapse_staticx"
-  popd
+  pyinstaller --clean "./recollapse.py" --noconfirm ; pyinstaller --strip --onefile "./recollapse.py" --noconfirm
+  staticx --loglevel DEBUG "./dist/recollapse" --strip "$HOME/bin/recollapse_staticx" ; popd
+  #reptyr
+  pushd $(mktemp -d) && git clone "https://github.com/nelhage/reptyr" && cd reptyr
+  make CFLAGS="-MD -Wall -Werror -D_GNU_SOURCE -g -static $CFLAGS" LDFLAGS="-static $LDFLAGS" all
+  strip "./reptyr" ; mv "./reptyr" "$HOME/bin/reptyr" ; popd
   #rescope
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
