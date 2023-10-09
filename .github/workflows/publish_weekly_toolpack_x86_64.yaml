@@ -173,7 +173,7 @@ jobs:
           NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')
           echo "NEPALI_TIME=$NEPALI_TIME" >> $GITHUB_ENV
           
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           repository: ./main        
           commit_user_name: Azathothas # defaults to "github-actions[bot]"
