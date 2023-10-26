@@ -83,6 +83,8 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #aix
   eget "projectdiscovery/aix" --asset "amd64" --asset "linux" --to "$HOME/bin/aix"
+  #alist
+  eget "alist-org/alist" --asset "amd64" --asset "linux" --asset "musl" --to "$HOME/bin/alist"
   #alterx
   eget "projectdiscovery/alterx" --asset "amd64" --asset "linux" --to "$HOME/bin/alterx"
   #amass
@@ -156,6 +158,8 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #cloudlist
   eget "projectdiscovery/cloudlist" --asset "amd64" --asset "linux" --to "$HOME/bin/cloudlist"
+  #cloudreve
+  eget "cloudreve/Cloudreve" --asset "amd64" --asset "linux" --file "cloudreve" --to "$HOME/bin/cloudreve"
   #comb
   pushd $(mktemp -d) && mkdir comb && cd comb
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/main.go"
@@ -386,6 +390,8 @@ fi
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/go.mod"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
+  #iperf3
+  eget "userdocs/iperf3-static" --asset "iperf3-amd64" --to "$HOME/bin/iperf3"
   #interactsh-client
   eget "projectdiscovery/interactsh" --asset "amd64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
   #jaeles
@@ -521,6 +527,8 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #puredns
   eget "d3mondev/puredns" --asset "amd64" --to "$HOME/bin/puredns"
+  #Qbittorent-nox
+  eget "userdocs/qbittorrent-nox-static" --asset "x86_64-qbittorrent-nox" --to "$HOME/bin/qbittorrent-nox"
   #qsreplace
   pushd $(mktemp -d) && git clone "https://github.com/tomnomnom/qsreplace" && cd qsreplace
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd ; go clean -cache -fuzzcache -modcache -testcache
