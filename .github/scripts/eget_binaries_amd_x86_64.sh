@@ -194,14 +194,11 @@ fi
   eget "projectdiscovery/dnsx" --asset "amd64" --asset "linux" --to "$HOME/bin/dnsx"
   #dirstat-rs
   pushd $(mktemp -d) && git clone https://github.com/scullionw/dirstat-rs && cd dirstat-rs
-  export TARGET="x86_64-unknown-linux-gnu"
-  rustup target add "$TARGET"
-  export RUSTFLAGS="-C target-feature=+crt-static" 
-  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
-  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release
-  mv "./target/$TARGET/release/ds" "$HOMR/bin/ds"
-  popd  
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ds" "$HOMR/bin/ds" ; popd
+  #doggo
+  eget "mr-karan/doggo" --asset "linux" --asset "amd64" --to "$HOME/bin/doggo"
   #dsieve
   eget "trickest/dsieve" --asset "amd64" --to "$HOME/bin/dsieve"
   #duf
@@ -357,12 +354,9 @@ fi
   # popd
   #htmlq
   #eget "mgdm/htmlq" --asset "x86_64-linux.tar.gz" --to "$HOME/bin/htmlq"
-  pushd $(mktemp -d) && git clone https://github.com/mgdm/htmlq && cd htmlq
-  export TARGET="x86_64-unknown-linux-gnu"
-  rustup target add "$TARGET"
-  export RUSTFLAGS="-C target-feature=+crt-static" 
-  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
-  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  pushd $(mktemp -d) && git clone "https://github.com/mgdm/htmlq" && cd "./htmlq"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release
   file "./target/$TARGET/release/htmlq" ; ldd "./target/$TARGET/release/htmlq" ; ls "./target/$TARGET/release/htmlq" -lah
   mv "./target/$TARGET/release/htmlq" "$HOMR/bin/htmlq" ; popd
@@ -396,8 +390,7 @@ fi
   #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   unset RUSTFLAGS ; cargo build --target "$TARGET" --release
   mv "./target/$TARGET/release/jless" "$HOME/bin/jless_dynamic"
-  staticx --loglevel DEBUG "$HOME/bin/jless_dynamic" --strip "$HOME/bin/jless_staticx"
-  popd
+  staticx --loglevel DEBUG "$HOME/bin/jless_dynamic" --strip "$HOME/bin/jless_staticx" ; popd
   #jq
   # this needs to be updated
   eget "jqlang/jq"  --pre-release --tag "jq-1.7rc1" --asset "jq-linux-amd64" --to "$HOME/bin/jq"
