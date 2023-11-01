@@ -348,26 +348,12 @@ fi
   #hrekt: https://github.com/ethicalhackingplayground/hrekt
   #eget "ethicalhackingplayground/hrekt" --asset "^exe" --to "$HOME/bin/hrekt"
   pushd $(mktemp -d) && git clone https://github.com/ethicalhackingplayground/hrekt && cd hrekt
-  export TARGET="x86_64-unknown-linux-gnu"
-  rustup target add "$TARGET"
-  export RUSTFLAGS="-C target-feature=+crt-static" 
-  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET"
+  export RUSTFLAGS="-C target-feature=+crt-static" ; sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release
-  mv "./target/$TARGET/release/hrekt" "$HOMR/bin/hrekt"
-  popd
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/hrekt" "$HOMR/bin/hrekt" ; popd
   #hxn
   eget "pwnwriter/haylxon" --asset "linux" --asset "musl" --asset "^.sha512" --to "$HOME/bin/hxn" && ln -s "$HOME/bin/hxn" "$HOME/bin/haylxon"
-  # attempt to build a static binary produces dynamic anyway
-  # pushd $(mktemp -d) && git clone https://github.com/pwnwriter/haylxon && cd haylxon
-  # export TARGET="x86_64-unknown-linux-gnu"
-  # rustup target add "$TARGET"
-  # export RUSTFLAGS="-C target-feature=+crt-static" 
-  # sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
-  # echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  # cargo build --target "$TARGET" --release
-  # file "./target/$TARGET/release/hxn" ; ldd "./target/$TARGET/release/hxn" ; ls "./target/$TARGET/release/hxn" -lah
-  # mv "./target/$TARGET/release/hxn" "$HOMR/bin/hxn"
   # popd
   #htmlq
   #eget "mgdm/htmlq" --asset "x86_64-linux.tar.gz" --to "$HOME/bin/htmlq"
@@ -419,6 +405,8 @@ fi
   pushd $(mktemp -d) && git clone "https://github.com/hahwul/jwt-hack" && cd jwt-hack
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #kanha
+  eget "pwnwriter/kanha" --asset "linux" --asset "musl" --asset "^.sha512" --to "$HOME/bin/kanha"
   #katana
   eget "projectdiscovery/katana" --asset "amd64" --asset "linux" --to "$HOME/bin/katana"
   staticx --loglevel DEBUG "$HOME/bin/katana" --strip "$HOME/bin/katana_staticx"
