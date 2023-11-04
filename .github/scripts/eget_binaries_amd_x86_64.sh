@@ -301,6 +301,10 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./fasttld" "./cmd/main.go" ; mv "./fasttld" "$HOME/bin/fasttld" ; popd
   #gofireprox
   eget "mr-pmillz/gofireprox" --asset "amd64" --asset "linux" --to "$HOME/bin/gofireprox"
+  #goop
+  pushd $(mktemp -d) && git clone "https://github.com/nyancrimew/goop" && cd "./goop"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #gorilla
   pushd $(mktemp -d) && git clone https://github.com/d4rckh/gorilla && cd gorilla
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
