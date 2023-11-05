@@ -697,7 +697,7 @@
 | **iperf3-static** | 3.15 | Static libraries for iperf3 | https://github.com/esnet/iperf |
 | **ipfs** | 0.23.0 | A peer-to-peer hypermedia distribution protocol | https://ipfs.io/ |
 | **ipmitool** | 1.8.19 | Command-line interface to IPMI-enabled devices | https://github.com/ipmitool/ipmitool |
-| **iproute2** | 6.5.0 | Utilities for controlling networking | https://wiki.linuxfoundation.org/networking/iproute2 |
+| **iproute2** | 6.6.0 | Utilities for controlling networking | https://wiki.linuxfoundation.org/networking/iproute2 |
 | **ipv6calc** | 4.1.0 | Does some format changes and calculations of IPv6 addresses | https://www.deepspace6.net/projects/ipv6calc.html |
 | **ipv6toolkit** | 2022.09.30-2 | SI6 Networks IPv6 Toolkit | https://www.si6networks.com/research/tools/ipv6toolkit/ |
 | **ircd-irc2** | 2.11.2p3-1 | An Internet Relay Chat (IRC) daemon | http://www.irc.org/ |
@@ -2413,7 +2413,7 @@
 | **walk** | 1.7.0 | A terminal file manager | https://github.com/antonmedv/walk |
 | **wapm** | 0.5.9 | WebAssembly Package Manager | https://github.com/wasmerio/wapm-cli |
 | **wasi-libc** | 20 | Libc for WebAssembly programs built on top of WASI system calls | https://wasi.dev/ |
-| **wasmedge** | 0.13.4-1 | A lightweight, high-performance, and extensible WebAssembly runtime | https://wasmedge.org/ |
+| **wasmedge** | 0.13.5 | A lightweight, high-performance, and extensible WebAssembly runtime | https://wasmedge.org/ |
 | **watchexec** | 1.22.3 | Executes commands in response to file modifications | https://github.com/watchexec/watchexec |
 | **wavpack** | 5.6.0 | WavPack command-line programs | https://www.wavpack.com/ |
 | **waypipe** | 0.8.6 | A proxy for Wayland clients | https://gitlab.freedesktop.org/mstoeckl/waypipe |
