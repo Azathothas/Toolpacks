@@ -40,7 +40,7 @@ jobs:
            echo '---' >> "./Info/Packages/Termux/README.md"
            echo "|Package | Version | Description | Homepage |" >> "./Info/Packages/Termux/README.md"
            echo "|--------|---------|-------------|----------|" >> "./Info/Packages/Termux/README.md"
-           cat "./Packages/Termux/termux.pkgs" >> "./Info/Packages/Termux/README.md"
+           cat "./Info/Packages/Termux/termux.pkgs" >> "./Info/Packages/Termux/README.md"
            echo -e "" >> "./Info/Packages/Termux/README.md"
            echo '---' >> "./Info/Packages/Termux/README.md"
         working-directory: main
