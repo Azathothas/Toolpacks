@@ -252,6 +252,8 @@ fi
   #ffufPostprocessing
   pushd $(mktemp -d) && git clone "https://github.com/Damian89/ffufPostprocessing" && cd ffufPostprocessing
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./ffufPostprocessing" "$HOME/bin/ffufPostprocessing" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #filebrowser : https://github.com/filebrowser/filebrowser
+  eget "filebrowser/filebrowser" --asset "linux" --asset "amd" --asset "64" --to "$HOME/bin/filebrowser"
   #fuzzuli
   pushd $(mktemp -d) && git clone "https://github.com/musana/fuzzuli" && cd fuzzuli
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./fuzzuli" "$HOME/bin/fuzzuli" ; popd
@@ -649,7 +651,9 @@ fi
   #ssh-keys
   eget "Eun/sshkeys" --asset "linux_amd64.tar.gz" --to "$HOME/bin/sshkeys"  
   #starship
-  eget "starship/starship" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/starship"  
+  eget "starship/starship" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/starship"
+  #https://github.com/abhimanyu003/sttr
+  eget "abhimanyu003/sttr" --asset "amd" --asset "64" --asset "tar.gz" --to "$HOME/bin/sttr"
   #strace
   eget "Azathothas/static-toolbox" --tag "strace" --asset "x86_64" --to "$HOME/bin/strace"
   #subfinder
@@ -711,6 +715,8 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #upx
   eget "https://github.com/borestad/static-binaries/raw/main/x86_64/upx" --to "$HOME/bin/upx"
+  #vhs: https://github.com/charmbracelet/vhs
+  eget "charmbracelet/vhs" --asset "Linux" --asset "x86_64" --asset "^sbom" --asset "vhs" --to "$HOME/bin/vhs"
   #viewgen
   pushd $(mktemp -d) && git clone https://github.com/0xacb/viewgen && cd viewgen
   pip install --upgrade -r requirements.txt ; mv "./viewgen" "./viewgen.py"
