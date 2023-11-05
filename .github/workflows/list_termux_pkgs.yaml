@@ -1,0 +1,67 @@
+name: 💾 Fetch || ⏫ Update Termux Package Registry 📦
+#MAX_RUNTIME: ~ 03 mins
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"  # Every 12 Hrs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:        
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          path: main
+
+      - name: Setup Env
+        run: |
+          # Create Output Dir
+          mkdir -p "$GITHUB_WORKSPACE/main/Info/Packages/Termux"
+
+      - name: Fetch || Update Termux Package Registry (Docker --> termux/termux-docker)
+        run: |
+          docker run --privileged --name termux \
+            termux/termux-docker:latest \
+            bash -c 'apt-get clean && apt-get update; for pkg in $(apt-cache pkgnames | sort -u); do version=$(apt-cache show $pkg | grep -m 1 "Version:" | cut -c 10-); description=$(apt-cache show $pkg | grep -m 1 "Description:" | cut -c 14-); homepage=$(apt-cache show $pkg | grep -m 1 "Homepage:" | cut -c 11-); echo "| **$pkg** | $version | $description | $homepage |"; done > termux.pkgs'
+          #Copy 
+          docker cp "termux:/data/data/com.termux/files/home/termux.pkgs" "$GITHUB_WORKSPACE/main/Info/Packages/Termux/termux.pkgs"
+        continue-on-error: false  
+
+      - name: Update README.md
+        run: |
+           cd "$GITHUB_WORKSPACE/main"
+           echo -e "" > "./Info/Packages/Termux/README.md"
+           echo '---' >> "./Info/Packages/Termux/README.md"
+           echo "|Package | Version | Description | Homepage |" >> "./Info/Packages/Termux/README.md"
+           echo "|--------|---------|-------------|----------|" >> "./Info/Packages/Termux/README.md"
+           cat "./Packages/Termux/termux.pkgs" >> "./Info/Packages/Termux/README.md"
+           echo -e "" >> "./Info/Packages/Termux/README.md"
+           echo '---' >> "./Info/Packages/Termux/README.md"
+        working-directory: main
+        continue-on-error: false
+
+      - name: Get DateTime
+        run: |
+          # Date Time
+          NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')
+          echo "NEPALI_TIME=$NEPALI_TIME" >> $GITHUB_ENV
+          
+      - name: Git Pull
+        run: |
+           cd "$GITHUB_WORKSPACE/main" && git pull origin main
+        continue-on-error: true
+        
+   #Commit & Push
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          repository: ./main
+          commit_user_name: Azathothas # defaults to "github-actions[bot]"
+          commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "✅ Update Termux pkg Registry 📦 <-- ${{ env.NEPALI_TIME }} ⌚"
+          #push_options: '--force'
