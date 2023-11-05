@@ -7,7 +7,7 @@ on:
     - cron: "0 */12 * * *"  # Every 12 Hrs
 
 jobs:
-  build:
+  fetch:
     runs-on: ubuntu-latest
     
     permissions:
