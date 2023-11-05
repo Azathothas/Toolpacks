@@ -152,10 +152,11 @@ jobs:
            echo -e "" >> ./x86_64/README.md
            echo '---' >> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
-           echo '- #### Sizes' >> ./x86_64/README.md 
+           echo '- #### Sizes' >> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
-           echo '```console' >> ./x86_64/README.md       
+           echo '```console' >> ./x86_64/README.md    
            /bin/bash -c 'PS4="$ ";ls -lh ./x86_64/* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> ./x86_64/README.md
+           echo -e "\n[+] Total Size: $(du -h ./x86_64 | awk '{print $1}')\n"
            echo '```' >> ./x86_64/README.md     
            echo -e "" >> ./x86_64/README.md        
            echo '---' >> ./x86_64/README.md 
@@ -504,8 +505,8 @@ jobs:
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.tar.bz2 | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md           
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.zip | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
-          echo '```' >> /tmp/RELEASE_NOTE.md         
-          echo -e "" >> /tmp/RELEASE_NOTE.md                  
+          echo '```' >> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
         continue-on-error: true
           
       - name: Get Safe_DateTime
