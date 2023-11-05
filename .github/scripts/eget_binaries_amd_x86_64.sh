@@ -96,6 +96,8 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./analyticsrelationships" "$HOME/bin/analyticsrelationships" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #anew
   eget "tomnomnom/anew" --asset "amd64" --asset "linux" --to "$HOME/bin/anew"
+  #https://github.com/rcoh/angle-grinder
+  eget "rcoh/angle-grinder" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/agrind"
   #aria2c
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux" --to "$HOME/bin/aria2c"
   #assetfinder
@@ -113,6 +115,8 @@ fi
   eget "atuinsh/atuin" --asset "unknown-linux-musl" --to "$HOME/bin/atuin"
   #batcat
   eget "sharkdp/bat" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/bat" && ln -s "$HOME/bin/bat" "$HOME/bin/batcat"
+  #https://github.com/sharkdp/binocle
+  eget "sharkdp/binocle" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/binocle"
   #bore
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/bore/bore_amd_x86_64_musl_Linux" --to "$HOME/bin/bore"
   #bottom
@@ -165,6 +169,10 @@ fi
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/go.mod"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./comb" ; mv "./comb" "$HOME/bin/comb" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
+  #https://github.com/containerd/containerd
+  eget "containerd/containerd" --asset "linux" --asset "static" --asset "amd" --asset "64" --asset "^sha256sum" --to "$HOME/bin/containerd"
+  #https://github.com/kubernetes-sigs/cri-tools
+  eget "kubernetes-sigs/cri-tools" --asset "crictl" --asset "linux" --asset "amd" --asset "^sha" --to "$HOME/bin/crictl"
   #crlfuzz
   pushd $(mktemp -d) && git clone "https://github.com/dwisiswant0/crlfuzz" && cd crlfuzz
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/crlfuzz" ; mv "./crlfuzz" "$HOME/bin/crlfuzz" ; popd ; go clean -cache -fuzzcache -modcache -testcache
@@ -187,16 +195,20 @@ fi
   go clean -cache -fuzzcache -modcache -testcache 
   #dalfox
   eget "hahwul/dalfox" --asset "amd64" --to "$HOME/bin/dalfox"
-  #dnstake
-  pushd $(mktemp -d) && git clone "https://github.com/pwnesia/dnstake" && cd dnstake
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/dnstake" ; mv "./dnstake" "$HOME/bin/dnstake" ; popd ; go clean -cache -fuzzcache -modcache -testcache
-  #dnsx
-  eget "projectdiscovery/dnsx" --asset "amd64" --asset "linux" --to "$HOME/bin/dnsx"
   #dirstat-rs
   pushd $(mktemp -d) && git clone https://github.com/scullionw/dirstat-rs && cd dirstat-rs
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ds" "$HOMR/bin/ds" ; popd
+  #dns-doctor
+  pushd $(mktemp -d) && git clone "https://github.com/jvns/dns-doctor" && cd "./dns-doctor"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./dns-doctor" "$HOME/bin/dns-doctor" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
+  #dnstake
+  pushd $(mktemp -d) && git clone "https://github.com/pwnesia/dnstake" && cd dnstake
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/dnstake" ; mv "./dnstake" "$HOME/bin/dnstake" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #dnsx
+  eget "projectdiscovery/dnsx" --asset "amd64" --asset "linux" --to "$HOME/bin/dnsx"
   #doggo
   eget "mr-karan/doggo" --asset "linux" --asset "amd64" --to "$HOME/bin/doggo"
   #dsieve
@@ -292,6 +304,8 @@ fi
   eget "gitleaks/gitleaks" --asset "linux_x64.tar.gz" --to "$HOME/bin/gitleaks"
   #gitui
   eget "extrawurst/gitui" --asset "gitui-linux-musl.tar.gz" --to "$HOME/bin/gitui"
+  #https://github.com/charmbracelet/glow
+  eget "charmbracelet/glow" --asset "Linux" --asset "x86_64" --asset "^sbom" --to "$HOME/bin/glow"
   #gobuster
   eget "OJ/gobuster" --asset "Linux_x86_64.tar.gz" --to "$HOME/bin/gobuster"
   #godns
@@ -349,6 +363,8 @@ fi
   pushd $(mktemp -d) && git clone "https://github.com/HuntDownProject/HEDnsExtractor" && cd HEDnsExtractor
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/hednsextractor" ; mv "./hednsextractor" "$HOME/bin/hednsextractor" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #https://github.com/sharkdp/hexyl
+  eget "sharkdp/hexyl" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/hexyl"
   #hrekt: https://github.com/ethicalhackingplayground/hrekt
   #eget "ethicalhackingplayground/hrekt" --asset "^exe" --to "$HOME/bin/hrekt"
   pushd $(mktemp -d) && git clone https://github.com/ethicalhackingplayground/hrekt && cd hrekt
@@ -372,6 +388,8 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./httprobe" "$HOME/bin/httprobe" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #httpx
   eget "projectdiscovery/httpx" --asset "amd64" --asset "linux" --to "$HOME/bin/httpx"
+  #https://github.com/sharkdp/hyperfine
+  eget "sharkdp/hyperfine" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/hyperfine"
   #inscope
   pushd $(mktemp -d) && mkdir inscope && cd inscope
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/main.go"
@@ -415,12 +433,16 @@ fi
   #ksubdomain
   eget "boy-hack/ksubdomain" --asset "linux.tar" --to "$HOME/bin/ksubdomain"
   staticx --loglevel DEBUG "$HOME/bin/ksubdomain" --strip "$HOME/bin/ksubdomain_staticx"
+  #https://github.com/jesseduffield/lazydocker
+  eget "jesseduffield/lazydocker" --asset "Linux" --asset "x86_64" --to "$HOME/bin/lazydocker"
   #lit-bb-hack-tools
   pushd $(mktemp -d) && git clone https://github.com/edoardottt/lit-bb-hack-tools && cd lit-bb-hack-tools
   find . -type f -name '*.md' -exec rm {} \;
   find . -maxdepth 1 -type d ! -name '.git*' -exec sh -c 'CGO_ENABLED=0 go build -o "$1/$1_amd_x86_64_Linux" -v -a -gcflags=all="-l -B -wb=false" -ldflags="-s -w -extldflags '\''-static'\''" "$1/"*' _ {} \;
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/" \;
   popd ; go clean -cache -fuzzcache -modcache -testcache
+  #https://github.com/tstack/lnav
+  eget "tstack/lnav" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/lnav"
   #logtimer
   eget "Eun/logtimer" --asset "linux" --asset "x86_64.tar.gz" --to "$HOME/bin/logtimer"
   #mantra
@@ -455,6 +477,8 @@ fi
   staticx --loglevel DEBUG "$HOME/bin/naabu" --strip "$HOME/bin/naabu_staticx"
   #ncdu
   eget "https://dev.yorhel.nl$(curl -qfsSL https://dev.yorhel.nl/ncdu | awk -F '"' '/x86_64\.tar\.gz/ && /href=/{print $2}' | grep -v 'asc' | sort -u)" --to "$HOME/bin/ncdu"
+  #https://github.com/containerd/nerdctl
+  eget "containerd/nerdctl" --asset "linux" --asset "amd" --asset "64" --asset "^full" --asset "nerdctl" --to "$HOME/bin/nerdctl"
   #ngrok
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/ngrok/ngrok_amd_x86_64_Linux" --to "$HOME/bin/ngrok"
   #nmap
@@ -515,6 +539,9 @@ fi
   pushd $(mktemp -d) && git clone "https://github.com/projectdiscovery/proxify" && cd proxify
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/proxify" ; mv "./proxify" "$HOME/bin/proxify" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #https://github.com/Nukesor/pueue
+  eget "Nukesor/pueue" --asset "linux" --asset "x86_64" --asset "^pueued" --to "$HOME/bin/pueue"
+  eget "Nukesor/pueue" --asset "linux" --asset "x86_64" --asset "pueued" --to "$HOME/bin/pueued"
   #puredns
   eget "d3mondev/puredns" --asset "amd64" --to "$HOME/bin/puredns"
   #Qbittorent-nox
@@ -558,9 +585,13 @@ fi
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ripgen" "$HOME/bin/ripgen" ; popd
   #ripgrep
   eget "BurntSushi/ripgrep" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/ripgrep" && ln -s "$HOME/bin/ripgrep" "$HOME/bin/rg"
+  #https://github.com/phiresky/ripgrep-all
+  eget "phiresky/ripgrep-all" --asset "linux" --asset "musl" --asset "x86_64" --file "rga" --to "$HOME/bin/rga"
   #roboxtractor
   pushd $(mktemp -d) && git clone "https://github.com/Josue87/roboxtractor" && cd roboxtractor
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./roboxtractor" "$HOME/bin/roboxtractor" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #https://github.com/opencontainers/runc
+  eget "opencontainers/runc" --asset "amd" --asset "64" --asset "^asc" --to "$HOME/bin/runc"
   #rush
   eget "shenwei356/rush" --asset "rush_linux_amd64.tar.gz" --to "$HOME/bin/rush"
   #Rustscan --> build this, releases are outdated
@@ -647,6 +678,8 @@ fi
   eget "mgunyho/tere" --asset "x86_64-unknown-linux-musl.zip" --to "$HOME/bin/tere" 
   #tlsx
   eget "projectdiscovery/tlsx" --asset "amd64" --asset "linux" --to "$HOME/bin/tlsx"
+  #https://github.com/tmate-io/tmate
+  eget "tmate-io/tmate" --asset "linux" --asset "amd" --asset "64" --asset "^symbol" --to "$HOME/bin/tmate"
   #tmux
   eget "Azathothas/static-toolbox" --tag "tmux" --asset "tmux_amd_x86_64_Linux" --asset "^gz" --asset "^bz2" --to "$HOME/bin/tmux"
   #tok
@@ -681,10 +714,10 @@ fi
   #viewgen
   pushd $(mktemp -d) && git clone https://github.com/0xacb/viewgen && cd viewgen
   pip install --upgrade -r requirements.txt ; mv "./viewgen" "./viewgen.py"
-  pyinstaller --clean "./viewgen.py" --noconfirm
-  pyinstaller --strip --onefile "./viewgen.py" --noconfirm
-  staticx --loglevel DEBUG "./dist/viewgen" --strip "$HOME/bin/viewgen_staticx"
-  popd
+  pyinstaller --clean "./viewgen.py" --noconfirm ; pyinstaller --strip --onefile "./viewgen.py" --noconfirm
+  staticx --loglevel DEBUG "./dist/viewgen" --strip "$HOME/bin/viewgen_staticx" ; popd
+  #https://github.com/sachaos/viddy
+  eget "sachaos/viddy" --asset "Linux" --asset "x86_64" --to "$HOME/bin/viddy"
   #wadl-dumper
   pushd $(mktemp -d) && git clone "https://github.com/dwisiswant0/wadl-dumper" && cd wadl-dumper
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./wadl-dumper" "$HOME/bin/wadl-dumper" ; popd ; go clean -cache -fuzzcache -modcache -testcache
@@ -737,6 +770,10 @@ fi
   pushd $(mktemp -d) && git clone "https://github.com/zmap/zdns" && cd zdns
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./zdns" "$HOME/bin/zdns" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #https://github.com/zellij-org/zellij
+  eget "zellij-org/zellij" --asset "linux" --asset "musl" --asset "x86_64" --asset "^sha256sum" --to "$HOME/bin/zellij"
+  #https://github.com/bvaisvil/zenith
+  eget "bvaisvil/zenith" --asset "linux" --asset "musl" --asset "^sha256" --to "$HOME/bin/zenith"
   #zgrab2
   pushd $(mktemp -d) && git clone "https://github.com/zmap/zgrab2" && cd zgrab2
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/zgrab2" ; mv "./zgrab2" "$HOME/bin/zgrab2" ; popd
