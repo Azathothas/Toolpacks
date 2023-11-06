@@ -372,10 +372,10 @@
 | **eltclsh** | 1.19 | Interactive shell for TCL programming language | https://homepages.laas.fr/mallet/soft/shell/eltclsh |
 | **elvish** | 0.19.2-2 | A friendly and expressive Unix shell | https://github.com/elves/elvish |
 | **emacs** | 29.1-1 | Extensible, customizable text editor-and more | https://www.gnu.org/software/emacs/ |
-| **emscripten** | 3.1.47 | Emscripten: An LLVM-to-WebAssembly Compiler | https://emscripten.org |
-| **emscripten-binaryen** | 3.1.47 | Emscripten-compatible Binaryen | https://emscripten.org |
-| **emscripten-llvm** | 3.1.47 | Emscripten-compatible LLVM | https://emscripten.org |
-| **emscripten-tests-third-party** | 3.1.47 | Emscripten third party test suite files | https://emscripten.org |
+| **emscripten** | 3.1.48 | Emscripten: An LLVM-to-WebAssembly Compiler | https://emscripten.org |
+| **emscripten-binaryen** | 3.1.48 | Emscripten-compatible Binaryen | https://emscripten.org |
+| **emscripten-llvm** | 3.1.48 | Emscripten-compatible LLVM | https://emscripten.org |
+| **emscripten-tests-third-party** | 3.1.48 | Emscripten third party test suite files | https://emscripten.org |
 | **enblend** | 4.2.0p20161007-2 | A tool for compositing images using a Burt&Adelson multiresolution spline | http://enblend.sourceforge.net/ |
 | **enchant** | 2.6.2 | Wraps a number of different spelling libraries and programs with a consistent interface | https://abiword.github.io/enchant/ |
 | **enchant-static** | 2.6.2 | Static libraries for enchant | https://abiword.github.io/enchant/ |
@@ -1520,7 +1520,7 @@
 | **luajit** | 1:2.1.0-beta3-3 | Just-In-Time compiler for Lua - command line tool | https://luajit.org/ |
 | **luarocks** | 3.9.2 | Deployment and management system for Lua modules | https://luarocks.org/ |
 | **luv** | 1.45.0-0-0 | Bare libuv bindings for lua | https://github.com/luvit/luv |
-| **lux** | 0.21.0 | CLI tool to download videos from various websites | https://github.com/iawia002/lux |
+| **lux** | 0.22.0 | CLI tool to download videos from various websites | https://github.com/iawia002/lux |
 | **lv2** | 1.18.10-1 | A plugin standard for audio systems | https://lv2plug.in/ |
 | **lychee** | 0.13.0 | A fast, async, resource-friendly link checker written in Rust | https://github.com/lycheeverse/lychee |
 | **lynx** | 2.8.9rel.1-7 | The text web browser | http://lynx.browser.org/ |
@@ -2166,7 +2166,7 @@
 | **squashfs-tools-ng** | 1.2.0 | New set of tools for working with SquashFS images | https://github.com/AgentD/squashfs-tools-ng |
 | **squashfs-tools-ng-static** | 1.2.0 | Static libraries for squashfs-tools-ng | https://github.com/AgentD/squashfs-tools-ng |
 | **squeezelite** | 1.9.9.1430 | A small headless Logitech Squeezebox emulator | https://ralph-irving.github.io/squeezelite.html |
-| **squid** | 6.4 | Full-featured Web proxy cache server | http://www.squid-cache.org |
+| **squid** | 6.5 | Full-featured Web proxy cache server | http://www.squid-cache.org |
 | **sratom** | 0.6.16 | A small library for serialising LV2 atoms to and from RDF | https://drobilla.net/software/sratom.html |
 | **srelay** | 0.4.8p3-7 | A Free SOCKS proxy server | https://sourceforge.net/projects/socks-relay |
 | **srt-tools** | 1.5.3 | Command-line tools for libsrt | https://github.com/Haivision/srt |
