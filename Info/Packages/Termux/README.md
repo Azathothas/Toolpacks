@@ -26,7 +26,7 @@
 | **age** | 1:1.1.1-2 | A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability | https://github.com/FiloSottile/age |
 | **agg** | 1.4.3 | asciinema gif generator | https://github.com/asciinema/agg |
 | **aha** | 0.5.1 | Converts ANSI escape sequences of a unix terminal to HTML code | https://github.com/theZiz/aha |
-| **aichat** | 0.8.0 | A powerful chatgpt cli | https://github.com/sigoden/aichat |
+| **aichat** | 0.10.0 | A powerful chatgpt cli | https://github.com/sigoden/aichat |
 | **aidl** | 13.0.0.6-9 | Android Interface Definition Language (AIDL) | https://elinux.org/Android_aapt |
 | **alass** | 2.0.0-2 | Automatic Language-Agnostic Subtitle Synchronization | https://github.com/kaegi/alass |
 | **alembic** | 1.8.5 | A framework for sharing scene data that includes a C++ lib, a file format and client plugin | https://alembic.io |
@@ -349,7 +349,7 @@
 | **duc** | 1.4.5 | High-performance disk usage analyzer | http://duc.zevv.nl/ |
 | **duckdb** | 0.9.1 | DuckDB Command Line Interface (CLI) shell | https://duckdb.org/ |
 | **duf** | 0.8.1-3 | Disk usage/free utility | https://github.com/muesli/duf |
-| **dufs** | 0.36.0 | A file server that supports static serving, uploading, searching, accessing control, webdav... | https://github.com/sigoden/dufs |
+| **dufs** | 0.37.1 | A file server that supports static serving, uploading, searching, accessing control, webdav... | https://github.com/sigoden/dufs |
 | **duktape** | 2.7.0 | Simple REPL for Duktape | https://www.duktape.org/ |
 | **dust** | 0.8.6 | A more intuitive version of du in rust | https://github.com/bootandy/dust |
 | **dvdauthor** | 0.7.2-2 | Generates a DVD-Video movie from a valid MPEG-2 stream | https://dvdauthor.sourceforge.net/ |
@@ -399,7 +399,7 @@
 | **fakeroot** | 1.32.1 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.1 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
 | **fasd** | 1.0.2 | To fastly access files and folders | https://github.com/whjvenyl/fasd |
-| **fastfetch** | 2.2.2 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
+| **fastfetch** | 2.2.3 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
 | **fastmod** | 0.4.3 | Regex-based code refactoring utility | https://github.com/facebookincubator/fastmod |
 | **fatsort** | 1.6.5.640 | A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions | https://fatsort.sourceforge.io/ |
 | **fclones** | 0.34.0 | Efficient Duplicate File Finder | https://github.com/pkolaczk/fclones |
@@ -563,8 +563,8 @@
 | **gobject-introspection** | 1.78.1 | Uniform machine readable API | https://gi.readthedocs.io/ |
 | **gogs** | 0.13.0-2 | A painless self-hosted Git service | https://gogs.io |
 | **gojq** | 0.12.13-1 | Pure Go implementation of jq | https://github.com/itchyny/gojq |
-| **golang** | 3:1.21.3 | Go programming language compiler | https://golang.org/ |
-| **golang-doc** | 3:1.21.3 | Go programming language - documentation | https://golang.org/ |
+| **golang** | 3:1.21.4 | Go programming language compiler | https://golang.org/ |
+| **golang-doc** | 3:1.21.4 | Go programming language - documentation | https://golang.org/ |
 | **gomp** | 2023.02.02-2 | MPD client inspired by ncmpcpp with builtin cover-art view and LastFM integration | https://aditya-k2.github.io/gomp/ |
 | **gomuks** | 0.3.0-3 | A terminal Matrix client written in Go | https://maunium.net/go/gomuks/ |
 | **google-drive-upload** | 4.5 | Bash scripts to upload files to google drive | https://github.com/labbots/google-drive-upload |
