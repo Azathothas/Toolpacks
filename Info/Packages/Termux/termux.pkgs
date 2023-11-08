@@ -579,7 +579,7 @@
 | **gpgmepp** | 1.23.1 | Programmatic C++ library interface to GnuPG | https://www.gnupg.org/related_software/gpgme/ |
 | **gpgmepp-static** | 1.23.1 | Static libraries for gpgmepp | https://www.gnupg.org/related_software/gpgme/ |
 | **gpgv** | 2.4.3 | GNU privacy guard - signature verification tool | https://www.gnupg.org/ |
-| **gping** | 1.14.0 | Ping, but with a graph | https://github.com/orf/gping |
+| **gping** | 1.15.1 | Ping, but with a graph | https://github.com/orf/gping |
 | **gpsbabel** | 1.4.4-2 | GPS file conversion plus transfer to/from GPS units | https://www.gpsbabel.org/ |
 | **gradle** | 1:8.4 | Powerful build system for the JVM | https://gradle.org/ |
 | **grafana** | 8.5.27-1 | The open-source platform for monitoring and observability | https://grafana.com/ |
@@ -1078,9 +1078,9 @@
 | **libmariadbcpp** | 1.1.2 | Enables C++ applications to establish client connections to MariaDB Enterprise over TLS | https://mariadb.com/docs/clients/mariadb-connectors/connector-cpp/ |
 | **libmatio** | 1.5.24 | A C library for reading and writing Matlab MAT files | https://github.com/tbeu/matio |
 | **libmatroska** | 1.7.1 | Matroska library | https://dl.matroska.org/downloads/libmatroska/ |
-| **libmaxminddb** | 1.7.1 | MaxMind GeoIP2 database - library and utilities | https://dev.maxmind.com/geoip/geoip2/ |
-| **libmaxminddb-static** | 1.7.1 | Static libraries for libmaxminddb | https://dev.maxmind.com/geoip/geoip2/ |
-| **libmaxminddb-tools** | 1.7.1 | A geoip lookup utility for MaxMind DB | https://dev.maxmind.com/geoip/geoip2/ |
+| **libmaxminddb** | 1.8.0 | MaxMind GeoIP2 database - library and utilities | https://dev.maxmind.com/geoip/geoip2/ |
+| **libmaxminddb-static** | 1.8.0 | Static libraries for libmaxminddb | https://dev.maxmind.com/geoip/geoip2/ |
+| **libmaxminddb-tools** | 1.8.0 | A geoip lookup utility for MaxMind DB | https://dev.maxmind.com/geoip/geoip2/ |
 | **libmcrypt** | 2.5.8-3 | A library which provides a uniform interface to several symmetric encryption algorithms | http://mcrypt.sourceforge.net/ |
 | **libmcrypt-static** | 2.5.8-3 | Static libraries for libmcrypt | http://mcrypt.sourceforge.net/ |
 | **libmd** | 1.1.0 | Message Digest functions from BSD systems | https://www.hadrons.org/software/libmd/ |
@@ -2078,7 +2078,7 @@
 | **sc-im** | 0.8.3-1 | An improved version of sc, a spreadsheet calculator | https://github.com/andmarti1424/sc-im |
 | **scala** | 3.3.1 | Scala 3 compiler and standard library. | https://www.scala-lang.org |
 | **scc** | 3.1.0-3 | Counts physical the lines of code, blank lines, comment lines, and physical lines of source code | https://github.com/boyter/scc |
-| **sccache** | 0.7.0 | sccache is ccache with cloud storage | https://github.com/mozilla/sccache |
+| **sccache** | 0.7.1 | sccache is ccache with cloud storage | https://github.com/mozilla/sccache |
 | **scdaemon** | 2.4.3 | Daemon invoked by gpg to manage smartcards | https://www.gnupg.org/ |
 | **scdoc** | 1.11.2-2 | Small man page generator | https://git.sr.ht/~sircmpwn/scdoc |
 | **scheme48** | 1.9.2 | An implementation of the Scheme programming language | https://www.s48.org/ |
@@ -2119,7 +2119,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.6.1 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.6.2 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
@@ -2455,7 +2455,7 @@
 | **xdelta3** | 3.1.0-1 | xdelta3 - VCDIFF (RFC 3284) binary diff tool | https://github.com/jmacd/xdelta |
 | **xh** | 0.19.4 | A friendly and fast tool for sending HTTP requests | https://github.com/ducaale/xh |
 | **xls2csv** | 1.6.2 | A command-line tool for converting XLS to CSV | https://github.com/libxls/libxls |
-| **xmake** | 2.8.3 | A cross-platform build utility based on Lua | https://xmake.io/ |
+| **xmake** | 2.8.5 | A cross-platform build utility based on Lua | https://xmake.io/ |
 | **xmlsec** | 1.3.1-1 | XML Security Library | https://www.aleksey.com/xmlsec/ |
 | **xmlsec-static** | 1.3.1-1 | Static libraries for xmlsec | https://www.aleksey.com/xmlsec/ |
 | **xmlstarlet** | 1.6.1-5 | Command line XML toolkit | https://xmlstar.sourceforge.net/ |
@@ -2480,7 +2480,7 @@
 | **yarn** | 1.22.19-1 | Fast, reliable, and secure dependency management | https://yarnpkg.com/ |
 | **yasm** | 1.3.0-6 | Assembler supporting the x86 and AMD64 instruction sets | https://yasm.tortall.net/ |
 | **yasm-static** | 1.3.0-6 | Static libraries for yasm | https://yasm.tortall.net/ |
-| **yosys** | 0.34 | A framework for RTL synthesis tools | https://yosyshq.net/yosys/ |
+| **yosys** | 0.35 | A framework for RTL synthesis tools | https://yosyshq.net/yosys/ |
 | **youtubedr** | 2.9.0 | Download youtube video in Golang | https://github.com/kkdai/youtube |
 | **yq** | 4.35.2 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
 | **ytfzf** | 2.6.1 | A POSIX script that helps you find Youtube videos (without API) | https://github.com/pystardust/ytfzf |
