@@ -632,7 +632,7 @@
 | **helix** | 23.10 | A post-modern modal text editor written in rust | https://helix-editor.com/ |
 | **helix-grammars** | 23.10 | Helix grammars | https://helix-editor.com/ |
 | **hello** | 2.12.1-1 | Prints a friendly greeting | https://www.gnu.org/software/hello/ |
-| **helm** | 3.13.1 | Helm helps you manage Kubernetes applications | https://helm.sh |
+| **helm** | 3.13.2 | Helm helps you manage Kubernetes applications | https://helm.sh |
 | **help2man** | 1.49.3 | Conversion tool to create man files | https://www.gnu.org/software/help2man/ |
 | **hexcurse** | 1.60.0-4 | Console hexeditor | https://github.com/LonnyGomes/hexcurse |
 | **hexedit** | 1.6 | view and edit files in hexadecimal or in ASCII | http://rigaux.org/hexedit.html |
@@ -658,7 +658,7 @@
 | **httrack-data** | 3.49.4 | Platform-independent data for httrack | http://www.httrack.com |
 | **httrack-static** | 3.49.4 | Static libraries for httrack | http://www.httrack.com |
 | **hub** | 2.14.2-5 | Command-line wrapper for git that makes you better at GitHub | https://hub.github.com/ |
-| **hugo** | 0.120.3 | A fast and flexible static site generator | https://gohugo.io/ |
+| **hugo** | 0.120.4 | A fast and flexible static site generator | https://gohugo.io/ |
 | **hummin** | 2021.05.18-3 | Command line client for the imperial library of trantor | https://trantor.is/ |
 | **hunspell** | 1.7.2 | Spell checker | https://hunspell.github.io |
 | **hunspell-en-us** | 20210101 | American english dictionary for hunspell | https://hunspell.github.io |
@@ -699,7 +699,7 @@
 | **ipcalc** | 0.51 | Calculates IP broadcast, network, Cisco wildcard mask, and host ranges | http://jodies.de/ipcalc |
 | **iperf3** | 3.15 | TCP, UDP, and SCTP network bandwidth measurement tool | https://github.com/esnet/iperf |
 | **iperf3-static** | 3.15 | Static libraries for iperf3 | https://github.com/esnet/iperf |
-| **ipfs** | 0.23.0 | A peer-to-peer hypermedia distribution protocol | https://ipfs.io/ |
+| **ipfs** | 0.24.0 | A peer-to-peer hypermedia distribution protocol | https://ipfs.io/ |
 | **ipmitool** | 1.8.19 | Command-line interface to IPMI-enabled devices | https://github.com/ipmitool/ipmitool |
 | **iproute2** | 6.6.0 | Utilities for controlling networking | https://wiki.linuxfoundation.org/networking/iproute2 |
 | **ipv6calc** | 4.1.0 | Does some format changes and calculations of IPv6 addresses | https://www.deepspace6.net/projects/ipv6calc.html |
@@ -710,14 +710,14 @@
 | **isync** | 1.4.4 | IMAP and MailDir mailbox synchronizer | http://isync.sourceforge.net |
 | **iverilog** | 12.0 | Icarus Verilog compiler and simulation tool | http://iverilog.icarus.com/ |
 | **iverilog-static** | 12.0 | Static libraries for iverilog | http://iverilog.icarus.com/ |
-| **iwyu** | 0.20-2 | A tool to analyze #includes in C and C++ source files | https://include-what-you-use.org/ |
+| **iwyu** | 0.21 | A tool to analyze #includes in C and C++ source files | https://include-what-you-use.org/ |
 | **jbig2dec** | 0.20 | Decoder implementation of the JBIG2 image compression format | https://jbig2dec.com/ |
 | **jbig2dec-static** | 0.20 | Static libraries for jbig2dec | https://jbig2dec.com/ |
 | **jbig2enc** | 2023.01.08-1 | An encoder for JBIG2 | https://github.com/agl/jbig2enc |
 | **jbig2enc-static** | 2023.01.08-1 | Static libraries for jbig2enc | https://github.com/agl/jbig2enc |
 | **jcal** | 0.4.1 | UNIX-cal-like tool to display Jalali (Persian/Iranian) calendar | http://nongnu.org/jcal |
 | **jcal-static** | 0.4.1 | Static libraries for jcal | http://nongnu.org/jcal |
-| **jfrog-cli** | 2.50.4 | A CLI for JFrog products | https://jfrog.com/getcli |
+| **jfrog-cli** | 2.51.0 | A CLI for JFrog products | https://jfrog.com/getcli |
 | **jftui** | 0.7.2 | jftui is a minimalistic, lightweight C99 command line client for the open source Jellyfin media server. | https://github.com/Aanok/jftui |
 | **jhead** | 3.08 | Exif Jpeg header manipulation tool | http://www.sentex.net/~mwandel/jhead/ |
 | **jigdo** | 0.8.2 | Distribute large images by sending and receiving the files that make them up | http://atterer.org/jigdo/ |
@@ -1292,9 +1292,9 @@
 | **libspice-protocol** | 0.14.4 | SPICE protocol headers | https://www.spice-space.org/ |
 | **libspice-server** | 0.15.1-1 | Implements the server side of the SPICE protocol | https://www.spice-space.org/ |
 | **libspice-server-static** | 0.15.1-1 | Static libraries for libspice-server | https://www.spice-space.org/ |
-| **libsqlite** | 3.43.1 | Library implementing a self-contained and transactional SQL database engine | https://www.sqlite.org |
-| **libsqlite-static** | 3.43.1 | Static libraries for libsqlite | https://www.sqlite.org |
-| **libsqlite-tcl** | 3.43.1 | tcl bindings for SQLite | https://www.sqlite.org |
+| **libsqlite** | 3.44.0 | Library implementing a self-contained and transactional SQL database engine | https://www.sqlite.org |
+| **libsqlite-static** | 3.44.0 | Static libraries for libsqlite | https://www.sqlite.org |
+| **libsqlite-tcl** | 3.44.0 | tcl bindings for SQLite | https://www.sqlite.org |
 | **libsrt** | 1.5.3 | Secure Reliable Transport (SRT) Protocol | https://github.com/Haivision/srt |
 | **libssh** | 0.10.5 | Tiny C SSH library | https://www.libssh.org/ |
 | **libssh2** | 1.11.0 | Client-side library implementing the SSH2 protocol | https://www.libssh2.org |
@@ -1501,8 +1501,8 @@
 | **logo-ls** | 1.3.7-3 | Modern ls command with vscode like File Icon and Git Integrations | https://github.com/Yash-Handa/logo-ls |
 | **logrotate** | 3.21.0 | Simplify the administration of log files on a system which generates a lot of log files | https://github.com/logrotate/logrotate |
 | **loksh** | 7.4 | A Linux port of OpenBSD's ksh | https://github.com/dimkr/loksh |
-| **lowdown** | 1.0.2 | Markdown utilities and library (fork of hoedown -> sundown -> libsoldout) | https://kristaps.bsd.lv/lowdown |
-| **lowdown-static** | 1.0.2 | Static libraries for lowdown | https://kristaps.bsd.lv/lowdown |
+| **lowdown** | 1.1.0 | Markdown utilities and library (fork of hoedown -> sundown -> libsoldout) | https://kristaps.bsd.lv/lowdown |
+| **lowdown-static** | 1.1.0 | Static libraries for lowdown | https://kristaps.bsd.lv/lowdown |
 | **lr** | 1.6 | list files, recursively, includes the best features of ls, find, stat and du | https://git.vuxu.org/lr/about/ |
 | **lrzip** | 0.651 | A compression utility that excels at compressing large files | https://github.com/ckolivas/lrzip |
 | **lrzsz** | 0.12.21-rc1-0 | Tools for zmodem/xmodem/ymodem file transfer | https://ohse.de/uwe/software/lrzsz.html |
@@ -1553,8 +1553,8 @@
 | **maven** | 3.9.5 | A Java software project management and comprehension tool | https://maven.apache.org/ |
 | **maxcso** | 1.13.0 | A fast ISO to CSO compression program for use with PSP and PS2 emulators | https://github.com/unknownbrackets/maxcso |
 | **mazter** | 2022.08.13 | Mazes in your terminal | https://github.com/Canop/mazter |
-| **mbedtls** | 3.5.0 | Light-weight cryptographic and SSL/TLS library | https://tls.mbed.org/ |
-| **mbedtls-static** | 3.5.0 | Static libraries for mbedtls | https://tls.mbed.org/ |
+| **mbedtls** | 3.5.1 | Light-weight cryptographic and SSL/TLS library | https://tls.mbed.org/ |
+| **mbedtls-static** | 3.5.1 | Static libraries for mbedtls | https://tls.mbed.org/ |
 | **mc** | 4.8.30 | Midnight Commander - a powerful file manager | https://www.midnight-commander.org/ |
 | **mcfly** | 0.8.1 | Replaces your default ctrl-r shell history search with an intelligent search engine | https://github.com/cantino/mcfly |
 | **mdbook** | 0.4.35 | Creates book from markdown files | https://rust-lang.github.io/mdBook/ |
@@ -1599,7 +1599,7 @@
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
 | **miniflux** | 2.0.49 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
-| **minio** | 2023.11.01.18.37.25 | Multi-Cloud Object Storage | https://min.io/ |
+| **minio** | 2023.11.06.22.26.08 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
 | **minisign** | 0.11-1 | A dead simple tool to sign files and verify signatures | https://jedisct1.github.io/minisign/ |
 | **miniupnpc** | 2.2.5 | Small UPnP client library and tool to access Internet Gateway Devices | https://miniupnp.tuxfamily.org/ |
@@ -1673,11 +1673,11 @@
 | **ncompress** | 5.0 | The classic unix compression utility which can handle the ancient .Z archive | https://github.com/vapier/ncompress |
 | **ncpamixer** | 1.3.7 | An ncurses mixer for PulseAudio | https://github.com/fulhax/ncpamixer |
 | **ncspot** | 0.13.4 | An ncurses Spotify client written in Rust | https://github.com/hrkfdn/ncspot |
-| **ncurses** | 6.4.20231001-1 | Library for text-based user interfaces in a terminal-independent manner | https://invisible-island.net/ncurses/ |
-| **ncurses-static** | 6.4.20231001-1 | Static libraries for ncurses | https://invisible-island.net/ncurses/ |
-| **ncurses-ui-libs** | 6.4.20231001-1 | Libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
-| **ncurses-ui-libs-static** | 6.4.20231001-1 | Static libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
-| **ncurses-utils** | 6.4.20231001-1 | Tools for working with terminals | https://invisible-island.net/ncurses/ |
+| **ncurses** | 6.4.20231001-2 | Library for text-based user interfaces in a terminal-independent manner | https://invisible-island.net/ncurses/ |
+| **ncurses-static** | 6.4.20231001-2 | Static libraries for ncurses | https://invisible-island.net/ncurses/ |
+| **ncurses-ui-libs** | 6.4.20231001-2 | Libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
+| **ncurses-ui-libs-static** | 6.4.20231001-2 | Static libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
+| **ncurses-utils** | 6.4.20231001-2 | Tools for working with terminals | https://invisible-island.net/ncurses/ |
 | **ndk-multilib** | 26b | Multilib binaries for cross-compilation | https://developer.android.com/tools/sdk/ndk/index.html |
 | **ndk-multilib-native-static** | 26b | Install native static libs from NDK | https://developer.android.com/tools/sdk/ndk/index.html |
 | **ndk-multilib-native-stubs** | 26b | Install native stubs for shared libs from NDK | https://developer.android.com/tools/sdk/ndk/index.html |
@@ -1927,7 +1927,7 @@
 | **pypy3-tkinter** | 7.3.12-1 | Tkinter support for PyPy 3 | https://pypy.org |
 | **pystring** | 1.1.4 | C++ functions matching the interface and behavior of python string methods with std::string | https://github.com/imageworks/pystring |
 | **python** | 3.11.6-1 | Python 3 programming language intended to enable clear programs | https://python.org/ |
-| **python-apsw** | 3.43.2.0 | Another Python SQLite Wrapper | https://github.com/rogerbinns/apsw/ |
+| **python-apsw** | 3.44.0.0 | Another Python SQLite Wrapper | https://github.com/rogerbinns/apsw/ |
 | **python-apt** | 2.6.0 | Python bindings for APT | https://apt-team.pages.debian.net/python-apt/ |
 | **python-bcrypt** | 4.0.1-1 | Acceptable password hashing for your software and your servers | https://github.com/pyca/bcrypt |
 | **python-cryptography** | 41.0.5 | Provides cryptographic recipes and primitives to Python developers | https://github.com/pyca/cryptography |
@@ -2162,7 +2162,7 @@
 | **spirv-tools** | 1.3.261.1 | SPIR-V Tools | https://github.com/KhronosGroup/SPIRV-Tools |
 | **sqlcipher** | 4.5.5 | SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files | https://github.com/sqlcipher/sqlcipher |
 | **sqlcipher-static** | 4.5.5 | Static libraries for sqlcipher | https://github.com/sqlcipher/sqlcipher |
-| **sqlite** | 3.43.1 | Command line shell for SQLite | https://www.sqlite.org |
+| **sqlite** | 3.44.0 | Command line shell for SQLite | https://www.sqlite.org |
 | **squashfs-tools-ng** | 1.2.0 | New set of tools for working with SquashFS images | https://github.com/AgentD/squashfs-tools-ng |
 | **squashfs-tools-ng-static** | 1.2.0 | Static libraries for squashfs-tools-ng | https://github.com/AgentD/squashfs-tools-ng |
 | **squeezelite** | 1.9.9.1430 | A small headless Logitech Squeezebox emulator | https://ralph-irving.github.io/squeezelite.html |
