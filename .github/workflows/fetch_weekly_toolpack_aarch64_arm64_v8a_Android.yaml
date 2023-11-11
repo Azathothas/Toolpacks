@@ -31,6 +31,8 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq make musl musl-dev musl-tools p7zip-full wget -y
           sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential ca-certificates flex file jq patch patchelf pkg-config python3-pip qemu-user-static wget 
+          #Bin Utils
+          sudo apt install binutils-aarch64-linux-gnu -y
           #libpcap
           sudo apt install 'libpcap*' -y
           sudo apt install 'nmap' -y
@@ -96,7 +98,38 @@ jobs:
           find . -type f -name '*tar*' -exec tar -xvf {} \;
           sudo find . -type f -name 'upx' -exec mv {} "$(which upx)" \;  
         continue-on-error: true
+#------------------------------------------------------------------------------------#
+#Fetch: Only those that are known to work (have been tested)
+#     : Must not exist at : https://github.com/Azathothas/Toolpacks/tree/main/Info/Packages/Termux
 
+     ##filebrowser/filebrowser
+      - name: Download filebrowser
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          eget "filebrowser/filebrowser" --asset "arm64" --asset "linux" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/filebrowser"
+        continue-on-error: true
+
+    ##miniserve
+      - name: Download miniserve
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          eget "svenstaro/miniserve" --asset "aarch64" --asset "linux" --asset "musl" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/miniserve"
+        continue-on-error: true
+
+     ##static-web-server/static-web-server
+      - name: Download static-web-server
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          eget "static-web-server/static-web-server" --asset "aarch64" --asset "android" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/static-web-server"
+        continue-on-error: true
+
+    ##TailScale
       - name: Download TailScale
         run: |
           #Presets
@@ -128,15 +161,14 @@ jobs:
     #       # Remove tmp files
     #       #rm -rf /tmp >/dev/null 2>&1   
     # ERROR: loadinternal: cannot find runtime/cgo    
-
+#------------------------------------------------------------------------------------#
       - name: Strip || Cleanup
         run: |
            #Presets
            set -x ; set +e
            #--------------#
-           #This requires a strip for arm
-           #cd "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android"
-           #find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
+           cd "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android"
+           find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/" -maxdepth 1 -type f -exec aarch64-linux-gnu-objcopy --preserve-dates --verbose --strip-all {} \; 2>/dev/null
            # Strip && Rename anything with *_amd*
            # find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_aarch64_arm64_v8a_Android_Linux//"); mv "$1" "$newname"' sh {} \;
         continue-on-error: true
