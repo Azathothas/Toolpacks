@@ -23,6 +23,30 @@ jobs:
         with:
           path: main
 
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #12.0 GB  
+          #This is needed, this is the ndk
+          #sudo rm /usr/local/lib/android -rf 2>/dev/null
+          #8.2 GB
+          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
+          #5.0 GB
+          sudo rm /usr/local/.ghcup -rf 2>/dev/null
+          #2.0 GB
+          sudo rm /usr/share/dotnet -rf 2>/dev/null
+          #1.7 GB
+          sudo rm /usr/share/swift -rf 2>/dev/null
+          #1.1 GB
+          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
+          #1.0 GB
+          sudo rm /usr/local/share/powershell -rf 2>/dev/null
+          #500 MB
+          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+        continue-on-error: true
+        
       - name: Install CoreUtils & Deps
         run: |
           #Presets
@@ -59,7 +83,18 @@ jobs:
           #--------------#
           cargo install cross --git "https://github.com/cross-rs/cross"
         continue-on-error: true
-        
+
+    ##Needed until gh runners updates go version: https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md
+    ## It helps to be on bleeding edge anyway
+      - name: Install/Update golang
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+          source "$HOME/.bashrc"
+        continue-on-error: true
+
       - name: Install Addons
         run: |
           #Presets
@@ -102,7 +137,29 @@ jobs:
 #Fetch: Only those that are known to work (have been tested)
 #     : Must not exist at : https://github.com/Azathothas/Toolpacks/tree/main/Info/Packages/Termux
 
-     ##filebrowser/filebrowser
+     ##eget
+      - name: Build eget (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd $(mktemp -d) && git clone "https://github.com/zyedidia/eget" && cd eget
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          #Move
+          mv "./eget" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/eget" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+     ##filebrowser
       - name: Download filebrowser
         run: |
           #Presets
@@ -120,7 +177,7 @@ jobs:
           eget "svenstaro/miniserve" --asset "aarch64" --asset "linux" --asset "musl" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/miniserve"
         continue-on-error: true
 
-     ##static-web-server/static-web-server
+     ##static-web-server
       - name: Download static-web-server
         run: |
           #Presets
@@ -142,25 +199,39 @@ jobs:
           #tailscaled
           eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscaled_aarch64_arm64_Linux" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscaled"
         continue-on-error: true
+     ##Build
+      - name: Build TailScale (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          cd $(mktemp -d) && curl -LOJ $(curl -s https://api.github.com/repos/tailscale/tailscale/releases/latest | jq -r '.zipball_url')
+          find . -type f -name '*.zip*' -exec unzip -o {} \;
+          cd $(find . -maxdepth 1 -type d | grep -v '^.$')
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Deps
+          go env -w GO111MODULE=on
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          #TailScale
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/tailscale"
+          #TailScaled
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/tailscaled"
+          #TailScale merged: https://tailscale.com/kb/1207/small-tailscale/
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -o "./tailscale.combined" -v -ldflags="-s -w" -tags "ts_omit_aws,ts_omit_bird,ts_omit_tap,ts_omit_kube,ts_include_cli" "./cmd/tailscaled"
+          #Move
+          mv "./tailscale" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscale_dynamic_native"
+          mv "./tailscaled" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscaled_dynamic_native"
+          mv "./tailscale.combined" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscale_merged_dynamic_native"
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
 
-    #Build using go tool chain
-    #Complete Tool Chain List: `go tool dist list`
-    #   - name: Build Tailscale for dockcross/android-aarch64_arm64_v8a_Android
-    #     run: | 
-    #       #This is dynamic, and has many many limitations
-    #       #Better to keep using aarch64 binaries
-    #       cd $(mktemp -d) && curl -LOJ $(curl -s https://api.github.com/repos/tailscale/tailscale/releases/latest | jq -r '.zipball_url')
-    #       find . -type f -name '*.zip*' -exec unzip -o {} \;
-    #       cd $(find . -maxdepth 1 -type d | grep -v '^.$')
-    #       docker run --privileged -v $(pwd):/work dockcross/android-arm64 bash -c "bash <(curl -sL https://git.io/go-installer) ; export PATH=/root/.go/bin:$PATH ; export PATH=/root/go/bin:$PATH  ; GOOS=android GOARCH=arm64 CGO_ENABLED=0 /root/.go/bin/go build -v -ldflags=\"-s -w -extldflags '-static'\" \"./cmd/tailscale\""
-    #       docker run --privileged -v $(pwd):/work dockcross/android-arm64 bash -c "bash <(curl -sL https://git.io/go-installer) ; export PATH=/root/.go/bin:$PATH ; export PATH=/root/go/bin:$PATH  ; GOOS=android GOARCH=arm64 CGO_ENABLED=0 /root/.go/bin/go build -v -ldflags=\"-s -w -extldflags '-static'\" \"./cmd/tailscaled\""
-    #       #Strip & move
-    #       strip "./tailscale" "./tailscaled" 2>/dev/null
-    #       mv "./tailscale" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscale_dynamic_native"
-    #       mv "./tailscaled" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscaled_dynamic_native"
-    #       # Remove tmp files
-    #       #rm -rf /tmp >/dev/null 2>&1   
-    # ERROR: loadinternal: cannot find runtime/cgo    
 #------------------------------------------------------------------------------------#
       - name: Strip || Cleanup
         run: |
