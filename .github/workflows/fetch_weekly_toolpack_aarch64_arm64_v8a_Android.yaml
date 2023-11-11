@@ -1,4 +1,4 @@
-name: 🛍️ Fetch ⚙️ Weekly (aarch64_arm64_v8a_Android) Package 📦🗄️
+name: 🛍️ Fetch ⚙️ Weekly 📱 (aarch64_arm64_v8a_Android) Package 📦🗄️
 #MAX_RUNTIME:  
 on:
   workflow_dispatch:
