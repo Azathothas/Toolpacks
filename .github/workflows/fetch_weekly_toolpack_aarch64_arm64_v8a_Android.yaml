@@ -3,7 +3,7 @@ name: 🛍️ Fetch ⚙️ Weekly 📱 (aarch64_arm64_v8a_Android) Package 📦�
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
+    - cron: "0 1 * * *" #  06:45 AM NPT Mrng Every Day
   
 env:
   GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
@@ -137,6 +137,27 @@ jobs:
 #Fetch: Only those that are known to work (have been tested)
 #     : Must not exist at : https://github.com/Azathothas/Toolpacks/tree/main/Info/Packages/Termux
 
+
+     ##bottom
+      - name: Build bottom (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone "https://github.com/ClementTsang/bottom" && cd "./bottom"
+          #android29 --> Android 10 or later
+          export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
+          rustup target add "$TARGET"
+          #Config
+          sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+          echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+          #Build
+          cargo build --target $TARGET --release --no-default-features 
+          #move
+          mv "./target/$TARGET/release/btm" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/btm" ; popd
+        continue-on-error: true
+
      ##eget
       - name: Build eget (Native)
         run: |
@@ -177,6 +198,28 @@ jobs:
           eget "svenstaro/miniserve" --asset "aarch64" --asset "linux" --asset "musl" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/miniserve"
         continue-on-error: true
 
+     ##pspy
+      - name: Build pspy (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd $(mktemp -d) && git clone "https://github.com/DominicBreuker/pspy" && cd "./pspy"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          #Move
+          mv "./pspy" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/pspy" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+        
      ##static-web-server
       - name: Download static-web-server
         run: |
