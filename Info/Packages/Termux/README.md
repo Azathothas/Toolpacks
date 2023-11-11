@@ -398,8 +398,8 @@
 | **expect** | 5.45.4-3 | Tool for automating interactive terminal applications | https://core.tcl.tk/expect/index |
 | **eza** | 0.15.3 | A modern replacement for ls | https://github.com/eza-community/eza |
 | **fact++** | 1.6.5-1 | Re-implementation of the well-known FaCT Description Logic (DL) Reasoner | https://bitbucket.org/dtsarkov/factplusplus |
-| **fakeroot** | 1.32.1 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
-| **fakeroot-static** | 1.32.1 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
+| **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
+| **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
 | **fasd** | 1.0.2 | To fastly access files and folders | https://github.com/whjvenyl/fasd |
 | **fastfetch** | 2.2.3 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
 | **fastmod** | 0.4.3 | Regex-based code refactoring utility | https://github.com/facebookincubator/fastmod |
@@ -762,7 +762,7 @@
 | **kubelogin** | 1.28.0-1 | A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication | https://github.com/int128/kubelogin |
 | **ladspa-sdk** | 1.17-1 | Linux Audio Developer's Simple Plugin API | https://www.ladspa.org/ |
 | **lame** | 3.100-4 | High quality MPEG Audio Layer III (MP3) encoder - frontend | https://lame.sourceforge.io/ |
-| **lastpass-cli** | 1.3.6 | LastPass command line interface tool | https://lastpass.com/ |
+| **lastpass-cli** | 1.3.7 | LastPass command line interface tool | https://lastpass.com/ |
 | **lazygit** | 0.40.2-1 | Simple terminal UI for git commands | https://github.com/jesseduffield/lazygit |
 | **lazyread** | 2.0-1 | An auto-scroller, pager, and e-book reader all in one | http://lazyread.sourceforge.net/ |
 | **lcal** | 2.1.0 | A multi-platform program which generates PostScript lunar calendars in a yearly format | https://pcal.sourceforge.net/ |
@@ -2411,7 +2411,7 @@
 | **vulkan-loader** | 0.0.2 | A metapackage that provides vulkan loader library | https://github.com/termux/termux-packages |
 | **vulkan-loader-android** | 26b | Vulkan Loader for Android | https://source.android.com/devices/graphics/arch-vulkan |
 | **vulkan-loader-generic** | 1.3.266 | Vulkan Loader | https://github.com/KhronosGroup/Vulkan-Loader |
-| **vulkan-tools** | 1.3.269 | Vulkan Tools and Utilities | https://github.com/KhronosGroup/Vulkan-Tools |
+| **vulkan-tools** | 1.3.270 | Vulkan Tools and Utilities | https://github.com/KhronosGroup/Vulkan-Tools |
 | **vulkan-utility-libraries** | 1.3.270 | Utility Libraries for Vulkan | https://github.com/KhronosGroup/Vulkan-Utility-Libraries |
 | **w3m** | 0.5.3.20230121 | Text based Web browser and pager | http://w3m.sourceforge.net/ |
 | **w3m-img** | 0.5.3.20230121 | Inline image extension support utilities for w3m | http://w3m.sourceforge.net/ |
@@ -2442,7 +2442,7 @@
 | **which** | 2.21 | Shows the full path of (shell) commands | https://carlowood.github.io/which/ |
 | **whiptail** | 0.52.23 | Display dialog boxes from shell scripts | https://pagure.io/newt |
 | **whitebox-tools** | 2.3.0-1 | An advanced geospatial data analysis platform | https://github.com/jblindsay/whitebox-tools |
-| **whois** | 5.5.19 | An intelligent Whois client | https://github.com/rfc1036/whois |
+| **whois** | 5.5.20 | An intelligent Whois client | https://github.com/rfc1036/whois |
 | **wireguard-tools** | 1.0.20210914 | Tools for the WireGuard secure network tunnel | https://www.wireguard.com |
 | **wiz** | 2022.06.02 | A high-level assembly language for writing homebrew software for retro console platforms | http://wiz-lang.org/ |
 | **woff2** | 1.0.2-2 | font compression reference code | https://www.w3.org/TR/WOFF2/ |
