@@ -5,7 +5,7 @@
 | **6tunnel** | 0.13 | Allows you to use services provided by IPv6 hosts with IPv4-only applications and vice-versa | https://github.com/wojtekka/6tunnel |
 | **7zip** | 23.01 | 7-Zip file archiver with a high compression ratio | https://www.7-zip.org |
 | **8086tiny** | 1.25-4 | A PC XT-compatible emulator/virtual machine | https://github.com/adriancable/8086tiny |
-| **a52dec** | 0.7.4 | A test program for liba52 | http://liba52.sourceforge.net/ |
+| **a52dec** | 0.8.0-1 | A test program for liba52 | http://liba52.sourceforge.net/ |
 | **aalib** | 1.4rc5-11 | A portable ASCII art graphic library | https://sourceforge.net/projects/aa-project/ |
 | **aalib-static** | 1.4rc5-11 | Static libraries for aalib | https://sourceforge.net/projects/aa-project/ |
 | **aapt** | 13.0.0.6-9 | Android Asset Packaging Tool | https://elinux.org/Android_aapt |
@@ -43,7 +43,7 @@
 | **ant** | 1.10.14 | Java based build tool like make | https://ant.apache.org/ |
 | **antibody** | 6.1.1-2 | The fastest shell plugin manager | https://github.com/getantibody/antibody |
 | **antiword** | 0.37-3 | A free MS Word reader | https://en.m.wikipedia.org/wiki/Antiword |
-| **aom-tools** | 3.6.1 | Command-line tools using AOMedia library | https://aomedia.org/ |
+| **aom-tools** | 3.7.0-1 | Command-line tools using AOMedia library | https://aomedia.org/ |
 | **apache2** | 1:2.4.57 | Apache Web Server | https://httpd.apache.org |
 | **apkeep** | 0.15.0 | A command-line tool for downloading APK files from various sources | https://github.com/EFForg/apkeep |
 | **apksigner** | 33.0.1 | APK signing tool from Android SDK | https://developer.android.com/studio/command-line/apksigner |
@@ -127,7 +127,7 @@
 | **bison-static** | 3.8.2-3 | Static libraries for bison | https://www.gnu.org/software/bison/ |
 | **bitcoin** | 25.1 | Bitcoin Core | https://bitcoincore.org/ |
 | **bitlbee** | 3.6-1-0 | An IRC to other chat networks gateway | https://www.bitlbee.org/ |
-| **bk** | 0.5.3 | A terminal EPUB reader | https://github.com/aeosynth/bk |
+| **bk** | 0.6.0 | A terminal EPUB reader | https://github.com/aeosynth/bk |
 | **blackbox** | 1:1.20220610 | Safely store secrets in Git/Mercurial/Subversion | https://github.com/StackExchange/blackbox |
 | **blade** | 0.0.85 | A simple, fast, clean and dynamic language | https://bladelang.com/ |
 | **blink** | 1:1.0.0 | Tiny x86-64 Linux emulator | https://justine.lol/blinkenlights/ |
@@ -308,7 +308,7 @@
 | **direvent** | 5.3 | Monitor of events in file system directories | https://www.gnu.org.ua/software/direvent/ |
 | **discordo** | 2022.08.12-3 | A lightweight, secure, and feature-rich Discord terminal client | https://github.com/ayntgl/discordo |
 | **diskus** | 0.7.0 | A minimal, fast alternative to 'du -sh' | https://github.com/sharkdp/diskus |
-| **distant** | 0.20.0-alpha.4-0 | Library and tooling that supports remote filesystem and process | https://github.com/chipsenkbeil/distant |
+| **distant** | 1:0.20.0 | Library and tooling that supports remote filesystem and process | https://github.com/chipsenkbeil/distant |
 | **distcc** | 3.4-2 | Distributed C/C++ compiler. | http://distcc.org/ |
 | **djvulibre** | 3.5.28-5 | Suite to create, manipulate and view DjVu ('déjà vu') documents | http://djvu.sourceforge.net/ |
 | **djvulibre-static** | 3.5.28-5 | Static libraries for djvulibre | http://djvu.sourceforge.net/ |
@@ -413,7 +413,7 @@
 | **fetchmail** | 6.4.37 | A remote-mail retrieval utility | https://www.fetchmail.info/ |
 | **fetchmailconf** | 6.4.37 | A GUI configurator for generating fetchmail configuration files | https://www.fetchmail.info/ |
 | **fff** | 2.2 | A simple file manager written in bash | https://github.com/dylanaraps/fff |
-| **ffmpeg** | 6.0-8 | Tools and libraries to manipulate a wide range of multimedia formats and protocols | https://ffmpeg.org |
+| **ffmpeg** | 6.1-1 | Tools and libraries to manipulate a wide range of multimedia formats and protocols | https://ffmpeg.org |
 | **ffsend** | 0.2.76 | A fully featured Firefox Send client | https://gitlab.com/timvisee/ffsend |
 | **fftw** | 3.3.10-3 | Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions | http://www.fftw.org/ |
 | **fftw-static** | 3.3.10-3 | Static libraries for fftw | http://www.fftw.org/ |
@@ -469,8 +469,8 @@
 | **gatling** | 0.16-1 | A high performance http, ftp and smb server | https://www.fefe.de/gatling/ |
 | **gauche** | 0.9.12-3 | An R7RS Scheme implementation developed to be a handy script interpreter | https://practical-scheme.net/gauche/ |
 | **gauche-static** | 0.9.12-3 | Static libraries for gauche | https://practical-scheme.net/gauche/ |
-| **gawk** | 5.2.2 | Programming language designed for text processing | https://www.gnu.org/software/gawk/ |
-| **gawk-static** | 5.2.2 | Static libraries for gawk | https://www.gnu.org/software/gawk/ |
+| **gawk** | 5.3.0 | Programming language designed for text processing | https://www.gnu.org/software/gawk/ |
+| **gawk-static** | 5.3.0 | Static libraries for gawk | https://www.gnu.org/software/gawk/ |
 | **gbt** | 2.0.0-6 | Highly configurable prompt builder for Bash and ZSH written in Go | https://github.com/jtyr/gbt |
 | **gcal** | 4.1-3 | Program for calculating and printing calendars | https://www.gnu.org/software/gcal/ |
 | **gdal** | 3.7.3 | A translator library for raster and vector geospatial data formats | https://gdal.org |
@@ -573,8 +573,8 @@
 | **gopher** | 3.0.17.3-1 | University of Minnesota gopher | gopher://gopher.quux.org/1/devel/gopher |
 | **gotop** | 4.2.0-3 | A terminal based graphical activity monitor inspired by gtop and vtop | https://github.com/xxxserxxx/gotop |
 | **gotty** | 1.5.0-3 | Share your terminal as a web application | https://github.com/sorenisanerd/gotty |
-| **gpac** | 2.2.1-1 | An open-source multimedia framework focused on modularity and standards compliance | https://gpac.wp.imt.fr/ |
-| **gpac-static** | 2.2.1-1 | Static libraries for gpac | https://gpac.wp.imt.fr/ |
+| **gpac** | 2.2.1-3 | An open-source multimedia framework focused on modularity and standards compliance | https://gpac.wp.imt.fr/ |
+| **gpac-static** | 2.2.1-3 | Static libraries for gpac | https://gpac.wp.imt.fr/ |
 | **gperf** | 3.1-7 | A perfect hash function generator | https://www.gnu.org/software/gperf |
 | **gpgme** | 1.23.1 | Library designed to make access to GnuPG easier | https://www.gnupg.org/related_software/gpgme/ |
 | **gpgme-static** | 1.23.1 | Static libraries for gpgme | https://www.gnupg.org/related_software/gpgme/ |
@@ -642,7 +642,7 @@
 | **hnterm** | 1.0.5-1 | A simple tool to browse Hacker News in the terminal | https://github.com/ggerganov/imtui |
 | **hoedown** | 3.0.7-3 | Hoedown is a revived fork of Sundown, the Markdown parser based on the original code of the Upskirt library | https://github.com/hoedown/hoedown |
 | **hoedown-static** | 3.0.7-3 | Static libraries for hoedown | https://github.com/hoedown/hoedown |
-| **hollywood** | 1.21-4 | Fill your console with Hollywood melodrama technobabble | https://launchpad.net/hollywood |
+| **hollywood** | 1.22 | Fill your console with Hollywood melodrama technobabble | https://launchpad.net/hollywood |
 | **hors** | 0.8.2-1 | Instant coding answers via the command line (howdoi in rust) | https://github.com/WindSoilder/hors |
 | **hr** | 1.4 | A horizontal ruler for your terminal | https://github.com/LuRsT/hr |
 | **hstr** | 3.1 | Shell history suggest box for bash and zsh | https://github.com/dvorka/hstr |
@@ -780,8 +780,8 @@
 | **lgogdownloader** | 3.12 | Open source downloader to GOG.com for Linux users using the same API as the official GOGDownloader | https://sites.google.com/site/gogdownloader/ |
 | **lhasa** | 0.4.0 | LHA compressor/decompressor | https://fragglet.github.io/lhasa/ |
 | **lhasa-static** | 0.4.0 | Static libraries for lhasa | https://fragglet.github.io/lhasa/ |
-| **liba52** | 0.7.4 | A free library for decoding ATSC A/52 streams | http://liba52.sourceforge.net/ |
-| **liba52-static** | 0.7.4 | Static libraries for liba52 | http://liba52.sourceforge.net/ |
+| **liba52** | 0.8.0-1 | A free library for decoding ATSC A/52 streams | http://liba52.sourceforge.net/ |
+| **liba52-static** | 0.8.0-1 | Static libraries for liba52 | http://liba52.sourceforge.net/ |
 | **libacl** | 2.3.1 | Access control list shared library | http://savannah.nongnu.org/projects/acl |
 | **libacl-static** | 2.3.1 | Static libraries for libacl | http://savannah.nongnu.org/projects/acl |
 | **libaml** | 0.3.0 | Andri's Main Loop library | https://github.com/any1/aml |
@@ -807,8 +807,8 @@
 | **libandroid-wordexp-static** | 0.1 | Static libraries for libandroid-wordexp | https://man7.org/linux/man-pages/man3/wordexp.3.html |
 | **libao** | 1.2.2-7 | A cross platform audio library | https://www.xiph.org/ao/ |
 | **libao-static** | 1.2.2-7 | Static libraries for libao | https://www.xiph.org/ao/ |
-| **libaom** | 3.6.1 | AV1 Video Codec Library | https://aomedia.org/ |
-| **libaom-static** | 3.6.1 | Static libraries for libaom | https://aomedia.org/ |
+| **libaom** | 3.7.0-1 | AV1 Video Codec Library | https://aomedia.org/ |
+| **libaom-static** | 3.7.0-1 | Static libraries for libaom | https://aomedia.org/ |
 | **libapt-pkg-perl** | 0.1.40-9 | Perl interface to APT's libapt-pkg | https://packages.debian.org/libapt-pkg-perl |
 | **libarchive** | 3.7.2 | Multi-format archive and compression library | https://www.libarchive.org/ |
 | **libarchive-static** | 3.7.2 | Static libraries for libarchive | https://www.libarchive.org/ |
@@ -986,8 +986,8 @@
 | **libgxps** | 0.3.2-2 | handling and rendering XPS documents | https://wiki.gnome.org/libgxps |
 | **libhdf5** | 1.14.2 | Hierarchical Data Format 5 (HDF5) | https://portal.hdfgroup.org/display/support |
 | **libhdf5-static** | 1.14.2 | Static libraries for libhdf5 | https://portal.hdfgroup.org/display/support |
-| **libheif** | 1.17.3 | HEIF (HEIC/AVIF) image encoding and decoding library | https://github.com/strukturag/libheif |
-| **libheif-progs** | 1.17.3 | Programs for manipulating HEIF (HEIC/AVIF) image files | https://github.com/strukturag/libheif |
+| **libheif** | 1.17.3-2 | HEIF (HEIC/AVIF) image encoding and decoding library | https://github.com/strukturag/libheif |
+| **libheif-progs** | 1.17.3-2 | Programs for manipulating HEIF (HEIC/AVIF) image files | https://github.com/strukturag/libheif |
 | **libheif-static** | 1.15.2 | Static libraries for libheif | https://github.com/strukturag/libheif |
 | **libhiredis** | 1.2.0 | Hiredis is a minimalistic C client library for the Redis database | https://redis.com/lp/hiredis |
 | **libhiredis-static** | 1.1.0 | Static libraries for libhiredis | https://redis.com/lp/hiredis |
@@ -1161,7 +1161,7 @@
 | **liboggz** | 1.1.1-5 | Command and library to inspect, tweak, edit and validate Ogg files | https://www.xiph.org/oggz/ |
 | **liboggz-static** | 1.1.1-5 | Static libraries for liboggz | https://www.xiph.org/oggz/ |
 | **libolm** | 3.2.15 | An implementation of the Double Ratchet cryptographic ratchet | https://matrix.org/docs/projects/other/olm/ |
-| **libopenblas** | 0.3.24 | An optimized BLAS library based on GotoBLAS2 1.13 BSD | https://www.openblas.net |
+| **libopenblas** | 0.3.25 | An optimized BLAS library based on GotoBLAS2 1.13 BSD | https://www.openblas.net |
 | **libopencc** | 1.1.7 | An opensource project for conversions between Traditional Chinese, Simplified Chinese and Japanese Kanji (Shinjitai) | https://github.com/BYVoid/OpenCC |
 | **libopencore-amr** | 0.1.6 | Open source implementation of the Adaptive Multi Rate (AMR) speech codec | https://sourceforge.net/projects/opencore-amr |
 | **libopencore-amr-static** | 0.1.6 | Static libraries for libopencore-amr | https://sourceforge.net/projects/opencore-amr |
@@ -1370,8 +1370,8 @@
 | **libusbredir-static** | 0.7.1 | Static libraries for libusbredir | https://www.spice-space.org/ |
 | **libutf8-range** | 2:22.4-2 | Fast UTF-8 validation with Range algorithm | https://github.com/protocolbuffers/protobuf |
 | **libuuid** | 2.39.2-1 | Library for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
-| **libuv** | 1.46.0 | Support library with a focus on asynchronous I/O | https://libuv.org |
-| **libuv-static** | 1.46.0 | Static libraries for libuv | https://libuv.org |
+| **libuv** | 1.47.0 | Support library with a focus on asynchronous I/O | https://libuv.org |
+| **libuv-static** | 1.47.0 | Static libraries for libuv | https://libuv.org |
 | **libv4l** | 1.24.1-1 | Linux libraries to handle media devices | https://git.linuxtv.org/v4l-utils.git |
 | **libv4l-static** | 1.24.1-1 | Static libraries for libv4l | https://git.linuxtv.org/v4l-utils.git |
 | **libvbisam** | 2.0-1 | A replacement for IBM's C-ISAM | https://sourceforge.net/projects/vbisam/ |
@@ -1935,8 +1935,8 @@
 | **python-greenlet** | 3.0.1 | Lightweight coroutines for in-process concurrent programming | https://github.com/python-greenlet/greenlet |
 | **python-lameenc** | 1.6.3 | Python bindings around the LAME encoder | https://github.com/chrisstaite/lameenc |
 | **python-libsass** | 0.22.0 | A straightforward binding of libsass for Python | https://github.com/sass/libsass-python |
-| **python-numpy** | 1.26.1 | The fundamental package for scientific computing with Python | https://numpy.org/ |
-| **python-numpy-static** | 1.26.1 | Static libraries for python-numpy | https://numpy.org/ |
+| **python-numpy** | 1.26.2 | The fundamental package for scientific computing with Python | https://numpy.org/ |
+| **python-numpy-static** | 1.26.2 | Static libraries for python-numpy | https://numpy.org/ |
 | **python-pillow** | 10.1.0 | Python Imaging Library | https://python-pillow.org/ |
 | **python-pip** | 23.3.1 | The PyPA recommended tool for installing Python packages | https://pip.pypa.io/ |
 | **python-pyarrow** | 12.0.1 | Python bindings for Apache Arrow | https://github.com/apache/arrow |
@@ -2006,7 +2006,7 @@
 | **rcshell** | 1.7.4-4 | An alternative implementation of the plan 9 rc shell | http://tobold.org/article/rc |
 | **rdfind** | 1.6.0 | A tool for finding duplicate files | https://github.com/pauldreik/rdfind |
 | **rdiff** | 2.3.4 | Remote incremental backup | https://github.com/librsync/librsync |
-| **rdiff-backup** | 2.2.6 | A utility for local/remote mirroring and incremental backups | https://rdiff-backup.net |
+| **rdiff-backup** | 2.2.6-1 | A utility for local/remote mirroring and incremental backups | https://rdiff-backup.net |
 | **rdircd** | 2023.02.07 | A daemon that allows using a personal Discord account through an IRC client | https://github.com/mk-fg/reliable-discord-client-irc-daemon |
 | **rdrview** | 1:0.1-1 | Command line tool to extract the main content from a webpage | https://github.com/eafer/rdrview |
 | **re2c** | 3.1 | Lexer generator for C, C++ and Go. | https://re2c.org/ |
@@ -2151,7 +2151,7 @@
 | **spatialite-tools** | 5.0.1-3 | Collection of tools supporting SpatiaLite | https://www.gaia-gis.it/fossil/spatialite-tools |
 | **speechd** | 0.11.5 | Common interface to speech synthesis | https://github.com/brailcom/speechd |
 | **speechd-data** | 0.11.5 | Platform-independent data for speechd | https://github.com/brailcom/speechd |
-| **speedtest-go** | 1.6.7 | Command line interface to test internet speed using speedtest.net | https://github.com/showwin/speedtest-go/ |
+| **speedtest-go** | 1.6.8 | Command line interface to test internet speed using speedtest.net | https://github.com/showwin/speedtest-go/ |
 | **speex-utils** | 1.2.1 | Speex command line tools | https://www.speex.org/ |
 | **speexdsp** | 1.2.1 | Speex audio processing library | https://speex.org/ |
 | **speexdsp-static** | 1.2.1 | Static libraries for speexdsp | https://speex.org/ |
@@ -2397,8 +2397,8 @@
 | **vitetris** | 0.59.1-2 | Virtual terminal *tris clone | http://victornils.net/tetris/ |
 | **viu** | 1.4.0 | Terminal image viewer with native support for iTerm and Kitty | https://github.com/atanunq/viu |
 | **vivid** | 0.9.0 | A themeable LS_COLORS generator with a rich filetype datebase | https://github.com/sharkdp/vivid |
-| **vlc** | 3.0.20 | A popular libre and open source media player and multimedia engine | https://www.videolan.org/ |
-| **vlc-static** | 3.0.20 | Static libraries for vlc | https://www.videolan.org/ |
+| **vlc** | 3.0.20-2 | A popular libre and open source media player and multimedia engine | https://www.videolan.org/ |
+| **vlc-static** | 3.0.20-2 | Static libraries for vlc | https://www.videolan.org/ |
 | **vobsub2srt** | 2017.12.18-2 | A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR | https://github.com/ruediger/VobSub2SRT |
 | **vorbis-tools** | 1.4.2-2 | Ogg Vorbis tools | https://github.com/xiph/vorbis-tools |
 | **vtm** | 0.9.19 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
