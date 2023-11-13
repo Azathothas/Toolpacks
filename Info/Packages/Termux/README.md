@@ -126,7 +126,7 @@
 | **binutils-gold** | 2.41 | gold linker | https://www.gnu.org/software/binutils/ |
 | **binutils-is-llvm** | 0.3-3 | Use llvm as binutils | https://github.com/trentbuck/binutils-is-llvm |
 | **binutils-libs** | 2.41 | GNU Binutils libraries | https://www.gnu.org/software/binutils/ |
-| **bionic-host** | 8.0.0-r51-0 | bionic libc, libm, libdl and dynamic linker for ubuntu host | https://android.googlesource.com/platform/bionic/ |
+| **bionic-host** | 8.0.0-r51-1 | bionic libc, libm, libdl and dynamic linker for ubuntu host | https://android.googlesource.com/platform/bionic/ |
 | **bison** | 3.8.2-3 | General-purpose parser generator | https://www.gnu.org/software/bison/ |
 | **bison-static** | 3.8.2-3 | Static libraries for bison | https://www.gnu.org/software/bison/ |
 | **bitcoin** | 25.1 | Bitcoin Core | https://bitcoincore.org/ |
@@ -463,7 +463,7 @@
 | **fwknop** | 2.6.10-5 | fwknop: Single Packet Authorization > Port Knocking | https://www.cipherdyne.org/fwknop/ |
 | **fwknop-static** | 2.6.10-5 | Static libraries for fwknop | https://www.cipherdyne.org/fwknop/ |
 | **fx** | 31.0.0 | Interactive JSON viewer on your terminal | https://github.com/antonmedv/fx |
-| **fzf** | 0.43.0 | Command-line fuzzy finder | https://github.com/junegunn/fzf |
+| **fzf** | 0.44.0 | Command-line fuzzy finder | https://github.com/junegunn/fzf |
 | **fzy** | 1.0 | A simple, fast fuzzy finder for the terminal | https://github.com/jhawthorn/fzy |
 | **g-ir-scanner** | 1.78.1 | A tool which generates GIR XML files | https://gi.readthedocs.io/ |
 | **game-music-emu** | 0.6.3-1 | A collection of video game music file emulators | https://bitbucket.org/mpyne/game-music-emu/wiki/Home |
@@ -572,7 +572,7 @@
 | **google-drive-upload** | 4.5 | Bash scripts to upload files to google drive | https://github.com/labbots/google-drive-upload |
 | **google-glog** | 0.6.0-1 | Logging library for C++ | https://github.com/google/glog |
 | **googletest** | 1.14.0 | Google C++ testing framework | https://github.com/google/googletest |
-| **goose** | 3.15.1 | A database migration tool. Supports SQL migrations and Go functions. | https://pressly.github.io/goose |
+| **goose** | 3.16.0 | A database migration tool. Supports SQL migrations and Go functions. | https://pressly.github.io/goose |
 | **gopass** | 1.15.8 | The slightly more awesome standard unix password manager for teams | https://github.com/gopasspw/gopass |
 | **gopher** | 3.0.17.3-1 | University of Minnesota gopher | gopher://gopher.quux.org/1/devel/gopher |
 | **gotop** | 4.2.0-3 | A terminal based graphical activity monitor inspired by gtop and vtop | https://github.com/xxxserxxx/gotop |
@@ -741,7 +741,7 @@
 | **jupp** | 3.1jupp41 | User friendly full screen text editor | http://www.mirbsd.org/jupp.htm |
 | **jython** | 2.7.3 | Python for the Java Platform | https://www.jython.org/ |
 | **k2pdfopt** | 2.54-4 | A tool that optimizes PDF files for viewing on mobile readers | https://www.willus.com/k2pdfopt/ |
-| **k9s** | 0.28.1 | Kubernetes CLI To Manage Your Clusters In Style! | https://k9scli.io |
+| **k9s** | 0.28.2 | Kubernetes CLI To Manage Your Clusters In Style! | https://k9scli.io |
 | **kainjow-mustache** | 4.1 | Mustache implementation for modern C++ | https://github.com/kainjow/Mustache |
 | **kak-lsp** | 14.2.0 | Language Server Protocol Client for the Kakoune editor | https://github.com/kak-lsp/kak-lsp |
 | **kakoune** | 2023.08.05-1 | Code editor heavily inspired by Vim | https://github.com/mawww/kakoune |
@@ -1082,7 +1082,7 @@
 | **libmad** | 0.16.4-1 | MAD is a high-quality MPEG audio decoder | http://www.underbit.com/products/mad/ |
 | **libmad-static** | 0.15.1b-3 | Static libraries for libmad | http://www.underbit.com/products/mad/ |
 | **libmariadbcpp** | 1.1.2 | Enables C++ applications to establish client connections to MariaDB Enterprise over TLS | https://mariadb.com/docs/clients/mariadb-connectors/connector-cpp/ |
-| **libmatio** | 1.5.25 | A C library for reading and writing Matlab MAT files | https://github.com/tbeu/matio |
+| **libmatio** | 1.5.26 | A C library for reading and writing Matlab MAT files | https://github.com/tbeu/matio |
 | **libmatroska** | 1.7.1 | Matroska library | https://dl.matroska.org/downloads/libmatroska/ |
 | **libmaxminddb** | 1.8.0 | MaxMind GeoIP2 database - library and utilities | https://dev.maxmind.com/geoip/geoip2/ |
 | **libmaxminddb-static** | 1.8.0 | Static libraries for libmaxminddb | https://dev.maxmind.com/geoip/geoip2/ |
@@ -1600,7 +1600,7 @@
 | **minesweeper** | 0.3.1-3 | A simple terminal-based implementation of Minesweeper | https://github.com/benhsm/minesweeper |
 | **minicom** | 2.9 | Friendly menu driven serial communication program | https://salsa.debian.org/minicom-team/minicom |
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
-| **miniflux** | 2.0.49 | A minimalist and opinionated feed reader | https://miniflux.app/ |
+| **miniflux** | 2.0.50 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
 | **minio** | 2023.11.11.08.14.41 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
@@ -1690,6 +1690,7 @@
 | **neofetch** | 7.1.0-1 | Simple system information script | https://github.com/dylanaraps/neofetch |
 | **neomutt** | 20231103 | A version of mutt with added features | https://neomutt.org/ |
 | **neovim** | 0.9.4 | Ambitious Vim-fork focused on extensibility and agility (nvim) | https://neovim.io/ |
+| **nerdfix** | 0.4.0 | nerdfix helps you to find/fix obsolete Nerd Font icons in your project. | https://github.com/loichyan/nerdfix |
 | **net-snmp** | 5.9.4 | Various tools relating to the Simple Network Management Protocol | http://www.net-snmp.org/ |
 | **net-snmp-static** | 5.9.4 | Static libraries for net-snmp | http://www.net-snmp.org/ |
 | **net-tools** | 2.10.0 | Configuration tools for Linux networking | http://net-tools.sourceforge.net/ |
@@ -2184,7 +2185,7 @@
 | **sssnake** | 0.3.2 | cli snake game that plays itself | https://github.com/AngelJumbo/sssnake |
 | **ssss** | 0.5.7 | Simple command-line implementation of Shamir's Secret Sharing Scheme | https://github.com/MrJoy/ssss |
 | **stag** | 1.0.0 | Streaming bar graphs. For stats and stuff. | https://github.com/seenaburns/stag |
-| **starship** | 1.16.0 | A minimal, blazing fast, and extremely customizable prompt for any shell | https://starship.rs |
+| **starship** | 1.16.0-1 | A minimal, blazing fast, and extremely customizable prompt for any shell | https://starship.rs |
 | **stdman** | 2022.07.30 | Formatted C++20 stdlib man pages (cppreference) | https://github.com/jeaye/stdman |
 | **stdoutisatty** | 1.0 | Patch the isatty() calls for colored output in pipeline | https://github.com/lilydjwg/stdoutisatty |
 | **steghide** | 0.5.1-6 | Embeds a message in a file by replacing some of the least significant bits | http://steghide.sourceforge.net/ |
@@ -2202,7 +2203,7 @@
 | **stunnel** | 5.71 | Socket wrapper which can provide TLS support to ordinary applications | https://www.stunnel.org/ |
 | **stunnel-static** | 5.71 | Static libraries for stunnel | https://www.stunnel.org/ |
 | **stuntman** | 1.2.16-3 | An open source STUN server | https://www.stunprotocol.org/ |
-| **stylua** | 0.18.2 | An opinionated Lua code formatter | https://github.com/JohnnyMorganz/StyLua |
+| **stylua** | 0.19.0 | An opinionated Lua code formatter | https://github.com/JohnnyMorganz/StyLua |
 | **subtitleripper** | 0.3.4 | DVD subtitle ripper for Linux | http://subtitleripper.sourceforge.net/ |
 | **subversion** | 1.14.2-6 | Centralized version control system characterized by its simplicity | https://subversion.apache.org |
 | **subversion-perl** | 1.14.2-6 | Perl interface to Subversion | https://subversion.apache.org |
