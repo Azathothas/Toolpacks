@@ -1,16 +1,37 @@
 ### Toolpacks : Packaged Tools &amp; Binaries all in one place
 ---
+#### Contents
+> - [**Prerequisite**](https://github.com/Azathothas/CertStream-Domains/tree/main#info)
+> - [**What? | Why?**](https://github.com/Azathothas/CertStream-Domains/tree/main#rationale)
+> - [**Enriching/Investigating the Data**](https://github.com/Azathothas/CertStream-Domains/tree/main#data)
+> - [**Sources**](https://github.com/Azathothas/CertStream-Domains/tree/main#sources)
+> - [**Future Ideas**](https://github.com/Azathothas/CertStream-Domains/tree/main#ideas)
+> - [**Thanks & Appreciation**](https://github.com/Azathothas/CertStream-Domains/tree/main#thanks)
+>
+---
 - #### Prerequisite
 ```bash
 !# Install eget: https://github.com/zyedidia/eget
+
+#--------------------------------------------------------------------------------------------#
+❯ aarch64 || arm64_v8a [Android]
+!# As $USER (TERMUX)
+# $PREFIX:/data/data/com.termux/files/usr
+curl -qfSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64_v8a_Android/eget" -o "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
+wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -O "$PREFIX/bin/eget" && chmod +xwr "$HOME/bin/eget"
+!# Root requires remounting /system/bin as RWR (NOT RECOMMENDED)
+#--------------------------------------------------------------------------------------------#
+
+#--------------------------------------------------------------------------------------------#
+❯ amd || x86_64
 !# As $USER
 mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
 curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
 wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-
 !# As ROOT
 sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
 sudo wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+#--------------------------------------------------------------------------------------------#
 ```
 ---
 - #### [amd x86_64](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)
