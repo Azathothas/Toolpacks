@@ -59,5 +59,16 @@ sudo wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64
 ---
 - #### [aarch64_arm64_v8a_Android](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android)
 ```bash
+!# Create tmp dir
+pushd "$(mktemp -d)"
+!# Download all bins
+for url in $(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/contents/aarch64_arm64_v8a_Android" -H "Accept: application/vnd.github.v3+json" | jq -r '.[].download_url'); do echo -e "\n[+] $url\n" && curl -qfLJO "$url"; done
+!# Move all to "$PREFIX/bin"
+# $PREFIX=/data/data/com.termux/files/usr
+find . -maxdepth 1 -type f ! -name '*.md' -exec mv {} "$PREFIX/bin/" \; 2>/dev/null
+#chmod
+chmod +xwr $PREFIX/bin/*
+#list
+ls "$PREFIX/bin" | column -t ; popd
 ```
 ---
