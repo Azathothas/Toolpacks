@@ -44,7 +44,7 @@
 | **antibody** | 6.1.1-2 | The fastest shell plugin manager | https://github.com/getantibody/antibody |
 | **antiword** | 0.37-3 | A free MS Word reader | https://en.m.wikipedia.org/wiki/Antiword |
 | **aom-tools** | 3.7.0-1 | Command-line tools using AOMedia library | https://aomedia.org/ |
-| **apache2** | 1:2.4.57 | Apache Web Server | https://httpd.apache.org |
+| **apache2** | 1:2.4.58 | Apache Web Server | https://httpd.apache.org |
 | **apkeep** | 0.15.0 | A command-line tool for downloading APK files from various sources | https://github.com/EFForg/apkeep |
 | **apksigner** | 33.0.1 | APK signing tool from Android SDK | https://developer.android.com/studio/command-line/apksigner |
 | **apr** | 1.7.4 | Apache Portable Runtime Library | https://apr.apache.org/ |
@@ -142,14 +142,14 @@
 | **boost-static** | 1.83.0-1 | Static libraries for boost | https://boost.org |
 | **bore** | 0.5.0 | Bore is a simple CLI tool for making tunnels to localhost | https://github.com/ekzhang/bore |
 | **borgbackup** | 1.2.6 | Deduplicating and compressing backup program | https://www.borgbackup.org/ |
-| **botan3** | 3.0.0 | Crypto and TLS for Modern C++ | https://botan.randombit.net/ |
-| **botan3-static** | 3.0.0 | Static libraries for botan3 | https://botan.randombit.net/ |
+| **botan3** | 3.2.0 | Crypto and TLS for Modern C++ | https://botan.randombit.net/ |
+| **botan3-static** | 3.2.0 | Static libraries for botan3 | https://botan.randombit.net/ |
 | **boxes** | 2.2.1 | A command line filter program which draws ASCII art boxes around your input text | https://boxes.thomasjensen.com/ |
 | **brainfuck** | 1:2.7.3 | Brainfuck Interpreter written in C | https://github.com/fabianishere/brainfuck |
 | **brainfuck-static** | 1:2.7.3 | Static libraries for brainfuck | https://github.com/fabianishere/brainfuck |
 | **brogue** | 1.13 | Roguelike dungeon crawling game (community edition) | https://sites.google.com/site/broguegame/ |
 | **brook** | 20230606-1 | A cross-platform strong encryption and not detectable proxy. Zero-Configuration. | https://github.com/txthinking/brook |
-| **broot** | 1.27.0 | A better way to navigate directories | https://github.com/Canop/broot |
+| **broot** | 1.28.1 | A better way to navigate directories | https://github.com/Canop/broot |
 | **brotli** | 1.1.0 | lossless compression algorithm and format (command line utility) | https://github.com/google/brotli |
 | **brotli-static** | 1.0.9-1 | Static libraries for brotli | https://github.com/google/brotli |
 | **bsd-finger** | 0.17 | User information lookup program | http://ftp.linux.org.uk/pub/linux/Networking/netkit/ |
@@ -235,8 +235,8 @@
 | **cmus** | 2.10.0-6 | Small, fast and powerful console music player | https://cmus.github.io/ |
 | **cmusfm** | 0.5.0 | Last.fm standalone scrobbler for the cmus music player | https://github.com/Arkq/cmusfm |
 | **codecrypt** | 1.8-9 | The post-quantum cryptography tool | http://e-x-a.org/codecrypt/ |
-| **coinor-clp** | 1:1.17.8 | An open-source linear programming solver | https://github.com/coin-or/Clp |
-| **coinor-clp-static** | 1:1.17.8 | Static libraries for coinor-clp | https://github.com/coin-or/Clp |
+| **coinor-clp** | 1:1.17.9 | An open-source linear programming solver | https://github.com/coin-or/Clp |
+| **coinor-clp-static** | 1:1.17.9 | Static libraries for coinor-clp | https://github.com/coin-or/Clp |
 | **cointop** | 1.6.10-2 | A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies | https://cointop.sh/ |
 | **colm** | 0.14.7-1 | COmputer Language Machinery | https://www.colm.net/open-source/colm/ |
 | **colm-static** | 0.14.7-1 | Static libraries for colm | https://www.colm.net/open-source/colm/ |
@@ -602,7 +602,7 @@
 | **gsl** | 2.7.1 | GNU Scientific Library (GSL) providing a wide range of mathematical routines | https://www.gnu.org/software/gsl/ |
 | **gsl-static** | 2.7.1 | Static libraries for gsl | https://www.gnu.org/software/gsl/ |
 | **gst-libav** | 1.22.4 | GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code | https://gstreamer.freedesktop.org/modules/gst-libav.html |
-| **gst-plugins-bad** | 1.22.4-1 | GStreamer Bad Plug-ins | https://gstreamer.freedesktop.org/ |
+| **gst-plugins-bad** | 1.22.4-3 | GStreamer Bad Plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-base** | 1.22.4-1 | GStreamer base plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-gl-headers** | 1.22.4-1 | OpenGL headers for GStreamer plugins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-good** | 1.22.4-2 | GStreamer Good Plug-ins | https://gstreamer.freedesktop.org/ |
@@ -675,7 +675,7 @@
 | **ices** | 2.0.3 | IceS is a source client for the Icecast streaming server. | https://icecast.org/ices/ |
 | **iconv** | 1.17 | Utility converting between different character encodings | https://www.gnu.org/software/libiconv/ |
 | **icoutils** | 0.32.3 | Extracts and converts images in MS Windows(R) icon and cursor files. | https://www.nongnu.org/icoutils/ |
-| **icu-devtools** | 73.2 | Development utilities for International Components for Unicode | http://site.icu-project.org/home |
+| **icu-devtools** | 74.1 | Development utilities for International Components for Unicode | http://site.icu-project.org/home |
 | **id3lib** | 3.8.3-3 | A software library for manipulating ID3v1/v1.1 and ID3v2 tags | http://id3lib.sourceforge.net/ |
 | **id3lib-static** | 3.8.3-3 | Static libraries for id3lib | http://id3lib.sourceforge.net/ |
 | **id3ted** | 1.0-3 | A comand line id3 tag editor | https://muennich.github.io/id3ted/ |
@@ -844,7 +844,7 @@
 | **libc-client-static** | 2007f-3 | Static libraries for libc-client | https://www.washington.edu/imap/ |
 | **libcaca** | 0.99.beta20-1 | Graphics library that outputs text instead of pixels | http://caca.zoy.org/wiki/libcaca |
 | **libcaca-static** | 0.99.beta20-1 | Static libraries for libcaca | http://caca.zoy.org/wiki/libcaca |
-| **libcairo** | 1.17.8 | Cairo 2D vector graphics library | https://cairographics.org |
+| **libcairo** | 1.18.0 | Cairo 2D vector graphics library | https://cairographics.org |
 | **libcairomm-1.0** | 1.14.4 | Provides a C++ interface to cairo | https://www.cairographics.org/cairomm/ |
 | **libcairomm-1.16** | 1.16.2 | Provides a C++ interface to cairo | https://www.cairographics.org/cairomm/ |
 | **libcap** | 2.69 | POSIX 1003.1e capabilities | https://sites.google.com/site/fullycapable/ |
@@ -1000,8 +1000,8 @@
 | **libice-static** | 1.1.1 | Static libraries for libice | https://xorg.freedesktop.org/ |
 | **libiconv** | 1.17 | An implementation of iconv() | https://www.gnu.org/software/libiconv/ |
 | **libiconv-static** | 1.17 | Static libraries for libiconv | https://www.gnu.org/software/libiconv/ |
-| **libicu** | 73.2 | International Components for Unicode library | http://site.icu-project.org/home |
-| **libicu-static** | 73.2 | Static libraries for libicu | http://site.icu-project.org/home |
+| **libicu** | 74.1 | International Components for Unicode library | http://site.icu-project.org/home |
+| **libicu-static** | 74.1 | Static libraries for libicu | http://site.icu-project.org/home |
 | **libid3tag** | 0.16.3 | MAD ID3 tag manipulation library | http://www.underbit.com/products/mad/ |
 | **libidn** | 1.41 | GNU Libidn library, implementation of IETF IDN specifications | https://www.gnu.org/software/libidn/ |
 | **libidn-static** | 1.41 | Static libraries for libidn | https://www.gnu.org/software/libidn/ |
@@ -1155,7 +1155,7 @@
 | **libntl** | 11.5.1-1 | A Library for doing Number Theory | https://libntl.org |
 | **libntl-static** | 11.5.1-1 | Static libraries for libntl | https://libntl.org |
 | **libobjc2** | 2.1-2 | The GNUstep Objective-C runtime | http://www.gnustep.org/ |
-| **libode** | 0.16.2 | An open source, high performance library for simulating rigid body dynamics | https://www.ode.org |
+| **libode** | 0.16.4 | An open source, high performance library for simulating rigid body dynamics | https://www.ode.org |
 | **libogg** | 1.3.5 | Library for working with the Ogg multimedia container format | https://xiph.org/ogg/ |
 | **libogg-static** | 1.3.5 | Static libraries for libogg | https://xiph.org/ogg/ |
 | **liboggz** | 1.1.1-5 | Command and library to inspect, tweak, edit and validate Ogg files | https://www.xiph.org/oggz/ |
@@ -2064,7 +2064,7 @@
 | **ruff** | 0.1.5 | An extremely fast Python linter, written in Rust | https://github.com/charliermarsh/ruff |
 | **runit** | 2.1.2-3 | Tools to provide service supervision and to manage services | http://smarden.org/runit |
 | **runit-static** | 2.1.2-3 | Static libraries for runit | http://smarden.org/runit |
-| **rush** | 0.5.3 | A cross-platform command-line tool for executing jobs in parallel | https://github.com/shenwei356/rush |
+| **rush** | 0.5.4 | A cross-platform command-line tool for executing jobs in parallel | https://github.com/shenwei356/rush |
 | **rust** | 1.73.0-2 | Systems programming language focused on safety, speed and concurrency | https://www.rust-lang.org/ |
 | **rust-analyzer** | 20230703 | A Rust compiler front-end for IDEs | https://github.com/rust-analyzer/rust-analyzer |
 | **rust-bindgen** | 0.69.1 | Automatically generates Rust FFI bindings to C (and some C++) libraries | https://github.com/rust-lang/rust-bindgen |
@@ -2123,7 +2123,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.6.3 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.6.4 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
