@@ -3,8 +3,8 @@ name: 🛍️ Fetch ⚙️ Weekly 📱 (aarch64_arm64_v8a_Android) Package 📦�
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *" #  06:45 AM NPT Mrng Every Day
-  
+    #- cron: "0 1 * * *" #  06:45 AM NPT Mrng Every Day
+    - cron: "0 0 */2 * *" #Every 2 days (48 Hr)
 env:
   GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
   
