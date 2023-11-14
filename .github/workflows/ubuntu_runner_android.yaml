@@ -1,4 +1,4 @@
-name: 📱0xf (Android Builder) ➼ Debug (gh-runner) Ubuntu-22.04
+name: 0xf 📱 (Android Builder) ➼ Debug (gh-runner) Ubuntu-22.04
 #Image: https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md
 on:
   workflow_dispatch:
