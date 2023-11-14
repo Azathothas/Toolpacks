@@ -95,6 +95,11 @@ jobs:
            # For neofetch
            pip install archey4
            pip install archey4 2>/dev/null
+           #Bin Utils
+           sudo apt install binutils-aarch64-linux-gnu -y
+           #libpcap
+           sudo apt install 'libpcap*' -y
+           sudo apt install 'nmap' -y
         continue-on-error: true
 
      #Comment, if you do not want to pre-install anything
