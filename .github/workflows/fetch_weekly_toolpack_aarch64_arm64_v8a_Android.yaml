@@ -350,6 +350,16 @@ jobs:
           eget "static-web-server/static-web-server" --asset "aarch64" --asset "android" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/static-web-server"
         continue-on-error: true
 
+     ##sudo-wrapper
+      - name: Download sudo-wrapper
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #curl -qfsSL "https://github.com/agnostic-apollo/sudo/releases/latest/download/sudo" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/sudo"
+          curl -qfsSL "https://raw.githubusercontent.com/agnostic-apollo/sudo/master/sudo" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/sudo"
+        continue-on-error: true
+
     ##TailScale
       - name: Download TailScale
         run: |
