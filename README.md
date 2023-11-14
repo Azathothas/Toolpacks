@@ -2,12 +2,10 @@
 ---
 #### Contents
 > - [**Prerequisite**](https://github.com/Azathothas/Toolpacks/tree/main#prerequisite)
-> - [**amd_x86_64**](https://github.com/Azathothas/Toolpacks/tree/main#amd-x86_64)
-> - [**Enriching/Investigating the Data**](https://github.com/Azathothas/CertStream-Domains/tree/main#data)
-> - [**Sources**](https://github.com/Azathothas/CertStream-Domains/tree/main#sources)
-> - [**Future Ideas**](https://github.com/Azathothas/CertStream-Domains/tree/main#ideas)
-> - [**Thanks & Appreciation**](https://github.com/Azathothas/CertStream-Domains/tree/main#thanks)
->
+> > **`Toolpacks`**
+> > - [**Android (Termux Pkgs)**](https://github.com/Azathothas/Toolpacks/tree/main/Info/Packages/Termux)
+> > - [**Android (aarch64_arm64_v8a)**](https://github.com/Azathothas/Toolpacks/tree/main#aarch64_arm64_v8a_Android) --> [Metadata](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android)
+> > - [**Linux (amd_x86_64)**](https://github.com/Azathothas/Toolpacks/tree/main#amd-x86_64) --> [Metadata](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)
 ---
 - #### Prerequisite
 ```bash
@@ -57,5 +55,9 @@ sudo wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64
  mkdir -p "$HOME/bin" ; 7z e "./toolpack_x86_64.7z" -o"$HOME/bin" -y && rm -rf "$HOME/bin/toolpack_x86_64" 2>/dev/null && rm -rf "./toolpack_x86_64.7z" ; chmod +xwr $HOME/bin/*
 !# ROOT
  sudo 7z e "./toolpack_x86_64.7z" -o"/usr/local/bin" -y && sudo rm -rf "/usr/local/bin/toolpack_x86_64" 2>/dev/null && rm -rf "./toolpack_x86_64.7z" ; sudo chmod +xwr /usr/local/bin/* 2>/dev/null
+```
+---
+- #### [aarch64_arm64_v8a_Android](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android)
+```bash
 ```
 ---
