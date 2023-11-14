@@ -2,7 +2,7 @@
 ---
 #### Contents
 > - [**Prerequisite**](https://github.com/Azathothas/Toolpacks/tree/main#prerequisite)
-> - [**amd_x86_64**](https://github.com/Azathothas/Toolpacks/tree/main#)
+> - [**amd_x86_64**](https://github.com/Azathothas/Toolpacks/tree/main#amd-x86_64)
 > - [**Enriching/Investigating the Data**](https://github.com/Azathothas/CertStream-Domains/tree/main#data)
 > - [**Sources**](https://github.com/Azathothas/CertStream-Domains/tree/main#sources)
 > - [**Future Ideas**](https://github.com/Azathothas/CertStream-Domains/tree/main#ideas)
@@ -34,7 +34,7 @@ sudo wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64
 #--------------------------------------------------------------------------------------------#
 ```
 ---
-- #### [`amd x86_64`](https://github.com/Azathothas/Toolpacks/tree/main/x86_64) `Pack`
+- #### [`amd x86_64`](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)
 ```bash
 ❯ !# tar.bz2 [Slowest + High RAM Usage]
 !# $USER
