@@ -153,7 +153,7 @@ jobs:
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
           GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
-          file "./anew" ; ldd "./anew" ; ls -lah "./anew"
+          file "./anew" ; aarch64-linux-gnu-readelf -d "./anew" ; ls -lah "./anew"
           #Move
           mv "./anew" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/anew" ; popd
           #Clean Cache
@@ -199,9 +199,55 @@ jobs:
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
           GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./certstream"
-          file "./certstream" ; ldd "./certstream" ; ls -lah "./certstream"
+          file "./certstream" ; aarch64-linux-gnu-readelf -d "./certstream" ; ls -lah "./certstream"
           #Move
           mv "./certstream" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/certstream" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+     ##crt
+      - name: Build crt (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone "https://github.com/cemulus/crt" && cd crt
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          file "./crt" ; aarch64-linux-gnu-readelf -d "./crt" ; ls -lah "./crt"
+          #Move
+          mv "./crt" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/crt" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+     ##dnsx
+      - name: Build dnsx (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/dnsx" && cd "./dnsx"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/dnsx"
+          file "./dnsx" ; aarch64-linux-gnu-readelf -d "./dnsx" ; ls -lah "./dnsx"
+          #Move
+          mv "./dnsx" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/dnsx" ; popd
           #Clean Cache
           go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
@@ -228,6 +274,82 @@ jobs:
           go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
 
+     ##encode
+      - name: Build encode (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd $(mktemp -d) && git clone "https://github.com/Brum3ns/encode" && cd encode
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/encode"
+          file "./encode" ; aarch64-linux-gnu-readelf -d "./encode" ; ls -lah "./encode"
+          #Move
+          mv "./encode" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/encode" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+    # available: pkg info feroxbuster
+    #  ##feroxbuster
+    #   - name: Build feroxbuster (Native)
+    #     run: |
+    #       #Presets
+    #       set -x ; set +e
+    #       #--------------#
+    #       #Get Source
+    #       pushd "$(mktemp -d)" && git clone "https://github.com/epi052/feroxbuster" && cd "./feroxbuster"
+    #       #android29 --> Android 10 or later
+    #       #llvm-ar
+    #       sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+    #       sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+    #       #llvm-ranlib
+    #       sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+    #       sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+    #       #export Build Flags
+    #       export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
+    #       rustup target add "$TARGET"
+    #       #Config
+    #       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+    #       echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+    #       #Build
+    #       cargo build --target "$TARGET" --release
+    #       #meta
+    #       file "./target/$TARGET/release/feroxbuster" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/feroxbuster"
+    #       #move
+    #       mv "./target/$TARGET/release/feroxbuster" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/feroxbuster" ; popd
+    #     continue-on-error: true
+
+     ##ffuf
+      - name: Build ffuf (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd $(mktemp -d) && git clone "https://github.com/ffuf/ffuf" && cd "./ffuf"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          file "./ffuf" ; aarch64-linux-gnu-readelf -d "./ffuf" ; ls -lah "./ffuf"
+          #Move
+          mv "./ffuf" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/ffuf" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
      ##filebrowser
       - name: Download filebrowser
         run: |
@@ -235,6 +357,104 @@ jobs:
           set -x ; set +e
           #--------------#
           eget "filebrowser/filebrowser" --asset "arm64" --asset "linux" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/filebrowser"
+        continue-on-error: true
+
+     ##godns
+      - name: Build godns (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd $(mktemp -d) && git clone "https://github.com/TimothyYe/godns" && cd "./godns"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/godns"
+          file "./godns" ; aarch64-linux-gnu-readelf -d "./godns" ; ls -lah "./godns"
+          #Move
+          mv "./godns" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/godns" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+     ##gost
+      - name: Build gost (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd $(mktemp -d) && git clone "https://github.com/ginuerzh/gost" && cd "./gost"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/gost"
+          file "./gost" ; aarch64-linux-gnu-readelf -d "./gost" ; ls -lah "./gost"
+          #Move
+          mv "./gost" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/gost" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+     ##gowitness
+      - name: Build gowitness (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd $(mktemp -d) && git clone "https://github.com/sensepost/gowitness" && cd "./gowitness"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          file "./gowitness" ; aarch64-linux-gnu-readelf -d "./gowitness" ; ls -lah "./gowitness"
+          #Move
+          mv "./gowitness" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/gowitness" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+     ##haylxon
+      - name: Build haylxon (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone "https://github.com/pwnwriter/haylxon" && cd "./haylxon"
+          #android29 --> Android 10 or later
+          #llvm-ar
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          #llvm-ranlib
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          #export Build Flags
+          export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
+          rustup target add "$TARGET"
+          #Config
+          sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+          echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+          #Build
+          cargo build --target "$TARGET" --release
+          #meta
+          file "./target/$TARGET/release/hxn" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/hxn"
+          #move
+          mv "./target/$TARGET/release/hxn" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/hxn" ; popd
         continue-on-error: true
 
      ##httpx
@@ -253,7 +473,7 @@ jobs:
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
           GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/httpx"
-          file "./httpx" ; ldd "./httpx" ; ls -lah "./httpx"
+          file "./httpx" ; aarch64-linux-gnu-readelf -d "./httpx" ; ls -lah "./httpx"
           #Move
           mv "./httpx" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/httpx" ; popd
           #Clean Cache
@@ -278,20 +498,112 @@ jobs:
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
           GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./inscope"
-          file "./inscope" ; ldd "./inscope" ; ls -lah "./inscope"
+          file "./inscope" ; aarch64-linux-gnu-readelf -d "./inscope" ; ls -lah "./inscope"
           #Move
           mv "./inscope" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/inscope" ; popd
           #Clean Cache
           go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
 
-    ##miniserve
-      - name: Download miniserve
+     ##jless
+      - name: Build jless (Native)
         run: |
           #Presets
           set -x ; set +e
           #--------------#
-          eget "svenstaro/miniserve" --asset "aarch64" --asset "linux" --asset "musl" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/miniserve"
+          #Get Source
+          pushd "$(mktemp -d)" && git clone "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
+          #android29 --> Android 10 or later
+          #llvm-ar
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          #llvm-ranlib
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          #export Build Flags
+          export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
+          rustup target add "$TARGET"
+          #Config
+          sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+          echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+          #Build
+          cargo build --target "$TARGET" --release
+          #meta
+          file "./target/$TARGET/release/jless" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/jless"
+          #move
+          mv "./target/$TARGET/release/jless" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/jless" ; popd
+        continue-on-error: true
+
+     ##kanha
+      - name: Build kanha (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone "https://github.com/pwnwriter/kanha" && cd "./kanha"
+          #android29 --> Android 10 or later
+          #llvm-ar
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          #llvm-ranlib
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          #export Build Flags
+          export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
+          rustup target add "$TARGET"
+          #Config
+          sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+          echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+          #Build
+          cargo build --target "$TARGET" --release
+          #meta
+          file "./target/$TARGET/release/kanha" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/kanha"
+          #move
+          mv "./target/$TARGET/release/kanha" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/kanha" ; popd
+        continue-on-error: true
+        
+    #Avail: pkg info miniserve
+    # ##miniserve
+    #   - name: Download miniserve
+    #     run: |
+    #       #Presets
+    #       set -x ; set +e
+    #       #--------------#
+    #       eget "svenstaro/miniserve" --asset "aarch64" --asset "linux" --asset "musl" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/miniserve"
+    #     continue-on-error: true
+
+     ##mapcidr
+      - name: Build mapcidr (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/mapcidr"
+          file "./mapcidr" ; aarch64-linux-gnu-readelf -d "./mapcidr" ; ls -lah "./mapcidr"
+          #Move
+          mv "./mapcidr" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/mapcidr" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+
+     ##ngrok : https://github.com/Yisus7u7/termux-ngrok
+      - name: Download ngrok
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/ngrok/ngrok_aarch64_arm64_Linux" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/ngrok"
         continue-on-error: true
 
      ##pspy
@@ -316,6 +628,16 @@ jobs:
           go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
 
+     ##qbittorrent-nox : https://github.com/termux/termux-packages/issues/10081
+     #Run: echo "y" | termux-chroot "$(which qbittorrent-nox)" --webui-port="6776" --torrenting-port="42069"
+      - name: Download qbittorrent-nox
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          eget "userdocs/qbittorrent-nox-static" --asset "aarch64" --asset "^qt5" --to "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/qbittorrent-nox"
+        continue-on-error: true
+
      ##scopegen
       - name: Build scopegen (Native)
         run: |
@@ -334,7 +656,7 @@ jobs:
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
           GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./scopegen"
-          file "./scopegen" ; ldd "./scopegen" ; ls -lah "./scopegen"
+          file "./scopegen" ; aarch64-linux-gnu-readelf -d "./scopegen" ; ls -lah "./scopegen"
           #Move
           mv "./scopegen" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/scopegen" ; popd
           #Clean Cache
