@@ -163,7 +163,7 @@
 | **byacc** | 20230521 | byacc is generally conceded to be the best yacc variant available | https://invisible-island.net/byacc/ |
 | **byobu** | 5.133 | Byobu is a GPLv3 open source text-based window manager and terminal multiplexer | http://byobu.co/ |
 | **bzip2** | 1.0.8-6 | Tools for working with bzip2 compression | http://www.bzip.org/ |
-| **c-ares** | 1.21.0 | Library for asynchronous DNS requests (including name resolves) | https://c-ares.haxx.se |
+| **c-ares** | 1.22.0 | Library for asynchronous DNS requests (including name resolves) | https://c-ares.haxx.se |
 | **c-script** | 0.14 | Compile and execute C "scripts" in one go! | https://github.com/ryanmjacobs/c |
 | **c-toxcore** | 0.2.18-p20230303-1 | Backend library for the Tox protocol | https://tox.chat |
 | **c-toxcore-static** | 0.2.18-p20230303-1 | Static libraries for c-toxcore | https://tox.chat |
@@ -336,9 +336,9 @@
 | **dotconf-static** | 1.3 | Static libraries for dotconf | https://github.com/williamh/dotconf |
 | **double-conversion** | 3.3.0 | Binary-decimal and decimal-binary routines for IEEE doubles | https://github.com/google/double-conversion |
 | **doxygen** | 1.9.8 | A documentation system for C++, C, Java, IDL and PHP | http://www.doxygen.org |
-| **dpkg** | 1.22.0 | Debian package management system | https://packages.debian.org/dpkg |
-| **dpkg-perl** | 1.22.0 | Perl modules for dpkg | https://packages.debian.org/dpkg |
-| **dpkg-scanpackages** | 1.22.0 | Creates Packages index files | https://packages.debian.org/dpkg |
+| **dpkg** | 1.22.1 | Debian package management system | https://packages.debian.org/dpkg |
+| **dpkg-perl** | 1.22.1 | Perl modules for dpkg | https://packages.debian.org/dpkg |
+| **dpkg-scanpackages** | 1.22.1 | Creates Packages index files | https://packages.debian.org/dpkg |
 | **dropbear** | 2022.83-1 | Small SSH server and client | https://matt.ucc.asn.au/dropbear/dropbear.html |
 | **dtach** | 0.9 | Emulates the detach feature of screen | http://dtach.sourceforge.net/ |
 | **dtc** | 1.7.0 | Device Tree Compiler | https://git.kernel.org/pub/scm/utils/dtc/dtc |
@@ -439,7 +439,7 @@
 | **fontconfig-utils** | 2.14.2-2 | Fontconfig binaries | https://www.freedesktop.org/wiki/Software/fontconfig/ |
 | **forestdb-dump** | 1.2 | ForestDB dump tool | https://github.com/couchbase/forestdb |
 | **fortune** | 1.2-1 | Revealer of fortunes | https://www.fefe.de/fortune/ |
-| **fossil** | 2.22 | DSCM with built-in wiki, http interface and server, tickets database | https://www.fossil-scm.org |
+| **fossil** | 2.23 | DSCM with built-in wiki, http interface and server, tickets database | https://www.fossil-scm.org |
 | **freecolor** | 0.9.3 | Freecolor is a replacement for Linux that displays free memory graphically | http://rkeene.org/oss/freecolor/ |
 | **freeimage** | 3.18.0-6 | The library project for developers who would like to support popular graphics image formats | https://freeimage.sourceforge.io |
 | **freeimage-static** | 3.18.0-6 | Static libraries for freeimage | https://freeimage.sourceforge.io |
@@ -557,7 +557,7 @@
 | **gnustep-make** | 2.9.1 | The GNUstep makefile package | http://www.gnustep.org |
 | **gnutls** | 3.8.0-1 | Commandline utilities for interfacing with the gnutls library | https://www.gnutls.org/ |
 | **go-findimagedupes** | 2023.01.29-3 | Find visually similar or duplicate images | https://gitlab.com/opennota/findimagedupes |
-| **goaccess** | 1.8 | An open source real-time web log analyzer and interactive viewer | http://goaccess.io |
+| **goaccess** | 1.8.1 | An open source real-time web log analyzer and interactive viewer | http://goaccess.io |
 | **gobang** | 0.1.0-alpha.5-2 | A cross-platform TUI database management tool written in Rust | https://github.com/TaKO8Ki/gobang |
 | **gobject-introspection** | 1.78.1 | Uniform machine readable API | https://gi.readthedocs.io/ |
 | **gogs** | 0.13.0-2 | A painless self-hosted Git service | https://gogs.io |
@@ -602,8 +602,8 @@
 | **gsf-tools** | 1.14.50-1 | Command-line tools for libgsf | https://gitlab.gnome.org/GNOME/libgsf |
 | **gsl** | 2.7.1 | GNU Scientific Library (GSL) providing a wide range of mathematical routines | https://www.gnu.org/software/gsl/ |
 | **gsl-static** | 2.7.1 | Static libraries for gsl | https://www.gnu.org/software/gsl/ |
-| **gst-libav** | 1.22.4 | GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code | https://gstreamer.freedesktop.org/modules/gst-libav.html |
-| **gst-plugins-bad** | 1.22.4-3 | GStreamer Bad Plug-ins | https://gstreamer.freedesktop.org/ |
+| **gst-libav** | 1.22.7 | GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code | https://gstreamer.freedesktop.org/modules/gst-libav.html |
+| **gst-plugins-bad** | 1.22.7 | GStreamer Bad Plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-base** | 1.22.4-1 | GStreamer base plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-gl-headers** | 1.22.4-1 | OpenGL headers for GStreamer plugins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-good** | 1.22.4-2 | GStreamer Good Plug-ins | https://gstreamer.freedesktop.org/ |
@@ -957,7 +957,7 @@
 | **libgd-static** | 1:2.3.3-3 | Static libraries for libgd | https://libgd.github.io/ |
 | **libgee** | 0.20.6 | A collection library providing GObject-based interfaces and classes for commonly used data structures | https://wiki.gnome.org/Projects/Libgee |
 | **libgee-static** | 0.20.6 | Static libraries for libgee | https://wiki.gnome.org/Projects/Libgee |
-| **libgeos** | 3.12.0 | Geometry Engine, C++ port of the Java Topology Suite | https://geos.osgeo.org/ |
+| **libgeos** | 3.12.1 | Geometry Engine, C++ port of the Java Topology Suite | https://geos.osgeo.org/ |
 | **libgeotiff** | 1.7.1-1 | Library for handling TIFF for georeferenced raster imagery | https://github.com/OSGeo/libgeotiff |
 | **libgf2x** | 1.3.0 | A library for multiplying polynomials over the binary field | https://gitlab.inria.fr/gf2x/gf2x |
 | **libgf2x-static** | 1.3.0 | Static libraries for libgf2x | https://gitlab.inria.fr/gf2x/gf2x |
@@ -1047,8 +1047,8 @@
 | **libliquid-dsp-static** | 1.6.0 | Static libraries for libliquid-dsp | https://liquidsdr.org/ |
 | **libllvm** | 17.0.5 | Modular compiler and toolchain technologies library | https://clang.llvm.org/ |
 | **libllvm-static** | 17.0.5 | Static libraries for libllvm | https://clang.llvm.org/ |
-| **liblmdb** | 0.9.30 | LMDB implements a simplified variant of the BerkeleyDB (BDB) API | https://symas.com/lmdb/ |
-| **liblmdb-static** | 0.9.30 | Static libraries for liblmdb | https://symas.com/lmdb/ |
+| **liblmdb** | 0.9.31 | LMDB implements a simplified variant of the BerkeleyDB (BDB) API | https://symas.com/lmdb/ |
+| **liblmdb-static** | 0.9.31 | Static libraries for liblmdb | https://symas.com/lmdb/ |
 | **liblo** | 0.31 | A lightweight library that provides an easy to use implementation of the OSC protocol | http://liblo.sourceforge.net/ |
 | **liblo-static** | 0.31 | Static libraries for liblo | http://liblo.sourceforge.net/ |
 | **liblog4c** | 1.2.4-1 | A C library for flexible logging to files, syslog and other destinations | https://log4c.sourceforge.net/ |
@@ -1104,7 +1104,7 @@
 | **libmnl-static** | 1.0.5 | Static libraries for libmnl | https://www.netfilter.org/projects/libmnl/ |
 | **libmodplug** | 0.8.9.1.r461 | The ModPlug mod file playing library | http://modplug-xmms.sourceforge.net/ |
 | **libmodplug-static** | 0.8.9.1.r461 | Static libraries for libmodplug | http://modplug-xmms.sourceforge.net/ |
-| **libmosquitto** | 2.0.15 | MQTT library | https://mosquitto.org/ |
+| **libmosquitto** | 2.0.18 | MQTT library | https://mosquitto.org/ |
 | **libmount** | 2.39.2-1 | Library for (un)mounting filesystems | https://en.wikipedia.org/wiki/Util-linux |
 | **libmp3lame** | 3.100-4 | High quality MPEG Audio Layer III (MP3) encoder | https://lame.sourceforge.io/ |
 | **libmp3lame-static** | 3.100-4 | Static libraries for libmp3lame | https://lame.sourceforge.io/ |
@@ -1132,8 +1132,8 @@
 | **libnet-static** | 1.3 | Static libraries for libnet | https://github.com/libnet/libnet |
 | **libnettle** | 3.9.1 | Cryptographic library that is designed to fit easily in more or less any context | https://www.lysator.liu.se/~nisse/nettle/ |
 | **libnettle-static** | 3.9.1 | Static libraries for libnettle | https://www.lysator.liu.se/~nisse/nettle/ |
-| **libnewt** | 0.52.23 | A programming library for color text mode, widget based user interfaces | https://pagure.io/newt |
-| **libnewt-static** | 0.52.23 | Static libraries for libnewt | https://pagure.io/newt |
+| **libnewt** | 0.52.24 | A programming library for color text mode, widget based user interfaces | https://pagure.io/newt |
+| **libnewt-static** | 0.52.24 | Static libraries for libnewt | https://pagure.io/newt |
 | **libnfc** | 1.8.0 | Free/Libre Near Field Communication (NFC) library | https://github.com/nfc-tools/libnfc |
 | **libnfc-static** | 1.8.0 | Static libraries for libnfc | https://github.com/nfc-tools/libnfc |
 | **libnfs** | 5.0.2 | NFS client library | https://github.com/sahlberg/libnfs |
@@ -1314,7 +1314,7 @@
 | **libtbb** | 2021.10.0 | oneAPI Threading Building Blocks | https://oneapi-src.github.io/oneTBB/ |
 | **libtd** | 1.8.0 | Library for building Telegram clients | https://core.telegram.org/tdlib/ |
 | **libtd-static** | 1.8.0 | Static libraries for libtd | https://core.telegram.org/tdlib/ |
-| **libtdb** | 1.4.8 | A trivial database system | https://tdb.samba.org/ |
+| **libtdb** | 1.4.9 | A trivial database system | https://tdb.samba.org/ |
 | **libtermkey** | 0.22-3 | Library for processing of keyboard entry for terminal-based programs | http://www.leonerd.org.uk/code/libtermkey/ |
 | **libtheora** | 1.1.1-1 | An open video codec developed by the Xiph.org | https://www.theora.org/ |
 | **libtheora-static** | 1.1.1-1 | Static libraries for libtheora | https://www.theora.org/ |
@@ -1624,7 +1624,7 @@
 | **morse2ascii** | 0.2-4 | A tool to decode the morse codes from a PCM WAV file as well as from text and RAW PCM files | https://packages.debian.org/sid/morse2ascii |
 | **mosh** | 1.4.0-7 | Mobile shell that supports roaming and intelligent local echo | https://mosh.org |
 | **mosh-perl** | 1.4.0-7 | The mosh Perl script | https://mosh.org |
-| **mosquitto** | 2.0.15 | MQTT version 3.1/3.1.1 compatible message broker and clients | https://mosquitto.org/ |
+| **mosquitto** | 2.0.18 | MQTT version 3.1/3.1.1 compatible message broker and clients | https://mosquitto.org/ |
 | **most** | 5.2.0 | A terminal pager similar to 'more' and 'less' | http://www.jedsoft.org/most/index.html |
 | **mount-utils** | 2.39.2-1 | Utilities for (un)mounting filesystems | https://en.wikipedia.org/wiki/Util-linux |
 | **mp3cat** | 0.5 | Copies a byte stream, skipping everything except mp3 frames with valid headers | https://tomclegg.ca/mp3cat |
@@ -1640,7 +1640,7 @@
 | **mpv** | 0.36.0 | Command-line media player | https://mpv.io/ |
 | **mruby** | 3.2.0 | Lightweight implementation of the Ruby language | https://mruby.org/ |
 | **mruby-static** | 3.2.0 | Static libraries for mruby | https://mruby.org/ |
-| **msmtp** | 1.8.24 | Lightweight SMTP client | https://marlam.de/msmtp/ |
+| **msmtp** | 1.8.25 | Lightweight SMTP client | https://marlam.de/msmtp/ |
 | **mtd-utils** | 2.1.6 | Utilities for dealing with MTD devices | http://www.linux-mtd.infradead.org/ |
 | **mtools** | 4.0.43 | Tool for manipulating FAT images | https://www.gnu.org/software/mtools/ |
 | **mu** | 1.10.8 | Maildir indexer/searcher and Emacs client (mu4e) | https://www.djcbsoftware.nl/code/mu/ |
@@ -1725,7 +1725,7 @@
 | **nsnake** | 3.0.1-6 | The classic snake game with textual interface | https://github.com/alexdantas/nSnake |
 | **nss-utils** | 3.94 | Tools for NSS | https://firefox-source-docs.mozilla.org/security/nss/ |
 | **nudoku** | 2.1.0 | ncurses based sudoku game | http://jubalh.github.io/nudoku/ |
-| **nushell** | 0.86.0 | A new type of shell operating on structured data | https://www.nushell.sh |
+| **nushell** | 0.87.0 | A new type of shell operating on structured data | https://www.nushell.sh |
 | **nwipe** | 0.34 | A program that will securely erase the entire contents of disks | https://github.com/martijnvanbrummelen/nwipe |
 | **nyancat** | 1.5.2 | Nyancat in your terminal, rendered through ANSI escape sequences. | http://nyancat.dakko.us |
 | **nzbget** | 21.1-6 | The most efficient usenet downloader | https://nzbget.net/ |
@@ -1986,14 +1986,14 @@
 | **quick-lint-js** | 2.18.0 | Finds bugs in JavaScript programs | https://quick-lint-js.com/ |
 | **quickjs** | 1:20210327-2 | QuickJS is a small and embeddable Javascript engine | https://bellard.org/quickjs/ |
 | **quilt** | 0.67 | Allows you to easily manage large numbers of patches | https://savannah.nongnu.org/projects/quilt |
-| **racket** | 8.10 | Full-spectrum programming language going beyond Lisp and Scheme | https://racket-lang.org |
-| **racket-static** | 8.10 | Static libraries for racket | https://racket-lang.org |
+| **racket** | 8.11 | Full-spectrum programming language going beyond Lisp and Scheme | https://racket-lang.org |
+| **racket-static** | 8.11 | Static libraries for racket | https://racket-lang.org |
 | **radare2** | 5.8.8 | Advanced Hexadecimal Editor | https://rada.re |
 | **radare2-static** | 5.7.8 | Static libraries for radare2 | https://rada.re |
 | **rage** | 0.9.2 | A simple, secure and modern encryption tool | https://age-encryption.org/v1 |
 | **ragel** | 7.0.4 | Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code | https://www.colm.net/open-source/ragel/ |
 | **ragel-static** | 7.0.4 | Static libraries for ragel | https://www.colm.net/open-source/ragel/ |
-| **railway-cli** | 3.5.1 | This is the command line interface for Railway | https://railway.app |
+| **railway-cli** | 3.5.2 | This is the command line interface for Railway | https://railway.app |
 | **ranger** | 1.9.3-6 | File manager with VI key bindings | https://ranger.github.io/ |
 | **rapidjson** | 1.1.0-4 | fast JSON parser/generator for C++ with SAX/DOM style API | https://github.com/Tencent/rapidjson/ |
 | **ratt** | 2023.02.02-2 | A tool for converting websites to rss/atom feeds | https://git.sr.ht/~ghost08/ratt |
@@ -2178,7 +2178,7 @@
 | **sse2neon** | 1.6.0 | A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics | https://github.com/DLTcollab/sse2neon |
 | **sshpass** | 1.10 | Noninteractive ssh password provider | https://sourceforge.net/projects/sshpass/ |
 | **sshping** | 0.1.4-2 | measure character-echo latency and bandwidth for an interactive ssh session | https://github.com/spook/sshping |
-| **sslscan** | 2.1.1 | Utility to discover supported cipher suites on SSL/TLS enabled servers | https://github.com/rbsec/sslscan |
+| **sslscan** | 2.1.2 | Utility to discover supported cipher suites on SSL/TLS enabled servers | https://github.com/rbsec/sslscan |
 | **sssnake** | 0.3.2 | cli snake game that plays itself | https://github.com/AngelJumbo/sssnake |
 | **ssss** | 0.5.7 | Simple command-line implementation of Shamir's Secret Sharing Scheme | https://github.com/MrJoy/ssss |
 | **stag** | 1.0.0 | Streaming bar graphs. For stats and stuff. | https://github.com/seenaburns/stag |
@@ -2236,7 +2236,7 @@
 | **tcl** | 8.6.13 | Powerful but easy to learn dynamic programming language | https://www.tcl.tk/ |
 | **tcllib** | 1.21 | Tcl Standard Library | https://core.tcl-lang.org/tcllib/ |
 | **tcsh** | 6.24.10 | TENEX C Shell, an enhanced version of Berkeley csh | https://www.tcsh.org |
-| **tdb-tools** | 1.4.8 | Tools for TDB | https://tdb.samba.org/ |
+| **tdb-tools** | 1.4.9 | Tools for TDB | https://tdb.samba.org/ |
 | **tea** | 0.9.2 | The official CLI for Gitea | https://gitea.com/gitea/tea |
 | **tealdeer** | 1.6.1 | A very fast implementation of tldr in Rust | https://dbrgn.github.io/tealdeer/ |
 | **teckit** | 2.5.12 | TECkit is a library for encoding conversion | https://scripts.sil.org/teckitdownloads |
@@ -2304,7 +2304,7 @@
 | **torsocks-static** | 2.4.0 | Static libraries for torsocks | https://gitlab.torproject.org/tpo/core/torsocks |
 | **toxic** | 0.12.0 | A command line client for Tox | https://github.com/JFreegman/toxic |
 | **tracepath** | 20221126-1 | Tool to trace the network path to a remote host | https://github.com/iputils/iputils |
-| **traceroute** | 2.1.2-1 | A new modern implementation of traceroute(8) utility for Linux systems | https://traceroute.sourceforge.net/ |
+| **traceroute** | 2.1.3 | A new modern implementation of traceroute(8) utility for Linux systems | https://traceroute.sourceforge.net/ |
 | **translate-shell** | 0.9.7.1 | Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc. | https://www.soimort.org/translate-shell |
 | **transmission** | 4.0.4 | Easy, lean and powerful BitTorrent client | https://transmissionbt.com/ |
 | **tree** | 2.1.1 | Recursive directory lister producing a depth indented listing of files | http://mama.indstate.edu/users/ice/tree/ |
@@ -2323,7 +2323,7 @@
 | **ttyc** | 0.4-3 | ttyd protocol client | https://github.com/Depau/ttyc |
 | **ttyd** | 1.7.4-1 | Command-line tool for sharing terminal over the web | https://tsl0922.github.io/ttyd/ |
 | **ttyper** | 1.4.0 | Terminal-based typing test | https://github.com/max-niederman/ttyper |
-| **ttyplot** | 1.4 | A realtime plotting utility for terminal with data input from stdin | https://github.com/tenox7/ttyplot |
+| **ttyplot** | 1.5.1 | A realtime plotting utility for terminal with data input from stdin | https://github.com/tenox7/ttyplot |
 | **ttyrec** | 1.0.8-7 | Terminal recorder and player | http://0xcc.net/ttyrec/ |
 | **tur-repo** | 1.0.1 | A single and trusted place for all unofficial/less popular termux packages | https://github.com/termux-user-repository/tur |
 | **tut** | 2.0.1-2 | A TUI for Mastodon with vim inspired keys | https://github.com/RasmusLindroth/tut |
@@ -2402,7 +2402,7 @@
 | **vlc-static** | 3.0.20-2 | Static libraries for vlc | https://www.videolan.org/ |
 | **vobsub2srt** | 2017.12.18-2 | A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR | https://github.com/ruediger/VobSub2SRT |
 | **vorbis-tools** | 1.4.2-2 | Ogg Vorbis tools | https://github.com/xiph/vorbis-tools |
-| **vtm** | 0.9.20 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
+| **vtm** | 0.9.22 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
 | **vttest** | 20230924 | Program for testing the VT100 compatibility of terminal emulators | https://invisible-island.net/vttest/ |
 | **vtutils** | 0.5-4 | Utilities for testing and working with virtual terminals | https://github.com/fornwall/vtutils |
 | **vulkan-extension-layer** | 1.3.268-1 | Vulkan Extension Layer | https://github.com/KhronosGroup/Vulkan-ExtensionLayer |
@@ -2439,7 +2439,7 @@
 | **wget2-static** | 2.1.0 | Static libraries for wget2 | https://gitlab.com/gnuwget/wget2 |
 | **wgetpaste** | 2.33 | wgetpaste is a shell script that allows its users to upload log. | https://github.com/zlin/wgetpaste |
 | **which** | 2.21 | Shows the full path of (shell) commands | https://carlowood.github.io/which/ |
-| **whiptail** | 0.52.23 | Display dialog boxes from shell scripts | https://pagure.io/newt |
+| **whiptail** | 0.52.24 | Display dialog boxes from shell scripts | https://pagure.io/newt |
 | **whitebox-tools** | 2.3.0-1 | An advanced geospatial data analysis platform | https://github.com/jblindsay/whitebox-tools |
 | **whois** | 5.5.20 | An intelligent Whois client | https://github.com/rfc1036/whois |
 | **wireguard-tools** | 1.0.20210914 | Tools for the WireGuard secure network tunnel | https://www.wireguard.com |
@@ -2461,8 +2461,8 @@
 | **xh** | 0.19.4 | A friendly and fast tool for sending HTTP requests | https://github.com/ducaale/xh |
 | **xls2csv** | 1.6.2 | A command-line tool for converting XLS to CSV | https://github.com/libxls/libxls |
 | **xmake** | 2.8.5 | A cross-platform build utility based on Lua | https://xmake.io/ |
-| **xmlsec** | 1.3.1-1 | XML Security Library | https://www.aleksey.com/xmlsec/ |
-| **xmlsec-static** | 1.3.1-1 | Static libraries for xmlsec | https://www.aleksey.com/xmlsec/ |
+| **xmlsec** | 1.3.2 | XML Security Library | https://www.aleksey.com/xmlsec/ |
+| **xmlsec-static** | 1.3.2 | Static libraries for xmlsec | https://www.aleksey.com/xmlsec/ |
 | **xmlstarlet** | 1.6.1-5 | Command line XML toolkit | https://xmlstar.sourceforge.net/ |
 | **xmlto** | 0.0.28-1 | Convert xml to many other formats | https://pagure.io/xmlto/ |
 | **xmppc** | 0.1.2-2 | Command Line Interface Tool for XMPP | https://codeberg.org/Anoxinon_e.V./xmppc |
