@@ -613,7 +613,9 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "scopegen" "./scopegen.go" ; mv "./scopegen" "$HOME/bin/scopegen" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #scopeview
-  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopeview/scopeview.sh" --to "$HOME/bin/scopeview"  
+  eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopeview/scopeview.sh" --to "$HOME/bin/scopeview"
+  #scp
+  eget "https://files.serverless.industries/bin/scp.amd64" --to "$HOME/bin/scp"
   #sftp
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/openssh/sftp_server_amd_x86_64_Linux" --to "$HOME/bin/sftp"
   #shfmt
@@ -644,21 +646,19 @@ fi
   pushd $(mktemp -d) && git clone https://github.com/dhn/spk && cd spk
   CGO_ENABLED=0 go build -o "spk_amd_x86_64_Linux" -v -ldflags="-s -w -extldflags '-static'"
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/spk" \;
-  go clean -cache -fuzzcache -modcache -testcache
-  popd
+  go clean -cache -fuzzcache -modcache -testcache ; popd
+  #ssh
+  eget "https://files.serverless.industries/bin/ssh.amd64" --to "$HOME/bin/ssh"
   #sshd
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/openssh/sshd_amd_x86_64_Linux" --to "$HOME/bin/sshd"
+  #sshd_config
   eget "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/openssh/sshd_config_amd_x86_64_Linux" --to "$HOME/bin/sshd_config"
-  # #Get Config
-  # sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/openssh/sshd_config_amd_x86_64_Linux" "/etc/ssh/sshd_config"
-  # #Sane Settings
-  # sudo sed -e '/^#AllowAgentForwarding/s/^#//' -e '/^#AllowTcpForwarding/s/^#//' -e '/^#X11Forwarding/s/^#//' -e '/^#PrintLastLog/s/^#//' -e '/^#TCPKeepAlive/s/^#//' -i "/etc/ssh/sshd_config"
-  # #Enable X11Forwarding
-  # sudo sed -i 's/^X11Forwarding no/X11Forwarding yes/' "/etc/ssh/sshd_config"
-  # ##PasswordAuthentication yes
-  # # sudo sed -e '/^#PasswordAuthentication/s/^#//' -i "/etc/ssh/sshd_config"
-  #ssh-keys
-  eget "Eun/sshkeys" --asset "linux_amd64.tar.gz" --to "$HOME/bin/sshkeys"  
+  #ssh-keygen
+  eget "https://files.serverless.industries/bin/ssh-keygen.amd64" --to "$HOME/bin/ssh-keygen"
+  #ssh-keyscan
+  eget "https://files.serverless.industries/bin/ssh-keyscan.amd64" --to "$HOME/bin/ssh-keyscan"
+  #sshkeys
+  eget "Eun/sshkeys" --asset "linux_amd64.tar.gz" --to "$HOME/bin/sshkeys" 
   #starship
   eget "starship/starship" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/starship"
   #https://github.com/abhimanyu003/sttr
