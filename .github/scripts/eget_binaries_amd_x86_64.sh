@@ -647,7 +647,16 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   popd
   #sshd
-  eget "https://github.com/Azathothas/Static-Binaries/raw/main/openssh/sshd_amd_x86_64_Linux" --to "$HOME/bin/sshd"  
+  eget "https://github.com/Azathothas/Static-Binaries/raw/main/openssh/sshd_amd_x86_64_Linux" --to "$HOME/bin/sshd"
+  eget "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/openssh/sshd_config_amd_x86_64_Linux" --to "$HOME/bin/sshd_config"
+  # #Get Config
+  # sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/openssh/sshd_config_amd_x86_64_Linux" "/etc/ssh/sshd_config"
+  # #Sane Settings
+  # sudo sed -e '/^#AllowAgentForwarding/s/^#//' -e '/^#AllowTcpForwarding/s/^#//' -e '/^#X11Forwarding/s/^#//' -e '/^#PrintLastLog/s/^#//' -e '/^#TCPKeepAlive/s/^#//' -i "/etc/ssh/sshd_config"
+  # #Enable X11Forwarding
+  # sudo sed -i 's/^X11Forwarding no/X11Forwarding yes/' "/etc/ssh/sshd_config"
+  # ##PasswordAuthentication yes
+  # # sudo sed -e '/^#PasswordAuthentication/s/^#//' -i "/etc/ssh/sshd_config"
   #ssh-keys
   eget "Eun/sshkeys" --asset "linux_amd64.tar.gz" --to "$HOME/bin/sshkeys"  
   #starship
