@@ -64,7 +64,7 @@
 | **argon2-static** | 20190702-1 | Static libraries for argon2 | https://github.com/P-H-C/phc-winner-argon2 |
 | **argp** | 1.5.0 | Standalone version of arguments parsing functions from GLIBC | https://github.com/argp-standalone/argp-standalone |
 | **argp-static** | 1.5.0 | Static libraries for argp | https://github.com/argp-standalone/argp-standalone |
-| **aria2** | 1.36.0-7 | Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink | https://aria2.github.io |
+| **aria2** | 1.37.0 | Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink | https://aria2.github.io |
 | **arj** | 3.10.22-5 | Open-source version of arj archiver | http://arj.sourceforge.net/ |
 | **asciidoc** | 10.2.0-3 | Text document format for short documents, articles, books and UNIX man pages. | https://asciidoc.org |
 | **asciidoctor** | 2.0.20 | An implementation of AsciiDoc in Ruby | https://asciidoctor.org/ |
@@ -160,7 +160,7 @@
 | **bsd-games** | 1:3.3 | Classic text mode games from UNIX folklore | https://www.polyomino.org.uk/computer/software/bsd-games/ |
 | **bsdtar** | 3.7.2 | The tar(1) and cpio(1) programs from FreeBSD, using libarchive | https://www.libarchive.org/ |
 | **btfs2** | 2.3.3 | Decentralized file system integrating with TRON network and Bittorrent network | https://www.bittorrent.com/btfs/ |
-| **buf** | 1.28.0 | A new way of working with Protocol Buffers | https://buf.build |
+| **buf** | 1.28.1 | A new way of working with Protocol Buffers | https://buf.build |
 | **build-essential** | 4.1 | A metapackage that installs essential development tools | https://github.com/termux/termux-packages |
 | **busybox** | 1.36.1 | Tiny versions of many common UNIX utilities into a single small executable | https://busybox.net/ |
 | **bvi** | 1.4.2 | Binary file editor based on vi | http://bvi.sourceforge.net/ |
@@ -231,8 +231,8 @@
 | **cloudflared** | 2023.10.0 | A tunneling daemon that proxies traffic from the Cloudflare network to your origins | https://github.com/cloudflare/cloudflared |
 | **clpeak** | 1.1.2-3 | A tool which profiles OpenCL devices to find their peak capacities | https://github.com/krrishnarraj/clpeak |
 | **clvk** | 0.0.20231113.173330 | Experimental implementation of OpenCL on Vulkan | https://github.com/kpet/clvk |
-| **cmake** | 3.27.7 | Family of tools designed to build, test and package software | https://cmake.org/ |
-| **cmake-curses-gui** | 3.27.7 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
+| **cmake** | 3.27.8 | Family of tools designed to build, test and package software | https://cmake.org/ |
+| **cmake-curses-gui** | 3.27.8 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
 | **cmark** | 0.30.3 | CommonMark parsing and rendering program | https://github.com/commonmark/cmark |
 | **cmark-static** | 0.30.3 | Static libraries for cmark | https://github.com/commonmark/cmark |
 | **cmatrix** | 2.0 | Command producing a Matrix-style animation | https://github.com/abishekvashok/cmatrix |
@@ -673,7 +673,7 @@
 | **hut** | 0.3.0-1 | A CLI tool for sr.ht | https://git.sr.ht/~emersion/hut |
 | **hydroxide** | 0.2.28 | A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge | https://github.com/emersion/hydroxide |
 | **hyperfine** | 1.18.0 | A command-line benchmarking tool | https://github.com/sharkdp/hyperfine |
-| **hz** | 0.7.1 | A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices | https://www.cloudwego.io |
+| **hz** | 0.7.2 | A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices | https://www.cloudwego.io |
 | **i2pd** | 2.49.0-1 | A full-featured C++ implementation of the I2P router | https://i2pd.website/ |
 | **i2pd-static** | 2.49.0-1 | Static libraries for i2pd | https://i2pd.website/ |
 | **icecast** | 2.4.4-4 | Icecast is a streaming media (audio/video) server | https://icecast.org |
@@ -759,7 +759,7 @@
 | **kona** | 20211225 | Open-source implementation of the APL-like K programming language | https://github.com/kevinlawler/kona |
 | **kotlin** | 1.9.20 | The Kotlin Programming Language | https://kotlinlang.org/ |
 | **krb5** | 1.21.2 | The Kerberos network authentication system | https://web.mit.edu/kerberos |
-| **kubectl** | 1.28.3 | Kubernetes.io client binary | https://kubernetes.io/ |
+| **kubectl** | 1.28.4 | Kubernetes.io client binary | https://kubernetes.io/ |
 | **kubelogin** | 1.28.0-1 | A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication | https://github.com/int128/kubelogin |
 | **ladspa-sdk** | 1.17-1 | Linux Audio Developer's Simple Plugin API | https://www.ladspa.org/ |
 | **lame** | 3.100-4 | High quality MPEG Audio Layer III (MP3) encoder - frontend | https://lame.sourceforge.io/ |
@@ -827,7 +827,7 @@
 | **libassuan-static** | 2.5.6 | Static libraries for libassuan | https://www.gnupg.org/related_software/libassuan/ |
 | **libatomic-ops** | 7.8.0 | Provides semi-portable access to hardware-provided atomic memory update operations | https://github.com/ivmai/libatomic_ops |
 | **libatomic-ops-static** | 7.8.0 | Static libraries for libatomic-ops | https://github.com/ivmai/libatomic_ops |
-| **libbcprov-java** | 1.76 | A lightweight cryptography API for Java | https://www.bouncycastle.org/java.html |
+| **libbcprov-java** | 1.77 | A lightweight cryptography API for Java | https://www.bouncycastle.org/java.html |
 | **libblkid** | 2.39.2-1 | Block device identification library | https://en.wikipedia.org/wiki/Util-linux |
 | **libblocksruntime** | 1:5.9 | LLVM Blocks runtime library | https://github.com/apple/swift-corelibs-libdispatch |
 | **libblosc** | 1.21.5 | A blocking, shuffling and loss-less compression library | https://www.blosc.org |
@@ -1796,7 +1796,7 @@
 | **ossp-uuid** | 1.6.2-3 | ISO-C:1999 uuid generator supporting DCE 1.1, ISO/IEC 11578:1996 and RFC 4122. | http://www.ossp.org/pkg/lib/uuid/ |
 | **ossp-uuid-static** | 1.6.2-3 | Static libraries for ossp-uuid | http://www.ossp.org/pkg/lib/uuid/ |
 | **ovmf** | 20221117gitfff6d81270b5-14.fc39-0 | Open Virtual Machine Firmware | https://www.tianocore.org/ |
-| **p11-kit** | 0.25.2 | Provides a way to load and enumerate PKCS#11 modules | https://p11-glue.github.io/p11-glue/p11-kit.html |
+| **p11-kit** | 0.25.3 | Provides a way to load and enumerate PKCS#11 modules | https://p11-glue.github.io/p11-glue/p11-kit.html |
 | **p7zip** | 17.05-1 | Command-line version of the 7zip compressed file archiver | https://github.com/p7zip-project/p7zip |
 | **pacman** | 6.0.2-13 | A library-based package manager with dependency support | https://archlinux.org/pacman/ |
 | **pacman4console** | 1.3-3 | A 9 level ncurses pacman game with editor | https://sites.google.com/site/doctormike/pacman.html |
@@ -2087,7 +2087,7 @@
 | **sc-im** | 0.8.3-1 | An improved version of sc, a spreadsheet calculator | https://github.com/andmarti1424/sc-im |
 | **scala** | 3.3.1 | Scala 3 compiler and standard library. | https://www.scala-lang.org |
 | **scc** | 3.1.0-3 | Counts physical the lines of code, blank lines, comment lines, and physical lines of source code | https://github.com/boyter/scc |
-| **sccache** | 0.7.1 | sccache is ccache with cloud storage | https://github.com/mozilla/sccache |
+| **sccache** | 0.7.2 | sccache is ccache with cloud storage | https://github.com/mozilla/sccache |
 | **scdaemon** | 2.4.3 | Daemon invoked by gpg to manage smartcards | https://www.gnupg.org/ |
 | **scdoc** | 1.11.2-2 | Small man page generator | https://git.sr.ht/~sircmpwn/scdoc |
 | **scheme48** | 1.9.2 | An implementation of the Scheme programming language | https://www.s48.org/ |
@@ -2204,7 +2204,7 @@
 | **stunnel** | 5.71 | Socket wrapper which can provide TLS support to ordinary applications | https://www.stunnel.org/ |
 | **stunnel-static** | 5.71 | Static libraries for stunnel | https://www.stunnel.org/ |
 | **stuntman** | 1.2.16-3 | An open source STUN server | https://www.stunprotocol.org/ |
-| **stylua** | 0.19.0 | An opinionated Lua code formatter | https://github.com/JohnnyMorganz/StyLua |
+| **stylua** | 0.19.1 | An opinionated Lua code formatter | https://github.com/JohnnyMorganz/StyLua |
 | **subtitleripper** | 0.3.4 | DVD subtitle ripper for Linux | http://subtitleripper.sourceforge.net/ |
 | **subversion** | 1.14.2-6 | Centralized version control system characterized by its simplicity | https://subversion.apache.org |
 | **subversion-perl** | 1.14.2-6 | Perl interface to Subversion | https://subversion.apache.org |
@@ -2227,7 +2227,7 @@
 | **swig** | 4.1.1 | Generate scripting interfaces to C/C++ code | https://swig.org |
 | **swtpm** | 0.8.1 | Software TPM Emulator | https://github.com/stefanberger/swtpm |
 | **swtpm-static** | 0.8.1 | Static libraries for swtpm | https://github.com/stefanberger/swtpm |
-| **syncthing** | 1.26.0 | Decentralized file synchronization | https://syncthing.net/ |
+| **syncthing** | 1.26.1 | Decentralized file synchronization | https://syncthing.net/ |
 | **sysprop** | 13.0.0.15-4 | Generates cpp / java sysprop | https://android.googlesource.com/platform/system/tools/sysprop |
 | **ta-lib** | 0.4.0-1 | Technical analysis library with indicators like ADX. | https://sourceforge.net/projects/ta-lib/ |
 | **ta-lib-static** | 0.4.0-1 | Static libraries for ta-lib | https://sourceforge.net/projects/ta-lib/ |
@@ -2406,7 +2406,7 @@
 | **vlc-static** | 3.0.20-2 | Static libraries for vlc | https://www.videolan.org/ |
 | **vobsub2srt** | 2017.12.18-2 | A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR | https://github.com/ruediger/VobSub2SRT |
 | **vorbis-tools** | 1.4.2-2 | Ogg Vorbis tools | https://github.com/xiph/vorbis-tools |
-| **vtm** | 0.9.22 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
+| **vtm** | 0.9.23 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
 | **vttest** | 20230924 | Program for testing the VT100 compatibility of terminal emulators | https://invisible-island.net/vttest/ |
 | **vtutils** | 0.5-4 | Utilities for testing and working with virtual terminals | https://github.com/fornwall/vtutils |
 | **vulkan-extension-layer** | 1.3.268-1 | Vulkan Extension Layer | https://github.com/KhronosGroup/Vulkan-ExtensionLayer |
