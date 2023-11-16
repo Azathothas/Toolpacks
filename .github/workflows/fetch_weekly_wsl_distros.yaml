@@ -108,10 +108,10 @@ jobs:
           echo "Download|Install: 'https://github.com/Azathothas/Toolpacks/tree/main/WSL2_Distros#install'" >> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo -e "--> METADATA" >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ "; file * | grep -v '.txt' | grep -v '.md' '&>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; file * | grep -v '.txt' | grep -v '.md$' '&>> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo -e "--> SHA256SUM" >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ ";sha256sum * | grep -v '.txt' | grep -v '.md'  ' &>> /tmp/RELEASE_NOTE.md  
+          /bin/bash -c 'PS4="$ ";sha256sum * | grep -v '.txt' | grep -v '.md$'  ' &>> /tmp/RELEASE_NOTE.md  
           echo -e '```\n' >> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo '---' >> /tmp/RELEASE_NOTE.md
@@ -119,7 +119,7 @@ jobs:
           echo '- #### Sizes' >> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo '```console' >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ "; ls -lh ./* | grep -v '.txt' | grep -v '.md' | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; ls -lh ./* | grep -v '.txt' | grep -v '.md$' | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo '```' >> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
