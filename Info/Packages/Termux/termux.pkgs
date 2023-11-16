@@ -281,7 +281,7 @@
 | **dar** | 2.7.13 | A full featured command-line backup tool, short for Disk ARchive | http://dar.linux.free.fr/ |
 | **dar-static** | 2.7.13 | Static libraries for dar | http://dar.linux.free.fr/ |
 | **darkhttpd** | 1.14 | A simple webserver, implemented in a single .c file. | https://unix4lyfe.org/darkhttpd |
-| **dart** | 3.1.5 | Dart is a general-purpose programming language | https://dart.dev/ |
+| **dart** | 3.2.0 | Dart is a general-purpose programming language | https://dart.dev/ |
 | **dasel** | 2.4.1 | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility | https://github.com/TomWright/dasel |
 | **dash** | 0.5.12 | Small POSIX-compliant implementation of /bin/sh | http://gondor.apana.org.au/~herbert/dash/ |
 | **dasm** | 2.20.14.1 | Macro assembler with support for several 8-bit microprocessors | https://dasm-dillon.sourceforge.io/ |
@@ -365,7 +365,7 @@
 | **electric-fence** | 2.2.6 | Electric Fence (eFence) malloc memory debugger | https://elinux.org/Electric_Fence |
 | **electric-fence-static** | 2.2.6 | Static libraries for electric-fence | https://elinux.org/Electric_Fence |
 | **electrum** | 4.4.6 | Electrum is a lightweight Bitcoin wallet | https://electrum.org |
-| **elfutils** | 0.189 | A collection of utilities to read, create and modify ELF binary files | https://sourceware.org/elfutils/ |
+| **elfutils** | 0.190 | A collection of utilities to read, create and modify ELF binary files | https://sourceware.org/elfutils/ |
 | **elinks** | 0.16.1.1-1 | Full-Featured Text WWW Browser | https://github.com/rkd77/elinks |
 | **elixir** | 1.15.7 | Elixir is a dynamic, functional language designed for building scalable and maintainable applications | https://elixir-lang.org/ |
 | **eltclsh** | 1.19 | Interactive shell for TCL programming language | https://homepages.laas.fr/mallet/soft/shell/eltclsh |
@@ -474,7 +474,7 @@
 | **gawk-static** | 5.3.0 | Static libraries for gawk | https://www.gnu.org/software/gawk/ |
 | **gbt** | 2.0.0-6 | Highly configurable prompt builder for Bash and ZSH written in Go | https://github.com/jtyr/gbt |
 | **gcal** | 4.1-3 | Program for calculating and printing calendars | https://www.gnu.org/software/gcal/ |
-| **gdal** | 3.7.3 | A translator library for raster and vector geospatial data formats | https://gdal.org |
+| **gdal** | 3.8.0 | A translator library for raster and vector geospatial data formats | https://gdal.org |
 | **gdal-static** | 3.5.3 | Static libraries for gdal | https://gdal.org |
 | **gdb** | 13.2-1 | The standard GNU Debugger that runs on many Unix-like systems and works for many programming languages | https://www.gnu.org/software/gdb/ |
 | **gdbm** | 1.23 | Library of database functions that use extensible hashing | https://www.gnu.org.ua/software/gdbm/ |
@@ -510,14 +510,14 @@
 | **giflib-utils** | 5.2.1-2 | A set of utilities that comes with giflib package | https://sourceforge.net/projects/giflib/ |
 | **gifsicle** | 1.94 | Tool for creating, editing, and getting information about GIF images and animations | https://www.lcdf.org/gifsicle/ |
 | **gifski** | 1.13.0 | GIF encoder based on libimagequant | https://gif.ski/ |
-| **git** | 2.42.0 | Fast, scalable, distributed revision control system | https://git-scm.com/ |
+| **git** | 2.42.1 | Fast, scalable, distributed revision control system | https://git-scm.com/ |
 | **git-crypt** | 0.7.0-2 | Enables transparent encryption and decryption of files for a git repository | https://www.agwa.name/projects/git-crypt/ |
 | **git-delta** | 0.16.5-1 | A syntax-highlighter for git and diff output | https://github.com/dandavison/delta |
-| **git-gitk** | 2.42.0 | Git repository browser | https://git-scm.com/ |
-| **git-gui** | 2.42.0 | A graphical interface to Git | https://git-scm.com/ |
+| **git-gitk** | 2.42.1 | Git repository browser | https://git-scm.com/ |
+| **git-gui** | 2.42.1 | A graphical interface to Git | https://git-scm.com/ |
 | **git-lfs** | 3.4.0-1 | Git extension for versioning large files | https://git-lfs.github.com/ |
 | **git-sizer** | 1.5.0-4 | Compute various size metrics for a Git repository | https://github.com/github/git-sizer |
-| **git-svn** | 2.42.0 | Convert between Git and Subversion repositories | https://git-scm.com/ |
+| **git-svn** | 2.42.1 | Convert between Git and Subversion repositories | https://git-scm.com/ |
 | **gitea** | 1.21.0 | Git with a cup of tea, painless self-hosted git service | https://gitea.io |
 | **gitflow-avh** | 1.12.3-9 | Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality. | https://github.com/petervanderdoes/gitflow/ |
 | **gitoxide** | 0.1.0-1 | Rust implementation of Git | https://github.com/Byron/gitoxide |
@@ -555,7 +555,7 @@
 | **gnushogi** | 1.4.2-4 | Program that plays the game of Shogi, also known as Japanese Chess | https://www.gnu.org/software/gnushogi/ |
 | **gnuski** | 0.3-6 | Open source clone of Skifree, the old Windows game | https://sourceforge.net/projects/gnuski |
 | **gnustep-make** | 2.9.1 | The GNUstep makefile package | http://www.gnustep.org |
-| **gnutls** | 3.8.0-1 | Commandline utilities for interfacing with the gnutls library | https://www.gnutls.org/ |
+| **gnutls** | 3.8.1 | Commandline utilities for interfacing with the gnutls library | https://www.gnutls.org/ |
 | **go-findimagedupes** | 2023.01.29-3 | Find visually similar or duplicate images | https://gitlab.com/opennota/findimagedupes |
 | **goaccess** | 1.8.1 | An open source real-time web log analyzer and interactive viewer | http://goaccess.io |
 | **gobang** | 0.1.0-alpha.5-2 | A cross-platform TUI database management tool written in Rust | https://github.com/TaKO8Ki/gobang |
@@ -815,8 +815,8 @@
 | **libarchive-static** | 3.7.2 | Static libraries for libarchive | https://www.libarchive.org/ |
 | **libarrow-cpp** | 12.0.1-4 | C++ libraries for Apache Arrow | https://github.com/apache/arrow |
 | **libasio** | 1.24.0 | Cross-platform C++ library for network and low-level I/O programming | https://think-async.com/Asio |
-| **libasm** | 0.189 | Library to assemble and disassemble instructions | https://sourceware.org/elfutils/ |
-| **libasm-static** | 0.189 | Static library to assemble and disassemble instructions | https://sourceware.org/elfutils/ |
+| **libasm** | 0.190 | Library to assemble and disassemble instructions | https://sourceware.org/elfutils/ |
+| **libasm-static** | 0.190 | Static library to assemble and disassemble instructions | https://sourceware.org/elfutils/ |
 | **libass** | 0.17.1 | A portable library for SSA/ASS subtitles rendering | https://github.com/libass/libass |
 | **libass-static** | 0.17.1 | Static libraries for libass | https://github.com/libass/libass |
 | **libassuan** | 2.5.6 | Library implementing the Assuan IPC protocol used between most newer GnuPG components | https://www.gnupg.org/related_software/libassuan/ |
@@ -893,7 +893,7 @@
 | **libdb-static** | 18.1.40-4 | Static libraries for libdb | https://www.oracle.com/database/berkeley-db |
 | **libde265** | 1.0.12 | H.265/HEVC video stream decoder library | https://github.com/strukturag/libde265 |
 | **libde265-static** | 1.0.12 | Static libraries for libde265 | https://github.com/strukturag/libde265 |
-| **libdebuginfod** | 0.189 | Library for debuginfod | https://sourceware.org/elfutils/ |
+| **libdebuginfod** | 0.190 | Library for debuginfod | https://sourceware.org/elfutils/ |
 | **libdeflate** | 1.19 | C library for fast compression and decompression | https://github.com/ebiggers/libdeflate |
 | **libdeflate-static** | 1.19 | Static libraries for libdeflate | https://github.com/ebiggers/libdeflate |
 | **libdevil** | 1.8.0-5 | A cross-platform image library utilizing a simple syntax | http://openil.sourceforge.net/ |
@@ -912,14 +912,14 @@
 | **libdvdnav-static** | 6.1.1 | Static libraries for libdvdnav | https://www.videolan.org/developers/libdvdnav.html |
 | **libdvdread** | 6.1.3 | A library that allows easy use of sophisticated DVD navigation features | https://code.videolan.org/videolan/libdvdread |
 | **libdvdread-static** | 6.1.3 | Static libraries for libdvdread | https://code.videolan.org/videolan/libdvdread |
-| **libdw** | 0.189 | Library to read DWARF information | https://sourceware.org/elfutils/ |
-| **libdw-static** | 0.189 | Static library to read DWARF information | https://sourceware.org/elfutils/ |
+| **libdw** | 0.190 | Library to read DWARF information | https://sourceware.org/elfutils/ |
+| **libdw-static** | 0.190 | Static library to read DWARF information | https://sourceware.org/elfutils/ |
 | **libebml** | 1.4.4 | Extensible Binary Meta Language library | https://github.com/Matroska-Org/libebml |
 | **libebur128** | 1.2.6 | Implements the EBU R 128 standard for loudness normalisation | https://github.com/jiixyj/libebur128 |
 | **libedit** | 20221030-3.1-0 | Library providing line editing, history, and tokenization functions | https://thrysoee.dk/editline/ |
 | **libedit-static** | 20221030-3.1-0 | Static libraries for libedit | https://thrysoee.dk/editline/ |
-| **libelf** | 0.189 | ELF object file access library | https://sourceware.org/elfutils/ |
-| **libelf-static** | 0.189 | Static libraries for libelf | https://sourceware.org/elfutils/ |
+| **libelf** | 0.190 | ELF object file access library | https://sourceware.org/elfutils/ |
+| **libelf-static** | 0.190 | Static libraries for libelf | https://sourceware.org/elfutils/ |
 | **libenet** | 1.3.17 | ENet reliable UDP networking library | http://enet.bespin.org |
 | **libenet-static** | 1.3.17 | Static libraries for libenet | http://enet.bespin.org |
 | **libev** | 4.33-1 | Full-featured and high-performance event loop library | http://software.schmorp.de/pkg/libev.html |
@@ -974,8 +974,8 @@
 | **libgmp-static** | 6.3.0 | Static libraries for libgmp | https://gmplib.org/ |
 | **libgnt** | 2.14.3-1 | An ncurses toolkit for creating text-mode graphical user interfaces in a fast and easy way | https://keep.imfreedom.org/libgnt/libgnt |
 | **libgnustep-base** | 1.29.0-4 | A library of general-purpose, non-graphical Objective C objects | http://www.gnustep.org |
-| **libgnutls** | 3.8.0-1 | Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them | https://www.gnutls.org/ |
-| **libgnutls-static** | 3.8.0-1 | Static libraries for libgnutls | https://www.gnutls.org/ |
+| **libgnutls** | 3.8.1 | Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them | https://www.gnutls.org/ |
+| **libgnutls-static** | 3.8.1 | Static libraries for libgnutls | https://www.gnutls.org/ |
 | **libgpg-error** | 1.47 | Small library that defines common error values for all GnuPG components | https://www.gnupg.org/related_software/libgpg-error/ |
 | **libgpg-error-static** | 1.47 | Static libraries for libgpg-error | https://www.gnupg.org/related_software/libgpg-error/ |
 | **libgraphite** | 1.3.14-2 | Font system for multiple languages | https://github.com/silnrsi/graphite |
@@ -1599,13 +1599,13 @@
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
 | **miniflux** | 2.0.50 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
-| **minio** | 2023.11.11.08.14.41 | Multi-Cloud Object Storage | https://min.io/ |
+| **minio** | 2023.11.15.20.43.25 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
 | **minisign** | 0.11-1 | A dead simple tool to sign files and verify signatures | https://jedisct1.github.io/minisign/ |
 | **miniupnpc** | 2.2.5 | Small UPnP client library and tool to access Internet Gateway Devices | https://miniupnp.tuxfamily.org/ |
 | **miniupnpc-static** | 2.2.5 | Static libraries for miniupnpc | https://miniupnp.tuxfamily.org/ |
-| **minizinc** | 2.7.6 | A medium-level constraint modelling language | https://github.com/MiniZinc/libminizinc |
-| **minizinc-static** | 2.7.6 | Static libraries for minizinc | https://github.com/MiniZinc/libminizinc |
+| **minizinc** | 2.8.0 | A medium-level constraint modelling language | https://github.com/MiniZinc/libminizinc |
+| **minizinc-static** | 2.8.0 | Static libraries for minizinc | https://github.com/MiniZinc/libminizinc |
 | **mkbootimg** | 2022.11.09 | Maintained fork with android's mkbootimg and unpackbootimg | https://github.com/osm0sis/mkbootimg |
 | **mkp224o** | 1.6.1-1 | Generate vanity ed25519 (hidden service version 3) onion addresses | https://github.com/cathugger/mkp224o |
 | **mksh** | 59c-2 | The MirBSD Korn Shell - an enhanced version of the public domain ksh | http://www.mirbsd.org/mksh.htm |
@@ -1646,9 +1646,9 @@
 | **mu** | 1.10.8 | Maildir indexer/searcher and Emacs client (mu4e) | https://www.djcbsoftware.nl/code/mu/ |
 | **muchsync** | 7 | Synchronize notmuch mail across machines | http://www.muchsync.org/ |
 | **multitail** | 7.1.2 | Tool to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge | http://www.vanheusden.com/multitail/ |
-| **mupdf** | 1.23.5 | Lightweight PDF and XPS viewer (library) | https://mupdf.com/ |
-| **mupdf-static** | 1.23.5 | Static libraries for mupdf | https://mupdf.com/ |
-| **mupdf-tools** | 1.23.5 | Lightweight PDF and XPS viewer (utilities) | https://mupdf.com/ |
+| **mupdf** | 1.23.6 | Lightweight PDF and XPS viewer (library) | https://mupdf.com/ |
+| **mupdf-static** | 1.23.6 | Static libraries for mupdf | https://mupdf.com/ |
+| **mupdf-tools** | 1.23.6 | Lightweight PDF and XPS viewer (utilities) | https://mupdf.com/ |
 | **music-file-organizer** | 1.0.4-1 | Organizer of audio files into directories based on metadata tags | https://git.zx2c4.com/music-file-organizer/about/ |
 | **mutt** | 2.2.12 | Mail client with patches from neomutt | http://www.mutt.org/ |
 | **myman** | 0.7.1-6 | Video game for color and monochrome text terminals in the genre of Namco's Pac-Man | https://sourceforge.net/projects/myman/ |
@@ -1714,7 +1714,7 @@
 | **nnn** | 4.9 | Free, fast, friendly file browser | https://github.com/jarun/nnn |
 | **no-more-secrets** | 1.0.1-1 | This project provides a command line tool called nms that recreates the famous data decryption effect. | https://github.com/bartobri/no-more-secrets |
 | **nodejs** | 20.2.0-1 | Open Source, cross-platform JavaScript runtime environment | https://nodejs.org/ |
-| **nodejs-lts** | 18.16.1-1 | Open Source, cross-platform JavaScript runtime environment | https://nodejs.org/ |
+| **nodejs-lts** | 18.16.1-2 | Open Source, cross-platform JavaScript runtime environment | https://nodejs.org/ |
 | **notcurses** | 3.0.9-1 | blingful TUIs and character graphics | https://notcurses.com/ |
 | **notcurses-data** | 3.0.9-1 | Platform-independent data for notcurses | https://notcurses.com/ |
 | **notcurses-tools** | 3.0.9-1 | Tools and demos for notcurses | https://notcurses.com/ |
@@ -2124,7 +2124,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.6.4 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.6.5 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
@@ -2244,7 +2244,7 @@
 | **tectonic** | 0.14.1-1 | A modernized, complete, self-contained TeX/LaTeX engine | https://tectonic-typesetting.github.io/ |
 | **telegram-bot-api** | 20230421 | Telegram Bot API server | https://github.com/tdlib/telegram-bot-api |
 | **telegram-cli** | 1:1.4.1-6 | Telegram messenger CLI | https://github.com/vysheng/tg |
-| **teleport-tsh** | 14.1.1 | Secure Access for Developers that doesn't get in the way | https://github.com/gravitational/teleport |
+| **teleport-tsh** | 14.1.3 | Secure Access for Developers that doesn't get in the way | https://github.com/gravitational/teleport |
 | **tenki-php** | 2022.05.26 | A simple PHP application for logging current weather conditions, notes, and waypoints | https://github.com/dmpop/tenki |
 | **tere** | 1.5.1 | Terminal file explorer written in rust | https://github.com/mgunyho/tere |
 | **tergent** | 1.0.0-4 | A cryptoki/PKCS#11 library for Termux that uses Android Keystore as its backend | https://github.com/aeolwyr/tergent |
