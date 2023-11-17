@@ -397,7 +397,7 @@
 | **exiv2** | 2:0.27.7-1 | Exif, Iptc and XMP metadata manipulation library and tools | https://exiv2.org/ |
 | **exiv2-static** | 2:0.27.7-1 | Static libraries for exiv2 | https://exiv2.org/ |
 | **expect** | 5.45.4-3 | Tool for automating interactive terminal applications | https://core.tcl.tk/expect/index |
-| **eza** | 0.15.3 | A modern replacement for ls | https://github.com/eza-community/eza |
+| **eza** | 0.16.0 | A modern replacement for ls | https://github.com/eza-community/eza |
 | **fact++** | 1.6.5-1 | Re-implementation of the well-known FaCT Description Logic (DL) Reasoner | https://bitbucket.org/dtsarkov/factplusplus |
 | **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
@@ -1071,8 +1071,8 @@
 | **liblua53-static** | 5.3.6 | Static libraries for liblua53 | https://www.lua.org/ |
 | **liblua54** | 5.4.6-1 | Shared library for the Lua interpreter | https://www.lua.org/ |
 | **liblua54-static** | 5.4.6-1 | Static libraries for liblua54 | https://www.lua.org/ |
-| **libluajit** | 1:2.1.0-beta3-3 | Just-In-Time Compiler for Lua | https://luajit.org/ |
-| **libluajit-static** | 1:2.1.0-beta3-3 | Static libraries for libluajit | https://luajit.org/ |
+| **libluajit** | 1:2.1.1700008891 | Just-In-Time Compiler for Lua | https://luajit.org/ |
+| **libluajit-static** | 1:2.1.1700008891 | Static libraries for libluajit | https://luajit.org/ |
 | **liblz4** | 1.9.4 | Fast LZ compression algorithm library | https://lz4.github.io/lz4/ |
 | **liblzma** | 5.4.5 | XZ-format compression library | https://tukaani.org/xz/ |
 | **liblzma-static** | 5.4.5 | Static libraries for liblzma | https://tukaani.org/xz/ |
@@ -1521,7 +1521,7 @@
 | **lua52** | 5.2.4-8 | Simple, extensible, embeddable programming language | https://www.lua.org |
 | **lua53** | 5.3.6 | Simple, extensible, embeddable programming language | https://www.lua.org/ |
 | **lua54** | 5.4.6-1 | Simple, extensible, embeddable programming language | https://www.lua.org/ |
-| **luajit** | 1:2.1.0-beta3-3 | Just-In-Time compiler for Lua - command line tool | https://luajit.org/ |
+| **luajit** | 1:2.1.1700008891 | Just-In-Time compiler for Lua - command line tool | https://luajit.org/ |
 | **luarocks** | 3.9.2 | Deployment and management system for Lua modules | https://luarocks.org/ |
 | **luv** | 1.45.0-0-0 | Bare libuv bindings for lua | https://github.com/luvit/luv |
 | **lux** | 0.22.0 | CLI tool to download videos from various websites | https://github.com/iawia002/lux |
@@ -1553,7 +1553,7 @@
 | **matplotlib** | 3.8.1 | A comprehensive library for creating static, animated, and interactive visualizations in Python | https://matplotlib.org/ |
 | **matterbridge** | 1.26.0-2 | A simple chat bridge | https://github.com/42wim/matterbridge |
 | **matterircd** | 0.28.0 | Connect to your mattermost or slack using your IRC-client of choice | https://github.com/42wim/matterircd |
-| **mautrix-whatsapp** | 0.10.3 | A Matrix-WhatsApp puppeting bridge | https://maunium.net/go/mautrix-whatsapp/ |
+| **mautrix-whatsapp** | 0.10.4 | A Matrix-WhatsApp puppeting bridge | https://maunium.net/go/mautrix-whatsapp/ |
 | **maven** | 3.9.5 | A Java software project management and comprehension tool | https://maven.apache.org/ |
 | **maxcso** | 1.13.0 | A fast ISO to CSO compression program for use with PSP and PS2 emulators | https://github.com/unknownbrackets/maxcso |
 | **mazter** | 2022.08.13 | Mazes in your terminal | https://github.com/Canop/mazter |
@@ -1866,7 +1866,7 @@
 | **pingme** | 0.2.5-3 | A small utility which can be called from anywhere to send a message with particular information | https://github.com/kha7iq/pingme |
 | **pipebuffer** | 0.0.git20211120 | Arbitrary-sized in-memory buffer between pipelined programs (non-blocking mbuffer analogue for pipeline) | https://github.com/tfenne/pipebuffer |
 | **pipes.sh** | 2018.04.22 | Animated pipes terminal screensaver | https://github.com/pipeseroni/pipes.sh |
-| **pipewire** | 0.3.84 | A server and user space API to deal with multimedia pipelines | https://pipewire.org/ |
+| **pipewire** | 0.3.85 | A server and user space API to deal with multimedia pipelines | https://pipewire.org/ |
 | **pkg-config** | 0.29.2-2 | Helper tool used when compiling applications and libraries | https://www.freedesktop.org/wiki/Software/pkg-config/ |
 | **pkgfile** | 21 | An alpm .files metadata explorer | https://github.com/falconindy/pkgfile |
 | **pkgtop** | 2.5.1 | Interactive package manager and resource monitor | https://github.com/orhun/pkgtop |
