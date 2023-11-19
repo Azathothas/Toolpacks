@@ -1379,7 +1379,7 @@
 | **libvbisam-static** | 2.0-1 | Static libraries for libvbisam | https://sourceforge.net/projects/vbisam/ |
 | **libvidstab** | 1.1.1 | video stabilization library | https://github.com/georgmartius/vid.stab |
 | **libvigra** | 1.11.2 | Computer vision library | https://ukoethe.github.io/vigra/ |
-| **libvips** | 8.14.5-2 | A fast image processing library with low memory needs | https://libvips.github.io/libvips/ |
+| **libvips** | 8.15.0 | A fast image processing library with low memory needs | https://libvips.github.io/libvips/ |
 | **libvips-static** | 8.13.3-3 | Static libraries for libvips | https://libvips.github.io/libvips/ |
 | **libvmaf** | 2.3.1 | A perceptual video quality assessment algorithm developed by Netflix | https://github.com/Netflix/vmaf |
 | **libvmaf-static** | 2.3.1 | Static libraries for libvmaf | https://github.com/Netflix/vmaf |
@@ -1772,7 +1772,7 @@
 | **openldap-static** | 2.6.6 | Static libraries for openldap | https://openldap.org |
 | **openmpi** | 4.1.5 | Open source Message Passing Interface implementation | https://www.open-mpi.org |
 | **openmpi-static** | 4.1.5 | Static libraries for openmpi | https://www.open-mpi.org |
-| **openscad** | 2019.05-14 | The programmers solid 3D CAD modeller (headless build) | http://openscad.org/ |
+| **openscad** | 2021.01 | The programmers solid 3D CAD modeller (headless build) | http://openscad.org/ |
 | **openssh** | 9.5p1 | Secure shell for logging into a remote machine | https://www.openssh.com/ |
 | **openssh-sftp-server** | 9.5p1 | OpenSSH SFTP server subsystem | https://www.openssh.com/ |
 | **openssl** | 1:3.1.4 | Library implementing the SSL and TLS protocols as well as general purpose cryptography functions | https://www.openssl.org/ |
@@ -2265,7 +2265,7 @@
 | **termux-keyring** | 3.11 | GPG public keys for the official Termux repositories | https://github.com/termux |
 | **termux-licenses** | 2.0-3 | Contains LICENSE files for common licenses | https://termux.dev |
 | **termux-services** | 0.13-1 | Service daemon for Termux | https://github.com/termux/termux-services/ |
-| **termux-tools** | 1.39.4 | Basic system tools for Termux | https://termux.dev/ |
+| **termux-tools** | 1.39.5 | Basic system tools for Termux | https://termux.dev/ |
 | **teseq** | 1.1.1-1 | Tool for analyzing control characters and terminal control sequences | https://www.gnu.org/software/teseq/ |
 | **tesseract** | 5.3.3-1 | Tesseract is probably the most accurate open source OCR engine available | https://github.com/tesseract-ocr/tesseract |
 | **testssl.sh** | 3.0.8 | Testing TLS/SSL encryption anywhere on any port. | https://testssl.sh/ |
