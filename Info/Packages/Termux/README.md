@@ -340,9 +340,9 @@
 | **dotconf-static** | 1.3 | Static libraries for dotconf | https://github.com/williamh/dotconf |
 | **double-conversion** | 3.3.0 | Binary-decimal and decimal-binary routines for IEEE doubles | https://github.com/google/double-conversion |
 | **doxygen** | 1.9.8 | A documentation system for C++, C, Java, IDL and PHP | http://www.doxygen.org |
-| **dpkg** | 1.22.1 | Debian package management system | https://packages.debian.org/dpkg |
-| **dpkg-perl** | 1.22.1 | Perl modules for dpkg | https://packages.debian.org/dpkg |
-| **dpkg-scanpackages** | 1.22.1 | Creates Packages index files | https://packages.debian.org/dpkg |
+| **dpkg** | 1.22.1-1 | Debian package management system | https://packages.debian.org/dpkg |
+| **dpkg-perl** | 1.22.1-1 | Perl modules for dpkg | https://packages.debian.org/dpkg |
+| **dpkg-scanpackages** | 1.22.1-1 | Creates Packages index files | https://packages.debian.org/dpkg |
 | **dropbear** | 2022.83-1 | Small SSH server and client | https://matt.ucc.asn.au/dropbear/dropbear.html |
 | **dtach** | 0.9 | Emulates the detach feature of screen | http://dtach.sourceforge.net/ |
 | **dtc** | 1.7.0 | Device Tree Compiler | https://git.kernel.org/pub/scm/utils/dtc/dtc |
@@ -608,12 +608,12 @@
 | **gsl-static** | 2.7.1 | Static libraries for gsl | https://www.gnu.org/software/gsl/ |
 | **gst-libav** | 1.22.7 | GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code | https://gstreamer.freedesktop.org/modules/gst-libav.html |
 | **gst-plugins-bad** | 1.22.7 | GStreamer Bad Plug-ins | https://gstreamer.freedesktop.org/ |
-| **gst-plugins-base** | 1.22.4-1 | GStreamer base plug-ins | https://gstreamer.freedesktop.org/ |
-| **gst-plugins-gl-headers** | 1.22.4-1 | OpenGL headers for GStreamer plugins | https://gstreamer.freedesktop.org/ |
-| **gst-plugins-good** | 1.22.4-2 | GStreamer Good Plug-ins | https://gstreamer.freedesktop.org/ |
+| **gst-plugins-base** | 1.22.7-1 | GStreamer base plug-ins | https://gstreamer.freedesktop.org/ |
+| **gst-plugins-gl-headers** | 1.22.7-1 | OpenGL headers for GStreamer plugins | https://gstreamer.freedesktop.org/ |
+| **gst-plugins-good** | 1.22.7-1 | GStreamer Good Plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-ugly** | 1.22.4 | GStreamer Ugly Plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-python** | 1.22.7 | Python bindings for GStreamer | https://gstreamer.freedesktop.org/ |
-| **gstreamer** | 1.22.6 | Open source multimedia framework | https://gstreamer.freedesktop.org/ |
+| **gstreamer** | 1.22.7-1 | Open source multimedia framework | https://gstreamer.freedesktop.org/ |
 | **gtypist** | 2.9.5-2 | Universal typing tutor | https://www.gnu.org/software/gtypist/ |
 | **guile** | 3.0.9-2 | Portable, embeddable Scheme implementation written in C | http://www.gnu.org/software/guile/ |
 | **guile-static** | 3.0.9-2 | Static libraries for guile | http://www.gnu.org/software/guile/ |
@@ -1043,8 +1043,8 @@
 | **libkiwix** | 12.1.0-1 | A library that contains a lot of things used by other kiwix programs | https://github.com/kiwix/libkiwix |
 | **libknot** | 3.2.4-1 | Knot DNS libraries | https://www.knot-dns.cz/ |
 | **libknot-static** | 3.2.4-1 | Static libraries for libknot | https://www.knot-dns.cz/ |
-| **libksba** | 1.6.4 | Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible | https://gnupg.org/related_software/libksba/ |
-| **libksba-static** | 1.6.4 | Static libraries for libksba | https://gnupg.org/related_software/libksba/ |
+| **libksba** | 1.6.5-1 | Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible | https://gnupg.org/related_software/libksba/ |
+| **libksba-static** | 1.6.5-1 | Static libraries for libksba | https://gnupg.org/related_software/libksba/ |
 | **liblightning** | 2.2.0 | A library to aid in making portable programs that compile assembly code at run time | https://www.gnu.org/software/lightning/ |
 | **liblightning-static** | 2.2.0 | Static libraries for liblightning | https://www.gnu.org/software/lightning/ |
 | **libliquid-dsp** | 1.6.0 | Software-defined radio digital signal processing library | https://liquidsdr.org/ |
@@ -1441,11 +1441,11 @@
 | **libxls** | 1.6.2 | A C library for reading Excel files in the nasty old binary OLE format | https://github.com/libxls/libxls |
 | **libxls-static** | 1.6.2 | Static libraries for libxls | https://github.com/libxls/libxls |
 | **libxlsxwriter** | 1.1.5-1 | A C library for creating Excel XLSX files | https://libxlsxwriter.github.io/ |
-| **libxml2** | 2.11.5-2 | Library for parsing XML documents | http://www.xmlsoft.org |
-| **libxml2-python** | 2.11.5-2 | Python bindings for libxml2 | http://www.xmlsoft.org |
-| **libxml2-python-static** | 2.11.5-2 | Static libraries for libxml2-python | http://www.xmlsoft.org |
-| **libxml2-static** | 2.11.5-2 | Static libraries for libxml2 | http://www.xmlsoft.org |
-| **libxml2-utils** | 2.11.5-2 | XML utilities | http://www.xmlsoft.org |
+| **libxml2** | 2.12.0 | Library for parsing XML documents | http://www.xmlsoft.org |
+| **libxml2-python** | 2.12.0 | Python bindings for libxml2 | http://www.xmlsoft.org |
+| **libxml2-python-static** | 2.12.0 | Static libraries for libxml2-python | http://www.xmlsoft.org |
+| **libxml2-static** | 2.12.0 | Static libraries for libxml2 | http://www.xmlsoft.org |
+| **libxml2-utils** | 2.12.0 | XML utilities | http://www.xmlsoft.org |
 | **libxrandr** | 1.5.4 | X11 RandR extension library | https://xorg.freedesktop.org/ |
 | **libxrandr-static** | 1.5.4 | Static libraries for libxrandr | https://xorg.freedesktop.org/ |
 | **libxrender** | 0.9.11 | X Rendering Extension client library | https://xorg.freedesktop.org/ |
@@ -1677,11 +1677,11 @@
 | **ncompress** | 5.0 | The classic unix compression utility which can handle the ancient .Z archive | https://github.com/vapier/ncompress |
 | **ncpamixer** | 1.3.7 | An ncurses mixer for PulseAudio | https://github.com/fulhax/ncpamixer |
 | **ncspot** | 0.13.4 | An ncurses Spotify client written in Rust | https://github.com/hrkfdn/ncspot |
-| **ncurses** | 6.4.20231001-2 | Library for text-based user interfaces in a terminal-independent manner | https://invisible-island.net/ncurses/ |
-| **ncurses-static** | 6.4.20231001-2 | Static libraries for ncurses | https://invisible-island.net/ncurses/ |
-| **ncurses-ui-libs** | 6.4.20231001-2 | Libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
-| **ncurses-ui-libs-static** | 6.4.20231001-2 | Static libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
-| **ncurses-utils** | 6.4.20231001-2 | Tools for working with terminals | https://invisible-island.net/ncurses/ |
+| **ncurses** | 6.4.20231001-3 | Library for text-based user interfaces in a terminal-independent manner | https://invisible-island.net/ncurses/ |
+| **ncurses-static** | 6.4.20231001-3 | Static libraries for ncurses | https://invisible-island.net/ncurses/ |
+| **ncurses-ui-libs** | 6.4.20231001-3 | Libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
+| **ncurses-ui-libs-static** | 6.4.20231001-3 | Static libraries for terminal user interfaces based on ncurses | https://invisible-island.net/ncurses/ |
+| **ncurses-utils** | 6.4.20231001-3 | Tools for working with terminals | https://invisible-island.net/ncurses/ |
 | **ndk-multilib** | 26b | Multilib binaries for cross-compilation | https://developer.android.com/tools/sdk/ndk/index.html |
 | **ndk-multilib-native-static** | 26b | Install native static libs from NDK | https://developer.android.com/tools/sdk/ndk/index.html |
 | **ndk-multilib-native-stubs** | 26b | Install native stubs for shared libs from NDK | https://developer.android.com/tools/sdk/ndk/index.html |
