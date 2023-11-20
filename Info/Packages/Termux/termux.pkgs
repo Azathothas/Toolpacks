@@ -163,7 +163,7 @@
 | **byacc** | 20230521 | byacc is generally conceded to be the best yacc variant available | https://invisible-island.net/byacc/ |
 | **byobu** | 5.133 | Byobu is a GPLv3 open source text-based window manager and terminal multiplexer | http://byobu.co/ |
 | **bzip2** | 1.0.8-6 | Tools for working with bzip2 compression | http://www.bzip.org/ |
-| **c-ares** | 1.22.0 | Library for asynchronous DNS requests (including name resolves) | https://c-ares.haxx.se |
+| **c-ares** | 1.22.1 | Library for asynchronous DNS requests (including name resolves) | https://c-ares.haxx.se |
 | **c-script** | 0.14 | Compile and execute C "scripts" in one go! | https://github.com/ryanmjacobs/c |
 | **c-toxcore** | 0.2.18-p20230303-1 | Backend library for the Tox protocol | https://tox.chat |
 | **c-toxcore-static** | 0.2.18-p20230303-1 | Static libraries for c-toxcore | https://tox.chat |
@@ -381,7 +381,7 @@
 | **enscript** | 1.6.6-12 | Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes | https://www.gnu.org/software/enscript/ |
 | **entr** | 5.5 | Event Notify Test Runner - run arbitrary commands when files change | http://eradman.com/entrproject/ |
 | **erlang** | 26.1.2 | General-purpose concurrent functional programming language | https://www.erlang.org/ |
-| **esbuild** | 0.19.5 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
+| **esbuild** | 0.19.6 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
 | **espeak** | 1.51-1 | Compact software speech synthesizer | https://github.com/espeak-ng/espeak-ng |
 | **espeak-static** | 1.51-1 | Static libraries for espeak | https://github.com/espeak-ng/espeak-ng |
 | **et** | 6.2.8-2 | A remote shell that automatically reconnects without interrupting the session | https://eternalterminal.dev |
@@ -555,7 +555,7 @@
 | **gnushogi** | 1.4.2-4 | Program that plays the game of Shogi, also known as Japanese Chess | https://www.gnu.org/software/gnushogi/ |
 | **gnuski** | 0.3-6 | Open source clone of Skifree, the old Windows game | https://sourceforge.net/projects/gnuski |
 | **gnustep-make** | 2.9.1 | The GNUstep makefile package | http://www.gnustep.org |
-| **gnutls** | 3.8.1 | Commandline utilities for interfacing with the gnutls library | https://www.gnutls.org/ |
+| **gnutls** | 3.8.2 | Commandline utilities for interfacing with the gnutls library | https://www.gnutls.org/ |
 | **go-findimagedupes** | 2023.01.29-3 | Find visually similar or duplicate images | https://gitlab.com/opennota/findimagedupes |
 | **goaccess** | 1.8.1 | An open source real-time web log analyzer and interactive viewer | http://goaccess.io |
 | **gobang** | 0.1.0-alpha.5-2 | A cross-platform TUI database management tool written in Rust | https://github.com/TaKO8Ki/gobang |
@@ -825,7 +825,7 @@
 | **libatomic-ops-static** | 7.8.0 | Static libraries for libatomic-ops | https://github.com/ivmai/libatomic_ops |
 | **libbcprov-java** | 1.77 | A lightweight cryptography API for Java | https://www.bouncycastle.org/java.html |
 | **libblkid** | 2.39.2-1 | Block device identification library | https://en.wikipedia.org/wiki/Util-linux |
-| **libblocksruntime** | 1:5.9 | LLVM Blocks runtime library | https://github.com/apple/swift-corelibs-libdispatch |
+| **libblocksruntime** | 1:5.9-1 | LLVM Blocks runtime library | https://github.com/apple/swift-corelibs-libdispatch |
 | **libblosc** | 1.21.5 | A blocking, shuffling and loss-less compression library | https://www.blosc.org |
 | **libblosc-static** | 1.21.5 | Static libraries for libblosc | https://www.blosc.org |
 | **libbluray** | 1.3.4-1 | An open-source library designed for Blu-Ray Discs playback for media players | https://code.videolan.org/videolan/libbluray/ |
@@ -897,7 +897,7 @@
 | **libdeflate** | 1.19 | C library for fast compression and decompression | https://github.com/ebiggers/libdeflate |
 | **libdeflate-static** | 1.19 | Static libraries for libdeflate | https://github.com/ebiggers/libdeflate |
 | **libdevil** | 1.8.0-5 | A cross-platform image library utilizing a simple syntax | http://openil.sourceforge.net/ |
-| **libdispatch** | 1:5.9 | The libdispatch project, for concurrency on multicore hardware | https://github.com/apple/swift-corelibs-libdispatch |
+| **libdispatch** | 1:5.9-1 | The libdispatch project, for concurrency on multicore hardware | https://github.com/apple/swift-corelibs-libdispatch |
 | **libdmtx** | 0.7.7 | A software library that enables programs to read and write Data Matrix barcodes | https://github.com/dmtx/libdmtx |
 | **libdmtx-static** | 0.7.7 | Static libraries for libdmtx | https://github.com/dmtx/libdmtx |
 | **libdrm** | 2.4.117 | Userspace interface to kernel DRM services | https://dri.freedesktop.org/wiki/ |
@@ -974,8 +974,8 @@
 | **libgmp-static** | 6.3.0 | Static libraries for libgmp | https://gmplib.org/ |
 | **libgnt** | 2.14.3-1 | An ncurses toolkit for creating text-mode graphical user interfaces in a fast and easy way | https://keep.imfreedom.org/libgnt/libgnt |
 | **libgnustep-base** | 1.29.0-4 | A library of general-purpose, non-graphical Objective C objects | http://www.gnustep.org |
-| **libgnutls** | 3.8.1 | Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them | https://www.gnutls.org/ |
-| **libgnutls-static** | 3.8.1 | Static libraries for libgnutls | https://www.gnutls.org/ |
+| **libgnutls** | 3.8.2 | Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them | https://www.gnutls.org/ |
+| **libgnutls-static** | 3.8.2 | Static libraries for libgnutls | https://www.gnutls.org/ |
 | **libgpg-error** | 1.47 | Small library that defines common error values for all GnuPG components | https://www.gnupg.org/related_software/libgpg-error/ |
 | **libgpg-error-static** | 1.47 | Static libraries for libgpg-error | https://www.gnupg.org/related_software/libgpg-error/ |
 | **libgraphite** | 1.3.14-2 | Font system for multiple languages | https://github.com/silnrsi/graphite |
@@ -1448,8 +1448,8 @@
 | **libxrender-static** | 0.9.11 | Static libraries for libxrender | https://xorg.freedesktop.org/ |
 | **libxshmfence** | 1.3.2-1 | A library that exposes a event API on top of Linux futexes | https://xorg.freedesktop.org/ |
 | **libxshmfence-static** | 1.3.2-1 | Static libraries for libxshmfence | https://xorg.freedesktop.org/ |
-| **libxslt** | 1.1.38-1 | XSLT processing library | http://xmlsoft.org/libxslt/ |
-| **libxslt-static** | 1.1.38-1 | Static libraries for libxslt | http://xmlsoft.org/libxslt/ |
+| **libxslt** | 1.1.39 | XSLT processing library | http://xmlsoft.org/libxslt/ |
+| **libxslt-static** | 1.1.39 | Static libraries for libxslt | http://xmlsoft.org/libxslt/ |
 | **libxss** | 1.2.4 | X11 Screen Saver extension library | https://xorg.freedesktop.org/ |
 | **libxss-static** | 1.2.4 | Static libraries for libxss | https://xorg.freedesktop.org/ |
 | **libxt** | 1.3.0 | X11 toolkit intrinsics library | https://xorg.freedesktop.org/ |
@@ -1486,7 +1486,7 @@
 | **littlecms** | 2.15-1 | Color management library | http://www.littlecms.com/ |
 | **littlecms-static** | 2.15-1 | Static libraries for littlecms | http://www.littlecms.com/ |
 | **littlecms-utils** | 2.15-1 | Color management utilities | http://www.littlecms.com/ |
-| **llbuild** | 5.9 | A low-level build system, used by the Swift Package Manager | https://github.com/apple/swift-llbuild |
+| **llbuild** | 5.9-1 | A low-level build system, used by the Swift Package Manager | https://github.com/apple/swift-llbuild |
 | **lld** | 17.0.5 | LLVM-based linker | https://clang.llvm.org/ |
 | **llvm** | 17.0.5 | LLVM modular compiler and toolchain executables | https://clang.llvm.org/ |
 | **llvm-mingw-w64** | 20231031 | MinGW-w64 toolchain based on LLVM | https://github.com/mstorsjo/llvm-mingw |
@@ -1652,7 +1652,7 @@
 | **music-file-organizer** | 1.0.4-1 | Organizer of audio files into directories based on metadata tags | https://git.zx2c4.com/music-file-organizer/about/ |
 | **mutt** | 2.2.12 | Mail client with patches from neomutt | http://www.mutt.org/ |
 | **myman** | 0.7.1-6 | Video game for color and monochrome text terminals in the genre of Namco's Pac-Man | https://sourceforge.net/projects/myman/ |
-| **mympd** | 13.0.4 | A standalone and lightweight web-based MPD client | https://jcorporation.github.io/myMPD/ |
+| **mympd** | 13.0.5 | A standalone and lightweight web-based MPD client | https://jcorporation.github.io/myMPD/ |
 | **mypaint-brushes** | 2.0.2 | MyPaint brushes | https://github.com/mypaint/mypaint-brushes |
 | **myrepos** | 1.20180726-4 | Tool to manage all your version control repos | https://myrepos.branchable.com/ |
 | **n-t-roff-sc** | 7.16-1.1.2-0 | A vi-like spreadsheet calculator | https://github.com/n-t-roff/sc |
@@ -2213,12 +2213,12 @@
 | **svt-av1** | 1.7.0 | Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder) | https://gitlab.com/AOMediaCodec/SVT-AV1 |
 | **swaks** | 20201014.0-1 | Swiss Army Knife for SMTP | http://jetmore.org/john/code/swaks/ |
 | **swi-prolog** | 9.1.11 | Most popular and complete prolog implementation | https://swi-prolog.org/ |
-| **swift-runtime-aarch64** | 5.9.1 | Swift runtime libraries for Android AArch64 | https://swift.org/ |
-| **swift-runtime-arm** | 5.9.1 | Swift runtime libraries for Android armv7 | https://swift.org/ |
-| **swift-runtime-x86-64** | 5.9.1 | Swift runtime libraries for Android x86_64 | https://swift.org/ |
-| **swift-sdk-aarch64** | 5.9.1 | Swift SDK for Android AArch64 | https://swift.org/ |
-| **swift-sdk-arm** | 5.9.1 | Swift SDK for Android armv7 | https://swift.org/ |
-| **swift-sdk-x86-64** | 5.9.1 | Swift SDK for Android x86_64 | https://swift.org/ |
+| **swift-runtime-aarch64** | 5.9.1-1 | Swift runtime libraries for Android AArch64 | https://swift.org/ |
+| **swift-runtime-arm** | 5.9.1-1 | Swift runtime libraries for Android armv7 | https://swift.org/ |
+| **swift-runtime-x86-64** | 5.9.1-1 | Swift runtime libraries for Android x86_64 | https://swift.org/ |
+| **swift-sdk-aarch64** | 5.9.1-1 | Swift SDK for Android AArch64 | https://swift.org/ |
+| **swift-sdk-arm** | 5.9.1-1 | Swift SDK for Android armv7 | https://swift.org/ |
+| **swift-sdk-x86-64** | 5.9.1-1 | Swift SDK for Android x86_64 | https://swift.org/ |
 | **swiftshader** | 110.0.5481.177 | A high-performance CPU-based implementation of the Vulkan graphics API | https://swiftshader.googlesource.com/SwiftShader |
 | **swig** | 4.1.1 | Generate scripting interfaces to C/C++ code | https://swig.org |
 | **swtpm** | 0.8.1 | Software TPM Emulator | https://github.com/stefanberger/swtpm |
@@ -2369,7 +2369,7 @@
 | **uucp** | 1.07-1 | The standard UUCP package of the Free Software Foundation | https://www.airs.com/ian/uucp.html |
 | **uuid-utils** | 2.39.2-1 | Utilities for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
 | **uwsgi** | 2.0.23 | uWSGI application server container | https://projects.unbit.it/uwsgi |
-| **v2ray** | 5.11.0 | A platform for building proxies to bypass network restrictions | https://www.v2fly.org/ |
+| **v2ray** | 5.12.0 | A platform for building proxies to bypass network restrictions | https://www.v2fly.org/ |
 | **valac** | 0.56.14 | C# like language for the GObject system | https://wiki.gnome.org/Projects/Vala |
 | **valac-static** | 0.56.14 | Static libraries for valac | https://wiki.gnome.org/Projects/Vala |
 | **valadoc** | 0.56.14 | API documentation generator for vala | https://wiki.gnome.org/Projects/Vala |
@@ -2402,7 +2402,7 @@
 | **vlc-static** | 3.0.20-2 | Static libraries for vlc | https://www.videolan.org/ |
 | **vobsub2srt** | 2017.12.18-2 | A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR | https://github.com/ruediger/VobSub2SRT |
 | **vorbis-tools** | 1.4.2-2 | Ogg Vorbis tools | https://github.com/xiph/vorbis-tools |
-| **vtm** | 0.9.24 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
+| **vtm** | 0.9.25 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
 | **vttest** | 20230924 | Program for testing the VT100 compatibility of terminal emulators | https://invisible-island.net/vttest/ |
 | **vtutils** | 0.5-4 | Utilities for testing and working with virtual terminals | https://github.com/fornwall/vtutils |
 | **vulkan-extension-layer** | 1.3.268-1 | Vulkan Extension Layer | https://github.com/KhronosGroup/Vulkan-ExtensionLayer |
@@ -2458,7 +2458,7 @@
 | **xapian-tools** | 1.4.24 | Basic tools for the Xapian search engine | https://xapian.org |
 | **xcb-proto** | 1.16.0 | XML-XCB protocol descriptions | https://xcb.freedesktop.org/ |
 | **xdelta3** | 3.1.0-1 | xdelta3 - VCDIFF (RFC 3284) binary diff tool | https://github.com/jmacd/xdelta |
-| **xh** | 0.19.4 | A friendly and fast tool for sending HTTP requests | https://github.com/ducaale/xh |
+| **xh** | 0.20.1 | A friendly and fast tool for sending HTTP requests | https://github.com/ducaale/xh |
 | **xls2csv** | 1.6.2 | A command-line tool for converting XLS to CSV | https://github.com/libxls/libxls |
 | **xmake** | 2.8.5 | A cross-platform build utility based on Lua | https://xmake.io/ |
 | **xmlsec** | 1.3.2 | XML Security Library | https://www.aleksey.com/xmlsec/ |
@@ -2470,7 +2470,7 @@
 | **xorgproto** | 2023.2 | X.Org X11 Protocol headers | https://xorg.freedesktop.org/ |
 | **xorriso** | 1:1.5.7 | Tool for creating ISO files | https://www.gnu.org/software/xorriso |
 | **xpup** | 2021.12.26-3 | pup for XML | https://github.com/ericchiang/xpup |
-| **xsltproc** | 1.1.38-1 | XSLT command line processor | http://xmlsoft.org/libxslt/ |
+| **xsltproc** | 1.1.39 | XSLT command line processor | http://xmlsoft.org/libxslt/ |
 | **xtrans** | 1.5.0 | X transport library | https://xorg.freedesktop.org/ |
 | **xvidcore** | 1.3.7 | High performance and high quality MPEG-4 library | https://www.xvid.com/ |
 | **xvidcore-static** | 1.3.7 | Static libraries for xvidcore | https://www.xvid.com/ |
@@ -2487,7 +2487,7 @@
 | **yasm-static** | 1.3.0-6 | Static libraries for yasm | https://yasm.tortall.net/ |
 | **yosys** | 0.35 | A framework for RTL synthesis tools | https://yosyshq.net/yosys/ |
 | **youtubedr** | 2.9.0 | Download youtube video in Golang | https://github.com/kkdai/youtube |
-| **yq** | 4.35.2 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
+| **yq** | 4.40.2 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
 | **ytfzf** | 2.6.1 | A POSIX script that helps you find Youtube videos (without API) | https://github.com/pystardust/ytfzf |
 | **ytui-music** | 2.0.0-beta-0 | Youtube client in terminal for music | https://github.com/sudipghimire533/ytui-music |
 | **yuma123** | 2.13-1 | Provides an opensource YANG API in C | https://yuma123.org/ |
