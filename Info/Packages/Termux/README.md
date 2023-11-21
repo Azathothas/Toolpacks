@@ -385,7 +385,7 @@
 | **enscript** | 1.6.6-12 | Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes | https://www.gnu.org/software/enscript/ |
 | **entr** | 5.5 | Event Notify Test Runner - run arbitrary commands when files change | http://eradman.com/entrproject/ |
 | **erlang** | 26.1.2 | General-purpose concurrent functional programming language | https://www.erlang.org/ |
-| **esbuild** | 0.19.6 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
+| **esbuild** | 0.19.7 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
 | **espeak** | 1.51-1 | Compact software speech synthesizer | https://github.com/espeak-ng/espeak-ng |
 | **espeak-static** | 1.51-1 | Static libraries for espeak | https://github.com/espeak-ng/espeak-ng |
 | **et** | 6.2.8-2 | A remote shell that automatically reconnects without interrupting the session | https://eternalterminal.dev |
@@ -1603,7 +1603,7 @@
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
 | **miniflux** | 2.0.50 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
-| **minio** | 2023.11.15.20.43.25 | Multi-Cloud Object Storage | https://min.io/ |
+| **minio** | 2023.11.20.22.40.07 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
 | **minisign** | 0.11-1 | A dead simple tool to sign files and verify signatures | https://jedisct1.github.io/minisign/ |
 | **miniupnpc** | 2.2.5 | Small UPnP client library and tool to access Internet Gateway Devices | https://miniupnp.tuxfamily.org/ |
@@ -1729,7 +1729,7 @@
 | **nsnake** | 3.0.1-6 | The classic snake game with textual interface | https://github.com/alexdantas/nSnake |
 | **nss-utils** | 3.94 | Tools for NSS | https://firefox-source-docs.mozilla.org/security/nss/ |
 | **nudoku** | 2.1.0 | ncurses based sudoku game | http://jubalh.github.io/nudoku/ |
-| **nushell** | 0.87.0 | A new type of shell operating on structured data | https://www.nushell.sh |
+| **nushell** | 0.87.1 | A new type of shell operating on structured data | https://www.nushell.sh |
 | **nwipe** | 0.34 | A program that will securely erase the entire contents of disks | https://github.com/martijnvanbrummelen/nwipe |
 | **nyancat** | 1.5.2 | Nyancat in your terminal, rendered through ANSI escape sequences. | http://nyancat.dakko.us |
 | **nzbget** | 21.1-6 | The most efficient usenet downloader | https://nzbget.net/ |
@@ -1949,8 +1949,8 @@
 | **python-static** | 3.11.6-1 | Static libraries for python | https://python.org/ |
 | **python-tkinter** | 3.11.6-1 | Tkinter support for Python 3 | https://python.org/ |
 | **python-tldp** | 0.7.5-4 | Tools for publishing from TLDP sources | https://github.com/tLDP/python-tldp |
-| **python-torch** | 2.0.1-3 | Tensors and Dynamic neural networks in Python | https://pytorch.org/ |
-| **python-torch-static** | 2.0.1-3 | Static libraries for python-torch | https://pytorch.org/ |
+| **python-torch** | 2.1.0 | Tensors and Dynamic neural networks in Python | https://pytorch.org/ |
+| **python-torch-static** | 2.1.0 | Static libraries for python-torch | https://pytorch.org/ |
 | **python-torchaudio** | 2.0.1 | Data manipulation and transformation for audio signal processing, powered by PyTorch | https://github.com/pytorch/audio |
 | **python-torchvision** | 0.15.1-1 | Datasets, Transforms and Models specific to Computer Vision | https://github.com/pytorch/vision |
 | **python-xcbgen** | 1.16.0 | The xcbgen Python module | https://xcb.freedesktop.org/ |
@@ -2128,7 +2128,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.6.5 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.6.6 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
@@ -2248,7 +2248,7 @@
 | **tectonic** | 0.14.1-1 | A modernized, complete, self-contained TeX/LaTeX engine | https://tectonic-typesetting.github.io/ |
 | **telegram-bot-api** | 20230421 | Telegram Bot API server | https://github.com/tdlib/telegram-bot-api |
 | **telegram-cli** | 1:1.4.1-6 | Telegram messenger CLI | https://github.com/vysheng/tg |
-| **teleport-tsh** | 14.1.5 | Secure Access for Developers that doesn't get in the way | https://github.com/gravitational/teleport |
+| **teleport-tsh** | 14.2.0 | Secure Access for Developers that doesn't get in the way | https://github.com/gravitational/teleport |
 | **tenki-php** | 2022.05.26 | A simple PHP application for logging current weather conditions, notes, and waypoints | https://github.com/dmpop/tenki |
 | **tere** | 1.5.1 | Terminal file explorer written in rust | https://github.com/mgunyho/tere |
 | **tergent** | 1.0.0-4 | A cryptoki/PKCS#11 library for Termux that uses Android Keystore as its backend | https://github.com/aeolwyr/tergent |
