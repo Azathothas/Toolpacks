@@ -83,6 +83,8 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #aix
   eget "projectdiscovery/aix" --asset "amd64" --asset "linux" --to "$HOME/bin/aix"
+  #albafetch : system-info-fetcher
+  eget "alba4k/albafetch" --asset "linux" --asset "static" --asset "x64" --to "$HOME/bin/albafetch"  
   #alist
   eget "alist-org/alist" --asset "amd64" --asset "linux" --asset "musl" --to "$HOME/bin/alist"
   #alterx
@@ -111,18 +113,30 @@ fi
   pushd $(mktemp -d) && git clone "https://github.com/projectdiscovery/asnmap" && cd asnmap
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/asnmap" ; mv "./asnmap" "$HOME/bin/asnmap" ; popd
   go clean -cache -fuzzcache -modcache -testcache
-  #atuin: https://github.com/ellie/atuin
+  #atuin: Sync Shell History
   eget "atuinsh/atuin" --asset "unknown-linux-musl" --to "$HOME/bin/atuin"
-  #batcat
+  #batcat: cat with colors & syntax highlights 
   eget "sharkdp/bat" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/bat" && ln -s "$HOME/bin/bat" "$HOME/bin/batcat"
-  #https://github.com/sharkdp/binocle
+  #binfetch : neofetch for binaries   
+  pushd $(mktemp -d) && git clone "https://github.com/Im-0xea/binfetch" && cd "./binfetch"
+  sudo apt-get install libconfuse-common libconfuse-dev libelf-dev meson -y
+  #https://mesonbuild.com/Builtin-options.html
+  meson setup --buildtype="release" --default-library="static" --prefer-static -Ddebug="false" -Db_lto="true" -Db_pie="true" -Db_staticpic="true" --strip --reconfigure --wipe --clearcache "./build" "./"
+  ninja -C "./build"
+  file "./build/binfetch" && ldd "./build/binfetch" ; mv "./build/binfetch" "$HOME/bin/binfetch"
+  #Requires cfg
+  curl -qfsSL "https://raw.githubusercontent.com/Im-0xea/binfetch/main/cfg/binfetch.cfg" -o "$HOME/bin/binfetch.cfg"
+  #mkdir -p "$HOME/.config/binfetch" && curl -qfsSL "https://raw.githubusercontent.com/Im-0xea/binfetch/main/cfg/binfetch.cfg" -o "$HOME/.config/binfetch/binfetch.cfg"
+  #mkdir -p "$HOME/.config/binfetch" && curl -qfsSL "https://raw.githubusercontent.com/Im-0xea/binfetch/main/cfg/emby.cfg" -o "$HOME/.config/binfetch/binfetch.cfg"
+  #mkdir -p "$HOME/.config/binfetch" && curl -qfsSL "https://raw.githubusercontent.com/Im-0xea/binfetch/main/cfg/rainbow.cfg" -o "$HOME/.config/binfetch/binfetch.cfg"
+  #binocle : https://github.com/sharkdp/binocle
   eget "sharkdp/binocle" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/binocle"
-  #bore
+  #bore : ngrok alternative
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/bore/bore_amd_x86_64_musl_Linux" --to "$HOME/bin/bore"
-  #bottom
+  #bottom : htop clone
   eget "ClementTsang/bottom" --asset "bottom_x86_64-unknown-linux-musl.tar.gz" --file "btm" --to "$HOME/bin/bottom"
   #"$HOME/bin/eget" "ClementTsang/bottom" --asset "bottom_x86_64-unknown-linux-musl.tar.gz" --file "btm" --to "$HOME/bin/bottom" && ln -s "$HOME/bin/bottom" "$HOME/bin/btm"
-  #btop
+  #btop : htop clone
   pushd $(mktemp -d) && curl -qfsSL $(curl -s "https://api.github.com/repos/aristocratos/btop/actions/artifacts" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" && unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
   go clean -cache -fuzzcache -modcache -testcache
   #BucketLoot
@@ -171,6 +185,8 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./comb" ; mv "./comb" "$HOME/bin/comb" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
   #https://github.com/containerd/containerd
   eget "containerd/containerd" --asset "linux" --asset "static" --asset "amd" --asset "64" --asset "^sha256sum" --to "$HOME/bin/containerd"
+  #cpufetch : fetch for cpu
+  eget "Dr-Noob/cpufetch" --asset "linux" --asset "x86" --asset "64" --to "$HOME/bin/cpufetch"
   #https://github.com/kubernetes-sigs/cri-tools
   eget "kubernetes-sigs/cri-tools" --asset "crictl" --asset "linux" --asset "amd" --asset "^sha" --to "$HOME/bin/crictl"
   #crlfuzz
@@ -230,6 +246,8 @@ fi
   eget "trickest/enumerepo" --asset "amd64" --to "$HOME/bin/enumerepo"
   #exa
   eget "ogham/exa" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/exa"
+  #fastfetch (This is Dynamic)
+  eget "fastfetch-cli/fastfetch" --asset "Linux" --asset "tar.gz" --to "$HOME/bin/fastfetch"
   #fd
   eget "sharkdp/fd" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/fd" && ln -s "$HOME/bin/fd" "$HOME/bin/fd-find"
   #feroxbuster
@@ -447,6 +465,11 @@ fi
   eget "tstack/lnav" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/lnav"
   #logtimer
   eget "Eun/logtimer" --asset "linux" --asset "x86_64.tar.gz" --to "$HOME/bin/logtimer"
+  #machinna : system-info-fetch
+  pushd $(mktemp -d) && git clone "https://github.com/Macchina-CLI/macchina" && cd "./macchina"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/macchina" "$HOME/bin/macchina" ; popd
   #mantra
   pushd $(mktemp -d) && git clone "https://github.com/MrEmpy/mantra" && cd mantra
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Mantra" "$HOME/bin/mantra" ; popd ; go clean -cache -fuzzcache -modcache -testcache
@@ -490,6 +513,8 @@ fi
   pushd $(mktemp -d) && git clone "https://github.com/vdjagilev/nmap-formatter" && cd nmap-formatter
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./nmap-formatter" "$HOME/bin/nmap-formatter" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #neofetch : Updated Fork 
+  eget "https://raw.githubusercontent.com/hykilpikonna/hyfetch/master/neofetch" --to "$HOME/bin/neofetch" ; chmod +xwr "$HOME/bin/neofetch"
   #nnn
   eget "jarun/nnn" --asset "musl-static" --asset "x86_64" --to "$HOME/bin/nnn"
   #noir
@@ -616,6 +641,8 @@ fi
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopeview/scopeview.sh" --to "$HOME/bin/scopeview"
   #scp
   eget "https://files.serverless.industries/bin/scp.amd64" --to "$HOME/bin/scp"
+  #screenfetch
+  eget "https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev" --to "$HOME/bin/screenfetch" ; chmod +xwr "$HOME/bin/screenfetch"
   #sftp
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/openssh/sftp_server_amd_x86_64_Linux" --to "$HOME/bin/sftp"
   #shfmt
