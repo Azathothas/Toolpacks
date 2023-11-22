@@ -1668,7 +1668,7 @@
 | **natpmpc** | 20230423 | Portable and fully compliant implementation of NAT-PMP | http://miniupnp.free.fr/libnatpmp.html |
 | **natpmpc-static** | 20230423 | Static libraries for natpmpc | http://miniupnp.free.fr/libnatpmp.html |
 | **navi** | 2.22.1 | An interactive cheatsheet tool for the command-line | https://github.com/denisidoro/navi |
-| **navidrome** | 0.50.0 | 🎧☁️ Modern Music Server and Streamer compatible with Subsonic/Airsonic | https://www.navidrome.org/ |
+| **navidrome** | 0.50.1 | 🎧☁️ Modern Music Server and Streamer compatible with Subsonic/Airsonic | https://www.navidrome.org/ |
 | **ncdc** | 1.23.1 | Modern and lightweight direct connect client with a friendly ncurses interface | https://dev.yorhel.nl/ncdc |
 | **ncdu** | 1.19 | Disk usage analyzer | https://dev.yorhel.nl/ncdu |
 | **ncdu2** | 2.3 | Disk usage analyzer | https://dev.yorhel.nl/ncdu |
@@ -2400,7 +2400,7 @@
 | **virustotal-cli** | 0.14.0-1 | Command line interface for VirusTotal | https://github.com/VirusTotal/vt-cli |
 | **vis** | 0.8 | Modern, legacy free, simple yet efficient vim-like editor | https://www.brain-dump.org/projects/vis/ |
 | **vitetris** | 0.59.1-2 | Virtual terminal *tris clone | http://victornils.net/tetris/ |
-| **viu** | 1.4.0 | Terminal image viewer with native support for iTerm and Kitty | https://github.com/atanunq/viu |
+| **viu** | 1.5.0 | Terminal image viewer with native support for iTerm and Kitty | https://github.com/atanunq/viu |
 | **vivid** | 0.9.0 | A themeable LS_COLORS generator with a rich filetype datebase | https://github.com/sharkdp/vivid |
 | **vlc** | 3.0.20-2 | A popular libre and open source media player and multimedia engine | https://www.videolan.org/ |
 | **vlc-static** | 3.0.20-2 | Static libraries for vlc | https://www.videolan.org/ |
