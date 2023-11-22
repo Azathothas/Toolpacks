@@ -34,7 +34,7 @@ jobs:
           sudo apt install 'nmap' -y
         continue-on-error: true
         
-      - name: Install PythonUtils & Deps
+      - name: Install PythonUtils & Deps (StaticX)
         run: |       
           set +e
           sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev xcb -y
