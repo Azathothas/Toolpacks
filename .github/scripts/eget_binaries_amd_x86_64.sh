@@ -294,6 +294,14 @@ fi
   #dnsx : Multi-purpose DNS toolkit allow to run multiple DNS queries
   eget "projectdiscovery/dnsx" --asset "amd64" --asset "linux" --to "$HOME/bin/dnsx"
   #---------------#
+  #Dropbear : A smallish SSH server and client
+  eget "Azathothas/static-toolbox" --tag "dropbear" --asset "dbclient_amd_x86_64_Linux" --to "$HOME/bin/dbclient"
+  eget "Azathothas/static-toolbox" --tag "dropbear" --asset "dropbear_amd_x86_64_Linux" --to "$HOME/bin/dropbear"
+  eget "Azathothas/static-toolbox" --tag "dropbear" --asset "dropbearconvert_amd_x86_64_Linux" --to "$HOME/bin/dropbearconvert"
+  eget "Azathothas/static-toolbox" --tag "dropbear" --asset "dropbearkey_amd_x86_64_Linux" --to "$HOME/bin/dropbearkey"
+  eget "Azathothas/static-toolbox" --tag "dropbear" --asset "dropbearmulti_amd_x86_64_Linux" --to "$HOME/bin/dropbearmulti"
+  eget "Azathothas/static-toolbox" --tag "dropbear" --asset "dropbearscp_amd_x86_64_Linux" --to "$HOME/bin/dropbearscp"
+  #---------------#
   #doggo : 🐶 Command-line DNS Client for Humans
   eget "mr-karan/doggo" --asset "linux" --asset "amd64" --to "$HOME/bin/doggo"
   #---------------#
@@ -544,7 +552,7 @@ fi
   pushd "$(mktemp -d)" && mkdir inscope && cd "./inscope"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/go.mod"
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd ; go clean -cache -fuzzcache -modcache -testcache  
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd ; go clean -cache -fuzzcache -modcache -testcache 
   #---------------#
   #iperf3 : A tool for network performance measurement and tuning
   eget "userdocs/iperf3-static" --asset "iperf3-amd64" --to "$HOME/bin/iperf3"
@@ -931,6 +939,11 @@ fi
   #---------------#
   #sshkeys : Get all ssh public keys of a ssh server
   eget "Eun/sshkeys" --asset "linux_amd64.tar.gz" --to "$HOME/bin/sshkeys"
+  #---------------#
+  #sshportal : Embedded SSH Server & Client meant for temp ssh access using invite codes
+  pushd "$(mktemp -d)" && git clone "https://github.com/moul/sshportal" && cd "./sshportal"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./sshportal" "$HOME/bin/sshportal" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #starship : ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! 
   eget "starship/starship" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/starship"
