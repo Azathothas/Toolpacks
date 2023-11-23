@@ -150,6 +150,13 @@ fi
   #binocle : a graphical tool to visualize binary data 
   eget "sharkdp/binocle" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/binocle"
   #---------------#
+  #BoltConn : Transparent and flexible L4/L7 networking manager, supporting WireGuard, firewall and scripted MitM
+  pushd "$(mktemp -d)" && git clone "https://github.com/XOR-op/BoltConn" && cd "./BoltConn"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/boltconn" "$HOMR/bin/boltconn"
+  #---------------#
   #bore : ngrok alternative for making tunnels to localhost 
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/bore/bore_amd_x86_64_musl_Linux" --to "$HOME/bin/bore"
   #---------------#
@@ -1056,6 +1063,18 @@ fi
   #---------------#
   #WebSocat : netcat (or curl) for ws:// with advanced socat-like functions
   eget "vi/websocat" --asset "x86_64-unknown-linux-musl" --asset "max" --to "$HOME/bin/websocat"
+  #---------------#
+  #WireGuard-go : Go Implementation of WireGuard
+  pushd "$(mktemp -d)" && git clone "https://git.zx2c4.com/wireguard-go" && cd "./wireguard-go"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./wireguard-go"
+  mv "./wireguard-go" "$HOME/bin/wireguard-go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #WireGuard-rs : Rust Implementation of WireGuard
+  pushd "$(mktemp -d)" && git clone "https://git.zx2c4.com/wireguard-rs" && cd "./wireguard-rs"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/wireguard-rs" "$HOMR/bin/wireguard-rs"
   #---------------#
   #WireProxy : Wireguard client that exposes itself as a socks5 proxy
   eget "pufferffish/wireproxy" --asset "linux" --asset "^arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/wireproxy"
