@@ -198,6 +198,9 @@ fi
   go mod init "github.com/lobuhi/byp4xx" ; go mod tidy
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./byp4xx" "$HOME/bin/byp4xx" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #caddy : Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+  eget "caddyserver/caddy" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sig" --to "$HOME/bin/caddy"
+  #---------------#
   #cdncheck : A utility to detect various technology for a given IP address. 
   eget "projectdiscovery/cdncheck" --asset "amd64" --asset "linux" --to "$HOME/bin/cdncheck"
   #---------------#
@@ -599,6 +602,9 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #Kadeesh : A general-purpose, extensible, modular, memory-safe SSH server
+  eget "kadeessh/kadeessh" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --to "$HOME/bin/kadeessh"
+  #---------------#
   #kanha : 🦚 A web-app pentesting suite written in rust
   eget "pwnwriter/kanha" --asset "linux" --asset "musl" --asset "^.sha512" --to "$HOME/bin/kanha"
   #---------------#
@@ -633,6 +639,9 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/macchina" "$HOME/bin/macchina" ; popd
+  #---------------#
+  #mani : CLI tool that helps you manage multiple repositories
+  eget "alajmo/mani" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --to "$HOME/bin/mani"
   #---------------#
   #mantra :「🔑」A tool used to hunt down API key leaks in JS files and pages 
   pushd "$(mktemp -d)" && git clone "https://github.com/MrEmpy/mantra" && cd "./mantra"
@@ -835,6 +844,9 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/Josue87/roboxtractor" && cd "./roboxtractor"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./roboxtractor" "$HOME/bin/roboxtractor" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #rospo : 🐸 Simple, reliable, persistent ssh tunnels with embedded ssh server
+  eget "ferama/rospo" --asset "linux" --asset "64" --asset "^arm" --asset "^sig" --to "$HOME/bin/rospo"
+  #---------------#
   #runc : CLI tool for spawning and running containers according to the OCI specification
   eget "opencontainers/runc" --asset "amd" --asset "64" --asset "^asc" --to "$HOME/bin/runc"
   #---------------#
@@ -847,6 +859,9 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustscan" "$HOME/bin/rustcan" ; popd
+  #---------------#
+  #sake : 🤖 Task runner for local and remote hosts via ssh & more
+  eget "alajmo/sake" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --to "$HOME/bin/sake"
   #---------------#
   #s3scanner : Scan for misconfigured S3 buckets across S3-compatible APIs
   eget "sa7mon/S3Scanner" --asset "Linux" --asset "x86" --asset "64" --asset "tar.gz" --to "$HOME/bin/s3scanner"
