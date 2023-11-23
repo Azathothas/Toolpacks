@@ -228,6 +228,11 @@ fi
   #containerd : An open and reliable container runtime
   eget "containerd/containerd" --asset "linux" --asset "static" --asset "amd" --asset "64" --asset "^sha256sum" --to "$HOME/bin/containerd"
   #---------------#
+  #cowtiness : mimic an HTTP server and a DNS server, providing complete responses
+  pushd "$(mktemp -d)" && git clone "https://github.com/stolenusername/cowitness" && cd "./cowitness"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./cowitness" "$HOME/bin/cowitness" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #cpufetch : fetch for cpu
   eget "Dr-Noob/cpufetch" --asset "linux" --asset "x86" --asset "64" --to "$HOME/bin/cpufetch"
   #---------------#
@@ -652,6 +657,9 @@ fi
   #nerdctl : Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS
   eget "containerd/nerdctl" --asset "linux" --asset "amd" --asset "64" --asset "^full" --asset "nerdctl" --to "$HOME/bin/nerdctl"
   #---------------#
+  #NetBird : Connects Devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls
+  eget "netbirdio/netbird" --asset "linux" --asset "amd" --asset "64" --asset "tar.gz" --asset "^ui" --file "netbird" --to "$HOME/bin/netbird"
+  #---------------#
   #NetMaker : makes networks with WireGuard
   pushd "$(mktemp -d)" && git clone "https://github.com/gravitl/netmaker" && cd "./netmaker"
   #Requires CGO for sqlite
@@ -882,6 +890,11 @@ fi
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/spk" \;
   go clean -cache -fuzzcache -modcache -testcache ; popd
   #---------------#
+  #spoofdpi : A simple and fast anti-censorship tool written in Go
+  pushd "$(mktemp -d)" && git clone "https://github.com/xvzc/SpoofDPI" && cd "./SpoofDPI"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/spoof-dpi"
+  mv "./spoof-dpi" "$HOME/bin/spoof-dpi" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #ssh
   eget "https://files.serverless.industries/bin/ssh.amd64" --to "$HOME/bin/ssh"
   #eget "Azathothas/static-toolbox" --tag "openssh" --asset "ssh_amd_x86_64_Linux" --to "$HOME/bin/ssh"
@@ -1012,6 +1025,8 @@ fi
   #viddy : 👀 A modern watch command. Time machine and pager etc. 
   eget "sachaos/viddy" --asset "Linux" --asset "x86_64" --to "$HOME/bin/viddy"
   #---------------#
+  #vopono : Run applications through VPN tunnels with temporary network namespaces
+  eget "jamesmcm/vopono" --asset "linux" --asset "x86" --asset "64" --asset "musl" --asset "^deb" --asset "^rpm" --to "$HOME/bin/vopono"
   #wadl-dumper : Dump all available paths and/or endpoints on WADL file
   pushd "$(mktemp -d)" && git clone "https://github.com/dwisiswant0/wadl-dumper" && cd "./wadl-dumper"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./wadl-dumper" "$HOME/bin/wadl-dumper" ; popd ; go clean -cache -fuzzcache -modcache -testcache
@@ -1044,6 +1059,9 @@ fi
   #---------------#
   #WireProxy : Wireguard client that exposes itself as a socks5 proxy
   eget "pufferffish/wireproxy" --asset "linux" --asset "^arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/wireproxy"
+  #---------------#
+  #WireTap: ransparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run
+  eget "sandialabs/wiretap" --asset "linux" --asset "amd" --asset "64" --asset "tar.gz" --to "$HOME/bin/wiretap"
   #---------------#
   #wormhole-rs : Rust implementation of Magic Wormhole, with new features and enhancements
   pushd "$(mktemp -d)" && git clone "https://github.com/magic-wormhole/magic-wormhole.rs" && cd "./magic-wormhole.rs"
