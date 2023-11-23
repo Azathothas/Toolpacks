@@ -156,7 +156,14 @@ fi
   #bottom : htop clone | graphical process/system monitor
   eget "ClementTsang/bottom" --asset "bottom_x86_64-unknown-linux-musl.tar.gz" --file "btm" --to "$HOME/bin/bottom"
   #"$HOME/bin/eget" "ClementTsang/bottom" --asset "bottom_x86_64-unknown-linux-musl.tar.gz" --file "btm" --to "$HOME/bin/bottom" && ln -s "$HOME/bin/bottom" "$HOME/bin/btm"
- #---------------#
+  #---------------#
+  #boringtun-cli : Userspace WireGuard® Implementation in Rust
+  pushd "$(mktemp -d)" && git clone "https://github.com/cloudflare/boringtun" && cd "./boringtun"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --bin "boringtun-cli" --target "$TARGET" --release ; mv "./target/$TARGET/release/boringtun-cli" "$HOMR/bin/boringtun-cli"
+  #---------------#
   #btop : htop clone | A monitor of resources 
   pushd "$(mktemp -d)" && curl -qfsSL $(curl -s "https://api.github.com/repos/aristocratos/btop/actions/artifacts" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" && unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
   go clean -cache -fuzzcache -modcache -testcache
@@ -645,6 +652,14 @@ fi
   #nerdctl : Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS
   eget "containerd/nerdctl" --asset "linux" --asset "amd" --asset "64" --asset "^full" --asset "nerdctl" --to "$HOME/bin/nerdctl"
   #---------------#
+  #NetMaker : makes networks with WireGuard
+  pushd "$(mktemp -d)" && git clone "https://github.com/gravitl/netmaker" && cd "./netmaker"
+  #Requires CGO for sqlite
+  CGO_ENABLED=1 go build -v -ldflags="-s -w -extldflags '-static'" ; echo -e "\n" && file "./netmaker" && echo -e "\n"
+  mv "./netmaker" "$HOME/bin/netmaker"
+  CGO_ENABLED=1 go build -v -ldflags="-s -w -extldflags '-static'" -o "./nmctl" "./cli" ; echo -e "\n" && file "./nmctl" && echo -e "\n"
+  mv "./nmctl" "$HOME/bin/nmctl" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #ngrok : External Tunnel to Internal Assets
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/ngrok/ngrok_amd_x86_64_Linux" --to "$HOME/bin/ngrok"
   #---------------#
@@ -680,6 +695,13 @@ fi
   #---------------#
   #oha: HTTP load generator
   eget "hatoo/oha" --asset "amd64" --asset "linux" --to "$HOME/bin/oha"
+  #---------------#
+  #OneTun: User space WireGuard proxy in Rust
+  pushd "$(mktemp -d)" && git clone "https://github.com/aramperes/onetun" && cd "./onetun"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/onetun" "$HOMR/bin/onetun"
   #---------------#
   #openrisk : Generates a risk score based on the results of a Nuclei scan
   #eget "projectdiscovery/openrisk" --asset "amd64" --asset "linux" --to "$HOME/bin/openrisk"
@@ -1019,6 +1041,9 @@ fi
   #---------------#
   #WebSocat : netcat (or curl) for ws:// with advanced socat-like functions
   eget "vi/websocat" --asset "x86_64-unknown-linux-musl" --asset "max" --to "$HOME/bin/websocat"
+  #---------------#
+  #WireProxy : Wireguard client that exposes itself as a socks5 proxy
+  eget "pufferffish/wireproxy" --asset "linux" --asset "^arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/wireproxy"
   #---------------#
   #wormhole-rs : Rust implementation of Magic Wormhole, with new features and enhancements
   pushd "$(mktemp -d)" && git clone "https://github.com/magic-wormhole/magic-wormhole.rs" && cd "./magic-wormhole.rs"
