@@ -153,7 +153,7 @@
 | **brainfuck-static** | 1:2.7.3 | Static libraries for brainfuck | https://github.com/fabianishere/brainfuck |
 | **brogue** | 1.13 | Roguelike dungeon crawling game (community edition) | https://sites.google.com/site/broguegame/ |
 | **brook** | 20230606-1 | A cross-platform strong encryption and not detectable proxy. Zero-Configuration. | https://github.com/txthinking/brook |
-| **broot** | 1.28.1 | A better way to navigate directories | https://github.com/Canop/broot |
+| **broot** | 1.29.0 | A better way to navigate directories | https://github.com/Canop/broot |
 | **brotli** | 1.1.0 | lossless compression algorithm and format (command line utility) | https://github.com/google/brotli |
 | **brotli-static** | 1.0.9-1 | Static libraries for brotli | https://github.com/google/brotli |
 | **bsd-finger** | 0.17 | User information lookup program | http://ftp.linux.org.uk/pub/linux/Networking/netkit/ |
@@ -261,7 +261,7 @@
 | **crawl** | 0.30.1 | Roguelike adventure through dungeons filled with dangerous monsters | https://crawl.develz.org/ |
 | **croc** | 9.6.6 | Easily and securely send things from one computer to another | https://github.com/schollz/croc |
 | **cronie** | 1.7.0 | Daemon that runs specified programs at scheduled times and related tools | https://github.com/cronie-crond/cronie/ |
-| **crowbook** | 0.15.2e-1 | Allows you to write a book in Markdown without worrying about formatting or typography | https://github.com/lise-henry |
+| **crowbook** | 0.16.1 | Allows you to write a book in Markdown without worrying about formatting or typography | https://github.com/lise-henry |
 | **crunch** | 3.6-4 | Highly customizable wordlist generator | https://sourceforge.net/projects/crunch-wordlist |
 | **crypto-monitor** | 2021.02.22-3 | Real-time crypto currency monitor | https://github.com/edghyhdz/crypto_monitor |
 | **cryptopp** | 8.9.0 | A free C++ class library of cryptographic schemes | https://www.cryptopp.com/ |
@@ -1190,8 +1190,8 @@
 | **libpagmo** | 2.19.0-2 | Scientific library for massively parallel optimization | https://esa.github.io/pagmo2/index.html |
 | **libpangomm-1.4** | 2.46.3 | A C++ API for Pango | https://www.gtkmm.org/ |
 | **libpangomm-2.48** | 2.50.1 | A C++ API for Pango | https://www.gtkmm.org/ |
-| **libpano13** | 2.9.22 | Part of the Panorama Tools by Helmut Dersch | https://panotools.sourceforge.net/ |
-| **libpano13-static** | 2.9.22 | Static libraries for libpano13 | https://panotools.sourceforge.net/ |
+| **libpano13** | 2.9.22-1 | Part of the Panorama Tools by Helmut Dersch | https://panotools.sourceforge.net/ |
+| **libpano13-static** | 2.9.22-1 | Static libraries for libpano13 | https://panotools.sourceforge.net/ |
 | **libpaper** | 2.1.2 | Library for handling paper characteristics (by @rrthomas) | https://github.com/rrthomas/psutils |
 | **libpaper-static** | 2.1.2 | Static libraries for libpaper | https://github.com/rrthomas/psutils |
 | **libpcap** | 1.10.4 | Library for network traffic capture | https://www.tcpdump.org |
@@ -1236,8 +1236,8 @@
 | **librinutils** | 0.10.2 | A C11 / gnu11 utilities C library | https://github.com/shlomif/rinutils |
 | **librnnoise** | 2021.03.12 | RNN-based noise suppression | https://jmvalin.ca/demo/rnnoise/ |
 | **librnnoise-static** | 2021.03.12 | Static libraries for librnnoise | https://jmvalin.ca/demo/rnnoise/ |
-| **librocksdb** | 8.7.3 | A persistent key-value store for flash and RAM storage | https://rocksdb.org/ |
-| **librocksdb-static** | 8.7.3 | Static libraries for librocksdb | https://rocksdb.org/ |
+| **librocksdb** | 8.8.1 | A persistent key-value store for flash and RAM storage | https://rocksdb.org/ |
+| **librocksdb-static** | 8.8.1 | Static libraries for librocksdb | https://rocksdb.org/ |
 | **librsvg** | 2.57.0 | Library to render SVG files using cairo | https://wiki.gnome.org/action/show/Projects/LibRsvg |
 | **librsync** | 2.3.4 | Remote delta-compression library | https://github.com/librsync/librsync |
 | **librtmidi** | 5.0.0-1 | A set of C++ classes that provides a common API for realtime MIDI input/output | https://www.music.mcgill.ca/~gary/rtmidi/ |
@@ -1906,7 +1906,7 @@
 | **progress** | 0.17 | Linux tool to show progress for cp, mv, dd and more | https://github.com/Xfennec/progress |
 | **proj** | 9.3.0 | Generic coordinate transformation software | https://proj.org |
 | **proot** | 5.1.107-62 | Emulate chroot, bind mount and binfmt_misc for non-root users | https://proot-me.github.io/ |
-| **proot-distro** | 4.2.0 | Termux official utility for managing proot'ed Linux distributions | https://github.com/termux/proot-distro |
+| **proot-distro** | 4.3.1 | Termux official utility for managing proot'ed Linux distributions | https://github.com/termux/proot-distro |
 | **protobuf** | 2:22.4-2 | Compiler for protocol buffer definition files | https://github.com/protocolbuffers/protobuf |
 | **protobuf-dev** | 2:22.4-2 | CMake files for protobuf shared libraries | https://github.com/protocolbuffers/protobuf |
 | **protobuf-static** | 22.4-1 | Protocol buffers C++ library (static) | https://github.com/protocolbuffers/protobuf |
