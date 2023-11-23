@@ -118,6 +118,11 @@ fi
   go mod init "github.com/tomnomnom/assetfinder" ; go mod tidy
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./assetfinder" "$HOME/bin/assetfinder" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #assh : 💻 make your ssh client smarter 
+  pushd "$(mktemp -d)" && git clone "https://github.com/moul/assh" && cd "./assh"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./assh" "$HOME/bin/assh" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #asn : ASN / RPKI validity / BGP stats / IPv4v6 / Prefix / URL / ASPath / Organization / IP reputation / IP geolocation / IP fingerprinting / Network recon / lookup API server / Web traceroute server
   eget "https://raw.githubusercontent.com/nitefood/asn/master/asn" --to "$HOME/bin/asn"
   #---------------#
@@ -132,6 +137,11 @@ fi
   #---------------#
   #batcat: cat with colors & syntax highlights 
   eget "sharkdp/bat" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/bat" && ln -s "$HOME/bin/bat" "$HOME/bin/batcat"
+  #---------------#
+  #Berty : Secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
+  pushd "$(mktemp -d)" && git clone "https://github.com/berty/berty" && cd "./berty"
+  CGO_ENABLED=1 go build -v -ldflags="-s -w -extldflags '-static'" "./go/cmd/berty"
+  mv "./berty" "$HOME/bin/berty" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #binfetch : neofetch for binaries   
   pushd "$(mktemp -d)" && git clone "https://github.com/Im-0xea/binfetch" && cd "./binfetch"
@@ -936,6 +946,11 @@ fi
   #sshd_config
   eget "Azathothas/static-toolbox" --tag "openssh" --asset "sshd_config_amd_x86_64_Linux" --to "$HOME/bin/sshd_config"
   #eget "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/openssh/sshd_config_amd_x86_64_Linux" --to "$HOME/bin/sshd_config"
+  #---------------#
+  #sshesame : SSH honeypot, a fake SSH server that lets anyone in and logs their activity
+  pushd "$(mktemp -d)" && git clone "https://github.com/jaksi/sshesame" && cd "./sshesame"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./sshesame" "$HOME/bin/sshesame" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #sshkeys : Get all ssh public keys of a ssh server
   eget "Eun/sshkeys" --asset "linux_amd64.tar.gz" --to "$HOME/bin/sshkeys"
