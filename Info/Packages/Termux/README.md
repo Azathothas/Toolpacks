@@ -180,7 +180,7 @@
 | **calc** | 2.15.0.1 | Arbitrary precision console calculator | http://www.isthe.com/chongo/tech/comp/calc/ |
 | **calcurse** | 4.8.1 | calcurse is a calendar and scheduling application for the command line | https://calcurse.org/ |
 | **calcurse-caldav** | 4.8.1 | Sync calcurse with remote caldav calendar | https://calcurse.org/ |
-| **capnproto** | 1.0.1-1 | Data interchange format and capability-based RPC system | https://capnproto.org/ |
+| **capnproto** | 1.0.1.1 | Data interchange format and capability-based RPC system | https://capnproto.org/ |
 | **capstone** | 5.0.1 | Lightweight multi-platform, multi-architecture disassembly framework | https://www.capstone-engine.org/ |
 | **capstone-static** | 5.0.1 | Static libraries for capstone | https://www.capstone-engine.org/ |
 | **cargo-c** | 0.9.28 | Cargo C-ABI helpers | https://github.com/lu-zero/cargo-c |
@@ -397,7 +397,7 @@
 | **exiv2** | 2:0.27.7-1 | Exif, Iptc and XMP metadata manipulation library and tools | https://exiv2.org/ |
 | **exiv2-static** | 2:0.27.7-1 | Static libraries for exiv2 | https://exiv2.org/ |
 | **expect** | 5.45.4-3 | Tool for automating interactive terminal applications | https://core.tcl.tk/expect/index |
-| **eza** | 0.16.0 | A modern replacement for ls | https://github.com/eza-community/eza |
+| **eza** | 0.16.1 | A modern replacement for ls | https://github.com/eza-community/eza |
 | **fact++** | 1.6.5-1 | Re-implementation of the well-known FaCT Description Logic (DL) Reasoner | https://bitbucket.org/dtsarkov/factplusplus |
 | **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
@@ -1806,7 +1806,7 @@
 | **pango** | 1.50.14 | Library for laying out and rendering text | https://www.pango.org/ |
 | **paperkey** | 1.6 | Archive OpenPGP keys on paper | http://www.jabberwocky.com/software/paperkey/ |
 | **par2** | 0.8.1-3 | par2cmdline is a PAR 2.0 compatible file verification and repair tool | https://github.com/Parchive/par2cmdline |
-| **parallel** | 20231022 | GNU Parallel is a shell tool for executing jobs in parallel using one or more machines | https://www.gnu.org/software/parallel/ |
+| **parallel** | 20231122 | GNU Parallel is a shell tool for executing jobs in parallel using one or more machines | https://www.gnu.org/software/parallel/ |
 | **pari** | 2.15.4 | A computer algebra system designed for fast computations in number theory | https://pari.math.u-bordeaux.fr/ |
 | **pari-static** | 2.15.4 | Static libraries for pari | https://pari.math.u-bordeaux.fr/ |
 | **parted** | 3.6 | Versatile partition editor | https://www.gnu.org/software/parted/ |
@@ -2491,7 +2491,7 @@
 | **yasm-static** | 1.3.0-6 | Static libraries for yasm | https://yasm.tortall.net/ |
 | **yosys** | 0.35 | A framework for RTL synthesis tools | https://yosyshq.net/yosys/ |
 | **youtubedr** | 2.9.0 | Download youtube video in Golang | https://github.com/kkdai/youtube |
-| **yq** | 4.40.2 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
+| **yq** | 4.40.3 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
 | **ytfzf** | 2.6.1 | A POSIX script that helps you find Youtube videos (without API) | https://github.com/pystardust/ytfzf |
 | **ytui-music** | 2.0.0-beta-0 | Youtube client in terminal for music | https://github.com/sudipghimire533/ytui-music |
 | **yuma123** | 2.13-1 | Provides an opensource YANG API in C | https://yuma123.org/ |
