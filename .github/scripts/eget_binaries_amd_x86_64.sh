@@ -1054,6 +1054,11 @@ fi
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/yataf" \;
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #yj: Convert between YAML, TOML, JSON, and HCL
+  pushd "$(mktemp -d)" && git clone "https://github.com/sclevine/yj" && cd "./yj"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ;  mv "./yj" "$HOME/bin/yj" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #yq : portable command-line YAML, JSON, XML, CSV, TOML and properties processor
   eget "mikefarah/yq" --asset "yq_linux_amd64" --asset "^.tar.gz" --to "$HOME/bin/yq"
   #---------------#
