@@ -1068,6 +1068,11 @@ fi
   #upx : Ultimate Packer for eXecutables
   eget "https://github.com/borestad/static-binaries/raw/main/x86_64/upx" --to "$HOME/bin/upx"
   #---------------#
+  #validtoml : simple toml validitor
+  pushd "$(mktemp -d)" && git clone "https://github.com/martinlindhe/validtoml" && cd "./validtoml"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./validtoml" "$HOME/bin/validtoml" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #vegeta : HTTP load testing tool and library
   eget "tsenart/vegeta" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --to "$HOME/bin/vegeta"
   #---------------#
