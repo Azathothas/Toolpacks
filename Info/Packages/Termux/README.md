@@ -757,7 +757,7 @@
 | **knockd** | 0.8-2 | A port-knocking daemon | https://zeroflux.org/projects/knock |
 | **knot-utils** | 3.2.4-1 | Knot DNS utilities | https://www.knot-dns.cz/ |
 | **kona** | 20211225 | Open-source implementation of the APL-like K programming language | https://github.com/kevinlawler/kona |
-| **kotlin** | 1.9.20 | The Kotlin Programming Language | https://kotlinlang.org/ |
+| **kotlin** | 1.9.21 | The Kotlin Programming Language | https://kotlinlang.org/ |
 | **krb5** | 1.21.2 | The Kerberos network authentication system | https://web.mit.edu/kerberos |
 | **kubectl** | 1.28.4 | Kubernetes.io client binary | https://kubernetes.io/ |
 | **kubelogin** | 1.28.0-1 | A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication | https://github.com/int128/kubelogin |
@@ -1441,11 +1441,11 @@
 | **libxls** | 1.6.2 | A C library for reading Excel files in the nasty old binary OLE format | https://github.com/libxls/libxls |
 | **libxls-static** | 1.6.2 | Static libraries for libxls | https://github.com/libxls/libxls |
 | **libxlsxwriter** | 1.1.5-1 | A C library for creating Excel XLSX files | https://libxlsxwriter.github.io/ |
-| **libxml2** | 2.12.0 | Library for parsing XML documents | http://www.xmlsoft.org |
-| **libxml2-python** | 2.12.0 | Python bindings for libxml2 | http://www.xmlsoft.org |
-| **libxml2-python-static** | 2.12.0 | Static libraries for libxml2-python | http://www.xmlsoft.org |
-| **libxml2-static** | 2.12.0 | Static libraries for libxml2 | http://www.xmlsoft.org |
-| **libxml2-utils** | 2.12.0 | XML utilities | http://www.xmlsoft.org |
+| **libxml2** | 2.12.1 | Library for parsing XML documents | http://www.xmlsoft.org |
+| **libxml2-python** | 2.12.1 | Python bindings for libxml2 | http://www.xmlsoft.org |
+| **libxml2-python-static** | 2.12.1 | Static libraries for libxml2-python | http://www.xmlsoft.org |
+| **libxml2-static** | 2.12.1 | Static libraries for libxml2 | http://www.xmlsoft.org |
+| **libxml2-utils** | 2.12.1 | XML utilities | http://www.xmlsoft.org |
 | **libxrandr** | 1.5.4 | X11 RandR extension library | https://xorg.freedesktop.org/ |
 | **libxrandr-static** | 1.5.4 | Static libraries for libxrandr | https://xorg.freedesktop.org/ |
 | **libxrender** | 0.9.11 | X Rendering Extension client library | https://xorg.freedesktop.org/ |
@@ -1777,8 +1777,8 @@
 | **openmpi** | 4.1.5 | Open source Message Passing Interface implementation | https://www.open-mpi.org |
 | **openmpi-static** | 4.1.5 | Static libraries for openmpi | https://www.open-mpi.org |
 | **openscad** | 2021.01 | The programmers solid 3D CAD modeller (headless build) | http://openscad.org/ |
-| **openssh** | 9.5p1 | Secure shell for logging into a remote machine | https://www.openssh.com/ |
-| **openssh-sftp-server** | 9.5p1 | OpenSSH SFTP server subsystem | https://www.openssh.com/ |
+| **openssh** | 9.5p1-2 | Secure shell for logging into a remote machine | https://www.openssh.com/ |
+| **openssh-sftp-server** | 9.5p1-2 | OpenSSH SFTP server subsystem | https://www.openssh.com/ |
 | **openssl** | 1:3.1.4 | Library implementing the SSL and TLS protocols as well as general purpose cryptography functions | https://www.openssl.org/ |
 | **openssl-1.1** | 1:1.1.1w | Library implementing the SSL and TLS protocols as well as general purpose cryptography functions | https://www.openssl.org/ |
 | **openssl-1.1-static** | 1:1.1.1w | Static libraries for openssl-1.1 | https://www.openssl.org/ |
