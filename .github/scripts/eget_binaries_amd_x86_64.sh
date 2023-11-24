@@ -354,7 +354,7 @@ fi
   eget "fastfetch-cli/fastfetch" --asset "Linux" --asset "tar.gz" --to "$HOME/bin/fastfetch"
   #---------------#
   #fd : A simple, fast and user-friendly alternative to 'find'
-  eget "sharkdp/fd" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "tar.gz" "$HOME/bin/fd"
+  eget "sharkdp/fd" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "tar.gz" --to "$HOME/bin/fd"
   #---------------#
   #feroxbuster : A fast, simple, recursive content discovery tool written in Rust.
   eget "epi052/feroxbuster" --asset "linux" --asset "zip" --to "$HOME/bin/feroxbuster"
