@@ -116,7 +116,7 @@
 | **bdsup2sub** | 4.0.1 | A subtitle conversion tool for image based stream formats | https://github.com/mjuhasz/BDSup2Sub |
 | **beanshell** | 2.1.1-1 | Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java | https://github.com/beanshell/beanshell |
 | **bed** | 0.2.4 | Binary editor written in GO | https://github.com/itchyny/bed |
-| **bftpd** | 6.1-1 | Small, easy-to-configure FTP server | http://bftpd.sourceforge.net/ |
+| **bftpd** | 6.2 | Small, easy-to-configure FTP server | https://bftpd.sourceforge.net/ |
 | **bgrep** | 1.0-3 | Binary string grep tool | https://debugmo.de/2009/04/bgrep-a-binary-grep/ |
 | **biboumi** | 9.0-3 | An XMPP gateway that connects to IRC servers and translates between the two protocols | https://biboumi.louiz.org/ |
 | **binaryen** | 116 | Binaryen is a compiler and toolchain infrastructure library for WebAssembly | https://github.com/WebAssembly/binaryen |
@@ -611,7 +611,7 @@
 | **gst-plugins-base** | 1.22.7-1 | GStreamer base plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-gl-headers** | 1.22.7-1 | OpenGL headers for GStreamer plugins | https://gstreamer.freedesktop.org/ |
 | **gst-plugins-good** | 1.22.7-1 | GStreamer Good Plug-ins | https://gstreamer.freedesktop.org/ |
-| **gst-plugins-ugly** | 1.22.4 | GStreamer Ugly Plug-ins | https://gstreamer.freedesktop.org/ |
+| **gst-plugins-ugly** | 1.22.7 | GStreamer Ugly Plug-ins | https://gstreamer.freedesktop.org/ |
 | **gst-python** | 1.22.7 | Python bindings for GStreamer | https://gstreamer.freedesktop.org/ |
 | **gstreamer** | 1.22.7-1 | Open source multimedia framework | https://gstreamer.freedesktop.org/ |
 | **gtypist** | 2.9.5-2 | Universal typing tutor | https://www.gnu.org/software/gtypist/ |
@@ -753,7 +753,7 @@
 | **keychain** | 2.8.5-1 | keychain ssh-agent front-end | https://www.funtoo.org/Keychain |
 | **keystone** | 0.9.2-3 | Keystone is a lightweight multi-platform, multi-architecture assembler framework | https://www.keystone-engine.org/ |
 | **kibi** | 0.2.2 | A tiny terminal text editor, written in Rust | https://github.com/ilai-deutel/kibi |
-| **kiwix-tools** | 3.5.0 | A collection of Kiwix related command line tools | https://github.com/kiwix/kiwix-tools |
+| **kiwix-tools** | 3.6.0 | A collection of Kiwix related command line tools | https://github.com/kiwix/kiwix-tools |
 | **knockd** | 0.8-2 | A port-knocking daemon | https://zeroflux.org/projects/knock |
 | **knot-utils** | 3.2.4-1 | Knot DNS utilities | https://www.knot-dns.cz/ |
 | **kona** | 20211225 | Open-source implementation of the APL-like K programming language | https://github.com/kevinlawler/kona |
@@ -1040,7 +1040,7 @@
 | **libjxl** | 0.8.2-2 | JPEG XL image format reference implementation | https://jpegxl.info/ |
 | **libjxl-progs** | 0.8.2-2 | Programs for manipulating JPEG XL files | https://jpegxl.info/ |
 | **libjxl-static** | 0.8.2-1 | Static libraries for libjxl | https://jpegxl.info/ |
-| **libkiwix** | 12.1.0-1 | A library that contains a lot of things used by other kiwix programs | https://github.com/kiwix/libkiwix |
+| **libkiwix** | 13.0.0 | A library that contains a lot of things used by other kiwix programs | https://github.com/kiwix/libkiwix |
 | **libknot** | 3.2.4-1 | Knot DNS libraries | https://www.knot-dns.cz/ |
 | **libknot-static** | 3.2.4-1 | Static libraries for libknot | https://www.knot-dns.cz/ |
 | **libksba** | 1.6.5-1 | Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible | https://gnupg.org/related_software/libksba/ |
@@ -1469,7 +1469,7 @@
 | **libyaml-static** | 0.2.5-4 | Static libraries for libyaml | https://pyyaml.org/wiki/LibYAML |
 | **libzen** | 0.4.41 | ZenLib C++ utility library | https://mediaarea.net/en/MediaInfo |
 | **libzen-static** | 0.4.41 | Static libraries for libzen | https://mediaarea.net/en/MediaInfo |
-| **libzim** | 8.2.1-1 | The ZIM library is the reference implementation for the ZIM file format. | https://openzim.org |
+| **libzim** | 9.0.0 | The ZIM library is the reference implementation for the ZIM file format. | https://openzim.org |
 | **libzimg** | 3.0.5 | Scaling, colorspace conversion, and dithering library | https://github.com/sekrit-twc/zimg |
 | **libzimg-static** | 3.0.5 | Static libraries for libzimg | https://github.com/sekrit-twc/zimg |
 | **libzip** | 1.10.1-1 | Library for reading, creating, and modifying zip archives | https://libzip.org/ |
@@ -1483,7 +1483,7 @@
 | **lighttpd** | 1.4.73 | Fast webserver with minimal memory footprint | https://www.lighttpd.net |
 | **lighttpd-static** | 1.4.70-2 | Static libraries for lighttpd | https://www.lighttpd.net |
 | **lilv** | 0.24.22 | A C library to make the use of LV2 plugins as simple as possible for applications | https://drobilla.net/software/lilv.html |
-| **lilypond** | 2.24.2 | A music engraving program | https://lilypond.org/ |
+| **lilypond** | 2.24.3 | A music engraving program | https://lilypond.org/ |
 | **links** | 2.29-1 | Links is a text and graphics mode WWW browser | http://links.twibright.com |
 | **lipl** | 0.1.3 | A command line tool that is similar to watch but has extended functions for commands outputing a number | https://github.com/yxdunc/lipl |
 | **litespeedtest** | 0.15.0-1 | A simple tool for batch test ss/ssr/v2ray/trojan servers | https://github.com/xxf098/LiteSpeedTest |
@@ -1510,7 +1510,7 @@
 | **lrzip** | 0.651 | A compression utility that excels at compressing large files | https://github.com/ckolivas/lrzip |
 | **lrzsz** | 0.12.21-rc1-0 | Tools for zmodem/xmodem/ymodem file transfer | https://ohse.de/uwe/software/lrzsz.html |
 | **lsd** | 1.0.0 | Next gen ls command | https://github.com/lsd-rs/lsd |
-| **lsix** | 1.8-1 | Shows thumbnails in terminal using sixel graphics | https://github.com/hackerb9/lsix |
+| **lsix** | 1.8.2 | Shows thumbnails in terminal using sixel graphics | https://github.com/hackerb9/lsix |
 | **lsof** | 4.99.0 | Lists open files for running Unix processes | https://github.com/lsof-org/lsof |
 | **lsof-static** | 4.99.0 | Static libraries for lsof | https://github.com/lsof-org/lsof |
 | **ltrace** | 1:0.7.9 | Tracks runtime library calls in dynamically linked programs | http://www.ltrace.org/ |
@@ -1900,7 +1900,7 @@
 | **privoxy** | 3.0.34 | Non-caching web proxy with advanced filtering capabilities | https://www.privoxy.org |
 | **procps** | 3.3.17-5 | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps |
 | **procps-static** | 3.3.17-5 | Static libraries for procps | https://gitlab.com/procps-ng/procps |
-| **procs** | 0.14.3 | A modern replacement for ps | https://github.com/dalance/procs |
+| **procs** | 0.14.4 | A modern replacement for ps | https://github.com/dalance/procs |
 | **procyon-decompiler** | 0.6.0-1 | A standalone front-end for the Java decompiler in Procyon Compiler Toolset | https://github.com/mstrobel/procyon |
 | **profanity** | 0.14.0 | Profanity is a console based XMPP client written in C using ncurses and libstrophe, inspired by Irssi | https://profanity-im.github.io |
 | **progress** | 0.17 | Linux tool to show progress for cp, mv, dd and more | https://github.com/Xfennec/progress |
@@ -1949,8 +1949,8 @@
 | **python-static** | 3.11.6-1 | Static libraries for python | https://python.org/ |
 | **python-tkinter** | 3.11.6-1 | Tkinter support for Python 3 | https://python.org/ |
 | **python-tldp** | 0.7.5-4 | Tools for publishing from TLDP sources | https://github.com/tLDP/python-tldp |
-| **python-torch** | 2.1.0 | Tensors and Dynamic neural networks in Python | https://pytorch.org/ |
-| **python-torch-static** | 2.1.0 | Static libraries for python-torch | https://pytorch.org/ |
+| **python-torch** | 2.1.1 | Tensors and Dynamic neural networks in Python | https://pytorch.org/ |
+| **python-torch-static** | 2.1.1 | Static libraries for python-torch | https://pytorch.org/ |
 | **python-torchaudio** | 2.0.1 | Data manipulation and transformation for audio signal processing, powered by PyTorch | https://github.com/pytorch/audio |
 | **python-torchvision** | 0.15.1-1 | Datasets, Transforms and Models specific to Computer Vision | https://github.com/pytorch/vision |
 | **python-xcbgen** | 1.16.0 | The xcbgen Python module | https://xcb.freedesktop.org/ |
@@ -2373,7 +2373,7 @@
 | **uucp** | 1.07-1 | The standard UUCP package of the Free Software Foundation | https://www.airs.com/ian/uucp.html |
 | **uuid-utils** | 2.39.2-1 | Utilities for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
 | **uwsgi** | 2.0.23 | uWSGI application server container | https://projects.unbit.it/uwsgi |
-| **v2ray** | 5.12.0 | A platform for building proxies to bypass network restrictions | https://www.v2fly.org/ |
+| **v2ray** | 5.12.1 | A platform for building proxies to bypass network restrictions | https://www.v2fly.org/ |
 | **valac** | 0.56.14 | C# like language for the GObject system | https://wiki.gnome.org/Projects/Vala |
 | **valac-static** | 0.56.14 | Static libraries for valac | https://wiki.gnome.org/Projects/Vala |
 | **valadoc** | 0.56.14 | API documentation generator for vala | https://wiki.gnome.org/Projects/Vala |
