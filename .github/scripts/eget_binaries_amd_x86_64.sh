@@ -289,6 +289,11 @@ fi
   #dalfox : 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation. 
   eget "hahwul/dalfox" --asset "amd64" --to "$HOME/bin/dalfox"
   #---------------#
+  #DevBox : Instant, easy, and predictable development environments
+  # Requires Nix : curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --daemon
+  #   Recommended: curl -qfsSL "https://install.determinate.systems/nix" | bash -s -- install
+  eget "jetpack-io/devbox" --asset "linux" --asset "64" --asset "^arm" --asset "tar.gz" --to "$HOME/bin/devbox"
+  #---------------#
   #dirstat-rs : (fastest?) disk usage cli, similar to windirstat. 
   pushd "$(mktemp -d)" && git clone "https://github.com/scullionw/dirstat-rs" && cd "./dirstat-rs"
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
@@ -422,7 +427,7 @@ fi
   #---------------#
   #git
   # requires additional binaries
-  #eget "Azathothas/static-toolbox" --tag "git" --asset "git_amd_x86_64_Linux" --to "$HOME/bin/git"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_binaries_amd_x86_64_Linux.tar.gz" --all --to "$HOME/bin/"
   #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
   pushd "$(mktemp -d)" && git clone "https://github.com/damit5/gitdorks_go" && cd "./gitdorks_go"
@@ -1062,6 +1067,9 @@ fi
   #---------------#
   #upx : Ultimate Packer for eXecutables
   eget "https://github.com/borestad/static-binaries/raw/main/x86_64/upx" --to "$HOME/bin/upx"
+  #---------------#
+  #vegeta : HTTP load testing tool and library
+  eget "tsenart/vegeta" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --to "$HOME/bin/vegeta"
   #---------------#
   #vhs: CLI home video recorder 📼 
   eget "charmbracelet/vhs" --asset "Linux" --asset "x86_64" --asset "^sbom" --asset "vhs" --to "$HOME/bin/vhs"
