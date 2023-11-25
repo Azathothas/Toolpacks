@@ -31,7 +31,7 @@
 | **alass** | 2.0.0-2 | Automatic Language-Agnostic Subtitle Synchronization | https://github.com/kaegi/alass |
 | **alembic** | 1.8.5 | A framework for sharing scene data that includes a C++ lib, a file format and client plugin | https://alembic.io |
 | **algernon** | 1.15.4 | Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support | https://algernon.roboticoverlords.org/ |
-| **alist** | 3.28.0 | A file list program that supports multiple storage | https://alist.nn.ci |
+| **alist** | 3.29.1 | A file list program that supports multiple storage | https://alist.nn.ci |
 | **alpine** | 2.26 | Fast, easy to use email client | http://alpine.x10host.com/ |
 | **amber** | 0.5.9-1 | A code search / replace tool | https://github.com/dalance/amber |
 | **ambr** | 0.5.9 | amber replace | https://github.com/dalance/amber |
