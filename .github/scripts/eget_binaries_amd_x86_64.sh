@@ -1010,6 +1010,13 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/surf" ; mv "./surf" "$HOME/bin/surf" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #systemctl-tui : A fast, simple TUI for interacting with systemd services and their logs
+  pushd "$(mktemp -d)" && git clone "https://github.com/rgwood/systemctl-tui" && cd "./systemctl-tui"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/systemctl-tui" "$HOMR/bin/systemctl-tui"
+  #---------------#
   #tailscale : The easiest, most secure way to use WireGuard and 2FA
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscale_amd_x86_64_Linux" --to "$HOME/bin/tailscale"
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscale_merged_amd_x86_64_Linux" --to "$HOME/bin/tailscale_merged"
