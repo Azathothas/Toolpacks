@@ -602,6 +602,9 @@ fi
   eget "jqlang/jq" --asset "linux" --asset "amd64" --to "$HOME/bin/jq"
   #eget "jqlang/jq" --pre-release --tag "jq-1.7rc1" --asset "jq-linux-amd64" --to "$HOME/bin/jq"
   #---------------#
+  #just : A handy way to save and run project-specific commands.
+  eget "casey/just" --asset "linux" --asset "64" --asset "musl" --asset "^arm" --asset "^sha" --to "$HOME/bin/just"
+  #---------------#
   #jwthack : 🔩 jwt-hack is tool for hacking / security testing to JWT
   pushd "$(mktemp -d)" && git clone "https://github.com/hahwul/jwt-hack" && cd "./jwt-hack"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd
@@ -851,6 +854,9 @@ fi
   #---------------#
   #rospo : 🐸 Simple, reliable, persistent ssh tunnels with embedded ssh server
   eget "ferama/rospo" --asset "linux" --asset "64" --asset "^arm" --asset "^sig" --to "$HOME/bin/rospo"
+  #---------------#
+  #ruff : An extremely fast Python linter and code formatter, written in Rust.
+  eget "astral-sh/ruff" --asset "linux" --asset "64" --asset "musl" --asset "^arm" --asset "^sha" --to "$HOME/bin/ruff"
   #---------------#
   #runc : CLI tool for spawning and running containers according to the OCI specification
   eget "opencontainers/runc" --asset "amd" --asset "64" --asset "^asc" --to "$HOME/bin/runc"
