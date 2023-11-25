@@ -285,7 +285,7 @@
 | **dar** | 2.7.13 | A full featured command-line backup tool, short for Disk ARchive | http://dar.linux.free.fr/ |
 | **dar-static** | 2.7.13 | Static libraries for dar | http://dar.linux.free.fr/ |
 | **darkhttpd** | 1.14 | A simple webserver, implemented in a single .c file. | https://unix4lyfe.org/darkhttpd |
-| **dart** | 3.2.0 | Dart is a general-purpose programming language | https://dart.dev/ |
+| **dart** | 3.2.1 | Dart is a general-purpose programming language | https://dart.dev/ |
 | **dasel** | 2.4.1 | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility | https://github.com/TomWright/dasel |
 | **dash** | 0.5.12 | Small POSIX-compliant implementation of /bin/sh | http://gondor.apana.org.au/~herbert/dash/ |
 | **dasm** | 2.20.14.1 | Macro assembler with support for several 8-bit microprocessors | https://dasm-dillon.sourceforge.io/ |
@@ -1733,7 +1733,7 @@
 | **nwipe** | 0.34 | A program that will securely erase the entire contents of disks | https://github.com/martijnvanbrummelen/nwipe |
 | **nyancat** | 1.5.2 | Nyancat in your terminal, rendered through ANSI escape sequences. | http://nyancat.dakko.us |
 | **nzbget** | 21.1-6 | The most efficient usenet downloader | https://nzbget.net/ |
-| **o-editor** | 2.65.5 | Small, fast and limited text editor | https://github.com/xyproto/o |
+| **o-editor** | 2.65.6 | Small, fast and limited text editor | https://github.com/xyproto/o |
 | **oathtool** | 2.6.7-2 | One-time password components | http://www.nongnu.org/oath-toolkit/ |
 | **oathtool-static** | 2.6.7-2 | Static libraries for oathtool | http://www.nongnu.org/oath-toolkit/ |
 | **obfs4proxy** | 0.0.14-3 | A pluggable transport plugin for Tor | https://github.com/Yawning/obfs4 |
@@ -2340,7 +2340,7 @@
 | **udftools** | 2.3 | Linux tools for UDF filesystems and DVD/CD-R(W) drives | https://github.com/pali/udftools |
 | **uftrace** | 0.14-1 | Function (graph) tracer for user-space | https://uftrace.github.io/slide |
 | **ugit** | 5.7 | ugit helps you undo your last git command with grace. Your damage control git buddy | https://github.com/Bhupesh-V/ugit |
-| **ugrep** | 4.3.3 | A faster, user-friendly and compatible grep replacement | https://github.com/Genivia/ugrep |
+| **ugrep** | 4.3.4 | A faster, user-friendly and compatible grep replacement | https://github.com/Genivia/ugrep |
 | **unar** | 1.10.7-6 | Command line tools for archive and file unarchiving and extraction | https://theunarchiver.com/command-line |
 | **unbound** | 1.19.0 | Unbound command-line tools | https://unbound.net/ |
 | **unbound-static** | 1.17.1 | Static libraries for unbound | https://unbound.net/ |
