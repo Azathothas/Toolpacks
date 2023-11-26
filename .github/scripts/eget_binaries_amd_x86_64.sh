@@ -286,6 +286,15 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./cut-cdn" "$HOME/bin/cut-cdn" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #daktilo : Turn your keyboard into a typewriter! 📇 
+  #   #Errors out :/usr/bin/ld: cannot find -lasound: No such file or directory
+  #   pushd "$(mktemp -d)" && git clone "https://github.com/orhun/daktilo" && cd "./daktilo"
+  #   sudo apt-get install libasound2-dev libxi-dev libxtst-dev -y 
+  #   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  #   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  #   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  #   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/daktilo" "$HOMR/bin/daktilo"
+  #---------------#
   #dalfox : 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation. 
   eget "hahwul/dalfox" --asset "amd64" --to "$HOME/bin/dalfox"
   #---------------#
@@ -429,6 +438,9 @@ fi
   # requires additional binaries
   eget "Azathothas/static-toolbox" --tag "git" --asset "git_binaries_amd_x86_64_Linux.tar.gz" --all --to "$HOME/bin/"
   #---------------#
+  #git-cliff : A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
+  eget "orhun/git-cliff" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "git-cliff" --to "$HOME/bin/git-cliff"
+  #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
   pushd "$(mktemp -d)" && git clone "https://github.com/damit5/gitdorks_go" && cd "./gitdorks_go"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gitdorks_go" "$HOME/bin/gitdorks_go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
@@ -498,6 +510,14 @@ fi
   #gping : Ping, but with a graph
   eget "orf/gping" --asset "unknown-linux-musl" --asset "linux" --to "$HOME/bin/gping"
   #---------------#
+  #gpg-tui : Manage your GnuPG keys with ease! 🔐
+  pushd "$(mktemp -d)" && git clone "https://github.com/orhun/gpg-tui" && cd "./gpg-tui"
+  sudo apt-get install libgpgme-dev libx11-dev libxcb-shape0-dev libxcb-xfixes0-dev libxkbcommon-dev -y
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/gpg-tui" "$HOMR/bin/gpg-tui"
+  #---------------#
   #GRPCurl : Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers 
   pushd "$(mktemp -d)" && git clone "https://github.com/fullstorydev/grpcurl" && cd "./grpcurl"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/grpcurl" ; mv "./grpcurl" "$HOME/bin/grpcurl" ; popd
@@ -527,6 +547,9 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/hakluke/hakrevdns" && cd "./hakrevdns"
   go mod init "github.com/hakluke/hakrevdns" ; go mod tidy
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakrevdns" "$HOME/bin/hakrevdns" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #halp : A CLI tool to get help with CLI tools 🐙 
+  eget "orhun/halp" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "halp" --to "$HOME/bin/halp"
   #---------------#
   #HEDnsExtractor : Raw html extractor from Hurricane Electric portal
   pushd "$(mktemp -d)" && git clone "https://github.com/HuntDownProject/HEDnsExtractor" && cd HEDnsExtractor
@@ -626,8 +649,14 @@ fi
   eget "boy-hack/ksubdomain" --asset "linux.tar" --to "$HOME/bin/ksubdomain"
   staticx --loglevel DEBUG "$HOME/bin/ksubdomain" --strip "$HOME/bin/ksubdomain_staticx"
   #---------------#
+  #kmon : Linux Kernel Manager and Activity Monitor 🐧💻 
+  eget "orhun/kmon" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "kmon" --to "$HOME/bin/kmon"
+  #---------------#
   #lazydocker : The lazier way to manage everything docker 
   eget "jesseduffield/lazydocker" --asset "Linux" --asset "x86_64" --to "$HOME/bin/lazydocker"
+  #---------------#
+  #linuxwave : Generate music from the entropy of Linux 🐧🎵
+  eget "orhun/linuxwave" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --asset "^mac" --file "linuxwave" --to "$HOME/bin/linuxwave"
   #---------------#
   #lit-bb-hack-tools : misc bb tools
   pushd "$(mktemp -d)" && git clone https://github.com/edoardottt/lit-bb-hack-tools && cd "./lit-bb-hack-tools"
@@ -666,6 +695,15 @@ fi
   #masscan
   #Doesn't work
   #eget "https://github.com/Azathothas/Static-Binaries/raw/main/masscan/masscan_linux_x86_64_gcc" --to "$HOME/bin/masscan"
+  #---------------#
+  #menyoki : Screen{shot,cast} and perform ImageOps on the command line 🌱 🏞️ 
+  #Also fails
+  #pushd "$(mktemp -d)" && git clone "https://github.com/orhun/menyoki" && cd "./menyoki"
+  #sudo apt-get install libx11-dev librust-x11-dev libxrandr-dev -y
+  #export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  #sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  #cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/menyoki" "$HOMR/bin/menyoki"
   #---------------#
   #mergerfs : A featureful union filesystem 
   eget "trapexit/mergerfs" --asset "amd64" --asset "static" --to "$HOME/bin/mergerfs"
@@ -768,6 +806,11 @@ fi
   #pathbuster : A path-normalization pentesting tool
   eget "ethicalhackingplayground/pathbuster" --asset "^exe" --to "$HOME/bin/pathbuster"
   #---------------#
+  #pkgtop : Interactive package manager and resource monitor designed for the GNU/Linux.
+  pushd "$(mktemp -d)" && git clone "https://github.com/orhun/pkgtop" && cd "./pkgtop"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/pkgtop.go"
+  mv "./pkgtop" "$HOME/bin/pkgtop" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #ppfuzz : A fast tool to scan client-side prototype pollution vulnerability
   pushd "$(mktemp -d)" && git clone "https://github.com/dwisiswant0/ppfuzz" && cd "./ppfuzz"
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
@@ -799,6 +842,15 @@ fi
   #qsreplace : Accept URLs on stdin, replace all query string values with a user-supplied value 
   pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/qsreplace" && cd "./qsreplace"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #runst : A dead simple notification daemon 🦡 
+  ##Fails
+  #pushd "$(mktemp -d)" && git clone "https://github.com/orhun/runst" && cd "./runst"
+  #sudo apt-get install 'libdbus*' 'libpango*' '*librust-pango*' '*pango*' -y
+  #export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  #sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  #cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/runst" "$HOMR/bin/runst"
   #---------------#
   #rate-limit-checker : Check whether the domain has a rate limit enabled
   pushd "$(mktemp -d)" && mkdir rate-limit-checker && cd "./rate-limit-checker"
@@ -863,6 +915,12 @@ fi
   #---------------#
   #rush : A cross-platform command-line tool for executing jobs in parallel
   eget "shenwei356/rush" --asset "rush_linux_amd64.tar.gz" --to "$HOME/bin/rush"
+  #---------------#
+  #rustypaste : A minimal file upload/pastebin service. 
+  eget "orhun/rustypaste" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "rustypaste" --to "$HOME/bin/rustypaste"
+  #---------------#
+  #rustypaste-cli (rpaste) : A CLI tool for rustypaste  
+  eget "orhun/rustypaste-cli" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --to "$HOME/bin/rpaste"
   #---------------#
   #Rustscan : 🤖 The Modern Port Scanner 🤖  
   #GH Releases are outdated
@@ -1017,6 +1075,8 @@ fi
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/systemctl-tui" "$HOMR/bin/systemctl-tui"
   #---------------#
+  #systeroid : A more powerful alternative to sysctl(8) with a terminal user interface 🐧 
+  eget "orhun/systeroid" --asset "linux" --asset "64" --asset "musl" --asset "all" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "systeroid" --to "$HOME/bin/systeroid"
   #tailscale : The easiest, most secure way to use WireGuard and 2FA
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscale_amd_x86_64_Linux" --to "$HOME/bin/tailscale"
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscale_merged_amd_x86_64_Linux" --to "$HOME/bin/tailscale_merged"
