@@ -2,8 +2,8 @@ name: 🛍️ Publish | Build ⚙️ Weekly (toolpack_x86_64) Package 📦🗄�
 #MAX_RUNTIME:  
 on:
   workflow_dispatch:
-  #schedule:
-  #  - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
+  schedule:
+    - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
   
 env:
   GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
