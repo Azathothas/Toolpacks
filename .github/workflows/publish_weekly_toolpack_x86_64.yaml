@@ -152,13 +152,18 @@ jobs:
         run: |
            set -x ; set +e
            cd "$GITHUB_WORKSPACE/main"
-           cat ./x86_64/INFO.md > ./x86_64/README.md
-           echo -e "" >> ./x86_64/README.md 
+           #cat ./x86_64/INFO.md 2>/dev/null > ./x86_64/README.md
+           #echo -e "" >> ./x86_64/README.md 
+           echo -e "" > ./x86_64/README.md
            echo '---' >> ./x86_64/README.md
            echo '```console' >> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
            echo -e "--> METATDATA" >> ./x86_64/README.md
            /bin/bash -c 'PS4="$ "; file ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo -e "--> BLAKE3SUM" >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ ";b3sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
+           echo -e '```\n' >> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
            echo -e "--> SHA256SUM" >> ./x86_64/README.md
            /bin/bash -c 'PS4="$ ";sha256sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
