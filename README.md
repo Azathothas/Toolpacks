@@ -6,6 +6,7 @@
 > > - [**Android (Termux Pkgs)**](https://github.com/Azathothas/Toolpacks/tree/main/Info/Packages/Termux) [![💾 Fetch || ⏫ Update Termux Package Registry 📦](https://github.com/Azathothas/Toolpacks/actions/workflows/list_termux_pkgs.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/list_termux_pkgs.yaml)
 > > - [**Android (aarch64_arm64_v8a)**](https://github.com/Azathothas/Toolpacks/tree/main#aarch64_arm64_v8a_Android) --> [Metadata](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android) [![🛍️ Fetch ⚙️ Weekly 📱 (aarch64_arm64_v8a_Android) Package 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml)
 > > - [**Linux (amd_x86_64)**](https://github.com/Azathothas/Toolpacks/tree/main#amd-x86_64) --> [Metadata](https://github.com/Azathothas/Toolpacks/tree/main/x86_64) [Script](https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/eget_binaries_amd_x86_64.sh) [![🛍️ Publish | Build ⚙️ Weekly (toolpack_x86_64) Package 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/publish_weekly_toolpack_x86_64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/publish_weekly_toolpack_x86_64.yaml)
+> - [**ElseWhere**](https://github.com/Azathothas/Toolpacks/tree/main#Elsewhere)
 ---
 - #### Prerequisite
 ```bash
@@ -72,3 +73,5 @@ chmod +xwr $PREFIX/bin/*
 ls "$PREFIX/bin" | column -t ; popd
 ```
 ---
+- #### Elsewhere
+> - Main Source for [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs) used by [pwnwriter/hysp](https://github.com/pwnwriter/hysp)
