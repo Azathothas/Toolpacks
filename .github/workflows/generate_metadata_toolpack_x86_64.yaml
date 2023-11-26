@@ -52,7 +52,6 @@ jobs:
            echo -e "" >> ./x86_64/README.md
            echo -e "--> BLAKE3SUM" >> ./x86_64/README.md
            /bin/bash -c 'PS4="$ ";b3sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
-           echo -e '```\n' >> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
            echo -e "--> SHA256SUM" >> ./x86_64/README.md
            /bin/bash -c 'PS4="$ ";sha256sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
@@ -89,5 +88,4 @@ jobs:
           commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
           commit_message: "✅ 🛍️ Generated Metadata for (toolpack_x86_64) Package 📦🗄️ <-- ${{ env.NEPALI_TIME }} ⌚"
           #push_options: '--force'          
-
 #------------------------------------------------------------------------------------#
