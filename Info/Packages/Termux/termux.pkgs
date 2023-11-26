@@ -1521,7 +1521,7 @@
 | **luarocks** | 3.9.2 | Deployment and management system for Lua modules | https://luarocks.org/ |
 | **luv** | 1.45.0-0-0 | Bare libuv bindings for lua | https://github.com/luvit/luv |
 | **lux** | 0.22.0 | CLI tool to download videos from various websites | https://github.com/iawia002/lux |
-| **lv2** | 1.18.10-1 | A plugin standard for audio systems | https://lv2plug.in/ |
+| **lv2** | 1.18.10-2 | A plugin standard for audio systems | https://lv2plug.in/ |
 | **lychee** | 0.13.0 | A fast, async, resource-friendly link checker written in Rust | https://github.com/lycheeverse/lychee |
 | **lynx** | 2.8.9rel.1-7 | The text web browser | http://lynx.browser.org/ |
 | **lz4** | 1.9.4 | Fast LZ compression algorithm tool | https://lz4.github.io/lz4/ |
