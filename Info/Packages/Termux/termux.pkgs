@@ -69,7 +69,7 @@
 | **aspell-de** | 1:20161207-1 | German dictionary for aspell | http://aspell.net/ |
 | **aspell-en** | 1:2020.12.07 | English dictionary for aspell | http://aspell.net/ |
 | **aspell-es** | 2:1.11-2-0 | Spanish dictionary for aspell | http://aspell.net/ |
-| **aspell-fr** | 2:0.50-3-0 | French dictionary for aspell | http://aspell.net/ |
+| **aspell-fr** | 2:0.50-3-1 | French dictionary for aspell | http://aspell.net/ |
 | **aspell-static** | 0.60.8-3 | Static libraries for aspell | http://aspell.net |
 | **assimp** | 5.3.1 | Library to import various well-known 3D model formats in an uniform manner | https://assimp.sourceforge.net/index.html |
 | **assimp-static** | 5.3.1 | Static libraries for assimp | https://assimp.sourceforge.net/index.html |
@@ -242,7 +242,7 @@
 | **colm** | 0.14.7-1 | COmputer Language Machinery | https://www.colm.net/open-source/colm/ |
 | **colm-static** | 0.14.7-1 | Static libraries for colm | https://www.colm.net/open-source/colm/ |
 | **colordiff** | 1.0.21 | Tool to colorize 'diff' output | https://www.colordiff.org/ |
-| **command-not-found** | 2.3.0-11 | Suggest installation of packages in interactive shell sessions | https://github.com/termux/command-not-found |
+| **command-not-found** | 2.3.0-12 | Suggest installation of packages in interactive shell sessions | https://github.com/termux/command-not-found |
 | **composer** | 2.6.5 | Dependency Manager for PHP | https://getcomposer.org/ |
 | **console-bridge** | 1.0.2 | A ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages | https://github.com/ros/console_bridge |
 | **coreutils** | 9.4 | Basic file, shell and text manipulation utilities from the GNU project | https://www.gnu.org/software/coreutils/ |
@@ -570,7 +570,7 @@
 | **google-glog** | 0.6.0-1 | Logging library for C++ | https://github.com/google/glog |
 | **googletest** | 1.14.0 | Google C++ testing framework | https://github.com/google/googletest |
 | **goose** | 3.16.0 | A database migration tool. Supports SQL migrations and Go functions. | https://pressly.github.io/goose |
-| **gopass** | 1.15.9 | The slightly more awesome standard unix password manager for teams | https://github.com/gopasspw/gopass |
+| **gopass** | 1.15.10 | The slightly more awesome standard unix password manager for teams | https://github.com/gopasspw/gopass |
 | **gopher** | 3.0.17.3-1 | University of Minnesota gopher | gopher://gopher.quux.org/1/devel/gopher |
 | **gotop** | 4.2.0-3 | A terminal based graphical activity monitor inspired by gtop and vtop | https://github.com/xxxserxxx/gotop |
 | **gotty** | 1.5.0-3 | Share your terminal as a web application | https://github.com/sorenisanerd/gotty |
@@ -728,7 +728,7 @@
 | **jpegoptim** | 1.5.5 | JPEG optimizer that recompresses image files to a smaller size, without losing any information | https://www.kokkonen.net/tjko/projects.html |
 | **jq** | 1.7 | Command-line JSON processor | http://stedolan.github.io/jq/ |
 | **jq-static** | 1.7 | Static libraries for jq | http://stedolan.github.io/jq/ |
-| **jql** | 7.0.6 | A JSON Query Language CLI tool | https://github.com/yamafaktory/jql |
+| **jql** | 7.0.7 | A JSON Query Language CLI tool | https://github.com/yamafaktory/jql |
 | **json-c** | 0.17 | A JSON implementation in C | https://github.com/json-c/json-c/wiki |
 | **json-c-static** | 0.17 | Static libraries for json-c | https://github.com/json-c/json-c/wiki |
 | **json-glib** | 1.8.0 | GLib JSON manipulation library | https://wiki.gnome.org/Projects/JsonGlib |
@@ -1958,26 +1958,26 @@
 | **q-dns-client** | 0.15.1 | A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH | https://github.com/natesales/q |
 | **qalc** | 4.8.1 | Powerful and easy to use command line calculator | https://qalculate.github.io/ |
 | **qalc-static** | 4.8.1 | Static libraries for qalc | https://qalculate.github.io/ |
-| **qemu-common** | 1:8.0.2 | A set common files used by the QEMU emulators | https://www.qemu.org |
-| **qemu-system-aarch64-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-arm-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-i386-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-m68k-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-ppc-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-ppc64-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-riscv32-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-riscv64-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-system-x86-64-headless** | 1:8.0.2 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
-| **qemu-user-aarch64** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-arm** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-i386** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-m68k** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-ppc** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-ppc64** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-riscv32** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-riscv64** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-user-x86-64** | 1:8.0.2 | QEMU Linux user mode emulator | https://www.qemu.org |
-| **qemu-utils** | 1:8.0.2 | A set of utilities for working with the QEMU emulators | https://www.qemu.org |
+| **qemu-common** | 1:8.0.2-1 | A set common files used by the QEMU emulators | https://www.qemu.org |
+| **qemu-system-aarch64-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-arm-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-i386-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-m68k-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-ppc-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-ppc64-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-riscv32-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-riscv64-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-system-x86-64-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
+| **qemu-user-aarch64** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-arm** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-i386** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-m68k** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-ppc** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-ppc64** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-riscv32** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-riscv64** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-user-x86-64** | 1:8.0.2-1 | QEMU Linux user mode emulator | https://www.qemu.org |
+| **qemu-utils** | 1:8.0.2-1 | A set of utilities for working with the QEMU emulators | https://www.qemu.org |
 | **qhull** | 8.1-alpha3-0 | Calculate convex hulls and related structures | http://www.qhull.org |
 | **qhull-static** | 8.1-alpha3-0 | Static libraries for qhull | http://www.qhull.org |
 | **qpdf** | 11.6.3 | Content-Preserving PDF Transformation System | http://qpdf.sourceforge.net |
