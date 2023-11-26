@@ -1263,6 +1263,9 @@ get_distro() {
                 source /etc/VERSION
                 distro="Synology DSM ${productversion}-${buildnumber} Update ${smallfixnumber}"
 
+            elif compgen -G "/usr/bin/*peropesis*" > /dev/null; then
+                distro="Peropesis"
+
             else
                 for release_file in /etc/*-release; do
                     distro+=$(< "$release_file")
@@ -7914,30 +7917,6 @@ ${c4}                    %%%
 EOF
         ;;
 
-        "Aster"*)
-            set_colors 6 6
-            read -rd '' ascii_data <<'EOF'
-${c1}                      ...''...
-${c1}                 .;oOXWMWNXXXNMMN0d:.
-${c1}              .oXMWOo;..       ..:oO;
-${c1}            ;KMWx,       co,
-${c1}          'KMNl         dMMW.
-${c1}         oMMx          xMMMMk
-${c1}        xMM:          dMMMMMM;
-${c1}       cMMl          dMMMMMMMW
-${c1}       NMK          xMMMx::dXMx
-${c1}      ,MMl         xMMN'     .o.
-${c1}      cMM;        dMMW'
-${c1}      ;MMc       oMMW,
-${c1}       WMK      dMMW,  ccccccc.
-${c1}       lMMl    oMMM;   ooooooo.
-${c1}        OMMc   ...
-${c1}         xMMx
-${c1}          ;XMN:
-${c1}            ,.
-EOF
-        ;;
-        
         "Athena"*)
             set_colors 7 3
             read -rd '' ascii_data <<'EOF'
@@ -12654,6 +12633,17 @@ dNd                                  dNd
 dNd                                  dNd
 dNm//////////////////////////////////mNd
 dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd
+EOF
+        ;;
+
+        "Peropesis"*)
+            set_colors 4 7 1
+            read -rd '' ascii_data <<'EOF'
+${c1}####  #### ####   ###   ####  ####  #### #  ####
+#   # #    #   # #   #  #   # #     #    #  #
+####  ###  #### #     # ####  ###     #  #    #
+#     #    #  #  #   #  #     #        # #     #
+#     #### #   #  ###   #     #### ####  # ####
 EOF
         ;;
 
