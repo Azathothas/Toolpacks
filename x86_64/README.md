@@ -28,6 +28,7 @@
 ./x86_64/binfetch.cfg:                    ASCII text
 ./x86_64/binocle:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./x86_64/bore:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+./x86_64/boringtun-cli:                   ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=eef68f929d2fffacc1a787cff7f783354086a35e, for GNU/Linux 3.2.0, stripped
 ./x86_64/bottom:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=4d2d2af825be7c27f2694845cb0aca2a850544cb, stripped
 ./x86_64/btop:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./x86_64/bucketloot:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=rukpaRyslOWubjZG4G6j/0baRrDoPB4yC46Yt--0K/rSJVmUqqykIQgVa39-os/0-niPUhCgybrcQoHnTks, stripped
@@ -60,6 +61,7 @@
 ./x86_64/dnsx:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=f8u1itRDFrRwv4N3coDi/w15POSi-SN4hHG7BCkEB/d8BzpiEMfh6taMmJ9xzM/y3fvjMeF11_VzotD-yxh, stripped
 ./x86_64/doggo:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=eRqeGihdR7EfHdvrQV9m/f5dPcksIIL3Xt5eGtK4v/nDW2bzVBksmlsV0C2sUA/q2bSKqNYDK85pw4Nwgsw, stripped
 ./x86_64/doomxss:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=zmb7Sle7bhCddiIC_kNn/tqu5OU7-6P5V5ZypUjwO/kB6XML1j-QRIJFG5r4yg/kdudg8BSIN2zOCWiKumI, stripped
+./x86_64/dropbearmulti:                   ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=49ca144032292b75659f3628c53d98c80d3a7048, for GNU/Linux 3.2.0, stripped
 ./x86_64/dsieve:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=jrcV6EcCwAA3S9cNjHtY/3Ke-Ihr2zBc-ZAAYXI-K/9rMNvqydZoMHQBs8zxa-/KSh2hDTjg4C8V7vDuizP, stripped
 ./x86_64/duf:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=8nBn7QwuzjGNJfpOnK17/EcYLFQPJq4kFDzf7_jgB/RENHVMdqN9650IauBaT0/tOGaTB0_rikPbDgIOdRC, stripped
 ./x86_64/dust:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -96,10 +98,18 @@
 ./x86_64/gf:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=s0RyCLcNZBwTpnjD5GI_/qmX6pvHkWzWpSBnq8ezt/HsmbDIF8uJMMPTqdtQ8T/oKSbVvtwXDJHe5xXwrPZ, stripped
 ./x86_64/gfx:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=bVnpWsGskNaWzNtXZCzG/pz5y1SUj4iIJgK04enEl/mb18OFnUt9NGRO05RpAz/EBOeQXEu4MMJvOdz88_x, stripped
 ./x86_64/gh:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=rl7_Pl5ML7-nX_Oqx1oA/iVw9ISQ_oPZLAGarIIEE/RZJdJANnkaJOEcM6y-s3/OtLk2ALcmQyMm2UQxdz0, stripped
+./x86_64/git:                             ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=110bab177fc83783e9a8bac894bfa5aa81149779, for GNU/Linux 3.2.0, stripped
+./x86_64/git-cvsserver:                   Perl script text executable
+./x86_64/git-lfs:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=x0EJ6wApzg9K693coMOt/0pKz_r_H_5YMkby0BmJd/t9UT1X8478K_0tpH6fKw/mQIfgZJc16f7YL7pU6W3, stripped
+./x86_64/git-receive-pack:                ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=110bab177fc83783e9a8bac894bfa5aa81149779, for GNU/Linux 3.2.0, stripped
+./x86_64/git-shell:                       ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=426bb609f8f2d4699f2c9229a88e275b71aa0518, for GNU/Linux 3.2.0, stripped
+./x86_64/git-upload-archive:              ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=110bab177fc83783e9a8bac894bfa5aa81149779, for GNU/Linux 3.2.0, stripped
+./x86_64/git-upload-pack:                 ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=110bab177fc83783e9a8bac894bfa5aa81149779, for GNU/Linux 3.2.0, stripped
 ./x86_64/gitdorks_go:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=8BbFOMAh7v7vNizvUTJJ/1steS6NbDA36HW30ekAD/crT6AsfL1LEW-YUrSgvO/vn-dGSqZjjKBn6iZDE2e, stripped
 ./x86_64/github-endpoints:                ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=S3Ria51rKe5G7R-ng_gZ/7eGugCpD848Zlf8M-MK0/xq5BkgkxcrqOQMhNvScP/rmUKQ1kR5Tk19Bt40S59, stripped
 ./x86_64/github-regexp:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=jj0QFlE2cpn78wDg9_OK/y3_RuP13WQs__dvOf4fR/sZ3At7mAvXgrcrUGFb-0/zLMdVnm6w6cqPFuCEVzv, stripped
 ./x86_64/github-subdomains:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=g-xe3DmMMOJX1OeXm6Kl/dSbS-4CAM7pSFxs3mBlL/9g-3LW1knKhg93FykH3f/o2cgpvl_P3XyL56WYWoa, stripped
+./x86_64/gitk:                            POSIX shell script, Unicode text, UTF-8 text executable
 ./x86_64/gitlab-subdomains:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=5OZU3b3lsnjLEM7B9cgg/tfWH4k7uF_8TrHLEbhLd/0br_5UaNq_Un8cxTkxFV/_jcj2hO5X_HC2sLNIYk5, stripped
 ./x86_64/gitleaks:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=w7eHG_AGvaEUaIfowjaK/6plUDGoqM5DgcynzFYmx/mdihEw7IlZFEEItOfUe_/w8bvKa2k1NWSyb6KGKSO, stripped
 ./x86_64/gitui:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=59dffc01b5772996e64c55accf9ef57f5ee2e4cd, stripped
@@ -176,6 +186,7 @@
 ./x86_64/nrp:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=WST9xaHmDrAE-ekIwnj6/rm6b-xsRSHKB20QDQNrC/p8Mh49xEyd58aDqCAj7J/Fuh0G_FhuOEan2DsjuWA, stripped
 ./x86_64/nuclei:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=nTt34hb1fsAm1hkGMLl_/FxRDWedA5bOAwPGqqwg6/D9OOBPyVXhBMOlDTVTnN/qWHCkvKXFxBv8KR-W1Vf, stripped
 ./x86_64/oha:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), statically linked, no section header
+./x86_64/onetun:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=12526b2e1dc735a93054db402579f730e5d4d474, for GNU/Linux 3.2.0, stripped
 ./x86_64/openrisk:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=OXX_aIAh5-rF0Ehly9jE/gIxh8VISraisL29QzI5T/IutyD3uTzRkto3h1yumq/KTvVpX4LKUFPOZwwOHL3, stripped
 ./x86_64/osmedeus:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=KjSogXmgCuaWFjXYc94D/-PH5WCh40jGcpf8ci3qu/O9vPlvHTTyY_bax_gn2l/VIRyVhjIYBYYB1cSOfn7, stripped
 ./x86_64/pathbuster:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=d19278069f3c32a7b05819e3c64a1ffc30ad2336, for GNU/Linux 3.2.0, stripped
@@ -207,6 +218,7 @@
 ./x86_64/rush:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Sq77FQvGgWkeZUzug8HZ/ZT0vMVd_30sge7CnzdLA/xxunQxfZmwi1G-jmcf3n/4M-CdkOZgNGbTUaxE8_R, stripped
 ./x86_64/rustcan:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=8eaab622d5af9e1ca8c7d17664f5a3769b847644, for GNU/Linux 3.2.0, stripped
 ./x86_64/s3scanner:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=yvVArVpHhfAGhNd9qmhe/oBQUlTuhQ0ZcSwwX4vPh/QWFJNzINAEhTevoh7Uyc/QnjYDswXOevyhGAMiAKe, stripped
+./x86_64/scalar:                          ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=93c711fc13314f8f8514a2bdbc933e3dbdae372e, for GNU/Linux 3.2.0, stripped
 ./x86_64/scilla:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=T5kflQ6ZSB_VuiK66GBq/Ajz_IyEvX1zMjPUQR9qh/mPZRWxCDE3DI8SoGI9Tt/4bYwLu9fwpwxqaosKhgv, stripped
 ./x86_64/scopegen:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Wb68Bd5ohgq-ybysK7-P/ZkZ-aOkbuGnFxiOcC8PC/XeI3-ExWRlsZjVyDPo4s/b0PNRrRm0Lb9pOqpu5d1, stripped
 ./x86_64/scopeview:                       Bourne-Again shell script, ASCII text executable
@@ -223,6 +235,7 @@
 ./x86_64/socat:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./x86_64/speedtest-go:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=IouoXtQ_KN93kSWnYMAE/orzBacAWDQRRdmC8KXwO/Lsnn-9YAaLWQ297gbfvG/3xyD53pRLcIbTC15haLM, stripped
 ./x86_64/spk:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=SweCZX0qeDSY3GFtJniP/vAC8Z_nVPBvDI53D3Mhq/effQPKI6Hz1qMf_46BAj/rO_mJzXaiCsV7uUIBOWb, stripped
+./x86_64/spoof-dpi:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=XV_nNyziN2ceADFkad0g/hfGBFFvFTd5y6PP7UHVF/fLluA1AqcbS4AdtMkD7y/wGQL8nQllio1Cziox-jz, stripped
 ./x86_64/ssh:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./x86_64/ssh-add:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./x86_64/ssh-agent:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -239,6 +252,7 @@
 ./x86_64/subjs:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_RtC7GTauD1eiFlsvXhE/kUtE_FCisKJ3a-vbBxSQ/WNMCOL4RraJfu6N6dGuY/b6YjfeMOcdUsvgdWBepN, stripped
 ./x86_64/subxtract:                       Bourne-Again shell script, Unicode text, UTF-8 text executable
 ./x86_64/surf:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=80xuJ_iKzUUKIXAYB_8e/9NoNN9jvK33Nd6f66nhY/RNbXryonNI5IKYldjUF_/4gOJPyG_vcTTmB7N0H4t, stripped
+./x86_64/systemctl-tui:                   ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=aa96f41b326d729f23fb8837d0d4ab50f98d4ee5, for GNU/Linux 3.2.0, stripped
 ./x86_64/tahm:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=i9nd6aY8PZ_fbRw1yp-H/itGKZZK1lkVrLdev1Gbs/HuRbWeSp-0j6fai5RRWx/be3VWdZhKkQWppfp90rQ, stripped
 ./x86_64/tailscale:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ski7sRzaeH_dkXLOnZ1U/3ugwv5GK5lLqSBH2yMx5/uhNqRpzRq-zk6Xcu7xiv/chXH9kRX3McfOIktTmii, stripped
 ./x86_64/tailscale_merged:                ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=F6e4l_Yhizim3ADCmxAW/rVABocwZskzM2vwspoa8/udLSr3TcT4pNWm9rEHdm/oTDw5zJ5o6PDXwibEl4n, stripped
@@ -261,6 +275,7 @@
 ./x86_64/uncover:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=VmbSLYA2AN9V2_6Py7hO/9NcNfIuIa5PgSMmHCRJv/uzZ7qO9_B_lrSWgXMJdw/tYI1Abqir7oIovIFSGgs, stripped
 ./x86_64/unfurl:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=7leJcUtFYeWrPoXQZBLZ/VJxNzdZNNrZT1YiIlFJx/8xyy5manSuU7_8l5BcdB/ezy41s4xiWKhsxA1VjrM, stripped
 ./x86_64/upx:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header
+./x86_64/validtoml:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=fmEp8ZhHUI4aoOD0PQTA/0d36PZ8ghPTA1gbtlDFE/l4-iCdvolb1UXawJqZds/_aJxhiV9nymro58JyJf4, stripped
 ./x86_64/vhs:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=UdjpLpB-BgzaqZIar2SN/e8hpyNuOxbgCXDw-QpeP/F21xgIaaJQYvFckcBy3l/6E8rHrRY5hL0Tzix0pKv, stripped
 ./x86_64/viddy:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=YeetRW7wrwxVOvYofPZH/Um01vbmK9zVzhvyGthwh/7wxrLP32VWnfj2Ytc8gU/Dzmpj8EGor_C_iR8A5Le, stripped
 ./x86_64/viewgen_staticx:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -269,10 +284,14 @@
 ./x86_64/waybackrobots:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=eFq3MGcYRZOfp-1TmVjw/i4VbG5IFEpkX__aFQEyp/ioIdt5Vh0Oj9vmFAqceu/nOGWTO27ZcJpRN3riaIC, stripped
 ./x86_64/waybackurls:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_9csJHG8wpqdpEe5PH7c/M-p5my82iKxlX3sK-Cty/nyIQ7OS12ZFiQg0RlMiu/B3rFj1xk9uH3ZsPBZc6b, stripped
 ./x86_64/websocat:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=bf016ac4f5c8d693d5d0205ab4f8a12378ec6831, stripped
+./x86_64/wireguard-go:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_S937ytCcOpCPM7ItB-8/4uYzFm_A5PmWPkj-jJNo/DxY2WeHuyiGLCo-UCReg/Y8DkDiHDtKrjJiTYMPTQ, stripped
+./x86_64/wireguard-rs:                    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=51f851bbabc60df00bbb8d5d3b0433472a48522b, for GNU/Linux 3.2.0, stripped
+./x86_64/wireproxy:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=8bcqIjwA7AUKry4DvplO/JNvDtCS6h8i7sNMkLzqZ/rvwuPotiV6dyYgTaVx0U/igJpWS3cdraP8TOJk6Wt, stripped
 ./x86_64/x8:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=4d79a0ae581dfc0d3b540200e38106d9fe6fb72d, for GNU/Linux 3.2.0, stripped
 ./x86_64/xurls:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=D5khNmK75NM7aIRn106k/CbMzdgvhmEE_8vHa3eTF/7D3RV6H-yhnik7U4SR0Z/dCfkflyRzhnqcjGWIzgs, stripped
 ./x86_64/yalis:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=c9_tVaWFauLP9ssiuJay/_4wHzf9vVlb5e5610zGA/ZTqg7GB3uhIQhFPfltnq/744NqQxQSqQPU3EV7R5Z, stripped
 ./x86_64/yataf:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=-Juo1IlqpiZxr_jla9EE/cCMzu0FFFdk5Vnnu94kZ/6RqHLQjFtnnqQF0yyN3N/QeiZ0iEd6YAg4f8WQ3Jp, stripped
+./x86_64/yj:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=KZkF82-3kRAWuKg7LZyu/Y4cgV_Fty12jH_QYjIzm/4T3Pmdmjw59nVaROGym5/2uA_mAHbvdYsIfb-JsAQ, stripped
 ./x86_64/yq:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=C6IH49Tgtkb_ii26UIcu/OVcxVZEE9QLE0AhNBCwV/hRQ-25qW1EA27au10RM0/GC0YXwdF_68lWL4Yqp3l, stripped
 ./x86_64/zdns:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=I3RWamCi4VcO8HxfL-EM/gIkvwROLcVawhu0JFOnA/i8vzXEDjs9mO0MyhYXW6/dpa3UOKVP4WwPPSefVAz, stripped
 ./x86_64/zellij:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -283,7 +302,7 @@
 --> SHA256SUM
 b81c37aca9b7af945916d84235dcb27beaef519417130a594915b6583a5b1710  ./x86_64/7z
 f268137f654462192dfc5e3eabe061c61bc1143f4a29730da10fe43e2c6d23f0  ./x86_64/Gxss
-ecbe8b484bd2fb15be9b1890f2e1b764f646c9aea00266f7aa6e41cd5e8f890a  ./x86_64/README.md
+af0f223f375ec196bbca4410ea1c87145625aa7fd23ad445d72f529c457b36fd  ./x86_64/README.md
 f9cb8aa309946327c21a3f8e8e31922ea05647c9facf340dd92c8e796002276f  ./x86_64/Web-Cache-Vulnerability-Scanner
 9e5f30ae60b825e36c10be374c15c058b75a559c58dddae08b3cf1341e34252e  ./x86_64/agrind
 9b3a5c552206496f5d04221d21d1e6fdad78d57f8629bcb37c6a78ddf2455f6a  ./x86_64/airixss
@@ -306,6 +325,7 @@ ef8ee4472d51e861950e793ac102fcc7797cfed696d4e4f2ae88944a332c55a2  ./x86_64/binfe
 e977c3dc5e57f5f8b8d34cfe17c841116afca7d5cea1d73b2a03760b68e5db84  ./x86_64/binfetch.cfg
 4e8283020115f3b778b5d2615d991fa7f035ccb7fb7965324a492cc16d41af2e  ./x86_64/binocle
 9fa324a78b79efbac24872071059372daa992520e88436573a33eda359b21552  ./x86_64/bore
+be477099eb014b36dbb2e4fab5150119724103d7679e2bb3ed3ea1a28ce49e1e  ./x86_64/boringtun-cli
 7377300ec6829dd7d350cc973b75fd3de2ae0bea5cf18f931bc810b9c5260e4a  ./x86_64/bottom
 6f979c183508b8a176514e113d8277c1bf08b07b99e18a64aa6e87ad062744d2  ./x86_64/btop
 5fb10be3823cc4db1afbcf4fa1db09d37feca2705eb6ff7eda0b6e31cae81d7c  ./x86_64/bucketloot
@@ -338,6 +358,7 @@ de8c93c761a03e01c9e29a57b9c7ba5f1b123ba5c931e1e1b61e518386ae6b07  ./x86_64/dnsta
 0039cc394b6fb14749c46cb3b1c6072b4fb7465e993d4377e6ca9c7bb928ac7b  ./x86_64/dnsx
 06e6fd26e7696798e8a0d36540ec42fb356f084f3b6406907dede25f4cfb11a4  ./x86_64/doggo
 5221574e5dfa6aaf0b13cfa0ffcb1b93ae60c75123addaf528acea11b7ba2c29  ./x86_64/doomxss
+533d745b43bee34db174ede4b74d00c3b6bb1b42b15e5b65c75d32677514bd96  ./x86_64/dropbearmulti
 33cff0a79f6d6d203eda58389087f4889ef580d0748da872cf6abe4ca3b04d8a  ./x86_64/dsieve
 07e4c2fc6729470dd811e80ad0bd991d08102624f45a9e38f095a3f1981550c1  ./x86_64/duf
 9b9cfcb8ee840b76fcbdbb8dbbfbd15cf0880d67fecc2e263aa9dcd64ab712cb  ./x86_64/dust
@@ -374,10 +395,18 @@ ab7d464798154f12b6059e0bf4bf69c9d909c1b284531570db88e37452fb5057  ./x86_64/gdu
 33758d99b9ff528c5f484981f4aa0606b660a285aab5a07bd955cbbe59f49f91  ./x86_64/gf
 98284ff35849291b01dc52ab51ed3eb2ab3e74a22a2a8c600d213dff4b9c77fc  ./x86_64/gfx
 ed21dce3e77cd8ebccaa38a2cc2ee263357b7c167c8c3204127a6ef6fc923cc5  ./x86_64/gh
+bf4f454af9592a3cb97012ca45d0ac357bc10cce97d8487686cfb9f87c6974f3  ./x86_64/git
+3a48fcfc3305713f769f86f7c94a73cec7f2c0973c6b68f05b13ad9413755105  ./x86_64/git-cvsserver
+110e5c6dd89cc6e524e885c84bc3b253db1c011a86ab9b5b01ba83a2b7daaaca  ./x86_64/git-lfs
+bf4f454af9592a3cb97012ca45d0ac357bc10cce97d8487686cfb9f87c6974f3  ./x86_64/git-receive-pack
+7c739a2c0541f4cbfa268145ef14c4a4d7428dc2c74d85a3b7183d07a9cd4cd3  ./x86_64/git-shell
+bf4f454af9592a3cb97012ca45d0ac357bc10cce97d8487686cfb9f87c6974f3  ./x86_64/git-upload-archive
+bf4f454af9592a3cb97012ca45d0ac357bc10cce97d8487686cfb9f87c6974f3  ./x86_64/git-upload-pack
 898c16a61c336af0105c7addd1126eeefb9b9f876498e0d900b282fcd9968ced  ./x86_64/gitdorks_go
 09b23fb7d45fb6ccab6b3214636dbeaf5a9b7f907e13371f758dfa283d9439b6  ./x86_64/github-endpoints
 08f7ff317584d1fc09d0d2e38c1cb0858816e2428d81cea5bde7bb5f36b0a416  ./x86_64/github-regexp
 26c59e4ca901554b160ec6866db075c2862a97d306d5c3f17dac9c9dddb5c012  ./x86_64/github-subdomains
+b1b7371e31bf3be8a54a392f75ce06ab59beb104206366edc0d0d8fc0b3db17f  ./x86_64/gitk
 5c0edda716cd7988521cc0b0499066428fe232d76d36dcf2d762413ea264ab0a  ./x86_64/gitlab-subdomains
 82aec6cfe72d1f0c5524a679f5b2c7f161cf36d758fb63f51a41559b580437e0  ./x86_64/gitleaks
 183b4065b95835a201e5641d68e019ab690aa9b5a845589406b5c5c9f48b783a  ./x86_64/gitui
@@ -454,6 +483,7 @@ aec6c8eed0ef4b380b06e0608369e8a9e6cbc6c1a00bb9624d26acbb0cc79123  ./x86_64/noir
 b26807e906c8c7bc33c4429998ec253286d5bd2db8fd5d5fe1a1874dcf8981f5  ./x86_64/nrp
 7d334226a8b99c83ed084aca53db2057e8b0b05abce160bea214e46fb83cb168  ./x86_64/nuclei
 bd3546b569c9d50c9136a6da62294c6a4637f78fefe80dc85ed01128427f7910  ./x86_64/oha
+b64f79f9a7d717fc6728978851215bbe640ba09d74f8877c2b01bad81699c01b  ./x86_64/onetun
 80797f912a32a51ebd10d76c4f2b6718d422e1819f64367ef95f51d745f8adf0  ./x86_64/openrisk
 a904c2ef821f503e56577cedddb7b216245f161f1f16255a283136f186e0ff6e  ./x86_64/osmedeus
 3a050118d0bfe07b1b31efd44d3d4e16f7ed3161dce824d3d7607976ce4b2f17  ./x86_64/pathbuster
@@ -485,6 +515,7 @@ a4c24584d3f1bc8ba937bfe458b84b40f42c9378ddae908941d2e6d025aa66bb  ./x86_64/robox
 76573d36a80e580a2ea1cefc37bf4a8e3c34f0c002aafa98db8da4b7e2bb1241  ./x86_64/rush
 825c6842f4dadc1c4e31100e04271d70a517c1c4827d6ed598bddb2291393c07  ./x86_64/rustcan
 896c1168c7fdbac0a8197a0a6d0163014b04988ae30861760395e24d1b59dc02  ./x86_64/s3scanner
+f4db0ef7e8d5309d5a7cfd9e198d4dc5108ea57219029124f00599758df99a7a  ./x86_64/scalar
 0f51a08cbe9fdbaecccf3461256be6c808623e7dfe9c806f0c14b8d56b88e157  ./x86_64/scilla
 38b85b3b08721bd5b05417f0f7b4c7f22d21ea35a8abad6819ac981892782698  ./x86_64/scopegen
 91edb3c8bfc420d6ce1c7a5c05fb2bec8f59457e15dada31cf970e372a8a104e  ./x86_64/scopeview
@@ -501,6 +532,7 @@ e584a8a9157b4e2f3d8ea317cb2401fb72ac78f64cfdfc07f8c6ee66c3730876  ./x86_64/sns
 4c6be890bf2bdba6838ddcc110966f8ca76477048a0cbcf7bac0f60f3af80a94  ./x86_64/socat
 b5da48a328ca29e8f134a3dc767b456ffddb6418929dcebf8fb08347b9b7702c  ./x86_64/speedtest-go
 597ddb28f83bb6294178fadfa75d34b4344e367914e889786b77b08dd91a50d2  ./x86_64/spk
+bca4fb8e3a779ee38e9cdc85e22e123edca52e246772252f53335af53c52603b  ./x86_64/spoof-dpi
 b67e2f2ca7bb1743568acbd5fe7b82919925f767f46dc1bef091c59206ca2cb8  ./x86_64/ssh
 902f74f590b95bed07bf97e715795f8ed8111529963913db670f888aaed3d3b6  ./x86_64/ssh-add
 6dc7f4d28c6b97c2d5aa7ee20bd71c91a1c0e0424c6c2dab83d3ddf04de02fcc  ./x86_64/ssh-agent
@@ -517,6 +549,7 @@ f6c2fbaffc1fc3f4f426171d38091206ae1bcc2f8a2dff03cefa5f3519e55a72  ./x86_64/sshd_
 6a6d822f228f3de128a5372cd8476f19f068a1c0a2fad4bee589e5fbf3918ee0  ./x86_64/subjs
 838cd5429cf4601cde2713b2b6440832cc47c906af9ae15802c77c2bbcc57b1a  ./x86_64/subxtract
 729880e6f783364385d920d55958fc68d48253aeff2a6af57a6fb18e0cc583c8  ./x86_64/surf
+9b7ff5919ca67bbe76cadc8fecb49c9aeca95c5a8551ace426199ed200f91675  ./x86_64/systemctl-tui
 a6570d9918ba352336046de5a947cc23cf37f70d7eb0b8027fb3d9dcb73d65f9  ./x86_64/tahm
 18ac33212c435fe29be1557c690b4c93c0cb916964ff6cf645b4044633b25a15  ./x86_64/tailscale
 f1bfbe48ec0eaaed27fcc02f7f6d6c88a1dd5bc53f9a686755d0874be42dc6ce  ./x86_64/tailscale_merged
@@ -539,6 +572,7 @@ ef500e5bb2587ebea213c1103138a3693eb07cc3c325c9ac906391f02c3b3959  ./x86_64/twing
 78e9f59b9947afd5948296593c20ac7358c373a9aa5aaca95cb70e46c3f3b90a  ./x86_64/uncover
 6a2ff7ad3661f8626e1014fc35ea39865b0cd56ce27a164427142333f680c141  ./x86_64/unfurl
 e6d61dbe267ca09a44d41a2a5b85ea673ffbff20b62c6cc6d61b37b6c7f84a2d  ./x86_64/upx
+c7604497f9e483435d579eb2a8ce114e37ec99a5f73b0d51f91a484809d70385  ./x86_64/validtoml
 bb3790620a3b19b258ae0cc2d3031b037fe867576c7a41221446d14de34206ac  ./x86_64/vhs
 0c8215bf317f7a311c666322f30aa71ef2770adbf23336198e83afff477c18c6  ./x86_64/viddy
 f0372356bdc247eaf6af005b9702163c1a067edfa04fc56d489213d3557cbbcb  ./x86_64/viewgen_staticx
@@ -547,10 +581,14 @@ ee1af02cdf99fcd18ee4f18491b03907c3e8b3f5b974ccd4dbc3e92d7e4ea89e  ./x86_64/watch
 ad4b6ee7476b4ec08d7b29d9ba456e67b4de93a08f6132ebfc32c37ca0153ab8  ./x86_64/waybackrobots
 77b46e0c3faf91d726eb3740fc79c21a1df530d4df3585666a764126bb02bca0  ./x86_64/waybackurls
 c0d76f794e5652e4a3350084466a7f1de80591c0cb62a3ad29e022dbe0eef337  ./x86_64/websocat
+a4f6b9034c41a6ae29ac5d4ef7f2134a2df105699ea4735c9f86a14bf0d5bf2b  ./x86_64/wireguard-go
+37badbeac8989344cf44b13e4644b385f2f5c2a37139e4b411d1b3e9131ac230  ./x86_64/wireguard-rs
+e1b3c2b7f7776149fe172b7355f3e5888c85ccc1b79a500350231de1a26378b7  ./x86_64/wireproxy
 ecefb0fcf7216c5b103b25c19daa2a5f4f0725d9471a5b75fa5cfc9745a39d85  ./x86_64/x8
 b1994f472712f639cfa1f1644649f066a804387ddc35a6e708f86b2b5364b6d7  ./x86_64/xurls
 6b04a14252c0ca79f3f681f4739b0a90efaf2c52092ca4975e34f5e13207308c  ./x86_64/yalis
 fea88662ca6b0ab90ff15ab8df4fb806d8e134a04c5960a3eaf3107fe955111e  ./x86_64/yataf
+97427e3b27b17fe030f198cbfcf0df9b4bbd09bc292fceca72e2669efb5724ee  ./x86_64/yj
 c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 1e4f06c36bde0379f916261f61e7d57a50468c7aed0054607cd081109f65a45e  ./x86_64/zdns
 44ef361b8e5fbabfa4e08eaf7bcc5d92c4881511b66b5fc8716f60ab62fddbdf  ./x86_64/zellij
@@ -567,7 +605,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 ```console
 3.5M  ./x86_64/7z
 4.7M  ./x86_64/Gxss
-74K   ./x86_64/README.md
+80K   ./x86_64/README.md
 5.5M  ./x86_64/Web-Cache-Vulnerability-Scanner
 8.6M  ./x86_64/agrind
 4.7M  ./x86_64/airixss
@@ -590,6 +628,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 257   ./x86_64/binfetch.cfg
 9.3M  ./x86_64/binocle
 1.5M  ./x86_64/bore
+2.4M  ./x86_64/boringtun-cli
 4.6M  ./x86_64/bottom
 2.5M  ./x86_64/btop
 11M   ./x86_64/bucketloot
@@ -622,6 +661,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 24M   ./x86_64/dnsx
 9.4M  ./x86_64/doggo
 4.1M  ./x86_64/doomxss
+1.8M  ./x86_64/dropbearmulti
 2.6M  ./x86_64/dsieve
 2.1M  ./x86_64/duf
 2.3M  ./x86_64/dust
@@ -658,10 +698,18 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 1.9M  ./x86_64/gf
 5.9M  ./x86_64/gfx
 42M   ./x86_64/gh
+5.8M  ./x86_64/git
+160K  ./x86_64/git-cvsserver
+11M   ./x86_64/git-lfs
+5.8M  ./x86_64/git-receive-pack
+3.9M  ./x86_64/git-shell
+5.8M  ./x86_64/git-upload-archive
+5.8M  ./x86_64/git-upload-pack
 5.2M  ./x86_64/gitdorks_go
 5.1M  ./x86_64/github-endpoints
 5.0M  ./x86_64/github-regexp
 5.1M  ./x86_64/github-subdomains
+393K  ./x86_64/gitk
 5.1M  ./x86_64/gitlab-subdomains
 6.6M  ./x86_64/gitleaks
 11M   ./x86_64/gitui
@@ -738,6 +786,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 4.1M  ./x86_64/nrp
 69M   ./x86_64/nuclei
 2.8M  ./x86_64/oha
+3.9M  ./x86_64/onetun
 8.7M  ./x86_64/openrisk
 28M   ./x86_64/osmedeus
 5.8M  ./x86_64/pathbuster
@@ -769,6 +818,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 7.0M  ./x86_64/rush
 5.1M  ./x86_64/rustcan
 20M   ./x86_64/s3scanner
+4.0M  ./x86_64/scalar
 12M   ./x86_64/scilla
 1.4M  ./x86_64/scopegen
 2.8K  ./x86_64/scopeview
@@ -785,6 +835,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 3.1M  ./x86_64/socat
 6.6M  ./x86_64/speedtest-go
 6.6M  ./x86_64/spk
+5.0M  ./x86_64/spoof-dpi
 4.5M  ./x86_64/ssh
 4.1M  ./x86_64/ssh-add
 4.0M  ./x86_64/ssh-agent
@@ -801,6 +852,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 5.0M  ./x86_64/subjs
 3.8K  ./x86_64/subxtract
 33M   ./x86_64/surf
+5.9M  ./x86_64/systemctl-tui
 4.2M  ./x86_64/tahm
 11M   ./x86_64/tailscale
 22M   ./x86_64/tailscale_merged
@@ -823,6 +875,7 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 24M   ./x86_64/uncover
 4.9M  ./x86_64/unfurl
 550K  ./x86_64/upx
+3.8M  ./x86_64/validtoml
 24M   ./x86_64/vhs
 8.0M  ./x86_64/viddy
 8.5M  ./x86_64/viewgen_staticx
@@ -831,10 +884,14 @@ c89901e42855c184f9efffb7fbb78e60e2af47b27c518a1fe6f53e79cdf2ee95  ./x86_64/yq
 5.4M  ./x86_64/waybackrobots
 4.8M  ./x86_64/waybackurls
 6.7M  ./x86_64/websocat
+2.7M  ./x86_64/wireguard-go
+2.7M  ./x86_64/wireguard-rs
+6.0M  ./x86_64/wireproxy
 8.4M  ./x86_64/x8
 4.8M  ./x86_64/xurls
 6.3M  ./x86_64/yalis
 4.7M  ./x86_64/yataf
+3.2M  ./x86_64/yj
 9.3M  ./x86_64/yq
 8.5M  ./x86_64/zdns
 30M   ./x86_64/zellij
