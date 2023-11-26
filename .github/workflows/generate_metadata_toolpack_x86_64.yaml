@@ -1,0 +1,87 @@
+name: 🛍️ MetaData for (toolpack_x86_64) Package 📦🗄️
+#MAX_RUNTIME:  
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
+  
+env:
+  GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
+  
+jobs:
+#------------------------------------------------------------------------------------#
+  gen-meta-linux-x86_64:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+        
+      - name: Install Addons
+        run: |
+          set +e
+          #eget
+          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
+          sudo mv ./eget* "/usr/local/bin/eget"
+          sudo chmod +xwr "/usr/local/bin/eget"
+        continue-on-error: true
+
+      - name: Setup Env
+        run: |
+          # Create Output Dir
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64"
+
+      - name: Update README.md
+        run: |
+           set -x ; set +e
+           cd "$GITHUB_WORKSPACE/main"
+           cat ./x86_64/INFO.md > ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md 
+           echo '---' >> ./x86_64/README.md
+           echo '```console' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo -e "--> METATDATA" >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ "; file ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo -e "--> SHA256SUM" >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ ";sha256sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
+           echo -e '```\n' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo '---' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo '- #### Sizes' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo '```console' >> ./x86_64/README.md    
+           /bin/bash -c 'PS4="$ ";ls -lh ./x86_64/* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> ./x86_64/README.md
+           echo -e "\n[+] Total Size: $(du -h ./x86_64 | awk '{print $1}')\n"
+           echo '```' >> ./x86_64/README.md     
+           echo -e "" >> ./x86_64/README.md        
+           echo '---' >> ./x86_64/README.md 
+           echo -e "" >> ./x86_64/README.md 
+        continue-on-error: true
+
+      - name: Git Pull
+        run: |
+           cd "$GITHUB_WORKSPACE/main" && git pull origin main
+        continue-on-error: true
+
+      - name: Get DateTime
+        run: |
+          # Date Time
+          NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')
+          echo "NEPALI_TIME=$NEPALI_TIME" >> $GITHUB_ENV
+          
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main        
+          commit_user_name: Azathothas # defaults to "github-actions[bot]"
+          commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "✅ 🛍️ Generated Metadata for (toolpack_x86_64) Package 📦🗄️ <-- ${{ env.NEPALI_TIME }} ⌚"
+          #push_options: '--force'          
+
+#------------------------------------------------------------------------------------#
