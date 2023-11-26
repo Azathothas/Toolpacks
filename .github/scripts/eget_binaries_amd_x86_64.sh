@@ -135,6 +135,9 @@ fi
   #atuin: Sync Shell History
   eget "atuinsh/atuin" --asset "unknown-linux-musl" --to "$HOME/bin/atuin"
   #---------------#
+  #b3sum : the official Rust and C implementations of the BLAKE3 cryptographic hash function
+  eget "BLAKE3-team/BLAKE3" --asset "b3sum" --asset "linux" --asset "64" --asset "^arm" --asset "^sha" --to "$HOME/bin/b3sum"
+  #---------------#
   #batcat: cat with colors & syntax highlights 
   eget "sharkdp/bat" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/bat" && ln -s "$HOME/bin/bat" "$HOME/bin/batcat"
   #---------------#
