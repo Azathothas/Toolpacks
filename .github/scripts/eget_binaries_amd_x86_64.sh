@@ -146,6 +146,9 @@ fi
   CGO_ENABLED=1 go build -v -ldflags="-s -w -extldflags '-static'" "./go/cmd/berty"
   mv "./berty" "$HOME/bin/berty" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #Bandwhich : Terminal bandwidth utilization tool
+  eget "imsnif/bandwhich" --asset "linux" --asset "64" --asset "musl" --asset "^arm" --asset "^sha" --to "$HOME/bin/bandwhich"
+  #---------------#
   #binfetch : neofetch for binaries   
   pushd "$(mktemp -d)" && git clone "https://github.com/Im-0xea/binfetch" && cd "./binfetch"
   #Install Deps
@@ -159,6 +162,13 @@ fi
   #mkdir -p "$HOME/.config/binfetch" && curl -qfsSL "https://raw.githubusercontent.com/Im-0xea/binfetch/main/cfg/binfetch.cfg" -o "$HOME/.config/binfetch/binfetch.cfg"
   #mkdir -p "$HOME/.config/binfetch" && curl -qfsSL "https://raw.githubusercontent.com/Im-0xea/binfetch/main/cfg/emby.cfg" -o "$HOME/.config/binfetch/binfetch.cfg"
   #mkdir -p "$HOME/.config/binfetch" && curl -qfsSL "https://raw.githubusercontent.com/Im-0xea/binfetch/main/cfg/rainbow.cfg" -o "$HOME/.config/binfetch/binfetch.cfg"
+  #---------------#
+  #BinGrep :  like ~~grep~~ UBER, but for binaries 
+  pushd "$(mktemp -d)" && git clone "https://github.com/m4b/bingrep" && cd "./bingrep"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/bingrep" "$HOMR/bin/bingrep" 
   #---------------#
   #binocle : a graphical tool to visualize binary data 
   eget "sharkdp/binocle" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/binocle"
@@ -250,6 +260,13 @@ fi
   #---------------#
   #containerd : An open and reliable container runtime
   eget "containerd/containerd" --asset "linux" --asset "static" --asset "amd" --asset "64" --asset "^sha256sum" --to "$HOME/bin/containerd"
+  #---------------#
+  # Cross-platform Rust rewrite of the GNU coreutils 
+  pushd "$(mktemp -d)" && git clone "https://github.com/uutils/coreutils" && cd "./coreutils"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --features unix --release ; mv "./target/$TARGET/release/coreutils" "$HOMR/bin/coreutils"
   #---------------#
   #cowtiness : mimic an HTTP server and a DNS server, providing complete responses
   pushd "$(mktemp -d)" && git clone "https://github.com/stolenusername/cowitness" && cd "./cowitness"
@@ -365,6 +382,16 @@ fi
   #This is Dynamic
   eget "fastfetch-cli/fastfetch" --asset "Linux" --asset "tar.gz" --to "$HOME/bin/fastfetch"
   #---------------#
+  #fblog : Small command-line JSON Log viewer
+  pushd "$(mktemp -d)" && git clone "https://github.com/brocode/fblog" && cd "./fblog"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/fblog" "$HOMR/bin/fblog"
+  #---------------#
+  #fclones : Efficient Duplicate File Finder 
+  eget "pkolaczk/fclones" --asset "linux" --asset "musl" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sha" --to "$HOME/bin/fclones"
+  #---------------#
   #fd : A simple, fast and user-friendly alternative to 'find'
   eget "sharkdp/fd" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "tar.gz" --to "$HOME/bin/fd"
   #---------------#
@@ -397,6 +424,15 @@ fi
   #---------------#
   #filebrowser : 📂 Web File Browser
   eget "filebrowser/filebrowser" --asset "linux" --asset "amd" --asset "64" --to "$HOME/bin/filebrowser"
+  #---------------#
+  #findutils : Rust implementation of findutils 
+  pushd "$(mktemp -d)" && git clone "https://github.com/uutils/findutils" && cd "./findutils"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release
+  mv "./target/$TARGET/release/find" "$HOMR/bin/find"
+  mv "./target/$TARGET/release/xargs" "$HOMR/bin/xargs"
   #---------------#
   #fuzzuli : URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
   pushd "$(mktemp -d)" && git clone "https://github.com/musana/fuzzuli" && cd "./fuzzuli"
@@ -438,19 +474,33 @@ fi
   eget "cli/cli" --asset "linux_amd64.tar.gz" --to "$HOME/bin/gh"
   #---------------#
   #git
-  # requires additional binaries
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "gitk_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/gitk"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_cvsserver_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-cvsserver"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_lfs_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-lfs"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_receive_pack_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-receive-pack"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_shell_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-shell"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_upload_archive_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-upload-archive"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_upload_pack_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-upload-pack"
-  eget "Azathothas/static-toolbox" --tag "git" --asset "scalar_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/scalar"
+  ## Too much of a headache, a zillion binaries and all of them require custom config.
+  # Use: jj git --> https://github.com/martinvonz/jj
+  #    : gix --> https://github.com/Byron/gitoxide
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "git_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "gitk_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/gitk"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "git_cvsserver_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-cvsserver"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "git_lfs_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-lfs"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "git_receive_pack_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-receive-pack"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "git_shell_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-shell"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "git_upload_archive_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-upload-archive"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "git_upload_pack_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-upload-pack"
+  # eget "Azathothas/static-toolbox" --tag "git" --asset "scalar_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/scalar"
   #---------------#
   #git-cliff : A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
   eget "orhun/git-cliff" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "git-cliff" --to "$HOME/bin/git-cliff"
+  #---------------#
+  #go-git : A highly extensible Git implementation in pure Go. 
+  pushd "$(mktemp -d)" && git clone "https://github.com/go-git/go-git" && cd "./go-git"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; mv "./git-clone" "$HOME/bin/git-clone"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; mv "./git-checkout" "$HOME/bin/git-checkout"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; mv "./git-pull" "$HOME/bin/git-pull"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-log" "./_examples/log" ; mv "./git-log" "$HOME/bin/git-log"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; mv "./git-tag" "$HOME/bin/git-tag"
+  popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  # git-lfs : Git extension for versioning large files 
+  eget "git-lfs/git-lfs" --asset "linux" --asset "64" --asset "^arm" --file "git-lfs" --to "$HOME/bin/git-lfs"
   #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
   pushd "$(mktemp -d)" && git clone "https://github.com/damit5/gitdorks_go" && cd "./gitdorks_go"
@@ -477,6 +527,15 @@ fi
   #---------------#
   #gitui : Blazing 💥 fast terminal-ui for git written in rust 🦀
   eget "extrawurst/gitui" --asset "gitui-linux-musl.tar.gz" --to "$HOME/bin/gitui"
+  #---------------#
+  #gix : An idiomatic, lean, fast & safe pure Rust implementation of Git
+  pushd "$(mktemp -d)" && git clone "https://github.com/Byron/gitoxide" && cd "./gitoxide"
+  export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
+  echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release
+  mv "./target/$TARGET/release/ein" "$HOMR/bin/ein"
+  mv "./target/$TARGET/release/gix" "$HOMR/bin/gix"
   #---------------#
   #glow : Render markdown on the CLI
   eget "charmbracelet/glow" --asset "Linux" --asset "x86_64" --asset "^sbom" --to "$HOME/bin/glow"
@@ -597,6 +656,11 @@ fi
   #httpx : httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes
   eget "projectdiscovery/httpx" --asset "amd64" --asset "linux" --to "$HOME/bin/httpx"
   #---------------#
+  #Hub : A command-line tool that makes git easier to use with GitHub.
+  pushd "$(mktemp -d)" && git clone "https://github.com/mislav/hub" && cd "./hub"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./hub" "$HOME/bin/hub" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #hyperfine : A command-line benchmarking tool
   eget "sharkdp/hyperfine" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/hyperfine"
   #---------------#
@@ -659,6 +723,8 @@ fi
   #pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/katana" && cd katana
   #CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./katana" "./cmd/katana" ; mv "./katana" "$HOME/bin/katana" ; popd
   #---------------#
+  #kondo : Cleans dependencies and build artifacts from your projects.
+  eget "tbillington/kondo" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --to "$HOME/bin/kondo"
   #ksubdomain : Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second
   eget "boy-hack/ksubdomain" --asset "linux.tar" --to "$HOME/bin/ksubdomain"
   staticx --loglevel DEBUG "$HOME/bin/ksubdomain" --strip "$HOME/bin/ksubdomain_staticx"
@@ -668,6 +734,9 @@ fi
   #---------------#
   #lazydocker : The lazier way to manage everything docker 
   eget "jesseduffield/lazydocker" --asset "Linux" --asset "x86_64" --to "$HOME/bin/lazydocker"
+  #---------------#
+  # lazygit : simple terminal UI for git commands
+  eget "jesseduffield/lazygit" --asset "Linux" --asset "64" --asset "^arm" --file "lazygit" --to "$HOME/bin/lazygit"
   #---------------#
   #linuxwave : Generate music from the entropy of Linux 🐧🎵
   eget "orhun/linuxwave" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --asset "^mac" --file "linuxwave" --to "$HOME/bin/linuxwave"
@@ -817,6 +886,9 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./osmedeus" "$HOME/bin/osmedeus" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #ouch : Painless compression and decompression in the terminal
+  eget "ouch-org/ouch" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "tar.gz" --asset "^arm" --file "ouch" --to "$HOME/bin/ouch"
+  #---------------#
   #pathbuster : A path-normalization pentesting tool
   eget "ethicalhackingplayground/pathbuster" --asset "^exe" --to "$HOME/bin/pathbuster"
   #---------------#
@@ -857,6 +929,8 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/qsreplace" && cd "./qsreplace"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #qsv : CSVs sliced, diced & analyzed.
+  eget "jqnatividad/qsv" --asset "linux" --asset "64" --asset "musl" --asset "^arm" --asset "^sha" --asset "^sig" --file "qsv" --to "$HOME/bin/qsv"
   #runst : A dead simple notification daemon 🦡 
   ##Fails
   #pushd "$(mktemp -d)" && git clone "https://github.com/orhun/runst" && cd "./runst"
