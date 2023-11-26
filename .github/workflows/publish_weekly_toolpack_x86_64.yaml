@@ -162,8 +162,7 @@ jobs:
            /bin/bash -c 'PS4="$ "; file ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
            echo -e "--> BLAKE3SUM" >> ./x86_64/README.md
-           /bin/bash -c 'PS4="$ ";b3sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
-           echo -e '```\n' >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ ";b3sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
            echo -e "--> SHA256SUM" >> ./x86_64/README.md
            /bin/bash -c 'PS4="$ ";sha256sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
