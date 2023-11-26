@@ -436,7 +436,15 @@ fi
   #---------------#
   #git
   # requires additional binaries
-  eget "Azathothas/static-toolbox" --tag "git" --asset "git_binaries_amd_x86_64_Linux.tar.gz" --all --to "$HOME/bin/"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "gitk_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/gitk"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_cvsserver_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-cvsserver"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_lfs_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-lfs"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_receive_pack_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-receive-pack"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_shell_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-shell"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_upload_archive_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-upload-archive"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "git_upload_pack_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/git-upload-pack"
+  eget "Azathothas/static-toolbox" --tag "git" --asset "scalar_amd_x86_64_Linux" --asset "^tar.gz" --to "$HOME/bin/scalar"
   #---------------#
   #git-cliff : A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
   eget "orhun/git-cliff" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "git-cliff" --to "$HOME/bin/git-cliff"
