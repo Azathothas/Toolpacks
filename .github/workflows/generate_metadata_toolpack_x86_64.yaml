@@ -25,6 +25,8 @@ jobs:
       - name: Install Addons
         run: |
           set +e
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
           curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
           sudo mv ./eget* "/usr/local/bin/eget"
@@ -47,6 +49,10 @@ jobs:
            echo -e "" >> ./x86_64/README.md
            echo -e "--> METATDATA" >> ./x86_64/README.md
            /bin/bash -c 'PS4="$ "; file ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo -e "--> BLAKE3SUM" >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ ";b3sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
+           echo -e '```\n' >> ./x86_64/README.md
            echo -e "" >> ./x86_64/README.md
            echo -e "--> SHA256SUM" >> ./x86_64/README.md
            /bin/bash -c 'PS4="$ ";sha256sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md   
