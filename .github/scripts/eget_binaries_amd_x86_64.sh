@@ -597,6 +597,9 @@ fi
   #hyperfine : A command-line benchmarking tool
   eget "sharkdp/hyperfine" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/hyperfine"
   #---------------#
+  #hysp : 📦 An independent package manager that every hacker deserves.
+  eget "pwnwriter/hysp" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "hysp" --to "$HOME/bin/hysp"
+  #---------------#
   #inscope : filtering URLs and domains supplied on stdin to make sure they meet one of a set of regular expressions
   pushd "$(mktemp -d)" && mkdir inscope && cd "./inscope"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/main.go"
