@@ -168,7 +168,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/bingrep" "$HOMR/bin/bingrep" 
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/bingrep" "$HOME/bin/bingrep" 
   #---------------#
   #binocle : a graphical tool to visualize binary data 
   eget "sharkdp/binocle" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/binocle"
@@ -178,7 +178,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/boltconn" "$HOMR/bin/boltconn"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/boltconn" "$HOME/bin/boltconn"
   #---------------#
   #bore : ngrok alternative for making tunnels to localhost 
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/bore/bore_amd_x86_64_musl_Linux" --to "$HOME/bin/bore"
@@ -192,7 +192,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --bin "boringtun-cli" --target "$TARGET" --release ; mv "./target/$TARGET/release/boringtun-cli" "$HOMR/bin/boringtun-cli"
+  cargo build --bin "boringtun-cli" --target "$TARGET" --release ; mv "./target/$TARGET/release/boringtun-cli" "$HOME/bin/boringtun-cli"
   #---------------#
   #btop : htop clone | A monitor of resources 
   pushd "$(mktemp -d)" && curl -qfsSL $(curl -s "https://api.github.com/repos/aristocratos/btop/actions/artifacts" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" && unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
@@ -235,7 +235,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/cherrybomb" "$HOMR/bin/cherrybomb"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/cherrybomb" "$HOME/bin/cherrybomb"
   #---------------#
   #chaos : cli for Chaos DB API
   eget "projectdiscovery/chaos-client" --asset "amd64" --asset "linux" --to "$HOME/bin/chaos-client"
@@ -266,7 +266,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --features unix --release ; mv "./target/$TARGET/release/coreutils" "$HOMR/bin/coreutils"
+  cargo build --target "$TARGET" --features unix --release ; mv "./target/$TARGET/release/coreutils" "$HOME/bin/coreutils"
   #---------------#
   #cowtiness : mimic an HTTP server and a DNS server, providing complete responses
   pushd "$(mktemp -d)" && git clone "https://github.com/stolenusername/cowitness" && cd "./cowitness"
@@ -313,7 +313,7 @@ fi
   #   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   #   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   #   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  #   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/daktilo" "$HOMR/bin/daktilo"
+  #   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/daktilo" "$HOME/bin/daktilo"
   #---------------#
   #dalfox : 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation. 
   eget "hahwul/dalfox" --asset "amd64" --to "$HOME/bin/dalfox"
@@ -327,7 +327,7 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/scullionw/dirstat-rs" && cd "./dirstat-rs"
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ds" "$HOMR/bin/ds" ; popd
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ds" "$HOME/bin/ds" ; popd
   #---------------#
   #dns-doctor : Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems
   pushd "$(mktemp -d)" && git clone "https://github.com/jvns/dns-doctor" && cd "./dns-doctor"
@@ -387,7 +387,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/fblog" "$HOMR/bin/fblog"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/fblog" "$HOME/bin/fblog"
   #---------------#
   #fclones : Efficient Duplicate File Finder 
   eget "pkolaczk/fclones" --asset "linux" --asset "musl" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sha" --to "$HOME/bin/fclones"
@@ -431,8 +431,8 @@ fi
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release
-  mv "./target/$TARGET/release/find" "$HOMR/bin/find"
-  mv "./target/$TARGET/release/xargs" "$HOMR/bin/xargs"
+  mv "./target/$TARGET/release/find" "$HOME/bin/find"
+  mv "./target/$TARGET/release/xargs" "$HOME/bin/xargs"
   #---------------#
   #fuzzuli : URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
   pushd "$(mktemp -d)" && git clone "https://github.com/musana/fuzzuli" && cd "./fuzzuli"
@@ -534,8 +534,8 @@ fi
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release
-  mv "./target/$TARGET/release/ein" "$HOMR/bin/ein"
-  mv "./target/$TARGET/release/gix" "$HOMR/bin/gix"
+  mv "./target/$TARGET/release/ein" "$HOME/bin/ein"
+  mv "./target/$TARGET/release/gix" "$HOME/bin/gix"
   #---------------#
   #glow : Render markdown on the CLI
   eget "charmbracelet/glow" --asset "Linux" --asset "x86_64" --asset "^sbom" --to "$HOME/bin/glow"
@@ -562,7 +562,7 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/d4rckh/gorilla" && cd "./gorilla"
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/gorilla" "$HOMR/bin/gorilla" ; popd
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/gorilla" "$HOME/bin/gorilla" ; popd
   #---------------#
   #gost : GO Simple Tunnel - a simple tunnel written in golang
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/gost/gost_amd_x86_64_Linux" --to "$HOME/bin/gost"
@@ -586,7 +586,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/gpg-tui" "$HOMR/bin/gpg-tui"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/gpg-tui" "$HOME/bin/gpg-tui"
   #---------------#
   #GRPCurl : Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers 
   pushd "$(mktemp -d)" && git clone "https://github.com/fullstorydev/grpcurl" && cd "./grpcurl"
@@ -635,7 +635,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET"
   export RUSTFLAGS="-C target-feature=+crt-static" ; sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/hrekt" "$HOMR/bin/hrekt" ; popd
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/hrekt" "$HOME/bin/hrekt" ; popd
   #---------------#
   #hxn : ⚡ Blazing-fast tool to grab screenshots of your domain list right from terminal
   eget "pwnwriter/haylxon" --asset "linux" --asset "musl" --asset "^.sha512" --to "$HOME/bin/hxn" && ln -s "$HOME/bin/hxn" "$HOME/bin/haylxon"
@@ -647,7 +647,7 @@ fi
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release
   file "./target/$TARGET/release/htmlq" ; ldd "./target/$TARGET/release/htmlq" ; ls "./target/$TARGET/release/htmlq" -lah
-  mv "./target/$TARGET/release/htmlq" "$HOMR/bin/htmlq" ; popd
+  mv "./target/$TARGET/release/htmlq" "$HOME/bin/htmlq" ; popd
   #---------------#
   #httprobe : Take a list of domains and probe for working HTTP and HTTPS servers
   pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/httprobe" && cd "./httprobe"
@@ -786,7 +786,7 @@ fi
   #export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   #sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  #cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/menyoki" "$HOMR/bin/menyoki"
+  #cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/menyoki" "$HOME/bin/menyoki"
   #---------------#
   #mergerfs : A featureful union filesystem 
   eget "trapexit/mergerfs" --asset "amd64" --asset "static" --to "$HOME/bin/mergerfs"
@@ -872,7 +872,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/onetun" "$HOMR/bin/onetun"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/onetun" "$HOME/bin/onetun"
   #---------------#
   #openrisk : Generates a risk score based on the results of a Nuclei scan
   #eget "projectdiscovery/openrisk" --asset "amd64" --asset "linux" --to "$HOME/bin/openrisk"
@@ -938,7 +938,7 @@ fi
   #export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   #sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  #cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/runst" "$HOMR/bin/runst"
+  #cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/runst" "$HOME/bin/runst"
   #---------------#
   #rate-limit-checker : Check whether the domain has a rate limit enabled
   pushd "$(mktemp -d)" && mkdir rate-limit-checker && cd "./rate-limit-checker"
@@ -964,7 +964,7 @@ fi
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
   cd /tmp && git clone "https://github.com/root4loot/rescope" && cd "./rescope"
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./rescope" "$HOMR/bin/rescope" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./rescope" "$HOME/bin/rescope" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #resDNS : Wrapper around [dnsx + puredns + shuffledns] for Efficient DNS Resolution
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/resdns/resdns.sh" --to "$HOME/bin/resdns"
@@ -1161,7 +1161,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/systemctl-tui" "$HOMR/bin/systemctl-tui"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/systemctl-tui" "$HOME/bin/systemctl-tui"
   #---------------#
   #systeroid : A more powerful alternative to sysctl(8) with a terminal user interface 🐧 
   eget "orhun/systeroid" --asset "linux" --asset "64" --asset "musl" --asset "all" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "systeroid" --to "$HOME/bin/systeroid"
@@ -1291,7 +1291,7 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/wireguard-rs" "$HOMR/bin/wireguard-rs"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/wireguard-rs" "$HOME/bin/wireguard-rs"
   #---------------#
   #WireProxy : Wireguard client that exposes itself as a socks5 proxy
   eget "pufferffish/wireproxy" --asset "linux" --asset "^arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/wireproxy"
@@ -1303,7 +1303,7 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/magic-wormhole/magic-wormhole.rs" && cd "./magic-wormhole.rs"
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/wormhole-rs" "$HOMR/bin/wormhole-rs" ; popd
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/wormhole-rs" "$HOME/bin/wormhole-rs" ; popd
   #---------------#
   #x8 : Hidden parameters discovery suite 
   eget "Sh1Yo/x8" --asset "linux" --to "$HOME/bin/x8"
@@ -1316,7 +1316,7 @@ fi
   # echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   # cargo build --target "$TARGET" --release
   # file "./target/$TARGET/release/x8" ; ldd "./target/$TARGET/release/x8" ; ls "./target/$TARGET/release/x8" -lah
-  # mv "./target/$TARGET/release/x8" "$HOMR/bin/x8"
+  # mv "./target/$TARGET/release/x8" "$HOME/bin/x8"
   # popd
   #---------------#
   #xurls : Extract urls from text 
