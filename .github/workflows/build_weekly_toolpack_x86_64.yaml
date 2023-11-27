@@ -20,8 +20,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          path: 'main'
-          filter: 'blob:none' #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+          path: "main"
+          #Doesn't seem to do anything
+          #filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
           
       - name: Debloat Runner
         run: |
