@@ -195,8 +195,8 @@ fi
   cargo build --bin "boringtun-cli" --target "$TARGET" --release ; mv "./target/$TARGET/release/boringtun-cli" "$HOME/bin/boringtun-cli"
   #---------------#
   #btop : htop clone | A monitor of resources 
-  pushd "$(mktemp -d)" && curl -qfsSL $(curl -s "https://api.github.com/repos/aristocratos/btop/actions/artifacts" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" && unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
-  go clean -cache -fuzzcache -modcache -testcache
+  pushd "$(mktemp -d)" && curl -qfsSL $(curl -qfsSL "https://api.github.com/repos/aristocratos/btop/actions/artifacts?per_page=100" -H "Authorization: Bearer $GITHUB_TOKEN" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" 
+  unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
   #---------------#
   #BucketLoot : Automated S3-compatible bucket inspector
   pushd "$(mktemp -d)" && git clone "https://github.com/redhuntlabs/BucketLoot" && cd "./BucketLoot"
