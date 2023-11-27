@@ -416,8 +416,8 @@ fi
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release
-  mv "./target/$TARGET/release/find" "$HOME/bin/find"
-  mv "./target/$TARGET/release/xargs" "$HOME/bin/xargs"
+  mv "./target/$TARGET/release/find" "$HOME/bin/find-rs"
+  mv "./target/$TARGET/release/xargs" "$HOME/bin/xargs-rs"
   #---------------#
   #fuzzuli : URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
   pushd "$(mktemp -d)" && git clone "https://github.com/musana/fuzzuli" && cd "./fuzzuli"
