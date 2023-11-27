@@ -91,6 +91,9 @@ jobs:
       - name: Install Addons
         run: |
           set +e
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
           curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
           sudo mv ./eget* "/usr/local/bin/eget"
