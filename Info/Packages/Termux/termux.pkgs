@@ -226,7 +226,7 @@
 | **cloneit** | 20221024-1 | A cli tool to download specific GitHub directories or files | https://github.com/alok8bb/cloneit |
 | **cloudflared** | 2023.10.0 | A tunneling daemon that proxies traffic from the Cloudflare network to your origins | https://github.com/cloudflare/cloudflared |
 | **clpeak** | 1.1.2-3 | A tool which profiles OpenCL devices to find their peak capacities | https://github.com/krrishnarraj/clpeak |
-| **clvk** | 0.0.20231113.173330 | Experimental implementation of OpenCL on Vulkan | https://github.com/kpet/clvk |
+| **clvk** | 0.0.20231115.213741 | Experimental implementation of OpenCL on Vulkan | https://github.com/kpet/clvk |
 | **cmake** | 3.27.8 | Family of tools designed to build, test and package software | https://cmake.org/ |
 | **cmake-curses-gui** | 3.27.8 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
 | **cmark** | 0.30.3 | CommonMark parsing and rendering program | https://github.com/commonmark/cmark |
@@ -381,7 +381,7 @@
 | **enscript** | 1.6.6-12 | Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes | https://www.gnu.org/software/enscript/ |
 | **entr** | 5.5 | Event Notify Test Runner - run arbitrary commands when files change | http://eradman.com/entrproject/ |
 | **erlang** | 26.1.2 | General-purpose concurrent functional programming language | https://www.erlang.org/ |
-| **esbuild** | 0.19.7 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
+| **esbuild** | 0.19.8 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
 | **espeak** | 1.51-1 | Compact software speech synthesizer | https://github.com/espeak-ng/espeak-ng |
 | **espeak-static** | 1.51-1 | Static libraries for espeak | https://github.com/espeak-ng/espeak-ng |
 | **et** | 6.2.8-2 | A remote shell that automatically reconnects without interrupting the session | https://eternalterminal.dev |
