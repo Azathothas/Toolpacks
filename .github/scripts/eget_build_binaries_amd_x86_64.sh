@@ -261,7 +261,7 @@ fi
   #containerd : An open and reliable container runtime
   eget "containerd/containerd" --asset "linux" --asset "static" --asset "amd" --asset "64" --asset "^sha256sum" --to "$HOME/bin/containerd"
   #---------------#
-  # Cross-platform Rust rewrite of the GNU coreutils 
+  # coreutils : Cross-platform Rust rewrite of the GNU coreutils 
   pushd "$(mktemp -d)" && git clone "https://github.com/uutils/coreutils" && cd "./coreutils"
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
@@ -375,8 +375,8 @@ fi
   #enumerepo : List all public repositories for (valid) GitHub usernames
   eget "trickest/enumerepo" --asset "amd64" --to "$HOME/bin/enumerepo"
   #---------------#
-  #exa : A modern replacement for ‘ls’. 
-  eget "ogham/exa" --asset "linux" --asset "musl" --asset "x86" --asset "64" --to "$HOME/bin/exa"
+  #eza : A modern replacement for ‘ls’. (Fork of exa)
+  eget "eza-community/eza" --asset "linux" --asset "musl" --asset "x86" --asset "64" --to "$HOME/bin/eza"
   #---------------#
   #fastfetch : Like neofetch, but much faster because written in C.
   #This is Dynamic
@@ -431,8 +431,8 @@ fi
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release
-  mv "./target/$TARGET/release/find" "$HOME/bin/find"
-  mv "./target/$TARGET/release/xargs" "$HOME/bin/xargs"
+  mv "./target/$TARGET/release/find" "$HOME/bin/find-rs"
+  mv "./target/$TARGET/release/xargs" "$HOME/bin/xargs-rs"
   #---------------#
   #fuzzuli : URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
   pushd "$(mktemp -d)" && git clone "https://github.com/musana/fuzzuli" && cd "./fuzzuli"
@@ -595,7 +595,7 @@ fi
   #---------------#
   #Gxss : A tool to check a bunch of URLs that contain reflecting params
   pushd "$(mktemp -d)" && git clone "https://github.com/KathanP19/Gxss" && cd Gxss
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/Gxss" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/gxss" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hacker-scoper : Automagically filter URLs with Bug Bounty program scope rules scraped from the internet
   pushd "$(mktemp -d)" && git clone "https://github.com/ItsIgnacioPortal/hacker-scoper" && cd "./hacker-scoper"
@@ -1174,7 +1174,7 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/bensadeh/tailspin" && cd "./tailspin"
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/spin" "$HOME/bin/tailspin" ; popd
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/tspin" "$HOME/bin/tailspin" ; popd
   #---------------#
   #tcpdump : data-network packet analyzer
   eget "Azathothas/static-toolbox" --tag "tcpdump" --asset "x86_64" --to "$HOME/bin/tcpdump"
@@ -1276,7 +1276,7 @@ fi
   #---------------#
   #Web-Cache-Vulnerability-Scanner : CLI tool for testing for web cache poisoning
   pushd "$(mktemp -d)" && git clone "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner" && cd "./Web-Cache-Vulnerability-Scanner"
-  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/Web-Cache-Vulnerability-Scanner" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/web-cache-vulnerability-scanner" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #WebSocat : netcat (or curl) for ws:// with advanced socat-like functions
   eget "vi/websocat" --asset "x86_64-unknown-linux-musl" --asset "max" --to "$HOME/bin/websocat"
