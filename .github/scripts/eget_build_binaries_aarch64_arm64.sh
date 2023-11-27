@@ -176,8 +176,8 @@ fi
   cross build --bin "boringtun-cli" --target "$TARGET" --release ; mv "./target/$TARGET/release/boringtun-cli" "$HOME/bin/boringtun-cli"
   #---------------#
   #btop : htop clone | A monitor of resources 
-  pushd "$(mktemp -d)" && curl -qfsSL $(curl -s "https://api.github.com/repos/aristocratos/btop/actions/artifacts" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" && unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
-  go clean -cache -fuzzcache -modcache -testcache
+  pushd "$(mktemp -d)" && curl -qfsSL $(curl -qfsSL "https://api.github.com/repos/aristocratos/btop/actions/artifacts?per_page=100" -H "Authorization: Bearer $GITHUB_TOKEN" | jq -r '[.artifacts[] | select(.name =="btop-aarch64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip"  
+  unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
   #---------------#
   #BucketLoot : Automated S3-compatible bucket inspector
   pushd "$(mktemp -d)" && git clone "https://github.com/redhuntlabs/BucketLoot" && cd "./BucketLoot"
@@ -344,6 +344,9 @@ fi
   find . -type f -name '*.zip*' -exec unzip -o {} \;
   find . -type f -name '*.md' -exec rm {} \;
   mv "$(find . -type d -name '*aarch64*' -name '*linux*' -name '*musl*')/dysk" "$HOME/bin/dysk" ; popd
+  #---------------#
+  #eget : Easily install prebuilt binaries from GitHub. 
+  eget "zyedidia/eget" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --asset "^86" --to "$HOME/bin/eget"
   #---------------#
   #encode : Encode|Decode input from stdin
   pushd "$(mktemp -d)" && git clone "https://github.com/Brum3ns/encode" && cd "./encode"
@@ -872,17 +875,6 @@ fi
   #rclone : rsync for cloud storage
   eget "rclone/rclone" --asset "arm" --asset "64" --asset "linux" --asset "^amd" --asset "zip" --to "$HOME/bin/rclone"
   #---------------#
-  #recollapse : Helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications
-  pushd "$(mktemp -d)" && git clone "https://github.com/0xacb/recollapse" && cd "./recollapse"
-  pip install --upgrade -r requirements.txt ; mv "./recollapse" "./recollapse.py"
-  pyinstaller --clean "./recollapse.py" --noconfirm ; pyinstaller --strip --onefile "./recollapse.py" --noconfirm
-  staticx --loglevel DEBUG "./dist/recollapse" --strip "$HOME/bin/recollapse_staticx" ; popd
-  #---------------#
-  #reptyr : Reparent a running program to a new terminal 
-  pushd "$(mktemp -d)" && git clone "https://github.com/nelhage/reptyr" && cd "./reptyr"
-  make CFLAGS="-MD -Wall -Werror -D_GNU_SOURCE -g -static $CFLAGS" LDFLAGS="-static $LDFLAGS" all
-  strip "./reptyr" ; mv "./reptyr" "$HOME/bin/reptyr" ; popd
-  #---------------#
   #rescope : A scope generation tool for Burp Suite & ZAP
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
@@ -1065,7 +1057,7 @@ fi
   eget "abhimanyu003/sttr" --asset "arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/sttr"
   #---------------#
   #strace : diagnostic, debugging and instructional userspace utility for Linux 
-  eget "Azathothas/static-toolbox" --tag "strace" --asset "arm" --asset "64" --to "$HOME/bin/strace"
+  eget "Azathothas/static-toolbox" --tag "strace" --asset "aarch" --asset "64" --to "$HOME/bin/strace"
   #---------------#
   #subfinder : Fast passive subdomain enumeration tool
   eget "projectdiscovery/subfinder" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/subfinder"
@@ -1159,12 +1151,6 @@ fi
   #---------------#
   #vhs: CLI home video recorder 📼 
   eget "charmbracelet/vhs" --asset "Linux" --asset "arm" --asset "64" --asset "^sbom" --asset "vhs" --to "$HOME/bin/vhs"
-  #---------------#
-  #viewgen : ViewState tool capable of generating both signed and encrypted payloads with leaked validation keys
-  pushd "$(mktemp -d)" && git clone "https://github.com/0xacb/viewgen" && cd "./viewgen"
-  pip install --upgrade -r requirements.txt ; mv "./viewgen" "./viewgen.py"
-  pyinstaller --clean "./viewgen.py" --noconfirm ; pyinstaller --strip --onefile "./viewgen.py" --noconfirm
-  staticx --loglevel DEBUG "./dist/viewgen" --strip "$HOME/bin/viewgen_staticx" ; popd
   #---------------#
   #viddy : 👀 A modern watch command. Time machine and pager etc. 
   eget "sachaos/viddy" --asset "Linux" --asset "arm" --asset "64" --to "$HOME/bin/viddy"
