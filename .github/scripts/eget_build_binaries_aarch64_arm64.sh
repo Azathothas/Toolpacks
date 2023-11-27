@@ -566,7 +566,7 @@ fi
   #---------------#
   #Gxss : A tool to check a bunch of URLs that contain reflecting params
   pushd "$(mktemp -d)" && git clone "https://github.com/KathanP19/Gxss" && cd Gxss
-  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/Gxss" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/gxss" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hacker-scoper : Automagically filter URLs with Bug Bounty program scope rules scraped from the internet
   pushd "$(mktemp -d)" && git clone "https://github.com/ItsIgnacioPortal/hacker-scoper" && cd "./hacker-scoper"
@@ -1100,7 +1100,7 @@ fi
   pushd "$(mktemp -d)" && git clone "https://github.com/bensadeh/tailspin" && cd "./tailspin"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/spin" "$HOME/bin/tailspin" ; popd
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/tspin" "$HOME/bin/tailspin" ; popd
   #---------------#
   #tere : Terminal Dir Navigator
   eget "mgunyho/tere" --asset "^x86" --asset "aarch" --asset "64" --asset "musl" --asset "zip" --to "$HOME/bin/tere"
@@ -1196,7 +1196,7 @@ fi
   #---------------#
   #Web-Cache-Vulnerability-Scanner : CLI tool for testing for web cache poisoning
   pushd "$(mktemp -d)" && git clone "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner" && cd "./Web-Cache-Vulnerability-Scanner"
-  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/Web-Cache-Vulnerability-Scanner" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/web-cache-vulnerability-scanner" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #WebSocat : netcat (or curl) for ws:// with advanced socat-like functions
   eget "vi/websocat" --asset "^86" --asset "64" --asset "linux" --asset "musl" --asset "aarch" --asset "max" --to "$HOME/bin/websocat"
