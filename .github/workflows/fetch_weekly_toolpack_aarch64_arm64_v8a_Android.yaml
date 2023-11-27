@@ -1,4 +1,4 @@
-name: 🛍️ Fetch ⚙️ Weekly 📱 (aarch64_arm64_v8a_Android) Package 📦🗄️
+name: 🛍️ Fetch | Build ⚙️ Weekly 📱 (aarch64_arm64_v8a_Android) Package 📦🗄️
 #MAX_RUNTIME:  
 on:
   workflow_dispatch:
@@ -809,5 +809,5 @@ jobs:
           repository: ./main        
           commit_user_name: Azathothas # defaults to "github-actions[bot]"
           commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
-          commit_message: "✅ 🛍️ Fetch ⚙️ Weekly (aarch64_arm64_v8a_Android) Package 📦🗄️ <-- ${{ env.NEPALI_TIME }} ⌚"
+          commit_message: "✅ 🛍️ Fetch | Build ⚙️ Weekly (aarch64_arm64_v8a_Android) Package 📦🗄️ <-- ${{ env.NEPALI_TIME }} ⌚"
           #push_options: '--force'
