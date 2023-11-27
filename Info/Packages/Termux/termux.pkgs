@@ -302,7 +302,7 @@
 | **dialog-static** | 1.3-20230209-0 | Static libraries for dialog | https://invisible-island.net/dialog/ |
 | **dictd** | 1.13.1 | Online dictionary client and server | https://sourceforge.net/projects/dict/ |
 | **diffstat** | 1.65-1 | Displays a histogram of changes to a file | https://invisible-island.net/diffstat/diffstat.html |
-| **difftastic** | 0.52.0 | difft: A structural diff that understands syntax | https://github.com/Wilfred/difftastic |
+| **difftastic** | 0.53.1 | difft: A structural diff that understands syntax | https://github.com/Wilfred/difftastic |
 | **diffutils** | 3.10 | Programs (cmp, diff, diff3 and sdiff) related to finding differences between files | https://www.gnu.org/software/diffutils/ |
 | **dirb** | 2.22-4 | Web Directory Fuzzer | http://dirb.sourceforge.net/ |
 | **direnv** | 2.32.3-1 | Environment switcher for shell | https://github.com/direnv/direnv |
@@ -529,8 +529,8 @@
 | **glib-cross** | 2.78.1-1 | glib for host (NOT for Termux) | https://developer.gnome.org/glib/ |
 | **glib-networking** | 2.78.0 | Network-related giomodules for glib | https://gitlab.gnome.org/GNOME/glib-networking |
 | **glm** | 0.9.9.8 | C++ mathematics library for graphics software based on the GLSL specifications | https://glm.g-truc.net/ |
-| **global** | 6.6.10 | Source code search and browse tools | https://www.gnu.org/software/global/ |
-| **global-static** | 6.6.10 | Static libraries for global | https://www.gnu.org/software/global/ |
+| **global** | 6.6.11 | Source code search and browse tools | https://www.gnu.org/software/global/ |
+| **global-static** | 6.6.11 | Static libraries for global | https://www.gnu.org/software/global/ |
 | **glow** | 1.5.1-1 | Render markdown on the CLI, with pizzazz! | https://github.com/charmbracelet/glow |
 | **glpk** | 5.0-1 | GNU Linear Programming Kit: solve LP, MIP and other problems | https://www.gnu.org/software/glpk/ |
 | **glpk-static** | 5.0-1 | Static libraries for glpk | https://www.gnu.org/software/glpk/ |
@@ -891,8 +891,8 @@
 | **libdav1d** | 1.3.0 | AV1 cross-platform decoder focused on speed and correctness | https://code.videolan.org/videolan/dav1d/ |
 | **libdb** | 18.1.40-4 | The Berkeley DB embedded database system (library) | https://www.oracle.com/database/berkeley-db |
 | **libdb-static** | 18.1.40-4 | Static libraries for libdb | https://www.oracle.com/database/berkeley-db |
-| **libde265** | 1.0.12 | H.265/HEVC video stream decoder library | https://github.com/strukturag/libde265 |
-| **libde265-static** | 1.0.12 | Static libraries for libde265 | https://github.com/strukturag/libde265 |
+| **libde265** | 1.0.14 | H.265/HEVC video stream decoder library | https://github.com/strukturag/libde265 |
+| **libde265-static** | 1.0.14 | Static libraries for libde265 | https://github.com/strukturag/libde265 |
 | **libdebuginfod** | 0.190 | Library for debuginfod | https://sourceware.org/elfutils/ |
 | **libdeflate** | 1.19 | C library for fast compression and decompression | https://github.com/ebiggers/libdeflate |
 | **libdeflate-static** | 1.19 | Static libraries for libdeflate | https://github.com/ebiggers/libdeflate |
@@ -985,8 +985,8 @@
 | **libgsf** | 1.14.50-1 | The G Structured File Library | https://gitlab.gnome.org/GNOME/libgsf |
 | **libgsf-static** | 1.14.50-1 | Static libraries for libgsf | https://gitlab.gnome.org/GNOME/libgsf |
 | **libgxps** | 0.3.2-2 | handling and rendering XPS documents | https://wiki.gnome.org/libgxps |
-| **libhdf5** | 1.14.2 | Hierarchical Data Format 5 (HDF5) | https://portal.hdfgroup.org/display/support |
-| **libhdf5-static** | 1.14.2 | Static libraries for libhdf5 | https://portal.hdfgroup.org/display/support |
+| **libhdf5** | 1.14.3 | Hierarchical Data Format 5 (HDF5) | https://portal.hdfgroup.org/display/support |
+| **libhdf5-static** | 1.14.3 | Static libraries for libhdf5 | https://portal.hdfgroup.org/display/support |
 | **libheif** | 1.17.5 | HEIF (HEIC/AVIF) image encoding and decoding library | https://github.com/strukturag/libheif |
 | **libheif-progs** | 1.17.5 | Programs for manipulating HEIF (HEIC/AVIF) image files | https://github.com/strukturag/libheif |
 | **libheif-static** | 1.15.2 | Static libraries for libheif | https://github.com/strukturag/libheif |
@@ -1161,7 +1161,7 @@
 | **libogg-static** | 1.3.5 | Static libraries for libogg | https://xiph.org/ogg/ |
 | **liboggz** | 1.1.1-5 | Command and library to inspect, tweak, edit and validate Ogg files | https://www.xiph.org/oggz/ |
 | **liboggz-static** | 1.1.1-5 | Static libraries for liboggz | https://www.xiph.org/oggz/ |
-| **libolm** | 3.2.15 | An implementation of the Double Ratchet cryptographic ratchet | https://matrix.org/docs/projects/other/olm/ |
+| **libolm** | 3.2.16 | An implementation of the Double Ratchet cryptographic ratchet | https://matrix.org/docs/projects/other/olm/ |
 | **libopenblas** | 0.3.25 | An optimized BLAS library based on GotoBLAS2 1.13 BSD | https://www.openblas.net |
 | **libopencc** | 1.1.7 | An opensource project for conversions between Traditional Chinese, Simplified Chinese and Japanese Kanji (Shinjitai) | https://github.com/BYVoid/OpenCC |
 | **libopencore-amr** | 0.1.6 | Open source implementation of the Adaptive Multi Rate (AMR) speech codec | https://sourceforge.net/projects/opencore-amr |
@@ -1198,6 +1198,7 @@
 | **libpipeline-static** | 1.5.7 | Static libraries for libpipeline | http://libpipeline.nongnu.org/ |
 | **libpixman** | 0.42.2 | Low-level library for pixel manipulation | http://www.pixman.org/ |
 | **libpixman-static** | 0.42.2 | Static libraries for libpixman | http://www.pixman.org/ |
+| **libplacebo** | 6.338.1 | Reusable library for GPU-accelerated video/image rendering | http://libplacebo.org/ |
 | **libplist** | 2.3.0 | A small portable C library to handle Apple Property List files in binary or XML format | https://libimobiledevice.org |
 | **libplist-static** | 2.3.0 | Static libraries for libplist | https://libimobiledevice.org |
 | **libpng** | 1.6.40 | Official PNG reference library | http://www.libpng.org/pub/png/libpng.html |
@@ -1637,7 +1638,7 @@
 | **mpdscribble** | 0.24-1 | A Music Player Daemon (MPD) client which submits information about tracks being played to a scrobbler | https://www.musicpd.org/clients/mpdscribble/ |
 | **mpg123** | 1.32.3 | Fast console MPEG Audio Player and decoder library | https://mpg123.org/ |
 | **mpg123-static** | 1.32.3 | Static libraries for mpg123 | https://mpg123.org/ |
-| **mpv** | 0.36.0 | Command-line media player | https://mpv.io/ |
+| **mpv** | 0.37.0 | Command-line media player | https://mpv.io/ |
 | **mruby** | 3.2.0 | Lightweight implementation of the Ruby language | https://mruby.org/ |
 | **mruby-static** | 3.2.0 | Static libraries for mruby | https://mruby.org/ |
 | **msmtp** | 1.8.25 | Lightweight SMTP client | https://marlam.de/msmtp/ |
@@ -1862,7 +1863,7 @@
 | **pingme** | 0.2.5-3 | A small utility which can be called from anywhere to send a message with particular information | https://github.com/kha7iq/pingme |
 | **pipebuffer** | 0.0.git20211120 | Arbitrary-sized in-memory buffer between pipelined programs (non-blocking mbuffer analogue for pipeline) | https://github.com/tfenne/pipebuffer |
 | **pipes.sh** | 2018.04.22 | Animated pipes terminal screensaver | https://github.com/pipeseroni/pipes.sh |
-| **pipewire** | 0.3.85 | A server and user space API to deal with multimedia pipelines | https://pipewire.org/ |
+| **pipewire** | 1.0.0 | A server and user space API to deal with multimedia pipelines | https://pipewire.org/ |
 | **pkg-config** | 0.29.2-2 | Helper tool used when compiling applications and libraries | https://www.freedesktop.org/wiki/Software/pkg-config/ |
 | **pkgfile** | 21 | An alpm .files metadata explorer | https://github.com/falconindy/pkgfile |
 | **pkgtop** | 2.5.1 | Interactive package manager and resource monitor | https://github.com/orhun/pkgtop |
@@ -2001,7 +2002,7 @@
 | **ravencoin** | 4.6.1-4 | A peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another | https://ravencoin.org/ |
 | **ravencoin-static** | 4.6.1-4 | Static libraries for ravencoin | https://ravencoin.org/ |
 | **rbw** | 1.8.3 | An unofficial command line client for Bitwarden | https://github.com/doy/rbw |
-| **rclone** | 1.64.2 | rsync for cloud storage | https://rclone.org/ |
+| **rclone** | 1.65.0 | rsync for cloud storage | https://rclone.org/ |
 | **rcm** | 1.3.6 | Dotfiles management | https://github.com/thoughtbot/rcm |
 | **rcs** | 5.10.1 | The GNU Revision Control System | https://www.gnu.org/s/rcs |
 | **rcshell** | 1.7.4-4 | An alternative implementation of the plan 9 rc shell | http://tobold.org/article/rc |
