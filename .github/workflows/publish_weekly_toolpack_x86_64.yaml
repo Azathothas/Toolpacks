@@ -51,6 +51,18 @@ jobs:
           set +e
           cargo install cross --git "https://github.com/cross-rs/cross"
         continue-on-error: true
+
+    ##Needed until gh runners updates go version: https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md
+    ## It helps to be on bleeding edge anyway
+      - name: Install/Update golang
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+          source "$HOME/.bashrc"
+          go version
+        continue-on-error: true
         
       - name: Install Addons
         run: |
@@ -110,7 +122,7 @@ jobs:
       - name: Download || Build Binaries
         run: |
           eget --rate
-          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/eget_binaries_amd_x86_64.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/eget_build_binaries_amd_x86_64.sh")
         continue-on-error: true
         
       - name: Strip || Cleanup
