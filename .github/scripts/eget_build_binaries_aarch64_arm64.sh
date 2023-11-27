@@ -1112,17 +1112,16 @@ fi
   eget "XAMPPRocky/tokei" --asset "aarch" --asset "64" --asset "^amd" --to "$HOME/bin/tokei"
   #---------------#
   #toybox : minimal busybox
-  eget "https://github.com/Azathothas/Static-Binaries/raw/main/toybox/toybox_aarch64_arm64_Linux" --to "$HOME/bin/toybox"
+  eget "https://github.com/Azathothas/Static-Binaries/raw/main/toybox/toybox_arm64_aarch64_Linux" --to "$HOME/bin/toybox"
   #---------------#
   #trufflehog : Find and verify credentials
   eget "trufflesecurity/trufflehog" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/trufflehog"
   #---------------#
   #twingate : programmatically deploy and maintain a zero trust approach to infrastructures
-  eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_client_aarch64_arm64_staticx_Linux" --to "$HOME/bin/twingate-client"
+  eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_client_aarch64_arm64_dynamic_Linux" --to "$HOME/bin/twingate-client"
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connector_aarch64_arm64_dynamic_Linux" --to "$HOME/bin/twingate-connector"
-  eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connector_aarch64_arm64_staticx_Linux" --to "$HOME/bin/twingate-connector-staticx"
-  eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connectorctl_aarch64_arm64_staticx_Linux" --to "$HOME/bin/twingate-connectorctl"
-  eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_notifier_aarch64_arm64_staticx_Linux" --to "$HOME/bin/twingate-notifier"
+  eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connectorctl_aarch64_arm64_dynamic_Linux" --to "$HOME/bin/twingate-connectorctl"
+  eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_notifier_aarch64_arm64_dynamic_Linux" --to "$HOME/bin/twingate-notifier"
   #---------------#
   #udpx : a single-packet UDP port scanner
   pushd "$(mktemp -d)" && git clone "https://github.com/nullt3r/udpx" && cd "./udpx"
