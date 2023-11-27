@@ -689,6 +689,9 @@ fi
   eget "kellyjonbrazil/jc" --asset "linux" --asset "x86" --asset "64" --asset "tar.gz" --to "$HOME/bin/jc"
   staticx --loglevel DEBUG "$HOME/bin/jc" --strip "$HOME/bin/jc_staticx"
   #---------------#
+  # jj : A Git-compatible DVCS that is both simple and powerful
+  eget "martinvonz/jj" --asset "linux" --asset "x86" --asset "64" --asset "musl" --asset "gz" --to "$HOME/bin/jj"
+  #---------------#
   #jless : jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data
   pushd "$(mktemp -d)" && git clone "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET"
