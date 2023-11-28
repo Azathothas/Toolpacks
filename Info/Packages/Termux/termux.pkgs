@@ -66,7 +66,7 @@
 | **asciidoctor** | 2.0.20 | An implementation of AsciiDoc in Ruby | https://asciidoctor.org/ |
 | **asciinema** | 2.4.0 | Record and share your terminal sessions, the right way | https://asciinema.org/ |
 | **aspell** | 0.60.8-3 | A free and open source spell checker designed to replace Ispell | http://aspell.net |
-| **aspell-de** | 1:20161207-1 | German dictionary for aspell | http://aspell.net/ |
+| **aspell-de** | 1:20161207.7.0 | German dictionary for aspell | http://aspell.net/ |
 | **aspell-en** | 1:2020.12.07 | English dictionary for aspell | http://aspell.net/ |
 | **aspell-es** | 2:1.11-2-0 | Spanish dictionary for aspell | http://aspell.net/ |
 | **aspell-fr** | 2:0.50-3-1 | French dictionary for aspell | http://aspell.net/ |
@@ -500,7 +500,7 @@
 | **gflags** | 2.2.2-9 | A C++ library that implements commandline flags processing | https://github.com/gflags/gflags |
 | **gflags-static** | 2.2.2-9 | Static libraries for gflags | https://github.com/gflags/gflags |
 | **gforth** | 0.7.3-1 | The Forth implementation of the GNU project | https://www.gnu.org/software/gforth/ |
-| **gh** | 2.39.1 | GitHub’s official command line tool | https://cli.github.com/ |
+| **gh** | 2.39.2 | GitHub’s official command line tool | https://cli.github.com/ |
 | **ghc** | 9.2.5-1 | The Glasgow Haskell Compiler | https://www.haskell.org/ghc/ |
 | **ghc-libs** | 9.2.5-1 | The Glasgow Haskell Compiler libraries | https://www.haskell.org/ghc/ |
 | **ghc-libs-static** | 8.10.7-3 | Static libraries for ghc-libs | https://www.haskell.org/ghc/ |
@@ -599,7 +599,7 @@
 | **groovy** | 4.0.15 | A powerful multi-faceted programming language for the JVM platform | https://groovy-lang.org/ |
 | **grv** | 0.3.2-3 | A terminal based interface for viewing Git repositories | https://github.com/rgburke/grv |
 | **gsasl** | 2.2.0 | GNU SASL library command line interface | https://www.gnu.org/software/gsasl |
-| **gsf-tools** | 1.14.50-1 | Command-line tools for libgsf | https://gitlab.gnome.org/GNOME/libgsf |
+| **gsf-tools** | 1.14.51 | Command-line tools for libgsf | https://gitlab.gnome.org/GNOME/libgsf |
 | **gsl** | 2.7.1 | GNU Scientific Library (GSL) providing a wide range of mathematical routines | https://www.gnu.org/software/gsl/ |
 | **gsl-static** | 2.7.1 | Static libraries for gsl | https://www.gnu.org/software/gsl/ |
 | **gst-libav** | 1.22.7 | GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code | https://gstreamer.freedesktop.org/modules/gst-libav.html |
@@ -615,7 +615,7 @@
 | **guile-static** | 3.0.9-2 | Static libraries for guile | http://www.gnu.org/software/guile/ |
 | **guile18** | 1.8.8-16 | Portable, embeddable Scheme implementation written in C. (legacy branch) | http://www.gnu.org/software/guile/ |
 | **guile18-static** | 1.8.8-16 | Static libraries for guile18 | http://www.gnu.org/software/guile/ |
-| **gum** | 0.11.0-1 | A tool for creating minimal interactive TUIs for shell scripts | https://github.com/charmbracelet/gum |
+| **gum** | 0.12.0 | A tool for creating minimal interactive TUIs for shell scripts | https://github.com/charmbracelet/gum |
 | **gumbo-parser** | 0.10.1 | An HTML5 parsing library | https://github.com/google/gumbo-parser |
 | **gumbo-parser-static** | 0.10.1 | Static libraries for gumbo-parser | https://github.com/google/gumbo-parser |
 | **gzip** | 1.13 | Standard GNU file compression utilities | https://www.gnu.org/software/gzip/ |
@@ -672,7 +672,7 @@
 | **hz** | 0.7.2 | A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices | https://www.cloudwego.io |
 | **i2pd** | 2.49.0-1 | A full-featured C++ implementation of the I2P router | https://i2pd.website/ |
 | **i2pd-static** | 2.49.0-1 | Static libraries for i2pd | https://i2pd.website/ |
-| **icecast** | 2.4.4-4 | Icecast is a streaming media (audio/video) server | https://icecast.org |
+| **icecast** | 2.4.4-5 | Icecast is a streaming media (audio/video) server | https://icecast.org |
 | **ices** | 2.0.3 | IceS is a source client for the Icecast streaming server. | https://icecast.org/ices/ |
 | **iconv** | 1.17 | Utility converting between different character encodings | https://www.gnu.org/software/libiconv/ |
 | **icoutils** | 0.32.3 | Extracts and converts images in MS Windows(R) icon and cursor files. | https://www.nongnu.org/icoutils/ |
@@ -982,8 +982,8 @@
 | **libgrpc** | 1.60.0-pre1-0 | High performance, open source, general RPC framework that puts mobile and HTTP/2 first | https://grpc.io/ |
 | **libgsasl** | 2.2.0 | GNU SASL library | https://www.gnu.org/software/gsasl |
 | **libgsasl-static** | 2.2.0 | Static libraries for libgsasl | https://www.gnu.org/software/gsasl |
-| **libgsf** | 1.14.50-1 | The G Structured File Library | https://gitlab.gnome.org/GNOME/libgsf |
-| **libgsf-static** | 1.14.50-1 | Static libraries for libgsf | https://gitlab.gnome.org/GNOME/libgsf |
+| **libgsf** | 1.14.51 | The G Structured File Library | https://gitlab.gnome.org/GNOME/libgsf |
+| **libgsf-static** | 1.14.51 | Static libraries for libgsf | https://gitlab.gnome.org/GNOME/libgsf |
 | **libgxps** | 0.3.2-2 | handling and rendering XPS documents | https://wiki.gnome.org/libgxps |
 | **libhdf5** | 1.14.3 | Hierarchical Data Format 5 (HDF5) | https://portal.hdfgroup.org/display/support |
 | **libhdf5-static** | 1.14.3 | Static libraries for libhdf5 | https://portal.hdfgroup.org/display/support |
@@ -1578,6 +1578,7 @@
 | **mdbtools-static** | 1.0.0-2 | Static libraries for mdbtools | https://github.com/mdbtools/mdbtools |
 | **mdns-scan** | 0.5-2 | A tool for scanning for mDNS/DNS-SD services published on the local network | https://github.com/alteholz/mdns-scan |
 | **mdp** | 1.0.15-2 | Command-line based markdown presentation tool | https://github.com/visit1985/mdp |
+| **media-types** | 10.1.0-1 | List of standard media types and their usual file extension | https://pagure.io/mailcap |
 | **mediainfo** | 23.10 | Command-line utility for reading information from media files | https://mediaarea.net/en/MediaInfo |
 | **megacmd** | 1.6.3-1 | Provides non UI access to MEGA services | https://mega.io/ |
 | **megatools** | 1.11.1.20230212 | Open-source command line tools and C library (libmega) for accessing Mega.co.nz cloud storage | https://megatools.megous.com/ |
@@ -1651,7 +1652,7 @@
 | **mupdf-static** | 1.23.6 | Static libraries for mupdf | https://mupdf.com/ |
 | **mupdf-tools** | 1.23.6 | Lightweight PDF and XPS viewer (utilities) | https://mupdf.com/ |
 | **music-file-organizer** | 1.0.4-1 | Organizer of audio files into directories based on metadata tags | https://git.zx2c4.com/music-file-organizer/about/ |
-| **mutt** | 2.2.12 | Mail client with patches from neomutt | http://www.mutt.org/ |
+| **mutt** | 2.2.12-1 | Mail client with patches from neomutt | http://www.mutt.org/ |
 | **myman** | 0.7.1-6 | Video game for color and monochrome text terminals in the genre of Namco's Pac-Man | https://sourceforge.net/projects/myman/ |
 | **mympd** | 13.0.5 | A standalone and lightweight web-based MPD client | https://jcorporation.github.io/myMPD/ |
 | **mypaint-brushes** | 2.0.2 | MyPaint brushes | https://github.com/mypaint/mypaint-brushes |
@@ -1721,8 +1722,8 @@
 | **notcurses-tools** | 3.0.9-1 | Tools and demos for notcurses | https://notcurses.com/ |
 | **notmuch** | 0.38.1 | Thread-based email index, search and tagging system | https://notmuchmail.org |
 | **npush** | 0.7-1 | Curses-based logic game similar to Sokoban and Boulder Dash | http://npush.sourceforge.net/ |
-| **nsis** | 3.08-6 | A professional open source system to create Windows installers | https://sourceforge.net/projects/nsis/ |
-| **nsis-stubs** | 3.08-6 | NSIS Stubs | https://sourceforge.net/projects/nsis/ |
+| **nsis** | 3.09 | A professional open source system to create Windows installers | https://sourceforge.net/projects/nsis/ |
+| **nsis-stubs** | 3.09 | NSIS Stubs | https://sourceforge.net/projects/nsis/ |
 | **nsnake** | 3.0.1-6 | The classic snake game with textual interface | https://github.com/alexdantas/nSnake |
 | **nss-utils** | 3.94 | Tools for NSS | https://firefox-source-docs.mozilla.org/security/nss/ |
 | **nudoku** | 2.1.0 | ncurses based sudoku game | http://jubalh.github.io/nudoku/ |
@@ -1919,7 +1920,7 @@
 | **pulseaudio-glib-static** | 14.2-10 | Static library for PulseAudio GLIB mainloop component | https://www.freedesktop.org/wiki/Software/PulseAudio |
 | **pup** | 0.4.0-5 | command line tool for processing HTML | https://github.com/ericchiang/pup |
 | **pure-ftpd** | 1.0.51 | Pure-FTPd is a free (BSD), secure, production-quality and standard-conformant FTP server | https://www.pureftpd.org/project/pure-ftpd |
-| **pv** | 1.7.24 | Terminal-based tool for monitoring the progress of data through a pipeline | http://www.ivarch.com/programs/pv.shtml |
+| **pv** | 1.8.5 | Terminal-based tool for monitoring the progress of data through a pipeline | http://www.ivarch.com/programs/pv.shtml |
 | **pwgen** | 2.08-1 | Password generator which by default, unless given the '-s' option, generates memorable but insecure passwords | http://pwgen.sourceforge.net/ |
 | **pycairo** | 1.25.1 | Python bindings for the cairo graphics library | https://www.cairographics.org/pycairo/ |
 | **pygobject** | 3.44.1 | Python package which provides bindings for GObject based libraries | https://pygobject.readthedocs.io/ |
@@ -1932,7 +1933,7 @@
 | **python-apsw** | 3.44.0.0 | Another Python SQLite Wrapper | https://github.com/rogerbinns/apsw/ |
 | **python-apt** | 2.6.0 | Python bindings for APT | https://apt-team.pages.debian.net/python-apt/ |
 | **python-bcrypt** | 4.0.1-1 | Acceptable password hashing for your software and your servers | https://github.com/pyca/bcrypt |
-| **python-cryptography** | 41.0.5 | Provides cryptographic recipes and primitives to Python developers | https://github.com/pyca/cryptography |
+| **python-cryptography** | 41.0.6 | Provides cryptographic recipes and primitives to Python developers | https://github.com/pyca/cryptography |
 | **python-ensurepip-wheels** | 3.11.6-1 | Wheels for Python ensurepip | https://python.org/ |
 | **python-greenlet** | 3.0.1 | Lightweight coroutines for in-process concurrent programming | https://github.com/python-greenlet/greenlet |
 | **python-lameenc** | 1.6.3 | Python bindings around the LAME encoder | https://github.com/chrisstaite/lameenc |
@@ -1957,8 +1958,8 @@
 | **pyunbound** | 1.19.0 | Python bindings for Unbound | https://unbound.net/ |
 | **pzstd** | 1.5.5-1 | A Pigz-like tool for Zstandard | https://github.com/facebook/zstd |
 | **q-dns-client** | 0.15.1 | A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH | https://github.com/natesales/q |
-| **qalc** | 4.8.1 | Powerful and easy to use command line calculator | https://qalculate.github.io/ |
-| **qalc-static** | 4.8.1 | Static libraries for qalc | https://qalculate.github.io/ |
+| **qalc** | 4.9.0 | Powerful and easy to use command line calculator | https://qalculate.github.io/ |
+| **qalc-static** | 4.9.0 | Static libraries for qalc | https://qalculate.github.io/ |
 | **qemu-common** | 1:8.0.2-1 | A set common files used by the QEMU emulators | https://www.qemu.org |
 | **qemu-system-aarch64-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
 | **qemu-system-arm-headless** | 1:8.0.2-1 | A generic and open source machine emulator and virtualizer (headless) | https://www.qemu.org |
@@ -2084,7 +2085,7 @@
 | **sc-im** | 0.8.3-1 | An improved version of sc, a spreadsheet calculator | https://github.com/andmarti1424/sc-im |
 | **scala** | 3.3.1 | Scala 3 compiler and standard library. | https://www.scala-lang.org |
 | **scc** | 3.1.0-3 | Counts physical the lines of code, blank lines, comment lines, and physical lines of source code | https://github.com/boyter/scc |
-| **sccache** | 0.7.3 | sccache is ccache with cloud storage | https://github.com/mozilla/sccache |
+| **sccache** | 0.7.4 | sccache is ccache with cloud storage | https://github.com/mozilla/sccache |
 | **scdaemon** | 2.4.3 | Daemon invoked by gpg to manage smartcards | https://www.gnupg.org/ |
 | **scdoc** | 1.11.2-2 | Small man page generator | https://git.sr.ht/~sircmpwn/scdoc |
 | **scheme48** | 1.9.2 | An implementation of the Scheme programming language | https://www.s48.org/ |
@@ -2092,7 +2093,7 @@
 | **screenfetch** | 3.9.1-1 | Bash Screenshot Information Tool | https://github.com/KittyKatt/screenFetch |
 | **scrub** | 2.6.1-1 | Iteratively writes patterns on files or disk devices to make retreiving the data more difficult | https://github.com/chaos/scrub |
 | **scrypt** | 1.3.1-2 | scrypt KDF library and file encryption tool | https://www.tarsnap.com/scrypt.html |
-| **sd** | 0.7.6 | An intuitive find & replace CLI | https://github.com/chmln/sd |
+| **sd** | 1.0.0 | An intuitive find & replace CLI | https://github.com/chmln/sd |
 | **sdcv** | 0.5.5 | StarDict Console Version | http://dushistov.github.io/sdcv/ |
 | **seafile-client** | 9.0.4 | Seafile is a file syncing and sharing software with file encryption and group sharing | https://seafile.com |
 | **seafile-client-static** | 9.0.4 | Static libraries for seafile-client | https://seafile.com |
@@ -2110,7 +2111,7 @@
 | **shairport-sync** | 3.1.2-6 | An AirPlay audio player | https://github.com/mikebrady/shairport-sync |
 | **sharutils** | 4.15.2-3 | Utilities for packaging and unpackaging shell archives | https://www.gnu.org/software/sharutils/ |
 | **shc** | 4.0.3-3 | Shell script compiler | https://neurobin.org/projects/softwares/unix/shc/ |
-| **sheldon** | 0.7.3 | Fast, configurable, shell plugin manager | https://github.com/rossmacarthur/sheldon |
+| **sheldon** | 0.7.4 | Fast, configurable, shell plugin manager | https://github.com/rossmacarthur/sheldon |
 | **shell2http** | 1.16.0-2 | Executing shell commands via HTTP server | https://github.com/msoap/shell2http |
 | **shellcheck** | 0.8.0-1 | Shell script analysis tool | https://www.shellcheck.net/ |
 | **shellharden** | 4.3.0 | The corrective bash syntax highlighter | https://github.com/anordal/shellharden |
@@ -2394,7 +2395,7 @@
 | **vim** | 9.0.2000 | Vi IMproved - enhanced vi editor | https://www.vim.org |
 | **vim-python** | 9.0.2000 | Vi IMproved - enhanced vi editor - with python support | https://www.vim.org |
 | **vim-runtime** | 9.0.2000 | Vi IMproved - Runtime files | https://www.vim.org |
-| **virustotal-cli** | 0.14.0-1 | Command line interface for VirusTotal | https://github.com/VirusTotal/vt-cli |
+| **virustotal-cli** | 1.0.0 | Command line interface for VirusTotal | https://github.com/VirusTotal/vt-cli |
 | **vis** | 0.8 | Modern, legacy free, simple yet efficient vim-like editor | https://www.brain-dump.org/projects/vis/ |
 | **vitetris** | 0.59.1-2 | Virtual terminal *tris clone | http://victornils.net/tetris/ |
 | **viu** | 1.5.0 | Terminal image viewer with native support for iTerm and Kitty | https://github.com/atanunq/viu |
