@@ -108,7 +108,7 @@
 | **bastet** | 0.43.2-9 | Tetris clone with 'bastard' block-choosing AI | http://fph.altervista.org/prog/bastet.html |
 | **bat** | 0.24.0 | A cat(1) clone with wings | https://github.com/sharkdp/bat |
 | **bc** | 1.07.1-1 | Arbitrary precision numeric processing language | https://www.gnu.org/software/bc/ |
-| **bc-gh** | 6.7.2 | Unix dc and POSIX bc with GNU and BSD extensions | https://git.gavinhoward.com/gavin/bc |
+| **bc-gh** | 6.7.3 | Unix dc and POSIX bc with GNU and BSD extensions | https://git.gavinhoward.com/gavin/bc |
 | **bdsup2sub** | 4.0.1 | A subtitle conversion tool for image based stream formats | https://github.com/mjuhasz/BDSup2Sub |
 | **beanshell** | 2.1.1-1 | Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java | https://github.com/beanshell/beanshell |
 | **bed** | 0.2.4 | Binary editor written in GO | https://github.com/itchyny/bed |
@@ -216,7 +216,7 @@
 | **ckermit** | 9.0.302-1 | A combined network and serial communication software package | https://www.kermitproject.org/ckermit.html |
 | **clamav** | 1.2.1 | Anti-virus toolkit for Unix | https://www.clamav.net/ |
 | **clamav-static** | 0.103.6-1 | Static libraries for clamav | https://www.clamav.net/ |
-| **clang** | 17.0.5 | C language frontend for LLVM | https://clang.llvm.org/ |
+| **clang** | 17.0.6 | C language frontend for LLVM | https://clang.llvm.org/ |
 | **clblast** | 1.6.1 | Tuned OpenCL BLAS | https://github.com/CNugteren/CLBlast |
 | **cliaoke** | 0.2.4-4 | Command line karaoke | https://github.com/jessfraz/cliaoke |
 | **clidle** | 2022.05.25-2 | Play Wordle over SSH | https://github.com/ajeetdsouza/clidle |
@@ -227,8 +227,8 @@
 | **cloudflared** | 2023.10.0 | A tunneling daemon that proxies traffic from the Cloudflare network to your origins | https://github.com/cloudflare/cloudflared |
 | **clpeak** | 1.1.2-3 | A tool which profiles OpenCL devices to find their peak capacities | https://github.com/krrishnarraj/clpeak |
 | **clvk** | 0.0.20231115.213741 | Experimental implementation of OpenCL on Vulkan | https://github.com/kpet/clvk |
-| **cmake** | 3.27.8 | Family of tools designed to build, test and package software | https://cmake.org/ |
-| **cmake-curses-gui** | 3.27.8 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
+| **cmake** | 3.27.9 | Family of tools designed to build, test and package software | https://cmake.org/ |
+| **cmake-curses-gui** | 3.27.9 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
 | **cmark** | 0.30.3 | CommonMark parsing and rendering program | https://github.com/commonmark/cmark |
 | **cmark-static** | 0.30.3 | Static libraries for cmark | https://github.com/commonmark/cmark |
 | **cmatrix** | 2.0 | Command producing a Matrix-style animation | https://github.com/abishekvashok/cmatrix |
@@ -348,7 +348,7 @@
 | **duc** | 1.4.5 | High-performance disk usage analyzer | http://duc.zevv.nl/ |
 | **duckdb** | 0.9.2 | DuckDB Command Line Interface (CLI) shell | https://duckdb.org/ |
 | **duf** | 0.8.1-3 | Disk usage/free utility | https://github.com/muesli/duf |
-| **dufs** | 0.37.1 | A file server that supports static serving, uploading, searching, accessing control, webdav... | https://github.com/sigoden/dufs |
+| **dufs** | 0.38.0 | A file server that supports static serving, uploading, searching, accessing control, webdav... | https://github.com/sigoden/dufs |
 | **duktape** | 2.7.0 | Simple REPL for Duktape | https://www.duktape.org/ |
 | **dust** | 0.8.6 | A more intuitive version of du in rust | https://github.com/bootandy/dust |
 | **dvdauthor** | 0.7.2-2 | Generates a DVD-Video movie from a valid MPEG-2 stream | https://dvdauthor.sourceforge.net/ |
@@ -577,10 +577,10 @@
 | **gpac** | 2.2.1-3 | An open-source multimedia framework focused on modularity and standards compliance | https://gpac.wp.imt.fr/ |
 | **gpac-static** | 2.2.1-3 | Static libraries for gpac | https://gpac.wp.imt.fr/ |
 | **gperf** | 3.1-7 | A perfect hash function generator | https://www.gnu.org/software/gperf |
-| **gpgme** | 1.23.1 | Library designed to make access to GnuPG easier | https://www.gnupg.org/related_software/gpgme/ |
-| **gpgme-static** | 1.23.1 | Static libraries for gpgme | https://www.gnupg.org/related_software/gpgme/ |
-| **gpgmepp** | 1.23.1 | Programmatic C++ library interface to GnuPG | https://www.gnupg.org/related_software/gpgme/ |
-| **gpgmepp-static** | 1.23.1 | Static libraries for gpgmepp | https://www.gnupg.org/related_software/gpgme/ |
+| **gpgme** | 1.23.2 | Library designed to make access to GnuPG easier | https://www.gnupg.org/related_software/gpgme/ |
+| **gpgme-static** | 1.23.2 | Static libraries for gpgme | https://www.gnupg.org/related_software/gpgme/ |
+| **gpgmepp** | 1.23.2 | Programmatic C++ library interface to GnuPG | https://www.gnupg.org/related_software/gpgme/ |
+| **gpgmepp-static** | 1.23.2 | Static libraries for gpgmepp | https://www.gnupg.org/related_software/gpgme/ |
 | **gpgv** | 2.4.3 | GNU privacy guard - signature verification tool | https://www.gnupg.org/ |
 | **gping** | 1.15.1 | Ping, but with a graph | https://github.com/orf/gping |
 | **gpsbabel** | 1.4.4-2 | GPS file conversion plus transfer to/from GPS units | https://www.gpsbabel.org/ |
@@ -870,7 +870,7 @@
 | **libcoinor-utils** | 1:2.11.9 | An open-source collection of classes and helper functions for COIN-OR projects | https://github.com/coin-or/CoinUtils |
 | **libcoinor-utils-static** | 1:2.11.9 | Static libraries for libcoinor-utils | https://github.com/coin-or/CoinUtils |
 | **libcommons-lang3-java** | 3.13.0 | A host of helper utilities for the java.lang API | https://commons.apache.org/proper/commons-lang/ |
-| **libcompiler-rt** | 17.0.5 | Compiler runtime libraries for clang | https://clang.llvm.org/ |
+| **libcompiler-rt** | 17.0.6 | Compiler runtime libraries for clang | https://clang.llvm.org/ |
 | **libconfig** | 1.7.3-3 | C/C++ Configuration File Library | https://github.com/hyperrealm/libconfig |
 | **libconfig-static** | 1.7.3-3 | Static libraries for libconfig | https://github.com/hyperrealm/libconfig |
 | **libconfuse** | 3.3 | Small configuration file parser library for C | https://github.com/martinh/libconfuse |
@@ -1028,14 +1028,13 @@
 | **libjansi** | 2.4.1 | A small java library that allows you to use ANSI escape codes to format your console output | https://fusesource.github.io/jansi/ |
 | **libjansson** | 2.14 | C library for encoding, decoding and manipulating JSON data | http://www.digip.org/jansson/ |
 | **libjansson-static** | 2.14 | Static libraries for libjansson | http://www.digip.org/jansson/ |
-| **libjasper** | 4.1.0 | Library for manipulating JPEG-2000 files | http://www.ece.uvic.ca/~frodo/jasper/ |
-| **libjasper-utils** | 4.1.0 | JPEG-2000 utilities | http://www.ece.uvic.ca/~frodo/jasper/ |
+| **libjasper** | 4.1.1 | Library for manipulating JPEG-2000 files | http://www.ece.uvic.ca/~frodo/jasper/ |
+| **libjasper-utils** | 4.1.1 | JPEG-2000 utilities | http://www.ece.uvic.ca/~frodo/jasper/ |
 | **libjpeg-turbo** | 3.0.1 | Library for reading and writing JPEG image files | https://libjpeg-turbo.virtualgl.org |
 | **libjpeg-turbo-progs** | 3.0.1 | Programs for manipulating JPEG files | https://libjpeg-turbo.virtualgl.org |
 | **libjpeg-turbo-static** | 3.0.1 | Static libraries for libjpeg-turbo | https://libjpeg-turbo.virtualgl.org |
 | **libjxl** | 0.8.2-2 | JPEG XL image format reference implementation | https://jpegxl.info/ |
 | **libjxl-progs** | 0.8.2-2 | Programs for manipulating JPEG XL files | https://jpegxl.info/ |
-| **libjxl-static** | 0.8.2-1 | Static libraries for libjxl | https://jpegxl.info/ |
 | **libkiwix** | 13.0.0 | A library that contains a lot of things used by other kiwix programs | https://github.com/kiwix/libkiwix |
 | **libknot** | 3.2.4-1 | Knot DNS libraries | https://www.knot-dns.cz/ |
 | **libknot-static** | 3.2.4-1 | Static libraries for libknot | https://www.knot-dns.cz/ |
@@ -1045,8 +1044,8 @@
 | **liblightning-static** | 2.2.0 | Static libraries for liblightning | https://www.gnu.org/software/lightning/ |
 | **libliquid-dsp** | 1.6.0 | Software-defined radio digital signal processing library | https://liquidsdr.org/ |
 | **libliquid-dsp-static** | 1.6.0 | Static libraries for libliquid-dsp | https://liquidsdr.org/ |
-| **libllvm** | 17.0.5 | Modular compiler and toolchain technologies library | https://clang.llvm.org/ |
-| **libllvm-static** | 17.0.5 | Static libraries for libllvm | https://clang.llvm.org/ |
+| **libllvm** | 17.0.6 | Modular compiler and toolchain technologies library | https://clang.llvm.org/ |
+| **libllvm-static** | 17.0.6 | Static libraries for libllvm | https://clang.llvm.org/ |
 | **liblmdb** | 0.9.31 | LMDB implements a simplified variant of the BerkeleyDB (BDB) API | https://symas.com/lmdb/ |
 | **liblmdb-static** | 0.9.31 | Static libraries for liblmdb | https://symas.com/lmdb/ |
 | **liblo** | 0.31 | A lightweight library that provides an easy to use implementation of the OSC protocol | http://liblo.sourceforge.net/ |
@@ -1206,7 +1205,7 @@
 | **libpngwriter** | 0.7.0 | C++ library for creating PNG images | http://pngwriter.sourceforge.net |
 | **libpngwriter-static** | 0.7.0 | Static libraries for libpngwriter | http://pngwriter.sourceforge.net |
 | **libpoco** | 1.12.5p1 | A comprehensive set of C++ libraries that cover all modern-day programming needs | https://pocoproject.org/ |
-| **libpolly** | 17.0.5 | High-level loop and data-locality optimizer for clang | https://clang.llvm.org/ |
+| **libpolly** | 17.0.6 | High-level loop and data-locality optimizer for clang | https://clang.llvm.org/ |
 | **libpopt** | 1.19-1 | Library for parsing cmdline parameters | https://www.linuxfromscratch.org/blfs/view/svn/general/popt.html |
 | **libpopt-static** | 1.19-1 | Static libraries for libpopt | https://www.linuxfromscratch.org/blfs/view/svn/general/popt.html |
 | **libprotobuf** | 2:22.4-2 | Protocol buffers C++ library | https://github.com/protocolbuffers/protobuf |
@@ -1488,14 +1487,14 @@
 | **littlecms-static** | 2.15-1 | Static libraries for littlecms | http://www.littlecms.com/ |
 | **littlecms-utils** | 2.15-1 | Color management utilities | http://www.littlecms.com/ |
 | **llbuild** | 5.9-1 | A low-level build system, used by the Swift Package Manager | https://github.com/apple/swift-llbuild |
-| **lld** | 17.0.5 | LLVM-based linker | https://clang.llvm.org/ |
-| **llvm** | 17.0.5 | LLVM modular compiler and toolchain executables | https://clang.llvm.org/ |
+| **lld** | 17.0.6 | LLVM-based linker | https://clang.llvm.org/ |
+| **llvm** | 17.0.6 | LLVM modular compiler and toolchain executables | https://clang.llvm.org/ |
 | **llvm-mingw-w64** | 20231031 | MinGW-w64 toolchain based on LLVM | https://github.com/mstorsjo/llvm-mingw |
 | **llvm-mingw-w64-libcompiler-rt** | 20231031 | Compiler runtime libraries for LLVM-MinGW | https://www.llvm.org/ |
 | **llvm-mingw-w64-tools** | 11.0.0 | MinGW-w64 tools for LLVM-MinGW | https://github.com/mstorsjo/llvm-mingw |
 | **llvm-mingw-w64-ucrt** | 20231031 | MinGW-w64 runtime for LLVM-MinGW | https://www.mingw-w64.org/ |
-| **llvm-tools** | 17.0.5 | LLVM Development Tools | https://clang.llvm.org/ |
-| **llvmgold** | 17.0.5 | LLVM gold plugin | https://clang.llvm.org/ |
+| **llvm-tools** | 17.0.6 | LLVM Development Tools | https://clang.llvm.org/ |
+| **llvmgold** | 17.0.6 | LLVM gold plugin | https://clang.llvm.org/ |
 | **lnav** | 0.11.2 | An advanced log file viewer for the small-scale | https://lnav.org/ |
 | **lnd** | 0.17.0-beta-0 | Lightning Network Daemon | https://github.com/lightningnetwork/lnd |
 | **logo-ls** | 1.3.7-3 | Modern ls command with vscode like File Icon and Git Integrations | https://github.com/Yash-Handa/logo-ls |
@@ -1612,7 +1611,7 @@
 | **mkp224o** | 1.6.1-1 | Generate vanity ed25519 (hidden service version 3) onion addresses | https://github.com/cathugger/mkp224o |
 | **mksh** | 59c-2 | The MirBSD Korn Shell - an enhanced version of the public domain ksh | http://www.mirbsd.org/mksh.htm |
 | **mktorrent** | 1.1-p20210130-0 | command line utility to create BitTorrent metainfo files | https://github.com/Rudde/mktorrent |
-| **mlir** | 17.0.5 | A Multi-Level Intermediate Representation for compilers from LLVM | https://clang.llvm.org/ |
+| **mlir** | 17.0.6 | A Multi-Level Intermediate Representation for compilers from LLVM | https://clang.llvm.org/ |
 | **mlocate** | 0.26-5 | Tool to find files anywhere in the filesystem based on their name | https://pagure.io/mlocate |
 | **mold** | 2.3.3 | mold: A Modern Linker | https://github.com/rui314/mold |
 | **monero** | 0.18.3.1-1 | A private, secure, untraceable, decentralised digital currency | https://getmonero.org/ |
@@ -1707,7 +1706,7 @@
 | **nim** | 2.0.0 | Nim programming language compiler | https://nim-lang.org/ |
 | **ninja** | 1.11.1 | A small build system with a focus on speed | https://ninja-build.org |
 | **ninvaders** | 0.1.2-2 | Space Invaders clone based on ncurses for ASCII output | http://ninvaders.sourceforge.net |
-| **nlohmann-json** | 3.11.2 | JSON for Modern C++ | https://github.com/nlohmann/json |
+| **nlohmann-json** | 3.11.3 | JSON for Modern C++ | https://github.com/nlohmann/json |
 | **nlopt** | 2.7.1-1 | Library for nonlinear optimization | https://nlopt.readthedocs.io/ |
 | **nmap** | 7.94 | Utility for network discovery and security auditing | https://nmap.org/ |
 | **nmap-ncat** | 7.94 | Feature-packed networking utility which reads and writes data across networks from the command line | https://nmap.org/ |
@@ -1904,7 +1903,7 @@
 | **progress** | 0.17 | Linux tool to show progress for cp, mv, dd and more | https://github.com/Xfennec/progress |
 | **proj** | 9.3.0 | Generic coordinate transformation software | https://proj.org |
 | **proot** | 5.1.107-62 | Emulate chroot, bind mount and binfmt_misc for non-root users | https://proot-me.github.io/ |
-| **proot-distro** | 4.3.1 | Termux official utility for managing proot'ed Linux distributions | https://github.com/termux/proot-distro |
+| **proot-distro** | 4.4.0 | Termux official utility for managing proot'ed Linux distributions | https://github.com/termux/proot-distro |
 | **protobuf** | 2:22.4-2 | Compiler for protocol buffer definition files | https://github.com/protocolbuffers/protobuf |
 | **protobuf-dev** | 2:22.4-2 | CMake files for protobuf shared libraries | https://github.com/protocolbuffers/protobuf |
 | **protobuf-static** | 22.4-1 | Protocol buffers C++ library (static) | https://github.com/protocolbuffers/protobuf |
@@ -2141,7 +2140,7 @@
 | **snapcast-client** | 0.27.0-2 | A multiroom client-server audio player (client) | https://github.com/badaix/snapcast |
 | **snapcast-server** | 0.27.0-2 | A multiroom client-server audio player (server) | https://github.com/badaix/snapcast |
 | **snmptt** | 1.5 | SNMP trap translator | http://www.snmptt.org/ |
-| **socat** | 1.7.4.4 | Relay for bidirectional data transfer between two independent data channels | http://www.dest-unreach.org/socat/ |
+| **socat** | 1.8.0.0 | Relay for bidirectional data transfer between two independent data channels | http://www.dest-unreach.org/socat/ |
 | **softether-vpn** | 5.02.5180-4 | An open-source cross-platform multi-protocol VPN program | https://www.softether.org/ |
 | **softether-vpn-static** | 5.02.5180-4 | Static libraries for softether-vpn | https://www.softether.org/ |
 | **soju** | 0.6.2-1 | A user-friendly IRC bouncer | https://git.sr.ht/~emersion/soju |
@@ -2283,7 +2282,7 @@
 | **tilde** | 1.1.3-1 | A text editor for the console/terminal | https://os.ghalkes.nl/tilde/ |
 | **time** | 1.9 | GNU time program for measuring CPU resource usage | https://www.gnu.org/software/time/ |
 | **timewarrior** | 1.6.0 | Command-line time tracker | https://timewarrior.net/ |
-| **timg** | 1.5.2 | A terminal image and video viewer | https://timg.sh/ |
+| **timg** | 1.5.3 | A terminal image and video viewer | https://timg.sh/ |
 | **timidity++** | 2.15.0-1 | MIDI-to-WAVE converter and player | http://timidity.sourceforge.net/ |
 | **tin-summer** | 1.21.14 | Find build artifacts that are taking up disk space | https://github.com/vmchale/tin-summer |
 | **tintin++** | 2.02.31 | Classic text-based MUD client | https://tintin.mudhalla.net |
@@ -2407,7 +2406,7 @@
 | **vtm** | 0.9.26 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
 | **vttest** | 20230924 | Program for testing the VT100 compatibility of terminal emulators | https://invisible-island.net/vttest/ |
 | **vtutils** | 0.5-4 | Utilities for testing and working with virtual terminals | https://github.com/fornwall/vtutils |
-| **vulkan-extension-layer** | 1.3.268-1 | Vulkan Extension Layer | https://github.com/KhronosGroup/Vulkan-ExtensionLayer |
+| **vulkan-extension-layer** | 1.3.271 | Vulkan Extension Layer | https://github.com/KhronosGroup/Vulkan-ExtensionLayer |
 | **vulkan-headers** | 1.3.271 | Vulkan Header files and API registry | https://github.com/KhronosGroup/Vulkan-Headers |
 | **vulkan-loader** | 0.0.2 | A metapackage that provides vulkan loader library | https://github.com/termux/termux-packages |
 | **vulkan-loader-android** | 26b | Vulkan Loader for Android | https://source.android.com/devices/graphics/arch-vulkan |
@@ -2503,8 +2502,8 @@
 | **zile** | 2.6.2 | Lightweight clone of the Emacs text editor | https://www.gnu.org/software/zile/ |
 | **zip** | 3.0-5 | Tools for working with zip files | https://sourceforge.net/projects/infozip/ |
 | **zipios** | 2.3.2 | A small C++ library for reading and writing zip files | https://zipios.sourceforge.io/ |
-| **zlib** | 1.3 | Compression library implementing the deflate compression method found in gzip and PKZIP | https://www.zlib.net/ |
-| **zlib-static** | 1.3 | Static libraries for zlib | https://www.zlib.net/ |
+| **zlib** | 1.3-3 | Compression library implementing the deflate compression method found in gzip and PKZIP | https://www.zlib.net/ |
+| **zlib-static** | 1.3-3 | Static libraries for zlib | https://www.zlib.net/ |
 | **zls** | 0.11.0 | Zig language server | https://github.com/zigtools/zls |
 | **znc** | 1.8.2-6 | An advanced IRC bouncer | https://znc.in/ |
 | **zopfli** | 1.0.3-3 | New zlib compatible compressor tools | https://github.com/google/zopfli |
