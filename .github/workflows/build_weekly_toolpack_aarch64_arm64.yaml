@@ -204,10 +204,12 @@ jobs:
            /bin/bash -c 'PS4="$ "; file ./aarch64_arm64/* | grep -v '.txt' ' &>> "./aarch64_arm64/README.md"
            echo -e "" >> ./aarch64_arm64/README.md
            echo -e "--> BLAKE3SUM" >> ./aarch64_arm64/README.md
-           /bin/bash -c 'PS4="$ ";b3sum ./aarch64_arm64/* | grep -v '.txt' ' &>> ./aarch64_arm64/README.md
+           /bin/bash -c 'PS4="$ ";b3sum ./aarch64_arm64/* | grep -v '.txt' ' &>> "./aarch64_arm64/README.md"
+           /bin/bash -c 'PS4="$ ";b3sum ./aarch64_arm64/* | grep -v '.txt' ' &> "./aarch64_arm64/BLAKE3SUM"
            echo -e "" >> ./aarch64_arm64/README.md
            echo -e "--> SHA256SUM" >> "./aarch64_arm64/README.md"
-           /bin/bash -c 'PS4="$ ";sha256sum ./aarch64_arm64/* | grep -v '.txt' ' &>> "./aarch64_arm64/README.md" 
+           /bin/bash -c 'PS4="$ ";sha256sum ./aarch64_arm64/* | grep -v '.txt' ' &>> "./aarch64_arm64/README.md"
+           /bin/bash -c 'PS4="$ ";sha256sum ./aarch64_arm64/* | grep -v '.txt' ' &> "./aarch64_arm64/SHA256SUM"
            echo -e '```\n' >> "./aarch64_arm64/README.md"
            echo -e "" >> "./aarch64_arm64/README.md"
            echo '---' >> "./aarch64_arm64/README.md"
