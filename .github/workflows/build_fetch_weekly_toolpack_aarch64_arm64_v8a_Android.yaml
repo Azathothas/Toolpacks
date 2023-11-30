@@ -521,14 +521,16 @@ jobs:
           #llvm-ranlib
           sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
           sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang" "/usr/local/bin/aarch64-linux-android-clang" 2>/dev/null
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" "/usr/local/bin/clang" 2>/dev/null
           #export Build Flags
-          export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
+          export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
           rustup target add "$TARGET"
           #Config
           sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
           echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
           #Build
-          cargo build --target "$TARGET" --release
+          PATH="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH" cargo build --target "$TARGET" --release
           #meta
           file "./target/$TARGET/release/hysp" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/hysp"
           #move
