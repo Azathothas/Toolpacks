@@ -285,7 +285,7 @@
 | **dar** | 2.7.13 | A full featured command-line backup tool, short for Disk ARchive | http://dar.linux.free.fr/ |
 | **dar-static** | 2.7.13 | Static libraries for dar | http://dar.linux.free.fr/ |
 | **darkhttpd** | 1.14 | A simple webserver, implemented in a single .c file. | https://unix4lyfe.org/darkhttpd |
-| **dart** | 3.2.1 | Dart is a general-purpose programming language | https://dart.dev/ |
+| **dart** | 3.2.2 | Dart is a general-purpose programming language | https://dart.dev/ |
 | **dasel** | 2.5.0 | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility | https://github.com/TomWright/dasel |
 | **dash** | 0.5.12 | Small POSIX-compliant implementation of /bin/sh | http://gondor.apana.org.au/~herbert/dash/ |
 | **dasm** | 2.20.14.1 | Macro assembler with support for several 8-bit microprocessors | https://dasm-dillon.sourceforge.io/ |
@@ -309,7 +309,7 @@
 | **difftastic** | 0.53.1 | difft: A structural diff that understands syntax | https://github.com/Wilfred/difftastic |
 | **diffutils** | 3.10 | Programs (cmp, diff, diff3 and sdiff) related to finding differences between files | https://www.gnu.org/software/diffutils/ |
 | **dirb** | 2.22-4 | Web Directory Fuzzer | http://dirb.sourceforge.net/ |
-| **direnv** | 2.32.3-1 | Environment switcher for shell | https://github.com/direnv/direnv |
+| **direnv** | 2.33.0 | Environment switcher for shell | https://github.com/direnv/direnv |
 | **direvent** | 5.3 | Monitor of events in file system directories | https://www.gnu.org.ua/software/direvent/ |
 | **discordo** | 2022.08.12-3 | A lightweight, secure, and feature-rich Discord terminal client | https://github.com/ayntgl/discordo |
 | **diskus** | 0.7.0 | A minimal, fast alternative to 'du -sh' | https://github.com/sharkdp/diskus |
@@ -397,7 +397,7 @@
 | **exiv2** | 2:0.27.7-1 | Exif, Iptc and XMP metadata manipulation library and tools | https://exiv2.org/ |
 | **exiv2-static** | 2:0.27.7-1 | Static libraries for exiv2 | https://exiv2.org/ |
 | **expect** | 5.45.4-3 | Tool for automating interactive terminal applications | https://core.tcl.tk/expect/index |
-| **eza** | 0.16.1 | A modern replacement for ls | https://github.com/eza-community/eza |
+| **eza** | 0.16.2 | A modern replacement for ls | https://github.com/eza-community/eza |
 | **fact++** | 1.6.5-1 | Re-implementation of the well-known FaCT Description Logic (DL) Reasoner | https://bitbucket.org/dtsarkov/factplusplus |
 | **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
@@ -1566,7 +1566,7 @@
 | **mdbook-cat-prep** | 1.0.9 | A preprocessor for mdbook which provides teacher, subject, material and tag functionality | https://github.com/gjk-cat/cat-prep |
 | **mdbook-epub** | 0.4.14 | An EPUB renderer for mdbook | https://github.com/Michael-F-Bryan/mdbook-epub |
 | **mdbook-graphviz** | 0.1.6 | mdbook preprocessor to add graphviz support | https://github.com/dylanowen/mdbook-graphviz |
-| **mdbook-katex** | 0.5.8pub | A preprocessor for mdBook, pre-rendering LaTex equations to HTML at build time | https://github.com/lzanini/mdbook-katex |
+| **mdbook-katex** | 0.5.9 | A preprocessor for mdBook, pre-rendering LaTex equations to HTML at build time | https://github.com/lzanini/mdbook-katex |
 | **mdbook-linkcheck** | 0.7.7 | A backend for mdbook which will check your links for you | https://michael-f-bryan.github.io/mdbook-linkcheck/ |
 | **mdbook-mermaid** | 0.12.6 | A preprocessor for mdbook to add mermaid support | https://github.com/badboy/mdbook-mermaid |
 | **mdbook-open-on-gh** | 2.4.1 | A preprocessor for mdbook to add a open-on-github link on every page | https://github.com/badboy/mdbook-open-on-gh |
@@ -2130,7 +2130,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.6.7 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.7.0 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
