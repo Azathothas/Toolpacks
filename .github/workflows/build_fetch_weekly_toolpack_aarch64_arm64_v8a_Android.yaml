@@ -144,7 +144,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/anew" && cd "./anew"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/anew" && cd "./anew"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -167,7 +167,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/ClementTsang/bottom" && cd "./bottom"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ClementTsang/bottom" && cd "./bottom"
           #android29 --> Android 10 or later
           export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
           rustup target add "$TARGET"
@@ -213,7 +213,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/cemulus/crt" && cd crt
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/cemulus/crt" && cd crt
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -236,7 +236,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/dnsx" && cd "./dnsx"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/dnsx" && cd "./dnsx"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -259,7 +259,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd $(mktemp -d) && git clone "https://github.com/zyedidia/eget" && cd eget
+          pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/zyedidia/eget" && cd eget
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -281,7 +281,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd $(mktemp -d) && git clone "https://github.com/Brum3ns/encode" && cd encode
+          pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/Brum3ns/encode" && cd encode
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -305,7 +305,7 @@ jobs:
     #       set -x ; set +e
     #       #--------------#
     #       #Get Source
-    #       pushd "$(mktemp -d)" && git clone "https://github.com/epi052/feroxbuster" && cd "./feroxbuster"
+    #       pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/epi052/feroxbuster" && cd "./feroxbuster"
     #       #android29 --> Android 10 or later
     #       #llvm-ar
     #       sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
@@ -334,7 +334,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd $(mktemp -d) && git clone "https://github.com/ffuf/ffuf" && cd "./ffuf"
+          pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/ffuf/ffuf" && cd "./ffuf"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -366,7 +366,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/filebrowser/filebrowser" && cd "./filebrowser"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/filebrowser/filebrowser" && cd "./filebrowser"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -389,7 +389,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd $(mktemp -d) && git clone "https://github.com/TimothyYe/godns" && cd "./godns"
+          pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/TimothyYe/godns" && cd "./godns"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -412,7 +412,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd $(mktemp -d) && git clone "https://github.com/ginuerzh/gost" && cd "./gost"
+          pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/ginuerzh/gost" && cd "./gost"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -435,7 +435,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd $(mktemp -d) && git clone "https://github.com/sensepost/gowitness" && cd "./gowitness"
+          pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/sensepost/gowitness" && cd "./gowitness"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -458,7 +458,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/pwnwriter/haylxon" && cd "./haylxon"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnwriter/haylxon" && cd "./haylxon"
           #android29 --> Android 10 or later
           #llvm-ar
           sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
@@ -487,7 +487,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/httpx" && cd "./httpx"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/httpx" && cd "./httpx"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -503,6 +503,35 @@ jobs:
           go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
 
+     ##hysp : 📦 An independent package manager that every hacker deserves.
+      - name: Build hysp (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnwriter/hysp" && cd "./hysp"
+          #android29 --> Android 10 or later
+          #llvm-ar
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          #llvm-ranlib
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          #export Build Flags
+          export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
+          rustup target add "$TARGET"
+          #Config
+          sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
+          echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+          #Build
+          cargo build --target "$TARGET" --release
+          #meta
+          file "./target/$TARGET/release/hysp" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/hysp"
+          #move
+          mv "./target/$TARGET/release/hysp" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/hysp" ; popd
+        continue-on-error: true
+        
      ##inscope
       - name: Build inscope (Native)
         run: |
@@ -535,7 +564,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
           #android29 --> Android 10 or later
           #llvm-ar
           sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
@@ -564,7 +593,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/pwnwriter/kanha" && cd "./kanha"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnwriter/kanha" && cd "./kanha"
           #android29 --> Android 10 or later
           #llvm-ar
           sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
@@ -603,7 +632,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -636,7 +665,7 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          pushd $(mktemp -d) && git clone "https://github.com/DominicBreuker/pspy" && cd "./pspy"
+          pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/DominicBreuker/pspy" && cd "./pspy"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
