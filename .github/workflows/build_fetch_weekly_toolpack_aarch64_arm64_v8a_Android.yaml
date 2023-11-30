@@ -100,6 +100,9 @@ jobs:
           #Presets
           set -x ; set +e
           #--------------#
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
           curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
           sudo mv ./eget* "/usr/local/bin/eget"
@@ -805,8 +808,13 @@ jobs:
            echo -e "--> METATDATA" >> "./aarch64_arm64_v8a_Android/README.md"
            /bin/bash -c 'PS4="$ "; file ./aarch64_arm64_v8a_Android/* | grep -v '.txt' ' &>> "./aarch64_arm64_v8a_Android/README.md"
            echo -e "" >> "./aarch64_arm64_v8a_Android/README.md"
+           echo -e "--> BLAKE3SUM" >> "./aarch64_arm64_v8a_Android/README.md"
+           /bin/bash -c 'PS4="$ ";b3sum ./aarch64_arm64/* | grep -v '.txt' ' &>> "./aarch64_arm64_v8a_Android/README.md"
+           /bin/bash -c 'PS4="$ ";b3sum ./aarch64_arm64/* | grep -v '.txt' ' &> "./aarch64_arm64_v8a_Android/BLAKE3SUM"
+           echo -e "" >> "./aarch64_arm64_v8a_Android/README.md"
            echo -e "--> SHA256SUM" >> "./aarch64_arm64_v8a_Android/README.md"
-           /bin/bash -c 'PS4="$ ";sha256sum ./aarch64_arm64_v8a_Android/* | grep -v '.txt' ' &>> "./aarch64_arm64_v8a_Android/README.md" 
+           /bin/bash -c 'PS4="$ ";sha256sum ./aarch64_arm64_v8a_Android/* | grep -v '.txt' ' &>> "./aarch64_arm64_v8a_Android/README.md"
+           /bin/bash -c 'PS4="$ ";sha256sum ./aarch64_arm64_v8a_Android/* | grep -v '.txt' ' &> "./aarch64_arm64_v8a_Android/SHA256SUM"
            echo -e '```\n' >> "./aarch64_arm64_v8a_Android/README.md"
            echo -e "" >> "./aarch64_arm64_v8a_Android/README.md"
            echo '---' >> "./aarch64_arm64_v8a_Android/README.md"
