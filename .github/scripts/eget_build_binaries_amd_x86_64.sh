@@ -750,7 +750,11 @@ fi
   eget "sharkdp/hyperfine" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/hyperfine"
   #---------------#
   #hysp : 📦 An independent package manager that every hacker deserves.
-  eget "pwnwriter/hysp" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "hysp" --to "$HOME/bin/hysp"
+  #eget "pwnwriter/hysp" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "hysp" --to "$HOME/bin/hysp"
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/pwnwriter/hysp" && cd "./hysp"
+  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/hysp" "$HOME/bin/hysp" ; popd
   #---------------#
   #inscope : filtering URLs and domains supplied on stdin to make sure they meet one of a set of regular expressions
   pushd "$(mktemp -d)" && mkdir inscope && cd "./inscope"
