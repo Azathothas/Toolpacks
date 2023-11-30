@@ -137,6 +137,22 @@ jobs:
           sudo find . -type f -name 'upx' -exec mv {} "$(which upx)" \;  
         continue-on-error: true
 #------------------------------------------------------------------------------------#
+      - name: Configure NDK (Rust-Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #clang
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang" "/usr/local/bin/aarch64-linux-android-clang" 2>/dev/null
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" "/usr/local/bin/clang" 2>/dev/null
+          #llvm-ar
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+          #llvm-ranlib
+          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+        continue-on-error: true
+#------------------------------------------------------------------------------------#          
 #Fetch: Only those that are known to work (have been tested)
 #     : Must not exist at : https://github.com/Azathothas/Toolpacks/tree/main/Info/Packages/Termux
 
@@ -178,7 +194,7 @@ jobs:
           sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
           echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
           #Build
-          cargo build --target $TARGET --release --no-default-features 
+          PATH="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH" cargo build --target $TARGET --release --no-default-features 
           #move
           mv "./target/$TARGET/release/btm" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/btm" ; popd
         continue-on-error: true
@@ -463,12 +479,6 @@ jobs:
           #Get Source
           pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnwriter/haylxon" && cd "./haylxon"
           #android29 --> Android 10 or later
-          #llvm-ar
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          #llvm-ranlib
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
           #export Build Flags
           export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
           rustup target add "$TARGET"
@@ -476,7 +486,7 @@ jobs:
           sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
           echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
           #Build
-          cargo build --target "$TARGET" --release
+          PATH="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH" cargo build --target "$TARGET" --release
           #meta
           file "./target/$TARGET/release/hxn" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/hxn"
           #move
@@ -515,14 +525,6 @@ jobs:
           #Get Source
           pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnwriter/hysp" && cd "./hysp"
           #android29 --> Android 10 or later
-          #llvm-ar
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          #llvm-ranlib
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang" "/usr/local/bin/aarch64-linux-android-clang" 2>/dev/null
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" "/usr/local/bin/clang" 2>/dev/null
           #export Build Flags
           export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
           rustup target add "$TARGET"
@@ -571,12 +573,6 @@ jobs:
           #Get Source
           pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
           #android29 --> Android 10 or later
-          #llvm-ar
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          #llvm-ranlib
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
           #export Build Flags
           export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
           rustup target add "$TARGET"
@@ -584,7 +580,7 @@ jobs:
           sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
           echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
           #Build
-          cargo build --target "$TARGET" --release
+          PATH="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH" cargo build --target "$TARGET" --release
           #meta
           file "./target/$TARGET/release/jless" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/jless"
           #move
@@ -600,12 +596,6 @@ jobs:
           #Get Source
           pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnwriter/kanha" && cd "./kanha"
           #android29 --> Android 10 or later
-          #llvm-ar
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
-          #llvm-ranlib
-          sudo ln -s "$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
-          sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
           #export Build Flags
           export TARGET="aarch64-linux-android" ; export RUSTFLAGS="-C linker=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang -C ar=$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar" 
           rustup target add "$TARGET"
@@ -613,7 +603,7 @@ jobs:
           sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
           echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
           #Build
-          cargo build --target "$TARGET" --release
+          PATH="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH" cargo build --target "$TARGET" --release
           #meta
           file "./target/$TARGET/release/kanha" && aarch64-linux-gnu-readelf -d "./target/$TARGET/release/kanha"
           #move
@@ -652,7 +642,6 @@ jobs:
           #Clean Cache
           go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
-
 
      ##ngrok : https://github.com/Yisus7u7/termux-ngrok
       - name: Download ngrok
