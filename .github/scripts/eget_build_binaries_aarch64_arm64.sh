@@ -63,9 +63,15 @@ fi
   #actionlint : :octocat: Static checker for GitHub Actions workflow files
   eget "rhysd/actionlint" --asset "linux" --asset "arm" --asset "64"  --asset "^amd" --asset "^86" --asset "gz" --to "$HOME/bin/actionlint"
   #---------------#
+  #agg: asciinema gif generator
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/asciinema/agg" && cd "./agg"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/agg" "$HOME/bin/agg" ; popd
+  #---------------#
   #airiXSS : xss automater
   #eget "ferreiraklet/airixss" --to "$HOME/bin/airixss"
-  pushd "$(mktemp -d)" && git clone "https://github.com/ferreiraklet/airixss" && cd "./airixss"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ferreiraklet/airixss" && cd "./airixss"
   go mod init "github.com/ferreiraklet/airixss" ; go mod tidy
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./airixss" "$HOME/bin/airixss" ; popd
   go clean -cache -fuzzcache -modcache -testcache
@@ -84,19 +90,19 @@ fi
   #---------------#
   #amass : In-depth attack surface mapping and asset discovery 
   #eget "owasp-amass/amass" --asset "arm" --asset "64" --asset "zip" --to "$HOME/bin/amass" && mkdir -p "$HOME/.config/amass"
-  pushd "$(mktemp -d)" && git clone "https://github.com/owasp-amass/amass" && cd "./amass"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/owasp-amass/amass" && cd "./amass"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/amass" ; mv "./amass" "$HOME/bin/amass" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #analyticsrelationships : Get related domains / subdomains by looking at Google Analytics IDs 
-  pushd "$(mktemp -d)" && git clone "https://github.com/Josue87/AnalyticsRelationships" && cd "./AnalyticsRelationships"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Josue87/AnalyticsRelationships" && cd "./AnalyticsRelationships"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./analyticsrelationships" "$HOME/bin/analyticsrelationships" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #anew : A tool for adding new lines to files, skipping duplicates 
-  pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/anew" && cd "./anew"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/anew" && cd "./anew"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./anew" "$HOME/bin/anew" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #angle-grinder: Slice and dice logs on the command line 
-  pushd "$(mktemp -d)" && git clone "https://github.com/rcoh/angle-grinder" && cd "./angle-grinder"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/rcoh/angle-grinder" && cd "./angle-grinder"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -106,12 +112,12 @@ fi
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux" --to "$HOME/bin/aria2c"
   #---------------#
   #assetfinder : Find domains and subdomains related to a given domain 
-  pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/assetfinder" && cd "./assetfinder"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/assetfinder" && cd "./assetfinder"
   go mod init "github.com/tomnomnom/assetfinder" ; go mod tidy
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./assetfinder" "$HOME/bin/assetfinder" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #assh : 💻 make your ssh client smarter 
-  pushd "$(mktemp -d)" && git clone "https://github.com/moul/assh" && cd "./assh"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/moul/assh" && cd "./assh"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./assh" "$HOME/bin/assh" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -120,7 +126,7 @@ fi
   #---------------#
   #asnmap : Mapping organization network ranges using ASN information
   #eget "projectdiscovery/asnmap" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/asnmap"
-  pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/asnmap" && cd "./asnmap"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/asnmap" && cd "./asnmap"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/asnmap" ; mv "./asnmap" "$HOME/bin/asnmap" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -128,7 +134,7 @@ fi
   eget "atuinsh/atuin" --asset "linux" --asset "aarch64" --asset "musl" --to "$HOME/bin/atuin"
   #---------------#
   #b3sum : the official Rust and C implementations of the BLAKE3 cryptographic hash function
-  pushd "$(mktemp -d)" && git clone "https://github.com/BLAKE3-team/BLAKE3" && cd "./BLAKE3"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/BLAKE3-team/BLAKE3" && cd "./BLAKE3"
   cd "./b3sum"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
@@ -139,37 +145,51 @@ fi
   eget "sharkdp/bat" --asset "aarch" --asset "64" --asset "^amd" --to "$HOME/bin/bat" && ln -s "$HOME/bin/bat" "$HOME/bin/batcat"
   #---------------#
   #Berty : Secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
-  pushd "$(mktemp -d)" && git clone "https://github.com/berty/berty" && cd "./berty"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/berty/berty" && cd "./berty"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=1 go build -v -ldflags="-s -w -extldflags '-static'" "./go/cmd/berty"
   mv "./berty" "$HOME/bin/berty" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #Bandwhich : Terminal bandwidth utilization tool
-  pushd "$(mktemp -d)" && git clone "https://github.com/imsnif/bandwhich" && cd "./bandwhich"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/imsnif/bandwhich" && cd "./bandwhich"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/bandwhich" "$HOME/bin/bandwhich"
   #---------------#
+  #brename : tool for safely batch renaming files/directories via regular expression 
+  eget "shenwei356/brename" --asset "linux" --asset "arm64" --asset "^sha" --to "$HOME/bin/brename"
+  #---------------#
+  #bin: Effortless binary manager 
+  eget "marcosnils/bin" --asset "linux" --asset "arm64" --to "$HOME/bin/bin"
+  #---------------#
   #BinGrep :  like ~~grep~~ UBER, but for binaries 
-  pushd "$(mktemp -d)" && git clone "https://github.com/m4b/bingrep" && cd "./bingrep"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/m4b/bingrep" && cd "./bingrep"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/bingrep" "$HOME/bin/bingrep" 
   #---------------#
   #binocle : a graphical tool to visualize binary data 
-  pushd "$(mktemp -d)" && git clone "https://github.com/sharkdp/binocle" && cd "./binocle"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sharkdp/binocle" && cd "./binocle"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/binocle" "$HOME/bin/binocle" 
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/binocle" "$HOME/bin/binocle"
+  #---------------#
+  #bluetuith :  A TUI bluetooth manager for Linux.
+  eget "darkhz/bluetuith" --asset "Linux" --asset "arm64" --asset "tar.gz" --file "bluetuith" --to "$HOME/bin/bluetuith"
   #---------------#
   #BoltConn : Transparent and flexible L4/L7 networking manager, supporting WireGuard, firewall and scripted MitM
-  pushd "$(mktemp -d)" && git clone "https://github.com/XOR-op/BoltConn" && cd "./BoltConn"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/XOR-op/BoltConn" && cd "./BoltConn"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/boltconn" "$HOME/bin/boltconn"
+  #---------------#
+  #bombadillo : Browser for gopher | gemini | finger | local (a user's file system)
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://tildegit.org/sloum/bombadillo" && cd "./bombadillo"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./bombadillo" "$HOME/bin/bombadillo" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #bore : ngrok alternative for making tunnels to localhost 
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/bore/bore_aarch64_arm64_musl_Linux" --to "$HOME/bin/bore"
@@ -178,24 +198,30 @@ fi
   eget "ClementTsang/bottom" --asset "aarch" --asset "64" --asset "musl" --asset "^amd" --asset "^x86" --file "btm" --to "$HOME/bin/bottom"
   #---------------#
   #boringtun-cli : Userspace WireGuard® Implementation in Rust
-  pushd "$(mktemp -d)" && git clone "https://github.com/cloudflare/boringtun" && cd "./boringtun"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/cloudflare/boringtun" && cd "./boringtun"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --bin "boringtun-cli" --target "$TARGET" --release ; mv "./target/$TARGET/release/boringtun-cli" "$HOME/bin/boringtun-cli"
   #---------------#
   #boxxy : boxxy puts bad Linux applications in a box with only their files.
-  pushd $(mktemp -d) && git clone "https://github.com/queer/boxxy" && cd "./boxxy"
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/queer/boxxy" && cd "./boxxy"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/boxxy" "$HOME/bin/boxxy" ; popd
+  #---------------#
+  #broot : A new way to see and navigate directory trees
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/Canop/broot" && cd "./broot"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/broot" "$HOME/bin/broot" ; popd
   #---------------#
   #btop : htop clone | A monitor of resources 
   pushd "$(mktemp -d)" && curl -qfsSL $(curl -qfsSL "https://api.github.com/repos/aristocratos/btop/actions/artifacts?per_page=100" -H "Authorization: Bearer $GITHUB_TOKEN" | jq -r '[.artifacts[] | select(.name =="btop-aarch64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip"  
   unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec mv {} "$HOME/bin/btop" \; && popd
   #---------------#
   #BucketLoot : Automated S3-compatible bucket inspector
-  pushd "$(mktemp -d)" && git clone "https://github.com/redhuntlabs/BucketLoot" && cd "./BucketLoot"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/redhuntlabs/BucketLoot" && cd "./BucketLoot"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./bucketloot" "$HOME/bin/bucketloot" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -203,7 +229,7 @@ fi
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/busybox/busybox_aarch64_arm64_musl_Linux" --to "$HOME/bin/busybox"
   #---------------#
   #byp4xx : 40X/HTTP bypasser in Go. Features: Verb tampering, headers, #bugbountytips, User-Agents, extensions, default credentials
-  pushd "$(mktemp -d)" && git clone "https://github.com/lobuhi/byp4xx" && cd "./byp4xx"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/lobuhi/byp4xx" && cd "./byp4xx"
   go mod init "github.com/lobuhi/byp4xx" ; go mod tidy
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./byp4xx" "$HOME/bin/byp4xx" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -224,7 +250,7 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cherrybomb : Validating and Testing APIs using an OpenAPI file
-  pushd "$(mktemp -d)" && git clone "https://github.com/blst-security/cherrybomb" && cd "./cherrybomb"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/blst-security/cherrybomb" && cd "./cherrybomb"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -235,7 +261,7 @@ fi
   #---------------#
   #Cloudfox : Automating situational awareness for cloud penetration tests
   #eget "BishopFox/cloudfox" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/cloudfox"
-  pushd "$(mktemp -d)" && git clone "https://github.com/BishopFox/cloudfox" && cd "./cloudfox"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/BishopFox/cloudfox" && cd "./cloudfox"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./cloudfox" "$HOME/bin/cloudfox" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -254,15 +280,21 @@ fi
   #containerd : An open and reliable container runtime
   eget "containerd/containerd" --asset "linux" --asset "static" --asset "arm" --asset "64" --asset "^sha256sum" --to "$HOME/bin/containerd"
   #---------------#
-  # Cross-platform Rust rewrite of the GNU coreutils 
-  pushd "$(mktemp -d)" && git clone "https://github.com/uutils/coreutils" && cd "./coreutils"
+  #coreutils: Cross-platform Rust rewrite of the GNU coreutils 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/uutils/coreutils" && cd "./coreutils"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --features unix --release ; mv "./target/$TARGET/release/coreutils" "$HOME/bin/coreutils"
   #---------------#
+  #cotp : Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality.
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/replydev/cotp" && cd "./cotp"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/cotp" "$HOME/bin/cotp" ; popd
+  #---------------#
   #cowtiness : mimic an HTTP server and a DNS server, providing complete responses
-  pushd "$(mktemp -d)" && git clone "https://github.com/stolenusername/cowitness" && cd "./cowitness"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/stolenusername/cowitness" && cd "./cowitness"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./cowitness" "$HOME/bin/cowitness" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -273,7 +305,7 @@ fi
   eget "kubernetes-sigs/cri-tools" --asset "crictl" --asset "linux" --asset "arm" --asset "64" --asset "^sha" --to "$HOME/bin/crictl"
   #---------------#
   #crlfuzz : A fast tool to scan CRLF vulnerability written in Go
-  pushd "$(mktemp -d)" && git clone "https://github.com/dwisiswant0/crlfuzz" && cd "./crlfuzz"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dwisiswant0/crlfuzz" && cd "./crlfuzz"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/crlfuzz" ; mv "./crlfuzz" "$HOME/bin/crlfuzz" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #croc : Easily and securely send things from one computer to another
@@ -281,12 +313,15 @@ fi
   #---------------#
   #crt : A CLI tool to check Certificate Transparency logs of a domain name
   #eget "cemulus/crt" --asset "arm" --asset "64" --to "$HOME/bin/crt"
-  pushd "$(mktemp -d)" && git clone "https://github.com/cemulus/crt" && cd "./crt"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/cemulus/crt" && cd "./crt"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./crt" "$HOME/bin/crt" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #csprecon : Discover new target domains using Content Security Policy 
-  pushd "$(mktemp -d)" && git clone "https://github.com/edoardottt/csprecon" && cd csprecon
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/edoardottt/csprecon" && cd csprecon
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/csprecon" ; mv "./csprecon" "$HOME/bin/csprecon" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #csvtk : A cross-platform, efficient and practical CSV/TSV toolkit
+  eget "shenwei356/csvtk" --asset "linux" --asset "arm64" --asset "^sha" --to "$HOME/bin/csvtk"
   #---------------#
   #curl
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/curl/curl_aarch64_arm64_Linux" --to "$HOME/bin/curl"
@@ -295,40 +330,45 @@ fi
   eget "rs/curlie" --asset "linux" --asset "arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/curlie"
   #---------------#
   #cut-cdn : ✂️ Removing CDN IPs from the list of IP addresses
-  pushd "$(mktemp -d)" && git clone "https://github.com/ImAyrix/cut-cdn" && cd "./cut-cdn"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ImAyrix/cut-cdn" && cd "./cut-cdn"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./cut-cdn" "$HOME/bin/cut-cdn" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
-  #daktilo : Turn your keyboard into a typewriter! 📇 
-    #Errors out :/usr/bin/ld: cannot find -lasound: No such file or directory
-    pushd "$(mktemp -d)" && git clone "https://github.com/orhun/daktilo" && cd "./daktilo"
-    sudo apt-get install libasound2-dev libxi-dev libxtst-dev -y 
-    export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
-    sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
-    echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-    cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/daktilo" "$HOME/bin/daktilo"
-  #---------------#
   #dalfox : 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation. 
   eget "hahwul/dalfox" --asset "arm" --asset "64" --to "$HOME/bin/dalfox"
+  #---------------#
+  #Datadash : Visualize and graph data in the terminal 
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/keithknott26/datadash" && cd "./datadash"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./datadash" "./cmd/" ; mv "./datadash" "$HOME/bin/datadash" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #DevBox : Instant, easy, and predictable development environments
   # Requires Nix : curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --daemon
   #   Recommended: curl -qfsSL "https://install.determinate.systems/nix" | bash -s -- install
   eget "jetpack-io/devbox" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --asset "tar.gz" --to "$HOME/bin/devbox"
   #---------------#
+  #delta : A syntax-highlighting pager for git, diff, and grep output
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/dandavison/delta" && cd "./delta"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/delta" "$HOME/bin/delta" ; popd
+  #---------------#
+  #direnv: unclutter your .profile 
+  eget "direnv/direnv" --asset "linux" --asset "arm64" --to "$HOME/bin/direnv"
+  #---------------#
   #dirstat-rs : (fastest?) disk usage cli, similar to windirstat. 
-  pushd "$(mktemp -d)" && git clone "https://github.com/scullionw/dirstat-rs" && cd "./dirstat-rs"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/scullionw/dirstat-rs" && cd "./dirstat-rs"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/ds" "$HOME/bin/ds" ; popd
   #---------------#
   #dns-doctor : Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems
-  pushd "$(mktemp -d)" && git clone "https://github.com/jvns/dns-doctor" && cd "./dns-doctor"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/jvns/dns-doctor" && cd "./dns-doctor"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./dns-doctor" "$HOME/bin/dns-doctor" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #dnstake : Check missing hosted DNS zones that can lead to subdomain takeover 
-  pushd "$(mktemp -d)" && git clone "https://github.com/pwnesia/dnstake" && cd "./dnstake"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnesia/dnstake" && cd "./dnstake"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/dnstake" ; mv "./dnstake" "$HOME/bin/dnstake" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #dnsx : Multi-purpose DNS toolkit allow to run multiple DNS queries
@@ -363,36 +403,39 @@ fi
   #eget : Easily install prebuilt binaries from GitHub. 
   eget "zyedidia/eget" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --asset "^86" --to "$HOME/bin/eget"
   #---------------#
+  #enc : 🔑🔒 A modern and friendly CLI alternative to GnuPG
+  eget "life4/enc" --asset "linux" --asset "arm64" --asset "gz" --file "enc" --to "$HOME/bin/enc"
+  #---------------#
   #encode : Encode|Decode input from stdin
-  pushd "$(mktemp -d)" && git clone "https://github.com/Brum3ns/encode" && cd "./encode"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Brum3ns/encode" && cd "./encode"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/encode" ; mv "./encode" "$HOME/bin/encode" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #enumerepo : List all public repositories for (valid) GitHub usernames
   eget "trickest/enumerepo" --asset "arm" --asset "64" --asset "^x86" --to "$HOME/bin/enumerepo"
   #---------------#
   #eza : A modern replacement for ‘ls’. (Fork of exa)
-  pushd "$(mktemp -d)" && git clone "https://github.com/eza-community/eza" && cd "./eza"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/eza-community/eza" && cd "./eza"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/eza" "$HOME/bin/eza"
   #---------------#
   #fblog : Small command-line JSON Log viewer
-  pushd "$(mktemp -d)" && git clone "https://github.com/brocode/fblog" && cd "./fblog"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/brocode/fblog" && cd "./fblog"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/fblog" "$HOME/bin/fblog"
   #---------------#
   #fclones : Efficient Duplicate File Finder 
-  pushd "$(mktemp -d)" && git clone "https://github.com/pkolaczk/fclones" && cd "./fclones"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pkolaczk/fclones" && cd "./fclones"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/fclones" "$HOME/bin/fclones"
   #---------------#
   #fd : A simple, fast and user-friendly alternative to 'find'
-  pushd "$(mktemp -d)" && git clone "https://github.com/sharkdp/fd" && cd "./fd"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sharkdp/fd" && cd "./fd"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -422,14 +465,14 @@ fi
   eget "ffuf/ffuf" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/ffuf"
   #---------------#
   #ffufPostprocessing : Filter ffuf results
-  pushd "$(mktemp -d)" && git clone "https://github.com/Damian89/ffufPostprocessing" && cd "./ffufPostprocessing"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Damian89/ffufPostprocessing" && cd "./ffufPostprocessing"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./ffufPostprocessing" "$HOME/bin/ffufPostprocessing" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #filebrowser : 📂 Web File Browser
   eget "filebrowser/filebrowser" --asset "linux" --asset "arm" --asset "64" --to "$HOME/bin/filebrowser"
   #---------------#
   #findutils : Rust implementation of findutils 
-  pushd "$(mktemp -d)" && git clone "https://github.com/uutils/findutils" && cd "./findutils"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/uutils/findutils" && cd "./findutils"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -441,18 +484,24 @@ fi
   eget "wader/fq" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --asset "^86" --file "fq" --to "$HOME/bin/fq"
   #---------------#
   #fuzzuli : URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
-  pushd "$(mktemp -d)" && git clone "https://github.com/musana/fuzzuli" && cd "./fuzzuli"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/musana/fuzzuli" && cd "./fuzzuli"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./fuzzuli" "$HOME/bin/fuzzuli" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #fx: Terminal JSON viewer & processor
+  eget "antonmedv/fx" --asset "linux" --asset "arm64" --asset "gz" --to "$HOME/bin/fx"
+  #---------------#
   #fzf : 🌸 A command-line fuzzy finder 
-  eget "junegunn/fzf" --asset "linux_arm64.tar.gz" --to "$HOME/bin/fzf"
+  eget "junegunn/fzf" --asset "linux" --asset "arm64" --asset "gz" --to "$HOME/bin/fzf"
   #---------------#
   #gau : Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. 
   #eget "lc/gau" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/gau"
-  pushd "$(mktemp -d)" && git clone "https://github.com/lc/gau" && cd "./gau"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/lc/gau" && cd "./gau"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/gau" ; mv "./gau" "$HOME/bin/gau" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #getghrel(get github release) is a tool that fetches and installs the latest release assets from Github 
+  eget "kavishgr/getghrel" --asset "linux" --asset "arm64" --asset "gz" --to "$HOME/bin/getghrel"
   #---------------#
   #gdu : Fast disk usage analyzer with console interface written in Go 
   eget "dundee/gdu" --asset "gdu" --asset "linux" --asset "arm64" --asset "static" --asset "gz" --to "$HOME/bin/gdu"
@@ -465,14 +514,14 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./getJS" ; mv "./getJS" "$HOME/bin/getJS" ; popd ; go clean -cache -fuzzcache -modcache
   #---------------#
   #gf : A wrapper around grep
-  pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/gf" && cd "./gf"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/gf" && cd "./gf"
   go mod init github.com/tomnomnom/gf ; go mod tidy
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gf" "$HOME/bin/gf" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gfx : Updated gf
   #gfx --> symlinked to gf
   #eget "dwisiswant0/gfx" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/gfx" && ln -s "$HOME/bin/gfx" "$HOME/bin/gf"
-  pushd "$(mktemp -d)" && git clone "https://github.com/dwisiswant0/gfx" && cd "./gfx"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dwisiswant0/gfx" && cd "./gfx"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gfx" "$HOME/bin/gfx" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -483,7 +532,7 @@ fi
   eget "orhun/git-cliff" --asset "linux" --asset "aarch" --asset "musl" --asset "tar.gz" --asset "^amd" --asset "^sha" --asset "^sig" --file "git-cliff" --to "$HOME/bin/git-cliff"
   #---------------#
   #go-git : A highly extensible Git implementation in pure Go. 
-  pushd "$(mktemp -d)" && git clone "https://github.com/go-git/go-git" && cd "./go-git"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/go-git/go-git" && cd "./go-git"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; mv "./git-clone" "$HOME/bin/git-clone"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; mv "./git-checkout" "$HOME/bin/git-checkout"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; mv "./git-pull" "$HOME/bin/git-pull"
@@ -495,23 +544,23 @@ fi
   eget "git-lfs/git-lfs" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --file "git-lfs" --to "$HOME/bin/git-lfs"
   #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
-  pushd "$(mktemp -d)" && git clone "https://github.com/damit5/gitdorks_go" && cd "./gitdorks_go"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/damit5/gitdorks_go" && cd "./gitdorks_go"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gitdorks_go" "$HOME/bin/gitdorks_go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #github-endpoints : Find endpoints on GitHub
-  pushd "$(mktemp -d)" && git clone "https://github.com/gwen001/github-endpoints" && cd "./github-endpoints"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/gwen001/github-endpoints" && cd "./github-endpoints"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-endpoints" "$HOME/bin/github-endpoints" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #github-regexp : Basically a regexp over a GitHub search
-  pushd "$(mktemp -d)" && git clone "https://github.com/gwen001/github-regexp" && cd "./github-regexp"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/gwen001/github-regexp" && cd "./github-regexp"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-regexp" "$HOME/bin/github-regexp" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #github-subdomains : Find subdomains on GitHub
-  pushd "$(mktemp -d)" && git clone "https://github.com/gwen001/github-subdomains" && cd "./github-subdomains"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/gwen001/github-subdomains" && cd "./github-subdomains"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./github-subdomains" "$HOME/bin/github-subdomains" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitlab-subdomains : Find subdomains on Gitlab
-  pushd "$(mktemp -d)" && git clone "https://github.com/gwen001/gitlab-subdomains" && cd "./gitlab-subdomains"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/gwen001/gitlab-subdomains" && cd "./gitlab-subdomains"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gitlab-subdomains" "$HOME/bin/gitlab-subdomains" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitleaks : Protect and discover secrets using Gitleaks 🔑
@@ -521,7 +570,7 @@ fi
   eget "extrawurst/gitui" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --asset "gz" --to "$HOME/bin/gitui"
   #---------------#
   #gix : An idiomatic, lean, fast & safe pure Rust implementation of Git
-  pushd "$(mktemp -d)" && git clone "https://github.com/Byron/gitoxide" && cd "./gitoxide"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Byron/gitoxide" && cd "./gitoxide"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -539,19 +588,19 @@ fi
   eget "TimothyYe/godns" --asset "arm" --asset "64" --asset "^x86" --asset "gz" --to "$HOME/bin/godns"
   #---------------#
   #gofastld : go-fasttld is a high performance effective top level domains (eTLD) extraction module
-  pushd "$(mktemp -d)" && git clone "https://github.com/elliotwutingfeng/go-fasttld" && cd "./go-fasttld"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/elliotwutingfeng/go-fasttld" && cd "./go-fasttld"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./fasttld" "./cmd/main.go" ; mv "./fasttld" "$HOME/bin/fasttld" ; popd
   #---------------#
   #gofireprox : FireProx written in Go 
   eget "mr-pmillz/gofireprox" --asset "arm" --asset "64" --asset "linux" --asset "^x86" --asset "gz" --to "$HOME/bin/gofireprox"
   #---------------#
   #goop : Dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases
-  pushd "$(mktemp -d)" && git clone "https://github.com/nyancrimew/goop" && cd "./goop"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/nyancrimew/goop" && cd "./goop"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gorilla : Tool for generating wordlists or extending an existing one using mutations
-  pushd "$(mktemp -d)" && git clone "https://github.com/d4rckh/gorilla" && cd "./gorilla"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/d4rckh/gorilla" && cd "./gorilla"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/gorilla" "$HOME/bin/gorilla" ; popd
@@ -563,12 +612,12 @@ fi
   eget "tianon/gosu" --asset "arm64" --asset "^amd" --asset "^asc" --to "$HOME/bin/gosu"
   #---------------#
   #gotator : Generate DNS wordlists through permutations
-  pushd "$(mktemp -d)" && git clone "https://github.com/Josue87/gotator" && cd "./gotator"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Josue87/gotator" && cd "./gotator"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gotator" "$HOME/bin/gotator" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gowitness : 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
   #eget "sensepost/gowitness" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/gowitness"
-  pushd "$(mktemp -d)" && git clone "https://github.com/sensepost/gowitness" && cd "./gowitness"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sensepost/gowitness" && cd "./gowitness"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gowitness" "$HOME/bin/gowitness" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -576,7 +625,7 @@ fi
   eget "orf/gping" --asset "aarch" --asset "64" --asset "linux" --asset "musl" --asset "^x86" --asset "gz" --to "$HOME/bin/gping"
   #---------------#
   #gpg-tui : Manage your GnuPG keys with ease! 🔐
-  pushd "$(mktemp -d)" && git clone "https://github.com/orhun/gpg-tui" && cd "./gpg-tui"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/orhun/gpg-tui" && cd "./gpg-tui"
   sudo apt-get install libgpgme-dev libx11-dev libxcb-shape0-dev libxcb-xfixes0-dev libxkbcommon-dev -y
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
@@ -584,32 +633,35 @@ fi
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/gpg-tui" "$HOME/bin/gpg-tui"
   #---------------#
   #GRPCurl : Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers 
-  pushd "$(mktemp -d)" && git clone "https://github.com/fullstorydev/grpcurl" && cd "./grpcurl"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/fullstorydev/grpcurl" && cd "./grpcurl"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/grpcurl" ; mv "./grpcurl" "$HOME/bin/grpcurl" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #gup : Update binaries installed by "go install" with goroutines.
+  eget "nao1215/gup" --asset "linux" --asset "arm64" --asset "gz" --to "$HOME/bin/gup"
+  #---------------#
   #Gxss : A tool to check a bunch of URLs that contain reflecting params
-  pushd "$(mktemp -d)" && git clone "https://github.com/KathanP19/Gxss" && cd Gxss
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/KathanP19/Gxss" && cd Gxss
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/gxss" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hacker-scoper : Automagically filter URLs with Bug Bounty program scope rules scraped from the internet
-  pushd "$(mktemp -d)" && git clone "https://github.com/ItsIgnacioPortal/hacker-scoper" && cd "./hacker-scoper"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ItsIgnacioPortal/hacker-scoper" && cd "./hacker-scoper"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hacker-scoper" "$HOME/bin/hacker-scoper" ; popd
   #---------------#
   #hakip2host : takes a list of IP addresses via stdin, then does a series of checks to return associated domain names
-  pushd "$(mktemp -d)" && git clone "https://github.com/hakluke/hakip2host" && cd "./hakip2host"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/hakluke/hakip2host" && cd "./hakip2host"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakip2host" "$HOME/bin/hakip2host" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hakoriginfinder : Tool for discovering the origin host behind a reverse proxy
-  pushd "$(mktemp -d)" && git clone "https://github.com/hakluke/hakoriginfinder" && cd "./hakoriginfinder" 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/hakluke/hakoriginfinder" && cd "./hakoriginfinder" 
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakoriginfinder" "$HOME/bin/hakoriginfinder" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hakrawler : Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
-  pushd "$(mktemp -d)" && git clone "https://github.com/hakluke/hakrawler" && cd "hakrawler"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/hakluke/hakrawler" && cd "hakrawler"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakrawler" "$HOME/bin/hakrawler" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hakrevdns : Small, fast tool for performing reverse DNS lookups en masse.
-  pushd "$(mktemp -d)" && git clone "https://github.com/hakluke/hakrevdns" && cd "./hakrevdns"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/hakluke/hakrevdns" && cd "./hakrevdns"
   go mod init "github.com/hakluke/hakrevdns" ; go mod tidy
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./hakrevdns" "$HOME/bin/hakrevdns" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -617,12 +669,12 @@ fi
   eget "orhun/halp" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --asset "tar.gz" --asset "^amd" --asset "^sha" --asset "^sig" --file "halp" --to "$HOME/bin/halp"
   #---------------#
   #HEDnsExtractor : Raw html extractor from Hurricane Electric portal
-  pushd "$(mktemp -d)" && git clone "https://github.com/HuntDownProject/HEDnsExtractor" && cd HEDnsExtractor
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/HuntDownProject/HEDnsExtractor" && cd HEDnsExtractor
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/hednsextractor" ; mv "./hednsextractor" "$HOME/bin/hednsextractor" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #Hexyl: A command-line hex viewer
-  pushd "$(mktemp -d)" && git clone "https://github.com/sharkdp/hexyl" && cd "./hexyl"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sharkdp/hexyl" && cd "./hexyl"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET"
   export RUSTFLAGS="-C target-feature=+crt-static" ; sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -633,7 +685,7 @@ fi
   #---------------#
   #hrekt: A really fast http prober.
   #eget "ethicalhackingplayground/hrekt" --asset "^exe" --to "$HOME/bin/hrekt"
-  pushd "$(mktemp -d)" && git clone "https://github.com/ethicalhackingplayground/hrekt" && cd "./hrekt"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ethicalhackingplayground/hrekt" && cd "./hrekt"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET"
   export RUSTFLAGS="-C target-feature=+crt-static" ; sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -647,7 +699,7 @@ fi
   #---------------#
   #htmlq : Like jq, but for HTML
   #eget "mgdm/htmlq" --asset "x86_64-linux.tar.gz" --to "$HOME/bin/htmlq"
-  pushd "$(mktemp -d)" && git clone "https://github.com/mgdm/htmlq" && cd "./htmlq"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/mgdm/htmlq" && cd "./htmlq"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release
@@ -655,19 +707,19 @@ fi
   mv "./target/$TARGET/release/htmlq" "$HOME/bin/htmlq" ; popd
   #---------------#
   #httprobe : Take a list of domains and probe for working HTTP and HTTPS servers
-  pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/httprobe" && cd "./httprobe"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/httprobe" && cd "./httprobe"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./httprobe" "$HOME/bin/httprobe" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #httpx : httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes
   eget "projectdiscovery/httpx" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/httpx"
   #---------------#
   #Hub : A command-line tool that makes git easier to use with GitHub.
-  pushd "$(mktemp -d)" && git clone "https://github.com/mislav/hub" && cd "./hub"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/mislav/hub" && cd "./hub"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./hub" "$HOME/bin/hub" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hyperfine : A command-line benchmarking tool
-  pushd "$(mktemp -d)" && git clone "https://github.com/sharkdp/hyperfine" && cd "./hyperfine"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sharkdp/hyperfine" && cd "./hyperfine"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release
@@ -691,7 +743,7 @@ fi
   #---------------#
   #jaeles : The Swiss Army knife for automated Web Application Testing
   #eget "jaeles-project/jaeles" --asset "linux" --to "$HOME/bin/jaeles"
-  pushd "$(mktemp -d)" && git clone "https://github.com/jaeles-project/jaeles" && cd "./jaeles"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/jaeles-project/jaeles" && cd "./jaeles"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./jaeles" "$HOME/bin/jaeles" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -699,11 +751,14 @@ fi
   eget "jqlang/jq" --asset "linux" --asset "arm" --asset "64" --to "$HOME/bin/jq"
   #eget "jqlang/jq" --pre-release --tag "jq-1.7rc1" --asset "jq-linux-amd64" --to "$HOME/bin/jq"
   #---------------#
+  #jqp : TUI for jq
+  eget "noahgorstein/jqp" --asset "Linux" --asset "arm64" --file "jqp" --to "$HOME/bin/jqp"
+  #---------------#
   #just : A handy way to save and run project-specific commands.
   eget "casey/just" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --asset "^amd" --asset "^sha" --to "$HOME/bin/just"
   #---------------#
   #jwthack : 🔩 jwt-hack is tool for hacking / security testing to JWT
-  pushd "$(mktemp -d)" && git clone "https://github.com/hahwul/jwt-hack" && cd "./jwt-hack"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/hahwul/jwt-hack" && cd "./jwt-hack"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -717,22 +772,25 @@ fi
   #killport : A command-line tool to easily kill processes running on a specified port. 
   eget "jkfran/killport" --asset "linux" --asset "aarch" --asset "^86" --asset "64" --asset "tar.gz" --asset "^sha" --asset "^sig" --to "$HOME/bin/killport"
   #---------------#
-  #kondo : Cleans dependencies and build artifacts from your projects.
-  pushd "$(mktemp -d)" && git clone "https://github.com/tbillington/kondo" && cd "./kondo"
-  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
-  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/kondo" "$HOME/bin/kondo" ; popd
-  #---------------#
   #kmon : Linux Kernel Manager and Activity Monitor 🐧💻 
-  pushd "$(mktemp -d)" && git clone "https://github.com/orhun/kmon" && cd "./kmon"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/orhun/kmon" && cd "./kmon"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/kmon" "$HOME/bin/kmon" ; popd
   #---------------#
+  #kondo : Cleans dependencies and build artifacts from your projects.
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tbillington/kondo" && cd "./kondo"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/kondo" "$HOME/bin/kondo" ; popd
+  #---------------#
+  #kopia : Backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication
+  eget "kopia/kopia" --asset "linux" --asset "64" --asset "tar.gz" --asset "arm" --asset "^sha" --asset "^sig" --asset "^deb" --asset "^rpm" --to "$HOME/bin/kopia"
+  #---------------#
   #lazydocker : The lazier way to manage everything docker 
   eget "jesseduffield/lazydocker" --asset "Linux" --asset "arm" --asset "64" --to "$HOME/bin/lazydocker"
   #---------------#
-  # lazygit : simple terminal UI for git commands
+  #lazygit : simple terminal UI for git commands
   eget "jesseduffield/lazygit" --asset "Linux" --asset "arm" --asset "64" --asset "^amd" --file "lazygit" --to "$HOME/bin/lazygit"
   #---------------#
   #lf : Terminal file manager
@@ -742,7 +800,7 @@ fi
   eget "orhun/linuxwave" --asset "linux" --asset "aarch" --asset "64" --asset "tar.gz" --asset "^amd" --asset "^sha" --asset "^sig" --asset "^mac" --file "linuxwave" --to "$HOME/bin/linuxwave"
   #---------------#
   #lit-bb-hack-tools : misc bb tools
-  pushd "$(mktemp -d)" && git clone https://github.com/edoardottt/lit-bb-hack-tools && cd "./lit-bb-hack-tools"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" https://github.com/edoardottt/lit-bb-hack-tools && cd "./lit-bb-hack-tools"
   find . -type f -name '*.md' -exec rm {} \;
   find . -maxdepth 1 -type d ! -name '.git*' -exec sh -c 'export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -o "$1/$1_aarch64_arm64_Linux" -v -a -gcflags=all="-l -B -wb=false" -ldflags="-s -w -extldflags '\''-static'\''" "$1/"*' _ {} \;
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/" \;
@@ -751,14 +809,22 @@ fi
   #logtimer : Enhance your output with a timer / date 
   eget "Eun/logtimer" --asset "linux" --asset "64" --asset "arm" --asset "^x86" --asset "gz" --to "$HOME/bin/logtimer"
   #---------------#
+  #lux: 👾 Fast and simple video download library and CLI tool written in Go 
+  eget "iawia002/lux" --asset "Linux" --asset "arm64" --asset "tar.gz" --to "$HOME/bin/lux"
+  #---------------#
+  #mabel : A fancy BitTorrent client for the terminal. 
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/smmr-software/mabel" && cd "./mabel"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./mabel" "$HOME/bin/mabel" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #machinna : system-info-fetch
-  pushd "$(mktemp -d)" && git clone "https://github.com/Macchina-CLI/macchina" && cd "./macchina"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Macchina-CLI/macchina" && cd "./macchina"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/macchina" "$HOME/bin/macchina" ; popd
   #---------------#
   #maddy : ✉️ Composable all-in-one mail server. 
-  pushd $(mktemp -d) && git clone "https://github.com/foxcpp/maddy" && cd "./maddy"
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/foxcpp/maddy" && cd "./maddy"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/maddy" ; mv "./maddy" "$HOME/bin/maddy" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -766,12 +832,12 @@ fi
   eget "alajmo/mani" --asset "linux" --asset "arm" --asset "64" --asset "^86" --asset "tar.gz" --asset "^amd" --to "$HOME/bin/mani"
   #---------------#
   #mantra :「🔑」A tool used to hunt down API key leaks in JS files and pages 
-  pushd "$(mktemp -d)" && git clone "https://github.com/MrEmpy/mantra" && cd "./mantra"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/MrEmpy/mantra" && cd "./mantra"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Mantra" "$HOME/bin/mantra" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #mapcidr : Utility program to perform multiple operations for a given subnet/CIDR ranges
   #eget "projectdiscovery/mapcidr" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/mapcidr"
-  pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/mapcidr" ; mv "./mapcidr" "$HOME/bin/mapcidr" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #massdns : A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration) 
@@ -787,15 +853,34 @@ fi
   # Learn : https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md
   eget "zyedidia/micro" --asset "linux" --asset "arm" --asset "64" --asset "static" --asset "gz" --to "$HOME/bin/micro"
   #---------------#
+  #miller : Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON 
+  eget "johnkerl/miller" --asset "linux" --asset "arm" --asset "64" --asset "tar.gz" --asset "^amd" --asset "^86" --asset "^sha" --asset "^sig" --asset "^deb" --asset "^rpm" --file "mlr" --to "$HOME/bin/mlr"
+  #---------------#
   #miniserve : CLI tool to serve files and dirs over HTTP
   eget "svenstaro/miniserve" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --to "$HOME/bin/miniserve"
+  #---------------#
+  #minisign: A dead simple tool to sign files and verify digital signatures. 
+  pushd "$(mktemp -d)" && eget "jedisct1/minisign" --asset "linux" --asset "^tar.gz.minisig" --asset "^x86_64" --asset "^aarch" --file "aarch64"
+  find . -type f -name "minisign" -exec mv {} "$HOME/bin/minisign" \; && popd
   #---------------#
   #mksub : Generate tens of thousands of subdomain combinations in a matter of seconds 
   eget "trickest/mksub" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/mksub"
   #---------------#
+  #mdsh : `$ mdsh` # a markdown shell pre-processor 
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/zimbatm/mdsh" && cd "./mdsh"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/mdsh" "$HOME/bin/mdsh" ; popd
+  #---------------#
+  #mqttui : Subscribe to a MQTT Topic or publish something quickly from the terminal 
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/EdJoPaTo/mqttui" && cd "./mqttui"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/mqttui" "$HOME/bin/mqttui" ; popd
+  #---------------#
   #mubeng : An incredibly fast proxy checker & IP rotator with ease
   #eget "kitabisa/mubeng" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/mubeng"
-  pushd "$(mktemp -d)" && git clone "https://github.com/kitabisa/mubeng" && cd "./mubeng"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/kitabisa/mubeng" && cd "./mubeng"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/mubeng" ; mv "./mubeng" "$HOME/bin/mubeng" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -809,7 +894,7 @@ fi
   eget "netbirdio/netbird" --asset "linux" --asset "arm" --asset "64" --asset "tar.gz" --asset "^ui" --file "netbird" --to "$HOME/bin/netbird"
   #---------------#
   #NetMaker : makes networks with WireGuard
-  pushd "$(mktemp -d)" && git clone "https://github.com/gravitl/netmaker" && cd "./netmaker"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/gravitl/netmaker" && cd "./netmaker"
   #Requires CGO for sqlite
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=1 go build -v -ldflags="-s -w -extldflags '-static'" ; echo -e "\n" && file "./netmaker" && echo -e "\n"
   mv "./netmaker" "$HOME/bin/netmaker"
@@ -824,7 +909,7 @@ fi
   #---------------#
   #nmap-formatter : A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
   #eget "vdjagilev/nmap-formatter" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/nmap-formatter"
-  pushd "$(mktemp -d)" && git clone "https://github.com/vdjagilev/nmap-formatter" && cd "./nmap-formatter"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/vdjagilev/nmap-formatter" && cd "./nmap-formatter"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./nmap-formatter" "$HOME/bin/nmap-formatter" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -841,7 +926,7 @@ fi
   eget "hatoo/oha" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/oha"
   #---------------#
   #OneTun: User space WireGuard proxy in Rust
-  pushd "$(mktemp -d)" && git clone "https://github.com/aramperes/onetun" && cd "./onetun"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/aramperes/onetun" && cd "./onetun"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -849,7 +934,7 @@ fi
   #---------------#
   #openrisk : Generates a risk score based on the results of a Nuclei scan
   #eget "projectdiscovery/openrisk" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/openrisk"
-  pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/openrisk" && cd "./openrisk"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/openrisk" && cd "./openrisk"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/openrisk" ; mv "./openrisk" "$HOME/bin/openrisk" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -858,7 +943,7 @@ fi
   #---------------#
   #osmedeus : A Workflow Engine for Offensive Security
   #eget "j3ssie/osmedeus" --asset "linux.zip" --to "$HOME/bin/osmedeus"
-  pushd "$(mktemp -d)" && git clone "https://github.com/j3ssie/osmedeus" && cd osmedeus
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/j3ssie/osmedeus" && cd osmedeus
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./osmedeus" "$HOME/bin/osmedeus" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -872,7 +957,7 @@ fi
   eget "sosedoff/pgweb" --asset "linux" --asset "arm64" --asset "^v7" --to "$HOME/bin/pgweb"
   #---------------#
   #pkgtop : Interactive package manager and resource monitor designed for the GNU/Linux.
-  pushd "$(mktemp -d)" && git clone "https://github.com/orhun/pkgtop" && cd "./pkgtop"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/orhun/pkgtop" && cd "./pkgtop"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/pkgtop.go"
   mv "./pkgtop" "$HOME/bin/pkgtop" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -880,23 +965,31 @@ fi
   eget "containers/podman" --asset "podman" --asset "remote" --asset "static" --asset "linux" --asset "arm64" --to "$HOME/bin/podman" 
   #---------------#
   #ppfuzz : A fast tool to scan client-side prototype pollution vulnerability
-  pushd "$(mktemp -d)" && git clone "https://github.com/dwisiswant0/ppfuzz" && cd "./ppfuzz"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dwisiswant0/ppfuzz" && cd "./ppfuzz"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/ppfuzz" "$HOME/bin/ppfuzz" ; popd
   #---------------#
+  #ppath : Pretty Print your system's PATH environment variable.
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/marwanhawari/ppath" && cd "./ppath"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./ppath" "$HOME/bin/ppath" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #pping : tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping
   eget "wzv5/pping" --asset "Linux" --asset "arm" --asset "^x86" --asset "64" --asset "tar.gz" --to "$HOME/bin/pping"
   #---------------#
+  #prettyping: Ping prettier, more colorful, more compact, and easier to read
+  eget "https://raw.githubusercontent.com/denilsonsa/prettyping/master/prettyping" --to "$HOME/bin/prettyping" && chmod +xwr "$HOME/bin/prettyping"
+  #---------------#
   #procs : A modern replacement for ps written in Rust
-  pushd "$(mktemp -d)" && git clone "https://github.com/dalance/procs" && cd "./procs"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dalance/procs" && cd "./procs"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/procs" "$HOME/bin/procs" ; popd
   #---------------#
   #proxify : A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go
   #eget "projectdiscovery/proxify" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/proxify"
-  pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/proxify" && cd "./proxify"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/proxify" && cd "./proxify"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/proxify" ; mv "./proxify" "$HOME/bin/proxify" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -911,7 +1004,7 @@ fi
   eget "userdocs/qbittorrent-nox-static" --asset "64" --asset "aarch" --asset "^x86" --asset "^qt" --to "$HOME/bin/qbittorrent-nox"
   #---------------#
   #qsreplace : Accept URLs on stdin, replace all query string values with a user-supplied value 
-  pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/qsreplace" && cd "./qsreplace"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/qsreplace" && cd "./qsreplace"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #qsv : CSVs sliced, diced & analyzed.
@@ -925,24 +1018,35 @@ fi
   #rclone : rsync for cloud storage
   eget "rclone/rclone" --asset "arm" --asset "64" --asset "linux" --asset "^amd" --asset "zip" --to "$HOME/bin/rclone"
   #---------------#
+  #redive : Trace URL redirections in the terminal.
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/neelkarma/redive" && cd "./redive"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/redive" "$HOME/bin/redive" ; popd
+  #---------------#
   #rescope : A scope generation tool for Burp Suite & ZAP
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
-  cd /tmp && git clone "https://github.com/root4loot/rescope" && cd "./rescope"
+  cd /tmp && git clone --filter "blob:none" "https://github.com/root4loot/rescope" && cd "./rescope"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./rescope" "$HOME/bin/rescope" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #resDNS : Wrapper around [dnsx + puredns + shuffledns] for Efficient DNS Resolution
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/resdns/resdns.sh" --to "$HOME/bin/resdns"
   #---------------#
+  #resto : 🔗 Send pretty HTTP & API requests with TUI.
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/abdfnx/resto" && cd "./resto"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./resto" "$HOME/bin/resto" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #revit : A command-line utility for performing reverse DNS lookups
-  pushd "$(mktemp -d)" && git clone "https://github.com/devanshbatham/revit" && cd "./revit"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/devanshbatham/revit" && cd "./revit"
   rm go.mod ; rm go.sum ; go mod init github.com/devanshbatham/revit ; go mod tidy
   go get github.com/devanshbatham/revit/cmd/revit
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/revit" ; mv "./revit" "$HOME/bin/revit" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ripgen : Rust-based high performance domain permutation generator
-  pushd "$(mktemp -d)" && git clone "https://github.com/resyncgg/ripgen" && cd "./ripgen"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/resyncgg/ripgen" && cd "./ripgen"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/ripgen" "$HOME/bin/ripgen" ; popd
@@ -951,13 +1055,13 @@ fi
   eget "BurntSushi/ripgrep" --asset "aarch" --asset "64" --asset "^amd" --to "$HOME/bin/rg"
   #---------------#
   #ripgrep-all : ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc
-  pushd "$(mktemp -d)" && git clone "https://github.com/phiresky/ripgrep-all" && cd "./ripgrep-all"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/phiresky/ripgrep-all" && cd "./ripgrep-all"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/rga" "$HOME/bin/rga" ; popd
   #---------------#
   #roboxtractor : Extract endpoints marked as disallow in robots files to generate wordlists
-  pushd "$(mktemp -d)" && git clone "https://github.com/Josue87/roboxtractor" && cd "./roboxtractor"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Josue87/roboxtractor" && cd "./roboxtractor"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./roboxtractor" "$HOME/bin/roboxtractor" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #rootlesskit : Linux-native "fake root" for implementing rootless containers 
@@ -972,11 +1076,14 @@ fi
   #runc : CLI tool for spawning and running containers according to the OCI specification
   eget "opencontainers/runc" --asset "arm" --asset "64" --asset "^asc" --to "$HOME/bin/runc"
   #---------------#
+  #runme : Execute your runbooks, docs, and READMEs.
+  eget "stateful/runme" --asset "linux" --asset "arm64" --asset "tar.gz" --file "runme" --to "$HOME/bin/runme"
+  #---------------#
   #rush : A cross-platform command-line tool for executing jobs in parallel
   eget "shenwei356/rush" --asset "rush" --asset "linux" --asset "arm" --asset "64" --asset "gz" --to "$HOME/bin/rush"
   #---------------#
   #rustypaste : A minimal file upload/pastebin service.
-  pushd "$(mktemp -d)" && git clone "https://github.com/orhun/rustypaste" && cd "./rustypaste"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/orhun/rustypaste" && cd "./rustypaste"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustypaste" "$HOME/bin/rustypaste" ; popd
@@ -986,7 +1093,7 @@ fi
   #---------------#
   #Rustscan : 🤖 The Modern Port Scanner 🤖  
   #GH Releases are outdated
-  pushd "$(mktemp -d)" && git clone "https://github.com/RustScan/RustScan" && cd "./RustScan"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/RustScan/RustScan" && cd "./RustScan"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustscan" "$HOME/bin/rustcan" ; popd
@@ -998,7 +1105,7 @@ fi
   eget "sa7mon/S3Scanner" --asset "Linux" --asset "arm" --asset "^x86" --asset "64" --asset "gz" --to "$HOME/bin/s3scanner"
   #---------------#
   #scilla : Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration 
-  pushd "$(mktemp -d)" && git clone "https://github.com/edoardottt/scilla" && cd "./scilla"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/edoardottt/scilla" && cd "./scilla"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/scilla" ; mv "./scilla" "$HOME/bin/scilla" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #scopegen : Generates .scope compatible format for ScopeView (based on TomNomNom's Inscope)
@@ -1019,7 +1126,7 @@ fi
   eget "https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev" --to "$HOME/bin/screenfetch" ; chmod +xwr "$HOME/bin/screenfetch"
   #---------------#
   #shellharden : The corrective bash syntax highlighter 
-  pushd $(mktemp -d) && git clone "https://github.com/anordal/shellharden" && cd "./shellharden"
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/anordal/shellharden" && cd "./shellharden"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/shellharden" "$HOME/bin/shellharden" ; popd
@@ -1036,22 +1143,22 @@ fi
   eget "projectdiscovery/shuffledns" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/shuffledns"
   #---------------#
   #shortscan : An IIS short filename enumeration tool 
-  pushd "$(mktemp -d)" && git clone "https://github.com/bitquark/shortscan" && cd "./shortscan"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/bitquark/shortscan" && cd "./shortscan"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/shortscan" ; mv "./shortscan" "$HOME/bin/shortscan" 
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/shortutil" ; mv "./shortutil" "$HOME/bin/shortutil"
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #go-simplehttpserver : Go alternative of python SimpleHTTPServer
-  pushd "$(mktemp -d)" && git clone "https://github.com/projectdiscovery/simplehttpserver" && cd "./simplehttpserver"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/simplehttpserver" && cd "./simplehttpserver"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/simplehttpserver" ; mv "./simplehttpserver" "$HOME/bin/go-simplehttpserver" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #smap : a drop-in replacement for Nmap powered by shodan.io
-  pushd "$(mktemp -d)" && git clone "https://github.com/s0md3v/Smap" && cd "./Smap"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/s0md3v/Smap" && cd "./Smap"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/smap" ; mv "./smap" "$HOME/bin/smap" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #sns : IIS shortname scanner written in Go 
-  pushd "$(mktemp -d)" && git clone "https://github.com/sw33tLie/sns" && cd "./sns"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sw33tLie/sns" && cd "./sns"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./sns" "$HOME/bin/sns" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1059,13 +1166,13 @@ fi
   eget "showwin/speedtest-go" --asset "Linux" --asset "arm" --asset "^x86" --asset "64" --asset "gz" --to "$HOME/bin/speedtest-go"
   #---------------#
   #spk : A small OSINT/Recon tool to find CIDRs that belong to a specific organization
-  pushd "$(mktemp -d)" && git clone "https://github.com/dhn/spk" && cd "./spk"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dhn/spk" && cd "./spk"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -o "spk_aarch64_arm64_Linux" -v -ldflags="-s -w -extldflags '-static'"
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/spk" \;
   go clean -cache -fuzzcache -modcache -testcache ; popd
   #---------------#
   #spoofdpi : A simple and fast anti-censorship tool written in Go
-  pushd "$(mktemp -d)" && git clone "https://github.com/xvzc/SpoofDPI" && cd "./SpoofDPI"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/xvzc/SpoofDPI" && cd "./SpoofDPI"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/spoof-dpi"
   mv "./spoof-dpi" "$HOME/bin/spoof-dpi" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1097,7 +1204,7 @@ fi
   #eget "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/openssh/sshd_config_aarch64_arm64_Linux" --to "$HOME/bin/sshd_config"
   #---------------#
   #sshesame : SSH honeypot, a fake SSH server that lets anyone in and logs their activity
-  pushd "$(mktemp -d)" && git clone "https://github.com/jaksi/sshesame" && cd "./sshesame"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/jaksi/sshesame" && cd "./sshesame"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./sshesame" "$HOME/bin/sshesame" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1105,12 +1212,17 @@ fi
   eget "Eun/sshkeys" --asset "linux" --asset "arm" --asset "64" --asset "gz" --to "$HOME/bin/sshkeys"
   #---------------#
   #sshportal : Embedded SSH Server & Client meant for temp ssh access using invite codes
-  pushd "$(mktemp -d)" && git clone "https://github.com/moul/sshportal" && cd "./sshportal"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/moul/sshportal" && cd "./sshportal"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./sshportal" "$HOME/bin/sshportal" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #starship : ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! 
   eget "starship/starship" --asset "aarch" --asset "64" --asset "^amd" --to "$HOME/bin/starship"
+  #---------------#
+  #stew : 🥘 An independent package manager for compiled binaries.
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/marwanhawari/stew" && cd "./stew"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./stew" "$HOME/bin/stew" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #sttr : cli app to perform various operations on string
   eget "abhimanyu003/sttr" --asset "arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/sttr"
@@ -1122,19 +1234,19 @@ fi
   eget "projectdiscovery/subfinder" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/subfinder"
   #---------------#
   #subjs : Fetches javascript file from a list of URLS or subdomains
-  pushd "$(mktemp -d)" && git clone "https://github.com/lc/subjs" && cd "./subjs"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/lc/subjs" && cd "./subjs"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./subjs" "$HOME/bin/subjs" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #subxtract : Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$HOME/bin/subxtract"
   #---------------#
   #surf : filter a list of hosts, returning a list of viable SSRF candidates
-  pushd "$(mktemp -d)" && git clone "https://github.com/assetnote/surf" && cd "./surf"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/assetnote/surf" && cd "./surf"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/surf" ; mv "./surf" "$HOME/bin/surf" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #systemctl-tui : A fast, simple TUI for interacting with systemd services and their logs
-  pushd "$(mktemp -d)" && git clone "https://github.com/rgwood/systemctl-tui" && cd "./systemctl-tui"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/rgwood/systemctl-tui" && cd "./systemctl-tui"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -1148,13 +1260,19 @@ fi
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/tailscale/tailscaled_aarch64_arm64_Linux" --to "$HOME/bin/tailscaled"
   #---------------#
   #tailspin : 🌀 A log file highlighter 
-  pushd "$(mktemp -d)" && git clone "https://github.com/bensadeh/tailspin" && cd "./tailspin"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/bensadeh/tailspin" && cd "./tailspin"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/tspin" "$HOME/bin/tailspin" ; popd
   #---------------#
+  #tdl : 📥 A Telegram downloader/tools written in Golang 
+  eget "iyear/tdl" --asset "Linux" --asset "arm64" --asset "tar.gz" --to "$HOME/bin/tdl"
+  #---------------#
   #tere : Terminal Dir Navigator
   eget "mgunyho/tere" --asset "^x86" --asset "aarch" --asset "64" --asset "musl" --asset "zip" --to "$HOME/bin/tere"
+  #---------------#
+  #tldr : Simplified and community-driven man pages 
+  eget "https://raw.githubusercontent.com/raylee/tldr-sh-client/main/tldr" --to "$HOME/bin/tldr" && chmod +xwr "$HOME/bin/tldr"
   #---------------#
   #tlsx : Fast and configurable TLS grabber focused on TLS based data collection
   eget "projectdiscovery/tlsx" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/tlsx"
@@ -1179,6 +1297,14 @@ fi
   #trufflehog : Find and verify credentials
   eget "trufflesecurity/trufflehog" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/trufflehog"
   #---------------#
+  #tuiarchiver : terminal application to list / manage archives
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://codeberg.org/dnalor/tuiarchiver" && cd "./tuiarchiver"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./tuiarchiver" "$HOME/bin/tuiarchiver" ; popd
+  go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #tut: TUI for Mastodon with vim inspired keys
+  eget "RasmusLindroth/tut" --asset "arm64" --asset "static" --to "$HOME/bin/tut"
+  #---------------#
   #twingate : programmatically deploy and maintain a zero trust approach to infrastructures
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_client_aarch64_arm64_dynamic_Linux" --to "$HOME/bin/twingate-client"
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connector_aarch64_arm64_dynamic_Linux" --to "$HOME/bin/twingate-connector"
@@ -1192,7 +1318,7 @@ fi
   eget "oz/tz" --asset "linux" --asset "arm64" --asset "^sha" --to "$HOME/bin/tz"
   #---------------#
   #udpx : a single-packet UDP port scanner
-  pushd "$(mktemp -d)" && git clone "https://github.com/nullt3r/udpx" && cd "./udpx"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/nullt3r/udpx" && cd "./udpx"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/udpx" ; mv "./udpx" "$HOME/bin/udpx" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1201,20 +1327,23 @@ fi
   #---------------#
   #unfurl : Pull out bits of URLs provided on stdin 
   #eget "tomnomnom/unfurl" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/unfurl"
-  pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/unfurl" && cd "./unfurl"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/unfurl" && cd "./unfurl"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./unfurl" "$HOME/bin/unfurl" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #upx : Ultimate Packer for eXecutables
   eget "upx/upx" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/upx"
   #---------------#
+  #usql: Universal command-line interface for SQL databases 
+  eget "xo/usql" --asset "linux" --asset "arm64" --asset "tar" --asset "static" --file "usql_static" --to "$HOME/bin/usql"
+  #---------------#
   #u-root : create a one-binary root file system (initramfs) containing a busybox-like set of tools
-  pushd $(mktemp -d) && git clone "https://github.com/u-root/u-root" && cd "./u-root"
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/u-root/u-root" && cd "./u-root"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./u-root" "$HOME/bin/u-root" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #validtoml : simple toml validitor
-  pushd "$(mktemp -d)" && git clone "https://github.com/martinlindhe/validtoml" && cd "./validtoml"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/martinlindhe/validtoml" && cd "./validtoml"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./validtoml" "$HOME/bin/validtoml" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1237,42 +1366,42 @@ fi
   find . -type f -name 'vtm' -exec mv {} "$HOME/bin/vtm" \; && popd
   #---------------#
   #wadl-dumper : Dump all available paths and/or endpoints on WADL file
-  pushd "$(mktemp -d)" && git clone "https://github.com/dwisiswant0/wadl-dumper" && cd "./wadl-dumper"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dwisiswant0/wadl-dumper" && cd "./wadl-dumper"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./wadl-dumper" "$HOME/bin/wadl-dumper" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
-  #wappalyzergo (Just a library not cli)
-  #eget "projectdiscovery/wappalyzergo" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/wappalyzergo"
+  #walk: Terminal file manager 
+  eget "antonmedv/walk" --asset "linux" --asset "arm64" --asset "gz" --to "$HOME/bin/walk"
   #---------------#
   #watchexec : Executes commands in response to file modifications 
   #https://github.com/watchexec/watchexec
   eget "watchexec/watchexec" --asset "aarch64" --asset "linux" --asset "musl" --asset "tar.xz" --asset "^sha" --asset "^sig" --asset "^b3" --to "$HOME/bin/watchexec"
   #---------------#
   #waybackrobots : Enumerate old versions of robots.txt paths using Wayback Machine for content discovery
-  pushd "$(mktemp -d)" && git clone "https://github.com/mhmdiaa/waybackrobots" && cd "./waybackrobots"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/mhmdiaa/waybackrobots" && cd "./waybackrobots"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./waybackrobots" "$HOME/bin/waybackrobots" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #waybackurls : Fetch all the URLs that the Wayback Machine knows about for a domain
   # pre made is static
   #eget "tomnomnom/waybackurls" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/waybackurls"
-  pushd "$(mktemp -d)" && git clone "https://github.com/tomnomnom/waybackurls" && cd "./waybackurls"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tomnomnom/waybackurls" && cd "./waybackurls"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./waybackurls" "$HOME/bin/waybackurls"
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #Web-Cache-Vulnerability-Scanner : CLI tool for testing for web cache poisoning
-  pushd "$(mktemp -d)" && git clone "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner" && cd "./Web-Cache-Vulnerability-Scanner"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner" && cd "./Web-Cache-Vulnerability-Scanner"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/web-cache-vulnerability-scanner" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #WebSocat : netcat (or curl) for ws:// with advanced socat-like functions
   eget "vi/websocat" --asset "^86" --asset "64" --asset "linux" --asset "musl" --asset "aarch" --asset "max" --to "$HOME/bin/websocat"
   #---------------#
   #WireGuard-go : Go Implementation of WireGuard
-  pushd "$(mktemp -d)" && git clone "https://git.zx2c4.com/wireguard-go" && cd "./wireguard-go"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://git.zx2c4.com/wireguard-go" && cd "./wireguard-go"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./wireguard-go"
   mv "./wireguard-go" "$HOME/bin/wireguard-go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #WireGuard-rs : Rust Implementation of WireGuard
-  pushd "$(mktemp -d)" && git clone "https://git.zx2c4.com/wireguard-rs" && cd "./wireguard-rs"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://git.zx2c4.com/wireguard-rs" && cd "./wireguard-rs"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
   echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
@@ -1285,7 +1414,7 @@ fi
   eget "sandialabs/wiretap" --asset "linux" --asset "arm" --asset "64" --asset "tar.gz" --to "$HOME/bin/wiretap"
   #---------------#
   #wormhole-rs : Rust implementation of Magic Wormhole, with new features and enhancements
-  pushd "$(mktemp -d)" && git clone "https://github.com/magic-wormhole/magic-wormhole.rs" && cd "./magic-wormhole.rs"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/magic-wormhole/magic-wormhole.rs" && cd "./magic-wormhole.rs"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/wormhole-rs" "$HOME/bin/wormhole-rs" ; popd
@@ -1293,22 +1422,25 @@ fi
   #wtfutil : The personal information dashboard for your terminal 
   eget "wtfutil/wtf" --asset "linux" --asset "arm64" --file "wtfutil" --to "$HOME/bin/wtfutil"
   #---------------#
+  #xplr : A hackable, minimal, fast TUI file explorer 
+  eget "sayanarijit/xplr" --asset "linux" --asset "aarch64" --asset "^arm" --asset "^asc" --asset "^sha" --to "$HOME/bin/xplr"
+  #---------------#
   #xurls : Extract urls from text 
   eget "mvdan/xurls" --asset "linux" --asset "arm64" --to "$HOME/bin/xurls"
   #---------------#
   #yalis : Yet Another LinkedIn Scraper 
-  pushd "$(mktemp -d)" && git clone "https://github.com/EatonChips/yalis" && cd "./yalis"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/EatonChips/yalis" && cd "./yalis"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./yalis" "$HOME/bin/yalis" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #yataf : yataf extracts secrets and paths from files or urls - its best used against javascript files 
-  pushd "$(mktemp -d)" && git clone "https://github.com/Damian89/yataf" && cd "./yataf"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Damian89/yataf" && cd "./yataf"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -o "yataf_aarch64_arm64_Linux" -v -ldflags="-s -w -extldflags '-static'"
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/yataf" \;
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #yj: Convert between YAML, TOML, JSON, and HCL
-  pushd "$(mktemp -d)" && git clone "https://github.com/sclevine/yj" && cd "./yj"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sclevine/yj" && cd "./yj"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ;  mv "./yj" "$HOME/bin/yj" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1316,7 +1448,7 @@ fi
   eget "mikefarah/yq" --asset "yq" --asset "linux" --asset "arm64" --asset "^.tar.gz" --to "$HOME/bin/yq"
   #---------------#
   #zdns : Fast CLI DNS Lookup Tool 
-  pushd "$(mktemp -d)" && git clone "https://github.com/zmap/zdns" && cd "./zdns"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/zmap/zdns" && cd "./zdns"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./zdns" "$HOME/bin/zdns" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1324,13 +1456,13 @@ fi
   eget "zellij-org/zellij" --asset "linux" --asset "musl" --asset "aarch" --asset "64" --asset "^sha256sum" --to "$HOME/bin/zellij"
   #---------------#
   #zenith : sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage
-  pushd "$(mktemp -d)" && git clone "https://github.com/bvaisvil/zenith" && cd "./zenith"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/bvaisvil/zenith" && cd "./zenith"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/zenith" "$HOME/bin/zenith" ; popd
   #---------------#
   #zgrab2 : Fast Go Application Scanner 
-  pushd "$(mktemp -d)" && git clone "https://github.com/zmap/zgrab2" && cd "./zgrab2"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/zmap/zgrab2" && cd "./zgrab2"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/zgrab2" ; mv "./zgrab2" "$HOME/bin/zgrab2" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
