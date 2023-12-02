@@ -258,6 +258,12 @@ jobs:
 
       - name: Update Binaries (x86_64)
         run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #list && meta
+          ls /tmp/x86_64/* -lahr
+          file /tmp/x86_64/*
           #Copy to Repo
           #Exclude copying bins > 100 MB
           find "/tmp/x86_64" -maxdepth 1 -type f ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/x86_64" \;
@@ -265,6 +271,12 @@ jobs:
 
       - name: Update Binaries (aarch64_arm64)
         run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #list && meta
+          ls /tmp/aarch64_arm64/* -lahr
+          file /tmp/aarch64_arm64/*
           #Copy to Repo
           #Exclude copying bins > 100 MB
           find "/tmp/aarch64_arm64" -maxdepth 1 -type f ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/aarch64_arm64" \;
