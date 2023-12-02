@@ -210,7 +210,7 @@
 | **chafa-static** | 1.12.5-1 | Static libraries for chafa | https://hpjansson.org/chafa/ |
 | **check** | 0.15.2-2 | A unit testing framework for C | https://libcheck.github.io/check |
 | **check-static** | 0.15.2-2 | Static libraries for check | https://libcheck.github.io/check |
-| **chezmoi** | 2.42.1 | Manage your dotfiles across multiple machines | https://chezmoi.io |
+| **chezmoi** | 2.42.2 | Manage your dotfiles across multiple machines | https://chezmoi.io |
 | **chicken** | 5.3.0 | A feature rich Scheme compiler and interpreter | https://www.call-cc.org |
 | **chicken-static** | 5.3.0 | Static libraries for chicken | https://www.call-cc.org |
 | **choose** | 1.3.4 | A human-friendly and fast alternative to cut and (sometimes) awk | https://github.com/theryangeary/choose |
@@ -1604,7 +1604,7 @@
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
 | **miniflux** | 2.0.50 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
-| **minio** | 2023.11.20.22.40.07 | Multi-Cloud Object Storage | https://min.io/ |
+| **minio** | 2023.12.02.10.51.33 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
 | **minisign** | 0.11-1 | A dead simple tool to sign files and verify signatures | https://jedisct1.github.io/minisign/ |
 | **miniupnpc** | 2.2.5 | Small UPnP client library and tool to access Internet Gateway Devices | https://miniupnp.tuxfamily.org/ |
@@ -1617,7 +1617,7 @@
 | **mktorrent** | 1.1-p20210130-0 | command line utility to create BitTorrent metainfo files | https://github.com/Rudde/mktorrent |
 | **mlir** | 17.0.6 | A Multi-Level Intermediate Representation for compilers from LLVM | https://clang.llvm.org/ |
 | **mlocate** | 0.26-5 | Tool to find files anywhere in the filesystem based on their name | https://pagure.io/mlocate |
-| **mold** | 2.3.3 | mold: A Modern Linker | https://github.com/rui314/mold |
+| **mold** | 2.4.0 | mold: A Modern Linker | https://github.com/rui314/mold |
 | **monero** | 0.18.3.1-1 | A private, secure, untraceable, decentralised digital currency | https://getmonero.org/ |
 | **mono** | 6.12.0.199 | Cross platform, open source .NET framework | https://www.mono-project.com/ |
 | **mono-libs** | 6.12.0.199 | Platform-independent libraries for mono | https://www.mono-project.com/ |
@@ -1723,7 +1723,7 @@
 | **notcurses** | 3.0.9-1 | blingful TUIs and character graphics | https://notcurses.com/ |
 | **notcurses-data** | 3.0.9-1 | Platform-independent data for notcurses | https://notcurses.com/ |
 | **notcurses-tools** | 3.0.9-1 | Tools and demos for notcurses | https://notcurses.com/ |
-| **notmuch** | 0.38.1 | Thread-based email index, search and tagging system | https://notmuchmail.org |
+| **notmuch** | 0.38.2 | Thread-based email index, search and tagging system | https://notmuchmail.org |
 | **npush** | 0.7-1 | Curses-based logic game similar to Sokoban and Boulder Dash | http://npush.sourceforge.net/ |
 | **nsis** | 3.09 | A professional open source system to create Windows installers | https://sourceforge.net/projects/nsis/ |
 | **nsis-stubs** | 3.09 | NSIS Stubs | https://sourceforge.net/projects/nsis/ |
@@ -2130,7 +2130,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.7.0 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.7.1 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
