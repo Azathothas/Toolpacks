@@ -982,6 +982,9 @@ fi
   #pping : tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping
   eget "wzv5/pping" --asset "Linux" --asset "arm" --asset "^x86" --asset "64" --asset "tar.gz" --to "$HOME/bin/pping"
   #---------------#
+  #presenterm:  A terminal slideshow tool 
+  eget "mfontanini/presenterm" --asset "linux" --asset "aarch64" --asset "musl" --asset "^sha" --asset "^sig" --to "$HOME/bin/presenterm"
+  #---------------#
   #prettyping: Ping prettier, more colorful, more compact, and easier to read
   eget "https://raw.githubusercontent.com/denilsonsa/prettyping/master/prettyping" --to "$HOME/bin/prettyping" && chmod +xwr "$HOME/bin/prettyping"
   #---------------#
