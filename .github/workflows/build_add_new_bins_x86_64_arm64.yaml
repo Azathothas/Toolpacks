@@ -1,4 +1,4 @@
-name: 🛍️ Build | Add New (x86_64 || arm64) Binaries 📦🗄️
+name: ⏬ Build | Add New (x86_64 || arm64) Binaries 📦🗄️
 #MAX_RUNTIME:  
 on:
   workflow_dispatch:
