@@ -4,7 +4,9 @@
 
 --> METATDATA
 ./x86_64/7z:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=41dd1d9ba2d7e3f020d9d436c1d0b92afe920494, for GNU/Linux 3.2.0, stripped
+./x86_64/BLAKE3SUM:                       ASCII text
 ./x86_64/README.md:                       ASCII text
+./x86_64/SHA256SUM:                       ASCII text
 ./x86_64/act:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=pk7Dtct1kfvo2WN1F3ew/mkdkxkHCht014pLhffs1/ET6CXyO2KeNbCuDqo0D8/tGBaKtqR0uM5YTNACD4U, stripped
 ./x86_64/actionlint:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=u_ao9b-OhnFyFAhYODqL/i0BcxbvCtFPYLXgWAEwq/U7FKaHJx2AiW-vG_sbfs/HLhcnh-2ToJtNHi-fqDN, stripped
 ./x86_64/agg:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=02cc2a533efd737a84875e34b727b9ab65ea0310, stripped
@@ -272,6 +274,7 @@
 ./x86_64/ppath:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=kyXMM7UpYCvKcFbOAviT/aatSpc8qAiG-fRFLyl5Z/eAtIng4BBOwmt1Z_Jmgd/a20Fz-r93C0wNCskX5NS, stripped
 ./x86_64/ppfuzz:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=4880fbff7a796342e7bb78e19023357a34fa62bb, for GNU/Linux 3.2.0, stripped
 ./x86_64/pping:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=zMeMfvs1z56hSuJvEoyw/6-iKCHNr84e9dI23_2dU/5VGZS6Dz3N9_IZNBslnp/TfCcZ0wyXYKGIgpsw8mx, stripped
+./x86_64/presenterm:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./x86_64/prettyping:                      Bourne-Again shell script, Unicode text, UTF-8 text executable
 ./x86_64/procs:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=2b4f604e19c2c139b2d47432fc47d1a031e53167, stripped
 ./x86_64/proxify:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=kOThHZQe-3U4PUXz1m1l/cMP8UI4YiybgptzH0iUo/y44jz4fCashyjeM8A95d/kYZcLnUpPdGWORcz_Oo8, stripped
@@ -418,7 +421,9 @@
 
 --> BLAKE3SUM
 61351fad402f50403daf6447d92cd702f69291a68dfae685f22110cb1ded6f37  ./x86_64/7z
-509ba96eeae36ed7327301d50ce37bef54d8963c724feb37d33b59524e77b5da  ./x86_64/README.md
+49773a6639b7c02eb02edb4451e9203c3c3e37dc7475a88700d791050e8ea71e  ./x86_64/BLAKE3SUM
+89a8ff6f1f4445d7ee2c9e2b8e851b6c745cda8fe5032c896c7b3b9d1a6df736  ./x86_64/README.md
+770d8447754dbfe4ae162e959921bf25d882c2b9564b120ae6018a30c4e965bc  ./x86_64/SHA256SUM
 52eb8db4df31e65b5288c4b49f027973f74a6c4663b12b70b11e43c19e75e5f8  ./x86_64/act
 9c90b3b0a46bba9c114955681a673bc02f3a76100a1865de5bf69ebf21b887f7  ./x86_64/actionlint
 7e4ab6c253b49ccb47e73a4727e3fce44ce137961908a66e330a39e04dd1a018  ./x86_64/agg
@@ -686,6 +691,7 @@ d5b6a69c7b1fc239e7e70635c63190ba94edc3301856f6e3dc5e4fbd0e237c20  ./x86_64/pkgto
 e79a9f9ff87e8123da6c5d1424ea5160862556f89573cb523dbcfed0ec0cbdd2  ./x86_64/ppath
 80c5e2bb2ce450f9c2ad0f3542c3a94a10399b4a6ded231a368afc9ddd14b99b  ./x86_64/ppfuzz
 81e52e73f5603e2799154a0a3151215c4047eca505186637b112d3bcf0a24f94  ./x86_64/pping
+4a58ecefa7df69396bf3f846eaab6347318a5b3d0938b68e1b9033bdd989c609  ./x86_64/presenterm
 31eae6eaadb50f1fa5d3fdf41873b5912d20cd6dd21c035780409877ab7f2896  ./x86_64/prettyping
 c85aa63821110733c5b148518c29d0c29bb18647b9a973d36b4f67eecd193c07  ./x86_64/procs
 2ad4c75735654f88ceffcd994d9f982ea42950ea050c25f5edf2d1e33df5f286  ./x86_64/proxify
@@ -832,8 +838,9 @@ e6e47273432567d50de88ccb35453d624f91f76f4f8f6c2c09fbe1a2053b042f  ./x86_64/zoxid
 
 --> SHA256SUM
 b81c37aca9b7af945916d84235dcb27beaef519417130a594915b6583a5b1710  ./x86_64/7z
-52b95689990c0e37056558b9953746e922ba7216b96c49bf92daff2b2f134f37  ./x86_64/BLAKE3SUM
-10e2638c9479371d610a2bc0f4a4003c22854858d10a4b1bed15081085126cd5  ./x86_64/README.md
+548a9418a1b1a2fde815a5cf8215ea7a7778f36db1b95457a5ac780d80f68c65  ./x86_64/BLAKE3SUM
+3a60f980738412fb2336869127610fbfd9879970babdc04c40f9579b9f87a81e  ./x86_64/README.md
+71457b2b21622f1132617a17e42be8fb9abe64ce84e60e65294520f5ecc691d6  ./x86_64/SHA256SUM
 f68015a3ad594e0836544d735fb2c1f5e5c500ab8d03b6797d30fa886d446668  ./x86_64/act
 86167459319e7bd72c1a40045aaf826258c22b9e46c496d359f5d6c6e8532df5  ./x86_64/actionlint
 2c75c93defd1f9b9527bd09eb84a3f5ae62dba4321f3bb7764ff087cbab16671  ./x86_64/agg
@@ -1101,6 +1108,7 @@ d4660cb74493d2d4a396eeda03a9ad8d715467e23814b3e4b383be09756d1700  ./x86_64/pkgto
 2409fa54eaae07f43356bde1bd4c8adc1dc79dcc3aa4e8b36542451cc7d8e4b0  ./x86_64/ppath
 ae5c1ee829512e821c05ec07963e04c14ed7c48cb0498923ab4f5df7db21076b  ./x86_64/ppfuzz
 60bbd4e156a8d46cc949a4c71bbdaceed5ee46a7dd4d5a2d8c39d93a436d8dca  ./x86_64/pping
+f0f9aea924daac49361ef347853f9906af3d1b9d0cf79c40bb4751c5c6079c03  ./x86_64/presenterm
 3a7fa85c867615ad332f4aa68720c5ee2aa9c4d38c37258893b020af7e949083  ./x86_64/prettyping
 5e242ba35e9f8d4fac6f785ac9e710d661e50a7f9898b0435ec4ebc05e3890a1  ./x86_64/procs
 412e8dd49c5b9814a610d0f5dc010e87802cd754b0fba155f2c5ba8bb3e5e936  ./x86_64/proxify
@@ -1254,7 +1262,7 @@ bab9f263bb2a9530178d113f11433327147db6c39befd7f67f68c0cfcbb5686e  ./x86_64/zdns
 ```console
 3.5M  ./x86_64/7z
 34K   ./x86_64/BLAKE3SUM
-145K  ./x86_64/README.md
+146K  ./x86_64/README.md
 34K   ./x86_64/SHA256SUM
 16M   ./x86_64/act
 4.8M  ./x86_64/actionlint
@@ -1523,6 +1531,7 @@ bab9f263bb2a9530178d113f11433327147db6c39befd7f67f68c0cfcbb5686e  ./x86_64/zdns
 1.3M  ./x86_64/ppath
 4.3M  ./x86_64/ppfuzz
 8.7M  ./x86_64/pping
+6.0M  ./x86_64/presenterm
 24K   ./x86_64/prettyping
 5.3M  ./x86_64/procs
 36M   ./x86_64/proxify

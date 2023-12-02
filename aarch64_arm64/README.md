@@ -241,6 +241,7 @@
 ./aarch64_arm64/ppath:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=lR1EkEAiAo06tgKay2gX/gBBJ_QrJDppaK6miBBZw/BqzwFx-W4kwRKZsl-yzr/0g7bW9X6RIc-Yv6TiuoP, stripped
 ./aarch64_arm64/ppfuzz:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./aarch64_arm64/pping:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=msNkE2LFQuBGLXeR5EKR/pcFWUDRuWPN4dputhLsK/EKbE10jve7pVtyRsbsQT/a8amR_-eRUmQyZvQaE5a, stripped
+./aarch64_arm64/presenterm:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./aarch64_arm64/prettyping:                      Bourne-Again shell script, Unicode text, UTF-8 text executable
 ./aarch64_arm64/procs:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./aarch64_arm64/proxify:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=4w5SFJpYJDuVgqJFNSC0/gmDshMF-Wa4MtIlLdR1S/rK13mlPzTH668YnylSz8/kQiM3D3LziumxHAWmk_R, stripped
@@ -377,9 +378,9 @@
 
 --> BLAKE3SUM
 4dcf5ca455e02c7a0eb1c35af41b429d3413845039840fa8a1dfbb0994a5b529  ./aarch64_arm64/7z
-76a42393c041f3a2395063ae16f7ba23d52e0fdcbe213872e613fc2fd9fffe46  ./aarch64_arm64/BLAKE3SUM
-46912c9eaae8f06f949e29690a6f54823d29fd755b541693022e2dcbdbef0768  ./aarch64_arm64/README.md
-82d57d0f316904179484e65ba97e88ad8944895ac196b7658811a242c86d60f6  ./aarch64_arm64/SHA256SUM
+bcfc18cc7fd98e978955462515fe7317781fc679c72d3be0ffded02f2f7a6c18  ./aarch64_arm64/BLAKE3SUM
+219bbab38d939234541cb6d9b65dfb1d5c42c89115112e3b66d6664e4df2acdf  ./aarch64_arm64/README.md
+82807bb47f0c4536d5b445d1f0887ad9b702b731cc5283c0f32a5d9ff0046b21  ./aarch64_arm64/SHA256SUM
 7c351189741616e1acff1cad3e4e1112a8b2aa1e3d3a998bd84c4b5df2129793  ./aarch64_arm64/act
 7b2281b4fc3f3d9946e4b8e19075ecdafab7f416639c9a81790d742f9118b768  ./aarch64_arm64/actionlint
 d5c7f344ab487915234410d5aec85a17d76619fdec2cc3a3cc889f6c79c5bcc7  ./aarch64_arm64/agg
@@ -614,6 +615,7 @@ f121e5c560329582072a878f9f241d5ac2b9e1113d58d82dc26dd5ebba6a38e2  ./aarch64_arm6
 3e7535b3dab8a9e0cd1fcf3af176a4e75ffb3d2c26006c440002f758b273c46a  ./aarch64_arm64/ppath
 482454c6e451cb0e1d7c6d4b679ce7c35904cf51deafaa50e2d4616041658afd  ./aarch64_arm64/ppfuzz
 e79adb157e5f1e3657cbee20e6452fa1f7702fbf22e20dc0403284d4f21d29f6  ./aarch64_arm64/pping
+bd2a921ebfe98790811ef0966d6a595e9c013bd43c37a96ea0ca64bdb5e79462  ./aarch64_arm64/presenterm
 31eae6eaadb50f1fa5d3fdf41873b5912d20cd6dd21c035780409877ab7f2896  ./aarch64_arm64/prettyping
 94b7ba4eecdfea4c762ffa3e3c8f3abb8a9098d821141238c1cc2f37c60e463a  ./aarch64_arm64/procs
 ffa3a546c864f5db11a456d4c908c74aa6ff1cd772b5ecfb5e72c4f7e0f81ca9  ./aarch64_arm64/proxify
@@ -750,9 +752,9 @@ e7e7e7a53015bf27ad3d866c87ec2f9c87c91ac4eea405b1d896a7319bd5fe00  ./aarch64_arm6
 
 --> SHA256SUM
 68e7b4df7c7890a9b0a87c525d08049cd507b09d60cf1e97db4bd35b89adee80  ./aarch64_arm64/7z
-bbdceb3cab2aa65905a2e053b5ddc9e129e5ddbc38f4876bbecefdb33a1a9739  ./aarch64_arm64/BLAKE3SUM
-0826367865e2a586cb5844f31c6a5da64cc8ac2016eb73e768d9d631bc54b9ae  ./aarch64_arm64/README.md
-dd1a89867bb23da2fc90354894987bd42ea9a91b19afe39a81bb9ccbe6e1201f  ./aarch64_arm64/SHA256SUM
+b9e8d9e8923d86f7cfa128404187e263a66530e02e1363cc3b81c8c856262341  ./aarch64_arm64/BLAKE3SUM
+3601822d2cb64a745abeefb539afa523ead8c1d4c85ccefb9c4bbe6b08708769  ./aarch64_arm64/README.md
+6bbb13378c9ea27d8a3f4f182406caef4e591234515812265fd1a2ca1752f7b1  ./aarch64_arm64/SHA256SUM
 980694661c09fd002c6bc23df15ba2e042b384dbc356528e9b5f7c44886ca0cc  ./aarch64_arm64/act
 050f2f25e27e45d0899ba0531d698038c1c4e53f953c938c5357794d0ca24bd9  ./aarch64_arm64/actionlint
 55756490137853129a09ba6ea41740f85333e0f581b6b5d97e9431a289561961  ./aarch64_arm64/agg
@@ -987,6 +989,7 @@ c094380bd6c865ed876474f3574ca7195b7eac764a0d7fe92ca9d64a960639ae  ./aarch64_arm6
 f046772a6856d375e9a107b8400e7d16124bbfa2b26be4bc36011a97f804113e  ./aarch64_arm64/ppath
 8d27c3a9b72bb88a9e76225a74f0290b84daf82445ddec0d4c9ad8c990a69fb2  ./aarch64_arm64/ppfuzz
 83fa752545690ff417ae68512f6bd392052d3f5575a41cf3a57f2931344706ef  ./aarch64_arm64/pping
+11d3080bd763df2ccd88c51e2644bd3d63788b5225fbcdd95cf60cebe79eec22  ./aarch64_arm64/presenterm
 3a7fa85c867615ad332f4aa68720c5ee2aa9c4d38c37258893b020af7e949083  ./aarch64_arm64/prettyping
 72a3902c9194a87922af70c46bde9614622147c3427a09abe3accc9655a1588e  ./aarch64_arm64/procs
 9917b2ab14442241cc9faa884c6afdb0cc47a6d1c5dd62b74aa6bec0c1b528c8  ./aarch64_arm64/proxify
@@ -1366,6 +1369,7 @@ fc8bde5cd4563d6bbfec2c838a9ed48aa644c0782435bb8f196d18f6f4f0e81a  ./aarch64_arm6
 1.3M  ./aarch64_arm64/ppath
 2.7M  ./aarch64_arm64/ppfuzz
 8.4M  ./aarch64_arm64/pping
+5.2M  ./aarch64_arm64/presenterm
 24K   ./aarch64_arm64/prettyping
 3.5M  ./aarch64_arm64/procs
 35M   ./aarch64_arm64/proxify
