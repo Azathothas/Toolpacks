@@ -149,24 +149,38 @@ jobs:
 #------------------------------------------------------------------------------------#
       - name: Download (eget_x86_64)
         run: |
-          eget "zyedidia/eget" --asset "linux" --asset "amd" --asset "64" --asset "^arm" --asset "^86" --to "/tmp/x86_64/eget"
+          eget "zyedidia/eget" --asset "linux" --asset "amd" --asset "64" --asset "^arm" --asset "^86" --asset "^sha" --asset "^sig" --to "/tmp/x86_64/eget"
         continue-on-error: true
 
       - name: Download (eget_aarch64_arm64)
         run: |
-          eget "zyedidia/eget" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --asset "^86" "/tmp/aarch64_arm64/eget"
+          eget "zyedidia/eget" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --asset "^86" --asset "^sha" --asset "^sig" "/tmp/aarch64_arm64/eget"
         continue-on-error: true
 
+      #SKELETON
       - name: Download (SAMPLE_x86_64)
         run: |
-          eget "SAMPLE/SAMPLE" --asset "linux" --asset "amd" --asset "64" --asset "^arm" --asset "^86" --to "/tmp/x86_64/SAMPLE"
+          eget "SAMPLE/SAMPLE" --asset "linux" --asset "amd" --asset "64" --asset "^arm" --asset "^86" --asset "^sha" --asset "^sig" --to "/tmp/x86_64/SAMPLE"
+        continue-on-error: true
+        
+      #Test       
+      - name: Download (presenterm_x86_64)
+        run: |
+          eget "mfontanini/presenterm" --asset "linux" --asset "x86_64" --asset "musl" --asset "^sha" --asset "^sig" --to "/tmp/x86_64/presenterm"
         continue-on-error: true
 
+      #SKELETON
       - name: Download (SAMPLE_aarch64_arm64)
         run: |
-          eget "SAMPLE/SAMPLE" --asset "linux" --asset "amd" --asset "64" --asset "^arm" --asset "^86" --to "/tmp/aarch64_arm64/SAMPLE"
+          eget "SAMPLE/SAMPLE" --asset "linux" --asset "amd" --asset "64" --asset "^arm" --asset "^86" --asset "^sha" --asset "^sig" --to "/tmp/aarch64_arm64/SAMPLE"
         continue-on-error: true
-    
+        
+      #Test
+      - name: Download (presenterm_aarch64_arm64)
+        run: |
+          eget "mfontanini/presenterm" --asset "linux" --asset "aarch64" --asset "musl" --asset "^sha" --asset "^sig" --to "/tmp/aarch64_arm64/presenterm"
+        continue-on-error: true
+        
      #------------------#
      #rustup target list
      #------------------#
