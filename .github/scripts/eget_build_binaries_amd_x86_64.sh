@@ -250,7 +250,7 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./byp4xx" "$HOME/bin/byp4xx" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #catatonit: A container init that is so simple it's effectively brain-dead. 
-  eget "openSUSE/catatonit" --asset "x86_64" --to "$HOME/bin/catatonit"
+  eget "openSUSE/catatonit" --asset "x86_64" --asset "^.asc" --to "$HOME/bin/catatonit"
   #---------------#
   #caddy : Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
   eget "caddyserver/caddy" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sig" --to "$HOME/bin/caddy"
@@ -440,7 +440,7 @@ fi
   eget "trickest/enumerepo" --asset "amd64" --to "$HOME/bin/enumerepo"
   #---------------#
   #eza : A modern replacement for ‘ls’. (Fork of exa)
-  eget "eza-community/eza" --asset "linux" --asset "musl" --asset "x86" --asset "64" --to "$HOME/bin/eza"
+  eget "eza-community/eza" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "gz" --to "$HOME/bin/eza"
   #---------------#
   #fastfetch : Like neofetch, but much faster because written in C.
   #This is Dynamic
@@ -788,8 +788,8 @@ fi
   #export RUSTFLAGS="-C target-feature=+crt-static"  
   #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   unset RUSTFLAGS ; cargo build --target "$TARGET" --release
-  mv "./target/$TARGET/release/jless" "$HOME/bin/jless_dynamic"
-  staticx --loglevel DEBUG "$HOME/bin/jless_dynamic" --strip "$HOME/bin/jless_staticx" ; popd
+  mv "./target/$TARGET/release/jless" "$HOME/bin/jless"
+  staticx --loglevel DEBUG "$HOME/bin/jless" --strip "$HOME/bin/jless_staticx" ; popd
   #---------------#
   #jq : Command-line JSON processor 
   eget "jqlang/jq" --asset "linux" --asset "amd64" --to "$HOME/bin/jq"
