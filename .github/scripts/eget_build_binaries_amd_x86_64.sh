@@ -447,6 +447,11 @@ fi
   #enumerepo : List all public repositories for (valid) GitHub usernames
   eget "trickest/enumerepo" --asset "amd64" --to "$HOME/bin/enumerepo"
   #---------------#
+  #etcd : Distributed reliable key-value store for the most critical data of a distributed system
+  eget "etcd-io/etcd" --asset "amd64" --asset "linux" --asset "gz" --asset "^etcdutl" --asset "^etcdctl" --to "$HOME/bin/etcd"
+  eget "etcd-io/etcd" --asset "amd64" --asset "linux" --asset "gz" --file "etcdctl" --to "$HOME/bin/etcdctl"
+  eget "etcd-io/etcd" --asset "amd64" --asset "linux" --asset "gz" --file "etcdutl" --to "$HOME/bin/etcdutl"
+  #---------------#
   #eza : A modern replacement for ‘ls’. (Fork of exa)
   eget "eza-community/eza" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "gz" --to "$HOME/bin/eza"
   #---------------#
@@ -558,6 +563,9 @@ fi
   #gh : GitHub’s official command line tool
   eget "cli/cli" --asset "linux_amd64.tar.gz" --to "$HOME/bin/gh"
   #---------------#
+  #gh-dash : A beautiful CLI dashboard for GitHub 🚀 
+  eget "dlvhdr/gh-dash" --asset "linux" --asset "amd64" --to "$HOME/bin/gh-dash"
+  #---------------#
   #git
   ## Too much of a headache, a zillion binaries and all of them require custom config.
   # Use: jj git --> https://github.com/martinvonz/jj
@@ -574,6 +582,10 @@ fi
   #---------------#
   #git-cliff : A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
   eget "orhun/git-cliff" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "git-cliff" --to "$HOME/bin/git-cliff"
+  #---------------#
+  #gitea : Git with a cup of tea!
+  # Bin ~ 100 MB
+  eget "go-gitea/gitea" --asset "amd64" --asset "linux" --asset "xz" --asset "^asc" --asset "^sig" --asset "^sha" --to "$HOME/bin/gitea"
   #---------------#
   #go-git : A highly extensible Git implementation in pure Go. 
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/go-git/go-git" && cd "./go-git"
@@ -609,6 +621,9 @@ fi
   #---------------#
   #gitleaks : Protect and discover secrets using Gitleaks 🔑
   eget "gitleaks/gitleaks" --asset "linux" --asset "x64" --asset "tar.gz" --to "$HOME/bin/gitleaks"
+  #---------------#
+  #gitql : 💊 A git query language 
+  eget "filhodanuvem/gitql" --asset "Linux" --asset "x86_64" --asset "tar.gz" --to "$HOME/bin/gitql"
   #---------------#
   #gitui : Blazing 💥 fast terminal-ui for git written in rust 🦀
   eget "extrawurst/gitui" --asset "gitui-linux-musl.tar.gz" --to "$HOME/bin/gitui"
@@ -791,6 +806,9 @@ fi
   eget "kellyjonbrazil/jc" --asset "linux" --asset "x86" --asset "64" --asset "tar.gz" --to "$HOME/bin/jc"
   staticx --loglevel DEBUG "$HOME/bin/jc" --strip "$HOME/bin/jc_staticx"
   #---------------#
+  #jira : 🔥 Feature-rich interactive Jira command line. 
+  eget "ankitpokhrel/jira-cli" --asset "linux" --asset "x86_64" --asset "gz" --to "$HOME/bin/jira"
+  #---------------#
   #jj : A Git-compatible DVCS that is both simple and powerful
   eget "martinvonz/jj" --asset "linux" --asset "x86" --asset "64" --asset "musl" --asset "gz" --to "$HOME/bin/jj"
   #---------------#
@@ -818,6 +836,9 @@ fi
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/hahwul/jwt-hack" && cd "./jwt-hack"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #k9s : 🐶 Kubernetes CLI To Manage Your Clusters In Style! 
+  eget "derailed/k9s" --asset "k9s" --asset "Linux" --asset "amd64" --asset "gz" --to "$HOME/bin/k9s" 
   #---------------#
   #Kadeesh : A general-purpose, extensible, modular, memory-safe SSH server
   eget "kadeessh/kadeessh" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --to "$HOME/bin/kadeessh"
@@ -1083,6 +1104,9 @@ fi
   #pathbuster : A path-normalization pentesting tool
   eget "ethicalhackingplayground/pathbuster" --asset "^exe" --to "$HOME/bin/pathbuster"
   #---------------#
+  #pdfcpu : A PDF processor written in Go. 
+  eget "pdfcpu/pdfcpu" --asset "Linux" --asset "x86_64" --asset "tar" --to "$HOME/bin/pdfcpu"
+  #---------------#
   #pgweb : Cross-platform client for PostgreSQL databases
   eget "sosedoff/pgweb" --asset "linux" --asset "amd64" --to "$HOME/bin/pgweb"
   #---------------#
@@ -1182,6 +1206,9 @@ fi
   #---------------#
   #resDNS : Wrapper around [dnsx + puredns + shuffledns] for Efficient DNS Resolution
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/resdns/resdns.sh" --to "$HOME/bin/resdns"
+  #---------------#
+  #restic : Fast, secure, efficient backup program 
+  eget "restic/restic" --asset "linux" --asset "amd64" --to "$HOME/bin/restic"
   #---------------#
   #resto : 🔗 Send pretty HTTP & API requests with TUI.
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/abdfnx/resto" && cd "./resto"
@@ -1297,6 +1324,9 @@ fi
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/s0md3v/Smap" && cd "./Smap"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/smap" ; mv "./smap" "$HOME/bin/smap" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #smenu : a powerful and versatile CLI selection tool for interactive or scripting use
+  eget "p-gen/smenu" --asset "86_64" --asset "static" --asset "xz" --asset "^asc" --asset "linux" --to "$HOME/bin/smenu"
+  #---------------#
   #sns : IIS shortname scanner written in Go 
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sw33tLie/sns" && cd "./sns"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./sns" "$HOME/bin/sns" ; popd
@@ -1388,6 +1418,9 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/surf" ; mv "./surf" "$HOME/bin/surf" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #Syncthing : Open Source Continuous File Synchronization
+  eget "syncthing/syncthing" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/syncthing"
+  #---------------#
   #systemctl-tui : A fast, simple TUI for interacting with systemd services and their logs
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/rgwood/systemctl-tui" && cd "./systemctl-tui"
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
@@ -1446,6 +1479,9 @@ fi
   #---------------#
   #toybox : minimal busybox
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/toybox/toybox_amd_x86_64_Linux" --to "$HOME/bin/toybox"
+  #---------------#
+  #traefik : The Cloud Native Application Proxy 
+  eget "traefik/traefik" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/traefik"
   #---------------#
   #trufflehog : Find and verify credentials
   eget "trufflesecurity/trufflehog" --asset "amd64" --asset "linux" --to "$HOME/bin/trufflehog"
