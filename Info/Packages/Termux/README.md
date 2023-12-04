@@ -480,10 +480,10 @@
 | **gcal** | 4.1-3 | Program for calculating and printing calendars | https://www.gnu.org/software/gcal/ |
 | **gdal** | 3.8.1 | A translator library for raster and vector geospatial data formats | https://gdal.org |
 | **gdal-static** | 3.5.3 | Static libraries for gdal | https://gdal.org |
-| **gdb** | 13.2-1 | The standard GNU Debugger that runs on many Unix-like systems and works for many programming languages | https://www.gnu.org/software/gdb/ |
+| **gdb** | 14.1 | The standard GNU Debugger that runs on many Unix-like systems and works for many programming languages | https://www.gnu.org/software/gdb/ |
 | **gdbm** | 1.23 | Library of database functions that use extensible hashing | https://www.gnu.org.ua/software/gdbm/ |
 | **gdbm-static** | 1.23 | Static libraries for gdbm | https://www.gnu.org.ua/software/gdbm/ |
-| **gdbserver** | 13.2-1 | The gdbserver program | https://www.gnu.org/software/gdb/ |
+| **gdbserver** | 14.1 | The gdbserver program | https://www.gnu.org/software/gdb/ |
 | **gdk-pixbuf** | 2.42.10-2 | Library for image loading and manipulation | https://wiki.gnome.org/Projects/GdkPixbuf |
 | **gdrive-downloader** | 1:1.1 | Download a gdrive folder or file easily, shell ftw | https://github.com/Akianonymus/gdrive-downloader |
 | **gdu** | 5.25.0-2 | Fast disk usage analyzer with console interface written in Go | https://github.com/dundee/gdu |
@@ -685,8 +685,8 @@
 | **id3lib-static** | 3.8.3-3 | Static libraries for id3lib | http://id3lib.sourceforge.net/ |
 | **id3ted** | 1.0-3 | A comand line id3 tag editor | https://muennich.github.io/id3ted/ |
 | **id3v2** | 0.1.12-1 | A command line id3v2 tag editor | http://id3v2.sourceforge.net/ |
-| **imagemagick** | 7.1.1.21 | Suite to create, edit, compose, or convert images in a variety of formats | https://www.imagemagick.org/ |
-| **imagemagick-static** | 7.1.1.21 | Static libraries for imagemagick | https://www.imagemagick.org/ |
+| **imagemagick** | 7.1.1.22 | Suite to create, edit, compose, or convert images in a variety of formats | https://www.imagemagick.org/ |
+| **imagemagick-static** | 7.1.1.22 | Static libraries for imagemagick | https://www.imagemagick.org/ |
 | **imath** | 3.1.9 | Library for vector/matrix and math operations, plus the half type | https://imath.readthedocs.io/ |
 | **imgflo** | 0.4.2-7 | HTTP image processing server & Flowhub.io compatible runtime | https://github.com/imgflo/imgflo |
 | **imlib2** | 1.12.1 | Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support | https://sourceforge.net/projects/enlightenment/ |
@@ -1145,17 +1145,17 @@
 | **libnftnl-static** | 1.2.6 | Static libraries for libnftnl | https://www.netfilter.org/projects/libnftnl/ |
 | **libnghttp2** | 1.58.0 | nghttp HTTP 2.0 library | https://nghttp2.org/ |
 | **libnghttp2-static** | 1.58.0 | Static libraries for libnghttp2 | https://nghttp2.org/ |
-| **libnl** | 3.8.0 | Collection of libraries providing APIs to netlink protocol based Linux kernel interfaces | https://github.com/thom311/libnl |
-| **libnl-cli** | 3.8.0 | Command-line interface utilities for libnl | https://github.com/thom311/libnl |
-| **libnl-cli-static** | 3.8.0 | Static libraries for libnl-cli | https://github.com/thom311/libnl |
-| **libnl-static** | 3.8.0 | Static libraries for libnl | https://github.com/thom311/libnl |
+| **libnl** | 3.9.0 | Collection of libraries providing APIs to netlink protocol based Linux kernel interfaces | https://github.com/thom311/libnl |
+| **libnl-cli** | 3.9.0 | Command-line interface utilities for libnl | https://github.com/thom311/libnl |
+| **libnl-cli-static** | 3.9.0 | Static libraries for libnl-cli | https://github.com/thom311/libnl |
+| **libnl-static** | 3.9.0 | Static libraries for libnl | https://github.com/thom311/libnl |
 | **libnova** | 0.16 | A general purpose, double precision, Celestial Mechanics, Astrometry and Astrodynamics library | http://libnova.sourceforge.net |
 | **libnova-static** | 0.16 | Static libraries for libnova | http://libnova.sourceforge.net |
 | **libnpth** | 1.6-1 | New GNU Portable Threads Library | https://www.gnupg.org/related_software/npth/ |
 | **libnpth-static** | 1.6-1 | Static libraries for libnpth | https://www.gnupg.org/related_software/npth/ |
 | **libnspr** | 4.35 | Netscape Portable Runtime (NSPR) | https://hg.mozilla.org/projects/nspr |
 | **libnspr-static** | 4.35 | Static libraries for libnspr | https://hg.mozilla.org/projects/nspr |
-| **libnss** | 3.94 | Network Security Services (NSS) | https://firefox-source-docs.mozilla.org/security/nss/ |
+| **libnss** | 3.95 | Network Security Services (NSS) | https://firefox-source-docs.mozilla.org/security/nss/ |
 | **libntl** | 11.5.1-1 | A Library for doing Number Theory | https://libntl.org |
 | **libntl-static** | 11.5.1-1 | Static libraries for libntl | https://libntl.org |
 | **libobjc2** | 2.1-2 | The GNUstep Objective-C runtime | http://www.gnustep.org/ |
@@ -1728,7 +1728,7 @@
 | **nsis** | 3.09 | A professional open source system to create Windows installers | https://sourceforge.net/projects/nsis/ |
 | **nsis-stubs** | 3.09 | NSIS Stubs | https://sourceforge.net/projects/nsis/ |
 | **nsnake** | 3.0.1-6 | The classic snake game with textual interface | https://github.com/alexdantas/nSnake |
-| **nss-utils** | 3.94 | Tools for NSS | https://firefox-source-docs.mozilla.org/security/nss/ |
+| **nss-utils** | 3.95 | Tools for NSS | https://firefox-source-docs.mozilla.org/security/nss/ |
 | **nudoku** | 2.1.0 | ncurses based sudoku game | http://jubalh.github.io/nudoku/ |
 | **nushell** | 0.87.1 | A new type of shell operating on structured data | https://www.nushell.sh |
 | **nwipe** | 0.34 | A program that will securely erase the entire contents of disks | https://github.com/martijnvanbrummelen/nwipe |
@@ -1935,7 +1935,7 @@
 | **python** | 3.11.6-1 | Python 3 programming language intended to enable clear programs | https://python.org/ |
 | **python-apsw** | 3.44.2.0 | Another Python SQLite Wrapper | https://github.com/rogerbinns/apsw/ |
 | **python-apt** | 2.6.0 | Python bindings for APT | https://apt-team.pages.debian.net/python-apt/ |
-| **python-bcrypt** | 4.0.1-1 | Acceptable password hashing for your software and your servers | https://github.com/pyca/bcrypt |
+| **python-bcrypt** | 4.1.1 | Acceptable password hashing for your software and your servers | https://github.com/pyca/bcrypt |
 | **python-cryptography** | 41.0.7 | Provides cryptographic recipes and primitives to Python developers | https://github.com/pyca/cryptography |
 | **python-ensurepip-wheels** | 3.11.6-1 | Wheels for Python ensurepip | https://python.org/ |
 | **python-greenlet** | 3.0.1 | Lightweight coroutines for in-process concurrent programming | https://github.com/python-greenlet/greenlet |
@@ -2130,7 +2130,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.7.1 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.7.2 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
@@ -2243,7 +2243,7 @@
 | **tcllib** | 1.21 | Tcl Standard Library | https://core.tcl-lang.org/tcllib/ |
 | **tcsh** | 6.24.10 | TENEX C Shell, an enhanced version of Berkeley csh | https://www.tcsh.org |
 | **tdb-tools** | 1.4.9 | Tools for TDB | https://tdb.samba.org/ |
-| **tdl** | 0.13.0 | Telegram downloader written in GO | https://github.com/iyear/tdl |
+| **tdl** | 0.13.1 | Telegram downloader written in GO | https://github.com/iyear/tdl |
 | **tea** | 0.9.2 | The official CLI for Gitea | https://gitea.com/gitea/tea |
 | **tealdeer** | 1.6.1 | A very fast implementation of tldr in Rust | https://dbrgn.github.io/tealdeer/ |
 | **teckit** | 2.5.12 | TECkit is a library for encoding conversion | https://scripts.sil.org/teckitdownloads |
@@ -2496,7 +2496,7 @@
 | **yasm-static** | 1.3.0-6 | Static libraries for yasm | https://yasm.tortall.net/ |
 | **yosys** | 0.35 | A framework for RTL synthesis tools | https://yosyshq.net/yosys/ |
 | **youtubedr** | 2.9.0 | Download youtube video in Golang | https://github.com/kkdai/youtube |
-| **yq** | 4.40.3 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
+| **yq** | 4.40.4 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
 | **ytfzf** | 2.6.1 | A POSIX script that helps you find Youtube videos (without API) | https://github.com/pystardust/ytfzf |
 | **ytui-music** | 2.0.0-beta-0 | Youtube client in terminal for music | https://github.com/sudipghimire533/ytui-music |
 | **yuma123** | 2.13-1 | Provides an opensource YANG API in C | https://yuma123.org/ |
