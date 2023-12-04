@@ -732,7 +732,7 @@
 | **jpegoptim** | 1.5.5 | JPEG optimizer that recompresses image files to a smaller size, without losing any information | https://www.kokkonen.net/tjko/projects.html |
 | **jq** | 1.7 | Command-line JSON processor | http://stedolan.github.io/jq/ |
 | **jq-static** | 1.7 | Static libraries for jq | http://stedolan.github.io/jq/ |
-| **jql** | 7.0.7 | A JSON Query Language CLI tool | https://github.com/yamafaktory/jql |
+| **jql** | 7.1.0 | A JSON Query Language CLI tool | https://github.com/yamafaktory/jql |
 | **json-c** | 0.17 | A JSON implementation in C | https://github.com/json-c/json-c/wiki |
 | **json-c-static** | 0.17 | Static libraries for json-c | https://github.com/json-c/json-c/wiki |
 | **json-glib** | 1.8.0 | GLib JSON manipulation library | https://wiki.gnome.org/Projects/JsonGlib |
@@ -1560,7 +1560,7 @@
 | **mbedtls** | 3.5.1 | Light-weight cryptographic and SSL/TLS library | https://tls.mbed.org/ |
 | **mbedtls-static** | 3.5.1 | Static libraries for mbedtls | https://tls.mbed.org/ |
 | **mc** | 4.8.30 | Midnight Commander - a powerful file manager | https://www.midnight-commander.org/ |
-| **mcfly** | 0.8.1 | Replaces your default ctrl-r shell history search with an intelligent search engine | https://github.com/cantino/mcfly |
+| **mcfly** | 0.8.3 | Replaces your default ctrl-r shell history search with an intelligent search engine | https://github.com/cantino/mcfly |
 | **mdbook** | 0.4.36 | Creates book from markdown files | https://rust-lang.github.io/mdBook/ |
 | **mdbook-auto-gen-summary** | 0.1.10 | A preprocessor and cli tool for mdbook to auto generate summary | https://github.com/cococolanosugar/mdbook-auto-gen-summary |
 | **mdbook-cat-prep** | 1.0.9 | A preprocessor for mdbook which provides teacher, subject, material and tag functionality | https://github.com/gjk-cat/cat-prep |
@@ -2278,7 +2278,7 @@
 | **testssl.sh** | 3.0.8 | Testing TLS/SSL encryption anywhere on any port. | https://testssl.sh/ |
 | **tex-gyre** | 2.501-1 | The TeX Gyre (TG) Collection of Fonts | https://www.gust.org.pl/projects/e-foundry/tex-gyre/ |
 | **texinfo** | 7.1 | Documentation system for on-line information and printed output | https://www.gnu.org/software/texinfo/ |
-| **texlab** | 5.11.0 | A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system | https://texlab.netlify.app/ |
+| **texlab** | 5.12.0 | A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system | https://texlab.netlify.app/ |
 | **texlive-bin** | 20230313-2 | TeX Live is a distribution of the TeX typesetting system. This package contains architecture dependent binaries. | https://www.tug.org/texlive/ |
 | **texlive-bin-static** | 20230313-2 | Static libraries for texlive-bin | https://www.tug.org/texlive/ |
 | **texlive-installer** | 20230313 | Wrapper around texlive's install-tl script | https://www.tug.org/texlive/ |
@@ -2316,6 +2316,7 @@
 | **transmission** | 4.0.4 | Easy, lean and powerful BitTorrent client | https://transmissionbt.com/ |
 | **tree** | 2.1.1 | Recursive directory lister producing a depth indented listing of files | http://mama.indstate.edu/users/ice/tree/ |
 | **trojan-go** | 0.10.6-3 | A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW | https://p4gefau1t.github.io/trojan-go |
+| **trurl** | 0.9 | trurl is a command line tool that parses and manipulates URLs | https://curl.se/trurl/ |
 | **trzsz-go** | 1.1.6 | A simple file transfer tools, similar to lrzsz ( rz / sz ) | https://trzsz.github.io/ |
 | **tsduck-java** | 3.35.3258 | Java bindings for TSDuck | https://tsduck.io/ |
 | **tsduck-plugins** | 3.35.3258 | Plugins for TSDuck | https://tsduck.io/ |
@@ -2366,7 +2367,7 @@
 | **urdfdom** | 3.1.0 | Unified Robot Description Format (URDF) parser library and tools | https://github.com/ros/urdfdom |
 | **urdfdom-headers** | 1.1.0 | Headers for URDF parsers | https://github.com/ros/urdfdom_headers |
 | **usbmuxd** | 1.1.1-p20230421-0 | A socket daemon to multiplex connections from and to iOS devices | https://libimobiledevice.org |
-| **utf8cpp** | 4.0.2 | UTF8-CPP: UTF-8 with C++ in a Portable Way | https://github.com/nemtrif/utfcpp |
+| **utf8cpp** | 4.0.3 | UTF8-CPP: UTF-8 with C++ in a Portable Way | https://github.com/nemtrif/utfcpp |
 | **utf8proc** | 2.9.0 | Library for processing UTF-8 Unicode data | https://github.com/JuliaLang/utf8proc |
 | **utf8proc-static** | 2.9.0 | Static libraries for utf8proc | https://github.com/JuliaLang/utf8proc |
 | **utfdecode** | 0.3.4-6 | Tool for decoding, encoding and debugging unicode | https://github.com/fornwall/utfdecode |
