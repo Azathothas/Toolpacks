@@ -2,8 +2,8 @@ name: 🛍️ Publish ⚙️ Weekly (toolpack_x86_64) Package 📦🗄️
 #MAX_RUNTIME:  
 on:
   workflow_dispatch:
-  #schedule:
-  #  - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
+  schedule:
+    - cron: "30 22 * * 6" # 10:30 PM UTC Saturday --> 04:15 AM NPT Mrng Every Sunday
   
 env:
   GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
@@ -427,6 +427,34 @@ jobs:
           df / -h
         continue-on-error: true
 
+      - name: Install CoreUtils & Deps
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+        continue-on-error: true
+        
       - name: Download_All_Artifacts
         uses: actions/download-artifact@v3
         with:
