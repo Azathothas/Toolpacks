@@ -17,23 +17,24 @@ jobs:
     permissions:
       contents: write
       
-    steps:        
+    steps:
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          df / -h
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           path: main
           filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
           fetch-depth: "1"
-
-      - name: Debloat Runner
-        run: |
-          #Presets
-          set -x ; set +e
-          #--------------#
-          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
-          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
-          df / -h
-        continue-on-error: true
 
       - name: Install CoreUtils & Deps
         run: |
@@ -106,6 +107,7 @@ jobs:
           #tar -cvf /tmp/toolpack_x86_64.tar -C /tmp toolpack_x86_64
           7z a -r -ttar -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar /tmp/toolpack_x86_64 2>/dev/null
           sha256sum /tmp/toolpack_x86_64.tar
+          df / -h
         continue-on-error: true
 
       - name: Upload_toolpack_x86_64_Artifacts
@@ -129,6 +131,7 @@ jobs:
           #Presets
           set -x ; set +e
           #--------------#
+          df / -h
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           df / -h
@@ -177,6 +180,7 @@ jobs:
           # .7z
           7z a -r -t7z -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.7z /tmp/toolpack_x86_64 2>/dev/null
           sha256sum /tmp/toolpack_x86_64.7z
+          df / -h
         continue-on-error: true
 
       - name: Upload_toolpack_x86_64.7z
@@ -200,6 +204,7 @@ jobs:
           #Presets
           set -x ; set +e
           #--------------#
+          df / -h
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           df / -h
@@ -246,6 +251,7 @@ jobs:
           # Compress tar to bzip2
           7z a -r -tbzip2 -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar.bz2 /tmp/toolpack_x86_64.tar 2>/dev/null
           sha256sum /tmp/toolpack_x86_64.tar.bz2
+          df / -h
         continue-on-error: true
 
       - name: Upload_toolpack_x86_64.tar.bz2
@@ -269,6 +275,7 @@ jobs:
           #Presets
           set -x ; set +e
           #--------------#
+          df / -h
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           df / -h
@@ -317,6 +324,7 @@ jobs:
           # tar.gz --> if compressed archive has files + folders
           # .tgz   --> short for tar.gz
           sha256sum /tmp/toolpack_x86_64.gz
+          df / -h
         continue-on-error: true
 
       - name: Upload_toolpack_x86_64.gz
@@ -340,6 +348,7 @@ jobs:
           #Presets
           set -x ; set +e
           #--------------#
+          df / -h
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           df / -h
@@ -388,6 +397,7 @@ jobs:
           # .zip
           7z a -r -tzip -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.zip /tmp/toolpack_x86_64 2>/dev/null
           sha256sum /tmp/toolpack_x86_64.zip
+          df / -h
         continue-on-error: true
 
       - name: Upload_toolpack_x86_64.zip
@@ -411,6 +421,7 @@ jobs:
           #Presets
           set -x ; set +e
           #--------------#
+          df / -h
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
           df / -h
@@ -442,6 +453,7 @@ jobs:
           file /tmp/releases/*
           # untar the tar
           tar -xvf /tmp/releases/toolpack_x86_64.tar
+          df / -h
         continue-on-error: true
         
       - name: Create Body for Release
