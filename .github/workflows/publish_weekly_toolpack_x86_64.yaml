@@ -24,7 +24,30 @@ jobs:
           path: main
           filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
           fetch-depth: "1"
-          
+
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #12.0 GB 
+          sudo rm /usr/local/lib/android -rf 2>/dev/null
+          #8.2 GB
+          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
+          #5.0 GB
+          sudo rm /usr/local/.ghcup -rf 2>/dev/null
+          #2.0 GB
+          sudo rm /usr/share/dotnet -rf 2>/dev/null
+          #1.7 GB
+          sudo rm /usr/share/swift -rf 2>/dev/null
+          #1.1 GB
+          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
+          #1.0 GB
+          sudo rm /usr/local/share/powershell -rf 2>/dev/null
+          #500 MB
+          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+        continue-on-error: true
+
       - name: Install CoreUtils & Deps
         run: |
           set +e
@@ -35,6 +58,9 @@ jobs:
       - name: Install Addons
         run: |
           set +e
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
           curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
           sudo mv ./eget* "/usr/local/bin/eget"
@@ -411,15 +437,29 @@ jobs:
           echo "Install: 'https://github.com/Azathothas/Toolpacks/tree/main/x86_64#install-toolpack'" >> /tmp/RELEASE_NOTE.md       
           echo -e "" >> /tmp/RELEASE_NOTE.md            
           echo -e "--> METADATA" >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ "; file * | grep -v '.txt' '&>> /tmp/RELEASE_NOTE.md
+          echo -e "\n[+] Total Binaries : $(ls -1 /tmp/toolpack_x86_64 | wc -l)\n" >> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; file /tmp/toolpack_x86_64/* | grep -v '.txt' '&>> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ ";b3sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/releases/BLAKE3SUM 
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/releases/BLAKE3SUM
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.gz ' &>> /tmp/releases/BLAKE3SUM
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.tar ' &>> /tmp/releases/BLAKE3SUM            
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.tar.bz2 ' &>> /tmp/releases/BLAKE3SUM           
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.zip ' &>> /tmp/releases/BLAKE3SUM
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo -e "--> SHA256SUM" >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ ";sha256sum * | grep -v '.txt' ' &>> /tmp/RELEASE_NOTE.md  
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/releases/SHA256SUM
           /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/releases/SHA256SUM
           /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.gz ' &>> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar ' &>> /tmp/RELEASE_NOTE.md            
-          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar.bz2 ' &>> /tmp/RELEASE_NOTE.md           
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.gz ' &>> /tmp/releases/SHA256SUM
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar ' &>> /tmp/releases/SHA256SUM            
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar.bz2 ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar.bz2 ' &>> /tmp/releases/SHA256SUM           
           /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.zip ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.zip ' &>> /tmp/releases/SHA256SUM
           echo -e '```\n' >> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo '---' >> /tmp/RELEASE_NOTE.md
@@ -427,7 +467,7 @@ jobs:
           echo '- #### Sizes' >> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo '```console' >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ "; ls -lh ./* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; ls -lh /tmp/toolpack_x86_64/* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.7z | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.gz | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.tar.bz2 | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md           
@@ -455,6 +495,6 @@ jobs:
           token: "${{ secrets.GITHUB_TOKEN }}"
           body_path: "/tmp/RELEASE_NOTE.md"
           files: |
-            /tmp/releases/*z*
+            /tmp/releases/*
         continue-on-error: true
 #------------------------------------------------------------------------------------#           
