@@ -30,61 +30,37 @@ jobs:
           #Presets
           set -x ; set +e
           #--------------#
-          #12.0 GB 
-          sudo rm /usr/local/lib/android -rf 2>/dev/null
-          #8.2 GB
-          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
-          #5.0 GB
-          sudo rm /usr/local/.ghcup -rf 2>/dev/null
-          #2.0 GB
-          sudo rm /usr/share/dotnet -rf 2>/dev/null
-          #1.7 GB
-          sudo rm /usr/share/swift -rf 2>/dev/null
-          #1.1 GB
-          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
-          #1.0 GB
-          sudo rm /usr/local/share/powershell -rf 2>/dev/null
-          #500 MB
-          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
         continue-on-error: true
 
       - name: Install CoreUtils & Deps
         run: |
-          set +e
+          #presets
+          set -x ; set +e
+          #-------------#     
           sudo apt-get update -y
           sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
         continue-on-error: true
         
       - name: Install Addons
         run: |
-          set +e
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
           #b3sum
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
-          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
-          sudo mv ./eget* "/usr/local/bin/eget"
-          sudo chmod +xwr "/usr/local/bin/eget"
-        continue-on-error: true
-
-      - name: Install 7z
-        run: |
-          set -x ; set +e
-          cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
-          find . -type f -name '*.xz' -exec tar -xf {} \;
-          #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
-          sudo chmod +xwr "/usr/local/bin/7z"
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
-          sudo chmod +xwr "/usr/bin/7z"
-          7z -h
-        continue-on-error: true
-
-      - name: Install upX
-        run: |
-          cd $(mktemp -d) && curl -qfLJO "$(curl -qfsSL https://api.github.com/repos/upx/upx/releases/latest | jq -r '.assets[].browser_download_url' | grep -i 'amd64_linux')"
-          find . -type f -name '*tar*' -exec tar -xvf {} \;
-          sudo find . -type f -name 'upx' -exec mv {} "$(which upx)" \;  
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
         continue-on-error: true
 
       - name: Setup Env
@@ -118,14 +94,17 @@ jobs:
           find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec rm {} \; 2>/dev/null
           # Strip && Rename anything with *_amd*
           find "$HOME/bin" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
+          #Copy to /tmp/toolpack_x86_64
+          mkdir -p "/tmp/toolpack_x86_64"
+          find "$HOME/bin" -maxdepth 1 -type f -exec cp {} "/tmp/toolpack_x86_64" \; 
         continue-on-error: true
 
       - name: Archive Binaries (.tar) # This is a requirement for others
         run: |
           cd /tmp ; set +e ; set -x
           # Compress to tar (size ~ orignal_size, maybe slight increase)
-          tar -cvf /tmp/toolpack_x86_64.tar -C /tmp toolpack_x86_64
-          #7z a -r -ttar -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar /tmp/toolpack_x86_64 2>/dev/null
+          #tar -cvf /tmp/toolpack_x86_64.tar -C /tmp toolpack_x86_64
+          7z a -r -ttar -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar /tmp/toolpack_x86_64 2>/dev/null
           sha256sum /tmp/toolpack_x86_64.tar
         continue-on-error: true
 
@@ -145,33 +124,42 @@ jobs:
       contents: write
       
     steps:        
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          path: main
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
 
       - name: Install CoreUtils & Deps
         run: |
-          sudo apt-get update -y
-          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq make musl musl-dev musl-tools p7zip-full wget -y
-          pip install ansi2txt
-          #eget
-          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
-          sudo mv ./eget* "/usr/local/bin/eget"
-          sudo chmod +xwr "/usr/local/bin/eget"
-        continue-on-error: true
-
-      - name: Install 7z
-        run: |
+          #presets
           set -x ; set +e
-          cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
-          find . -type f -name '*.xz' -exec tar -xf {} \;
-          #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
-          sudo chmod +xwr "/usr/local/bin/7z"
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
-          sudo chmod +xwr "/usr/bin/7z"
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
           7z -h
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
         continue-on-error: true
 
       - name: Download_toolpack_x86_64_Artifacts
@@ -207,33 +195,42 @@ jobs:
       contents: write
       
     steps:        
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          path: main
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
 
       - name: Install CoreUtils & Deps
         run: |
-          sudo apt-get update -y
-          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq make musl musl-dev musl-tools p7zip-full wget -y
-          pip install ansi2txt
-          #eget
-          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
-          sudo mv ./eget* "/usr/local/bin/eget"
-          sudo chmod +xwr "/usr/local/bin/eget"
-        continue-on-error: true
-
-      - name: Install 7z
-        run: |
+          #presets
           set -x ; set +e
-          cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
-          find . -type f -name '*.xz' -exec tar -xf {} \;
-          #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
-          sudo chmod +xwr "/usr/local/bin/7z"
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
-          sudo chmod +xwr "/usr/bin/7z"
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
           7z -h
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
         continue-on-error: true
 
       - name: Download_toolpack_x86_64_Artifacts
@@ -267,33 +264,42 @@ jobs:
       contents: write
       
     steps:        
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          path: main
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
 
       - name: Install CoreUtils & Deps
         run: |
-          sudo apt-get update -y
-          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq make musl musl-dev musl-tools p7zip-full wget -y
-          pip install ansi2txt
-          #eget
-          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
-          sudo mv ./eget* "/usr/local/bin/eget"
-          sudo chmod +xwr "/usr/local/bin/eget"
-        continue-on-error: true
-
-      - name: Install 7z
-        run: |
+          #presets
           set -x ; set +e
-          cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
-          find . -type f -name '*.xz' -exec tar -xf {} \;
-          #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
-          sudo chmod +xwr "/usr/local/bin/7z"
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
-          sudo chmod +xwr "/usr/bin/7z"
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
           7z -h
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
         continue-on-error: true
 
       - name: Download_toolpack_x86_64_Artifacts
@@ -329,33 +335,42 @@ jobs:
       contents: write
       
     steps:        
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          path: main
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
 
       - name: Install CoreUtils & Deps
         run: |
-          sudo apt-get update -y
-          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq make musl musl-dev musl-tools p7zip-full wget -y
-          pip install ansi2txt
-          #eget
-          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
-          sudo mv ./eget* "/usr/local/bin/eget"
-          sudo chmod +xwr "/usr/local/bin/eget"
-        continue-on-error: true
-
-      - name: Install 7z
-        run: |
+          #presets
           set -x ; set +e
-          cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
-          find . -type f -name '*.xz' -exec tar -xf {} \;
-          #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
-          sudo chmod +xwr "/usr/local/bin/7z"
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
-          sudo chmod +xwr "/usr/bin/7z"
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
           7z -h
+          #b3sum
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
         continue-on-error: true
 
       - name: Download_toolpack_x86_64_Artifacts
@@ -391,10 +406,15 @@ jobs:
       contents: write
       
     steps:        
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          path: main
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
 
       - name: Download_All_Artifacts
         uses: actions/download-artifact@v3
