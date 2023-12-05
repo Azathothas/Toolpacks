@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     #- cron: "0 1 * * *" #  06:45 AM NPT Mrng Every Day
-    - cron: "0 0 */2 * *" #Every 2 days (48 Hr)
+    - cron: "0 0 */4 * *" #Every 4 days
 env:
   GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
   
