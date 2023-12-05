@@ -480,7 +480,7 @@ jobs:
           #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.zip ' &>> /tmp/releases/BLAKE3SUM
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo -e "--> SHA256SUM" >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/RELEASE_NOTE.md
           /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/releases/SHA256SUM
           /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/RELEASE_NOTE.md
           #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/releases/SHA256SUM
@@ -499,7 +499,7 @@ jobs:
           echo '- #### Sizes' >> /tmp/RELEASE_NOTE.md
           echo -e "" >> /tmp/RELEASE_NOTE.md
           echo '```console' >> /tmp/RELEASE_NOTE.md
-          /bin/bash -c 'PS4="$ "; ls -lh /tmp/toolpack_x86_64/* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ "; ls -lh /tmp/toolpack_x86_64/* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.7z | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.gz | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
           /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.tar.bz2 | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md           
