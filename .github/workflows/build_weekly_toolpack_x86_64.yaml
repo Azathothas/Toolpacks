@@ -165,6 +165,10 @@ jobs:
           #Copy to Repo
           #Exclude copying bins > 100 MB
           find "$HOME/bin" -maxdepth 1 -type f ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/x86_64" \;
+          #Tar bins exceeding 99M
+          find "$HOME/bin" -maxdepth 1 -type f -size +99M -exec tar czvf {}.tar.gz --transform='s|.*/||' {} \;
+          #Move to main
+          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/x86_64" \;
         continue-on-error: true
 
       - name: Update README.md
