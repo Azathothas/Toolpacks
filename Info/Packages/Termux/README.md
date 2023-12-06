@@ -30,7 +30,7 @@
 | **aidl** | 13.0.0.6-9 | Android Interface Definition Language (AIDL) | https://elinux.org/Android_aapt |
 | **alass** | 2.0.0-2 | Automatic Language-Agnostic Subtitle Synchronization | https://github.com/kaegi/alass |
 | **alembic** | 1.8.5 | A framework for sharing scene data that includes a C++ lib, a file format and client plugin | https://alembic.io |
-| **algernon** | 1.15.4 | Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support | https://algernon.roboticoverlords.org/ |
+| **algernon** | 1.15.5 | Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support | https://algernon.roboticoverlords.org/ |
 | **alist** | 3.29.1 | A file list program that supports multiple storage | https://alist.nn.ci |
 | **alpine** | 2.26 | Fast, easy to use email client | http://alpine.x10host.com/ |
 | **amber** | 0.5.9-1 | A code search / replace tool | https://github.com/dalance/amber |
@@ -276,7 +276,7 @@
 | **cups** | 2.4.7 | Common UNIX Printing System | https://www.cups.org/ |
 | **cups-pdf** | 3.0.1 | CUPS PDF backend | https://www.cups-pdf.de/ |
 | **cups-static** | 2.4.7 | Static libraries for cups | https://www.cups.org/ |
-| **curl** | 8.4.0 | Command line tool for transferring data with URL syntax | https://curl.se/ |
+| **curl** | 8.5.0 | Command line tool for transferring data with URL syntax | https://curl.se/ |
 | **curlie** | 1.7.2 | The power of curl, the ease of use of httpie | https://curlie.io/ |
 | **curseofwar** | 1.3.0-4 | Fast-paced action strategy game focusing on high-level strategic planning | http://a-nikolaev.github.io/curseofwar/ |
 | **cvs** | 1:1.12.13-2 | Concurrent Versions System | https://www.nongnu.org/cvs/ |
@@ -348,7 +348,7 @@
 | **dtc** | 1.7.0 | Device Tree Compiler | https://git.kernel.org/pub/scm/utils/dtc/dtc |
 | **dtc-static** | 1.7.0 | Static libraries for dtc | https://git.kernel.org/pub/scm/utils/dtc/dtc |
 | **dte** | 1.11.1-1 | A small, configurable console text editor | https://craigbarnes.gitlab.io/dte/ |
-| **dua** | 2.20.3 | View disk space usage and delete unwanted data, fast | https://github.com/Byron/dua-cli |
+| **dua** | 2.21.0 | View disk space usage and delete unwanted data, fast | https://github.com/Byron/dua-cli |
 | **duc** | 1.4.5 | High-performance disk usage analyzer | http://duc.zevv.nl/ |
 | **duckdb** | 0.9.2 | DuckDB Command Line Interface (CLI) shell | https://duckdb.org/ |
 | **duf** | 0.8.1-3 | Disk usage/free utility | https://github.com/muesli/duf |
@@ -402,7 +402,7 @@
 | **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
 | **fasd** | 1.0.2 | To fastly access files and folders | https://github.com/whjvenyl/fasd |
-| **fastfetch** | 2.3.1 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
+| **fastfetch** | 2.3.2 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
 | **fastmod** | 0.4.4 | Regex-based code refactoring utility | https://github.com/facebookincubator/fastmod |
 | **fatsort** | 1.6.5.640 | A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions | https://fatsort.sourceforge.io/ |
 | **fclones** | 0.34.0 | Efficient Duplicate File Finder | https://github.com/pkolaczk/fclones |
@@ -566,8 +566,8 @@
 | **gobject-introspection** | 1.78.1 | Uniform machine readable API | https://gi.readthedocs.io/ |
 | **gogs** | 0.13.0-2 | A painless self-hosted Git service | https://gogs.io |
 | **gojq** | 0.12.14 | Pure Go implementation of jq | https://github.com/itchyny/gojq |
-| **golang** | 3:1.21.4 | Go programming language compiler | https://golang.org/ |
-| **golang-doc** | 3:1.21.4 | Go programming language - documentation | https://golang.org/ |
+| **golang** | 3:1.21.5 | Go programming language compiler | https://golang.org/ |
+| **golang-doc** | 3:1.21.5 | Go programming language - documentation | https://golang.org/ |
 | **gomp** | 2023.02.02-2 | MPD client inspired by ncmpcpp with builtin cover-art view and LastFM integration | https://aditya-k2.github.io/gomp/ |
 | **gomuks** | 0.3.0-3 | A terminal Matrix client written in Go | https://maunium.net/go/gomuks/ |
 | **google-drive-upload** | 4.5 | Bash scripts to upload files to google drive | https://github.com/labbots/google-drive-upload |
@@ -886,8 +886,8 @@
 | **libcue** | 2.3.0 | CUE Sheet Parser Library | https://github.com/lipnitsk/libcue/ |
 | **libcunit** | 2.1.3 | C Unit Testing Framework | https://sourceforge.net/projects/cunit/ |
 | **libcunit-static** | 2.1.3 | Static libraries for libcunit | https://sourceforge.net/projects/cunit/ |
-| **libcurl** | 8.4.0 | Easy-to-use client-side URL transfer library | https://curl.se/ |
-| **libcurl-static** | 8.4.0 | Static libraries for libcurl | https://curl.se/ |
+| **libcurl** | 8.5.0 | Easy-to-use client-side URL transfer library | https://curl.se/ |
+| **libcurl-static** | 8.5.0 | Static libraries for libcurl | https://curl.se/ |
 | **libczmq** | 4.2.1-3 | High-level C binding for ZeroMQ | https://zeromq.org/ |
 | **libczmq-static** | 4.2.1-3 | Static libraries for libczmq | https://zeromq.org/ |
 | **libdaemon** | 0.14 | A lightweight C library that eases the writing of UNIX daemons | https://0pointer.de/lennart/projects/libdaemon/ |
@@ -1441,11 +1441,11 @@
 | **libxls** | 1.6.2 | A C library for reading Excel files in the nasty old binary OLE format | https://github.com/libxls/libxls |
 | **libxls-static** | 1.6.2 | Static libraries for libxls | https://github.com/libxls/libxls |
 | **libxlsxwriter** | 1.1.5-1 | A C library for creating Excel XLSX files | https://libxlsxwriter.github.io/ |
-| **libxml2** | 2.12.1 | Library for parsing XML documents | http://www.xmlsoft.org |
-| **libxml2-python** | 2.12.1 | Python bindings for libxml2 | http://www.xmlsoft.org |
-| **libxml2-python-static** | 2.12.1 | Static libraries for libxml2-python | http://www.xmlsoft.org |
-| **libxml2-static** | 2.12.1 | Static libraries for libxml2 | http://www.xmlsoft.org |
-| **libxml2-utils** | 2.12.1 | XML utilities | http://www.xmlsoft.org |
+| **libxml2** | 2.12.2 | Library for parsing XML documents | http://www.xmlsoft.org |
+| **libxml2-python** | 2.12.2 | Python bindings for libxml2 | http://www.xmlsoft.org |
+| **libxml2-python-static** | 2.12.2 | Static libraries for libxml2-python | http://www.xmlsoft.org |
+| **libxml2-static** | 2.12.2 | Static libraries for libxml2 | http://www.xmlsoft.org |
+| **libxml2-utils** | 2.12.2 | XML utilities | http://www.xmlsoft.org |
 | **libxrandr** | 1.5.4 | X11 RandR extension library | https://xorg.freedesktop.org/ |
 | **libxrandr-static** | 1.5.4 | Static libraries for libxrandr | https://xorg.freedesktop.org/ |
 | **libxrender** | 0.9.11 | X Rendering Extension client library | https://xorg.freedesktop.org/ |
@@ -1604,7 +1604,7 @@
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
 | **miniflux** | 2.0.50 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
-| **minio** | 2023.12.02.10.51.33 | Multi-Cloud Object Storage | https://min.io/ |
+| **minio** | 2023.12.06.09.09.22 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
 | **minisign** | 0.11-1 | A dead simple tool to sign files and verify signatures | https://jedisct1.github.io/minisign/ |
 | **miniupnpc** | 2.2.5 | Small UPnP client library and tool to access Internet Gateway Devices | https://miniupnp.tuxfamily.org/ |
@@ -2382,7 +2382,7 @@
 | **valac-static** | 0.56.14 | Static libraries for valac | https://wiki.gnome.org/Projects/Vala |
 | **valadoc** | 0.56.14 | API documentation generator for vala | https://wiki.gnome.org/Projects/Vala |
 | **valadoc-static** | 0.56.14 | Static libraries for valadoc | https://wiki.gnome.org/Projects/Vala |
-| **vale** | 2.29.7 | A syntax-aware linter for prose built with speed and extensibility in mind | https://vale.sh |
+| **vale** | 2.30.0 | A syntax-aware linter for prose built with speed and extensibility in mind | https://vale.sh |
 | **valgrind** | 3.22.0 | Instrumentation framework for building dynamic analysis tools | https://valgrind.org/ |
 | **valgrind-static** | 3.22.0 | Static libraries for valgrind | https://valgrind.org/ |
 | **vamp-plugin-sdk** | 2.10-1 | An API for audio analysis and feature extraction plugins | https://www.vamp-plugins.org/ |
@@ -2393,7 +2393,7 @@
 | **vde2-static** | 2.3.3-1 | Static libraries for vde2 | https://github.com/virtualsquare/vde-2 |
 | **vegeta** | 12.11.1 | HTTP load testing tool | https://github.com/tsenart/vegeta |
 | **vera** | 1.3.0-5 | A programmable tool for verification, analysis and transformation of C++ source code | https://bitbucket.org/verateam/vera |
-| **vgmstream** | 1879 | A library for playback of various streamed audio formats used in video games | https://github.com/vgmstream/vgmstream |
+| **vgmstream** | 1896 | A library for playback of various streamed audio formats used in video games | https://github.com/vgmstream/vgmstream |
 | **vgmtools** | 2023.01.27 | A collection of tools for the VGM file format | https://github.com/vgmrips/vgmtools |
 | **viddy** | 0.4.0 | A modern watch command | https://github.com/sachaos/viddy |
 | **vifm** | 0.13 | File manager with vi like keybindings | https://vifm.info/ |
