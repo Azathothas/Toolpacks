@@ -889,6 +889,9 @@ fi
   eget "jqlang/jq" --asset "linux" --asset "amd64" --to "$HOME/bin/jq"
   #eget "jqlang/jq" --pre-release --tag "jq-1.7rc1" --asset "jq-linux-amd64" --to "$HOME/bin/jq"
   #---------------#
+  #jql : A JSON Query Language CLI tool 
+  eget "yamafaktory/jql" --asset "linux" --asset "musl" --asset "x86_64" --asset "^sha" --to "$HOME/bin/jql"
+  #---------------#
   #jqp : TUI for jq
   eget "noahgorstein/jqp" --asset "Linux" --asset "x86_64" --file "jqp" --to "$HOME/bin/jqp"
   #---------------#
@@ -988,6 +991,9 @@ fi
   #logtimer : Enhance your output with a timer / date 
   eget "Eun/logtimer" --asset "linux" --asset "x86_64.tar.gz" --to "$HOME/bin/logtimer"
   #---------------#
+  #lsd : The next gen ls command
+  eget "lsd-rs/lsd" --asset "linux" --asset "musl" --asset "x86_64" --asset "gz" --to "$HOME/bin/lsd"
+  #---------------#
   #lux: 👾 Fast and simple video download library and CLI tool written in Go 
   eget "iawia002/lux" --asset "Linux" --asset "x86_64" --asset "tar.gz" --to "$HOME/bin/lux"
   #---------------#
@@ -1028,6 +1034,9 @@ fi
   #masscan
   #Doesn't work
   #eget "https://github.com/Azathothas/Static-Binaries/raw/main/masscan/masscan_linux_x86_64_gcc" --to "$HOME/bin/masscan"
+  #---------------#
+  #mcfly : Fly through your shell history. Great Scott! 
+  eget "cantino/mcfly" --asset "x86_64" --asset "linux" --asset "musl" --to "$HOME/bin/mcfly"
   #---------------#
   #mdcat : cat for markdown 
   eget "swsnr/mdcat" --asset "x86_64-unknown-linux-musl" --to "$HOME/bin/mdcat"
@@ -1089,6 +1098,9 @@ fi
   eget "projectdiscovery/naabu" --asset "amd64" --asset "linux" --to "$HOME/bin/naabu"
   staticx --loglevel DEBUG "$HOME/bin/naabu" --strip "$HOME/bin/naabu_staticx"
   #---------------#
+  #navi : An interactive cheatsheet tool for the command-line 
+  eget "denisidoro/navi" --asset "x86_64" --asset "linux" --asset "musl" --asset "gz" --to "$HOME/bin/navi"
+  #---------------#
   #ncdu : disk usage analyzer
   eget "https://dev.yorhel.nl$(curl -qfsSL https://dev.yorhel.nl/ncdu | awk -F '"' '/x86_64\.tar\.gz/ && /href=/{print $2}' | grep -v 'asc' | sort -u)" --to "$HOME/bin/ncdu"
   #---------------#
@@ -1139,6 +1151,9 @@ fi
   #nuclei : Fast and customizable vulnerability scanner based on simple YAML based DSL
   eget "projectdiscovery/nuclei" --asset "amd64" --asset "linux" --to "$HOME/bin/nuclei"
   #---------------#
+  #nushell : A new type of shell 
+  eget "nushell/nushell" --asset "x86_64" --asset "linux" --asset "musl" --asset "full" --asset "gz" --file "nu" --to "$HOME/bin/nu" 
+  #---------------#
   #oha: HTTP load generator
   eget "hatoo/oha" --asset "amd64" --asset "linux" --to "$HOME/bin/oha"
   #---------------#
@@ -1169,7 +1184,7 @@ fi
   #---------------#
   #ov : 🎑Feature-rich terminal-based text viewer. It is a so-called terminal pager. 
   eget "noborus/ov" --asset "linux" --asset "amd64" --asset "zip" --asset "^deb" --asset "^rpm" --file "ov" --to "$HOME/bin/ov"
-  #---------------
+  #---------------#
   #pathbuster : A path-normalization pentesting tool
   eget "ethicalhackingplayground/pathbuster" --asset "^exe" --to "$HOME/bin/pathbuster"
   #---------------#
@@ -1215,6 +1230,11 @@ fi
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/projectdiscovery/proxify" && cd "./proxify"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/proxify" ; mv "./proxify" "$HOME/bin/proxify" ; popd
   go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #pspy : Monitor linux processes without root permissions 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/DominicBreuker/pspy" && cd "./pspy"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" 
+  mv "./pspy" "$HOME/bin/pspy" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #pueue : task management tool for sequential and parallel execution of long-running tasks
   eget "Nukesor/pueue" --asset "linux" --asset "x86_64" --asset "^pueued" --to "$HOME/bin/pueue"
@@ -1303,6 +1323,9 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ripgen" "$HOME/bin/ripgen" ; popd
+  #---------------#
+  #rnr : A command-line tool to batch rename files and directories 
+  eget "ismaelgv/rnr" --asset "linux" --asset "musl" --asset "x86_64" --to "$HOME/bin/rnr"
   #---------------#
   #roboxtractor : Extract endpoints marked as disallow in robots files to generate wordlists
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Josue87/roboxtractor" && cd "./roboxtractor"
@@ -1653,6 +1676,12 @@ fi
   pyinstaller --clean "./viewgen.py" --noconfirm ; pyinstaller --strip --onefile "./viewgen.py" --noconfirm
   staticx --loglevel DEBUG "./dist/viewgen" --strip "$HOME/bin/viewgen_staticx" ; popd
   #---------------#
+  #volta : JS Toolchains as Code. ⚡ 
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/volta-cli/volta" && cd "./volta"
+  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/volta" "$HOME/bin/volta" ; popd
+  #---------------#
   #vopono : Run applications through VPN tunnels with temporary network namespaces
   eget "jamesmcm/vopono" --asset "linux" --asset "x86" --asset "64" --asset "musl" --asset "^deb" --asset "^rpm" --to "$HOME/bin/vopono"
   #---------------#
@@ -1756,6 +1785,12 @@ fi
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/yataf" \;
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #yazi :💥 Blazing fast terminal file manager written in Rust, based on async I/O. 
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/sxyazi/yazi" && cd "./yazi"
+  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/yazi" "$HOME/bin/yazi" ; popd
+  #---------------#
   #yj: Convert between YAML, TOML, JSON, and HCL
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sclevine/yj" && cd "./yj"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ;  mv "./yj" "$HOME/bin/yj" ; popd
@@ -1774,6 +1809,11 @@ fi
   #---------------#
   #zenith : sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage
   eget "bvaisvil/zenith" --asset "linux" --asset "musl" --asset "^sha256" --to "$HOME/bin/zenith"
+  #---------------#
+  #zfxtop : fetch top for gen Z with X written by bubbletea enjoyer  
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ssleert/zfxtop" && cd "./zfxtop"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/zfxtop"
+  mv "./zfxtop" "$HOME/bin/zfxtop" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #zgrab2 : Fast Go Application Scanner 
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/zmap/zgrab2" && cd "./zgrab2"
