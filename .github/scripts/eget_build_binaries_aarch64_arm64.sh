@@ -249,11 +249,16 @@ fi
   eget "xm1k3/cent" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/cent"
   #---------------#
   #certstream :  Cli for calidog's certstream
-  pushd "$(mktemp -d)" && mkdir certstream && cd certstream
+  pushd "$(mktemp -d)" && mkdir "./certstream" && cd "./certstream"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/go.mod"
-  go get github.com/Azathothas/Arsenal/certstream
+  go mod init "github.com/Azathothas/Arsenal/certstream" ; go mod tidy
+  go get "github.com/Azathothas/Arsenal/certstream"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #certstream-server-go : drop-in replacement for Calidog's outdated server
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/d-Rickyy-b/certstream-server-go" && cd "./certstream-server-go"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream-server-go" "./cmd/main.go"
+  mv "./certstream-server-go" "$HOME/bin/certstream-server-go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #chaos-client : cli for Chaos DB API
   eget "projectdiscovery/chaos-client" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/chaos-client"
@@ -1207,6 +1212,9 @@ fi
   #---------------#
   #rpaste (rustypaste-cli) : A CLI tool for rustypaste
   eget "orhun/rustypaste-cli" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --asset "tar.gz" --asset "^amd" --asset "^sha" --asset "^sig" --to "$HOME/bin/rpaste"
+  #---------------#
+  #rqbit : A bittorrent client in Rust 
+  eget "ikatson/rqbit" --asset "linux" --asset "static" --asset "aarch64" --asset "^sig" --asset "^sha" --to "$HOME/bin/rqbit"
   #---------------#
   #ruff : An extremely fast Python linter and code formatter, written in Rust.
   eget "astral-sh/ruff" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --asset "^amd" --asset "^sha" --to "$HOME/bin/ruff"
