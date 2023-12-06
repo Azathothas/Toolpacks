@@ -207,10 +207,10 @@ jobs:
           set -x ; set +e
           #--------------#
           #Get Source
-          cd $(mktemp -d) && mkdir certstream && cd certstream
+          pushd "$(mktemp -d)" && mkdir "./certstream" && cd "./certstream"
           curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
-          curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/go.mod"
-          go get github.com/Azathothas/Arsenal/certstream
+          go mod init "github.com/Azathothas/Arsenal/certstream" ; go mod tidy
+          go get "github.com/Azathothas/Arsenal/certstream"
           # android 29 --> Android 10.0 or Later
           # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
           export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
@@ -222,6 +222,29 @@ jobs:
           file "./certstream" ; aarch64-linux-gnu-readelf -d "./certstream" ; ls -lah "./certstream"
           #Move
           mv "./certstream" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/certstream" ; popd
+          #Clean Cache
+          go clean -cache -fuzzcache -modcache -testcache
+        continue-on-error: true
+
+     #certstream-server-go : drop-in replacement for Calidog's outdated server
+      - name: Build certstream-server-go (Native)
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Get Source
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/d-Rickyy-b/certstream-server-go" && cd "./certstream-server-go"
+          # android 29 --> Android 10.0 or Later
+          # ANDROID_NDK = /usr/local/lib/android/sdk/ndk/
+          export CC="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang"
+          export CXX="$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang++"
+          #Compile
+          # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
+          # Binaries compiled this way are always dynamically linked to /system/bin/linker64
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./certstream-server-go" "./cmd/main.go"
+          file "./certstream-server-go" ; aarch64-linux-gnu-readelf -d "./certstream-server-go" ; ls -lah "./certstream-server-go"
+          #Move
+          mv "./certstream-server-go" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/certstream-server-go" ; popd
           #Clean Cache
           go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
