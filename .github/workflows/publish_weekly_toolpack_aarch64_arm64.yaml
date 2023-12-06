@@ -3,7 +3,7 @@ name: 🛍️ Publish ⚙️ Weekly (toolpack_aarch64_arm64) Package 📦🗄️
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 22 * * 6" # 10:30 PM UTC Saturday --> 04:15 AM NPT Mrng Every Sunday
+    - cron: "30 22 * * 0" # 10:30 PM UTC Sunday --> 04:15 AM NPT Mrng Every Monday
   
 env:
   GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
