@@ -269,11 +269,16 @@ fi
   eget "xm1k3/cent" --asset "amd64" --asset "linux" --to "$HOME/bin/cent"
   #---------------#
   #certstream :  Cli for calidog's certstream
-  pushd "$(mktemp -d)" && mkdir certstream && cd certstream
+  pushd "$(mktemp -d)" && mkdir "./certstream" && cd "./certstream"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
-  curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/go.mod"
-  go get github.com/Azathothas/Arsenal/certstream
+  go mod init "github.com/Azathothas/Arsenal/certstream" ; go mod tidy
+  go get "github.com/Azathothas/Arsenal/certstream"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #certstream-server-go : drop-in replacement for Calidog's outdated server
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/d-Rickyy-b/certstream-server-go" && cd "./certstream-server-go"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream-server-go" "./cmd/main.go"
+  mv "./certstream-server-go" "$HOME/bin/certstream-server-go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #Chameleon : Content Discovery using wappalyzer's set of technology fingerprints alongside custom wordlists tailored to each detected technologies.
   eget "iustin24/chameleon" --asset "linux" --to "$HOME/bin/chameleon"
@@ -1311,6 +1316,9 @@ fi
   #---------------#
   #rpaste (rustypaste-cli) : A CLI tool for rustypaste  
   eget "orhun/rustypaste-cli" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --to "$HOME/bin/rpaste"
+  #---------------#
+  #rqbit : A bittorrent client in Rust 
+  eget "ikatson/rqbit" --asset "linux" --asset "static" --asset "x86_64" --asset "^sig" --asset "^sha" --to "$HOME/bin/rqbit"
   #---------------#
   #ruff : An extremely fast Python linter and code formatter, written in Rust.
   eget "astral-sh/ruff" --asset "linux" --asset "64" --asset "musl" --asset "^arm" --asset "^sha" --to "$HOME/bin/ruff"
