@@ -268,12 +268,22 @@ fi
   #cent : Fetch & Organize all Nuclei Templates
   eget "xm1k3/cent" --asset "amd64" --asset "linux" --to "$HOME/bin/cent"
   #---------------#
+  #certspotter : Certificate Transparency Log Monitor
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/SSLMate/certspotter" && cd "./certspotter"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/certspotter"
+  mv "./certspotter" "$HOME/bin/certspotter" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #certstream :  Cli for calidog's certstream
   pushd "$(mktemp -d)" && mkdir "./certstream" && cd "./certstream"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
   go mod init "github.com/Azathothas/Arsenal/certstream" ; go mod tidy
   go get "github.com/Azathothas/Arsenal/certstream"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #certwatcher : CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL.   
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/drfabiocastro/certwatcher" && cd "./certwatcher"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/certwatcher"
+  mv "./certwatcher" "$HOME/bin/certwatcher" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #certstream-server-go : drop-in replacement for Calidog's outdated server
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/d-Rickyy-b/certstream-server-go" && cd "./certstream-server-go"
@@ -366,6 +376,12 @@ fi
   #---------------#
   #csvtk : A cross-platform, efficient and practical CSV/TSV toolkit
   eget "shenwei356/csvtk" --asset "linux" --asset "amd64" --asset "^sha" --to "$HOME/bin/csvtk"
+  #---------------#
+  #ctlwatcher : Monitor Certificate Transparency logs for domains matching regexes. 
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/Azathothas/ctlwatcher" && cd "./ctlwatcher"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ctlwatcher" "$HOME/bin/ctlwatcher" ; popd
   #---------------#
   #curl
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/curl/curl_amd_x86_64_Linux" --to "$HOME/bin/curl"
