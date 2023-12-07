@@ -42,7 +42,7 @@
 | **anewer** | 0.1.6 | Append lines from stdin to a file if these lines do not present in that file (aHash-based uniq) | https://github.com/ysf/anewer |
 | **angband** | 4.2.5 | Dungeon exploration adventure game | https://rephial.org/ |
 | **angle-grinder** | 0.19.2 | Slice and dice logs on the command line | https://github.com/rcoh/angle-grinder |
-| **ani-cli** | 4.6 | A cli to browse and watch anime | https://github.com/pystardust/ani-cli |
+| **ani-cli** | 4.7 | A cli to browse and watch anime | https://github.com/pystardust/ani-cli |
 | **ansifilter** | 2.20 | Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode | http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php |
 | **ant** | 1.10.14 | Java based build tool like make | https://ant.apache.org/ |
 | **antibody** | 6.1.1-2 | The fastest shell plugin manager | https://github.com/getantibody/antibody |
@@ -135,7 +135,7 @@
 | **blackbox** | 1:1.20220610 | Safely store secrets in Git/Mercurial/Subversion | https://github.com/StackExchange/blackbox |
 | **blade** | 0.0.85 | A simple, fast, clean and dynamic language | https://bladelang.com/ |
 | **blink** | 1:1.0.0-1 | Tiny x86-64 Linux emulator | https://justine.lol/blinkenlights/ |
-| **blk-utils** | 2.39.2-1 | Utilities for handling block device attributes | https://en.wikipedia.org/wiki/Util-linux |
+| **blk-utils** | 2.39.3-3 | Utilities for handling block device attributes | https://en.wikipedia.org/wiki/Util-linux |
 | **blogc** | 0.20.1 | A blog compiler | https://blogc.rgm.io/ |
 | **bmon** | 4.0-3 | Bandwidth monitor and rate estimator | https://github.com/tgraf/bmon |
 | **boinc** | 7.24.2 | Open-source software for volunteer computing | https://boinc.berkeley.edu/ |
@@ -215,7 +215,7 @@
 | **chicken-static** | 5.3.0 | Static libraries for chicken | https://www.call-cc.org |
 | **choose** | 1.3.4 | A human-friendly and fast alternative to cut and (sometimes) awk | https://github.com/theryangeary/choose |
 | **chromaprint** | 1.5.1-p20221217-1 | C library for generating audio fingerprints used by AcoustID | https://acoustid.org/chromaprint |
-| **chrony** | 4.4 | chrony is an implementation of the Network Time Protocol (NTP) | https://chrony-project.org/ |
+| **chrony** | 4.5-3 | chrony is an implementation of the Network Time Protocol (NTP) | https://chrony-project.org/ |
 | **ciso** | 1.0.2-1 | PSP ISO compression tool | https://github.com/jamie/ciso |
 | **ckermit** | 9.0.302-1 | A combined network and serial communication software package | https://www.kermitproject.org/ckermit.html |
 | **clamav** | 1.2.1 | Anti-virus toolkit for Unix | https://www.clamav.net/ |
@@ -231,8 +231,8 @@
 | **cloudflared** | 2023.10.0 | A tunneling daemon that proxies traffic from the Cloudflare network to your origins | https://github.com/cloudflare/cloudflared |
 | **clpeak** | 1.1.2-3 | A tool which profiles OpenCL devices to find their peak capacities | https://github.com/krrishnarraj/clpeak |
 | **clvk** | 0.0.20231115.213741 | Experimental implementation of OpenCL on Vulkan | https://github.com/kpet/clvk |
-| **cmake** | 3.27.9 | Family of tools designed to build, test and package software | https://cmake.org/ |
-| **cmake-curses-gui** | 3.27.9 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
+| **cmake** | 3.28.0 | Family of tools designed to build, test and package software | https://cmake.org/ |
+| **cmake-curses-gui** | 3.28.0 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
 | **cmark** | 0.30.3 | CommonMark parsing and rendering program | https://github.com/commonmark/cmark |
 | **cmark-static** | 0.30.3 | Static libraries for cmark | https://github.com/commonmark/cmark |
 | **cmatrix** | 2.0 | Command producing a Matrix-style animation | https://github.com/abishekvashok/cmatrix |
@@ -408,7 +408,7 @@
 | **fclones** | 0.34.0 | Efficient Duplicate File Finder | https://github.com/pkolaczk/fclones |
 | **fcp** | 0.2.1 | A significantly faster alternative to the classic Unix cp(1) command | https://github.com/Svetlitski/fcp |
 | **fd** | 8.7.1 | Simple, fast and user-friendly alternative to find | https://github.com/sharkdp/fd |
-| **fdisk** | 2.39.2-1 | Utilities to manipulate disk partition tables | https://en.wikipedia.org/wiki/Util-linux |
+| **fdisk** | 2.39.3-3 | Utilities to manipulate disk partition tables | https://en.wikipedia.org/wiki/Util-linux |
 | **fdkaac** | 1.0.5 | command line encoder frontend for libfdk-aac | https://github.com/nu774/fdkaac |
 | **fdm** | 2.2 | A program designed to fetch mail from POP3 or IMAP servers, or receive local mail from stdin, and deliver it in various ways | https://github.com/nicm/fdm |
 | **fdroidcl** | 0.7.0-2 | F-Droid client | https://github.com/mvdan/fdroidcl |
@@ -600,7 +600,7 @@
 | **grex** | 1.4.4 | Simplifies the task of creating regular expressions | https://github.com/pemistahl/grex |
 | **groff** | 1.23.0 | typesetting system that reads plain text mixed with formatting commands and produces formatted output | https://www.gnu.org/software/groff/ |
 | **gron** | 0.7.1-3 | Transforms JSON into discrete assignments | https://github.com/tomnomnom/gron |
-| **groovy** | 4.0.15 | A powerful multi-faceted programming language for the JVM platform | https://groovy-lang.org/ |
+| **groovy** | 4.0.16-3 | A powerful multi-faceted programming language for the JVM platform | https://groovy-lang.org/ |
 | **grv** | 0.3.2-3 | A terminal based interface for viewing Git repositories | https://github.com/rgburke/grv |
 | **gsasl** | 2.2.0 | GNU SASL library command line interface | https://www.gnu.org/software/gsasl |
 | **gsf-tools** | 1.14.51 | Command-line tools for libgsf | https://gitlab.gnome.org/GNOME/libgsf |
@@ -732,7 +732,7 @@
 | **jpegoptim** | 1.5.5 | JPEG optimizer that recompresses image files to a smaller size, without losing any information | https://www.kokkonen.net/tjko/projects.html |
 | **jq** | 1.7 | Command-line JSON processor | http://stedolan.github.io/jq/ |
 | **jq-static** | 1.7 | Static libraries for jq | http://stedolan.github.io/jq/ |
-| **jql** | 7.1.0 | A JSON Query Language CLI tool | https://github.com/yamafaktory/jql |
+| **jql** | 7.1.1 | A JSON Query Language CLI tool | https://github.com/yamafaktory/jql |
 | **json-c** | 0.17 | A JSON implementation in C | https://github.com/json-c/json-c/wiki |
 | **json-c-static** | 0.17 | Static libraries for json-c | https://github.com/json-c/json-c/wiki |
 | **json-glib** | 1.8.0 | GLib JSON manipulation library | https://wiki.gnome.org/Projects/JsonGlib |
@@ -828,7 +828,7 @@
 | **libatomic-ops** | 7.8.0 | Provides semi-portable access to hardware-provided atomic memory update operations | https://github.com/ivmai/libatomic_ops |
 | **libatomic-ops-static** | 7.8.0 | Static libraries for libatomic-ops | https://github.com/ivmai/libatomic_ops |
 | **libbcprov-java** | 1.77 | A lightweight cryptography API for Java | https://www.bouncycastle.org/java.html |
-| **libblkid** | 2.39.2-1 | Block device identification library | https://en.wikipedia.org/wiki/Util-linux |
+| **libblkid** | 2.39.3-3 | Block device identification library | https://en.wikipedia.org/wiki/Util-linux |
 | **libblocksruntime** | 1:5.9-1 | LLVM Blocks runtime library | https://github.com/apple/swift-corelibs-libdispatch |
 | **libblosc** | 1.21.5 | A blocking, shuffling and loss-less compression library | https://www.blosc.org |
 | **libblosc-static** | 1.21.5 | Static libraries for libblosc | https://www.blosc.org |
@@ -936,7 +936,7 @@
 | **libfann** | 2.2.0 | Fast artificial neural network library | http://leenissen.dk/fann/wp |
 | **libfcft** | 3.1.6-1 | A small font loading and glyph rasterization library | https://codeberg.org/dnkl/fcft |
 | **libfcl** | 0.7.0-1 | Flexible collision library | https://github.com/flexible-collision-library/fcl |
-| **libfdisk** | 2.39.2-1 | Library for manipulating disk partition tables | https://en.wikipedia.org/wiki/Util-linux |
+| **libfdisk** | 2.39.3-3 | Library for manipulating disk partition tables | https://en.wikipedia.org/wiki/Util-linux |
 | **libfdk-aac** | 2.0.2-3 | Fraunhofer FDK AAC Codec Library | https://github.com/mstorsjo/fdk-aac |
 | **libfdk-aac-static** | 2.0.2-3 | Static libraries for libfdk-aac | https://github.com/mstorsjo/fdk-aac |
 | **libffi** | 3.4.4-1 | Library providing a portable, high level programming interface to various calling conventions | https://sourceware.org/libffi/ |
@@ -1108,7 +1108,7 @@
 | **libmodplug** | 0.8.9.1.r461 | The ModPlug mod file playing library | http://modplug-xmms.sourceforge.net/ |
 | **libmodplug-static** | 0.8.9.1.r461 | Static libraries for libmodplug | http://modplug-xmms.sourceforge.net/ |
 | **libmosquitto** | 2.0.18 | MQTT library | https://mosquitto.org/ |
-| **libmount** | 2.39.2-1 | Library for (un)mounting filesystems | https://en.wikipedia.org/wiki/Util-linux |
+| **libmount** | 2.39.3-3 | Library for (un)mounting filesystems | https://en.wikipedia.org/wiki/Util-linux |
 | **libmp3lame** | 3.100-4 | High quality MPEG Audio Layer III (MP3) encoder | https://lame.sourceforge.io/ |
 | **libmp3lame-static** | 3.100-4 | Static libraries for libmp3lame | https://lame.sourceforge.io/ |
 | **libmp3splt** | 0.9.2-9 | Utility to split MP3, Ogg Vorbis and native FLAC files without decoding | http://mp3splt.sourceforge.net |
@@ -1251,8 +1251,8 @@
 | **libsearpc** | 1:3.2.0-5 | A simple C language RPC framework (mainly for seafile) | https://github.com/haiwen/libsearpc |
 | **libsearpc-static** | 1:3.2.0-5 | Static libraries for libsearpc | https://github.com/haiwen/libsearpc |
 | **libseat** | 0.8.0 | Reference implementation of a wayland compositor | https://sr.ht/~kennylevinsen/seatd/ |
-| **libseccomp** | 2.5.4 | Enhanced seccomp library | https://github.com/seccomp/libseccomp |
-| **libseccomp-static** | 2.5.4 | Static libraries for libseccomp | https://github.com/seccomp/libseccomp |
+| **libseccomp** | 2.5.5-3 | Enhanced seccomp library | https://github.com/seccomp/libseccomp |
+| **libseccomp-static** | 2.5.5-3 | Static libraries for libseccomp | https://github.com/seccomp/libseccomp |
 | **libsecp256k1** | 1:0.4.0 | Optimized c library for ECDSA signatures and seret/public key operations on curve secp256k1 | https://github.com/bitcoin-core/secp256k1 |
 | **libsecp256k1-static** | 1:0.4.0 | Static libraries for libsecp256k1 | https://github.com/bitcoin-core/secp256k1 |
 | **libsecret** | 0.21.1 | A GObject-based library for accessing the Secret Service API | https://gitlab.gnome.org/GNOME/libsecret |
@@ -1269,7 +1269,7 @@
 | **libslirp** | 4.7.0 | A general purpose TCP-IP emulator. | https://gitlab.freedesktop.org/slirp/libslirp |
 | **libsm** | 1.2.4-1 | X11 Session Management library | https://xorg.freedesktop.org/ |
 | **libsm-static** | 1.2.4-1 | Static libraries for libsm | https://xorg.freedesktop.org/ |
-| **libsmartcols** | 2.39.2-1 | Library for smart adaptive formatting of tabular data | https://en.wikipedia.org/wiki/Util-linux |
+| **libsmartcols** | 2.39.3-3 | Library for smart adaptive formatting of tabular data | https://en.wikipedia.org/wiki/Util-linux |
 | **libsnappy** | 1.1.10 | A compression/decompression library | https://github.com/google/snappy |
 | **libsndfile** | 1.2.2 | Library for reading/writing audio files | http://www.mega-nerd.com/libsndfile |
 | **libsndfile-static** | 1.2.2 | Static libraries for libsndfile | http://www.mega-nerd.com/libsndfile |
@@ -1374,7 +1374,7 @@
 | **libusbredir** | 0.13.0 | network protocol for sending USB device traffic over a network connection | https://www.spice-space.org/ |
 | **libusbredir-static** | 0.7.1 | Static libraries for libusbredir | https://www.spice-space.org/ |
 | **libutf8-range** | 2:22.4-2 | Fast UTF-8 validation with Range algorithm | https://github.com/protocolbuffers/protobuf |
-| **libuuid** | 2.39.2-1 | Library for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
+| **libuuid** | 2.39.3-3 | Library for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
 | **libuv** | 1.47.0 | Support library with a focus on asynchronous I/O | https://libuv.org |
 | **libuv-static** | 1.47.0 | Static libraries for libuv | https://libuv.org |
 | **libv4l** | 1.24.1-1 | Linux libraries to handle media devices | https://git.linuxtv.org/v4l-utils.git |
@@ -1631,7 +1631,7 @@
 | **mosh-perl** | 1.4.0-7 | The mosh Perl script | https://mosh.org |
 | **mosquitto** | 2.0.18 | MQTT version 3.1/3.1.1 compatible message broker and clients | https://mosquitto.org/ |
 | **most** | 5.2.0 | A terminal pager similar to 'more' and 'less' | http://www.jedsoft.org/most/index.html |
-| **mount-utils** | 2.39.2-1 | Utilities for (un)mounting filesystems | https://en.wikipedia.org/wiki/Util-linux |
+| **mount-utils** | 2.39.3-3 | Utilities for (un)mounting filesystems | https://en.wikipedia.org/wiki/Util-linux |
 | **mp3cat** | 0.5 | Copies a byte stream, skipping everything except mp3 frames with valid headers | https://tomclegg.ca/mp3cat |
 | **mp3cat-go** | 4.2.2-3 | A command line utility for joining MP3 files. | https://www.dmulholl.com/dev/mp3cat.html |
 | **mp3gain** | 1.6.2 | Analyzes and adjusts mp3 files so that they have the same volume | http://mp3gain.sourceforge.net/ |
@@ -1864,7 +1864,7 @@
 | **picocom** | 2018.04.12 | A minimal dumb-terminal emulation program | https://github.com/npat-efault/picocom |
 | **pigz** | 2.8 | Parallel implementation of the gzip file compressor | https://www.zlib.net/pigz |
 | **pinentry** | 1.2.1-1 | Dialog allowing secure password entry | https://www.gnupg.org/related_software/pinentry/index.html |
-| **pingme** | 0.2.5-3 | A small utility which can be called from anywhere to send a message with particular information | https://github.com/kha7iq/pingme |
+| **pingme** | 0.2.6-3 | A small utility which can be called from anywhere to send a message with particular information | https://github.com/kha7iq/pingme |
 | **pipebuffer** | 0.0.git20211120 | Arbitrary-sized in-memory buffer between pipelined programs (non-blocking mbuffer analogue for pipeline) | https://github.com/tfenne/pipebuffer |
 | **pipes.sh** | 2018.04.22 | Animated pipes terminal screensaver | https://github.com/pipeseroni/pipes.sh |
 | **pipewire** | 1.0.0 | A server and user space API to deal with multimedia pipelines | https://pipewire.org/ |
@@ -2088,7 +2088,7 @@
 | **samurai** | 1.2 | ninja-compatible build tool written in C | https://github.com/michaelforney/samurai |
 | **sc-im** | 0.8.3-1 | An improved version of sc, a spreadsheet calculator | https://github.com/andmarti1424/sc-im |
 | **scala** | 3.3.1 | Scala 3 compiler and standard library. | https://www.scala-lang.org |
-| **scc** | 3.1.0-3 | Counts physical the lines of code, blank lines, comment lines, and physical lines of source code | https://github.com/boyter/scc |
+| **scc** | 3.2.0-3 | Counts physical the lines of code, blank lines, comment lines, and physical lines of source code | https://github.com/boyter/scc |
 | **sccache** | 0.7.4 | sccache is ccache with cloud storage | https://github.com/mozilla/sccache |
 | **scdaemon** | 2.4.3 | Daemon invoked by gpg to manage smartcards | https://www.gnupg.org/ |
 | **scdoc** | 1.11.2-2 | Small man page generator | https://git.sr.ht/~sircmpwn/scdoc |
@@ -2096,7 +2096,7 @@
 | **screen** | 4.9.1 | Terminal multiplexer with VT100/ANSI terminal emulation | https://www.gnu.org/software/screen/ |
 | **screenfetch** | 3.9.1-1 | Bash Screenshot Information Tool | https://github.com/KittyKatt/screenFetch |
 | **scrub** | 2.6.1-1 | Iteratively writes patterns on files or disk devices to make retreiving the data more difficult | https://github.com/chaos/scrub |
-| **scrypt** | 1.3.1-2 | scrypt KDF library and file encryption tool | https://www.tarsnap.com/scrypt.html |
+| **scrypt** | 1.3.2-3 | scrypt KDF library and file encryption tool | https://www.tarsnap.com/scrypt.html |
 | **sd** | 1.0.0 | An intuitive find & replace CLI | https://github.com/chmln/sd |
 | **sdcv** | 0.5.5 | StarDict Console Version | http://dushistov.github.io/sdcv/ |
 | **seafile-client** | 9.0.4 | Seafile is a file syncing and sharing software with file encryption and group sharing | https://seafile.com |
@@ -2105,7 +2105,7 @@
 | **secure-delete** | 3.1-5 | Secure file, disk, swap, memory erasure utilities | http://www.thc.org/ |
 | **sed** | 4.9-1 | GNU stream editor for filtering/transforming text | https://www.gnu.org/software/sed/ |
 | **sendxmpp** | 1.24 | A perl-script to send XMPP (jabber) messages | https://sendxmpp.hostname.sk/ |
-| **senpai** | 1:0.2.0-1 | An IRC client that works best with bouncers | https://git.sr.ht/~taiite/senpai |
+| **senpai** | 1:0.3.0-3 | An IRC client that works best with bouncers | https://git.sr.ht/~taiite/senpai |
 | **sensible-utils** | 0.0.21 | Small utilities used by programs to sensibly select and spawn an appropriate browser, editor, or pager | https://packages.debian.org/sid/sensible-utils |
 | **serd** | 0.32.0 | A lightweight C library for RDF syntax | https://drobilla.net/software/serd.html |
 | **serf** | 1.3.10 | High performance C-based HTTP client library | https://serf.apache.org/ |
@@ -2148,7 +2148,7 @@
 | **socat** | 1.8.0.0 | Relay for bidirectional data transfer between two independent data channels | http://www.dest-unreach.org/socat/ |
 | **softether-vpn** | 5.02.5180-4 | An open-source cross-platform multi-protocol VPN program | https://www.softether.org/ |
 | **softether-vpn-static** | 5.02.5180-4 | Static libraries for softether-vpn | https://www.softether.org/ |
-| **soju** | 0.6.2-1 | A user-friendly IRC bouncer | https://git.sr.ht/~emersion/soju |
+| **soju** | 0.7.0-3 | A user-friendly IRC bouncer | https://git.sr.ht/~emersion/soju |
 | **solidity** | 0.8.23 | An Ethereum smart contract-oriented language | https://solidity.readthedocs.io |
 | **sops** | 3.8.1 | Simple and flexible tool for managing secrets | https://github.com/mozilla/sops |
 | **sord** | 0.16.16 | A lightweight C library for storing RDF data in memory | https://drobilla.net/software/sord.html |
@@ -2313,7 +2313,7 @@
 | **tracepath** | 20221126-1 | Tool to trace the network path to a remote host | https://github.com/iputils/iputils |
 | **traceroute** | 2.1.3 | A new modern implementation of traceroute(8) utility for Linux systems | https://traceroute.sourceforge.net/ |
 | **translate-shell** | 0.9.7.1 | Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc. | https://www.soimort.org/translate-shell |
-| **transmission** | 4.0.4 | Easy, lean and powerful BitTorrent client | https://transmissionbt.com/ |
+| **transmission** | 4.0.5 | Easy, lean and powerful BitTorrent client | https://transmissionbt.com/ |
 | **tree** | 2.1.1 | Recursive directory lister producing a depth indented listing of files | http://mama.indstate.edu/users/ice/tree/ |
 | **trojan-go** | 0.10.6-3 | A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW | https://p4gefau1t.github.io/trojan-go |
 | **trurl** | 0.9 | trurl is a command line tool that parses and manipulates URLs | https://curl.se/trurl/ |
@@ -2344,7 +2344,7 @@
 | **udftools** | 2.3 | Linux tools for UDF filesystems and DVD/CD-R(W) drives | https://github.com/pali/udftools |
 | **uftrace** | 0.14-1 | Function (graph) tracer for user-space | https://uftrace.github.io/slide |
 | **ugit** | 5.7 | ugit helps you undo your last git command with grace. Your damage control git buddy | https://github.com/Bhupesh-V/ugit |
-| **ugrep** | 4.3.4 | A faster, user-friendly and compatible grep replacement | https://github.com/Genivia/ugrep |
+| **ugrep** | 4.3.5 | A faster, user-friendly and compatible grep replacement | https://github.com/Genivia/ugrep |
 | **unar** | 1.10.7-6 | Command line tools for archive and file unarchiving and extraction | https://theunarchiver.com/command-line |
 | **unbound** | 1.19.0 | Unbound command-line tools | https://unbound.net/ |
 | **unbound-static** | 1.17.1 | Static libraries for unbound | https://unbound.net/ |
@@ -2372,10 +2372,10 @@
 | **utf8proc-static** | 2.9.0 | Static libraries for utf8proc | https://github.com/JuliaLang/utf8proc |
 | **utfdecode** | 0.3.4-6 | Tool for decoding, encoding and debugging unicode | https://github.com/fornwall/utfdecode |
 | **uthash** | 2.3.0 | C preprocessor implementations of a hash table and a linked list | https://troydhanson.github.io/uthash/ |
-| **util-linux** | 2.39.2-1 | Miscellaneous system utilities | https://en.wikipedia.org/wiki/Util-linux |
-| **util-linux-static** | 2.39.2-1 | Static libraries for util-linux | https://en.wikipedia.org/wiki/Util-linux |
+| **util-linux** | 2.39.3-3 | Miscellaneous system utilities | https://en.wikipedia.org/wiki/Util-linux |
+| **util-linux-static** | 2.39.3-3 | Static libraries for util-linux | https://en.wikipedia.org/wiki/Util-linux |
 | **uucp** | 1.07-1 | The standard UUCP package of the Free Software Foundation | https://www.airs.com/ian/uucp.html |
-| **uuid-utils** | 2.39.2-1 | Utilities for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
+| **uuid-utils** | 2.39.3-3 | Utilities for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
 | **uwsgi** | 2.0.23 | uWSGI application server container | https://projects.unbit.it/uwsgi |
 | **v2ray** | 5.12.1 | A platform for building proxies to bypass network restrictions | https://www.v2fly.org/ |
 | **valac** | 0.56.14 | C# like language for the GObject system | https://wiki.gnome.org/Projects/Vala |
@@ -2502,7 +2502,7 @@
 | **yuma123** | 2.13-1 | Provides an opensource YANG API in C | https://yuma123.org/ |
 | **yuma123-static** | 2.13-1 | Static libraries for yuma123 | https://yuma123.org/ |
 | **z-push** | 2.7.1 | An open-source application to synchronize ActiveSync compatible devices and Outlook | https://z-push.org/ |
-| **z3** | 4.12.3 | Z3 is a theorem prover from Microsoft Research | https://github.com/Z3Prover/z3 |
+| **z3** | 4.12.4 | Z3 is a theorem prover from Microsoft Research | https://github.com/Z3Prover/z3 |
 | **zbar** | 0.23.92-1 | Software suite for reading bar codes from various sources | https://github.com/mchehab/zbar |
 | **zbar-static** | 0.23.92-1 | Static libraries for zbar | https://github.com/mchehab/zbar |
 | **zeronet** | 0.7.1-8 | Decentralized websites using Bitcoin crypto and BitTorrent network | https://zeronet.io/ |
