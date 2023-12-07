@@ -1178,6 +1178,12 @@ fi
   #---------------#
   #qsv : CSVs sliced, diced & analyzed.
   eget "jqnatividad/qsv" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --asset "^amd" --asset "^sha" --asset "^sig" --file "qsv" --to "$HOME/bin/qsv"
+  #---------------#
+  #quickcert : Query crtsh via pgsl server --> postgres://guest@crt.sh:5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/c3l3si4n/quickcert" && cd "./quickcert"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./quickcert" "$HOME/bin/quickcert" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #rate-limit-checker : Check whether the domain has a rate limit enabled
   pushd "$(mktemp -d)" && mkdir rate-limit-checker && cd "./rate-limit-checker"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/rate-limit-checker/main.go"
