@@ -248,6 +248,11 @@ fi
   #cent : Fetch & Organize all Nuclei Templates
   eget "xm1k3/cent" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/cent"
   #---------------#
+  #certspotter : Certificate Transparency Log Monitor
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/SSLMate/certspotter" && cd "./certspotter"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/certspotter"
+  mv "./certspotter" "$HOME/bin/certspotter" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #certstream :  Cli for calidog's certstream
   pushd "$(mktemp -d)" && mkdir "./certstream" && cd "./certstream"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
@@ -259,6 +264,11 @@ fi
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/d-Rickyy-b/certstream-server-go" && cd "./certstream-server-go"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./certstream-server-go" "./cmd/main.go"
   mv "./certstream-server-go" "$HOME/bin/certstream-server-go" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #certwatcher : CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL.   
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/drfabiocastro/certwatcher" && cd "./certwatcher"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/certwatcher"
+  mv "./certwatcher" "$HOME/bin/certwatcher" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #chaos-client : cli for Chaos DB API
   eget "projectdiscovery/chaos-client" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/chaos-client"
