@@ -1277,6 +1277,11 @@ fi
   #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   #cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/runst" "$HOME/bin/runst"
   #---------------#
+  #quickcert : Query crtsh via pgsl server --> postgres://guest@crt.sh:5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/c3l3si4n/quickcert" && cd "./quickcert"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./quickcert" "$HOME/bin/quickcert" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #rate-limit-checker : Check whether the domain has a rate limit enabled
   pushd "$(mktemp -d)" && mkdir rate-limit-checker && cd "./rate-limit-checker"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/rate-limit-checker/main.go"
