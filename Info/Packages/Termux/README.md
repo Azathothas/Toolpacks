@@ -285,7 +285,7 @@
 | **dar** | 2.7.13 | A full featured command-line backup tool, short for Disk ARchive | http://dar.linux.free.fr/ |
 | **dar-static** | 2.7.13 | Static libraries for dar | http://dar.linux.free.fr/ |
 | **darkhttpd** | 1.14 | A simple webserver, implemented in a single .c file. | https://unix4lyfe.org/darkhttpd |
-| **dart** | 3.2.2 | Dart is a general-purpose programming language | https://dart.dev/ |
+| **dart** | 3.2.3 | Dart is a general-purpose programming language | https://dart.dev/ |
 | **dasel** | 2.5.0 | Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility | https://github.com/TomWright/dasel |
 | **dash** | 0.5.12 | Small POSIX-compliant implementation of /bin/sh | http://gondor.apana.org.au/~herbert/dash/ |
 | **dasm** | 2.20.14.1 | Macro assembler with support for several 8-bit microprocessors | https://dasm-dillon.sourceforge.io/ |
@@ -315,8 +315,8 @@
 | **diskus** | 0.7.0 | A minimal, fast alternative to 'du -sh' | https://github.com/sharkdp/diskus |
 | **distant** | 1:0.20.0 | Library and tooling that supports remote filesystem and process | https://github.com/chipsenkbeil/distant |
 | **distcc** | 3.4-2 | Distributed C/C++ compiler. | http://distcc.org/ |
-| **djvulibre** | 3.5.28-5 | Suite to create, manipulate and view DjVu ('déjà vu') documents | http://djvu.sourceforge.net/ |
-| **djvulibre-static** | 3.5.28-5 | Static libraries for djvulibre | http://djvu.sourceforge.net/ |
+| **djvulibre** | 3.5.28-6 | Suite to create, manipulate and view DjVu ('déjà vu') documents | https://djvu.sourceforge.net/ |
+| **djvulibre-static** | 3.5.28-6 | Static libraries for djvulibre | https://djvu.sourceforge.net/ |
 | **dmagnetic** | 0.37 | Interpreter for classic text adventure games and interactive fiction | https://dettus.net/dMagnetic |
 | **dmtx-utils** | 0.7.6 | A command line interface for libdmtx | https://github.com/dmtx/dmtx-utils |
 | **dnote** | 1:0.15.0 | A simple command line notebook for programmers | https://www.getdnote.com/ |
@@ -397,12 +397,12 @@
 | **exiv2** | 2:0.27.7-1 | Exif, Iptc and XMP metadata manipulation library and tools | https://exiv2.org/ |
 | **exiv2-static** | 2:0.27.7-1 | Static libraries for exiv2 | https://exiv2.org/ |
 | **expect** | 5.45.4-3 | Tool for automating interactive terminal applications | https://core.tcl.tk/expect/index |
-| **eza** | 0.16.2 | A modern replacement for ls | https://github.com/eza-community/eza |
+| **eza** | 0.16.3 | A modern replacement for ls | https://github.com/eza-community/eza |
 | **fact++** | 1.6.5-1 | Re-implementation of the well-known FaCT Description Logic (DL) Reasoner | https://bitbucket.org/dtsarkov/factplusplus |
 | **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
 | **fasd** | 1.0.2 | To fastly access files and folders | https://github.com/whjvenyl/fasd |
-| **fastfetch** | 2.3.2 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
+| **fastfetch** | 2.3.3 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
 | **fastmod** | 0.4.4 | Regex-based code refactoring utility | https://github.com/facebookincubator/fastmod |
 | **fatsort** | 1.6.5.640 | A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions | https://fatsort.sourceforge.io/ |
 | **fclones** | 0.34.0 | Efficient Duplicate File Finder | https://github.com/pkolaczk/fclones |
@@ -524,13 +524,13 @@
 | **git-svn** | 2.43.0 | Convert between Git and Subversion repositories | https://git-scm.com/ |
 | **gitea** | 1.21.1 | Git with a cup of tea, painless self-hosted git service | https://gitea.io |
 | **gitflow-avh** | 1.12.3-9 | Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality. | https://github.com/petervanderdoes/gitflow/ |
-| **gitoxide** | 0.1.0-1 | Rust implementation of Git | https://github.com/Byron/gitoxide |
+| **gitoxide** | 0.31.1 | Rust implementation of Git | https://github.com/Byron/gitoxide |
 | **gitui** | 0.24.3 | Blazing fast terminal-ui for git written in rust | https://github.com/extrawurst/gitui |
 | **gkermit** | 2.01 | Simple, Portable, Free File Transfer Software for UNIX | http://www.columbia.edu/kermit/gkermit.html |
 | **glab-cli** | 1.35.0 | A GitLab CLI tool bringing GitLab to your command line | https://gitlab.com/gitlab-org/cli |
-| **glib** | 2.78.2 | Library providing core building blocks for libraries and applications written in C | https://developer.gnome.org/glib/ |
-| **glib-bin** | 2.78.2 | Programs for the GLib library | https://developer.gnome.org/glib/ |
-| **glib-cross** | 2.78.2 | glib for host (NOT for Termux) | https://developer.gnome.org/glib/ |
+| **glib** | 2.78.3 | Library providing core building blocks for libraries and applications written in C | https://developer.gnome.org/glib/ |
+| **glib-bin** | 2.78.3 | Programs for the GLib library | https://developer.gnome.org/glib/ |
+| **glib-cross** | 2.78.3 | glib for host (NOT for Termux) | https://developer.gnome.org/glib/ |
 | **glib-networking** | 2.78.0 | Network-related giomodules for glib | https://gitlab.gnome.org/GNOME/glib-networking |
 | **glm** | 0.9.9.8 | C++ mathematics library for graphics software based on the GLSL specifications | https://glm.g-truc.net/ |
 | **global** | 6.6.11 | Source code search and browse tools | https://www.gnu.org/software/global/ |
@@ -673,7 +673,7 @@
 | **hut** | 0.3.0-1 | A CLI tool for sr.ht | https://git.sr.ht/~emersion/hut |
 | **hydroxide** | 0.2.28 | A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge | https://github.com/emersion/hydroxide |
 | **hyperfine** | 1.18.0 | A command-line benchmarking tool | https://github.com/sharkdp/hyperfine |
-| **hz** | 0.7.2 | A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices | https://www.cloudwego.io |
+| **hz** | 0.7.3 | A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices | https://www.cloudwego.io |
 | **i2pd** | 2.49.0-1 | A full-featured C++ implementation of the I2P router | https://i2pd.website/ |
 | **i2pd-static** | 2.49.0-1 | Static libraries for i2pd | https://i2pd.website/ |
 | **icecast** | 2.4.4-5 | Icecast is a streaming media (audio/video) server | https://icecast.org |
@@ -742,7 +742,7 @@
 | **jupp** | 3.1jupp41 | User friendly full screen text editor | http://www.mirbsd.org/jupp.htm |
 | **jython** | 2.7.3 | Python for the Java Platform | https://www.jython.org/ |
 | **k2pdfopt** | 2.54-4 | A tool that optimizes PDF files for viewing on mobile readers | https://www.willus.com/k2pdfopt/ |
-| **k9s** | 0.28.2 | Kubernetes CLI To Manage Your Clusters In Style! | https://k9scli.io |
+| **k9s** | 0.29.0 | Kubernetes CLI To Manage Your Clusters In Style! | https://k9scli.io |
 | **kainjow-mustache** | 4.1 | Mustache implementation for modern C++ | https://github.com/kainjow/Mustache |
 | **kak-lsp** | 15.0.0 | Language Server Protocol Client for the Kakoune editor | https://github.com/kak-lsp/kak-lsp |
 | **kakoune** | 2023.08.05-1 | Code editor heavily inspired by Vim | https://github.com/mawww/kakoune |
@@ -1550,7 +1550,7 @@
 | **marisa-static** | 0.2.6-1 | Static libraries for marisa | https://github.com/s-yata/marisa-trie |
 | **markdown-flashcards** | 2.0.0-2 | Small CLI app to learn with flashcards and spaced repetition | https://github.com/bttger/markdown-flashcards |
 | **mathomatic** | 16.0.5-6 | Simple CAS and symbolic calculator | https://en.wikipedia.org/wiki/Mathomatic |
-| **matplotlib** | 3.8.2 | A comprehensive library for creating static, animated, and interactive visualizations in Python | https://matplotlib.org/ |
+| **matplotlib** | 3.8.2-1 | A comprehensive library for creating static, animated, and interactive visualizations in Python | https://matplotlib.org/ |
 | **matterbridge** | 1.26.0-2 | A simple chat bridge | https://github.com/42wim/matterbridge |
 | **matterircd** | 0.28.0 | Connect to your mattermost or slack using your IRC-client of choice | https://github.com/42wim/matterircd |
 | **mautrix-whatsapp** | 0.10.4 | A Matrix-WhatsApp puppeting bridge | https://maunium.net/go/mautrix-whatsapp/ |
@@ -1604,7 +1604,7 @@
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
 | **miniflux** | 2.0.50 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
-| **minio** | 2023.12.06.09.09.22 | Multi-Cloud Object Storage | https://min.io/ |
+| **minio** | 2023.12.07.04.16.00 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
 | **minisign** | 0.11-1 | A dead simple tool to sign files and verify signatures | https://jedisct1.github.io/minisign/ |
 | **miniupnpc** | 2.2.5 | Small UPnP client library and tool to access Internet Gateway Devices | https://miniupnp.tuxfamily.org/ |
@@ -2173,7 +2173,7 @@
 | **squashfs-tools-ng** | 1.2.0 | New set of tools for working with SquashFS images | https://github.com/AgentD/squashfs-tools-ng |
 | **squashfs-tools-ng-static** | 1.2.0 | Static libraries for squashfs-tools-ng | https://github.com/AgentD/squashfs-tools-ng |
 | **squeezelite** | 1.9.9.1430 | A small headless Logitech Squeezebox emulator | https://ralph-irving.github.io/squeezelite.html |
-| **squid** | 6.5 | Full-featured Web proxy cache server | http://www.squid-cache.org |
+| **squid** | 6.6 | Full-featured Web proxy cache server | http://www.squid-cache.org |
 | **sratom** | 0.6.16 | A small library for serialising LV2 atoms to and from RDF | https://drobilla.net/software/sratom.html |
 | **srelay** | 0.4.8p3-7 | A Free SOCKS proxy server | https://sourceforge.net/projects/socks-relay |
 | **srt-tools** | 1.5.3 | Command-line tools for libsrt | https://github.com/Haivision/srt |
