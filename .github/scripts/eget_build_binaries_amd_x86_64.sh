@@ -749,6 +749,9 @@ fi
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Josue87/gotator" && cd "./gotator"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./gotator" "$HOME/bin/gotator" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #gotty : Share your terminal as a web application 
+  eget "sorenisanerd/gotty" --asset "linux" --asset "amd64" --asset "tar.gz" --asset "^sha" --asset "^sig" --to "$HOME/bin/gotty"
+  #---------------#
   #gowitness : 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
   #eget "sensepost/gowitness" --asset "amd64" --asset "linux" --to "$HOME/bin/gowitness"
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sensepost/gowitness" && cd "./gowitness"
@@ -1291,6 +1294,9 @@ fi
   #rclone : rsync for cloud storage
   eget "rclone/rclone" --asset "linux-amd64.zip" --to "$HOME/bin/rclone"
   #---------------#
+  #reader : A lightweight tool offering better readability of web pages on the CLI
+  eget "mrusme/reader" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/reader"
+  #---------------#
   #recollapse : Helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/0xacb/recollapse" && cd "./recollapse"
   pip install --upgrade -r requirements.txt ; mv "./recollapse" "./recollapse.py"
@@ -1486,6 +1492,11 @@ fi
   #sq : jq for sql
   eget "neilotoole/sq" --asset "linux" --asset "amd64" --asset "tar" --to "$HOME/bin/sq"
   #---------------#
+  #sqlc : Universal DBMS/SQL client with exfiltration features :)  
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/kost/sqlc" && cd "./sqlc"
+  CGO_ENABLED=1 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./sqlc" "$HOME/bin/sqlc" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #ssh
   eget "https://files.serverless.industries/bin/ssh.amd64" --to "$HOME/bin/ssh"
   #eget "Azathothas/static-toolbox" --tag "openssh" --asset "ssh_amd_x86_64_Linux" --to "$HOME/bin/ssh"
@@ -1525,6 +1536,13 @@ fi
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/moul/sshportal" && cd "./sshportal"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./sshportal" "$HOME/bin/sshportal" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #sshx : Fast, collaborative live terminal sharing over the web
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/ekzhang/sshx" && cd "./sshx"
+  sudo apt-get install protobuf-compiler -y
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/sshx" "$HOME/bin/sshx" ; mv "./target/$TARGET/release/sshx-server" "$HOME/bin/sshx-server" ; popd
   #---------------#
   #starship : ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! 
   eget "starship/starship" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/starship"
@@ -1630,6 +1648,14 @@ fi
   #---------------#
   #try : Inspect a command's effects before modifying your live system 
   eget "https://raw.githubusercontent.com/binpash/try/main/try" --to "$HOME/bin/try" && chmod +xwr "$HOME/bin/try"
+  #---------------#
+  #tty2web : Share your terminal as a web application in bind/reverse mode 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/kost/tty2web" && cd "./tty2web"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+  mv "./tty2web" "$HOME/bin/tty2web" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #ttyd : Share your terminal over the web  
+  eget "tsl0922/ttyd" --asset "x86_64" --asset "^win" --asset "^i686" --asset "^sha" --asset "^sig" --to "$HOME/bin/ttyd"
   #---------------#
   #tuiarchiver : terminal application to list / manage archives
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://codeberg.org/dnalor/tuiarchiver" && cd "./tuiarchiver"
