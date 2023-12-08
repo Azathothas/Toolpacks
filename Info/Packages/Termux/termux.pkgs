@@ -125,7 +125,7 @@
 | **bionic-host** | 8.0.0-r51-2 | bionic libc, libm, libdl and dynamic linker for ubuntu host | https://android.googlesource.com/platform/bionic/ |
 | **bison** | 3.8.2-3 | General-purpose parser generator | https://www.gnu.org/software/bison/ |
 | **bison-static** | 3.8.2-3 | Static libraries for bison | https://www.gnu.org/software/bison/ |
-| **bitcoin** | 25.1 | Bitcoin Core | https://bitcoincore.org/ |
+| **bitcoin** | 26.0 | Bitcoin Core | https://bitcoincore.org/ |
 | **bitlbee** | 3.6-1-0 | An IRC to other chat networks gateway | https://www.bitlbee.org/ |
 | **bk** | 0.6.0 | A terminal EPUB reader | https://github.com/aeosynth/bk |
 | **blackbox** | 1:1.20220610 | Safely store secrets in Git/Mercurial/Subversion | https://github.com/StackExchange/blackbox |
@@ -398,7 +398,7 @@
 | **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
 | **fasd** | 1.0.2 | To fastly access files and folders | https://github.com/whjvenyl/fasd |
-| **fastfetch** | 2.3.3 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
+| **fastfetch** | 2.3.4 | A neofetch-like tool for fetching system information and displaying them in a pretty way | https://github.com/fastfetch-cli/fastfetch |
 | **fastmod** | 0.4.4 | Regex-based code refactoring utility | https://github.com/facebookincubator/fastmod |
 | **fatsort** | 1.6.5.640 | A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions | https://fatsort.sourceforge.io/ |
 | **fclones** | 0.34.0 | Efficient Duplicate File Finder | https://github.com/pkolaczk/fclones |
@@ -500,7 +500,7 @@
 | **gflags** | 2.2.2-9 | A C++ library that implements commandline flags processing | https://github.com/gflags/gflags |
 | **gflags-static** | 2.2.2-9 | Static libraries for gflags | https://github.com/gflags/gflags |
 | **gforth** | 0.7.3-1 | The Forth implementation of the GNU project | https://www.gnu.org/software/gforth/ |
-| **gh** | 2.39.2 | GitHub’s official command line tool | https://cli.github.com/ |
+| **gh** | 2.40.0 | GitHub’s official command line tool | https://cli.github.com/ |
 | **ghc** | 9.2.5-1 | The Glasgow Haskell Compiler | https://www.haskell.org/ghc/ |
 | **ghc-libs** | 9.2.5-1 | The Glasgow Haskell Compiler libraries | https://www.haskell.org/ghc/ |
 | **ghc-libs-static** | 8.10.7-3 | Static libraries for ghc-libs | https://www.haskell.org/ghc/ |
@@ -738,7 +738,7 @@
 | **jupp** | 3.1jupp41 | User friendly full screen text editor | http://www.mirbsd.org/jupp.htm |
 | **jython** | 2.7.3 | Python for the Java Platform | https://www.jython.org/ |
 | **k2pdfopt** | 2.54-4 | A tool that optimizes PDF files for viewing on mobile readers | https://www.willus.com/k2pdfopt/ |
-| **k9s** | 0.29.0 | Kubernetes CLI To Manage Your Clusters In Style! | https://k9scli.io |
+| **k9s** | 0.29.1 | Kubernetes CLI To Manage Your Clusters In Style! | https://k9scli.io |
 | **kainjow-mustache** | 4.1 | Mustache implementation for modern C++ | https://github.com/kainjow/Mustache |
 | **kak-lsp** | 15.0.0 | Language Server Protocol Client for the Kakoune editor | https://github.com/kak-lsp/kak-lsp |
 | **kakoune** | 2023.08.05-1 | Code editor heavily inspired by Vim | https://github.com/mawww/kakoune |
@@ -1381,8 +1381,8 @@
 | **libvigra** | 1.11.2 | Computer vision library | https://ukoethe.github.io/vigra/ |
 | **libvips** | 8.15.0 | A fast image processing library with low memory needs | https://libvips.github.io/libvips/ |
 | **libvips-static** | 8.13.3-3 | Static libraries for libvips | https://libvips.github.io/libvips/ |
-| **libvmaf** | 2.3.1 | A perceptual video quality assessment algorithm developed by Netflix | https://github.com/Netflix/vmaf |
-| **libvmaf-static** | 2.3.1 | Static libraries for libvmaf | https://github.com/Netflix/vmaf |
+| **libvmaf** | 3.0.0 | A perceptual video quality assessment algorithm developed by Netflix | https://github.com/Netflix/vmaf |
+| **libvmaf-static** | 3.0.0 | Static libraries for libvmaf | https://github.com/Netflix/vmaf |
 | **libvo-amrwbenc** | 0.1.3 | VisualOn AMR-WB encoder library | https://sourceforge.net/projects/opencore-amr |
 | **libvo-amrwbenc-static** | 0.1.3 | Static libraries for libvo-amrwbenc | https://sourceforge.net/projects/opencore-amr |
 | **libvorbis** | 1.3.7-1 | Library for using the Ogg Vorbis compressed audio format | https://xiph.org/vorbis/ |
@@ -2340,7 +2340,7 @@
 | **udftools** | 2.3 | Linux tools for UDF filesystems and DVD/CD-R(W) drives | https://github.com/pali/udftools |
 | **uftrace** | 0.14-1 | Function (graph) tracer for user-space | https://uftrace.github.io/slide |
 | **ugit** | 5.7 | ugit helps you undo your last git command with grace. Your damage control git buddy | https://github.com/Bhupesh-V/ugit |
-| **ugrep** | 4.3.5 | A faster, user-friendly and compatible grep replacement | https://github.com/Genivia/ugrep |
+| **ugrep** | 4.3.6 | A faster, user-friendly and compatible grep replacement | https://github.com/Genivia/ugrep |
 | **unar** | 1.10.7-6 | Command line tools for archive and file unarchiving and extraction | https://theunarchiver.com/command-line |
 | **unbound** | 1.19.0 | Unbound command-line tools | https://unbound.net/ |
 | **unbound-static** | 1.17.1 | Static libraries for unbound | https://unbound.net/ |
