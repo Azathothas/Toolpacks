@@ -385,7 +385,7 @@
 | **enscript** | 1.6.6-12 | Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes | https://www.gnu.org/software/enscript/ |
 | **entr** | 5.5 | Event Notify Test Runner - run arbitrary commands when files change | http://eradman.com/entrproject/ |
 | **erlang** | 26.1.2 | General-purpose concurrent functional programming language | https://www.erlang.org/ |
-| **esbuild** | 0.19.8 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
+| **esbuild** | 0.19.9 | An extremely fast JavaScript bundler | https://esbuild.github.io/ |
 | **espeak** | 1.51-1 | Compact software speech synthesizer | https://github.com/espeak-ng/espeak-ng |
 | **espeak-static** | 1.51-1 | Static libraries for espeak | https://github.com/espeak-ng/espeak-ng |
 | **et** | 6.2.8-2 | A remote shell that automatically reconnects without interrupting the session | https://eternalterminal.dev |
@@ -1668,7 +1668,7 @@
 | **nasm** | 2.16.01 | A cross-platform x86 assembler with an Intel-like syntax | https://nasm.us |
 | **natpmpc** | 20230423 | Portable and fully compliant implementation of NAT-PMP | http://miniupnp.free.fr/libnatpmp.html |
 | **natpmpc-static** | 20230423 | Static libraries for natpmpc | http://miniupnp.free.fr/libnatpmp.html |
-| **navi** | 2.22.1 | An interactive cheatsheet tool for the command-line | https://github.com/denisidoro/navi |
+| **navi** | 2.23.0 | An interactive cheatsheet tool for the command-line | https://github.com/denisidoro/navi |
 | **navidrome** | 0.50.1-1 | 🎧☁️ Modern Music Server and Streamer compatible with Subsonic/Airsonic | https://www.navidrome.org/ |
 | **ncdc** | 1.23.1 | Modern and lightweight direct connect client with a friendly ncurses interface | https://dev.yorhel.nl/ncdc |
 | **ncdu** | 1.19 | Disk usage analyzer | https://dev.yorhel.nl/ncdu |
@@ -1833,7 +1833,7 @@
 | **pcregrep** | 8.45-1 | A grep with Perl-compatible regular expressions | https://www.pcre.org |
 | **pdf2djvu** | 0.9.19-4 | PDF to DjVu converter | https://github.com/jwilk/pdf2djvu |
 | **pdf2svg** | 0.2.3-10 | A PDF to SVG converter | http://www.cityinthesky.co.uk/opensource/pdf2svg/ |
-| **pdfcpu** | 0.5.0 | A PDF processor written in Go | https://pdfcpu.io |
+| **pdfcpu** | 0.6.0 | A PDF processor written in Go | https://pdfcpu.io |
 | **pdfgrep** | 2.1.2-16 | Command line utility to search text in PDF files | https://pdfgrep.org/ |
 | **pdftk** | 3.3.3-1 | A simple tool for doing everyday things with PDF documents | https://gitlab.com/pdftk-java/pdftk |
 | **peaclock** | 0.4.3-4 | A responsive and customizable clock, timer, and stopwatch for the terminal. | https://github.com/octobanana/peaclock |
@@ -2243,7 +2243,7 @@
 | **tcllib** | 1.21 | Tcl Standard Library | https://core.tcl-lang.org/tcllib/ |
 | **tcsh** | 6.24.10 | TENEX C Shell, an enhanced version of Berkeley csh | https://www.tcsh.org |
 | **tdb-tools** | 1.4.9 | Tools for TDB | https://tdb.samba.org/ |
-| **tdl** | 0.13.1 | Telegram downloader written in GO | https://github.com/iyear/tdl |
+| **tdl** | 0.13.3 | Telegram downloader written in GO | https://github.com/iyear/tdl |
 | **tea** | 0.9.2 | The official CLI for Gitea | https://gitea.com/gitea/tea |
 | **tealdeer** | 1.6.1 | A very fast implementation of tldr in Rust | https://dbrgn.github.io/tealdeer/ |
 | **teckit** | 2.5.12 | TECkit is a library for encoding conversion | https://scripts.sil.org/teckitdownloads |
