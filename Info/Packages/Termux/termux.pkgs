@@ -242,7 +242,7 @@
 | **colm** | 0.14.7-1 | COmputer Language Machinery | https://www.colm.net/open-source/colm/ |
 | **colm-static** | 0.14.7-1 | Static libraries for colm | https://www.colm.net/open-source/colm/ |
 | **colordiff** | 1.0.21 | Tool to colorize 'diff' output | https://www.colordiff.org/ |
-| **command-not-found** | 2.4.0-1 | Suggest installation of packages in interactive shell sessions | https://github.com/termux/command-not-found |
+| **command-not-found** | 2.4.0-2 | Suggest installation of packages in interactive shell sessions | https://github.com/termux/command-not-found |
 | **composer** | 2.6.6 | Dependency Manager for PHP | https://getcomposer.org/ |
 | **console-bridge** | 1.0.2 | A ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages | https://github.com/ros/console_bridge |
 | **coreutils** | 9.4 | Basic file, shell and text manipulation utilities from the GNU project | https://www.gnu.org/software/coreutils/ |
@@ -293,7 +293,7 @@
 | **dcmtk** | 3.6.7-4 | A collection of libraries and applications implementing large parts the DICOM standard | https://dicom.offis.de/dcmtk |
 | **dcraw** | 9.28.0-6 | Raw digital camera images decoding utility | https://www.dechifro.org/dcraw/ |
 | **ddrescue** | 1.27 | GNU data recovery tool | https://www.gnu.org/software/ddrescue/ |
-| **debianutils** | 5.14 | Small utilities which are used primarily by the installation scripts of Debian packages | https://packages.debian.org/debianutils |
+| **debianutils** | 5.15 | Small utilities which are used primarily by the installation scripts of Debian packages | https://packages.debian.org/debianutils |
 | **debootstrap** | 1.0.133 | Bootstrap a basic Debian system | https://wiki.debian.org/Debootstrap |
 | **desed** | 1.2.1 | Demystifies and debugs your sed scripts | https://github.com/SoptikHa2/desed |
 | **deutex** | 5.2.2 | WAD composer for Doom, Heretic, Hexen, and Strife | https://github.com/Doom-Utils/deutex/ |
@@ -1600,7 +1600,7 @@
 | **minidlna** | 1.3.3-1 | A server software with the aim of being fully compliant with DLNA/UPnP-AV clients | https://sourceforge.net/projects/minidlna/ |
 | **miniflux** | 2.0.50 | A minimalist and opinionated feed reader | https://miniflux.app/ |
 | **minimodem** | 0.24-1-0 | General-purpose software audio FSK modem | http://www.whence.com/minimodem/ |
-| **minio** | 2023.12.07.04.16.00 | Multi-Cloud Object Storage | https://min.io/ |
+| **minio** | 2023.12.09.18.17.51 | Multi-Cloud Object Storage | https://min.io/ |
 | **miniserve** | 0.24.0 | Tool to serve files and dirs over HTTP | https://github.com/svenstaro/miniserve |
 | **minisign** | 0.11-1 | A dead simple tool to sign files and verify signatures | https://jedisct1.github.io/minisign/ |
 | **miniupnpc** | 2.2.5 | Small UPnP client library and tool to access Internet Gateway Devices | https://miniupnp.tuxfamily.org/ |
@@ -2513,7 +2513,7 @@
 | **zopfli** | 1.0.3-3 | New zlib compatible compressor tools | https://github.com/google/zopfli |
 | **zoxide** | 0.9.2 | A faster way to navigate your filesystem | https://github.com/ajeetdsouza/zoxide |
 | **zpaq** | 7.15 | Programmable file compressor, library and utilities. Based on the PAQ compression algorithm | http://mattmahoney.net/dc/zpaq.html |
-| **zsh** | 5.9-2 | Shell with lots of features | https://www.zsh.org |
+| **zsh** | 5.9-3 | Shell with lots of features | https://www.zsh.org |
 | **zsh-completions** | 0.35.0 | Additional completion definitions for Zsh | https://github.com/zsh-users/zsh-completions |
 | **zssh** | 1.5c-1 | A program for interactively transferring files to a remote machine while using the secure shell (ssh) | http://zssh.sourceforge.net/ |
 | **zstd** | 1.5.5-1 | Zstandard compression | https://github.com/facebook/zstd |
