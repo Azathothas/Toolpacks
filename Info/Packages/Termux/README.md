@@ -348,7 +348,7 @@
 | **dtc** | 1.7.0 | Device Tree Compiler | https://git.kernel.org/pub/scm/utils/dtc/dtc |
 | **dtc-static** | 1.7.0 | Static libraries for dtc | https://git.kernel.org/pub/scm/utils/dtc/dtc |
 | **dte** | 1.11.1-1 | A small, configurable console text editor | https://craigbarnes.gitlab.io/dte/ |
-| **dua** | 2.22.0 | View disk space usage and delete unwanted data, fast | https://github.com/Byron/dua-cli |
+| **dua** | 2.23.0 | View disk space usage and delete unwanted data, fast | https://github.com/Byron/dua-cli |
 | **duc** | 1.4.5 | High-performance disk usage analyzer | http://duc.zevv.nl/ |
 | **duckdb** | 0.9.2 | DuckDB Command Line Interface (CLI) shell | https://duckdb.org/ |
 | **duf** | 0.8.1-3 | Disk usage/free utility | https://github.com/muesli/duf |
@@ -685,8 +685,8 @@
 | **id3lib-static** | 3.8.3-3 | Static libraries for id3lib | http://id3lib.sourceforge.net/ |
 | **id3ted** | 1.0-3 | A comand line id3 tag editor | https://muennich.github.io/id3ted/ |
 | **id3v2** | 0.1.12-1 | A command line id3v2 tag editor | http://id3v2.sourceforge.net/ |
-| **imagemagick** | 7.1.1.22 | Suite to create, edit, compose, or convert images in a variety of formats | https://www.imagemagick.org/ |
-| **imagemagick-static** | 7.1.1.22 | Static libraries for imagemagick | https://www.imagemagick.org/ |
+| **imagemagick** | 7.1.1.23 | Suite to create, edit, compose, or convert images in a variety of formats | https://www.imagemagick.org/ |
+| **imagemagick-static** | 7.1.1.23 | Static libraries for imagemagick | https://www.imagemagick.org/ |
 | **imath** | 3.1.9 | Library for vector/matrix and math operations, plus the half type | https://imath.readthedocs.io/ |
 | **imgflo** | 0.4.2-7 | HTTP image processing server & Flowhub.io compatible runtime | https://github.com/imgflo/imgflo |
 | **imlib2** | 1.12.1 | Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support | https://sourceforge.net/projects/enlightenment/ |
@@ -744,7 +744,7 @@
 | **k2pdfopt** | 2.54-4 | A tool that optimizes PDF files for viewing on mobile readers | https://www.willus.com/k2pdfopt/ |
 | **k9s** | 0.29.1 | Kubernetes CLI To Manage Your Clusters In Style! | https://k9scli.io |
 | **kainjow-mustache** | 4.1 | Mustache implementation for modern C++ | https://github.com/kainjow/Mustache |
-| **kak-lsp** | 15.0.0 | Language Server Protocol Client for the Kakoune editor | https://github.com/kak-lsp/kak-lsp |
+| **kak-lsp** | 15.0.1 | Language Server Protocol Client for the Kakoune editor | https://github.com/kak-lsp/kak-lsp |
 | **kakoune** | 2023.08.05-1 | Code editor heavily inspired by Vim | https://github.com/mawww/kakoune |
 | **kcptun** | 20231012 | A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC | https://github.com/xtaci/kcptun |
 | **kcptun-client** | 20230811 | kcptun client | https://github.com/xtaci/kcptun |
@@ -1070,8 +1070,8 @@
 | **liblua53-static** | 5.3.6 | Static libraries for liblua53 | https://www.lua.org/ |
 | **liblua54** | 5.4.6-1 | Shared library for the Lua interpreter | https://www.lua.org/ |
 | **liblua54-static** | 5.4.6-1 | Static libraries for liblua54 | https://www.lua.org/ |
-| **libluajit** | 1:2.1.1700008891 | Just-In-Time Compiler for Lua | https://luajit.org/ |
-| **libluajit-static** | 1:2.1.1700008891 | Static libraries for libluajit | https://luajit.org/ |
+| **libluajit** | 1:2.1.1702233742 | Just-In-Time Compiler for Lua | https://luajit.org/ |
+| **libluajit-static** | 1:2.1.1702233742 | Static libraries for libluajit | https://luajit.org/ |
 | **liblz4** | 1.9.4 | Fast LZ compression algorithm library | https://lz4.github.io/lz4/ |
 | **liblzma** | 5.4.5 | XZ-format compression library | https://tukaani.org/xz/ |
 | **liblzma-static** | 5.4.5 | Static libraries for liblzma | https://tukaani.org/xz/ |
@@ -1521,7 +1521,7 @@
 | **lua52** | 5.2.4-8 | Simple, extensible, embeddable programming language | https://www.lua.org |
 | **lua53** | 5.3.6 | Simple, extensible, embeddable programming language | https://www.lua.org/ |
 | **lua54** | 5.4.6-1 | Simple, extensible, embeddable programming language | https://www.lua.org/ |
-| **luajit** | 1:2.1.1700008891 | Just-In-Time compiler for Lua - command line tool | https://luajit.org/ |
+| **luajit** | 1:2.1.1702233742 | Just-In-Time compiler for Lua - command line tool | https://luajit.org/ |
 | **luarocks** | 3.9.2 | Deployment and management system for Lua modules | https://luarocks.org/ |
 | **luv** | 1.45.0-0-0 | Bare libuv bindings for lua | https://github.com/luvit/luv |
 | **lux** | 0.22.0 | CLI tool to download videos from various websites | https://github.com/iawia002/lux |
@@ -1663,7 +1663,7 @@
 | **n-t-roff-sc** | 7.16-1.1.2-0 | A vi-like spreadsheet calculator | https://github.com/n-t-roff/sc |
 | **n2n** | 3.1.1 | A light VPN software | https://github.com/ntop/n2n |
 | **nala** | 0.14.0 | Commandline frontend for the apt package manager | https://gitlab.com/volian/nala |
-| **nali** | 0.8.0 | An offline tool for querying IP geographic information and CDN provider | https://github.com/zu1k/nali |
+| **nali** | 0.8.1 | An offline tool for querying IP geographic information and CDN provider | https://github.com/zu1k/nali |
 | **nano** | 7.2 | Small, free and friendly text editor | https://www.nano-editor.org/ |
 | **nasm** | 2.16.01 | A cross-platform x86 assembler with an Intel-like syntax | https://nasm.us |
 | **natpmpc** | 20230423 | Portable and fully compliant implementation of NAT-PMP | http://miniupnp.free.fr/libnatpmp.html |
@@ -2072,12 +2072,12 @@
 | **runit** | 2.1.2-3 | Tools to provide service supervision and to manage services | http://smarden.org/runit |
 | **runit-static** | 2.1.2-3 | Static libraries for runit | http://smarden.org/runit |
 | **rush** | 0.5.4 | A cross-platform command-line tool for executing jobs in parallel | https://github.com/shenwei356/rush |
-| **rust** | 1.74.0 | Systems programming language focused on safety, speed and concurrency | https://www.rust-lang.org/ |
-| **rust-analyzer** | 20230703 | A Rust compiler front-end for IDEs | https://github.com/rust-analyzer/rust-analyzer |
+| **rust** | 1.74.1 | Systems programming language focused on safety, speed and concurrency | https://www.rust-lang.org/ |
+| **rust-analyzer** | 20231204 | A Rust compiler front-end for IDEs | https://github.com/rust-lang/rust-analyzer |
 | **rust-bindgen** | 0.69.1 | Automatically generates Rust FFI bindings to C (and some C++) libraries | https://github.com/rust-lang/rust-bindgen |
-| **rust-docs** | 1.74.0 | Rust documentation | https://www.rust-lang.org/ |
-| **rust-std-wasm32** | 1.74.0 | Rust std for target wasm32 | https://www.rust-lang.org/ |
-| **rustc-dev** | 1.74.0 | Rust development compiler libs | https://www.rust-lang.org/ |
+| **rust-docs** | 1.74.1 | Rust documentation | https://www.rust-lang.org/ |
+| **rust-std-wasm32** | 1.74.1 | Rust std for target wasm32 | https://www.rust-lang.org/ |
+| **rustc-dev** | 1.74.1 | Rust development compiler libs | https://www.rust-lang.org/ |
 | **rustscan** | 2.1.1 | The modern,fast,smart and effective port scanner | https://rustscan.github.io/RustScan |
 | **rw** | 1.0.1 | A Rust implementation of sponge(1) that never write to TMPDIR | https://github.com/jridgewell/rw |
 | **rxfetch** | 2023.01.07 | A custom system info fetching tool | https://github.com/Mangeshrex/rxfetch |
@@ -2229,7 +2229,7 @@
 | **swig** | 4.1.1 | Generate scripting interfaces to C/C++ code | https://swig.org |
 | **swtpm** | 0.8.1 | Software TPM Emulator | https://github.com/stefanberger/swtpm |
 | **swtpm-static** | 0.8.1 | Static libraries for swtpm | https://github.com/stefanberger/swtpm |
-| **syncthing** | 1.27.0 | Decentralized file synchronization | https://syncthing.net/ |
+| **syncthing** | 1.27.1 | Decentralized file synchronization | https://syncthing.net/ |
 | **sysprop** | 13.0.0.15-4 | Generates cpp / java sysprop | https://android.googlesource.com/platform/system/tools/sysprop |
 | **ta-lib** | 0.4.0-1 | Technical analysis library with indicators like ADX. | https://sourceforge.net/projects/ta-lib/ |
 | **ta-lib-static** | 0.4.0-1 | Static libraries for ta-lib | https://sourceforge.net/projects/ta-lib/ |
