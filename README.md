@@ -51,7 +51,7 @@ sudo wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64
 !#Install 7z (USER) : eget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" --to "$HOME/bin/7z"
 !#Install 7z (ROOT) : sudo eget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" --to "/usr/local/bin/7z"
 !#Download .7z archive
- wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/releases/latest" | jq -r '.assets[] | .browser_download_url' | grep -i '.7z$')" -O "./toolpack_x86_64.7z"
+ wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/releases" | jq -r '.[] | select(.assets[].name | contains("x86_64")) | .assets[].browser_download_url' | grep -i '.7z$' | sort -u | tail -n 1)" -O "./toolpack_x86_64.7z"
 !# $USER
  mkdir -p "$HOME/bin" ; 7z e "./toolpack_x86_64.7z" -o"$HOME/bin" -y && rm -rf "$HOME/bin/toolpack_x86_64" 2>/dev/null && rm -rf "./toolpack_x86_64.7z" ; chmod +xwr $HOME/bin/*
 !# ROOT
