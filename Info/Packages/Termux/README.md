@@ -522,7 +522,7 @@
 | **git-lfs** | 3.4.0-1 | Git extension for versioning large files | https://git-lfs.github.com/ |
 | **git-sizer** | 1.5.0-4 | Compute various size metrics for a Git repository | https://github.com/github/git-sizer |
 | **git-svn** | 2.43.0 | Convert between Git and Subversion repositories | https://git-scm.com/ |
-| **gitea** | 1.21.1 | Git with a cup of tea, painless self-hosted git service | https://gitea.io |
+| **gitea** | 1.21.2 | Git with a cup of tea, painless self-hosted git service | https://gitea.io |
 | **gitflow-avh** | 1.12.3-9 | Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality. | https://github.com/petervanderdoes/gitflow/ |
 | **gitoxide** | 0.31.1 | Rust implementation of Git | https://github.com/Byron/gitoxide |
 | **gitui** | 0.24.3 | Blazing fast terminal-ui for git written in rust | https://github.com/extrawurst/gitui |
@@ -2073,7 +2073,7 @@
 | **runit-static** | 2.1.2-3 | Static libraries for runit | http://smarden.org/runit |
 | **rush** | 0.5.4 | A cross-platform command-line tool for executing jobs in parallel | https://github.com/shenwei356/rush |
 | **rust** | 1.74.1 | Systems programming language focused on safety, speed and concurrency | https://www.rust-lang.org/ |
-| **rust-analyzer** | 20231204 | A Rust compiler front-end for IDEs | https://github.com/rust-lang/rust-analyzer |
+| **rust-analyzer** | 20231211 | A Rust compiler front-end for IDEs | https://github.com/rust-lang/rust-analyzer |
 | **rust-bindgen** | 0.69.1 | Automatically generates Rust FFI bindings to C (and some C++) libraries | https://github.com/rust-lang/rust-bindgen |
 | **rust-docs** | 1.74.1 | Rust documentation | https://www.rust-lang.org/ |
 | **rust-std-wasm32** | 1.74.1 | Rust std for target wasm32 | https://www.rust-lang.org/ |
@@ -2130,7 +2130,7 @@
 | **simh** | 1:3.12.4 | A collection of simulators for computer hardware and software from the past | http://simh.trailing-edge.com/ |
 | **simulavr** | 1:1.1.0-1 | Simulator for Microchip AVR (formerly Atmel) microcontrollers | https://www.nongnu.org/simulavr |
 | **simuwaerm** | 0.02 | A simple heat transfer simulator in pure Rust | https://github.com/file-acomplaint/simuwaerm |
-| **sing-box** | 1.7.4 | The universal proxy platform | https://sing-box.sagernet.org |
+| **sing-box** | 1.7.5 | The universal proxy platform | https://sing-box.sagernet.org |
 | **skate** | 0.2.2-1 | A personal key-value store | https://github.com/charmbracelet/skate |
 | **sl** | 5.02-2 | Tool curing your bad habit of mistyping | https://github.com/mtoyoda/sl |
 | **slang** | 2.3.3 | S-Lang is a powerful interpreted language | https://www.jedsoft.org/slang/ |
@@ -2216,15 +2216,15 @@
 | **suite3270** | 4.1ga11-1 | A family of IBM 3270 terminal emulators and related tools | http://x3270.bgp.nu/ |
 | **sun** | 1.0.0-3 | A very simple note taking cli app | https://stand-up-notes.org |
 | **surfraw** | 2.3.0-10 | Shell Users' Revolutionary Front Rage Against the Web | https://gitlab.com/surfraw/Surfraw |
-| **svt-av1** | 1.7.0 | Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder) | https://gitlab.com/AOMediaCodec/SVT-AV1 |
+| **svt-av1** | 1.8.0 | Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder) | https://gitlab.com/AOMediaCodec/SVT-AV1 |
 | **swaks** | 20201014.0-1 | Swiss Army Knife for SMTP | http://jetmore.org/john/code/swaks/ |
 | **swi-prolog** | 9.1.11 | Most popular and complete prolog implementation | https://swi-prolog.org/ |
-| **swift-runtime-aarch64** | 5.9.1-1 | Swift runtime libraries for Android AArch64 | https://swift.org/ |
-| **swift-runtime-arm** | 5.9.1-1 | Swift runtime libraries for Android armv7 | https://swift.org/ |
-| **swift-runtime-x86-64** | 5.9.1-1 | Swift runtime libraries for Android x86_64 | https://swift.org/ |
-| **swift-sdk-aarch64** | 5.9.1-1 | Swift SDK for Android AArch64 | https://swift.org/ |
-| **swift-sdk-arm** | 5.9.1-1 | Swift SDK for Android armv7 | https://swift.org/ |
-| **swift-sdk-x86-64** | 5.9.1-1 | Swift SDK for Android x86_64 | https://swift.org/ |
+| **swift-runtime-aarch64** | 5.9.2 | Swift runtime libraries for Android AArch64 | https://swift.org/ |
+| **swift-runtime-arm** | 5.9.2 | Swift runtime libraries for Android armv7 | https://swift.org/ |
+| **swift-runtime-x86-64** | 5.9.2 | Swift runtime libraries for Android x86_64 | https://swift.org/ |
+| **swift-sdk-aarch64** | 5.9.2 | Swift SDK for Android AArch64 | https://swift.org/ |
+| **swift-sdk-arm** | 5.9.2 | Swift SDK for Android armv7 | https://swift.org/ |
+| **swift-sdk-x86-64** | 5.9.2 | Swift SDK for Android x86_64 | https://swift.org/ |
 | **swiftshader** | 110.0.5481.177 | A high-performance CPU-based implementation of the Vulkan graphics API | https://swiftshader.googlesource.com/SwiftShader |
 | **swig** | 4.1.1 | Generate scripting interfaces to C/C++ code | https://swig.org |
 | **swtpm** | 0.8.1 | Software TPM Emulator | https://github.com/stefanberger/swtpm |
@@ -2410,7 +2410,7 @@
 | **vlc-static** | 3.0.20-2 | Static libraries for vlc | https://www.videolan.org/ |
 | **vobsub2srt** | 2017.12.18-2 | A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR | https://github.com/ruediger/VobSub2SRT |
 | **vorbis-tools** | 1.4.2-2 | Ogg Vorbis tools | https://github.com/xiph/vorbis-tools |
-| **vtm** | 0.9.28 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
+| **vtm** | 0.9.30 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
 | **vttest** | 20230924 | Program for testing the VT100 compatibility of terminal emulators | https://invisible-island.net/vttest/ |
 | **vtutils** | 0.5-4 | Utilities for testing and working with virtual terminals | https://github.com/fornwall/vtutils |
 | **vulkan-extension-layer** | 1.3.271 | Vulkan Extension Layer | https://github.com/KhronosGroup/Vulkan-ExtensionLayer |
@@ -2496,7 +2496,7 @@
 | **yasm-static** | 1.3.0-6 | Static libraries for yasm | https://yasm.tortall.net/ |
 | **yosys** | 0.36 | A framework for RTL synthesis tools | https://yosyshq.net/yosys/ |
 | **youtubedr** | 2.9.0 | Download youtube video in Golang | https://github.com/kkdai/youtube |
-| **yq** | 4.40.4 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
+| **yq** | 4.40.5 | A lightweight and portable command-line YAML, JSON and XML processor | https://mikefarah.gitbook.io/yq/ |
 | **ytfzf** | 2.6.1 | A POSIX script that helps you find Youtube videos (without API) | https://github.com/pystardust/ytfzf |
 | **ytui-music** | 2.0.0-beta-0 | Youtube client in terminal for music | https://github.com/sudipghimire533/ytui-music |
 | **yuma123** | 2.13-1 | Provides an opensource YANG API in C | https://yuma123.org/ |
