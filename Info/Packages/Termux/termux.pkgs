@@ -376,8 +376,8 @@
 | **emscripten-llvm** | 3.1.50 | Emscripten-compatible LLVM | https://emscripten.org |
 | **emscripten-tests-third-party** | 3.1.50 | Emscripten third party test suite files | https://emscripten.org |
 | **enblend** | 4.2.0p20161007-2 | A tool for compositing images using a Burt&Adelson multiresolution spline | http://enblend.sourceforge.net/ |
-| **enchant** | 2.6.3 | Wraps a number of different spelling libraries and programs with a consistent interface | https://abiword.github.io/enchant/ |
-| **enchant-static** | 2.6.3 | Static libraries for enchant | https://abiword.github.io/enchant/ |
+| **enchant** | 2.6.4 | Wraps a number of different spelling libraries and programs with a consistent interface | https://abiword.github.io/enchant/ |
+| **enchant-static** | 2.6.4 | Static libraries for enchant | https://abiword.github.io/enchant/ |
 | **enscript** | 1.6.6-12 | Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes | https://www.gnu.org/software/enscript/ |
 | **entr** | 5.5 | Event Notify Test Runner - run arbitrary commands when files change | http://eradman.com/entrproject/ |
 | **erlang** | 26.1.2 | General-purpose concurrent functional programming language | https://www.erlang.org/ |
@@ -636,7 +636,7 @@
 | **hexcurse** | 1.60.0-4 | Console hexeditor | https://github.com/LonnyGomes/hexcurse |
 | **hexedit** | 1.6 | view and edit files in hexadecimal or in ASCII | http://rigaux.org/hexedit.html |
 | **hexer** | 1.0.6 | A multi-buffer editor for binary files for Unix-like systems that displays its buffer(s) as a hex dump | https://devel.ringlet.net/editors/hexer/ |
-| **hexyl** | 0.13.1 | A command-line hex viewer | https://github.com/sharkdp/hexyl |
+| **hexyl** | 0.14.0 | A command-line hex viewer | https://github.com/sharkdp/hexyl |
 | **heyu** | 1:2.10.3-1 | Program for remotely controlling lights and appliances | https://www.heyu.org/ |
 | **hfsutils** | 3.2.6-1 | Tool for manipulating HFS images. | https://www.mars.org/home/rob/proj/hfs/ |
 | **hilbish** | 2023.07.10 | The Moon-powered shell! A comfy and extensible shell for Lua fans! | https://rosettea.github.io/Hilbish/ |
@@ -716,7 +716,7 @@
 | **jbig2enc-static** | 2023.01.08-1 | Static libraries for jbig2enc | https://github.com/agl/jbig2enc |
 | **jcal** | 0.4.1 | UNIX-cal-like tool to display Jalali (Persian/Iranian) calendar | http://nongnu.org/jcal |
 | **jcal-static** | 0.4.1 | Static libraries for jcal | http://nongnu.org/jcal |
-| **jfrog-cli** | 2.52.1 | A CLI for JFrog products | https://jfrog.com/getcli |
+| **jfrog-cli** | 2.52.2 | A CLI for JFrog products | https://jfrog.com/getcli |
 | **jftui** | 0.7.2 | jftui is a minimalistic, lightweight C99 command line client for the open source Jellyfin media server. | https://github.com/Aanok/jftui |
 | **jhead** | 3.08 | Exif Jpeg header manipulation tool | http://www.sentex.net/~mwandel/jhead/ |
 | **jigdo** | 0.8.2 | Distribute large images by sending and receiving the files that make them up | http://atterer.org/jigdo/ |
@@ -840,7 +840,7 @@
 | **libburn-static** | 1.5.6 | Static libraries for libburn | https://dev.lovelyhq.com/libburnia |
 | **libbz2** | 1.0.8-6 | BZ2 format compression library | http://www.bzip.org/ |
 | **libc++** | 26b | C++ Standard Library | https://libcxx.llvm.org/ |
-| **libc++utilities** | 5.24.3 | Useful C++ classes and routines such as argument parser, IO and conversion utilities | https://github.com/Martchus/cpp-utilities |
+| **libc++utilities** | 5.24.4 | Useful C++ classes and routines such as argument parser, IO and conversion utilities | https://github.com/Martchus/cpp-utilities |
 | **libc-client** | 2007f-3 | UW IMAP c-client library | https://www.washington.edu/imap/ |
 | **libc-client-static** | 2007f-3 | Static libraries for libc-client | https://www.washington.edu/imap/ |
 | **libcaca** | 0.99.beta20-1 | Graphics library that outputs text instead of pixels | http://caca.zoy.org/wiki/libcaca |
@@ -1232,8 +1232,8 @@
 | **librinutils** | 0.10.2 | A C11 / gnu11 utilities C library | https://github.com/shlomif/rinutils |
 | **librnnoise** | 2021.03.12 | RNN-based noise suppression | https://jmvalin.ca/demo/rnnoise/ |
 | **librnnoise-static** | 2021.03.12 | Static libraries for librnnoise | https://jmvalin.ca/demo/rnnoise/ |
-| **librocksdb** | 8.8.1 | A persistent key-value store for flash and RAM storage | https://rocksdb.org/ |
-| **librocksdb-static** | 8.8.1 | Static libraries for librocksdb | https://rocksdb.org/ |
+| **librocksdb** | 8.9.1 | A persistent key-value store for flash and RAM storage | https://rocksdb.org/ |
+| **librocksdb-static** | 8.9.1 | Static libraries for librocksdb | https://rocksdb.org/ |
 | **librsvg** | 2.57.0 | Library to render SVG files using cairo | https://wiki.gnome.org/action/show/Projects/LibRsvg |
 | **librsync** | 2.3.4 | Remote delta-compression library | https://github.com/librsync/librsync |
 | **librtmidi** | 5.0.0-1 | A set of C++ classes that provides a common API for realtime MIDI input/output | https://www.music.mcgill.ca/~gary/rtmidi/ |
@@ -1635,7 +1635,7 @@
 | **mp3wrap** | 0.5 | A command-line utility that wraps quickly two or more mp3 files in one single large playable mp3 | https://mp3wrap.sourceforge.net/ |
 | **mpc** | 0.34-3 | Minimalist command line interface for MPD | https://www.musicpd.org/clients/mpc/ |
 | **mpd** | 0.23.14-1 | Music player daemon | https://www.musicpd.org |
-| **mpdscribble** | 0.24-1 | A Music Player Daemon (MPD) client which submits information about tracks being played to a scrobbler | https://www.musicpd.org/clients/mpdscribble/ |
+| **mpdscribble** | 0.25 | A Music Player Daemon (MPD) client which submits information about tracks being played to a scrobbler | https://www.musicpd.org/clients/mpdscribble/ |
 | **mpg123** | 1.32.3 | Fast console MPEG Audio Player and decoder library | https://mpg123.org/ |
 | **mpg123-static** | 1.32.3 | Static libraries for mpg123 | https://mpg123.org/ |
 | **mpv** | 0.37.0 | Command-line media player | https://mpv.io/ |
@@ -1867,7 +1867,7 @@
 | **pkg-config** | 0.29.2-2 | Helper tool used when compiling applications and libraries | https://www.freedesktop.org/wiki/Software/pkg-config/ |
 | **pkgfile** | 21 | An alpm .files metadata explorer | https://github.com/falconindy/pkgfile |
 | **pkgtop** | 2.5.1 | Interactive package manager and resource monitor | https://github.com/orhun/pkgtop |
-| **plantuml** | 1.2023.12 | Draws UML diagrams, using a simple and human readable text description | https://plantuml.com/ |
+| **plantuml** | 1.2023.13 | Draws UML diagrams, using a simple and human readable text description | https://plantuml.com/ |
 | **play-audio** | 0.6-1 | Simple command line audio player for Android | https://github.com/termux/play-audio |
 | **plutolang** | 0.7.4 | A superset of Lua 5.4, with unique features, optimizations, and improvements | https://plutolang.github.io/ |
 | **plzip** | 1.10 | A massively parallel lossless data compressor based on the lzlib compression library | http://www.nongnu.org/lzip/plzip.html |
@@ -2141,7 +2141,7 @@
 | **snapcast-client** | 0.27.0-2 | A multiroom client-server audio player (client) | https://github.com/badaix/snapcast |
 | **snapcast-server** | 0.27.0-2 | A multiroom client-server audio player (server) | https://github.com/badaix/snapcast |
 | **snmptt** | 1.5 | SNMP trap translator | http://www.snmptt.org/ |
-| **socat** | 1.8.0.0-1 | Relay for bidirectional data transfer between two independent data channels | http://www.dest-unreach.org/socat/ |
+| **socat** | 1.8.0.0-2 | Relay for bidirectional data transfer between two independent data channels | http://www.dest-unreach.org/socat/ |
 | **softether-vpn** | 5.02.5180-4 | An open-source cross-platform multi-protocol VPN program | https://www.softether.org/ |
 | **softether-vpn-static** | 5.02.5180-4 | Static libraries for softether-vpn | https://www.softether.org/ |
 | **soju** | 0.7.0-3 | A user-friendly IRC bouncer | https://git.sr.ht/~emersion/soju |
@@ -2195,7 +2195,7 @@
 | **stoken** | 0.93 | Software Token for Linux/UNIX | https://github.com/cernekee/stoken |
 | **stoken-static** | 0.93 | Static libraries for stoken | https://github.com/cernekee/stoken |
 | **stone** | 2.4-2 | A TCP/IP repeater in the application layer | https://www.gcd.org/sengoku/stone/ |
-| **storj-uplink** | 1.91.2 | Storj DCS Uplink CLI | https://www.storj.io/integrations/uplink-cli |
+| **storj-uplink** | 1.92.1 | Storj DCS Uplink CLI | https://www.storj.io/integrations/uplink-cli |
 | **stow** | 2.3.1 | Tool for managing the installation of multiple software packages into a single directory | https://www.gnu.org/software/stow/ |
 | **strace** | 6.6 | Debugging utility to monitor system calls and signals received | https://strace.io/ |
 | **streamripper** | 1.64.6-2 | Records and splits streaming mp3 into tracks | http://streamripper.sourceforge.net/ |
@@ -2373,7 +2373,7 @@
 | **uucp** | 1.07-1 | The standard UUCP package of the Free Software Foundation | https://www.airs.com/ian/uucp.html |
 | **uuid-utils** | 2.39.3-3 | Utilities for handling universally unique identifiers | https://en.wikipedia.org/wiki/Util-linux |
 | **uwsgi** | 2.0.23 | uWSGI application server container | https://projects.unbit.it/uwsgi |
-| **v2ray** | 5.12.1 | A platform for building proxies to bypass network restrictions | https://www.v2fly.org/ |
+| **v2ray** | 5.13.0 | A platform for building proxies to bypass network restrictions | https://www.v2fly.org/ |
 | **valac** | 0.56.14 | C# like language for the GObject system | https://wiki.gnome.org/Projects/Vala |
 | **valac-static** | 0.56.14 | Static libraries for valac | https://wiki.gnome.org/Projects/Vala |
 | **valadoc** | 0.56.14 | API documentation generator for vala | https://wiki.gnome.org/Projects/Vala |
