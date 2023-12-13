@@ -1925,8 +1925,8 @@
 | **pygobject** | 3.44.1 | Python package which provides bindings for GObject based libraries | https://pygobject.readthedocs.io/ |
 | **pypy** | 7.3.13 | A fast, compliant alternative implementation of Python | https://pypy.org |
 | **pypy-tkinter** | 7.3.13 | Tkinter support for PyPy | https://pypy.org |
-| **pypy3** | 7.3.12-1 | A fast, compliant alternative implementation of Python 3 | https://pypy.org |
-| **pypy3-tkinter** | 7.3.12-1 | Tkinter support for PyPy 3 | https://pypy.org |
+| **pypy3** | 7.3.13 | A fast, compliant alternative implementation of Python 3 | https://pypy.org |
+| **pypy3-tkinter** | 7.3.13 | Tkinter support for PyPy 3 | https://pypy.org |
 | **pystring** | 1.1.4 | C++ functions matching the interface and behavior of python string methods with std::string | https://github.com/imageworks/pystring |
 | **python** | 3.11.6-1 | Python 3 programming language intended to enable clear programs | https://python.org/ |
 | **python-apsw** | 3.44.2.0 | Another Python SQLite Wrapper | https://github.com/rogerbinns/apsw/ |
@@ -1957,7 +1957,7 @@
 | **python2-static** | 2.7.18-13 | Static libraries for python2 | http://python.org/ |
 | **pyunbound** | 1.19.0 | Python bindings for Unbound | https://unbound.net/ |
 | **pzstd** | 1.5.5-1 | A Pigz-like tool for Zstandard | https://github.com/facebook/zstd |
-| **q-dns-client** | 0.15.1 | A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH | https://github.com/natesales/q |
+| **q-dns-client** | 0.19.1 | A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH | https://github.com/natesales/q |
 | **qalc** | 4.9.0 | Powerful and easy to use command line calculator | https://qalculate.github.io/ |
 | **qalc-static** | 4.9.0 | Static libraries for qalc | https://qalculate.github.io/ |
 | **qemu-common** | 1:8.0.2-1 | A set common files used by the QEMU emulators | https://www.qemu.org |
