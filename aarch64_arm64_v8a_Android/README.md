@@ -6,112 +6,112 @@
 ./aarch64_arm64_v8a_Android/BLAKE3SUM:                       ASCII text
 ./aarch64_arm64_v8a_Android/README.md:                       ASCII text
 ./aarch64_arm64_v8a_Android/SHA256SUM:                       ASCII text
-./aarch64_arm64_v8a_Android/anew:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=6cwWJlGP8wbY4CKYLXbs/XznqGaMQc7KN1C9bZG07/M1dxgU7f7CnS6t9cbdh9/Ssx7uBR1OmqNoRLwChou, stripped
+./aarch64_arm64_v8a_Android/anew:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=XfSAS9u7-V-UkUeKzUdf/Cr4bSng5H2m95jLwvNfe/wVklIqpayJNQRGy2XGrl/r2DiqSQ6Gfz6ReFGel6o, stripped
 ./aarch64_arm64_v8a_Android/btm:                             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-./aarch64_arm64_v8a_Android/certstream:                      ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=7_lHnVE4pxlVamU9iJTY/G3BFVzSwlDwhcU_CDNnK/MPFHm2ZpGO6MF-oKjNkO/ThGETWKARdpV9P_Bd8ej, stripped
-./aarch64_arm64_v8a_Android/certstream-server-go:            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=hHzaGHMmkQaMX0-etO_K/R05pu5F5IYPsbMd42XX0/j6iyrIbF34o7zxmbJlUU/kI8EsgooMkQo49ub20r9, stripped
-./aarch64_arm64_v8a_Android/crt:                             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=KgWr3JmNWvCojd-nBypD/-vYQ9aSA5D_MVQmjIJ6m/f3yN-LNKzNGOqIbFHVPA/6-VI-6YQvOaut9xmYzLk, stripped
-./aarch64_arm64_v8a_Android/dnsx:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=glQ8XlHfRKj-wF6d-Uij/XmzW6DiWHzFgLKE5uuP-/AaiX8lFCbOhMhW6ojokQ/hc0syFxkNYroQ7tFj9b-, stripped
-./aarch64_arm64_v8a_Android/eget:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=Y0zhQ2qfCR3y7RvvnFJn/H0lhJ-Tmpt6S8aQgSJ51/2S-WmTCGf5PTeuwNKu9L/AnWTl7TsfpeQlityWrN1, stripped
-./aarch64_arm64_v8a_Android/encode:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=XycdG7VO1Fnn9xK4T0Nx/gFs3XykiPAnJzDgQCaTf/szFZApkwdVTtDNyE6M94/wcd44G76xQXNbVQZxXbc, stripped
-./aarch64_arm64_v8a_Android/ffuf:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=7frBxokzAyPy4jyO1_h7/6IQ3VCSdN0jFcIN4Slr7/aWLIE2Apvp_HyEva7Js7/wzJf6kWgkFlGGPeGI-TL, stripped
-./aarch64_arm64_v8a_Android/filebrowser:                     ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=xBb2e4ZEWij-HALISSyL/l3JkO90p1en2ri_tJMnI/j8_LrijZgV56xlSPiTDw/GXvFMxulJWEhWbdfS8sm, stripped
-./aarch64_arm64_v8a_Android/godns:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=K77dmsw3sTp0qNu6VwR7/vAX3mWvowlVVvgsowckL/0DF7wk7jiQtKs8XNC066/Ih_dAd5OeWhpm_u7G_Lc, stripped
-./aarch64_arm64_v8a_Android/gowitness:                       ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=y0CasjRcxI6YZgPN8O9l/g_iggobRtu95PhqlMPWd/vTsGsG7PT5tj1cvn8So6/GknVBWBp43TEipzFmvL1, stripped
-./aarch64_arm64_v8a_Android/httpx:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=ty6BRKvo4pvh6Qm7A5pK/IhazljqAh7wpNkLnDWZ_/VFJotHMSyKq3gvDAh52W/gZjf8EuROgiC7LZ5SZvE, stripped
+./aarch64_arm64_v8a_Android/certstream:                      ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=vhWtupWYfSFv3kqCNgVh/Rzv8HbsjNF6_NaUQRa5a/GYzrwpcywFspAnw38iJn/q-eOwP76Bk-PtpgMVIWi, stripped
+./aarch64_arm64_v8a_Android/certstream-server-go:            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=8-cP7YtfjgkraCxNij8g/l0Zi0GHYouxRoMqK6YhH/N-CAnwV23RKU1nkepWKI/Pd4atb9JhOqwLBe0NGEc, stripped
+./aarch64_arm64_v8a_Android/crt:                             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=OwlNZbjm5RPDZaoDXuRL/3oNkv8gN8aWYNgL5pH1O/GRbrlO2k8nuIK3Wgt2Ht/KAPEFwvQmKUcQf6usWTF, stripped
+./aarch64_arm64_v8a_Android/dnsx:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=s6E1k9ipT5yS56uqUznY/KFHDYDV4Nr9D7PJnzXfU/N7iHrYHz_VciusoaJfaU/3-cpr7F4wBo6LzD2CyT0, stripped
+./aarch64_arm64_v8a_Android/eget:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=56bCj2YYx8MqrksNdKI6/GqQX7yGkG7SuF4J2h0KL/jOkCE568UukNt1LAXg5y/QicrRCiN6FgRFXdJusja, stripped
+./aarch64_arm64_v8a_Android/encode:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=quTM4w3ssf7LMZhHkZ6j/Wftqhjc0OUfs071Y1cur/PEK1QvT7btu6cIzfQtcf/qonpwC4L60zZnYsYLqmg, stripped
+./aarch64_arm64_v8a_Android/ffuf:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=zYg8vguTj1uoIhxirhwE/x8t4PBOw2Xd3NiskRkaN/5L3e_9JZXHoSOImG_VAc/PEGO4bexZ0X-TmuxJ-0Y, stripped
+./aarch64_arm64_v8a_Android/filebrowser:                     ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=jagGEEEFTHUBAtvw5lgA/LC__GxT5FwLcF_0bc4nZ/5nwr8T9q2uyoBjN57zYJ/yBMWzIk2NQDGcVwyQPYx, stripped
+./aarch64_arm64_v8a_Android/godns:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=BFuKCLpf78qVCmrlC6gI/RN1Hqe9xPk8NFpWwLa_1/Zzjf1nRZVNb5TWIF35rO/M6BvRgyIS-j44NnxWOiY, stripped
+./aarch64_arm64_v8a_Android/gowitness:                       ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=Ksg0uEYLRtrEP42e2F-_/2tbYMWb2TDbFNP8yJTpX/6apt6dLJcrQdUWLbpU1I/2riIG1XQG1OYpShDoSbA, stripped
+./aarch64_arm64_v8a_Android/httpx:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=eKrDzREnjs7-pRz1A1h1/lPZqPN3Y_XCmHaiEJqLJ/wr8TiXVeCEoeZ6fM-Wb1/X3Jx74yQ6o7QgPIcbNT8, stripped
 ./aarch64_arm64_v8a_Android/hxn:                             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 ./aarch64_arm64_v8a_Android/hysp:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-./aarch64_arm64_v8a_Android/inscope:                         ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=dil7-th3uBRD3sJZF54x/CgI_TSpr-HpiZuUi6aFL/zwYAzjm2wr8np76Cz9pc/F_QqBM-r8mQRg15jZewE, stripped
+./aarch64_arm64_v8a_Android/inscope:                         ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=RkeporBAf64LARSDYKqJ/fMLDHuYRp1fteaBLx2va/y4WPKznjYXzXI9o1N5Ex/qj9gGcyTTHPczaPc6AsG, stripped
 ./aarch64_arm64_v8a_Android/jless:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 ./aarch64_arm64_v8a_Android/kanha:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-./aarch64_arm64_v8a_Android/mapcidr:                         ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=B1giQAxlIXiHAIOvH9WC/jKZBtiX9P8fbiiA98jfk/CSds3xIhVcyYOziL8ZHS/eg90f0EKl1mZj3sSaoOZ, stripped
+./aarch64_arm64_v8a_Android/mapcidr:                         ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=h9jSB3McZLeCdPpWIGq9/e3h1DbDy9YewdQYyV5e4/-zBorAUlxQyASspvOtNg/KyHjifqDQAgQMIXlZT4T, stripped
 ./aarch64_arm64_v8a_Android/miniserve:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, no section header
 ./aarch64_arm64_v8a_Android/ngrok:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=QPZ9l5-tzG76Kk2I0POg/-NChmDQc4YwR3yv_yNDK/-98ljn0GlGITZJK9Lc_P/Dfq-CKePBSO1jQ3kPy1i, stripped
-./aarch64_arm64_v8a_Android/pspy:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=HsuyztbsPzS82AUIRmXf/oXPhIgqV48eQblUpadoj/UEptewOS8wn_bwU4oPqm/TaJmXxlZ0rkDBRyPfNCd, stripped
+./aarch64_arm64_v8a_Android/pspy:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=H-KQ3jtw_mRW2n5ivIFW/WYGPQMZD6bFedZhj3bZT/tn2LoXKKH8hLgGRnqZ_c/uibCxPsCkFMiCZ6u5o8c, stripped
 ./aarch64_arm64_v8a_Android/qbittorrent-nox:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./aarch64_arm64_v8a_Android/scopegen:                        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=fitYnIycrmzOoh0vedfs/LyeawrQAuGS83oceutHT/xtlTlZc_JXTFaJ7TKNsX/g0f_euQKQG4Q1Zb52MTj, stripped
+./aarch64_arm64_v8a_Android/scopegen:                        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=IWxImtYPseCzSKWWxyIU/jaYLLT10Gq-9YhEVvDA6/1HSMGLBBZeiLE0BP7lpZ/4r6QOwYousECf7DAxTVW, stripped
 ./aarch64_arm64_v8a_Android/static-web-server:               ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 ./aarch64_arm64_v8a_Android/sudo:                            a /data/data/com.termux/files/usr/bin/bash script, Unicode text, UTF-8 text executable, with very long lines (402)
 ./aarch64_arm64_v8a_Android/tailscale:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=mOKcWSwy66QVFLBWgaH0/hhTG4P--nSJ4WaSRy4qS/jIHf8urw-Fla6D1ydLzD/VEefnABVz4jUzmxSJJty, stripped
-./aarch64_arm64_v8a_Android/tailscale_dynamic_native:        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=tm2HU5Pma1OcitXbydNU/EsXU4tQf-3uv8IRYS0W3/9U7KmLANh81b-efpQVCf/sH825r4Sc8m8j0XScJ59, stripped
+./aarch64_arm64_v8a_Android/tailscale_dynamic_native:        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=i-eFcuWlS4-2MqXizegY/TKTvKiChyLSgery7Tzvz/Zb9l5vL-O4jWiw3Wl5d5/Y6O2PmUeCms0zbcWPdFm, stripped
 ./aarch64_arm64_v8a_Android/tailscale_merged:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=XyuvnLtnbu8coX1RUc03/XkStCvBe5KCjv1xcGS07/xz9eH3S3rduSAd7WfgDc/0VY4n9F_JBZyoTI6u0uc, stripped
-./aarch64_arm64_v8a_Android/tailscale_merged_dynamic_native: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=0iWzVPm89txlgKsPfXAr/LvB5x-rWXtTZ0cET0xMw/642RWMczg-ZrHyIhsEy6/hbrgNOwRCyF3ecgeby0z, stripped
+./aarch64_arm64_v8a_Android/tailscale_merged_dynamic_native: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=7DBif8s2OgY6wD0zGKqA/TsYnytjApz55DkDBnmUj/88DeZR7tysOn1FRWda8e/lDYbByYxqaL03Xdyb5vt, stripped
 ./aarch64_arm64_v8a_Android/tailscaled:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=tkXy5gTNbCQTxMXWkJ4R/uIH5dudhepAZAxtZnh-8/k6cbwQFX1pi3HqbAJ6EG/9oy34aETXLsCgnwpPFV4, stripped
-./aarch64_arm64_v8a_Android/tailscaled_dynamic_native:       ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=KssDk7JxKY7_3svRhxgG/2Pq-TYtccqxNjVlxoEpU/tOT1l2cHBBBlERN2Qqk8/dq4C2GV8g5UzS0qPtsuO, stripped
+./aarch64_arm64_v8a_Android/tailscaled_dynamic_native:       ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=Ma4nWS5h6juiBy_XOpZB/F_psAo2Vph5wiQ2mKmBc/MvmrgtENZ4I1U7Qu85R1/jW0qPPS5Lx_xC3iplkrZ, stripped
 
 --> BLAKE3SUM
-c66892a6fe6df25c7d30c1e859f201c7c164058aac61a9eebd36bbdcb9757496  ./aarch64_arm64_v8a_Android/BLAKE3SUM
-f5ec50549ed2e5d3f323a6a86fcfd612d386b0b7a66a29f013bd6446dac11c1c  ./aarch64_arm64_v8a_Android/README.md
-d6d5fb3b1139bc3ac789e063c19c348faf2597e8de94c8560420b96e59cfaf1c  ./aarch64_arm64_v8a_Android/SHA256SUM
-83a0eed5a2e63238cabb6fb09e6e1f4209e1b4d3f1623ba9934f945308867682  ./aarch64_arm64_v8a_Android/anew
-a320fca5d2b4cd04b7875700ee1279c573b5ce4515b472e5b05782600e2f5728  ./aarch64_arm64_v8a_Android/btm
-71ee2049794d864f879a6c4fdebd5ca789baa52c596b8923d34b71aafd571316  ./aarch64_arm64_v8a_Android/certstream
-d13c20c5e5bf2a684dec035cdac189e35e0db7dd81848f9fd5b10a40b6a7d131  ./aarch64_arm64_v8a_Android/certstream-server-go
-d81a6f1a661892bdddc6c5b5133db12e8ea537d7d0efd05cc9e2a30dab36f122  ./aarch64_arm64_v8a_Android/crt
-1536f1d5528bc3fce44d51b331879d4af41cc8a5f4c617caa3f04548bbf46920  ./aarch64_arm64_v8a_Android/dnsx
-287bf2ccbb7bb3f5a143a24a195843161a8d758c7b98dcd7e7bd22be068f123c  ./aarch64_arm64_v8a_Android/eget
-7ed23c70bbeb6bf011443852f65d8d1579a91a1fefc475e338957dda7aae6c61  ./aarch64_arm64_v8a_Android/encode
-113d8ac0d344842a1d906170dab78a2e079fdf4d3d25a1a15331d2c5fcce7b9a  ./aarch64_arm64_v8a_Android/ffuf
-0cebbd6faa97a96f0a8e6ba9f2002acee543fc8849462f6a84a5ba25b83fd936  ./aarch64_arm64_v8a_Android/filebrowser
-359afd83b2dffc4d0e4fb640f40b441570f7d53f7173fbb149d55aa0d6a48d18  ./aarch64_arm64_v8a_Android/godns
-0db7f1b3f4480e4bec19d5bc0a71ff624b89e071e623b63a1c814b7c913e4870  ./aarch64_arm64_v8a_Android/gowitness
-2d7ebd59452db25821812ffebea3e5a6ed826ce1faf38f504030af8101858913  ./aarch64_arm64_v8a_Android/httpx
-70a26ee7ab2ce98e23b245910ef7134592293c29a7b598a7f9e0d2049705a014  ./aarch64_arm64_v8a_Android/hxn
-11f465f311226875d97e295657dd0331b11bbdbacd9c4418f424c6fe125c43c9  ./aarch64_arm64_v8a_Android/hysp
-e0145ed65549f2e6df00aa3c7d3b4da0d9d282dbed588bc480267084b08f87a7  ./aarch64_arm64_v8a_Android/inscope
-4b9770816f2865e3d41d826ecea6c01fde4c08e3ad409854a508714dffb6f642  ./aarch64_arm64_v8a_Android/jless
-e6dfcfed508886ede3f898a9e51b3a9a768af00ca4df7ca7a9a52648fc2a7181  ./aarch64_arm64_v8a_Android/kanha
-2a236b3ce5241390f1e27be9c2c7d2c513f86e48029645a0468781c5f3f1a24e  ./aarch64_arm64_v8a_Android/mapcidr
+a9939318499e3a374d73d3ff9492d3c0207ccb91654cce3049a7b1abc9b61d23  ./aarch64_arm64_v8a_Android/BLAKE3SUM
+6bd9d4c3c7097dc8b7361f1e05106385c2e4efc631e92a9436ec88a7f01d318a  ./aarch64_arm64_v8a_Android/README.md
+ac1284d1d4c28fd3bd8f2419b0fe3dc6ba95bb2d12cf11bdde4e4153feab6f3a  ./aarch64_arm64_v8a_Android/SHA256SUM
+ab87a02206b3dbfe7e521b53707a76f2f00173a7e828ac91d53c537ee28428ca  ./aarch64_arm64_v8a_Android/anew
+ce7f002226079b7de19230032a3a92e0f7f1fd7a6d6f5a6df632bfa40a8dde59  ./aarch64_arm64_v8a_Android/btm
+af33c56959bf8925775a01e25de7de2d9162c29bf96da10a83b07cb7109879ab  ./aarch64_arm64_v8a_Android/certstream
+547971dbda5530ee7f99f352f409af4d429c5964f9e02971c564250a76f5ba96  ./aarch64_arm64_v8a_Android/certstream-server-go
+e669268122d93bb6c62e6cedc3cc25104a75409ff441d51de490374bb44e6e76  ./aarch64_arm64_v8a_Android/crt
+30a56ce1b6e084073f2c41d27a45120562ac09258803f4a50f951ddc75e318e6  ./aarch64_arm64_v8a_Android/dnsx
+f0fd47d2f55aa15363677dd2c935e21cb5bfa988244f6f3860d7e6db19fb669c  ./aarch64_arm64_v8a_Android/eget
+505e1fbf2b8710dbfa3f74a7bbac5e50bc1e0f16e16e9fbcbe72aceed8ab02ad  ./aarch64_arm64_v8a_Android/encode
+f2905fc285b04cf80e70f028844abbdca2c81661ba0b0a85d4a8f24ba365dc4e  ./aarch64_arm64_v8a_Android/ffuf
+14c8c421612f4b908e5702bb797a5302a73654424c54ff3834721d66f777582a  ./aarch64_arm64_v8a_Android/filebrowser
+cbeec619eff5cbf7d0f577cd68ff777252c0e55849d779998307f2d96653d884  ./aarch64_arm64_v8a_Android/godns
+5d9cc8c30b4f2df657bc8ca64bc8362a939706dd8052ad9934542bab425d778c  ./aarch64_arm64_v8a_Android/gowitness
+0517a36cf212790dc9ed7c404e242b10db6fa7c5b06b20c2a1755ec8270b542e  ./aarch64_arm64_v8a_Android/httpx
+8b953861777ddcd1b5c6048a73f7f6653abb6f8729cf30f23869bb5da157b209  ./aarch64_arm64_v8a_Android/hxn
+955c444616dcb9930ba1f3dc2ed325d65265e6389b922a209c82c4cfa45b00f9  ./aarch64_arm64_v8a_Android/hysp
+035d5df782081c7cc52f57c15f9968afbb0421771a997990f941e760c9ae2d18  ./aarch64_arm64_v8a_Android/inscope
+7eccac7d94292527832b07b0fabdbc42d2e3ed3d0a8eb653148d272e61a06460  ./aarch64_arm64_v8a_Android/jless
+6bb6d1ec95da832562b57489cf5d00b517522928a00ba777b8e37bd8eabcd690  ./aarch64_arm64_v8a_Android/kanha
+a9ee6981636dc0dc177d67053cb84f5f31a28c0c6b2341b5159ada5ec41e50e9  ./aarch64_arm64_v8a_Android/mapcidr
 b0a7f24029712b6a02980217449ef1f7fa5581772f2bbb24b2347fd9c7a517c5  ./aarch64_arm64_v8a_Android/miniserve
 709a635045eb9378de65b9f0abf1a08e73e5fae9d67b6c843d2ba1c038917792  ./aarch64_arm64_v8a_Android/ngrok
-ab4df77635651bb2af47c23150036574063fff0c496f14e7f6a0a181b2705542  ./aarch64_arm64_v8a_Android/pspy
-81247c7a0d15e3a95b604fbce0f925c4cbcd78f921e548b485bf5001d868c62c  ./aarch64_arm64_v8a_Android/qbittorrent-nox
-424c9f8132a2d0fe26ab5b266c7dd747c0b4fee97cc40c20ae6eca2b815e187b  ./aarch64_arm64_v8a_Android/scopegen
+fe3463b9bc1ed5bee20d2fd01cbd4f050d8139c9e27d12802a0128f869c67a9e  ./aarch64_arm64_v8a_Android/pspy
+809cf81d6b8fc81138fd7a26ddda300ab2e77bcd03cb68bcd90393283a250f82  ./aarch64_arm64_v8a_Android/qbittorrent-nox
+061a2ecc35c91c7b804129ae2302e83c229409a9cd1aeb916d81660573ca9a37  ./aarch64_arm64_v8a_Android/scopegen
 8c0071186430e9c7c829f6311e906ed50ac9e902b605f3d8b9177cde8f646043  ./aarch64_arm64_v8a_Android/static-web-server
 261a7ec6cf5ed2fbc82f8128f2583eda7faeb8939b9e08143046f0b046e504ae  ./aarch64_arm64_v8a_Android/sudo
 916f0eb999d9c06d9f7460b501c1c8534e9baf1868a282fb34b22612219fd74c  ./aarch64_arm64_v8a_Android/tailscale
-03aba7d366d6753f7592d44cdd0d368e5fd95a129bbb8e66d4dd94026d47a9c5  ./aarch64_arm64_v8a_Android/tailscale_dynamic_native
+ba4032e9ad6cf622fdcaa742a905102668270c4a07688ea6a3c4bf8b26dc16d7  ./aarch64_arm64_v8a_Android/tailscale_dynamic_native
 1ad35d8a0bc7900b1c940ef2fcfe676fd44ee40dccce100ded626660d04762e1  ./aarch64_arm64_v8a_Android/tailscale_merged
-7f85be82e595ca138a19d7e5e0a54137947fc8700bf2b18fc21d1481ecf5b37d  ./aarch64_arm64_v8a_Android/tailscale_merged_dynamic_native
+4066943f89a89895dabdcae87acec5a6f4ef4f318df07710f5f200a7cc462a11  ./aarch64_arm64_v8a_Android/tailscale_merged_dynamic_native
 fcd798d10ef194e71bdae2997a310f2ab09fcfecf78047d6071f5905c7e94420  ./aarch64_arm64_v8a_Android/tailscaled
-8d764cf677af9bf4a80c289e15371107e39d30688dd1cd8fb9ecd02916dabb0b  ./aarch64_arm64_v8a_Android/tailscaled_dynamic_native
+e5626707dc1dde212e4596452a4512a2a3e829edb664a4dfc0eb4c532c44c554  ./aarch64_arm64_v8a_Android/tailscaled_dynamic_native
 
 --> SHA256SUM
-26346427a7665580b014d039e7c5c04b3313975797e08fa4268446ee17d9ce01  ./aarch64_arm64_v8a_Android/BLAKE3SUM
-072bdf7fa8c5e1b894737b520386a96ec6a67f44b865f962cd7604657c86549b  ./aarch64_arm64_v8a_Android/README.md
-5f1590e08396454467dc89a390377a6cfdf4b6a3aef35a549a5fac7bf3a16ed8  ./aarch64_arm64_v8a_Android/SHA256SUM
-2fcb15209d0d25fd055d99c3ef04724bce99bc9daf42ed14296e7d84cb894caa  ./aarch64_arm64_v8a_Android/anew
-664d9eebd5bc9400ee51f37c83c40c8241bfb3c029dad2de463b405e4c563478  ./aarch64_arm64_v8a_Android/btm
-82cbcd216a547bfeb766e7b99fc1ab43913982e6f523f7bdc546ee7dd9ce3c85  ./aarch64_arm64_v8a_Android/certstream
-44c3110e7f063cd8c105c2150750ccb90877b2d52673cf743a5fff8ae4d9222d  ./aarch64_arm64_v8a_Android/certstream-server-go
-b3065aa448c398847365435bf94cc4517c8a10b15f1024190b1bd6c995e98701  ./aarch64_arm64_v8a_Android/crt
-51a7315d4659cd4f54560938100a37ed719e894a0be0ee57c116189671e2a2bf  ./aarch64_arm64_v8a_Android/dnsx
-d202172aa7744a70fa6c51490cdb94fc3c14351f244c9c25832aa1f74896454d  ./aarch64_arm64_v8a_Android/eget
-5db8fcaeb966ec31c6cedcc05d1c2d52a2bc3955953b05a3350c929fe73c02e1  ./aarch64_arm64_v8a_Android/encode
-7b88e8814cf1c1dc67710b7706460798d815f57f082f3527d64c6f0f1f90f19e  ./aarch64_arm64_v8a_Android/ffuf
-f76d120cbeae236bdeecd21950572d333e43ebffa338cd1dc66ba05cc6ee8b64  ./aarch64_arm64_v8a_Android/filebrowser
-a7fef14fcc0a37d6cd5165d1da22abc06e9029b7c57c1d51f38641a0938fbb36  ./aarch64_arm64_v8a_Android/godns
-4990f38c1f21e42fdf9e08cbb838474910e4d119dbb04870520d5c67784c46b6  ./aarch64_arm64_v8a_Android/gowitness
-febddb071f0aefa0fcae92e8df9011f7ff380563080f83d18b66257b684cd3f5  ./aarch64_arm64_v8a_Android/httpx
-e9133dbe7896c01c66283ffe4e28de25923f0ad9478338cc0044f1adb33d6061  ./aarch64_arm64_v8a_Android/hxn
-c250b266fe1c65c600a5fe8e840fe8c179b10b4904cbf473207d31e9db4cc11f  ./aarch64_arm64_v8a_Android/hysp
-24a3bb1f2bd8805e370bc6e916422c8ed288f0a39071a435c1a1145fc9761942  ./aarch64_arm64_v8a_Android/inscope
-c18714dfda0902dd1bff7724b8e72ac0083fa24abf0b30fb65775d69c670df82  ./aarch64_arm64_v8a_Android/jless
-7e01e9e1f90f0c4e1f1c6d102dd37868eb11816b95c3cc8b506fa4943c2d4023  ./aarch64_arm64_v8a_Android/kanha
-debdab206fc4e07ea8ff7aa5d5f673fc164a6f8d081e6279e136e31465fed99c  ./aarch64_arm64_v8a_Android/mapcidr
+3a7048525433040e3da4e098ce422df6142c9dab72e71bd85a4505ce33def79d  ./aarch64_arm64_v8a_Android/BLAKE3SUM
+129cd4138f5a600f6d1929a1e0cf995cd0d234562e3d28bc885cda78a090bd83  ./aarch64_arm64_v8a_Android/README.md
+e9e21ece56deef270151fd080d200f8baf0df822076744e144cdd5b08d202c96  ./aarch64_arm64_v8a_Android/SHA256SUM
+d69806402a452b447c775b0f38ad9f6600503395417f36ad1d6153a51927b15c  ./aarch64_arm64_v8a_Android/anew
+9ca134264a621ce9dadb4b5dde3b98f5bc0f7c5dc753908ca17c571b8c04733e  ./aarch64_arm64_v8a_Android/btm
+390b12933f451e5f6663c9d801dcf74b39f3a7a73eefc6200151fcd31726aedf  ./aarch64_arm64_v8a_Android/certstream
+c84a4213d9a134c2cd117bf3519741cf576b36c6b79a6b2e821d763edef679c3  ./aarch64_arm64_v8a_Android/certstream-server-go
+7584c4dc9a41e99572a1c2c6320a9496b4810e9a0c62e70162c3eacec1a3b954  ./aarch64_arm64_v8a_Android/crt
+8cae14fdfdbf5583749e144d7640ab09f416dd2ba70cb10d5f1590107f520fac  ./aarch64_arm64_v8a_Android/dnsx
+00acd77062ec920fdb221d7aa3890739605799d6f3f9528e9a9a5d48138e8ca2  ./aarch64_arm64_v8a_Android/eget
+dbbe77fc44a64ce09587fe068ae1526d75aa3ce714c681bb71afddb35ceb8c2c  ./aarch64_arm64_v8a_Android/encode
+e48ee0d3dc6e36b79bc6a6c40449c921352b764e50e5f6d07000a9723a139d3a  ./aarch64_arm64_v8a_Android/ffuf
+4aac1264a01595473bceecaa3d2c0593c39158e6f2e67d0538871b2e0736b768  ./aarch64_arm64_v8a_Android/filebrowser
+879ec80b9da0f30239be1ae8bc9c2e3a4aa4708811142e086a9f4946cfd2d8c5  ./aarch64_arm64_v8a_Android/godns
+f635c90d0705ce2b8c56ec643e25a3d71f03c5b3b664e444a309bdb123178b78  ./aarch64_arm64_v8a_Android/gowitness
+fe436873b39afdd466e81cc180c455369c04c20bdf965f1acaa06a696e5bfa9d  ./aarch64_arm64_v8a_Android/httpx
+ba70c7e865d1b2efe54f86388f2f4d3cec9044243104abb3b86e6fa588ffea12  ./aarch64_arm64_v8a_Android/hxn
+b8e88705eaf4564fafd66a85ace09aff703f66c1cea01a32d598d7f6fd035c28  ./aarch64_arm64_v8a_Android/hysp
+1f2d44a45c905d8b668158b1e8a1a6bbbea7ddb77acd080bed3a7272e40d88ae  ./aarch64_arm64_v8a_Android/inscope
+a52d4071c5866a65b5c862057ad453045c515d87c5d5b8c47280c3193cd1da55  ./aarch64_arm64_v8a_Android/jless
+5aac77175259d93662c4bb5b12d79dc07d9f9116ba4ac0cfcb8bf353637376a3  ./aarch64_arm64_v8a_Android/kanha
+a7b26dce368f41b9114cd3c06a371ca389510ff0a3f997db950f612ffdd630e1  ./aarch64_arm64_v8a_Android/mapcidr
 9ac19b4a89af5610b65a1679a5a84ed43d7f848f166bc12400124223adaad019  ./aarch64_arm64_v8a_Android/miniserve
 911f4220b9db81b1f4bd8beb0f8bbb1b5c4c31bc23ef2888be556966617727f7  ./aarch64_arm64_v8a_Android/ngrok
-49b2a9228722489374f773409a3e30eb2499380172e115624b8aee9b4576e501  ./aarch64_arm64_v8a_Android/pspy
-2304c0ab184d9398280394bbbb3098d25c8249f156b8f56b79112a25658e35f7  ./aarch64_arm64_v8a_Android/qbittorrent-nox
-7c8ebfa4fc2c8ceeb0a848a872c3c2a2f1223e30af336ebfe2594dd9b1defeef  ./aarch64_arm64_v8a_Android/scopegen
+e0dc4606af5a1fba0958e60635f35eebb199ec0690264768e2490689b04a3eca  ./aarch64_arm64_v8a_Android/pspy
+b3349734b09cb6c06aafa7f1a433114fba7c83beff10ca22ded44cad2561d1c7  ./aarch64_arm64_v8a_Android/qbittorrent-nox
+a96daccc40725ab3a39df1475643d9c1d113fd810ef4acf7b1620381f288e70e  ./aarch64_arm64_v8a_Android/scopegen
 0d8df2b3e8795bc8625cfd7ac342043a2898788b092029d1b7968dd4c09b9f91  ./aarch64_arm64_v8a_Android/static-web-server
 9e56787b3ca489a9eb9e3a64f54944aa92c728d18576972ef7ef6bb10ca6462c  ./aarch64_arm64_v8a_Android/sudo
 805d77421f4de5d4dd4c763754557e0d05f82bb0685a3395b4f61e2d80fcbaff  ./aarch64_arm64_v8a_Android/tailscale
-00b81fd2fb362f1a22a1fb66c38af4602392f30764251d3a84e2050a1cf22820  ./aarch64_arm64_v8a_Android/tailscale_dynamic_native
+49132c2a8a408ae4ca43782c609ee23c669efb67ae9dc290668f0a80250e3730  ./aarch64_arm64_v8a_Android/tailscale_dynamic_native
 2a85dc4a2e0950c925f4eb5420e3b9faceba6802847ac8596c72c3009c8350c1  ./aarch64_arm64_v8a_Android/tailscale_merged
-475916d756432cdb600dd8706148887bed071ec161e737bf84c2b37fd32653f3  ./aarch64_arm64_v8a_Android/tailscale_merged_dynamic_native
+d34bbf11cd563b2e01fc1346ebeb967db24b8a5f585bd2b530cd07f1fbc5dae2  ./aarch64_arm64_v8a_Android/tailscale_merged_dynamic_native
 6b908efd3b0d4465edf50706bccbd36091333f8ec166a68bea6f605059de9b99  ./aarch64_arm64_v8a_Android/tailscaled
-738490be1b711374dc1f822221d5a7651be7f70404a325ffb5cba49c7d66ef25  ./aarch64_arm64_v8a_Android/tailscaled_dynamic_native
+622678ee8526910c8f3204bf689b83c1b7ef5ef9692699f3ea3da73bdc9af240  ./aarch64_arm64_v8a_Android/tailscaled_dynamic_native
 ```
 
 
@@ -137,7 +137,7 @@ debdab206fc4e07ea8ff7aa5d5f673fc164a6f8d081e6279e136e31465fed99c  ./aarch64_arm6
 26M   ./aarch64_arm64_v8a_Android/gowitness
 40M   ./aarch64_arm64_v8a_Android/httpx
 6.1M  ./aarch64_arm64_v8a_Android/hxn
-3.2M  ./aarch64_arm64_v8a_Android/hysp
+3.3M  ./aarch64_arm64_v8a_Android/hysp
 1.8M  ./aarch64_arm64_v8a_Android/inscope
 1.8M  ./aarch64_arm64_v8a_Android/jless
 2.8M  ./aarch64_arm64_v8a_Android/kanha
