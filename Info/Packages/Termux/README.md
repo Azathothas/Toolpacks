@@ -230,7 +230,7 @@
 | **cloneit** | 20221024-1 | A cli tool to download specific GitHub directories or files | https://github.com/alok8bb/cloneit |
 | **cloudflared** | 2023.10.0 | A tunneling daemon that proxies traffic from the Cloudflare network to your origins | https://github.com/cloudflare/cloudflared |
 | **clpeak** | 1.1.2-3 | A tool which profiles OpenCL devices to find their peak capacities | https://github.com/krrishnarraj/clpeak |
-| **clvk** | 0.0.20231115.213741 | Experimental implementation of OpenCL on Vulkan | https://github.com/kpet/clvk |
+| **clvk** | 0.0.20231212.174713 | Experimental implementation of OpenCL on Vulkan | https://github.com/kpet/clvk |
 | **cmake** | 3.28.0 | Family of tools designed to build, test and package software | https://cmake.org/ |
 | **cmake-curses-gui** | 3.28.0 | Curses based user interface for CMake (ccmake) | https://cmake.org/ |
 | **cmark** | 0.30.3 | CommonMark parsing and rendering program | https://github.com/commonmark/cmark |
@@ -619,7 +619,7 @@
 | **guile-static** | 3.0.9-2 | Static libraries for guile | http://www.gnu.org/software/guile/ |
 | **guile18** | 1.8.8-16 | Portable, embeddable Scheme implementation written in C. (legacy branch) | http://www.gnu.org/software/guile/ |
 | **guile18-static** | 1.8.8-16 | Static libraries for guile18 | http://www.gnu.org/software/guile/ |
-| **gum** | 0.12.0 | A tool for creating minimal interactive TUIs for shell scripts | https://github.com/charmbracelet/gum |
+| **gum** | 0.13.0 | A tool for creating minimal interactive TUIs for shell scripts | https://github.com/charmbracelet/gum |
 | **gumbo-parser** | 0.10.1 | An HTML5 parsing library | https://github.com/google/gumbo-parser |
 | **gumbo-parser-static** | 0.10.1 | Static libraries for gumbo-parser | https://github.com/google/gumbo-parser |
 | **gzip** | 1.13 | Standard GNU file compression utilities | https://www.gnu.org/software/gzip/ |
@@ -654,8 +654,8 @@
 | **html-xml-utils** | 8.6 | A number of simple utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ |
 | **html2text** | 1:2.2.3 | Utility that converts HTML documents into plain text | http://www.mbayer.de/html2text/ |
 | **htop** | 3.2.2 | Interactive process viewer for Linux | https://htop.dev/ |
-| **htslib** | 1.18 | C library for high-throughput sequencing data formats | https://github.com/samtools/htslib |
-| **htslib-static** | 1.18 | Static libraries for htslib | https://github.com/samtools/htslib |
+| **htslib** | 1.19 | C library for high-throughput sequencing data formats | https://github.com/samtools/htslib |
+| **htslib-static** | 1.19 | Static libraries for htslib | https://github.com/samtools/htslib |
 | **httping** | 2.9 | ping-like program for http-requests | https://github.com/folkertvanheusden/HTTPing |
 | **httrack** | 3.49.4 | It allows you to download a World Wide Web site from the Internet | http://www.httrack.com |
 | **httrack-data** | 3.49.4 | Platform-independent data for httrack | http://www.httrack.com |
@@ -680,7 +680,7 @@
 | **ices** | 2.0.3 | IceS is a source client for the Icecast streaming server. | https://icecast.org/ices/ |
 | **iconv** | 1.17 | Utility converting between different character encodings | https://www.gnu.org/software/libiconv/ |
 | **icoutils** | 0.32.3 | Extracts and converts images in MS Windows(R) icon and cursor files. | https://www.nongnu.org/icoutils/ |
-| **icu-devtools** | 74.1+real74.1 | Development utilities for International Components for Unicode | http://site.icu-project.org/home |
+| **icu-devtools** | 74.2 | Development utilities for International Components for Unicode | http://site.icu-project.org/home |
 | **id3lib** | 3.8.3-3 | A software library for manipulating ID3v1/v1.1 and ID3v2 tags | http://id3lib.sourceforge.net/ |
 | **id3lib-static** | 3.8.3-3 | Static libraries for id3lib | http://id3lib.sourceforge.net/ |
 | **id3ted** | 1.0-3 | A comand line id3 tag editor | https://muennich.github.io/id3ted/ |
@@ -1005,8 +1005,8 @@
 | **libice-static** | 1.1.1 | Static libraries for libice | https://xorg.freedesktop.org/ |
 | **libiconv** | 1.17 | An implementation of iconv() | https://www.gnu.org/software/libiconv/ |
 | **libiconv-static** | 1.17 | Static libraries for libiconv | https://www.gnu.org/software/libiconv/ |
-| **libicu** | 74.1+real74.1 | International Components for Unicode library | http://site.icu-project.org/home |
-| **libicu-static** | 74.1+real74.1 | Static libraries for libicu | http://site.icu-project.org/home |
+| **libicu** | 74.2 | International Components for Unicode library | http://site.icu-project.org/home |
+| **libicu-static** | 74.2 | Static libraries for libicu | http://site.icu-project.org/home |
 | **libid3tag** | 0.16.3 | MAD ID3 tag manipulation library | http://www.underbit.com/products/mad/ |
 | **libidn** | 1.41 | GNU Libidn library, implementation of IETF IDN specifications | https://www.gnu.org/software/libidn/ |
 | **libidn-static** | 1.41 | Static libraries for libidn | https://www.gnu.org/software/libidn/ |
@@ -1441,11 +1441,11 @@
 | **libxls** | 1.6.2 | A C library for reading Excel files in the nasty old binary OLE format | https://github.com/libxls/libxls |
 | **libxls-static** | 1.6.2 | Static libraries for libxls | https://github.com/libxls/libxls |
 | **libxlsxwriter** | 1.1.5-1 | A C library for creating Excel XLSX files | https://libxlsxwriter.github.io/ |
-| **libxml2** | 2.12.2 | Library for parsing XML documents | http://www.xmlsoft.org |
-| **libxml2-python** | 2.12.2 | Python bindings for libxml2 | http://www.xmlsoft.org |
-| **libxml2-python-static** | 2.12.2 | Static libraries for libxml2-python | http://www.xmlsoft.org |
-| **libxml2-static** | 2.12.2 | Static libraries for libxml2 | http://www.xmlsoft.org |
-| **libxml2-utils** | 2.12.2 | XML utilities | http://www.xmlsoft.org |
+| **libxml2** | 2.12.3 | Library for parsing XML documents | http://www.xmlsoft.org |
+| **libxml2-python** | 2.12.3 | Python bindings for libxml2 | http://www.xmlsoft.org |
+| **libxml2-python-static** | 2.12.3 | Static libraries for libxml2-python | http://www.xmlsoft.org |
+| **libxml2-static** | 2.12.3 | Static libraries for libxml2 | http://www.xmlsoft.org |
+| **libxml2-utils** | 2.12.3 | XML utilities | http://www.xmlsoft.org |
 | **libxrandr** | 1.5.4 | X11 RandR extension library | https://xorg.freedesktop.org/ |
 | **libxrandr-static** | 1.5.4 | Static libraries for libxrandr | https://xorg.freedesktop.org/ |
 | **libxrender** | 0.9.11 | X Rendering Extension client library | https://xorg.freedesktop.org/ |
