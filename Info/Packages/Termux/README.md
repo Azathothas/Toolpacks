@@ -134,6 +134,7 @@
 | **bk** | 0.6.0 | A terminal EPUB reader | https://github.com/aeosynth/bk |
 | **blackbox** | 1:1.20220610 | Safely store secrets in Git/Mercurial/Subversion | https://github.com/StackExchange/blackbox |
 | **blade** | 0.0.85 | A simple, fast, clean and dynamic language | https://bladelang.com/ |
+| **blas-openblas** | 0.3.25-1 | OpenBLAS symlinks for BLAS/CBLAS/LAPACK/LAPACKE | https://www.openblas.net |
 | **blink** | 1:1.0.0-1 | Tiny x86-64 Linux emulator | https://justine.lol/blinkenlights/ |
 | **blk-utils** | 2.39.3-3 | Utilities for handling block device attributes | https://en.wikipedia.org/wiki/Util-linux |
 | **blogc** | 0.20.1 | A blog compiler | https://blogc.rgm.io/ |
@@ -397,7 +398,7 @@
 | **exiv2** | 2:0.27.7-1 | Exif, Iptc and XMP metadata manipulation library and tools | https://exiv2.org/ |
 | **exiv2-static** | 2:0.27.7-1 | Static libraries for exiv2 | https://exiv2.org/ |
 | **expect** | 5.45.4-3 | Tool for automating interactive terminal applications | https://core.tcl.tk/expect/index |
-| **eza** | 0.16.3 | A modern replacement for ls | https://github.com/eza-community/eza |
+| **eza** | 0.17.0 | A modern replacement for ls | https://github.com/eza-community/eza |
 | **fact++** | 1.6.5-1 | Re-implementation of the well-known FaCT Description Logic (DL) Reasoner | https://bitbucket.org/dtsarkov/factplusplus |
 | **fakeroot** | 1.32.2 | Tool for simulating superuser privileges (with tcp ipc) | https://packages.qa.debian.org/f/fakeroot.html |
 | **fakeroot-static** | 1.32.2 | Static libraries for fakeroot | https://packages.qa.debian.org/f/fakeroot.html |
@@ -504,7 +505,7 @@
 | **gflags** | 2.2.2-9 | A C++ library that implements commandline flags processing | https://github.com/gflags/gflags |
 | **gflags-static** | 2.2.2-9 | Static libraries for gflags | https://github.com/gflags/gflags |
 | **gforth** | 0.7.3-1 | The Forth implementation of the GNU project | https://www.gnu.org/software/gforth/ |
-| **gh** | 2.40.0 | GitHub’s official command line tool | https://cli.github.com/ |
+| **gh** | 2.40.1 | GitHub’s official command line tool | https://cli.github.com/ |
 | **ghc** | 9.2.5-1 | The Glasgow Haskell Compiler | https://www.haskell.org/ghc/ |
 | **ghc-libs** | 9.2.5-1 | The Glasgow Haskell Compiler libraries | https://www.haskell.org/ghc/ |
 | **ghc-libs-static** | 8.10.7-3 | Static libraries for ghc-libs | https://www.haskell.org/ghc/ |
@@ -519,7 +520,7 @@
 | **git-delta** | 0.16.5-1 | A syntax-highlighter for git and diff output | https://github.com/dandavison/delta |
 | **git-gitk** | 2.43.0 | Git repository browser | https://git-scm.com/ |
 | **git-gui** | 2.43.0 | A graphical interface to Git | https://git-scm.com/ |
-| **git-lfs** | 3.4.0-1 | Git extension for versioning large files | https://git-lfs.github.com/ |
+| **git-lfs** | 3.4.1 | Git extension for versioning large files | https://git-lfs.github.com/ |
 | **git-sizer** | 1.5.0-4 | Compute various size metrics for a Git repository | https://github.com/github/git-sizer |
 | **git-svn** | 2.43.0 | Convert between Git and Subversion repositories | https://git-scm.com/ |
 | **gitea** | 1.21.2 | Git with a cup of tea, painless self-hosted git service | https://gitea.io |
@@ -527,7 +528,7 @@
 | **gitoxide** | 0.31.1 | Rust implementation of Git | https://github.com/Byron/gitoxide |
 | **gitui** | 0.24.3 | Blazing fast terminal-ui for git written in rust | https://github.com/extrawurst/gitui |
 | **gkermit** | 2.01 | Simple, Portable, Free File Transfer Software for UNIX | http://www.columbia.edu/kermit/gkermit.html |
-| **glab-cli** | 1.35.0 | A GitLab CLI tool bringing GitLab to your command line | https://gitlab.com/gitlab-org/cli |
+| **glab-cli** | 1.36.0 | A GitLab CLI tool bringing GitLab to your command line | https://gitlab.com/gitlab-org/cli |
 | **glib** | 2.78.3 | Library providing core building blocks for libraries and applications written in C | https://developer.gnome.org/glib/ |
 | **glib-bin** | 2.78.3 | Programs for the GLib library | https://developer.gnome.org/glib/ |
 | **glib-cross** | 2.78.3 | glib for host (NOT for Termux) | https://developer.gnome.org/glib/ |
@@ -631,11 +632,11 @@
 | **hash-slinger** | 3.3 | Various tools to generate special DNS records | https://github.com/letoams/hash-slinger |
 | **hashdeep** | 4.4-8 | Programs to compute hashsums of arbitrary number of files recursively | http://md5deep.sourceforge.net/ |
 | **hcl** | 2.19.1 | A toolkit for creating structured configuration languages | https://github.com/hashicorp/hcl |
-| **hcloud** | 1.40.0 | Hetzner Cloud command line client | https://github.com/hetznercloud/cli |
+| **hcloud** | 1.41.0 | Hetzner Cloud command line client | https://github.com/hetznercloud/cli |
 | **helix** | 23.10 | A post-modern modal text editor written in rust | https://helix-editor.com/ |
 | **helix-grammars** | 23.10 | Helix grammars | https://helix-editor.com/ |
 | **hello** | 2.12.1-1 | Prints a friendly greeting | https://www.gnu.org/software/hello/ |
-| **helm** | 3.13.2 | Helm helps you manage Kubernetes applications | https://helm.sh |
+| **helm** | 3.13.3 | Helm helps you manage Kubernetes applications | https://helm.sh |
 | **help2man** | 1.49.3 | Conversion tool to create man files | https://www.gnu.org/software/help2man/ |
 | **hexcurse** | 1.60.0-4 | Console hexeditor | https://github.com/LonnyGomes/hexcurse |
 | **hexedit** | 1.6 | view and edit files in hexadecimal or in ASCII | http://rigaux.org/hexedit.html |
@@ -759,7 +760,7 @@
 | **kona** | 20211225 | Open-source implementation of the APL-like K programming language | https://github.com/kevinlawler/kona |
 | **kotlin** | 1.9.21 | The Kotlin Programming Language | https://kotlinlang.org/ |
 | **krb5** | 1.21.2 | The Kerberos network authentication system | https://web.mit.edu/kerberos |
-| **kubectl** | 1.28.4 | Kubernetes.io client binary | https://kubernetes.io/ |
+| **kubectl** | 1.29.0 | Kubernetes.io client binary | https://kubernetes.io/ |
 | **kubelogin** | 1.28.0-1 | A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication | https://github.com/int128/kubelogin |
 | **ladspa-sdk** | 1.17-1 | Linux Audio Developer's Simple Plugin API | https://www.ladspa.org/ |
 | **lame** | 3.100-4 | High quality MPEG Audio Layer III (MP3) encoder - frontend | https://lame.sourceforge.io/ |
@@ -775,7 +776,7 @@
 | **leptonica** | 1.83.1-1 | Library for image processing and image analysis | http://www.leptonica.com/ |
 | **leptonica-static** | 1.83.1-1 | Static libraries for leptonica | http://www.leptonica.com/ |
 | **less** | 633-1 | Terminal pager program used to view the contents of a text file one screen at a time | https://www.greenwoodsoftware.com/less/ |
-| **lesspipe** | 2.10 | An input filter for the pager less | http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html |
+| **lesspipe** | 2.11 | An input filter for the pager less | http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html |
 | **leveldb** | 1.23-2 | Fast key-value storage library | https://github.com/google/leveldb |
 | **lexbor** | 2.3.0 | Fast embeddable web browser engine written in C with no dependencies | https://lexbor.com |
 | **lexter** | 1.0.3-3 | A real-time word puzzle for text terminals | https://www.kyne.com.au/~mark/software/lexter.php |
@@ -1165,7 +1166,8 @@
 | **liboggz** | 1.1.1-5 | Command and library to inspect, tweak, edit and validate Ogg files | https://www.xiph.org/oggz/ |
 | **liboggz-static** | 1.1.1-5 | Static libraries for liboggz | https://www.xiph.org/oggz/ |
 | **libolm** | 3.2.16 | An implementation of the Double Ratchet cryptographic ratchet | https://matrix.org/docs/projects/other/olm/ |
-| **libopenblas** | 0.3.25 | An optimized BLAS library based on GotoBLAS2 1.13 BSD | https://www.openblas.net |
+| **libopenblas** | 0.3.25-1 | An optimized BLAS library based on GotoBLAS2 1.13 BSD | https://www.openblas.net |
+| **libopenblas-static** | 0.3.25-1 | Static libraries for libopenblas | https://www.openblas.net |
 | **libopencc** | 1.1.7 | An opensource project for conversions between Traditional Chinese, Simplified Chinese and Japanese Kanji (Shinjitai) | https://github.com/BYVoid/OpenCC |
 | **libopencore-amr** | 0.1.6 | Open source implementation of the Adaptive Multi Rate (AMR) speech codec | https://sourceforge.net/projects/opencore-amr |
 | **libopencore-amr-static** | 0.1.6 | Static libraries for libopencore-amr | https://sourceforge.net/projects/opencore-amr |
@@ -1283,7 +1285,7 @@
 | **libsoundtouch-static** | 2.3.2 | Static libraries for libsoundtouch | https://www.surina.net/soundtouch/ |
 | **libsoup** | 2.74.3-2 | HTTP client and server library | https://wiki.gnome.org/action/show/Projects/libsoup |
 | **libsoup3** | 3.4.2 | HTTP client and server library | https://wiki.gnome.org/Projects/libsoup |
-| **libsoxr** | 0.1.3-4 | High quality, one-dimensional sample-rate conversion library | https://sourceforge.net/projects/soxr/ |
+| **libsoxr** | 0.1.3-5 | High quality, one-dimensional sample-rate conversion library | https://sourceforge.net/projects/soxr/ |
 | **libspatialindex** | 1.9.3 | C++ implementation of R*-tree, an MVR-tree and a TPR-tree with C API | https://libspatialindex.github.io |
 | **libspatialite** | 5.1.0 | SQLite extension to support spatial data types and operations | https://www.gaia-gis.it/fossil/libspatialite |
 | **libspatialite-static** | 5.1.0 | Static libraries for libspatialite | https://www.gaia-gis.it/fossil/libspatialite |
@@ -1568,15 +1570,15 @@
 | **mdbook-graphviz** | 0.1.6 | mdbook preprocessor to add graphviz support | https://github.com/dylanowen/mdbook-graphviz |
 | **mdbook-katex** | 0.5.9 | A preprocessor for mdBook, pre-rendering LaTex equations to HTML at build time | https://github.com/lzanini/mdbook-katex |
 | **mdbook-linkcheck** | 0.7.7 | A backend for mdbook which will check your links for you | https://michael-f-bryan.github.io/mdbook-linkcheck/ |
-| **mdbook-mermaid** | 0.12.6 | A preprocessor for mdbook to add mermaid support | https://github.com/badboy/mdbook-mermaid |
-| **mdbook-open-on-gh** | 2.4.1 | A preprocessor for mdbook to add a open-on-github link on every page | https://github.com/badboy/mdbook-open-on-gh |
+| **mdbook-mermaid** | 0.13.0 | A preprocessor for mdbook to add mermaid support | https://github.com/badboy/mdbook-mermaid |
+| **mdbook-open-on-gh** | 2.4.2 | A preprocessor for mdbook to add a open-on-github link on every page | https://github.com/badboy/mdbook-open-on-gh |
 | **mdbook-pikchr** | 0.1.7 | A mdbook preprocessor to render pikchr code blocks as images in your book | https://github.com/podsvirov/mdbook-pikchr |
 | **mdbook-plantuml** | 0.8.0 | mdBook preprocessor to render PlantUML code blocks as images in your book | https://github.com/sytsereitsma/mdbook-plantuml |
 | **mdbook-presentation-preprocessor** | 0.3.1 | A preprocessor for utilizing an MDBook as slides for a presentation | https://github.com/FreeMasen/mdbook-presentation-preprocessor |
 | **mdbook-svgbob** | 0.2.1 | SvgBob mdbook preprocessor which swaps code-blocks with neat SVG | https://github.com/boozook/mdbook-svgbob |
 | **mdbook-svgbob2** | 0.3.0 | Alternative mdbook preprocessor for svgbob | https://github.com/matthiasbeyer/mdbook-svgbob2 |
 | **mdbook-tera** | 0.5.1 | Tera preprocessor for mdBook | https://github.com/avitex/mdbook-tera |
-| **mdbook-toc** | 0.14.1 | A preprocessor for mdbook to add inline Table of Contents support | https://github.com/badboy/mdbook-toc |
+| **mdbook-toc** | 0.14.2 | A preprocessor for mdbook to add inline Table of Contents support | https://github.com/badboy/mdbook-toc |
 | **mdbtools** | 1.0.0-2 | A set of programs to help you extract data from Microsoft Access files in various settings | https://github.com/mdbtools/mdbtools |
 | **mdbtools-static** | 1.0.0-2 | Static libraries for mdbtools | https://github.com/mdbtools/mdbtools |
 | **mdns-scan** | 0.5-2 | A tool for scanning for mDNS/DNS-SD services published on the local network | https://github.com/alteholz/mdns-scan |
@@ -1595,7 +1597,7 @@
 | **mg** | 20230406 | microscopic GNU Emacs-style editor | https://github.com/hboetes/mg |
 | **micro** | 2.0.13 | Modern and intuitive terminal-based text editor | https://micro-editor.github.io/ |
 | **microsocks** | 1:1.0.3 | tiny, portable SOCKS5 server with very moderate resource usage | https://github.com/rofl0r/microsocks |
-| **miller** | 6.9.0 | Like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON | https://miller.readthedocs.io/ |
+| **miller** | 6.10.0 | Like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON | https://miller.readthedocs.io/ |
 | **mime-support** | 1:2.1.53 | Modern mime.types file from mailcap | https://pagure.io/mailcap |
 | **mimetic** | 0.9.8-1 | A C++ Email library (MIME) | https://www.codesink.org/mimetic_mime_library.html |
 | **mimetic-static** | 0.9.8-1 | Static libraries for mimetic | https://www.codesink.org/mimetic_mime_library.html |
@@ -2068,7 +2070,7 @@
 | **rubiks-cube** | 1.2 | A rubik's cube that runs in your terminal | https://github.com/been-jamming/rubiks_cube |
 | **ruby** | 3.2.2 | Dynamic programming language with a focus on simplicity and productivity | https://www.ruby-lang.org/ |
 | **ruby-ri** | 3.2.2 | Ruby documentation index | https://www.ruby-lang.org/ |
-| **ruff** | 0.1.7 | An extremely fast Python linter, written in Rust | https://github.com/charliermarsh/ruff |
+| **ruff** | 0.1.8 | An extremely fast Python linter, written in Rust | https://github.com/charliermarsh/ruff |
 | **runit** | 2.1.2-3 | Tools to provide service supervision and to manage services | http://smarden.org/runit |
 | **runit-static** | 2.1.2-3 | Static libraries for runit | http://smarden.org/runit |
 | **rush** | 0.5.4 | A cross-platform command-line tool for executing jobs in parallel | https://github.com/shenwei356/rush |
@@ -2410,7 +2412,7 @@
 | **vlc-static** | 3.0.20-2 | Static libraries for vlc | https://www.videolan.org/ |
 | **vobsub2srt** | 2017.12.18-2 | A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR | https://github.com/ruediger/VobSub2SRT |
 | **vorbis-tools** | 1.4.2-2 | Ogg Vorbis tools | https://github.com/xiph/vorbis-tools |
-| **vtm** | 0.9.30 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
+| **vtm** | 0.9.31 | Terminal multiplexer with TUI window manager and multi-party session sharing | https://vtm.netxs.online/ |
 | **vttest** | 20230924 | Program for testing the VT100 compatibility of terminal emulators | https://invisible-island.net/vttest/ |
 | **vtutils** | 0.5-4 | Utilities for testing and working with virtual terminals | https://github.com/fornwall/vtutils |
 | **vulkan-extension-layer** | 1.3.271 | Vulkan Extension Layer | https://github.com/KhronosGroup/Vulkan-ExtensionLayer |
