@@ -168,11 +168,9 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > - [A cautionary tale from the decline of SourceForge](https://news.ycombinator.com/item?id=31110206)
 > - [Downloading PuTTY Safely Is Nearly Impossible (2014)](https://news.ycombinator.com/item?id=9577861)
 - Reasons to **Trust this Repo**
-> - All the [Build Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) are completely open-source. You are free to audit & scrutinize everything.
+> - All the [Build Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows) are completely open-source. You are free to audit & scrutinize everything.
 > ```bash
-> !# Upstream Source
 > # Everything is automated via Github Actions & Build Scripts
-> Repo --> https://github.com/Azathothas/Toolpacks
 > WorkFlows --> https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows
 > Build Scripts --> https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts
 > ```
@@ -181,7 +179,7 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > - Repos that already publish pre-compiled static binaries, nothing is changed. You can compare checksums.
 > - However, for repos that don't publish releases or at least not statically linked binaries, there is ***no way for you to end up with the same binary even when you use the same build scripts***. In this case, `checksums` are meaningless as **each build will produce different checksums**. Your only option is to `trust me bro` or:
 > > - [Fork this repo](https://github.com/Azathothas/Toolpacks/fork) : https://github.com/Azathothas/Toolpacks/fork
-> > - Read & Verify everything : [Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [Workflows](https://github.com/Azathothas/Toolpacks/fork)
+> > - Read & Verify everything : [Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [Workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows)
 > > - Add `TOOLPACKS` as Actions Secret & Run the workflows.
 > > > ```yaml
 > > > env:
