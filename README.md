@@ -18,7 +18,7 @@
 ---
 <!-- DO NOT CHANGE -->
 - #### 📦 Status 🔖
-| 🧰 Architecture 🧰 | 📦 Total Packages 📦 | 🇨🇭 WorkFlows 🇨🇭 |
+| 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 |
 |---------------------|-----------------------|-----------------|
 |[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android)|35| [![📱 Android Package 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml)|
 |[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)|484| [![🛍️ Build ⚙️ Weekly (toolpack_x86_64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml)|
@@ -27,6 +27,7 @@
 > - Raw **`metadata`** containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
 ---
 #### 🔽 Download 🔽
+> ℹ️ Recommended ℹ️ : Use [**`Hysp`**](https://github.com/pwnwriter/hysp) if you want to skip everything below, since hysp already [uses this repo as it's source.](https://github.com/metis-os/hysp-pkgs)
 > 1. Install [**`eget`**](https://github.com/zyedidia/eget)
 > > ```bash
 > > #--------------------------------------------------------------------------------------------#
