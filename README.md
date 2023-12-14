@@ -14,15 +14,15 @@
 > > - [**`📦Linux aarch64📦`**](https://github.com/Azathothas/Toolpacks/tree/main#linux-aarch64_arm64)
 > > - [**`📦Android arm64-v8a📦`**](https://github.com/Azathothas/Toolpacks/tree/main#android-arm64-v8a)
 > - [**📦 Status 🔖**](https://github.com/Azathothas/Toolpacks/tree/main#-status-)
-> - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks/tree/main#-security-)
+> - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks#-security-%EF%B8%8F)
 ---
 <!-- DO NOT CHANGE -->
 - #### 📦 Status 🔖
 | 🧰 Architecture 🧰 | 📦 Total Packages 📦 | 🇨🇭 WorkFlows 🇨🇭 |
 |---------------------|-----------------------|-----------------|
-|[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android)|PLACEHOLDER_aarch64_arm64_v8a_Android| [![📱 Android Package 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml)|
-|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)|PLACEHOLDER_X86_64| [![🛍️ Build ⚙️ Weekly (toolpack_x86_64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml)|
-|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64)|PLACEHOLDER_aarch64_arm64| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
+|[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android)|35| [![📱 Android Package 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml)|
+|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)|484| [![🛍️ Build ⚙️ Weekly (toolpack_x86_64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml)|
+|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64)|429| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
 
 > - Raw **`metadata`** containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
 ---
@@ -166,7 +166,7 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 - Check these `HackerNews Discussions`
 > - [A cautionary tale from the decline of SourceForge](https://news.ycombinator.com/item?id=31110206)
 > - [Downloading PuTTY Safely Is Nearly Impossible (2014)](https://news.ycombinator.com/item?id=9577861)
-- Reasons to Trust this Repo
+- Reasons to **Trust this Repo**
 > - All the [Build Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) are completely open-source. You are free to audit & scrutinize everything.
 > ```bash
 > !# Upstream Source
@@ -175,8 +175,15 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > WorkFlows --> https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows
 > Build Scripts --> https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts
 > ```
-- Reasons NOT to trust this Repo
+> - Both `SHA256SUM` & `BLAKE3SUM` are automatically generated right after build script finishes.
+- Reasons **NOT to trust this Repo**
 > - Repos that already publish pre-compiled static binaries, nothing is changed. You can compare checksums.
 > - However, for repos that don't publish releases or at least not statically linked binaries, there is ***no way for you to end up with the same binary even when you use the same build scripts***. In this case, `checksums` are meaningless as **each build will produce different checksums**. Your only option is to `trust me bro` or:
-> > - Fork this repo, read & verify eveything, add SECRETS to Actions & Run the workflows.
+> > - [Fork this repo](https://github.com/Azathothas/Toolpacks/fork) : https://github.com/Azathothas/Toolpacks/fork
+> > - Read & Verify everything : [Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [Workflows](https://github.com/Azathothas/Toolpacks/fork)
+> > - Add `TOOLPACKS` as Actions Secret & Run the workflows.
+> > > ```yaml
+> > > env:
+> > >  GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
+> > > ```
 ---
