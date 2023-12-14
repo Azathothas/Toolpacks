@@ -871,6 +871,10 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/grpcurl" ; mv "./grpcurl" "$HOME/bin/grpcurl" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #gsocket : Connect like there is no firewall. Securely.
+  eget "hackerschoice/gsocket" --asset "gsocket" --asset "linux" --asset "x86_64" --asset "^rpm" --asset "^deb" --to "$HOME/bin/gsocket"
+  eget "hackerschoice/gsocket" --asset "gs-netcat" --asset "linux" --asset "x86_64" --asset "^rpm" --asset "^deb" --to "$HOME/bin/gs-netcat"
+  #---------------#
   #gup : Update binaries installed by "go install" with goroutines.
   eget "nao1215/gup" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/gup"
   #---------------#
