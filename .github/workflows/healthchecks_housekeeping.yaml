@@ -1,0 +1,110 @@
+name: 🐧🧹 HealthChecks 🖳🗑️
+#MAX_RUNTIME: 02 Minutes */10 * * * * 
+
+on:
+  #push:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "*/10 * * * *"  # Every 10 Mins
+  # https://crontab.guru
+  # https://savvytime.com/converter/utc-to-nepal-kathmandu
+
+env:
+  USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          sudo apt update -y
+          sudo apt install dos2unix -y
+          pip install ansi2txt --upgrade
+
+      - name: Install Addons
+        run: |
+          set +e
+          #action-lint
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #delta
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #eget
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #validtoml
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+
+      - name: Dos2Unix Everything
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main"
+          find . -type f ! -path "./.git/*" -exec dos2unix {} \; 2>/dev/null
+        continue-on-error: true
+
+      - name: ActionLint
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main"
+          find ".github/workflows" -type f -name "*ml" -exec actionlint {} \;
+        continue-on-error: true
+
+      - name: Generate Markdown ( Main README.md)
+        run: |
+           #Presets
+           set -x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
+           #--------------#
+           cd "$GITHUB_WORKSPACE/main"
+           #Generate $GITHUB_WORKSPACE/main/README.md
+           cat "$GITHUB_WORKSPACE/main/INFO.md" > "$GITHUB_WORKSPACE/main/README.md"
+           #aarch64_arm64_v8a_Android
+           unset TOTAL_PACKAGES
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/contents/aarch64_arm64_v8a_Android/" | jq -r '.[].name' | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           sed "s/PLACEHOLDER_aarch64_arm64_v8a_Android/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #aarch64_arm64
+           unset TOTAL_PACKAGES
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/contents/aarch64_arm64/" | jq -r '.[].name' | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           sed "s/PLACEHOLDER_aarch64_arm64/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #x86_64
+           unset TOTAL_PACKAGES
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/contents/x86_64/" | jq -r '.[].name' | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           sed "s/PLACEHOLDER_X86_64/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+        continue-on-error: true
+
+      - name: Get DateTime
+        run: |
+          # Date Time
+          NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')
+          echo "NEPALI_TIME=$NEPALI_TIME" >> $GITHUB_ENV
+        continue-on-error: true
+
+     # - name: Git Pull
+     #   run: |
+     #      cd "$GITHUB_WORKSPACE/main" && git pull origin main
+     #   continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main        
+          commit_user_name: Azathothas # defaults to "github-actions[bot]"
+          commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "✅ 🐧🧹 🖳🗑️"
+          #push_options: '--force'
