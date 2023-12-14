@@ -9,11 +9,12 @@
 </p>
 
 #### Contents
-> - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#Download)
-> > 📦 **`Toolpacks`** 📦
-> >
-> - [**📦 Status 🔖**](https://github.com/Azathothas/Toolpacks/tree/main#Download)
-> - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks/tree/main#Download)
+> - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
+> > - [**`📦Linux x86_64📦`**](https://github.com/Azathothas/Toolpacks/tree/main#linux-amd-x86_64) 
+> > - [**`📦Linux aarch64📦`**](https://github.com/Azathothas/Toolpacks/tree/main#linux-aarch64_arm64)
+> > - [**`📦Android arm64-v8a📦`**](https://github.com/Azathothas/Toolpacks/tree/main#android-arm64-v8a)
+> - [**📦 Status 🔖**](https://github.com/Azathothas/Toolpacks/tree/main#-status-)
+> - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks/tree/main#-security-)
 ---
 <!-- DO NOT CHANGE -->
 - #### 📦 Status 🔖
@@ -24,7 +25,6 @@
 |[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64)|PLACEHOLDER_aarch64_arm64| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
 
 > - Raw **`metadata`** containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
-> - 
 ---
 #### 🔽 Download 🔽
 > 1. Install [**`eget`**](https://github.com/zyedidia/eget)
