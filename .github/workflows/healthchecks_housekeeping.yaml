@@ -4,16 +4,14 @@ name: 🐧🧹 HealthChecks 🖳🗑️
 on:
   #push:
   workflow_dispatch:
-  #schedule:
-  #  - cron: "*/10 * * * *"  # Every 10 Mins
-  # https://crontab.guru
-  # https://savvytime.com/converter/utc-to-nepal-kathmandu
+  schedule:
+    - cron: "15 20 * * *"  # 08:15 PM UTC --> 02:00 AM Midnight NPT
 
 env:
   USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
   
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
     
     permissions:
@@ -63,8 +61,12 @@ jobs:
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
           #delta
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
           #eget
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
           #validtoml
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
           #Yq
@@ -89,6 +91,18 @@ jobs:
           #--------------#
           cd "$GITHUB_WORKSPACE/main"
           find ".github/workflows" -type f -name "*ml" -exec actionlint {} \;
+        continue-on-error: true
+
+      - name: Generate Repo Metadata (git-sizer)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main"
+          #Dust sizes
+          echo '```mathematica' > "$GITHUB_WORKSPACE/main/SIZE.md"
+          dust -b -c -i -r -n 99999999 "$GITHUB_WORKSPACE/main" | tee -a "$GITHUB_WORKSPACE/main/SIZE.md"
+          echo '```' >> "$GITHUB_WORKSPACE/main/SIZE.md"
         continue-on-error: true
 
       - name: Generate Markdown ( Main README.md)
