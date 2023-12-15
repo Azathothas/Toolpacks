@@ -1,6 +1,6 @@
 <!-- This can be changed -->
 <p align="center">
-    <a href="https://github.com/metis-os/hysp-pkgs">
+    <a href="https://github.com/Azathothas/Toolpacks">
         <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/d226c553-1835-464c-8908-fe293d3aac3c" width="100"></a>
     <br>
     <b><strong> <a href="https://github.com/Azathothas/Toolpacks">Statically Compiled Binaries</a></code></strong></b>
@@ -22,7 +22,7 @@
 |---------------------|-----------------------|-----------------|
 |[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_v8a_Android)|35| [![📱 Android Package 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml)|
 |[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)|484| [![🛍️ Build ⚙️ Weekly (toolpack_x86_64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml)|
-|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64)|429| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
+|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64)|499| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
 
 > - Raw **`metadata`** containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
 ---
