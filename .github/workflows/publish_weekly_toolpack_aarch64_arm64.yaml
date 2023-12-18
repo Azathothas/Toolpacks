@@ -111,7 +111,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload_toolpack_aarch64_arm64_Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: toolpack_aarch64_arm64.tar
             path: |
@@ -184,7 +184,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload_toolpack_aarch64_arm64.7z
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: toolpack_aarch64_arm64.7z
             path: |
@@ -255,7 +255,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload_toolpack_aarch64_arm64.tar.bz2
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: toolpack_aarch64_arm64.tar.bz2
             path: |
@@ -328,7 +328,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload_toolpack_aarch64_arm64.gz
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: toolpack_aarch64_arm64.gz
             path: |
@@ -401,7 +401,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload_toolpack_aarch64_arm64.zip
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: toolpack_aarch64_arm64.zip
             path: |
