@@ -1061,13 +1061,13 @@
  4.0K   │ ├── subxtract
  4.0K   │ ├── sshd_config
  4.0K   │ └── scopeview
- 379M   ├─┬ aarch64_arm64_v8a_Android
+ 380M   ├─┬ aarch64_arm64_v8a_Android
   39M   │ ├── httpx
   29M   │ ├── tailscaled_dynamic_native
   28M   │ ├── tailscaled
   25M   │ ├── gowitness
   25M   │ ├── qbittorrent-nox
-  24M   │ ├── dnsx
+  25M   │ ├── dnsx
   24M   │ ├── tailscale_merged_dynamic_native
   22M   │ ├── ngrok
   22M   │ ├── mapcidr
