@@ -100,9 +100,10 @@ jobs:
           #--------------#
           cd "$GITHUB_WORKSPACE/main"
           #Dust sizes
-          echo '```mathematica' > "$GITHUB_WORKSPACE/main/SIZE.md"
-          dust -b -c -i -r -n 99999999 "$GITHUB_WORKSPACE/main" | tee -a "$GITHUB_WORKSPACE/main/SIZE.md"
-          echo '```' >> "$GITHUB_WORKSPACE/main/SIZE.md"
+          echo '```mathematica' > "$GITHUB_WORKSPACE/main/.github/SIZE.md"
+          dust -b -c -i -r -n 99999999 "$GITHUB_WORKSPACE/main" | tee -a "$GITHUB_WORKSPACE/main/.github/SIZE.md"
+          dust -b -c -i -r -n 99999999 "$GITHUB_WORKSPACE/main" | tee "$GITHUB_WORKSPACE/main/.github/SIZE.txt"
+          echo '```' >> "$GITHUB_WORKSPACE/main/.github/SIZE.md"
         continue-on-error: true
 
       - name: Generate Markdown ( Main README.md)
