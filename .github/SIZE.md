@@ -596,7 +596,7 @@
   31M   │ ├── surf
   31M   │ ├── shellz
   29M   │ ├── aix
-  28M   │ ├── usql.tar.gz
+  29M   │ ├── usql.tar.gz
   28M   │ ├── tailscaled
   27M   │ ├── aws-nuke.tar.gz
   26M   │ ├── loki-canary
@@ -633,13 +633,13 @@
   20M   │ ├── runme
   20M   │ ├── devbox
   20M   │ ├── tuiarchiver
+  20M   │ ├── mapcidr
   19M   │ ├── asnmap
-  19M   │ ├── mapcidr
   19M   │ ├── csvtk
   19M   │ ├── circumflex
   18M   │ ├── cdncheck
-  18M   │ ├── arduino-cli
   18M   │ ├── alterx
+  18M   │ ├── arduino-cli
   17M   │ ├── s3scanner
   17M   │ ├── jira
   17M   │ ├── rekor-cli
@@ -653,6 +653,7 @@
   16M   │ ├── ct_monitor
   16M   │ ├── atuin
   16M   │ ├── lux
+  16M   │ ├── ruff
   16M   │ ├── etcdctl
   16M   │ ├── twingate-connector
   15M   │ ├── diffoci
@@ -667,14 +668,13 @@
   13M   │ ├── mabel
   13M   │ ├── filebrowser
   13M   │ ├── findomain
+  13M   │ ├── hednsextractor
   13M   │ ├── listmonk
   13M   │ ├── etcdutl
   13M   │ ├── wiretap
   13M   │ ├── smap
   13M   │ ├── rqbit
   13M   │ ├── zgrab2
-  12M   │ ├── ruff
-  12M   │ ├── hednsextractor
   12M   │ ├── boltconn
   12M   │ ├── gost
   11M   │ ├── cent
@@ -720,11 +720,11 @@
  8.6M   │ ├── cfssl-bundle
  8.6M   │ ├── sttr
  8.5M   │ ├── vultr-cli
+ 8.5M   │ ├── csprecon
  8.4M   │ ├── redguard
  8.4M   │ ├── mubeng
  8.4M   │ ├── gitui
  8.4M   │ ├── bluetuith
- 8.3M   │ ├── csprecon
  8.3M   │ ├── pping
  8.2M   │ ├── rospo
  8.2M   │ ├── cut-cdn
@@ -790,12 +790,14 @@
  5.7M   │ ├── wireproxy
  5.7M   │ ├── eget
  5.6M   │ ├── go-simplehttpserver
+ 5.6M   │ ├── presenterm
  5.6M   │ ├── gfx
  5.5M   │ ├── wadl-dumper
  5.4M   │ ├── rescope
  5.4M   │ ├── sbctl
  5.3M   │ ├── cog
  5.3M   │ ├── u-root
+ 5.3M   │ ├── wstunnel
  5.2M   │ ├── rustypaste
  5.2M   │ ├── wormhole-rs
  5.1M   │ ├── web-cache-vulnerability-scanner
@@ -803,9 +805,7 @@
  5.1M   │ ├── cowitness
  5.1M   │ ├── ripgrep
  5.1M   │ ├── rg
- 5.1M   │ ├── presenterm
  5.0M   │ ├── nginx
- 5.0M   │ ├── sshd
  4.9M   │ ├── batcat
  4.9M   │ ├── bat
  4.9M   │ ├── bombadillo
@@ -818,6 +818,7 @@
  4.8M   │ ├── spoof-dpi
  4.8M   │ ├── gitlab-subdomains
  4.8M   │ ├── subjs
+ 4.8M   │ ├── sshd
  4.8M   │ ├── wth
  4.8M   │ ├── gron
  4.7M   │ ├── websocat
@@ -842,29 +843,27 @@
  4.5M   │ ├── assetfinder
  4.4M   │ ├── waybackurls
  4.4M   │ ├── xurls
- 4.4M   │ ├── ssh-keysign
- 4.4M   │ ├── ssh-keyscan
  4.3M   │ ├── enumerepo
  4.3M   │ ├── fget
  4.3M   │ ├── twingate-client
- 4.3M   │ ├── wstunnel
  4.3M   │ ├── crlfuzz
- 4.3M   │ ├── ssh-keygen
  4.3M   │ ├── httprobe
  4.3M   │ ├── hakoriginfinder
  4.3M   │ ├── hakip2host
  4.2M   │ ├── rate-limit-checker
+ 4.2M   │ ├── ssh-keysign
  4.2M   │ ├── mkbundle
+ 4.2M   │ ├── ssh-keyscan
  4.2M   │ ├── crt
  4.2M   │ ├── delta
- 4.1M   │ ├── ssh-add
+ 4.2M   │ ├── ssh-keygen
  4.1M   │ ├── certstream
  4.1M   │ ├── ouch
- 4.1M   │ ├── ssh-agent
  4.0M   │ ├── datadash
+ 4.0M   │ ├── ssh-add
+ 4.0M   │ ├── ssh-agent
  4.0M   │ ├── nmap-formatter
  4.0M   │ ├── jwt-hack
- 3.9M   │ ├── realm
  3.9M   │ ├── kubemetrics
  3.9M   │ ├── eefjsf
  3.9M   │ ├── knoxssme
@@ -873,6 +872,7 @@
  3.8M   │ ├── systemctl-tui
  3.8M   │ ├── njs
  3.8M   │ ├── overmind
+ 3.8M   │ ├── realm
  3.8M   │ ├── volta
  3.7M   │ ├── robotstxt
  3.7M   │ ├── nrp
@@ -885,9 +885,9 @@
  3.7M   │ ├── bottom
  3.7M   │ ├── ssh
  3.7M   │ ├── dns-doctor
- 3.7M   │ ├── cherrybomb
  3.6M   │ ├── mcfly
  3.6M   │ ├── validtoml
+ 3.6M   │ ├── cherrybomb
  3.5M   │ ├── sshkeys
  3.5M   │ ├── tokei
  3.5M   │ ├── procs
@@ -916,9 +916,9 @@
  2.8M   │ ├── nping
  2.8M   │ ├── iperf3
  2.7M   │ ├── jaq
+ 2.7M   │ ├── just
  2.7M   │ ├── gs-netcat
  2.7M   │ ├── ncat
- 2.7M   │ ├── just
  2.7M   │ ├── shfmt
  2.7M   │ ├── ppfuzz
  2.6M   │ ├── tailspin
@@ -929,17 +929,17 @@
  2.5M   │ ├── git-sizer
  2.5M   │ ├── fd
  2.4M   │ ├── dysk
- 2.4M   │ ├── fwanalyzer
  2.4M   │ ├── fblog
+ 2.4M   │ ├── fwanalyzer
  2.4M   │ ├── dsieve
+ 2.3M   │ ├── mqttui
  2.3M   │ ├── tz
  2.3M   │ ├── gping
- 2.3M   │ ├── mqttui
  2.3M   │ ├── pueued
  2.2M   │ ├── btop
  2.2M   │ ├── pueue
- 2.2M   │ ├── tere
  2.2M   │ ├── onetun
+ 2.2M   │ ├── tere
  2.2M   │ ├── encode
  2.1M   │ ├── rpaste
  2.1M   │ ├── halp
@@ -1000,9 +1000,9 @@
  1.3M   │ ├── eaparam
  1.3M   │ ├── eah
  1.3M   │ ├── eae
+ 1.3M   │ ├── dropbear
  1.3M   │ ├── cleanpath
  1.3M   │ ├── zenith
- 1.3M   │ ├── dropbear
  1.2M   │ ├── tok
  1.2M   │ ├── eap
  1.2M   │ ├── anew
@@ -1023,7 +1023,7 @@
  916K   │ ├── fuse-overlayfs
  908K   │ ├── dropbearkey
  908K   │ ├── dropbearconvert
- 856K   │ ├── jql
+ 860K   │ ├── jql
  824K   │ ├── toybox
  772K   │ ├── svg-hush
  752K   │ ├── b3sum
@@ -1039,10 +1039,10 @@
  556K   │ ├── ncdu
  532K   │ ├── neofetch
  476K   │ ├── elfcat
- 404K   │ ├── sftp
  392K   │ ├── shellharden
  388K   │ ├── scp
- 308K   │ ├── sftp-server
+ 344K   │ ├── sftp
+ 260K   │ ├── sftp-server
  252K   │ ├── screenfetch
  204K   │ ├── README.md
  184K   │ ├── asn
