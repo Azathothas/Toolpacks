@@ -53,6 +53,7 @@
   25M   │ ├── interactsh-client
   25M   │ ├── tlsx
   24M   │ ├── subfinder
+  24M   │ ├── devbox
   24M   │ ├── algernon
   24M   │ ├── relic
   23M   │ ├── vhs
@@ -68,21 +69,21 @@
   23M   │ ├── jaeles
   23M   │ ├── dnsx
   22M   │ ├── grpcurl
-  22M   │ ├── etcd
   22M   │ ├── netbird
+  22M   │ ├── etcd
   22M   │ ├── syncthing
   22M   │ ├── reader
-  22M   │ ├── devbox
   21M   │ ├── tailscale_merged
   21M   │ ├── runme
   21M   │ ├── tuiarchiver
-  20M   │ ├── asnmap
   20M   │ ├── mapcidr
+  20M   │ ├── asnmap
   20M   │ ├── csvtk
   20M   │ ├── circumflex
   19M   │ ├── cdncheck
   19M   │ ├── arduino-cli
   19M   │ ├── alterx
+  19M   │ ├── ruff
   19M   │ ├── s3scanner
   18M   │ ├── jira
   18M   │ ├── jj
@@ -103,10 +104,9 @@
   16M   │ ├── boltconn
   16M   │ ├── findomain
   15M   │ ├── diffoci
-  15M   │ ├── ruff
   15M   │ ├── pgweb
-  15M   │ ├── lazygit
   15M   │ ├── act
+  15M   │ ├── lazygit
   15M   │ ├── cloudcash
   15M   │ ├── rqbit
   15M   │ ├── hrekt
@@ -119,13 +119,13 @@
   14M   │ ├── filebrowser
   14M   │ ├── listmonk
   14M   │ ├── bleve
+  14M   │ ├── hednsextractor
   14M   │ ├── wiretap
   14M   │ ├── etcdutl
   14M   │ ├── netmaker
   14M   │ ├── lnav
   13M   │ ├── zgrab2
   13M   │ ├── smap
-  13M   │ ├── hednsextractor
   13M   │ ├── qsv
   13M   │ ├── jc_staticx
   13M   │ ├── niltalk
@@ -148,9 +148,9 @@
   10M   │ ├── fq
   10M   │ ├── git-lfs
   10M   │ ├── taplo
+  10M   │ ├── ein
   10M   │ ├── rebuildctl
   10M   │ ├── sshportal
-  10M   │ ├── ein
   10M   │ ├── hakrawler
   10M   │ ├── binocle
   10M   │ ├── vegeta
@@ -166,7 +166,7 @@
  9.8M   │ ├── gitql
  9.8M   │ ├── certstream-server-go
  9.7M   │ ├── orbiton
- 9.5M   │ ├── resto
+ 9.6M   │ ├── resto
  9.5M   │ ├── gdu
  9.5M   │ ├── cfssl-newkey
  9.4M   │ ├── goop
@@ -187,11 +187,11 @@
  8.9M   │ ├── ksubdomain
  8.9M   │ ├── sttr
  8.9M   │ ├── redguard
+ 8.9M   │ ├── csprecon
  8.8M   │ ├── broot
  8.8M   │ ├── mubeng
  8.7M   │ ├── bluetuith
  8.7M   │ ├── pping
- 8.7M   │ ├── csprecon
  8.7M   │ ├── naabu_staticx
  8.6M   │ ├── rospo
  8.6M   │ ├── gocurl
@@ -253,12 +253,14 @@
  6.8M   │ ├── git-clone
  6.8M   │ ├── git-checkout
  6.8M   │ ├── git-pull
+ 6.7M   │ ├── wstunnel
  6.6M   │ ├── websocat
  6.6M   │ ├── gitleaks
  6.6M   │ ├── speedtest-go
  6.5M   │ ├── exiflooter
  6.5M   │ ├── direnv
  6.5M   │ ├── spk
+ 6.4M   │ ├── presenterm
  6.4M   │ ├── sessionprobe
  6.2M   │ ├── fuzzuli
  6.2M   │ ├── yalis
@@ -268,10 +270,9 @@
  6.0M   │ ├── wireproxy
  5.9M   │ ├── sshx
  5.9M   │ ├── go-simplehttpserver
- 5.9M   │ ├── presenterm
  5.9M   │ ├── rga
- 5.8M   │ ├── systemctl-tui
  5.8M   │ ├── nginx
+ 5.8M   │ ├── systemctl-tui
  5.8M   │ ├── ripgrep
  5.8M   │ ├── rg
  5.8M   │ ├── delta
@@ -283,17 +284,16 @@
  5.6M   │ ├── sbctl
  5.6M   │ ├── xplr
  5.6M   │ ├── u-root
- 5.5M   │ ├── boxxy
  5.5M   │ ├── batcat
  5.5M   │ ├── bat
  5.5M   │ ├── cherrybomb
- 5.4M   │ ├── wstunnel
+ 5.5M   │ ├── boxxy
  5.4M   │ ├── web-cache-vulnerability-scanner
  5.4M   │ ├── waybackrobots
  5.4M   │ ├── cowitness
  5.3M   │ ├── horust
- 5.3M   │ ├── procs
  5.3M   │ ├── vtm
+ 5.3M   │ ├── procs
  5.2M   │ ├── bombadillo
  5.2M   │ ├── certspotter
  5.1M   │ ├── getJS
@@ -313,7 +313,6 @@
  4.9M   │ ├── roboxtractor
  4.9M   │ ├── macchina
  4.9M   │ ├── unfurl
- 4.9M   │ ├── sshd
  4.8M   │ ├── gup
  4.8M   │ ├── dnstake
  4.8M   │ ├── gorilla
@@ -327,10 +326,10 @@
  4.7M   │ ├── analyticsrelationships
  4.7M   │ ├── assetfinder
  4.7M   │ ├── waybackurls
- 4.7M   │ ├── realm
+ 4.7M   │ ├── sshd
  4.7M   │ ├── fclones
- 4.6M   │ ├── volta
  4.6M   │ ├── njs
+ 4.6M   │ ├── volta
  4.6M   │ ├── enumerepo
  4.6M   │ ├── fget
  4.6M   │ ├── bottom
@@ -340,6 +339,7 @@
  4.5M   │ ├── httprobe
  4.5M   │ ├── hakoriginfinder
  4.5M   │ ├── ssh
+ 4.5M   │ ├── realm
  4.5M   │ ├── rate-limit-checker
  4.5M   │ ├── mkbundle
  4.4M   │ ├── crt
@@ -348,20 +348,19 @@
  4.3M   │ ├── tailspin
  4.3M   │ ├── twingate-connectorctl
  4.3M   │ ├── ppfuzz
- 4.3M   │ ├── mcfly
- 4.3M   │ ├── ssh-keysign
  4.3M   │ ├── fblog
- 4.2M   │ ├── ssh-keyscan
+ 4.3M   │ ├── mcfly
  4.2M   │ ├── kubemetrics
  4.2M   │ ├── eefjsf
  4.2M   │ ├── knoxssme
  4.2M   │ ├── bbtargets
- 4.2M   │ ├── ssh-keygen
+ 4.2M   │ ├── ssh-keysign
  4.2M   │ ├── jwt-hack
  4.2M   │ ├── tahm
+ 4.1M   │ ├── ssh-keyscan
  4.1M   │ ├── datadash
  4.1M   │ ├── nmap-formatter
- 4.1M   │ ├── fd
+ 4.1M   │ ├── ssh-keygen
  4.0M   │ ├── tokei
  4.0M   │ ├── robotstxt
  4.0M   │ ├── nrp
@@ -369,15 +368,16 @@
  4.0M   │ ├── doomxss
  4.0M   │ ├── checkbypass
  4.0M   │ ├── chainredir
- 4.0M   │ ├── ssh-add
- 4.0M   │ ├── ssh-agent
+ 3.9M   │ ├── ssh-add
+ 3.9M   │ ├── fd
+ 3.9M   │ ├── ssh-agent
  3.9M   │ ├── overmind
  3.9M   │ ├── gpg-tui
  3.9M   │ ├── gojq
+ 3.9M   │ ├── onetun
  3.9M   │ ├── twingate-notifier
  3.8M   │ ├── kanha
  3.8M   │ ├── hysp
- 3.8M   │ ├── onetun
  3.8M   │ ├── sshkeys
  3.8M   │ ├── wasminspect
  3.7M   │ ├── dns-doctor
@@ -391,8 +391,8 @@
  3.5M   │ ├── 7z
  3.5M   │ ├── twingate-client
  3.5M   │ ├── ripgen
- 3.4M   │ ├── lf
  3.4M   │ ├── just
+ 3.4M   │ ├── lf
  3.3M   │ ├── fzf
  3.3M   │ ├── navi
  3.3M   │ ├── passdetective
@@ -410,8 +410,8 @@
  3.0M   │ ├── tmate
  3.0M   │ ├── bed
  2.9M   │ ├── logtimer
- 2.9M   │ ├── bingrep
  2.9M   │ ├── xcp
+ 2.9M   │ ├── bingrep
  2.9M   │ ├── gping
  2.9M   │ ├── t-rec
  2.8M   │ ├── mqttui
@@ -427,7 +427,6 @@
  2.6M   │ ├── walk
  2.6M   │ ├── tere
  2.6M   │ ├── halp
- 2.6M   │ ├── kondo
  2.6M   │ ├── sk
  2.5M   │ ├── dsieve
  2.5M   │ ├── git-sizer
@@ -436,6 +435,7 @@
  2.5M   │ ├── systeroid
  2.4M   │ ├── btop
  2.4M   │ ├── ropr
+ 2.4M   │ ├── kondo
  2.4M   │ ├── tz
  2.3M   │ ├── unf
  2.3M   │ ├── boringtun-cli
@@ -467,15 +467,15 @@
  1.8M   │ ├── mergerfs
  1.8M   │ ├── ds
  1.7M   │ ├── byp4xx
- 1.7M   │ ├── gotator
  1.7M   │ ├── dropbearmulti
+ 1.7M   │ ├── gotator
  1.7M   │ ├── bbscope
  1.7M   │ ├── jaq
  1.7M   │ ├── uip
- 1.7M   │ ├── dropbear
  1.7M   │ ├── xargs-rs
  1.7M   │ ├── pueued
  1.7M   │ ├── exa
+ 1.7M   │ ├── dropbear
  1.6M   │ ├── pueue
  1.6M   │ ├── inscope
  1.6M   │ ├── mmv
@@ -539,10 +539,10 @@
  532K   │ ├── neofetch
  456K   │ ├── shellharden
  396K   │ ├── nnn
- 376K   │ ├── sftp
  348K   │ ├── scp
- 280K   │ ├── sftp-server
+ 328K   │ ├── sftp
  252K   │ ├── screenfetch
+ 240K   │ ├── sftp-server
  236K   │ ├── minisign
  208K   │ ├── README.md
  192K   │ ├── linuxwave
@@ -638,8 +638,8 @@
   19M   │ ├── csvtk
   19M   │ ├── circumflex
   18M   │ ├── cdncheck
-  18M   │ ├── alterx
   18M   │ ├── arduino-cli
+  18M   │ ├── alterx
   17M   │ ├── s3scanner
   17M   │ ├── jira
   17M   │ ├── rekor-cli
