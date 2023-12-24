@@ -156,6 +156,12 @@ fi
   #atuin: Sync Shell History
   eget "atuinsh/atuin" --asset "unknown-linux-musl" --to "$HOME/bin/atuin"
   #---------------#
+  #awk: updated awk
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/xplshn/awk" && cd "./awk"
+  sudo apt-get install byacc make clang -y
+  make -j"$(($(nproc)+1))"
+  cp "./a.out" "$HOME/bin/awk"
+  #---------------#
   #aws-nuke : Nuke a whole AWS account and delete all its resources.  
   eget "rebuy-de/aws-nuke" --asset "aws-nuke" --asset "linux" --asset "amd64" --asset "^sha" --to "$HOME/bin/aws-nuke"
   #---------------#
@@ -486,6 +492,13 @@ fi
   #---------------#
   #direnv: unclutter your .profile 
   eget "direnv/direnv" --asset "linux" --asset "amd64" --to "$HOME/bin/direnv"
+  #---------------#
+  #dizi: Server-client music player written in Rust    
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/kamiyaa/dizi" && cd "./dizi"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cargo build --target "$TARGET" --release
+  mv "./target/$TARGET/release/dizi" "$HOME/bin/dizi" && mv "./target/$TARGET/release/dizi-server" "$HOME/bin/dizi-server" ; popd
   #---------------#
   #dns-doctor : Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/jvns/dns-doctor" && cd "./dns-doctor"
@@ -1355,6 +1368,9 @@ fi
   #pdfcpu : A PDF processor written in Go. 
   eget "pdfcpu/pdfcpu" --asset "Linux" --asset "x86_64" --asset "tar" --to "$HOME/bin/pdfcpu"
   #---------------#
+  #pfetch-rs : A rewrite of the pfetch system information tool in Rust  
+  eget "Gobidev/pfetch-rs" --asset "linux" --asset "musl" --asset "x86_64" --asset "gz" --to "$HOME/bin/pfetch-rs"
+  #---------------#
   #pgweb : Cross-platform client for PostgreSQL databases
   eget "sosedoff/pgweb" --asset "linux" --asset "amd64" --to "$HOME/bin/pgweb"
   #---------------#
@@ -1866,6 +1882,10 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/termshark"
   mv "./termshark" "$HOME/bin/termshark" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #tgpt: Access ChatGPT from the comfort of your terminal. No API or config files are needed.
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/aandrew-me/tgpt" && cd "./tgpt"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./tgpt" "$HOME/bin/tgpt" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #tldr : Simplified and community-driven man pages 
   eget "https://raw.githubusercontent.com/raylee/tldr-sh-client/main/tldr" --to "$HOME/bin/tldr" && chmod +xwr "$HOME/bin/tldr"
   #---------------#
@@ -2093,6 +2113,9 @@ fi
   export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/xcp" "$HOME/bin/xcp" ; popd
+  #---------------#
+  #xh : Friendly and fast tool for sending HTTP requests 
+  eget "ducaale/xh" --asset "linux" --asset "musl" --asset "x86_64" --asset "gz" --to "$HOME/bin/xh"
   #---------------#
   #xplr : A hackable, minimal, fast TUI file explorer 
   eget "sayanarijit/xplr" --asset "linux" --asset "musl" --asset "^arm" --asset "^aarch" --asset "^asc" --asset "^sha" --to "$HOME/bin/xplr"
