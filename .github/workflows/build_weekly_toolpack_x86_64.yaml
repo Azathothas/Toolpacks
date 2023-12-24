@@ -119,6 +119,57 @@ jobs:
           #version
           meson --version ; ninja --version
         continue-on-error: true
+
+      # - name: Build mold
+      #   run: |
+      #     # Presets
+      #     set -x ; set +e
+      #     #--------------#
+      #     #Get Source & Create Build Dirs
+      #     pushd "$(mktemp -d)" && git clone --filter="blob:none" "https://github.com/rui314/mold.git" && mkdir -p "./mold/build"
+      #     #Checkout latest version
+      #     git checkout "$(git tag --sort=-creatordate | head -n 1)"
+      #     #Install Build Deps
+      #     cd "./mold/build" && sudo bash "../install-build-deps.sh"
+      #     #Build & Compile
+      #     cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=c++ ..
+      #     cmake --build . -j"$(($(nproc)+1))"
+      #     #Install
+      #     sudo cmake --build . --target install ; popd
+      #     # -- Install configuration: "Release"
+      #     # -- Installing: /usr/local/lib/mold/mold-wrapper.so
+      #     # -- Installing: /usr/local/bin/mold
+      #     # -- Installing: /usr/local/share/man/man1/mold.1
+      #     # -- Installing: /usr/local/share/doc/mold/LICENSE
+      #     # -- Installing: /usr/local/share/doc/mold/LICENSE.third-party
+      #     # -- Installing symlink: /usr/local/libexec/mold/ld -> ../../bin/mold
+      #     # -- Installing symlink: /usr/local/bin/ld.mold -> mold
+      #     # -- Installing symlink: /usr/local/share/man/man1/ld.mold.1 -> mold.1
+      #     #Test
+      #     mold --version
+      #   continue-on-error: true
+
+      - name: Install Mold
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #Download latest release
+          pushd "$(mktemp -d)" && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
+          #Extract Archive
+          find . -type f -name "*.tar.gz*" -exec tar -xvf {} --strip-components=1 \;
+          #Main Binary
+          sudo cp "./bin/mold" "/usr/local/bin/mold" ; sudo chmod +xwr "/usr/local/bin/mold"
+          #symlinks 
+          # /usr/local/bin/ld.mold -> mold
+          sudo ln -s "/usr/local/bin/mold" "/usr/local/bin/ld.mold"
+          # /usr/local/libexec/mold/ld --> /usr/local/bin/mold
+          sudo mkdir -p "/usr/local/libexec/mold" && sudo ln -s "/usr/local/bin/mold" "/usr/local/libexec/mold/ld" ; sudo chmod +xwr "/usr/local/libexec/mold"/*
+          #lib : /usr/local/lib/mold/mold-wrapper.so
+          sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd
+          #Test
+          mold --version
+        continue-on-error: true
         
       - name: Install 7z
         run: |
