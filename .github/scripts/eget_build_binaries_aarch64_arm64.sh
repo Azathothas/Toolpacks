@@ -1247,6 +1247,9 @@ fi
   #pdfcpu : A PDF processor written in Go. 
   eget "pdfcpu/pdfcpu" --asset "Linux" --asset "arm64" --asset "tar" --to "$HOME/bin/pdfcpu"
   #---------------#
+  #pfetch-rs : A rewrite of the pfetch system information tool in Rust  
+  eget "Gobidev/pfetch-rs" --asset "linux" --asset "musl" --asset "aarch64" --asset "gz" --to "$HOME/bin/pfetch-rs" 
+  #---------------#
   #pgweb : Cross-platform client for PostgreSQL databases
   eget "sosedoff/pgweb" --asset "linux" --asset "arm64" --asset "^v7" --to "$HOME/bin/pgweb"
   #---------------#
@@ -1706,6 +1709,10 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/termshark"
   mv "./termshark" "$HOME/bin/termshark" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #tgpt: Access ChatGPT from the comfort of your terminal. No API or config files are needed.
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/aandrew-me/tgpt" && cd "./tgpt"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./tgpt" "$HOME/bin/tgpt" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #tldr : Simplified and community-driven man pages 
   eget "https://raw.githubusercontent.com/raylee/tldr-sh-client/main/tldr" --to "$HOME/bin/tldr" && chmod +xwr "$HOME/bin/tldr"
   #---------------#
@@ -1903,6 +1910,9 @@ fi
   #---------------#
   #wth : What The Heck: The better personal information dashboard for your terminal
   eget "mrusme/wth" --asset "wth" --asset "linux" --asset "arm64" --asset "^sig" --asset "^crt" --asset "^sha" --to "$HOME/bin/wth"
+  #---------------#
+  #xh : Friendly and fast tool for sending HTTP requests 
+  eget "ducaale/xh" --asset "linux" --asset "musl" --asset "aarch64" --asset "gz" --to "$HOME/bin/xh"
   #---------------#
   #xplr : A hackable, minimal, fast TUI file explorer 
   eget "sayanarijit/xplr" --asset "linux" --asset "aarch64" --asset "^arm" --asset "^asc" --asset "^sha" --to "$HOME/bin/xplr"
