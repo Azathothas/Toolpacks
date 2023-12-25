@@ -114,6 +114,10 @@ fi
   #alist : A file list/WebDAV program that supports multiple storages
   eget "alist-org/alist" --asset "amd64" --asset "linux" --asset "musl" --to "$HOME/bin/alist"
   #---------------#
+  #allxfr: AXFR all the things! 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/lanrat/allxfr" && cd "./allxfr"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./allxfr" "$HOME/bin/allxfr" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #alterx : Fast and customizable subdomain wordlist generator using DSL 
   eget "projectdiscovery/alterx" --asset "amd64" --asset "linux" --to "$HOME/bin/alterx"
   #---------------#
@@ -134,6 +138,9 @@ fi
   export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/anewer" "$HOME/bin/anewer" ; popd
+  #---------------#
+  #apk.sh : apk.sh makes reverse engineering Android apps easier
+  eget "https://raw.githubusercontent.com/ax/apk.sh/main/apk.sh" --to "$HOME/bin/apk.sh" && chmod +xwr "$HOME/bin/apk.sh"
   #---------------#
   #arduino-cli : Arduino command line tool 
   eget "arduino/arduino-cli" --asset "Linux" --asset "64bit" --asset "gz" --asset "^arm" --to "$HOME/bin/arduino-cli" 
@@ -304,6 +311,10 @@ fi
   #---------------#
   #cent : Fetch & Organize all Nuclei Templates
   eget "xm1k3/cent" --asset "amd64" --asset "linux" --to "$HOME/bin/cent"
+  #---------------#
+  #certgraph: An open source intelligence tool to crawl the graph of certificate Alternate Names
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/lanrat/certgraph" && cd "./certgraph"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./certgraph" "$HOME/bin/certgraph" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #certspotter : Certificate Transparency Log Monitor
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/SSLMate/certspotter" && cd "./certspotter"
@@ -585,6 +596,9 @@ fi
   #mv "$(find . -type d -name '*x86_64*' -name '*linux*' ! -name '*musl*')/dysk" "$HOME/bin/dysk_gcc"   
   mv "$(find . -type d -name '*x86_64*' -name '*linux*' -name '*musl*')/dysk" "$HOME/bin/dysk" ; popd
   #---------------#
+  #edgevpn : ⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery  
+  eget "mudler/edgevpn" --asset "edgevpn" --asset "x86_64" --asset "Linux" --asset "^deb" --asset "^rpm" --asset "^sha" --asset "^sig" --to "$HOME/bin/edgevpn"
+  #---------------#
   #elfcat: ELF visualizer. Generates HTML files from ELF binaries.    
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/ruslashev/elfcat" && cd "./elfcat"
   export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
@@ -619,6 +633,9 @@ fi
   #eza : A modern replacement for ‘ls’. (Fork of exa)
   eget "eza-community/eza" --asset "linux" --asset "musl" --asset "x86" --asset "64" --asset "gz" --to "$HOME/bin/eza"
   #---------------#
+  #falconhound: FalconHound is a blue team multi-tool
+  eget "FalconForceTeam/FalconHound" --asset "Linux" --asset "FalconHound" --asset "x86_64" --asset "^arm" --to "$HOME/bin/falconhound"
+  #---------------#
   #fastfetch : Like neofetch, but much faster because written in C.
   #This is Dynamic
   eget "fastfetch-cli/fastfetch" --asset "Linux" --asset "tar.gz" --to "$HOME/bin/fastfetch"
@@ -649,6 +666,10 @@ fi
   #---------------#
   #ffuf :  Fast web fuzzer written in Go 
   eget "ffuf/ffuf" --asset "amd64" --asset "linux" --to "$HOME/bin/ffuf"
+  #---------------#
+  #ffufw: a wrapper around ffuf to make directory bruteforcing easier and more intelligent
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/puzzlepeaches/ffufw" && cd "./ffufw"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./ffufw" "$HOME/bin/ffufw" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ffufPostprocessing : Filter ffuf results
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Damian89/ffufPostprocessing" && cd "./ffufPostprocessing"
@@ -1115,6 +1136,9 @@ fi
   eget "boy-hack/ksubdomain" --asset "linux.tar" --to "$HOME/bin/ksubdomain"
   staticx --loglevel DEBUG "$HOME/bin/ksubdomain" --strip "$HOME/bin/ksubdomain_staticx"
   #---------------#
+  #ladder : Selfhosted alternative to 12ft.io. and 1ft.io   
+  eget "everywall/ladder" --asset "ladder" --asset "amd64" --asset "linux" --asset "^deb" --asset "^rpm" --asset "^sha" --asset "^sig" --to "$HOME/bin/ladder"
+  #---------------#
   #lazydocker : The lazier way to manage everything docker 
   eget "jesseduffield/lazydocker" --asset "Linux" --asset "x86_64" --to "$HOME/bin/lazydocker"
   #---------------#
@@ -1183,6 +1207,10 @@ fi
   #---------------#
   #lsd : The next gen ls command
   eget "lsd-rs/lsd" --asset "linux" --asset "musl" --asset "x86_64" --asset "gz" --to "$HOME/bin/lsd"
+  #---------------#
+  #luet: 📦 🐳 0-dependency Container-based Package Manager 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/mudler/luet" && cd "./luet"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./luet" "$HOME/bin/luet" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #lux: 👾 Fast and simple video download library and CLI tool written in Go 
   eget "iawia002/lux" --asset "Linux" --asset "x86_64" --asset "tar.gz" --to "$HOME/bin/lux"
@@ -1324,6 +1352,10 @@ fi
   # https://github.com/jirutka/nginx-binaries --> binaries branch
   eget "$(curl -qfsSL "https://api.github.com/repos/jirutka/nginx-binaries/contents/?ref=binaries" -H "Accept: application/vnd.github.v3+json" | jq -r '.[].download_url' | grep -i "x86_64-linux$" | grep -iv "njs\|debug" | sort -u | tail -n 1)" --to "$HOME/bin/nginx"
   eget "$(curl -qfsSL "https://api.github.com/repos/jirutka/nginx-binaries/contents/?ref=binaries" -H "Accept: application/vnd.github.v3+json" | jq -r '.[].download_url' | grep -i "x86_64-linux$" | grep -iv "debug" | sort -u | tail -n 1)" --to "$HOME/bin/njs"
+  #---------------#
+  #ngocok: ngrok Collaborator Link — yet another Burp Collaborator alternative for free with ngrok. 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dwisiswant0/ngocok" && cd "./ngocok"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./ngocok" "$HOME/bin/ngocok" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ngrok : External Tunnel to Internal Assets
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/ngrok/ngrok_amd_x86_64_Linux" --to "$HOME/bin/ngrok"
@@ -2121,6 +2153,10 @@ fi
   #WebSocat : netcat (or curl) for ws:// with advanced socat-like functions
   eget "vi/websocat" --asset "x86_64-unknown-linux-musl" --asset "max" --to "$HOME/bin/websocat"
   #---------------#
+  #wego: weather app for the terminal  
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/schachmat/wego" && cd "./wego"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./wego" "$HOME/bin/wego" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #WireGuard-go : Go Implementation of WireGuard
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://git.zx2c4.com/wireguard-go" && cd "./wireguard-go"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./wireguard-go"
@@ -2199,6 +2235,9 @@ fi
   export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/yazi" "$HOME/bin/yazi" ; popd
+  #---------------#
+  #yip : 📌 Yaml Instructions Processor - Simply applies a cloud-init style yaml file to the system  
+  eget "mudler/yip" --asset "yip" --asset "amd64" --asset "linux" --asset "^deb" --asset "^rpm" --asset "^sha" --asset "^sig" --to "$HOME/bin/yip"
   #---------------#
   #yj: Convert between YAML, TOML, JSON, and HCL
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sclevine/yj" && cd "./yj"
