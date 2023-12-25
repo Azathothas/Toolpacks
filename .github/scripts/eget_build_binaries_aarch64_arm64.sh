@@ -63,6 +63,13 @@ fi
   #actionlint : :octocat: Static checker for GitHub Actions workflow files
   eget "rhysd/actionlint" --asset "linux" --asset "arm" --asset "64"  --asset "^amd" --asset "^86" --asset "gz" --to "$HOME/bin/actionlint"
   #---------------#
+  #age: A simple, modern and secure encryption tool 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/FiloSottile/age" && cd "./age"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/age" 
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/age-keygen"
+  mv "./age" "$HOME/bin/age" ; mv "./age-keygen" "$HOME/bin/age-keygen"
+  popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #agg: asciinema gif generator
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/asciinema/agg" && cd "./agg"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
@@ -115,7 +122,11 @@ fi
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/anewer" "$HOME/bin/anewer" ; popd
   #---------------#
   #arduino-cli : Arduino command line tool 
-  eget "arduino/arduino-cli" --asset "Linux" --asset "ARM64" --asset "gz" --to "$HOME/bin/arduino-cli" 
+  eget "arduino/arduino-cli" --asset "Linux" --asset "ARM64" --asset "gz" --to "$HOME/bin/arduino-cli"
+  #---------------#
+  #aretext: Minimalist text editor with vim-compatible key bindings. 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/aretext/aretext" && cd "./aretext"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./aretext" ; mv "./aretext" "$HOME/bin/aretext" ; popd ; go clean -cache -fuzzcache -modcache -testcache 
   #---------------#
   #aria2c : aria2 is a multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/aria2/aria2c_aarch64_arm64_libressl_musl_latest_Linux" --to "$HOME/bin/aria2c"
@@ -300,6 +311,10 @@ fi
   #chaos-client : cli for Chaos DB API
   eget "projectdiscovery/chaos-client" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/chaos-client"
   #---------------#
+  #cheat: create and view interactive cheatsheets on the command-line
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/cheat/cheat" && cd "./cheat"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/cheat" ; mv "./cheat" "$HOME/bin/cheat" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #cherrybomb : Validating and Testing APIs using an OpenAPI file
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/blst-security/cherrybomb" && cd "./cherrybomb"
   export TARGET="aarch64-unknown-linux-musl" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
@@ -356,6 +371,13 @@ fi
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/cotp" "$HOME/bin/cotp" ; popd
+  #---------------#
+  #cowsay: complete rewrite of cowsay in Go 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://gitlab.com/nmyk/cowsay.git" && cd "./cowsay"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/cowsay" 
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/cowthink"
+  mv "./cowsay" "$HOME/bin/cowsay" ; mv "./cowthink" "$HOME/bin/cowthink"
+  popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cowtiness : mimic an HTTP server and a DNS server, providing complete responses
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/stolenusername/cowitness" && cd "./cowitness"
@@ -693,6 +715,9 @@ fi
   # Bin ~ 100 MB
   eget "go-gitea/gitea" --asset "arm64" --asset "linux" --asset "xz" --asset "^asc" --asset "^sig" --asset "^sha" --to "$HOME/bin/gitea"
   #---------------#
+  #goawk : A POSIX-compliant AWK interpreter written in Go, with CSV support 
+  eget "benhoyt/goawk" --asset "goawk" --asset "arm64" --asset "linux" --asset "^deb" --asset "^rpm" --asset "^sha" --asset "^sig" --to "$HOME/bin/goawk"
+  #---------------#
   #go-git : A highly extensible Git implementation in pure Go. 
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/go-git/go-git" && cd "./go-git"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; mv "./git-clone" "$HOME/bin/git-clone"
@@ -902,6 +927,10 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./hub" "$HOME/bin/hub" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #hugo: The world’s fastest framework for building websites. 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/gohugoio/hugo" && cd "./hugo"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=1 go build -tags "extended" -v -ldflags="-s -w -extldflags '-static'" ; mv "./hugo" "$HOME/bin/hugo" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #hex (hx): 🔮 Futuristic take on hexdump, made in Rust.      
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/sitkevij/hex" && cd "./hex"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
@@ -934,6 +963,9 @@ fi
   #---------------#
   #interactsh-client : An OOB interaction gathering server and client library 
   eget "projectdiscovery/interactsh" --asset "arm" --asset "64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
+  #---------------#
+  #invidtui : A TUI based Invidious client
+  eget "darkhz/invidtui" --asset "arm64" --asset "Linux" --asset "gz" --to "$HOME/bin/invidtui"
   #---------------#
   #iperf3 : A tool for network performance measurement and tuning
   eget "userdocs/iperf3-static" --asset "iperf3" --asset "arm" --asset "64" --asset "^86" --to "$HOME/bin/iperf3"
@@ -1102,6 +1134,9 @@ fi
   #massdns : A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration) 
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/massdns/massdns_linux_arm64_aarch64_musl" --to "$HOME/bin/massdns"
   #---------------#
+  #matterbridge : A simple chat bridge 
+  eget "42wim/matterbridge" --asset "matterbridge" --asset "arm64" --asset "linux" --asset "^deb" --asset "^rpm" --asset "^sha" --asset "^sig" --to "$HOME/bin/matterbridge"
+  #---------------#
   #mcfly : Fly through your shell history. Great Scott! 
   eget "cantino/mcfly" --asset "aarch64" --asset "linux" --asset "musl" --to "$HOME/bin/mcfly"
   #---------------#
@@ -1124,6 +1159,9 @@ fi
   # Learn : https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md
   eget "zyedidia/micro" --asset "linux" --asset "arm" --asset "64" --asset "static" --asset "gz" --to "$HOME/bin/micro"
   eget "johnkerl/miller" --asset "linux" --asset "arm" --asset "64" --asset "tar.gz" --asset "^amd" --asset "^86" --asset "^sha" --asset "^sig" --asset "^deb" --asset "^rpm" --file "mlr" --to "$HOME/bin/mlr"
+  #---------------#
+  #miniflux : Minimalist and opinionated feed reader 
+  eget "miniflux/v2" --asset "miniflux" --asset "arm64" --asset "linux" --asset "^deb" --asset "^rpm" --to "$HOME/bin/miniflux"
   #---------------#
   #miniserve : CLI tool to serve files and dirs over HTTP
   eget "svenstaro/miniserve" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --to "$HOME/bin/miniserve"
@@ -1271,6 +1309,10 @@ fi
   #---------------#
   #podman : A tool for managing OCI containers and pods.
   eget "containers/podman" --asset "podman" --asset "remote" --asset "static" --asset "linux" --asset "arm64" --to "$HOME/bin/podman"
+  #---------------#
+  #podsync: Turn YouTube or Vimeo channels, users, or playlists into podcast feeds 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/mxpv/podsync" && cd "./podsync"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/podsync" ; mv "./podsync" "$HOME/bin/podsync" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ppath : Pretty Print your system's PATH environment variable.
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/marwanhawari/ppath" && cd "./ppath"
@@ -1655,6 +1697,10 @@ fi
   #subxtract : Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$HOME/bin/subxtract"
   #---------------#
+  #sunbeam: a general purpose command-line launcher
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pomdtr/sunbeam" && cd "./sunbeam"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./sunbeam" "$HOME/bin/sunbeam" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #supervisord : a go-lang supervisor implementation 
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ochinchina/supervisord" && cd "./supervisord"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
@@ -1715,6 +1761,12 @@ fi
   #---------------#
   #tldr : Simplified and community-driven man pages 
   eget "https://raw.githubusercontent.com/raylee/tldr-sh-client/main/tldr" --to "$HOME/bin/tldr" && chmod +xwr "$HOME/bin/tldr"
+  #---------------#
+  #tlrc : A tldr client written in Rust
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/tldr-pages/tlrc" && cd "./tlrc"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/tldr" "$HOME/bin/tlrc" ; popd
   #---------------#
   #tlsx : Fast and configurable TLS grabber focused on TLS based data collection
   eget "projectdiscovery/tlsx" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/tlsx"
@@ -1806,6 +1858,14 @@ fi
   #---------------#
   #v2raya : A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀  
   eget "v2rayA/v2rayA" --asset "v2raya_linux_arm64" --asset "^installer" --asset "^sha" --to "$HOME/bin/v2raya"
+  #---------------#
+  #V6-unix: Old Unix programs running on modern computers. 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/rsc/unix" && cd "./unix" ; mkdir -p "./bin"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/v6disk" "./v6disk"
+  #export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/pdp11" "./pdp11"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/v6run" "./v6run"
+  #export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/v6web" "./v6web"
+  mv "./bin"/* "$HOME/bin" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #validtoml : simple toml validitor
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/martinlindhe/validtoml" && cd "./validtoml"
