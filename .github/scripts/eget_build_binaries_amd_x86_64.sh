@@ -82,6 +82,13 @@ fi
   #actionlint : :octocat: Static checker for GitHub Actions workflow files
   eget "rhysd/actionlint" --asset "linux"  --asset "64"  --asset "^arm"  --asset "gz" --to "$HOME/bin/actionlint"
   #---------------#
+  #age: A simple, modern and secure encryption tool 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/FiloSottile/age" && cd "./age"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/age" 
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/age-keygen"
+  mv "./age" "$HOME/bin/age" ; mv "./age-keygen" "$HOME/bin/age-keygen"
+  popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #agg: asciinema gif generator 
   eget "asciinema/agg" --asset "linux"  --asset "x86_64"  --asset "musl" --to "$HOME/bin/agg"
   #---------------#
@@ -130,6 +137,10 @@ fi
   #---------------#
   #arduino-cli : Arduino command line tool 
   eget "arduino/arduino-cli" --asset "Linux" --asset "64bit" --asset "gz" --asset "^arm" --to "$HOME/bin/arduino-cli" 
+  #---------------#
+  #aretext: Minimalist text editor with vim-compatible key bindings. 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/aretext/aretext" && cd "./aretext"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./aretext" ; mv "./aretext" "$HOME/bin/aretext" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #aria2c : aria2 is a multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux" --to "$HOME/bin/aria2c"
@@ -335,6 +346,10 @@ fi
   #chaos-client : cli for Chaos DB API
   eget "projectdiscovery/chaos-client" --asset "amd64" --asset "linux" --to "$HOME/bin/chaos-client"
   #---------------#
+  #cheat: create and view interactive cheatsheets on the command-line
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/cheat/cheat" && cd "./cheat"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/cheat" ; mv "./cheat" "$HOME/bin/cheat" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #cherrybomb : Validating and Testing APIs using an OpenAPI file
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/blst-security/cherrybomb" && cd "./cherrybomb"
   export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
@@ -388,6 +403,13 @@ fi
   export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/cotp" "$HOME/bin/cotp" ; popd
+  #---------------#
+  #cowsay: complete rewrite of cowsay in Go 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://gitlab.com/nmyk/cowsay.git" && cd "./cowsay"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/cowsay" 
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/cowthink"
+  mv "./cowsay" "$HOME/bin/cowsay" ; mv "./cowthink" "$HOME/bin/cowthink"
+  popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cowtiness : mimic an HTTP server and a DNS server, providing complete responses
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/stolenusername/cowitness" && cd "./cowitness"
@@ -812,6 +834,9 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/simplehttpserver" ; mv "./simplehttpserver" "$HOME/bin/go-simplehttpserver" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #goawk : A POSIX-compliant AWK interpreter written in Go, with CSV support 
+  eget "benhoyt/goawk" --asset "goawk" --asset "amd64" --asset "linux" --asset "^deb" --asset "^rpm" --asset "^sha" --asset "^sig" --to "$HOME/bin/goawk"
+  #---------------#
   #gobuster : Directory/File, DNS and VHost busting tool written in Go
   eget "OJ/gobuster" --asset "Linux_x86_64.tar.gz" --to "$HOME/bin/gobuster"
   #---------------#
@@ -962,6 +987,10 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
   mv "./hub" "$HOME/bin/hub" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #hugo: The world’s fastest framework for building websites. 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/gohugoio/hugo" && cd "./hugo"
+  CGO_ENABLED=1 go build -tags "extended" -v -ldflags="-s -w -extldflags '-static'" ; mv "./hugo" "$HOME/bin/hugo" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #hex (hx): 🔮 Futuristic take on hexdump, made in Rust.    
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/sitkevij/hex" && cd "./hex"
   export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
@@ -989,6 +1018,9 @@ fi
   #---------------#
   #interactsh-client : An OOB interaction gathering server and client library 
   eget "projectdiscovery/interactsh" --asset "amd64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
+  #---------------#
+  #invidtui : A TUI based Invidious client
+  eget "darkhz/invidtui" --asset "x86_64" --asset "Linux" --asset "gz" --asset "^arm" --to "$HOME/bin/invidtui"
   #---------------#
   #iperf3 : A tool for network performance measurement and tuning
   eget "userdocs/iperf3-static" --asset "iperf3-amd64" --to "$HOME/bin/iperf3"
@@ -1193,6 +1225,9 @@ fi
   #Doesn't work
   #eget "https://github.com/Azathothas/Static-Binaries/raw/main/masscan/masscan_linux_x86_64_gcc" --to "$HOME/bin/masscan"
   #---------------#
+  #matterbridge : A simple chat bridge 
+  eget "42wim/matterbridge" --asset "matterbridge" --asset "64" --asset "linux" --asset "^arm" --asset "^deb" --asset "^rpm" --asset "^sha" --asset "^sig" --to "$HOME/bin/matterbridge"
+  #---------------#
   #mcfly : Fly through your shell history. Great Scott! 
   eget "cantino/mcfly" --asset "x86_64" --asset "linux" --asset "musl" --to "$HOME/bin/mcfly"
   #---------------#
@@ -1226,6 +1261,9 @@ fi
   #micro : A modern and intuitive terminal-based text editor
   # Learn : https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md
   eget "zyedidia/micro" --asset "linux64-static.tar.gz" --to "$HOME/bin/micro"
+  #---------------#
+  #miniflux : Minimalist and opinionated feed reader 
+  eget "miniflux/v2" --asset "miniflux" --asset "amd64" --asset "linux" --asset "^deb" --asset "^rpm" --to "$HOME/bin/miniflux"
   #---------------#
   #miniserve : CLI tool to serve files and dirs over HTTP
   eget "svenstaro/miniserve" --asset "x86_64-unknown-linux-musl" --to "$HOME/bin/miniserve"
@@ -1392,6 +1430,10 @@ fi
   #---------------#
   #podman : A tool for managing OCI containers and pods.
   eget "containers/podman" --asset "podman" --asset "remote" --asset "static" --asset "linux" --asset "amd64" --to "$HOME/bin/podman"
+  #---------------#
+  #podsync: Turn YouTube or Vimeo channels, users, or playlists into podcast feeds 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/mxpv/podsync" && cd "./podsync"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/podsync" ; mv "./podsync" "$HOME/bin/podsync" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ppath : Pretty Print your system's PATH environment variable. 
   pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/marwanhawari/ppath" && cd "./ppath"
@@ -1822,6 +1864,10 @@ fi
   #subxtract : Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$HOME/bin/subxtract"
   #---------------#
+  #sunbeam: a general purpose command-line launcher
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pomdtr/sunbeam" && cd "./sunbeam"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./sunbeam" "$HOME/bin/sunbeam" ; popd ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #supervisord : a go-lang supervisor implementation 
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ochinchina/supervisord" && cd "./supervisord"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
@@ -1888,6 +1934,12 @@ fi
   #---------------#
   #tldr : Simplified and community-driven man pages 
   eget "https://raw.githubusercontent.com/raylee/tldr-sh-client/main/tldr" --to "$HOME/bin/tldr" && chmod +xwr "$HOME/bin/tldr"
+  #---------------#
+  #tlrc : A tldr client written in Rust
+  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/tldr-pages/tlrc" && cd "./tlrc"
+  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/tldr" "$HOME/bin/tlrc" ; popd
   #---------------#
   #tlsx : Fast and configurable TLS grabber focused on TLS based data collection
   eget "projectdiscovery/tlsx" --asset "amd64" --asset "linux" --to "$HOME/bin/tlsx"
@@ -1983,6 +2035,14 @@ fi
   #---------------#
   #v2raya : A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀  
   eget "v2rayA/v2rayA" --asset "v2raya_linux_x64" --asset "^installer" --asset "^sha" --to "$HOME/bin/v2raya"
+  #---------------#
+  #V6-unix: Old Unix programs running on modern computers. 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/rsc/unix" && cd "./unix" ; mkdir -p "./bin"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/v6disk" "./v6disk"
+  #CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/pdp11" "./pdp11"
+  CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/v6run" "./v6run"
+  #CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./bin/v6web" "./v6web"
+  mv "./bin"/* "$HOME/bin" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #validtoml : simple toml validitor
   pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/martinlindhe/validtoml" && cd "./validtoml"
