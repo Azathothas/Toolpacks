@@ -71,7 +71,7 @@ fi
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #agg: asciinema gif generator
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/asciinema/agg" && cd "./agg"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/asciinema/agg" && cd "./agg"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/agg" "$HOME/bin/agg" ; popd
@@ -120,7 +120,7 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./anew" "$HOME/bin/anew" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #anewer: anewer appends lines from stdin to a file if they don't already exist in the file      
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/ysf/anewer" && cd "./anewer"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ysf/anewer" && cd "./anewer"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/anewer" "$HOME/bin/anewer" ; popd
@@ -222,7 +222,7 @@ fi
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/boltconn" "$HOME/bin/boltconn"
   #---------------#
   #bombadillo : Browser for gopher | gemini | finger | local (a user's file system)
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://tildegit.org/sloum/bombadillo" && cd "./bombadillo"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://tildegit.org/sloum/bombadillo" && cd "./bombadillo"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./bombadillo" "$HOME/bin/bombadillo" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -240,7 +240,7 @@ fi
   eget "ClementTsang/bottom" --asset "aarch" --asset "64" --asset "musl" --asset "^amd" --asset "^x86" --file "btm" --to "$HOME/bin/bottom"
   #---------------#
   #boxxy : boxxy puts bad Linux applications in a box with only their files.
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/queer/boxxy" && cd "./boxxy"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/queer/boxxy" && cd "./boxxy"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/boxxy" "$HOME/bin/boxxy" ; popd
@@ -249,7 +249,7 @@ fi
   eget "shenwei356/brename" --asset "linux" --asset "arm64" --asset "^sha" --to "$HOME/bin/brename"
   #---------------#
   #broot : A new way to see and navigate directory trees
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/Canop/broot" && cd "./broot"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Canop/broot" && cd "./broot"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/broot" "$HOME/bin/broot" ; popd
@@ -356,7 +356,7 @@ fi
   eget "cloudreve/Cloudreve" --asset "arm" --asset "64" --asset "linux" --file "cloudreve" --to "$HOME/bin/cloudreve"
   #---------------#
   #cog : The Conventional Commits toolbox
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/cocogitto/cocogitto" && cd "./cocogitto"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/cocogitto/cocogitto" && cd "./cocogitto"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/cog" "$HOME/bin/cog" ; popd
@@ -378,7 +378,7 @@ fi
   cross build --target "$TARGET" --features unix --release ; mv "./target/$TARGET/release/coreutils" "$HOME/bin/coreutils"
   #---------------#
   #cotp : Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality.
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/replydev/cotp" && cd "./cotp"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/replydev/cotp" && cd "./cotp"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/cotp" "$HOME/bin/cotp" ; popd
@@ -396,7 +396,7 @@ fi
   mv "./cowitness" "$HOME/bin/cowitness" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cproxy: Easy per application transparent proxy built on cgroup.      
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/NOBLES5E/cproxy" && cd "./cproxy"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/NOBLES5E/cproxy" && cd "./cproxy"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/cproxy" "$HOME/bin/cproxy" ; popd
@@ -427,7 +427,7 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/csprecon" ; mv "./csprecon" "$HOME/bin/csprecon" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #csview : 📠 Pretty and fast csv viewer for cli with cjk/emoji support. 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/wfxr/csview" && cd "./csview"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/wfxr/csview" && cd "./csview"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/csview" "$HOME/bin/csview" ; popd
@@ -458,7 +458,7 @@ fi
   eget "TomWright/dasel" --asset "linux" --asset "arm64" --asset "gz" --to "$HOME/bin/dasel"
   #---------------#
   #Datadash : Visualize and graph data in the terminal 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/keithknott26/datadash" && cd "./datadash"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/keithknott26/datadash" && cd "./datadash"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./datadash" "./cmd/" ; mv "./datadash" "$HOME/bin/datadash" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -466,7 +466,7 @@ fi
   eget "jeessy2/ddns-go" --asset "arm64" --asset "linux" --asset "ddns-go" --asset "tar.gz" --asset "^sha" --to "$HOME/bin/ddns-go"
   #---------------#
   #delta : A syntax-highlighting pager for git, diff, and grep output
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/dandavison/delta" && cd "./delta"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dandavison/delta" && cd "./delta"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/delta" "$HOME/bin/delta" ; popd
@@ -504,7 +504,7 @@ fi
   eget "mr-karan/doggo" --asset "linux" --asset "arm" --asset "64" --to "$HOME/bin/doggo"
   #---------------#
   #dotenv-linter: ⚡️Lightning-fast linter for .env files. Written in Rust 🦀 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/dotenv-linter/dotenv-linter" && cd "./dotenv-linter" 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dotenv-linter/dotenv-linter" && cd "./dotenv-linter" 
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/dotenv-linter" "$HOME/bin/dotenv-linter" ; popd
@@ -548,7 +548,7 @@ fi
   eget "zyedidia/eget" --asset "linux" --asset "arm" --asset "64" --asset "^amd" --asset "^86" --to "$HOME/bin/eget"
   #---------------#
   #elfcat: ELF visualizer. Generates HTML files from ELF binaries.      
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/ruslashev/elfcat" && cd "./elfcat"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ruslashev/elfcat" && cd "./elfcat"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/elfcat" "$HOME/bin/elfcat" ; popd
@@ -953,7 +953,7 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=1 go build -tags "extended" -v -ldflags="-s -w -extldflags '-static'" ; mv "./hugo" "$HOME/bin/hugo" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hex (hx): 🔮 Futuristic take on hexdump, made in Rust.      
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/sitkevij/hex" && cd "./hex"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sitkevij/hex" && cd "./hex"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/hx" "$HOME/bin/hx" ; popd
@@ -971,7 +971,7 @@ fi
   #---------------#
   #hysp : 📦 An independent package manager that every hacker deserves.
   #eget "pwnwriter/hysp" --asset "linux" --asset "aarch" --asset "64" --asset "musl" --asset "tar.gz" --asset "^amd" --asset "^sha" --asset "^sig" --file "hysp" --to "$HOME/bin/hysp"
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/pwnwriter/hysp" && cd "./hysp"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/pwnwriter/hysp" && cd "./hysp"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/hysp" "$HOME/bin/hysp" ; popd
@@ -1004,7 +1004,7 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #jaq: A jq clone focussed on correctness, speed, and simplicity  
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/01mf02/jaq" && cd "./jaq"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/01mf02/jaq" && cd "./jaq"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/jaq" "$HOME/bin/jaq" ; popd
@@ -1129,7 +1129,7 @@ fi
   eget "iawia002/lux" --asset "Linux" --asset "arm64" --asset "tar.gz" --to "$HOME/bin/lux"
   #---------------#
   #mabel : A fancy BitTorrent client for the terminal. 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/smmr-software/mabel" && cd "./mabel"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/smmr-software/mabel" && cd "./mabel"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./mabel" "$HOME/bin/mabel" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1140,7 +1140,7 @@ fi
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/macchina" "$HOME/bin/macchina" ; popd
   #---------------#
   #maddy : ✉️ Composable all-in-one mail server. 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/foxcpp/maddy" && cd "./maddy"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/foxcpp/maddy" && cd "./maddy"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/maddy" ; mv "./maddy" "$HOME/bin/maddy" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1169,7 +1169,7 @@ fi
   eget "cantino/mcfly" --asset "aarch64" --asset "linux" --asset "musl" --to "$HOME/bin/mcfly"
   #---------------#
   #mdsh : `$ mdsh` # a markdown shell pre-processor 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/zimbatm/mdsh" && cd "./mdsh"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/zimbatm/mdsh" && cd "./mdsh"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/mdsh" "$HOME/bin/mdsh" ; popd
@@ -1208,7 +1208,7 @@ fi
   eget "itchyny/mmv" --asset "arm64" --asset "linux" --to "$HOME/bin/mmv"
   #---------------#
   #mqttui : Subscribe to a MQTT Topic or publish something quickly from the terminal 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/EdJoPaTo/mqttui" && cd "./mqttui"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/EdJoPaTo/mqttui" && cd "./mqttui"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/mqttui" "$HOME/bin/mqttui" ; popd
@@ -1220,7 +1220,7 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #navi : An interactive cheatsheet tool for the command-line 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/denisidoro/navi" && cd "./navi"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/denisidoro/navi" && cd "./navi"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/navi" "$HOME/bin/navi" ; popd
@@ -1324,7 +1324,7 @@ fi
   eget "sosedoff/pgweb" --asset "linux" --asset "arm64" --asset "^v7" --to "$HOME/bin/pgweb"
   #---------------#
   #phantun: Easy per application transparent proxy built on cgroup.      
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/dndx/phantun" && cd "./phantun"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/dndx/phantun" && cd "./phantun"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release 
@@ -1347,7 +1347,7 @@ fi
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" "./cmd/podsync" ; mv "./podsync" "$HOME/bin/podsync" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ppath : Pretty Print your system's PATH environment variable.
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/marwanhawari/ppath" && cd "./ppath"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/marwanhawari/ppath" && cd "./ppath"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./ppath" "$HOME/bin/ppath" ; popd
   go clean -cache -fuzzcache -modcache -testcache 
   #---------------#
@@ -1429,7 +1429,7 @@ fi
   mv "./RedGuard" "$HOME/bin/redguard" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #redive : Trace URL redirections in the terminal.
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/neelkarma/redive" && cd "./redive"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/neelkarma/redive" && cd "./redive"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/redive" "$HOME/bin/redive" ; popd
@@ -1456,7 +1456,7 @@ fi
   eget "restic/restic" --asset "linux" --asset "arm64" --to "$HOME/bin/restic"
   #---------------#
   #resto : 🔗 Send pretty HTTP & API requests with TUI.
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/abdfnx/resto" && cd "./resto"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/abdfnx/resto" && cd "./resto"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./resto" "$HOME/bin/resto" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1484,7 +1484,7 @@ fi
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/ripgen" "$HOME/bin/ripgen" ; popd
   #---------------#
   #rnr : A command-line tool to batch rename files and directories 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/ismaelgv/rnr" && cd "./rnr"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/ismaelgv/rnr" && cd "./rnr"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/rnr" "$HOME/bin/rnr" ; popd
@@ -1497,7 +1497,7 @@ fi
   eget "rootless-containers/rootlesskit" --asset "aarch" --asset "64" --asset "^86" --asset "^sig" --file "rootlesskit" --to "$HOME/bin/rootlesskit"
   #---------------#
   #ropr: A blazing fast™ multithreaded ROP Gadget finder. ropper / ropgadget alternative    
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/Ben-Lichtman/ropr" && cd "./ropr"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/Ben-Lichtman/ropr" && cd "./ropr"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/ropr" "$HOME/bin/ropr" ; popd
@@ -1512,7 +1512,7 @@ fi
   eget "ikatson/rqbit" --asset "linux" --asset "static" --asset "aarch64" --asset "^sig" --asset "^sha" --to "$HOME/bin/rqbit"
   #---------------#
   #rshijack: tcp connection hijacker, rust rewrite of shijack 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/kpcyrd/rshijack" && cd "./rshijack"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/kpcyrd/rshijack" && cd "./rshijack"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/rshijack" "$HOME/bin/rshijack" ; popd
@@ -1587,7 +1587,7 @@ fi
   mv "./sessionprobe" "$HOME/bin/sessionprobe" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #shellharden : The corrective bash syntax highlighter 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/anordal/shellharden" && cd "./shellharden"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/anordal/shellharden" && cd "./shellharden"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/shellharden" "$HOME/bin/shellharden" ; popd
@@ -1623,7 +1623,7 @@ fi
   mv "./sj" "$HOME/bin/sj" ; popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #skim : Fuzzy Finder in rust! 
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/lotabout/skim" && cd "./skim" 
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/lotabout/skim" && cd "./skim" 
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/sk" "$HOME/bin/sk" ; popd
@@ -1704,7 +1704,7 @@ fi
   eget "starship/starship" --asset "aarch" --asset "64" --asset "^amd" --to "$HOME/bin/starship"
   #---------------#
   #stew : 🥘 An independent package manager for compiled binaries.
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/marwanhawari/stew" && cd "./stew"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/marwanhawari/stew" && cd "./stew"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./stew" "$HOME/bin/stew" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1744,7 +1744,7 @@ fi
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #svg-hush: Make it safe to serve untrusted SVG files   
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/cloudflare/svg-hush" && cd "./svg-hush"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/cloudflare/svg-hush" && cd "./svg-hush"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/svg-hush" "$HOME/bin/svg-hush" ; popd
@@ -1795,7 +1795,7 @@ fi
   eget "https://raw.githubusercontent.com/raylee/tldr-sh-client/main/tldr" --to "$HOME/bin/tldr" && chmod +xwr "$HOME/bin/tldr"
   #---------------#
   #tlrc : A tldr client written in Rust
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/tldr-pages/tlrc" && cd "./tlrc"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/tldr-pages/tlrc" && cd "./tlrc"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/tldr" "$HOME/bin/tlrc" ; popd
@@ -1835,7 +1835,7 @@ fi
   eget "tsl0922/ttyd" --asset "aarch64" --asset "^win" --asset "^i686" --asset "^sha" --asset "^sig" --to "$HOME/bin/ttyd"
   #---------------#
   #tuiarchiver : terminal application to list / manage archives
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://codeberg.org/dnalor/tuiarchiver" && cd "./tuiarchiver"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://codeberg.org/dnalor/tuiarchiver" && cd "./tuiarchiver"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./tuiarchiver" "$HOME/bin/tuiarchiver" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1855,7 +1855,7 @@ fi
   eget "oz/tz" --asset "linux" --asset "arm64" --asset "^sha" --to "$HOME/bin/tz"
   #---------------#
   #u-root : create a one-binary root file system (initramfs) containing a busybox-like set of tools
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/u-root/u-root" && cd "./u-root"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/u-root/u-root" && cd "./u-root"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./u-root" "$HOME/bin/u-root" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1871,7 +1871,7 @@ fi
   eget "projectdiscovery/uncover" --asset "arm" --asset "64" --asset "linux" --to "$HOME/bin/uncover"
   #---------------#
   #unf: UNixize Filename -- replace annoying anti-unix characters in filenames    
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/io12/unf" && cd "./unf"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/io12/unf" && cd "./unf"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/unf" "$HOME/bin/unf" ; popd
@@ -1917,7 +1917,7 @@ fi
   eget "atanunq/viu" --asset "viu" --asset "linux" --asset "aarch64" --asset "musl" --asset "^sig" --asset "^crt" --asset "^sha" --to "$HOME/bin/viu"
   #---------------#
   #volta : JS Toolchains as Code. ⚡  
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/volta-cli/volta" && cd "./volta"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/volta-cli/volta" && cd "./volta"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/volta" "$HOME/bin/volta" ; popd
@@ -1942,7 +1942,7 @@ fi
   eget "antonmedv/walk" --asset "linux" --asset "arm64" --asset "gz" --to "$HOME/bin/walk"
   #---------------#
   #wasminspect: An interactive debugger for WebAssembly     
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/kateinoigakukun/wasminspect" && cd "./wasminspect"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/kateinoigakukun/wasminspect" && cd "./wasminspect"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/wasminspect" "$HOME/bin/wasminspect" ; popd
@@ -2028,7 +2028,7 @@ fi
   popd ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #yazi :💥 Blazing fast terminal file manager written in Rust, based on async I/O.  
-  pushd $(mktemp -d) && git clone --filter "blob:none" "https://github.com/sxyazi/yazi" && cd "./yazi"
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/sxyazi/yazi" && cd "./yazi"
   export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/yazi" "$HOME/bin/yazi" ; popd
