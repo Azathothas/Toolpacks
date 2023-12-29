@@ -1173,6 +1173,17 @@ get_distro() {
                     esac
                 fi
 
+            elif type -p anise >/dev/null; then
+                for file in /etc/lsb-release /etc/os-release ; do
+                    source "$file"
+                done
+
+                case $distro_shorthand in
+                    on|tiny) distro="${NAME:-${DISTRIB_DESCRIPTION:-MacaroniOS}}" ;;
+                    *)
+                        distro="${NAME:-${DISTRIB_DESCRIPTION:-MacaroniOS}} ${VERSION:-${DISTRIB_RELEASE}}"
+                esac
+
             elif type -p lsb_release >/dev/null; then
                 # Debian does not include .x versions in /etc/os-version, but does in debian_version
                 # So if that file exists, and we are not *buntu, build name from there
@@ -2075,6 +2086,7 @@ get_packages() {
             has evox       && tot cat /var/evox/packages/DB
             has squirrel   && tot ls /var/packages
             has tea        && tot find "$HOME/.tea" -maxdepth 2 -mindepth 2 -type d
+            has anise      && tot anise s --installed
 
             # Using the dnf package cache is much faster than rpm.
             if has dnf && type -p sqlite3 >/dev/null && [[ -f /var/cache/dnf/packages.db ]]; then
@@ -10897,6 +10909,35 @@ ${c3}          __
          |  |   _ _ ___ ___ ___
          |  |__| | |   | .'|  _|
          |_____|___|_|_|__,|_|
+EOF
+        ;;
+
+        "MacaroniOS"* | "Macaroni OS"*)
+
+            set_colors 2 3 15 14
+            read -rd '' ascii_data <<'EOF'
+                 ${c2}
+             -=+++==--::..                                      .-+++==-:.
+           .:--:-=++==-:.                              :=*+=--==+***######**+-:
+      .---:-===-----===+++==-:..                     :=+=--=+*****+++*****#%%%#-
+       .=*********+++========+++++=--:.         .:-=+++++++=-:..     .=*=::.
+     :-=-.  .:::---===+++++++++++*******++====+**+++=-:.               :+*-..
+  .. -++                    ..:--==+***********=:.                       -*=
+ .   :+.      .           ${c3}...${c2}        .:--===:.                            .++
+    .*:       .       ${c3}:+#%%@@%%#=:                                          ${c2}--
+    ${c2}-=              ${c3}-#@@@@@@@@@@@@#:                                         ${c2}.
+                  ${c3}:*%@%%@@@@@@@@@@@%+          .:--====-:.
+                 :*%%%%%%%%%@@@@@@@@@*.     :=*#%%%%@@@@@%#+-
+                .*%%%%%%%%%%%%%@@#+--=-   -*%%%%%%%%%%%@@@@@%#=
+                -#%%%%%%%%%%%%%#:  :+:   :+%*#%%%%%%%%%%%%%%%%%*.
+                +%%%%%%%%%%%%%%:   .#*:    *+-*%%%%%%%%%%%%%%%%%+
+                +%%%%%%%%%%%%%#  .      .   . :%%%%%%%%%%%%%%%%%#.
+                =#%%%%%%%%%%%%#  .      .     =%%%%%%%%%%%%%%%%%*.
+                .*%%%%%%%%%%%%%*         :   =%%%%%%%%%%%%%%%%%#-
+                 :#%%%%%%%%%%%%%#=....   .=*%%%%%%%%%%%%%%%%%%*:
+                  :*%@@%%%%%%%%%%%%#+.     :+#%%%%%%%%%%%%%#*-
+                    =*%%@@%%%%%%%#*-          .-=+**##**+=:
+                      :=*######+=:
 EOF
         ;;
 
