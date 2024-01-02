@@ -1037,8 +1037,9 @@ fi
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/go.mod"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd ; go clean -cache -fuzzcache -modcache -testcache 
   #---------------#
-  #interactsh-client : An OOB interaction gathering server and client library 
+  #interactsh : An OOB interaction gathering server and client library 
   eget "projectdiscovery/interactsh" --asset "amd64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
+  eget "projectdiscovery/interactsh" --asset "amd64" --asset "linux" --asset "interactsh-server" --to "$HOME/bin/interactsh-server"
   #---------------#
   #invidtui : A TUI based Invidious client
   eget "darkhz/invidtui" --asset "x86_64" --asset "Linux" --asset "gz" --asset "^arm" --to "$HOME/bin/invidtui"
