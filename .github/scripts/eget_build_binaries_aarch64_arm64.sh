@@ -984,6 +984,7 @@ fi
   #---------------#
   #interactsh-client : An OOB interaction gathering server and client library 
   eget "projectdiscovery/interactsh" --asset "arm" --asset "64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
+  eget "projectdiscovery/interactsh" --asset "arm" --asset "64" --asset "linux" --asset "interactsh-server" --to "$HOME/bin/interactsh-server"
   #---------------#
   #invidtui : A TUI based Invidious client
   eget "darkhz/invidtui" --asset "arm64" --asset "Linux" --asset "gz" --to "$HOME/bin/invidtui"
