@@ -877,7 +877,11 @@ fi
   eget "itchyny/gojq" --asset "amd64" --asset "linux" --to "$HOME/bin/gojq"
   #---------------#
   #goop : Dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases
-  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/nyancrimew/goop" && cd "./goop"
+  #pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/nyancrimew/goop" && cd "./goop"
+  #CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd
+  #go clean -cache -fuzzcache -modcache -testcache
+  #https://github.com/nyancrimew/goop/pull/22
+  pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/lavafroth/goop" && cd "./goop"
   CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
