@@ -12,18 +12,19 @@
   71M   │ ├── berty
   68M   │ ├── nuclei
   63M   │ ├── loki
-  62M   │ ├── alist
   61M   │ ├── nu
   59M   │ ├── wtfutil
+  59M   │ ├── alist
   57M   │ ├── k9s
   56M   │ ├── logcli
   55M   │ ├── rclone
   50M   │ ├── melange
   48M   │ ├── jc
+  48M   │ ├── bearer
   48M   │ ├── matterbridge
   46M   │ ├── rekor
+  44M   │ ├── usql.tar.gz
   41M   │ ├── gh
-  40M   │ ├── usql.tar.gz
   39M   │ ├── caddy
   38M   │ ├── kadeessh
   37M   │ ├── containerd
@@ -53,6 +54,7 @@
   27M   │ ├── qbittorrent-nox
   26M   │ ├── osmedeus
   26M   │ ├── cloudfox.tar.gz
+  25M   │ ├── netbird
   25M   │ ├── interactsh-client
   25M   │ ├── tlsx
   24M   │ ├── subfinder
@@ -72,7 +74,7 @@
   23M   │ ├── jaeles
   23M   │ ├── dnsx
   23M   │ ├── grpcurl
-  22M   │ ├── netbird
+  22M   │ ├── interactsh-server
   22M   │ ├── etcd
   22M   │ ├── syncthing
   22M   │ ├── reader
@@ -81,25 +83,25 @@
   21M   │ ├── tuiarchiver
   20M   │ ├── mapcidr
   20M   │ ├── asnmap
+  20M   │ ├── arduino-cli
   20M   │ ├── csvtk
   20M   │ ├── circumflex
+  19M   │ ├── gh-dash
   19M   │ ├── cdncheck
-  19M   │ ├── arduino-cli
-  19M   │ ├── alterx
   19M   │ ├── ruff
+  19M   │ ├── alterx
   19M   │ ├── s3scanner
+  18M   │ ├── atuin
   18M   │ ├── jira
   18M   │ ├── jj
   18M   │ ├── podsync
-  18M   │ ├── atuin
   18M   │ ├── sunbeam
   18M   │ ├── sish
   18M   │ ├── luet
   18M   │ ├── notify
   18M   │ ├── miniflux
-  17M   │ ├── gh-dash
-  17M   │ ├── chameleon
   17M   │ ├── mailpit
+  17M   │ ├── chameleon
   17M   │ ├── legba
   17M   │ ├── chaos-client
   17M   │ ├── glow
@@ -170,11 +172,11 @@
   10M   │ ├── runc
   10M   │ ├── gitui
 10.0M   │ ├── pdfcpu
+ 9.9M   │ ├── yazi
  9.9M   │ ├── katana_staticx
  9.9M   │ ├── tut
  9.8M   │ ├── gotty
  9.8M   │ ├── gitql
- 9.8M   │ ├── yazi
  9.8M   │ ├── certstream-server-go
  9.7M   │ ├── orbiton
  9.6M   │ ├── resto
@@ -211,6 +213,7 @@
  8.5M   │ ├── cut-cdn
  8.5M   │ ├── agrind
  8.5M   │ ├── viewgen_staticx
+ 8.4M   │ ├── watchexec
  8.4M   │ ├── rustypaste
  8.3M   │ ├── x8
  8.3M   │ ├── zdns
@@ -220,25 +223,24 @@
  8.3M   │ ├── chisel
  8.2M   │ ├── ddns-go
  8.2M   │ ├── getghrel
- 8.2M   │ ├── watchexec
  8.2M   │ ├── enc
  8.2M   │ ├── stew
+ 8.1M   │ ├── noir
  8.0M   │ ├── ladder
  8.0M   │ ├── planor
  8.0M   │ ├── assh
- 8.0M   │ ├── noir
  8.0M   │ ├── dura
  7.9M   │ ├── sns
  7.9M   │ ├── viddy
- 7.8M   │ ├── ov
+ 7.9M   │ ├── ov
+ 7.8M   │ ├── pwninit
+ 7.8M   │ ├── tgpt
  7.8M   │ ├── cog
  7.8M   │ ├── ffuf
- 7.8M   │ ├── tgpt
- 7.8M   │ ├── pwninit
  7.7M   │ ├── gobuster
  7.7M   │ ├── sj
  7.7M   │ ├── gau
- 7.6M   │ ├── coreutils
+ 7.7M   │ ├── coreutils
  7.6M   │ ├── rootlesskit
  7.6M   │ ├── gosec
  7.5M   │ ├── wormhole-rs
@@ -258,17 +260,18 @@
  7.2M   │ ├── brename
  7.2M   │ ├── godnsbench
  7.1M   │ ├── recollapse_staticx
+ 7.0M   │ ├── wstunnel
  7.0M   │ ├── dnslookup
  7.0M   │ ├── fnm
  7.0M   │ ├── fasttld
  6.9M   │ ├── twingate-connector-staticx
  6.9M   │ ├── rush
+ 6.9M   │ ├── gofireprox
  6.9M   │ ├── git-log
- 6.8M   │ ├── gofireprox
  6.8M   │ ├── git-clone
  6.8M   │ ├── git-checkout
  6.8M   │ ├── git-pull
- 6.7M   │ ├── wstunnel
+ 6.7M   │ ├── xplr
  6.6M   │ ├── websocat
  6.6M   │ ├── gitleaks
  6.6M   │ ├── speedtest-go
@@ -291,8 +294,8 @@
  5.9M   │ ├── allxfr
  5.9M   │ ├── rga
  5.8M   │ ├── nginx
- 5.8M   │ ├── systemctl-tui
  5.8M   │ ├── v6run
+ 5.8M   │ ├── systemctl-tui
  5.8M   │ ├── ripgrep
  5.8M   │ ├── rg
  5.8M   │ ├── delta
@@ -302,7 +305,6 @@
  5.7M   │ ├── wadl-dumper
  5.7M   │ ├── rescope
  5.6M   │ ├── sbctl
- 5.6M   │ ├── xplr
  5.5M   │ ├── u-root
  5.5M   │ ├── wego
  5.5M   │ ├── batcat
@@ -316,8 +318,8 @@
  5.3M   │ ├── procs
  5.3M   │ ├── macchina
  5.2M   │ ├── dizi-server
- 5.2M   │ ├── bombadillo
  5.2M   │ ├── vtm
+ 5.2M   │ ├── bombadillo
  5.2M   │ ├── certspotter
  5.1M   │ ├── getJS
  5.1M   │ ├── gitdorks_go
@@ -357,11 +359,11 @@
  4.6M   │ ├── bottom
  4.5M   │ ├── crlfuzz
  4.5M   │ ├── ssh
+ 4.5M   │ ├── realm
  4.5M   │ ├── gotld
  4.5M   │ ├── hakip2host
  4.5M   │ ├── httprobe
  4.5M   │ ├── hakoriginfinder
- 4.5M   │ ├── realm
  4.5M   │ ├── rate-limit-checker
  4.5M   │ ├── dizi
  4.5M   │ ├── mkbundle
@@ -371,8 +373,8 @@
  4.3M   │ ├── tailspin
  4.3M   │ ├── twingate-connectorctl
  4.3M   │ ├── ppfuzz
- 4.3M   │ ├── fblog
  4.3M   │ ├── mcfly
+ 4.3M   │ ├── fblog
  4.2M   │ ├── kubemetrics
  4.2M   │ ├── eefjsf
  4.2M   │ ├── knoxssme
@@ -409,15 +411,15 @@
  3.7M   │ ├── bandwhich
  3.6M   │ ├── viu
  3.6M   │ ├── iperf3
- 3.6M   │ ├── kalker
  3.6M   │ ├── ksubdomain_staticx
+ 3.6M   │ ├── kalker
  3.5M   │ ├── dufs
  3.5M   │ ├── just
  3.5M   │ ├── ripgen
  3.5M   │ ├── 7z
  3.5M   │ ├── twingate-client
+ 3.4M   │ ├── fzf
  3.4M   │ ├── lf
- 3.3M   │ ├── fzf
  3.3M   │ ├── navi
  3.3M   │ ├── passdetective
  3.3M   │ ├── age
@@ -465,15 +467,15 @@
  2.4M   │ ├── ropr
  2.4M   │ ├── kondo
  2.4M   │ ├── tz
- 2.4M   │ ├── btop
+ 2.3M   │ ├── btop
  2.3M   │ ├── boringtun-cli
  2.3M   │ ├── unf
  2.3M   │ ├── dust
  2.3M   │ ├── cotp
  2.2M   │ ├── encode
  2.2M   │ ├── jq
- 2.2M   │ ├── cproxy
  2.2M   │ ├── dotenv-linter
+ 2.2M   │ ├── cproxy
  2.1M   │ ├── pkgtop
  2.1M   │ ├── gosu
  2.0M   │ ├── strace
@@ -493,9 +495,11 @@
  1.9M   │ ├── revit
  1.9M   │ ├── gf
  1.8M   │ ├── jless_staticx
+ 1.8M   │ ├── pueued
  1.8M   │ ├── mergerfs
  1.8M   │ ├── ds
  1.7M   │ ├── byp4xx
+ 1.7M   │ ├── pueue
  1.7M   │ ├── dropbearmulti
  1.7M   │ ├── gotator
  1.7M   │ ├── bbscope
@@ -503,10 +507,8 @@
  1.7M   │ ├── age-keygen
  1.7M   │ ├── uip
  1.7M   │ ├── xargs-rs
- 1.7M   │ ├── pueued
  1.7M   │ ├── exa
  1.7M   │ ├── dropbear
- 1.6M   │ ├── pueue
  1.6M   │ ├── inscope
  1.6M   │ ├── mmv
  1.6M   │ ├── zfxtop
@@ -547,6 +549,7 @@
  1.2M   │ ├── ppath
  1.2M   │ ├── rathole
  1.2M   │ ├── ttyd
+ 1.1M   │ ├── zstd
  1.1M   │ ├── zoxide
  1.1M   │ ├── killport
  1.1M   │ ├── busybox
@@ -581,8 +584,8 @@
  184K   │ ├── asn
  128K   │ ├── ipt2socks
   64K   │ ├── binfetch
-  48K   │ ├── SHA256SUM
-  48K   │ ├── BLAKE3SUM
+  52K   │ ├── SHA256SUM
+  52K   │ ├── BLAKE3SUM
   28K   │ ├── apk.sh
   24K   │ ├── prettyping
   20K   │ ├── try
