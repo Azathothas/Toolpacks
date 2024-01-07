@@ -895,10 +895,12 @@ jobs:
           #>/dev/null 2>&1
           rclone copyto "/tmp/toolpack_arm64_v8a_Android" "r2:bin/arm64_v8a_Android/" --progress --check-first
           #BLAKE3SUM
-          /bin/bash -c 'PS4="$ ";b3sum /tmp/toolpack_arm64_v8a_Android/* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_BLAKE3SUM"
+          cd "/tmp/toolpack_arm64_v8a_Android"
+          /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_BLAKE3SUM"
           rclone copyto "/tmp/arm64_v8a_Android_BLAKE3SUM" "r2:bin/arm64_v8a_Android/BLAKE3SUM.txt" --progress --check-first
           #SHA256SUM
-          /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_arm64_v8a_Android/* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_SHA256SUM"
+          cd "/tmp/toolpack_arm64_v8a_Android"
+          /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_SHA256SUM"
           rclone copyto "/tmp/arm64_v8a_Android_SHA256SUM" "r2:bin/arm64_v8a_Android/SHA256SUM.txt" --progress --check-first
         continue-on-error: true
         
