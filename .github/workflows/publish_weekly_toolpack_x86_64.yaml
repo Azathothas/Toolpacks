@@ -6,7 +6,8 @@ on:
     - cron: "30 22 * * 6" # 10:30 PM UTC Saturday --> 04:15 AM NPT Mrng Every Sunday
   
 env:
-  GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   
 jobs:
 #------------------------------------------------------------------------------------#
@@ -59,6 +60,8 @@ jobs:
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #rclone
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
           #upx
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
@@ -98,6 +101,25 @@ jobs:
           #Copy to /tmp/toolpack_x86_64
           mkdir -p "/tmp/toolpack_x86_64"
           find "$HOME/bin" -maxdepth 1 -type f -exec cp {} "/tmp/toolpack_x86_64" \; 
+        continue-on-error: true
+
+      - name: rClone Upload to R2 (bin.prashansa.com.np)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Upload
+          echo -e "\n[+] Uploading Results to R2 (rclone)\n"
+          #>/dev/null 2>&1
+          rclone copyto "/tmp/toolpack_x86_64" "r2:bin/x86_64_Linux/" --progress --check-first
+          #BLAKE3SUM
+          /bin/bash -c 'PS4="$ ";b3sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_BLAKE3SUM"
+          rclone copyto "/tmp/x86_64_Linux_BLAKE3SUM" "r2:bin/x86_64_Linux/BLAKE3SUM.txt" --progress --check-first
+          #SHA256SUM
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_SHA256SUM"
+          rclone copyto "/tmp/x86_64_Linux_SHA256SUM" "r2:bin/x86_64_Linux/SHA256SUM.txt" --progress --check-first
         continue-on-error: true
 
       - name: Archive Binaries (.tar) # This is a requirement for others
