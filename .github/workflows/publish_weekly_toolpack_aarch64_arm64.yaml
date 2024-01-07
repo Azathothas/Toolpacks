@@ -96,7 +96,7 @@ jobs:
           # Strip && Rename anything with *_amd*
           find "$HOME/bin" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
           #Copy to /tmp/toolpack_aarch64_arm64
-          mkdir -p "/tmp/toolpack_aarch64_arm64"
+          rm -rf "/tmp/toolpack_aarch64_arm64" ; mkdir -p "/tmp/toolpack_aarch64_arm64"
           find "$HOME/bin" -maxdepth 1 -type f -exec cp {} "/tmp/toolpack_aarch64_arm64" \; 
         continue-on-error: true
 
