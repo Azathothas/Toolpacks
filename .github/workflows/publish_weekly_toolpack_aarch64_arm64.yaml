@@ -90,7 +90,7 @@ jobs:
           #strip
           find "$HOME/bin" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
           #untar
-          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec tar xvzf {} -c "$HOME/bin" \; 2>/dev/null
+          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec tar xvzf {} -C "$HOME/bin" \; 2>/dev/null
           #Remove tars
           find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec rm {} \; 2>/dev/null
           # Strip && Rename anything with *_amd*
