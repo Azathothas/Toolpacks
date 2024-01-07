@@ -7,6 +7,7 @@ on:
     - cron: "0 0 */2 * *" #Every 2 days (48 Hr)
 env:
   GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   
 jobs:
 #------------------------------------------------------------------------------------#
@@ -98,16 +99,23 @@ jobs:
 
       - name: Install Addons
         run: |
-          #Presets
+          #presets
           set -x ; set +e
-          #--------------#
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
           #b3sum
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
           sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
-          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
-          sudo mv ./eget* "/usr/local/bin/eget"
-          sudo chmod +xwr "/usr/local/bin/eget"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #rclone
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #upx
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
         continue-on-error: true
 
       - name: Install Alsa-Libs (libasound)
@@ -870,8 +878,30 @@ jobs:
            find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/" -maxdepth 1 -type f -exec aarch64-linux-gnu-objcopy --preserve-dates --verbose --strip-all {} \; 2>/dev/null
            # Strip && Rename anything with *_amd*
            # find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_aarch64_arm64_v8a_Android_Linux//"); mv "$1" "$newname"' sh {} \;
+           #Copy to /tmp/toolpack_arm64_v8a_Android
+           mkdir -p "/tmp/toolpack_arm64_v8a_Android"
+           find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android" -maxdepth 1 -type f -exec cp {} "/tmp/toolpack_arm64_v8a_Android" \; 
         continue-on-error: true
 
+      - name: rClone Upload to R2 (bin.prashansa.com.np/arm64_v8a_Android)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Upload
+          echo -e "\n[+] Uploading Results to R2 (rclone)\n"
+          #>/dev/null 2>&1
+          rclone copyto "/tmp/toolpack_arm64_v8a_Android" "r2:bin/arm64_v8a_Android/" --progress --check-first
+          #BLAKE3SUM
+          /bin/bash -c 'PS4="$ ";b3sum /tmp/toolpack_arm64_v8a_Android/* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_BLAKE3SUM"
+          rclone copyto "/tmp/arm64_v8a_Android_BLAKE3SUM" "r2:bin/arm64_v8a_Android/BLAKE3SUM.txt" --progress --check-first
+          #SHA256SUM
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_arm64_v8a_Android/* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_SHA256SUM"
+          rclone copyto "/tmp/arm64_v8a_Android_SHA256SUM" "r2:bin/arm64_v8a_Android/SHA256SUM.txt" --progress --check-first
+        continue-on-error: true
+        
       - name: Update README.md
         run: |
            #Presets
