@@ -658,8 +658,8 @@
   22M   │ ├── nerdctl
   22M   │ ├── fscan
   22M   │ ├── gowitness
-  22M   │ ├── restic
   22M   │ ├── grpcurl
+  22M   │ ├── restic
   22M   │ ├── jaeles
   22M   │ ├── dnsx
   22M   │ ├── maddy
