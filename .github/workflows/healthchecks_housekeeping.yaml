@@ -156,6 +156,7 @@ jobs:
           set -x ; set +e
           #-------------#        
           #copy
+          mkdir -p "$HOME/bin"
           find "$GITHUB_WORKSPACE/main/x86_64" -maxdepth 1 -type f ! -name "*README*" ! -name "*BLAKE3SUM*" ! -name "*SHA256SUM*" -exec cp {} "$HOME/bin" \; 
           #list
           ls "$HOME/bin" -lahr

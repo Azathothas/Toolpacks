@@ -6,7 +6,8 @@ on:
   #  - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
   
 env:
-  GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   
 jobs:
 #------------------------------------------------------------------------------------#
@@ -65,7 +66,7 @@ jobs:
           sudo apt-get install -y "g++-arm-linux-gnueabi" "g++-arm-linux-gnueabihf" "g++-aarch64-linux-gnu" qemu-user-static
 
       - name: Install PythonUtils & Deps (StaticX)
-        run: |       
+        run: |
           set +e
           sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev xcb -y
           pip install ansi2txt
@@ -77,7 +78,7 @@ jobs:
         continue-on-error: true
         
       - name: Install CargoUtils & Deps
-        run: |    
+        run: |
           set +e
           cargo install cross --git "https://github.com/cross-rs/cross"
         continue-on-error: true
@@ -98,12 +99,13 @@ jobs:
         run: |
           set +e
           #b3sum
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #eget
-          curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
-          sudo mv ./eget* "/usr/local/bin/eget"
-          sudo chmod +xwr "/usr/local/bin/eget"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
+          #sudo mv ./eget* "/usr/local/bin/eget"
+          #sudo chmod +xwr "/usr/local/bin/eget"
         continue-on-error: true
 
       - name: Install Alsa-Libs (libasound)
@@ -191,14 +193,20 @@ jobs:
         
       - name: Install 7z
         run: |
+          #Presets
           set -x ; set +e
-          cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
-          find . -type f -name '*.xz' -exec tar -xf {} \;
-          #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
-          sudo chmod +xwr "/usr/local/bin/7z"
-          sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
-          sudo chmod +xwr "/usr/bin/7z"
+          #--------------#
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          # cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
+          # find . -type f -name '*.xz' -exec tar -xf {} \;
+          # #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
+          # sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
+          # sudo chmod +xwr "/usr/local/bin/7z"
+          # sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
+          # sudo chmod +xwr "/usr/bin/7z"
+          7z -h
+        continue-on-error: true
 
       - name: Setup Env
         run: |

@@ -112,13 +112,14 @@ jobs:
            #--------------#
            # for binaries
            # eget for bins
-           sudo wget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -O "/usr/local/bin/eget"
+           sudo wget "https://bin.prashansa.com.np/x86_64_Linux/eget" -O "/usr/local/bin/eget"
            sudo chmod +xwr "/usr/local/bin/eget"
            # 7zip
-           sudo eget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" --to "/usr/local/bin/7z" 
+           sudo eget "https://bin.prashansa.com.np/x86_64_Linux/7z" --to "/usr/local/bin/7z" 
            # All Bins
            #sudo eget "Azathothas/Toolpacks" --asset "toolpack_x86_64.tar.bz2" --all --to "/usr/local/bin" && sudo chmod +xwr /usr/local/bin/*
-           wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/releases/latest" | jq -r '.assets[] | .browser_download_url' | grep -i '.7z$')" -O "./toolpack_x86_64.7z"
+           #wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/releases/latest" | jq -r '.assets[] | .browser_download_url' | grep -i '.7z$')" -O "./toolpack_x86_64.7z"
+           wget --quiet --show-progress --progress="dot:giga" "https://bin.prashansa.com.np/x86_64_Linux/_toolpack_x86_64.7z" -O "./toolpack_x86_64.7z"
            sudo 7z e "./toolpack_x86_64.7z" -o"/usr/local/bin" -y 2>/dev/null && sudo rm -rf "/usr/local/bin/toolpack_x86_64" 2>/dev/null && sudo rm -rf "./toolpack_x86_64.7z" 2>/dev/null ; sudo chmod +xwr /usr/local/bin/* 2>/dev/null
         continue-on-error: true
         
