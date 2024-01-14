@@ -1797,6 +1797,12 @@ fi
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/aandrew-me/tgpt" && cd "./tgpt"
   export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'" ; mv "./tgpt" "$HOME/bin/tgpt" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #tidy-viewer (tv) :📺(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
+  pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/alexhallam/tv" && cd "./tv"
+  export TARGET="aarch64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
+  sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+  cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/tidy-viewer" "$HOME/bin/tidy-viewer" ; popd > /dev/null 2>&1
+  #---------------#
   #tldr : Simplified and community-driven man pages 
   eget "https://raw.githubusercontent.com/raylee/tldr-sh-client/main/tldr" --to "$HOME/bin/tldr" && chmod +xwr "$HOME/bin/tldr"
   #---------------#
