@@ -9,7 +9,9 @@ on:
 
 env:
   USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
-  
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
+#------------------------------------------------------------------------------------#  
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -50,29 +52,44 @@ jobs:
 
       - name: Setup Env
         run: |
+          #presets
+          set -x ; set +e
+          #-------------#        
+          mkdir -p "$HOME/bin"
           sudo apt update -y
           sudo apt install dos2unix -y
           pip install ansi2txt --upgrade
+        continue-on-error: true
 
       - name: Install Addons
         run: |
-          set +e
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
           #action-lint
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
           #delta
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
           #dust
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
           #eget
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
           #git-sizer
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
           #validtoml
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
           #Yq
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
           #Yj
-          sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
         continue-on-error: true
 
       - name: Dos2Unix Everything
@@ -93,6 +110,131 @@ jobs:
           find ".github/workflows" -type f -name "*ml" -exec actionlint {} \;
         continue-on-error: true
 
+#------------------------------------------------------------------------------------#
+      - name: Strip || Cleanup (arm64_v8a_Android)
+        run: |
+           #Presets
+           set -x ; set +e
+           #--------------#
+           cd "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android"
+           #Install Deps
+           sudo apt install binutils-aarch64-linux-gnu -y
+           #strip
+           find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/" -maxdepth 1 -type f -exec aarch64-linux-gnu-objcopy --preserve-dates --verbose --strip-all {} \; 2>/dev/null
+           # Strip && Rename anything with *_amd*
+           # find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_aarch64_arm64_v8a_Android_Linux//"); mv "$1" "$newname"' sh {} \;
+           #Copy to /tmp/toolpack_arm64_v8a_Android
+           rm -rf "/tmp/toolpack_arm64_v8a_Android" 2>/dev/null ; mkdir -p "/tmp/toolpack_arm64_v8a_Android"
+           find "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android" -maxdepth 1 -type f ! -name "*README*" ! -name "*BLAKE3SUM*" ! -name "*SHA256SUM*" -exec cp {} "/tmp/toolpack_arm64_v8a_Android" \;
+        continue-on-error: true
+
+      - name: rClone Upload to R2 (bin.prashansa.com.np/arm64_v8a_Android)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Upload
+          echo -e "\n[+] Uploading Results to R2 (rclone)\n"
+          #>/dev/null 2>&1
+          cd "/tmp/toolpack_arm64_v8a_Android"
+          rclone copy "." "r2:bin/arm64_v8a_Android/" --progress --check-first
+          #BLAKE3SUM
+          cd "/tmp/toolpack_arm64_v8a_Android"
+          /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_BLAKE3SUM"
+          rclone copyto "/tmp/arm64_v8a_Android_BLAKE3SUM" "r2:bin/arm64_v8a_Android/BLAKE3SUM.txt" --progress --check-first
+          #SHA256SUM
+          cd "/tmp/toolpack_arm64_v8a_Android"
+          /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_SHA256SUM"
+          rclone copyto "/tmp/arm64_v8a_Android_SHA256SUM" "r2:bin/arm64_v8a_Android/SHA256SUM.txt" --progress --check-first
+        continue-on-error: true
+#-----------------------------------------------------#
+      - name: Download (fetch) Binaries (x86_64_Linux)
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#        
+          #copy
+          find "$GITHUB_WORKSPACE/main/x86_64" -maxdepth 1 -type f ! -name "*README*" ! -name "*BLAKE3SUM*" ! -name "*SHA256SUM*" -exec cp {} "$HOME/bin" \; 
+          #list
+          ls "$HOME/bin" -lahr
+        continue-on-error: true
+
+      - name: Strip || Cleanup (x86_64_Linux)
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          cd "$HOME/bin"
+          #strip
+          find "$HOME/bin" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
+          #untar
+          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec tar xvzf {} -C "$HOME/bin" \; 2>/dev/null
+          #Remove tars
+          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec rm {} \; 2>/dev/null
+          # Strip && Rename anything with *_amd*
+          find "$HOME/bin" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
+          #Copy to /tmp/toolpack_x86_64
+          rm -rf "/tmp/toolpack_x86_64" 2>/dev/null ; mkdir -p "/tmp/toolpack_x86_64"
+          find "$HOME/bin" -maxdepth 1 -type f -exec cp {} "/tmp/toolpack_x86_64" \;
+        continue-on-error: true
+
+      - name: rClone Upload to R2 (bin.prashansa.com.np/x86_64_Linux) (x86_64_Linux)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Upload
+          echo -e "\n[+] Uploading Results to R2 (rclone)\n"
+          #>/dev/null 2>&1
+          cd "/tmp/toolpack_x86_64"
+          rclone copy "." "r2:bin/x86_64_Linux/" --progress --check-first
+          #BLAKE3SUM
+          cd "/tmp/toolpack_x86_64/"
+          /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_BLAKE3SUM"
+          rclone copyto "/tmp/x86_64_Linux_BLAKE3SUM" "r2:bin/x86_64_Linux/BLAKE3SUM.txt" --progress --check-first
+          #SHA256SUM
+          cd "/tmp/toolpack_x86_64/"
+          /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_SHA256SUM"
+          rclone copyto "/tmp/x86_64_Linux_SHA256SUM" "r2:bin/x86_64_Linux/SHA256SUM.txt" --progress --check-first
+        continue-on-error: true
+
+      - name: Archive Binaries (.7z)
+        run: |
+          cd /tmp ; set +e
+          # .7z
+          7z a -r -t7z -mx="9" -mmt="$(($(nproc)+1))" "/tmp/toolpack_x86_64.7z" "/tmp/toolpack_x86_64" 2>/dev/null
+          sha256sum "/tmp/toolpack_x86_64.7z"
+          du -sh "/tmp/toolpack_x86_64.7z"
+          #Storage
+          df / -h
+        continue-on-error: true
+
+      - name: rClone Upload Toolpacks to R2 (bin.prashansa.com.np) (x86_64_Linux)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Upload
+          echo -e "\n[+] Uploading Results to R2 (rclone)\n"
+          #>/dev/null 2>&1
+          rclone copyto "/tmp/toolpack_x86_64.7z" "r2:bin/x86_64_Linux/_toolpack_x86_64.7z" --progress --check-first
+          #BLAKE3SUM
+          cd "/tmp/"
+          /bin/bash -c 'PS4="$ ";b3sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_x86_64_BLAKE3SUM"
+          rclone copyto "/tmp/_toolpack_x86_64_BLAKE3SUM" "r2:bin/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt" --progress --check-first
+          #SHA256SUM
+          cd "/tmp/"
+          /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_x86_64_SHA256SUM"
+          rclone copyto "/tmp/_toolpack_x86_64_SHA256SUM" "r2:bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --progress --check-first
+        continue-on-error: true
+
+#------------------------------------------------------------------------------------#
       - name: Generate Repo Metadata (git-sizer)
         run: |
           #Presets
