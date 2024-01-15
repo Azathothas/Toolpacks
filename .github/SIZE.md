@@ -839,7 +839,7 @@
  5.9M   │ ├── fuzzuli
  5.9M   │ ├── fnm
  5.9M   │ ├── yalis
- 5.8M   │ ├── aretext
+ 5.9M   │ ├── aretext
  5.8M   │ ├── v6run
  5.8M   │ ├── hub
  5.7M   │ ├── wireproxy
@@ -1164,7 +1164,6 @@
   20K   │ ├── README.md
  4.0K   │ ├── SHA256SUM
  4.0K   │ └── BLAKE3SUM
-  36K   ├── SIZE.md
   16K   ├── README.md
   16K   └── INFO.md
 ```
