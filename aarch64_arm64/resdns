@@ -157,7 +157,7 @@ tmp_bin="$(mktemp -d)" && export tmp_bin="$tmp_bin"
 export PATH="$tmp_bin:$PATH"
 #anew
 if ! command -v anew >/dev/null 2>&1; then
-   curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/anew" -o "$tmp_bin/anew"
+   curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/anew" -o "$tmp_bin/anew"
    chmod +xwr "$tmp_bin/anew"
 fi
 if ! command -v dos2unix >/dev/null 2>&1; then
@@ -167,12 +167,12 @@ if ! command -v dos2unix >/dev/null 2>&1; then
 fi
 #dnsx
 if ! command -v dnsx >/dev/null 2>&1; then
-   curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/dnsx" -o "$tmp_bin/dnsx"
+   curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/dnsx" -o "$tmp_bin/dnsx"
    chmod +xwr "$tmp_bin/dnsx"
 fi
 #massdns
 if ! command -v massdns >/dev/null 2>&1; then
-   curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/massdns" -o "$tmp_bin/massdns"
+   curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/massdns" -o "$tmp_bin/massdns"
    chmod +xwr "$tmp_bin/massdns"
 else
    #Just in case, sometool do not accept non-standard path
@@ -180,12 +180,12 @@ else
 fi
 #puredns
 if ! command -v puredns >/dev/null 2>&1; then
-   curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/puredns" -o "$tmp_bin/puredns"
+   curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/puredns" -o "$tmp_bin/puredns"
    chmod +xwr "$tmp_bin/puredns"
 fi
 #shuffledns
 if ! command -v shuffledns >/dev/null 2>&1; then
-   curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/shuffledns" -o "$tmp_bin/shuffledns"
+   curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/shuffledns" -o "$tmp_bin/shuffledns"
    chmod +xwr "$tmp_bin/shuffledns"
 fi
 #sponge
@@ -196,7 +196,7 @@ if ! command -v sponge >/dev/null 2>&1; then
 fi
 #subxtract
 if ! command -v subxtract >/dev/null 2>&1; then
-   curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/subxtract" -o "$tmp_bin/subxtract"
+   curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/subxtract" -o "$tmp_bin/subxtract"
    chmod +xwr "$tmp_bin/subxtract"
 fi
 #----------------------------------------------------------------------------#
