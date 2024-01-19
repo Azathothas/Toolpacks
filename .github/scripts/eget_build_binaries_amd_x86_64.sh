@@ -269,7 +269,7 @@ fi
   #---------------#
   #boxxy : boxxy puts bad Linux applications in a box with only their files.
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/queer/boxxy" && cd "./boxxy"
-  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/boxxy" "$HOME/bin/boxxy" ; popd > /dev/null 2>&1
   #---------------#
@@ -1117,7 +1117,7 @@ fi
   #---------------#
   #kalker : calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals 
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/PaddiM8/kalker" && cd "./kalker"
-  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/kalker" "$HOME/bin/kalker" ; popd > /dev/null 2>&1
   #---------------#
@@ -1232,7 +1232,7 @@ fi
   #---------------#
   #macchina : system-info-fetch
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Macchina-CLI/macchina" && cd "./macchina"
-  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/macchina" "$HOME/bin/macchina" ; popd > /dev/null 2>&1
   #---------------#
@@ -1484,7 +1484,7 @@ fi
   #---------------#
   #ppfuzz : A fast tool to scan client-side prototype pollution vulnerability
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/dwisiswant0/ppfuzz" && cd "./ppfuzz"
-  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ppfuzz" "$HOME/bin/ppfuzz" ; popd > /dev/null 2>&1
   #---------------#
@@ -1638,7 +1638,7 @@ fi
   #---------------#
   #ripgen : Rust-based high performance domain permutation generator
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/resyncgg/ripgen" && cd "./ripgen"
-  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/ripgen" "$HOME/bin/ripgen" ; popd > /dev/null 2>&1
   #---------------#
@@ -1688,7 +1688,7 @@ fi
   #Rustscan : 🤖 The Modern Port Scanner 🤖  
   #GH Releases are outdated
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/RustScan/RustScan" && cd "./RustScan"
-  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/rustscan" "$HOME/bin/rustcan" ; popd > /dev/null 2>&1
   #---------------#
@@ -1746,7 +1746,7 @@ fi
   #---------------#
   #shellharden : The corrective bash syntax highlighter 
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/anordal/shellharden" && cd "./shellharden"
-  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-musl" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cross build --target "$TARGET" --release ; mv "./target/$TARGET/release/shellharden" "$HOME/bin/shellharden" ; popd > /dev/null 2>&1
   #---------------#
@@ -1949,7 +1949,7 @@ fi
   #---------------#
   #tailspin : 🌀 A log file highlighter 
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/bensadeh/tailspin" && cd "./tailspin"
-  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ;export RUSTFLAGS="-C target-feature=+crt-static"
+  export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
   sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
   cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/tspin" "$HOME/bin/tailspin" ; popd > /dev/null 2>&1
   #---------------#
