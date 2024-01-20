@@ -44,7 +44,6 @@
   31M   │ ├── edgevpn
   30M   │ ├── aws-nuke.tar.gz
   29M   │ ├── aix
-  29M   │ ├── tailscaled
   28M   │ ├── naabu
   28M   │ ├── zellij
   28M   │ ├── sqlc
@@ -53,9 +52,9 @@
   27M   │ ├── loki-canary
   27M   │ ├── qbittorrent-nox
   27M   │ ├── subfinder
+  27M   │ ├── netbird
   26M   │ ├── osmedeus
   26M   │ ├── cloudfox.tar.gz
-  25M   │ ├── netbird
   25M   │ ├── interactsh-client
   25M   │ ├── tlsx
   24M   │ ├── devbox
@@ -81,16 +80,17 @@
   21M   │ ├── tailscale_merged
   21M   │ ├── runme
   21M   │ ├── tuiarchiver
-  20M   │ ├── jira
   20M   │ ├── mapcidr
+  20M   │ ├── jira
+  20M   │ ├── alterx
   20M   │ ├── asnmap
   20M   │ ├── arduino-cli
+  20M   │ ├── tailscaled
   20M   │ ├── csvtk
   20M   │ ├── circumflex
   19M   │ ├── gh-dash
   19M   │ ├── cdncheck
   19M   │ ├── ruff
-  19M   │ ├── alterx
   19M   │ ├── s3scanner
   18M   │ ├── atuin
   18M   │ ├── jj
@@ -106,8 +106,8 @@
   17M   │ ├── chaos-client
   17M   │ ├── glow
   17M   │ ├── shuffledns
-  17M   │ ├── ct_monitor
   17M   │ ├── twingate-connector
+  17M   │ ├── ct_monitor
   17M   │ ├── lux
   16M   │ ├── etcdctl
   16M   │ ├── boltconn
@@ -144,17 +144,17 @@
   12M   │ ├── cent
   12M   │ ├── ffufw
   12M   │ ├── s3sync
-  11M   │ ├── multirootca
   11M   │ ├── mdcat
+  11M   │ ├── multirootca
   11M   │ ├── cfssl
   11M   │ ├── tty2web
   11M   │ ├── vopono
   11M   │ ├── micro
   11M   │ ├── scilla
+  11M   │ ├── nmctl
   11M   │ ├── jqp
   11M   │ ├── bucketloot
   11M   │ ├── godns
-  11M   │ ├── nmctl
   11M   │ ├── lazydocker
   10M   │ ├── tailscale
   10M   │ ├── fq
@@ -170,9 +170,9 @@
   10M   │ ├── vegeta
   10M   │ ├── supervisord
   10M   │ ├── runc
+  10M   │ ├── yazi
   10M   │ ├── gitui
 10.0M   │ ├── katana_staticx
-10.0M   │ ├── yazi
 10.0M   │ ├── pdfcpu
  9.9M   │ ├── tut
  9.8M   │ ├── gotty
@@ -207,8 +207,8 @@
  8.8M   │ ├── broot
  8.8M   │ ├── enc
  8.8M   │ ├── mubeng
- 8.8M   │ ├── ddns-go
  8.7M   │ ├── bluetuith
+ 8.7M   │ ├── ddns-go
  8.7M   │ ├── pping
  8.7M   │ ├── naabu_staticx
  8.6M   │ ├── rospo
@@ -219,6 +219,7 @@
  8.4M   │ ├── watchexec
  8.4M   │ ├── rustypaste
  8.3M   │ ├── x8
+ 8.3M   │ ├── noir
  8.3M   │ ├── zdns
  8.3M   │ ├── hostctl
  8.3M   │ ├── aria2c
@@ -226,7 +227,6 @@
  8.3M   │ ├── chisel
  8.2M   │ ├── getghrel
  8.2M   │ ├── stew
- 8.1M   │ ├── noir
  8.0M   │ ├── ladder
  8.0M   │ ├── planor
  8.0M   │ ├── assh
@@ -238,11 +238,11 @@
  7.8M   │ ├── pwninit
  7.8M   │ ├── cog
  7.8M   │ ├── ffuf
+ 7.7M   │ ├── rootlesskit
  7.7M   │ ├── gobuster
  7.7M   │ ├── coreutils
  7.7M   │ ├── sj
  7.7M   │ ├── gau
- 7.6M   │ ├── rootlesskit
  7.6M   │ ├── gosec
  7.5M   │ ├── wormhole-rs
  7.5M   │ ├── sake
@@ -255,11 +255,11 @@
  7.4M   │ ├── fingerprintx
  7.3M   │ ├── quickcert
  7.3M   │ ├── curl
+ 7.3M   │ ├── wstunnel
  7.3M   │ ├── cfssljson
+ 7.3M   │ ├── brename
  7.2M   │ ├── ctlwatcher
- 7.2M   │ ├── brename
  7.2M   │ ├── godnsbench
- 7.2M   │ ├── wstunnel
  7.1M   │ ├── recollapse_staticx
  7.0M   │ ├── dnslookup
  7.0M   │ ├── fnm
@@ -276,6 +276,7 @@
  6.6M   │ ├── gitleaks
  6.6M   │ ├── speedtest-go
  6.6M   │ ├── certgraph
+ 6.5M   │ ├── rga
  6.5M   │ ├── exiflooter
  6.5M   │ ├── direnv
  6.5M   │ ├── spk
@@ -294,7 +295,6 @@
  6.0M   │ ├── sshx
  5.9M   │ ├── go-simplehttpserver
  5.9M   │ ├── allxfr
- 5.9M   │ ├── rga
  5.8M   │ ├── nginx
  5.8M   │ ├── v6run
  5.8M   │ ├── systemctl-tui
@@ -328,8 +328,8 @@
  5.1M   │ ├── github-endpoints
  5.0M   │ ├── gitlab-subdomains
  5.0M   │ ├── spoof-dpi
- 5.0M   │ ├── gron
  5.0M   │ ├── rustcan
+ 5.0M   │ ├── gron
  5.0M   │ ├── subjs
  5.0M   │ ├── wth
  5.0M   │ ├── github-regexp
@@ -374,9 +374,9 @@
  4.3M   │ ├── mcfly
  4.3M   │ ├── fblog
  4.3M   │ ├── ppfuzz
+ 4.2M   │ ├── volta
  4.2M   │ ├── kubemetrics
  4.2M   │ ├── eefjsf
- 4.2M   │ ├── volta
  4.2M   │ ├── knoxssme
  4.2M   │ ├── bbtargets
  4.2M   │ ├── ssh-keysign
@@ -439,8 +439,8 @@
  2.9M   │ ├── bingrep
  2.9M   │ ├── logtimer
  2.9M   │ ├── gping
- 2.9M   │ ├── t-rec
  2.9M   │ ├── xcp
+ 2.9M   │ ├── t-rec
  2.8M   │ ├── dust
  2.8M   │ ├── mqttui
  2.8M   │ ├── rnr
@@ -494,6 +494,7 @@
  1.9M   │ ├── phantun-server
  1.9M   │ ├── revit
  1.9M   │ ├── gf
+ 1.8M   │ ├── tidy-viewer
  1.8M   │ ├── jless_staticx
  1.8M   │ ├── pueued
  1.8M   │ ├── mergerfs
@@ -506,9 +507,9 @@
  1.7M   │ ├── jaq
  1.7M   │ ├── age-keygen
  1.7M   │ ├── uip
+ 1.7M   │ ├── dropbear
  1.7M   │ ├── xargs-rs
  1.7M   │ ├── exa
- 1.7M   │ ├── dropbear
  1.6M   │ ├── inscope
  1.6M   │ ├── mmv
  1.6M   │ ├── zfxtop
@@ -552,9 +553,9 @@
  1.1M   │ ├── zstd
  1.1M   │ ├── zoxide
  1.1M   │ ├── killport
+ 1.1M   │ ├── fastfetch
  1.1M   │ ├── busybox
  1.1M   │ ├── awk
- 1.1M   │ ├── fastfetch
  1.0M   │ ├── jql
  980K   │ ├── reptyr
  948K   │ ├── hexyl
@@ -599,10 +600,10 @@
  4.0K   │ └── binfetch.cfg
  5.1G   ├─┬ aarch64_arm64
   95M   │ ├── usql
-  89M   │ ├── cloudlist
+  91M   │ ├── cloudlist
   86M   │ ├── promtail
   79M   │ ├── istioctl
-  65M   │ ├── nuclei
+  66M   │ ├── nuclei
   61M   │ ├── loki
   60M   │ ├── gitea.tar.gz
   58M   │ ├── wtfutil
@@ -635,15 +636,14 @@
   31M   │ ├── shellz
   30M   │ ├── edgevpn
   29M   │ ├── aix
-  28M   │ ├── tailscaled
   27M   │ ├── aws-nuke.tar.gz
   26M   │ ├── loki-canary
   26M   │ ├── podman
   26M   │ ├── sq
+  26M   │ ├── netbird
   25M   │ ├── subfinder
-  25M   │ ├── osmedeus
   25M   │ ├── qbittorrent-nox
-  24M   │ ├── netbird
+  25M   │ ├── osmedeus
   24M   │ ├── zellij
   24M   │ ├── interactsh-client
   23M   │ ├── tlsx
@@ -673,14 +673,15 @@
   20M   │ ├── tailscale_merged
   20M   │ ├── tuiarchiver
   20M   │ ├── mapcidr
+  20M   │ ├── alterx
   19M   │ ├── asnmap
   19M   │ ├── jira
   19M   │ ├── arduino-cli
+  19M   │ ├── tailscaled
   19M   │ ├── csvtk
   19M   │ ├── circumflex
   19M   │ ├── gh-dash
   18M   │ ├── cdncheck
-  18M   │ ├── alterx
   17M   │ ├── s3scanner
   17M   │ ├── podsync
   17M   │ ├── rekor-cli
@@ -694,8 +695,8 @@
   16M   │ ├── shuffledns
   16M   │ ├── atuin
   16M   │ ├── glow
-  16M   │ ├── ct_monitor
   16M   │ ├── ruff
+  16M   │ ├── ct_monitor
   16M   │ ├── lux
   16M   │ ├── etcdctl
   16M   │ ├── twingate-connector
@@ -723,9 +724,9 @@
   12M   │ ├── gost
   11M   │ ├── falconhound
   11M   │ ├── ffufw
-  11M   │ ├── qsv
   11M   │ ├── cent
   11M   │ ├── s3sync
+  11M   │ ├── qsv
   11M   │ ├── multirootca
   11M   │ ├── cfssl
   11M   │ ├── twingate-connectorctl
@@ -736,8 +737,8 @@
   10M   │ ├── jqp
   10M   │ ├── godns
   10M   │ ├── fq
-  10M   │ ├── lazydocker
   10M   │ ├── tailscale
+  10M   │ ├── lazydocker
   10M   │ ├── cheat
   10M   │ ├── git-lfs
   10M   │ ├── hakrawler
@@ -774,10 +775,10 @@
  8.4M   │ ├── mubeng
  8.4M   │ ├── gitui
  8.4M   │ ├── bluetuith
- 8.4M   │ ├── ddns-go
  8.3M   │ ├── pping
  8.3M   │ ├── enc
- 8.2M   │ ├── yazi
+ 8.3M   │ ├── yazi
+ 8.2M   │ ├── ddns-go
  8.2M   │ ├── rospo
  8.2M   │ ├── cut-cdn
  8.0M   │ ├── aria2c
@@ -804,8 +805,8 @@
  7.3M   │ ├── gau
  7.3M   │ ├── hxn
  7.3M   │ ├── git-cliff
+ 7.2M   │ ├── rootlesskit
  7.2M   │ ├── gosec
- 7.1M   │ ├── rootlesskit
  7.1M   │ ├── enola
  7.1M   │ ├── recollapse_staticx
  7.1M   │ ├── croc
@@ -814,11 +815,11 @@
  7.0M   │ ├── fingerprintx
  7.0M   │ ├── sake
  7.0M   │ ├── puredns
+ 7.0M   │ ├── oha
  7.0M   │ ├── watchexec
  6.9M   │ ├── nmap
- 6.8M   │ ├── oha
- 6.8M   │ ├── godnsbench
  6.8M   │ ├── brename
+ 6.8M   │ ├── godnsbench
  6.6M   │ ├── dnslookup
  6.6M   │ ├── fasttld
  6.6M   │ ├── rush
@@ -840,10 +841,10 @@
  5.9M   │ ├── fnm
  5.9M   │ ├── yalis
  5.9M   │ ├── aretext
+ 5.8M   │ ├── wstunnel
  5.8M   │ ├── v6run
  5.8M   │ ├── hub
  5.7M   │ ├── wireproxy
- 5.7M   │ ├── wstunnel
  5.7M   │ ├── eget
  5.6M   │ ├── go-simplehttpserver
  5.6M   │ ├── xplr
@@ -853,8 +854,8 @@
  5.5M   │ ├── xh
  5.5M   │ ├── wadl-dumper
  5.4M   │ ├── rescope
+ 5.4M   │ ├── cog
  5.4M   │ ├── sbctl
- 5.3M   │ ├── cog
  5.3M   │ ├── u-root
  5.2M   │ ├── wego
  5.2M   │ ├── rustypaste
@@ -944,13 +945,13 @@
  3.7M   │ ├── dns-doctor
  3.6M   │ ├── mcfly
  3.6M   │ ├── validtoml
+ 3.6M   │ ├── rga
  3.6M   │ ├── cherrybomb
  3.5M   │ ├── sshkeys
  3.5M   │ ├── tokei
  3.5M   │ ├── procs
- 3.4M   │ ├── rga
+ 3.4M   │ ├── volta
  3.3M   │ ├── dufs
- 3.3M   │ ├── volta
  3.3M   │ ├── lf
  3.3M   │ ├── fzf
  3.3M   │ ├── kanha
@@ -1050,6 +1051,7 @@
  1.5M   │ ├── htmlq
  1.5M   │ ├── mksub
  1.4M   │ ├── kondo
+ 1.4M   │ ├── tidy-viewer
  1.4M   │ ├── genscope
  1.4M   │ ├── v6disk
  1.3M   │ ├── miniserve
@@ -1128,17 +1130,17 @@
  4.0K   │ ├── subxtract
  4.0K   │ ├── sshd_config
  4.0K   │ └── scopeview
- 380M   ├─┬ aarch64_arm64_v8a_Android
+ 359M   ├─┬ aarch64_arm64_v8a_Android
   39M   │ ├── httpx
-  29M   │ ├── tailscaled_dynamic_native
-  28M   │ ├── tailscaled
   25M   │ ├── gowitness
   25M   │ ├── qbittorrent-nox
   25M   │ ├── dnsx
-  24M   │ ├── tailscale_merged_dynamic_native
   23M   │ ├── ngrok
   22M   │ ├── mapcidr
   20M   │ ├── tailscale_merged
+  20M   │ ├── tailscaled_dynamic_native
+  20M   │ ├── tailscale_merged_dynamic_native
+  19M   │ ├── tailscaled
   13M   │ ├── filebrowser
   11M   │ ├── godns
   10M   │ ├── tailscale_dynamic_native
