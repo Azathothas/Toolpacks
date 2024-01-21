@@ -5,7 +5,7 @@ on:
   #push:
   workflow_dispatch:
   schedule:
-    - cron: "45 02 * * *"  # 02:45 AM UTC --> 08:30 AM Morning NPT
+    - cron: "45 03 * * *"  # 02:45 AM UTC --> 09:30 AM Morning NPT
 
 env:
   USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
@@ -113,7 +113,7 @@ jobs:
 #------------------------------------------------------------------------------------#
 #-----------------------------------------------------#
 #-----------------------------------------------------#
-      - name: Strip || Cleanup (arm64_v8a_Android)
+      - name: Fetch || Cleanup (arm64_v8a_Android) Bins
         run: |
            #Presets
            set -x ; set +e
@@ -142,6 +142,10 @@ jobs:
           #>/dev/null 2>&1
           cd "/tmp/toolpack_arm64_v8a_Android"
           rclone copy "." "r2:/bin/arm64_v8a_Android/" --progress --check-first
+          #File
+          cd "/tmp/toolpack_arm64_v8a_Android"
+          /bin/bash -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_FILE"
+          rclone copyto "/tmp/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --progress --check-first
           #BLAKE3SUM
           cd "/tmp/toolpack_arm64_v8a_Android"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_BLAKE3SUM"
@@ -151,9 +155,19 @@ jobs:
           /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_SHA256SUM"
           rclone copyto "/tmp/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --progress --check-first
         continue-on-error: true
+
+      - name: Cleanup (arm64_v8a_Android) Bins
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #Cleanup
+          rm -rf "/tmp/toolpack_arm64_v8a_Android" 2>/dev/null
+          rm -rf "/tmp/toolpack_arm64_v8a_Android.7z" 2>/dev/null
+        continue-on-error: true
 #-----------------------------------------------------#        
 #-----------------------------------------------------#
-      - name: Strip || Cleanup (aarch64_arm64_Linux)
+      - name: Fetch || Cleanup (aarch64_arm64_Linux) Bins
         run: |
            #Presets
            set -x ; set +e
@@ -189,6 +203,10 @@ jobs:
           #>/dev/null 2>&1
           cd "/tmp/toolpack_aarch64_arm64"
           rclone copy "." "r2:/bin/aarch64_arm64_Linux/" --progress --check-first
+          #File
+          cd "/tmp/toolpack_aarch64_arm64"
+          /bin/bash -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "/tmp/aarch64_arm64_Linux_FILE"
+          rclone copyto "/tmp/aarch64_arm64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --progress --check-first
           #BLAKE3SUM
           cd "/tmp/toolpack_aarch64_arm64"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/aarch64_arm64_Linux_BLAKE3SUM"
@@ -199,7 +217,7 @@ jobs:
           rclone copyto "/tmp/aarch64_arm64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --progress --check-first
         continue-on-error: true
 
-      - name: Archive Binaries (.7z)
+      - name: Archive Binaries (.7z) (aarch64_arm64_Linux) Bins
         run: |
           cd /tmp ; set +e
           # .7z
@@ -230,13 +248,23 @@ jobs:
           /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_aarch64_arm64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_aarch64_arm64_SHA256SUM"
           rclone copyto "/tmp/_toolpack_aarch64_arm64_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64_SHA256SUM.txt" --progress --check-first
         continue-on-error: true
+
+      - name: Cleanup (aarch64_arm64_Linux) Bins
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #Cleanup
+          rm -rf "/tmp/toolpack_aarch64_arm64" 2>/dev/null
+          rm -rf "/tmp/toolpack_aarch64_arm64.7z" 2>/dev/null
+        continue-on-error: true        
 #-----------------------------------------------------#        
 #-----------------------------------------------------#
-      - name: Download (fetch) Binaries (x86_64_Linux)
+      - name: Fetch (x86_64_Linux) Binaries
         run: |
           #presets
           set -x ; set +e
-          #-------------#        
+          #-------------#
           #copy
           mkdir -p "$HOME/bin"
           find "$GITHUB_WORKSPACE/main/x86_64" -maxdepth 1 -type f ! -name "*README*" ! -name "*BLAKE3SUM*" ! -name "*SHA256SUM*" -exec cp {} "$HOME/bin" \; 
@@ -244,7 +272,7 @@ jobs:
           ls "$HOME/bin" -lahr
         continue-on-error: true
 
-      - name: Strip || Cleanup (x86_64_Linux)
+      - name: Strip || Cleanup (x86_64_Linux) Bins
         run: |
           #presets
           set -x ; set +e
@@ -275,6 +303,10 @@ jobs:
           #>/dev/null 2>&1
           cd "/tmp/toolpack_x86_64"
           rclone copy "." "r2:/bin/x86_64_Linux/" --progress --check-first
+          #File
+          cd "/tmp/toolpack_x86_64"
+          /bin/bash -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_FILE"
+          rclone copyto "/tmp/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --progress --check-first
           #BLAKE3SUM
           cd "/tmp/toolpack_x86_64/"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_BLAKE3SUM"
@@ -285,7 +317,7 @@ jobs:
           rclone copyto "/tmp/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --progress --check-first
         continue-on-error: true
 
-      - name: Archive Binaries (.7z)
+      - name: Archive Binaries (.7z) (x86_64_Linux) Bins
         run: |
           cd /tmp ; set +e
           # .7z
@@ -296,7 +328,7 @@ jobs:
           df / -h
         continue-on-error: true
 
-      - name: rClone Upload Toolpacks to R2 (bin.ajam.dev) (x86_64_Linux)
+      - name: rClone Upload Toolpacks to R2 (bin.ajam.dev/x86_64_Linux)
         run: |
           # Presets
           set -x ; set +e
@@ -316,6 +348,16 @@ jobs:
           /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_x86_64_SHA256SUM"
           rclone copyto "/tmp/_toolpack_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --progress --check-first
         continue-on-error: true
+
+      - name: Cleanup (x86_64_Linux) Bins
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #Cleanup
+          rm -rf "/tmp/toolpack_x86_64" 2>/dev/null
+          rm -rf "/tmp/toolpack_x86_64.7z" 2>/dev/null
+        continue-on-error: true          
 #-----------------------------------------------------#
 #-----------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -373,3 +415,5 @@ jobs:
           commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
           commit_message: "✅ 🐧🧹 🖳🗑️"
           #push_options: '--force'
+#EOF
+#------------------------------------------------------------------------------------#
