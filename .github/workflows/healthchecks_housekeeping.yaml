@@ -5,7 +5,7 @@ on:
   #push:
   workflow_dispatch:
   schedule:
-    - cron: "45 03 * * *"  # 02:45 AM UTC --> 09:30 AM Morning NPT
+    - cron: "45 03 * * *"  # 03:45 AM UTC --> 09:30 AM Morning NPT
 
 env:
   USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
