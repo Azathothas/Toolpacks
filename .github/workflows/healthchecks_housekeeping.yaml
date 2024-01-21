@@ -153,7 +153,7 @@ jobs:
         continue-on-error: true
 #-----------------------------------------------------#        
 #-----------------------------------------------------#
-      - name: Strip || Cleanup (arm64_v8a_Linux)
+      - name: Strip || Cleanup (aarch64_arm64_Linux)
         run: |
            #Presets
            set -x ; set +e
@@ -161,13 +161,20 @@ jobs:
            cd "$GITHUB_WORKSPACE/main/aarch64_arm64"
            #Install Deps
            sudo apt install binutils-aarch64-linux-gnu -y
+           #Setup Dirs
+           rm -rf "/tmp/toolpack_aarch64_arm64" 2>/dev/null ; mkdir -p "/tmp/toolpack_aarch64_arm64"
+           #Copy to /tmp/toolpack_aarch64_arm64
+           find "$GITHUB_WORKSPACE/main/aarch64_arm64/" -maxdepth 1 -type f ! -name "*README*" ! -name "*BLAKE3SUM*" ! -name "*SHA256SUM*" -exec cp {} "/tmp/toolpack_aarch64_arm64" \;
            #strip
-           find "$GITHUB_WORKSPACE/main/aarch64_arm64/" -maxdepth 1 -type f -exec aarch64-linux-gnu-objcopy --preserve-dates --verbose --strip-all {} \; 2>/dev/null
+           find "/tmp/toolpack_aarch64_arm64" -maxdepth 1 -type f -exec aarch64-linux-gnu-objcopy --preserve-dates --verbose --strip-all {} \; 2>/dev/null
+           #Untar
+           find "/tmp/toolpack_aarch64_arm64" -maxdepth 1 -type f -name '*tar.gz' -exec tar xvzf {} -C "/tmp/toolpack_aarch64_arm64" \; 2>/dev/null
+           #Remove tars
+           find "/tmp/toolpack_aarch64_arm64" -maxdepth 1 -type f -name '*tar.gz' -exec rm {} \; 2>/dev/null
+           #strip again
+           find "/tmp/toolpack_aarch64_arm64" -maxdepth 1 -type f -exec aarch64-linux-gnu-objcopy --preserve-dates --verbose --strip-all {} \; 2>/dev/null
            # Strip && Rename anything with *_amd*
            # find "$GITHUB_WORKSPACE/main/aarch64_arm64" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64//"); mv "$1" "$newname"' sh {} \;
-           #Copy to /tmp/toolpack_aarch64_arm64
-           rm -rf "/tmp/toolpack_aarch64_arm64" 2>/dev/null ; mkdir -p "/tmp/toolpack_aarch64_arm64"
-           find "$GITHUB_WORKSPACE/main/toolpack_aarch64_arm64" -maxdepth 1 -type f ! -name "*README*" ! -name "*BLAKE3SUM*" ! -name "*SHA256SUM*" -exec cp {} "/tmp/toolpack_aarch64_arm64" \;
         continue-on-error: true
 
       - name: rClone Upload to R2 (bin.ajam.dev/aarch64_arm64_Linux)
