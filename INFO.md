@@ -27,6 +27,12 @@
 > - Raw **`metadata`** containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
 ---
 #### 🔽 Download 🔽
+- ##### GUI
+> - Visit [bin.ajam.dev](https://bin.ajam.dev)
+> ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/c8417f69-b210-4e15-bc2e-bf82fa85fc43)
+> ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/427bf538-6389-4419-a35c-911568165a1a)
+---
+- ##### CLI
 > ℹ️ Recommended ℹ️ : Use [**`Hysp`**](https://github.com/pwnwriter/hysp) if you want to skip everything below, since hysp already [uses this repo as it's source.](https://github.com/metis-os/hysp-pkgs)
 > 1. Install [**`eget`**](https://github.com/zyedidia/eget)
 > > ```bash
@@ -35,12 +41,12 @@
 > > 
 > > !# As $USER
 > > mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
-> > curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> > wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> > curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> > wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
 > > 
 > > !# As ROOT
-> > sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> > sudo wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> > sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> > sudo wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
 > > #--------------------------------------------------------------------------------------------#
 > > 
 > > #--------------------------------------------------------------------------------------------#
@@ -48,12 +54,12 @@
 > > 
 > > !# As $USER
 > > mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
-> > curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> > wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> > curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> > wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
 > > 
 > > !# As ROOT
-> > sudo curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> > sudo wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> > sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> > sudo wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
 > > #--------------------------------------------------------------------------------------------#
 > >
 > > #--------------------------------------------------------------------------------------------#
@@ -61,8 +67,8 @@
 > > 
 > > !# As $USER (TERMUX)
 > > # $PREFIX:/data/data/com.termux/files/usr
-> > curl -qfSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64_v8a_Android/eget" -o "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
-> > wget -q "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64_v8a_Android/eget" -O "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
+> > curl -qfSL "https://bin.ajam.dev/arm64_v8a_Android/eget" -o "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
+> > wget -q "https://bin.ajam.dev/arm64_v8a_Android/eget" -O "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
 > > !# Root requires remounting /system/bin as RWR (NOT RECOMMENDED)
 > > #--------------------------------------------------------------------------------------------#
 > > ```
@@ -72,20 +78,20 @@
 > > ❯ amd || x86_64 (Linux) 
 > > 
 > > !# As $USER
-> > eget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" --to "$HOME/bin/7z"
+> > eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "$HOME/bin/7z"
 > > 
 > > !# As ROOT
-> > sudo eget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/x86_64/7z" --to "/usr/local/bin/7z"
+> > sudo eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "/usr/local/bin/7z"
 > > #--------------------------------------------------------------------------------------------#
 > > 
 > > #--------------------------------------------------------------------------------------------#
 > > ❯ arm64 || aarch64 (Linux) 
 > > 
 > > !# As $USER
-> > eget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64/7z" --to "$HOME/bin/7z"
+> > eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "$HOME/bin/7z"
 > > 
 > > !# As ROOT
-> > sudo eget "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/aarch64_arm64/7z" --to "/usr/local/bin/7z"
+> > sudo eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "/usr/local/bin/7z"
 > > ```
 > ---
 > - #### [**Linux `amd x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64)
