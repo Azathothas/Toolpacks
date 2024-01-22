@@ -289,14 +289,14 @@ jobs:
       - name: Go Build --> (SAMPLE_linux/amd64)
         run: |
           pushd "$(mktemp -d)" && git clone "https://github.com/SAMPLE/SAMPLE" && cd "./SAMPLE"
-          CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+          CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
           mv "./SAMPLE" "/tmp/x86_64/SAMPLE" ; popd ; go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
 
       - name: Go Build --> (SAMPLE_linux/arm64)
         run: |
           pushd "$(mktemp -d)" && git clone "https://github.com/SAMPLE/SAMPLE" && cd "./SAMPLE"
-          export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-s -w -extldflags '-static'"
+          export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
           mv "./SAMPLE" "/tmp/aarch64_arm64/SAMPLE" ; popd ; go clean -cache -fuzzcache -modcache -testcache
         continue-on-error: true
 
