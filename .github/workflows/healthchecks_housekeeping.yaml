@@ -359,7 +359,6 @@ jobs:
           rm -rf "/tmp/toolpack_x86_64.7z" 2>/dev/null
         continue-on-error: true          
 #-----------------------------------------------------#
-#-----------------------------------------------------#
 #------------------------------------------------------------------------------------#
       - name: Generate Repo Metadata (git-sizer)
         run: |
@@ -415,5 +414,57 @@ jobs:
           commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
           commit_message: "✅ 🐧🧹 🖳🗑️"
           #push_options: '--force'
-#EOF
+        continue-on-error: true          
+#-----------------------------------------------------#
+      - name: rClone Generate Metadata (bin.ajam.dev)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          #--------------------#
+          ##arm64_v8a_Android##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bbytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/arm64_v8a_Android/METADATA.json"
+          #--------------------#
+          ##aarch64_arm64_Linux##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bbytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Baseutils
+          rclone lsjson "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bbytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/aarch64_arm64_Linux/METADATA.json"
+          rclone copyto "./metadata_Baseutils.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/METADATA.json"
+          #--------------------#
+          ##x86_64_Linux##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bbytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Baseutils
+          rclone lsjson "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bbytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/x86_64_Linux/METADATA.json"
+          rclone copyto "./metadata_Baseutils.json" "r2:/bin/x86_64_Linux/Baseutils/METADATA.json"
+          #--------------------#
+          ##x64_Windows##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bbytes), ModTime, Source: "https://bin.ajam.dev/x64_Windows/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/x64_Windows/METADATA.json"
+        continue-on-error: true
+#EOF        
 #------------------------------------------------------------------------------------#
