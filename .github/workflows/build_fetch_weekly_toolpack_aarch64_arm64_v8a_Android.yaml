@@ -252,7 +252,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid="
           file "./anew" ; aarch64-linux-gnu-readelf -d "./anew" ; ls -lah "./anew"
           #Move
           mv "./anew" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/anew" ; popd
@@ -298,7 +298,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./certstream"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" -o "./certstream"
           file "./certstream" ; aarch64-linux-gnu-readelf -d "./certstream" ; ls -lah "./certstream"
           #Move
           mv "./certstream" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/certstream" ; popd
@@ -321,7 +321,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./certstream-server-go" "./cmd/main.go"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" -o "./certstream-server-go" "./cmd/main.go"
           file "./certstream-server-go" ; aarch64-linux-gnu-readelf -d "./certstream-server-go" ; ls -lah "./certstream-server-go"
           #Move
           mv "./certstream-server-go" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/certstream-server-go" ; popd
@@ -344,7 +344,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid="
           file "./crt" ; aarch64-linux-gnu-readelf -d "./crt" ; ls -lah "./crt"
           #Move
           mv "./crt" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/crt" ; popd
@@ -367,7 +367,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/dnsx"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/dnsx"
           file "./dnsx" ; aarch64-linux-gnu-readelf -d "./dnsx" ; ls -lah "./dnsx"
           #Move
           mv "./dnsx" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/dnsx" ; popd
@@ -390,7 +390,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid="
           #Move
           mv "./eget" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/eget" ; popd
           #Clean Cache
@@ -412,7 +412,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/encode"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/encode"
           file "./encode" ; aarch64-linux-gnu-readelf -d "./encode" ; ls -lah "./encode"
           #Move
           mv "./encode" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/encode" ; popd
@@ -465,7 +465,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid="
           file "./ffuf" ; aarch64-linux-gnu-readelf -d "./ffuf" ; ls -lah "./ffuf"
           #Move
           mv "./ffuf" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/ffuf" ; popd
@@ -497,7 +497,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid="
           file "./filebrowser" ; aarch64-linux-gnu-readelf -d "./filebrowser" ; ls -lah "./filebrowser"
           #Move
           mv "./filebrowser" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/filebrowser" ; popd
@@ -520,7 +520,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/godns"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/godns"
           file "./godns" ; aarch64-linux-gnu-readelf -d "./godns" ; ls -lah "./godns"
           #Move
           mv "./godns" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/godns" ; popd
@@ -543,7 +543,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/gost"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/gost"
           file "./gost" ; aarch64-linux-gnu-readelf -d "./gost" ; ls -lah "./gost"
           #Move
           mv "./gost" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/gost" ; popd
@@ -566,7 +566,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid="
           file "./gowitness" ; aarch64-linux-gnu-readelf -d "./gowitness" ; ls -lah "./gowitness"
           #Move
           mv "./gowitness" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/gowitness" ; popd
@@ -612,7 +612,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/httpx"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/httpx"
           file "./httpx" ; aarch64-linux-gnu-readelf -d "./httpx" ; ls -lah "./httpx"
           #Move
           mv "./httpx" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/httpx" ; popd
@@ -660,7 +660,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./inscope"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" -o "./inscope"
           file "./inscope" ; aarch64-linux-gnu-readelf -d "./inscope" ; ls -lah "./inscope"
           #Move
           mv "./inscope" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/inscope" ; popd
@@ -739,7 +739,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/mapcidr"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/mapcidr"
           file "./mapcidr" ; aarch64-linux-gnu-readelf -d "./mapcidr" ; ls -lah "./mapcidr"
           #Move
           mv "./mapcidr" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/mapcidr" ; popd
@@ -771,7 +771,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid="
           #Move
           mv "./pspy" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/pspy" ; popd
           #Clean Cache
@@ -805,7 +805,7 @@ jobs:
           #Compile
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" -o "./scopegen"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" -o "./scopegen"
           file "./scopegen" ; aarch64-linux-gnu-readelf -d "./scopegen" ; ls -lah "./scopegen"
           #Move
           mv "./scopegen" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/scopegen" ; popd
@@ -865,11 +865,11 @@ jobs:
           # CGO_ENABLED must be enabled to use android native libs, else things like dns etc won't work
           # Binaries compiled this way are always dynamically linked to /system/bin/linker64
           #TailScale
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/tailscale"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/tailscale"
           #TailScaled
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w" "./cmd/tailscaled"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -v -ldflags="-s -w -buildid=" "./cmd/tailscaled"
           #TailScale merged: https://tailscale.com/kb/1207/small-tailscale/
-          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -o "./tailscale.combined" -v -ldflags="-s -w" -tags "ts_omit_aws,ts_omit_bird,ts_omit_tap,ts_omit_kube,ts_include_cli" "./cmd/tailscaled"
+          GOOS=android GOARCH=arm64 CGO_ENABLED=1 go build -o "./tailscale.combined" -v -ldflags="-s -w -buildid=" -tags "ts_omit_aws,ts_omit_bird,ts_omit_tap,ts_omit_kube,ts_include_cli" "./cmd/tailscaled"
           #Move
           mv "./tailscale" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscale_dynamic_native"
           mv "./tailscaled" "$GITHUB_WORKSPACE/main/aarch64_arm64_v8a_Android/tailscaled_dynamic_native"
