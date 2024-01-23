@@ -466,5 +466,26 @@ jobs:
           #Update Metadata
           rclone copyto "./metadata.json" "r2:/bin/x64_Windows/METADATA.json"
         continue-on-error: true
-#EOF        
+#------------------------------------------------------------------------------------#
+      - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #chdir to Repo
+          cd "$GITHUB_WORKSPACE/main"
+          #Git pull
+          git pull origin main --no-edit 2>/dev/null
+          #Del Bloat
+          rm -rf "$(pwd)/.git"
+          rm -rf "$(pwd)/aarch64_arm64"
+          rm -rf "$(pwd)/aarch64_arm64_v8a_Android"
+          rm -rf "$(pwd)/x86_64"
+          #Upload to Pub
+          echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
+          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --progress --check-first
+        continue-on-error: true
+#EOF
 #------------------------------------------------------------------------------------#
