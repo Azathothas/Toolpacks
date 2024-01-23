@@ -840,7 +840,7 @@
  5.9M   │ ├── fuzzuli
  5.9M   │ ├── fnm
  5.9M   │ ├── yalis
- 5.9M   │ ├── aretext
+ 5.8M   │ ├── aretext
  5.8M   │ ├── wstunnel
  5.8M   │ ├── v6run
  5.8M   │ ├── hub
