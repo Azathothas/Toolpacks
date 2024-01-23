@@ -1,6 +1,6 @@
 <!-- This can be changed -->
 <p align="center">
-    <a href="https://github.com/Azathothas/Toolpacks">
+    <a href="https://bin.ajam.dev">
         <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/d226c553-1835-464c-8908-fe293d3aac3c" width="100"></a>
     <br>
     <b><strong> <a href="https://github.com/Azathothas/Toolpacks">Statically Compiled Binaries</a></code></strong></b>
@@ -25,10 +25,12 @@
 |[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64)|531| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
 
 > - Raw **`metadata`** containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
+> - Raw **`metadata`** containing info for _sources_ etc is available as **JSON** on [bin.ajam.dev](https://bin.ajam.dev)
 ---
 #### 🔽 Download 🔽
 - ##### GUI
 > - Visit [bin.ajam.dev](https://bin.ajam.dev)
+> > Note: The dir listing may not list everything. Make **sure to check `METADATA.json`**
 > ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/c8417f69-b210-4e15-bc2e-bf82fa85fc43)
 > ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/427bf538-6389-4419-a35c-911568165a1a)
 ---

@@ -1147,7 +1147,7 @@
   10M   │ ├── certstream-server-go
  8.2M   │ ├── ffuf
  6.5M   │ ├── eget
- 6.4M   │ ├── static-web-server
+ 6.5M   │ ├── static-web-server
  5.9M   │ ├── hxn
  4.6M   │ ├── crt
  4.5M   │ ├── certstream
@@ -1162,7 +1162,7 @@
  1.4M   │ ├── anew
  1.3M   │ ├── miniserve
  248K   │ ├── sudo
-  20K   │ ├── README.md
+  16K   │ ├── README.md
  4.0K   │ ├── SHA256SUM
  4.0K   │ └── BLAKE3SUM
   16K   ├── README.md
