@@ -840,7 +840,7 @@
  5.9M   │ ├── fuzzuli
  5.9M   │ ├── fnm
  5.9M   │ ├── yalis
- 5.8M   │ ├── aretext
+ 5.9M   │ ├── aretext
  5.8M   │ ├── wstunnel
  5.8M   │ ├── v6run
  5.8M   │ ├── hub
@@ -1130,17 +1130,17 @@
  4.0K   │ ├── subxtract
  4.0K   │ ├── sshd_config
  4.0K   │ └── scopeview
- 359M   ├─┬ aarch64_arm64_v8a_Android
-  39M   │ ├── httpx
+ 357M   ├─┬ aarch64_arm64_v8a_Android
+  40M   │ ├── httpx
   25M   │ ├── gowitness
   25M   │ ├── qbittorrent-nox
   25M   │ ├── dnsx
   23M   │ ├── ngrok
   22M   │ ├── mapcidr
-  20M   │ ├── tailscale_merged
   20M   │ ├── tailscaled_dynamic_native
   20M   │ ├── tailscale_merged_dynamic_native
   19M   │ ├── tailscaled
+  19M   │ ├── tailscale_merged
   13M   │ ├── filebrowser
   11M   │ ├── godns
   10M   │ ├── tailscale_dynamic_native
