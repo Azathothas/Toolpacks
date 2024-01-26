@@ -615,11 +615,11 @@
   47M   │ ├── ffmpeg
   47M   │ ├── ffprobe
   46M   │ ├── matterbridge
+  44M   │ ├── trufflehog.tar.gz
   44M   │ ├── rekor-server
-  43M   │ ├── trufflehog.tar.gz
   41M   │ ├── gh
   37M   │ ├── caddy
-  35M   │ ├── httpx
+  36M   │ ├── httpx
   35M   │ ├── containerd
   35M   │ ├── crictl
   34M   │ ├── proxify
@@ -636,8 +636,8 @@
   30M   │ ├── edgevpn
   29M   │ ├── aix
   27M   │ ├── aws-nuke.tar.gz
+  27M   │ ├── podman
   26M   │ ├── loki-canary
-  26M   │ ├── podman
   26M   │ ├── sq
   26M   │ ├── netbird
   25M   │ ├── subfinder
@@ -646,9 +646,9 @@
   24M   │ ├── zellij
   24M   │ ├── interactsh-client
   23M   │ ├── tlsx
+  23M   │ ├── devbox
   23M   │ ├── dalfox
   23M   │ ├── algernon
-  23M   │ ├── devbox
   23M   │ ├── cloudfox.tar.gz
   23M   │ ├── vhs
   23M   │ ├── relic
@@ -668,11 +668,10 @@
   21M   │ ├── etcd
   21M   │ ├── reader
   21M   │ ├── syncthing
-  20M   │ ├── runme
-  20M   │ ├── tailscale_merged
   20M   │ ├── tuiarchiver
   20M   │ ├── mapcidr
   20M   │ ├── alterx
+  20M   │ ├── runme
   19M   │ ├── asnmap
   19M   │ ├── jira
   19M   │ ├── arduino-cli
@@ -681,13 +680,14 @@
   19M   │ ├── circumflex
   19M   │ ├── gh-dash
   18M   │ ├── cdncheck
+  18M   │ ├── tailscale_merged
   17M   │ ├── s3scanner
   17M   │ ├── podsync
   17M   │ ├── rekor-cli
   17M   │ ├── sish
   17M   │ ├── notify
-  17M   │ ├── sunbeam
   17M   │ ├── luet
+  17M   │ ├── sunbeam
   17M   │ ├── miniflux
   17M   │ ├── mailpit
   17M   │ ├── chaos-client
@@ -712,19 +712,19 @@
   13M   │ ├── filebrowser
   13M   │ ├── findomain
   13M   │ ├── hednsextractor
+  13M   │ ├── rqbit
   13M   │ ├── listmonk
   13M   │ ├── etcdutl
-  13M   │ ├── rqbit
   13M   │ ├── wiretap
   13M   │ ├── smap
   13M   │ ├── zgrab2
   12M   │ ├── yip
   12M   │ ├── boltconn
+  12M   │ ├── s3sync
   12M   │ ├── gost
   11M   │ ├── falconhound
   11M   │ ├── ffufw
   11M   │ ├── cent
-  11M   │ ├── s3sync
   11M   │ ├── qsv
   11M   │ ├── multirootca
   11M   │ ├── cfssl
@@ -743,9 +743,9 @@
   10M   │ ├── hakrawler
   10M   │ ├── sshportal
  9.8M   │ ├── supervisord
+ 9.7M   │ ├── vopono
  9.7M   │ ├── vegeta
  9.6M   │ ├── runc
- 9.5M   │ ├── vopono
  9.5M   │ ├── gotty
  9.4M   │ ├── pdfcpu
  9.4M   │ ├── certstream-server-go
@@ -776,11 +776,11 @@
  8.4M   │ ├── bluetuith
  8.3M   │ ├── pping
  8.3M   │ ├── enc
- 8.3M   │ ├── yazi
  8.2M   │ ├── ddns-go
  8.2M   │ ├── rospo
  8.2M   │ ├── cut-cdn
- 8.0M   │ ├── aria2c
+ 8.2M   │ ├── yazi
+ 8.1M   │ ├── aria2c
  7.9M   │ ├── gocurl
  7.9M   │ ├── zdns
  7.9M   │ ├── openrisk
@@ -821,6 +821,7 @@
  6.8M   │ ├── godnsbench
  6.6M   │ ├── dnslookup
  6.6M   │ ├── fasttld
+ 6.6M   │ ├── wstunnel
  6.6M   │ ├── rush
  6.6M   │ ├── git-log
  6.6M   │ ├── gofireprox
@@ -840,7 +841,6 @@
  5.9M   │ ├── fnm
  5.9M   │ ├── yalis
  5.9M   │ ├── aretext
- 5.8M   │ ├── wstunnel
  5.8M   │ ├── v6run
  5.8M   │ ├── hub
  5.7M   │ ├── wireproxy
@@ -891,9 +891,9 @@
  4.6M   │ ├── agg
  4.6M   │ ├── dnstake
  4.6M   │ ├── mani
+ 4.6M   │ ├── vtm
  4.6M   │ ├── actionlint
  4.5M   │ ├── mantra
- 4.5M   │ ├── vtm
  4.5M   │ ├── yataf
  4.5M   │ ├── gxss
  4.5M   │ ├── analyticsrelationships
@@ -926,8 +926,8 @@
  3.9M   │ ├── eefjsf
  3.9M   │ ├── knoxssme
  3.9M   │ ├── bbtargets
+ 3.9M   │ ├── systemctl-tui
  3.9M   │ ├── tahm
- 3.8M   │ ├── systemctl-tui
  3.8M   │ ├── njs
  3.8M   │ ├── realm
  3.8M   │ ├── overmind
@@ -951,8 +951,8 @@
  3.5M   │ ├── procs
  3.4M   │ ├── volta
  3.3M   │ ├── dufs
- 3.3M   │ ├── lf
  3.3M   │ ├── fzf
+ 3.3M   │ ├── lf
  3.3M   │ ├── kanha
  3.2M   │ ├── passdetective
  3.2M   │ ├── pfetch-rs
@@ -976,11 +976,11 @@
  2.8M   │ ├── just
  2.8M   │ ├── agrind
  2.8M   │ ├── nping
+ 2.8M   │ ├── tailspin
  2.8M   │ ├── iperf3
  2.7M   │ ├── jaq
  2.7M   │ ├── gs-netcat
  2.7M   │ ├── ncat
- 2.7M   │ ├── tailspin
  2.7M   │ ├── shfmt
  2.6M   │ ├── ppfuzz
  2.6M   │ ├── lsd
@@ -998,7 +998,7 @@
  2.4M   │ ├── dsieve
  2.4M   │ ├── pueue
  2.4M   │ ├── tz
- 2.3M   │ ├── mqttui
+ 2.4M   │ ├── mqttui
  2.3M   │ ├── gping
  2.3M   │ ├── dust
  2.2M   │ ├── onetun
@@ -1012,8 +1012,8 @@
  2.1M   │ ├── pkgtop
  2.0M   │ ├── sk
  2.0M   │ ├── gosu
- 2.0M   │ ├── udpx
  2.0M   │ ├── tlrc
+ 2.0M   │ ├── udpx
  2.0M   │ ├── hakrevdns
  2.0M   │ ├── sd
  2.0M   │ ├── unf
@@ -1090,10 +1090,10 @@
  916K   │ ├── fuse-overlayfs
  908K   │ ├── dropbearkey
  908K   │ ├── dropbearconvert
- 860K   │ ├── jql
+ 868K   │ ├── jql
  824K   │ ├── toybox
  768K   │ ├── svg-hush
- 744K   │ ├── b3sum
+ 756K   │ ├── b3sum
  716K   │ ├── ds
  696K   │ ├── csview
  688K   │ ├── hexyl
@@ -1111,7 +1111,7 @@
  344K   │ ├── sftp
  260K   │ ├── sftp-server
  256K   │ ├── screenfetch
- 216K   │ ├── README.md
+ 204K   │ ├── README.md
  184K   │ ├── asn
  172K   │ ├── minisign
  168K   │ ├── linuxwave
