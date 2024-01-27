@@ -44,7 +44,7 @@ fi
 if ! command -v fasttld >/dev/null 2>&1; then
    fasttld_bin="$(mktemp)"
    export fasttld_bin="$fasttld_bin"
-   curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/fasttld" -o "$fasttld_bin"
+   curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/fasttld" -o "$fasttld_bin"
    chmod +xwr "$fasttld_bin"
 else
   export fasttld_bin="$(which fasttld)"
