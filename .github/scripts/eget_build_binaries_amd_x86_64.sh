@@ -814,6 +814,11 @@ fi
   CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; mv "./git-tag" "$HOME/bin/git-tag"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
+  #gum : A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools.
+  pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/charmbracelet/gum" && cd "./gum"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "gum" ; mv "./gum" "$HOME/bin/gum"
+  popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/damit5/gitdorks_go" && cd "./gitdorks_go"
   CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gitdorks_go" "$HOME/bin/gitdorks_go" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
