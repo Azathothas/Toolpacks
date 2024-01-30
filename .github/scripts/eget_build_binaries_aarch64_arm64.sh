@@ -755,7 +755,7 @@ fi
   #---------------#
   #gum : A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools.
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/charmbracelet/gum" && cd "./gum"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "gum" ; mv "./gum" "$HOME/bin/gum"
+  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "gum" ; mv "./gum" "$HOME/bin/gum"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
