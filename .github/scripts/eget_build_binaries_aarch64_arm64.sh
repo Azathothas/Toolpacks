@@ -746,11 +746,16 @@ fi
   #---------------#
   #go-git : A highly extensible Git implementation in pure Go. 
   pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/go-git/go-git" && cd "./go-git"
-  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; mv "./git-clone" "$HOME/bin/git-clone"
-  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; mv "./git-checkout" "$HOME/bin/git-checkout"
-  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; mv "./git-pull" "$HOME/bin/git-pull"
-  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-log" "./_examples/log" ; mv "./git-log" "$HOME/bin/git-log"
-  export GOOS=linux ; export GOARCH=arm64 ; CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; mv "./git-tag" "$HOME/bin/git-tag"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; mv "./git-clone" "$HOME/bin/git-clone"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; mv "./git-checkout" "$HOME/bin/git-checkout"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; mv "./git-pull" "$HOME/bin/git-pull"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-log" "./_examples/log" ; mv "./git-log" "$HOME/bin/git-log"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; mv "./git-tag" "$HOME/bin/git-tag"
+  popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
+  #gum : A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools.
+  pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/charmbracelet/gum" && cd "./gum"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "gum" ; mv "./gum" "$HOME/bin/gum"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
