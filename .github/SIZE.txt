@@ -1133,7 +1133,7 @@
   40M   │ ├── httpx
   25M   │ ├── gowitness
   25M   │ ├── qbittorrent-nox
-  25M   │ ├── dnsx
+  24M   │ ├── dnsx
   23M   │ ├── ngrok
   22M   │ ├── mapcidr
   20M   │ ├── tailscaled_dynamic_native
