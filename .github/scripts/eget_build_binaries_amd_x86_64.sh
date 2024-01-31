@@ -943,6 +943,10 @@ fi
   eget "hackerschoice/gsocket" --asset "gsocket" --asset "linux" --asset "x86_64" --asset "^rpm" --asset "^deb" --to "$HOME/bin/gsocket"
   eget "hackerschoice/gsocket" --asset "gs-netcat" --asset "linux" --asset "x86_64" --asset "^rpm" --asset "^deb" --to "$HOME/bin/gs-netcat"
   #---------------#
+  #gum : A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools.
+  pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/charmbracelet/gum" && cd "./gum"
+  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gum" "$HOME/bin/gum" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  #---------------#
   #gup : Update binaries installed by "go install" with goroutines.
   eget "nao1215/gup" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/gup"
   #---------------#
