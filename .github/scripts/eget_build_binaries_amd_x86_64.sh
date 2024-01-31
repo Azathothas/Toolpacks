@@ -101,8 +101,8 @@ fi
   #---------------#
   #age: A simple, modern and secure encryption tool 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/FiloSottile/age" && cd "./age"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/age" 
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/age-keygen"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/age" 
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/age-keygen"
   mv "./age" "$HOME/bin/age" ; mv "./age-keygen" "$HOME/bin/age-keygen"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -116,7 +116,7 @@ fi
   #eget "ferreiraklet/airixss" --to "$HOME/bin/airixss"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/ferreiraklet/airixss" && cd "./airixss"
   go mod init "github.com/ferreiraklet/airixss" ; go mod tidy
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./airixss" "$HOME/bin/airixss" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./airixss" "$HOME/bin/airixss" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #aix : AIx is a cli tool to interact with Large Language Models (LLM) APIs. 
@@ -133,7 +133,7 @@ fi
   #---------------#
   #allxfr: AXFR all the things! 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/lanrat/allxfr" && cd "./allxfr"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./allxfr" "$HOME/bin/allxfr" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./allxfr" "$HOME/bin/allxfr" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #alterx : Fast and customizable subdomain wordlist generator using DSL 
   eget "projectdiscovery/alterx" --asset "amd64" --asset "linux" --to "$HOME/bin/alterx"
@@ -141,11 +141,11 @@ fi
   #amass : In-depth attack surface mapping and asset discovery 
   #eget "owasp-amass/amass" --asset "amd64" --asset "zip" --to "$HOME/bin/amass" && mkdir -p "$HOME/.config/amass"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/owasp-amass/amass" && cd "./amass"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/amass" ; mv "./amass" "$HOME/bin/amass" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/amass" ; mv "./amass" "$HOME/bin/amass" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #analyticsrelationships : Get related domains / subdomains by looking at Google Analytics IDs 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Josue87/AnalyticsRelationships" && cd "./AnalyticsRelationships"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./analyticsrelationships" "$HOME/bin/analyticsrelationships" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./analyticsrelationships" "$HOME/bin/analyticsrelationships" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #anew : A tool for adding new lines to files, skipping duplicates 
   eget "tomnomnom/anew" --asset "amd64" --asset "linux" --to "$HOME/bin/anew"
@@ -164,7 +164,7 @@ fi
   #---------------#
   #aretext: Minimalist text editor with vim-compatible key bindings. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/aretext/aretext" && cd "./aretext"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./aretext" ; mv "./aretext" "$HOME/bin/aretext" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./aretext" ; mv "./aretext" "$HOME/bin/aretext" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #aria2c : aria2 is a multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/aria2/aria2c_amd_x86_64_libressl_musl_latest_Linux" --to "$HOME/bin/aria2c"
@@ -175,17 +175,17 @@ fi
   #asnmap : Mapping organization network ranges using ASN information
   #eget "projectdiscovery/asnmap" --asset "amd64" --asset "linux" --to "$HOME/bin/asnmap"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/projectdiscovery/asnmap" && cd "./asnmap"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/asnmap" ; mv "./asnmap" "$HOME/bin/asnmap" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/asnmap" ; mv "./asnmap" "$HOME/bin/asnmap" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #assetfinder : Find domains and subdomains related to a given domain 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/tomnomnom/assetfinder" && cd "./assetfinder"
   go mod init "github.com/tomnomnom/assetfinder" ; go mod tidy
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./assetfinder" "$HOME/bin/assetfinder" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./assetfinder" "$HOME/bin/assetfinder" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #assh : 💻 make your ssh client smarter 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/moul/assh" && cd "./assh"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./assh" "$HOME/bin/assh" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #atuin: Sync Shell History
@@ -212,7 +212,7 @@ fi
   #---------------#
   #Bearer : Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Bearer/bearer" && cd "./bearer"
-  CGO_ENABLED=1 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/bearer"
+  CGO_ENABLED="1" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/bearer"
   mv "./bearer" "$HOME/bin/bearer" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #bed : Binary editor written in Go 
@@ -220,7 +220,7 @@ fi
   #---------------#
   #Berty : Secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/berty/berty" && cd "./berty"
-  CGO_ENABLED=1 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./go/cmd/berty"
+  CGO_ENABLED="1" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./go/cmd/berty"
   mv "./berty" "$HOME/bin/berty" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #bin: Effortless binary manager 
@@ -252,7 +252,7 @@ fi
   #---------------#
   #bleve : A modern text indexing library for go 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/blevesearch/bleve" && cd "./bleve"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/bleve"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/bleve"
   mv "./bleve" "$HOME/bin/bleve" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #bluetuith :  A TUI bluetooth manager for Linux.
@@ -267,7 +267,7 @@ fi
   #---------------#
   #bombadillo : Browser for gopher | gemini | finger | local (a user's file system)
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://tildegit.org/sloum/bombadillo" && cd "./bombadillo"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./bombadillo" "$HOME/bin/bombadillo" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./bombadillo" "$HOME/bin/bombadillo" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #bore : ngrok alternative for making tunnels to localhost 
@@ -305,7 +305,7 @@ fi
   #---------------#
   #BucketLoot : Automated S3-compatible bucket inspector
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/redhuntlabs/BucketLoot" && cd "./BucketLoot"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./bucketloot" "$HOME/bin/bucketloot" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./bucketloot" "$HOME/bin/bucketloot" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #busybox : several Unix utilities in a single executable file
@@ -314,7 +314,7 @@ fi
   #byp4xx : 40X/HTTP bypasser in Go. Features: Verb tampering, headers, #bugbountytips, User-Agents, extensions, default credentials
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/lobuhi/byp4xx" && cd "./byp4xx"
   go mod init "github.com/lobuhi/byp4xx" ; go mod tidy
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./byp4xx" "$HOME/bin/byp4xx" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./byp4xx" "$HOME/bin/byp4xx" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #caddy : Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
   eget "caddyserver/caddy" --asset "linux" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sig" --to "$HOME/bin/caddy"
@@ -336,11 +336,11 @@ fi
   #---------------#
   #certgraph: An open source intelligence tool to crawl the graph of certificate Alternate Names
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/lanrat/certgraph" && cd "./certgraph"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./certgraph" "$HOME/bin/certgraph" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./certgraph" "$HOME/bin/certgraph" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #certspotter : Certificate Transparency Log Monitor
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/SSLMate/certspotter" && cd "./certspotter"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/certspotter"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/certspotter"
   mv "./certspotter" "$HOME/bin/certspotter" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #certstream :  Cli for calidog's certstream
@@ -348,16 +348,16 @@ fi
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
   go mod init "github.com/Azathothas/Arsenal/certstream" ; go mod tidy
   go get "github.com/Azathothas/Arsenal/certstream"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$HOME/bin/certstream" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #certwatcher : CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL.   
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/drfabiocastro/certwatcher" && cd "./certwatcher"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/certwatcher"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/certwatcher"
   mv "./certwatcher" "$HOME/bin/certwatcher" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #certstream-server-go : drop-in replacement for Calidog's outdated server
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/d-Rickyy-b/certstream-server-go" && cd "./certstream-server-go"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./certstream-server-go" "./cmd/main.go"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./certstream-server-go" "./cmd/main.go"
   mv "./certstream-server-go" "$HOME/bin/certstream-server-go" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cexec : Execute any command, cache its output and get cached output on subsequent execution
@@ -381,7 +381,7 @@ fi
   #---------------#
   #cheat: create and view interactive cheatsheets on the command-line
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/cheat/cheat" && cd "./cheat"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cheat" ; mv "./cheat" "$HOME/bin/cheat" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/cheat" ; mv "./cheat" "$HOME/bin/cheat" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cherrybomb : Validating and Testing APIs using an OpenAPI file
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/blst-security/cherrybomb" && cd "./cherrybomb"
@@ -403,7 +403,7 @@ fi
   #Binary size ~ 150 MB
   #eget "BishopFox/cloudfox" --asset "amd64" --asset "linux" --to "$HOME/bin/cloudfox"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/BishopFox/cloudfox" && cd "./cloudfox"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./cloudfox" "$HOME/bin/cloudfox" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./cloudfox" "$HOME/bin/cloudfox" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cloudlist : Cloudlist is a tool for listing Assets from multiple Cloud Providers.
@@ -419,7 +419,7 @@ fi
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir comb && cd "./comb"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/comb/go.mod"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./comb" ; mv "./comb" "$HOME/bin/comb" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./comb" ; mv "./comb" "$HOME/bin/comb" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #containerd : An open and reliable container runtime
   eget "containerd/containerd" --asset "linux" --asset "static" --asset "amd" --asset "64" --asset "^sha256sum" --to "$HOME/bin/containerd"
@@ -439,14 +439,14 @@ fi
   #---------------#
   #cowsay: complete rewrite of cowsay in Go 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://gitlab.com/nmyk/cowsay.git" && cd "./cowsay"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowsay" 
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowthink"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/cowsay" 
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/cowthink"
   mv "./cowsay" "$HOME/bin/cowsay" ; mv "./cowthink" "$HOME/bin/cowthink"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cowtiness : mimic an HTTP server and a DNS server, providing complete responses
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/stolenusername/cowitness" && cd "./cowitness"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./cowitness" "$HOME/bin/cowitness" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #cproxy: Easy per application transparent proxy built on cgroup.    
@@ -466,7 +466,7 @@ fi
   #---------------#
   #crlfuzz : A fast tool to scan CRLF vulnerability written in Go
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/dwisiswant0/crlfuzz" && cd "./crlfuzz"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/crlfuzz" ; mv "./crlfuzz" "$HOME/bin/crlfuzz" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/crlfuzz" ; mv "./crlfuzz" "$HOME/bin/crlfuzz" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #croc : Easily and securely send things from one computer to another
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/croc/croc_amd_x86_64_Linux" --to "$HOME/bin/croc"
@@ -474,11 +474,11 @@ fi
   #crt : A CLI tool to check Certificate Transparency logs of a domain name
   #eget "cemulus/crt" --asset "x86_64" --to "$HOME/bin/crt"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/cemulus/crt" && cd "./crt"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./crt" "$HOME/bin/crt" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./crt" "$HOME/bin/crt" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #csprecon : Discover new target domains using Content Security Policy 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/edoardottt/csprecon" && cd csprecon
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/csprecon" ; mv "./csprecon" "$HOME/bin/csprecon" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/csprecon" ; mv "./csprecon" "$HOME/bin/csprecon" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #csview : 📠 Pretty and fast csv viewer for cli with cjk/emoji support.
   eget "wfxr/csview" --asset "linux" --asset "x86_64" --asset "musl" --asset "^sha" --to "$HOME/bin/csview"
@@ -488,7 +488,7 @@ fi
   #---------------#
   #ct_monitor : Certificate Transparency log monitor 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/crtsh/ct_monitor" && cd "./ct_monitor"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./ct_monitor" "$HOME/bin/ct_monitor" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ctlwatcher : Monitor Certificate Transparency logs for domains matching regexes. 
@@ -505,7 +505,7 @@ fi
   #---------------#
   #cut-cdn : ✂️ Removing CDN IPs from the list of IP addresses
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/ImAyrix/cut-cdn" && cd "./cut-cdn"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./cut-cdn" "$HOME/bin/cut-cdn" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./cut-cdn" "$HOME/bin/cut-cdn" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #daktilo : Turn your keyboard into a typewriter! 📇 
@@ -525,7 +525,7 @@ fi
   #---------------#
   #Datadash : Visualize and graph data in the terminal 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/keithknott26/datadash" && cd "./datadash"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./datadash" "./cmd/" ; mv "./datadash" "$HOME/bin/datadash" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./datadash" "./cmd/" ; mv "./datadash" "$HOME/bin/datadash" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ddns-go : Simple and easy to use DDNS.
@@ -557,7 +557,7 @@ fi
   #---------------#
   #dns-doctor : Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/jvns/dns-doctor" && cd "./dns-doctor"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./dns-doctor" "$HOME/bin/dns-doctor" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./dns-doctor" "$HOME/bin/dns-doctor" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #dnslookup : Simple command line utility to make DNS lookups to the specified server
@@ -565,7 +565,7 @@ fi
   #---------------#
   #dnstake : Check missing hosted DNS zones that can lead to subdomain takeover 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/pwnesia/dnstake" && cd "./dnstake"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/dnstake" ; mv "./dnstake" "$HOME/bin/dnstake" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/dnstake" ; mv "./dnstake" "$HOME/bin/dnstake" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #dnsx : Multi-purpose DNS toolkit allow to run multiple DNS queries
   eget "projectdiscovery/dnsx" --asset "amd64" --asset "linux" --to "$HOME/bin/dnsx"
@@ -632,11 +632,11 @@ fi
   #---------------#
   #encode : Encode|Decode input from stdin
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Brum3ns/encode" && cd "./encode"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/encode" ; mv "./encode" "$HOME/bin/encode" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/encode" ; mv "./encode" "$HOME/bin/encode" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #enola : Hunt down social media accounts by username across social networks 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/TheYahya/enola" && cd "./enola"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/enola/"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/enola/"
   mv "./enola" "$HOME/bin/enola" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #enumerepo : List all public repositories for (valid) GitHub usernames
@@ -649,7 +649,7 @@ fi
   #---------------#
   #exifLooter : ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/aydinnyunus/exifLooter" && cd "./exifLooter"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./exifLooter" "$HOME/bin/exiflooter" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #eza : A modern replacement for ‘ls’. (Fork of exa)
@@ -664,7 +664,7 @@ fi
   #---------------#
   #fastld : go-fasttld is a high performance effective top level domains (eTLD) extraction module
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/elliotwutingfeng/go-fasttld" && cd "./go-fasttld"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./fasttld" "./cmd/main.go" ; mv "./fasttld" "$HOME/bin/fasttld" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./fasttld" "./cmd/main.go" ; mv "./fasttld" "$HOME/bin/fasttld" ; popd > /dev/null 2>&1
   #---------------#
   #fblog : Small command-line JSON Log viewer
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/brocode/fblog" && cd "./fblog"
@@ -691,18 +691,18 @@ fi
   #---------------#
   #ffufw: a wrapper around ffuf to make directory bruteforcing easier and more intelligent
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/puzzlepeaches/ffufw" && cd "./ffufw"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./ffufw" "$HOME/bin/ffufw" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./ffufw" "$HOME/bin/ffufw" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ffufPostprocessing : Filter ffuf results
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Damian89/ffufPostprocessing" && cd "./ffufPostprocessing"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./ffufPostprocessing" "$HOME/bin/ffufPostprocessing" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache  
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./ffufPostprocessing" "$HOME/bin/ffufPostprocessing" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache  
   #---------------#
   #fget : Multithread download for a list of files.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir fget && cd "./fget"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/go.mod"
   go get "github.com/Azathothas/Arsenal/fget"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./fget" ; mv "./fget" "$HOME/bin/fget" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./fget" ; mv "./fget" "$HOME/bin/fget" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
   #---------------#
   #filebrowser : 📂 Web File Browser
   eget "filebrowser/filebrowser" --asset "linux" --asset "amd" --asset "64" --to "$HOME/bin/filebrowser"
@@ -736,12 +736,12 @@ fi
   #---------------#
   #fuzzuli : URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/musana/fuzzuli" && cd "./fuzzuli"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./fuzzuli" "$HOME/bin/fuzzuli" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./fuzzuli" "$HOME/bin/fuzzuli" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #fwanalyzer : a tool to analyze filesystem images for security   
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/cruise-automation/fwanalyzer" && cd "./fwanalyzer"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/fwanalyzer"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/fwanalyzer"
   mv "./fwanalyzer" "$HOME/bin/fwanalyzer" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #fx: Terminal JSON viewer & processor
@@ -753,7 +753,7 @@ fi
   #gau : Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. 
   #eget "lc/gau" --asset "amd64" --asset "linux" --to "$HOME/bin/gau"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/lc/gau" && cd "./gau"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/gau" ; mv "./gau" "$HOME/bin/gau" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/gau" ; mv "./gau" "$HOME/bin/gau" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gdu : Fast disk usage analyzer with console interface written in Go 
@@ -764,7 +764,7 @@ fi
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/getJS/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/getJS/go.mod"
   go get "github.com/Azathothas/Arsenal/getJS"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./getJS" ; mv "./getJS" "$HOME/bin/getJS" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./getJS" ; mv "./getJS" "$HOME/bin/getJS" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
   #---------------#
   #getghrel(get github release) is a tool that fetches and installs the latest release assets from Github 
   eget "kavishgr/getghrel" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/getghrel"
@@ -772,13 +772,13 @@ fi
   #gf : A wrapper around grep
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/tomnomnom/gf" && cd "./gf"
   go mod init github.com/tomnomnom/gf ; go mod tidy
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gf" "$HOME/bin/gf" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gf" "$HOME/bin/gf" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gfx : Updated gf
   #gfx --> symlinked to gf
   #eget "dwisiswant0/gfx" --asset "amd64" --asset "linux" --to "$HOME/bin/gfx" && ln -s "$HOME/bin/gfx" "$HOME/bin/gf"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/dwisiswant0/gfx" && cd "./gfx"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gfx" "$HOME/bin/gfx" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gfx" "$HOME/bin/gfx" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gh : GitHub’s official command line tool
@@ -815,7 +815,7 @@ fi
   #---------------#
   #git-sizer : Compute various size metrics for a Git repository  
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/github/git-sizer" && cd "./git-sizer"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./git-sizer" "$HOME/bin/git-sizer" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitea : Git with a cup of tea!
@@ -824,32 +824,32 @@ fi
   #---------------#
   #go-git : A highly extensible Git implementation in pure Go. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/go-git/go-git" && cd "./go-git"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; mv "./git-clone" "$HOME/bin/git-clone"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; mv "./git-checkout" "$HOME/bin/git-checkout"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; mv "./git-pull" "$HOME/bin/git-pull"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-log" "./_examples/log" ; mv "./git-log" "$HOME/bin/git-log"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; mv "./git-tag" "$HOME/bin/git-tag"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; mv "./git-clone" "$HOME/bin/git-clone"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; mv "./git-checkout" "$HOME/bin/git-checkout"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; mv "./git-pull" "$HOME/bin/git-pull"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "git-log" "./_examples/log" ; mv "./git-log" "$HOME/bin/git-log"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; mv "./git-tag" "$HOME/bin/git-tag"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitdorks_go : An automated collection tool for discovering sensitive information on GitHub
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/damit5/gitdorks_go" && cd "./gitdorks_go"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gitdorks_go" "$HOME/bin/gitdorks_go" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gitdorks_go" "$HOME/bin/gitdorks_go" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #github-endpoints : Find endpoints on GitHub
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/gwen001/github-endpoints" && cd "./github-endpoints"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./github-endpoints" "$HOME/bin/github-endpoints" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./github-endpoints" "$HOME/bin/github-endpoints" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #github-regexp : Basically a regexp over a GitHub search
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/gwen001/github-regexp" && cd "./github-regexp"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./github-regexp" "$HOME/bin/github-regexp" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./github-regexp" "$HOME/bin/github-regexp" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #github-subdomains : Find subdomains on GitHub
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/gwen001/github-subdomains" && cd "./github-subdomains"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./github-subdomains" "$HOME/bin/github-subdomains" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./github-subdomains" "$HOME/bin/github-subdomains" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitlab-subdomains : Find subdomains on Gitlab
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/gwen001/gitlab-subdomains" && cd "./gitlab-subdomains"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gitlab-subdomains" "$HOME/bin/gitlab-subdomains" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gitlab-subdomains" "$HOME/bin/gitlab-subdomains" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gitleaks : Protect and discover secrets using Gitleaks 🔑
   eget "gitleaks/gitleaks" --asset "linux" --asset "x64" --asset "tar.gz" --to "$HOME/bin/gitleaks"
@@ -874,7 +874,7 @@ fi
   #---------------#
   #go-simplehttpserver : Go alternative of python SimpleHTTPServer
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/projectdiscovery/simplehttpserver" && cd "./simplehttpserver"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/simplehttpserver" ; mv "./simplehttpserver" "$HOME/bin/go-simplehttpserver" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/simplehttpserver" ; mv "./simplehttpserver" "$HOME/bin/go-simplehttpserver" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #goawk : A POSIX-compliant AWK interpreter written in Go, with CSV support 
@@ -900,11 +900,11 @@ fi
   #---------------#
   #goop : Dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/nyancrimew/goop" && cd "./goop"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #https://github.com/nyancrimew/goop/pull/22
   #pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/lavafroth/goop" && cd "./goop"
-  #CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd > /dev/null 2>&1
+  #CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./goop" "$HOME/bin/goop" ; popd > /dev/null 2>&1
   #go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gorilla : Tool for generating wordlists or extending an existing one using mutations
@@ -924,7 +924,7 @@ fi
   #---------------#
   #gotator : Generate DNS wordlists through permutations
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Josue87/gotator" && cd "./gotator"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gotator" "$HOME/bin/gotator" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gotator" "$HOME/bin/gotator" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gotty : Share your terminal as a web application 
   eget "sorenisanerd/gotty" --asset "linux" --asset "amd64" --asset "tar.gz" --asset "^sha" --asset "^sig" --to "$HOME/bin/gotty"
@@ -932,7 +932,7 @@ fi
   #gowitness : 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
   #eget "sensepost/gowitness" --asset "amd64" --asset "linux" --to "$HOME/bin/gowitness"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/sensepost/gowitness" && cd "./gowitness"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gowitness" "$HOME/bin/gowitness" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gowitness" "$HOME/bin/gowitness" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gpg-tui : Manage your GnuPG keys with ease! 🔐
@@ -948,12 +948,12 @@ fi
   #---------------#
   #gron : Make JSON greppable! 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/tomnomnom/gron" && cd "./gron"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./gron" "$HOME/bin/gron" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #GRPCurl : Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/fullstorydev/grpcurl" && cd "./grpcurl"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/grpcurl" ; mv "./grpcurl" "$HOME/bin/grpcurl" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/grpcurl" ; mv "./grpcurl" "$HOME/bin/grpcurl" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gsocket : Connect like there is no firewall. Securely.
@@ -962,42 +962,42 @@ fi
   #---------------#
   #gum : A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/charmbracelet/gum" && cd "./gum"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gum" "$HOME/bin/gum" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gum" "$HOME/bin/gum" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #gup : Update binaries installed by "go install" with goroutines.
   eget "nao1215/gup" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/gup"
   #---------------#
   #Gxss : A tool to check a bunch of URLs that contain reflecting params
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/KathanP19/Gxss" && cd Gxss
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/gxss" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./Gxss" "$HOME/bin/gxss" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hacker-scoper : Automagically filter URLs with Bug Bounty program scope rules scraped from the internet
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/ItsIgnacioPortal/hacker-scoper" && cd "./hacker-scoper"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./hacker-scoper" "$HOME/bin/hacker-scoper" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./hacker-scoper" "$HOME/bin/hacker-scoper" ; popd > /dev/null 2>&1
   #---------------#
   #hakip2host : takes a list of IP addresses via stdin, then does a series of checks to return associated domain names
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/hakluke/hakip2host" && cd "./hakip2host"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./hakip2host" "$HOME/bin/hakip2host" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./hakip2host" "$HOME/bin/hakip2host" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hakoriginfinder : Tool for discovering the origin host behind a reverse proxy
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/hakluke/hakoriginfinder" && cd "./hakoriginfinder" 
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./hakoriginfinder" "$HOME/bin/hakoriginfinder" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./hakoriginfinder" "$HOME/bin/hakoriginfinder" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hakrawler : Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/hakluke/hakrawler" && cd "hakrawler"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./hakrawler" "$HOME/bin/hakrawler" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./hakrawler" "$HOME/bin/hakrawler" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hakrevdns : Small, fast tool for performing reverse DNS lookups en masse.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/hakluke/hakrevdns" && cd "./hakrevdns"
   go mod init "github.com/hakluke/hakrevdns" ; go mod tidy
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./hakrevdns" "$HOME/bin/hakrevdns" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./hakrevdns" "$HOME/bin/hakrevdns" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #halp : A CLI tool to get help with CLI tools 🐙 
   eget "orhun/halp" --asset "linux" --asset "64" --asset "musl" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --file "halp" --to "$HOME/bin/halp"
   #---------------#
   #HEDnsExtractor : Raw html extractor from Hurricane Electric portal
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/HuntDownProject/HEDnsExtractor" && cd HEDnsExtractor
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/hednsextractor" ; mv "./hednsextractor" "$HOME/bin/hednsextractor" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/hednsextractor" ; mv "./hednsextractor" "$HOME/bin/hednsextractor" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #Hexyl: A command-line hex viewer 
@@ -1028,19 +1028,19 @@ fi
   #---------------#
   #httprobe : Take a list of domains and probe for working HTTP and HTTPS servers
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/tomnomnom/httprobe" && cd "./httprobe"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./httprobe" "$HOME/bin/httprobe" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./httprobe" "$HOME/bin/httprobe" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #httpx : httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes
   eget "projectdiscovery/httpx" --asset "amd64" --asset "linux" --to "$HOME/bin/httpx"
   #---------------#
   #Hub : A command-line tool that makes git easier to use with GitHub.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/mislav/hub" && cd "./hub"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./hub" "$HOME/bin/hub" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hugo: The world’s fastest framework for building websites. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/gohugoio/hugo" && cd "./hugo"
-  CGO_ENABLED=1 go build -tags "extended" -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./hugo" "$HOME/bin/hugo" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="1" go build -tags "extended" -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./hugo" "$HOME/bin/hugo" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #hex (hx): 🔮 Futuristic take on hexdump, made in Rust.    
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/sitkevij/hex" && cd "./hex"
@@ -1065,7 +1065,7 @@ fi
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir inscope && cd "./inscope"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/inscope/go.mod"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache 
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./inscope" ; mv "./inscope" "$HOME/bin/inscope" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache 
   #---------------#
   #interactsh : An OOB interaction gathering server and client library 
   eget "projectdiscovery/interactsh" --asset "amd64" --asset "linux" --asset "interactsh-client" --to "$HOME/bin/interactsh-client"
@@ -1086,7 +1086,7 @@ fi
   #jaeles : The Swiss Army knife for automated Web Application Testing
   #eget "jaeles-project/jaeles" --asset "linux" --to "$HOME/bin/jaeles"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/jaeles-project/jaeles" && cd "./jaeles"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./jaeles" "$HOME/bin/jaeles" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./jaeles" "$HOME/bin/jaeles" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #jaq : A jq clone focussed on correctness, speed, and simplicity 
@@ -1127,7 +1127,7 @@ fi
   #---------------#
   #jwthack : 🔩 jwt-hack is tool for hacking / security testing to JWT
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/hahwul/jwt-hack" && cd "./jwt-hack"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./jwt-hack" "$HOME/bin/jwt-hack" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #k9s : 🐶 Kubernetes CLI To Manage Your Clusters In Style! 
@@ -1149,7 +1149,7 @@ fi
   eget "projectdiscovery/katana" --asset "amd64" --asset "linux" --to "$HOME/bin/katana"
   staticx --loglevel DEBUG "$HOME/bin/katana" --strip "$HOME/bin/katana_staticx"
   #pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/projectdiscovery/katana" && cd katana
-  #CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./katana" "./cmd/katana" ; mv "./katana" "$HOME/bin/katana" ; popd > /dev/null 2>&1
+  #CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./katana" "./cmd/katana" ; mv "./katana" "$HOME/bin/katana" ; popd > /dev/null 2>&1
   #---------------#
   #killport : A command-line tool to easily kill processes running on a specified port. 
   eget "jkfran/killport" --asset "linux" --asset "x86" --asset "64" --asset "tar.gz" --asset "^arm" --asset "^sha" --asset "^sig" --to "$HOME/bin/killport"
@@ -1220,7 +1220,7 @@ fi
   #tahm Take as input on stdin a list of urls and print on stdout all the status codes and body sizes for HTTP methods.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" https://github.com/edoardottt/lit-bb-hack-tools && cd "./lit-bb-hack-tools"
   find . -type f -name '*.md' -exec rm {} \;
-  find . -maxdepth 1 -type d ! -name '.git*' -exec sh -c 'CGO_ENABLED=0 go build -o "$1/$1_amd_x86_64_Linux" -v -a -gcflags=all="-l -B -wb=false" -ldflags="-s -w -extldflags '\''-static'\''" "$1/"*' _ {} \;
+  find . -maxdepth 1 -type d ! -name '.git*' -exec sh -c 'CGO_ENABLED="0" go build -o "$1/$1_amd_x86_64_Linux" -v -a -gcflags=all="-l -B -wb=false" -ldflags="-s -w -extldflags '\''-static'\''" "$1/"*' _ {} \;
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/" \;
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -1241,14 +1241,14 @@ fi
   #---------------#
   #luet: 📦 🐳 0-dependency Container-based Package Manager 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/mudler/luet" && cd "./luet"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./luet" "$HOME/bin/luet" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./luet" "$HOME/bin/luet" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #lux: 👾 Fast and simple video download library and CLI tool written in Go 
   eget "iawia002/lux" --asset "Linux" --asset "x86_64" --asset "tar.gz" --to "$HOME/bin/lux"
   #---------------#
   #mabel : A fancy BitTorrent client for the terminal. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/smmr-software/mabel" && cd "./mabel"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./mabel" "$HOME/bin/mabel" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./mabel" "$HOME/bin/mabel" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #macchina : system-info-fetch
@@ -1259,7 +1259,7 @@ fi
   #---------------#
   #maddy : ✉️ Composable all-in-one mail server. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/foxcpp/maddy" && cd "./maddy"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/maddy" ; mv "./maddy" "$HOME/bin/maddy" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/maddy" ; mv "./maddy" "$HOME/bin/maddy" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #mailpit : An email and SMTP testing tool with API for developers 
@@ -1270,12 +1270,12 @@ fi
   #---------------#
   #mantra :「🔑」A tool used to hunt down API key leaks in JS files and pages 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/MrEmpy/mantra" && cd "./mantra"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./Mantra" "$HOME/bin/mantra" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./Mantra" "$HOME/bin/mantra" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #mapcidr : Utility program to perform multiple operations for a given subnet/CIDR ranges
   #eget "projectdiscovery/mapcidr" --asset "amd64" --asset "linux" --to "$HOME/bin/mapcidr"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mapcidr" ; mv "./mapcidr" "$HOME/bin/mapcidr" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/mapcidr" ; mv "./mapcidr" "$HOME/bin/mapcidr" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #massdns : A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration) 
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/massdns/massdns_linux_x86_64_gcc" --to "$HOME/bin/massdns"
@@ -1349,7 +1349,7 @@ fi
   #mubeng : An incredibly fast proxy checker & IP rotator with ease
   #eget "kitabisa/mubeng" --asset "amd64" --asset "linux" --to "$HOME/bin/mubeng"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/kitabisa/mubeng" && cd "./mubeng"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mubeng" ; mv "./mubeng" "$HOME/bin/mubeng" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/mubeng" ; mv "./mubeng" "$HOME/bin/mubeng" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #naabu : A fast port scanner written in go with a focus on reliability and simplicity
@@ -1374,9 +1374,9 @@ fi
   #NetMaker : makes networks with WireGuard
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/gravitl/netmaker" && cd "./netmaker"
   #Requires CGO for sqlite
-  CGO_ENABLED=1 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; echo -e "\n" && file "./netmaker" && echo -e "\n"
+  CGO_ENABLED="1" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; echo -e "\n" && file "./netmaker" && echo -e "\n"
   mv "./netmaker" "$HOME/bin/netmaker"
-  CGO_ENABLED=1 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./nmctl" "./cli" ; echo -e "\n" && file "./nmctl" && echo -e "\n"
+  CGO_ENABLED="1" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./nmctl" "./cli" ; echo -e "\n" && file "./nmctl" && echo -e "\n"
   mv "./nmctl" "$HOME/bin/nmctl" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #nginx : Static Nginx and njs binaries for Linux
@@ -1386,7 +1386,7 @@ fi
   #---------------#
   #ngocok: ngrok Collaborator Link — yet another Burp Collaborator alternative for free with ngrok. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/dwisiswant0/ngocok" && cd "./ngocok"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./ngocok" "$HOME/bin/ngocok" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./ngocok" "$HOME/bin/ngocok" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ngrok : External Tunnel to Internal Assets
   eget "https://github.com/Azathothas/Static-Binaries/raw/main/ngrok/ngrok_amd_x86_64_Linux" --to "$HOME/bin/ngrok"
@@ -1400,7 +1400,7 @@ fi
   #nmap-formatter : A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
   #eget "vdjagilev/nmap-formatter" --asset "amd64" --asset "linux" --to "$HOME/bin/nmap-formatter"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/vdjagilev/nmap-formatter" && cd "./nmap-formatter"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./nmap-formatter" "$HOME/bin/nmap-formatter" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./nmap-formatter" "$HOME/bin/nmap-formatter" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #nnn :  n³ The unorthodox terminal file manager 
@@ -1437,7 +1437,7 @@ fi
   #openrisk : Generates a risk score based on the results of a Nuclei scan
   #eget "projectdiscovery/openrisk" --asset "amd64" --asset "linux" --to "$HOME/bin/openrisk"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/projectdiscovery/openrisk" && cd "./openrisk"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/openrisk" ; mv "./openrisk" "$HOME/bin/openrisk" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/openrisk" ; mv "./openrisk" "$HOME/bin/openrisk" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #orbiton : Fast and config-free text editor and IDE limited to VT100
@@ -1446,7 +1446,7 @@ fi
   #osmedeus : A Workflow Engine for Offensive Security
   #eget "j3ssie/osmedeus" --asset "linux.zip" --to "$HOME/bin/osmedeus"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/j3ssie/osmedeus" && cd osmedeus
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./osmedeus" "$HOME/bin/osmedeus" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./osmedeus" "$HOME/bin/osmedeus" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #overmind : Process manager for Procfile-based applications and tmux
@@ -1460,7 +1460,7 @@ fi
   #---------------#
   #PassDetective : PassDetective is a command-line tool that scans shell command history to detect mistakenly written passwords, API keys, and secrets 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/aydinnyunus/PassDetective" && cd "./PassDetective"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./PassDetective" "$HOME/bin/passdetective" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #pathbuster : A path-normalization pentesting tool
@@ -1485,7 +1485,7 @@ fi
   #---------------#
   #pkgtop : Interactive package manager and resource monitor designed for the GNU/Linux.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/orhun/pkgtop" && cd "./pkgtop"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/pkgtop.go"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/pkgtop.go"
   mv "./pkgtop" "$HOME/bin/pkgtop" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #planor : TUI client for cloud services (AWS, Vultr, Heroku, Render.com, Fleek, ...)
@@ -1496,11 +1496,11 @@ fi
   #---------------#
   #podsync: Turn YouTube or Vimeo channels, users, or playlists into podcast feeds 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/mxpv/podsync" && cd "./podsync"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/podsync" ; mv "./podsync" "$HOME/bin/podsync" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/podsync" ; mv "./podsync" "$HOME/bin/podsync" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ppath : Pretty Print your system's PATH environment variable. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/marwanhawari/ppath" && cd "./ppath"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./ppath" "$HOME/bin/ppath" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./ppath" "$HOME/bin/ppath" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache 
   #---------------#
   #ppfuzz : A fast tool to scan client-side prototype pollution vulnerability
@@ -1524,12 +1524,12 @@ fi
   #proxify : A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go
   #eget "projectdiscovery/proxify" --asset "amd64" --asset "linux" --to "$HOME/bin/proxify"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/projectdiscovery/proxify" && cd "./proxify"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/proxify" ; mv "./proxify" "$HOME/bin/proxify" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/proxify" ; mv "./proxify" "$HOME/bin/proxify" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #pspy : Monitor linux processes without root permissions 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/DominicBreuker/pspy" && cd "./pspy"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" 
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" 
   mv "./pspy" "$HOME/bin/pspy" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #pueue : task management tool for sequential and parallel execution of long-running tasks
@@ -1550,7 +1550,7 @@ fi
   #---------------#
   #qsreplace : Accept URLs on stdin, replace all query string values with a user-supplied value 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/tomnomnom/qsreplace" && cd "./qsreplace"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./qsreplace" "$HOME/bin/qsreplace" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #qsv : CSVs sliced, diced & analyzed.
   eget "jqnatividad/qsv" --asset "linux" --asset "64" --asset "musl" --asset "^arm" --asset "^sha" --asset "^sig" --file "qsv" --to "$HOME/bin/qsv"
@@ -1565,14 +1565,14 @@ fi
   #---------------#
   #quickcert : Query crtsh via pgsl server --> postgres://guest@crt.sh:5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/c3l3si4n/quickcert" && cd "./quickcert"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./quickcert" "$HOME/bin/quickcert" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #rate-limit-checker : Check whether the domain has a rate limit enabled
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir rate-limit-checker && cd "./rate-limit-checker"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/rate-limit-checker/main.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/rate-limit-checker/go.mod"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./rate-limit-checker" ; mv "./rate-limit-checker" "$HOME/bin/rate-limit-checker" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./rate-limit-checker" ; mv "./rate-limit-checker" "$HOME/bin/rate-limit-checker" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
   #---------------#
   #rathole : A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
   eget "rapiz1/rathole" --asset "x86_64" --asset "linux" --asset "rathole" --asset "gnu" --asset "^sha" --to "$HOME/bin/rathole"
@@ -1603,7 +1603,7 @@ fi
   #---------------#
   #redguard : RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/wikiZ/RedGuard" && cd "./RedGuard"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./RedGuard" "$HOME/bin/redguard" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #redive : Trace URL redirections in the terminal.
@@ -1618,7 +1618,7 @@ fi
   #---------------#
   #relic : a tool for adding digital signatures to operating system packages for Linux and Windows   
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/sassoftware/relic" && cd "./relic"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./relic" "$HOME/bin/relic" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #reptyr : Reparent a running program to a new terminal 
@@ -1630,7 +1630,7 @@ fi
   # Installton will require placing a /tmp/rescope/configs/avoid.txt
   # mkdir -p "/tmp/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "/tmp/rescope/configs/avoid.txt"
   cd /tmp && git clone --filter "blob:none" "https://github.com/root4loot/rescope" && cd "./rescope"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./rescope" "$HOME/bin/rescope" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./rescope" "$HOME/bin/rescope" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #resDNS : Wrapper around [dnsx + puredns + shuffledns] for Efficient DNS Resolution
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/resdns/resdns.sh" --to "$HOME/bin/resdns"
@@ -1640,14 +1640,14 @@ fi
   #---------------#
   #resto : 🔗 Send pretty HTTP & API requests with TUI.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/abdfnx/resto" && cd "./resto"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./resto" "$HOME/bin/resto" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./resto" "$HOME/bin/resto" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #revit : A command-line utility for performing reverse DNS lookups
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/devanshbatham/revit" && cd "./revit"
   rm go.mod ; rm go.sum ; go mod init github.com/devanshbatham/revit ; go mod tidy
   go get github.com/devanshbatham/revit/cmd/revit
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/revit" ; mv "./revit" "$HOME/bin/revit" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/revit" ; mv "./revit" "$HOME/bin/revit" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #rg (ripgrep)
@@ -1668,7 +1668,7 @@ fi
   #---------------#
   #roboxtractor : Extract endpoints marked as disallow in robots files to generate wordlists
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Josue87/roboxtractor" && cd "./roboxtractor"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./roboxtractor" "$HOME/bin/roboxtractor" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./roboxtractor" "$HOME/bin/roboxtractor" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #rootlesskit : Linux-native "fake root" for implementing rootless containers 
   eget "rootless-containers/rootlesskit" --asset "x86_64" --asset "^sig" --asset "^aarch" --asset "^arm" --file "rootlesskit" --to "$HOME/bin/rootlesskit"
@@ -1733,13 +1733,13 @@ fi
   #---------------#
   #scilla : Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/edoardottt/scilla" && cd "./scilla"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/scilla" ; mv "./scilla" "$HOME/bin/scilla" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/scilla" ; mv "./scilla" "$HOME/bin/scilla" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #scopegen : Generates .scope compatible format for ScopeView (based on TomNomNom's Inscope)
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir scopegen && cd "./scopegen"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/scopegen.go"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/go.mod"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "scopegen" "./scopegen.go" ; mv "./scopegen" "$HOME/bin/scopegen" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "scopegen" "./scopegen.go" ; mv "./scopegen" "$HOME/bin/scopegen" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #scopeview : Slightly revamped vesion of TomNomNom's Inscope that allows custom .scope to be defined using -s or --scope options
@@ -1757,7 +1757,7 @@ fi
   #---------------#
   #sessionprobe : evaluates user privileges in web applications by taking a session token and checking access across a list of URLs
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/dub-flow/sessionprobe" && cd "./sessionprobe"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./sessionprobe" "$HOME/bin/sessionprobe" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #sftp : Dependency for sshd
@@ -1773,7 +1773,7 @@ fi
   #---------------#
   #shellz : a small utility to manage your ssh, telnet, kubernetes, winrm, web or any custom shell in a single place.   
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/evilsocket/shellz" && cd "./shellz"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/shellz"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/shellz"
   mv "./shellz" "$HOME/bin/shellz" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #shfmt : A shell parser, formatter, and interpreter with bash support; includes shfmt 
@@ -1781,8 +1781,8 @@ fi
   #---------------#
   #shortscan : An IIS short filename enumeration tool 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/bitquark/shortscan" && cd "./shortscan"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/shortscan" ; mv "./shortscan" "$HOME/bin/shortscan" 
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/shortutil" ; mv "./shortutil" "$HOME/bin/shortutil"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/shortscan" ; mv "./shortscan" "$HOME/bin/shortscan" 
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/shortutil" ; mv "./shortutil" "$HOME/bin/shortutil"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #shuffledns : MassDNS wrapper written in go
@@ -1793,7 +1793,7 @@ fi
   #---------------#
   #sj : A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/BishopFox/sj" && cd "./sj"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./sj" "$HOME/bin/sj" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #skim : Fuzzy Finder in rust! 
@@ -1809,7 +1809,7 @@ fi
   #---------------#
   #smap : a drop-in replacement for Nmap powered by shodan.io
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/s0md3v/Smap" && cd "./Smap"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/smap" ; mv "./smap" "$HOME/bin/smap" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/smap" ; mv "./smap" "$HOME/bin/smap" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #smenu : a powerful and versatile CLI selection tool for interactive or scripting use
   eget "p-gen/smenu" --asset "86_64" --asset "static" --asset "xz" --asset "^asc" --asset "linux" --to "$HOME/bin/smenu"
@@ -1823,7 +1823,7 @@ fi
   #---------------#
   #sns : IIS shortname scanner written in Go 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/sw33tLie/sns" && cd "./sns"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./sns" "$HOME/bin/sns" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./sns" "$HOME/bin/sns" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #socat : successor to netcat
@@ -1834,13 +1834,13 @@ fi
   #---------------#
   #spk : A small OSINT/Recon tool to find CIDRs that belong to a specific organization
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/dhn/spk" && cd "./spk"
-  CGO_ENABLED=0 go build -o "spk_amd_x86_64_Linux" -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -o "spk_amd_x86_64_Linux" -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/spk" \;
   go clean -cache -fuzzcache -modcache -testcache ; popd > /dev/null 2>&1
   #---------------#
   #spoof-dpi : A simple and fast anti-censorship tool written in Go
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/xvzc/SpoofDPI" && cd "./SpoofDPI"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/spoof-dpi"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/spoof-dpi"
   mv "./spoof-dpi" "$HOME/bin/spoof-dpi" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #sq : jq for sql
@@ -1848,7 +1848,7 @@ fi
   #---------------#
   #sqlc : Universal DBMS/SQL client with exfiltration features :)  
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/kost/sqlc" && cd "./sqlc"
-  CGO_ENABLED=1 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="1" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./sqlc" "$HOME/bin/sqlc" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ssh
@@ -1880,7 +1880,7 @@ fi
   #---------------#
   #sshesame : SSH honeypot, a fake SSH server that lets anyone in and logs their activity
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/jaksi/sshesame" && cd "./sshesame"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./sshesame" "$HOME/bin/sshesame" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #sshkeys : Get all ssh public keys of a ssh server
@@ -1888,7 +1888,7 @@ fi
   #---------------#
   #sshportal : Embedded SSH Server & Client meant for temp ssh access using invite codes
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/moul/sshportal" && cd "./sshportal"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./sshportal" "$HOME/bin/sshportal" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #sshx : Fast, collaborative live terminal sharing over the web
@@ -1903,7 +1903,7 @@ fi
   #---------------#
   #stew : 🥘 An independent package manager for compiled binaries.  
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/marwanhawari/stew" && cd "./stew"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./stew" "$HOME/bin/stew" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./stew" "$HOME/bin/stew" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #strace : diagnostic, debugging and instructional userspace utility for Linux 
@@ -1914,7 +1914,7 @@ fi
   #---------------#
   #stuffbin : Compress and embed static files and assets into Go binaries and access them with a virtual file system in production 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/knadh/stuffbin" && cd "./stuffbin"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "/tmp/stuffbin" "./stuffbin"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "/tmp/stuffbin" "./stuffbin"
   mv "/tmp/stuffbin" "$HOME/bin/stuffbin" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #subfinder : Fast passive subdomain enumeration tool
@@ -1922,23 +1922,23 @@ fi
   #---------------#
   #subjs : Fetches javascript file from a list of URLS or subdomains
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/lc/subjs" && cd "./subjs"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./subjs" "$HOME/bin/subjs" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./subjs" "$HOME/bin/subjs" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #subxtract : Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor
   eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$HOME/bin/subxtract"
   #---------------#
   #sunbeam: a general purpose command-line launcher
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/pomdtr/sunbeam" && cd "./sunbeam"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./sunbeam" "$HOME/bin/sunbeam" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./sunbeam" "$HOME/bin/sunbeam" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #supervisord : a go-lang supervisor implementation 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/ochinchina/supervisord" && cd "./supervisord"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./supervisord" "$HOME/bin/supervisord" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #surf : filter a list of hosts, returning a list of viable SSRF candidates
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/assetnote/surf" && cd "./surf"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/surf" ; mv "./surf" "$HOME/bin/surf" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/surf" ; mv "./surf" "$HOME/bin/surf" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #svg-hush: Make it safe to serve untrusted SVG files   
@@ -1988,12 +1988,12 @@ fi
   #---------------#
   #termshark : A terminal UI for tshark, inspired by Wireshark  
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/gcla/termshark" && cd "./termshark"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/termshark"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/termshark"
   mv "./termshark" "$HOME/bin/termshark" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #tgpt: Access ChatGPT from the comfort of your terminal. No API or config files are needed.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/aandrew-me/tgpt" && cd "./tgpt"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./tgpt" "$HOME/bin/tgpt" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./tgpt" "$HOME/bin/tgpt" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #tidy-viewer (tv) :📺(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/alexhallam/tv" && cd "./tv"
@@ -2022,7 +2022,7 @@ fi
   #tok : word string splitter
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir tok && cd "./tok"
   curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/tok/main.go" ; curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/tok/go.mod"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./tok" ; mv "./tok" "$HOME/bin/tok" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache 
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./tok" ; mv "./tok" "$HOME/bin/tok" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache 
   #---------------#
   #tokei : displays statistics & number of files for code files/dirs
   eget "XAMPPRocky/tokei" --asset "x86_64-unknown-linux-musl.tar.gz" --to "$HOME/bin/tokei"
@@ -2041,7 +2041,7 @@ fi
   #---------------#
   #tty2web : Share your terminal as a web application in bind/reverse mode 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/kost/tty2web" && cd "./tty2web"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./tty2web" "$HOME/bin/tty2web" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #ttyd : Share your terminal over the web  
@@ -2049,7 +2049,7 @@ fi
   #---------------#
   #tuiarchiver : terminal application to list / manage archives
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://codeberg.org/dnalor/tuiarchiver" && cd "./tuiarchiver"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./tuiarchiver" "$HOME/bin/tuiarchiver" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./tuiarchiver" "$HOME/bin/tuiarchiver" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #tut: TUI for Mastodon with vim inspired keys
@@ -2070,12 +2070,12 @@ fi
   #---------------#
   #u-root : create a one-binary root file system (initramfs) containing a busybox-like set of tools
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/u-root/u-root" && cd "./u-root"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./u-root" "$HOME/bin/u-root" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./u-root" "$HOME/bin/u-root" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #udpx : a single-packet UDP port scanner
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/nullt3r/udpx" && cd "./udpx"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/udpx" ; mv "./udpx" "$HOME/bin/udpx" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/udpx" ; mv "./udpx" "$HOME/bin/udpx" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #uip : A tool to obtain your public IP address with the help of STUN servers 
@@ -2093,7 +2093,7 @@ fi
   #unfurl : Pull out bits of URLs provided on stdin 
   #eget "tomnomnom/unfurl" --asset "amd64" --asset "linux" --to "$HOME/bin/unfurl"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/tomnomnom/unfurl" && cd "./unfurl"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./unfurl" "$HOME/bin/unfurl" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./unfurl" "$HOME/bin/unfurl" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #upx : Ultimate Packer for eXecutables
@@ -2107,15 +2107,15 @@ fi
   #---------------#
   #V6-unix: Old Unix programs running on modern computers. 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/rsc/unix" && cd "./unix" ; mkdir -p "./bin"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./bin/v6disk" "./v6disk"
-  #CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./bin/pdp11" "./pdp11"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./bin/v6run" "./v6run"
-  #CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./bin/v6web" "./v6web"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./bin/v6disk" "./v6disk"
+  #CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./bin/pdp11" "./pdp11"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./bin/v6run" "./v6run"
+  #CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./bin/v6web" "./v6web"
   mv "./bin"/* "$HOME/bin" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #validtoml : simple toml validitor
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/martinlindhe/validtoml" && cd "./validtoml"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   mv "./validtoml" "$HOME/bin/validtoml" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #vegeta : HTTP load testing tool and library
@@ -2156,7 +2156,7 @@ fi
   #---------------#
   #wadl-dumper : Dump all available paths and/or endpoints on WADL file
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/dwisiswant0/wadl-dumper" && cd "./wadl-dumper"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./wadl-dumper" "$HOME/bin/wadl-dumper" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./wadl-dumper" "$HOME/bin/wadl-dumper" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #walk: Terminal file manager 
   eget "antonmedv/walk" --asset "linux" --asset "amd64" --asset "gz" --to "$HOME/bin/walk"
@@ -2173,30 +2173,30 @@ fi
   #---------------#
   #waybackrobots : Enumerate old versions of robots.txt paths using Wayback Machine for content discovery
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/mhmdiaa/waybackrobots" && cd "./waybackrobots"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./waybackrobots" "$HOME/bin/waybackrobots" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./waybackrobots" "$HOME/bin/waybackrobots" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #waybackurls : Fetch all the URLs that the Wayback Machine knows about for a domain
   # pre made is static
   #eget "tomnomnom/waybackurls" --asset "amd64" --asset "linux" --to "$HOME/bin/waybackurls"
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/tomnomnom/waybackurls" && cd "./waybackurls"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./waybackurls" "$HOME/bin/waybackurls"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./waybackurls" "$HOME/bin/waybackurls"
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #Web-Cache-Vulnerability-Scanner : CLI tool for testing for web cache poisoning
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner" && cd "./Web-Cache-Vulnerability-Scanner"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/web-cache-vulnerability-scanner" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./Web-Cache-Vulnerability-Scanner" "$HOME/bin/web-cache-vulnerability-scanner" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #WebSocat : netcat (or curl) for ws:// with advanced socat-like functions
   eget "vi/websocat" --asset "x86_64-unknown-linux-musl" --asset "max" --to "$HOME/bin/websocat"
   #---------------#
   #wego: weather app for the terminal  
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/schachmat/wego" && cd "./wego"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./wego" "$HOME/bin/wego" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./wego" "$HOME/bin/wego" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #WireGuard-go : Go Implementation of WireGuard
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://git.zx2c4.com/wireguard-go" && cd "./wireguard-go"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./wireguard-go"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./wireguard-go"
   mv "./wireguard-go" "$HOME/bin/wireguard-go" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #WireGuard-rs : Rust Implementation of WireGuard
@@ -2258,12 +2258,12 @@ fi
   #---------------#
   #yalis : Yet Another LinkedIn Scraper 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/EatonChips/yalis" && cd "./yalis"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./yalis" "$HOME/bin/yalis" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./yalis" "$HOME/bin/yalis" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #yataf : yataf extracts secrets and paths from files or urls - its best used against javascript files 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Damian89/yataf" && cd "./yataf"
-  CGO_ENABLED=0 go build -o "yataf_amd_x86_64_Linux" -v -ldflags="-buildid= -s -w -extldflags '-static'"
+  CGO_ENABLED="0" go build -o "yataf_amd_x86_64_Linux" -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'"
   find . -type f -name '*_Linux' -exec mv {} "$HOME/bin/yataf" \;
   popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
@@ -2278,7 +2278,7 @@ fi
   #---------------#
   #yj: Convert between YAML, TOML, JSON, and HCL
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/sclevine/yj" && cd "./yj"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ;  mv "./yj" "$HOME/bin/yj" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ;  mv "./yj" "$HOME/bin/yj" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #yq : portable command-line YAML, JSON, XML, CSV, TOML and properties processor
@@ -2286,7 +2286,7 @@ fi
   #---------------#
   #zdns : Fast CLI DNS Lookup Tool 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/zmap/zdns" && cd "./zdns"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./zdns" "$HOME/bin/zdns" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./zdns" "$HOME/bin/zdns" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #zellij : A terminal workspace with batteries included
@@ -2297,12 +2297,12 @@ fi
   #---------------#
   #zfxtop : fetch top for gen Z with X written by bubbletea enjoyer  
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/ssleert/zfxtop" && cd "./zfxtop"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/zfxtop"
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/zfxtop"
   mv "./zfxtop" "$HOME/bin/zfxtop" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #zgrab2 : Fast Go Application Scanner 
   pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/zmap/zgrab2" && cd "./zgrab2"
-  CGO_ENABLED=0 go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/zgrab2" ; mv "./zgrab2" "$HOME/bin/zgrab2" ; popd > /dev/null 2>&1
+  CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/zgrab2" ; mv "./zgrab2" "$HOME/bin/zgrab2" ; popd > /dev/null 2>&1
   go clean -cache -fuzzcache -modcache -testcache
   #---------------#
   #zoxide : A smarter cd command.
