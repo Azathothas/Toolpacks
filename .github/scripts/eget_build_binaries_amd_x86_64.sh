@@ -8,7 +8,8 @@
 # bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/eget_binaries_aarch64_arm64.sh")
 #-------------------------------------------------------#
 # If On Github Actions, remove bloat to get space (~ 30 GB) [DANGEROUS]
-if [ "$USER" = "runner" ] || [ "$(whoami)" = "runner" ]; then
+if [ "$USER" = "runner" ] || [ "$(whoami)" = "runner" ] && [ -s "/opt/runner/provisioner" ]; then
+   echo -e "\n[+] Debloating GH Runner...\n"
      #12.0 GB
      sudo rm /usr/local/lib/android -rf 2>/dev/null
      #8.2 GB
