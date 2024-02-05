@@ -77,7 +77,8 @@ set +x
      echo -e "\n[+] Fetching : $BUILD_URL"
        curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
        chmod +xwr "$BUILDSCRIPT"
-       (source "$BUILDSCRIPT") || true
+      # (source "$BUILDSCRIPT") || true
+      bash "$BUILDSCRIPT"
    done < "$SYSTMP/BUILDURLS"
   echo -e "\n\n [+] Finished Building at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
  #Check
