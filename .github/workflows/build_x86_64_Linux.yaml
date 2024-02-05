@@ -116,9 +116,9 @@ jobs:
           #Prep
           dos2unix --quiet "$SYSTMP/BUILD.sh" ; chmod +xwr "$SYSTMP/BUILD.sh"
           #Run with STDOUT [Slow, Not Recommended]
-          bash "$SYSTMP/BUILD.sh"
+          #bash "$SYSTMP/BUILD.sh"
           #Run with LOGS only
-          #bash "$SYSTMP/BUILD.sh" > "$SYSTMP/BUILD.log" 2>&1
+          bash "$SYSTMP/BUILD.sh" > "$SYSTMP/BUILD.log" 2>&1
           #Run with STDOUT + LOGS
           #bash "$SYSTMP/BUILD.sh" | tee "$SYSTMP/BUILD.log" 2>&1
           #Run without STDOUT/Logs
