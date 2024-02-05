@@ -65,7 +65,7 @@ fi
 
 #-------------------------------------------------------#
 ##Build
- set -x
+set +x
  BUILD="YES" && export BUILD="$BUILD"
  #ENV
  BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
