@@ -1,0 +1,350 @@
+name: 🐧🧹 HealthChecks 🖳🗑️
+#MAX_RUNTIME: 02 Minutes */10 * * * * 
+
+on:
+  #push:
+  workflow_dispatch:
+  schedule:
+  #  - cron: "45 03 * * *"  # 03:45 AM UTC --> 09:30 AM Morning NPT
+   - cron: "*/90 * * * *"  # Every 90 mins
+
+env:
+  USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
+  R2_PUB_REPO: "https://pub.ajam.dev/repos/Azathothas/Toolpacks"
+#------------------------------------------------------------------------------------#  
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #12.0 GB 
+          sudo rm /usr/local/lib/android -rf 2>/dev/null
+          #8.2 GB
+          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
+          #5.0 GB
+          sudo rm /usr/local/.ghcup -rf 2>/dev/null
+          #2.0 GB
+          sudo rm /usr/share/dotnet -rf 2>/dev/null
+          #1.7 GB
+          sudo rm /usr/share/swift -rf 2>/dev/null
+          #1.1 GB
+          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
+          #1.0 GB
+          sudo rm /usr/local/share/powershell -rf 2>/dev/null
+          #500 MB
+          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+        continue-on-error: true
+        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set -x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          #GH Dirs
+          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          #-------------#
+          mkdir -p "$HOME/bin"
+          sudo apt update -y
+          sudo apt install dos2unix -y
+          pip install ansi2txt --upgrade
+          ##Get Latest Data (Hysp)
+          curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.json" -o "$GITHUB_WORKSPACE/main/metadata.json"
+          curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.toml" -o "$GITHUB_WORKSPACE/main/metadata.toml"
+          ##Setup rClone
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+
+      - name: Dos2Unix Everything
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main"
+          find . -type f ! -path "./.git/*" -exec dos2unix {} \; 2>/dev/null
+        continue-on-error: true
+
+      - name: ActionLint
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main"
+          find ".github/workflows" -type f -name "*ml" -exec actionlint {} \;
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+      - name: rClone BackUp Repo-I ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          #copy & chdir to Repo
+          cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
+          #Git pull
+          git pull origin main --no-edit 2>/dev/null
+          #Del Bloat
+          rm -rf "$(pwd)/.git"
+          # rm -rf "$(pwd)/aarch64_arm64_Linux"
+          # rm -rf "$(pwd)/arm64_v8a_Android"
+          # rm -rf "$(pwd)/x86_64_Linux"
+          # rm -rf "$(pwd)/x64_Windows"
+          #Upload to Pub
+          echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
+          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --progress --check-first
+          ##Scripts_x86_64_Linux
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          rclone lsjson "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/METADATA.json"
+          #Update Repo
+          cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/metadata.json"
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+#-----------------------------------------------------#        
+#-----------------------------------------------------#
+      - name: Parse ("bin.ajam.dev/arm64_v8a_Android/") Bins
+        run: |
+           #Presets
+           set -x ; set +e
+           #--------------#
+           #Fetch from r2
+           #Copy to $GITHUB_WORKSPACE/main/arm64_v8a_Android
+           rclone copyto "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BLAKE3SUM.txt" 2>/dev/null
+           rclone copyto "r2:/bin/arm64_v8a_Android/FILE.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/FILE.txt" 2>/dev/null
+           rclone copyto "r2:/bin/arm64_v8a_Android/SIZE.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.txt" 2>/dev/null
+           echo '```mathematica' > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.md" 2>/dev/null
+           cat "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.txt" >> "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.md" 2>/dev/null
+           echo '```' >> "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.md" 2>/dev/null
+           rclone copyto "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SHA256SUM.txt" 2>/dev/null
+           rclone copyto "r2:/bin/arm64_v8a_Android/METADATA.json" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" 2>/dev/null
+           ##README From Hysp
+           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/arm64_v8a_Android/README.md" -o "$GITHUB_WORKSPACE/main/arm64_v8a_Android/README.md"
+        continue-on-error: true
+#-----------------------------------------------------#
+#-----------------------------------------------------#
+      - name: Parse ("bin.ajam.dev/aarch64_arm64_Linux/") Bins
+        run: |
+           #Presets
+           set -x ; set +e
+           #--------------#
+           #Fetch from r2
+           #Copy to $GITHUB_WORKSPACE/main/aarch64_arm64_Linux
+           rclone copyto "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BLAKE3SUM.txt" 2>/dev/null
+           rclone copyto "r2:/bin/aarch64_arm64_Linux/FILE.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/FILE.txt" 2>/dev/null
+           rclone copyto "r2:/bin/aarch64_arm64_Linux/SIZE.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.txt" 2>/dev/null
+           echo '```mathematica' > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
+           cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
+           echo '```' >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
+           rclone copyto "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SHA256SUM.txt" 2>/dev/null
+           rclone copyto "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" 2>/dev/null
+           ##README From Hysp
+           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/aarch64_arm64/README.md" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/README.md"
+        continue-on-error: true
+#-----------------------------------------------------#
+#-----------------------------------------------------#
+      - name: Parse ("bin.ajam.dev/x86_64_Linux/") Bins
+        run: |
+           #Presets
+           set -x ; set +e
+           #--------------#
+           #Fetch from r2
+           #Copy to $GITHUB_WORKSPACE/main/x86_64_Linux
+           rclone copyto "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/BLAKE3SUM.txt" 2>/dev/null
+           rclone copyto "r2:/bin/x86_64_Linux/FILE.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/FILE.txt" 2>/dev/null
+           rclone copyto "r2:/bin/x86_64_Linux/SIZE.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.txt" 2>/dev/null
+           echo '```mathematica' > "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
+           cat "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
+           echo '```' >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
+           rclone copyto "r2:/bin/x86_64_Linux/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/SHA256SUM.txt" 2>/dev/null
+           rclone copyto "r2:/bin/x86_64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" 2>/dev/null
+           ##README From Hysp
+           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/x86_64/README.md" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/README.md"
+        continue-on-error: true
+#-----------------------------------------------------#
+#------------------------------------------------------------------------------------#
+      - name: Generate Repo Metadata (git-sizer)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main"
+          #Dust sizes
+          echo '```mathematica' > "$GITHUB_WORKSPACE/main/.github/SIZE.md"
+          dust -b -c -i -r -n 99999999 "$GITHUB_WORKSPACE/main" | tee -a "$GITHUB_WORKSPACE/main/.github/SIZE.md"
+          dust -b -c -i -r -n 99999999 "$GITHUB_WORKSPACE/main" | tee "$GITHUB_WORKSPACE/main/.github/SIZE.txt"
+          echo '```' >> "$GITHUB_WORKSPACE/main/.github/SIZE.md"
+        continue-on-error: true
+
+      - name: Generate Markdown ( Main README.md)
+        run: |
+           #Presets
+           set -x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
+           #--------------#
+           cd "$GITHUB_WORKSPACE/main"
+           #Generate $GITHUB_WORKSPACE/main/README.md
+           cat "$GITHUB_WORKSPACE/main/INFO.md" > "$GITHUB_WORKSPACE/main/README.md"
+           #bin.ajam.dev/arm64_v8a_Android/
+           unset TOTAL_PACKAGES
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z\|BLAKE3SUM\|FILE\.txt\|METADATA.json\|README\.md\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           sed "s/PLACEHOLDER_arm64_v8a_Android/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #bin.ajam.dev/aarch64_arm64_Linux
+           unset TOTAL_PACKAGES
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z\|BLAKE3SUM\|FILE\.txt\|METADATA.json\|README\.md\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           sed "s/PLACEHOLDER_aarch64_arm64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #bin.ajam.dev/x86_64_Linux/
+           unset TOTAL_PACKAGES
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z\|BLAKE3SUM\|FILE\.txt\|METADATA.json\|README\.md\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           sed "s/PLACEHOLDER_x86_64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+        continue-on-error: true
+
+      - name: Get DateTime
+        run: |
+          # Date Time
+          NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')
+          echo "NEPALI_TIME=$NEPALI_TIME" >> $GITHUB_ENV
+        continue-on-error: true
+
+     # - name: Git Pull
+     #   run: |
+     #      cd "$GITHUB_WORKSPACE/main" && git pull origin main
+     #   continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main        
+          commit_user_name: Azathothas # defaults to "github-actions[bot]"
+          commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "✅ 🐧🧹 🖳🗑️"
+          #push_options: '--force'
+        continue-on-error: true
+#-----------------------------------------------------#
+      - name: rClone Generate Metadata (bin.ajam.dev)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          #--------------------#
+          ##arm64_v8a_Android##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/arm64_v8a_Android/METADATA.json"
+          #--------------------#
+          ##aarch64_arm64_Linux##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Baseutils
+          rclone lsjson "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/aarch64_arm64_Linux/METADATA.json"
+          rclone copyto "./metadata_Baseutils.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/METADATA.json"
+          #--------------------#
+          ##x86_64_Linux##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Baseutils
+          rclone lsjson "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/x86_64_Linux/METADATA.json"
+          rclone copyto "./metadata_Baseutils.json" "r2:/bin/x86_64_Linux/Baseutils/METADATA.json"
+          #--------------------#
+          ##x64_Windows##
+          #Raw Dirty
+          rclone lsjson "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x64_Windows/\(.Name)"}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto "./metadata.json" "r2:/bin/x64_Windows/METADATA.json"
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+      - name: rClone BackUp Repo-II ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #chdir to Repo
+          cd "$GITHUB_WORKSPACE/main"
+          #Git pull
+          git pull origin main --no-edit 2>/dev/null
+          #Del Bloat
+          rm -rf "$(pwd)/.git"
+          # rm -rf "$(pwd)/aarch64_arm64"
+          # rm -rf "$(pwd)/arm64_v8a_Android"
+          # rm -rf "$(pwd)/x86_64"
+          #Upload to Pub
+          echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
+          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --progress --check-first
+        continue-on-error: true
+#------------------------------------------------------------------------------------#

@@ -1,0 +1,140 @@
+name: 🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️
+# Build x86_64 Linux Binaries on GH action runners
+# Main Build Script: https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/x86_64_Linux/build_debian.sh
+# Process :: init_debian.sh --> add_toolpacks.sh --> upload to https://bin.ajam.dev/x86_64_Linux/
+on:
+  workflow_dispatch:
+  schedule:
+  #  - cron: "30 22 * * 5" # 10:30 PM UTC Friday --> 04:15 AM NPT Mrng Every Saturday
+    - cron: "30 22 * * 1,3,4,6" # 10:30 PM UTC (04:15 AM NPT Mrng) Every Mon, Wed, Thu & Sat 
+#Sane env
+env:
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}" 
+#Begin
+jobs:
+#------------------------------------------------------------------------------------#
+  build-fetch-binaries:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+#------------------------------------------------------------------------------------#        
+      - name: Setup Env
+        run: |
+          #presets
+          set -x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          #GH Dirs
+          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          #-------------#
+          mkdir -p "$HOME/bin"
+          sudo apt update -y
+          sudo apt install dos2unix -y
+          pip install ansi2txt --upgrade
+          ##Get Latest Data (Hysp)
+          curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.json" -o "$GITHUB_WORKSPACE/main/metadata.json"
+          curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.toml" -o "$GITHUB_WORKSPACE/main/metadata.toml"
+          ##Setup rClone
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+        continue-on-error: true        
+#------------------------------------------------------------------------------------#
+      - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #copy & chdir to Repo
+          cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
+          #Git pull
+          git pull origin main --no-edit 2>/dev/null
+          #Del Bloat
+          rm -rf "$(pwd)/.git"
+          # rm -rf "$(pwd)/aarch64_arm64_Linux"
+          # rm -rf "$(pwd)/arm64_v8a_Android"
+          # rm -rf "$(pwd)/x86_64_Linux"
+          # rm -rf "$(pwd)/x64_Windows"
+          #Upload to Pub
+          echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
+          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --progress --check-first
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+      #Main Build Script
+      - name: BUILD
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #Fetch
+          curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/build_debian.sh" -o "$SYSTMP/BUILD.sh"
+          #Prep
+          dos2unix --quiet "$SYSTMP/BUILD.sh" ; chmod +xwr "$SYSTMP/BUILD.sh"
+          #Run with STDOUT [Slow, Not Recommended]
+          bash "$SYSTMP/BUILD.sh"
+          #Run with LOGS only
+          #bash "$SYSTMP/BUILD.sh" > "$SYSTMP/BUILD.log" 2>&1
+          #Run with STDOUT + LOGS
+          #bash "$SYSTMP/BUILD.sh" | tee "$SYSTMP/BUILD.log" 2>&1
+          #Run without STDOUT/Logs
+          #bash "$SYSTMP/BUILD.sh" >/dev/null 2>&1
+        continue-on-error: true
+
+      #Logs & Artifacts  
+      - name: Upload (x86_64_Linux) Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+            name: Toolpack_x86_64_Linux
+            path: |
+              /tmp/toolpack_x86_64.7z
+              /tmp/BUILD.log
+            compression-level: 0 # no compression, [Default: 6 (GNU Gzip)]
+            retention-days: 7
+            overwrite: true
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
