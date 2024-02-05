@@ -2,14 +2,14 @@
 2.0M └─┬ main
 556K   ├── metadata.json
 536K   ├─┬ x86_64_Linux
-220K   │ ├── README.md
- 96K   │ ├── METADATA.json
+216K   │ ├── README.md
+100K   │ ├── METADATA.json
  96K   │ ├── FILE.txt
  44K   │ ├── SHA256SUM.txt
  44K   │ ├── BLAKE3SUM.txt
  16K   │ ├── SIZE.txt
  16K   │ └── SIZE.md
-464K   ├── metadata.toml
+460K   ├── metadata.toml
 408K   ├─┬ aarch64_arm64_Linux
 136K   │ ├── README.md
  92K   │ ├── METADATA.json

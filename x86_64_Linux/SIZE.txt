@@ -17,8 +17,8 @@
   63M   ├── loki
   59M   ├── wtf
   59M   ├── alist
-  57M   ├── nu
   57M   ├── nushell
+  57M   ├── nu
   56M   ├── logcli
   55M   ├── rclone
   50M   ├── melange
@@ -193,8 +193,8 @@
  8.9M   ├── sttr
  8.9M   ├── hxn
  8.9M   ├── csprecon
- 8.8M   ├── enc
  8.8M   ├── naabu_staticx
+ 8.8M   ├── enc
  8.8M   ├── mubeng
  8.7M   ├── ddns-go
  8.7M   ├── bluetuith
@@ -391,8 +391,8 @@
  3.7M   ├── validtoml
  3.7M   ├── viu
  3.6M   ├── iperf3
- 3.6M   ├── ksubdomain_staticx
  3.6M   ├── kalker
+ 3.6M   ├── ksubdomain_staticx
  3.5M   ├── just
  3.5M   ├── bandwhich
  3.5M   ├── twingate-client
