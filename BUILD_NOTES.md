@@ -36,7 +36,7 @@
 ❯ !# Produce a static-pie stripped binary
 unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-unset LDFLAGS && export LDFLAGS="-static -static-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# Produce a static-pie stripped binary, but fallback to no-pie
 unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
