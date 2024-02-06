@@ -1,3 +1,5 @@
+
+---
 - #### [make]()
 ```bash
 !#CFLAGS :: https://man7.org/linux/man-pages/man1/gcc.1.html
@@ -32,14 +34,14 @@
 #     -Wl,--no-build-id --> same as -Wl,--build-id=none
 
 ❯ !# Produce a static-pie stripped binary
-export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
-export CXXFLAGS="${CFLAGS}"
-export LDFLAGS="-static -static-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id ${LDFLAGS}"
+unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+unset LDFLAGS && export LDFLAGS="-static -static-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# Produce a static-pie stripped binary, but fallback to no-pie
-export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
-export CXXFLAGS="${CFLAGS}"
-export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id ${LDFLAGS}"
+unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# Make
 # -B | --always-make --> Unconditionally make all targets. 
@@ -55,3 +57,4 @@ export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,-
 # Run with `--dry-run` for sanity checks
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
 ```
+---
