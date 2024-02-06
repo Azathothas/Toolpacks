@@ -1,6 +1,6 @@
 ```mathematica
 2.0M └─┬ main
-556K   ├── metadata.json
+552K   ├── metadata.json
 536K   ├─┬ x86_64_Linux
 216K   │ ├── README.md
 100K   │ ├── METADATA.json
