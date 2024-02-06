@@ -1,15 +1,15 @@
 ```mathematica
 2.0M └─┬ main
 556K   ├── metadata.json
-540K   ├─┬ x86_64_Linux
-220K   │ ├── README.md
-100K   │ ├── FILE.txt
- 96K   │ ├── METADATA.json
+536K   ├─┬ x86_64_Linux
+216K   │ ├── README.md
+100K   │ ├── METADATA.json
+ 96K   │ ├── FILE.txt
  44K   │ ├── SHA256SUM.txt
  44K   │ ├── BLAKE3SUM.txt
  16K   │ ├── SIZE.txt
  16K   │ └── SIZE.md
-464K   ├── metadata.toml
+460K   ├── metadata.toml
 408K   ├─┬ aarch64_arm64_Linux
 136K   │ ├── README.md
  92K   │ ├── METADATA.json
@@ -26,5 +26,6 @@
 4.0K   │ └── BLAKE3SUM.txt
  16K   ├── INFO.md
  12K   ├── README.md
+8.0K   ├── BUILD_NOTES.md
 4.0K   └── x64_Windows
 ```
