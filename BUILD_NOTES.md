@@ -1,6 +1,6 @@
 
 ---
-- #### [make]()
+- #### [make](https://wiki.gentoo.org/wiki/GCC_optimization)
 ```bash
 !#CFLAGS :: https://man7.org/linux/man-pages/man1/gcc.1.html
 #        :: https://wiki.gentoo.org/wiki/GCC_optimization
@@ -63,7 +63,7 @@ unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -W
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
 ```
 ---
-- #### [zig-musl]()
+- #### [zig-musl](https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler)
 ```bash
 !# REF :: https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html
 #      :: https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler
