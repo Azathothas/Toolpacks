@@ -1,0 +1,57 @@
+- #### [make]()
+```bash
+!#CFLAGS :: https://man7.org/linux/man-pages/man1/gcc.1.html
+#        :: https://wiki.gentoo.org/wiki/GCC_optimization
+#        :: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html
+# -O2 --> Optimizes by 2x [https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-O2]
+# -fpie/-fPIE --> Allows position independent executable (Used by -static-pie in LDFALGS)
+#  -fpie | -fPIPE both define the macros "__pie__" and "__PIE__". The macros have the value 1 for -fpie and 2 for -fPIE.
+# -w --> Inhibits all warning messages [-Wall --> All Warnings | -Werror --> Treats warnings as failures]
+# -pipe --> Use pipes rather than temporary files (Consumes Memory/RAM, but faster)
+
+!#LDFLAGS :: https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html
+# -static --> This overrides -pie and prevents linking with the shared libraries 
+#  Note: This sets -static as defaults, so for an example: static-libgcc is used instead of -shared-libgcc
+# -static-pie --> Produce a static position independent executable on targets that support it
+#  Note : -pie --> Produces Dynamically linked position independent executable, hence use -static-pie
+#       : Also requires that we pass -fpie | -fPIE as CFLAGS
+# ⚠️ -no-pie --> Don’t produce a dynamically linked position independent executable. [This disables pie for everything, only use if default doesn't work]
+# -s --> Strips all symbol table and relocation information from the executable. 
+# 
+# -fuse-ld=mold --> Use mold as ld [https://github.com/rui314/mold/blob/main/docs/mold.md] 🦠
+# Remove the opts if mold isn't installed or you don't want to use mold 
+# -Wl --> Passes option to the linker, mold in this case
+#  Note: Must use -Wl,$MOLD_OPTIONS for mold
+# ⚠️⚠️ WARNING: pass these only if default LDFLAGS didn't work and mold has to be used specifically
+#    Often these executables result in Segmentation Faults/Core Dumps
+# ⚠️  -Wl,--pie --> Create a position-independent executable. (This is either Dynamic/Static based on other $OPTS)
+#     -Wl,--Bstatic --> Do not link against shared libraries. (Similar to -no-pie)
+#     -Wl,--static --> Do not link against shared libraries. (Similar to -static)
+#     -Wl,-S --> Strips all symbol table and relocation information from the executable. (Similar to -s)
+#     -Wl,--build-id --> Embeds (md5 | sha1 | sha256 | uuid | 0x${hexstring} | none), default is sha1. 
+#     -Wl,--no-build-id --> same as -Wl,--build-id=none
+
+❯ !# Produce a static-pie stripped binary
+export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export LDFLAGS="-static -static-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id ${LDFLAGS}"
+
+❯ !# Produce a static-pie stripped binary, but fallback to no-pie
+export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id ${LDFLAGS}"
+
+❯ !# Make
+# -B | --always-make --> Unconditionally make all targets. 
+# -e | --environment-overrides --> Prefer environment variable over variables from makefiles.
+# -f | --file=file | --makefile=FILE --> Path to makefile
+# -j | --jobs="$(($(nproc)+1))" --> Fancy shell maths to auto specify maximum threads for make jobs
+# -k | --keep-going --> Continue as much as possible after an error
+# -n | --just-print | --dry-run | --recon --> Print the commands that would be executed, but do not execute them.
+# -s | --silent | --quiet --> Silent operation; do not print the commands as they are executed.
+
+# ${ADDITIONAL_ARGS} --> replace with yours, otherwise is silently ignored
+# Run: make dest clean 2>/dev/null ; make clean 2>/dev/null --> To cleanup
+# Run with `--dry-run` for sanity checks
+make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
+```
