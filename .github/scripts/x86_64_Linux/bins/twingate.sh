@@ -37,5 +37,5 @@ fi
 #-------------------------------------------------------#
 ##Cleanup
 #In case of zig polluted env
-unset AR CC CXX DLLTOOL HOST_CC HOST_CXX OBJCOPY RANLIB
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 #-------------------------------------------------------#

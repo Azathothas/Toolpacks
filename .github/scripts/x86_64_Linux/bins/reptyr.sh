@@ -27,8 +27,22 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/nelhage/reptyr" && cd "./reptyr"
-       make CFLAGS="-MD -Wall -Werror -D_GNU_SOURCE -g -static $CFLAGS" LDFLAGS="-static $LDFLAGS" all
-       strip "./reptyr" ; mv "./reptyr" "$BINDIR/reptyr" ; popd > /dev/null 2>&1
+       export ZIG_LIBC_TARGET="x86_64-linux-musl"
+       unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
+       unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
+       unset DLLTOOL && export DLLTOOL="zig dlltool"
+       unset HOST_CC && export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
+       unset HOST_CXX && export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
+       unset OBJCOPY && export OBJCOPY="zig objcopy"
+       unset RANLIB && export RANLIB="zig ranlib"
+       unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+       unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+       unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+       #If no zig
+       #unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+       make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
+       strip "./reptyr" ; file "./reptyr" && du -sh "./reptyr"
+       mv "./reptyr" "$BINDIR/reptyr" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
@@ -36,5 +50,5 @@ fi
 ##Cleanup
 export BUILT="YES"
 #In case of zig polluted env
-unset AR CC CXX DLLTOOL HOST_CC HOST_CXX OBJCOPY RANLIB
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 #-------------------------------------------------------#

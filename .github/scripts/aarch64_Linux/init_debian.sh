@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-###-----------------------------------------------------###
-### Setups Essential Tools & Preps Sys Environ for Deps ###
-### This Script must be run as `root` (passwordless)    ###
-### Assumptions: Arch: AMD_64 | OS: Debian 64bit        ###
-###-----------------------------------------------------###
+###-------------------------------------------------------###
+### Setups Essential Tools & Preps Sys Environ for Deps   ###
+### This Script must be run as `root` (passwordless)      ###
+### Assumptions: Arch: (arm64) AARCH64 | OS: Debian 64bit ###
+###-------------------------------------------------------###
 
 #-------------------------------------------------------#
 ## Init Script for toolpacks builder
@@ -14,7 +14,7 @@
 #
 # Hardware : At least 2vCPU + 8GB RAM + 50GB SSD
 # Once requirement is satisfied, simply:
-# bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/init_debian.sh")
+# bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/init_debian.sh")
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
@@ -117,11 +117,11 @@
           sudo apt-get update -y 2>/dev/null
           sudo apt-get install coreutils moreutils util-linux -y 2>/dev/null
           sudo apt-get install automake b3sum build-essential ca-certificates ccache dos2unix lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full wget -y 2>/dev/null
-          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq patch patchelf pkg-config python3-pip qemu-user-static wget 2>/dev/null
+          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config python3-pip qemu-user-static wget 2>/dev/null
           sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
           #Re
           sudo apt-get install automake b3sum build-essential ca-certificates ccache dos2unix lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full wget -y 2>/dev/null
-          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq patch patchelf pkg-config 2>/dev/null
+          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config python3-pip qemu-user-static wget 2>/dev/null
           sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
           #Install Build Dependencies (arm64)
           sudo apt install binutils-aarch64-linux-gnu -y 2>/dev/null
@@ -150,28 +150,28 @@
     #Install Addons
     if [ "$CONTINUE" == "YES" ]; then
          #7z
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
          #b3sum
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-         #croc
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/croc" -o "/usr/local/bin/croc" && sudo chmod +xwr "/usr/local/bin/croc"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+         #Croc
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/croc" -o "/usr/local/bin/croc" && sudo chmod +xwr "/usr/local/bin/croc"
          #delta
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
          #dust
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
          #eget
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
          #rclone
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
          #upx
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
          #yq
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
          #yj
-         sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
     fi 
     #-------------------------------------------------------#
     
@@ -179,14 +179,20 @@
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
          #Crystal
-          curl -qfsSL "https://crystal-lang.org/install.sh" | sudo bash
+          sudo rm "/etc/apt/sources.list.d/crystal.list" -rf 2>/dev/null
+          ## Doesn't provide prebuilts for arm64
+          #https://github.com/crystal-lang/distribution-scripts/issues/125#issuecomment-1298548759
+          #https://packagecloud.io/84codes/crystal
+          curl -qfsSL "https://packagecloud.io/84codes/crystal/gpgkey" | gpg --dearmor | sudo tee "/etc/apt/trusted.gpg.d/84codes_crystal.gpg" > /dev/null
+          echo "deb https://packagecloud.io/84codes/crystal/any any main" | sudo tee "/etc/apt/sources.list.d/84codes_crystal.list"
+          sudo apt-get update -y ; sudo apt-get install crystal -y
           #Test
           if ! command -v crystal &> /dev/null; then
              echo -e "\n[-] crystal NOT Found\n"
              export CONTINUE="NO" && exit 1
           else
              crystal --version ; shards --version
-          fi          
+          fi
          #golang 
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
           #Test
@@ -195,9 +201,9 @@
              export CONTINUE="NO" && exit 1
           else
              go version
-          fi  
+          fi          
          #rust & cargo
-          bash <(curl -qfsSL "https://sh.rustup.rs") -y 
+          bash <(curl -qfsSL "https://sh.rustup.rs") -y
           #Test: PATH="$HOME/.cargo/bin:$HOME/.cargo/env:$PATH" 
           if ! command -v cargo &> /dev/null; then
              echo -e "\n[-] cargo (rust) NOT Found\n"
@@ -208,24 +214,30 @@
              cargo install cross --git "https://github.com/cross-rs/cross"
           fi
          #zig
-          curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_zig.sh" | bash
+          #Clean
+          sudo rm "/usr/local/zig" -rf 2>/dev/null ; sudo rm "/usr/local/zig" -rf 2>/dev/null
+          #Get latest source
+          pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."aarch64-linux".tarball')
+          #Extract
+          find . -type f -name '*.tar*' -exec tar -xvf {} \;
+          #Move to /usr/local/zig
+          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd > /dev/null 2>&1
           #Test: ZIG_PATH="/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
           if ! command -v zig &> /dev/null; then
              echo -e "\n[-] zig NOT Found\n"
              export CONTINUE="NO" && exit 1
           else
              zig version
-          fi          
-          find "$SYSTMP" -type d -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
-          find "$SYSTMP" -type f -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
+          fi
     fi
-   #-------------------------------------------------------#
+    #-------------------------------------------------------#
 
-   #-------------------------------------------------------#
+    #-------------------------------------------------------#    
+    ##Additional Libs
     ##Mold for linking
     if [ "$CONTINUE" == "YES" ]; then
           #Get Source
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
+          pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "rui314/mold" --asset "aarch64-linux.tar.gz" --download-only --to "./mold.tar.gz"
           #Extract Archive
           find . -type f -name "*.tar.gz*" -exec tar -xvf {} --strip-components=1 \;
           #Main Binary
@@ -245,14 +257,22 @@
           else   
              mold --version
           fi
-    fi
-    ##Additional Libs
+    fi    
     if [ "$CONTINUE" == "YES" ]; then
+         #------------------------------#
          ##Install Alsa-Libs (libasound)
-          sudo apt-get install alsa-base alsa-utils linux-sound-base libasound2-dev libfl-dev libjack-dev librust-cpal-dev libxi-dev libxtst-dev -y
+          #Deps
+          sudo apt-get install alsa-utils libasound2-dev libfl-dev libjack-dev librust-cpal-dev libxi-dev libxtst-dev -y
+          #Source
           pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/alsa-project/alsa-lib" && cd "alsa-lib"
-          bash "./gitcompile" ; "./configure" --enable-shared=no --enable-static=yes ; sudo make install ; popd > /dev/null 2>&1
+          #Flags
+          unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+          #Configure
+          make dest clean 2>/dev/null ; make clean 2>/dev/null
+          bash "./gitcompile" ; "./configure" --disable-shared --enable-static --enable-shared=no --enable-static=yes
+          sudo make --jobs="$(($(nproc)+1))" --keep-going install ; popd > /dev/null 2>&1
           find "$SYSTMP" -type d -name "*alsa*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
+         #------------------------------# 
          ##Install Meson & Ninja
           #Install
           sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
@@ -264,11 +284,12 @@
           sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja"
           #version
           meson --version ; ninja --version
-         ##Install ncurses 
+         #------------------------------# 
+         ##Install ncurses
           pushd "$($TMPDIRS)" > /dev/null 2>&1 && wget --quiet --show-progress --progress="dot:giga" "https://invisible-island.net/datafiles/current/ncurses.tar.gz"
           find . -type f -name "*.tar.gz*" -exec tar -xvf {} \; 2>/dev/null
           cd "$(find . -maxdepth 1 -type d -name "*ncurses*" | grep -v "^.$")"
-          export ZIG_LIBC_TARGET="x86_64-linux-musl"
+          export ZIG_LIBC_TARGET="aarch64-linux-musl"
           unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
           unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
           unset DLLTOOL && export DLLTOOL="zig dlltool"
@@ -285,14 +306,30 @@
           sudo make install ; popd > /dev/null 2>&1 ; tput -V
           unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
           find "$SYSTMP" -type d -name "*ncurses*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
-         ##Openssl (via nmap)
-          curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Devscripts/install_nmap.sh" | bash
+         #------------------------------#
+         ##Openssl
+          pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/openssl/openssl" && cd "./openssl"
+          make dist clean 2>/dev/null ; make clean 2>/dev/null
+          unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+          unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+          unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+          unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+          "./Configure" --disable-shared --enable-static -static no-shared
+          make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
+          sudo make install ; openssl version ; popd > /dev/null 2>&1
           find "$SYSTMP" -type d -name "*nmap*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
           find "$SYSTMP" -type d -name "*openssl*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
+         #------------------------------#
          ##wolfssl
           pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/wolfSSL/wolfssl" && cd "./wolfssl"
-          bash "./autogen.sh" 2>/dev/null ; "./configure" --enable-all --disable-shared --enable-static --enable-sslv3
-          make --jobs="$(($(nproc)+1))" --keep-going ; sudo make install ; wolfssl-config --version ; popd > /dev/null 2>&1
+          bash "./autogen.sh" 2>/dev/null
+          unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+          unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+          unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+          unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+          "./configure" --enable-all --disable-shared --enable-static --enable-sslv3
+          make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
+          sudo make install ; wolfssl-config --version ; popd > /dev/null 2>&1
           find "$SYSTMP" -type d -name "*wolfssl*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
     fi 
     #-------------------------------------------------------#

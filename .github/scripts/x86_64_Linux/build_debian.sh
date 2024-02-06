@@ -13,8 +13,15 @@
 
 #-------------------------------------------------------#
 ##ENV:$PATH
- export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$GOROOT/bin:$GOPATH/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
+ export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
  SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+#TMPDIRS
+ #For build-cache
+ TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_linux_x86_64" && export TMPDIRS="$TMPDIRS"
+ rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
+ #For Bins
+ BINDIR="$SYSTMP/toolpack_x86_64" && export BINDIR="$BINDIR"
+ rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
 ##Sane Configs
 #In case of removed/privated GH repos
  # https://git-scm.com/docs/git#Documentation/git.txt-codeGITTERMINALPROMPTcode
@@ -52,16 +59,6 @@ else
 fi
 #-------------------------------------------------------# 
 
-#-------------------------------------------------------#
-##Get ENV:PATH
-#TMPDIRS
- #For build-cache
- TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_linux_x86_64" && export TMPDIRS="$TMPDIRS"
- rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
- #For Bins
- BINDIR="$SYSTMP/toolpack_x86_64" && export BINDIR="$BINDIR"
- rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
-#-------------------------------------------------------#
 
 #-------------------------------------------------------#
 ##Build
