@@ -11,6 +11,11 @@
 # -w --> Inhibits all warning messages [-Wall --> All Warnings | -Werror --> Treats warnings as failures]
 # -pipe --> Use pipes rather than temporary files (Consumes Memory/RAM, but faster)
 
+!#LTO :: https://wiki.gentoo.org/wiki/LTO
+#     :: https://gcc.gnu.org/wiki/LinkTimeOptimization
+#     :: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-flto
+# -flto=auto ($CFLAGS) --> Uses GNU make’s job server (if available) OR falls back to autodetection of the number of CPU threads present in the system
+
 !#LDFLAGS :: https://gcc.gnu.org/onlinedocs/gcc/Link-Options.html
 # -static --> This overrides -pie and prevents linking with the shared libraries 
 #  Note: This sets -static as defaults, so for an example: static-libgcc is used instead of -shared-libgcc
@@ -34,12 +39,12 @@
 #     -Wl,--no-build-id --> same as -Wl,--build-id=none
 
 ❯ !# Produce a static-pie stripped binary
-unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
 unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# Produce a static-pie stripped binary, but fallback to no-pie
-unset CFLAGS && export CFLAGS="-O2 -fPIE -fpie -static -w -pipe ${CFLAGS}"
+unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
 unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
@@ -58,3 +63,31 @@ unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -W
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
 ```
 ---
+- #### [zig-musl]()
+```bash
+!# REF :: https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html
+#      :: https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler
+
+❯ !# List Targets
+zig targets | jq -r '.libc[]'
+
+❯ !# Export Target
+export ZIG_LIBC_TARGET="x86_64-linux-musl"
+# Example: x86_64-linux-musl || aarch64-linux-musl
+
+❯ !# Flags :: https://fig.io/manual/zig/cc
+unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
+unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
+unset DLLTOOL && export DLLTOOL="zig dlltool"
+unset HOST_CC && export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
+unset HOST_CXX && export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
+unset OBJCOPY && export OBJCOPY="zig objcopy"
+unset RANLIB && export RANLIB="zig ranlib"
+# https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make
+unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+
+❯ !# Make
+make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
+```
