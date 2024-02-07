@@ -10,7 +10,12 @@
 #  -fpie | -fPIPE both define the macros "__pie__" and "__PIE__". The macros have the value 1 for -fpie and 2 for -fPIE.
 # -w --> Inhibits all warning messages [-Wall --> All Warnings | -Werror --> Treats warnings as failures]
 # -pipe --> Use pipes rather than temporary files (Consumes Memory/RAM, but faster)
-
+#
+# ☣️ -fpic/-fPIC  --> generates position independent code (PIC) for SHARED libraries. Use only for Dynamic Linking
+#    # https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fpic
+# ☣️ -Og --> completely disables a number of optimization passes, meant for DEBUG builds
+# ☣️ -g --> This option includes debugging information in the compiled executable
+#
 !#LTO :: https://wiki.gentoo.org/wiki/LTO
 #     :: https://gcc.gnu.org/wiki/LinkTimeOptimization
 #     :: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-flto
@@ -38,15 +43,30 @@
 #     -Wl,--build-id --> Embeds (md5 | sha1 | sha256 | uuid | 0x${hexstring} | none), default is sha1. 
 #     -Wl,--no-build-id --> same as -Wl,--build-id=none
 
-❯ !# Produce a static-pie stripped binary
+❯ !# static-pie + mold 🦠
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
 unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
-❯ !# Produce a static-pie stripped binary, but fallback to no-pie
+❯ !# static-pie + No mold
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+
+❯ !# static (no pie) + mold 🦠
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
 unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+
+
+❯ !# static (no pie) + No mold
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
+unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# Make
 # -B | --always-make --> Unconditionally make all targets. 
@@ -76,6 +96,7 @@ export ZIG_LIBC_TARGET="x86_64-linux-musl"
 # Example: x86_64-linux-musl || aarch64-linux-musl
 
 ❯ !# Flags :: https://fig.io/manual/zig/cc
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
 unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
 unset DLLTOOL && export DLLTOOL="zig dlltool"
