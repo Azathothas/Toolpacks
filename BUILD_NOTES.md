@@ -119,6 +119,7 @@ export RUST_TARGET="x86_64-unknown-linux-musl"
 #
 ## Optimizations : https://doc.rust-lang.org/rustc/codegen-options/index.html#lto
 # -C lto=yes --> uses link time optimizations, (Consumes Memory/RAM, also slower) [By default, set to thin]
+#  This requires -C embed-bitcode=yes 
 # -C linker-plugin-lto=yes --> Enables linker plugin LTO. [Defers LTO optimizations to the linker]
 # -C opt-level=3 --> Optimizes everything #https://doc.rust-lang.org/rustc/codegen-options/index.html#opt-level
 #
@@ -126,17 +127,21 @@ export RUST_TARGET="x86_64-unknown-linux-musl"
 # -C linker=$(which mold) --> Uses mold as linker 🦠 , don't use this flags if default ld is preferred
 #    -C link-args=-Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none --> Uses mold as linker with Sane Opts
 #    -C link-args=-Wl,-S -Wl,--build-id=none --> Uses Default ld with Sane Opts
-# 
+#
+
+❯ !# static + No mold
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-export RUSTFLAGS="-C target-feature=+crt-static -C link-self-contained=yes -C debuginfo=none -C strip=symbols"
+export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols"
 
 ❯ !# Build :: https://doc.rust-lang.org/cargo/commands/cargo-build.html
-cargo build --target "$RUST_TARGET" --jobs="$(($(nproc)+1))" --keep-going
+rustup target add "$RUST_TARGET"
+echo -e "\n[+]RUSTFLAGS: $RUSTFLAGS\n"
+sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
+cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+
 #OUTPUT is usually in: "./target/$RUST_TARGET/release/"
 # OR: cargo check --metadata-format="json" --quiet 
 # --out-dir --> https://github.com/rust-lang/cargo/issues/6790
-
-
 ```
 ---
 - #### [zig-musl](https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler)
