@@ -102,20 +102,20 @@ set +x
  if command -v rclone &> /dev/null && [ -s "$HOME/.rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      cd "$BINDIR" && rclone copy "." "r2:/bin/aarch64_Linux/" --progress --check-first
+      cd "$BINDIR" && rclone copy "." "r2:/bin/aarch64_arm64_Linux/" --progress --check-first
     #File
       cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_FILE"
-      rclone copyto "$SYSTMP/aarch64_Linux_FILE" "r2:/bin/aarch64_Linux/FILE.txt" --progress --check-first
+      rclone copyto "$SYSTMP/aarch64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --progress --check-first
     #Size (Dust)
       dust -b -c -i -r -n 99999999 "$BINDIR" | tee "$SYSTMP/aarch64_Linux_SIZE.txt"
-      rclone copyto "$SYSTMP/aarch64_Linux_SIZE.md" "r2:/bin/aarch64_Linux/SIZE.md" --progress --check-first
-      rclone copyto "$SYSTMP/aarch64_Linux_SIZE.txt" "r2:/bin/aarch64_Linux/SIZE.txt" --progress --check-first
+      rclone copyto "$SYSTMP/aarch64_Linux_SIZE.md" "r2:/bin/aarch64_arm64_Linux/SIZE.md" --progress --check-first
+      rclone copyto "$SYSTMP/aarch64_Linux_SIZE.txt" "r2:/bin/aarch64_arm64_Linux/SIZE.txt" --progress --check-first
     #BLAKE3SUM
       cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_BLAKE3SUM"
-      rclone copyto "$SYSTMP/aarch64_Linux_BLAKE3SUM" "r2:/bin/aarch64_Linux/BLAKE3SUM.txt" --progress --check-first
+      rclone copyto "$SYSTMP/aarch64_Linux_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" --progress --check-first
     #SHA256SUM
       cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_SHA256SUM"
-      rclone copyto "$SYSTMP/aarch64_Linux_SHA256SUM" "r2:/bin/aarch64_Linux/SHA256SUM.txt" --progress --check-first
+      rclone copyto "$SYSTMP/aarch64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --progress --check-first
  fi
 #-------------------------------------------------------#
 #Archive Binaries (.7z) (aarch64_Linux) Bins
@@ -134,13 +134,13 @@ set +x
  # rClone Upload Toolpacks to R2 (bin.ajam.dev/aarch64_Linux/_toolpack_aarch64.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      rclone copyto "$BINDIR.7z" "r2:/bin/aarch64_Linux/_toolpack_aarch64.7z" --progress --check-first
+      rclone copyto "$BINDIR.7z" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64.7z" --progress --check-first
      #BLAKE3SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_aarch64_BLAKE3SUM"
-      rclone copyto "$SYSTMP/_toolpack_aarch64_BLAKE3SUM" "r2:/bin/aarch64_Linux/_toolpack_aarch64_BLAKE3SUM.txt" --progress --check-first
+      rclone copyto "$SYSTMP/_toolpack_aarch64_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_BLAKE3SUM.txt" --progress --check-first
      #SHA256SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_aarch64_SHA256SUM"
-      rclone copyto "$SYSTMP/_toolpack_aarch64_SHA256SUM" "r2:/bin/aarch64_Linux/_toolpack_aarch64_SHA256SUM.txt" --progress --check-first
+      rclone copyto "$SYSTMP/_toolpack_aarch64_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_SHA256SUM.txt" --progress --check-first
  fi
 #-------------------------------------------------------#
 #META
