@@ -116,11 +116,11 @@
          #Install CoreUtils & Deps
           sudo apt-get update -y 2>/dev/null
           sudo apt-get install coreutils moreutils util-linux -y 2>/dev/null
-          sudo apt-get install automake b3sum build-essential ca-certificates ccache dos2unix lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full wget -y 2>/dev/null
+          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget -y 2>/dev/null
           sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq patch patchelf pkg-config python3-pip qemu-user-static wget 2>/dev/null
           sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
           #Re
-          sudo apt-get install automake b3sum build-essential ca-certificates ccache dos2unix lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full wget -y 2>/dev/null
+          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget -y 2>/dev/null
           sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq patch patchelf pkg-config 2>/dev/null
           sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
           #Install Build Dependencies (arm64)
@@ -178,6 +178,19 @@
     #-------------------------------------------------------#
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
+         #Docker
+          curl -qfsSL "https://get.docker.com" | sudo bash
+          sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
+          newgrp docker 2>/dev/null
+          #Test
+          if ! command -v docker &> /dev/null; then
+             echo -e "\n[-] docker NOT Found\n"
+             export CONTINUE="NO" && exit 1
+          else
+             docker --version ; docker run hello-world
+             sudo ldconfig && sudo ldconfig -p
+             newgrp 2>/dev/null
+          fi
          #Crystal
           curl -qfsSL "https://crystal-lang.org/install.sh" | sudo bash
           #Test
@@ -186,6 +199,7 @@
              export CONTINUE="NO" && exit 1
           else
              crystal --version ; shards --version
+             sudo ldconfig && sudo ldconfig -p
           fi          
          #golang 
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
@@ -195,6 +209,7 @@
              export CONTINUE="NO" && exit 1
           else
              go version
+             sudo ldconfig && sudo ldconfig -p
           fi  
          #rust & cargo
           bash <(curl -qfsSL "https://sh.rustup.rs") -y 
@@ -206,6 +221,7 @@
              rustc --version && cargo --version
              #Cross-rs
              cargo install cross --git "https://github.com/cross-rs/cross"
+             sudo ldconfig && sudo ldconfig -p
           fi
          #zig
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_zig.sh" | bash
@@ -215,6 +231,7 @@
              export CONTINUE="NO" && exit 1
           else
              zig version
+             sudo ldconfig && sudo ldconfig -p
           fi          
           find "$SYSTMP" -type d -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
           find "$SYSTMP" -type f -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
@@ -244,6 +261,7 @@
              exit 1
           else   
              mold --version
+             sudo ldconfig && sudo ldconfig -p
           fi
     fi
     ##Additional Libs
@@ -264,6 +282,7 @@
           sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja"
           #version
           meson --version ; ninja --version
+          sudo ldconfig && sudo ldconfig -p
          ##Install ncurses 
           pushd "$($TMPDIRS)" > /dev/null 2>&1 && wget --quiet --show-progress --progress="dot:giga" "https://invisible-island.net/datafiles/current/ncurses.tar.gz"
           find . -type f -name "*.tar.gz*" -exec tar -xvf {} \; 2>/dev/null
@@ -284,6 +303,7 @@
           make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
           sudo make install ; popd > /dev/null 2>&1 ; tput -V
           unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+          sudo ldconfig && sudo ldconfig -p
           find "$SYSTMP" -type d -name "*ncurses*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
          ##Openssl (via nmap)
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Devscripts/install_nmap.sh" | bash
@@ -293,6 +313,7 @@
           pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/wolfSSL/wolfssl" && cd "./wolfssl"
           bash "./autogen.sh" 2>/dev/null ; "./configure" --enable-all --disable-shared --enable-static --enable-sslv3
           make --jobs="$(($(nproc)+1))" --keep-going ; sudo make install ; wolfssl-config --version ; popd > /dev/null 2>&1
+          sudo ldconfig && sudo ldconfig -p
           find "$SYSTMP" -type d -name "*wolfssl*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
     fi 
     #-------------------------------------------------------#
