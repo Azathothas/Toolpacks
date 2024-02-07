@@ -25,5 +25,5 @@
 4.0K   │ └── BLAKE3SUM.txt
  16K   ├── INFO.md
  12K   ├── README.md
-8.0K   ├── BUILD_NOTES.md
+ 12K   ├── BUILD_NOTES.md
 4.0K   └── x64_Windows
