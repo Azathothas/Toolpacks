@@ -183,15 +183,15 @@
          #Docker
           curl -qfsSL "https://get.docker.com" | sudo bash
           sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
-          newgrp docker 2>/dev/null
+          #newgrp docker 2>/dev/null
           #Test
           if ! command -v docker &> /dev/null; then
              echo -e "\n[-] docker NOT Found\n"
              export CONTINUE="NO" && exit 1
           else
-             docker --version ; docker run hello-world
+             docker --version ; sudo docker run hello-world
              sudo ldconfig && sudo ldconfig -p
-             newgrp 2>/dev/null
+             #newgrp 2>/dev/null
           fi
          #Crystal
           sudo rm "/etc/apt/sources.list.d/crystal.list" -rf 2>/dev/null

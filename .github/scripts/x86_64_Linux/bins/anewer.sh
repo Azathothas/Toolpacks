@@ -21,7 +21,7 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-     #anewer: anewer appends lines from stdin to a file if they don't already exist in the filel
+     #anewer: anewer appends lines from stdin to a file if they don't already exist in the file
      export BIN="anewer" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/ysf/anewer" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
