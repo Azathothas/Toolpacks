@@ -1,6 +1,15 @@
+#### [Index](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md)
+> - [**Cargo (Rust)**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/27ccd9d9-7a9d-43b2-92e5-bc43bb969eb3" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#cargocross-rust)
+> - [**Go**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/46dbcab3-44cd-4527-a941-5de05713bbe9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#cargocross-rust)
+> - [**Make**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/2ea3fbfb-e93e-4fef-94ac-f506befb0e95" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make)
+> - [**Nim**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/745a11a6-7569-439d-924c-846877ed82a9" width="30" height="30">]()
+> - [**Zig**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/a02545f0-9b70-49df-bf6b-4a823bd0e1e9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl)
+> 
+> - [Appendix]()
+> > - [Tests]()
 
 ---
-- #### [make](https://wiki.gentoo.org/wiki/GCC_optimization)
+- #### [Make](https://wiki.gentoo.org/wiki/GCC_optimization)
 ```bash
 !#CFLAGS :: https://man7.org/linux/man-pages/man1/gcc.1.html
 #        :: https://wiki.gentoo.org/wiki/GCC_optimization
@@ -82,8 +91,26 @@ unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -Wl,-S -Wl,--bui
 # Run with `--dry-run` for sanity checks
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
 ```
+
 ---
-- #### [cargo/cross (rust)](https://doc.rust-lang.org/cargo/commands/cargo-build.html)
+- #### [Go](https://pkg.go.dev/cmd/go) **WIP**
+```bash
+!# REF :: https://pkg.go.dev/cmd/go
+#      :: https://mt165.co.uk/blog/static-link-go/
+#      :: https://www.arp242.net/static-go.html
+ nim --gcc.exe:musl-gcc --gcc.kinerexe:musl-gcc -d:release --opt:size --passL:-static c hello
+```
+
+---
+- #### [Nim](https://nim-lang.org/docs/nimc.html) **WIP**
+```bash
+!# REF :: https://scripter.co/nim-deploying-static-binaries/
+#      :: https://hookrace.net/blog/nim-binary-size/
+ nim --gcc.exe:musl-gcc --gcc.kinerexe:musl-gcc -d:release --opt:size --passL:-static c hello
+```
+
+---
+- #### [Cargo/Cross (Rust)](https://doc.rust-lang.org/cargo/commands/cargo-build.html)
 ```bash
 !# REF :: http://zderadicka.eu/static-build-of-rust-executables/
 #      :: https://doc.rust-lang.org/rustc/codegen-options/index.html
@@ -182,11 +209,8 @@ cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-go
 docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:aarch64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
 # x86_64-unknown-linux-musl
 docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:x86_64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-
-
-
-
 ```
+
 ---
 - #### [zig-musl](https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler)
 ```bash
@@ -217,3 +241,41 @@ unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-
 ❯ !# Make
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
 ```
+---
+- #### Appendix
+> - **Tests**
+> >
+> > - [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
+> > ```bash
+> > file --print0 "$COMPILED_BINARY"
+> > !# If this says anything other than `static*` `stripped*`, you F**Ked Up
+> > ```
+> > 
+> > - [**ldd**](https://man7.org/linux/man-pages/man1/ldd.1.html)
+> > ```bash
+> > # -d | --data-relocs --> Perform relocations and report any missing objects (ELF only).
+> > # -r | --function-relocs --> Perform relocations for both data objects and functions, and report any missing objects or functions (ELF only).
+> > 
+> > ldd --data-relocs --function-relocs --verbose "$COMPILED_BINARY"
+> > !# If this says anything other than `statically linked`, you F**Ked Up
+> > !# If this says `not a dynamic executable`, it's probably for another $ARCH (Verify Using file )
+> > 
+> > !# For aarch64 ( binutils-aarch64-linux-gnu )
+> > # -R | --dynamic-reloc --> Display the dynamic relocation entries in the file
+> > # -T | --dynamic-syms --> Display the contents of the dynamic symbol table
+> > aarch64-linux-gnu-objdump --dynamic-reloc --dynamic-syms "$COMPILED_BINARY" 
+> > !# If this says anything other (Example lots of Output) than `not a dynamic object` `no symbols`, you F**Ked Up
+> > ```
+> > 
+> > - [**Mold**](https://github.com/rui314/mold?tab=readme-ov-file#how-to-use)
+> > ```bash
+> > readelf -p ".comment" "$COMPILED_BINARY"
+> > # Note, use aarch64-linux-gnu-readelf ( binutils-aarch64-linux-gnu ) for aarch64
+> > ```
+> > 
+> > - [**QEMU**](https://www.unix.com/man-page/debian/1/qemu-user-static/)
+> > ```bash
+> > !# This tests that the binary runs without `Segmentation Fault` | `Core Dumped` | `Illegal Instructions`
+> > qemu-aarch64-static "$COMPILED_BINARY"
+> > qemu-x86_64-static "$COMPILED_BINARY"
+> > ```
