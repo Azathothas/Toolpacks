@@ -2,25 +2,25 @@
   {
     "Name": "7z.sh",
     "Size": "1594 B",
-    "ModTime": "2024-02-08T17:08:54.542886858Z",
+    "ModTime": "2024-02-08T18:09:58.421761349Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/7z.sh"
   },
   {
     "Name": "METADATA.json",
     "Size": "869 B",
-    "ModTime": "2024-02-08T16:15:24.196004137Z",
+    "ModTime": "2024-02-08T17:11:59.664876162Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/METADATA.json"
   },
   {
     "Name": "metadata.json",
     "Size": "869 B",
-    "ModTime": "2024-02-08T17:08:54.542886858Z",
+    "ModTime": "2024-02-08T18:09:58.421761349Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
     "Name": "progress.sh",
     "Size": "2061 B",
-    "ModTime": "2024-02-08T17:08:54.542886858Z",
+    "ModTime": "2024-02-08T18:09:58.421761349Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/progress.sh"
   }
 ]
