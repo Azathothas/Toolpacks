@@ -161,6 +161,31 @@ cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-go
 #OUTPUT is usually in: "./target/$RUST_TARGET/release/"
 # OR: cargo check --metadata-format="json" --quiet 
 # --out-dir --> https://github.com/rust-lang/cargo/issues/6790
+
+
+❯ !# NOTES on *unknown-linux-gnu $RUST_TARGET
+# Remove/Turn off the following:
+#  -C link-self-contained=yes --> REMOVED || -C link-self-contained=yes
+#  -C lto=yes --> REMOVED
+
+❯ !# NOTES on using cross-rs : https://github.com/cross-rs/cross
+# ❯ !# static(?pie) + No mold will work, but as soon as there's additional dependencies on things like openssl, it will fail
+# Also, mold can't be used as linker
+# Rather than cross, Use https://github.com/BlackDex/rust-musl
+
+❯ !# NOTES on using https://github.com/BlackDex/rust-musl
+# --rm --> Automatically remove the container when it exits
+# -it --> Keeps STDIN open even if not attached & Allocates a pseudo-TTY
+# -v $(pwd):/home/rust/src --> Mounts the current working directory ($(pwd)) to the /home/rust/src directory inside the Container
+!# Export $RUST_TARGET && $RUSTFLAGS and then run
+# aarch64-unknown-linux-musl
+docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:aarch64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+# x86_64-unknown-linux-musl
+docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:x86_64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+
+
+
+
 ```
 ---
 - #### [zig-musl](https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler)
