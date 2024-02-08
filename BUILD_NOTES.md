@@ -119,7 +119,7 @@ export RUST_TARGET="x86_64-unknown-linux-musl"
 #
 ## Optimizations : https://doc.rust-lang.org/rustc/codegen-options/index.html#lto
 # -C lto=yes --> uses link time optimizations, (Consumes Memory/RAM, also slower) [By default, set to thin]
-#  This requires -C embed-bitcode=yes 
+#  This requires -C embed-bitcode=yes AND this will likely fail if RUST_TARGET="x86_64-unknown-linux-gnu"
 # -C linker-plugin-lto=yes --> Enables linker plugin LTO. [Defers LTO optimizations to the linker]
 # -C opt-level=3 --> Optimizes everything #https://doc.rust-lang.org/rustc/codegen-options/index.html#opt-level
 #
