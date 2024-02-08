@@ -1,12 +1,12 @@
 #### [Index](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md)
 > - [**Cargo (Rust)**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/27ccd9d9-7a9d-43b2-92e5-bc43bb969eb3" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#cargocross-rust)
-> - [**Go**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/46dbcab3-44cd-4527-a941-5de05713bbe9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#cargocross-rust)
+> - [**Go**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/46dbcab3-44cd-4527-a941-5de05713bbe9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#go)
 > - [**Make**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/2ea3fbfb-e93e-4fef-94ac-f506befb0e95" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make)
-> - [**Nim**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/745a11a6-7569-439d-924c-846877ed82a9" width="30" height="30">]()
+> - [**Nim**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/745a11a6-7569-439d-924c-846877ed82a9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#nim)
 > - [**Zig**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/a02545f0-9b70-49df-bf6b-4a823bd0e1e9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl)
 > 
-> - [Appendix]()
-> > - [Tests]()
+> - [Appendix](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#appendix)
+> > - [Tests](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests)
 
 ---
 - #### [Make](https://wiki.gentoo.org/wiki/GCC_optimization)
