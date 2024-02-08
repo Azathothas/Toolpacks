@@ -243,7 +243,7 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 ```
 ---
 - #### Appendix
-> - **Tests**
+> - ##### **Tests**
 > >
 > > - [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
 > > ```bash
