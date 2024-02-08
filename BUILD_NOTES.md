@@ -70,7 +70,6 @@ unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFL
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
 unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
-
 ❯ !# static (no pie) + No mold
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
@@ -98,7 +97,28 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 !# REF :: https://pkg.go.dev/cmd/go
 #      :: https://mt165.co.uk/blog/static-link-go/
 #      :: https://www.arp242.net/static-go.html
- nim --gcc.exe:musl-gcc --gcc.kinerexe:musl-gcc -d:release --opt:size --passL:-static c hello
+## https://go.dev/doc/install/source#environment
+# GOARCH | GOOS --> go tool dist list [Lists All Targets operating systems and compilation architectures]
+# GOARCH="amd64" GOOS="linux" --> x86_64 Linux
+# GOARCH="arm64" GOOS="linux" --> aarch64 Linux
+# CGO_ENABLED=0 --> Disables Linking against C libraries
+#   This needs to be enabled sometimes, such sql libs, in such cases, it is also recommended to use CGO_CFLAGS (Same as CFLAGS)
+#   CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe"
+#
+## https://pkg.go.dev/cmd/link
+# -ldflags --> options passed to the Go linker (ld) during the build process
+#    -buildid= --> Strips all buildids from executables
+#    -s --> Omit the symbol table and debug information.
+#    -w --> Omits the DWARF symbol table.
+# Use mold as ld [https://github.com/rui314/mold/blob/main/docs/mold.md] 🦠
+#  -ldflags "-linkmode external -extld clang -extldflags -fuse-ld=mold"
+# 
+# trimpath --> Removes all file system paths from the resulting executable
+#   This sometimes causes weird behaviours: https://github.com/golang/go/issues/57328#issuecomment-1353330403
+
+
+GOARCH="amd64" GOOS="linux" CGO_ENABLED="0"
+
 ```
 
 ---
