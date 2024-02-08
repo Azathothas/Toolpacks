@@ -25,7 +25,7 @@
 4.0K   │ ├── SHA256SUM.txt
 4.0K   │ └── BLAKE3SUM.txt
  16K   ├── INFO.md
+ 16K   ├── BUILD_NOTES.md
  12K   ├── README.md
- 12K   ├── BUILD_NOTES.md
 4.0K   └── x64_Windows
 ```
