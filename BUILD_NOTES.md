@@ -123,15 +123,34 @@ export RUST_TARGET="x86_64-unknown-linux-musl"
 # -C linker-plugin-lto=yes --> Enables linker plugin LTO. [Defers LTO optimizations to the linker]
 # -C opt-level=3 --> Optimizes everything #https://doc.rust-lang.org/rustc/codegen-options/index.html#opt-level
 #
-## Linking : https://doc.rust-lang.org/rustc/codegen-options/index.html#linker
-# -C linker=$(which mold) --> Uses mold as linker 🦠 , don't use this flags if default ld is preferred
-#    -C link-args=-Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none --> Uses mold as linker with Sane Opts
-#    -C link-args=-Wl,-S -Wl,--build-id=none --> Uses Default ld with Sane Opts
+## Linking :: https://doc.rust-lang.org/rustc/codegen-options/index.html#linker
+#      REF :: https://github.com/rui314/mold?tab=readme-ov-file#how-to-use
+# Uses mold as linker 🦠 , don't use this flags if default ld is preferred
+# https://github.com/rui314/mold/blob/main/docs/mold.md
+# -C linker=clang --> Clang instead of gcc/cc as otherwise -fuse-ld= would be treated as Unknown Arg
+# -C link-arg=-fuse-ld=$(which mold) --> Uses Complete path to mold
+# ⚠️⚠️ WARNING: pass these only if default LDFLAGS didn't work and mold has to be used specifically
+#    Often these executables result in Segmentation Faults/Core Dumps
+# ⚠️ -C link-arg=-Wl,--pie     --> Create a position-independent executable.
+#    -C link-arg=-Wl,--Bstatic --> Do not link against shared libraries. (Similar to -no-pie)
+#    -C link-arg=-Wl,--static  --> Do not link against shared libraries. (Similar to -static)
+#    -C link-arg=-Wl,-S        --> Strips all symbol table and relocation information from the executable. (Similar to -s)
+#    -C link-arg=-Wl,--build-id=none --> Embeds (md5 | sha1 | sha256 | uuid | 0x${hexstring} | none), default is sha1.
 #
+#   If mold is not used, then at least use:
+#    -C link-args=-Wl,-S -C link-args=-Wl,--build-id=none --> Uses Default ld with Sane Opts
 
-❯ !# static + No mold
+❯ !# static-pie + mold 🦠
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols"
+export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--pie -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+
+❯ !# static(?pie) + mold 🦠
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+
+❯ !# static(?pie) + No mold
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
 
 ❯ !# Build :: https://doc.rust-lang.org/cargo/commands/cargo-build.html
 rustup target add "$RUST_TARGET"
