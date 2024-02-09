@@ -97,27 +97,43 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 !# REF :: https://pkg.go.dev/cmd/go
 #      :: https://mt165.co.uk/blog/static-link-go/
 #      :: https://www.arp242.net/static-go.html
+#      :: https://dubo-dubon-duponey.medium.com/a-beginners-guide-to-cross-compiling-static-cgo-pie-binaries-golang-1-16-792eea92d5aa
 ## https://go.dev/doc/install/source#environment
 # GOARCH | GOOS --> go tool dist list [Lists All Targets operating systems and compilation architectures]
 # GOARCH="amd64" GOOS="linux" --> x86_64 Linux
 # GOARCH="arm64" GOOS="linux" --> aarch64 Linux
 # CGO_ENABLED=0 --> Disables Linking against C libraries
 #   This needs to be enabled sometimes, such sql libs, in such cases, it is also recommended to use CGO_CFLAGS (Same as CFLAGS)
-#   CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe"
-#
+#   CGO_ENABLED="1" CGO_CFLAGS="-O2 -static -w -pipe"
+#   
 ## https://pkg.go.dev/cmd/link
 # -ldflags --> options passed to the Go linker (ld) during the build process
 #    -buildid= --> Strips all buildids from executables
 #    -s --> Omit the symbol table and debug information.
 #    -w --> Omits the DWARF symbol table.
+#
+## go build -ldflags="-help" (Must have a .go file)
+# -linkmode --> External (Requires CGO_ENABLED="1")
+# -extld --> use linker when linking in external mode
+# -extldflags flags --> pass flags to external linker
 # Use mold as ld [https://github.com/rui314/mold/blob/main/docs/mold.md] 🦠
-#  -ldflags "-linkmode external -extld clang -extldflags -fuse-ld=mold"
-# 
+#  -ldflags="-buildid= -s -w -linkmode external -extld clang -extldflags '-static -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none'"
+#  # Using mold as ld, means no zig-musl
+#
 # trimpath --> Removes all file system paths from the resulting executable
 #   This sometimes causes weird behaviours: https://github.com/golang/go/issues/57328#issuecomment-1353330403
-
+export GOARCH="amd64" #go tool dist list
+export GOOS="linux" #go tool dist list
+export CGO_ENABLED="1"
+export CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make
+export ZIG_LIBC_TARGET="x86_64-linux-musl" #https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl
+export CC="zig cc -target $ZIG_LIBC_TARGET"
+export CXX="zig c++ -target $ZIG_LIBC_TARGET"
 
 GOARCH="amd64" GOOS="linux" CGO_ENABLED="0"
+
+❯ !# static-pie [Go Built-In]
+go build -buildmode="pie" -ldflags="-buildid= -linkmode=external -extldflags '-static -static-pie -pie -s -w'" -v
 
 ```
 
