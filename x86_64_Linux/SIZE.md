@@ -28,10 +28,10 @@
  41M   ├── gh
  39M   ├── caddy
  38M   ├── kadeessh
+ 37M   ├── proxify
  37M   ├── containerd
  37M   ├── httpx
  36M   ├── crictl
- 35M   ├── proxify
  35M   ├── kopia
  34M   ├── amass
  34M   ├── sliver-client
@@ -83,18 +83,18 @@
  20M   ├── arduino-cli
  20M   ├── tailscaled
  20M   ├── csvtk
+ 20M   ├── notify
  20M   ├── circumflex
  20M   ├── gh-dash
  19M   ├── tailscale_merged
  19M   ├── ruff
  19M   ├── podsync
  19M   ├── cdncheck
+ 19M   ├── jj
  19M   ├── s3scanner
  18M   ├── atuin
  18M   ├── luet
- 18M   ├── jj
  18M   ├── sish
- 18M   ├── notify
  18M   ├── sunbeam
  18M   ├── miniflux
  17M   ├── mailpit
@@ -157,8 +157,8 @@
  10M   ├── rebuildctl
  10M   ├── supervisord
  10M   ├── binocle
- 10M   ├── rebuilderd-worker
  10M   ├── vegeta
+ 10M   ├── rebuilderd-worker
  10M   ├── runc
  10M   ├── gitui
  10M   ├── pdfcpu
@@ -220,15 +220,15 @@
 7.8M   ├── pwninit
 7.8M   ├── cog
 7.8M   ├── ffuf
-7.7M   ├── rootlesskit
 7.7M   ├── coreutils
+7.7M   ├── rootlesskit
 7.7M   ├── gobuster
 7.7M   ├── enola
 7.6M   ├── gosec
 7.5M   ├── quickcert
+7.5M   ├── sshx-server
 7.5M   ├── sake
 7.5M   ├── rebuilderd
-7.5M   ├── sshx-server
 7.5M   ├── puredns
 7.4M   ├── nmap
 7.4M   ├── fingerprintx
@@ -273,23 +273,23 @@
 5.8M   ├── albafetch
 5.8M   ├── pathbuster
 5.7M   ├── u-root
-5.6M   ├── sbctl
 5.6M   ├── boxxy
+5.6M   ├── sbctl
 5.5M   ├── cowitness
 5.5M   ├── batcat
 5.5M   ├── bat
 5.5M   ├── cherrybomb
 5.4M   ├── certspotter
 5.4M   ├── bombadillo
+5.3M   ├── macchina
 5.3M   ├── horust
 5.3M   ├── procs
 5.3M   ├── getJS
 5.3M   ├── vtm
-5.3M   ├── macchina
 5.3M   ├── gitdorks_go
 5.3M   ├── hacker-scoper
-5.2M   ├── github-subdomains
 5.2M   ├── dizi-server
+5.2M   ├── github-subdomains
 5.2M   ├── github-endpoints
 5.2M   ├── gitlab-subdomains
 5.2M   ├── gron
@@ -306,8 +306,8 @@
 4.9M   ├── assetfinder
 4.9M   ├── analyticsrelationships
 4.9M   ├── airixss
+4.9M   ├── gorilla
 4.8M   ├── gup
-4.8M   ├── gorilla
 4.8M   ├── mani
 4.7M   ├── actionlint
 4.7M   ├── fget
@@ -337,8 +337,8 @@
 4.3M   ├── twingate-connectorctl
 4.3M   ├── tahm
 4.3M   ├── jwt-hack
-4.3M   ├── mcfly
 4.3M   ├── fblog
+4.3M   ├── mcfly
 4.3M   ├── datadash
 4.2M   ├── nmap-formatter
 4.2M   ├── ppfuzz
@@ -391,9 +391,9 @@
 3.0M   ├── tmate
 3.0M   ├── bed
 2.9M   ├── bingrep
+2.9M   ├── mqttui
 2.9M   ├── gping
 2.9M   ├── t-rec
-2.9M   ├── mqttui
 2.8M   ├── dufs
 2.8M   ├── oha
 2.8M   ├── rnr
@@ -414,13 +414,13 @@
 2.5M   ├── sd
 2.5M   ├── tlrc
 2.5M   ├── systeroid
-2.4M   ├── tz
 2.4M   ├── ropr
+2.4M   ├── tz
 2.4M   ├── kondo
 2.3M   ├── btop
-2.3M   ├── boringtun-cli
 2.3M   ├── unf
 2.3M   ├── encode
+2.3M   ├── boringtun-cli
 2.3M   ├── croc
 2.3M   ├── cotp
 2.2M   ├── jq
@@ -440,8 +440,8 @@
 1.9M   ├── curlie
 1.9M   ├── revit
 1.9M   ├── redive
-1.9M   ├── eza
 1.9M   ├── phantun-client
+1.9M   ├── eza
 1.9M   ├── phantun-server
 1.8M   ├── mergerfs
 1.8M   ├── byp4xx
@@ -449,7 +449,7 @@
 1.8M   ├── bbscope
 1.8M   ├── gotator
 1.8M   ├── age-keygen
-1.8M   ├── ds
+1.7M   ├── ds
 1.7M   ├── dropbearmulti
 1.7M   ├── jaq
 1.7M   ├── uip
@@ -509,9 +509,9 @@
 776K   ├── hx
 776K   ├── catp
 740K   ├── toybox
-740K   ├── anewer
+736K   ├── anewer
 600K   ├── ncdu
-576K   ├── elfcat
+572K   ├── elfcat
 536K   ├── neofetch
 448K   ├── shellharden
 396K   ├── nnn
