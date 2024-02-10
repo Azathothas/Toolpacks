@@ -1,6 +1,22 @@
-
+#### [Index](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md)
+> - [**Cargo (Rust)**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/27ccd9d9-7a9d-43b2-92e5-bc43bb969eb3" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#cargocross-rust)
+> - [**Go**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/46dbcab3-44cd-4527-a941-5de05713bbe9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#go)
+> - [**Make**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/2ea3fbfb-e93e-4fef-94ac-f506befb0e95" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make)
+> - [**Nim**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/745a11a6-7569-439d-924c-846877ed82a9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#nim)
+> - [**Zig**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/a02545f0-9b70-49df-bf6b-4a823bd0e1e9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl)
+> 
+> - [Appendix](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#appendix)
+> > - [Tests](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests)
+> > > - [File](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#file)
+> > > - [LDD](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#ldd)
+> > > - [Mold](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#mold)
+> > > - [QEMU](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#qemu)
+> > > - [ReadELF](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf)
+> > > - [Security](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#security)
+> > >
+- ##### Note: All `Built/Compiled` Binaries must be [***throughly tested*** using](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests) https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests
 ---
-- #### [make](https://wiki.gentoo.org/wiki/GCC_optimization)
+- #### [Make](https://wiki.gentoo.org/wiki/GCC_optimization)
 ```bash
 !#CFLAGS :: https://man7.org/linux/man-pages/man1/gcc.1.html
 #        :: https://wiki.gentoo.org/wiki/GCC_optimization
@@ -61,7 +77,6 @@ unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFL
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
 unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
-
 ❯ !# static (no pie) + No mold
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
@@ -82,8 +97,102 @@ unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -Wl,-S -Wl,--bui
 # Run with `--dry-run` for sanity checks
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
 ```
+
 ---
-- #### [cargo/cross (rust)](https://doc.rust-lang.org/cargo/commands/cargo-build.html)
+- #### [Go](https://pkg.go.dev/cmd/go)
+```bash
+!# REF :: https://pkg.go.dev/cmd/go
+#      :: https://mt165.co.uk/blog/static-link-go/
+#      :: https://www.arp242.net/static-go.html
+#      :: https://dubo-dubon-duponey.medium.com/a-beginners-guide-to-cross-compiling-static-cgo-pie-binaries-golang-1-16-792eea92d5aa
+## https://go.dev/doc/install/source#environment
+# GOARCH | GOOS --> go tool dist list [Lists All Targets operating systems and compilation architectures]
+# GOARCH="amd64" GOOS="linux" --> x86_64 Linux
+# GOARCH="arm64" GOOS="linux" --> aarch64 Linux
+# CGO_ENABLED=0 --> Disables Linking against C libraries
+#   This needs to be enabled sometimes, such sql libs, in such cases, it is also recommended to use CGO_CFLAGS (Same as CFLAGS)
+#   CGO_ENABLED="1" CGO_CFLAGS="-O2 -static -w -pipe"
+#
+## -buildmode --> kind of object file is to be built (Help: go help buildmode )
+# -buildmode=default --> Default, doesn't need to be specified
+#    Listed main packages are built into executables and listed non-main packages are built into .a files
+# -buildmode=exe --> Build the listed main packages and everything they import into executables. Packages not named main are ignored.
+# -buildmode=pie --> Same as -buildmode=exe but position independent executables (PIE) 
+#
+## -gcflags --> compiler flags that can be passed to the Go compiler (go build | go install).
+# REF : https://copyprogramming.com/howto/what-s-go-cmd-option-gcflags-all-possible-values
+# Help : go tool compile -help
+# ☣️ -N --> Disables optimizations. This is for Debug Builds
+# ☣️ -l --> Disables inlining (Disables optimizations), also for Debug Builds
+#   This reduces size, but at cost of optimization: https://github.com/xaionaro/documentation/blob/master/golang/reduce-binary-size.md
+#
+## https://pkg.go.dev/cmd/link
+# -ldflags --> options passed to the Go linker (ld) during the build process
+#    -buildid= --> Strips all buildids from executables
+#    -s --> Omit the symbol table and debug information.
+#    -w --> Omits the DWARF symbol table.
+#
+## go build -ldflags="-help" (Must have a .go file)
+# -linkmode --> External (Requires CGO_ENABLED="1")
+# -extld --> use linker when linking in external mode
+# -extldflags flags --> pass flags to external linker
+# Use mold as ld [https://github.com/rui314/mold/blob/main/docs/mold.md] 🦠
+#  -ldflags="-buildid= -s -w -linkmode external -extld clang -extldflags '-static -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none'"
+#  # Using mold as ld, means no zig-musl
+#
+# ☣️ -a --> forces rebuilding of packages that are already up-to-date.
+#    # This just wastes resources for no reason. go clean cache already gets rid of cache
+#    # https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fpic
+# ☣️ -Og --> completely disables a number of optimization passes, meant for DEBUG builds
+# ☣️ -g --> This option includes debugging information in the compiled executable
+# 
+# trimpath --> Removes all file system paths from the resulting executable
+#   This sometimes causes weird behaviours: https://github.com/golang/go/issues/57328#issuecomment-1353330403
+#
+## go clean :: https://pkg.go.dev/cmd/go/internal/clean
+# -cache --> Removes the entire go build cache (This already purges testcache, modcache & fuzzcache. Others are for redundancy)
+# -testcache --> Expire all test results in the go build cache.
+# -modcache --> Removes the entire module download cache + unpacked source code of versioned dependencies.
+# -fuzzcache --> Removes files stored in the Go build cache for fuzz testing
+
+!#ENV
+export GOARCH="amd64" #arm64 (To list: go tool dist list)
+export GOOS="linux" # (To list: go tool dist list)
+export CGO_ENABLED="1" # To link against musl libc using zig OR build in pie mode
+export CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" #https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make
+export ZIG_LIBC_TARGET="x86_64-linux-musl" #https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl
+export CC="zig cc -target $ZIG_LIBC_TARGET"
+export CXX="zig c++ -target $ZIG_LIBC_TARGET"
+
+❯ !# static-no-pie + stripped [Go Built-In] [RECOMMENDED]
+# This produces smallest binaries & compiles the quickest
+CGO_ENABLED="0" CC="" CXX="" go build -v -trimpath -ldflags="-buildid= -s -w -extldflags '-static'"
+
+❯ !# static-pie + stripped [Go Built-In] [NOT-RECOMMENDED]
+# This by default will link against shared libs from glibc (a bad idea) unless the Host is true musl only
+# Binaries are larger in size & build/linking takes a long time
+# Note: Multiple/Duplicatted -s -w -buildmode flags are specified as redundancy
+CC="" CXX="" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -static-pie -Wl,--build-id=none'"
+
+❯ !# static-pie + stripped [zig musl] [RECOMMENDED]
+# This links against bundled musl libc with zig.
+# Binaries are larger in size & build/linking takes a long time
+# Note: Multiple/Duplicatted -s -w -build-id flags are specified as redundancy
+go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -static-pie -Wl,--build-id=none'"
+
+
+```
+
+---
+- #### [Nim](https://nim-lang.org/docs/nimc.html) **WIP**
+```bash
+!# REF :: https://scripter.co/nim-deploying-static-binaries/
+#      :: https://hookrace.net/blog/nim-binary-size/
+ nim --gcc.exe:musl-gcc --gcc.kinerexe:musl-gcc -d:release --opt:size --passL:-static c hello
+```
+
+---
+- #### [Cargo/Cross (Rust)](https://doc.rust-lang.org/cargo/commands/cargo-build.html)
 ```bash
 !# REF :: http://zderadicka.eu/static-build-of-rust-executables/
 #      :: https://doc.rust-lang.org/rustc/codegen-options/index.html
@@ -119,19 +228,38 @@ export RUST_TARGET="x86_64-unknown-linux-musl"
 #
 ## Optimizations : https://doc.rust-lang.org/rustc/codegen-options/index.html#lto
 # -C lto=yes --> uses link time optimizations, (Consumes Memory/RAM, also slower) [By default, set to thin]
-#  This requires -C embed-bitcode=yes 
+#  This requires -C embed-bitcode=yes AND this will likely fail if RUST_TARGET="x86_64-unknown-linux-gnu"
 # -C linker-plugin-lto=yes --> Enables linker plugin LTO. [Defers LTO optimizations to the linker]
 # -C opt-level=3 --> Optimizes everything #https://doc.rust-lang.org/rustc/codegen-options/index.html#opt-level
 #
-## Linking : https://doc.rust-lang.org/rustc/codegen-options/index.html#linker
-# -C linker=$(which mold) --> Uses mold as linker 🦠 , don't use this flags if default ld is preferred
-#    -C link-args=-Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none --> Uses mold as linker with Sane Opts
-#    -C link-args=-Wl,-S -Wl,--build-id=none --> Uses Default ld with Sane Opts
+## Linking :: https://doc.rust-lang.org/rustc/codegen-options/index.html#linker
+#      REF :: https://github.com/rui314/mold?tab=readme-ov-file#how-to-use
+# Uses mold as linker 🦠 , don't use this flags if default ld is preferred
+# https://github.com/rui314/mold/blob/main/docs/mold.md
+# -C linker=clang --> Clang instead of gcc/cc as otherwise -fuse-ld= would be treated as Unknown Arg
+# -C link-arg=-fuse-ld=$(which mold) --> Uses Complete path to mold
+# ⚠️⚠️ WARNING: pass these only if default LDFLAGS didn't work and mold has to be used specifically
+#    Often these executables result in Segmentation Faults/Core Dumps
+# ⚠️ -C link-arg=-Wl,--pie     --> Create a position-independent executable.
+#    -C link-arg=-Wl,--Bstatic --> Do not link against shared libraries. (Similar to -no-pie)
+#    -C link-arg=-Wl,--static  --> Do not link against shared libraries. (Similar to -static)
+#    -C link-arg=-Wl,-S        --> Strips all symbol table and relocation information from the executable. (Similar to -s)
+#    -C link-arg=-Wl,--build-id=none --> Embeds (md5 | sha1 | sha256 | uuid | 0x${hexstring} | none), default is sha1.
 #
+#   If mold is not used, then at least use:
+#    -C link-args=-Wl,-S -C link-args=-Wl,--build-id=none --> Uses Default ld with Sane Opts
 
-❯ !# static + No mold
+❯ !# static-pie + mold 🦠
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols"
+export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--pie -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+
+❯ !# static(?pie) + mold 🦠
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+
+❯ !# static(?pie) + No mold
+unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
 
 ❯ !# Build :: https://doc.rust-lang.org/cargo/commands/cargo-build.html
 rustup target add "$RUST_TARGET"
@@ -142,7 +270,29 @@ cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-go
 #OUTPUT is usually in: "./target/$RUST_TARGET/release/"
 # OR: cargo check --metadata-format="json" --quiet 
 # --out-dir --> https://github.com/rust-lang/cargo/issues/6790
+
+
+❯ !# NOTES on *unknown-linux-gnu $RUST_TARGET
+# Remove/Turn off the following:
+#  -C link-self-contained=yes --> REMOVED || -C link-self-contained=yes
+#  -C lto=yes --> REMOVED
+
+❯ !# NOTES on using cross-rs : https://github.com/cross-rs/cross
+# ❯ !# static(?pie) + No mold will work, but as soon as there's additional dependencies on things like openssl, it will fail
+# Also, mold can't be used as linker
+# Rather than cross, Use https://github.com/BlackDex/rust-musl
+
+❯ !# NOTES on using https://github.com/BlackDex/rust-musl
+# --rm --> Automatically remove the container when it exits
+# -it --> Keeps STDIN open even if not attached & Allocates a pseudo-TTY
+# -v $(pwd):/home/rust/src --> Mounts the current working directory ($(pwd)) to the /home/rust/src directory inside the Container
+!# Export $RUST_TARGET && $RUSTFLAGS and then run
+# aarch64-unknown-linux-musl
+docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:aarch64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+# x86_64-unknown-linux-musl
+docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:x86_64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
 ```
+
 ---
 - #### [zig-musl](https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler)
 ```bash
@@ -173,3 +323,105 @@ unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-
 ❯ !# Make
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
 ```
+---
+- #### Appendix
+> - ##### **Tests**
+> >
+> > - ###### [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
+> > ```bash
+> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf
+> > file --print0 "$COMPILED_BINARY"
+> > !# If this says anything other than `static*` `stripped*`, you F**Ked Up
+> > ```
+> > 
+> > - ###### [**ldd**](https://man7.org/linux/man-pages/man1/ldd.1.html)
+> > ```bash
+> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf
+> > # -d | --data-relocs --> Perform relocations and report any missing objects (ELF only).
+> > # -r | --function-relocs --> Perform relocations for both data objects and functions, and report any missing objects or functions (ELF only).
+> > 
+> > ldd --data-relocs --function-relocs --verbose "$COMPILED_BINARY"
+> > !# If this says anything other than `statically linked`, you F**Ked Up
+> > !# If this says `not a dynamic executable`, it's probably for another $ARCH (Verify Using file )
+> > 
+> > !# For aarch64 ( binutils-aarch64-linux-gnu )
+> > # -R | --dynamic-reloc --> Display the dynamic relocation entries in the file
+> > # -T | --dynamic-syms --> Display the contents of the dynamic symbol table
+> > aarch64-linux-gnu-objdump --dynamic-reloc --dynamic-syms "$COMPILED_BINARY" 
+> > !# If this says anything other (Example lots of Output) than `not a dynamic object` `no symbols`, you F**Ked Up
+> > ```
+> > 
+> > - ###### [**Mold**](https://github.com/rui314/mold?tab=readme-ov-file#how-to-use)
+> > ```bash
+> > !# This checks if mold was used as ld linker
+> > readelf -p ".comment" "$COMPILED_BINARY"
+> > # Note, use aarch64-linux-gnu-readelf ( binutils-aarch64-linux-gnu ) for aarch64
+> > ```
+> > 
+> > - ###### [**QEMU**](https://www.unix.com/man-page/debian/1/qemu-user-static/)
+> > ```bash
+> > !# This tests that the binary runs without `Segmentation Fault` | `Core Dumped` | `Illegal Instructions`
+> > !# A chroot/proot could also be used
+> > qemu-aarch64-static "$COMPILED_BINARY"
+> > qemu-x86_64-static "$COMPILED_BINARY"
+> > ```
+> >
+> > - ###### [**ReadELF**](https://man7.org/linux/man-pages/man1/readelf.1.html)
+> > ```bash
+> > !# Much more reliable than file/ldd
+> > # -d | --dynamic  --> Checks Dynamic Section of the Binary [Look for NEEDED/Shared]
+> > readelf --dynamic "$COMPILED_BINARY" | grep -i "NEEDED"
+> > !# If this shows any `NEEDED` Section, you F**Ked Up
+> >
+> > # looks for the program interpreter section
+> > # -p | --process-links '.interp' --> looks for the program interpreter section [Empty if it's really Static]
+> > readelf -p '.interp' "$COMPILED_BINARY" 2>/dev/null
+> > !# !# If this shows any `String dump` Section, you F**Ked Up
+> > ```
+> >
+> > - ###### [**Security**](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#security)
+> > ```bash
+> > !# REF :: https://medium.com/@ofriouzan/part-1-introduction-and-basic-concepts-3a00105d7a13
+> >           https://web.archive.org/web/20240210060942/https://medium.com/@ofriouzan/part-1-introduction-and-basic-concepts-3a00105d7a13
+> >        :: https://medium.com/@ofriouzan/part-2-compiler-level-security-mechanisms-gcc-d01246b8d157
+> >           https://web.archive.org/web/20240210060803/https://medium.com/@ofriouzan/part-2-compiler-level-security-mechanisms-gcc-d01246b8d157
+> >        :: https://wiki.gentoo.org/wiki/GCC_optimization
+> >        :: https://developers.redhat.com/articles/2022/06/02/use-compiler-flags-stack-protection-gcc-and-clang
+> >        :: https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html
+> >
+> > !# Bare Minimum Sane Flags
+> > -D_FORTIFY_SOURCE=2 (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> >  Not Relevant for musl libc : https://wiki.musl-libc.org/future-ideas
+> >  Enables run-time buffer overflow detection, use -D_FORTIFY_SOURCE=1 if Program/Compilation Fails
+> >
+> > -fcf-protection (GLIBC/GNU Only) --> Control Flow integrity protection  (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> > 
+> > #https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fcf-protection
+> > 
+> > -fstack-clash-protection --> Increased reliability of stack overflow detection  (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> >  #https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fstack-clash-protection
+> > 
+> > -fstack-protector-strong (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> >  Balanced between -fstack-protector and -fstack-protector-all, the purpose of this option is to gain performance while sacrificing little security by broadening the scope of the stack protection without extending it to every function in the program.
+> >
+> > !# RELRO (Mostly Relevant for Dynamically linked Binaries)
+> > Relocation Read Only (RELRO) designating memory regions as read-only during the loading of a program, thwarting attempts by attackers to make runtime modifications.
+> > -Wl,-z,relro --> Partial Relro (Add: LDFLAGS | extldflags | link-arg)
+> >   Offers protection against runtime modifications to memory regions, safeguarding the integrity of the program, but the .got segment is not fully protected.
+> >
+> > -Wl,-z,relro,-z,now --> Full Relro (Add: LDFLAGS | extldflags | link-arg)
+> >  Offers enhanced security at the cost of a potentially longer load time for the process.
+> > 
+> > ```
+> > > - [HardeningMeter](https://github.com/OfriOuzan/HardeningMeter)
+> > > ```bash
+> > > !# sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/hardeningmeter_staticx" -o "/usr/local/bin/hardeningmeter" && sudo chmod +xwr "/usr/local/bin/hardeningmeter"
+> > > hardeningmeter -f "$COMPILED_BINARY" -s
+> > > !# Results: https://github.com/OfriOuzan/HardeningMeter/tree/main?tab=readme-ov-file#results
+> > > ```
+> > > - [hardening-check](https://manpages.debian.org/testing/devscripts/hardening-check.1.en.html)
+> > > ```bash
+> > > !# sudo apt-install devscripts -y
+> > > hardening-check "$COMPILED_BINARY"
+> > > ```
+---
