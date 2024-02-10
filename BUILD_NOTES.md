@@ -361,6 +361,12 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > - [**ReadELF**](https://man7.org/linux/man-pages/man1/readelf.1.html)
 > > ```bash
 > > !# Much more reliable than file/ldd
-> > # --dyn-syms --> Displays the entries in dynamic symbol table section of the Binary [Output is Empty if it is truly Static]
-> > 
+> > # -d | --dynamic  --> Checks Dynamic Section of the Binary [Look for NEEDED/Shared]
+> > readelf --dynamic "$COMPILED_BINARY" | grep -i "NEEDED"
+> > !# If this shows any `NEEDED` Section, you F**Ked Up
+> >
+> > # looks for the program interpreter section
+> > # -p | --process-links '.interp' --> looks for the program interpreter section [Empty if it's really Static]
+> > readelf -p '.interp' "$COMPILED_BINARY" 2>/dev/null
+> > !# !# If this shows any `String dump` Section, you F**Ked Up
 > > ```
