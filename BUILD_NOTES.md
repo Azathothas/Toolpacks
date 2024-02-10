@@ -92,7 +92,7 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 ```
 
 ---
-- #### [Go](https://pkg.go.dev/cmd/go) **WIP**
+- #### [Go](https://pkg.go.dev/cmd/go)
 ```bash
 !# REF :: https://pkg.go.dev/cmd/go
 #      :: https://mt165.co.uk/blog/static-link-go/
@@ -105,7 +105,19 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 # CGO_ENABLED=0 --> Disables Linking against C libraries
 #   This needs to be enabled sometimes, such sql libs, in such cases, it is also recommended to use CGO_CFLAGS (Same as CFLAGS)
 #   CGO_ENABLED="1" CGO_CFLAGS="-O2 -static -w -pipe"
-#   
+#
+## -buildmode --> kind of object file is to be built (Help: go help buildmode )
+# -buildmode=default --> Default, doesn't need to be specified
+#    Listed main packages are built into executables and listed non-main packages are built into .a files
+# -buildmode=exe --> Build the listed main packages and everything they import into executables. Packages not named main are ignored.
+# -buildmode=pie --> Same as -buildmode=exe but position independent executables (PIE) 
+#
+## -gcflags --> compiler flags that can be passed to the Go compiler (go build | go install).
+# REF : https://copyprogramming.com/howto/what-s-go-cmd-option-gcflags-all-possible-values
+# Help : go tool compile -help
+# ☣️ -N --> Disables optimizations. This is for Debug Builds
+# ☣️ -l --> Disable inlining (Disables optimizations), also for Debug Builds
+#
 ## https://pkg.go.dev/cmd/link
 # -ldflags --> options passed to the Go linker (ld) during the build process
 #    -buildid= --> Strips all buildids from executables
@@ -120,20 +132,46 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 #  -ldflags="-buildid= -s -w -linkmode external -extld clang -extldflags '-static -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none'"
 #  # Using mold as ld, means no zig-musl
 #
+# ☣️ -a --> forces rebuilding of packages that are already up-to-date.
+#    # This just wastes resources for no reason. go clean cache already gets rid of cache
+#    # https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fpic
+# ☣️ -Og --> completely disables a number of optimization passes, meant for DEBUG builds
+# ☣️ -g --> This option includes debugging information in the compiled executable
+# 
 # trimpath --> Removes all file system paths from the resulting executable
 #   This sometimes causes weird behaviours: https://github.com/golang/go/issues/57328#issuecomment-1353330403
-export GOARCH="amd64" #go tool dist list
-export GOOS="linux" #go tool dist list
-export CGO_ENABLED="1"
-export CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make
+#
+## go clean :: https://pkg.go.dev/cmd/go/internal/clean
+# -cache --> Removes the entire go build cache (This already purges testcache, modcache & fuzzcache. Others are for redundancy)
+# -testcache --> Expire all test results in the go build cache.
+# -modcache --> Removes the entire module download cache + unpacked source code of versioned dependencies.
+# -fuzzcache --> Removes files stored in the Go build cache for fuzz testing
+
+!#ENV
+export GOARCH="amd64" #arm64 (To list: go tool dist list)
+export GOOS="linux" # (To list: go tool dist list)
+export CGO_ENABLED="1" # To link against musl libc using zig OR build in pie mode
+export CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" #https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make
 export ZIG_LIBC_TARGET="x86_64-linux-musl" #https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl
 export CC="zig cc -target $ZIG_LIBC_TARGET"
 export CXX="zig c++ -target $ZIG_LIBC_TARGET"
 
-GOARCH="amd64" GOOS="linux" CGO_ENABLED="0"
+❯ !# static-no-pie + stripped [Go Built-In] [RECOMMENDED]
+# This produces smallest binaries & compiles the quickest
+CGO_ENABLED="0" CC="" CXX="" go build -v -trimpath -ldflags="-buildid= -s -w -extldflags '-static'"
 
-❯ !# static-pie [Go Built-In]
-go build -buildmode="pie" -ldflags="-buildid= -linkmode=external -extldflags '-static -static-pie -pie -s -w'" -v
+❯ !# static-pie + stripped [Go Built-In] [NOT-RECOMMENDED]
+# This by default will link against shared libs from glibc (a bad idea) unless the Host is true musl only
+# Binaries are larger in size & build/linking takes a long time
+# Note: Multiple/Duplicatted -s -w -buildmode flags are specified as redundancy
+CC="" CXX="" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -static-pie -Wl,--build-id=none'"
+
+❯ !# static-pie + stripped [zig musl] [RECOMMENDED]
+# This links against bundled musl libc with zig.
+# Binaries are larger in size & build/linking takes a long time
+# Note: Multiple/Duplicatted -s -w -build-id flags are specified as redundancy
+go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -static-pie -Wl,--build-id=none'"
+
 
 ```
 
@@ -283,12 +321,14 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > >
 > > - [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
 > > ```bash
+> > !# Note: This is NOT as reliable as readelf
 > > file --print0 "$COMPILED_BINARY"
 > > !# If this says anything other than `static*` `stripped*`, you F**Ked Up
 > > ```
 > > 
 > > - [**ldd**](https://man7.org/linux/man-pages/man1/ldd.1.html)
 > > ```bash
+> > !# Note: This is NOT as reliable as readelf
 > > # -d | --data-relocs --> Perform relocations and report any missing objects (ELF only).
 > > # -r | --function-relocs --> Perform relocations for both data objects and functions, and report any missing objects or functions (ELF only).
 > > 
@@ -305,6 +345,7 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > 
 > > - [**Mold**](https://github.com/rui314/mold?tab=readme-ov-file#how-to-use)
 > > ```bash
+> > !# This checks if mold was used as ld linker
 > > readelf -p ".comment" "$COMPILED_BINARY"
 > > # Note, use aarch64-linux-gnu-readelf ( binutils-aarch64-linux-gnu ) for aarch64
 > > ```
@@ -312,6 +353,14 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > - [**QEMU**](https://www.unix.com/man-page/debian/1/qemu-user-static/)
 > > ```bash
 > > !# This tests that the binary runs without `Segmentation Fault` | `Core Dumped` | `Illegal Instructions`
+> > !# A chroot/proot could also be used
 > > qemu-aarch64-static "$COMPILED_BINARY"
 > > qemu-x86_64-static "$COMPILED_BINARY"
+> > ```
+> >
+> > - [**ReadELF**](https://man7.org/linux/man-pages/man1/readelf.1.html)
+> > ```bash
+> > !# Much more reliable than file/ldd
+> > # --dyn-syms --> Displays the entries in dynamic symbol table section of the Binary [Output is Empty if it is truly Static]
+> > 
 > > ```
