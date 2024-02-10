@@ -7,7 +7,7 @@
 > 
 > - [Appendix](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#appendix)
 > > - [Tests](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests)
-
+- ##### Note: All `Built/Compiled` Binaries must be [***throughly tested*** using](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests) https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests
 ---
 - #### [Make](https://wiki.gentoo.org/wiki/GCC_optimization)
 ```bash
