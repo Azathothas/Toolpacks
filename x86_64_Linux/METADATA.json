@@ -20,7 +20,7 @@
   {
     "Name": "METADATA.json",
     "Size": "98.61 kB",
-    "ModTime": "2024-02-10T06:21:02.441125285Z",
+    "ModTime": "2024-02-10T07:17:39.052410047Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json"
   },
   {
@@ -1534,6 +1534,12 @@
     "Size": "2.7 MB",
     "ModTime": "2024-02-09T00:31:13.411904868Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/halp"
+  },
+  {
+    "Name": "hardeningmeter_staticx",
+    "Size": "7.29 MB",
+    "ModTime": "2024-02-10T07:37:29.247170900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hardeningmeter_staticx"
   },
   {
     "Name": "heacoll",
