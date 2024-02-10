@@ -415,7 +415,8 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > ```
 > > > - [HardeningMeter](https://github.com/OfriOuzan/HardeningMeter)
 > > > ```bash
-> > > python3 HardeningMeter.py -f "$COMPILED_BINARY" -s
+> > > !# sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/hardeningmeter_staticx" -o "/usr/local/bin/hardeningmeter" && sudo chmod +xwr "/usr/local/bin/hardeningmeter"
+> > > hardeningmeter -f "$COMPILED_BINARY" -s
 > > > !# Results: https://github.com/OfriOuzan/HardeningMeter/tree/main?tab=readme-ov-file#results
 > > > ```
 > > > - [hardening-check](https://manpages.debian.org/testing/devscripts/hardening-check.1.en.html)
