@@ -7,6 +7,13 @@
 > 
 > - [Appendix](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#appendix)
 > > - [Tests](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests)
+> > > - [File](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#file)
+> > > - [LDD](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#ldd)
+> > > - [Mold](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#mold)
+> > > - [QEMU](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#qemu)
+> > > - [ReadELF](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf)
+> > > - [Security](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#security)
+> > >
 - ##### Note: All `Built/Compiled` Binaries must be [***throughly tested*** using](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests) https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests
 ---
 - #### [Make](https://wiki.gentoo.org/wiki/GCC_optimization)
@@ -322,14 +329,14 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > >
 > > - ###### [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
 > > ```bash
-> > !# Note: This is NOT as reliable as readelf
+> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf
 > > file --print0 "$COMPILED_BINARY"
 > > !# If this says anything other than `static*` `stripped*`, you F**Ked Up
 > > ```
 > > 
 > > - ###### [**ldd**](https://man7.org/linux/man-pages/man1/ldd.1.html)
 > > ```bash
-> > !# Note: This is NOT as reliable as readelf
+> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf
 > > # -d | --data-relocs --> Perform relocations and report any missing objects (ELF only).
 > > # -r | --function-relocs --> Perform relocations for both data objects and functions, and report any missing objects or functions (ELF only).
 > > 
@@ -372,7 +379,42 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > !# !# If this shows any `String dump` Section, you F**Ked Up
 > > ```
 > >
-> > - ###### [**Security**](https://man7.org/linux/man-pages/man1/readelf.1.html)
+> > - ###### [**Security**](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#security)
 > > ```bash
+> > !# REF :: https://medium.com/@ofriouzan/part-1-introduction-and-basic-concepts-3a00105d7a13
+> >           https://web.archive.org/web/20240210060942/https://medium.com/@ofriouzan/part-1-introduction-and-basic-concepts-3a00105d7a13
+> >        :: https://medium.com/@ofriouzan/part-2-compiler-level-security-mechanisms-gcc-d01246b8d157
+> >           https://web.archive.org/web/20240210060803/https://medium.com/@ofriouzan/part-2-compiler-level-security-mechanisms-gcc-d01246b8d157
+> >        :: https://wiki.gentoo.org/wiki/GCC_optimization
+> >        :: https://developers.redhat.com/articles/2022/06/02/use-compiler-flags-stack-protection-gcc-and-clang
+> >        :: https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html
+> >
+> > !# Bare Minimum Sane Flags
+> > -D_FORTIFY_SOURCE=2 (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> >  Not Relevant for musl libc : https://wiki.musl-libc.org/future-ideas
+> >  Enables run-time buffer overflow detection, use -D_FORTIFY_SOURCE=1 if Program/Compilation Fails
+> >
+> > -fcf-protection (GLIBC/GNU Only) --> Control Flow integrity protection  (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> > 
+> > #https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fcf-protection
+> > 
+> > -fstack-clash-protection --> Increased reliability of stack overflow detection  (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> >  #https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html#index-fstack-clash-protection
+> > 
+> > -fstack-protector-strong (Add: CFLAGS | CXXFLAGS | CGO_CFLAGS)
+> >  Balanced between -fstack-protector and -fstack-protector-all, the purpose of this option is to gain performance while sacrificing little security by broadening the scope of the stack protection without extending it to every function in the program.
+> >
+> > !# RELRO (Mostly Relevant for Dynamically linked Binaries)
+> > Relocation Read Only (RELRO) designating memory regions as read-only during the loading of a program, thwarting attempts by attackers to make runtime modifications.
+> > -Wl,-z,relro --> Partial Relro (Add: LDFLAGS | extldflags | link-arg)
+> >   Offers protection against runtime modifications to memory regions, safeguarding the integrity of the program, but the .got segment is not fully protected.
+> >
+> > -Wl,-z,relro,-z,now --> Full Relro (Add: LDFLAGS | extldflags | link-arg)
+> >  Offers enhanced security at the cost of a potentially longer load time for the process.
 > > 
 > > ```
+> > > - [HardeningMeter](https://github.com/OfriOuzan/HardeningMeter)
+> > > ```bash
+> > > 
+> > > ```
+---
