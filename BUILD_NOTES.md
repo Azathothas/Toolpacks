@@ -116,7 +116,8 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 # REF : https://copyprogramming.com/howto/what-s-go-cmd-option-gcflags-all-possible-values
 # Help : go tool compile -help
 # ☣️ -N --> Disables optimizations. This is for Debug Builds
-# ☣️ -l --> Disable inlining (Disables optimizations), also for Debug Builds
+# ☣️ -l --> Disables inlining (Disables optimizations), also for Debug Builds
+#   This reduces size, but at cost of optimization: https://github.com/xaionaro/documentation/blob/master/golang/reduce-binary-size.md
 #
 ## https://pkg.go.dev/cmd/link
 # -ldflags --> options passed to the Go linker (ld) during the build process
@@ -319,14 +320,14 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 - #### Appendix
 > - ##### **Tests**
 > >
-> > - [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
+> > - ###### [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
 > > ```bash
 > > !# Note: This is NOT as reliable as readelf
 > > file --print0 "$COMPILED_BINARY"
 > > !# If this says anything other than `static*` `stripped*`, you F**Ked Up
 > > ```
 > > 
-> > - [**ldd**](https://man7.org/linux/man-pages/man1/ldd.1.html)
+> > - ###### [**ldd**](https://man7.org/linux/man-pages/man1/ldd.1.html)
 > > ```bash
 > > !# Note: This is NOT as reliable as readelf
 > > # -d | --data-relocs --> Perform relocations and report any missing objects (ELF only).
@@ -343,14 +344,14 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > !# If this says anything other (Example lots of Output) than `not a dynamic object` `no symbols`, you F**Ked Up
 > > ```
 > > 
-> > - [**Mold**](https://github.com/rui314/mold?tab=readme-ov-file#how-to-use)
+> > - ###### [**Mold**](https://github.com/rui314/mold?tab=readme-ov-file#how-to-use)
 > > ```bash
 > > !# This checks if mold was used as ld linker
 > > readelf -p ".comment" "$COMPILED_BINARY"
 > > # Note, use aarch64-linux-gnu-readelf ( binutils-aarch64-linux-gnu ) for aarch64
 > > ```
 > > 
-> > - [**QEMU**](https://www.unix.com/man-page/debian/1/qemu-user-static/)
+> > - ###### [**QEMU**](https://www.unix.com/man-page/debian/1/qemu-user-static/)
 > > ```bash
 > > !# This tests that the binary runs without `Segmentation Fault` | `Core Dumped` | `Illegal Instructions`
 > > !# A chroot/proot could also be used
@@ -358,7 +359,7 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > qemu-x86_64-static "$COMPILED_BINARY"
 > > ```
 > >
-> > - [**ReadELF**](https://man7.org/linux/man-pages/man1/readelf.1.html)
+> > - ###### [**ReadELF**](https://man7.org/linux/man-pages/man1/readelf.1.html)
 > > ```bash
 > > !# Much more reliable than file/ldd
 > > # -d | --dynamic  --> Checks Dynamic Section of the Binary [Look for NEEDED/Shared]
@@ -369,4 +370,9 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > # -p | --process-links '.interp' --> looks for the program interpreter section [Empty if it's really Static]
 > > readelf -p '.interp' "$COMPILED_BINARY" 2>/dev/null
 > > !# !# If this shows any `String dump` Section, you F**Ked Up
+> > ```
+> >
+> > - ###### [**Security**](https://man7.org/linux/man-pages/man1/readelf.1.html)
+> > ```bash
+> > 
 > > ```
