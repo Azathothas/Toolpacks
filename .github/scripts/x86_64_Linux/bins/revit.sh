@@ -29,7 +29,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/devanshbatham/revit" && cd "./revit"
        rm go.mod ; rm go.sum ; go mod init github.com/devanshbatham/revit ; go mod tidy
        go get github.com/devanshbatham/revit/cmd/revit
-       CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/revit" ; mv "./revit" "$BINDIR/revit" ; popd > /dev/null 2>&1
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/revit" ; mv "./revit" "$BINDIR/revit" ; popd > /dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

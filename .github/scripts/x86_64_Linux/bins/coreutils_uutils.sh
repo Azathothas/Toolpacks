@@ -27,10 +27,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/uutils/coreutils" && cd "./coreutils"
-       export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET"
-       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
-       echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-       cargo build --target "$TARGET" --features unix --release ; mv "./target/$TARGET/release/coreutils" "$BINDIR/coreutils"
+       export RUST_TARGET="x86_64-unknown-linux-gnu" && rustup target add "$RUST_TARGET"
+       export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
+       cargo build --target "$TARGET" --features unix --release ; mv "./target/$RUST_TARGET/release/coreutils" "$BINDIR/coreutils"
 fi
 #-------------------------------------------------------#
 

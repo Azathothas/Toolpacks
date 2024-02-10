@@ -29,8 +29,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/ekzhang/sshx" && cd "./sshx"
        sudo apt-get install protobuf-compiler -y
        export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static"
-       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-       cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/sshx" "$BINDIR/sshx" ; mv "./target/$TARGET/release/sshx-server" "$BINDIR/sshx-server" ; popd > /dev/null 2>&1
+       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
+       cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; mv "./target/$RUST_TARGET/release/sshx" "$BINDIR/sshx" ; mv "./target/$RUST_TARGET/release/sshx-server" "$BINDIR/sshx-server" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

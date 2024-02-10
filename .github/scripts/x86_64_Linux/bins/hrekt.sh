@@ -30,7 +30,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET"
        export RUSTFLAGS="-C target-feature=+crt-static" ; sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"
        echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-       cargo build --target "$TARGET" --release ; mv "./target/$TARGET/release/hrekt" "$BINDIR/hrekt" ; popd > /dev/null 2>&1
+       cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; mv "./target/$RUST_TARGET/release/hrekt" "$BINDIR/hrekt" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

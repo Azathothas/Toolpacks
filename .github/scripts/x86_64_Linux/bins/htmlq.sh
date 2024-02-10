@@ -28,10 +28,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/mgdm/htmlq" && cd "./htmlq"
        export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET" ; export RUSTFLAGS="-C target-feature=+crt-static" 
-       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-       cargo build --target "$TARGET" --release
-       file "./target/$TARGET/release/htmlq" ; ldd "./target/$TARGET/release/htmlq" ; ls "./target/$TARGET/release/htmlq" -lah
-       mv "./target/$TARGET/release/htmlq" "$BINDIR/htmlq" ; popd > /dev/null 2>&1
+       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
+       cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+       file "./target/$RUST_TARGET/release/htmlq" ; ldd "./target/$RUST_TARGET/release/htmlq" ; ls "./target/$RUST_TARGET/release/htmlq" -lah
+       mv "./target/$RUST_TARGET/release/htmlq" "$BINDIR/htmlq" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

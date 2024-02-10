@@ -35,9 +35,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        # export RUSTFLAGS="-C target-feature=+crt-static" 
        # sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
        # echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-       # cargo build --target "$TARGET" --release
-       # file "./target/$TARGET/release/x8" ; ldd "./target/$TARGET/release/x8" ; ls "./target/$TARGET/release/x8" -lah
-       # mv "./target/$TARGET/release/x8" "$BINDIR/x8"
+       # cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+       # file "./target/$RUST_TARGET/release/x8" ; ldd "./target/$RUST_TARGET/release/x8" ; ls "./target/$RUST_TARGET/release/x8" -lah
+       # mv "./target/$RUST_TARGET/release/x8" "$BINDIR/x8"
        # popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#

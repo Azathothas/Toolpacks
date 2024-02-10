@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/lobuhi/byp4xx" && cd "./byp4xx"
        go mod init "github.com/lobuhi/byp4xx" ; go mod tidy
-       CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./byp4xx" "$BINDIR/byp4xx" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./byp4xx" "$BINDIR/byp4xx" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

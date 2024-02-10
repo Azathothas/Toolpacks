@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir "./tok" && cd "./tok"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/tok/main.go" ; curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/tok/go.mod"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./tok" ; mv "./tok" "$BINDIR/tok" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./tok" ; mv "./tok" "$BINDIR/tok" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

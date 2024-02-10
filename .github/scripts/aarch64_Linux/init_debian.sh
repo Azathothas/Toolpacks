@@ -110,7 +110,7 @@
     ## Main
     #TMPDIRS
      #For build-cache
-     TMPDIRS="mktemp -d --tmpdir=$SYSTMP/init_Debian XXXXXXX_debian_x86_64" && export TMPDIRS="$TMPDIRS"
+     TMPDIRS="mktemp -d --tmpdir=$SYSTMP/init_Debian XXXXXXX_debian_aarch64" && export TMPDIRS="$TMPDIRS"
      rm -rf "$SYSTMP/init_Debian" 2>/dev/null ; mkdir -p "$SYSTMP/init_Debian"
     if [ "$CONTINUE" == "YES" ]; then
          #Install CoreUtils & Deps

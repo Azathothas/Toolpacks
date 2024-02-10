@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build
        #eval "$EGET_TIMEOUT" eget "sensepost/gowitness" --asset "amd64" --asset "linux" --to "$BINDIR/gowitness"
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sensepost/gowitness" && cd "./gowitness"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; mv "./gowitness" "$BINDIR/gowitness" ; popd > /dev/null 2>&1
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./gowitness" "$BINDIR/gowitness" ; popd > /dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

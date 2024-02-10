@@ -31,8 +31,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        # Currenttly can't build static, flags get overidden, instead use staticX
        #export RUSTFLAGS="-C target-feature=+crt-static"  
        #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-       unset RUSTFLAGS ; cargo build --target "$TARGET" --release
-       mv "./target/$TARGET/release/jless" "$BINDIR/jless"
+       unset RUSTFLAGS ; cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+       mv "./target/$RUST_TARGET/release/jless" "$BINDIR/jless"
        staticx --loglevel DEBUG "$BINDIR/jless" --strip "$BINDIR/jless_staticx" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#

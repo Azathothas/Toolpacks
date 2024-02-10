@@ -28,9 +28,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/gravitl/netmaker" && cd "./netmaker"
        #Requires CGO for sqlite
-       CGO_ENABLED="1" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" ; echo -e "\n" && file "./netmaker" && echo -e "\n"
+       CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; echo -e "\n" && file "./netmaker" && echo -e "\n"
        mv "./netmaker" "$BINDIR/netmaker"
-       CGO_ENABLED="1" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./nmctl" "./cli" ; echo -e "\n" && file "./nmctl" && echo -e "\n"
+       CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./nmctl" "./cli" ; echo -e "\n" && file "./nmctl" && echo -e "\n"
        mv "./nmctl" "$BINDIR/nmctl" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

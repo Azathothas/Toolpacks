@@ -61,6 +61,14 @@ fi
 
 
 #-------------------------------------------------------#
+##ENV (In Case of ENV Resets)
+#TMPDIRS
+ #For build-cache
+ TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_linux_aarch64" && export TMPDIRS="$TMPDIRS"
+ rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
+ #For Bins
+ BINDIR="$SYSTMP/toolpack_aarch64" && export BINDIR="$BINDIR"
+ rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
 ##Build
 set +x
  BUILD="YES" && export BUILD="$BUILD"

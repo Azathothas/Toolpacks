@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build 
        #eval "$EGET_TIMEOUT" eget "kitabisa/mubeng" --asset "amd64" --asset "linux" --to "$BINDIR/mubeng"
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kitabisa/mubeng" && cd "./mubeng"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" "./cmd/mubeng" ; mv "./mubeng" "$BINDIR/mubeng" ; popd > /dev/null 2>&1
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mubeng" ; mv "./mubeng" "$BINDIR/mubeng" ; popd > /dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

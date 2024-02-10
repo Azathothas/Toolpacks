@@ -30,7 +30,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/main.go"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/go.mod"
        go get "github.com/Azathothas/Arsenal/fget"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./fget" ; mv "./fget" "$BINDIR/fget" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./fget" ; mv "./fget" "$BINDIR/fget" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
 fi
 #-------------------------------------------------------#
 

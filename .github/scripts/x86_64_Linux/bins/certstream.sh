@@ -30,7 +30,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/certstream/main.go"
        go mod init "github.com/Azathothas/Arsenal/certstream" ; go mod tidy
        go get "github.com/Azathothas/Arsenal/certstream"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid=bin.ajam.dev/x86_64_Linux/ -s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$BINDIR/certstream" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./certstream" ; mv "./certstream" "$BINDIR/certstream" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 
