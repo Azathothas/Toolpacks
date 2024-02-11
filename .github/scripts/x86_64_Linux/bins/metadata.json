@@ -2,3085 +2,3085 @@
   {
     "Name": "7z.sh",
     "Size": "1605 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/7z.sh"
   },
   {
     "Name": "METADATA.json",
     "Size": "110.2 kB",
-    "ModTime": "2024-02-11T10:08:15.924494544Z",
+    "ModTime": "2024-02-11T11:08:30.973959579Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/METADATA.json"
   },
   {
     "Name": "act.sh",
     "Size": "1369 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/act.sh"
   },
   {
     "Name": "actionlint.sh",
     "Size": "1411 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/actionlint.sh"
   },
   {
     "Name": "age.sh",
     "Size": "1752 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/age.sh"
   },
   {
     "Name": "agg.sh",
     "Size": "1365 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/agg.sh"
   },
   {
     "Name": "agrind.sh",
     "Size": "1407 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/agrind.sh"
   },
   {
     "Name": "airixss.sh",
     "Size": "1718 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/airixss.sh"
   },
   {
     "Name": "aix.sh",
     "Size": "1402 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/aix.sh"
   },
   {
     "Name": "albafetch.sh",
     "Size": "1376 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/albafetch.sh"
   },
   {
     "Name": "algernon.sh",
     "Size": "1508 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/algernon.sh"
   },
   {
     "Name": "alist.sh",
     "Size": "1406 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/alist.sh"
   },
   {
     "Name": "allxfr.sh",
     "Size": "1568 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/allxfr.sh"
   },
   {
     "Name": "alterx.sh",
     "Size": "1403 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/alterx.sh"
   },
   {
     "Name": "amass.sh",
     "Size": "1617 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/amass.sh"
   },
   {
     "Name": "analyticsrelationships.sh",
     "Size": "1737 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/analyticsrelationships.sh"
   },
   {
     "Name": "anew.sh",
     "Size": "1386 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/anew.sh"
   },
   {
     "Name": "anewer.sh",
     "Size": "2226 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/anewer.sh"
   },
   {
     "Name": "apk.sh.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/apk.sh.sh"
   },
   {
     "Name": "arduino-cli.sh",
     "Size": "1386 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/arduino-cli.sh"
   },
   {
     "Name": "aretext.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/aretext.sh"
   },
   {
     "Name": "aria2.sh",
     "Size": "1495 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/aria2.sh"
   },
   {
     "Name": "asn.sh",
     "Size": "1514 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/asn.sh"
   },
   {
     "Name": "asnmap.sh",
     "Size": "1670 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/asnmap.sh"
   },
   {
     "Name": "assetfinder.sh",
     "Size": "1735 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/assetfinder.sh"
   },
   {
     "Name": "assh.sh",
     "Size": "1593 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/assh.sh"
   },
   {
     "Name": "atuin.sh",
     "Size": "1361 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/atuin.sh"
   },
   {
     "Name": "awk.sh",
     "Size": "1491 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/awk.sh"
   },
   {
     "Name": "aws-nuke.sh",
     "Size": "1413 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/aws-nuke.sh"
   },
   {
     "Name": "b3sum.sh",
     "Size": "1429 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/b3sum.sh"
   },
   {
     "Name": "bandwhich.sh",
     "Size": "1388 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bandwhich.sh"
   },
   {
     "Name": "batcat.sh",
     "Size": "1502 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/batcat.sh"
   },
   {
     "Name": "bearer.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bearer.sh"
   },
   {
     "Name": "bed.sh",
     "Size": "1351 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bed.sh"
   },
   {
     "Name": "berty.sh",
     "Size": "1701 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/berty.sh"
   },
   {
     "Name": "bin.sh",
     "Size": "1351 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bin.sh"
   },
   {
     "Name": "binary-security-check.sh",
     "Size": "2326 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/binary-security-check.sh"
   },
   {
     "Name": "binfetch.sh",
     "Size": "2551 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/binfetch.sh"
   },
   {
     "Name": "bingrep.sh",
     "Size": "2140 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bingrep.sh"
   },
   {
     "Name": "binocle.sh",
     "Size": "1393 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/binocle.sh"
   },
   {
     "Name": "bleve.sh",
     "Size": "1598 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bleve.sh"
   },
   {
     "Name": "bluetuith.sh",
     "Size": "1413 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bluetuith.sh"
   },
   {
     "Name": "boltconn.sh",
     "Size": "2214 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/boltconn.sh"
   },
   {
     "Name": "bombadillo.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bombadillo.sh"
   },
   {
     "Name": "bore.sh",
     "Size": "1403 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bore.sh"
   },
   {
     "Name": "boringtun.sh",
     "Size": "2213 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/boringtun.sh"
   },
   {
     "Name": "bottom.sh",
     "Size": "1414 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bottom.sh"
   },
   {
     "Name": "boxxy.sh",
     "Size": "2221 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/boxxy.sh"
   },
   {
     "Name": "brename.sh",
     "Size": "1410 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/brename.sh"
   },
   {
     "Name": "broot.sh",
     "Size": "2201 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/broot.sh"
   },
   {
     "Name": "btop.sh",
     "Size": "1921 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/btop.sh"
   },
   {
     "Name": "bucketloot.sh",
     "Size": "1649 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bucketloot.sh"
   },
   {
     "Name": "busybox.sh",
     "Size": "1407 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/busybox.sh"
   },
   {
     "Name": "byp4xx.sh",
     "Size": "1746 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/byp4xx.sh"
   },
   {
     "Name": "caddy.sh",
     "Size": "1425 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/caddy.sh"
   },
   {
     "Name": "catatonit.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/catatonit.sh"
   },
   {
     "Name": "catp.sh",
     "Size": "2187 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/catp.sh"
   },
   {
     "Name": "cdncheck.sh",
     "Size": "1410 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cdncheck.sh"
   },
   {
     "Name": "cent.sh",
     "Size": "1362 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cent.sh"
   },
   {
     "Name": "certgraph.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/certgraph.sh"
   },
   {
     "Name": "certspotter.sh",
     "Size": "1665 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/certspotter.sh"
   },
   {
     "Name": "certstream-server-go.sh",
     "Size": "1783 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/certstream-server-go.sh"
   },
   {
     "Name": "certstream.sh",
     "Size": "1819 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/certstream.sh"
   },
   {
     "Name": "certwatcher.sh",
     "Size": "1753 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/certwatcher.sh"
   },
   {
     "Name": "cexec.sh",
     "Size": "1428 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cexec.sh"
   },
   {
     "Name": "cfssl.sh",
     "Size": "2418 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cfssl.sh"
   },
   {
     "Name": "chameleon.sh",
     "Size": "1461 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/chameleon.sh"
   },
   {
     "Name": "chaos-client.sh",
     "Size": "1380 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/chaos-client.sh"
   },
   {
     "Name": "cheat.sh",
     "Size": "1630 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cheat.sh"
   },
   {
     "Name": "cherrybomb.sh",
     "Size": "2192 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cherrybomb.sh"
   },
   {
     "Name": "chisel.sh",
     "Size": "1395 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/chisel.sh"
   },
   {
     "Name": "circumflex.sh",
     "Size": "1397 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/circumflex.sh"
   },
   {
     "Name": "cloudcash.sh",
     "Size": "1442 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloudcash.sh"
   },
   {
     "Name": "cloudfox.sh",
     "Size": "1680 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloudfox.sh"
   },
   {
     "Name": "cloudlist.sh",
     "Size": "1420 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloudlist.sh"
   },
   {
     "Name": "cloudreve.sh",
     "Size": "1446 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloudreve.sh"
   },
   {
     "Name": "cocogitto.sh",
     "Size": "1413 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cocogitto.sh"
   },
   {
     "Name": "comb.sh",
     "Size": "1752 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/comb.sh"
   },
   {
     "Name": "containerd.sh",
     "Size": "1414 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/containerd.sh"
   },
   {
     "Name": "coreutils_uutils.sh",
     "Size": "2149 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/coreutils_uutils.sh"
   },
   {
     "Name": "cotp.sh",
     "Size": "2245 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cotp.sh"
   },
   {
     "Name": "cowitness.sh",
     "Size": "1675 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cowitness.sh"
   },
   {
     "Name": "cowsay.sh",
     "Size": "1762 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cowsay.sh"
   },
   {
     "Name": "cproxy.sh",
     "Size": "2226 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cproxy.sh"
   },
   {
     "Name": "cpufetch.sh",
     "Size": "1363 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cpufetch.sh"
   },
   {
     "Name": "crawley.sh",
     "Size": "1371 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/crawley.sh"
   },
   {
     "Name": "cri-tools.sh",
     "Size": "1432 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cri-tools.sh"
   },
   {
     "Name": "crlfuzz.sh",
     "Size": "1656 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/crlfuzz.sh"
   },
   {
     "Name": "croc.sh",
     "Size": "1409 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/croc.sh"
   },
   {
     "Name": "crt.sh",
     "Size": "1697 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/crt.sh"
   },
   {
     "Name": "csprecon.sh",
     "Size": "1659 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/csprecon.sh"
   },
   {
     "Name": "csview.sh",
     "Size": "1409 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/csview.sh"
   },
   {
     "Name": "csvtk.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/csvtk.sh"
   },
   {
     "Name": "ct_monitor.sh",
     "Size": "1606 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ct_monitor.sh"
   },
   {
     "Name": "ctlwatcher.sh",
     "Size": "2231 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ctlwatcher.sh"
   },
   {
     "Name": "curl.sh",
     "Size": "1360 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/curl.sh"
   },
   {
     "Name": "curlie.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/curlie.sh"
   },
   {
     "Name": "cut-cdn.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cut-cdn.sh"
   },
   {
     "Name": "daktilo.sh",
     "Size": "2301 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/daktilo.sh"
   },
   {
     "Name": "dalfox.sh",
     "Size": "1404 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dalfox.sh"
   },
   {
     "Name": "dasel.sh",
     "Size": "1432 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dasel.sh"
   },
   {
     "Name": "datadash.sh",
     "Size": "1663 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/datadash.sh"
   },
   {
     "Name": "ddns-go.sh",
     "Size": "1400 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ddns-go.sh"
   },
   {
     "Name": "delta.sh",
     "Size": "1420 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/delta.sh"
   },
   {
     "Name": "devbox.sh",
     "Size": "1420 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/devbox.sh"
   },
   {
     "Name": "devpod.sh",
     "Size": "1407 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/devpod.sh"
   },
   {
     "Name": "diffoci.sh",
     "Size": "1411 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/diffoci.sh"
   },
   {
     "Name": "direnv.sh",
     "Size": "1356 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/direnv.sh"
   },
   {
     "Name": "dirstat-rs.sh",
     "Size": "1897 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dirstat-rs.sh"
   },
   {
     "Name": "dizi.sh",
     "Size": "2236 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dizi.sh"
   },
   {
     "Name": "dns-doctor.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dns-doctor.sh"
   },
   {
     "Name": "dnslookup.sh",
     "Size": "1414 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dnslookup.sh"
   },
   {
     "Name": "dnstake.sh",
     "Size": "1656 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dnstake.sh"
   },
   {
     "Name": "dnsx.sh",
     "Size": "1395 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dnsx.sh"
   },
   {
     "Name": "doggo.sh",
     "Size": "1370 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/doggo.sh"
   },
   {
     "Name": "dotenv-linter.sh",
     "Size": "2289 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dotenv-linter.sh"
   },
   {
     "Name": "dropbear.sh",
     "Size": "2116 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dropbear.sh"
   },
   {
     "Name": "dsieve.sh",
     "Size": "1364 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dsieve.sh"
   },
   {
     "Name": "duf.sh",
     "Size": "1371 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/duf.sh"
   },
   {
     "Name": "dufs.sh",
     "Size": "1446 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dufs.sh"
   },
   {
     "Name": "dura.sh",
     "Size": "2290 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dura.sh"
   },
   {
     "Name": "dust.sh",
     "Size": "1408 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dust.sh"
   },
   {
     "Name": "dysk.sh",
     "Size": "1846 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dysk.sh"
   },
   {
     "Name": "edgevpn.sh",
     "Size": "1462 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/edgevpn.sh"
   },
   {
     "Name": "eget.sh",
     "Size": "1384 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/eget.sh"
   },
   {
     "Name": "elfcat.sh",
     "Size": "2223 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/elfcat.sh"
   },
   {
     "Name": "enc.sh",
     "Size": "1403 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/enc.sh"
   },
   {
     "Name": "encode.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/encode.sh"
   },
   {
     "Name": "enola.sh",
     "Size": "1650 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/enola.sh"
   },
   {
     "Name": "enumerepo.sh",
     "Size": "1383 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/enumerepo.sh"
   },
   {
     "Name": "etcd.sh",
     "Size": "1716 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/etcd.sh"
   },
   {
     "Name": "exiflooter.sh",
     "Size": "1679 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/exiflooter.sh"
   },
   {
     "Name": "eza.sh",
     "Size": "1388 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/eza.sh"
   },
   {
     "Name": "falconhound.sh",
     "Size": "1414 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/falconhound.sh"
   },
   {
     "Name": "fastfetch.sh",
     "Size": "1423 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fastfetch.sh"
   },
   {
     "Name": "fblog.sh",
     "Size": "2130 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fblog.sh"
   },
   {
     "Name": "fclones.sh",
     "Size": "1396 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fclones.sh"
   },
   {
     "Name": "fd.sh",
     "Size": "1403 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fd.sh"
   },
   {
     "Name": "feroxbuster.sh",
     "Size": "1409 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/feroxbuster.sh"
   },
   {
     "Name": "ffmpeg.sh",
     "Size": "1538 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ffmpeg.sh"
   },
   {
     "Name": "ffuf.sh",
     "Size": "1353 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ffuf.sh"
   },
   {
     "Name": "ffufPostprocessing.sh",
     "Size": "1673 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ffufPostprocessing.sh"
   },
   {
     "Name": "ffufw.sh",
     "Size": "1652 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ffufw.sh"
   },
   {
     "Name": "fget.sh",
     "Size": "1776 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fget.sh"
   },
   {
     "Name": "filebrowser.sh",
     "Size": "1372 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/filebrowser.sh"
   },
   {
     "Name": "findomain.sh",
     "Size": "1358 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/findomain.sh"
   },
   {
     "Name": "findutils_uutils.sh",
     "Size": "2218 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/findutils_uutils.sh"
   },
   {
     "Name": "fingerprintx.sh",
     "Size": "1412 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fingerprintx.sh"
   },
   {
     "Name": "fnm.sh",
     "Size": "1365 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fnm.sh"
   },
   {
     "Name": "fq.sh",
     "Size": "1419 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fq.sh"
   },
   {
     "Name": "fscan.sh",
     "Size": "1531 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fscan.sh"
   },
   {
     "Name": "fuse-overlayfs.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fuse-overlayfs.sh"
   },
   {
     "Name": "fuzzuli.sh",
     "Size": "1687 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fuzzuli.sh"
   },
   {
     "Name": "fwanalyzer.sh",
     "Size": "1660 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fwanalyzer.sh"
   },
   {
     "Name": "fx.sh",
     "Size": "1367 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fx.sh"
   },
   {
     "Name": "fzf.sh",
     "Size": "1369 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fzf.sh"
   },
   {
     "Name": "gau.sh",
     "Size": "1650 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gau.sh"
   },
   {
     "Name": "gdu.sh",
     "Size": "1389 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gdu.sh"
   },
   {
     "Name": "getJS.sh",
     "Size": "1799 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/getJS.sh"
   },
   {
     "Name": "getghrel.sh",
     "Size": "1444 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/getghrel.sh"
   },
   {
     "Name": "gf.sh",
     "Size": "1623 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gf.sh"
   },
   {
     "Name": "gfx.sh",
     "Size": "1572 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gfx.sh"
   },
   {
     "Name": "gh-dash.sh",
     "Size": "1376 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gh-dash.sh"
   },
   {
     "Name": "gh.sh",
     "Size": "1351 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gh.sh"
   },
   {
     "Name": "gip.sh",
     "Size": "2150 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gip.sh"
   },
   {
     "Name": "git-cliff.sh",
     "Size": "1483 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/git-cliff.sh"
   },
   {
     "Name": "git-lfs.sh",
     "Size": "1389 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/git-lfs.sh"
   },
   {
     "Name": "git-sizer.sh",
     "Size": "1615 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/git-sizer.sh"
   },
   {
     "Name": "gitdorks_go.sh",
     "Size": "1677 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitdorks_go.sh"
   },
   {
     "Name": "gitea.sh",
     "Size": "1364 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitea.sh"
   },
   {
     "Name": "github-endpoints.sh",
     "Size": "1662 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/github-endpoints.sh"
   },
   {
     "Name": "github-regexp.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/github-regexp.sh"
   },
   {
     "Name": "github-subdomains.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/github-subdomains.sh"
   },
   {
     "Name": "gitlab-subdomains.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitlab-subdomains.sh"
   },
   {
     "Name": "gitleaks.sh",
     "Size": "1402 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitleaks.sh"
   },
   {
     "Name": "gitoxide.sh",
     "Size": "2221 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitoxide.sh"
   },
   {
     "Name": "gitql.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitql.sh"
   },
   {
     "Name": "gitui.sh",
     "Size": "1392 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitui.sh"
   },
   {
     "Name": "glow.sh",
     "Size": "1359 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/glow.sh"
   },
   {
     "Name": "go-fasttld.sh",
     "Size": "1667 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-fasttld.sh"
   },
   {
     "Name": "go-git.sh",
     "Size": "2289 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-git.sh"
   },
   {
     "Name": "go-simplehttpserver.sh",
     "Size": "1736 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-simplehttpserver.sh"
   },
   {
     "Name": "goawk.sh",
     "Size": "1394 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/goawk.sh"
   },
   {
     "Name": "gobuster.sh",
     "Size": "1387 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gobuster.sh"
   },
   {
     "Name": "gocurl.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gocurl.sh"
   },
   {
     "Name": "godns.sh",
     "Size": "1440 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/godns.sh"
   },
   {
     "Name": "godnsbench.sh",
     "Size": "1401 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/godnsbench.sh"
   },
   {
     "Name": "gofireprox.sh",
     "Size": "1369 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gofireprox.sh"
   },
   {
     "Name": "gojq.sh",
     "Size": "1355 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gojq.sh"
   },
   {
     "Name": "goop.sh",
     "Size": "1673 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/goop.sh"
   },
   {
     "Name": "gorilla.sh",
     "Size": "1914 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gorilla.sh"
   },
   {
     "Name": "gosec.sh",
     "Size": "1367 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gosec.sh"
   },
   {
     "Name": "gost.sh",
     "Size": "1400 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gost.sh"
   },
   {
     "Name": "gosu.sh",
     "Size": "1353 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gosu.sh"
   },
   {
     "Name": "gotator.sh",
     "Size": "1618 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gotator.sh"
   },
   {
     "Name": "gotty.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gotty.sh"
   },
   {
     "Name": "gowitness.sh",
     "Size": "1782 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gowitness.sh"
   },
   {
     "Name": "gpg-tui.sh",
     "Size": "2251 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gpg-tui.sh"
   },
   {
     "Name": "gping.sh",
     "Size": "1343 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gping.sh"
   },
   {
     "Name": "gron.sh",
     "Size": "1585 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gron.sh"
   },
   {
     "Name": "grpcurl.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/grpcurl.sh"
   },
   {
     "Name": "gsocket.sh",
     "Size": "1547 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gsocket.sh"
   },
   {
     "Name": "gum.sh",
     "Size": "1664 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gum.sh"
   },
   {
     "Name": "gup.sh",
     "Size": "1393 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gup.sh"
   },
   {
     "Name": "gxss.sh",
     "Size": "0 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gxss.sh"
   },
   {
     "Name": "hacker-scoper.sh",
     "Size": "1673 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hacker-scoper.sh"
   },
   {
     "Name": "hakip2host.sh",
     "Size": "1700 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hakip2host.sh"
   },
   {
     "Name": "hakoriginfinder.sh",
     "Size": "1692 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hakoriginfinder.sh"
   },
   {
     "Name": "hakrawler.sh",
     "Size": "1698 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hakrawler.sh"
   },
   {
     "Name": "hakrevdns.sh",
     "Size": "1715 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hakrevdns.sh"
   },
   {
     "Name": "halp.sh",
     "Size": "1409 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/halp.sh"
   },
   {
     "Name": "hardeningmeter.sh",
     "Size": "1786 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hardeningmeter.sh"
   },
   {
     "Name": "haylxon.sh",
     "Size": "1408 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/haylxon.sh"
   },
   {
     "Name": "hednsextractor.sh",
     "Size": "1716 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hednsextractor.sh"
   },
   {
     "Name": "hexyl.sh",
     "Size": "1368 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hexyl.sh"
   },
   {
     "Name": "horust.sh",
     "Size": "1456 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/horust.sh"
   },
   {
     "Name": "hostctl.sh",
     "Size": "1408 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hostctl.sh"
   },
   {
     "Name": "hrekt.sh",
     "Size": "1894 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hrekt.sh"
   },
   {
     "Name": "htmlq.sh",
     "Size": "1991 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/htmlq.sh"
   },
   {
     "Name": "httprobe.sh",
     "Size": "1654 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/httprobe.sh"
   },
   {
     "Name": "httpx.sh",
     "Size": "1419 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/httpx.sh"
   },
   {
     "Name": "hub.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hub.sh"
   },
   {
     "Name": "hugo.sh",
     "Size": "1628 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hugo.sh"
   },
   {
     "Name": "hx..sh",
     "Size": "2200 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hx..sh"
   },
   {
     "Name": "hyperfine.sh",
     "Size": "1388 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hyperfine.sh"
   },
   {
     "Name": "hysp.sh",
     "Size": "2219 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hysp.sh"
   },
   {
     "Name": "inscope.sh",
     "Size": "1827 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/inscope.sh"
   },
   {
     "Name": "interactsh.sh",
     "Size": "1608 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/interactsh.sh"
   },
   {
     "Name": "invidtui.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/invidtui.sh"
   },
   {
     "Name": "iperf3.sh",
     "Size": "1383 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/iperf3.sh"
   },
   {
     "Name": "ipt2socks.sh",
     "Size": "1418 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ipt2socks.sh"
   },
   {
     "Name": "istio.sh",
     "Size": "1415 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/istio.sh"
   },
   {
     "Name": "jaeles.sh",
     "Size": "1645 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jaeles.sh"
   },
   {
     "Name": "jaq.sh",
     "Size": "1409 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jaq.sh"
   },
   {
     "Name": "jc.sh",
     "Size": "1533 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jc.sh"
   },
   {
     "Name": "jira-cli.sh",
     "Size": "1400 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jira-cli.sh"
   },
   {
     "Name": "jj.sh",
     "Size": "1415 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jj.sh"
   },
   {
     "Name": "jless.sh",
     "Size": "2088 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jless.sh"
   },
   {
     "Name": "jq.sh",
     "Size": "1346 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jq.sh"
   },
   {
     "Name": "jql.sh",
     "Size": "1373 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jql.sh"
   },
   {
     "Name": "jqp.sh",
     "Size": "1334 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jqp.sh"
   },
   {
     "Name": "just.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/just.sh"
   },
   {
     "Name": "jwt-hack.sh",
     "Size": "1643 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jwt-hack.sh"
   },
   {
     "Name": "k9s.sh",
     "Size": "1404 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/k9s.sh"
   },
   {
     "Name": "kadeessh.sh",
     "Size": "1414 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kadeessh.sh"
   },
   {
     "Name": "kalker.sh",
     "Size": "2268 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kalker.sh"
   },
   {
     "Name": "kanha.sh",
     "Size": "1377 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kanha.sh"
   },
   {
     "Name": "katana.sh",
     "Size": "1789 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/katana.sh"
   },
   {
     "Name": "killport.sh",
     "Size": "1437 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/killport.sh"
   },
   {
     "Name": "kmon.sh",
     "Size": "1402 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kmon.sh"
   },
   {
     "Name": "kondo.sh",
     "Size": "1434 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kondo.sh"
   },
   {
     "Name": "kopia.sh",
     "Size": "1453 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kopia.sh"
   },
   {
     "Name": "ksubdomain.sh",
     "Size": "1525 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ksubdomain.sh"
   },
   {
     "Name": "ladder.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ladder.sh"
   },
   {
     "Name": "lazydocker.sh",
     "Size": "1392 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lazydocker.sh"
   },
   {
     "Name": "lazygit.sh",
     "Size": "1391 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lazygit.sh"
   },
   {
     "Name": "legba.sh",
     "Size": "2210 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/legba.sh"
   },
   {
     "Name": "lf.sh",
     "Size": "1341 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lf.sh"
   },
   {
     "Name": "linuxwave.sh",
     "Size": "1401 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/linuxwave.sh"
   },
   {
     "Name": "listmonk.sh",
     "Size": "1425 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/listmonk.sh"
   },
   {
     "Name": "lit-bb-hack-tools.sh",
     "Size": "4785 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh"
   },
   {
     "Name": "lnav.sh",
     "Size": "1358 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lnav.sh"
   },
   {
     "Name": "logtimer.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/logtimer.sh"
   },
   {
     "Name": "loki.sh",
     "Size": "1989 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/loki.sh"
   },
   {
     "Name": "lsd.sh",
     "Size": "1373 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lsd.sh"
   },
   {
     "Name": "luet.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/luet.sh"
   },
   {
     "Name": "lux.sh",
     "Size": "1410 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lux.sh"
   },
   {
     "Name": "mabel.sh",
     "Size": "1629 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mabel.sh"
   },
   {
     "Name": "macchina.sh",
     "Size": "2171 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/macchina.sh"
   },
   {
     "Name": "maddy.sh",
     "Size": "1622 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/maddy.sh"
   },
   {
     "Name": "mailpit.sh",
     "Size": "1405 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mailpit.sh"
   },
   {
     "Name": "mani.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mani.sh"
   },
   {
     "Name": "mantra.sh",
     "Size": "1639 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mantra.sh"
   },
   {
     "Name": "mapcidr.sh",
     "Size": "1806 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mapcidr.sh"
   },
   {
     "Name": "masscan.sh",
     "Size": "1495 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/masscan.sh"
   },
   {
     "Name": "massdns.sh",
     "Size": "1468 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/massdns.sh"
   },
   {
     "Name": "matterbridge.sh",
     "Size": "1387 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/matterbridge.sh"
   },
   {
     "Name": "mcfly.sh",
     "Size": "1375 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mcfly.sh"
   },
   {
     "Name": "mdcat.sh",
     "Size": "1347 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mdcat.sh"
   },
   {
     "Name": "mdsh.sh",
     "Size": "2198 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mdsh.sh"
   },
   {
     "Name": "melange.sh",
     "Size": "1368 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/melange.sh"
   },
   {
     "Name": "menyoki.sh",
     "Size": "1970 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/menyoki.sh"
   },
   {
     "Name": "mergerfs.sh",
     "Size": "1369 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mergerfs.sh"
   },
   {
     "Name": "metadata.json",
     "Size": "110.2 kB",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
     "Name": "mgwls.sh",
     "Size": "1415 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mgwls.sh"
   },
   {
     "Name": "micro.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/micro.sh"
   },
   {
     "Name": "miller.sh",
     "Size": "1450 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/miller.sh"
   },
   {
     "Name": "miniflux.sh",
     "Size": "1388 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/miniflux.sh"
   },
   {
     "Name": "miniserve.sh",
     "Size": "1387 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/miniserve.sh"
   },
   {
     "Name": "minisign.sh",
     "Size": "1570 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/minisign.sh"
   },
   {
     "Name": "mksub.sh",
     "Size": "1403 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mksub.sh"
   },
   {
     "Name": "mmv.sh",
     "Size": "1356 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mmv.sh"
   },
   {
     "Name": "mqttui.sh",
     "Size": "2246 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mqttui.sh"
   },
   {
     "Name": "mubeng.sh",
     "Size": "1757 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mubeng.sh"
   },
   {
     "Name": "naabu.sh",
     "Size": "1490 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/naabu.sh"
   },
   {
     "Name": "navi.sh",
     "Size": "1407 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/navi.sh"
   },
   {
     "Name": "ncdu.sh",
     "Size": "1400 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ncdu.sh"
   },
   {
     "Name": "neofetch.sh",
     "Size": "1403 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/neofetch.sh"
   },
   {
     "Name": "nerdctl.sh",
     "Size": "1478 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nerdctl.sh"
   },
   {
     "Name": "netbird.sh",
     "Size": "1497 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/netbird.sh"
   },
   {
     "Name": "netmaker.sh",
     "Size": "1893 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/netmaker.sh"
   },
   {
     "Name": "nginx.sh",
     "Size": "1990 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nginx.sh"
   },
   {
     "Name": "ngocok.sh",
     "Size": "1666 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ngocok.sh"
   },
   {
     "Name": "ngrok.sh",
     "Size": "1374 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ngrok.sh"
   },
   {
     "Name": "niltalk.sh",
     "Size": "1392 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/niltalk.sh"
   },
   {
     "Name": "nmap-formatter.sh",
     "Size": "1716 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nmap-formatter.sh"
   },
   {
     "Name": "nmap.sh",
     "Size": "1377 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nmap.sh"
   },
   {
     "Name": "nnn.sh",
     "Size": "1368 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nnn.sh"
   },
   {
     "Name": "noir.sh",
     "Size": "1572 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/noir.sh"
   },
   {
     "Name": "notify.sh",
     "Size": "1419 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/notify.sh"
   },
   {
     "Name": "nrich.sh",
     "Size": "1535 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nrich.sh"
   },
   {
     "Name": "nuclei.sh",
     "Size": "1414 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nuclei.sh"
   },
   {
     "Name": "nushell.sh",
     "Size": "1549 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nushell.sh"
   },
   {
     "Name": "oha.sh",
     "Size": "1338 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/oha.sh"
   },
   {
     "Name": "onetun.sh",
     "Size": "2141 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/onetun.sh"
   },
   {
     "Name": "openrisk.sh",
     "Size": "1683 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/openrisk.sh"
   },
   {
     "Name": "openssh.sh",
     "Size": "3737 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/openssh.sh"
   },
   {
     "Name": "orbiton.sh",
     "Size": "1431 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/orbiton.sh"
   },
   {
     "Name": "osmedeus.sh",
     "Size": "1718 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/osmedeus.sh"
   },
   {
     "Name": "ouch.sh",
     "Size": "1422 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ouch.sh"
   },
   {
     "Name": "ov.sh",
     "Size": "1407 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ov.sh"
   },
   {
     "Name": "overmind.sh",
     "Size": "1377 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/overmind.sh"
   },
   {
     "Name": "passdetective.sh",
     "Size": "1733 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/passdetective.sh"
   },
   {
     "Name": "pathbuster.sh",
     "Size": "1394 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pathbuster.sh"
   },
   {
     "Name": "pdfcpu.sh",
     "Size": "1362 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pdfcpu.sh"
   },
   {
     "Name": "pfetch-rs.sh",
     "Size": "1415 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pfetch-rs.sh"
   },
   {
     "Name": "pgweb.sh",
     "Size": "1362 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pgweb.sh"
   },
   {
     "Name": "phantun.sh",
     "Size": "2311 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/phantun.sh"
   },
   {
     "Name": "pkgtop.sh",
     "Size": "1663 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pkgtop.sh"
   },
   {
     "Name": "planor.sh",
     "Size": "1454 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/planor.sh"
   },
   {
     "Name": "podman.sh",
     "Size": "1416 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/podman.sh"
   },
   {
     "Name": "podsync.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/podsync.sh"
   },
   {
     "Name": "ppath.sh",
     "Size": "1630 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ppath.sh"
   },
   {
     "Name": "ppfuzz.sh",
     "Size": "2200 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ppfuzz.sh"
   },
   {
     "Name": "pping.sh",
     "Size": "1400 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pping.sh"
   },
   {
     "Name": "presenterm.sh",
     "Size": "1409 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/presenterm.sh"
   },
   {
     "Name": "prettyping.sh",
     "Size": "1428 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/prettyping.sh"
   },
   {
     "Name": "procs.sh",
     "Size": "1383 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/procs.sh"
   },
   {
     "Name": "proxify.sh",
     "Size": "1716 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/proxify.sh"
   },
   {
     "Name": "pspy.sh",
     "Size": "1622 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pspy.sh"
   },
   {
     "Name": "pueue.sh",
     "Size": "1532 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pueue.sh"
   },
   {
     "Name": "puredns.sh",
     "Size": "1446 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/puredns.sh"
   },
   {
     "Name": "pwninit.sh",
     "Size": "2174 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pwninit.sh"
   },
   {
     "Name": "qbittorrent-nox.sh",
     "Size": "1400 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/qbittorrent-nox.sh"
   },
   {
     "Name": "qsreplace.sh",
     "Size": "1678 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/qsreplace.sh"
   },
   {
     "Name": "qsv.sh",
     "Size": "1410 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/qsv.sh"
   },
   {
     "Name": "quickcert.sh",
     "Size": "1723 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/quickcert.sh"
   },
   {
     "Name": "rate-limit-checker.sh",
     "Size": "1866 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rate-limit-checker.sh"
   },
   {
     "Name": "rathole.sh",
     "Size": "1486 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rathole.sh"
   },
   {
     "Name": "rclone.sh",
     "Size": "1346 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rclone.sh"
   },
   {
     "Name": "reader.sh",
     "Size": "1400 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/reader.sh"
   },
   {
     "Name": "realm.sh",
     "Size": "1382 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/realm.sh"
   },
   {
     "Name": "rebuilderd.sh",
     "Size": "2387 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rebuilderd.sh"
   },
   {
     "Name": "recollapse.sh",
     "Size": "1830 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/recollapse.sh"
   },
   {
     "Name": "redguard.sh",
     "Size": "1632 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/redguard.sh"
   },
   {
     "Name": "redive.sh",
     "Size": "2210 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/redive.sh"
   },
   {
     "Name": "rekor.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rekor.sh"
   },
   {
     "Name": "relic.sh",
     "Size": "1665 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/relic.sh"
   },
   {
     "Name": "reptyr.sh",
     "Size": "2617 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/reptyr.sh"
   },
   {
     "Name": "rescope.sh",
     "Size": "1830 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rescope.sh"
   },
   {
     "Name": "resdns.sh",
     "Size": "1426 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/resdns.sh"
   },
   {
     "Name": "restic.sh",
     "Size": "1356 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/restic.sh"
   },
   {
     "Name": "resto.sh",
     "Size": "1610 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/resto.sh"
   },
   {
     "Name": "revit.sh",
     "Size": "1792 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/revit.sh"
   },
   {
     "Name": "rga.sh",
     "Size": "1433 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rga.sh"
   },
   {
     "Name": "ripgen.sh",
     "Size": "2185 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ripgen.sh"
   },
   {
     "Name": "ripgrep.sh",
     "Size": "1460 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ripgrep.sh"
   },
   {
     "Name": "rnr.sh",
     "Size": "1380 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rnr.sh"
   },
   {
     "Name": "roboxtractor.sh",
     "Size": "1682 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/roboxtractor.sh"
   },
   {
     "Name": "rootlesskit.sh",
     "Size": "1465 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rootlesskit.sh"
   },
   {
     "Name": "ropr.sh",
     "Size": "2245 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ropr.sh"
   },
   {
     "Name": "rospo.sh",
     "Size": "1411 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rospo.sh"
   },
   {
     "Name": "rqbit.sh",
     "Size": "1391 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rqbit.sh"
   },
   {
     "Name": "rshijack.sh",
     "Size": "2226 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rshijack.sh"
   },
   {
     "Name": "ruff.sh",
     "Size": "1423 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ruff.sh"
   },
   {
     "Name": "runc.sh",
     "Size": "1407 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/runc.sh"
   },
   {
     "Name": "runme.sh",
     "Size": "1390 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/runme.sh"
   },
   {
     "Name": "runst.sh",
     "Size": "1930 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/runst.sh"
   },
   {
     "Name": "rush.sh",
     "Size": "1393 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rush.sh"
   },
   {
     "Name": "rustscan.sh",
     "Size": "2178 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rustscan.sh"
   },
   {
     "Name": "rustypaste-cli.sh",
     "Size": "1408 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rustypaste-cli.sh"
   },
   {
     "Name": "rustypaste.sh",
     "Size": "1429 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rustypaste.sh"
   },
   {
     "Name": "s3scanner.sh",
     "Size": "1416 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s3scanner.sh"
   },
   {
     "Name": "s3sync.sh",
     "Size": "1397 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s3sync.sh"
   },
   {
     "Name": "s5cmd.sh",
     "Size": "1391 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s5cmd.sh"
   },
   {
     "Name": "sake.sh",
     "Size": "1396 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sake.sh"
   },
   {
     "Name": "sbctl.sh",
     "Size": "1414 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sbctl.sh"
   },
   {
     "Name": "scilla.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/scilla.sh"
   },
   {
     "Name": "scopegen.sh",
     "Size": "1834 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/scopegen.sh"
   },
   {
     "Name": "scopeview.sh",
     "Size": "1483 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/scopeview.sh"
   },
   {
     "Name": "screenfetch.sh",
     "Size": "1394 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/screenfetch.sh"
   },
   {
     "Name": "sd.sh",
     "Size": "1380 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sd.sh"
   },
   {
     "Name": "sessionprobe.sh",
     "Size": "1731 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sessionprobe.sh"
   },
   {
     "Name": "shellharden.sh",
     "Size": "2240 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/shellharden.sh"
   },
   {
     "Name": "shellz.sh",
     "Size": "1673 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/shellz.sh"
   },
   {
     "Name": "shfmt.sh",
     "Size": "1389 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/shfmt.sh"
   },
   {
     "Name": "shortscan.sh",
     "Size": "1795 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/shortscan.sh"
   },
   {
     "Name": "shuffledns.sh",
     "Size": "1381 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/shuffledns.sh"
   },
   {
     "Name": "sish.sh",
     "Size": "1398 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sish.sh"
   },
   {
     "Name": "sj.sh",
     "Size": "1604 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sj.sh"
   },
   {
     "Name": "skim.sh",
     "Size": "2332 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/skim.sh"
   },
   {
     "Name": "sliver.sh",
     "Size": "1557 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sliver.sh"
   },
   {
     "Name": "smap.sh",
     "Size": "1616 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/smap.sh"
   },
   {
     "Name": "smenu.sh",
     "Size": "1433 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/smenu.sh"
   },
   {
     "Name": "sn0int.sh",
     "Size": "2267 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sn0int.sh"
   },
   {
     "Name": "sns.sh",
     "Size": "1589 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sns.sh"
   },
   {
     "Name": "socat.sh",
     "Size": "1348 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/socat.sh"
   },
   {
     "Name": "speedtest-go.sh",
     "Size": "1406 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/speedtest-go.sh"
   },
   {
     "Name": "spk.sh",
     "Size": "1687 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/spk.sh"
   },
   {
     "Name": "spoof-dpi.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/spoof-dpi.sh"
   },
   {
     "Name": "sq.sh",
     "Size": "1329 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sq.sh"
   },
   {
     "Name": "sqlc.sh",
     "Size": "1610 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sqlc.sh"
   },
   {
     "Name": "sshesame.sh",
     "Size": "1658 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sshesame.sh"
   },
   {
     "Name": "sshkeys.sh",
     "Size": "1354 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sshkeys.sh"
   },
   {
     "Name": "sshportal.sh",
     "Size": "1661 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sshportal.sh"
   },
   {
     "Name": "sshx.sh",
     "Size": "2287 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sshx.sh"
   },
   {
     "Name": "starship.sh",
     "Size": "1426 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/starship.sh"
   },
   {
     "Name": "stew.sh",
     "Size": "1629 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/stew.sh"
   },
   {
     "Name": "strace.sh",
     "Size": "1398 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/strace.sh"
   },
   {
     "Name": "sttr.sh",
     "Size": "1374 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sttr.sh"
   },
   {
     "Name": "stuffbin.sh",
     "Size": "1712 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/stuffbin.sh"
   },
   {
     "Name": "subfinder.sh",
     "Size": "1388 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/subfinder.sh"
   },
   {
     "Name": "subjs.sh",
     "Size": "1607 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/subjs.sh"
   },
   {
     "Name": "subxtract.sh",
     "Size": "1436 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/subxtract.sh"
   },
   {
     "Name": "sunbeam.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sunbeam.sh"
   },
   {
     "Name": "supervisord.sh",
     "Size": "1650 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/supervisord.sh"
   },
   {
     "Name": "surf.sh",
     "Size": "1642 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/surf.sh"
   },
   {
     "Name": "svg-hush.sh",
     "Size": "2229 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/svg-hush.sh"
   },
   {
     "Name": "syncthing.sh",
     "Size": "1398 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/syncthing.sh"
   },
   {
     "Name": "systemctl-tui.sh",
     "Size": "2221 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/systemctl-tui.sh"
   },
   {
     "Name": "systeroid.sh",
     "Size": "1476 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/systeroid.sh"
   },
   {
     "Name": "t-rec-rs.sh",
     "Size": "1425 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/t-rec-rs.sh"
   },
   {
     "Name": "tailscale.sh",
     "Size": "1756 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tailscale.sh"
   },
   {
     "Name": "tailspin.sh",
     "Size": "2169 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tailspin.sh"
   },
   {
     "Name": "taplo.sh",
     "Size": "2266 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/taplo.sh"
   },
   {
     "Name": "tcpdump.sh",
     "Size": "1375 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tcpdump.sh"
   },
   {
     "Name": "tdl.sh",
     "Size": "1388 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tdl.sh"
   },
   {
     "Name": "tere.sh",
     "Size": "1355 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tere.sh"
   },
   {
     "Name": "termshark.sh",
     "Size": "1627 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/termshark.sh"
   },
   {
     "Name": "tgpt.sh",
     "Size": "1644 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tgpt.sh"
   },
   {
     "Name": "tidy-viewer.sh",
     "Size": "2303 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tidy-viewer.sh"
   },
   {
     "Name": "tldr.sh",
     "Size": "1413 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tldr.sh"
   },
   {
     "Name": "tlrc.sh",
     "Size": "2188 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tlrc.sh"
   },
   {
     "Name": "tlsx.sh",
     "Size": "1404 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tlsx.sh"
   },
   {
     "Name": "tmate.sh",
     "Size": "1364 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tmate.sh"
   },
   {
     "Name": "tmux.sh",
     "Size": "1382 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tmux.sh"
   },
   {
     "Name": "tok.sh",
     "Size": "1707 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tok.sh"
   },
   {
     "Name": "tokei.sh",
     "Size": "1399 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tokei.sh"
   },
   {
     "Name": "toybox.sh",
     "Size": "1374 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/toybox.sh"
   },
   {
     "Name": "traefik.sh",
     "Size": "1381 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/traefik.sh"
   },
   {
     "Name": "trufflehog.sh",
     "Size": "1378 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/trufflehog.sh"
   },
   {
     "Name": "try.sh",
     "Size": "1377 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/try.sh"
   },
   {
     "Name": "tty2web.sh",
     "Size": "1635 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tty2web.sh"
   },
   {
     "Name": "ttyd.sh",
     "Size": "1344 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ttyd.sh"
   },
   {
     "Name": "tuiarchiver.sh",
     "Size": "1656 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tuiarchiver.sh"
   },
   {
     "Name": "tut.sh",
     "Size": "1368 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tut.sh"
   },
   {
     "Name": "twingate.sh",
     "Size": "2192 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/twingate.sh"
   },
   {
     "Name": "txeh.sh",
     "Size": "1374 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/txeh.sh"
   },
   {
     "Name": "tz.sh",
     "Size": "1337 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tz.sh"
   },
   {
     "Name": "u-root.sh",
     "Size": "1660 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/u-root.sh"
   },
   {
     "Name": "udpx.sh",
     "Size": "1606 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/udpx.sh"
   },
   {
     "Name": "uip.sh",
     "Size": "1418 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/uip.sh"
   },
   {
     "Name": "uncover.sh",
     "Size": "1419 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/uncover.sh"
   },
   {
     "Name": "unf.sh",
     "Size": "2210 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/unf.sh"
   },
   {
     "Name": "unfurl.sh",
     "Size": "1619 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/unfurl.sh"
   },
   {
     "Name": "upx.sh",
     "Size": "1354 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/upx.sh"
   },
   {
     "Name": "usql.sh",
     "Size": "1405 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/usql.sh"
   },
   {
     "Name": "v2raya.sh",
     "Size": "1454 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/v2raya.sh"
   },
   {
     "Name": "v6-unix.sh",
     "Size": "1981 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/v6-unix.sh"
   },
   {
     "Name": "validtoml.sh",
     "Size": "1626 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/validtoml.sh"
   },
   {
     "Name": "vegeta.sh",
     "Size": "1379 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/vegeta.sh"
   },
   {
     "Name": "vhs.sh",
     "Size": "1370 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/vhs.sh"
   },
   {
     "Name": "viddy.sh",
     "Size": "1385 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/viddy.sh"
   },
   {
     "Name": "viewgen.sh",
     "Size": "1787 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/viewgen.sh"
   },
   {
     "Name": "viu.sh",
     "Size": "1413 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/viu.sh"
   },
   {
     "Name": "volta.sh",
     "Size": "2190 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/volta.sh"
   },
   {
     "Name": "vopono.sh",
     "Size": "1428 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/vopono.sh"
   },
   {
     "Name": "vtm.sh",
     "Size": "1712 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/vtm.sh"
   },
   {
     "Name": "vultr-cli.sh",
     "Size": "1383 B",
-    "ModTime": "2024-02-11T11:06:34.461801645Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/vultr-cli.sh"
   },
   {
     "Name": "wadl-dumper.sh",
     "Size": "1668 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wadl-dumper.sh"
   },
   {
     "Name": "walk.sh",
     "Size": "1360 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/walk.sh"
   },
   {
     "Name": "wasminspect.sh",
     "Size": "2256 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wasminspect.sh"
   },
   {
     "Name": "watchexec.sh",
     "Size": "1403 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/watchexec.sh"
   },
   {
     "Name": "waybackrobots.sh",
     "Size": "1708 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/waybackrobots.sh"
   },
   {
     "Name": "waybackurls.sh",
     "Size": "1680 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/waybackurls.sh"
   },
   {
     "Name": "web-cache-vulnerability-scanner.sh",
     "Size": "1791 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/web-cache-vulnerability-scanner.sh"
   },
   {
     "Name": "websocat.sh",
     "Size": "1411 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/websocat.sh"
   },
   {
     "Name": "wego.sh",
     "Size": "1587 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wego.sh"
   },
   {
     "Name": "wireguard-go.sh",
     "Size": "1632 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wireguard-go.sh"
   },
   {
     "Name": "wireguard-rs.sh",
     "Size": "2168 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wireguard-rs.sh"
   },
   {
     "Name": "wireproxy.sh",
     "Size": "1412 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wireproxy.sh"
   },
   {
     "Name": "wiretap.sh",
     "Size": "1474 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wiretap.sh"
   },
   {
     "Name": "wormhole-rs.sh",
     "Size": "1974 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wormhole-rs.sh"
   },
   {
     "Name": "wstunnel.sh",
     "Size": "1405 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wstunnel.sh"
   },
   {
     "Name": "wtf.sh",
     "Size": "1395 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.818363209Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wtf.sh"
   },
   {
     "Name": "wth.sh",
     "Size": "1395 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wth.sh"
   },
   {
     "Name": "x8.sh",
     "Size": "2185 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/x8.sh"
   },
   {
     "Name": "xcp.sh",
     "Size": "2119 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xcp.sh"
   },
   {
     "Name": "xh.sh",
     "Size": "1396 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xh.sh"
   },
   {
     "Name": "xplr.sh",
     "Size": "1355 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xplr.sh"
   },
   {
     "Name": "xurls.sh",
     "Size": "1347 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xurls.sh"
   },
   {
     "Name": "yalis.sh",
     "Size": "1601 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yalis.sh"
   },
   {
     "Name": "yataf.sh",
     "Size": "1727 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yataf.sh"
   },
   {
     "Name": "yazi.sh",
     "Size": "2225 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yazi.sh"
   },
   {
     "Name": "yip.sh",
     "Size": "1427 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yip.sh"
   },
   {
     "Name": "yj.sh",
     "Size": "1592 B",
-    "ModTime": "2024-02-11T11:06:34.481801654Z",
+    "ModTime": "2024-02-11T11:48:09.814363167Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yj.sh"
   },
   {
     "Name": "yq.sh",
     "Size": "1406 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yq.sh"
   },
   {
     "Name": "zdns.sh",
     "Size": "1582 B",
-    "ModTime": "2024-02-11T11:06:34.477801652Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zdns.sh"
   },
   {
     "Name": "zellij.sh",
     "Size": "1394 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.806363086Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zellij.sh"
   },
   {
     "Name": "zenith.sh",
     "Size": "1416 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zenith.sh"
   },
   {
     "Name": "zfxtop.sh",
     "Size": "1648 B",
-    "ModTime": "2024-02-11T11:06:34.465801647Z",
+    "ModTime": "2024-02-11T11:48:09.798363004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zfxtop.sh"
   },
   {
     "Name": "zgrab2.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zgrab2.sh"
   },
   {
     "Name": "zoxide.sh",
     "Size": "1490 B",
-    "ModTime": "2024-02-11T11:06:34.473801650Z",
+    "ModTime": "2024-02-11T11:48:09.810363127Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zoxide.sh"
   },
   {
     "Name": "zstd.sh",
     "Size": "1361 B",
-    "ModTime": "2024-02-11T11:06:34.469801649Z",
+    "ModTime": "2024-02-11T11:48:09.802363045Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zstd.sh"
   }
 ]
