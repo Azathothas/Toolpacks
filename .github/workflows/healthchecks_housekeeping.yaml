@@ -147,6 +147,8 @@ jobs:
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
           rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --progress --check-first
           ##Scripts_x86_64_Linux
+          #Clean
+          rclone delete "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins"
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
           rclone lsjson "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/\(.Name)"}' | jq . > "./metadata.json.tmp"
@@ -157,6 +159,8 @@ jobs:
           #Update Repo
           cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/metadata.json"
           ##Scripts_aarch64_Linux
+          #Clean
+          rclone delete "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins"
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
           rclone lsjson "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/\(.Name)"}' | jq . > "./metadata.json.tmp"
