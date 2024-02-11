@@ -1,6 +1,6 @@
  14M └─┬ main
  13M   ├─┬ x86_64_Linux
-6.3M   │ ├── BUILD.log.txt
+6.5M   │ ├── BUILD.log.txt
 6.3M   │ ├── BUILD.log
 216K   │ ├── README.md
 100K   │ ├── METADATA.json
@@ -9,7 +9,7 @@
  44K   │ ├── BLAKE3SUM.txt
  16K   │ ├── SIZE.txt
  16K   │ ├── SIZE.md
-8.0K   │ └── BUILD_ERROR.log.md
+4.0K   │ └── BUILD_ERROR.log.md
 556K   ├── metadata.json
 460K   ├── metadata.toml
 408K   ├─┬ aarch64_arm64_Linux
