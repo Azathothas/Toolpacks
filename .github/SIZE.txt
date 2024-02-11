@@ -23,7 +23,9 @@
 4.0K   │ ├── SIZE.md
 4.0K   │ ├── SHA256SUM.txt
 4.0K   │ └── BLAKE3SUM.txt
- 28K   ├── BUILD_NOTES.md
+ 36K   ├─┬ Docs
+ 28K   │ ├── BUILD_NOTES.md
+4.0K   │ └── DEBUG.md
  16K   ├── INFO.md
  12K   ├── README.md
 4.0K   └── x64_Windows
