@@ -2,271 +2,271 @@
   {
     "Name": "7z",
     "Size": "3.72 MB",
-    "ModTime": "2024-02-09T00:30:50.207707720Z",
+    "ModTime": "2024-02-11T00:11:30.093528248Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/7z"
   },
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "40.52 kB",
-    "ModTime": "2024-02-09T00:34:29.185530480Z",
+    "Size": "40.24 kB",
+    "ModTime": "2024-02-11T00:17:00.193925372Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/BLAKE3SUM.txt"
   },
   {
     "Name": "FILE.txt",
-    "Size": "89.64 kB",
-    "ModTime": "2024-02-09T00:34:07.777351840Z",
+    "Size": "85.23 kB",
+    "ModTime": "2024-02-11T00:16:38.801891071Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/FILE.txt"
   },
   {
     "Name": "METADATA.json",
-    "Size": "98.61 kB",
-    "ModTime": "2024-02-10T05:17:26.622445214Z",
+    "Size": "99.01 kB",
+    "ModTime": "2024-02-11T02:29:29.624603428Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json"
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "40.52 kB",
-    "ModTime": "2024-02-09T00:34:57.457770079Z",
+    "Size": "40.24 kB",
+    "ModTime": "2024-02-11T00:17:29.013940052Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/SHA256SUM.txt"
   },
   {
     "Name": "SIZE.txt",
-    "Size": "13.34 kB",
-    "ModTime": "2024-02-09T00:34:10.637375678Z",
+    "Size": "13.27 kB",
+    "ModTime": "2024-02-11T00:16:41.469895463Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/SIZE.txt"
   },
   {
     "Name": "_toolpack_x86_64.7z",
-    "Size": "1.38 GB",
-    "ModTime": "2024-02-09T00:48:46.968882289Z",
+    "Size": "1.39 GB",
+    "ModTime": "2024-02-11T00:31:19.226774335Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/_toolpack_x86_64.7z"
   },
   {
     "Name": "_toolpack_x86_64_BLAKE3SUM.txt",
     "Size": "87 B",
-    "ModTime": "2024-02-09T00:50:43.409835928Z",
+    "ModTime": "2024-02-11T00:35:00.094991546Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt"
   },
   {
     "Name": "_toolpack_x86_64_SHA256SUM.txt",
     "Size": "87 B",
-    "ModTime": "2024-02-09T00:50:49.961890671Z",
+    "ModTime": "2024-02-11T00:35:08.843001324Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt"
   },
   {
     "Name": "act",
     "Size": "16.34 MB",
-    "ModTime": "2024-02-09T00:30:59.131784439Z",
+    "ModTime": "2024-02-11T00:11:38.993544108Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/act"
   },
   {
     "Name": "actionlint",
     "Size": "4.97 MB",
-    "ModTime": "2024-02-09T00:31:01.363803507Z",
+    "ModTime": "2024-02-11T00:11:41.201548191Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/actionlint"
   },
   {
     "Name": "age",
     "Size": "3.54 MB",
-    "ModTime": "2024-02-09T00:30:56.939765648Z",
+    "ModTime": "2024-02-11T00:11:36.977540448Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/age"
   },
   {
     "Name": "age-keygen",
     "Size": "1.84 MB",
-    "ModTime": "2024-02-09T00:30:54.195742125Z",
+    "ModTime": "2024-02-11T00:11:34.421535917Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/age-keygen"
   },
   {
     "Name": "agg",
     "Size": "9.59 MB",
-    "ModTime": "2024-02-09T00:31:06.323844898Z",
+    "ModTime": "2024-02-11T00:11:45.985557044Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/agg"
   },
   {
     "Name": "agrind",
     "Size": "8.93 MB",
-    "ModTime": "2024-02-09T00:30:53.851739176Z",
+    "ModTime": "2024-02-11T00:11:34.073535301Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/agrind"
   },
   {
     "Name": "airixss",
     "Size": "5.11 MB",
-    "ModTime": "2024-02-09T00:31:00.963800144Z",
+    "ModTime": "2024-02-11T00:11:40.853547548Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/airixss"
   },
   {
     "Name": "aix",
     "Size": "31.43 MB",
-    "ModTime": "2024-02-09T00:31:04.011825604Z",
+    "ModTime": "2024-02-11T00:11:43.757552918Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/aix"
   },
   {
     "Name": "albafetch",
     "Size": "6.03 MB",
-    "ModTime": "2024-02-09T00:31:16.111927910Z",
+    "ModTime": "2024-02-11T00:11:55.373574770Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/albafetch"
   },
   {
     "Name": "algernon",
     "Size": "25.79 MB",
-    "ModTime": "2024-02-09T00:30:51.067715333Z",
+    "ModTime": "2024-02-11T00:11:30.869529623Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/algernon"
   },
   {
     "Name": "alist",
     "Size": "62.4 MB",
-    "ModTime": "2024-02-09T00:31:04.975833649Z",
+    "ModTime": "2024-02-11T00:11:44.669554604Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/alist"
   },
   {
     "Name": "allxfr",
     "Size": "6.29 MB",
-    "ModTime": "2024-02-09T00:31:10.795882542Z",
+    "ModTime": "2024-02-11T00:11:50.213565017Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/allxfr"
   },
   {
     "Name": "alterx",
     "Size": "21.91 MB",
-    "ModTime": "2024-02-09T00:30:53.539736501Z",
+    "ModTime": "2024-02-11T00:11:33.497534280Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/alterx"
   },
   {
     "Name": "amass",
     "Size": "36.58 MB",
-    "ModTime": "2024-02-09T00:31:00.723798087Z",
+    "ModTime": "2024-02-11T00:11:40.621547119Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/amass"
   },
   {
     "Name": "analyticsrelationships",
     "Size": "5.11 MB",
-    "ModTime": "2024-02-09T00:31:00.539796509Z",
+    "ModTime": "2024-02-11T00:11:40.465546831Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/analyticsrelationships"
   },
   {
     "Name": "anew",
     "Size": "1.28 MB",
-    "ModTime": "2024-02-09T00:31:00.763798430Z",
+    "ModTime": "2024-02-11T00:11:40.669547207Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/anew"
   },
   {
     "Name": "anewer",
-    "Size": "751.84 kB",
-    "ModTime": "2024-02-09T00:31:15.311921084Z",
+    "Size": "852.23 kB",
+    "ModTime": "2024-02-11T00:11:54.581573264Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/anewer"
   },
   {
     "Name": "apk.sh",
     "Size": "26.22 kB",
-    "ModTime": "2024-02-08T22:50:48.657749043Z",
+    "ModTime": "2024-02-10T22:50:18.357300266Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/apk.sh"
   },
   {
     "Name": "arduino-cli",
     "Size": "21.74 MB",
-    "ModTime": "2024-02-09T00:31:03.031817426Z",
+    "ModTime": "2024-02-11T00:11:42.885551306Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/arduino-cli"
   },
   {
     "Name": "aretext",
     "Size": "6.68 MB",
-    "ModTime": "2024-02-09T00:30:50.035706104Z",
+    "ModTime": "2024-02-11T00:11:29.957528007Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/aretext"
   },
   {
     "Name": "aria2c",
     "Size": "8.71 MB",
-    "ModTime": "2024-02-09T00:30:50.111706818Z",
+    "ModTime": "2024-02-11T00:11:30.045528163Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/aria2c"
   },
   {
     "Name": "asn",
     "Size": "187.91 kB",
-    "ModTime": "2024-02-08T22:51:06.485895923Z",
+    "ModTime": "2024-02-10T22:50:37.513309887Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/asn"
   },
   {
     "Name": "asnmap",
     "Size": "21.81 MB",
-    "ModTime": "2024-02-09T00:31:03.663822700Z",
+    "ModTime": "2024-02-11T00:11:43.497552437Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/asnmap"
   },
   {
     "Name": "assetfinder",
     "Size": "5.12 MB",
-    "ModTime": "2024-02-09T00:31:17.411938920Z",
+    "ModTime": "2024-02-11T00:11:56.637577172Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/assetfinder"
   },
   {
     "Name": "assh",
     "Size": "8.59 MB",
-    "ModTime": "2024-02-09T00:30:57.787772918Z",
+    "ModTime": "2024-02-11T00:11:37.677541688Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/assh"
   },
   {
     "Name": "atuin",
-    "Size": "19.6 MB",
-    "ModTime": "2024-02-09T00:31:06.547846767Z",
+    "Size": "21.24 MB",
+    "ModTime": "2024-02-11T00:11:46.217557481Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/atuin"
   },
   {
     "Name": "awk",
     "Size": "1.15 MB",
-    "ModTime": "2024-02-09T00:30:59.059783822Z",
+    "ModTime": "2024-02-11T00:11:38.921543976Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/awk"
   },
   {
     "Name": "aws-nuke",
     "Size": "150.31 MB",
-    "ModTime": "2024-02-09T00:31:09.503871516Z",
+    "ModTime": "2024-02-11T00:11:48.925562588Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/aws-nuke"
   },
   {
     "Name": "b3sum",
     "Size": "1.31 MB",
-    "ModTime": "2024-02-09T00:31:03.275819463Z",
+    "ModTime": "2024-02-11T00:11:43.137551771Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/b3sum"
   },
   {
     "Name": "bandwhich",
     "Size": "3.67 MB",
-    "ModTime": "2024-02-09T00:31:09.755873667Z",
+    "ModTime": "2024-02-11T00:11:49.185563078Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bandwhich"
   },
   {
     "Name": "bat",
     "Size": "5.77 MB",
-    "ModTime": "2024-02-09T00:30:52.935731324Z",
+    "ModTime": "2024-02-11T00:11:32.885533195Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bat"
   },
   {
     "Name": "batcat",
     "Size": "5.77 MB",
-    "ModTime": "2024-02-09T00:30:53.891739519Z",
+    "ModTime": "2024-02-11T00:11:34.117535378Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/batcat"
   },
   {
     "Name": "bbscope",
     "Size": "1.87 MB",
-    "ModTime": "2024-02-09T00:31:06.403845565Z",
+    "ModTime": "2024-02-11T00:11:46.053557172Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bbscope"
   },
   {
     "Name": "bbtargets",
     "Size": "4.55 MB",
-    "ModTime": "2024-02-09T00:30:57.807773090Z",
+    "ModTime": "2024-02-11T00:11:37.697541723Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bbtargets"
   },
   {
     "Name": "bearer",
     "Size": "51.18 MB",
-    "ModTime": "2024-02-09T00:30:57.155767500Z",
+    "ModTime": "2024-02-11T00:11:37.133540724Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bearer"
   },
   {
     "Name": "bed",
     "Size": "3.11 MB",
-    "ModTime": "2024-02-09T00:31:06.119843196Z",
+    "ModTime": "2024-02-11T00:11:45.813556719Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bed"
   },
   {
@@ -278,8 +278,14 @@
   {
     "Name": "bin",
     "Size": "15.18 MB",
-    "ModTime": "2024-02-09T00:31:01.919808146Z",
+    "ModTime": "2024-02-11T00:11:41.725549160Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bin"
+  },
+  {
+    "Name": "binary-security-check",
+    "Size": "3.31 MB",
+    "ModTime": "2024-02-11T00:11:30.777529459Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/binary-security-check"
   },
   {
     "Name": "binfetch",
@@ -290,151 +296,151 @@
   {
     "Name": "binfetch.cfg",
     "Size": "257 B",
-    "ModTime": "2024-02-08T22:54:40.143694874Z",
+    "ModTime": "2024-02-10T22:54:59.065478783Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/binfetch.cfg"
   },
   {
     "Name": "bingrep",
-    "Size": "3.08 MB",
-    "ModTime": "2024-02-09T00:30:54.083741165Z",
+    "Size": "3.62 MB",
+    "ModTime": "2024-02-11T00:11:34.313535726Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bingrep"
   },
   {
     "Name": "binocle",
     "Size": "10.9 MB",
-    "ModTime": "2024-02-09T00:31:04.495829643Z",
+    "ModTime": "2024-02-11T00:11:44.237553805Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/binocle"
   },
   {
     "Name": "bleve",
     "Size": "15.24 MB",
-    "ModTime": "2024-02-09T00:30:50.647711737Z",
+    "ModTime": "2024-02-11T00:11:30.481528935Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bleve"
   },
   {
     "Name": "bluetuith",
     "Size": "9.14 MB",
-    "ModTime": "2024-02-09T00:30:50.911713997Z",
+    "ModTime": "2024-02-11T00:11:30.709529339Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bluetuith"
   },
   {
     "Name": "boltconn",
-    "Size": "17.59 MB",
-    "ModTime": "2024-02-09T00:30:52.871730776Z",
+    "Size": "24.02 MB",
+    "ModTime": "2024-02-11T00:11:32.797533038Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/boltconn"
   },
   {
     "Name": "bombadillo",
     "Size": "5.61 MB",
-    "ModTime": "2024-02-09T00:31:16.651932519Z",
+    "ModTime": "2024-02-11T00:11:55.873575720Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bombadillo"
   },
   {
     "Name": "bore",
     "Size": "1.47 MB",
-    "ModTime": "2024-02-09T00:31:17.391938755Z",
+    "ModTime": "2024-02-11T00:11:56.621577142Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bore"
   },
   {
     "Name": "boringtun-cli",
-    "Size": "2.44 MB",
-    "ModTime": "2024-02-09T00:31:06.135843329Z",
+    "Size": "2.71 MB",
+    "ModTime": "2024-02-11T00:11:45.829556749Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/boringtun-cli"
   },
   {
     "Name": "bottom",
     "Size": "4.78 MB",
-    "ModTime": "2024-02-09T00:31:05.647839257Z",
+    "ModTime": "2024-02-11T00:11:45.317555803Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bottom"
   },
   {
     "Name": "boxxy",
-    "Size": "5.88 MB",
-    "ModTime": "2024-02-09T00:30:54.999749018Z",
+    "Size": "6.98 MB",
+    "ModTime": "2024-02-11T00:11:35.221537335Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/boxxy"
   },
   {
     "Name": "brename",
     "Size": "7.63 MB",
-    "ModTime": "2024-02-09T00:31:08.751865160Z",
+    "ModTime": "2024-02-11T00:11:48.161561147Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/brename"
   },
   {
     "Name": "broot",
-    "Size": "9.32 MB",
-    "ModTime": "2024-02-03T11:07:08.747753006Z",
+    "Size": "11.79 MB",
+    "ModTime": "2024-02-11T00:11:39.065544242Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/broot"
   },
   {
     "Name": "btop",
     "Size": "2.46 MB",
-    "ModTime": "2024-02-09T00:31:02.619813988Z",
+    "ModTime": "2024-02-11T00:11:42.445550491Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/btop"
   },
   {
     "Name": "bucketloot",
     "Size": "12.85 MB",
-    "ModTime": "2024-02-09T00:30:53.731738147Z",
+    "ModTime": "2024-02-11T00:11:33.745534719Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bucketloot"
   },
   {
     "Name": "busybox",
     "Size": "1.16 MB",
-    "ModTime": "2024-02-09T00:30:51.879722284Z",
+    "ModTime": "2024-02-11T00:11:31.741531169Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/busybox"
   },
   {
     "Name": "byp4xx",
     "Size": "1.9 MB",
-    "ModTime": "2024-02-09T00:30:51.943722833Z",
+    "ModTime": "2024-02-11T00:11:31.825531317Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/byp4xx"
   },
   {
     "Name": "caddy",
     "Size": "41.03 MB",
-    "ModTime": "2024-02-09T00:31:05.363836887Z",
+    "ModTime": "2024-02-11T00:11:45.053555315Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/caddy"
   },
   {
     "Name": "catatonit",
     "Size": "1.13 MB",
-    "ModTime": "2024-02-09T00:31:13.179902888Z",
+    "ModTime": "2024-02-11T00:11:52.453569241Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/catatonit"
   },
   {
     "Name": "catp",
-    "Size": "792.83 kB",
-    "ModTime": "2024-02-09T00:31:15.951926545Z",
+    "Size": "918.98 kB",
+    "ModTime": "2024-02-11T00:11:55.241574519Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/catp"
   },
   {
     "Name": "cdncheck",
     "Size": "20.46 MB",
-    "ModTime": "2024-02-09T00:30:48.843694901Z",
+    "ModTime": "2024-02-11T00:11:28.849525977Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cdncheck"
   },
   {
     "Name": "cent",
     "Size": "13.16 MB",
-    "ModTime": "2024-02-09T00:31:14.511914256Z",
+    "ModTime": "2024-02-11T00:11:53.769571722Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cent"
   },
   {
     "Name": "certgraph",
     "Size": "7.11 MB",
-    "ModTime": "2024-02-09T00:31:10.567880597Z",
+    "ModTime": "2024-02-11T00:11:49.993564602Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/certgraph"
   },
   {
     "Name": "certspotter",
     "Size": "5.62 MB",
-    "ModTime": "2024-02-09T00:30:48.119688097Z",
+    "ModTime": "2024-02-11T00:11:28.145524682Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/certspotter"
   },
   {
     "Name": "certstream",
     "Size": "4.74 MB",
-    "ModTime": "2024-02-09T00:30:53.627737256Z",
+    "ModTime": "2024-02-11T00:11:33.613534485Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/certstream"
   },
   {
@@ -452,139 +458,139 @@
   {
     "Name": "cexec",
     "Size": "2.04 MB",
-    "ModTime": "2024-02-09T00:30:53.103732764Z",
+    "ModTime": "2024-02-11T00:11:33.061533507Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cexec"
   },
   {
     "Name": "cfssl",
     "Size": "12.06 MB",
-    "ModTime": "2024-02-09T00:30:51.919722627Z",
+    "ModTime": "2024-02-11T00:11:31.801531274Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cfssl"
   },
   {
     "Name": "cfssl-bundle",
     "Size": "9.4 MB",
-    "ModTime": "2024-02-09T00:30:53.671737633Z",
+    "ModTime": "2024-02-11T00:11:33.657534563Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cfssl-bundle"
   },
   {
     "Name": "cfssl-certinfo",
     "Size": "9.56 MB",
-    "ModTime": "2024-02-09T00:30:54.619745760Z",
+    "ModTime": "2024-02-11T00:11:34.797536583Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cfssl-certinfo"
   },
   {
     "Name": "cfssl-newkey",
     "Size": "9.91 MB",
-    "ModTime": "2024-02-09T00:30:48.079687721Z",
+    "ModTime": "2024-02-11T00:11:28.109524616Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cfssl-newkey"
   },
   {
     "Name": "cfssl-scan",
     "Size": "9.73 MB",
-    "ModTime": "2024-02-09T00:30:53.603737050Z",
+    "ModTime": "2024-02-11T00:11:33.593534450Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cfssl-scan"
   },
   {
     "Name": "cfssljson",
     "Size": "7.64 MB",
-    "ModTime": "2024-02-09T00:30:59.435787046Z",
+    "ModTime": "2024-02-11T00:11:39.357544782Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cfssljson"
   },
   {
     "Name": "chainredir",
     "Size": "4.36 MB",
-    "ModTime": "2024-02-09T00:31:16.423930573Z",
+    "ModTime": "2024-02-11T00:11:55.689575370Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/chainredir"
   },
   {
     "Name": "chameleon",
     "Size": "18.75 MB",
-    "ModTime": "2024-02-09T00:31:01.251802572Z",
+    "ModTime": "2024-02-11T00:11:41.093547992Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/chameleon"
   },
   {
     "Name": "chaos-client",
     "Size": "18.48 MB",
-    "ModTime": "2024-02-09T00:31:10.887883327Z",
+    "ModTime": "2024-02-11T00:11:50.317565213Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/chaos-client"
   },
   {
     "Name": "cheat",
     "Size": "11.38 MB",
-    "ModTime": "2024-02-09T00:31:01.167801871Z",
+    "ModTime": "2024-02-11T00:11:41.005547829Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cheat"
   },
   {
     "Name": "checkbypass",
     "Size": "4.37 MB",
-    "ModTime": "2024-02-09T00:30:54.211742262Z",
+    "ModTime": "2024-02-11T00:11:34.437535946Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/checkbypass"
   },
   {
     "Name": "cherrybomb",
-    "Size": "5.73 MB",
-    "ModTime": "2024-02-09T00:31:05.695839658Z",
+    "Size": "8.21 MB",
+    "ModTime": "2024-02-11T00:11:45.373555906Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cherrybomb"
   },
   {
     "Name": "chisel",
     "Size": "8.65 MB",
-    "ModTime": "2024-02-09T00:31:03.167818561Z",
+    "ModTime": "2024-02-11T00:11:43.021551556Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/chisel"
   },
   {
     "Name": "circumflex",
     "Size": "21.02 MB",
-    "ModTime": "2024-02-09T00:30:59.379786565Z",
+    "ModTime": "2024-02-11T00:11:39.305544685Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/circumflex"
   },
   {
     "Name": "cleanpath",
     "Size": "1.43 MB",
-    "ModTime": "2024-02-09T00:31:05.671839457Z",
+    "ModTime": "2024-02-11T00:11:45.341555847Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cleanpath"
   },
   {
     "Name": "cloudcash",
     "Size": "16.2 MB",
-    "ModTime": "2024-02-09T00:31:08.135860019Z",
+    "ModTime": "2024-02-11T00:11:47.561560016Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cloudcash"
   },
   {
     "Name": "cloudfox",
-    "Size": "139.05 MB",
-    "ModTime": "2024-02-09T00:31:02.495812953Z",
+    "Size": "139.04 MB",
+    "ModTime": "2024-02-11T00:11:42.325550270Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cloudfox"
   },
   {
     "Name": "cloudlist",
     "Size": "98.55 MB",
-    "ModTime": "2024-02-09T00:30:58.499779022Z",
+    "ModTime": "2024-02-11T00:11:38.345542911Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cloudlist"
   },
   {
     "Name": "cloudreve",
     "Size": "35.58 MB",
-    "ModTime": "2024-02-09T00:30:57.531770723Z",
+    "ModTime": "2024-02-11T00:11:37.473541326Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cloudreve"
   },
   {
     "Name": "cog",
     "Size": "8.17 MB",
-    "ModTime": "2024-02-09T00:31:06.167843596Z",
+    "ModTime": "2024-02-11T00:11:45.865556818Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cog"
   },
   {
     "Name": "comb",
     "Size": "1.35 MB",
-    "ModTime": "2024-02-09T00:31:00.939799938Z",
+    "ModTime": "2024-02-11T00:11:40.837547518Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/comb"
   },
   {
     "Name": "containerd",
     "Size": "39.49 MB",
-    "ModTime": "2024-02-09T00:31:15.187920025Z",
+    "ModTime": "2024-02-11T00:11:54.437572990Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/containerd"
   },
   {
@@ -595,92 +601,92 @@
   },
   {
     "Name": "cotp",
-    "Size": "2.42 MB",
-    "ModTime": "2024-02-09T00:31:10.139876944Z",
+    "Size": "2.9 MB",
+    "ModTime": "2024-02-11T00:11:49.605563870Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cotp"
   },
   {
     "Name": "cowitness",
     "Size": "5.79 MB",
-    "ModTime": "2024-02-09T00:30:59.831790440Z",
+    "ModTime": "2024-02-11T00:11:39.745545500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cowitness"
   },
   {
     "Name": "cowsay",
     "Size": "2.87 MB",
-    "ModTime": "2024-02-09T00:31:10.055876227Z",
+    "ModTime": "2024-02-11T00:11:49.509563689Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cowsay"
   },
   {
     "Name": "cowthink",
     "Size": "2.87 MB",
-    "ModTime": "2024-02-09T00:31:10.227877694Z",
+    "ModTime": "2024-02-11T00:11:49.689564029Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cowthink"
   },
   {
     "Name": "cproxy",
-    "Size": "2.29 MB",
-    "ModTime": "2024-02-09T00:31:07.983858751Z",
+    "Size": "2.81 MB",
+    "ModTime": "2024-02-11T00:11:47.417559744Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cproxy"
   },
   {
     "Name": "cpufetch",
     "Size": "975.22 kB",
-    "ModTime": "2024-02-09T00:30:53.111732832Z",
+    "ModTime": "2024-02-11T00:11:33.069533521Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cpufetch"
   },
   {
     "Name": "crawley",
     "Size": "5.17 MB",
-    "ModTime": "2024-02-09T00:30:51.607719955Z",
+    "ModTime": "2024-02-11T00:11:31.437530629Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/crawley"
   },
   {
     "Name": "crictl",
     "Size": "38.21 MB",
-    "ModTime": "2024-02-09T00:30:56.815764586Z",
+    "ModTime": "2024-02-11T00:11:36.861540242Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/crictl"
   },
   {
     "Name": "crlfuzz",
     "Size": "4.92 MB",
-    "ModTime": "2024-02-09T00:31:07.811857316Z",
+    "ModTime": "2024-02-11T00:11:47.221559374Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/crlfuzz"
   },
   {
     "Name": "croc",
     "Size": "2.43 MB",
-    "ModTime": "2024-02-08T23:11:11.204862306Z",
+    "ModTime": "2024-02-10T23:15:32.462505800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/croc"
   },
   {
     "Name": "crt",
     "Size": "4.83 MB",
-    "ModTime": "2024-02-09T00:31:04.571830277Z",
+    "ModTime": "2024-02-11T00:11:44.297553917Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/crt"
   },
   {
     "Name": "csprecon",
     "Size": "9.56 MB",
-    "ModTime": "2024-02-09T00:30:54.563745279Z",
+    "ModTime": "2024-02-11T00:11:34.737536477Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/csprecon"
   },
   {
     "Name": "csview",
     "Size": "912.45 kB",
-    "ModTime": "2024-02-09T00:31:01.343803339Z",
+    "ModTime": "2024-02-11T00:11:41.185548162Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/csview"
   },
   {
     "Name": "csvtk",
     "Size": "21.45 MB",
-    "ModTime": "2024-02-09T00:31:12.915900635Z",
+    "ModTime": "2024-02-11T00:11:52.241568841Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/csvtk"
   },
   {
     "Name": "ct_monitor",
     "Size": "14.84 MB",
-    "ModTime": "2024-02-09T00:31:14.047910296Z",
+    "ModTime": "2024-02-11T00:11:53.321570878Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ct_monitor"
   },
   {
@@ -692,79 +698,79 @@
   {
     "Name": "curl",
     "Size": "8.62 MB",
-    "ModTime": "2024-02-09T00:31:02.743815023Z",
+    "ModTime": "2024-02-11T00:11:42.573550729Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/curl"
   },
   {
     "Name": "curlie",
     "Size": "2.03 MB",
-    "ModTime": "2024-02-09T00:31:05.115834817Z",
+    "ModTime": "2024-02-11T00:11:44.793554834Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/curlie"
   },
   {
     "Name": "cut-cdn",
     "Size": "9.17 MB",
-    "ModTime": "2024-02-09T00:31:01.727806544Z",
+    "ModTime": "2024-02-11T00:11:41.537548813Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cut-cdn"
   },
   {
     "Name": "dalfox",
     "Size": "25.02 MB",
-    "ModTime": "2024-02-09T00:31:08.295861354Z",
+    "ModTime": "2024-02-11T00:11:47.721560317Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dalfox"
   },
   {
     "Name": "dasel",
     "Size": "9.6 MB",
-    "ModTime": "2024-02-09T00:31:02.687814556Z",
+    "ModTime": "2024-02-11T00:11:42.517550625Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dasel"
   },
   {
     "Name": "datadash",
     "Size": "4.46 MB",
-    "ModTime": "2024-02-09T00:30:51.539719374Z",
+    "ModTime": "2024-02-11T00:11:31.365530502Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/datadash"
   },
   {
     "Name": "dbclient",
     "Size": "1.53 MB",
-    "ModTime": "2024-02-09T00:31:01.683806177Z",
+    "ModTime": "2024-02-11T00:11:41.493548731Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dbclient"
   },
   {
     "Name": "ddns-go",
     "Size": "9.15 MB",
-    "ModTime": "2024-02-09T00:31:14.171911355Z",
+    "ModTime": "2024-02-11T00:11:53.449571119Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ddns-go"
   },
   {
     "Name": "delta",
     "Size": "6.04 MB",
-    "ModTime": "2024-02-09T00:30:49.951705315Z",
+    "ModTime": "2024-02-11T00:11:29.901527908Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/delta"
   },
   {
     "Name": "devbox",
     "Size": "26.45 MB",
-    "ModTime": "2024-02-09T00:30:50.371709262Z",
+    "ModTime": "2024-02-11T00:11:30.257528538Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/devbox"
   },
   {
     "Name": "devpod",
     "Size": "24.43 MB",
-    "ModTime": "2024-02-09T00:30:55.119750046Z",
+    "ModTime": "2024-02-11T00:11:35.345537555Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/devpod"
   },
   {
     "Name": "diffoci",
     "Size": "16.77 MB",
-    "ModTime": "2024-02-09T00:30:57.363769283Z",
+    "ModTime": "2024-02-11T00:11:37.329541071Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/diffoci"
   },
   {
     "Name": "direnv",
     "Size": "6.81 MB",
-    "ModTime": "2024-02-09T00:31:10.299878309Z",
+    "ModTime": "2024-02-11T00:11:49.765564172Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/direnv"
   },
   {
@@ -782,73 +788,73 @@
   {
     "Name": "dns-doctor",
     "Size": "4.04 MB",
-    "ModTime": "2024-02-09T00:30:53.867739313Z",
+    "ModTime": "2024-02-11T00:11:34.093535336Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dns-doctor"
   },
   {
     "Name": "dnslookup",
     "Size": "7.35 MB",
-    "ModTime": "2024-02-09T00:31:10.935883737Z",
+    "ModTime": "2024-02-11T00:11:50.365565303Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dnslookup"
   },
   {
     "Name": "dnstake",
     "Size": "5.18 MB",
-    "ModTime": "2024-02-09T00:31:00.979800281Z",
+    "ModTime": "2024-02-11T00:11:40.873547585Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dnstake"
   },
   {
     "Name": "dnsx",
     "Size": "24.19 MB",
-    "ModTime": "2024-02-09T00:30:58.067775319Z",
+    "ModTime": "2024-02-11T00:11:37.933542149Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dnsx"
   },
   {
     "Name": "doggo",
     "Size": "9.77 MB",
-    "ModTime": "2024-02-09T00:31:03.351820096Z",
+    "ModTime": "2024-02-11T00:11:43.209551904Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/doggo"
   },
   {
     "Name": "doomxss",
     "Size": "4.37 MB",
-    "ModTime": "2024-02-09T00:31:10.715881860Z",
+    "ModTime": "2024-02-11T00:11:50.133564865Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/doomxss"
   },
   {
     "Name": "dotenv-linter",
-    "Size": "2.29 MB",
-    "ModTime": "2024-02-09T00:31:03.467821065Z",
+    "Size": "2.73 MB",
+    "ModTime": "2024-02-11T00:11:43.329552127Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dotenv-linter"
   },
   {
     "Name": "dropbear",
     "Size": "1.74 MB",
-    "ModTime": "2024-02-09T00:31:13.603906507Z",
+    "ModTime": "2024-02-11T00:11:52.877570040Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dropbear"
   },
   {
     "Name": "dropbearconvert",
     "Size": "1.3 MB",
-    "ModTime": "2024-02-09T00:31:08.171860320Z",
+    "ModTime": "2024-02-11T00:11:47.601560091Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dropbearconvert"
   },
   {
     "Name": "dropbearkey",
     "Size": "1.3 MB",
-    "ModTime": "2024-02-09T00:31:08.843865928Z",
+    "ModTime": "2024-02-11T00:11:48.253561321Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dropbearkey"
   },
   {
     "Name": "dropbearmulti",
     "Size": "1.8 MB",
-    "ModTime": "2024-02-09T00:31:14.787916612Z",
+    "ModTime": "2024-02-11T00:11:54.057572269Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dropbearmulti"
   },
   {
     "Name": "dropbearscp",
     "Size": "897.52 kB",
-    "ModTime": "2024-02-09T00:30:49.479700879Z",
+    "ModTime": "2024-02-11T00:11:29.449527081Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dropbearscp"
   },
   {
@@ -860,19 +866,19 @@
   {
     "Name": "dsieve",
     "Size": "2.64 MB",
-    "ModTime": "2024-02-09T00:30:54.783747165Z",
+    "ModTime": "2024-02-11T00:11:34.985536916Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dsieve"
   },
   {
     "Name": "duf",
     "Size": "2.14 MB",
-    "ModTime": "2024-02-09T00:31:00.599797024Z",
+    "ModTime": "2024-02-11T00:11:40.517546927Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/duf"
   },
   {
     "Name": "dufs",
     "Size": "2.98 MB",
-    "ModTime": "2024-02-09T00:31:13.279903742Z",
+    "ModTime": "2024-02-11T00:11:52.549569422Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dufs"
   },
   {
@@ -890,115 +896,115 @@
   {
     "Name": "dysk",
     "Size": "3.19 MB",
-    "ModTime": "2024-02-06T00:47:00.048199357Z",
+    "ModTime": "2024-02-11T00:11:34.817536619Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dysk"
   },
   {
     "Name": "eae",
     "Size": "1.44 MB",
-    "ModTime": "2024-02-09T00:31:01.699806311Z",
+    "ModTime": "2024-02-11T00:11:41.509548761Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eae"
   },
   {
     "Name": "eah",
     "Size": "1.44 MB",
-    "ModTime": "2024-02-09T00:31:11.643889779Z",
+    "ModTime": "2024-02-11T00:11:51.025566548Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eah"
   },
   {
     "Name": "eap",
     "Size": "1.41 MB",
-    "ModTime": "2024-02-09T00:30:50.047706217Z",
+    "ModTime": "2024-02-11T00:11:29.981528050Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eap"
   },
   {
     "Name": "eaparam",
     "Size": "1.42 MB",
-    "ModTime": "2024-02-09T00:31:14.547914564Z",
+    "ModTime": "2024-02-11T00:11:53.801571783Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eaparam"
   },
   {
     "Name": "eapath",
     "Size": "1.42 MB",
-    "ModTime": "2024-02-09T00:31:06.999850540Z",
+    "ModTime": "2024-02-11T00:11:46.561558130Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eapath"
   },
   {
     "Name": "earh",
     "Size": "1.42 MB",
-    "ModTime": "2024-02-09T00:30:54.371743633Z",
+    "ModTime": "2024-02-11T00:11:34.597536229Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/earh"
   },
   {
     "Name": "edgevpn",
     "Size": "32.93 MB",
-    "ModTime": "2024-02-09T00:31:14.979918250Z",
+    "ModTime": "2024-02-11T00:11:54.253572641Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/edgevpn"
   },
   {
     "Name": "eefjsf",
     "Size": "4.56 MB",
-    "ModTime": "2024-02-09T00:31:17.195937133Z",
+    "ModTime": "2024-02-11T00:11:56.437576793Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eefjsf"
   },
   {
     "Name": "eget",
     "Size": "6.33 MB",
-    "ModTime": "2024-02-09T00:31:16.063927501Z",
+    "ModTime": "2024-02-11T00:11:55.341574709Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eget"
   },
   {
     "Name": "ein",
-    "Size": "11.24 MB",
-    "ModTime": "2024-02-09T00:31:06.443845900Z",
+    "Size": "13.81 MB",
+    "ModTime": "2024-02-11T00:11:46.101557263Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ein"
   },
   {
     "Name": "elfcat",
-    "Size": "583.87 kB",
-    "ModTime": "2024-02-09T00:30:57.843773398Z",
+    "Size": "616.31 kB",
+    "ModTime": "2024-02-11T00:11:37.733541787Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/elfcat"
   },
   {
     "Name": "enc",
     "Size": "9.23 MB",
-    "ModTime": "2024-02-09T00:31:16.515931358Z",
+    "ModTime": "2024-02-11T00:11:55.789575561Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/enc"
   },
   {
     "Name": "encode",
     "Size": "2.43 MB",
-    "ModTime": "2024-02-09T00:30:58.635780188Z",
+    "ModTime": "2024-02-11T00:11:38.513543222Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/encode"
   },
   {
     "Name": "enola",
     "Size": "8.05 MB",
-    "ModTime": "2024-02-09T00:30:51.635720196Z",
+    "ModTime": "2024-02-11T00:11:31.465530680Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/enola"
   },
   {
     "Name": "enumerepo",
     "Size": "4.8 MB",
-    "ModTime": "2024-02-09T00:30:54.643745965Z",
+    "ModTime": "2024-02-11T00:11:34.841536662Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/enumerepo"
   },
   {
     "Name": "etcd",
     "Size": "23.54 MB",
-    "ModTime": "2024-02-09T00:31:07.519854879Z",
+    "ModTime": "2024-02-11T00:11:47.097559141Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/etcd"
   },
   {
     "Name": "etcdctl",
     "Size": "17.74 MB",
-    "ModTime": "2024-02-09T00:30:54.699746445Z",
+    "ModTime": "2024-02-11T00:11:34.901536767Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/etcdctl"
   },
   {
     "Name": "etcdutl",
     "Size": "14.86 MB",
-    "ModTime": "2024-02-09T00:30:53.067732454Z",
+    "ModTime": "2024-02-11T00:11:33.025533444Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/etcdutl"
   },
   {
@@ -1010,19 +1016,19 @@
   {
     "Name": "exiflooter",
     "Size": "7.03 MB",
-    "ModTime": "2024-02-09T00:31:01.387803707Z",
+    "ModTime": "2024-02-11T00:11:41.225548237Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/exiflooter"
   },
   {
     "Name": "eza",
     "Size": "2 MB",
-    "ModTime": "2024-02-09T00:30:53.091732661Z",
+    "ModTime": "2024-02-11T00:11:33.045533479Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/eza"
   },
   {
     "Name": "falconhound",
     "Size": "13.25 MB",
-    "ModTime": "2024-02-09T00:31:10.619881040Z",
+    "ModTime": "2024-02-11T00:11:50.041564692Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/falconhound"
   },
   {
@@ -1034,193 +1040,193 @@
   {
     "Name": "fasttld",
     "Size": "7.52 MB",
-    "ModTime": "2024-02-09T00:31:13.631906746Z",
+    "ModTime": "2024-02-11T00:11:52.905570093Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fasttld"
   },
   {
     "Name": "fblog",
-    "Size": "4.49 MB",
-    "ModTime": "2024-02-09T00:31:07.419854044Z",
+    "Size": "5.27 MB",
+    "ModTime": "2024-02-11T00:11:46.997558952Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fblog"
   },
   {
     "Name": "fclones",
     "Size": "4.89 MB",
-    "ModTime": "2024-02-09T00:30:53.451735747Z",
+    "ModTime": "2024-02-11T00:11:33.405534116Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fclones"
   },
   {
     "Name": "fd",
     "Size": "4.12 MB",
-    "ModTime": "2024-02-09T00:30:58.615780016Z",
+    "ModTime": "2024-02-11T00:11:38.493543184Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fd"
   },
   {
     "Name": "feroxbuster",
     "Size": "9.46 MB",
-    "ModTime": "2024-02-09T00:31:05.451837621Z",
+    "ModTime": "2024-02-11T00:11:45.145555484Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/feroxbuster"
   },
   {
     "Name": "ffmpeg",
     "Size": "78.68 MB",
-    "ModTime": "2024-02-09T00:31:04.375828642Z",
+    "ModTime": "2024-02-11T00:11:44.121553591Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ffmpeg"
   },
   {
     "Name": "ffprobe",
     "Size": "78.56 MB",
-    "ModTime": "2024-02-09T00:30:52.331726154Z",
+    "ModTime": "2024-02-11T00:11:32.221532018Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ffprobe"
   },
   {
     "Name": "ffuf",
     "Size": "8.15 MB",
-    "ModTime": "2024-02-09T00:30:48.887695315Z",
+    "ModTime": "2024-02-11T00:11:28.893526058Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ffuf"
   },
   {
     "Name": "ffufPostprocessing",
     "Size": "2.12 MB",
-    "ModTime": "2024-02-09T00:31:10.043876125Z",
+    "ModTime": "2024-02-11T00:11:49.497563666Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ffufPostprocessing"
   },
   {
     "Name": "ffufw",
     "Size": "13.18 MB",
-    "ModTime": "2024-02-09T00:30:54.747746857Z",
+    "ModTime": "2024-02-11T00:11:34.949536853Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ffufw"
   },
   {
     "Name": "fget",
     "Size": "4.94 MB",
-    "ModTime": "2024-02-09T00:31:06.651847635Z",
+    "ModTime": "2024-02-11T00:11:46.301557639Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fget"
   },
   {
     "Name": "filebrowser",
     "Size": "15.16 MB",
-    "ModTime": "2024-02-09T00:30:59.583788314Z",
+    "ModTime": "2024-02-11T00:11:39.509545063Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/filebrowser"
   },
   {
     "Name": "find-rs",
-    "Size": "3.14 MB",
-    "ModTime": "2024-02-09T00:30:55.859756390Z",
+    "Size": "3.43 MB",
+    "ModTime": "2024-02-11T00:11:35.953538633Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/find-rs"
   },
   {
     "Name": "findomain",
     "Size": "17.18 MB",
-    "ModTime": "2024-02-09T00:31:03.883824536Z",
+    "ModTime": "2024-02-11T00:11:43.645552710Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/findomain"
   },
   {
     "Name": "fingerprintx",
     "Size": "7.76 MB",
-    "ModTime": "2024-02-09T00:30:55.031749291Z",
+    "ModTime": "2024-02-11T00:11:35.253537392Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fingerprintx"
   },
   {
     "Name": "fnm",
     "Size": "7.34 MB",
-    "ModTime": "2024-02-09T00:30:57.303768769Z",
+    "ModTime": "2024-02-11T00:11:37.273540972Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fnm"
   },
   {
     "Name": "fq",
     "Size": "11.38 MB",
-    "ModTime": "2024-02-09T00:31:00.259794110Z",
+    "ModTime": "2024-02-11T00:11:40.193546327Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fq"
   },
   {
     "Name": "fscan",
     "Size": "6.27 MB",
-    "ModTime": "2024-02-08T23:19:21.789532363Z",
+    "ModTime": "2024-02-10T23:21:13.954915043Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fscan"
   },
   {
     "Name": "fuse-overlayfs",
     "Size": "1.37 MB",
-    "ModTime": "2024-02-09T00:30:53.639737358Z",
+    "ModTime": "2024-02-11T00:11:33.625534507Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fuse-overlayfs"
   },
   {
     "Name": "fuzzuli",
     "Size": "6.72 MB",
-    "ModTime": "2024-02-09T00:30:51.755721223Z",
+    "ModTime": "2024-02-11T00:11:31.581530885Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fuzzuli"
   },
   {
     "Name": "fwanalyzer",
     "Size": "2.68 MB",
-    "ModTime": "2024-02-09T00:31:11.655889881Z",
+    "ModTime": "2024-02-11T00:11:51.037566570Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fwanalyzer"
   },
   {
     "Name": "fx",
     "Size": "3.35 MB",
-    "ModTime": "2024-02-09T00:31:08.163860253Z",
+    "ModTime": "2024-02-11T00:11:47.589560068Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fx"
   },
   {
     "Name": "fzf",
     "Size": "3.53 MB",
-    "ModTime": "2024-02-09T00:30:52.043723688Z",
+    "ModTime": "2024-02-11T00:11:31.925531494Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fzf"
   },
   {
     "Name": "gau",
     "Size": "8.24 MB",
-    "ModTime": "2024-02-09T00:30:53.919739759Z",
+    "ModTime": "2024-02-11T00:11:34.145535428Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gau"
   },
   {
     "Name": "gdu",
     "Size": "9.99 MB",
-    "ModTime": "2024-02-09T00:31:08.799865561Z",
+    "ModTime": "2024-02-11T00:11:48.201561222Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gdu"
   },
   {
     "Name": "genscope",
     "Size": "1.57 MB",
-    "ModTime": "2024-02-09T00:31:10.247877866Z",
+    "ModTime": "2024-02-11T00:11:49.709564067Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/genscope"
   },
   {
     "Name": "getJS",
     "Size": "5.54 MB",
-    "ModTime": "2024-02-09T00:31:01.439804141Z",
+    "ModTime": "2024-02-11T00:11:41.245548273Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/getJS"
   },
   {
     "Name": "getghrel",
     "Size": "8.62 MB",
-    "ModTime": "2024-02-09T00:31:08.207860620Z",
+    "ModTime": "2024-02-11T00:11:47.633560151Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/getghrel"
   },
   {
     "Name": "gf",
     "Size": "2.05 MB",
-    "ModTime": "2024-02-09T00:31:00.591796955Z",
+    "ModTime": "2024-02-11T00:11:40.505546904Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gf"
   },
   {
     "Name": "gfx",
     "Size": "5.24 MB",
-    "ModTime": "2024-02-09T00:31:07.071851140Z",
+    "ModTime": "2024-02-11T00:11:46.625558251Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gfx"
   },
   {
     "Name": "gh",
     "Size": "43.46 MB",
-    "ModTime": "2024-02-09T00:30:59.971791640Z",
+    "ModTime": "2024-02-11T00:11:39.889545766Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gh"
   },
   {
     "Name": "gh-dash",
     "Size": "20.97 MB",
-    "ModTime": "2024-02-09T00:31:14.435913608Z",
+    "ModTime": "2024-02-11T00:11:53.689571572Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gh-dash"
   },
   {
@@ -1232,169 +1238,169 @@
   {
     "Name": "git-checkout",
     "Size": "7.33 MB",
-    "ModTime": "2024-02-09T00:31:10.115876739Z",
+    "ModTime": "2024-02-11T00:11:49.585563832Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-checkout"
   },
   {
     "Name": "git-cliff",
     "Size": "9.97 MB",
-    "ModTime": "2024-02-09T00:31:05.167835252Z",
+    "ModTime": "2024-02-11T00:11:44.849554937Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-cliff"
   },
   {
     "Name": "git-clone",
     "Size": "7.33 MB",
-    "ModTime": "2024-02-09T00:31:02.947816725Z",
+    "ModTime": "2024-02-11T00:11:42.793551135Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-clone"
   },
   {
     "Name": "git-lfs",
     "Size": "11.37 MB",
-    "ModTime": "2024-02-09T00:31:01.859807646Z",
+    "ModTime": "2024-02-11T00:11:41.665549049Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-lfs"
   },
   {
     "Name": "git-log",
     "Size": "7.44 MB",
-    "ModTime": "2024-02-09T00:31:14.135911047Z",
+    "ModTime": "2024-02-11T00:11:53.413571051Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-log"
   },
   {
     "Name": "git-pull",
     "Size": "7.31 MB",
-    "ModTime": "2024-02-09T00:31:13.339904254Z",
+    "ModTime": "2024-02-11T00:11:52.605569528Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-pull"
   },
   {
     "Name": "git-sizer",
     "Size": "2.73 MB",
-    "ModTime": "2024-02-09T00:30:58.647780291Z",
+    "ModTime": "2024-02-11T00:11:38.525543243Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-sizer"
   },
   {
     "Name": "git-tag",
     "Size": "5.34 MB",
-    "ModTime": "2024-02-09T00:31:13.147902615Z",
+    "ModTime": "2024-02-11T00:11:52.437569210Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-tag"
   },
   {
     "Name": "gitdorks_go",
     "Size": "5.53 MB",
-    "ModTime": "2024-02-09T00:31:10.263878002Z",
+    "ModTime": "2024-02-11T00:11:49.729564104Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gitdorks_go"
   },
   {
     "Name": "gitea",
     "Size": "103.74 MB",
-    "ModTime": "2024-02-09T00:31:15.755924872Z",
+    "ModTime": "2024-02-11T00:11:55.009574078Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gitea"
   },
   {
     "Name": "github-endpoints",
     "Size": "5.47 MB",
-    "ModTime": "2024-02-09T00:31:02.711814756Z",
+    "ModTime": "2024-02-11T00:11:42.537550662Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/github-endpoints"
   },
   {
     "Name": "github-regexp",
     "Size": "5.39 MB",
-    "ModTime": "2024-02-09T00:30:52.991731804Z",
+    "ModTime": "2024-02-11T00:11:32.941533295Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/github-regexp"
   },
   {
     "Name": "github-subdomains",
     "Size": "5.47 MB",
-    "ModTime": "2024-02-09T00:31:02.635814121Z",
+    "ModTime": "2024-02-11T00:11:42.465550529Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/github-subdomains"
   },
   {
     "Name": "gitlab-subdomains",
     "Size": "5.46 MB",
-    "ModTime": "2024-02-09T00:31:14.539914495Z",
+    "ModTime": "2024-02-11T00:11:53.789571760Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gitlab-subdomains"
   },
   {
     "Name": "gitleaks",
     "Size": "6.91 MB",
-    "ModTime": "2024-02-09T00:30:50.455710052Z",
+    "ModTime": "2024-02-11T00:11:30.317528645Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gitleaks"
   },
   {
     "Name": "gitql",
     "Size": "10.31 MB",
-    "ModTime": "2024-02-09T00:30:55.803755910Z",
+    "ModTime": "2024-02-11T00:11:35.921538576Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gitql"
   },
   {
     "Name": "gitui",
     "Size": "10.51 MB",
-    "ModTime": "2024-02-09T00:30:51.367717901Z",
+    "ModTime": "2024-02-11T00:11:31.193530197Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gitui"
   },
   {
     "Name": "gix",
-    "Size": "15.66 MB",
-    "ModTime": "2024-02-09T00:30:54.967748743Z",
+    "Size": "21.15 MB",
+    "ModTime": "2024-02-11T00:11:35.181537265Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gix"
   },
   {
     "Name": "glow",
     "Size": "18.21 MB",
-    "ModTime": "2024-02-09T00:30:50.535710778Z",
+    "ModTime": "2024-02-11T00:11:30.405528801Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/glow"
   },
   {
     "Name": "go-simplehttpserver",
     "Size": "6.39 MB",
-    "ModTime": "2024-02-09T00:30:54.067741028Z",
+    "ModTime": "2024-02-11T00:11:34.293535690Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/go-simplehttpserver"
   },
   {
     "Name": "goawk",
     "Size": "2.81 MB",
-    "ModTime": "2024-02-09T00:31:08.819865727Z",
+    "ModTime": "2024-02-11T00:11:48.245561306Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/goawk"
   },
   {
     "Name": "gobuster",
     "Size": "8.08 MB",
-    "ModTime": "2024-02-09T00:31:05.507838089Z",
+    "ModTime": "2024-02-11T00:11:45.181555551Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gobuster"
   },
   {
     "Name": "gocurl",
     "Size": "9.08 MB",
-    "ModTime": "2024-02-09T00:31:14.095910705Z",
+    "ModTime": "2024-02-11T00:11:53.369570968Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gocurl"
   },
   {
     "Name": "godns",
     "Size": "11.64 MB",
-    "ModTime": "2024-02-09T00:30:50.871713655Z",
+    "ModTime": "2024-02-11T00:11:30.669529269Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/godns"
   },
   {
     "Name": "godnsbench",
     "Size": "7.56 MB",
-    "ModTime": "2024-02-09T00:31:01.015800590Z",
+    "ModTime": "2024-02-11T00:11:40.909547652Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/godnsbench"
   },
   {
     "Name": "gofireprox",
     "Size": "7.25 MB",
-    "ModTime": "2024-02-09T00:31:00.423795515Z",
+    "ModTime": "2024-02-11T00:11:40.353546624Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gofireprox"
   },
   {
     "Name": "gojq",
     "Size": "4.06 MB",
-    "ModTime": "2024-02-09T00:30:50.807713107Z",
+    "ModTime": "2024-02-11T00:11:30.609529163Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gojq"
   },
   {
     "Name": "goop",
     "Size": "10.12 MB",
-    "ModTime": "2024-02-09T00:31:10.091876534Z",
+    "ModTime": "2024-02-11T00:11:49.541563749Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/goop"
   },
   {
@@ -1406,25 +1412,25 @@
   {
     "Name": "gosec",
     "Size": "7.96 MB",
-    "ModTime": "2024-02-09T00:31:09.651872779Z",
+    "ModTime": "2024-02-11T00:11:49.093562905Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gosec"
   },
   {
     "Name": "gost",
     "Size": "13.58 MB",
-    "ModTime": "2024-02-09T00:31:14.719916031Z",
+    "ModTime": "2024-02-11T00:11:53.985572132Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gost"
   },
   {
     "Name": "gosu",
     "Size": "2.18 MB",
-    "ModTime": "2024-02-09T00:31:13.883908897Z",
+    "ModTime": "2024-02-11T00:11:53.149570553Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gosu"
   },
   {
     "Name": "gotator",
     "Size": "1.86 MB",
-    "ModTime": "2024-02-09T00:31:01.271802739Z",
+    "ModTime": "2024-02-11T00:11:41.113548028Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gotator"
   },
   {
@@ -1436,61 +1442,61 @@
   {
     "Name": "gotty",
     "Size": "10.32 MB",
-    "ModTime": "2024-02-09T00:31:05.215835652Z",
+    "ModTime": "2024-02-11T00:11:44.893555018Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gotty"
   },
   {
     "Name": "gowitness",
     "Size": "24.63 MB",
-    "ModTime": "2024-02-09T00:31:13.247903469Z",
+    "ModTime": "2024-02-11T00:11:52.521569368Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gowitness"
   },
   {
     "Name": "gpg-tui",
-    "Size": "4.09 MB",
-    "ModTime": "2024-02-09T00:30:48.571692345Z",
+    "Size": "4.64 MB",
+    "ModTime": "2024-02-11T00:11:28.589525499Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gpg-tui"
   },
   {
     "Name": "gping",
     "Size": "3.04 MB",
-    "ModTime": "2024-02-09T00:31:05.043834217Z",
+    "ModTime": "2024-02-11T00:11:44.753554760Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gping"
   },
   {
     "Name": "gron",
     "Size": "5.45 MB",
-    "ModTime": "2024-02-09T00:31:10.735882030Z",
+    "ModTime": "2024-02-11T00:11:50.153564904Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gron"
   },
   {
     "Name": "grpcurl",
     "Size": "24.95 MB",
-    "ModTime": "2024-02-09T00:30:57.255768358Z",
+    "ModTime": "2024-02-11T00:11:37.225540887Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/grpcurl"
   },
   {
     "Name": "gs-netcat",
     "Size": "2.85 MB",
-    "ModTime": "2024-02-09T00:31:06.071842795Z",
+    "ModTime": "2024-02-11T00:11:45.757556616Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gs-netcat"
   },
   {
     "Name": "gsocket",
     "Size": "5381 B",
-    "ModTime": "2024-02-08T23:29:31.034814683Z",
+    "ModTime": "2024-02-10T23:30:52.923353021Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gsocket"
   },
   {
     "Name": "gum",
     "Size": "25.48 MB",
-    "ModTime": "2024-02-09T00:31:08.059859385Z",
+    "ModTime": "2024-02-11T00:11:47.493559888Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gum"
   },
   {
     "Name": "gup",
     "Size": "5.08 MB",
-    "ModTime": "2024-02-09T00:31:17.339938325Z",
+    "ModTime": "2024-02-11T00:11:56.565577036Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gup"
   },
   {
@@ -1502,25 +1508,25 @@
   {
     "Name": "hacker-scoper",
     "Size": "5.53 MB",
-    "ModTime": "2024-02-09T00:31:13.595906439Z",
+    "ModTime": "2024-02-11T00:11:52.865570018Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hacker-scoper"
   },
   {
     "Name": "hakip2host",
     "Size": "4.88 MB",
-    "ModTime": "2024-02-09T00:30:55.147750286Z",
+    "ModTime": "2024-02-11T00:11:35.373537605Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hakip2host"
   },
   {
     "Name": "hakoriginfinder",
     "Size": "4.87 MB",
-    "ModTime": "2024-02-09T00:31:06.351845132Z",
+    "ModTime": "2024-02-11T00:11:46.005557082Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hakoriginfinder"
   },
   {
     "Name": "hakrawler",
     "Size": "11.21 MB",
-    "ModTime": "2024-02-09T00:31:00.027792121Z",
+    "ModTime": "2024-02-11T00:11:39.957545891Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hakrawler"
   },
   {
@@ -1532,37 +1538,43 @@
   {
     "Name": "halp",
     "Size": "2.7 MB",
-    "ModTime": "2024-02-09T00:31:13.411904868Z",
+    "ModTime": "2024-02-11T00:11:52.677569663Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/halp"
+  },
+  {
+    "Name": "hardeningmeter_staticx",
+    "Size": "7.29 MB",
+    "ModTime": "2024-02-10T07:37:29.247170900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hardeningmeter_staticx"
   },
   {
     "Name": "heacoll",
     "Size": "4.37 MB",
-    "ModTime": "2024-02-09T00:31:00.931799870Z",
+    "ModTime": "2024-02-11T00:11:40.829547504Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/heacoll"
   },
   {
     "Name": "hednsextractor",
     "Size": "15.26 MB",
-    "ModTime": "2024-02-09T00:30:53.967740171Z",
+    "ModTime": "2024-02-11T00:11:34.189535507Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hednsextractor"
   },
   {
     "Name": "hexyl",
     "Size": "968.86 kB",
-    "ModTime": "2024-02-09T00:31:14.111910842Z",
+    "ModTime": "2024-02-11T00:11:53.389571006Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hexyl"
   },
   {
     "Name": "horust",
     "Size": "5.55 MB",
-    "ModTime": "2024-02-09T00:31:15.943926477Z",
+    "ModTime": "2024-02-11T00:11:55.229574496Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/horust"
   },
   {
     "Name": "hostctl",
     "Size": "8.72 MB",
-    "ModTime": "2024-02-09T00:31:13.439905107Z",
+    "ModTime": "2024-02-11T00:11:52.709569724Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hostctl"
   },
   {
@@ -1580,109 +1592,109 @@
   {
     "Name": "httprobe",
     "Size": "4.87 MB",
-    "ModTime": "2024-02-09T00:30:48.099687909Z",
+    "ModTime": "2024-02-11T00:11:28.125524646Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/httprobe"
   },
   {
     "Name": "httpx",
     "Size": "39.29 MB",
-    "ModTime": "2024-02-09T00:30:48.699693547Z",
+    "ModTime": "2024-02-11T00:11:28.713525728Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/httpx"
   },
   {
     "Name": "hub",
     "Size": "6.61 MB",
-    "ModTime": "2024-02-09T00:31:16.459930880Z",
+    "ModTime": "2024-02-11T00:11:55.729575446Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hub"
   },
   {
     "Name": "hugo",
     "Size": "86.97 MB",
-    "ModTime": "2024-02-09T00:30:48.483691518Z",
+    "ModTime": "2024-02-11T00:11:28.501525337Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hugo"
   },
   {
     "Name": "hx",
-    "Size": "792.77 kB",
-    "ModTime": "2024-02-09T00:31:15.031918694Z",
+    "Size": "925.88 kB",
+    "ModTime": "2024-02-11T00:11:54.305572740Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hx"
   },
   {
     "Name": "hxn",
     "Size": "9.34 MB",
-    "ModTime": "2024-02-09T00:30:47.831685390Z",
+    "ModTime": "2024-02-11T00:11:27.893524219Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hxn"
   },
   {
     "Name": "hyperfine",
     "Size": "1.44 MB",
-    "ModTime": "2024-02-09T00:31:10.311878411Z",
+    "ModTime": "2024-02-11T00:11:49.777564195Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hyperfine"
   },
   {
     "Name": "hysp",
-    "Size": "4 MB",
-    "ModTime": "2024-02-09T00:31:14.563914700Z",
+    "Size": "5.18 MB",
+    "ModTime": "2024-02-11T00:11:53.821571820Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hysp"
   },
   {
     "Name": "inscope",
     "Size": "1.73 MB",
-    "ModTime": "2024-02-09T00:30:48.239689224Z",
+    "ModTime": "2024-02-11T00:11:28.277524925Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/inscope"
   },
   {
     "Name": "interactsh-client",
     "Size": "26.44 MB",
-    "ModTime": "2024-02-09T00:31:00.171793355Z",
+    "ModTime": "2024-02-11T00:11:40.085546128Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/interactsh-client"
   },
   {
     "Name": "interactsh-server",
     "Size": "23.94 MB",
-    "ModTime": "2024-02-09T00:31:16.731933202Z",
+    "ModTime": "2024-02-11T00:11:55.949575864Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/interactsh-server"
   },
   {
     "Name": "invidtui",
-    "Size": "9.46 MB",
-    "ModTime": "2024-02-09T00:31:15.867925828Z",
+    "Size": "9.47 MB",
+    "ModTime": "2024-02-11T00:11:55.153574352Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/invidtui"
   },
   {
     "Name": "iperf3",
     "Size": "3.78 MB",
-    "ModTime": "2024-02-09T00:31:16.403930403Z",
+    "ModTime": "2024-02-11T00:11:55.649575294Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/iperf3"
   },
   {
     "Name": "ipt2socks",
     "Size": "128.77 kB",
-    "ModTime": "2024-02-09T00:30:59.443787114Z",
+    "ModTime": "2024-02-11T00:11:39.365544797Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ipt2socks"
   },
   {
     "Name": "istioctl",
-    "Size": "85.97 MB",
-    "ModTime": "2024-02-09T00:31:08.643864259Z",
+    "Size": "85.98 MB",
+    "ModTime": "2024-02-11T00:11:48.069560974Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/istioctl"
   },
   {
     "Name": "jaeles",
     "Size": "24.8 MB",
-    "ModTime": "2024-02-09T00:31:03.119818161Z",
+    "ModTime": "2024-02-11T00:11:42.973551468Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jaeles"
   },
   {
     "Name": "jaq",
     "Size": "1.79 MB",
-    "ModTime": "2024-02-08T23:40:37.264986480Z",
+    "ModTime": "2024-02-10T23:37:45.807778136Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jaq"
   },
   {
     "Name": "jc",
     "Size": "51.33 MB",
-    "ModTime": "2024-02-09T00:31:16.343929890Z",
+    "ModTime": "2024-02-11T00:11:55.589575180Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jc"
   },
   {
@@ -1700,13 +1712,13 @@
   {
     "Name": "jira-cli",
     "Size": "21.92 MB",
-    "ModTime": "2024-02-09T00:31:13.515905756Z",
+    "ModTime": "2024-02-11T00:11:52.785569867Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jira-cli"
   },
   {
     "Name": "jj",
     "Size": "20.15 MB",
-    "ModTime": "2024-02-09T00:31:07.199852208Z",
+    "ModTime": "2024-02-11T00:11:46.757558499Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jj"
   },
   {
@@ -1724,43 +1736,43 @@
   {
     "Name": "jq",
     "Size": "2.32 MB",
-    "ModTime": "2024-02-09T00:31:02.095809615Z",
+    "ModTime": "2024-02-11T00:11:41.905549493Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jq"
   },
   {
     "Name": "jql",
     "Size": "1.06 MB",
-    "ModTime": "2024-02-09T00:30:59.211785125Z",
+    "ModTime": "2024-02-11T00:11:39.133544368Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jql"
   },
   {
     "Name": "jqp",
     "Size": "11.64 MB",
-    "ModTime": "2024-02-09T00:30:51.579719716Z",
+    "ModTime": "2024-02-11T00:11:31.409530580Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jqp"
   },
   {
     "Name": "just",
     "Size": "3.71 MB",
-    "ModTime": "2024-02-09T00:30:50.239708021Z",
+    "ModTime": "2024-02-11T00:11:30.129528312Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/just"
   },
   {
     "Name": "jwt-hack",
     "Size": "4.5 MB",
-    "ModTime": "2024-02-09T00:30:47.883685879Z",
+    "ModTime": "2024-02-11T00:11:27.933524292Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jwt-hack"
   },
   {
     "Name": "k9s",
     "Size": "95.16 MB",
-    "ModTime": "2024-02-09T00:30:49.855704412Z",
+    "ModTime": "2024-02-11T00:11:29.793527713Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/k9s"
   },
   {
     "Name": "kadeessh",
     "Size": "40.73 MB",
-    "ModTime": "2024-02-09T00:31:07.367853610Z",
+    "ModTime": "2024-02-11T00:11:46.909558786Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/kadeessh"
   },
   {
@@ -1772,13 +1784,13 @@
   {
     "Name": "kanha",
     "Size": "4.03 MB",
-    "ModTime": "2024-02-09T00:30:59.727789549Z",
+    "ModTime": "2024-02-11T00:11:39.641545307Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/kanha"
   },
   {
     "Name": "katana",
     "Size": "36.44 MB",
-    "ModTime": "2024-02-09T00:30:52.755729784Z",
+    "ModTime": "2024-02-11T00:11:32.661532798Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/katana"
   },
   {
@@ -1790,37 +1802,37 @@
   {
     "Name": "killport",
     "Size": "1.16 MB",
-    "ModTime": "2024-02-09T00:30:55.843756253Z",
+    "ModTime": "2024-02-11T00:11:35.937538604Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/killport"
   },
   {
     "Name": "kmon",
     "Size": "1.44 MB",
-    "ModTime": "2024-02-09T00:31:07.111851474Z",
+    "ModTime": "2024-02-11T00:11:46.681558356Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/kmon"
   },
   {
     "Name": "knoxssme",
     "Size": "4.56 MB",
-    "ModTime": "2024-02-09T00:30:47.955686555Z",
+    "ModTime": "2024-02-11T00:11:28.005524424Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/knoxssme"
   },
   {
     "Name": "kondo",
     "Size": "2.52 MB",
-    "ModTime": "2024-02-09T00:31:02.051809248Z",
+    "ModTime": "2024-02-11T00:11:41.861549412Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/kondo"
   },
   {
     "Name": "kopia",
     "Size": "37.03 MB",
-    "ModTime": "2024-02-09T00:30:54.339743359Z",
+    "ModTime": "2024-02-11T00:11:34.577536194Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/kopia"
   },
   {
     "Name": "ksubdomain",
     "Size": "9.37 MB",
-    "ModTime": "2024-02-09T00:31:04.611830612Z",
+    "ModTime": "2024-02-11T00:11:44.341553998Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ksubdomain"
   },
   {
@@ -1832,25 +1844,25 @@
   {
     "Name": "kubemetrics",
     "Size": "4.57 MB",
-    "ModTime": "2024-02-09T00:30:53.559736672Z",
+    "ModTime": "2024-02-11T00:11:33.553534379Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/kubemetrics"
   },
   {
     "Name": "ladder",
     "Size": "8.43 MB",
-    "ModTime": "2024-02-09T00:31:17.307938060Z",
+    "ModTime": "2024-02-11T00:11:56.537576982Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ladder"
   },
   {
     "Name": "lazydocker",
     "Size": "11.56 MB",
-    "ModTime": "2024-02-09T00:30:51.799721600Z",
+    "ModTime": "2024-02-11T00:11:31.625530963Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/lazydocker"
   },
   {
     "Name": "lazygit",
     "Size": "16.29 MB",
-    "ModTime": "2024-02-09T00:31:01.323803173Z",
+    "ModTime": "2024-02-11T00:11:41.165548125Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/lazygit"
   },
   {
@@ -1862,31 +1874,31 @@
   {
     "Name": "lf",
     "Size": "3.53 MB",
-    "ModTime": "2024-02-09T00:31:05.835840826Z",
+    "ModTime": "2024-02-11T00:11:45.513556166Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/lf"
   },
   {
     "Name": "linuxwave",
     "Size": "196.33 kB",
-    "ModTime": "2024-02-09T00:31:05.799840525Z",
+    "ModTime": "2024-02-11T00:11:45.473556091Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/linuxwave"
   },
   {
     "Name": "listmonk",
     "Size": "15.16 MB",
-    "ModTime": "2024-02-09T00:30:54.039740787Z",
+    "ModTime": "2024-02-11T00:11:34.269535648Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/listmonk"
   },
   {
     "Name": "lnav",
     "Size": "15.01 MB",
-    "ModTime": "2024-02-09T00:31:10.531880289Z",
+    "ModTime": "2024-02-11T00:11:49.961564541Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/lnav"
   },
   {
     "Name": "logcli",
     "Size": "59.05 MB",
-    "ModTime": "2024-02-09T00:31:09.979875578Z",
+    "ModTime": "2024-02-11T00:11:49.409563501Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/logcli"
   },
   {
@@ -1898,37 +1910,37 @@
   {
     "Name": "loki",
     "Size": "66.64 MB",
-    "ModTime": "2024-02-09T00:30:53.347734855Z",
+    "ModTime": "2024-02-11T00:11:33.329533982Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/loki"
   },
   {
     "Name": "loki-canary",
     "Size": "28.96 MB",
-    "ModTime": "2024-02-09T00:31:03.559821832Z",
+    "ModTime": "2024-02-11T00:11:43.425552304Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/loki-canary"
   },
   {
     "Name": "lsd",
     "Size": "3.4 MB",
-    "ModTime": "2024-02-09T00:30:50.563711018Z",
+    "ModTime": "2024-02-11T00:11:30.437528858Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/lsd"
   },
   {
     "Name": "luet",
     "Size": "19.55 MB",
-    "ModTime": "2024-02-09T00:31:03.443820864Z",
+    "ModTime": "2024-02-11T00:11:43.301552074Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/luet"
   },
   {
     "Name": "lux",
     "Size": "17.87 MB",
-    "ModTime": "2024-02-09T00:31:07.919858217Z",
+    "ModTime": "2024-02-11T00:11:47.313559548Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/lux"
   },
   {
     "Name": "mabel",
     "Size": "13.04 MB",
-    "ModTime": "2024-02-09T00:30:48.179688661Z",
+    "ModTime": "2024-02-11T00:11:28.225524829Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mabel"
   },
   {
@@ -1945,14 +1957,14 @@
   },
   {
     "Name": "mailpit",
-    "Size": "18.82 MB",
-    "ModTime": "2024-02-09T00:31:02.915816458Z",
+    "Size": "19.12 MB",
+    "ModTime": "2024-02-11T00:11:42.745551046Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mailpit"
   },
   {
     "Name": "mani",
     "Size": "5 MB",
-    "ModTime": "2024-02-09T00:31:00.783798601Z",
+    "ModTime": "2024-02-11T00:11:40.689547245Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mani"
   },
   {
@@ -1964,127 +1976,127 @@
   {
     "Name": "mapcidr",
     "Size": "21.89 MB",
-    "ModTime": "2024-02-09T00:30:51.503719065Z",
+    "ModTime": "2024-02-11T00:11:31.325530431Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mapcidr"
   },
   {
     "Name": "massdns",
     "Size": "949.28 kB",
-    "ModTime": "2024-02-09T00:30:47.987686856Z",
+    "ModTime": "2024-02-11T00:11:28.013524439Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/massdns"
   },
   {
     "Name": "matterbridge",
     "Size": "50.49 MB",
-    "ModTime": "2024-02-09T00:30:52.579728277Z",
+    "ModTime": "2024-02-11T00:11:32.465532450Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/matterbridge"
   },
   {
     "Name": "mcfly",
     "Size": "4.49 MB",
-    "ModTime": "2024-02-09T00:31:05.819840693Z",
+    "ModTime": "2024-02-11T00:11:45.493556128Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mcfly"
   },
   {
     "Name": "mdcat",
     "Size": "12.63 MB",
-    "ModTime": "2024-02-09T00:30:56.911765408Z",
+    "ModTime": "2024-02-11T00:11:36.957540412Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mdcat"
   },
   {
     "Name": "mdsh",
-    "Size": "2.06 MB",
-    "ModTime": "2024-02-09T00:31:02.651814255Z",
+    "Size": "2.45 MB",
+    "ModTime": "2024-02-11T00:11:42.477550551Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mdsh"
   },
   {
     "Name": "melange",
-    "Size": "54.09 MB",
-    "ModTime": "2024-02-09T00:31:01.635805777Z",
+    "Size": "54.15 MB",
+    "ModTime": "2024-02-11T00:11:41.441548635Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/melange"
   },
   {
     "Name": "mergerfs",
     "Size": "1.93 MB",
-    "ModTime": "2024-02-09T00:30:53.991740376Z",
+    "ModTime": "2024-02-11T00:11:34.217535556Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mergerfs"
   },
   {
     "Name": "mgwls",
     "Size": "1.3 MB",
-    "ModTime": "2024-02-09T00:31:05.791840459Z",
+    "ModTime": "2024-02-11T00:11:45.465556077Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mgwls"
   },
   {
     "Name": "micro",
     "Size": "11.81 MB",
-    "ModTime": "2024-02-09T00:31:16.031927228Z",
+    "ModTime": "2024-02-11T00:11:55.313574656Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/micro"
   },
   {
     "Name": "miniflux",
     "Size": "18.92 MB",
-    "ModTime": "2024-02-09T00:31:15.291920913Z",
+    "ModTime": "2024-02-11T00:11:54.561573227Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/miniflux"
   },
   {
     "Name": "miniserve",
     "Size": "1.61 MB",
-    "ModTime": "2024-02-08T23:51:37.082914261Z",
+    "ModTime": "2024-02-10T23:42:46.476096825Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/miniserve"
   },
   {
     "Name": "minisign",
     "Size": "239.5 kB",
-    "ModTime": "2024-02-09T00:30:48.775694262Z",
+    "ModTime": "2024-02-11T00:11:28.785525859Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/minisign"
   },
   {
     "Name": "mkbundle",
     "Size": "4.68 MB",
-    "ModTime": "2024-02-09T00:30:59.183784885Z",
+    "ModTime": "2024-02-11T00:11:39.093544293Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mkbundle"
   },
   {
     "Name": "mksub",
     "Size": "1.53 MB",
-    "ModTime": "2024-02-09T00:31:16.435930675Z",
+    "ModTime": "2024-02-11T00:11:55.705575401Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mksub"
   },
   {
     "Name": "mlr",
     "Size": "33.9 MB",
-    "ModTime": "2024-02-09T00:31:12.811899748Z",
+    "ModTime": "2024-02-11T00:11:52.141568653Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mlr"
   },
   {
     "Name": "mmv",
     "Size": "1.66 MB",
-    "ModTime": "2024-02-09T00:31:17.347938391Z",
+    "ModTime": "2024-02-11T00:11:56.589577081Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mmv"
   },
   {
     "Name": "mqttui",
-    "Size": "3.05 MB",
-    "ModTime": "2024-02-09T00:31:17.427939052Z",
+    "Size": "3.84 MB",
+    "ModTime": "2024-02-11T00:11:56.657577211Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mqttui"
   },
   {
     "Name": "mubeng",
     "Size": "9.52 MB",
-    "ModTime": "2024-02-09T00:31:08.871866161Z",
+    "ModTime": "2024-02-11T00:11:48.281561374Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mubeng"
   },
   {
     "Name": "multirootca",
     "Size": "12.29 MB",
-    "ModTime": "2024-02-09T00:31:07.051850973Z",
+    "ModTime": "2024-02-11T00:11:46.601558205Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/multirootca"
   },
   {
     "Name": "naabu",
     "Size": "30.54 MB",
-    "ModTime": "2024-02-09T00:31:05.931841627Z",
+    "ModTime": "2024-02-11T00:11:45.613556351Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/naabu"
   },
   {
@@ -2096,265 +2108,265 @@
   {
     "Name": "navi",
     "Size": "3.49 MB",
-    "ModTime": "2024-02-09T00:31:10.363878856Z",
+    "ModTime": "2024-02-11T00:11:49.797564232Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/navi"
   },
   {
     "Name": "ncat",
     "Size": "3.27 MB",
-    "ModTime": "2024-02-09T00:31:00.219793767Z",
+    "ModTime": "2024-02-11T00:11:40.149546246Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ncat"
   },
   {
     "Name": "ncdu",
     "Size": "610.79 kB",
-    "ModTime": "2024-02-09T00:30:54.375743668Z",
+    "ModTime": "2024-02-11T00:11:34.609536251Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ncdu"
   },
   {
     "Name": "neofetch",
     "Size": "548 kB",
-    "ModTime": "2024-02-08T23:52:50.687664871Z",
+    "ModTime": "2024-02-10T23:44:11.980172685Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/neofetch"
   },
   {
     "Name": "nerdctl",
     "Size": "25 MB",
-    "ModTime": "2024-02-09T00:31:03.247819229Z",
+    "ModTime": "2024-02-11T00:11:43.105551712Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nerdctl"
   },
   {
     "Name": "netbird",
     "Size": "28.7 MB",
-    "ModTime": "2024-02-09T00:31:06.787848770Z",
+    "ModTime": "2024-02-11T00:11:46.401557828Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/netbird"
   },
   {
     "Name": "netmaker",
     "Size": "15.08 MB",
-    "ModTime": "2024-02-09T00:30:51.983723175Z",
+    "ModTime": "2024-02-11T00:11:31.865531388Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/netmaker"
   },
   {
     "Name": "nginx",
     "Size": "6.12 MB",
-    "ModTime": "2024-02-09T00:30:51.327717558Z",
+    "ModTime": "2024-02-11T00:11:31.153530127Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nginx"
   },
   {
     "Name": "ngocok",
     "Size": "10.03 MB",
-    "ModTime": "2024-02-09T00:30:52.967731598Z",
+    "ModTime": "2024-02-11T00:11:32.917533251Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ngocok"
   },
   {
     "Name": "ngrok",
     "Size": "24.87 MB",
-    "ModTime": "2024-02-09T00:30:51.715720881Z",
+    "ModTime": "2024-02-11T00:11:31.549530829Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ngrok"
   },
   {
     "Name": "niltalk",
     "Size": "13.68 MB",
-    "ModTime": "2024-02-09T00:30:47.931686330Z",
+    "ModTime": "2024-02-11T00:11:27.981524381Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/niltalk"
   },
   {
     "Name": "njs",
     "Size": "4.86 MB",
-    "ModTime": "2024-02-09T00:30:53.759738387Z",
+    "ModTime": "2024-02-11T00:11:33.989535152Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/njs"
   },
   {
     "Name": "nmap",
     "Size": "7.81 MB",
-    "ModTime": "2024-02-09T00:31:10.675881518Z",
+    "ModTime": "2024-02-11T00:11:50.097564798Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nmap"
   },
   {
     "Name": "nmap-formatter",
     "Size": "4.45 MB",
-    "ModTime": "2024-02-09T00:30:52.795730126Z",
+    "ModTime": "2024-02-11T00:11:32.701532869Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nmap-formatter"
   },
   {
     "Name": "nmctl",
     "Size": "11.87 MB",
-    "ModTime": "2024-02-09T00:30:56.195759270Z",
+    "ModTime": "2024-02-11T00:11:36.265539186Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nmctl"
   },
   {
     "Name": "nnn",
     "Size": "403.6 kB",
-    "ModTime": "2024-02-09T00:31:07.795857182Z",
+    "ModTime": "2024-02-11T00:11:47.205559344Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nnn"
   },
   {
     "Name": "noir",
     "Size": "8.76 MB",
-    "ModTime": "2024-02-09T00:31:07.967858617Z",
+    "ModTime": "2024-02-11T00:11:47.361559639Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/noir"
   },
   {
     "Name": "notify",
     "Size": "21.06 MB",
-    "ModTime": "2024-02-09T00:31:05.767840258Z",
+    "ModTime": "2024-02-11T00:11:45.441556032Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/notify"
   },
   {
     "Name": "nping",
     "Size": "3.38 MB",
-    "ModTime": "2024-02-09T00:30:49.495701029Z",
+    "ModTime": "2024-02-11T00:11:29.465527110Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nping"
   },
   {
     "Name": "nrich",
     "Size": "1.3 MB",
-    "ModTime": "2024-02-08T23:55:37.941277570Z",
+    "ModTime": "2024-02-10T23:46:56.228265257Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nrich"
   },
   {
     "Name": "nrp",
     "Size": "4.37 MB",
-    "ModTime": "2024-02-09T00:30:54.227742400Z",
+    "ModTime": "2024-02-11T00:11:34.457535981Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nrp"
   },
   {
     "Name": "nu",
     "Size": "62.56 MB",
-    "ModTime": "2024-02-09T00:30:56.595762700Z",
+    "ModTime": "2024-02-11T00:11:36.657539880Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nu"
   },
   {
     "Name": "nuclei",
     "Size": "72.85 MB",
-    "ModTime": "2024-02-09T00:30:56.127758687Z",
+    "ModTime": "2024-02-11T00:11:36.181539037Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nuclei"
   },
   {
     "Name": "nushell",
     "Size": "62.56 MB",
-    "ModTime": "2024-02-09T00:30:59.003783342Z",
+    "ModTime": "2024-02-11T00:11:38.865543872Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nushell"
   },
   {
     "Name": "oha",
     "Size": "2.98 MB",
-    "ModTime": "2024-02-08T23:55:43.329319210Z",
+    "ModTime": "2024-02-10T23:47:01.700268317Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/oha"
   },
   {
     "Name": "onetun",
-    "Size": "4.06 MB",
-    "ModTime": "2024-02-09T00:31:06.091842962Z",
+    "Size": "4.68 MB",
+    "ModTime": "2024-02-11T00:11:45.797556690Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/onetun"
   },
   {
     "Name": "openrisk",
     "Size": "8.9 MB",
-    "ModTime": "2024-02-09T00:30:53.139733072Z",
+    "ModTime": "2024-02-11T00:11:33.097533571Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/openrisk"
   },
   {
     "Name": "orbiton",
     "Size": "10.15 MB",
-    "ModTime": "2024-02-09T00:30:50.279708397Z",
+    "ModTime": "2024-02-11T00:11:30.165528376Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/orbiton"
   },
   {
     "Name": "osmedeus",
     "Size": "29.22 MB",
-    "ModTime": "2024-02-09T00:30:54.163741850Z",
+    "ModTime": "2024-02-11T00:11:34.393535868Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/osmedeus"
   },
   {
     "Name": "ouch",
     "Size": "4.63 MB",
-    "ModTime": "2024-02-09T00:31:14.467913880Z",
+    "ModTime": "2024-02-11T00:11:53.721571632Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ouch"
   },
   {
     "Name": "ov",
     "Size": "8.28 MB",
-    "ModTime": "2024-02-09T00:31:10.971884044Z",
+    "ModTime": "2024-02-11T00:11:50.401565371Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ov"
   },
   {
     "Name": "overmind",
     "Size": "4.1 MB",
-    "ModTime": "2024-02-09T00:30:53.691737804Z",
+    "ModTime": "2024-02-11T00:11:33.681534605Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/overmind"
   },
   {
     "Name": "passdetective",
     "Size": "3.58 MB",
-    "ModTime": "2024-02-09T00:31:05.663839391Z",
+    "ModTime": "2024-02-11T00:11:45.329555825Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/passdetective"
   },
   {
     "Name": "pathbuster",
     "Size": "6.03 MB",
-    "ModTime": "2024-02-09T00:31:06.391845466Z",
+    "ModTime": "2024-02-11T00:11:46.041557149Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pathbuster"
   },
   {
     "Name": "pdfcpu",
     "Size": "10.5 MB",
-    "ModTime": "2024-02-09T00:31:16.615932211Z",
+    "ModTime": "2024-02-11T00:11:55.849575674Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pdfcpu"
   },
   {
     "Name": "pfetch-rs",
     "Size": "4.13 MB",
-    "ModTime": "2024-02-09T00:30:54.587745486Z",
+    "ModTime": "2024-02-11T00:11:34.761536519Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pfetch-rs"
   },
   {
     "Name": "pgweb",
     "Size": "16.36 MB",
-    "ModTime": "2024-02-09T00:30:51.151716052Z",
+    "ModTime": "2024-02-11T00:11:30.953529771Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pgweb"
   },
   {
     "Name": "phantun-client",
-    "Size": "2 MB",
-    "ModTime": "2024-02-09T00:30:52.903731050Z",
+    "Size": "2.63 MB",
+    "ModTime": "2024-02-11T00:11:32.837533110Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/phantun-client"
   },
   {
     "Name": "phantun-server",
-    "Size": "1.98 MB",
-    "ModTime": "2024-02-09T00:30:52.915731153Z",
+    "Size": "2.6 MB",
+    "ModTime": "2024-02-11T00:11:32.849533131Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/phantun-server"
   },
   {
     "Name": "pkgtop",
     "Size": "2.32 MB",
-    "ModTime": "2024-02-09T00:31:15.323921186Z",
+    "ModTime": "2024-02-11T00:11:54.593573287Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pkgtop"
   },
   {
     "Name": "planor",
     "Size": "8.4 MB",
-    "ModTime": "2024-02-09T00:30:48.767694186Z",
+    "ModTime": "2024-02-11T00:11:28.773525837Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/planor"
   },
   {
     "Name": "podman",
     "Size": "29.9 MB",
-    "ModTime": "2024-02-09T00:31:13.059901865Z",
+    "ModTime": "2024-02-11T00:11:52.393569128Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/podman"
   },
   {
     "Name": "podsync",
     "Size": "20.63 MB",
-    "ModTime": "2024-02-09T00:31:14.231911867Z",
+    "ModTime": "2024-02-11T00:11:53.509571232Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/podsync"
   },
   {
     "Name": "ppath",
     "Size": "1.34 MB",
-    "ModTime": "2024-02-09T00:30:57.279768564Z",
+    "ModTime": "2024-02-11T00:11:37.241540915Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ppath"
   },
   {
@@ -2366,43 +2378,43 @@
   {
     "Name": "pping",
     "Size": "9.12 MB",
-    "ModTime": "2024-02-09T00:31:15.907926169Z",
+    "ModTime": "2024-02-11T00:11:55.197574435Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pping"
   },
   {
     "Name": "presenterm",
-    "Size": "7.1 MB",
-    "ModTime": "2024-02-09T00:31:09.707873257Z",
+    "Size": "7.04 MB",
+    "ModTime": "2024-02-11T00:11:49.129562972Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/presenterm"
   },
   {
     "Name": "prettyping",
     "Size": "23.64 kB",
-    "ModTime": "2024-02-09T00:00:50.743985994Z",
+    "ModTime": "2024-02-10T23:50:48.236372632Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/prettyping"
   },
   {
     "Name": "procs",
     "Size": "5.54 MB",
-    "ModTime": "2024-02-09T00:31:00.063792429Z",
+    "ModTime": "2024-02-11T00:11:39.993545959Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/procs"
   },
   {
     "Name": "promtail",
     "Size": "92.91 MB",
-    "ModTime": "2024-02-09T00:30:55.683754882Z",
+    "ModTime": "2024-02-11T00:11:35.813538384Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/promtail"
   },
   {
     "Name": "proxify",
     "Size": "39.64 MB",
-    "ModTime": "2024-02-09T00:30:51.271717079Z",
+    "ModTime": "2024-02-11T00:11:31.097530027Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/proxify"
   },
   {
     "Name": "pspy",
     "Size": "3.5 MB",
-    "ModTime": "2024-02-09T00:30:59.691789240Z",
+    "ModTime": "2024-02-11T00:11:39.617545262Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pspy"
   },
   {
@@ -2420,7 +2432,7 @@
   {
     "Name": "puredns",
     "Size": "7.82 MB",
-    "ModTime": "2024-02-09T00:30:51.403718209Z",
+    "ModTime": "2024-02-11T00:11:31.225530254Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/puredns"
   },
   {
@@ -2432,61 +2444,61 @@
   {
     "Name": "qbittorrent-nox",
     "Size": "28.68 MB",
-    "ModTime": "2024-02-09T00:31:13.991909818Z",
+    "ModTime": "2024-02-11T00:11:53.257570757Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qbittorrent-nox"
   },
   {
     "Name": "qsreplace",
     "Size": "1.4 MB",
-    "ModTime": "2024-02-09T00:31:16.471930983Z",
+    "ModTime": "2024-02-11T00:11:55.741575469Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qsreplace"
   },
   {
     "Name": "qsv",
     "Size": "14.09 MB",
-    "ModTime": "2024-02-09T00:30:48.035687307Z",
+    "ModTime": "2024-02-11T00:11:28.061524528Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qsv"
   },
   {
     "Name": "quickcert",
     "Size": "7.87 MB",
-    "ModTime": "2024-02-09T00:30:57.571771066Z",
+    "ModTime": "2024-02-11T00:11:37.517541405Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/quickcert"
   },
   {
     "Name": "rapwp",
     "Size": "1.44 MB",
-    "ModTime": "2024-02-09T00:31:07.791857149Z",
+    "ModTime": "2024-02-11T00:11:47.201559337Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rapwp"
   },
   {
     "Name": "rate-limit-checker",
     "Size": "4.86 MB",
-    "ModTime": "2024-02-09T00:30:48.139688284Z",
+    "ModTime": "2024-02-11T00:11:28.165524719Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rate-limit-checker"
   },
   {
     "Name": "rathole",
     "Size": "1.28 MB",
-    "ModTime": "2024-02-09T00:03:06.393126058Z",
+    "ModTime": "2024-02-10T23:52:12.148403236Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rathole"
   },
   {
     "Name": "rclone",
     "Size": "57.76 MB",
-    "ModTime": "2024-02-09T00:31:13.823908384Z",
+    "ModTime": "2024-02-11T00:11:53.093570448Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rclone"
   },
   {
     "Name": "reader",
     "Size": "23.1 MB",
-    "ModTime": "2024-02-09T00:31:00.375795104Z",
+    "ModTime": "2024-02-11T00:11:40.309546542Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/reader"
   },
   {
     "Name": "realm",
     "Size": "4.75 MB",
-    "ModTime": "2024-02-09T00:30:55.315751726Z",
+    "ModTime": "2024-02-11T00:11:35.513537853Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/realm"
   },
   {
@@ -2516,13 +2528,13 @@
   {
     "Name": "redguard",
     "Size": "9.8 MB",
-    "ModTime": "2024-02-09T00:31:13.391904698Z",
+    "ModTime": "2024-02-11T00:11:52.661569633Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/redguard"
   },
   {
     "Name": "redive",
-    "Size": "2.01 MB",
-    "ModTime": "2024-02-09T00:31:16.483931085Z",
+    "Size": "2.38 MB",
+    "ModTime": "2024-02-11T00:11:55.757575500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/redive"
   },
   {
@@ -2534,67 +2546,67 @@
   {
     "Name": "relic",
     "Size": "27.35 MB",
-    "ModTime": "2024-02-09T00:31:00.503796201Z",
+    "ModTime": "2024-02-11T00:11:40.429546764Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/relic"
   },
   {
     "Name": "removehost",
     "Size": "1.42 MB",
-    "ModTime": "2024-02-09T00:30:58.623780085Z",
+    "ModTime": "2024-02-11T00:11:38.501543199Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/removehost"
   },
   {
     "Name": "removepro",
     "Size": "1.4 MB",
-    "ModTime": "2024-02-09T00:31:07.823857416Z",
+    "ModTime": "2024-02-11T00:11:47.229559389Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/removepro"
   },
   {
     "Name": "reptyr",
     "Size": "76.74 kB",
-    "ModTime": "2024-02-09T00:30:58.579779708Z",
+    "ModTime": "2024-02-11T00:11:38.477543155Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/reptyr"
   },
   {
     "Name": "rescope",
-    "Size": "6.13 MB",
-    "ModTime": "2024-02-09T00:31:14.747916270Z",
+    "Size": "6.12 MB",
+    "ModTime": "2024-02-11T00:11:54.013572185Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rescope"
   },
   {
     "Name": "resdns",
     "Size": "17.47 kB",
-    "ModTime": "2024-02-09T00:07:17.819316553Z",
+    "ModTime": "2024-02-10T23:54:04.492589050Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/resdns"
   },
   {
     "Name": "restic",
     "Size": "24.54 MB",
-    "ModTime": "2024-02-09T00:30:50.775712833Z",
+    "ModTime": "2024-02-11T00:11:30.573529099Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/restic"
   },
   {
     "Name": "resto",
     "Size": "10.23 MB",
-    "ModTime": "2024-02-09T00:30:50.003705803Z",
+    "ModTime": "2024-02-11T00:11:29.933527965Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/resto"
   },
   {
     "Name": "revit",
     "Size": "2.02 MB",
-    "ModTime": "2024-02-09T00:30:54.915748297Z",
+    "ModTime": "2024-02-11T00:11:35.109537136Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/revit"
   },
   {
     "Name": "rg",
     "Size": "6.59 MB",
-    "ModTime": "2024-02-09T00:31:11.699890257Z",
+    "ModTime": "2024-02-11T00:11:51.081566653Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rg"
   },
   {
     "Name": "rga",
     "Size": "6.86 MB",
-    "ModTime": "2024-02-09T00:31:05.103834717Z",
+    "ModTime": "2024-02-11T00:11:44.777554804Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rga"
   },
   {
@@ -2606,91 +2618,91 @@
   {
     "Name": "ripgrep",
     "Size": "6.59 MB",
-    "ModTime": "2024-02-09T00:30:48.231689150Z",
+    "ModTime": "2024-02-11T00:11:28.265524903Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ripgrep"
   },
   {
     "Name": "rnr",
     "Size": "2.93 MB",
-    "ModTime": "2024-02-09T00:31:00.803798772Z",
+    "ModTime": "2024-02-11T00:11:40.709547282Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rnr"
   },
   {
     "Name": "robotstxt",
     "Size": "4.37 MB",
-    "ModTime": "2024-02-09T00:31:16.535931529Z",
+    "ModTime": "2024-02-11T00:11:55.809575598Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/robotstxt"
   },
   {
     "Name": "roboxtractor",
     "Size": "5.35 MB",
-    "ModTime": "2024-02-09T00:30:58.103775627Z",
+    "ModTime": "2024-02-11T00:11:37.969542216Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/roboxtractor"
   },
   {
     "Name": "rootlesskit",
     "Size": "8.1 MB",
-    "ModTime": "2024-02-09T00:31:08.911866495Z",
+    "ModTime": "2024-02-11T00:11:48.321561449Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rootlesskit"
   },
   {
     "Name": "ropr",
-    "Size": "2.55 MB",
-    "ModTime": "2024-02-09T00:31:00.203793629Z",
+    "Size": "3.05 MB",
+    "ModTime": "2024-02-11T00:11:40.133546217Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ropr"
   },
   {
     "Name": "rospo",
     "Size": "8.98 MB",
-    "ModTime": "2024-02-09T00:31:14.595914973Z",
+    "ModTime": "2024-02-11T00:11:53.857571888Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rospo"
   },
   {
     "Name": "rpaste",
     "Size": "2.76 MB",
-    "ModTime": "2024-02-09T00:30:48.203688886Z",
+    "ModTime": "2024-02-11T00:11:28.241524859Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rpaste"
   },
   {
     "Name": "rpfu",
     "Size": "1.42 MB",
-    "ModTime": "2024-02-09T00:31:10.275878105Z",
+    "ModTime": "2024-02-11T00:11:49.737564119Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rpfu"
   },
   {
     "Name": "rqbit",
     "Size": "16.13 MB",
-    "ModTime": "2024-02-09T00:31:07.755856848Z",
+    "ModTime": "2024-02-11T00:11:47.185559307Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rqbit"
   },
   {
     "Name": "rshijack",
-    "Size": "1.36 MB",
-    "ModTime": "2024-02-09T00:30:59.151784611Z",
+    "Size": "2.11 MB",
+    "ModTime": "2024-02-11T00:11:39.013544146Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rshijack"
   },
   {
     "Name": "ruff",
     "Size": "20.69 MB",
-    "ModTime": "2024-02-09T00:30:59.507787663Z",
+    "ModTime": "2024-02-11T00:11:39.429544915Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ruff"
   },
   {
     "Name": "runc",
     "Size": "10.71 MB",
-    "ModTime": "2024-02-09T00:30:59.767789892Z",
+    "ModTime": "2024-02-11T00:11:39.681545382Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/runc"
   },
   {
     "Name": "runme",
-    "Size": "22.6 MB",
-    "ModTime": "2024-02-09T00:31:01.803807178Z",
+    "Size": "22.59 MB",
+    "ModTime": "2024-02-11T00:11:41.613548953Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/runme"
   },
   {
     "Name": "rush",
     "Size": "7.26 MB",
-    "ModTime": "2024-02-09T00:31:09.735873496Z",
+    "ModTime": "2024-02-11T00:11:49.161563033Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rush"
   },
   {
@@ -2702,283 +2714,283 @@
   {
     "Name": "rustypaste",
     "Size": "8.77 MB",
-    "ModTime": "2024-02-09T00:30:50.151707194Z",
+    "ModTime": "2024-02-11T00:11:30.073528213Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rustypaste"
   },
   {
     "Name": "s3scanner",
     "Size": "19.98 MB",
-    "ModTime": "2024-02-09T00:31:14.851917158Z",
+    "ModTime": "2024-02-11T00:11:54.125572398Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/s3scanner"
   },
   {
     "Name": "s3sync",
     "Size": "13.33 MB",
-    "ModTime": "2024-02-09T00:31:14.647915417Z",
+    "ModTime": "2024-02-11T00:11:53.905571980Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/s3sync"
   },
   {
     "Name": "s5cmd",
     "Size": "15.55 MB",
-    "ModTime": "2024-02-09T00:30:51.859722113Z",
+    "ModTime": "2024-02-11T00:11:31.681531062Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/s5cmd"
   },
   {
     "Name": "sake",
     "Size": "7.83 MB",
-    "ModTime": "2024-02-09T00:31:02.079809482Z",
+    "ModTime": "2024-02-11T00:11:41.889549463Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sake"
   },
   {
     "Name": "sbctl",
     "Size": "5.88 MB",
-    "ModTime": "2024-02-09T00:30:47.863685691Z",
+    "ModTime": "2024-02-11T00:11:27.917524263Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sbctl"
   },
   {
     "Name": "scilla",
     "Size": "12.01 MB",
-    "ModTime": "2024-02-09T00:31:03.311819763Z",
+    "ModTime": "2024-02-11T00:11:43.169551830Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/scilla"
   },
   {
     "Name": "scopegen",
     "Size": "1.45 MB",
-    "ModTime": "2024-02-09T00:30:55.039749361Z",
+    "ModTime": "2024-02-11T00:11:35.265537412Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/scopegen"
   },
   {
     "Name": "scopeview",
     "Size": "2775 B",
-    "ModTime": "2024-02-09T00:11:16.145538912Z",
+    "ModTime": "2024-02-10T23:56:34.276810597Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/scopeview"
   },
   {
     "Name": "scp",
     "Size": "366.61 kB",
-    "ModTime": "2024-02-09T00:31:03.683822867Z",
+    "ModTime": "2024-02-11T00:11:43.517552474Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/scp"
   },
   {
     "Name": "screenfetch",
     "Size": "258.68 kB",
-    "ModTime": "2024-02-09T00:11:16.829546519Z",
+    "ModTime": "2024-02-10T23:56:35.312812545Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/screenfetch"
   },
   {
     "Name": "sd",
     "Size": "2.62 MB",
-    "ModTime": "2024-02-09T00:31:07.103851407Z",
+    "ModTime": "2024-02-11T00:11:46.669558334Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sd"
   },
   {
     "Name": "sessionprobe",
     "Size": "6.93 MB",
-    "ModTime": "2024-02-09T00:31:06.479846200Z",
+    "ModTime": "2024-02-11T00:11:46.141557338Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sessionprobe"
   },
   {
     "Name": "sftp",
     "Size": "334.36 kB",
-    "ModTime": "2024-02-09T00:30:59.079783993Z",
+    "ModTime": "2024-02-11T00:11:38.941544013Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sftp"
   },
   {
     "Name": "sftp-server",
     "Size": "243.77 kB",
-    "ModTime": "2024-02-09T00:31:10.831882849Z",
+    "ModTime": "2024-02-11T00:11:50.245565077Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sftp-server"
   },
   {
     "Name": "shellharden",
-    "Size": "456.9 kB",
-    "ModTime": "2024-02-09T00:31:14.367913028Z",
+    "Size": "479.32 kB",
+    "ModTime": "2024-02-11T00:11:53.617571436Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/shellharden"
   },
   {
     "Name": "shellz",
     "Size": "34.06 MB",
-    "ModTime": "2024-02-09T00:31:05.603838890Z",
+    "ModTime": "2024-02-11T00:11:45.273555721Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/shellz"
   },
   {
     "Name": "shfmt",
     "Size": "2.9 MB",
-    "ModTime": "2024-02-09T00:30:59.199785022Z",
+    "ModTime": "2024-02-11T00:11:39.109544323Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/shfmt"
   },
   {
     "Name": "shortscan",
     "Size": "9.93 MB",
-    "ModTime": "2024-02-09T00:31:14.355912925Z",
+    "ModTime": "2024-02-11T00:11:53.605571413Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/shortscan"
   },
   {
     "Name": "shortutil",
     "Size": "2.1 MB",
-    "ModTime": "2024-02-09T00:31:06.455846000Z",
+    "ModTime": "2024-02-11T00:11:46.117557293Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/shortutil"
   },
   {
     "Name": "shuffledns",
     "Size": "18.2 MB",
-    "ModTime": "2024-02-09T00:30:54.863747851Z",
+    "ModTime": "2024-02-11T00:11:35.061537052Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/shuffledns"
   },
   {
     "Name": "sish",
     "Size": "19.32 MB",
-    "ModTime": "2024-02-09T00:31:10.435879470Z",
+    "ModTime": "2024-02-11T00:11:49.869564368Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sish"
   },
   {
     "Name": "sj",
     "Size": "8.26 MB",
-    "ModTime": "2024-02-09T00:30:53.015732009Z",
+    "ModTime": "2024-02-11T00:11:32.969533343Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sj"
   },
   {
     "Name": "sk",
-    "Size": "2.67 MB",
-    "ModTime": "2024-02-09T00:31:11.667889984Z",
+    "Size": "3.34 MB",
+    "ModTime": "2024-02-11T00:11:51.053566601Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sk"
   },
   {
     "Name": "sk-tmux",
     "Size": "7342 B",
-    "ModTime": "2024-02-09T00:13:07.374514095Z",
+    "ModTime": "2024-02-10T23:58:35.968947133Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sk-tmux"
   },
   {
     "Name": "sliver-client",
     "Size": "36.52 MB",
-    "ModTime": "2024-02-09T00:30:55.271751349Z",
+    "ModTime": "2024-02-11T00:11:35.469537775Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sliver-client"
   },
   {
     "Name": "sliver-server",
     "Size": "168.62 MB",
-    "ModTime": "2024-02-09T00:31:12.483896949Z",
+    "ModTime": "2024-02-11T00:11:51.805568019Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sliver-server"
   },
   {
     "Name": "smap",
     "Size": "14.56 MB",
-    "ModTime": "2024-02-09T00:31:14.319912617Z",
+    "ModTime": "2024-02-11T00:11:53.565571338Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/smap"
   },
   {
     "Name": "smenu",
     "Size": "1.69 MB",
-    "ModTime": "2024-02-09T00:31:10.035876056Z",
+    "ModTime": "2024-02-11T00:11:49.489563651Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/smenu"
   },
   {
     "Name": "sns",
     "Size": "8.51 MB",
-    "ModTime": "2024-02-09T00:30:50.075706480Z",
+    "ModTime": "2024-02-11T00:11:30.005528092Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sns"
   },
   {
     "Name": "socat",
     "Size": "3.21 MB",
-    "ModTime": "2024-02-09T00:30:50.223707871Z",
+    "ModTime": "2024-02-11T00:11:30.105528270Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/socat"
   },
   {
     "Name": "speedtest-go",
     "Size": "6.89 MB",
-    "ModTime": "2024-02-09T00:31:00.579796852Z",
+    "ModTime": "2024-02-11T00:11:40.493546882Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/speedtest-go"
   },
   {
     "Name": "spk",
     "Size": "6.93 MB",
-    "ModTime": "2024-02-09T00:31:10.819882747Z",
+    "ModTime": "2024-02-11T00:11:50.237565062Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/spk"
   },
   {
     "Name": "spoof-dpi",
     "Size": "5.43 MB",
-    "ModTime": "2024-02-09T00:31:03.375820297Z",
+    "ModTime": "2024-02-11T00:11:43.237551956Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/spoof-dpi"
   },
   {
     "Name": "sq",
-    "Size": "30.59 MB",
-    "ModTime": "2024-02-09T00:30:57.691772095Z",
+    "Size": "30.72 MB",
+    "ModTime": "2024-02-11T00:11:37.621541589Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sq"
   },
   {
     "Name": "sqlc",
     "Size": "31.22 MB",
-    "ModTime": "2024-02-09T00:31:02.015808948Z",
+    "ModTime": "2024-02-11T00:11:41.821549338Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sqlc"
   },
   {
     "Name": "ssh",
     "Size": "4.75 MB",
-    "ModTime": "2024-02-09T00:31:13.359904425Z",
+    "ModTime": "2024-02-11T00:11:52.629569573Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ssh"
   },
   {
     "Name": "ssh-add",
     "Size": "4.14 MB",
-    "ModTime": "2024-02-09T00:31:10.699881723Z",
+    "ModTime": "2024-02-11T00:11:50.117564835Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ssh-add"
   },
   {
     "Name": "ssh-agent",
     "Size": "4.11 MB",
-    "ModTime": "2024-02-09T00:31:15.019918591Z",
+    "ModTime": "2024-02-11T00:11:54.297572725Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ssh-agent"
   },
   {
     "Name": "ssh-keygen",
     "Size": "4.29 MB",
-    "ModTime": "2024-02-09T00:31:10.643881245Z",
+    "ModTime": "2024-02-11T00:11:50.065564737Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ssh-keygen"
   },
   {
     "Name": "ssh-keyscan",
     "Size": "4.34 MB",
-    "ModTime": "2024-02-09T00:31:14.671915622Z",
+    "ModTime": "2024-02-11T00:11:53.933572032Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ssh-keyscan"
   },
   {
     "Name": "ssh-keysign",
     "Size": "4.38 MB",
-    "ModTime": "2024-02-09T00:31:07.843857583Z",
+    "ModTime": "2024-02-11T00:11:47.249559427Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ssh-keysign"
   },
   {
     "Name": "sshd",
     "Size": "4.93 MB",
-    "ModTime": "2024-02-09T00:31:10.771882338Z",
+    "ModTime": "2024-02-11T00:11:50.189564972Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sshd"
   },
   {
     "Name": "sshd_config",
     "Size": "3107 B",
-    "ModTime": "2024-02-08T23:56:51.229928789Z",
+    "ModTime": "2024-02-10T23:48:20.184309923Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sshd_config"
   },
   {
     "Name": "sshesame",
     "Size": "9.74 MB",
-    "ModTime": "2024-02-09T00:31:13.311904015Z",
+    "ModTime": "2024-02-11T00:11:52.581569482Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sshesame"
   },
   {
     "Name": "sshkeys",
     "Size": "3.96 MB",
-    "ModTime": "2024-02-09T00:31:10.467879743Z",
+    "ModTime": "2024-02-11T00:11:49.901564428Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sshkeys"
   },
   {
     "Name": "sshportal",
     "Size": "11.37 MB",
-    "ModTime": "2024-02-09T00:31:04.547830078Z",
+    "ModTime": "2024-02-11T00:11:44.277553879Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sshportal"
   },
   {
@@ -2996,79 +3008,79 @@
   {
     "Name": "starship",
     "Size": "9.85 MB",
-    "ModTime": "2024-02-09T00:31:04.735831646Z",
+    "ModTime": "2024-02-11T00:11:44.453554205Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/starship"
   },
   {
     "Name": "stew",
     "Size": "8.79 MB",
-    "ModTime": "2024-02-09T00:30:53.787738628Z",
+    "ModTime": "2024-02-11T00:11:34.017535202Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/stew"
   },
   {
     "Name": "strace",
     "Size": "2.14 MB",
-    "ModTime": "2024-02-09T00:30:59.071783925Z",
+    "ModTime": "2024-02-11T00:11:38.933543998Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/strace"
   },
   {
     "Name": "sttr",
     "Size": "9.35 MB",
-    "ModTime": "2024-02-09T00:31:06.051842628Z",
+    "ModTime": "2024-02-11T00:11:45.737556579Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sttr"
   },
   {
     "Name": "stuffbin",
     "Size": "3.29 MB",
-    "ModTime": "2024-02-09T00:31:10.751882167Z",
+    "ModTime": "2024-02-11T00:11:50.169564934Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/stuffbin"
   },
   {
     "Name": "subfinder",
     "Size": "28.79 MB",
-    "ModTime": "2024-02-09T00:30:57.935774187Z",
+    "ModTime": "2024-02-11T00:11:37.825541951Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/subfinder"
   },
   {
     "Name": "subjs",
     "Size": "5.41 MB",
-    "ModTime": "2024-02-09T00:31:05.135834985Z",
+    "ModTime": "2024-02-11T00:11:44.809554864Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/subjs"
   },
   {
     "Name": "subxtract",
     "Size": "3815 B",
-    "ModTime": "2024-02-09T00:20:51.810399251Z",
+    "ModTime": "2024-02-11T00:01:38.257076799Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/subxtract"
   },
   {
     "Name": "sunbeam",
     "Size": "19.02 MB",
-    "ModTime": "2024-02-09T00:31:01.127801538Z",
+    "ModTime": "2024-02-11T00:11:40.965547755Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sunbeam"
   },
   {
     "Name": "supervisord",
     "Size": "11.04 MB",
-    "ModTime": "2024-02-09T00:30:56.259759819Z",
+    "ModTime": "2024-02-11T00:11:36.321539285Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/supervisord"
   },
   {
     "Name": "surf",
     "Size": "34.32 MB",
-    "ModTime": "2024-02-09T00:31:00.891799527Z",
+    "ModTime": "2024-02-11T00:11:40.797547445Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/surf"
   },
   {
     "Name": "svg-hush",
-    "Size": "891.2 kB",
-    "ModTime": "2024-02-09T00:31:05.027834083Z",
+    "Size": "996.76 kB",
+    "ModTime": "2024-02-11T00:11:44.733554723Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/svg-hush"
   },
   {
     "Name": "syncthing",
     "Size": "23.36 MB",
-    "ModTime": "2024-02-09T00:31:02.831815757Z",
+    "ModTime": "2024-02-11T00:11:42.657550883Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/syncthing"
   },
   {
@@ -3080,37 +3092,37 @@
   {
     "Name": "systeroid",
     "Size": "2.57 MB",
-    "ModTime": "2024-02-09T00:31:06.011842295Z",
+    "ModTime": "2024-02-11T00:11:45.701556512Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/systeroid"
   },
   {
     "Name": "t-rec",
     "Size": "3.03 MB",
-    "ModTime": "2024-02-09T00:31:17.367938556Z",
+    "ModTime": "2024-02-11T00:11:56.609577119Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/t-rec"
   },
   {
     "Name": "tahm",
     "Size": "4.52 MB",
-    "ModTime": "2024-02-09T00:31:14.775916509Z",
+    "ModTime": "2024-02-11T00:11:54.041572237Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tahm"
   },
   {
     "Name": "tailscale",
     "Size": "11.5 MB",
-    "ModTime": "2024-02-09T00:31:05.991842128Z",
+    "ModTime": "2024-02-11T00:11:45.673556461Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tailscale"
   },
   {
     "Name": "tailscale_merged",
     "Size": "20.76 MB",
-    "ModTime": "2024-02-09T00:31:03.783823702Z",
+    "ModTime": "2024-02-11T00:11:43.573552578Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tailscale_merged"
   },
   {
     "Name": "tailscaled",
     "Size": "21.46 MB",
-    "ModTime": "2024-02-09T00:31:04.687831246Z",
+    "ModTime": "2024-02-11T00:11:44.405554116Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tailscaled"
   },
   {
@@ -3128,259 +3140,259 @@
   {
     "Name": "tcpdump",
     "Size": "1.55 MB",
-    "ModTime": "2024-02-09T00:31:14.759916373Z",
+    "ModTime": "2024-02-11T00:11:54.021572200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tcpdump"
   },
   {
     "Name": "tdl",
     "Size": "35.12 MB",
-    "ModTime": "2024-02-09T00:31:06.943850072Z",
+    "ModTime": "2024-02-11T00:11:46.525558062Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tdl"
   },
   {
     "Name": "tere",
     "Size": "2.73 MB",
-    "ModTime": "2024-02-09T00:30:59.167784748Z",
+    "ModTime": "2024-02-11T00:11:39.025544168Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tere"
   },
   {
     "Name": "termshark",
     "Size": "15.93 MB",
-    "ModTime": "2024-02-09T00:31:13.567906200Z",
+    "ModTime": "2024-02-11T00:11:52.841569972Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/termshark"
   },
   {
     "Name": "tgpt",
     "Size": "8.51 MB",
-    "ModTime": "2024-02-09T00:30:54.899748160Z",
+    "ModTime": "2024-02-11T00:11:35.093537108Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tgpt"
   },
   {
     "Name": "tidy-viewer",
-    "Size": "1.9 MB",
-    "ModTime": "2024-02-09T00:31:00.611797126Z",
+    "Size": "2.24 MB",
+    "ModTime": "2024-02-11T00:11:40.525546941Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tidy-viewer"
   },
   {
     "Name": "tldr",
     "Size": "14.17 kB",
-    "ModTime": "2024-02-09T00:26:11.765279828Z",
+    "ModTime": "2024-02-11T00:04:34.877180500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tldr"
   },
   {
     "Name": "tlrc",
-    "Size": "2.59 MB",
-    "ModTime": "2024-02-09T00:30:59.407786806Z",
+    "Size": "3.2 MB",
+    "ModTime": "2024-02-11T00:11:39.325544722Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tlrc"
   },
   {
     "Name": "tlsx",
     "Size": "28.33 MB",
-    "ModTime": "2024-02-09T00:30:54.515744868Z",
+    "ModTime": "2024-02-11T00:11:34.689536392Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tlsx"
   },
   {
     "Name": "tmate",
     "Size": "3.14 MB",
-    "ModTime": "2024-02-09T00:31:07.087851273Z",
+    "ModTime": "2024-02-11T00:11:46.657558311Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tmate"
   },
   {
     "Name": "tmux",
     "Size": "1.29 MB",
-    "ModTime": "2024-02-09T00:31:01.691806244Z",
+    "ModTime": "2024-02-11T00:11:41.501548746Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tmux"
   },
   {
     "Name": "tok",
     "Size": "1.36 MB",
-    "ModTime": "2024-02-09T00:31:04.439829176Z",
+    "ModTime": "2024-02-11T00:11:44.161553665Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tok"
   },
   {
     "Name": "tokei",
     "Size": "4.24 MB",
-    "ModTime": "2024-02-09T00:30:50.947714305Z",
+    "ModTime": "2024-02-11T00:11:30.729529375Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tokei"
   },
   {
     "Name": "toybox",
     "Size": "755.86 kB",
-    "ModTime": "2024-02-09T00:30:54.807747372Z",
+    "ModTime": "2024-02-11T00:11:35.009536960Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/toybox"
   },
   {
     "Name": "traefik",
     "Size": "143.59 MB",
-    "ModTime": "2024-02-09T00:31:11.527888790Z",
+    "ModTime": "2024-02-11T00:11:50.909566329Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/traefik"
   },
   {
     "Name": "trufflehog",
     "Size": "92.44 MB",
-    "ModTime": "2024-02-09T00:31:17.107936406Z",
+    "ModTime": "2024-02-11T00:11:56.345576618Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/trufflehog"
   },
   {
     "Name": "try",
     "Size": "20.26 kB",
-    "ModTime": "2024-02-09T00:26:59.857687337Z",
+    "ModTime": "2024-02-11T00:05:32.085198182Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/try"
   },
   {
     "Name": "tty2web",
     "Size": "12.19 MB",
-    "ModTime": "2024-02-09T00:30:59.807790235Z",
+    "ModTime": "2024-02-11T00:11:39.721545455Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tty2web"
   },
   {
     "Name": "ttyd",
     "Size": "1.27 MB",
-    "ModTime": "2024-02-09T00:31:13.643906848Z",
+    "ModTime": "2024-02-11T00:11:52.917570116Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ttyd"
   },
   {
     "Name": "tuiarchiver",
     "Size": "22.35 MB",
-    "ModTime": "2024-02-09T00:31:10.203877490Z",
+    "ModTime": "2024-02-11T00:11:49.665563984Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tuiarchiver"
   },
   {
     "Name": "tut",
     "Size": "10.34 MB",
-    "ModTime": "2024-02-09T00:30:51.439718518Z",
+    "ModTime": "2024-02-11T00:11:31.265530324Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tut"
   },
   {
     "Name": "twingate-client",
     "Size": "3.65 MB",
-    "ModTime": "2024-02-09T00:31:06.991850472Z",
+    "ModTime": "2024-02-11T00:11:46.553558115Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-client"
   },
   {
     "Name": "twingate-connector",
     "Size": "17.93 MB",
-    "ModTime": "2024-02-09T00:31:06.623847401Z",
+    "ModTime": "2024-02-11T00:11:46.277557594Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-connector"
   },
   {
     "Name": "twingate-connector-staticx",
     "Size": "7.27 MB",
-    "ModTime": "2024-02-09T00:31:12.647898348Z",
+    "ModTime": "2024-02-11T00:11:51.957568305Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-connector-staticx"
   },
   {
     "Name": "twingate-connectorctl",
     "Size": "4.55 MB",
-    "ModTime": "2024-02-09T00:30:56.951765751Z",
+    "ModTime": "2024-02-11T00:11:36.993540476Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-connectorctl"
   },
   {
     "Name": "twingate-notifier",
     "Size": "4.05 MB",
-    "ModTime": "2024-02-09T00:30:54.767747029Z",
+    "ModTime": "2024-02-11T00:11:34.969536888Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-notifier"
   },
   {
     "Name": "txeh",
     "Size": "3.25 MB",
-    "ModTime": "2024-02-09T00:30:52.891730948Z",
+    "ModTime": "2024-02-11T00:11:32.817533075Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/txeh"
   },
   {
     "Name": "tz",
     "Size": "2.54 MB",
-    "ModTime": "2024-02-09T00:30:50.959714408Z",
+    "ModTime": "2024-02-11T00:11:30.789529481Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tz"
   },
   {
     "Name": "u-root",
     "Size": "5.98 MB",
-    "ModTime": "2024-02-09T00:31:11.719890428Z",
+    "ModTime": "2024-02-11T00:11:51.101566692Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/u-root"
   },
   {
     "Name": "udpx",
     "Size": "2.21 MB",
-    "ModTime": "2024-02-09T00:30:48.899695427Z",
+    "ModTime": "2024-02-11T00:11:28.905526080Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/udpx"
   },
   {
     "Name": "uip",
     "Size": "1.75 MB",
-    "ModTime": "2024-02-09T00:31:10.375878958Z",
+    "ModTime": "2024-02-11T00:11:49.809564255Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/uip"
   },
   {
     "Name": "uncover",
     "Size": "24.95 MB",
-    "ModTime": "2024-02-09T00:30:59.659788966Z",
+    "ModTime": "2024-02-11T00:11:39.585545203Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/uncover"
   },
   {
     "Name": "unf",
-    "Size": "2.45 MB",
-    "ModTime": "2024-02-09T00:30:51.931722730Z",
+    "Size": "2.81 MB",
+    "ModTime": "2024-02-11T00:11:31.817531303Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/unf"
   },
   {
     "Name": "unfurl",
     "Size": "5.32 MB",
-    "ModTime": "2024-02-09T00:30:56.219759476Z",
+    "ModTime": "2024-02-11T00:11:36.289539228Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/unfurl"
   },
   {
     "Name": "upx",
     "Size": "2.1 MB",
-    "ModTime": "2024-02-09T00:31:03.387820397Z",
+    "ModTime": "2024-02-11T00:11:43.245551972Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/upx"
   },
   {
     "Name": "usql",
     "Size": "159.46 MB",
-    "ModTime": "2024-02-09T00:30:49.323699413Z",
+    "ModTime": "2024-02-11T00:11:29.309526823Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/usql"
   },
   {
     "Name": "v2raya",
     "Size": "24.85 MB",
-    "ModTime": "2024-02-09T00:30:59.283785742Z",
+    "ModTime": "2024-02-11T00:11:39.205544502Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/v2raya"
   },
   {
     "Name": "v6disk",
     "Size": "1.5 MB",
-    "ModTime": "2024-02-09T00:30:51.163716154Z",
+    "ModTime": "2024-02-11T00:11:30.989529836Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/v6disk"
   },
   {
     "Name": "v6run",
     "Size": "6.18 MB",
-    "ModTime": "2024-02-09T00:30:50.427709788Z",
+    "ModTime": "2024-02-11T00:11:30.285528589Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/v6run"
   },
   {
     "Name": "validtoml",
     "Size": "4.03 MB",
-    "ModTime": "2024-02-09T00:30:59.531787868Z",
+    "ModTime": "2024-02-11T00:11:39.453544959Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/validtoml"
   },
   {
     "Name": "vegeta",
     "Size": "10.76 MB",
-    "ModTime": "2024-02-09T00:30:52.019723483Z",
+    "ModTime": "2024-02-11T00:11:31.905531459Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/vegeta"
   },
   {
     "Name": "vhs",
     "Size": "25.08 MB",
-    "ModTime": "2024-02-09T00:31:06.271844464Z",
+    "ModTime": "2024-02-11T00:11:45.933556946Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/vhs"
   },
   {
     "Name": "viddy",
     "Size": "8.29 MB",
-    "ModTime": "2024-02-09T00:30:57.835773330Z",
+    "ModTime": "2024-02-11T00:11:37.721541766Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/viddy"
   },
   {
@@ -3392,43 +3404,43 @@
   {
     "Name": "viu",
     "Size": "3.83 MB",
-    "ModTime": "2024-02-09T00:31:01.187802037Z",
+    "ModTime": "2024-02-11T00:11:41.029547874Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/viu"
   },
   {
     "Name": "volta",
-    "Size": "4.57 MB",
-    "ModTime": "2024-02-09T00:30:59.307785949Z",
+    "Size": "6.18 MB",
+    "ModTime": "2024-02-11T00:11:39.233544553Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/volta"
   },
   {
     "Name": "vopono",
     "Size": "11.94 MB",
-    "ModTime": "2024-02-09T00:31:17.267937728Z",
+    "ModTime": "2024-02-11T00:11:56.497576906Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/vopono"
   },
   {
     "Name": "vtm",
     "Size": "5.54 MB",
-    "ModTime": "2024-02-09T00:30:54.799747303Z",
+    "ModTime": "2024-02-11T00:11:35.005536952Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/vtm"
   },
   {
     "Name": "vultr-cli",
     "Size": "9.45 MB",
-    "ModTime": "2024-02-06T00:47:22.448266666Z",
+    "ModTime": "2024-02-11T00:11:33.533534344Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/vultr-cli"
   },
   {
     "Name": "wadl-dumper",
-    "Size": "5.99 MB",
-    "ModTime": "2024-02-06T00:47:19.768258397Z",
+    "Size": "6.14 MB",
+    "ModTime": "2024-02-11T00:11:42.769551091Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wadl-dumper"
   },
   {
     "Name": "walk",
     "Size": "2.74 MB",
-    "ModTime": "2024-02-06T00:47:23.892271115Z",
+    "ModTime": "2024-02-11T00:11:37.645541631Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/walk"
   },
   {
@@ -3440,37 +3452,37 @@
   {
     "Name": "watchexec",
     "Size": "8.8 MB",
-    "ModTime": "2024-02-06T00:47:01.884204504Z",
+    "ModTime": "2024-02-11T00:11:30.757529425Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/watchexec"
   },
   {
     "Name": "waybackrobots",
-    "Size": "5.63 MB",
-    "ModTime": "2024-02-06T00:47:19.372257175Z",
+    "Size": "5.81 MB",
+    "ModTime": "2024-02-11T00:11:30.981529822Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/waybackrobots"
   },
   {
     "Name": "waybackurls",
-    "Size": "4.93 MB",
-    "ModTime": "2024-02-06T00:47:23.840270955Z",
+    "Size": "5.1 MB",
+    "ModTime": "2024-02-11T00:11:46.645558288Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/waybackurls"
   },
   {
     "Name": "web-cache-vulnerability-scanner",
-    "Size": "5.65 MB",
-    "ModTime": "2024-02-06T00:47:24.204272075Z",
+    "Size": "5.84 MB",
+    "ModTime": "2024-02-11T00:11:49.561563787Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/web-cache-vulnerability-scanner"
   },
   {
     "Name": "websocat",
     "Size": "6.95 MB",
-    "ModTime": "2024-02-06T00:47:10.892231085Z",
+    "ModTime": "2024-02-11T00:11:28.185524755Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/websocat"
   },
   {
     "Name": "wego",
-    "Size": "5.78 MB",
-    "ModTime": "2024-02-06T00:46:58.820195915Z",
+    "Size": "5.96 MB",
+    "ModTime": "2024-02-11T00:11:36.233539129Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wego"
   },
   {
@@ -3481,20 +3493,20 @@
   },
   {
     "Name": "wireguard-rs",
-    "Size": "2.75 MB",
-    "ModTime": "2024-02-06T00:47:21.600264053Z",
+    "Size": "3.09 MB",
+    "ModTime": "2024-02-11T00:11:55.253574542Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wireguard-rs"
   },
   {
     "Name": "wireproxy",
     "Size": "6.25 MB",
-    "ModTime": "2024-02-06T00:47:25.256275317Z",
+    "ModTime": "2024-02-11T00:11:33.705534649Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wireproxy"
   },
   {
     "Name": "wiretap",
     "Size": "14.9 MB",
-    "ModTime": "2024-02-06T00:47:10.616230241Z",
+    "ModTime": "2024-02-11T00:11:38.441543088Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wiretap"
   },
   {
@@ -3506,13 +3518,13 @@
   {
     "Name": "wstunnel",
     "Size": "8.79 MB",
-    "ModTime": "2024-02-06T00:47:02.480206174Z",
+    "ModTime": "2024-02-11T00:11:51.989568366Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wstunnel"
   },
   {
     "Name": "wtf",
     "Size": "62.87 MB",
-    "ModTime": "2024-02-06T00:47:03.280208417Z",
+    "ModTime": "2024-02-11T00:11:33.921535031Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wtf"
   },
   {
@@ -3524,19 +3536,19 @@
   {
     "Name": "wth",
     "Size": "5.24 MB",
-    "ModTime": "2024-02-06T00:47:12.660236486Z",
+    "ModTime": "2024-02-11T00:11:43.785552969Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wth"
   },
   {
     "Name": "x8",
     "Size": "8.75 MB",
-    "ModTime": "2024-02-06T00:47:23.408269624Z",
+    "ModTime": "2024-02-11T00:11:47.397559707Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/x8"
   },
   {
     "Name": "xargs-rs",
-    "Size": "1.73 MB",
-    "ModTime": "2024-02-09T00:31:10.239877797Z",
+    "Size": "1.86 MB",
+    "ModTime": "2024-02-11T00:11:49.701564051Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/xargs-rs"
   },
   {
@@ -3548,13 +3560,13 @@
   {
     "Name": "xh",
     "Size": "6.69 MB",
-    "ModTime": "2024-02-06T00:47:07.132219600Z",
+    "ModTime": "2024-02-11T00:11:55.673575340Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/xh"
   },
   {
     "Name": "xplr",
     "Size": "6.9 MB",
-    "ModTime": "2024-02-06T00:47:15.948246605Z",
+    "ModTime": "2024-02-11T00:11:40.217546372Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/xplr"
   },
   {
