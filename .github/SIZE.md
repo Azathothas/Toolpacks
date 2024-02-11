@@ -9,7 +9,7 @@
  40K   │ ├── BLAKE3SUM.txt
  16K   │ ├── SIZE.txt
  16K   │ ├── SIZE.md
-4.0K   │ └── BUILD_ERROR.log
+8.0K   │ └── BUILD_ERROR.log.md
 552K   ├── metadata.json
 456K   ├── metadata.toml
 408K   ├─┬ aarch64_arm64_Linux

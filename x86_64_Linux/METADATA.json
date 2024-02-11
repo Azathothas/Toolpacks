@@ -12,6 +12,12 @@
     "Source": "https://bin.ajam.dev/x86_64_Linux/BLAKE3SUM.txt"
   },
   {
+    "Name": "BUILD.log",
+    "Size": "6.6 MB",
+    "ModTime": "2024-02-11T07:22:20.134468500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/BUILD.log"
+  },
+  {
     "Name": "FILE.txt",
     "Size": "85.23 kB",
     "ModTime": "2024-02-11T00:16:38.801891071Z",
@@ -19,8 +25,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "99.01 kB",
-    "ModTime": "2024-02-11T06:21:36.776706856Z",
+    "Size": "99.17 kB",
+    "ModTime": "2024-02-11T07:54:26.073726181Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json"
   },
   {
