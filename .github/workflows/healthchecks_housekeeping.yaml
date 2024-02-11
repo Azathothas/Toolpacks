@@ -243,6 +243,29 @@ jobs:
           echo '```' >> "$GITHUB_WORKSPACE/main/.github/SIZE.md"
         continue-on-error: true
 
+      - name: Parse Build Logs
+        run: |
+           #Presets
+           set -x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
+           #--------------#
+           cd "$GITHUB_WORKSPACE/main"
+           #--------------------#
+           ##x86_64_Linux##
+           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BUILD.log" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log"
+           echo -e '```mathematica' > "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           echo -e "\n[-] Authentication failed --> # Invalid/Deleted GH Repos\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           grep -B5 -A3 -in ".* Authentication failed .*" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           echo -e "\n\n[-] asset * not found --> # Eget failed to find that --asset\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           grep -B5 -in "asset .* not found" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           echo -e "\n\n[-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           awk '/Could not resolve host/{print prev; print; found=1} {prev=$0} /^\[+\]/{exit} END{if (!found) print prev}' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           echo -e "\n\n[-] command not found --> # Something failed to Install\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           grep -in "command not found" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           echo -e "\n\n[-] No such file or directory # Usually Because Build Failures\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           grep -in "No such file or directory""$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+           echo -e '```' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log"
+        continue-on-error: true
+
       - name: Generate Markdown ( Main README.md)
         run: |
            #Presets
