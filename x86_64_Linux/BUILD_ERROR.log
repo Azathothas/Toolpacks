@@ -1,0 +1,67 @@
+```mathematica
+
+[-] Authentication failed --> # Invalid/Deleted GH Repos
+
+52494-
+52495- [+] (Building | Fetching) certwatcher :: https://github.com/drfabiocastro/certwatcher
+52496-
+52497-remote: Support for password authentication was removed on August 13, 2021.
+52498-remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+52499:fatal: Authentication failed for 'https://github.com/drfabiocastro/certwatcher/'
+52500-go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+52501-mv: cannot stat './certwatcher': No such file or directory
+52502-
+
+
+[-] asset * not found --> # Eget failed to find that --asset
+
+57076-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fastfetch.sh
+57077-
+57078-
+57079- [+] (Building | Fetching) fastfetch :: https://github.com/fastfetch-cli/fastfetch
+57080-
+57081:asset `Linux` not found
+--
+68691-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/logtimer.sh
+68692-
+68693-
+68694- [+] (Building | Fetching) logtimer :: https://github.com/Eun/logtimer
+68695-
+68696:asset `x86_64.tar.gz` not found
+--
+82849-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/taplo.sh
+82850-
+82851-
+82852- [+] (Building | Fetching) taplo :: https://github.com/tamasfe/taplo
+82853-
+82854:asset `full` not found
+
+
+[-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL
+
+[+] Fetching : sh
+curl: (6) Could not resolve host: sh
+
+
+[-] command not found --> # Something failed to Install
+
+24953:/tmp/1O5Ti_init.sh: line 284: meson: command not found
+24954:/tmp/1O5Ti_init.sh: line 284: ninja: command not found
+63254:/tmp/95S38_build.sh: line 31: pyinstaller: command not found
+63255:/tmp/95S38_build.sh: line 31: pyinstaller: command not found
+63256:/tmp/95S38_build.sh: line 32: staticx: command not found
+66068:/tmp/95S38_build.sh: line 30: staticx: command not found
+66096:/tmp/95S38_build.sh: line 36: staticx: command not found
+66318:/tmp/95S38_build.sh: line 30: staticx: command not found
+66364:/tmp/95S38_build.sh: line 30: staticx: command not found
+71577:/tmp/95S38_build.sh: line 30: staticx: command not found
+75413:/tmp/95S38_build.sh: line 31: pyinstaller: command not found
+75414:/tmp/95S38_build.sh: line 31: pyinstaller: command not found
+75415:/tmp/95S38_build.sh: line 32: staticx: command not found
+85368:/tmp/95S38_build.sh: line 31: pyinstaller: command not found
+85369:/tmp/95S38_build.sh: line 31: pyinstaller: command not found
+85370:/tmp/95S38_build.sh: line 32: staticx: command not found
+
+
+[-] No such file or directory # Usually Because Build Failures
+
