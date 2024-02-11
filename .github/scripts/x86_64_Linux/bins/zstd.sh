@@ -23,7 +23,7 @@ SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
     #zstd : Zstandard - Fast real-time compression algorithm 
      export BIN="zstd" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/facebook/zstd" #github/gitlab/homepage/etc for $BIN
+     export SOURCE_URL="https://github.com/VHSgunzo/zstd-static" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
        eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "x86_64" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"

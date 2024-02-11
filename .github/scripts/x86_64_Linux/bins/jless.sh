@@ -27,13 +27,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
-       export TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$TARGET"
-       # Currenttly can't build static, flags get overidden, instead use staticX
-       #export RUSTFLAGS="-C target-feature=+crt-static"  
-       #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
+       # Currenttly can't build static, due to xcb 
+       export RUST_TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$RUST_TARGET"
+       echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
        unset RUSTFLAGS ; cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-       mv "./target/$RUST_TARGET/release/jless" "$BINDIR/jless"
-       staticx --loglevel DEBUG "$BINDIR/jless" --strip "$BINDIR/jless_staticx" ; popd > /dev/null 2>&1
+       #mv "./target/$RUST_TARGET/release/jless" "$BINDIR/jless"
+       staticx --loglevel DEBUG "./target/$RUST_TARGET/release/jless" --strip "$BINDIR/jless_staticx" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -25,8 +25,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="xurls" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/mvdan/xurls" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "musl" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+      #Build
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/mvdan/xurls" && cd "./xurls"
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/xurls" ; mv "./xurls" "$BINDIR/xurls" ; popd > /dev/null 2>&1
+       go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

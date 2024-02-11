@@ -19,7 +19,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+SKIP_BUILD="NO" #
 if [ "$SKIP_BUILD" == "NO" ]; then
       #sn0int: Semi-automatic OSINT framework and package manager
      export BIN="sn0int" #Name of final binary/pkg/cli, sometimes differs from $REPO
@@ -27,9 +27,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build   
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kpcyrd/sn0int" && cd "./sn0int"
-       sudo apt-get install librust-libsodium-sys-dev librust-memsec-dev libsodium-dev -y
+       sudo apt install build-essential libsqlite3-dev libseccomp-dev libsodium-dev publicsuffix pkg-config -y
        export RUST_TARGET="x86_64-unknown-linux-gnu" && rustup target add "$RUST_TARGET"
-       export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+       export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
        sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
        cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; mv "./target/$RUST_TARGET/release/sn0int" "$BINDIR/sn0int" ; popd > /dev/null 2>&1
 fi

@@ -19,7 +19,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+SKIP_BUILD="YES" #/usr/bin/ld: cannot find -lsmbclient
 if [ "$SKIP_BUILD" == "NO" ]; then
       #legba: A multiprotocol credentials bruteforcer / password sprayer and enumerator. 🥷    
      export BIN="legba" #Name of final binary/pkg/cli, sometimes differs from $REPO
@@ -27,6 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build  
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/evilsocket/legba" && cd "./legba"
+       sudo apt-get install libsmbclient-dev -y
        export RUST_TARGET="x86_64-unknown-linux-gnu" && rustup target add "$RUST_TARGET"
        export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
        sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
