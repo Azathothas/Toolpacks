@@ -1,5 +1,7 @@
 - #### Build Errors & Quirks
-> - [Logs]()
+> - [Logs](https://github.com/Azathothas/Toolpacks/edit/main/Docs/DEBUG.md)
+> > - `curl -qfsSLJO "https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.log"` [⏬](https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.log)
+> > - `curl -qfsSLJO "https://bin.ajam.dev/x86_64_Linux/BUILD.log"` [⏬](https://bin.ajam.dev/x86_64_Linux/BUILD.log)
 > ```bash
 > [-] Authentication failed --> # Invalid/Deleted GH Repos
 > grep -B5 -A3 -in ".* Authentication failed .*" BUILD.log
