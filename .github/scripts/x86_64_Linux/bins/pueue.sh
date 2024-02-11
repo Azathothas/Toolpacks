@@ -26,8 +26,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Nukesor/pueue" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" "$SOURCE_URL" --asset "linux" --asset "x86_64" --asset "^pueued" --to "$BINDIR/pueue"
-       eval "$EGET_TIMEOUT" "$SOURCE_URL" --asset "linux" --asset "x86_64" --asset "pueued" --to "$BINDIR/pueued"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "x86_64" --asset "^pueued" --to "$BINDIR/pueue"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "x86_64" --asset "pueued" --to "$BINDIR/pueued"
 fi
 #-------------------------------------------------------#
 

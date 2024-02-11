@@ -1,20 +1,20 @@
-#### [Index](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md)
-> - [**Cargo (Rust)**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/27ccd9d9-7a9d-43b2-92e5-bc43bb969eb3" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#cargocross-rust)
-> - [**Go**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/46dbcab3-44cd-4527-a941-5de05713bbe9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#go)
-> - [**Make**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/2ea3fbfb-e93e-4fef-94ac-f506befb0e95" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make)
-> - [**Nim**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/745a11a6-7569-439d-924c-846877ed82a9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#nim)
-> - [**Zig**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/a02545f0-9b70-49df-bf6b-4a823bd0e1e9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl)
+#### [Index](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
+> - [**Cargo (Rust)**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/27ccd9d9-7a9d-43b2-92e5-bc43bb969eb3" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#cargocross-rust)
+> - [**Go**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/46dbcab3-44cd-4527-a941-5de05713bbe9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#go)
+> - [**Make**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/2ea3fbfb-e93e-4fef-94ac-f506befb0e95" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#make)
+> - [**Nim**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/745a11a6-7569-439d-924c-846877ed82a9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#nim)
+> - [**Zig**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/a02545f0-9b70-49df-bf6b-4a823bd0e1e9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#zig-musl)
 > 
-> - [Appendix](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#appendix)
-> > - [Tests](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests)
-> > > - [File](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#file)
-> > > - [LDD](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#ldd)
-> > > - [Mold](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#mold)
-> > > - [QEMU](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#qemu)
-> > > - [ReadELF](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf)
-> > > - [Security](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#security)
+> - [Appendix](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#appendix)
+> > - [Tests](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#tests)
+> > > - [File](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#file)
+> > > - [LDD](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#ldd)
+> > > - [Mold](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#mold)
+> > > - [QEMU](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#qemu)
+> > > - [ReadELF](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#readelf)
+> > > - [Security](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#security)
 > > >
-- ##### Note: All `Built/Compiled` Binaries must be [***throughly tested*** using](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests) https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#tests
+- ##### Note: All `Built/Compiled` Binaries must be [***throughly tested*** using](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#tests) https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#tests
 ---
 - #### [Make](https://wiki.gentoo.org/wiki/GCC_optimization)
 ```bash
@@ -159,8 +159,8 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 export GOARCH="amd64" #arm64 (To list: go tool dist list)
 export GOOS="linux" # (To list: go tool dist list)
 export CGO_ENABLED="1" # To link against musl libc using zig OR build in pie mode
-export CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" #https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make
-export ZIG_LIBC_TARGET="x86_64-linux-musl" #https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#zig-musl
+export CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" #https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#make
+export ZIG_LIBC_TARGET="x86_64-linux-musl" #https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#zig-musl
 export CC="zig cc -target $ZIG_LIBC_TARGET"
 export CXX="zig c++ -target $ZIG_LIBC_TARGET"
 
@@ -315,7 +315,7 @@ unset HOST_CC && export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
 unset HOST_CXX && export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
 unset OBJCOPY && export OBJCOPY="zig objcopy"
 unset RANLIB && export RANLIB="zig ranlib"
-# https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#make
+# https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#make
 unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
 unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
 unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
@@ -329,14 +329,14 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > >
 > > - ###### [**File**](https://man7.org/linux/man-pages/man1/file.1.html)
 > > ```bash
-> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf
+> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#readelf
 > > file --print0 "$COMPILED_BINARY"
 > > !# If this says anything other than `static*` `stripped*`, you F**Ked Up
 > > ```
 > > 
 > > - ###### [**ldd**](https://man7.org/linux/man-pages/man1/ldd.1.html)
 > > ```bash
-> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#readelf
+> > !# Note: This is NOT as reliable as readelf : https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#readelf
 > > # -d | --data-relocs --> Perform relocations and report any missing objects (ELF only).
 > > # -r | --function-relocs --> Perform relocations for both data objects and functions, and report any missing objects or functions (ELF only).
 > > 
@@ -379,7 +379,7 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > > !# !# If this shows any `String dump` Section, you F**Ked Up
 > > ```
 > >
-> > - ###### [**Security**](https://github.com/Azathothas/Toolpacks/blob/main/BUILD_NOTES.md#security)
+> > - ###### [**Security**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#security)
 > > ```bash
 > > !# REF :: https://medium.com/@ofriouzan/part-1-introduction-and-basic-concepts-3a00105d7a13
 > >           https://web.archive.org/web/20240210060942/https://medium.com/@ofriouzan/part-1-introduction-and-basic-concepts-3a00105d7a13

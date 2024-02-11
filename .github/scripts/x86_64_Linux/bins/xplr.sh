@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/sayanarijit/xplr" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "musl" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
 fi
 #-------------------------------------------------------#
 

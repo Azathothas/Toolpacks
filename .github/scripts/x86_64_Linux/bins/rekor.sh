@@ -26,8 +26,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/sigstore/rekor" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" "$SOURCE_URL" --asset "rekor" --asset "linux" --asset "cli" --asset "amd64" --asset "^sbom" --asset "^sig" --asset "^crt" --asset "^pem" --asset "^sha" --to "$BINDIR/rekor-cli"
-       eval "$EGET_TIMEOUT" "$SOURCE_URL" --asset "rekor" --asset "linux" --asset "server" --asset "amd64" --asset "^sbom" --asset "^sig" --asset "^crt" --asset "^pem" --asset "^sha" --to "$BINDIR/rekor-server"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "rekor" --asset "linux" --asset "cli" --asset "amd64" --asset "^sbom" --asset "^sig" --asset "^crt" --asset "^pem" --asset "^sha" --to "$BINDIR/rekor-cli"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "rekor" --asset "linux" --asset "server" --asset "amd64" --asset "^sbom" --asset "^sig" --asset "^crt" --asset "^pem" --asset "^sha" --to "$BINDIR/rekor-server"
 fi
 #-------------------------------------------------------#
 

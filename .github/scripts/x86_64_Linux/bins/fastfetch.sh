@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
       #This is Dynamic
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "Linux" --asset "tar.gz" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "tar.gz" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
 fi
 #-------------------------------------------------------#
 
