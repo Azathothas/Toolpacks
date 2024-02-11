@@ -252,6 +252,11 @@ jobs:
            #--------------------#
            ##x86_64_Linux##
            curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BUILD.log" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log"
+           sed -i '/.*github_pat.*/d' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log"
+           sed -i '/.*ghp_.*/d' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log"
+           sed -i '/.*access_key_id.*/d' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log"
+           sed -i '/.*secret_access_key.*/d' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log"
+           sed -i '/.*cloudflarestorage.*/d' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log"
            echo -e '```mathematica' > "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
            echo -e "\n[-] Authentication failed --> # Invalid/Deleted GH Repos\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
            grep -B5 -A3 -in ".* Authentication failed .*" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.log" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
