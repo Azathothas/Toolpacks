@@ -136,13 +136,8 @@
           sudo apt install python3-pip python3-venv -y 2>/dev/null
           sudo apt install lm-sensors pciutils procps python3-distro python3-netifaces sysfsutils virt-what -y 2>/dev/null
           sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev xcb -y 2>/dev/null
-          pip install ansi2txt --break-system-packages --upgrade 2>/dev/null
-          pip install pipx --break-system-packages --upgrade 2>/dev/null
-          pip install scons  --break-system-packages --upgrade 2>/dev/null
-          pip install staticx --break-system-packages --upgrade 2>/dev/null
-          pip install pyinstaller --break-system-packages --upgrade 2>/dev/null
-          pip install py2static --break-system-packages --upgrade 2>/dev/null
-          pip install typer --break-system-packages --upgrade 2>/dev/null
+          pip install ansi2txt pipx scons staticx pyinstaller py2static typer --upgrade 2>/dev/null
+          pip install ansi2txt pipx scons staticx pyinstaller py2static typer --break-system-packages --upgrade 2>/dev/null
     fi 
     #-------------------------------------------------------#
     
@@ -297,8 +292,8 @@
          ##Install Meson & Ninja
           #Install
           sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
-          pip install meson --break-system-packages --upgrade 2>/dev/null
-          pip install ninja --break-system-packages --upgrade 2>/dev/null
+          pip install meson ninja --upgrade 2>/dev/null
+          pip install meson ninja --break-system-packages --upgrade 2>/dev/null
           #python3 -m pip install meson ninja --upgrade
           sudo ln -s "$HOME/.local/bin/meson" "/usr/bin/meson" 2>/dev/null
           sudo ln -s "$HOME/.local/bin/ninja" "/usr/bin/ninja" 2>/dev/null

@@ -123,8 +123,10 @@ jobs:
           #bash "$SYSTMP/BUILD.sh" | tee "$SYSTMP/BUILD.log" 2>&1
           #Run without STDOUT/Logs
           #bash "$SYSTMP/BUILD.sh" >/dev/null 2>&1
+          #rClone Upload logs
+          rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/x86_64_Linux/BUILD.log" --progress --check-first
         continue-on-error: true
-
+#------------------------------------------------------------------------------------#
       #Logs & Artifacts  
       - name: Upload (x86_64_Linux) Artifacts
         uses: actions/upload-artifact@v4

@@ -124,18 +124,30 @@ set +x
     #SHA256SUM
       cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_SHA256SUM"
       rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --progress --check-first
- fi
-#-------------------------------------------------------#
-#Archive Binaries (.7z) (x86_64_Linux) Bins
- if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
-     #7z wastes a lot of time/resources scanning irrelevant dirs : https://superuser.com/questions/1194710/how-do-i-disable-7-zip-directory-scan-for-directories-which-are-not-meant-to-be
-      echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
-       du -h --max-depth="1" "$SYSTMP" 2>/dev/null | sort -hr
-       rm -rf "$SYSTMP/toolpacks" 2>/dev/null
-     #Archive
-       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
-     #Meta
-       du -sh "$BINDIR.7z" && file "$BINDIR.7z"
+    ##Archive Binaries (.7z) (x86_64_Linux) Bins [Downstreamed RCLONE]
+       if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+            echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
+             du -h --max-depth="1" "$SYSTMP" 2>/dev/null | sort -hr
+             rm -rf "$SYSTMP/toolpacks" 2>/dev/null
+           #Fetch&Sync
+             cd "$BINDIR"
+             rclone copy "r2:/bin/x86_64_Linux/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --check-first --progress --stats="120s"
+           #Archive
+             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
+           #Meta
+             du -sh "$BINDIR.7z" && file "$BINDIR.7z"
+       fi
+  else
+   ##Archive Binaries (.7z) (x86_64_Linux) Bins [Only Local]
+     if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+          echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
+           du -h --max-depth="1" "$SYSTMP" 2>/dev/null | sort -hr
+           rm -rf "$SYSTMP/toolpacks" 2>/dev/null
+         #Archive
+           7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
+         #Meta
+           du -sh "$BINDIR.7z" && file "$BINDIR.7z"
+     fi       
  fi
 #-------------------------------------------------------# 
  if command -v rclone &> /dev/null && [ -s "$HOME/.rclone.conf" ] && [ -s "$BINDIR.7z" ]; then
