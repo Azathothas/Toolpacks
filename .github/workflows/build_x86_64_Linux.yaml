@@ -124,11 +124,11 @@ jobs:
           #Run without STDOUT/Logs
           #bash "$SYSTMP/BUILD.sh" >/dev/null 2>&1
           #Purge Tokens (in case set -x & gh didn't redact)
-          sed -i '/.*github_pat.*/d' "$SYSTMP/BUILD.log"
-          sed -i '/.*ghp_.*/d' "$SYSTMP/BUILD.log"
-          sed -i '/.*access_key_id.*/d' "$SYSTMP/BUILD.log"
-          sed -i '/.*secret_access_key.*/d' "$SYSTMP/BUILD.log"
-          sed -i '/.*cloudflarestorage.*/d' "$SYSTMP/BUILD.log"
+          sed -i '/.*github_pat.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
+          sed -i '/.*ghp_.*/d' "$SYSTMP/BUILD.log" 2>/dev/null 
+          sed -i '/.*access_key_id.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
+          sed -i '/.*secret_access_key.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
+          sed -i '/.*cloudflarestorage.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           #rClone Upload logs
           rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/x86_64_Linux/BUILD.log" --progress --check-first
         continue-on-error: true
