@@ -1,11 +1,5 @@
 [
   {
-    "Name": "BLAKE3SUM",
-    "Size": "3648 B",
-    "ModTime": "2024-02-01T01:02:30.275001349Z",
-    "Source": "https://bin.ajam.dev/arm64_v8a_Android/BLAKE3SUM"
-  },
-  {
     "Name": "BLAKE3SUM.txt",
     "Size": "2504 B",
     "ModTime": "2024-02-02T04:20:34.216204733Z",
@@ -19,8 +13,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "6717 B",
-    "ModTime": "2024-02-12T04:10:26.549209466Z",
+    "Size": "6377 B",
+    "ModTime": "2024-02-12T16:10:05.349589089Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json"
   },
   {
@@ -28,12 +22,6 @@
     "Size": "15.27 kB",
     "ModTime": "2024-02-01T01:02:29.875006962Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/README.md"
-  },
-  {
-    "Name": "SHA256SUM",
-    "Size": "3648 B",
-    "ModTime": "2024-02-01T01:02:30.291001125Z",
-    "Source": "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM"
   },
   {
     "Name": "SHA256SUM.txt",
