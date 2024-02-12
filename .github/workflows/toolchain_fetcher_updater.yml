@@ -95,15 +95,13 @@ jobs:
           #Yj
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
         continue-on-error: true
-        
+
 #------------------------------------------------------------------------------------#
-      - name: rClone Update Toolchains
+      - name: rClone Update Toolchains (aarch64)
         run: |
           # Presets
           set -x ; set +e
           #--------------#
-          #touch "$HOME/.rclone.conf"
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"          
           #--------------#
           ##https://toolchains.bootlin.com/releases_aarch64.html
           #--------------#
@@ -261,6 +259,14 @@ jobs:
                cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
+          #--------------#          
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+
+      - name: rClone Update Toolchains (aarch64)
+        run: |
+          # Presets
+          set -x ; set +e
           #--------------#
           #--------------#
           ##https://toolchains.bootlin.com/releases_x86-64.html
