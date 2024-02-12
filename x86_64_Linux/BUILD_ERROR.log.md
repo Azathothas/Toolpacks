@@ -12,7 +12,6 @@
 
 
 
-
 [-] command not found --> # Something failed to Install
 
 
