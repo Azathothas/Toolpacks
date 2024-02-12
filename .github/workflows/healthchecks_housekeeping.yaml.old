@@ -141,19 +141,19 @@ jobs:
           echo -e "\n[+] Uploading Results to R2 (rclone)\n"
           #>/dev/null 2>&1
           cd "/tmp/toolpack_arm64_v8a_Android"
-          rclone copy "." "r2:/bin/arm64_v8a_Android/" --progress --check-first
+          rclone copy "." "r2:/bin/arm64_v8a_Android/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #File
           cd "/tmp/toolpack_arm64_v8a_Android"
           /bin/bash -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_FILE"
-          rclone copyto "/tmp/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --progress --check-first
+          rclone copyto "/tmp/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #BLAKE3SUM
           cd "/tmp/toolpack_arm64_v8a_Android"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_BLAKE3SUM"
-          rclone copyto "/tmp/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --progress --check-first
+          rclone copyto "/tmp/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #SHA256SUM
           cd "/tmp/toolpack_arm64_v8a_Android"
           /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_SHA256SUM"
-          rclone copyto "/tmp/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --progress --check-first
+          rclone copyto "/tmp/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
         continue-on-error: true
 
       - name: Cleanup (arm64_v8a_Android) Bins
@@ -202,19 +202,19 @@ jobs:
           echo -e "\n[+] Uploading Results to R2 (rclone)\n"
           #>/dev/null 2>&1
           cd "/tmp/toolpack_aarch64_arm64"
-          rclone copy "." "r2:/bin/aarch64_arm64_Linux/" --progress --check-first
+          rclone copy "." "r2:/bin/aarch64_arm64_Linux/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #File
           cd "/tmp/toolpack_aarch64_arm64"
           /bin/bash -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "/tmp/aarch64_arm64_Linux_FILE"
-          rclone copyto "/tmp/aarch64_arm64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --progress --check-first
+          rclone copyto "/tmp/aarch64_arm64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #BLAKE3SUM
           cd "/tmp/toolpack_aarch64_arm64"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/aarch64_arm64_Linux_BLAKE3SUM"
-          rclone copyto "/tmp/aarch64_arm64_Linux_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" --progress --check-first
+          rclone copyto "/tmp/aarch64_arm64_Linux_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #SHA256SUM
           cd "/tmp/toolpack_aarch64_arm64"
           /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/aarch64_arm64_Linux_SHA256SUM"
-          rclone copyto "/tmp/aarch64_arm64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --progress --check-first
+          rclone copyto "/tmp/aarch64_arm64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
         continue-on-error: true
 
       - name: Archive Binaries (.7z) (aarch64_arm64_Linux) Bins
@@ -238,15 +238,15 @@ jobs:
           #Upload
           echo -e "\n[+] Uploading Results to R2 (rclone)\n"
           #>/dev/null 2>&1
-          rclone copyto "/tmp/toolpack_aarch64_arm64.7z" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64.7z" --progress --check-first
+          rclone copyto "/tmp/toolpack_aarch64_arm64.7z" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64.7z" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #BLAKE3SUM
           cd "/tmp/"
           /bin/bash -c 'PS4="$ ";b3sum ./toolpack_aarch64_arm64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_aarch64_arm64_BLAKE3SUM"
-          rclone copyto "/tmp/_toolpack_aarch64_arm64_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64_BLAKE3SUM.txt" --progress --check-first
+          rclone copyto "/tmp/_toolpack_aarch64_arm64_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64_BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #SHA256SUM
           cd "/tmp/"
           /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_aarch64_arm64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_aarch64_arm64_SHA256SUM"
-          rclone copyto "/tmp/_toolpack_aarch64_arm64_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64_SHA256SUM.txt" --progress --check-first
+          rclone copyto "/tmp/_toolpack_aarch64_arm64_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64_SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
         continue-on-error: true
 
       - name: Cleanup (aarch64_arm64_Linux) Bins
@@ -302,19 +302,19 @@ jobs:
           echo -e "\n[+] Uploading Results to R2 (rclone)\n"
           #>/dev/null 2>&1
           cd "/tmp/toolpack_x86_64"
-          rclone copy "." "r2:/bin/x86_64_Linux/" --progress --check-first
+          rclone copy "." "r2:/bin/x86_64_Linux/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #File
           cd "/tmp/toolpack_x86_64"
           /bin/bash -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_FILE"
-          rclone copyto "/tmp/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --progress --check-first
+          rclone copyto "/tmp/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #BLAKE3SUM
           cd "/tmp/toolpack_x86_64/"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_BLAKE3SUM"
-          rclone copyto "/tmp/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --progress --check-first
+          rclone copyto "/tmp/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #SHA256SUM
           cd "/tmp/toolpack_x86_64/"
           /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_SHA256SUM"
-          rclone copyto "/tmp/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --progress --check-first
+          rclone copyto "/tmp/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
         continue-on-error: true
 
       - name: Archive Binaries (.7z) (x86_64_Linux) Bins
@@ -338,15 +338,15 @@ jobs:
           #Upload
           echo -e "\n[+] Uploading Results to R2 (rclone)\n"
           #>/dev/null 2>&1
-          rclone copyto "/tmp/toolpack_x86_64.7z" "r2:/bin/x86_64_Linux/_toolpack_x86_64.7z" --progress --check-first
+          rclone copyto "/tmp/toolpack_x86_64.7z" "r2:/bin/x86_64_Linux/_toolpack_x86_64.7z" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #BLAKE3SUM
           cd "/tmp/"
           /bin/bash -c 'PS4="$ ";b3sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_x86_64_BLAKE3SUM"
-          rclone copyto "/tmp/_toolpack_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt" --progress --check-first
+          rclone copyto "/tmp/_toolpack_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #SHA256SUM
           cd "/tmp/"
           /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "/tmp/_toolpack_x86_64_SHA256SUM"
-          rclone copyto "/tmp/_toolpack_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --progress --check-first
+          rclone copyto "/tmp/_toolpack_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
         continue-on-error: true
 
       - name: Cleanup (x86_64_Linux) Bins
@@ -485,7 +485,7 @@ jobs:
           rm -rf "$(pwd)/x86_64"
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --progress --check-first
+          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
         continue-on-error: true
 #EOF
 #------------------------------------------------------------------------------------#
