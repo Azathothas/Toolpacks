@@ -31,7 +31,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export RUST_TARGET="x86_64-unknown-linux-gnu" ; rustup target add "$RUST_TARGET"
        echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
        unset RUSTFLAGS ; cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-       #mv "./target/$RUST_TARGET/release/jless" "$BINDIR/jless"
+       #cp "./target/$RUST_TARGET/release/jless" "$BINDIR/jless"
        staticx --loglevel DEBUG "./target/$RUST_TARGET/release/jless" --strip "$BINDIR/jless_staticx" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#

@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
        cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
        file "./target/$RUST_TARGET/release/htmlq" ; ldd "./target/$RUST_TARGET/release/htmlq" ; ls "./target/$RUST_TARGET/release/htmlq" -lah
-       mv "./target/$RUST_TARGET/release/htmlq" "$BINDIR/htmlq" ; popd > /dev/null 2>&1
+       cp "./target/$RUST_TARGET/release/htmlq" "$BINDIR/htmlq" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -31,7 +31,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
        sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
        rm -rf "./rust-toolchain.toml" 2>/dev/null
-       cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; mv "./target/$RUST_TARGET/release/systemctl-tui" "$BINDIR/systemctl-tui"
+       cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/systemctl-tui" "$BINDIR/systemctl-tui"
 fi
 #-------------------------------------------------------#
 

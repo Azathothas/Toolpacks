@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
        #https://github.com/BlackDex/rust-musl/issues/4
       #  docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:x86_64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-      #  cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; mv "./target/$RUST_TARGET/release/hurl" "$BINDIR/hurl" ; popd > /dev/null 2>&1
+      #  cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/hurl" "$BINDIR/hurl" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

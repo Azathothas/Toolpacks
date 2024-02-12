@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
        #sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  
        #echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
-       #cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; mv "./target/$RUST_TARGET/release/menyoki" "$BINDIR/menyoki
+       #cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/menyoki" "$BINDIR/menyoki
 fi
 #-------------------------------------------------------#
 
