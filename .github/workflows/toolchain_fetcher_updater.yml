@@ -95,6 +95,7 @@ jobs:
           #Yj
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
         continue-on-error: true
+        
 #------------------------------------------------------------------------------------#
       - name: rClone Update Toolchains
         run: |
