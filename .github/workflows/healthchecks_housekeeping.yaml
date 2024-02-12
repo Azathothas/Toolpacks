@@ -402,7 +402,7 @@ jobs:
           ##GLIBC-Stable
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'stable' | sort | tail -n 1)" -O "./aarch64-glibc-stable.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -428,7 +428,7 @@ jobs:
           ##GLIBC-edge
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'edge' | sort | tail -n 1)" -O "./aarch64-glibc-edge.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -454,7 +454,7 @@ jobs:
           ##musl-stable
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'stable' | sort | tail -n 1)" -O "./aarch64-musl-stable.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -480,7 +480,7 @@ jobs:
           ##musl-edge
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'edge' | sort | tail -n 1)" -O "./aarch64-musl-edge.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -506,7 +506,7 @@ jobs:
           ##uclibc-stable
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'stable' | sort | tail -n 1)" -O "./aarch64-uclibc-stable.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -532,7 +532,7 @@ jobs:
           ##uclibc-edge
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'edge' | sort | tail -n 1)" -O "./aarch64-uclibc-edge.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -560,7 +560,7 @@ jobs:
           ##GLIBC-Stable
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'stable' | sort | tail -n 1)" -O "./x86_64-glibc-stable.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -586,7 +586,7 @@ jobs:
           ##GLIBC-edge
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'edge' | sort | tail -n 1)" -O "./x86_64-glibc-edge.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -612,7 +612,7 @@ jobs:
           ##musl-stable
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'stable' | sort | tail -n 1)" -O "./x86_64-musl-stable.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -638,7 +638,7 @@ jobs:
           ##musl-edge
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'edge' | sort | tail -n 1)" -O "./x86_64-musl-edge.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -664,7 +664,7 @@ jobs:
           ##uclibc-stable
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'stable' | sort | tail -n 1)" -O "./x86_64-uclibc-stable.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -690,7 +690,7 @@ jobs:
           ##uclibc-edge
           pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'edge' | sort | tail -n 1)" -O "./x86_64-uclibc-edge.tar.bz2"
           #Extract
-          find . -type f -name '*.bz2' -exec tar -xvf {} \;
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
