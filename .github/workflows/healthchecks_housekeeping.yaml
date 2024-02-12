@@ -135,8 +135,8 @@ jobs:
           #touch "$HOME/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
           ##Clean Stale
-          rclone delete "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins" --exclude="METADATA.json"
-          rclone delete "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins" --exclude="METADATA.json"
+          rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins" --exclude="METADATA.json"
+          rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins" --exclude="METADATA.json"
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           #copy & chdir to Repo
           cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
@@ -150,7 +150,7 @@ jobs:
           # rm -rf "$(pwd)/x64_Windows"
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100
+          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           ##Scripts_x86_64_Linux
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
@@ -388,7 +388,7 @@ jobs:
           # rm -rf "$(pwd)/x86_64"
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100
+          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       - name: rClone Update Toolchains
@@ -416,11 +416,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/aarch64-glibc-stable/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-stable/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -442,11 +442,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/aarch64-glibc-edge/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-edge/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -468,11 +468,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/aarch64-musl-stable/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-stable/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#          
@@ -494,11 +494,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/aarch64-musl-edge/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-edge/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -520,11 +520,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/aarch64-uclibc-stable/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-stable/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -546,11 +546,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/aarch64-uclibc-edge/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-edge/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -574,11 +574,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/x86_64-glibc-stable/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-stable/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -600,11 +600,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/x86_64-glibc-edge/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-edge/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -626,11 +626,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/x86_64-musl-stable/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-stable/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -652,11 +652,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/x86_64-musl-edge/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-edge/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -678,11 +678,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/x86_64-uclibc-stable/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-stable/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -704,11 +704,11 @@ jobs:
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
                jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" 2>/dev/null
-               rclone delete "r2:/pub/toolchains/x86_64-uclibc-edge/" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-edge/" --copy-links --progress --buffer-size 100M --check-first --checkers 100 --transfers 100 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#          
