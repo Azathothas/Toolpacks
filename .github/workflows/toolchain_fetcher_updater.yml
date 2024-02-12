@@ -15,7 +15,7 @@ env:
   R2_PUB_REPO: "https://pub.ajam.dev/repos/Azathothas/Toolpacks"
 #------------------------------------------------------------------------------------#  
 jobs:
-  check:
+  fetch:
     runs-on: ubuntu-latest
     
     permissions:
