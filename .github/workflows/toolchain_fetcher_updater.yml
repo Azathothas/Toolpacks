@@ -15,7 +15,9 @@ env:
   R2_PUB_REPO: "https://pub.ajam.dev/repos/Azathothas/Toolpacks"
 #------------------------------------------------------------------------------------#  
 jobs:
-  fetch:
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  fetch-aarch64-toolchains:
     runs-on: ubuntu-latest
     
     permissions:
@@ -96,7 +98,6 @@ jobs:
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
         continue-on-error: true
 
-#------------------------------------------------------------------------------------#
       - name: rClone Update Toolchains (aarch64)
         run: |
           # Presets
@@ -261,7 +262,88 @@ jobs:
           popd > /dev/null 2>&1
           #--------------#          
         continue-on-error: true
+#------------------------------------------------------------------------------------#        
 #------------------------------------------------------------------------------------#
+  fetch-x86-64-toolchains:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #12.0 GB 
+          sudo rm /usr/local/lib/android -rf 2>/dev/null
+          #8.2 GB
+          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
+          #5.0 GB
+          sudo rm /usr/local/.ghcup -rf 2>/dev/null
+          #2.0 GB
+          sudo rm /usr/share/dotnet -rf 2>/dev/null
+          #1.7 GB
+          sudo rm /usr/share/swift -rf 2>/dev/null
+          #1.1 GB
+          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
+          #1.0 GB
+          sudo rm /usr/local/share/powershell -rf 2>/dev/null
+          #500 MB
+          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+        continue-on-error: true
+        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set -x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          ##Setup rClone
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #csvtk
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
 
       - name: rClone Update Toolchains (aarch64)
         run: |
