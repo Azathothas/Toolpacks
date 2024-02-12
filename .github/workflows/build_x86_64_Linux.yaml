@@ -130,7 +130,7 @@ jobs:
           sed -i '/.*secret_access_key.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*cloudflarestorage.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           #rClone Upload logs
-          rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/x86_64_Linux/BUILD.log" --progress --check-first
+          rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/x86_64_Linux/BUILD.log.txt" --progress --check-first
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       #Logs & Artifacts  
