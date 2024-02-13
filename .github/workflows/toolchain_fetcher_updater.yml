@@ -345,7 +345,7 @@ jobs:
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
         continue-on-error: true
 
-      - name: rClone Update Toolchains (aarch64-bootlin)
+      - name: rClone Update Toolchains (x86_64-bootlin)
         run: |
           # Presets
           set -x ; set +e
