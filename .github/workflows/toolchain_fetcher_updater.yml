@@ -655,9 +655,9 @@ jobs:
           popd > /dev/null 2>&1
           #--------------#
           ##aarch64-windows
-          pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."aarch64-windows".tarball')" -O "./aarch64-zig-windows.tar.xz"
+          pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."aarch64-windows".tarball')" -O "./aarch64-zig-windows.zip"
           #Extract
-          find . -type f -name '*.xz' -exec tar -xf {} \;
+          find . -type f -name '*.zip' -exec unzip -q {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -673,10 +673,10 @@ jobs:
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
                jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows.tar.xz" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows.zip" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-windows.tar.xz" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-windows.zip" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
                cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-zig-windows/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi
           popd > /dev/null 2>&1
@@ -745,9 +745,9 @@ jobs:
           popd > /dev/null 2>&1
           #--------------#
           ##x86_64-windows
-          pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-windows".tarball')" -O "./x86_64-zig-windows.tar.xz"
+          pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-windows".tarball')" -O "./x86_64-zig-windows.zip"
           #Extract
-          find . -type f -name '*.xz' -exec tar -xf {} \;
+          find . -type f -name '*.zip' -exec unzip -q {} \;
           #Get Extracted Dir
           ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
           EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
@@ -763,12 +763,12 @@ jobs:
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
                jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
                #rm
-               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows.tar.xz" 2>/dev/null
+               rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows.zip" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-windows.tar.xz" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-windows.zip" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
                cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-zig-windows/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
           fi
           popd > /dev/null 2>&1
         continue-on-error: true                                                            
-#------------------------------------------------------------------------------------#          
+#------------------------------------------------------------------------------------#
