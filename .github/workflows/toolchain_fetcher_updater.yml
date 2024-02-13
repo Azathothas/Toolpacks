@@ -617,7 +617,7 @@ jobs:
                curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."aarch64-linux"' | jq . > "$EXTRACTED_DIR/INFO.json"
                #txt
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-linux.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-linux/" 2>/dev/null
@@ -644,7 +644,7 @@ jobs:
                curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."aarch64-macos"' | jq . > "$EXTRACTED_DIR/INFO.json"
                #txt
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-macos.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-macos/" 2>/dev/null
@@ -671,7 +671,7 @@ jobs:
                curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."aarch64-windows"' | jq . > "$EXTRACTED_DIR/INFO.json"
                #txt
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows.zip" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows/" 2>/dev/null
@@ -707,7 +707,7 @@ jobs:
                curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."x86_64-linux"' | jq . > "$EXTRACTED_DIR/INFO.json"
                #txt
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-linux.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-linux/" 2>/dev/null
@@ -734,7 +734,7 @@ jobs:
                curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."x86_64-macos"' | jq . > "$EXTRACTED_DIR/INFO.json"
                #txt
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-macos.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-macos/" 2>/dev/null
@@ -761,7 +761,7 @@ jobs:
                curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."x86_64-windows"' | jq . > "$EXTRACTED_DIR/INFO.json"
                #txt
                curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows.zip" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows/" 2>/dev/null
