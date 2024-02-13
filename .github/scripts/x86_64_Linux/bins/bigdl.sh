@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/xplshn/bigdl" && cd "./bigdl"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./bigdl" "$BINDIR/bigdl" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; mv "./bigDL" "$BINDIR/bigDL" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 
