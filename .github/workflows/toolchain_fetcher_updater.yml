@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   schedule:
   #  - cron: "45 03 * * *"  # 03:45 AM UTC --> 09:30 AM Morning NPT
-   - cron: "0 */3 * * *"  # Every 03 HRs
+   - cron: "0 */8 * * *"  # Every 8 HRs
 
 env:
   USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
@@ -121,7 +121,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable/" 2>/dev/null
@@ -147,7 +147,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge/" 2>/dev/null
@@ -173,7 +173,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable/" 2>/dev/null
@@ -199,7 +199,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge/" 2>/dev/null
@@ -225,7 +225,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable/" 2>/dev/null
@@ -251,7 +251,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge/" 2>/dev/null
@@ -368,7 +368,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable/" 2>/dev/null
@@ -394,7 +394,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge/" 2>/dev/null
@@ -420,7 +420,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable/" 2>/dev/null
@@ -446,7 +446,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge/" 2>/dev/null
@@ -472,7 +472,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable/" 2>/dev/null
@@ -498,7 +498,7 @@ jobs:
                echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
                #Get metadata
                csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
-               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
                #rm
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge/" 2>/dev/null
