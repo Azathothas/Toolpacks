@@ -1,8 +1,8 @@
  15M └─┬ main
-7.3M   ├─┬ x86_64_Linux
+7.4M   ├─┬ x86_64_Linux
 6.7M   │ ├── BUILD.log.txt
+232K   │ ├── METADATA.json
 220K   │ ├── README.md
-104K   │ ├── METADATA.json
 100K   │ ├── FILE.txt
  48K   │ ├── SHA256SUM.txt
  48K   │ ├── BLAKE3SUM.txt
