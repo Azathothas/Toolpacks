@@ -1,0 +1,82 @@
+name: 🐬 Builds GH-Runner Images (Self-Hosted) DockerHub 🐬
+#REF: https://docs.docker.com/build/ci/github-actions/multi-platform/
+#SECRETS: DOCKERHUB_USERNAME || DOCKERHUB_TOKEN
+#URL: https://hub.docker.com/r/azathothas/gh-runner-aarch64-Linux/tags
+#For: https://github.com/Azathothas/Toolpacks/settings/actions/runners
+#------------------------------------------------------------------------------------#
+on:
+  #push:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 08 * * 6"  # 08:30 PM UTC Sat (02:15 AM NPT Sun Midnight) 
+  #  - cron: "*/30 * * * *"  # Every 30 Mins
+defaults:
+  run:
+    shell: bash
+    working-directory: /tmp
+#------------------------------------------------------------------------------------#  
+jobs:
+  build-push-docker:
+    name: Push image Docker Hub
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Docker Tags
+          DOCKER_TAG="v$(date +'%Y.%m.%d')" && export DOCKER_TAG="$DOCKER_TAG"
+          echo "DOCKER_TAG=$DOCKER_TAG" >> "$GITHUB_ENV"
+          #Copy dockerfiles
+          cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/ubuntu-systemd-base.dockerfile"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/aarch64-ubuntu.dockerfile"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/startup.sh"
+        continue-on-error: true
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+        continue-on-error: true
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+        continue-on-error: true
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: "${{ secrets.DOCKERHUB_USERNAME }}"
+          password: "${{ secrets.DOCKERHUB_TOKEN }}"
+        continue-on-error: true
+
+      - name: Docker Build and Push (Ubuntu-Systemd-Base)
+        uses: docker/build-push-action@v5
+        with:
+          context: /tmp
+          file: "/tmp/ubuntu-systemd-base.dockerfile"
+          platforms: "linux/amd64,linux/arm64"
+          tags: |
+            azathothas/ubuntu-systemd-base:latest
+            azathothas/ubuntu-systemd-base:${{ env.DOCKER_TAG }}
+          push: true  
+        continue-on-error: true
+
+      - name: Docker Build and Push (gh-runner-aarch64-ubuntu)
+        uses: docker/build-push-action@v5
+        with:
+          context: /tmp
+          file: "/tmp/aarch64-ubuntu.dockerfile"
+          platforms: "linux/amd64,linux/arm64"
+          tags: |
+            azathothas/gh-runner-aarch64-ubuntu:latest
+            azathothas/gh-runner-aarch64-ubuntu:${{ env.DOCKER_TAG }}
+          push: true
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
