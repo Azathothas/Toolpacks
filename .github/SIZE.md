@@ -10,9 +10,9 @@
  20K   │ ├── SIZE.txt
  20K   │ ├── SIZE.md
 8.0K   │ └── BUILD_ERROR.log.md
-7.2M   ├─┬ aarch64_arm64_Linux
+7.1M   ├─┬ aarch64_arm64_Linux
 6.7M   │ ├── BUILD.log.txt
-140K   │ ├── README.md
+136K   │ ├── README.md
 104K   │ ├── METADATA.json
  96K   │ ├── FILE.txt
  48K   │ ├── SHA256SUM.txt
@@ -20,7 +20,7 @@
  16K   │ ├── SIZE.txt
  16K   │ ├── SIZE.md
  12K   │ └── BUILD_ERROR.log.md
-560K   ├── metadata.json
+556K   ├── metadata.json
 464K   ├── metadata.toml
  44K   ├─┬ arm64_v8a_Android
  12K   │ ├── README.md
