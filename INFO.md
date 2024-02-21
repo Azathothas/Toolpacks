@@ -9,6 +9,10 @@
 </p>
 
 #### Contents
+> - [**📖 Docs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
+> > - [**` How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
+> > - [**` Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
+> > - [**` Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
 > - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
 > > - [**`📦Linux x86_64📦`**](https://github.com/Azathothas/Toolpacks/tree/main#linux-amd-x86_64) 
 > > - [**`📦Linux aarch64📦`**](https://github.com/Azathothas/Toolpacks/tree/main#linux-aarch64_arm64)
