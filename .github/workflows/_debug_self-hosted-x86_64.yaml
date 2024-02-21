@@ -1,4 +1,4 @@
-name: 0xf (Self-Hosted) ➼ Debugger (arm)
+name: 0xf (Self-Hosted) ➼ Debugger (x86_64)
 #Runner: https://github.com/Azathothas/Toolpacks/settings/actions/runners
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ env:
   DEBIAN_FRONTEND: "noninteractive"
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
   RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
-  THOST: "gh-runner-self-arm64"
+  THOST: "gh-runner-self-x86-64"
   TUSER: "runner"
 jobs:
   connect:

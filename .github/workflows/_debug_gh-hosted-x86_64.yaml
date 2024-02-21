@@ -1,4 +1,4 @@
-name: 0xf (Self-Hosted) ➼ Debugger (aarch64)
+name: 0xf (Self-Hosted) ➼ Debugger (x86_64)
 #Runner: https://github.com/Azathothas/Toolpacks/settings/actions/runners
 on:
   workflow_dispatch:
@@ -6,15 +6,15 @@ env:
   DEBIAN_FRONTEND: "noninteractive"
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
   RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
-  THOST: "gh-runner-self-arm64"
+  THOST: "gh-runner-x86-64"
   TUSER: "runner"
 jobs:
   connect:
-    runs-on: arm64x-gcp-4x-16GB-120GB
+    runs-on: ubuntu-latest
     #Default Timeout= 6 Hr (360 Mins) : https://nesin.io/blog/github-action-timeout
     #Docs: https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration
     #It's best to cause this timeout from your own side (Low to No chance of GH Disabling your repo) rather than gh (High Chance of them disabling your repo)
-    timeout-minutes: 6900 
+    timeout-minutes: 355 
     permissions:
       contents: write
       
@@ -26,8 +26,8 @@ jobs:
           set +x ; set +e
           export USER="${{ env.TUSER }}"
           #--------------#
-          sudo curl -qfSL "https://bin.ajam.dev/aarch64_arm64_Linux/tailscale" -o "/usr/local/bin/tailscale"
-          sudo curl -qfSL "https://bin.ajam.dev/aarch64_arm64_Linux/tailscaled" -o "/usr/local/bin/tailscaled"
+          sudo curl -qfSL "https://bin.ajam.dev/x86_64_Linux/tailscale" -o "/usr/local/bin/tailscale"
+          sudo curl -qfSL "https://bin.ajam.dev/x86_64_Linux/tailscaled" -o "/usr/local/bin/tailscaled"
           sudo chmod +xwr /usr/local/bin/tailscale*
           sudo tailscaled --tun=userspace-networking --socks5-server=localhost:9025 --outbound-http-proxy-listen=localhost:9025 >/dev/null 2>&1 &
           sudo tailscale up --ssh --hostname="${{ env.THOST }}" --authkey="${{ secrets.TSKEY }}"
@@ -77,13 +77,13 @@ jobs:
           #--------------#
           #PATH
           export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
-          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #TMPDIRS
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #For build-cache
-          TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_linux_aarch64" && export TMPDIRS="$TMPDIRS"
+          TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_linux_x86_64" && export TMPDIRS="$TMPDIRS"
           rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
           #For Bins
-          BINDIR="$SYSTMP/toolpack_aarch64" && export BINDIR="$BINDIR"
+          BINDIR="$SYSTMP/toolpack_x86_64" && export BINDIR="$BINDIR"
           rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
           ##Sane Configs
           #In case of removed/privated GH repos
@@ -92,7 +92,9 @@ jobs:
           #https://git-scm.com/docs/git#Documentation/git.txt-codeGITASKPASScode
           export GIT_ASKPASS="/bin/echo"
           ##RUN
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/init_debian.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/init_debian.sh")
+        continue-on-error: true
+
      #This keeps GH Actions hypnotized until timeout                
       - name: Breakpoint || Sleep ∞
         run: |
