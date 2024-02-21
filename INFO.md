@@ -30,7 +30,8 @@
 |[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|PLACEHOLDER_aarch64_arm64_Linux| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
 
 > - Raw [**`metadata`**](https://github.com/Azathothas/Toolpacks/blob/main/metadata.json) containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
-> - Raw **`metadata`** containing info for _sources_ etc is available as **JSON** on [bin.ajam.dev](https://bin.ajam.dev)
+> - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as **JSON** on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json)
+> - See: [Parse METADATA.json](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---
 #### 🔽 Download 🔽
 - ##### GUI
