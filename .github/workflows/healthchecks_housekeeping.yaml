@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   schedule:
   #  - cron: "45 03 * * *"  # 03:45 AM UTC --> 09:30 AM Morning NPT
-   - cron: "0 */2 * * *"  # Every 02 Hrs
+   - cron: "0 */3 * * *"  # Every 03 Hrs
 
 env:
   USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
@@ -771,7 +771,7 @@ jobs:
       - name: Merge & Update ("bin.ajam.dev/METADATA.json")
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           ##Fetch
           #arm64_v8a_Android
