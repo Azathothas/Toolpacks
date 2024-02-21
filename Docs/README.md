@@ -55,4 +55,4 @@
 > Hence, if all you want to do is request for some packages/tools to be added, you are better off creating an Issue instead. Read: https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool
 >
 > However, if it's not related to `code | asking for more packages` to be included, you can **contribute/help me by donating a build server**. Either `arm (Preferred)` or `amd x86_64`.
-> Servers & Storage cost money, right now I pay for arm based runners & R2 Bucket. I am at the mercy of Github for x86-64 Servers.
+> Servers & Storage cost money, right now I pay for arm based runners & R2 Bucket (70-100$/Month). I am at the mercy of Github for x86-64 Servers.
