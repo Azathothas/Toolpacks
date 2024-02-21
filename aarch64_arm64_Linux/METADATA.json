@@ -25,15 +25,9 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "228.4 kB",
-    "ModTime": "2024-02-21T06:40:48.798184327Z",
+    "Size": "228.24 kB",
+    "ModTime": "2024-02-21T08:39:22.455250277Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json"
-  },
-  {
-    "Name": "METADATA.json.tmp",
-    "Size": "139.43 kB",
-    "ModTime": "2024-02-21T08:02:05.782533654Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json.tmp"
   },
   {
     "Name": "SHA256SUM.txt",
