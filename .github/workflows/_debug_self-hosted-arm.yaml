@@ -39,21 +39,16 @@ jobs:
           echo -e "\n [+] ${GREEN}openvscode-server: ${BLUE}http://$TS_DNS:8080${NC}\n"
         continue-on-error: true
 
-     #Replace with any extra things you want to do             
-      - name: Run Custom Cmd
-        run: |
-           echo "Hellow"
-           sudo apt-get install apt-utils software-properties-common -y
-        continue-on-error: true
-
-     #Replace with any extra things you want to do             
       - name: Set TZ to (Asia/Kathmandu)
         run: |
-           echo "Hellow"
-           sudo apt-get update -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
-           sudo ln -fs "/usr/share/zoneinfo/Asia/Kathmandu" "/etc/localtime"
-           sudo dpkg-reconfigure --frontend noninteractive tzdata
-           sudo apt-get update -y
+          # Presets
+          set +x ; set +e
+          #--------------#        
+          sudo apt-get update -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+          sudo ln -fs "/usr/share/zoneinfo/Asia/Kathmandu" "/etc/localtime"
+          sudo dpkg-reconfigure --frontend noninteractive tzdata
+          sudo apt-get install apt-utils software-properties-common -y           
+          sudo apt-get update -y
         continue-on-error: true
 
       - name: Get latest Python
