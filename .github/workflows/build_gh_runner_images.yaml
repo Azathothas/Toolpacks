@@ -38,6 +38,7 @@ jobs:
           #Copy dockerfiles
           cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/ubuntu-systemd-base.dockerfile"
           cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/aarch64-ubuntu.dockerfile"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/x86_64-ubuntu.dockerfile" "/tmp/x86_64-ubuntu.dockerfile"
           cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/startup.sh"
         continue-on-error: true
 
@@ -79,4 +80,16 @@ jobs:
             azathothas/gh-runner-aarch64-ubuntu:${{ env.DOCKER_TAG }}
           push: true
         continue-on-error: true
+
+      - name: Docker Build and Push (gh-runner-x86_64-ubuntu)
+        uses: docker/build-push-action@v5
+        with:
+          context: /tmp
+          file: "/tmp/x86_64-ubuntu.dockerfile"
+          platforms: "linux/amd64,linux/arm64"
+          tags: |
+            azathothas/gh-runner-x86_64-ubuntu:latest
+            azathothas/gh-runner-x86_64-ubuntu:${{ env.DOCKER_TAG }}
+          push: true
+        continue-on-error: true        
 #------------------------------------------------------------------------------------#
