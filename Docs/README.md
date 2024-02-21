@@ -29,7 +29,8 @@
 > This contains notes on compiling static binaries. However, if there's already a static binary that's released, you can [just use eget to fetch it.](https://github.com/zyedidia/eget)
 > 3. After you have successfully `built/compiled/fetched` a **static** binary, you must check that it's truly static : [Tests](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#tests)
 > 4. After all this, finally describe & provide step-by-step instruction by [creating a new issue](https://github.com/Azathothas/Toolpacks/issues/new)
-> Make sure to include **ALL Steps** (Including getting source code). Be as verbose as possible. Include output of `file` | `ldd` | `readelf`. ***If you don't put effort into requesting a tool/pkg to be added here, neither will I.***
+> Make sure to include **ALL Steps** (Including getting source code). Be as verbose as possible. Include output of `file` | `ldd` | `readelf`. Optionally, also test the binary with `qemu-$ARCH-static` or a minimal VM/Docker Image (Preferably alpine) to ensure that it really does work.
+> 5. ***If you don't put effort into requesting a tool/pkg to be added here, neither will I.***
 
 ---
 - #### Why not many Android Binaries?
