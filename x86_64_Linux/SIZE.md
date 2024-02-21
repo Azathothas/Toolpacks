@@ -1,5 +1,5 @@
 ```mathematica
- 7.4G └─┬ toolpack_x86_64
+ 7.5G └─┬ toolpack_x86_64
  160M   ├── sliver-server
  152M   ├── usql
  143M   ├── aws-nuke
@@ -7,8 +7,8 @@
  132M   ├── cloudfox
   98M   ├── gitea
   93M   ├── cloudlist
-  88M   ├── promtail
   88M   ├── trufflehog
+  88M   ├── promtail
   87M   ├── k9s
   83M   ├── hugo
   82M   ├── istioctl
@@ -22,9 +22,10 @@
   59M   ├── nushell
   59M   ├── nu
   59M   ├── alist
+  56M   ├── dockerd
   56M   ├── logcli
   55M   ├── rclone
-  51M   ├── melange
+  52M   ├── melange
   48M   ├── jc
   48M   ├── bearer
   48M   ├── matterbridge
@@ -39,7 +40,6 @@
   36M   ├── crictl
   35M   ├── kopia
   34M   ├── amass
-  34M   ├── git-xet
   34M   ├── sliver-client
   34M   ├── katana
   34M   ├── tdl
@@ -47,6 +47,7 @@
   33M   ├── cloudreve
   32M   ├── surf
   32M   ├── shellz
+  32M   ├── git-xet
   32M   ├── mlr
   31M   ├── edgevpn
   29M   ├── aix
@@ -57,9 +58,9 @@
   28M   ├── zellij
   27M   ├── osmedeus
   27M   ├── loki-canary
+  27M   ├── qbittorrent-nox
   27M   ├── subfinder
   27M   ├── netbird
-  27M   ├── qbittorrent-nox
   27M   ├── tlsx
   26M   ├── maddy
   26M   ├── relic
@@ -81,8 +82,10 @@
   23M   ├── devpod
   23M   ├── xetmnt
   23M   ├── dnsx
+  22M   ├── docker
   22M   ├── boltconn
   22M   ├── interactsh-server
+  22M   ├── vpnkit
   22M   ├── etcd
   22M   ├── syncthing
   22M   ├── reader
@@ -110,6 +113,7 @@
   19M   ├── s3scanner
   18M   ├── luet
   18M   ├── sish
+  18M   ├── ctr
   18M   ├── rekor-cli
   18M   ├── miniflux
   18M   ├── mailpit
@@ -161,11 +165,14 @@
   12M   ├── ffufw
   12M   ├── cent
   12M   ├── mabel
+  12M   ├── git-cliff
   12M   ├── bucketloot
   12M   ├── sysbox-fs
   12M   ├── mdcat
   11M   ├── rebuildctl
+  11M   ├── containerd-shim-runc-v2
   11M   ├── fq
+  11M   ├── x8
   11M   ├── multirootca
   11M   ├── sysbox-mgr
   11M   ├── tty2web
@@ -202,7 +209,6 @@
  9.7M   ├── goop
  9.6M   ├── wormhole-rs
  9.6M   ├── ngocok
- 9.5M   ├── git-cliff
  9.5M   ├── shortscan
  9.5M   ├── yq
  9.5M   ├── cfssl-newkey
@@ -244,7 +250,6 @@
  8.4M   ├── wstunnel
  8.4M   ├── rustypaste
  8.4M   ├── noir
- 8.3M   ├── x8
  8.3M   ├── hostctl
  8.3M   ├── aria2c
  8.3M   ├── chisel
@@ -254,16 +259,16 @@
  8.1M   ├── sns
  8.1M   ├── tgpt
  8.0M   ├── ladder
+ 8.0M   ├── ov
  8.0M   ├── syncat
  8.0M   ├── planor
  7.9M   ├── viddy
- 7.9M   ├── ov
  7.9M   ├── sj
  7.9M   ├── gau
  7.8M   ├── cog
  7.8M   ├── gosec
+ 7.8M   ├── rootlesskit
  7.8M   ├── ffuf
- 7.7M   ├── rootlesskit
  7.7M   ├── gobuster
  7.7M   ├── cherrybomb
  7.7M   ├── enola
@@ -272,6 +277,7 @@
  7.5M   ├── sake
  7.5M   ├── puredns
  7.4M   ├── nmap
+ 7.4M   ├── croc
  7.4M   ├── systemctl-tui
  7.4M   ├── fingerprintx
  7.4M   ├── sshx
@@ -324,8 +330,8 @@
  5.9M   ├── wadl-dumper
  5.8M   ├── rescope
  5.8M   ├── nginx
- 5.8M   ├── delta
  5.8M   ├── amp
+ 5.8M   ├── delta
  5.8M   ├── albafetch
  5.8M   ├── pathbuster
  5.7M   ├── u-root
@@ -362,8 +368,8 @@
  5.0M   ├── fblog
  5.0M   ├── gfx
  5.0M   ├── wth
- 5.0M   ├── xurls
  5.0M   ├── bigdl
+ 5.0M   ├── xurls
  4.9M   ├── dnstake
  4.9M   ├── mantra
  4.9M   ├── hysp
@@ -374,6 +380,7 @@
  4.9M   ├── analyticsrelationships
  4.9M   ├── airixss
  4.9M   ├── waybackurls
+ 4.8M   ├── rootlesskit-docker-proxy
  4.8M   ├── gup
  4.8M   ├── mani
  4.7M   ├── gxss
@@ -390,9 +397,9 @@
  4.6M   ├── enumerepo
  4.6M   ├── bottom
  4.5M   ├── ssh
- 4.5M   ├── realm
  4.5M   ├── gotld
  4.5M   ├── certstream
+ 4.5M   ├── realm
  4.5M   ├── onetun
  4.5M   ├── mkbundle
  4.4M   ├── gpg-tui
@@ -504,7 +511,6 @@
  2.3M   ├── mdsh
  2.3M   ├── encode
  2.3M   ├── hadolint
- 2.3M   ├── croc
  2.3M   ├── redive
  2.2M   ├── jq
  2.2M   ├── pkgtop
@@ -532,6 +538,7 @@
  1.8M   ├── xargs-rs
  1.8M   ├── pueued
  1.8M   ├── age-keygen
+ 1.8M   ├── docker-proxy
  1.7M   ├── pueue
  1.7M   ├── jaq
  1.7M   ├── uip
@@ -543,6 +550,7 @@
  1.6M   ├── mmv
  1.6M   ├── jless_staticx
  1.5M   ├── miniserve
+ 1.5M   ├── progress
  1.5M   ├── genscope
  1.5M   ├── tcpdump
  1.5M   ├── mksub
@@ -581,11 +589,11 @@
  1.2M   ├── z
  1.2M   ├── su-rs
  1.1M   ├── zstd
- 1.1M   ├── killport
  1.1M   ├── busybox
  1.1M   ├── awk
  1.1M   ├── catatonit
  1.0M   ├── jql
+1008K   ├── killport
  976K   ├── svg-hush
  956K   ├── cpufetch
  948K   ├── hexyl
@@ -595,6 +603,7 @@
  892K   ├── csview
  836K   ├── anewer
  740K   ├── toybox
+ 692K   ├── docker-init
  604K   ├── elfcat
  600K   ├── ncdu
  536K   ├── neofetch
@@ -627,10 +636,12 @@
   20K   ├── try
   20K   ├── resdns
   16K   ├── tldr
+  16K   ├── dockerd-rootless-setuptool.sh
   16K   ├── bdl.sh
   12K   ├── fastfetch
  8.0K   ├── sk-tmux
  8.0K   ├── gsocket
+ 8.0K   ├── dockerd-rootless.sh
  4.0K   ├── subxtract
  4.0K   ├── sshd_config
  4.0K   ├── scopeview
