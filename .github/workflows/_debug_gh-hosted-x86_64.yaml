@@ -1,4 +1,4 @@
-name: 0xf (Self-Hosted) ➼ Debugger (x86_64)
+name: 0xf (GH-Hosted) ➼ Debugger (x86_64)
 #Runner: https://github.com/Azathothas/Toolpacks/settings/actions/runners
 on:
   workflow_dispatch:
