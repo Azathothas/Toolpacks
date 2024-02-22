@@ -3,6 +3,19 @@
 ##Helper Script to auto run self-hosted runners
 
 #------------------------------------------------------------------------------------#
+#Requires passwordless sudo 
+if sudo -n true 2>/dev/null; then
+   echo -e "\n[+] Passwordless sudo is Configured"
+   sudo grep -E '^\s*[^#]*\s+ALL\s*=\s*\(\s*ALL\s*\)\s+NOPASSWD:' "/etc/sudoers" 2>/dev/null
+else
+   echo -e "\n[-] Passwordless sudo is NOT Configured"
+   echo -e "\n[-] READ: https://web.archive.org/web/20230614212916/https://linuxhint.com/setup-sudo-no-password-linux/\n"
+   #exit
+   exit 1
+fi
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
 ##ENV
 #Name+{rand}
 if [ -z "$DOCKER_CONTAINER_NAME" ]; then
@@ -43,15 +56,15 @@ fi
 #------------------------------------------------------------------------------------#
 #Stop Existing
 echo -e "\n[+] Cleaning PreExisting Container\n"
-docker stop "$(docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null
-docker stop "$(docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${DOCKER_LOG_FILE})\n"
-set -x && nohup docker run --runtime "sysbox-runc" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
+set -x && nohup sudo docker run --runtime "sysbox-runc" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
 set +x && sleep 120
 #Get logs
-DOCKER_ID="$(docker ps -qf name=${DOCKER_CONTAINER_NAME})" && export DOCKER_ID="${DOCKER_ID}"
-DOCKER_LOGPATH="$(docker inspect --format='{{.LogPath}}' ${DOCKER_CONTAINER_NAME})" && export DOCKER_LOGPATH="${DOCKER_LOGPATH}"
+DOCKER_ID="$(sudo docker ps -qf name=${DOCKER_CONTAINER_NAME})" && export DOCKER_ID="${DOCKER_ID}"
+DOCKER_LOGPATH="$(sudo docker inspect --format='{{.LogPath}}' ${DOCKER_CONTAINER_NAME})" && export DOCKER_LOGPATH="${DOCKER_LOGPATH}"
 echo -e "\n[+] Writing Logs to ${DOCKER_LOGPATH} (${DOCKER_CONTAINER_NAME} :: ${DOCKER_ID})\n"
 #sudo jq -r '.log' "${DOCKER_LOGPATH}""
 #Monitor & Stop on Exit
@@ -61,7 +74,7 @@ while true; do
     if echo "$LOGS" | grep -q "s6-rc: info: service s6rc-oneshot-runner successfully stopped"; then
       echo -e "\n[+] Stopping... (${DOCKER_CONTAINER_NAME} :: ${DOCKER_ID})\n"
       sudo jq -r '.log' "${DOCKER_LOGPATH}" | grep -i -A 999999 "Exiting runner"
-      docker stop "$(docker ps -aqf name=${DOCKER_CONTAINER_NAME})"
+      sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})"
       export SHUTDOWN=true
       break
     fi
@@ -77,8 +90,8 @@ done
 echo -e "\n\n[+] Completed Runner ${DOCKER_CONTAINER_NAME} (LOGFILE: ${DOCKER_LOG_FILE})\n\n"
 sed '/^$/d' "${DOCKER_LOG_FILE}"
 echo -e "\n\n[+] Listing All Running Containers\n"
-docker ps ; echo
-echo -e 'RUN (Remove ALL Containers): docker ps -aq | xargs docker stop 2>/dev/null && docker rm "$(docker ps -aq)"' && echo
-echo -e 'RUN (Remove ALL Images): docker rmi -f $(docker images -q) >/dev/null 2>&1' && echo
+sudo docker ps ; echo
+echo -e 'RUN (Remove ALL Containers): sudo docker ps -aq | xargs sudo docker stop 2>/dev/null && sudo docker rm "$(docker ps -aq)"' && echo
+echo -e 'RUN (Remove ALL Images): sudo docker rmi -f $(docker images -q) >/dev/null 2>&1' && echo
 #EOF
 #------------------------------------------------------------------------------------#
