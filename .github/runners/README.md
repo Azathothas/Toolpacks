@@ -40,12 +40,15 @@
 > !# Install Deps
 > sudo apt-get install fuse3 libfuse-dev -y
 > sudo apt-get install "linux-headers-$(uname -r)" -y
+> sudo apt-get install linux-headers-{amd64|arm64} -y
 > sudo apt-get --fix-broken install -y
-> 
-> !# Get .Deb PKGS
-> https://github.com/nestybox/sysbox/releases/latest
-> pushd "$(mktemp -d)" > /dev/null 2>&1 && eget "https://downloads.nestybox.com/sysbox/releases/v0.6.3/sysbox-ce_0.6.3-0.linux_arm64.deb" -d --to "sysbox.deb"
-> !# Install
-> sudo dpkg -i "./sysbox.deb" ; popd > /dev/null 2>&1
+> # Get .Deb PKGS
+> #aarch64 | arm64
+> pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --quiet --show-progress "$(curl -qfsSL 'https://api.github.com/repos/nestybox/sysbox/releases/latest' | jq -r '.body' | sed -n 's/.*(\(https:\/\/.*\.deb\)).*/\1/p' | grep -i 'arm64')" -O "./sysbox.deb" && sudo dpkg -i "./sysbox.deb" ; popd > /dev/null 2>&1
 > sudo apt-get autoremove -y ; sudo apt-get update -y && sudo apt-get upgrade -y
+> #amd x86_64
+> pushd "$(mktemp -d)" > /dev/null 2>&1 && wget --quiet --show-progress "$(curl -qfsSL 'https://api.github.com/repos/nestybox/sysbox/releases/latest' | jq -r '.body' | sed -n 's/.*(\(https:\/\/.*\.deb\)).*/\1/p' | grep -i 'amd64')" -O "./sysbox.deb" && sudo dpkg -i "./sysbox.deb" ; popd > /dev/null 2>&1
+> sudo apt-get autoremove -y ; sudo apt-get update -y && sudo apt-get upgrade -y
+> #Test
+> sysbox-runc --version
 > ```
