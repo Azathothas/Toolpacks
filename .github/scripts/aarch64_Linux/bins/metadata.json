@@ -2,7 +2,7 @@
   {
     "Name": "7z.sh",
     "Size": "1843 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/7z.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -11,7 +11,7 @@
   {
     "Name": "METADATA.json",
     "Size": "143.76 kB",
-    "ModTime": "2024-02-22T09:18:58.674804997Z",
+    "ModTime": "2024-02-22T12:27:13.860789838Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -20,7 +20,7 @@
   {
     "Name": "act.sh",
     "Size": "1639 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/act.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -29,7 +29,7 @@
   {
     "Name": "actionlint.sh",
     "Size": "1681 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/actionlint.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -38,7 +38,7 @@
   {
     "Name": "age.sh",
     "Size": "2064 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/age.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -47,7 +47,7 @@
   {
     "Name": "agg.sh",
     "Size": "2418 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/agg.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -56,7 +56,7 @@
   {
     "Name": "agrind.sh",
     "Size": "2473 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/agrind.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -65,7 +65,7 @@
   {
     "Name": "airixss.sh",
     "Size": "2002 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/airixss.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -74,7 +74,7 @@
   {
     "Name": "aix.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/aix.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -83,7 +83,7 @@
   {
     "Name": "albafetch.sh",
     "Size": "1636 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/albafetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -92,7 +92,7 @@
   {
     "Name": "algernon.sh",
     "Size": "1755 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/algernon.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -101,7 +101,7 @@
   {
     "Name": "alist.sh",
     "Size": "1662 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/alist.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -110,7 +110,7 @@
   {
     "Name": "allxfr.sh",
     "Size": "1852 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/allxfr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -119,7 +119,7 @@
   {
     "Name": "alterx.sh",
     "Size": "1659 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/alterx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -128,7 +128,7 @@
   {
     "Name": "amass.sh",
     "Size": "1901 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/amass.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -137,7 +137,7 @@
   {
     "Name": "amp.sh",
     "Size": "2401 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/amp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -146,7 +146,7 @@
   {
     "Name": "analyticsrelationships.sh",
     "Size": "2021 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/analyticsrelationships.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -155,7 +155,7 @@
   {
     "Name": "anew.sh",
     "Size": "1883 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/anew.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -164,7 +164,7 @@
   {
     "Name": "anewer.sh",
     "Size": "2476 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/anewer.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -173,7 +173,7 @@
   {
     "Name": "apk.sh.sh",
     "Size": "1634 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/apk.sh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -182,7 +182,7 @@
   {
     "Name": "arduino-cli.sh",
     "Size": "1642 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/arduino-cli.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -191,7 +191,7 @@
   {
     "Name": "aretext.sh",
     "Size": "1917 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/aretext.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -200,7 +200,7 @@
   {
     "Name": "aria2.sh",
     "Size": "1754 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/aria2.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -209,7 +209,7 @@
   {
     "Name": "asn.sh",
     "Size": "1770 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/asn.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -218,7 +218,7 @@
   {
     "Name": "asnmap.sh",
     "Size": "1935 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/asnmap.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -227,7 +227,7 @@
   {
     "Name": "assetfinder.sh",
     "Size": "2000 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/assetfinder.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -236,7 +236,7 @@
   {
     "Name": "assh.sh",
     "Size": "1858 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/assh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -245,7 +245,7 @@
   {
     "Name": "atuin.sh",
     "Size": "2414 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/atuin.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -254,7 +254,7 @@
   {
     "Name": "awk.sh",
     "Size": "2617 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/awk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -263,7 +263,7 @@
   {
     "Name": "aws-nuke.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/aws-nuke.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -272,7 +272,7 @@
   {
     "Name": "b3sum.sh",
     "Size": "2503 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/b3sum.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -281,7 +281,7 @@
   {
     "Name": "bandwhich.sh",
     "Size": "2457 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bandwhich.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -290,7 +290,7 @@
   {
     "Name": "batcat.sh",
     "Size": "2496 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/batcat.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -299,7 +299,7 @@
   {
     "Name": "bdl.sh",
     "Size": "1618 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bdl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -308,7 +308,7 @@
   {
     "Name": "bearer.sh",
     "Size": "1921 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bearer.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -317,7 +317,7 @@
   {
     "Name": "bed.sh",
     "Size": "1607 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bed.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -326,7 +326,7 @@
   {
     "Name": "berty.sh",
     "Size": "1938 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/berty.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -335,7 +335,7 @@
   {
     "Name": "bigdl.sh",
     "Size": "1908 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bigdl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -344,7 +344,7 @@
   {
     "Name": "bin.sh",
     "Size": "1607 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bin.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -353,7 +353,7 @@
   {
     "Name": "binary-security-check.sh",
     "Size": "2564 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/binary-security-check.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -362,7 +362,7 @@
   {
     "Name": "binfetch.sh",
     "Size": "2788 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/binfetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -371,7 +371,7 @@
   {
     "Name": "bingrep.sh",
     "Size": "2378 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bingrep.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -380,7 +380,7 @@
   {
     "Name": "binocle.sh",
     "Size": "2423 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/binocle.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -389,7 +389,7 @@
   {
     "Name": "bleve.sh",
     "Size": "1863 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bleve.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -398,7 +398,7 @@
   {
     "Name": "bluetuith.sh",
     "Size": "1668 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bluetuith.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -407,7 +407,7 @@
   {
     "Name": "boltconn.sh",
     "Size": "2452 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/boltconn.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -416,7 +416,7 @@
   {
     "Name": "bombadillo.sh",
     "Size": "1934 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bombadillo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -425,7 +425,7 @@
   {
     "Name": "bore.sh",
     "Size": "1662 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bore.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -434,7 +434,7 @@
   {
     "Name": "boringtun.sh",
     "Size": "2451 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/boringtun.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -443,7 +443,7 @@
   {
     "Name": "bottom.sh",
     "Size": "1671 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bottom.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -452,7 +452,7 @@
   {
     "Name": "boxxy.sh",
     "Size": "2459 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/boxxy.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -461,7 +461,7 @@
   {
     "Name": "brename.sh",
     "Size": "1666 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/brename.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -470,7 +470,7 @@
   {
     "Name": "broot.sh",
     "Size": "2439 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/broot.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -479,7 +479,7 @@
   {
     "Name": "btop.sh",
     "Size": "1641 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/btop.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -488,7 +488,7 @@
   {
     "Name": "bucketloot.sh",
     "Size": "1914 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bucketloot.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -497,7 +497,7 @@
   {
     "Name": "busybox.sh",
     "Size": "1666 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/busybox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -506,7 +506,7 @@
   {
     "Name": "byp4xx.sh",
     "Size": "2011 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/byp4xx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -515,7 +515,7 @@
   {
     "Name": "caddy.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/caddy.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -524,7 +524,7 @@
   {
     "Name": "catatonit.sh",
     "Size": "2817 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/catatonit.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -533,7 +533,7 @@
   {
     "Name": "catp.sh",
     "Size": "2417 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/catp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -542,7 +542,7 @@
   {
     "Name": "cdncheck.sh",
     "Size": "1666 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cdncheck.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -551,7 +551,7 @@
   {
     "Name": "cent.sh",
     "Size": "1618 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cent.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -560,7 +560,7 @@
   {
     "Name": "certgraph.sh",
     "Size": "1934 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/certgraph.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -569,7 +569,7 @@
   {
     "Name": "certspotter.sh",
     "Size": "1930 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/certspotter.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -578,7 +578,7 @@
   {
     "Name": "certstream-server-go.sh",
     "Size": "2048 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/certstream-server-go.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -587,7 +587,7 @@
   {
     "Name": "certstream.sh",
     "Size": "2084 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/certstream.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -596,7 +596,7 @@
   {
     "Name": "certwatcher.sh",
     "Size": "2018 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/certwatcher.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -605,7 +605,7 @@
   {
     "Name": "cexec.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cexec.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -614,7 +614,7 @@
   {
     "Name": "cfssl.sh",
     "Size": "2674 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cfssl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -623,7 +623,7 @@
   {
     "Name": "chaos-client.sh",
     "Size": "1636 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/chaos-client.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -632,7 +632,7 @@
   {
     "Name": "cheat.sh",
     "Size": "1895 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cheat.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -641,7 +641,7 @@
   {
     "Name": "cherrybomb.sh",
     "Size": "2430 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cherrybomb.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -650,7 +650,7 @@
   {
     "Name": "chisel.sh",
     "Size": "1651 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/chisel.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -659,7 +659,7 @@
   {
     "Name": "circumflex.sh",
     "Size": "1653 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/circumflex.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -668,7 +668,7 @@
   {
     "Name": "cloudcash.sh",
     "Size": "1698 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cloudcash.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -677,7 +677,7 @@
   {
     "Name": "cloudfox.sh",
     "Size": "1945 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cloudfox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -686,7 +686,7 @@
   {
     "Name": "cloudlist.sh",
     "Size": "1676 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cloudlist.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -695,7 +695,7 @@
   {
     "Name": "cloudreve.sh",
     "Size": "1702 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cloudreve.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -704,7 +704,7 @@
   {
     "Name": "cocogitto.sh",
     "Size": "2437 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cocogitto.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -713,7 +713,7 @@
   {
     "Name": "comb.sh",
     "Size": "2017 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/comb.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -722,7 +722,7 @@
   {
     "Name": "containerd.sh",
     "Size": "1659 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/containerd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -731,7 +731,7 @@
   {
     "Name": "coreutils_uutils.sh",
     "Size": "2387 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -740,7 +740,7 @@
   {
     "Name": "cotp.sh",
     "Size": "2483 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cotp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -749,7 +749,7 @@
   {
     "Name": "cowitness.sh",
     "Size": "1940 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cowitness.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -758,7 +758,7 @@
   {
     "Name": "cowsay.sh",
     "Size": "2055 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cowsay.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -767,7 +767,7 @@
   {
     "Name": "cpufetch.sh",
     "Size": "1608 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cpufetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -776,7 +776,7 @@
   {
     "Name": "crawley.sh",
     "Size": "1626 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/crawley.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -785,7 +785,7 @@
   {
     "Name": "cri-tools.sh",
     "Size": "1690 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cri-tools.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -794,7 +794,7 @@
   {
     "Name": "crlfuzz.sh",
     "Size": "1921 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/crlfuzz.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -803,7 +803,7 @@
   {
     "Name": "croc.sh",
     "Size": "1668 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/croc.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -812,7 +812,7 @@
   {
     "Name": "crt.sh",
     "Size": "1878 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/crt.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -821,7 +821,7 @@
   {
     "Name": "csprecon.sh",
     "Size": "1924 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/csprecon.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -830,7 +830,7 @@
   {
     "Name": "csview.sh",
     "Size": "2460 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/csview.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -839,7 +839,7 @@
   {
     "Name": "csvtk.sh",
     "Size": "1646 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/csvtk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -848,7 +848,7 @@
   {
     "Name": "ct_monitor.sh",
     "Size": "1871 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ct_monitor.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -857,7 +857,7 @@
   {
     "Name": "ctlwatcher.sh",
     "Size": "2469 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ctlwatcher.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -866,7 +866,7 @@
   {
     "Name": "curl.sh",
     "Size": "1619 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/curl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -875,7 +875,7 @@
   {
     "Name": "curlie.sh",
     "Size": "1646 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/curlie.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -884,7 +884,7 @@
   {
     "Name": "cut-cdn.sh",
     "Size": "1898 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cut-cdn.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -893,7 +893,7 @@
   {
     "Name": "daktilo.sh",
     "Size": "2539 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/daktilo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -902,7 +902,7 @@
   {
     "Name": "dalfox.sh",
     "Size": "1660 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dalfox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -911,7 +911,7 @@
   {
     "Name": "darkhttpd.sh",
     "Size": "2689 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/darkhttpd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -920,7 +920,7 @@
   {
     "Name": "dasel.sh",
     "Size": "1688 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dasel.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -929,7 +929,7 @@
   {
     "Name": "datadash.sh",
     "Size": "1928 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/datadash.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -938,7 +938,7 @@
   {
     "Name": "ddns-go.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ddns-go.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -947,7 +947,7 @@
   {
     "Name": "delta.sh",
     "Size": "2461 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/delta.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -956,7 +956,7 @@
   {
     "Name": "devbox.sh",
     "Size": "1665 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/devbox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -965,7 +965,7 @@
   {
     "Name": "devpod.sh",
     "Size": "1663 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/devpod.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -974,7 +974,7 @@
   {
     "Name": "diffoci.sh",
     "Size": "1667 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/diffoci.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -983,7 +983,7 @@
   {
     "Name": "direnv.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/direnv.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -992,7 +992,7 @@
   {
     "Name": "dirstat-rs.sh",
     "Size": "2437 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dirstat-rs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1001,7 +1001,7 @@
   {
     "Name": "dizi.sh",
     "Size": "2474 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dizi.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1010,7 +1010,7 @@
   {
     "Name": "dns-doctor.sh",
     "Size": "1949 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dns-doctor.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1019,7 +1019,7 @@
   {
     "Name": "dnslookup.sh",
     "Size": "1670 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dnslookup.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1028,7 +1028,7 @@
   {
     "Name": "dnstake.sh",
     "Size": "1921 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dnstake.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1037,7 +1037,7 @@
   {
     "Name": "dnsx.sh",
     "Size": "1651 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dnsx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1046,7 +1046,7 @@
   {
     "Name": "docker.sh",
     "Size": "2708 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/docker.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1055,7 +1055,7 @@
   {
     "Name": "doggo.sh",
     "Size": "1626 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/doggo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1064,7 +1064,7 @@
   {
     "Name": "dotenv-linter.sh",
     "Size": "2527 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dotenv-linter.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1073,7 +1073,7 @@
   {
     "Name": "dropbear.sh",
     "Size": "2390 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dropbear.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1082,7 +1082,7 @@
   {
     "Name": "dsieve.sh",
     "Size": "1620 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dsieve.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1091,7 +1091,7 @@
   {
     "Name": "duf.sh",
     "Size": "1646 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/duf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1100,7 +1100,7 @@
   {
     "Name": "dufs.sh",
     "Size": "1703 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dufs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1109,7 +1109,7 @@
   {
     "Name": "dura.sh",
     "Size": "2528 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dura.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1118,7 +1118,7 @@
   {
     "Name": "dust.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dust.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1127,7 +1127,7 @@
   {
     "Name": "dysk.sh",
     "Size": "2085 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dysk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1136,7 +1136,7 @@
   {
     "Name": "ecoji.sh",
     "Size": "1903 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ecoji.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1145,7 +1145,7 @@
   {
     "Name": "edgevpn.sh",
     "Size": "1717 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/edgevpn.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1154,7 +1154,7 @@
   {
     "Name": "eget.sh",
     "Size": "1629 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/eget.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1163,7 +1163,7 @@
   {
     "Name": "elfcat.sh",
     "Size": "2461 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/elfcat.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1172,7 +1172,7 @@
   {
     "Name": "elvish.sh",
     "Size": "1916 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/elvish.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1181,7 +1181,7 @@
   {
     "Name": "enc.sh",
     "Size": "1658 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/enc.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1190,7 +1190,7 @@
   {
     "Name": "encode.sh",
     "Size": "1877 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/encode.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1199,7 +1199,7 @@
   {
     "Name": "enola.sh",
     "Size": "1915 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/enola.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1208,7 +1208,7 @@
   {
     "Name": "enumerepo.sh",
     "Size": "1639 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/enumerepo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1217,7 +1217,7 @@
   {
     "Name": "etcd.sh",
     "Size": "1972 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/etcd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1226,7 +1226,7 @@
   {
     "Name": "exiflooter.sh",
     "Size": "1944 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/exiflooter.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1235,7 +1235,7 @@
   {
     "Name": "eza.sh",
     "Size": "2488 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/eza.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1244,7 +1244,7 @@
   {
     "Name": "falconhound.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/falconhound.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1253,7 +1253,7 @@
   {
     "Name": "fastfetch.sh",
     "Size": "1679 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fastfetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1262,7 +1262,7 @@
   {
     "Name": "fblog.sh",
     "Size": "2368 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fblog.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1271,7 +1271,7 @@
   {
     "Name": "fclones.sh",
     "Size": "2443 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fclones.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1280,7 +1280,7 @@
   {
     "Name": "fd.sh",
     "Size": "2493 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1289,7 +1289,7 @@
   {
     "Name": "feroxbuster.sh",
     "Size": "2500 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/feroxbuster.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1298,7 +1298,7 @@
   {
     "Name": "ffmpeg.sh",
     "Size": "1798 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ffmpeg.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1307,7 +1307,7 @@
   {
     "Name": "ffuf.sh",
     "Size": "1609 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ffuf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1316,7 +1316,7 @@
   {
     "Name": "ffufPostprocessing.sh",
     "Size": "1938 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ffufPostprocessing.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1325,7 +1325,7 @@
   {
     "Name": "ffufw.sh",
     "Size": "1917 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ffufw.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1334,7 +1334,7 @@
   {
     "Name": "fget.sh",
     "Size": "2041 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fget.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1343,7 +1343,7 @@
   {
     "Name": "filebrowser.sh",
     "Size": "1628 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/filebrowser.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1352,7 +1352,7 @@
   {
     "Name": "findomain.sh",
     "Size": "2416 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/findomain.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1361,7 +1361,7 @@
   {
     "Name": "findutils_uutils.sh",
     "Size": "2456 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/findutils_uutils.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1370,7 +1370,7 @@
   {
     "Name": "fingerprintx.sh",
     "Size": "1668 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fingerprintx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1379,7 +1379,7 @@
   {
     "Name": "fnm.sh",
     "Size": "1621 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fnm.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1388,7 +1388,7 @@
   {
     "Name": "fq.sh",
     "Size": "1678 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fq.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1397,7 +1397,7 @@
   {
     "Name": "fscan.sh",
     "Size": "1778 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fscan.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1406,7 +1406,7 @@
   {
     "Name": "fuse-overlayfs.sh",
     "Size": "1635 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fuse-overlayfs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1415,7 +1415,7 @@
   {
     "Name": "fuzzuli.sh",
     "Size": "1952 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fuzzuli.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1424,7 +1424,7 @@
   {
     "Name": "fwanalyzer.sh",
     "Size": "1925 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fwanalyzer.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1433,7 +1433,7 @@
   {
     "Name": "fx.sh",
     "Size": "1623 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1442,7 +1442,7 @@
   {
     "Name": "fzf.sh",
     "Size": "1625 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fzf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1451,7 +1451,7 @@
   {
     "Name": "garm.sh",
     "Size": "1792 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/garm.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1460,7 +1460,7 @@
   {
     "Name": "gau.sh",
     "Size": "1915 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gau.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1469,7 +1469,7 @@
   {
     "Name": "gdu.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gdu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1478,7 +1478,7 @@
   {
     "Name": "getJS.sh",
     "Size": "2064 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/getJS.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1487,7 +1487,7 @@
   {
     "Name": "getghrel.sh",
     "Size": "1700 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/getghrel.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1496,7 +1496,7 @@
   {
     "Name": "gf.sh",
     "Size": "1888 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1505,7 +1505,7 @@
   {
     "Name": "gfx.sh",
     "Size": "1837 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gfx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1514,7 +1514,7 @@
   {
     "Name": "gh-dash.sh",
     "Size": "1632 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gh-dash.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1523,7 +1523,7 @@
   {
     "Name": "gh.sh",
     "Size": "1623 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1532,7 +1532,7 @@
   {
     "Name": "gip.sh",
     "Size": "2388 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gip.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1541,7 +1541,7 @@
   {
     "Name": "git-cliff.sh",
     "Size": "1744 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/git-cliff.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1550,7 +1550,7 @@
   {
     "Name": "git-lfs.sh",
     "Size": "1648 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/git-lfs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1559,7 +1559,7 @@
   {
     "Name": "git-sizer.sh",
     "Size": "1880 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/git-sizer.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1568,7 +1568,7 @@
   {
     "Name": "git-xet.sh",
     "Size": "2719 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/git-xet.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1577,7 +1577,7 @@
   {
     "Name": "gitdorks_go.sh",
     "Size": "1942 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitdorks_go.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1586,7 +1586,7 @@
   {
     "Name": "gitea.sh",
     "Size": "1620 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitea.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1595,7 +1595,7 @@
   {
     "Name": "github-endpoints.sh",
     "Size": "1927 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/github-endpoints.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1604,7 +1604,7 @@
   {
     "Name": "github-regexp.sh",
     "Size": "1920 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/github-regexp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1613,7 +1613,7 @@
   {
     "Name": "github-subdomains.sh",
     "Size": "1934 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/github-subdomains.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1622,7 +1622,7 @@
   {
     "Name": "gitlab-subdomains.sh",
     "Size": "1934 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitlab-subdomains.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1631,7 +1631,7 @@
   {
     "Name": "gitleaks.sh",
     "Size": "1660 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitleaks.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1640,7 +1640,7 @@
   {
     "Name": "gitoxide.sh",
     "Size": "2459 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitoxide.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1649,7 +1649,7 @@
   {
     "Name": "gitql.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitql.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1658,7 +1658,7 @@
   {
     "Name": "gitui.sh",
     "Size": "2459 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitui.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1667,7 +1667,7 @@
   {
     "Name": "glow.sh",
     "Size": "1614 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/glow.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1676,7 +1676,7 @@
   {
     "Name": "go-fasttld.sh",
     "Size": "1932 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/go-fasttld.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1685,7 +1685,7 @@
   {
     "Name": "go-git.sh",
     "Size": "2666 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/go-git.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1694,7 +1694,7 @@
   {
     "Name": "go-simplehttpserver.sh",
     "Size": "2001 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/go-simplehttpserver.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1703,7 +1703,7 @@
   {
     "Name": "goawk.sh",
     "Size": "1650 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/goawk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1712,7 +1712,7 @@
   {
     "Name": "gobuster.sh",
     "Size": "1658 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gobuster.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1721,7 +1721,7 @@
   {
     "Name": "gocurl.sh",
     "Size": "1634 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gocurl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1730,7 +1730,7 @@
   {
     "Name": "godns.sh",
     "Size": "1716 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/godns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1739,7 +1739,7 @@
   {
     "Name": "godnsbench.sh",
     "Size": "1657 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/godnsbench.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1748,7 +1748,7 @@
   {
     "Name": "gofireprox.sh",
     "Size": "1625 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gofireprox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1757,7 +1757,7 @@
   {
     "Name": "gojq.sh",
     "Size": "1611 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gojq.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1766,7 +1766,7 @@
   {
     "Name": "goop.sh",
     "Size": "1938 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/goop.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1775,7 +1775,7 @@
   {
     "Name": "gorilla.sh",
     "Size": "2454 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gorilla.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1784,7 +1784,7 @@
   {
     "Name": "gosec.sh",
     "Size": "1623 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gosec.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1793,7 +1793,7 @@
   {
     "Name": "gost.sh",
     "Size": "1659 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gost.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1802,7 +1802,7 @@
   {
     "Name": "gosu.sh",
     "Size": "1609 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gosu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1811,7 +1811,7 @@
   {
     "Name": "gotator.sh",
     "Size": "1883 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gotator.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1820,7 +1820,7 @@
   {
     "Name": "gotty.sh",
     "Size": "1646 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gotty.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1829,7 +1829,7 @@
   {
     "Name": "gowitness.sh",
     "Size": "2047 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gowitness.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1838,7 +1838,7 @@
   {
     "Name": "gpg-tui.sh",
     "Size": "2489 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gpg-tui.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1847,7 +1847,7 @@
   {
     "Name": "gping.sh",
     "Size": "1619 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gping.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1856,7 +1856,7 @@
   {
     "Name": "grex.sh",
     "Size": "2514 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/grex.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1865,7 +1865,7 @@
   {
     "Name": "gron.sh",
     "Size": "1850 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gron.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1874,7 +1874,7 @@
   {
     "Name": "grpcurl.sh",
     "Size": "1949 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/grpcurl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1883,7 +1883,7 @@
   {
     "Name": "gsocket.sh",
     "Size": "1805 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gsocket.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1892,7 +1892,7 @@
   {
     "Name": "gum.sh",
     "Size": "1929 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gum.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1901,7 +1901,7 @@
   {
     "Name": "gup.sh",
     "Size": "1649 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gup.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1910,7 +1910,7 @@
   {
     "Name": "gxss.sh",
     "Size": "0 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gxss.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1919,7 +1919,7 @@
   {
     "Name": "hacker-scoper.sh",
     "Size": "1938 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hacker-scoper.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1928,7 +1928,7 @@
   {
     "Name": "hadolint.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hadolint.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1937,7 +1937,7 @@
   {
     "Name": "hakip2host.sh",
     "Size": "1965 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hakip2host.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1946,7 +1946,7 @@
   {
     "Name": "hakoriginfinder.sh",
     "Size": "1957 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hakoriginfinder.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1955,7 +1955,7 @@
   {
     "Name": "hakrawler.sh",
     "Size": "1963 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hakrawler.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1964,7 +1964,7 @@
   {
     "Name": "hakrevdns.sh",
     "Size": "1980 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hakrevdns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1973,7 +1973,7 @@
   {
     "Name": "halp.sh",
     "Size": "1670 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/halp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1982,7 +1982,7 @@
   {
     "Name": "hardeningmeter.sh",
     "Size": "2023 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hardeningmeter.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1991,7 +1991,7 @@
   {
     "Name": "haylxon.sh",
     "Size": "1682 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/haylxon.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2000,7 +2000,7 @@
   {
     "Name": "hednsextractor.sh",
     "Size": "1981 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hednsextractor.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2009,7 +2009,7 @@
   {
     "Name": "hex.sh",
     "Size": "2438 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hex.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2018,7 +2018,7 @@
   {
     "Name": "hexyl.sh",
     "Size": "2465 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hexyl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2027,7 +2027,7 @@
   {
     "Name": "horust.sh",
     "Size": "2503 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/horust.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2036,7 +2036,7 @@
   {
     "Name": "hostctl.sh",
     "Size": "1667 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hostctl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2045,7 +2045,7 @@
   {
     "Name": "hrekt.sh",
     "Size": "2419 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hrekt.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2054,7 +2054,7 @@
   {
     "Name": "htmlq.sh",
     "Size": "2532 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/htmlq.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2063,7 +2063,7 @@
   {
     "Name": "httprobe.sh",
     "Size": "1919 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/httprobe.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2072,7 +2072,7 @@
   {
     "Name": "httpx.sh",
     "Size": "1675 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/httpx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2081,7 +2081,7 @@
   {
     "Name": "hub.sh",
     "Size": "1877 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hub.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2090,7 +2090,7 @@
   {
     "Name": "hugo.sh",
     "Size": "1865 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hugo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2099,7 +2099,7 @@
   {
     "Name": "hurl.sh",
     "Size": "2699 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hurl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2108,7 +2108,7 @@
   {
     "Name": "hyperfine.sh",
     "Size": "2489 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hyperfine.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2117,7 +2117,7 @@
   {
     "Name": "hysp.sh",
     "Size": "2457 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hysp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2126,7 +2126,7 @@
   {
     "Name": "inscope.sh",
     "Size": "2092 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/inscope.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2135,7 +2135,7 @@
   {
     "Name": "interactsh.sh",
     "Size": "1864 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/interactsh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2144,7 +2144,7 @@
   {
     "Name": "invidtui.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/invidtui.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2153,7 +2153,7 @@
   {
     "Name": "iperf3.sh",
     "Size": "1649 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/iperf3.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2162,7 +2162,7 @@
   {
     "Name": "ipt2socks.sh",
     "Size": "1675 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ipt2socks.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2171,7 +2171,7 @@
   {
     "Name": "istio.sh",
     "Size": "1671 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/istio.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2180,7 +2180,7 @@
   {
     "Name": "jaeles.sh",
     "Size": "1910 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jaeles.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2189,7 +2189,7 @@
   {
     "Name": "jaq.sh",
     "Size": "1666 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jaq.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2198,7 +2198,7 @@
   {
     "Name": "jc.sh",
     "Size": "1762 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jc.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2207,7 +2207,7 @@
   {
     "Name": "jira-cli.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jira-cli.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2216,7 +2216,7 @@
   {
     "Name": "jj.sh",
     "Size": "2405 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jj.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2225,7 +2225,7 @@
   {
     "Name": "jless.sh",
     "Size": "2270 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jless.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2234,7 +2234,7 @@
   {
     "Name": "jq.sh",
     "Size": "1602 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jq.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2243,7 +2243,7 @@
   {
     "Name": "jql.sh",
     "Size": "1630 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jql.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2252,7 +2252,7 @@
   {
     "Name": "jqp.sh",
     "Size": "1589 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jqp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2261,7 +2261,7 @@
   {
     "Name": "just.sh",
     "Size": "1651 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/just.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2270,7 +2270,7 @@
   {
     "Name": "jwt-hack.sh",
     "Size": "1908 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/jwt-hack.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2279,7 +2279,7 @@
   {
     "Name": "k9s.sh",
     "Size": "1660 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/k9s.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2288,7 +2288,7 @@
   {
     "Name": "kakoune.sh",
     "Size": "2617 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kakoune.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2297,7 +2297,7 @@
   {
     "Name": "kalker.sh",
     "Size": "2506 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kalker.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2306,7 +2306,7 @@
   {
     "Name": "kanha.sh",
     "Size": "1651 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kanha.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2315,7 +2315,7 @@
   {
     "Name": "katana.sh",
     "Size": "2073 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/katana.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2324,7 +2324,7 @@
   {
     "Name": "killport.sh",
     "Size": "2486 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/killport.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2333,7 +2333,7 @@
   {
     "Name": "kmon.sh",
     "Size": "2468 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kmon.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2342,7 +2342,7 @@
   {
     "Name": "kondo.sh",
     "Size": "2461 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kondo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2351,7 +2351,7 @@
   {
     "Name": "kopia.sh",
     "Size": "1712 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kopia.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2360,7 +2360,7 @@
   {
     "Name": "ksubdomain.sh",
     "Size": "2008 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ksubdomain.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2369,7 +2369,7 @@
   {
     "Name": "ladder.sh",
     "Size": "1634 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ladder.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2378,7 +2378,7 @@
   {
     "Name": "lazydocker.sh",
     "Size": "1647 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lazydocker.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2387,7 +2387,7 @@
   {
     "Name": "lazygit.sh",
     "Size": "1636 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lazygit.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2396,7 +2396,7 @@
   {
     "Name": "legba.sh",
     "Size": "2485 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/legba.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2405,7 +2405,7 @@
   {
     "Name": "lf.sh",
     "Size": "1597 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2414,7 +2414,7 @@
   {
     "Name": "libnfs.sh",
     "Size": "3308 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/libnfs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2423,7 +2423,7 @@
   {
     "Name": "linuxwave.sh",
     "Size": "1662 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/linuxwave.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2432,7 +2432,7 @@
   {
     "Name": "listmonk.sh",
     "Size": "1681 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/listmonk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2441,7 +2441,7 @@
   {
     "Name": "lit-bb-hack-tools.sh",
     "Size": "5053 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2450,7 +2450,7 @@
   {
     "Name": "lnav.sh",
     "Size": "1614 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lnav.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2459,7 +2459,7 @@
   {
     "Name": "logtimer.sh",
     "Size": "1646 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/logtimer.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2468,7 +2468,7 @@
   {
     "Name": "loki.sh",
     "Size": "2245 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/loki.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2477,7 +2477,7 @@
   {
     "Name": "lsd.sh",
     "Size": "1630 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lsd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2486,7 +2486,7 @@
   {
     "Name": "luet.sh",
     "Size": "1877 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/luet.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2495,7 +2495,7 @@
   {
     "Name": "lux.sh",
     "Size": "1665 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lux.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2504,7 +2504,7 @@
   {
     "Name": "mabel.sh",
     "Size": "1894 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mabel.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2513,7 +2513,7 @@
   {
     "Name": "macchina.sh",
     "Size": "2409 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/macchina.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2522,7 +2522,7 @@
   {
     "Name": "maddy.sh",
     "Size": "1859 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/maddy.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2531,7 +2531,7 @@
   {
     "Name": "mailpit.sh",
     "Size": "1661 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mailpit.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2540,7 +2540,7 @@
   {
     "Name": "mani.sh",
     "Size": "1649 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mani.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2549,7 +2549,7 @@
   {
     "Name": "mantra.sh",
     "Size": "1904 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mantra.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2558,7 +2558,7 @@
   {
     "Name": "mapcidr.sh",
     "Size": "2071 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mapcidr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2567,7 +2567,7 @@
   {
     "Name": "masscan.sh",
     "Size": "1751 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/masscan.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2576,7 +2576,7 @@
   {
     "Name": "massdns.sh",
     "Size": "1732 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/massdns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2585,7 +2585,7 @@
   {
     "Name": "matterbridge.sh",
     "Size": "1646 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/matterbridge.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2594,7 +2594,7 @@
   {
     "Name": "mcfly.sh",
     "Size": "1632 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mcfly.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2603,7 +2603,7 @@
   {
     "Name": "mdcat.sh",
     "Size": "2496 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mdcat.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2612,7 +2612,7 @@
   {
     "Name": "mdsh.sh",
     "Size": "2436 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mdsh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2621,7 +2621,7 @@
   {
     "Name": "melange.sh",
     "Size": "1624 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/melange.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2630,7 +2630,7 @@
   {
     "Name": "meli.sh",
     "Size": "2370 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/meli.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2639,7 +2639,7 @@
   {
     "Name": "menyoki.sh",
     "Size": "2227 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/menyoki.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2648,7 +2648,7 @@
   {
     "Name": "mergerfs.sh",
     "Size": "1625 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mergerfs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2657,7 +2657,7 @@
   {
     "Name": "metadata.json",
     "Size": "143.76 kB",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2666,7 +2666,7 @@
   {
     "Name": "mgwls.sh",
     "Size": "1671 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mgwls.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2675,7 +2675,7 @@
   {
     "Name": "micro.sh",
     "Size": "1652 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/micro.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2684,7 +2684,7 @@
   {
     "Name": "miller.sh",
     "Size": "1709 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/miller.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2693,7 +2693,7 @@
   {
     "Name": "miniflux.sh",
     "Size": "1644 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/miniflux.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2702,7 +2702,7 @@
   {
     "Name": "miniserve.sh",
     "Size": "1656 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/miniserve.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2711,7 +2711,7 @@
   {
     "Name": "minisign.sh",
     "Size": "1796 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/minisign.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2720,7 +2720,7 @@
   {
     "Name": "mksub.sh",
     "Size": "1659 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mksub.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2729,7 +2729,7 @@
   {
     "Name": "mmv.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mmv.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2738,7 +2738,7 @@
   {
     "Name": "mqttui.sh",
     "Size": "2484 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mqttui.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2747,7 +2747,7 @@
   {
     "Name": "mubeng.sh",
     "Size": "2022 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mubeng.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2756,7 +2756,7 @@
   {
     "Name": "naabu.sh",
     "Size": "2131 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/naabu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2765,7 +2765,7 @@
   {
     "Name": "navi.sh",
     "Size": "2490 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/navi.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2774,7 +2774,7 @@
   {
     "Name": "ncdu.sh",
     "Size": "1657 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ncdu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2783,7 +2783,7 @@
   {
     "Name": "neofetch.sh",
     "Size": "1659 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/neofetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2792,7 +2792,7 @@
   {
     "Name": "nerdctl.sh",
     "Size": "1734 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nerdctl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2801,7 +2801,7 @@
   {
     "Name": "netbird.sh",
     "Size": "1753 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/netbird.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2810,7 +2810,7 @@
   {
     "Name": "netmaker.sh",
     "Size": "2130 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/netmaker.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2819,7 +2819,7 @@
   {
     "Name": "nginx.sh",
     "Size": "2248 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nginx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2828,7 +2828,7 @@
   {
     "Name": "ngocok.sh",
     "Size": "1931 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ngocok.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2837,7 +2837,7 @@
   {
     "Name": "ngrok.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ngrok.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2846,7 +2846,7 @@
   {
     "Name": "nmap-formatter.sh",
     "Size": "1981 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nmap-formatter.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2855,7 +2855,7 @@
   {
     "Name": "nmap.sh",
     "Size": "1634 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nmap.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2864,7 +2864,7 @@
   {
     "Name": "nnn.sh",
     "Size": "2328 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nnn.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2873,7 +2873,7 @@
   {
     "Name": "noir.sh",
     "Size": "1809 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/noir.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2882,7 +2882,7 @@
   {
     "Name": "notify.sh",
     "Size": "1675 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/notify.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2891,7 +2891,7 @@
   {
     "Name": "nuclei.sh",
     "Size": "1670 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nuclei.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2900,7 +2900,7 @@
   {
     "Name": "nushell.sh",
     "Size": "2462 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nushell.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2909,7 +2909,7 @@
   {
     "Name": "oha.sh",
     "Size": "1594 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/oha.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2918,7 +2918,7 @@
   {
     "Name": "onetun.sh",
     "Size": "2379 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/onetun.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2927,7 +2927,7 @@
   {
     "Name": "openrisk.sh",
     "Size": "1948 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/openrisk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2936,7 +2936,7 @@
   {
     "Name": "openssh.sh",
     "Size": "4036 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/openssh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2945,7 +2945,7 @@
   {
     "Name": "orbiton.sh",
     "Size": "1677 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/orbiton.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2954,7 +2954,7 @@
   {
     "Name": "osmedeus.sh",
     "Size": "1983 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/osmedeus.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2963,7 +2963,7 @@
   {
     "Name": "ouch.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ouch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2972,7 +2972,7 @@
   {
     "Name": "ov.sh",
     "Size": "1663 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ov.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2981,7 +2981,7 @@
   {
     "Name": "overmind.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/overmind.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2990,7 +2990,7 @@
   {
     "Name": "passdetective.sh",
     "Size": "1998 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/passdetective.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2999,7 +2999,7 @@
   {
     "Name": "pathbuster.sh",
     "Size": "2516 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pathbuster.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3008,7 +3008,7 @@
   {
     "Name": "pdfcpu.sh",
     "Size": "1617 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pdfcpu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3017,7 +3017,7 @@
   {
     "Name": "pfetch-rs.sh",
     "Size": "1672 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pfetch-rs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3026,7 +3026,7 @@
   {
     "Name": "pgweb.sh",
     "Size": "1618 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pgweb.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3035,7 +3035,7 @@
   {
     "Name": "phantun.sh",
     "Size": "2549 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/phantun.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3044,7 +3044,7 @@
   {
     "Name": "pier.sh",
     "Size": "2481 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pier.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3053,7 +3053,7 @@
   {
     "Name": "pkgtop.sh",
     "Size": "1928 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pkgtop.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3062,7 +3062,7 @@
   {
     "Name": "planor.sh",
     "Size": "1710 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/planor.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3071,7 +3071,7 @@
   {
     "Name": "podman.sh",
     "Size": "1672 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/podman.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3080,7 +3080,7 @@
   {
     "Name": "podsync.sh",
     "Size": "1920 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/podsync.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3089,7 +3089,7 @@
   {
     "Name": "ppath.sh",
     "Size": "1895 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ppath.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3098,7 +3098,7 @@
   {
     "Name": "ppfuzz.sh",
     "Size": "2438 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ppfuzz.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3107,7 +3107,7 @@
   {
     "Name": "pping.sh",
     "Size": "1645 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pping.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3116,7 +3116,7 @@
   {
     "Name": "presenterm.sh",
     "Size": "1666 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/presenterm.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3125,7 +3125,7 @@
   {
     "Name": "prettyping.sh",
     "Size": "1684 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/prettyping.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3134,7 +3134,7 @@
   {
     "Name": "procs.sh",
     "Size": "2439 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/procs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3143,7 +3143,7 @@
   {
     "Name": "progress.sh",
     "Size": "2356 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/progress.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3152,7 +3152,7 @@
   {
     "Name": "proxify.sh",
     "Size": "1981 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/proxify.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3161,7 +3161,7 @@
   {
     "Name": "pspy.sh",
     "Size": "1887 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pspy.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3170,7 +3170,7 @@
   {
     "Name": "pueue.sh",
     "Size": "1790 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pueue.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3179,7 +3179,7 @@
   {
     "Name": "puredns.sh",
     "Size": "1702 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/puredns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3188,7 +3188,7 @@
   {
     "Name": "pwninit.sh",
     "Size": "2412 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pwninit.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3197,7 +3197,7 @@
   {
     "Name": "pyxet.sh",
     "Size": "2311 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pyxet.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3206,7 +3206,7 @@
   {
     "Name": "qbittorrent-nox.sh",
     "Size": "1682 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/qbittorrent-nox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3215,7 +3215,7 @@
   {
     "Name": "qsreplace.sh",
     "Size": "1943 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/qsreplace.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3224,7 +3224,7 @@
   {
     "Name": "qsv.sh",
     "Size": "2458 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/qsv.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3233,7 +3233,7 @@
   {
     "Name": "quickcert.sh",
     "Size": "1988 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/quickcert.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3242,7 +3242,7 @@
   {
     "Name": "rate-limit-checker.sh",
     "Size": "2131 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rate-limit-checker.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3251,7 +3251,7 @@
   {
     "Name": "rathole.sh",
     "Size": "1743 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rathole.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3260,7 +3260,7 @@
   {
     "Name": "rclone.sh",
     "Size": "1622 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rclone.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3269,7 +3269,7 @@
   {
     "Name": "reader.sh",
     "Size": "1656 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/reader.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3278,7 +3278,7 @@
   {
     "Name": "realm.sh",
     "Size": "1639 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/realm.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3287,7 +3287,7 @@
   {
     "Name": "rebuilderd.sh",
     "Size": "2624 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rebuilderd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3296,7 +3296,7 @@
   {
     "Name": "recollapse.sh",
     "Size": "2067 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/recollapse.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3305,7 +3305,7 @@
   {
     "Name": "redguard.sh",
     "Size": "1897 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/redguard.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3314,7 +3314,7 @@
   {
     "Name": "redive.sh",
     "Size": "2448 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/redive.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3323,7 +3323,7 @@
   {
     "Name": "rekor.sh",
     "Size": "1940 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rekor.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3332,7 +3332,7 @@
   {
     "Name": "relic.sh",
     "Size": "1930 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/relic.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3341,7 +3341,7 @@
   {
     "Name": "reptyr.sh",
     "Size": "2855 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/reptyr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3350,7 +3350,7 @@
   {
     "Name": "rescope.sh",
     "Size": "2114 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rescope.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3359,7 +3359,7 @@
   {
     "Name": "resdns.sh",
     "Size": "1682 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/resdns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3368,7 +3368,7 @@
   {
     "Name": "restic.sh",
     "Size": "1612 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/restic.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3377,7 +3377,7 @@
   {
     "Name": "resto.sh",
     "Size": "1875 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/resto.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3386,7 +3386,7 @@
   {
     "Name": "revit.sh",
     "Size": "2057 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/revit.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3395,7 +3395,7 @@
   {
     "Name": "ripgen.sh",
     "Size": "2423 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ripgen.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3404,7 +3404,7 @@
   {
     "Name": "ripgrep.sh",
     "Size": "2527 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ripgrep.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3413,7 +3413,7 @@
   {
     "Name": "rnr.sh",
     "Size": "2440 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rnr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3422,7 +3422,7 @@
   {
     "Name": "roboxtractor.sh",
     "Size": "1947 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/roboxtractor.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3431,7 +3431,7 @@
   {
     "Name": "rootlesskit.sh",
     "Size": "1691 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rootlesskit.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3440,7 +3440,7 @@
   {
     "Name": "ropr.sh",
     "Size": "2483 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ropr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3449,7 +3449,7 @@
   {
     "Name": "rospo.sh",
     "Size": "1656 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rospo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3458,7 +3458,7 @@
   {
     "Name": "rqbit.sh",
     "Size": "2427 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rqbit.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3467,7 +3467,7 @@
   {
     "Name": "rshijack.sh",
     "Size": "2464 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rshijack.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3476,7 +3476,7 @@
   {
     "Name": "ruff.sh",
     "Size": "1670 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ruff.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3485,7 +3485,7 @@
   {
     "Name": "runc.sh",
     "Size": "1652 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/runc.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3494,7 +3494,7 @@
   {
     "Name": "runme.sh",
     "Size": "1645 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/runme.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3503,7 +3503,7 @@
   {
     "Name": "runst.sh",
     "Size": "2187 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/runst.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3512,7 +3512,7 @@
   {
     "Name": "rush.sh",
     "Size": "1649 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rush.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3521,7 +3521,7 @@
   {
     "Name": "rustscan.sh",
     "Size": "2416 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rustscan.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3530,7 +3530,7 @@
   {
     "Name": "rustypaste-cli.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rustypaste-cli.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3539,7 +3539,7 @@
   {
     "Name": "rustypaste.sh",
     "Size": "2465 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rustypaste.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3548,7 +3548,7 @@
   {
     "Name": "s3scanner.sh",
     "Size": "1661 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/s3scanner.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3557,7 +3557,7 @@
   {
     "Name": "s3sync.sh",
     "Size": "1652 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/s3sync.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3566,7 +3566,7 @@
   {
     "Name": "s5cmd.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/s5cmd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3575,7 +3575,7 @@
   {
     "Name": "sake.sh",
     "Size": "1641 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sake.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3584,7 +3584,7 @@
   {
     "Name": "sbctl.sh",
     "Size": "1670 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sbctl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3593,7 +3593,7 @@
   {
     "Name": "scilla.sh",
     "Size": "1934 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/scilla.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3602,7 +3602,7 @@
   {
     "Name": "scopegen.sh",
     "Size": "2099 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/scopegen.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3611,7 +3611,7 @@
   {
     "Name": "scopeview.sh",
     "Size": "1739 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/scopeview.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3620,7 +3620,7 @@
   {
     "Name": "screenfetch.sh",
     "Size": "1650 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/screenfetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3629,7 +3629,7 @@
   {
     "Name": "sd.sh",
     "Size": "1637 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3638,7 +3638,7 @@
   {
     "Name": "sessionprobe.sh",
     "Size": "1996 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sessionprobe.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3647,7 +3647,7 @@
   {
     "Name": "shc.sh",
     "Size": "2697 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shc.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3656,7 +3656,7 @@
   {
     "Name": "shellharden.sh",
     "Size": "2478 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shellharden.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3665,7 +3665,7 @@
   {
     "Name": "shellz.sh",
     "Size": "1938 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shellz.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3674,7 +3674,7 @@
   {
     "Name": "shfmt.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shfmt.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3683,7 +3683,7 @@
   {
     "Name": "shortscan.sh",
     "Size": "2088 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shortscan.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3692,7 +3692,7 @@
   {
     "Name": "shuffledns.sh",
     "Size": "1637 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shuffledns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3701,7 +3701,7 @@
   {
     "Name": "sish.sh",
     "Size": "1654 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sish.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3710,7 +3710,7 @@
   {
     "Name": "sj.sh",
     "Size": "1869 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sj.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3719,7 +3719,7 @@
   {
     "Name": "skim.sh",
     "Size": "2570 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/skim.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3728,7 +3728,7 @@
   {
     "Name": "smap.sh",
     "Size": "1881 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/smap.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3737,7 +3737,7 @@
   {
     "Name": "smenu.sh",
     "Size": "1689 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/smenu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3746,7 +3746,7 @@
   {
     "Name": "sn0int.sh",
     "Size": "2387 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sn0int.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3755,7 +3755,7 @@
   {
     "Name": "sns.sh",
     "Size": "1854 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3764,7 +3764,7 @@
   {
     "Name": "socat.sh",
     "Size": "1605 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/socat.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3773,7 +3773,7 @@
   {
     "Name": "speedtest-go.sh",
     "Size": "1681 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/speedtest-go.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3782,7 +3782,7 @@
   {
     "Name": "spk.sh",
     "Size": "1908 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/spk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3791,7 +3791,7 @@
   {
     "Name": "spoof-dpi.sh",
     "Size": "1920 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/spoof-dpi.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3800,7 +3800,7 @@
   {
     "Name": "sq.sh",
     "Size": "1585 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sq.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3809,7 +3809,7 @@
   {
     "Name": "sqlc.sh",
     "Size": "1847 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sqlc.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3818,7 +3818,7 @@
   {
     "Name": "sshesame.sh",
     "Size": "1923 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sshesame.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3827,7 +3827,7 @@
   {
     "Name": "sshkeys.sh",
     "Size": "1630 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sshkeys.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3836,7 +3836,7 @@
   {
     "Name": "sshportal.sh",
     "Size": "1926 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sshportal.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3845,7 +3845,7 @@
   {
     "Name": "sshx.sh",
     "Size": "2525 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sshx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3854,7 +3854,7 @@
   {
     "Name": "starship.sh",
     "Size": "1705 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/starship.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3863,7 +3863,7 @@
   {
     "Name": "stew.sh",
     "Size": "1894 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/stew.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3872,7 +3872,7 @@
   {
     "Name": "strace.sh",
     "Size": "1655 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/strace.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3881,7 +3881,7 @@
   {
     "Name": "sttr.sh",
     "Size": "1619 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sttr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3890,7 +3890,7 @@
   {
     "Name": "stuffbin.sh",
     "Size": "1977 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/stuffbin.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3899,7 +3899,7 @@
   {
     "Name": "subfinder.sh",
     "Size": "1644 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/subfinder.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3908,7 +3908,7 @@
   {
     "Name": "subjs.sh",
     "Size": "1872 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/subjs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3917,7 +3917,7 @@
   {
     "Name": "subxtract.sh",
     "Size": "1692 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/subxtract.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3926,7 +3926,7 @@
   {
     "Name": "sudo-rs.sh",
     "Size": "2564 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sudo-rs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3935,7 +3935,7 @@
   {
     "Name": "sunbeam.sh",
     "Size": "1877 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sunbeam.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3944,7 +3944,7 @@
   {
     "Name": "supervisord.sh",
     "Size": "1915 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/supervisord.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3953,7 +3953,7 @@
   {
     "Name": "surf.sh",
     "Size": "1907 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/surf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3962,7 +3962,7 @@
   {
     "Name": "svg-hush.sh",
     "Size": "2467 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/svg-hush.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3971,7 +3971,7 @@
   {
     "Name": "syncat.sh",
     "Size": "2404 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/syncat.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3980,7 +3980,7 @@
   {
     "Name": "syncthing.sh",
     "Size": "1654 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/syncthing.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3989,7 +3989,7 @@
   {
     "Name": "sysbox.sh",
     "Size": "2612 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sysbox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3998,7 +3998,7 @@
   {
     "Name": "systemctl-tui.sh",
     "Size": "2548 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/systemctl-tui.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4007,7 +4007,7 @@
   {
     "Name": "systeroid.sh",
     "Size": "1909 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/systeroid.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4016,7 +4016,7 @@
   {
     "Name": "tailscale.sh",
     "Size": "2021 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tailscale.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4025,7 +4025,7 @@
   {
     "Name": "tailspin.sh",
     "Size": "2407 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tailspin.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4034,7 +4034,7 @@
   {
     "Name": "taplo.sh",
     "Size": "2405 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/taplo.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4043,7 +4043,7 @@
   {
     "Name": "tcpdump.sh",
     "Size": "1632 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tcpdump.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4052,7 +4052,7 @@
   {
     "Name": "tdl.sh",
     "Size": "1644 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tdl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4061,7 +4061,7 @@
   {
     "Name": "tere.sh",
     "Size": "2409 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tere.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4070,7 +4070,7 @@
   {
     "Name": "termshark.sh",
     "Size": "1892 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/termshark.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4079,7 +4079,7 @@
   {
     "Name": "tgpt.sh",
     "Size": "1909 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tgpt.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4088,7 +4088,7 @@
   {
     "Name": "tidy-viewer.sh",
     "Size": "2541 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tidy-viewer.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4097,7 +4097,7 @@
   {
     "Name": "tldr.sh",
     "Size": "1669 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tldr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4106,7 +4106,7 @@
   {
     "Name": "tlrc.sh",
     "Size": "2426 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tlrc.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4115,7 +4115,7 @@
   {
     "Name": "tlsx.sh",
     "Size": "1660 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tlsx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4124,7 +4124,7 @@
   {
     "Name": "tmate.sh",
     "Size": "1609 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tmate.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4133,7 +4133,7 @@
   {
     "Name": "tmux.sh",
     "Size": "1635 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tmux.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4142,7 +4142,7 @@
   {
     "Name": "tok.sh",
     "Size": "1972 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tok.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4151,7 +4151,7 @@
   {
     "Name": "tokei.sh",
     "Size": "2472 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tokei.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4160,7 +4160,7 @@
   {
     "Name": "toybox.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/toybox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4169,7 +4169,7 @@
   {
     "Name": "traefik.sh",
     "Size": "1637 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/traefik.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4178,7 +4178,7 @@
   {
     "Name": "trippy.sh",
     "Size": "2431 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/trippy.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4187,7 +4187,7 @@
   {
     "Name": "trufflehog.sh",
     "Size": "1634 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/trufflehog.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4196,7 +4196,7 @@
   {
     "Name": "try.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/try.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4205,7 +4205,7 @@
   {
     "Name": "tty2web.sh",
     "Size": "1900 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tty2web.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4214,7 +4214,7 @@
   {
     "Name": "ttyd.sh",
     "Size": "1601 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ttyd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4223,7 +4223,7 @@
   {
     "Name": "tuiarchiver.sh",
     "Size": "1921 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tuiarchiver.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4232,7 +4232,7 @@
   {
     "Name": "tut.sh",
     "Size": "1624 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tut.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4241,7 +4241,7 @@
   {
     "Name": "twingate.sh",
     "Size": "2483 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/twingate.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4250,7 +4250,7 @@
   {
     "Name": "txeh.sh",
     "Size": "1633 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/txeh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4259,7 +4259,7 @@
   {
     "Name": "tz.sh",
     "Size": "1593 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tz.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4268,7 +4268,7 @@
   {
     "Name": "u-root.sh",
     "Size": "1925 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/u-root.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4277,7 +4277,7 @@
   {
     "Name": "udpx.sh",
     "Size": "1871 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/udpx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4286,7 +4286,7 @@
   {
     "Name": "uip.sh",
     "Size": "1675 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/uip.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4295,7 +4295,7 @@
   {
     "Name": "uncover.sh",
     "Size": "1675 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/uncover.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4304,7 +4304,7 @@
   {
     "Name": "unf.sh",
     "Size": "2448 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/unf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4313,7 +4313,7 @@
   {
     "Name": "unfurl.sh",
     "Size": "1884 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/unfurl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4322,7 +4322,7 @@
   {
     "Name": "upx.sh",
     "Size": "1590 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/upx.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4331,7 +4331,7 @@
   {
     "Name": "usql.sh",
     "Size": "1661 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/usql.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4340,7 +4340,7 @@
   {
     "Name": "v2raya.sh",
     "Size": "1732 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/v2raya.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4349,7 +4349,7 @@
   {
     "Name": "v6-unix.sh",
     "Size": "2330 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/v6-unix.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4358,7 +4358,7 @@
   {
     "Name": "validtoml.sh",
     "Size": "1891 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/validtoml.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4367,7 +4367,7 @@
   {
     "Name": "vegeta.sh",
     "Size": "1638 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/vegeta.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4376,7 +4376,7 @@
   {
     "Name": "vhs.sh",
     "Size": "1625 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/vhs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4385,7 +4385,7 @@
   {
     "Name": "viddy.sh",
     "Size": "1640 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/viddy.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4394,7 +4394,7 @@
   {
     "Name": "viewgen.sh",
     "Size": "2024 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/viewgen.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4403,7 +4403,7 @@
   {
     "Name": "viu.sh",
     "Size": "1670 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/viu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4412,7 +4412,7 @@
   {
     "Name": "volta.sh",
     "Size": "2428 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/volta.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4421,7 +4421,7 @@
   {
     "Name": "vopono.sh",
     "Size": "1675 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/vopono.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4430,7 +4430,7 @@
   {
     "Name": "vtm.sh",
     "Size": "1971 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/vtm.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4439,7 +4439,7 @@
   {
     "Name": "vultr-cli.sh",
     "Size": "1639 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/vultr-cli.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4448,7 +4448,7 @@
   {
     "Name": "wadl-dumper.sh",
     "Size": "1933 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wadl-dumper.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4457,7 +4457,7 @@
   {
     "Name": "walk.sh",
     "Size": "1616 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/walk.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4466,7 +4466,7 @@
   {
     "Name": "watchexec.sh",
     "Size": "1667 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/watchexec.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4475,7 +4475,7 @@
   {
     "Name": "waybackrobots.sh",
     "Size": "1973 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/waybackrobots.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4484,7 +4484,7 @@
   {
     "Name": "waybackurls.sh",
     "Size": "1945 B",
-    "ModTime": "2024-02-22T12:21:12.209999668Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/waybackurls.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4493,7 +4493,7 @@
   {
     "Name": "web-cache-vulnerability-scanner.sh",
     "Size": "2056 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/web-cache-vulnerability-scanner.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4502,7 +4502,7 @@
   {
     "Name": "websocat.sh",
     "Size": "1680 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/websocat.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4511,7 +4511,7 @@
   {
     "Name": "wego.sh",
     "Size": "1852 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wego.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4520,7 +4520,7 @@
   {
     "Name": "wireguard-go.sh",
     "Size": "1897 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wireguard-go.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4529,7 +4529,7 @@
   {
     "Name": "wireguard-rs.sh",
     "Size": "2406 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wireguard-rs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4538,7 +4538,7 @@
   {
     "Name": "wireproxy.sh",
     "Size": "1671 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wireproxy.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4547,7 +4547,7 @@
   {
     "Name": "wiretap.sh",
     "Size": "1719 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wiretap.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4556,7 +4556,7 @@
   {
     "Name": "wormhole-rs.sh",
     "Size": "2514 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wormhole-rs.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4565,7 +4565,7 @@
   {
     "Name": "wstunnel.sh",
     "Size": "1661 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wstunnel.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4574,7 +4574,7 @@
   {
     "Name": "wtf.sh",
     "Size": "1651 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.547196897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wtf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4583,7 +4583,7 @@
   {
     "Name": "wth.sh",
     "Size": "1651 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wth.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4592,7 +4592,7 @@
   {
     "Name": "x8.sh",
     "Size": "2376 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/x8.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4601,7 +4601,7 @@
   {
     "Name": "xcp.sh",
     "Size": "2357 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xcp.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4610,7 +4610,7 @@
   {
     "Name": "xh.sh",
     "Size": "1653 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xh.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4619,7 +4619,7 @@
   {
     "Name": "xplr.sh",
     "Size": "2438 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xplr.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4628,7 +4628,7 @@
   {
     "Name": "xurls.sh",
     "Size": "1860 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.571196954Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xurls.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4637,7 +4637,7 @@
   {
     "Name": "yalis.sh",
     "Size": "1866 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yalis.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4646,7 +4646,7 @@
   {
     "Name": "yataf.sh",
     "Size": "1950 B",
-    "ModTime": "2024-02-22T12:21:12.197999649Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yataf.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4655,7 +4655,7 @@
   {
     "Name": "yazi.sh",
     "Size": "2463 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yazi.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4664,7 +4664,7 @@
   {
     "Name": "yip.sh",
     "Size": "1683 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yip.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4673,7 +4673,7 @@
   {
     "Name": "yj.sh",
     "Size": "1857 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yj.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4682,7 +4682,7 @@
   {
     "Name": "yq.sh",
     "Size": "1682 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yq.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4691,7 +4691,7 @@
   {
     "Name": "zdns.sh",
     "Size": "1847 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zdns.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4700,7 +4700,7 @@
   {
     "Name": "zellij.sh",
     "Size": "1651 B",
-    "ModTime": "2024-02-22T12:21:12.189999637Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zellij.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4709,7 +4709,7 @@
   {
     "Name": "zenith.sh",
     "Size": "2488 B",
-    "ModTime": "2024-02-22T12:21:12.205999661Z",
+    "ModTime": "2024-02-22T15:13:30.567196945Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zenith.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4718,7 +4718,7 @@
   {
     "Name": "zfxtop.sh",
     "Size": "1913 B",
-    "ModTime": "2024-02-22T12:21:12.185999630Z",
+    "ModTime": "2024-02-22T15:13:30.551196906Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zfxtop.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4727,7 +4727,7 @@
   {
     "Name": "zgrab2.sh",
     "Size": "1877 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.555196916Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zgrab2.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4736,7 +4736,7 @@
   {
     "Name": "zoxide.sh",
     "Size": "1792 B",
-    "ModTime": "2024-02-22T12:21:12.201999656Z",
+    "ModTime": "2024-02-22T15:13:30.563196935Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zoxide.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4745,7 +4745,7 @@
   {
     "Name": "zstd.sh",
     "Size": "1623 B",
-    "ModTime": "2024-02-22T12:21:12.193999642Z",
+    "ModTime": "2024-02-22T15:13:30.559196925Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zstd.sh",
     "B3SUM": null,
     "SHA256": null,
