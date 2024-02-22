@@ -54,7 +54,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #tahm Take as input on stdin a list of urls and print on stdout all the status codes and body sizes for HTTP methods.
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/edoardottt/lit-bb-hack-tools" && cd "./lit-bb-hack-tools"
        find . -type f -name '*.md' -exec rm {} \;
-       find . -maxdepth 1 -type d ! -name '.git*' -exec sh -c 'CGO_ENABLED="0" go build -o "$1/$1_amd_x86_64_Linux" -v -a -gcflags=all="-l -B -wb=false" -ldflags="-s -w -extldflags '\''-static'\''" "$1/"*' _ {} \;
+       find . -maxdepth 1 -type d ! -name '.git*' -exec sh -c 'GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -o "$1/$1_amd_x86_64_Linux" -v -a -gcflags=all="-l -B -wb=false" -ldflags="-s -w -extldflags '\''-static'\''" "$1/"*' _ {} \;
        find . -type f -name '*_Linux' -exec cp {} "$BINDIR/" \;
        popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi

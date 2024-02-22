@@ -21,14 +21,13 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #Hub : A command-line tool that makes git easier to use with GitHub.
-     export BIN="hub" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/mislav/hub" #github/gitlab/homepage/etc for $BIN
+      #nmapurls : parses Nmap xml reports and outputs a list of http(s) URL's
+     export BIN="nmapurls" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/sdcampbell/nmapurls" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/mislav/hub" && cd "./hub"
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
-       cp "./hub" "$BINDIR/hub" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sdcampbell/nmapurls" && cd "./nmapurls"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./nmapurls" "$BINDIR/nmapurls" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

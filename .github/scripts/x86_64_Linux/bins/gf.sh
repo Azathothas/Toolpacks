@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/tomnomnom/gf" && cd "./gf"
        go mod init github.com/tomnomnom/gf ; go mod tidy
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./gf" "$BINDIR/gf" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./gf" "$BINDIR/gf" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

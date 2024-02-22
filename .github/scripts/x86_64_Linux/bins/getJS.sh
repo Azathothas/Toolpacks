@@ -30,7 +30,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/getJS/main.go"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/getJS/go.mod"
        go get "github.com/Azathothas/Arsenal/getJS"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./getJS" ; cp "./getJS" "$BINDIR/getJS" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./getJS" ; cp "./getJS" "$BINDIR/getJS" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
 fi
 #-------------------------------------------------------#
 

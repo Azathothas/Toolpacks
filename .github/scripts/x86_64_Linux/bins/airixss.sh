@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build   
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/ferreiraklet/airixss" && cd "./airixss"
        go mod init "github.com/ferreiraklet/airixss" ; go mod tidy
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./airixss" "$BINDIR/airixss" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./airixss" "$BINDIR/airixss" ; popd > /dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi       
 #-------------------------------------------------------#

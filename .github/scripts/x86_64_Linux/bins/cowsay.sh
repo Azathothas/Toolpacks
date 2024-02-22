@@ -27,8 +27,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://gitlab.com/nmyk/cowsay.git" && cd "./cowsay"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowsay" 
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowthink"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowsay" 
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowthink"
        cp "./cowsay" "$BINDIR/cowsay" ; cp "./cowthink" "$BINDIR/cowthink"
        popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi

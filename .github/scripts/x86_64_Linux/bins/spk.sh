@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/dhn/spk" && cd "./spk"
-       CGO_ENABLED="0" go build -o "spk_amd_x86_64_Linux" -v -ldflags="-buildid= -s -w -extldflags '-static'"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -o "spk_amd_x86_64_Linux" -v -ldflags="-buildid= -s -w -extldflags '-static'"
        find . -type f -name '*_Linux' -exec cp {} "$BINDIR/spk" \;
        go clean -cache -fuzzcache -modcache -testcache ; popd > /dev/null 2>&1
 fi

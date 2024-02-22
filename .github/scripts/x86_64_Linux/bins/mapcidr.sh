@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build
        #eval "$EGET_TIMEOUT" eget "projectdiscovery/mapcidr" --asset "amd64" --asset "linux" --to "$BINDIR/mapcidr"
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mapcidr" ; cp "./mapcidr" "$BINDIR/mapcidr" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mapcidr" ; cp "./mapcidr" "$BINDIR/mapcidr" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

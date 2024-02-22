@@ -27,11 +27,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/go-git/go-git" && cd "./go-git"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; cp "./git-clone" "$BINDIR/git-clone"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; cp "./git-checkout" "$BINDIR/git-checkout"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; cp "./git-pull" "$BINDIR/git-pull"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-log" "./_examples/log" ; cp "./git-log" "$BINDIR/git-log"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; cp "./git-tag" "$BINDIR/git-tag"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-clone" "./_examples/clone" ; cp "./git-clone" "$BINDIR/git-clone"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-checkout" "./_examples/checkout" ; cp "./git-checkout" "$BINDIR/git-checkout"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-pull" "./_examples/pull" ; cp "./git-pull" "$BINDIR/git-pull"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-log" "./_examples/log" ; cp "./git-log" "$BINDIR/git-log"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "git-tag" "./_examples/tag" ; cp "./git-tag" "$BINDIR/git-tag"
        popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

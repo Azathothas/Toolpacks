@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/elliotwutingfeng/go-fasttld" && cd "./go-fasttld"
-       CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./fasttld" "./cmd/main.go" ; cp "./fasttld" "$BINDIR/fasttld" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./fasttld" "./cmd/main.go" ; cp "./fasttld" "$BINDIR/fasttld" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
