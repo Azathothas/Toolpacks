@@ -48,7 +48,7 @@ docker stop "$(docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${DOCKER_LOG_FILE})\n"
 set -x && nohup docker run --runtime "sysbox-runc" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
-set +x && sleep 10
+set +x && sleep 120
 #Get logs
 DOCKER_ID="$(docker ps -qf name=${DOCKER_CONTAINER_NAME})" && export DOCKER_ID="${DOCKER_ID}"
 DOCKER_LOGPATH="$(docker inspect --format='{{.LogPath}}' ${DOCKER_CONTAINER_NAME})" && export DOCKER_LOGPATH="${DOCKER_LOGPATH}"
