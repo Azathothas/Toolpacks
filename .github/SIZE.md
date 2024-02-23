@@ -20,7 +20,7 @@
  16K   │ ├── SIZE.txt
  16K   │ ├── SIZE.md
 4.0K   │ └── BUILD_ERROR.log.md
-560K   ├── metadata.json
+556K   ├── metadata.json
 464K   ├── metadata.toml
  56K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
