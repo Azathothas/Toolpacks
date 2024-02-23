@@ -35,6 +35,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        staticx --loglevel DEBUG "./target/$RUST_TARGET/release/su" --strip "$BINDIR/su-rs"
        staticx --loglevel DEBUG "./target/$RUST_TARGET/release/sudo" --strip "$BINDIR/sudo-rs"
        staticx --loglevel DEBUG "./target/$RUST_TARGET/release/visudo" --strip "$BINDIR/visudo-rs" ; popd > /dev/null 2>&1
+       #sudo must be owned by uid 0 and have the setuid bit set
+       # sudo chown "root:root" sudo-rs
+       # sudo chmod "a=rx,u+ws" sudo-rs
 fi
 #-------------------------------------------------------#
 
