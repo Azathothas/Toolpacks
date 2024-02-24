@@ -701,6 +701,9 @@ jobs:
   merge-all:
     runs-on: ubuntu-latest
     needs: [enrich-arm64-Linux, enrich-x86-64-Linux]
+    permissions:
+      contents: write
+          
     steps:
 
       - name: Checkout repository
@@ -824,4 +827,4 @@ jobs:
           commit_message: "✅ Updated (Metadata) 🛍️ <-- ${{ env.NEPALI_TIME }} ⌚"
           #push_options: '--force'
         continue-on-error: true
-#------------------------------------------------------------------------------------#          
+#------------------------------------------------------------------------------------#
