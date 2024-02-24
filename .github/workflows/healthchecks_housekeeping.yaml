@@ -210,8 +210,6 @@ jobs:
            cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
            echo '```' >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
            rclone copyto "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SHA256SUM.txt" 2>/dev/null
-           rclone copyto "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" 2>/dev/null
-           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" 2>/dev/null
            ##README From Hysp
            curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/aarch64_arm64/README.md" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/README.md"
         continue-on-error: true
@@ -231,8 +229,6 @@ jobs:
            cat "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
            echo '```' >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
            rclone copyto "r2:/bin/x86_64_Linux/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/SHA256SUM.txt" 2>/dev/null
-           rclone copyto "r2:/bin/x86_64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" 2>/dev/null
-           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" 2>/dev/null
            ##README From Hysp
            curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/x86_64/README.md" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/README.md"
         continue-on-error: true
@@ -793,5 +789,39 @@ jobs:
           ##rClone Update
           echo -e "\n Updating Metadata.json\n"
           rclone copyto "$SYSTMP/METADATA.json" "r2:/bin/METADATA.json" --check-first --checkers 2000 --transfers 1000
+        continue-on-error: true
+
+      - name: Update Repo
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          #aarch64_arm64_Linux
+          rclone copyto "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          #curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json"
+          #x86_64_Linux
+          rclone copyto "r2:/bin/x86_64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          #curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json"
+        continue-on-error: true
+
+      - name: Get DateTime
+        run: |
+          # Date Time
+          NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')
+          echo "NEPALI_TIME=$NEPALI_TIME" >> $GITHUB_ENV
+        continue-on-error: true
+
+     # - name: Git Pull
+     #   run: |
+     #      cd "$GITHUB_WORKSPACE/main" && git pull origin main
+     #   continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main
+          commit_user_name: Azathothas # defaults to "github-actions[bot]"
+          commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "✅ Updated (Metadata) 🛍️ <-- ${{ env.NEPALI_TIME }} ⌚"
+          #push_options: '--force'
         continue-on-error: true
 #------------------------------------------------------------------------------------#          
