@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "246.58 kB",
-    "ModTime": "2024-02-24T14:21:36.090090094Z",
+    "Size": "112.52 kB",
+    "ModTime": "2024-02-24T18:16:10.965129588Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3145,9 +3145,9 @@
     "Size": "26.37 MB",
     "ModTime": "2024-02-24T00:55:58.861271893Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/maddy",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "3dfc4170ba1a8511443f5054926efac569b81513d93b7627619b106ec6cb94ac",
+    "SHA256": "7641b048cdde29f5f59dd27f561c79622ec6b84695482a3ff479f4cd85aa2229",
+    "Repo": "https://github.com/foxcpp/maddy"
   },
   {
     "Name": "mailpit",
