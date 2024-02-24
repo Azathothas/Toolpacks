@@ -19,6 +19,7 @@
  20K   │ ├── SIZE.md
 4.0K   │ ├── README.md
 4.0K   │ └── BUILD_ERROR.log.md
+636K   ├── metadata.json
 528K   ├── metadata.toml
  56K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
@@ -34,5 +35,4 @@
 4.0K   │ └── BLAKE3SUM.txt
  16K   ├── README.md
  16K   ├── INFO.md
-4.0K   ├── x64_Windows
-  0B   └── metadata.json
+4.0K   └── x64_Windows
