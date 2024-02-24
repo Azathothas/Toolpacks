@@ -794,11 +794,11 @@ jobs:
           rclone copyto --checksum "$SYSTMP/METADATA.json" "r2:/bin/METADATA.json" --check-first --checkers 2000 --transfers 1000
         continue-on-error: true
 
-     - name: Git Pull
-       run: |
-          cd "$GITHUB_WORKSPACE/main" && git pull origin main
-       continue-on-error: true
-
+      - name: Git Pull
+        run: |
+           cd "$GITHUB_WORKSPACE/main" && git pull origin main
+        continue-on-error: true
+ 
       - name: Update Repo
         run: |
           #presets
