@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "112.52 kB",
-    "ModTime": "2024-02-25T14:12:04.440515238Z",
+    "ModTime": "2024-02-25T18:15:45.497616071Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2659,9 +2659,9 @@
     "Size": "6.33 MB",
     "ModTime": "2024-02-24T00:56:17.289269094Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/hub",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "1e9d089540b19cc0eaacfe49f0d4ec8b49b5739efc54fc3a68b852c2232e1aab",
+    "SHA256": "510469b7565165fc54d22e0ae51e6c387f5ee41beaf9cfa123ee15e38c914b5b",
+    "Repo": "https://github.com/mislav/hub"
   },
   {
     "Name": "hugo",
@@ -4387,9 +4387,9 @@
     "Size": "6.99 MB",
     "ModTime": "2024-02-24T00:56:20.065268674Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/rush",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "92c21a1689059b3c3d8a21b5ddc096f81331941c20f7425ea823ff34b59ea700",
+    "SHA256": "48b21d6efd18ac676e3d5e7cd2f4f072dfc7ca435591e847c319c7c75bd80016",
+    "Repo": "https://github.com/shenwei356/rush"
   },
   {
     "Name": "rust-parallel",

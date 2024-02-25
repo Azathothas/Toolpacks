@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "111.56 kB",
-    "ModTime": "2024-02-25T14:16:51.131581751Z",
+    "ModTime": "2024-02-25T18:21:51.316798157Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -346,9 +346,9 @@
     "Size": "150.31 MB",
     "ModTime": "2024-02-24T02:03:37.689204722Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/aws-nuke",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "0b9a8466d105b9b7c8ed2b00b052822ed7ee7e12e8f144d84d0fc80ed72eda9c",
+    "SHA256": "fe7ae3041809eed605781e75ff645e24e010d7bc88ec29cc3c62020c2540bdb9",
+    "Repo": "https://github.com/rebuy-de/aws-nuke"
   },
   {
     "Name": "b3sum",
