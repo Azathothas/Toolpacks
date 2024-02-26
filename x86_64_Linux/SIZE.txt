@@ -17,8 +17,8 @@
   69M   ├── nuclei
   63M   ├── loki
   62M   ├── alist
-  59M   ├── wtfutil
   59M   ├── wtf
+  59M   ├── wtfutil
   59M   ├── nushell
   59M   ├── nu
   56M   ├── dockerd
@@ -50,8 +50,8 @@
   33M   ├── skupper
   32M   ├── surf
   32M   ├── shellz
-  32M   ├── git-xet
   32M   ├── mlr
+  32M   ├── git-xet
   31M   ├── edgevpn
   30M   ├── rattler-build
   29M   ├── aix
@@ -73,7 +73,7 @@
   25M   ├── interactsh-client
   25M   ├── algernon
   25M   ├── devbox
-  25M   ├── xetcmd
+  24M   ├── xetcmd
   24M   ├── gum
   23M   ├── v2raya
   23M   ├── vhs
@@ -87,19 +87,19 @@
   23M   ├── pixi
   23M   ├── restic
   23M   ├── devpod
-  23M   ├── xetmnt
   23M   ├── dnsx
   23M   ├── interactsh-server
   22M   ├── docker
   22M   ├── boltconn
   22M   ├── vpnkit
+  22M   ├── xetmnt
   22M   ├── etcd
   22M   ├── syncthing
   22M   ├── reader
   21M   ├── tailscaled
   21M   ├── runme
-  21M   ├── tuiarchiver
   21M   ├── imix
+  21M   ├── tuiarchiver
   21M   ├── meli
   20M   ├── jira-cli
   20M   ├── jira
@@ -111,8 +111,8 @@
   20M   ├── csvtk
   20M   ├── ruff
   20M   ├── atuin
-  20M   ├── notify
   20M   ├── golem
+  20M   ├── notify
   20M   ├── circumflex
   20M   ├── gix
   19M   ├── gh-dash
@@ -123,10 +123,10 @@
   18M   ├── reviewdog
   18M   ├── luet
   18M   ├── sish
+  18M   ├── mailpit
   18M   ├── ctr
   18M   ├── rekor-cli
   18M   ├── miniflux
-  18M   ├── mailpit
   18M   ├── sunbeam
   17M   ├── chameleon
   17M   ├── legba
@@ -141,6 +141,7 @@
   16M   ├── etcdctl
   16M   ├── clipcatd
   16M   ├── lnav
+  16M   ├── gitpod-cli
   16M   ├── caido-cli
   16M   ├── findomain
   15M   ├── diffoci
@@ -155,11 +156,11 @@
   14M   ├── sysbox-runc
   14M   ├── hednsextractor
   14M   ├── bleve
+  14M   ├── godns
   14M   ├── bin
   14M   ├── certwatcher
   14M   ├── filebrowser
   14M   ├── listmonk
-  14M   ├── godns
   14M   ├── yazi
   14M   ├── netmaker
   14M   ├── wiretap
@@ -196,8 +197,8 @@
   11M   ├── rebuilderd-worker
   11M   ├── cfssl
   11M   ├── scilla
-  11M   ├── vopono
   11M   ├── broot
+  11M   ├── vopono
   11M   ├── nmctl
   11M   ├── micro
   11M   ├── tailscale
@@ -297,6 +298,7 @@
  7.7M   ├── ctlwatcher
  7.5M   ├── quickcert
  7.5M   ├── pretender
+ 7.5M   ├── brutespray
  7.5M   ├── sake
  7.5M   ├── puredns
  7.4M   ├── nmap
@@ -395,6 +397,7 @@
  5.0M   ├── gfx
  5.0M   ├── wth
  5.0M   ├── bigdl
+ 5.0M   ├── actionlint
  5.0M   ├── xurls
  4.9M   ├── dnstake
  4.9M   ├── mantra
@@ -410,7 +413,6 @@
  4.8M   ├── gup
  4.8M   ├── mani
  4.7M   ├── gxss
- 4.7M   ├── actionlint
  4.7M   ├── fget
  4.7M   ├── sshd
  4.7M   ├── crlfuzz
@@ -485,9 +487,9 @@
  3.3M   ├── find-rs
  3.2M   ├── lsd
  3.2M   ├── nping
+ 3.2M   ├── binary-security-check
  3.2M   ├── fx
  3.2M   ├── sk
- 3.2M   ├── binary-security-check
  3.1M   ├── stuffbin
  3.1M   ├── ncat
  3.1M   ├── txeh
