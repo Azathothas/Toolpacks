@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "112.87 kB",
-    "ModTime": "2024-02-26T12:18:42.636104920Z",
+    "ModTime": "2024-02-26T14:16:05.473309189Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4504,9 +4504,9 @@
     "Size": "2775 B",
     "ModTime": "2024-02-25T23:23:36.901703318Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/scopeview",
-    "B3SUM": "8f6395301d795091528d401725333201fb13e970ea887a7726b9e485f6a59819",
-    "SHA256": "91edb3c8bfc420d6ce1c7a5c05fb2bec8f59457e15dada31cf970e372a8a104e",
-    "Repo": "https://github.com/Azathothas/Arsenal"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "scp",
