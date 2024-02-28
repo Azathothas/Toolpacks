@@ -2,26 +2,26 @@
 
 [-] Authentication failed --> # Invalid/Deleted GH Repos
 
-53698-
-53699- [+] (Building | Fetching) certwatcher :: https://github.com/drfabiocastro/certwatcher
-53700-
-53701-remote: Support for password authentication was removed on August 13, 2021.
-53702-remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-53703:fatal: Authentication failed for 'https://github.com/drfabiocastro/certwatcher/'
-53704-go: go.mod file not found in current directory or any parent directory; see 'go help modules'
-53705-cp: cannot stat './certwatcher': No such file or directory
-53706-
+54158-
+54159- [+] (Building | Fetching) certwatcher :: https://github.com/drfabiocastro/certwatcher
+54160-
+54161-remote: Support for password authentication was removed on August 13, 2021.
+54162-remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+54163:fatal: Authentication failed for 'https://github.com/drfabiocastro/certwatcher/'
+54164-go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+54165-cp: cannot stat './certwatcher': No such file or directory
+54166-
 
 
 [-] asset * not found --> # Eget failed to find that --asset
 
-61386-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/garm.sh
-61387-
-61388-
-61389- [+] (Building | Fetching) garm :: https://github.com/cloudbase/garm
-61390-
-61391:asset `arm` not found
-61392:asset `arm` not found
+61859-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/garm.sh
+61860-
+61861-
+61862- [+] (Building | Fetching) garm :: https://github.com/cloudbase/garm
+61863-
+61864:asset `arm` not found
+61865:asset `arm` not found
 
 
 [-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL
@@ -53,10 +53,11 @@
 
 [-] No such file or directory # Usually Because Build Failures
 
-49932:cp: cannot stat './berty': No such file or directory
-53705:cp: cannot stat './certwatcher': No such file or directory
-81325:cp: cannot stat './target/x86_64-unknown-linux-musl/release/pathbuster': No such file or directory
-88248:cp: cannot stat './target/x86_64-unknown-linux-musl/release/rqbit': No such file or directory
+50272:cp: cannot stat './berty': No such file or directory
+54165:cp: cannot stat './certwatcher': No such file or directory
+59393:cp: cannot stat './dontgo403': No such file or directory
+81832:cp: cannot stat './target/x86_64-unknown-linux-musl/release/pathbuster': No such file or directory
+88748:cp: cannot stat './target/x86_64-unknown-linux-musl/release/rqbit': No such file or directory
 
 
 [-] Empty (0 Sized) Bins # Usually Because Symlinks

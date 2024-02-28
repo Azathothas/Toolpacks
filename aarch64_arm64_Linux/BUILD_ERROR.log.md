@@ -2,32 +2,32 @@
 
 [-] Authentication failed --> # Invalid/Deleted GH Repos
 
-47298-
-47299- [+] (Building | Fetching) certwatcher :: https://github.com/drfabiocastro/certwatcher
-47300-
-47301-remote: Support for password authentication was removed on August 13, 2021.
-47302-remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-47303:fatal: Authentication failed for 'https://github.com/drfabiocastro/certwatcher/'
-47304-go: go.mod file not found in current directory or any parent directory; see 'go help modules'
-47305-cp: cannot stat './certwatcher': No such file or directory
-47306-
+47582-
+47583- [+] (Building | Fetching) certwatcher :: https://github.com/drfabiocastro/certwatcher
+47584-
+47585-remote: Support for password authentication was removed on August 13, 2021.
+47586-remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+47587:fatal: Authentication failed for 'https://github.com/drfabiocastro/certwatcher/'
+47588-go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+47589-cp: cannot stat './certwatcher': No such file or directory
+47590-
 
 
 [-] asset * not found --> # Eget failed to find that --asset
 
-99008-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tmux.sh
-99009-
-99010-
-99011- [+] (Building | Fetching) tmux :: https://github.com/tmux/tmux
-99012-
-99013:asset `tmux_aarch64_Linux` not found
+99294-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tmux.sh
+99295-
+99296-
+99297- [+] (Building | Fetching) tmux :: https://github.com/tmux/tmux
+99298-
+99299:asset `tmux_aarch64_Linux` not found
 --
-105322-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zstd.sh
-105323-
-105324-
-105325- [+] (Building | Fetching) zstd :: https://github.com/VHSgunzo/zstd-static
-105326-
-105327:asset `arm64` not found
+105622-[+] Fetching : https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zstd.sh
+105623-
+105624-
+105625- [+] (Building | Fetching) zstd :: https://github.com/VHSgunzo/zstd-static
+105626-
+105627:asset `arm64` not found
 
 
 [-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL
@@ -55,17 +55,18 @@
 
 [-] No such file or directory # Usually Because Build Failures
 
-1452:/usr/bin/deb-systemd-helper: error: systemctl preset failed on lm-sensors.service: No such file or directory
-36784:cp: cannot stat './target//release/agrind': No such file or directory
-43072:cp: cannot stat './berty': No such file or directory
-45395:cp: cannot stat './target/aarch64-unknown-linux-musl/release/boxxy': No such file or directory
-47305:cp: cannot stat './certwatcher': No such file or directory
-65822:rm: cannot remove './rust-toolchain.toml': No such file or directory
-67742:rm: cannot remove './rust-toolchain.toml': No such file or directory
-83617:cp: cannot stat './target/aarch64-unknown-linux-gnu/release/rebuildctl': No such file or directory
-83618:cp: cannot stat './target/aarch64-unknown-linux-gnu/release/rebuilderd': No such file or directory
-86230:cp: cannot stat './target/aarch64-unknown-linux-musl/release/rqbit': No such file or directory
-93255:find: '/usr/src/linux-headers-6.1.0-18-cloud-arm64': No such file or directory
+1482:/usr/bin/deb-systemd-helper: error: systemctl preset failed on lm-sensors.service: No such file or directory
+36827:cp: cannot stat './target//release/agrind': No such file or directory
+43274:cp: cannot stat './berty': No such file or directory
+45602:cp: cannot stat './target/aarch64-unknown-linux-musl/release/boxxy': No such file or directory
+47589:cp: cannot stat './certwatcher': No such file or directory
+52956:cp: cannot stat './dontgo403': No such file or directory
+66102:rm: cannot remove './rust-toolchain.toml': No such file or directory
+68025:rm: cannot remove './rust-toolchain.toml': No such file or directory
+83901:cp: cannot stat './target/aarch64-unknown-linux-gnu/release/rebuildctl': No such file or directory
+83902:cp: cannot stat './target/aarch64-unknown-linux-gnu/release/rebuilderd': No such file or directory
+86514:cp: cannot stat './target/aarch64-unknown-linux-musl/release/rqbit': No such file or directory
+93539:find: '/usr/src/linux-headers-6.1.0-18-cloud-arm64': No such file or directory
 
 
 [-] Empty (0 Sized) Bins # Usually Because Symlinks
