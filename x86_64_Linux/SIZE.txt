@@ -1,9 +1,9 @@
- 8.0G └─┬ toolpack_x86_64
+ 8.1G └─┬ toolpack_x86_64
  160M   ├── sliver-server
  152M   ├── usql
  143M   ├── aws-nuke
  143M   ├── traefik
- 132M   ├── cloudfox
+ 135M   ├── cloudfox
   98M   ├── gitea
   93M   ├── cloudlist
   88M   ├── trufflehog
@@ -30,9 +30,9 @@
   48M   ├── bearer
   48M   ├── teldrive
   48M   ├── matterbridge
-  46M   ├── rekor-server
   46M   ├── rekor
-  45M   ├── tavern
+  46M   ├── rekor-server
+  46M   ├── tavern
   41M   ├── gh
   39M   ├── caddy
   38M   ├── kadeessh
@@ -50,8 +50,8 @@
   33M   ├── skupper
   32M   ├── surf
   32M   ├── shellz
-  32M   ├── git-xet
   32M   ├── mlr
+  32M   ├── git-xet
   31M   ├── edgevpn
   30M   ├── rattler-build
   29M   ├── aix
@@ -71,11 +71,14 @@
   26M   ├── relic
   25M   ├── cvemap
   25M   ├── interactsh-client
+  25M   ├── asnmap
   25M   ├── algernon
   25M   ├── devbox
-  25M   ├── xetcmd
+  24M   ├── xetcmd
   24M   ├── gum
+  24M   ├── brutespray
   23M   ├── v2raya
+  23M   ├── pixi
   23M   ├── vhs
   23M   ├── dalfox
   23M   ├── nerdctl
@@ -84,35 +87,33 @@
   23M   ├── ngrok
   23M   ├── jaeles
   23M   ├── gowitness
-  23M   ├── pixi
   23M   ├── restic
   23M   ├── devpod
-  23M   ├── xetmnt
   23M   ├── dnsx
   23M   ├── interactsh-server
   22M   ├── docker
   22M   ├── boltconn
   22M   ├── vpnkit
+  22M   ├── xetmnt
   22M   ├── etcd
   22M   ├── syncthing
   22M   ├── reader
   21M   ├── tailscaled
   21M   ├── runme
-  21M   ├── tuiarchiver
   21M   ├── imix
+  21M   ├── tuiarchiver
   21M   ├── meli
   20M   ├── jira-cli
   20M   ├── jira
   20M   ├── alterx
   20M   ├── mapcidr
   20M   ├── tailscale_merged
-  20M   ├── asnmap
   20M   ├── arduino-cli
   20M   ├── csvtk
   20M   ├── ruff
   20M   ├── atuin
-  20M   ├── notify
   20M   ├── golem
+  20M   ├── notify
   20M   ├── circumflex
   20M   ├── gix
   19M   ├── gh-dash
@@ -123,10 +124,10 @@
   18M   ├── reviewdog
   18M   ├── luet
   18M   ├── sish
+  18M   ├── mailpit
   18M   ├── ctr
   18M   ├── rekor-cli
   18M   ├── miniflux
-  18M   ├── mailpit
   18M   ├── sunbeam
   17M   ├── chameleon
   17M   ├── legba
@@ -141,6 +142,7 @@
   16M   ├── etcdctl
   16M   ├── clipcatd
   16M   ├── lnav
+  16M   ├── gitpod-cli
   16M   ├── caido-cli
   16M   ├── findomain
   15M   ├── diffoci
@@ -155,13 +157,13 @@
   14M   ├── sysbox-runc
   14M   ├── hednsextractor
   14M   ├── bleve
+  14M   ├── godns
   14M   ├── bin
   14M   ├── certwatcher
   14M   ├── filebrowser
   14M   ├── listmonk
-  14M   ├── godns
-  14M   ├── yazi
   14M   ├── netmaker
+  14M   ├── yazi
   14M   ├── wiretap
   14M   ├── etcdutl
   14M   ├── ct_monitor
@@ -196,8 +198,8 @@
   11M   ├── rebuilderd-worker
   11M   ├── cfssl
   11M   ├── scilla
-  11M   ├── vopono
   11M   ├── broot
+  11M   ├── vopono
   11M   ├── nmctl
   11M   ├── micro
   11M   ├── tailscale
@@ -217,7 +219,7 @@
   10M   ├── runc
   10M   ├── certstream-server-go
   10M   ├── pdfcpu
-  10M   ├── katana_staticx
+10.0M   ├── katana_staticx
 10.0M   ├── orbiton
  9.9M   ├── tut
  9.8M   ├── gotty
@@ -241,8 +243,8 @@
  9.3M   ├── vultr-cli
  9.2M   ├── sttr
  9.1M   ├── agg
- 9.1M   ├── cfssl-certinfo
  9.1M   ├── csprecon
+ 9.1M   ├── cfssl-certinfo
  9.1M   ├── mubeng
  9.0M   ├── invidtui
  9.0M   ├── feroxbuster
@@ -275,7 +277,6 @@
  8.3M   ├── aria2c
  8.3M   ├── chisel
  8.2M   ├── getghrel
- 8.2M   ├── curl
  8.2M   ├── assh
  8.1M   ├── sns
  8.1M   ├── tgpt
@@ -295,6 +296,7 @@
  7.7M   ├── cherrybomb
  7.7M   ├── enola
  7.7M   ├── ctlwatcher
+ 7.6M   ├── curl
  7.5M   ├── quickcert
  7.5M   ├── pretender
  7.5M   ├── sake
@@ -343,6 +345,7 @@
  6.3M   ├── ripgrep
  6.3M   ├── rg
  6.2M   ├── wireproxy
+ 6.2M   ├── u-root
  6.1M   ├── go-simplehttpserver
  6.0M   ├── eget
  6.0M   ├── dizi-server
@@ -360,7 +363,6 @@
  5.8M   ├── albafetch
  5.8M   ├── pathbuster
  5.7M   ├── clipcat-notify
- 5.7M   ├── u-root
  5.7M   ├── wego
  5.6M   ├── sbctl
  5.6M   ├── web-cache-vulnerability-scanner
@@ -388,13 +390,14 @@
  5.1M   ├── github-regexp
  5.1M   ├── roboxtractor
  5.1M   ├── git-tag
- 5.1M   ├── ppfuzz
  5.1M   ├── crawley
+ 5.1M   ├── ppfuzz
  5.1M   ├── unfurl
  5.0M   ├── fblog
  5.0M   ├── gfx
  5.0M   ├── wth
  5.0M   ├── bigdl
+ 5.0M   ├── actionlint
  5.0M   ├── xurls
  4.9M   ├── dnstake
  4.9M   ├── mantra
@@ -410,7 +413,6 @@
  4.8M   ├── gup
  4.8M   ├── mani
  4.7M   ├── gxss
- 4.7M   ├── actionlint
  4.7M   ├── fget
  4.7M   ├── sshd
  4.7M   ├── crlfuzz
@@ -485,9 +487,9 @@
  3.3M   ├── find-rs
  3.2M   ├── lsd
  3.2M   ├── nping
+ 3.2M   ├── binary-security-check
  3.2M   ├── fx
  3.2M   ├── sk
- 3.2M   ├── binary-security-check
  3.1M   ├── stuffbin
  3.1M   ├── ncat
  3.1M   ├── txeh

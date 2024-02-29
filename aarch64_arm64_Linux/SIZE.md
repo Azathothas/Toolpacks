@@ -2,7 +2,7 @@
  7.0G └─┬ toolpack_aarch64
  142M   ├── aws-nuke
  139M   ├── traefik
- 121M   ├── cloudfox
+ 124M   ├── cloudfox
  120M   ├── usql
   94M   ├── gitea
   91M   ├── cloudlist
@@ -48,16 +48,16 @@
   29M   ├── aix
   28M   ├── sqlc
   28M   ├── vpnkit
-  27M   ├── nushell
-  27M   ├── nu
   27M   ├── sq
   27M   ├── podman
   27M   ├── soft-serve
   27M   ├── osmedeus
   26M   ├── loki-canary
+  26M   ├── git-xet
   26M   ├── netbird
+  26M   ├── nushell
+  26M   ├── nu
   26M   ├── subfinder
-  25M   ├── git-xet
   25M   ├── tlsx
   25M   ├── qbittorrent-nox
   25M   ├── rattler-build
@@ -66,6 +66,7 @@
   24M   ├── gum
   24M   ├── cvemap
   24M   ├── interactsh-client
+  24M   ├── asnmap
   24M   ├── algernon
   24M   ├── zellij
   23M   ├── devbox
@@ -87,48 +88,48 @@
   21M   ├── etcd
   21M   ├── syncthing
   21M   ├── reader
+  20M   ├── xetcmd
   20M   ├── tailscaled
   20M   ├── runme
   20M   ├── tuiarchiver
   20M   ├── mapcidr
-  20M   ├── xetcmd
   20M   ├── alterx
-  20M   ├── asnmap
   19M   ├── tailscale_merged
   19M   ├── jira-cli
   19M   ├── jira
   19M   ├── arduino-cli
-  19M   ├── csvtk
   19M   ├── pixi
+  19M   ├── csvtk
   19M   ├── notify
   19M   ├── circumflex
+  19M   ├── xetmnt
   19M   ├── podsync
   19M   ├── gh-dash
   18M   ├── cdncheck
-  18M   ├── xetmnt
   18M   ├── boltconn
   17M   ├── s3scanner
   17M   ├── reviewdog
   17M   ├── chameleon
   17M   ├── luet
   17M   ├── sish
+  17M   ├── mailpit
   17M   ├── ctr
   17M   ├── rekor-cli
   17M   ├── miniflux
-  17M   ├── mailpit
   17M   ├── sunbeam
   17M   ├── jj
   17M   ├── gix
   17M   ├── ruff
   17M   ├── chaos-client
-  16M   ├── imix
   16M   ├── shuffledns
+  16M   ├── imix
   16M   ├── meli
   16M   ├── garm
   16M   ├── glow
   16M   ├── lux
   16M   ├── findomain
   16M   ├── etcdctl
+  16M   ├── gitpod-cli
   15M   ├── golem
   15M   ├── caido-cli
   15M   ├── diffoci
@@ -139,17 +140,17 @@
   14M   ├── termshark
   14M   ├── tinja
   14M   ├── hrekt
-  14M   ├── atuin
+  14M   ├── mise
   14M   ├── s5cmd
+  14M   ├── atuin
   14M   ├── sn0int
   14M   ├── bleve
   14M   ├── bin
   13M   ├── hednsextractor
   13M   ├── certwatcher
-  13M   ├── mise
   13M   ├── filebrowser
-  13M   ├── smap
   13M   ├── godns
+  13M   ├── smap
   13M   ├── sysbox-runc
   13M   ├── listmonk
   13M   ├── rqbit
@@ -164,8 +165,8 @@
   12M   ├── s3sync
   12M   ├── opengfw
   12M   ├── hadolint
-  12M   ├── yazi
   12M   ├── ffufw
+  12M   ├── yazi
   12M   ├── gost
   12M   ├── bucketloot
   12M   ├── falconhound
@@ -198,6 +199,7 @@
   10M   ├── supervisord
   10M   ├── gitui
   10M   ├── rebuilderd-worker
+ 9.8M   ├── brutespray
  9.8M   ├── katana_staticx
  9.7M   ├── vegeta
  9.7M   ├── git-cliff
@@ -207,8 +209,8 @@
  9.6M   ├── runc
  9.6M   ├── orbiton
  9.5M   ├── gotty
- 9.5M   ├── pdfcpu
  9.5M   ├── broot
+ 9.5M   ├── pdfcpu
  9.4M   ├── gitql
  9.4M   ├── htb-cli
  9.4M   ├── shortscan
@@ -216,8 +218,8 @@
  9.4M   ├── resto
  9.3M   ├── gip
  9.3M   ├── goop
+ 9.2M   ├── yq
  9.2M   ├── ngocok
- 9.1M   ├── yq
  9.1M   ├── cfssl-newkey
  9.1M   ├── qsv
  9.1M   ├── dasel
@@ -247,8 +249,8 @@
  8.2M   ├── rospo
  8.2M   ├── openrisk
  8.1M   ├── zdns
- 8.1M   ├── gocurl
  8.1M   ├── aria2c
+ 8.1M   ├── gocurl
  8.0M   ├── stew
  8.0M   ├── q
  7.9M   ├── chisel
@@ -263,8 +265,8 @@
  7.7M   ├── ov
  7.7M   ├── ladder
  7.6M   ├── planor
- 7.6M   ├── wormhole-rs
  7.6M   ├── sshx-server
+ 7.6M   ├── wormhole-rs
  7.6M   ├── dontgo403
  7.6M   ├── viddy
  7.5M   ├── gau
@@ -286,9 +288,9 @@
  7.1M   ├── revive
  7.1M   ├── puredns
  7.1M   ├── hardeningmeter_staticx
- 7.0M   ├── curl
  7.0M   ├── sake
  7.0M   ├── ctlwatcher
+ 7.0M   ├── curl
  7.0M   ├── watchexec
  6.9M   ├── rustypaste
  6.9M   ├── nmap
@@ -317,9 +319,10 @@
  6.1M   ├── direnv
  6.1M   ├── wireproxy
  6.1M   ├── yalis
- 6.0M   ├── cherrybomb
  6.0M   ├── hub
+ 6.0M   ├── cherrybomb
  6.0M   ├── aretext
+ 5.9M   ├── u-root
  5.9M   ├── v6run
  5.9M   ├── go-simplehttpserver
  5.9M   ├── fnm
@@ -331,7 +334,6 @@
  5.6M   ├── wadl-dumper
  5.6M   ├── rescope
  5.6M   ├── amp
- 5.5M   ├── u-root
  5.4M   ├── wego
  5.4M   ├── sbctl
  5.4M   ├── xh
@@ -362,6 +364,7 @@
  4.9M   ├── gfx
  4.8M   ├── git-tag
  4.8M   ├── wth
+ 4.8M   ├── actionlint
  4.8M   ├── unfurl
  4.8M   ├── xurls
  4.8M   ├── sshd
@@ -379,10 +382,9 @@
  4.7M   ├── analyticsrelationships
  4.7M   ├── airixss
  4.7M   ├── mani
+ 4.7M   ├── vtm
  4.6M   ├── waybackurls
  4.6M   ├── agg
- 4.6M   ├── actionlint
- 4.6M   ├── vtm
  4.6M   ├── rustcan
  4.6M   ├── procs
  4.6M   ├── gxss
@@ -414,9 +416,9 @@
  4.1M   ├── jwt-hack
  4.1M   ├── hysp
  4.1M   ├── tahm
- 4.1M   ├── ppfuzz
  4.1M   ├── knoxssme
  4.1M   ├── bbtargets
+ 4.1M   ├── ppfuzz
  4.0M   ├── ssh-add
  4.0M   ├── ssh-agent
  4.0M   ├── ripgrep
@@ -483,9 +485,9 @@
  2.6M   ├── bingrep
  2.6M   ├── sk
  2.6M   ├── walk
+ 2.6M   ├── binary-security-check
  2.6M   ├── shfmt
  2.5M   ├── fwanalyzer
- 2.5M   ├── binary-security-check
  2.5M   ├── bandwhich
  2.4M   ├── dysk
  2.4M   ├── tlrc
