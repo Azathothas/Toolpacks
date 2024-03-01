@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "111.89 kB",
-    "ModTime": "2024-03-01T02:30:49.829389298Z",
+    "Size": "112.22 kB",
+    "ModTime": "2024-03-01T06:20:41.519116403Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -241,6 +241,15 @@
     "B3SUM": "cd012cd5af0ace11f1a65ffeb7f240e5ef436b96f84715e76574e628514cb69d",
     "SHA256": "7508799efc05295108cbbbb9528c6796f3764f5b351874b980be633324c1257a",
     "Repo": "https://github.com/tomnomnom/anew"
+  },
+  {
+    "Name": "anew-rs",
+    "Size": "879.22 kB",
+    "ModTime": "2024-03-01T05:29:24.442566900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/anew-rs",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/zer0yu/anew"
   },
   {
     "Name": "anewer",
@@ -4534,6 +4543,15 @@
     "B3SUM": "db17b51b4202d743915b29a7403a9c8e0ce0fbaf4ad0db8fcdfbdbd3270a4543",
     "SHA256": "aadeef400b8f05645768c1476d1023f7875b78f52c7ff1967a6dbce236b8cbd8",
     "Repo": "https://github.com/opencontainers/runc"
+  },
+  {
+    "Name": "runiq",
+    "Size": "2.62 MB",
+    "ModTime": "2024-03-01T04:32:54.132934200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/runiq",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/whitfin/runiq"
   },
   {
     "Name": "runme",
