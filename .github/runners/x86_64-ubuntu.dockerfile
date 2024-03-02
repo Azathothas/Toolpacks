@@ -94,6 +94,8 @@ RUN <<EOS
   apt-get install python3 -y
   curl -qfsSL "https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py" -o "$(which systemctl)"
   mkdir -p "/var/run/dbus" ; dbus-daemon --config-file="/usr/share/dbus-1/system.conf" --print-address
+ #Start DBUS
+  service dbus start
 EOS
 ##s6-overlays & Init
 RUN <<EOS
