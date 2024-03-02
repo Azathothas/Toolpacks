@@ -230,7 +230,7 @@
              go version
              sudo ldconfig && sudo ldconfig -p
           fi
-         #Nix
+         ##Nix
           curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
           source "$HOME/.nix-profile/etc/profile.d/nix.sh"
           if ! command -v nix &> /dev/null; then
@@ -238,7 +238,9 @@
              export CONTINUE="NO" && exit 1
           else
              nix --version && nix-channel --list && nix-channel --update
-          fi          
+          fi
+         ##Purge:
+         #sudo rm -rf "/etc/bash.bashrc.backup-before-nix" "/etc/nix" "/nix" "/root/.nix-profile" "/root/.nix-defexpr" "/root/.nix-channels" "/root/.local/state/nix" "/root/.cache/nix" "$HOME/.nix-profile" "$HOME/.nix-defexpr" "$HOME/.nix-channels" "$HOME/.local/state/nix" "$HOME/.cache/nix" 2>/dev/null
          #rust & cargo
           bash <(curl -qfsSL "https://sh.rustup.rs") -y
           #Test: PATH="$HOME/.cargo/bin:$HOME/.cargo/env:$PATH" 
