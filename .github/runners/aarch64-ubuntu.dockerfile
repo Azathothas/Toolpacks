@@ -21,12 +21,14 @@ EOS
 #SHELL ["/bin/bash"]
 #------------------------------------------------------------------------------------#
 ##Addons
-# Eget for simplified releases
 RUN <<EOS
+# Eget for simplified releases
   echo "$PATH"
   wget --quiet --show-progress "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "/usr/local/bin/eget"
   chmod +xwr "/usr/local/bin/eget"
   eget -h && eget --rate
+ #croc:https://github.com/schollz/croc
+  eget "https://bin.ajam.dev/aarch64_arm64_Linux/croc" --to "/usr/local/bin/croc"
 EOS
 #ENV GITHUB_TOKEN="$GITHUB_PERSONAL_TOKEN"
 RUN eget --rate
@@ -96,6 +98,20 @@ RUN <<EOS
   mkdir -p "/var/run/dbus" ; dbus-daemon --config-file="/usr/share/dbus-1/system.conf" --print-address
  #Start DBUS
   service dbus start
+EOS
+##Display & x11 :: https://github.com/puppeteer/puppeteer/issues/8148
+RUN <<EOS
+ #x11 & display server
+  echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+  DEBIAN_FRONTEND=noninteractive apt-get update -y && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
+ #Re
+  echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+  DEBIAN_FRONTEND=noninteractive apt-get update -y && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
+ #Configure
+  touch "$HOME/.Xauthority"
+ #To start: (-ac --> disable access control restrictions)
+ #Xvfb -ac ":0" & 
+ # export DISPLAY=":0" && google-chrome
 EOS
 ##s6-overlays & Init
 RUN <<EOS
