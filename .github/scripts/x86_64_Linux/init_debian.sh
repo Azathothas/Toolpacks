@@ -221,7 +221,16 @@
           else
              go version
              sudo ldconfig && sudo ldconfig -p
-          fi  
+          fi
+         #Nix
+          curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
+          source "$HOME/.nix-profile/etc/profile.d/nix.sh"
+          if ! command -v nix &> /dev/null; then
+             echo -e "\n[-] nix NOT Found\n"
+             export CONTINUE="NO" && exit 1
+          else
+             nix --version && nix-channel --list && nix-channel --update
+          fi
          #rust & cargo
           bash <(curl -qfsSL "https://sh.rustup.rs") -y 
           #Test: PATH="$HOME/.cargo/bin:$HOME/.cargo/env:$PATH" 
