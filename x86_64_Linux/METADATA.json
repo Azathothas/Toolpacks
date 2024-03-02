@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "112.54 kB",
-    "ModTime": "2024-03-02T06:18:31.176649522Z",
+    "ModTime": "2024-03-02T08:17:37.872653710Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2449,8 +2449,8 @@
   },
   {
     "Name": "gowitness",
-    "Size": "24.62 MB",
-    "ModTime": "2024-03-02T01:56:58.524593141Z",
+    "Size": "28.71 MB",
+    "ModTime": "2024-03-02T08:02:06.090075100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gowitness",
     "B3SUM": "95a6cc30d2b3f249dbcc37e70c2dc499e3ef6c741340485edcf3256fa1b2d182",
     "SHA256": "96f035e3bfffec00da41c0304525ba422dd903c5f506228a047c06c87c80942b",
