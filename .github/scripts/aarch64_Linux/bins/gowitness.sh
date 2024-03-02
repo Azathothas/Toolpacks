@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build
        #eval "$EGET_TIMEOUT" eget "sensepost/gowitness" --asset "arm64" --asset "linux" --to "$BINDIR/gowitness"
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sensepost/gowitness" && cd "./gowitness"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" CC="zig cc -target x86_64-linux-musl" CXX="zig c++ -target x86_64-linux-musl" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -static-pie -Wl,--build-id=none'" ; cp "./gowitness" "$BINDIR/gowitness" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" CC="zig cc -target aarch64-linux-musl" CXX="zig c++ -target aarch64-linux-musl" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -static-pie -Wl,--build-id=none'" ; cp "./gowitness" "$BINDIR/gowitness" ; popd > /dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
