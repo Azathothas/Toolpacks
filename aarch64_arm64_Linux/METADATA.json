@@ -10,8 +10,8 @@
   },
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "49.81 kB",
-    "ModTime": "2024-02-28T00:43:04.956934398Z",
+    "Size": "50.11 kB",
+    "ModTime": "2024-03-02T00:43:59.662599532Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -19,8 +19,8 @@
   },
   {
     "Name": "BUILD.log.txt",
-    "Size": "7.01 MB",
-    "ModTime": "2024-02-28T01:04:08.332784408Z",
+    "Size": "7.29 MB",
+    "ModTime": "2024-03-02T01:03:42.562450893Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.log.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "112.87 kB",
-    "ModTime": "2024-03-02T00:38:15.450530484Z",
+    "Size": "113.55 kB",
+    "ModTime": "2024-03-02T02:18:22.419646902Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -46,8 +46,8 @@
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "49.81 kB",
-    "ModTime": "2024-02-28T00:43:34.148931381Z",
+    "Size": "50.11 kB",
+    "ModTime": "2024-03-02T00:44:30.530595321Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -55,8 +55,8 @@
   },
   {
     "Name": "SIZE.txt",
-    "Size": "17.17 kB",
-    "ModTime": "2024-02-28T00:42:59.224934988Z",
+    "Size": "17.27 kB",
+    "ModTime": "2024-03-02T00:43:52.430600524Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/SIZE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -73,8 +73,8 @@
   },
   {
     "Name": "_toolpack_aarch64_arm64.7z",
-    "Size": "1.36 GB",
-    "ModTime": "2024-02-28T01:00:55.108814062Z",
+    "Size": "1.37 GB",
+    "ModTime": "2024-03-02T01:01:51.966464218Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/_toolpack_aarch64_arm64.7z",
     "B3SUM": null,
     "SHA256": null,
@@ -83,7 +83,7 @@
   {
     "Name": "_toolpack_aarch64_arm64_BLAKE3SUM.txt",
     "Size": "88 B",
-    "ModTime": "2024-02-28T01:03:56.256786194Z",
+    "ModTime": "2024-03-02T01:03:33.710451958Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/_toolpack_aarch64_arm64_BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -92,7 +92,7 @@
   {
     "Name": "_toolpack_aarch64_arm64_SHA256SUM.txt",
     "Size": "88 B",
-    "ModTime": "2024-02-28T01:04:04.376784992Z",
+    "ModTime": "2024-03-02T01:03:40.322451162Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/_toolpack_aarch64_arm64_SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
