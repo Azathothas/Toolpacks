@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "112.54 kB",
-    "ModTime": "2024-03-03T04:22:14.596028131Z",
+    "ModTime": "2024-03-03T12:24:15.584295242Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -244,8 +244,8 @@
   },
   {
     "Name": "anew-rs",
-    "Size": "879.22 kB",
-    "ModTime": "2024-03-02T01:57:15.876479084Z",
+    "Size": "895.1 kB",
+    "ModTime": "2024-03-03T07:56:20.313224400Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/anew-rs",
     "B3SUM": "0b93037b8ff776c9ba0e7f4110f3fa3c3c247f51cddc2ae6e1b08c715fc6e006",
     "SHA256": "e37f0e35b1df9a328fe55defa9cbe937d5496fa2db63f6749071fd2a7837322c",
