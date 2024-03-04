@@ -6,8 +6,8 @@
  135M   ├── cloudfox
   98M   ├── gitea
   93M   ├── cloudlist
+  89M   ├── k9s
   88M   ├── promtail
-  87M   ├── k9s
   83M   ├── trufflehog
   83M   ├── hugo
   82M   ├── istioctl
@@ -17,8 +17,8 @@
   69M   ├── nuclei
   63M   ├── loki
   62M   ├── alist
-  59M   ├── wtfutil
   59M   ├── wtf
+  59M   ├── wtfutil
   59M   ├── nushell
   59M   ├── nu
   56M   ├── dockerd
@@ -30,8 +30,8 @@
   48M   ├── bearer
   48M   ├── teldrive
   48M   ├── matterbridge
-  46M   ├── rekor-server
   46M   ├── rekor
+  46M   ├── rekor-server
   46M   ├── tavern
   41M   ├── gh
   39M   ├── caddy
@@ -67,6 +67,8 @@
   27M   ├── qbittorrent-nox
   27M   ├── netbird
   27M   ├── subfinder
+  27M   ├── gowitness
+  27M   ├── dnsx
   27M   ├── tlsx
   26M   ├── maddy
   26M   ├── relic
@@ -87,10 +89,8 @@
   23M   ├── uncover
   23M   ├── ngrok
   23M   ├── jaeles
-  23M   ├── gowitness
   23M   ├── restic
   23M   ├── devpod
-  23M   ├── dnsx
   23M   ├── interactsh-server
   22M   ├── docker
   22M   ├── boltconn
@@ -100,8 +100,8 @@
   22M   ├── reader
   21M   ├── tailscaled
   21M   ├── imix
-  21M   ├── meli
   21M   ├── tuiarchiver
+  21M   ├── meli
   20M   ├── jira-cli
   20M   ├── jira
   20M   ├── alterx
@@ -122,8 +122,8 @@
   19M   ├── s3scanner
   18M   ├── reviewdog
   18M   ├── luet
-  18M   ├── sish
   18M   ├── mailpit
+  18M   ├── sish
   18M   ├── xetmnt
   18M   ├── ctr
   18M   ├── rekor-cli
@@ -158,12 +158,12 @@
   14M   ├── hednsextractor
   14M   ├── bleve
   14M   ├── netmaker
+  14M   ├── yazi
   14M   ├── godns
   14M   ├── bin
   14M   ├── certwatcher
   14M   ├── filebrowser
   14M   ├── listmonk
-  14M   ├── yazi
   14M   ├── wiretap
   14M   ├── etcdutl
   14M   ├── ct_monitor
@@ -200,9 +200,9 @@
   11M   ├── broot
   11M   ├── scilla
   11M   ├── feroxbuster
-  11M   ├── vopono
   11M   ├── nmctl
   11M   ├── micro
+  11M   ├── vopono
   11M   ├── tailscale
   11M   ├── jqp
   11M   ├── lazydocker
@@ -326,7 +326,6 @@
  6.8M   ├── trip
  6.8M   ├── certgraph
  6.7M   ├── xplr
- 6.7M   ├── presenterm
  6.7M   ├── exiflooter
  6.7M   ├── boxxy
  6.6M   ├── websocat
@@ -359,6 +358,7 @@
  5.9M   ├── wadl-dumper
  5.8M   ├── rescope
  5.8M   ├── nginx
+ 5.8M   ├── presenterm
  5.8M   ├── amp
  5.8M   ├── delta
  5.8M   ├── albafetch
@@ -398,6 +398,7 @@
  5.0M   ├── fblog
  5.0M   ├── gfx
  5.0M   ├── wth
+ 5.0M   ├── rsync
  5.0M   ├── actionlint
  5.0M   ├── xurls
  5.0M   ├── hysp
@@ -414,8 +415,8 @@
  4.8M   ├── gup
  4.8M   ├── mani
  4.7M   ├── gxss
- 4.7M   ├── fget
  4.7M   ├── sshd
+ 4.7M   ├── fget
  4.7M   ├── crlfuzz
  4.7M   ├── hakip2host
  4.7M   ├── fclones
@@ -444,25 +445,25 @@
  4.3M   ├── datadash
  4.2M   ├── nmap-formatter
  4.2M   ├── ssh-keysign
+ 4.2M   ├── ssh-keyscan
  4.2M   ├── robotstxt
  4.2M   ├── doomxss
  4.2M   ├── checkbypass
  4.2M   ├── nrp
  4.2M   ├── heacoll
  4.2M   ├── chainredir
- 4.1M   ├── ssh-keyscan
- 4.1M   ├── kalker
  4.1M   ├── ssh-keygen
+ 4.1M   ├── kalker
  4.1M   ├── xcp
  4.0M   ├── tokei
  4.0M   ├── ripgen
  4.0M   ├── ssh-add
+ 4.0M   ├── ssh-agent
  3.9M   ├── pfetch-rs
  3.9M   ├── fd
- 3.9M   ├── ssh-agent
  3.9M   ├── overmind
- 3.9M   ├── mqttui
  3.9M   ├── gojq
+ 3.9M   ├── mqttui
  3.9M   ├── twingate-notifier
  3.9M   ├── dns-doctor
  3.8M   ├── validtoml
@@ -486,6 +487,7 @@
  3.3M   ├── pspy
  3.3M   ├── navi
  3.3M   ├── find-rs
+ 3.3M   ├── tlrc
  3.2M   ├── lsd
  3.2M   ├── nping
  3.2M   ├── binary-security-check
@@ -496,7 +498,6 @@
  3.1M   ├── txeh
  3.1M   ├── njs
  3.1M   ├── socat
- 3.1M   ├── tlrc
  3.0M   ├── dysk
  3.0M   ├── logtimer
  3.0M   ├── tmate
@@ -635,7 +636,7 @@
  908K   ├── hx
  900K   ├── catp
  892K   ├── csview
- 860K   ├── anew-rs
+ 868K   ├── anew-rs
  836K   ├── anewer
  740K   ├── toybox
  692K   ├── docker-init
@@ -648,9 +649,9 @@
  396K   ├── nnn
  388K   ├── dbclient
  360K   ├── scp
- 328K   ├── sftp
+ 356K   ├── sftp
+ 268K   ├── sftp-server
  256K   ├── screenfetch
- 240K   ├── sftp-server
  236K   ├── minisign
  224K   ├── dropbearkey
  220K   ├── dropbearconvert
@@ -675,6 +676,7 @@
   16K   ├── bdl.sh
   12K   ├── fastfetch
  8.0K   ├── sk-tmux
+ 8.0K   ├── rsync-ssl
  8.0K   ├── gsocket
  8.0K   ├── dockerd-rootless.sh
  4.0K   ├── subxtract
