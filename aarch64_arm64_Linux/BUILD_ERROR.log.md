@@ -33,7 +33,8 @@
 
 [-] No such file or directory # Usually Because Build Failures
 
-1482:/usr/bin/deb-systemd-helper: error: systemctl preset failed on lm-sensors.service: No such file or directory
+3534:/usr/bin/deb-systemd-helper: error: systemctl preset failed on lm-sensors.service: No such file or directory
+6402:/tmp/sw6DE_init.sh: line 256: /home/runner/.bash_profile: No such file or directory
 
 
 [-] Empty (0 Sized) Bins # Usually Because Symlinks

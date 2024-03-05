@@ -10,7 +10,7 @@
  20K   │ ├── SIZE.txt
  20K   │ ├── SIZE.md
 8.0K   │ └── BUILD_ERROR.log.md
-828K   ├── metadata.json
+832K   ├── metadata.json
 808K   ├─┬ aarch64_arm64_Linux
 304K   │ ├── BUILD.log.txt
 244K   │ ├── METADATA.json
