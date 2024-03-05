@@ -138,7 +138,18 @@
          #libsqlite3
           sudo apt-get install libsqlite3-dev sqlite3 sqlite3-pcre sqlite3-tools -y 2>/dev/null
          #lzma
-          sudo apt-get install liblz-dev librust-lzma-sys-dev lzma lzma-dev -y          
+          sudo apt-get install liblz-dev librust-lzma-sys-dev lzma lzma-dev -y
+         #musl
+          #Source
+          pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://git.musl-libc.org/git/musl" && cd "./musl"
+          #Flags
+          unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+          #Configure
+          make dest clean 2>/dev/null ; make clean 2>/dev/null
+          bash "./configure" --prefix="/usr/local/musl"
+          sudo make --jobs="$(($(nproc)+1))" --keep-going install ; popd > /dev/null 2>&1
+          sudo ldconfig && sudo ldconfig -p
+          find "$SYSTMP" -type d -name "*musl*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1 
          #Networking
           sudo apt-get install dnsutils 'inetutils*' net-tools netcat-traditional -y 2>/dev/null
           sudo apt-get install 'iputils*' -y 2>/dev/null
@@ -150,11 +161,21 @@
          #  sudo update-alternatives --install "/usr/bin/python3" "python" "/usr/bin/python${PYTHON_VERSION_LATEST}" 1
          #  sudo update-alternatives --install "/usr/bin/python3" "python" "/usr/bin/python$(python --version | awk '{print $2}' | awk -F '.' '{print $1"."$2}')" 2
           sudo apt install python3-pip python3-venv -y 2>/dev/null
+         #Upgrade pip
+          pip --version
+          pip install --break-system-packages --upgrade pip || pip install --upgrade pip
+          pip --version
+         #Deps 
           sudo apt install lm-sensors pciutils procps python3-distro python3-netifaces sysfsutils virt-what -y 2>/dev/null
           sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev scons xcb -y 2>/dev/null
           pip install build cffi scons scuba pytest --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --upgrade 2>/dev/null
           pip install build cffi scons scuba pytest --break-system-packages --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --break-system-packages --upgrade 2>/dev/null
-    fi 
+         #Nutika
+         #pip install nuitka --break-system-packages --upgrade ; nuitka3 --version
+         pip install "git+https://github.com/Nuitka/Nuitka" --break-system-packages --force-reinstall --upgrade ; nuitka3 --version
+         #Pex
+         pip install "git+https://github.com/pex-tool/pex" --break-system-packages --force-reinstall --upgrade ; pex --version
+    fi
     #-------------------------------------------------------#
     
     #-------------------------------------------------------#
@@ -224,7 +245,7 @@
           fi
          ##Nix
           curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
-          source "$HOME/.nix-profile/etc/profile.d/nix.sh"
+          source "$HOME/.bash_profile" ; source "$HOME/.nix-profile/etc/profile.d/nix.sh" ; . "$HOME/.nix-profile/etc/profile.d/nix.sh"
           if ! command -v nix &> /dev/null; then
              echo -e "\n[-] nix NOT Found\n"
              export CONTINUE="NO" && exit 1
