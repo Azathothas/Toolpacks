@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "112.86 kB",
-    "ModTime": "2024-03-05T10:20:56.601332215Z",
+    "ModTime": "2024-03-05T14:16:14.007214679Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -268,6 +268,15 @@
     "B3SUM": "7872831d2c3febe411a1a2aeb88ba7b08ab18991d20dbce6dd2a3e1a8f60ab99",
     "SHA256": "573a5df176c1d39782e7eda00ba88eb6db48d01eb36ac802cbb18c235bd23ebe",
     "Repo": "https://github.com/ax/apk.sh"
+  },
+  {
+    "Name": "archey",
+    "Size": "8.18 MB",
+    "ModTime": "2024-03-05T14:17:43.613209900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/archey",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/HorlogeSkynet/archey4"
   },
   {
     "Name": "arduino-cli",
