@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "113.02 kB",
-    "ModTime": "2024-03-06T14:27:51.388995470Z",
+    "Size": "113.2 kB",
+    "ModTime": "2024-03-06T18:19:32.901459128Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -5290,6 +5290,15 @@
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
+  },
+  {
+    "Name": "sysinfo-collector",
+    "Size": "7.59 MB",
+    "ModTime": "2024-03-06T16:39:30.466975900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/sysinfo-collector",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qarmin/system-info-collector"
   },
   {
     "Name": "systemctl-tui",
