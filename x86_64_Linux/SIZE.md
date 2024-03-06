@@ -18,10 +18,10 @@
   69M   ├── nuclei
   63M   ├── loki
   62M   ├── alist
-  59M   ├── wtf
   59M   ├── wtfutil
-  59M   ├── nushell
-  59M   ├── nu
+  59M   ├── wtf
+  58M   ├── nushell
+  58M   ├── nu
   56M   ├── dockerd
   56M   ├── logcli
   55M   ├── rclone
@@ -31,8 +31,8 @@
   48M   ├── bearer
   48M   ├── teldrive
   48M   ├── matterbridge
-  46M   ├── rekor
   46M   ├── rekor-server
+  46M   ├── rekor
   46M   ├── tavern
   41M   ├── gh
   39M   ├── caddy
@@ -50,9 +50,9 @@
   33M   ├── cloudreve
   33M   ├── skupper
   32M   ├── surf
+  32M   ├── git-xet
   32M   ├── shellz
   32M   ├── mlr
-  32M   ├── git-xet
   31M   ├── edgevpn
   30M   ├── rattler-build
   29M   ├── aix
@@ -77,8 +77,8 @@
   25M   ├── interactsh-client
   25M   ├── asnmap
   25M   ├── algernon
+  25M   ├── xetcmd
   25M   ├── devbox
-  24M   ├── xetcmd
   24M   ├── gum
   24M   ├── brutespray
   23M   ├── v2raya
@@ -95,9 +95,9 @@
   23M   ├── interactsh-server
   22M   ├── docker
   22M   ├── boltconn
+  22M   ├── syncthing
   22M   ├── vpnkit
   22M   ├── etcd
-  22M   ├── syncthing
   22M   ├── reader
   21M   ├── tailscaled
   21M   ├── imix
@@ -124,6 +124,7 @@
   18M   ├── reviewdog
   18M   ├── luet
   18M   ├── mailpit
+  18M   ├── qsv
   18M   ├── sish
   18M   ├── xetmnt
   18M   ├── ctr
@@ -157,9 +158,9 @@
   14M   ├── tinja
   14M   ├── sysbox-runc
   14M   ├── hednsextractor
-  14M   ├── bleve
   14M   ├── netmaker
   14M   ├── yazi
+  14M   ├── bleve
   14M   ├── godns
   14M   ├── bin
   14M   ├── certwatcher
@@ -170,7 +171,6 @@
   14M   ├── ct_monitor
   14M   ├── zgrab2
   13M   ├── smap
-  13M   ├── qsv
   13M   ├── jc_staticx
   13M   ├── ein
   13M   ├── gdu
@@ -192,18 +192,18 @@
   11M   ├── containerd-shim-runc-v2
   11M   ├── fq
   11M   ├── x8
-  11M   ├── multirootca
   11M   ├── sysbox-mgr
   11M   ├── tty2web
   11M   ├── sslsearch
   11M   ├── rebuilderd-worker
-  11M   ├── cfssl
   11M   ├── broot
   11M   ├── scilla
   11M   ├── feroxbuster
   11M   ├── nmctl
+  11M   ├── cfssl
   11M   ├── micro
   11M   ├── vopono
+  11M   ├── multirootca
   11M   ├── tailscale
   11M   ├── jqp
   11M   ├── lazydocker
@@ -216,14 +216,14 @@
   10M   ├── gitui
   10M   ├── supervisord
   10M   ├── gip
+  10M   ├── pdfcpu
   10M   ├── binocle
   10M   ├── vegeta
   10M   ├── runc
   10M   ├── certstream-server-go
-  10M   ├── pdfcpu
-10.0M   ├── katana_staticx
+  10M   ├── katana_staticx
 10.0M   ├── orbiton
- 9.9M   ├── vfox
+10.0M   ├── vfox
  9.9M   ├── tut
  9.8M   ├── gotty
  9.8M   ├── gitql
@@ -235,22 +235,19 @@
  9.6M   ├── shortscan
  9.6M   ├── ngocok
  9.5M   ├── yq
- 9.5M   ├── cfssl-newkey
  9.4M   ├── taplo
  9.4M   ├── starship
  9.3M   ├── redguard
  9.3M   ├── doggo
+ 9.3M   ├── cfssl-newkey
  9.3M   ├── sshesame
  9.3M   ├── dasel
- 9.3M   ├── cfssl-scan
  9.3M   ├── vultr-cli
  9.2M   ├── sttr
  9.1M   ├── agg
- 9.1M   ├── cfssl-certinfo
  9.1M   ├── csprecon
  9.1M   ├── mubeng
  9.0M   ├── invidtui
- 9.0M   ├── cfssl-bundle
  8.9M   ├── ksubdomain
  8.9M   ├── hxn
  8.9M   ├── rebuilderd
@@ -269,9 +266,10 @@
  8.5M   ├── zdns
  8.5M   ├── openrisk
  8.5M   ├── viewgen_staticx
+ 8.5M   ├── cfssl-scan
  8.4M   ├── watchexec
- 8.4M   ├── stew
  8.4M   ├── wstunnel
+ 8.4M   ├── stew
  8.4M   ├── rustypaste
  8.4M   ├── q
  8.4M   ├── noir
@@ -280,10 +278,13 @@
  8.3M   ├── chisel
  8.2M   ├── getghrel
  8.2M   ├── assh
+ 8.1M   ├── cfssl-bundle
  8.1M   ├── sns
  8.1M   ├── tgpt
  8.0M   ├── ladder
  8.0M   ├── ov
+ 8.0M   ├── rootlesskit
+ 8.0M   ├── cfssl-certinfo
  8.0M   ├── syncat
  8.0M   ├── planor
  7.9M   ├── dontgo403
@@ -292,8 +293,8 @@
  7.9M   ├── gau
  7.8M   ├── cog
  7.8M   ├── gosec
+ 7.8M   ├── archey
  7.8M   ├── ffuf
- 7.7M   ├── rootlesskit
  7.7M   ├── gobuster
  7.7M   ├── cherrybomb
  7.7M   ├── enola
@@ -309,7 +310,6 @@
  7.4M   ├── fingerprintx
  7.4M   ├── revive
  7.4M   ├── sshx
- 7.3M   ├── cfssljson
  7.3M   ├── brename
  7.2M   ├── godnsbench
  7.2M   ├── fasttld
@@ -353,6 +353,7 @@
  6.0M   ├── allxfr
  6.0M   ├── rustcan
  6.0M   ├── fscan
+ 5.9M   ├── cfssljson
  5.9M   ├── volta
  5.9M   ├── v6run
  5.9M   ├── macchina
@@ -412,6 +413,7 @@
  4.9M   ├── analyticsrelationships
  4.9M   ├── airixss
  4.9M   ├── waybackurls
+ 4.9M   ├── mkbundle
  4.8M   ├── rootlesskit-docker-proxy
  4.8M   ├── gup
  4.8M   ├── mani
@@ -432,7 +434,6 @@
  4.5M   ├── gotld
  4.5M   ├── certstream
  4.5M   ├── onetun
- 4.5M   ├── mkbundle
  4.4M   ├── gpg-tui
  4.4M   ├── ouch
  4.4M   ├── kubemetrics
@@ -448,10 +449,10 @@
  4.2M   ├── ssh-keysign
  4.2M   ├── ssh-keyscan
  4.2M   ├── robotstxt
- 4.2M   ├── doomxss
- 4.2M   ├── checkbypass
  4.2M   ├── nrp
  4.2M   ├── heacoll
+ 4.2M   ├── doomxss
+ 4.2M   ├── checkbypass
  4.2M   ├── chainredir
  4.1M   ├── ssh-keygen
  4.1M   ├── kalker
@@ -464,9 +465,9 @@
  3.9M   ├── fd
  3.9M   ├── overmind
  3.9M   ├── gojq
- 3.9M   ├── mqttui
  3.9M   ├── twingate-notifier
  3.9M   ├── dns-doctor
+ 3.9M   ├── mqttui
  3.8M   ├── validtoml
  3.8M   ├── kanha
  3.8M   ├── sshkeys
@@ -522,8 +523,8 @@
  2.7M   ├── goawk
  2.7M   ├── unf
  2.7M   ├── cproxy
+ 2.7M   ├── grex
  2.6M   ├── rpaste
- 2.6M   ├── grex
  2.6M   ├── walk
  2.6M   ├── git-sizer
  2.6M   ├── dotenv-linter
@@ -632,11 +633,11 @@
 1008K   ├── killport
  976K   ├── svg-hush
  956K   ├── cpufetch
+ 952K   ├── csview
  948K   ├── hexyl
  928K   ├── massdns
  908K   ├── hx
  900K   ├── catp
- 892K   ├── csview
  868K   ├── anew-rs
  836K   ├── anewer
  740K   ├── toybox
@@ -644,18 +645,18 @@
  604K   ├── elfcat
  600K   ├── ncdu
  540K   ├── neofetch
- 508K   ├── dropbearmulti
+ 540K   ├── dropbearmulti
  472K   ├── shellharden
- 432K   ├── dropbear
+ 460K   ├── dropbear
+ 412K   ├── dbclient
  396K   ├── nnn
- 388K   ├── dbclient
  360K   ├── scp
  356K   ├── sftp
  268K   ├── sftp-server
  256K   ├── screenfetch
+ 244K   ├── dropbearkey
+ 240K   ├── dropbearconvert
  236K   ├── minisign
- 224K   ├── dropbearkey
- 220K   ├── dropbearconvert
  204K   ├── nfs-ls
  204K   ├── nfs-cp
  200K   ├── nfs-stat
@@ -666,7 +667,7 @@
   92K   ├── shc
   92K   ├── darkhttpd
   76K   ├── reptyr
-  64K   ├── dropbearscp
+  76K   ├── dropbearscp
   64K   ├── binfetch
   28K   ├── apk.sh
   24K   ├── try
