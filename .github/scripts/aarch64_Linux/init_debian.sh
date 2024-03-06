@@ -253,6 +253,7 @@
           fi
          ##Nix
           curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
+          #tests
           source "$HOME/.bash_profile" ; source "$HOME/.nix-profile/etc/profile.d/nix.sh" ; . "$HOME/.nix-profile/etc/profile.d/nix.sh"
           if ! command -v nix &> /dev/null; then
              echo -e "\n[-] nix NOT Found\n"
@@ -262,6 +263,17 @@
           fi
          ##Purge:
          #sudo rm -rf "/etc/bash.bashrc.backup-before-nix" "/etc/nix" "/nix" "/root/.nix-profile" "/root/.nix-defexpr" "/root/.nix-channels" "/root/.local/state/nix" "/root/.cache/nix" "$HOME/.nix-profile" "$HOME/.nix-defexpr" "$HOME/.nix-channels" "$HOME/.local/state/nix" "$HOME/.cache/nix" 2>/dev/null
+         ##Node:
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_node_aarch64.sh")
+          #Test
+          if ! command -v npm &> /dev/null; then
+             echo -e "\n[-] node (npm) NOT Found\n"
+             export CONTINUE="NO" && exit 1
+          else
+             node --version && npm --version
+             #Nexe:https://github.com/nexe/nexe
+             npm install nexe --global
+          fi
          #rust & cargo
           bash <(curl -qfsSL "https://sh.rustup.rs") -y
           #Test: PATH="$HOME/.cargo/bin:$HOME/.cargo/env:$PATH" 
