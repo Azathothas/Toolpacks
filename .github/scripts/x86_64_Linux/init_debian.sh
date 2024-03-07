@@ -253,7 +253,8 @@
           #Source
           source "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
           #Fix perms: could not set permissions on '/nix/var/nix/profiles/per-user' to 755: Operation not permitted
-          sudo chown --recursive "$USER" "/nix"
+          #sudo chown --recursive "$USER" "/nix"
+          sudo chown --recursive "runner" "/nix"
           echo "root    ALL=(ALL:ALL) ALL" | sudo tee -a "/etc/sudoers"
           #Test
           if ! command -v nix &> /dev/null; then
