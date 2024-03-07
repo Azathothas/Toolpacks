@@ -44,7 +44,7 @@ jobs:
           # Presets
           set +x ; set +e
           #--------------#        
-          sudo apt-get update -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+          sudo apt-get update -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y dos2unix tzdata
           sudo ln -fs "/usr/share/zoneinfo/Asia/Kathmandu" "/etc/localtime"
           sudo dpkg-reconfigure --frontend noninteractive tzdata
           sudo apt-get install apt-utils software-properties-common -y           
@@ -88,6 +88,8 @@ jobs:
           export GIT_ASKPASS="/bin/echo"
           ##RUN
           #bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/init_debian.sh")
+          curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/aarch64_Linux/init_debian.sh" -o "/tmp/init_debian.sh"
+          dos2unix "/tmp/init_debian.sh" && chmod +xwr "/tmp/init_debian.sh" && bash "/tmp/init_debian.sh"
      #This keeps GH Actions hypnotized until timeout                
       - name: Breakpoint || Sleep ∞
         run: |
