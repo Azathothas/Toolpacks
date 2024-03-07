@@ -87,7 +87,9 @@ jobs:
           #https://git-scm.com/docs/git#Documentation/git.txt-codeGITASKPASScode
           export GIT_ASKPASS="/bin/echo"
           ##RUN
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/init_debian.sh")
+          #bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/init_debian.sh")
+          curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/x86_64_Linux/init_debian.sh" -o "/tmp/init_debian.sh"
+          dos2unix "/tmp/init_debian.sh" && chmod +xwr "/tmp/init_debian.sh" && bash "/tmp/init_debian.sh"          
         continue-on-error: true
 
      #This keeps GH Actions hypnotized until timeout                
