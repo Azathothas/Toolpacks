@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "113.2 kB",
-    "ModTime": "2024-03-07T14:16:31.193702865Z",
+    "ModTime": "2024-03-07T16:19:33.473416052Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4929,7 +4929,7 @@
     "Source": "https://bin.ajam.dev/x86_64_Linux/socat",
     "B3SUM": "a5ab4638f0a63f426c7e3366b70ae84d687b00e0ca8b8eae41c018666bc36afe",
     "SHA256": "5f9d273a130d6e84a0282948708b6df586ce8c52f1f78a6cef0cd70b111439b7",
-    "Repo": "http://www.dest-unreach.org/socat/"
+    "Repo": "https://github.com/adrianlopezroche/socat"
   },
   {
     "Name": "soft-serve",
