@@ -19,6 +19,8 @@ RUN <<EOS
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
   #RE
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
+  #unminimize
+  yes | unminimize
 EOS
 #------------------------------------------------------------------------------------#
 ##Systemd installation
@@ -64,7 +66,7 @@ RUN <<EOS
   curl -qfsSL "https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker" > "/etc/bash_completion.d/docker.sh"
 EOS
 #------------------------------------------------------------------------------------#
-##Install Sshd
+##Install SSHD
 RUN <<EOS
   apt-get update && apt-get install --no-install-recommends -y openssh-server
   rm -rf /var/lib/apt/lists/* 2>/dev/null
@@ -73,7 +75,6 @@ RUN <<EOS
 EOS
 EXPOSE 22
 #------------------------------------------------------------------------------------#
-
 #------------------------------------------------------------------------------------#
 # Set systemd as entrypoint.
 ENTRYPOINT [ "/sbin/init"]
