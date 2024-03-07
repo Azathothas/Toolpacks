@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "113.2 kB",
-    "ModTime": "2024-03-07T06:17:43.382267973Z",
+    "ModTime": "2024-03-07T08:15:24.131684660Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -5512,9 +5512,9 @@
     "Size": "1.36 MB",
     "ModTime": "2024-03-06T01:59:31.986263544Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tok",
-    "B3SUM": "3cb2f5cd402b1f4f1cf1706a9416e3ab1f1da9f1e8c2944e048102a64226dbbf",
-    "SHA256": "bd55f7965e63159e89af6fc25f81929fba7245fa74b434d1585a1ff17b84bc0a",
-    "Repo": "https://github.com/Azathothas/Arsenal"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "tokei",
