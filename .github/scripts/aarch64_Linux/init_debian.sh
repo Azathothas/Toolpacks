@@ -251,16 +251,16 @@
              go version
              sudo ldconfig && sudo ldconfig -p
           fi
-         ##Nix
-          curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
-          #tests
-          source "$HOME/.bash_profile" ; source "$HOME/.nix-profile/etc/profile.d/nix.sh" ; . "$HOME/.nix-profile/etc/profile.d/nix.sh"
-          if ! command -v nix &> /dev/null; then
-             echo -e "\n[-] nix NOT Found\n"
-             export CONTINUE="NO" && exit 1
-          else
-             nix --version && nix-channel --list && nix-channel --update
-          fi
+         # ##Nix
+         #  curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
+         #  #tests
+         #  source "$HOME/.bash_profile" ; source "$HOME/.nix-profile/etc/profile.d/nix.sh" ; . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+         #  if ! command -v nix &> /dev/null; then
+         #     echo -e "\n[-] nix NOT Found\n"
+         #     export CONTINUE="NO" && exit 1
+         #  else
+         #     nix --version && nix-channel --list && nix-channel --update
+         #  fi
          ##Purge:
          #sudo rm -rf "/etc/bash.bashrc.backup-before-nix" "/etc/nix" "/nix" "/root/.nix-profile" "/root/.nix-defexpr" "/root/.nix-channels" "/root/.local/state/nix" "/root/.cache/nix" "$HOME/.nix-profile" "$HOME/.nix-defexpr" "$HOME/.nix-channels" "$HOME/.local/state/nix" "$HOME/.cache/nix" 2>/dev/null
          ##Node:
