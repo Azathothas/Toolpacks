@@ -244,9 +244,18 @@
              sudo ldconfig && sudo ldconfig -p
           fi
          ##Nix
-          curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
-          #tests
-          source "$HOME/.bash_profile" ; source "$HOME/.nix-profile/etc/profile.d/nix.sh" ; . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+          ##Official Installers break
+          #curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
+          #source "$HOME/.bash_profile" ; source "$HOME/.nix-profile/etc/profile.d/nix.sh" ; . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+          ##https://github.com/DeterminateSystems/nix-installer
+          "/nix/nix-installer" uninstall --no-confirm 2>/dev/null
+          curl -qfsSL "https://install.determinate.systems/nix" | bash -s -- install linux --init none --no-confirm
+          #Source
+          source "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
+          #Fix perms: could not set permissions on '/nix/var/nix/profiles/per-user' to 755: Operation not permitted
+          sudo chown --recursive "$USER" "/nix"
+          echo "root    ALL=(ALL:ALL) ALL" | sudo tee -a "/etc/sudoers"
+          #Test
           if ! command -v nix &> /dev/null; then
              echo -e "\n[-] nix NOT Found\n"
              export CONTINUE="NO" && exit 1
