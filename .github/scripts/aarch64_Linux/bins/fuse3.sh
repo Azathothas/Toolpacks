@@ -21,19 +21,17 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #socat : socat is a program for identifying or deleting duplicate files residing within specified directories.
-     export BIN="socat" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/adrianlopezroche/socat" #github/gitlab/homepage/etc for $BIN
+      #fuse3 :  The reference implementation of the Linux FUSE (Filesystem in Userspace) interface
+     export BIN="fuse3" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/libfuse/libfuse" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.socat" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       sudo strip "./result/bin/filan" ; file "./result/bin/filan" && du -sh "./result/bin/filan"
-       sudo strip "./result/bin/procan" ; file "./result/bin/procan" && du -sh "./result/bin/procan"
-       sudo strip "./result/bin/socat1" ; file "./result/bin/socat1" && du -sh "./result/bin/socat1"
-       cp "./result/bin/filan" "$BINDIR/filan"
-       cp "./result/bin/procan" "$BINDIR/procan"
-       cp "./result/bin/socat1" "$BINDIR/socat"
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.fuse3" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo strip "./result/bin/fusermount3" ; file "./result/bin/fusermount3" && du -sh "./result/bin/fusermount3"
+       sudo strip "./result/bin/mount.fuse3" ; file "./result/bin/mount.fuse3" && du -sh "./result/bin/mount.fuse3"
+       cp "./result/bin/fusermount3" "$BINDIR/fusermount3"
+       cp "./result/bin/mount.fuse3" "$BINDIR/mount.fuse3"
        nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#

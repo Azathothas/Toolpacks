@@ -19,14 +19,18 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #strace : diagnostic, debugging and instructional userspace utility for Linux
+      #strace : strace is a diagnostic, debugging and instructional userspace utility for Linux 
      export BIN="strace" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/strace/strace" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "Azathothas/static-toolbox" --tag "strace" --asset "aarch64" --to "$BINDIR/strace"
+      #Build 
+       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.strace" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo strip "./result/bin/strace" ; file "./result/bin/strace" && du -sh "./result/bin/strace"
+       cp "./result/bin/strace" "$BINDIR/strace"
+       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

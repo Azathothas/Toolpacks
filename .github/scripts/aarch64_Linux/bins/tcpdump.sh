@@ -19,14 +19,18 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #tcpdump : data-network packet analyzer
+      #tcpdump : the TCPdump network dissector 
      export BIN="tcpdump" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/the-tcpdump-group/tcpdump" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "Azathothas/static-toolbox" --tag "tcpdump" --asset "aarch64" --to "$BINDIR/tcpdump"
+      #Build 
+       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.tcpdump" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo strip "./result/bin/tcpdump" ; file "./result/bin/tcpdump" && du -sh "./result/bin/tcpdump"
+       cp "./result/bin/tcpdump" "$BINDIR/tcpdump"
+       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

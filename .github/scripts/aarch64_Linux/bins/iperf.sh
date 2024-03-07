@@ -21,19 +21,16 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #socat : socat is a program for identifying or deleting duplicate files residing within specified directories.
-     export BIN="socat" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/adrianlopezroche/socat" #github/gitlab/homepage/etc for $BIN
+      #iperf3 : A TCP, UDP, and SCTP network bandwidth measurement tool 
+     export BIN="iperf3" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/esnet/iperf" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.socat" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       sudo strip "./result/bin/filan" ; file "./result/bin/filan" && du -sh "./result/bin/filan"
-       sudo strip "./result/bin/procan" ; file "./result/bin/procan" && du -sh "./result/bin/procan"
-       sudo strip "./result/bin/socat1" ; file "./result/bin/socat1" && du -sh "./result/bin/socat1"
-       cp "./result/bin/filan" "$BINDIR/filan"
-       cp "./result/bin/procan" "$BINDIR/procan"
-       cp "./result/bin/socat1" "$BINDIR/socat"
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.iperf3" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo strip "./result/bin/iperf3" ; file "./result/bin/iperf3" && du -sh "./result/bin/iperf3"
+       cp "./result/bin/iperf3" "$BINDIR/iperf3"
+       cp "./result/bin/iperf3" "$BINDIR/iperf"
        nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#

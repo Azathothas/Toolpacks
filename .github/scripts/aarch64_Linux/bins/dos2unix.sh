@@ -21,19 +21,21 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #socat : socat is a program for identifying or deleting duplicate files residing within specified directories.
-     export BIN="socat" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/adrianlopezroche/socat" #github/gitlab/homepage/etc for $BIN
+      #dos2unix : Convert Line Endings
+     export BIN="dos2unix" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://dos2unix.sourceforge.io" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.socat" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       sudo strip "./result/bin/filan" ; file "./result/bin/filan" && du -sh "./result/bin/filan"
-       sudo strip "./result/bin/procan" ; file "./result/bin/procan" && du -sh "./result/bin/procan"
-       sudo strip "./result/bin/socat1" ; file "./result/bin/socat1" && du -sh "./result/bin/socat1"
-       cp "./result/bin/filan" "$BINDIR/filan"
-       cp "./result/bin/procan" "$BINDIR/procan"
-       cp "./result/bin/socat1" "$BINDIR/socat"
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.dos2unix" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo strip "./result/bin/dos2unix" ; file "./result/bin/dos2unix" && du -sh "./result/bin/dos2unix"
+       sudo strip "./result/bin/mac2unix" ; file "./result/bin/mac2unix" && du -sh "./result/bin/mac2unix"
+       sudo strip "./result/bin/unix2dos" ; file "./result/bin/unix2dos" && du -sh "./result/bin/unix2dos"
+       sudo strip "./result/bin/unix2mac" ; file "./result/bin/unix2mac" && du -sh "./result/bin/unix2mac"
+       cp "./result/bin/dos2unix" "$BINDIR/dos2unix"
+       cp "./result/bin/mac2unix" "$BINDIR/mac2unix"
+       cp "./result/bin/unix2dos" "$BINDIR/unix2dos"
+       cp "./result/bin/unix2mac" "$BINDIR/unix2mac"
        nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
