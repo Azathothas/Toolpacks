@@ -87,7 +87,7 @@ jobs:
           #https://git-scm.com/docs/git#Documentation/git.txt-codeGITASKPASScode
           export GIT_ASKPASS="/bin/echo"
           ##RUN
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/init_debian.sh")
+          #bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/init_debian.sh")
      #This keeps GH Actions hypnotized until timeout                
       - name: Breakpoint || Sleep ∞
         run: |
