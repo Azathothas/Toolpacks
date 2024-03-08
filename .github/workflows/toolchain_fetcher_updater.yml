@@ -126,8 +126,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-stable/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -152,8 +152,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-glibc-edge/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -178,8 +178,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-stable/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#          
@@ -204,8 +204,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-musl-edge/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -230,8 +230,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-stable/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -256,8 +256,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-uclibc-edge/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#          
@@ -373,8 +373,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-stable/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -399,8 +399,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-glibc-edge/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -425,8 +425,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-stable/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -451,8 +451,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-musl-edge/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -477,8 +477,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-stable/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-stable/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#
@@ -503,8 +503,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-edge/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-uclibc-edge/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi          
           popd > /dev/null 2>&1
           #--------------#          
@@ -622,8 +622,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-linux.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-linux/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-linux.tar.xz" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-zig-linux/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-linux.tar.xz" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-zig-linux/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -649,8 +649,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-macos.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-macos/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-macos.tar.xz" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-zig-macos/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-macos.tar.xz" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-zig-macos/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -676,8 +676,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows.zip" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-windows.zip" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-zig-windows/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-windows.zip" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/aarch64-zig-windows/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
         continue-on-error: true
@@ -712,8 +712,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-linux.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-linux/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-linux.tar.xz" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-zig-linux/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-linux.tar.xz" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-zig-linux/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -739,8 +739,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-macos.tar.xz" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-macos/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-macos.tar.xz" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-zig-macos/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-macos.tar.xz" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-zig-macos/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
           #--------------#
@@ -766,8 +766,8 @@ jobs:
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows.zip" 2>/dev/null
                rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows/" 2>/dev/null
                #Copy to r2
-               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-windows.zip" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
-               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-zig-windows/" --copy-links --progress --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000 2>/dev/null
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-windows.zip" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone copy "." "r2:/pub/toolchains/x86_64-zig-windows/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd > /dev/null 2>&1
         continue-on-error: true                                                            

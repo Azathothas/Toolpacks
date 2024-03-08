@@ -113,7 +113,7 @@ set +x
  if command -v rclone &> /dev/null && [ -s "$HOME/.rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      cd "$BINDIR" && rclone copy "." "r2:/bin/x86_64_Linux/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+      cd "$BINDIR" && rclone copy "." "r2:/bin/x86_64_Linux/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
     ##Archive Binaries (.7z) (x86_64_Linux) Bins [Downstreamed RCLONE]
        if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
             echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
@@ -121,7 +121,7 @@ set +x
              rm -rf "$SYSTMP/toolpacks" 2>/dev/null
            #Fetch&Sync
              cd "$BINDIR"
-             rclone copy "r2:/bin/x86_64_Linux/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --progress --stats="05s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+             rclone copy "r2:/bin/x86_64_Linux/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
              #Strip || Cleanup
               #Chmod +xwr
               find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
@@ -131,16 +131,16 @@ set +x
               find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
              #File 
                cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_FILE"
-               rclone copyto "$SYSTMP/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+               rclone copyto "$SYSTMP/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
              #Size (Dust)
                dust -b -c -i -r -n 99999999 "$BINDIR" | tee "$SYSTMP/x86_64_Linux_SIZE.txt"
-               rclone copyto "$SYSTMP/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+               rclone copyto "$SYSTMP/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
              #BLAKE3SUM
                cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_BLAKE3SUM"
-               rclone copyto "$SYSTMP/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+               rclone copyto "$SYSTMP/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
              #SHA256SUM
                cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_SHA256SUM"
-               rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+               rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
            #Meta
@@ -163,13 +163,13 @@ set +x
  # rClone Upload Toolpacks to R2 (bin.ajam.dev/x86_64_Linux/_toolpack_x86_64.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      rclone copyto "$BINDIR.7z" "r2:/bin/x86_64_Linux/_toolpack_x86_64.7z" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+      rclone copyto "$BINDIR.7z" "r2:/bin/x86_64_Linux/_toolpack_x86_64.7z" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_x86_64_BLAKE3SUM"
-      rclone copyto "$SYSTMP/_toolpack_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+      rclone copyto "$SYSTMP/_toolpack_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_x86_64_SHA256SUM"
-      rclone copyto "$SYSTMP/_toolpack_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+      rclone copyto "$SYSTMP/_toolpack_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
  fi
 #-------------------------------------------------------#
 #META
