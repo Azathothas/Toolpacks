@@ -1,5 +1,5 @@
 ```mathematica
- 8.1G └─┬ toolpack_x86_64
+ 8.2G └─┬ toolpack_x86_64
  161M   ├── sliver-server
  152M   ├── usql
  143M   ├── aws-nuke
@@ -37,8 +37,8 @@
   41M   ├── gh
   39M   ├── caddy
   38M   ├── kadeessh
+  38M   ├── httpx
   37M   ├── proxify
-  37M   ├── httpx
   37M   ├── containerd
   36M   ├── crictl
   35M   ├── kopia
@@ -50,14 +50,14 @@
   33M   ├── cloudreve
   33M   ├── skupper
   32M   ├── surf
-  32M   ├── git-xet
   32M   ├── shellz
   32M   ├── mlr
+  32M   ├── git-xet
+  31M   ├── sq
   31M   ├── edgevpn
   30M   ├── rattler-build
   29M   ├── aix
   29M   ├── sqlc
-  29M   ├── sq
   29M   ├── naabu
   28M   ├── podman
   28M   ├── zellij
@@ -77,8 +77,8 @@
   25M   ├── interactsh-client
   25M   ├── asnmap
   25M   ├── algernon
-  25M   ├── xetcmd
   25M   ├── devbox
+  24M   ├── xetcmd
   24M   ├── gum
   24M   ├── brutespray
   23M   ├── v2raya
@@ -88,8 +88,8 @@
   23M   ├── pixi
   23M   ├── grpcurl
   23M   ├── uncover
-  23M   ├── ngrok
   23M   ├── jaeles
+  23M   ├── ngrok
   23M   ├── restic
   23M   ├── devpod
   23M   ├── interactsh-server
@@ -112,6 +112,7 @@
   20M   ├── csvtk
   20M   ├── ruff
   20M   ├── atuin
+  20M   ├── jj
   20M   ├── golem
   20M   ├── notify
   20M   ├── circumflex
@@ -119,13 +120,12 @@
   19M   ├── gh-dash
   19M   ├── podsync
   19M   ├── cdncheck
-  19M   ├── jj
   19M   ├── s3scanner
+  18M   ├── sish
   18M   ├── reviewdog
   18M   ├── luet
   18M   ├── mailpit
   18M   ├── qsv
-  18M   ├── sish
   18M   ├── xetmnt
   18M   ├── ctr
   18M   ├── rekor-cli
@@ -157,9 +157,9 @@
   14M   ├── s5cmd
   14M   ├── tinja
   14M   ├── sysbox-runc
+  14M   ├── yazi
   14M   ├── hednsextractor
   14M   ├── netmaker
-  14M   ├── yazi
   14M   ├── bleve
   14M   ├── godns
   14M   ├── bin
@@ -204,12 +204,13 @@
   11M   ├── micro
   11M   ├── vopono
   11M   ├── multirootca
+  11M   ├── hurl
   11M   ├── tailscale
   11M   ├── jqp
   11M   ├── lazydocker
   10M   ├── coreutils
-  10M   ├── cheat
   10M   ├── git-lfs
+  10M   ├── cheat
   10M   ├── sshportal
   10M   ├── ehole
   10M   ├── hakrawler
@@ -221,7 +222,7 @@
   10M   ├── vegeta
   10M   ├── runc
   10M   ├── certstream-server-go
-  10M   ├── katana_staticx
+10.0M   ├── katana_staticx
 10.0M   ├── orbiton
 10.0M   ├── vfox
  9.9M   ├── tut
@@ -240,6 +241,7 @@
  9.3M   ├── redguard
  9.3M   ├── doggo
  9.3M   ├── cfssl-newkey
+ 9.3M   ├── invidtui
  9.3M   ├── sshesame
  9.3M   ├── dasel
  9.3M   ├── vultr-cli
@@ -247,10 +249,10 @@
  9.1M   ├── agg
  9.1M   ├── csprecon
  9.1M   ├── mubeng
- 9.0M   ├── invidtui
  8.9M   ├── ksubdomain
  8.9M   ├── hxn
  8.9M   ├── rebuilderd
+ 8.8M   ├── noir
  8.8M   ├── enc
  8.8M   ├── naabu_staticx
  8.8M   ├── clipcat-menu
@@ -272,7 +274,6 @@
  8.4M   ├── stew
  8.4M   ├── rustypaste
  8.4M   ├── q
- 8.4M   ├── noir
  8.3M   ├── hostctl
  8.3M   ├── aria2c
  8.3M   ├── chisel
@@ -311,6 +312,8 @@
  7.4M   ├── revive
  7.4M   ├── sshx
  7.3M   ├── brename
+ 7.2M   ├── system-info-collector
+ 7.2M   ├── sysinfo-collector
  7.2M   ├── godnsbench
  7.2M   ├── fasttld
  7.1M   ├── recollapse_staticx
@@ -374,6 +377,8 @@
  5.5M   ├── batcat
  5.5M   ├── bat
  5.5M   ├── gorilla
+ 5.4M   ├── wget
+ 5.4M   ├── procs
  5.4M   ├── bigdl
  5.4M   ├── tailspin
  5.4M   ├── dizi
@@ -381,7 +386,6 @@
  5.4M   ├── bombadillo
  5.3M   ├── vtm
  5.3M   ├── horust
- 5.3M   ├── procs
  5.3M   ├── getJS
  5.3M   ├── gitdorks_go
  5.3M   ├── hacker-scoper
@@ -421,6 +425,7 @@
  4.7M   ├── sshd
  4.7M   ├── fget
  4.7M   ├── crlfuzz
+ 4.7M   ├── socat
  4.7M   ├── hakip2host
  4.7M   ├── fclones
  4.6M   ├── httprobe
@@ -441,6 +446,7 @@
  4.3M   ├── knoxssme
  4.3M   ├── bbtargets
  4.3M   ├── twingate-connectorctl
+ 4.3M   ├── hurlfmt
  4.3M   ├── tahm
  4.3M   ├── jwt-hack
  4.3M   ├── mcfly
@@ -459,6 +465,7 @@
  4.1M   ├── xcp
  4.0M   ├── tokei
  4.0M   ├── ripgen
+ 4.0M   ├── axel
  4.0M   ├── ssh-add
  4.0M   ├── ssh-agent
  3.9M   ├── pfetch-rs
@@ -475,9 +482,10 @@
  3.7M   ├── viu
  3.6M   ├── iperf3
  3.6M   ├── ksubdomain_staticx
- 3.6M   ├── just
+ 3.6M   ├── iperf
  3.6M   ├── 7z
  3.5M   ├── kakoune
+ 3.5M   ├── just
  3.5M   ├── bandwhich
  3.5M   ├── twingate-client
  3.5M   ├── rust-parallel
@@ -499,7 +507,6 @@
  3.1M   ├── ncat
  3.1M   ├── txeh
  3.1M   ├── njs
- 3.1M   ├── socat
  3.0M   ├── dysk
  3.0M   ├── logtimer
  3.0M   ├── tmate
@@ -522,8 +529,8 @@
  2.7M   ├── gs-netcat
  2.7M   ├── goawk
  2.7M   ├── unf
- 2.7M   ├── cproxy
  2.7M   ├── grex
+ 2.7M   ├── cproxy
  2.6M   ├── rpaste
  2.6M   ├── walk
  2.6M   ├── git-sizer
@@ -552,7 +559,6 @@
  2.1M   ├── udpx
  2.1M   ├── hakrevdns
  2.1M   ├── gosu
- 2.0M   ├── strace
  2.0M   ├── duf
  2.0M   ├── ffufPostprocessing
  2.0M   ├── rshijack
@@ -572,8 +578,8 @@
  1.8M   ├── gotator
  1.8M   ├── xargs-rs
  1.8M   ├── pueued
- 1.8M   ├── age-keygen
  1.8M   ├── docker-proxy
+ 1.8M   ├── age-keygen
  1.7M   ├── pueue
  1.7M   ├── jaq
  1.7M   ├── uip
@@ -586,8 +592,8 @@
  1.6M   ├── jless_staticx
  1.5M   ├── miniserve
  1.5M   ├── progress
- 1.5M   ├── genscope
  1.5M   ├── tcpdump
+ 1.5M   ├── genscope
  1.5M   ├── nmapurls
  1.5M   ├── mksub
  1.5M   ├── visudo-rs
@@ -611,6 +617,7 @@
  1.3M   ├── qsreplace
  1.3M   ├── fuse-overlayfs
  1.3M   ├── tok
+ 1.3M   ├── strace
  1.3M   ├── comb
  1.3M   ├── ppath
  1.3M   ├── pier
@@ -622,6 +629,7 @@
  1.2M   ├── anew
  1.2M   ├── rathole
  1.2M   ├── ttyd
+ 1.2M   ├── fastfetch
  1.2M   ├── zoxide
  1.2M   ├── z
  1.2M   ├── su-rs
@@ -638,51 +646,79 @@
  928K   ├── massdns
  908K   ├── hx
  900K   ├── catp
+ 892K   ├── fdupes
  868K   ├── anew-rs
  836K   ├── anewer
  740K   ├── toybox
  692K   ├── docker-init
  604K   ├── elfcat
  600K   ├── ncdu
+ 564K   ├── procan
+ 564K   ├── filan
  540K   ├── neofetch
  540K   ├── dropbearmulti
  472K   ├── shellharden
  460K   ├── dropbear
+ 448K   ├── mount.fuse3
  412K   ├── dbclient
+ 400K   ├── sadf
  396K   ├── nnn
  360K   ├── scp
  356K   ├── sftp
  268K   ├── sftp-server
+ 268K   ├── doas
  256K   ├── screenfetch
  244K   ├── dropbearkey
  240K   ├── dropbearconvert
  236K   ├── minisign
+ 208K   ├── sar
  204K   ├── nfs-ls
  204K   ├── nfs-cp
  200K   ├── nfs-stat
  196K   ├── nfs-cat
  192K   ├── linuxwave
  192K   ├── asn
+ 184K   ├── ping
+ 140K   ├── pidstat
  128K   ├── ipt2socks
+ 120K   ├── sadc
+ 112K   ├── tapestat
+ 104K   ├── iostat
+ 104K   ├── clockdiff
+ 104K   ├── arping
+ 100K   ├── fusermount3
+  96K   ├── unix2mac
+  96K   ├── unix2dos
+  96K   ├── mac2unix
+  96K   ├── dos2unix
   92K   ├── shc
+  92K   ├── mpstat
   92K   ├── darkhttpd
+  84K   ├── tracepath
   76K   ├── reptyr
   76K   ├── dropbearscp
+  68K   ├── cifsiostat
   64K   ├── binfetch
+  36K   ├── pipetty
+  36K   ├── ansi2html
   28K   ├── apk.sh
   24K   ├── try
   24K   ├── prettyping
+  20K   ├── ttyrec2ansi
   20K   ├── resdns
   16K   ├── tldr
   16K   ├── dockerd-rootless-setuptool.sh
   16K   ├── bdl.sh
-  12K   ├── fastfetch
  8.0K   ├── sk-tmux
  8.0K   ├── rsync-ssl
  8.0K   ├── gsocket
  8.0K   ├── dockerd-rootless.sh
+ 8.0K   ├── ansi2txt
+ 4.0K   ├── sysstat
  4.0K   ├── subxtract
  4.0K   ├── sshd_config
  4.0K   ├── scopeview
+ 4.0K   ├── sa2
+ 4.0K   ├── sa1
  4.0K   └── binfetch.cfg
 ```
