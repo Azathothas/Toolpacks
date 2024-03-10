@@ -904,7 +904,7 @@ jobs:
           echo -e "\n[+] Uploading Results to R2 (rclone)\n"
           #>/dev/null 2>&1
           cd "/tmp/toolpack_arm64_v8a_Android"
-          rclone copy "." "r2:bin/arm64_v8a_Android/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          rclone sync "." "r2:bin/arm64_v8a_Android/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #BLAKE3SUM
           cd "/tmp/toolpack_arm64_v8a_Android"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/arm64_v8a_Android_BLAKE3SUM"

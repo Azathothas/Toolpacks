@@ -114,7 +114,7 @@ jobs:
           echo -e "\n[+] Uploading Results to R2 (rclone)\n"
           #>/dev/null 2>&1
           cd "/tmp/toolpack_x86_64"
-          rclone copy "." "r2:bin/x86_64_Linux/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          rclone sync "." "r2:bin/x86_64_Linux/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
           #BLAKE3SUM
           cd "/tmp/toolpack_x86_64/"
           /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_BLAKE3SUM"

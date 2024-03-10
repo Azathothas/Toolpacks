@@ -135,8 +135,8 @@ jobs:
           #touch "$HOME/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
           ##Clean Stale
-          rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins" --exclude="METADATA.json"
-          rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins" --exclude="METADATA.json"
+          #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins" --exclude="METADATA.json"
+          #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins" --exclude="METADATA.json"
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           #copy & chdir to Repo
           cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
@@ -150,7 +150,7 @@ jobs:
           # rm -rf "$(pwd)/x64_Windows"
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           ##Scripts_x86_64_Linux
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
@@ -447,7 +447,7 @@ jobs:
           # rm -rf "$(pwd)/x86_64"
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone copy "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
