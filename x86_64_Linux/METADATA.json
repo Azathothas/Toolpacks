@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "268 kB",
-    "ModTime": "2024-03-11T09:34:09.048395561Z",
+    "Size": "268.21 kB",
+    "ModTime": "2024-03-11T12:31:54.749747184Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3481,6 +3481,15 @@
     "B3SUM": "c4dd636ea545bdc17e1be27753bf7269101da2cf146582b9d218514b49ab1b8d",
     "SHA256": "a474176e9e57b7dfee0e8b67c26bffa85d0e115b5e83263e631976a7a2cf2d49",
     "Repo": "https://github.com/42wim/matterbridge"
+  },
+  {
+    "Name": "mc",
+    "Size": "27.43 MB",
+    "ModTime": "2024-03-11T15:16:31.435836900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/mc",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "mcfly",
