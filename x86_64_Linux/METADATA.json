@@ -19,8 +19,8 @@
   },
   {
     "Name": "BUILD.log.txt",
-    "Size": "11.68 MB",
-    "ModTime": "2024-03-09T02:31:20.822722597Z",
+    "Size": "6.38 MB",
+    "ModTime": "2024-03-10T22:53:13.322245784Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "267.79 kB",
-    "ModTime": "2024-03-10T18:33:43.051094114Z",
+    "Size": "160.51 kB",
+    "ModTime": "2024-03-10T21:21:09.213847225Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
