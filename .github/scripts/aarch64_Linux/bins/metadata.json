@@ -1161,6 +1161,15 @@
     "Repo": null
   },
   {
+    "Name": "dperf.sh",
+    "Size": "1864 B",
+    "ModTime": "2024-03-11T18:10:07.572991407Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dperf.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "dropbear.sh",
     "Size": "2390 B",
     "ModTime": "2024-03-10T18:34:44.798153618Z",
@@ -1318,6 +1327,15 @@
     "Size": "1639 B",
     "ModTime": "2024-03-10T18:34:44.798153618Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/enumerepo.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "epoch.sh",
+    "Size": "1920 B",
+    "ModTime": "2024-03-11T18:10:07.556991541Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/epoch.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -2772,6 +2790,15 @@
     "Repo": null
   },
   {
+    "Name": "mc.sh",
+    "Size": "1843 B",
+    "ModTime": "2024-03-11T18:10:07.560991508Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mc.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "mcfly.sh",
     "Size": "1632 B",
     "ModTime": "2024-03-10T18:34:44.806153617Z",
@@ -2837,7 +2864,7 @@
   {
     "Name": "metadata.json",
     "Size": "156.07 kB",
-    "ModTime": "2024-03-11T12:17:49.933373499Z",
+    "ModTime": "2024-03-11T15:14:47.141192403Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4855,6 +4882,15 @@
     "Size": "1616 B",
     "ModTime": "2024-03-10T18:34:44.814153616Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/walk.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "warp.sh",
+    "Size": "1844 B",
+    "ModTime": "2024-03-11T18:10:07.572991407Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/warp.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
