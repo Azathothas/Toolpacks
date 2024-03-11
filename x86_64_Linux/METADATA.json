@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "160.51 kB",
-    "ModTime": "2024-03-11T06:25:40.698579164Z",
+    "Size": "268 kB",
+    "ModTime": "2024-03-11T09:34:09.048395561Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -1807,6 +1807,15 @@
     "B3SUM": "b7638ea18372c47ae2913667f3c406ecc5ea313e2e057e101da65d3c4b8eed01",
     "SHA256": "26455af52c7e40066f856fccd23ab26f62c1c8656c26f6c8ba23b055e23d20dd",
     "Repo": "https://github.com/trickest/enumerepo"
+  },
+  {
+    "Name": "epoch",
+    "Size": "1.54 MB",
+    "ModTime": "2024-03-11T11:49:04.086910600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/epoch",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "etcd",
