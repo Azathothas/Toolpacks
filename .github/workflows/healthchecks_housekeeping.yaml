@@ -158,7 +158,7 @@ jobs:
           #Clean Pretty Formatted
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           #Update Metadata
-          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/METADATA.json"
+          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
           #Update Repo
           cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/metadata.json"
           ##Scripts_aarch64_Linux
@@ -168,7 +168,7 @@ jobs:
           #Clean Pretty Formatted
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           #Update Metadata
-          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/METADATA.json"
+          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
           #Update Repo
           cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins/metadata.json"
         continue-on-error: true
@@ -530,7 +530,7 @@ jobs:
            rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
            BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
            #Get URlS
-           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/METADATA.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
            #Get METADATA.json (bin.ajam.dev/aarch64_arm64_Linux)
            curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
            #Get BLAKE3SUM.txt
@@ -652,7 +652,7 @@ jobs:
            rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
            BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
            #Get URlS
-           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/METADATA.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
            #Get METADATA.json (bin.ajam.dev/x86_64_Linux)
            curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
            #Get BLAKE3SUM.txt
