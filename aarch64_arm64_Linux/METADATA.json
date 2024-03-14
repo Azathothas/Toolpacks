@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "264.9 kB",
-    "ModTime": "2024-03-14T00:58:04.371598763Z",
+    "ModTime": "2024-03-14T03:32:06.052785703Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3555,6 +3555,15 @@
     "Repo": "https://github.com/itchyny/mmv"
   },
   {
+    "Name": "moac-pwgen",
+    "Size": "1.7 MB",
+    "ModTime": "2024-03-14T05:37:19.171705700Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/moac-pwgen",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "mount.fuse3",
     "Size": "526.02 kB",
     "ModTime": "2024-03-13T01:10:09.879069072Z",
@@ -5992,6 +6001,15 @@
     "B3SUM": "75849fe9710eadda74f812a49ace271b91fb472209f7e86e6753aca4a8082543",
     "SHA256": "a3fcb65e21646a9f985bdae154fa8d80227269dd27259ffac071063060c53a11",
     "Repo": "https://github.com/docker/cli"
+  },
+  {
+    "Name": "vproxy",
+    "Size": "7.35 MB",
+    "ModTime": "2024-03-14T04:41:35.243253600Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/vproxy",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "vtm",
