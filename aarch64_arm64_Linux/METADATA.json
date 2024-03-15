@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "265.36 kB",
-    "ModTime": "2024-03-15T03:34:21.321070383Z",
+    "ModTime": "2024-03-15T06:38:27.398861505Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2590,6 +2590,15 @@
     "B3SUM": "92aab9b6a77f534906adc7912f3627a362729cb6524cbdad3c1fe5bff797578f",
     "SHA256": "a42f6e79ae2d3ea94cedede574c802a642c6c0d2ee4b634378b9d9e21413d553",
     "Repo": "https://github.com/tomnomnom/gron"
+  },
+  {
+    "Name": "gronx-tasker",
+    "Size": "2.1 MB",
+    "ModTime": "2024-03-15T09:11:01.909446400Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/gronx-tasker",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "grpcurl",

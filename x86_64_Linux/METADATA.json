@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "269.89 kB",
-    "ModTime": "2024-03-15T03:33:55.455626468Z",
+    "Size": "269.9 kB",
+    "ModTime": "2024-03-15T06:36:47.724002568Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -1258,6 +1258,15 @@
     "B3SUM": "9b0eba2c9d0c666a20e850ad3ffe8a23fc77e430f0dc282b75401c2387aa8301",
     "SHA256": "4b90c5cccec7d23b62685fde283c69169c1a16fca431300bad4a5d14453e008a",
     "Repo": "https://github.com/projectdiscovery/cvemap"
+  },
+  {
+    "Name": "dagu",
+    "Size": "27.68 MB",
+    "ModTime": "2024-03-15T09:14:04.024670100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/dagu",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "dalfox",
@@ -2617,6 +2626,15 @@
     "B3SUM": "1761b22ff4b9722389b5a514f4fb39b71b88168e79ef150fd62f67b92cf66693",
     "SHA256": "527fa0952d39916228c8cb6647bad4915e97e8ac25ba9b14e569bd9892609cd4",
     "Repo": "https://github.com/tomnomnom/gron"
+  },
+  {
+    "Name": "gronx-tasker",
+    "Size": "2.07 MB",
+    "ModTime": "2024-03-15T09:09:59.307360100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/gronx-tasker",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "grpcurl",
