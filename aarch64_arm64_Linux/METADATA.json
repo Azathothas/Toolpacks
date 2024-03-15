@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "265.36 kB",
-    "ModTime": "2024-03-15T06:38:27.398861505Z",
+    "Size": "265.59 kB",
+    "ModTime": "2024-03-15T09:29:21.974035303Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -1231,6 +1231,15 @@
     "B3SUM": "eab0e6d544ea5b79bc4c718f3a534696dbecd362e5b33fa21a4fa0ad0e12fe7a",
     "SHA256": "c76cdb10e31b53caec15b32dbb5ed41a9bb777244fb34e355cdf9fefed2bc149",
     "Repo": "https://github.com/projectdiscovery/cvemap"
+  },
+  {
+    "Name": "dagu",
+    "Size": "26.87 MB",
+    "ModTime": "2024-03-15T09:14:56.769161300Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/dagu",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "dalfox",
@@ -5308,6 +5317,15 @@
     "B3SUM": "7ee54c3eaaead0bfd2e58930b2a041773193bc95b5bcb63fbc3e875fad5ccf72",
     "SHA256": "4ea3ffbb970d7f07aca9de8d807f1b7463b3616ef7e53e8ed97f0943db01fc3f",
     "Repo": "https://github.com/pomdtr/sunbeam"
+  },
+  {
+    "Name": "supercronic",
+    "Size": "9.7 MB",
+    "ModTime": "2024-03-15T09:22:46.928137000Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/supercronic",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "supervisord",

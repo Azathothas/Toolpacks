@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "269.9 kB",
-    "ModTime": "2024-03-15T06:36:47.724002568Z",
+    "Size": "270.34 kB",
+    "ModTime": "2024-03-15T09:27:22.471997357Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -5515,6 +5515,15 @@
     "B3SUM": "ef6e5fa66bf82a6cfef2483a983c6381a2cec148f08f93f9d031d6d1dee40763",
     "SHA256": "654313867a13c4691c817d78ffde1e9b16f1ff8f81cdc81280dd0be391508eca",
     "Repo": "https://github.com/pomdtr/sunbeam"
+  },
+  {
+    "Name": "supercronic",
+    "Size": "10.04 MB",
+    "ModTime": "2024-03-15T09:21:44.920292400Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/supercronic",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "supervisord",
