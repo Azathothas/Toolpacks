@@ -882,6 +882,24 @@
     "Repo": null
   },
   {
+    "Name": "cronie.sh",
+    "Size": "3042 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cronie.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "crontab.sh",
+    "Size": "2068 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/crontab.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "crt.sh",
     "Size": "1962 B",
     "ModTime": "2024-03-12T18:33:36.541899374Z",
@@ -967,6 +985,15 @@
     "Size": "1662 B",
     "ModTime": "2024-03-12T18:33:36.541899374Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cvemap.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dagu.sh",
+    "Size": "1662 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dagu.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -2061,6 +2088,15 @@
     "Repo": null
   },
   {
+    "Name": "gronx.sh",
+    "Size": "1958 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gronx.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "grpcurl.sh",
     "Size": "1949 B",
     "ModTime": "2024-03-12T18:33:36.545899374Z",
@@ -2891,7 +2927,7 @@
   {
     "Name": "metadata.json",
     "Size": "158.73 kB",
-    "ModTime": "2024-03-15T12:16:40.330301665Z",
+    "ModTime": "2024-03-15T15:10:39.878829634Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2961,6 +2997,15 @@
     "Repo": null
   },
   {
+    "Name": "mkpasswd.sh",
+    "Size": "1954 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mkpasswd.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "mksub.sh",
     "Size": "1659 B",
     "ModTime": "2024-03-12T18:33:36.549899374Z",
@@ -2974,6 +3019,15 @@
     "Size": "1612 B",
     "ModTime": "2024-03-12T18:33:36.549899374Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mmv.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "moac.sh",
+    "Size": "2104 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/moac.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3001,6 +3055,15 @@
     "Size": "1746 B",
     "ModTime": "2024-03-12T18:33:36.549899374Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/naabu.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "namegen.sh",
+    "Size": "1910 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/namegen.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -4383,6 +4446,15 @@
     "Repo": null
   },
   {
+    "Name": "supercronic.sh",
+    "Size": "1893 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/supercronic.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "supervisord.sh",
     "Size": "1915 B",
     "ModTime": "2024-03-12T18:33:36.557899373Z",
@@ -4923,6 +4995,15 @@
     "Repo": null
   },
   {
+    "Name": "vproxy.sh",
+    "Size": "2457 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/vproxy.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "vtm.sh",
     "Size": "1968 B",
     "ModTime": "2024-03-12T18:33:36.557899373Z",
@@ -5031,6 +5112,15 @@
     "Repo": null
   },
   {
+    "Name": "whois.sh",
+    "Size": "1930 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/whois.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "wireguard-go.sh",
     "Size": "1897 B",
     "ModTime": "2024-03-12T18:33:36.561899373Z",
@@ -5107,6 +5197,15 @@
     "Size": "2375 B",
     "ModTime": "2024-03-12T18:33:36.561899373Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/x8.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "xbps-void.sh",
+    "Size": "2604 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xbps-void.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -5197,6 +5296,15 @@
     "Size": "1662 B",
     "ModTime": "2024-03-12T18:33:36.561899373Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yq.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "z-tokens.sh",
+    "Size": "2844 B",
+    "ModTime": "2024-03-15T15:29:27.190714897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/z-tokens.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
