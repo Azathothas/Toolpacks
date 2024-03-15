@@ -210,6 +210,7 @@
     #-------------------------------------------------------#
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
+         #----------------------#
          #Docker
           curl -qfsSL "https://get.docker.com" | sudo bash
           sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
@@ -223,6 +224,7 @@
              sudo ldconfig && sudo ldconfig -p
              #newgrp 2>/dev/null
           fi
+         #----------------------# 
          #Crystal
           curl -qfsSL "https://crystal-lang.org/install.sh" | sudo bash
           #Test
@@ -232,7 +234,8 @@
           else
              crystal --version ; shards --version
              sudo ldconfig && sudo ldconfig -p
-          fi          
+          fi 
+         #----------------------#          
          #golang 
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
           #Test
@@ -243,6 +246,7 @@
              go version
              sudo ldconfig && sudo ldconfig -p
           fi
+         #----------------------# 
          ##Nix
           ##Official Installers break
           #curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
@@ -263,6 +267,7 @@
           else
              nix --version && nix-channel --list && nix-channel --update
           fi
+         #----------------------# 
          ##Purge:
          #sudo rm -rf "/etc/bash.bashrc.backup-before-nix" "/etc/nix" "/nix" "/root/.nix-profile" "/root/.nix-defexpr" "/root/.nix-channels" "/root/.local/state/nix" "/root/.cache/nix" "$HOME/.nix-profile" "$HOME/.nix-defexpr" "$HOME/.nix-channels" "$HOME/.local/state/nix" "$HOME/.cache/nix" 2>/dev/null
          ##Node:
@@ -276,6 +281,7 @@
              #Nexe:https://github.com/nexe/nexe
              npm install nexe --global
           fi
+         #----------------------# 
          #rust & cargo
           bash <(curl -qfsSL "https://sh.rustup.rs") -y
           #Test: PATH="$HOME/.cargo/bin:$HOME/.cargo/env:$PATH" 
@@ -288,6 +294,7 @@
              cargo install cross --git "https://github.com/cross-rs/cross"
              sudo ldconfig && sudo ldconfig -p
           fi
+         #----------------------#
          #zig
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_zig.sh" | bash
           #Test: ZIG_PATH="/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
@@ -300,6 +307,7 @@
           fi          
           find "$SYSTMP" -type d -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
           find "$SYSTMP" -type f -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
+         #----------------------# 
     fi
    #-------------------------------------------------------#
 

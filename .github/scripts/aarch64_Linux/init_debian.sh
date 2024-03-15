@@ -212,6 +212,7 @@
     #-------------------------------------------------------#
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
+         #----------------------#
          #Docker
           curl -qfsSL "https://get.docker.com" | sudo bash
           sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
@@ -225,6 +226,7 @@
              sudo ldconfig && sudo ldconfig -p
              #newgrp 2>/dev/null
           fi
+         #----------------------# 
          #Crystal
           sudo rm "/etc/apt/sources.list.d/crystal.list" -rf 2>/dev/null
           ## Doesn't provide prebuilts for arm64
@@ -241,6 +243,7 @@
              crystal --version ; shards --version
              sudo ldconfig && sudo ldconfig -p
           fi
+         #----------------------# 
          #golang 
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
           #Test
@@ -251,6 +254,7 @@
              go version
              sudo ldconfig && sudo ldconfig -p
           fi
+         #----------------------# 
          ##Nix
           ##Official Installers break
           #curl -qfsSL "https://nixos.org/nix/install" | bash -s -- --no-daemon
@@ -271,6 +275,7 @@
           else
              nix --version && nix-channel --list && nix-channel --update
           fi
+         #----------------------# 
          ##Purge:
          #sudo rm -rf "/etc/bash.bashrc.backup-before-nix" "/etc/nix" "/nix" "/root/.nix-profile" "/root/.nix-defexpr" "/root/.nix-channels" "/root/.local/state/nix" "/root/.cache/nix" "$HOME/.nix-profile" "$HOME/.nix-defexpr" "$HOME/.nix-channels" "$HOME/.local/state/nix" "$HOME/.cache/nix" 2>/dev/null
          ##Node:
@@ -284,6 +289,7 @@
              #Nexe:https://github.com/nexe/nexe
              npm install nexe --global
           fi
+         #----------------------# 
          #rust & cargo
           bash <(curl -qfsSL "https://sh.rustup.rs") -y
           #Test: PATH="$HOME/.cargo/bin:$HOME/.cargo/env:$PATH" 
@@ -296,6 +302,7 @@
              cargo install cross --git "https://github.com/cross-rs/cross"
              sudo ldconfig && sudo ldconfig -p
           fi
+         #----------------------# 
          #zig
           #Clean
           sudo rm "/usr/local/zig" -rf 2>/dev/null ; sudo rm "/usr/local/zig" -rf 2>/dev/null
@@ -313,6 +320,7 @@
              zig version
              sudo ldconfig && sudo ldconfig -p
           fi
+         #----------------------# 
     fi
     #-------------------------------------------------------#
 
