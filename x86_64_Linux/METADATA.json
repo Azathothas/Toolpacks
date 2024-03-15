@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "270.57 kB",
-    "ModTime": "2024-03-15T12:39:11.385468713Z",
+    "ModTime": "2024-03-15T15:37:05.188216069Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -1264,9 +1264,9 @@
     "Size": "27.68 MB",
     "ModTime": "2024-03-15T09:14:04.024670100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dagu",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/dagu-dev/dagu"
   },
   {
     "Name": "dalfox",
@@ -2632,9 +2632,9 @@
     "Size": "2.07 MB",
     "ModTime": "2024-03-15T09:09:59.307360100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gronx-tasker",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/adhocore/gronx"
   },
   {
     "Name": "grpcurl",
@@ -3667,9 +3667,9 @@
     "Size": "1.65 MB",
     "ModTime": "2024-03-14T05:35:53.103729000Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/moac-pwgen",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/Seirdy/moac"
   },
   {
     "Name": "mount.fuse3",
@@ -5521,9 +5521,9 @@
     "Size": "10.04 MB",
     "ModTime": "2024-03-15T09:21:44.920292400Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/supercronic",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/aptible/supercronic"
   },
   {
     "Name": "supervisord",
@@ -6250,9 +6250,9 @@
     "Size": "9.05 MB",
     "ModTime": "2024-03-14T04:35:15.119461300Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/vproxy",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/gngpp/vproxy"
   },
   {
     "Name": "vtm",
