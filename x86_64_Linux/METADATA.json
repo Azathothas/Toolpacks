@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "282.86 kB",
-    "ModTime": "2024-03-16T09:33:42.834025824Z",
+    "ModTime": "2024-03-16T12:37:28.265368816Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -6370,6 +6370,42 @@
     "B3SUM": "c9290f916e274c834edaeeddcea02ebee790e7a391dbf40d83252f524913a9b3",
     "SHA256": "c1f342aed0c0c9f3d8a9b94faa55e5a613a32cd7765e8bd22bf0e58f9720cc77",
     "Repo": "https://github.com/minio/warp"
+  },
+  {
+    "Name": "warp-cli",
+    "Size": "3.93 MB",
+    "ModTime": "2024-03-16T14:56:21.313523300Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/warp-cli",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://pkg.cloudflareclient.com"
+  },
+  {
+    "Name": "warp-dex",
+    "Size": "4.66 MB",
+    "ModTime": "2024-03-16T14:56:21.302040300Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/warp-dex",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://pkg.cloudflareclient.com"
+  },
+  {
+    "Name": "warp-diag",
+    "Size": "5.89 MB",
+    "ModTime": "2024-03-16T14:56:21.289538500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/warp-diag",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://pkg.cloudflareclient.com"
+  },
+  {
+    "Name": "warp-svc",
+    "Size": "8.42 MB",
+    "ModTime": "2024-03-16T14:56:21.266408000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/warp-svc",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://pkg.cloudflareclient.com"
   },
   {
     "Name": "wasminspect",
