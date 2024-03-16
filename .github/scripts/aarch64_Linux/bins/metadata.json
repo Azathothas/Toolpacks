@@ -2900,7 +2900,7 @@
   {
     "Name": "metadata.json",
     "Size": "160.4 kB",
-    "ModTime": "2024-03-16T09:12:29.555709800Z",
+    "ModTime": "2024-03-16T12:17:55.285259418Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4320,6 +4320,15 @@
     "Repo": null
   },
   {
+    "Name": "stress-ng.sh",
+    "Size": "2015 B",
+    "ModTime": "2024-03-16T15:06:41.429406449Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/stress-ng.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "sttr.sh",
     "Size": "1619 B",
     "ModTime": "2024-03-15T18:33:29.107494184Z",
@@ -4963,6 +4972,15 @@
     "Size": "1616 B",
     "ModTime": "2024-03-15T18:33:29.111494184Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/walk.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "warp-cli.sh",
+    "Size": "3257 B",
+    "ModTime": "2024-03-16T15:06:41.437406401Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/warp-cli.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
