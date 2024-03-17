@@ -64,8 +64,9 @@ fi
 #------------------------------------------------------------------------------------#
 #Stop Existing
 echo -e "\n[+] Cleaning PreExisting Container\n"
-sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null
-sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null &
+wait
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null && sleep 5
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${DOCKER_LOG_FILE})\n"
 set -x && nohup sudo docker run --runtime "sysbox-runc" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
