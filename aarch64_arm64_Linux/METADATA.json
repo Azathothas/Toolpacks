@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "278.55 kB",
-    "ModTime": "2024-03-17T12:40:30.664629544Z",
+    "Size": "278.39 kB",
+    "ModTime": "2024-03-17T15:36:49.258736350Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2812,9 +2812,9 @@
     "Size": "3.48 MB",
     "ModTime": "2024-03-02T00:41:57.538616551Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/horust",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "06ee931ab2035414ae93e3d8c4d40170375cc96adb0e28233e0c02c6a81e9463",
+    "SHA256": "15de5ad21bd89f11d130556e49654bef48d87108f9cd1a1c6aa23958e2021383",
+    "Repo": "https://github.com/FedericoPonzi/Horust"
   },
   {
     "Name": "hostctl",
