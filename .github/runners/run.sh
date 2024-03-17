@@ -19,37 +19,45 @@ fi
 ##ENV
 #Name+{rand}
 if [ -z "$DOCKER_CONTAINER_NAME" ]; then
- echo -e "\n[+]Setting Default Container Name: gh-runner-arm64x-gcp"
+ echo -e "\n[+] Setting Default Container Name: gh-runner-arm64x-gcp"
   export DOCKER_CONTAINER_NAME="gh-runner-arm64x-gcp"
 else
  export DOCKER_CONTAINER_NAME="${DOCKER_CONTAINER_NAME}"
- echo -e "\n[+]Setting Default Container Name: ${DOCKER_CONTAINER_NAME}"
+ echo -e "\n[+] Setting Default Container Name: ${DOCKER_CONTAINER_NAME}"
 fi
 #Image
 if [ -z "$DOCKER_CONTAINER_IMAGE" ]; then
- echo -e "\n[+]Setting Default Container Image: azathothas/gh-runner-aarch64-ubuntu"
+ echo -e "\n[+] Setting Default Container Image: azathothas/gh-runner-aarch64-ubuntu"
   export DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-aarch64-ubuntu"
 else
  export DOCKER_CONTAINER_IMAGE="${DOCKER_CONTAINER_IMAGE}"
- echo -e "\n[+]Setting Default Container Image: ${DOCKER_CONTAINER_IMAGE}"
+ echo -e "\n[+] Setting Default Container Image: ${DOCKER_CONTAINER_IMAGE}"
 fi
 #Env File
 if [ -z "$DOCKER_ENV_FILE" ]; then
- echo -e "\n[+]Setting Default Container Env File: $HOME/.config/gh-runner/.env"
+ echo -e "\n[+] Setting Default Container Env File: $HOME/.config/gh-runner/.env"
   export DOCKER_ENV_FILE="$HOME/.config/gh-runner/.env"
+     if ! [[ -s "${DOCKER_ENV_FILE}" ]]; then
+         echo -e "\n[-] Fatal: Empty/Non Existent ${DOCKER_ENV_FILE} file!"
+       exit 1
+     fi    
 else
  export DOCKER_ENV_FILE="${DOCKER_ENV_FILE}"
- echo -e "\n[+]Setting Default Container Env File: ${DOCKER_ENV_FILE}"
+ echo -e "\n[+] Setting Default Container Env File: ${DOCKER_ENV_FILE}"
+      if ! [[ -s "${DOCKER_ENV_FILE}" ]]; then
+         echo -e "\n[-] Fatal: Empty/Non Existent ${DOCKER_ENV_FILE} file!"
+       exit 1
+     fi 
 fi
 #Log File
 if [ -z "$DOCKER_LOG_FILE" ]; then
  DOCKER_LOG_FILE="$(mktemp)" && export DOCKER_LOG_FILE="${DOCKER_LOG_FILE}"
- echo -e "\n[+]Setting Default Container LOG File: ${DOCKER_LOG_FILE}"
- echo -e "[+]View Logs: tail -f ${DOCKER_LOG_FILE}\n"
+ echo -e "\n[+] Setting Default Container LOG File: ${DOCKER_LOG_FILE}"
+ echo -e "[+] View Logs: tail -f ${DOCKER_LOG_FILE}\n"
 else
  export DOCKER_LOG_FILE="${DOCKER_LOG_FILE}"
- echo -e "\n[+]Setting Default Container LOG File:${DOCKER_LOG_FILE}"
- echo -e "[+]View Logs: tail -f ${DOCKER_LOG_FILE}\n" 
+ echo -e "\n[+] Setting Default Container LOG File:${DOCKER_LOG_FILE}"
+ echo -e "[+] View Logs: tail -f ${DOCKER_LOG_FILE}\n" 
 fi
 #------------------------------------------------------------------------------------#
 
