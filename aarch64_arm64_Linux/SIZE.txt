@@ -1,4 +1,4 @@
- 7.3G └─┬ toolpack_aarch64
+ 7.4G └─┬ toolpack_aarch64
  142M   ├── aws-nuke
  139M   ├── traefik
  124M   ├── cloudfox
@@ -14,8 +14,9 @@
   70M   ├── nuclei
   61M   ├── loki
   60M   ├── alist
-  58M   ├── wtf
+  58M   ├── tavern
   58M   ├── wtfutil
+  58M   ├── wtf
   55M   ├── rclone
   54M   ├── logcli
   54M   ├── dockerd
@@ -27,7 +28,6 @@
   47M   ├── ffprobe
   46M   ├── matterbridge
   44M   ├── rekor-server
-  44M   ├── tavern
   41M   ├── gh
   37M   ├── caddy
   36M   ├── httpx
@@ -55,10 +55,10 @@
   27M   ├── podman
   27M   ├── soft-serve
   27M   ├── osmedeus
+  27M   ├── git-xet
   26M   ├── loki-canary
   26M   ├── gowitness
   26M   ├── netbird
-  26M   ├── git-xet
   26M   ├── subfinder
   25M   ├── dnsx
   25M   ├── tlsx
@@ -82,8 +82,8 @@
   23M   ├── vhs
   23M   ├── grpcurl
   22M   ├── jaeles
-  22M   ├── ngrok
   22M   ├── nerdctl
+  22M   ├── ngrok
   22M   ├── uncover
   22M   ├── fscan
   22M   ├── restic
@@ -93,7 +93,7 @@
   21M   ├── syncthing
   21M   ├── etcd
   21M   ├── reader
-  20M   ├── xetcmd
+  21M   ├── xetcmd
   20M   ├── tailscaled
   20M   ├── tuiarchiver
   20M   ├── mapcidr
@@ -120,8 +120,8 @@
   17M   ├── miniflux
   17M   ├── ctr
   17M   ├── rekor-cli
-  17M   ├── sunbeam
   17M   ├── jj
+  17M   ├── sunbeam
   17M   ├── imix
   17M   ├── meli
   17M   ├── chaos-client
@@ -148,10 +148,10 @@
   14M   ├── s5cmd
   14M   ├── sn0int
   14M   ├── bleve
+  14M   ├── mise
   14M   ├── bin
   13M   ├── hednsextractor
   13M   ├── certwatcher
-  13M   ├── mise
   13M   ├── filebrowser
   13M   ├── godns
   13M   ├── smap
@@ -252,22 +252,23 @@
  8.2M   ├── openrisk
  8.1M   ├── cfssl-scan
  8.1M   ├── zdns
- 8.1M   ├── aria2c
  8.1M   ├── gocurl
  8.0M   ├── stew
+ 8.0M   ├── aria2c
  8.0M   ├── q
  7.9M   ├── chisel
+ 7.9M   ├── warp-svc
  7.9M   ├── dura
  7.9M   ├── cfssl-bundle
  7.9M   ├── archey
  7.9M   ├── assh
  7.8M   ├── getghrel
  7.8M   ├── hostctl
+ 7.8M   ├── tgpt
  7.8M   ├── pwninit
  7.8M   ├── starship
  7.8M   ├── sns
  7.7M   ├── cfssl-certinfo
- 7.7M   ├── tgpt
  7.7M   ├── rootlesskit
  7.7M   ├── ov
  7.7M   ├── ladder
@@ -340,6 +341,7 @@
  5.7M   ├── eget
  5.7M   ├── trip
  5.6M   ├── dperf
+ 5.6M   ├── warp-diag
  5.6M   ├── wadl-dumper
  5.6M   ├── rescope
  5.6M   ├── amp
@@ -401,8 +403,10 @@
  4.6M   ├── waybackurls
  4.6M   ├── agg
  4.6M   ├── procs
+ 4.6M   ├── stress-ng
  4.6M   ├── rustcan
  4.6M   ├── gxss
+ 4.5M   ├── warp-dex
  4.5M   ├── fget
  4.5M   ├── macchina
  4.5M   ├── dizi
@@ -459,6 +463,7 @@
  3.9M   ├── doomxss
  3.9M   ├── checkbypass
  3.9M   ├── chainredir
+ 3.9M   ├── warp-cli
  3.9M   ├── dns-doctor
  3.8M   ├── overmind
  3.8M   ├── njs
@@ -472,9 +477,9 @@
  3.6M   ├── mcfly
  3.6M   ├── rga
  3.6M   ├── sshkeys
+ 3.6M   ├── gpg-tui
  3.5M   ├── agrind
  3.5M   ├── hurlfmt
- 3.5M   ├── gpg-tui
  3.5M   ├── axel
  3.4M   ├── lf
  3.4M   ├── pspy
@@ -493,7 +498,6 @@
  3.1M   ├── zt-patterns
  3.1M   ├── viu
  3.1M   ├── stuffbin
- 3.1M   ├── iperf3
  3.1M   ├── iperf
  3.1M   ├── xcp
  3.1M   ├── txeh
@@ -506,6 +510,7 @@
  2.8M   ├── rust-parallel
  2.8M   ├── nping
  2.8M   ├── just
+ 2.8M   ├── iperf3
  2.7M   ├── cowthink
  2.7M   ├── cowsay
  2.7M   ├── yj
@@ -574,6 +579,7 @@
  1.9M   ├── byp4xx
  1.8M   ├── mdsh
  1.8M   ├── docker-proxy
+ 1.8M   ├── miniserve
  1.8M   ├── gotator
  1.8M   ├── bbscope
  1.8M   ├── age-keygen
@@ -612,7 +618,6 @@
  1.4M   ├── eah
  1.4M   ├── eae
  1.4M   ├── cleanpath
- 1.3M   ├── miniserve
  1.3M   ├── kmon
  1.3M   ├── dropbearmulti
  1.3M   ├── ds
