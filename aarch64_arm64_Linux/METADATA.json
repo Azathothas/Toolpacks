@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "280.48 kB",
-    "ModTime": "2024-03-19T06:35:13.190393694Z",
+    "ModTime": "2024-03-19T09:29:17.307920572Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3679,6 +3679,15 @@
     "B3SUM": "dcc29451836098a078169bb76efb48b3ddefe8aa04f33859078759b5222e9860",
     "SHA256": "b92b3d63960c5a7271640cbb8a808655d0890db63261725cac4a30f4be9ba72a",
     "Repo": "https://github.com/kitabisa/mubeng"
+  },
+  {
+    "Name": "mullvad-cli",
+    "Size": "6.38 MB",
+    "ModTime": "2024-03-19T10:22:19.436725900Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/mullvad-cli",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "multirootca",
