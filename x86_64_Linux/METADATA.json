@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "284.75 kB",
-    "ModTime": "2024-03-19T00:58:00.090964738Z",
+    "ModTime": "2024-03-19T03:35:05.426759058Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3168,6 +3168,15 @@
     "Repo": "https://github.com/noahgorstein/jqp"
   },
   {
+    "Name": "jsmug",
+    "Size": "40.14 kB",
+    "ModTime": "2024-03-19T05:55:30.159390200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/jsmug",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "just",
     "Size": "3.7 MB",
     "ModTime": "2024-03-13T02:09:25.820035360Z",
@@ -3868,6 +3877,15 @@
     "B3SUM": "aa028ae56b9af25abc0449ef2d5e077547f6ffe42a005b35568a01e8abe7939d",
     "SHA256": "43d49d934b2438babeb25315b0efcf4a373db23ba61763ad823ec2f2c9ce54c7",
     "Repo": "https://github.com/gravitl/netmaker"
+  },
+  {
+    "Name": "netstat",
+    "Size": "193.68 kB",
+    "ModTime": "2024-03-19T05:37:00.487563100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/netstat",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "nfs-cat",
