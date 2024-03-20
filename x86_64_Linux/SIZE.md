@@ -9,7 +9,7 @@
   93M   ├── cloudlist
   89M   ├── k9s
   88M   ├── promtail
-  83M   ├── trufflehog
+  84M   ├── trufflehog
   83M   ├── istioctl
   83M   ├── hugo
   75M   ├── ffmpeg
@@ -19,6 +19,7 @@
   72M   ├── berty
   63M   ├── loki
   62M   ├── alist
+  60M   ├── tavern
   59M   ├── wtfutil
   59M   ├── wtf
   58M   ├── nushell
@@ -28,13 +29,12 @@
   56M   ├── logcli
   52M   ├── melange
   50M   ├── steampipe
+  49M   ├── teldrive
   48M   ├── jc
   48M   ├── bearer
-  48M   ├── teldrive
   48M   ├── matterbridge
   46M   ├── rekor-server
   46M   ├── rekor
-  46M   ├── tavern
   41M   ├── gh
   39M   ├── caddy
   38M   ├── kadeessh
@@ -52,8 +52,8 @@
   33M   ├── skupper
   32M   ├── surf
   32M   ├── git-xet
-  32M   ├── shellz
   32M   ├── mlr
+  32M   ├── shellz
   31M   ├── sq
   31M   ├── edgevpn
   30M   ├── rattler-build
@@ -62,15 +62,15 @@
   29M   ├── naabu
   29M   ├── pixi
   29M   ├── runme
-  28M   ├── podman
   28M   ├── zellij
+  28M   ├── podman
   28M   ├── soft-serve
+  28M   ├── gowitness
   27M   ├── osmedeus
   27M   ├── loki-canary
   27M   ├── qbittorrent-nox
   27M   ├── netbird
   27M   ├── subfinder
-  27M   ├── gowitness
   27M   ├── dnsx
   27M   ├── tlsx
   26M   ├── maddy
@@ -86,9 +86,9 @@
   24M   ├── gum
   24M   ├── brutespray
   23M   ├── v2raya
+  23M   ├── nerdctl
   23M   ├── vhs
   23M   ├── dalfox
-  23M   ├── nerdctl
   23M   ├── grpcurl
   23M   ├── uncover
   23M   ├── jaeles
@@ -97,13 +97,13 @@
   23M   ├── devpod
   23M   ├── interactsh-server
   22M   ├── docker
-  22M   ├── boltconn
   22M   ├── syncthing
+  22M   ├── boltconn
   22M   ├── vpnkit
   22M   ├── etcd
   22M   ├── ruff
   22M   ├── reader
-  21M   ├── imix
+  22M   ├── imix
   21M   ├── tailscaled
   21M   ├── meli
   21M   ├── tuiarchiver
@@ -160,11 +160,11 @@
   15M   ├── termshark
   14M   ├── s5cmd
   14M   ├── tinja
-  14M   ├── sysbox-runc
-  14M   ├── hednsextractor
-  14M   ├── yazi
-  14M   ├── netmaker
   14M   ├── bleve
+  14M   ├── sysbox-runc
+  14M   ├── yazi
+  14M   ├── hednsextractor
+  14M   ├── netmaker
   14M   ├── godns
   14M   ├── certwatcher
   14M   ├── bin
@@ -210,7 +210,8 @@
   11M   ├── tailscale
   11M   ├── jqp
   11M   ├── lazydocker
-  10M   ├── coreutils
+  11M   ├── coreutils
+  11M   ├── fx
   10M   ├── git-lfs
   10M   ├── cheat
   10M   ├── sshportal
@@ -225,8 +226,8 @@
   10M   ├── runc
   10M   ├── certstream-server-go
 10.0M   ├── katana_staticx
-10.0M   ├── orbiton
 10.0M   ├── vfox
+10.0M   ├── orbiton
  9.9M   ├── tut
  9.8M   ├── gotty
  9.8M   ├── gitql
@@ -251,6 +252,7 @@
  9.3M   ├── vultr-cli
  9.2M   ├── sttr
  9.1M   ├── agg
+ 9.1M   ├── pping
  9.1M   ├── csprecon
  9.1M   ├── mubeng
  8.9M   ├── ksubdomain
@@ -263,7 +265,6 @@
  8.7M   ├── cut-cdn
  8.7M   ├── ddns-go
  8.7M   ├── bluetuith
- 8.7M   ├── pping
  8.7M   ├── oha
  8.7M   ├── gocurl
  8.6M   ├── vproxy
@@ -275,21 +276,22 @@
  8.5M   ├── openrisk
  8.5M   ├── viewgen_staticx
  8.5M   ├── cfssl-scan
- 8.4M   ├── watchexec
  8.4M   ├── wstunnel
+ 8.4M   ├── watchexec
  8.4M   ├── stew
  8.4M   ├── rustypaste
  8.4M   ├── q
  8.3M   ├── hostctl
- 8.3M   ├── aria2c
  8.3M   ├── chisel
+ 8.2M   ├── aria2c
  8.2M   ├── getghrel
  8.2M   ├── assh
  8.1M   ├── cfssl-bundle
- 8.1M   ├── sns
  8.1M   ├── tgpt
+ 8.1M   ├── sns
  8.0M   ├── ladder
  8.0M   ├── trurl
+ 8.0M   ├── warp-svc
  8.0M   ├── ov
  8.0M   ├── syncat
  8.0M   ├── rootlesskit
@@ -334,6 +336,7 @@
  6.9M   ├── twingate-connector-staticx
  6.9M   ├── rush
  6.9M   ├── gofireprox
+ 6.9M   ├── delta
  6.8M   ├── trip
  6.8M   ├── certgraph
  6.8M   ├── z-tokens
@@ -377,11 +380,11 @@
  5.8M   ├── presenterm
  5.8M   ├── dizi
  5.8M   ├── amp
- 5.8M   ├── delta
  5.8M   ├── albafetch
  5.8M   ├── pathbuster
  5.7M   ├── clipcat-notify
  5.7M   ├── wego
+ 5.6M   ├── warp-diag
  5.6M   ├── sbctl
  5.6M   ├── web-cache-vulnerability-scanner
  5.5M   ├── waybackrobots
@@ -446,6 +449,7 @@
  4.8M   ├── rootlesskit-docker-proxy
  4.8M   ├── gup
  4.8M   ├── mani
+ 4.8M   ├── stress-ng
  4.7M   ├── sshd
  4.7M   ├── gxss
  4.7M   ├── fget
@@ -458,20 +462,21 @@
  4.6M   ├── hakoriginfinder
  4.6M   ├── rate-limit-checker
  4.6M   ├── crt
+ 4.6M   ├── gpg-tui
  4.6M   ├── enumerepo
  4.6M   ├── bottom
  4.5M   ├── ssh
  4.5M   ├── gotld
  4.5M   ├── certstream
  4.5M   ├── realm
- 4.5M   ├── gpg-tui
  4.5M   ├── onetun
+ 4.4M   ├── warp-dex
  4.4M   ├── ouch
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
  4.3M   ├── knoxssme
- 4.3M   ├── bbtargets
  4.3M   ├── twingate-connectorctl
+ 4.3M   ├── bbtargets
  4.3M   ├── hurlfmt
  4.3M   ├── tahm
  4.3M   ├── jwt-hack
@@ -496,16 +501,16 @@
  4.0M   ├── ssh-agent
  3.9M   ├── fd
  3.9M   ├── pfetch-rs
- 3.9M   ├── fx
  3.9M   ├── overmind
- 3.9M   ├── gojq
  3.9M   ├── twingate-notifier
+ 3.9M   ├── gojq
  3.9M   ├── dns-doctor
  3.9M   ├── mqttui
  3.8M   ├── validtoml
  3.8M   ├── kanha
  3.8M   ├── sshkeys
  3.8M   ├── wasminspect
+ 3.8M   ├── warp-cli
  3.7M   ├── viu
  3.6M   ├── iperf3
  3.6M   ├── ksubdomain_staticx
@@ -514,8 +519,8 @@
  3.5M   ├── kakoune
  3.5M   ├── just
  3.5M   ├── bandwhich
- 3.5M   ├── rust-parallel
  3.5M   ├── twingate-client
+ 3.5M   ├── rust-parallel
  3.4M   ├── bingrep
  3.4M   ├── fzf
  3.4M   ├── passdetective
@@ -588,6 +593,7 @@
  2.0M   ├── duf
  2.0M   ├── ffufPostprocessing
  2.0M   ├── rshijack
+ 2.0M   ├── miniserve
  2.0M   ├── upx
  2.0M   ├── shortutil
  2.0M   ├── pencode
@@ -618,7 +624,6 @@
  1.6M   ├── mmv
  1.6M   ├── jless_staticx
  1.6M   ├── moac-pwgen
- 1.5M   ├── miniserve
  1.5M   ├── progress
  1.5M   ├── tcpdump
  1.5M   ├── genscope
@@ -709,6 +714,7 @@
  204K   ├── nfs-cp
  200K   ├── nfs-stat
  196K   ├── nfs-cat
+ 192K   ├── netstat
  192K   ├── linuxwave
  192K   ├── asn
  184K   ├── ping
@@ -738,6 +744,7 @@
   76K   ├── cronie-cronnext
   68K   ├── cifsiostat
   64K   ├── binfetch
+  40K   ├── jsmug
   36K   ├── pipetty
   36K   ├── ansi2html
   28K   ├── apk.sh
