@@ -10,20 +10,20 @@
   86M   ├── k9s
   80M   ├── istioctl
   80M   ├── hugo
-  78M   ├── trufflehog
+  79M   ├── trufflehog
   72M   ├── falconhound
   70M   ├── nuclei
   61M   ├── loki
   60M   ├── alist
   58M   ├── tavern
-  58M   ├── wtfutil
   58M   ├── wtf
+  58M   ├── wtfutil
   55M   ├── rclone
   54M   ├── logcli
   54M   ├── dockerd
   50M   ├── melange
   48M   ├── steampipe
-  47M   ├── teldrive
+  48M   ├── teldrive
   47M   ├── ffmpeg
   47M   ├── bearer
   47M   ├── ffprobe
@@ -50,15 +50,15 @@
   29M   ├── aix
   28M   ├── sqlc
   28M   ├── vpnkit
+  28M   ├── runme
   28M   ├── nushell
   28M   ├── nu
-  28M   ├── runme
   27M   ├── podman
+  27M   ├── gowitness
   27M   ├── soft-serve
   27M   ├── osmedeus
   27M   ├── git-xet
   26M   ├── loki-canary
-  26M   ├── gowitness
   26M   ├── netbird
   26M   ├── subfinder
   25M   ├── dnsx
@@ -121,8 +121,8 @@
   17M   ├── miniflux
   17M   ├── ctr
   17M   ├── rekor-cli
-  17M   ├── jj
   17M   ├── sunbeam
+  17M   ├── jj
   17M   ├── imix
   17M   ├── meli
   17M   ├── chaos-client
@@ -139,16 +139,16 @@
   15M   ├── warp
   15M   ├── pgweb
   14M   ├── cloudcash
-  14M   ├── lazygit
   14M   ├── xetmnt
+  14M   ├── lazygit
   14M   ├── act
   14M   ├── termshark
   14M   ├── atuin
   14M   ├── tinja
+  14M   ├── bleve
   14M   ├── hrekt
   14M   ├── s5cmd
   14M   ├── sn0int
-  14M   ├── bleve
   14M   ├── mise
   14M   ├── bin
   13M   ├── hednsextractor
@@ -186,6 +186,7 @@
   11M   ├── sysbox-mgr
   11M   ├── sslsearch
   10M   ├── cfssl
+  10M   ├── fx
   10M   ├── micro
   10M   ├── multirootca
   10M   ├── jqp
@@ -238,13 +239,13 @@
  8.9M   ├── vultr-cli
  8.9M   ├── doggo
  8.8M   ├── csprecon
+ 8.8M   ├── pping
  8.7M   ├── mubeng
  8.6M   ├── noir
  8.5M   ├── coreutils
  8.4M   ├── cut-cdn
  8.4M   ├── bluetuith
  8.4M   ├── enc
- 8.3M   ├── pping
  8.3M   ├── syncat
  8.3M   ├── binocle
  8.3M   ├── taplo
@@ -297,7 +298,6 @@
  7.1M   ├── hardeningmeter_staticx
  7.0M   ├── sake
  7.0M   ├── ctlwatcher
- 7.0M   ├── curl
  7.0M   ├── watchexec
  6.9M   ├── rustypaste
  6.9M   ├── nmap
@@ -328,6 +328,7 @@
  6.2M   ├── xplr
  6.2M   ├── fuzzuli
  6.1M   ├── wireproxy
+ 6.1M   ├── mullvad-cli
  6.1M   ├── yalis
  6.0M   ├── hub
  6.0M   ├── aretext
@@ -342,8 +343,8 @@
  5.7M   ├── eget
  5.7M   ├── trip
  5.6M   ├── dperf
- 5.6M   ├── warp-diag
  5.6M   ├── wadl-dumper
+ 5.6M   ├── warp-diag
  5.6M   ├── rescope
  5.6M   ├── amp
  5.4M   ├── wego
@@ -360,8 +361,8 @@
  5.1M   ├── certspotter
  5.1M   ├── dizi-server
  5.1M   ├── albafetch
- 5.1M   ├── ksubdomain_staticx
  5.1M   ├── gitdorks_go
+ 5.1M   ├── ksubdomain_staticx
  5.1M   ├── getJS
  5.1M   ├── bombadillo
  5.0M   ├── hacker-scoper
@@ -460,7 +461,6 @@
  3.9M   ├── robotstxt
  3.9M   ├── nrp
  3.9M   ├── heacoll
- 3.9M   ├── fx
  3.9M   ├── doomxss
  3.9M   ├── checkbypass
  3.9M   ├── chainredir
@@ -693,6 +693,7 @@
  188K   ├── nfs-cat
  172K   ├── minisign
  168K   ├── linuxwave
+ 160K   ├── curl
  148K   ├── massdns
  140K   ├── unix2mac
  140K   ├── unix2dos

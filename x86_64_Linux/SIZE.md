@@ -9,7 +9,7 @@
   93M   ├── cloudlist
   89M   ├── k9s
   88M   ├── promtail
-  83M   ├── trufflehog
+  84M   ├── trufflehog
   83M   ├── istioctl
   83M   ├── hugo
   75M   ├── ffmpeg
@@ -20,8 +20,8 @@
   63M   ├── loki
   62M   ├── alist
   60M   ├── tavern
-  59M   ├── wtf
   59M   ├── wtfutil
+  59M   ├── wtf
   58M   ├── nushell
   58M   ├── nu
   57M   ├── rclone
@@ -29,9 +29,9 @@
   56M   ├── logcli
   52M   ├── melange
   50M   ├── steampipe
+  49M   ├── teldrive
   48M   ├── jc
   48M   ├── bearer
-  48M   ├── teldrive
   48M   ├── matterbridge
   46M   ├── rekor-server
   46M   ├── rekor
@@ -62,15 +62,15 @@
   29M   ├── naabu
   29M   ├── pixi
   29M   ├── runme
-  28M   ├── podman
   28M   ├── zellij
+  28M   ├── podman
   28M   ├── soft-serve
+  28M   ├── gowitness
   27M   ├── osmedeus
   27M   ├── loki-canary
   27M   ├── qbittorrent-nox
   27M   ├── netbird
   27M   ├── subfinder
-  27M   ├── gowitness
   27M   ├── dnsx
   27M   ├── tlsx
   26M   ├── maddy
@@ -81,8 +81,8 @@
   25M   ├── interactsh-client
   25M   ├── devbox
   25M   ├── asnmap
-  25M   ├── algernon
   25M   ├── xetcmd
+  25M   ├── algernon
   24M   ├── gum
   24M   ├── brutespray
   23M   ├── v2raya
@@ -102,8 +102,8 @@
   22M   ├── vpnkit
   22M   ├── etcd
   22M   ├── ruff
-  22M   ├── imix
   22M   ├── reader
+  22M   ├── imix
   21M   ├── tailscaled
   21M   ├── meli
   21M   ├── tuiarchiver
@@ -160,11 +160,11 @@
   15M   ├── termshark
   14M   ├── s5cmd
   14M   ├── tinja
+  14M   ├── bleve
   14M   ├── sysbox-runc
   14M   ├── yazi
   14M   ├── hednsextractor
   14M   ├── netmaker
-  14M   ├── bleve
   14M   ├── godns
   14M   ├── certwatcher
   14M   ├── bin
@@ -210,7 +210,8 @@
   11M   ├── tailscale
   11M   ├── jqp
   11M   ├── lazydocker
-  10M   ├── coreutils
+  11M   ├── coreutils
+  11M   ├── fx
   10M   ├── git-lfs
   10M   ├── cheat
   10M   ├── sshportal
@@ -225,8 +226,8 @@
   10M   ├── runc
   10M   ├── certstream-server-go
 10.0M   ├── katana_staticx
-10.0M   ├── orbiton
 10.0M   ├── vfox
+10.0M   ├── orbiton
  9.9M   ├── tut
  9.8M   ├── gotty
  9.8M   ├── gitql
@@ -251,6 +252,7 @@
  9.3M   ├── vultr-cli
  9.2M   ├── sttr
  9.1M   ├── agg
+ 9.1M   ├── pping
  9.1M   ├── csprecon
  9.1M   ├── mubeng
  8.9M   ├── ksubdomain
@@ -263,7 +265,6 @@
  8.7M   ├── cut-cdn
  8.7M   ├── ddns-go
  8.7M   ├── bluetuith
- 8.7M   ├── pping
  8.7M   ├── oha
  8.7M   ├── gocurl
  8.6M   ├── vproxy
@@ -474,8 +475,8 @@
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
  4.3M   ├── knoxssme
- 4.3M   ├── bbtargets
  4.3M   ├── twingate-connectorctl
+ 4.3M   ├── bbtargets
  4.3M   ├── hurlfmt
  4.3M   ├── tahm
  4.3M   ├── jwt-hack
@@ -500,10 +501,9 @@
  4.0M   ├── ssh-agent
  3.9M   ├── fd
  3.9M   ├── pfetch-rs
- 3.9M   ├── fx
  3.9M   ├── overmind
- 3.9M   ├── gojq
  3.9M   ├── twingate-notifier
+ 3.9M   ├── gojq
  3.9M   ├── dns-doctor
  3.9M   ├── mqttui
  3.8M   ├── validtoml
@@ -519,8 +519,8 @@
  3.5M   ├── kakoune
  3.5M   ├── just
  3.5M   ├── bandwhich
- 3.5M   ├── rust-parallel
  3.5M   ├── twingate-client
+ 3.5M   ├── rust-parallel
  3.4M   ├── bingrep
  3.4M   ├── fzf
  3.4M   ├── passdetective
@@ -714,6 +714,7 @@
  204K   ├── nfs-cp
  200K   ├── nfs-stat
  196K   ├── nfs-cat
+ 192K   ├── netstat
  192K   ├── linuxwave
  192K   ├── asn
  184K   ├── ping
@@ -743,6 +744,7 @@
   76K   ├── cronie-cronnext
   68K   ├── cifsiostat
   64K   ├── binfetch
+  40K   ├── jsmug
   36K   ├── pipetty
   36K   ├── ansi2html
   28K   ├── apk.sh
