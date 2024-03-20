@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "285.18 kB",
-    "ModTime": "2024-03-20T03:37:54.646372690Z",
+    "ModTime": "2024-03-20T06:35:12.170169874Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3172,9 +3172,9 @@
     "Size": "40.14 kB",
     "ModTime": "2024-03-19T05:55:30.159390200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jsmug",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "c3badb954eeee9bf059fad0e2c6a3521025b47d9eb60fa6d17445e16cd1dc208",
+    "SHA256": "8695f8f062b7baa100f5cf2d6d2083f316f1ac99f3525943148cf1d25a50b586",
+    "Repo": "https://github.com/xscorp/jsmug"
   },
   {
     "Name": "just",
@@ -3883,9 +3883,9 @@
     "Size": "193.68 kB",
     "ModTime": "2024-03-19T05:37:00.487563100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/netstat",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "f5f5c7a8a3ca6122215b8503195a583fdc240b188b73b710ec55198aaa701551",
+    "SHA256": "5d2ef7f0668ce75ee1d796e0c541605c91ddb8636931be0cc6b11083118181f3",
+    "Repo": "https://sourceforge.net/projects/net-tools/"
   },
   {
     "Name": "nfs-cat",
@@ -4264,6 +4264,15 @@
     "B3SUM": "125cee5099c02b531c995176b60a2a4ff17621dfa8f13f8ef97bb1cc728802ea",
     "SHA256": "350201b608c61af7395ce9da949e004a781be0e4043b810a13a1808f346b7d11",
     "Repo": "https://github.com/iputils/iputils"
+  },
+  {
+    "Name": "pingmole",
+    "Size": "7.59 MB",
+    "ModTime": "2024-03-20T06:23:30.001919200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/pingmole",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/norskeld/pingmole"
   },
   {
     "Name": "pipetty",
