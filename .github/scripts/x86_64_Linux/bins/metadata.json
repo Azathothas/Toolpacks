@@ -2007,6 +2007,15 @@
     "Repo": null
   },
   {
+    "Name": "gosmee.sh",
+    "Size": "1659 B",
+    "ModTime": "2024-03-20T09:08:32.504341947Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gosmee.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "gost.sh",
     "Size": "1656 B",
     "ModTime": "2024-03-19T18:33:27.411800702Z",
@@ -2502,6 +2511,15 @@
     "Repo": null
   },
   {
+    "Name": "jsmug.sh",
+    "Size": "2692 B",
+    "ModTime": "2024-03-20T09:08:32.496341857Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jsmug.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "just.sh",
     "Size": "1646 B",
     "ModTime": "2024-03-19T18:33:27.411800702Z",
@@ -2927,7 +2945,7 @@
   {
     "Name": "metadata.json",
     "Size": "162.54 kB",
-    "ModTime": "2024-03-20T03:12:52.901541121Z",
+    "ModTime": "2024-03-20T06:13:02.942395943Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3118,6 +3136,15 @@
     "Size": "2130 B",
     "ModTime": "2024-03-19T18:33:27.415800702Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/netmaker.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "netstat.sh",
+    "Size": "1947 B",
+    "ModTime": "2024-03-20T09:08:32.504341947Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/netstat.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3406,6 +3433,15 @@
     "Size": "2480 B",
     "ModTime": "2024-03-19T18:33:27.415800702Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pier.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pingmole.sh",
+    "Size": "2672 B",
+    "ModTime": "2024-03-20T09:08:32.512342035Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pingmole.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
