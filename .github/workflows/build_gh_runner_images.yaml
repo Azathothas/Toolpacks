@@ -36,10 +36,12 @@ jobs:
           DOCKER_TAG="v$(date +'%Y.%m.%d')" && export DOCKER_TAG="$DOCKER_TAG"
           echo "DOCKER_TAG=$DOCKER_TAG" >> "$GITHUB_ENV"
           #Copy dockerfiles
-          cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/ubuntu-systemd-base.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/aarch64-ubuntu.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/x86_64-ubuntu.dockerfile" "/tmp/x86_64-ubuntu.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/startup.sh"
+          mkdir -p "/tmp/DOCKERFILES"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/alpine-builder.dockerfile" "/tmp/DOCKERFILES/alpine-builder.dockerfile"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/DOCKERFILES/ubuntu-systemd-base.dockerfile"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/x86_64-ubuntu.dockerfile" "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
+          cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/DOCKERFILES/startup.sh"
         continue-on-error: true
 
       - name: Set up QEMU
@@ -57,11 +59,25 @@ jobs:
           password: "${{ secrets.DOCKERHUB_TOKEN }}"
         continue-on-error: true
 
+    #https://hub.docker.com/r/azathothas/alpine-builder
+      - name: Docker Build and Push (alpine-builder)
+        uses: docker/build-push-action@v5
+        with:
+          context: /tmp/DOCKERFILES/
+          file: "/tmp/DOCKERFILES/alpine-builder.dockerfile"
+          platforms: "linux/amd64,linux/arm64"
+          tags: |
+            azathothas/alpine-builder:latest
+            azathothas/alpine-builder:${{ env.DOCKER_TAG }}
+          push: true  
+        continue-on-error: true
+
+    #https://hub.docker.com/r/azathothas/ubuntu-systemd-base
       - name: Docker Build and Push (Ubuntu-Systemd-Base)
         uses: docker/build-push-action@v5
         with:
-          context: /tmp
-          file: "/tmp/ubuntu-systemd-base.dockerfile"
+          context: /tmp/DOCKERFILES/
+          file: "/tmp/DOCKERFILES/ubuntu-systemd-base.dockerfile"
           platforms: "linux/amd64,linux/arm64"
           tags: |
             azathothas/ubuntu-systemd-base:latest
@@ -69,11 +85,12 @@ jobs:
           push: true  
         continue-on-error: true
 
+    #https://hub.docker.com/r/azathothas/gh-runner-aarch64-ubuntu
       - name: Docker Build and Push (gh-runner-aarch64-ubuntu)
         uses: docker/build-push-action@v5
         with:
-          context: /tmp
-          file: "/tmp/aarch64-ubuntu.dockerfile"
+          context: /tmp/DOCKERFILES/
+          file: "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
           platforms: "linux/amd64,linux/arm64"
           tags: |
             azathothas/gh-runner-aarch64-ubuntu:latest
@@ -81,15 +98,16 @@ jobs:
           push: true
         continue-on-error: true
 
+    #https://hub.docker.com/r/azathothas/gh-runner-x86_64-ubuntu
       - name: Docker Build and Push (gh-runner-x86_64-ubuntu)
         uses: docker/build-push-action@v5
         with:
-          context: /tmp
-          file: "/tmp/x86_64-ubuntu.dockerfile"
+          context: /tmp/DOCKERFILES/
+          file: "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
           platforms: "linux/amd64,linux/arm64"
           tags: |
             azathothas/gh-runner-x86_64-ubuntu:latest
             azathothas/gh-runner-x86_64-ubuntu:${{ env.DOCKER_TAG }}
           push: true
-        continue-on-error: true        
+        continue-on-error: true
 #------------------------------------------------------------------------------------#
