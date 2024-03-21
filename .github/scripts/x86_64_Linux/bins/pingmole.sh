@@ -21,18 +21,39 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-     #pingmole: CLI that helps to filter Mullvad servers and pick the closest one. 
+     #pingmole: CLI that helps to filter pingmole servers and pick the closest one. 
      export BIN="pingmole" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/norskeld/pingmole" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/norskeld/pingmole" && cd "./pingmole"
-       export RUST_TARGET="x86_64-unknown-linux-musl" && rustup target add "$RUST_TARGET"
-       export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
-       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
-       rm -rf "./rust-toolchain"*
-       docker run --rm -i -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:x86_64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going 
-       sudo chmod +xwr "./target/$RUST_TARGET/release/pingmole" ; cp "./target/$RUST_TARGET/release/pingmole" "$BINDIR/pingmole" ; popd > /dev/null 2>&1
+       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+         source "$HOME/.cargo/env"
+         export RUST_TARGET="x86_64-unknown-linux-musl"
+         rustup target add "$RUST_TARGET"
+         export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+        #Build
+         git clone --quiet --filter "blob:none" --quiet "https://github.com/norskeld/pingmole" && cd "./pingmole"
+         echo -e "\n[+] Target: $RUST_TARGET\n"
+         echo -e "\n[+] Flags: $RUSTFLAGS\n"
+         sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
+         rm rust-toolchain* 2>/dev/null
+         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+         cp "./target/$RUST_TARGET/release/pingmole" "/build-bins/pingmole"
+        '  
+      #Copy 
+       docker cp "alpine-builder:/build-bins/pingmole" "./pingmole"
+       #Meta 
+       file "./pingmole" && du -sh "./pingmole"
+       cp "./pingmole" "$BINDIR/pingmole"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
