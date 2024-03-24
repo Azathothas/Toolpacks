@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "285.75 kB",
-    "ModTime": "2024-03-24T06:29:38.895622709Z",
+    "Size": "285.97 kB",
+    "ModTime": "2024-03-24T09:24:38.315724064Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2434,9 +2434,9 @@
     "Size": "27.94 MB",
     "ModTime": "2024-03-24T08:08:36.465059200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gitpod",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/gitpod-io/gitpod"
   },
   {
     "Name": "gitpod-cli",
