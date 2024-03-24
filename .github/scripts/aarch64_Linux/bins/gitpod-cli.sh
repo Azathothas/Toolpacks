@@ -25,9 +25,15 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="gitpod-cli" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/gitpod-io/gitpod" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build    
+      #Build
+       #gitpod
+       eget "https://gitpod.io/static/bin/gitpod-cli-linux-arm64" --to "$BINDIR/gitpod"
+       #gitpod-cli (Used Inside a Gitpod Workspace)
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/gitpod-io/gitpod" && cd "./gitpod/components/gitpod-cli"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./gitpod-cli" "$BINDIR/gitpod-cli" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
+       cp "./gitpod-cli" "$BINDIR/gitpod-cli"
+       cp "./gitpod-cli" "$BINDIR/gp"
+       popd > /dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
