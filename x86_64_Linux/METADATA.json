@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "285.75 kB",
-    "ModTime": "2024-03-24T03:25:07.673850013Z",
+    "ModTime": "2024-03-24T06:29:38.895622709Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2428,6 +2428,15 @@
     "B3SUM": "f79b00f60405aaa6f364732c83377ac694de8a44d64dcd86116ec6a8af889c6b",
     "SHA256": "589dd82cf2dd27234598809eee8141f918d7f0e2d485329d31d8ddedba67b971",
     "Repo": "https://github.com/gitleaks/gitleaks"
+  },
+  {
+    "Name": "gitpod",
+    "Size": "27.94 MB",
+    "ModTime": "2024-03-24T08:08:36.465059200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/gitpod",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "gitpod-cli",
