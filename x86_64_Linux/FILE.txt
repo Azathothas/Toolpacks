@@ -1,4 +1,4 @@
-./7z:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=0fde7a0bcee7a1d2315aa285a223cb83f2d7178c, for GNU/Linux 3.2.0, stripped
+./7z:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=51a27cee291de7f2415e9cf0f07b250ab374f59e, for GNU/Linux 3.2.0, stripped
 ./act:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=mjXimVth6QdY8hL9ZiZT/kwqWPbpZ3HKJtqF0W-8w/6wky3_gYEO46-Zw_nCdg/L9PjEGSCDUOeBg-8ESo9, stripped
 ./actionlint:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=3rVVg11ksZTH1Ma262Yb/xxeG_VZZ8wIhZx-J2bx_/HIy1Ujyi6fWiw3YKazAg/4cNIBi6zV9OyEAxoaTCO, stripped
 ./age:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -30,17 +30,17 @@
 ./assetfinder:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./assh:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./atuin:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=5c1c58f41433ccb75c1d32d17462ce1b92c3ba51, stripped
-./awk:                             ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=b67fdf7d3ab92634638410ba730b130ffac748ac, for GNU/Linux 3.2.0, stripped
+./awk:                             ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=41dfb70c5f4b337a629058487bf977c2f469de72, for GNU/Linux 3.2.0, stripped
 ./aws-nuke:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=vtrXysJZk_VIQCnIGzg8/kMWvWDAMaQEXEVhYYTI9/fB9jq8HeCO5i9Z9bLJlG/idcTECaiys-zH5Er7Nga, stripped
 ./axel:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./b3sum:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=e8842b431cd88f9ac1aa479510099285ca872d00, stripped
 ./bandwhich:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=c38e640f3a054070a9ccb376059e3598f16d15dd, stripped
 ./bat:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./batcat:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-./bbscope:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=HDHqm48YvOHt9Lnvt4Mc/SqQKl8OGiC7WEHxst2kY/zYH9uHBHxIvhuGBE0M_1/wUvz97RUjdldNBEJEwfl, stripped
-./bbtargets:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=2rwTC74D5OcAYuruijs4/E87ZPtkJbe4_QU0jhopF/Xng_2BrLGfYyUph6rhA7/vUAvdCC_y_JrODM-50nT, stripped
+./bbscope:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=xFmVtry_peGVdJb7oFZg/TVCLLEVZOGrdYy0nCPVc/0Vb8tIHtBF3diAEHTfTV/i5URZwbA6mOSPvdtKMqd, stripped
+./bbtargets:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=WZQszleaBZwTSSJvtZnQ/i2gnz6d4_QoW4lnfRURq/WpTrALkN1VfJ4FVM3vpw/fV1tJCrWIErfltSu_XDd, stripped
 ./bdl.sh:                          POSIX shell script, ASCII text executable
-./bearer:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=997aacbb91d4112c9c41d6c6bfc6fc699038be42, for GNU/Linux 3.2.0, stripped
+./bearer:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=c5df961388d01c41a4ab294d5ce94b8123a34a11, for GNU/Linux 3.2.0, stripped
 ./bed:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=TQinsL1F8nqolmnEpQYE/uxNSXlYgrE01oLpQutcP/mbcCCDynsLzJ_X7xXIGj/yKwouuqkTBFmWgXmZ8FB, stripped
 ./berty:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=7e41037ba1d5dc5e7cbbc3588155fb5217d3d4ed, for GNU/Linux 3.2.0, stripped
 ./bigdl:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -48,7 +48,7 @@
 ./binary-security-check:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./binfetch:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=b02233d75a5cfd90dbf44833d7dbf4b3a3e0f924, for GNU/Linux 3.2.0, stripped
 ./binfetch.cfg:                    ASCII text
-./bingrep:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
+./bingrep:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./binocle:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./bleve:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./bluetuith:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Z0ex_Rl5k395f0vSWcCK/90XcsJbNTDQ2pLb4CUZo/e7DgiubPEFW3xd_90Cj6/8nS6oAM8f8i5jr1NxI1b, stripped
@@ -83,16 +83,16 @@
 ./cfssl-newkey:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=tFUWTpTOlLFBaOMtd2E7/v0elMqboMNv_Gfy2AOUc/fRtfVI2l-hQKKRs8nQzy/1nAhf-9L5U6lqf4q_Jtc, stripped
 ./cfssl-scan:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AawGuvt1zG7MBtLufuW3/aBZMB21p4Y1gy6EH8rCH/8yqOudHaH5lcnWeer5TF/oDPtjnrBrHRUltE_Uu00, stripped
 ./cfssljson:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=42s3xrTYxVfM9Bjuu2TB/W7GyWNYD3hWr5szw0Lx6/OxPSrH2k8KvrNojZ601D/JQGfcKMu3fG-RVGwtNSs, stripped
-./chainredir:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_LW_5aUUr8wrQCO2KFlq/QtBuJ1zncKV7EcirM1Il/gCPAcBxOCdwk7G4f5s65/RToIXFlBDEs0r4KX75P-, stripped
+./chainredir:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=tfDRKCykGIs1tCFT7mpP/e891ukim9q9lcxK-YhHk/tXVwRna8Wklf2LMHuhvM/T8nuPKiu5-pnYWvENwiW, stripped
 ./chameleon:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./chaos-client:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=T8DTONBdsUtPIldf9cAg/byHaMDZJ6PR3gU44tAXH/hxqSWmd7clbqGrwHE3Jr/9YZVsOXpX3uUQAPiSQtU, stripped
 ./cheat:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./checkbypass:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=I3oTmxprLRfyUaBd8aFe/ofYjOjnQfKUqG5aX18F3/ucTUeps2Gva6K18XlXhi/Tr2zl3U_9rB_oHUkzfR0, stripped
+./checkbypass:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=KFA_BVm_vCjWF8yRmkdF/Pc8m9d42ATwJZmBnEjWC/girwkKcwFnM1N7UoTDGk/UOHzLB-ll440iHOqKIuY, stripped
 ./cherrybomb:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ./chisel:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Vj2dZtwAoQAnWw0Bx2Z6/LLhyF0FZOF_WFQmGQ15T/FZVs4pG8bg5V4LUlZY9Y/lqbm78RzOj-QEFoHZKsQ, stripped
 ./cifsiostat:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./circumflex:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=tGJXKHhpeajWCNKjWOa2/zooK3NlkNVCS-RqAOxV_/EaRQF1NK9_wBEa6TlRbK/hr6U0gpvaqidZfEHr1O2, stripped
-./cleanpath:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=u05nkx_4KkhGNkScDMVg/JK76y1a0cetxyASufPDO/qRwW4fYy4euOjCtR6ZzX/E7ubLQQk7FFWifb9DCfA, stripped
+./cleanpath:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Z_S7MiqLS_cN3maSqaWq/NqYud43tHM6HTqL_Rqgp/1iROs3HSZTWbeZCyFzuW/UgRs3m8EmMdJjtEZi5gR, stripped
 ./clipcat-menu:                    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=6137b96e39f7f172386728ad77c5666260b2151b, stripped
 ./clipcat-notify:                  ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=34f74ea5205bf290168f95e78a3ec65cd9de7538, stripped
 ./clipcatctl:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=733492d82a52faf65104a2f2f17028d80c96cbeb, stripped
@@ -152,15 +152,15 @@
 ./dnstake:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./dnsx:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=QRvuG8Sx7WaMup0R2yRA/1N-sGtiJkn4bxT-kbXH6/ieEf797DqXx8qMcWq8Y9/QYVdSWKyp0_W7PJ2CueV, stripped
 ./doas:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./docker:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ODoOatKeGN43_bd5ybiq/qTZ3Zvpkc1BpeWUqlB-t/uW0mzcetAT93nXXnoYMr/D45D_WjrsiAsfA_lSM5K, BuildID[xxHash]=147bfad80a92ede6, stripped
+./docker:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=MOZbFx24R8Zsq-Ph9rkn/Uks5mk7HOM-dayu7ZdAb/bqdsZ6tXsWn3ehXLSsza/41rnZDMhzbGzHZXzEcHd, BuildID[xxHash]=085c0bdac7842ca0, stripped
 ./docker-init:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=15618000c1dfeeb8ad064fe97fdd930410362101, for GNU/Linux 3.2.0, stripped
-./docker-proxy:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Fm59mo6Xy1XoAEjuhnCa/RdJ5zqE70B5QAkEObcY5/5gHLzKl4HEkRZWBe_EDI/8Z_YvgX0uGZwYOFxGNZU, stripped
-./dockerd:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, for GNU/Linux 3.2.0, Go BuildID=0KoIXCbRjVtJkIUZdMQP/KhuefFGjCh0UGxhB6IB7/R_fSOpGOFArGyvc1Gpfj/N-xYBxqUuwmaCg_k8fuk, BuildID[xxHash]=f07633b4b5aecda5, stripped
+./docker-proxy:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=-jg_eEy4k9uuV1WwbzjV/FJXa330X7zga9MIZP_x5/5gHLzKl4HEkRZWBe_EDI/ZxzsB-i6hM_Gk7Qtyy6h, stripped
+./dockerd:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, for GNU/Linux 3.2.0, Go BuildID=JjATNC8O9cGk2AAd51Cr/2kFuMGR5wKjWKCCpe9Hh/7uWJouqmXOPn8iaLwint/DHjyiIfzDhLkWr2IDhq6, BuildID[xxHash]=ef9924f84ff8d907, stripped
 ./dockerd-rootless-setuptool.sh:   POSIX shell script, ASCII text executable
 ./dockerd-rootless.sh:             POSIX shell script, Unicode text, UTF-8 text executable
 ./doggo:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=eRqeGihdR7EfHdvrQV9m/f5dPcksIIL3Xt5eGtK4v/nDW2bzVBksmlsV0C2sUA/q2bSKqNYDK85pw4Nwgsw, stripped
 ./dontgo403:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./doomxss:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=C2z7RkhVWxICS7Gk_5Tp/NfvF5SEn_wkRlBNsQcyZ/BNxYDfl41qOigcXz4YzO/IQrieQx0_qPnknOIPrST, stripped
+./doomxss:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=hqwASS7V8Uma0BXIJ4O9/Ooo1XLYdIYCotwbHqVLP/OwVNtxQvIAd1HlVdYYMx/EtWCho9IFj_cdecnm-MX, stripped
 ./dos2unix:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./dotenv-linter:                   ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./dperf:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -176,15 +176,15 @@
 ./dura:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ./dust:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./dysk:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-./eae:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=L1BjjAf-trLXhhNMuYa3/3xuDbkkDstb8hnUNXcV_/o3Ot4tOS3OouGGWQ_Esr/BdugoHd2S3w3b1B6-fxS, stripped
-./eah:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=q7oKNH9rqgntxPnrCkev/zyAxaOwZQc3wq2IFqdb5/WWNe4MZ6auht2-mnI2oq/gOQ9xg__2bgnn3CTzrWt, stripped
-./eap:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=KLMdD5Y7S-jtZ80mEPOq/XqkB9JCOApwbcj4fr9fS/smc3vzVzFPJCqF-onnfx/IotzVgfRAv39rarN8La_, stripped
-./eaparam:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=31pVgcKVRwiWCVTE-2eh/dUkSc2l9tyGxWV4nvHWE/OzX_GdbkaHVTEbTokLpg/ASniHNjBQeCia4dsyWEF, stripped
-./eapath:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=lY7Wp3qQNaoRHrHAjAyM/5T1X4txVl7ueYRO9yYNs/oELHMFamWR_LExgQ0bxM/8TRhBjboLjAS0UN0fIdR, stripped
-./earh:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=OypVQSmEc56xiyf72bRu/PM8em-fOsx0SVmICN258/RM05ZLCf-wE65d-rDmgi/9AfCeTdNOHN6C0gPjU9a, stripped
+./eae:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=3lyeTdMJYF9al5o307bk/h1F-cq-lFqvCoDRKs2RF/3qim7eLy7gsPNMjpqO3N/i2jynByDrZiodUH0q8tU, stripped
+./eah:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=52FO8MfMGybkwVjyaANt/d2hX7cJB1xqTeLbNblEd/uUekEjtydIwVGyC5C4qu/8Z6GP9vVyT6_m8VKbl0-, stripped
+./eap:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=NlPQqx5iFmaTi0ePF7ym/qzQi25D1xhEAUhjsA7ug/AtA3jLIg7YDKpunXRhDf/mwugHyVTAjqvULFQpceA, stripped
+./eaparam:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=L4PwKnUuVZIanuXD01VY/mYb-ypb8DaItZ0cnZvjh/Egec0dr7oD9ZSytVsgV3/97-cBczRVU_sOA4x1_dV, stripped
+./eapath:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=EQ5z1aS193funDrfw19R/J5moQhRm0BYrq1Rcvbhf/SVF9Z11KhJvJXsQPzrHE/2NEpjxaG9WSGXzpsGGL1, stripped
+./earh:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=1xmTNXqtPPJSY-F9cbgf/aWC8bT9EBU88SUCp9eIQ/NC4cpTskLGQpy_ISqIsJ/2eY7LxVybE5oeybZErhc, stripped
 ./ecoji:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./edgevpn:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=eeSmrNJukQXP27GLUtMU/5SbKwKYo_iTdW72ybEZP/0WJns8WQ_K4_f5CwJwNP/l6tXQsg8ZPLhRCg0U64J, stripped
-./eefjsf:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=B2L_Tln5o5ekwNUX2Ve-/tiFCG_kmf7-4389Fj7h1/a2-alIbbNxTDJOXbVYPw/bRUV0pxdQyOJ2CiXzG3S, stripped
+./eefjsf:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=t3jUBa6vrEb4lC3nEHWH/pZklKUL_Pg1_kNrexbey/wLihozZKxO_HGtPmUX6s/RtzCS19MMMnrPa5qysI4, stripped
 ./eget:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=lMFc6jXPpNEPKDTNcfI8/BysOTXz8jS9b1WPBQVD4/phqDcYykcecb8AHac6Ml/wRa3U0vlEN4eCCWeE6mT, stripped
 ./ehole:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./ein:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
@@ -197,8 +197,8 @@
 ./enola:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./enumerepo:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=BEISBsPVPHVPQfHd6JBd/0NJBoO6MD2VshrDTZ7Ce/oxBXPjsMUsKYh2awTaHs/CGLawo7TgRpxVkdspcBR, stripped
 ./epoch:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./etcd:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Ss-bAKDXLRFIOXsWL33Q/0hLXxRJkBSO0ueY7EA0U/DvNtVB6Xk065XsgMT4U6/v1BH7JN4YfbnIn52HRti, stripped
-./etcdctl:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=d89uAhyX-c46b8HdDrrw/x-m2fpfk30hT86gIZznQ/z3RCFGsTwqJnYS78G_8O/2fbrsjo4cABSXDZIZgG2, stripped
+./etcd:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=xpOvrupeSiINp9darzn-/-h0w8Ja9nq1bjpshQxuH/Pt5uRg_PLjD085cqFfpa/p44uEK74SMZ8rZiyDE9A, stripped
+./etcdctl:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=xyop_gIIyUKDi3WigLu4/cQ_zGIqu3Yi7karimvxS/wOGl3btSrZ4ZjvWYUryC/Vvro0RefBzC0cq1KEdw1, stripped
 ./etcdutl:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=wyJPvUel7l-QdX-54dJB/Nz46cW5kbgWd-C-NmAOb/Wy1-VDW71h5P6DiAtCcT/0NtEVzoZzYuB-F4sUmES, stripped
 ./exa:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=6389d0843e1c09a2f29de132cd49d3fe5d1c0b48, stripped
 ./exiflooter:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -234,12 +234,12 @@
 ./gau:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gdu:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=7cxBXIlvYcl2xhpSSV57/UepjAnz7rPkZvbwC37GI/me23CrMYxr4QD1vL6Ifq/RBd7ZYtuZoc7X7M0jGvN, stripped
 ./genact:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), statically linked, no section header
-./genscope:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=iV953s96od4MRfgljFjl/dr5nqL-TCsSub95X-jTV/qPp9YbyPyuhQMyZjdu4s/v97rlRVMX3vte9vbwaad, stripped
+./genscope:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=BnkBqx65XeQ5Dq7kg5Vk/_7nB8l50KEUtV_IVmYEA/DA73iW7yk4n7PSEjq37x/2C9FXVHX7Q3ExW_OeFaQ, stripped
 ./getJS:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./getghrel:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Y9n9UigObGeOZSOlQD0x/4Cy96tSU8ePxlJOayg7W/xETJze7e4ezPjP-gWYP9/VNUemiSILhpCPow2Tsip, stripped
 ./gf:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gfx:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./gh:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=1F2MYHlEKPsDaFRA9Zmu/azGGjFR_3G2eaoc59Mpw/YIxmptJgbcY3Sv2Dbaym/iW0i4oShof_xtX39gO6Q, stripped
+./gh:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=vpJ3PCSFXSIpEIqsz95V/vSQpPODJkx9J07WuGbCe/-xJGe--Zk4W55T0F923A/BQ3_WW3aiwaUcf7AKmYW, stripped
 ./gh-dash:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=iyCf6BpTJycYvSAl2V0A/SrthLCOeo2FKggl3H11A/-Ze5_vf3NDcxGWscesep/UCCVlopATt6pzhnxD_s5, stripped
 ./gip:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ./git-checkout:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -250,17 +250,18 @@
 ./git-pull:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./git-sizer:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./git-tag:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./git-xet:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
+./git-xet:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./gitdorks_go:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./gitea:                           ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=0f34a950d8f01cb3ba721d1acf4e10434164f85c, for GNU/Linux 3.2.0, stripped
+./gitea:                           ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=68c3dbc2d84b43c005df1c5b9a56ea81c7254638, for GNU/Linux 3.2.0, stripped
 ./github-endpoints:                ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./github-regexp:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./github-subdomains:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gitlab-subdomains:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gitleaks:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=NnFTS0JffJkZHgFYM79v/K4I9StTrwfe2RIt6yZfY/9NXHSQxAE8Ez7nTeSlAT/TobeEDWZBDCN0XuVKUDB, stripped
+./gitpod:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=7-UesNGj7LIKYsw1disJ/m_u6tQVV5bdgm8p3G0vo/lC2TUIbeU0soNpisqXWl/3g5zJoO8vePu778tWx9G, stripped
 ./gitpod-cli:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gitql:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=OVSJDx-npxbk6cSkAbys/pWWulbgbZDSmzfOT2ShR/DTtkcx8ZatU79yW6luo-/fnHs7OCcTvsZmj9Le7o3, stripped
-./gitui:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=58d593ceecb11c172e690cebdafadd3e2bca2c3a, stripped
+./gitui:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=ebeaf1b604239d27ee51886c7c2066d27da65092, stripped
 ./gix:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ./glow:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=cR1g31PNt2RUevGRNKwH/fquaEPk3aBFkT_bx_2N3/v8XXAilimyyQAgGz8R6v/HFJlyAwu3DDC-QeGDfRF, stripped
 ./go-simplehttpserver:             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -275,12 +276,14 @@
 ./goop:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gorilla:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ./gosec:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=WSL7diP30l3-9wXyPVZs/ejDybhxdp3iKTrjG6MXB/FRVzUY004tw26_6HeCb4/Gwx6d__aoOTeFww2jIhh, stripped
+./gosmee:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=T-gRnxmVs9Gkr9-y_vVj/uw5dZCAmhJC7sz0ncQNU/sbPcfxir3iUoclAOvNjr/kvhInedceSykamLoUukk, stripped
 ./gost:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=INBPTVJ-SjJiWaxqKygl/sRufGGywXMD00Ao-TLnz/-vpw8TIHtDMQcEQ3efx7/nnR6q4ictV0EEY4aR_4h, stripped
 ./gosu:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=HZ-hv5F51RKPcxuFY83j/vFR1f-Z8f3M5OYH8q2IJ/qd1RcRJBNnTiPzwnahsX/aAlQvrRgZnRZodvrbEmB, stripped
 ./gotator:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gotld:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ytBffO6jSqazCidwAFPi/JbYaRB88mUzahV1oroY2/VIih5KC5fE1mk_Ecw22H/ZpFa9WdTmL8FqweRi2KR, stripped
 ./gotty:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=bN1QaQCw1B50qcdCTqh8/_KnR6gcsQzE6QHwudVAq/H5M-mytT9ZjgOOD9vlpU/hTpE74dB7Rsl7VBSnkGA, stripped
 ./gowitness:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+./gp:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./gpg-tui:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ./gping:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./grex:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -290,7 +293,7 @@
 ./gs-netcat:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./gsocket:                         Bourne-Again shell script, ASCII text executable, with very long lines (384)
 ./gum:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./gup:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=TGOCM10Mo_t5aTVylmOp/6C_zKJ69YuJQtGqQWDxN/mD0CP4jbaWOibHCiTcks/rysxqYwU9w0t4_QECIsE, stripped
+./gup:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=TqxERuePg_YQJ2DTAIkN/ValHZcyrIFP5Amlhy9mg/vh4nf3REJw-awI7bK9_m/w7pllYGTAX9LFEZe4Iwm, stripped
 ./gxss:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=bin.ajam.dev/x86_64_Linux/, stripped
 ./hacker-scoper:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./hadolint:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header
@@ -300,7 +303,7 @@
 ./hakrevdns:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./halp:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./hardeningmeter_staticx:          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./heacoll:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=5OwpGGXmvigoZrrklJdr/CfdcUbalcjY3xaO_X-R7/anvFuNi4BAFqU5HrFhE2/YLbNhcrv3GMMIqEZWZZ4, stripped
+./heacoll:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_CBskmk4vcmMo2fx9Okb/mAUUQ7RbxljC8Jw_b53x/FstI2p7Lovt-vHmgz20e/Y-7QNMZjyM3SHLZywpLb, stripped
 ./hednsextractor:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./hexyl:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./horust:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -311,7 +314,7 @@
 ./httprobe:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./httpx:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ySje8nf8sxgnHZun00Do/g80B9RpvgmCgohgbBtOq/2wsFLamSKj6R-uC1SZTv/XVAwsu8uJNYz4KHkP57j, stripped
 ./hub:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./hugo:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9373f0d6c3b18f904bbb4e6353edb650917c605f, for GNU/Linux 3.2.0, stripped
+./hugo:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=3896b51b8ee542451fa1ba62c74906b39a5bc759, for GNU/Linux 3.2.0, stripped
 ./hurl:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./hurlfmt:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./hx:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -330,7 +333,7 @@
 ./istioctl:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Xv6vLlqwpbn3f8m2Ss4W/Cp8zy1hfjCQbFeOEWuY7/ZtXUYkSbDqMy8_xc4HbC/DLSrjwh5AbAiCOSpYKuD, stripped
 ./jaeles:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./jaq:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), statically linked, no section header
-./jc:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=09eae28c38885777069787f128cac1ca3a5584c2, stripped
+./jc:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e41f28c9f3cc7052576866b78ab58d496e51b97c, stripped
 ./jc_staticx:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./jira:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=JZAovJa6wKf_FCVpMVM1/pN-uUDnYzUUddWVMnLx7/AakNw1NowN7fQclHkQ0b/m6uc7Rdqyke0lJQ3IUP9, stripped
 ./jira-cli:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=JZAovJa6wKf_FCVpMVM1/pN-uUDnYzUUddWVMnLx7/AakNw1NowN7fQclHkQ0b/m6uc7Rdqyke0lJQ3IUP9, stripped
@@ -343,7 +346,7 @@
 ./jsmug:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./just:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=b83caa5363d3f7cd27e6f16e3dad4a6751e65a8c, stripped
 ./jwt-hack:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./k9s:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=BkAQtQVsmuFMMNeWZmpG/VslZac0yXSlYtBRZVYoD/alXV_7eov069PYFsRx-J/rvRbU-OXKlYEXH7r0VCj, stripped
+./k9s:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ZMybVRMlcVUcpsDBtBmI/0vCzcldWgNLc03IW_jiY/_cr0VTekb5TOHrfoLDnv/3gX4sVQpe4ETOIe8m1en, stripped
 ./kadeessh:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Xo93ogec64_sj0zuREVs/95pdSQpnjrjtJTIoJDPD/qK5bC00KR7abWHINCAn_/CIFX9NUnmaC2Xadd-WKN, stripped
 ./kakoune:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./kalker:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
@@ -352,15 +355,15 @@
 ./katana_staticx:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./killport:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./kmon:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=e77c748354e98075f44afca8f633d87161132600, stripped
-./knoxssme:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Y06Pyyp7IhQ5bB6fAX1V/a65jav2k5QnmiydWVFa-/BnNUUGgAjqXfhjvII7xv/4s3jUQFmAht0U5W-IhYf, stripped
+./knoxssme:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=UsiwawpZir_ytcjYRTZs/ZQSczRmvVD92XrSCm_ST/5ycn7sSLenJtF_yMw3an/UvpXa7R733fMESKcRech, stripped
 ./kondo:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-./kopia:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Qr7FmMHANrnme1FeHTd_/2ie_PeVZcX_aI5iO2J54/Vw5VBr6FWDziscxXiEW9/cyNwYzxTccrAUyslrivS, stripped
+./kopia:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=A1oGaIw7aAQTadfSBRCv/i_TmlxAfLpDHZ-5ERf1t/uF8Yc_B579a6AnvFvDWo/Lt1-Fg6gBVWSeoxsEEX4, stripped
 ./ksubdomain:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=0e2f34dc274cbf6532d10016a83203c480832d51, for GNU/Linux 3.2.0, stripped
 ./ksubdomain_staticx:              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./kubemetrics:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=7v1CE0GIvi98qOe6QVLm/bngT-o7XeudY8bCRn-xl/36YPnue9ok9B5QxDcDBF/hGK4sOgW_zDtSFIBLj-E, stripped
+./kubemetrics:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=SVKAPUtkBI3xNe8WNfSN/dTo6KSyVD-YvGLmkSBki/M4ifdCi5NzQNAVTU9ZcX/9dfPUME4lBFrDKaj-fXk, stripped
 ./ladder:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=YcwhBmS0jnSG8S1UJkaZ/bwCChN-wUCW1xTsjnSmk/EaAs0_Nzz2wxEjWE19CO/DCD3pZs6hgRREp0yCkiB, stripped
 ./lazydocker:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=FKfriPjYGk6BQ-AwcFPU/3fXDdoXFE8kvrIKjMy7P/m5v-DNqW4daeH-cZf5Vy/T6RfRPHNUNJEUeI7R_WY, stripped
-./lazygit:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=EfbFyPprTRn4-5FmKHof/FTnRrR-oObRBU3bT9zhf/gFnNd9gWSJqZEC65Ry_v/c_dcbJ_NKWYSNJZZVILr, stripped
+./lazygit:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=VAB2C29LL9DJwUCa_98R/_eZninPl9NR3ITmcu9vx/3BT3gmz_hd88rvQ02YeC/r-6UWDeu1ONIVXmvFFnO, stripped
 ./legba:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=ec776ea2d70c5f429d879b05418ee5574ef53549, for GNU/Linux 3.2.0, stripped
 ./lf:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=2QPziFrj5Li97mP2IuIp/9ZZnwu6yIb3sbIQPdbtD/mkgdhjIX-w9r72Di6eBK/E0E-V1U9m1M7T7kJPQ4f, stripped
 ./linuxwave:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -377,7 +380,7 @@
 ./mabel:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./mac2unix:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./macchina:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
-./maddy:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=e58f0e315cea4b9bcda640bf4e517413fc3e6736, for GNU/Linux 3.2.0, stripped
+./maddy:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=b5023e49a80a9c8ae38d9e3838f95b4a1c495237, for GNU/Linux 3.2.0, stripped
 ./mailpit:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=-p1K-9BfxIYfVusOnuDo/zpebcVhb0EQPI03VlMfr/rD-lyp2O_gSNzj_wdWJc/P_eX0MbnJiMG-l3mF5_-, stripped
 ./mani:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=IkF1kSTNx34ZyZHrH5pp/ceUuRv6GRg485enmknFi/OwDHTgyJDNE2Mpc3tBkR/TmfnB5c2LgcuB5RbcBYV, stripped
 ./mantra:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -418,7 +421,7 @@
 ./neofetch:                        Bourne-Again shell script, Unicode text, UTF-8 text executable
 ./nerdctl:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=SDRATwG6LffojPof-gfy/Kram-MFGkvy57IXpw4GB/jQF3Idl8PzI4T0CnOW1E/gfrdJ6VYaYjkKtrt1SFh, stripped
 ./netbird:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=vZLSEHgA6_-WLd_LU_lU/FiIXC_61aR28H2UioF2n/mEejKomc9wPvsGBSHpPk/AbpggcSehMHjOQUz076Z, stripped
-./netmaker:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=ead209d72b7942678a81ddd043a2efed4e5d8251, for GNU/Linux 3.2.0, stripped
+./netmaker:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=0af642b4426b3ca014bb0e1018368e75877ef564, for GNU/Linux 3.2.0, stripped
 ./netstat:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./nfs-cat:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./nfs-cp:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -432,13 +435,13 @@
 ./nmap:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./nmap-formatter:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./nmapurls:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./nmctl:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8feffd7698583a03c752a9c816e93b42ddb75038, for GNU/Linux 3.2.0, stripped
+./nmctl:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=c22b154b4a9511941b1a99eccc27f600337b97f8, for GNU/Linux 3.2.0, stripped
 ./nnn:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./noir:                            ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=6cf76180470605ed05c3c311744f1f0b8cc2c0f5, for GNU/Linux 3.2.0, stripped
+./noir:                            ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=569588ce4e61fa3826b8f115d63b9fb9f7cc13c1, for GNU/Linux 3.2.0, stripped
 ./notify:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=mBHVWX_6pARDwV5Hjhbo/ZVnvGsXvcGLPup60Q40h/ZWcUUbYDhCb0MyEfQV66/fcgGgV10vN4QQ0BfW0MV, stripped
 ./nping:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./nrich:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), statically linked, no section header
-./nrp:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Hc5MT9sasmzR2lCKuVcY/jYglG_3tEP80jRNv16vZ/WU4AEPq9RbE1odPv7cwr/baEITAOy752EOZcNeY_q, stripped
+./nrp:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=1Qmsh8HPDrGmksWv1gkc/xUmeKPn0wbarLtBhxzsb/yI0YUlZH446D70cdWdGq/f04uZRm6OUivCYiMouAr, stripped
 ./nu:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=8f39111bf1ee406dcb0002e61c4a3691fd2261a0, stripped
 ./nuclei:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=PjiVwLJac4avUGhjS_aA/rvPuDymrR6xJTMltf0-_/odS3ieRKHtz9as0UsTSK/yjwuJs5Q_5rAdiXCTWZp, stripped
 ./nushell:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=8f39111bf1ee406dcb0002e61c4a3691fd2261a0, stripped
@@ -462,6 +465,7 @@
 ./pidstat:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./pier:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./ping:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+./pingmole:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./pipetty:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./pixi:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./pkgtop:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -489,7 +493,7 @@
 ./qsreplace:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./qsv:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=3ff896a7f1ebec55629563c4febbecbbef4b01fc, stripped
 ./quickcert:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./rapwp:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=2whGxZCMdQ_XsmPtoASA/_4b3K2ywGM0LrsiVDTqI/t0ohlIJ0iGaKmH9sNMG0/fGR_mihU86UWn8AhFXU0, stripped
+./rapwp:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=b9hnnRPFg8f-HGuxrGS-/Bw64qvcSgBhpGvCdkJ1X/3toJkicFW5bZtX5EZVD-/X5K9btkyZOnIfD9RXIQh, stripped
 ./rate-limit-checker:              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./rathole:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), statically linked, no section header
 ./rattler-build:                   ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=9af36271a03d560cd5600c21539d7aadb41bcab6, stripped
@@ -506,8 +510,8 @@
 ./rekor-cli:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=V-rcXDN0eo8g2wpWSkee/Egn0dDfRsb8Xzb_bXb9T/qVog5fU0M4osPDfSSoWg/_7GNcmnsueMdBTTNb7Qo, stripped
 ./rekor-server:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=-1VfdeK-FOABI3GjwJLl/QbyHeIeytGnyFX77ia2E/j0Cxn4UdWUdimktN3ptl/bpOgapxSNpKpmGYYyAzv, stripped
 ./relic:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./removehost:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=cseOtEq2ygmO1-H-O4Zn/gCSsD1R5YUS6gyOcye-U/0EFpZBLvNQ-1tHiPWvL4/6NaysR3mKk47gBPpUP5C, stripped
-./removepro:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=n00k4BCXsNwF02r0VSfd/mz5AmmHVAFjpXX_eJYTp/Vgx0U_esukcx9U13ed-b/-T7Qe8VFH-0m6l2wNW_x, stripped
+./removehost:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=K0ZG7HvhdTxFeV7ZDSem/SoIfFFkWBckPVRHbphh9/15a8--gOVc18NZEPMzlv/w5aodncP-avkxc3LYNhY, stripped
+./removepro:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Pk5wSZ05yim4BZsXVUzE/gKyEBbgxe5bXPpvpAoHM/BD7sL_B7K0OMuhkogoxb/vJNxSCUNR5UY8bFDq_-9, stripped
 ./reptyr:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./rescope:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./resdns:                          Bourne-Again shell script, Unicode text, UTF-8 text executable
@@ -527,11 +531,11 @@
 ./ropr:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./rospo:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=tZDzyK_dmzk8FSz31Npz/RapAsIqIIzSr4rSzNeih/1GsDYextPtXtZTpU1XPr/8kgYWz0T1E1OkEWQ42Fn, stripped
 ./rpaste:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-./rpfu:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=H6oAmWvyvnupo4CUndCD/G8pGrYz7Iq__KpWPPe6t/l82W4yiHOVJtGruNDFdY/rtFvkv7iT9C0Z0au0XiK, stripped
+./rpfu:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=p8Lx-tE6ozdpw4PaOsxq/YudHvceG4AFb-WZixPpZ/ju8bf0bXui5gFC6XwXfs/IYM-vWOMMWjpsS9qSQsI, stripped
 ./rqbit:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.16, stripped
 ./rshijack:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./rsync:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./rsync-ssl:                       a /nix/store/485y0kwxmvgkj8xs49h0597gbywq45vg-bash-static-x86_64-unknown-linux-musl-5.2p26/bin/bash script, ASCII text executable
+./rsync-ssl:                       a /nix/store/5ihnd1mc215ivglkiyli8v0drw31qdgd-bash-static-x86_64-unknown-linux-musl-5.2p26/bin/bash script, ASCII text executable
 ./ruff:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./runc:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=3e14d418bff5b66ccd3ea4c58034bfd8fb226098, for GNU/Linux 3.2.0, stripped
 ./runiq:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -583,7 +587,7 @@
 ./spk:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./spoof-dpi:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./sq:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=47662ba340393bac4d127c9027b5a2fd6a79a96e, for GNU/Linux 3.2.0, stripped
-./sqlc:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=56ca6a06f9f1fdeb2f1e8689328df88d84f31937, for GNU/Linux 3.2.0, stripped
+./sqlc:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=5e171f333fddc43d20158c440a095bbf7e11a226, for GNU/Linux 3.2.0, stripped
 ./ssh:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=70a3e2091358da4d5e8bf14414705e9383939f0d, stripped
 ./ssh-add:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./ssh-agent:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -617,16 +621,16 @@
 ./svg-hush:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./syncat:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./syncthing:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=PLgrVTCpCQ_e7D0-Ok0m/_yD2z4jXuFvnpbY3g089/Q4AScA0WiVTKg7xHceWu/vyWNoVDPJDoNVkm_cZ0R, stripped
-./sysbox-fs:                       ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=8d0af87d1ac7c19f42735af138a92ec95897dc28, for GNU/Linux 3.2.0, stripped
-./sysbox-mgr:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=lE-_-WyDYxkQmwLKjKV-/PibPmlCO99GKhp0FYzly/FqBCypXJWlu7cg7I5WbS/ra6i3CxhcdYv8fzRoCHm, stripped
-./sysbox-runc:                     ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=2265718d4dea0c6567ede9738cd3f9bfe286bab6, for GNU/Linux 3.2.0, stripped
+./sysbox-fs:                       ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=0bdda630c3bdeec8b2aed0f9f1ecdd2f84692321, for GNU/Linux 3.2.0, stripped
+./sysbox-mgr:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=V-fjl_KRDzEh7gFz5vnG/PibPmlCO99GKhp0FYzly/FqBCypXJWlu7cg7I5WbS/g1JbiRbKt3-iQ-Mh44l_, stripped
+./sysbox-runc:                     ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=eae72ae845f04d2c6184deb803c852427ef970ae, for GNU/Linux 3.2.0, stripped
 ./sysinfo-collector:               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./sysstat:                         POSIX shell script, ASCII text executable
 ./system-info-collector:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./systemctl-tui:                   ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./systeroid:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=a5a9f186f1005b9a9e4e425b9c7729a8252f9383, stripped
 ./t-rec:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=c9a5946383dec7318f46219e97080a2824cbae3f, stripped
-./tahm:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ruilF9NbYkGLeQHf0KEN/df1pGbGuQF9jrGPyTWlE/E05omNk4H1MOyxoqIYzJ/2Sbwi3UFUVgR7Xa5df8J, stripped
+./tahm:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=tNUG-xNPgm7ap92ABaUO/g9G_nE2kYx1fgQghwA2q/rBBahk2r716HuyiHGtAl/j4tuZClhaD7jf62gmBBL, stripped
 ./tailscale:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=URxTkTJjlxfRpixtPQmR/_hkDoWBDl3V2fFwVj6Zm/Y_pPCNwbDJGLV0JwLXHJ/1PBynFRCc8rmlgoP2SUa, stripped
 ./tailscale_merged:                ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./tailscaled:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=emBEr_j44xPxvChRL-eA/cy4G2JPOrDyh5e5woxhc/CDRd8eQOE24N9_dVOEwB/D-sxCtPJPM-Ia5a3PG36, stripped
@@ -636,7 +640,7 @@
 ./tavern:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./tcpdump:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./tdl:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=PXtU_BUqnJ6Gb3SSEQFP/xSpqZ5BHSKsu26XwjJMO/V9dlOOCJQ9Njxx9wGMl0/LNWUsgw6d8AvMZbLIB-y, stripped
-./teldrive:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=swWVLoPmZ8REPfexHKgf/H5IEiZkCZsWczgE4jBSA/cFpLRIYY9lm8BMcjBSJg/E5LGlDCRspn1iFjZRqCB, stripped
+./teldrive:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=KrUmR272knN1CakHqq6O/H5IEiZkCZsWczgE4jBSA/cFpLRIYY9lm8BMcjBSJg/LxaaXy1OFiCI5GrfapWw, stripped
 ./tere:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=804f1b1300c920d07d48df3658bb0ce106808a34, stripped
 ./termshark:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./tgpt:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -653,7 +657,7 @@
 ./tracepath:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./traefik:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=PVKZxNNKgeU6JpjNFmIH/sqyKhMZEBjb_Hu1Kz71K/CzKSlCSRrZUeOOmkLlJp/_PUZGXDC7qvaCyEigrbA, stripped
 ./trip:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-./trufflehog:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=etJ_DGT7aaCER-J4tD6w/4sLnnTWnHBqLH0s3ZhFi/KOkjlh-AQrUhS-kySrvi/SEcDo2WsvQvaCodnThw1, stripped
+./trufflehog:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=bpnbkVKHbbxx3WSK2ZjD/4zAVGx18pyCpT0zgcNoN/bVaF3JexoUEy0Xt8uuqx/bs2yy6h_ZFREuoZvGcyI, stripped
 ./trurl:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8e946e77d16175346d67ffac6be261d6a815c6ae, for GNU/Linux 3.2.0, stripped
 ./try:                             POSIX shell script, ASCII text executable
 ./tty2web:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -740,8 +744,8 @@
 ./xbps-uunshare:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=5d7db71c3bd92338c85d45506dd4af845a47e748, stripped
 ./xcp:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ./xet_staticx:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./xetcmd:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
-./xetmnt:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
+./xetcmd:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+./xetmnt:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./xh:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./xplr:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=050d08c2dc9e4d8ed82721b10ba69913e93d4eac, stripped
 ./xurls:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -750,7 +754,7 @@
 ./yazi:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./yip:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=brWTuoHngR1E2JWexAAb/4gX6Rvt7F38t9Y5k7nXu/oz6idxK-6jjk45SKw3IV/QtQLdOyReA8puzu8_odm, stripped
 ./yj:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-./yq:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ont-gSl2Y4yTfT3GMDqk/fON7eNwPs1nWfupg7UYX/TvZhvKn7KgfN8kaL4cHJ/w4JNe9-B4BKAkuI-Z6QZ, stripped
+./yq:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=x975XXDt8rPVz6VRFA4B/JzBv_aYYAlOp8GkjqUCy/x1KWlZBernBnWf4id-5J/kH4HaYQAlHYfiCZK3U-6, stripped
 ./z:                               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./z-tokens:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./zdns:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
