@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "286.99 kB",
-    "ModTime": "2024-03-25T12:22:46.863842811Z",
+    "ModTime": "2024-03-25T15:24:52.219977795Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4048,6 +4048,15 @@
     "B3SUM": "4ee6506061fbb1fe06407480d0b8eb4041972f8864e72af76bc3358a5497243c",
     "SHA256": "31ddd2cbffae3b62b01206c4fa8deaa750f313a60747c645d57b90be5cb16c14",
     "Repo": "https://github.com/hahwul/noir"
+  },
+  {
+    "Name": "nomore403",
+    "Size": "8.3 MB",
+    "ModTime": "2024-03-25T15:25:46.000282900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/nomore403",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "notify",
