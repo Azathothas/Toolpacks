@@ -856,8 +856,8 @@
   },
   {
     "Name": "cpu.sh",
-    "Size": "4360 B",
-    "ModTime": "2024-03-24T18:34:04.132925668Z",
+    "Size": "4387 B",
+    "ModTime": "2024-03-25T09:03:14.239971921Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cpu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1846,8 +1846,8 @@
   },
   {
     "Name": "git-xet.sh",
-    "Size": "3709 B",
-    "ModTime": "2024-03-24T18:34:04.136925668Z",
+    "Size": "3736 B",
+    "ModTime": "2024-03-25T09:03:14.239971921Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/git-xet.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3062,7 +3062,7 @@
   {
     "Name": "metadata.json",
     "Size": "168.75 kB",
-    "ModTime": "2024-03-25T03:04:28.823752601Z",
+    "ModTime": "2024-03-25T06:05:02.534512008Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3384,6 +3384,15 @@
     "Repo": null
   },
   {
+    "Name": "numactl.sh",
+    "Size": "2728 B",
+    "ModTime": "2024-03-25T09:03:14.243971941Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/numactl.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "nushell.sh",
     "Size": "1805 B",
     "ModTime": "2024-03-24T18:34:04.140925668Z",
@@ -3574,8 +3583,8 @@
   },
   {
     "Name": "pingmole.sh",
-    "Size": "3316 B",
-    "ModTime": "2024-03-24T18:34:04.140925668Z",
+    "Size": "3341 B",
+    "ModTime": "2024-03-25T09:03:14.247971962Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pingmole.sh",
     "B3SUM": null,
     "SHA256": null,

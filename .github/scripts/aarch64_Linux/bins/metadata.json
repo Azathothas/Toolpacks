@@ -3035,7 +3035,7 @@
   {
     "Name": "metadata.json",
     "Size": "167.19 kB",
-    "ModTime": "2024-03-25T03:06:59.162705086Z",
+    "ModTime": "2024-03-25T06:07:20.749284851Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3334,6 +3334,15 @@
     "Size": "1670 B",
     "ModTime": "2024-03-24T18:34:04.116925669Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nuclei.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "numactl.sh",
+    "Size": "2728 B",
+    "ModTime": "2024-03-25T09:03:14.215971797Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/numactl.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
