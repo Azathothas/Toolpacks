@@ -42,11 +42,18 @@ RUN <<EOS
   apk add gnupg --latest --upgrade --no-interactive
   apk add iputils --latest --upgrade --no-interactive
   apk add jq --latest --upgrade --no-interactive
+  apk add libcap --latest --upgrade --no-interactive
+  apk add libcap-dev --latest --upgrade --no-interactive
+  apk add libcap-static --latest --upgrade --no-interactive
+  apk add libcap-ng-static --latest --upgrade --no-interactive
+  apk add libcap-utils --latest --upgrade --no-interactive
   apk add libcurl --latest --upgrade --no-interactive
   apk add libdbusmenu-glib --latest --upgrade --no-interactive
   apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive
   apk add libncurses++ --latest --upgrade --no-interactive
   apk add libncursesw --latest --upgrade --no-interactive
+  apk add libpcap --latest --upgrade --no-interactive
+  apk add libpcap-dev --latest --upgrade --no-interactive
   apk add libprotobuf --latest --upgrade --no-interactive
   apk add libpq --latest --upgrade --no-interactive
   apk add libpq-dev --latest --upgrade --no-interactive
