@@ -18,10 +18,13 @@ RUN <<EOS
   apk add bearssl-static --latest --upgrade --no-interactive
   apk add bind-tools --latest --upgrade --no-interactive
   apk add binutils --latest --upgrade --no-interactive
+  apk add bison --latest --upgrade --no-interactive
   apk add build-base --latest --upgrade --no-interactive
   apk add ca-certificates --latest --upgrade --no-interactive
   apk add ccache --latest --upgrade --no-interactive
   apk add clang --latest --upgrade --no-interactive
+  apk add clang-dev --latest --upgrade --no-interactive
+  apk add clang-static --latest --upgrade --no-interactive
   apk add cmake --latest --upgrade --no-interactive
   apk add coreutils --latest --upgrade --no-interactive
   apk add croc --latest --upgrade --no-interactive
@@ -33,6 +36,9 @@ RUN <<EOS
   apk add dbus-libs --latest --upgrade --no-interactive
   apk add diffutils --latest --upgrade --no-interactive
   apk add dos2unix --latest --upgrade --no-interactive
+  apk add elfutils --latest --upgrade --no-interactive
+  apk add elfutils-dev --latest --upgrade --no-interactive
+  apk add flex-dev --latest --upgrade --no-interactive
   apk add gawk --latest --upgrade --no-interactive
   apk add gcc --latest --upgrade --no-interactive
   apk add git --latest --upgrade --no-interactive
@@ -40,13 +46,21 @@ RUN <<EOS
   apk add glib-dev --latest --upgrade --no-interactive
   apk add go --latest --upgrade --no-interactive
   apk add gnupg --latest --upgrade --no-interactive
+  apk add iperf --latest --upgrade --no-interactive
   apk add iputils --latest --upgrade --no-interactive
   apk add jq --latest --upgrade --no-interactive
+  apk add libcap --latest --upgrade --no-interactive
+  apk add libcap-dev --latest --upgrade --no-interactive
+  apk add libcap-static --latest --upgrade --no-interactive
+  apk add libcap-ng-static --latest --upgrade --no-interactive
+  apk add libcap-utils --latest --upgrade --no-interactive
   apk add libcurl --latest --upgrade --no-interactive
   apk add libdbusmenu-glib --latest --upgrade --no-interactive
   apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive
   apk add libncurses++ --latest --upgrade --no-interactive
   apk add libncursesw --latest --upgrade --no-interactive
+  apk add libpcap --latest --upgrade --no-interactive
+  apk add libpcap-dev --latest --upgrade --no-interactive
   apk add libprotobuf --latest --upgrade --no-interactive
   apk add libpq --latest --upgrade --no-interactive
   apk add libpq-dev --latest --upgrade --no-interactive
@@ -60,9 +74,15 @@ RUN <<EOS
   apk add linux-headers --latest --upgrade --no-interactive
   apk add linux-pam --latest --upgrade --no-interactive
   apk add linux-pam-dev --latest --upgrade --no-interactive
+  apk add llvm17 --latest --upgrade --no-interactive
+  apk add llvm17-libs --latest --upgrade --no-interactive
+  apk add llvm17-linker-tools --latest --upgrade --no-interactive
+  apk add llvm17-static --latest --upgrade --no-interactive
   apk add lm-sensors --latest --upgrade --no-interactive
   apk add lm-sensors-dev --latest --upgrade --no-interactive
   apk add lm-sensors-libs --latest --upgrade --no-interactive
+  apk add luajit --latest --upgrade --no-interactive
+  apk add luajit-dev --latest --upgrade --no-interactive
   apk add lzip --latest --upgrade --no-interactive
   apk add make --latest --upgrade --no-interactive
   apk add mariadb --latest --upgrade --no-interactive
