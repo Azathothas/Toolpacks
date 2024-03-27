@@ -360,7 +360,7 @@ cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-go
 ❯ !# NOTES on Selecting Features to be built
 cargo metadata --no-deps --format-version 1 | jq -r ".packages[0].features | keys[]"
 cargo metadata --no-deps --format-version 1 | jq ".packages[0].features | to_entries[]" | less
-# This then can be used with cargo build --target "$RUST_TARGET" --features "$COMMA_LIST_OF_FEATURES" --release --jobs="$(($(nproc)+1))" --keep-going
+# This then can be used with cargo build --target "$RUST_TARGET" --no-default-features --features "$COMMA_LIST_OF_FEATURES" --release --jobs="$(($(nproc)+1))" --keep-going
 
 ❯ !# NOTES on *unknown-linux-gnu $RUST_TARGET
 # Remove/Turn off the following:
