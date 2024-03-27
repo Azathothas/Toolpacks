@@ -2764,8 +2764,8 @@
   },
   {
     "Name": "legba.sh",
-    "Size": "2485 B",
-    "ModTime": "2024-03-26T18:32:21.961294739Z",
+    "Size": "4844 B",
+    "ModTime": "2024-03-27T12:02:46.705177717Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/legba.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3043,8 +3043,8 @@
   },
   {
     "Name": "metadata.json",
-    "Size": "167.47 kB",
-    "ModTime": "2024-03-27T06:06:59.250820635Z",
+    "Size": "168.31 kB",
+    "ModTime": "2024-03-27T09:06:46.130283404Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
