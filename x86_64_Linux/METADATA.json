@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "287.21 kB",
-    "ModTime": "2024-03-26T18:31:27.436509829Z",
+    "ModTime": "2024-03-26T21:26:36.929498547Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3073,9 +3073,9 @@
     "Size": "128.77 kB",
     "ModTime": "2024-03-06T01:59:26.462244849Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ipt2socks",
-    "B3SUM": "ee2a481603d334814f57edd7048c2f93eca604caa9321d8626db2db52cf203a1",
-    "SHA256": "7de9f39c8aee48a2fa232c400c6884cc85711d0a4ef8a29c43afda879bf26e0b",
-    "Repo": "https://github.com/zfl9/ipt2socks"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "istioctl",
