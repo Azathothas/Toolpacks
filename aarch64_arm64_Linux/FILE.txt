@@ -10,7 +10,7 @@
 ./aix:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=7FXTJ7D3Q1f71ZCH97XT/PrU4Kdzr7G5B1KdsyN0m/c3x3_GEPmPwkN7xtoCLc/Ak9VzIrWuqE9ignV39aA, stripped
 ./albafetch:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./algernon:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=kQ1j4HYf-JGGf4cEZuTs/mC82kDruOmdck3n05Hgr/w9kRXwvo2RkH0Dl0IT2A/V-vZQP8KswMbE-kLC0K-, stripped
-./alist:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=HQEiFOZROSgiEGgbZsCQ/Xt2KIGEB4ZaRLeYBSBlA/srGfUeR0zggb1qI2JU1n/dvFoozsLgOZNNlmVtFI1, stripped
+./alist:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=N2OakJWeSZ_JOaPHxpLF/vAfl6CpafFGm2B7q4e9Q/thqXh9LWfFsGHBqP1Bzz/Qbx1HI6_6SiFn0ne2jLW, stripped
 ./allxfr:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./alterx:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=7MoO3aJDDZZD2XJeKzpK/lWNDjecoGzZ-2BnLugrp/yCR05aiY4A8MYAzMjEUV/EtHfdu_EVWCUV8N96Hdf, stripped
 ./amass:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -31,17 +31,17 @@
 ./assetfinder:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./assh:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./atuin:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./awk:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=d94268ef9e868c3f3f077185d4836a1edcaedfb3, for GNU/Linux 3.7.0, stripped
+./awk:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=3f5a76021e94c981a15045d58cc590c802e7097b, for GNU/Linux 3.7.0, stripped
 ./aws-nuke:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=gSgDZRx05epAkuBWEz7B/6OVkR0uabfudguQOUSuW/XSzcr5SZD3iYe2rn0wYh/eCWRabst1mFfA-LSguUG, stripped
 ./axel:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./b3sum:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./bandwhich:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./bat:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./batcat:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./bbscope:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=NugvUrPFoBROoFdMbux9/JDpiSrW81DrhE0WVEVuU/8xX9jHB3qIC3QqSSmA0t/99H_0KnyI-QTVnbN1CXV, stripped
-./bbtargets:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ijMu1mIKLKzxWsNGhe4H/eqepqiD74o1Wz7uWdwEX/cEp3K2V-7yhd06M20Yvh/GmsvgwL9Bm34MlLSr0RJ, stripped
+./bbscope:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=KXLsNlsazfEWvaf9Yjth/MPi7vlU8GkROr4QIZ1Qi/L35zsY_WOWpk014iesid/ntUhDpcKQINFZiytrf5Q, stripped
+./bbtargets:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=P01JsvT5O5O5ZzW0CSRW/hzFb4jW6aeJfTregNW8f/BLXaDdvN_OWMhhD49Byk/0l9H3X-G4FhE3EPA0BTX, stripped
 ./bdl.sh:                          POSIX shell script, ASCII text executable
-./bearer:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=7dd993b163d5561c0deb83de273bdce23f39d9b8, for GNU/Linux 3.7.0, stripped
+./bearer:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=e6bcb004e6561d31f5cd66ce95c6e077aadbab44, for GNU/Linux 3.7.0, stripped
 ./bed:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ewVXHZmtf60UUD26JSmr/GpjJ57YYL-ihzxiAk3H6/wdNt6RvaDux4ciwmlLYF/mAJmCYEzzTs-By-EkD4M, stripped
 ./bigdl:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./bin:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=HW4yH6FikqsF3broCxaD/U7UOme0GZWgOLk-_1ECW/b00ZCTuy_ODaNez3Z_Fb/0wIYChbQxZXuDBmHCUGL, stripped
@@ -56,6 +56,7 @@
 ./bombadillo:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./bore:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./boringtun-cli:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
+./botsay:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./bottom:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./brename:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=SnkmkObXRjFC9-Uq233K/-Ur8C0rJY719v1PFFqAQ/uFYY0d5xm9Q5pN7YeFy4/K0z2CSJ6LHE3JdW4E0R1, stripped
 ./broot:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -81,16 +82,16 @@
 ./cfssl-newkey:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=YRBPRbkmt0hi8WCCxFyL/xIJ2UeoV9V0uEm6WAa6N/2QV2TOoONINP901V52Ii/lPdwTu0xNRIZ3C7trw-N, stripped
 ./cfssl-scan:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ZgChy2xeqlNq-3OpjATY/ogb0YNqdZ1cUasMop5SF/8ECgMP-k0CGJ-EKS_QDA/6QuJj1G5g5aI3odrXlOo, stripped
 ./cfssljson:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=C4kut4efhzEsw-CKKuZG/GyZXAthVLi80UQVrzXYz/lSHPNVb2aTAx_8tT-T9r/rBizmg1-7gTo7jHr8Ed0, stripped
-./chainredir:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=vfJLzCh5acVnyi2L2T90/hMArjTrKZDxLqjS309A7/UFePef5lrUl2-AKm_wHm/l_dErBgso6nLObI9Cm8C, stripped
+./chainredir:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=IRoGdcqw1II7Gdxc_VIv/AgJG-YaY8CtxD_wr96Yu/T08q64k47acwqmnq3rmD/_wIMZKLj-n0tLLxbnsPP, stripped
 ./chameleon:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ./chaos-client:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=jJoutq-j7kQGui8Ika0s/d95LNh9siaqfLfKW5D7c/djidlGFyPZAdRtpBUclm/qsOjgfV6otsvQYn3aiG9, stripped
 ./cheat:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./checkbypass:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=8XEPYZOLHIvRT2brKtMk/yYJb8uVj9EZzrYphcSPn/wEbcuVwNCVrl9ZVC7RQ3/17YxfEY-DwKDG2JyfleG, stripped
+./checkbypass:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=7-nd-fFsXyuDd07LtmAq/Q90h9FoCm8IGN1X7lLge/eadVCKwZWOJq9jZSOprX/ZdzZ72K-aJ0DMf9h5fNM, stripped
 ./cherrybomb:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./chisel:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=jtR3AEiGQp2c5bWy1Ipa/bN1RcKPmLIF3m9hDRRUn/kcF0gsPbQldqWUBZPeD2/LLQC4ilXsOpqXKrglQeI, stripped
 ./cifsiostat:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ./circumflex:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=XuqjLaYo1jRVHx1S4mlW/MfwIHSoFLEJD-kbGCQLf/No-kAATU4pMyyhjsVnuR/Aw4bkjQOD9kz89XKCeVR, stripped
-./cleanpath:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=uhlE2QGmarEyI7-eFgS2/jOo0GZM8EZuJrn16AvJj/PBS9FBvL4WWoxUhN-bSu/z18f_TjqucwBwpCVrchF, stripped
+./cleanpath:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ZVdho_O6dNVnWXdjecTl/7LprzoZwSxR0LT5esgUC/qPtTzuxPdGZ10kguARdH/qrHEeFmc-A0jafL6dOrX, stripped
 ./clipcat-menu:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=0545a42ce67e2549b0de99981be8caf72f9e1cec, stripped
 ./clipcat-notify:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=d7653be689fa65f4d53a29f3f6a898a97f10df6e, stripped
 ./clipcatctl:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=3fe5ca2230a1be73f8ef0d87598d7efe840e1847, stripped
@@ -100,6 +101,7 @@
 ./cloudfox:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./cloudlist:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=4o43AR-jvf1Uw6McNYIs/kxYu1oPfjrHwG0S7yWGk/4EltGPSd2D6Qt58p3dFU/28-Mk1K2E0gnpkqiaL9S, stripped
 ./cloudreve:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=GmHt-mOENtZ0bbEdp38p/S5bQXhQVIjE33uWPuxq3/enmWuehBc8vbhfWV64be/gLONCzs6jO19TP1HG1vx, stripped
+./cntb:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=GIXx-I9QL100HcYbpmq-/6YNF7xU88Kw3fR7_LRNf/eDUAg9RwvXgX65IHCt0m/bvLn3BgkcC4ppTt1j1VM, stripped
 ./cog:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./comb:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./containerd:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=YtZbCpxKYDoe5aTwaFpt/r8CF_h_RN73ndAhjT1ip/6f6WcpnNJZnFXdlz8A05/HF_PQZyE-VLb_jYzISmx, stripped
@@ -109,6 +111,8 @@
 ./cowitness:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./cowsay:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./cowthink:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./cpu:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./cpud:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./cpufetch:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=c5c0d7f7be22e8e3f2273e259b7516b950563c5c, for GNU/Linux 3.7.0, stripped
 ./crawley:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=WhdlpPtEftLXsvtQij0y/mryKW_66Gcvaji1d27nr/QJlrxi-W25fkSPPnS3vL/88k3d9W1HvxA4MC0ki-q, stripped
 ./crictl:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=PgHiLLLnPRbl-fc1J0Mq/1-HiUmHSw2godKId292a/qnspenJTtjTUOr9AcDlZ/3m84gFnZ-pt5ymUo6Dj9, stripped
@@ -130,17 +134,22 @@
 ./curlie:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=rksWig5eawPtAu86L2Fy/jqcnfYNoMvyutuAEMGll/0FrV9qr1v5ReuH24V85Y/67cvko_QimVsARrKoH84, stripped
 ./cut-cdn:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./cvemap:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=yceZTayg5fXwVYmCFMLW/1j2Our5ryiR64H-RvZEr/Qf7_nBTDHRc8d2PkNw0b/iWomD14VV7EvDInJlpfw, stripped
+./cwe_checker:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./dagu:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=gi2Tpg1nsLLBATjsM6iq/7Fy0BcOh5UywYPVfOba7/3crPsluxPlOXczU-zNX9/9xFyRrAMqqQQ0t_3zAqb, stripped
 ./dalfox:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=tCnK5NlsREAQIhcWVslQ/aqzc0Yf7mznadUl3W9eD/cu9-T7qBAWnSwfXgCEbY/SG-pksSBpnc35Ax2A_D2, stripped
 ./darkhttpd:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./dasel:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Fripec8eciQ2t7NpjSOv/mKpxbrmBuV89aJK7P2-U/8_3vO1e1TVwgjStzaaBw/X0dOt-FycxuXTdO4c3Xa, stripped
 ./datadash:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./daytona:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=fDbS6DL1DoiSoc5BD8Ie/-YJSDttDAIOp2KwW6fpz/CZQqaSN9wdJEP1F2ezbs/eogLUlQCNRIdLuSVRW56, stripped
 ./dbclient:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=1230075e442904e03dc66980caedb21a1ebeb55a, for GNU/Linux 3.7.0, stripped
-./ddns-go:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=pkMZE9ks4PzXV8KPLMMB/xsu7eF_rgxJgT2_UOPfQ/hgfb7AyrUI4vf-wEZ_kw/8u88141PzEPMKeuzifiz, stripped
+./ddns-go:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=HXodn_ZgBXB3wuRERZ54/9MBGMBrrz5DmSPUqT_mC/I1dx-cJzsTlQ2VYJyd8K/Lz9gMXc5Qt-ben81EoPF, stripped
+./decpu:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./decpud:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./delta:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./devbox:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=qI3G0MSIlDNKdks8JcUq/ZszWMGC9etv10sG7LQ64/7LlB-DottE8k-7cdkL0d/VZcPNQoQtq9KLnJJDmRg, stripped
 ./devpod:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=yThLPcqniuCACD7Ww57N/cC1z6GNxGhYExFn1VS4q/8KEBmR4JxHsrIvyjTLUz/fTvu9QdVBLimZshMnoqq, stripped
 ./diffoci:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=AQsRMq9SINuCO2qDi5F8/Trjok-oIlGxhx7kUNibz/TjxAyagFKUfhqZnTzwTi/496XPmI3kxai7WoTJ_rZ, stripped
+./diffutils-rs:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./direnv:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=1XdFF3dest-zMcohJnRv/6LPt8vUKd7hihP8wAQpB/FLws2b_NKKaSkbhZISuZ/PqnL37PEkMbeeErVC9NJ, stripped
 ./dizi:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./dizi-server:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
@@ -157,7 +166,7 @@
 ./dockerd-rootless.sh:             POSIX shell script, Unicode text, UTF-8 text executable
 ./doggo:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=48cDuX5pLgQF0RHnTmB6/KFbXMEH4Z9ttfum9cpsX/Z-0P9jqFzW34ApMKWVFC/joLGm5vFbRCu9J8yDszv, stripped
 ./dontgo403:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./doomxss:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=bcPGg-T271kjMLO1LRdr/3CkWQuW2tuWeZT5p7LQN/wv2FN97B9jsQkTXpsBSX/kxiNUMmMDTCzagLSIbD0, stripped
+./doomxss:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=jQ01M-Jd-E3A8gMXxPEi/-hIR7pPwV-nVC_dZ3Uko/n16WuIKJIiRVS0YOtwop/J7JgarQ_U5G6ER3slf7Z, stripped
 ./dos2unix:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./dotenv-linter:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./dperf:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -173,15 +182,15 @@
 ./dura:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./dust:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./dysk:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./eae:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=iqXLlZoCjn_rZ70Kve7H/mFEfOtaFr-bpci6IhG-5/_tzEY6gl2Cebuht8sVY4/zc-j-s_VIIKty66LMaXq, stripped
-./eah:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=4-M-HafyPsYcK9lDQgIc/eklOoW7MqcF8MhPmEb_m/OTMJmf_Kn_6E33wwLB6c/iSL5AYIMI-D6lKZNDFBr, stripped
-./eap:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=BRcy0_x2kns4hXMZflMM/-niSWVmz-jMx-_5_Uo79/-Zsq7rosQ4f51UOYdlGo/QHbAGgGgal4Pl_Ztfzxf, stripped
-./eaparam:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=vVueW3OPCmq-tEWD79xA/C-6vTqmXY-srkvCuMtp3/ynWG9XkHOSNkOqLSRZaC/lZVgaIVwnVNBjBENFwKr, stripped
-./eapath:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=tH-lQ4cFV6q81XRqRUxW/I-6_jFoRDeTFVw1UhuLO/iNBAkkw4oAhMFi71Nts3/QbBrvpNq-TxBNARCd8nA, stripped
-./earh:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=5pfC6Y6Wqg4CWyqUdJ1u/iX9PfKJyYxz08WQpeDN3/IWd7cbFQFlR-p8zfBF1h/7N1vqwlyqAaeJlixYQdl, stripped
+./eae:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=emxENY-1sMKaglgBBMkU/iRLorfP_cMLYS3x8mcar/-fqDhLvS66yMNxw5bspB/R1PALvdUaiZKDsgh98sM, stripped
+./eah:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=EDCSjeMiTPS9X9RJn-2A/o69sNufoc5AR4y6PWeXy/AM8LTIvWzSlHeA4dPv1t/NAIa7UTK8la2wwFRz_wu, stripped
+./eap:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=bRU1dOiq8aLC4ln0wC0m/CLdhOipBbv4t186qciA0/0oSmt4fv5LmfqRdco20R/-Jgdz1YGM_TedmHm-bAr, stripped
+./eaparam:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=m3vQMElv5ulXzCOz6wXh/Vov5vrI0uAYL11senQf4/sBbq3RbGndbbMW0dHb94/P3zy41sOW6TRsANSV_SZ, stripped
+./eapath:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=tfQCEbwkO8yAe1UE1wsc/Y21oWkFK_nZ2hBa7LqZp/Y4inB52BYmQVlY-dJRlW/y4KXeb_M9FTnjCJ82Xkl, stripped
+./earh:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=nEV_o42ltgcl8HBj3pOW/jb2PBGqOPQAxf2YcksoJ/k1vsUdrqLABTMfCsbwNW/UQofpkQqiFOo9GuYkyb1, stripped
 ./ecoji:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./edgevpn:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=3g5G8ykn4D54Ctsoz6BF/s-q6w0Z78YAWUHeBBIuc/IZiZoC0HvhWsV3ResRY7/O8PSYbq8CUJUwukG-uz8, stripped
-./eefjsf:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=1S2N0wpKI5gg9JBtLEAZ/--AnyROpeV5k_eUx8e3c/oltkWGmmj9wGjuH8bjZb/s9p6siXvRGmeLdo2i5Fa, stripped
+./eefjsf:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=U1Dsocj32bcT5O4ZyfOG/O-wRzs58fah8ZK7WRJ2G/gqA_WUZAeKCVes11TIKO/9I-XTPX9RPwYjCyUW07m, stripped
 ./eget:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=oNAEsrjjsDXQRC4Ni19F/-FgSfFENPvXDV9-5px-i/ThZvki3Ey9eb4FFD_lMQ/nmv_upH_RihPytLhZGKG, stripped
 ./ehole:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./ein:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
@@ -232,13 +241,15 @@
 ./gau:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gdu:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=aErWVSojHHJ4coTv2gtZ/ietmtmqxJAOnBV5KUTiP/mv4CdBAWYS0Q0zACc7K3/n8jVkETgWCZ0oYoJBQrp, stripped
 ./genact:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, no section header
-./genscope:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=hDnj63PY0bgmGCpfQwiW/vbx6IalDlqxks8GCONAx/n8eiA-vcl9nWQK8FomEl/N4u6T3qfIm20F2B-xvGc, stripped
+./genscope:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=jYO7HgvhqqWOrr0Nswxw/xtcrYh_wHW2dHaHrGNIr/MeBuuIshNHnP17NqCTl7/fXISFt6r4uoyr-gdKWMx, stripped
 ./getJS:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./getghrel:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=od1jDEtu8H80jWfJY98T/s0PrlQc2urJ4rHVXUSJo/QqcG-QMj-s6YO_GFUwZH/NVekEjkH-SztJLCzwWqU, stripped
 ./gf:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gfx:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gh:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=qkHtME_8wi6z_1buHvWX/G2gk8gGPshQJdEWF71ih/MeEfC8PVhNpeABX_pfa0/HIv0pSPeiM3UY6tSLxrY, stripped
 ./gh-dash:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=dUjvTUe7LTmel3xBpOQe/gH_5g_dnDZ_OBp1MufsC/tdbcC9vYXmuYe1T9sU_a/sSd_F4S8Jfk9g-MEOC45, stripped
+./ghfetch:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=D07SY8OM2CfCgNOklMqw/Z9beLZWU5AKeGw1eX6ZJ/GbslOC87NlL_4ChS-DNi/0kMPhtJO4a3fAnqrGj5W, stripped
+./gickup:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./gip:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./git-checkout:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./git-cliff:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -250,13 +261,13 @@
 ./git-tag:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./git-xet:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gitdorks_go:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./gitea:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=99178dadb1a34722a75a640e231f09f791b7679c, for GNU/Linux 3.7.0, stripped
+./gitea:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=d46ad8a3150c2a806d6d9deaf5a904922420c603, for GNU/Linux 3.7.0, stripped
 ./github-endpoints:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./github-regexp:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./github-subdomains:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gitlab-subdomains:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gitleaks:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=OCU_XZLwCxw3sxjYMevb/l_IIxJeTHEiXe5GPokhI/__mjsp2Evk-cGGvnzkJm/1eJN0tyE9u8y1AsWgPmk, stripped
-./gitpod:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=wpY6laQ9QswkTBPHEN4P/kzvc3WXZeYLvoYJ3cZIt/eyMb_bxcE9ktW7rq90sr/LaOrUZuxUpHnsqbWn-1-, stripped
+./gitpod:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=lpvuHSssY_zWFF9eG3vq/Q4OOcB2xGExYWH4zlH9O/mPtYWpm0MPEDWPIF5Hqk/se6iGTT88jnHeyijL9wh, stripped
 ./gitpod-cli:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gitql:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=cXXg_LM9g-axB87rO_8v/wlLtpzfewDKzdOUCezFo/ohUlCSkuSlWUNoXzBBT_/RIqDLDnLEZKQHdf9Caga, stripped
 ./gitui:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -271,6 +282,7 @@
 ./gofireprox:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=rha8TO9YVUdLcDLAcPDz/9ohDaHRx0LKI5z0XsED-/hD5Sw-mT6_2IEepSJT6c/btyHoQSsk-9uX8ijo_Fu, stripped
 ./gojq:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=aBU6F3SgnIzIygA_BRPV/hFDJftOI3UEhinKXOlyD/WNFkE4d51XSfRYjvBVOh/2XntwH6Trajft1VEzC72, stripped
 ./golem:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./goodls:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./goop:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./gorilla:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./gosec:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=aX7184eJ77QilWyvuwe8/HIVWIrWF6uNDACiW9vRO/ACgrW4tQZTvZZSrHpAxk/0nxGmmRZ7R8kIspm9_qz, stripped
@@ -300,7 +312,8 @@
 ./hakrevdns:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./halp:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./hardeningmeter_staticx:          ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=ec5a87625aa0b3b9574ef634412891569aa80a8d, for GNU/Linux 3.7.0, stripped
-./heacoll:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=dtfBBXiZTYJZ1MJAYZz5/7Rw9DRJ959A6LbGcxWIw/oKkAf3Zbjnmw0yDlre4C/nVGZhE2Qp3gS_pSg8qup, stripped
+./heacoll:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=XAm-U3lzOZpK--QXMf2M/Igj7q_6exl1KynU-J9EV/mRfShynCtb8xWUlcSZtj/DqTdVnt4bhZ9HSoK4M5E, stripped
+./headtail:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./hednsextractor:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./hexyl:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./horust:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -311,7 +324,7 @@
 ./httprobe:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./httpx:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=yZR34Xhy6btFxZKt3S6U/gjOLOxQZ6Xa7Iv3DxaOj/ETOJUYgPte9eVXHg3TYs/JRQAaOcZITjF5el0jjxz, stripped
 ./hub:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./hugo:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=ca987c307f08be73fb4b20cf1289383b1b7b2d04, for GNU/Linux 3.7.0, stripped
+./hugo:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=58d88242e0c274dc74e065b88c7c01df28b5178f, for GNU/Linux 3.7.0, stripped
 ./hurl:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./hurlfmt:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./hx:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -330,13 +343,16 @@
 ./istioctl:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=DJtS8DUS3GYkxLgqMzuK/0iaEQffZXb3UEpq_WI8X/yunRAfAd2N0SuJ0SAgav/Eh8bfBFAViFwR-La9N2g, stripped
 ./jaeles:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./jaq:                             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), statically linked, no section header
+./jen:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./jira:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=rD8b6TgyS2IWIYlm3m1i/RF_CVVg7BRTGIMp1GQbw/gA6ApfDjAZjoDfMUTWwm/_Lp0Ub-tNE7G4FF1XN_X, stripped
 ./jira-cli:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=rD8b6TgyS2IWIYlm3m1i/RF_CVVg7BRTGIMp1GQbw/gA6ApfDjAZjoDfMUTWwm/_Lp0Ub-tNE7G4FF1XN_X, stripped
 ./jj:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./jless_staticx:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=ec5a87625aa0b3b9574ef634412891569aa80a8d, for GNU/Linux 3.7.0, stripped
+./jnv:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./jq:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=f5c3c1fd88b49e5ed31bbdc4124f4f6d58a09e65, for GNU/Linux 3.7.0, stripped
 ./jql:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./jqp:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=obHGspHBf0FDWGgZK7uz/sSLOF2cfO03V5noElurN/ROCLA-6hVb857kqFFM4B/jKxPnaLZfr_GaHOqUaXM, stripped
+./jr:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=c4183661ee860b0208ec5fac9c11c4649dd4ddc6, for GNU/Linux 3.7.0, stripped
 ./jsmug:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./just:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=db698a09b99957004b0eba2241d2af671aab0ed6, stripped
 ./jwt-hack:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -344,15 +360,15 @@
 ./kakoune:                         ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./kalker:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./kanha:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./katana:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=a0e90cbb1c9d0b9847ec2405697d598020d05182, for GNU/Linux 3.7.0, stripped
+./katana:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=5dcf8d85a65a1c4aa3b6cd9efe8ed4d8a14b5eee, for GNU/Linux 3.7.0, stripped
 ./katana_staticx:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=ec5a87625aa0b3b9574ef634412891569aa80a8d, for GNU/Linux 3.7.0, stripped
 ./killport:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./kmon:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./knoxssme:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=2TBFy5ik9hV1zShOryuI/K_45bLv4laQd1FW8M98q/3hXmYqvxRPxZR7kIj3AD/TefB_lNqNHrw5ztEzbaR, stripped
+./knoxssme:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=XqSFQCQ-6p9go8aIxtwU/o2h6bqkzV_Eb_Td8SHHN/oTN5oNmbNiQKU_47dT4d/M4psIeDrr0-V-xGMTIAi, stripped
 ./kondo:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./kopia:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=fHRY7qJXPDdu_FImgL0n/jq1EgInDva5QWcOES-5K/BLdqzVL3_WNQb42WrnWs/X52Ks7CqJXko3AqvDJe-, stripped
+./kopia:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=NaFaqd64IUTXKsBCuH8O/c1RBoUZuMIPKFI52UeSR/BLdqzVL3_WNQb42WrnWs/CBXEyGQ8DWaZFZnLE4MA, stripped
 ./ksubdomain_staticx:              ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=ec5a87625aa0b3b9574ef634412891569aa80a8d, for GNU/Linux 3.7.0, stripped
-./kubemetrics:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=4uUyp9GUlRMnINacbk2n/MQbUJq6HzwPyVf5MPAEm/8o9pvhu_s1Wp02Je5-Q6/BqTGwjsCEjorw4uYzFMb, stripped
+./kubemetrics:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=3uq3i9szHMb5x3BCoQZ4/mEtHDGnMi7b742Q4OLZL/glbQJZxuNafLpryQmfTF/rxxUpfQ5TVFZXdih3Pir, stripped
 ./ladder:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=EXqgt9laeh77qEr0TfIv/B-UnXwVpWsBsGvYPTSYR/lcmxrORX5BQmkEmys0xv/EQ09e1Yzd14VtFzSH-pE, stripped
 ./lazydocker:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=PSODwgoJgN8njzPtcUSg/XylQz6hngIxWbNVitp7r/_t0TqDR5tnGXqk-R85TA/JtlKGARD41DK_zmq-akR, stripped
 ./lazygit:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=i74DPCJle89pcVjb2Kji/xnixdbOrdJ2YS3vYyjd7/XsnNWtT_Pc7glK1GpMWX/uyhAXijq4g_9pi7nWDGw, stripped
@@ -370,7 +386,7 @@
 ./mabel:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./mac2unix:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./macchina:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
-./maddy:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=29cdce871f0b6e35819aabb05749398c1eda15df, for GNU/Linux 3.7.0, stripped
+./maddy:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=a2a3da49763a2fd21aead20017b0054f5c525d4b, for GNU/Linux 3.7.0, stripped
 ./mailpit:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=jTZ6rRhp4qmrQi8yJl69/f3pm-BUMk2CYcexrkEcA/6zjrF7AWRXPyGUPuOlWe/N69R6ZcdM7e0jM5UZoXW, stripped
 ./mani:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=6jNLfqknHEWgV0Htk5OE/0w4QoE-8vMZZCFdhrcTe/4vE4Xnmse3ZEyIM13uqy/xiH-joLf_zQ6RBjSJpzr, stripped
 ./mantra:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -383,9 +399,12 @@
 ./mdsh:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./melange:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./meli:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
+./memhog:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./mergerfs:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=ea745595112e59dda425953ff3230a5f17f7335c, stripped
 ./mgwls:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=MWS6Tapuc_WUrz6Ka0t_/90BFkm-2AUxNCmH9l9nQ/c9W_RCwFfZFu-8oCdelK/YUhYGCcHsypVpu9S7YMA, stripped
 ./micro:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=kpo5OA_N7Q1t0w_g-YA0/G4Xt3jyfFfH6C1mJbCYI/Leqyyjn8PnG5w2NRiib7/HqJ3jYfHVXn24_qWqZ4I, stripped
+./migratepages:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./migspeed:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./miniflux:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=7cG8DQLgulB_GZ5EP7im/d9MIDgUf42JklGwvrLYz/OEq9X05Dlc0_w85dd3KP/N2UM-u-XftHEH6OyfX8-, stripped
 ./miniserve:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, no section header
 ./minisign:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -411,7 +430,7 @@
 ./neofetch:                        Bourne-Again shell script, Unicode text, UTF-8 text executable
 ./nerdctl:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=23yw0BgEOF0IKtc0t1Ly/RQIyobxz2W8jXO_XFTQG/u6_LMNfwKFcNdeY01kuG/reaoG73ZQ_OBVAepdAiG, stripped
 ./netbird:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=O93lsekBZOUOhquTNanN/97xSf0hko3uuzNCKnOEx/TMMs_6GpGOJAihkQzrAP/VHKitel4aotOB0n9FblS, stripped
-./netmaker:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=196b85748525466603dae69c63547fb60f51e001, for GNU/Linux 3.7.0, stripped
+./netmaker:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=c288dc7fbdc9e7f857f5a499a1796aec469a2745, for GNU/Linux 3.7.0, stripped
 ./netstat:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./nfs-cat:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./nfs-cp:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -424,24 +443,31 @@
 ./nmap:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./nmap-formatter:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./nmapurls:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./nmctl:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=5835958f394a09ca30cee89f3f6e9348bb2724f5, for GNU/Linux 3.7.0, stripped
+./nmctl:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=b396af95087302c9aa708ec8ce3230af358d49fd, for GNU/Linux 3.7.0, stripped
 ./nnn:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./noir:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=8da2e673b470c8fa95f50e471020e96ffb57c651, for GNU/Linux 3.7.0, stripped
+./noir:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=bf2f09303e69735f3f48153f4743af27629ec6af, for GNU/Linux 3.7.0, stripped
 ./notify:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=OIwDDybDkz1X1-Q_mG-C/ru0AzPCVkzCK9lJfyvcY/YixePYJKRfRUUiXN_Nmz/JtA-dlgoYHqPcaEg7VYU, stripped
 ./nping:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
-./nrp:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Dix_NMtt4NjaPLCiaGuj/1Ecq1R5nAWgMpcaTtEJt/Hq6j87qnDwiJdegyMoQx/g36NylQaI-pYo3UF06on, stripped
+./nrp:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=UfX2XXDWdyKAwc0bGIx4/kW9AGc_3q05zSSUaO8Um/BxW-ep0GBmcQWSf2e896/AMbt4C69jHUVSXfie5ad, stripped
 ./nu:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./nuclei:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=co5TbamrCUrKcY7Ibvs_/2fyw7sWHxAvleG7OLc_Y/E9RHQQpBFHwzd1XUoeeq/wI6HUqFV8PqqJaAUCEb2, stripped
+./numactl:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./numademo:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./numastat:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./nushell:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
+./ockam:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./oha:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./onetun:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
+./openapi-tui:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./opengfw:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./openrisk:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./orbiton:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=AAwn_-WrKxChNgRFyQDW/FViv9Ye5nl-z6YLponbv/HdMcEuCWl4hnQeJCaiNm/nesuLIMApP7Li6MEK93o, stripped
 ./osmedeus:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./ouch:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./ov:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=6ZzQRIJn4olF_ZGwDMs8/DIsgQi4czYuOYO67hMgJ/N9d6hujeea_32wHg9yjJ/b0Ls0_3GHRR7GBgD8ra7, stripped
-./overmind:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=CeXOHgBmdLgnchbtmz7Z/D9U4W_pnG7sS8TcWbO_h/2rj-kajKo9QxcBQJG36p/iRNC6rSy3k-wQcIbRjUV, stripped
+./overmind:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=N31qT_6zQxKGYsMD71zM/O68rOitcXSkQ9iZtc2es/J9W-lQh9iveMRX7e9i9G/GGc6aWN3RlmHEOh7ljK3, stripped
+./p9cpu:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./p9cpud:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./passdetective:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./pdfcpu:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=E14quqOxNL11v4vUfVgf/ixhVrFg9vLGgXdiXi3kM/xMEqMQ56Bz0HyQuMw1_S/42ILduJzrOWKM92QHmpo, stripped
 ./pencode:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Gbtfw_W7TT2gQr1b67Nq/sjc2PAeSKbuLoxy6ipvV/sPhpiWYsuY0Ad4wRKp7m/gPJV0Zc2zrNSzPrbx3-h, stripped
@@ -479,7 +505,9 @@
 ./qsreplace:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./qsv:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./quickcert:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./rapwp:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=czBP4SWsoCWAis5VHLK5/X8og1Rs3z-s8n7wsMoJw/ecwf-pCF_P0sBWyimlDM/yZj9wu7SQq5jjhGBpNMV, stripped
+./rage:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./rage-keygen:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./rapwp:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=bOVK85xKXIpiH1xoIVN7/7fqqM03K-uLjDTa4N7Y3/XL7pAQYRV2FTuSnHn1kW/8PZw-eTC3tOwJi8xXZM3, stripped
 ./rate-limit-checker:              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./rathole:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, no section header
 ./rattler-build:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -493,8 +521,8 @@
 ./rekor-cli:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=asAE4BfYM1mYYLnJ4gac/y3LA4jKl0VJ2a_HnCsU-/cWAIHPdn0xwe_e2oLn50/2viD3_-9thfyFv5iAUKW, stripped
 ./rekor-server:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ZQ4ViAdqVWdIZgIKOs-_/lVwgrbkClTHO76AklMov/g-h5jWcATaXE-mpePboC/VO4ddfLa9hJA7RKq0QXx, stripped
 ./relic:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./removehost:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=wEIEDl0QhRJxLMNSaKzx/7OBenzIvM8KJ4umUZwhv/Mt8rwnpE-m4edreU6Akv/ETsXhVGVY9S7ANBfUmuC, stripped
-./removepro:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=RY6kpNriAERBPt2rBoCV/Oe03j8jOfsusXoirJUAo/uOAdsC7g6Is7JhkG8IAO/5y4zvDMnUL-fZ-1-yWUn, stripped
+./removehost:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=CZiTPk-pearsWyrUe7y_/wliiEaMxmEm_cW8537XE/obQAtFAzNrbIWwf7awfc/-OL2EziZzsU27n5LHaGo, stripped
+./removepro:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=_NMuJMZ7O_xudvd8_JFL/9Sk1qObBxhxSs8hsTJXh/7KwFvRuirvynmtQBVjg3/1JJPV9ZbJLwn5sj8uCjR, stripped
 ./reptyr:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 ./rescope:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./resdns:                          Bourne-Again shell script, Unicode text, UTF-8 text executable
@@ -514,7 +542,7 @@
 ./ropr:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./rospo:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=2HmpPCUP-M0cXJCpN8D2/mZJobahYF3tPUNOa5O_C/LXw60evgIxZVqRwHcvNs/fPkTLBkujlrmSWbgOCiV, stripped
 ./rpaste:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./rpfu:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=UycYGXGpROl-ihG4MjXm/ZRjAz76SEsLSHEDvO5BH/wic0183nfQzXBUi-y16U/GKKvxqTj-3Kd2oecQxd_, stripped
+./rpfu:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=y9ZY9g07V1vEWMaO9KAS/Vf3dNp53negYm-RvqGqk/m--m42JDiHvi_8S55q6F/VUEkYK7raTCvQpzrEDAc, stripped
 ./rqbit:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, stripped
 ./rshijack:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./rsync:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -544,6 +572,7 @@
 ./screenfetch:                     Bourne-Again shell script, Unicode text, UTF-8 text executable
 ./sd:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./sessionprobe:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./sf:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./sftp:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./sftp-server:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./shc:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -566,7 +595,7 @@
 ./spk:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./spoof-dpi:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./sq:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=44f285b93cfb695f6534a80015111686bf869bab, for GNU/Linux 3.7.0, stripped
-./sqlc:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=7dec6f259fef02b6a994bcb57072bd328273f331, for GNU/Linux 3.7.0, stripped
+./sqlc:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=90253587116c9e53237939f2d3e8c1c807fe44cc, for GNU/Linux 3.7.0, stripped
 ./ssh:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=3559d66aa372ece7f6c56882077dfd1cdbcf77bd, stripped
 ./ssh-add:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./ssh-agent:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -585,6 +614,7 @@
 ./steampipe:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Eqx6y_FklKZksfjkvsEl/ict_Gc8HAgzWlPRlk74H/uVH5fC8TVQUCJ1kU4GMs/aIOrwrfLBWM1libaUgA4, stripped
 ./stew:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./strace:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./stree:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=L0alM3RgzyHCC1Gh_oT9/n8CTDwhCCPQXnuKveGSh/dFgkvYsMyROxBmVSHuTx/3cerhsXRP1LXKWgmN9hM, stripped
 ./stress-ng:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./sttr:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=tdFo_xXuR7fBmX0nDySb/Fx75YSWW5_0Jcbaq-A2T/4_IV3BGnC6lAOBFh64-D/6QyDLaKVCThGTp9UoqJS, stripped
 ./stuffbin:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -600,16 +630,16 @@
 ./svg-hush:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./syncat:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 ./syncthing:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=epK2_E2XtjJHNajRUD3c/Jwl7D_UaPzpkpzKDWXIZ/YBr7u9wl2RFH-bCWQSA-/CqmPDyP3gfOudEazczt4, stripped
-./sysbox-fs:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=0c7392f005e540ff684dfdc5dd0426193190fda8, for GNU/Linux 3.7.0, stripped
-./sysbox-mgr:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=EvP8HEhntn1PwlFqTjDB/8rXoQiSoh3cALi2hStXZ/CKBgyhV0_jdfeQc2icgb/caPHuQH1Qyjqov0DRUTQ, stripped
-./sysbox-runc:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=643a70cf0aa3e34d53e8bb57a98605ea5ece24c5, for GNU/Linux 3.7.0, stripped
+./sysbox-fs:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=2ff9827992ad91d1a960b56c3fb3f0a2fe00bce1, for GNU/Linux 3.7.0, stripped
+./sysbox-mgr:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=NyRIiR38wVUoGqvuJSZI/8rXoQiSoh3cALi2hStXZ/CKBgyhV0_jdfeQc2icgb/Q-1L3aA_e1yI5PFZUHFZ, stripped
+./sysbox-runc:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=f139c4ff390d419e1fadbb4bd283ba9ca0fe8b50, for GNU/Linux 3.7.0, stripped
 ./sysinfo-collector:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./sysstat:                         POSIX shell script, ASCII text executable
 ./system-info-collector:           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./systemctl-tui:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./systeroid:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./systeroid-tui:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./tahm:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ikBx5F82d0svIo0iTOey/05uMOOHFjN7JZk01a_7D/kraLgamDOLAzY_v-FHKz/bi1U-YBmDc3dpfaMf07Z, stripped
+./tahm:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=QKMIrSnx5g6N41NpA1Pq/QgbnFvzekqZMN5WjXTB2/yCQn85WrMFaXhUoDaXLY/DhEa1J2e-B8TnE9Km8NZ, stripped
 ./tailscale:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ad2eDJe20a3BuToUgg2H/LdCH3ugN7e2UKSHRa-n9/wc8qRtVTN2RAj5dz6DG9/i44S1b6F2Zbc_MNzBxOx, stripped
 ./tailscale_merged:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./tailscaled:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=C5pBid9AkFP8_Z5Ikd5a/Rt0l5tHn6o7flB5qdvZb/oLw0k-hI7BcEUg0s2rep/iC29ex-1e3wMYLIAKSnw, stripped
@@ -619,7 +649,7 @@
 ./tavern:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./tcpdump:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./tdl:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=6xiYeg7YvqHp2UflbkmX/28zDO2KE5--8BZMsb5YV/O8UukX5dktPefIXpZSHD/VnpkAkTDrzORMWoD0QjE, stripped
-./teldrive:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=gH9CfPSlMN1jpm8Jj2Zz/767DcNlrq8RldJZBY7Ma/vjbYbAwf8Q7vEKdx_qIZ/GYh0gO26MK6CGd46v-ST, stripped
+./teldrive:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=brFtMRxbqtJshE0AHRZV/ydgA4pl5QyO0I56ix_Uq/uCf6GgNhyDqgbPCZCwc1/VpVxqzl4JPK--BDcP2Ap, stripped
 ./tere:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./termshark:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./tgpt:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -635,7 +665,7 @@
 ./tracepath:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./traefik:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=6tow8y6HX8DPJM09mg6F/1gwEupzu1FQxkZ-HowBD/Zr2fmwoHZCtS2rpM5GIK/ja1K2B3AssbZ5E5LKpBa, stripped
 ./trip:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-./trufflehog:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=8-HBkabY1YPhyWOYMulN/a98L0gMn0JewnydNIVI6/kF61siwYvoKDEhqjtgRy/LwdTXMbD9FFWkJOeaCd3, stripped
+./trufflehog:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=q6em9ZZIxxrHItZeuvse/FgK2kdjfkUezzsEonkDx/5uaHCkY2qm2Q1wKB7rrU/anfOtwzp3xpwV9U5jf3g, stripped
 ./try:                             POSIX shell script, ASCII text executable
 ./tty2web:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./ttyd:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -725,6 +755,7 @@
 ./xetmnt:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./xh:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./xplr:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./xq:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=-_RvaBxrBNYRmhglQjt_/-jqbekpVEzX8sLqAczqK/yr6S1nRaZNpAWZVjvwnC/z1Hqf8_rxDdWLugm9BgU, stripped
 ./xurls:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./yalis:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ./yataf:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
