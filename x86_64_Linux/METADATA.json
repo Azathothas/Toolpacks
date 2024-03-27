@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "298.82 kB",
-    "ModTime": "2024-03-27T03:29:58.228058843Z",
+    "ModTime": "2024-03-27T06:32:49.212451556Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -1624,9 +1624,9 @@
     "Size": "8.3 MB",
     "ModTime": "2024-02-26T01:48:45.525051026Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dontgo403",
-    "B3SUM": "453e8d016872f49c8531cabf8b3d476ee0627d8cee02f3f3b3a369f0acbed1ab",
-    "SHA256": "ae82a81b7f520eb0890141f02234f2540a84af07e80f32df9c85aad6e4cae5d6",
-    "Repo": "https://github.com/devploit/dontgo403"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "doomxss",
@@ -4225,9 +4225,9 @@
     "Size": "8.3 MB",
     "ModTime": "2024-03-25T15:25:46.000282900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/nomore403",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "3f85b074c5d5f65a8a694144702cb6635cccfe61e633968845e591fc5c14e145",
+    "SHA256": "c502c7063afe966d11099eaace51cac4feeaba1f3ed7d30f60f0c6bf48167855",
+    "Repo": "https://github.com/devploit/nomore403"
   },
   {
     "Name": "notify",
