@@ -21,13 +21,13 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #dontgo403 : Tool to bypass 403/40X response codes. 
-     export BIN="dontgo403" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/devploit/dontgo403" #github/gitlab/homepage/etc for $BIN
+      #nomore403 : Tool to bypass 403/40X response codes. 
+     export BIN="nomore403" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/devploit/nomore403" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/devploit/dontgo403" && cd "./dontgo403"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./dontgo403" "$BINDIR/dontgo403" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/devploit/nomore403" && cd "./nomore403"
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./nomore403" "$BINDIR/nomore403" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

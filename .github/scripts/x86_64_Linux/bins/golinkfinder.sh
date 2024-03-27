@@ -21,14 +21,16 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #dontgo403 : Tool to bypass 403/40X response codes. 
-     export BIN="dontgo403" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/devploit/dontgo403" #github/gitlab/homepage/etc for $BIN
+     #golinkfinder : A fast and minimal JS endpoint extractor 
+     export BIN="golinkfinder" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/0xsha/GoLinkFinder" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/devploit/dontgo403" && cd "./dontgo403"
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./dontgo403" "$BINDIR/dontgo403" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
-fi
+      #Build   
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/0xsha/GoLinkFinder" && cd "./GoLinkFinder"
+       go mod init "github.com/ferreiraklet/GoLinkFinder" ; go mod tidy
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./golinkfinder" ; cp "./golinkfinder" "$BINDIR/golinkfinder" ; popd > /dev/null 2>&1
+       go clean -cache -fuzzcache -modcache -testcache
+fi       
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
@@ -40,4 +42,5 @@ unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RA
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config
 unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
+#-------------------------------------------------------#
 #-------------------------------------------------------#
