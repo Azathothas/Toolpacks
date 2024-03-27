@@ -1215,15 +1215,6 @@
     "Repo": null
   },
   {
-    "Name": "dontgo403.sh",
-    "Size": "1896 B",
-    "ModTime": "2024-03-26T18:32:21.957294739Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dontgo403.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
     "Name": "dos2unix.sh",
     "Size": "2445 B",
     "ModTime": "2024-03-26T18:32:21.957294739Z",
@@ -2025,6 +2016,15 @@
     "Repo": null
   },
   {
+    "Name": "golinkfinder.sh",
+    "Size": "2076 B",
+    "ModTime": "2024-03-27T09:02:04.565289853Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/golinkfinder.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "goodls.sh",
     "Size": "1916 B",
     "ModTime": "2024-03-26T18:32:21.961294739Z",
@@ -2425,6 +2425,15 @@
     "Size": "2457 B",
     "ModTime": "2024-03-26T18:32:21.961294739Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hysp.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "indextree.sh",
+    "Size": "1659 B",
+    "ModTime": "2024-03-27T09:02:04.581289884Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/indextree.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3035,7 +3044,7 @@
   {
     "Name": "metadata.json",
     "Size": "167.47 kB",
-    "ModTime": "2024-03-27T03:07:22.732014049Z",
+    "ModTime": "2024-03-27T06:06:59.250820635Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3316,6 +3325,15 @@
     "Size": "1809 B",
     "ModTime": "2024-03-26T18:32:21.965294739Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/noir.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "nomore403.sh",
+    "Size": "1896 B",
+    "ModTime": "2024-03-27T09:02:04.577289876Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nomore403.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -4387,6 +4405,15 @@
     "Size": "1679 B",
     "ModTime": "2024-03-26T18:32:21.969294739Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/soft-serve.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "sourcemapper.sh",
+    "Size": "1956 B",
+    "ModTime": "2024-03-27T09:02:04.561289846Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sourcemapper.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
