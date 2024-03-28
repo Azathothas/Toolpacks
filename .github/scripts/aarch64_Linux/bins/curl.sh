@@ -23,10 +23,11 @@ export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
      #curl
      export BIN="curl" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/moparisthebest/static-curl" #github/gitlab/homepage/etc for $BIN
+     export SOURCE_URL="https://github.com/stunnel/static-curl" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/curl/curl_aarch64_arm64_Linux" --to "$BINDIR/curl"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "curl" "$EGET_EXCLUDE" --to "$BINDIR/curl"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "trurl" "$EGET_EXCLUDE" --to "$BINDIR/curl"
 fi
 #-------------------------------------------------------#
 
