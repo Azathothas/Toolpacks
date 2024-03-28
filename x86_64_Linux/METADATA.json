@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "299.59 kB",
-    "ModTime": "2024-03-28T06:31:24.291928905Z",
+    "ModTime": "2024-03-28T09:30:31.276613213Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3142,8 +3142,8 @@
   },
   {
     "Name": "inscope",
-    "Size": "1.73 MB",
-    "ModTime": "2024-03-27T02:47:23.616333566Z",
+    "Size": "1.76 MB",
+    "ModTime": "2024-03-28T10:49:57.494006200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/inscope",
     "B3SUM": "3899fa3daaf593c27b598e8dd9fa09ecbd16e549185c35cb11a7c4e9ba99c8fd",
     "SHA256": "07180b20d39f30ec553b2d2bb29777846a66d5ab66b43b727476426e00492c2b",
