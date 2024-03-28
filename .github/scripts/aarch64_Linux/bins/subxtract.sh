@@ -26,7 +26,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Azathothas/Arsenal" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$BINDIR/subxtract"
+       eval "$EGET_TIMEOUT" eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$BINDIR/subxtract.sh"
+      #Build
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir "./subxtract" && cd "./subxtract"
+       curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.go"
+       go mod init "github.com/Azathothas/Arsenal/subxtract" ; go mod tidy
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./subxtract" "$BINDIR/subxtract" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
