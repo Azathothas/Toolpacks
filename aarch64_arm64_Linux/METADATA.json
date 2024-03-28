@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "294.63 kB",
-    "ModTime": "2024-03-28T15:41:47.752898469Z",
+    "Size": "294.9 kB",
+    "ModTime": "2024-03-28T18:27:07.856672913Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -1284,7 +1284,7 @@
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/curl",
     "B3SUM": "1721baa2836fca63c0c1f412404c261f5af9a5ec77d09467688fa6ecf7cd88c1",
     "SHA256": "d5029e27abaa03e17ff384eb32bfbdda5fc8a70defd841cb771110f643ce5601",
-    "Repo": "https://github.com/moparisthebest/static-curl"
+    "Repo": "https://github.com/stunnel/static-curl"
   },
   {
     "Name": "curlie",
