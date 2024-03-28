@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "294.63 kB",
-    "ModTime": "2024-03-28T12:31:07.400434898Z",
+    "ModTime": "2024-03-28T15:41:47.752898469Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -5707,11 +5707,20 @@
   },
   {
     "Name": "subxtract",
-    "Size": "3815 B",
-    "ModTime": "2024-03-01T23:41:05.659037279Z",
+    "Size": "7.34 MB",
+    "ModTime": "2024-03-28T17:44:39.531494500Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/subxtract",
     "B3SUM": "c7631fc4f64a30d90b299aa2b253ee919babf2ffacb5b1255edcd3119689b185",
     "SHA256": "b9d67b9d1d2575ada3bbce1d19c2a4ee371445cd1f441c95c77fdad02852009d",
+    "Repo": "https://github.com/Azathothas/Arsenal"
+  },
+  {
+    "Name": "subxtract.sh",
+    "Size": "3814 B",
+    "ModTime": "2024-03-28T17:40:46.151207300Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/subxtract.sh",
+    "B3SUM": "",
+    "SHA256": "",
     "Repo": "https://github.com/Azathothas/Arsenal"
   },
   {
