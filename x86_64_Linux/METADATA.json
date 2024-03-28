@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "298.82 kB",
-    "ModTime": "2024-03-27T06:32:49.212451556Z",
+    "Size": "299.59 kB",
+    "ModTime": "2024-03-28T12:30:54.670051234Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2664,6 +2664,15 @@
     "Repo": "https://github.com/spellshift/realm"
   },
   {
+    "Name": "golinkfinder",
+    "Size": "5.49 MB",
+    "ModTime": "2024-03-27T10:14:03.822734700Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/golinkfinder",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/0xsha/GoLinkFinder"
+  },
+  {
     "Name": "goodls",
     "Size": "13.28 MB",
     "ModTime": "2024-03-27T02:46:44.260330621Z",
@@ -3123,9 +3132,18 @@
     "Repo": "https://github.com/spellshift/realm"
   },
   {
+    "Name": "indextree",
+    "Size": "5.44 MB",
+    "ModTime": "2024-03-27T10:14:03.806628600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/indextree",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/riza/indextree"
+  },
+  {
     "Name": "inscope",
-    "Size": "1.73 MB",
-    "ModTime": "2024-03-27T02:47:23.616333566Z",
+    "Size": "1.76 MB",
+    "ModTime": "2024-03-28T10:49:57.494006200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/inscope",
     "B3SUM": "3899fa3daaf593c27b598e8dd9fa09ecbd16e549185c35cb11a7c4e9ba99c8fd",
     "SHA256": "07180b20d39f30ec553b2d2bb29777846a66d5ab66b43b727476426e00492c2b",
@@ -3529,8 +3547,8 @@
   },
   {
     "Name": "legba",
-    "Size": "18.54 MB",
-    "ModTime": "2024-02-02T04:39:52.916415304Z",
+    "Size": "24.24 MB",
+    "ModTime": "2024-03-27T10:25:44.074613600Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/legba",
     "B3SUM": "4fd62300bcb63027e7f21e28c614d58b4c45a7b86f10c9247f8b67db7b75496a",
     "SHA256": "03106cdbd64b98abaf348b67ceef094d9ac5c83cf4019d0d800eeb6d8b9bf947",
@@ -5632,6 +5650,15 @@
     "B3SUM": "999eb87c9c34cedf4b70108e40267e47ae177f1fa30e5e5bc384bab8faf5ee00",
     "SHA256": "a42292085d65a33d85480c5c7a6d0cd195ccaee72603990b3368fb1015a38a41",
     "Repo": "https://github.com/charmbracelet/soft-serve"
+  },
+  {
+    "Name": "sourcemapper",
+    "Size": "5.34 MB",
+    "ModTime": "2024-03-27T10:14:03.787365500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/sourcemapper",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/denandz/sourcemapper"
   },
   {
     "Name": "speedtest-go",
