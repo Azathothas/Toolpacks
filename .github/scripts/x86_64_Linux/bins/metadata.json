@@ -982,8 +982,8 @@
   },
   {
     "Name": "curl.sh",
-    "Size": "1616 B",
-    "ModTime": "2024-03-26T18:32:21.977294739Z",
+    "Size": "1821 B",
+    "ModTime": "2024-03-28T21:03:10.070094580Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/curl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -2458,8 +2458,8 @@
   },
   {
     "Name": "inscope.sh",
-    "Size": "2092 B",
-    "ModTime": "2024-03-26T18:32:21.985294738Z",
+    "Size": "2069 B",
+    "ModTime": "2024-03-28T21:03:10.066094572Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/inscope.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3071,7 +3071,7 @@
   {
     "Name": "metadata.json",
     "Size": "169.87 kB",
-    "ModTime": "2024-03-28T15:10:05.387049940Z",
+    "ModTime": "2024-03-28T18:05:17.698799824Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
