@@ -3071,7 +3071,7 @@
   {
     "Name": "metadata.json",
     "Size": "169.87 kB",
-    "ModTime": "2024-03-28T12:06:40.188215352Z",
+    "ModTime": "2024-03-28T15:10:05.387049940Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4663,8 +4663,8 @@
   },
   {
     "Name": "subxtract.sh",
-    "Size": "1692 B",
-    "ModTime": "2024-03-26T18:32:21.993294738Z",
+    "Size": "2166 B",
+    "ModTime": "2024-03-28T18:03:02.635212614Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/subxtract.sh",
     "B3SUM": null,
     "SHA256": null,
