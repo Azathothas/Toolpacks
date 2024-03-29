@@ -799,9 +799,9 @@ jobs:
           #TMPDIRS
            #For script-cache
            rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
-           BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
+           BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.ps1)" && export BUILDSCRIPT="$BUILDSCRIPT"
            #Get URlS
-           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.ps1$" | sort -u -o "$SYSTMP/BUILDURLS"
            #Get METADATA.json (bin.ajam.dev/x64_Windows)
            curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
            #Get BLAKE3SUM.txt
@@ -935,7 +935,7 @@ jobs:
           cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x86_64_Linux.json"
           #x64_Windows
           curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json" -o "$SYSTMP/METADATA.json"
-          cat "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x64_Windows"
+          cat "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x64_Windows.json"
           ##Merge
           jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][0][]], [{ "host": "AMD64-Windows_NT" } + .[3][0][]]' "/tmp/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "/tmp/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq -s . > "$SYSTMP/METADATA.json"
           ##rClone Update
