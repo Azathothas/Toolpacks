@@ -24,7 +24,7 @@ if ($env:SKIP_BUILD -eq "NO") {
    #anew-rs: An efficient way to filter duplicate lines from input, à la uniq. 
     $env:BIN = "anew-rs" # Name of final binary/pkg/cli, sometimes differs from $REPO
     $env:SOURCE_URL = "https://github.com/zer0yu/anew" # github/gitlab/homepage/etc for $BIN
-    Write-Host "`n`n [+] (Building | Fetching) $BIN :: $SOURCE_URL`n"
+    Write-Host "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
       #Build
            Push-Location (TMPDIRS) ; git clone --quiet --filter "blob:none" "https://github.com/Azathothas/anew-rs" ; Set-Location "./anew-rs"
            $env:RUST_TARGET = "x86_64-pc-windows-gnu" ; rustup target add "$env:RUST_TARGET"
@@ -32,7 +32,7 @@ if ($env:SKIP_BUILD -eq "NO") {
            (Get-Content -Path "./Cargo.toml" -Raw) -replace "(?s)\[profile\.release\].*?(?=\n\[|$)", "" | Set-Content -Path "./Cargo.toml" ; Add-Content "./Cargo.toml" "[profile.release]`nstrip = true`nopt-level = 3`nlto = true"
            cargo build --target "$env:RUST_TARGET" --release --jobs "$(Invoke-Expression "[int]$env:NUMBER_OF_PROCESSORS + 1")" --keep-going ; Copy-Item "./target/$env:RUST_TARGET/release/anew.exe" "$env:BINDIR/anew.exe"
            file.exe "./target/$env:RUST_TARGET/release/anew.exe" ; (Get-Item -Path "./target/$env:RUST_TARGET/release/anew.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-           objdump.exe -x "./target/$env:RUST_TARGET/release/anew.exe" | grep "DLL Name:"
+           objdump.exe -x "./target/$env:RUST_TARGET/release/anew.exe" | Select-String "DLL Name:"
            Pop-Location
 }
 #-------------------------------------------------------#
