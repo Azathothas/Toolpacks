@@ -1,9 +1,18 @@
 [
   {
     "Name": "anew-rs.ps1",
-    "Size": "3051 B",
-    "ModTime": "2024-03-29T09:25:00.140641412Z",
+    "Size": "3068 B",
+    "ModTime": "2024-03-29T11:29:07.223017991Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/anew-rs.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "metadata.json",
+    "Size": "552 B",
+    "ModTime": "2024-03-29T12:08:49.970368644Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
