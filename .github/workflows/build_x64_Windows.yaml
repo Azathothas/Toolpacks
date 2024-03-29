@@ -134,7 +134,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          $ErrorActionPreference = "SilentlyContinue" ; $env:ErrorActionPreference = "SilentlyContinue"
           #-------------#
           #Upgrade Choco Packages
           choco upgrade all --prerelease --ignore-unfound --ignore-detected-reboot --yes
@@ -160,7 +160,7 @@ jobs:
       - name: BUILD
         run: |
           #Presets
-          set -x ; set +e
+          $ErrorActionPreference = "SilentlyContinue" ; $env:ErrorActionPreference = "SilentlyContinue"
           #--------------#
           #Fetch
           # Fetch
