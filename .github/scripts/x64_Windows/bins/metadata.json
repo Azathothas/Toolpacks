@@ -28,8 +28,8 @@
   },
   {
     "Name": "coreutils_uutils.ps1",
-    "Size": "3185 B",
-    "ModTime": "2024-03-29T19:17:46.859202685Z",
+    "Size": "10.83 kB",
+    "ModTime": "2024-03-29T20:08:45.081965100Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +37,8 @@
   },
   {
     "Name": "metadata.json",
-    "Size": "831 B",
-    "ModTime": "2024-03-29T18:32:13.697873529Z",
+    "Size": "1393 B",
+    "ModTime": "2024-03-29T19:23:35.092116027Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
