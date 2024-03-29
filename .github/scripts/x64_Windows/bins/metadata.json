@@ -2,7 +2,7 @@
   {
     "Name": "actionlint.ps1",
     "Size": "1915 B",
-    "ModTime": "2024-03-29T18:03:02.433122267Z",
+    "ModTime": "2024-03-29T18:32:13.697873529Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/actionlint.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -10,17 +10,35 @@
   },
   {
     "Name": "anew-rs.ps1",
-    "Size": "3056 B",
-    "ModTime": "2024-03-29T17:34:03.468061295Z",
+    "Size": "3136 B",
+    "ModTime": "2024-03-29T19:17:46.859202685Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/anew-rs.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
   },
   {
+    "Name": "botsay.ps1",
+    "Size": "2452 B",
+    "ModTime": "2024-03-29T19:17:46.859202685Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/botsay.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "coreutils_uutils.ps1",
+    "Size": "3185 B",
+    "ModTime": "2024-03-29T19:17:46.859202685Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "metadata.json",
-    "Size": "552 B",
-    "ModTime": "2024-03-29T18:20:59.110166722Z",
+    "Size": "831 B",
+    "ModTime": "2024-03-29T18:32:13.697873529Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
