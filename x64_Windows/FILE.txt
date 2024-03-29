@@ -1,0 +1,10 @@
+METADATA.json.tmp: JSON text data
+actionlint.exe:    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+anew.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 10 sections
+b3sum.exe:         PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+croc.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+dust.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 10 sections
+eget.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+stP1kAlM:          empty
+upx.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 3 sections
+yq.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections

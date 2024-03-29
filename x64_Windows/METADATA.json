@@ -1,0 +1,164 @@
+[
+  {
+    "Name": "BLAKE3SUM.txt",
+    "Size": "773 B",
+    "ModTime": "2024-03-29T18:10:22.709720600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/BLAKE3SUM.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "BUILD.log.txt",
+    "Size": "81.87 kB",
+    "ModTime": "2024-03-29T17:52:39.206825400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/BUILD.log.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "FILE.txt",
+    "Size": "935 B",
+    "ModTime": "2024-03-29T18:10:18.162967000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/FILE.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "METADATA.json",
+    "Size": "504 B",
+    "ModTime": "2024-03-10T18:15:50.983361115Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "METADATA.json.tmp",
+    "Size": "2241 B",
+    "ModTime": "2024-03-29T15:21:20.573989000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json.tmp",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "SHA256SUM.txt",
+    "Size": "773 B",
+    "ModTime": "2024-03-29T18:10:24.256566800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/SHA256SUM.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "SIZE.txt",
+    "Size": "293 B",
+    "ModTime": "2024-03-29T18:10:19.663733700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/SIZE.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "_toolpack_x64_Windows.7z",
+    "Size": "8.64 MB",
+    "ModTime": "2024-03-29T18:10:32.350360500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows.7z",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "_toolpack_x64_Windows_BLAKE3SUM.txt",
+    "Size": "93 B",
+    "ModTime": "2024-03-29T18:10:34.600345100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows_BLAKE3SUM.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "_toolpack_x64_Windows_SHA256SUM.txt",
+    "Size": "95 B",
+    "ModTime": "2024-03-29T18:10:36.193982700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows_SHA256SUM.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "actionlint.exe",
+    "Size": "5.54 MB",
+    "ModTime": "2024-03-29T18:10:03.804124500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/actionlint.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "anew.exe",
+    "Size": "752.13 kB",
+    "ModTime": "2024-03-29T18:10:04.746190600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/anew.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "b3sum.exe",
+    "Size": "1.06 MB",
+    "ModTime": "2024-03-29T11:24:05.324072000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/b3sum.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "croc.exe",
+    "Size": "11.57 MB",
+    "ModTime": "2024-03-29T11:24:05.338869900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/croc.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dust.exe",
+    "Size": "2.55 MB",
+    "ModTime": "2024-03-29T11:24:05.371955800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/dust.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "eget.exe",
+    "Size": "6.58 MB",
+    "ModTime": "2024-03-29T07:40:17.329540100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/eget.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "upx.exe",
+    "Size": "564.22 kB",
+    "ModTime": "2024-03-29T11:24:05.355607900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/upx.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "yq.exe",
+    "Size": "10.35 MB",
+    "ModTime": "2024-03-29T11:24:05.312053200Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/yq.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  }
+]
