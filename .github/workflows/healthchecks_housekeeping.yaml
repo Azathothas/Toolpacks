@@ -814,12 +814,12 @@ jobs:
                echo -e "\n[+] Fetching : $BUILD_URL"
                  curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
                 #export SOURCE_URL=
-                 cat "$BUILDSCRIPT" | grep -o 'export SOURCE_URL="\([^"]*\)"' | sed 's/export SOURCE_URL="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/SOURCE.txt"
+                 cat "$BUILDSCRIPT" | grep -o '$env:SOURCE_URL = "\([^"]*\)"' | sed 's/$env:SOURCE_URL = "\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/SOURCE.txt"
                  REPO_URL="$(cat $SYSTMP/RCLONE/SOURCE.txt)" && export REPO_URL="$REPO_URL"
                 #export BIN= 
-                 cat "$BUILDSCRIPT" | grep -o 'export BIN="\([^"]*\)"' | sed 's/export BIN="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/BINS.txt"
+                 cat "$BUILDSCRIPT" | grep -o '$env:BIN = "\([^"]*\)"' | sed 's/$env:BIN = "\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/BINS.txt"
                 #$BINDIR/*()
-                 cat "$BUILDSCRIPT" | grep -i "\$BINDIR" | sed -n '/\$BINDIR\/\$BIN/! s/.*"\(\$BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
+                 cat "$BUILDSCRIPT" | grep -i "\$env:BINDIR" | sed -n '/\$env:BINDIR\/\$env:BIN/! s/.*"\(\$env:BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
                  sort -u "$SYSTMP/RCLONE/BINS.txt" -o "$SYSTMP/RCLONE/BINS.txt"
                 #Merge with json
                  for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g'); do
