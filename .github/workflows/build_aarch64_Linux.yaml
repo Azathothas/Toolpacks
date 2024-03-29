@@ -115,6 +115,14 @@ jobs:
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
           rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          ##Scripts_aarch64_Linux
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       #Main Build Script
