@@ -21,19 +21,12 @@ if (
 ##Main
 $env:SKIP_BUILD = "NO" # YES, in case of deleted repos, broken builds etc
 if ($env:SKIP_BUILD -eq "NO") {
-   #anew-rs: An efficient way to filter duplicate lines from input, à la uniq. 
-    $env:BIN = "anew-rs" # Name of final binary/pkg/cli, sometimes differs from $REPO
-    $env:SOURCE_URL = "https://github.com/zer0yu/anew" # github/gitlab/homepage/etc for $BIN
+   #actionlint : :octocat: Static checker for GitHub Actions workflow files
+    $env:BIN = "actionlint" # Name of final binary/pkg/cli, sometimes differs from $REPO
+    $env:SOURCE_URL = "https://github.com/rhysd/actionlint" # github/gitlab/homepage/etc for $BIN
     Write-Host "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
-    #Build
-      Push-Location (& $TMPDIRS) ; git clone --quiet --filter "blob:none" "https://github.com/Azathothas/anew-rs" ; Set-Location "./anew-rs" ; (Resolve-Path ".\").Path
-      $env:RUST_TARGET = "x86_64-pc-windows-gnu" ; rustup target add "$env:RUST_TARGET"
-      $env:RUSTFLAGS = "-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
-      (Get-Content -Path "./Cargo.toml" -Raw) -replace "(?s)\[profile\.release\].*?(?=\n\[|$)", "" | Set-Content -Path "./Cargo.toml" ; Add-Content "./Cargo.toml" "[profile.release]`nstrip = true`nopt-level = 3`nlto = true"
-      cargo build --target "$env:RUST_TARGET" --release --jobs "$(Invoke-Expression "[int]$env:NUMBER_OF_PROCESSORS + 1")" --keep-going ; Copy-Item "./target/$env:RUST_TARGET/release/anew.exe" "$env:BINDIR/anew.exe"
-      file.exe "./target/$env:RUST_TARGET/release/anew.exe" ; (Get-Item -Path "./target/$env:RUST_TARGET/release/anew.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-      objdump.exe -x "./target/$env:RUST_TARGET/release/anew.exe" | Select-String "DLL Name:"
-      Pop-Location
+    #Fetch 
+     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" ($EGET_EXCLUDE -split ' ') --to "$env:BINDIR/actionlint.exe"
 }
 #-------------------------------------------------------#
 
