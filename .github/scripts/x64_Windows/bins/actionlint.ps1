@@ -26,7 +26,7 @@ if ($env:SKIP_BUILD -eq "NO") {
     $env:SOURCE_URL = "https://github.com/rhysd/actionlint" # github/gitlab/homepage/etc for $BIN
     Write-Host "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
-     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" ($EGET_EXCLUDE -split ' ') --to "$env:BINDIR/actionlint.exe"
+     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --to "$env:BINDIR/actionlint.exe"
 }
 #-------------------------------------------------------#
 
