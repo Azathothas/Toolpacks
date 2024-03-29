@@ -118,7 +118,7 @@
       "description": "Fast web fuzzer written in Go",
       "author": "ffuf",
       "repo": "https://github.com/ffuf/ffuf",
-      "stars": "11266",
+      "stars": "11267",
       "version": "v2.1.0",
       "updated": "2023-09-16T12:23:19Z",
       "size": "8.58 MB",
