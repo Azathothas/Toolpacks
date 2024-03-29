@@ -61,10 +61,18 @@
    eget "https://bin.ajam.dev/x64_Windows/b3sum.exe" --to "$env:SYSTEMROOT/b3sum.exe"
   #croc
    eget "https://bin.ajam.dev/x64_Windows/croc.exe" --to "$env:SYSTEMROOT/croc.exe"
+  #curl
+   choco install "curl" --prerelease --force --yes
+   vcpk install "curl" --clean-after-build
   #delta
    choco install "delta" --prerelease --force --yes
   #dust
    eget "https://bin.ajam.dev/x64_Windows/dust.exe" --to "$env:SYSTEMROOT/dust.exe"
+  #openssl
+   choco install "openssl" --prerelease --force --yes
+   vcpk install "openssl" --clean-after-build
+  #protobuf
+   vcpk install "protobuf" --clean-after-build
   ##rclone
   # choco install "rclone" --prerelease --force --yes
   #upx
