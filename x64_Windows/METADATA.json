@@ -28,8 +28,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "3923 B",
-    "ModTime": "2024-03-29T19:34:19.883447198Z",
+    "Size": "3976 B",
+    "ModTime": "2024-03-29T20:24:54.811185019Z",
     "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -85,18 +85,18 @@
     "Size": "5.54 MB",
     "ModTime": "2024-03-29T18:10:03.804124500Z",
     "Source": "https://bin.ajam.dev/x64_Windows/actionlint.exe",
-    "B3SUM": "",
-    "SHA256": "",
-    "Repo": "https://github.com/rhysd/actionlint"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "anew.exe",
     "Size": "752.13 kB",
     "ModTime": "2024-03-29T18:10:04.746190600Z",
     "Source": "https://bin.ajam.dev/x64_Windows/anew.exe",
-    "B3SUM": "",
-    "SHA256": "",
-    "Repo": "https://github.com/zer0yu/anew"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "b3sum.exe",
