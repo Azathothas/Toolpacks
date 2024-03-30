@@ -1,8 +1,8 @@
 [
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "773 B",
-    "ModTime": "2024-03-29T18:10:22.709720600Z",
+    "Size": "7287 B",
+    "ModTime": "2024-03-29T23:04:29.083282100Z",
     "Source": "https://bin.ajam.dev/x64_Windows/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -10,8 +10,8 @@
   },
   {
     "Name": "BUILD.log.txt",
-    "Size": "81.87 kB",
-    "ModTime": "2024-03-29T17:52:39.206825400Z",
+    "Size": "495.93 kB",
+    "ModTime": "2024-03-29T23:05:10.236955100Z",
     "Source": "https://bin.ajam.dev/x64_Windows/BUILD.log.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -19,8 +19,8 @@
   },
   {
     "Name": "FILE.txt",
-    "Size": "935 B",
-    "ModTime": "2024-03-29T18:10:18.162967000Z",
+    "Size": "10.26 kB",
+    "ModTime": "2024-03-29T23:04:24.274912800Z",
     "Source": "https://bin.ajam.dev/x64_Windows/FILE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -29,7 +29,7 @@
   {
     "Name": "METADATA.json",
     "Size": "3923 B",
-    "ModTime": "2024-03-29T21:11:25.200719857Z",
+    "ModTime": "2024-03-29T21:21:12.427387117Z",
     "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +37,8 @@
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "773 B",
-    "ModTime": "2024-03-29T18:10:24.256566800Z",
+    "Size": "7287 B",
+    "ModTime": "2024-03-29T23:04:31.148098100Z",
     "Source": "https://bin.ajam.dev/x64_Windows/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -46,8 +46,8 @@
   },
   {
     "Name": "SIZE.txt",
-    "Size": "293 B",
-    "ModTime": "2024-03-29T18:10:19.663733700Z",
+    "Size": "2650 B",
+    "ModTime": "2024-03-29T23:04:26.810924100Z",
     "Source": "https://bin.ajam.dev/x64_Windows/SIZE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -55,8 +55,8 @@
   },
   {
     "Name": "_toolpack_x64_Windows.7z",
-    "Size": "8.64 MB",
-    "ModTime": "2024-03-29T18:10:32.350360500Z",
+    "Size": "26.29 MB",
+    "ModTime": "2024-03-29T23:05:02.466643000Z",
     "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows.7z",
     "B3SUM": null,
     "SHA256": null,
@@ -65,7 +65,7 @@
   {
     "Name": "_toolpack_x64_Windows_BLAKE3SUM.txt",
     "Size": "93 B",
-    "ModTime": "2024-03-29T18:10:34.600345100Z",
+    "ModTime": "2024-03-29T23:05:07.048037200Z",
     "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows_BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -74,7 +74,7 @@
   {
     "Name": "_toolpack_x64_Windows_SHA256SUM.txt",
     "Size": "95 B",
-    "ModTime": "2024-03-29T18:10:36.193982700Z",
+    "ModTime": "2024-03-29T23:05:08.562332200Z",
     "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows_SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -83,17 +83,35 @@
   {
     "Name": "actionlint.exe",
     "Size": "5.54 MB",
-    "ModTime": "2024-03-29T18:10:03.804124500Z",
+    "ModTime": "2024-03-29T23:01:12.618630900Z",
     "Source": "https://bin.ajam.dev/x64_Windows/actionlint.exe",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
   },
   {
+    "Name": "anew-rs.exe",
+    "Size": "816.13 kB",
+    "ModTime": "2024-03-29T23:01:13.251502900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/anew-rs.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "anew.exe",
-    "Size": "752.13 kB",
-    "ModTime": "2024-03-29T18:10:04.746190600Z",
+    "Size": "816.13 kB",
+    "ModTime": "2024-03-29T23:01:14.263791600Z",
     "Source": "https://bin.ajam.dev/x64_Windows/anew.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "arch.exe",
+    "Size": "839.17 kB",
+    "ModTime": "2024-03-29T23:01:15.270553000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/arch.exe",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -101,8 +119,107 @@
   {
     "Name": "b3sum.exe",
     "Size": "1.06 MB",
-    "ModTime": "2024-03-29T11:24:05.324072000Z",
+    "ModTime": "2024-03-29T23:01:16.277291800Z",
     "Source": "https://bin.ajam.dev/x64_Windows/b3sum.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "base32.exe",
+    "Size": "954.88 kB",
+    "ModTime": "2024-03-29T23:01:17.274385900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/base32.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "base64.exe",
+    "Size": "954.88 kB",
+    "ModTime": "2024-03-29T23:01:18.295815400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/base64.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "basename.exe",
+    "Size": "845.82 kB",
+    "ModTime": "2024-03-29T23:01:19.296527100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/basename.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "basenc.exe",
+    "Size": "978.94 kB",
+    "ModTime": "2024-03-29T23:01:20.317693700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/basenc.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "botsay.exe",
+    "Size": "1.7 MB",
+    "ModTime": "2024-03-29T23:01:21.334002100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/botsay.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "cat.exe",
+    "Size": "873.47 kB",
+    "ModTime": "2024-03-29T23:01:22.318555600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/cat.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "cksum.exe",
+    "Size": "1.03 MB",
+    "ModTime": "2024-03-29T23:01:23.325236000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/cksum.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "comm.exe",
+    "Size": "852.48 kB",
+    "ModTime": "2024-03-29T23:01:24.327497700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/comm.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "coreutils-rs.exe",
+    "Size": "9.79 MB",
+    "ModTime": "2024-03-29T23:01:25.456863400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/coreutils-rs.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "coreutils.exe",
+    "Size": "9.79 MB",
+    "ModTime": "2024-03-29T23:01:26.469248400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/coreutils.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "cp.exe",
+    "Size": "1.29 MB",
+    "ModTime": "2024-03-29T23:01:27.344438900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/cp.exe",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -117,10 +234,109 @@
     "Repo": null
   },
   {
+    "Name": "csplit.exe",
+    "Size": "2.42 MB",
+    "ModTime": "2024-03-29T23:01:28.360264600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/csplit.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "curl.exe",
+    "Size": "7.46 MB",
+    "ModTime": "2024-03-29T23:01:29.439068100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/curl.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "cut.exe",
+    "Size": "929.79 kB",
+    "ModTime": "2024-03-29T23:01:30.345484500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/cut.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "date.exe",
+    "Size": "2.47 MB",
+    "ModTime": "2024-03-29T23:01:31.368019000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/date.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dd.exe",
+    "Size": "1.03 MB",
+    "ModTime": "2024-03-29T23:01:32.352512900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/dd.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "df.exe",
+    "Size": "982.53 kB",
+    "ModTime": "2024-03-29T23:01:33.352743800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/df.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dir.exe",
+    "Size": "1.3 MB",
+    "ModTime": "2024-03-29T23:01:34.353201800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/dir.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dircolors.exe",
+    "Size": "915.97 kB",
+    "ModTime": "2024-03-29T23:01:35.354096700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/dircolors.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dirname.exe",
+    "Size": "827.9 kB",
+    "ModTime": "2024-03-29T23:01:36.354801800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/dirname.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "du.exe",
+    "Size": "1.16 MB",
+    "ModTime": "2024-03-29T23:01:37.364294300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/du.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "dust.exe",
     "Size": "2.55 MB",
     "ModTime": "2024-03-29T11:24:05.371955800Z",
     "Source": "https://bin.ajam.dev/x64_Windows/dust.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "echo.exe",
+    "Size": "827.9 kB",
+    "ModTime": "2024-03-29T23:01:38.364583300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/echo.exe",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -135,10 +351,577 @@
     "Repo": null
   },
   {
+    "Name": "env.exe",
+    "Size": "1.04 MB",
+    "ModTime": "2024-03-29T23:01:39.364803500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/env.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "expand.exe",
+    "Size": "886.78 kB",
+    "ModTime": "2024-03-29T23:01:40.365109900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/expand.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "expr.exe",
+    "Size": "1.45 MB",
+    "ModTime": "2024-03-29T23:01:41.365525500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/expr.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "factor.exe",
+    "Size": "899.07 kB",
+    "ModTime": "2024-03-29T23:01:42.365772300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/factor.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "false.exe",
+    "Size": "763.9 kB",
+    "ModTime": "2024-03-29T23:01:43.366547200Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/false.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "find-rs.exe",
+    "Size": "2.08 MB",
+    "ModTime": "2024-03-29T23:01:44.382529100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/find-rs.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "find.exe",
+    "Size": "2.08 MB",
+    "ModTime": "2024-03-29T23:01:45.382947700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/find.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "fmt.exe",
+    "Size": "930.82 kB",
+    "ModTime": "2024-03-29T23:01:46.368028800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/fmt.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "fold.exe",
+    "Size": "875.52 kB",
+    "ModTime": "2024-03-29T23:01:47.374978600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/fold.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "hashsum.exe",
+    "Size": "2.58 MB",
+    "ModTime": "2024-03-29T23:01:48.406485600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/hashsum.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "head.exe",
+    "Size": "916.99 kB",
+    "ModTime": "2024-03-29T23:01:49.380202800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/head.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "hostname.exe",
+    "Size": "861.18 kB",
+    "ModTime": "2024-03-29T23:01:50.380396400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/hostname.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "join.exe",
+    "Size": "935.42 kB",
+    "ModTime": "2024-03-29T23:01:51.380808400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/join.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "link.exe",
+    "Size": "842.24 kB",
+    "ModTime": "2024-03-29T23:01:52.380940900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/link.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ln.exe",
+    "Size": "949.25 kB",
+    "ModTime": "2024-03-29T23:01:53.381642500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/ln.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ls.exe",
+    "Size": "1.31 MB",
+    "ModTime": "2024-03-29T23:01:54.390674300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/ls.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "mkdir.exe",
+    "Size": "855.55 kB",
+    "ModTime": "2024-03-29T23:01:55.391141300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/mkdir.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "mktemp.exe",
+    "Size": "946.69 kB",
+    "ModTime": "2024-03-29T23:01:56.392740300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/mktemp.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "more.exe",
+    "Size": "1.01 MB",
+    "ModTime": "2024-03-29T23:01:57.408755700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/more.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "mv.exe",
+    "Size": "1.17 MB",
+    "ModTime": "2024-03-29T23:01:58.424778100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/mv.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "nl.exe",
+    "Size": "2.38 MB",
+    "ModTime": "2024-03-29T23:01:59.441105000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/nl.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "nproc.exe",
+    "Size": "840.7 kB",
+    "ModTime": "2024-03-29T23:02:00.425638500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/nproc.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "numfmt.exe",
+    "Size": "966.14 kB",
+    "ModTime": "2024-03-29T23:02:01.441556700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/numfmt.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "od.exe",
+    "Size": "1.03 MB",
+    "ModTime": "2024-03-29T23:02:02.458129100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/od.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "paste.exe",
+    "Size": "849.92 kB",
+    "ModTime": "2024-03-29T23:02:03.457940300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/paste.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pr.exe",
+    "Size": "2.51 MB",
+    "ModTime": "2024-03-29T23:02:04.479869500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/pr.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "printenv.exe",
+    "Size": "815.62 kB",
+    "ModTime": "2024-03-29T23:02:05.465214000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/printenv.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "printf.exe",
+    "Size": "925.18 kB",
+    "ModTime": "2024-03-29T23:02:06.466316100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/printf.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ptx.exe",
+    "Size": "2.47 MB",
+    "ModTime": "2024-03-29T23:02:07.482059400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/ptx.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pwd.exe",
+    "Size": "830.98 kB",
+    "ModTime": "2024-03-29T23:02:08.467200200Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/pwd.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "readlink.exe",
+    "Size": "891.39 kB",
+    "ModTime": "2024-03-29T23:02:09.467360000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/readlink.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "realpath.exe",
+    "Size": "902.14 kB",
+    "ModTime": "2024-03-29T23:02:10.468178500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/realpath.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "rm.exe",
+    "Size": "931.33 kB",
+    "ModTime": "2024-03-29T23:02:11.467948100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/rm.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "rmdir.exe",
+    "Size": "849.41 kB",
+    "ModTime": "2024-03-29T23:02:12.468782000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/rmdir.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "seq.exe",
+    "Size": "1.06 MB",
+    "ModTime": "2024-03-29T23:02:13.468410800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/seq.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "shred.exe",
+    "Size": "913.92 kB",
+    "ModTime": "2024-03-29T23:02:14.469336800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/shred.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "shuf.exe",
+    "Size": "929.79 kB",
+    "ModTime": "2024-03-29T23:02:15.469251100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/shuf.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "sleep.exe",
+    "Size": "846.34 kB",
+    "ModTime": "2024-03-29T23:02:16.470523600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/sleep.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "sort.exe",
+    "Size": "1.69 MB",
+    "ModTime": "2024-03-29T23:02:17.485812000Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/sort.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "split.exe",
+    "Size": "989.18 kB",
+    "ModTime": "2024-03-29T23:02:18.470993500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/split.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "sum.exe",
+    "Size": "869.38 kB",
+    "ModTime": "2024-03-29T23:02:19.470667700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/sum.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "sync.exe",
+    "Size": "848.38 kB",
+    "ModTime": "2024-03-29T23:02:20.471409600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/sync.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "tac.exe",
+    "Size": "2.34 MB",
+    "ModTime": "2024-03-29T23:02:21.486648800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/tac.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "tail.exe",
+    "Size": "1.36 MB",
+    "ModTime": "2024-03-29T23:02:22.471870800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/tail.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "tee.exe",
+    "Size": "890.88 kB",
+    "ModTime": "2024-03-29T23:02:23.477331300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/tee.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "test.exe",
+    "Size": "857.6 kB",
+    "ModTime": "2024-03-29T23:02:24.476515100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/test.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "touch.exe",
+    "Size": "2.46 MB",
+    "ModTime": "2024-03-29T23:02:25.507670300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/touch.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "tr.exe",
+    "Size": "911.36 kB",
+    "ModTime": "2024-03-29T23:02:26.477257700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/tr.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "true.exe",
+    "Size": "763.9 kB",
+    "ModTime": "2024-03-29T23:02:27.477145800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/true.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "truncate.exe",
+    "Size": "860.16 kB",
+    "ModTime": "2024-03-29T23:02:28.478050400Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/truncate.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "trurl.exe",
+    "Size": "7.04 MB",
+    "ModTime": "2024-03-29T23:02:29.555752900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/trurl.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "tsort.exe",
+    "Size": "893.44 kB",
+    "ModTime": "2024-03-29T23:02:30.478426700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/tsort.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "uname.exe",
+    "Size": "866.3 kB",
+    "ModTime": "2024-03-29T23:02:31.478216300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/uname.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "unexpand.exe",
+    "Size": "887.3 kB",
+    "ModTime": "2024-03-29T23:02:32.484966500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/unexpand.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "uniq.exe",
+    "Size": "926.21 kB",
+    "ModTime": "2024-03-29T23:02:33.484619300Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/uniq.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "unlink.exe",
+    "Size": "839.68 kB",
+    "ModTime": "2024-03-29T23:02:34.485625200Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/unlink.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "upx.exe",
     "Size": "564.22 kB",
     "ModTime": "2024-03-29T11:24:05.355607900Z",
     "Source": "https://bin.ajam.dev/x64_Windows/upx.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "vdir.exe",
+    "Size": "1.3 MB",
+    "ModTime": "2024-03-29T23:02:35.485677100Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/vdir.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "wc.exe",
+    "Size": "936.45 kB",
+    "ModTime": "2024-03-29T23:02:36.502174900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/wc.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "wget2.exe",
+    "Size": "4.61 MB",
+    "ModTime": "2024-03-29T23:02:37.549465600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/wget2.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "whoami.exe",
+    "Size": "820.74 kB",
+    "ModTime": "2024-03-29T23:02:38.502943800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/whoami.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "xargs-rs.exe",
+    "Size": "894.46 kB",
+    "ModTime": "2024-03-29T23:02:39.503344500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/xargs-rs.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "xargs.exe",
+    "Size": "894.46 kB",
+    "ModTime": "2024-03-29T23:02:40.504216900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/xargs.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "yes.exe",
+    "Size": "820.22 kB",
+    "ModTime": "2024-03-29T23:02:41.504437900Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/yes.exe",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
