@@ -26,8 +26,10 @@ if ($env:SKIP_BUILD -eq "NO") {
     $env:SOURCE_URL = "https://frippery.org/busybox/" # github/gitlab/homepage/etc for $BIN
     Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
-     eget "https://frippery.org/files/busybox/busybox64.exe" --to "$env:BINDIR\busybox.exe"
-     eget "https://frippery.org/files/busybox/busybox64u.exe" --to "$env:BINDIR\busybox-unicode.exe"
+     #eget "https://frippery.org/files/busybox/busybox64.exe" --to "$env:BINDIR\busybox.exe"
+     #eget "https://frippery.org/files/busybox/busybox64u.exe" --to "$env:BINDIR\busybox-unicode.exe"
+     curl -qfsSL "https://frippery.org/files/busybox/busybox64.exe" -A "$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" -o "$env:BINDIR\busybox.exe"
+     curl -qfsSL "https://frippery.org/files/busybox/busybox64u.exe" -A "$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" -o "$env:BINDIR\busybox-unicode.exe"
 }
 #-------------------------------------------------------#
 
