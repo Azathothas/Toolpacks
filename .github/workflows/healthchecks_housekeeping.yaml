@@ -258,6 +258,8 @@ jobs:
            cat "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.txt" >> "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.md" 2>/dev/null
            echo '```' >> "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.md" 2>/dev/null
            rclone copyto --checksum "r2:/bin/x64_Windows/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/x64_Windows/SHA256SUM.txt" 2>/dev/null
+           ##README From Hysp
+           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/x64_Windows/README.md" -o "$GITHUB_WORKSPACE/main/x64_Windows/README.md"
         continue-on-error: true
 #-----------------------------------------------------#
 #------------------------------------------------------------------------------------#
