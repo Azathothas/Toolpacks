@@ -1,13 +1,28 @@
 ```mathematica
- 163M └─┬ .
+ 871M └─┬ .
+ 151M   ├── pandoc.exe
+ 131M   ├── ffmpeg.exe
+ 130M   ├── ffprobe.exe
+ 130M   ├── ffplay.exe
+  25M   ├── cloudflared.exe
+  24M   ├── ngrok.exe
+  16M   ├── gix.exe
+  13M   ├── gdu.exe
+  11M   ├── micro.exe
+  11M   ├── cheat.exe
   11M   ├── croc.exe
+  10M   ├── pdfcpu.exe
  9.9M   ├── yq.exe
  9.3M   ├── coreutils.exe
  9.3M   ├── coreutils-rs.exe
+ 8.7M   ├── ein.exe
  7.1M   ├── curl.exe
  6.7M   ├── trurl.exe
  6.3M   ├── eget.exe
+ 6.0M   ├── batcat.exe
+ 6.0M   ├── bat.exe
  5.3M   ├── actionlint.exe
+ 5.1M   ├── rg.exe
  4.4M   ├── wget2.exe
  2.5M   ├── hashsum.exe
  2.4M   ├── dust.exe
@@ -17,17 +32,33 @@
  2.3M   ├── touch.exe
  2.3M   ├── csplit.exe
  2.3M   ├── nl.exe
+ 2.2M   ├── pdftops.exe
  2.2M   ├── tac.exe
+ 2.2M   ├── err.exe
+ 2.1M   ├── pdftopng.exe
+ 2.1M   ├── pdftoppm.exe
  2.0M   ├── find.exe
  2.0M   ├── find-rs.exe
+ 1.8M   ├── miniserve.exe
+ 1.7M   ├── inscope.exe
  1.6M   ├── botsay.exe
  1.6M   ├── sort.exe
+ 1.5M   ├── dua.exe
  1.4M   ├── expr.exe
+ 1.3M   ├── pdftotext.exe
  1.3M   ├── tail.exe
+ 1.3M   ├── pdfimages.exe
+ 1.3M   ├── fastfetch.exe
+ 1.3M   ├── hyperfine.exe
+ 1.3M   ├── 7z.exe
  1.3M   ├── ls.exe
  1.2M   ├── vdir.exe
  1.2M   ├── dir.exe
  1.2M   ├── cp.exe
+ 1.2M   ├── pdfinfo.exe
+ 1.2M   ├── pdffonts.exe
+ 1.2M   ├── pdfdetach.exe
+ 1.1M   ├── flashfetch.exe
  1.1M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── b3sum.exe
@@ -38,13 +69,14 @@
 1006K   ├── dd.exe
  982K   ├── more.exe
  966K   ├── split.exe
+ 962K   ├── jq.exe
  959K   ├── df.exe
  956K   ├── basenc.exe
  943K   ├── numfmt.exe
  932K   ├── base64.exe
  932K   ├── base32.exe
  927K   ├── ln.exe
- 924K   ├── mktemp.exe
+ 925K   ├── mktemp.exe
  914K   ├── wc.exe
  913K   ├── join.exe
  909K   ├── rm.exe
@@ -94,5 +126,11 @@
  796K   ├── printenv.exe
  746K   ├── true.exe
  746K   ├── false.exe
- 551K   └── upx.exe
+ 551K   ├── upx.exe
+ 169K   ├── yt-dlp.exe
+ 138K   ├── iperf3.exe
+ 278B   ├── busybox.exe
+ 278B   ├── busybox-unicode.exe
+   0B   ├── stiG2Kb7
+   0B   └── stP1kAlM
 ```
