@@ -14,7 +14,7 @@ comm.exe:         PE32+ executable (console) x86-64 (stripped to external PDB), 
 coreutils-rs.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 coreutils.exe:    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 cp.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
-croc.exe:         PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+croc.exe:         PE32+ executable (console) x86-64, for MS Windows, 15 sections
 csplit.exe:       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 curl.exe:         PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
 cut.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
@@ -92,4 +92,4 @@ whoami.exe:       PE32+ executable (console) x86-64 (stripped to external PDB), 
 xargs-rs.exe:     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 xargs.exe:        PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 yes.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
-yq.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+yq.exe:           PE32+ executable (console) x86-64, for MS Windows, 8 sections

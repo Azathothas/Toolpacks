@@ -1,9 +1,9 @@
 ```mathematica
- 160M └─┬ .
+ 163M └─┬ .
+  11M   ├── croc.exe
  9.9M   ├── yq.exe
  9.3M   ├── coreutils.exe
  9.3M   ├── coreutils-rs.exe
- 8.2M   ├── croc.exe
  7.1M   ├── curl.exe
  6.7M   ├── trurl.exe
  6.3M   ├── eget.exe
