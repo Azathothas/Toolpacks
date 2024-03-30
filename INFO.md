@@ -15,9 +15,10 @@
 > > - [**` Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
 > > - [**` How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
 > - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
-> > - [**`📦Linux x86_64📦`**](https://github.com/Azathothas/Toolpacks/tree/main#linux-amd-x86_64) 
-> > - [**`📦Linux aarch64📦`**](https://github.com/Azathothas/Toolpacks/tree/main#linux-aarch64_arm64)
-> > - [**`📦Android arm64-v8a📦`**](https://github.com/Azathothas/Toolpacks/tree/main#android-arm64-v8a)
+> > - [**`📦Linux x86_64📦`**](https://bin.ajam.dev/x86_64_Linux/) 
+> > - [**`📦Linux aarch64📦`**](https://bin.ajam.dev/aarch64_arm64_Linux/)
+> > - [**`📦Windows_NT AMD64📦`**](https://bin.ajam.dev/x64_Windows/)
+> > - [**`📦Android arm64-v8a📦`**](https://bin.ajam.dev/arm64_v8a_Android/)
 > - [**📦 Status 🔖**](https://github.com/Azathothas/Toolpacks/tree/main#-status-)
 > - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks#-security-%EF%B8%8F)
 ---
@@ -26,8 +27,9 @@
 | 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 |
 |---------------------|-----------------------|-----------------|
 |[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|PLACEHOLDER_arm64_v8a_Android| [![📱 Android Package 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_fetch_weekly_toolpack_aarch64_arm64_v8a_Android.yaml)|
-|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|PLACEHOLDER_x86_64_Linux| [![🛍️ Build ⚙️ Weekly (toolpack_x86_64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_x86_64.yaml)|
-|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|PLACEHOLDER_aarch64_arm64_Linux| [![🛍️ Build ⚙️ Weekly (toolpack_aarch64_arm64) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_weekly_toolpack_aarch64_arm64.yaml)|
+|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|PLACEHOLDER_x86_64_Linux| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|
+|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|PLACEHOLDER_aarch64_arm64_Linux| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|
+|[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|PLACEHOLDER_x64_Windows| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|
 
 > - Raw [**`metadata`**](https://github.com/Azathothas/Toolpacks/blob/main/metadata.json) containing info for _all packages_ is available as [**`json`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.json) & [**`toml`**](https://github.com/metis-os/hysp-pkgs/blob/main/data/metadata.toml) --> [metis-os/hysp-pkgs](https://github.com/metis-os/hysp-pkgs/tree/main/data)
 > - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as **JSON** on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json)
