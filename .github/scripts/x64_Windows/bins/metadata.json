@@ -18,6 +18,15 @@
     "Repo": null
   },
   {
+    "Name": "b3sum.ps1",
+    "Size": "1926 B",
+    "ModTime": "2024-03-29T20:50:34.490673055Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/b3sum.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "botsay.ps1",
     "Size": "2452 B",
     "ModTime": "2024-03-29T19:17:46.859202685Z",
@@ -36,10 +45,37 @@
     "Repo": null
   },
   {
+    "Name": "curl.ps1",
+    "Size": "2018 B",
+    "ModTime": "2024-03-29T20:50:34.490673055Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/curl.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "findutils_uutils.ps1",
+    "Size": "3562 B",
+    "ModTime": "2024-03-29T20:50:34.490673055Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/findutils_uutils.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "metadata.json",
-    "Size": "1393 B",
-    "ModTime": "2024-03-29T19:23:35.092116027Z",
+    "Size": "2492 B",
+    "ModTime": "2024-03-29T22:34:39.172858933Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "wget2.ps1",
+    "Size": "1866 B",
+    "ModTime": "2024-03-29T20:50:34.490673055Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/wget2.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null

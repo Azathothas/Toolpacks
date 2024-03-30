@@ -1,13 +1,98 @@
 ```mathematica
-  34M └─┬ .
-9.9M   ├── yq.exe
-8.2M   ├── croc.exe
-6.3M   ├── eget.exe
-5.3M   ├── actionlint.exe
-2.4M   ├── dust.exe
-1.0M   ├── b3sum.exe
-734K   ├── anew.exe
-551K   ├── upx.exe
-2.2K   ├── METADATA.json.tmp
-  0B   └── stP1kAlM
+ 160M └─┬ .
+ 9.9M   ├── yq.exe
+ 9.3M   ├── coreutils.exe
+ 9.3M   ├── coreutils-rs.exe
+ 8.2M   ├── croc.exe
+ 7.1M   ├── curl.exe
+ 6.7M   ├── trurl.exe
+ 6.3M   ├── eget.exe
+ 5.3M   ├── actionlint.exe
+ 4.4M   ├── wget2.exe
+ 2.5M   ├── hashsum.exe
+ 2.4M   ├── dust.exe
+ 2.4M   ├── pr.exe
+ 2.4M   ├── ptx.exe
+ 2.4M   ├── date.exe
+ 2.3M   ├── touch.exe
+ 2.3M   ├── csplit.exe
+ 2.3M   ├── nl.exe
+ 2.2M   ├── tac.exe
+ 2.0M   ├── find.exe
+ 2.0M   ├── find-rs.exe
+ 1.6M   ├── botsay.exe
+ 1.6M   ├── sort.exe
+ 1.4M   ├── expr.exe
+ 1.3M   ├── tail.exe
+ 1.3M   ├── ls.exe
+ 1.2M   ├── vdir.exe
+ 1.2M   ├── dir.exe
+ 1.2M   ├── cp.exe
+ 1.1M   ├── mv.exe
+ 1.1M   ├── du.exe
+ 1.0M   ├── b3sum.exe
+ 1.0M   ├── seq.exe
+1015K   ├── env.exe
+1010K   ├── cksum.exe
+1007K   ├── od.exe
+1006K   ├── dd.exe
+ 982K   ├── more.exe
+ 966K   ├── split.exe
+ 959K   ├── df.exe
+ 956K   ├── basenc.exe
+ 943K   ├── numfmt.exe
+ 932K   ├── base64.exe
+ 932K   ├── base32.exe
+ 927K   ├── ln.exe
+ 924K   ├── mktemp.exe
+ 914K   ├── wc.exe
+ 913K   ├── join.exe
+ 909K   ├── rm.exe
+ 909K   ├── fmt.exe
+ 908K   ├── shuf.exe
+ 908K   ├── cut.exe
+ 904K   ├── uniq.exe
+ 903K   ├── printf.exe
+ 895K   ├── head.exe
+ 894K   ├── dircolors.exe
+ 892K   ├── shred.exe
+ 890K   ├── tr.exe
+ 881K   ├── realpath.exe
+ 878K   ├── factor.exe
+ 873K   ├── xargs.exe
+ 873K   ├── xargs-rs.exe
+ 872K   ├── tsort.exe
+ 870K   ├── readlink.exe
+ 870K   ├── tee.exe
+ 866K   ├── unexpand.exe
+ 866K   ├── expand.exe
+ 855K   ├── fold.exe
+ 853K   ├── cat.exe
+ 849K   ├── sum.exe
+ 846K   ├── uname.exe
+ 841K   ├── hostname.exe
+ 840K   ├── truncate.exe
+ 837K   ├── test.exe
+ 835K   ├── mkdir.exe
+ 832K   ├── comm.exe
+ 830K   ├── paste.exe
+ 829K   ├── rmdir.exe
+ 828K   ├── sync.exe
+ 826K   ├── sleep.exe
+ 826K   ├── basename.exe
+ 822K   ├── link.exe
+ 821K   ├── nproc.exe
+ 820K   ├── unlink.exe
+ 819K   ├── arch.exe
+ 811K   ├── pwd.exe
+ 808K   ├── echo.exe
+ 808K   ├── dirname.exe
+ 801K   ├── whoami.exe
+ 801K   ├── yes.exe
+ 797K   ├── anew.exe
+ 797K   ├── anew-rs.exe
+ 796K   ├── printenv.exe
+ 746K   ├── true.exe
+ 746K   ├── false.exe
+ 551K   └── upx.exe
 ```

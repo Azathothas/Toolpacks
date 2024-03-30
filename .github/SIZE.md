@@ -27,19 +27,19 @@
 8.0K   │ ├── README.md
 4.0K   │ ├── METADATA.md
 4.0K   │ └── DEBUG.md
+ 44K   ├─┬ x64_Windows
+ 12K   │ ├── FILE.txt
+8.0K   │ ├── SHA256SUM.txt
+8.0K   │ ├── BLAKE3SUM.txt
+4.0K   │ ├── SIZE.txt
+4.0K   │ ├── SIZE.md
+4.0K   │ └── METADATA.json
  44K   ├─┬ arm64_v8a_Android
  12K   │ ├── README.md
 8.0K   │ ├── METADATA.json
 8.0K   │ ├── FILE.txt
 4.0K   │ ├── SIZE.md
 4.0K   │ ├── SHA256SUM.txt
-4.0K   │ └── BLAKE3SUM.txt
- 28K   ├─┬ x64_Windows
-4.0K   │ ├── SIZE.txt
-4.0K   │ ├── SIZE.md
-4.0K   │ ├── SHA256SUM.txt
-4.0K   │ ├── METADATA.json
-4.0K   │ ├── FILE.txt
 4.0K   │ └── BLAKE3SUM.txt
  16K   ├── README.md
  16K   └── INFO.md
