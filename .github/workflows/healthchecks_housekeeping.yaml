@@ -838,7 +838,7 @@ jobs:
             done
           #Update R2
            echo -e "\n Updating Metadata.json\n"
-           rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/x64_Windows/METADATA.json" --check-first --checkers 2000 --transfers 1000 
+           rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/x64_Windows/METADATA.json" --check-first --checkers 2000 --transfers 1000
            rclone delete "r2:/bin/x64_Windows/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000
           #Clean & Purge
            sudo rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"

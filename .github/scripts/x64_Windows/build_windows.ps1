@@ -162,12 +162,12 @@ if ((Get-Command 7z -ErrorAction SilentlyContinue) -and (Get-Command rclone -Err
       Remove-Item -Path "$env:SYSTMP\toolpacks" -Force -Recurse -ErrorAction SilentlyContinue
       Push-Location "$env:BINDIR"     
       rclone copy "r2:/bin/x64_Windows/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
-    #Strip || Cleanup
-      #Chmod +xwr
-       Get-ChildItem -Path "$env:BINDIR" -File | ForEach-Object { $acl = Get-Acl $_.FullName; $accessRule = New-Object System.Security.AccessControl.FileSystemAccessRule("BUILTIN\Users", "FullControl", "Allow"); $acl.SetAccessRule($accessRule); Set-Acl $_.FullName $acl }
-       $files = Get-ChildItem -Path "$env:BINDIR" -File; foreach ($file in $files) { $filePath = $file.FullName; icacls $filePath /grant Everyone:F }
-      #Strip
-       Get-ChildItem -Path "$env:BINDIR" -File | ForEach-Object { Start-Process -FilePath "strip" -ArgumentList "--strip-all $($_.FullName)" -Verb RunAs -Wait }
+    # #Strip || Cleanup
+    #   #Chmod +xwr
+    #    Get-ChildItem -Path "$env:BINDIR" -File | ForEach-Object { $acl = Get-Acl $_.FullName; $accessRule = New-Object System.Security.AccessControl.FileSystemAccessRule("BUILTIN\Users", "FullControl", "Allow"); $acl.SetAccessRule($accessRule); Set-Acl $_.FullName $acl }
+    #    $files = Get-ChildItem -Path "$env:BINDIR" -File; foreach ($file in $files) { $filePath = $file.FullName; icacls $filePath /grant Everyone:F }
+    #   #Strip
+    #    Get-ChildItem -Path "$env:BINDIR" -File | ForEach-Object { Start-Process -FilePath "strip" -ArgumentList "--strip-all $($_.FullName)" -Verb RunAs -Wait }
        #File 
          Push-Location "$env:BINDIR" ; file * | Out-File -FilePath "$env:SYSTMP\x64_Windows_FILE" ; Pop-Location
          rclone copyto "$env:SYSTMP\x64_Windows_FILE" "r2:/bin/x64_Windows/FILE.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
