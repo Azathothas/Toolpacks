@@ -370,18 +370,22 @@ jobs:
            cd "$GITHUB_WORKSPACE/main"
            #Generate $GITHUB_WORKSPACE/main/README.md
            cat "$GITHUB_WORKSPACE/main/INFO.md" > "$GITHUB_WORKSPACE/main/README.md"
-           #bin.ajam.dev/arm64_v8a_Android/
+           ##bin.ajam.dev/arm64_v8a_Android/
            unset TOTAL_PACKAGES
            export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed "s/PLACEHOLDER_arm64_v8a_Android/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
-           #bin.ajam.dev/aarch64_arm64_Linux
+           ##bin.ajam.dev/aarch64_arm64_Linux
            unset TOTAL_PACKAGES
            export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed "s/PLACEHOLDER_aarch64_arm64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
-           #bin.ajam.dev/x86_64_Linux/
+           ##bin.ajam.dev/x86_64_Linux/
            unset TOTAL_PACKAGES
            export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed "s/PLACEHOLDER_x86_64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           ##bin.ajam.dev/x64_Windows/
+           unset TOTAL_PACKAGES
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           sed "s/PLACEHOLDER_x64_Windows/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
         continue-on-error: true
 
       - name: Get DateTime
