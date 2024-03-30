@@ -12,7 +12,7 @@ if (
     ([string]::IsNullOrEmpty($env:TMPDIRS))
 ) {
     #exit
-    Write-Host "`n[+]Skipping Builds...`n"
+    Write-Output "`n[+]Skipping Builds...`n"
     exit 1
 }
 #-------------------------------------------------------#
@@ -24,7 +24,7 @@ if ($env:SKIP_BUILD -eq "NO") {
    #anew-rs: An efficient way to filter duplicate lines from input, à la uniq. 
     $env:BIN = "anew-rs" # Name of final binary/pkg/cli, sometimes differs from $REPO
     $env:SOURCE_URL = "https://github.com/zer0yu/anew" # github/gitlab/homepage/etc for $BIN
-    Write-Host "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
+    Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Build
       Push-Location (& $TMPDIRS) ; git clone --quiet --filter "blob:none" "https://github.com/Azathothas/anew-rs" ; Set-Location "./anew-rs" ; (Resolve-Path ".\").Path
       $env:RUST_TARGET = "x86_64-pc-windows-msvc" ; rustup target add "$env:RUST_TARGET"

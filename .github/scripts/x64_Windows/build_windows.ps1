@@ -23,7 +23,7 @@
  #In case of removed/privated GH repos
  $env:GIT_TERMINAL_PROMPT = "0"
  #https://git-scm.com/docs/git#Documentation/git.txt-codeGITASKPASScode
- $env:GIT_ASKPASS = "Write-Host"
+ $env:GIT_ASKPASS = "Write-Output"
  #In case of eget prompts
  $env:EGET_TIMEOUT = "timeout -k 1m 2m"
  $EGET_EXCLUDE = "--asset `"^386`" --asset `"^aarch64`" --asset `"^apple`" --asset `"^arm`" --asset `"^AppImage`" --asset `"^asc`" --asset `"^crt`" --asset `"^darwin`" --asset `"^deb`" --asset `"^exe`" --asset `"^freebsd`" --asset `"^i686`" --asset `"^linux`" --asset `"^mac`" --asset `"^mips`" --asset `"^rpm`" --asset `"^sbom`" --asset `"^sha`" --asset `"^solaris`" --asset `"^sig`" --asset `"^symbol`""
@@ -37,17 +37,17 @@
  #eget
  Invoke-WebRequest -Uri "https://bin.ajam.dev/x64_Windows/eget.exe" -OutFile "$env:SYSTEMROOT\eget.exe"
   if (-not (Get-Command -Name eget -ErrorAction SilentlyContinue)) {
-        Write-Host "`n[-] FATAL : eget not Installed`n"
+        Write-Output "`n[-] FATAL : eget not Installed`n"
         $env:CONTINUE = "NO" ; exit 1
      } else {
         if ($env:GITHUB_TOKEN) {
             # 5000 req/minute (80 req/minute)
-            Write-Host "GITHUB_TOKEN is Exported"
+            Write-Output "GITHUB_TOKEN is Exported"
             $env:CONTINUE = "YES" ; eget --rate
           } else {
             # 60 req/hr
-            Write-Host "`n[+] GITHUB_TOKEN is NOT Exported"
-            Write-Host "Export it to avoid ratelimits`n"
+            Write-Output "`n[+] GITHUB_TOKEN is NOT Exported"
+            Write-Output "Export it to avoid ratelimits`n"
             eget --rate
            $env:CONTINUE = "NO" ; exit 1
           }
@@ -89,14 +89,14 @@
   Remove-Item "Env:\GOPATH","Env:\GOROOT","Env:\GOTOOLDIR" -ErrorAction SilentlyContinue
   choco install "golang" --prerelease --force --yes ; refreshenv
   if (-not (Get-Command -Name go -ErrorAction SilentlyContinue)) {
-        Write-Host "`n[-] FATAL : Golang NOT Installed`n"
+        Write-Output "`n[-] FATAL : Golang NOT Installed`n"
         $env:CONTINUE = "NO" ; exit 1
      } else {
         $env:CONTINUE = "YES" ; go version
      }
  ##rust
  if (-not (Get-Command -Name rustup -ErrorAction SilentlyContinue)) {
-        Write-Host "`n[-] FATAL : Rust (Cargo) NOT Installed`n"
+        Write-Output "`n[-] FATAL : Rust (Cargo) NOT Installed`n"
         $env:CONTINUE = "NO" ; exit 1
      } else {
         $env:CONTINUE = "YES" ; rustup update --force
@@ -119,10 +119,10 @@
  #Run
   $TimeZone = [System.TimeZoneInfo]::FindSystemTimeZoneById('Nepal Standard Time')
   $LocalTime = [System.TimeZoneInfo]::ConvertTimeFromUtc([System.DateTime]::UtcNow, $TimeZone)
-  Write-Host "`n`n [+] Started Building at :: $($LocalTime.ToString('dddd, yyyy-MM-dd (hh:mm:ss tt)'))`n`n"
+  Write-Output "`n`n [+] Started Building at :: $($LocalTime.ToString('dddd, yyyy-MM-dd (hh:mm:ss tt)'))`n`n"
   Get-Content $env:SYSTMP/BUILDURLS | ForEach-Object {
       $BUILD_URL = $_
-      Write-Host "`n[+] Fetching : $BUILD_URL"
+      Write-Output "`n[+] Fetching : $BUILD_URL"
       Invoke-WebRequest -Uri "$BUILD_URL" -OutFile "$env:SYSTMP/BUILDSCRIPT.ps1" -UseBasicParsing
       Set-ItemProperty -Path "$env:SYSTMP/BUILDSCRIPT.ps1" -Name IsReadOnly -Value $false
       . "$env:SYSTMP/BUILDSCRIPT.ps1"
@@ -132,14 +132,14 @@
   }
   $TimeZone = [System.TimeZoneInfo]::FindSystemTimeZoneById('Nepal Standard Time')
   $LocalTime = [System.TimeZoneInfo]::ConvertTimeFromUtc([System.DateTime]::UtcNow, $TimeZone)
-  Write-Host "`n`n [+] Finished Building at :: $($LocalTime.ToString('dddd, yyyy-MM-dd (hh:mm:ss tt)'))`n`n"
+  Write-Output "`n`n [+] Finished Building at :: $($LocalTime.ToString('dddd, yyyy-MM-dd (hh:mm:ss tt)'))`n`n"
  #Check
   $env:BINDIR_SIZE = "{0:N2} {1}" -f ((Get-ChildItem -Path $env:BINDIR -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum / 1MB), "MB"
   if (-not (Test-Path $env:BINDIR) -or @(Get-ChildItem -Path $env:BINDIR).Count -eq 0 -or [string]::IsNullOrEmpty($env:BINDIR_SIZE) -or $env:BINDIR_SIZE -like "*K*") {
-      Write-Host "`n[+] Broken/Empty Built $env:BINDIR Found`n"
+      Write-Output "`n[+] Broken/Empty Built $env:BINDIR Found`n"
       exit 1
   } else {
-      Write-Host "`n[+] Built $env:BINDIR :: $env:BINDIR_SIZE`n"
+      Write-Output "`n[+] Built $env:BINDIR :: $env:BINDIR_SIZE`n"
   }
 #-------------------------------------------------------#
 
@@ -155,7 +155,7 @@
 #rClone Upload to R2 (bin.ajam.dev/x64_Windows) (x64_Windows) [Binaries]
 if ((Get-Command 7z -ErrorAction SilentlyContinue) -and (Get-Command rclone -ErrorAction SilentlyContinue) -and (Test-Path "$env:APPDATA\rclone\rclone.conf") -and (Test-Path $env:BINDIR) -and (Get-ChildItem -Path $env:BINDIR -Depth 1 | Select-Object -First 1)) {
     #Upload
-      Write-Host "`n[+] Uploading Results to R2 [r2:/bin/x64_Windows] (rclone)`n"
+      Write-Output "`n[+] Uploading Results to R2 [r2:/bin/x64_Windows] (rclone)`n"
       Push-Location "$env:BINDIR"
       rclone copy "." "r2:/bin/x64_Windows/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress ; Pop-Location
     #Fetch&Sync
@@ -185,7 +185,7 @@ if ((Get-Command 7z -ErrorAction SilentlyContinue) -and (Get-Command rclone -Err
      #Meta
       (Get-Item -Path "$env:SYSTMP\toolpack_x64_Windows.7z").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
       #Upload
-      Write-Host "`n[+] Uploading Results to R2 [r2:/bin/x64_Windows] (rclone)`n"
+      Write-Output "`n[+] Uploading Results to R2 [r2:/bin/x64_Windows] (rclone)`n"
       rclone copyto "$env:SYSTMP\toolpack_x64_Windows.7z" "r2:/bin/x64_Windows/_toolpack_x64_Windows.7z" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
       Push-Location "$env:SYSTMP" ; b3sum ".\toolpack_x64_Windows.7z" | Out-File -FilePath "$env:SYSTMP\_toolpack_x64_Windows_BLAKE3SUM" ; Pop-Location

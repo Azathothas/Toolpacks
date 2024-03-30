@@ -822,12 +822,13 @@ jobs:
                  cat "$BUILDSCRIPT" | grep -i "\$env:BINDIR" | sed -n '/\$env:BINDIR\/\$env:BIN/! s/.*"\(\$env:BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
                  sort -u "$SYSTMP/RCLONE/BINS.txt" -o "$SYSTMP/RCLONE/BINS.txt"
                 #Merge with json
-                 for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g' | sed 's/\.exe//g' | sed 's/"//g'); do
+                 #for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g' | sed 's/\.exe//g' | sed 's/"//g'); do
+                  for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g'); do
                   #BSUM
-                   B3SUM="$(cat "$SYSTMP/RCLONE/BLAKE3SUM.txt" | grep -i "\b$BIN\.exe\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export B3SUM="$B3SUM"
+                   B3SUM="$(cat "$SYSTMP/RCLONE/BLAKE3SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export B3SUM="$B3SUM"
                    jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .Name == $BIN then . + {B3SUM: $B3SUM} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
                   #SHA256SUM
-                   SHA256="$(cat "$SYSTMP/RCLONE/SHA256SUM.txt" | grep -i "\b$BIN\.exe\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export SHA256="$SHA256"
+                   SHA256="$(cat "$SYSTMP/RCLONE/SHA256SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export SHA256="$SHA256"
                    jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .Name == $BIN then . + {SHA256: $SHA256} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
                   #Repo URLs
                    jq --arg BIN "$BIN" --arg REPO_URL "$REPO_URL" '.[] |= if .Name == $BIN then . + {Repo: $REPO_URL} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"

@@ -12,7 +12,7 @@ if (
     ([string]::IsNullOrEmpty($env:TMPDIRS))
 ) {
     #exit
-    Write-Host "`n[+]Skipping Builds...`n"
+    Write-Output "`n[+]Skipping Builds...`n"
     exit 1
 }
 #-------------------------------------------------------#
@@ -24,7 +24,7 @@ if ($env:SKIP_BUILD -eq "NO") {
   #curl
     $env:BIN = "curl" # Name of final binary/pkg/cli, sometimes differs from $REPO
     $env:SOURCE_URL = "https://github.com/stunnel/static-curl" # github/gitlab/homepage/etc for $BIN
-    Write-Host "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
+    Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
      eget "$env:SOURCE_URL" --asset "windows" --asset "x86_64" --asset "tar.xz" --asset "^dev" --file "curl.exe" --to "$env:BINDIR/curl.exe"
      eget "$env:SOURCE_URL" --asset "windows" --asset "x86_64" --asset "tar.xz" --asset "^dev" --file "trurl.exe" --to "$env:BINDIR/trurl.exe"

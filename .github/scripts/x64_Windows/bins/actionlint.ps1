@@ -12,7 +12,7 @@ if (
     ([string]::IsNullOrEmpty($env:TMPDIRS))
 ) {
     #exit
-    Write-Host "`n[+]Skipping Builds...`n"
+    Write-Output "`n[+]Skipping Builds...`n"
     exit 1
 }
 #-------------------------------------------------------#
@@ -24,7 +24,7 @@ if ($env:SKIP_BUILD -eq "NO") {
    #actionlint : :octocat: Static checker for GitHub Actions workflow files
     $env:BIN = "actionlint" # Name of final binary/pkg/cli, sometimes differs from $REPO
     $env:SOURCE_URL = "https://github.com/rhysd/actionlint" # github/gitlab/homepage/etc for $BIN
-    Write-Host "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
+    Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
      eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --to "$env:BINDIR/actionlint.exe"
 }

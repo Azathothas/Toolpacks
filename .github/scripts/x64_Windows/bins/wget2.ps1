@@ -12,7 +12,7 @@ if (
     ([string]::IsNullOrEmpty($env:TMPDIRS))
 ) {
     #exit
-    Write-Host "`n[+]Skipping Builds...`n"
+    Write-Output "`n[+]Skipping Builds...`n"
     exit 1
 }
 #-------------------------------------------------------#
@@ -24,7 +24,7 @@ if ($env:SKIP_BUILD -eq "NO") {
    #wget2 : The successor of GNU Wget. 
     $env:BIN = "wget2" # Name of final binary/pkg/cli, sometimes differs from $REPO
     $env:SOURCE_URL = "https://github.com/rockdaboot/wget2" # github/gitlab/homepage/etc for $BIN
-    Write-Host "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
+    Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
      eget "$env:SOURCE_URL" --asset "wget2" --asset "exe" --asset "^sig" --to "$env:BINDIR/wget2.exe"
 }
