@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "296.58 kB",
-    "ModTime": "2024-03-30T21:24:42.178071490Z",
+    "Size": "296.43 kB",
+    "ModTime": "2024-03-31T00:36:37.934862620Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -6430,9 +6430,9 @@
     "Size": "7.93 MB",
     "ModTime": "2024-03-02T00:41:37.418619416Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/viddy",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "bacbd758a60854d8b3bc836aeacf48941148b1becb963157096f55ed05bb0115",
+    "SHA256": "1570522d8346c3873089174be7f4b5552fef4201c6bc6241a0baadecc1245977",
+    "Repo": "https://github.com/sachaos/viddy"
   },
   {
     "Name": "viewgen_staticx",
