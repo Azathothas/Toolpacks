@@ -55,8 +55,8 @@
   },
   {
     "Name": "busybox.ps1",
-    "Size": "1983 B",
-    "ModTime": "2024-03-30T11:12:21.026062227Z",
+    "Size": "2416 B",
+    "ModTime": "2024-03-30T21:01:20.960105774Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -200,7 +200,7 @@
   {
     "Name": "metadata.json",
     "Size": "8731 B",
-    "ModTime": "2024-03-30T13:07:46.794007763Z",
+    "ModTime": "2024-03-31T00:10:59.957198626Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,

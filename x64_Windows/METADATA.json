@@ -11,7 +11,7 @@
   {
     "Name": "BLAKE3SUM.txt",
     "Size": "10.26 kB",
-    "ModTime": "2024-03-30T12:24:00.535033600Z",
+    "ModTime": "2024-03-30T14:33:17.508055900Z",
     "Source": "https://bin.ajam.dev/x64_Windows/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "49.43 kB",
-    "ModTime": "2024-03-30T13:19:12.166632700Z",
+    "Size": "49.06 kB",
+    "ModTime": "2024-03-31T00:27:23.495768196Z",
     "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -47,7 +47,7 @@
   {
     "Name": "SHA256SUM.txt",
     "Size": "10.26 kB",
-    "ModTime": "2024-03-30T12:24:05.893867100Z",
+    "ModTime": "2024-03-30T14:34:26.072532000Z",
     "Source": "https://bin.ajam.dev/x64_Windows/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -199,8 +199,8 @@
   },
   {
     "Name": "busybox-unicode.exe",
-    "Size": "278 B",
-    "ModTime": "2024-03-30T12:07:22.582419200Z",
+    "Size": "666.11 kB",
+    "ModTime": "2024-03-30T14:34:53.300016100Z",
     "Source": "https://bin.ajam.dev/x64_Windows/busybox-unicode.exe",
     "B3SUM": null,
     "SHA256": null,
@@ -208,8 +208,8 @@
   },
   {
     "Name": "busybox.exe",
-    "Size": "278 B",
-    "ModTime": "2024-03-30T12:07:22.012987800Z",
+    "Size": "659.97 kB",
+    "ModTime": "2024-03-30T14:34:53.302300900Z",
     "Source": "https://bin.ajam.dev/x64_Windows/busybox.exe",
     "B3SUM": null,
     "SHA256": null,
@@ -1267,14 +1267,5 @@
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
-  },
-  {
-    "Name": "yt-dlp.exe",
-    "Size": "173.06 kB",
-    "ModTime": "2024-03-30T12:22:45.842242000Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/yt-dlp.exe",
-    "B3SUM": "016e0156aafba2d6988fcf55e9c79d7fcb4d0a01760144042ed4112c7bb85d47",
-    "SHA256": "43c29277304bdb2c2a27d0d8a88c465fa6256b4e084b764284d0275f067d1185",
-    "Repo": "https://github.com/yt-dlp/yt-dlp"
   }
 ]
