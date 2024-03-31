@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "296.43 kB",
-    "ModTime": "2024-03-31T00:36:37.934862620Z",
+    "Size": "296.58 kB",
+    "ModTime": "2024-03-31T07:27:27.682113296Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4678,6 +4678,15 @@
     "B3SUM": "516884d5ad4dfeafdde2d77d3a885122f1a8e90f6143e26b35289711ac54fa55",
     "SHA256": "2bd3e1bf1e42cf97623569b6d91847f9eb93721725a69e46bfbf4b24a80f265b",
     "Repo": "https://github.com/c3l3si4n/quickcert"
+  },
+  {
+    "Name": "quotes-escaper",
+    "Size": "1.51 MB",
+    "ModTime": "2024-03-31T09:04:26.153026100Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/quotes-escaper",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/Azathothas/Arsenal"
   },
   {
     "Name": "rage",

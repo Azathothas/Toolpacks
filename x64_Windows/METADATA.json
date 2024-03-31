@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "49.06 kB",
-    "ModTime": "2024-03-31T00:27:23.495768196Z",
+    "ModTime": "2024-03-31T07:21:45.175597849Z",
     "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -925,6 +925,15 @@
     "B3SUM": "8deaa6da0eb31558ed950e21cac0085667bcdd9bf18c7d5a8f9d8b8295128342",
     "SHA256": "c328373fc19a36644bd421de963b4184ccfa0361e5080694322b52ab024c780f",
     "Repo": "https://github.com/uutils/coreutils"
+  },
+  {
+    "Name": "quotes-escaper.exe",
+    "Size": "1.55 MB",
+    "ModTime": "2024-03-31T09:02:07.001051500Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/quotes-escaper.exe",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "hhttps://github.com/Azathothas/Arsenal"
   },
   {
     "Name": "readlink.exe",
