@@ -2458,8 +2458,8 @@
   },
   {
     "Name": "inscope.sh",
-    "Size": "2069 B",
-    "ModTime": "2024-03-29T18:32:13.709873528Z",
+    "Size": "2076 B",
+    "ModTime": "2024-03-31T14:01:33.364170602Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/inscope.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3071,7 +3071,7 @@
   {
     "Name": "metadata.json",
     "Size": "169.87 kB",
-    "ModTime": "2024-03-31T00:06:49.396150440Z",
+    "ModTime": "2024-03-31T07:04:03.042755545Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3820,6 +3820,15 @@
     "Size": "1988 B",
     "ModTime": "2024-03-29T18:32:13.713873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/quickcert.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "quotes-escaper.sh",
+    "Size": "2062 B",
+    "ModTime": "2024-03-31T14:01:33.364170602Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/quotes-escaper.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null

@@ -200,7 +200,7 @@
   {
     "Name": "metadata.json",
     "Size": "8731 B",
-    "ModTime": "2024-03-31T00:10:59.957198626Z",
+    "ModTime": "2024-03-31T07:07:03.387890410Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -247,6 +247,15 @@
     "Size": "1860 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pdfcpu.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "quotes-escaper.ps1",
+    "Size": "2517 B",
+    "ModTime": "2024-03-31T14:01:33.360170633Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/quotes-escaper.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
