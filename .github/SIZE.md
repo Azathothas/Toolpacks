@@ -22,8 +22,8 @@
  12K   │ └── BUILD_ERROR.log.md
 1.0M   ├── metadata.json
 852K   ├── metadata.toml
-144K   ├─┬ x64_Windows
- 48K   │ ├── METADATA.json
+148K   ├─┬ x64_Windows
+ 52K   │ ├── METADATA.json
  44K   │ ├── README.md
  16K   │ ├── FILE.txt
  12K   │ ├── SHA256SUM.txt
