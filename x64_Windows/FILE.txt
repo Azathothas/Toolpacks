@@ -11,8 +11,8 @@ basenc.exe:          PE32+ executable (console) x86-64 (stripped to external PDB
 bat.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 batcat.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 botsay.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
-busybox-unicode.exe: HTML document, ASCII text
-busybox.exe:         HTML document, ASCII text
+busybox-unicode.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+busybox.exe:         PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
 cat.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 cheat.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 cksum.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
@@ -92,6 +92,7 @@ printenv.exe:        PE32+ executable (console) x86-64 (stripped to external PDB
 printf.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 ptx.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 pwd.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+quotes-escaper.exe:  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 readlink.exe:        PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 realpath.exe:        PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 rg.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections

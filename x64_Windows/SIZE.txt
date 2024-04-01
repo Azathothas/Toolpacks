@@ -1,4 +1,4 @@
- 871M └─┬ .
+ 874M └─┬ .
  151M   ├── pandoc.exe
  131M   ├── ffmpeg.exe
  130M   ├── ffprobe.exe
@@ -42,6 +42,7 @@
  1.7M   ├── inscope.exe
  1.6M   ├── botsay.exe
  1.6M   ├── sort.exe
+ 1.5M   ├── quotes-escaper.exe
  1.5M   ├── dua.exe
  1.4M   ├── expr.exe
  1.3M   ├── pdftotext.exe
@@ -125,10 +126,10 @@
  796K   ├── printenv.exe
  746K   ├── true.exe
  746K   ├── false.exe
+ 650K   ├── busybox-unicode.exe
+ 644K   ├── busybox.exe
  551K   ├── upx.exe
  169K   ├── yt-dlp.exe
  138K   ├── iperf3.exe
- 278B   ├── busybox.exe
- 278B   ├── busybox-unicode.exe
    0B   ├── stiG2Kb7
    0B   └── stP1kAlM
