@@ -21,14 +21,14 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #gobusybox_bb: A Busybox-like binary containing all tools from u-root core
+      #gobusybox_bb: A Busybox-like binary containing all tools from u-root/cmd
      export BIN="u-root" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/u-root/gobusybox" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build  
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/u-root/gobusybox" && cd "./src/cmd/makebb"
        GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./makebb" "$BINDIR/gobusybox_makebb"
-       git clone --quiet --filter "blob:none" "https://github.com/u-root/u-root" ; cd u-root ; ../makebb ./cmds/core/* ; cp ./bb "$BINDIR/gobusybox_bb" ; popd > /dev/null 2>&1
+       git clone --quiet --filter "blob:none" "https://github.com/u-root/u-root" ; cd u-root ; ../makebb ./cmds/*/* ; cp ./bb "$BINDIR/gobusybox_bb" ; popd > /dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
