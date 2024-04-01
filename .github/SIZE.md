@@ -11,7 +11,7 @@
  24K   │ ├── SIZE.md
 8.0K   │ └── BUILD_ERROR.log.md
  15M   ├─┬ x86_64_Linux
- 15M   │ ├── BUILD.log.txt
+ 14M   │ ├── BUILD.log.txt
 312K   │ ├── README.md
 296K   │ ├── METADATA.json
 124K   │ ├── FILE.txt
