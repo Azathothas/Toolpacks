@@ -1998,6 +1998,15 @@
     "Repo": null
   },
   {
+    "Name": "gobusybox.sh",
+    "Size": "3637 B",
+    "ModTime": "2024-04-02T07:01:45.764689563Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gobusybox.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "gocurl.sh",
     "Size": "1634 B",
     "ModTime": "2024-03-29T18:32:13.705873528Z",
@@ -3071,7 +3080,7 @@
   {
     "Name": "metadata.json",
     "Size": "170.15 kB",
-    "ModTime": "2024-04-01T21:05:13.017826133Z",
+    "ModTime": "2024-04-02T00:05:54.586445844Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,

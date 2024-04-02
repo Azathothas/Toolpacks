@@ -184,6 +184,11 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 - Check these `HackerNews Discussions`
 > - [A cautionary tale from the decline of SourceForge](https://news.ycombinator.com/item?id=31110206)
 > - [Downloading PuTTY Safely Is Nearly Impossible (2014)](https://news.ycombinator.com/item?id=9577861)
+- [The XZ Backdoor](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
+- [Reproducible Builds](https://reproducible-builds.org/docs/definition/)
+> The amount of work and the near impossibility to ensure that every source I use provide reproducibility is infeasibly impractical.
+> Even if it were practical, not every pkg/tool provide source code, so this is moot anyway.
+> 
 - Reasons to **Trust this Repo**
 > - All the [Build Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows) are completely open-source. You are free to audit & scrutinize everything.
 > ```bash
