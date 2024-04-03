@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "49.84 kB",
-    "ModTime": "2024-04-02T21:23:06.807302368Z",
+    "ModTime": "2024-04-03T00:28:01.367487549Z",
     "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -340,6 +340,15 @@
     "B3SUM": "11b40b1a06ee841d13b57878bad8b75a05bd3eaaab3c5a3dd56ad3f1d8b335bf",
     "SHA256": "718be6cf207cc776598641ae59e6056858cc1fc333e89c4379d4e4a882612d2c",
     "Repo": "https://github.com/uutils/coreutils"
+  },
+  {
+    "Name": "deprun.exe",
+    "Size": "3.13 MB",
+    "ModTime": "2024-04-03T05:49:37.011184200Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/deprun.exe",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/marcoesposito1988/dependency_runner"
   },
   {
     "Name": "df.exe",
@@ -1240,6 +1249,15 @@
     "B3SUM": "9b5b004bf7adae18bac5971ff6eedc982f8e8f42759baaa9575463301aa14dd2",
     "SHA256": "c0e1be56332b15b8c8fcc2dd7f52ab7d7e71adf95703234a18b773842dff68cf",
     "Repo": "https://github.com/uutils/coreutils"
+  },
+  {
+    "Name": "wldd.exe",
+    "Size": "1.26 MB",
+    "ModTime": "2024-04-03T05:49:36.981423800Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/wldd.exe",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/marcoesposito1988/dependency_runner"
   },
   {
     "Name": "xargs-rs.exe",

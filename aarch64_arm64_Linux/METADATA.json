@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "298.95 kB",
-    "ModTime": "2024-04-02T21:28:43.138496955Z",
+    "ModTime": "2024-04-03T00:33:53.716397769Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -1279,8 +1279,8 @@
   },
   {
     "Name": "curl",
-    "Size": "7.18 MB",
-    "ModTime": "2024-03-30T01:54:31.132697623Z",
+    "Size": "7.38 MB",
+    "ModTime": "2024-04-03T05:04:47.720122700Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/curl",
     "B3SUM": "8264864647c54fd3ecb439b1fc79347a4777633f98f720136fb0cd1e6de848e7",
     "SHA256": "a30064826de2eb50af25c4ad4f91f3b9f780b26e3eb5dd46d365e6a727a6ebfb",
@@ -6217,6 +6217,15 @@
     "B3SUM": "27ba451ef7b169f526513d6a92821ca29676826c2672cf21356b1860e06426b6",
     "SHA256": "5592c0aa5bccbf25deedc89443c49790baac57d3fdca2898de9bf88916f14d40",
     "Repo": "https://github.com/trufflesecurity/trufflehog"
+  },
+  {
+    "Name": "trurl",
+    "Size": "7.18 MB",
+    "ModTime": "2024-04-03T05:04:58.222876300Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/trurl",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/stunnel/static-curl"
   },
   {
     "Name": "try",
