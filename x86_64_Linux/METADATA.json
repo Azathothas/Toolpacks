@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "300.74 kB",
-    "ModTime": "2024-04-01T21:31:21.411297073Z",
+    "Size": "302.78 kB",
+    "ModTime": "2024-04-02T21:33:27.831137140Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2295,6 +2295,15 @@
     "Repo": "https://github.com/svenstaro/genact"
   },
   {
+    "Name": "gencmddeps",
+    "Size": "2.4 MB",
+    "ModTime": "2024-04-02T03:05:04.758564000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/gencmddeps",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
+  },
+  {
     "Name": "genscope",
     "Size": "1.57 MB",
     "ModTime": "2024-04-01T02:55:45.256297565Z",
@@ -2592,6 +2601,15 @@
     "Repo": "https://github.com/projectdiscovery/simplehttpserver"
   },
   {
+    "Name": "goanywhere",
+    "Size": "5.92 MB",
+    "ModTime": "2024-04-02T03:05:04.753345400Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/goanywhere",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
+  },
+  {
     "Name": "goawk",
     "Size": "2.81 MB",
     "ModTime": "2024-03-06T01:59:42.886296655Z",
@@ -2608,6 +2626,15 @@
     "B3SUM": "41a1e82808dd88692ba13906adf20d1eb433ce79b3a112109c7fbbd56f4e45f0",
     "SHA256": "03d810f1a1be904c18c46542a0fd459d456f1ccd7e4f615e86e622984bc4a43c",
     "Repo": "https://github.com/OJ/gobuster"
+  },
+  {
+    "Name": "gobusybox",
+    "Size": "16.98 MB",
+    "ModTime": "2024-04-02T03:05:04.744043600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/gobusybox",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
   },
   {
     "Name": "gocurl",
@@ -3706,6 +3733,24 @@
     "B3SUM": "12de1b413c5ec023dd52c4b9dc49ee2c5696de84fa94d079b7441212cd805e05",
     "SHA256": "e9492ec74e0a46cb92a15ee57d91228059291b7eec8249a254b968a950f6ad4e",
     "Repo": "https://github.com/axllent/mailpit"
+  },
+  {
+    "Name": "makebb",
+    "Size": "5.8 MB",
+    "ModTime": "2024-04-02T03:05:04.800353500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/makebb",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
+  },
+  {
+    "Name": "makebbmain",
+    "Size": "4.03 MB",
+    "ModTime": "2024-04-02T03:05:04.791187000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/makebbmain",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
   },
   {
     "Name": "mani",
@@ -5074,6 +5119,15 @@
     "B3SUM": "30b29a1a0ccb7d5665d91d3841be5aa45ae0d36970579ed136760db9e7055262",
     "SHA256": "17591f78189675d38b7421f0d8f26a6b16f3d8a17f1b818aba1de4ba016b0583",
     "Repo": "https://github.com/mgechev/revive"
+  },
+  {
+    "Name": "rewritepkg",
+    "Size": "5.3 MB",
+    "ModTime": "2024-04-02T03:05:04.783333400Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/rewritepkg",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
   },
   {
     "Name": "rg",
@@ -6498,6 +6552,15 @@
     "Repo": "https://github.com/u-root/u-root"
   },
   {
+    "Name": "u-root-busybox",
+    "Size": "16.98 MB",
+    "ModTime": "2024-04-02T03:05:04.776576600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/u-root-busybox",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
+  },
+  {
     "Name": "udpx",
     "Size": "2.21 MB",
     "ModTime": "2024-04-01T02:55:42.176265002Z",
@@ -6568,6 +6631,15 @@
     "B3SUM": "640ffd4c398b349394f51dd2c553e1c7b79b8855f48a628e9af7b1f49a7b2b6d",
     "SHA256": "1dbdeb502fc80807af72560b0c361fd073c714fb68d429dfedf83597d36db2f3",
     "Repo": "https://github.com/upx/upx"
+  },
+  {
+    "Name": "uroot-busybox",
+    "Size": "16.98 MB",
+    "ModTime": "2024-04-02T03:05:04.767037000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/uroot-busybox",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/u-root/gobusybox"
   },
   {
     "Name": "usql",
