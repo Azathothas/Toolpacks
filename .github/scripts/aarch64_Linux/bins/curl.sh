@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
        eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "curl" "$EGET_EXCLUDE" --to "$BINDIR/curl"
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "trurl" "$EGET_EXCLUDE" --to "$BINDIR/curl"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "trurl" "$EGET_EXCLUDE" --to "$BINDIR/trurl"
 fi
 #-------------------------------------------------------#
 
