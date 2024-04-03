@@ -96,8 +96,8 @@
  873K   ├── xargs-rs.exe
  872K   ├── tsort.exe
  870K   ├── readlink.exe
- 870K   ├── tee.exe
  866K   ├── unexpand.exe
+ 866K   ├── tee.exe
  866K   ├── expand.exe
  855K   ├── fold.exe
  853K   ├── cat.exe
