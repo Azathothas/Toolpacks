@@ -3,7 +3,7 @@
  17M   ├─┬ aarch64_arm64_Linux
  16M   │ ├── BUILD.log.txt
 308K   │ ├── README.md
-292K   │ ├── METADATA.json
+296K   │ ├── METADATA.json
 120K   │ ├── FILE.txt
  60K   │ ├── SHA256SUM.txt
  60K   │ ├── BLAKE3SUM.txt
@@ -13,7 +13,7 @@
  15M   ├─┬ x86_64_Linux
  14M   │ ├── BUILD.log.txt
 316K   │ ├── README.md
-296K   │ ├── METADATA.json
+300K   │ ├── METADATA.json
 124K   │ ├── FILE.txt
  64K   │ ├── SHA256SUM.txt
  64K   │ ├── BLAKE3SUM.txt
@@ -21,7 +21,7 @@
  24K   │ ├── SIZE.md
  12K   │ └── BUILD_ERROR.log.md
 1.0M   ├── metadata.json
-860K   ├── metadata.toml
+864K   ├── metadata.toml
 148K   ├─┬ x64_Windows
  52K   │ ├── METADATA.json
  44K   │ ├── README.md
