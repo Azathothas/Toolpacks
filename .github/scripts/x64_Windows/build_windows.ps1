@@ -77,6 +77,8 @@
   # choco install "rclone" --prerelease --force --yes
   #upx
    eget "https://bin.ajam.dev/x64_Windows/upx.exe" --to "$env:SYSTEMROOT/upx.exe"
+  #wldd
+   eget "https://bin.ajam.dev/x64_Windows/wldd.exe" --to "$env:SYSTEMROOT/wldd.exe" 
   #yq
    eget "https://bin.ajam.dev/x64_Windows/yq.exe" --to "$env:SYSTEMROOT/yq.exe"
  ##golang

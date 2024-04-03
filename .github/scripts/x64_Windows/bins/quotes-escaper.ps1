@@ -32,7 +32,8 @@ if ($env:SKIP_BUILD -eq "NO") {
       $env:GOOS = "windows" ; $env:GOARCH = "amd64" ; $env:CGO_ENABLED = "0"
       go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./quotes-escaper.exe" ; Copy-Item "./quotes-escaper.exe" "$env:BINDIR/quotes-escaper.exe"
       file.exe "./quotes-escaper.exe" ; (Get-Item -Path "./quotes-escaper.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-      objdump.exe -x "./quotes-escaper.exe" | Select-String "DLL Name:"
+      #objdump.exe -x "./quotes-escaper.exe" | Select-String "DLL Name:"
+      wldd.exe "./quotes-escaper.exe" | Sort-Object -Unique
       go clean -cache -fuzzcache -modcache -testcache ; Pop-Location
 }
 #-------------------------------------------------------#

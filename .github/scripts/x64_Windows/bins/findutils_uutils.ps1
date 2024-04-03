@@ -36,9 +36,11 @@ if ($env:SKIP_BUILD -eq "NO") {
       Copy-Item "./target/$env:RUST_TARGET/release/xargs.exe" "$env:BINDIR/xargs.exe"
       Copy-Item "./target/$env:RUST_TARGET/release/xargs.exe" "$env:BINDIR/xargs-rs.exe"
       file.exe "./target/$env:RUST_TARGET/release/find.exe" ; (Get-Item -Path "./target/$env:RUST_TARGET/release/find.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-      objdump.exe -x "./target/$env:RUST_TARGET/release/find.exe" | Select-String "DLL Name:"
+      #objdump.exe -x "./target/$env:RUST_TARGET/release/find.exe" | Select-String "DLL Name:"
+      wldd.exe "./target/$env:RUST_TARGET/release/find.exe" | Sort-Object -Unique
       file.exe "./target/$env:RUST_TARGET/release/xargs.exe" ; (Get-Item -Path "./target/$env:RUST_TARGET/release/xargs.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-      objdump.exe -x "./target/$env:RUST_TARGET/release/xargs.exe" | Select-String "DLL Name:" 
+      #objdump.exe -x "./target/$env:RUST_TARGET/release/xargs.exe" | Select-String "DLL Name:"
+      wldd.exe "./target/$env:RUST_TARGET/release/xargs.exe" | Sort-Object -Unique
       cargo clean ; Pop-Location
 }
 #-------------------------------------------------------#

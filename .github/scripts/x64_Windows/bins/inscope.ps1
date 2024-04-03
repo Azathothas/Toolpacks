@@ -32,7 +32,8 @@ if ($env:SKIP_BUILD -eq "NO") {
       $env:GOOS = "windows" ; $env:GOARCH = "amd64" ; $env:CGO_ENABLED = "0"
       go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./inscope.exe" ; Copy-Item "./inscope.exe" "$env:BINDIR/inscope.exe"
       file.exe "./inscope.exe" ; (Get-Item -Path "./inscope.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-      objdump.exe -x "./inscope.exe" | Select-String "DLL Name:"
+      #objdump.exe -x "./inscope.exe" | Select-String "DLL Name:"
+      wldd.exe "./inscope.exe" | Sort-Object -Unique
       go clean -cache -fuzzcache -modcache -testcache ; Pop-Location
 }
 #-------------------------------------------------------#

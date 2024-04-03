@@ -21,21 +21,26 @@ if (
 ##Main
 $env:SKIP_BUILD = "NO" # YES, in case of deleted repos, broken builds etc
 if ($env:SKIP_BUILD -eq "NO") {
-   #anew-rs: An efficient way to filter duplicate lines from input, à la uniq. 
-    $env:BIN = "anew-rs" # Name of final binary/pkg/cli, sometimes differs from $REPO
-    $env:SOURCE_URL = "https://github.com/zer0yu/anew" # github/gitlab/homepage/etc for $BIN
+   #dependency_runner: ⬛️ CLI tool for saving complete web pages as a single HTML file 
+    $env:BIN = "dependency_runner" # Name of final binary/pkg/cli, sometimes differs from $REPO
+    $env:SOURCE_URL = "https://github.com/marcoesposito1988/dependency_runner" # github/gitlab/homepage/etc for $BIN
     Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Build
-      Push-Location (& $TMPDIRS) ; git clone --quiet --filter "blob:none" "https://github.com/Azathothas/anew-rs" ; Set-Location "./anew-rs" ; (Resolve-Path ".\").Path
+      Push-Location (& $TMPDIRS) ; git clone --quiet --filter "blob:none" "https://github.com/marcoesposito1988/dependency_runner" ; Set-Location "./dependency_runner" ; (Resolve-Path ".\").Path
       $env:RUST_TARGET = "x86_64-pc-windows-msvc" ; rustup target add "$env:RUST_TARGET"
       $env:RUSTFLAGS = "-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
       (Get-Content -Path "./Cargo.toml" -Raw) -replace "(?s)\[profile\.release\].*?(?=\n\[|$)", "" | Set-Content -Path "./Cargo.toml" ; Add-Content "./Cargo.toml" "[profile.release]`nstrip = true`nopt-level = 3`nlto = true"
       cargo build --target "$env:RUST_TARGET" --release --jobs "$(Invoke-Expression "[int]$env:NUMBER_OF_PROCESSORS + 1")" --keep-going
-      Copy-Item "./target/$env:RUST_TARGET/release/anew.exe" "$env:BINDIR/anew.exe"
-      Copy-Item "./target/$env:RUST_TARGET/release/anew.exe" "$env:BINDIR/anew-rs.exe"
-      file.exe "./target/$env:RUST_TARGET/release/anew.exe" ; (Get-Item -Path "./target/$env:RUST_TARGET/release/anew.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-      #objdump.exe -x "./target/$env:RUST_TARGET/release/anew.exe" | Select-String "DLL Name:"
-      wldd.exe "./target/$env:RUST_TARGET/release/anew.exe" | Sort-Object -Unique
+      #wldd : a reimplementation of GNU ldd for Windows PE executables (exe and dll files)
+      Copy-Item "./target/$env:RUST_TARGET/release/wldd.exe" "$env:BINDIR/wldd.exe"
+      file.exe "./target/$env:RUST_TARGET/release/wldd.exe" ; (Get-Item -Path "./target/$env:RUST_TARGET/release/wldd.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
+      #objdump.exe -x "./target/$env:RUST_TARGET/release/wldd.exe" | Select-String "DLL Name:"
+      wldd.exe "./target/$env:RUST_TARGET/release/wldd.exe" | Sort-Object -Unique
+      #deprun : better wldd
+      Copy-Item "./target/$env:RUST_TARGET/release/deprun.exe" "$env:BINDIR/deprun.exe"
+      file.exe "./target/$env:RUST_TARGET/release/deprun.exe" ; (Get-Item -Path "./target/$env:RUST_TARGET/release/deprun.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
+      #objdump.exe -x "./target/$env:RUST_TARGET/release/deprun.exe" | Select-String "DLL Name:"
+      wldd.exe "./target/$env:RUST_TARGET/release/deprun.exe" | Sort-Object -Unique
       cargo clean ; Pop-Location
 }
 #-------------------------------------------------------#

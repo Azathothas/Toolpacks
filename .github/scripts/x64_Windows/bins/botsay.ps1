@@ -30,8 +30,9 @@ if ($env:SKIP_BUILD -eq "NO") {
       $env:GOOS = "windows" ; $env:GOARCH = "amd64" ; $env:CGO_ENABLED = "0"
       go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; Copy-Item "./botsay.exe" "$env:BINDIR/botsay.exe" 
       file.exe "./botsay.exe" ; (Get-Item -Path "./botsay.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-      objdump.exe -x "./botsay.exe" | Select-String "DLL Name:"
-      go clean -cache -fuzzcache -modcache -testcache ; Pop-Location   
+      #objdump.exe -x "./botsay.exe" | Select-String "DLL Name:"
+      wldd.exe "./botsay.exe" | Sort-Object -Unique
+      go clean -cache -fuzzcache -modcache -testcache ; Pop-Location
 }
 #-------------------------------------------------------#
 
