@@ -982,8 +982,8 @@
   },
   {
     "Name": "curl.sh",
-    "Size": "1821 B",
-    "ModTime": "2024-03-29T18:32:13.701873528Z",
+    "Size": "1822 B",
+    "ModTime": "2024-04-03T07:02:28.831136904Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/curl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1999,8 +1999,8 @@
   },
   {
     "Name": "gobusybox.sh",
-    "Size": "3637 B",
-    "ModTime": "2024-04-02T07:01:45.764689563Z",
+    "Size": "3648 B",
+    "ModTime": "2024-04-03T07:02:28.847136918Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gobusybox.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3080,7 +3080,7 @@
   {
     "Name": "metadata.json",
     "Size": "170.43 kB",
-    "ModTime": "2024-04-03T00:03:36.544914598Z",
+    "ModTime": "2024-04-03T00:06:52.352877424Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3181,6 +3181,15 @@
     "Size": "2104 B",
     "ModTime": "2024-03-29T18:32:13.713873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/moac.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "monolith.sh",
+    "Size": "3330 B",
+    "ModTime": "2024-04-03T07:02:28.835136908Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/monolith.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -5086,8 +5095,8 @@
   },
   {
     "Name": "u-root.sh",
-    "Size": "1925 B",
-    "ModTime": "2024-03-29T18:32:13.721873528Z",
+    "Size": "1968 B",
+    "ModTime": "2024-04-03T07:02:28.839136911Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/u-root.sh",
     "B3SUM": null,
     "SHA256": null,

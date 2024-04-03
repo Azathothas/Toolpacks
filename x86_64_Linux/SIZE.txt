@@ -19,18 +19,18 @@
   72M   ├── berty
   63M   ├── loki
   62M   ├── alist
-  59M   ├── wtfutil
   59M   ├── wtf
+  59M   ├── wtfutil
+  59M   ├── nushell
+  59M   ├── nu
   59M   ├── dockerd
-  58M   ├── nushell
-  58M   ├── nu
   57M   ├── rclone
   57M   ├── jr
   56M   ├── logcli
   52M   ├── melange
   51M   ├── tavern
-  51M   ├── ockam
   50M   ├── steampipe
+  50M   ├── ockam
   49M   ├── teldrive
   49M   ├── jc
   48M   ├── bearer
@@ -55,10 +55,10 @@
   32M   ├── surf
   32M   ├── mlr
   32M   ├── shellz
-  31M   ├── sq
   31M   ├── git-xet
+  31M   ├── sq
   31M   ├── edgevpn
-  30M   ├── rattler-build
+  31M   ├── rattler-build
   30M   ├── pixi
   29M   ├── aix
   29M   ├── sqlc
@@ -71,20 +71,21 @@
   27M   ├── osmedeus
   27M   ├── lnav
   27M   ├── loki-canary
+  27M   ├── qbittorrent-nox
   27M   ├── subfinder
   27M   ├── netbird
-  27M   ├── qbittorrent-nox
   27M   ├── dnsx
   27M   ├── tlsx
   26M   ├── maddy
   26M   ├── dagu
-  26M   ├── mc
   26M   ├── relic
   26M   ├── gum
-  25M   ├── cvemap
-  25M   ├── interactsh-client
   25M   ├── devbox
+  25M   ├── cvemap
+  25M   ├── mc
+  25M   ├── interactsh-client
   25M   ├── asnmap
+  25M   ├── mapcidr
   25M   ├── algernon
   24M   ├── xetcmd
   24M   ├── brutespray
@@ -111,11 +112,11 @@
   21M   ├── meli
   21M   ├── tailscaled
   21M   ├── tuiarchiver
+  21M   ├── qsv
   20M   ├── atuin
   20M   ├── jira-cli
   20M   ├── jira
   20M   ├── alterx
-  20M   ├── mapcidr
   20M   ├── tailscale_merged
   20M   ├── arduino-cli
   20M   ├── csvtk
@@ -123,7 +124,6 @@
   20M   ├── jj
   20M   ├── golem
   20M   ├── notify
-  20M   ├── circumflex
   19M   ├── gh-dash
   19M   ├── gickup
   19M   ├── podsync
@@ -132,11 +132,10 @@
   18M   ├── sish
   18M   ├── luet
   18M   ├── reviewdog
+  18M   ├── rekor-cli
   18M   ├── miniflux
   18M   ├── mailpit
-  18M   ├── qsv
   18M   ├── ctr
-  18M   ├── rekor-cli
   18M   ├── gitpod
   18M   ├── sunbeam
   17M   ├── chameleon
@@ -147,6 +146,7 @@
   17M   ├── shuffledns
   17M   ├── mise
   17M   ├── xetmnt
+  17M   ├── circumflex
   17M   ├── caido-cli
   17M   ├── twingate-connector
   17M   ├── lux
@@ -156,6 +156,9 @@
   16M   ├── gp
   16M   ├── gitpod-cli
   16M   ├── findomain
+  16M   ├── uroot-busybox
+  16M   ├── u-root-busybox
+  16M   ├── gobusybox
   16M   ├── warp
   15M   ├── diffoci
   15M   ├── act
@@ -168,12 +171,12 @@
   14M   ├── bleve
   14M   ├── tinja
   14M   ├── sysbox-runc
+  14M   ├── filebrowser
   14M   ├── hednsextractor
   14M   ├── netmaker
   14M   ├── godns
   14M   ├── certwatcher
   14M   ├── bin
-  14M   ├── filebrowser
   14M   ├── listmonk
   14M   ├── ct_monitor
   14M   ├── wiretap
@@ -181,11 +184,11 @@
   14M   ├── zgrab2
   13M   ├── etcdutl
   13M   ├── smap
+  13M   ├── openapi-tui
   13M   ├── jc_staticx
   13M   ├── ein
   13M   ├── gdu
   13M   ├── stree
-  13M   ├── openapi-tui
   13M   ├── niltalk
   12M   ├── gost
   12M   ├── opengfw
@@ -236,7 +239,7 @@
   10M   ├── vopono
   10M   ├── certstream-server-go
   10M   ├── katana_staticx
-10.0M   ├── vfox
+  10M   ├── vfox
 10.0M   ├── orbiton
  9.9M   ├── tut
  9.8M   ├── gotty
@@ -365,10 +368,10 @@
  6.6M   ├── direnv
  6.6M   ├── gitleaks
  6.6M   ├── speedtest-go
+ 6.6M   ├── jen
  6.6M   ├── dizi-server
  6.6M   ├── elvish
  6.5M   ├── rga
- 6.5M   ├── jen
  6.4M   ├── fuzzuli
  6.4M   ├── aretext
  6.4M   ├── xh
@@ -401,10 +404,12 @@
  5.8M   ├── pathbuster
  5.7M   ├── clipcat-notify
  5.7M   ├── wego
+ 5.7M   ├── goanywhere
  5.6M   ├── warp-diag
  5.6M   ├── sbctl
  5.6M   ├── web-cache-vulnerability-scanner
  5.5M   ├── waybackrobots
+ 5.5M   ├── makebb
  5.5M   ├── cowitness
  5.5M   ├── xbps-install
  5.5M   ├── xbps-remove
@@ -429,8 +434,8 @@
  5.4M   ├── xbps-fbulk
  5.4M   ├── xbps-uunshare
  5.4M   ├── xbps-digest
- 5.4M   ├── certspotter
  5.4M   ├── vtm
+ 5.4M   ├── certspotter
  5.4M   ├── bombadillo
  5.3M   ├── horust
  5.3M   ├── getJS
@@ -453,6 +458,7 @@
  5.1M   ├── crawley
  5.1M   ├── unfurl
  5.1M   ├── fblog
+ 5.1M   ├── rewritepkg
  5.0M   ├── gfx
  5.0M   ├── wth
  5.0M   ├── rsync
@@ -526,15 +532,16 @@
  4.0M   ├── ssh-agent
  4.0M   ├── axel
  4.0M   ├── ripgen
+ 4.0M   ├── gojq
  3.9M   ├── fd
  3.9M   ├── pfetch-rs
  3.9M   ├── twingate-notifier
- 3.9M   ├── gojq
  3.9M   ├── dns-doctor
  3.9M   ├── rage
  3.8M   ├── validtoml
- 3.8M   ├── kanha
  3.8M   ├── mqttui
+ 3.8M   ├── makebbmain
+ 3.8M   ├── kanha
  3.8M   ├── pueued
  3.8M   ├── sshkeys
  3.8M   ├── wasminspect
@@ -614,6 +621,7 @@
  2.3M   ├── mdsh
  2.3M   ├── encode
  2.3M   ├── hadolint
+ 2.3M   ├── gencmddeps
  2.3M   ├── redive
  2.2M   ├── jq
  2.2M   ├── pkgtop
@@ -653,8 +661,8 @@
  1.6M   ├── smenu
  1.6M   ├── sudo-rs
  1.6M   ├── mmv
- 1.6M   ├── moac-pwgen
  1.6M   ├── jless_staticx
+ 1.6M   ├── moac-pwgen
  1.5M   ├── progress
  1.5M   ├── tcpdump
  1.5M   ├── genscope

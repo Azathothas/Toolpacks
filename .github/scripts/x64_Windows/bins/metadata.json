@@ -19,8 +19,8 @@
   },
   {
     "Name": "anew-rs.ps1",
-    "Size": "3140 B",
-    "ModTime": "2024-03-30T05:51:53.208182897Z",
+    "Size": "3222 B",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/anew-rs.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -46,8 +46,8 @@
   },
   {
     "Name": "botsay.ps1",
-    "Size": "2456 B",
-    "ModTime": "2024-03-30T05:51:53.208182897Z",
+    "Size": "2506 B",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/botsay.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -82,8 +82,8 @@
   },
   {
     "Name": "coreutils_uutils.ps1",
-    "Size": "10.84 kB",
-    "ModTime": "2024-03-30T05:51:53.208182897Z",
+    "Size": "10.93 kB",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -94,6 +94,15 @@
     "Size": "2022 B",
     "ModTime": "2024-03-30T05:51:53.208182897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/curl.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dependency_runner.ps1",
+    "Size": "3777 B",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dependency_runner.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -136,8 +145,8 @@
   },
   {
     "Name": "findutils_uutils.ps1",
-    "Size": "3566 B",
-    "ModTime": "2024-03-30T05:51:53.208182897Z",
+    "Size": "3732 B",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/findutils_uutils.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -172,8 +181,8 @@
   },
   {
     "Name": "inscope.ps1",
-    "Size": "2521 B",
-    "ModTime": "2024-03-30T11:12:21.026062227Z",
+    "Size": "2575 B",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/inscope.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -200,7 +209,7 @@
   {
     "Name": "metadata.json",
     "Size": "9018 B",
-    "ModTime": "2024-04-02T22:34:31.822170406Z",
+    "ModTime": "2024-04-03T00:10:28.516819407Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -220,6 +229,15 @@
     "Size": "1888 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/miniserve.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "monolith.ps1",
+    "Size": "3159 B",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/monolith.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -253,8 +271,8 @@
   },
   {
     "Name": "quotes-escaper.ps1",
-    "Size": "2517 B",
-    "ModTime": "2024-03-31T14:01:33.360170633Z",
+    "Size": "2578 B",
+    "ModTime": "2024-04-03T07:02:28.823136897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/quotes-escaper.ps1",
     "B3SUM": null,
     "SHA256": null,
