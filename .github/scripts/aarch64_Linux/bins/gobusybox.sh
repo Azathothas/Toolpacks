@@ -39,10 +39,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #rewritepkg : takes a Go command's source and rewrites it to be a u-root busybox compatible library package.
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/rewritepkg" ; cp "./rewritepkg" "$BINDIR/rewritepkg"
        ##U-root cmds
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/u-root/u-root" && cd "./u-root/cmds/core"
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/u-root/u-root" && cd "./u-root"
        export GOOS="linux" ; export GOARCH="arm64" ; export CGO_ENABLED="0"
+       #BuysBox
        #find . -maxdepth 2 -mindepth 1 -type d -exec sh -c 'ls -1 "{}"/*.go >/dev/null 2>&1' \; -print | xargs -I {} "$BINDIR/makebb" {}
-       "$BINDIR/makebb" "././"* ; strip "./bb" ; file "./bb" && du -sh "./bb"
+       "$BINDIR/makebb" "./cmds"/*/* ; strip "./bb" ; file "./bb" && du -sh "./bb"
        cp "./bb" "$BINDIR/gobusybox"
        cp "./bb" "$BINDIR/uroot-busybox"
        cp "./bb" "$BINDIR/u-root-busybox"
