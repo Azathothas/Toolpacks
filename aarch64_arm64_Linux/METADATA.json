@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "299.2 kB",
-    "ModTime": "2024-04-03T14:26:34.346334270Z",
+    "ModTime": "2024-04-03T21:31:56.274719182Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -6763,9 +6763,9 @@
     "Size": "2.28 MB",
     "ModTime": "2024-03-30T01:54:22.104698057Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/wireguard-rs",
-    "B3SUM": "58f8ea14bc95606af357f315305120f8235309d7b010e25333d797a857009afb",
-    "SHA256": "ba77c4c17c30b89275ea8680d20bd19421b9e5e6b23a4514e7950ab7cbf80dbb",
-    "Repo": "https://git.zx2c4.com/wireguard-rs"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "wireproxy",

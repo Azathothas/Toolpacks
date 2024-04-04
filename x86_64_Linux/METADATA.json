@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "303.97 kB",
-    "ModTime": "2024-04-03T14:28:20.426501938Z",
+    "ModTime": "2024-04-03T21:29:44.016841021Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -7330,9 +7330,9 @@
     "Size": "7.24 MB",
     "ModTime": "2024-04-03T02:41:34.156773108Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/z-tokens",
-    "B3SUM": "4593dd2a2e196bd12ed7c05df40aa2c35573878c3067617a99685f8513f8ae56",
-    "SHA256": "f1629b8327d4a139ce5ec1996fb4244f6052faf5e14f497ad3d4aed1e60e91c0",
-    "Repo": "https://github.com/volution/z-tokens"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "zdns",
@@ -7402,35 +7402,35 @@
     "Size": "560.64 kB",
     "ModTime": "2024-04-03T02:42:02.757295832Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/zt-encodings",
-    "B3SUM": "de24269d6b33b836742643263e370bea66aecefe243f94642b61156def513aa7",
-    "SHA256": "f489cd481b45391f1007580aafdfea962b7059910a43a36b474a24a41d5f5154",
-    "Repo": "https://github.com/volution/z-tokens"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "zt-exchange",
     "Size": "2.65 MB",
     "ModTime": "2024-04-03T02:41:40.396886897Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/zt-exchange",
-    "B3SUM": "11f284eb209261760266f5fd826b8ece10b4f52cb24adbe87cfab844ceaca144",
-    "SHA256": "dcfb8f507540993241037640cd1f09a753369418f4089f6a6fb35ea0e000538c",
-    "Repo": "https://github.com/volution/z-tokens"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "zt-hashes",
     "Size": "889.7 kB",
     "ModTime": "2024-04-03T02:41:46.220993090Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/zt-hashes",
-    "B3SUM": "48a263c59e7e38a947260a3e7621b58540bd94710cb815587e5ff90fdb08b0ec",
-    "SHA256": "666ecd8733c514ea196e40526e3173baaede2623cbabceab19a6eeff2f8b02ec",
-    "Repo": "https://github.com/volution/z-tokens"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "zt-patterns",
     "Size": "5.03 MB",
     "ModTime": "2024-04-03T02:42:12.341471468Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/zt-patterns",
-    "B3SUM": "c4f2b3186b3b448a9bf6f7635331bf9cfe80c9f48f3b06a92b821b2ce510c629",
-    "SHA256": "30cbddf6b1b33126972ad467133c6268563242db83b8c9ef031552b723fe07a4",
-    "Repo": "https://github.com/volution/z-tokens"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   }
 ]
