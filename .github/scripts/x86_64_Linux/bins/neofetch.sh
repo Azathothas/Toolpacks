@@ -23,10 +23,10 @@ export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
     #neofetch : Updated Fork
      export BIN="neofetch" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/hykilpikonna/hyfetch" #github/gitlab/homepage/etc for $BIN
+     export SOURCE_URL="https://github.com/nmimusic/unifetch" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch  
-       eval "$EGET_TIMEOUT" eget "https://raw.githubusercontent.com/hykilpikonna/hyfetch/master/neofetch" --to "$BINDIR/neofetch" ; chmod +xwr "$BINDIR/neofetch"
+       eval "$EGET_TIMEOUT" eget "https://raw.githubusercontent.com/nmimusic/unifetch/master/unifetch" --to "$BINDIR/neofetch" ; chmod +xwr "$BINDIR/neofetch"
 fi
 #-------------------------------------------------------#
 
