@@ -1,0 +1,53 @@
+```mathematica
+
+[-] Authentication failed --> # Invalid/Deleted GH Repos
+
+
+
+[-] asset * not found --> # Eget failed to find that --asset
+
+
+
+[-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL
+
+
+
+
+[-] command not found --> # Something failed to Install
+
+62390:WARNING: msgfmt command not found!
+62391:WARNING: xgettext command not found!
+62392:WARNING: msgmerge command not found!
+
+
+[-] Dynamically Linked --> # Not Statically Linked
+
+52:./binfetch:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=b02233d75a5cfd90dbf44833d7dbf4b3a3e0f924, for GNU/Linux 3.2.0, stripped
+220:./fastfetch:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=91156f4fa34f610fe6deb27a25778dcba8b84027, for GNU/Linux 3.2.0, stripped
+362:./jc:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e41f28c9f3cc7052576866b78ab58d496e51b97c, stripped
+368:./jless:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=c88c164307a1b56c1a877753850101226b7b0bce, for GNU/Linux 3.2.0, stripped
+384:./katana:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=a322cd19aa9d9c34987a52b2bea44a4718536586, for GNU/Linux 3.2.0, stripped
+391:./ksubdomain:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=0e2f34dc274cbf6532d10016a83203c480832d51, for GNU/Linux 3.2.0, stripped
+452:./naabu:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=19a849bc4e506628c3fe2a40d5436ebaa080384a, for GNU/Linux 3.2.0, stripped
+505:./pathbuster:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=d19278069f3c32a7b05819e3c64a1ffc30ad2336, for GNU/Linux 3.2.0, stripped
+534:./promtail:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=3d94a6f12f77fd87b53bfdadac97047fbd766dce, for GNU/Linux 3.2.0, stripped
+589:./rqbit:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.16, stripped
+736:./twingate-connector:              ELF 64-bit LSB pie executable, x86-64, version 1 (GNU/Linux), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=73a0be14c86d265054a38984d3435c92ceff33b4, for GNU/Linux 3.2.0, stripped
+
+
+[-] Incorrect Arch --> # Not for x86_64
+
+
+
+[-] No such file or directory # Usually Because Build Failures
+
+3894:/usr/bin/deb-systemd-helper: error: systemctl preset failed on lm-sensors.service: No such file or directory
+47618:./git-xet: cannot open `./git-xet' (No such file or directory)
+47621:./xetmnt: cannot open `./xetmnt' (No such file or directory)
+48443:./src/grep: cannot open `./src/grep' (No such file or directory)
+49051:./src/kak.opt: cannot open `./src/kak.opt' (No such file or directory)
+61072:./samu: cannot open `./samu' (No such file or directory)
+
+
+[-] Empty (0 Sized) Bins # Usually Because Symlinks
+

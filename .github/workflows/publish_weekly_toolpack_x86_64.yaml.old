@@ -1,0 +1,585 @@
+name: 🛍️ Publish ⚙️ Weekly (toolpack_x86_64) Package 📦🗄️
+#MAX_RUNTIME:  
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "30 22 * * 6" # 10:30 PM UTC Saturday --> 04:15 AM NPT Mrng Every Sunday
+  
+env:
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
+  
+jobs:
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  archive-binaries-tar:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          df / -h
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+          fetch-depth: "1"
+
+      - name: Install CoreUtils & Deps
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #rclone
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #upx
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+        continue-on-error: true
+
+      - name: Setup Env
+        run: |
+          # Create Output Dir
+          mkdir -p "$HOME/bin"
+        continue-on-error: true
+
+      - name: Download (fetch) Binaries
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#        
+          #copy
+          find "$GITHUB_WORKSPACE/main/x86_64" -maxdepth 1 -type f ! -name "*README*" ! -name "*BLAKE3SUM*" ! -name "*SHA256SUM*" -exec cp {} "$HOME/bin" \; 
+          #list
+          ls "$HOME/bin" -lahr
+        continue-on-error: true
+        
+      - name: Strip || Cleanup
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          cd "$HOME/bin"
+          #strip
+          find "$HOME/bin" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
+          #untar
+          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec tar xvzf {} -C "$HOME/bin" \; 2>/dev/null
+          #Remove tars
+          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' -exec rm {} \; 2>/dev/null
+          # Strip && Rename anything with *_amd*
+          find "$HOME/bin" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
+          #Copy to /tmp/toolpack_x86_64
+          rm -rf "/tmp/toolpack_x86_64" 2>/dev/null ; mkdir -p "/tmp/toolpack_x86_64"
+          find "$HOME/bin" -maxdepth 1 -type f -exec cp {} "/tmp/toolpack_x86_64" \; 
+        continue-on-error: true
+
+      - name: rClone Upload to R2 (bin.prashansa.com.np)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Upload
+          echo -e "\n[+] Uploading Results to R2 (rclone)\n"
+          #>/dev/null 2>&1
+          cd "/tmp/toolpack_x86_64"
+          rclone sync "." "r2:bin/x86_64_Linux/" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          #BLAKE3SUM
+          cd "/tmp/toolpack_x86_64/"
+          /bin/bash -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_BLAKE3SUM"
+          rclone copyto "/tmp/x86_64_Linux_BLAKE3SUM" "r2:bin/x86_64_Linux/BLAKE3SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          #SHA256SUM
+          cd "/tmp/toolpack_x86_64/"
+          /bin/bash -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "/tmp/x86_64_Linux_SHA256SUM"
+          rclone copyto "/tmp/x86_64_Linux_SHA256SUM" "r2:bin/x86_64_Linux/SHA256SUM.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+        continue-on-error: true
+
+      - name: Archive Binaries (.tar) # This is a requirement for others
+        run: |
+          cd /tmp ; set +e ; set -x
+          # Compress to tar (size ~ orignal_size, maybe slight increase)
+          #tar -cvf /tmp/toolpack_x86_64.tar -C /tmp toolpack_x86_64
+          7z a -r -ttar -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar /tmp/toolpack_x86_64 2>/dev/null
+          sha256sum /tmp/toolpack_x86_64.tar
+          df / -h
+        continue-on-error: true
+
+      - name: Upload_toolpack_x86_64_Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+            name: toolpack_x86_64.tar
+            path: |
+              /tmp/toolpack_x86_64.tar      
+
+#------------------------------------------------------------------------------------#
+  archive-binaries-7z:
+    needs: [archive-binaries-tar]
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          df / -h
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
+
+      - name: Install CoreUtils & Deps
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+        continue-on-error: true
+
+      - name: Download_toolpack_x86_64_Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: toolpack_x86_64.tar
+          path: /tmp/
+
+      - name: Archive Binaries (.7z)
+        run: |
+          cd /tmp ; set +e
+          sha256sum /tmp/toolpack_x86_64.tar
+          # untar the tar
+          tar -xvf /tmp/toolpack_x86_64.tar
+          # .7z
+          7z a -r -t7z -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.7z /tmp/toolpack_x86_64 2>/dev/null
+          sha256sum /tmp/toolpack_x86_64.7z
+          df / -h
+        continue-on-error: true
+
+      - name: Upload_toolpack_x86_64.7z
+        uses: actions/upload-artifact@v4
+        with:
+            name: toolpack_x86_64.7z
+            path: |
+              /tmp/toolpack_x86_64.7z
+
+#------------------------------------------------------------------------------------#
+  archive-binaries-bz2:
+    needs: [archive-binaries-tar]
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          df / -h
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
+
+      - name: Install CoreUtils & Deps
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+        continue-on-error: true
+
+      - name: Download_toolpack_x86_64_Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: toolpack_x86_64.tar
+          path: /tmp/
+
+      - name: Archive Binaries (.bzip2)
+        run: |
+          cd /tmp ; set +e
+          sha256sum /tmp/toolpack_x86_64.tar
+          # Compress tar to bzip2
+          7z a -r -tbzip2 -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.tar.bz2 /tmp/toolpack_x86_64.tar 2>/dev/null
+          sha256sum /tmp/toolpack_x86_64.tar.bz2
+          df / -h
+        continue-on-error: true
+
+      - name: Upload_toolpack_x86_64.tar.bz2
+        uses: actions/upload-artifact@v4
+        with:
+            name: toolpack_x86_64.tar.bz2
+            path: |
+              /tmp/toolpack_x86_64.tar.bz2
+
+#------------------------------------------------------------------------------------#
+  archive-binaries-gz:
+    needs: [archive-binaries-tar]
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          df / -h
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
+
+      - name: Install CoreUtils & Deps
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+        continue-on-error: true
+
+      - name: Download_toolpack_x86_64_Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: toolpack_x86_64.tar
+          path: /tmp/
+
+      - name: Archive Binaries (.gz)
+        run: |
+          cd /tmp ; set +e
+          sha256sum /tmp/toolpack_x86_64.tar
+          # Compress tar to .gz
+          7z a -r -tgzip -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.gz /tmp/toolpack_x86_64.tar 2>/dev/null
+          # tar.gz --> if compressed archive has files + folders
+          # .tgz   --> short for tar.gz
+          sha256sum /tmp/toolpack_x86_64.gz
+          df / -h
+        continue-on-error: true
+
+      - name: Upload_toolpack_x86_64.gz
+        uses: actions/upload-artifact@v4
+        with:
+            name: toolpack_x86_64.gz
+            path: |
+              /tmp/toolpack_x86_64.gz
+
+#------------------------------------------------------------------------------------#
+  archive-binaries-zip:
+    needs: [archive-binaries-tar]
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          df / -h
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
+
+      - name: Install CoreUtils & Deps
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+        continue-on-error: true
+
+      - name: Download_toolpack_x86_64_Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: toolpack_x86_64.tar
+          path: /tmp/
+
+      - name: Archive Binaries (.zip)
+        run: |
+          cd /tmp ; set +e
+          sha256sum /tmp/toolpack_x86_64.tar
+          # untar the tar
+          tar -xvf /tmp/toolpack_x86_64.tar
+          # .zip
+          7z a -r -tzip -mx="9" -mmt="$(($(nproc)+1))" /tmp/toolpack_x86_64.zip /tmp/toolpack_x86_64 2>/dev/null
+          sha256sum /tmp/toolpack_x86_64.zip
+          df / -h
+        continue-on-error: true
+
+      - name: Upload_toolpack_x86_64.zip
+        uses: actions/upload-artifact@v4
+        with:
+            name: toolpack_x86_64.zip
+            path: |
+              /tmp/toolpack_x86_64.zip
+              
+#------------------------------------------------------------------------------------#
+  create-release:
+    needs: [archive-binaries-tar, archive-binaries-7z, archive-binaries-bz2, archive-binaries-gz, archive-binaries-zip]
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          df / -h
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
+          df / -h
+        continue-on-error: true
+
+      - name: Install CoreUtils & Deps
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#     
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq p7zip-full wget -y
+        continue-on-error: true
+        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          7z -h
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #upx
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+        continue-on-error: true
+        
+      - name: Download_All_Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: /tmp/
+
+      - name: Make Skeleton for Release
+        run: |
+          mkdir -p /tmp/releases/ ; cd /tmp ; set +e
+          # Move
+          find /tmp -type f -name '*.7z' 2>/dev/null -exec mv {} /tmp/releases \;
+          find /tmp -type f -name '*.gz' 2>/dev/null -exec mv {} /tmp/releases \; 
+          find /tmp -type f -name '*.tar' ! -name '*.bz2' 2>/dev/null -exec mv {} /tmp/releases \; 
+          find /tmp -type f -name '*.tar.bz2' 2>/dev/null -exec mv {} /tmp/releases \;
+          find /tmp -type f -name '*.zip' 2>/dev/null -exec mv {} /tmp/releases \;
+          find /tmp -type d -empty -delete 2>/dev/null
+          find /tmp -size 0 -delete 2>/dev/null
+        continue-on-error: true
+
+      - name: Untar the tar
+        run: |
+          cd /tmp ; set +e
+          # list
+          ls /tmp/releases
+          file /tmp/releases/*
+          # untar the tar
+          tar -xvf /tmp/releases/toolpack_x86_64.tar
+          df / -h
+        continue-on-error: true
+        
+      - name: Create Body for Release
+        run: |
+          set +e
+          cd /tmp/toolpack_x86_64/
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          echo '---' >> /tmp/RELEASE_NOTE.md
+          echo '```console' >> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          echo "Details: 'https://github.com/Azathothas/Toolpacks/tree/main/x86_64'" >> /tmp/RELEASE_NOTE.md
+          echo "Download: 'https://github.com/Azathothas/Toolpacks/tree/main/x86_64#download-toolpack'" >> /tmp/RELEASE_NOTE.md
+          echo "Install: 'https://github.com/Azathothas/Toolpacks/tree/main/x86_64#install-toolpack'" >> /tmp/RELEASE_NOTE.md       
+          echo -e "" >> /tmp/RELEASE_NOTE.md            
+          echo -e "--> METADATA" >> /tmp/RELEASE_NOTE.md
+          echo -e "\n[+] Total Binaries : $(ls -1 /tmp/toolpack_x86_64 | wc -l)\n" >> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; file /tmp/toolpack_x86_64/* | grep -v '.txt' '&>> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ ";b3sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/releases/BLAKE3SUM 
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/releases/BLAKE3SUM
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.gz ' &>> /tmp/releases/BLAKE3SUM
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.tar ' &>> /tmp/releases/BLAKE3SUM            
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.tar.bz2 ' &>> /tmp/releases/BLAKE3SUM           
+          #/bin/bash -c 'PS4="$ ";b3sum /tmp/releases/toolpack_x86_64.zip ' &>> /tmp/releases/BLAKE3SUM
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          echo -e "--> SHA256SUM" >> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/toolpack_x86_64/* | grep -v '.txt' ' &>> /tmp/releases/SHA256SUM
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.7z ' &>> /tmp/releases/SHA256SUM
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.gz ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.gz ' &>> /tmp/releases/SHA256SUM
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar ' &>> /tmp/releases/SHA256SUM            
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar.bz2 ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.tar.bz2 ' &>> /tmp/releases/SHA256SUM           
+          /bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.zip ' &>> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ ";sha256sum /tmp/releases/toolpack_x86_64.zip ' &>> /tmp/releases/SHA256SUM
+          echo -e '```\n' >> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          echo '---' >> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md         
+          echo '- #### Sizes' >> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          echo '```console' >> /tmp/RELEASE_NOTE.md
+          #/bin/bash -c 'PS4="$ "; ls -lh /tmp/toolpack_x86_64/* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.7z | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.gz | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
+          /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.tar.bz2 | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md           
+          /bin/bash -c 'PS4="$ "; ls -lh /tmp/releases/toolpack_x86_64.zip | awk "{print \$5, \$9}" | column -t' &>> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+          echo '```' >> /tmp/RELEASE_NOTE.md
+          echo -e "" >> /tmp/RELEASE_NOTE.md
+        continue-on-error: true
+          
+      - name: Get Safe_DateTime
+        run: |
+          # Date Time
+          SAFE_NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d_%I:%M:%S_%p' | tr ' :-' '_')
+          echo "SAFE_NEPALI_TIME=$SAFE_NEPALI_TIME" >> $GITHUB_ENV
+        continue-on-error: true
+
+      - name: Releaser
+        uses: softprops/action-gh-release@v0.1.15
+        with:
+          name: "Toolpack (x86_64) Weekly ${{ env.SAFE_NEPALI_TIME }}"
+          tag_name: "toolpack_x86_64_${{ env.SAFE_NEPALI_TIME }}"
+          prerelease: false
+          draft: false
+          generate_release_notes: false
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          body_path: "/tmp/RELEASE_NOTE.md"
+          files: |
+            /tmp/releases/*
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
