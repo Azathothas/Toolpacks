@@ -78,6 +78,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Copy 
        docker cp "alpine-builder:/build-bins/fastfetch" "./fastfetch"
        docker cp "alpine-builder:/build-bins/flashfetch" "./flashfetch"
+      #Staticx
+       eval "$EGET_TIMEOUT" eget "https://github.com/fastfetch-cli/fastfetch" --asset "linux" --asset "amd64" --asset "tar.gz" "$EGET_EXCLUDE" --to "./fastfetch-dynamic"
+       staticx --loglevel DEBUG "./fastfetch-dynamic" --strip "$BINDIR/fastfetch-staticx"
+       file "$BINDIR/fastfetch-staticx" ; du -sh "$BINDIR/fastfetch-staticx"       
        #Meta 
        file "./fastfetch" && du -sh "./fastfetch"
        file "./flashfetch" && du -sh "./flashfetch"
