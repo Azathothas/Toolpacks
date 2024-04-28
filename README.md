@@ -46,7 +46,20 @@
 > ℹ️ Recommended ℹ️ : Use [**`Hysp`**](https://github.com/pwnwriter/hysp) if you want to skip everything below, since hysp already [uses this repo as it's source.](https://github.com/metis-os/hysp-pkgs)
 > - It's also possible to use `"$(uname -m)"` | `$env:PROCESSOR_ARCHITECTURE` | `adb shell getprop ro.product.cpu.abi` variations
 > > ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/906c29b9-0852-4878-bae9-d64f68e7c569)
-> 
+> > ```bash
+> > !# curl needs the `-L, --location` flag to Follow redirects
+> > !# wget works without any flags
+> > 
+> > !# Example on Android
+> > curl -qfsSLO "https://bin.ajam.dev/$(getprop ro.product.cpu.abi)/$BIN_OR_PATH_TO_BIN"
+> > 
+> > !# Example on Linux
+> > curl -qfsSLO "https://bin.ajam.dev/$(uname -m)/$BIN_OR_PATH_TO_BIN"
+> >
+> > !# Example on Windows
+> > Invoke-WebRequest -Uri "https://bin.ajam.dev/$env:PROCESSOR_ARCHITECTURE/$BIN_OR_PATH_TO_BIN.exe" -OutFile "$BIN.exe"
+> >
+> > ```
 > 1. Install [**`eget`**](https://github.com/zyedidia/eget)
 > > ```bash
 > > #--------------------------------------------------------------------------------------------#

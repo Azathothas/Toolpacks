@@ -1522,8 +1522,8 @@
   },
   {
     "Name": "fastfetch.sh",
-    "Size": "1679 B",
-    "ModTime": "2024-03-29T18:32:13.705873528Z",
+    "Size": "5055 B",
+    "ModTime": "2024-04-28T14:01:21.741926666Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fastfetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3206,7 +3206,7 @@
   {
     "Name": "metadata.json",
     "Size": "179.85 kB",
-    "ModTime": "2024-04-28T00:06:51.381013794Z",
+    "ModTime": "2024-04-28T07:04:02.423837899Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
