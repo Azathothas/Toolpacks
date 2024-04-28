@@ -1522,8 +1522,8 @@
   },
   {
     "Name": "fastfetch.sh",
-    "Size": "5055 B",
-    "ModTime": "2024-04-28T14:01:21.741926666Z",
+    "Size": "5407 B",
+    "ModTime": "2024-04-28T21:01:12.878686771Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fastfetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3206,7 +3206,7 @@
   {
     "Name": "metadata.json",
     "Size": "179.85 kB",
-    "ModTime": "2024-04-28T07:04:02.423837899Z",
+    "ModTime": "2024-04-28T14:05:33.702422004Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3514,6 +3514,15 @@
     "Size": "1896 B",
     "ModTime": "2024-03-29T18:32:13.713873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nomore403.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "noseyparker.sh",
+    "Size": "3508 B",
+    "ModTime": "2024-04-28T21:01:12.878686771Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/noseyparker.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -5890,6 +5899,15 @@
     "Size": "2844 B",
     "ModTime": "2024-03-29T18:32:13.721873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/z-tokens.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "zapper.sh",
+    "Size": "2817 B",
+    "ModTime": "2024-04-28T21:01:12.878686771Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zapper.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
