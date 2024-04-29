@@ -51,7 +51,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/strip-ansi-escapes" "/build-bins/strip-ansi-escapes"
          cp "./target/$RUST_TARGET/release/sync-color-schemes" "/build-bins/sync-color-schemes"
          cp "./target/$RUST_TARGET/release/wezterm" "/build-bins/wezterm"
-         cp "./target/$RUST_TARGET/release/wezterm-gui" "/build-bins/wezterm"
+         cp "./target/$RUST_TARGET/release/wezterm-gui" "/build-bins/wezterm-gui"
          cp "./target/$RUST_TARGET/release/wezterm-mux-server" "/build-bins/wezterm-mux-server"
         '
       #Copy 
