@@ -5,6 +5,8 @@ FROM alpine:edge
 ##Base Deps :: https://pkgs.alpinelinux.org/packages
 RUN <<EOS
   apk update && apk upgrade --no-interactive
+  apk add acl-dev --latest --upgrade --no-interactive
+  apk add acl-static --latest --upgrade --no-interactive
   apk add alpine-sdk --latest --upgrade --no-interactive
   apk add alsa-lib --latest --upgrade --no-interactive
   apk add alsa-lib-dev --latest --upgrade --no-interactive
@@ -49,6 +51,7 @@ RUN <<EOS
   apk add dos2unix --latest --upgrade --no-interactive
   apk add elfutils --latest --upgrade --no-interactive
   apk add elfutils-dev --latest --upgrade --no-interactive
+  apk add file-dev --latest --upgrade --no-interactive
   apk add flex-dev --latest --upgrade --no-interactive
   apk add fontconfig-dev --latest --upgrade --no-interactive
   apk add fontconfig-static --latest --upgrade --no-interactive
@@ -101,6 +104,9 @@ RUN <<EOS
   apk add libprotobuf --latest --upgrade --no-interactive
   apk add libpq --latest --upgrade --no-interactive
   apk add libpq-dev --latest --upgrade --no-interactive
+  apk add libseccomp --latest --upgrade --no-interactive
+  apk add libseccomp-dev --latest --upgrade --no-interactive
+  apk add libseccomp-static --latest --upgrade --no-interactive
   apk add libssh2 --latest --upgrade --no-interactive
   apk add libssh2-dev --latest --upgrade --no-interactive
   apk add libssh2-static --latest --upgrade --no-interactive
@@ -133,6 +139,7 @@ RUN <<EOS
   apk add lm-sensors-libs --latest --upgrade --no-interactive
   apk add luajit --latest --upgrade --no-interactive
   apk add luajit-dev --latest --upgrade --no-interactive
+  apk add lynx --latest --upgrade --no-interactive
   apk add lzip --latest --upgrade --no-interactive
   apk add make --latest --upgrade --no-interactive
   apk add mariadb --latest --upgrade --no-interactive
@@ -180,6 +187,9 @@ RUN <<EOS
   apk add pipx --latest --upgrade --no-interactive
   apk add pkgconf --latest --upgrade --no-interactive
   apk add pkgconf-dev --latest --upgrade --no-interactive
+  apk add readline --latest --upgrade --no-interactive
+  apk add readline-dev --latest --upgrade --no-interactive
+  apk add readline-static --latest --upgrade --no-interactive
   apk add qemu --latest --upgrade --no-interactive
   apk add qemu-tools --latest --upgrade --no-interactive
   apk add qemu-aarch64 --latest --upgrade --no-interactive
