@@ -15,9 +15,9 @@
 
 [-] command not found --> # Something failed to Install
 
-62390:WARNING: msgfmt command not found!
-62391:WARNING: xgettext command not found!
-62392:WARNING: msgmerge command not found!
+62944:WARNING: msgfmt command not found!
+62945:WARNING: xgettext command not found!
+62946:WARNING: msgmerge command not found!
 
 
 [-] Dynamically Linked --> # Not Statically Linked
@@ -42,11 +42,11 @@
 [-] No such file or directory # Usually Because Build Failures
 
 3894:/usr/bin/deb-systemd-helper: error: systemctl preset failed on lm-sensors.service: No such file or directory
-47618:./git-xet: cannot open `./git-xet' (No such file or directory)
-47621:./xetmnt: cannot open `./xetmnt' (No such file or directory)
-48443:./src/grep: cannot open `./src/grep' (No such file or directory)
-49051:./src/kak.opt: cannot open `./src/kak.opt' (No such file or directory)
-61072:./samu: cannot open `./samu' (No such file or directory)
+48108:./git-xet: cannot open `./git-xet' (No such file or directory)
+48111:./xetmnt: cannot open `./xetmnt' (No such file or directory)
+48933:./src/grep: cannot open `./src/grep' (No such file or directory)
+49541:./src/kak.opt: cannot open `./src/kak.opt' (No such file or directory)
+61627:./samu: cannot open `./samu' (No such file or directory)
 
 
 [-] Empty (0 Sized) Bins # Usually Because Symlinks
