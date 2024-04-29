@@ -21,12 +21,36 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #smenu : a powerful and versatile CLI selection tool for interactive or scripting use
+    #smenu : a powerful and versatile CLI selection tool for interactive or scripting use.
      export BIN="smenu" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/p-gen/smenu" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "86_64" --asset "static" --asset "xz" --asset "^asc" --asset "linux" --to "$BINDIR/smenu"
+      #Build
+       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+        #Build
+         git clone --filter "blob:none" --quiet "https://github.com/p-gen/smenu" && cd "./smenu"
+         export CFLAGS="-O2 -flto=auto -static -w -pipe"
+         export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
+         "./configure" --disable-shared --enable-static
+         make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" CPPFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
+        #strip & info
+         strip "./STATIC_BUILD/smenu" ; strip "./STATIC_BUILD/smenu"
+         cp "./STATIC_BUILD/smenu" "/build-bins/smenu"
+        '
+      #Copy 
+       docker cp "alpine-builder:/build-bins/smenu" "./smenu"
+       #Meta 
+       file "./smenu" && du -sh "./smenu"
+       cp "./smenu" "$BINDIR/smenu"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
