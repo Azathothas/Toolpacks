@@ -190,6 +190,7 @@ RUN <<EOS
   apk add wget --latest --upgrade --no-interactive
   apk add wolfssl --latest --upgrade --no-interactive
   apk add wolfssl-dev --latest --upgrade --no-interactive
+  apk add xcb-util --latest --upgrade --no-interactive
   apk add xcb-util-dev --latest --upgrade --no-interactive
   apk add xcb-util-image-dev --latest --upgrade --no-interactive
   apk add xcb-util-keysyms-dev --latest --upgrade --no-interactive
