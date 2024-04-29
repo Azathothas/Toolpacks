@@ -5,6 +5,7 @@ FROM alpine:edge
 ##Base Deps :: https://pkgs.alpinelinux.org/packages
 RUN <<EOS
   apk update && apk upgrade --no-interactive
+  apk add alpine-sdk --latest --upgrade --no-interactive
   apk add alsa-lib --latest --upgrade --no-interactive
   apk add alsa-lib-dev --latest --upgrade --no-interactive
   apk add aria2 --latest --upgrade --no-interactive
@@ -20,6 +21,7 @@ RUN <<EOS
   apk add bind-tools --latest --upgrade --no-interactive
   apk add binutils --latest --upgrade --no-interactive
   apk add bison --latest --upgrade --no-interactive
+  apk add boost-dev --latest --upgrade --no-interactive
   apk add build-base --latest --upgrade --no-interactive
   apk add bzip2 --latest --upgrade --no-interactive
   apk add bzip2-dev --latest --upgrade --no-interactive
@@ -47,6 +49,10 @@ RUN <<EOS
   apk add elfutils --latest --upgrade --no-interactive
   apk add elfutils-dev --latest --upgrade --no-interactive
   apk add flex-dev --latest --upgrade --no-interactive
+  apk add fontconfig-dev --latest --upgrade --no-interactive
+  apk add fontconfig-static --latest --upgrade --no-interactive
+  apk add freetype-dev --latest --upgrade --no-interactive
+  apk add freetype-static --latest --upgrade --no-interactive
   apk add gawk --latest --upgrade --no-interactive
   apk add gcc --latest --upgrade --no-interactive
   apk add gettext --latest --upgrade --no-interactive
@@ -56,6 +62,8 @@ RUN <<EOS
   apk add glib-dev --latest --upgrade --no-interactive
   apk add go --latest --upgrade --no-interactive
   apk add gnupg --latest --upgrade --no-interactive
+  apk add imagemagick-dev --latest --upgrade --no-interactive
+  apk add imagemagick-static --latest --upgrade --no-interactive
   apk add iperf --latest --upgrade --no-interactive
   apk add iputils --latest --upgrade --no-interactive
   apk add jq --latest --upgrade --no-interactive
@@ -72,6 +80,8 @@ RUN <<EOS
   apk add libncursesw --latest --upgrade --no-interactive
   apk add libpcap --latest --upgrade --no-interactive
   apk add libpcap-dev --latest --upgrade --no-interactive
+  apk add libpng-dev --latest --upgrade --no-interactive
+  apk add libpng-static --latest --upgrade --no-interactive
   apk add libprotobuf --latest --upgrade --no-interactive
   apk add libpq --latest --upgrade --no-interactive
   apk add libpq-dev --latest --upgrade --no-interactive
@@ -79,6 +89,11 @@ RUN <<EOS
   apk add libssh2-dev --latest --upgrade --no-interactive
   apk add libssh2-static --latest --upgrade --no-interactive
   apk add libtool --latest --upgrade --no-interactive
+  apk add libx11-dev --latest --upgrade --no-interactive
+  apk add libx11-static --latest --upgrade --no-interactive
+  apk add libxcb-static --latest --upgrade --no-interactive
+  apk add libxkbcommon-dev --latest --upgrade --no-interactive
+  apk add libxkbcommon-static --latest --upgrade --no-interactive
   apk add libxml2 --latest --upgrade --no-interactive
   apk add libxml2-static --latest --upgrade --no-interactive
   apk add libxml2-utils --latest --upgrade --no-interactive
@@ -117,6 +132,7 @@ RUN <<EOS
   apk add ncurses-static --latest --upgrade --no-interactive
   apk add netcat-openbsd --latest --upgrade --no-interactive
   apk add net-tools --latest --upgrade --no-interactive
+  apk add networkmanager-dev --latest --upgrade --no-interactive
   apk add ninja-build --latest --upgrade --no-interactive
   apk add nodejs-current --latest --upgrade --no-interactive
   apk add openssh --latest --upgrade --no-interactive
@@ -170,9 +186,14 @@ RUN <<EOS
   apk add ufw --latest --upgrade --no-interactive
   apk add util-linux --latest --upgrade --no-interactive
   apk add virt-what --latest --upgrade --no-interactive
+  apk add wayland-dev --latest --upgrade --no-interactive
   apk add wget --latest --upgrade --no-interactive
   apk add wolfssl --latest --upgrade --no-interactive
   apk add wolfssl-dev --latest --upgrade --no-interactive
+  apk add xcb-util-dev --latest --upgrade --no-interactive
+  apk add xcb-util-image-dev --latest --upgrade --no-interactive
+  apk add xcb-util-keysyms-dev --latest --upgrade --no-interactive
+  apk add xcb-util-wm-dev --latest --upgrade --no-interactive
   apk add xz --latest --upgrade --no-interactive
   apk add xz-dev --latest --upgrade --no-interactive
   apk add xz-libs --latest --upgrade --no-interactive
