@@ -21,7 +21,7 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #noseyparker: command-line program that finds secrets and sensitive information in textual data and Git history. 
+    #noseyparker: command-line program that finds secrets and sensitive information in textual data and Git history.
      export BIN="noseyparker" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/praetorian-inc/noseyparker" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
