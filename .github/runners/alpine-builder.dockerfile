@@ -10,6 +10,7 @@ RUN <<EOS
   apk add alsa-lib-dev --latest --upgrade --no-interactive
   apk add aria2 --latest --upgrade --no-interactive
   apk add autoconf --latest --upgrade --no-interactive
+  apk add autoconf-archive --latest --upgrade --no-interactive
   apk add automake --latest --upgrade --no-interactive
   apk add b3sum --latest --upgrade --no-interactive
   apk add bash --latest --upgrade --no-interactive
@@ -62,6 +63,8 @@ RUN <<EOS
   apk add fuse3-static --latest --upgrade --no-interactive
   apk add gawk --latest --upgrade --no-interactive
   apk add gcc --latest --upgrade --no-interactive
+  apk add geoip --latest --upgrade --no-interactive
+  apk add geoip-dev --latest --upgrade --no-interactive
   apk add gettext --latest --upgrade --no-interactive
   apk add gettext-static --latest --upgrade --no-interactive
   apk add git --latest --upgrade --no-interactive
@@ -74,6 +77,8 @@ RUN <<EOS
   apk add iperf --latest --upgrade --no-interactive
   apk add iputils --latest --upgrade --no-interactive
   apk add jq --latest --upgrade --no-interactive
+  apk add libbpf --latest --upgrade --no-interactive
+  apk add libbpf-dev --latest --upgrade --no-interactive
   apk add libcap --latest --upgrade --no-interactive
   apk add libcap-dev --latest --upgrade --no-interactive
   apk add libcap-static --latest --upgrade --no-interactive
@@ -83,6 +88,10 @@ RUN <<EOS
   apk add libdbusmenu-glib --latest --upgrade --no-interactive
   apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive
   apk add libedit-static --latest --upgrade --no-interactive
+  apk add libelf --latest --upgrade --no-interactive
+  apk add libmaxminddb-dev --latest --upgrade --no-interactive
+  apk add libmaxminddb-libs --latest --upgrade --no-interactive
+  apk add libmaxminddb-static --latest --upgrade --no-interactive
   apk add libncurses++ --latest --upgrade --no-interactive
   apk add libncursesw --latest --upgrade --no-interactive
   apk add libpcap --latest --upgrade --no-interactive
@@ -113,6 +122,8 @@ RUN <<EOS
   apk add linux-headers --latest --upgrade --no-interactive
   apk add linux-pam --latest --upgrade --no-interactive
   apk add linux-pam-dev --latest --upgrade --no-interactive
+  apk add linux-tools --latest --upgrade --no-interactive
+  apk add linux-tools-dev --latest --upgrade --no-interactive
   apk add llvm17 --latest --upgrade --no-interactive
   apk add llvm17-libs --latest --upgrade --no-interactive
   apk add llvm17-linker-tools --latest --upgrade --no-interactive
@@ -193,6 +204,7 @@ RUN <<EOS
   apk add tinyalsa-dev --latest --upgrade --no-interactive
   apk add tinyalsa-libs --latest --upgrade --no-interactive
   apk add tinyalsa-static --latest --upgrade --no-interactive
+  apk add txt2man --latest --upgrade --no-interactive
   apk add tzdata --latest --upgrade --no-interactive
   apk add ufw --latest --upgrade --no-interactive
   apk add util-linux --latest --upgrade --no-interactive

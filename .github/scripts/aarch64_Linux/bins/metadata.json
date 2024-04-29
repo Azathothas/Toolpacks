@@ -3178,8 +3178,8 @@
   },
   {
     "Name": "metadata.json",
-    "Size": "178.89 kB",
-    "ModTime": "2024-04-29T00:10:16.218822998Z",
+    "Size": "179.16 kB",
+    "ModTime": "2024-04-29T07:07:22.722846136Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4609,8 +4609,8 @@
   },
   {
     "Name": "smenu.sh",
-    "Size": "1689 B",
-    "ModTime": "2024-03-29T18:32:13.693873529Z",
+    "Size": "2791 B",
+    "ModTime": "2024-04-29T14:02:17.472553709Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/smenu.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -5599,8 +5599,8 @@
   },
   {
     "Name": "wezterm.sh",
-    "Size": "4913 B",
-    "ModTime": "2024-04-29T07:01:26.981951489Z",
+    "Size": "4917 B",
+    "ModTime": "2024-04-29T14:02:17.468553736Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wezterm.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -5647,6 +5647,15 @@
     "Size": "2406 B",
     "ModTime": "2024-03-29T18:32:13.697873529Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wireguard-rs.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "wirelesstools.sh",
+    "Size": "2667 B",
+    "ModTime": "2024-04-29T14:02:17.472553709Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wirelesstools.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
