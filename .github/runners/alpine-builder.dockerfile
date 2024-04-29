@@ -62,6 +62,8 @@ RUN <<EOS
   apk add fuse3-static --latest --upgrade --no-interactive
   apk add gawk --latest --upgrade --no-interactive
   apk add gcc --latest --upgrade --no-interactive
+  apk add geoip --latest --upgrade --no-interactive
+  apk add geoip-dev --latest --upgrade --no-interactive
   apk add gettext --latest --upgrade --no-interactive
   apk add gettext-static --latest --upgrade --no-interactive
   apk add git --latest --upgrade --no-interactive
@@ -83,6 +85,9 @@ RUN <<EOS
   apk add libdbusmenu-glib --latest --upgrade --no-interactive
   apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive
   apk add libedit-static --latest --upgrade --no-interactive
+  apk add libmaxminddb-dev --latest --upgrade --no-interactive
+  apk add libmaxminddb-libs --latest --upgrade --no-interactive
+  apk add libmaxminddb-static --latest --upgrade --no-interactive
   apk add libncurses++ --latest --upgrade --no-interactive
   apk add libncursesw --latest --upgrade --no-interactive
   apk add libpcap --latest --upgrade --no-interactive
