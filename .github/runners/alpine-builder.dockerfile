@@ -20,6 +20,7 @@ RUN <<EOS
   apk add bind-tools --latest --upgrade --no-interactive
   apk add binutils --latest --upgrade --no-interactive
   apk add bison --latest --upgrade --no-interactive
+  apk add boost-dev --latest --upgrade --no-interactive
   apk add build-base --latest --upgrade --no-interactive
   apk add bzip2 --latest --upgrade --no-interactive
   apk add bzip2-dev --latest --upgrade --no-interactive
@@ -56,6 +57,8 @@ RUN <<EOS
   apk add glib-dev --latest --upgrade --no-interactive
   apk add go --latest --upgrade --no-interactive
   apk add gnupg --latest --upgrade --no-interactive
+  apk add imagemagick-dev --latest --upgrade --no-interactive
+  apk add imagemagick-static --latest --upgrade --no-interactive
   apk add iperf --latest --upgrade --no-interactive
   apk add iputils --latest --upgrade --no-interactive
   apk add jq --latest --upgrade --no-interactive
@@ -79,6 +82,7 @@ RUN <<EOS
   apk add libssh2-dev --latest --upgrade --no-interactive
   apk add libssh2-static --latest --upgrade --no-interactive
   apk add libtool --latest --upgrade --no-interactive
+  apk add libxcb-static --latest --upgrade --no-interactive
   apk add libxml2 --latest --upgrade --no-interactive
   apk add libxml2-static --latest --upgrade --no-interactive
   apk add libxml2-utils --latest --upgrade --no-interactive
@@ -117,6 +121,7 @@ RUN <<EOS
   apk add ncurses-static --latest --upgrade --no-interactive
   apk add netcat-openbsd --latest --upgrade --no-interactive
   apk add net-tools --latest --upgrade --no-interactive
+  apk add networkmanager-dev --latest --upgrade --no-interactive
   apk add ninja-build --latest --upgrade --no-interactive
   apk add nodejs-current --latest --upgrade --no-interactive
   apk add openssh --latest --upgrade --no-interactive
