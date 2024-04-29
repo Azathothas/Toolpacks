@@ -53,6 +53,13 @@ RUN <<EOS
   apk add fontconfig-static --latest --upgrade --no-interactive
   apk add freetype-dev --latest --upgrade --no-interactive
   apk add freetype-static --latest --upgrade --no-interactive
+  apk add fuse --latest --upgrade --no-interactive
+  apk add fuse-dev --latest --upgrade --no-interactive
+  apk add fuse-static --latest --upgrade --no-interactive
+  apk add fuse3 --latest --upgrade --no-interactive
+  apk add fuse3-dev --latest --upgrade --no-interactive
+  apk add fuse3-libs --latest --upgrade --no-interactive
+  apk add fuse3-static --latest --upgrade --no-interactive
   apk add gawk --latest --upgrade --no-interactive
   apk add gcc --latest --upgrade --no-interactive
   apk add gettext --latest --upgrade --no-interactive
@@ -89,6 +96,10 @@ RUN <<EOS
   apk add libssh2-dev --latest --upgrade --no-interactive
   apk add libssh2-static --latest --upgrade --no-interactive
   apk add libtool --latest --upgrade --no-interactive
+  apk add libtorrent --latest --upgrade --no-interactive
+  apk add libtorrent-dev --latest --upgrade --no-interactive
+  apk add libtorrent-rasterbar --latest --upgrade --no-interactive
+  apk add libtorrent-rasterbar-dev --latest --upgrade --no-interactive
   apk add libx11-dev --latest --upgrade --no-interactive
   apk add libx11-static --latest --upgrade --no-interactive
   apk add libxcb-static --latest --upgrade --no-interactive
@@ -198,6 +209,7 @@ RUN <<EOS
   apk add xz --latest --upgrade --no-interactive
   apk add xz-dev --latest --upgrade --no-interactive
   apk add xz-libs --latest --upgrade --no-interactive
+  apk add zig --latest --upgrade --no-interactive
   apk add zlib --latest --upgrade --no-interactive
   apk add zlib-static --latest --upgrade --no-interactive
   apk add zstd --latest --upgrade --no-interactive
