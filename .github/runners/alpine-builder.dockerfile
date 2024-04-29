@@ -5,6 +5,7 @@ FROM alpine:edge
 ##Base Deps :: https://pkgs.alpinelinux.org/packages
 RUN <<EOS
   apk update && apk upgrade --no-interactive
+  apk add alpine-sdk --latest --upgrade --no-interactive
   apk add alsa-lib --latest --upgrade --no-interactive
   apk add alsa-lib-dev --latest --upgrade --no-interactive
   apk add aria2 --latest --upgrade --no-interactive
@@ -48,6 +49,10 @@ RUN <<EOS
   apk add elfutils --latest --upgrade --no-interactive
   apk add elfutils-dev --latest --upgrade --no-interactive
   apk add flex-dev --latest --upgrade --no-interactive
+  apk add fontconfig-dev --latest --upgrade --no-interactive
+  apk add fontconfig-static --latest --upgrade --no-interactive
+  apk add freetype-dev --latest --upgrade --no-interactive
+  apk add freetype-static --latest --upgrade --no-interactive
   apk add gawk --latest --upgrade --no-interactive
   apk add gcc --latest --upgrade --no-interactive
   apk add gettext --latest --upgrade --no-interactive
@@ -75,6 +80,8 @@ RUN <<EOS
   apk add libncursesw --latest --upgrade --no-interactive
   apk add libpcap --latest --upgrade --no-interactive
   apk add libpcap-dev --latest --upgrade --no-interactive
+  apk add libpng-dev --latest --upgrade --no-interactive
+  apk add libpng-static --latest --upgrade --no-interactive
   apk add libprotobuf --latest --upgrade --no-interactive
   apk add libpq --latest --upgrade --no-interactive
   apk add libpq-dev --latest --upgrade --no-interactive
@@ -82,7 +89,11 @@ RUN <<EOS
   apk add libssh2-dev --latest --upgrade --no-interactive
   apk add libssh2-static --latest --upgrade --no-interactive
   apk add libtool --latest --upgrade --no-interactive
+  apk add libx11-dev --latest --upgrade --no-interactive
+  apk add libx11-static --latest --upgrade --no-interactive
   apk add libxcb-static --latest --upgrade --no-interactive
+  apk add libxkbcommon-dev --latest --upgrade --no-interactive
+  apk add libxkbcommon-static --latest --upgrade --no-interactive
   apk add libxml2 --latest --upgrade --no-interactive
   apk add libxml2-static --latest --upgrade --no-interactive
   apk add libxml2-utils --latest --upgrade --no-interactive
@@ -175,9 +186,14 @@ RUN <<EOS
   apk add ufw --latest --upgrade --no-interactive
   apk add util-linux --latest --upgrade --no-interactive
   apk add virt-what --latest --upgrade --no-interactive
+  apk add wayland-dev --latest --upgrade --no-interactive
   apk add wget --latest --upgrade --no-interactive
   apk add wolfssl --latest --upgrade --no-interactive
   apk add wolfssl-dev --latest --upgrade --no-interactive
+  apk add xcb-util-dev --latest --upgrade --no-interactive
+  apk add xcb-util-image-dev --latest --upgrade --no-interactive
+  apk add xcb-util-keysyms-dev --latest --upgrade --no-interactive
+  apk add xcb-util-wm-dev --latest --upgrade --no-interactive
   apk add xz --latest --upgrade --no-interactive
   apk add xz-dev --latest --upgrade --no-interactive
   apk add xz-libs --latest --upgrade --no-interactive
