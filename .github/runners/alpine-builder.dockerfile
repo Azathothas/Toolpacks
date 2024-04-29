@@ -11,6 +11,7 @@ RUN <<EOS
   apk add alsa-lib --latest --upgrade --no-interactive
   apk add alsa-lib-dev --latest --upgrade --no-interactive
   apk add aria2 --latest --upgrade --no-interactive
+  apk add asciidoc --latest --upgrade --no-interactive
   apk add autoconf --latest --upgrade --no-interactive
   apk add autoconf-archive --latest --upgrade --no-interactive
   apk add automake --latest --upgrade --no-interactive
