@@ -93,6 +93,9 @@ RUN <<EOS
   apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive
   apk add libedit-static --latest --upgrade --no-interactive
   apk add libelf --latest --upgrade --no-interactive
+  apk add libevent --latest --upgrade --no-interactive
+  apk add libevent-dev --latest --upgrade --no-interactive
+  apk add libevent-static --latest --upgrade --no-interactive
   apk add libmaxminddb-dev --latest --upgrade --no-interactive
   apk add libmaxminddb-libs --latest --upgrade --no-interactive
   apk add libmaxminddb-static --latest --upgrade --no-interactive
