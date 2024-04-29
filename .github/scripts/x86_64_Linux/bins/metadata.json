@@ -298,8 +298,8 @@
   },
   {
     "Name": "axel.sh",
-    "Size": "1969 B",
-    "ModTime": "2024-03-29T18:32:13.701873528Z",
+    "Size": "3329 B",
+    "ModTime": "2024-04-29T21:02:12.115447604Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/axel.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -901,8 +901,8 @@
   },
   {
     "Name": "cpufetch.sh",
-    "Size": "1619 B",
-    "ModTime": "2024-03-29T18:32:13.701873528Z",
+    "Size": "2116 B",
+    "ModTime": "2024-04-29T21:02:12.095447672Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cpufetch.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1845,6 +1845,15 @@
     "Repo": null
   },
   {
+    "Name": "gguf-tools.sh",
+    "Size": "2724 B",
+    "ModTime": "2024-04-29T14:16:04.763488546Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gguf-tools.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "gh-dash.sh",
     "Size": "1632 B",
     "ModTime": "2024-03-29T18:32:13.705873528Z",
@@ -2056,6 +2065,15 @@
     "Size": "2001 B",
     "ModTime": "2024-03-29T18:32:13.705873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-simplehttpserver.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "goaccess.sh",
+    "Size": "3328 B",
+    "ModTime": "2024-04-29T14:16:04.763488546Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/goaccess.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -2407,6 +2425,24 @@
     "Size": "1664 B",
     "ModTime": "2024-03-29T18:32:13.709873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/haylxon.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "hcxdumptool.sh",
+    "Size": "2021 B",
+    "ModTime": "2024-04-29T21:02:12.123447578Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hcxdumptool.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "hcxtools.sh",
+    "Size": "2442 B",
+    "ModTime": "2024-04-29T21:02:12.103447644Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hcxtools.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3205,8 +3241,8 @@
   },
   {
     "Name": "metadata.json",
-    "Size": "180.68 kB",
-    "ModTime": "2024-04-29T07:04:18.266362160Z",
+    "Size": "180.96 kB",
+    "ModTime": "2024-04-29T14:08:07.246174730Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3325,6 +3361,15 @@
     "Size": "2483 B",
     "ModTime": "2024-03-29T18:32:13.713873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mqttui.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "mtr.sh",
+    "Size": "2101 B",
+    "ModTime": "2024-04-29T21:02:12.103447644Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mtr.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -5170,6 +5215,15 @@
     "Size": "1918 B",
     "ModTime": "2024-03-29T18:32:13.717873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tinja.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "tio.sh",
+    "Size": "1923 B",
+    "ModTime": "2024-04-29T21:02:12.111447618Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tio.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
