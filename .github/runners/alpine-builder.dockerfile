@@ -5,10 +5,13 @@ FROM alpine:edge
 ##Base Deps :: https://pkgs.alpinelinux.org/packages
 RUN <<EOS
   apk update && apk upgrade --no-interactive
+  apk add acl-dev --latest --upgrade --no-interactive
+  apk add acl-static --latest --upgrade --no-interactive
   apk add alpine-sdk --latest --upgrade --no-interactive
   apk add alsa-lib --latest --upgrade --no-interactive
   apk add alsa-lib-dev --latest --upgrade --no-interactive
   apk add aria2 --latest --upgrade --no-interactive
+  apk add asciidoc --latest --upgrade --no-interactive
   apk add autoconf --latest --upgrade --no-interactive
   apk add autoconf-archive --latest --upgrade --no-interactive
   apk add automake --latest --upgrade --no-interactive
@@ -37,6 +40,7 @@ RUN <<EOS
   apk add clang-dev --latest --upgrade --no-interactive
   apk add clang-static --latest --upgrade --no-interactive
   apk add cmake --latest --upgrade --no-interactive
+  apk add cmocka-dev --latest --upgrade --no-interactive
   apk add coreutils --latest --upgrade --no-interactive
   apk add croc --latest --upgrade --no-interactive
   apk add curl --latest --upgrade --no-interactive
@@ -49,6 +53,10 @@ RUN <<EOS
   apk add dos2unix --latest --upgrade --no-interactive
   apk add elfutils --latest --upgrade --no-interactive
   apk add elfutils-dev --latest --upgrade --no-interactive
+  apk add expect --latest --upgrade --no-interactive
+  apk add expect-dev --latest --upgrade --no-interactive
+  apk add ethtool --latest --upgrade --no-interactive
+  apk add file-dev --latest --upgrade --no-interactive
   apk add flex-dev --latest --upgrade --no-interactive
   apk add fontconfig-dev --latest --upgrade --no-interactive
   apk add fontconfig-static --latest --upgrade --no-interactive
@@ -72,10 +80,17 @@ RUN <<EOS
   apk add glib-dev --latest --upgrade --no-interactive
   apk add go --latest --upgrade --no-interactive
   apk add gnupg --latest --upgrade --no-interactive
+  apk add gpsd-dev --latest --upgrade --no-interactive
+  apk add hostapd --latest --upgrade --no-interactive
+  apk add hwloc-dev --latest --upgrade --no-interactive
   apk add imagemagick-dev --latest --upgrade --no-interactive
   apk add imagemagick-static --latest --upgrade --no-interactive
   apk add iperf --latest --upgrade --no-interactive
   apk add iputils --latest --upgrade --no-interactive
+  apk add iw --latest --upgrade --no-interactive
+  apk add jemalloc --latest --upgrade --no-interactive
+  apk add jemalloc-dev --latest --upgrade --no-interactive
+  apk add jemalloc-static --latest --upgrade --no-interactive
   apk add jq --latest --upgrade --no-interactive
   apk add libbpf --latest --upgrade --no-interactive
   apk add libbpf-dev --latest --upgrade --no-interactive
@@ -89,6 +104,12 @@ RUN <<EOS
   apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive
   apk add libedit-static --latest --upgrade --no-interactive
   apk add libelf --latest --upgrade --no-interactive
+  apk add libevent --latest --upgrade --no-interactive
+  apk add libevent-dev --latest --upgrade --no-interactive
+  apk add libevent-static --latest --upgrade --no-interactive
+  apk add libgcrypt --latest --upgrade --no-interactive
+  apk add libgcrypt-dev --latest --upgrade --no-interactive
+  apk add libgcrypt-static --latest --upgrade --no-interactive
   apk add libmaxminddb-dev --latest --upgrade --no-interactive
   apk add libmaxminddb-libs --latest --upgrade --no-interactive
   apk add libmaxminddb-static --latest --upgrade --no-interactive
@@ -98,9 +119,14 @@ RUN <<EOS
   apk add libpcap-dev --latest --upgrade --no-interactive
   apk add libpng-dev --latest --upgrade --no-interactive
   apk add libpng-static --latest --upgrade --no-interactive
+  apk add libnl3-dev --latest --upgrade --no-interactive
+  apk add libnl3-static --latest --upgrade --no-interactive
   apk add libprotobuf --latest --upgrade --no-interactive
   apk add libpq --latest --upgrade --no-interactive
   apk add libpq-dev --latest --upgrade --no-interactive
+  apk add libseccomp --latest --upgrade --no-interactive
+  apk add libseccomp-dev --latest --upgrade --no-interactive
+  apk add libseccomp-static --latest --upgrade --no-interactive
   apk add libssh2 --latest --upgrade --no-interactive
   apk add libssh2-dev --latest --upgrade --no-interactive
   apk add libssh2-static --latest --upgrade --no-interactive
@@ -133,6 +159,7 @@ RUN <<EOS
   apk add lm-sensors-libs --latest --upgrade --no-interactive
   apk add luajit --latest --upgrade --no-interactive
   apk add luajit-dev --latest --upgrade --no-interactive
+  apk add lynx --latest --upgrade --no-interactive
   apk add lzip --latest --upgrade --no-interactive
   apk add make --latest --upgrade --no-interactive
   apk add mariadb --latest --upgrade --no-interactive
@@ -165,6 +192,8 @@ RUN <<EOS
   apk add pciutils --latest --upgrade --no-interactive
   apk add pciutils-dev --latest --upgrade --no-interactive
   apk add pciutils-libs --latest --upgrade --no-interactive
+  apk add pcre-dev --latest --upgrade --no-interactive
+  apk add pcre2-dev --latest --upgrade --no-interactive
   apk add pkgconfig --latest --upgrade --no-interactive
   apk add postgresql16 --latest --upgrade --no-interactive
   apk add postgresql16-dev --latest --upgrade --no-interactive
@@ -180,6 +209,9 @@ RUN <<EOS
   apk add pipx --latest --upgrade --no-interactive
   apk add pkgconf --latest --upgrade --no-interactive
   apk add pkgconf-dev --latest --upgrade --no-interactive
+  apk add readline --latest --upgrade --no-interactive
+  apk add readline-dev --latest --upgrade --no-interactive
+  apk add readline-static --latest --upgrade --no-interactive
   apk add qemu --latest --upgrade --no-interactive
   apk add qemu-tools --latest --upgrade --no-interactive
   apk add qemu-aarch64 --latest --upgrade --no-interactive
@@ -190,6 +222,7 @@ RUN <<EOS
   apk add rustup --latest --upgrade --no-interactive ; rustup-init -y
   apk add samurai --latest --upgrade --no-interactive
   apk add scons --latest --upgrade --no-interactive
+  apk add screen --latest --upgrade --no-interactive
   apk add sqlite --latest --upgrade --no-interactive
   apk add sqlite-dev --latest --upgrade --no-interactive
   apk add sqlite-libs --latest --upgrade --no-interactive
@@ -199,6 +232,7 @@ RUN <<EOS
   apk add sysfsutils-dev --latest --upgrade --no-interactive
   apk add sysfsutils-static --latest --upgrade --no-interactive
   apk add tar --latest --upgrade --no-interactive
+  apk add tcpdump --latest --upgrade --no-interactive
   apk add texinfo --latest --upgrade --no-interactive
   apk add tinyalsa --latest --upgrade --no-interactive
   apk add tinyalsa-dev --latest --upgrade --no-interactive
@@ -207,12 +241,15 @@ RUN <<EOS
   apk add txt2man --latest --upgrade --no-interactive
   apk add tzdata --latest --upgrade --no-interactive
   apk add ufw --latest --upgrade --no-interactive
+  apk add usbutils --latest --upgrade --no-interactive
+  apk add usbutils-dev --latest --upgrade --no-interactive
   apk add util-linux --latest --upgrade --no-interactive
   apk add virt-what --latest --upgrade --no-interactive
   apk add wayland-dev --latest --upgrade --no-interactive
   apk add wget --latest --upgrade --no-interactive
   apk add wolfssl --latest --upgrade --no-interactive
   apk add wolfssl-dev --latest --upgrade --no-interactive
+  apk add wpa_supplicant --latest --upgrade --no-interactive
   apk add xcb-util --latest --upgrade --no-interactive
   apk add xcb-util-dev --latest --upgrade --no-interactive
   apk add xcb-util-image-dev --latest --upgrade --no-interactive
@@ -223,6 +260,7 @@ RUN <<EOS
   apk add xz-libs --latest --upgrade --no-interactive
   apk add zig --latest --upgrade --no-interactive
   apk add zlib --latest --upgrade --no-interactive
+  apk add zlib-dev --latest --upgrade --no-interactive
   apk add zlib-static --latest --upgrade --no-interactive
   apk add zstd --latest --upgrade --no-interactive
   apk add zstd-static --latest --upgrade --no-interactive
