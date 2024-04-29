@@ -3206,7 +3206,7 @@
   {
     "Name": "metadata.json",
     "Size": "180.4 kB",
-    "ModTime": "2024-04-29T00:03:46.466927749Z",
+    "ModTime": "2024-04-29T00:06:49.314876427Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3520,8 +3520,8 @@
   },
   {
     "Name": "noseyparker.sh",
-    "Size": "3508 B",
-    "ModTime": "2024-04-28T21:01:12.878686771Z",
+    "Size": "3507 B",
+    "ModTime": "2024-04-29T07:01:27.021951593Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/noseyparker.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -5665,6 +5665,15 @@
     "Size": "1852 B",
     "ModTime": "2024-03-29T18:32:13.721873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wego.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "wezterm.sh",
+    "Size": "4912 B",
+    "ModTime": "2024-04-29T07:01:27.013951572Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wezterm.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
