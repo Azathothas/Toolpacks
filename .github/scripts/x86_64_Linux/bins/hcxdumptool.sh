@@ -21,15 +21,15 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #tio:  A serial device I/O tool 
-     export BIN="tio" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/tio/tio" #github/gitlab/homepage/etc for $BIN
+    #hcxdumptool: Small tool to capture packets from wlan devices. 
+     export BIN="hcxdumptool" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/ZerBea/hcxdumptool" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.tio" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       sudo strip "./result/bin/tio" ; file "./result/bin/tio" && du -sh "./result/bin/tio"
-       cp "./result/bin/tio" "$BINDIR/tio"
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.hcxdumptool" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo strip "./result/bin/hcxdumptool" ; file "./result/bin/hcxdumptool" && du -sh "./result/bin/hcxdumptool"
+       cp "./result/bin/hcxdumptool" "$BINDIR/hcxdumptool"
        nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#

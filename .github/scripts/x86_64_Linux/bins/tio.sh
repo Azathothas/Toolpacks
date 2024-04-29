@@ -23,7 +23,7 @@ SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
     #tio:  A serial device I/O tool 
      export BIN="tio" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://www.gnu.org/software/tio/" #github/gitlab/homepage/etc for $BIN
+     export SOURCE_URL="https://github.com/tio/tio" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1

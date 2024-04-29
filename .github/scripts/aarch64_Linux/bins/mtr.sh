@@ -21,15 +21,17 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #tio:  A serial device I/O tool 
-     export BIN="tio" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/tio/tio" #github/gitlab/homepage/etc for $BIN
+    #mtr: a network diagnostic tool 
+     export BIN="mtr" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/traviscross/mtr" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.tio" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       sudo strip "./result/bin/tio" ; file "./result/bin/tio" && du -sh "./result/bin/tio"
-       cp "./result/bin/tio" "$BINDIR/tio"
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.mtr" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo strip "./result/bin/mtr" ; file "./result/bin/mtr" && du -sh "./result/bin/mtr"
+       sudo strip "./result/bin/mtr-packet" ; file "./result/bin/mtr-packet" && du -sh "./result/bin/mtr-packet"
+       cp "./result/bin/mtr" "$BINDIR/mtr"
+       cp "./result/bin/mtr-packet" "$BINDIR/mtr-packet"
        nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
