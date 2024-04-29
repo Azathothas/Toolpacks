@@ -33,6 +33,7 @@
  5.3M   ├── actionlint.exe
  5.1M   ├── monolith.exe
  5.1M   ├── rg.exe
+ 4.6M   ├── certstream.exe
  4.6M   ├── openssh.zip
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
@@ -49,16 +50,17 @@
  2.3M   ├── nl.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── tac.exe
- 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── find.exe
  2.0M   ├── find-rs.exe
+ 1.9M   ├── cutlines.exe
  1.8M   ├── jwt-cracker.exe
  1.8M   ├── miniserve.exe
  1.7M   ├── inscope.exe
  1.6M   ├── botsay.exe
  1.6M   ├── sort.exe
+ 1.5M   ├── err.exe
  1.5M   ├── quotes-escaper.exe
  1.5M   ├── dua.exe
  1.4M   ├── expr.exe
@@ -70,8 +72,8 @@
  1.3M   ├── ls.exe
  1.3M   ├── hyperfine.exe
  1.3M   ├── 7z.exe
- 1.3M   ├── vdir.exe
  1.3M   ├── dir.exe
+ 1.3M   ├── vdir.exe
  1.2M   ├── cp.exe
  1.2M   ├── pdfinfo.exe
  1.2M   ├── wldd.exe
@@ -84,20 +86,20 @@
  1.1M   ├── du.exe
  1.0M   ├── b3sum.exe
  1.0M   ├── seq.exe
-1020K   ├── env.exe
+1021K   ├── env.exe
 1011K   ├── cksum.exe
 1008K   ├── od.exe
 1007K   ├── dd.exe
- 983K   ├── more.exe
+ 985K   ├── more.exe
  966K   ├── split.exe
  962K   ├── jq.exe
- 960K   ├── df.exe
+ 961K   ├── df.exe
  956K   ├── basenc.exe
  951K   ├── numfmt.exe
  933K   ├── base64.exe
  933K   ├── base32.exe
  928K   ├── ln.exe
- 925K   ├── mktemp.exe
+ 926K   ├── mktemp.exe
  916K   ├── wc.exe
  915K   ├── join.exe
  910K   ├── fmt.exe
@@ -107,7 +109,7 @@
  905K   ├── uniq.exe
  903K   ├── printf.exe
  896K   ├── head.exe
- 895K   ├── dircolors.exe
+ 896K   ├── dircolors.exe
  894K   ├── shred.exe
  891K   ├── tr.exe
  885K   ├── xargs.exe

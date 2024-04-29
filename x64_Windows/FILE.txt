@@ -18,6 +18,7 @@ brutespray.exe:        PE32+ executable (console) x86-64 (stripped to external P
 busybox-unicode.exe:   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
 busybox.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
 cat.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+certstream.exe:        PE32+ executable (console) x86-64, for MS Windows, 8 sections
 cheat.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 cksum.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 cloudflared.exe:       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
@@ -29,6 +30,7 @@ croc.exe:              PE32+ executable (console) x86-64 (stripped to external P
 csplit.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 curl.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
 cut.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+cutlines.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 date.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 dd.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 deprun.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
@@ -44,7 +46,7 @@ echo.exe:              PE32+ executable (console) x86-64 (stripped to external P
 eget.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 ein.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 env.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
-err.exe:               PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows, 5 sections
+err.exe:               7-zip archive data, version 0.4
 expand.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 expr.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 factor.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
