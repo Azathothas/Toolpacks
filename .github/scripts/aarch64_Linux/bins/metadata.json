@@ -1215,6 +1215,15 @@
     "Repo": null
   },
   {
+    "Name": "dnsperf.sh",
+    "Size": "2001 B",
+    "ModTime": "2024-04-30T07:01:29.674920714Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dnsperf.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "dnstake.sh",
     "Size": "1921 B",
     "ModTime": "2024-03-29T18:32:13.677873529Z",
@@ -1900,8 +1909,8 @@
   },
   {
     "Name": "git-xet.sh",
-    "Size": "3702 B",
-    "ModTime": "2024-04-15T14:02:30.910076655Z",
+    "Size": "3707 B",
+    "ModTime": "2024-04-30T07:01:29.678920692Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/git-xet.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3215,7 +3224,7 @@
   {
     "Name": "metadata.json",
     "Size": "181.09 kB",
-    "ModTime": "2024-04-29T21:08:46.806012720Z",
+    "ModTime": "2024-04-30T00:09:23.407810718Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
