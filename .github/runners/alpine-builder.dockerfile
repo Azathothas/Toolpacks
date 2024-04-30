@@ -25,6 +25,7 @@ RUN <<EOS
   apk add bind-tools --latest --upgrade --no-interactive
   apk add binutils --latest --upgrade --no-interactive
   apk add bison --latest --upgrade --no-interactive
+  apk add boost --latest --upgrade --no-interactive
   apk add boost-dev --latest --upgrade --no-interactive
   apk add build-base --latest --upgrade --no-interactive
   apk add bzip2 --latest --upgrade --no-interactive
@@ -36,6 +37,8 @@ RUN <<EOS
   apk add bzip3-static --latest --upgrade --no-interactive
   apk add ca-certificates --latest --upgrade --no-interactive
   apk add ccache --latest --upgrade --no-interactive
+  apk add ck --latest --upgrade --no-interactive
+  apk add ck-static --latest --upgrade --no-interactive
   apk add clang --latest --upgrade --no-interactive
   apk add clang-dev --latest --upgrade --no-interactive
   apk add clang-static --latest --upgrade --no-interactive
@@ -92,6 +95,9 @@ RUN <<EOS
   apk add jemalloc-dev --latest --upgrade --no-interactive
   apk add jemalloc-static --latest --upgrade --no-interactive
   apk add jq --latest --upgrade --no-interactive
+  apk add json-glib --latest --upgrade --no-interactive
+  apk add ldns --latest --upgrade --no-interactive
+  apk add ldns-dev --latest --upgrade --no-interactive
   apk add libbpf --latest --upgrade --no-interactive
   apk add libbpf-dev --latest --upgrade --no-interactive
   apk add libcap --latest --upgrade --no-interactive
@@ -127,6 +133,10 @@ RUN <<EOS
   apk add libseccomp --latest --upgrade --no-interactive
   apk add libseccomp-dev --latest --upgrade --no-interactive
   apk add libseccomp-static --latest --upgrade --no-interactive
+  apk add libsoup --latest --upgrade --no-interactive
+  apk add libsoup-dev --latest --upgrade --no-interactive
+  apk add libsoup3 --latest --upgrade --no-interactive
+  apk add libsoup3-dev --latest --upgrade --no-interactive
   apk add libssh2 --latest --upgrade --no-interactive
   apk add libssh2-dev --latest --upgrade --no-interactive
   apk add libssh2-static --latest --upgrade --no-interactive
@@ -135,6 +145,9 @@ RUN <<EOS
   apk add libtorrent-dev --latest --upgrade --no-interactive
   apk add libtorrent-rasterbar --latest --upgrade --no-interactive
   apk add libtorrent-rasterbar-dev --latest --upgrade --no-interactive
+  apk add libuv --latest --upgrade --no-interactive
+  apk add libuv-dev --latest --upgrade --no-interactive
+  apk add libuv-static --latest --upgrade --no-interactive
   apk add libx11-dev --latest --upgrade --no-interactive
   apk add libx11-static --latest --upgrade --no-interactive
   apk add libxcb-static --latest --upgrade --no-interactive
@@ -182,6 +195,12 @@ RUN <<EOS
   apk add netcat-openbsd --latest --upgrade --no-interactive
   apk add net-tools --latest --upgrade --no-interactive
   apk add networkmanager-dev --latest --upgrade --no-interactive
+  apk add nghttp2 --latest --upgrade --no-interactive
+  apk add nghttp2-dev --latest --upgrade --no-interactive
+  apk add nghttp2-libs --latest --upgrade --no-interactive
+  apk add nghttp2-static --latest --upgrade --no-interactive
+  apk add nghttp3 --latest --upgrade --no-interactive
+  apk add nghttp3-dev --latest --upgrade --no-interactive
   apk add ninja-build --latest --upgrade --no-interactive
   apk add nodejs-current --latest --upgrade --no-interactive
   apk add openssh --latest --upgrade --no-interactive
@@ -268,4 +287,12 @@ RUN <<EOS
  #Stats
   apk stats 
 EOS
+#------------------------------------------------------------------------------------#
+##Addons
+RUN <<EOS
+ #Eget for simplified releases
+  wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/eget" -O "/usr/bin/eget"
+  chmod +xwr "/usr/bin/eget"
+EOS
+#------------------------------------------------------------------------------------#
 #END
