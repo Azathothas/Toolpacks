@@ -17,7 +17,7 @@ defaults:
 #------------------------------------------------------------------------------------#  
 jobs:
   build-push-docker-alpine:
-    name: Push image Docker Hub
+    name: Push (Alpine) --> Docker Hub
     runs-on: ubuntu-latest
     
     steps:
@@ -73,7 +73,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
   build-push-docker-ubuntu-base:
-    name: Push image Docker Hub (ubuntu-base)
+    name: Push (Ubuntu-Base) --> Docker Hub
     runs-on: ubuntu-latest
     
     steps:
@@ -129,7 +129,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
   build-push-docker-runner-aarch64:
-    name: Push image Docker Hub (runner-aarch64)
+    name: Push (runner-aarch64) --> Docker Hub
     runs-on: ubuntu-latest
     needs: [build-push-docker-ubuntu-base]    
     steps:
@@ -185,7 +185,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
   build-push-docker-runner-x86-64:
-    name: Push image Docker Hub (runner-x86_64)
+    name: Push (runner-x86_64) --> Docker Hub
     runs-on: ubuntu-latest
     needs: [build-push-docker-ubuntu-base]
     steps:
