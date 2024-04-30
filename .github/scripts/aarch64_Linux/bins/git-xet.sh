@@ -38,23 +38,23 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          rustup target add "$RUST_TARGET"
          export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
         #Build
-         git clone --filter "blob:none" --quiet "https://github.com/xetdata/xet-core" && cd "./xet-core/rust"
+         git clone --filter "blob:none" --quiet "https://github.com/xetdata/xet-core" && cd "./xet-core/gitxet"
          echo -e "\n[+] Target: $RUST_TARGET\n"
          echo -e "\n[+] Flags: $RUSTFLAGS\n"
          sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
          rm rust-toolchain* 2>/dev/null
          cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
          cp "./target/$RUST_TARGET/release/git-xet" "/build-bins/git-xet"
-         cp "./target/$RUST_TARGET/release/xetcmd" "/build-bins/xetcmd"
+         #cp "./target/$RUST_TARGET/release/xetcmd" "/build-bins/xetcmd"
          cp "./target/$RUST_TARGET/release/xetmnt" "/build-bins/xetmnt"
         '
       #Copy 
        docker cp "alpine-builder:/build-bins/git-xet" "./git-xet"
-       docker cp "alpine-builder:/build-bins/xetcmd" "./xetcmd"
+       #docker cp "alpine-builder:/build-bins/xetcmd" "./xetcmd"
        docker cp "alpine-builder:/build-bins/xetmnt" "./xetmnt"
        #Meta 
        file "./git-xet" && du -sh "./git-xet" ; cp "./git-xet" "$BINDIR/git-xet"
-       file "./xetcmd" && du -sh "./xetcmd" ; cp "./xetcmd" "$BINDIR/xetcmd"
+       #file "./xetcmd" && du -sh "./xetcmd" ; cp "./xetcmd" "$BINDIR/xetcmd"
        file "./xetmnt" && du -sh "./xetmnt" ; cp "./xetmnt" "$BINDIR/xetmnt"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
