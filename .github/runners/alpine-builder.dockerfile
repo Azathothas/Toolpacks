@@ -268,4 +268,12 @@ RUN <<EOS
  #Stats
   apk stats 
 EOS
+#------------------------------------------------------------------------------------#
+##Addons
+RUN <<EOS
+ #Eget for simplified releases
+  wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/eget" -O "/usr/bin/eget"
+  chmod +xwr "/usr/bin/eget"
+EOS
+#------------------------------------------------------------------------------------#
 #END
