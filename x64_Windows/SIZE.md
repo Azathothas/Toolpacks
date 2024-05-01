@@ -68,8 +68,8 @@
  1.3M   ├── tail.exe
  1.3M   ├── fastfetch.exe
  1.3M   ├── sshd.exe
- 1.3M   ├── pdfimages.exe
  1.3M   ├── ls.exe
+ 1.3M   ├── pdfimages.exe
  1.3M   ├── hyperfine.exe
  1.3M   ├── 7z.exe
  1.3M   ├── dir.exe
@@ -106,8 +106,8 @@
  910K   ├── rm.exe
  909K   ├── shuf.exe
  909K   ├── cut.exe
- 905K   ├── uniq.exe
- 903K   ├── printf.exe
+ 906K   ├── uniq.exe
+ 904K   ├── printf.exe
  896K   ├── head.exe
  896K   ├── dircolors.exe
  894K   ├── shred.exe
@@ -117,7 +117,7 @@
  881K   ├── realpath.exe
  873K   ├── tsort.exe
  871K   ├── readlink.exe
- 867K   ├── tee.exe
+ 868K   ├── tee.exe
  867K   ├── unexpand.exe
  866K   ├── expand.exe
  855K   ├── fold.exe
