@@ -20,8 +20,8 @@
   10M   ├── tssh.exe
  9.9M   ├── yq.exe
  9.7M   ├── pgrok.exe
- 9.6M   ├── coreutils.exe
- 9.6M   ├── coreutils-rs.exe
+ 9.2M   ├── coreutils.exe
+ 9.2M   ├── coreutils-rs.exe
  8.7M   ├── ein.exe
  8.2M   ├── croc.exe
  7.1M   ├── curl.exe
@@ -30,25 +30,26 @@
  6.0M   ├── batcat.exe
  6.0M   ├── bat.exe
  5.3M   ├── actionlint.exe
- 5.1M   ├── monolith.exe
  5.1M   ├── rg.exe
+ 5.1M   ├── monolith.exe
  4.6M   ├── certstream.exe
  4.6M   ├── openssh.zip
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
- 3.7M   ├── pingmole.exe
+ 3.6M   ├── pingmole.exe
  3.5M   ├── dufs.exe
- 3.0M   ├── deprun.exe
+ 2.9M   ├── deprun.exe
  2.7M   ├── dust.exe
- 2.5M   ├── hashsum.exe
- 2.4M   ├── pr.exe
- 2.4M   ├── date.exe
- 2.4M   ├── ptx.exe
+ 2.4M   ├── hashsum.exe
+ 2.3M   ├── pr.exe
+ 2.3M   ├── date.exe
+ 2.3M   ├── ptx.exe
  2.3M   ├── touch.exe
- 2.3M   ├── csplit.exe
- 2.3M   ├── nl.exe
  2.2M   ├── pdftops.exe
- 2.2M   ├── tac.exe
+ 2.2M   ├── csplit.exe
+ 2.2M   ├── err.exe
+ 2.2M   ├── nl.exe
+ 2.1M   ├── tac.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── find.exe
@@ -59,95 +60,94 @@
  1.7M   ├── inscope.exe
  1.6M   ├── botsay.exe
  1.6M   ├── sort.exe
- 1.5M   ├── err.exe
  1.5M   ├── quotes-escaper.exe
  1.5M   ├── dua.exe
  1.4M   ├── expr.exe
  1.3M   ├── pdftotext.exe
- 1.3M   ├── tail.exe
- 1.3M   ├── fastfetch.exe
  1.3M   ├── sshd.exe
- 1.3M   ├── ls.exe
+ 1.3M   ├── fastfetch.exe
  1.3M   ├── pdfimages.exe
+ 1.3M   ├── tail.exe
  1.3M   ├── hyperfine.exe
  1.3M   ├── 7z.exe
- 1.3M   ├── dir.exe
- 1.3M   ├── vdir.exe
  1.2M   ├── cp.exe
  1.2M   ├── pdfinfo.exe
- 1.2M   ├── wldd.exe
  1.2M   ├── pdffonts.exe
+ 1.2M   ├── ls.exe
+ 1.2M   ├── vdir.exe
+ 1.2M   ├── dir.exe
  1.2M   ├── pdfdetach.exe
+ 1.2M   ├── wldd.exe
  1.2M   ├── ssh.exe
  1.2M   ├── factor.exe
  1.1M   ├── flashfetch.exe
  1.1M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── b3sum.exe
- 1.0M   ├── seq.exe
-1021K   ├── env.exe
-1011K   ├── cksum.exe
-1008K   ├── od.exe
-1007K   ├── dd.exe
- 985K   ├── more.exe
- 966K   ├── split.exe
+1016K   ├── seq.exe
+1000K   ├── env.exe
+ 995K   ├── dd.exe
+ 988K   ├── cksum.exe
+ 980K   ├── od.exe
+ 965K   ├── more.exe
  962K   ├── jq.exe
- 961K   ├── df.exe
- 956K   ├── basenc.exe
- 951K   ├── numfmt.exe
- 933K   ├── base64.exe
- 933K   ├── base32.exe
- 928K   ├── ln.exe
- 926K   ├── mktemp.exe
- 916K   ├── wc.exe
- 915K   ├── join.exe
- 910K   ├── fmt.exe
- 910K   ├── rm.exe
- 909K   ├── shuf.exe
- 909K   ├── cut.exe
- 906K   ├── uniq.exe
- 904K   ├── printf.exe
- 896K   ├── head.exe
- 896K   ├── dircolors.exe
- 894K   ├── shred.exe
- 891K   ├── tr.exe
- 885K   ├── xargs.exe
- 885K   ├── xargs-rs.exe
- 881K   ├── realpath.exe
- 873K   ├── tsort.exe
- 871K   ├── readlink.exe
- 868K   ├── tee.exe
- 867K   ├── unexpand.exe
- 866K   ├── expand.exe
- 855K   ├── fold.exe
- 854K   ├── cat.exe
- 849K   ├── sum.exe
- 846K   ├── uname.exe
- 842K   ├── hostname.exe
- 840K   ├── truncate.exe
- 837K   ├── test.exe
- 836K   ├── mkdir.exe
+ 946K   ├── basenc.exe
+ 943K   ├── split.exe
+ 940K   ├── df.exe
+ 933K   ├── numfmt.exe
+ 922K   ├── base64.exe
+ 922K   ├── base32.exe
+ 912K   ├── mktemp.exe
+ 908K   ├── ln.exe
+ 901K   ├── wc.exe
+ 893K   ├── printf.exe
+ 892K   ├── join.exe
+ 890K   ├── shuf.exe
+ 889K   ├── cut.exe
+ 888K   ├── rm.exe
+ 888K   ├── fmt.exe
+ 886K   ├── uniq.exe
+ 880K   ├── dircolors.exe
+ 879K   ├── tr.exe
+ 878K   ├── head.exe
+ 877K   ├── shred.exe
+ 863K   ├── xargs.exe
+ 863K   ├── xargs-rs.exe
+ 863K   ├── realpath.exe
+ 860K   ├── readlink.exe
+ 858K   ├── tsort.exe
+ 854K   ├── tee.exe
+ 852K   ├── expand.exe
+ 850K   ├── unexpand.exe
+ 841K   ├── cat.exe
+ 839K   ├── fold.exe
  834K   ├── ssh-keygen.exe
- 833K   ├── comm.exe
- 830K   ├── paste.exe
- 830K   ├── rmdir.exe
- 829K   ├── sync.exe
- 827K   ├── sleep.exe
- 827K   ├── basename.exe
- 823K   ├── link.exe
- 822K   ├── nproc.exe
- 821K   ├── unlink.exe
- 820K   ├── arch.exe
- 812K   ├── pwd.exe
- 809K   ├── dirname.exe
- 808K   ├── echo.exe
- 802K   ├── whoami.exe
- 801K   ├── yes.exe
- 797K   ├── printenv.exe
- 797K   ├── anew.exe
- 797K   ├── anew-rs.exe
- 746K   ├── true.exe
- 746K   ├── false.exe
+ 829K   ├── sum.exe
+ 827K   ├── uname.exe
+ 826K   ├── test.exe
+ 824K   ├── truncate.exe
+ 824K   ├── hostname.exe
+ 822K   ├── comm.exe
+ 820K   ├── basename.exe
+ 820K   ├── mkdir.exe
+ 819K   ├── sleep.exe
+ 816K   ├── sync.exe
+ 815K   ├── rmdir.exe
+ 815K   ├── paste.exe
+ 810K   ├── link.exe
+ 809K   ├── nproc.exe
+ 809K   ├── unlink.exe
+ 807K   ├── arch.exe
+ 801K   ├── pwd.exe
+ 797K   ├── dirname.exe
+ 796K   ├── echo.exe
+ 791K   ├── whoami.exe
+ 788K   ├── yes.exe
+ 785K   ├── printenv.exe
+ 769K   ├── anew.exe
+ 769K   ├── anew-rs.exe
+ 741K   ├── true.exe
+ 740K   ├── false.exe
  650K   ├── busybox-unicode.exe
  649K   ├── ssh-keyscan.exe
  644K   ├── busybox.exe
