@@ -21,20 +21,12 @@ if (
 ##Main
 $env:SKIP_BUILD = "NO" # YES, in case of deleted repos, broken builds etc
 if ($env:SKIP_BUILD -eq "NO") {
-   #ngrok: External Tunnel to Internal Assets
-    $env:BIN = "ngrok" # Name of final binary/pkg/cli, sometimes differs from $REPO
-    $env:SOURCE_URL = "https://ngrok.com/" # github/gitlab/homepage/etc for $BIN
+   #sing-box : The universal proxy platform
+    $env:BIN = "sing-box" # Name of final binary/pkg/cli, sometimes differs from $REPO
+    $env:SOURCE_URL = "https://github.com/SagerNet/sing-box" # github/gitlab/homepage/etc for $BIN
     Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
-     Push-Location (& $TMPDIRS)
-     $EGET_LINK = curl -A "$env:USER_AGENT" -qfsSL "https://ngrok.com/download" | Select-String -Pattern '(https://bin.equinox.io/.*?windows.*?amd64.*?zip)' -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Value } | Sort-Object {$_ -as [version]} | Select-Object -First 1 ; $env:EGET_LINK = "$EGET_LINK"
-     curl -A "$env:USER_AGENT" -qfsSLJO "$env:EGET_LINK"
-     Get-ChildItem -Path "." -File -Filter '*.zip' | ForEach-Object { Expand-Archive -Path $_.FullName -DestinationPath "." -Force }
-     Get-ChildItem -Path "." -File -Filter '*.zip' | ForEach-Object { Remove-Item $_.FullName -Force }
-     Get-ChildItem -Path "." -File -Filter 'ngrok*' | ForEach-Object { $_ | Move-Item -Destination "$env:BINDIR\ngrok.exe" -Force }
-     file.exe "$env:BINDIR\ngrok.exe" ; (Get-Item -Path "$env:BINDIR\ngrok.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-     wldd.exe "$env:BINDIR\ngrok.exe" | Sort-Object -Unique
-     Pop-Location
+     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --asset "^v3" --asset "^legacy" --to "$env:BINDIR/sing-box.exe"
 }
 #-------------------------------------------------------#
 

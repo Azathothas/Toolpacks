@@ -21,15 +21,13 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-     #airiXSS : xss automater
-     export BIN="airixss" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/ferreiraklet/airixss" #github/gitlab/homepage/etc for $BIN
+    #mosh : the mobile shell
+     export BIN="mosh" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/mobile-shell/mosh" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build   
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/ferreiraklet/airixss" && cd "./airixss"
-       go mod init "github.com/ferreiraklet/airixss" ; go mod tidy
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./airixss" "$BINDIR/airixss" ; popd > /dev/null 2>&1
-       go clean -cache -fuzzcache -modcache -testcache
+      #Fetch
+       eval "$EGET_TIMEOUT" eget "https://github.com/blinksh/mosh-static-multiarch" --asset "mosh" --asset "client" --asset "linux" --asset "amd64" "$EGET_EXCLUDE" --to "$BINDIR/mosh-client"
+       eval "$EGET_TIMEOUT" eget "https://github.com/blinksh/mosh-static-multiarch" --asset "mosh" --asset "server" --asset "linux" --asset "amd64" "$EGET_EXCLUDE" --to "$BINDIR/mosh-server"
 fi
 #-------------------------------------------------------#
 
@@ -42,5 +40,4 @@ unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RA
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config
 unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
-#-------------------------------------------------------#
 #-------------------------------------------------------#

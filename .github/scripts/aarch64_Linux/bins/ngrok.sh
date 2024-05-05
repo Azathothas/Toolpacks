@@ -26,7 +26,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://ngrok.com/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/ngrok/ngrok_aarch64_arm64_Linux" --to "$BINDIR/ngrok"
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -A "$USER_AGENT" -qfsSLJO $(curl -A "$USER_AGENT" -qfsSL "https://ngrok.com/download" | grep -o 'https://bin.equinox.io[^"]*' | grep 'linux-arm64.tgz')
+       find . -type f -name '*.tgz' -exec tar -xzvf {} \; && find . -type f -name '*.tgz' -exec rm -rf {} \;
+       find . -type f -name 'ngrok*' -exec strip {} \; >/dev/null 2>&1
+       find . -type f -name 'ngrok*' ! -name '*.*' -exec mv {} "$BINDIR/ngrok" \;
+       file "$BINDIR/ngrok" && du -sh "$BINDIR/ngrok"
+       popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

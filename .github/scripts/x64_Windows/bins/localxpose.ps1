@@ -21,19 +21,18 @@ if (
 ##Main
 $env:SKIP_BUILD = "NO" # YES, in case of deleted repos, broken builds etc
 if ($env:SKIP_BUILD -eq "NO") {
-   #ngrok: External Tunnel to Internal Assets
-    $env:BIN = "ngrok" # Name of final binary/pkg/cli, sometimes differs from $REPO
-    $env:SOURCE_URL = "https://ngrok.com/" # github/gitlab/homepage/etc for $BIN
+   #localxpose : reverse proxy that enables you to expose your localhost to the internet.
+    $env:BIN = "localxpose" # Name of final binary/pkg/cli, sometimes differs from $REPO
+    $env:SOURCE_URL = "https://localxpose.io/" # github/gitlab/homepage/etc for $BIN
     Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
-    #Fetch 
-     Push-Location (& $TMPDIRS)
-     $EGET_LINK = curl -A "$env:USER_AGENT" -qfsSL "https://ngrok.com/download" | Select-String -Pattern '(https://bin.equinox.io/.*?windows.*?amd64.*?zip)' -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Value } | Sort-Object {$_ -as [version]} | Select-Object -First 1 ; $env:EGET_LINK = "$EGET_LINK"
-     curl -A "$env:USER_AGENT" -qfsSLJO "$env:EGET_LINK"
+    #Fetch
+     Push-Location (& $TMPDIRS) ; curl -qfsSLJO "https://loclx-client.s3.amazonaws.com/loclx-windows-amd64.zip" -A "$env:USER_AGENT"
      Get-ChildItem -Path "." -File -Filter '*.zip' | ForEach-Object { Expand-Archive -Path $_.FullName -DestinationPath "." -Force }
      Get-ChildItem -Path "." -File -Filter '*.zip' | ForEach-Object { Remove-Item $_.FullName -Force }
-     Get-ChildItem -Path "." -File -Filter 'ngrok*' | ForEach-Object { $_ | Move-Item -Destination "$env:BINDIR\ngrok.exe" -Force }
-     file.exe "$env:BINDIR\ngrok.exe" ; (Get-Item -Path "$env:BINDIR\ngrok.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
-     wldd.exe "$env:BINDIR\ngrok.exe" | Sort-Object -Unique
+     Get-ChildItem -Path "." -File -Filter 'loclx*' | ForEach-Object { $_ | Move-Item -Destination "$env:BINDIR\loclx.exe" -Force }
+     Copy-Item "$env:BINDIR\loclx.exe" "$env:BINDIR\localxpose.exe" -Force
+     file.exe "$env:BINDIR\loclx.exe" ; (Get-Item -Path "$env:BINDIR\loclx.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
+     wldd.exe "$env:BINDIR\loclx.exe" | Sort-Object -Unique
      Pop-Location
 }
 #-------------------------------------------------------#
