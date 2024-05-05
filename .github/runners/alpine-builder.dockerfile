@@ -54,6 +54,9 @@ RUN <<EOS
   apk add dbus-libs --latest --upgrade --no-interactive
   apk add diffutils --latest --upgrade --no-interactive
   apk add dos2unix --latest --upgrade --no-interactive
+  apk add dpdk --latest --upgrade --no-interactive
+  apk add dpdk-dev --latest --upgrade --no-interactive
+  apk add dpdk-static --latest --upgrade --no-interactive
   apk add elfutils --latest --upgrade --no-interactive
   apk add elfutils-dev --latest --upgrade --no-interactive
   apk add expect --latest --upgrade --no-interactive
