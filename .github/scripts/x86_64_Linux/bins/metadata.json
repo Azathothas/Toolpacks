@@ -55,8 +55,8 @@
   },
   {
     "Name": "airixss.sh",
-    "Size": "2002 B",
-    "ModTime": "2024-03-29T18:32:13.697873529Z",
+    "Size": "1995 B",
+    "ModTime": "2024-05-05T14:01:18.968757534Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/airixss.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1818,6 +1818,15 @@
     "Repo": null
   },
   {
+    "Name": "geonet.sh",
+    "Size": "3672 B",
+    "ModTime": "2024-05-05T14:01:18.948757502Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/geonet.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "getJS.sh",
     "Size": "2064 B",
     "ModTime": "2024-03-29T18:32:13.705873528Z",
@@ -3033,6 +3042,15 @@
     "Repo": null
   },
   {
+    "Name": "localxpose.sh",
+    "Size": "2069 B",
+    "ModTime": "2024-05-05T14:01:18.944757495Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/localxpose.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "logtimer.sh",
     "Size": "1646 B",
     "ModTime": "2024-03-29T18:32:13.709873528Z",
@@ -3251,7 +3269,7 @@
   {
     "Name": "metadata.json",
     "Size": "182.87 kB",
-    "ModTime": "2024-05-05T00:07:06.774337554Z",
+    "ModTime": "2024-05-05T07:04:20.036178136Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3361,6 +3379,15 @@
     "Size": "3322 B",
     "ModTime": "2024-04-15T14:02:30.926076589Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/monolith.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "mosh.sh",
+    "Size": "1870 B",
+    "ModTime": "2024-05-05T14:01:18.944757495Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mosh.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3502,8 +3529,8 @@
   },
   {
     "Name": "ngrok.sh",
-    "Size": "1630 B",
-    "ModTime": "2024-03-29T18:32:13.713873528Z",
+    "Size": "2039 B",
+    "ModTime": "2024-05-05T14:01:18.944757495Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ngrok.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4671,6 +4698,15 @@
     "Repo": null
   },
   {
+    "Name": "sing-box.sh",
+    "Size": "1656 B",
+    "ModTime": "2024-05-05T14:01:18.964757527Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sing-box.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "sish.sh",
     "Size": "1654 B",
     "ModTime": "2024-03-29T18:32:13.717873528Z",
@@ -5122,8 +5158,8 @@
   },
   {
     "Name": "tailscale.sh",
-    "Size": "2012 B",
-    "ModTime": "2024-03-29T18:32:13.717873528Z",
+    "Size": "3578 B",
+    "ModTime": "2024-05-05T14:01:18.956757515Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tailscale.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -5787,6 +5823,15 @@
     "Repo": null
   },
   {
+    "Name": "wireguard-tools.sh",
+    "Size": "3253 B",
+    "ModTime": "2024-05-05T14:01:18.944757495Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wireguard-tools.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "wirelesstools.sh",
     "Size": "2667 B",
     "ModTime": "2024-04-29T14:02:17.504553496Z",
@@ -5944,6 +5989,15 @@
     "Size": "2462 B",
     "ModTime": "2024-03-29T18:32:13.721873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yazi.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "yggdrasil.sh",
+    "Size": "3537 B",
+    "ModTime": "2024-05-05T14:01:18.948757502Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yggdrasil.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
