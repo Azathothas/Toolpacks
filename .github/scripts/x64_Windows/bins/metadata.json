@@ -243,6 +243,15 @@
     "Repo": null
   },
   {
+    "Name": "geonet.ps1",
+    "Size": "3552 B",
+    "ModTime": "2024-05-05T14:01:18.940757488Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/geonet.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "gitoxide.ps1",
     "Size": "2659 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
@@ -315,9 +324,18 @@
     "Repo": null
   },
   {
+    "Name": "localxpose.ps1",
+    "Size": "2598 B",
+    "ModTime": "2024-05-05T14:01:18.940757488Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/localxpose.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "metadata.json",
     "Size": "14.45 kB",
-    "ModTime": "2024-05-05T00:11:05.459284213Z",
+    "ModTime": "2024-05-05T07:07:24.435863030Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -352,8 +370,8 @@
   },
   {
     "Name": "ngrok.ps1",
-    "Size": "2295 B",
-    "ModTime": "2024-03-30T11:12:21.026062227Z",
+    "Size": "2748 B",
+    "ModTime": "2024-05-05T14:01:18.940757488Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ngrok.ps1",
     "B3SUM": null,
     "SHA256": null,
@@ -418,6 +436,15 @@
     "Size": "2240 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ripgrep.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "sing-box.ps1",
+    "Size": "1916 B",
+    "ModTime": "2024-05-05T14:01:18.940757488Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/sing-box.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null

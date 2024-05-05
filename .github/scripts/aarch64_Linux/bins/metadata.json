@@ -1791,6 +1791,15 @@
     "Repo": null
   },
   {
+    "Name": "geonet.sh",
+    "Size": "3673 B",
+    "ModTime": "2024-05-05T14:01:18.916757449Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/geonet.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "getJS.sh",
     "Size": "2064 B",
     "ModTime": "2024-03-29T18:32:13.681873529Z",
@@ -3006,6 +3015,15 @@
     "Repo": null
   },
   {
+    "Name": "localxpose.sh",
+    "Size": "2069 B",
+    "ModTime": "2024-05-05T14:01:18.916757449Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/localxpose.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "logtimer.sh",
     "Size": "1646 B",
     "ModTime": "2024-03-29T18:32:13.685873529Z",
@@ -3224,7 +3242,7 @@
   {
     "Name": "metadata.json",
     "Size": "181.36 kB",
-    "ModTime": "2024-05-05T00:10:43.511198919Z",
+    "ModTime": "2024-05-05T07:07:08.047888994Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3334,6 +3352,15 @@
     "Size": "3323 B",
     "ModTime": "2024-04-15T14:02:30.894076722Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/monolith.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "mosh.sh",
+    "Size": "1870 B",
+    "ModTime": "2024-05-05T14:01:18.912757443Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mosh.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3475,8 +3502,8 @@
   },
   {
     "Name": "ngrok.sh",
-    "Size": "1633 B",
-    "ModTime": "2024-03-29T18:32:13.689873529Z",
+    "Size": "2039 B",
+    "ModTime": "2024-05-05T14:01:18.912757443Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ngrok.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -4617,6 +4644,15 @@
     "Repo": null
   },
   {
+    "Name": "sing-box.sh",
+    "Size": "1656 B",
+    "ModTime": "2024-05-05T14:01:18.928757468Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sing-box.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "sish.sh",
     "Size": "1654 B",
     "ModTime": "2024-03-29T18:32:13.693873529Z",
@@ -5050,8 +5086,8 @@
   },
   {
     "Name": "tailscale.sh",
-    "Size": "2021 B",
-    "ModTime": "2024-03-29T18:32:13.693873529Z",
+    "Size": "3915 B",
+    "ModTime": "2024-05-05T14:01:18.924757463Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tailscale.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -5715,6 +5751,15 @@
     "Repo": null
   },
   {
+    "Name": "wireguard-tools.sh",
+    "Size": "3254 B",
+    "ModTime": "2024-05-05T14:01:18.912757443Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wireguard-tools.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "wirelesstools.sh",
     "Size": "2667 B",
     "ModTime": "2024-04-29T14:02:17.472553709Z",
@@ -5872,6 +5917,15 @@
     "Size": "2463 B",
     "ModTime": "2024-03-29T18:32:13.697873529Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yazi.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "yggdrasil.sh",
+    "Size": "3541 B",
+    "ModTime": "2024-05-05T14:01:18.916757449Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yggdrasil.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
