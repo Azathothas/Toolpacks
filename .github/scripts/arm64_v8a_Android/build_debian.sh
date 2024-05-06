@@ -17,13 +17,13 @@
  SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
 #TMPDIRS
  #For build-cache
- TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_android_arm64-v8a" && export TMPDIRS="$TMPDIRS"
+ TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_android_arm64_v8a" && export TMPDIRS="$TMPDIRS"
  rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
  #For Bins
- BINDIR="$SYSTMP/toolpack_aarch64" && export BINDIR="$BINDIR"
+ BINDIR="$SYSTMP/toolpack_arm64_v8a" && export BINDIR="$BINDIR"
  rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
  #For Baseutils
- BASEUTILSDIR="$SYSTMP/baseutils_aarch64" && export BASEUTILSDIR="$BASEUTILSDIR"
+ BASEUTILSDIR="$SYSTMP/baseutils_arm64_v8a" && export BASEUTILSDIR="$BASEUTILSDIR"
  rm -rf "$BASEUTILSDIR" 2>/dev/null ; rm -rf "$BASEUTILSDIR.7z" 2>/dev/null ; mkdir -p "$BASEUTILSDIR"
 ##Sane Configs
 #In case of removed/privated GH repos
@@ -270,10 +270,10 @@ fi
 ##ENV (In Case of ENV Resets)
 #TMPDIRS
  #For build-cache
- TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_android_arm64-v8a" && export TMPDIRS="$TMPDIRS"
+ TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_android_arm64_v8a" && export TMPDIRS="$TMPDIRS"
  rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
  #For Bins
- BINDIR="$SYSTMP/toolpack_aarch64" && export BINDIR="$BINDIR"
+ BINDIR="$SYSTMP/toolpack_arm64_v8a" && export BINDIR="$BINDIR"
  rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
 ##Build
 set +x
@@ -321,7 +321,7 @@ set +x
  find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
  find "$BINDIR" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
- #Rename anything with *_arm64-v8a*
+ #Rename anything with *_arm64_v8a*
  find "$BINDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
 #Strip || Cleanup [$BASEUTILSDIR]
@@ -329,7 +329,7 @@ set +x
  find "$BASEUTILSDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
  find "$BASEUTILSDIR" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
- #Rename anything with *_arm64-v8a*
+ #Rename anything with *_arm64_v8a*
  find "$BASEUTILSDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
 #rClone Upload to R2 (bin.ajam.dev/arm64_v8a_Android) (arm64_v8a_Android) [Binaries]
@@ -358,7 +358,7 @@ set +x
              find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
              #Strip
              find "$BINDIR" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
-             #Rename anything with *_arm64-v8a*
+             #Rename anything with *_arm64_v8a*
              find "$BINDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
             #File
               cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_FILE"
@@ -385,7 +385,7 @@ set +x
              find "$BASEUTILSDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
              #Strip
              find "$BASEUTILSDIR" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
-             #Rename anything with *_arm64-v8a*
+             #Rename anything with *_arm64_v8a*
              find "$BASEUTILSDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
             #File
               cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_Baseutils_FILE"
@@ -423,26 +423,26 @@ set +x
  fi
 #-------------------------------------------------------# 
  if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -s "$BINDIR.7z" ]; then
- #rClone Upload Toolpacks to R2 (bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64-v8a.7z) [Archive]
+ #rClone Upload Toolpacks to R2 (bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      rclone copyto "$BINDIR.7z" "r2:/bin/arm64_v8a_Android/_toolpack_arm64-v8a.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      rclone copyto "$BINDIR.7z" "r2:/bin/arm64_v8a_Android/_toolpack_arm64_v8a.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64-v8a_BLAKE3SUM"
-      rclone copyto "$SYSTMP/_toolpack_arm64-v8a_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/_toolpack_arm64-v8a_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64_v8a_BLAKE3SUM"
+      rclone copyto "$SYSTMP/_toolpack_arm64_v8a_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/_toolpack_arm64_v8a_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64-v8a_SHA256SUM"
-      rclone copyto "$SYSTMP/_toolpack_arm64-v8a_SHA256SUM" "r2:/bin/arm64_v8a_Android/_toolpack_arm64-v8a_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
- #rClone Upload Toolpacks to R2 (bin.ajam.dev/arm64_v8a_Android/_baseutils_aarch64_arm64.7z) [Archive]
+      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64_v8a_SHA256SUM"
+      rclone copyto "$SYSTMP/_toolpack_arm64_v8a_SHA256SUM" "r2:/bin/arm64_v8a_Android/_toolpack_arm64_v8a_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+ #rClone Upload Toolpacks to R2 (bin.ajam.dev/arm64_v8a_Android/_baseutils_arm64_v8a.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      rclone copyto "$BASEUTILSDIR.7z" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_aarch64_arm64.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      rclone copyto "$BASEUTILSDIR.7z" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_arm64_v8a.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./baseutils_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_aarch64_arm64_BLAKE3SUM"
-      rclone copyto "$SYSTMP/_baseutils_aarch64_arm64_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_aarch64_arm64_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./baseutils_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_arm64_v8a_BLAKE3SUM"
+      rclone copyto "$SYSTMP/_baseutils_arm64_v8a_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_arm64_v8a_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./baseutils_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_aarch64_arm64_SHA256SUM"
-      rclone copyto "$SYSTMP/_baseutils_aarch64_arm64_SHA256SUM" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_aarch64_arm64_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
+      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./baseutils_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_arm64_v8a_SHA256SUM"
+      rclone copyto "$SYSTMP/_baseutils_arm64_v8a_SHA256SUM" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_arm64_v8a_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
  fi
 #-------------------------------------------------------#
 #META
