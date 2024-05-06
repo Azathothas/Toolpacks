@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./curl" && du -sh "./curl" ; aarch64-linux-gnu-readelf -d "./curl"
        cp "./curl" "$BINDIR/curl"
       #Test
-       #docker run --privileged -it --rm --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:latest" "/mnt/curl" 
+       docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" termux/termux-docker:aarch64 "/mnt/curl" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

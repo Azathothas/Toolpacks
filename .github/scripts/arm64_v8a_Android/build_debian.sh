@@ -83,7 +83,8 @@
   sudo apt-get install cmake -y
  #Install Build Dependencies (arm64)
   sudo apt install binutils-aarch64-linux-gnu -y 2>/dev/null
-  sudo apt-get install "g++-arm-linux-gnueabi" "g++-arm-linux-gnueabihf" "g++-aarch64-linux-gnu" qemu-user-static -y 2>/dev/null
+  sudo apt-get install "g++-arm-linux-gnueabi" "g++-arm-linux-gnueabihf" "g++-aarch64-linux-gnu" -y 2>/dev/null
+  sudo apt-get install qemu qemu-system qemu-user qemu-user-static qemu-utils -y 2>/dev/null
  #python
   sudo apt install python3-pip python3-venv -y 2>/dev/null
   #Upgrade pip
