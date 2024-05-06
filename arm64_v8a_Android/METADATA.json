@@ -1,8 +1,8 @@
 [
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "2504 B",
-    "ModTime": "2024-02-02T04:20:34.216204733Z",
+    "Size": "2577 B",
+    "ModTime": "2024-05-06T08:23:28.568465869Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -10,8 +10,8 @@
   },
   {
     "Name": "FILE.txt",
-    "Size": "5269 B",
-    "ModTime": "2024-02-02T04:20:33.468199360Z",
+    "Size": "5429 B",
+    "ModTime": "2024-05-06T07:49:43.114335759Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/FILE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -19,18 +19,9 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "6563 B",
-    "ModTime": "2024-03-10T18:09:46.288261189Z",
-    "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "METADATA.json.tmp",
     "Size": "8729 B",
-    "ModTime": "2024-05-06T00:09:32.740572725Z",
-    "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json.tmp",
+    "ModTime": "2024-05-06T07:06:42.697432346Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -46,9 +37,45 @@
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "2504 B",
-    "ModTime": "2024-02-02T04:20:36.212219075Z",
+    "Size": "2577 B",
+    "ModTime": "2024-05-06T08:23:32.184511500Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "SIZE.txt",
+    "Size": "928 B",
+    "ModTime": "2024-05-06T08:23:23.880405915Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/SIZE.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "_toolpack_arm64_v8a.7z",
+    "Size": "62.53 MB",
+    "ModTime": "2024-05-06T08:24:23.525213449Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a.7z",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "_toolpack_arm64_v8a_BLAKE3SUM.txt",
+    "Size": "90 B",
+    "ModTime": "2024-05-06T08:24:42.185433000Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a_BLAKE3SUM.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "_toolpack_arm64_v8a_SHA256SUM.txt",
+    "Size": "90 B",
+    "ModTime": "2024-05-06T08:24:44.573459761Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a_SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -97,6 +124,15 @@
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
+  },
+  {
+    "Name": "curl",
+    "Size": "5.14 MB",
+    "ModTime": "2024-05-06T08:23:16.728286922Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/curl",
+    "B3SUM": "0f9654fcbf92a82352917ff98440eab5b39ee39c36fa1ddb1d770a0daa013b0b",
+    "SHA256": "6f9d2ea2b27f0a9af031487fadf12a44d2a3909948e5ee892d23841ec6278391",
+    "Repo": "https://github.com/curl/curl"
   },
   {
     "Name": "dnsx",

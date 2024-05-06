@@ -3287,7 +3287,7 @@
   {
     "Name": "metadata.json",
     "Size": "185.33 kB",
-    "ModTime": "2024-05-06T07:05:49.801566554Z",
+    "ModTime": "2024-05-06T08:43:52.251503950Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4108,6 +4108,15 @@
     "Size": "1656 B",
     "ModTime": "2024-03-29T18:32:13.713873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/qbittorrent-nox.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "qemu.sh",
+    "Size": "4869 B",
+    "ModTime": "2024-05-06T14:02:47.536116284Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/qemu.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
