@@ -11,10 +11,12 @@ on:
 env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
   RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
+  TSKEY: "${{ secrets.TSKEY }}"  
 #Begin
 jobs:
 #------------------------------------------------------------------------------------#
   build-fetch-binaries:
+    #runs-on: ubuntu-latest
     runs-on: arm64x-gcp-4x-16GB-120GB
     timeout-minutes: 690
     permissions:
@@ -40,6 +42,8 @@ jobs:
           #b3sum
           sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
           sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #btop
+          sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/btop" -o "/usr/local/bin/btop" && sudo chmod +xwr "/usr/local/bin/btop"
           #delta
           sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
           #dust
@@ -50,6 +54,8 @@ jobs:
           sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
           #rclone
           sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #tmux
+          sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/tmux" -o "/usr/local/bin/tmux" && sudo chmod +xwr "/usr/local/bin/tmux"
           #validtoml
           sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
           #Yq
@@ -60,9 +66,14 @@ jobs:
 #------------------------------------------------------------------------------------#        
       - name: Setup Env
         run: |
-          #presets
-          set -x ; set +e
-          #tmp
+          ##presets
+          set +x ; set +e
+          #-------------#
+          ##CoreUtils
+          sudo apt update -y
+          sudo apt install bc coreutils curl dos2unix fdupes jq moreutils wget -y
+          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux util-linux wget -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
+          ##tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #GH ENV
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
@@ -80,7 +91,11 @@ jobs:
           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.json" -o "$GITHUB_WORKSPACE/main/metadata.json"
           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.toml" -o "$GITHUB_WORKSPACE/main/metadata.toml"
           ##Setup rClone
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
         continue-on-error: true
 
       - name: Set TZ to (Asia/Kathmandu)
@@ -100,8 +115,6 @@ jobs:
           # Presets
           set -x ; set +e
           #--------------#
-          #touch "$HOME/.rclone.conf"
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
           #copy & chdir to Repo
           cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
           #Git pull
@@ -135,22 +148,32 @@ jobs:
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/build_debian.sh" -o "$SYSTMP/BUILD.sh"
           #Prep
           dos2unix --quiet "$SYSTMP/BUILD.sh" ; chmod +xwr "$SYSTMP/BUILD.sh"
-          #Run with STDOUT [Slow, Not Recommended]
+          ##Run with STDOUT [Slow, Not Recommended]
           #bash "$SYSTMP/BUILD.sh"
-          #Run with LOGS only
-          bash "$SYSTMP/BUILD.sh" > "$SYSTMP/BUILD.log" 2>&1
-          #Run with STDOUT + LOGS
+          ##Run with LOGS only
+          #bash "$SYSTMP/BUILD.sh" > "$SYSTMP/BUILD.log" 2>&1
+          ##Run with STDOUT + LOGS
           #bash "$SYSTMP/BUILD.sh" | tee "$SYSTMP/BUILD.log" 2>&1
-          #Run without STDOUT/Logs
+          ##Run without STDOUT/Logs
           #bash "$SYSTMP/BUILD.sh" >/dev/null 2>&1
-          #Purge Tokens (in case set -x & gh didn't redact)
+          ##Talscale + Tmux + gotty
+          curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/setup_tailscale.sh" -o "$SYSTMP/setup_tailscale.sh" && dos2unix --quiet "$SYSTMP/setup_tailscale.sh"
+          source "$SYSTMP/setup_tailscale.sh"
+          tmux new-session -s "toolpacks" -d 'bash "/tmp/BUILD.sh" | tee -a "/tmp/BUILD.log" ; tmux kill-session -t "toolpacks" 2>/dev/null ; exit'
+          #nohup gotty --address "$TS_IP" --port "7070" --reconnect --reconnect-time 30 tmux attach-session -t "toolpacks" -r >/dev/null 2>&1 &
+          nohup gotty --address "127.0.0.1" --port "7070" --reconnect --reconnect-time 30 tmux attach-session -t "toolpacks" -r >/dev/null 2>&1 &
+          nohup gotty --address "127.0.0.1" --port "7777" --reconnect --reconnect-time 30 btop --tty_on --utf-force >/dev/null 2>&1 &
+          echo -e "\n\n[+] Tmux TTY: http://$TS_DNS:7070"
+          echo -e "[+] BTOP: http://$TS_DNS:7777\n"
+          set +x ; while tmux has-session -t "toolpacks" ; do sleep 1 ; done
+          ##Purge Tokens (in case set -x & gh didn't redact)
           sed -i '/.*github_pat.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*ghp_.*/d' "$SYSTMP/BUILD.log" 2>/dev/null 
           sed -i '/.*access_key_id.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*secret_access_key.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*cloudflarestorage.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
-          #rClone Upload logs
-          rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/aarch64_arm64_Linux/BUILD.log.txt" --copy-links --progress --stats="120s" --buffer-size 100M --check-first --fast-list --checkers 2000 --transfers 1000
+          ##rClone Upload logs
+          rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/aarch64_arm64_Linux/BUILD.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       #Logs & Artifacts  

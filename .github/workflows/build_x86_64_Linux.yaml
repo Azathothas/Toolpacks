@@ -155,23 +155,23 @@ jobs:
           #bash "$SYSTMP/BUILD.sh" | tee "$SYSTMP/BUILD.log" 2>&1
           ##Run without STDOUT/Logs
           #bash "$SYSTMP/BUILD.sh" >/dev/null 2>&1
-          #Talscale + Tmux + gotty
+          ##Talscale + Tmux + gotty
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/setup_tailscale.sh" -o "$SYSTMP/setup_tailscale.sh" && dos2unix --quiet "$SYSTMP/setup_tailscale.sh"
           source "$SYSTMP/setup_tailscale.sh"
-          tmux new-session -s "toolpacks" -d 'bash "/tmp/BUILD.sh" | tee "/tmp/BUILD.log" ; tmux kill-session -t "toolpacks" 2>/dev/null ; exit'
+          tmux new-session -s "toolpacks" -d 'bash "/tmp/BUILD.sh" | tee -a "/tmp/BUILD.log" ; tmux kill-session -t "toolpacks" 2>/dev/null ; exit'
           #nohup gotty --address "$TS_IP" --port "7070" --reconnect --reconnect-time 30 tmux attach-session -t "toolpacks" -r >/dev/null 2>&1 &
           nohup gotty --address "127.0.0.1" --port "7070" --reconnect --reconnect-time 30 tmux attach-session -t "toolpacks" -r >/dev/null 2>&1 &
           nohup gotty --address "127.0.0.1" --port "7777" --reconnect --reconnect-time 30 btop --tty_on --utf-force >/dev/null 2>&1 &
           echo -e "\n\n[+] Tmux TTY: http://$TS_DNS:7070"
           echo -e "[+] BTOP: http://$TS_DNS:7777\n"
           set +x ; while tmux has-session -t "toolpacks" ; do sleep 1 ; done
-          #Purge Tokens (in case set -x & gh didn't redact)
+          ##Purge Tokens (in case set -x & gh didn't redact)
           sed -i '/.*github_pat.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*ghp_.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*access_key_id.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*secret_access_key.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*cloudflarestorage.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
-          #rClone Upload logs
+          ##rClone Upload logs
           rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/x86_64_Linux/BUILD.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
