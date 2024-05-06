@@ -35,9 +35,9 @@
 8.0K   │ ├── README.md
 4.0K   │ ├── METADATA.md
 4.0K   │ └── DEBUG.md
- 44K   ├─┬ arm64_v8a_Android
+ 48K   ├─┬ arm64_v8a_Android
  12K   │ ├── README.md
-8.0K   │ ├── METADATA.json
+ 12K   │ ├── METADATA.json
 8.0K   │ ├── FILE.txt
 4.0K   │ ├── SIZE.md
 4.0K   │ ├── SHA256SUM.txt

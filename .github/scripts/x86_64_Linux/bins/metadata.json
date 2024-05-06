@@ -1027,8 +1027,8 @@
   },
   {
     "Name": "curl.sh",
-    "Size": "1822 B",
-    "ModTime": "2024-04-03T07:02:28.831136904Z",
+    "Size": "1881 B",
+    "ModTime": "2024-05-06T06:49:37.620209154Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/curl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3287,7 +3287,7 @@
   {
     "Name": "metadata.json",
     "Size": "185.33 kB",
-    "ModTime": "2024-05-06T00:02:59.279979323Z",
+    "ModTime": "2024-05-06T06:53:11.092280024Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
