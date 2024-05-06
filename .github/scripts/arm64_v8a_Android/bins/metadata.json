@@ -1,8 +1,8 @@
 [
   {
     "Name": "curl.sh",
-    "Size": "2874 B",
-    "ModTime": "2024-05-06T06:49:37.592209136Z",
+    "Size": "3021 B",
+    "ModTime": "2024-05-06T08:40:19.826260432Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -10,8 +10,8 @@
   },
   {
     "Name": "metadata.json",
-    "Size": "274 B",
-    "ModTime": "2024-05-06T07:02:37.041899116Z",
+    "Size": "556 B",
+    "ModTime": "2024-05-06T07:02:47.749875751Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
