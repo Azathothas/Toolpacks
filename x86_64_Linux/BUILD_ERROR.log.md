@@ -15,9 +15,9 @@
 
 [-] command not found --> # Something failed to Install
 
-62944:WARNING: msgfmt command not found!
-62945:WARNING: xgettext command not found!
-62946:WARNING: msgmerge command not found!
+63882:WARNING: msgfmt command not found!
+63883:WARNING: xgettext command not found!
+63884:WARNING: msgmerge command not found!
 
 
 [-] Dynamically Linked --> # Not Statically Linked
@@ -42,11 +42,16 @@
 [-] No such file or directory # Usually Because Build Failures
 
 3894:/usr/bin/deb-systemd-helper: error: systemctl preset failed on lm-sensors.service: No such file or directory
-48108:./git-xet: cannot open `./git-xet' (No such file or directory)
-48111:./xetmnt: cannot open `./xetmnt' (No such file or directory)
-48933:./src/grep: cannot open `./src/grep' (No such file or directory)
-49541:./src/kak.opt: cannot open `./src/kak.opt' (No such file or directory)
-61627:./samu: cannot open `./samu' (No such file or directory)
+49659:./src/grep: cannot open `./src/grep' (No such file or directory)
+50307:./src/kak.opt: cannot open `./src/kak.opt' (No such file or directory)
+62372:./samu: cannot open `./samu' (No such file or directory)
+63060:./smenu: cannot open `./smenu' (No such file or directory)
+65135:./generate-bidi: cannot open `./generate-bidi' (No such file or directory)
+65136:./strip-ansi-escapes: cannot open `./strip-ansi-escapes' (No such file or directory)
+65137:./sync-color-schemes: cannot open `./sync-color-schemes' (No such file or directory)
+65138:./wezterm: cannot open `./wezterm' (No such file or directory)
+65139:./wezterm-gui: cannot open `./wezterm-gui' (No such file or directory)
+65140:./wezterm-mux-server: cannot open `./wezterm-mux-server' (No such file or directory)
 
 
 [-] Empty (0 Sized) Bins # Usually Because Symlinks
