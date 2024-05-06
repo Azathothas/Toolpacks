@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "297.29 kB",
-    "ModTime": "2024-04-23T00:31:30.785683474Z",
+    "ModTime": "2024-04-23T07:31:33.518205176Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -757,8 +757,8 @@
   },
   {
     "Name": "certstream",
-    "Size": "4.47 MB",
-    "ModTime": "2024-03-30T01:54:13.112698490Z",
+    "Size": "4.59 MB",
+    "ModTime": "2024-04-27T10:41:00.575348200Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/certstream",
     "B3SUM": "ba032a45f33a16b25faed187dc4245b9efbfa1984623df38389a316d4e2bedde",
     "SHA256": "29ba3fbe87e1b6dcbde5c67833335307286535855511b3f898cc83d8b8d4b8a4",
@@ -1303,6 +1303,15 @@
     "B3SUM": "e050844fc66aecd8cee7b2b70cc574b2ecb600c27d7f745cb6fa5d8e526cf76e",
     "SHA256": "42467693d060c87e75dadd477b792885176af510fdc54731f92404606eb42591",
     "Repo": "https://github.com/ImAyrix/cut-cdn"
+  },
+  {
+    "Name": "cutlines",
+    "Size": "1.9 MB",
+    "ModTime": "2024-04-27T10:30:37.747056200Z",
+    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/cutlines",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/Azathothas/Arsenal"
   },
   {
     "Name": "cvemap",
@@ -5937,16 +5946,16 @@
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/tailscale",
     "B3SUM": "b51b765f53297127ee9b25cdf84b3925fe368e0a675ea7d8d2a2e7e8eed9d1a6",
     "SHA256": "b8f9b34c60cfbbb4665f3999be00d785027ea64c0afc1e2138db2120c1f55924",
-    "Repo": "https://github.com/tailscale/tailscale"
+    "Repo": "https://github.com/tailscale/tailscale\nhttps://github.com/tailscale/tailscale"
   },
   {
     "Name": "tailscale_merged",
     "Size": "21.01 MB",
     "ModTime": "2024-03-30T01:54:00.888699079Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/tailscale_merged",
-    "B3SUM": "9a04962f2e1b9ceb36e90174f54ec29eedf64dc774b8c816790d1f527c1d15e3",
-    "SHA256": "228b26f5004073afb4270dcd8270a83b002d5318226fec947f129746b2ce7612",
-    "Repo": "https://github.com/tailscale/tailscale"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "tailscaled",
@@ -5955,7 +5964,7 @@
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/tailscaled",
     "B3SUM": "16179c51f6df73086dc50ff7cc494b5a4418f7de4c52b0c8670b33091956d955",
     "SHA256": "0240cb7ae922b5c2214a9775f2ab1ff909e672a74cbc383484e0097844b435c9",
-    "Repo": "https://github.com/tailscale/tailscale"
+    "Repo": "https://github.com/tailscale/tailscale\nhttps://github.com/tailscale/tailscale"
   },
   {
     "Name": "tailspin",

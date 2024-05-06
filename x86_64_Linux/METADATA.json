@@ -19,8 +19,8 @@
   },
   {
     "Name": "BUILD.log.txt",
-    "Size": "21.75 MB",
-    "ModTime": "2024-04-20T03:44:24.947988787Z",
+    "Size": "9.03 MB",
+    "ModTime": "2024-05-06T07:32:04.363604609Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "315.87 kB",
-    "ModTime": "2024-04-23T00:31:27.209087910Z",
+    "ModTime": "2024-04-23T07:35:57.448143302Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -803,7 +803,7 @@
   {
     "Name": "certstream",
     "Size": "4.74 MB",
-    "ModTime": "2024-04-20T03:17:33.659838405Z",
+    "ModTime": "2024-04-27T10:38:35.241284800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/certstream",
     "B3SUM": "d30891d4d5bf18bf1b2679a6ef5f4703e4362e8b0a6f5e9b47f4dd78c2838388",
     "SHA256": "b6353d40c6dedfedf7863886037cda34dccb7b39cf9f95f05e7de76bc30028e0",
@@ -1357,6 +1357,15 @@
     "B3SUM": "520dcf94d3fadc190dafa3aecdfcfd309ba718bcb0141e91afa9011b12cddc8f",
     "SHA256": "f990d97ba8d6eea906f557195ac22a64b4a0a2442a59e6fba4fbfef430946f23",
     "Repo": "https://github.com/ImAyrix/cut-cdn"
+  },
+  {
+    "Name": "cutlines",
+    "Size": "1.84 MB",
+    "ModTime": "2024-04-27T10:28:45.774172700Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/cutlines",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/Azathothas/Arsenal"
   },
   {
     "Name": "cvemap",
@@ -2062,11 +2071,20 @@
   },
   {
     "Name": "fastfetch",
-    "Size": "1.25 MB",
-    "ModTime": "2024-04-17T03:21:13.233886777Z",
+    "Size": "1.54 MB",
+    "ModTime": "2024-04-28T13:18:23.030409400Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fastfetch",
     "B3SUM": "a2504e9b9d9e43a01112305bbc2ec4fea314baf43470b33bfd5068489d433699",
     "SHA256": "5807e495a62a5c17b13c6ae0b020b853a2e437a62f72140585c73c0eadbf6557",
+    "Repo": "https://github.com/fastfetch-cli/fastfetch"
+  },
+  {
+    "Name": "fastfetch-staticx",
+    "Size": "1.58 MB",
+    "ModTime": "2024-04-28T14:51:40.282537000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/fastfetch-staticx",
+    "B3SUM": "",
+    "SHA256": "",
     "Repo": "https://github.com/fastfetch-cli/fastfetch"
   },
   {
@@ -2241,6 +2259,15 @@
     "Repo": "https://github.com/axboe/fio"
   },
   {
+    "Name": "flashfetch",
+    "Size": "1.34 MB",
+    "ModTime": "2024-04-28T13:18:23.033915000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/flashfetch",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/fastfetch-cli/fastfetch"
+  },
+  {
     "Name": "fnm",
     "Size": "7.34 MB",
     "ModTime": "2024-03-06T01:59:52.806324261Z",
@@ -2365,6 +2392,15 @@
     "B3SUM": "75ce14fdc54380a7cfee3344fe8ccf9d2d6df6d584693709a1766a743919251b",
     "SHA256": "db955574282fd03cc71c3f4277b575716f75614e3def6e5f3ae93eda2815643f",
     "Repo": "https://github.com/u-root/gobusybox"
+  },
+  {
+    "Name": "generate-bidi",
+    "Size": "491.47 kB",
+    "ModTime": "2024-04-29T04:51:19.929937100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/generate-bidi",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/wez/wezterm"
   },
   {
     "Name": "genscope",
@@ -2662,6 +2698,15 @@
     "B3SUM": "bf0f35d77e198687c57f0366b07bf2257537e0cb703f8f80d446f714e9db87dc",
     "SHA256": "3891c425535241bfa380df169155d3a9d521c118fa47280a9a4e677177724f8b",
     "Repo": "https://github.com/projectdiscovery/simplehttpserver"
+  },
+  {
+    "Name": "goaccess",
+    "Size": "1.62 MB",
+    "ModTime": "2024-04-29T14:07:06.649242900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/goaccess",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/allinurl/goaccess"
   },
   {
     "Name": "goanywhere",
@@ -4392,6 +4437,15 @@
     "Repo": "https://github.com/devploit/nomore403"
   },
   {
+    "Name": "noseyparker",
+    "Size": "24.38 MB",
+    "ModTime": "2024-04-29T03:37:40.793856000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/noseyparker",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/praetorian-inc/noseyparker"
+  },
+  {
     "Name": "notify",
     "Size": "21.06 MB",
     "ModTime": "2024-03-06T01:59:42.854296546Z",
@@ -5824,8 +5878,8 @@
   },
   {
     "Name": "smenu",
-    "Size": "1.69 MB",
-    "ModTime": "2024-03-06T01:59:32.634265639Z",
+    "Size": "410.78 kB",
+    "ModTime": "2024-04-29T13:27:43.709906100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/smenu",
     "B3SUM": "a92dc7800c802553f980ac33b0fd83d79a6447e253447fc554c2a0000a8199c0",
     "SHA256": "cd786b37d9c2f3df964256f4bdcec770c7c49171535aad1a3149e3355932b8b3",
@@ -6120,6 +6174,15 @@
     "Repo": "https://www.gnu.org/software/stress-ng/"
   },
   {
+    "Name": "strip-ansi-escapes",
+    "Size": "1.24 MB",
+    "ModTime": "2024-04-29T04:51:19.933352100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/strip-ansi-escapes",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/wez/wezterm"
+  },
+  {
     "Name": "sttr",
     "Size": "9.72 MB",
     "ModTime": "2024-04-20T03:17:12.263566318Z",
@@ -6282,6 +6345,15 @@
     "Repo": "https://github.com/cloudflare/svg-hush"
   },
   {
+    "Name": "sync-color-schemes",
+    "Size": "12.68 MB",
+    "ModTime": "2024-04-29T04:51:19.941289400Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/sync-color-schemes",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/wez/wezterm"
+  },
+  {
     "Name": "syncat",
     "Size": "8.42 MB",
     "ModTime": "2024-04-20T03:17:23.775712724Z",
@@ -6403,9 +6475,9 @@
     "Size": "22 MB",
     "ModTime": "2024-04-20T03:17:14.859599322Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tailscale_merged",
-    "B3SUM": "d8ddf24c1956c2397616dcbf01c084cfa2de89fed70d6b5d446169c836d66189",
-    "SHA256": "609bf43bebd77fcdbb43da2c6e2eea0f6b26d0eb7acc3c00f95f9bc1c90b8228",
-    "Repo": "https://github.com/tailscale/tailscale"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "tailscaled",
@@ -7191,6 +7263,24 @@
     "Repo": "https://github.com/schachmat/wego"
   },
   {
+    "Name": "wezterm",
+    "Size": "27.7 MB",
+    "ModTime": "2024-04-29T04:51:19.954619900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/wezterm",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/wez/wezterm"
+  },
+  {
+    "Name": "wezterm-mux-server",
+    "Size": "28.07 MB",
+    "ModTime": "2024-04-29T04:51:19.967969800Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/wezterm-mux-server",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/wez/wezterm"
+  },
+  {
     "Name": "wget",
     "Size": "5.69 MB",
     "ModTime": "2024-04-06T03:03:07.483453288Z",
@@ -7603,6 +7693,24 @@
     "B3SUM": "5874af01ec2e9196d867e6e25e369a2280db5d86627dc4d646a350bac372df05",
     "SHA256": "a1fc792b3cc47c3d79757792ac9c2016ec9adfb24b5e8b615800c39ea9a18cd4",
     "Repo": "https://github.com/volution/z-tokens"
+  },
+  {
+    "Name": "zapper",
+    "Size": "69.98 kB",
+    "ModTime": "2024-04-28T14:05:51.108402200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/zapper",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/hackerschoice/zapper"
+  },
+  {
+    "Name": "zapper-stealth",
+    "Size": "67.9 kB",
+    "ModTime": "2024-04-28T14:05:51.111243600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/zapper-stealth",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/hackerschoice/zapper"
   },
   {
     "Name": "zdns",
