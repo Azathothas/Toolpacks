@@ -35,13 +35,15 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl" --profile="release" --jobs="$(($(nproc)+1))"
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
+      #Fetch
+       #--dns-servers "1.1.1.1,8.8.8.8" --cacert "/data/data/com.termux/files/usr/etc/tls/cert.pem"
       #Copy 
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
        file "./curl" && du -sh "./curl" ; aarch64-linux-gnu-readelf -d "./curl"
        cp "./curl" "$BINDIR/curl"
       #Test
-       docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" termux/termux-docker:aarch64 "/mnt/curl" --version
+       docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/curl" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

@@ -41,28 +41,28 @@
 
 #-------------------------------------------------------#
 ##Debloat
- bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
- bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh") 2>/dev/null
- #echo -e "\n[+] Debloating GH Runner...\n"
- #  #This is needed, this is the ndk
- #  #12.0 GB
- #  #sudo rm "/usr/local/lib/android" -rf 2>/dev/null &
- #  #8.2 GB
- #  sudo rm "/opt/hostedtoolcache/CodeQL" -rf 2>/dev/null &
- #  #5.0 GB
- #  sudo rm "/usr/local/.ghcup" -rf 2>/dev/null &
- #  #2.0 GB
- #  sudo rm "/usr/share/dotnet" -rf 2>/dev/null &
- #  #1.7 GB
- #  sudo rm "/usr/share/swift" -rf 2>/dev/null &
- #  #1.1 GB
- #  #sudo rm "/usr/local/lib/node_modules" -rf 2>/dev/null &
- #  #1.0 GB
- #  sudo rm "/usr/local/share/powershell" -rf 2>/dev/null &
- #  #500 MB
- #  sudo rm "/usr/local/lib/heroku" -rf 2>/dev/null &
- ##wait
- #wait ; echo
+ #bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+ #bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh") 2>/dev/null
+ echo -e "\n[+] Debloating GH Runner...\n"
+   #This is needed, this is the ndk
+   #12.0 GB
+   #sudo rm "/usr/local/lib/android" -rf 2>/dev/null &
+   #8.2 GB
+   sudo rm "/opt/hostedtoolcache/CodeQL" -rf 2>/dev/null &
+   #5.0 GB
+   sudo rm "/usr/local/.ghcup" -rf 2>/dev/null &
+   #2.0 GB
+   sudo rm "/usr/share/dotnet" -rf 2>/dev/null &
+   #1.7 GB
+   sudo rm "/usr/share/swift" -rf 2>/dev/null &
+   #1.1 GB
+   #sudo rm "/usr/local/lib/node_modules" -rf 2>/dev/null &
+   #1.0 GB
+   sudo rm "/usr/local/share/powershell" -rf 2>/dev/null &
+   #500 MB
+   sudo rm "/usr/local/lib/heroku" -rf 2>/dev/null &
+ #wait
+ wait ; reset ; echo
 #-------------------------------------------------------#
 
 
@@ -99,6 +99,8 @@
 ##Addons
  bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_bb_tools_x86_64.sh") 
  reset ; echo ; reset
+##Continue
+ export CONTINUE="YES"
 #-------------------------------------------------------#
 
 
@@ -331,7 +333,12 @@ set +x
  find "$BASEUTILSDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
 #rClone Upload to R2 (bin.ajam.dev/arm64_v8a_Android) (arm64_v8a_Android) [Binaries]
- if command -v rclone &> /dev/null && [ -s "$HOME/.rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+ if [ -s "$HOME/.rclone.conf" ] && [ ! -e "$HOME/.config/rclone/rclone.conf" ]; then
+    echo -e "\n[+] Setting Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
+     mkdir -p "$HOME/.config/rclone" && touch "$HOME/.config/rclone/rclone.conf"
+     cat "$HOME/.rclone.conf" > "$HOME/.config/rclone/rclone.conf"
+ fi
+ if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload [$BINDIR]
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
       cd "$BINDIR" && rclone copy "." "r2:/bin/arm64_v8a_Android/" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
@@ -415,7 +422,7 @@ set +x
      fi
  fi
 #-------------------------------------------------------# 
- if command -v rclone &> /dev/null && [ -s "$HOME/.rclone.conf" ] && [ -s "$BINDIR.7z" ]; then
+ if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -s "$BINDIR.7z" ]; then
  #rClone Upload Toolpacks to R2 (bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64-v8a.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
