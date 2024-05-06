@@ -1,15 +1,18 @@
 ```mathematica
- 1.1G └─┬ .
+ 1.2G └─┬ .
  151M   ├── pandoc.exe
  134M   ├── ffmpeg.exe
  133M   ├── ffprobe.exe
  133M   ├── ffplay.exe
   63M   ├── alist.exe
   35M   ├── step.exe
+  29M   ├── sing-box.exe
   28M   ├── ngrok.exe
   25M   ├── algernon.exe
   25M   ├── cloudflared.exe
   24M   ├── brutespray.exe
+  22M   ├── loclx.exe
+  22M   ├── localxpose.exe
   21M   ├── legba.exe
   19M   ├── sish.exe
   17M   ├── gix.exe
@@ -44,7 +47,9 @@
  2.4M   ├── hashsum.exe
  2.3M   ├── pr.exe
  2.3M   ├── date.exe
+ 2.3M   ├── geodns.exe
  2.3M   ├── ptx.exe
+ 2.3M   ├── geoping.exe
  2.3M   ├── touch.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── csplit.exe
@@ -108,8 +113,8 @@
  888K   ├── rm.exe
  888K   ├── fmt.exe
  886K   ├── uniq.exe
+ 881K   ├── tr.exe
  880K   ├── dircolors.exe
- 879K   ├── tr.exe
  878K   ├── head.exe
  877K   ├── shred.exe
  863K   ├── xargs.exe
