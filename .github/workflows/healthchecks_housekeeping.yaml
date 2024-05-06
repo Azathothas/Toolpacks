@@ -151,6 +151,16 @@ jobs:
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
           rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          ##Scripts_arm64_v8a_Android
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json"
+          #Update Repo
+          cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins/metadata.json"          
           ##Scripts_x86_64_Linux
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
@@ -364,7 +374,7 @@ jobs:
            echo -e '```' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
         continue-on-error: true
 
-      - name: Generate Markdown ( Main README.md)
+      - name: Generate Markdown (Main README.md)
         run: |
            #Presets
            set -x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
@@ -511,6 +521,128 @@ jobs:
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
           rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  enrich-arm64v8a-Android:
+    runs-on: ubuntu-latest
+    needs: [check]
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set -x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          #GH Dirs
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          #-------------#
+          mkdir -p "$HOME/bin"
+          sudo apt update -y
+          sudo apt install dos2unix -y
+          pip install ansi2txt --upgrade
+          ##Setup rClone
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #csvtk
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+
+      - name: rClone Enrich Metadata (bin.ajam.dev/arm64_v8a_Android)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          #TMPDIRS
+           #For script-cache
+           rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
+           BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
+           #Get URlS
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
+           #Get METADATA.json (bin.ajam.dev/arm64_v8a_Android)
+           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
+           #Get BLAKE3SUM.txt
+           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/BLAKE3SUM.txt" -o "$SYSTMP/RCLONE/BLAKE3SUM.txt"
+           #Get SHA256SUM.txt
+           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM.txt" -o "$SYSTMP/RCLONE/SHA256SUM.txt"
+           #Run
+            echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
+             for BUILD_URL in $(cat "$SYSTMP/BUILDURLS" | sed 's/"//g'); do
+               echo -e "\n[+] Fetching : $BUILD_URL"
+                 curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
+                #export SOURCE_URL=
+                 cat "$BUILDSCRIPT" | grep -o 'export SOURCE_URL="\([^"]*\)"' | sed 's/export SOURCE_URL="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/SOURCE.txt"
+                 REPO_URL="$(cat $SYSTMP/RCLONE/SOURCE.txt)" && export REPO_URL="$REPO_URL"
+                #export BIN= 
+                 cat "$BUILDSCRIPT" | grep -o 'export BIN="\([^"]*\)"' | sed 's/export BIN="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/BINS.txt"
+                #$BINDIR/*()
+                 cat "$BUILDSCRIPT" | grep -i "\$BINDIR" | sed -n '/\$BINDIR\/\$BIN/! s/.*"\(\$BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
+                 sort -u "$SYSTMP/RCLONE/BINS.txt" -o "$SYSTMP/RCLONE/BINS.txt"
+                #Merge with json
+                 for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g'); do
+                  #BSUM
+                   B3SUM="$(cat "$SYSTMP/RCLONE/BLAKE3SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export B3SUM="$B3SUM"
+                   jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .Name == $BIN then . + {B3SUM: $B3SUM} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
+                  #SHA256SUM
+                   SHA256="$(cat "$SYSTMP/RCLONE/SHA256SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export SHA256="$SHA256"
+                   jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .Name == $BIN then . + {SHA256: $SHA256} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
+                  #Repo URLs
+                   jq --arg BIN "$BIN" --arg REPO_URL "$REPO_URL" '.[] |= if .Name == $BIN then . + {Repo: $REPO_URL} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
+                  #Print json
+                  echo -e "\n\n" && jq --arg BIN "$BIN" '.[] | select(.Name == $BIN)' "$SYSTMP/RCLONE/METADATA.json" && echo -e "\n\n" 
+                 done
+            done
+          #Update R2
+           echo -e "\n Updating Metadata.json\n"
+           rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/arm64_v8a_Android/METADATA.json" --check-first --checkers 2000 --transfers 1000
+           rclone delete "r2:/bin/arm64_v8a_Android/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000
+          #Clean & Purge
+           sudo rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
+        continue-on-error: true     
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
 
@@ -885,7 +1017,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   merge-all:
     runs-on: ubuntu-latest
-    needs: [enrich-arm64-Linux, enrich-x86-64-Linux, enrich-x64-Windows]
+    needs: [enrich-arm64v8a-Android, enrich-arm64-Linux, enrich-x86-64-Linux, enrich-x64-Windows]
     permissions:
       contents: write
           
