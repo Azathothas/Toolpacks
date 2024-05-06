@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "315.87 kB",
-    "ModTime": "2024-04-23T07:35:57.448143302Z",
+    "Size": "318.83 kB",
+    "ModTime": "2024-05-06T09:06:24.442277357Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -5020,6 +5020,321 @@
     "B3SUM": "8b68a785b6dc856e8dea11c9c237214a5f30940b9e7ac62c5e3342a93ebc43b3",
     "SHA256": "093c79d3a1919c59bf12130e1d333cbc6a1a8ed5ec026bd06adf96059ba2f6c3",
     "Repo": "https://github.com/userdocs/qbittorrent-nox-static"
+  },
+  {
+    "Name": "qemu-aarch64-static",
+    "Size": "5.31 MB",
+    "ModTime": "2024-05-06T09:42:25.579016800Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-aarch64-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-aarch64_be-static",
+    "Size": "5.32 MB",
+    "ModTime": "2024-05-06T09:42:25.584821500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-aarch64_be-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-alpha-static",
+    "Size": "2.35 MB",
+    "ModTime": "2024-05-06T09:42:25.567778800Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-alpha-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-arm-static",
+    "Size": "3.56 MB",
+    "ModTime": "2024-05-06T09:42:25.559850000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-arm-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-armeb-static",
+    "Size": "3.57 MB",
+    "ModTime": "2024-05-06T09:42:25.564042000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-armeb-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-cris-static",
+    "Size": "2.34 MB",
+    "ModTime": "2024-05-06T09:42:25.555987600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-cris-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-hexagon-static",
+    "Size": "4.97 MB",
+    "ModTime": "2024-05-06T09:42:25.551800600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-hexagon-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-hppa-static",
+    "Size": "2.44 MB",
+    "ModTime": "2024-05-06T09:42:25.538960300Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-hppa-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-i386-static",
+    "Size": "3.04 MB",
+    "ModTime": "2024-05-06T09:42:25.533874200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-i386-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-loongarch64-static",
+    "Size": "2.86 MB",
+    "ModTime": "2024-05-06T09:42:25.527036300Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-loongarch64-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-m68k-static",
+    "Size": "2.66 MB",
+    "ModTime": "2024-05-06T09:42:25.521282100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-m68k-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-microblaze-static",
+    "Size": "2.34 MB",
+    "ModTime": "2024-05-06T09:42:25.510190100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-microblaze-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-microblazeel-static",
+    "Size": "2.34 MB",
+    "ModTime": "2024-05-06T09:42:25.514353000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-microblazeel-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-mips-static",
+    "Size": "3.49 MB",
+    "ModTime": "2024-05-06T09:42:25.678902700Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mips-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-mips64-static",
+    "Size": "3.51 MB",
+    "ModTime": "2024-05-06T09:42:25.700083200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mips64-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-mips64el-static",
+    "Size": "3.51 MB",
+    "ModTime": "2024-05-06T09:42:25.506470500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mips64el-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-mipsel-static",
+    "Size": "3.48 MB",
+    "ModTime": "2024-05-06T09:42:25.694226100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mipsel-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-mipsn32-static",
+    "Size": "3.52 MB",
+    "ModTime": "2024-05-06T09:42:25.685352500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mipsn32-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-mipsn32el-static",
+    "Size": "3.51 MB",
+    "ModTime": "2024-05-06T09:42:25.690078400Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mipsn32el-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-nios2-static",
+    "Size": "2.29 MB",
+    "ModTime": "2024-05-06T09:42:25.670981500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-nios2-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-or1k-static",
+    "Size": "2.27 MB",
+    "ModTime": "2024-05-06T09:42:25.666199600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-or1k-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-ppc-static",
+    "Size": "3.43 MB",
+    "ModTime": "2024-05-06T09:42:25.651367000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-ppc-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-ppc64-static",
+    "Size": "3.45 MB",
+    "ModTime": "2024-05-06T09:42:25.656181900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-ppc64-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-ppc64le-static",
+    "Size": "3.44 MB",
+    "ModTime": "2024-05-06T09:42:25.660957600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-ppc64le-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-riscv32-static",
+    "Size": "3.71 MB",
+    "ModTime": "2024-05-06T09:42:25.646110500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-riscv32-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-riscv64-static",
+    "Size": "3.75 MB",
+    "ModTime": "2024-05-06T09:42:25.639821200Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-riscv64-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-s390x-static",
+    "Size": "2.84 MB",
+    "ModTime": "2024-05-06T09:42:25.630588800Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-s390x-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-sh4-static",
+    "Size": "2.36 MB",
+    "ModTime": "2024-05-06T09:42:25.620456700Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sh4-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-sh4eb-static",
+    "Size": "2.36 MB",
+    "ModTime": "2024-05-06T09:42:25.624730800Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sh4eb-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-sparc-static",
+    "Size": "2.61 MB",
+    "ModTime": "2024-05-06T09:42:25.605343900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sparc-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-sparc32plus-static",
+    "Size": "2.66 MB",
+    "ModTime": "2024-05-06T09:42:25.614609000Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sparc32plus-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-sparc64-static",
+    "Size": "2.66 MB",
+    "ModTime": "2024-05-06T09:42:25.609713300Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sparc64-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-x86_64-static",
+    "Size": "3.01 MB",
+    "ModTime": "2024-05-06T09:42:25.601347400Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-x86_64-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-xtensa-static",
+    "Size": "6.58 MB",
+    "ModTime": "2024-05-06T09:42:25.589608400Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-xtensa-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
+  },
+  {
+    "Name": "qemu-xtensaeb-static",
+    "Size": "6.42 MB",
+    "ModTime": "2024-05-06T09:42:25.595586800Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-xtensaeb-static",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/qemu/qemu"
   },
   {
     "Name": "qsreplace",
