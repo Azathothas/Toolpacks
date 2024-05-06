@@ -61,6 +61,8 @@ flashfetch.exe:        PE32+ executable (console) x86-64 (stripped to external P
 fmt.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 fold.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 gdu.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+geodns.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+geoping.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 gix.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 hashsum.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 head.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
@@ -74,6 +76,8 @@ jwt-cracker.exe:       PE32+ executable (console) x86-64 (stripped to external P
 legba.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 link.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 ln.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+localxpose.exe:        PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+loclx.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 ls.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 micro.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 miniserve.exe:         PE32+ executable (console) x86-64, for MS Windows, 3 sections
@@ -118,6 +122,7 @@ seq.exe:               PE32+ executable (console) x86-64 (stripped to external P
 sftp-server.exe:       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
 shred.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 shuf.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+sing-box.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 sish.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 sleep.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 sort.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections

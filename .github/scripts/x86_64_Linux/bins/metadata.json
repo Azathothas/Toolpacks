@@ -738,6 +738,15 @@
     "Repo": null
   },
   {
+    "Name": "cidr.sh",
+    "Size": "1635 B",
+    "ModTime": "2024-05-05T21:01:27.029921809Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cidr.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "circumflex.sh",
     "Size": "1653 B",
     "ModTime": "2024-03-29T18:32:13.701873528Z",
@@ -1624,6 +1633,15 @@
     "Size": "2041 B",
     "ModTime": "2024-03-29T18:32:13.705873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fget.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "fi6s.sh",
+    "Size": "2730 B",
+    "ModTime": "2024-05-05T21:01:27.017921739Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fi6s.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3268,8 +3286,8 @@
   },
   {
     "Name": "metadata.json",
-    "Size": "182.87 kB",
-    "ModTime": "2024-05-05T07:04:20.036178136Z",
+    "Size": "185.33 kB",
+    "ModTime": "2024-05-06T00:02:59.279979323Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3325,6 +3343,15 @@
     "Size": "1826 B",
     "ModTime": "2024-03-29T18:32:13.713873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/minisign.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "mirrorbits.sh",
+    "Size": "2847 B",
+    "ModTime": "2024-05-05T21:01:27.033921833Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mirrorbits.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
