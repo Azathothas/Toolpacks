@@ -7,5 +7,14 @@
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
+  },
+  {
+    "Name": "metadata.json",
+    "Size": "274 B",
+    "ModTime": "2024-05-06T07:02:37.041899116Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   }
 ]
