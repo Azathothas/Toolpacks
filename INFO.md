@@ -43,7 +43,7 @@
 > ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/427bf538-6389-4419-a35c-911568165a1a)
 ---
 - ##### CLI
-> ℹ️ Recommended ℹ️ : Use [**`Hysp`**](https://github.com/pwnwriter/hysp) if you want to skip everything below, since hysp already [uses this repo as it's source.](https://github.com/metis-os/hysp-pkgs)
+> ℹ️ Recommended ℹ️ : Use [**`Bigdl`**](https://github.com/xplshn/bigdl) if you want to skip everything below, since `bigdl` already [uses this repo as it's source.](https://github.com/xplshn/bigdl)
 > - It's also possible to use `"$(uname -m)"` | `$env:PROCESSOR_ARCHITECTURE` | `adb shell getprop ro.product.cpu.abi` variations
 > > ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/906c29b9-0852-4878-bae9-d64f68e7c569)
 > > ```bash
