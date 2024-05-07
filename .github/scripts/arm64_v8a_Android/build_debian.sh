@@ -20,7 +20,7 @@
  TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_android_arm64_v8a" && export TMPDIRS="$TMPDIRS"
  rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
  #For Bins
- BINDIR="$SYSTMP/toolpack_arm64_v8a" && export BINDIR="$BINDIR"
+ BINDIR="$SYSTMP/toolpack_arm64_v8a_Android" && export BINDIR="$BINDIR"
  rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
  #For Baseutils
  BASEUTILSDIR="$SYSTMP/baseutils_arm64_v8a" && export BASEUTILSDIR="$BASEUTILSDIR"
@@ -46,7 +46,7 @@
  echo -e "\n[+] Debloating GH Runner...\n"
    #This is needed, this is the ndk
    #12.0 GB
-   #sudo rm "/usr/local/lib/android" -rf 2>/dev/null &
+   sudo rm "/usr/local/lib/android" -rf 2>/dev/null &
    #8.2 GB
    sudo rm "/opt/hostedtoolcache/CodeQL" -rf 2>/dev/null &
    #5.0 GB
@@ -99,6 +99,20 @@
 ##Addons
  bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_bb_tools_x86_64.sh") 
  reset ; echo ; reset
+#-------------------------------------------------------#
+#Sanity Checks
+if [[ -n "$GITHUB_TOKEN" ]]; then
+   # 5000 req/minute (80 req/minute)
+   echo "GITHUB_TOKEN is Exported"
+   eget --rate
+else
+   # 60 req/hr
+   echo -e "\n[+] GITHUB_TOKEN is NOT Exported"
+   echo -e "Export it to avoid ratelimits\n"
+   eget --rate
+   exit 1
+fi
+#-------------------------------------------------------#  
 ##Continue
  export CONTINUE="YES"
 #-------------------------------------------------------#
@@ -206,6 +220,37 @@ if [ "$CONTINUE" == "YES" ]; then
       find "$SYSTMP" -type f -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
      #----------------------# 
 fi
+
+#-------------------------------------------------------#
+##Libs
+ ##Mold for linking
+  if [ "$CONTINUE" == "YES" ]; then
+        #Get Source
+        pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
+        #Extract Archive
+        find . -type f -name "*.tar.gz*" -exec tar -xvf {} --strip-components=1 \;
+        #Main Binary
+        sudo rm -rf "/usr/local/bin/ld.mold" 2>/dev/null ; sudo rm -rf "/usr/local/libexec/mold" 2>/dev/null
+        sudo cp "./bin/mold" "/usr/local/bin/mold" ; sudo chmod +xwr "/usr/local/bin/mold"
+        #symlinks
+        # /usr/local/bin/ld.mold -> mold
+        sudo ln -s "/usr/local/bin/mold" "/usr/local/bin/ld.mold"
+        # /usr/local/libexec/mold/ld --> /usr/local/bin/mold
+        sudo mkdir -p "/usr/local/libexec/mold" && sudo ln -s "/usr/local/bin/mold" "/usr/local/libexec/mold/ld" ; sudo chmod +xwr "/usr/local/libexec/mold"/*
+        #lib : /usr/local/lib/mold/mold-wrapper.so
+        sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd > /dev/null 2>&1
+        #Test
+        if ! command -v mold &> /dev/null; then
+           echo -e "\n[-] mold NOT Found\n"
+           exit 1
+        else   
+           mold --version
+           sudo ldconfig && sudo ldconfig -p
+        fi
+  fi
+#-------------------------------------------------------#
+
+
 #-------------------------------------------------------#
  #Check
  if [ "$CONTINUE" != "YES" ]; then
@@ -216,23 +261,34 @@ fi
 
 
 #-------------------------------------------------------#
-##https://github.com/leleliu008/ndk-pkg#using-ndk-pkg-via-docker-or-podman
- #Install
+##ppkg : https://github.com/leleliu008/ppkg
+ #Install : https://github.com/leleliu008/ppkg#install-posix-shell-based-ppkg-via-curl
+  rm -rf "$HOME/.ppkg" "$HOME/.uppm" 2>/dev/null
+  sudo curl -qfsSL "https://raw.githubusercontent.com/leleliu008/ppkg/master/ppkg" -o "/usr/local/bin/ppkg" && sudo chmod +x "/usr/local/bin/ppkg"
+ #Setup & Config
+  ppkg setup && ppkg sysinfo ; du -sh "$HOME/.ppkg"
+  ppkg update && ppkg formula-repo-list && ppkg formula-repo-sync "official-core" ; du -sh "$HOME/.ppkg"
+##uppm : https://github.com/leleliu008/uppm
+  #ppkg install uppm ; ppkg cleanup ; du -sh "$HOME/.ppkg"
+  ppkg cleanup ; du -sh "$HOME/.ppkg"
+##ndk-pkg [docker]
+ #Install : https://github.com/leleliu008/ndk-pkg#using-ndk-pkg-via-docker-or-podman
   rm -rf "$HOME/.ndk-pkg" 2>/dev/null ; mkdir -p "$HOME/.ndk-pkg"
   rm -rf "$HOME/.m2" 2>/dev/null ; mkdir -p "$HOME/.m2"
  #Container: https://hub.docker.com/r/fpliu/ndk-pkg
-  sudo docker stop "$(sudo docker ps -aqf name=ndk-pkg)" && sleep 5
-  sudo docker rm "$(sudo docker ps -aqf name=ndk-pkg)" && sleep 5
-  docker create -it --name "ndk-pkg" -v "$HOME/.ndk-pkg:/root/.ndk-pkg" -v "$HOME/.m2:/root/.m2" "fpliu/ndk-pkg:latest"
+  sudo docker stop "$(sudo docker ps -aqf name=ndk-pkg)" 2>/dev/null && sleep 5
+  sudo docker rm "$(sudo docker ps -aqf name=ndk-pkg)" 2>/dev/null && sleep 5
+  #docker create -it --name "ndk-pkg" -v "$HOME/.ndk-pkg:/root/.ndk-pkg" -v "$HOME/.m2:/root/.m2" "fpliu/ndk-pkg:latest"
+  docker create -it --name "ndk-pkg" "fpliu/ndk-pkg:latest"
   docker start "ndk-pkg"
- #Setup & Config
-  docker exec -it "ndk-pkg" ndk-pkg upgrade-self
-  docker exec -it "ndk-pkg" ndk-pkg setup
-  docker exec -it "ndk-pkg" ndk-pkg update
-  docker exec -it "ndk-pkg" ndk-pkg sysinfo
-  #https://github.com/leleliu008/ndk-pkg-formula-repository-official-core
-  docker exec -it "ndk-pkg" ndk-pkg formula-repo-list
-  docker exec -it "ndk-pkg" ndk-pkg formula-repo-sync "official-core"
+  #Setup & Config
+   docker exec -it "ndk-pkg" ndk-pkg upgrade-self
+   docker exec -it "ndk-pkg" ndk-pkg setup
+   docker exec -it "ndk-pkg" ndk-pkg update
+   docker exec -it "ndk-pkg" ndk-pkg sysinfo
+   #https://github.com/leleliu008/ndk-pkg-formula-repository-official-core
+   docker exec -it "ndk-pkg" ndk-pkg formula-repo-list
+   docker exec -it "ndk-pkg" ndk-pkg formula-repo-sync "official-core"
 ##ENV VARS
   ##https://apilevels.com/
   #android-34 --> Android 14
@@ -245,25 +301,91 @@ fi
   #android-24,25 --> Android 7
   #android-23 --> Android 6
   #android-21,22 --> Android 5
-  export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC="android-29"
-  export TOOLPACKS_ANDROID_APILEVEL_STATIC="android-34"
-  export TOOLPACKS_ANDROID_ABI="arm64-v8a"
-  export TOOLPACKS_ANDROID_BUILD_DYNAMIC="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-${TOOLPACKS_ANDROID_ABI}"
-  export TOOLPACKS_ANDROID_BUILD_STATIC="${TOOLPACKS_ANDROID_APILEVEL_STATIC}-${TOOLPACKS_ANDROID_ABI}"
+   export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC="android-29"
+   TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X="$(echo ${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC} | sed 's/-//g' | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}"
+   export TOOLPACKS_ANDROID_APILEVEL_STATIC="android-34"
+   TOOLPACKS_ANDROID_APILEVEL_STATIC_X="$(echo ${TOOLPACKS_ANDROID_APILEVEL_STATIC} | sed 's/-//g' | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_APILEVEL_STATIC_X="${TOOLPACKS_ANDROID_APILEVEL_STATIC_X}"
+   export TOOLPACKS_ANDROID_ABI="arm64-v8a"
+   export TOOLPACKS_ANDROID_BUILD_DYNAMIC="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-${TOOLPACKS_ANDROID_ABI}"
+   export TOOLPACKS_ANDROID_BUILD_STATIC="${TOOLPACKS_ANDROID_APILEVEL_STATIC}-${TOOLPACKS_ANDROID_ABI}"
+  echo -e "\n[+] APILEVEL (Dynamic) = ${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}"
+  echo -e "[+] APILEVEL (Static) = ${TOOLPACKS_ANDROID_APILEVEL_STATIC}"
+  echo -e "[+] Target ABI (arch) = ${TOOLPACKS_ANDROID_ABI}"
+  echo -e "[+] Android Target (Dynamic) = ${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}"
+  echo -e "[+] Target Triplet (Dynamic) = ${TOOLPACKS_ANDROID_BUILD_DYNAMIC}"
+  echo -e "[+] Android Target (Static) = ${TOOLPACKS_ANDROID_APILEVEL_STATIC_X}"
+  echo -e "[+] Target Triplet (Static) = ${TOOLPACKS_ANDROID_BUILD_STATIC}\n"
+##NDK
+ #Host
+  sudo curl -qfsSL "https://raw.githubusercontent.com/leleliu008/ndk-pkg/master/ndk-pkg" -o "/usr/local/bin/ndk-pkg" && sudo chmod +x "/usr/local/bin/ndk-pkg"
+  #Setup & Config
+   ndk-pkg upgrade-self ; ndk-pkg setup ; ndk-pkg update ; ndk-pkg sysinfo
+  #Install a pseudo pkg to initialize ndk
+   rm -rf "$SYSTMP/ndk.log" 2>/dev/null
+   ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/dos2unix" --profile="release" --jobs="$(($(nproc)+1))" | tee -a "$SYSTMP/ndk.log"
+   ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/dos2unix" ; ndk-pkg cleanup
+##ENV VARS
+  #NDK
+   TOOLPACKS_NDK_HOME="$(grep ^ANDROID_NDK_HOME= "$SYSTMP/ndk.log" | awk -F '=' '{print $2}' | tr -d "'" | tr -d '[:space:]')" && export TOOLPACKS_NDK_HOME="${TOOLPACKS_NDK_HOME}"
+   TOOLPACKS_NDK_ROOT="$(grep ^ANDROID_NDK_ROOT= "$SYSTMP/ndk.log" | awk -F '=' '{print $2}' | tr -d "'" | tr -d '[:space:]')" && export TOOLPACKS_NDK_ROOT="${TOOLPACKS_NDK_ROOT}"
+   TOOLPACKS_NDK_TOOLCHAIN_ROOT="$(grep ^ANDROID_NDK_TOOLCHAIN_ROOT= "$SYSTMP/ndk.log" | awk -F '=' '{print $2}' | tr -d "'" | tr -d '[:space:]')" && export TOOLPACKS_NDK_TOOLCHAIN_ROOT="${TOOLPACKS_NDK_TOOLCHAIN_ROOT}"
+  #Check
+   if [[ "${TOOLPACKS_NDK_HOME}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_ROOT}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_TOOLCHAIN_ROOT}" == *"android-ndk"* ]]; then
+     echo -e "\n[+] Setting up NDK ENV Variables\n"
+      ##Set ENVs
+       export ANDROID_HOME="${TOOLPACKS_NDK_HOME}"
+       export ANDROID_NDK_HOME="${TOOLPACKS_NDK_HOME}"
+       export ANDROID_NDK_ROOT="${TOOLPACKS_NDK_ROOT}"
+       export ANDROID_NDK_TOOLCHAIN_ROOT="${TOOLPACKS_NDK_TOOLCHAIN_ROOT}"
+       export ANDROID_NDK_TOOLCHAIN_BIN="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin"
+       export ANDROID_NDK_SYSROOT="${ANDROID_NDK_TOOLCHAIN_ROOT}/sysroot"
+       export ANDROID_NDK_CC="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/clang"
+       export ANDROID_NDK_CXX="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/clang++"
+       export ANDROID_NDK_CPP="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/clang -E"
+       export ANDROID_NDK_LD="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/ld.lld"
+       export ANDROID_NDK_AS="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-as"
+       export ANDROID_NDK_AR="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-ar"
+       export ANDROID_NDK_NM="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-nm"
+       export ANDROID_NDK_SIZE="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-size"
+       export ANDROID_NDK_STRIP="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-strip"
+       export ANDROID_NDK_RANLIB="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-ranlib"
+       export ANDROID_NDK_STRINGS="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-strings"
+       export ANDROID_NDK_OBJDUMP="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-objdump"
+       export ANDROID_NDK_OBJCOPY="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-objcopy"
+       export ANDROID_NDK_READELF="${ANDROID_NDK_TOOLCHAIN_ROOT}/bin/llvm-readelf"
+      ##Build ENVs
+       #export CC="$HOME/.ndk-pkg/core/wrapper-target-cc"
+       #export CXX="$HOME/.ndk-pkg/core/wrapper-target-c++"
+       #export CPP="$HOME/.ndk-pkg/core/wrapper-target-cc -E"
+       #export LD="${ANDROID_NDK_TOOLCHAIN_BIN}/ld.lld"
+       #export AS="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-as"
+       #export AR="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ar"
+       #export NM="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-nm"
+       #export SIZE="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-size"
+       #export STRIP="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-strip"
+       #export RANLIB="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ranlib"
+       #export STRINGS="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-strings"
+       #export OBJDUMP="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-objdump"
+       #export OBJCOPY="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-objcopy"
+       #export READELF="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-readelf"
+       #export SYSROOT="${ANDROID_NDK_SYSROOT}"
+      ##GO/RUST ENVs
+       sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/aarch64-linux-${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-clang" "/usr/local/bin/aarch64-linux-android-clang" 2>/dev/null
+       sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/clang" "/usr/local/bin/clang" 2>/dev/null
+       #llvm-ar
+       sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+       sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+       #llvm-ranlib
+       sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+       sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+      #print
+       env | grep -i "android" --color="never" ; echo
+   else
+       echo -e "\n[-] FATAL: Failed to set NDK ENVs\n"
+       cat "$SYSTMP/ndk.log"
+     exit 1
+   fi
 #-------------------------------------------------------#
-#Sanity Checks
-if [[ -n "$GITHUB_TOKEN" ]]; then
-   # 5000 req/minute (80 req/minute)
-   echo "GITHUB_TOKEN is Exported"
-   eget --rate
-else
-   # 60 req/hr
-   echo -e "\n[+] GITHUB_TOKEN is NOT Exported"
-   echo -e "Export it to avoid ratelimits\n"
-   eget --rate
-   exit 1
-fi
-#-------------------------------------------------------# 
 
 
 #-------------------------------------------------------#
@@ -273,7 +395,7 @@ fi
  TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_android_arm64_v8a" && export TMPDIRS="$TMPDIRS"
  rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
  #For Bins
- BINDIR="$SYSTMP/toolpack_arm64_v8a" && export BINDIR="$BINDIR"
+ BINDIR="$SYSTMP/toolpack_arm64_v8a_Android" && export BINDIR="$BINDIR"
  rm -rf "$BINDIR" 2>/dev/null ; rm -rf "$BINDIR.7z" 2>/dev/null ; mkdir -p "$BINDIR"
 ##Build
 set +x
@@ -467,7 +589,12 @@ set +x
 #-------------------------------------------------------#
 ##END
 unset GIT_ASKPASS GIT_TERMINAL_PROMPT
-#In case of zig polluted env 
-unset AR CC CXX DLLTOOL HOST_CC HOST_CXX OBJCOPY RANLIB
+unset TOOLPACKS_ANDROID_BUILDIR
+#In case of build polluted env
+unset AR AS CC CFLAGS CPP CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LD LDFLAGS LIBS NM OBJCOPY OBJDUMP RANLIB READELF SIZE STRINGS STRIP SYSROOT
+#In case of go polluted env
+unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
+#PKG Config
+unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
 #EOF
 #-------------------------------------------------------#
