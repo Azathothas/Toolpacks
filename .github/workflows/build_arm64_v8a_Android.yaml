@@ -1,4 +1,4 @@
-name: 🛍️ Build 📦 (arm64_v8a_Android) Binaries 📦🗄️
+name: 🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️
 # Build arm64-v8a Android Binaries on GH action runners
 # Main Build Script: https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/arm64_v8a_Android/build_debian.sh
 # Process :: init_debian.sh --> add_toolpacks.sh --> upload to https://bin.ajam.dev/arm64_v8a_Android/
@@ -158,7 +158,7 @@ jobs:
           ##Talscale + Tmux + gotty
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/setup_tailscale.sh" -o "$SYSTMP/setup_tailscale.sh" && dos2unix --quiet "$SYSTMP/setup_tailscale.sh"
           source "$SYSTMP/setup_tailscale.sh"
-          tmux new-session -s "toolpacks" -d 'bash "/tmp/BUILD.sh" | tee -a "/tmp/BUILD.log" ; tmux kill-session -t "toolpacks" 2>/dev/null ; exit'
+          tmux new-session -s "toolpacks" -d 'bash "/tmp/BUILD.sh" 2>&1 | tee -a "/tmp/BUILD.log" ; tmux kill-session -t "toolpacks" 2>/dev/null ; exit'
           #nohup gotty --address "$TS_IP" --port "7070" --reconnect --reconnect-time 30 tmux attach-session -t "toolpacks" -r >/dev/null 2>&1 &
           nohup gotty --address "127.0.0.1" --port "7070" --reconnect --reconnect-time 30 tmux attach-session -t "toolpacks" -r >/dev/null 2>&1 &
           nohup gotty --address "127.0.0.1" --port "7777" --reconnect --reconnect-time 30 btop --tty_on --utf-force >/dev/null 2>&1 &
