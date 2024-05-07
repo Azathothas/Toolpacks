@@ -1,5 +1,5 @@
 ```mathematica
-362M └─┬ toolpack_arm64_v8a
+371M └─┬ toolpack_arm64_v8a_Android
  40M   ├── httpx
  25M   ├── gowitness
  25M   ├── qbittorrent-nox
@@ -19,18 +19,23 @@
 6.5M   ├── eget
 6.5M   ├── static-web-server
 5.9M   ├── hxn
+5.4M   ├── wget
 4.9M   ├── curl
 4.6M   ├── crt
 4.5M   ├── certstream
-3.5M   ├── pspy
+3.6M   ├── pspy
 3.2M   ├── hysp
 3.1M   ├── btm
 2.8M   ├── kanha
 2.5M   ├── encode
 1.8M   ├── inscope
 1.7M   ├── jless
+1.7M   ├── bash
 1.5M   ├── scopegen
 1.4M   ├── anew
 1.3M   ├── miniserve
-248K   └── sudo
+916K   ├── anew-rs
+248K   ├── sudo
+228K   ├── wget_cacert.pem
+228K   └── curl_cacert.pem
 ```

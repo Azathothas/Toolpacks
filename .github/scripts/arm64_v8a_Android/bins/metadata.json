@@ -1,8 +1,35 @@
 [
   {
+    "Name": "anew-rs.sh",
+    "Size": "5054 B",
+    "ModTime": "2024-05-07T07:41:23.383683974Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "aria2.sh",
+    "Size": "3170 B",
+    "ModTime": "2024-05-07T07:41:23.383683974Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/aria2.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "bash.sh",
+    "Size": "3159 B",
+    "ModTime": "2024-05-07T07:41:23.383683974Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "curl.sh",
-    "Size": "3021 B",
-    "ModTime": "2024-05-06T08:40:19.826260432Z",
+    "Size": "3931 B",
+    "ModTime": "2024-05-07T07:41:23.383683974Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -11,8 +38,26 @@
   {
     "Name": "metadata.json",
     "Size": "556 B",
-    "ModTime": "2024-05-07T00:02:40.042936033Z",
+    "ModTime": "2024-05-07T14:01:30.465769636Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pspy.sh",
+    "Size": "4872 B",
+    "ModTime": "2024-05-07T07:41:23.383683974Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pspy.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "wget.sh",
+    "Size": "3501 B",
+    "ModTime": "2024-05-07T07:41:23.383683974Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
