@@ -1,17 +1,26 @@
 [
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "2577 B",
-    "ModTime": "2024-05-06T08:23:28.568465869Z",
+    "Size": "2967 B",
+    "ModTime": "2024-05-07T08:44:04.504022547Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
   },
   {
+    "Name": "BUILD.log.txt",
+    "Size": "23.33 MB",
+    "ModTime": "2024-05-07T08:45:27.480443438Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/BUILD.log.txt",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "FILE.txt",
-    "Size": "5429 B",
-    "ModTime": "2024-05-06T07:49:43.114335759Z",
+    "Size": "5951 B",
+    "ModTime": "2024-05-07T08:07:29.202247083Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/FILE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -20,7 +29,7 @@
   {
     "Name": "METADATA.json",
     "Size": "9650 B",
-    "ModTime": "2024-05-07T00:23:19.889248287Z",
+    "ModTime": "2024-05-07T07:18:24.064384564Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -28,8 +37,8 @@
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "2577 B",
-    "ModTime": "2024-05-06T08:23:32.184511500Z",
+    "Size": "2967 B",
+    "ModTime": "2024-05-07T08:44:07.368031548Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +46,8 @@
   },
   {
     "Name": "SIZE.txt",
-    "Size": "928 B",
-    "ModTime": "2024-05-06T08:23:23.880405915Z",
+    "Size": "1071 B",
+    "ModTime": "2024-05-07T08:07:31.718250566Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/SIZE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -46,8 +55,8 @@
   },
   {
     "Name": "_toolpack_arm64_v8a.7z",
-    "Size": "62.53 MB",
-    "ModTime": "2024-05-06T08:24:23.525213449Z",
+    "Size": "65.44 MB",
+    "ModTime": "2024-05-07T08:45:01.972330899Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a.7z",
     "B3SUM": null,
     "SHA256": null,
@@ -55,8 +64,8 @@
   },
   {
     "Name": "_toolpack_arm64_v8a_BLAKE3SUM.txt",
-    "Size": "90 B",
-    "ModTime": "2024-05-06T08:24:42.185433000Z",
+    "Size": "71 B",
+    "ModTime": "2024-05-07T08:09:01.438407272Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a_BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -64,8 +73,8 @@
   },
   {
     "Name": "_toolpack_arm64_v8a_SHA256SUM.txt",
-    "Size": "90 B",
-    "ModTime": "2024-05-06T08:24:44.573459761Z",
+    "Size": "62 B",
+    "ModTime": "2024-05-07T08:09:04.174411580Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a_SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -79,6 +88,24 @@
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
+  },
+  {
+    "Name": "anew-rs",
+    "Size": "933.99 kB",
+    "ModTime": "2024-05-07T07:48:59.232403376Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/anew-rs",
+    "B3SUM": "581c321ea937408324a48ea1912294f2fc0a72994374939dfbb58d20ffed2a05",
+    "SHA256": "46547aade4e6cc6d2c29378ea8160a0e158fef17350842ce4c1361666d026dcb",
+    "Repo": "https://github.com/zer0yu/anew"
+  },
+  {
+    "Name": "bash",
+    "Size": "1.78 MB",
+    "ModTime": "2024-05-07T08:36:53.004800318Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/bash",
+    "B3SUM": "6b6c55a8b60b19281d2eef213cc8893e7e5149f466acf92dead3112d13edf2cd",
+    "SHA256": "aadbaaa1abfe82cc5d7e4978312b744d996df7064c258b097eb2e6788f16d399",
+    "Repo": "https://www.bash.ws/"
   },
   {
     "Name": "btm",
@@ -119,10 +146,19 @@
   {
     "Name": "curl",
     "Size": "5.14 MB",
-    "ModTime": "2024-05-06T08:23:16.728286922Z",
+    "ModTime": "2024-05-07T08:39:53.038465728Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/curl",
-    "B3SUM": "0f9654fcbf92a82352917ff98440eab5b39ee39c36fa1ddb1d770a0daa013b0b",
-    "SHA256": "6f9d2ea2b27f0a9af031487fadf12a44d2a3909948e5ee892d23841ec6278391",
+    "B3SUM": "fab623368b27c95caec791d57b5c9ff9bb8edd4c4f9b9f79075f3f072a1d5df7",
+    "SHA256": "83d50e596bac13aec394c1f2e474d2f57c3fc8d7dcf8b6474d9c5589cca59914",
+    "Repo": "https://github.com/curl/curl"
+  },
+  {
+    "Name": "curl_cacert.pem",
+    "Size": "229.65 kB",
+    "ModTime": "2024-05-07T08:03:10.181869219Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/curl_cacert.pem",
+    "B3SUM": "b58055305c0fb5874b11a4e49ba49356674d8ce927aaea6ffa2632d7f4a53653",
+    "SHA256": "1794c1d4f7055b7d02c2170337b61b48a2ef6c90d77e95444fd2596f4cac609f",
     "Repo": "https://github.com/curl/curl"
   },
   {
@@ -271,12 +307,12 @@
   },
   {
     "Name": "pspy",
-    "Size": "3.65 MB",
-    "ModTime": "2024-02-02T04:20:30.440177600Z",
+    "Size": "3.76 MB",
+    "ModTime": "2024-05-07T08:03:49.173914943Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/pspy",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "c621f5acfc2a159c0a2ebe36f8f6ba753f1f786158097575d9655a9cf1164a56",
+    "SHA256": "d2cf1368d0fa9d15bf13417e9318779202dc34e6fd296db3ccfc7d215378ca0e",
+    "Repo": "https://github.com/DominicBreuker/pspy"
   },
   {
     "Name": "qbittorrent-nox",
@@ -367,5 +403,23 @@
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
+  },
+  {
+    "Name": "wget",
+    "Size": "5.66 MB",
+    "ModTime": "2024-05-07T08:43:25.155820116Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/wget",
+    "B3SUM": "7d0ed684e7bcdd9824641c36301baa57e64f94716112cdf9f79bf049b5f90d21",
+    "SHA256": "24a09d392f7b1541441313bb50ebd1353c5404f5cd8ed1a0096a600488a6a005",
+    "Repo": "https://www.gnu.org/software/wget/"
+  },
+  {
+    "Name": "wget_cacert.pem",
+    "Size": "229.65 kB",
+    "ModTime": "2024-05-07T08:06:47.594176615Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/wget_cacert.pem",
+    "B3SUM": "b58055305c0fb5874b11a4e49ba49356674d8ce927aaea6ffa2632d7f4a53653",
+    "SHA256": "1794c1d4f7055b7d02c2170337b61b48a2ef6c90d77e95444fd2596f4cac609f",
+    "Repo": "https://www.gnu.org/software/wget/"
   }
 ]
