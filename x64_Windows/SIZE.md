@@ -1,7 +1,7 @@
 ```mathematica
  1.2G └─┬ .
  151M   ├── pandoc.exe
- 134M   ├── ffmpeg.exe
+ 133M   ├── ffmpeg.exe
  133M   ├── ffprobe.exe
  133M   ├── ffplay.exe
   63M   ├── alist.exe
@@ -90,10 +90,10 @@
  1.1M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── b3sum.exe
-1016K   ├── seq.exe
+1015K   ├── seq.exe
+1005K   ├── cksum.exe
 1000K   ├── env.exe
  995K   ├── dd.exe
- 988K   ├── cksum.exe
  980K   ├── od.exe
  965K   ├── more.exe
  962K   ├── jq.exe
@@ -111,12 +111,12 @@
  890K   ├── shuf.exe
  889K   ├── cut.exe
  888K   ├── rm.exe
- 888K   ├── fmt.exe
- 886K   ├── uniq.exe
+ 885K   ├── uniq.exe
+ 882K   ├── fmt.exe
  881K   ├── tr.exe
  880K   ├── dircolors.exe
  878K   ├── head.exe
- 877K   ├── shred.exe
+ 876K   ├── shred.exe
  863K   ├── xargs.exe
  863K   ├── xargs-rs.exe
  863K   ├── realpath.exe
@@ -133,7 +133,7 @@
  826K   ├── test.exe
  824K   ├── truncate.exe
  824K   ├── hostname.exe
- 822K   ├── comm.exe
+ 823K   ├── comm.exe
  820K   ├── basename.exe
  820K   ├── mkdir.exe
  819K   ├── sleep.exe
@@ -150,8 +150,8 @@
  791K   ├── whoami.exe
  788K   ├── yes.exe
  785K   ├── printenv.exe
- 769K   ├── anew.exe
- 769K   ├── anew-rs.exe
+ 768K   ├── anew.exe
+ 768K   ├── anew-rs.exe
  741K   ├── true.exe
  740K   ├── false.exe
  650K   ├── busybox-unicode.exe
