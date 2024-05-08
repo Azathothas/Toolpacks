@@ -86,28 +86,28 @@
     if [ "$CONTINUE" == "YES" ]; then
        if [ "$USER" = "runner" ] || [ "$(whoami)" = "runner" ] && [ -s "/opt/runner/provisioner" ]; then
           ##Debloat
-           #bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
-           #bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh") 2>/dev/null
-           echo -e "\n[+] Debloating GH Runner...\n"
-             #This is not needed even though this is the ndk, we (re)install via ndk-pkg
-             #12.0 GB
-             sudo rm "/usr/local/lib/android" -rf 2>/dev/null &
-             #8.2 GB
-             sudo rm "/opt/hostedtoolcache/CodeQL" -rf 2>/dev/null &
-             #5.0 GB
-             sudo rm "/usr/local/.ghcup" -rf 2>/dev/null &
-             #2.0 GB
-             sudo rm "/usr/share/dotnet" -rf 2>/dev/null &
-             #1.7 GB
-             sudo rm "/usr/share/swift" -rf 2>/dev/null &
-             #1.1 GB
-             #sudo rm "/usr/local/lib/node_modules" -rf 2>/dev/null &
-             #1.0 GB
-             sudo rm "/usr/local/share/powershell" -rf 2>/dev/null &
-             #500 MB
-             sudo rm "/usr/local/lib/heroku" -rf 2>/dev/null &
-           #wait
-           wait ; reset ; echo
+           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh") 2>/dev/null
+           #echo -e "\n[+] Debloating GH Runner...\n"
+           #  #This is not needed even though this is the ndk, we (re)install via ndk-pkg
+           #  #12.0 GB
+           #  sudo rm "/usr/local/lib/android" -rf 2>/dev/null &
+           #  #8.2 GB
+           #  sudo rm "/opt/hostedtoolcache/CodeQL" -rf 2>/dev/null &
+           #  #5.0 GB
+           #  sudo rm "/usr/local/.ghcup" -rf 2>/dev/null &
+           #  #2.0 GB
+           #  sudo rm "/usr/share/dotnet" -rf 2>/dev/null &
+           #  #1.7 GB
+           #  sudo rm "/usr/share/swift" -rf 2>/dev/null &
+           #  #1.1 GB
+           #  #sudo rm "/usr/local/lib/node_modules" -rf 2>/dev/null &
+           #  #1.0 GB
+           #  sudo rm "/usr/local/share/powershell" -rf 2>/dev/null &
+           #  #500 MB
+           #  sudo rm "/usr/local/lib/heroku" -rf 2>/dev/null &
+           ##wait
+           #wait ; reset ; echo
           #-------------------------------------------------------#
        fi
     fi
