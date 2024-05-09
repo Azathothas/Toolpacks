@@ -53,7 +53,7 @@ RUN <<EOS
  #Add runner to docker 
   usermod -aG docker runner
  #Passwordless sudo for runner 
-  echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" > "/etc/sudoers"
+  echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> "/etc/sudoers"
  #Remove preconfigured admin user
   userdel -r admin
 EOS
