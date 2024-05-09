@@ -36,6 +36,10 @@
  EGET_EXCLUDE="--asset \"^386\" --asset \"^aarch64\" --asset \"^apple\" --asset \"^arm\" --asset \"^AppImage\" --asset \"^asc\" --asset \"^crt\" --asset \"^darwin\" --asset \"^deb\" --asset \"^exe\" --asset \"^freebsd\" --asset \"^i686\" --asset \"^mac\" --asset \"^mips\" --asset \"^rpm\" --asset \"^pem\" --asset \"^sbom\" --asset \"^sha\" --asset \"^solaris\" --asset \"^sig\" --asset \"^symbol\" --asset \"^windows\"" && export EGET_EXCLUDE="$EGET_EXCLUDE"
 #User-Agent
  USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+#rClone [High Bandwidth Throughput]
+# --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+#rClone [Low Bandwidth Throughput]
+# --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
@@ -139,10 +143,10 @@ set +x
  if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload [$BINDIR]
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      cd "$BINDIR" && rclone copy "." "r2:/bin/x86_64_Linux/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      cd "$BINDIR" && rclone copy "." "r2:/bin/x86_64_Linux/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
     #Upload [$BASEUTILSDIR]
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      cd "$BASEUTILSDIR" && rclone copy "." "r2:/bin/x86_64_Linux/Baseutils/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
+      cd "$BASEUTILSDIR" && rclone copy "." "r2:/bin/x86_64_Linux/Baseutils/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
     ##Archive Binaries (.7z) (x86_64_Linux) Bins [Downstreamed RCLONE]
        if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
             echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
@@ -150,7 +154,7 @@ set +x
              rm -rf "$SYSTMP/toolpacks" 2>/dev/null
           ##Fetch&Sync [$BINDIR]
              cd "$BINDIR"
-             rclone copy "r2:/bin/x86_64_Linux/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+             rclone copy "r2:/bin/x86_64_Linux/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #Strip || Cleanup
               #Chmod +xwr
               find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
@@ -160,23 +164,23 @@ set +x
               find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
              #File 
                cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_FILE"
-               rclone copyto "$SYSTMP/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #Size (Dust)
                dust -b -c -i -r -n 99999999 "$BINDIR" | tee "$SYSTMP/x86_64_Linux_SIZE.txt"
-               rclone copyto "$SYSTMP/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #BLAKE3SUM
                cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_BLAKE3SUM"
-               rclone copyto "$SYSTMP/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #SHA256SUM
                cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_SHA256SUM"
-               rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
            #Meta
              du -sh "$BINDIR.7z" && file "$BINDIR.7z"
           ##Fetch&Sync [$BASEUTILSDIR]
              cd "$BASEUTILSDIR"
-             rclone copy "r2:/bin/x86_64_Linux/Baseutils/" "." --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+             rclone copy "r2:/bin/x86_64_Linux/Baseutils/" "." --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #Strip || Cleanup
               #Chmod +xwr
               find "$BASEUTILSDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
@@ -186,16 +190,16 @@ set +x
               find "$BASEUTILSDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
              #File 
                cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_Baseutils_FILE"
-               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_FILE" "r2:/bin/x86_64_Linux/Baseutils/FILE.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_FILE" "r2:/bin/x86_64_Linux/Baseutils/FILE.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #Size (Dust)
                dust -b -c -i -r -n 99999999 "$BASEUTILSDIR" | tee "$SYSTMP/x86_64_Linux_Baseutils_SIZE.txt"
-               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_SIZE.txt" "r2:/bin/x86_64_Linux/Baseutils/SIZE.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_SIZE.txt" "r2:/bin/x86_64_Linux/Baseutils/SIZE.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #BLAKE3SUM
                cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_Baseutils_BLAKE3SUM"
-               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_BLAKE3SUM" "r2:/bin/x86_64_Linux/Baseutils/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_BLAKE3SUM" "r2:/bin/x86_64_Linux/Baseutils/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #SHA256SUM
                cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/x86_64_Linux_Baseutils_SHA256SUM"
-               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_SHA256SUM" "r2:/bin/x86_64_Linux/Baseutils/SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copyto "$SYSTMP/x86_64_Linux_Baseutils_SHA256SUM" "r2:/bin/x86_64_Linux/Baseutils/SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR.7z" "$BASEUTILSDIR" 2>/dev/null
            #Meta
@@ -222,23 +226,23 @@ set +x
  #rClone Upload Toolpacks to R2 (bin.ajam.dev/x86_64_Linux/_toolpack_x86_64.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      rclone copyto "$BINDIR.7z" "r2:/bin/x86_64_Linux/_toolpack_x86_64.7z" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      rclone copyto "$BINDIR.7z" "r2:/bin/x86_64_Linux/_toolpack_x86_64.7z" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_x86_64_BLAKE3SUM"
-      rclone copyto "$SYSTMP/_toolpack_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      rclone copyto "$SYSTMP/_toolpack_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_x86_64_SHA256SUM"
-      rclone copyto "$SYSTMP/_toolpack_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      rclone copyto "$SYSTMP/_toolpack_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
  #rClone Upload Toolpacks to R2 (bin.ajam.dev/x86_64_Linux/_baseutils_x86_64.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      rclone copyto "$BASEUTILSDIR.7z" "r2:/bin/x86_64_Linux/Baseutils/_baseutils_x86_64.7z" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      rclone copyto "$BASEUTILSDIR.7z" "r2:/bin/x86_64_Linux/Baseutils/_baseutils_x86_64.7z" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_x86_64_BLAKE3SUM"
-      rclone copyto "$SYSTMP/_baseutils_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/Baseutils/_baseutils_x86_64_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      rclone copyto "$SYSTMP/_baseutils_x86_64_BLAKE3SUM" "r2:/bin/x86_64_Linux/Baseutils/_baseutils_x86_64_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
       cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_x86_64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_x86_64_SHA256SUM"
-      rclone copyto "$SYSTMP/_baseutils_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/Baseutils/_baseutils_x86_64_SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
+      rclone copyto "$SYSTMP/_baseutils_x86_64_SHA256SUM" "r2:/bin/x86_64_Linux/Baseutils/_baseutils_x86_64_SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
  fi
 #-------------------------------------------------------#
 #META
