@@ -199,8 +199,8 @@
   },
   {
     "Name": "archey.sh",
-    "Size": "2910 B",
-    "ModTime": "2024-03-29T18:32:13.677873529Z",
+    "Size": "2986 B",
+    "ModTime": "2024-05-11T14:01:20.242148421Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/archey.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -3260,7 +3260,7 @@
   {
     "Name": "metadata.json",
     "Size": "184.1 kB",
-    "ModTime": "2024-05-11T00:09:48.920844924Z",
+    "ModTime": "2024-05-11T07:09:05.289336119Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
