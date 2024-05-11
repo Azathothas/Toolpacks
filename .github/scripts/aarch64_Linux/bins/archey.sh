@@ -37,7 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       # Staticx results in a coredumped exe
       # #Pyinstaller
        pyinstaller --clean "./archey/__main__.py" --noconfirm ; rm -rf "$BINDIR/archey"
-       pyinstaller --strip --onefile --hidden-import "archey.logos" --collect-submodules="archey" --distpath "./dist" --specpath "./dist" --name archey "./archey/__main__.py" --noconfirm
+       pyinstaller --strip --onefile --hidden-import "archey.logos" --hidden-import "archey.logos.ubuntu" --hidden-import "archey.logos.debian" --collect-submodules="archey" --distpath "./dist" --specpath "./dist" --name archey "./archey/__main__.py" --noconfirm
        #meta
        file "./dist/archey" && du -sh "./dist/archey"
       #StaticX
