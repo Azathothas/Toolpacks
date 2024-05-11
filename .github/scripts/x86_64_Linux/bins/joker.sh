@@ -21,12 +21,12 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #darkhttpd : Standalone, Minimal HTTP Server
-     export BIN="darkhttpd" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/emikulic/darkhttpd" #github/gitlab/homepage/etc for $BIN
+    #joker : turn process into daemon. Zero-Configuration 
+     export BIN="joker" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/txthinking/joker" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/emikulic/darkhttpd" && cd "./darkhttpd"
+       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/txthinking/joker" && cd "./joker"
        export ZIG_LIBC_TARGET="x86_64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -39,9 +39,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export CXXFLAGS="${CFLAGS}"
        export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
        #If no zig
-       make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going all
-       strip "./darkhttpd" ; file "./darkhttpd" && du -sh "./darkhttpd"
-       cp "./darkhttpd" "$BINDIR/darkhttpd" ; popd > /dev/null 2>&1
+       make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
+       strip "./joker" ; file "./joker" && du -sh "./joker"
+       cp "./joker" "$BINDIR/joker" ; popd > /dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
