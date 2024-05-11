@@ -2,7 +2,7 @@
   {
     "Name": "BLAKE3SUM.txt",
     "Size": "2967 B",
-    "ModTime": "2024-05-07T22:58:00.488486894Z",
+    "ModTime": "2024-05-10T22:56:24.550066500Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -11,7 +11,7 @@
   {
     "Name": "BUILD.log.txt",
     "Size": "23.34 MB",
-    "ModTime": "2024-05-07T22:59:30.348756159Z",
+    "ModTime": "2024-05-10T22:57:47.818815045Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/BUILD.log.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -29,7 +29,7 @@
   {
     "Name": "METADATA.json",
     "Size": "11.95 kB",
-    "ModTime": "2024-05-10T14:17:14.438996167Z",
+    "ModTime": "2024-05-10T21:21:54.314689891Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -38,7 +38,7 @@
   {
     "Name": "SHA256SUM.txt",
     "Size": "2967 B",
-    "ModTime": "2024-05-07T22:58:04.528499616Z",
+    "ModTime": "2024-05-10T22:56:27.954097388Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -56,7 +56,7 @@
   {
     "Name": "_toolpack_arm64_v8a.7z",
     "Size": "65.46 MB",
-    "ModTime": "2024-05-07T22:59:00.796687592Z",
+    "ModTime": "2024-05-10T22:57:22.178587556Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a.7z",
     "B3SUM": null,
     "SHA256": null,
@@ -101,10 +101,10 @@
   {
     "Name": "bash",
     "Size": "1.78 MB",
-    "ModTime": "2024-05-07T22:50:45.486189940Z",
+    "ModTime": "2024-05-10T22:49:13.870217605Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/bash",
-    "B3SUM": "940b2e9e14fe7c20b0b726cf504f4651ba6a2684ce15785e89dde9f815472454",
-    "SHA256": "bbae2a69e3c698212f4f9b00750014392e6ac0ca1025bbc0685f394b428d54e0",
+    "B3SUM": "39bdf0054e8356ee9ceac1b1d4fa19d6c80985557a51de8a4d8109917666af05",
+    "SHA256": "8c71813951564035ccbae9c2ebfdf4ac6a54f837669aa6b13e1249278fda3f9a",
     "Repo": "https://www.bash.ws/"
   },
   {
@@ -146,10 +146,10 @@
   {
     "Name": "curl",
     "Size": "5.14 MB",
-    "ModTime": "2024-05-07T22:53:44.715394863Z",
+    "ModTime": "2024-05-10T22:52:13.119783205Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/curl",
-    "B3SUM": "e1099f3c2225ef6d591338cc84ad3c631e576f9f1c29ece823311ac830ee9b2f",
-    "SHA256": "88a4bc5ff22dc7da5191e937076fe0a31eaf8b12c6c17c3afce1ee9505c271aa",
+    "B3SUM": "73d6ed9a5db9cefe18fd5c7027cae39e385cd9d8161351301b85327f25e75fb2",
+    "SHA256": "d6995983718bddf6cabb7f149fe9ac280fb964a1f754c51f4b7d0c7d61bbc278",
     "Repo": "https://github.com/curl/curl"
   },
   {
@@ -407,10 +407,10 @@
   {
     "Name": "wget",
     "Size": "5.66 MB",
-    "ModTime": "2024-05-07T22:57:18.440331698Z",
+    "ModTime": "2024-05-10T22:55:42.833688907Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/wget",
-    "B3SUM": "82d25f1a213f935b87863dd8b160189d3b755f078557ba35fe17568ae213c204",
-    "SHA256": "b75a9bce64ffb5613e0a80ab6c666906715348c0e92637a46ec2126302641c3e",
+    "B3SUM": "ef8b0489d1a00b1698811a8b77c69f6ef63fac04b54b3f9c88ad5df16107ab38",
+    "SHA256": "363c13c3e0dd9b2cc5eb88782590d5ac0bd75b3854c1384471fda2d2d95e38d1",
     "Repo": "https://www.gnu.org/software/wget/"
   },
   {
