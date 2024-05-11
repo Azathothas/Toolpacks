@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "328.06 kB",
-    "ModTime": "2024-05-11T00:34:40.318028413Z",
+    "ModTime": "2024-05-11T07:32:25.718531542Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -308,7 +308,7 @@
   {
     "Name": "archey",
     "Size": "8.16 MB",
-    "ModTime": "2024-04-20T03:17:37.743890386Z",
+    "ModTime": "2024-05-11T08:06:49.448331700Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/archey",
     "B3SUM": "53572bdb86aa02ede3fbc756983854c02e409805e03c5e89dcc770711b23b619",
     "SHA256": "96fd2d71e325296276890681cdba0830a0a0af2dc4b4d18aeb1528546a88a337",
