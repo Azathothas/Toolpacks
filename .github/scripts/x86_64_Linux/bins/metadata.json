@@ -198,6 +198,15 @@
     "Repo": null
   },
   {
+    "Name": "aptly.sh",
+    "Size": "2813 B",
+    "ModTime": "2024-05-11T21:02:36.171096700Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/aptly.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "archey.sh",
     "Size": "2986 B",
     "ModTime": "2024-05-11T14:01:20.274148662Z",
@@ -522,6 +531,15 @@
     "Repo": null
   },
   {
+    "Name": "brook.sh",
+    "Size": "1631 B",
+    "ModTime": "2024-05-11T21:02:36.171096700Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/brook.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "broot.sh",
     "Size": "2438 B",
     "ModTime": "2024-03-29T18:32:13.701873528Z",
@@ -760,6 +778,15 @@
     "Size": "2241 B",
     "ModTime": "2024-03-29T18:32:13.701873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/clipcat.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "cloak.sh",
+    "Size": "1833 B",
+    "ModTime": "2024-05-11T21:02:36.191096821Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloak.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -1108,8 +1135,8 @@
   },
   {
     "Name": "darkhttpd.sh",
-    "Size": "2695 B",
-    "ModTime": "2024-03-29T18:32:13.701873528Z",
+    "Size": "2534 B",
+    "ModTime": "2024-05-11T21:02:36.171096700Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/darkhttpd.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -1138,6 +1165,15 @@
     "Size": "3270 B",
     "ModTime": "2024-03-29T18:32:13.701873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/daytona.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dbbench.sh",
+    "Size": "1674 B",
+    "ModTime": "2024-05-11T21:02:36.191096821Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dbbench.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -1246,6 +1282,15 @@
     "Size": "2001 B",
     "ModTime": "2024-04-30T07:01:29.706920537Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dnsperf.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dnspyre.sh",
+    "Size": "2805 B",
+    "ModTime": "2024-05-11T21:02:36.191096821Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dnspyre.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -1471,6 +1516,15 @@
     "Size": "1877 B",
     "ModTime": "2024-03-29T18:32:13.705873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/encode.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "encrypted-dns-server.sh",
+    "Size": "3487 B",
+    "ModTime": "2024-05-11T21:02:36.187096796Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/encrypted-dns-server.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -2079,6 +2133,15 @@
     "Repo": null
   },
   {
+    "Name": "go-audit.sh",
+    "Size": "2794 B",
+    "ModTime": "2024-05-11T21:02:36.199096868Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-audit.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "go-fasttld.sh",
     "Size": "1932 B",
     "ModTime": "2024-03-29T18:32:13.705873528Z",
@@ -2137,6 +2200,15 @@
     "Size": "3648 B",
     "ModTime": "2024-04-03T07:02:28.847136918Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gobusybox.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "gocryptfs.sh",
+    "Size": "3357 B",
+    "ModTime": "2024-05-11T21:02:36.183096772Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gocryptfs.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -2610,6 +2682,15 @@
     "Repo": null
   },
   {
+    "Name": "hwatch.sh",
+    "Size": "3416 B",
+    "ModTime": "2024-05-11T21:02:36.175096725Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hwatch.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "hyperfine.sh",
     "Size": "1644 B",
     "ModTime": "2024-03-29T18:32:13.709873528Z",
@@ -2776,6 +2857,24 @@
     "Size": "2413 B",
     "ModTime": "2024-03-29T18:32:13.709873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jnv.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "job-security.sh",
+    "Size": "3323 B",
+    "ModTime": "2024-05-11T21:02:36.183096772Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/job-security.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "joker.sh",
+    "Size": "2506 B",
+    "ModTime": "2024-05-11T21:02:36.175096725Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/joker.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -3287,7 +3386,7 @@
   {
     "Name": "metadata.json",
     "Size": "185.59 kB",
-    "ModTime": "2024-05-11T07:05:05.540089428Z",
+    "ModTime": "2024-05-11T14:04:15.295312951Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3910,6 +4009,15 @@
     "Size": "3333 B",
     "ModTime": "2024-04-15T14:02:30.930076573Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pingmole.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pingtunnel.sh",
+    "Size": "1668 B",
+    "ModTime": "2024-05-11T21:02:36.179096748Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pingtunnel.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -4680,6 +4788,15 @@
     "Repo": null
   },
   {
+    "Name": "shell2http.sh",
+    "Size": "1654 B",
+    "ModTime": "2024-05-11T21:02:36.183096772Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/shell2http.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "shellharden.sh",
     "Size": "2477 B",
     "ModTime": "2024-03-29T18:32:13.717873528Z",
@@ -4792,6 +4909,24 @@
     "Size": "1881 B",
     "ModTime": "2024-03-29T18:32:13.717873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/smap.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "smartdns-rs.sh",
+    "Size": "1804 B",
+    "ModTime": "2024-05-11T21:02:36.195096844Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/smartdns-rs.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "smartdns.sh",
+    "Size": "1754 B",
+    "ModTime": "2024-05-11T21:02:36.175096725Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/smartdns.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -5026,6 +5161,15 @@
     "Size": "1977 B",
     "ModTime": "2024-03-29T18:32:13.717873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/stuffbin.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "stunner.sh",
+    "Size": "1672 B",
+    "ModTime": "2024-05-11T21:02:36.195096844Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/stunner.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -5377,6 +5521,15 @@
     "Size": "1695 B",
     "ModTime": "2024-04-06T14:01:33.235223250Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/toybox.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "tracexec.sh",
+    "Size": "3368 B",
+    "ModTime": "2024-05-11T21:02:36.195096844Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tracexec.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -6124,6 +6277,15 @@
     "Size": "1877 B",
     "ModTime": "2024-03-29T18:32:13.721873528Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zgrab2.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "zigup.sh",
+    "Size": "1637 B",
+    "ModTime": "2024-05-11T21:02:36.179096748Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zigup.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null

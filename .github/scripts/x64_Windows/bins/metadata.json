@@ -81,6 +81,15 @@
     "Repo": null
   },
   {
+    "Name": "brook.ps1",
+    "Size": "1889 B",
+    "ModTime": "2024-05-11T21:02:36.167096676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/brook.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "brutespray.ps1",
     "Size": "1894 B",
     "ModTime": "2024-04-05T14:01:37.282310985Z",
@@ -148,6 +157,24 @@
     "Size": "2574 B",
     "ModTime": "2024-04-27T14:01:19.828974139Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cutlines.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dbbench.ps1",
+    "Size": "1932 B",
+    "ModTime": "2024-05-11T21:02:36.167096676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dbbench.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ddns-go.ps1",
+    "Size": "1914 B",
+    "ModTime": "2024-05-11T21:02:36.167096676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ddns-go.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -335,7 +362,7 @@
   {
     "Name": "metadata.json",
     "Size": "15.28 kB",
-    "ModTime": "2024-05-11T07:09:38.117499716Z",
+    "ModTime": "2024-05-11T14:07:19.700466444Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -423,6 +450,15 @@
     "Repo": null
   },
   {
+    "Name": "pingtunnel.ps1",
+    "Size": "1918 B",
+    "ModTime": "2024-05-11T21:02:36.167096676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pingtunnel.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "quotes-escaper.ps1",
     "Size": "2578 B",
     "ModTime": "2024-04-03T07:02:28.823136897Z",
@@ -436,6 +472,15 @@
     "Size": "2240 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ripgrep.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "shell2http.ps1",
+    "Size": "1901 B",
+    "ModTime": "2024-05-11T21:02:36.167096676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/shell2http.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -459,10 +504,28 @@
     "Repo": null
   },
   {
+    "Name": "smartdns-rs.ps1",
+    "Size": "2066 B",
+    "ModTime": "2024-05-11T21:02:36.167096676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/smartdns-rs.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "step.ps1",
     "Size": "2335 B",
     "ModTime": "2024-04-05T14:01:37.282310985Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/step.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "stunner.ps1",
+    "Size": "1915 B",
+    "ModTime": "2024-05-11T21:02:36.167096676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/stunner.ps1",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
