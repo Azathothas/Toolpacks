@@ -33,7 +33,7 @@
  6.6M   ├── eget.exe
  6.0M   ├── batcat.exe
  6.0M   ├── bat.exe
- 5.3M   ├── actionlint.exe
+ 5.2M   ├── actionlint.exe
  5.1M   ├── rg.exe
  5.1M   ├── monolith.exe
  4.6M   ├── certstream.exe
