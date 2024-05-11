@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "328.06 kB",
-    "ModTime": "2024-05-11T07:32:25.718531542Z",
+    "ModTime": "2024-05-11T14:30:31.931745434Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -304,6 +304,15 @@
     "B3SUM": "cb2f55a4a6c42e3aee395665989f6f697b5a480c0db9bc42f35bd434d96b9a81",
     "SHA256": "7aedf5e23770080c80ff8a5efece2716aa23f446489b0eabd4ab88d2bd5d366d",
     "Repo": "https://github.com/EFForg/apkeep"
+  },
+  {
+    "Name": "aptly",
+    "Size": "29.96 MB",
+    "ModTime": "2024-05-11T18:00:27.906766100Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/aptly",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/aptly-dev/aptly"
   },
   {
     "Name": "archey",
@@ -1575,6 +1584,15 @@
     "Repo": "https://github.com/ameshkov/dnslookup"
   },
   {
+    "Name": "dnspyre",
+    "Size": "22.73 MB",
+    "ModTime": "2024-05-11T18:00:27.888210900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/dnspyre",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/Tantalor93/dnspyre"
+  },
+  {
     "Name": "dnstake",
     "Size": "5.18 MB",
     "ModTime": "2024-04-20T03:17:30.339796175Z",
@@ -1978,6 +1996,15 @@
     "B3SUM": "5d160c87fedc20abdf5e29fb7894ac1f97ff4ca7a553f90dc02f37cd0df45878",
     "SHA256": "0e07478723121958bf74f6389661186f5c77e3ac5e66900c5193f8d172ceb949",
     "Repo": "https://github.com/Brum3ns/encode"
+  },
+  {
+    "Name": "encrypted-dns",
+    "Size": "3.06 MB",
+    "ModTime": "2024-05-11T18:00:27.892490500Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/encrypted-dns",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/DNSCrypt/encrypted-dns-server"
   },
   {
     "Name": "enola",
@@ -3231,6 +3258,15 @@
     "Repo": "https://github.com/Orange-OpenSource/hurl"
   },
   {
+    "Name": "hwatch",
+    "Size": "3.61 MB",
+    "ModTime": "2024-05-11T18:00:27.866364700Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hwatch",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/blacknon/hwatch"
+  },
+  {
     "Name": "hx",
     "Size": "928.96 kB",
     "ModTime": "2024-04-10T03:27:51.970410571Z",
@@ -3463,6 +3499,24 @@
     "B3SUM": "1dc083ca3302dbb51d6725e9fd1df37ca358ee53ece95d8b2d968ffc1d35fbf5",
     "SHA256": "c9c9ff59424fe236f06107bdbfa785090d20fe99774b0ecff66a0c684d9c9dc8",
     "Repo": "https://github.com/ynqa/jnv"
+  },
+  {
+    "Name": "jobs",
+    "Size": "3.36 MB",
+    "ModTime": "2024-05-11T18:00:27.871140700Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/jobs",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/yshui/job-security"
+  },
+  {
+    "Name": "joker",
+    "Size": "56.95 kB",
+    "ModTime": "2024-05-11T18:00:32.013543900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/joker",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/txthinking/joker"
   },
   {
     "Name": "jq",
@@ -6991,6 +7045,15 @@
     "B3SUM": "5fb7773f9908fe30294c5e90e7804dda05ed29824da6d9a9faab75658b99c558",
     "SHA256": "c8037e70b5f900b15b33fc0f103dbb39e9d2dae90625a7acba0178e7a83cb6c5",
     "Repo": "https://github.com/iputils/iputils"
+  },
+  {
+    "Name": "tracexec",
+    "Size": "4.82 MB",
+    "ModTime": "2024-05-11T18:00:27.878243900Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/tracexec",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/kxxt/tracexec"
   },
   {
     "Name": "traefik",

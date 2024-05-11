@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "61.31 kB",
-    "ModTime": "2024-05-11T07:22:06.909000308Z",
+    "ModTime": "2024-05-11T14:22:06.851745209Z",
     "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -223,6 +223,15 @@
     "B3SUM": "7c203b53ece3381f84919efec47605bb7d008183a416ee99ec28b1ea935d9c17",
     "SHA256": "38c352b2d6056002591f8e023f1edd3102fd09e7ecbdf2663f6b9251458b75cc",
     "Repo": "https://github.com/xyproto/botsay"
+  },
+  {
+    "Name": "brook_windows_amd64.exe",
+    "Size": "20.63 MB",
+    "ModTime": "2024-05-11T18:00:15.387227700Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/brook_windows_amd64.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "brutespray.exe",
@@ -1222,6 +1231,15 @@
     "B3SUM": "ee914e236f27c8fc7dd3796ca04039aec05b2fada82c915110b5a92234f88482",
     "SHA256": "a807f52c3d3f51b0f527906cf869b2993169e66529d153c99182f4f761ee3cda",
     "Repo": "https://github.com/uutils/coreutils"
+  },
+  {
+    "Name": "smartdns.exe",
+    "Size": "9.36 MB",
+    "ModTime": "2024-05-11T18:00:17.222845600Z",
+    "Source": "https://bin.ajam.dev/x64_Windows/smartdns.exe",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "sort.exe",
