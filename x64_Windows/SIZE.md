@@ -1,5 +1,5 @@
 ```mathematica
- 1.2G └─┬ .
+ 1.3G └─┬ .
  151M   ├── pandoc.exe
  133M   ├── ffmpeg.exe
  133M   ├── ffprobe.exe
@@ -7,6 +7,7 @@
   63M   ├── alist.exe
   35M   ├── step.exe
   29M   ├── sing-box.exe
+  28M   ├── dbbench.exe
   28M   ├── ngrok.exe
   25M   ├── algernon.exe
   25M   ├── cloudflared.exe
@@ -14,6 +15,8 @@
   22M   ├── loclx.exe
   22M   ├── localxpose.exe
   21M   ├── legba.exe
+  19M   ├── brook_windows_amd64.exe
+  19M   ├── brook.exe
   19M   ├── sish.exe
   17M   ├── gix.exe
   14M   ├── pgrokd.exe
@@ -26,13 +29,19 @@
  9.7M   ├── pgrok.exe
  9.2M   ├── coreutils.exe
  9.2M   ├── coreutils-rs.exe
+ 9.0M   ├── ddns-go.exe
+ 8.9M   ├── smartdns.exe
+ 8.9M   ├── smartdns-rs.exe
  8.7M   ├── ein.exe
+ 8.6M   ├── pingtunnel.exe
  8.2M   ├── croc.exe
+ 7.1M   ├── stunner.exe
  7.1M   ├── curl.exe
  6.7M   ├── trurl.exe
  6.6M   ├── eget.exe
  6.0M   ├── batcat.exe
  6.0M   ├── bat.exe
+ 5.4M   ├── shell2http.exe
  5.2M   ├── actionlint.exe
  5.1M   ├── rg.exe
  5.1M   ├── monolith.exe
@@ -150,8 +159,8 @@
  791K   ├── whoami.exe
  788K   ├── yes.exe
  785K   ├── printenv.exe
- 768K   ├── anew.exe
- 768K   ├── anew-rs.exe
+ 769K   ├── anew.exe
+ 769K   ├── anew-rs.exe
  741K   ├── true.exe
  740K   ├── false.exe
  650K   ├── busybox-unicode.exe
