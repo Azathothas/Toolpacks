@@ -135,10 +135,11 @@ set +x
  find "$BASEUTILSDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
 #rClone Upload to R2 (bin.ajam.dev/x86_64_Linux) (x86_64_Linux) [Binaries]
- if [ -s "$HOME/.rclone.conf" ] && [ ! -e "$HOME/.config/rclone/rclone.conf" ]; then
+ if [ -s "$HOME/.rclone.conf" ] && [ ! -s "$HOME/.config/rclone/rclone.conf" ]; then
     echo -e "\n[+] Setting Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
      mkdir -p "$HOME/.config/rclone" && touch "$HOME/.config/rclone/rclone.conf"
      cat "$HOME/.rclone.conf" > "$HOME/.config/rclone/rclone.conf"
+     dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
  fi
  if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload [$BINDIR]
