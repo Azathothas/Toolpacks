@@ -95,7 +95,7 @@ set +x
       curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
       chmod +xwr "$BUILDSCRIPT"
      #Run 
-      source "$BUILDSCRIPT"
+      source "$BUILDSCRIPT" || true
       # "$BUILDSCRIPT"
      #Clean & Purge
       sudo rm -rf "$SYSTMP/toolpacks" 2>/dev/null

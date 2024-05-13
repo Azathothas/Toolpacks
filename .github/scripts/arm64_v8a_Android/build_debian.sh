@@ -92,7 +92,7 @@ set +x
       curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
       chmod +xwr "$BUILDSCRIPT"
      #Run 
-      source "$BUILDSCRIPT"
+      source "$BUILDSCRIPT" || true
       #bash "$BUILDSCRIPT"
      #Clean & Purge
       sudo rm -rf "$SYSTMP/toolpacks" 2>/dev/null
@@ -133,7 +133,7 @@ set +x
  find "$BASEUTILSDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
 #rClone Upload to R2 (bin.ajam.dev/arm64_v8a_Android) (arm64_v8a_Android) [Binaries]
- if [ -s "$HOME/.rclone.conf" ] && [ ! -e "$HOME/.config/rclone/rclone.conf" ]; then
+ if [ -s "$HOME/.rclone.conf" ] && [ ! -s "$HOME/.config/rclone/rclone.conf" ]; then
     echo -e "\n[+] Setting Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
      mkdir -p "$HOME/.config/rclone" && touch "$HOME/.config/rclone/rclone.conf"
      cat "$HOME/.rclone.conf" > "$HOME/.config/rclone/rclone.conf"
