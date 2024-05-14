@@ -241,7 +241,7 @@ RUN <<EOS
   ##Install TailScale [static]
   curl -qfsSL "${INSTALL_SRC}/tailscale" -o "/usr/bin/tailscale" ; chmod +x "/usr/bin/tailscale"
   curl -qfsSL "${INSTALL_SRC}/tailscaled" -o "/usr/bin/tailscaled" ; chmod +x "/usr/bin/tailscaled"  
-  ##Create s6-services
+  ##Create s6-services [Debug: s6-supervise "/etc/s6-overlay/s6-rc.d/tailscaled"]
   mkdir -p "/etc/s6-overlay/s6-rc.d/tailscaled/dependencies.d"
   #UserSpace
   curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Dockerfiles/s6-rc.services/tailscaled/run.default.userspace" -o "/etc/s6-overlay/s6-rc.d/tailscaled/run"
@@ -250,6 +250,10 @@ RUN <<EOS
   touch "/etc/s6-overlay/s6-rc.d/tailscaled/dependencies.d/base"
   chmod -R 755 "/etc/s6-overlay"
   find "/etc/s6-overlay/s6-rc.d" -type f -exec dos2unix --quiet {} \; 2>/dev/null
+  ##Create systemd services
+  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Dockerfiles/systemd.services/tailscaled.service.userspace" -o "/lib/systemd/system/tailscaled.service"
+  dos2unix --quiet "/lib/systemd/system/tailscaled.service"
+  chmod -R 755 "/lib/systemd/system/tailscaled.service"
 EOS
 #RUN service tailscaled restart || true
 #------------------------------------------------------------------------------------#

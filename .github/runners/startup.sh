@@ -1,6 +1,39 @@
-#!/bin/bash
-echo -e "\n[+] Starting supervisor (Docker)\n"
-sudo service docker start
+#!/bin/env bash
+
+#------------------------------------------------------------------------------------#
+#Start Docker
+if command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/docker.service" ]; then
+   echo -e "\n[+] Starting supervisor (Docker)\n"
+   sudo systemctl daemon-reload 2>/dev/null
+   sudo systemctl enable docker --now 2>/dev/null
+   sudo systemctl restart docker 2>/dev/null
+   sudo systemctl list-unit-files --type=service | grep -i "docker"
+   sudo systemctl status "docker.service"
+fi
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
+#If using s6-svc (in a container), attempt to restart tailscale
+start_tailscaled()
+{
+ sudo systemctl daemon-reload 2>/dev/null
+ sudo systemctl enable "tailscaled.service" --now 2>/dev/null
+ sudo systemctl restart "tailscaled.service" 2>/dev/null
+ sudo systemctl list-unit-files --type=service | grep -i "tailscale"
+ sudo systemctl status "tailscaled.service"
+}
+export -f start_tailscaled
+if command -v s6-svc &>/dev/null && [ -d "/command" ] && [ -d "/etc/s6-overlay/s6-rc.d/tailscaled" ]; then
+   sudo "$(command -v s6-svc)" -u "/etc/s6-overlay/s6-rc.d/tailscaled" 2>/dev/null
+   sudo "$(command -v s6-svc)" -r "/etc/s6-overlay/s6-rc.d/tailscaled" 2>/dev/null
+   sleep 10
+   if ! sudo pgrep -f 'tailscaled --tun=userspace-networking' >/dev/null && command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/tailscaled.service" ]; then
+     start_tailscaled
+   fi
+elif ! sudo pgrep -f 'tailscaled --tun=userspace-networking' >/dev/null && command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/tailscaled.service" ]; then
+   start_tailscaled
+fi
+#------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
 ##Read from --env-file=runner.env
