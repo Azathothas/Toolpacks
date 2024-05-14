@@ -1,4 +1,4 @@
- 9.2G └─┬ toolpack_x86_64
+ 9.5G └─┬ toolpack_x86_64
  163M   ├── usql
  161M   ├── sliver-server
  148M   ├── cloudfox
@@ -19,8 +19,8 @@
   72M   ├── berty
   69M   ├── loki
   62M   ├── alist
-  59M   ├── wtfutil
   59M   ├── wtf
+  59M   ├── wtfutil
   59M   ├── nushell
   59M   ├── nu
   59M   ├── dockerd
@@ -69,6 +69,7 @@
   29M   ├── naabu
   28M   ├── osmedeus
   28M   ├── podman
+  28M   ├── aptly
   28M   ├── soft-serve
   28M   ├── gowitness
   27M   ├── lnav
@@ -77,7 +78,9 @@
   27M   ├── subfinder
   27M   ├── dnsx
   27M   ├── tlsx
+  26M   ├── wezterm-mux-server
   26M   ├── maddy
+  26M   ├── wezterm
   26M   ├── dagu
   26M   ├── devbox
   26M   ├── relic
@@ -101,6 +104,7 @@
   23M   ├── ngrok
   23M   ├── devpod
   23M   ├── restic
+  23M   ├── noseyparker
   23M   ├── legba
   23M   ├── docker
   23M   ├── interactsh-server
@@ -115,6 +119,7 @@
   21M   ├── uroot-busybox
   21M   ├── u-root-busybox
   21M   ├── gobusybox
+  21M   ├── dnspyre
   21M   ├── tuiarchiver
   21M   ├── qsv
   21M   ├── atuin
@@ -205,6 +210,7 @@
   12M   ├── mabel
   12M   ├── bucketloot
   12M   ├── sysbox-fs
+  12M   ├── sync-color-schemes
   12M   ├── litefs
   12M   ├── mdcat
   11M   ├── rebuildctl
@@ -388,9 +394,11 @@
  6.3M   ├── hub
  6.3M   ├── ripgrep
  6.3M   ├── rg
+ 6.3M   ├── qemu-xtensa-static
  6.2M   ├── uroot
  6.2M   ├── u-root
  6.1M   ├── rustcan
+ 6.1M   ├── qemu-xtensaeb-static
  6.1M   ├── xbps-rindex
  6.1M   ├── xbps-create
  6.1M   ├── go-simplehttpserver
@@ -443,7 +451,7 @@
  5.4M   ├── xbps-digest
  5.4M   ├── vtm
  5.4M   ├── certspotter
- 5.4M   ├── bombadillo
+ 5.3M   ├── bombadillo
  5.3M   ├── horust
  5.3M   ├── getJS
  5.3M   ├── gitdorks_go
@@ -465,6 +473,8 @@
  5.1M   ├── git-tag
  5.1M   ├── crawley
  5.1M   ├── unfurl
+ 5.1M   ├── qemu-aarch64_be-static
+ 5.1M   ├── qemu-aarch64-static
  5.1M   ├── rewritepkg
  5.0M   ├── gfx
  5.0M   ├── wth
@@ -491,6 +501,7 @@
  4.8M   ├── nping
  4.8M   ├── mani
  4.7M   ├── gxss
+ 4.7M   ├── qemu-hexagon-static
  4.7M   ├── fget
  4.7M   ├── crlfuzz
  4.7M   ├── socat
@@ -502,6 +513,7 @@
  4.6M   ├── ncat
  4.6M   ├── gpg-tui
  4.6M   ├── crt
+ 4.6M   ├── tracexec
  4.6M   ├── enumerepo
  4.6M   ├── bottom
  4.5M   ├── ssh
@@ -562,22 +574,37 @@
  3.7M   ├── viu
  3.6M   ├── iperf3
  3.6M   ├── ksubdomain_staticx
+ 3.6M   ├── qemu-riscv64-static
  3.6M   ├── iperf
  3.6M   ├── 7z
  3.5M   ├── kakoune
+ 3.5M   ├── qemu-riscv32-static
  3.5M   ├── just
  3.5M   ├── rust-parallel
  3.5M   ├── bandwhich
  3.5M   ├── twingate-client
+ 3.4M   ├── hwatch
  3.4M   ├── fzf
  3.4M   ├── passdetective
+ 3.4M   ├── qemu-armeb-static
+ 3.4M   ├── qemu-arm-static
  3.4M   ├── lf
  3.4M   ├── age
+ 3.4M   ├── qemu-mipsn32-static
+ 3.4M   ├── qemu-mips64-static
+ 3.3M   ├── qemu-mipsn32el-static
+ 3.3M   ├── qemu-mips64el-static
  3.3M   ├── pspy
  3.3M   ├── navi
+ 3.3M   ├── qemu-mips-static
+ 3.3M   ├── qemu-mipsel-static
  3.3M   ├── find-rs
+ 3.3M   ├── qemu-ppc64-static
+ 3.3M   ├── qemu-ppc64le-static
  3.3M   ├── tlrc
+ 3.3M   ├── qemu-ppc-static
  3.2M   ├── binary-security-check
+ 3.2M   ├── jobs
  3.2M   ├── sk
  3.1M   ├── stuffbin
  3.1M   ├── txeh
@@ -592,7 +619,10 @@
  2.9M   ├── wireguard-rs
  2.9M   ├── gping
  2.9M   ├── ropr
+ 2.9M   ├── encrypted-dns
  2.9M   ├── t-rec
+ 2.9M   ├── qemu-i386-static
+ 2.9M   ├── qemu-x86_64-static
  2.9M   ├── dufs
  2.9M   ├── cotp
  2.8M   ├── dust
@@ -601,9 +631,11 @@
  2.8M   ├── rnr
  2.7M   ├── cowthink
  2.7M   ├── cowsay
+ 2.7M   ├── qemu-loongarch64-static
  2.7M   ├── jless
  2.7M   ├── wireguard-go
  2.7M   ├── gs-netcat
+ 2.7M   ├── qemu-s390x-static
  2.7M   ├── grex
  2.7M   ├── goawk
  2.7M   ├── unf
@@ -616,24 +648,37 @@
  2.6M   ├── shfmt
  2.6M   ├── halp
  2.6M   ├── fwanalyzer
+ 2.5M   ├── qemu-sparc32plus-static
+ 2.5M   ├── qemu-sparc64-static
+ 2.5M   ├── qemu-m68k-static
  2.5M   ├── phantun-client
  2.5M   ├── zt-exchange
  2.5M   ├── dsieve
  2.5M   ├── runiq
  2.5M   ├── phantun-server
  2.5M   ├── sd
+ 2.5M   ├── qemu-sparc-static
  2.5M   ├── systeroid
  2.4M   ├── bingrep
  2.4M   ├── tz
  2.4M   ├── kondo
  2.4M   ├── btop
  2.4M   ├── mdsh
+ 2.3M   ├── qemu-hppa-static
  2.3M   ├── encode
  2.3M   ├── hadolint
  2.3M   ├── gencmddeps
  2.3M   ├── redive
+ 2.3M   ├── qemu-sh4eb-static
+ 2.2M   ├── qemu-sh4-static
+ 2.2M   ├── qemu-alpha-static
+ 2.2M   ├── qemu-microblaze-static
+ 2.2M   ├── qemu-microblazeel-static
+ 2.2M   ├── qemu-cris-static
  2.2M   ├── jq
  2.2M   ├── pkgtop
+ 2.2M   ├── qemu-nios2-static
+ 2.2M   ├── qemu-or1k-static
  2.2M   ├── headtail
  2.1M   ├── tidy-viewer
  2.1M   ├── diffutils-rs
@@ -661,6 +706,7 @@
  1.8M   ├── xargs-rs
  1.8M   ├── bbscope
  1.8M   ├── gotator
+ 1.8M   ├── cutlines
  1.8M   ├── age-keygen
  1.8M   ├── docker-proxy
  1.7M   ├── jwt-cracker
@@ -671,14 +717,16 @@
  1.7M   ├── exa
  1.6M   ├── zfxtop
  1.6M   ├── tmux
- 1.6M   ├── smenu
  1.6M   ├── sudo-rs
  1.6M   ├── mmv
  1.6M   ├── jless_staticx
  1.6M   ├── moac-pwgen
+ 1.6M   ├── goaccess
  1.5M   ├── progress
+ 1.5M   ├── fastfetch
  1.5M   ├── tcpdump
  1.5M   ├── genscope
+ 1.5M   ├── fastfetch-staticx
  1.5M   ├── zsh
  1.5M   ├── botsay
  1.5M   ├── epoch
@@ -707,6 +755,7 @@
  1.3M   ├── eap
  1.3M   ├── removepro
  1.3M   ├── qsreplace
+ 1.3M   ├── flashfetch
  1.3M   ├── strace
  1.3M   ├── fuse-overlayfs
  1.3M   ├── ttyd
@@ -722,7 +771,7 @@
  1.2M   ├── rathole
  1.2M   ├── sudoedit
  1.2M   ├── sudo
- 1.2M   ├── fastfetch
+ 1.2M   ├── strip-ansi-escapes
  1.2M   ├── zoxide
  1.2M   ├── z
  1.2M   ├── su-rs
@@ -738,7 +787,6 @@
  972K   ├── grep
  956K   ├── cpufetch
  948K   ├── hexyl
- 928K   ├── massdns
  908K   ├── hx
  896K   ├── catp
  876K   ├── anew-rs
@@ -759,6 +807,7 @@
  544K   ├── dropbearmulti
  540K   ├── neofetch
  492K   ├── unifetch
+ 480K   ├── generate-bidi
  476K   ├── visudo
  468K   ├── shellharden
  460K   ├── dropbear
@@ -767,6 +816,7 @@
  432K   ├── oksh
  432K   ├── loksh
  412K   ├── dbclient
+ 404K   ├── smenu
  400K   ├── sadf
  396K   ├── nnn
  368K   ├── sudo_sendlog
@@ -801,6 +851,7 @@
  124K   ├── xargs
  120K   ├── sadc
  112K   ├── tapestat
+ 112K   ├── massdns
  108K   ├── cron
  104K   ├── iostat
  104K   ├── cronie-crond
@@ -821,8 +872,11 @@
   76K   ├── reptyr
   76K   ├── dropbearscp
   76K   ├── cronie-cronnext
+  72K   ├── zapper
+  68K   ├── zapper-stealth
   68K   ├── cifsiostat
   64K   ├── binfetch
+  56K   ├── joker
   40K   ├── jsmug
   36K   ├── sshpass
   36K   ├── pipetty

@@ -11,16 +11,16 @@
 8.0K   │ └── BUILD_ERROR.log.md
 9.6M   ├─┬ x86_64_Linux
 8.6M   │ ├── BUILD.log.txt
-348K   │ ├── README.md
+352K   │ ├── README.md
 324K   │ ├── METADATA.json
-128K   │ ├── FILE.txt
- 64K   │ ├── SHA256SUM.txt
- 64K   │ ├── BLAKE3SUM.txt
+132K   │ ├── FILE.txt
+ 68K   │ ├── SHA256SUM.txt
+ 68K   │ ├── BLAKE3SUM.txt
  24K   │ ├── SIZE.txt
  24K   │ ├── SIZE.md
 8.0K   │ └── BUILD_ERROR.log.md
 1.1M   ├── metadata.json
-916K   ├── metadata.toml
+924K   ├── metadata.toml
 192K   ├─┬ x64_Windows
  64K   │ ├── METADATA.json
  56K   │ ├── README.md
