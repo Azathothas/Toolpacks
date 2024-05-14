@@ -10,8 +10,8 @@
   },
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "64.5 kB",
-    "ModTime": "2024-04-20T03:21:07.606581290Z",
+    "Size": "69.06 kB",
+    "ModTime": "2024-05-14T02:08:21.873353664Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -28,8 +28,8 @@
   },
   {
     "Name": "FILE.txt",
-    "Size": "128.47 kB",
-    "ModTime": "2024-04-20T03:20:49.830354143Z",
+    "Size": "134.73 kB",
+    "ModTime": "2024-05-14T02:07:58.549680150Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/FILE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "329.81 kB",
-    "ModTime": "2024-05-13T21:29:55.755743021Z",
+    "ModTime": "2024-05-14T00:27:40.005708252Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -46,8 +46,8 @@
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "64.5 kB",
-    "ModTime": "2024-04-20T03:21:49.135105631Z",
+    "Size": "69.06 kB",
+    "ModTime": "2024-05-14T02:09:50.000350389Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -55,8 +55,8 @@
   },
   {
     "Name": "SIZE.txt",
-    "Size": "22.28 kB",
-    "ModTime": "2024-04-20T03:20:52.706390823Z",
+    "Size": "24.15 kB",
+    "ModTime": "2024-05-14T02:08:01.893633340Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/SIZE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -64,8 +64,8 @@
   },
   {
     "Name": "_toolpack_x86_64.7z",
-    "Size": "2.08 GB",
-    "ModTime": "2024-04-20T03:41:56.910165141Z",
+    "Size": "2.13 GB",
+    "ModTime": "2024-05-14T02:54:45.966442971Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/_toolpack_x86_64.7z",
     "B3SUM": null,
     "SHA256": null,
@@ -74,7 +74,7 @@
   {
     "Name": "_toolpack_x86_64_BLAKE3SUM.txt",
     "Size": "87 B",
-    "ModTime": "2024-04-20T03:43:53.695607484Z",
+    "ModTime": "2024-05-14T03:04:41.286433879Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/_toolpack_x86_64_BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -83,7 +83,7 @@
   {
     "Name": "_toolpack_x86_64_SHA256SUM.txt",
     "Size": "87 B",
-    "ModTime": "2024-04-20T03:44:03.679730243Z",
+    "ModTime": "2024-05-14T03:04:55.454243639Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/_toolpack_x86_64_SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -310,8 +310,8 @@
     "Size": "29.96 MB",
     "ModTime": "2024-05-11T18:00:27.906766100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/aptly",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "6b5abde2c1a9feec765358dceef5344b870608374fbd0f246a1e6da224743b8f",
+    "SHA256": "beaff38aa05a025ac9f3040e38502b91df7d54a06befcb83e2435b2858b97a69",
     "Repo": "https://github.com/aptly-dev/aptly"
   },
   {
@@ -319,8 +319,8 @@
     "Size": "8.16 MB",
     "ModTime": "2024-05-11T08:06:49.448331700Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/archey",
-    "B3SUM": "53572bdb86aa02ede3fbc756983854c02e409805e03c5e89dcc770711b23b619",
-    "SHA256": "96fd2d71e325296276890681cdba0830a0a0af2dc4b4d18aeb1528546a88a337",
+    "B3SUM": "e361ff2911c88663a6fd42d490708c554a5e6fd371a4269bec09f9e3dd3ba412",
+    "SHA256": "a0f7548118b19479c211af0017b91c1c6e0c1f6d658d9d27d721bb84e43192aa",
     "Repo": "https://github.com/HorlogeSkynet/archey4"
   },
   {
@@ -622,11 +622,11 @@
   },
   {
     "Name": "bombadillo",
-    "Size": "5.61 MB",
-    "ModTime": "2024-04-20T03:17:24.679724220Z",
+    "Size": "5.6 MB",
+    "ModTime": "2024-05-14T01:56:49.911061011Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bombadillo",
-    "B3SUM": "ce3f733c1710103660e5c779b2b7ade759a5d1be5d7388951a12327dc0ca20ae",
-    "SHA256": "4d7057401149d5309a2cb1408a25d8d63aed51cec357df145bc7c8b822e51674",
+    "B3SUM": "d4d519d526bd55b6d52a6841f81b26f095537c1a412f13354ce022105aa3c3c7",
+    "SHA256": "a164c41a9b07a66d867a3888c65e457c0d898be7c1529c708e8e3125dacf6d01",
     "Repo": "https://tildegit.org/sloum/bombadillo"
   },
   {
@@ -694,11 +694,11 @@
   },
   {
     "Name": "brutespray",
-    "Size": "25.34 MB",
-    "ModTime": "2024-04-20T03:17:44.295975005Z",
+    "Size": "25.32 MB",
+    "ModTime": "2024-05-14T01:56:50.331055098Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/brutespray",
-    "B3SUM": "e283daf5c263bf8589e283eaad7675c717427bcd50bf9ccce9e12e5e9874ac66",
-    "SHA256": "61468ad2f49869f2965a690ef33b50d527ae4962bc253c98f9c5414acc935aa1",
+    "B3SUM": "d1657ea361721ba6a3e368388a94b8a5d7c293c3cdcdb20b3439f0d082c57fe8",
+    "SHA256": "8814869c73f5104bf864530311202bccef71f17548605af6e465a2f3d2e9aa7c",
     "Repo": "https://github.com/x90skysn3k/brutespray"
   },
   {
@@ -814,8 +814,8 @@
     "Size": "4.74 MB",
     "ModTime": "2024-04-27T10:38:35.241284800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/certstream",
-    "B3SUM": "d30891d4d5bf18bf1b2679a6ef5f4703e4362e8b0a6f5e9b47f4dd78c2838388",
-    "SHA256": "b6353d40c6dedfedf7863886037cda34dccb7b39cf9f95f05e7de76bc30028e0",
+    "B3SUM": "74aa81b7c572644955dcc1d27485a33aa8fadcddac8315ffc2c058d6f425424f",
+    "SHA256": "95a126895c82807b99455184a4e4d8b82e37b62a9cf5d39e9b74f69453922040",
     "Repo": "https://github.com/Azathothas/Arsenal"
   },
   {
@@ -1372,8 +1372,8 @@
     "Size": "1.84 MB",
     "ModTime": "2024-04-27T10:28:45.774172700Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cutlines",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "5713341ff2c5d6cac6c363930543fc42d2de2f6f9bc07d0f88f4db838d8c4303",
+    "SHA256": "a2aaacf08190ae0d9242f1bc43cfed3dea719953a9bda771b58327da1dcb0706",
     "Repo": "https://github.com/Azathothas/Arsenal"
   },
   {
@@ -1588,8 +1588,8 @@
     "Size": "22.73 MB",
     "ModTime": "2024-05-11T18:00:27.888210900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dnspyre",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "eb2cd58cf098bad171e741e2906dd7d27a94a7bd0408ac411a278a9311e18dd6",
+    "SHA256": "deca720e26039dc64acb23fd4bee5a52ada5ae11a30f528fcc5edd96b1be8e6d",
     "Repo": "https://github.com/Tantalor93/dnspyre"
   },
   {
@@ -2002,8 +2002,8 @@
     "Size": "3.06 MB",
     "ModTime": "2024-05-11T18:00:27.892490500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/encrypted-dns",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "00c1c3ed4910e7482e749512ac28248c47474d0bd00c126e31bd729420a4c004",
+    "SHA256": "cc583355ee0c5eb0ab739b3e12ac88597d94239b2d69c78b5dae068529957a16",
     "Repo": "https://github.com/DNSCrypt/encrypted-dns-server"
   },
   {
@@ -2098,20 +2098,20 @@
   },
   {
     "Name": "fastfetch",
-    "Size": "1.54 MB",
-    "ModTime": "2024-04-28T13:18:23.030409400Z",
+    "Size": "1.59 MB",
+    "ModTime": "2024-05-14T01:56:49.471067205Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fastfetch",
-    "B3SUM": "a2504e9b9d9e43a01112305bbc2ec4fea314baf43470b33bfd5068489d433699",
-    "SHA256": "5807e495a62a5c17b13c6ae0b020b853a2e437a62f72140585c73c0eadbf6557",
+    "B3SUM": "601a1419c57bb7dd4a51a93a19b6172d13fc0749b46585c056ce88a909c9bb1f",
+    "SHA256": "029a33f3d0fe777a3449f87f20d96d4c3fa19b25e3a98243b50fd46a6b9bddf4",
     "Repo": "https://github.com/fastfetch-cli/fastfetch"
   },
   {
     "Name": "fastfetch-staticx",
-    "Size": "1.58 MB",
-    "ModTime": "2024-04-28T14:51:40.282537000Z",
+    "Size": "1.56 MB",
+    "ModTime": "2024-05-14T01:56:50.359054704Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fastfetch-staticx",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "4a52b6db9c351d15eacd19fe3944c552f2438c54a4ba9978ab1dced4c05b39d1",
+    "SHA256": "54d1d020ca13279b774cf3e9a31fe78538ff719072695f75fe358a9e68995465",
     "Repo": "https://github.com/fastfetch-cli/fastfetch"
   },
   {
@@ -2198,10 +2198,10 @@
   {
     "Name": "ffufPostprocessing",
     "Size": "2.12 MB",
-    "ModTime": "2024-04-20T03:17:42.591952811Z",
+    "ModTime": "2024-05-14T01:56:49.807062476Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ffufPostprocessing",
-    "B3SUM": "85a4b42a56647e4d34a435b043eb49b5d442b5375e363ca23e0bf5678335eea3",
-    "SHA256": "24b51fe4a53602a4f2afbeb8faa9b64478286fcb122723953eb42464e79f8751",
+    "B3SUM": "003110e14843e22ff87915b6d226bc9452d5591f5b164acb77649759233b8660",
+    "SHA256": "806bb8132274f41b8bbff8ed8863e363780726905af92dac0fbb069ed94b0144",
     "Repo": "https://github.com/Damian89/ffufPostprocessing"
   },
   {
@@ -2287,11 +2287,11 @@
   },
   {
     "Name": "flashfetch",
-    "Size": "1.34 MB",
-    "ModTime": "2024-04-28T13:18:23.033915000Z",
+    "Size": "1.38 MB",
+    "ModTime": "2024-05-14T01:56:49.947060504Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/flashfetch",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "42e102c2ca4090df9b19f80489136b78eb349054ff51d014fa9a88b2e6da2dad",
+    "SHA256": "f28e2e9425fa69715326868c27765e367846f5fc694263fd67b252958825f55f",
     "Repo": "https://github.com/fastfetch-cli/fastfetch"
   },
   {
@@ -2425,8 +2425,8 @@
     "Size": "491.47 kB",
     "ModTime": "2024-04-29T04:51:19.929937100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/generate-bidi",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "851fabc4802266167d8b15d641656cb75074f2f93dadc2f96ab9d0f6399a6cb8",
+    "SHA256": "9bff0a81d284ca3984687012343252f9902b7e76a29e6a10ec308a790006de6b",
     "Repo": "https://github.com/wez/wezterm"
   },
   {
@@ -2731,8 +2731,8 @@
     "Size": "1.62 MB",
     "ModTime": "2024-04-29T14:07:06.649242900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/goaccess",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "d5d3ae157257f93e4db172918b20e29f5f12a3ea0dfd90233ba2de934e3d3ad9",
+    "SHA256": "0cf26f765b3162054ba531c4b9ffd44d7e30970c96f62b466a010b0b316e183f",
     "Repo": "https://github.com/allinurl/goaccess"
   },
   {
@@ -3262,8 +3262,8 @@
     "Size": "3.61 MB",
     "ModTime": "2024-05-11T18:00:27.866364700Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hwatch",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "4eb40455454c65d06fcef36f54deff2c7b25d213ad530c62d61773f4d105916e",
+    "SHA256": "f0368146f8c20fa1c5b662a4143cdff2ae6de071648280d56eb5722b6f5342b3",
     "Repo": "https://github.com/blacknon/hwatch"
   },
   {
@@ -3505,8 +3505,8 @@
     "Size": "3.36 MB",
     "ModTime": "2024-05-11T18:00:27.871140700Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jobs",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "2c14f4cf9da8627c503ac4ce3bf82a8413ca8b64920d0071341b31042519f742",
+    "SHA256": "56dcd9fe245424b00c45dce455c112f6ef7fd80493d28dea1e5a767d0cef1f58",
     "Repo": "https://github.com/yshui/job-security"
   },
   {
@@ -3514,8 +3514,8 @@
     "Size": "56.95 kB",
     "ModTime": "2024-05-11T18:00:32.013543900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/joker",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "2a0798921ea0a0bdf638b8eed8ddc2a31932bae7b67772ebd61863afd81a8de5",
+    "SHA256": "d870eea09e03e5eccd9264fbf92ff07ea94da4b03deb70d3bcc41786ef3c324e",
     "Repo": "https://github.com/txthinking/joker"
   },
   {
@@ -3647,10 +3647,10 @@
   {
     "Name": "katana_staticx",
     "Size": "10.63 MB",
-    "ModTime": "2024-04-20T03:17:22.459695985Z",
+    "ModTime": "2024-05-14T01:56:50.143057746Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/katana_staticx",
-    "B3SUM": "ef18206899560cf01f6b983362953c39b0337565f8b3f3d590cd6dd7afa4df64",
-    "SHA256": "feeeae92af72c2a09b1bbdb968e04b0caa4c6b4baa36ad0f573f939b6300a444",
+    "B3SUM": "1d75f211a53ebb366bb085d4c6d52eb59c5588f2cfa86f773ba34ffe74605038",
+    "SHA256": "ae236c633132fd4ba85c3ad0aa23e8ff8f44df92da882576202ccd864775cb5e",
     "Repo": "https://github.com/projectdiscovery/katana"
   },
   {
@@ -3973,8 +3973,8 @@
     "Size": "112.99 kB",
     "ModTime": "2024-04-20T03:56:42.080242300Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/massdns",
-    "B3SUM": "1e606357307217f741cdff691d01840ab7cd77a281d13036574f522356be6d30",
-    "SHA256": "1b48a86b52446fba9ba5ec2d9fb2ca30c22141b42045a3e8f6036707f5ae7ef0",
+    "B3SUM": "3ff1c8c27c217ea1b6b261ee659827feb9046f48aaf7ff874da7a67bafcf569a",
+    "SHA256": "e48618cb4c8c4d8b07a50bb0c972c67b908f65247a15e674177f9d20ae76e27a",
     "Repo": "https://github.com/blechschmidt/massdns"
   },
   {
@@ -4495,8 +4495,8 @@
     "Size": "24.38 MB",
     "ModTime": "2024-04-29T03:37:40.793856000Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/noseyparker",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "81427d33ee6825bc36f64bef814350c288f0c66f944ea5d00275a2e358148aa4",
+    "SHA256": "1957b87b8d3435fcd99261765e9f213e8ea2dca9ba7c114b0f394f06486fbcd8",
     "Repo": "https://github.com/praetorian-inc/noseyparker"
   },
   {
@@ -5080,8 +5080,8 @@
     "Size": "5.31 MB",
     "ModTime": "2024-05-06T09:42:25.579016800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-aarch64-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "5d5d4cc80c64782f4eefdda64eb931538060697b6a63d19bdd16b3dfcb170ef2",
+    "SHA256": "0055f6c8bd645f3f6ce7f4928d97b5773c25d7809c511314ee7ce4dfbadbca1d",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5089,8 +5089,8 @@
     "Size": "5.32 MB",
     "ModTime": "2024-05-06T09:42:25.584821500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-aarch64_be-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "3782107cbe2f5cce9d612e3e88627554b7154a45e16522081468ba7aa5155144",
+    "SHA256": "1778172bebbdaa8055e3cd1c4b050b6d99a67890133aca8395b992ff70a9c079",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5098,8 +5098,8 @@
     "Size": "2.35 MB",
     "ModTime": "2024-05-06T09:42:25.567778800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-alpha-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "6fa0436595dda1d412b48552ee377cc34288b3e3b3024952fb58b78a8e93a02b",
+    "SHA256": "beb4672198ce179607c1518ac46baa64da211aaa4b3c07ff87cee8ef2e3bf569",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5107,8 +5107,8 @@
     "Size": "3.56 MB",
     "ModTime": "2024-05-06T09:42:25.559850000Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-arm-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "c8f6d278adbc2a6470e4c9e09cb6b71b6e7d4de5a5c7ab9e5b75d53b47f79e7c",
+    "SHA256": "23f8812c15cf338129c5a1e2e68f6875606ac8cdd6e02a91b6ddeac4da23bc8f",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5116,8 +5116,8 @@
     "Size": "3.57 MB",
     "ModTime": "2024-05-06T09:42:25.564042000Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-armeb-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "f79c12e916c41f93cdfcbd051cedc306d2797c42627bd1c2208e86ce2716e627",
+    "SHA256": "116456429e8022383e5b4cd5384d48ebf96b69d151744787c9d8944f33cf2a38",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5125,8 +5125,8 @@
     "Size": "2.34 MB",
     "ModTime": "2024-05-06T09:42:25.555987600Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-cris-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "6697137ab322f99a83c35137148a0311fe00fc7daf89d0aa60c831873a96ffd7",
+    "SHA256": "a95482f993025c226b95607f431106e36d6f85f3496a00f2c3e3e3b3bd531d96",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5134,8 +5134,8 @@
     "Size": "4.97 MB",
     "ModTime": "2024-05-06T09:42:25.551800600Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-hexagon-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "b96e251f39ded40d068bb99cdf14e10486257250526d5a76984a974d36048e5b",
+    "SHA256": "e101415356bb54cd30286852a6b905ce06ebf8266230a1bf1335d1b8bfd5648d",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5143,8 +5143,8 @@
     "Size": "2.44 MB",
     "ModTime": "2024-05-06T09:42:25.538960300Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-hppa-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "69c5efb96e3df2ca00fea11a81b6732f54ac250943df5dad00c9ac59f688c4a2",
+    "SHA256": "29cbd57167545ed77c0a61aa687ad4f2c6a42e19a84e6411d51d2271d712e792",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5152,8 +5152,8 @@
     "Size": "3.04 MB",
     "ModTime": "2024-05-06T09:42:25.533874200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-i386-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "e54cc1b836d9950ff17420106f52762ec27fcc5f460fa1e4ef2f3a2dd719a2e8",
+    "SHA256": "4bff28c0ada56332c085085022fc0476bbff063df5d4a6699d1cfc86bb8fb335",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5161,8 +5161,8 @@
     "Size": "2.86 MB",
     "ModTime": "2024-05-06T09:42:25.527036300Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-loongarch64-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "7221f572401e4eaeeaba80b387044820e501f249647e4c5f4bd66d67a65b40bb",
+    "SHA256": "7396ed140f755c49bce8b82898bb5e38e0cbd33ec61e14dafa262d3e2728824d",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5170,8 +5170,8 @@
     "Size": "2.66 MB",
     "ModTime": "2024-05-06T09:42:25.521282100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-m68k-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "f7afae9259e8c9a561dbc70c1952ea5997cdc9afd3d03c53dc8babb6f2dd4276",
+    "SHA256": "ec455e0efa5eed89fbc3f51708bd89a7ef18b42dd851c22a5cc6f9d1a6d7ad0a",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5179,8 +5179,8 @@
     "Size": "2.34 MB",
     "ModTime": "2024-05-06T09:42:25.510190100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-microblaze-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "9ee0ced21625938f8ace06d412be729cb62cc31229b723b3fe566fc9e0bdfdd9",
+    "SHA256": "d2f3b2d85f8879c60022a8e7c5cd53cdc8d75c92027bc6cf6627fa2371ad09c1",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5188,8 +5188,8 @@
     "Size": "2.34 MB",
     "ModTime": "2024-05-06T09:42:25.514353000Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-microblazeel-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "968d4989bc89ed497607b5ddd504120c5613ff0dad7a2a29bc3466f67e565033",
+    "SHA256": "2b3e210e245442f386d1abf9d2b0516a27f478404a6af2dec08a1845cc9f3deb",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5197,8 +5197,8 @@
     "Size": "3.49 MB",
     "ModTime": "2024-05-06T09:42:25.678902700Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mips-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "1740df5d2b5d2818ff147e76ef62f3a5e4fa063f1d5e5f934718590399f2209a",
+    "SHA256": "ed263f697a5636705b27807e10f9a28fbd4e73b306c3992246ea4ad94ac1b575",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5206,8 +5206,8 @@
     "Size": "3.51 MB",
     "ModTime": "2024-05-06T09:42:25.700083200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mips64-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "7f38883b369640860e3c99609b7bdb01dc1516f5cef98768e9cb580f39ea2b12",
+    "SHA256": "23a94679628fa94ed47608d4cab95eb850536fbc835ef66f46d40889c093a0ed",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5215,8 +5215,8 @@
     "Size": "3.51 MB",
     "ModTime": "2024-05-06T09:42:25.506470500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mips64el-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "d3673eff2e0e4ecac8060240e8b6741017a9659e39a320dac4a055231bd41807",
+    "SHA256": "79b766cc5ee38e836cabbc6cb6210f929f162bdafb869cb30266fa2246b8fe2a",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5224,8 +5224,8 @@
     "Size": "3.48 MB",
     "ModTime": "2024-05-06T09:42:25.694226100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mipsel-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "66eb68767b110568dddfd8518e0d20b772699d80a9efb6d95777f055400fc7bd",
+    "SHA256": "5399c4e5dc5250eb92cfa5a0b97300530843a4bac6f36fdcca31590cad84e100",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5233,8 +5233,8 @@
     "Size": "3.52 MB",
     "ModTime": "2024-05-06T09:42:25.685352500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mipsn32-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "e115944caa5a53946a8d403fb8b443821988bf1af267308373b25b2b8b4bbb5f",
+    "SHA256": "335887e880f167b05b4ac1e0029d69a2752984c07c4114c5cdcc2acff49d151a",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5242,8 +5242,8 @@
     "Size": "3.51 MB",
     "ModTime": "2024-05-06T09:42:25.690078400Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-mipsn32el-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "d18d83d18d5b6817b9c1d9018de925b8f057a009b0570b3ca47f5a3e7f570159",
+    "SHA256": "28c6d6966a39a2e674c87c5b52b918a5494cefa7e668c74060b3109411940578",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5251,8 +5251,8 @@
     "Size": "2.29 MB",
     "ModTime": "2024-05-06T09:42:25.670981500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-nios2-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "58646a792bec78ff661c763696c24adb0f39885b1ccc1c29c16bc284937b5476",
+    "SHA256": "76f252eac4a6da1262022319fa5d6051a2443c3c44586e700692fcca60184ea1",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5260,8 +5260,8 @@
     "Size": "2.27 MB",
     "ModTime": "2024-05-06T09:42:25.666199600Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-or1k-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "8540dbb0662a3a8a1df33c81c49c508cc94552bfc9488a28e23740c967ed20c1",
+    "SHA256": "7f74496aa6bfc15bac70868ee264ecdbc1b93be08c7e6ee8e24030a3532fa39e",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5269,8 +5269,8 @@
     "Size": "3.43 MB",
     "ModTime": "2024-05-06T09:42:25.651367000Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-ppc-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "ee9c465ebb423d913011232a5bbf895083ae0b90040aa9d4665cff3a75040f89",
+    "SHA256": "c772ac717fa64f47748662494e74ca177cf648d5b7f4fec3427ff6e921f45faa",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5278,8 +5278,8 @@
     "Size": "3.45 MB",
     "ModTime": "2024-05-06T09:42:25.656181900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-ppc64-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "67af76757c5550bf4314654529264379a335426574c3070d3693cc6130ab5543",
+    "SHA256": "21ac3f1cb2c858028fc3c8197f9c2468a8971d3e2b8f48ced91d16ed8fd90ae0",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5287,8 +5287,8 @@
     "Size": "3.44 MB",
     "ModTime": "2024-05-06T09:42:25.660957600Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-ppc64le-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "9e7551fd4c1d44f4fad824254ce96cbab6c7c19686f9b807c6c66b4478d1cfe9",
+    "SHA256": "15e3f14b1a88119db8e1b96f467840a7b8066007181c1d2225faca219039450b",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5296,8 +5296,8 @@
     "Size": "3.71 MB",
     "ModTime": "2024-05-06T09:42:25.646110500Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-riscv32-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "54a78be5508bbac802c26493e51fa4180525ffa537b4cc41693a9d96758e9499",
+    "SHA256": "39bb4ec83824e982712b799e23363bc322d232cf5a697e1aa9262a1c82a631c7",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5305,8 +5305,8 @@
     "Size": "3.75 MB",
     "ModTime": "2024-05-06T09:42:25.639821200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-riscv64-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "5d17741a3d0bfdf5863cb670827a159c4532124fd88cf352d77379be199f8929",
+    "SHA256": "950052c15d29f3a4cd7e4ce05ded5d072a7b80f98f63d2d132ec0e8ba4309e73",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5314,8 +5314,8 @@
     "Size": "2.84 MB",
     "ModTime": "2024-05-06T09:42:25.630588800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-s390x-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "f1913f24ce5c98f5081703bddd4de3ba7fc221a84d36f55d309246f71b80202f",
+    "SHA256": "2ae4ca22b340a2ff5a3a9cc752081165ab4b3c8f8732da64129b9efc3b705019",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5323,8 +5323,8 @@
     "Size": "2.36 MB",
     "ModTime": "2024-05-06T09:42:25.620456700Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sh4-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "f38a3a72563c2c4730256a3764693d0d8d0b740b916c57c16fd50ed79a1869ed",
+    "SHA256": "9f595d01cc8ca7a6dd3cc0f7c0d9961ccac95d9ce07e4395e539fbae50d7982d",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5332,8 +5332,8 @@
     "Size": "2.36 MB",
     "ModTime": "2024-05-06T09:42:25.624730800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sh4eb-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "46d2e0f2f5e329a4af02632c5b97d0e93753b853dc78c4185feb51a9b56513a8",
+    "SHA256": "2ad168454db91563935fd50a97b3883a4fae5017b4b91a6baf36df2c9eed6160",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5341,8 +5341,8 @@
     "Size": "2.61 MB",
     "ModTime": "2024-05-06T09:42:25.605343900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sparc-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "b2fee3ca79dfd775491df4a89c8b54288b385dea69482404a093f33b96b7a32e",
+    "SHA256": "36ff75f02939be950750024df2a65804b92e4bfd9faa2ec296e4ed7fc1eacbe0",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5350,8 +5350,8 @@
     "Size": "2.66 MB",
     "ModTime": "2024-05-06T09:42:25.614609000Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sparc32plus-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "59d62a9637aad495a772c11678607626941bda5b3c82662d2856c3a6fe590ac0",
+    "SHA256": "5fe6b812bb1eba5a7811102222096b46bb07edba9bcacda1961c0f97445b367a",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5359,8 +5359,8 @@
     "Size": "2.66 MB",
     "ModTime": "2024-05-06T09:42:25.609713300Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-sparc64-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "3bc04d06eddbda0a03449a79242e711504b17f1c8adea37a4c5a16217f44e313",
+    "SHA256": "c33482c5a1ec1917a3d4c5bfa6ccce5c1b56025775d9c0dd36576cead2e7a516",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5368,8 +5368,8 @@
     "Size": "3.01 MB",
     "ModTime": "2024-05-06T09:42:25.601347400Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-x86_64-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "a6c12ef945e122d7a958deba3bd0b9f9b8c5c3d84a6cbd5794e828051142f81a",
+    "SHA256": "00043c6e74ecd79006730a376a77fe52d7763ecae7088d16b7627ff4f67ec6ff",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5377,8 +5377,8 @@
     "Size": "6.58 MB",
     "ModTime": "2024-05-06T09:42:25.589608400Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-xtensa-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "08cb7d40ac27a8aa5671cc961be7a16f57ac83e09056dcc29f50c27722862a2f",
+    "SHA256": "48f2b6a3e014a6f9a084fe480456a181c02327bab4c568f76fec7f874fbea573",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -5386,8 +5386,8 @@
     "Size": "6.42 MB",
     "ModTime": "2024-05-06T09:42:25.595586800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/qemu-xtensaeb-static",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "44f101865dd115d11d828ca58603c395a82ef5b0ea51506a64bf212ee2e87eeb",
+    "SHA256": "27005ee4ce4ca0a551017590bdf55a529ac972227d3b875b660b2f61ae47e43b",
     "Repo": "https://github.com/qemu/qemu"
   },
   {
@@ -6250,8 +6250,8 @@
     "Size": "410.78 kB",
     "ModTime": "2024-04-29T13:27:43.709906100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/smenu",
-    "B3SUM": "a92dc7800c802553f980ac33b0fd83d79a6447e253447fc554c2a0000a8199c0",
-    "SHA256": "cd786b37d9c2f3df964256f4bdcec770c7c49171535aad1a3149e3355932b8b3",
+    "B3SUM": "77df399e893b1c8c664286bd8c3b9aa0be30b35bb7d2f46787a2e28e4db921ac",
+    "SHA256": "5efecd4e242ad5fe649c004dc3b731d3e7a0c2496af82d94260ce484c175e476",
     "Repo": "https://github.com/p-gen/smenu"
   },
   {
@@ -6547,8 +6547,8 @@
     "Size": "1.24 MB",
     "ModTime": "2024-04-29T04:51:19.933352100Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/strip-ansi-escapes",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "9ea3c3f8e3f6b53e26e305c41bc828ecd56bb59a268ced033fee29e258911c26",
+    "SHA256": "752b39eccab4f334cfa6e89009376907418641307159ad0711c062cd114cb81a",
     "Repo": "https://github.com/wez/wezterm"
   },
   {
@@ -6718,8 +6718,8 @@
     "Size": "12.68 MB",
     "ModTime": "2024-04-29T04:51:19.941289400Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sync-color-schemes",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "e9e6bb456f5edbb483aa11d0aad501a4ca67e8cd7d7b14dcb8a2b3462cd68799",
+    "SHA256": "6772ef99c34996d0fa802d399dd3ed2da5522d2debd161439c738ee54d961e07",
     "Repo": "https://github.com/wez/wezterm"
   },
   {
@@ -7051,8 +7051,8 @@
     "Size": "4.82 MB",
     "ModTime": "2024-05-11T18:00:27.878243900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tracexec",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "37514e1ab9b9bf91e0d575daadea107f93860240a854965210b9681e483ffb40",
+    "SHA256": "58c1f40b4b526ca6f5c4357aa0805d6ff01d330c0ff60c6eadda1900218ad287",
     "Repo": "https://github.com/kxxt/tracexec"
   },
   {
@@ -7645,8 +7645,8 @@
     "Size": "27.7 MB",
     "ModTime": "2024-04-29T04:51:19.954619900Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wezterm",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "bb1a409c96d9b91ebca7107fec9acfbb422ff3210edad8c23cdd2c6cee8566e7",
+    "SHA256": "133493cbce002b3dcaf64f85fa414880d119d46106554d32f1fa3f8b22632028",
     "Repo": "https://github.com/wez/wezterm"
   },
   {
@@ -7654,8 +7654,8 @@
     "Size": "28.07 MB",
     "ModTime": "2024-04-29T04:51:19.967969800Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wezterm-mux-server",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "265f25a6c6c38798053c9242b9a211d807f422a4e6b28d80107f423ece4cf163",
+    "SHA256": "ca690c0918942c6f9e2b3e6c3981e30f47f2f35c3bf99c9f1768e8ca4b53a09c",
     "Repo": "https://github.com/wez/wezterm"
   },
   {
@@ -8077,8 +8077,8 @@
     "Size": "69.98 kB",
     "ModTime": "2024-04-28T14:05:51.108402200Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/zapper",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "44cccbd11567009ff80777f66b619af72dc8ca61197a707f4d76961a16678629",
+    "SHA256": "2697e402e6737646b701139e0d1fc8a47945109ddbc2ea0df4a6004c202146f6",
     "Repo": "https://github.com/hackerschoice/zapper"
   },
   {
@@ -8086,8 +8086,8 @@
     "Size": "67.9 kB",
     "ModTime": "2024-04-28T14:05:51.111243600Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/zapper-stealth",
-    "B3SUM": "",
-    "SHA256": "",
+    "B3SUM": "58e9e755b37e09c6681e78d807839b83487c28fc6e9d400f5114305a02d67f37",
+    "SHA256": "5a1e4549254eceb5640a31211538dae0da6832f9b3e08a325545a6035433211e",
     "Repo": "https://github.com/hackerschoice/zapper"
   },
   {
