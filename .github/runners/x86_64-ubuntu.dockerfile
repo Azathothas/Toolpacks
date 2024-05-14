@@ -158,10 +158,10 @@ RUN chmod +x "/usr/local/bin/startup.sh"
 RUN <<EOS
  #x11 & display server
   echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-  DEBIAN_FRONTEND=noninteractive apt-get update -y && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
+  DEBIAN_FRONTEND=noninteractive apt-get update -y -qq && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
  #Re
   echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-  DEBIAN_FRONTEND=noninteractive apt-get update -y && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
+  DEBIAN_FRONTEND=noninteractive apt-get update -y -qq && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
  #Configure
   touch "$HOME/.Xauthority"
  #To start: (-ac --> disable access control restrictions)
@@ -191,7 +191,7 @@ EOS
 ##s6-overlays & Init
 RUN <<EOS
  #s6-overlays & Init Deps
-  apt-get update -y && apt-get install -y xz-utils
+  apt-get update -y -qq && apt-get install -y xz-utils
   wget --quiet --show-progress "$INSTALL_SRC/eget" -O "/usr/local/bin/eget"
   chmod +x "/usr/local/bin/eget"
  #Switch to temp
@@ -250,6 +250,6 @@ EOS
 
 #------------------------------------------------------------------------------------#
 #Start
-USER runner
+#USER runner
 CMD ["/usr/local/bin/startup.sh"]
 #------------------------------------------------------------------------------------#
