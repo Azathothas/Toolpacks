@@ -28,16 +28,16 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build 
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kilobyte/colorized-logs" && cd "./colorized-logs"
        export ZIG_LIBC_TARGET="x86_64-linux-musl"
-       unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
-       unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
-       unset DLLTOOL && export DLLTOOL="zig dlltool"
-       unset HOST_CC && export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
-       unset HOST_CXX && export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
-       unset OBJCOPY && export OBJCOPY="zig objcopy"
-       unset RANLIB && export RANLIB="zig ranlib"
-       unset CFLAGS && export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
-       unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-       unset LDFLAGS && export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+       export CC="zig cc -target $ZIG_LIBC_TARGET"
+       export CXX="zig c++ -target $ZIG_LIBC_TARGET"
+       export DLLTOOL="zig dlltool"
+       export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
+       export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
+       export OBJCOPY="zig objcopy"
+       export RANLIB="zig ranlib"
+       export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
+       export CXXFLAGS="${CFLAGS}"
+       export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
        #Build
        mkdir "./build" && cd "./build" && cmake ..
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going

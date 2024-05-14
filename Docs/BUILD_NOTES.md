@@ -62,27 +62,27 @@
 
 ❯ !# static-pie + mold 🦠
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
-unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export LDFLAGS="-static -static-pie -pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--pie -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# static-pie + No mold
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
-unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# static (no pie) + mold 🦠
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
-unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# static (no pie) + No mold
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
-unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-unset LDFLAGS && export LDFLAGS="-static -static-pie -no-pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export LDFLAGS="-static -static-pie -no-pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# Make
 # -B | --always-make --> Unconditionally make all targets. 
@@ -135,40 +135,40 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > !# Build FLAGS (with zig cc) --> https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#zig-musl
 > unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 > export ZIG_LIBC_TARGET="x86_64-linux-musl" #
-> unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
-> unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
-> unset DLLTOOL && export DLLTOOL="zig dlltool"
-> unset HOST_CC && export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
-> unset HOST_CXX && export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
-> unset OBJCOPY && export OBJCOPY="zig objcopy"
-> unset RANLIB && export RANLIB="zig ranlib"
-> unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe --sysroot=$TOOLCHAIN_SYSROOT -I$TOOLCHAIN_SYSROOT/usr/include -I$TOOLCHAIN_ROOT/include"
-> unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-> unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none --sysroot=$TOOLCHAIN_SYSROOT -L$TOOLCHAIN_SYSROOT/usr/lib -L$TOOLCHAIN_ROOT/lib"
+> export CC="zig cc -target $ZIG_LIBC_TARGET"
+> export CXX="zig c++ -target $ZIG_LIBC_TARGET"
+> export DLLTOOL="zig dlltool"
+> export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
+> export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
+> export OBJCOPY="zig objcopy"
+> export RANLIB="zig ranlib"
+> export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe --sysroot=$TOOLCHAIN_SYSROOT -I$TOOLCHAIN_SYSROOT/usr/include -I$TOOLCHAIN_ROOT/include"
+> export CXXFLAGS="${CFLAGS}"
+> export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none --sysroot=$TOOLCHAIN_SYSROOT -L$TOOLCHAIN_SYSROOT/usr/lib -L$TOOLCHAIN_ROOT/lib"
 >
 > !# Build FLAGS (no zig cc)
 > unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
 > export AR="zig ar"
-> unset CC && export CC="${CROSS_COMPILE}cc"
-> unset CXX && export CXX="${CROSS_COMPILE}c++"
-> unset DLLTOOL && export DLLTOOL="zig dlltool"
-> unset HOST_CC && export HOST_CC="${CROSS_COMPILE}cc"
-> unset HOST_CXX && export HOST_CXX="${CROSS_COMPILE}c++"
-> unset OBJCOPY && export OBJCOPY="zig objcopy"
-> unset RANLIB && export RANLIB="zig ranlib"
-> unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe --sysroot=$TOOLCHAIN_SYSROOT -I$TOOLCHAIN_SYSROOT/usr/include -I$TOOLCHAIN_ROOT/include"
-> unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-> unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none --sysroot=$TOOLCHAIN_SYSROOT -L$TOOLCHAIN_SYSROOT/usr/lib -L$TOOLCHAIN_ROOT/lib"
+> export CC="${CROSS_COMPILE}cc"
+> export CXX="${CROSS_COMPILE}c++"
+> export DLLTOOL="zig dlltool"
+> export HOST_CC="${CROSS_COMPILE}cc"
+> export HOST_CXX="${CROSS_COMPILE}c++"
+> export OBJCOPY="zig objcopy"
+> export RANLIB="zig ranlib"
+> export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe --sysroot=$TOOLCHAIN_SYSROOT -I$TOOLCHAIN_SYSROOT/usr/include -I$TOOLCHAIN_ROOT/include"
+> export CXXFLAGS="${CFLAGS}"
+> export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none --sysroot=$TOOLCHAIN_SYSROOT -L$TOOLCHAIN_SYSROOT/usr/lib -L$TOOLCHAIN_ROOT/lib"
 >
 > !# Build FLAGS (no zig)
 > unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-> unset CC && export CC="${CROSS_COMPILE}cc"
-> unset CXX && export CXX="${CROSS_COMPILE}c++"
-> unset HOST_CC && export HOST_CC="${CROSS_COMPILE}cc"
-> unset HOST_CXX && export HOST_CXX="${CROSS_COMPILE}c++"
-> unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe --sysroot=$TOOLCHAIN_SYSROOT -I$TOOLCHAIN_SYSROOT/usr/include -I$TOOLCHAIN_ROOT/include"
-> unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-> unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none --sysroot=$TOOLCHAIN_SYSROOT -L$TOOLCHAIN_SYSROOT/usr/lib -L$TOOLCHAIN_ROOT/lib"
+> export CC="${CROSS_COMPILE}cc"
+> export CXX="${CROSS_COMPILE}c++"
+> export HOST_CC="${CROSS_COMPILE}cc"
+> export HOST_CXX="${CROSS_COMPILE}c++"
+> export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe --sysroot=$TOOLCHAIN_SYSROOT -I$TOOLCHAIN_SYSROOT/usr/include -I$TOOLCHAIN_ROOT/include"
+> export CXXFLAGS="${CFLAGS}"
+> export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none --sysroot=$TOOLCHAIN_SYSROOT -L$TOOLCHAIN_SYSROOT/usr/lib -L$TOOLCHAIN_ROOT/lib"
 >
 > !# Configure (with DEFAULT)
 > --enable-static --disable-shared ${OTHER_OPTS}
@@ -177,7 +177,7 @@ make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" L
 > --host="$TOOLCHAIN_HOST" --build="$TOOLCHAIN_BUILD" --enable-static --disable-shared ${OTHER_OPTS}
 > ```
 >
-> - CMAKE
+> - CMAKE [WIP]
 > ```bash
 > # CMake
 > cmake -DCMAKE_C_COMPILER=arm-cortex_a8-linux-gnueabihf-gcc \
@@ -370,56 +370,7 @@ cargo metadata --no-deps --format-version 1 | jq ".packages[0].features | to_ent
 ❯ !# NOTES on using cross-rs : https://github.com/cross-rs/cross
 # ❯ !# static(?pie) + No mold will work, but as soon as there's additional dependencies on things like openssl, it will fail
 # Also, mold can't be used as linker
-# Rather than cross, Use https://github.com/BlackDex/rust-musl
-
-❯ !# NOTES on using https://github.com/BlackDex/rust-musl
-# --rm --> Automatically remove the container when it exits
-# -it --> Keeps STDIN open even if not attached & Allocates a pseudo-TTY
-# -v $(pwd):/home/rust/src --> Mounts the current working directory ($(pwd)) to the /home/rust/src directory inside the Container
-!# Export $RUST_TARGET && $RUSTFLAGS and then run
-# aarch64-unknown-linux-musl
-docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:aarch64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-# x86_64-unknown-linux-musl
-docker run --rm -it -v "$(pwd):/home/rust/src" "docker.io/blackdex/rust-musl:x86_64-musl" cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-# With extra steps & configs [Addon Tools + Libs + Mold]
-docker run --rm -it -v "$(pwd):/home/rust/src" \
--e "RUST_TARGET=${RUST_TARGET}" \
--e "RUSTFLAGS=${RUSTFLAGS}" \
-"docker.io/blackdex/rust-musl:x86_64-musl" \
-bash -c '
-  ##Base & CoreUtils
-  apt-get update -y && apt-get install automake bc binutils b3sum build-essential ccache clang coreutils curl diffutils dos2unix flex file gawk lzip jq libtool libtool-bin make moreutils jq p7zip-full rsync texinfo sudo util-linux wget -y
-  ##Additional Tools
-  sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-  sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-  sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-  sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-  sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-  sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-  sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-  ##Mold linker
-  pushd "$(mktemp -d)" > /dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
-  find . -type f -name "*.tar.gz*" -exec tar -xvf {} --strip-components=1 \;
-  sudo rm -rf "/usr/local/bin/ld.mold" 2>/dev/null ; sudo rm -rf "/usr/local/libexec/mold" 2>/dev/null
-  sudo cp "./bin/mold" "/usr/local/bin/mold" ; sudo chmod +xwr "/usr/local/bin/mold"
-  sudo ln -s "/usr/local/bin/mold" "/usr/local/bin/ld.mold"
-  sudo mkdir -p "/usr/local/libexec/mold" && sudo ln -s "/usr/local/bin/mold" "/usr/local/libexec/mold/ld"
-  sudo cp -r "./lib/." "/usr/local/lib/" 
-  find "/usr/local/libexec/mold" -exec sudo chmod +xwr {} \;
-  find "/usr/local/lib/mold" -exec sudo chmod +xwr {} \;
-  mold --version ; popd > /dev/null 2>&1
-  ##Additional Rust libs
-  #libxml --> https://github.com/GNOME/libxml2
-  #libpam0g-dev --> https://github.com/linux-pam/linux-pam
-  #protobuf-compiler --> https://github.com/protocolbuffers/protobuf
-  sudo apt-get install libxml libpam0g-dev protobuf-compiler -y
-  sudo eget "protocolbuffers/protobuf" --asset "protoc" --asset "linux-x86_64.zip" --to "/usr/local/bin/protoc"
-  #Temp fix for musl-g++
-  sudo ln -s "/usr/bin/g++" "/usr/bin/musl-g++"
-  #Any other additional steps
-  cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-'
-```
+# Rather than cross, Use : https://hub.docker.com/r/azathothas/alpine-builder
 
 ---
 - #### [zig-musl](https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler)
@@ -436,17 +387,17 @@ export ZIG_LIBC_TARGET="x86_64-linux-musl"
 
 ❯ !# Flags :: https://fig.io/manual/zig/cc
 unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
-unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
-unset DLLTOOL && export DLLTOOL="zig dlltool"
-unset HOST_CC && export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
-unset HOST_CXX && export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
-unset OBJCOPY && export OBJCOPY="zig objcopy"
-unset RANLIB && export RANLIB="zig ranlib"
+export CC="zig cc -target $ZIG_LIBC_TARGET"
+export CXX="zig c++ -target $ZIG_LIBC_TARGET"
+export DLLTOOL="zig dlltool"
+export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
+export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
+export OBJCOPY="zig objcopy"
+export RANLIB="zig ranlib"
 # https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#make
-unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
-unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
 
 ❯ !# Make
 make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going

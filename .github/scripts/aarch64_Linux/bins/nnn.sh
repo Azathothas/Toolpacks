@@ -29,9 +29,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/jarun/nnn" && cd "./nnn"
        #Configure
        sudo apt install libgpm-dev -y
-       unset CFLAGS && export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
-       unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-       unset LDFLAGS && export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+       export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
+       export CXXFLAGS="${CFLAGS}"
+       export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
        #make
        #make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" O_STATIC="1" --keep-going
        bash "misc/musl/musl-static-ubuntu.sh" no_run
