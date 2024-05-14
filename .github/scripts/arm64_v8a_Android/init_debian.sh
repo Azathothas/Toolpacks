@@ -241,9 +241,16 @@
              cargo install cross --git "https://github.com/cross-rs/cross"
              sudo ldconfig && sudo ldconfig -p
           fi
-         #----------------------#
-         #zig
-          curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_zig.sh" | bash
+         #----------------------# 
+         ##Install zig
+          #Clean
+          sudo rm "/usr/local/zig" -rf 2>/dev/null ; sudo rm "/usr/local/zig" -rf 2>/dev/null
+          #Get latest source
+          pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
+          #Extract
+          find . -type f -name '*.tar*' -exec tar -xf {} \;
+          #Move to /usr/local/zig
+          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd > /dev/null 2>&1
           #Test: ZIG_PATH="/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
           if ! command -v zig &> /dev/null; then
              echo -e "\n[-] zig NOT Found\n"
@@ -251,7 +258,8 @@
           else
              zig version
              sudo ldconfig && sudo ldconfig -p
-          fi          
+          fi
+          #cleanup
           find "$SYSTMP" -type d -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
           find "$SYSTMP" -type f -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
          #----------------------# 
@@ -279,7 +287,7 @@
             #Test
             if ! command -v mold &> /dev/null; then
                echo -e "\n[-] mold NOT Found\n"
-               exit 1
+               export CONTINUE="NO" && exit 1
             else   
                mold --version
                sudo ldconfig && sudo ldconfig -p

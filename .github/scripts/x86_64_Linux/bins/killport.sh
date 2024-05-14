@@ -32,7 +32,6 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
        cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/killport" "$BINDIR/killport" ; popd > /dev/null 2>&1
 fi
-fi
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#

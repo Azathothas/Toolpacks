@@ -85,23 +85,30 @@
     ## If On Github Actions, remove bloat to get space (~ 30 GB) [DANGEROUS]
     if [ "$CONTINUE" == "YES" ]; then
        if [ "$USER" = "runner" ] || [ "$(whoami)" = "runner" ] && [ -s "/opt/runner/provisioner" ]; then
-          echo -e "\n[+] Debloating GH Runner...\n"
-            #12.0 GB
-            sudo rm "/usr/local/lib/android" -rf 2>/dev/null
-            #8.2 GB
-            sudo rm "/opt/hostedtoolcache/CodeQL" -rf 2>/dev/null
-            #5.0 GB
-            sudo rm "/usr/local/.ghcup" -rf 2>/dev/null
-            #2.0 GB
-            sudo rm "/usr/share/dotnet" -rf 2>/dev/null
-            #1.7 GB
-            sudo rm "/usr/share/swift" -rf 2>/dev/null
-            #1.1 GB
-            #sudo rm "/usr/local/lib/node_modules" -rf 2>/dev/null
-            #1.0 GB
-            sudo rm "/usr/local/share/powershell" -rf 2>/dev/null
-            #500 MB
-            sudo rm "/usr/local/lib/heroku" -rf 2>/dev/null
+          ##Debloat
+           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh") 2>/dev/null
+           #echo -e "\n[+] Debloating GH Runner...\n"
+           #  #This is not needed even though this is the ndk, we (re)install via ndk-pkg
+           #  #12.0 GB
+           #  sudo rm "/usr/local/lib/android" -rf 2>/dev/null &
+           #  #8.2 GB
+           #  sudo rm "/opt/hostedtoolcache/CodeQL" -rf 2>/dev/null &
+           #  #5.0 GB
+           #  sudo rm "/usr/local/.ghcup" -rf 2>/dev/null &
+           #  #2.0 GB
+           #  sudo rm "/usr/share/dotnet" -rf 2>/dev/null &
+           #  #1.7 GB
+           #  sudo rm "/usr/share/swift" -rf 2>/dev/null &
+           #  #1.1 GB
+           #  #sudo rm "/usr/local/lib/node_modules" -rf 2>/dev/null &
+           #  #1.0 GB
+           #  sudo rm "/usr/local/share/powershell" -rf 2>/dev/null &
+           #  #500 MB
+           #  sudo rm "/usr/local/lib/heroku" -rf 2>/dev/null &
+           ##wait
+           #wait ; reset ; echo
+          #-------------------------------------------------------#
        fi
     fi
     #-------------------------------------------------------#
@@ -155,11 +162,6 @@
           sudo apt-get install 'iputils*' -y 2>/dev/null
           sudo setcap cap_net_raw+ep "$(which ping)" 2>/dev/null
          #Install PythonUtils & Deps (StaticX)
-          sudo add-apt-repository "ppa:deadsnakes/ppa" --yes ; sudo apt-get update -y
-          PYTHON_VERSION_LATEST="$(curl -qfsSL "https://devguide.python.org/versions/" |  grep -oP 'Python \d+\.\d+' | sed 's/Python //' | sort -V | uniq | tail -n 1)" && export PYTHON_VERSION_LATEST="$PYTHON_VERSION_LATEST"
-          sudo apt-get install "python${PYTHON_VERSION_LATEST}" -y
-         #  sudo update-alternatives --install "/usr/bin/python3" "python" "/usr/bin/python${PYTHON_VERSION_LATEST}" 1
-         #  sudo update-alternatives --install "/usr/bin/python3" "python" "/usr/bin/python$(python --version | awk '{print $2}' | awk -F '.' '{print $1"."$2}')" 2
           sudo apt install python3-pip python3-venv -y 2>/dev/null
          #Upgrade pip
           pip --version
@@ -236,7 +238,7 @@
              sudo ldconfig && sudo ldconfig -p
           fi 
          #----------------------#          
-         #golang 
+         ##Install golang 
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
           #Test
           if ! command -v go &> /dev/null; then
@@ -246,6 +248,19 @@
              go version
              sudo ldconfig && sudo ldconfig -p
           fi
+         #------------------------------# 
+         ##Install Meson & Ninja
+          #Install
+          sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
+          pip install meson ninja --upgrade 2>/dev/null
+          pip install meson ninja --break-system-packages --upgrade 2>/dev/null
+          #python3 -m pip install meson ninja --upgrade
+          sudo ln -s "$HOME/.local/bin/meson" "/usr/bin/meson" 2>/dev/null
+          sudo ln -s "$HOME/.local/bin/ninja" "/usr/bin/ninja" 2>/dev/null
+          sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja"
+          #version
+          meson --version ; ninja --version
+          sudo ldconfig && sudo ldconfig -p          
          #----------------------# 
          ##Nix
           ##Official Installers break
@@ -295,8 +310,15 @@
              sudo ldconfig && sudo ldconfig -p
           fi
          #----------------------#
-         #zig
-          curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/Debian/install_zig.sh" | bash
+         ##Install zig
+          #Clean
+          sudo rm "/usr/local/zig" -rf 2>/dev/null ; sudo rm "/usr/local/zig" -rf 2>/dev/null
+          #Get latest source
+          pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
+          #Extract
+          find . -type f -name '*.tar*' -exec tar -xf {} \;
+          #Move to /usr/local/zig
+          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd > /dev/null 2>&1
           #Test: ZIG_PATH="/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
           if ! command -v zig &> /dev/null; then
              echo -e "\n[-] zig NOT Found\n"
@@ -304,41 +326,42 @@
           else
              zig version
              sudo ldconfig && sudo ldconfig -p
-          fi          
+          fi
+          #cleanup
           find "$SYSTMP" -type d -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
           find "$SYSTMP" -type f -name "*zig*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
          #----------------------# 
     fi
    #-------------------------------------------------------#
 
-   #-------------------------------------------------------#
-    ##ToolChains
-    if [ "$CONTINUE" == "YES" ]; then
-    ##Clean
-    sudo rm "/opt/toolchains" -rf 2>/dev/null
-    ##https://pub.ajam.dev/toolchains/x86_64-glibc-stable/ --> /opt/toolchains/x86_64-buildroot-linux-gnu
-    pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-glibc-stable.tar.bz2" --download-only
-    find . -type f -name "*.tar*" -exec tar -xf {} \;
-    sudo mkdir -p "/opt/toolchains" 2>/dev/null
-    sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-gnu"
-    cd "/opt/toolchains/x86_64-buildroot-linux-gnu" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
-    ##https://pub.ajam.dev/toolchains/x86_64-musl-stable/ --> /opt/toolchains/x86_64-buildroot-linux-musl
-    pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-musl-stable.tar.bz2" --download-only
-    find . -type f -name "*.tar*" -exec tar -xf {} \;
-    sudo mkdir -p "/opt/toolchains" 2>/dev/null
-    sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-musl"
-    cd "/opt/toolchains/x86_64-buildroot-linux-musl" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
-    ##https://pub.ajam.dev/toolchains/x86_64-uclibc-stable/ --> /opt/toolchains/x86_64-buildroot-linux-uclibc
-    pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-uclibc-stable.tar.bz2" --download-only
-    find . -type f -name "*.tar*" -exec tar -xf {} \;
-    sudo mkdir -p "/opt/toolchains" 2>/dev/null
-    sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-uclibc"
-    cd "/opt/toolchains/x86_64-buildroot-linux-uclibc" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
-    ##Test
-    echo -e "\n\n[+] Toolchains\n"
-    du -h --max-depth="1" "/opt/toolchains" 2>/dev/null | sort -hr ; echo -e "\n\n"
-    fi
-   #-------------------------------------------------------#
+   ##-------------------------------------------------------#
+   # ##ToolChains
+   # if [ "$CONTINUE" == "YES" ]; then
+   # ##Clean
+   # sudo rm "/opt/toolchains" -rf 2>/dev/null
+   # ##https://pub.ajam.dev/toolchains/x86_64-glibc-stable/ --> /opt/toolchains/x86_64-buildroot-linux-gnu
+   # pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-glibc-stable.tar.bz2" --download-only
+   # find . -type f -name "*.tar*" -exec tar -xf {} \;
+   # sudo mkdir -p "/opt/toolchains" 2>/dev/null
+   # sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-gnu"
+   # cd "/opt/toolchains/x86_64-buildroot-linux-gnu" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
+   # ##https://pub.ajam.dev/toolchains/x86_64-musl-stable/ --> /opt/toolchains/x86_64-buildroot-linux-musl
+   # pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-musl-stable.tar.bz2" --download-only
+   # find . -type f -name "*.tar*" -exec tar -xf {} \;
+   # sudo mkdir -p "/opt/toolchains" 2>/dev/null
+   # sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-musl"
+   # cd "/opt/toolchains/x86_64-buildroot-linux-musl" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
+   # ##https://pub.ajam.dev/toolchains/x86_64-uclibc-stable/ --> /opt/toolchains/x86_64-buildroot-linux-uclibc
+   # pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-uclibc-stable.tar.bz2" --download-only
+   # find . -type f -name "*.tar*" -exec tar -xf {} \;
+   # sudo mkdir -p "/opt/toolchains" 2>/dev/null
+   # sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-uclibc"
+   # cd "/opt/toolchains/x86_64-buildroot-linux-uclibc" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
+   # ##Test
+   # echo -e "\n\n[+] Toolchains\n"
+   # du -h --max-depth="1" "/opt/toolchains" 2>/dev/null | sort -hr ; echo -e "\n\n"
+   # fi
+   ##-------------------------------------------------------#
 
    #-------------------------------------------------------#
     ##Mold for linking
@@ -346,7 +369,7 @@
           #Get Source
           pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
           #Extract Archive
-          find . -type f -name "*.tar.gz*" -exec tar -xvf {} --strip-components=1 \;
+          find . -type f -name "*.tar.gz*" -exec tar -xf {} --strip-components=1 \;
           #Main Binary
           sudo rm -rf "/usr/local/bin/ld.mold" 2>/dev/null ; sudo rm -rf "/usr/local/libexec/mold" 2>/dev/null
           sudo cp "./bin/mold" "/usr/local/bin/mold" ; sudo chmod +xwr "/usr/local/bin/mold"
@@ -360,63 +383,11 @@
           #Test
           if ! command -v mold &> /dev/null; then
              echo -e "\n[-] mold NOT Found\n"
-             exit 1
+             export CONTINUE="NO" && exit 1
           else   
              mold --version
              sudo ldconfig && sudo ldconfig -p
-          fi
-    fi
-    ##Additional Libs
-    if [ "$CONTINUE" == "YES" ]; then
-         ##Install Alsa-Libs (libasound)
-          sudo apt-get install alsa-base alsa-utils linux-sound-base libasound2-dev libfl-dev libjack-dev librust-cpal-dev libxi-dev libxtst-dev -y
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/alsa-project/alsa-lib" && cd "alsa-lib"
-          bash "./gitcompile" ; "./configure" --enable-shared=no --enable-static=yes ; sudo make install ; popd > /dev/null 2>&1
-          find "$SYSTMP" -type d -name "*alsa*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
-         ##Install Meson & Ninja
-          #Install
-          sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
-          pip install meson ninja --upgrade 2>/dev/null
-          pip install meson ninja --break-system-packages --upgrade 2>/dev/null
-          #python3 -m pip install meson ninja --upgrade
-          sudo ln -s "$HOME/.local/bin/meson" "/usr/bin/meson" 2>/dev/null
-          sudo ln -s "$HOME/.local/bin/ninja" "/usr/bin/ninja" 2>/dev/null
-          sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja"
-          #version
-          meson --version ; ninja --version
-          sudo ldconfig && sudo ldconfig -p
-         ##Install ncurses 
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && wget --quiet --show-progress --progress="dot:giga" "https://invisible-island.net/datafiles/current/ncurses.tar.gz"
-          find . -type f -name "*.tar.gz*" -exec tar -xvf {} \; 2>/dev/null
-          cd "$(find . -maxdepth 1 -type d -name "*ncurses*" | grep -v "^.$")"
-          export ZIG_LIBC_TARGET="x86_64-linux-musl"
-          unset CC && export CC="zig cc -target $ZIG_LIBC_TARGET"
-          unset CXX && export CXX="zig c++ -target $ZIG_LIBC_TARGET"
-          unset DLLTOOL && export DLLTOOL="zig dlltool"
-          unset HOST_CC && export HOST_CC="zig cc -target $ZIG_LIBC_TARGET"
-          unset HOST_CXX && export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
-          unset OBJCOPY && export OBJCOPY="zig objcopy"
-          unset RANLIB && export RANLIB="zig ranlib"
-          unset CFLAGS && export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
-          unset CXXFLAGS && export CXXFLAGS="${CFLAGS}"
-          unset LDFLAGS && export LDFLAGS="-static -static-pie -pie -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
-          make dist clean 2>/dev/null ; make clean 2>/dev/null
-          "./configure" --with-build-cc="zig cc -target $ZIG_LIBC_TARGET" --with-build-cpp="zig c++ -target $ZIG_LIBC_TARGET" --with-libtool --with-libtool-opts="-static" --enable-bsdpad --enable-getcap --enable-static --disable-shared --with-normal --without-debug
-          make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
-          sudo make install ; popd > /dev/null 2>&1 ; tput -V
-          unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
-          sudo ldconfig && sudo ldconfig -p
-          find "$SYSTMP" -type d -name "*ncurses*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
-         ##Openssl (via nmap)
-          curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Devscripts/install_nmap.sh" | bash
-          find "$SYSTMP" -type d -name "*nmap*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
-          find "$SYSTMP" -type d -name "*openssl*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
-         ##wolfssl
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/wolfSSL/wolfssl" && cd "./wolfssl"
-          bash "./autogen.sh" 2>/dev/null ; "./configure" --enable-all --disable-shared --enable-static --enable-sslv3
-          make --jobs="$(($(nproc)+1))" --keep-going ; sudo make install ; wolfssl-config --version ; popd > /dev/null 2>&1
-          sudo ldconfig && sudo ldconfig -p
-          find "$SYSTMP" -type d -name "*wolfssl*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1
+          fi          
     fi 
     #-------------------------------------------------------#
     
@@ -427,8 +398,8 @@
     #-------------------------------------------------------#
     ##END
     echo -e "\n\n [+] Finished Initializing $(uname -mnrs) :: at $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
-    #In case of zig polluted env 
-    unset AR CC CXX DLLTOOL HOST_CC HOST_CXX OBJCOPY RANLIB
+    #In case of polluted env 
+    unset ANDROID_TARGET AR AS CC CFLAGS CPP CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LD LDFLAGS LIBS NM OBJCOPY OBJDUMP RANLIB READELF SIZE STRINGS STRIP SYSROOT
     #-------------------------------------------------------#
   #EOF
 fi

@@ -126,6 +126,15 @@ jobs:
           cd "$GITHUB_WORKSPACE/main"
           find ".github/workflows" -type f -name "*ml" -exec actionlint {} \;
         continue-on-error: true
+
+      - name: Shellcheck
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main"
+          find ".github" -type f -name '*.sh' -exec shellcheck --severity=error {} \; 2>/dev/null | tee "$GITHUB_WORKSPACE/main/.github/shellcheck.txt"
+        continue-on-error: true
 #------------------------------------------------------------------------------------#
       - name: rClone BackUp Repo-I ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
         run: |
