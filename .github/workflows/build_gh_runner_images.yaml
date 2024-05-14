@@ -166,7 +166,8 @@ jobs:
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
-          platforms: "linux/amd64,linux/arm64"
+          #platforms: "linux/amd64,linux/arm64"
+          platforms: "linux/arm64"
           tags: |
             azathothas/gh-runner-aarch64-ubuntu:latest
             azathothas/gh-runner-aarch64-ubuntu:${{ env.DOCKER_TAG }}
@@ -219,7 +220,8 @@ jobs:
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
-          platforms: "linux/amd64,linux/arm64"
+          #platforms: "linux/amd64,linux/arm64"
+          platforms: "linux/amd64"
           tags: |
             azathothas/gh-runner-x86_64-ubuntu:latest
             azathothas/gh-runner-x86_64-ubuntu:${{ env.DOCKER_TAG }}
