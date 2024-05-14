@@ -38,7 +38,7 @@
   {
     "Name": "METADATA.json",
     "Size": "297.47 kB",
-    "ModTime": "2024-05-13T00:29:19.990402354Z",
+    "ModTime": "2024-05-13T21:26:16.399698272Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -3730,9 +3730,9 @@
     "Size": "26.27 MB",
     "ModTime": "2024-03-30T01:54:44.508696980Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/mc",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "0ff730f7959fe91d3e67644e7e39ed90cf5057f4324eb339b7f938ef2cd3319a",
+    "SHA256": "605cc8df249b0ce3918164b54acd7b0f47f984f9c943a5b648f7eeea52e32d75",
+    "Repo": "https://github.com/minio/mc"
   },
   {
     "Name": "mcfly",
