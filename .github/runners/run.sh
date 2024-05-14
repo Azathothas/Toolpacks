@@ -21,22 +21,22 @@ fi
 if [ -z "$DOCKER_CONTAINER_NAME" ]; then
  echo -e "\n[+] Setting Default Container Name: gh-runner-arm64x-gcp"
   export DOCKER_CONTAINER_NAME="gh-runner-arm64x-gcp"
-  docker stop "${DOCKER_CONTAINER_NAME}" 2>/dev/null
+  docker stop "${DOCKER_CONTAINER_NAME}" >/dev/null 2>&1
 else
  export DOCKER_CONTAINER_NAME="${DOCKER_CONTAINER_NAME}"
   echo -e "\n[+] Setting Default Container Name: ${DOCKER_CONTAINER_NAME}"
-  docker stop "${DOCKER_CONTAINER_NAME}" 2>/dev/null
+  docker stop "${DOCKER_CONTAINER_NAME}" >/dev/null 2>&1
 fi
 #Image
 if [ -z "$DOCKER_CONTAINER_IMAGE" ]; then
  echo -e "\n[+] Setting Default Container Image: azathothas/gh-runner-aarch64-ubuntu"
   export DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-aarch64-ubuntu"
-  docker rmi "${DOCKER_CONTAINER_IMAGE}" --force 2>/dev/null
+  docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
   docker pull "${DOCKER_CONTAINER_IMAGE}" --quiet 2>/dev/null
 else
  export DOCKER_CONTAINER_IMAGE="${DOCKER_CONTAINER_IMAGE}"
  echo -e "\n[+] Setting Default Container Image: ${DOCKER_CONTAINER_IMAGE}"
- docker rmi "${DOCKER_CONTAINER_IMAGE}" --force 2>/dev/null
+ docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
  docker pull "${DOCKER_CONTAINER_IMAGE}" --quiet 2>/dev/null
 fi
 #Env File
@@ -70,9 +70,9 @@ fi
 #------------------------------------------------------------------------------------#
 #Stop Existing
 echo -e "\n[+] Cleaning PreExisting Container\n"
-sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" --force 2>/dev/null &
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" >/dev/null 2>&1 &
 wait
-sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" --force 2>/dev/null && sleep 5
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" >/dev/null 2>&1 && sleep 5
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${DOCKER_LOG_FILE})\n"
 set -x && nohup sudo docker run --runtime "sysbox-runc" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
