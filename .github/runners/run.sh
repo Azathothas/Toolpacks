@@ -21,11 +21,11 @@ fi
 if [ -z "$DOCKER_CONTAINER_NAME" ]; then
  echo -e "\n[+] Setting Default Container Name: gh-runner-arm64x-gcp"
   export DOCKER_CONTAINER_NAME="gh-runner-arm64x-gcp"
-  docker stop "${DOCKER_CONTAINER_NAME}" --force 2>/dev/null
+  docker stop "${DOCKER_CONTAINER_NAME}" 2>/dev/null
 else
  export DOCKER_CONTAINER_NAME="${DOCKER_CONTAINER_NAME}"
- echo -e "\n[+] Setting Default Container Name: ${DOCKER_CONTAINER_NAME}"
- docker stop "${DOCKER_CONTAINER_NAME}" --force 2>/dev/null
+  echo -e "\n[+] Setting Default Container Name: ${DOCKER_CONTAINER_NAME}"
+  docker stop "${DOCKER_CONTAINER_NAME}" 2>/dev/null
 fi
 #Image
 if [ -z "$DOCKER_CONTAINER_IMAGE" ]; then
@@ -106,7 +106,7 @@ echo -e "\n\n[+] Completed Runner ${DOCKER_CONTAINER_NAME} (LOGFILE: ${DOCKER_LO
 sed '/^$/d' "${DOCKER_LOG_FILE}"
 echo -e "\n\n[+] Listing All Running Containers\n"
 sudo docker ps ; echo
-echo -e 'RUN (Remove ALL Containers): sudo docker ps -aq | xargs sudo docker stop --force 2>/dev/null && sudo docker rm "$(docker ps -aq)" --force' && echo
+echo -e 'RUN (Remove ALL Containers): sudo docker ps -aq | xargs sudo docker stop 2>/dev/null && sudo docker rm "$(docker ps -aq)" --force' && echo
 echo -e 'RUN (Remove ALL Images): sudo docker rmi -f $(docker images -q) >/dev/null 2>&1' && echo
 #EOF
 #------------------------------------------------------------------------------------#
