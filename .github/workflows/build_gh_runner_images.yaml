@@ -38,10 +38,6 @@ jobs:
           #Copy dockerfiles
           mkdir -p "/tmp/DOCKERFILES"
           cp "$GITHUB_WORKSPACE/main/.github/runners/alpine-builder.dockerfile" "/tmp/DOCKERFILES/alpine-builder.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/DOCKERFILES/ubuntu-systemd-base.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/x86_64-ubuntu.dockerfile" "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/DOCKERFILES/startup.sh"
         continue-on-error: true
 
       - name: Set up QEMU
@@ -93,11 +89,7 @@ jobs:
           echo "DOCKER_TAG=$DOCKER_TAG" >> "$GITHUB_ENV"
           #Copy dockerfiles
           mkdir -p "/tmp/DOCKERFILES"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/alpine-builder.dockerfile" "/tmp/DOCKERFILES/alpine-builder.dockerfile"
           cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/DOCKERFILES/ubuntu-systemd-base.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/x86_64-ubuntu.dockerfile" "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/DOCKERFILES/startup.sh"
         continue-on-error: true
 
       - name: Set up QEMU
@@ -149,10 +141,7 @@ jobs:
           echo "DOCKER_TAG=$DOCKER_TAG" >> "$GITHUB_ENV"
           #Copy dockerfiles
           mkdir -p "/tmp/DOCKERFILES"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/alpine-builder.dockerfile" "/tmp/DOCKERFILES/alpine-builder.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/DOCKERFILES/ubuntu-systemd-base.dockerfile"
           cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/x86_64-ubuntu.dockerfile" "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
           cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/DOCKERFILES/startup.sh"
         continue-on-error: true
 
@@ -205,9 +194,6 @@ jobs:
           echo "DOCKER_TAG=$DOCKER_TAG" >> "$GITHUB_ENV"
           #Copy dockerfiles
           mkdir -p "/tmp/DOCKERFILES"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/alpine-builder.dockerfile" "/tmp/DOCKERFILES/alpine-builder.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/ubuntu-systemd-base.dockerfile" "/tmp/DOCKERFILES/ubuntu-systemd-base.dockerfile"
-          cp "$GITHUB_WORKSPACE/main/.github/runners/aarch64-ubuntu.dockerfile" "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
           cp "$GITHUB_WORKSPACE/main/.github/runners/x86_64-ubuntu.dockerfile" "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
           cp "$GITHUB_WORKSPACE/main/.github/runners/startup.sh" "/tmp/DOCKERFILES/startup.sh"
         continue-on-error: true
