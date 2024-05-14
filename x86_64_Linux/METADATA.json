@@ -10,8 +10,8 @@
   },
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "69.06 kB",
-    "ModTime": "2024-05-14T02:08:21.873353664Z",
+    "Size": "69.85 kB",
+    "ModTime": "2024-05-14T09:19:57.817048300Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -28,8 +28,8 @@
   },
   {
     "Name": "FILE.txt",
-    "Size": "134.73 kB",
-    "ModTime": "2024-05-14T02:07:58.549680150Z",
+    "Size": "135.93 kB",
+    "ModTime": "2024-05-14T09:19:37.109320489Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/FILE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "329.81 kB",
-    "ModTime": "2024-05-14T00:27:40.005708252Z",
+    "Size": "336.72 kB",
+    "ModTime": "2024-05-14T07:30:28.715192663Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -46,8 +46,8 @@
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "69.06 kB",
-    "ModTime": "2024-05-14T02:09:50.000350389Z",
+    "Size": "69.85 kB",
+    "ModTime": "2024-05-14T09:20:25.096689294Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -55,8 +55,8 @@
   },
   {
     "Name": "SIZE.txt",
-    "Size": "24.15 kB",
-    "ModTime": "2024-05-14T02:08:01.893633340Z",
+    "Size": "24.44 kB",
+    "ModTime": "2024-05-14T09:19:40.573274980Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/SIZE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -109,20 +109,20 @@
   },
   {
     "Name": "age",
-    "Size": "3.54 MB",
-    "ModTime": "2024-04-20T03:17:32.687826034Z",
+    "Size": "3.53 MB",
+    "ModTime": "2024-05-14T09:08:18.113977914Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/age",
-    "B3SUM": "b0a453e8ff8e1dcec030059dc4981234cd165d8eaf34a97c9237e873c8bffd59",
-    "SHA256": "3fbff8daf05fb34364f1cc4e6844da879c0161ae1ce92eb0415082a4c2f0dde1",
+    "B3SUM": "57ba6074cb71e0f2c7e960c9f5446f58df8440c7335c6462b87c036b5e170224",
+    "SHA256": "04cfe172b645e97d7134774ca1dbf332c249690748ada758ce1ae0f1eb7a8c36",
     "Repo": "https://github.com/FiloSottile/age"
   },
   {
     "Name": "age-keygen",
-    "Size": "1.84 MB",
-    "ModTime": "2024-04-20T03:17:34.847853525Z",
+    "Size": "1.83 MB",
+    "ModTime": "2024-05-14T09:08:17.769982095Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/age-keygen",
-    "B3SUM": "8115f04590c4cd5d742f9c00477b00ece11a8534df06c758157722c3064f618c",
-    "SHA256": "2902b0a75f43beb4679eb2eb690d80451113a01ac40a167f65db02889ed8abc4",
+    "B3SUM": "615c3a9c3734af688bae89add51446f2e741ab8776f93d451d15cc201566e536",
+    "SHA256": "424634fe44b1ed34989ce168ebf89130dde4f75ea78faba420bbaa922e8ae6f2",
     "Repo": "https://github.com/FiloSottile/age"
   },
   {
@@ -236,10 +236,10 @@
   {
     "Name": "analyticsrelationships",
     "Size": "5.11 MB",
-    "ModTime": "2024-04-20T03:17:09.859535754Z",
+    "ModTime": "2024-05-14T09:08:13.202037573Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/analyticsrelationships",
-    "B3SUM": "69df8a859824c28d5d9d3787714b277a08e5e869587032f472ae2090b3a28b4d",
-    "SHA256": "603577ef9fc7b185fd9c5e019fd3b8ab76d50e243b332d7a21bce49354770d90",
+    "B3SUM": "27c934afcd83fffe93a6964d9c84aad3251d1412893ef12d324591ab7da492f6",
+    "SHA256": "33752dbe4eda0f17e2fbdf9d6f3c36e19d572ceaa040107fc04c364a19c8cef9",
     "Repo": "https://github.com/Josue87/AnalyticsRelationships"
   },
   {
@@ -353,10 +353,10 @@
   {
     "Name": "arping",
     "Size": "104.08 kB",
-    "ModTime": "2024-04-06T03:02:27.547374519Z",
+    "ModTime": "2024-05-14T09:08:13.146038252Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/arping",
-    "B3SUM": "1d5d389c95f69c4d50ec611fd5609a480798a3712fd7f194c179a5a47f76bdbc",
-    "SHA256": "9b6787ed28ceed27929e04ea2727e006bbca6727d1d4086be70b1710d900464a",
+    "B3SUM": "51ba9fbe77854e95b730be18401cd2c4571fc8529eca1992e31546c10e68d450",
+    "SHA256": "1a2fdcb59b87314d1fd830bf1b7c60fe0e83e5115ab7c7009298786183981ef7",
     "Repo": "https://github.com/iputils/iputils"
   },
   {
@@ -406,11 +406,11 @@
   },
   {
     "Name": "awk",
-    "Size": "1.17 MB",
-    "ModTime": "2024-04-20T03:17:32.671825830Z",
+    "Size": "1.06 MB",
+    "ModTime": "2024-05-14T09:08:17.037990988Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/awk",
-    "B3SUM": "624bd476fbf998264a9be50cf8c4223c2ad9210cc614cb0b45ddecad73fb0017",
-    "SHA256": "bb9e931783f84a24b4c6691db551b72759824567d7c1cb203d774ea368edc6d4",
+    "B3SUM": "5ba73fd03949a5e6b0c32dc91ebea4c4318b9dbf32285d9d0d7a4c98ebe06300",
+    "SHA256": "ab9410c6081d5cf0770628689163ddb3df447b26d25c2b9db5d464db62a2a5b4",
     "Repo": "https://github.com/xplshn/awk"
   },
   {
@@ -613,11 +613,11 @@
   },
   {
     "Name": "boltconn",
-    "Size": "26.87 MB",
-    "ModTime": "2024-04-20T03:17:22.567697358Z",
+    "Size": "26.55 MB",
+    "ModTime": "2024-05-14T09:08:17.361987052Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/boltconn",
-    "B3SUM": "e38c34b0ead020167dc89b1eb0cfc9b9da9ca4be87cb10017cadb9f3334182cf",
-    "SHA256": "b129635ada2e9d68f31735eeaf6a283ff211f71a9cb5a13a108b3d0f7d81f6fe",
+    "B3SUM": "fe16557ce1dce5a17d3453fa0c57e2a5405bc11f9a2e11fddd5cb759f3a327d8",
+    "SHA256": "918b1a8c16906b807522fd4ac2728340ce4b542e72cd42b01e6a91358cfc59c4",
     "Repo": "https://github.com/XOR-op/BoltConn"
   },
   {
@@ -684,6 +684,15 @@
     "Repo": "https://github.com/shenwei356/brename"
   },
   {
+    "Name": "brook",
+    "Size": "20.38 MB",
+    "ModTime": "2024-05-14T09:08:15.982003817Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/brook",
+    "B3SUM": "01ab1b536be3b7675f59c8b2f52ca80382a4323ed76d5f32e41dc6c344f9e488",
+    "SHA256": "32b928a3bc716e452f0f0b14bf4864d09c9c04c01391689bd51e090a30dabb80",
+    "Repo": "https://github.com/txthinking/brook"
+  },
+  {
     "Name": "broot",
     "Size": "12.14 MB",
     "ModTime": "2024-04-15T04:06:23.794028797Z",
@@ -712,11 +721,11 @@
   },
   {
     "Name": "bucketloot",
-    "Size": "12.86 MB",
-    "ModTime": "2024-04-20T03:17:26.011741153Z",
+    "Size": "12.85 MB",
+    "ModTime": "2024-05-14T09:08:11.094063157Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bucketloot",
-    "B3SUM": "755e34103fb955510438e7fe2b053412a47060e9d9607e9257526a5075bb79e7",
-    "SHA256": "304bce7d81ef2d803587f6ba874a0d6ed49aabcb6f0dc9182d990439140459c9",
+    "B3SUM": "4f373c54d0816aa6d79b587d7c526283888226f227f68d7cb1a55e5dec658e05",
+    "SHA256": "15e4072b74b65b5170d7a923d52e6f908ddf002b5980ce110fe14321f80419df",
     "Repo": "https://github.com/redhuntlabs/BucketLoot"
   },
   {
@@ -946,11 +955,11 @@
   },
   {
     "Name": "cherrybomb",
-    "Size": "7.99 MB",
-    "ModTime": "2024-04-20T03:17:42.907956927Z",
+    "Size": "7.93 MB",
+    "ModTime": "2024-05-14T09:08:17.457985885Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cherrybomb",
-    "B3SUM": "a9031be868173941d6ae4a31c37fdf8dd71eef5f0453583fd57dc3937cee99b4",
-    "SHA256": "09911d57d9756aef56afb82d2818ab7f5f891355417aca041f74bb680e95b96a",
+    "B3SUM": "588d2bda33aedfc1e433c10bfcfc61b939e8a176e16ec9bbe39ce9db45c6faa6",
+    "SHA256": "b672bc61c6f431333c344e84986e5dd079a859430137dbfea66089d1558ef0b0",
     "Repo": "https://github.com/blst-security/cherrybomb"
   },
   {
@@ -1162,11 +1171,11 @@
   },
   {
     "Name": "cproxy",
-    "Size": "2.8 MB",
-    "ModTime": "2024-04-10T03:27:39.254288272Z",
+    "Size": "2.76 MB",
+    "ModTime": "2024-05-14T09:08:12.986040195Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/cproxy",
-    "B3SUM": "424e5f4164a2a5c82fdf0425a1ea526cc3ae364bb3966cab928996f9004a2b96",
-    "SHA256": "7f253dc96f546637751abb20c66d406824ce3da49e5fbeb83d2f1e0d3d2a3718",
+    "B3SUM": "5e8bda1774810bb5cecd959386498d2444c2919c6a196bf74b582e92c8fb5962",
+    "SHA256": "43ae9e0543873155d99b3157c672253f1d353141e1d56604ac4d0ea65f6136e9",
     "Repo": "https://github.com/NOBLES5E/cproxy"
   },
   {
@@ -1324,11 +1333,11 @@
   },
   {
     "Name": "ctlwatcher",
-    "Size": "8.03 MB",
-    "ModTime": "2024-04-20T03:17:12.303566826Z",
+    "Size": "8.68 MB",
+    "ModTime": "2024-05-14T09:08:17.205988947Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ctlwatcher",
-    "B3SUM": "3bbcf6cb33aeda2eda9bc4e197d7c71d04e293acf0de009cf12f68b75867afa0",
-    "SHA256": "67d669be14ad27eeccffd4405fd1b96c790f7444d10968638d8644de0b67cd3c",
+    "B3SUM": "d3ac662f84e81761e8a410c713b44c1f474412b09f680f62950e05952e45a9b4",
+    "SHA256": "1d614018aec59119139fb01241225d424ac9ac80c3935413d0a145e9e2eeda39",
     "Repo": "https://github.com/Azathothas/ctlwatcher"
   },
   {
@@ -1567,11 +1576,11 @@
   },
   {
     "Name": "dns-doctor",
-    "Size": "4.04 MB",
-    "ModTime": "2024-04-20T03:17:51.044061980Z",
+    "Size": "4.03 MB",
+    "ModTime": "2024-05-14T09:08:11.978052429Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/dns-doctor",
-    "B3SUM": "37e891f374a0c69b14660bb557d70eb8a6fb7ec7d51b163371c10c2b7ff7e9d2",
-    "SHA256": "2bb54df1f4df36e24a2c07c72ba0cc4ae4ede237474687f25a1fc7870d46cbf4",
+    "B3SUM": "2c0660d6047a89846c57a69a0574e7c99db0017808cf3db84a631c00b9c5e9e2",
+    "SHA256": "c56110e2f5539a33bea2231d9f19fc471e4c6cf14897a7a4424c89d7200aadfc",
     "Repo": "https://github.com/jvns/dns-doctor"
   },
   {
@@ -1612,11 +1621,11 @@
   },
   {
     "Name": "doas",
-    "Size": "272.06 kB",
-    "ModTime": "2024-04-06T03:02:45.903406511Z",
+    "Size": "267.97 kB",
+    "ModTime": "2024-05-14T09:08:17.893980588Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/doas",
-    "B3SUM": "b81be20fc3d96767e20f868a05425fde4b0531e6c849d02f15765ba6212d7d71",
-    "SHA256": "f18d0acbdc1395a0e4f768d8f1ea7ca3b823a2d121f4f34a3fdc62f47683c3c9",
+    "B3SUM": "e0b3df343f15e86e57fff785e6fe9cf71c6415e5eac30e3445948d4b1f978fc3",
+    "SHA256": "73a68c1faa4cb47648f552d2bfa006d4bc1416b232e585c91989ac0fbe0b4f57",
     "Repo": "https://github.com/Duncaen/OpenDoas"
   },
   {
@@ -1927,11 +1936,11 @@
   },
   {
     "Name": "ehole",
-    "Size": "11.27 MB",
-    "ModTime": "2024-04-20T03:17:26.895752391Z",
+    "Size": "11.26 MB",
+    "ModTime": "2024-05-14T09:08:11.566057429Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ehole",
-    "B3SUM": "1b493ea098c01060dafb15806ef812a7a18bfd41fb27b1e915662d66c1fee63d",
-    "SHA256": "5d494c421c3b7d240044e9c18b5fbc972751ac488d261f8e9ad286a4d3892fe8",
+    "B3SUM": "ed7a9990f8c757fd0c9596370f29d3b12179a9d9db543fdf5d1e722448e01df8",
+    "SHA256": "8deba65efa0cacdd1b56231b7b795bf69855b6da647daac665557de0ccc74129",
     "Repo": "https://github.com/lemonlove7/EHole_magic"
   },
   {
@@ -1991,10 +2000,10 @@
   {
     "Name": "encode",
     "Size": "2.43 MB",
-    "ModTime": "2024-04-20T03:17:49.932047850Z",
+    "ModTime": "2024-05-14T09:08:16.865993078Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/encode",
-    "B3SUM": "5d160c87fedc20abdf5e29fb7894ac1f97ff4ca7a553f90dc02f37cd0df45878",
-    "SHA256": "0e07478723121958bf74f6389661186f5c77e3ac5e66900c5193f8d172ceb949",
+    "B3SUM": "6569940a281247bb51fdf5ce66260f19b9f830297ee40d5ae216422aa9756475",
+    "SHA256": "da8e63170e0c922f9772d6686fe3a31e9663cf1cebfc0370c7e34f517f6b46b2",
     "Repo": "https://github.com/Brum3ns/encode"
   },
   {
@@ -2107,11 +2116,11 @@
   },
   {
     "Name": "fastfetch-staticx",
-    "Size": "1.56 MB",
-    "ModTime": "2024-05-14T01:56:50.359054704Z",
+    "Size": "1.6 MB",
+    "ModTime": "2024-05-14T09:08:17.477985642Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/fastfetch-staticx",
-    "B3SUM": "4a52b6db9c351d15eacd19fe3944c552f2438c54a4ba9978ab1dced4c05b39d1",
-    "SHA256": "54d1d020ca13279b774cf3e9a31fe78538ff719072695f75fe358a9e68995465",
+    "B3SUM": "9038cdf93ac9a0acf93cddd1042defb6fc8693aecec0fb5c335e726a293b4dad",
+    "SHA256": "5731e857adfbaa7bac5e9cb1343c3039d5b1a602acf1e915e2e999d7a7cd5f85",
     "Repo": "https://github.com/fastfetch-cli/fastfetch"
   },
   {
@@ -2386,11 +2395,11 @@
   },
   {
     "Name": "gau",
-    "Size": "8.24 MB",
-    "ModTime": "2024-04-20T03:17:41.303936037Z",
+    "Size": "8.23 MB",
+    "ModTime": "2024-05-14T09:08:18.097978109Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gau",
-    "B3SUM": "85ece0acd8b3a83834aa9abe535dbe0ee51e18174842c5f4f1d43440459b35f0",
-    "SHA256": "9cb9b020b0122d0bfc3bd2bf7248b75b13925cd28b502da707432fc930078cf2",
+    "B3SUM": "578314a5f689697902a74bf02d211bb2c47d8e2c4072e995c7b5912e0e0b700b",
+    "SHA256": "bafd150ac684553f69be5bf8aa05ffcd50ed30fe0d79a08358fdef5bce8be02a",
     "Repo": "https://github.com/lc/gau"
   },
   {
@@ -2503,11 +2512,11 @@
   },
   {
     "Name": "gickup",
-    "Size": "21.07 MB",
-    "ModTime": "2024-04-17T03:21:26.345990683Z",
+    "Size": "18.09 MB",
+    "ModTime": "2024-05-14T09:08:17.693983018Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gickup",
-    "B3SUM": "a674ba83188fc1baafdb953931f9b930492be44305c7c174456883cf8ec9b4c9",
-    "SHA256": "ad401ec7cba4f315f61f05f866cf1e6d63702ecb711ea0d84c966d252990afe0",
+    "B3SUM": "19e08bd88228fb2c487d4df94ae0afa06de2dfb8264ac8a4440f463ff3f9b1ef",
+    "SHA256": "71ac9df4df2ca0e91a46b1370c0019c6a0b2b30a7ba338f104e396ead7da4939",
     "Repo": "https://github.com/cooperspencer/gickup"
   },
   {
@@ -2521,29 +2530,29 @@
   },
   {
     "Name": "git-checkout",
-    "Size": "7.35 MB",
-    "ModTime": "2024-04-20T03:17:24.603723252Z",
+    "Size": "7.34 MB",
+    "ModTime": "2024-05-14T09:08:18.177977136Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-checkout",
-    "B3SUM": "c76e4e0c82883c1a5192f9859a91f192edbf481576e0b43fe06c997bdaa079bf",
-    "SHA256": "ed683f4f7694dae20e6b0c630f79997844c702e0bbfc92b37cba9203f7e193c7",
+    "B3SUM": "2369cc6744a9456cce4f6d28626a9af9463bfaa4db843a64adc37850a9853ee9",
+    "SHA256": "b717dffebdcd2d7e36618824ad885d00f09b35e0abfae9d3262a3ff64dccd04b",
     "Repo": "https://github.com/go-git/go-git"
   },
   {
     "Name": "git-cliff",
-    "Size": "13.6 MB",
-    "ModTime": "2024-04-13T02:56:26.405844911Z",
+    "Size": "12.22 MB",
+    "ModTime": "2024-05-14T09:08:15.666007655Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-cliff",
-    "B3SUM": "268e81f7ea572fb87e484fde8dc5bd6483bba044ffd8ab792411e85aef3e8058",
-    "SHA256": "e8feed5a31c4c722e0b694ed6c210c7c0d8ec94f413885aac3c01d2a18abe7dd",
+    "B3SUM": "da8ad2d278bf063038f9287030e499ebbd829f08110f28a2c1d53b0f4040e61f",
+    "SHA256": "84f79fb3d28f1d7772286e52b658f4d15456801d96260dc9314178c50c233d1b",
     "Repo": "https://github.com/orhun/git-cliff"
   },
   {
     "Name": "git-clone",
-    "Size": "7.35 MB",
-    "ModTime": "2024-04-20T03:17:28.067767292Z",
+    "Size": "7.34 MB",
+    "ModTime": "2024-05-14T09:08:11.902053352Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-clone",
-    "B3SUM": "078820d086ad40e9323c96bd28bb3c0950ed8c9c04a39d4e77eca1156c31b1ca",
-    "SHA256": "1700cb2fd52fb76f7fee6ea6ba05801f9b78bf1eb40e161ee324e3732f5a61e7",
+    "B3SUM": "fdcaf85925064dae6cfae3bd315c0763f84bb1422caf724feda691290392a150",
+    "SHA256": "f57a4e5545d810c9c0f9a09362492d03a828e18c11e68bf0ccffd25a58b2f731",
     "Repo": "https://github.com/go-git/go-git"
   },
   {
@@ -2557,20 +2566,20 @@
   },
   {
     "Name": "git-log",
-    "Size": "7.46 MB",
-    "ModTime": "2024-04-20T03:17:41.235935151Z",
+    "Size": "7.45 MB",
+    "ModTime": "2024-05-14T09:08:17.545984816Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-log",
-    "B3SUM": "b25d795bf11a107d58a9ad522eda0579ac8cab81dae1aa1fcbd21f14cee680ba",
-    "SHA256": "a3c06a03a5f81fc0278a14dd940b04f7bf46cdca34d170ce161432eec8d1f3e1",
+    "B3SUM": "d292f18f55330965eca433ccfcb1a06b57805e214c58975a0cdbf137fb825079",
+    "SHA256": "1cbd76cf1957294ee4c873ce3ee3c5ac34fcec531558567c43ca3ce4bc17a887",
     "Repo": "https://github.com/go-git/go-git"
   },
   {
     "Name": "git-pull",
-    "Size": "7.33 MB",
-    "ModTime": "2024-04-20T03:17:40.415924471Z",
+    "Size": "7.32 MB",
+    "ModTime": "2024-05-14T09:08:12.262048982Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-pull",
-    "B3SUM": "e9eb02ce28397f205af93adf974295760269f704163e2f4319b2c3cf2195a63f",
-    "SHA256": "f92bca98cc8bbc2b71e1d361684a68c5a5e0b79b5d8e1a057d28dbe399d21676",
+    "B3SUM": "c515c381a6c1421962861c78ac4971dd0b0e0eafc8bda9486c8a01c87dfefe02",
+    "SHA256": "c74398152c352b170c3c97dd746880fb5757f9dc2bb653b98139247a8054b155",
     "Repo": "https://github.com/go-git/go-git"
   },
   {
@@ -2584,11 +2593,11 @@
   },
   {
     "Name": "git-tag",
-    "Size": "5.34 MB",
-    "ModTime": "2024-04-20T03:17:43.011958282Z",
+    "Size": "5.33 MB",
+    "ModTime": "2024-05-14T09:08:12.930040874Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/git-tag",
-    "B3SUM": "bf43ff48b7f3cbedbdd297f47e03e99a87850fb53ff96699458a6c9143768503",
-    "SHA256": "02b5c3ff66ef8656e5cfa171fea9224512f0a9288b43ccb04059f9375d29e770",
+    "B3SUM": "32ac44b2e56b1215ad287d36565af7c60000ea665192df284ccfca11454168e5",
+    "SHA256": "103495f2d2aebcc4d5248c4eaa47aabee903fdfcb8f13c9470f1ae3ab34d20a7",
     "Repo": "https://github.com/go-git/go-git"
   },
   {
@@ -2638,11 +2647,11 @@
   },
   {
     "Name": "github-subdomains",
-    "Size": "5.47 MB",
-    "ModTime": "2024-04-20T03:17:18.979651720Z",
+    "Size": "5.46 MB",
+    "ModTime": "2024-05-14T09:08:14.986015914Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/github-subdomains",
-    "B3SUM": "d1de74ba544cfa699605a2ec41ae7298dd8ed7ab456e54c288a9839ff301a4ba",
-    "SHA256": "c18b3ccbd96ba0c864ff69e50254bb285e8ba0a06e75026fadb5ad73784f7339",
+    "B3SUM": "f8de75278eae6551ac6606afcd94f7079ceb1ca70f9e0825d64a75d889fdab0c",
+    "SHA256": "da7f50142a8f506ae63f34e4b2e6f0ae42bb01318c3e738ef8ea95b25bd2703f",
     "Repo": "https://github.com/gwen001/github-subdomains"
   },
   {
@@ -2827,11 +2836,11 @@
   },
   {
     "Name": "golinkfinder",
-    "Size": "5.5 MB",
-    "ModTime": "2024-04-20T03:17:22.971702497Z",
+    "Size": "5.49 MB",
+    "ModTime": "2024-05-14T09:08:13.170037961Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/golinkfinder",
-    "B3SUM": "37ab75fd9bbdb9d32094602063af178e5f80185eee16692c00447f9a1eb25054",
-    "SHA256": "45d8ff448d0e43a72fb12a6c45ef4aaebe1719c41519d852ccc156257839d784",
+    "B3SUM": "3708a71bbc9804685ff2f38a7b0e624e156c89f9dc92aa9e193a6e71a82a77aa",
+    "SHA256": "fd3349f277fb74f1babcd2fd079ef568e1eee7291d83539853dbc0ca46905eda",
     "Repo": "https://github.com/0xsha/GoLinkFinder"
   },
   {
@@ -2980,11 +2989,11 @@
   },
   {
     "Name": "gron",
-    "Size": "5.45 MB",
-    "ModTime": "2024-04-20T03:17:41.199934682Z",
+    "Size": "5.44 MB",
+    "ModTime": "2024-05-14T09:08:16.845993321Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/gron",
-    "B3SUM": "df8a3d84f212c871a8e1eb74f357997ff5b0dea4155f979db330921441af5ded",
-    "SHA256": "808099a26c4fcd98d6ca0066d743bc95b2b3892dc25c15b00e603e312f511576",
+    "B3SUM": "4daf81d5f74f025619790785d41b14046e56a6ca6378d2463a564020c6993863",
+    "SHA256": "0c2f946c454c1508dfb8cd41c75c5be5d2acf3eb40afdfe134ecdfc171c8463a",
     "Repo": "https://github.com/tomnomnom/gron"
   },
   {
@@ -3097,11 +3106,11 @@
   },
   {
     "Name": "hakrevdns",
-    "Size": "2.2 MB",
-    "ModTime": "2024-04-20T03:17:25.127729915Z",
+    "Size": "2.19 MB",
+    "ModTime": "2024-05-14T09:08:15.058015039Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/hakrevdns",
-    "B3SUM": "d07bcffdd2a0ba5632f3588707df2f8c82c16d308670c70f3f44f65e7fb5ab38",
-    "SHA256": "c872859528c4253411349a4c6fe4f27e88d4d8011b81013687488c68fc855677",
+    "B3SUM": "59bc019519cdb4354629d3048563516714e9081c1f2700fa6bc52cc7c31fc796",
+    "SHA256": "6803d906125c0d5ef80b6be0e69ccd77cb31304d5ebc79efaa5ccac1f2f0d0f7",
     "Repo": "https://github.com/hakluke/hakrevdns"
   },
   {
@@ -3121,6 +3130,69 @@
     "B3SUM": "c024c2482820fe6df07f9a9db4811e1e945202c5a6ec8dcb70deb5ea6ea728d4",
     "SHA256": "aff1c33e9d1b4e4940c1261819fa101bec00bbda31eb81a9e55bda2d4e9bdfc9",
     "Repo": "https://github.com/OfriOuzan/HardeningMeter"
+  },
+  {
+    "Name": "hcxeiutool",
+    "Size": "46.7 kB",
+    "ModTime": "2024-05-14T09:08:11.118062866Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hcxeiutool",
+    "B3SUM": "49c9840bd51b36ec97e334b50dc7b37204787a017034ee774997d8091f2b86a9",
+    "SHA256": "99df899f6d950a8a66f30263d5b847b0016e8dc35df2786a0bbe54c2518395a2",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
+  },
+  {
+    "Name": "hcxhash2cap",
+    "Size": "71.38 kB",
+    "ModTime": "2024-05-14T09:08:14.322023976Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hcxhash2cap",
+    "B3SUM": "6010ec6853abe8438449926b95cf543f2856bb1fa021db32a72beb242c2f1394",
+    "SHA256": "6ac336f549e37dc3273a5039cd2f6fd471e4834278c10b96d56fcf4f5b3e3c6b",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
+  },
+  {
+    "Name": "hcxhashtool",
+    "Size": "6.11 MB",
+    "ModTime": "2024-05-14T09:08:12.230049371Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hcxhashtool",
+    "B3SUM": "16d20a4001d40d2cede93481cafb4a986908b323da7574d11fc6f43fbd78aada",
+    "SHA256": "fcd6cf8eaa0fd25c73a503795da34c8affd3f4619f74d1677e53241fc697e082",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
+  },
+  {
+    "Name": "hcxpcapngtool",
+    "Size": "3.76 MB",
+    "ModTime": "2024-05-14T09:08:17.421986322Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hcxpcapngtool",
+    "B3SUM": "a856dab9ad13c7d00295d0ac6e4d9d265cb529a479563df41e34d4bf5cd64fd4",
+    "SHA256": "90a3de54f3c4d32cb9936d85c9d318e6e3c5372fb82a8e13244a0fe3a343ed64",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
+  },
+  {
+    "Name": "hcxpmktool",
+    "Size": "3.6 MB",
+    "ModTime": "2024-05-14T09:08:14.862017419Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hcxpmktool",
+    "B3SUM": "d7dd5f22cd92aace250387fe988429762eec0bc4c286a2d46d50d297c430811e",
+    "SHA256": "bf2e26872183952c7c3ab41fbaeb1824cda409d69645306387878316f3c273f8",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
+  },
+  {
+    "Name": "hcxpsktool",
+    "Size": "3.66 MB",
+    "ModTime": "2024-05-14T09:08:12.910041117Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hcxpsktool",
+    "B3SUM": "c72cf61f239e8f5fef732d76ee6732fab4aa6166cbdaff051a347173017f1217",
+    "SHA256": "8189fc8e6a2bc95685489ee2b1e1f8d47b94ffcc6d66c64bf97d10cb49fc28a7",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
+  },
+  {
+    "Name": "hcxwltool",
+    "Size": "50.79 kB",
+    "ModTime": "2024-05-14T09:08:12.538045632Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/hcxwltool",
+    "B3SUM": "ae86e7c58412a63a8b70885281e35c51ee808f442f55e2a1fe27b1690fed12bb",
+    "SHA256": "3c9e2a5c25e4b3c73919ce02d01c708141d10ae7bb3d67c3f7532c3edf127dec",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
   },
   {
     "Name": "heacoll",
@@ -3368,19 +3440,19 @@
   {
     "Name": "iperf",
     "Size": "3.74 MB",
-    "ModTime": "2024-04-06T03:02:33.919380752Z",
+    "ModTime": "2024-05-14T09:08:18.133977671Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/iperf",
-    "B3SUM": "3fe51e6a53f985d516bf4071a72eb0910868e0e195fdc1ee386ce398ebe6f31f",
-    "SHA256": "de376f9b91187580c15d97c6ea9426ed4874dc5875fefcd0971ef2dc1c4be319",
+    "B3SUM": "cc9c987c42fdbd11fcda9fffc22c23bdbe59b2471d04bcedd5d363c5aa1ca4db",
+    "SHA256": "a45387d9575ca3ae3963d8d750bcbebdd080bd772c55e64fa796e228f9776af1",
     "Repo": "https://github.com/esnet/iperf"
   },
   {
     "Name": "iperf3",
-    "Size": "3.78 MB",
-    "ModTime": "2024-03-06T01:59:53.902327938Z",
+    "Size": "3.74 MB",
+    "ModTime": "2024-05-14T09:08:18.197976893Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/iperf3",
-    "B3SUM": "218c33c58de22ef25b389c70bebdff0985e85b16cc096e2e07caf3427faf48ef",
-    "SHA256": "8beca93c6b4756cb0beb83508ea001dd634cc10cd796a492d13581698e27193f",
+    "B3SUM": "cc9c987c42fdbd11fcda9fffc22c23bdbe59b2471d04bcedd5d363c5aa1ca4db",
+    "SHA256": "a45387d9575ca3ae3963d8d750bcbebdd080bd772c55e64fa796e228f9776af1",
     "Repo": "https://github.com/userdocs/iperf3-static"
   },
   {
@@ -3466,11 +3538,11 @@
   },
   {
     "Name": "jj",
-    "Size": "21.29 MB",
-    "ModTime": "2024-04-06T03:02:43.603401512Z",
+    "Size": "21.49 MB",
+    "ModTime": "2024-05-14T09:08:12.506046021Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/jj",
-    "B3SUM": "894e0bf70dcbd9b9b89d05f85a3d59643d03c8f386a15d003fa98b82b7922bdd",
-    "SHA256": "bea37f858d6a1af5cb99cc4bc062a26a518d016b4af32cfdf1d0ed66a98780a0",
+    "B3SUM": "d9457aa44edecc2f7676f9f407d604a2ed9ad29b8f6537a964bed5e165046c42",
+    "SHA256": "ee30959ddf2984b1b0391c1030f2e236f35588df3f785b66a58cd197d8a6110d",
     "Repo": "https://github.com/martinvonz/jj"
   },
   {
@@ -3880,11 +3952,11 @@
   },
   {
     "Name": "mabel",
-    "Size": "13.05 MB",
-    "ModTime": "2024-04-20T03:17:15.015601305Z",
+    "Size": "13.03 MB",
+    "ModTime": "2024-05-14T09:08:15.750006634Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mabel",
-    "B3SUM": "9b63ccc3b79ca59d5fa674568b03001581de7ba9870701dd973cfe5c42e34172",
-    "SHA256": "6562271686254d0a1ba9a529bba5a5b4506055c343370a4fbf10f8441853f5ce",
+    "B3SUM": "d3847eab7892d8f173dca94c671d5a37de1173a3db5dd2239dc426b931ddf941",
+    "SHA256": "44014d95505c9c6d5c3f1cab95b010a261c18ca4a3fc9090abe04023cf9ecd0a",
     "Repo": "https://github.com/smmr-software/mabel"
   },
   {
@@ -3916,11 +3988,11 @@
   },
   {
     "Name": "mailpit",
-    "Size": "19.67 MB",
-    "ModTime": "2024-04-13T02:55:50.993536081Z",
+    "Size": "19.77 MB",
+    "ModTime": "2024-05-14T09:08:16.941992154Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mailpit",
-    "B3SUM": "f47f33c673f856cd0d50d4309428bb1d9e3452ca3264ded2e7dbb8a463ec66d6",
-    "SHA256": "a4f4d8433e786046d99584554d77adbe7d0e4473b3db73364d0c23b3bc0e1695",
+    "B3SUM": "c7d4b6ffaff8b7373629446bebf4320bf2145dfc8d8cb46fb90192f86df999b3",
+    "SHA256": "7c2edbb67246925946d171b5dec3f389080bdab16e545d3383449d19d22643fd",
     "Repo": "https://github.com/axllent/mailpit"
   },
   {
@@ -3971,10 +4043,10 @@
   {
     "Name": "massdns",
     "Size": "112.99 kB",
-    "ModTime": "2024-04-20T03:56:42.080242300Z",
+    "ModTime": "2024-05-14T09:08:14.818017953Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/massdns",
-    "B3SUM": "3ff1c8c27c217ea1b6b261ee659827feb9046f48aaf7ff874da7a67bafcf569a",
-    "SHA256": "e48618cb4c8c4d8b07a50bb0c972c67b908f65247a15e674177f9d20ae76e27a",
+    "B3SUM": "870b0c939fd3347e785c2cbe81746d3a5e3bfd12f5fc9f1c0e8f424e95de298b",
+    "SHA256": "01f56cbd7361f7c43e7599fb3cd8ff87500248406c08535afda666eb0c1e07f7",
     "Repo": "https://github.com/blechschmidt/massdns"
   },
   {
@@ -4222,11 +4294,11 @@
   },
   {
     "Name": "mqttui",
-    "Size": "4.04 MB",
-    "ModTime": "2024-04-20T03:17:27.251756917Z",
+    "Size": "3.97 MB",
+    "ModTime": "2024-05-14T09:08:12.286048691Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/mqttui",
-    "B3SUM": "2d39c6fa2f6220aed3708ea10efb1d1ce20a4c4262533471ce5463b3d93dff69",
-    "SHA256": "519c7e742116b032b04979cc81ce481033199c1fb5bb14a394a119766fd4c755",
+    "B3SUM": "9f6ac71c4854c06630bbbca48cf4167d3020b61ba9fcb6be86d38835c689cf40",
+    "SHA256": "4280ed3bcc98135fbbf62264da26f10a2bc24295ccce102271f96bd59cdc0b34",
     "Repo": "https://github.com/EdJoPaTo/mqttui"
   },
   {
@@ -4618,11 +4690,11 @@
   },
   {
     "Name": "onetun",
-    "Size": "4.7 MB",
-    "ModTime": "2024-04-20T03:17:19.579659353Z",
+    "Size": "4.55 MB",
+    "ModTime": "2024-05-14T09:08:11.798054614Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/onetun",
-    "B3SUM": "2462d0fd69177dac447d9254ac2712c81d385ec8de9957866a6363a328d4e887",
-    "SHA256": "c7ff9d633c66c1eb6bdbc421a66ee7aa3546ce746adf84fe4d5e940e917199c2",
+    "B3SUM": "9b7782120ba0d3fc507b57a043114cbb44a87c775805d92947a9740315715030",
+    "SHA256": "e9dec505eb635b673b837611eefde208401076e84dfed60835380ace0cfddf90",
     "Repo": "https://github.com/aramperes/onetun"
   },
   {
@@ -4844,10 +4916,10 @@
   {
     "Name": "ping",
     "Size": "187.63 kB",
-    "ModTime": "2024-04-06T03:03:00.991439498Z",
+    "ModTime": "2024-05-14T09:08:13.054039369Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ping",
-    "B3SUM": "3b289ca8ac26165e2e41abc325f69528e3e7e5d4b71e84a028856876a768eb06",
-    "SHA256": "065c31c78de19865c6e56ab8eeca668622d124bb2490877bb64df34a08e6a87b",
+    "B3SUM": "d85f1b49ea5aafc942a64f3c7292b5cde1e5f0d70f740414b110a83f3a151bd9",
+    "SHA256": "e662dc15666b26d2ac2fd4180d3f042b3c82bb3b96536abfd1d3260cc96bb2a5",
     "Repo": "https://github.com/iputils/iputils"
   },
   {
@@ -4870,20 +4942,20 @@
   },
   {
     "Name": "pixi",
-    "Size": "33.54 MB",
-    "ModTime": "2024-04-20T03:17:24.223718422Z",
+    "Size": "35.22 MB",
+    "ModTime": "2024-05-14T09:08:14.130026307Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pixi",
-    "B3SUM": "863b68adc07543fc5a1d9806d8d38c6477cfd170c01b227b6d0b646c296cf2b4",
-    "SHA256": "224a19096d11494604bba0ac10c0f3c81407b3c949a52187a4b59476ce509075",
+    "B3SUM": "8267e1163511f5349d35ad97a18372c83682360361242d7980ffdc99a609ceee",
+    "SHA256": "05c46382335b592afaab6e0cf719bf2586f8f1bc11e560c9357621b82459c796",
     "Repo": "https://github.com/prefix-dev/pixi"
   },
   {
     "Name": "pkgtop",
-    "Size": "2.32 MB",
-    "ModTime": "2024-04-20T03:17:25.243731389Z",
+    "Size": "2.31 MB",
+    "ModTime": "2024-05-14T09:08:17.493985448Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/pkgtop",
-    "B3SUM": "046ea3e67e63661849a9dea80761d5baf8d5e30e4a05bafbc80b4d7acabbb383",
-    "SHA256": "7d94c4d150dea60e91ebc98d08d1f33f05ef43ec5ae052b205ea143835959cd7",
+    "B3SUM": "ceacf899708cc4b691452907581909175c9078a0e530ddaff2ea11b1caa4d525",
+    "SHA256": "2bc9580d215f71c015fbaa43a5d76a7d8ca5a1dae78c0268d6a409f867ca1c74",
     "Repo": "https://github.com/orhun/pkgtop"
   },
   {
@@ -4915,11 +4987,11 @@
   },
   {
     "Name": "ppath",
-    "Size": "1.34 MB",
-    "ModTime": "2024-04-20T03:17:07.763509072Z",
+    "Size": "1.33 MB",
+    "ModTime": "2024-05-14T09:08:14.242024947Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ppath",
-    "B3SUM": "3ca5daca46b04f597be03737f7e61ac9881d8ef1f1531549e1d0306dde3c7881",
-    "SHA256": "f730df8b9136ba0255a6fd6af525b1e5ebb2a979b35fe899cc7e08389886749c",
+    "B3SUM": "f41da0700fe7309127beecfb8c77f29e7c59c986c88a4462b72d370f84e72350",
+    "SHA256": "c78b9a4f43e1ee777c1a0f2e9a00771fec801d9dee80155bf52396239109bebc",
     "Repo": "https://github.com/marwanhawari/ppath"
   },
   {
@@ -5411,10 +5483,10 @@
   {
     "Name": "quickcert",
     "Size": "7.87 MB",
-    "ModTime": "2024-04-20T03:17:17.279630097Z",
+    "ModTime": "2024-05-14T09:08:11.038063837Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/quickcert",
-    "B3SUM": "9ee3cae1c4be4f68a10d814e71650fceeb70dcc7c0771af5d683d1b8f7bc4d03",
-    "SHA256": "c265274b6ef1b2028147bffc524db7c46b67f5cee78a7255aeae8d56588654c1",
+    "B3SUM": "defebe3d045de980490ad7f68563b0dc1c38bf7d6fe03d060065299a6ccd8260",
+    "SHA256": "6eeed346fe7ff1388a517c087dd4cb01844bdfbec2a49636c0d6544ec2b5e879",
     "Repo": "https://github.com/c3l3si4n/quickcert"
   },
   {
@@ -5473,11 +5545,11 @@
   },
   {
     "Name": "rattler-build",
-    "Size": "32.98 MB",
-    "ModTime": "2024-04-20T03:17:40.771929107Z",
+    "Size": "23.33 MB",
+    "ModTime": "2024-05-14T09:08:12.386047477Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/rattler-build",
-    "B3SUM": "f3f830532d072293f8f03e5e3d26dd4fa2f89f3c555c85cbb638427f6e1e7d8f",
-    "SHA256": "5f43736e23e8f86614aa4fe0a1a34b1aec1c7f688d8cdb3c184a839059e94947",
+    "B3SUM": "2c3b5199ac7e86ae2ba4bec75e2636632367b193de08b1c591c4d0da551bc2f9",
+    "SHA256": "db47e1f382c4cd2c57138bad72750187291415e9794c5cb53b101a8dd91a0c4a",
     "Repo": "https://github.com/prefix-dev/rattler-build"
   },
   {
@@ -5536,11 +5608,11 @@
   },
   {
     "Name": "recollapse_staticx",
-    "Size": "7.47 MB",
-    "ModTime": "2024-04-20T03:17:33.039830514Z",
+    "Size": "8.62 MB",
+    "ModTime": "2024-05-14T09:08:14.282024461Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/recollapse_staticx",
-    "B3SUM": "710f3deeb1f1eba5f7a50833bd4d5d0f747f45a3c01313b075334ad98aefe193",
-    "SHA256": "a1c6dd5f1621ae0cb3cfe1cd9346565ba5314e3d58cb4e6dd2f4a983d3016a37",
+    "B3SUM": "27a90ee49a7880b9b39ac80395c3e5ef8b98b19bdaf6c64c3154e135dc4ebc5e",
+    "SHA256": "53c22aa04c73f99f4884348b182150576a92581cb7f3bdde944aac86cbec241f",
     "Repo": "https://github.com/0xacb/recollapse"
   },
   {
@@ -5779,11 +5851,11 @@
   },
   {
     "Name": "ropr",
-    "Size": "3.06 MB",
-    "ModTime": "2024-04-10T03:27:59.246475117Z",
+    "Size": "2.97 MB",
+    "ModTime": "2024-05-14T09:08:16.022003331Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ropr",
-    "B3SUM": "6ff3cdc3298db65ec0d9ca5b58ea7cbe434aa97121aee9d5263118ae4785c681",
-    "SHA256": "7b2147520709fca434a16c9d44ad332c1d0321af1367abee435cdf4947726d85",
+    "B3SUM": "df22ae2ba9694153ea91d1d6ccddb5da49b220699e8e404bbd823517a25300cb",
+    "SHA256": "8efcd2c705b488e7db64dfa0cf6e931b3d9191f262e5480e07e8bf10dda3076f",
     "Repo": "https://github.com/Ben-Lichtman/ropr"
   },
   {
@@ -5869,11 +5941,11 @@
   },
   {
     "Name": "runiq",
-    "Size": "2.64 MB",
-    "ModTime": "2024-04-20T03:17:18.351643732Z",
+    "Size": "2.54 MB",
+    "ModTime": "2024-05-14T09:08:16.050002991Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/runiq",
-    "B3SUM": "fd94a9413606a5e741e021cee1cc3e63375cc6afc8fe40cff5cd3a9d7766f913",
-    "SHA256": "7869a878683dd1843755b42799eb71e57249ace3f8ddff18f70e7055151dfc2b",
+    "B3SUM": "851aaea516aba47481ef2176c1a647c4a081ba10bdce217708f180a788020e06",
+    "SHA256": "8f94a634c8124e1ca80bfed5ae651e62568c4abbcfe5ea4f49c41cc8862fa770",
     "Repo": "https://github.com/whitfin/runiq"
   },
   {
@@ -6013,11 +6085,11 @@
   },
   {
     "Name": "sbctl",
-    "Size": "5.88 MB",
-    "ModTime": "2024-03-06T01:59:22.270230421Z",
+    "Size": "6.18 MB",
+    "ModTime": "2024-05-14T09:08:12.966040437Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sbctl",
-    "B3SUM": "9c7150b877a0e188e50d1636b942ccae178898b3bf7f1c6307b857c50b6a69fe",
-    "SHA256": "c7ddced5e629e8b123bc8bcbdc9a1bf40b874d26a1d5a7d24a97c693bf86c253",
+    "B3SUM": "efb7ed99dc02cb0edfdf2979889ca1456519dc0877ee38b65e5add4bfd668d60",
+    "SHA256": "86f62e3b7cf6b1c6b08d404d530cef9c13b4c66f033e83ba4ff6753e635686b8",
     "Repo": "https://github.com/Foxboron/sbctl"
   },
   {
@@ -6337,11 +6409,11 @@
   },
   {
     "Name": "sqlc",
-    "Size": "31.21 MB",
-    "ModTime": "2024-04-20T03:17:19.171654162Z",
+    "Size": "31.11 MB",
+    "ModTime": "2024-05-14T09:08:15.574008772Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/sqlc",
-    "B3SUM": "04b9e014bba700860f215a52b9731b54cd558fd0e575659eda7aa348b521c19c",
-    "SHA256": "498bc58ad3e50f0faa2ee433ae2005a11222389c4fb098f5e73dd861ecf70b0c",
+    "B3SUM": "25692d458289a334c9f197e32c34e024686a5bd81fa44d0a1eaecb57dcaf5bef",
+    "SHA256": "a8f308b4650a5ccf79bc06fb0d4fe74b776efb638559bf9fb24f42a01c668f94",
     "Repo": "https://github.com/kost/sqlc"
   },
   {
@@ -6535,11 +6607,11 @@
   },
   {
     "Name": "stress-ng",
-    "Size": "5.05 MB",
-    "ModTime": "2024-04-08T03:25:18.617659636Z",
+    "Size": "5.17 MB",
+    "ModTime": "2024-05-14T09:08:12.618044661Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/stress-ng",
-    "B3SUM": "24124926ecba3821d1b4a9f82dd41b9f75a8f8552e4e0a68fab08c44f2db2805",
-    "SHA256": "b50c95991bb6dd3569642c290ec5dcb9e9f922848bc21a1d86bab2738e0011d8",
+    "B3SUM": "4d39c30b48026724182d72a17da6c2a391cf0e5fe3d183e6bbe483e8e6c722de",
+    "SHA256": "0489db93f5660dfa486bb92996d5f7995f64ae87cbe3217df6151a6923319faf",
     "Repo": "https://www.gnu.org/software/stress-ng/"
   },
   {
@@ -6697,11 +6769,11 @@
   },
   {
     "Name": "surf",
-    "Size": "34.32 MB",
-    "ModTime": "2024-04-20T03:17:43.487964481Z",
+    "Size": "34.31 MB",
+    "ModTime": "2024-05-14T09:08:16.765994293Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/surf",
-    "B3SUM": "258cc67350e4508a0e2f45d2ce03d3a8dba3e49121002bc60b4e4e6a8b0fe86e",
-    "SHA256": "7596df13701232b0a59a8578cd453f9fdff6849196493bf1d37d1cc7f840fa90",
+    "B3SUM": "992754f6ceba1f95da2d912551a2d38cfef0dcd4c2a94f2ad9043f4050fee8dd",
+    "SHA256": "b84e72ff4e89a5e8138d3a1584e5e412ede9a88782597ecbeb5534fae6a8748b",
     "Repo": "https://github.com/assetnote/surf"
   },
   {
@@ -6796,11 +6868,11 @@
   },
   {
     "Name": "systemctl-tui",
-    "Size": "7.82 MB",
-    "ModTime": "2024-04-20T03:17:29.067780005Z",
+    "Size": "7.45 MB",
+    "ModTime": "2024-05-14T09:08:17.401986566Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/systemctl-tui",
-    "B3SUM": "04dec66433ab9a08eb5e58c67615af53c3e7b4d8cc7c0fbf22f6d81e537e63f1",
-    "SHA256": "ba11004db3ee16ed7bfc7abbb042f16771db3bc960b67c180b85a6e2028c9a67",
+    "B3SUM": "25502363804a905549d10e461c09469a4411dae18b4835d86c9dd232734a8a2a",
+    "SHA256": "84c03463dd52ab07d4ac6df30d7a1a26bc1c92bea731a0455c46e1cebd210dc3",
     "Repo": "https://github.com/rgwood/systemctl-tui"
   },
   {
@@ -7040,10 +7112,10 @@
   {
     "Name": "tracepath",
     "Size": "83.57 kB",
-    "ModTime": "2024-04-06T03:02:55.723427974Z",
+    "ModTime": "2024-05-14T09:08:16.853993224Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/tracepath",
-    "B3SUM": "5fb7773f9908fe30294c5e90e7804dda05ed29824da6d9a9faab75658b99c558",
-    "SHA256": "c8037e70b5f900b15b33fc0f103dbb39e9d2dae90625a7acba0178e7a83cb6c5",
+    "B3SUM": "0adc11bf3bd078da829947a643e84299138ce311acd1eb4dcf2faeaab81e7e8a",
+    "SHA256": "993bd1c0dffd167eb9254f7fdad27af5180f030ebb6127cc147ec6aaed3a641d",
     "Repo": "https://github.com/iputils/iputils"
   },
   {
@@ -7066,11 +7138,11 @@
   },
   {
     "Name": "trip",
-    "Size": "7.29 MB",
-    "ModTime": "2024-04-20T03:17:41.267935567Z",
+    "Size": "7.19 MB",
+    "ModTime": "2024-05-14T09:08:15.838005566Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/trip",
-    "B3SUM": "d3f5ce561c2accdd277f3a905331558f050b9666ad650e0ecbb5864962666328",
-    "SHA256": "053eaf97210140a947705ed0d07418af12757c3b43a891f3f476b257fdf8b3da",
+    "B3SUM": "5c5a12aabaf62ec178fcc0c426e3433fd13c9dc4b9b92e8e99a269ace0686499",
+    "SHA256": "d04ce7285e7487db2501d43a07ccd7fe03866d9e9f25b27609c1b399172055b0",
     "Repo": "https://github.com/fujiapple852/trippy"
   },
   {
@@ -7165,29 +7237,29 @@
   },
   {
     "Name": "twingate-connector",
-    "Size": "17.98 MB",
-    "ModTime": "2024-04-13T02:56:02.373648264Z",
+    "Size": "18.33 MB",
+    "ModTime": "2024-05-14T09:08:13.134038398Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-connector",
-    "B3SUM": "49457ce781893c2e6048bd7f6cdeca9df21b731a686026ffc2e82b0ebefabf79",
-    "SHA256": "6667a1bfa65440fd0cb7cbb0e741f2ef541e9567a27a7b9f3533f92ba0c74d1c",
+    "B3SUM": "f00d9800fcc27a737479e188a5aaa25b5fcc2fef42e79cd988cc547f426e1488",
+    "SHA256": "b9ef9b231eca237216286294943748bf83ca22fb0133bd0cb4b893bebd3359eb",
     "Repo": "https://www.twingate.com/"
   },
   {
     "Name": "twingate-connector-staticx",
-    "Size": "7.29 MB",
-    "ModTime": "2024-04-13T02:56:11.929724122Z",
+    "Size": "7.33 MB",
+    "ModTime": "2024-05-14T09:08:11.522057963Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-connector-staticx",
-    "B3SUM": "8f10ef64078cfe2d0294c0dd152f1e22867004d6f2c9369f282c89fa0a2b1618",
-    "SHA256": "de41b3a9da267b7304bbfde646856b93ce3b82a5245e9171f36a29b63cee1830",
+    "B3SUM": "d7e96639aca1fc6f6c49b09bfc6cd4fe911b73a4d576d49b02fba1a3bd20d769",
+    "SHA256": "11a822fdb875a1b6ed0e59b255381d90f3ea60effe0248610d02869f1ece7bdc",
     "Repo": "https://www.twingate.com/"
   },
   {
     "Name": "twingate-connectorctl",
     "Size": "4.55 MB",
-    "ModTime": "2024-04-13T02:56:05.141669932Z",
+    "ModTime": "2024-05-14T09:08:11.858053885Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/twingate-connectorctl",
-    "B3SUM": "fa2025a6b65d55006f300124e382da5b56a48e6c2c3c41bedabf339567d395c5",
-    "SHA256": "5e140fcab4eae39f7112be1614187a67e292b3b5811dd96866b85f7c1988f984",
+    "B3SUM": "90af251b7776fa36fed68676a376a8d412f691071d3ddf97a9a82f45fe58a368",
+    "SHA256": "a36e0b4b746d4ecde2a425bd2c80f3418f0d677dcba9403deefdce600c70a391",
     "Repo": "https://www.twingate.com/"
   },
   {
@@ -7273,20 +7345,20 @@
   },
   {
     "Name": "unf",
-    "Size": "2.81 MB",
-    "ModTime": "2024-04-10T03:28:08.034560529Z",
+    "Size": "2.8 MB",
+    "ModTime": "2024-05-14T09:08:17.217988802Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/unf",
-    "B3SUM": "da6ca095516abe95954261fefd2b5a9ae5eee93cb80fcf59bd2e9d95962abecb",
-    "SHA256": "aae4cdd99987738cdd3d67390080720b2e684d6910b6cfed511d15861b019a9d",
+    "B3SUM": "716b74079e036624d78ede92969a7953736c48ff70a179f9ce7e01b0acdedcc0",
+    "SHA256": "3c737dcc5940a09cd5e924477b296e5399d304ed3958a74f9aeabfaded4d2efd",
     "Repo": "https://github.com/io12/unf"
   },
   {
     "Name": "unfurl",
-    "Size": "5.32 MB",
-    "ModTime": "2024-04-20T03:17:46.964009754Z",
+    "Size": "5.31 MB",
+    "ModTime": "2024-05-14T09:08:16.821993613Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/unfurl",
-    "B3SUM": "c97da43e4fb3ace04b89b69f1be38b7990d16a14f1b8fa2204435584f13926ed",
-    "SHA256": "4c9ce02bb861968e120d20bda777c95a2259966c83fc3e2c221be218282f6ed4",
+    "B3SUM": "58e978021088eb46bc85a20329e36de4a3b1517f5e364c54670ef3f1e62462e8",
+    "SHA256": "6c87de7184b470dae91c34e4eda2417e1ff4b6cd48441ecca17561fe06b0ab5d",
     "Repo": "https://github.com/tomnomnom/unfurl"
   },
   {
@@ -7318,11 +7390,11 @@
   },
   {
     "Name": "upx",
-    "Size": "561.6 kB",
-    "ModTime": "2024-03-30T02:33:13.526614487Z",
+    "Size": "563.19 kB",
+    "ModTime": "2024-05-14T09:01:39.962542706Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/upx",
-    "B3SUM": "640ffd4c398b349394f51dd2c553e1c7b79b8855f48a628e9af7b1f49a7b2b6d",
-    "SHA256": "1dbdeb502fc80807af72560b0c361fd073c714fb68d429dfedf83597d36db2f3",
+    "B3SUM": "252f996b143317f1f661dfc00ef84e42d98f1a7bcec8b9e70c1aa662588007bf",
+    "SHA256": "746af4b1b8c230641d772d6a1ba645f606ac1e7a43951247477f239f29346fad",
     "Repo": "https://github.com/upx/upx"
   },
   {
@@ -7489,11 +7561,11 @@
   },
   {
     "Name": "vproxy",
-    "Size": "9.13 MB",
-    "ModTime": "2024-04-20T03:17:17.607634268Z",
+    "Size": "8.44 MB",
+    "ModTime": "2024-05-14T09:08:13.026039709Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/vproxy",
-    "B3SUM": "9d86681162055a562adb8d50ffad7168091b7c769121a781bd2c34ca040da899",
-    "SHA256": "68db3cff9e63b965fcdf915e932dc14521bbdebfa865a9278297554a444498ac",
+    "B3SUM": "da15b1b92f18a168f898c516cdf4705215861ee1f0915bcb41c99911defd4716",
+    "SHA256": "b850fd182562a5eee5937fe26b3aed6fd15be9e6524cc12be490ba033622c53e",
     "Repo": "https://github.com/gngpp/vproxy"
   },
   {
@@ -7615,11 +7687,11 @@
   },
   {
     "Name": "web-cache-vulnerability-scanner",
-    "Size": "5.84 MB",
-    "ModTime": "2024-04-20T03:17:32.715826391Z",
+    "Size": "5.83 MB",
+    "ModTime": "2024-05-14T09:08:11.594057089Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/web-cache-vulnerability-scanner",
-    "B3SUM": "a7a8c54a2323110b2a60310bd1156be867a6f023561aace986d57b22199b5271",
-    "SHA256": "2303ca79c9c1b8db9444edd4b6dfe1f9b0818119dbb92eba9b1a4716d92890f8",
+    "B3SUM": "2cfa2c44718ccfd37808f366f43f05801d31e8f487f107f40ea5f0ba4a4b878a",
+    "SHA256": "df3985c570d7f36546ae062e5e7fee7e6582808eff6fe0792a78b0585d1bd4e1",
     "Repo": "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner"
   },
   {
@@ -7661,10 +7733,10 @@
   {
     "Name": "wget",
     "Size": "5.69 MB",
-    "ModTime": "2024-04-06T03:03:07.483453288Z",
+    "ModTime": "2024-05-14T09:08:16.989991572Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wget",
-    "B3SUM": "8d6317c6f8ef9413ea98cacf57c4e800fe8b725da0ce9489a699847b9074ccd0",
-    "SHA256": "be633e4d17c45bfb03157d321319b72dac6164561dc560a10f313ece4fbee275",
+    "B3SUM": "da4795533338d44b2ad30e34351e96fa2089b3a5362941caeb118e1b50cae706",
+    "SHA256": "a8e1f9928af1a28a06781211f0a00c2fe08ad5436302e667414fc542e4c1feff",
     "Repo": "https://www.gnu.org/software/wget/"
   },
   {
@@ -7677,6 +7749,15 @@
     "Repo": "https://packages.qa.debian.org/w/whois.html"
   },
   {
+    "Name": "whoismac",
+    "Size": "6.05 MB",
+    "ModTime": "2024-05-14T09:08:15.618008237Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/whoismac",
+    "B3SUM": "109aa223a5762c479461a809e1b5e396528740be636bd39529502316cece3a89",
+    "SHA256": "829c591861bdcf26b6f4f47a5ea8c1a1b8dfa2c9dedd7c26d3256095b94de119",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
+  },
+  {
     "Name": "wireguard-go",
     "Size": "2.85 MB",
     "ModTime": "2024-04-20T03:17:45.847995219Z",
@@ -7687,11 +7768,11 @@
   },
   {
     "Name": "wireguard-rs",
-    "Size": "3.09 MB",
-    "ModTime": "2024-04-10T03:28:00.154483961Z",
+    "Size": "2.99 MB",
+    "ModTime": "2024-05-14T09:08:12.130050584Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/wireguard-rs",
-    "B3SUM": "e467e37bbda241d60c93b41386ef24ab7c1c79dad3e5f91d866c9233fc167e5c",
-    "SHA256": "51bad3ec80bfe3e6d8567ee8ef4c2916b81cb40e86b10bc90f1ab81fb757bd37",
+    "B3SUM": "29b81ed1244f2c0479766884fa00fb8f0f302d79b5e9568930339561ac5129a6",
+    "SHA256": "385a570b14d86ae1704eeca48b5ea28a09c3cc0db0631cbec2b99ef77dd4fd04",
     "Repo": "https://git.zx2c4.com/wireguard-rs"
   },
   {
@@ -7711,6 +7792,15 @@
     "B3SUM": "18607b5b4b6891cea36fd43edd8e2eabd88a0b4927ba19a1cc6c282ca8fa847d",
     "SHA256": "4f9e6c5f61acaecb5680c832a5e948c0ceec3b2ea3bb7560460e26a612651121",
     "Repo": "https://github.com/sandialabs/wiretap"
+  },
+  {
+    "Name": "wlancap2wpasec",
+    "Size": "6.05 MB",
+    "ModTime": "2024-05-14T09:08:17.749982338Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/wlancap2wpasec",
+    "B3SUM": "d5acd0fee2db4e08067c723404282198b0728dbe9c6a2628e49722bc5ba037a7",
+    "SHA256": "afb153e6e4365798840376b2a231c10ebca2dbcad7a7811daa14392d941e7a1f",
+    "Repo": "https://github.com/checkpoint-restore/hcxtools"
   },
   {
     "Name": "wormhole-rs",
@@ -8039,10 +8129,10 @@
   {
     "Name": "yj",
     "Size": "2.93 MB",
-    "ModTime": "2024-04-20T03:17:38.403898787Z",
+    "ModTime": "2024-05-14T09:08:14.162025918Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/yj",
-    "B3SUM": "bb4eaa475ff390ba1d95eb59485c1e545e70be3e2dbc2075ed38e28e8f4535de",
-    "SHA256": "6237faf40fde64267a2964db7a3b9bc233300255cfec6b9aae686671418109f7",
+    "B3SUM": "12092e6dd1f39b4b7190281687e75d11084ae74a8fad789d5bb9de6875f85f2e",
+    "SHA256": "d0b3b0109f36de50b019e355aff57fad05231cea86d009d81193df2517aab0e7",
     "Repo": "https://github.com/sclevine/yj"
   },
   {
@@ -8119,11 +8209,11 @@
   },
   {
     "Name": "zfxtop",
-    "Size": "1.71 MB",
-    "ModTime": "2024-04-20T03:17:49.040036516Z",
+    "Size": "1.7 MB",
+    "ModTime": "2024-05-14T09:08:16.062002846Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/zfxtop",
-    "B3SUM": "d74a4c54b8426900ec33b39b330cd5c430a6fc9d702fecfdf4c8c2f1e157088c",
-    "SHA256": "014d8e03f37dc881e216ab8799f9fefa8c953c83c340ce5555764a5c79b91019",
+    "B3SUM": "8c053c3d01e0ea4ca1981f119bfd0463cb3eb54b5d83576fe1895d064d4e528e",
+    "SHA256": "da5b6e32e491bb4a926077ca14e9b243187150e42092de2c865806f83c559ada",
     "Repo": "https://github.com/ssleert/zfxtop"
   },
   {
