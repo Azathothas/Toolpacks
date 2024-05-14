@@ -53,10 +53,13 @@
  
 #-------------------------------------------------------#
 ##Sanity Checks
-#eget
 if [[ -n "$GITHUB_TOKEN" ]]; then
-   # 5000 req/minute (80 req/minute)
    echo -e "\n[+] GITHUB_TOKEN is Exported"
+  ##gh-cli (uses $GITHUB_TOKEN env var)
+   #echo "$GITHUB_TOKEN" | gh auth login --with-token
+   gh auth status
+  ##eget
+   # 5000 req/minute (80 req/minute)
    eget --rate
 else
    # 60 req/hr

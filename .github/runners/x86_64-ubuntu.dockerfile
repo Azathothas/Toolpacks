@@ -116,8 +116,8 @@ RUN <<EOS
  #Addons
  #https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/install_bb_tools.sh
  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh" -o "./tools.sh"
- dos2unix --quiet "./tools.sh"
- bash "./tools.sh" 2>/dev/null || true ; rm -rf "./tools.sh"
+ dos2unix --quiet "./tools.sh" && chmod +x "./tools.sh"
+ INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux" bash "./tools.sh" 2>/dev/null || true ; rm -rf "./tools.sh"
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -144,13 +144,13 @@ RUN <<EOS
  #Untar
   tar xzf "./runner.tar.gz" && rm "./runner.tar.gz"
  #Run Install
-  chmod +xwr "./bin/installdependencies.sh" && bash "./bin/installdependencies.sh"
+  chmod +x "./bin/installdependencies.sh" && bash "./bin/installdependencies.sh"
  #Remove cache 
   rm -rf "/var/lib/apt/lists/"* 2>/dev/null
 EOS
 #Copy startup script
 COPY "./startup.sh" "/usr/local/bin/startup.sh"
-RUN chmod +xwr "/usr/local/bin/startup.sh"
+RUN chmod +x "/usr/local/bin/startup.sh"
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
@@ -193,7 +193,7 @@ RUN <<EOS
  #s6-overlays & Init Deps
   apt-get update -y && apt-get install -y xz-utils
   wget --quiet --show-progress "$INSTALL_SRC/eget" -O "/usr/local/bin/eget"
-  chmod +xwr "/usr/local/bin/eget"
+  chmod +x "/usr/local/bin/eget"
  #Switch to temp
   cd "$(mktemp -d)" >/dev/null 2>&1
  #Get latest Tars
