@@ -29,9 +29,13 @@ fi
 if [ -z "$DOCKER_CONTAINER_IMAGE" ]; then
  echo -e "\n[+] Setting Default Container Image: azathothas/gh-runner-aarch64-ubuntu"
   export DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-aarch64-ubuntu"
+  docker rmi "${DOCKER_CONTAINER_IMAGE}" --force 2>/dev/null
+  docker pull "${DOCKER_CONTAINER_IMAGE}" --quiet 2>/dev/null
 else
  export DOCKER_CONTAINER_IMAGE="${DOCKER_CONTAINER_IMAGE}"
  echo -e "\n[+] Setting Default Container Image: ${DOCKER_CONTAINER_IMAGE}"
+ docker rmi "${DOCKER_CONTAINER_IMAGE}" --force 2>/dev/null
+ docker pull "${DOCKER_CONTAINER_IMAGE}" --quiet 2>/dev/null
 fi
 #Env File
 if [ -z "$DOCKER_ENV_FILE" ]; then
@@ -64,9 +68,9 @@ fi
 #------------------------------------------------------------------------------------#
 #Stop Existing
 echo -e "\n[+] Cleaning PreExisting Container\n"
-sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null &
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" --force 2>/dev/null &
 wait
-sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" 2>/dev/null && sleep 5
+sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" --force 2>/dev/null && sleep 5
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${DOCKER_LOG_FILE})\n"
 set -x && nohup sudo docker run --runtime "sysbox-runc" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
@@ -100,7 +104,7 @@ echo -e "\n\n[+] Completed Runner ${DOCKER_CONTAINER_NAME} (LOGFILE: ${DOCKER_LO
 sed '/^$/d' "${DOCKER_LOG_FILE}"
 echo -e "\n\n[+] Listing All Running Containers\n"
 sudo docker ps ; echo
-echo -e 'RUN (Remove ALL Containers): sudo docker ps -aq | xargs sudo docker stop 2>/dev/null && sudo docker rm "$(docker ps -aq)"' && echo
+echo -e 'RUN (Remove ALL Containers): sudo docker ps -aq | xargs sudo docker stop --force 2>/dev/null && sudo docker rm "$(docker ps -aq)" --force' && echo
 echo -e 'RUN (Remove ALL Images): sudo docker rmi -f $(docker images -q) >/dev/null 2>&1' && echo
 #EOF
 #------------------------------------------------------------------------------------#
