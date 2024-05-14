@@ -117,7 +117,7 @@ RUN <<EOS
  #https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/install_bb_tools.sh
  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh" -o "./tools.sh"
  dos2unix --quiet "./tools.sh"
- INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux" bash "./tools.sh" 2>/dev/null || true ; rm -rf "./tools.sh"
+ bash "./tools.sh" 2>/dev/null || true ; rm -rf "./tools.sh"
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -192,7 +192,7 @@ EOS
 RUN <<EOS
  #s6-overlays & Init Deps
   apt-get update -y && apt-get install -y xz-utils
-  wget --quiet --show-progress "${INSTALL_SRC}/eget" -O "/usr/local/bin/eget"
+  wget --quiet --show-progress "$INSTALL_SRC/eget" -O "/usr/local/bin/eget"
   chmod +xwr "/usr/local/bin/eget"
  #Switch to temp
   cd "$(mktemp -d)" >/dev/null 2>&1
@@ -233,8 +233,8 @@ ENTRYPOINT ["/init"]
 ##Setup TailScale (sudo tailscale up --authkey="$TSKEY" --ssh --hostname="$TS_NAME" --accept-dns="true" --accept-risk="all" --accept-routes="false" --shields-up="false" --advertise-exit-node --reset)
 RUN <<EOS
   ##Install TailScale [static]
-  curl -qfsSL "${INSTALL_SRC}/tailscale" -o "/usr/bin/tailscale" ; chmod +x "/usr/bin/tailscale"
-  curl -qfsSL "${INSTALL_SRC}/tailscaled" -o "/usr/bin/tailscaled" ; chmod +x "/usr/bin/tailscaled"  
+  curl -qfsSL "$INSTALL_SRC/tailscale" -o "/usr/bin/tailscale" ; chmod +x "/usr/bin/tailscale"
+  curl -qfsSL "$INSTALL_SRC/tailscaled" -o "/usr/bin/tailscaled" ; chmod +x "/usr/bin/tailscaled"  
   ##Create s6-services
   mkdir -p "/etc/s6-overlay/s6-rc.d/tailscaled/dependencies.d"
   #UserSpace
