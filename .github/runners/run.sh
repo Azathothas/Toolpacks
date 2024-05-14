@@ -21,9 +21,11 @@ fi
 if [ -z "$DOCKER_CONTAINER_NAME" ]; then
  echo -e "\n[+] Setting Default Container Name: gh-runner-arm64x-gcp"
   export DOCKER_CONTAINER_NAME="gh-runner-arm64x-gcp"
+  docker stop "${DOCKER_CONTAINER_NAME}" --force 2>/dev/null
 else
  export DOCKER_CONTAINER_NAME="${DOCKER_CONTAINER_NAME}"
  echo -e "\n[+] Setting Default Container Name: ${DOCKER_CONTAINER_NAME}"
+ docker stop "${DOCKER_CONTAINER_NAME}" --force 2>/dev/null
 fi
 #Image
 if [ -z "$DOCKER_CONTAINER_IMAGE" ]; then
