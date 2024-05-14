@@ -35,13 +35,6 @@ RUN <<EOS
   #pipx
   pip install pipx --upgrade 2>/dev/null
   pip install pipx --upgrade --break-system-packages 2>/dev/null
-  # DVC
-  pipx install "git+https://github.com/iterative/dvc#egg=dvc[all]" --force --include-deps
-  # For TG BOT Notifs
-  pipx install "git+https://github.com/caronc/apprise.git" --force --include-deps
-  pipx install "git+https://github.com/rahiel/telegram-send.git" --force --include-deps
-  # For neofetch
-  pipx install "git+https://github.com/HorlogeSkynet/archey4.git" --force --include-deps
 EOS
 #------------------------------------------------------------------------------------#
 ##Systemd installation
@@ -237,7 +230,7 @@ ENTRYPOINT ["/init"]
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
-##Setup TailScale
+##Setup TailScale (sudo tailscale up --authkey="$TSKEY" --ssh --hostname="$TS_NAME" --accept-dns="true" --accept-risk="all" --accept-routes="false" --shields-up="false" --advertise-exit-node --reset)
 RUN <<EOS
   ##Install TailScale [static]
   curl -qfsSL "${INSTALL_SRC}/tailscale" -o "/usr/bin/tailscale" ; chmod +x "/usr/bin/tailscale"

@@ -52,19 +52,45 @@
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
-#Sanity Checks
+##Sanity Checks
+#eget
 if [[ -n "$GITHUB_TOKEN" ]]; then
    # 5000 req/minute (80 req/minute)
-   echo "GITHUB_TOKEN is Exported"
+   echo -e "\n[+] GITHUB_TOKEN is Exported"
    eget --rate
 else
    # 60 req/hr
-   echo -e "\n[+] GITHUB_TOKEN is NOT Exported"
+   echo -e "\n[-] GITHUB_TOKEN is NOT Exported"
    echo -e "Export it to avoid ratelimits\n"
    eget --rate
    exit 1
 fi
-#-------------------------------------------------------#  
+#rclone
+if command -v rclone &> /dev/null; then
+     if [ -s "$HOME/.rclone.conf" ] && [ ! -s "$HOME/.config/rclone/rclone.conf" ]; then
+        echo -e "\n[+] Setting Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
+         mkdir -p "$HOME/.config/rclone" && touch "$HOME/.config/rclone/rclone.conf"
+         cat "$HOME/.rclone.conf" > "$HOME/.config/rclone/rclone.conf"
+         dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
+     elif [ -s "$HOME/.config/rclone/rclone.conf" ]; then
+        echo -e "\n[+] Using Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
+        dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
+     else
+       echo -e "\n[-] rClone Config Not Found\n"      
+     fi
+else
+    echo -e "\n[-] rclone is NOT Installed"
+     if [ -s "$HOME/.rclone.conf" ]; then
+       echo -e "rClone Config --> "$HOME/.rclone.conf"\n"
+     elif [ -s "$HOME/.config/rclone/rclone.conf" ]; then
+       echo -e "rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
+     else
+       echo -e "[-] rClone Config Not Found\n"
+     fi
+  exit 1
+fi
+#-------------------------------------------------------#
+
 
 #-------------------------------------------------------#
 ##ENV (In Case of ENV Resets)
@@ -133,14 +159,6 @@ set +x
  find "$BASEUTILSDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
 #rClone Upload to R2 (bin.ajam.dev/arm64_v8a_Android) (arm64_v8a_Android) [Binaries]
- if [ -s "$HOME/.rclone.conf" ] && [ ! -s "$HOME/.config/rclone/rclone.conf" ]; then
-    echo -e "\n[+] Setting Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
-     mkdir -p "$HOME/.config/rclone" && touch "$HOME/.config/rclone/rclone.conf"
-     cat "$HOME/.rclone.conf" > "$HOME/.config/rclone/rclone.conf"
- elif [ -s "$HOME/.config/rclone/rclone.conf" ]; then
-    echo -e "\n[+] Using Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
-    dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
- fi
  if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload [$BINDIR]
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
