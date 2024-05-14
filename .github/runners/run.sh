@@ -32,12 +32,12 @@ if [ -z "$DOCKER_CONTAINER_IMAGE" ]; then
  echo -e "\n[+] Setting Default Container Image: azathothas/gh-runner-aarch64-ubuntu"
   export DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-aarch64-ubuntu"
   docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
-  docker pull "${DOCKER_CONTAINER_IMAGE}" --quiet 2>/dev/null
+  docker pull "${DOCKER_CONTAINER_IMAGE}" 2>/dev/null
 else
  export DOCKER_CONTAINER_IMAGE="${DOCKER_CONTAINER_IMAGE}"
  echo -e "\n[+] Setting Default Container Image: ${DOCKER_CONTAINER_IMAGE}"
  docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
- docker pull "${DOCKER_CONTAINER_IMAGE}" --quiet 2>/dev/null
+ docker pull "${DOCKER_CONTAINER_IMAGE}" 2>/dev/null
 fi
 #Env File
 if [ -z "$DOCKER_ENV_FILE" ]; then
