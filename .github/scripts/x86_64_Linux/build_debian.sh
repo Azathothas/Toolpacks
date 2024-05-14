@@ -140,6 +140,9 @@ set +x
      mkdir -p "$HOME/.config/rclone" && touch "$HOME/.config/rclone/rclone.conf"
      cat "$HOME/.rclone.conf" > "$HOME/.config/rclone/rclone.conf"
      dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
+ elif [ -s "$HOME/.config/rclone/rclone.conf" ]; then
+    echo -e "\n[+] Using Default rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
+    dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
  fi
  if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload [$BINDIR]
