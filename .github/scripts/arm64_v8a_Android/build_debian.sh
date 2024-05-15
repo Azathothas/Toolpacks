@@ -188,17 +188,17 @@ set +x
              #Rename anything with *_arm64_v8a*
              find "$BINDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
             #File
-              cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_FILE"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$SYSTMP/arm64_v8a_Android_FILE"
               rclone copyto "$SYSTMP/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #Size (Dust)
-              dust -b -c -i -r -n 99999999 "$BINDIR" | tee "$SYSTMP/arm64_v8a_Android_SIZE.txt"
+              dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/arm64_v8a_Android_SIZE.txt"
               rclone copyto "$SYSTMP/arm64_v8a_Android_SIZE.md" "r2:/bin/arm64_v8a_Android/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
               rclone copyto "$SYSTMP/arm64_v8a_Android_SIZE.txt" "r2:/bin/arm64_v8a_Android/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #BLAKE3SUM
-              cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_BLAKE3SUM"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$SYSTMP/arm64_v8a_Android_BLAKE3SUM"
               rclone copyto "$SYSTMP/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #SHA256SUM
-              cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_SHA256SUM"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$SYSTMP/arm64_v8a_Android_SHA256SUM"
               rclone copyto "$SYSTMP/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
@@ -215,17 +215,17 @@ set +x
              #Rename anything with *_arm64_v8a*
              find "$BASEUTILSDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
             #File
-              cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_Baseutils_FILE"
+              cd "$BASEUTILSDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$SYSTMP/arm64_v8a_Android_Baseutils_FILE"
               rclone copyto "$SYSTMP/arm64_v8a_Android_Baseutils_FILE" "r2:/bin/arm64_v8a_Android/Baseutils/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #Size (Dust)
-              dust -b -c -i -r -n 99999999 "$BASEUTILSDIR" | tee "$SYSTMP/arm64_v8a_Android_Baseutils_SIZE.txt"
+              dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BASEUTILSDIR" | tee "$SYSTMP/arm64_v8a_Android_Baseutils_SIZE.txt"
               rclone copyto "$SYSTMP/arm64_v8a_Android_Baseutils_SIZE.md" "r2:/bin/arm64_v8a_Android/Baseutils/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
               rclone copyto "$SYSTMP/arm64_v8a_Android_Baseutils_SIZE.txt" "r2:/bin/arm64_v8a_Android/Baseutils/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #BLAKE3SUM
-              cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_Baseutils_BLAKE3SUM"
+              cd "$BASEUTILSDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$SYSTMP/arm64_v8a_Android_Baseutils_BLAKE3SUM"
               rclone copyto "$SYSTMP/arm64_v8a_Android_Baseutils_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/Baseutils/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #SHA256SUM
-              cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/arm64_v8a_Android_Baseutils_SHA256SUM"
+              cd "$BASEUTILSDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$SYSTMP/arm64_v8a_Android_Baseutils_SHA256SUM"
               rclone copyto "$SYSTMP/arm64_v8a_Android_Baseutils_SHA256SUM" "r2:/bin/arm64_v8a_Android/Baseutils/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR.7z" "$BASEUTILSDIR" 2>/dev/null

@@ -187,17 +187,17 @@ set +x
              #Rename anything with *_amd*
              find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
             #File
-              cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_FILE"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$SYSTMP/aarch64_Linux_FILE"
               rclone copyto "$SYSTMP/aarch64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #Size (Dust)
-              dust -b -c -i -r -n 99999999 "$BINDIR" | tee "$SYSTMP/aarch64_Linux_SIZE.txt"
+              dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/aarch64_Linux_SIZE.txt"
               rclone copyto "$SYSTMP/aarch64_Linux_SIZE.md" "r2:/bin/aarch64_arm64_Linux/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
               rclone copyto "$SYSTMP/aarch64_Linux_SIZE.txt" "r2:/bin/aarch64_arm64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #BLAKE3SUM
-              cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_BLAKE3SUM"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$SYSTMP/aarch64_Linux_BLAKE3SUM"
               rclone copyto "$SYSTMP/aarch64_Linux_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #SHA256SUM
-              cd "$BINDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_SHA256SUM"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$SYSTMP/aarch64_Linux_SHA256SUM"
               rclone copyto "$SYSTMP/aarch64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
@@ -214,17 +214,17 @@ set +x
              #Rename anything with *_amd*
              find "$BASEUTILSDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
             #File
-              cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";file ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_Baseutils_FILE"
+              cd "$BASEUTILSDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$SYSTMP/aarch64_Linux_Baseutils_FILE"
               rclone copyto "$SYSTMP/aarch64_Linux_Baseutils_FILE" "r2:/bin/aarch64_arm64_Linux/Baseutils/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #Size (Dust)
-              dust -b -c -i -r -n 99999999 "$BASEUTILSDIR" | tee "$SYSTMP/aarch64_Linux_Baseutils_SIZE.txt"
+              dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BASEUTILSDIR" | tee "$SYSTMP/aarch64_Linux_Baseutils_SIZE.txt"
               rclone copyto "$SYSTMP/aarch64_Linux_Baseutils_SIZE.md" "r2:/bin/aarch64_arm64_Linux/Baseutils/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
               rclone copyto "$SYSTMP/aarch64_Linux_Baseutils_SIZE.txt" "r2:/bin/aarch64_arm64_Linux/Baseutils/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #BLAKE3SUM
-              cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";b3sum ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_Baseutils_BLAKE3SUM"
+              cd "$BASEUTILSDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$SYSTMP/aarch64_Linux_Baseutils_BLAKE3SUM"
               rclone copyto "$SYSTMP/aarch64_Linux_Baseutils_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/Baseutils/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #SHA256SUM
-              cd "$BASEUTILSDIR" && "/bin/bash" -c 'PS4="$ ";sha256sum ./* | grep -v '.txt' ' &> "$SYSTMP/aarch64_Linux_Baseutils_SHA256SUM"
+              cd "$BASEUTILSDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$SYSTMP/aarch64_Linux_Baseutils_SHA256SUM"
               rclone copyto "$SYSTMP/aarch64_Linux_Baseutils_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/Baseutils/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR.7z" "$BASEUTILSDIR" 2>/dev/null
