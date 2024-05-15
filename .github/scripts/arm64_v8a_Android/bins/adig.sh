@@ -29,24 +29,24 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-   #aria2 : Download with resuming and segmented downloading
-     export BIN="aria2" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/aria2/aria2" #github/gitlab/homepage/etc for $BIN
+   #adig : A command-line tool that allows you to perform DNS lookups from the command line
+     export BIN="adig" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/c-ares/c-ares" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build (ndk-pkg)
        pushd "$($TMPDIRS)" > /dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/aria2" --profile="release" --jobs="$(($(nproc)+1))"
-       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/aria2" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/adig" --profile="release" --jobs="$(($(nproc)+1))"
+       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/adig" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
       #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
-       file "./aria2c" && du -sh "./aria2c" ; aarch64-linux-gnu-readelf -d "./aria2c"
-       cp "./aria2c" "$BINDIR/aria2c"
+       file "./adig" && du -sh "./adig" ; aarch64-linux-gnu-readelf -d "./adig"
+       cp "./adig" "$BINDIR/adig"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/aria2c" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/adig" --version
       #Cleanup Container
-       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/aria2"
+       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/adig"
        docker exec -it "ndk-pkg" ndk-pkg cleanup
        popd > /dev/null 2>&1
 fi

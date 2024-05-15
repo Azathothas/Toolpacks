@@ -28,6 +28,8 @@
  $env:EGET_TIMEOUT = "timeout -k 1m 2m"
  $EGET_EXCLUDE = "--asset `"^386`" --asset `"^aarch64`" --asset `"^apple`" --asset `"^arm`" --asset `"^AppImage`" --asset `"^asc`" --asset `"^crt`" --asset `"^darwin`" --asset `"^deb`" --asset `"^exe`" --asset `"^freebsd`" --asset `"^i686`" --asset `"^linux`" --asset `"^mac`" --asset `"^mips`" --asset `"^rpm`" --asset `"^sbom`" --asset `"^sha`" --asset `"^solaris`" --asset `"^sig`" --asset `"^symbol`""
  $env:EGET_EXCLUDE = "$EGET_EXCLUDE"
+#rClone
+ $env:RCLONE_STATS = "120s"
 #User-Agent
  $USER_AGENT = ((Invoke-WebRequest -Uri "https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt").Content.Trim()) ; $env:USER_AGENT = "$USER_AGENT"
 #-------------------------------------------------------#

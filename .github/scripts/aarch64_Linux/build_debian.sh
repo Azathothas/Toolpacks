@@ -81,6 +81,8 @@ if command -v rclone &> /dev/null; then
      else
        echo -e "\n[-] rClone Config Not Found\n"      
      fi
+   ##ENV VARS
+     export RCLONE_STATS="120s"
 else
     echo -e "\n[-] rclone is NOT Installed"
      if [ -s "$HOME/.rclone.conf" ]; then
