@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./curl" "$BINDIR/curl"
        #get cert
        eget "https://curl.se/ca/cacert.pem" --to "$BINDIR/curl_cacert.pem"
-      #Test
+      #Test [PREFIX=/data/data/com.termux/files/usr]
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/curl" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl"

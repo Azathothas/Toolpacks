@@ -44,13 +44,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Meta 
        file "$BASEUTILSDIR/coreutils/"*
       #Archive [$BASEUTILSDIR/coreutils]
-       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils/coreutils.7z" "$BASEUTILSDIR/coreutils" 2>/dev/null
-       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils/coreutils.tar" "$BASEUTILSDIR/coreutils" 2>/dev/null
+       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils/_coreutils.7z" "$BASEUTILSDIR/coreutils" 2>/dev/null
+       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils/_coreutils.tar" "$BASEUTILSDIR/coreutils" 2>/dev/null
       #Generate METADATA
        cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$BASEUTILSDIR/coreutils/FILE.txt"
        cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$BASEUTILSDIR/coreutils/BLAKE3SUM.txt"
        cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$BASEUTILSDIR/coreutils/SHA256SUM.txt"
-       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BASEUTILSDIR/coreutils" | tee "$BASEUTILSDIR/coreutils/SIZE.txt"
+       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.md$|\.rar$|\.txt$|\.zip$" "$BASEUTILSDIR/coreutils" | tee "$BASEUTILSDIR/coreutils/SIZE.txt"
       #Test
        #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version
       #Cleanup Container

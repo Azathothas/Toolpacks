@@ -360,7 +360,8 @@
          ndk-pkg upgrade-self ; ndk-pkg setup ; ndk-pkg update ; ndk-pkg sysinfo
         #Install a pseudo pkg to initialize ndk
          rm -rf "$SYSTMP/ndk.log" 2>/dev/null
-         ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/dos2unix" --profile="release" --jobs="$(($(nproc)+1))" | tee -a "$SYSTMP/ndk.log"
+         sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/ansi2txt" -o "/usr/bin/ansi2txt" && sudo chmod +x "/usr/local/bin/ansi2txt"
+         ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/dos2unix" --profile="release" --jobs="$(($(nproc)+1))" -v | tee -a "$SYSTMP/ndk.log"
          ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/dos2unix" ; ndk-pkg cleanup
       ##ENV VARS
         #NDK
