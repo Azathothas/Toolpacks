@@ -34,6 +34,7 @@
 ##Set ENVs
  if [[ "${TOOLPACKS_NDK_HOME}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_ROOT}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_TOOLCHAIN_ROOT}" == *"android-ndk"* ]]; then
   echo -e "\n[+] Setting up NDK ENV Variables\n"
+  ##NDK ENV
   export ANDROID_HOME="${TOOLPACKS_NDK_HOME}" && echo "export ANDROID_HOME='${TOOLPACKS_NDK_HOME}'" >> "/etc/bash.bashrc"
   export ANDROID_NDK_HOME="${TOOLPACKS_NDK_HOME}" && echo "export ANDROID_NDK_HOME='${TOOLPACKS_NDK_HOME}'" >> "/etc/bash.bashrc"
   export ANDROID_NDK_ROOT="${TOOLPACKS_NDK_ROOT}" && echo "export ANDROID_NDK_ROOT='${TOOLPACKS_NDK_ROOT}'" >> "/etc/bash.bashrc"
@@ -63,10 +64,37 @@
   #llvm-ranlib
   ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ranlib" "/usr/bin/aarch64-linux-android-ranlib" 2>/dev/null
   chmod +x "/usr/bin/aarch64-linux-android-ranlib" 2>/dev/null
+ ##BUILD VARS
+  #https://apilevels.com/
+   #android-34 --> Android 14
+   #android-33 --> Android 13
+   #android-31,32 --> Android 12
+   #android-30 --> Android 11
+   #android-29 --> Android 10
+   #android-28 --> Android 9
+   #android-26,27 --> Android 8
+   #android-24,25 --> Android 7
+   #android-23 --> Android 6
+   #android-21,22 --> Android 5
+   export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC="android-29" && echo "export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC='android-29'" >> "/etc/bash.bashrc"
+   TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X="$(echo ${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC} | sed 's/-//g' | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}" && echo "export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X='${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}'" >> "/etc/bash.bashrc"
+   export TOOLPACKS_ANDROID_APILEVEL_STATIC="android-34" && echo "export TOOLPACKS_ANDROID_APILEVEL_STATIC='android-34'" >> "/etc/bash.bashrc"
+   TOOLPACKS_ANDROID_APILEVEL_STATIC_X="$(echo ${TOOLPACKS_ANDROID_APILEVEL_STATIC} | sed 's/-//g' | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_APILEVEL_STATIC_X="${TOOLPACKS_ANDROID_APILEVEL_STATIC_X}" && echo "export TOOLPACKS_ANDROID_APILEVEL_STATIC_X='${TOOLPACKS_ANDROID_APILEVEL_STATIC_X}'" >> "/etc/bash.bashrc"
+   export TOOLPACKS_ANDROID_ABI="arm64-v8a" && echo "export TOOLPACKS_ANDROID_ABI='arm64-v8a'" >> "/etc/bash.bashrc"
+   export TOOLPACKS_ANDROID_BUILD_DYNAMIC="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-${TOOLPACKS_ANDROID_ABI}" && echo "export TOOLPACKS_ANDROID_BUILD_DYNAMIC='${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-${TOOLPACKS_ANDROID_ABI}'" >> "/etc/bash.bashrc"
+   export TOOLPACKS_ANDROID_BUILD_STATIC="${TOOLPACKS_ANDROID_APILEVEL_STATIC}-${TOOLPACKS_ANDROID_ABI}" && echo "export TOOLPACKS_ANDROID_BUILD_STATIC='${TOOLPACKS_ANDROID_APILEVEL_STATIC}-${TOOLPACKS_ANDROID_ABI}'" >> "/etc/bash.bashrc"
+   echo -e "\n[+] APILEVEL (Dynamic) = ${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}"
+   echo -e "[+] APILEVEL (Static) = ${TOOLPACKS_ANDROID_APILEVEL_STATIC}"
+   echo -e "[+] Target ABI (arch) = ${TOOLPACKS_ANDROID_ABI}"
+   echo -e "[+] Android Target (Dynamic) = ${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}"
+   echo -e "[+] Target Triplet (Dynamic) = ${TOOLPACKS_ANDROID_BUILD_DYNAMIC}"
+   echo -e "[+] Android Target (Static) = ${TOOLPACKS_ANDROID_APILEVEL_STATIC_X}"
+   echo -e "[+] Target Triplet (Static) = ${TOOLPACKS_ANDROID_BUILD_STATIC}\n"
  ##Cleanup
   rm -rf "./ndk.log"
   echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "/etc/profile"
   echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "$HOME/.profile"
+  echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "$HOME/.bashrc"
   echo && cat "/etc/bash.bashrc" && echo
 else
   echo -e "\n[-] FATAL: Failed to set NDK ENVs\n"
