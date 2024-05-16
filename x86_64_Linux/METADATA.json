@@ -37,18 +37,9 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "352.27 kB",
-    "ModTime": "2024-05-16T08:44:50.862345714Z",
+    "Size": "352.51 kB",
+    "ModTime": "2024-05-16T15:16:23.273143424Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "METADATA.json.tmp",
-    "Size": "210.49 kB",
-    "ModTime": "2024-05-16T14:30:41.372447948Z",
-    "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json.tmp",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
