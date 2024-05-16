@@ -1103,22 +1103,27 @@ jobs:
           #-------------#
           ##Fetch
           #arm64_v8a_Android
-          curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$SYSTMP/METADATA.json"
-          curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json"
-          cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "/tmp/arm64_v8a_Android.json"
+          curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$SYSTMP/METADATA.json" || echo '{}' > "$SYSTMP/METADATA.json"
+          curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
+          #cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/arm64_v8a_Android.json"
+          jq -n --argjson baseutils "$(cat "$SYSTMP/Baseutils.json" | jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/arm64_v8a_Android.json"
           #aarch64_arm64_Linux
-          curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$SYSTMP/METADATA.json"
-          curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json"
-          cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "/tmp/aarch64_arm64_Linux.json"
+          curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$SYSTMP/METADATA.json" || echo '{}' > "$SYSTMP/METADATA.json"
+          curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
+          #cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/aarch64_arm64_Linux.json"
+          jq -n --argjson baseutils "$(cat "$SYSTMP/Baseutils.json" | jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/aarch64_arm64_Linux.json"
           #x86_64_Linux
-          curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$SYSTMP/METADATA.json"
-          curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json"
-          cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x86_64_Linux.json"
+          curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$SYSTMP/METADATA.json" || echo '{}' > "$SYSTMP/METADATA.json"
+          curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
+          #cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x86_64_Linux.json"
+          jq -n --argjson baseutils "$(cat "$SYSTMP/Baseutils.json" | jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x86_64_Linux.json"
           #x64_Windows
-          curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json" -o "$SYSTMP/METADATA.json"
-          cat "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x64_Windows.json"
+          curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json" -o "$SYSTMP/METADATA.json" || echo '{}' > "$SYSTMP/METADATA.json"
+          curl -qfsSL "https://bin.ajam.dev/x64_Windows/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
+          jq -n --argjson baseutils "$(cat "$SYSTMP/Baseutils.json" | jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x64_Windows.json"
           ##Merge
-          jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][0][]], [{ "host": "AMD64-Windows_NT" } + .[3][0][]]' "/tmp/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "/tmp/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq -s . > "$SYSTMP/METADATA.json"
+          #jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][0][]], [{ "host": "AMD64-Windows_NT" } + .[3][0][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq -s . > "$SYSTMP/METADATA.json"
+          jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][]], [{ "host": "AMD64-Windows_NT" } + .[3][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq -s . | jq 'sort_by(.[] | .host)' > "$SYSTMP/METADATA.json"
           ##rClone Update
           echo -e "\n Updating Metadata.json\n"
           rclone copyto --checksum "$SYSTMP/METADATA.json" "r2:/bin/METADATA.json" --check-first --checkers 2000 --transfers 1000
