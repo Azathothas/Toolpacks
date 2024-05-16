@@ -70,6 +70,7 @@ jobs:
 #------------------------------------------------------------------------------------#        
   build-push-docker-alpine-ndk:
     name: Push (Alpine-NDK) --> Docker Hub
+    needs: [build-push-docker-alpine]   
     runs-on: ubuntu-latest
     
     steps:
