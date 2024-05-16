@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Azathothas/Arsenal" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir scopegen && cd "./scopegen"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && mkdir scopegen && cd "./scopegen"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/scopegen.go"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/scopegen/go.mod"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "scopegen" "./scopegen.go" ; cp "./scopegen" "$BINDIR/scopegen" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "scopegen" "./scopegen.go" ; cp "./scopegen" "$BINDIR/scopegen" ; popd >/dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

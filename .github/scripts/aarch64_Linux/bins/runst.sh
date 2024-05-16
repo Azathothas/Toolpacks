@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
        ##Fails
-       #pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/orhun/runst" && cd "./runst"
+       #pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/orhun/runst" && cd "./runst"
        #sudo apt-get install 'libdbus*' 'libpango*' '*librust-pango*' '*pango*' -y
        #export TARGET="aarch64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
        #sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  

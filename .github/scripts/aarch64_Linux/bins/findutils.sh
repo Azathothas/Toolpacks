@@ -26,14 +26,14 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://www.gnu.org/software/findutils/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.findutils" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/"* ; file "./result/bin/"* && du -sh "./result/bin/"*
        sudo cp "./result/bin/"* "$BASEUTILSDIR/" 2>/dev/null
        sudo cp "./result/bin/find" "$BINDIR/find"
        sudo cp "./result/bin/xargs" "$BINDIR/xargs"
        find "$BASEUTILSDIR" -type f -size 0 -delete
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -26,13 +26,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/axel-download-accelerator/axel" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build (nix) 
-      # pushd "$($TMPDIRS)" > /dev/null 2>&1
+      # pushd "$($TMPDIRS)" >/dev/null 2>&1
       # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.axel" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
       # sudo strip "./result/bin/axel" ; file "./result/bin/axel" && du -sh "./result/bin/axel"
       # cp "./result/bin/axel" "$BINDIR/axel"
-      # nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+      # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #Build (alpine-musl)
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
         sh -c '
@@ -56,7 +56,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./axel" "$BINDIR/axel"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

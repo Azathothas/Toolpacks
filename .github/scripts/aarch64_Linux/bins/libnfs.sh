@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/sahlberg/libnfs" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sahlberg/libnfs" && cd "./libnfs"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sahlberg/libnfs" && cd "./libnfs"
        sudo apt-get install libglobus-gssapi-gsi-dev libkrb5-dev -y
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
@@ -49,7 +49,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        strip "./utils/nfs-cp" ; file "./utils/nfs-cp" && du -sh "./utils/nfs-cp" ; cp "./utils/nfs-cp" "$BINDIR/nfs-cp"
        strip "./utils/nfs-ls" ; file "./utils/nfs-ls" && du -sh "./utils/nfs-ls" ; cp "./utils/nfs-ls" "$BINDIR/nfs-ls"
        strip "./utils/nfs-stat" ; file "./utils/nfs-stat" && du -sh "./utils/nfs-stat" ; cp "./utils/nfs-stat" "$BINDIR/nfs-stat"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

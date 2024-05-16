@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/memorysafety/sudo-rs" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/memorysafety/sudo-rs" && cd "./sudo-rs"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/memorysafety/sudo-rs" && cd "./sudo-rs"
        sudo apt install libpam0g-dev -y
        export RUST_TARGET="aarch64-unknown-linux-gnu" && rustup target add "$RUST_TARGET"
        export RUSTFLAGS="-C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
        staticx --loglevel DEBUG "./target/$RUST_TARGET/release/su" --strip "$BINDIR/su-rs"
        staticx --loglevel DEBUG "./target/$RUST_TARGET/release/sudo" --strip "$BINDIR/sudo-rs"
-       staticx --loglevel DEBUG "./target/$RUST_TARGET/release/visudo" --strip "$BINDIR/visudo-rs" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./target/$RUST_TARGET/release/visudo" --strip "$BINDIR/visudo-rs" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

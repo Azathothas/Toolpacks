@@ -26,9 +26,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/sassoftware/relic" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build  
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sassoftware/relic" && cd "./relic"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sassoftware/relic" && cd "./relic"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
-       cp "./relic" "$BINDIR/relic" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       cp "./relic" "$BINDIR/relic" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/boy-hack/ksubdomain" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/boy-hack/ksubdomain" && cd "./ksubdomain"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/boy-hack/ksubdomain" && cd "./ksubdomain"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w" "./cmd/ksubdomain"
        go clean -cache -fuzzcache -modcache -testcache
-       staticx --loglevel DEBUG "./ksubdomain" --strip "$BINDIR/ksubdomain_staticx" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./ksubdomain" --strip "$BINDIR/ksubdomain_staticx" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

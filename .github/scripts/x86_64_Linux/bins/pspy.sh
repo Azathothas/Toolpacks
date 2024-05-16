@@ -26,9 +26,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/DominicBreuker/pspy" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/DominicBreuker/pspy" && cd "./pspy"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/DominicBreuker/pspy" && cd "./pspy"
        GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" 
-       cp "./pspy" "$BINDIR/pspy" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       cp "./pspy" "$BINDIR/pspy" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

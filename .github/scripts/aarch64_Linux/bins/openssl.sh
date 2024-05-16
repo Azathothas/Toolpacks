@@ -26,12 +26,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/openssl/openssl" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.openssl" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result-bin/bin/openssl" ; file "./result-bin/bin/openssl" && du -sh "./result-bin/bin/openssl"
        cp "./result-bin/bin/openssl" "$BINDIR/openssl"
        sudo cp "./result-bin/bin/openssl" "$BASEUTILSDIR/openssl"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

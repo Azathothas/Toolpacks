@@ -26,8 +26,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/zmap/zgrab2" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build  
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/zmap/zgrab2" && cd "./zgrab2"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/zgrab2" ; cp "./zgrab2" "$BINDIR/zgrab2" ; popd > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/zmap/zgrab2" && cd "./zgrab2"
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/zgrab2" ; cp "./zgrab2" "$BINDIR/zgrab2" ; popd >/dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

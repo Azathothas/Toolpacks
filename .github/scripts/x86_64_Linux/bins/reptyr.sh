@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/nelhage/reptyr" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/nelhage/reptyr" && cd "./reptyr"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/nelhage/reptyr" && cd "./reptyr"
        export ZIG_LIBC_TARGET="x86_64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -42,7 +42,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
        strip "./reptyr" ; file "./reptyr" && du -sh "./reptyr"
-       cp "./reptyr" "$BINDIR/reptyr" ; popd > /dev/null 2>&1
+       cp "./reptyr" "$BINDIR/reptyr" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

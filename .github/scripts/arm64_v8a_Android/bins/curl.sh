@@ -37,7 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       # eval "$EGET_TIMEOUT" eget "https://github.com/stunnel/static-curl" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "curl" "$EGET_EXCLUDE" --to "$BINDIR/curl"
       # eval "$EGET_TIMEOUT" eget "https://github.com/stunnel/static-curl" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "trurl" "$EGET_EXCLUDE" --to "$BINDIR/trurl"     
       #Build (ndk-pkg)
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl" --profile="release" --jobs="$(($(nproc)+1))"
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
@@ -53,7 +53,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/curl"
        docker exec -it "ndk-pkg" ndk-pkg cleanup
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
       #Fixes
        # certs : curl -kqfsSLO https://curl.se/ca/cacert.pem
        #       : export SSL_CERT_FILE="$PWD/cacert.pem"

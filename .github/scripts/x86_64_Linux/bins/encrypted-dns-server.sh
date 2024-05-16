@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/DNSCrypt/encrypted-dns-server" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
         sh -c '
@@ -54,7 +54,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./encrypted-dns" "$BINDIR/encrypted-dns"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

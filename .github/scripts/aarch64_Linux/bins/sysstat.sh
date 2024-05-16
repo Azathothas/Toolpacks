@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/sysstat/sysstat" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sysstat/sysstat" && cd "./sysstat"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sysstat/sysstat" && cd "./sysstat"
        export ZIG_LIBC_TARGET="x86_64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -55,7 +55,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./sar" && du -sh "./sar" && cp "./sar" "$BINDIR/sar"
        file "./sysstat" && du -sh "./sysstat" && cp "./sysstat" "$BINDIR/sysstat"
        file "./tapestat" && du -sh "./tapestat" && cp "./tapestat" "$BINDIR/tapestat"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

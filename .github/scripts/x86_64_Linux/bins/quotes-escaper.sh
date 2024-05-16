@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Azathothas/Arsenal" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir -p "./quotes-escaper" && cd "./quotes-escaper"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && mkdir -p "./quotes-escaper" && cd "./quotes-escaper"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/quotes-escaper/main.go"
        go mod init "github.com/Azathothas/Arsenal/quotes-escaper" ; go mod tidy
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./quotes-escaper" ; cp "./quotes-escaper" "$BINDIR/quotes-escaper" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./quotes-escaper" ; cp "./quotes-escaper" "$BINDIR/quotes-escaper" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

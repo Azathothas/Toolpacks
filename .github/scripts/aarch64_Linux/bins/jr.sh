@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/ugol/jr" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/ugol/jr" && cd "./jr"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/ugol/jr" && cd "./jr"
        go install "github.com/actgardner/gogen-avro/v10/cmd/...@latest"
 	   go generate "pkg/generator/generate.go"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./jr-bin" "./jr.go" ; cp "./jr-bin" "$BINDIR/jr" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./jr-bin" "./jr.go" ; cp "./jr-bin" "$BINDIR/jr" ; popd >/dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

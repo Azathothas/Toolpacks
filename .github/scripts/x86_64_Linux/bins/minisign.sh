@@ -26,8 +26,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/jedisct1/minisign" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch  
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && eval "$EGET_TIMEOUT" eget "jedisct1/minisign" --asset "linux" --asset "^tar.gz.minisig" --asset "^arm" --asset "^aarch" --file "x86_64" 
-       find . -type f -name "minisign" -exec cp {} "$BINDIR/minisign" \; && popd > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && eval "$EGET_TIMEOUT" eget "jedisct1/minisign" --asset "linux" --asset "^tar.gz.minisig" --asset "^arm" --asset "^aarch" --file "x86_64" 
+       find . -type f -name "minisign" -exec cp {} "$BINDIR/minisign" \; && popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

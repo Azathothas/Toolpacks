@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
        #Also fails
-       #pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/orhun/menyoki" && cd "./menyoki"
+       #pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/orhun/menyoki" && cd "./menyoki"
        #sudo apt-get install libx11-dev librust-x11-dev libxrandr-dev -y
        #export TARGET="x86_64-unknown-linux-gnu" ; export RUSTFLAGS="-C target-feature=+crt-static" ; rustup target add "$TARGET" 
        #sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml"  

@@ -27,8 +27,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        #eval "$EGET_TIMEOUT" eget "kitabisa/mubeng" --asset "arm64" --asset "linux" --to "$BINDIR/mubeng"
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kitabisa/mubeng" && cd "./mubeng"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mubeng" ; cp "./mubeng" "$BINDIR/mubeng" ; popd > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kitabisa/mubeng" && cd "./mubeng"
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mubeng" ; cp "./mubeng" "$BINDIR/mubeng" ; popd >/dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

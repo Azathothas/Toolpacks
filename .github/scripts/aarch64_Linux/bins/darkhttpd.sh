@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/emikulic/darkhttpd" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/emikulic/darkhttpd" && cd "./darkhttpd"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/emikulic/darkhttpd" && cd "./darkhttpd"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #If no zig
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going all
        strip "./darkhttpd" ; file "./darkhttpd" && du -sh "./darkhttpd"
-       cp "./darkhttpd" "$BINDIR/darkhttpd" ; popd > /dev/null 2>&1
+       cp "./darkhttpd" "$BINDIR/darkhttpd" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

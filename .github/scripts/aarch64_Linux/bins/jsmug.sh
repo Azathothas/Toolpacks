@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/xscorp/jsmug" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/xscorp/jsmug" && cd "./jsmug"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/xscorp/jsmug" && cd "./jsmug"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -42,7 +42,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Compile
        zig cc -target "aarch64-linux-musl" "./jsmug.c" -o "./jsmug"
        strip "./jsmug" ; file "./jsmug" && du -sh "./jsmug"
-       cp "./jsmug" "$BINDIR/jsmug" ; popd > /dev/null 2>&1
+       cp "./jsmug" "$BINDIR/jsmug" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

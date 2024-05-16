@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/nestybox/sysbox" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" --recursive "https://github.com/nestybox/sysbox" && cd "./sysbox"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" --recursive "https://github.com/nestybox/sysbox" && cd "./sysbox"
        #https://github.com/nestybox/sysbox/blob/master/docs/developers-guide/build.md#building--installing-from-source
        make gomod-tidy 2>/dev/null ; make distclean 2>/dev/null
        make sysbox-static --jobs="$(($(nproc)+1))" --keep-going
@@ -37,7 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        find . -mindepth 2 -type d -name "build" | xargs -I {} find {} -type f | xargs sha256sum
        find . -mindepth 2 -type d -name "build" | xargs -I {} find {} -type f | xargs -I {} cp {} "$BINDIR"
        make gomod-tidy 2>/dev/null ; make distclean 2>/dev/null
-       sudo rm "$HOME/go/pkg/mod" -rf 2>/dev/null ; popd > /dev/null 2>&1
+       sudo rm "$HOME/go/pkg/mod" -rf 2>/dev/null ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

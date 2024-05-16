@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/checkpoint-restore/hcxtools" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.hcxtools" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/"* ; file "./result/bin/"* && du -sh "./result/bin/"*
        cp "./result/bin/hcxeiutool" "$BINDIR/hcxeiutool"
@@ -38,7 +38,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./result/bin/hcxwltool" "$BINDIR/hcxwltool"
        cp "./result/bin/whoismac" "$BINDIR/whoismac"
        cp "./result/bin/wlancap2wpasec" "$BINDIR/wlancap2wpasec"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

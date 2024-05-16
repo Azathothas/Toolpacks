@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/devanshbatham/revit" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/devanshbatham/revit" && cd "./revit"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/devanshbatham/revit" && cd "./revit"
        rm go.mod ; rm go.sum ; go mod init github.com/devanshbatham/revit ; go mod tidy
        go get github.com/devanshbatham/revit/cmd/revit
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/revit" ; cp "./revit" "$BINDIR/revit" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/revit" ; cp "./revit" "$BINDIR/revit" ; popd >/dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

@@ -26,15 +26,15 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/u-root/cpu" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/u-root/cpu" && cd "./cpu"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/u-root/cpu" && cd "./cpu"
        #cpu
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./bin/cpu" "./cmds/cpu/." ; cp "./bin/cpu" "$BINDIR/cpu"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./bin/cpud" "./cmds/cpud/." ; cp "./bin/cpud" "$BINDIR/cpud"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./bin/decpu" "./cmds/decpu/." ; cp "./bin/decpu" "$BINDIR/decpu"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -tags "mDNS" -o "./bin/decpud" "./cmds/cpud/." ; cp "./bin/decpud" "$BINDIR/decpud"
-       popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
        #p9cpu
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
         sh -c '
@@ -61,7 +61,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        docker cp "alpine-builder:/build-bins/p9cpud" "$BINDIR/p9cpud"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

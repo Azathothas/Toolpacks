@@ -26,9 +26,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/SSLMate/certspotter" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/SSLMate/certspotter" && cd "./certspotter"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/SSLMate/certspotter" && cd "./certspotter"
        GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/certspotter"
-       cp "./certspotter" "$BINDIR/certspotter" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       cp "./certspotter" "$BINDIR/certspotter" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

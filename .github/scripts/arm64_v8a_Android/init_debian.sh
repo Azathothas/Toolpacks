@@ -246,11 +246,11 @@
           #Clean
           sudo rm "/usr/local/zig" -rf 2>/dev/null ; sudo rm "/usr/local/zig" -rf 2>/dev/null
           #Get latest source
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
+          pushd "$($TMPDIRS)" >/dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
           #Extract
           find . -type f -name '*.tar*' -exec tar -xf {} \;
           #Move to /usr/local/zig
-          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd > /dev/null 2>&1
+          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd >/dev/null 2>&1
           #Test: ZIG_PATH="/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
           if ! command -v zig &> /dev/null; then
              echo -e "\n[-] zig NOT Found\n"
@@ -271,7 +271,7 @@
      ##Mold for linking
       if [ "$CONTINUE" == "YES" ]; then
             #Get Source
-            pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
+            pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
             #Extract Archive
             find . -type f -name "*.tar.gz*" -exec tar -xvf {} --strip-components=1 \;
             #Main Binary
@@ -283,7 +283,7 @@
             # /usr/local/libexec/mold/ld --> /usr/local/bin/mold
             sudo mkdir -p "/usr/local/libexec/mold" && sudo ln -s "/usr/local/bin/mold" "/usr/local/libexec/mold/ld" ; sudo chmod +xwr "/usr/local/libexec/mold"/*
             #lib : /usr/local/lib/mold/mold-wrapper.so
-            sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd > /dev/null 2>&1
+            sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd >/dev/null 2>&1
             #Test
             if ! command -v mold &> /dev/null; then
                echo -e "\n[-] mold NOT Found\n"

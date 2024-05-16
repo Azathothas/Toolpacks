@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/qemu/qemu" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/ziglang/qemu-static" && cd "./qemu-static"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/ziglang/qemu-static" && cd "./qemu-static"
        #Get latest versions: https://download.qemu.org/
        QEMU_LATEST="$(git ls-remote https://github.com/qemu/qemu | awk '{print $2}' | grep "refs/tags/" | grep -v '[{}]' |  cut -d '/' -f 3 | sed 's/\^{}$//' | sed 's/^v//' | tail -n 1 | tr -d '[:space:]')" && export QEMU_LATEST="${QEMU_LATEST}"
        echo -e "\n[+] Qemu Version: ${QEMU_LATEST}\n"
@@ -78,7 +78,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./bin/qemu-x86_64" "$BINDIR/qemu-x86_64-static"
        cp "./bin/qemu-xtensa" "$BINDIR/qemu-xtensa-static"
        cp "./bin/qemu-xtensaeb" "$BINDIR/qemu-xtensaeb-static"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

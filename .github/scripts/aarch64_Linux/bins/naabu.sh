@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/projectdiscovery/naabu" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/naabu" && cd "./naabu/v2"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/naabu" && cd "./naabu/v2"
        #Flags
        export GOARCH="arm64"
        export GOOS="linux"
@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Build
        go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -Wl,--build-id=none'" -o "./naabu" "./cmd/naabu"
        staticx --loglevel DEBUG "./naabu" --strip "$BINDIR/naabu_staticx"
-       go clean -cache -fuzzcache -modcache -testcache ; popd > /dev/null 2>&1
+       go clean -cache -fuzzcache -modcache -testcache ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

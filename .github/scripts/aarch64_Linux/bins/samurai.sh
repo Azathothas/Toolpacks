@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/michaelforney/samurai" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/michaelforney/samurai" && cd "./samurai"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/michaelforney/samurai" && cd "./samurai"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -43,7 +43,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        strip "./samu" ; file "./samu" && du -sh "./samu"
        cp "./samu" "$BINDIR/samu"
        cp "./samu" "$BINDIR/samurai"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

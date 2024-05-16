@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://www.7-zip.org" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfsSLJO "$SOURCE_URL/$(curl -qfsSL "$SOURCE_URL/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && curl -qfsSLJO "$SOURCE_URL/$(curl -qfsSL "$SOURCE_URL/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
        find . -type f -name '*.xz' -exec tar -xf {} \;
        find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "$BINDIR/7z" \;
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

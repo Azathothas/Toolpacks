@@ -27,8 +27,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        #eval "$EGET_TIMEOUT" eget "projectdiscovery/mapcidr" --asset "arm64" --asset "linux" --to "$BINDIR/mapcidr"
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mapcidr" ; cp "./mapcidr" "$BINDIR/mapcidr" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/mapcidr" && cd "./mapcidr"
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/mapcidr" ; cp "./mapcidr" "$BINDIR/mapcidr" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

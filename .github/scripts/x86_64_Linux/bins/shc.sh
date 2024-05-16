@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/neurobin/shc" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/neurobin/shc" && cd "./shc"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/neurobin/shc" && cd "./shc"
        export ZIG_LIBC_TARGET="x86_64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -42,7 +42,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        "./configure" --disable-shared --enable-static
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going all
        strip "./src/shc" ; file "./src/shc" && du -sh "./src/shc"
-       cp "./src/shc" "$BINDIR/shc" ; popd > /dev/null 2>&1
+       cp "./src/shc" "$BINDIR/shc" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/spellshift/realm" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/spellshift/realm" && cd "./realm"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/spellshift/realm" && cd "./realm"
       #Server
        GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./tavern-bin" "./tavern" ; cp "./tavern-bin" "$BINDIR/tavern" ; go clean -cache -fuzzcache -modcache -testcache 
       #Agent
@@ -37,7 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
        cp "./target/$RUST_TARGET/release/golem" "$BINDIR/golem"
        cp "./target/$RUST_TARGET/release/imix" "$BINDIR/imix"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

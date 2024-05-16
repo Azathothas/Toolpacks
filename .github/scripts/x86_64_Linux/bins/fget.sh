@@ -26,11 +26,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Azathothas/Arsenal" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir fget && cd "./fget"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && mkdir fget && cd "./fget"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/main.go"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/fget/go.mod"
        go get "github.com/Azathothas/Arsenal/fget"
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./fget" ; cp "./fget" "$BINDIR/fget" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./fget" ; cp "./fget" "$BINDIR/fget" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
 fi
 #-------------------------------------------------------#
 

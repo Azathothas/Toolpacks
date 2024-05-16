@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://dos2unix.sourceforge.io" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.dos2unix" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/dos2unix" ; file "./result/bin/dos2unix" && du -sh "./result/bin/dos2unix"
        sudo strip "./result/bin/mac2unix" ; file "./result/bin/mac2unix" && du -sh "./result/bin/mac2unix"
@@ -36,7 +36,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./result/bin/mac2unix" "$BINDIR/mac2unix"
        cp "./result/bin/unix2dos" "$BINDIR/unix2dos"
        cp "./result/bin/unix2mac" "$BINDIR/unix2mac"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

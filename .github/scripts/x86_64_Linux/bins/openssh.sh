@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/openssh/openssh-portable" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/binary-manu/static-cross-openssh" && cd "./static-cross-openssh"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/binary-manu/static-cross-openssh" && cd "./static-cross-openssh"
        #make
        make --jobs="$(($(nproc)+1))" --keep-going ARCH="x86-64" __all__/VERSION="latest" PREFIX="/usr" all
        #Extract
@@ -53,7 +53,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        strip "./sbin/sshd" ; file "./sbin/sshd" && du -sh "./sbin/sshd" && cp "./sbin/sshd" "$BINDIR/sshd"
        #sshd_config
        cp "./etc/sshd_config" "$BINDIR/sshd_config"       
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

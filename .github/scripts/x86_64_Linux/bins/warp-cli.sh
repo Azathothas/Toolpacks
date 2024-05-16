@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://pkg.cloudflareclient.com" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        #Install
        curl -qfsSL "https://pkg.cloudflareclient.com/pubkey.gpg" | sudo gpg --yes --dearmor --output "/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg"
        echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ bookworm main" | sudo tee "/etc/apt/sources.list.d/cloudflare-client.list"
@@ -45,12 +45,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Test 
        "./warp-cli" --version
        docker run --privileged -it --rm --network="host" -v "$BINDIR:/mnt" "alpine" "/mnt/warp-cli" --help
-       #sudo ./warp-svc start > /dev/null 2>&1
+       #sudo ./warp-svc start >/dev/null 2>&1
        #sudo warp-cli --accept-tos registration new
        #sudo warp-cli --accept-tos mode warp+doh
        #sudo warp-cli --accept-tos add-excluded-route 0.0.0.0/0
        #sudo warp-cli --accept-tos connect
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

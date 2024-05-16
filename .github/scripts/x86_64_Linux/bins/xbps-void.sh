@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/void-linux/xbps" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget https://repo-default.voidlinux.org/static/xbps-static-latest.x86_64-musl.tar.xz --all
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget https://repo-default.voidlinux.org/static/xbps-static-latest.x86_64-musl.tar.xz --all
        #Copy
        cp "./xbps-alternatives.static" "$BINDIR/xbps-alternatives"
        cp "./xbps-checkvers.static" "$BINDIR/xbps-checkvers"
@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./xbps-uchroot.static" "$BINDIR/xbps-uchroot"
        cp "./xbps-uhelper.static" "$BINDIR/xbps-uhelper"
        cp "./xbps-uunshare.static" "$BINDIR/xbps-uunshare"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

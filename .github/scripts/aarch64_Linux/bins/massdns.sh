@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/blechschmidt/massdns" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/blechschmidt/massdns" && cd "./massdns"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/blechschmidt/massdns" && cd "./massdns"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -43,7 +43,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "./bin"
        zig cc -target "aarch64-linux-musl" -O2 -flto="auto" -static -w -pipe -static -s -Wl,-S -Wl,--build-id="none" -fstack-protector-strong "./src/main.c" -o "./bin/massdns"
        strip "./bin/massdns" ; file "./bin/massdns" && du -sh "./bin/massdns"
-       cp "./bin/massdns" "$BINDIR/massdns" ; popd > /dev/null 2>&1
+       cp "./bin/massdns" "$BINDIR/massdns" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

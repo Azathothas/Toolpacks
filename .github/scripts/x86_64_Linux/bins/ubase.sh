@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://git.suckless.org/ubase" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://git.suckless.org/ubase" && cd "./ubase"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://git.suckless.org/ubase" && cd "./ubase"
        export ZIG_LIBC_TARGET="x86_64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -45,7 +45,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo cp "./ubase-box" "$BASEUTILSDIR/ubase-box"
        cp "./ubase" "$BINDIR/ubase"
        sudo cp "./ubase" "$BASEUTILSDIR/ubase"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

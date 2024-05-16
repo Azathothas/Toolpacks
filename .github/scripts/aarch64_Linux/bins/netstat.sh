@@ -26,11 +26,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://sourceforge.net/projects/net-tools/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.nettools" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/netstat" ; file "./result/bin/netstat" && du -sh "./result/bin/netstat"
        cp "./result/bin/netstat" "$BINDIR/netstat"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

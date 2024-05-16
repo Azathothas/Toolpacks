@@ -26,12 +26,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/iterative/dvc" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-      #pushd "$(mktemp -d)" > /dev/null 2>&1 && curl -qfsSL "$(curl -qfsSL "https://updater.dvc.org"| jq -r '.packages | .linux | .deb')" -o "dvc.deb" && sudo dpkg -i "./dvc.deb" ; popd > /dev/null 2>&1
+      #pushd "$(mktemp -d)" >/dev/null 2>&1 && curl -qfsSL "$(curl -qfsSL "https://updater.dvc.org"| jq -r '.packages | .linux | .deb')" -o "dvc.deb" && sudo dpkg -i "./dvc.deb" ; popd >/dev/null 2>&1
        pip install --break-system-packages --upgrade pip || pip install --upgrade pip
        pip install --break-system-packages --force-reinstall --upgrade "git+https://github.com/iterative/dvc#egg=dvc[all]"
        pip install django flufl-lock pytest railroad sqlalchemy vcrpy --upgrade --break-system-packages
        #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter="blob:none" --quiet "https://github.com/iterative/dvc" && cd "./dvc/dvc"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --filter="blob:none" --quiet "https://github.com/iterative/dvc" && cd "./dvc/dvc"
        cp "./__main__.py" "./dvc_pyinstaller.py"
        pyinstaller --clean "./dvc_pyinstaller.py" --noconfirm ; rm -rf "./dist" "$BINDIR/dvc_staticx" 2>/dev/null
        #This is overkill, but works
@@ -373,7 +373,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Staticx
        #fails: Invalid ELF image: Magic number does not match
        staticx --loglevel DEBUG "./dist/dvc" --strip "$BINDIR/dvc_staticx"
-       echo -e "\n[+] PyInstaller: $(du -sh $BINDIR/dvc_staticx)\n" ; popd > /dev/null 2>&1
+       echo -e "\n[+] PyInstaller: $(du -sh $BINDIR/dvc_staticx)\n" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

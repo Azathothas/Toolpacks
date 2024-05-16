@@ -29,7 +29,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        # Installton will require placing a $SYSTMP/rescope/configs/avoid.txt
        # mkdir -p "$SYSTMP/rescope/configs" ; curl -qfsSL "https://raw.githubusercontent.com/root4loot/rescope/master/configs/avoid.txt" -o "$SYSTMP/rescope/configs/avoid.txt"
        cd $SYSTMP && git clone --quiet --filter "blob:none" "https://github.com/root4loot/rescope" && cd "./rescope"
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./rescope" "$BINDIR/rescope" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./rescope" "$BINDIR/rescope" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

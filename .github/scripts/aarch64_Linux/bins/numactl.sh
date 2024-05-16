@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/numactl/numactl" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.numactl" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/memhog" ; file "./result/bin/memhog" && du -sh "./result/bin/memhog" ; cp "./result/bin/memhog" "$BINDIR/memhog"
        sudo strip "./result/bin/migratepages" ; file "./result/bin/migratepages" && du -sh "./result/bin/migratepages" ; cp "./result/bin/migratepages" "$BINDIR/migratepages"
@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo strip "./result/bin/numactl" ; file "./result/bin/numactl" && du -sh "./result/bin/numactl" ; cp "./result/bin/numactl" "$BINDIR/numactl"
        sudo strip "./result/bin/numademo" ; file "./result/bin/numademo" && du -sh "./result/bin/numademo" ; cp "./result/bin/numademo" "$BINDIR/numademo"
        sudo strip "./result/bin/numastat" ; file "./result/bin/numastat" && du -sh "./result/bin/numastat" ; cp "./result/bin/numastat" "$BINDIR/numastat"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -26,11 +26,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Canop/dysk" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build    
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfLJO $(curl -qfsSL "https://api.github.com/repos/Canop/dysk/releases/latest" | jq -r '.assets[].browser_download_url' | grep -i 'dysk' | grep -i 'zip')
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && curl -qfLJO $(curl -qfsSL "https://api.github.com/repos/Canop/dysk/releases/latest" | jq -r '.assets[].browser_download_url' | grep -i 'dysk' | grep -i 'zip')
        find . -type f -name '*.zip*' -exec unzip -o {} \;
        find . -type f -name '*.md' -exec rm {} \;
        #cp "$(find . -type d -name '*x86_64*' -name '*linux*' ! -name '*musl*')/dysk" "$BINDIR/dysk_gcc"   
-       cp "$(find . -type d -name '*x86_64*' -name '*linux*' -name '*musl*')/dysk" "$BINDIR/dysk" ; popd > /dev/null 2>&1
+       cp "$(find . -type d -name '*x86_64*' -name '*linux*' -name '*musl*')/dysk" "$BINDIR/dysk" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

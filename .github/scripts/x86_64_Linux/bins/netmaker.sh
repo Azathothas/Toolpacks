@@ -26,12 +26,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/gravitl/netmaker" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/gravitl/netmaker" && cd "./netmaker"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/gravitl/netmaker" && cd "./netmaker"
        #Requires CGO for sqlite
        CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; echo -e "\n" && file "./netmaker" && echo -e "\n"
        cp "./netmaker" "$BINDIR/netmaker"
        CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./nmctl" "./cli" ; echo -e "\n" && file "./nmctl" && echo -e "\n"
-       cp "./nmctl" "$BINDIR/nmctl" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       cp "./nmctl" "$BINDIR/nmctl" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

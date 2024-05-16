@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/hackerschoice/zapper" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/hackerschoice/zapper" && cd "./zapper"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/hackerschoice/zapper" && cd "./zapper"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./zapper" "$BINDIR/zapper"
        zig cc -target "aarch64-linux-musl" -DSTEALTH "./zapper.c" -o "./zapper-stealth"
        strip "./zapper-stealth" ; file "./zapper-stealth" && du -sh "./zapper-stealth"
-       cp "./zapper-stealth" "$BINDIR/zapper-stealth" ; popd > /dev/null 2>&1
+       cp "./zapper-stealth" "$BINDIR/zapper-stealth" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

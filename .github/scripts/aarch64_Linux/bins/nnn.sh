@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/jarun/nnn" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/jarun/nnn" && cd "./nnn"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/jarun/nnn" && cd "./nnn"
        #Configure
        sudo apt install libgpm-dev -y
        export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
@@ -37,7 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        bash "misc/musl/musl-static-ubuntu.sh" no_run
        #Copy
        strip "./nnn-musl-static" && du -sh "./nnn-musl-static" && file "./nnn-musl-static"
-       cp "./nnn-musl-static" "$BINDIR/nnn" ; popd > /dev/null 2>&1
+       cp "./nnn-musl-static" "$BINDIR/nnn" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

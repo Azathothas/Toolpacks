@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/cronie-crond/cronie" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/cronie-crond/cronie" && cd "./cronie"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/cronie-crond/cronie" && cd "./cronie"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./src/crond" "$BINDIR/cronie-crond"
        cp "./src/cronnext" "$BINDIR/cronie-cronnext"
        cp "./src/crontab" "$BINDIR/cronie-crontab"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/directvt/vtm" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfLJO $(curl -qfsSL "https://api.github.com/repos/directvt/vtm/releases/latest" -H "Authorization: Bearer $GITHUB_TOKEN" | jq -r '.assets[].browser_download_url' | grep -i 'linux_x86_64.zip')
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && curl -qfLJO $(curl -qfsSL "https://api.github.com/repos/directvt/vtm/releases/latest" -H "Authorization: Bearer $GITHUB_TOKEN" | jq -r '.assets[].browser_download_url' | grep -i 'linux_x86_64.zip')
        find . -type f -name '*.zip' -exec unzip {} \;
        find . -type f -name '*.tar' -exec tar -xvf {} \; && rm *.tar *.zip 2>/dev/null
-       find . -type f -name 'vtm' -exec cp {} "$BINDIR/vtm" \; && popd > /dev/null 2>&1
+       find . -type f -name 'vtm' -exec cp {} "$BINDIR/vtm" \; && popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

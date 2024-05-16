@@ -26,13 +26,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://localxpose.io/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -A "$USER_AGENT" -qfsSLJO "https://loclx-client.s3.amazonaws.com/loclx-linux-amd64.zip"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && curl -A "$USER_AGENT" -qfsSLJO "https://loclx-client.s3.amazonaws.com/loclx-linux-amd64.zip"
        find . -type f -name '*.zip*' -exec unzip -o {} \; && find . -type f -name '*.zip' -exec rm -rf {} \;
        find . -type f -name 'loclx*' -exec strip {} \; >/dev/null 2>&1
        find . -type f -name 'loclx*' ! -name '*.*' -exec mv {} "$BINDIR/loclx" \;
        cp "$BINDIR/loclx" "$BINDIR/localxpose"
        file "$BINDIR/loclx" && du -sh "$BINDIR/loclx"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

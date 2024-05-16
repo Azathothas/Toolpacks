@@ -26,9 +26,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/berty/berty" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/berty/berty" && cd "./berty"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/berty/berty" && cd "./berty"
        CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./go/cmd/berty"
-       cp "./berty" "$BINDIR/berty" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       cp "./berty" "$BINDIR/berty" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi       
 #-------------------------------------------------------#
 

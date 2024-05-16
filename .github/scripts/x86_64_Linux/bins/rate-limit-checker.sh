@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Azathothas/Arsenal" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir "./rate-limit-checker" && cd "./rate-limit-checker"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && mkdir "./rate-limit-checker" && cd "./rate-limit-checker"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/rate-limit-checker/main.go"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/rate-limit-checker/go.mod"
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./rate-limit-checker" ; cp "./rate-limit-checker" "$BINDIR/rate-limit-checker" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./rate-limit-checker" ; cp "./rate-limit-checker" "$BINDIR/rate-limit-checker" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache
 fi
 #-------------------------------------------------------#
 

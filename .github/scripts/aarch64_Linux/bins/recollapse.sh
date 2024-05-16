@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/0xacb/recollapse" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/0xacb/recollapse" && cd "./recollapse"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/0xacb/recollapse" && cd "./recollapse"
        pip install --upgrade -r requirements.txt ; cp "./recollapse" "./recollapse.py"
        pyinstaller --clean "./recollapse.py" --noconfirm ; pyinstaller --strip --onefile "./recollapse.py" --noconfirm
-       staticx --loglevel DEBUG "./dist/recollapse" --strip "$BINDIR/recollapse_staticx" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./dist/recollapse" --strip "$BINDIR/recollapse_staticx" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

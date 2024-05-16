@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/docker/cli" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://download.docker.com/linux/static/stable/aarch64/$(curl -qfsSL "https://download.docker.com/linux/static/stable/aarch64/" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep -iv "rootless" | sort | tail -n 1)" --all
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget "https://download.docker.com/linux/static/stable/aarch64/$(curl -qfsSL "https://download.docker.com/linux/static/stable/aarch64/" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep -iv "rootless" | sort | tail -n 1)" --all
        eget "https://download.docker.com/linux/static/stable/aarch64/$(curl -qfsSL "https://download.docker.com/linux/static/stable/aarch64/" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep -i "rootless" | sort | tail -n 1)" --all
        cp "./containerd" "$BINDIR/containerd"
        cp "./containerd-shim-runc-v2" "$BINDIR/containerd-shim-runc-v2"
@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./rootlesskit-docker-proxy" "$BINDIR/rootlesskit-docker-proxy"
        cp "./runc" "$BINDIR/runc"
        cp "./vpnkit" "$BINDIR/vpnkit"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

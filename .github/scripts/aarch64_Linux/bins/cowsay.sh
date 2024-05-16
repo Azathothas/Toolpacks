@@ -26,11 +26,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://gitlab.com/nmyk/cowsay" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://gitlab.com/nmyk/cowsay.git" && cd "./cowsay"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://gitlab.com/nmyk/cowsay.git" && cd "./cowsay"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowsay" 
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/cowthink"
        cp "./cowsay" "$BINDIR/cowsay" ; cp "./cowthink" "$BINDIR/cowthink"
-       popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

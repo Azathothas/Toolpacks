@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/mawww/kakoune" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/mawww/kakoune" && cd "./kakoune"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/mawww/kakoune" && cd "./kakoune"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #If no zig
        make -C "./src" all static="yes" --jobs="$(($(nproc)+1))" --keep-going
        strip "./src/kak.opt" ; file "./src/kak.opt" && du -sh "./src/kak.opt"
-       cp "./src/kak.opt" "$BINDIR/kakoune" ; popd > /dev/null 2>&1
+       cp "./src/kak.opt" "$BINDIR/kakoune" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

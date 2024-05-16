@@ -26,13 +26,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/libfuse/libfuse" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.fuse3" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/fusermount3" ; file "./result/bin/fusermount3" && du -sh "./result/bin/fusermount3"
        sudo strip "./result/bin/mount.fuse3" ; file "./result/bin/mount.fuse3" && du -sh "./result/bin/mount.fuse3"
        cp "./result/bin/fusermount3" "$BINDIR/fusermount3"
        cp "./result/bin/mount.fuse3" "$BINDIR/mount.fuse3"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

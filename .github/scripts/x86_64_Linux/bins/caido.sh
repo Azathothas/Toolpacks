@@ -26,9 +26,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/caido/caido" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch  
-      pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "$(curl -qfsSL 'https://api.github.com/repos/caido/caido/releases/latest' | jq -r '.body' | sed -n 's/.*(\(https:\/\/.*\.gz\)).*/\1/p' | grep -i 'caido-cli' | grep -i 'linux-x86_64')" --to "./caido-cli"
+      pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget "$(curl -qfsSL 'https://api.github.com/repos/caido/caido/releases/latest' | jq -r '.body' | sed -n 's/.*(\(https:\/\/.*\.gz\)).*/\1/p' | grep -i 'caido-cli' | grep -i 'linux-x86_64')" --to "./caido-cli"
       strip "./caido-cli" ; staticx --loglevel DEBUG "./caido-cli" --strip "$BINDIR/caido-cli"
-      file "$BINDIR/caido-cli" ; du -sh "$BINDIR/caido-cli" ; popd > /dev/null 2>&1
+      file "$BINDIR/caido-cli" ; du -sh "$BINDIR/caido-cli" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

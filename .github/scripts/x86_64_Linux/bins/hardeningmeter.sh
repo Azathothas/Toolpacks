@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/OfriOuzan/HardeningMeter" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/OfriOuzan/HardeningMeter" && cd "./HardeningMeter"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/OfriOuzan/HardeningMeter" && cd "./HardeningMeter"
        pip install tabulate --upgrade
        pyinstaller --clean "./HardeningMeter.py" --noconfirm ; pyinstaller --strip --onefile "./HardeningMeter.py" --noconfirm
-       staticx --loglevel DEBUG "./dist/HardeningMeter" --strip "$BINDIR/hardeningmeter_staticx" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./dist/HardeningMeter" --strip "$BINDIR/hardeningmeter_staticx" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

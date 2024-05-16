@@ -27,8 +27,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        #eval "$EGET_TIMEOUT" eget "j3ssie/osmedeus" --asset "linux.zip" --to "$BINDIR/osmedeus"
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/j3ssie/osmedeus" && cd osmedeus
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./osmedeus" "$BINDIR/osmedeus" ; popd > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/j3ssie/osmedeus" && cd osmedeus
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./osmedeus" "$BINDIR/osmedeus" ; popd >/dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

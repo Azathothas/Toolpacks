@@ -28,8 +28,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Fetch  
        eval "$EGET_TIMEOUT" eget "projectdiscovery/katana" --asset "arm64" --asset "linux" --to "$BINDIR/katana"
        staticx --loglevel DEBUG "$BINDIR/katana" --strip "$BINDIR/katana_staticx"
-       #pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/katana" && cd katana
-       #GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./katana" "./cmd/katana" ; cp "./katana" "$BINDIR/katana" ; popd > /dev/null 2>&1
+       #pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/katana" && cd katana
+       #GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./katana" "./cmd/katana" ; cp "./katana" "$BINDIR/katana" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -26,10 +26,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/0xacb/viewgen" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/0xacb/viewgen" && cd "./viewgen"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/0xacb/viewgen" && cd "./viewgen"
        pip install --upgrade -r requirements.txt ; cp "./viewgen" "./viewgen.py"
        pyinstaller --clean "./viewgen.py" --noconfirm ; pyinstaller --strip --onefile "./viewgen.py" --noconfirm
-       staticx --loglevel DEBUG "./dist/viewgen" --strip "$BINDIR/viewgen_staticx" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./dist/viewgen" --strip "$BINDIR/viewgen_staticx" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

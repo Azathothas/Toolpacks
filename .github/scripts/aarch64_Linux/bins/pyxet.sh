@@ -28,10 +28,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build
        pip install fsspec ipython maturin pyxet s3fs tabulate --upgrade 2>/dev/null
        pip install fsspec ipython maturin pyxet s3fs tabulate --upgrade --break-system-packages 2>/dev/null
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && cd "$(dirname $(which xet))" && cp "$(which xet)" "./xet.py"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && cd "$(dirname $(which xet))" && cp "$(which xet)" "./xet.py"
        pyinstaller --clean "./xet.py" --noconfirm ; rm -rf "$BINDIR/xet_staticx"
        pyinstaller --strip --onefile --collect-submodules="fsspec" --collect-submodules="pyxet" --collect-submodules="rpyxet" --collect-submodules="tabulate" --collect-submodules="typer" --collect-submodules="s3fs" --hidden-import="aiohttp" --hidden-import="pyxet" --hidden-import="requests" --hidden-import="rpyxet" "./xet.py" --noconfirm 
-       staticx --loglevel DEBUG "./dist/xet" --strip "$BINDIR/xet_staticx" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./dist/xet" --strip "$BINDIR/xet_staticx" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

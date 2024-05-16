@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/kilobyte/colorized-logs" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kilobyte/colorized-logs" && cd "./colorized-logs"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kilobyte/colorized-logs" && cd "./colorized-logs"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./ansi2txt" && du -sh "./ansi2txt" && cp "./ansi2txt" "$BINDIR/ansi2txt"
        file "./pipetty" && du -sh "./pipetty" && cp "./pipetty" "$BINDIR/pipetty"
        file "./ttyrec2ansi" && du -sh "./ttyrec2ansi" && cp "./ttyrec2ansi" "$BINDIR/ttyrec2ansi"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

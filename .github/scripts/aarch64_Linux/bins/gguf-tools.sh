@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/antirez/gguf-tools" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/antirez/gguf-tools" && cd "./gguf-tools"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/antirez/gguf-tools" && cd "./gguf-tools"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Build
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
        strip "./gguf-tools" ; file "./gguf-tools" && du -sh "./gguf-tools"
-       cp "./gguf-tools" "$BINDIR/gguf-tools" ; popd > /dev/null 2>&1
+       cp "./gguf-tools" "$BINDIR/gguf-tools" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

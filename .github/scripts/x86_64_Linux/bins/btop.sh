@@ -26,8 +26,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/aristocratos/btop" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-      #  pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfsSL $(curl -qfsSL "https://api.github.com/repos/aristocratos/btop/actions/artifacts?per_page=100" -H "Authorization: Bearer $GITHUB_TOKEN" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" 
-      #  unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec cp {} "$BINDIR/btop" \; && popd > /dev/null 2>&1
+      #  pushd "$($TMPDIRS)" >/dev/null 2>&1 && curl -qfsSL $(curl -qfsSL "https://api.github.com/repos/aristocratos/btop/actions/artifacts?per_page=100" -H "Authorization: Bearer $GITHUB_TOKEN" | jq -r '[.artifacts[] | select(.name == "btop-x86_64-linux-musl")] | sort_by(.created_at) | .[].archive_download_url') -H "Authorization: Bearer $GITHUB_TOKEN" -o "btop.zip" 
+      #  unzip "./btop.zip" && find . -type f -name '*btop*' ! -name '*.zip*' -exec cp {} "$BINDIR/btop" \; && popd >/dev/null 2>&1
       #Fetch
        eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "x86_64" --asset "musl" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
 fi

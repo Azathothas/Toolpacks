@@ -26,8 +26,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/hahwul/noir" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/hahwul/noir" && cd "./noir"
-       shards build --release --no-debug --production --static ; cp "./bin/noir" "$BINDIR/noir" ; popd > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/hahwul/noir" && cd "./noir"
+       shards build --release --no-debug --production --static ; cp "./bin/noir" "$BINDIR/noir" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

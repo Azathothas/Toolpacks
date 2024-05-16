@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/iputils/iputils" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.iputils" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/arping" ; file "./result/bin/arping" && du -sh "./result/bin/arping"
        sudo strip "./result/bin/clockdiff" ; file "./result/bin/clockdiff" && du -sh "./result/bin/clockdiff"
@@ -36,7 +36,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./result/bin/clockdiff" "$BINDIR/clockdiff"
        cp "./result/bin/ping" "$BINDIR/ping"
        cp "./result/bin/tracepath" "$BINDIR/tracepath"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/Im-0xea/binfetch" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/Im-0xea/binfetch" && cd "./binfetch"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/Im-0xea/binfetch" && cd "./binfetch"
        #Install Deps
        sudo apt-get install libconfuse-common libconfuse-dev libelf-dev meson -y
        #https://mesonbuild.com/Builtin-options.html

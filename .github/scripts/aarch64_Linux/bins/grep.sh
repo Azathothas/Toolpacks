@@ -39,15 +39,15 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export CXXFLAGS="${CFLAGS}"
        export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
        ##PCRE2
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/PCRE2Project/pcre2" && cd "./pcre2"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/PCRE2Project/pcre2" && cd "./pcre2"
        #Configure
        bash "./autogen.sh" ; "./configure" --enable-pcre2-16 --enable-pcre2-32 --enable-newline-is-anycrlf --enable-jit --enable-shared="no" --enable-static --disable-shared
        #Make
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
        sudo PATH="$PATH" make install
-       file "$(which pcre2grep)" ; pcre2grep --version ; popd > /dev/null 2>&1
+       file "$(which pcre2grep)" ; pcre2grep --version ; popd >/dev/null 2>&1
        ##Grep
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://git.savannah.gnu.org/git/grep.git" && cd "./grep"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://git.savannah.gnu.org/git/grep.git" && cd "./grep"
        #Configure
        bash "./bootstrap" ; "./configure" --disable-dependency-tracking --enable-threads="isoc+posix"
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
@@ -55,7 +55,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        strip "./src/grep" ; file "./src/grep" && du -sh "./src/grep"
        cp "./src/grep" "$BINDIR/grep"
        sudo cp "./src/grep" "$BASEUTILSDIR/grep"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

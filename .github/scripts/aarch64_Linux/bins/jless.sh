@@ -26,13 +26,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/PaulJuliusMartinez/jless" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
        # Currenttly can't build static, due to xcb 
        export RUST_TARGET="aarch64-unknown-linux-gnu" ; rustup target add "$RUST_TARGET"
        echo -e '\n[profile.release]\nstrip = true\nopt-level = "z"\nlto = true' >> "./Cargo.toml"
        unset RUSTFLAGS ; cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
        #cp "./target/$RUST_TARGET/release/jless" "$BINDIR/jless"
-       staticx --loglevel DEBUG "./target/$RUST_TARGET/release/jless" --strip "$BINDIR/jless_staticx" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./target/$RUST_TARGET/release/jless" --strip "$BINDIR/jless_staticx" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

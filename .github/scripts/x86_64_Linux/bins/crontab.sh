@@ -26,13 +26,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://www.gnu.org/software/cron/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.cron" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/cron" ; file "./result/bin/cron" && du -sh "./result/bin/cron"
        sudo strip "./result/bin/crontab" ; file "./result/bin/crontab" && du -sh "./result/bin/crontab"
        cp "./result/bin/cron" "$BINDIR/cron"
        cp "./result/bin/crontab" "$BINDIR/crontab"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

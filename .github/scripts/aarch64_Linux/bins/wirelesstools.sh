@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://www.gnu.org/software/wirelesstools/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.wirelesstools" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/"* ; file "./result/bin/"* && du -sh "./result/bin/"*
        cp "./result/bin/ifrename" "$BINDIR/ifrename" ; sudo cp "./result/bin/ifrename" "$BASEUTILSDIR/ifrename"
@@ -36,7 +36,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./result/bin/iwlist" "$BINDIR/iwlist" ; sudo cp "./result/bin/iwlist" "$BASEUTILSDIR/iwlist"
        cp "./result/bin/iwpriv" "$BINDIR/iwpriv" ; sudo cp "./result/bin/iwpriv" "$BASEUTILSDIR/iwpriv"
        cp "./result/bin/iwspy" "$BINDIR/iwspy" ; sudo cp "./result/bin/iwspy" "$BASEUTILSDIR/iwspy"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

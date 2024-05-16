@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/nmap/nmap" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.nmap" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/ncat" ; file "./result/bin/ncat" && du -sh "./result/bin/ncat"
        sudo strip "./result/bin/nmap" ; file "./result/bin/nmap" && du -sh "./result/bin/nmap"
@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./result/bin/ncat" "$BINDIR/ncat"
        cp "./result/bin/nmap" "$BINDIR/nmap"
        cp "./result/bin/nping" "$BINDIR/nping"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

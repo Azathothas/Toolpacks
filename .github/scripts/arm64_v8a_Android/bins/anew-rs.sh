@@ -35,7 +35,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build (ndk-pkg)
        #Fetch src
-        pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/Azathothas/anew-rs" && cd "./anew-rs"
+        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/Azathothas/anew-rs" && cd "./anew-rs"
        #Set ENV
         #export CC="$HOME/.ndk-pkg/core/wrapper-target-cc"
         export CC="${ANDROID_NDK_TOOLCHAIN_BIN}/aarch64-linux-${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}-clang"
@@ -77,7 +77,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         cp "./anew-rs" "$BINDIR/anew-rs"
        #Test
         timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/anew-rs" --help
-        popd > /dev/null 2>&1
+        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

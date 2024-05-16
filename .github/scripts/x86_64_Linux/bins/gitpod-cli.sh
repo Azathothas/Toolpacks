@@ -29,11 +29,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #gitpod
        eget "https://gitpod.io/static/bin/gitpod-cli-linux-amd64" --to "$BINDIR/gitpod"
        #gitpod-cli (Used Inside a Gitpod Workspace)
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/gitpod-io/gitpod" && cd "./gitpod/components/gitpod-cli"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/gitpod-io/gitpod" && cd "./gitpod/components/gitpod-cli"
        GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'"
        cp "./gitpod-cli" "$BINDIR/gitpod-cli"
        cp "./gitpod-cli" "$BINDIR/gp"
-       popd > /dev/null 2>&1
+       popd >/dev/null 2>&1
        go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#

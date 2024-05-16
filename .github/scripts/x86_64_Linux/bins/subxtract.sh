@@ -28,10 +28,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Fetch
        eval "$EGET_TIMEOUT" eget "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.sh" --to "$BINDIR/subxtract.sh"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && mkdir "./subxtract" && cd "./subxtract"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && mkdir "./subxtract" && cd "./subxtract"
        curl -qfsSLJO "https://raw.githubusercontent.com/Azathothas/Arsenal/main/subxtract/subxtract.go"
        go mod init "github.com/Azathothas/Arsenal/subxtract" ; go mod tidy
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./subxtract" ; cp "./subxtract" "$BINDIR/subxtract" ; popd > /dev/null 2>&1
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./subxtract" ; cp "./subxtract" "$BINDIR/subxtract" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

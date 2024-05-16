@@ -28,11 +28,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       ##Fetch
       # eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "arm64" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
       #Build 
-       pushd "$($TMPDIRS)" > /dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.cpufetch" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/cpufetch" ; file "./result/bin/cpufetch" && du -sh "./result/bin/cpufetch"
        cp "./result/bin/cpufetch" "$BINDIR/cpufetch"
-       nix-collect-garbage > /dev/null 2>&1 ; popd > /dev/null 2>&1       
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1       
 fi
 #-------------------------------------------------------#
 

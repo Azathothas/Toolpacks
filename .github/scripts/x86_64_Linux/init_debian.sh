@@ -148,13 +148,13 @@
           sudo apt-get install liblz-dev librust-lzma-sys-dev lzma lzma-dev -y
          #musl
           #Source
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" "https://git.musl-libc.org/git/musl" && cd "./musl"
+          pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --filter "blob:none" "https://git.musl-libc.org/git/musl" && cd "./musl"
           #Flags
           unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
           #Configure
           make dest clean 2>/dev/null ; make clean 2>/dev/null
           bash "./configure" --prefix="/usr/local/musl"
-          sudo make --jobs="$(($(nproc)+1))" --keep-going install ; popd > /dev/null 2>&1
+          sudo make --jobs="$(($(nproc)+1))" --keep-going install ; popd >/dev/null 2>&1
           sudo ldconfig && sudo ldconfig -p
           find "$SYSTMP" -type d -name "*musl*" 2>/dev/null -exec rm -rf {} \; >/dev/null 2>&1 
          #Networking
@@ -314,11 +314,11 @@
           #Clean
           sudo rm "/usr/local/zig" -rf 2>/dev/null ; sudo rm "/usr/local/zig" -rf 2>/dev/null
           #Get latest source
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
+          pushd "$($TMPDIRS)" >/dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
           #Extract
           find . -type f -name '*.tar*' -exec tar -xf {} \;
           #Move to /usr/local/zig
-          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd > /dev/null 2>&1
+          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd >/dev/null 2>&1
           #Test: ZIG_PATH="/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
           if ! command -v zig &> /dev/null; then
              echo -e "\n[-] zig NOT Found\n"
@@ -340,23 +340,23 @@
    # ##Clean
    # sudo rm "/opt/toolchains" -rf 2>/dev/null
    # ##https://pub.ajam.dev/toolchains/x86_64-glibc-stable/ --> /opt/toolchains/x86_64-buildroot-linux-gnu
-   # pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-glibc-stable.tar.bz2" --download-only
+   # pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-glibc-stable.tar.bz2" --download-only
    # find . -type f -name "*.tar*" -exec tar -xf {} \;
    # sudo mkdir -p "/opt/toolchains" 2>/dev/null
    # sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-gnu"
-   # cd "/opt/toolchains/x86_64-buildroot-linux-gnu" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
+   # cd "/opt/toolchains/x86_64-buildroot-linux-gnu" && sudo bash "./relocate-sdk.sh" ; popd >/dev/null 2>&1
    # ##https://pub.ajam.dev/toolchains/x86_64-musl-stable/ --> /opt/toolchains/x86_64-buildroot-linux-musl
-   # pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-musl-stable.tar.bz2" --download-only
+   # pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-musl-stable.tar.bz2" --download-only
    # find . -type f -name "*.tar*" -exec tar -xf {} \;
    # sudo mkdir -p "/opt/toolchains" 2>/dev/null
    # sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-musl"
-   # cd "/opt/toolchains/x86_64-buildroot-linux-musl" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
+   # cd "/opt/toolchains/x86_64-buildroot-linux-musl" && sudo bash "./relocate-sdk.sh" ; popd >/dev/null 2>&1
    # ##https://pub.ajam.dev/toolchains/x86_64-uclibc-stable/ --> /opt/toolchains/x86_64-buildroot-linux-uclibc
-   # pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-uclibc-stable.tar.bz2" --download-only
+   # pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget "https://pub.ajam.dev/toolchains/x86_64-uclibc-stable.tar.bz2" --download-only
    # find . -type f -name "*.tar*" -exec tar -xf {} \;
    # sudo mkdir -p "/opt/toolchains" 2>/dev/null
    # sudo mv "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" "/opt/toolchains/x86_64-buildroot-linux-uclibc"
-   # cd "/opt/toolchains/x86_64-buildroot-linux-uclibc" && sudo bash "./relocate-sdk.sh" ; popd > /dev/null 2>&1
+   # cd "/opt/toolchains/x86_64-buildroot-linux-uclibc" && sudo bash "./relocate-sdk.sh" ; popd >/dev/null 2>&1
    # ##Test
    # echo -e "\n\n[+] Toolchains\n"
    # du -h --max-depth="1" "/opt/toolchains" 2>/dev/null | sort -hr ; echo -e "\n\n"
@@ -367,7 +367,7 @@
     ##Mold for linking
     if [ "$CONTINUE" == "YES" ]; then
           #Get Source
-          pushd "$($TMPDIRS)" > /dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
+          pushd "$($TMPDIRS)" >/dev/null 2>&1 && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
           #Extract Archive
           find . -type f -name "*.tar.gz*" -exec tar -xf {} --strip-components=1 \;
           #Main Binary
@@ -379,7 +379,7 @@
           # /usr/local/libexec/mold/ld --> /usr/local/bin/mold
           sudo mkdir -p "/usr/local/libexec/mold" && sudo ln -s "/usr/local/bin/mold" "/usr/local/libexec/mold/ld" ; sudo chmod +xwr "/usr/local/libexec/mold"/*
           #lib : /usr/local/lib/mold/mold-wrapper.so
-          sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd > /dev/null 2>&1
+          sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd >/dev/null 2>&1
           #Test
           if ! command -v mold &> /dev/null; then
              echo -e "\n[-] mold NOT Found\n"

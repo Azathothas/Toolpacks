@@ -26,9 +26,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/evilsocket/shellz" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build  
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone "https://github.com/evilsocket/shellz" && cd "./shellz"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone "https://github.com/evilsocket/shellz" && cd "./shellz"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" "./cmd/shellz"
-       cp "./shellz" "$BINDIR/shellz" ; popd > /dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       cp "./shellz" "$BINDIR/shellz" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

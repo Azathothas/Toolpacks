@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/HorlogeSkynet/archey4" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --filter "blob:none" --quiet "https://github.com/HorlogeSkynet/archey4" && cd "./archey4"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --filter "blob:none" --quiet "https://github.com/HorlogeSkynet/archey4" && cd "./archey4"
       # #Nutika
       #  #Static Build is possible with cflags|ldflags, but pointless since most modules will be ignored
       #  #zig support: https://github.com/Nuitka/Nuitka/issues/2742
@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #meta
        file "./dist/archey" && du -sh "./dist/archey"
       #StaticX
-       staticx --loglevel DEBUG "./dist/archey" --strip "$BINDIR/archey" ; popd > /dev/null 2>&1
+       staticx --loglevel DEBUG "./dist/archey" --strip "$BINDIR/archey" ; popd >/dev/null 2>&1
       #Test 
        docker run --privileged -it --rm --network="host" -v "$BINDIR:/mnt" "alpine" "/mnt/archey"
 fi

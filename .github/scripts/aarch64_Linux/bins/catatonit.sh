@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/openSUSE/catatonit" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
-       pushd "$($TMPDIRS)" > /dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/openSUSE/catatonit" && cd "./catatonit"
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/openSUSE/catatonit" && cd "./catatonit"
        export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
@@ -43,7 +43,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #zig
        make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going       
        strip "./catatonit" && du -sh "./catatonit" && file "./catatonit"
-       cp "./catatonit" "$BINDIR/catatonit" ; popd > /dev/null 2>&1
+       cp "./catatonit" "$BINDIR/catatonit" ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
