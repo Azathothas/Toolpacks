@@ -219,7 +219,6 @@ jobs:
            echo '```' >> "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.md" 2>/dev/null
            rclone copyto --checksum "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SHA256SUM.txt" 2>/dev/null
            rclone copyto --checksum "r2:/bin/arm64_v8a_Android/METADATA.json" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" 2>/dev/null
-           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" 2>/dev/null
            ##README From Hysp
            curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/arm64_v8a_Android/README.md" -o "$GITHUB_WORKSPACE/main/arm64_v8a_Android/README.md"
         continue-on-error: true
@@ -472,16 +471,20 @@ jobs:
           ##arm64_v8a_Android##
           #Raw Dirty
           rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
+          #Baseutils
+          rclone lsjson --fast-list --recursive "r2:/bin/arm64_v8a_Android/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
           #Clean Pretty Formatted
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
           #Update Metadata
           rclone copyto --checksum "./metadata.json" "r2:/bin/arm64_v8a_Android/METADATA.json.tmp"
+          clone copyto --checksum "./metadata_Baseutils.json" "r2:/bin/arm64_v8a_Android/Baseutils/METADATA.json"
           #--------------------#
           ##aarch64_arm64_Linux##
           #Raw Dirty
           rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
           #Baseutils
-          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          rclone lsjson --fast-list --recursive "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
           #Clean Pretty Formatted
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
@@ -493,7 +496,7 @@ jobs:
           #Raw Dirty
           rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
           #Baseutils
-          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          rclone lsjson --fast-list --recursive "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Name)"}' | jq . > "./metadata_Baseutils.json.tmp"
           #Clean Pretty Formatted
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
@@ -1101,7 +1104,8 @@ jobs:
           ##Fetch
           #arm64_v8a_Android
           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$SYSTMP/METADATA.json"
-          cat "$SYSTMP/METADATA.json" | jq -s . > "/tmp/arm64_v8a_Android.json"
+          curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json"
+          cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ Main: input, Baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "/tmp/arm64_v8a_Android.json"
           #aarch64_arm64_Linux
           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$SYSTMP/METADATA.json"
           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json"
@@ -1130,6 +1134,9 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
+          #arm64_v8a_Android
+          rclone copyto --checksum "r2:/bin/arm64_v8a_Android/METADATA.json" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          #curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json"          
           #aarch64_arm64_Linux
           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           #curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json"

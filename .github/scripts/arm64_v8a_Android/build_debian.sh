@@ -245,7 +245,7 @@ set +x
          #Archive [$BASEUTILSDIR]
            7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR.7z" "$BASEUTILSDIR" 2>/dev/null
          #Meta
-           du -sh "$BASEUTILSDIR.7z" && file "$BASEUTILSDIR.7z"           
+           du -sh "$BASEUTILSDIR.7z" && file "$BASEUTILSDIR.7z"
      fi
  fi
 #-------------------------------------------------------# 
