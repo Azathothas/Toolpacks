@@ -1,16 +1,22 @@
 #!/usr/bin/env bash
- ##Get NDK  
+
+##Requires ndk-pkg to be already installed + setup
+
+##USAGE (from a dockerfile):
+# curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/runners/alpine-builder-ndk.sh" -o "./setup_env.sh" && chmod +x "./setup_env.sh" && bash "./setup_env.sh"
+# curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/runners/alpine-builder-ndk.sh" -o "./setup_env.sh"
+
+ ##Get NDK
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/ansi2txt" -o "/usr/bin/ansi2txt" && chmod +x "/usr/bin/ansi2txt"
   ndk-pkg install "android-29-arm64-v8a/dos2unix" --profile="release" --jobs="$(($(nproc)+1))" -v | ansi2txt | tee "./ndk.log"
   ndk-pkg uninstall "android-29-arm64-v8a/dos2unix" ; ndk-pkg cleanup
  ##ENV
   TOOLPACKS_NDK_HOME="$(grep ^ANDROID_NDK_HOME= ./ndk.log | awk -F '=' '{print $2}' | tr -d "'" | tr -d '[:space:]')" && export TOOLPACKS_NDK_HOME="${TOOLPACKS_NDK_HOME}"
-  echo "export TOOLPACKS_NDK_HOME=${TOOLPACKS_NDK_HOME}" >> "/etc/bash.bashrc"
   TOOLPACKS_NDK_ROOT="$(grep ^ANDROID_NDK_ROOT= ./ndk.log | awk -F '=' '{print $2}' | tr -d "'" | tr -d '[:space:]')" && export TOOLPACKS_NDK_ROOT="${TOOLPACKS_NDK_ROOT}"
-  echo "export TOOLPACKS_NDK_ROOT=${TOOLPACKS_NDK_ROOT}" >> "/etc/bash.bashrc"
   TOOLPACKS_NDK_TOOLCHAIN_ROOT="$(grep ^ANDROID_NDK_TOOLCHAIN_ROOT= ./ndk.log | awk -F '=' '{print $2}' | tr -d "'" | tr -d '[:space:]')" && export TOOLPACKS_NDK_TOOLCHAIN_ROOT="${TOOLPACKS_NDK_TOOLCHAIN_ROOT}"
-  echo "export TOOLPACKS_NDK_TOOLCHAIN_ROOT=${TOOLPACKS_NDK_TOOLCHAIN_ROOT}" >> "/etc/bash.bashrc"
  ##Set ENVs
+ if [[ "${TOOLPACKS_NDK_HOME}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_ROOT}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_TOOLCHAIN_ROOT}" == *"android-ndk"* ]]; then
+  echo -e "\n[+] Setting up NDK ENV Variables\n"
   export ANDROID_HOME="${TOOLPACKS_NDK_HOME}" && echo "export ANDROID_HOME=${TOOLPACKS_NDK_HOME}" >> "/etc/bash.bashrc"
   export ANDROID_NDK_HOME="${TOOLPACKS_NDK_HOME}" && echo "export ANDROID_NDK_HOME=${TOOLPACKS_NDK_HOME}" >> "/etc/bash.bashrc"
   export ANDROID_NDK_ROOT="${TOOLPACKS_NDK_ROOT}" && echo "export ANDROID_NDK_ROOT=${TOOLPACKS_NDK_ROOT}" >> "/etc/bash.bashrc"
@@ -36,8 +42,15 @@
   ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/clang" "/usr/bin/clang" 2>/dev/null
   #llvm-ar
   ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ar" "/usr/bin/aarch64-linux-android-ar" 2>/dev/null
-  sudo chmod +xwr "/usr/bin/aarch64-linux-android-ar" 2>/dev/null
+  chmod +x "/usr/bin/aarch64-linux-android-ar" 2>/dev/null
   #llvm-ranlib
   ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ranlib" "/usr/bin/aarch64-linux-android-ranlib" 2>/dev/null
-  sudo chmod +xwr "/usr/bin/aarch64-linux-android-ranlib" 2>/dev/null
-##EOF  
+  chmod +x "/usr/bin/aarch64-linux-android-ranlib" 2>/dev/null
+ ##Cleanup
+  rm -rf "./ndk.log"
+else
+  echo -e "\n[-] FATAL: Failed to set NDK ENVs\n"
+  cat "./ndk.log"
+ exit 1
+fi
+##EOF
