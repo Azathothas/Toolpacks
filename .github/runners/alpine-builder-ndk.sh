@@ -32,7 +32,7 @@
 
 #-------------------------------------------------------#  
 ##Set ENVs
- if [[ "${TOOLPACKS_NDK_HOME}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_ROOT}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_TOOLCHAIN_ROOT}" == *"android-ndk"* ]]; then
+if [[ "${TOOLPACKS_NDK_HOME}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_ROOT}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_TOOLCHAIN_ROOT}" == *"android-ndk"* ]]; then
   echo -e "\n[+] Setting up NDK ENV Variables\n"
   ##NDK ENV
   export ANDROID_HOME="${TOOLPACKS_NDK_HOME}" && echo "export ANDROID_HOME='${TOOLPACKS_NDK_HOME}'" >> "/etc/bash.bashrc"
