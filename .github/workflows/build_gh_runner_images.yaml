@@ -69,7 +69,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#        
   build-push-docker-alpine-ndk:
-    name: Push (Alpine) --> Docker Hub
+    name: Push (Alpine-NDK) --> Docker Hub
     runs-on: ubuntu-latest
     
     steps:
