@@ -34,9 +34,12 @@ EOS
 #------------------------------------------------------------------------------------#
 ##Addons
 RUN <<EOS
+ #dasel for toml
+  curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dasel" -o "/usr/bin/dasel" && chmod +x "/usr/bin/dasel"
  #Eget for simplified releases
-  wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/eget" -O "/usr/bin/eget"
-  chmod +xwr "/usr/bin/eget"
+  curl -qfsSL "https://bin.ajam.dev/$(uname -m)/eget" -o "/usr/bin/eget" && chmod +x "/usr/bin/eget"
+ #yq
+  curl -qfsSL "https://bin.ajam.dev/$(uname -m)/yq" -o "/usr/bin/yq" && chmod +x "/usr/bin/yq"
 EOS
 #------------------------------------------------------------------------------------#
 #END

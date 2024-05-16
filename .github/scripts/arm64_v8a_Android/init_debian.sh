@@ -279,9 +279,9 @@
             sudo cp "./bin/mold" "/usr/local/bin/mold" ; sudo chmod +xwr "/usr/local/bin/mold"
             #symlinks
             # /usr/local/bin/ld.mold -> mold
-            sudo ln -s "/usr/local/bin/mold" "/usr/local/bin/ld.mold"
+            sudo ln --symbolic --force "/usr/local/bin/mold" "/usr/local/bin/ld.mold"
             # /usr/local/libexec/mold/ld --> /usr/local/bin/mold
-            sudo mkdir -p "/usr/local/libexec/mold" && sudo ln -s "/usr/local/bin/mold" "/usr/local/libexec/mold/ld" ; sudo chmod +xwr "/usr/local/libexec/mold"/*
+            sudo mkdir -p "/usr/local/libexec/mold" && sudo ln --symbolic --force "/usr/local/bin/mold" "/usr/local/libexec/mold/ld" ; sudo chmod +xwr "/usr/local/libexec/mold"/*
             #lib : /usr/local/lib/mold/mold-wrapper.so
             sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd >/dev/null 2>&1
             #Test
@@ -409,13 +409,13 @@
              #export READELF="${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-readelf"
              #export SYSROOT="${ANDROID_NDK_SYSROOT}"
             ##GO/RUST ENVs
-             sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/aarch64-linux-${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-clang" "/usr/local/bin/aarch64-linux-android-clang" 2>/dev/null
-             sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/clang" "/usr/local/bin/clang" 2>/dev/null
+             sudo ln --symbolic --force "${ANDROID_NDK_TOOLCHAIN_BIN}/aarch64-linux-${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}-clang" "/usr/local/bin/aarch64-linux-android-clang" 2>/dev/null
+             sudo ln --symbolic --force "${ANDROID_NDK_TOOLCHAIN_BIN}/clang" "/usr/local/bin/clang" 2>/dev/null
              #llvm-ar
-             sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
+             sudo ln --symbolic --force "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ar" "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
              sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ar" 2>/dev/null
              #llvm-ranlib
-             sudo ln -s "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
+             sudo ln --symbolic --force "${ANDROID_NDK_TOOLCHAIN_BIN}/llvm-ranlib" "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
              sudo chmod +xwr "/usr/local/bin/aarch64-linux-android-ranlib" 2>/dev/null
             #print
              env | grep -i "android" --color="never" ; echo
