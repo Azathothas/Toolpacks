@@ -1,8 +1,8 @@
 [
   {
     "Name": "BLAKE3SUM.txt",
-    "Size": "2967 B",
-    "ModTime": "2024-05-14T22:55:49.408279435Z",
+    "Size": "3339 B",
+    "ModTime": "2024-05-15T11:30:34.307094811Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/BLAKE3SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -10,8 +10,8 @@
   },
   {
     "Name": "BUILD.log.txt",
-    "Size": "21.94 MB",
-    "ModTime": "2024-05-14T22:57:17.279639319Z",
+    "Size": "17.74 MB",
+    "ModTime": "2024-05-15T11:33:38.831960506Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/BUILD.log.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -19,8 +19,8 @@
   },
   {
     "Name": "FILE.txt",
-    "Size": "5951 B",
-    "ModTime": "2024-05-07T08:07:29.202247083Z",
+    "Size": "6943 B",
+    "ModTime": "2024-05-15T11:30:22.915050644Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/FILE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -28,8 +28,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "11.95 kB",
-    "ModTime": "2024-05-14T21:20:21.453577677Z",
+    "Size": "13.82 kB",
+    "ModTime": "2024-05-15T14:26:37.465174838Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -37,8 +37,8 @@
   },
   {
     "Name": "SHA256SUM.txt",
-    "Size": "2967 B",
-    "ModTime": "2024-05-14T22:55:53.016252977Z",
+    "Size": "3339 B",
+    "ModTime": "2024-05-15T11:30:40.219123983Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -46,8 +46,8 @@
   },
   {
     "Name": "SIZE.txt",
-    "Size": "1071 B",
-    "ModTime": "2024-05-07T08:07:31.718250566Z",
+    "Size": "2569 B",
+    "ModTime": "2024-05-15T11:30:26.331067740Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/SIZE.txt",
     "B3SUM": null,
     "SHA256": null,
@@ -55,8 +55,8 @@
   },
   {
     "Name": "_toolpack_arm64_v8a.7z",
-    "Size": "65.45 MB",
-    "ModTime": "2024-05-14T22:56:48.911847110Z",
+    "Size": "70.25 MB",
+    "ModTime": "2024-05-15T11:31:42.999425990Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/_toolpack_arm64_v8a.7z",
     "B3SUM": null,
     "SHA256": null,
@@ -81,6 +81,33 @@
     "Repo": null
   },
   {
+    "Name": "act",
+    "Size": "17.42 MB",
+    "ModTime": "2024-05-15T11:09:46.597267902Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/act",
+    "B3SUM": "f815fa7d49ac18853c5b9f981b3d70ca0e65dc0ae7ed0e270dc96f7d3f4ed148",
+    "SHA256": "cb8569e5972e66ce6500410b72fc73e9f5044a6995bdcfe1d8b60196a6b205dc",
+    "Repo": "https://github.com/nektos/act"
+  },
+  {
+    "Name": "actionlint",
+    "Size": "5.64 MB",
+    "ModTime": "2024-05-15T11:10:20.589417498Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/actionlint",
+    "B3SUM": "f5a781cb7f8eeaf9aa6fa9a63d870843d5682a461ff3b93779426c009633a04a",
+    "SHA256": "0101e33eeee427774b7ee7bb6febd7b62d43c665fe38c1187c222ff5968fd936",
+    "Repo": "https://github.com/rhysd/actionlint"
+  },
+  {
+    "Name": "adig",
+    "Size": "164.18 kB",
+    "ModTime": "2024-05-15T11:11:09.977687790Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/adig",
+    "B3SUM": "ec0b2c0db4a901fe12b6f759b185ca87f996191226c0b177ed5e47b620d8051b",
+    "SHA256": "c211e23ad0513c67308f3e436ba2da94a3368139a803049b41c87288429a19dc",
+    "Repo": "https://github.com/c-ares/c-ares"
+  },
+  {
     "Name": "anew",
     "Size": "1.48 MB",
     "ModTime": "2024-02-02T04:20:30.444177629Z",
@@ -99,12 +126,30 @@
     "Repo": "https://github.com/zer0yu/anew"
   },
   {
+    "Name": "aria2c",
+    "Size": "37.24 kB",
+    "ModTime": "2024-05-15T11:20:44.084329959Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/aria2c",
+    "B3SUM": "8dd6d928ca37390715c6c9236886b45eb4a26656b4223cae351eb7df36092ddd",
+    "SHA256": "b04e1017ef787201a2afdf03466e005c9ce595b32e2910583a2ba822be574239",
+    "Repo": "https://github.com/aria2/aria2"
+  },
+  {
+    "Name": "axel",
+    "Size": "3.76 MB",
+    "ModTime": "2024-05-15T11:21:24.940512553Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/axel",
+    "B3SUM": "70c293eb38e7277eaa34ddee6d537484ee211bc49f2ce544f41a8bff1ab8210f",
+    "SHA256": "a366d5f016ab8828d873bd3daf8f4e81e0f129ba120cbbfe60c459d52159340c",
+    "Repo": "https://github.com/axel/axel"
+  },
+  {
     "Name": "bash",
     "Size": "1.78 MB",
-    "ModTime": "2024-05-14T22:48:41.287504461Z",
+    "ModTime": "2024-05-15T11:23:19.337042355Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/bash",
-    "B3SUM": "e98d0c3861bac4519df25f57be5044e15f72af8012687656a46908b8396df484",
-    "SHA256": "f5421792987e3e20543e9c299f2cf6db8f4f446eaf2fdc34d481f35c9f9baaaf",
+    "B3SUM": "0a289386dbca03c99702943086479b2e5a6ac9f00047fe814bb239f8219e4f02",
+    "SHA256": "f11060c72a0dd41b33a1ace888c0baec7493a26123646fb31bcb384de1e1e254",
     "Repo": "https://www.bash.ws/"
   },
   {
@@ -146,10 +191,10 @@
   {
     "Name": "curl",
     "Size": "5.14 MB",
-    "ModTime": "2024-05-14T22:51:38.062139595Z",
+    "ModTime": "2024-05-15T11:26:09.533793546Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/curl",
-    "B3SUM": "e31a1a5119f16fe8ac403fb06ecf78e859b550dbdbf9ee1efbdf69e4ba319a86",
-    "SHA256": "3a27624980d4bd2a37857b371964cc822b9a646496855f76d76a192951001209",
+    "B3SUM": "35f32b442504a2178b0110baa46cc68ef3d08a39c34cc7017a79e74f101aa1ab",
+    "SHA256": "42e6a41878e429b3455ebc03c3649844d8ad39e867bbbd94f1c0bd7961bd69e2",
     "Repo": "https://github.com/curl/curl"
   },
   {
@@ -407,10 +452,10 @@
   {
     "Name": "wget",
     "Size": "5.66 MB",
-    "ModTime": "2024-05-14T22:55:07.928580265Z",
+    "ModTime": "2024-05-15T11:29:23.018745182Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/wget",
-    "B3SUM": "d9332db2de516c5cc5ab5053c2dcbae0998a3a4c8bad975bfcbd8b8895b9c8db",
-    "SHA256": "b3180346c55a4ac20167f78fb5a6b2f425a47723bd5d7af5e4d2a919f0a06266",
+    "B3SUM": "c64e5641a64cc847f3fb9ac550cc8aa42b27afd5dcd8774b5b1cc3a5bf31abdb",
+    "SHA256": "076ea9ff8ffc014c32fd3b5d20a421d92567b6b2fe91972bad20ca23fea8eb79",
     "Repo": "https://www.gnu.org/software/wget/"
   },
   {

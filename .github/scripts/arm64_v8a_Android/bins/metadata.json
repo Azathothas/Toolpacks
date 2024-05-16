@@ -1,5 +1,32 @@
 [
   {
+    "Name": "act.sh",
+    "Size": "3126 B",
+    "ModTime": "2024-05-15T10:46:35.248255681Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/act.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "actionlint.sh",
+    "Size": "3226 B",
+    "ModTime": "2024-05-15T10:46:35.248255681Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/actionlint.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "adig.sh",
+    "Size": "3189 B",
+    "ModTime": "2024-05-15T10:46:35.248255681Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/adig.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "anew-rs.sh",
     "Size": "5054 B",
     "ModTime": "2024-05-07T07:41:23.383683974Z",
@@ -10,9 +37,18 @@
   },
   {
     "Name": "aria2.sh",
-    "Size": "3170 B",
-    "ModTime": "2024-05-07T07:41:23.383683974Z",
+    "Size": "3172 B",
+    "ModTime": "2024-05-15T10:46:35.248255681Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/aria2.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "axel.sh",
+    "Size": "3178 B",
+    "ModTime": "2024-05-15T10:46:35.248255681Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/axel.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -22,6 +58,15 @@
     "Size": "3159 B",
     "ModTime": "2024-05-07T07:41:23.383683974Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "coreutils.sh",
+    "Size": "4158 B",
+    "ModTime": "2024-05-15T10:46:35.248255681Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -37,8 +82,8 @@
   },
   {
     "Name": "metadata.json",
-    "Size": "1920 B",
-    "ModTime": "2024-05-15T00:03:20.201826194Z",
+    "Size": "3295 B",
+    "ModTime": "2024-05-15T21:02:52.186592849Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
