@@ -371,6 +371,7 @@ cargo metadata --no-deps --format-version 1 | jq ".packages[0].features | to_ent
 # ❯ !# static(?pie) + No mold will work, but as soon as there's additional dependencies on things like openssl, it will fail
 # Also, mold can't be used as linker
 # Rather than cross, Use : https://hub.docker.com/r/azathothas/alpine-builder
+```
 
 ---
 - #### [zig-musl](https://ziglang.org/learn/overview/#zig-is-also-a-c-compiler)
