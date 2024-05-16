@@ -28,8 +28,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "13.82 kB",
-    "ModTime": "2024-05-16T07:26:10.247355298Z",
+    "Size": "14.15 kB",
+    "ModTime": "2024-05-16T15:07:54.977801934Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -310,9 +310,9 @@
     "Size": "1.83 MB",
     "ModTime": "2024-02-02T04:20:30.380177169Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/jless",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "e54b6f5027f01876c0d6cff993c6e75a0be33eec0242601e2b969536ee99a627",
+    "SHA256": "f95b2c666fcc770a829cc241b7ad2631bc41258d8afd9a9a0f5115635279098a",
+    "Repo": "https://github.com/PaulJuliusMartinez/jless"
   },
   {
     "Name": "kanha",
@@ -391,9 +391,9 @@
     "Size": "250.38 kB",
     "ModTime": "2024-02-02T04:20:30.296176565Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/sudo",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "261a7ec6cf5ed2fbc82f8128f2583eda7faeb8939b9e08143046f0b046e504ae",
+    "SHA256": "9e56787b3ca489a9eb9e3a64f54944aa92c728d18576972ef7ef6bb10ca6462c",
+    "Repo": "https://github.com/agnostic-apollo/sudo"
   },
   {
     "Name": "tailscale",
