@@ -66,6 +66,7 @@
  ##Cleanup
   rm -rf "./ndk.log"
   echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "/etc/profile"
+  echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "$HOME/.profile"
   echo && cat "/etc/bash.bashrc" && echo
 else
   echo -e "\n[-] FATAL: Failed to set NDK ENVs\n"
