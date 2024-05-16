@@ -25,6 +25,7 @@ RUN <<EOS
   apk add bearssl-static --latest --upgrade --no-interactive
   apk add bind-tools --latest --upgrade --no-interactive
   apk add binutils --latest --upgrade --no-interactive
+  apk add binutils-aarch64 --latest --upgrade --no-interactive
   apk add bison --latest --upgrade --no-interactive
   apk add boost --latest --upgrade --no-interactive
   apk add boost-dev --latest --upgrade --no-interactive

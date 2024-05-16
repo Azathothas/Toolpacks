@@ -77,7 +77,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         #go build -v -ldflags="-buildid= -s -w"
         go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '-s -w -Wl,--build-id=none'"
        #Meta 
-        file "./pspy" && du -sh "./pspy" ; aarch64-linux-gnu-readelf -d "./pspy"
+        file "./pspy" && du -sh "./pspy" ; aarch64-linux-gnu-readelf -d "./pspy" | grep -i 'needed'
         cp "./pspy" "$BINDIR/pspy"
        #Test
         timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/pspy" --help

@@ -73,7 +73,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/anew" "./anew-rs"
        #Meta
-        file "./anew-rs" && du -sh "./anew-rs" ; aarch64-linux-gnu-readelf -d "./anew-rs"
+        file "./anew-rs" && du -sh "./anew-rs" ; aarch64-linux-gnu-readelf -d "./anew-rs" | grep -i 'needed'
         cp "./anew-rs" "$BINDIR/anew-rs"
        #Test
         timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/anew-rs" --help

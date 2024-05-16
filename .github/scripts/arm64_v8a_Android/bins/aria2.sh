@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
-       file "./aria2c" && du -sh "./aria2c" ; aarch64-linux-gnu-readelf -d "./aria2c"
+       file "./aria2c" && du -sh "./aria2c" ; aarch64-linux-gnu-readelf -d "./aria2c" | grep -i 'needed'
        cp "./aria2c" "$BINDIR/aria2c"
       #Test
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/aria2c" --version

@@ -29,26 +29,13 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-   #act : Run your GitHub Actions locally
-     export BIN="act" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/nektos/act" #github/gitlab/homepage/etc for $BIN
+   #sudo : Download with resuming and segmented downloading
+     export BIN="sudo" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/agnostic-apollo/sudo" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build (ndk-pkg)
-       pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/act" --profile="release" --jobs="$(($(nproc)+1))"
-       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/act" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
-       docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
-      #Copy
-       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
-       #Meta 
-       file "./act" && du -sh "./act" ; aarch64-linux-gnu-readelf -d "./act" | grep -i 'needed' 
-       cp "./act" "$BINDIR/act"
-      #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/act" --version
-      #Cleanup Container
-       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/act"
-       docker exec -it "ndk-pkg" ndk-pkg cleanup
-       popd >/dev/null 2>&1
+      #Fetch
+       curl -A "$USER_AGENT" -qfsSL "https://raw.githubusercontent.com/agnostic-apollo/sudo/master/sudo" -o "$BINDIR/sudo"
+       cp "$BINDIR/sudo" "$BASEUTILSDIR/sudo"
 fi
 #-------------------------------------------------------#
 

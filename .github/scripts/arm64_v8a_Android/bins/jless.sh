@@ -29,9 +29,9 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #pingmole: CLI that helps to filter pingmole servers and pick the closest one. 
-     export BIN="pingmole" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/norskeld/pingmole" #github/gitlab/homepage/etc for $BIN
+    #jless: command-line JSON viewer designed for reading, exploring, and searching through JSON data.
+     export BIN="jless" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/PaulJuliusMartinez/jless" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -63,7 +63,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          export RUST_TARGET="aarch64-linux-android" && rustup target add "$RUST_TARGET"
          export RUSTFLAGS="-C linker=${CC} -C ar=${AR} -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols"
         #Build
-         git clone --filter "blob:none" --quiet "https://github.com/norskeld/pingmole" && cd "./pingmole"
+         git clone --filter "blob:none" --quiet "https://github.com/PaulJuliusMartinez/jless" && cd "./jless"
          echo -e "\n[+] Target: $RUST_TARGET\n"
          echo -e "\n[+] Flags: $RUSTFLAGS\n"
          #Release Profile
@@ -71,21 +71,17 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          dasel put --file "./Cargo.toml" ".profile.release.lto" --type bool --value "true"
          dasel put --file "./Cargo.toml" ".profile.release.opt-level" --type int --value "3"
          dasel put --file "./Cargo.toml" ".profile.release.strip" --type bool --value "true"
-         #Deps
-         dasel --file "./Cargo.toml" ".dependencies.openssl" 2>/dev/null ; dasel delete --file "./Cargo.toml" ".dependencies.openssl" 2>/dev/null
-         #openssl = { version = "*", features = ["vendored"] }
-         sed -i "/\[dependencies\]/a openssl = { version = \"*\", features = ['\''vendored'\''] }" "./Cargo.toml"
          rm rust-toolchain* 2>/dev/null
          cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
-         cp "./target/$RUST_TARGET/release/pingmole" "/build-bins/pingmole"
+         cp "./target/$RUST_TARGET/release/jless" "/build-bins/jless"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/pingmole" "./pingmole"
+       docker cp "alpine-builder:/build-bins/jless" "./jless"
       #Meta
-       file "./pingmole" && du -sh "./pingmole" ; aarch64-linux-gnu-readelf -d "./pingmole" | grep -i 'needed'
-       cp "./pingmole" "$BINDIR/pingmole"
+       file "./jless" && du -sh "./jless" ; aarch64-linux-gnu-readelf -d "./jless" | grep -i 'needed'
+       cp "./jless" "$BINDIR/jless"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/pingmole" --help
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/jless" --help
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

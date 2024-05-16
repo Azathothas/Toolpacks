@@ -25,7 +25,7 @@ jobs:
       - name: Debloat Runner
         run: |
           #Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
           #12.0 GB 
           sudo rm /usr/local/lib/android -rf 2>/dev/null
@@ -54,7 +54,7 @@ jobs:
       - name: Setup Env
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #GH ENV
@@ -79,7 +79,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           #7z
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
@@ -139,7 +139,7 @@ jobs:
       - name: rClone BackUp Repo-I ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
         run: |
           # Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
           #touch "$HOME/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
@@ -207,7 +207,7 @@ jobs:
       - name: Parse ("bin.ajam.dev/arm64_v8a_Android/") Bins
         run: |
            #Presets
-           set -x ; set +e
+           set +x ; set +e
            #--------------#
            #Fetch from r2
            #Copy to $GITHUB_WORKSPACE/main/arm64_v8a_Android
@@ -227,7 +227,7 @@ jobs:
       - name: Parse ("bin.ajam.dev/aarch64_arm64_Linux/") Bins
         run: |
            #Presets
-           set -x ; set +e
+           set +x ; set +e
            #--------------#
            #Fetch from r2
            #Copy to $GITHUB_WORKSPACE/main/aarch64_arm64_Linux
@@ -246,7 +246,7 @@ jobs:
       - name: Parse ("bin.ajam.dev/x86_64_Linux/") Bins
         run: |
            #Presets
-           set -x ; set +e
+           set +x ; set +e
            #--------------#
            #Fetch from r2
            #Copy to $GITHUB_WORKSPACE/main/x86_64_Linux
@@ -265,7 +265,7 @@ jobs:
       - name: Parse ("bin.ajam.dev/x64_Windows/") Bins
         run: |
            #Presets
-           set -x ; set +e
+           set +x ; set +e
            #--------------#
            #Fetch from r2
            #Copy to $GITHUB_WORKSPACE/main/x64_Windows
@@ -297,7 +297,7 @@ jobs:
       - name: Parse Build Logs (aarch64_arm64_Linux)
         run: |
            #Presets
-           set -x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
+           set +x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
            #--------------#
            cd "$GITHUB_WORKSPACE/main"
            #--------------------#
@@ -341,7 +341,7 @@ jobs:
       - name: Parse Build Logs (x86_64_Linux)
         run: |
            #Presets
-           set -x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
+           set +x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
            #--------------#
            cd "$GITHUB_WORKSPACE/main"
            #--------------------#
@@ -385,7 +385,7 @@ jobs:
       - name: Generate Markdown (Main README.md)
         run: |
            #Presets
-           set -x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
+           set +x ; set +e ; ulimit -S -s unlimited ; ulimit -f unlimited 2>/dev/null
            #--------------#
            cd "$GITHUB_WORKSPACE/main"
            #Generate $GITHUB_WORKSPACE/main/README.md
@@ -461,7 +461,7 @@ jobs:
       - name: rClone Generate Metadata (bin.ajam.dev)
         run: |
           # Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
           #touch "$HOME/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
@@ -478,7 +478,7 @@ jobs:
           echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
           #Update Metadata
           rclone copyto --checksum "./metadata.json" "r2:/bin/arm64_v8a_Android/METADATA.json.tmp"
-          clone copyto --checksum "./metadata_Baseutils.json" "r2:/bin/arm64_v8a_Android/Baseutils/METADATA.json"
+          rclone copyto --checksum "./metadata_Baseutils.json" "r2:/bin/arm64_v8a_Android/Baseutils/METADATA.json"
           #--------------------#
           ##aarch64_arm64_Linux##
           #Raw Dirty
@@ -516,7 +516,7 @@ jobs:
       - name: rClone BackUp Repo-II ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
         run: |
           # Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
           #touch "$HOME/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
@@ -552,7 +552,7 @@ jobs:
       - name: Setup Env
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #GH ENV
@@ -574,7 +574,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           #7z
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
@@ -674,7 +674,7 @@ jobs:
       - name: Setup Env
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #GH ENV
@@ -696,7 +696,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           #7z
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
@@ -796,7 +796,7 @@ jobs:
       - name: Setup Env
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #GH ENV
@@ -818,7 +818,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           #7z
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
@@ -918,7 +918,7 @@ jobs:
       - name: Setup Env
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #GH ENV
@@ -940,7 +940,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           #7z
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
@@ -1044,7 +1044,7 @@ jobs:
       - name: Setup Env
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
           #GH ENV
@@ -1066,7 +1066,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           #7z
           sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"

@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Copy 
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
-       file "./curl" && du -sh "./curl" ; aarch64-linux-gnu-readelf -d "./curl"
+       file "./curl" && du -sh "./curl" ; aarch64-linux-gnu-readelf -d "./curl" | grep -i 'needed'
        cp "./curl" "$BINDIR/curl"
        #get cert
        eget "https://curl.se/ca/cacert.pem" --to "$BINDIR/curl_cacert.pem"

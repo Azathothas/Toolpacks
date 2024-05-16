@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
-       file "./wget" && du -sh "./wget" ; aarch64-linux-gnu-readelf -d "./wget"
+       file "./wget" && du -sh "./wget" ; aarch64-linux-gnu-readelf -d "./wget" | grep -i 'needed'
        cp "./wget" "$BINDIR/wget"
        #get cert
        eget "https://curl.se/ca/cacert.pem" --to "$BINDIR/wget_cacert.pem"
