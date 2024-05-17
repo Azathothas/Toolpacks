@@ -123,10 +123,10 @@
          #Install CoreUtils & Deps
           sudo apt-get update -y 2>/dev/null
           sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils gnupg2 moreutils software-properties-common util-linux -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
-          #Install Python (Deadsnakes)
-          sudo add-apt-repository "ppa:deadsnakes/ppa" --yes ; sudo apt-get update -y
-          PYTHON_VERSION_LATEST="$(curl -qfsSL "https://devguide.python.org/versions/" |  grep -oP 'Python \d+\.\d+' | sed 's/Python //' | sort -V | uniq | tail -n 1)" && export PYTHON_VERSION_LATEST="$PYTHON_VERSION_LATEST"
-          sudo apt-get install "python${PYTHON_VERSION_LATEST}" -y
+          ##Install Python (Deadsnakes)
+          #sudo add-apt-repository "ppa:deadsnakes/ppa" --yes ; sudo apt-get update -y
+          #PYTHON_VERSION_LATEST="$(curl -qfsSL "https://devguide.python.org/versions/" |  grep -oP 'Python \d+\.\d+' | sed 's/Python //' | sort -V | uniq | tail -n 1)" && export PYTHON_VERSION_LATEST="$PYTHON_VERSION_LATEST"
+          #sudo apt-get install "python${PYTHON_VERSION_LATEST}" -y
           #Install Build Des
           sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget -y 2>/dev/null
           sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config qemu-user-static scons wget 2>/dev/null

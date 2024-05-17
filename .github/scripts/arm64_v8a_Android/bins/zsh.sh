@@ -29,26 +29,27 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-   #aria2 : Download with resuming and segmented downloading
-     export BIN="aria2" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/aria2/aria2" #github/gitlab/homepage/etc for $BIN
+   #zsh: Z Shell
+     export BIN="zsh" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/zsh-users/zsh" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build (ndk-pkg)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/aria2" --profile="release" --jobs="$(($(nproc)+1))"
-       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/aria2" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh" --profile="release" --jobs="$(($(nproc)+1))" --fsle
+       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
       #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
-       file "./aria2c" && du -sh "./aria2c" ; aarch64-linux-gnu-readelf -d "./aria2c" | grep -i 'needed' 
-       cp "./aria2c" "$BINDIR/aria2c"
+       file "./zsh" && du -sh "./zsh" ; aarch64-linux-gnu-readelf -d "./zsh" | grep -i 'needed'
+       cp "./zsh" "$BINDIR/zsh" ; cp "./zsh" "$BASEUTILSDIR/zsh"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/aria2c" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/zsh" --version
       #Cleanup Container
-       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/aria2"
+       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh"
        docker exec -it "ndk-pkg" ndk-pkg cleanup
        popd >/dev/null 2>&1
+      #Will no work if zsh & zsh plugins already installed via termux, will still work in android sh shell
 fi
 #-------------------------------------------------------#
 

@@ -42,7 +42,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
        file "./bash" && du -sh "./bash" ; aarch64-linux-gnu-readelf -d "./bash" | grep -i 'needed'
-       cp "./bash" "$BINDIR/bash"
+       cp "./bash" "$BINDIR/bash" ; cp "./bash" "$BASEUTILSDIR/bash"
       #Test
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/bash" --version
       #Cleanup Container
