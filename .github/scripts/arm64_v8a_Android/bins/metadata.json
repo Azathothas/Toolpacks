@@ -37,8 +37,8 @@
   },
   {
     "Name": "aria2.sh",
-    "Size": "3189 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
+    "Size": "3190 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/aria2.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -55,9 +55,18 @@
   },
   {
     "Name": "bash.sh",
-    "Size": "3178 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
+    "Size": "3213 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "bigdl.sh",
+    "Size": "4761 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bigdl.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -73,8 +82,8 @@
   },
   {
     "Name": "curl.sh",
-    "Size": "3989 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
+    "Size": "4024 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh",
     "B3SUM": null,
     "SHA256": null,
@@ -92,7 +101,7 @@
   {
     "Name": "metadata.json",
     "Size": "4399 B",
-    "ModTime": "2024-05-17T00:04:10.597158468Z",
+    "ModTime": "2024-05-17T07:02:17.086330218Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -117,6 +126,15 @@
     "Repo": null
   },
   {
+    "Name": "rclone.sh",
+    "Size": "4775 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/rclone.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "sudo.sh",
     "Size": "2231 B",
     "ModTime": "2024-05-16T14:02:02.555610439Z",
@@ -135,10 +153,37 @@
     "Repo": null
   },
   {
+    "Name": "tmux.sh",
+    "Size": "3284 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tmux.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "vim.sh",
+    "Size": "3178 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/vim.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "wget.sh",
-    "Size": "3518 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
+    "Size": "3553 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "zsh.sh",
+    "Size": "3265 B",
+    "ModTime": "2024-05-17T14:02:55.291037848Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/zsh.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
