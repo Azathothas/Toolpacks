@@ -18,6 +18,15 @@
     "Repo": null
   },
   {
+    "Name": "Baseutils",
+    "Size": "0 B",
+    "ModTime": "2000-01-01T00:00:00.000000000Z",
+    "Source": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "FILE.txt",
     "Size": "6943 B",
     "ModTime": "2024-05-15T11:30:22.915050644Z",
@@ -28,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "14.15 kB",
-    "ModTime": "2024-05-16T15:07:54.977801934Z",
+    "Size": "14.69 kB",
+    "ModTime": "2024-05-17T00:24:40.040183740Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -400,9 +409,9 @@
     "Size": "10.92 MB",
     "ModTime": "2024-02-02T04:20:30.596178721Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/tailscale",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "ef80806ae45dd0d4f2bec4c59b202a4c9bd33e5c792b240a1a238c5e4364e1f1",
+    "SHA256": "b4436d601a0a777d905590fcaf4eb55f45eb63a76e8459c513b0fa1d887b2a16",
+    "Repo": "https://github.com/tailscale/tailscale"
   },
   {
     "Name": "tailscale_dynamic_native",
@@ -436,9 +445,9 @@
     "Size": "20.48 MB",
     "ModTime": "2024-02-02T04:20:30.404177341Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/tailscaled",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "08d5aab8a7e544017f5581a5850eb34c6286fc6eba67f60382ea5b70fc261afc",
+    "SHA256": "5504897030b405888ef389c97a4079d2b3fa869f6ed97132d62c5229a6f126f9",
+    "Repo": "https://github.com/tailscale/tailscale"
   },
   {
     "Name": "tailscaled_dynamic_native",
