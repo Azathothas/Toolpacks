@@ -60,6 +60,7 @@ RUN <<EOS
   apk add croc --latest --upgrade --no-interactive 2>/dev/null
   apk add curl --latest --upgrade --no-interactive 2>/dev/null
   apk add curl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add curl-static --latest --upgrade --no-interactive 2>/dev/null
   apk add dbus --latest --upgrade --no-interactive 2>/dev/null
   apk add dbus-cpp --latest --upgrade --no-interactive 2>/dev/null
   apk add dbus-glib --latest --upgrade --no-interactive 2>/dev/null
