@@ -173,43 +173,14 @@
           sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev scons xcb -y 2>/dev/null
           pip install build cffi scons scuba pytest --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --upgrade 2>/dev/null
           pip install build cffi scons scuba pytest --break-system-packages --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --break-system-packages --upgrade 2>/dev/null
-         #Nutika
-         #pip install nuitka --break-system-packages --upgrade ; nuitka3 --version
-         pip install "git+https://github.com/Nuitka/Nuitka" --break-system-packages --force-reinstall --upgrade ; nuitka3 --version
-         #Pex
-         pip install "git+https://github.com/pex-tool/pex" --break-system-packages --force-reinstall --upgrade ; pex --version
+          #Nutika
+          #pip install nuitka --break-system-packages --upgrade ; nuitka3 --version
+          pip install "git+https://github.com/Nuitka/Nuitka" --break-system-packages --force-reinstall --upgrade ; nuitka3 --version
+          #Pex
+          pip install "git+https://github.com/pex-tool/pex" --break-system-packages --force-reinstall --upgrade ; pex --version
+         ##Addons
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
     fi
-    #-------------------------------------------------------#
-    
-    #-------------------------------------------------------#
-    #Install Addons
-    if [ "$CONTINUE" == "YES" ]; then
-         #7z
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-         #aria2c
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/aria2c" -o "/usr/local/bin/aria2c" && sudo chmod +xwr "/usr/local/bin/aria2c"
-         #b3sum
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-         #Croc
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/croc" -o "/usr/local/bin/croc" && sudo chmod +xwr "/usr/local/bin/croc"
-         #delta
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
-         #dust
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
-         #eget
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-         #rclone
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-         #upx
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
-         #yq
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-         #yj
-         sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
-    fi 
     #-------------------------------------------------------#
     
     #-------------------------------------------------------#
