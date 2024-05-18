@@ -47,7 +47,7 @@
   {
     "Name": "METADATA.json",
     "Size": "352.49 kB",
-    "ModTime": "2024-05-18T00:31:54.202549948Z",
+    "ModTime": "2024-05-18T07:31:55.578722656Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -529,6 +529,15 @@
     "B3SUM": "8c0aee862a2fd88a513b5e5f7b5cabe82c7f78262257413ff828955551869eef",
     "SHA256": "889040e03adb6261128730e69924fc3259819daeecbde32c365ec367a70fcb82",
     "Repo": "https://github.com/itchyny/bed"
+  },
+  {
+    "Name": "bench.sh",
+    "Size": "15.17 kB",
+    "ModTime": "2024-05-18T10:51:35.468688600Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/bench.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "berty",
@@ -8368,6 +8377,15 @@
     "B3SUM": "9e53761fb3d58571ebc229694f250926504596312f62ebd7bae59ccaf3382def",
     "SHA256": "01162458514938d0abe6536e89bf22b7d85d1f1ed137278a50a11a5131c3d2a8",
     "Repo": "https://github.com/mvdan/xurls"
+  },
+  {
+    "Name": "yabs.sh",
+    "Size": "45.17 kB",
+    "ModTime": "2024-05-18T10:51:35.460170300Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/yabs.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "yalis",
