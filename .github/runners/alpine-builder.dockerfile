@@ -31,8 +31,10 @@ RUN <<EOS
   apk add blkid --latest --upgrade --no-interactive 2>/dev/null
   apk add boost --latest --upgrade --no-interactive 2>/dev/null
   apk add boost-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add brotli --latest --upgrade --no-interactive 2>/dev/null
   apk add brotli-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add brotli-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add brotli-static --latest --upgrade --no-interactive 2>/dev/null
   apk add build-base --latest --upgrade --no-interactive 2>/dev/null
   apk add bzip2 --latest --upgrade --no-interactive 2>/dev/null
   apk add bzip2-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -109,6 +111,7 @@ RUN <<EOS
   apk add gpsd-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add hostapd --latest --upgrade --no-interactive 2>/dev/null
   apk add hwloc-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add idn2-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add imagemagick-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add imagemagick-static --latest --upgrade --no-interactive 2>/dev/null
   apk add indent --latest --upgrade --no-interactive 2>/dev/null
@@ -158,6 +161,9 @@ RUN <<EOS
   apk add libgcrypt --latest --upgrade --no-interactive 2>/dev/null
   apk add libgcrypt-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libgcrypt-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libidn2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add libidn2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libidn2-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libmaxminddb-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libmaxminddb-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add libmaxminddb-static --latest --upgrade --no-interactive 2>/dev/null
@@ -174,6 +180,11 @@ RUN <<EOS
   apk add libpng-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libpng-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libprotobuf --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpsl --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpsl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpsl-native --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpsl-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpsl-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add libpq --latest --upgrade --no-interactive 2>/dev/null
   apk add libpq-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libpulse --latest --upgrade --no-interactive 2>/dev/null
