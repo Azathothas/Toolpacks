@@ -9,8 +9,8 @@
   29M   ├── sing-box.exe
   28M   ├── dbbench.exe
   28M   ├── ngrok.exe
-  25M   ├── algernon.exe
   25M   ├── cloudflared.exe
+  25M   ├── algernon.exe
   24M   ├── brutespray.exe
   22M   ├── loclx.exe
   22M   ├── localxpose.exe
@@ -44,7 +44,7 @@
  5.4M   ├── shell2http.exe
  5.2M   ├── actionlint.exe
  5.1M   ├── rg.exe
- 5.1M   ├── monolith.exe
+ 5.0M   ├── monolith.exe
  4.6M   ├── certstream.exe
  4.6M   ├── openssh.zip
  4.4M   ├── wget2.exe
@@ -99,7 +99,7 @@
  1.1M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── b3sum.exe
-1015K   ├── seq.exe
+1014K   ├── seq.exe
 1005K   ├── cksum.exe
 1000K   ├── env.exe
  995K   ├── dd.exe
@@ -118,8 +118,8 @@
  893K   ├── printf.exe
  892K   ├── join.exe
  890K   ├── shuf.exe
- 889K   ├── cut.exe
  888K   ├── rm.exe
+ 888K   ├── cut.exe
  885K   ├── uniq.exe
  882K   ├── fmt.exe
  881K   ├── tr.exe
