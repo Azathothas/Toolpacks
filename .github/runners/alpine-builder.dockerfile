@@ -351,6 +351,7 @@ RUN <<EOS
   apk add qemu --latest --upgrade --no-interactive 2>/dev/null
   apk add qemu-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add qemu-aarch64 --latest --upgrade --no-interactive 2>/dev/null
+  apk add qemu-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add qemu-system-aarch64 --latest --upgrade --no-interactive 2>/dev/null
   apk add qemu-x86_64 --latest --upgrade --no-interactive 2>/dev/null
   apk add qemu-system-x86_64 --latest --upgrade --no-interactive 2>/dev/null
