@@ -48,6 +48,7 @@ RUN <<EOS
   apk add capstone-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add capstone-static --latest --upgrade --no-interactive 2>/dev/null
   apk add ccache --latest --upgrade --no-interactive 2>/dev/null
+  apk add ceph-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add ck --latest --upgrade --no-interactive 2>/dev/null
   apk add ck-static --latest --upgrade --no-interactive 2>/dev/null
   apk add clang --latest --upgrade --no-interactive 2>/dev/null
@@ -68,6 +69,8 @@ RUN <<EOS
   apk add dpdk --latest --upgrade --no-interactive 2>/dev/null
   apk add dpdk-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add dpdk-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add dtc --latest --upgrade --no-interactive 2>/dev/null
+  apk add dtc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add elfutils --latest --upgrade --no-interactive 2>/dev/null
   apk add elfutils-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add expect --latest --upgrade --no-interactive 2>/dev/null
@@ -98,26 +101,40 @@ RUN <<EOS
   apk add glib-static --latest --upgrade --no-interactive 2>/dev/null
   apk add go --latest --upgrade --no-interactive 2>/dev/null
   apk add gnupg --latest --upgrade --no-interactive 2>/dev/null
+  apk add gnutls --latest --upgrade --no-interactive 2>/dev/null
+  apk add gnutls-c++ --latest --upgrade --no-interactive 2>/dev/null
+  apk add gnutls-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add gnutls-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add gpsd-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add hostapd --latest --upgrade --no-interactive 2>/dev/null
   apk add hwloc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add imagemagick-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add imagemagick-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add indent --latest --upgrade --no-interactive 2>/dev/null
   apk add iperf --latest --upgrade --no-interactive 2>/dev/null
   apk add iputils --latest --upgrade --no-interactive 2>/dev/null
   apk add iw --latest --upgrade --no-interactive 2>/dev/null
+  apk add jack --latest --upgrade --no-interactive 2>/dev/null
+  apk add jack-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add jemalloc --latest --upgrade --no-interactive 2>/dev/null
   apk add jemalloc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add jemalloc-static --latest --upgrade --no-interactive 2>/dev/null
   apk add jq --latest --upgrade --no-interactive 2>/dev/null
   apk add json-glib --latest --upgrade --no-interactive 2>/dev/null
+  apk add keyutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add keyutils-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add keyutils-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add ldns --latest --upgrade --no-interactive 2>/dev/null
   apk add ldns-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libao-pulse --latest --upgrade --no-interactive 2>/dev/null
   apk add libaio --latest --upgrade --no-interactive 2>/dev/null
   apk add libaio-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libblkid --latest --upgrade --no-interactive 2>/dev/null
   apk add libbpf --latest --upgrade --no-interactive 2>/dev/null
   apk add libbpf-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcaca --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcaca-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcaca-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libcap --latest --upgrade --no-interactive 2>/dev/null
   apk add libcap-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libcap-static --latest --upgrade --no-interactive 2>/dev/null
@@ -136,6 +153,7 @@ RUN <<EOS
   apk add libevent --latest --upgrade --no-interactive 2>/dev/null
   apk add libevent-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libevent-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libfdt --latest --upgrade --no-interactive 2>/dev/null
   apk add libgcrypt --latest --upgrade --no-interactive 2>/dev/null
   apk add libgcrypt-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libgcrypt-static --latest --upgrade --no-interactive 2>/dev/null
@@ -157,12 +175,15 @@ RUN <<EOS
   apk add libprotobuf --latest --upgrade --no-interactive 2>/dev/null
   apk add libpq --latest --upgrade --no-interactive 2>/dev/null
   apk add libpq-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpulse --latest --upgrade --no-interactive 2>/dev/null
   apk add libseccomp --latest --upgrade --no-interactive 2>/dev/null
   apk add libseccomp-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libseccomp-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libselinux --latest --upgrade --no-interactive 2>/dev/null
   apk add libselinux-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libselinux-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add libslirp --latest --upgrade --no-interactive 2>/dev/null
+  apk add libslirp-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libsoup --latest --upgrade --no-interactive 2>/dev/null
   apk add libsoup-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libsoup3 --latest --upgrade --no-interactive 2>/dev/null
@@ -182,9 +203,16 @@ RUN <<EOS
   apk add libtorrent-rasterbar-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libu2f-server --latest --upgrade --no-interactive 2>/dev/null
   apk add libu2f-server-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libusb --latest --upgrade --no-interactive 2>/dev/null
+  apk add libusb-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libusbgx --latest --upgrade --no-interactive 2>/dev/null
+  apk add libusbgx-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libusbgx-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libuv --latest --upgrade --no-interactive 2>/dev/null
   apk add libuv-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libuv-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvirt --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvirt-xen --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxcb-static --latest --upgrade --no-interactive 2>/dev/null
@@ -240,6 +268,10 @@ RUN <<EOS
   apk add ndctl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add ndctl-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add netcat-openbsd --latest --upgrade --no-interactive 2>/dev/null
+  apk add nettle --latest --upgrade --no-interactive 2>/dev/null
+  apk add nettle-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add nettle-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add nettle-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add net-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add networkmanager-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add nghttp2 --latest --upgrade --no-interactive 2>/dev/null
@@ -248,10 +280,17 @@ RUN <<EOS
   apk add nghttp2-static --latest --upgrade --no-interactive 2>/dev/null
   apk add nghttp3 --latest --upgrade --no-interactive 2>/dev/null
   apk add nghttp3-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add ngtcp2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add ngtcp2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add ngtcp2-gnutls --latest --upgrade --no-interactive 2>/dev/null
   apk add ninja-build --latest --upgrade --no-interactive 2>/dev/null
   apk add nodejs-current --latest --upgrade --no-interactive 2>/dev/null
   apk add numactl --latest --upgrade --no-interactive 2>/dev/null
   apk add numactl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add open-iscsi --latest --upgrade --no-interactive 2>/dev/null
+  apk add open-iscsi-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add open-iscsi-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add open-plc-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add openssh --latest --upgrade --no-interactive 2>/dev/null
   apk add openssl --latest --upgrade --no-interactive 2>/dev/null
   apk add openssl-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -263,6 +302,13 @@ RUN <<EOS
   apk add pciutils-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add pcre-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add pcre2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipewire --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipewire-alsa --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipewire-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipewire-jack --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipewire-jack-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipewire-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipewire-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add pkgconfig --latest --upgrade --no-interactive 2>/dev/null
   apk add postgresql16 --latest --upgrade --no-interactive 2>/dev/null
   apk add postgresql16-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -278,6 +324,10 @@ RUN <<EOS
   apk add pipx --latest --upgrade --no-interactive 2>/dev/null
   apk add pkgconf --latest --upgrade --no-interactive 2>/dev/null
   apk add pkgconf-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pulseaudio --latest --upgrade --no-interactive 2>/dev/null
+  apk add pulseaudio-alsa --latest --upgrade --no-interactive 2>/dev/null
+  apk add pulseaudio-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pulseaudio-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add readline --latest --upgrade --no-interactive 2>/dev/null
   apk add readline-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add readline-static --latest --upgrade --no-interactive 2>/dev/null
@@ -288,11 +338,25 @@ RUN <<EOS
   apk add qemu-x86_64 --latest --upgrade --no-interactive 2>/dev/null
   apk add qemu-system-x86_64 --latest --upgrade --no-interactive 2>/dev/null
   apk add rbd-fuse18 --latest --upgrade --no-interactive 2>/dev/null
+  apk add rng-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add rng-tools-extra --latest --upgrade --no-interactive 2>/dev/null
   apk add rsync --latest --upgrade --no-interactive 2>/dev/null
   apk add rustup --latest --upgrade --no-interactive 2>/dev/null ; rustup-init -y
   apk add samurai --latest --upgrade --no-interactive 2>/dev/null
   apk add scons --latest --upgrade --no-interactive 2>/dev/null
   apk add screen --latest --upgrade --no-interactive 2>/dev/null
+  apk add sdl2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add sdl2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add slirp4netns --latest --upgrade --no-interactive 2>/dev/null
+  apk add snappy --latest --upgrade --no-interactive 2>/dev/null
+  apk add snappy-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add snappy-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add sndio --latest --upgrade --no-interactive 2>/dev/null
+  apk add sndio-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add sndio-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add sparse --latest --upgrade --no-interactive 2>/dev/null
+  apk add spice --latest --upgrade --no-interactive 2>/dev/null
+  apk add spice-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add sqlite --latest --upgrade --no-interactive 2>/dev/null
   apk add sqlite-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add sqlite-libs --latest --upgrade --no-interactive 2>/dev/null
@@ -301,6 +365,9 @@ RUN <<EOS
   apk add sysfsutils --latest --upgrade --no-interactive 2>/dev/null
   apk add sysfsutils-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add sysfsutils-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add sysprof --latest --upgrade --no-interactive 2>/dev/null
+  apk add sysprof-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add sysprof-static --latest --upgrade --no-interactive 2>/dev/null
   apk add tar --latest --upgrade --no-interactive 2>/dev/null
   apk add tcpdump --latest --upgrade --no-interactive 2>/dev/null
   apk add texinfo --latest --upgrade --no-interactive 2>/dev/null
@@ -316,6 +383,10 @@ RUN <<EOS
   apk add util-linux --latest --upgrade --no-interactive 2>/dev/null
   apk add util-linux-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add util-linux-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add vde2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add vde2-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add virglrenderer --latest --upgrade --no-interactive 2>/dev/null
+  apk add virglrenderer-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add virt-what --latest --upgrade --no-interactive 2>/dev/null
   apk add wayland-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add wget --latest --upgrade --no-interactive 2>/dev/null
@@ -327,6 +398,10 @@ RUN <<EOS
   apk add xcb-util-image-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xcb-util-keysyms-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xcb-util-wm-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xen --latest --upgrade --no-interactive 2>/dev/null
+  apk add xen-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xen-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add xen-qemu --latest --upgrade --no-interactive 2>/dev/null
   apk add xz --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-libs --latest --upgrade --no-interactive 2>/dev/null
