@@ -27,8 +27,11 @@ RUN <<EOS
   apk add binutils --latest --upgrade --no-interactive
   apk add binutils-aarch64 --latest --upgrade --no-interactive
   apk add bison --latest --upgrade --no-interactive
+  apk add blkid --latest --upgrade --no-interactive
   apk add boost --latest --upgrade --no-interactive
   apk add boost-dev --latest --upgrade --no-interactive
+  apk add brotli-dev --latest --upgrade --no-interactive
+  apk add brotli-libs --latest --upgrade --no-interactive
   apk add build-base --latest --upgrade --no-interactive
   apk add bzip2 --latest --upgrade --no-interactive
   apk add bzip2-dev --latest --upgrade --no-interactive
@@ -37,6 +40,8 @@ RUN <<EOS
   apk add bzip3-dev --latest --upgrade --no-interactive
   apk add bzip3-libs --latest --upgrade --no-interactive
   apk add bzip3-static --latest --upgrade --no-interactive
+  apk add c-ares --latest --upgrade --no-interactive
+  apk add c-ares-dev --latest --upgrade --no-interactive
   apk add ca-certificates --latest --upgrade --no-interactive
   apk add ccache --latest --upgrade --no-interactive
   apk add ck --latest --upgrade --no-interactive
@@ -86,6 +91,7 @@ RUN <<EOS
   apk add git --latest --upgrade --no-interactive
   apk add glib --latest --upgrade --no-interactive
   apk add glib-dev --latest --upgrade --no-interactive
+  apk add glib-static --latest --upgrade --no-interactive
   apk add go --latest --upgrade --no-interactive
   apk add gnupg --latest --upgrade --no-interactive
   apk add gpsd-dev --latest --upgrade --no-interactive
@@ -103,6 +109,7 @@ RUN <<EOS
   apk add json-glib --latest --upgrade --no-interactive
   apk add ldns --latest --upgrade --no-interactive
   apk add ldns-dev --latest --upgrade --no-interactive
+  apk add libblkid --latest --upgrade --no-interactive
   apk add libbpf --latest --upgrade --no-interactive
   apk add libbpf-dev --latest --upgrade --no-interactive
   apk add libcap --latest --upgrade --no-interactive
@@ -124,6 +131,7 @@ RUN <<EOS
   apk add libmaxminddb-dev --latest --upgrade --no-interactive
   apk add libmaxminddb-libs --latest --upgrade --no-interactive
   apk add libmaxminddb-static --latest --upgrade --no-interactive
+  apk add libmount --latest --upgrade --no-interactive
   apk add libncurses++ --latest --upgrade --no-interactive
   apk add libncursesw --latest --upgrade --no-interactive
   apk add libpcap --latest --upgrade --no-interactive
@@ -187,6 +195,7 @@ RUN <<EOS
   apk add mlocate --latest --upgrade --no-interactive
   apk add mold --latest --upgrade --no-interactive
   apk add moreutils --latest --upgrade --no-interactive
+  apk add mount --latest --upgrade --no-interactive
   apk add musl --latest --upgrade --no-interactive
   apk add musl-dev --latest --upgrade --no-interactive
   apk add musl-fts --latest --upgrade --no-interactive
@@ -268,6 +277,8 @@ RUN <<EOS
   apk add usbutils --latest --upgrade --no-interactive
   apk add usbutils-dev --latest --upgrade --no-interactive
   apk add util-linux --latest --upgrade --no-interactive
+  apk add util-linux-dev --latest --upgrade --no-interactive
+  apk add util-linux-static --latest --upgrade --no-interactive
   apk add virt-what --latest --upgrade --no-interactive
   apk add wayland-dev --latest --upgrade --no-interactive
   apk add wget --latest --upgrade --no-interactive
