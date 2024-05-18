@@ -5,301 +5,338 @@ FROM alpine:edge
 #------------------------------------------------------------------------------------#
 ##Base Deps :: https://pkgs.alpinelinux.org/packages
 RUN <<EOS
-  apk update && apk upgrade --no-interactive
-  apk add acl-dev --latest --upgrade --no-interactive
-  apk add acl-static --latest --upgrade --no-interactive
-  apk add alpine-sdk --latest --upgrade --no-interactive
-  apk add alsa-lib --latest --upgrade --no-interactive
-  apk add alsa-lib-dev --latest --upgrade --no-interactive
-  apk add aria2 --latest --upgrade --no-interactive
-  apk add asciidoc --latest --upgrade --no-interactive
-  apk add autoconf --latest --upgrade --no-interactive
-  apk add autoconf-archive --latest --upgrade --no-interactive
-  apk add automake --latest --upgrade --no-interactive
-  apk add b3sum --latest --upgrade --no-interactive
-  apk add bash --latest --upgrade --no-interactive
-  apk add bc --latest --upgrade --no-interactive
-  apk add bearssl --latest --upgrade --no-interactive
-  apk add bearssl-dev --latest --upgrade --no-interactive
-  apk add bearssl-libs --latest --upgrade --no-interactive
-  apk add bearssl-static --latest --upgrade --no-interactive
-  apk add bind-tools --latest --upgrade --no-interactive
-  apk add binutils --latest --upgrade --no-interactive
-  apk add binutils-aarch64 --latest --upgrade --no-interactive
-  apk add bison --latest --upgrade --no-interactive
-  apk add blkid --latest --upgrade --no-interactive
-  apk add boost --latest --upgrade --no-interactive
-  apk add boost-dev --latest --upgrade --no-interactive
-  apk add brotli-dev --latest --upgrade --no-interactive
-  apk add brotli-libs --latest --upgrade --no-interactive
-  apk add build-base --latest --upgrade --no-interactive
-  apk add bzip2 --latest --upgrade --no-interactive
-  apk add bzip2-dev --latest --upgrade --no-interactive
-  apk add bzip2-static --latest --upgrade --no-interactive
-  apk add bzip3 --latest --upgrade --no-interactive
-  apk add bzip3-dev --latest --upgrade --no-interactive
-  apk add bzip3-libs --latest --upgrade --no-interactive
-  apk add bzip3-static --latest --upgrade --no-interactive
-  apk add c-ares --latest --upgrade --no-interactive
-  apk add c-ares-dev --latest --upgrade --no-interactive
-  apk add ca-certificates --latest --upgrade --no-interactive
-  apk add ccache --latest --upgrade --no-interactive
-  apk add ck --latest --upgrade --no-interactive
-  apk add ck-static --latest --upgrade --no-interactive
-  apk add clang --latest --upgrade --no-interactive
-  apk add clang-dev --latest --upgrade --no-interactive
-  apk add clang-static --latest --upgrade --no-interactive
-  apk add cmake --latest --upgrade --no-interactive
-  apk add cmocka-dev --latest --upgrade --no-interactive
-  apk add coreutils --latest --upgrade --no-interactive
-  apk add croc --latest --upgrade --no-interactive
-  apk add curl --latest --upgrade --no-interactive
-  apk add curl-dev --latest --upgrade --no-interactive
-  apk add dbus --latest --upgrade --no-interactive
-  apk add dbus-cpp --latest --upgrade --no-interactive
-  apk add dbus-glib --latest --upgrade --no-interactive
-  apk add dbus-libs --latest --upgrade --no-interactive
-  apk add diffutils --latest --upgrade --no-interactive
-  apk add dos2unix --latest --upgrade --no-interactive
-  apk add dpdk --latest --upgrade --no-interactive
-  apk add dpdk-dev --latest --upgrade --no-interactive
-  apk add dpdk-static --latest --upgrade --no-interactive
-  apk add elfutils --latest --upgrade --no-interactive
-  apk add elfutils-dev --latest --upgrade --no-interactive
-  apk add expect --latest --upgrade --no-interactive
-  apk add expect-dev --latest --upgrade --no-interactive
-  apk add ethtool --latest --upgrade --no-interactive
-  apk add file-dev --latest --upgrade --no-interactive
-  apk add flex-dev --latest --upgrade --no-interactive
-  apk add fontconfig-dev --latest --upgrade --no-interactive
-  apk add fontconfig-static --latest --upgrade --no-interactive
-  apk add freetype-dev --latest --upgrade --no-interactive
-  apk add freetype-static --latest --upgrade --no-interactive
-  apk add fuse --latest --upgrade --no-interactive
-  apk add fuse-dev --latest --upgrade --no-interactive
-  apk add fuse-static --latest --upgrade --no-interactive
-  apk add fuse3 --latest --upgrade --no-interactive
-  apk add fuse3-dev --latest --upgrade --no-interactive
-  apk add fuse3-libs --latest --upgrade --no-interactive
-  apk add fuse3-static --latest --upgrade --no-interactive
-  apk add gawk --latest --upgrade --no-interactive
-  apk add gcc --latest --upgrade --no-interactive
-  apk add geoip --latest --upgrade --no-interactive
-  apk add geoip-dev --latest --upgrade --no-interactive
-  apk add gettext --latest --upgrade --no-interactive
-  apk add gettext-static --latest --upgrade --no-interactive
-  apk add git --latest --upgrade --no-interactive
-  apk add glib --latest --upgrade --no-interactive
-  apk add glib-dev --latest --upgrade --no-interactive
-  apk add glib-static --latest --upgrade --no-interactive
-  apk add go --latest --upgrade --no-interactive
-  apk add gnupg --latest --upgrade --no-interactive
-  apk add gpsd-dev --latest --upgrade --no-interactive
-  apk add hostapd --latest --upgrade --no-interactive
-  apk add hwloc-dev --latest --upgrade --no-interactive
-  apk add imagemagick-dev --latest --upgrade --no-interactive
-  apk add imagemagick-static --latest --upgrade --no-interactive
-  apk add iperf --latest --upgrade --no-interactive
-  apk add iputils --latest --upgrade --no-interactive
-  apk add iw --latest --upgrade --no-interactive
-  apk add jemalloc --latest --upgrade --no-interactive
-  apk add jemalloc-dev --latest --upgrade --no-interactive
-  apk add jemalloc-static --latest --upgrade --no-interactive
-  apk add jq --latest --upgrade --no-interactive
-  apk add json-glib --latest --upgrade --no-interactive
-  apk add ldns --latest --upgrade --no-interactive
-  apk add ldns-dev --latest --upgrade --no-interactive
-  apk add libblkid --latest --upgrade --no-interactive
-  apk add libbpf --latest --upgrade --no-interactive
-  apk add libbpf-dev --latest --upgrade --no-interactive
-  apk add libcap --latest --upgrade --no-interactive
-  apk add libcap-dev --latest --upgrade --no-interactive
-  apk add libcap-static --latest --upgrade --no-interactive
-  apk add libcap-ng-static --latest --upgrade --no-interactive
-  apk add libcap-utils --latest --upgrade --no-interactive
-  apk add libcurl --latest --upgrade --no-interactive
-  apk add libdbusmenu-glib --latest --upgrade --no-interactive
-  apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive
-  apk add libedit-static --latest --upgrade --no-interactive
-  apk add libelf --latest --upgrade --no-interactive
-  apk add libevent --latest --upgrade --no-interactive
-  apk add libevent-dev --latest --upgrade --no-interactive
-  apk add libevent-static --latest --upgrade --no-interactive
-  apk add libgcrypt --latest --upgrade --no-interactive
-  apk add libgcrypt-dev --latest --upgrade --no-interactive
-  apk add libgcrypt-static --latest --upgrade --no-interactive
-  apk add libmaxminddb-dev --latest --upgrade --no-interactive
-  apk add libmaxminddb-libs --latest --upgrade --no-interactive
-  apk add libmaxminddb-static --latest --upgrade --no-interactive
-  apk add libmount --latest --upgrade --no-interactive
-  apk add libncurses++ --latest --upgrade --no-interactive
-  apk add libncursesw --latest --upgrade --no-interactive
-  apk add libpcap --latest --upgrade --no-interactive
-  apk add libpcap-dev --latest --upgrade --no-interactive
-  apk add libpng-dev --latest --upgrade --no-interactive
-  apk add libpng-static --latest --upgrade --no-interactive
-  apk add libnl3-dev --latest --upgrade --no-interactive
-  apk add libnl3-static --latest --upgrade --no-interactive
-  apk add libprotobuf --latest --upgrade --no-interactive
-  apk add libpq --latest --upgrade --no-interactive
-  apk add libpq-dev --latest --upgrade --no-interactive
-  apk add libseccomp --latest --upgrade --no-interactive
-  apk add libseccomp-dev --latest --upgrade --no-interactive
-  apk add libseccomp-static --latest --upgrade --no-interactive
-  apk add libsoup --latest --upgrade --no-interactive
-  apk add libsoup-dev --latest --upgrade --no-interactive
-  apk add libsoup3 --latest --upgrade --no-interactive
-  apk add libsoup3-dev --latest --upgrade --no-interactive
-  apk add libssh2 --latest --upgrade --no-interactive
-  apk add libssh2-dev --latest --upgrade --no-interactive
-  apk add libssh2-static --latest --upgrade --no-interactive
-  apk add libtool --latest --upgrade --no-interactive
-  apk add libtorrent --latest --upgrade --no-interactive
-  apk add libtorrent-dev --latest --upgrade --no-interactive
-  apk add libtorrent-rasterbar --latest --upgrade --no-interactive
-  apk add libtorrent-rasterbar-dev --latest --upgrade --no-interactive
-  apk add libuv --latest --upgrade --no-interactive
-  apk add libuv-dev --latest --upgrade --no-interactive
-  apk add libuv-static --latest --upgrade --no-interactive
-  apk add libx11-dev --latest --upgrade --no-interactive
-  apk add libx11-static --latest --upgrade --no-interactive
-  apk add libxcb-static --latest --upgrade --no-interactive
-  apk add libxkbcommon-dev --latest --upgrade --no-interactive
-  apk add libxkbcommon-static --latest --upgrade --no-interactive
-  apk add libxml2 --latest --upgrade --no-interactive
-  apk add libxml2-static --latest --upgrade --no-interactive
-  apk add libxml2-utils --latest --upgrade --no-interactive
-  apk add libzip --latest --upgrade --no-interactive
-  apk add libzip-dev --latest --upgrade --no-interactive
-  apk add linux-headers --latest --upgrade --no-interactive
-  apk add linux-pam --latest --upgrade --no-interactive
-  apk add linux-pam-dev --latest --upgrade --no-interactive
-  apk add linux-tools --latest --upgrade --no-interactive
-  apk add linux-tools-dev --latest --upgrade --no-interactive
-  apk add llvm17 --latest --upgrade --no-interactive
-  apk add llvm17-libs --latest --upgrade --no-interactive
-  apk add llvm17-linker-tools --latest --upgrade --no-interactive
-  apk add llvm17-static --latest --upgrade --no-interactive
-  apk add lm-sensors --latest --upgrade --no-interactive
-  apk add lm-sensors-dev --latest --upgrade --no-interactive
-  apk add lm-sensors-libs --latest --upgrade --no-interactive
-  apk add luajit --latest --upgrade --no-interactive
-  apk add luajit-dev --latest --upgrade --no-interactive
-  apk add lynx --latest --upgrade --no-interactive
-  apk add lzip --latest --upgrade --no-interactive
-  apk add make --latest --upgrade --no-interactive
-  apk add mariadb --latest --upgrade --no-interactive
-  apk add mariadb-dev --latest --upgrade --no-interactive
-  apk add mariadb-static --latest --upgrade --no-interactive
-  apk add meson --latest --upgrade --no-interactive
-  apk add mlocate --latest --upgrade --no-interactive
-  apk add mold --latest --upgrade --no-interactive
-  apk add moreutils --latest --upgrade --no-interactive
-  apk add mount --latest --upgrade --no-interactive
-  apk add musl --latest --upgrade --no-interactive
-  apk add musl-dev --latest --upgrade --no-interactive
-  apk add musl-fts --latest --upgrade --no-interactive
-  apk add musl-utils --latest --upgrade --no-interactive
-  apk add nano --latest --upgrade --no-interactive
-  apk add ncdu --latest --upgrade --no-interactive
-  apk add ncurses --latest --upgrade --no-interactive
-  apk add ncurses-dev --latest --upgrade --no-interactive
-  apk add ncurses-libs --latest --upgrade --no-interactive
-  apk add ncurses-static --latest --upgrade --no-interactive
-  apk add netcat-openbsd --latest --upgrade --no-interactive
-  apk add net-tools --latest --upgrade --no-interactive
-  apk add networkmanager-dev --latest --upgrade --no-interactive
-  apk add nghttp2 --latest --upgrade --no-interactive
-  apk add nghttp2-dev --latest --upgrade --no-interactive
-  apk add nghttp2-libs --latest --upgrade --no-interactive
-  apk add nghttp2-static --latest --upgrade --no-interactive
-  apk add nghttp3 --latest --upgrade --no-interactive
-  apk add nghttp3-dev --latest --upgrade --no-interactive
-  apk add ninja-build --latest --upgrade --no-interactive
-  apk add nodejs-current --latest --upgrade --no-interactive
-  apk add openssh --latest --upgrade --no-interactive
-  apk add openssl --latest --upgrade --no-interactive
-  apk add openssl-dev --latest --upgrade --no-interactive
-  apk add openssl-libs-static --latest --upgrade --no-interactive
-  apk add patchelf --latest --upgrade --no-interactive
-  apk add pciutils --latest --upgrade --no-interactive
-  apk add pciutils-dev --latest --upgrade --no-interactive
-  apk add pciutils-libs --latest --upgrade --no-interactive
-  apk add pcre-dev --latest --upgrade --no-interactive
-  apk add pcre2-dev --latest --upgrade --no-interactive
-  apk add pkgconfig --latest --upgrade --no-interactive
-  apk add postgresql16 --latest --upgrade --no-interactive
-  apk add postgresql16-dev --latest --upgrade --no-interactive
-  apk add procps --latest --upgrade --no-interactive
-  apk add protobuf --latest --upgrade --no-interactive
-  apk add protobuf-c --latest --upgrade --no-interactive
-  apk add protobuf-c-compiler --latest --upgrade --no-interactive
-  apk add protobuf-dev --latest --upgrade --no-interactive
-  apk add python3-dev --latest --upgrade --no-interactive
-  apk add py3-distro --latest --upgrade --no-interactive
-  apk add py3-netifaces --latest --upgrade --no-interactive
-  apk add py3-pip --latest --upgrade --no-interactive
-  apk add pipx --latest --upgrade --no-interactive
-  apk add pkgconf --latest --upgrade --no-interactive
-  apk add pkgconf-dev --latest --upgrade --no-interactive
-  apk add readline --latest --upgrade --no-interactive
-  apk add readline-dev --latest --upgrade --no-interactive
-  apk add readline-static --latest --upgrade --no-interactive
-  apk add qemu --latest --upgrade --no-interactive
-  apk add qemu-tools --latest --upgrade --no-interactive
-  apk add qemu-aarch64 --latest --upgrade --no-interactive
-  apk add qemu-system-aarch64 --latest --upgrade --no-interactive
-  apk add qemu-x86_64 --latest --upgrade --no-interactive
-  apk add qemu-system-x86_64 --latest --upgrade --no-interactive
-  apk add rsync --latest --upgrade --no-interactive
-  apk add rustup --latest --upgrade --no-interactive ; rustup-init -y
-  apk add samurai --latest --upgrade --no-interactive
-  apk add scons --latest --upgrade --no-interactive
-  apk add screen --latest --upgrade --no-interactive
-  apk add sqlite --latest --upgrade --no-interactive
-  apk add sqlite-dev --latest --upgrade --no-interactive
-  apk add sqlite-libs --latest --upgrade --no-interactive
-  apk add sqlite-static --latest --upgrade --no-interactive
-  apk add sudo --latest --upgrade --no-interactive
-  apk add sysfsutils --latest --upgrade --no-interactive
-  apk add sysfsutils-dev --latest --upgrade --no-interactive
-  apk add sysfsutils-static --latest --upgrade --no-interactive
-  apk add tar --latest --upgrade --no-interactive
-  apk add tcpdump --latest --upgrade --no-interactive
-  apk add texinfo --latest --upgrade --no-interactive
-  apk add tinyalsa --latest --upgrade --no-interactive
-  apk add tinyalsa-dev --latest --upgrade --no-interactive
-  apk add tinyalsa-libs --latest --upgrade --no-interactive
-  apk add tinyalsa-static --latest --upgrade --no-interactive
-  apk add txt2man --latest --upgrade --no-interactive
-  apk add tzdata --latest --upgrade --no-interactive
-  apk add ufw --latest --upgrade --no-interactive
-  apk add usbutils --latest --upgrade --no-interactive
-  apk add usbutils-dev --latest --upgrade --no-interactive
-  apk add util-linux --latest --upgrade --no-interactive
-  apk add util-linux-dev --latest --upgrade --no-interactive
-  apk add util-linux-static --latest --upgrade --no-interactive
-  apk add virt-what --latest --upgrade --no-interactive
-  apk add wayland-dev --latest --upgrade --no-interactive
-  apk add wget --latest --upgrade --no-interactive
-  apk add wolfssl --latest --upgrade --no-interactive
-  apk add wolfssl-dev --latest --upgrade --no-interactive
-  apk add wpa_supplicant --latest --upgrade --no-interactive
-  apk add xcb-util --latest --upgrade --no-interactive
-  apk add xcb-util-dev --latest --upgrade --no-interactive
-  apk add xcb-util-image-dev --latest --upgrade --no-interactive
-  apk add xcb-util-keysyms-dev --latest --upgrade --no-interactive
-  apk add xcb-util-wm-dev --latest --upgrade --no-interactive
-  apk add xz --latest --upgrade --no-interactive
-  apk add xz-dev --latest --upgrade --no-interactive
-  apk add xz-libs --latest --upgrade --no-interactive
-  apk add zig --latest --upgrade --no-interactive
-  apk add zlib --latest --upgrade --no-interactive
-  apk add zlib-dev --latest --upgrade --no-interactive
-  apk add zlib-static --latest --upgrade --no-interactive
-  apk add zstd --latest --upgrade --no-interactive
-  apk add zstd-static --latest --upgrade --no-interactive
-  apk add 7zip --latest --upgrade --no-interactive
+  set +e
+  apk update && apk upgrade --no-interactive 2>/dev/null
+  apk add acl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add acl-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add alpine-sdk --latest --upgrade --no-interactive 2>/dev/null
+  apk add alsa-lib --latest --upgrade --no-interactive 2>/dev/null
+  apk add alsa-lib-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add aria2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add asciidoc --latest --upgrade --no-interactive 2>/dev/null
+  apk add autoconf --latest --upgrade --no-interactive 2>/dev/null
+  apk add autoconf-archive --latest --upgrade --no-interactive 2>/dev/null
+  apk add automake --latest --upgrade --no-interactive 2>/dev/null
+  apk add b3sum --latest --upgrade --no-interactive 2>/dev/null
+  apk add bash --latest --upgrade --no-interactive 2>/dev/null
+  apk add bc --latest --upgrade --no-interactive 2>/dev/null
+  apk add bearssl --latest --upgrade --no-interactive 2>/dev/null
+  apk add bearssl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add bearssl-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add bearssl-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add bind-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add binutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add binutils-aarch64 --latest --upgrade --no-interactive 2>/dev/null
+  apk add bison --latest --upgrade --no-interactive 2>/dev/null
+  apk add blkid --latest --upgrade --no-interactive 2>/dev/null
+  apk add boost --latest --upgrade --no-interactive 2>/dev/null
+  apk add boost-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add brotli-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add brotli-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add build-base --latest --upgrade --no-interactive 2>/dev/null
+  apk add bzip2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add bzip2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add bzip2-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add bzip3 --latest --upgrade --no-interactive 2>/dev/null
+  apk add bzip3-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add bzip3-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add bzip3-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add c-ares --latest --upgrade --no-interactive 2>/dev/null
+  apk add c-ares-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add ca-certificates --latest --upgrade --no-interactive 2>/dev/null
+  apk add capstone --latest --upgrade --no-interactive 2>/dev/null
+  apk add capstone-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add capstone-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add ccache --latest --upgrade --no-interactive 2>/dev/null
+  apk add ck --latest --upgrade --no-interactive 2>/dev/null
+  apk add ck-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add clang --latest --upgrade --no-interactive 2>/dev/null
+  apk add clang-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add clang-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add cmake --latest --upgrade --no-interactive 2>/dev/null
+  apk add cmocka-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add coreutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add croc --latest --upgrade --no-interactive 2>/dev/null
+  apk add curl --latest --upgrade --no-interactive 2>/dev/null
+  apk add curl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add dbus --latest --upgrade --no-interactive 2>/dev/null
+  apk add dbus-cpp --latest --upgrade --no-interactive 2>/dev/null
+  apk add dbus-glib --latest --upgrade --no-interactive 2>/dev/null
+  apk add dbus-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add diffutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add dos2unix --latest --upgrade --no-interactive 2>/dev/null
+  apk add dpdk --latest --upgrade --no-interactive 2>/dev/null
+  apk add dpdk-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add dpdk-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add elfutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add elfutils-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add expect --latest --upgrade --no-interactive 2>/dev/null
+  apk add expect-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add ethtool --latest --upgrade --no-interactive 2>/dev/null
+  apk add file-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add flex-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add fontconfig-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add fontconfig-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add freetype-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add freetype-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add fuse --latest --upgrade --no-interactive 2>/dev/null
+  apk add fuse-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add fuse-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add fuse3 --latest --upgrade --no-interactive 2>/dev/null
+  apk add fuse3-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add fuse3-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add fuse3-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add gawk --latest --upgrade --no-interactive 2>/dev/null
+  apk add gcc --latest --upgrade --no-interactive 2>/dev/null
+  apk add geoip --latest --upgrade --no-interactive 2>/dev/null
+  apk add geoip-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add gettext --latest --upgrade --no-interactive 2>/dev/null
+  apk add gettext-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add git --latest --upgrade --no-interactive 2>/dev/null
+  apk add glib --latest --upgrade --no-interactive 2>/dev/null
+  apk add glib-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add glib-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add go --latest --upgrade --no-interactive 2>/dev/null
+  apk add gnupg --latest --upgrade --no-interactive 2>/dev/null
+  apk add gpsd-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add hostapd --latest --upgrade --no-interactive 2>/dev/null
+  apk add hwloc-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add imagemagick-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add imagemagick-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add iperf --latest --upgrade --no-interactive 2>/dev/null
+  apk add iputils --latest --upgrade --no-interactive 2>/dev/null
+  apk add iw --latest --upgrade --no-interactive 2>/dev/null
+  apk add jemalloc --latest --upgrade --no-interactive 2>/dev/null
+  apk add jemalloc-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add jemalloc-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add jq --latest --upgrade --no-interactive 2>/dev/null
+  apk add json-glib --latest --upgrade --no-interactive 2>/dev/null
+  apk add ldns --latest --upgrade --no-interactive 2>/dev/null
+  apk add ldns-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libaio --latest --upgrade --no-interactive 2>/dev/null
+  apk add libaio-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libblkid --latest --upgrade --no-interactive 2>/dev/null
+  apk add libbpf --latest --upgrade --no-interactive 2>/dev/null
+  apk add libbpf-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcap --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcap-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcap-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcap-ng --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcap-ng-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcap-ng-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcap-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add libcurl --latest --upgrade --no-interactive 2>/dev/null
+  apk add libdbusmenu-glib --latest --upgrade --no-interactive 2>/dev/null
+  apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libdw --latest --upgrade --no-interactive 2>/dev/null
+  apk add libedit-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libelf --latest --upgrade --no-interactive 2>/dev/null
+  apk add libepoxy --latest --upgrade --no-interactive 2>/dev/null
+  apk add libepoxy-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libevent --latest --upgrade --no-interactive 2>/dev/null
+  apk add libevent-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libevent-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libgcrypt --latest --upgrade --no-interactive 2>/dev/null
+  apk add libgcrypt-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libgcrypt-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libmaxminddb-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libmaxminddb-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add libmaxminddb-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libmount --latest --upgrade --no-interactive 2>/dev/null
+  apk add libncurses++ --latest --upgrade --no-interactive 2>/dev/null
+  apk add libncursesw --latest --upgrade --no-interactive 2>/dev/null
+  apk add libnl3-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libnl3-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libnfs --latest --upgrade --no-interactive 2>/dev/null
+  apk add libnfs-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libnfs-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpcap --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpcap-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpng-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpng-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libprotobuf --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpq --latest --upgrade --no-interactive 2>/dev/null
+  apk add libpq-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libseccomp --latest --upgrade --no-interactive 2>/dev/null
+  apk add libseccomp-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libseccomp-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libselinux --latest --upgrade --no-interactive 2>/dev/null
+  apk add libselinux-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libselinux-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsoup --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsoup-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsoup3 --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsoup3-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libssh --latest --upgrade --no-interactive 2>/dev/null
+  apk add libssh-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libssh2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add libssh2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libssh2-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtasn1 --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtasn1-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtasn1-progs --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtool --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtorrent --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtorrent-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtorrent-rasterbar --latest --upgrade --no-interactive 2>/dev/null
+  apk add libtorrent-rasterbar-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libu2f-server --latest --upgrade --no-interactive 2>/dev/null
+  apk add libu2f-server-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libuv --latest --upgrade --no-interactive 2>/dev/null
+  apk add libuv-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libuv-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libx11-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libx11-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxcb-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxkbcommon-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxkbcommon-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxml2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxml2-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxml2-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add libzip --latest --upgrade --no-interactive 2>/dev/null
+  apk add libzip-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add linux-headers --latest --upgrade --no-interactive 2>/dev/null
+  apk add linux-pam --latest --upgrade --no-interactive 2>/dev/null
+  apk add linux-pam-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add linux-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add linux-tools-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add llvm17 --latest --upgrade --no-interactive 2>/dev/null
+  apk add llvm17-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add llvm17-linker-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add llvm17-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add lm-sensors --latest --upgrade --no-interactive 2>/dev/null
+  apk add lm-sensors-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add lm-sensors-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add luajit --latest --upgrade --no-interactive 2>/dev/null
+  apk add luajit-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add lynx --latest --upgrade --no-interactive 2>/dev/null
+  apk add lzip --latest --upgrade --no-interactive 2>/dev/null
+  apk add lzo --latest --upgrade --no-interactive 2>/dev/null
+  apk add lzo-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add make --latest --upgrade --no-interactive 2>/dev/null
+  apk add mariadb --latest --upgrade --no-interactive 2>/dev/null
+  apk add mariadb-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add mariadb-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add mesa --latest --upgrade --no-interactive 2>/dev/null
+  apk add mesa-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add mesa-gbm --latest --upgrade --no-interactive 2>/dev/null
+  apk add meson --latest --upgrade --no-interactive 2>/dev/null
+  apk add mlocate --latest --upgrade --no-interactive 2>/dev/null
+  apk add mold --latest --upgrade --no-interactive 2>/dev/null
+  apk add moreutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add mount --latest --upgrade --no-interactive 2>/dev/null
+  apk add multipath-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add musl --latest --upgrade --no-interactive 2>/dev/null
+  apk add musl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add musl-fts --latest --upgrade --no-interactive 2>/dev/null
+  apk add musl-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add nano --latest --upgrade --no-interactive 2>/dev/null
+  apk add ncdu --latest --upgrade --no-interactive 2>/dev/null
+  apk add ncurses --latest --upgrade --no-interactive 2>/dev/null
+  apk add ncurses-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add ncurses-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add ncurses-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add ndctl --latest --upgrade --no-interactive 2>/dev/null
+  apk add ndctl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add ndctl-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add netcat-openbsd --latest --upgrade --no-interactive 2>/dev/null
+  apk add net-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add networkmanager-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add nghttp2 --latest --upgrade --no-interactive 2>/dev/null
+  apk add nghttp2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add nghttp2-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add nghttp2-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add nghttp3 --latest --upgrade --no-interactive 2>/dev/null
+  apk add nghttp3-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add ninja-build --latest --upgrade --no-interactive 2>/dev/null
+  apk add nodejs-current --latest --upgrade --no-interactive 2>/dev/null
+  apk add numactl --latest --upgrade --no-interactive 2>/dev/null
+  apk add numactl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add openssh --latest --upgrade --no-interactive 2>/dev/null
+  apk add openssl --latest --upgrade --no-interactive 2>/dev/null
+  apk add openssl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add openssl-libs-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add pam-u2f --latest --upgrade --no-interactive 2>/dev/null
+  apk add patchelf --latest --upgrade --no-interactive 2>/dev/null
+  apk add pciutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add pciutils-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pciutils-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add pcre-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pcre2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pkgconfig --latest --upgrade --no-interactive 2>/dev/null
+  apk add postgresql16 --latest --upgrade --no-interactive 2>/dev/null
+  apk add postgresql16-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add procps --latest --upgrade --no-interactive 2>/dev/null
+  apk add protobuf --latest --upgrade --no-interactive 2>/dev/null
+  apk add protobuf-c --latest --upgrade --no-interactive 2>/dev/null
+  apk add protobuf-c-compiler --latest --upgrade --no-interactive 2>/dev/null
+  apk add protobuf-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add python3-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add py3-distro --latest --upgrade --no-interactive 2>/dev/null
+  apk add py3-netifaces --latest --upgrade --no-interactive 2>/dev/null
+  apk add py3-pip --latest --upgrade --no-interactive 2>/dev/null
+  apk add pipx --latest --upgrade --no-interactive 2>/dev/null
+  apk add pkgconf --latest --upgrade --no-interactive 2>/dev/null
+  apk add pkgconf-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add readline --latest --upgrade --no-interactive 2>/dev/null
+  apk add readline-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add readline-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add qemu --latest --upgrade --no-interactive 2>/dev/null
+  apk add qemu-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add qemu-aarch64 --latest --upgrade --no-interactive 2>/dev/null
+  apk add qemu-system-aarch64 --latest --upgrade --no-interactive 2>/dev/null
+  apk add qemu-x86_64 --latest --upgrade --no-interactive 2>/dev/null
+  apk add qemu-system-x86_64 --latest --upgrade --no-interactive 2>/dev/null
+  apk add rbd-fuse18 --latest --upgrade --no-interactive 2>/dev/null
+  apk add rsync --latest --upgrade --no-interactive 2>/dev/null
+  apk add rustup --latest --upgrade --no-interactive 2>/dev/null ; rustup-init -y
+  apk add samurai --latest --upgrade --no-interactive 2>/dev/null
+  apk add scons --latest --upgrade --no-interactive 2>/dev/null
+  apk add screen --latest --upgrade --no-interactive 2>/dev/null
+  apk add sqlite --latest --upgrade --no-interactive 2>/dev/null
+  apk add sqlite-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add sqlite-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add sqlite-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add sudo --latest --upgrade --no-interactive 2>/dev/null
+  apk add sysfsutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add sysfsutils-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add sysfsutils-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add tar --latest --upgrade --no-interactive 2>/dev/null
+  apk add tcpdump --latest --upgrade --no-interactive 2>/dev/null
+  apk add texinfo --latest --upgrade --no-interactive 2>/dev/null
+  apk add tinyalsa --latest --upgrade --no-interactive 2>/dev/null
+  apk add tinyalsa-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add tinyalsa-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add tinyalsa-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add txt2man --latest --upgrade --no-interactive 2>/dev/null
+  apk add tzdata --latest --upgrade --no-interactive 2>/dev/null
+  apk add ufw --latest --upgrade --no-interactive 2>/dev/null
+  apk add usbutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add usbutils-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add util-linux --latest --upgrade --no-interactive 2>/dev/null
+  apk add util-linux-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add util-linux-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add virt-what --latest --upgrade --no-interactive 2>/dev/null
+  apk add wayland-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add wget --latest --upgrade --no-interactive 2>/dev/null
+  apk add wolfssl --latest --upgrade --no-interactive 2>/dev/null
+  apk add wolfssl-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add wpa_supplicant --latest --upgrade --no-interactive 2>/dev/null
+  apk add xcb-util --latest --upgrade --no-interactive 2>/dev/null
+  apk add xcb-util-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xcb-util-image-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xcb-util-keysyms-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xcb-util-wm-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xz --latest --upgrade --no-interactive 2>/dev/null
+  apk add xz-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xz-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add zig --latest --upgrade --no-interactive 2>/dev/null
+  apk add zlib --latest --upgrade --no-interactive 2>/dev/null
+  apk add zlib-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add zlib-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add zstd --latest --upgrade --no-interactive 2>/dev/null
+  apk add zstd-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add 7zip --latest --upgrade --no-interactive 2>/dev/null
  #Stats
   apk stats 
 EOS
