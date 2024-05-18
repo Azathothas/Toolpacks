@@ -378,6 +378,15 @@
     "Repo": null
   },
   {
+    "Name": "bench.sh.sh",
+    "Size": "1637 B",
+    "ModTime": "2024-05-18T21:01:56.629379691Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bench.sh.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "berty.sh",
     "Size": "1936 B",
     "ModTime": "2024-05-16T07:02:47.311611308Z",
@@ -3350,7 +3359,7 @@
   {
     "Name": "metadata.json",
     "Size": "188.79 kB",
-    "ModTime": "2024-05-18T07:09:40.373260845Z",
+    "ModTime": "2024-05-18T14:11:06.478996951Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -4549,6 +4558,15 @@
     "Size": "1649 B",
     "ModTime": "2024-03-29T18:32:13.693873529Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rush.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "rust-hypervisor-firmware.sh",
+    "Size": "2414 B",
+    "ModTime": "2024-05-18T21:01:56.637379676Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rust-hypervisor-firmware.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -6070,6 +6088,15 @@
     "Size": "2031 B",
     "ModTime": "2024-05-16T07:02:47.303611265Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xz.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "yabs.sh.sh",
+    "Size": "1726 B",
+    "ModTime": "2024-05-18T21:01:56.625379698Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/yabs.sh.sh",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
