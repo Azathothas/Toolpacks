@@ -46,8 +46,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "352.49 kB",
-    "ModTime": "2024-05-18T07:31:55.578722656Z",
+    "Size": "352.93 kB",
+    "ModTime": "2024-05-18T14:36:41.050581541Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -535,9 +535,9 @@
     "Size": "15.17 kB",
     "ModTime": "2024-05-18T10:51:35.468688600Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/bench.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/teddysun/across"
   },
   {
     "Name": "berty",
@@ -8383,9 +8383,9 @@
     "Size": "45.17 kB",
     "ModTime": "2024-05-18T10:51:35.460170300Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/yabs.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/masonr/yet-another-bench-script"
   },
   {
     "Name": "yalis",
