@@ -204,6 +204,8 @@ RUN <<EOS
   apk add libtorrent-rasterbar-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libu2f-server --latest --upgrade --no-interactive 2>/dev/null
   apk add libu2f-server-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add liburing --latest --upgrade --no-interactive 2>/dev/null
+  apk add liburing-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libusb --latest --upgrade --no-interactive 2>/dev/null
   apk add libusb-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libusbgx --latest --upgrade --no-interactive 2>/dev/null
@@ -214,6 +216,9 @@ RUN <<EOS
   apk add libuv-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libvirt --latest --upgrade --no-interactive 2>/dev/null
   apk add libvirt-xen --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvterm --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvterm-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvterm-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxcb-static --latest --upgrade --no-interactive 2>/dev/null
@@ -389,6 +394,8 @@ RUN <<EOS
   apk add virglrenderer --latest --upgrade --no-interactive 2>/dev/null
   apk add virglrenderer-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add virt-what --latest --upgrade --no-interactive 2>/dev/null
+  apk add vte3 --latest --upgrade --no-interactive 2>/dev/null
+  apk add vte3-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add wayland-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add wget --latest --upgrade --no-interactive 2>/dev/null
   apk add wolfssl --latest --upgrade --no-interactive 2>/dev/null
