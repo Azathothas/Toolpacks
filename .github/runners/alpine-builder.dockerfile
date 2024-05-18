@@ -356,6 +356,9 @@ RUN <<EOS
   apk add qemu-x86_64 --latest --upgrade --no-interactive 2>/dev/null
   apk add qemu-system-x86_64 --latest --upgrade --no-interactive 2>/dev/null
   apk add rbd-fuse18 --latest --upgrade --no-interactive 2>/dev/null
+  apk add rdma-core --latest --upgrade --no-interactive 2>/dev/null
+  apk add rdma-core-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add rdma-core-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add rng-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add rng-tools-extra --latest --upgrade --no-interactive 2>/dev/null
   apk add rsync --latest --upgrade --no-interactive 2>/dev/null
@@ -401,6 +404,8 @@ RUN <<EOS
   apk add util-linux --latest --upgrade --no-interactive 2>/dev/null
   apk add util-linux-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add util-linux-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add valgrind --latest --upgrade --no-interactive 2>/dev/null
+  apk add valgrind-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add vde2-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add vde2-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add virglrenderer --latest --upgrade --no-interactive 2>/dev/null
@@ -422,6 +427,9 @@ RUN <<EOS
   apk add xen-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xen-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add xen-qemu --latest --upgrade --no-interactive 2>/dev/null
+  apk add xfsprogs --latest --upgrade --no-interactive 2>/dev/null
+  apk add xfsprogs-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add xfsprogs-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add xz --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-libs --latest --upgrade --no-interactive 2>/dev/null
