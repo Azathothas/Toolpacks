@@ -47,7 +47,7 @@
   {
     "Name": "METADATA.json",
     "Size": "353 kB",
-    "ModTime": "2024-05-19T00:27:53.725180976Z",
+    "ModTime": "2024-05-19T07:37:23.629632301Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -6007,9 +6007,9 @@
     "Size": "4 MB",
     "ModTime": "2024-05-15T05:22:56.825731454Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/ripgen",
-    "B3SUM": "1edeb1ed4e00c1986a75cac114394c41d6c72b35818b1864a36b49b6d040d137",
-    "SHA256": "2c3406ab505bc9b8ff81ea7f4381ff34c8e603217fac6fb4bd4854ebbc2d16b9",
-    "Repo": "https://github.com/resyncgg/ripgen"
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
   },
   {
     "Name": "ripgrep",
