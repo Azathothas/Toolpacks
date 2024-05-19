@@ -21,23 +21,23 @@ fi
 if [ -z "$DOCKER_CONTAINER_NAME" ]; then
  echo -e "\n[+] Setting Default Container Name: gh-runner-arm64x-gcp"
   export DOCKER_CONTAINER_NAME="gh-runner-arm64x-gcp"
-  docker stop "${DOCKER_CONTAINER_NAME}" >/dev/null 2>&1
+  sudo docker stop "${DOCKER_CONTAINER_NAME}" >/dev/null 2>&1
 else
  export DOCKER_CONTAINER_NAME="${DOCKER_CONTAINER_NAME}"
   echo -e "\n[+] Setting Default Container Name: ${DOCKER_CONTAINER_NAME}"
-  docker stop "${DOCKER_CONTAINER_NAME}" >/dev/null 2>&1
+  sudo docker stop "${DOCKER_CONTAINER_NAME}" >/dev/null 2>&1
 fi
 #Image
 if [ -z "$DOCKER_CONTAINER_IMAGE" ]; then
  echo -e "\n[+] Setting Default Container Image: azathothas/gh-runner-aarch64-ubuntu"
   export DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-aarch64-ubuntu"
-  docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
-  docker pull "${DOCKER_CONTAINER_IMAGE}" 2>/dev/null
+  sudo docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
+  sudo docker pull "${DOCKER_CONTAINER_IMAGE}" 2>/dev/null
 else
  export DOCKER_CONTAINER_IMAGE="${DOCKER_CONTAINER_IMAGE}"
  echo -e "\n[+] Setting Default Container Image: ${DOCKER_CONTAINER_IMAGE}"
- docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
- docker pull "${DOCKER_CONTAINER_IMAGE}" 2>/dev/null
+ sudo docker rmi "${DOCKER_CONTAINER_IMAGE}" --force >/dev/null 2>&1
+ sudo docker pull "${DOCKER_CONTAINER_IMAGE}" 2>/dev/null
 fi
 #Env File
 if [ -z "$DOCKER_ENV_FILE" ]; then
