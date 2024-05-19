@@ -17,7 +17,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   build-fetch-binaries:
     #runs-on: ubuntu-latest
-    runs-on: amd64-cnt-4x-6GB-400GB-toolpacks
+    runs-on: amdx64-toolpacker-large
     timeout-minutes: 1200
     permissions:
       contents: write
