@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+#Reload SystemD
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+
+#List all Services
+services="$(systemctl list-units --type=service --all --no-pager --no-legend | awk '{print $1}' | grep -v '^\W*$')"
+
+#Start each service one by one
+for service in $services; do
+    echo "Starting $service..."
+    timeout -k 10 20 sudo systemctl enable "$service" --now 2>/dev/null
+    timeout -k 10 20 sudo systemctl restart "$service" 2>/dev/null
+done
+#END
