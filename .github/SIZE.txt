@@ -20,7 +20,7 @@
  24K   │ ├── SIZE.md
 8.0K   │ └── BUILD_ERROR.log.md
 1.1M   ├── metadata.json
-932K   ├── metadata.toml
+936K   ├── metadata.toml
 192K   ├─┬ x64_Windows
  64K   │ ├── METADATA.json
  56K   │ ├── README.md
