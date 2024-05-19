@@ -37,18 +37,9 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "17.34 kB",
-    "ModTime": "2024-05-19T14:24:27.981874104Z",
+    "Size": "17.58 kB",
+    "ModTime": "2024-05-19T16:17:00.863382669Z",
     "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "METADATA.json.tmp",
-    "Size": "13.78 kB",
-    "ModTime": "2024-05-19T15:50:21.408907287Z",
-    "Source": "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json.tmp",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
