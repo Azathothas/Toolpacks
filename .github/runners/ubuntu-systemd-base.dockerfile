@@ -74,6 +74,7 @@ STOPSIGNAL SIGRTMIN+3
 RUN <<EOS
  #Add admin
   useradd --create-home "admin"
+  usermod --shell "/bin/bash" "admin" 2>/dev/null
  #Set password
   echo "admin:admin" | chpasswd
  #Add admin to sudo
@@ -81,17 +82,6 @@ RUN <<EOS
   usermod -aG "sudo" "root"
  #Passwordless sudo for admin
   echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> "/etc/sudoers"
- #Remove preconfigured admin user
-  userdel -r "admin" 2>/dev/null || true
-EOS
-##Change Default shell for admin to bash
-RUN <<EOS
- #Check current shell
-  grep admin "/etc/passwd"
- #Change to bash 
-  usermod --shell "/bin/bash" "admin" 2>/dev/null
- #Recheck 
-  grep admin "/etc/passwd"
 EOS
 ##Set PATH [Default: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin] /command is s6-tools
 #ENV PATH "/command:${PATH}"
