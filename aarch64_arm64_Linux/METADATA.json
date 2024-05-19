@@ -46,8 +46,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "297.69 kB",
-    "ModTime": "2024-05-19T07:31:35.591384176Z",
+    "Size": "297.53 kB",
+    "ModTime": "2024-05-19T14:32:49.102939371Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -5377,9 +5377,9 @@
     "Size": "6.82 MB",
     "ModTime": "2024-03-30T01:54:17.012698302Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/sessionprobe",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "555656744b848f249bd0cf559a113b13b5f37024756b1b8541eb7e5968e1f68f",
+    "SHA256": "acb0427a310748a943274a7f4bfdc92216f5a8cbd1d3ff8d9a5e0509e61e1618",
+    "Repo": "https://github.com/dub-flow/sessionprobe"
   },
   {
     "Name": "sf",

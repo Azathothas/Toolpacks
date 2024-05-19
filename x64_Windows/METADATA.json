@@ -37,8 +37,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "64.48 kB",
-    "ModTime": "2024-05-19T07:23:35.736741986Z",
+    "Size": "64.33 kB",
+    "ModTime": "2024-05-19T14:25:14.280746688Z",
     "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -220,9 +220,9 @@
     "Size": "1.7 MB",
     "ModTime": "2024-05-17T23:42:04.290279200Z",
     "Source": "https://bin.ajam.dev/x64_Windows/botsay.exe",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "B3SUM": "387aba6264960be05d175315a940ab8256c945d915dc92440b8ec90b60a1e4e1",
+    "SHA256": "faa7830a32abe68f48b5bc9035fbec23e84799161120db6e452be42953d9e3a0",
+    "Repo": "https://github.com/xyproto/botsay"
   },
   {
     "Name": "brook.exe",
