@@ -26,8 +26,8 @@ start_tailscaled()
 }
 export -f start_tailscaled
 if command -v s6-svc &>/dev/null && [ -d "/command" ] && [ -d "/etc/s6-overlay/s6-rc.d/tailscaled" ]; then
-   sudo "$(command -v s6-svc)" -u "/etc/s6-overlay/s6-rc.d/tailscaled" 2>/dev/null
-   sudo "$(command -v s6-svc)" -r "/etc/s6-overlay/s6-rc.d/tailscaled" 2>/dev/null
+   timeout -k 10 20 sudo "$(command -v s6-svc)" -u "/etc/s6-overlay/s6-rc.d/tailscaled" 2>/dev/null
+   timeout -k 10 20 sudo "$(command -v s6-svc)" -r "/etc/s6-overlay/s6-rc.d/tailscaled" 2>/dev/null
    sleep 10
    if ! sudo pgrep -f 'tailscaled --tun=userspace-networking' >/dev/null && command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/tailscaled.service" ]; then
      start_tailscaled 2>/dev/null
