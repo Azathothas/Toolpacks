@@ -12,6 +12,8 @@ RUN <<EOS
   apk add alpine-sdk --latest --upgrade --no-interactive 2>/dev/null
   apk add alsa-lib --latest --upgrade --no-interactive 2>/dev/null
   apk add alsa-lib-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add alsa-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add alsa-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add aria2 --latest --upgrade --no-interactive 2>/dev/null
   apk add asciidoc --latest --upgrade --no-interactive 2>/dev/null
   apk add autoconf --latest --upgrade --no-interactive 2>/dev/null
@@ -232,12 +234,22 @@ RUN <<EOS
   apk add libvterm-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxcb --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxcb-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libxcb-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxi --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxi-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxi-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxkbcommon-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libxkbcommon-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxml2 --latest --upgrade --no-interactive 2>/dev/null
   apk add libxml2-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxml2-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxrandr --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxrandr-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxtst --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxtst-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxtst-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libzip --latest --upgrade --no-interactive 2>/dev/null
   apk add libzip-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add linux-headers --latest --upgrade --no-interactive 2>/dev/null
