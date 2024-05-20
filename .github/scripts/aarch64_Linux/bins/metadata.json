@@ -1737,6 +1737,15 @@
     "Repo": null
   },
   {
+    "Name": "flawz.sh",
+    "Size": "3276 B",
+    "ModTime": "2024-05-20T07:02:38.247099973Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/flawz.sh",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "fnm.sh",
     "Size": "1621 B",
     "ModTime": "2024-03-29T18:32:13.681873529Z",
@@ -3359,7 +3368,7 @@
   {
     "Name": "metadata.json",
     "Size": "189.65 kB",
-    "ModTime": "2024-05-19T21:07:20.299239653Z",
+    "ModTime": "2024-05-20T00:11:53.158925831Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
