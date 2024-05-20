@@ -46,8 +46,8 @@
   },
   {
     "Name": "METADATA.json",
-    "Size": "358.31 kB",
-    "ModTime": "2024-05-19T21:24:09.787813055Z",
+    "Size": "358.55 kB",
+    "ModTime": "2024-05-20T07:33:18.544016369Z",
     "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json",
     "B3SUM": null,
     "SHA256": null,
@@ -2374,6 +2374,15 @@
     "B3SUM": "3fdd32fd6cde1b3b1456b49971ae0425b9953837abc04faad0bfca87db12f5e8",
     "SHA256": "7244cd6372308860a53fec5defd169cea2d186db0007b4a627ed267c5e645a43",
     "Repo": "https://github.com/fastfetch-cli/fastfetch"
+  },
+  {
+    "Name": "flawz",
+    "Size": "10.43 MB",
+    "ModTime": "2024-05-20T05:05:42.015776300Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/flawz",
+    "B3SUM": "",
+    "SHA256": "",
+    "Repo": "https://github.com/orhun/flawz"
   },
   {
     "Name": "fnm",
