@@ -29,7 +29,7 @@
  9.7M   ├── pgrok.exe
  9.2M   ├── coreutils.exe
  9.2M   ├── coreutils-rs.exe
- 9.0M   ├── ddns-go.exe
+ 9.1M   ├── ddns-go.exe
  8.9M   ├── smartdns.exe
  8.9M   ├── smartdns-rs.exe
  8.7M   ├── ein.exe
@@ -54,6 +54,7 @@
  2.9M   ├── deprun.exe
  2.7M   ├── dust.exe
  2.4M   ├── hashsum.exe
+ 2.4M   ├── cksum.exe
  2.3M   ├── pr.exe
  2.3M   ├── date.exe
  2.3M   ├── geodns.exe
@@ -100,13 +101,12 @@
  1.1M   ├── du.exe
  1.0M   ├── b3sum.exe
 1014K   ├── seq.exe
-1005K   ├── cksum.exe
 1000K   ├── env.exe
  995K   ├── dd.exe
  980K   ├── od.exe
  965K   ├── more.exe
  962K   ├── jq.exe
- 946K   ├── basenc.exe
+ 945K   ├── basenc.exe
  943K   ├── split.exe
  940K   ├── df.exe
  933K   ├── numfmt.exe
@@ -118,8 +118,8 @@
  893K   ├── printf.exe
  892K   ├── join.exe
  890K   ├── shuf.exe
+ 889K   ├── cut.exe
  888K   ├── rm.exe
- 888K   ├── cut.exe
  885K   ├── uniq.exe
  882K   ├── fmt.exe
  881K   ├── tr.exe
@@ -140,8 +140,8 @@
  829K   ├── sum.exe
  827K   ├── uname.exe
  826K   ├── test.exe
- 824K   ├── truncate.exe
  824K   ├── hostname.exe
+ 824K   ├── truncate.exe
  823K   ├── comm.exe
  820K   ├── basename.exe
  820K   ├── mkdir.exe
