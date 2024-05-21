@@ -1,0 +1,5 @@
+name: "mgwls"
+description: "Combine words from two wordlist files and concatenate them with an optional delimiter"
+url: "https://github.com/trickest/mgwls"
+bins:
+  - "mgwls"

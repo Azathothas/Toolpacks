@@ -1,0 +1,5 @@
+name: "Findomain"
+description: "Subdomains Finder"
+url: "https://github.com/Findomain/Findomain"
+bins:
+  - "findomain"

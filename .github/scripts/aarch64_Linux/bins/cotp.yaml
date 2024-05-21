@@ -1,0 +1,5 @@
+name: "cotp"
+description: "Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality."
+url: "https://github.com/replydev/cotp"
+bins:
+  - "cotp"

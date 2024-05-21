@@ -1,0 +1,5 @@
+name: "cheat"
+description: "create and view interactive cheatsheets on the command-line"
+url: "https://github.com/cheat/cheat"
+bins:
+  - "cheat"

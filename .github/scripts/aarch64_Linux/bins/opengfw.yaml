@@ -1,0 +1,5 @@
+name: "opengfw"
+description: "a flexible, easy-to-use, open source implementation of GFW (Great Firewall of China) on Linux"
+url: "https://github.com/apernet/OpenGFW"
+bins:
+  - "opengfw"

@@ -1,0 +1,5 @@
+name: "indextree"
+description: "Generates the tree of the directory listing page."
+url: "https://github.com/riza/indextree"
+bins:
+  - "indextree"

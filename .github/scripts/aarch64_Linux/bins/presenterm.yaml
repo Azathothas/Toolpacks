@@ -1,0 +1,5 @@
+name: "presenterm"
+description: "A terminal slideshow tool"
+url: "https://github.com/mfontanini/presenterm"
+bins:
+  - "presenterm"

@@ -1,0 +1,5 @@
+name: "minisign"
+description: "A dead simple tool to sign files and verify digital signatures."
+url: "https://github.com/jedisct1/minisign"
+bins:
+  - "minisign"

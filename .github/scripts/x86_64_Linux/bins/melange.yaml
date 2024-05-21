@@ -1,0 +1,5 @@
+name: "melange"
+description: "build APKs from source code"
+url: "https://github.com/chainguard-dev/melange"
+bins:
+  - "melange"

@@ -1,0 +1,5 @@
+name: "jira"
+description: "\U0001F525 Feature-rich interactive Jira command line."
+url: "https://github.com/ankitpokhrel/jira-cli"
+bins:
+  - "jira-cli"

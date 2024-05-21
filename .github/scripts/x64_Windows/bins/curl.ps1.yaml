@@ -1,0 +1,6 @@
+name: "curl"
+description: ""
+url: "https://github.com/stunnel/static-curl"
+bins:
+  - "curl.exe"
+  - "trurl.exe"

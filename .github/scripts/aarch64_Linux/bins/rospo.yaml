@@ -1,0 +1,5 @@
+name: "rospo"
+description: "\U0001F438 Simple, reliable, persistent ssh tunnels with embedded ssh server"
+url: "https://github.com/ferama/rospo"
+bins:
+  - "rospo"

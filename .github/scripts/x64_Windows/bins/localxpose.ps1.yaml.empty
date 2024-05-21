@@ -1,0 +1,5 @@
+name: "localxpose"
+description: "reverse proxy that enables you to expose your localhost to the internet."
+url: "https://localxpose.io/"
+bins:
+  - ""

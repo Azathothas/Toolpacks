@@ -1,0 +1,5 @@
+name: "zstd"
+description: "Zstandard - Fast real-time compression algorithm"
+url: "https://github.com/VHSgunzo/zstd-static"
+bins:
+  - "zstd"

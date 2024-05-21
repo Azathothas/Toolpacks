@@ -1,0 +1,6 @@
+name: "curl"
+description: "A command line tool for transferring files with URL syntax"
+url: "https://github.com/curl/curl"
+bins:
+  - "curl"
+  - "curl_cacert.pem"

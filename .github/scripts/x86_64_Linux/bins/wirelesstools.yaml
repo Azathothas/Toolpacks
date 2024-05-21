@@ -1,0 +1,11 @@
+name: "wirelesstools"
+description: "Wireless tools for Linux"
+url: "https://www.gnu.org/software/wirelesstools/"
+bins:
+  - "ifrename"
+  - "iwconfig"
+  - "iwevent"
+  - "iwgetid"
+  - "iwlist"
+  - "iwpriv"
+  - "iwspy wg-quick"

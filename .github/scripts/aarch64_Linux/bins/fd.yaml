@@ -1,0 +1,6 @@
+name: "fd"
+description: "A simple, fast and user-friendly alternative to find"
+url: "https://github.com/sharkdp/fd"
+bins:
+  - "fd"
+  - "fd-find"

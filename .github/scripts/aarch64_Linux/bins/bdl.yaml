@@ -1,0 +1,5 @@
+name: "bdl.sh"
+description: "Binary Downloader"
+url: "https://github.com/xplshn/Handyscripts"
+bins:
+  - "bdl.sh batcat"

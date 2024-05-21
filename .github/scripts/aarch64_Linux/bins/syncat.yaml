@@ -1,0 +1,5 @@
+name: "syncat"
+description: "Syntax aware cat"
+url: "https://github.com/foxfriends/syncat"
+bins:
+  - "syncat"

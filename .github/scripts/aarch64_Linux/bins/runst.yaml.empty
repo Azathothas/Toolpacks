@@ -1,0 +1,5 @@
+name: "runst"
+description: "A dead simple notification daemon \U0001F9A1"
+url: "https://github.com/orhun/runst"
+bins:
+  - ""

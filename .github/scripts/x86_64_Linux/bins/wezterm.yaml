@@ -1,0 +1,9 @@
+name: "wezterm"
+description: "A GPU-accelerated cross-platform terminal emulator and multiplexer"
+url: "https://github.com/wez/wezterm"
+bins:
+  - "generate-bidi"
+  - "strip-ansi-escapes"
+  - "sync-color-schemes"
+  - "wezterm"
+  - "wezterm-mux-server"

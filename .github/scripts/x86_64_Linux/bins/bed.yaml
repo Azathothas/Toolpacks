@@ -1,0 +1,5 @@
+name: "bed"
+description: "Binary editor written in Go"
+url: "https://github.com/itchyny/bed"
+bins:
+  - "bed"

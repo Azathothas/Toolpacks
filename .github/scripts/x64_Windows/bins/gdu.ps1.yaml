@@ -1,0 +1,5 @@
+name: "gdu"
+description: "(ncdu) Fast disk usage analyzer with console interface written in Go"
+url: "https://github.com/dundee/gdu"
+bins:
+  - "gdu.exe find.exe xargs-rs.exe xargs.exe ffprobe.exe flashfetch.exe"

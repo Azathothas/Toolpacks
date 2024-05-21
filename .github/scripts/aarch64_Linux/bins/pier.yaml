@@ -1,0 +1,5 @@
+name: "pier"
+description: "A Linux script management CLI written in Rust"
+url: "https://github.com/pier-cli/pier"
+bins:
+  - "pier phantun-server"

@@ -1,0 +1,13 @@
+name: "hcxtools"
+description: "https //github.com/ZerBea/hcxtools"
+url: "https://github.com/checkpoint-restore/hcxtools"
+bins:
+  - "hcxeiutool"
+  - "hcxhash2cap"
+  - "hcxhashtool"
+  - "hcxpcapngtool"
+  - "hcxpmktool"
+  - "hcxpsktool"
+  - "hcxwltool"
+  - "whoismac"
+  - "wlancap2wpasec"

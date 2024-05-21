@@ -1,0 +1,6 @@
+name: "findutils"
+description: "Rust implementation of findutils"
+url: "https://github.com/uutils/findutils"
+bins:
+  - "find-rs"
+  - "xargs-rs xargs"

@@ -1,0 +1,5 @@
+name: "fingerprintx"
+description: "Standalone utility for service discovery on open ports!"
+url: "https://github.com/praetorian-inc/fingerprintx"
+bins:
+  - "fingerprintx xargs-rs xargs"

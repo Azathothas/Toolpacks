@@ -1,0 +1,12 @@
+name: "cfssl"
+description: "Cloudflares PKI and TLS toolkit"
+url: "https://github.com/cloudflare/cfssl"
+bins:
+  - "cfssl"
+  - "cfssl-bundle"
+  - "cfssl-certinfo"
+  - "cfssl-newkey"
+  - "cfssl-scan"
+  - "cfssljson"
+  - "mkbundle"
+  - "multirootca"

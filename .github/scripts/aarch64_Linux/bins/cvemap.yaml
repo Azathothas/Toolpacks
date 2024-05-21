@@ -1,0 +1,5 @@
+name: "cvemap"
+description: "Navigate the CVE jungle with ease."
+url: "https://github.com/projectdiscovery/cvemap"
+bins:
+  - "cvemap comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

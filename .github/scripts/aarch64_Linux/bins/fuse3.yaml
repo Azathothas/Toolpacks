@@ -1,0 +1,6 @@
+name: "fuse3"
+description: "The reference implementation of the Linux FUSE (Filesystem in Userspace) interface"
+url: "https://github.com/libfuse/libfuse"
+bins:
+  - "fusermount3"
+  - "mount.fuse3"

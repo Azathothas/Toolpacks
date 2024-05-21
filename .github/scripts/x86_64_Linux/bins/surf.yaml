@@ -1,0 +1,5 @@
+name: "surf"
+description: "filter a list of hosts, returning a list of viable SSRF candidates"
+url: "https://github.com/assetnote/surf"
+bins:
+  - "surf"

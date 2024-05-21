@@ -1,0 +1,5 @@
+name: "openssl"
+description: "A cryptographic library that implements the SSL and TLS protocols"
+url: "https://github.com/openssl/openssl"
+bins:
+  - "openssl sftp sftp-server ssh ssh-add ssh-agent ssh-keygen ssh-keyscan ssh-keysign sshd sshd_config"

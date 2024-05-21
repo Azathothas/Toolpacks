@@ -1,0 +1,5 @@
+name: "matterbridge"
+description: "A simple chat bridge"
+url: "https://github.com/42wim/matterbridge"
+bins:
+  - "matterbridge"

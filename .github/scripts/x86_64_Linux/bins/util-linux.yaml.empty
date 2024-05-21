@@ -1,0 +1,5 @@
+name: "util-linux"
+description: "random collection of Linux utilities"
+url: "https://github.com/util-linux/util-linux"
+bins:
+  - ""

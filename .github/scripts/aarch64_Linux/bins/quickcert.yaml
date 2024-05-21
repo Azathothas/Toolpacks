@@ -1,0 +1,5 @@
+name: "quickcert"
+description: "Query crtsh via pgsl server --> postgres //guest@crt.sh 5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol"
+url: "https://github.com/c3l3si4n/quickcert"
+bins:
+  - "quickcert"

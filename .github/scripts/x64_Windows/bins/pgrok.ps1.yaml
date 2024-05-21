@@ -1,0 +1,6 @@
+name: "pgrok"
+description: "multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding"
+url: "https://github.com/pgrok/pgrok"
+bins:
+  - "pgrok.exe"
+  - "pgrokd.exe"

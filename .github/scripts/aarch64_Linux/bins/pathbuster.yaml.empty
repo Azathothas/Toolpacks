@@ -1,0 +1,5 @@
+name: "pathbuster"
+description: "A path-normalization pentesting tool"
+url: "https://github.com/ethicalhackingplayground/pathbuster"
+bins:
+  - ""

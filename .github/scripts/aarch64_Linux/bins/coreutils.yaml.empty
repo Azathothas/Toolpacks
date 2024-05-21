@@ -1,0 +1,5 @@
+name: "coreutils"
+description: "GNU CoreUtils"
+url: "https://github.com/coreutils/coreutils"
+bins:
+  - ""

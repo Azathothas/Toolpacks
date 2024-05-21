@@ -1,0 +1,5 @@
+name: "nuclei"
+description: "Fast and customizable vulnerability scanner based on simple YAML based DSL"
+url: "https://github.com/projectdiscovery/nuclei"
+bins:
+  - "nuclei"

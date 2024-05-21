@@ -1,0 +1,5 @@
+name: "dbbench"
+description: "a simple database benchmarking tool which supports several databases and own scripts"
+url: "https://github.com/sj14/dbbench"
+bins:
+  - "dbbench"

@@ -1,0 +1,5 @@
+name: "delta"
+description: "A syntax-highlighting pager for git, diff, and grep output"
+url: "https://github.com/dandavison/delta"
+bins:
+  - "delta"

@@ -1,0 +1,5 @@
+name: "fio"
+description: "Flexible I/O Tester"
+url: "https://github.com/axboe/fio"
+bins:
+  - ""

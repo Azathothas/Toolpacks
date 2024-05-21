@@ -1,0 +1,5 @@
+name: "tz"
+description: "\U0001F310 A time zone helper"
+url: "https://github.com/oz/tz"
+bins:
+  - "tz"

@@ -1,0 +1,5 @@
+name: "iperf3"
+description: "A TCP, UDP, and SCTP network bandwidth measurement tool"
+url: "https://github.com/esnet/iperf"
+bins:
+  - "iperf"

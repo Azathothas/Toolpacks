@@ -1,0 +1,5 @@
+name: "kmon"
+description: "Linux Kernel Manager and Activity Monitor \U0001F427\U0001F4BB"
+url: "https://github.com/orhun/kmon"
+bins:
+  - "kmon"

@@ -1,0 +1,5 @@
+name: "wego"
+description: "weather app for the terminal"
+url: "https://github.com/schachmat/wego"
+bins:
+  - "wego"

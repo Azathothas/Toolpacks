@@ -1,0 +1,5 @@
+name: "traefik"
+description: "The Cloud Native Application Proxy"
+url: "https://github.com/traefik/traefik"
+bins:
+  - "traefik"

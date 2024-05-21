@@ -1,0 +1,5 @@
+name: "gfx"
+description: "Updated gf"
+url: "https://github.com/dwisiswant0/gfx"
+bins:
+  - "gfx"

@@ -1,0 +1,5 @@
+name: "txeh"
+description: "CLI utility for /etc/hosts management."
+url: "https://github.com/txn2/txeh"
+bins:
+  - "txeh twingate-connector twingate-connector-staticx twingate-connectorctl twingate-notifier"

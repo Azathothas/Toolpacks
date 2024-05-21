@@ -1,0 +1,5 @@
+name: "gitui"
+description: "Blazing \U0001F4A5 fast terminal-ui for git written in rust \U0001F980"
+url: "https://github.com/extrawurst/gitui"
+bins:
+  - "gitui"

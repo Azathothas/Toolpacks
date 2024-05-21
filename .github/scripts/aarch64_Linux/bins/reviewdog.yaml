@@ -1,0 +1,5 @@
+name: "reviewdog"
+description: "\U0001F436 Automated code review tool integrated with any code analysis tools regardless of programming language"
+url: "https://github.com/reviewdog/reviewdog"
+bins:
+  - "reviewdog"

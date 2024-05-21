@@ -1,0 +1,5 @@
+name: "awk"
+description: "updated awk"
+url: "https://github.com/xplshn/awk"
+bins:
+  - "awk"

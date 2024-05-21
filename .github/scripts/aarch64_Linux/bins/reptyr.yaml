@@ -1,0 +1,5 @@
+name: "reptyr"
+description: "Reparent a running program to a new terminal"
+url: "https://github.com/nelhage/reptyr"
+bins:
+  - "reptyr"

@@ -1,0 +1,5 @@
+name: "encode"
+description: "Encode|Decode input from stdin"
+url: "https://github.com/Brum3ns/encode"
+bins:
+  - "encode"

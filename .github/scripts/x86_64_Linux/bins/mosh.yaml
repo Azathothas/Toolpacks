@@ -1,0 +1,6 @@
+name: "mosh"
+description: "the mobile shell"
+url: "https://github.com/mobile-shell/mosh"
+bins:
+  - "mosh-client"
+  - "mosh-server"

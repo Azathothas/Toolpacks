@@ -1,0 +1,5 @@
+name: "glow"
+description: "Render markdown on the CLI"
+url: "https://github.com/charmbracelet/glow"
+bins:
+  - "glow"

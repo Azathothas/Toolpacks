@@ -1,0 +1,5 @@
+name: "openapi-tui"
+description: "Terminal UI to list, browse and run APIs defined with openapi spec."
+url: "https://github.com/zaghaghi/openapi-tui"
+bins:
+  - "openapi-tui"

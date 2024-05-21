@@ -1,0 +1,5 @@
+name: "nnn"
+description: "n³ The unorthodox terminal file manager"
+url: "https://github.com/jarun/nnn"
+bins:
+  - "nnn"

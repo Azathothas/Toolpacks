@@ -1,0 +1,5 @@
+name: "cdncheck"
+description: "A utility to detect various technology for a given IP address."
+url: "https://github.com/projectdiscovery/cdncheck"
+bins:
+  - "cdncheck"

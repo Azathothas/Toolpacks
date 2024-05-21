@@ -1,0 +1,5 @@
+name: "fi6s"
+description: "IPv6 network scanner designed to be fast"
+url: "https://github.com/sfan5/fi6s"
+bins:
+  - " comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

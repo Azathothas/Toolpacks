@@ -1,0 +1,5 @@
+name: "daytona"
+description: "The Open Source Dev Environment Manager."
+url: "https://github.com/daytonaio/daytona"
+bins:
+  - "daytona"

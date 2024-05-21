@@ -1,0 +1,5 @@
+name: "sns"
+description: "IIS shortname scanner written in Go"
+url: "https://github.com/sw33tLie/sns"
+bins:
+  - "sns"

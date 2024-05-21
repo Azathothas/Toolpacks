@@ -1,0 +1,5 @@
+name: "xplr"
+description: "A hackable, minimal, fast TUI file explorer"
+url: "https://github.com/sayanarijit/xplr"
+bins:
+  - "xplr"

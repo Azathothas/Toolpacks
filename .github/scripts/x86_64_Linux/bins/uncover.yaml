@@ -1,0 +1,5 @@
+name: "uncover"
+description: "Quickly discover exposed hosts on the internet using multiple search engines"
+url: "https://github.com/projectdiscovery/uncover"
+bins:
+  - "uncover"

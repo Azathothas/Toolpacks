@@ -1,0 +1,5 @@
+name: "gost"
+description: "\U0001F916 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows"
+url: "https://github.com/ginuerzh/gost"
+bins:
+  - ""

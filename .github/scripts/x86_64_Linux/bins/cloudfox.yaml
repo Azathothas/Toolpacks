@@ -1,0 +1,5 @@
+name: "Cloudfox"
+description: "Automating situational awareness for cloud penetration tests"
+url: "https://github.com/BishopFox/cloudfox"
+bins:
+  - "cloudfox"

@@ -1,0 +1,5 @@
+name: "dalfox"
+description: "\U0001F319\U0001F98A Dalfox is a powerful open-source XSS scanner and utility focused on automation."
+url: "https://github.com/hahwul/dalfox"
+bins:
+  - "dalfox"

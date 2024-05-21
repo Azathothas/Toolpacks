@@ -1,0 +1,5 @@
+name: "rathole"
+description: "A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok."
+url: "https://github.com/rapiz1/rathole"
+bins:
+  - "rathole comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok rage-keygen comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

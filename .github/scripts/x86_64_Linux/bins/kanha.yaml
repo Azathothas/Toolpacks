@@ -1,0 +1,5 @@
+name: "kanha"
+description: "\U0001F99A A web-app pentesting suite written in rust"
+url: "https://github.com/pwnwriter/kanha"
+bins:
+  - "kanha"

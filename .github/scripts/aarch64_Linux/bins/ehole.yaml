@@ -1,0 +1,5 @@
+name: "ehole"
+description: "vulnerability detection & exploitation"
+url: "https://github.com/lemonlove7/EHole_magic"
+bins:
+  - "ehole"

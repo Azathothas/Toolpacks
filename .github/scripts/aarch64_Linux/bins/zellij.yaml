@@ -1,0 +1,5 @@
+name: "zellij"
+description: "A terminal workspace with batteries included"
+url: "https://github.com/zellij-org/zellij"
+bins:
+  - "zellij"

@@ -1,0 +1,5 @@
+name: "udpx"
+description: "a single-packet UDP port scanner"
+url: "https://github.com/nullt3r/udpx"
+bins:
+  - "udpx"

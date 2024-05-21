@@ -1,0 +1,5 @@
+name: "Hub"
+description: "A command-line tool that makes git easier to use with GitHub."
+url: "https://github.com/mislav/hub"
+bins:
+  - "hub"

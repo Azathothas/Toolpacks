@@ -1,0 +1,5 @@
+name: "sunbeam"
+description: "a general purpose command-line launcher"
+url: "https://github.com/pomdtr/sunbeam"
+bins:
+  - "sunbeam sudo sudo_logsrvd sudo_sendlog sudoedit sudoreplay visudo sudo-rs visudo-rs comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

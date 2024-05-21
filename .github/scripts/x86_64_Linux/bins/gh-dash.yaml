@@ -1,0 +1,5 @@
+name: "gh-dash"
+description: "A beautiful CLI dashboard for GitHub \U0001F680"
+url: "https://github.com/dlvhdr/gh-dash"
+bins:
+  - "gh-dash"

@@ -1,0 +1,5 @@
+name: "mcfly"
+description: "Fly through your shell history."
+url: "https://github.com/cantino/mcfly"
+bins:
+  - "mcfly"

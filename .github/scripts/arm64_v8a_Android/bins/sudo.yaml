@@ -1,0 +1,5 @@
+name: "sudo"
+description: "Download with resuming and segmented downloading"
+url: "https://github.com/agnostic-apollo/sudo"
+bins:
+  - "sudo"

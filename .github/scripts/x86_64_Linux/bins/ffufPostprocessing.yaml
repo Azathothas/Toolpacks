@@ -1,0 +1,5 @@
+name: "ffufPostprocessing"
+description: "Filter ffuf results"
+url: "https://github.com/Damian89/ffufPostprocessing"
+bins:
+  - "ffufPostprocessing"

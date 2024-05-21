@@ -1,0 +1,5 @@
+name: "mantra"
+description: "「\U0001F511」A tool used to hunt down API key leaks in JS files and pages"
+url: "https://github.com/MrEmpy/mantra"
+bins:
+  - "mantra"

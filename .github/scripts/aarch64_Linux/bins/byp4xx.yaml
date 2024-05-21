@@ -1,0 +1,5 @@
+name: "byp4xx"
+description: "40X/HTTP bypasser in Go. Features  Verb tampering, headers,"
+url: "https://github.com/lobuhi/byp4xx"
+bins:
+  - "byp4xx"

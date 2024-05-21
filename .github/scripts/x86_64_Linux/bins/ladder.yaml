@@ -1,0 +1,5 @@
+name: "ladder"
+description: "Selfhosted alternative to 12ft.io. and 1ft.io"
+url: "https://github.com/everywall/ladder"
+bins:
+  - "ladder ksubdomain_staticx"

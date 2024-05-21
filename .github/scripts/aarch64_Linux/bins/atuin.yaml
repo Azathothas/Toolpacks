@@ -1,0 +1,5 @@
+name: "atuin"
+description: "Sync Shell History"
+url: "https://github.com/atuinsh/atuin"
+bins:
+  - "atuin"

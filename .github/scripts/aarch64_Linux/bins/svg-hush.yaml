@@ -1,0 +1,5 @@
+name: "svg-hush"
+description: "Make it safe to serve untrusted SVG files"
+url: "https://github.com/cloudflare/svg-hush"
+bins:
+  - "svg-hush"

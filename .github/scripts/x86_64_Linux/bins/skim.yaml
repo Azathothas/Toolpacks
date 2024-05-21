@@ -1,0 +1,6 @@
+name: "skim"
+description: "Fuzzy Finder in rust!"
+url: "https://github.com/lotabout/skim"
+bins:
+  - "sk"
+  - "sk-tmux"

@@ -1,0 +1,5 @@
+name: "step"
+description: "\U0001F9F0 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc."
+url: "https://github.com/smallstep/cli"
+bins:
+  - "step.exe"

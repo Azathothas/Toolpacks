@@ -1,0 +1,5 @@
+name: "Rustscan"
+description: "\U0001F916 The Modern Port Scanner \U0001F916"
+url: "https://github.com/RustScan/RustScan"
+bins:
+  - "rustcan"

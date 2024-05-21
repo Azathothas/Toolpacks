@@ -1,0 +1,5 @@
+name: "htmlq"
+description: "Like jq, but for HTML"
+url: "https://github.com/mgdm/htmlq"
+bins:
+  - "htmlq"

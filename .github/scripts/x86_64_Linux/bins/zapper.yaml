@@ -1,0 +1,6 @@
+name: "zapper"
+description: "Zaps arguments and environment from the process list"
+url: "https://github.com/hackerschoice/zapper"
+bins:
+  - "zapper"
+  - "zapper-stealth zt-encodings zt-exchange zt-hashes zt-patterns"

@@ -1,0 +1,5 @@
+name: "direnv"
+description: "unclutter your .profile"
+url: "https://github.com/direnv/direnv"
+bins:
+  - "direnv"

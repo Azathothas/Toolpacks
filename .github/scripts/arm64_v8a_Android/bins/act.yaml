@@ -1,0 +1,5 @@
+name: "act"
+description: "Run your GitHub Actions locally"
+url: "https://github.com/nektos/act"
+bins:
+  - "act"

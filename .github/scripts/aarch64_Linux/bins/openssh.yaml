@@ -1,0 +1,8 @@
+name: "openssh"
+description: ""
+url: "https://github.com/openssh/openssh-portable"
+bins:
+  - "scp"
+  - "sftp"
+  - "sftp-server"
+  - "sshd_config"

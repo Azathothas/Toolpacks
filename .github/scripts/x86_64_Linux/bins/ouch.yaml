@@ -1,0 +1,5 @@
+name: "ouch"
+description: "Painless compression and decompression in the terminal"
+url: "https://github.com/ouch-org/ouch"
+bins:
+  - "ouch"

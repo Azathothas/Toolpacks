@@ -1,0 +1,5 @@
+name: "busybox"
+description: "single binary that contains many common Unix tools"
+url: "https://frippery.org/busybox/"
+bins:
+  - ""

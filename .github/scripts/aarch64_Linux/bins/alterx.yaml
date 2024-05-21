@@ -1,0 +1,5 @@
+name: "alterx"
+description: "Fast and customizable subdomain wordlist generator using DSL"
+url: "https://github.com/projectdiscovery/alterx"
+bins:
+  - "alterx"

@@ -1,0 +1,5 @@
+name: "luet"
+description: "\U0001F4E6 \U0001F433 0-dependency Container-based Package Manager"
+url: "https://github.com/mudler/luet"
+bins:
+  - "luet"

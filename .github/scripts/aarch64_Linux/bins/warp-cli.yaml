@@ -1,0 +1,8 @@
+name: "warp-cli"
+description: "cloudflare warp"
+url: "https://pkg.cloudflareclient.com"
+bins:
+  - "warp-cli"
+  - "warp-dex"
+  - "warp-diag"
+  - "warp-svc"

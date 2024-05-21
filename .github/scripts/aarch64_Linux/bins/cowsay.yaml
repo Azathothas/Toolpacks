@@ -1,0 +1,6 @@
+name: "cowsay"
+description: "complete rewrite of cowsay in Go"
+url: "https://gitlab.com/nmyk/cowsay"
+bins:
+  - "cowsay"
+  - "cowthink"

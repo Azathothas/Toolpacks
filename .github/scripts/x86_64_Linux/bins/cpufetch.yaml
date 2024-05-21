@@ -1,0 +1,5 @@
+name: "cpufetch"
+description: "fetch for cpu"
+url: "https://github.com/Dr-Noob/cpufetch"
+bins:
+  - "cpufetch cpud decpu decpud p9cpu p9cpud"

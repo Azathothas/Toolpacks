@@ -1,0 +1,5 @@
+name: "s5cmd"
+description: "Parallel S3 and local filesystem execution tool."
+url: "https://github.com/peak/s5cmd"
+bins:
+  - "s5cmd"

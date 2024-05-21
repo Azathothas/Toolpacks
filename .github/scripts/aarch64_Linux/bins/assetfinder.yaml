@@ -1,0 +1,5 @@
+name: "assetfinder"
+description: "Find domains and subdomains related to a given domain"
+url: "https://github.com/tomnomnom/assetfinder"
+bins:
+  - "assetfinder"

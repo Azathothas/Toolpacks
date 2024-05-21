@@ -1,0 +1,5 @@
+name: "s3sync"
+description: "Really fast sync tool for S3"
+url: "https://github.com/larrabee/s3sync"
+bins:
+  - "s3sync"

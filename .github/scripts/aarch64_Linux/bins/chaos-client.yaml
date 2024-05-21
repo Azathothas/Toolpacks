@@ -1,0 +1,5 @@
+name: "chaos-client"
+description: "cli for Chaos DB API"
+url: "https://github.com/projectdiscovery/chaos-client"
+bins:
+  - "chaos-client cfssl-bundle cfssl-certinfo cfssl-newkey cfssl-scan cfssljson mkbundle multirootca"

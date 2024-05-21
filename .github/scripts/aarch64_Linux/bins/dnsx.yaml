@@ -1,0 +1,5 @@
+name: "dnsx"
+description: "Multi-purpose DNS toolkit allow to run multiple DNS queries"
+url: "https://github.com/projectdiscovery/dnsx"
+bins:
+  - "dnsx"

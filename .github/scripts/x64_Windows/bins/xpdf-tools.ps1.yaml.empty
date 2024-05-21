@@ -1,0 +1,5 @@
+name: "xpdf-tools"
+description: "PDF tools"
+url: "https://www.xpdfreader.com/index.html"
+bins:
+  - ""

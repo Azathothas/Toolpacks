@@ -1,0 +1,5 @@
+name: "gocurl"
+description: "Simplified version of curl written in pure Go"
+url: "https://github.com/ameshkov/gocurl"
+bins:
+  - "gocurl"

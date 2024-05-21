@@ -1,0 +1,5 @@
+name: "warp"
+description: "S3 benchmarking tool"
+url: "https://github.com/minio/warp"
+bins:
+  - "warp warp-dex warp-diag warp-svc"

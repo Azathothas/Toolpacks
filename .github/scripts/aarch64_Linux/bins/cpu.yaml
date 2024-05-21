@@ -1,0 +1,10 @@
+name: "cpu"
+description: "cpu command in Go, inspired by the Plan 9 cpu command"
+url: "https://github.com/u-root/cpu"
+bins:
+  - "cpu"
+  - "cpud"
+  - "decpu"
+  - "decpud"
+  - "p9cpu"
+  - "p9cpud cowthink"

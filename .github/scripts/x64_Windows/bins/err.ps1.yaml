@@ -1,0 +1,5 @@
+name: "err"
+description: "The Error Lookup Tool, also known as ERR, is a command-line tool to decode many Microsoft error codes. It does not require elevation and is very easy to use."
+url: "https://www.microsoft.com/en-us/download/details.aspx?id=100432"
+bins:
+  - "err.exe"

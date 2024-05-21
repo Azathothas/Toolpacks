@@ -1,0 +1,5 @@
+name: "unifetch"
+description: "An unofficial inheritor of Neofetch"
+url: "https://github.com/nmimusic/unifetch"
+bins:
+  - "unifetch"

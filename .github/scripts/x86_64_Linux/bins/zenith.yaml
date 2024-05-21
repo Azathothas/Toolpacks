@@ -1,0 +1,5 @@
+name: "zenith"
+description: "sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage"
+url: "https://github.com/bvaisvil/zenith"
+bins:
+  - "zenith"

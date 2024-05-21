@@ -1,0 +1,5 @@
+name: "tty2web"
+description: "Share your terminal as a web application in bind/reverse mode"
+url: "https://github.com/kost/tty2web"
+bins:
+  - "tty2web"

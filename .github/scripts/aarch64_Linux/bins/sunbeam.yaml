@@ -1,0 +1,5 @@
+name: "sunbeam"
+description: "a general purpose command-line launcher"
+url: "https://github.com/pomdtr/sunbeam"
+bins:
+  - "sunbeam"

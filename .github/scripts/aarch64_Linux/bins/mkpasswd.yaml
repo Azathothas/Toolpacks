@@ -1,0 +1,6 @@
+name: "mkpasswd"
+description: ""
+url: "https://packages.qa.debian.org/w/whois.html"
+bins:
+  - "mkpasswd"
+  - "whois"

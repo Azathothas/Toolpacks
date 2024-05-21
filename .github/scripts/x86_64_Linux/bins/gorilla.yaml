@@ -1,0 +1,5 @@
+name: "gorilla"
+description: "Tool for generating wordlists or extending an existing one using mutations"
+url: "https://github.com/d4rckh/gorilla"
+bins:
+  - "gorilla"

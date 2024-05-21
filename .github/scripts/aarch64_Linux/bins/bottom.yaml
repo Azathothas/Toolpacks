@@ -1,0 +1,5 @@
+name: "bottom"
+description: "htop clone | graphical process/system monitor"
+url: "https://github.com/ClementTsang/bottom"
+bins:
+  - "bottom"

@@ -1,0 +1,5 @@
+name: "kopia"
+description: "Backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication"
+url: "https://github.com/kopia/kopia"
+bins:
+  - "kopia"

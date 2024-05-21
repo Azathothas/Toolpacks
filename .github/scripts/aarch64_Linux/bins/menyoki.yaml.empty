@@ -1,0 +1,5 @@
+name: "menyoki"
+description: "Screen{shot,cast} and perform ImageOps on the command line \U0001F331 \U0001F3DE️"
+url: "https://github.com/orhun/menyoki"
+bins:
+  - ""

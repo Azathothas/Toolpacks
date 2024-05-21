@@ -1,0 +1,5 @@
+name: "curlie"
+description: "The power of curl, the ease of use of httpie."
+url: "https://github.com/rs/curlie"
+bins:
+  - "curlie trurl"

@@ -1,0 +1,6 @@
+name: "age"
+description: "A simple, modern and secure encryption tool"
+url: "https://github.com/FiloSottile/age"
+bins:
+  - "age"
+  - "age-keygen"

@@ -1,0 +1,6 @@
+name: "gocryptfs"
+description: "Encrypted overlay filesystem written in Go"
+url: "https://github.com/rfjakob/gocryptfs"
+bins:
+  - "gocryptfs"
+  - "gocryptfs-xray goanywhere gobusybox makebb makebbmain rewritepkg u-root-busybox uroot-busybox"

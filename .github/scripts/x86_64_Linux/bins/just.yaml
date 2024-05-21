@@ -1,0 +1,5 @@
+name: "just"
+description: "A handy way to save and run project-specific commands."
+url: "https://github.com/casey/just"
+bins:
+  - "just"

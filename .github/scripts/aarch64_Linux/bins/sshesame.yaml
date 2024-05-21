@@ -1,0 +1,5 @@
+name: "sshesame"
+description: "SSH honeypot, a fake SSH server that lets anyone in and logs their activity"
+url: "https://github.com/jaksi/sshesame"
+bins:
+  - "sshesame"

@@ -1,0 +1,5 @@
+name: "joker"
+description: "turn process into daemon. Zero-Configuration"
+url: "https://github.com/txthinking/joker"
+bins:
+  - ""

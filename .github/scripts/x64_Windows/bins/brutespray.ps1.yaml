@@ -1,0 +1,5 @@
+name: "brutespray"
+description: "Command-line JSON processor"
+url: "https://github.com/x90skysn3k/brutespray"
+bins:
+  - "brutespray.exe"

@@ -1,0 +1,5 @@
+name: "tmux"
+description: "terminal multiplexer"
+url: "https://github.com/tmux/tmux"
+bins:
+  - "tmux"

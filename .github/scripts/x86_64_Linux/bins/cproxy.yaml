@@ -1,0 +1,5 @@
+name: "cproxy"
+description: "Easy per application transparent proxy built on cgroup."
+url: "https://github.com/NOBLES5E/cproxy"
+bins:
+  - "cproxy cowthink"

@@ -1,0 +1,6 @@
+name: "rg(ripgrep)"
+description: ""
+url: "https://github.com/BurntSushi/ripgrep"
+bins:
+  - "rg"
+  - "ripgrep"

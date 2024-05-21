@@ -1,0 +1,5 @@
+name: "meli"
+description: "\U0001F41D terminal mail client"
+url: "https://github.com/meli/meli"
+bins:
+  - "meli"

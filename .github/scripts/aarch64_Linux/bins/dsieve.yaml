@@ -1,0 +1,5 @@
+name: "dsieve"
+description: "Filter and enrich a list of subdomains by level"
+url: "https://github.com/trickest/dsieve"
+bins:
+  - "dsieve dropbear dropbearconvert dropbearkey dropbearmulti dropbearscp"

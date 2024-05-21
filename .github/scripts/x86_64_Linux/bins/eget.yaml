@@ -1,0 +1,5 @@
+name: "eget"
+description: "Easily install prebuilt binaries from GitHub."
+url: "https://github.com/zyedidia/eget"
+bins:
+  - "eget"

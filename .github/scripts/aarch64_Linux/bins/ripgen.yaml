@@ -1,0 +1,5 @@
+name: "ripgen"
+description: "Rust-based high performance domain permutation generator"
+url: "https://github.com/resyncgg/ripgen"
+bins:
+  - "ripgen"

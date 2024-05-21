@@ -1,0 +1,5 @@
+name: "gojq"
+description: "Pure Go implementation of jq"
+url: "https://github.com/itchyny/gojq"
+bins:
+  - "gojq"

@@ -1,0 +1,5 @@
+name: "jc"
+description: "converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries"
+url: "https://github.com/kellyjonbrazil/jc"
+bins:
+  - ""

@@ -1,0 +1,9 @@
+name: "go-git"
+description: "A highly extensible Git implementation in pure Go."
+url: "https://github.com/go-git/go-git"
+bins:
+  - "git-checkout"
+  - "git-clone"
+  - "git-log"
+  - "git-pull"
+  - "git-tag"

@@ -1,0 +1,5 @@
+name: "screenfetch"
+description: "bash neofetch alt"
+url: "https://github.com/KittyKatt/screenFetch"
+bins:
+  - "screenfetch comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

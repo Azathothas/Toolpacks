@@ -1,0 +1,5 @@
+name: "realm"
+description: "A network relay tool"
+url: "https://github.com/zhboner/realm"
+bins:
+  - "realm imix tavern"

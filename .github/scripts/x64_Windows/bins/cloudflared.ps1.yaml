@@ -1,0 +1,5 @@
+name: "cloudflared"
+description: "Cloudflare Tunnel client (formerly Argo Tunnel)"
+url: "https://github.com/cloudflare/cloudflared"
+bins:
+  - "cloudflared.exe"

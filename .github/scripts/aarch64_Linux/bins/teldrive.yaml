@@ -1,0 +1,5 @@
+name: "teldrive"
+description: "Telegram Drive Storage"
+url: "https://github.com/divyam234/teldrive"
+bins:
+  - "teldrive"

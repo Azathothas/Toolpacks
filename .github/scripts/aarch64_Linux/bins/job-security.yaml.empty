@@ -1,0 +1,5 @@
+name: "job-security"
+description: "job control from anywhere!"
+url: "https://github.com/yshui/job-security"
+bins:
+  - ""

@@ -1,0 +1,5 @@
+name: "DevBox"
+description: "Instant, easy, and predictable development environments"
+url: "https://github.com/jetpack-io/devbox"
+bins:
+  - "devbox"

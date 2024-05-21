@@ -1,0 +1,5 @@
+name: "siegfried"
+description: "signature-based file format identification"
+url: "https://github.com/richardlehane/siegfried"
+bins:
+  - "sf"

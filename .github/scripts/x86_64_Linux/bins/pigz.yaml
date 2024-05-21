@@ -1,0 +1,5 @@
+name: "pigz"
+description: "A parallel implementation of gzip for multi-core machines"
+url: "https://github.com/madler/pigz"
+bins:
+  - "pigz"

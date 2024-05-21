@@ -1,0 +1,5 @@
+name: "gawk"
+description: "GNU implementation of the Awk programming language"
+url: "https://www.gnu.org/software/gawk/"
+bins:
+  - ""

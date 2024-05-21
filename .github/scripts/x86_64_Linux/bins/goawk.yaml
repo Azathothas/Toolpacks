@@ -1,0 +1,5 @@
+name: "goawk"
+description: "A POSIX-compliant AWK interpreter written in Go, with CSV support"
+url: "https://github.com/benhoyt/goawk"
+bins:
+  - "goawk"

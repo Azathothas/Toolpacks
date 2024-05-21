@@ -1,0 +1,9 @@
+name: "twingate"
+description: "programmatically deploy and maintain a zero trust approach to infrastructures"
+url: "https://www.twingate.com/"
+bins:
+  - "twingate-client"
+  - "twingate-connector"
+  - "twingate-connector-staticx"
+  - "twingate-connectorctl"
+  - "twingate-notifier"

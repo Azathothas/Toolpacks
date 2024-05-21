@@ -1,0 +1,5 @@
+name: "cowtiness"
+description: "mimic an HTTP server and a DNS server, providing complete responses"
+url: "https://github.com/stolenusername/cowitness"
+bins:
+  - "cowitness"

@@ -1,0 +1,5 @@
+name: "git-sizer"
+description: "Compute various size metrics for a Git repository"
+url: "https://github.com/github/git-sizer"
+bins:
+  - "git-sizer"

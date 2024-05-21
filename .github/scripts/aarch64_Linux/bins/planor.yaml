@@ -1,0 +1,5 @@
+name: "planor"
+description: "TUI client for cloud services (AWS, Vultr, Heroku, Render.com, Fleek, ...)"
+url: "https://github.com/mrusme/planor"
+bins:
+  - "planor"

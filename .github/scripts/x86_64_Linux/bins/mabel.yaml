@@ -1,0 +1,5 @@
+name: "mabel"
+description: "A fancy BitTorrent client for the terminal."
+url: "https://github.com/smmr-software/mabel"
+bins:
+  - "mabel"

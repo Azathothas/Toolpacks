@@ -1,0 +1,5 @@
+name: "gh"
+description: "GitHub’s official command line tool"
+url: "https://github.com/cli/cli"
+bins:
+  - "gh"

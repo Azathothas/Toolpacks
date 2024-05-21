@@ -1,0 +1,5 @@
+name: "gip"
+description: "command-line tool to get global IP address"
+url: "https://github.com/dalance/gip"
+bins:
+  - "gip"

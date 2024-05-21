@@ -1,0 +1,5 @@
+name: "ffufw"
+description: "a wrapper around ffuf to make directory bruteforcing easier and more intelligent"
+url: "https://github.com/puzzlepeaches/ffufw"
+bins:
+  - "ffufw"

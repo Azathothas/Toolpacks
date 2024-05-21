@@ -1,0 +1,5 @@
+name: "subfinder"
+description: "Fast passive subdomain enumeration tool"
+url: "https://github.com/projectdiscovery/subfinder"
+bins:
+  - "subfinder"

@@ -1,0 +1,5 @@
+name: "fzf"
+description: "\U0001F338 A command-line fuzzy finder"
+url: "https://github.com/junegunn/fzf"
+bins:
+  - "fzf"

@@ -1,0 +1,5 @@
+name: "tailspin"
+description: "\U0001F300 A log file highlighter"
+url: "https://github.com/bensadeh/tailspin"
+bins:
+  - "tailspin tailscale_combined tailscaled"

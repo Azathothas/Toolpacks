@@ -1,0 +1,5 @@
+name: "binocle"
+description: "a graphical tool to visualize binary data"
+url: "https://github.com/sharkdp/binocle"
+bins:
+  - "binocle"

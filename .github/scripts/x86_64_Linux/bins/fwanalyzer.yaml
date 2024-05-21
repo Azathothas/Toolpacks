@@ -1,0 +1,5 @@
+name: "fwanalyzer"
+description: "a tool to analyze filesystem images for security"
+url: "https://github.com/cruise-automation/fwanalyzer"
+bins:
+  - "fwanalyzer"

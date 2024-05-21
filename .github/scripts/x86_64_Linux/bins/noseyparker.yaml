@@ -1,0 +1,5 @@
+name: "noseyparker"
+description: "command-line program that finds secrets and sensitive information in textual data and Git history."
+url: "https://github.com/praetorian-inc/noseyparker"
+bins:
+  - "noseyparker"

@@ -1,0 +1,5 @@
+name: "qemu"
+description: "machine & userspace emulator and virtualizer"
+url: "https://github.com/qemu/qemu"
+bins:
+  - ""

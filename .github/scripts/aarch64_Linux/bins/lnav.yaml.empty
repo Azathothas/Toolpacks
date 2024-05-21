@@ -1,0 +1,5 @@
+name: "lnav"
+description: "Log file navigator"
+url: "https://github.com/tstack/lnav"
+bins:
+  - ""

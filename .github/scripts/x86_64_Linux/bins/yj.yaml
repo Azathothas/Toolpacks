@@ -1,0 +1,5 @@
+name: "yj"
+description: "Convert between YAML, TOML, JSON, and HCL"
+url: "https://github.com/sclevine/yj"
+bins:
+  - "yj"

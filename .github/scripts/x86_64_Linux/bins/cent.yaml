@@ -1,0 +1,5 @@
+name: "cent"
+description: "Fetch & Organize all Nuclei Templates"
+url: "https://github.com/xm1k3/cent"
+bins:
+  - "cent"

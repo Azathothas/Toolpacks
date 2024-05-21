@@ -1,0 +1,6 @@
+name: "batcat"
+description: "cat with colors & syntax highlights"
+url: "https://github.com/sharkdp/bat"
+bins:
+  - "bat.exe"
+  - "batcat.exe"

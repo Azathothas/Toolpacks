@@ -1,0 +1,5 @@
+name: "stree"
+description: "\U0001F4C1Directory trees of AWS S3 Bucket"
+url: "https://github.com/orangekame3/stree"
+bins:
+  - "stree"

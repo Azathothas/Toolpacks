@@ -1,0 +1,5 @@
+name: "mirrorbits"
+description: "geographical download redirector written in Go for distributing files efficiently across a set of mirrors."
+url: "https://github.com/etix/mirrorbits"
+bins:
+  - "mirrorbits"

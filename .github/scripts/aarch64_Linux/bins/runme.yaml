@@ -1,0 +1,5 @@
+name: "runme"
+description: "Execute your runbooks, docs, and READMEs."
+url: "https://github.com/stateful/runme"
+bins:
+  - "runme"

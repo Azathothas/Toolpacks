@@ -1,0 +1,5 @@
+name: "reader"
+description: "A lightweight tool offering better readability of web pages on the CLI"
+url: "https://github.com/mrusme/reader"
+bins:
+  - "reader"

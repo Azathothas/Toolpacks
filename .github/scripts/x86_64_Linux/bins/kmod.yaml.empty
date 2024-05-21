@@ -1,0 +1,5 @@
+name: "kmod"
+description: "Tools for loading and managing Linux kernel modules"
+url: "https://github.com/kmod-project/kmod"
+bins:
+  - ""

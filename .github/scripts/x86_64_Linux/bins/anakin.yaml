@@ -1,0 +1,5 @@
+name: "anakin"
+description: "Kill orphan processes"
+url: "https://github.com/Timmmm/anakin"
+bins:
+  - "anakin"

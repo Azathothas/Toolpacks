@@ -1,0 +1,6 @@
+name: "shortscan"
+description: "An IIS short filename enumeration tool"
+url: "https://github.com/bitquark/shortscan"
+bins:
+  - "shortscan"
+  - "shortutil"

@@ -1,0 +1,5 @@
+name: "bigdl"
+description: "Binary Downloader(s) || Like a package manager, but for statically linked binaries."
+url: "https://github.com/xplshn/bigdl"
+bins:
+  - "bigdl"

@@ -1,0 +1,5 @@
+name: "7z"
+description: "Unarchiver"
+url: "https://www.7-zip.org"
+bins:
+  - "7z"

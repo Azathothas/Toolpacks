@@ -1,0 +1,5 @@
+name: "tidy-viewer(tv)"
+description: "\U0001F4FA(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment."
+url: "https://github.com/alexhallam/tv"
+bins:
+  - "tidy-viewer"

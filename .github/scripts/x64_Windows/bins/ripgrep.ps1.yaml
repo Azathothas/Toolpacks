@@ -1,0 +1,5 @@
+name: "ripgrepcat"
+description: "rust-grep"
+url: "https://github.com/BurntSushi/ripgrep"
+bins:
+  - "rg.exe inscope.exe quotes-escaper.exe"

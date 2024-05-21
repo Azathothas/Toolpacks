@@ -1,0 +1,5 @@
+name: "pkgtop"
+description: "Interactive package manager and resource monitor designed for the GNU/Linux."
+url: "https://github.com/orhun/pkgtop"
+bins:
+  - "pkgtop"

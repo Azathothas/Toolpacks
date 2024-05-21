@@ -1,0 +1,5 @@
+name: "kakoune"
+description: "a better code editor"
+url: "https://github.com/mawww/kakoune"
+bins:
+  - "kakoune"

@@ -1,0 +1,5 @@
+name: "smap"
+description: "a drop-in replacement for Nmap powered by shodan.io"
+url: "https://github.com/s0md3v/Smap"
+bins:
+  - "smap"

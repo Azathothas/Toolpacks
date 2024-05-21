@@ -1,0 +1,5 @@
+name: "sudo"
+description: "A command to run commands as root"
+url: "https://github.com/sudo-project/sudo"
+bins:
+  - " sudo-rs visudo-rs comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

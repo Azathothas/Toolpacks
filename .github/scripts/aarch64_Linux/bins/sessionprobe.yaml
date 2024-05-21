@@ -1,0 +1,5 @@
+name: "sessionprobe"
+description: "evaluates user privileges in web applications by taking a session token and checking access across a list of URLs"
+url: "https://github.com/dub-flow/sessionprobe"
+bins:
+  - "sessionprobe"

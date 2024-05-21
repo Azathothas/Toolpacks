@@ -1,0 +1,5 @@
+name: "godnsbench"
+description: "Simple DNS bench util that supports encrypted protocols."
+url: "https://github.com/ameshkov/godnsbench"
+bins:
+  - "godnsbench"

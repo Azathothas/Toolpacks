@@ -1,0 +1,5 @@
+name: "catp"
+description: "Print the output of a running process"
+url: "https://github.com/rapiz1/catp"
+bins:
+  - ""

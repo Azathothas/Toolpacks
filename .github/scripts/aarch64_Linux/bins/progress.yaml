@@ -1,0 +1,5 @@
+name: "progress"
+description: "Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)"
+url: "https://github.com/Xfennec/progress"
+bins:
+  - "progress"

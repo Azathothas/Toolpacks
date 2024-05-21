@@ -1,0 +1,5 @@
+name: "viu"
+description: "Terminal image viewer with native support for iTerm and Kitty"
+url: "https://github.com/atanunq/viu"
+bins:
+  - "viu"

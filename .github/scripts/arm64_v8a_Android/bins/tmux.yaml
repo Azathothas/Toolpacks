@@ -1,0 +1,5 @@
+name: "tmux"
+description: "Terminal multiplexer"
+url: "https://github.com/tmux/tmux"
+bins:
+  - "tmux tailscale_combined tailscaled"

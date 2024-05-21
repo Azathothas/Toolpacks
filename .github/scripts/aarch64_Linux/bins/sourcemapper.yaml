@@ -1,0 +1,5 @@
+name: "sourcemapper"
+description: "Extract JavaScript source trees from Sourcemap files"
+url: "https://github.com/denandz/sourcemapper"
+bins:
+  - "sourcemapper"

@@ -1,0 +1,5 @@
+name: "freeze"
+description: "Generate images of code and terminal output \U0001F4F8"
+url: "https://github.com/charmbracelet/freeze"
+bins:
+  - ""

@@ -1,0 +1,5 @@
+name: "upx"
+description: "Ultimate Packer for eXecutables"
+url: "https://github.com/upx/upx"
+bins:
+  - "upx"

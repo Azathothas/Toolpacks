@@ -1,0 +1,5 @@
+name: "dnslookup"
+description: "Simple command line utility to make DNS lookups to the specified server"
+url: "https://github.com/ameshkov/dnslookup"
+bins:
+  - "dnslookup"

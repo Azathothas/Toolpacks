@@ -1,0 +1,5 @@
+name: "htb-cli"
+description: "Interact with Hackthebox using your terminal"
+url: "https://github.com/GoToolSharing/htb-cli"
+bins:
+  - "htb-cli"

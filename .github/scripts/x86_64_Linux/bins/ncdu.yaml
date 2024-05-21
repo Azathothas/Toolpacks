@@ -1,0 +1,5 @@
+name: "ncdu"
+description: "disk usage analyzer"
+url: "https://dev.yorhel.nl"
+bins:
+  - "ncdu"

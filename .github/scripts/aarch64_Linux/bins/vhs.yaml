@@ -1,0 +1,5 @@
+name: "vhs"
+description: "CLI home video recorder \U0001F4FC"
+url: "https://github.com/charmbracelet/vhs"
+bins:
+  - "vhs"

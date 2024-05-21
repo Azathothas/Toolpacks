@@ -1,0 +1,5 @@
+name: "cexec"
+description: "Execute any command, cache its output and get cached output on subsequent execution"
+url: "https://github.com/mrusme/cexec"
+bins:
+  - "cexec"

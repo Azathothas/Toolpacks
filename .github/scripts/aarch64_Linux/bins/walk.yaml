@@ -1,0 +1,5 @@
+name: "walk"
+description: "Terminal file manager"
+url: "https://github.com/antonmedv/walk"
+bins:
+  - "walk"

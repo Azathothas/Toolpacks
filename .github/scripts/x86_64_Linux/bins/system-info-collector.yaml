@@ -1,0 +1,6 @@
+name: "system-info-collector"
+description: "collect ram/cpu usage from OS and show it in pretty graphs"
+url: "https://github.com/qarmin/system-info-collector"
+bins:
+  - "sysinfo-collector"
+  - "system-info-collector iostat mpstat pidstat sa1 sa2 sadc sadf sar sysstat tapestat"

@@ -1,0 +1,5 @@
+name: "cherrybomb"
+description: "Validating and Testing APIs using an OpenAPI file"
+url: "https://github.com/blst-security/cherrybomb"
+bins:
+  - "cherrybomb"

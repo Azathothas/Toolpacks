@@ -1,0 +1,5 @@
+name: "netstat"
+description: ""
+url: "https://sourceforge.net/projects/net-tools/"
+bins:
+  - "netstat nmctl"

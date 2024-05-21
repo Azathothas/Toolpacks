@@ -1,0 +1,5 @@
+name: "Bearer"
+description: "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
+url: "https://github.com/Bearer/bearer"
+bins:
+  - "bearer"

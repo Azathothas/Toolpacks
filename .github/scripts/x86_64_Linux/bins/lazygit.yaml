@@ -1,0 +1,5 @@
+name: "lazygit"
+description: "simple terminal UI for git commands"
+url: "https://github.com/jesseduffield/lazygit"
+bins:
+  - "lazygit"

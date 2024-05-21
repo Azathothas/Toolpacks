@@ -1,0 +1,5 @@
+name: "gron"
+description: "Make JSON greppable!"
+url: "https://github.com/tomnomnom/gron"
+bins:
+  - "gron"

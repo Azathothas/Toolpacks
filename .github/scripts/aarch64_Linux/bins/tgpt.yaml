@@ -1,0 +1,5 @@
+name: "tgpt"
+description: "Access ChatGPT from the comfort of your terminal. No API or config files are needed."
+url: "https://github.com/aandrew-me/tgpt"
+bins:
+  - "tgpt"

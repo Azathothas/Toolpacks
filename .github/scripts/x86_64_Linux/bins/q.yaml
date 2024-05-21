@@ -1,0 +1,5 @@
+name: "q"
+description: "A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH."
+url: "https://github.com/natesales/q"
+bins:
+  - "q"

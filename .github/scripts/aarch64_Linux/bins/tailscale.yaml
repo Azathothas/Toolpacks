@@ -1,0 +1,5 @@
+name: "tailscale"
+description: "The easiest, most secure way to use WireGuard and 2FA"
+url: "https://github.com/tailscale/tailscalehttps://github.com/tailscale/tailscale"
+bins:
+  - " systeroid-tui"

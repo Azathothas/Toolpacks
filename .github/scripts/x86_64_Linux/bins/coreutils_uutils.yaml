@@ -1,0 +1,5 @@
+name: "coreutils"
+description: "Cross-platform Rust rewrite of the GNU coreutils"
+url: "https://github.com/uutils/coreutils"
+bins:
+  - "coreutils"

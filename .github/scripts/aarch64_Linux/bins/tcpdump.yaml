@@ -1,0 +1,5 @@
+name: "tcpdump"
+description: "the TCPdump network dissector"
+url: "https://github.com/the-tcpdump-group/tcpdump"
+bins:
+  - "tcpdump"

@@ -1,0 +1,5 @@
+name: "sshpass"
+description: "Standalone, Minimal HTTP Server"
+url: "https://git.code.sf.net/p/sshpass/code-git"
+bins:
+  - ""

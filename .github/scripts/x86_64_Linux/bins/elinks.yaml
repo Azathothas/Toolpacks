@@ -1,0 +1,6 @@
+name: "elinks"
+description: "Full-Featured Text WWW Browser"
+url: "https://github.com/rkd77/elinks"
+bins:
+  - "elinks"
+  - "elinks-lite"

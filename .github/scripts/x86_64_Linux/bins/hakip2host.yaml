@@ -1,0 +1,5 @@
+name: "hakip2host"
+description: "takes a list of IP addresses via stdin, then does a series of checks to return associated domain names"
+url: "https://github.com/hakluke/hakip2host"
+bins:
+  - "hakip2host"

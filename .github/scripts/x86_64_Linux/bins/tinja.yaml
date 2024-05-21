@@ -1,0 +1,5 @@
+name: "tinja"
+description: "CLI tool for testing web pages for template injection vulnerabilities"
+url: "https://github.com/Hackmanit/TInjA"
+bins:
+  - "tinja"

@@ -1,0 +1,5 @@
+name: "jq"
+description: "Command-line JSON processor"
+url: "https://github.com/jqlang/jq"
+bins:
+  - "jq.exe"

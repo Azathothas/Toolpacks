@@ -1,0 +1,5 @@
+name: "ghfetch"
+description: "octocat  ghfetch is a CLI tool to fetch GitHub user information and show like neofetch."
+url: "https://github.com/orangekame3/ghfetch"
+bins:
+  - "ghfetch"

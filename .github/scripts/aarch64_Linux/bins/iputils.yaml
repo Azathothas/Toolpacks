@@ -1,0 +1,8 @@
+name: "iputils"
+description: "The iputils package is set of small old utilities for Linux networking."
+url: "https://github.com/iputils/iputils"
+bins:
+  - "arping"
+  - "clockdiff"
+  - "ping"
+  - "tracepath"

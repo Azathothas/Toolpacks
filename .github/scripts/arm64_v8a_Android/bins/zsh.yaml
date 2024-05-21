@@ -1,0 +1,5 @@
+name: "zsh"
+description: "Z Shell"
+url: "https://github.com/zsh-users/zsh"
+bins:
+  - "zsh wget_cacert.pem"

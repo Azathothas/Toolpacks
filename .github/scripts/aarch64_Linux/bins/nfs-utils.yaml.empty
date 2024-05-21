@@ -1,0 +1,5 @@
+name: "nfs-utils"
+description: "nfs-common|nfs-utils"
+url: "http://git.linux-nfs.org/?p=steved/nfs-utils.git;a=summary"
+bins:
+  - ""

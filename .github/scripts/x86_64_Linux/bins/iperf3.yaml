@@ -1,0 +1,5 @@
+name: "iperf3"
+description: "A tool for network performance measurement and tuning"
+url: "https://github.com/userdocs/iperf3-static"
+bins:
+  - "iperf3"

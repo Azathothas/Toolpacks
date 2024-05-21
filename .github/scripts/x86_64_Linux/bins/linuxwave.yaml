@@ -1,0 +1,5 @@
+name: "linuxwave"
+description: "Generate music from the entropy of Linux \U0001F427\U0001F3B5"
+url: "https://github.com/orhun/linuxwave"
+bins:
+  - "linuxwave nfs-cp nfs-ls nfs-stat"

@@ -1,0 +1,8 @@
+name: "findutils"
+description: "Rust implementation of findutils"
+url: "https://github.com/uutils/findutils"
+bins:
+  - "find-rs.exe"
+  - "find.exe"
+  - "xargs-rs.exe"
+  - "xargs.exe ffprobe.exe flashfetch.exe"

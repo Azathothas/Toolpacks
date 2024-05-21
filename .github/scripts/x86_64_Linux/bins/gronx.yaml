@@ -1,0 +1,5 @@
+name: "gronx"
+description: "Lightweight, fast and dependency-free Cron expression parser, task runner, job scheduler and/or daemon"
+url: "https://github.com/adhocore/gronx"
+bins:
+  - "gronx-tasker"

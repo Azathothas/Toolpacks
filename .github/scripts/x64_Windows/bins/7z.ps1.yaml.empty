@@ -1,0 +1,5 @@
+name: "7z"
+description: "file archiver with a high compression ratio."
+url: "https://www.7-zip.org"
+bins:
+  - ""

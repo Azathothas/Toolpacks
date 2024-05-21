@@ -1,0 +1,5 @@
+name: "ctlwatcher"
+description: "Monitor Certificate Transparency logs for domains matching regexes."
+url: "https://github.com/Azathothas/ctlwatcher"
+bins:
+  - "ctlwatcher"

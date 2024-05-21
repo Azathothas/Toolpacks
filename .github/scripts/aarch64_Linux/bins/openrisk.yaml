@@ -1,0 +1,5 @@
+name: "openrisk"
+description: "Generates a risk score based on the results of a Nuclei scan"
+url: "https://github.com/projectdiscovery/openrisk"
+bins:
+  - "openrisk"

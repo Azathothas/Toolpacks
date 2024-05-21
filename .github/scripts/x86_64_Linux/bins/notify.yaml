@@ -1,0 +1,5 @@
+name: "notify"
+description: "stream the output of several tools (or read from a file) and send notifications"
+url: "https://github.com/projectdiscovery/notify"
+bins:
+  - "notify"

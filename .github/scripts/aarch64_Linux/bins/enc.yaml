@@ -1,0 +1,5 @@
+name: "enc"
+description: "\U0001F511\U0001F512 A modern and friendly CLI alternative to GnuPG"
+url: "https://github.com/life4/enc"
+bins:
+  - "enc"

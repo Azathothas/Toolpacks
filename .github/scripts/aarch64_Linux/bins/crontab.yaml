@@ -1,0 +1,6 @@
+name: "cron"
+description: ""
+url: "https://www.gnu.org/software/cron/"
+bins:
+  - "cron"
+  - "crontab cronie-cronnext cronie-crontab"

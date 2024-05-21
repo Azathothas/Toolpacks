@@ -1,0 +1,5 @@
+name: "tracexec"
+description: "A small utility for tracing execve{,at} and pre-exec behavior."
+url: "https://github.com/kxxt/tracexec"
+bins:
+  - "tracexec"

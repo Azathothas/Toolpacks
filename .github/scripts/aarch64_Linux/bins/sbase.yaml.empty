@@ -1,0 +1,5 @@
+name: "sbase"
+description: "a collection of unix tools that are portable across unix-systems."
+url: "https://git.suckless.org/sbase"
+bins:
+  - ""

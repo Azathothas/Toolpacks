@@ -1,0 +1,5 @@
+name: "alist"
+description: "A file list/WebDAV program that supports multiple storages"
+url: "https://github.com/alist-org/alist"
+bins:
+  - "alist.exe"

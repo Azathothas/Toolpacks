@@ -1,0 +1,5 @@
+name: "pgweb"
+description: "Cross-platform client for PostgreSQL databases"
+url: "https://github.com/sosedoff/pgweb"
+bins:
+  - "pgweb pgrokd"

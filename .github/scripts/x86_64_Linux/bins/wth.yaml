@@ -1,0 +1,5 @@
+name: "wth"
+description: "What The Heck  The better personal information dashboard for your terminal"
+url: "https://github.com/mrusme/wth"
+bins:
+  - "wth"

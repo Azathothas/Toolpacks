@@ -1,0 +1,5 @@
+name: "sed"
+description: "(stream editor) is a non-interactive command-line text editor"
+url: "https://www.gnu.org/software/sed/"
+bins:
+  - ""

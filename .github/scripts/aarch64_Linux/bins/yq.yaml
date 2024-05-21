@@ -1,0 +1,5 @@
+name: "yq"
+description: "portable command-line YAML, JSON, XML, CSV, TOML and properties processor"
+url: "https://github.com/mikefarah/yq"
+bins:
+  - "yq"

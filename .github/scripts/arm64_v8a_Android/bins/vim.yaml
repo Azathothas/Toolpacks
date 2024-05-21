@@ -1,0 +1,5 @@
+name: "vim"
+description: "Vi IMproved - enhanced vi editor"
+url: "https://github.com/vim/vim"
+bins:
+  - "vim"

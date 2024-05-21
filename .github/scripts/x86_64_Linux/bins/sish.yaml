@@ -1,0 +1,5 @@
+name: "sish"
+description: "HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH."
+url: "https://github.com/antoniomika/sish"
+bins:
+  - "sish"

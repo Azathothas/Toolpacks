@@ -1,0 +1,5 @@
+name: "httpx"
+description: "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes"
+url: "https://github.com/projectdiscovery/httpx"
+bins:
+  - "httpx"

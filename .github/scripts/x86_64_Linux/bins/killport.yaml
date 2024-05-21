@@ -1,0 +1,5 @@
+name: "killport"
+description: "A command-line tool to easily kill processes running on a specified port."
+url: "https://github.com/jkfran/killport"
+bins:
+  - "killport katana_staticx"

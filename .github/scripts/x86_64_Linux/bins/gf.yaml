@@ -1,0 +1,5 @@
+name: "gf"
+description: "A wrapper around grep"
+url: "https://github.com/tomnomnom/gf"
+bins:
+  - "gf"

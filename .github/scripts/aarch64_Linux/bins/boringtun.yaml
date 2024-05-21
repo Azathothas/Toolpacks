@@ -1,0 +1,5 @@
+name: "boringtun-cli"
+description: "Userspace WireGuard® Implementation in Rust"
+url: "https://github.com/cloudflare/boringtun"
+bins:
+  - "boringtun-cli"

@@ -1,0 +1,5 @@
+name: "tut"
+description: "TUI for Mastodon with vim inspired keys"
+url: "https://github.com/RasmusLindroth/tut"
+bins:
+  - "tut"

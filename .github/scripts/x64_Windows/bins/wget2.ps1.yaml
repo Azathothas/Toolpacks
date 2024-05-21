@@ -1,0 +1,5 @@
+name: "wget2"
+description: "The successor of GNU Wget."
+url: "https://github.com/rockdaboot/wget2"
+bins:
+  - "wget2.exe"

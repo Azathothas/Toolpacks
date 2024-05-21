@@ -1,0 +1,5 @@
+name: "vproxy"
+description: "IPv6 Subnet-based Proxy for Generating Random IP Requests"
+url: "https://github.com/gngpp/vproxy"
+bins:
+  - "vproxy"

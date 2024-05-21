@@ -1,0 +1,5 @@
+name: "namegen"
+description: "A unique(ish) random name and id generator"
+url: "https://github.com/anandvarma/namegen"
+bins:
+  - "namegen naabu_staticx"

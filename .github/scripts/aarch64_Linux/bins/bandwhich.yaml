@@ -1,0 +1,5 @@
+name: "Bandwhich"
+description: "Terminal bandwidth utilization tool"
+url: "https://github.com/imsnif/bandwhich"
+bins:
+  - "bandwhich"

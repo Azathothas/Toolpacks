@@ -1,0 +1,5 @@
+name: "V6-unix"
+description: "Old Unix programs running on modern computers."
+url: "https://github.com/rsc/unix"
+bins:
+  - "v6run"

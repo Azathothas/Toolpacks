@@ -1,0 +1,5 @@
+name: "mmv"
+description: "rename multiple files with editor"
+url: "https://github.com/itchyny/mmv"
+bins:
+  - "mmv"

@@ -1,0 +1,5 @@
+name: "zigup"
+description: "Download and manage zig compilers."
+url: "https://github.com/marler8997/zigup"
+bins:
+  - "zigup"

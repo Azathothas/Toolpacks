@@ -1,0 +1,5 @@
+name: "grex"
+description: "A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cases"
+url: "https://github.com/pemistahl/grex"
+bins:
+  - "grex"

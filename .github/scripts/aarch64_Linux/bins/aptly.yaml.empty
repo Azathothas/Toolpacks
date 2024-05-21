@@ -1,0 +1,5 @@
+name: "aptly"
+description: "Debian repository management tool"
+url: "https://github.com/aptly-dev/aptly"
+bins:
+  - ""

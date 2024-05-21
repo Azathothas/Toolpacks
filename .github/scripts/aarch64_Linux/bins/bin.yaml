@@ -1,0 +1,5 @@
+name: "bin"
+description: "Effortless binary manager"
+url: "https://github.com/marcosnils/bin"
+bins:
+  - "bin"

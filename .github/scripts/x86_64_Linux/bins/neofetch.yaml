@@ -1,0 +1,5 @@
+name: "neofetch"
+description: "Updated Fork"
+url: "https://github.com/hykilpikonna/hyfetch"
+bins:
+  - "neofetch"

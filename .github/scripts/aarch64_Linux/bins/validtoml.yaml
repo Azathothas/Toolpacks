@@ -1,0 +1,5 @@
+name: "validtoml"
+description: "simple toml validitor"
+url: "https://github.com/martinlindhe/validtoml"
+bins:
+  - "validtoml"

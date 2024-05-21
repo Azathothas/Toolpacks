@@ -1,0 +1,5 @@
+name: "massdns"
+description: "A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)"
+url: "https://github.com/blechschmidt/massdns"
+bins:
+  - "massdns"

@@ -1,0 +1,5 @@
+name: "cntb"
+description: "Contabo Command Line Interface"
+url: "https://github.com/contabo/cntb"
+bins:
+  - "cntb"

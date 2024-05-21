@@ -1,0 +1,5 @@
+name: "qsv"
+description: "CSVs sliced, diced & analyzed."
+url: "https://github.com/jqnatividad/qsv"
+bins:
+  - "qsv"

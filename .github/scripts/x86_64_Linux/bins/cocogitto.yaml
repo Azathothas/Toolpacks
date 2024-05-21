@@ -1,0 +1,5 @@
+name: "cog"
+description: "The Conventional Commits toolbox"
+url: "https://github.com/cocogitto/cocogitto"
+bins:
+  - "cog"

@@ -1,0 +1,5 @@
+name: "go-simplehttpserver"
+description: "Go alternative of python SimpleHTTPServer"
+url: "https://github.com/projectdiscovery/simplehttpserver"
+bins:
+  - "go-simplehttpserver git-clone git-log git-pull git-tag"

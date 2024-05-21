@@ -1,0 +1,5 @@
+name: "jj"
+description: "A Git-compatible DVCS that is both simple and powerful"
+url: "https://github.com/martinvonz/jj"
+bins:
+  - "jj"

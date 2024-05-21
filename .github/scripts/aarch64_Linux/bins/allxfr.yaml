@@ -1,0 +1,5 @@
+name: "allxfr"
+description: "AXFR all the things!"
+url: "https://github.com/lanrat/allxfr"
+bins:
+  - "allxfr"

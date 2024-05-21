@@ -1,0 +1,5 @@
+name: "jqp"
+description: "TUI for jq"
+url: "https://github.com/noahgorstein/jqp"
+bins:
+  - "jqp"

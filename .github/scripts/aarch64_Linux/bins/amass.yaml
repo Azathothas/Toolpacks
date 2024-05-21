@@ -1,0 +1,5 @@
+name: "amass"
+description: "In-depth attack surface mapping and asset discovery"
+url: "https://github.com/owasp-amass/amass"
+bins:
+  - "amass"

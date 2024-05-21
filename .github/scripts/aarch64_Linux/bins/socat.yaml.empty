@@ -1,0 +1,5 @@
+name: "socat"
+description: "successor to netcat"
+url: "http://www.dest-unreach.org/socat/"
+bins:
+  - ""

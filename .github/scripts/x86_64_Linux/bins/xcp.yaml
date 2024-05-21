@@ -1,0 +1,5 @@
+name: "xcp"
+description: "An extended cp"
+url: "https://github.com/tarka/xcp"
+bins:
+  - "xcp xbps-checkvers xbps-create xbps-dgraph xbps-digest xbps-fbulk xbps-fetch xbps-install xbps-pkgdb xbps-query xbps-reconfigure xbps-remove xbps-rindex xbps-uchroot xbps-uhelper xbps-uunshare"

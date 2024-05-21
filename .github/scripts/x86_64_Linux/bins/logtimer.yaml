@@ -1,0 +1,5 @@
+name: "logtimer"
+description: "Enhance your output with a timer / date"
+url: "https://github.com/Eun/logtimer"
+bins:
+  - "logtimer loclx"

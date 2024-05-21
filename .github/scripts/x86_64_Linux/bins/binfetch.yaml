@@ -1,0 +1,6 @@
+name: "binfetch"
+description: "neofetch for binaries"
+url: "https://github.com/Im-0xea/binfetch"
+bins:
+  - "binfetch"
+  - "binfetch.cfg"

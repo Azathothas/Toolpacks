@@ -1,0 +1,5 @@
+name: "certwatcher"
+description: "CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL."
+url: "https://github.com/drfabiocastro/certwatcher"
+bins:
+  - "certwatcher comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

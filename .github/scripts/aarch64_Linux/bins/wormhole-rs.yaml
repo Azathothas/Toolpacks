@@ -1,0 +1,5 @@
+name: "wormhole-rs"
+description: "Rust implementation of Magic Wormhole, with new features and enhancements"
+url: "https://github.com/magic-wormhole/magic-wormhole.rs"
+bins:
+  - "wormhole-rs"

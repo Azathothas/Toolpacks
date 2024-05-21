@@ -1,0 +1,5 @@
+name: "jaeles"
+description: "The Swiss Army knife for automated Web Application Testing"
+url: "https://github.com/jaeles-project/jaeles"
+bins:
+  - "jaeles"

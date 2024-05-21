@@ -1,0 +1,5 @@
+name: "apkeep"
+description: "command-line tool for downloading APK files from various sources"
+url: "https://github.com/EFForg/apkeep"
+bins:
+  - "apkeep"

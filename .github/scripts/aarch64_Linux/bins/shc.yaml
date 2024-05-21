@@ -1,0 +1,5 @@
+name: "shc"
+description: "Shell script compiler"
+url: "https://github.com/neurobin/shc"
+bins:
+  - "shc"

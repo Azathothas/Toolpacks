@@ -1,0 +1,5 @@
+name: "boxxy"
+description: "boxxy puts bad Linux applications in a box with only their files."
+url: "https://github.com/queer/boxxy"
+bins:
+  - "boxxy"

@@ -1,0 +1,5 @@
+name: "invidtui"
+description: "A TUI based Invidious client"
+url: "https://github.com/darkhz/invidtui"
+bins:
+  - "invidtui interactsh-server comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

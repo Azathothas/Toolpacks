@@ -1,0 +1,5 @@
+name: "zsh"
+description: "The Z shell"
+url: "https://www.zsh.org/"
+bins:
+  - " zoxide"

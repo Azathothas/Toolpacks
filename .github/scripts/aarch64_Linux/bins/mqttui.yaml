@@ -1,0 +1,5 @@
+name: "mqttui"
+description: "Subscribe to a MQTT Topic or publish something quickly from the terminal"
+url: "https://github.com/EdJoPaTo/mqttui"
+bins:
+  - "mqttui"

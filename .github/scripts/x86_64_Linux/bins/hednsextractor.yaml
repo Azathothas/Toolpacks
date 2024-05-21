@@ -1,0 +1,5 @@
+name: "HEDnsExtractor"
+description: "Raw html extractor from Hurricane Electric portal"
+url: "https://github.com/HuntDownProject/HEDnsExtractor"
+bins:
+  - "hednsextractor"

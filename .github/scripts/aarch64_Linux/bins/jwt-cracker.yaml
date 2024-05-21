@@ -1,0 +1,5 @@
+name: "jwt-cracker"
+description: "Faster & Better Cross Platform JWT Cracker"
+url: "https://github.com/Azathothas/jwt-cracker"
+bins:
+  - "jwt-cracker"

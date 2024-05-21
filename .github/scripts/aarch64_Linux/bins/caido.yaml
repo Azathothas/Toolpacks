@@ -1,0 +1,5 @@
+name: "caido"
+description: "A lightweight web security auditing toolkit"
+url: "https://github.com/caido/caido"
+bins:
+  - "caido-cli"

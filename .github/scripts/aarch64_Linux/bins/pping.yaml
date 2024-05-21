@@ -1,0 +1,5 @@
+name: "pping"
+description: "tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping"
+url: "https://github.com/wzv5/pping"
+bins:
+  - "pping"

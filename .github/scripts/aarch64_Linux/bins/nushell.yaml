@@ -1,0 +1,6 @@
+name: "nushell"
+description: "A new type of shell"
+url: "https://github.com/nushell/nushell"
+bins:
+  - "nu"
+  - "nushell migratepages migspeed numactl numademo numastat"

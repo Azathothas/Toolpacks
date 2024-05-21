@@ -1,0 +1,5 @@
+name: "elvish"
+description: "Elvish = Expressive Programming Language + Versatile Interactive Shell"
+url: "https://github.com/elves/elvish"
+bins:
+  - "elvish"

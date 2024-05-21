@@ -1,0 +1,5 @@
+name: "mdcat"
+description: "cat for markdown"
+url: "https://github.com/swsnr/mdcat"
+bins:
+  - "mdcat"

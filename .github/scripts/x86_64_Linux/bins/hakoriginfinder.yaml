@@ -1,0 +1,5 @@
+name: "hakoriginfinder"
+description: "Tool for discovering the origin host behind a reverse proxy"
+url: "https://github.com/hakluke/hakoriginfinder"
+bins:
+  - "hakoriginfinder"

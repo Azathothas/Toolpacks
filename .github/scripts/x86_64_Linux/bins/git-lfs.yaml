@@ -1,0 +1,5 @@
+name: "git-lfs"
+description: "Git extension for versioning large files"
+url: "https://github.com/git-lfs/git-lfs"
+bins:
+  - "git-lfs"

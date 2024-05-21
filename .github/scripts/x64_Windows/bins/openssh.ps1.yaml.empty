@@ -1,0 +1,5 @@
+name: "openssh"
+description: "SSH for Windows"
+url: "https://github.com/PowerShell/Win32-OpenSSH"
+bins:
+  - ""

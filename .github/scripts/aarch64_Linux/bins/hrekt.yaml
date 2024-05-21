@@ -1,0 +1,5 @@
+name: "hrekt"
+description: "A really fast http prober."
+url: "https://github.com/ethicalhackingplayground/hrekt"
+bins:
+  - "hrekt"

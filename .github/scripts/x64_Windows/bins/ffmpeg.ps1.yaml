@@ -1,0 +1,6 @@
+name: "ffmpeg"
+description: "A complete, cross-platform solution to record, convert and stream audio and video."
+url: "https://ffmpeg.org"
+bins:
+  - "ffmpeg.exe"
+  - "ffprobe.exe flashfetch.exe"

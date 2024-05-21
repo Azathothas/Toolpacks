@@ -1,0 +1,5 @@
+name: "gitlab-subdomains"
+description: "Find subdomains on Gitlab"
+url: "https://github.com/gwen001/gitlab-subdomains"
+bins:
+  - "gitlab-subdomains"

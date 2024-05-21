@@ -1,0 +1,5 @@
+name: "procps"
+description: "Utilities that give information about processes using the /proc filesystem"
+url: "https://gitlab.com/procps-ng/procps"
+bins:
+  - ""

@@ -1,0 +1,5 @@
+name: "flawz"
+description: "A Terminal UI for browsing security vulnerabilities (CVEs)"
+url: "https://github.com/orhun/flawz"
+bins:
+  - ""

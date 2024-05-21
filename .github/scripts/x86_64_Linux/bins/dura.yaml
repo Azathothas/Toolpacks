@@ -1,0 +1,5 @@
+name: "dura"
+description: "Dura is a background process that watches your Git repositories and commits your uncommitted changes without impacting HEAD, the current branch, or the Git index (staged files)"
+url: "https://github.com/tkellogg/dura"
+bins:
+  - "dura"

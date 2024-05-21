@@ -1,0 +1,5 @@
+name: "nmapurls"
+description: "parses Nmap xml reports and outputs a list of http(s) URLs"
+url: "https://github.com/sdcampbell/nmapurls"
+bins:
+  - "nmapurls nmap nping"

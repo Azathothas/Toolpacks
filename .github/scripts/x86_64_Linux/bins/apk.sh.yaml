@@ -1,0 +1,5 @@
+name: "apk.sh"
+description: "apk.sh makes reverse engineering Android apps easier"
+url: "https://github.com/ax/apk.sh"
+bins:
+  - "apk.sh"

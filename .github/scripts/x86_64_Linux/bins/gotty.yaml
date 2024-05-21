@@ -1,0 +1,5 @@
+name: "gotty"
+description: "Share your terminal as a web application"
+url: "https://github.com/sorenisanerd/gotty"
+bins:
+  - "gotty"

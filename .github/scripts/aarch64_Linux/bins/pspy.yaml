@@ -1,0 +1,5 @@
+name: "pspy"
+description: "Monitor linux processes without root permissions"
+url: "https://github.com/DominicBreuker/pspy"
+bins:
+  - "pspy"

@@ -1,0 +1,5 @@
+name: "mubeng"
+description: "An incredibly fast proxy checker & IP rotator with ease"
+url: "https://github.com/kitabisa/mubeng"
+bins:
+  - "mubeng"

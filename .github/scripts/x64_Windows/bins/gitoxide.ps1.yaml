@@ -1,0 +1,5 @@
+name: "gitoxide"
+description: "file archiver with a high compression ratio."
+url: "https://github.com/Byron/gitoxide"
+bins:
+  - " geoping.exe"

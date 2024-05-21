@@ -1,0 +1,5 @@
+name: "broot"
+description: "A new way to see and navigate directory trees"
+url: "https://github.com/Canop/broot"
+bins:
+  - "broot"

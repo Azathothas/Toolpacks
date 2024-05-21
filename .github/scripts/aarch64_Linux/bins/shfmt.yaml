@@ -1,0 +1,5 @@
+name: "shfmt"
+description: "A shell parser, formatter, and interpreter with bash support; includes shfmt"
+url: "https://github.com/mvdan/sh"
+bins:
+  - "shfmt"

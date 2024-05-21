@@ -1,0 +1,5 @@
+name: "gguf-tools"
+description: "GGUF implementation in C as a library and a tools CLI program"
+url: "https://github.com/antirez/gguf-tools"
+bins:
+  - ""

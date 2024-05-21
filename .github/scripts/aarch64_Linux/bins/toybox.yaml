@@ -1,0 +1,5 @@
+name: "toybox"
+description: "minimal busybox"
+url: "https://github.com/landley/toybox"
+bins:
+  - "toybox"

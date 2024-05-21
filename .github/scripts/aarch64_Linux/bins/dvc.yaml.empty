@@ -1,0 +1,5 @@
+name: "dvc"
+description: "\U0001F989 ML Experiments Management with Git"
+url: "https://github.com/iterative/dvc"
+bins:
+  - ""

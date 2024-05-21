@@ -1,0 +1,5 @@
+name: "termshark"
+description: "A terminal UI for tshark, inspired by Wireshark."
+url: "https://github.com/gcla/termshark"
+bins:
+  - "termshark"

@@ -1,0 +1,5 @@
+name: "wget"
+description: ""
+url: "https://www.gnu.org/software/wget/"
+bins:
+  - "wget strip-ansi-escapes sync-color-schemes wezterm wezterm-mux-server"

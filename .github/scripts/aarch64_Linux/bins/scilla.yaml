@@ -1,0 +1,5 @@
+name: "scilla"
+description: "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration"
+url: "https://github.com/edoardottt/scilla"
+bins:
+  - "scilla"

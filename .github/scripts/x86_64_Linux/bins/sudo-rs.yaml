@@ -1,0 +1,7 @@
+name: "sudo-rs"
+description: "A memory safe implementation of sudo and su."
+url: "https://github.com/memorysafety/sudo-rs"
+bins:
+  - "su-rs"
+  - "sudo-rs"
+  - "visudo-rs comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

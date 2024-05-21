@@ -1,0 +1,5 @@
+name: "busybox"
+description: "a software suite that provides several Unix utilities in a single executable file"
+url: "https://joeyh.name/code/busybox/"
+bins:
+  - "busybox"

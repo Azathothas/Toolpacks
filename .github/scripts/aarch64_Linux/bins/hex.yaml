@@ -1,0 +1,5 @@
+name: "hex(hx)"
+description: "\U0001F52E Futuristic take on hexdump, made in Rust."
+url: "https://github.com/sitkevij/hex"
+bins:
+  - "hx"

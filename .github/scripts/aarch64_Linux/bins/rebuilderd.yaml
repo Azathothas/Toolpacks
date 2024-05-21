@@ -1,0 +1,5 @@
+name: "rebuilderd"
+description: "Independent verification of binary packages - reproducible builds"
+url: "https://github.com/kpcyrd/rebuilderd"
+bins:
+  - "rebuilderd-worker"

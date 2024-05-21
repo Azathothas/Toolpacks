@@ -1,0 +1,5 @@
+name: "lit-bb-hack-tools"
+description: "misc bb tools"
+url: "https://github.com/edoardottt/lit-bb-hack-tools"
+bins:
+  - "bbscope"

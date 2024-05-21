@@ -1,0 +1,5 @@
+name: "crawley"
+description: "The unix-way web crawler"
+url: "https://github.com/s0rg/crawley"
+bins:
+  - "crawley"
