@@ -538,7 +538,9 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Run
-          bash "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/.scripts/gen_meta.sh"
+          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
+          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -594,7 +596,9 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Run
-          bash "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/.scripts/gen_meta.sh"
+          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
+          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -650,7 +654,9 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Run
-          bash "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/.scripts/gen_meta.sh"
+          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
+          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -706,7 +712,9 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Run
-          bash "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/.scripts/gen_meta.sh"
+          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
+          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
