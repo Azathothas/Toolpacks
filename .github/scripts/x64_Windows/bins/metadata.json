@@ -9,10 +9,28 @@
     "Repo": null
   },
   {
+    "Name": "7z.ps1.yaml.empty",
+    "Size": "113 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/7z.ps1.yaml.empty",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "actionlint.ps1",
     "Size": "1919 B",
     "ModTime": "2024-03-30T05:51:53.208182897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/actionlint.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "actionlint.ps1.yaml",
+    "Size": "162 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/actionlint.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -27,10 +45,28 @@
     "Repo": null
   },
   {
+    "Name": "age.ps1.yaml",
+    "Size": "133 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/age.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "algernon.ps1",
     "Size": "1965 B",
     "ModTime": "2024-04-07T14:02:03.234852416Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/algernon.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "algernon.ps1.yaml",
+    "Size": "209 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/algernon.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -45,10 +81,28 @@
     "Repo": null
   },
   {
+    "Name": "alist.ps1.yaml",
+    "Size": "152 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/alist.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "anew-rs.ps1",
     "Size": "3222 B",
     "ModTime": "2024-04-03T07:02:28.823136897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/anew-rs.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "anew-rs.ps1.yaml",
+    "Size": "175 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/anew-rs.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -63,10 +117,28 @@
     "Repo": null
   },
   {
+    "Name": "b3sum.ps1.yaml",
+    "Size": "187 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/b3sum.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "batcat.ps1",
     "Size": "1994 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/batcat.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "batcat.ps1.yaml",
+    "Size": "141 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/batcat.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -81,10 +153,28 @@
     "Repo": null
   },
   {
+    "Name": "botsay.ps1.yaml",
+    "Size": "215 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/botsay.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "brook.ps1",
     "Size": "1889 B",
     "ModTime": "2024-05-11T21:02:36.167096676Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/brook.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "brook.ps1.yaml",
+    "Size": "137 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/brook.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -99,10 +189,28 @@
     "Repo": null
   },
   {
+    "Name": "brutespray.ps1.yaml",
+    "Size": "137 B",
+    "ModTime": "2024-05-21T11:18:37.204464331Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/brutespray.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "busybox.ps1",
     "Size": "2416 B",
     "ModTime": "2024-03-30T21:01:20.960105774Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "busybox.ps1.yaml.empty",
+    "Size": "132 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.ps1.yaml.empty",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -117,10 +225,28 @@
     "Repo": null
   },
   {
+    "Name": "cheat.ps1.yaml",
+    "Size": "149 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cheat.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "cloudflared.ps1",
     "Size": "1918 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cloudflared.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "cloudflared.ps1.yaml",
+    "Size": "160 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cloudflared.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -135,10 +261,28 @@
     "Repo": null
   },
   {
+    "Name": "coreutils_uutils.ps1.yaml",
+    "Size": "1349 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "croc.ps1",
     "Size": "1941 B",
     "ModTime": "2024-04-07T14:02:03.234852416Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/croc.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "croc.ps1.yaml",
+    "Size": "912 B",
+    "ModTime": "2024-05-21T11:18:37.204464331Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/croc.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -153,10 +297,28 @@
     "Repo": null
   },
   {
+    "Name": "curl.ps1.yaml",
+    "Size": "112 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/curl.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "cutlines.ps1",
     "Size": "2574 B",
     "ModTime": "2024-04-27T14:01:19.828974139Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cutlines.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "cutlines.ps1.yaml",
+    "Size": "248 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cutlines.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -171,10 +333,28 @@
     "Repo": null
   },
   {
+    "Name": "dbbench.ps1.yaml",
+    "Size": "220 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dbbench.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "ddns-go.ps1",
     "Size": "1914 B",
     "ModTime": "2024-05-11T21:02:36.167096676Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ddns-go.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ddns-go.ps1.yaml",
+    "Size": "125 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ddns-go.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -189,10 +369,28 @@
     "Repo": null
   },
   {
+    "Name": "dependency_runner.ps1.yaml",
+    "Size": "209 B",
+    "ModTime": "2024-05-21T11:18:37.204464331Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dependency_runner.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "dua.ps1",
     "Size": "1915 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dua.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dua.ps1.yaml",
+    "Size": "159 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dua.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -207,10 +405,28 @@
     "Repo": null
   },
   {
+    "Name": "dufs.ps1.yaml",
+    "Size": "180 B",
+    "ModTime": "2024-05-21T11:18:37.212464313Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dufs.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "dust.ps1",
     "Size": "1895 B",
     "ModTime": "2024-04-07T14:02:03.234852416Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dust.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "dust.ps1.yaml",
+    "Size": "128 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/dust.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -225,10 +441,28 @@
     "Repo": null
   },
   {
+    "Name": "eget.ps1.yaml",
+    "Size": "135 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/eget.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "err.ps1",
     "Size": "2556 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/err.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "err.ps1.yaml",
+    "Size": "276 B",
+    "ModTime": "2024-05-21T11:18:37.212464313Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/err.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -243,10 +477,28 @@
     "Repo": null
   },
   {
+    "Name": "fastfetch.ps1.yaml",
+    "Size": "183 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/fastfetch.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "ffmpeg.ps1",
     "Size": "2532 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ffmpeg.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ffmpeg.ps1.yaml",
+    "Size": "195 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ffmpeg.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -261,10 +513,28 @@
     "Repo": null
   },
   {
+    "Name": "findutils_uutils.ps1.yaml",
+    "Size": "210 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/findutils_uutils.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "gdu.ps1",
     "Size": "1902 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/gdu.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "gdu.ps1.yaml",
+    "Size": "212 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/gdu.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -279,10 +549,28 @@
     "Repo": null
   },
   {
+    "Name": "geonet.ps1.yaml",
+    "Size": "201 B",
+    "ModTime": "2024-05-21T11:18:37.212464313Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/geonet.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "gitoxide.ps1",
     "Size": "2659 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/gitoxide.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "gitoxide.ps1.yaml",
+    "Size": "143 B",
+    "ModTime": "2024-05-21T11:18:37.204464331Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/gitoxide.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -297,10 +585,28 @@
     "Repo": null
   },
   {
+    "Name": "gost.ps1.yaml.empty",
+    "Size": "191 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/gost.ps1.yaml.empty",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "hyperfine.ps1",
     "Size": "1907 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/hyperfine.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "hyperfine.ps1.yaml",
+    "Size": "136 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/hyperfine.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -315,10 +621,28 @@
     "Repo": null
   },
   {
+    "Name": "inscope.ps1.yaml",
+    "Size": "249 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/inscope.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "iperf3.ps1",
     "Size": "3876 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/iperf3.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "iperf3.ps1.yaml",
+    "Size": "192 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/iperf3.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -333,10 +657,28 @@
     "Repo": null
   },
   {
+    "Name": "jq.ps1.yaml",
+    "Size": "109 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/jq.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "jwt-cracker.ps1",
     "Size": "2656 B",
     "ModTime": "2024-04-04T14:01:31.865951910Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/jwt-cracker.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "jwt-cracker.ps1.yaml",
+    "Size": "155 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/jwt-cracker.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -351,6 +693,15 @@
     "Repo": null
   },
   {
+    "Name": "legba.ps1.yaml",
+    "Size": "180 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/legba.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "localxpose.ps1",
     "Size": "2598 B",
     "ModTime": "2024-05-05T14:01:18.940757488Z",
@@ -360,9 +711,18 @@
     "Repo": null
   },
   {
+    "Name": "localxpose.ps1.yaml.empty",
+    "Size": "150 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/localxpose.ps1.yaml.empty",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "metadata.json",
     "Size": "17.21 kB",
-    "ModTime": "2024-05-21T06:57:57.975990341Z",
+    "ModTime": "2024-05-21T07:10:19.803755706Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json",
     "B3SUM": null,
     "SHA256": null,
@@ -378,10 +738,28 @@
     "Repo": null
   },
   {
+    "Name": "micro.ps1.yaml",
+    "Size": "142 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/micro.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "miniserve.ps1",
     "Size": "1888 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/miniserve.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "miniserve.ps1.yaml",
+    "Size": "117 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/miniserve.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -396,10 +774,28 @@
     "Repo": null
   },
   {
+    "Name": "monolith.ps1.yaml",
+    "Size": "164 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/monolith.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "ngrok.ps1",
     "Size": "2748 B",
     "ModTime": "2024-05-05T14:01:18.940757488Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ngrok.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ngrok.ps1.yaml.empty",
+    "Size": "103 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ngrok.ps1.yaml.empty",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -414,10 +810,28 @@
     "Repo": null
   },
   {
+    "Name": "openssh.ps1.yaml.empty",
+    "Size": "111 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/openssh.ps1.yaml.empty",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "pandoc.ps1",
     "Size": "1872 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pandoc.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pandoc.ps1.yaml",
+    "Size": "117 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pandoc.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -432,10 +846,28 @@
     "Repo": null
   },
   {
+    "Name": "pdfcpu.ps1.yaml",
+    "Size": "107 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pdfcpu.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "pgrok.ps1",
     "Size": "2101 B",
     "ModTime": "2024-04-05T14:01:37.282310985Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pgrok.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pgrok.ps1.yaml",
+    "Size": "187 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pgrok.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -450,10 +882,28 @@
     "Repo": null
   },
   {
+    "Name": "pingmole.ps1.yaml",
+    "Size": "180 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pingmole.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "pingtunnel.ps1",
     "Size": "1918 B",
     "ModTime": "2024-05-11T21:02:36.167096676Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pingtunnel.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "pingtunnel.ps1.yaml",
+    "Size": "162 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pingtunnel.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -468,10 +918,28 @@
     "Repo": null
   },
   {
+    "Name": "quotes-escaper.ps1.yaml",
+    "Size": "182 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/quotes-escaper.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "ripgrep.ps1",
     "Size": "2240 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ripgrep.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "ripgrep.ps1.yaml",
+    "Size": "139 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ripgrep.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -486,10 +954,28 @@
     "Repo": null
   },
   {
+    "Name": "shell2http.ps1.yaml",
+    "Size": "145 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/shell2http.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "sing-box.ps1",
     "Size": "1916 B",
     "ModTime": "2024-05-05T14:01:18.940757488Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/sing-box.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "sing-box.ps1.yaml",
+    "Size": "130 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/sing-box.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -504,10 +990,28 @@
     "Repo": null
   },
   {
+    "Name": "sish.ps1.yaml",
+    "Size": "147 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/sish.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "smartdns-rs.ps1",
     "Size": "2066 B",
     "ModTime": "2024-05-11T21:02:36.167096676Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/smartdns-rs.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "smartdns-rs.ps1.yaml",
+    "Size": "255 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/smartdns-rs.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -522,10 +1026,28 @@
     "Repo": null
   },
   {
+    "Name": "step.ps1.yaml",
+    "Size": "180 B",
+    "ModTime": "2024-05-21T11:18:37.212464313Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/step.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "stunner.ps1",
     "Size": "1915 B",
     "ModTime": "2024-05-11T21:02:36.167096676Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/stunner.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "stunner.ps1.yaml",
+    "Size": "161 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/stunner.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -540,10 +1062,28 @@
     "Repo": null
   },
   {
+    "Name": "tssh.ps1.yaml",
+    "Size": "256 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/tssh.ps1.yaml",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "wget2.ps1",
     "Size": "1870 B",
     "ModTime": "2024-03-30T05:51:53.208182897Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/wget2.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "wget2.ps1.yaml",
+    "Size": "121 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/wget2.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
@@ -558,10 +1098,28 @@
     "Repo": null
   },
   {
+    "Name": "xpdf-tools.ps1.yaml.empty",
+    "Size": "102 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/xpdf-tools.ps1.yaml.empty",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "yt-dlp.ps1",
     "Size": "1903 B",
     "ModTime": "2024-03-30T11:12:21.026062227Z",
     "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/yt-dlp.ps1",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
+    "Name": "yt-dlp.ps1.yaml",
+    "Size": "144 B",
+    "ModTime": "2024-05-21T11:18:37.208464323Z",
+    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/yt-dlp.ps1.yaml",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
