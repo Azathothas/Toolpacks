@@ -10,7 +10,7 @@
  YAML_DIR="$(mktemp -d)" && export YAML_DIR="${YAML_DIR}"
  CWD="$(realpath .)" && export CWD="${CWD}"
  #Get URlS
- curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
+ curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json" | jq -r '.[].source_url' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
  #Metadata
  curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$SYSTMP/METADATA.json"
  curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/METADATA_BASEUTILS.json"
@@ -57,7 +57,7 @@ for BUILD_URL in $(cat "$SYSTMP/BUILDURLS"); do
          export REPO_URL=""
     fi
    #Bin
-    BIN_ARRAY="$(cat $SYSTMP/METADATA.json | jq -r --arg WEB_URL "$WEB_URL" '.[] | select(.Repo == $WEB_URL) | .Name' | sed 's/`//g' | sort -u)" && export BIN_ARRAY="${BIN_ARRAY[@]}"
+    BIN_ARRAY="$(cat $SYSTMP/METADATA.json | jq -r --arg WEB_URL "$WEB_URL" '.[] | select(.web_url == $WEB_URL) | .Name' | sed 's/`//g' | sort -u)" && export BIN_ARRAY="${BIN_ARRAY[@]}"
     echo "BIN : ${BIN_ARRAY//[$'\n']/ }"
    #Generate YAML 
     readarray -t BIN_ARRAY <<< "${BIN_ARRAY}"

@@ -6,13 +6,13 @@ SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
 rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
 BUILDYAML="$(mktemp --tmpdir=$SYSTMP XXXXX.yaml)" && export BUILDYAML="$BUILDYAML"
 #Get URlS
-curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json" | jq -r '.[].source_url' | sed 's/\.sh$/\.yaml/' | grep -i '\.yaml$' | sort -u -o "$SYSTMP/BUILDURLS"
-#Get METADATA.json (bin.ajam.dev/x86_64_Linux)
-curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json" || curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$SYSTMP/RCLONE/METADATA.json"
+curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json" | jq -r '.[].source_url' | sed 's/\.sh$/\.yaml/' | grep -i '\.yaml$' | sort -u -o "$SYSTMP/BUILDURLS"
+#Get METADATA.json (bin.ajam.dev/aarch64_arm64_Linux)
+curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json" || curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$SYSTMP/RCLONE/METADATA.json"
 #Get BLAKE3SUM.txt
-curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BLAKE3SUM.txt" -o "$SYSTMP/RCLONE/BLAKE3SUM.txt"
+curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/BLAKE3SUM.txt" -o "$SYSTMP/RCLONE/BLAKE3SUM.txt"
 #Get SHA256SUM.txt
-curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/SHA256SUM.txt" -o "$SYSTMP/RCLONE/SHA256SUM.txt"
+curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/SHA256SUM.txt" -o "$SYSTMP/RCLONE/SHA256SUM.txt"
 ##Sanity
 if [[ -n "$GITHUB_TOKEN" ]]; then
    echo -e "\n[+] GITHUB_TOKEN is Exported"
@@ -134,8 +134,8 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
 #-------------------------------------------------------#
 #Update R2
 echo -e "\n Updating Metadata.json\n"
-rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/x86_64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
-rclone delete "r2:/bin/x86_64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/aarch64_arm64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+rclone delete "r2:/bin/aarch64_arm64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
 #Clean & Purge
 sudo rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
 #-------------------------------------------------------#

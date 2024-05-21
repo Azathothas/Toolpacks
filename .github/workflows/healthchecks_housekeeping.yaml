@@ -9,7 +9,6 @@ on:
    - cron: "0 */7 * * *"  # Every 07 Hrs
 
 env:
-  USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
   RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   R2_PUB_REPO: "https://pub.ajam.dev/repos/Azathothas/Toolpacks"
@@ -96,6 +95,21 @@ jobs:
           #--------------#
           cd "$GITHUB_WORKSPACE/main"
           find ".github" -type f -name '*.sh' -exec shellcheck --severity=error {} \; 2>/dev/null | tee "$GITHUB_WORKSPACE/main/.github/shellcheck.txt"
+        continue-on-error: true
+
+      - name: YAMLint
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins"
+          find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins"
+          find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins"
+          find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins"
+          find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       - name: rClone BackUp Repo-I ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
@@ -523,52 +537,9 @@ jobs:
           # Presets
           set +x ; set +e
           #--------------#
-          #TMPDIRS
-           #For script-cache
-           rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
-           BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
-           #Get URlS
-           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
-           #Get METADATA.json (bin.ajam.dev/arm64_v8a_Android)
-           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
-           #Get BLAKE3SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/BLAKE3SUM.txt" -o "$SYSTMP/RCLONE/BLAKE3SUM.txt"
-           #Get SHA256SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM.txt" -o "$SYSTMP/RCLONE/SHA256SUM.txt"
-           #Run
-            echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
-             for BUILD_URL in $(cat "$SYSTMP/BUILDURLS" | sed 's/"//g'); do
-               echo -e "\n[+] Fetching : $BUILD_URL"
-                 curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
-                #export SOURCE_URL=
-                 cat "$BUILDSCRIPT" | grep -o 'export SOURCE_URL="\([^"]*\)"' | sed 's/export SOURCE_URL="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/SOURCE.txt"
-                 REPO_URL="$(cat $SYSTMP/RCLONE/SOURCE.txt)" && export REPO_URL="$REPO_URL"
-                #export BIN= 
-                 cat "$BUILDSCRIPT" | grep -o 'export BIN="\([^"]*\)"' | sed 's/export BIN="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/BINS.txt"
-                #$BINDIR/*()
-                 cat "$BUILDSCRIPT" | grep -i "\$BINDIR" | sed -n '/\$BINDIR\/\$BIN/! s/.*"\(\$BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
-                 sort -u "$SYSTMP/RCLONE/BINS.txt" -o "$SYSTMP/RCLONE/BINS.txt"
-                #Merge with json
-                 for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g'); do
-                  #BSUM
-                   B3SUM="$(cat "$SYSTMP/RCLONE/BLAKE3SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export B3SUM="$B3SUM"
-                   jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .Name == $BIN then . + {B3SUM: $B3SUM} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #SHA256SUM
-                   SHA256="$(cat "$SYSTMP/RCLONE/SHA256SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export SHA256="$SHA256"
-                   jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .Name == $BIN then . + {SHA256: $SHA256} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Repo URLs
-                   jq --arg BIN "$BIN" --arg REPO_URL "$REPO_URL" '.[] |= if .Name == $BIN then . + {Repo: $REPO_URL} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Print json
-                  echo -e "\n\n" && jq --arg BIN "$BIN" '.[] | select(.Name == $BIN)' "$SYSTMP/RCLONE/METADATA.json" && echo -e "\n\n" 
-                 done
-            done
-          #Update R2
-           echo -e "\n Updating Metadata.json\n"
-           rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/arm64_v8a_Android/METADATA.json" --check-first --checkers 2000 --transfers 1000
-           rclone delete "r2:/bin/arm64_v8a_Android/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000
-          #Clean & Purge
-           sudo rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
-        continue-on-error: true     
+          ##Run
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/.scripts/gen_meta.sh"
+        continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
 
@@ -622,52 +593,9 @@ jobs:
           # Presets
           set +x ; set +e
           #--------------#
-          #TMPDIRS
-           #For script-cache
-           rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
-           BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
-           #Get URlS
-           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
-           #Get METADATA.json (bin.ajam.dev/aarch64_arm64_Linux)
-           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
-           #Get BLAKE3SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/BLAKE3SUM.txt" -o "$SYSTMP/RCLONE/BLAKE3SUM.txt"
-           #Get SHA256SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/SHA256SUM.txt" -o "$SYSTMP/RCLONE/SHA256SUM.txt"
-           #Run
-            echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
-             for BUILD_URL in $(cat "$SYSTMP/BUILDURLS" | sed 's/"//g'); do
-               echo -e "\n[+] Fetching : $BUILD_URL"
-                 curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
-                #export SOURCE_URL=
-                 cat "$BUILDSCRIPT" | grep -o 'export SOURCE_URL="\([^"]*\)"' | sed 's/export SOURCE_URL="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/SOURCE.txt"
-                 REPO_URL="$(cat $SYSTMP/RCLONE/SOURCE.txt)" && export REPO_URL="$REPO_URL"
-                #export BIN= 
-                 cat "$BUILDSCRIPT" | grep -o 'export BIN="\([^"]*\)"' | sed 's/export BIN="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/BINS.txt"
-                #$BINDIR/*()
-                 cat "$BUILDSCRIPT" | grep -i "\$BINDIR" | sed -n '/\$BINDIR\/\$BIN/! s/.*"\(\$BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
-                 sort -u "$SYSTMP/RCLONE/BINS.txt" -o "$SYSTMP/RCLONE/BINS.txt"
-                #Merge with json
-                 for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g'); do
-                  #BSUM
-                   B3SUM="$(cat "$SYSTMP/RCLONE/BLAKE3SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export B3SUM="$B3SUM"
-                   jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .Name == $BIN then . + {B3SUM: $B3SUM} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #SHA256SUM
-                   SHA256="$(cat "$SYSTMP/RCLONE/SHA256SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export SHA256="$SHA256"
-                   jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .Name == $BIN then . + {SHA256: $SHA256} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Repo URLs
-                   jq --arg BIN "$BIN" --arg REPO_URL "$REPO_URL" '.[] |= if .Name == $BIN then . + {Repo: $REPO_URL} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Print json
-                  echo -e "\n\n" && jq --arg BIN "$BIN" '.[] | select(.Name == $BIN)' "$SYSTMP/RCLONE/METADATA.json" && echo -e "\n\n" 
-                 done
-            done
-          #Update R2
-           echo -e "\n Updating Metadata.json\n"
-           rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/aarch64_arm64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000
-           rclone delete "r2:/bin/aarch64_arm64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000
-          #Clean & Purge
-           sudo rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
-        continue-on-error: true     
+          ##Run
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/.scripts/gen_meta.sh"
+        continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
 
@@ -721,51 +649,8 @@ jobs:
           # Presets
           set +x ; set +e
           #--------------#
-          #TMPDIRS
-           #For script-cache
-           rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
-           BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.sh)" && export BUILDSCRIPT="$BUILDSCRIPT"
-           #Get URlS
-           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
-           #Get METADATA.json (bin.ajam.dev/x86_64_Linux)
-           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
-           #Get BLAKE3SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BLAKE3SUM.txt" -o "$SYSTMP/RCLONE/BLAKE3SUM.txt"
-           #Get SHA256SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/SHA256SUM.txt" -o "$SYSTMP/RCLONE/SHA256SUM.txt"
-           #Run
-            echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
-             for BUILD_URL in $(cat "$SYSTMP/BUILDURLS" | sed 's/"//g'); do
-               echo -e "\n[+] Fetching : $BUILD_URL"
-                 curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
-                #export SOURCE_URL=
-                 cat "$BUILDSCRIPT" | grep -o 'export SOURCE_URL="\([^"]*\)"' | sed 's/export SOURCE_URL="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/SOURCE.txt"
-                 REPO_URL="$(cat $SYSTMP/RCLONE/SOURCE.txt)" && export REPO_URL="$REPO_URL"
-                #export BIN= 
-                 cat "$BUILDSCRIPT" | grep -o 'export BIN="\([^"]*\)"' | sed 's/export BIN="\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/BINS.txt"
-                #$BINDIR/*()
-                 cat "$BUILDSCRIPT" | grep -i "\$BINDIR" | sed -n '/\$BINDIR\/\$BIN/! s/.*"\(\$BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
-                 sort -u "$SYSTMP/RCLONE/BINS.txt" -o "$SYSTMP/RCLONE/BINS.txt"
-                #Merge with json
-                 for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g'); do
-                  #BSUM
-                   B3SUM="$(cat "$SYSTMP/RCLONE/BLAKE3SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export B3SUM="$B3SUM"
-                   jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .Name == $BIN then . + {B3SUM: $B3SUM} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #SHA256SUM
-                   SHA256="$(cat "$SYSTMP/RCLONE/SHA256SUM.txt" | grep -i "\.\/$BIN$" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export SHA256="$SHA256"
-                   jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .Name == $BIN then . + {SHA256: $SHA256} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Repo URLs
-                   jq --arg BIN "$BIN" --arg REPO_URL "$REPO_URL" '.[] |= if .Name == $BIN then . + {Repo: $REPO_URL} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Print json
-                  echo -e "\n\n" && jq --arg BIN "$BIN" '.[] | select(.Name == $BIN)' "$SYSTMP/RCLONE/METADATA.json" && echo -e "\n\n" 
-                 done
-            done
-          #Update R2
-           echo -e "\n Updating Metadata.json\n"
-           rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/x86_64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000 
-           rclone delete "r2:/bin/x86_64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000
-          #Clean & Purge
-           sudo rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
+          ##Run
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/.scripts/gen_meta.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -820,52 +705,8 @@ jobs:
           # Presets
           set +x ; set +e
           #--------------#
-          #TMPDIRS
-           #For script-cache
-           rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
-           BUILDSCRIPT="$(mktemp --tmpdir=$SYSTMP XXXXX_build.ps1)" && export BUILDSCRIPT="$BUILDSCRIPT"
-           #Get URlS
-           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json" | jq -r '.[].Source' | grep -i "\.ps1$" | sort -u -o "$SYSTMP/BUILDURLS"
-           #Get METADATA.json (bin.ajam.dev/x64_Windows)
-           curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json.tmp" -o "$SYSTMP/RCLONE/METADATA.json"
-           #Get BLAKE3SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/x64_Windows/BLAKE3SUM.txt" -o "$SYSTMP/RCLONE/BLAKE3SUM.txt"
-           #Get SHA256SUM.txt
-           curl -qfsSL "https://bin.ajam.dev/x64_Windows/SHA256SUM.txt" -o "$SYSTMP/RCLONE/SHA256SUM.txt"
-           #Run
-            echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
-             for BUILD_URL in $(cat "$SYSTMP/BUILDURLS" | sed 's/"//g'); do
-               echo -e "\n[+] Fetching : $BUILD_URL"
-                 curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
-                #export SOURCE_URL=
-                 cat "$BUILDSCRIPT" | grep -o '$env:SOURCE_URL = "\([^"]*\)"' | sed 's/$env:SOURCE_URL = "\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/SOURCE.txt"
-                 REPO_URL="$(cat $SYSTMP/RCLONE/SOURCE.txt)" && export REPO_URL="$REPO_URL"
-                #export BIN= 
-                 cat "$BUILDSCRIPT" | grep -o '$env:BIN = "\([^"]*\)"' | sed 's/$env:BIN = "\(.*\)"/\1/' | sed 's/ //g' > "$SYSTMP/RCLONE/BINS.txt"
-                #$BINDIR/*()
-                 cat "$BUILDSCRIPT" | grep -i "\$env:BINDIR" | sed -n '/\$env:BINDIR\/\$env:BIN/! s/.*"\(\$env:BINDIR\/[^"]*\)".*/\1/p' | awk -F'/' '{print $NF}' | sed 's/ //g' >> "$SYSTMP/RCLONE/BINS.txt"
-                 sort -u "$SYSTMP/RCLONE/BINS.txt" -o "$SYSTMP/RCLONE/BINS.txt"
-                #Merge with json
-                 #for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g' | sed 's/\.exe//g' | sed 's/"//g'); do
-                  for BIN in $(cat "$SYSTMP/RCLONE/BINS.txt" | sed 's/"//g'); do
-                  #BSUM
-                   B3SUM="$(cat "$SYSTMP/RCLONE/BLAKE3SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export B3SUM="$B3SUM"
-                   jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .Name == $BIN then . + {B3SUM: $B3SUM} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #SHA256SUM
-                   SHA256="$(cat "$SYSTMP/RCLONE/SHA256SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//')" && export SHA256="$SHA256"
-                   jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .Name == $BIN then . + {SHA256: $SHA256} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Repo URLs
-                   jq --arg BIN "$BIN" --arg REPO_URL "$REPO_URL" '.[] |= if .Name == $BIN then . + {Repo: $REPO_URL} else . end' "$SYSTMP/RCLONE/METADATA.json" > "$SYSTMP/RCLONE/METADATA.tmp" && mv "$SYSTMP/RCLONE/METADATA.tmp" "$SYSTMP/RCLONE/METADATA.json"
-                  #Print json
-                  echo -e "\n\n" && jq --arg BIN "$BIN" '.[] | select(.Name == $BIN)' "$SYSTMP/RCLONE/METADATA.json" && echo -e "\n\n" 
-                 done
-            done
-          #Update R2
-           echo -e "\n Updating Metadata.json\n"
-           rclone copyto --checksum "$SYSTMP/RCLONE/METADATA.json" "r2:/bin/x64_Windows/METADATA.json" --check-first --checkers 2000 --transfers 1000
-           rclone delete "r2:/bin/x64_Windows/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000
-          #Clean & Purge
-           sudo rm -rf "$SYSTMP/RCLONE" 2>/dev/null ; mkdir -p "$SYSTMP/RCLONE"
+          ##Run
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/.scripts/gen_meta.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
