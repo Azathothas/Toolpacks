@@ -9,6 +9,15 @@
     "Repo": "https://www.7-zip.org"
   },
   {
+    "Name": "METADATA.json.tmp",
+    "Size": "212.18 kB",
+    "ModTime": "2024-05-21T07:17:39.154802909Z",
+    "Source": "https://bin.ajam.dev/x86_64_Linux/METADATA.json.tmp",
+    "B3SUM": null,
+    "SHA256": null,
+    "Repo": null
+  },
+  {
     "Name": "act",
     "Size": "16.25 MB",
     "ModTime": "2024-05-15T05:23:06.989583520Z",
