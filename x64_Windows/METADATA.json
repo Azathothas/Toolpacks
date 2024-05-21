@@ -9,87 +9,6 @@
     "Repo": null
   },
   {
-    "Name": "BLAKE3SUM.txt",
-    "Size": "13.86 kB",
-    "ModTime": "2024-05-19T23:46:20.101160000Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/BLAKE3SUM.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "BUILD.log.txt",
-    "Size": "834.84 kB",
-    "ModTime": "2024-05-19T23:49:30.323994300Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/BUILD.log.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "FILE.txt",
-    "Size": "20.16 kB",
-    "ModTime": "2024-05-12T23:38:29.099319700Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/FILE.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "METADATA.json",
-    "Size": "64.48 kB",
-    "ModTime": "2024-05-20T21:22:23.061429071Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/METADATA.json",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "SHA256SUM.txt",
-    "Size": "13.86 kB",
-    "ModTime": "2024-05-19T23:46:29.415001100Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/SHA256SUM.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "SIZE.txt",
-    "Size": "5152 B",
-    "ModTime": "2024-05-19T23:46:16.107352400Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/SIZE.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "_toolpack_x64_Windows.7z",
-    "Size": "301.02 MB",
-    "ModTime": "2024-05-19T23:49:05.770708100Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows.7z",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "_toolpack_x64_Windows_BLAKE3SUM.txt",
-    "Size": "93 B",
-    "ModTime": "2024-05-19T23:49:22.989120900Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows_BLAKE3SUM.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "_toolpack_x64_Windows_SHA256SUM.txt",
-    "Size": "95 B",
-    "ModTime": "2024-05-19T23:49:27.084316900Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/_toolpack_x64_Windows_SHA256SUM.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
     "Name": "actionlint.exe",
     "Size": "5.41 MB",
     "ModTime": "2024-05-19T23:40:38.699456000Z",
@@ -954,15 +873,6 @@
     "Repo": "https://github.com/uutils/coreutils"
   },
   {
-    "Name": "openssh.zip",
-    "Size": "4.86 MB",
-    "ModTime": "2024-04-05T23:44:01.744097900Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/openssh.zip",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
     "Name": "pandoc.exe",
     "Size": "159.3 MB",
     "ModTime": "2024-05-19T23:42:22.374040600Z",
@@ -1395,15 +1305,6 @@
     "Repo": null
   },
   {
-    "Name": "stP1kAlM",
-    "Size": "0 B",
-    "ModTime": "2024-03-30T12:20:45.532136400Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/stP1kAlM",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
     "Name": "step.exe",
     "Size": "37.12 MB",
     "ModTime": "2024-05-19T23:43:09.385096700Z",
@@ -1411,15 +1312,6 @@
     "B3SUM": "c11c5d33bcf9943f6534a4b3cf6063955f2e9bfdd9299587960ceb412e7811de",
     "SHA256": "d354c59452ee5ea943eb76e3edd384856c53ef93f353fdafd61f6afd62a95044",
     "Repo": "https://github.com/smallstep/cli"
-  },
-  {
-    "Name": "stiG2Kb7",
-    "Size": "0 B",
-    "ModTime": "2024-03-30T12:20:46.532861400Z",
-    "Source": "https://bin.ajam.dev/x64_Windows/stiG2Kb7",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
   },
   {
     "Name": "stunner.exe",

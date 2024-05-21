@@ -9,100 +9,10 @@
     "Repo": "https://www.7-zip.org"
   },
   {
-    "Name": "BLAKE3SUM.txt",
-    "Size": "59.64 kB",
-    "ModTime": "2024-03-30T01:58:09.600687192Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/BLAKE3SUM.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "BUILD.log.txt",
-    "Size": "17.52 MB",
-    "ModTime": "2024-03-30T02:19:51.228626675Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.log.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "Baseutils",
-    "Size": "0 B",
-    "ModTime": "2000-01-01T00:00:00.000000000Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "FILE.txt",
-    "Size": "122.07 kB",
-    "ModTime": "2024-03-30T01:57:55.812687846Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/FILE.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "METADATA.json",
-    "Size": "297.69 kB",
-    "ModTime": "2024-05-20T21:33:42.882954780Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "SHA256SUM.txt",
-    "Size": "59.64 kB",
-    "ModTime": "2024-03-30T01:58:43.956685562Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/SHA256SUM.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "SIZE.txt",
-    "Size": "20.63 kB",
-    "ModTime": "2024-03-30T01:57:59.020687694Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/SIZE.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
     "Name": "TEST",
     "Size": "6 B",
     "ModTime": "2024-01-07T05:37:38.655543900Z",
     "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/TEST",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "_toolpack_aarch64_arm64.7z",
-    "Size": "1.52 GB",
-    "ModTime": "2024-03-30T02:18:53.776629036Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/_toolpack_aarch64_arm64.7z",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "_toolpack_aarch64_arm64_BLAKE3SUM.txt",
-    "Size": "88 B",
-    "ModTime": "2024-03-30T02:19:40.724626978Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/_toolpack_aarch64_arm64_BLAKE3SUM.txt",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "_toolpack_aarch64_arm64_SHA256SUM.txt",
-    "Size": "88 B",
-    "ModTime": "2024-03-30T02:19:47.988626768Z",
-    "Source": "https://bin.ajam.dev/aarch64_arm64_Linux/_toolpack_aarch64_arm64_SHA256SUM.txt",
     "B3SUM": null,
     "SHA256": null,
     "Repo": null
