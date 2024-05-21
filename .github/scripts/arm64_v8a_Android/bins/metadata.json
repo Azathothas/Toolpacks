@@ -1,371 +1,112 @@
 [
   {
-    "Name": "act.sh",
-    "Size": "3144 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/act.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "act.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/act.sh"
   },
   {
-    "Name": "act.yaml",
-    "Size": "112 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/act.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "actionlint.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/actionlint.sh"
   },
   {
-    "Name": "actionlint.sh",
-    "Size": "3243 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/actionlint.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "adig.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/adig.sh"
   },
   {
-    "Name": "actionlint.yaml",
-    "Size": "149 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/actionlint.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "anew-rs.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh"
   },
   {
-    "Name": "adig.sh",
-    "Size": "3206 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/adig.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "aria2.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/aria2.sh"
   },
   {
-    "Name": "adig.yaml",
-    "Size": "166 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/adig.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "axel.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/axel.sh"
   },
   {
-    "Name": "anew-rs.sh",
-    "Size": "5071 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "bash.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.sh"
   },
   {
-    "Name": "anew-rs.yaml",
-    "Size": "155 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/anew-rs.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "bigdl.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bigdl.sh"
   },
   {
-    "Name": "aria2.sh",
-    "Size": "3190 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/aria2.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "coreutils.sh",
+    "update_date": "2024-05-16T07:02:47",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.sh"
   },
   {
-    "Name": "aria2.yaml",
-    "Size": "135 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/aria2.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "coreutils.yaml.empty",
+    "update_date": "2024-05-21T18:51:48",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.yaml.empty"
   },
   {
-    "Name": "axel.sh",
-    "Size": "3195 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/axel.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "curl.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh"
   },
   {
-    "Name": "axel.yaml",
-    "Size": "116 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/axel.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "jless.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/jless.sh"
   },
   {
-    "Name": "bash.sh",
-    "Size": "3213 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "metadata.json",
+    "update_date": "2024-05-21T18:51:48",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json"
   },
   {
-    "Name": "bash.yaml",
-    "Size": "134 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "pingmole.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pingmole.sh"
   },
   {
-    "Name": "bigdl.sh",
-    "Size": "4761 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bigdl.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "pspy.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pspy.sh"
   },
   {
-    "Name": "bigdl.yaml",
-    "Size": "124 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bigdl.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "rclone.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/rclone.sh"
   },
   {
-    "Name": "coreutils.sh",
-    "Size": "4209 B",
-    "ModTime": "2024-05-16T07:02:47.323611374Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "sudo.sh",
+    "update_date": "2024-05-16T14:02:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/sudo.sh"
   },
   {
-    "Name": "coreutils.yaml",
-    "Size": "1354 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "tailscale.sh",
+    "update_date": "2024-05-16T17:07:38",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tailscale.sh"
   },
   {
-    "Name": "curl.sh",
-    "Size": "4024 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "tmux.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tmux.sh"
   },
   {
-    "Name": "curl.yaml",
-    "Size": "162 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "vim.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/vim.sh"
   },
   {
-    "Name": "jless.sh",
-    "Size": "5225 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/jless.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "wget.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.sh"
   },
   {
-    "Name": "jless.yaml",
-    "Size": "205 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/jless.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "metadata.json",
-    "Size": "11.29 kB",
-    "ModTime": "2024-05-21T11:27:08.299249407Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "pingmole.sh",
-    "Size": "5566 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pingmole.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "pingmole.yaml",
-    "Size": "165 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pingmole.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "pspy.sh",
-    "Size": "4889 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pspy.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "pspy.yaml",
-    "Size": "140 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pspy.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "rclone.sh",
-    "Size": "4775 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/rclone.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "rclone.yaml",
-    "Size": "113 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/rclone.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "sudo.sh",
-    "Size": "2231 B",
-    "ModTime": "2024-05-16T14:02:02.555610439Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/sudo.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "sudo.yaml",
-    "Size": "141 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/sudo.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "tailscale.sh",
-    "Size": "5584 B",
-    "ModTime": "2024-05-16T17:07:38.718994720Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tailscale.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "tailscale.yaml",
-    "Size": "197 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tailscale.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "tmux.sh",
-    "Size": "3284 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tmux.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "tmux.yaml",
-    "Size": "132 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tmux.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "vim.sh",
-    "Size": "3178 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/vim.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "vim.yaml",
-    "Size": "110 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/vim.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "wget.sh",
-    "Size": "3553 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "wget.yaml",
-    "Size": "162 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "zsh.sh",
-    "Size": "3265 B",
-    "ModTime": "2024-05-17T14:02:55.291037848Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/zsh.sh",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
-  },
-  {
-    "Name": "zsh.yaml",
-    "Size": "107 B",
-    "ModTime": "2024-05-21T11:18:37.204464331Z",
-    "Source": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/zsh.yaml",
-    "B3SUM": null,
-    "SHA256": null,
-    "Repo": null
+    "name": "zsh.sh",
+    "update_date": "2024-05-17T14:02:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/zsh.sh"
   }
 ]
