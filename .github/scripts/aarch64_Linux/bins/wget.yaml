@@ -1,5 +1,6 @@
 name: "wget"
 description: ""
-url: "https://www.gnu.org/software/wget/"
+web_url: "https://www.gnu.org/software/wget/"
+repo_url: ""
 bins:
   - "wget"

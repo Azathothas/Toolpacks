@@ -1,5 +1,6 @@
 name: "mailpit"
 description: "An email and SMTP testing tool with API for developers"
-url: "https://github.com/axllent/mailpit"
+web_url: "https://github.com/axllent/mailpit"
+repo_url: "https://github.com/axllent/mailpit"
 bins:
   - "mailpit"

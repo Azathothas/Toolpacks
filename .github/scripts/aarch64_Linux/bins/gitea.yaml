@@ -1,5 +1,6 @@
 name: "gitea"
 description: "Git with a cup of tea"
-url: "https://github.com/go-gitea/gitea"
+web_url: "https://github.com/go-gitea/gitea"
+repo_url: "https://github.com/go-gitea/gitea"
 bins:
   - "gitea"

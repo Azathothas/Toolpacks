@@ -1,5 +1,6 @@
 name: "hacker-scoper"
 description: "Automagically filter URLs with Bug Bounty program scope rules scraped from the internet"
-url: "https://github.com/ItsIgnacioPortal/hacker-scoper"
+web_url: "https://github.com/ItsIgnacioPortal/hacker-scoper"
+repo_url: "https://github.com/ItsIgnacioPortal/hacker-scoper"
 bins:
   - "hacker-scoper"

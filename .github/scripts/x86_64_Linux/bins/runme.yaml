@@ -1,5 +1,6 @@
 name: "runme"
 description: "Execute your runbooks, docs, and READMEs."
-url: "https://github.com/stateful/runme"
+web_url: "https://github.com/stateful/runme"
+repo_url: "https://github.com/stateful/runme"
 bins:
   - "runme"

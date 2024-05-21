@@ -1,5 +1,6 @@
 name: "mosh"
 description: "the mobile shell"
-url: "https://github.com/mobile-shell/mosh"
+web_url: "https://github.com/mobile-shell/mosh"
+repo_url: "https://github.com/mobile-shell/mosh"
 bins:
   - ""

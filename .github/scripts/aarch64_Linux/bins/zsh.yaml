@@ -1,5 +1,6 @@
 name: "zsh"
 description: "The Z shell"
-url: "https://www.zsh.org/"
+web_url: "https://www.zsh.org/"
+repo_url: ""
 bins:
   - " zoxide"

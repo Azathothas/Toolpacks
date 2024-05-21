@@ -1,6 +1,7 @@
 name: "rsync"
 description: "An open source utility that provides fast incremental file transfer."
-url: "https://github.com/WayneD/rsync"
+web_url: "https://github.com/WayneD/rsync"
+repo_url: "https://github.com/WayneD/rsync"
 bins:
   - "rsync"
   - "rsync-ssl"

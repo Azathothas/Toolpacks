@@ -1,6 +1,7 @@
 name: "cronie"
 description: "Standalone, Minimal HTTP Server"
-url: "https://github.com/cronie-crond/cronie"
+web_url: "https://github.com/cronie-crond/cronie"
+repo_url: "https://github.com/cronie-crond/cronie"
 bins:
   - "cronie-crond"
   - "cronie-cronnext"

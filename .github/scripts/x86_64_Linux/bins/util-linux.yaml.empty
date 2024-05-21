@@ -1,5 +1,6 @@
 name: "util-linux"
 description: "random collection of Linux utilities"
-url: "https://github.com/util-linux/util-linux"
+web_url: "https://github.com/util-linux/util-linux"
+repo_url: "https://github.com/util-linux/util-linux"
 bins:
   - ""

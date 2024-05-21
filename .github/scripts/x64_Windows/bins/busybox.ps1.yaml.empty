@@ -1,5 +1,6 @@
 name: "busybox"
 description: "single binary that contains many common Unix tools"
-url: "https://frippery.org/busybox/"
+web_url: "https://frippery.org/busybox/"
+repo_url: ""
 bins:
   - ""

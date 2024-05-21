@@ -1,5 +1,6 @@
 name: "act"
 description: "Run your GitHub Actions locally \U0001F680"
-url: "https://github.com/nektos/act"
+web_url: "https://github.com/nektos/act"
+repo_url: "https://github.com/nektos/act"
 bins:
   - "act"

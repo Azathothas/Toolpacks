@@ -1,5 +1,6 @@
 name: "sshpass"
 description: "Standalone, Minimal HTTP Server"
-url: "https://git.code.sf.net/p/sshpass/code-git"
+web_url: "https://git.code.sf.net/p/sshpass/code-git"
+repo_url: "https://git.code.sf.net/p/sshpass/code-git"
 bins:
   - "sshpass"

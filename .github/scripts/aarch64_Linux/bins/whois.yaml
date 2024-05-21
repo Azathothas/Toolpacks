@@ -1,6 +1,7 @@
 name: "whois"
 description: ""
-url: "https://packages.qa.debian.org/w/whois.html"
+web_url: "https://packages.qa.debian.org/w/whois.html"
+repo_url: ""
 bins:
   - "mkpasswd"
   - "whois"

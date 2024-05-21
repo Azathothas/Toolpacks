@@ -1,5 +1,6 @@
 name: "xpdf-tools"
 description: "PDF tools"
-url: "https://www.xpdfreader.com/index.html"
+web_url: "https://www.xpdfreader.com/index.html"
+repo_url: ""
 bins:
   - ""

@@ -1,5 +1,6 @@
 name: "doggo"
 description: "\U0001F436 Command-line DNS Client for Humans"
-url: "https://github.com/mr-karan/doggo"
+web_url: "https://github.com/mr-karan/doggo"
+repo_url: "https://github.com/mr-karan/doggo"
 bins:
   - "doggo containerd-shim-runc-v2 ctr docker docker-init docker-proxy dockerd dockerd-rootless-setuptool.sh dockerd-rootless.sh rootlesskit-docker-proxy vpnkit"

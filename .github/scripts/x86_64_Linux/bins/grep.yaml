@@ -1,5 +1,6 @@
 name: "grep"
 description: "Search one or more input files for lines containing a match to a specified pattern."
-url: "https://www.gnu.org/software/grep/"
+web_url: "https://www.gnu.org/software/grep/"
+repo_url: ""
 bins:
   - "grep"

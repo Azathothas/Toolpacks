@@ -1,5 +1,6 @@
 name: "WireTap"
 description: "ransparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run"
-url: "https://github.com/sandialabs/wiretap"
+web_url: "https://github.com/sandialabs/wiretap"
+repo_url: "https://github.com/sandialabs/wiretap"
 bins:
   - "wiretap"

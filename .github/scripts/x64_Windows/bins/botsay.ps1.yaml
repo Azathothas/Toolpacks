@@ -1,5 +1,6 @@
 name: "botsay"
 description: "\U0001F916 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows"
-url: "https://github.com/xyproto/botsay"
+web_url: "https://github.com/xyproto/botsay"
+repo_url: "https://github.com/xyproto/botsay"
 bins:
   - "botsay.exe batcat.exe"

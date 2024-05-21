@@ -1,5 +1,6 @@
 name: "OneTun"
 description: "User space WireGuard proxy in Rust"
-url: "https://github.com/aramperes/onetun"
+web_url: "https://github.com/aramperes/onetun"
+repo_url: "https://github.com/aramperes/onetun"
 bins:
   - "onetun"

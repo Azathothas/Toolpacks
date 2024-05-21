@@ -1,5 +1,6 @@
 name: "mise"
 description: "dev tools, env vars, task runner"
-url: "https://github.com/jdx/mise"
+web_url: "https://github.com/jdx/mise"
+repo_url: "https://github.com/jdx/mise"
 bins:
   - "mise"

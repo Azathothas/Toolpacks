@@ -1,5 +1,6 @@
 name: "feroxbuster"
 description: "A fast, simple, recursive content discovery tool written in Rust."
-url: "https://github.com/epi052/feroxbuster"
+web_url: "https://github.com/epi052/feroxbuster"
+repo_url: "https://github.com/epi052/feroxbuster"
 bins:
   - "feroxbuster"

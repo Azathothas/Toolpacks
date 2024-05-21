@@ -1,5 +1,6 @@
 name: "mcfly"
 description: "Fly through your shell history."
-url: "https://github.com/cantino/mcfly"
+web_url: "https://github.com/cantino/mcfly"
+repo_url: "https://github.com/cantino/mcfly"
 bins:
   - "mcfly"

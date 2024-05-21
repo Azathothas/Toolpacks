@@ -1,6 +1,7 @@
 name: "gix"
 description: "An idiomatic, lean, fast & safe pure Rust implementation of Git"
-url: "https://github.com/Byron/gitoxide"
+web_url: "https://github.com/Byron/gitoxide"
+repo_url: "https://github.com/Byron/gitoxide"
 bins:
   - "ein"
   - "gix"

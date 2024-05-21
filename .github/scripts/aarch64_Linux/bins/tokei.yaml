@@ -1,5 +1,6 @@
 name: "tokei"
 description: "displays statistics & number of files for code files/dirs"
-url: "https://github.com/XAMPPRocky/tokei"
+web_url: "https://github.com/XAMPPRocky/tokei"
+repo_url: "https://github.com/XAMPPRocky/tokei"
 bins:
   - "tokei comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

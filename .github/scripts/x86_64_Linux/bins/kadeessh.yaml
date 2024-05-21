@@ -1,5 +1,6 @@
 name: "Kadeessh"
 description: "A general-purpose, extensible, modular, memory-safe SSH server"
-url: "https://github.com/kadeessh/kadeessh"
+web_url: "https://github.com/kadeessh/kadeessh"
+repo_url: "https://github.com/kadeessh/kadeessh"
 bins:
   - "kadeessh"

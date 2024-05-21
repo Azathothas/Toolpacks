@@ -1,5 +1,6 @@
 name: "bleve"
 description: "A modern text indexing library for go"
-url: "https://github.com/blevesearch/bleve"
+web_url: "https://github.com/blevesearch/bleve"
+repo_url: "https://github.com/blevesearch/bleve"
 bins:
   - "bleve"

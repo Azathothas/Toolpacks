@@ -1,5 +1,6 @@
 name: "soft-serve"
 description: "The mighty, self-hostable Git server for the command line\U0001F366"
-url: "https://github.com/charmbracelet/soft-serve"
+web_url: "https://github.com/charmbracelet/soft-serve"
+repo_url: "https://github.com/charmbracelet/soft-serve"
 bins:
   - "soft-serve procan socat"

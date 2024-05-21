@@ -1,5 +1,6 @@
 name: "circumflex"
 description: "\U0001F33F Its Hacker News in your terminal"
-url: "https://github.com/bensadeh/circumflex"
+web_url: "https://github.com/bensadeh/circumflex"
+repo_url: "https://github.com/bensadeh/circumflex"
 bins:
   - "circumflex"

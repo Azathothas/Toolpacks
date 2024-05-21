@@ -1,6 +1,7 @@
 name: "inscope"
 description: "filtering URLs and domains supplied on stdin to make sure they meet one of a set of regular expressions"
-url: "https://github.com/Azathothas/Arsenal"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
 bins:
   - "certstream"
   - "comb"

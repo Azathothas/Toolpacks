@@ -1,6 +1,7 @@
 name: "scopegen"
 description: "Generates .scope compatible format for ScopeView (based on TomNomNoms Inscope)"
-url: "https://github.com/Azathothas/Arsenal"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
 bins:
   - "certstream"
   - "comb"

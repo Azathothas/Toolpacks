@@ -1,5 +1,6 @@
 name: "xz"
 description: "A general-purpose data compression software, successor of LZMA"
-url: "https://tukaani.org/xz/"
+web_url: "https://tukaani.org/xz/"
+repo_url: ""
 bins:
   - ""

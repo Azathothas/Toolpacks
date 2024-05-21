@@ -1,6 +1,7 @@
 name: "interactsh"
 description: "An OOB interaction gathering server and client library"
-url: "https://github.com/projectdiscovery/interactsh"
+web_url: "https://github.com/projectdiscovery/interactsh"
+repo_url: "https://github.com/projectdiscovery/interactsh"
 bins:
   - "interactsh-client"
   - "interactsh-server comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

@@ -1,6 +1,7 @@
 name: "pueue"
 description: "task management tool for sequential and parallel execution of long-running tasks"
-url: "https://github.com/Nukesor/pueue"
+web_url: "https://github.com/Nukesor/pueue"
+repo_url: "https://github.com/Nukesor/pueue"
 bins:
   - "pueue"
   - "pueued"

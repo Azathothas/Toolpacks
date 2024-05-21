@@ -1,6 +1,7 @@
 name: "curl"
 description: ""
-url: "https://github.com/stunnel/static-curl"
+web_url: "https://github.com/stunnel/static-curl"
+repo_url: "https://github.com/stunnel/static-curl"
 bins:
   - "curl.exe"
   - "trurl.exe"

@@ -1,5 +1,6 @@
 name: "pdfcpu"
 description: "PDF processor"
-url: "https://github.com/pdfcpu/pdfcpu"
+web_url: "https://github.com/pdfcpu/pdfcpu"
+repo_url: "https://github.com/pdfcpu/pdfcpu"
 bins:
   - "pdfcpu.exe"

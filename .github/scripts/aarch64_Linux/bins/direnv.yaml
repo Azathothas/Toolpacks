@@ -1,5 +1,6 @@
 name: "direnv"
 description: "unclutter your .profile"
-url: "https://github.com/direnv/direnv"
+web_url: "https://github.com/direnv/direnv"
+repo_url: "https://github.com/direnv/direnv"
 bins:
   - "direnv"

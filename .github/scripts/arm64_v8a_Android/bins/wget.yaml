@@ -1,6 +1,7 @@
 name: "wget"
 description: "Tool for retrieving files using HTTP, HTTPS, and FTP"
-url: "https://www.gnu.org/software/wget/"
+web_url: "https://www.gnu.org/software/wget/"
+repo_url: ""
 bins:
   - "wget"
   - "wget_cacert.pem"

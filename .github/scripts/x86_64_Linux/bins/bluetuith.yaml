@@ -1,5 +1,6 @@
 name: "bluetuith"
 description: "A TUI bluetooth manager for Linux."
-url: "https://github.com/darkhz/bluetuith"
+web_url: "https://github.com/darkhz/bluetuith"
+repo_url: "https://github.com/darkhz/bluetuith"
 bins:
   - "bluetuith"

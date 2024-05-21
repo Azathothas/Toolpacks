@@ -1,5 +1,6 @@
 name: "encrypted-dns-server"
 description: "high-performance, zero maintenance proxy to run an encrypted DNS server."
-url: "https://github.com/DNSCrypt/encrypted-dns-server"
+web_url: "https://github.com/DNSCrypt/encrypted-dns-server"
+repo_url: "https://github.com/DNSCrypt/encrypted-dns-server"
 bins:
   - ""

@@ -1,5 +1,6 @@
 name: "yt-dlp"
 description: "A feature-rich command-line audio/video downloader"
-url: "https://github.com/yt-dlp/yt-dlp"
+web_url: "https://github.com/yt-dlp/yt-dlp"
+repo_url: "https://github.com/yt-dlp/yt-dlp"
 bins:
   - "yt-dlp.exe"

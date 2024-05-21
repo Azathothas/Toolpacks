@@ -1,5 +1,6 @@
 name: "qsreplace"
 description: "Accept URLs on stdin, replace all query string values with a user-supplied value"
-url: "https://github.com/tomnomnom/qsreplace"
+web_url: "https://github.com/tomnomnom/qsreplace"
+repo_url: "https://github.com/tomnomnom/qsreplace"
 bins:
   - "qsreplace qemu-aarch64_be-static qemu-alpha-static qemu-arm-static qemu-armeb-static qemu-cris-static qemu-hexagon-static qemu-hppa-static qemu-i386-static qemu-loongarch64-static qemu-m68k-static qemu-microblaze-static qemu-microblazeel-static qemu-mips-static qemu-mips64-static qemu-mips64el-static qemu-mipsel-static qemu-mipsn32-static qemu-mipsn32el-static qemu-nios2-static qemu-or1k-static qemu-ppc-static qemu-ppc64-static qemu-ppc64le-static qemu-riscv32-static qemu-riscv64-static qemu-s390x-static qemu-sh4-static qemu-sh4eb-static qemu-sparc-static qemu-sparc32plus-static qemu-sparc64-static qemu-x86_64-static qemu-xtensa-static qemu-xtensaeb-static"

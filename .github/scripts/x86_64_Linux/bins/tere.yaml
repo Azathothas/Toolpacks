@@ -1,5 +1,6 @@
 name: "tere"
 description: "Terminal Dir Navigator"
-url: "https://github.com/mgunyho/tere"
+web_url: "https://github.com/mgunyho/tere"
+repo_url: "https://github.com/mgunyho/tere"
 bins:
   - "tere"

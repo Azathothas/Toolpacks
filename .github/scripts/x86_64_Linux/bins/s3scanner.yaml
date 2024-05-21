@@ -1,5 +1,6 @@
 name: "s3scanner"
 description: "Scan for misconfigured S3 buckets across S3-compatible APIs"
-url: "https://github.com/sa7mon/S3Scanner"
+web_url: "https://github.com/sa7mon/S3Scanner"
+repo_url: "https://github.com/sa7mon/S3Scanner"
 bins:
   - "s3scanner"

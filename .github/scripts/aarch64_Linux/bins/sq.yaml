@@ -1,5 +1,6 @@
 name: "sq"
 description: "jq for sql"
-url: "https://github.com/neilotoole/sq"
+web_url: "https://github.com/neilotoole/sq"
+repo_url: "https://github.com/neilotoole/sq"
 bins:
   - "sq"

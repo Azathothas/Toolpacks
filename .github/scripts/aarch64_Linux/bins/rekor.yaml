@@ -1,6 +1,7 @@
 name: "rekor"
 description: "Software Supply Chain Transparency Log"
-url: "https://github.com/sigstore/rekor"
+web_url: "https://github.com/sigstore/rekor"
+repo_url: "https://github.com/sigstore/rekor"
 bins:
   - "rekor-cli"
   - "rekor-server"

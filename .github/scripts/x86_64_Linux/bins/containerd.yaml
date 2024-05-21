@@ -1,5 +1,6 @@
 name: "containerd"
 description: "An open and reliable container runtime"
-url: "https://github.com/containerd/containerd"
+web_url: "https://github.com/containerd/containerd"
+repo_url: "https://github.com/containerd/containerd"
 bins:
   - " comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok ansi2txt pipetty ttyrec2ansi"

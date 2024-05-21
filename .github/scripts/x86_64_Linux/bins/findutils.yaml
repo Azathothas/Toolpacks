@@ -1,6 +1,7 @@
 name: "findutils"
 description: "GNU Find Utilities, the basic directory searching utilities of the GNU operating system"
-url: "https://www.gnu.org/software/findutils/"
+web_url: "https://www.gnu.org/software/findutils/"
+repo_url: ""
 bins:
   - "find"
   - "xargs"

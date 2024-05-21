@@ -1,5 +1,6 @@
 name: "rush"
 description: "A cross-platform command-line tool for executing jobs in parallel"
-url: "https://github.com/shenwei356/rush"
+web_url: "https://github.com/shenwei356/rush"
+repo_url: "https://github.com/shenwei356/rush"
 bins:
   - "rush"

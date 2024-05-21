@@ -1,6 +1,7 @@
 name: "cowsay"
 description: "complete rewrite of cowsay in Go"
-url: "https://gitlab.com/nmyk/cowsay"
+web_url: "https://gitlab.com/nmyk/cowsay"
+repo_url: "https://gitlab.com/nmyk/cowsay"
 bins:
   - "cowsay"
   - "cowthink"

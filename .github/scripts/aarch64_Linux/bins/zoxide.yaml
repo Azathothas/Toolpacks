@@ -1,6 +1,7 @@
 name: "zoxide"
 description: "A smarter cd command."
-url: "https://github.com/ajeetdsouza/zoxide"
+web_url: "https://github.com/ajeetdsouza/zoxide"
+repo_url: "https://github.com/ajeetdsouza/zoxide"
 bins:
   - "z"
   - "zoxide"

@@ -1,5 +1,6 @@
 name: "catatonit"
 description: "A container init that is so simple its effectively brain-dead."
-url: "https://github.com/openSUSE/catatonit"
+web_url: "https://github.com/openSUSE/catatonit"
+repo_url: "https://github.com/openSUSE/catatonit"
 bins:
   - "catatonit"

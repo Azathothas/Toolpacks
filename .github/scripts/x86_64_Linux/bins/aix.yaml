@@ -1,5 +1,6 @@
 name: "aix"
 description: "AIx is a cli tool to interact with Large Language Models (LLM) APIs."
-url: "https://github.com/projectdiscovery/aix"
+web_url: "https://github.com/projectdiscovery/aix"
+repo_url: "https://github.com/projectdiscovery/aix"
 bins:
   - "aix"

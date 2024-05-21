@@ -1,5 +1,6 @@
 name: "mqttui"
 description: "Subscribe to a MQTT Topic or publish something quickly from the terminal"
-url: "https://github.com/EdJoPaTo/mqttui"
+web_url: "https://github.com/EdJoPaTo/mqttui"
+repo_url: "https://github.com/EdJoPaTo/mqttui"
 bins:
   - "mqttui mosh-server"

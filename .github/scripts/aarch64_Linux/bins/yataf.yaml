@@ -1,5 +1,6 @@
 name: "yataf"
 description: "yataf extracts secrets and paths from files or urls - its best used against javascript files"
-url: "https://github.com/Damian89/yataf"
+web_url: "https://github.com/Damian89/yataf"
+repo_url: "https://github.com/Damian89/yataf"
 bins:
   - "yataf"

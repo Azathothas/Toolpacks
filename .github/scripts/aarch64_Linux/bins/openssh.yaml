@@ -1,6 +1,7 @@
 name: "openssh"
 description: ""
-url: "https://github.com/openssh/openssh-portable"
+web_url: "https://github.com/openssh/openssh-portable"
+repo_url: "https://github.com/openssh/openssh-portable"
 bins:
   - "scp"
   - "sftp"

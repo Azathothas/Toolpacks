@@ -1,5 +1,6 @@
 name: "neofetch"
 description: "Updated Fork"
-url: "https://github.com/hykilpikonna/hyfetch"
+web_url: "https://github.com/hykilpikonna/hyfetch"
+repo_url: "https://github.com/hykilpikonna/hyfetch"
 bins:
   - "neofetch"

@@ -1,5 +1,6 @@
 name: "algernon"
 description: "Small self-contained pure-Go web server with Lua, Teal, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support"
-url: "https://github.com/xyproto/algernon"
+web_url: "https://github.com/xyproto/algernon"
+repo_url: "https://github.com/xyproto/algernon"
 bins:
   - "algernon.exe"

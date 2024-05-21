@@ -1,5 +1,6 @@
 name: "sttr"
 description: "cli app to perform various operations on string"
-url: "https://github.com/abhimanyu003/sttr"
+web_url: "https://github.com/abhimanyu003/sttr"
+repo_url: "https://github.com/abhimanyu003/sttr"
 bins:
   - "sttr"

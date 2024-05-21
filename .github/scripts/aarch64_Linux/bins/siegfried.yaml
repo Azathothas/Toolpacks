@@ -1,5 +1,6 @@
 name: "siegfried"
 description: "signature-based file format identification"
-url: "https://github.com/richardlehane/siegfried"
+web_url: "https://github.com/richardlehane/siegfried"
+repo_url: "https://github.com/richardlehane/siegfried"
 bins:
   - "sf"

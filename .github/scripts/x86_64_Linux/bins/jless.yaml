@@ -1,6 +1,7 @@
 name: "jless"
 description: "jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data"
-url: "https://github.com/PaulJuliusMartinez/jless"
+web_url: "https://github.com/PaulJuliusMartinez/jless"
+repo_url: "https://github.com/PaulJuliusMartinez/jless"
 bins:
   - "jless"
   - "jless_staticx"

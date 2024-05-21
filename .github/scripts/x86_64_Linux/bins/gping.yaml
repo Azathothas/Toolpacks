@@ -1,5 +1,6 @@
 name: "gping"
 description: "Ping, but with a graph"
-url: "https://github.com/orf/gping"
+web_url: "https://github.com/orf/gping"
+repo_url: "https://github.com/orf/gping"
 bins:
   - "gping"

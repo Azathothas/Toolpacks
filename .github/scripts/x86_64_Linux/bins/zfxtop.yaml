@@ -1,5 +1,6 @@
 name: "zfxtop"
 description: "fetch top for gen Z with X written by bubbletea enjoyer"
-url: "https://github.com/ssleert/zfxtop"
+web_url: "https://github.com/ssleert/zfxtop"
+repo_url: "https://github.com/ssleert/zfxtop"
 bins:
   - "zfxtop"

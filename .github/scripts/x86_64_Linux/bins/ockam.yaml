@@ -1,5 +1,6 @@
 name: "ockam"
 description: "Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale."
-url: "https://github.com/build-trust/ockam"
+web_url: "https://github.com/build-trust/ockam"
+repo_url: "https://github.com/build-trust/ockam"
 bins:
   - "ockam nushell migratepages migspeed numactl numademo numastat"

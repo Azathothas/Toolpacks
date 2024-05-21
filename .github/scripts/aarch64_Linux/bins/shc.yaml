@@ -1,5 +1,6 @@
 name: "shc"
 description: "Shell script compiler"
-url: "https://github.com/neurobin/shc"
+web_url: "https://github.com/neurobin/shc"
+repo_url: "https://github.com/neurobin/shc"
 bins:
   - "shc"

@@ -1,6 +1,7 @@
 name: "docker"
 description: "Container"
-url: "https://github.com/docker/cli"
+web_url: "https://github.com/docker/cli"
+repo_url: "https://github.com/docker/cli"
 bins:
   - "containerd"
   - "containerd-shim-runc-v2"

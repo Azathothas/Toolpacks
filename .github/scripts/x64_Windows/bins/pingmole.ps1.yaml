@@ -1,5 +1,6 @@
 name: "pingmole"
 description: "CLI that helps to filter pingmole servers and pick the closest one."
-url: "https://github.com/norskeld/pingmole"
+web_url: "https://github.com/norskeld/pingmole"
+repo_url: "https://github.com/norskeld/pingmole"
 bins:
   - "pingmole.exe pgrokd.exe"

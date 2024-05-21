@@ -1,6 +1,7 @@
 name: "yggdrasil"
 description: "An experiment in scalable routing as an encrypted IPv6 overlay network"
-url: "https://github.com/yggdrasil-network/yggdrasil-go"
+web_url: "https://github.com/yggdrasil-network/yggdrasil-go"
+repo_url: "https://github.com/yggdrasil-network/yggdrasil-go"
 bins:
   - "yggdrasil"
   - "yggdrasilctl"

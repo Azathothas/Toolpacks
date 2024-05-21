@@ -1,5 +1,6 @@
 name: "procs"
 description: "A modern replacement for ps written in Rust"
-url: "https://github.com/dalance/procs"
+web_url: "https://github.com/dalance/procs"
+repo_url: "https://github.com/dalance/procs"
 bins:
   - "procs"

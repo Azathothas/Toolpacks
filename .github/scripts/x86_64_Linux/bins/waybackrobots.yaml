@@ -1,5 +1,6 @@
 name: "waybackrobots"
 description: "Enumerate old versions of robots.txt paths using Wayback Machine for content discovery"
-url: "https://github.com/mhmdiaa/waybackrobots"
+web_url: "https://github.com/mhmdiaa/waybackrobots"
+repo_url: "https://github.com/mhmdiaa/waybackrobots"
 bins:
   - "waybackrobots"

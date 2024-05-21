@@ -1,5 +1,6 @@
 name: "noir"
 description: "♠️ Noir is an attack surface detector that identifies endpoints by static analysis"
-url: "https://github.com/hahwul/noir"
+web_url: "https://github.com/hahwul/noir"
+repo_url: "https://github.com/hahwul/noir"
 bins:
   - "noir"

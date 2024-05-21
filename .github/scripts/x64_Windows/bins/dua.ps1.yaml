@@ -1,5 +1,6 @@
 name: "dua-cli"
 description: "(du) View disk space usage and delete unwanted data, fast."
-url: "https://github.com/Byron/dua-cli"
+web_url: "https://github.com/Byron/dua-cli"
+repo_url: "https://github.com/Byron/dua-cli"
 bins:
   - "dua.exe wldd.exe"

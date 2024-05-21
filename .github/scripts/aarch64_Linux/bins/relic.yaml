@@ -1,5 +1,6 @@
 name: "relic"
 description: "a tool for adding digital signatures to operating system packages for Linux and Windows"
-url: "https://github.com/sassoftware/relic"
+web_url: "https://github.com/sassoftware/relic"
+repo_url: "https://github.com/sassoftware/relic"
 bins:
   - "relic rekor-server"

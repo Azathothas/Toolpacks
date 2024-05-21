@@ -1,6 +1,7 @@
 name: "gobusybox"
 description: "Tools for compiling many Go commands into one binary to save space"
-url: "https://github.com/u-root/gobusybox"
+web_url: "https://github.com/u-root/gobusybox"
+repo_url: "https://github.com/u-root/gobusybox"
 bins:
   - "gencmddeps"
   - "goanywhere"

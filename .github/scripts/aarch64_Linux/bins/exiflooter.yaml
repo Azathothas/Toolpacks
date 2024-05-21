@@ -1,5 +1,6 @@
 name: "exifLooter"
 description: "ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap"
-url: "https://github.com/aydinnyunus/exifLooter"
+web_url: "https://github.com/aydinnyunus/exifLooter"
+repo_url: "https://github.com/aydinnyunus/exifLooter"
 bins:
   - "exiflooter etcdctl etcdutl"

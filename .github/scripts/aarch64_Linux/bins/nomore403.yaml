@@ -1,5 +1,6 @@
 name: "nomore403"
 description: "Tool to bypass 403/40X response codes."
-url: "https://github.com/devploit/nomore403"
+web_url: "https://github.com/devploit/nomore403"
+repo_url: "https://github.com/devploit/nomore403"
 bins:
   - "nomore403"

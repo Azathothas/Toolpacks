@@ -1,5 +1,6 @@
 name: "mdsh"
 description: "$ mdsh"
-url: "https://github.com/zimbatm/mdsh"
+web_url: "https://github.com/zimbatm/mdsh"
+repo_url: "https://github.com/zimbatm/mdsh"
 bins:
   - "mdsh"

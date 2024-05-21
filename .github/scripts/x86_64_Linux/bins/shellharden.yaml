@@ -1,5 +1,6 @@
 name: "shellharden"
 description: "The corrective bash syntax highlighter"
-url: "https://github.com/anordal/shellharden"
+web_url: "https://github.com/anordal/shellharden"
+repo_url: "https://github.com/anordal/shellharden"
 bins:
   - "shellharden"

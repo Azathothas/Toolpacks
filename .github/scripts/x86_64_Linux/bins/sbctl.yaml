@@ -1,5 +1,6 @@
 name: "sbctl"
 description: "\U0001F4BB \U0001F512 \U0001F511 Secure Boot key manager"
-url: "https://github.com/Foxboron/sbctl"
+web_url: "https://github.com/Foxboron/sbctl"
+repo_url: "https://github.com/Foxboron/sbctl"
 bins:
   - "sbctl"

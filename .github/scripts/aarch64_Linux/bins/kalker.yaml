@@ -1,5 +1,6 @@
 name: "kalker"
 description: "calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals"
-url: "https://github.com/PaddiM8/kalker"
+web_url: "https://github.com/PaddiM8/kalker"
+repo_url: "https://github.com/PaddiM8/kalker"
 bins:
   - "kalker"

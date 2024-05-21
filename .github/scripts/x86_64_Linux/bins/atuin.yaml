@@ -1,5 +1,6 @@
 name: "atuin"
 description: "Sync Shell History"
-url: "https://github.com/atuinsh/atuin"
+web_url: "https://github.com/atuinsh/atuin"
+repo_url: "https://github.com/atuinsh/atuin"
 bins:
   - "atuin"

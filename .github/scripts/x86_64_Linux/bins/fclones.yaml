@@ -1,5 +1,6 @@
 name: "fclones"
 description: "Efficient Duplicate File Finder"
-url: "https://github.com/pkolaczk/fclones"
+web_url: "https://github.com/pkolaczk/fclones"
+repo_url: "https://github.com/pkolaczk/fclones"
 bins:
   - "fclones"

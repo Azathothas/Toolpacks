@@ -1,5 +1,6 @@
 name: "anew-rs"
 description: "A fast, simple, recursive content discovery tool written in Rust."
-url: "https://github.com/zer0yu/anew"
+web_url: "https://github.com/zer0yu/anew"
+repo_url: "https://github.com/zer0yu/anew"
 bins:
   - "anew-rs"

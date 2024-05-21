@@ -1,6 +1,7 @@
 name: "phantun"
 description: "Easy per application transparent proxy built on cgroup."
-url: "https://github.com/dndx/phantun"
+web_url: "https://github.com/dndx/phantun"
+repo_url: "https://github.com/dndx/phantun"
 bins:
   - "phantun-client"
   - "phantun-server"

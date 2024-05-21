@@ -1,5 +1,6 @@
 name: "assh"
 description: "\U0001F4BB make your ssh client smarter"
-url: "https://github.com/moul/assh"
+web_url: "https://github.com/moul/assh"
+repo_url: "https://github.com/moul/assh"
 bins:
   - "assh"

@@ -1,5 +1,6 @@
 name: "netstat"
 description: ""
-url: "https://sourceforge.net/projects/net-tools/"
+web_url: "https://sourceforge.net/projects/net-tools/"
+repo_url: ""
 bins:
   - "netstat nmctl"

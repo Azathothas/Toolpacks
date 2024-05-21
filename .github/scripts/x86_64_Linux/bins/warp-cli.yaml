@@ -1,6 +1,7 @@
 name: "warp-cli"
 description: "cloudflare warp"
-url: "https://pkg.cloudflareclient.com"
+web_url: "https://pkg.cloudflareclient.com"
+repo_url: ""
 bins:
   - "warp-cli"
   - "warp-dex"

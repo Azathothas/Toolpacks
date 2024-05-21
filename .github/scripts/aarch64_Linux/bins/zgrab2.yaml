@@ -1,5 +1,6 @@
 name: "zgrab2"
 description: "Fast Go Application Scanner"
-url: "https://github.com/zmap/zgrab2"
+web_url: "https://github.com/zmap/zgrab2"
+repo_url: "https://github.com/zmap/zgrab2"
 bins:
   - "zgrab2"

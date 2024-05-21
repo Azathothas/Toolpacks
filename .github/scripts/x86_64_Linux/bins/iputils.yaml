@@ -1,6 +1,7 @@
 name: "iputils"
 description: "The iputils package is set of small old utilities for Linux networking."
-url: "https://github.com/iputils/iputils"
+web_url: "https://github.com/iputils/iputils"
+repo_url: "https://github.com/iputils/iputils"
 bins:
   - "arping"
   - "clockdiff"

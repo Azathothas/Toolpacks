@@ -1,5 +1,6 @@
 name: "tailspin"
 description: "\U0001F300 A log file highlighter"
-url: "https://github.com/bensadeh/tailspin"
+web_url: "https://github.com/bensadeh/tailspin"
+repo_url: "https://github.com/bensadeh/tailspin"
 bins:
   - "tailspin"

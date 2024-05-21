@@ -1,5 +1,6 @@
 name: "gpg-tui"
 description: "Manage your GnuPG keys with ease! \U0001F510"
-url: "https://github.com/orhun/gpg-tui"
+web_url: "https://github.com/orhun/gpg-tui"
+repo_url: "https://github.com/orhun/gpg-tui"
 bins:
   - "gpg-tui"

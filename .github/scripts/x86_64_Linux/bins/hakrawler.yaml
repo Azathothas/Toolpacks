@@ -1,5 +1,6 @@
 name: "hakrawler"
 description: "Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application"
-url: "https://github.com/hakluke/hakrawler"
+web_url: "https://github.com/hakluke/hakrawler"
+repo_url: "https://github.com/hakluke/hakrawler"
 bins:
   - "hakrawler"

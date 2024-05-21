@@ -1,6 +1,7 @@
 name: "comb"
 description: "Combine the lines from two files in every combination."
-url: "https://github.com/Azathothas/Arsenal"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
 bins:
   - "certstream"
   - "comb"

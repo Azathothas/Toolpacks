@@ -1,5 +1,6 @@
 name: "arduino-cli"
 description: "Arduino command line tool"
-url: "https://github.com/arduino/arduino-cli"
+web_url: "https://github.com/arduino/arduino-cli"
+repo_url: "https://github.com/arduino/arduino-cli"
 bins:
   - "arduino-cli"

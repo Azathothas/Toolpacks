@@ -1,5 +1,6 @@
 name: "restic"
 description: "Fast, secure, efficient backup program"
-url: "https://github.com/restic/restic"
+web_url: "https://github.com/restic/restic"
+repo_url: "https://github.com/restic/restic"
 bins:
   - "restic comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

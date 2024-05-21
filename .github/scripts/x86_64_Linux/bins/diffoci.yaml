@@ -1,5 +1,6 @@
 name: "diffoci"
 description: "diff for Docker and OCI container images"
-url: "https://github.com/reproducible-containers/diffoci"
+web_url: "https://github.com/reproducible-containers/diffoci"
+repo_url: "https://github.com/reproducible-containers/diffoci"
 bins:
   - "diffoci"

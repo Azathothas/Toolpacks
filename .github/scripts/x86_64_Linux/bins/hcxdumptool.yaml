@@ -1,5 +1,6 @@
 name: "hcxdumptool"
 description: "Small tool to capture packets from wlan devices."
-url: "https://github.com/ZerBea/hcxdumptool"
+web_url: "https://github.com/ZerBea/hcxdumptool"
+repo_url: "https://github.com/ZerBea/hcxdumptool"
 bins:
   - "hcxdumptool"

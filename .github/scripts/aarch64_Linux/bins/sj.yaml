@@ -1,5 +1,6 @@
 name: "sj"
 description: "A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files."
-url: "https://github.com/BishopFox/sj"
+web_url: "https://github.com/BishopFox/sj"
+repo_url: "https://github.com/BishopFox/sj"
 bins:
   - "sj"

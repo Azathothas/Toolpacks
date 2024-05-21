@@ -1,5 +1,6 @@
 name: "samurai"
 description: "ninja-compatible build tool written in C"
-url: "https://github.com/michaelforney/samurai"
+web_url: "https://github.com/michaelforney/samurai"
+repo_url: "https://github.com/michaelforney/samurai"
 bins:
   - ""

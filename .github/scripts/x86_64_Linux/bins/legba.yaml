@@ -1,5 +1,6 @@
 name: "legba"
 description: "A multiprotocol credentials bruteforcer / password sprayer and enumerator. \U0001F977"
-url: "https://github.com/evilsocket/legba"
+web_url: "https://github.com/evilsocket/legba"
+repo_url: "https://github.com/evilsocket/legba"
 bins:
   - "legba"

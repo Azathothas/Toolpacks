@@ -1,5 +1,6 @@
 name: "smartdns"
 description: "local DNS server (Dnsmasq like) to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3."
-url: "https://github.com/pymumu/smartdns"
+web_url: "https://github.com/pymumu/smartdns"
+repo_url: "https://github.com/pymumu/smartdns"
 bins:
   - ""

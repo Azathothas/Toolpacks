@@ -1,6 +1,7 @@
 name: "certstream"
 description: "Cli for calidogs certstream"
-url: "https://github.com/Azathothas/Arsenal"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
 bins:
   - "certstream"
   - "comb"

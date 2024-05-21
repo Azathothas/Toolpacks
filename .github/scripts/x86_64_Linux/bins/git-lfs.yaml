@@ -1,5 +1,6 @@
 name: "git-lfs"
 description: "Git extension for versioning large files"
-url: "https://github.com/git-lfs/git-lfs"
+web_url: "https://github.com/git-lfs/git-lfs"
+repo_url: "https://github.com/git-lfs/git-lfs"
 bins:
   - "git-lfs"

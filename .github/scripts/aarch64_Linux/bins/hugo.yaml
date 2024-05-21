@@ -1,5 +1,6 @@
 name: "hugo"
 description: "The world’s fastest framework for building websites."
-url: "https://github.com/gohugoio/hugo"
+web_url: "https://github.com/gohugoio/hugo"
+repo_url: "https://github.com/gohugoio/hugo"
 bins:
   - "hugo"

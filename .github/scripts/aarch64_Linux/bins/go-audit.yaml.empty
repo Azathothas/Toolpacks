@@ -1,5 +1,6 @@
 name: "go-audit"
 description: "go-audit is an alternative to the auditd daemon that ships with many distros"
-url: "https://github.com/slackhq/go-audit"
+web_url: "https://github.com/slackhq/go-audit"
+repo_url: "https://github.com/slackhq/go-audit"
 bins:
   - ""

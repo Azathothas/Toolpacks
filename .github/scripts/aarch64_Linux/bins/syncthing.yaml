@@ -1,5 +1,6 @@
 name: "Syncthing"
 description: "Open Source Continuous File Synchronization"
-url: "https://github.com/syncthing/syncthing"
+web_url: "https://github.com/syncthing/syncthing"
+repo_url: "https://github.com/syncthing/syncthing"
 bins:
   - "syncthing"

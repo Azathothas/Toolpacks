@@ -1,5 +1,6 @@
 name: "gau"
 description: "Fetch known URLs from AlienVaults Open Threat Exchange, the Wayback Machine, and Common Crawl."
-url: "https://github.com/lc/gau"
+web_url: "https://github.com/lc/gau"
+repo_url: "https://github.com/lc/gau"
 bins:
   - "gau"

@@ -1,5 +1,6 @@
 name: "BinGrep"
 description: "like ~~grep~~ UBER, but for binaries"
-url: "https://github.com/m4b/bingrep"
+web_url: "https://github.com/m4b/bingrep"
+repo_url: "https://github.com/m4b/bingrep"
 bins:
   - "bingrep binfetch.cfg"

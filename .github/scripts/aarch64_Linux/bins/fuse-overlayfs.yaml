@@ -1,5 +1,6 @@
 name: "fuse-overlayfs"
 description: "FUSE implementation for overlayfs"
-url: "https://github.com/containers/fuse-overlayfs"
+web_url: "https://github.com/containers/fuse-overlayfs"
+repo_url: "https://github.com/containers/fuse-overlayfs"
 bins:
   - "fuse-overlayfs"

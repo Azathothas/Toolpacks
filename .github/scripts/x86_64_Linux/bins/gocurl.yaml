@@ -1,5 +1,6 @@
 name: "gocurl"
 description: "Simplified version of curl written in pure Go"
-url: "https://github.com/ameshkov/gocurl"
+web_url: "https://github.com/ameshkov/gocurl"
+repo_url: "https://github.com/ameshkov/gocurl"
 bins:
   - "gocurl gocryptfs-xray goanywhere gobusybox makebb makebbmain rewritepkg u-root-busybox uroot-busybox"

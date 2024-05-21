@@ -1,5 +1,6 @@
 name: "crt"
 description: "A CLI tool to check Certificate Transparency logs of a domain name"
-url: "https://github.com/cemulus/crt"
+web_url: "https://github.com/cemulus/crt"
+repo_url: "https://github.com/cemulus/crt"
 bins:
   - "crt crontab cronie-cronnext cronie-crontab"

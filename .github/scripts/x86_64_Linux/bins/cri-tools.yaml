@@ -1,5 +1,6 @@
 name: "cri-tools"
 description: "CLI and validation tools for Kubelet Container Runtime Interface (CRI)"
-url: "https://github.com/kubernetes-sigs/cri-tools"
+web_url: "https://github.com/kubernetes-sigs/cri-tools"
+repo_url: "https://github.com/kubernetes-sigs/cri-tools"
 bins:
   - "crictl"

@@ -1,5 +1,6 @@
 name: "shell2http"
 description: "Executing shell commands via HTTP server"
-url: "https://github.com/msoap/shell2http"
+web_url: "https://github.com/msoap/shell2http"
+repo_url: "https://github.com/msoap/shell2http"
 bins:
   - ""

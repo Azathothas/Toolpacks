@@ -1,5 +1,6 @@
 name: "hwatch"
 description: "A modern alternative to the watch command, records the differences in execution results and can check this differences at after."
-url: "https://github.com/blacknon/hwatch"
+web_url: "https://github.com/blacknon/hwatch"
+repo_url: "https://github.com/blacknon/hwatch"
 bins:
   - "hwatch hurlfmt"

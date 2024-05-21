@@ -1,6 +1,7 @@
 name: "sysstat"
 description: "Performance monitoring tools for Linux"
-url: "https://github.com/sysstat/sysstat"
+web_url: "https://github.com/sysstat/sysstat"
+repo_url: "https://github.com/sysstat/sysstat"
 bins:
   - "cifsiostat"
   - "iostat"

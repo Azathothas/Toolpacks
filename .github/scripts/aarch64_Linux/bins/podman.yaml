@@ -1,5 +1,6 @@
 name: "podman"
 description: "A tool for managing OCI containers and pods."
-url: "https://github.com/containers/podman"
+web_url: "https://github.com/containers/podman"
+repo_url: "https://github.com/containers/podman"
 bins:
   - "podman"

@@ -1,6 +1,7 @@
 name: "findutils"
 description: "Rust implementation of findutils"
-url: "https://github.com/uutils/findutils"
+web_url: "https://github.com/uutils/findutils"
+repo_url: "https://github.com/uutils/findutils"
 bins:
   - "find-rs.exe"
   - "find.exe"

@@ -1,5 +1,6 @@
 name: "smartdns-rs"
 description: "local DNS server (Dnsmasq like) written in rust to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3."
-url: "https://github.com/mokeyish/smartdns-rs"
+web_url: "https://github.com/mokeyish/smartdns-rs"
+repo_url: "https://github.com/mokeyish/smartdns-rs"
 bins:
   - "smartdns-rs"

@@ -1,5 +1,6 @@
 name: "crlfuzz"
 description: "A fast tool to scan CRLF vulnerability written in Go"
-url: "hhttps://github.com/dwisiswant0/crlfuzz"
+web_url: "hhttps://github.com/dwisiswant0/crlfuzz"
+repo_url: "hhttps://github.com/dwisiswant0/crlfuzz"
 bins:
   - "crlfuzz"

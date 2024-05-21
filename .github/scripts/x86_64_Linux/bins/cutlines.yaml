@@ -1,6 +1,7 @@
 name: "cutlines"
 description: "Cut & Paste Lines (from|to) file without $TEMPFILE even if another process is writing to it"
-url: "https://github.com/Azathothas/Arsenal"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
 bins:
   - "certstream"
   - "comb"

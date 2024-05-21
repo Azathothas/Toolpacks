@@ -1,5 +1,6 @@
 name: "diffutils"
 description: "Dropped in replacement of diffutils in Rust"
-url: "https://github.com/uutils/diffutils"
+web_url: "https://github.com/uutils/diffutils"
+repo_url: "https://github.com/uutils/diffutils"
 bins:
   - "diffutils-rs"

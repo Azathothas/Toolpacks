@@ -1,5 +1,6 @@
 name: "namegen"
 description: "A unique(ish) random name and id generator"
-url: "https://github.com/anandvarma/namegen"
+web_url: "https://github.com/anandvarma/namegen"
+repo_url: "https://github.com/anandvarma/namegen"
 bins:
   - "namegen"

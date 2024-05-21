@@ -1,5 +1,6 @@
 name: "resto"
 description: "\U0001F517 Send pretty HTTP & API requests with TUI."
-url: "https://github.com/abdfnx/resto"
+web_url: "https://github.com/abdfnx/resto"
+repo_url: "https://github.com/abdfnx/resto"
 bins:
   - "resto"

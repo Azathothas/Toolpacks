@@ -1,5 +1,6 @@
 name: "dns-doctor"
 description: "Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems"
-url: "https://github.com/jvns/dns-doctor"
+web_url: "https://github.com/jvns/dns-doctor"
+repo_url: "https://github.com/jvns/dns-doctor"
 bins:
   - "dns-doctor dizi-server"

@@ -1,5 +1,6 @@
 name: "mc"
 description: "Drive performance measurement tool"
-url: "https://github.com/minio/mc"
+web_url: "https://github.com/minio/mc"
+repo_url: "https://github.com/minio/mc"
 bins:
   - "mc"

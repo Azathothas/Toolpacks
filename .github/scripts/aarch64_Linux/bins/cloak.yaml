@@ -1,5 +1,6 @@
 name: "cloak"
 description: "A censorship circumvention tool to evade detection by authoritarian state adversaries"
-url: "https://github.com/cbeuw/Cloak"
+web_url: "https://github.com/cbeuw/Cloak"
+repo_url: "https://github.com/cbeuw/Cloak"
 bins:
   - " clipcat-notify clipcatctl clipcatd"

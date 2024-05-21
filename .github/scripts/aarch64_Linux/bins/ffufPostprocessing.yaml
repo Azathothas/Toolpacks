@@ -1,5 +1,6 @@
 name: "ffufPostprocessing"
 description: "Filter ffuf results"
-url: "https://github.com/Damian89/ffufPostprocessing"
+web_url: "https://github.com/Damian89/ffufPostprocessing"
+repo_url: "https://github.com/Damian89/ffufPostprocessing"
 bins:
   - "ffufPostprocessing"

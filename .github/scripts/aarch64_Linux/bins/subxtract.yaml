@@ -1,6 +1,7 @@
 name: "subxtract"
 description: "Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor"
-url: "https://github.com/Azathothas/Arsenal"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
 bins:
   - "certstream"
   - "comb"

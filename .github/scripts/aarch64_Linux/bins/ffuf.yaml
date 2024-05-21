@@ -1,5 +1,6 @@
 name: "ffuf"
 description: "Fast web fuzzer written in Go"
-url: "https://github.com/ffuf/ffuf"
+web_url: "https://github.com/ffuf/ffuf"
+repo_url: "https://github.com/ffuf/ffuf"
 bins:
   - "ffuf ffprobe"

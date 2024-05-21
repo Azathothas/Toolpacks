@@ -1,5 +1,6 @@
 name: "ladder"
 description: "Selfhosted alternative to 12ft.io. and 1ft.io"
-url: "https://github.com/everywall/ladder"
+web_url: "https://github.com/everywall/ladder"
+repo_url: "https://github.com/everywall/ladder"
 bins:
   - "ladder"

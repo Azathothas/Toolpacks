@@ -1,5 +1,6 @@
 name: "sd"
 description: "Intuitive find & replace CLI (sed alternative)"
-url: "https://github.com/chmln/sd"
+web_url: "https://github.com/chmln/sd"
+repo_url: "https://github.com/chmln/sd"
 bins:
   - "sd"

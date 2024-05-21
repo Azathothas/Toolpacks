@@ -1,6 +1,7 @@
 name: "sudo"
 description: "A command to run commands as root"
-url: "https://github.com/sudo-project/sudo"
+web_url: "https://github.com/sudo-project/sudo"
+repo_url: "https://github.com/sudo-project/sudo"
 bins:
   - "cvtsudoers"
   - "sudo"

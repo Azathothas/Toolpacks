@@ -1,6 +1,7 @@
 name: "NetMaker"
 description: "makes networks with WireGuard"
-url: "https://github.com/gravitl/netmaker"
+web_url: "https://github.com/gravitl/netmaker"
+repo_url: "https://github.com/gravitl/netmaker"
 bins:
   - "netmaker"
   - "nmctl"

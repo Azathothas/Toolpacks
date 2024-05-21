@@ -1,5 +1,6 @@
 name: "which"
 description: "Shows the full path of (shell) commands"
-url: "https://www.gnu.org/software/which/"
+web_url: "https://www.gnu.org/software/which/"
+repo_url: ""
 bins:
   - ""

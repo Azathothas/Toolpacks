@@ -1,5 +1,6 @@
 name: "asnmap"
 description: "Mapping organization network ranges using ASN information"
-url: "https://github.com/projectdiscovery/asnmap"
+web_url: "https://github.com/projectdiscovery/asnmap"
+repo_url: "https://github.com/projectdiscovery/asnmap"
 bins:
   - "asnmap"

@@ -1,5 +1,6 @@
 name: "awk"
 description: "updated awk"
-url: "https://github.com/onetrueawk/awk"
+web_url: "https://github.com/onetrueawk/awk"
+repo_url: "https://github.com/onetrueawk/awk"
 bins:
   - "awk"

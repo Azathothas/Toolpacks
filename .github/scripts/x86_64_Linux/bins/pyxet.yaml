@@ -1,5 +1,6 @@
 name: "pyxet"
 description: "\U0001F4A5 Python CLI for XetHub"
-url: "https://github.com/xetdata/pyxet"
+web_url: "https://github.com/xetdata/pyxet"
+repo_url: "https://github.com/xetdata/pyxet"
 bins:
   - "xet_staticx"

@@ -1,5 +1,6 @@
 name: "systeroid"
 description: "A more powerful alternative to sysctl(8) with a terminal user interface \U0001F427"
-url: "https://github.com/orhun/systeroid"
+web_url: "https://github.com/orhun/systeroid"
+repo_url: "https://github.com/orhun/systeroid"
 bins:
   - "systeroid"

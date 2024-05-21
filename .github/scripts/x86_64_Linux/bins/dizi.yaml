@@ -1,6 +1,7 @@
 name: "dizi"
 description: "Server-client music player written in Rust"
-url: "https://github.com/kamiyaa/dizi"
+web_url: "https://github.com/kamiyaa/dizi"
+repo_url: "https://github.com/kamiyaa/dizi"
 bins:
   - "dizi"
   - "dizi-server"

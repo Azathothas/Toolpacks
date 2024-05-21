@@ -1,5 +1,6 @@
 name: "gobuster"
 description: "Directory/File, DNS and VHost busting tool written in Go"
-url: "https://github.com/OJ/gobuster"
+web_url: "https://github.com/OJ/gobuster"
+repo_url: "https://github.com/OJ/gobuster"
 bins:
   - "gobuster"

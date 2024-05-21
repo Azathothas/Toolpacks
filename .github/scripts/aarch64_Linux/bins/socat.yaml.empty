@@ -1,5 +1,6 @@
 name: "socat"
 description: "successor to netcat"
-url: "http://www.dest-unreach.org/socat/"
+web_url: "http://www.dest-unreach.org/socat/"
+repo_url: ""
 bins:
   - ""

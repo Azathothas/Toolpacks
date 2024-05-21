@@ -1,6 +1,7 @@
 name: "cfssl"
 description: "Cloudflares PKI and TLS toolkit"
-url: "https://github.com/cloudflare/cfssl"
+web_url: "https://github.com/cloudflare/cfssl"
+repo_url: "https://github.com/cloudflare/cfssl"
 bins:
   - "cfssl"
   - "cfssl-bundle"

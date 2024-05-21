@@ -1,5 +1,6 @@
 name: "overmind"
 description: "Process manager for Procfile-based applications and tmux"
-url: "https://github.com/DarthSim/overmind"
+web_url: "https://github.com/DarthSim/overmind"
+repo_url: "https://github.com/DarthSim/overmind"
 bins:
   - "overmind"

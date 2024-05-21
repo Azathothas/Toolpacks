@@ -1,5 +1,6 @@
 name: "tmux"
 description: "terminal multiplexer"
-url: "https://github.com/tmux/tmux"
+web_url: "https://github.com/tmux/tmux"
+repo_url: "https://github.com/tmux/tmux"
 bins:
   - ""

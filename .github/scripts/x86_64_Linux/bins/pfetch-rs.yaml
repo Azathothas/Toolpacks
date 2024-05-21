@@ -1,5 +1,6 @@
 name: "pfetch-rs"
 description: "A rewrite of the pfetch system information tool in Rust"
-url: "https://github.com/Gobidev/pfetch-rs"
+web_url: "https://github.com/Gobidev/pfetch-rs"
+repo_url: "https://github.com/Gobidev/pfetch-rs"
 bins:
   - "pfetch-rs"

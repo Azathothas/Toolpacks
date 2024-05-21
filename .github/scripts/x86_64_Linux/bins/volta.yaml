@@ -1,5 +1,6 @@
 name: "volta"
 description: "JS Toolchains as Code. ⚡"
-url: "https://github.com/volta-cli/volta"
+web_url: "https://github.com/volta-cli/volta"
+repo_url: "https://github.com/volta-cli/volta"
 bins:
   - "volta"

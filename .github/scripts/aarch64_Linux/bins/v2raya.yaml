@@ -1,5 +1,6 @@
 name: "v2raya"
 description: "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. \U0001F680"
-url: "https://github.com/v2rayA/v2rayA"
+web_url: "https://github.com/v2rayA/v2rayA"
+repo_url: "https://github.com/v2rayA/v2rayA"
 bins:
   - "v2raya"

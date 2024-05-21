@@ -1,5 +1,6 @@
 name: "duf"
 description: "Disk Usage/Free Utility - a better df alternative"
-url: "https://github.com/muesli/duf"
+web_url: "https://github.com/muesli/duf"
+repo_url: "https://github.com/muesli/duf"
 bins:
   - "duf"

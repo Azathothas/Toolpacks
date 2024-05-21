@@ -1,6 +1,7 @@
 name: "z-tokens"
 description: "z-tokens -- random tokens generation and related tools"
-url: "https://github.com/volution/z-tokens"
+web_url: "https://github.com/volution/z-tokens"
+repo_url: "https://github.com/volution/z-tokens"
 bins:
   - "z-tokens"
   - "zt-encodings"

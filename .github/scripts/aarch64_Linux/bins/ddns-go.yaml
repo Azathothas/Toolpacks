@@ -1,5 +1,6 @@
 name: "ddns-go"
 description: "Simple and easy to use DDNS."
-url: "https://github.com/jeessy2/ddns-go"
+web_url: "https://github.com/jeessy2/ddns-go"
+repo_url: "https://github.com/jeessy2/ddns-go"
 bins:
   - "ddns-go"

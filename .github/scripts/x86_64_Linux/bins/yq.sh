@@ -25,8 +25,28 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="yq" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/mikefarah/yq" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "yq_linux_amd64" --asset "^.tar.gz" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+      #Build (alpine-musl)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/mikefarah/yq" && cd "./yq"
+         GOOS="linux" GOARCH="amd64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''"
+        #strip & info
+         strip "./yq"
+         cp "./yq" "/build-bins/yq"
+        '
+      #Copy
+       docker cp "alpine-builder:/build-bins/yq" "./yq"
+       #Meta 
+       file "./yq" && du -sh "./yq" ; cp "./yq" "$BINDIR/yq"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
@@ -39,4 +59,5 @@ unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RA
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config
 unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
+#-------------------------------------------------------#
 #-------------------------------------------------------#

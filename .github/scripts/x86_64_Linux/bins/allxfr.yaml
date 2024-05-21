@@ -1,5 +1,6 @@
 name: "allxfr"
 description: "AXFR all the things!"
-url: "https://github.com/lanrat/allxfr"
+web_url: "https://github.com/lanrat/allxfr"
+repo_url: "https://github.com/lanrat/allxfr"
 bins:
   - "allxfr"

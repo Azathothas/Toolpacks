@@ -1,6 +1,7 @@
 name: "nmap"
 description: "port scanner"
-url: "https://github.com/nmap/nmap"
+web_url: "https://github.com/nmap/nmap"
+repo_url: "https://github.com/nmap/nmap"
 bins:
   - "ncat"
   - "nmap"

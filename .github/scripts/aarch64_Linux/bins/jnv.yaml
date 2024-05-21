@@ -1,5 +1,6 @@
 name: "jnv"
 description: "interactive JSON filter using jq"
-url: "https://github.com/ynqa/jnv"
+web_url: "https://github.com/ynqa/jnv"
+repo_url: "https://github.com/ynqa/jnv"
 bins:
   - "jnv"

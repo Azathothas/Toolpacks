@@ -23,11 +23,13 @@ generate_yaml()
 {
     local name="$1"
     local description="$2"
-    local url="$3"
-    local n_bins=("${@:4}")
+    local web_url="$3"
+    local repo_url="$4"
+    local n_bins=("${@:5}")
     echo "name: \"$name\""
     echo "description: \"$description\""
-    echo "url: \"$url\""
+    echo "web_url: \"$web_url\""
+    echo "repo_url: \"$repo_url\""
     echo "bins:"
     for n_bin in "${n_bins[@]}"; do
         echo "  - \"$n_bin\""
@@ -41,22 +43,25 @@ for BUILD_URL in $(cat "$SYSTMP/BUILDURLS"); do
    #Fetch 
     curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
    #Name
-    #NAME="$(cat "$BUILDSCRIPT" | awk '/if \[ "\$SKIP_BUILD" == "NO" \]; then/,/export BIN=/ {if ($0 !~ /(if \[ "\$SKIP_BUILD" == "NO" \]; then|export BIN=)/ && NR!=1 && NR!=2) print}' | sed 's/^[ \t]*//;s/[ \t]*$//' | awk -F '#|:' 'NR==1{gsub(/^[ \t]*|[ \t]*$/, "", $2); gsub(/^[ \t]*|[ \t]*$/, "", $3); print $2}' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export NAME="${NAME}"
     NAME=$(cat "$BUILDSCRIPT" | awk '/if \(\$env:SKIP_BUILD -eq "NO"\) {/,/}/ {if ($0 !~ /(if \(\$env:SKIP_BUILD -eq "NO"\) {|})/ && NR!=1 && NR!=2) print}' | sed 's/^[ \t]*//;s/[ \t]*$//' | awk -F '#|:' 'NR==1{gsub(/^[ \t]*|[ \t]*$/, "", $2); gsub(/^[ \t]*|[ \t]*$/, "", $3); print $2}' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]') && export NAME="${NAME}"
     echo "Name: ${NAME}"
    #Description 
-    #DESCRIPTION="$(cat "$BUILDSCRIPT" | awk '/if \[ "\$SKIP_BUILD" == "NO" \]; then/,/export BIN=/ {if ($0 !~ /(if \[ "\$SKIP_BUILD" == "NO" \]; then|export BIN=)/ && NR!=1 && NR!=2) print}' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/:/PLACEHOLDER/; s/:/ /g; s/PLACEHOLDER/:/' | awk -F '#|:' 'NR==1{gsub(/^[ \t]*|[ \t]*$/, "", $2); gsub(/^[ \t]*|[ \t]*$/, "", $3); print $3}' | sed 's/["'\'']//g' | sed 's/`//g')" && export DESCRIPTION="${DESCRIPTION}"
     DESCRIPTION="$(cat "$BUILDSCRIPT" | awk '/if \(\$env:SKIP_BUILD -eq "NO"\) {/,/}/ {if ($0 !~ /(if \(\$env:SKIP_BUILD -eq "NO"\) {|})/ && NR!=1 && NR!=2) print}' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/:/PLACEHOLDER/; s/:/ /g; s/PLACEHOLDER/:/' | awk -F '#|:' 'NR==1{gsub(/^[ \t]*|[ \t]*$/, "", $2); gsub(/^[ \t]*|[ \t]*$/, "", $3); print $3}' | sed 's/["'\'']//g' | sed 's/`//g')" && export DESCRIPTION="${DESCRIPTION}"
     echo "Description: ${DESCRIPTION}"
-   #URL
-    URL="$(cat "$BUILDSCRIPT" | grep -o '$env:SOURCE_URL = "\([^"]*\)"' | sed 's/$env:SOURCE_URL = "\(.*\)"/\1/' | sed 's/ //g' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export URL="${URL}"
-    echo "URL: ${URL}"
+   #WEB_URL
+    WEB_URL="$(cat "$BUILDSCRIPT" | grep -o '$env:SOURCE_URL = "\([^"]*\)"' | sed 's/$env:SOURCE_URL = "\(.*\)"/\1/' | sed 's/ //g' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export WEB_URL="${WEB_URL}" ; echo "WEB_URL: ${WEB_URL}"
+    if [[ "${WEB_URL}" =~ git ]]; then
+         export REPO_URL="${WEB_URL}"
+         echo "REPO_URL: ${REPO_URL}"
+    else
+         export REPO_URL=""
+    fi    
    #Bin
-    BIN_ARRAY="$(cat $SYSTMP/METADATA.json | jq -r --arg URL "$URL" '.[] | select(.Repo == $URL) | .Name' | sed 's/`//g' | sort -u)" && export BIN_ARRAY="${BIN_ARRAY[@]}"
+    BIN_ARRAY="$(cat $SYSTMP/METADATA.json | jq -r --arg WEB_URL "$WEB_URL" '.[] | select(.Repo == $WEB_URL) | .Name' | sed 's/`//g' | sort -u)" && export BIN_ARRAY="${BIN_ARRAY[@]}"
     echo "BIN : ${BIN_ARRAY//[$'\n']/ }"
    #Generate YAML
     readarray -t BIN_ARRAY <<< "${BIN_ARRAY}"
-    generate_yaml "$NAME" "$DESCRIPTION" "$URL" "${BIN_ARRAY[@]}" | yq . --no-colors > "${YAML_DIR}/${NAME_S}.yaml"
+    generate_yaml "$NAME" "$DESCRIPTION" "$WEB_URL" "$REPO_URL" "${BIN_ARRAY[@]}" | yq . --no-colors > "${YAML_DIR}/${NAME_S}.yaml"
 done
 ##Check
 cd "${YAML_DIR}"

@@ -1,5 +1,6 @@
 name: "rustypaste"
 description: "A minimal file upload/pastebin service."
-url: "https://github.com/orhun/rustypaste"
+web_url: "https://github.com/orhun/rustypaste"
+repo_url: "https://github.com/orhun/rustypaste"
 bins:
   - "rustypaste"

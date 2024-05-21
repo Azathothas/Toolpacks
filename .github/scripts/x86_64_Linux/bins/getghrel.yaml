@@ -1,5 +1,6 @@
 name: "getghrel(getgithubrelease)isatoolthatfetchesandinstallsthelatestreleaseassetsfromGithub"
 description: ""
-url: "https://github.com/kavishgr/getghrel"
+web_url: "https://github.com/kavishgr/getghrel"
+repo_url: "https://github.com/kavishgr/getghrel"
 bins:
   - "getghrel comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok geoping"

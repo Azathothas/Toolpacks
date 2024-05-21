@@ -1,5 +1,6 @@
 name: "gdu"
 description: "Fast disk usage analyzer with console interface written in Go"
-url: "https://github.com/dundee/gdu"
+web_url: "https://github.com/dundee/gdu"
+repo_url: "https://github.com/dundee/gdu"
 bins:
   - "gdu"

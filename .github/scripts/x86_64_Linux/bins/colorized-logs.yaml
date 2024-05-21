@@ -1,6 +1,7 @@
 name: "colorized-logs"
 description: "tools for logs with ANSI color"
-url: "https://github.com/kilobyte/colorized-logs"
+web_url: "https://github.com/kilobyte/colorized-logs"
+repo_url: "https://github.com/kilobyte/colorized-logs"
 bins:
   - "ansi2html"
   - "ansi2txt"

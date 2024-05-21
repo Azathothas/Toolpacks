@@ -1,5 +1,6 @@
 name: "aretext"
 description: "Minimalist text editor with vim-compatible key bindings."
-url: "https://github.com/aretext/aretext"
+web_url: "https://github.com/aretext/aretext"
+repo_url: "https://github.com/aretext/aretext"
 bins:
   - "aretext"

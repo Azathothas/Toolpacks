@@ -1,5 +1,6 @@
 name: "dagu"
 description: "cron alternative with a Web UI, but with much more capabilities"
-url: "https://github.com/dagu-dev/dagu"
+web_url: "https://github.com/dagu-dev/dagu"
+repo_url: "https://github.com/dagu-dev/dagu"
 bins:
   - "dagu"

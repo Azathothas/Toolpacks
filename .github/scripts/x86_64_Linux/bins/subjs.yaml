@@ -1,5 +1,6 @@
 name: "subjs"
 description: "Fetches javascript file from a list of URLS or subdomains"
-url: "https://github.com/lc/subjs"
+web_url: "https://github.com/lc/subjs"
+repo_url: "https://github.com/lc/subjs"
 bins:
   - "subjs"

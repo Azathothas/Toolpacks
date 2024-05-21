@@ -1,5 +1,6 @@
 name: "pandoc"
 description: "Universal markup converter"
-url: "https://github.com/jgm/pandoc"
+web_url: "https://github.com/jgm/pandoc"
+repo_url: "https://github.com/jgm/pandoc"
 bins:
   - "pandoc.exe"

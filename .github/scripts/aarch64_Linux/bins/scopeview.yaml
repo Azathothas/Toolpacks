@@ -1,6 +1,7 @@
 name: "scopeview"
 description: "Slightly revamped vesion of TomNomNoms Inscope that allows custom .scope to be defined using -s or --scope options"
-url: "https://github.com/Azathothas/Arsenal"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
 bins:
   - "certstream"
   - "comb"

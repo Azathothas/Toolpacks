@@ -1,5 +1,6 @@
 name: "PassDetective"
 description: "PassDetective is a command-line tool that scans shell command history to detect mistakenly written passwords, API keys, and secrets"
-url: "https://github.com/aydinnyunus/PassDetective"
+web_url: "https://github.com/aydinnyunus/PassDetective"
+repo_url: "https://github.com/aydinnyunus/PassDetective"
 bins:
   - "passdetective"

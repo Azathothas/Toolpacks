@@ -1,6 +1,7 @@
 name: "dos2unix"
 description: "Convert Line Endings"
-url: "https://dos2unix.sourceforge.io"
+web_url: "https://dos2unix.sourceforge.io"
+repo_url: ""
 bins:
   - "dos2unix"
   - "mac2unix"

@@ -1,5 +1,6 @@
 name: "GRPCurl"
 description: "Like cURL, but for gRPC  Command-line tool for interacting with gRPC servers"
-url: "https://github.com/fullstorydev/grpcurl"
+web_url: "https://github.com/fullstorydev/grpcurl"
+repo_url: "https://github.com/fullstorydev/grpcurl"
 bins:
   - "grpcurl"

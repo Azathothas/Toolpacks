@@ -1,5 +1,6 @@
 name: "airiXSS"
 description: "xss automater"
-url: "https://github.com/ferreiraklet/airixss"
+web_url: "https://github.com/ferreiraklet/airixss"
+repo_url: "https://github.com/ferreiraklet/airixss"
 bins:
   - "airixss"

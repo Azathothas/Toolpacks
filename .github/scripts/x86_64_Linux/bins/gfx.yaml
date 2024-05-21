@@ -1,5 +1,6 @@
 name: "gfx"
 description: "Updated gf"
-url: "https://github.com/dwisiswant0/gfx"
+web_url: "https://github.com/dwisiswant0/gfx"
+repo_url: "https://github.com/dwisiswant0/gfx"
 bins:
   - "gfx"

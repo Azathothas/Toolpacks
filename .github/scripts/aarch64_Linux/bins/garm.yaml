@@ -1,6 +1,7 @@
 name: "garm"
 description: "GitHub Actions Runners Manager"
-url: "https://github.com/cloudbase/garm"
+web_url: "https://github.com/cloudbase/garm"
+repo_url: "https://github.com/cloudbase/garm"
 bins:
   - "garm"
   - "garm-cli"

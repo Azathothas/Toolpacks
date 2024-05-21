@@ -1,5 +1,6 @@
 name: "miniserve"
 description: "Http Server"
-url: "https://github.com/svenstaro/miniserve"
+web_url: "https://github.com/svenstaro/miniserve"
+repo_url: "https://github.com/svenstaro/miniserve"
 bins:
   - "miniserve.exe"

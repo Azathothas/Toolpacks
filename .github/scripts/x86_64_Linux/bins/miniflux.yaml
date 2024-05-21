@@ -1,5 +1,6 @@
 name: "miniflux"
 description: "Minimalist and opinionated feed reader"
-url: "https://github.com/miniflux/v2"
+web_url: "https://github.com/miniflux/v2"
+repo_url: "https://github.com/miniflux/v2"
 bins:
   - "miniflux"

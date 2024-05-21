@@ -1,5 +1,6 @@
 name: "gitoxide"
 description: "file archiver with a high compression ratio."
-url: "https://github.com/Byron/gitoxide"
+web_url: "https://github.com/Byron/gitoxide"
+repo_url: "https://github.com/Byron/gitoxide"
 bins:
   - " geoping.exe"

@@ -1,6 +1,7 @@
 name: "libnfs"
 description: "NFS client library"
-url: "https://github.com/sahlberg/libnfs"
+web_url: "https://github.com/sahlberg/libnfs"
+repo_url: "https://github.com/sahlberg/libnfs"
 bins:
   - "nfs-cat"
   - "nfs-cp"
