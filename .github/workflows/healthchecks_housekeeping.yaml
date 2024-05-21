@@ -27,22 +27,7 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          #12.0 GB 
-          sudo rm /usr/local/lib/android -rf 2>/dev/null
-          #8.2 GB
-          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
-          #5.0 GB
-          sudo rm /usr/local/.ghcup -rf 2>/dev/null
-          #2.0 GB
-          sudo rm /usr/share/dotnet -rf 2>/dev/null
-          #1.7 GB
-          sudo rm /usr/share/swift -rf 2>/dev/null
-          #1.1 GB
-          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
-          #1.0 GB
-          sudo rm /usr/local/share/powershell -rf 2>/dev/null
-          #500 MB
-          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
         continue-on-error: true
         
       - name: Checkout repository
@@ -66,14 +51,16 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
-          sudo apt update -y
-          sudo apt install dos2unix -y
-          pip install ansi2txt --upgrade
           ##Get Latest Data (Hysp)
           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.json" -o "$GITHUB_WORKSPACE/main/metadata.json"
           curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.toml" -o "$GITHUB_WORKSPACE/main/metadata.toml"
           ##Setup rClone
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
         continue-on-error: true
 
       - name: Install Addons
@@ -81,32 +68,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          #7z
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-          #action-lint
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
-          #b3sum
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-          #csvtk
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
-          #delta
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
-          #dust
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
-          #eget
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-          #git-sizer
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
-          #rclone
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-          #validtoml
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
-          #Yq
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-          #Yj
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
       - name: Dos2Unix Everything
@@ -143,10 +105,6 @@ jobs:
           #--------------#
           #touch "$HOME/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
-          ##Clean Stale
-          #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins" --exclude="METADATA.json"
-          #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins" --exclude="METADATA.json"
-          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           #copy & chdir to Repo
           cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
           #Git pull
@@ -158,48 +116,37 @@ jobs:
           # rm -rf "$(pwd)/x86_64_Linux"
           # rm -rf "$(pwd)/x64_Windows"
           #Upload to Pub
+          wait ; echo
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
-          ##Scripts_arm64_v8a_Android
+          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
-          #Clean Pretty Formatted
-          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
-          #Update Metadata
-          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json"
-          #Update Repo
-          cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins/metadata.json"          
-          ##Scripts_x86_64_Linux
-          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
-          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
-          #Clean Pretty Formatted
-          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
-          #Update Metadata
-          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
-          #Update Repo
-          cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/metadata.json"
           ##Scripts_aarch64_Linux
-          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
-          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
-          #Clean Pretty Formatted
-          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
-          #Update Metadata
-          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
-          #Update Repo
-          cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins/metadata.json"
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp_aarch64_Linux" & 
+          ##Scripts_arm64_v8a_Android
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp_arm64_v8a_Android" &
+          ##Scripts_x86_64_Linux
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp_x86_64_Linux" &
           ##Scripts_x64_Windows
-          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
-          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
-          #Clean Pretty Formatted
-          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
-          #Update Metadata
-          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"
-          #Update Repo
-          cat "./metadata.json" > "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins/metadata.json"          
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/\(.Name)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp_x64_Windows" &
+          ##Clean Pretty Formatted
+          wait ; echo
+          echo "[" $(cat metadata.json.tmp_aarch64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_aarch64_Linux" &
+          echo "[" $(cat metadata.json.tmp_arm64_v8a_Android | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_arm64_v8a_Android" &
+          echo "[" $(cat metadata.json.tmp_x86_64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x86_64_Linux" &
+          echo "[" $(cat metadata.json.tmp_x64_Windows | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x64_Windows" &
+          ##Update Metadata
+          wait ; echo
+          rclone copyto --checksum "./metadata.json_aarch64_Linux" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json" &
+          rclone copyto --checksum "./metadata.json_arm64_v8a_Android" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json" &
+          rclone copyto --checksum "./metadata.json_x86_64_Linux" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json" &
+          rclone copyto --checksum "./metadata.json_x64_Windows" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json" &
+          ##Update Repo
+          wait ; echo
+          cat "./metadata.json_aarch64_Linux" > "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins/metadata.json"
+          cat "./metadata.json_arm64_v8a_Android" > "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins/metadata.json"  
+          cat "./metadata.json_x86_64_Linux" > "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/metadata.json"
+          cat "./metadata.json_x64_Windows" > "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins/metadata.json"  
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #-----------------------------------------------------#        
@@ -530,12 +477,9 @@ jobs:
           git pull origin main --no-edit 2>/dev/null
           #Del Bloat
           rm -rf "$(pwd)/.git"
-          # rm -rf "$(pwd)/aarch64_arm64"
-          # rm -rf "$(pwd)/arm64_v8a_Android"
-          # rm -rf "$(pwd)/x86_64"
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -562,17 +506,19 @@ jobs:
           #GH ENV
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
-          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
           mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
           mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
-          sudo apt update -y
-          sudo apt install dos2unix -y
-          pip install ansi2txt --upgrade
           ##Setup rClone
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
         continue-on-error: true
 
       - name: Install Addons
@@ -580,32 +526,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          #7z
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-          #action-lint
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
-          #b3sum
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-          #csvtk
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
-          #delta
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
-          #dust
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
-          #eget
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-          #git-sizer
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
-          #rclone
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-          #validtoml
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
-          #Yq
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-          #Yj
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/arm64_v8a_Android)
@@ -690,11 +611,13 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
-          sudo apt update -y
-          sudo apt install dos2unix -y
-          pip install ansi2txt --upgrade
           ##Setup rClone
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
         continue-on-error: true
 
       - name: Install Addons
@@ -702,32 +625,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          #7z
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-          #action-lint
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
-          #b3sum
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-          #csvtk
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
-          #delta
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
-          #dust
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
-          #eget
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-          #git-sizer
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
-          #rclone
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-          #validtoml
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
-          #Yq
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-          #Yj
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/aarch64_arm64_Linux)
@@ -812,11 +710,13 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
-          sudo apt update -y
-          sudo apt install dos2unix -y
-          pip install ansi2txt --upgrade
           ##Setup rClone
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
         continue-on-error: true
 
       - name: Install Addons
@@ -824,32 +724,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          #7z
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-          #action-lint
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
-          #b3sum
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-          #csvtk
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
-          #delta
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
-          #dust
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
-          #eget
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-          #git-sizer
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
-          #rclone
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-          #validtoml
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
-          #Yq
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-          #Yj
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/x86_64_Linux)
@@ -934,11 +809,13 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
-          sudo apt update -y
-          sudo apt install dos2unix -y
-          pip install ansi2txt --upgrade
           ##Setup rClone
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
         continue-on-error: true
 
       - name: Install Addons
@@ -946,32 +823,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          #7z
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-          #action-lint
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
-          #b3sum
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-          #csvtk
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
-          #delta
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
-          #dust
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
-          #eget
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-          #git-sizer
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
-          #rclone
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-          #validtoml
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
-          #Yq
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-          #Yj
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/x64_Windows)
@@ -1060,11 +912,13 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
-          sudo apt update -y
-          sudo apt install dos2unix -y
-          pip install ansi2txt --upgrade
           ##Setup rClone
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
         continue-on-error: true
 
       - name: Install Addons
@@ -1072,32 +926,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          #7z
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
-          #action-lint
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
-          #b3sum
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
-          #csvtk
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
-          #delta
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
-          #dust
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
-          #eget
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-          #git-sizer
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
-          #rclone
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
-          #validtoml
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
-          #Yq
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
-          #Yj
-          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
       - name: Merge & Update ("bin.ajam.dev/METADATA.json")
@@ -1144,16 +973,16 @@ jobs:
           set +x ; set +e
           #-------------#
           #arm64_v8a_Android
-          rclone copyto --checksum "r2:/bin/arm64_v8a_Android/METADATA.json" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto --checksum "r2:/bin/arm64_v8a_Android/METADATA.json" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           #curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json"          
           #aarch64_arm64_Linux
-          rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           #curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json"
           #x86_64_Linux
-          rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           #curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json"
           #x64_Windows
-          rclone copyto --checksum "r2:/bin/x64_Windows/METADATA.json" "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.json" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto --checksum "r2:/bin/x64_Windows/METADATA.json" "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 
       - name: Get DateTime
