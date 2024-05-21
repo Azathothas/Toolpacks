@@ -470,13 +470,11 @@ jobs:
           #--------------------#
           ##arm64_v8a_Android##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/\(.Path)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
-
-          
-
+          rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|txt|zip)$") | not)) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/\(.Path)", B3SUM, SHA256, Repo}' | jq -s 'sort_by(.Name)' | jq '.[]' > "./metadata.json.tmp" &
           #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/arm64_v8a_Android/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/\(.Path)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          rclone lsjson --fast-list --recursive "r2:/bin/arm64_v8a_Android/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|txt|zip)$") | not)) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/\(.Path)"}' | jq -s 'sort_by(.Name)' | jq '.[]' > "./metadata_Baseutils.json.tmp" &
           #Clean Pretty Formatted
+          wait ; echo
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
           #Update Metadata
@@ -485,10 +483,11 @@ jobs:
           #--------------------#
           ##aarch64_arm64_Linux##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Path)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
+          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|txt|zip)$") | not)) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Path)", B3SUM, SHA256, Repo}' | jq -s 'sort_by(.Name)' | jq '.[]' > "./metadata.json.tmp" &
           #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ;.[] | select(.Size != 0) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          rclone lsjson --fast-list --recursive "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ;.[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|txt|zip)$") | not)) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)"}' | jq -s 'sort_by(.Name)' | jq '.[]' > "./metadata_Baseutils.json.tmp" &
           #Clean Pretty Formatted
+          wait ; echo
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
           #Update Metadata
@@ -497,10 +496,11 @@ jobs:
           #--------------------#
           ##x86_64_Linux##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/\(.Path)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
+          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|txt|zip)$") | not)) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/\(.Path)", B3SUM, SHA256, Repo}' | jq -s 'sort_by(.Name)' | jq '.[]' > "./metadata.json.tmp" &
           #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)"}' | jq . > "./metadata_Baseutils.json.tmp"
+          rclone lsjson --fast-list --recursive "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|txt|zip)$") | not)) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)"}' | jq -s 'sort_by(.Name)' | jq '.[]' > "./metadata_Baseutils.json.tmp" &
           #Clean Pretty Formatted
+          wait ; echo
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           echo "[" $(cat metadata_Baseutils.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json"
           #Update Metadata
@@ -509,8 +509,9 @@ jobs:
           #--------------------#
           ##x64_Windows##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x64_Windows/\(.Path)", B3SUM, SHA256, Repo}' | jq . > "./metadata.json.tmp"
+          rclone lsjson --fast-list "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|txt|zip)$") | not)) | {Name, Size: (.Size | tonumber | bytes), ModTime, Source: "https://bin.ajam.dev/x64_Windows/\(.Path)", B3SUM, SHA256, Repo}' | jq -s 'sort_by(.Name)' | jq '.[]' > "./metadata.json.tmp" &
           #Clean Pretty Formatted
+          wait ; echo
           echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
           #Update Metadata
           rclone copyto --checksum "./metadata.json" "r2:/bin/x64_Windows/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress
