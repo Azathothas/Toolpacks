@@ -25,6 +25,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/agg.sh"
   },
   {
+    "name": "agg.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/agg.yaml.invalid"
+  },
+  {
     "name": "agrind.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/agrind.sh"
@@ -220,6 +225,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bdl.sh"
   },
   {
+    "name": "bdl.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bdl.yaml.invalid"
+  },
+  {
     "name": "bearer.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bearer.sh"
@@ -273,6 +283,11 @@
     "name": "bingrep.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bingrep.sh"
+  },
+  {
+    "name": "bingrep.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bingrep.yaml.invalid"
   },
   {
     "name": "binocle.sh",
@@ -435,6 +450,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/certwatcher.sh"
   },
   {
+    "name": "certwatcher.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/certwatcher.yaml.invalid"
+  },
+  {
     "name": "cexec.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cexec.sh"
@@ -448,6 +468,11 @@
     "name": "chaos-client.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/chaos-client.sh"
+  },
+  {
+    "name": "chaos-client.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/chaos-client.yaml.invalid"
   },
   {
     "name": "cheat.sh",
@@ -488,6 +513,11 @@
     "name": "cloak.sh",
     "update_date": "2024-05-11T21:02:36",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cloak.sh"
+  },
+  {
+    "name": "cloak.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cloak.yaml.invalid"
   },
   {
     "name": "cloudcash.sh",
@@ -535,6 +565,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/containerd.sh"
   },
   {
+    "name": "containerd.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/containerd.yaml.invalid"
+  },
+  {
     "name": "coreutils.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/coreutils.sh"
@@ -575,6 +610,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cpufetch.sh"
   },
   {
+    "name": "cpufetch.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cpufetch.yaml.invalid"
+  },
+  {
     "name": "crawley.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/crawley.sh"
@@ -608,6 +648,11 @@
     "name": "crt.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/crt.sh"
+  },
+  {
+    "name": "crt.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/crt.yaml.invalid"
   },
   {
     "name": "csprecon.sh",
@@ -645,6 +690,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/curlie.sh"
   },
   {
+    "name": "curlie.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/curlie.yaml.invalid"
+  },
+  {
     "name": "cut-cdn.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cut-cdn.sh"
@@ -658,6 +708,11 @@
     "name": "cvemap.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cvemap.sh"
+  },
+  {
+    "name": "cvemap.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cvemap.yaml.invalid"
   },
   {
     "name": "cwe_checker.sh",
@@ -765,6 +820,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dns-doctor.sh"
   },
   {
+    "name": "dns-doctor.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dns-doctor.yaml.invalid"
+  },
+  {
     "name": "dnslookup.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dnslookup.sh"
@@ -815,6 +875,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/doggo.sh"
   },
   {
+    "name": "doggo.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/doggo.yaml.invalid"
+  },
+  {
     "name": "dos2unix.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dos2unix.sh"
@@ -823,6 +888,11 @@
     "name": "dotenv-linter.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dotenv-linter.sh"
+  },
+  {
+    "name": "dotenv-linter.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dotenv-linter.yaml.invalid"
   },
   {
     "name": "dperf.sh",
@@ -838,6 +908,11 @@
     "name": "dsieve.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dsieve.sh"
+  },
+  {
+    "name": "dsieve.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dsieve.yaml.invalid"
   },
   {
     "name": "duf.sh",
@@ -955,6 +1030,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/exiflooter.sh"
   },
   {
+    "name": "exiflooter.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/exiflooter.yaml.invalid"
+  },
+  {
     "name": "eza.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/eza.sh"
@@ -990,6 +1070,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fdupes.sh"
   },
   {
+    "name": "fdupes.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fdupes.yaml.invalid"
+  },
+  {
     "name": "feroxbuster.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/feroxbuster.sh"
@@ -1003,6 +1088,11 @@
     "name": "ffuf.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ffuf.sh"
+  },
+  {
+    "name": "ffuf.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ffuf.yaml.invalid"
   },
   {
     "name": "ffufPostprocessing.sh",
@@ -1023,6 +1113,11 @@
     "name": "fi6s.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fi6s.sh"
+  },
+  {
+    "name": "fi6s.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fi6s.yaml.invalid"
   },
   {
     "name": "filebrowser.sh",
@@ -1053,6 +1148,11 @@
     "name": "fingerprintx.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fingerprintx.sh"
+  },
+  {
+    "name": "fingerprintx.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fingerprintx.yaml.invalid"
   },
   {
     "name": "fio.sh",
@@ -1115,6 +1215,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fuzzuli.sh"
   },
   {
+    "name": "fuzzuli.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fuzzuli.yaml.invalid"
+  },
+  {
     "name": "fwanalyzer.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fwanalyzer.sh"
@@ -1138,6 +1243,11 @@
     "name": "gau.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gau.sh"
+  },
+  {
+    "name": "gau.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gau.yaml.invalid"
   },
   {
     "name": "gawk.sh",
@@ -1178,6 +1288,11 @@
     "name": "getghrel.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/getghrel.sh"
+  },
+  {
+    "name": "getghrel.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/getghrel.yaml.invalid"
   },
   {
     "name": "gf.sh",
@@ -1250,6 +1365,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitdorks_go.sh"
   },
   {
+    "name": "gitdorks_go.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitdorks_go.yaml.invalid"
+  },
+  {
     "name": "gitea.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitea.sh"
@@ -1295,6 +1415,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitql.sh"
   },
   {
+    "name": "gitql.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitql.yaml.invalid"
+  },
+  {
     "name": "gitui.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gitui.sh"
@@ -1330,6 +1455,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/go-simplehttpserver.sh"
   },
   {
+    "name": "go-simplehttpserver.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/go-simplehttpserver.yaml.invalid"
+  },
+  {
     "name": "goaccess.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/goaccess.sh"
@@ -1358,6 +1488,11 @@
     "name": "gocryptfs.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gocryptfs.sh"
+  },
+  {
+    "name": "gocryptfs.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gocryptfs.yaml.invalid"
   },
   {
     "name": "gocurl.sh",
@@ -1488,6 +1623,11 @@
     "name": "gum.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gum.sh"
+  },
+  {
+    "name": "gum.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gum.yaml.invalid"
   },
   {
     "name": "gup.sh",
@@ -1675,6 +1815,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/invidtui.sh"
   },
   {
+    "name": "invidtui.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/invidtui.yaml.invalid"
+  },
+  {
     "name": "iperf.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/iperf.sh"
@@ -1698,6 +1843,11 @@
     "name": "istio.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/istio.sh"
+  },
+  {
+    "name": "istio.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/istio.yaml.invalid"
   },
   {
     "name": "jaeles.sh",
@@ -1835,6 +1985,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/killport.sh"
   },
   {
+    "name": "killport.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/killport.yaml.invalid"
+  },
+  {
     "name": "kmod.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kmod.sh"
@@ -1905,6 +2060,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/linuxwave.sh"
   },
   {
+    "name": "linuxwave.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/linuxwave.yaml.invalid"
+  },
+  {
     "name": "listmonk.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/listmonk.sh"
@@ -1953,6 +2113,11 @@
     "name": "loksh.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/loksh.sh"
+  },
+  {
+    "name": "loksh.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/loksh.yaml.invalid"
   },
   {
     "name": "lsd.sh",
@@ -2071,7 +2236,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-05-21T18:51:48",
+    "update_date": "2024-05-21T18:56:09",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2128,6 +2293,11 @@
     "name": "mksub.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mksub.sh"
+  },
+  {
+    "name": "mksub.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/mksub.yaml.invalid"
   },
   {
     "name": "mmv.sh",
@@ -2220,6 +2390,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/netstat.sh"
   },
   {
+    "name": "netstat.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/netstat.yaml.invalid"
+  },
+  {
     "name": "nfs-utils.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nfs-utils.sh"
@@ -2240,6 +2415,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ngocok.sh"
   },
   {
+    "name": "ngocok.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ngocok.yaml.invalid"
+  },
+  {
     "name": "ngrok.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ngrok.sh"
@@ -2258,6 +2438,11 @@
     "name": "nmapurls.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nmapurls.sh"
+  },
+  {
+    "name": "nmapurls.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nmapurls.yaml.invalid"
   },
   {
     "name": "nnn.sh",
@@ -2310,6 +2495,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ockam.sh"
   },
   {
+    "name": "ockam.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ockam.yaml.invalid"
+  },
+  {
     "name": "oha.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/oha.sh"
@@ -2358,6 +2548,11 @@
     "name": "openssl.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/openssl.sh"
+  },
+  {
+    "name": "openssl.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/openssl.yaml.invalid"
   },
   {
     "name": "orbiton.sh",
@@ -2438,6 +2633,11 @@
     "name": "pier.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pier.sh"
+  },
+  {
+    "name": "pier.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pier.yaml.invalid"
   },
   {
     "name": "pigz.sh",
@@ -2560,6 +2760,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/puredns.sh"
   },
   {
+    "name": "puredns.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/puredns.yaml.invalid"
+  },
+  {
     "name": "pwninit.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pwninit.sh"
@@ -2625,6 +2830,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rathole.sh"
   },
   {
+    "name": "rathole.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rathole.yaml.invalid"
+  },
+  {
     "name": "rattler-build.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rattler-build.sh"
@@ -2648,6 +2858,11 @@
     "name": "realm.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/realm.sh"
+  },
+  {
+    "name": "realm.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/realm.yaml.invalid"
   },
   {
     "name": "rebuilderd.sh",
@@ -2680,6 +2895,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/relic.sh"
   },
   {
+    "name": "relic.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/relic.yaml.invalid"
+  },
+  {
     "name": "reptyr.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/reptyr.sh"
@@ -2698,6 +2918,11 @@
     "name": "restic.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/restic.sh"
+  },
+  {
+    "name": "restic.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/restic.yaml.invalid"
   },
   {
     "name": "resto.sh",
@@ -2733,6 +2958,11 @@
     "name": "rnr.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rnr.sh"
+  },
+  {
+    "name": "rnr.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/rnr.yaml.invalid"
   },
   {
     "name": "roboxtractor.sh",
@@ -2773,6 +3003,11 @@
     "name": "ruff.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ruff.sh"
+  },
+  {
+    "name": "ruff.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ruff.yaml.invalid"
   },
   {
     "name": "runc.sh",
@@ -2900,6 +3135,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/screenfetch.sh"
   },
   {
+    "name": "screenfetch.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/screenfetch.yaml.invalid"
+  },
+  {
     "name": "sd.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sd.sh"
@@ -2960,6 +3200,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shuffledns.sh"
   },
   {
+    "name": "shuffledns.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shuffledns.yaml.invalid"
+  },
+  {
     "name": "siegfried.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/siegfried.sh"
@@ -2993,6 +3238,11 @@
     "name": "skupper.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/skupper.sh"
+  },
+  {
+    "name": "skupper.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/skupper.yaml.invalid"
   },
   {
     "name": "smap.sh",
@@ -3120,6 +3370,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sslsearch.sh"
   },
   {
+    "name": "sslsearch.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sslsearch.yaml.invalid"
+  },
+  {
     "name": "starship.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/starship.sh"
@@ -3205,6 +3460,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sudo.sh"
   },
   {
+    "name": "sudo.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sudo.yaml.invalid"
+  },
+  {
     "name": "sunbeam.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sunbeam.sh"
@@ -3263,6 +3523,11 @@
     "name": "systemctl-tui.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/systemctl-tui.sh"
+  },
+  {
+    "name": "systemctl-tui.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/systemctl-tui.yaml.invalid"
   },
   {
     "name": "systeroid.sh",
@@ -3385,6 +3650,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tokei.sh"
   },
   {
+    "name": "tokei.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tokei.yaml.invalid"
+  },
+  {
     "name": "toybox.sh",
     "update_date": "2024-04-06T14:01:33",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/toybox.sh"
@@ -3458,6 +3728,11 @@
     "name": "txeh.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/txeh.sh"
+  },
+  {
+    "name": "txeh.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/txeh.yaml.invalid"
   },
   {
     "name": "tz.sh",
@@ -3620,6 +3895,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/warp.sh"
   },
   {
+    "name": "warp.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/warp.yaml.invalid"
+  },
+  {
     "name": "watchexec.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/watchexec.sh"
@@ -3683,6 +3963,11 @@
     "name": "wireguard-go.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wireguard-go.sh"
+  },
+  {
+    "name": "wireguard-go.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/wireguard-go.yaml.invalid"
   },
   {
     "name": "wireguard-rs.sh",
@@ -3753,6 +4038,11 @@
     "name": "xcp.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xcp.sh"
+  },
+  {
+    "name": "xcp.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xcp.yaml.invalid"
   },
   {
     "name": "xh.sh",
@@ -3843,6 +4133,11 @@
     "name": "zapper.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zapper.sh"
+  },
+  {
+    "name": "zapper.yaml.invalid",
+    "update_date": "2024-05-21T21:03:07",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/zapper.yaml.invalid"
   },
   {
     "name": "zdns.sh",
