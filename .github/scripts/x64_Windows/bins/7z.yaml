@@ -3,4 +3,5 @@ description: "file archiver with a high compression ratio."
 web_url: "https://www.7-zip.org"
 repo_url: ""
 bins:
-  - ""
+  - "7z.exe"
+  - "7za.exe"

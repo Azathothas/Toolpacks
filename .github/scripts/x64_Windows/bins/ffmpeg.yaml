@@ -4,4 +4,4 @@ web_url: "https://ffmpeg.org"
 repo_url: ""
 bins:
   - "ffmpeg.exe"
-  - "ffprobe.exe flashfetch.exe"
+  - "ffprobe.exe"

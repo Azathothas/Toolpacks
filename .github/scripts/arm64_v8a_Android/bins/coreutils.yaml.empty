@@ -1,6 +1,0 @@
-name: "coreutils"
-description: "GNU File, Shell, and Text utilities"
-web_url: "https://github.com/coreutils/coreutils"
-repo_url: "https://github.com/coreutils/coreutils"
-bins:
-  - ""

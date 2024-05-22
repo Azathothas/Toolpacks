@@ -3,4 +3,4 @@ description: "Z Shell"
 web_url: "https://github.com/zsh-users/zsh"
 repo_url: "https://github.com/zsh-users/zsh"
 bins:
-  - "zsh wget_cacert.pem"
+  - "zsh"

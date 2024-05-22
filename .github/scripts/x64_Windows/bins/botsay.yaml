@@ -1,6 +1,6 @@
-name: "gost"
+name: "botsay"
 description: "\U0001F916 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows"
-web_url: "https://github.com/ginuerzh/gost"
-repo_url: "https://github.com/ginuerzh/gost"
+web_url: "https://github.com/xyproto/botsay"
+repo_url: "https://github.com/xyproto/botsay"
 bins:
-  - ""
+  - "botsay.exe"

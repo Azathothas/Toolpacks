@@ -3,4 +3,4 @@ description: "Command-line JSON processor"
 web_url: "https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static"
 repo_url: "https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static"
 bins:
-  - " inscope.exe quotes-escaper.exe"
+  - "iperf3.exe"

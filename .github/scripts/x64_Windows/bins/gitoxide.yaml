@@ -3,4 +3,5 @@ description: "file archiver with a high compression ratio."
 web_url: "https://github.com/Byron/gitoxide"
 repo_url: "https://github.com/Byron/gitoxide"
 bins:
-  - " geoping.exe"
+  - "ein.exe"
+  - "gix.exe"

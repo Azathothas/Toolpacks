@@ -3,4 +3,4 @@ description: "a simple database benchmarking tool which supports several databas
 web_url: "https://github.com/sj14/dbbench"
 repo_url: "https://github.com/sj14/dbbench"
 bins:
-  - "dbbench.exe inscope.exe quotes-escaper.exe trurl.exe"
+  - "dbbench.exe"

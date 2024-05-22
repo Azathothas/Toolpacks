@@ -6,4 +6,4 @@ bins:
   - "find-rs.exe"
   - "find.exe"
   - "xargs-rs.exe"
-  - "xargs.exe ffprobe.exe flashfetch.exe"
+  - "xargs.exe"

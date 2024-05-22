@@ -3,4 +3,5 @@ description: "rust-grep"
 web_url: "https://github.com/BurntSushi/ripgrep"
 repo_url: "https://github.com/BurntSushi/ripgrep"
 bins:
-  - "rg.exe inscope.exe quotes-escaper.exe"
+  - "rg.exe"
+  - "ripgrep.exe"

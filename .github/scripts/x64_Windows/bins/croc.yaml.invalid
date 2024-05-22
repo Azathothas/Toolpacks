@@ -1,6 +1,0 @@
-name: "croc"
-description: "Easily and securely send things from one computer to another \U0001F40A \U0001F4E6"
-web_url: "https://github.com/schollz/croc"
-repo_url: "https://github.com/schollz/croc"
-bins:
-  - "croc.exe base32.exe base64.exe basename.exe basenc.exe cat.exe cksum.exe comm.exe coreutils-rs.exe coreutils.exe cp.exe csplit.exe cut.exe date.exe dd.exe df.exe dir.exe dircolors.exe dirname.exe du.exe echo.exe env.exe expand.exe expr.exe factor.exe false.exe fmt.exe fold.exe hashsum.exe head.exe hostname.exe join.exe link.exe ln.exe ls.exe mkdir.exe mktemp.exe more.exe mv.exe nl.exe nproc.exe numfmt.exe od.exe paste.exe pr.exe printenv.exe printf.exe ptx.exe pwd.exe readlink.exe realpath.exe rm.exe rmdir.exe seq.exe shred.exe shuf.exe sleep.exe sort.exe split.exe sum.exe sync.exe tac.exe tail.exe tee.exe test.exe touch.exe tr.exe true.exe truncate.exe tsort.exe uname.exe unexpand.exe uniq.exe unlink.exe vdir.exe wc.exe whoami.exe yes.exe"

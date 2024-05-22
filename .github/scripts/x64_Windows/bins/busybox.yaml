@@ -3,4 +3,5 @@ description: "single binary that contains many common Unix tools"
 web_url: "https://frippery.org/busybox/"
 repo_url: ""
 bins:
-  - ""
+  - "busybox.exe"
+  - "busybox-unicode.exe"
