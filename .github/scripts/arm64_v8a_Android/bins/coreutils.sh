@@ -51,10 +51,23 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$BASEUTILSDIR/coreutils/BLAKE3SUM.txt"
        cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$BASEUTILSDIR/coreutils/SHA256SUM.txt"
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.md$|\.rar$|\.txt$|\.zip$" "$BASEUTILSDIR/coreutils" | tee "$BASEUTILSDIR/coreutils/SIZE.txt"
-      #rClone 
+      #rClone
+       TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
        rclone copy "." "r2:/bin/arm64_v8a_Android/Baseutils/" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
-       rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/"  --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/\(.Path)"}' | jq . > "./metadata.json.tmp_aarch64_Linux" &
-
+       curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+      #List
+       curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.yaml" -o "$TMP_METADIR/temp.yaml"
+       yq -r '.bins[]' "$TMP_METADIR/temp.yaml" | sort -u -o "$TMP_METADIR/BINS.txt"
+       DESCRIPTION="$(yq -r '.description' $TMP_METADIR/temp.yaml)" && export DESCRIPTION="$DESCRIPTION"
+       EXTRA_BINS="$(cat $TMP_METADIR/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"
+       REPO_URL="$(yq -r '.repo_url' $TMP_METADIR/temp.yaml)" && export REPO_URL="$REPO_URL"
+       WEB_URL="$(yq -r '.web_url' $TMP_METADIR/temp.yaml)" && export WEB_URL="$WEB_URL"
+       rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/"  --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" | \
+       jq --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, download_url: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/coreutils/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
+       if jq --exit-status . "$TMP_METADIR/INFO.json" >/dev/null 2>&1; then
+          rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+       fi
+       unset TMP_METADIR DESCRIPTION EXTRA_BINS REPO_URL WEB_URL
       #Test
        #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version
       #Cleanup Container

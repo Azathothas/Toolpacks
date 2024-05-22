@@ -793,8 +793,7 @@ jobs:
           curl -qfsSL "https://bin.ajam.dev/x64_Windows/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
           jq -n --argjson baseutils "$(cat "$SYSTMP/Baseutils.json" | jq -n 'input')" '{ main: input, baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x64_Windows.json"
           ##Merge
-          #jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][0][]], [{ "host": "AMD64-Windows_NT" } + .[3][0][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq -s . > "$SYSTMP/METADATA.json"
-          jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][]], [{ "host": "AMD64-Windows_NT" } + .[3][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq -s . | jq 'sort_by(.[] | .host)' > "$SYSTMP/METADATA.json"
+          jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][]], [{ "host": "AMD64-Windows_NT" } + .[3][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq 'sort_by(.host)' > "$SYSTMP/METADATA.json"
           ##rClone Update
           echo -e "\n Updating Metadata.json\n"
           rclone copyto --checksum "$SYSTMP/METADATA.json" "r2:/bin/METADATA.json" --check-first --checkers 2000 --transfers 1000

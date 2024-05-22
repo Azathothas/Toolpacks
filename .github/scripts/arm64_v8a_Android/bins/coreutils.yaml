@@ -1,6 +1,7 @@
 name: "coreutils"
 description: "GNU File, Shell, and Text utilities"
-url: "https://github.com/coreutils/coreutils"
+web_url: "https://www.gnu.org/software/coreutils/"
+repo_url: "https://github.com/coreutils/coreutils"
 bins:
   - "["
   - "b2sum"
