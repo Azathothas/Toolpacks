@@ -9,7 +9,7 @@
     "build_date": "2024-05-19T22:38:07",
     "repo_url": "https://github.com/nektos/act",
     "web_url": "https://github.com/nektos/act",
-    "extra_bins": ""
+    "extra_bins": "act"
   },
   {
     "name": "actionlint",
@@ -21,7 +21,7 @@
     "build_date": "2024-05-17T22:37:59",
     "repo_url": "https://github.com/rhysd/actionlint",
     "web_url": "https://github.com/rhysd/actionlint",
-    "extra_bins": ""
+    "extra_bins": "actionlint"
   },
   {
     "name": "adig",
@@ -33,7 +33,7 @@
     "build_date": "2024-05-19T22:39:30",
     "repo_url": "https://github.com/c-ares/c-ares",
     "web_url": "https://github.com/c-ares/c-ares",
-    "extra_bins": ""
+    "extra_bins": "adig"
   },
   {
     "name": "anew",
@@ -57,7 +57,7 @@
     "build_date": "2024-05-19T22:40:15",
     "repo_url": "https://github.com/zer0yu/anew",
     "web_url": "https://github.com/zer0yu/anew",
-    "extra_bins": ""
+    "extra_bins": "anew-rs"
   },
   {
     "name": "aria2c",
@@ -69,7 +69,7 @@
     "build_date": "2024-05-19T22:48:20",
     "repo_url": "https://github.com/aria2/aria2",
     "web_url": "https://github.com/aria2/aria2",
-    "extra_bins": ""
+    "extra_bins": "aria2c"
   },
   {
     "name": "axel",
@@ -81,7 +81,7 @@
     "build_date": "2024-05-19T22:52:27",
     "repo_url": "https://github.com/axel/axel",
     "web_url": "https://github.com/axel/axel",
-    "extra_bins": ""
+    "extra_bins": "axel"
   },
   {
     "name": "bash",
@@ -93,7 +93,7 @@
     "build_date": "2024-05-19T22:54:25",
     "repo_url": "",
     "web_url": "https://www.bash.ws/",
-    "extra_bins": ""
+    "extra_bins": "bash"
   },
   {
     "name": "bigdl",
@@ -105,7 +105,7 @@
     "build_date": "2024-05-19T22:56:41",
     "repo_url": "https://github.com/xplshn/bigdl",
     "web_url": "https://github.com/xplshn/bigdl",
-    "extra_bins": ""
+    "extra_bins": "bigdl"
   },
   {
     "name": "btm",
@@ -165,7 +165,7 @@
     "build_date": "2024-05-19T22:58:59",
     "repo_url": "https://github.com/curl/curl",
     "web_url": "https://github.com/curl/curl",
-    "extra_bins": "curl_cacert.pem"
+    "extra_bins": "curl,curl_cacert.pem"
   },
   {
     "name": "curl_cacert.pem",
@@ -177,7 +177,7 @@
     "build_date": "2024-05-07T08:03:10",
     "repo_url": "https://github.com/curl/curl",
     "web_url": "https://github.com/curl/curl",
-    "extra_bins": "curl"
+    "extra_bins": "curl,curl_cacert.pem"
   },
   {
     "name": "dnsx",
@@ -381,7 +381,7 @@
     "build_date": "2024-05-19T23:03:45",
     "repo_url": "https://github.com/norskeld/pingmole",
     "web_url": "https://github.com/norskeld/pingmole",
-    "extra_bins": ""
+    "extra_bins": "pingmole"
   },
   {
     "name": "pspy",
@@ -393,7 +393,7 @@
     "build_date": "2024-05-07T22:54:23",
     "repo_url": "https://github.com/DominicBreuker/pspy",
     "web_url": "https://github.com/DominicBreuker/pspy",
-    "extra_bins": ""
+    "extra_bins": "pspy"
   },
   {
     "name": "qbittorrent-nox",
@@ -417,7 +417,7 @@
     "build_date": "2024-05-19T23:06:05",
     "repo_url": "https://github.com/rclone/rclone",
     "web_url": "https://github.com/rclone/rclone",
-    "extra_bins": ""
+    "extra_bins": "rclone"
   },
   {
     "name": "scopegen",
@@ -453,7 +453,7 @@
     "build_date": "2024-02-02T04:20:30",
     "repo_url": "https://github.com/agnostic-apollo/sudo",
     "web_url": "https://github.com/agnostic-apollo/sudo",
-    "extra_bins": ""
+    "extra_bins": "sudo"
   },
   {
     "name": "tailscale",
@@ -465,7 +465,7 @@
     "build_date": "2024-05-19T23:07:01",
     "repo_url": "https://github.com/tailscale/tailscale",
     "web_url": "https://github.com/tailscale/tailscale",
-    "extra_bins": "tailscale_combined,tailscaled"
+    "extra_bins": "tailscale,tailscale_combined,tailscaled"
   },
   {
     "name": "tailscale_combined",
@@ -477,7 +477,7 @@
     "build_date": "2024-05-19T23:07:01",
     "repo_url": "https://github.com/tailscale/tailscale",
     "web_url": "https://github.com/tailscale/tailscale",
-    "extra_bins": "tailscale,tailscaled"
+    "extra_bins": "tailscale,tailscale_combined,tailscaled"
   },
   {
     "name": "tailscale_dynamic_native",
@@ -525,7 +525,7 @@
     "build_date": "2024-05-19T23:07:01",
     "repo_url": "https://github.com/tailscale/tailscale",
     "web_url": "https://github.com/tailscale/tailscale",
-    "extra_bins": "tailscale,tailscale_combined"
+    "extra_bins": "tailscale,tailscale_combined,tailscaled"
   },
   {
     "name": "tailscaled_dynamic_native",
@@ -561,7 +561,7 @@
     "build_date": "2024-05-19T23:20:09",
     "repo_url": "https://github.com/vim/vim",
     "web_url": "https://github.com/vim/vim",
-    "extra_bins": ""
+    "extra_bins": "vim"
   },
   {
     "name": "wget",
@@ -573,7 +573,7 @@
     "build_date": "2024-05-19T23:21:12",
     "repo_url": "",
     "web_url": "https://www.gnu.org/software/wget/",
-    "extra_bins": "wget_cacert.pem"
+    "extra_bins": "wget,wget_cacert.pem"
   },
   {
     "name": "wget_cacert.pem",
@@ -585,7 +585,7 @@
     "build_date": "2024-05-07T08:06:47",
     "repo_url": "",
     "web_url": "https://www.gnu.org/software/wget/",
-    "extra_bins": "wget"
+    "extra_bins": "wget,wget_cacert.pem"
   },
   {
     "name": "zsh",
