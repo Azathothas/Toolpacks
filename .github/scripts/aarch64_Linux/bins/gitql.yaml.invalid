@@ -1,6 +1,0 @@
-name: "gitql"
-description: "\U0001F48A A git query language"
-web_url: "https://github.com/filhodanuvem/gitql"
-repo_url: "https://github.com/filhodanuvem/gitql"
-bins:
-  - "gitql gitpod-cli gp gix"

@@ -1,6 +1,0 @@
-name: "gocryptfs"
-description: "Encrypted overlay filesystem written in Go"
-web_url: "https://github.com/rfjakob/gocryptfs"
-repo_url: "https://github.com/rfjakob/gocryptfs"
-bins:
-  - " goanywhere gobusybox makebb makebbmain rewritepkg u-root-busybox uroot-busybox"

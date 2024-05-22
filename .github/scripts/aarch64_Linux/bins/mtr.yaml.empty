@@ -1,6 +1,0 @@
-name: "mtr"
-description: "a network diagnostic tool"
-web_url: "https://github.com/traviscross/mtr"
-repo_url: "https://github.com/traviscross/mtr"
-bins:
-  - ""

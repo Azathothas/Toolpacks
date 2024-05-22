@@ -1,6 +1,0 @@
-name: "wirelesstools"
-description: "Wireless tools for Linux"
-web_url: "https://www.gnu.org/software/wirelesstools/"
-repo_url: ""
-bins:
-  - ""

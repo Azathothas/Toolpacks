@@ -1,6 +1,0 @@
-name: "procps"
-description: "Utilities that give information about processes using the /proc filesystem"
-web_url: "https://gitlab.com/procps-ng/procps"
-repo_url: "https://gitlab.com/procps-ng/procps"
-bins:
-  - ""

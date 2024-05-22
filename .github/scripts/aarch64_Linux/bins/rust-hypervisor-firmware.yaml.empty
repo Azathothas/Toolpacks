@@ -1,6 +1,0 @@
-name: "rust-hypervisor-firmware"
-description: "cloud-hypervisors firmware in rust"
-web_url: "https://github.com/cloud-hypervisor/rust-hypervisor-firmware"
-repo_url: "https://github.com/cloud-hypervisor/rust-hypervisor-firmware"
-bins:
-  - ""

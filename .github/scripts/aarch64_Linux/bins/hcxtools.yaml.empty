@@ -1,6 +1,0 @@
-name: "hcxtools"
-description: "https //github.com/ZerBea/hcxtools"
-web_url: "https://github.com/checkpoint-restore/hcxtools"
-repo_url: "https://github.com/checkpoint-restore/hcxtools"
-bins:
-  - ""

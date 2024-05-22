@@ -1,6 +1,0 @@
-name: "yabs.sh"
-description: "YABS - a simple bash script to estimate Linux server performance using fio, iperf3, & Geekbench"
-web_url: "https://github.com/masonr/yet-another-bench-script"
-repo_url: "https://github.com/masonr/yet-another-bench-script"
-bins:
-  - ""

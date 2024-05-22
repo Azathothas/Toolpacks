@@ -1,6 +1,0 @@
-name: "dotenv-linter"
-description: "⚡️Lightning-fast linter for .env files. Written in Rust \U0001F980"
-web_url: "https://github.com/dotenv-linter/dotenv-linter"
-repo_url: "https://github.com/dotenv-linter/dotenv-linter"
-bins:
-  - "dotenv-linter mac2unix unix2dos unix2mac"

@@ -1,6 +1,0 @@
-name: "loksh"
-description: "Linux port of OpenBSDs ksh"
-web_url: "https://github.com/dimkr/loksh"
-repo_url: "https://github.com/dimkr/loksh"
-bins:
-  - " loki loki-canary promtail"

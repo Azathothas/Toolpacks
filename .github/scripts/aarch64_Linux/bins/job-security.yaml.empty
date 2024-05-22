@@ -1,6 +1,0 @@
-name: "job-security"
-description: "job control from anywhere!"
-web_url: "https://github.com/yshui/job-security"
-repo_url: "https://github.com/yshui/job-security"
-bins:
-  - ""

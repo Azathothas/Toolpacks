@@ -1,6 +1,0 @@
-name: "cpufetch"
-description: "fetch for cpu"
-web_url: "https://github.com/Dr-Noob/cpufetch"
-repo_url: "https://github.com/Dr-Noob/cpufetch"
-bins:
-  - "cpufetch cpud decpu decpud p9cpu p9cpud cowthink"
