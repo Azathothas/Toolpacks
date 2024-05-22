@@ -1,6 +1,6 @@
  1.3G └─┬ .
  151M   ├── pandoc.exe
- 134M   ├── ffmpeg.exe
+ 135M   ├── ffmpeg.exe
  134M   ├── ffprobe.exe
  134M   ├── ffplay.exe
   63M   ├── alist.exe
@@ -56,10 +56,10 @@
  2.4M   ├── cksum.exe
  2.3M   ├── pr.exe
  2.3M   ├── date.exe
+ 2.3M   ├── touch.exe
  2.3M   ├── geodns.exe
  2.3M   ├── ptx.exe
  2.3M   ├── geoping.exe
- 2.3M   ├── touch.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── csplit.exe
  2.2M   ├── err.exe
@@ -139,8 +139,8 @@
  829K   ├── sum.exe
  827K   ├── uname.exe
  826K   ├── test.exe
- 824K   ├── hostname.exe
  824K   ├── truncate.exe
+ 824K   ├── hostname.exe
  823K   ├── comm.exe
  820K   ├── basename.exe
  820K   ├── mkdir.exe

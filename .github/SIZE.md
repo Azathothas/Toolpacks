@@ -1,5 +1,5 @@
 ```mathematica
- 36M └─┬ main
+ 37M └─┬ main
  17M   ├─┬ aarch64_arm64_Linux
  16M   │ ├── BUILD.log.txt
 308K   │ ├── README.md
@@ -10,10 +10,10 @@
  24K   │ ├── SIZE.txt
  24K   │ ├── SIZE.md
 8.0K   │ └── BUILD_ERROR.log.md
- 16M   ├─┬ x86_64_Linux
+ 17M   ├─┬ x86_64_Linux
  15M   │ ├── BUILD.log.txt
+720K   │ ├── METADATA.json
 368K   │ ├── README.md
-276K   │ ├── METADATA.json
 140K   │ ├── FILE.txt
  72K   │ ├── SHA256SUM.txt
  72K   │ ├── BLAKE3SUM.txt
@@ -22,16 +22,16 @@
  16K   │ └── BUILD_ERROR.log.md
 1.1M   ├── metadata.json
 924K   ├── metadata.toml
-180K   ├─┬ x64_Windows
+296K   ├─┬ x64_Windows
+168K   │ ├── METADATA.json
  56K   │ ├── README.md
- 52K   │ ├── METADATA.json
  20K   │ ├── FILE.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
 8.0K   │ ├── SIZE.txt
 8.0K   │ └── SIZE.md
- 64K   ├─┬ arm64_v8a_Android
- 32K   │ ├── METADATA.json
+ 52K   ├─┬ arm64_v8a_Android
+ 20K   │ ├── METADATA.json
 8.0K   │ ├── FILE.txt
 4.0K   │ ├── SIZE.txt
 4.0K   │ ├── SIZE.md
