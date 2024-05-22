@@ -45,11 +45,6 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.sh"
   },
   {
-    "name": "coreutils.yaml.empty",
-    "update_date": "2024-05-21T18:51:48",
-    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.yaml.empty"
-  },
-  {
     "name": "curl.sh",
     "update_date": "2024-05-17T14:02:55",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh"
@@ -60,13 +55,8 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/jless.sh"
   },
   {
-    "name": "jless.yaml.invalid",
-    "update_date": "2024-05-21T21:03:07",
-    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/jless.yaml.invalid"
-  },
-  {
     "name": "metadata.json",
-    "update_date": "2024-05-22T00:06:56",
+    "update_date": "2024-05-22T07:05:34",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json"
   },
   {
@@ -100,11 +90,6 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tmux.sh"
   },
   {
-    "name": "tmux.yaml.invalid",
-    "update_date": "2024-05-21T21:03:07",
-    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tmux.yaml.invalid"
-  },
-  {
     "name": "vim.sh",
     "update_date": "2024-05-17T14:02:55",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/vim.sh"
@@ -118,10 +103,5 @@
     "name": "zsh.sh",
     "update_date": "2024-05-17T14:02:55",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/zsh.sh"
-  },
-  {
-    "name": "zsh.yaml.invalid",
-    "update_date": "2024-05-21T21:03:07",
-    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/zsh.yaml.invalid"
   }
 ]
