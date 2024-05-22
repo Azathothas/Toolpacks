@@ -1,7 +1,7 @@
 name: "7z"
 description: "file archiver with a high compression ratio."
 web_url: "https://www.7-zip.org"
-repo_url: ""
+repo_url: "https://github.com/ip7z/7zip"
 bins:
   - "7z.exe"
   - "7za.exe"

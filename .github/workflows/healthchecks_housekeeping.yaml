@@ -353,19 +353,19 @@ jobs:
            cat "$GITHUB_WORKSPACE/main/INFO.md" > "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/arm64_v8a_Android/
            unset TOTAL_PACKAGES
-           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" | jq -r '.[].name' | grep -v "\.7z$\|BLAKE3SUM\|\.tmp$\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed "s/PLACEHOLDER_arm64_v8a_Android/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/aarch64_arm64_Linux
            unset TOTAL_PACKAGES
-           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[].name' | grep -v "\.7z$\|BLAKE3SUM\|\.tmp$\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed "s/PLACEHOLDER_aarch64_arm64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/x86_64_Linux/
            unset TOTAL_PACKAGES
-           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[].name' | grep -v "\.7z$\|BLAKE3SUM\|\.tmp$\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed "s/PLACEHOLDER_x86_64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/x64_Windows/
            unset TOTAL_PACKAGES
-           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json" | jq -r '.[].Name' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
+           export TOTAL_PACKAGES="$(curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json" | jq -r '.[].name' | grep -v "\.7z$\|BLAKE3SUM\|\.tmp$\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u | wc -l)" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed "s/PLACEHOLDER_x64_Windows/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
         continue-on-error: true
 
@@ -431,22 +431,22 @@ jobs:
           #--------------------#
           ##arm64_v8a_Android##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://pub.ajam.dev/arm64_v8a_Android/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_arm64_v8a_Android" &
+          rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/arm64_v8a_Android/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_arm64_v8a_Android" &
           #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/arm64_v8a_Android/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://pub.ajam.dev/arm64_v8a_Android/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_arm64_v8a_Android" &
+          rclone lsjson --fast-list --recursive "r2:/bin/arm64_v8a_Android/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_arm64_v8a_Android" &
           ##aarch64_arm64_Linux##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://pub.ajam.dev/aarch64_arm64_Linux/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_aarch64_arm64_Linux" &
+          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_aarch64_arm64_Linux" &
           #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ;.[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://pub.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
+          rclone lsjson --fast-list --recursive "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ;.[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
           ##x86_64_Linux##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://pub.ajam.dev/x86_64_Linux/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x86_64_Linux" &
+          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x86_64_Linux" &
           #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://pub.ajam.dev/x86_64_Linux/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x86_64_Linux" &
+          rclone lsjson --fast-list --recursive "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x86_64_Linux" &
           ##x64_Windows##
           #Raw Dirty
-          rclone lsjson --fast-list "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://pub.ajam.dev/x64_Windows/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x64_Windows" &
+          rclone lsjson --fast-list "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/x64_Windows/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x64_Windows" &
           ##Clean Pretty Formatted
           wait ; echo
           echo "[" $(cat metadata.json.tmp_arm64_v8a_Android | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_arm64_v8a_Android" &

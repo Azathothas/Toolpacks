@@ -1,6 +1,6 @@
 name: "7z"
 description: "Unarchiver"
 web_url: "https://www.7-zip.org"
-repo_url: ""
+repo_url: "https://github.com/ip7z/7zip"
 bins:
   - "7z"
