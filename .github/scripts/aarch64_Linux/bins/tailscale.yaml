@@ -1,6 +1,8 @@
 name: "tailscale"
 description: "The easiest, most secure way to use WireGuard and 2FA"
-web_url: "https://github.com/tailscale/tailscalehttps://github.com/tailscale/tailscale"
-repo_url: "https://github.com/tailscale/tailscalehttps://github.com/tailscale/tailscale"
+web_url: "https://github.com/tailscale/tailscale"
+repo_url: "https://github.com/tailscale/tailscale"
 bins:
-  - " systeroid-tui"
+  - "tailscale"
+  - "tailscale_combined"
+  - "tailscaled"

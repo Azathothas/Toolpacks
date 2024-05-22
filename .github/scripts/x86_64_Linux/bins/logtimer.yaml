@@ -1,0 +1,6 @@
+name: "logtimer"
+description: "Enhance your output with a timer / date"
+web_url: "https://github.com/Eun/logtimer"
+repo_url: "https://github.com/Eun/logtimer"
+bins:
+  - "logtimer"

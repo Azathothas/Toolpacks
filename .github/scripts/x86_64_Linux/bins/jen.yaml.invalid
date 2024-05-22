@@ -1,6 +1,0 @@
-name: "jen"
-description: "A fast utility to generate fake/test documents based on a template"
-web_url: "https://github.com/whitfin/jen"
-repo_url: "https://github.com/whitfin/jen"
-bins:
-  - "jen jc_staticx"

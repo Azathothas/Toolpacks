@@ -1,0 +1,6 @@
+name: "bash"
+description: "GNU Bourne-Again Shell, the de facto standard shell on Linux"
+web_url: "https://www.gnu.org/software/bash/"
+repo_url: ""
+bins:
+  - "bash"

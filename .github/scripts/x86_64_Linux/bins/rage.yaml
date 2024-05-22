@@ -4,4 +4,4 @@ web_url: "https://github.com/str4d/rage"
 repo_url: "https://github.com/str4d/rage"
 bins:
   - "rage"
-  - "rage-keygen comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"
+  - "rage-keygen"

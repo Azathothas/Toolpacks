@@ -4,4 +4,3 @@ web_url: "https://github.com/orhun/systeroid"
 repo_url: "https://github.com/orhun/systeroid"
 bins:
   - "systeroid"
-  - "systeroid-tui"

@@ -1,0 +1,6 @@
+name: "niltalk"
+description: "Instant, disposable, single-binary web based live chat server"
+web_url: "https://github.com/knadh/niltalk"
+repo_url: "https://github.com/knadh/niltalk"
+bins:
+  - "niltalk"

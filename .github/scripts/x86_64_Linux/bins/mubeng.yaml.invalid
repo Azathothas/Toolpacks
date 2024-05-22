@@ -1,6 +1,0 @@
-name: "mubeng"
-description: "An incredibly fast proxy checker & IP rotator with ease"
-web_url: "https://github.com/kitabisa/mubeng"
-repo_url: "https://github.com/kitabisa/mubeng"
-bins:
-  - "mubeng mtr-packet"

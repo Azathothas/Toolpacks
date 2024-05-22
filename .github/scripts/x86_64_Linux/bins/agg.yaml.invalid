@@ -1,6 +1,0 @@
-name: "agg"
-description: "asciinema gif generator"
-web_url: "https://github.com/asciinema/agg"
-repo_url: "https://github.com/asciinema/agg"
-bins:
-  - "agg age-keygen"

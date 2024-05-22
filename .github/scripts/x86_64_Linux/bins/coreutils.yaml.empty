@@ -1,6 +1,0 @@
-name: "coreutils"
-description: "GNU CoreUtils"
-web_url: "https://github.com/coreutils/coreutils"
-repo_url: "https://github.com/coreutils/coreutils"
-bins:
-  - ""

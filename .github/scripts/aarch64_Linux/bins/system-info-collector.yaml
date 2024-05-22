@@ -4,4 +4,4 @@ web_url: "https://github.com/qarmin/system-info-collector"
 repo_url: "https://github.com/qarmin/system-info-collector"
 bins:
   - "sysinfo-collector"
-  - "system-info-collector iostat mpstat pidstat sa1 sa2 sadc sadf sar sysstat tapestat"
+  - "system-info-collector"

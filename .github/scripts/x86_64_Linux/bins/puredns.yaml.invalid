@@ -1,6 +1,0 @@
-name: "puredns"
-description: "fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries"
-web_url: "https://github.com/d3mondev/puredns"
-repo_url: "https://github.com/d3mondev/puredns"
-bins:
-  - "puredns pueued"

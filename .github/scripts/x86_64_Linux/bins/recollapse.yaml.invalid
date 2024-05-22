@@ -1,6 +1,0 @@
-name: "recollapse"
-description: "Helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications"
-web_url: "https://github.com/0xacb/recollapse"
-repo_url: "https://github.com/0xacb/recollapse"
-bins:
-  - "recollapse_staticx rebuilderd rebuilderd-worker"

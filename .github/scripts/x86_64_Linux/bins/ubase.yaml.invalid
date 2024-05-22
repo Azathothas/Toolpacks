@@ -1,6 +1,0 @@
-name: "ubase"
-description: "a collection of unportable tools, similar in spirit to util-linux but much simpler."
-web_url: "https://git.suckless.org/ubase"
-repo_url: "https://git.suckless.org/ubase"
-bins:
-  - "ubase-box uroot"

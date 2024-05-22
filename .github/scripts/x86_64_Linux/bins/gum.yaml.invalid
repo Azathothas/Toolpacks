@@ -1,6 +1,0 @@
-name: "gum"
-description: "A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools."
-web_url: "https://github.com/charmbracelet/gum"
-repo_url: "https://github.com/charmbracelet/gum"
-bins:
-  - "gum gsocket"

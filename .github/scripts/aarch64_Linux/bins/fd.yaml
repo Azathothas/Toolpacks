@@ -4,4 +4,3 @@ web_url: "https://github.com/sharkdp/fd"
 repo_url: "https://github.com/sharkdp/fd"
 bins:
   - "fd"
-  - "fd-find"

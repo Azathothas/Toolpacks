@@ -1,6 +1,0 @@
-name: "screenfetch"
-description: "bash neofetch alt"
-web_url: "https://github.com/KittyKatt/screenFetch"
-repo_url: "https://github.com/KittyKatt/screenFetch"
-bins:
-  - "screenfetch comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"

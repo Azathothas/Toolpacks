@@ -1,0 +1,6 @@
+name: "xcp"
+description: "An extended cp"
+web_url: "https://github.com/tarka/xcp"
+repo_url: "https://github.com/tarka/xcp"
+bins:
+  - "xcp"

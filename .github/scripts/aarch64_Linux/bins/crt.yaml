@@ -1,0 +1,6 @@
+name: "crt"
+description: "A CLI tool to check Certificate Transparency logs of a domain name"
+web_url: "https://github.com/cemulus/crt"
+repo_url: "https://github.com/cemulus/crt"
+bins:
+  - "crt"

@@ -3,4 +3,5 @@ description: "jless is a command-line JSON viewer designed for reading, explorin
 web_url: "https://github.com/PaulJuliusMartinez/jless"
 repo_url: "https://github.com/PaulJuliusMartinez/jless"
 bins:
+  - "jless"
   - "jless_staticx"

@@ -1,6 +1,0 @@
-name: "cloudcash"
-description: "Check your cloud spending from the CLI, from Waybar, and from the macOS menu bar!"
-web_url: "https://github.com/mrusme/cloudcash"
-repo_url: "https://github.com/mrusme/cloudcash"
-bins:
-  - "cloudcash cloak-server clipcat-notify clipcatctl clipcatd"

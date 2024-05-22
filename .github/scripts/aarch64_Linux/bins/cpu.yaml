@@ -8,4 +8,4 @@ bins:
   - "decpu"
   - "decpud"
   - "p9cpu"
-  - "p9cpud cowthink"
+  - "p9cpud"

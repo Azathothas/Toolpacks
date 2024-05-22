@@ -1,0 +1,6 @@
+name: "nrich"
+description: "A command-line tool to quickly analyze all IPs in a file and see which ones have open ports/ vulnerabilities"
+web_url: "https://gitlab.com/shodan-public/nrich"
+repo_url: "https://gitlab.com/shodan-public/nrich"
+bins:
+  - "nrich"

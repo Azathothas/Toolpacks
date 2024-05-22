@@ -1,0 +1,6 @@
+name: "gitdorks_go"
+description: "An automated collection tool for discovering sensitive information on GitHub"
+web_url: "https://github.com/damit5/gitdorks_go"
+repo_url: "https://github.com/damit5/gitdorks_go"
+bins:
+  - "gitdorks_go"

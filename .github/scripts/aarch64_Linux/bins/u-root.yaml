@@ -4,3 +4,4 @@ web_url: "https://github.com/u-root/u-root"
 repo_url: "https://github.com/u-root/u-root"
 bins:
   - "u-root"
+  - "uroot"

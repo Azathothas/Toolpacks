@@ -1,6 +1,0 @@
-name: "WireGuard-go"
-description: "Go Implementation of WireGuard"
-web_url: "https://git.zx2c4.com/wireguard-go"
-repo_url: "https://git.zx2c4.com/wireguard-go"
-bins:
-  - "wireguard-go whois"

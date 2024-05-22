@@ -4,4 +4,4 @@ web_url: "https://github.com/uutils/findutils"
 repo_url: "https://github.com/uutils/findutils"
 bins:
   - "find-rs"
-  - "xargs-rs xargs"
+  - "xargs-rs"

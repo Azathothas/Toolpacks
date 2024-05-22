@@ -3,4 +3,5 @@ description: "⚡ Blazing-fast tool to grab screenshots of your domain list righ
 web_url: "https://github.com/pwnwriter/haylxon"
 repo_url: "https://github.com/pwnwriter/haylxon"
 bins:
+  - "haylxon"
   - "hxn"

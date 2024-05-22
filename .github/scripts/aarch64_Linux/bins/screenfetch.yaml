@@ -1,0 +1,6 @@
+name: "screenfetch"
+description: "bash neofetch alt"
+web_url: "https://github.com/KittyKatt/screenFetch"
+repo_url: "https://github.com/KittyKatt/screenFetch"
+bins:
+  - "screenfetch"

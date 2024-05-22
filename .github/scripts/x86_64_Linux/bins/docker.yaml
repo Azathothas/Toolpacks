@@ -12,5 +12,7 @@ bins:
   - "dockerd"
   - "dockerd-rootless-setuptool.sh"
   - "dockerd-rootless.sh"
+  - "rootlesskit"
   - "rootlesskit-docker-proxy"
+  - "runc"
   - "vpnkit"

@@ -1,0 +1,6 @@
+name: "netstat"
+description: ""
+web_url: "https://sourceforge.net/projects/net-tools/"
+repo_url: ""
+bins:
+  - "netstat"

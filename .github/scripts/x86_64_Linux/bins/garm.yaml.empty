@@ -1,6 +1,0 @@
-name: "garm"
-description: "GitHub Actions Runners Manager"
-web_url: "https://github.com/cloudbase/garm"
-repo_url: "https://github.com/cloudbase/garm"
-bins:
-  - ""

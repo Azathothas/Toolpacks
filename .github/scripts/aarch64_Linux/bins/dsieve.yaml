@@ -1,0 +1,6 @@
+name: "dsieve"
+description: "Filter and enrich a list of subdomains by level"
+web_url: "https://github.com/trickest/dsieve"
+repo_url: "https://github.com/trickest/dsieve"
+bins:
+  - "dsieve"

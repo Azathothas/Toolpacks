@@ -1,0 +1,6 @@
+name: "txeh"
+description: "CLI utility for /etc/hosts management."
+web_url: "https://github.com/txn2/txeh"
+repo_url: "https://github.com/txn2/txeh"
+bins:
+  - "txeh"

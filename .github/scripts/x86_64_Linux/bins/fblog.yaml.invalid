@@ -1,6 +1,0 @@
-name: "fblog"
-description: "Small command-line JSON Log viewer"
-web_url: "https://github.com/brocode/fblog"
-repo_url: "https://github.com/brocode/fblog"
-bins:
-  - "fblog fastfetch-staticx flashfetch"

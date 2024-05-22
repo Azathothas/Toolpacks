@@ -1,6 +1,0 @@
-name: "headtail"
-description: "head and tail simultaneously"
-web_url: "https://github.com/CleanCut/headtail"
-repo_url: "https://github.com/CleanCut/headtail"
-bins:
-  - "headtail hcxhash2cap hcxhashtool hcxpcapngtool hcxpmktool hcxpsktool hcxwltool whoismac wlancap2wpasec"

@@ -1,0 +1,6 @@
+name: "fio"
+description: "Flexible I/O Tester"
+web_url: "https://github.com/axboe/fio"
+repo_url: "https://github.com/axboe/fio"
+bins:
+  - "fio"

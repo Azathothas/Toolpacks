@@ -4,3 +4,5 @@ web_url: "https://github.com/fastfetch-cli/fastfetch"
 repo_url: "https://github.com/fastfetch-cli/fastfetch"
 bins:
   - "fastfetch"
+  - "fastfetch-staticx"
+  - "flashfetch"

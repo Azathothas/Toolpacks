@@ -1,0 +1,6 @@
+name: "invidtui"
+description: "A TUI based Invidious client"
+web_url: "https://github.com/darkhz/invidtui"
+repo_url: "https://github.com/darkhz/invidtui"
+bins:
+  - "invidtui"

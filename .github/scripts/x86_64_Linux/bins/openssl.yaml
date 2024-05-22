@@ -1,0 +1,6 @@
+name: "openssl"
+description: "A cryptographic library that implements the SSL and TLS protocols"
+web_url: "https://github.com/openssl/openssl"
+repo_url: "https://github.com/openssl/openssl"
+bins:
+  - "openssl"

@@ -1,6 +1,0 @@
-name: "zdns"
-description: "Fast CLI DNS Lookup Tool"
-web_url: "https://github.com/zmap/zdns"
-repo_url: "https://github.com/zmap/zdns"
-bins:
-  - "zdns zapper-stealth zt-encodings zt-exchange zt-hashes zt-patterns"

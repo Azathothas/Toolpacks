@@ -1,0 +1,6 @@
+name: "doggo"
+description: "\U0001F436 Command-line DNS Client for Humans"
+web_url: "https://github.com/mr-karan/doggo"
+repo_url: "https://github.com/mr-karan/doggo"
+bins:
+  - "doggo"

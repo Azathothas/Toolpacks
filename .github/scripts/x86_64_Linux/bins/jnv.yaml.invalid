@@ -1,6 +1,0 @@
-name: "jnv"
-description: "interactive JSON filter using jq"
-web_url: "https://github.com/ynqa/jnv"
-repo_url: "https://github.com/ynqa/jnv"
-bins:
-  - "jnv jless_staticx"

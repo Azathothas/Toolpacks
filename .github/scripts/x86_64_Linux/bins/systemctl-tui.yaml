@@ -1,0 +1,6 @@
+name: "systemctl-tui"
+description: "A fast, simple TUI for interacting with systemd services and their logs"
+web_url: "https://github.com/rgwood/systemctl-tui"
+repo_url: "https://github.com/rgwood/systemctl-tui"
+bins:
+  - "systemctl-tui"

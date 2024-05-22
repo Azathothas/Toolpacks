@@ -4,4 +4,4 @@ web_url: "https://github.com/nushell/nushell"
 repo_url: "https://github.com/nushell/nushell"
 bins:
   - "nu"
-  - "nushell migratepages migspeed numactl numademo numastat"
+  - "nushell"

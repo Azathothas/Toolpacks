@@ -1,0 +1,6 @@
+name: "shuffledns"
+description: "MassDNS wrapper written in go"
+web_url: "https://github.com/projectdiscovery/shuffledns"
+repo_url: "https://github.com/projectdiscovery/shuffledns"
+bins:
+  - "shuffledns"

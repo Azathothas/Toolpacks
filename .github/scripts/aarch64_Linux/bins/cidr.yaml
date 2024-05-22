@@ -1,0 +1,6 @@
+name: "cidr"
+description: "CLI to perform various actions on CIDR ranges"
+web_url: "https://github.com/bschaatsbergen/cidr"
+repo_url: "https://github.com/bschaatsbergen/cidr"
+bins:
+  - "cidr"

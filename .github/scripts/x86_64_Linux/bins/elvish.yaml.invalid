@@ -1,6 +1,0 @@
-name: "elvish"
-description: "Elvish = Expressive Programming Language + Versatile Interactive Shell"
-web_url: "https://github.com/elves/elvish"
-repo_url: "https://github.com/elves/elvish"
-bins:
-  - "elvish elinks-lite"

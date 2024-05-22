@@ -4,4 +4,4 @@ web_url: "https://github.com/projectdiscovery/interactsh"
 repo_url: "https://github.com/projectdiscovery/interactsh"
 bins:
   - "interactsh-client"
-  - "interactsh-server comb cutlines fget getJS inscope quotes-escaper rate-limit-checker resdns scopegen scopeview subxtract subxtract.sh tok"
+  - "interactsh-server"

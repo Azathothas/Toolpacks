@@ -1,0 +1,6 @@
+name: "getghrel(getgithubrelease)isatoolthatfetchesandinstallsthelatestreleaseassetsfromGithub"
+description: ""
+web_url: "https://github.com/kavishgr/getghrel"
+repo_url: "https://github.com/kavishgr/getghrel"
+bins:
+  - "getghrel"

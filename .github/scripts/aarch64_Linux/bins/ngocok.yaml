@@ -1,0 +1,6 @@
+name: "ngocok"
+description: "ngrok Collaborator Link — yet another Burp Collaborator alternative for free with ngrok."
+web_url: "https://github.com/dwisiswant0/ngocok"
+repo_url: "https://github.com/dwisiswant0/ngocok"
+bins:
+  - "ngocok"

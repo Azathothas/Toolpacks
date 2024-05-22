@@ -1,0 +1,6 @@
+name: "realm"
+description: "A network relay tool"
+web_url: "https://github.com/zhboner/realm"
+repo_url: "https://github.com/zhboner/realm"
+bins:
+  - "realm"
