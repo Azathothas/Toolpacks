@@ -48,6 +48,10 @@ RUN <<EOS
   apk add c-ares --latest --upgrade --no-interactive 2>/dev/null
   apk add c-ares-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add ca-certificates --latest --upgrade --no-interactive 2>/dev/null
+  apk add cairo --latest --upgrade --no-interactive 2>/dev/null
+  apk add cairo-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add cairo-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add cairo-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add capstone --latest --upgrade --no-interactive 2>/dev/null
   apk add capstone-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add capstone-static --latest --upgrade --no-interactive 2>/dev/null
@@ -81,10 +85,14 @@ RUN <<EOS
   apk add expect --latest --upgrade --no-interactive 2>/dev/null
   apk add expect-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add ethtool --latest --upgrade --no-interactive 2>/dev/null
+  apk add ffmpeg --latest --upgrade --no-interactive 2>/dev/null
   apk add file-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add flex-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add fontconfig-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add fontconfig-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add freerdp --latest --upgrade --no-interactive 2>/dev/null
+  apk add freerdp-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add freerdp-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add freetype-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add freetype-static --latest --upgrade --no-interactive 2>/dev/null
   apk add fuse --latest --upgrade --no-interactive 2>/dev/null
@@ -100,6 +108,8 @@ RUN <<EOS
   apk add geoip-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add gettext --latest --upgrade --no-interactive 2>/dev/null
   apk add gettext-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add ghostscript --latest --upgrade --no-interactive 2>/dev/null
+  apk add ghostscript-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add git --latest --upgrade --no-interactive 2>/dev/null
   apk add glib --latest --upgrade --no-interactive 2>/dev/null
   apk add glib-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -151,6 +161,7 @@ RUN <<EOS
   apk add libcurl --latest --upgrade --no-interactive 2>/dev/null
   apk add libdbusmenu-glib --latest --upgrade --no-interactive 2>/dev/null
   apk add libdbusmenu-glib-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libjpeg-turbo-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libdw --latest --upgrade --no-interactive 2>/dev/null
   apk add libedit-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libelf --latest --upgrade --no-interactive 2>/dev/null
@@ -224,14 +235,23 @@ RUN <<EOS
   apk add libusbgx --latest --upgrade --no-interactive 2>/dev/null
   apk add libusbgx-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libusbgx-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libuuid --latest --upgrade --no-interactive 2>/dev/null
   apk add libuv --latest --upgrade --no-interactive 2>/dev/null
   apk add libuv-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libuv-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libvirt --latest --upgrade --no-interactive 2>/dev/null
   apk add libvirt-xen --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvncserver --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvncserver-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvorbis --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvorbis-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libvorbis-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libvterm --latest --upgrade --no-interactive 2>/dev/null
   apk add libvterm-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libvterm-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libwebp-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libwebsockets --latest --upgrade --no-interactive 2>/dev/null
+  apk add libwebsockets-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libx11-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxcb --latest --upgrade --no-interactive 2>/dev/null
@@ -325,6 +345,9 @@ RUN <<EOS
   apk add openssl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add openssl-libs-static --latest --upgrade --no-interactive 2>/dev/null
   apk add pam-u2f --latest --upgrade --no-interactive 2>/dev/null
+  apk add pango --latest --upgrade --no-interactive 2>/dev/null
+  apk add pango-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add pango-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add patchelf --latest --upgrade --no-interactive 2>/dev/null
   apk add pciutils --latest --upgrade --no-interactive 2>/dev/null
   apk add pciutils-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -380,6 +403,9 @@ RUN <<EOS
   apk add screen --latest --upgrade --no-interactive 2>/dev/null
   apk add sdl2 --latest --upgrade --no-interactive 2>/dev/null
   apk add sdl2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add shadow --latest --upgrade --no-interactive 2>/dev/null
+  apk add shadow-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add shadow-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add slirp4netns --latest --upgrade --no-interactive 2>/dev/null
   apk add snappy --latest --upgrade --no-interactive 2>/dev/null
   apk add snappy-dev --latest --upgrade --no-interactive 2>/dev/null
