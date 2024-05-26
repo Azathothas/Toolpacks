@@ -1,0 +1,6 @@
+name: "netscanner"
+description: "Network scanner & diagnostic tool with modern TUI"
+web_url: "https://github.com/Chleba/netscanner"
+repo_url: "https://github.com/Chleba/netscanner"
+bins:
+  - "netscanner"
