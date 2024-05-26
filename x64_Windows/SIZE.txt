@@ -3,7 +3,7 @@
  135M   ├── ffmpeg.exe
  134M   ├── ffprobe.exe
  134M   ├── ffplay.exe
-  63M   ├── alist.exe
+  72M   ├── alist.exe
   35M   ├── step.exe
   29M   ├── sing-box.exe
   28M   ├── dbbench.exe
@@ -34,9 +34,9 @@
  8.7M   ├── ein.exe
  8.6M   ├── pingtunnel.exe
  8.2M   ├── croc.exe
+ 7.2M   ├── curl.exe
  7.1M   ├── stunner.exe
- 7.1M   ├── curl.exe
- 6.7M   ├── trurl.exe
+ 6.8M   ├── trurl.exe
  6.6M   ├── eget.exe
  6.0M   ├── batcat.exe
  6.0M   ├── bat.exe
@@ -95,12 +95,12 @@
  1.2M   ├── wldd.exe
  1.2M   ├── ssh.exe
  1.2M   ├── factor.exe
- 1.1M   ├── flashfetch.exe
+ 1.2M   ├── flashfetch.exe
  1.1M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── b3sum.exe
 1014K   ├── seq.exe
-1000K   ├── env.exe
+1002K   ├── env.exe
  995K   ├── dd.exe
  980K   ├── od.exe
  965K   ├── more.exe
