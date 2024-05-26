@@ -1,0 +1,6 @@
+name: "cfspeed"
+description: "GO CLI-based implementation of speed.cloudflare.com"
+web_url: "https://github.com/makotom/cfspeed"
+repo_url: "https://github.com/makotom/cfspeed"
+bins:
+  - "cfspeed"

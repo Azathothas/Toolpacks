@@ -1,0 +1,6 @@
+name: "findlargedir"
+description: "quickly find all blackhole directories with a huge amount of filesystem entries in a flat structure"
+web_url: "https://github.com/dkorunic/findlargedir"
+repo_url: "https://github.com/dkorunic/findlargedir"
+bins:
+  - "findlargedir"

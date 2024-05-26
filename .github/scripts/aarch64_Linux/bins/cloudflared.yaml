@@ -1,0 +1,6 @@
+name: "cloudflared"
+description: "Cloudflare Tunnel client"
+web_url: "https://github.com/cloudflare/cloudflared"
+repo_url: "https://github.com/cloudflare/cloudflared"
+bins:
+  - "cloudflared"
