@@ -60,6 +60,16 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.ps1"
   },
   {
+    "name": "cfspeed.ps1",
+    "update_date": "2024-05-26T07:02:58",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cfspeed.ps1"
+  },
+  {
+    "name": "cfspeedtest.ps1",
+    "update_date": "2024-05-26T07:02:58",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cfspeedtest.ps1"
+  },
+  {
     "name": "cheat.ps1",
     "update_date": "2024-05-22T07:02:17",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cheat.ps1"
@@ -201,7 +211,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-05-25T21:05:51",
+    "update_date": "2024-05-26T07:07:33",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"
   },
   {
