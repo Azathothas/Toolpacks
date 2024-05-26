@@ -25,6 +25,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/agg.sh"
   },
   {
+    "name": "aggligator.sh",
+    "update_date": "2024-05-26T07:02:59",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/aggligator.sh"
+  },
+  {
     "name": "agrind.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/agrind.sh"
@@ -395,6 +400,16 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cexec.sh"
   },
   {
+    "name": "cfspeed.sh",
+    "update_date": "2024-05-26T07:02:59",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cfspeed.sh"
+  },
+  {
+    "name": "cfspeedtest.sh",
+    "update_date": "2024-05-26T07:02:58",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cfspeedtest.sh"
+  },
+  {
     "name": "cfssl.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cfssl.sh"
@@ -448,6 +463,11 @@
     "name": "cloudcash.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloudcash.sh"
+  },
+  {
+    "name": "cloudflared.sh",
+    "update_date": "2024-05-26T07:02:59",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloudflared.sh"
   },
   {
     "name": "cloudfox.sh",
@@ -953,6 +973,11 @@
     "name": "filebrowser.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/filebrowser.sh"
+  },
+  {
+    "name": "findlargedir.sh",
+    "update_date": "2024-05-26T07:02:59",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/findlargedir.sh"
   },
   {
     "name": "findomain.sh",
@@ -1896,7 +1921,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-05-25T21:05:51",
+    "update_date": "2024-05-26T00:08:28",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2258,6 +2283,11 @@
     "name": "pkgtop.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pkgtop.sh"
+  },
+  {
+    "name": "pktstat.sh",
+    "update_date": "2024-05-26T07:02:59",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pktstat.sh"
   },
   {
     "name": "planor.sh",
