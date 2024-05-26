@@ -1,0 +1,7 @@
+name: "husarnet"
+description: "Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration."
+web_url: "https://husarnet.com/"
+repo_url: "https://github.com/husarnet/husarnet"
+bins:
+  - "husarnet"
+  - "husarnet-daemon"
