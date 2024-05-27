@@ -37,11 +37,13 @@
  8.2M   ├── croc.exe
  7.2M   ├── curl.exe
  7.1M   ├── stunner.exe
+ 6.9M   ├── cfspeed.exe
  6.8M   ├── trurl.exe
  6.6M   ├── eget.exe
  6.0M   ├── batcat.exe
  6.0M   ├── bat.exe
  5.4M   ├── shell2http.exe
+ 5.2M   ├── cfspeedtest.exe
  5.2M   ├── actionlint.exe
  5.1M   ├── rg.exe
  5.0M   ├── monolith.exe
@@ -55,15 +57,14 @@
  2.7M   ├── dust.exe
  2.4M   ├── hashsum.exe
  2.4M   ├── cksum.exe
- 2.3M   ├── pr.exe
  2.3M   ├── date.exe
+ 2.3M   ├── pr.exe
  2.3M   ├── touch.exe
  2.3M   ├── geodns.exe
  2.3M   ├── ptx.exe
  2.3M   ├── geoping.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── csplit.exe
- 2.2M   ├── err.exe
  2.2M   ├── nl.exe
  2.1M   ├── tac.exe
  2.1M   ├── pdftopng.exe
@@ -76,6 +77,7 @@
  1.7M   ├── inscope.exe
  1.6M   ├── botsay.exe
  1.6M   ├── sort.exe
+ 1.5M   ├── err.exe
  1.5M   ├── quotes-escaper.exe
  1.5M   ├── dua.exe
  1.4M   ├── expr.exe
@@ -118,8 +120,8 @@
  893K   ├── printf.exe
  892K   ├── join.exe
  890K   ├── shuf.exe
- 889K   ├── cut.exe
  888K   ├── rm.exe
+ 888K   ├── cut.exe
  885K   ├── uniq.exe
  882K   ├── fmt.exe
  881K   ├── tr.exe
@@ -147,8 +149,8 @@
  820K   ├── mkdir.exe
  819K   ├── sleep.exe
  816K   ├── sync.exe
+ 816K   ├── paste.exe
  815K   ├── rmdir.exe
- 815K   ├── paste.exe
  810K   ├── link.exe
  809K   ├── nproc.exe
  809K   ├── unlink.exe
