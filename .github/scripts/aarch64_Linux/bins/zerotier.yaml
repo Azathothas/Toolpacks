@@ -1,0 +1,8 @@
+name: "ZeroTierOne"
+description: "A Smart Ethernet Switch for Earth"
+web_url: "https://www.zerotier.com/"
+repo_url: "https://github.com/zerotier/ZeroTierOne"
+bins:
+  - "zerotier-cli"
+  - "zerotier-idtool"
+  - "zerotier-one"
