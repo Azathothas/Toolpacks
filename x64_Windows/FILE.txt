@@ -52,7 +52,7 @@ echo.exe:                PE32+ executable (console) x86-64 (stripped to external
 eget.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 ein.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 env.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
-err.exe:                 7-zip archive data, version 0.4
+err.exe:                 PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows, 5 sections
 expand.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 expr.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 factor.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
