@@ -4,5 +4,6 @@ web_url: "https://github.com/tailscale/tailscale"
 repo_url: "https://github.com/tailscale/tailscale"
 bins:
   - "tailscale"
+  - "tailscale_bb"
   - "tailscale_combined"
   - "tailscaled"
