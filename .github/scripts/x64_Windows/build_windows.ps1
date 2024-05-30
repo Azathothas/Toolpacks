@@ -70,7 +70,7 @@
   scoop install "main/winget" --global --no-cache ; refreshenv ; winget --version
  ##Addons & libs
   #7z
-   #Remove-Item "$(Get-Command 7z | Select-Object -ExpandProperty Source)" -Force -ErrorAction SilentlyContinue
+   #Remove-Item "$(Get-Command 7z | Select-Object -ExpandProperty source_url)" -Force -ErrorAction SilentlyContinue
    #Remove-Item "$env:ProgramData\Chocolatey\bin\7z.exe" -Force -ErrorAction SilentlyContinue
    choco install "7zip.install" --prerelease --force --yes   
   #alsa 
@@ -190,7 +190,7 @@
  #Get URLs
   Invoke-WebRequest -Uri "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json" | 
      ConvertFrom-Json | 
-     Select-Object -ExpandProperty Source | 
+     Select-Object -ExpandProperty source_url | 
      Where-Object { $_ -match "\.ps1$" } | 
      Sort-Object -Unique | 
      Out-File -FilePath "$env:SYSTMP/BUILDURLS"

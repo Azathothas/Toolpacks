@@ -1,0 +1,6 @@
+name: "aws-wire-lengths"
+description: "simple command line for various AWS management tasks"
+web_url: "https://github.com/oxidecomputer/aws-wire-lengths"
+repo_url: "https://github.com/oxidecomputer/aws-wire-lengths"
+bins:
+  - "aws-wire-lengths"
