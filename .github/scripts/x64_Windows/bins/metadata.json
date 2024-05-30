@@ -190,6 +190,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/iperf3.ps1"
   },
   {
+    "name": "ipinfo.ps1",
+    "update_date": "2024-05-30T07:19:47",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ipinfo.ps1"
+  },
+  {
     "name": "jq.ps1",
     "update_date": "2024-03-30T11:12:21",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/jq.ps1"
@@ -211,7 +216,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-05-30T00:09:38",
+    "update_date": "2024-05-30T07:10:31",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"
   },
   {
