@@ -2,8 +2,8 @@
  1.3G └─┬ .
  151M   ├── pandoc.exe
  135M   ├── ffmpeg.exe
- 134M   ├── ffprobe.exe
- 134M   ├── ffplay.exe
+ 135M   ├── ffprobe.exe
+ 135M   ├── ffplay.exe
   72M   ├── alist.exe
   35M   ├── step.exe
   29M   ├── sing-box.exe
@@ -34,7 +34,7 @@
  8.9M   ├── smartdns-rs.exe
  8.7M   ├── ein.exe
  8.6M   ├── pingtunnel.exe
- 8.2M   ├── croc.exe
+ 8.3M   ├── croc.exe
  7.2M   ├── curl.exe
  7.1M   ├── stunner.exe
  6.9M   ├── cfspeed.exe
@@ -65,6 +65,7 @@
  2.3M   ├── geoping.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── csplit.exe
+ 2.2M   ├── err.exe
  2.2M   ├── nl.exe
  2.1M   ├── tac.exe
  2.1M   ├── pdftopng.exe
@@ -77,7 +78,6 @@
  1.7M   ├── inscope.exe
  1.6M   ├── botsay.exe
  1.6M   ├── sort.exe
- 1.5M   ├── err.exe
  1.5M   ├── quotes-escaper.exe
  1.5M   ├── dua.exe
  1.4M   ├── expr.exe
