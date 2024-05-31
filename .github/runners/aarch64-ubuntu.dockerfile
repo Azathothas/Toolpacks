@@ -145,6 +145,8 @@ RUN <<EOS
  #Untar
   mkdir -p "/runner-init"
   tar xzf "./runner.tar.gz" -C "/runner-init" && rm "./runner.tar.gz"
+ #Dos2unix
+  find "/runner-init" -type f -exec dos2unix --quiet {} \; 2>/dev/null || true
  #Run Install 
   chmod +x "/runner-init/bin/installdependencies.sh" && bash "/runner-init/bin/installdependencies.sh"
  #Remove cache 
