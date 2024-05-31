@@ -9,6 +9,7 @@
 #FROM nestybox/ubuntu-jammy-systemd-docker:latest
 # URL: https://hub.docker.com/r/azathothas/gh-runner-aarch64-ubuntu
 FROM ubuntu:latest
+#FROM ubuntu:jammy
 #------------------------------------------------------------------------------------#
 ##Base Deps
 ENV DEBIAN_FRONTEND="noninteractive"
