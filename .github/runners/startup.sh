@@ -40,39 +40,47 @@ fi
 #------------------------------------------------------------------------------------#
 ##Read from --env-file=runner.env & Authenticate
 if [ -n "${GITHUB_REPOSITORY}" ]; then
-  auth_url="https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/actions/runners/registration-token"
-  registration_url="https://github.com/${GITHUB_OWNER}/${GITHUB_REPOSITORY}"
+  echo -e "[+] Registering Runner For ${GITHUB_OWNER}/${GITHUB_REPOSITORY}"
+  export auth_url="https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/actions/runners/registration-token"
+  export registration_url="https://github.com/${GITHUB_OWNER}/${GITHUB_REPOSITORY}"
 else
-  auth_url="https://api.github.com/orgs/${GITHUB_OWNER}/actions/runners/registration-token"
-  registration_url="https://github.com/${GITHUB_OWNER}"
+  echo -e "[+] Registering Runner For ${GITHUB_OWNER} [ORG]"
+  export auth_url="https://api.github.com/orgs/${GITHUB_OWNER}/actions/runners/registration-token"
+  export registration_url="https://github.com/${GITHUB_OWNER}"
 fi
 #------------------------------------------------------------------------------------#
 ##Func to Generate API Tokens
 generate_token() {
   local payload
   local runner_token
-  payload="$(curl -fsLX POST -H "Authorization: token ${GITHUB_PERSONAL_TOKEN}" "${auth_url}")"
+  echo -e "[+] Generating Token..."
+  payload="$(curl -qfsSL -X 'POST' "${auth_url}" -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" -H 'Accept: application/vnd.github+json')"
   runner_token="$(echo "${payload}" | jq '.token' --raw-output)"
   if [ "${runner_token}" == "null" ]; then
-    echo "${payload}"
+    echo "${payload}" | jq .
     exit 1
   fi
-  echo "${runner_token}"
+  echo -e "[+] Ephemeral AUTH Token :: ${runner_token}"
 }
 export -f generate_token
 #------------------------------------------------------------------------------------#
 ##Recheck Docker Status & Register Runner
 cd "/runner-init" && service docker status
 runner_id="${RUNNER_NAME}_$(openssl rand -hex 6)"
-echo "Registering runner ${runner_id}"
+echo "[+] Registering Runner --> ${runner_id}"
 RUNNER_TOKEN="$(generate_token)"
 test $? -ne 0 && {
-  echo "Debugging token"
+  echo "[-] Debugging Token..."
   echo -e "\n[+] Token: ${GITHUB_PERSONAL_TOKEN}\n"
   echo "${RUNNER_TOKEN}" && echo -e "\n"
   exit 1
 }
 ##Configure
+echo "[+] Configuring Runner..."
+echo "[+] (ID: ${runner_id})"
+echo "[+] (LABELS: ${RUNNER_LABELS})"
+echo "[+] (TOKEN: ${RUNNER_TOKEN})"
+echo "[+] (URL: ${registration_url})"
 "/runner-init/config.sh" \
   --name "${runner_id}" \
   --labels "${RUNNER_LABELS}" \
