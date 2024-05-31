@@ -142,9 +142,10 @@ RUN <<EOS
  #Setup GH Runner (arm64)
   eget "https://github.com/actions/runner" --asset "linux" --asset "arm64" --asset "tar.gz" --to "./runner.tar.gz" --download-only 
  #Untar
-  tar xzf "./runner.tar.gz" && rm "./runner.tar.gz"
+  mkdir -p "/runner-init"
+  tar xzf "./runner.tar.gz" -C "/runner-init" && rm "./runner.tar.gz"
  #Run Install 
-  chmod +x "./bin/installdependencies.sh" && bash "./bin/installdependencies.sh"
+  chmod +x "/runner-init/bin/installdependencies.sh" && bash "/runner-init/bin/installdependencies.sh"
  #Remove cache 
   rm -rf "/var/lib/apt/lists/"* 2>/dev/null
 EOS
