@@ -38,7 +38,7 @@ fi
 ##------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
-##Read from --env-file=runner.env
+##Read from --env-file=runner.env & Authenticate
 if [ -n "${GITHUB_REPOSITORY}" ]; then
   auth_url="https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/actions/runners/registration-token"
   registration_url="https://github.com/${GITHUB_OWNER}/${GITHUB_REPOSITORY}"
@@ -47,29 +47,33 @@ else
   registration_url="https://github.com/${GITHUB_OWNER}"
 fi
 #------------------------------------------------------------------------------------#
+##Func to Generate API Tokens
 generate_token() {
   local payload
   local runner_token
-  payload=$(curl -fsX POST -H "Authorization: token ${GITHUB_PERSONAL_TOKEN}" "${auth_url}")
-  runner_token=$(echo "${payload}" | jq .token --raw-output)
+  payload="$(curl -fsLX POST -H "Authorization: token ${GITHUB_PERSONAL_TOKEN}" "${auth_url}")"
+  runner_token="$(echo "${payload}" | jq '.token' --raw-output)"
   if [ "${runner_token}" == "null" ]; then
     echo "${payload}"
     exit 1
   fi
   echo "${runner_token}"
 }
+export -f generate_token
 #------------------------------------------------------------------------------------#
-service docker status
-runner_id=${RUNNER_NAME}_$(openssl rand -hex 6)
+##Recheck Docker Status & Register Runner
+cd "/runner-init" && service docker status
+runner_id="${RUNNER_NAME}_$(openssl rand -hex 6)"
 echo "Registering runner ${runner_id}"
-RUNNER_TOKEN=$(generate_token)
+RUNNER_TOKEN="$(generate_token)"
 test $? -ne 0 && {
   echo "Debugging token"
   echo -e "\n[+] Token: ${GITHUB_PERSONAL_TOKEN}\n"
   echo "${RUNNER_TOKEN}" && echo -e "\n"
   exit 1
 }
-./config.sh \
+##Configure
+"/runner-init/config.sh" \
   --name "${runner_id}" \
   --labels "${RUNNER_LABELS}" \
   --token "${RUNNER_TOKEN}" \
@@ -80,11 +84,16 @@ test $? -ne 0 && {
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
+##Remove Runner Upon Completion
 remove_runner() {
-  ./config.sh remove --unattended --token "$(generate_token)"
+  "/runner-init/config.sh" remove --unattended --token "$(generate_token)"
 }
+export -f remove_runner
+#exit if ctrl + c
 trap 'remove_runner; exit 130' SIGINT
+#exit if kill|pkill -9
 trap 'remove_runner; exit 143' SIGTERM
 #------------------------------------------------------------------------------------#
-./run.sh "$*"
+#Run with Initial ARGs
+"/runner-init/run.sh" "$*"
 #------------------------------------------------------------------------------------#
