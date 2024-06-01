@@ -432,9 +432,9 @@ jobs:
           done) &
           wait ; echo
           #Sort
-          find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | sort --unique --reverse -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
-          #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | sort --numeric-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
-          #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | sort --version-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
+          find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --unique --reverse -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
+          #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --numeric-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
+          #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --version-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
         continue-on-error: true
 
       - name: Ensure Healthy Commit Nums (RESET ON >= 1000)
