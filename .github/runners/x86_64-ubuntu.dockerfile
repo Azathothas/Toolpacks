@@ -9,6 +9,7 @@
 #FROM nestybox/ubuntu-jammy-systemd-docker:latest
 # URL: https://hub.docker.com/r/azathothas/gh-runner-x86_64-ubuntu
 FROM ubuntu:latest
+#FROM ubuntu:jammy
 #------------------------------------------------------------------------------------#
 ##Base Deps
 ENV DEBIAN_FRONTEND="noninteractive"
@@ -142,9 +143,12 @@ RUN <<EOS
  #Setup GH Runner (X86_64)
   eget "https://github.com/actions/runner" --asset "linux" --asset "x64" --asset "^arm" --asset "tar.gz" --to "./runner.tar.gz" --download-only 
  #Untar
-  tar xzf "./runner.tar.gz" && rm "./runner.tar.gz"
+  mkdir -p "/runner-init"
+  tar xzf "./runner.tar.gz" -C "/runner-init" && rm "./runner.tar.gz"
+ #Dos2unix
+  find "/runner-init" -type f -exec dos2unix --quiet {} \; 2>/dev/null || true
  #Run Install
-  chmod +x "./bin/installdependencies.sh" && bash "./bin/installdependencies.sh"
+  chmod +x "/runner-init/bin/installdependencies.sh" && bash "/runner-init/bin/installdependencies.sh"
  #Remove cache 
   rm -rf "/var/lib/apt/lists/"* 2>/dev/null
 EOS

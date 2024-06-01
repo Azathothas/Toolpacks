@@ -75,8 +75,13 @@ wait
 sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" >/dev/null 2>&1 && sleep 5
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${DOCKER_LOG_FILE})\n"
-set -x && nohup sudo docker run --pull="always" --runtime "sysbox-runc" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
-set +x && sleep 120
+if [ "$SYSBOX" == "NO" ]; then
+   echo -e "[+] NO SYSBOX [+]"
+   set -x && nohup sudo docker run --pull="always" --network="host" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
+else
+   set -x && nohup sudo docker run --pull="always" --runtime "sysbox-runc" --network="bridge" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
+fi
+set +x && echo -e "[+] Waiting 120s..." && sleep 120
 #Get logs
 DOCKER_ID="$(sudo docker ps -qf name=${DOCKER_CONTAINER_NAME})" && export DOCKER_ID="${DOCKER_ID}"
 DOCKER_LOGPATH="$(sudo docker inspect --format='{{.LogPath}}' ${DOCKER_CONTAINER_NAME})" && export DOCKER_LOGPATH="${DOCKER_LOGPATH}"
