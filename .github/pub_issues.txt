@@ -1,0 +1,3 @@
+2024-05-31T12:13:31Z remoteEntry.js wrongly generated --> https://github.com/module-federation/core/issues/2558 (Keitar6)
+2023-10-28T14:08:42Z Passing slice of int64 to a query fails with 'cannot find encode plan' --> https://github.com/jackc/pgx/issues/1783 (jarri-abidi)
+ --> https://github.com/bazelbuild/rules_apple/issues/2463 (sgowroji)
