@@ -12,9 +12,9 @@ env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
   RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   R2_PUB_REPO: "https://pub.ajam.dev/repos/Azathothas/Toolpacks"
-#------------------------------------------------------------------------------------#  
 jobs:
-  check:
+#------------------------------------------------------------------------------------#
+  check-post:
     runs-on: ubuntu-latest
     
     permissions:
@@ -559,7 +559,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   enrich-arm64v8a-Android:
     runs-on: ubuntu-latest
-    needs: [check]
+    needs: [check-post]
     steps:
 
       - name: Checkout repository
@@ -598,6 +598,32 @@ jobs:
           set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+        continue-on-error: true
+
+      - name: rClone Check Metadata (bin.ajam.dev/arm64_v8a_Android)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          BINDIR="$SYSTMP/toolpack_arm64_v8a_Android" && export BINDIR="$BINDIR"
+          mkdir -p "$SYSTMP/toolpack_arm64_v8a_Android"
+          cd "$BINDIR"
+          rclone copy "r2:/bin/arm64_v8a_Android/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #File
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/arm64_v8a_Android_FILE"
+          rclone copyto "$SYSTMP/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Size (Dust)
+          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/arm64_v8a_Android_SIZE.txt"
+          rclone copyto "$SYSTMP/arm64_v8a_Android_SIZE.md" "r2:/bin/arm64_v8a_Android/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto "$SYSTMP/arm64_v8a_Android_SIZE.txt" "r2:/bin/arm64_v8a_Android/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #BLAKE3SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/arm64_v8a_Android_BLAKE3SUM"
+          rclone copyto "$SYSTMP/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #SHA256SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/arm64_v8a_Android_SHA256SUM"
+          rclone copyto "$SYSTMP/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          ##Purge
+          rm -rf "$BINDIR"
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/arm64_v8a_Android)
@@ -617,7 +643,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   enrich-arm64-Linux:
     runs-on: ubuntu-latest
-    needs: [check]
+    needs: [check-post]
     steps:
 
       - name: Checkout repository
@@ -656,6 +682,32 @@ jobs:
           set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+        continue-on-error: true
+
+      - name: rClone Check Metadata (bin.ajam.dev/aarch64_arm64_Linux)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          BINDIR="$SYSTMP/toolpack_aarch64" && export BINDIR="$BINDIR"
+          mkdir -p "$SYSTMP/toolpack_aarch64"
+          cd "$BINDIR"
+          rclone copy "r2:/bin/aarch64_arm64_Linux/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #File
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/aarch64_Linux_FILE"
+          rclone copyto "$SYSTMP/aarch64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Size (Dust)
+          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/aarch64_Linux_SIZE.txt"
+          rclone copyto "$SYSTMP/aarch64_Linux_SIZE.md" "r2:/bin/aarch64_arm64_Linux/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto "$SYSTMP/aarch64_Linux_SIZE.txt" "r2:/bin/aarch64_arm64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #BLAKE3SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/aarch64_Linux_BLAKE3SUM"
+          rclone copyto "$SYSTMP/aarch64_Linux_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #SHA256SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/aarch64_Linux_SHA256SUM"
+          rclone copyto "$SYSTMP/aarch64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          ##Purge
+          rm -rf "$BINDIR"
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/aarch64_arm64_Linux)
@@ -675,7 +727,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   enrich-x86-64-Linux:
     runs-on: ubuntu-latest
-    needs: [check]
+    needs: [check-post]
     steps:
 
       - name: Checkout repository
@@ -714,6 +766,32 @@ jobs:
           set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+        continue-on-error: true
+
+      - name: rClone Check Metadata (bin.ajam.dev/x86_64_Linux)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          BINDIR="$SYSTMP/toolpack_x86_64" && export BINDIR="$BINDIR"
+          mkdir -p "$SYSTMP/toolpack_x86_64"
+          cd "$BINDIR"
+          rclone copy "r2:/bin/x86_64_Linux/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #File
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/x86_64_Linux_FILE"
+          rclone copyto "$SYSTMP/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Size (Dust)
+          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/x86_64_Linux_SIZE.txt"
+          rclone copyto "$SYSTMP/x86_64_Linux_SIZE.md" "r2:/bin/x86_64_Linux/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto "$SYSTMP/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #BLAKE3SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/x86_64_Linux_BLAKE3SUM"
+          rclone copyto "$SYSTMP/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #SHA256SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/x86_64_Linux_SHA256SUM"
+          rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          ##Purge
+          rm -rf "$BINDIR"
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/x86_64_Linux)
@@ -733,7 +811,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   enrich-x64-Windows:
     runs-on: ubuntu-latest
-    needs: [check]
+    needs: [check-post]
     steps:
 
       - name: Checkout repository
@@ -774,6 +852,32 @@ jobs:
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
+      - name: rClone Check Metadata (bin.ajam.dev/x64_Windows)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          BINDIR="$SYSTMP/toolpack_x86_64" && export BINDIR="$BINDIR"
+          mkdir -p "$SYSTMP/toolpack_x86_64"
+          cd "$BINDIR"
+          rclone copy "r2:/bin/x64_Windows/" "." --exclude="Baseutils/**" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #File
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/x64_Windows_FILE"
+          rclone copyto "$SYSTMP/x64_Windows_FILE" "r2:/bin/x64_Windows/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Size (Dust)
+          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/x64_Windows_SIZE.txt"
+          rclone copyto "$SYSTMP/x64_Windows_SIZE.md" "r2:/bin/x64_Windows/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto "$SYSTMP/x64_Windows_SIZE.txt" "r2:/bin/x64_Windows/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #BLAKE3SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/x64_Windows_BLAKE3SUM"
+          rclone copyto "$SYSTMP/x64_Windows_BLAKE3SUM" "r2:/bin/x64_Windows/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #SHA256SUM
+          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/x64_Windows_SHA256SUM"
+          rclone copyto "$SYSTMP/x64_Windows_SHA256SUM" "r2:/bin/x64_Windows/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          ##Purge
+          rm -rf "$BINDIR"
+        continue-on-error: true
+        
       - name: rClone Enrich Metadata (bin.ajam.dev/x64_Windows)
         run: |
           # Presets

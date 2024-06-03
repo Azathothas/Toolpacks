@@ -173,7 +173,7 @@ set +x
       cd "$BINDIR" && rclone copy "." "r2:/bin/x86_64_Linux/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
     #Upload [$BASEUTILSDIR]
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      cd "$BASEUTILSDIR" && rclone copy "." "r2:/bin/x86_64_Linux/Baseutils/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
+      cd "$BASEUTILSDIR" && rclone copy "." "r2:/bin/x86_64_Linux/Baseutils/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
     ##Archive Binaries (.7z) (x86_64_Linux) Bins [Downstreamed RCLONE]
        if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
             echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
