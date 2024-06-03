@@ -1,5 +1,5 @@
 ```mathematica
- 9.9G └─┬ /tmp/toolpack_x86_64
+  10G └─┬ /tmp/toolpack_x86_64
  167M   ├── /tmp/toolpack_x86_64/usql
  161M   ├── /tmp/toolpack_x86_64/sliver-server
  148M   ├── /tmp/toolpack_x86_64/cloudfox
@@ -54,6 +54,7 @@
   34M   ├── /tmp/toolpack_x86_64/xet_staticx
   33M   ├── /tmp/toolpack_x86_64/cloudreve
   33M   ├── /tmp/toolpack_x86_64/pixi
+  33M   ├── /tmp/toolpack_x86_64/nezha-dashboard
   32M   ├── /tmp/toolpack_x86_64/skupper
   32M   ├── /tmp/toolpack_x86_64/surf
   32M   ├── /tmp/toolpack_x86_64/mlr
@@ -101,6 +102,7 @@
   25M   ├── /tmp/toolpack_x86_64/algernon
   24M   ├── /tmp/toolpack_x86_64/tailscaled
   24M   ├── /tmp/toolpack_x86_64/docker
+  24M   ├── /tmp/toolpack_x86_64/cloudflared
   24M   ├── /tmp/toolpack_x86_64/xetcmd
   24M   ├── /tmp/toolpack_x86_64/brutespray
   24M   ├── /tmp/toolpack_x86_64/vhs
@@ -156,6 +158,7 @@
   18M   ├── /tmp/toolpack_x86_64/luet
   18M   ├── /tmp/toolpack_x86_64/rekor-cli
   18M   ├── /tmp/toolpack_x86_64/ctr
+  18M   ├── /tmp/toolpack_x86_64/nezha-agent
   18M   ├── /tmp/toolpack_x86_64/reviewdog
   18M   ├── /tmp/toolpack_x86_64/gitpod
   18M   ├── /tmp/toolpack_x86_64/sunbeam
@@ -168,6 +171,7 @@
   17M   ├── /tmp/toolpack_x86_64/gickup
   17M   ├── /tmp/toolpack_x86_64/circumflex
   17M   ├── /tmp/toolpack_x86_64/hrekt
+  16M   ├── /tmp/toolpack_x86_64/serverstatus-server
   16M   ├── /tmp/toolpack_x86_64/lazygit
   16M   ├── /tmp/toolpack_x86_64/etcdctl
   16M   ├── /tmp/toolpack_x86_64/gp
@@ -182,10 +186,14 @@
   15M   ├── /tmp/toolpack_x86_64/cloudcash
   15M   ├── /tmp/toolpack_x86_64/yazi
   15M   ├── /tmp/toolpack_x86_64/rqbit
+  15M   ├── /tmp/toolpack_x86_64/aws-wire-lengths
   15M   ├── /tmp/toolpack_x86_64/termshark
   14M   ├── /tmp/toolpack_x86_64/tinja
   14M   ├── /tmp/toolpack_x86_64/s5cmd
   14M   ├── /tmp/toolpack_x86_64/bleve
+  14M   ├── /tmp/toolpack_x86_64/zerotier-one
+  14M   ├── /tmp/toolpack_x86_64/zerotier-idtool
+  14M   ├── /tmp/toolpack_x86_64/zerotier-cli
   14M   ├── /tmp/toolpack_x86_64/sysbox-runc
   14M   ├── /tmp/toolpack_x86_64/godns
   14M   ├── /tmp/toolpack_x86_64/pgrokd
@@ -242,6 +250,7 @@
   11M   ├── /tmp/toolpack_x86_64/jqp
   11M   ├── /tmp/toolpack_x86_64/multirootca
   11M   ├── /tmp/toolpack_x86_64/watchexec
+  11M   ├── /tmp/toolpack_x86_64/netscanner
   11M   ├── /tmp/toolpack_x86_64/lazydocker
   11M   ├── /tmp/toolpack_x86_64/fx
   10M   ├── /tmp/toolpack_x86_64/gip
@@ -263,6 +272,7 @@
   10M   ├── /tmp/toolpack_x86_64/katana_staticx
   10M   ├── /tmp/toolpack_x86_64/scilla
 10.0M   ├── /tmp/toolpack_x86_64/orbiton
+ 9.9M   ├── /tmp/toolpack_x86_64/flawz
  9.9M   ├── /tmp/toolpack_x86_64/tssh
  9.9M   ├── /tmp/toolpack_x86_64/tut
  9.8M   ├── /tmp/toolpack_x86_64/gotty
@@ -280,10 +290,11 @@
  9.5M   ├── /tmp/toolpack_x86_64/monolith
  9.5M   ├── /tmp/toolpack_x86_64/yq
  9.3M   ├── /tmp/toolpack_x86_64/pgrok
+ 9.3M   ├── /tmp/toolpack_x86_64/ipinfo-cli
+ 9.3M   ├── /tmp/toolpack_x86_64/ipinfo
  9.3M   ├── /tmp/toolpack_x86_64/redguard
  9.3M   ├── /tmp/toolpack_x86_64/doggo
  9.3M   ├── /tmp/toolpack_x86_64/cfssl-newkey
- 9.3M   ├── /tmp/toolpack_x86_64/archey
  9.3M   ├── /tmp/toolpack_x86_64/invidtui
  9.3M   ├── /tmp/toolpack_x86_64/taplo
  9.3M   ├── /tmp/toolpack_x86_64/dasel
@@ -315,6 +326,7 @@
  8.8M   ├── /tmp/toolpack_x86_64/rospo
  8.7M   ├── /tmp/toolpack_x86_64/cut-cdn
  8.7M   ├── /tmp/toolpack_x86_64/gocryptfs
+ 8.7M   ├── /tmp/toolpack_x86_64/serverstatus-client
  8.7M   ├── /tmp/toolpack_x86_64/oha
  8.6M   ├── /tmp/toolpack_x86_64/getghrel
  8.5M   ├── /tmp/toolpack_x86_64/rustypaste
@@ -350,12 +362,14 @@
  7.9M   ├── /tmp/toolpack_x86_64/viddy
  7.9M   ├── /tmp/toolpack_x86_64/sj
  7.8M   ├── /tmp/toolpack_x86_64/gau
+ 7.8M   ├── /tmp/toolpack_x86_64/archey
  7.8M   ├── /tmp/toolpack_x86_64/gosec
  7.8M   ├── /tmp/toolpack_x86_64/ffuf
  7.8M   ├── /tmp/toolpack_x86_64/z-tokens
  7.7M   ├── /tmp/toolpack_x86_64/gobuster
  7.7M   ├── /tmp/toolpack_x86_64/enola
  7.6M   ├── /tmp/toolpack_x86_64/curl
+ 7.6M   ├── /tmp/toolpack_x86_64/husarnet
  7.6M   ├── /tmp/toolpack_x86_64/cherrybomb
  7.5M   ├── /tmp/toolpack_x86_64/pretender
  7.5M   ├── /tmp/toolpack_x86_64/quickcert
@@ -698,6 +712,7 @@
  2.4M   ├── /tmp/toolpack_x86_64/runiq
  2.4M   ├── /tmp/toolpack_x86_64/kondo
  2.4M   ├── /tmp/toolpack_x86_64/bingrep
+ 2.4M   ├── /tmp/toolpack_x86_64/husarnet-daemon
  2.4M   ├── /tmp/toolpack_x86_64/btop
  2.3M   ├── /tmp/toolpack_x86_64/qemu-hppa-static
  2.3M   ├── /tmp/toolpack_x86_64/encode
@@ -753,10 +768,12 @@
  1.7M   ├── /tmp/toolpack_x86_64/xargs-rs
  1.7M   ├── /tmp/toolpack_x86_64/exa
  1.6M   ├── /tmp/toolpack_x86_64/sudo-rs
+ 1.6M   ├── /tmp/toolpack_x86_64/vnstat
  1.6M   ├── /tmp/toolpack_x86_64/zfxtop
  1.6M   ├── /tmp/toolpack_x86_64/tmux
  1.6M   ├── /tmp/toolpack_x86_64/jless_staticx
  1.6M   ├── /tmp/toolpack_x86_64/mmv
+ 1.6M   ├── /tmp/toolpack_x86_64/vnstatd
  1.6M   ├── /tmp/toolpack_x86_64/moac-pwgen
  1.5M   ├── /tmp/toolpack_x86_64/goaccess
  1.5M   ├── /tmp/toolpack_x86_64/fastfetch
@@ -822,6 +839,7 @@
  972K   ├── /tmp/toolpack_x86_64/grep
  960K   ├── /tmp/toolpack_x86_64/svg-hush
  948K   ├── /tmp/toolpack_x86_64/hexyl
+ 932K   ├── /tmp/toolpack_x86_64/cargo-unlock
  876K   ├── /tmp/toolpack_x86_64/hx
  872K   ├── /tmp/toolpack_x86_64/catp
  856K   ├── /tmp/toolpack_x86_64/zt-hashes
@@ -861,6 +879,7 @@
  356K   ├── /tmp/toolpack_x86_64/sudoreplay
  356K   ├── /tmp/toolpack_x86_64/sftp
  344K   ├── /tmp/toolpack_x86_64/fi6s
+ 284K   ├── /tmp/toolpack_x86_64/METADATA.json.tmp
  268K   ├── /tmp/toolpack_x86_64/sftp-server
  264K   ├── /tmp/toolpack_x86_64/doas
  260K   ├── /tmp/toolpack_x86_64/pigz
@@ -936,6 +955,7 @@
   36K   ├── /tmp/toolpack_x86_64/sshpass
   36K   ├── /tmp/toolpack_x86_64/pipetty
   36K   ├── /tmp/toolpack_x86_64/ansi2html
+  28K   ├── /tmp/toolpack_x86_64/nezha-install.sh
   28K   ├── /tmp/toolpack_x86_64/apk.sh
   24K   ├── /tmp/toolpack_x86_64/try
   24K   ├── /tmp/toolpack_x86_64/prettyping
@@ -957,5 +977,7 @@
  4.0K   ├── /tmp/toolpack_x86_64/scopeview
  4.0K   ├── /tmp/toolpack_x86_64/sa2
  4.0K   ├── /tmp/toolpack_x86_64/sa1
+ 4.0K   ├── /tmp/toolpack_x86_64/nezha-dashboard.service
+ 4.0K   ├── /tmp/toolpack_x86_64/nezha-dashboard.openrc
  4.0K   └── /tmp/toolpack_x86_64/binfetch.cfg
 ```
