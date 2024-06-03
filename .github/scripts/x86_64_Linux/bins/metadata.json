@@ -1946,7 +1946,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-03T00:07:20",
+    "update_date": "2024-06-03T07:05:20",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2083,6 +2083,11 @@
     "name": "netstat.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/netstat.sh"
+  },
+  {
+    "name": "nezha.sh",
+    "update_date": "2024-06-03T14:03:27",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nezha.sh"
   },
   {
     "name": "nfs-utils.sh",
@@ -2730,6 +2735,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sed.sh"
   },
   {
+    "name": "serverstatus.sh",
+    "update_date": "2024-06-03T14:03:27",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/serverstatus.sh"
+  },
+  {
     "name": "sessionprobe.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sessionprobe.sh"
@@ -3313,6 +3323,11 @@
     "name": "viu.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/viu.sh"
+  },
+  {
+    "name": "vnstat.sh",
+    "update_date": "2024-06-03T14:03:27",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/vnstat.sh"
   },
   {
     "name": "volta.sh",
