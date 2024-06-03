@@ -1,0 +1,11 @@
+name: "ServerStatus-Rust"
+description: "Multi Server, Multi Cloud Probing & Server Monitoring"
+web_url: "https://doc.ssr.rs"
+repo_url: "https://github.com/zdz/ServerStatus-Rust"
+bins:
+  - "serverstatus-client"
+  - "serverstatus-gen-certs.sh"
+  - "ssr-client"
+  - "serverstatus-server"
+  - "serverstatus-status.sh"
+  - "ssr-server"
