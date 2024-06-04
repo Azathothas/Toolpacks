@@ -1,5 +1,5 @@
 name: "cronie"
-description: "Standalone, Minimal HTTP Server"
+description: "Cronie cron daemon project"
 web_url: "https://github.com/cronie-crond/cronie"
 repo_url: "https://github.com/cronie-crond/cronie"
 bins:

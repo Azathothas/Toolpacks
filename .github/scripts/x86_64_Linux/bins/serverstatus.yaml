@@ -7,5 +7,7 @@ bins:
   - "serverstatus-gen-certs.sh"
   - "ssr-client"
   - "serverstatus-server"
+  - "serverstatus-server-themed"
   - "serverstatus-status.sh"
   - "ssr-server"
+  - "ssr-server-themed"

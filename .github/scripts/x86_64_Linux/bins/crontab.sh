@@ -21,7 +21,7 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #cron
+    #cron: Daemon for running commands at specific times
      export BIN="cron" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://www.gnu.org/software/cron/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"

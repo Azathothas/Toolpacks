@@ -25,10 +25,19 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="ServerStatus-Rust" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/zdz/ServerStatus-Rust" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build
+      #Build Theme
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       git clone --filter "blob:none" --quiet "https://github.com/JingBh/ServerStatus-theme" && cd "./ServerStatus-theme"
+       npm install "vue@latest" --global --no-fund
+       npm install "vite@latest" --global --no-fund
+       yarn install --force
+       yarn build
+       rsync -av --copy-links --checksum "./dist/." "/tmp/serverstatus-web"
+       popd >/dev/null 2>&1
+      #Build Binary
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
-       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+       docker run --privileged --net="host" --volume "/tmp/serverstatus-web:/serverstatus-web" --name "alpine-builder" "azathothas/alpine-builder:latest" \
         sh -c '
         #Setup ENV
          tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
@@ -37,7 +46,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          export RUST_TARGET="x86_64-unknown-linux-musl"
          rustup target add "$RUST_TARGET"
          export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
-        #Build
+        #Build (Vanilla)
          git clone --filter "blob:none" --quiet "https://github.com/zdz/ServerStatus-Rust" && cd "./ServerStatus-Rust"
          echo -e "\n[+] Target: $RUST_TARGET\n"
          echo -e "\n[+] Flags: $RUSTFLAGS\n"
@@ -46,6 +55,21 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
          cp "./target/$RUST_TARGET/release/stat_client" "/build-bins/stat_client"
          cp "./target/$RUST_TARGET/release/stat_server" "/build-bins/stat_server"
+        #Build (Themed)
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         git clone --filter "blob:none" --quiet "https://github.com/zdz/ServerStatus-Rust" && cd "./ServerStatus-Rust"
+         echo -e "\n[+] Target: $RUST_TARGET\n"
+         echo -e "\n[+] Flags: $RUSTFLAGS\n"
+         sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
+         rm rust-toolchain* 2>/dev/null
+         #Replace theme
+         find "./web" -mindepth 1 -maxdepth 1 -not -name 'jinja' -exec rm -rf {} +
+         rsync -av --copy-links --checksum "/serverstatus-web/." "./web/"
+         #rsync -av --copy-links --checksum "/serverstatus-web/assets" "./web/assets"
+         #rsync -av --copy-links --checksum "/serverstatus-web/index.html" "./web/index.html"
+         #rsync -av --copy-links --checksum "/serverstatus-web/robots.txt" "./web/robots.txt"
+         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+         cp "./target/$RUST_TARGET/release/stat_server" "/build-bins/stat_server_themed" 
         '
       #Addons
        curl -qfsSL "https://raw.githubusercontent.com/zdz/ServerStatus-Rust/master/scripts/gen_certs.sh" -o "$BINDIR/serverstatus-gen-certs.sh"
@@ -61,6 +85,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./stat_client" "$BINDIR/ssr-client"
        file "./stat_server" && du -sh "./stat_server" ; cp "./stat_server" "$BINDIR/serverstatus-server"
        cp "./stat_server" "$BINDIR/ssr-server"
+       file "./stat_server_themed" && du -sh "./stat_server_themed" ; cp "./stat_server_themed" "$BINDIR/serverstatus-server-themed"
+       cp "./stat_server_themed" "$BINDIR/ssr-server-themed"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
