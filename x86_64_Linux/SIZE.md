@@ -879,7 +879,6 @@
  356K   ├── /tmp/toolpack_x86_64/sudoreplay
  356K   ├── /tmp/toolpack_x86_64/sftp
  344K   ├── /tmp/toolpack_x86_64/fi6s
- 284K   ├── /tmp/toolpack_x86_64/METADATA.json.tmp
  268K   ├── /tmp/toolpack_x86_64/sftp-server
  264K   ├── /tmp/toolpack_x86_64/doas
  260K   ├── /tmp/toolpack_x86_64/pigz

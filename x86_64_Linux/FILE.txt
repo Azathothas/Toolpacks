@@ -1,5 +1,4 @@
 7z:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8be1ea300b2613ddf1b58fe1b952417b52855170, for GNU/Linux 3.2.0, stripped
-METADATA.json.tmp:               JSON data
 act:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=VLoaAVITFAi0aaX4EffT/O5YvNNsxHe5XPlwTc9MW/RMB88l2sDZsSe5j8To0O/lCjh_uF5mktaRfAq21-D, stripped
 actionlint:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=lNHUkXweLi8MJE43ESCV/ZM29U4wcbIhfIZyADEzi/F-4hMmWHui9sDgtF5Elu/FVXqf0RofjJCKSJpBht6, stripped
 age:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

@@ -731,7 +731,6 @@
  240K   ├── /tmp/toolpack_aarch64/twingate-connector-staticx
  240K   ├── /tmp/toolpack_aarch64/twingate-connector
  240K   ├── /tmp/toolpack_aarch64/twingate-client
- 236K   ├── /tmp/toolpack_aarch64/METADATA.json.tmp
  216K   ├── /tmp/toolpack_aarch64/zapper
  212K   ├── /tmp/toolpack_aarch64/zapper-stealth
  208K   ├── /tmp/toolpack_aarch64/sar

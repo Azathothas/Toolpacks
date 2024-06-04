@@ -1,5 +1,4 @@
 7z:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
-METADATA.json.tmp:               JSON data
 TEST:                            ASCII text, with CRLF line terminators
 act:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=uUorhLGtDHvlwEAstI5B/FLyrIZlvyshq8ZJWANyw/LAzHEwMyzoVHl_93UCR_/CI6nB8J0d-rLeq3DPBFT, stripped
 actionlint:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=NThlo3yyvHWgTZmzWnP0/ANIynPIu_bkNbFST5Md6/xaUk9ioLt3uf2bfnYp6a/MWfqPdMM4XvE-N49-qAh, stripped

@@ -178,7 +178,6 @@
  176K   ├── /tmp/toolpack_x86_64/ssh-shellhost.exe
  172K   ├── /tmp/toolpack_x86_64/yt-dlp.exe
  140K   ├── /tmp/toolpack_x86_64/iperf3.exe
-  52K   ├── /tmp/toolpack_x86_64/METADATA.json.tmp
    0B   ├── /tmp/toolpack_x86_64/stiG2Kb7
    0B   └── /tmp/toolpack_x86_64/stP1kAlM
 ```

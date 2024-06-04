@@ -1,5 +1,4 @@
 7z.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-METADATA.json.tmp:       JSON data
 actionlint.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 age.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 algernon.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
