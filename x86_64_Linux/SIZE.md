@@ -205,6 +205,8 @@
   14M   ├── /tmp/toolpack_x86_64/wiretap
   14M   ├── /tmp/toolpack_x86_64/yip
   14M   ├── /tmp/toolpack_x86_64/zgrab2
+  13M   ├── /tmp/toolpack_x86_64/ssr-server-themed
+  13M   ├── /tmp/toolpack_x86_64/serverstatus-server-themed
   13M   ├── /tmp/toolpack_x86_64/ein
   13M   ├── /tmp/toolpack_x86_64/etcdutl
   13M   ├── /tmp/toolpack_x86_64/smap
