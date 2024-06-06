@@ -1946,7 +1946,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-06T04:00:54",
+    "update_date": "2024-06-06T05:59:51",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2113,6 +2113,11 @@
     "name": "niltalk.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/niltalk.sh"
+  },
+  {
+    "name": "nix-index.sh",
+    "update_date": "2024-06-06T07:02:16",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nix-index.sh"
   },
   {
     "name": "nmap-formatter.sh",
@@ -2573,6 +2578,11 @@
     "name": "ripgrep.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ripgrep.sh"
+  },
+  {
+    "name": "rippkgs.sh",
+    "update_date": "2024-06-06T07:02:16",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rippkgs.sh"
   },
   {
     "name": "rnr.sh",
