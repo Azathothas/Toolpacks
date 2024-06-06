@@ -18,13 +18,13 @@
 > ```bash
 > #-----------------------------------------------------------------------------#
 > ↣ x86_64 Linux
-> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \(.repo_url // .web_url)"' | sort -u
+> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
 >
 > #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/x86_64_Linux/DETAILED.md
 >
 > #-----------------------------------------------------------------------------#
 > ↣ aarch64 || arm64 Linux
-> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \(.repo_url // .web_url)"' | sort -u
+> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
 >
 > #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/aarch64_arm64_Linux/DETAILED.md
 > 
