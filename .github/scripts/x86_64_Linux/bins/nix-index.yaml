@@ -1,0 +1,8 @@
+name: "nix-index"
+description: "Quickly locate nix packages with specific files"
+web_url: "https://github.com/nix-community/nix-index"
+repo_url: "https://github.com/nix-community/nix-index"
+bins:
+  - "nix-channel-index"
+  - "nix-index"
+  - "nix-locate"

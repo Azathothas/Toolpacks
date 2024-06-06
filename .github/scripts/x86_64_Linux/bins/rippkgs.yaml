@@ -1,0 +1,7 @@
+name: "rippkgs"
+description: "A CLI for indexing and searching packages in Nix expressions"
+web_url: "https://github.com/replit/rippkgs"
+repo_url: "https://github.com/replit/rippkgs"
+bins:
+  - "rippkgs"
+  - "rippkgs-index"

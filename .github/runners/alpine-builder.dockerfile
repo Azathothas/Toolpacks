@@ -471,6 +471,7 @@ RUN <<EOS
   apk add xz --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add xz-static --latest --upgrade --no-interactive 2>/dev/null
   apk add zig --latest --upgrade --no-interactive 2>/dev/null
   apk add zlib --latest --upgrade --no-interactive 2>/dev/null
   apk add zlib-dev --latest --upgrade --no-interactive 2>/dev/null
