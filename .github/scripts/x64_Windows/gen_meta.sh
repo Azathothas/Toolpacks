@@ -57,27 +57,27 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
       #Git Ops
        if [[ "$REPO_URL" == https://github.com* ]]; then
         #Fetch 
-         REPO_NAME="$(echo ${REPO_URL} | sed 's|^https://github.com/||' | sed 's/\s//g' | tr -d '[:space:]')" && export REPO_NAME="${REPO_NAME}"
+         REPO_NAME="$(echo ${REPO_URL} | sed 's|^https://github.com/||' | sed 's/|//g' | sed 's/\s//g' | tr -d '[:space:]')" && export REPO_NAME="${REPO_NAME}"
          REPO_METADATA="$(curl -qfsSL "https://api.github.com/repos/$REPO_NAME" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null)" && export REPO_METADATA="$REPO_METADATA"
          RELEASE_METADATA="$(curl -qfsSL "https://api.github.com/repos/$REPO_NAME/releases/latest" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | jq '.assets=""')" && export RELEASE_METADATA="$RELEASE_METADATA"
         #Parse
          #REPO_NAME="$(echo $REPO_METADATA | jq -r '.name' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g')" && export REPO_NAME="$REPO_NAME"
-         REPO_AUTHOR="$(echo $REPO_METADATA | jq -r '.owner.login' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g')" && export REPO_AUTHOR="$REPO_AUTHOR"
-         REPO_DESCRIPTION="$(echo $REPO_METADATA | jq -r '.description' | sed 's/`//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed ':a;N;$!ba;s/\r\n//g; s/\n//g' | sed 's/["'\'']//g' | sed 's/`//g')" && export REPO_DESCRIPTION="$REPO_DESCRIPTION"
-         REPO_LANGUAGE="$(echo $REPO_METADATA | jq -r '.language' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g')" && export REPO_LANGUAGE="$REPO_LANGUAGE"
-         REPO_LICENSE="$(echo $REPO_METADATA | jq -r '.license.name' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g')" && export REPO_LICENSE="$REPO_LICENSE"
-         LAST_UPDATED="$(echo $REPO_METADATA | jq -r '.pushed_at' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export LAST_UPDATED="$LAST_UPDATED"
+         REPO_AUTHOR="$(echo $REPO_METADATA | jq -r '.owner.login' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_AUTHOR="$REPO_AUTHOR"
+         REPO_DESCRIPTION="$(echo $REPO_METADATA | jq -r '.description' | sed 's/`//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed ':a;N;$!ba;s/\r\n//g; s/\n//g' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_DESCRIPTION="$REPO_DESCRIPTION"
+         REPO_LANGUAGE="$(echo $REPO_METADATA | jq -r '.language' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_LANGUAGE="$REPO_LANGUAGE"
+         REPO_LICENSE="$(echo $REPO_METADATA | jq -r '.license.name' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_LICENSE="$REPO_LICENSE"
+         LAST_UPDATED="$(echo $REPO_METADATA | jq -r '.pushed_at' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export LAST_UPDATED="$LAST_UPDATED"
         #If Releases don't exist, use tags
          if [ -z "$RELEASE_METADATA" ]; then
-            PKG_VERSION="$(curl -qfsSL "https://api.github.com/repos/$REPO_NAME/tags" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | jq -r '.[0].name' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_VERSION="$PKG_VERSION"
-            PKG_RELEASED="$(curl -qfsSL "https://api.github.com/repos/$REPO_NAME/git/refs/tags/$PKG_VERSION" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | jq '.object.url' | xargs curl -qfsSL -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | jq -r '.committer.date' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_RELEASED="$PKG_RELEASED"
+            PKG_VERSION="$(curl -qfsSL "https://api.github.com/repos/$REPO_NAME/tags" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | jq -r '.[0].name' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_VERSION="$PKG_VERSION"
+            PKG_RELEASED="$(curl -qfsSL "https://api.github.com/repos/$REPO_NAME/git/refs/tags/$PKG_VERSION" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | jq '.object.url' | xargs curl -qfsSL -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | jq -r '.committer.date' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_RELEASED="$PKG_RELEASED"
          else
-            PKG_VERSION="$(echo $RELEASE_METADATA | jq -r '.tag_name' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_VERSION="$PKG_VERSION"
-            PKG_RELEASED="$(echo $RELEASE_METADATA | jq -r '.published_at' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_RELEASED="$PKG_RELEASED"
+            PKG_VERSION="$(echo $RELEASE_METADATA | jq -r '.tag_name' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_VERSION="$PKG_VERSION"
+            PKG_RELEASED="$(echo $RELEASE_METADATA | jq -r '.published_at' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export PKG_RELEASED="$PKG_RELEASED"
          fi
          #REPO_URL="$(echo $REPO_METADATA | jq -r '.html_url' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export REPO_URL="$REPO_URL"
-         REPO_STARS="$(echo $REPO_METADATA | jq -r '.stargazers_count' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export REPO_STARS="$REPO_STARS"
-         REPO_TOPICS="$(echo "$REPO_METADATA" | jq -c -r '.topics' | tr -d '[]' | sed 's/, /, /g' | sed 's/,/, /g' | sed 's/"//g')" && export REPO_TOPICS="$REPO_TOPICS"
+         REPO_STARS="$(echo $REPO_METADATA | jq -r '.stargazers_count' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export REPO_STARS="$REPO_STARS"
+         REPO_TOPICS="$(echo "$REPO_METADATA" | jq -c -r '.topics' | tr -d '[]' | sed 's/, /, /g' | sed 's/,/, /g' | sed 's/|//g' | sed 's/"//g')" && export REPO_TOPICS="$REPO_TOPICS"
        else
          unset REPO_URL REPO_NAME REPO_METADATA RELEASE_METADATA REPO_AUTHOR REPO_DESCRIPTION REPO_LANGUAGE REPO_LICENSE LAST_UPDATED PKG_VERSION PKG_RELEASED REPO_STAR REPO_TOPICS
        fi
@@ -89,10 +89,10 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
           EXTRA_BINS="$(cat $TMPDIR/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"  
           jq --arg BIN "$BIN" --arg EXTRA_BINS "$EXTRA_BINS" '.[] |= if .name == $BIN then . + {extra_bins: $EXTRA_BINS} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
          #BSUM
-          B3SUM="$(cat "$TMPDIR/BLAKE3SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
+          B3SUM="$(cat "$TMPDIR/BLAKE3SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
           jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .name == $BIN then . + {b3sum: $B3SUM} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
          #SHA256SUM
-          SHA256="$(cat "$TMPDIR/SHA256SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
+          SHA256="$(cat "$TMPDIR/SHA256SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
           jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .name == $BIN then . + {sha256: $SHA256} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
          #Web URLs
           jq --arg BIN "$BIN" --arg WEB_URL "$WEB_URL" '.[] |= if .name == $BIN then . + {web_url: $WEB_URL} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
