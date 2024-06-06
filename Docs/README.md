@@ -8,6 +8,11 @@
 > Finally, all the binaries are uploaded to [bin.ajam.dev](https://bin.ajam.dev/). This is a [Cloudflare R2 Bucket](https://developers.cloudflare.com/r2/) and is managed using [rClone](https://github.com/rclone/rclone). All the binaries are also [compressed using 7z](https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/TIPS_TRICKS.md#archive--compress-dir--all-its-subfolders-with-best-possible-compression-7z) & uploaded to [R2](https://bin.ajam.dev/).
 
 ---
+- #### How do I find new Tools to add?
+> - [GitHub Search](https://github.com/search?q=is%3Apublic+archived%3Afalse+template%3Afalse+lang%3Ac+lang%3Acrystal+lang%3Ago+lang%3Anim+lang%3Arust+lang%3Azig+stars%3A%3E5+cli+OR+tool+OR+utility&type=repositories&s=updated&o=desc): `is:public archived:false template:false lang:c lang:crystal lang:go lang:nim lang:rust lang:zig stars:>5 cli OR tool OR utility` (Sorted By: `Recently Updated`)
+> - [GitHub Issues](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt): [https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt)
+
+---
 - #### How to add (request) a new a PKG/Tool?
 > 1. First & Foremost, make sure to check that it's **not already available**.
 > ```bash
