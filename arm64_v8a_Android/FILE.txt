@@ -1,4 +1,4 @@
-act:                             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=aN_18Rx-4JiwDcOu8V6O/zsmQxcg1ScWSkPpxtebj/2RSf9xk1k7QlRK1NZu7C/IvF0g1j2YadzZdqkbNIz, stripped
+act:                             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=TM3GPe728LS8R3m15yux/zsmQxcg1ScWSkPpxtebj/2RSf9xk1k7QlRK1NZu7C/IvF0g1j2YadzZdqkbNIz, stripped
 actionlint:                      ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=x5FKCJ-iH0btE5NRXAPd/Unbo8u3eqwfolGGQoMvX/3FrBJNXWaCBphAZmcPVG/xTDzrWAJdh-99sqh2Rza, stripped
 adig:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 anew:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped

@@ -718,6 +718,7 @@ screenfetch:                     Bourne-Again shell script, Unicode text, UTF-8 
 sd:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=df7796eaddd77b57ebb870579cec17981af374ac, stripped
 serverstatus-client:             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 serverstatus-server:             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+serverstatus-server-themed:      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 sessionprobe:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 sf:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 sftp:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -767,6 +768,7 @@ sshportal:                       ELF 64-bit LSB executable, x86-64, version 1 (S
 sshx:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 sshx-server:                     ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 sslsearch:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+ssr-server-themed:               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 starship:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 steampipe:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=ku8NGw0TIMsdNchoKqTP/10viPD_4ExMkueuoKYbr/XflPjOOs-ym3mFEACREs/ojaA6tcJwramBn5wx0Uu, stripped
 step:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=DGY3tZFuS16JBkoD0UVZ/d4kkZmpUQYPBPSBbKmY1/v1nJUjNNj8IXQvY4BKXZ/-ToEkctVbciqGHh20vap, stripped
