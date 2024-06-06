@@ -18,15 +18,15 @@
 > ```bash
 > #-----------------------------------------------------------------------------#
 > ↣ x86_64 Linux
-> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[] | "\(.Name) --> \(.Repo)"' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u
+> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \(.repo_url // .web_url)"' | sort -u
 >
-> #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/x86_64_Linux/README.md
+> #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/x86_64_Linux/DETAILED.md
 >
 > #-----------------------------------------------------------------------------#
 > ↣ aarch64 || arm64 Linux
-> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "\(.Name) --> \(.Repo)"' | grep -v "\.7z$\|BLAKE3SUM\|\.txt$\|\.json$\|\.log$\|\.md$\|SHA256SUM" | sort -u
+> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \(.repo_url // .web_url)"' | sort -u
 >
-> #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/aarch64_arm64_Linux/README.md
+> #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/aarch64_arm64_Linux/DETAILED.md
 > 
 > ```
 > 
@@ -60,4 +60,4 @@
 > Hence, if all you want to do is request for some packages/tools to be added, you are better off creating an Issue instead. Read: https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool
 >
 > However, if it's not related to `code | asking for more packages` to be included, you can **contribute/help me by donating a build server**. Either `arm (Preferred)` or `amd x86_64`.
-> Servers & Storage cost money, right now I pay for arm based runners & R2 Bucket (70-100$/Month). I am at the mercy of Github for x86-64 Servers.
+> Servers & Storage cost money, right now I pay for [Self Hosted Github Runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) & R2 Bucket (70-100$/Month).
