@@ -27,7 +27,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/sysstat/sysstat" && cd "./sysstat"
-       export ZIG_LIBC_TARGET="x86_64-linux-musl"
+       export ZIG_LIBC_TARGET="aarch64-linux-musl"
        export CC="zig cc -target $ZIG_LIBC_TARGET"
        export CXX="zig c++ -target $ZIG_LIBC_TARGET"
        export DLLTOOL="zig dlltool"

@@ -287,6 +287,10 @@ RUN <<EOS
   apk add luajit --latest --upgrade --no-interactive 2>/dev/null
   apk add luajit-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add lynx --latest --upgrade --no-interactive 2>/dev/null
+  apk add lz4 --latest --upgrade --no-interactive 2>/dev/null
+  apk add lz4-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add lz4-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add lz4-static --latest --upgrade --no-interactive 2>/dev/null
   apk add lzip --latest --upgrade --no-interactive 2>/dev/null
   apk add lzo --latest --upgrade --no-interactive 2>/dev/null
   apk add lzo-dev --latest --upgrade --no-interactive 2>/dev/null

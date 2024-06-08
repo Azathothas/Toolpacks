@@ -43,7 +43,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
          mkdir -p "/build-bins"
          source "$HOME/.cargo/env"
-         export RUST_TARGET="x86_64-unknown-linux-musl"
+         export RUST_TARGET="aarch64-unknown-linux-musl"
          rustup target add "$RUST_TARGET"
          export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
         #Build (Vanilla)

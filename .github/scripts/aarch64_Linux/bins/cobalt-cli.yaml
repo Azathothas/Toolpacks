@@ -1,0 +1,6 @@
+name: "cobalt-cli"
+description: "Command-line interface wrapper for https://cobalt.tools"
+web_url: "https://github.com/lostdusty/cobalt"
+repo_url: "https://github.com/lostdusty/cobalt"
+bins:
+  - "cobalt-cli"
