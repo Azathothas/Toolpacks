@@ -530,6 +530,9 @@ nginx:                           ELF 64-bit LSB executable, x86-64, version 1 (S
 ngocok:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ngrok:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=kGe8TlcwzW4HRE1AKa5j/EBcajLi0258mnFyhpwW2/hdCzVIc0ad2vYkdO_ja0/KE6TDsmkqgRSXMjsyrfe, stripped
 niltalk:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=eDUO-BB8dlOqMQsxD-va/cq0r_WUicyLt2V1zZ_8Y/8X8Pi2_pmZyYAK1cH7r_/7QEDK6_O0-2ktECcw8JW, stripped
+nix-channel-index:               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+nix-index:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+nix-locate:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 njs:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 nmap:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 nmap-formatter:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -678,6 +681,9 @@ rg:                              ELF 64-bit LSB pie executable, x86-64, version 
 rga:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ripgen:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 ripgrep:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+rippkgs:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+rippkgs-index:                   ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+rippkgs-index.sqlite:            SQLite 3.x database, last written using SQLite version 3046000, file counter 2, database pages 3910, cookie 0x1, schema 4, UTF-8, version-valid-for 2
 rnr:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 roboxtractor:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 rootlesskit:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=BNbchUWer2x2wVUeNYT2/nqI3hzPCXhH_GG2OtJd6/U3f9_PHaVZak5mD8zz8d/IhcLgh-DLyibESWhRHqm, stripped

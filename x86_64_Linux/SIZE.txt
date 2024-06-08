@@ -186,6 +186,7 @@
   15M   ├── /tmp/toolpack_x86_64/yazi
   15M   ├── /tmp/toolpack_x86_64/rqbit
   15M   ├── /tmp/toolpack_x86_64/aws-wire-lengths
+  15M   ├── /tmp/toolpack_x86_64/rippkgs-index.sqlite
   15M   ├── /tmp/toolpack_x86_64/termshark
   14M   ├── /tmp/toolpack_x86_64/tinja
   14M   ├── /tmp/toolpack_x86_64/s5cmd
@@ -275,6 +276,7 @@
 10.0M   ├── /tmp/toolpack_x86_64/orbiton
  9.9M   ├── /tmp/toolpack_x86_64/flawz
  9.9M   ├── /tmp/toolpack_x86_64/tssh
+ 9.9M   ├── /tmp/toolpack_x86_64/nix-channel-index
  9.9M   ├── /tmp/toolpack_x86_64/tut
  9.8M   ├── /tmp/toolpack_x86_64/gotty
  9.8M   ├── /tmp/toolpack_x86_64/gitql
@@ -310,6 +312,7 @@
  9.1M   ├── /tmp/toolpack_x86_64/csprecon
  9.1M   ├── /tmp/toolpack_x86_64/ghfetch
  9.1M   ├── /tmp/toolpack_x86_64/mubeng
+ 9.0M   ├── /tmp/toolpack_x86_64/nix-index
  8.9M   ├── /tmp/toolpack_x86_64/wormhole-rs
  8.9M   ├── /tmp/toolpack_x86_64/bluetuith
  8.9M   ├── /tmp/toolpack_x86_64/ksubdomain
@@ -629,6 +632,7 @@
  3.5M   ├── /tmp/toolpack_x86_64/fzf
  3.4M   ├── /tmp/toolpack_x86_64/hwatch
  3.4M   ├── /tmp/toolpack_x86_64/hcxpmktool
+ 3.4M   ├── /tmp/toolpack_x86_64/nix-locate
  3.4M   ├── /tmp/toolpack_x86_64/qemu-armeb-static
  3.4M   ├── /tmp/toolpack_x86_64/passdetective
  3.4M   ├── /tmp/toolpack_x86_64/qemu-arm-static
@@ -692,8 +696,10 @@
  2.6M   ├── /tmp/toolpack_x86_64/grex
  2.6M   ├── /tmp/toolpack_x86_64/tere
  2.6M   ├── /tmp/toolpack_x86_64/git-sizer
+ 2.6M   ├── /tmp/toolpack_x86_64/rippkgs-index
  2.6M   ├── /tmp/toolpack_x86_64/shfmt
  2.6M   ├── /tmp/toolpack_x86_64/halp
+ 2.6M   ├── /tmp/toolpack_x86_64/rippkgs
  2.6M   ├── /tmp/toolpack_x86_64/p9cpud
  2.6M   ├── /tmp/toolpack_x86_64/fwanalyzer
  2.5M   ├── /tmp/toolpack_x86_64/qemu-sparc32plus-static
