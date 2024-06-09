@@ -1,107 +1,107 @@
 [
   {
     "name": "act.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/act.sh"
   },
   {
     "name": "actionlint.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/actionlint.sh"
   },
   {
     "name": "adig.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/adig.sh"
   },
   {
     "name": "anew-rs.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh"
   },
   {
     "name": "aria2.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/aria2.sh"
   },
   {
     "name": "axel.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/axel.sh"
   },
   {
     "name": "bash.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.sh"
   },
   {
     "name": "bigdl.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bigdl.sh"
   },
   {
     "name": "coreutils.sh",
-    "update_date": "2024-05-22T10:45:19",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.sh"
   },
   {
     "name": "curl.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh"
   },
   {
     "name": "jless.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/jless.sh"
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-08T21:06:29",
+    "update_date": "2024-06-09T00:08:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json"
   },
   {
     "name": "pingmole.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pingmole.sh"
   },
   {
     "name": "pspy.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/pspy.sh"
   },
   {
     "name": "rclone.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/rclone.sh"
   },
   {
     "name": "sudo.sh",
-    "update_date": "2024-05-16T14:02:02",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/sudo.sh"
   },
   {
     "name": "tailscale.sh",
-    "update_date": "2024-05-16T17:07:38",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tailscale.sh"
   },
   {
     "name": "tmux.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/tmux.sh"
   },
   {
     "name": "vim.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/vim.sh"
   },
   {
     "name": "wget.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.sh"
   },
   {
     "name": "zsh.sh",
-    "update_date": "2024-05-17T14:02:55",
+    "update_date": "2024-06-09T07:02:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/zsh.sh"
   }
 ]
