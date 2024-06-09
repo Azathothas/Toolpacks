@@ -216,7 +216,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-08T21:06:29",
+    "update_date": "2024-06-09T00:08:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"
   },
   {
@@ -238,6 +238,11 @@
     "name": "ngrok.ps1",
     "update_date": "2024-05-05T14:01:18",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ngrok.ps1"
+  },
+  {
+    "name": "ooniprobe.ps1",
+    "update_date": "2024-06-09T07:02:14",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ooniprobe.ps1"
   },
   {
     "name": "openssh.ps1",
