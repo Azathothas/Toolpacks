@@ -1,10 +1,13 @@
 ```mathematica
- 1.3G └─┬ /tmp/toolpack_x86_64
+ 1.5G └─┬ /tmp/toolpack_x86_64
  151M   ├── /tmp/toolpack_x86_64/pandoc.exe
  135M   ├── /tmp/toolpack_x86_64/ffmpeg.exe
  135M   ├── /tmp/toolpack_x86_64/ffprobe.exe
  135M   ├── /tmp/toolpack_x86_64/ffplay.exe
   72M   ├── /tmp/toolpack_x86_64/alist.exe
+  54M   ├── /tmp/toolpack_x86_64/miniooni-windows-amd64.exe
+  50M   ├── /tmp/toolpack_x86_64/ooniprobe-windows-amd64.exe
+  36M   ├── /tmp/toolpack_x86_64/tusd.exe
   35M   ├── /tmp/toolpack_x86_64/step.exe
   29M   ├── /tmp/toolpack_x86_64/sing-box.exe
   28M   ├── /tmp/toolpack_x86_64/dbbench.exe
@@ -21,6 +24,7 @@
   17M   ├── /tmp/toolpack_x86_64/gix.exe
   14M   ├── /tmp/toolpack_x86_64/pgrokd.exe
   13M   ├── /tmp/toolpack_x86_64/gdu.exe
+  13M   ├── /tmp/toolpack_x86_64/hcloud.exe
   11M   ├── /tmp/toolpack_x86_64/micro.exe
   11M   ├── /tmp/toolpack_x86_64/cheat.exe
   11M   ├── /tmp/toolpack_x86_64/pdfcpu.exe
@@ -177,6 +181,7 @@
  368K   ├── /tmp/toolpack_x86_64/sftp-server.exe
  176K   ├── /tmp/toolpack_x86_64/ssh-shellhost.exe
  172K   ├── /tmp/toolpack_x86_64/yt-dlp.exe
+ 168K   ├── /tmp/toolpack_x86_64/bin2video.exe
  140K   ├── /tmp/toolpack_x86_64/iperf3.exe
    0B   ├── /tmp/toolpack_x86_64/stiG2Kb7
    0B   └── /tmp/toolpack_x86_64/stP1kAlM
