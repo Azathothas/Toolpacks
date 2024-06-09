@@ -160,6 +160,8 @@
          #Docker
           curl -qfsSL "https://get.docker.com" | sudo bash
           sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
+          sudo service docker restart 2>/dev/null
+          sudo service docker status 2>/dev/null
           #newgrp docker 2>/dev/null
           #Test
           if ! command -v docker &> /dev/null; then
