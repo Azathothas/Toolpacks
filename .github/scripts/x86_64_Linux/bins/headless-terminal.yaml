@@ -1,0 +1,6 @@
+name: "headless-terminal"
+description: "headless terminal - wrap any binary with a terminal interface for easy programmatic access."
+web_url: "https://github.com/andyk/ht"
+repo_url: "https://github.com/andyk/ht"
+bins:
+  - "ht"

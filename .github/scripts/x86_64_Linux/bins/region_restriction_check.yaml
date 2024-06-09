@@ -1,0 +1,6 @@
+name: "region_restriction_check"
+description: "A bash script to check the status of your IP on various geo-restricted Services"
+web_url: "https://github.com/lmc999/RegionRestrictionCheck"
+repo_url: "https://github.com/lmc999/RegionRestrictionCheck"
+bins:
+  - "region_restriction_check.sh"

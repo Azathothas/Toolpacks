@@ -49,8 +49,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Copy 
        docker cp "alpine-builder:/build-bins/pingmole" "./pingmole"
        #Meta 
-       file "./pingmole" && du -sh "./pingmole"
-       cp "./pingmole" "$BINDIR/pingmole"
+       file "./pingmole" && du -sh "./pingmole" ; cp "./pingmole" "$BINDIR/pingmole"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
@@ -61,7 +60,7 @@ fi
 ##Cleanup
 unset SKIP_BUILD ; export BUILT="YES"
 #In case of zig polluted env
-unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
+unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
 #In case of go polluted env
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config

@@ -366,6 +366,9 @@ RUN <<EOS
   apk add pipewire-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add pipewire-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add pkgconfig --latest --upgrade --no-interactive 2>/dev/null
+  apk add popt --latest --upgrade --no-interactive 2>/dev/null
+  apk add popt-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add popt-static --latest --upgrade --no-interactive 2>/dev/null
   apk add postgresql16 --latest --upgrade --no-interactive 2>/dev/null
   apk add postgresql16-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add procps --latest --upgrade --no-interactive 2>/dev/null

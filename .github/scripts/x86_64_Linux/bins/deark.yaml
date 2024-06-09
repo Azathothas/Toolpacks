@@ -1,0 +1,6 @@
+name: "deark"
+description: "A utility for file format and metadata analysis, data extraction, decompression, and image format decoding"
+web_url: "https://entropymine.com/deark/"
+repo_url: "https://github.com/jsummers/deark"
+bins:
+  - "deark"

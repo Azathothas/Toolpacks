@@ -1,0 +1,7 @@
+name: "ooniprobe"
+description: "OONI Probe Engine and CLI"
+web_url: "https://ooni.org"
+repo_url: "https://github.com/ooni/probe-cli"
+bins:
+  - "miniooni"
+  - "ooniprobe"

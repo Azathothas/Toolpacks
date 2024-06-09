@@ -1,0 +1,7 @@
+name: "spiped"
+description: "Utility for creating symmetrically encrypted and authenticated pipes between Socket Addresses"
+web_url: "https://github.com/Tarsnap/spiped"
+repo_url: "https://github.com/Tarsnap/spiped"
+bins:
+  - "spipe"
+  - "spiped"

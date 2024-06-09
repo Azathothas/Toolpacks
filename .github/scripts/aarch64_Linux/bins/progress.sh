@@ -28,7 +28,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --filter "blob:none" "https://github.com/Xfennec/progress" && cd "./progress"
        sudo apt-get install libncurses-dev -y
-       unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
+       unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
        export CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe ${CFLAGS}"
        export CXXFLAGS="${CFLAGS}"
        export LDFLAGS="-static -static-pie -no-pie -s -fuse-ld=mold -Wl,--Bstatic -Wl,--static -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
@@ -41,7 +41,7 @@ fi
 ##Cleanup
 unset SKIP_BUILD ; export BUILT="YES"
 #In case of zig polluted env
-unset AR CC CFLAGS CXX CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
+unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
 #In case of go polluted env
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config
