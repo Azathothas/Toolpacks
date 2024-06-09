@@ -495,6 +495,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cntb.sh"
   },
   {
+    "name": "cobalt-cli.sh",
+    "update_date": "2024-06-08T14:03:22",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cobalt-cli.sh"
+  },
+  {
     "name": "cocogitto.sh",
     "update_date": "2024-05-16T07:02:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/cocogitto.sh"
@@ -1926,7 +1931,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-08T00:07:25",
+    "update_date": "2024-06-08T21:06:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2701,7 +2706,7 @@
   },
   {
     "name": "serverstatus.sh",
-    "update_date": "2024-06-04T21:02:54",
+    "update_date": "2024-06-08T14:03:22",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/serverstatus.sh"
   },
   {
@@ -2991,7 +2996,7 @@
   },
   {
     "name": "sysstat.sh",
-    "update_date": "2024-05-16T07:02:47",
+    "update_date": "2024-06-08T14:03:22",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sysstat.sh"
   },
   {
@@ -3008,6 +3013,11 @@
     "name": "systeroid.sh",
     "update_date": "2024-03-29T18:32:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/systeroid.sh"
+  },
+  {
+    "name": "taierspeed-cli.sh",
+    "update_date": "2024-06-08T14:03:22",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/taierspeed-cli.sh"
   },
   {
     "name": "tailscale.sh",

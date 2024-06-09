@@ -216,7 +216,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-08T00:07:25",
+    "update_date": "2024-06-08T21:06:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"
   },
   {
@@ -313,6 +313,11 @@
     "name": "stunner.ps1",
     "update_date": "2024-05-11T21:02:36",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/stunner.ps1"
+  },
+  {
+    "name": "taierspeed-cli.ps1",
+    "update_date": "2024-06-08T14:03:22",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/taierspeed-cli.ps1"
   },
   {
     "name": "tssh.ps1",
