@@ -11,7 +11,7 @@
   },
   {
     "name": "age.ps1",
-    "update_date": "2024-05-22T07:02:17",
+    "update_date": "2024-06-09T12:38:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/age.ps1"
   },
   {
@@ -175,6 +175,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/gost.ps1"
   },
   {
+    "name": "hcloud.ps1",
+    "update_date": "2024-06-09T12:38:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/hcloud.ps1"
+  },
+  {
     "name": "hyperfine.ps1",
     "update_date": "2024-03-30T11:12:21",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/hyperfine.ps1"
@@ -215,8 +220,13 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/localxpose.ps1"
   },
   {
+    "name": "logstation.ps1",
+    "update_date": "2024-06-09T12:38:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/logstation.ps1"
+  },
+  {
     "name": "metadata.json",
-    "update_date": "2024-06-09T00:08:35",
+    "update_date": "2024-06-09T07:08:49",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"
   },
   {
@@ -330,6 +340,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/tssh.ps1"
   },
   {
+    "name": "tusd.ps1",
+    "update_date": "2024-06-09T12:38:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/tusd.ps1"
+  },
+  {
     "name": "wget2.ps1",
     "update_date": "2024-03-30T05:51:53",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/wget2.ps1"
@@ -348,5 +363,10 @@
     "name": "yt-dlp.ps1",
     "update_date": "2024-03-30T11:12:21",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/yt-dlp.ps1"
+  },
+  {
+    "name": "zfind.ps1",
+    "update_date": "2024-06-09T12:38:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/zfind.ps1"
   }
 ]
