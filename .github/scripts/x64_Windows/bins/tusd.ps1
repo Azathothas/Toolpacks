@@ -21,12 +21,12 @@ if (
 ##Main
 $env:SKIP_BUILD = "NO" # YES, in case of deleted repos, broken builds etc
 if ($env:SKIP_BUILD -eq "NO") {
-   #age: A simple, modern and secure encryption tool
-    $env:BIN = "age"
-    $env:SOURCE_URL = "https://github.com/FiloSottile/age"
+   #tusd: Server for tus, the open protocol for resumable file uploads
+    $env:BIN = "tusd"
+    $env:SOURCE_URL = "https://github.com/tus/tusd"
     Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
-     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --to "$env:BINDIR/age.exe"
+     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --to "$env:BINDIR/tusd.exe"
 }
 #-------------------------------------------------------#
 

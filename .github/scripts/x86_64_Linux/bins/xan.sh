@@ -19,19 +19,13 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #axel : Lightweight CLI download accelerator 
-     export BIN="axel"
-     export SOURCE_URL="https://github.com/axel-download-accelerator/axel"
+    #xan: The CSV magician
+     export BIN="xan" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/medialab/xan" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      ##Build (nix) 
-      # pushd "$($TMPDIRS)" >/dev/null 2>&1
-      # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.axel" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-      # sudo strip "./result/bin/axel" ; file "./result/bin/axel" && du -sh "./result/bin/axel"
-      # cp "./result/bin/axel" "$BINDIR/axel"
-      # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
-      #Build (alpine-musl)
+      #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
@@ -39,20 +33,23 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         #Setup ENV
          tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
          mkdir -p "/build-bins"
+         source "$HOME/.cargo/env"
+         export RUST_TARGET="x86_64-unknown-linux-musl"
+         rustup target add "$RUST_TARGET"
+         export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
         #Build
-         git clone --filter "blob:none" --quiet "https://github.com/axel-download-accelerator/axel" && cd "./axel"
-         export CFLAGS="-O2 -flto=auto -static -w -pipe"
-         export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
-         autoreconf -i ; "./configure" --disable-shared --disable-Werror --enable-static --enable-year2038 --enable-compile-warnings="no" --with-ssl="openssl"
-         make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" CPPFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
-        #strip & info
-         strip "./axel" ; "./axel" --version ; cp "./axel" "/build-bins/axel"
+         git clone --filter "blob:none" --quiet "https://github.com/medialab/xan" && cd "./xan"
+         echo -e "\n[+] Target: $RUST_TARGET\n"
+         echo -e "\n[+] Flags: $RUSTFLAGS\n"
+         sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
+         rm rust-toolchain* 2>/dev/null
+         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+         cp "./target/$RUST_TARGET/release/xan" "/build-bins/xan"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/axel" "./axel"
+       docker cp "alpine-builder:/build-bins/xan" "./xan"
        #Meta 
-       file "./axel" && du -sh "./axel"
-       cp "./axel" "$BINDIR/axel"
+       file "./xan" && du -sh "./xan" ; cp "./xan" "$BINDIR/xan"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1

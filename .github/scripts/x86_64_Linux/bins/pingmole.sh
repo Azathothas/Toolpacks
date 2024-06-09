@@ -21,9 +21,9 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-     #pingmole: CLI that helps to filter pingmole servers and pick the closest one. 
-     export BIN="pingmole" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/norskeld/pingmole" #github/gitlab/homepage/etc for $BIN
+    #pingmole: CLI that helps to filter pingmole servers and pick the closest one. 
+     export BIN="pingmole"
+     export SOURCE_URL="https://github.com/norskeld/pingmole"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1

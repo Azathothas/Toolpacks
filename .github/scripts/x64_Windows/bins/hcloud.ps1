@@ -21,12 +21,12 @@ if (
 ##Main
 $env:SKIP_BUILD = "NO" # YES, in case of deleted repos, broken builds etc
 if ($env:SKIP_BUILD -eq "NO") {
-   #age: A simple, modern and secure encryption tool
-    $env:BIN = "age"
-    $env:SOURCE_URL = "https://github.com/FiloSottile/age"
+   #hcloud: A command-line interface for Hetzner Cloud
+    $env:BIN = "hcloud"
+    $env:SOURCE_URL = "https://github.com/hetznercloud/cli"
     Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
-     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --to "$env:BINDIR/age.exe"
+     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --file "hcloud.exe" --to "$env:BINDIR/hcloud.exe"
 }
 #-------------------------------------------------------#
 

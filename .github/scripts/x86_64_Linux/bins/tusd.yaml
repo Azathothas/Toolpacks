@@ -1,0 +1,6 @@
+name: "tusd"
+description: "Server for tus, the open protocol for resumable file uploads"
+web_url: "https://github.com/tus/tusd"
+repo_url: "https://github.com/tus/tusd"
+bins:
+  - "tusd"

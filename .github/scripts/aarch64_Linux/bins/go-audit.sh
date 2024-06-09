@@ -37,11 +37,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          git clone --quiet --filter "blob:none" "https://github.com/slackhq/go-audit" && cd "./go-audit"
          GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''"
         #strip & info
-         strip "./go-audit"
-         cp "./go-audit" "/build-bins/go-audit"
+         strip "./go-audit" ; cp "./go-audit" "/build-bins/go-audit"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/go-audit" "./go-audit"
+       docker cp "alpine-builder:/build-bins/." "./"
        #Meta 
        file "./go-audit" && du -sh "./go-audit" ; cp "./go-audit" "$BINDIR/go-audit"
       #Delete Containers

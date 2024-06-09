@@ -1,0 +1,6 @@
+name: "entropy"
+description: "Scan your codebase for high entropy lines, which are often Secrets"
+web_url: "https://github.com/EwenQuim/entropy"
+repo_url: "https://github.com/EwenQuim/entropy"
+bins:
+  - "entropy"

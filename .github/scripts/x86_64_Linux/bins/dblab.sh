@@ -19,18 +19,12 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #axel : Lightweight CLI download accelerator 
-     export BIN="axel"
-     export SOURCE_URL="https://github.com/axel-download-accelerator/axel"
+    #dblab : The database client every command line junkie deserves.
+     export BIN="dblab"
+     export SOURCE_URL="https://github.com/danvergara/dblab"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      ##Build (nix) 
-      # pushd "$($TMPDIRS)" >/dev/null 2>&1
-      # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.axel" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-      # sudo strip "./result/bin/axel" ; file "./result/bin/axel" && du -sh "./result/bin/axel"
-      # cp "./result/bin/axel" "$BINDIR/axel"
-      # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
@@ -40,19 +34,15 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
          mkdir -p "/build-bins"
         #Build
-         git clone --filter "blob:none" --quiet "https://github.com/axel-download-accelerator/axel" && cd "./axel"
-         export CFLAGS="-O2 -flto=auto -static -w -pipe"
-         export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
-         autoreconf -i ; "./configure" --disable-shared --disable-Werror --enable-static --enable-year2038 --enable-compile-warnings="no" --with-ssl="openssl"
-         make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" CPPFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
+         git clone --quiet --filter "blob:none" "https://github.com/danvergara/dblab" && cd "./dblab"
+         GOOS="linux" GOARCH="amd64" CGO_ENABLED="1" CGO_CFLAGS="-D_LARGEFILE64_SOURCE -O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''"
         #strip & info
-         strip "./axel" ; "./axel" --version ; cp "./axel" "/build-bins/axel"
+         strip "./dblab" ; cp "./dblab" "/build-bins/dblab"
         '
-      #Copy 
-       docker cp "alpine-builder:/build-bins/axel" "./axel"
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "./"
        #Meta 
-       file "./axel" && du -sh "./axel"
-       cp "./axel" "$BINDIR/axel"
+       file "./dblab" && du -sh "./dblab" ; cp "./dblab" "$BINDIR/dblab"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
@@ -68,4 +58,5 @@ unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS O
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config
 unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
+#-------------------------------------------------------#
 #-------------------------------------------------------#

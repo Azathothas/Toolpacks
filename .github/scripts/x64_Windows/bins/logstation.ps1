@@ -21,12 +21,12 @@ if (
 ##Main
 $env:SKIP_BUILD = "NO" # YES, in case of deleted repos, broken builds etc
 if ($env:SKIP_BUILD -eq "NO") {
-   #age: A simple, modern and secure encryption tool
-    $env:BIN = "age"
-    $env:SOURCE_URL = "https://github.com/FiloSottile/age"
+   #logstation: Tail log files in web browser
+    $env:BIN = "logstation"
+    $env:SOURCE_URL = "https://github.com/jdrews/logstation"
     Write-Output "`n`n [+] (Building | Fetching) $env:BIN :: $env:SOURCE_URL`n"
     #Fetch 
-     eget "$env:SOURCE_URL" --asset "windows" --asset "amd64" --asset "zip" --to "$env:BINDIR/age.exe"
+     eget "$env:SOURCE_URL" --asset "Windows" --asset "x86_64" --asset "zip" --to "$env:BINDIR/logstation.exe"
 }
 #-------------------------------------------------------#
 

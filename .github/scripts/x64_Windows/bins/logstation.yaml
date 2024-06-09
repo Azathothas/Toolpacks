@@ -1,0 +1,6 @@
+name: "logstation"
+description: "Tail log files in web browser"
+web_url: "https://github.com/jdrews/logstation"
+repo_url: "https://github.com/jdrews/logstation"
+bins:
+  - "logstation.exe"

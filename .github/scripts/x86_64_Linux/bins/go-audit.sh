@@ -22,8 +22,8 @@ fi
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
     #go-audit : go-audit is an alternative to the auditd daemon that ships with many distros
-     export BIN="go-audit" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/slackhq/go-audit" #github/gitlab/homepage/etc for $BIN
+     export BIN="go-audit"
+     export SOURCE_URL="https://github.com/slackhq/go-audit"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -37,11 +37,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          git clone --quiet --filter "blob:none" "https://github.com/slackhq/go-audit" && cd "./go-audit"
          GOOS="linux" GOARCH="amd64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''"
         #strip & info
-         strip "./go-audit"
-         cp "./go-audit" "/build-bins/go-audit"
+         strip "./go-audit" ; cp "./go-audit" "/build-bins/go-audit"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/go-audit" "./go-audit"
+       docker cp "alpine-builder:/build-bins/." "./"
        #Meta 
        file "./go-audit" && du -sh "./go-audit" ; cp "./go-audit" "$BINDIR/go-audit"
       #Delete Containers
