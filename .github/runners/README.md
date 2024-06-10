@@ -98,11 +98,23 @@
 > ---
 > - [Install Podman](https://podman.io/docs/installation)
 > ```bash
-> ##Install podman
-> sudo apt-get install podman -y
-> #Replace with newer version (/usr/bin/podman)
-> sudo eget "https://github.com/containers/podman" --asset "static" --asset "linux" --asset "amd64" --to "$(which podman)"
-> #sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/podman" -o "$(which podman)" && sudo chmod +x "$(which podman)"
+> ##Install podman :: https://software.opensuse.org/download/package?package=podman&project=home%3Aalvistack
+> #(Debian)
+> # https://software.opensuse.org/download/package?package=podman&project=home%3Aalvistack#manualDebian
+> 
+> #(Ubuntu)
+> VERSION="$(grep -oP 'VERSION_ID="\K[^"]+' "/etc/os-release")"
+> echo "deb http://download.opensuse.org/repositories/home:/alvistack/xUbuntu_${VERSION}/ /" | sudo tee "/etc/apt/sources.list.d/home:alvistack.list"
+> curl -fsSL "https://download.opensuse.org/repositories/home:alvistack/xUbuntu_${VERSION}/Release.key" | gpg --dearmor | sudo tee "/etc/apt/trusted.gpg.d/home_alvistack.gpg" >/dev/null
+> sudo apt update -y
+> sudo apt install podman -y
+> #if errors: sudo apt purge golang-github-containers-common -y
+> 
+> cat "$(systemctl show podman.service -p FragmentPath 2>/dev/null | cut -d '=' -f 2 | tr -d '[:space:]')"
+> sudo systemctl daemon-reexec ; sudo systemctl daemon-reload
+> sudo systemctl status podman
+> sudo systemctl reload "podman.service"
+> sudo service podman reload ; sudo service podman restart ; sudo systemctl status podman
 > podman --version
 > 
 > ##Running :: https://docs.podman.io/en/latest/markdown/podman-run.1.html
