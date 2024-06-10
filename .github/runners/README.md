@@ -20,9 +20,12 @@
 > > description: 'Build 📦 (toolpack_x86_64_Linux) Binaries (https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml) [amd64-linux-toolpacker] @ 10:30 PM UTC (04:15 AM NPT Mrng Every Mon, Wed & Sat)'
 > > tags: amd64-linux-toolpacker,x86_64-linux-toolpacker,toolpacks-builder
 > > env:
-> >   - DOCKER_CONTAINER_NAME: 'gh-runner-toolpack-x64-linux'
-> >   - DOCKER_CONTAINER_IMAGE: 'azathothas/gh-runner-x86_64-ubuntu'
-> >   - DOCKER_ENV_FILE: '$HOME/.config/gh-runner/.env'
+> >   #- DOCKER_CONTAINER_NAME: 'gh-runner-toolpack-x64-linux'
+> >   - PODMAN_CONTAINER_NAME: 'gh-runner-toolpack-x64-linux'
+> >   #- DOCKER_CONTAINER_IMAGE: 'azathothas/gh-runner-x86_64-ubuntu'
+> >   - PODMAN_CONTAINER_IMAGE: 'docker.io/azathothas/gh-runner-x86_64-ubuntu'
+> >   #- DOCKER_ENV_FILE: '$HOME/.config/gh-runner/.env'
+> >   - PODMAN_ENV_FILE: '$HOME/.config/gh-runner/.env'
 > > steps:
 > >   - name: Run
 > >     description: 'Build 📦 (toolpack_x86_64_Linux) Binaries (https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)'
@@ -30,9 +33,14 @@
 > >     script: |
 > >       USER="$(whoami)" && export USER="$USER"
 > >       HOME="$(getent passwd $USER | cut -d: -f6)" && export HOME="$HOME"
-> >       export SYSBOX="NO"
-> >       DOCKER_CONTAINER_NAME="gh-runner-toolpack-x64-linux" DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-x86_64-ubuntu" DOCKER_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Self-Hosted/run.sh")
-> >       #DOCKER_CONTAINER_NAME="gh-runner-toolpack-x64-linux" DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-x86_64-ubuntu" DOCKER_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/runners/run.sh")
+> >       ##Docker
+> >       #export SYSBOX="NO"
+> >       #DOCKER_CONTAINER_NAME="gh-runner-toolpack-x64-linux" DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-x86_64-ubuntu" DOCKER_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Self-Hosted/run.sh")
+> >       ##DOCKER_CONTAINER_NAME="gh-runner-toolpack-x64-linux" DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-x86_64-ubuntu" DOCKER_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/runners/run.sh")
+> >       ##Podman
+> >       PODMAN_CONTAINER_NAME="gh-runner-toolpack-x64-linux" PODMAN_CONTAINER_IMAGE="docker.io/azathothas/gh-runner-x86_64-ubuntu" PODMAN_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Self-Hosted/run.sh")
+> >       PODMAN_CONTAINER_NAME="gh-runner-toolpack-x64-linux" PODMAN_CONTAINER_IMAGE="docker.io/azathothas/gh-runner-x86_64-ubuntu" PODMAN_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/runners/run.sh") 
+> > 
 > > ```
 > >
 > ---
@@ -86,6 +94,21 @@
 > sudo systemctl restart "dagu_ts.service"
 > sudo systemctl status "dagu_ts.service"
 > journalctl -xeu "dagu_ts.service"
+> ```
+> ---
+> - [Install Podman](https://podman.io/docs/installation)
+> ```bash
+> ##Install podman
+> sudo apt-get install podman -y
+> #Replace with newer version (/usr/bin/podman)
+> sudo eget "https://github.com/containers/podman" --asset "static" --asset "linux" --asset "amd64" --to "$(which podman)"
+> #sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/podman" -o "$(which podman)" && sudo chmod +x "$(which podman)"
+> podman --version
+> 
+> ##Running :: https://docs.podman.io/en/latest/markdown/podman-run.1.html
+> sudo podman run --rm --privileged --network="host" --systemd="always" --tz="UTC" --pull="always" "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest"
+> # --device="/dev/net/tun:rwm"
+> # --cap-add="NET_ADMIN,NET_BIND_SERVICE,NET_RAW,SYS_ADMIN"
 > ```
 > ---
 > - [Install Sysbox](https://github.com/nestybox/sysbox)
