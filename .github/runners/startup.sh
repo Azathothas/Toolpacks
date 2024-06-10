@@ -41,12 +41,12 @@ fi
 if command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/docker.service" ]; then
    echo -e "\n[+] Starting supervisor (Docker)\n"
    sudo systemctl daemon-reload 2>/dev/null
-   sudo systemctl enable docker --now 2>/dev/null
+   sudo systemctl enable docker --now --yes 2>/dev/null
    sudo systemctl restart docker 2>/dev/null
    sudo systemctl list-unit-files --type=service | grep -i "docker"
-   sudo systemctl status "docker.service"
-   sudo service docker restart
-   sudo service docker status
+   sudo systemctl status "docker.service" --no-pager
+   sudo service docker restart >/dev/null 2>&1
+   sudo systemctl status "docker.service" --no-pager
 fi
 #------------------------------------------------------------------------------------#
 

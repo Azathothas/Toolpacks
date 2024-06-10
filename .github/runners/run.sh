@@ -32,12 +32,12 @@ if [ -z "$PODMAN_CONTAINER_IMAGE" ]; then
  echo -e "\n[+] Setting Default Container Image: azathothas/gh-runner-aarch64-ubuntu"
   export PODMAN_CONTAINER_IMAGE="azathothas/gh-runner-aarch64-ubuntu"
   sudo podman rmi "${PODMAN_CONTAINER_IMAGE}" --force >/dev/null 2>&1
-  sudo podman pull "${PODMAN_CONTAINER_IMAGE}" 2>/dev/null
+  sudo podman pull "${PODMAN_CONTAINER_IMAGE}"
 else
  export PODMAN_CONTAINER_IMAGE="${PODMAN_CONTAINER_IMAGE}"
  echo -e "\n[+] Setting Default Container Image: ${PODMAN_CONTAINER_IMAGE}"
  sudo podman rmi "${PODMAN_CONTAINER_IMAGE}" --force >/dev/null 2>&1
- sudo podman pull "${PODMAN_CONTAINER_IMAGE}" 2>/dev/null
+ sudo podman pull "${PODMAN_CONTAINER_IMAGE}"
 fi
 #Env File
 if [ -z "$PODMAN_ENV_FILE" ]; then
@@ -81,24 +81,17 @@ set +x && echo -e "[+] Waiting 120s..." && sleep 120
 PODMAN_ID="$(sudo podman ps -qf name=${PODMAN_CONTAINER_NAME})" && export PODMAN_ID="${PODMAN_ID}"
 PODMAN_LOGPATH="$(sudo podman inspect --format='{{.LogPath}}' ${PODMAN_CONTAINER_NAME})" && export PODMAN_LOGPATH="${PODMAN_LOGPATH}"
 echo -e "\n[+] Writing Logs to ${PODMAN_LOGPATH} (${PODMAN_CONTAINER_NAME} :: ${PODMAN_ID})\n"
+sudo podman exec "${PODMAN_ID}" sudo -Eu "runner" "/usr/local/bin/startup.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
+set +x && echo -e "[+] Waiting 10s..." && sleep 10
 #sudo jq -r '.log' "${PODMAN_LOGPATH}""
 #Monitor & Stop on Exit
 while true; do
-  export SHUTDOWN=false
-  while IFS= read -r LOGS; do
-    if echo "$LOGS" | grep -q "s6-rc: info: service s6rc-oneshot-runner successfully stopped"; then
-      echo -e "\n[+] Stopping... (${PODMAN_CONTAINER_NAME} :: ${PODMAN_ID})\n"
-      sudo jq -r '.log' "${PODMAN_LOGPATH}" | grep -i -A 999999 "Exiting runner"
-      sudo podman stop "$(sudo podman ps -aqf name=${PODMAN_CONTAINER_NAME})"
-      export SHUTDOWN=true
-      break
+    if ! pgrep -f "sudo -Eu runner /usr/local/bin/startup.sh" > /dev/null; then
+        cat "${PODMAN_LOG_FILE}"
+      sudo podman stop "${PODMAN_ID}" --ignore
+      exit 0
     fi
-  done < <(cat "${PODMAN_LOG_FILE}")
-  #Check Status
-  if [ "$SHUTDOWN" = true ]; then
-    break
-  fi
-  sleep 5
+    sleep 5
 done
 #------------------------------------------------------------------------------------#
 #END
