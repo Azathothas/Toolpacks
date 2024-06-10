@@ -43,8 +43,8 @@ RUN <<EOS
   #SystemD
   apt-get update -y
   apt-get install -y --no-install-recommends dbus iptables iproute2 libsystemd0 kmod systemd systemd-sysv udev
- ##Prevents journald from reading kernel messages from /dev/kmsg
- # echo "ReadKMsg=no" >> "/etc/systemd/journald.conf"
+ #Prevents journald from reading kernel messages from /dev/kmsg
+  echo "ReadKMsg=no" >> "/etc/systemd/journald.conf"
  #Disable systemd services/units that are unnecessary within a container.
   systemctl mask "systemd-udevd.service"
   systemctl "systemd-udevd-kernel.socket"
@@ -54,8 +54,6 @@ RUN <<EOS
   systemctl "sys-kernel-tracing.mount"
  #Housekeeping
   apt-get clean -y
-  rm -rf "/lib/systemd/system/getty.target" 2>/dev/null
-  rm -rf "/lib/systemd/system/systemd"*udev* 2>/dev/null
   rm -rf "/usr/share/doc/"* 2>/dev/null
   rm -rf "/usr/share/local/"* 2>/dev/null
   rm -rf "/usr/share/man/"* 2>/dev/null
@@ -106,15 +104,10 @@ RUN <<EOS
   cd "$(mktemp -d)" >/dev/null 2>&1
   curl -qfsSL "https://get.docker.com" -o "./get-docker.sh" && sh "./get-docker.sh"
   cd - >/dev/null 2>&1
- #Add runner to docker
+ #Add runner to docker 
   usermod -aG "docker" "runner"
  #Add Docker Completions
   curl -qfsSL "https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker" > "/etc/bash_completion.d/docker.sh"
- #Confiure Docker Opts
-  #Remove Hardlimit
-  sed -i 's/ulimit -Hn/# ulimit -Hn/g' "/etc/init.d/docker"
-  #Install Additional Deps
-  sudo apt-get install fuse-overlayfs -y
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -182,7 +175,7 @@ EOS
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
-##This is no longer needed because replaced docker with podman
+##This is still needed
 ##Docker systemctl https://github.com/gdraheim/docker-systemctl-replacement
 RUN <<EOS
 #systemctl
@@ -190,26 +183,81 @@ RUN <<EOS
 #Failed to connect to bus: Host is down
 #Replace with patched
  apt-get install python3 -y
-# curl -qfsSL "https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py" -o "$(which systemctl)"
+ curl -qfsSL "https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py" -o "$(which systemctl)"
  mkdir -p "/var/run/dbus" ; dbus-daemon --config-file="/usr/share/dbus-1/system.conf" --print-address
+#Start DBUS
+ service dbus start || true
 EOS
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
-##Setup TailScale (sudo tailscale up --authkey="$TSKEY" --ssh --hostname="$TS_NAME" --accept-dns="true" --accept-risk="all" --accept-routes="false" --shields-up="false" --advertise-exit-node --reset)
+# DO NOT USE CMD which exits, as it will also exit s6 & terminae container
+##s6-overlays & Init
 RUN <<EOS
-  #Install TailScale [pkg]
-  set +e
-  curl -qfsSL "https://tailscale.com/install.sh" -o "./tailscale.sh"
-  dos2unix --quiet "./tailscale.sh"
-  bash "./tailscale.sh" -s -- -h >/dev/null 2>&1 || true ; rm -rf "./tailscale.sh"
-  systemctl -l --type "service" --all | grep -i "tailscale" || true
+ #s6-overlays & Init Deps
+  apt-get update -y -qq && apt-get install -y xz-utils
+  wget --quiet --show-progress "$INSTALL_SRC/eget" -O "/usr/local/bin/eget"
+  chmod +x "/usr/local/bin/eget"
+ #Switch to temp
+  cd "$(mktemp -d)" >/dev/null 2>&1
+ #Get latest Tars
+ #s6-overlay scripts
+  eget "https://github.com/just-containers/s6-overlay" --asset "s6-overlay-noarch.tar.xz" --to "./s6-overlay-noarch.tar.xz" --download-only
+ #s6-overlay binaries
+  eget "https://github.com/just-containers/s6-overlay" --asset "s6-overlay-x86_64.tar.xz" --to "./s6-overlay-x86_64.tar.xz" --download-only
+ #/usr/bin symlinks for s6-overlay scripts
+  eget "https://github.com/just-containers/s6-overlay" --asset "s6-overlay-symlinks-noarch.tar.xz" --to "./s6-overlay-symlinks-noarch.tar.xz" --download-only
+ #syslogd emulation
+  eget "https://github.com/just-containers/s6-overlay" --asset "syslogd-overlay-noarch.tar.xz" --to "./syslogd-overlay-noarch.tar.xz" --download-only
+ #Extract to /
+  find -type f -name "*tar.xz" -exec tar -C / -Jvxpf {} \; 2>/dev/null
+ #End
+  cd - >/dev/null 2>&1
 EOS
+#https://github.com/just-containers/s6-overlay?tab=readme-ov-file#customizing-s6-overlay-behaviour
+#Preserve env vars & pass on further 
+ENV S6_KEEP_ENV="1"
+# 2 --> Service start/stop + warnings+errors [0 :: errors || 1 :: warnings+errors] (Max: 5)
+ENV S6_VERBOSITY="2"
+# Output only cmd stdout/stderr
+ENV S6_LOGGING="1"
+# Wait for services before running CMD
+ENV S6_CMD_WAIT_FOR_SERVICES="1"
+# Wait 30s (30k ms) for services to start
+ENV S6_CMD_WAIT_FOR_SERVICES_MAXTIME="30000"
+# Wait 30s for services to stop
+ENV S6_SERVICES_GRACETIME="30000"
+# Wait 1s to send KILL Signal to services
+ENV S6_KILL_GRACETIME="1"
+#Start
+ENTRYPOINT ["/init"]
 #------------------------------------------------------------------------------------#
+
+##------------------------------------------------------------------------------------#
+###Setup TailScale (sudo tailscale up --authkey="$TSKEY" --ssh --hostname="$TS_NAME" --accept-dns="true" --accept-risk="all" --accept-routes="false" --shields-up="false" --advertise-exit-node --reset)
+#RUN <<EOS
+#  ##Install TailScale [static]
+#  curl -qfsSL "$INSTALL_SRC/tailscale" -o "/usr/bin/tailscale" ; chmod +x "/usr/bin/tailscale"
+#  curl -qfsSL "$INSTALL_SRC/tailscaled" -o "/usr/bin/tailscaled" ; chmod +x "/usr/bin/tailscaled"  
+#  ##Create s6-services [Debug: s6-supervise "/etc/s6-overlay/s6-rc.d/tailscaled"]
+#  mkdir -p "/etc/s6-overlay/s6-rc.d/tailscaled/dependencies.d"
+#  #UserSpace
+#  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Dockerfiles/s6-rc.services/tailscaled/run.default.userspace" -o "/etc/s6-overlay/s6-rc.d/tailscaled/run"
+#  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Dockerfiles/s6-rc.services/tailscaled/type" -o "/etc/s6-overlay/s6-rc.d/tailscaled/type"
+#  touch "/etc/s6-overlay/s6-rc.d/user/contents.d/tailscaled"
+#  touch "/etc/s6-overlay/s6-rc.d/tailscaled/dependencies.d/base"
+#  chmod -R 755 "/etc/s6-overlay"
+#  find "/etc/s6-overlay/s6-rc.d" -type f -exec dos2unix --quiet {} \; 2>/dev/null
+#  ##Create systemd services
+#  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Dockerfiles/systemd.services/tailscaled.service.userspace" -o "/lib/systemd/system/tailscaled.service"
+#  dos2unix --quiet "/lib/systemd/system/tailscaled.service"
+#  chmod -R 755 "/lib/systemd/system/tailscaled.service"
+#EOS
+##RUN service tailscaled restart || true
+##------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
 #Start
-ENTRYPOINT ["/sbin/init"]
 USER runner
 CMD ["/usr/local/bin/startup.sh"]
 #------------------------------------------------------------------------------------#
