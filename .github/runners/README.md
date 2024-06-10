@@ -115,6 +115,7 @@
 > sudo systemctl status podman
 > sudo systemctl reload "podman.service"
 > sudo service podman reload ; sudo service podman restart ; sudo systemctl status podman
+> #If errors: sudo apt-get install netavark -y || sudo apt-get install containernetworking-plugins -y
 > podman --version
 > 
 > ##Running :: https://docs.podman.io/en/latest/markdown/podman-run.1.html
