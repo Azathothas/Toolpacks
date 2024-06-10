@@ -76,7 +76,7 @@ sudo podman stop "$(sudo podman ps -aqf name=${PODMAN_CONTAINER_NAME})" >/dev/nu
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${PODMAN_LOG_FILE})\n"
 set -x && nohup sudo podman run --privileged --network="host" --systemd="always" --tz="UTC" --pull="always" --name="${PODMAN_CONTAINER_NAME}" --rm --env-file="${PODMAN_ENV_FILE}" "${PODMAN_CONTAINER_IMAGE}" > "${PODMAN_LOG_FILE}" 2>&1 &
-set +x && echo -e "[+] Waiting 120s..." && sleep 120
+set +x && echo -e "[+] Waiting 30s..." && sleep 30
 #Get logs
 PODMAN_ID="$(sudo podman ps -qf name=${PODMAN_CONTAINER_NAME})" && export PODMAN_ID="${PODMAN_ID}"
 PODMAN_LOGPATH="$(sudo podman inspect --format='{{.LogPath}}' ${PODMAN_CONTAINER_NAME})" && export PODMAN_LOGPATH="${PODMAN_LOGPATH}"
