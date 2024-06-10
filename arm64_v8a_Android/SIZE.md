@@ -49,5 +49,5 @@
 248K   ├── /tmp/toolpack_arm64_v8a_Android/sudo
 228K   ├── /tmp/toolpack_arm64_v8a_Android/wget_cacert.pem
 228K   ├── /tmp/toolpack_arm64_v8a_Android/curl_cacert.pem
-164K   └── /tmp/toolpack_arm64_v8a_Android/adig
+168K   └── /tmp/toolpack_arm64_v8a_Android/adig
 ```
