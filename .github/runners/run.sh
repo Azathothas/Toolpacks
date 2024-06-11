@@ -19,9 +19,10 @@ fi
 ##ENV
  SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
  USER="$(whoami)" && export USER="$USER"
- HOME="$(getent passwd $USER | cut -d: -f6)" && export HOME="$HOME"
+ HOME="$(getent passwd $USER | cut -d: -f6)" && export HOME="$HOME" ; pushd "$HOME" >/dev/null 2>&1
  echo -e "\n[+] USER = $USER"
  echo -e "[+] HOME = $HOME"
+ echo -e "[+] WORKDIR = $(realpath .)"
  echo -e "[+] PATH = $PATH\n"
 #Name+{rand}
 if [ -z "$PODMAN_CONTAINER_NAME" ]; then
@@ -101,6 +102,7 @@ while true; do
 done
 #------------------------------------------------------------------------------------#
 #END
+popd >/dev/null 2>&1
 echo -e "\n\n[+] Completed Runner ${PODMAN_CONTAINER_NAME} (LOGFILE: ${PODMAN_LOG_FILE})\n\n"
 sed '/^$/d' "${PODMAN_LOG_FILE}"
 echo -e "\n\n[+] Listing All Running Containers\n"
