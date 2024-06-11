@@ -81,6 +81,8 @@
     
     #-------------------------------------------------------#
      echo -e "\n\n [+] Started Initializing $(uname -mnrs) :: at $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
+     echo -e "[+] USER = $(whoami)"
+     echo -e "[+] PATH = $PATH\n"     
     #-------------------------------------------------------#
     ## If On Github Actions, remove bloat to get space (~ 30 GB) [DANGEROUS]
     if [ "$CONTINUE" == "YES" ]; then
