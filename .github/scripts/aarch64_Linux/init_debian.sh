@@ -124,6 +124,7 @@
      #For build-cache
      TMPDIRS="mktemp -d --tmpdir=$SYSTMP/init_Debian XXXXXXX_debian_aarch64" && export TMPDIRS="$TMPDIRS"
      rm -rf "$SYSTMP/init_Debian" 2>/dev/null ; mkdir -p "$SYSTMP/init_Debian"
+     pushd "$($TMPDIRS)" >/dev/null 2>&1 
     if [ "$CONTINUE" == "YES" ]; then
          #Install CoreUtils & Deps
           sudo apt-get update -y 2>/dev/null
@@ -378,5 +379,6 @@
     #-------------------------------------------------------#
   #EOF
 fi
+popd >/dev/null 2>&1
 echo -e "\n[+] Continue : $CONTINUE\n"
 #-------------------------------------------------------#
