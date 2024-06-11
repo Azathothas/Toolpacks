@@ -109,7 +109,9 @@
 > sudo apt update -y
 > sudo apt install podman -y
 > #if errors: sudo apt purge golang-github-containers-common -y
-> 
+> # sudo dpkg -i --force-overwrite /var/cache/apt/archives/containers-common_100%3a0.59.1-1_amd64.deb
+> # sudo apt --fix-broken install
+>
 > cat "$(systemctl show podman.service -p FragmentPath 2>/dev/null | cut -d '=' -f 2 | tr -d '[:space:]')"
 > sudo systemctl daemon-reexec ; sudo systemctl daemon-reload
 > sudo systemctl status podman
@@ -119,7 +121,7 @@
 > podman --version
 > 
 > ##Running :: https://docs.podman.io/en/latest/markdown/podman-run.1.html
-> sudo podman run --rm --privileged --network="host" --systemd="always" --tz="UTC" --pull="always" "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest"
+> sudo podman run --rm --privileged --network="bridge" --systemd="always" --tz="UTC" --pull="always" "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest"
 > # --device="/dev/net/tun:rwm"
 > # --cap-add="NET_ADMIN,NET_BIND_SERVICE,NET_RAW,SYS_ADMIN"
 > ```

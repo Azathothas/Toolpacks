@@ -81,7 +81,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./jless" && du -sh "./jless" ; aarch64-linux-gnu-readelf -d "./jless" | grep -i 'needed'
        cp "./jless" "$BINDIR/jless"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/jless" --help
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/jless" --help
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

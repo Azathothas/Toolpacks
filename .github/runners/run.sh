@@ -75,18 +75,18 @@ wait
 sudo podman stop "$(sudo podman ps -aqf name=${PODMAN_CONTAINER_NAME})" >/dev/null 2>&1 && sleep 5
 #RUN
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${PODMAN_LOG_FILE})\n"
-set -x && nohup sudo podman run --privileged --network="host" --systemd="always" --tz="UTC" --pull="always" --name="${PODMAN_CONTAINER_NAME}" --rm --env-file="${PODMAN_ENV_FILE}" "${PODMAN_CONTAINER_IMAGE}" > "${PODMAN_LOG_FILE}" 2>&1 &
+set -x && nohup sudo podman run --privileged --network="bridge" --systemd="always" --tz="UTC" --pull="always" --name="${PODMAN_CONTAINER_NAME}" --rm --env-file="${PODMAN_ENV_FILE}" "${PODMAN_CONTAINER_IMAGE}" > "${PODMAN_LOG_FILE}" 2>&1 &
 set +x && echo -e "[+] Waiting 30s..." && sleep 30
 #Get logs
 PODMAN_ID="$(sudo podman ps -qf name=${PODMAN_CONTAINER_NAME})" && export PODMAN_ID="${PODMAN_ID}"
 PODMAN_LOGPATH="$(sudo podman inspect --format='{{.LogPath}}' ${PODMAN_CONTAINER_NAME})" && export PODMAN_LOGPATH="${PODMAN_LOGPATH}"
 echo -e "\n[+] Writing Logs to ${PODMAN_LOGPATH} (${PODMAN_CONTAINER_NAME} :: ${PODMAN_ID})\n"
-sudo podman exec "${PODMAN_ID}" sudo -Eu "runner" "/usr/local/bin/startup.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
+sudo podman exec "${PODMAN_ID}" sudo -Eu "runner" "/usr/local/bin/manager.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
 set +x && echo -e "[+] Waiting 10s..." && sleep 10
 #sudo jq -r '.log' "${PODMAN_LOGPATH}""
 #Monitor & Stop on Exit
 while true; do
-    if ! pgrep -f "sudo -Eu runner /usr/local/bin/startup.sh" > /dev/null; then
+    if ! pgrep -f "sudo -Eu runner /usr/local/bin/manager.sh" > /dev/null; then
         cat "${PODMAN_LOG_FILE}"
       sudo podman stop "${PODMAN_ID}" --ignore
       exit 0

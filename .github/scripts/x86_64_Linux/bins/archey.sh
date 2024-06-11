@@ -75,7 +75,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #StaticX
        staticx --loglevel DEBUG "./dist/archey" --strip "$BINDIR/archey" ; popd >/dev/null 2>&1
       #Test 
-       docker run --privileged -it --rm --network="host" -v "$BINDIR:/mnt" "alpine" "/mnt/archey"
+       docker run --privileged -it --rm --network="bridge" -v "$BINDIR:/mnt" "alpine" "/mnt/archey"
 fi
 #-------------------------------------------------------#
 

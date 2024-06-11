@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./adig" && du -sh "./adig" ; aarch64-linux-gnu-readelf -d "./adig" | grep -i 'needed'
        cp "./adig" "$BINDIR/adig"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/adig" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/adig" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/adig"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

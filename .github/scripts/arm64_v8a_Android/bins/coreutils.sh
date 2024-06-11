@@ -69,7 +69,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        fi
        unset TMP_METADIR DESCRIPTION EXTRA_BINS REPO_URL WEB_URL
       #Test
-       #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version
+       #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/coreutils"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

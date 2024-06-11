@@ -77,7 +77,7 @@ sudo docker stop "$(sudo docker ps -aqf name=${DOCKER_CONTAINER_NAME})" >/dev/nu
 echo -e "\n[+] Starting Runner Container (LOGFILE: ${DOCKER_LOG_FILE})\n"
 if [ "$SYSBOX" == "NO" ]; then
    echo -e "[+] NO SYSBOX [+]"
-   set -x && nohup sudo docker run --pull="always" --network="host" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
+   set -x && nohup sudo docker run --pull="always" --network="bridge" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
 else
    set -x && nohup sudo docker run --pull="always" --runtime "sysbox-runc" --network="bridge" --name="${DOCKER_CONTAINER_NAME}" --rm --env-file="${DOCKER_ENV_FILE}" "${DOCKER_CONTAINER_IMAGE}" > "${DOCKER_LOG_FILE}" 2>&1 &
 fi

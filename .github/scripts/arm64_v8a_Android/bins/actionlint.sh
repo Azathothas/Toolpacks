@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./actionlint" && du -sh "./actionlint" ; aarch64-linux-gnu-readelf -d "./actionlint" | grep -i 'needed'
        cp "./actionlint" "$BINDIR/actionlint"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/actionlint" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/actionlint" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/actionlint"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

@@ -46,7 +46,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #get cert
        eget "https://curl.se/ca/cacert.pem" --to "$BINDIR/wget_cacert.pem"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/wget" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/wget" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

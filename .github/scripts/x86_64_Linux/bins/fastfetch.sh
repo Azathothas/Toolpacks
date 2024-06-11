@@ -88,8 +88,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./fastfetch" "$BINDIR/fastfetch"
        cp "./flashfetch" "$BINDIR/flashfetch"
        #Test
-       docker run --privileged -it --rm --network="host" -v "$BINDIR:/mnt" "alpine" "/mnt/fastfetch"
-       docker run --privileged -it --rm --network="host" -v "$BINDIR:/mnt" "alpine" "/mnt/flashfetch"       
+       docker run --privileged -it --rm --network="bridge" -v "$BINDIR:/mnt" "alpine" "/mnt/fastfetch"
+       docker run --privileged -it --rm --network="bridge" -v "$BINDIR:/mnt" "alpine" "/mnt/flashfetch"       
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1

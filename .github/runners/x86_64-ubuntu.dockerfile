@@ -90,6 +90,11 @@ RUN <<EOS
   grep runner "/etc/passwd"
  #Change to bash 
   usermod --shell "/bin/bash" "runner" 2>/dev/null
+  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/.bashrc" -o "/etc/bash.bashrc"
+  dos2unix --quiet "/etc/bash.bashrc" 2>/dev/null
+  ln --symbolic --force "/etc/bash.bashrc" "/home/runner/.bashrc" 2>/dev/null
+  ln --symbolic --force "/etc/bash.bashrc" "/root/.bashrc" 2>/dev/null
+  ln --symbolic --force "/etc/bash.bashrc" "/etc/bash/bashrc" 2>/dev/null
  #Recheck 
   grep runner "/etc/passwd"
 EOS
@@ -114,7 +119,7 @@ RUN <<EOS
   #Remove Hardlimit
   sed -i 's/ulimit -Hn/# ulimit -Hn/g' "/etc/init.d/docker"
   #Install Additional Deps
-  sudo apt-get install fuse-overlayfs -y
+  apt-get install fuse-overlayfs -y
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -159,9 +164,9 @@ RUN <<EOS
  #Remove cache 
   rm -rf "/var/lib/apt/lists/"* 2>/dev/null
 EOS
-#Copy startup script
-COPY "./startup.sh" "/usr/local/bin/startup.sh"
-RUN chmod +x "/usr/local/bin/startup.sh"
+#Copy Manager script
+COPY "./manager.sh" "/usr/local/bin/manager.sh"
+RUN chmod +x "/usr/local/bin/manager.sh"
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
@@ -174,7 +179,8 @@ RUN <<EOS
   echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
   DEBIAN_FRONTEND=noninteractive apt-get update -y -qq && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
  #Configure
-  touch "$HOME/.Xauthority"
+  touch "/root/.Xauthority"
+  sudo -u "runner" touch "/home/runner/.Xauthority"
  #To start: (-ac --> disable access control restrictions)
  #Xvfb -ac ":0" & 
  # export DISPLAY=":0" && google-chrome
@@ -196,6 +202,41 @@ EOS
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
+##Enable SSH & SSH Service
+RUN <<EOS
+  ##Install SSH
+  set +e
+  apt-get update -y && apt-get install openssh-server ssh -y
+  #Config
+  mkdir -p "/run/sshd" ; mkdir -p "/etc/ssh" ; touch "/var/log/auth.log" "/var/log/btmp" 2>/dev/null || true
+  mkdir -p "/root/.ssh" ; chown "root:root" "/root/.ssh"
+  #touch "/etc/ssh/authorized_keys" "/root/.ssh/authorized_keys" "/root/.ssh/config" "/root/.ssh/known_hosts"
+  mkdir -p "/home/runner/.ssh" ; chown "runner:runner" "/home/runner/.ssh"
+  touch "/etc/ssh/authorized_keys" "/home/runner/.ssh/authorized_keys" "/home/runner/.ssh/config" "/home/runner/.ssh/known_hosts"
+  #Generate-Keys
+  echo "yes" | ssh-keygen -N "" -t "ecdsa" -b 521 -f "/etc/ssh/ssh_host_ecdsa_key"
+  #cp "/etc/ssh/ssh_host_ecdsa_key" "/home/runner/.ssh/id_ecdsa" ; cp "/etc/ssh/ssh_host_ecdsa_key" "/root/.ssh/id_ecdsa"
+  #cp "/etc/ssh/ssh_host_ecdsa_key.pub" "/home/runner/.ssh/id_ecdsa.pub" ; cp "/etc/ssh/ssh_host_ecdsa_key.pub" "root/.ssh/id_ecdsa.pub"
+  echo "yes" | ssh-keygen -N "" -t "ed25519" -f "/etc/ssh/ssh_host_ed25519_key"
+  #cp "/etc/ssh/ssh_host_ed25519_key" "/home/runner/.ssh/id_ed25519" ; cp "/etc/ssh/ssh_host_ed25519_key" "/root/.ssh/id_ed25519"
+  #cp "/etc/ssh/ssh_host_ed25519_key.pub" "/home/runner/.ssh/id_ed25519.pub" ; cp "/etc/ssh/ssh_host_ed25519_key.pub" "/root/.ssh/id_ed25519.pub"
+  echo "yes" | ssh-keygen -N "" -t "rsa" -b 4096 -f "/etc/ssh/ssh_host_rsa_key"
+  #cp "/etc/ssh/ssh_host_rsa_key" "/home/runner/.ssh/id_rsa" ; cp "/etc/ssh/ssh_host_rsa_key" "/root/.ssh/id_rsa"
+  #cp "/etc/ssh/ssh_host_rsa_key.pub" "/home/runner/.ssh/id_rsa.pub" ; cp "/etc/ssh/ssh_host_rsa_key.pub" "/root/.ssh/id_rsa.pub"
+  curl -qfsSL "https://pub.ajam.dev/utils/sshd_config_passwordless.txt" -o "/etc/ssh/sshd_config"
+  #Perms
+  chown -R "root:root" "/root/.ssh" ; chown "root:root" "/etc/ssh/authorized_keys" ; chmod 644 "/etc/ssh/authorized_keys"
+  chown -R "runner:runner" "/home/runner/.ssh"
+  sudo -u "runner" chmod 750 -R "/home/runner"
+  sudo -u "runner" chmod 700 -R "/home/runner/.ssh"
+  sudo -u "runner" chmod 600 "/home/runner/.ssh/authorized_keys" "/home/runner/.ssh/config"
+  sudo -u "runner" chmod 644 "/home/runner/.ssh/known_hosts"
+  systemctl enable ssh --now 2>/dev/null || true
+EOS
+EXPOSE 22
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
 ##Setup TailScale (sudo tailscale up --authkey="$TSKEY" --ssh --hostname="$TS_NAME" --accept-dns="true" --accept-risk="all" --accept-routes="false" --shields-up="false" --advertise-exit-node --reset)
 RUN <<EOS
   #Install TailScale [pkg]
@@ -209,5 +250,11 @@ EOS
 
 #------------------------------------------------------------------------------------#
 #Start
+RUN <<EOS
+  locale-gen "en_US.UTF-8"
+EOS
+ENV LANG="en_US.UTF-8"
+ENV LANGUAGE="en_US:en"
+ENV LC_ALL="en_US.UTF-8"
 ENTRYPOINT ["/sbin/init"]
 #------------------------------------------------------------------------------------#

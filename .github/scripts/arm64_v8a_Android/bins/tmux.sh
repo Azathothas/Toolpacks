@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./tmux" && du -sh "./tmux" ; aarch64-linux-gnu-readelf -d "./tmux" | grep -i 'needed'
        cp "./tmux" "$BINDIR/tmux"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/tmux" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/tmux" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/tmux"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

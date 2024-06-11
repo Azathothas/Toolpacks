@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./zsh" && du -sh "./zsh" ; aarch64-linux-gnu-readelf -d "./zsh" | grep -i 'needed'
        cp "./zsh" "$BINDIR/zsh" ; cp "./zsh" "$BASEUTILSDIR/zsh"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/zsh" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/zsh" --version
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh"
        docker exec -it "ndk-pkg" ndk-pkg cleanup

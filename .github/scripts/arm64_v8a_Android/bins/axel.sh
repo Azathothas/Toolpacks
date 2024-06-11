@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./axel" && du -sh "./axel" ; aarch64-linux-gnu-readelf -d "./axel" | grep -i 'needed'
        cp "./axel" "$BINDIR/axel"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/axel" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/axel" --version
       #Requires SSL_CERT_FILE env var 
       #Cleanup Container
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/axel"

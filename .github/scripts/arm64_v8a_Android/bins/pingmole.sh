@@ -85,7 +85,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./pingmole" && du -sh "./pingmole" ; aarch64-linux-gnu-readelf -d "./pingmole" | grep -i 'needed'
        cp "./pingmole" "$BINDIR/pingmole"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/pingmole" --help
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/pingmole" --help
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

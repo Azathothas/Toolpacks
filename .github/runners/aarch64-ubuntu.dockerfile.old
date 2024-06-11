@@ -7,13 +7,13 @@
 # LINT :: https://github.com/hadolint/hadolint
 ## Note :: NO SPACE after EOS using heredoc `EOS` to write multiline scripts
 #FROM nestybox/ubuntu-jammy-systemd-docker:latest
-# URL: https://hub.docker.com/r/azathothas/gh-runner-x86_64-ubuntu
+# URL: https://hub.docker.com/r/azathothas/gh-runner-aarch64-ubuntu
 FROM ubuntu:latest
 #FROM ubuntu:jammy
 #------------------------------------------------------------------------------------#
 ##Base Deps
 ENV DEBIAN_FRONTEND="noninteractive"
-ENV INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux"
+ENV INSTALL_SRC="https://bin.ajam.dev/aarch64_arm64_Linux"
 RUN <<EOS
   #Base
   apt-get update -y
@@ -118,7 +118,7 @@ RUN <<EOS
  #https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/install_bb_tools.sh
  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh" -o "./tools.sh"
  dos2unix --quiet "./tools.sh" && chmod +x "./tools.sh"
- INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux" bash "./tools.sh" 2>/dev/null || true ; rm -rf "./tools.sh"
+ INSTALL_SRC="https://bin.ajam.dev/aarch64_arm64_Linux" bash "./tools.sh" 2>/dev/null || true ; rm -rf "./tools.sh"
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -133,21 +133,21 @@ EOS
 
 #------------------------------------------------------------------------------------#
 # Build args
-#ARG TARGETPLATFORM=amd64
+#ARG TARGETPLATFORM=arm64
 #ARG RUNNER_VERSION=2.313.0
 #------------------------------------------------------------------------------------#
 ##Download Runner Script
 # https://github.com/actions/runner/releases
 WORKDIR /runner
 RUN <<EOS
- #Setup GH Runner (X86_64)
-  eget "https://github.com/actions/runner" --asset "linux" --asset "x64" --asset "^arm" --asset "tar.gz" --to "./runner.tar.gz" --download-only 
+ #Setup GH Runner (arm64)
+  eget "https://github.com/actions/runner" --asset "linux" --asset "arm64" --asset "tar.gz" --to "./runner.tar.gz" --download-only 
  #Untar
   mkdir -p "/runner-init"
   tar xzf "./runner.tar.gz" -C "/runner-init" && rm "./runner.tar.gz"
  #Dos2unix
   find "/runner-init" -type f -exec dos2unix --quiet {} \; 2>/dev/null || true
- #Run Install
+ #Run Install 
   chmod +x "/runner-init/bin/installdependencies.sh" && bash "/runner-init/bin/installdependencies.sh"
  #Remove cache 
   rm -rf "/var/lib/apt/lists/"* 2>/dev/null
@@ -196,15 +196,21 @@ EOS
 RUN <<EOS
  #s6-overlays & Init Deps
   apt-get update -y -qq && apt-get install -y xz-utils
-  wget --quiet --show-progress "$INSTALL_SRC/eget" -O "/usr/local/bin/eget"
+  wget --quiet --show-progress "${INSTALL_SRC}/eget" -O "/usr/local/bin/eget"
   chmod +x "/usr/local/bin/eget"
  #Switch to temp
   cd "$(mktemp -d)" >/dev/null 2>&1
- #Get latest Tars
+##s6-overlays & Init
+RUN <<EOS
+ #Deps
+  apt-get update -y -qq && apt-get install -y xz-utils
+ #Switch to temp
+  cd "$(mktemp -d)" >/dev/null 2>&1
+ #Get latest Tars 
  #s6-overlay scripts
   eget "https://github.com/just-containers/s6-overlay" --asset "s6-overlay-noarch.tar.xz" --to "./s6-overlay-noarch.tar.xz" --download-only
  #s6-overlay binaries
-  eget "https://github.com/just-containers/s6-overlay" --asset "s6-overlay-x86_64.tar.xz" --to "./s6-overlay-x86_64.tar.xz" --download-only
+  eget "https://github.com/just-containers/s6-overlay" --asset "s6-overlay-aarch64.tar.xz" --to "./s6-overlay-aarch64.tar.xz" --download-only
  #/usr/bin symlinks for s6-overlay scripts
   eget "https://github.com/just-containers/s6-overlay" --asset "s6-overlay-symlinks-noarch.tar.xz" --to "./s6-overlay-symlinks-noarch.tar.xz" --download-only
  #syslogd emulation
@@ -237,8 +243,8 @@ ENTRYPOINT ["/init"]
 ###Setup TailScale (sudo tailscale up --authkey="$TSKEY" --ssh --hostname="$TS_NAME" --accept-dns="true" --accept-risk="all" --accept-routes="false" --shields-up="false" --advertise-exit-node --reset)
 #RUN <<EOS
 #  ##Install TailScale [static]
-#  curl -qfsSL "$INSTALL_SRC/tailscale" -o "/usr/bin/tailscale" ; chmod +x "/usr/bin/tailscale"
-#  curl -qfsSL "$INSTALL_SRC/tailscaled" -o "/usr/bin/tailscaled" ; chmod +x "/usr/bin/tailscaled"  
+#  curl -qfsSL "${INSTALL_SRC}/tailscale" -o "/usr/bin/tailscale" ; chmod +x "/usr/bin/tailscale"
+#  curl -qfsSL "${INSTALL_SRC}/tailscaled" -o "/usr/bin/tailscaled" ; chmod +x "/usr/bin/tailscaled"  
 #  ##Create s6-services [Debug: s6-supervise "/etc/s6-overlay/s6-rc.d/tailscaled"]
 #  mkdir -p "/etc/s6-overlay/s6-rc.d/tailscaled/dependencies.d"
 #  #UserSpace

@@ -44,7 +44,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        file "./warp-svc" && du -sh "./warp-svc" && cp "./warp-svc" "$BINDIR/warp-svc"
        #Test 
        "./warp-cli" --version
-       docker run --privileged -it --rm --network="host" -v "$BINDIR:/mnt" "alpine" "/mnt/warp-cli" --help
+       docker run --privileged -it --rm --network="bridge" -v "$BINDIR:/mnt" "alpine" "/mnt/warp-cli" --help
        #sudo ./warp-svc start >/dev/null 2>&1
        #sudo warp-cli --accept-tos registration new
        #sudo warp-cli --accept-tos mode warp+doh

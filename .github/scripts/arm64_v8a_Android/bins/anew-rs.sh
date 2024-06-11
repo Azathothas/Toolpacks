@@ -76,7 +76,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         file "./anew-rs" && du -sh "./anew-rs" ; aarch64-linux-gnu-readelf -d "./anew-rs" | grep -i 'needed'
         cp "./anew-rs" "$BINDIR/anew-rs"
        #Test
-        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="host" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/anew-rs" --help
+        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/anew-rs" --help
         popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

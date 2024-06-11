@@ -41,7 +41,7 @@ fi
 if command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/docker.service" ]; then
    echo -e "\n[+] Starting supervisor (Docker)\n"
    sudo systemctl daemon-reload 2>/dev/null
-   sudo systemctl enable docker --now --yes 2>/dev/null
+   sudo systemctl enable docker --now 2>/dev/null
    sudo systemctl restart docker 2>/dev/null
    sudo systemctl list-unit-files --type=service | grep -i "docker"
    sudo systemctl status "docker.service" --no-pager
@@ -122,8 +122,24 @@ fi
 ##Remove Runner Upon Completion
 remove_runner() {
   generate_token
+  echo -e "\n[+] Removing Runners ...\n"
   "/runner-init/config.sh" remove --unattended --token "${RUNNER_TOKEN}"
-  unset API_RESPONSE AUTH_URL REG_URL RUNNER_ID RUNNER_LABELS RUNNER_TOKEN
+  #Remove Offline Runners
+  if [ -n "${GITHUB_REPOSITORY}" ]; then
+     OFFLINE_RUNNERS="$(curl -qfsSL "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/actions/runners?per_page=100" -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" -H 'Accept: application/vnd.github+json' | jq -r '.runners[] | select(.status == "offline") | .id')" && export OFFLINE_RUNNERS="${OFFLINE_RUNNERS}"
+     readarray -t OFFLINE_RUNNERS_ID <<< "${OFFLINE_RUNNERS}"
+     for R_ID in "${OFFLINE_RUNNERS_ID[@]}"; do
+         curl -qfsSL -X 'DELETE' "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/actions/runners/${R_ID}" -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" -H 'Accept: application/vnd.github+json'
+     done
+  elif [ -n "${GITHUB_ORG}" ]; then
+     OFFLINE_RUNNERS="$(curl -qfsSL "https://api.github.com/orgs/${GITHUB_OWNER}/actions/runners?per_page=100" -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" -H 'Accept: application/vnd.github+json' | jq -r '.runners[] | select(.status == "offline") | .id')" && export OFFLINE_RUNNERS="${OFFLINE_RUNNERS}"
+     readarray -t OFFLINE_RUNNERS_ID <<< "${OFFLINE_RUNNERS}"
+     for R_ID in "${OFFLINE_RUNNERS_ID[@]}"; do
+         curl -qfsSL -X 'DELETE' "https://api.github.com/orgs/${GITHUB_OWNER}/actions/runners/${R_ID}" -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" -H 'Accept: application/vnd.github+json'
+     done
+  fi
+  #Cleanup
+  unset API_RESPONSE AUTH_URL OFFLINE_RUNNERS_ID REG_URL RUNNERS_ID R_ID RUNNER_ID RUNNER_LABELS RUNNER_TOKEN
 }
 export -f remove_runner
 #exit if ctrl + c
