@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
 SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
 TMPDIRS="mktemp -d --tmpdir=$SYSTMP/toolpacks XXXXXXX_android_arm64_v8a" && export TMPDIRS="$TMPDIRS"
@@ -45,5 +46,31 @@ export TOOLPACKS_ANDROID_BUILD_DYNAMIC="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-${
 export TOOLPACKS_ANDROID_BUILD_STATIC="${TOOLPACKS_ANDROID_APILEVEL_STATIC}-${TOOLPACKS_ANDROID_ABI}"
 BUILD="YES" && export BUILD="$BUILD"
 clear
-#Change
-export GITHUB_TOKEN="okenennsnnsnsnsnsns"
+##Sanity Checks
+if [[ ! -n "$GITHUB_TOKEN" ]]; then
+   echo -e "\n[-] GITHUB_TOKEN is NOT Exported"
+   echo -e "Export it to avoid ratelimits\n"
+fi
+#rclone
+if command -v rclone &> /dev/null; then
+     if [ -s "$HOME/.rclone.conf" ] && [ ! -s "$HOME/.config/rclone/rclone.conf" ]; then
+         mkdir -p "$HOME/.config/rclone" && touch "$HOME/.config/rclone/rclone.conf"
+         cat "$HOME/.rclone.conf" > "$HOME/.config/rclone/rclone.conf"
+         dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
+     elif [ -s "$HOME/.config/rclone/rclone.conf" ]; then
+        dos2unix --quiet "$HOME/.config/rclone/rclone.conf"
+     else
+       echo -e "\n[-] rClone Config Not Found\n"
+     fi
+   ##ENV VARS
+     export RCLONE_STATS="120s"
+else
+    echo -e "\n[-] rclone is NOT Installed"
+     if [ -s "$HOME/.rclone.conf" ]; then
+       echo -e "rClone Config --> "$HOME/.rclone.conf"\n"
+     elif [ -s "$HOME/.config/rclone/rclone.conf" ]; then
+       echo -e "rClone Config --> "$HOME/.config/rclone/rclone.conf"\n"
+     else
+       echo -e "[-] rClone Config Not Found\n"
+     fi
+fi
