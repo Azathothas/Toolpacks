@@ -84,6 +84,7 @@
     #-------------------------------------------------------#
      echo -e "\n\n [+] Started Initializing $(uname -mnrs) :: at $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
      echo -e "[+] USER = $USER"
+     echo -e "[+] HOME = $HOME"
      echo -e "[+] PATH = $PATH\n"     
     #-------------------------------------------------------#
     ## If On Github Actions, remove bloat to get space (~ 30 GB) [DANGEROUS]
@@ -232,7 +233,9 @@
           fi 
          #----------------------#          
          ##Install golang 
+          pushd "$($TMPDIRS)" >/dev/null
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+          popd >/dev/null
           #Test
           if ! command -v go &> /dev/null; then
              echo -e "\n[-] go NOT Found\n"
