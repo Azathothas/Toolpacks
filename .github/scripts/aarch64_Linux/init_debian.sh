@@ -20,6 +20,8 @@
 #-------------------------------------------------------#
 ##ENV
  SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+ USER="$(whoami)" && export USER="$USER"
+ HOME="$(getent passwd $USER | cut -d: -f6)" && export HOME="$HOME"
 #-------------------------------------------------------# 
 ##Sanity Checks
 ##Check if it was recently initialized
@@ -81,7 +83,7 @@
     
     #-------------------------------------------------------#
      echo -e "\n\n [+] Started Initializing $(uname -mnrs) :: at $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
-     echo -e "[+] USER = $(whoami)"
+     echo -e "[+] USER = $USER"
      echo -e "[+] PATH = $PATH\n"
     #-------------------------------------------------------#
     ## If On Github Actions, remove bloat to get space (~ 30 GB) [DANGEROUS]
