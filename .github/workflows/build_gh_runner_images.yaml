@@ -114,8 +114,8 @@ jobs:
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/alpine-builder-ndk.dockerfile"
-          #platforms: "linux/amd64,linux/arm64"
-          platforms: "linux/amd64"
+          platforms: "linux/amd64,linux/arm64"
+          #platforms: "linux/amd64"
           tags: |
             azathothas/alpine-builder-ndk:latest
             azathothas/alpine-builder-ndk:${{ env.DOCKER_TAG }}
