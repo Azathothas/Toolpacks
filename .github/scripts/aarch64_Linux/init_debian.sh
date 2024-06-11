@@ -188,20 +188,34 @@
     if [ "$CONTINUE" == "YES" ]; then
          #----------------------#
          #Docker
-          curl -qfsSL "https://get.docker.com" | sudo bash
-          sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
-          sudo service docker restart 2>/dev/null
-          sudo service docker status 2>/dev/null
-          #newgrp docker 2>/dev/null
-          #Test
-          if ! command -v docker &> /dev/null; then
-             echo -e "\n[-] docker NOT Found\n"
-             export CONTINUE="NO" && exit 1
+         install_docker ()
+         {
+            #Install 
+             curl -qfsSL "https://get.docker.com" | sudo bash
+             sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
+             sudo service docker restart 2>/dev/null
+             sudo service docker status 2>/dev/null
+            #Test
+             if ! command -v docker &> /dev/null; then
+                echo -e "\n[-] docker NOT Found\n"
+                export CONTINUE="NO" && exit 1
+             else
+                docker --version ; sudo docker run hello-world
+                sudo ldconfig && sudo ldconfig -p
+                #newgrp 2>/dev/null
+             fi
+         }
+         export -f install_docker
+         if command -v docker &> /dev/null; then
+          if [ "$(curl -s https://endoflife.date/api/docker-engine.json | jq -r '.[0].latest')" != "$(docker --version | grep -oP '(?<=version )(\d+\.\d+\.\d+)')" ]; then
+             install_docker
           else
-             docker --version ; sudo docker run hello-world
-             sudo ldconfig && sudo ldconfig -p
-             #newgrp 2>/dev/null
+             echo -e "\n[+] Latest Docker seems to be already Installed"
+             docker --version
           fi
+         else    
+             install_docker
+         fi
          #----------------------# 
          #Crystal
           sudo rm "/etc/apt/sources.list.d/crystal.list" -rf 2>/dev/null
