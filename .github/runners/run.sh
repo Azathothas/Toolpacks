@@ -17,6 +17,12 @@ fi
 
 #------------------------------------------------------------------------------------#
 ##ENV
+ SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+ USER="$(whoami)" && export USER="$USER"
+ HOME="$(getent passwd $USER | cut -d: -f6)" && export HOME="$HOME"
+ echo -e "\n[+] USER = $USER"
+ echo -e "[+] HOME = $HOME"
+ echo -e "[+] PATH = $PATH\n"
 #Name+{rand}
 if [ -z "$PODMAN_CONTAINER_NAME" ]; then
  echo -e "\n[+] Setting Default Container Name: gh-runner-arm64x-gcp"
@@ -81,12 +87,12 @@ set +x && echo -e "[+] Waiting 30s..." && sleep 30
 PODMAN_ID="$(sudo podman ps -qf name=${PODMAN_CONTAINER_NAME})" && export PODMAN_ID="${PODMAN_ID}"
 PODMAN_LOGPATH="$(sudo podman inspect --format='{{.LogPath}}' ${PODMAN_CONTAINER_NAME})" && export PODMAN_LOGPATH="${PODMAN_LOGPATH}"
 echo -e "\n[+] Writing Logs to ${PODMAN_LOGPATH} (${PODMAN_CONTAINER_NAME} :: ${PODMAN_ID})\n"
-sudo podman exec "${PODMAN_ID}" sudo -Eu "runner" "/usr/local/bin/manager.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
+sudo podman exec --user "runner" "${PODMAN_ID}" "/usr/local/bin/manager.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
 set +x && echo -e "[+] Waiting 10s..." && sleep 10
 #sudo jq -r '.log' "${PODMAN_LOGPATH}""
 #Monitor & Stop on Exit
 while true; do
-    if ! pgrep -f "sudo -Eu runner /usr/local/bin/manager.sh" > /dev/null; then
+    if ! pgrep -f "/usr/local/bin/manager.sh" > /dev/null; then
         cat "${PODMAN_LOG_FILE}"
       sudo podman stop "${PODMAN_ID}" --ignore
       exit 0
