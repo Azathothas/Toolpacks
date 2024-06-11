@@ -197,7 +197,7 @@
          install_docker ()
          {
             #Install 
-             curl -qfsSL "https://get.docker.com" | sudo bash
+             curl -qfsSL "https://get.docker.com" | sed 's/sleep 20//g' | sudo bash
              sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
              sudo service docker restart 2>/dev/null
              sudo service docker status 2>/dev/null

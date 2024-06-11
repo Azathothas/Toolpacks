@@ -86,12 +86,13 @@ set -x && nohup sudo podman run --privileged --network="bridge" --systemd="alway
 set +x && echo -e "[+] Waiting 30s..." && sleep 30
 #Get logs
 PODMAN_ID="$(sudo podman ps -qf name=${PODMAN_CONTAINER_NAME})" && export PODMAN_ID="${PODMAN_ID}"
-PODMAN_LOGPATH="$(sudo podman inspect --format='{{.LogPath}}' ${PODMAN_CONTAINER_NAME})" && export PODMAN_LOGPATH="${PODMAN_LOGPATH}"
+PODMAN_LOGPATH="$(sudo podman inspect --format='{{.HostConfig.LogConfig.Path}}' ${PODMAN_CONTAINER_NAME})" && export PODMAN_LOGPATH="${PODMAN_LOGPATH}"
 echo -e "\n[+] Writing Logs to ${PODMAN_LOGPATH} (${PODMAN_CONTAINER_NAME} :: ${PODMAN_ID})\n"
 sudo podman exec --user "runner" "${PODMAN_ID}" "/usr/local/bin/manager.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
 set +x && echo -e "[+] Waiting 10s..." && sleep 10
 #sudo jq -r '.log' "${PODMAN_LOGPATH}""
 #Monitor & Stop on Exit
+set +x && echo -e "[+] Executing Runner..."
 while true; do
     if ! pgrep -f "/usr/local/bin/manager.sh" > /dev/null; then
         cat "${PODMAN_LOG_FILE}"
