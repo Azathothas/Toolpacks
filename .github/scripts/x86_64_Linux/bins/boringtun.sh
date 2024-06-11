@@ -30,7 +30,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export RUST_TARGET="x86_64-unknown-linux-gnu" && rustup target add "$RUST_TARGET"
        export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
        sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
-       cargo build --bin "boringtun-cli" --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/boringtun-cli" "$BINDIR/boringtun-cli" 
+       cargo build --bin "boringtun-cli" --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/boringtun-cli" "$BINDIR/boringtun-cli"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

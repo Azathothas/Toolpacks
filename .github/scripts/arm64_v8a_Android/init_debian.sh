@@ -259,6 +259,7 @@
              echo -e "\n[-] cargo (rust) NOT Found\n"
              export CONTINUE="NO" && exit 1
           else
+             rustup default stable
              rustc --version && cargo --version
              #Cross-rs
              cargo install cross --git "https://github.com/cross-rs/cross"
