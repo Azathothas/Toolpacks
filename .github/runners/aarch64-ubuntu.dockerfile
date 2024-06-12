@@ -46,12 +46,12 @@ RUN <<EOS
  ##Prevents journald from reading kernel messages from /dev/kmsg
  # echo "ReadKMsg=no" >> "/etc/systemd/journald.conf"
  #Disable systemd services/units that are unnecessary within a container.
-  systemctl mask "systemd-udevd.service"
-  systemctl "systemd-udevd-kernel.socket"
-  systemctl "systemd-udevd-control.socket"
-  systemctl "systemd-modules-load.service"
-  systemctl "sys-kernel-debug.mount"
-  systemctl "sys-kernel-tracing.mount"
+  #systemctl mask "systemd-udevd.service"
+  #systemctl mask "systemd-udevd-kernel.socket"
+  #systemctl mask "systemd-udevd-control.socket"
+  #systemctl mask "systemd-modules-load.service"
+  #systemctl mask "sys-kernel-debug.mount"
+  #systemctl mask "sys-kernel-tracing.mount"
  #Housekeeping
   apt-get clean -y
   rm -rf "/lib/systemd/system/getty.target" 2>/dev/null
@@ -117,7 +117,7 @@ RUN <<EOS
   #Remove Hardlimit
   sed -i 's/ulimit -Hn/# ulimit -Hn/g' "/etc/init.d/docker"
   #Install Additional Deps
-  apt-get install fuse-overlayfs -y
+  apt-get install btrfs-progs fuse-overlayfs fuse3 kmod libfuse3-dev zfs-dkms -y
 EOS
 #------------------------------------------------------------------------------------#
 

@@ -37,7 +37,42 @@ fi
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
-#Start Docker
+##Start Docker
+#Check for kernel modules
+sudo systemctl stop docker 2>/dev/null
+sudo cp -au "/var/lib/docker" "/var/lib/docker.bk"
+sudo modprobe -n -q "fuse"
+fuse_overlayfs_status=$?
+sudo modprobe -n -q "btrfs"
+btrfs_status=$?
+if [[ $fuse_overlayfs_status -ne 0 && $btrfs_status -ne 0 ]]; then
+  sudo modprobe "fuse" ; sudo modprobe "btrfs"
+  echo -e "\n[+] Configuring Docker to use vfs\n"
+  sudo rm -rf "/var/lib/docker/"
+  if [[ ! -f "/etc/docker/daemon.json" ]]; then
+    sudo mkdir -p "/etc/docker"
+    echo '{"storage-driver": "vfs"}' | jq . | sudo tee -a "/etc/docker/daemon.json"
+  else
+    sudo sed 's/"storage-driver": "fuse-overlayfs"/"storage-driver": "vfs"/' -i "/etc/docker/daemon.json"
+    sudo sed 's/"storage-driver": "btrfs"/"storage-driver": "vfs"/' -i "/etc/docker/daemon.json"
+    jq . "/etc/docker/daemon.json"
+  fi
+  sudo cp -au "/var/lib/docker.bk/." "/var/lib/docker/" && sudo rm -rf "/var/lib/docker.bk"
+elif sudo grep -q 'btrfs' "/proc/filesystems" && sudo modprobe -n -q "btrfs"; then
+  echo -e "\n[+] Configuring Docker to use btrfs\n"
+  sudo rm -rf "/var/lib/docker/"
+  sudo mkfs.btrfs -f "/dev/xvdf" "/dev/xvdg"
+  sudo mount -t btrfs "/dev/xvdf" "/var/lib/docker"
+  if [[ ! -f "/etc/docker/daemon.json" ]]; then
+    echo '{"storage-driver": "btrfs"}' | jq . | sudo tee -a "/etc/docker/daemon.json"
+  else
+    sed 's/"storage-driver": "fuse-overlayfs"/"storage-driver": "btrfs"/' -i "/etc/docker/daemon.json"
+    sed 's/"storage-driver": "vfs"/"storage-driver": "btrfs"/' -i "/etc/docker/daemon.json"
+    jq . "/etc/docker/daemon.json"
+  fi
+  sudo cp -au "/var/lib/docker.bk/." "/var/lib/docker/" && sudo rm -rf "/var/lib/docker.bk"  
+fi
+##Restart Services
 if command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/docker.service" ]; then
    echo -e "\n[+] Starting supervisor (Docker)\n"
    sudo systemctl daemon-reload 2>/dev/null
@@ -47,6 +82,7 @@ if command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/docker.service"
    sudo systemctl status "docker.service" --no-pager
    sudo service docker restart >/dev/null 2>&1
    sudo systemctl status "docker.service" --no-pager
+   sudo docker info
 fi
 #------------------------------------------------------------------------------------#
 
