@@ -99,7 +99,7 @@ if command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/docker.service"
     else
        echo "[-] FATAL: Multiple Attempts to restart Docker Failed\nQuitting..."
        sudo systemctl status "docker.service" --no-pager
-     exit 1  
+     exit 1
     fi
 fi
 #------------------------------------------------------------------------------------#
