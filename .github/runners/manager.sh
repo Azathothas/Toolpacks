@@ -77,12 +77,30 @@ if command -v systemctl &>/dev/null && [ -s "/lib/systemd/system/docker.service"
    echo -e "\n[+] Starting supervisor (Docker)\n"
    sudo systemctl daemon-reload 2>/dev/null
    sudo systemctl enable docker --now 2>/dev/null
-   sudo systemctl restart docker 2>/dev/null ; sleep 20
    sudo systemctl list-unit-files --type=service | grep -i "docker"
-   sudo systemctl status "docker.service" --no-pager
-   sudo service docker restart >/dev/null 2>&1 ; sleep 20
-   sudo systemctl status "docker.service" --no-pager
-   sudo docker info
+   if sudo systemctl is-active --quiet docker; then
+      echo -e "\n[+] Docker is Active\n"
+      sudo systemctl status "docker.service" --no-pager
+   else
+      echo -e "\n[+] Restarting Docker (1/2) ...\n"   
+      sudo service docker restart >/dev/null 2>&1 ; sleep 20
+      if sudo systemctl is-active --quiet docker; then
+         echo -e "\n[+] Docker is Active\n"
+         sudo systemctl status "docker.service" --no-pager
+      else
+         echo -e "\n[+] Restarting Docker (2/2) ...\n"  
+         sudo service docker restart >/dev/null 2>&1 ; sleep 20
+         sudo systemctl status "docker.service" --no-pager
+      fi
+    fi
+    #if ! sudo systemctl is-active --quiet docker; then
+    if sudo systemctl is-active --quiet docker; then
+       sudo docker info
+    else
+       echo "[-] FATAL: Multiple Attempts to restart Docker Failed\nQuitting..."
+       sudo systemctl status "docker.service" --no-pager
+     exit 1  
+    fi   
 fi
 #------------------------------------------------------------------------------------#
 
