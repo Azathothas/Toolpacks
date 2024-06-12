@@ -101,7 +101,7 @@
 > ##Install podman :: https://software.opensuse.org/download/package?package=podman&project=home%3Aalvistack
 >
 > #(Alpine) : https://wiki.alpinelinux.org/wiki/Podman
-> apk update --no-cache && apk add podman --latest --no-cache --upgrade --no-interactive
+> apk update --no-cache && apk add docker podman --latest --no-cache --upgrade --no-interactive
 > rc-update add "cgroups" ; rc-service "cgroups" start && sleep 5 ; rc-service "cgroups" status
 >
 > 
