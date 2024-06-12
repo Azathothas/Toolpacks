@@ -16,6 +16,22 @@ fi
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
+#Sanity Check
+if ! command -v podman &> /dev/null; then
+   echo -e "\n[-] Podman is NOT Installed/Configured"
+   echo -e "[-] Install ALL Dependencies && Configure ENV VARS|PATH\n"
+   echo -e "\n[-] READ: https://github.com/Azathothas/Toolpacks/blob/main/.github/runners/README.md#additional-notes--refs\n"
+ exit 1
+fi
+if ! command -v docker &> /dev/null; then
+   echo -e "\n[-] Docker is NOT Installed/Configured"
+   echo -e "[-] Install ALL Dependencies && Configure ENV VARS|PATH\n"
+   echo -e "\n[-] READ: https://github.com/Azathothas/Toolpacks/blob/main/.github/runners/README.md#additional-notes--refs\n"
+ exit 1
+fi
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
 ##ENV
  SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
  USER="$(whoami)" && export USER="$USER"
@@ -88,7 +104,7 @@ set +x && echo -e "[+] Waiting 30s..." && sleep 30
 PODMAN_ID="$(sudo podman ps -qf name=${PODMAN_CONTAINER_NAME})" && export PODMAN_ID="${PODMAN_ID}"
 PODMAN_LOGPATH="$(sudo podman inspect --format='{{.HostConfig.LogConfig.Path}}' ${PODMAN_CONTAINER_NAME})" && export PODMAN_LOGPATH="${PODMAN_LOGPATH}"
 echo -e "\n[+] Writing Logs to ${PODMAN_LOGPATH} (${PODMAN_CONTAINER_NAME} :: ${PODMAN_ID})\n"
-sudo podman exec --user "runner" "${PODMAN_ID}" "/usr/local/bin/manager.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
+sudo podman exec --user "runner" --env-file="${PODMAN_ENV_FILE}" "${PODMAN_ID}" "/usr/local/bin/manager.sh" >> "${PODMAN_LOG_FILE}" 2>&1 &
 set +x && echo -e "[+] Waiting 10s..." && sleep 10
 #sudo jq -r '.log' "${PODMAN_LOGPATH}""
 #Monitor & Stop on Exit
