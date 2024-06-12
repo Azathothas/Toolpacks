@@ -99,6 +99,12 @@
 > - [Install Podman](https://podman.io/docs/installation)
 > ```bash
 > ##Install podman :: https://software.opensuse.org/download/package?package=podman&project=home%3Aalvistack
+>
+> #(Alpine) : https://wiki.alpinelinux.org/wiki/Podman
+> apk update --no-cache && apk add docker podman --latest --no-cache --upgrade --no-interactive
+> rc-update add "cgroups" ; rc-service "cgroups" start && sleep 5 ; rc-service "cgroups" status
+>
+> 
 > #(Debian)
 > # https://software.opensuse.org/download/package?package=podman&project=home%3Aalvistack#manualDebian
 > 

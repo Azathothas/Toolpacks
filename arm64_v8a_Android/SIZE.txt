@@ -24,9 +24,9 @@
 6.5M   ├── /tmp/toolpack_arm64_v8a_Android/static-web-server
 5.9M   ├── /tmp/toolpack_arm64_v8a_Android/hxn
 5.7M   ├── /tmp/toolpack_arm64_v8a_Android/bigdl
-5.4M   ├── /tmp/toolpack_arm64_v8a_Android/wget
+5.5M   ├── /tmp/toolpack_arm64_v8a_Android/wget
 5.1M   ├── /tmp/toolpack_arm64_v8a_Android/actionlint
-4.9M   ├── /tmp/toolpack_arm64_v8a_Android/curl
+5.1M   ├── /tmp/toolpack_arm64_v8a_Android/curl
 4.8M   ├── /tmp/toolpack_arm64_v8a_Android/vim
 4.6M   ├── /tmp/toolpack_arm64_v8a_Android/crt
 4.5M   ├── /tmp/toolpack_arm64_v8a_Android/certstream
