@@ -13,8 +13,8 @@
 8.0K   │ └── BUILD_ERROR.log.md
 4.4M   ├─┬ x86_64_Linux
 2.0M   │ ├── BUILD.log.txt
-924K   │ ├── METADATA.json
-624K   │ ├── DETAILED.md
+932K   │ ├── METADATA.json
+628K   │ ├── DETAILED.md
 452K   │ ├── README.md
 144K   │ ├── FILE.txt
  76K   │ ├── SHA256SUM.txt
