@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2513
+- **Stars:** 2515
 - **Version:** v1.7.1
 - **Updated:** 2024-06-11T15:56:34Z
 - **Size:** 5.42 MB
@@ -37,7 +37,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 15540
+- **Stars:** 15541
 - **Version:** v1.1.1
 - **Updated:** 2024-04-20T23:08:49Z
 - **Size:** 3.88 MB
@@ -56,7 +56,7 @@
 - **Repository:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
 - **Stars:** 2684
 - **Version:** v1.16.0
-- **Updated:** 2024-06-11T21:27:52Z
+- **Updated:** 2024-06-11T22:26:19Z
 - **Size:** 26.77 MB
 - **SHA256SUM:** 4c76e51ac442124caf3a3ab4c41551115727f653d5204abc06fa78424a59f1a3
 - **B3SUM:** c73c40bec81e469bc84ef2af14cdce6e8c5e85d5d49d85c91baa7d4b8e744159
@@ -71,7 +71,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 38819
+- **Stars:** 38821
 - **Version:** v3.35.0
 - **Updated:** 2024-06-11T19:37:19Z
 - **Size:** 76.47 MB
@@ -139,7 +139,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47244
+- **Stars:** 47247
 - **Version:** v0.24.0
 - **Updated:** 2024-06-11T04:32:40Z
 - **Size:** 6.32 MB
@@ -156,7 +156,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47244
+- **Stars:** 47247
 - **Version:** v0.24.0
 - **Updated:** 2024-06-11T04:32:40Z
 - **Size:** 6.32 MB
@@ -1771,7 +1771,7 @@
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 5151
+- **Stars:** 5154
 - **Version:** v0.41.0
 - **Updated:** 2024-06-11T03:44:12Z
 - **Size:** 3.63 MB
@@ -1839,7 +1839,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 7388
+- **Stars:** 7393
 - **Version:** 2.15.0
 - **Updated:** 2024-06-11T12:04:31Z
 - **Size:** 1.4 MB
@@ -1856,7 +1856,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 7388
+- **Stars:** 7393
 - **Version:** 2.15.0
 - **Updated:** 2024-06-11T12:04:31Z
 - **Size:** 1.24 MB
@@ -2315,9 +2315,9 @@
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 32927
+- **Stars:** 32930
 - **Version:** 3.2
-- **Updated:** 2024-06-11T14:46:52Z
+- **Updated:** 2024-06-11T23:44:26Z
 - **Size:** 159.3 MB
 - **SHA256SUM:** 02de9246e7e879ab4bf6024f8fba5ced447572a65b4722915438eadc6c9f6758
 - **B3SUM:** acc96f54d56c7c70b8f84ea931dbc3ca32badfbf9f8be4f9116e53db3700716c
@@ -2434,7 +2434,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 45763
+- **Stars:** 45765
 - **Version:** 14.1.0
 - **Updated:** 2024-06-06T16:17:56Z
 - **Size:** 5.33 MB
@@ -2468,7 +2468,7 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 14734
+- **Stars:** 14735
 - **Version:** v1.9.3
 - **Updated:** 2024-06-11T14:53:39Z
 - **Size:** 30.72 MB
@@ -2519,7 +2519,7 @@
 - **Author:** smallstep
 - **WebURL:** [https://github.com/smallstep/cli](https://github.com/smallstep/cli)
 - **Repository:** [https://github.com/smallstep/cli](https://github.com/smallstep/cli)
-- **Stars:** 3535
+- **Stars:** 3536
 - **Version:** v0.26.1
 - **Updated:** 2024-06-11T20:19:33Z
 - **Size:** 37.12 MB
@@ -2621,9 +2621,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 74223
+- **Stars:** 74229
 - **Version:** 2024.05.27
-- **Updated:** 2024-06-11T21:08:55Z
+- **Updated:** 2024-06-11T23:26:52Z
 - **Size:** 173.06 kB
 - **SHA256SUM:** e639cc9c82b9ff623e7d739aac579c1129511af8ba18a75e6c077d312894142a
 - **B3SUM:** 9ae324edbfb299e125f57873df560933c873003d0de4c9480fe74cf0ddfb0217
