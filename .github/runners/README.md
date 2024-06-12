@@ -33,12 +33,13 @@
 > >     script: |
 > >       USER="$(whoami)" && export USER="$USER"
 > >       HOME="$(getent passwd $USER | cut -d: -f6)" && export HOME="$HOME"
+> >       echo -e "[+] User: $USER ($HOME)"
 > >       ##Docker
 > >       #export SYSBOX="NO"
 > >       #DOCKER_CONTAINER_NAME="gh-runner-toolpack-x64-linux" DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-x86_64-ubuntu" DOCKER_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Self-Hosted/run.sh")
 > >       ##DOCKER_CONTAINER_NAME="gh-runner-toolpack-x64-linux" DOCKER_CONTAINER_IMAGE="azathothas/gh-runner-x86_64-ubuntu" DOCKER_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/runners/run.sh")
 > >       ##Podman
-> >       PODMAN_CONTAINER_NAME="gh-runner-toolpack-x64-linux" PODMAN_CONTAINER_IMAGE="docker.io/azathothas/gh-runner-x86_64-ubuntu" PODMAN_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Self-Hosted/run.sh")
+> >       #PODMAN_CONTAINER_NAME="gh-runner-toolpack-x64-linux" PODMAN_CONTAINER_IMAGE="docker.io/azathothas/gh-runner-x86_64-ubuntu" PODMAN_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Self-Hosted/run.sh")
 > >       PODMAN_CONTAINER_NAME="gh-runner-toolpack-x64-linux" PODMAN_CONTAINER_IMAGE="docker.io/azathothas/gh-runner-x86_64-ubuntu" PODMAN_ENV_FILE="$HOME/.config/gh-runner/.env" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/runners/run.sh") 
 > > 
 > > ```
