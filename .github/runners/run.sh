@@ -4,9 +4,9 @@
 
 #------------------------------------------------------------------------------------#
 #Requires passwordless sudo 
-if sudo -n true 2>/dev/null; then
+if sudo -n -l | grep -q NOPASSWD; then
    echo -e "\n[+] Passwordless sudo is Configured"
-   sudo grep -E '^\s*[^#]*\s+ALL\s*=\s*\(\s*ALL\s*\)\s+NOPASSWD:' "/etc/sudoers" 2>/dev/null
+   sudo -n -l 2>/dev/null
 else
    echo -e "\n[-] Passwordless sudo is NOT Configured"
    echo -e "\n[-] READ: https://web.archive.org/web/20230614212916/https://linuxhint.com/setup-sudo-no-password-linux/\n"
