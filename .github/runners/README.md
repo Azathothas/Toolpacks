@@ -137,6 +137,10 @@
 > sudo podman run --rm --privileged --network="bridge" --systemd="always" --tz="UTC" --pull="always" "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest"
 > # --device="/dev/net/tun:rwm"
 > # --cap-add="NET_ADMIN,NET_BIND_SERVICE,NET_RAW,SYS_ADMIN"
+> sudo podman exec --env-file="/path/to/GH_AUTH_ENV" -u "runner" "${POD_ID from sudo podman ps}" "/usr/local/bin/manager.sh"
+> 
+> #For Testing/Debug/Interactive Use
+> sudo podman exec -it -u "runner" "${POD_ID from sudo podman ps}" bash
 > ```
 > ---
 > - [Install Sysbox](https://github.com/nestybox/sysbox)
