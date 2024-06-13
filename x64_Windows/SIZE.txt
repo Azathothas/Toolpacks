@@ -6,8 +6,8 @@
   72M   ├── /tmp/toolpack_x86_64/alist.exe
   54M   ├── /tmp/toolpack_x86_64/miniooni.exe
   54M   ├── /tmp/toolpack_x86_64/miniooni-windows-amd64.exe
-  50M   ├── /tmp/toolpack_x86_64/ooniprobe-windows-amd64.exe
   50M   ├── /tmp/toolpack_x86_64/ooniprobe.exe
+  50M   ├── /tmp/toolpack_x86_64/ooniprobe-windows-amd64.exe
   35M   ├── /tmp/toolpack_x86_64/step.exe
   29M   ├── /tmp/toolpack_x86_64/sing-box.exe
   28M   ├── /tmp/toolpack_x86_64/tusd.exe
