@@ -177,7 +177,6 @@ fi
 remove_runner() {
   generate_token
   echo -e "\n[+] Removing Runners ...\n"
-  "/runner-init/config.sh" remove --unattended --token "${RUNNER_TOKEN}"
   #Remove Offline Runners
   if [ -n "${GITHUB_REPOSITORY}" ]; then
      OFFLINE_RUNNERS="$(curl -qfsSL "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/actions/runners?per_page=100" -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" -H 'Accept: application/vnd.github+json' | jq -r '.runners[] | select(.status == "offline") | .id')" && export OFFLINE_RUNNERS="${OFFLINE_RUNNERS}"
@@ -192,6 +191,8 @@ remove_runner() {
          curl -qfsSL -X 'DELETE' "https://api.github.com/orgs/${GITHUB_OWNER}/actions/runners/${R_ID}" -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" -H 'Accept: application/vnd.github+json'
      done
   fi
+  #Remove Self  
+  "/runner-init/config.sh" remove --unattended --token "${RUNNER_TOKEN}"
   #Cleanup
   unset API_RESPONSE AUTH_URL OFFLINE_RUNNERS_ID REG_URL RUNNERS_ID R_ID RUNNER_ID RUNNER_LABELS RUNNER_TOKEN
 }
