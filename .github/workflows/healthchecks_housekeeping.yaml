@@ -70,6 +70,48 @@ jobs:
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
 
+      - name: Install Golang
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          pushd "$(mktemp -d)" >/dev/null
+          echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+          popd >/dev/null
+        continue-on-error: true
+
+      - name: Install NIX
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          "/nix/nix-installer" uninstall --no-confirm 2>/dev/null
+          curl -qfsSL "https://install.determinate.systems/nix" | bash -s -- install linux --init none --no-confirm
+          source "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
+          sudo chown --recursive "runner" "/nix"
+          echo "root    ALL=(ALL:ALL) ALL" | sudo tee -a "/etc/sudoers"
+          nix --version && nix-channel --list && nix-channel --update
+        continue-on-error: true
+
+      - name: Install Rust
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          bash <(curl -qfsSL "https://sh.rustup.rs") -y
+        continue-on-error: true
+
+      - name: Install Zig
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          sudo rm "/usr/local/zig" -rf 2>/dev/null ; sudo rm "/usr/local/zig" -rf 2>/dev/null
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
+          find . -type f -name '*.tar*' -exec tar -xf {} \;
+          sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" ; popd >/dev/null 2>&1
+        continue-on-error: true
+
       - name: Dos2Unix Everything
         run: |
           #Presets
@@ -110,6 +152,42 @@ jobs:
           find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
           cd "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins"
           find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
+        continue-on-error: true
+
+      - name: Generate GO_TARGETS
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
+          go tool dist list --json | jq -r '["| [GOOS](https://pkg.go.dev/internal/platform) | [GOARCH](https://github.com/golang/go/blob/master/src/go/build/syslist.go) | [CGO_SUPPORT](https://web.archive.org/web/20240614051126/https://medium.com/@pengcheng1222/exploring-cgo-enabled-in-go-23cf5cf2fe88) | [NATIVE](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63) |", "| --- | --- | --- | --- |"] + (map("| \(.GOOS) | \(.GOARCH) | \(.CgoSupported | if . then "✅" else "❌" end) | \(.FirstClass | if . then "✅" else "❌" end) |")) | join("\n")' > "$GITHUB_WORKSPACE/main/Docs/GO_TARGETS.md"
+        continue-on-error: true
+
+      - name: Generate NIX_TARGETS
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
+          nix-instantiate --eval --strict --expr 'let pkgs = import <nixpkgs> {}; pkgsCross = pkgs.pkgsCross; in builtins.attrNames pkgsCross' | tr -d '[]"' | tr ' ' '\n' | sed '/^\s*$/d' | sed 's/^/pkgsCross./' > "$GITHUB_WORKSPACE/main/Docs/NIX_TARGETS.txt"
+        continue-on-error: true
+
+      - name: Generate RUST_TARGETS
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
+          rustup target list > "$GITHUB_WORKSPACE/main/Docs/RUST_TARGETS.txt"
+        continue-on-error: true
+
+      - name: Generate ZIG_TARGETS
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
+          zig targets | jq -r '.libc[]' > "$GITHUB_WORKSPACE/main/Docs/ZIG_TARGETS.txt"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       - name: rClone BackUp Repo-I ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
