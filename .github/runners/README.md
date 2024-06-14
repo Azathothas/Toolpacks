@@ -140,7 +140,14 @@
 > sudo podman exec --env-file="/path/to/GH_AUTH_ENV" -u "runner" "${POD_ID from sudo podman ps}" "/usr/local/bin/manager.sh"
 > 
 > #For Testing/Debug/Interactive Use
-> sudo podman exec -it -u "runner" "${POD_ID from sudo podman ps}" bash
+> sudo podman exec -it -u "runner" "$(sudo podman ps --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest") | .Id')" bash
+>
+> !#PrePacked Build ENV
+> sudo podman run --rm --privileged --network="bridge" --systemd="always" --tz="UTC" --pull="always" "docker.io/azathothas/ubuntu-systemd-base:latest"
+> #Run an Interactive Session
+> sudo podman exec -it -u "runner" "$(sudo podman ps --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/ubuntu-systemd-base:latest") | .Id')" bash
+> #Inside the container
+> source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/$(uname -m)_Linux/env.sh")
 > ```
 > ---
 > - [Install Sysbox](https://github.com/nestybox/sysbox)
