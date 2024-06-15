@@ -118,6 +118,7 @@ pdftops.exe:                 PE32+ executable (console) x86-64 (stripped to exte
 pdftotext.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pgrok.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pgrokd.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
+picocrypt-gui.exe:           PE32+ executable (GUI) x86-64 (stripped to external PDB), for MS Windows
 pingmole.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pingtunnel.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pr.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows

@@ -42,6 +42,7 @@
  8.6M   ├── /tmp/toolpack_x86_64/pingtunnel.exe
  8.6M   ├── /tmp/toolpack_x86_64/smartdns-rs.exe
  8.3M   ├── /tmp/toolpack_x86_64/croc.exe
+ 8.1M   ├── /tmp/toolpack_x86_64/picocrypt-gui.exe
  8.0M   ├── /tmp/toolpack_x86_64/taierspeed-cli.exe
  7.8M   ├── /tmp/toolpack_x86_64/zfind.exe
  7.2M   ├── /tmp/toolpack_x86_64/curl.exe
