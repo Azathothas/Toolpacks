@@ -226,7 +226,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-14T22:34:23",
+    "update_date": "2024-06-15T00:07:41",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"
   },
   {
@@ -278,6 +278,11 @@
     "name": "pgrok.ps1",
     "update_date": "2024-04-05T14:01:37",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/pgrok.ps1"
+  },
+  {
+    "name": "picocrypt.ps1",
+    "update_date": "2024-06-15T07:03:12",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/picocrypt.ps1"
   },
   {
     "name": "pingmole.ps1",
