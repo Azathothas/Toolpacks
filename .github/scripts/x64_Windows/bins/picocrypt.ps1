@@ -28,7 +28,7 @@ if ($env:SKIP_BUILD -eq "NO") {
     #Build GUI
       Push-Location (& $TMPDIRS) ; git clone --quiet --filter "blob:none" "https://github.com/Picocrypt/Picocrypt" ; Set-Location "./Picocrypt/src/" ; (Resolve-Path ".\").Path
       $env:GOOS = "windows" ; $env:GOARCH = "amd64" ; $env:CGO_ENABLED = "1"
-      go build -v -ldflags="-buildid= -s -w -H=windowsgui -extldflags '-static'" -o "./picocrypt-gui.exe" "./Picocrypt.go" ; Copy-Item "./picocrypt-gui.exe" "$env:BINDIR/picocrypt.exe"
+      go build -v -ldflags="-buildid= -s -w -H=windowsgui -extldflags '-static'" -o "./picocrypt-gui.exe" "./Picocrypt.go" ; Copy-Item "./picocrypt-gui.exe" "$env:BINDIR/picocrypt-gui.exe"
       file.exe "./picocrypt-gui.exe" ; (Get-Item -Path "./picocrypt-gui.exe").Length | ForEach-Object { "{0:N2} MB" -f ($_ / 1MB) }
       wldd.exe "./picocrypt-gui.exe" | Sort-Object -Unique
       go clean -cache -fuzzcache -modcache -testcache ; Pop-Location
