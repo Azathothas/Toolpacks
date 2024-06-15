@@ -1,5 +1,5 @@
 ```mathematica
-535M └─┬ /tmp/toolpack_arm64_v8a_Android
+536M └─┬ /tmp/toolpack_arm64_v8a_Android
  81M   ├── /tmp/toolpack_arm64_v8a_Android/rclone
  40M   ├── /tmp/toolpack_arm64_v8a_Android/httpx
  25M   ├── /tmp/toolpack_arm64_v8a_Android/gowitness
@@ -23,8 +23,8 @@
 6.6M   ├── /tmp/toolpack_arm64_v8a_Android/pingmole
 6.5M   ├── /tmp/toolpack_arm64_v8a_Android/eget
 6.5M   ├── /tmp/toolpack_arm64_v8a_Android/static-web-server
+6.4M   ├── /tmp/toolpack_arm64_v8a_Android/bigdl
 5.9M   ├── /tmp/toolpack_arm64_v8a_Android/hxn
-5.7M   ├── /tmp/toolpack_arm64_v8a_Android/bigdl
 5.5M   ├── /tmp/toolpack_arm64_v8a_Android/wget
 5.1M   ├── /tmp/toolpack_arm64_v8a_Android/actionlint
 5.1M   ├── /tmp/toolpack_arm64_v8a_Android/curl
@@ -45,7 +45,7 @@
 1.5M   ├── /tmp/toolpack_arm64_v8a_Android/tmux
 1.4M   ├── /tmp/toolpack_arm64_v8a_Android/anew
 1.3M   ├── /tmp/toolpack_arm64_v8a_Android/miniserve
-912K   ├── /tmp/toolpack_arm64_v8a_Android/anew-rs
+924K   ├── /tmp/toolpack_arm64_v8a_Android/anew-rs
 248K   ├── /tmp/toolpack_arm64_v8a_Android/sudo
 228K   ├── /tmp/toolpack_arm64_v8a_Android/wget_cacert.pem
 228K   ├── /tmp/toolpack_arm64_v8a_Android/curl_cacert.pem
