@@ -3,7 +3,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 380
+- **Stars:** 381
 - **Version:** 24.06
 - **Updated:** 2024-06-08T20:49:19Z
 - **Size:** 1.32 MB
@@ -71,7 +71,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 38937
+- **Stars:** 38940
 - **Version:** v3.35.0
 - **Updated:** 2024-06-15T12:12:27Z
 - **Size:** 76.47 MB
@@ -139,9 +139,9 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47309
+- **Stars:** 47311
 - **Version:** v0.24.0
-- **Updated:** 2024-06-12T13:24:09Z
+- **Updated:** 2024-06-16T00:12:25Z
 - **Size:** 6.32 MB
 - **SHA256SUM:** 8ca5e458e9d8cc59537bf6ab5cc7cfc309e4a85d948d78f9b465883b9db5f480
 - **B3SUM:** a61cc203216903f3b67c52331177ba76fb217323c3f25c4dc6025d038b6e9a7c
@@ -156,9 +156,9 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47309
+- **Stars:** 47311
 - **Version:** v0.24.0
-- **Updated:** 2024-06-12T13:24:09Z
+- **Updated:** 2024-06-16T00:12:25Z
 - **Size:** 6.32 MB
 - **SHA256SUM:** a05f9a2ea87ec9aebdee9259418169de335f6a1a074df246df9397eb40b8a438
 - **B3SUM:** 8088a0f0a1954e402f2449d855d99cd2c6696df9271da006ba94c7c0d2ad254f
@@ -1839,7 +1839,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 7485
+- **Stars:** 7489
 - **Version:** 2.15.0
 - **Updated:** 2024-06-14T10:23:14Z
 - **Size:** 1.4 MB
@@ -1856,7 +1856,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 7485
+- **Stars:** 7489
 - **Version:** 2.15.0
 - **Updated:** 2024-06-14T10:23:14Z
 - **Size:** 1.24 MB
@@ -2026,7 +2026,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8273
+- **Stars:** 8275
 - **Version:** gix-glob-v0.16.3
 - **Updated:** 2024-06-14T12:16:46Z
 - **Size:** 9.17 MB
@@ -2043,7 +2043,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8273
+- **Stars:** 8275
 - **Version:** gix-glob-v0.16.3
 - **Updated:** 2024-06-14T12:16:46Z
 - **Size:** 18.42 MB
@@ -2077,7 +2077,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 20537
+- **Stars:** 20538
 - **Version:** v1.18.0
 - **Updated:** 2024-06-12T13:07:37Z
 - **Size:** 1.33 MB
@@ -2128,7 +2128,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29390
+- **Stars:** 29389
 - **Version:** jq-1.7.1
 - **Updated:** 2024-06-08T14:14:18Z
 - **Size:** 985.09 kB
@@ -2213,9 +2213,9 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24248
+- **Stars:** 24249
 - **Version:** v2.0.13
-- **Updated:** 2024-06-15T12:35:32Z
+- **Updated:** 2024-06-15T23:44:44Z
 - **Size:** 11.88 MB
 - **SHA256SUM:** 58496e4cf45925a27a22f0c2d0fff3f0c5237cb2c9582b78845a419dd6628084
 - **B3SUM:** 058effe2c0ee073da0e4740728862e80308f5e73a8dccb5e3b8b849038637925
@@ -2451,7 +2451,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 45824
+- **Stars:** 45828
 - **Version:** 14.1.0
 - **Updated:** 2024-06-06T16:17:56Z
 - **Size:** 5.33 MB
@@ -2485,7 +2485,7 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 14837
+- **Stars:** 14841
 - **Version:** v1.9.3
 - **Updated:** 2024-06-13T23:48:53Z
 - **Size:** 30.72 MB
@@ -2520,8 +2520,8 @@
 - **WebURL:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
 - **Repository:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
 - **Stars:** 491
-- **Version:** v0.8.4
-- **Updated:** 2024-06-15T11:45:57Z
+- **Version:** v0.8.5
+- **Updated:** 2024-06-15T23:58:24Z
 - **Size:** 8.97 MB
 - **SHA256SUM:** a8e515c6c4b4802771257501f30f3a5433a8a66747d1881ddc94d7cb3422822a
 - **B3SUM:** ae7ea6e5485178de3d2385585472f41d45c33db9a07874922f7c882172979a0e
@@ -2638,9 +2638,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 74497
+- **Stars:** 74503
 - **Version:** 2024.05.27
-- **Updated:** 2024-06-15T19:51:27Z
+- **Updated:** 2024-06-15T23:39:59Z
 - **Size:** 173.06 kB
 - **SHA256SUM:** 8cad5cd6d949da55b9e9e3920f1a3257445a3e51c992aff5c7163c81f2545a55
 - **B3SUM:** 93f7f0ea54763affad9bc1f27a305b15daba48ad56e533c15d18cfad6774f7b7

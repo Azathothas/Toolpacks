@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 51548
+- **Stars:** 51549
 - **Version:** v0.2.63
 - **Updated:** 2024-06-10T02:48:34Z
 - **Size:** 17.42 MB
@@ -141,7 +141,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34635
 - **Version:** curl-8_8_0
-- **Updated:** 2024-06-15T19:17:45Z
+- **Updated:** 2024-06-15T21:53:26Z
 - **Size:** 5.31 MB
 - **SHA256SUM:** 30b17a6eca56dfff6ec2852b1bf31e1e98b1f0179e7470c8cd789741d58759eb
 - **B3SUM:** 1a6cff1e7e04b00ec89ce976146d18461b09348d575a57e67f3fdab72bd35a9e
@@ -158,7 +158,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34635
 - **Version:** curl-8_8_0
-- **Updated:** 2024-06-15T19:17:45Z
+- **Updated:** 2024-06-15T21:53:26Z
 - **Size:** 229.65 kB
 - **SHA256SUM:** 1794c1d4f7055b7d02c2170337b61b48a2ef6c90d77e95444fd2596f4cac609f
 - **B3SUM:** b58055305c0fb5874b11a4e49ba49356674d8ce927aaea6ffa2632d7f4a53653
@@ -260,7 +260,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17237
 - **Version:** v1.68.0
-- **Updated:** 2024-06-15T05:18:40Z
+- **Updated:** 2024-06-15T21:39:05Z
 - **Size:** 11.5 MB
 - **SHA256SUM:** 0f69d7319aef5a2aa66313d42bf46c002f112cb5406ec7fb16a7154671c754a1
 - **B3SUM:** cdad5b8951917918f62c58a03960cad2b34520dac8e3ee3dc2ef37ad50a687b5
@@ -277,7 +277,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17237
 - **Version:** v1.68.0
-- **Updated:** 2024-06-15T05:18:40Z
+- **Updated:** 2024-06-15T21:39:05Z
 - **Size:** 25.73 MB
 - **SHA256SUM:** be181dd703a0fa5c3553de1e57ca5484bd51518b4c8d3feaa246eecda7995809
 - **B3SUM:** 0def5d3aa378a3b381863f5a47cb909aecb5d36494b01a9e8af010d9052e5aa5
@@ -294,7 +294,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17237
 - **Version:** v1.68.0
-- **Updated:** 2024-06-15T05:18:40Z
+- **Updated:** 2024-06-15T21:39:05Z
 - **Size:** 23.63 MB
 - **SHA256SUM:** f65e22c02b5f98fd5da05b5f5a2decd2e3b18ffa606a86a1284fc0de57edd326
 - **B3SUM:** f00938dbe6077ddfebe5eb193a23f95b64c580a22f4eecc8594944339dc8320a
@@ -326,9 +326,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35368
+- **Stars:** 35370
 - **Version:** v9.1.0491
-- **Updated:** 2024-06-15T19:30:16Z
+- **Updated:** 2024-06-15T22:58:22Z
 - **Size:** 5.06 MB
 - **SHA256SUM:** 89ab8e45f8c0e7a75dcb7d16ba0679fbe462719bffc2cdef89c494dfa6f87efc
 - **B3SUM:** 8ed832df6e97df6dd41f7b80020a19c58266e4f8ad584533663ee659e2a9378b
@@ -377,7 +377,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3509
+- **Stars:** 3510
 - **Version:** zsh-5.9
 - **Updated:** 2024-06-13T02:41:37Z
 - **Size:** 1.8 MB
