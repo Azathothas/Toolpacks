@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 51555
+- **Stars:** 51559
 - **Version:** v0.2.63
 - **Updated:** 2024-06-10T02:48:34Z
 - **Size:** 17.42 MB
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 33974
+- **Stars:** 33979
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-16T01:19:59Z
 - **Size:** 9.3 MB
@@ -139,7 +139,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34643
+- **Stars:** 34645
 - **Version:** curl-8_8_0
 - **Updated:** 2024-06-16T09:09:48Z
 - **Size:** 5.31 MB
@@ -156,7 +156,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34643
+- **Stars:** 34645
 - **Version:** curl-8_8_0
 - **Updated:** 2024-06-16T09:09:48Z
 - **Size:** 229.65 kB
@@ -173,7 +173,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4576
+- **Stars:** 4578
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
@@ -224,7 +224,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 44667
+- **Stars:** 44672
 - **Version:** v1.67.0
 - **Updated:** 2024-06-15T16:40:28Z
 - **Size:** 85.32 MB
@@ -260,7 +260,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17243
 - **Version:** v1.68.0
-- **Updated:** 2024-06-16T05:24:30Z
+- **Updated:** 2024-06-16T19:53:33Z
 - **Size:** 11.5 MB
 - **SHA256SUM:** 0f69d7319aef5a2aa66313d42bf46c002f112cb5406ec7fb16a7154671c754a1
 - **B3SUM:** cdad5b8951917918f62c58a03960cad2b34520dac8e3ee3dc2ef37ad50a687b5
@@ -277,7 +277,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17243
 - **Version:** v1.68.0
-- **Updated:** 2024-06-16T05:24:30Z
+- **Updated:** 2024-06-16T19:53:33Z
 - **Size:** 25.73 MB
 - **SHA256SUM:** be181dd703a0fa5c3553de1e57ca5484bd51518b4c8d3feaa246eecda7995809
 - **B3SUM:** 0def5d3aa378a3b381863f5a47cb909aecb5d36494b01a9e8af010d9052e5aa5
@@ -294,7 +294,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17243
 - **Version:** v1.68.0
-- **Updated:** 2024-06-16T05:24:30Z
+- **Updated:** 2024-06-16T19:53:33Z
 - **Size:** 23.63 MB
 - **SHA256SUM:** f65e22c02b5f98fd5da05b5f5a2decd2e3b18ffa606a86a1284fc0de57edd326
 - **B3SUM:** f00938dbe6077ddfebe5eb193a23f95b64c580a22f4eecc8594944339dc8320a
@@ -309,7 +309,7 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33562
+- **Stars:** 33563
 - **Version:** 3.4
 - **Updated:** 2024-06-03T16:01:27Z
 - **Size:** 1.55 MB
@@ -326,9 +326,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35375
-- **Version:** v9.1.0493
-- **Updated:** 2024-06-16T13:50:58Z
+- **Stars:** 35380
+- **Version:** v9.1.0494
+- **Updated:** 2024-06-16T21:00:46Z
 - **Size:** 5.06 MB
 - **SHA256SUM:** 89ab8e45f8c0e7a75dcb7d16ba0679fbe462719bffc2cdef89c494dfa6f87efc
 - **B3SUM:** 8ed832df6e97df6dd41f7b80020a19c58266e4f8ad584533663ee659e2a9378b
