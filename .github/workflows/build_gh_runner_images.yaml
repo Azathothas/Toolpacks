@@ -57,7 +57,7 @@ jobs:
 
     #https://hub.docker.com/r/azathothas/alpine-builder
       - name: Docker Build and Push (alpine-builder)
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/alpine-builder.dockerfile"
@@ -110,7 +110,7 @@ jobs:
 
     #https://hub.docker.com/r/azathothas/alpine-builder-ndk
       - name: Docker Build and Push (alpine-builder)
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/alpine-builder-ndk.dockerfile"
@@ -163,7 +163,7 @@ jobs:
 
     #https://hub.docker.com/r/azathothas/ubuntu-systemd-base
       - name: Docker Build and Push (Ubuntu-Systemd-Base)
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/ubuntu-systemd-base.dockerfile"
@@ -216,7 +216,7 @@ jobs:
 
     #https://hub.docker.com/r/azathothas/gh-runner-aarch64-ubuntu
       - name: Docker Build and Push (gh-runner-aarch64-ubuntu)
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/aarch64-ubuntu.dockerfile"
@@ -270,7 +270,7 @@ jobs:
 
     #https://hub.docker.com/r/azathothas/gh-runner-x86_64-ubuntu
       - name: Docker Build and Push (gh-runner-x86_64-ubuntu)
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: /tmp/DOCKERFILES/
           file: "/tmp/DOCKERFILES/x86_64-ubuntu.dockerfile"
