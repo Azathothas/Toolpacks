@@ -24,15 +24,15 @@
  32K   │ └── BUILD_ERROR.log.md
 1.2M   ├── metadata.json
 996K   ├── metadata.toml
-436K   ├─┬ x64_Windows
+440K   ├─┬ x64_Windows
 196K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  64K   │ ├── README.md
- 24K   │ ├── FILE.txt
+ 20K   │ ├── FILE.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
-8.0K   │ ├── SIZE.txt
-8.0K   │ └── SIZE.md
+ 12K   │ ├── SIZE.txt
+ 12K   │ └── SIZE.md
  80K   ├─┬ arm64_v8a_Android
  24K   │ ├── METADATA.json
  16K   │ ├── DETAILED.md
