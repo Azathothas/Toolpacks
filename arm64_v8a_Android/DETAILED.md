@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 51695
+- **Stars:** 51699
 - **Version:** v0.2.63
 - **Updated:** 2024-06-21T21:16:32Z
 - **Size:** 17.42 MB
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34039
+- **Stars:** 34044
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-16T01:19:59Z
 - **Size:** 9.3 MB
@@ -139,7 +139,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34691
+- **Stars:** 34693
 - **Version:** curl-8_8_0
 - **Updated:** 2024-06-21T20:45:36Z
 - **Size:** 5.31 MB
@@ -156,7 +156,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34691
+- **Stars:** 34693
 - **Version:** curl-8_8_0
 - **Updated:** 2024-06-21T20:45:36Z
 - **Size:** 229.65 kB
@@ -207,7 +207,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4701
+- **Stars:** 4700
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 3.76 MB
@@ -224,7 +224,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 44759
+- **Stars:** 44760
 - **Version:** v1.67.0
 - **Updated:** 2024-06-21T15:15:36Z
 - **Size:** 85.32 MB
@@ -258,7 +258,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17330
+- **Stars:** 17332
 - **Version:** v1.68.0
 - **Updated:** 2024-06-21T22:29:38Z
 - **Size:** 11.5 MB
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17330
+- **Stars:** 17332
 - **Version:** v1.68.0
 - **Updated:** 2024-06-21T22:29:38Z
 - **Size:** 25.8 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17330
+- **Stars:** 17332
 - **Version:** v1.68.0
 - **Updated:** 2024-06-21T22:29:38Z
 - **Size:** 23.7 MB
@@ -309,7 +309,7 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33631
+- **Stars:** 33636
 - **Version:** 3.4
 - **Updated:** 2024-06-03T16:01:27Z
 - **Size:** 1.55 MB
@@ -326,7 +326,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35420
+- **Stars:** 35421
 - **Version:** v9.1.0512
 - **Updated:** 2024-06-21T19:14:46Z
 - **Size:** 5.06 MB
