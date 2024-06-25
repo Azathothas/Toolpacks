@@ -61,8 +61,6 @@ jobs:
           sudo apt install dos2unix -y
           pip install ansi2txt --upgrade
           ##Get Latest Data (Hysp)
-          curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.json" -o "$GITHUB_WORKSPACE/main/metadata.json"
-          curl -qfsSL "https://raw.githubusercontent.com/metis-os/hysp-pkgs/main/data/metadata.toml" -o "$GITHUB_WORKSPACE/main/metadata.toml"
           ##Setup rClone
           mkdir -p "$HOME/.config/rclone"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
