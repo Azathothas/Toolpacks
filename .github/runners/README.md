@@ -142,12 +142,15 @@
 > #For Testing/Debug/Interactive Use
 > sudo podman exec -it -u "runner" "$(sudo podman ps --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest") | .Id')" bash
 >
-> !#PrePacked Build ENV
-> sudo podman run --rm --privileged --network="bridge" --systemd="always" --tz="UTC" --pull="always" "docker.io/azathothas/ubuntu-systemd-base:latest"
+> !#PrePacked Build ENV (remove --rm to Preserve Container)
+> sudo podman run --detach --rm --privileged --network="bridge" --systemd="always" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
 > #Run an Interactive Session
-> sudo podman exec -it -u "runner" "$(sudo podman ps --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/ubuntu-systemd-base:latest") | .Id')" bash
+> sudo podman exec -it -u "runner" "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/ubuntu-systemd-base:latest") | .Id')" bash
 > #Inside the container
 > source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/$(uname -m)_Linux/env.sh")
+> #Stop & Delete Container
+> sudo podman stop "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')"
+> sudo podman rm "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')" --force
 > ```
 > ---
 > - [Install Sysbox](https://github.com/nestybox/sysbox)
