@@ -45,6 +45,10 @@ export TOOLPACKS_ANDROID_ABI="arm64-v8a"
 export TOOLPACKS_ANDROID_BUILD_DYNAMIC="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC}-${TOOLPACKS_ANDROID_ABI}"
 export TOOLPACKS_ANDROID_BUILD_STATIC="${TOOLPACKS_ANDROID_APILEVEL_STATIC}-${TOOLPACKS_ANDROID_ABI}"
 BUILD="YES" && export BUILD="$BUILD"
+sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
+sudo service docker restart 2>/dev/null && sleep 10
+sudo service docker status 2>/dev/null
+newgrp docker 2>/dev/null
 clear
 ##Sanity Checks
 if [[ ! -n "$GITHUB_TOKEN" ]]; then

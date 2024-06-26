@@ -19,7 +19,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+export SKIP_BUILD="YES" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
      #binfetch : neofetch for binaries
      export BIN="binfetch" #Name of final binary/pkg/cli, sometimes differs from $REPO

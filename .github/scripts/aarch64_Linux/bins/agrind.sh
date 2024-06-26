@@ -25,12 +25,34 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="agrind" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/rcoh/angle-grinder" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build 
-       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/rcoh/angle-grinder" && cd "./angle-grinder"
-       export RUST_TARGET="aarch64-unknown-linux-musl" && rustup target add "$RUST_TARGET"
-       export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
-       sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
-       cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/agrind" "$BINDIR/agrind" ; popd >/dev/null 2>&1
+      #Build
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+         source "$HOME/.cargo/env"
+         export RUST_TARGET="aarch64-unknown-linux-musl"
+         rustup target add "$RUST_TARGET"
+         export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+        #Build
+         git clone --filter "blob:none" --quiet "https://github.com/rcoh/angle-grinder" && cd "./angle-grinder"
+         echo -e "\n[+] Target: $RUST_TARGET\n"
+         echo -e "\n[+] Flags: $RUSTFLAGS\n"
+         sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
+         rm rust-toolchain* 2>/dev/null
+         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+         cp "./target/$RUST_TARGET/release/agrind" "/build-bins/agrind"
+        '
+      #Copy 
+       docker cp "alpine-builder:/build-bins/." "./"
+       #Meta 
+       file "./agrind" && du -sh "./agrind" ; cp "./agrind" "$BINDIR/agrind"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

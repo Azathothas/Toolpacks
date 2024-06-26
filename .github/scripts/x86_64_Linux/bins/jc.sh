@@ -25,9 +25,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="jc" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/kellyjonbrazil/jc" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch  
-       eval "$EGET_TIMEOUT" eget "kellyjonbrazil/jc" --asset "linux" --asset "x86" --asset "64" --asset "tar.gz" --to "$BINDIR/jc"
-       staticx --loglevel DEBUG "$BINDIR/jc" --strip "$BINDIR/jc_staticx"
+      #Fetch
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       eval "$EGET_TIMEOUT" eget "kellyjonbrazil/jc" --asset "linux" --asset "x86" --asset "64" --asset "tar.gz" --to "./jc"
+       staticx --loglevel DEBUG "./jc" --strip "$BINDIR/jc" ; file "$BINDIR/jc" && du -sh "$BINDIR/jc"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

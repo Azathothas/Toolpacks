@@ -13,6 +13,10 @@ EGET_TIMEOUT="timeout -k 1m 2m" && export EGET_TIMEOUT="$EGET_TIMEOUT"
 EGET_EXCLUDE="--asset \"^386\" --asset \"^aarch64\" --asset \"^apple\" --asset \"^arm\" --asset \"^AppImage\" --asset \"^asc\" --asset \"^crt\" --asset \"^darwin\" --asset \"^deb\" --asset \"^exe\" --asset \"^freebsd\" --asset \"^i686\" --asset \"^mac\" --asset \"^mips\" --asset \"^rpm\" --asset \"^pem\" --asset \"^sbom\" --asset \"^sha\" --asset \"^solaris\" --asset \"^sig\" --asset \"^symbol\" --asset \"^windows\"" && export EGET_EXCLUDE="$EGET_EXCLUDE"
 USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
 BUILD="YES" && export BUILD="$BUILD"
+sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
+sudo service docker restart 2>/dev/null && sleep 10
+sudo service docker status 2>/dev/null
+newgrp docker 2>/dev/null
 clear
 ##Sanity Checks
 if [[ ! -n "$GITHUB_TOKEN" ]]; then

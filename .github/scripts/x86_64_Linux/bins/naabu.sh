@@ -24,10 +24,27 @@ if [ "$SKIP_BUILD" == "NO" ]; then
     #naabu : A fast port scanner written in go with a focus on reliability and simplicity
      export BIN="naabu" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/projectdiscovery/naabu" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "projectdiscovery/naabu" --asset "amd64" --asset "linux" --to "$BINDIR/naabu"
-       staticx --loglevel DEBUG "$BINDIR/naabu" --strip "$BINDIR/naabu_staticx"
+      #Build (alpine-musl)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/naabu" && cd "./naabu/v2"
+         GOOS="linux" GOARCH="amd64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''" -o "./naabu-bin" "./cmd/naabu"
+        #strip & info
+         strip "./naabu-bin" ; cp "./naabu-bin" "/build-bins/naabu"
+        '
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "./"
+       #Meta 
+       file "./naabu" && du -sh "./naabu" ; cp "./naabu" "$BINDIR/naabu"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

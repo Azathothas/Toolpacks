@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/extrawurst/gitui" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "gitui-linux-musl.tar.gz" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "x86_64" --asset "tar.gz" "$EGET_EXCLUDE" --to "$BINDIR/gitui"
 fi
 #-------------------------------------------------------#
 

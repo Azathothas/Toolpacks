@@ -21,12 +21,31 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-     #eget : Easily install prebuilt binaries from GitHub.
-     export BIN="eget" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/zyedidia/eget" #github/gitlab/homepage/etc for $BIN
+    #eget : Easily install prebuilt binaries from GitHub.
+     export BIN="eget"
+     export SOURCE_URL="https://github.com/zyedidia/eget"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "amd" --asset "64" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+      #Build (alpine-musl)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/zyedidia/eget" && cd "./eget"
+         GOOS="linux" GOARCH="amd64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''"
+        #strip & info
+         strip "./eget" ; cp "./eget" "/build-bins/eget"
+        '
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "./"
+       #Meta 
+       file "./eget" && du -sh "./eget" ; cp "./eget" "$BINDIR/eget"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

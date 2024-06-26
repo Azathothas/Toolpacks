@@ -25,11 +25,27 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="ksubdomain" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/boy-hack/ksubdomain" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build
-       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/boy-hack/ksubdomain" && cd "./ksubdomain"
-       GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" go build -v -ldflags="-buildid= -s -w" "./cmd/ksubdomain"
-       go clean -cache -fuzzcache -modcache -testcache
-       staticx --loglevel DEBUG "./ksubdomain" --strip "$BINDIR/ksubdomain_staticx" ; popd >/dev/null 2>&1
+      #Build (alpine-musl)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/boy-hack/ksubdomain" && cd "./ksubdomain"
+         GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''" -o "./ksubdomain" "./cmd/ksubdomain"
+        #strip & info
+         strip "./ksubdomain" ; cp "./ksubdomain" "/build-bins/ksubdomain"
+        '
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "./"
+       #Meta 
+       file "./ksubdomain" && du -sh "./ksubdomain" ; cp "./ksubdomain" "$BINDIR/ksubdomain"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

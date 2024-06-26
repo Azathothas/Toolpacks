@@ -25,11 +25,27 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="katana" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/projectdiscovery/katana" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch  
-       eval "$EGET_TIMEOUT" eget "projectdiscovery/katana" --asset "arm64" --asset "linux" --to "$BINDIR/katana"
-       staticx --loglevel DEBUG "$BINDIR/katana" --strip "$BINDIR/katana_staticx"
-       #pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/katana" && cd katana
-       #GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./katana" "./cmd/katana" ; cp "./katana" "$BINDIR/katana" ; popd >/dev/null 2>&1
+      #Build (alpine-musl)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        sh -c '
+        #Setup ENV
+         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
+         mkdir -p "/build-bins"
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/projectdiscovery/katana" && cd "./katana"
+         GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''" -o "./katana" "./cmd/katana"
+        #strip & info
+         strip "./katana" ; cp "./katana" "/build-bins/katana"
+        '
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "./"
+       #Meta 
+       file "./katana" && du -sh "./katana" ; cp "./katana" "$BINDIR/katana"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
