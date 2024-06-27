@@ -770,6 +770,7 @@
 2.0M   ├── /tmp/toolpack_x86_64/ffufPostprocessing
 2.0M   ├── /tmp/toolpack_x86_64/miniserve
 2.0M   ├── /tmp/toolpack_x86_64/shortutil
+2.0M   ├── /tmp/toolpack_x86_64/pelfd
 2.0M   ├── /tmp/toolpack_x86_64/gronx-tasker
 2.0M   ├── /tmp/toolpack_x86_64/zenith
 2.0M   ├── /tmp/toolpack_x86_64/pencode
@@ -1002,6 +1003,7 @@
  16K   ├── /tmp/toolpack_x86_64/tldr
  16K   ├── /tmp/toolpack_x86_64/dockerd-rootless-setuptool.sh
  16K   ├── /tmp/toolpack_x86_64/bench.sh
+ 12K   ├── /tmp/toolpack_x86_64/pelf
 8.0K   ├── /tmp/toolpack_x86_64/sk-tmux
 8.0K   ├── /tmp/toolpack_x86_64/rsync-ssl
 8.0K   ├── /tmp/toolpack_x86_64/gsocket
@@ -1015,6 +1017,8 @@
 4.0K   ├── /tmp/toolpack_x86_64/scopeview
 4.0K   ├── /tmp/toolpack_x86_64/sa2
 4.0K   ├── /tmp/toolpack_x86_64/sa1
+4.0K   ├── /tmp/toolpack_x86_64/pelf_linker
+4.0K   ├── /tmp/toolpack_x86_64/pelf_extract
 4.0K   ├── /tmp/toolpack_x86_64/nezha-dashboard.service
 4.0K   ├── /tmp/toolpack_x86_64/nezha-dashboard.openrc
 4.0K   └── /tmp/toolpack_x86_64/binfetch.cfg
