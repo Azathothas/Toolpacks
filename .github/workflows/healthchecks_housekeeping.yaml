@@ -782,9 +782,9 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Run
-          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
-          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
-          bash "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
+          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
+          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
