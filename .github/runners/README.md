@@ -134,7 +134,8 @@
 > podman --version
 > 
 > ##Running :: https://docs.podman.io/en/latest/markdown/podman-run.1.html
-> sudo podman run --rm --privileged --network="bridge" --systemd="always" --tmpfs "/tmp:size=100G" --tz="UTC" --pull="always" "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest"
+> sudo mkdir -p "/var/lib/containers/tmp"
+> sudo podman run --rm --privileged --network="bridge" --systemd="always" --volume="/var/lib/containers/tmp:/tmp" --tz="UTC" --pull="always" "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest"
 > # --device="/dev/net/tun:rwm"
 > # --cap-add="NET_ADMIN,NET_BIND_SERVICE,NET_RAW,SYS_ADMIN"
 > sudo podman exec --env-file="/path/to/GH_AUTH_ENV" -u "runner" "${POD_ID from sudo podman ps}" "/usr/local/bin/manager.sh"
@@ -143,7 +144,8 @@
 > sudo podman exec -it -u "runner" "$(sudo podman ps --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/gh-runner-x86_64-ubuntu:latest") | .Id')" bash
 >
 > !#PrePacked Build ENV (remove --rm to Preserve Container)
-> sudo podman run --detach --rm --privileged --network="bridge" --systemd="always" --tmpfs "/tmp:size=100G" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
+> sudo mkdir -p "/var/lib/containers/tmp"
+> sudo podman run --detach --rm --privileged --network="bridge" --systemd="always" --volume="/var/lib/containers/tmp:/tmp" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
 > #Run an Interactive Session
 > sudo podman exec -it -u "runner" "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/ubuntu-systemd-base:latest") | .Id')" bash
 > #Inside the container

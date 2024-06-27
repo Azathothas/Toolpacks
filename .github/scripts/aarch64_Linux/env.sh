@@ -16,9 +16,9 @@ BUILD="YES" && export BUILD="$BUILD"
 sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
 if ! sudo systemctl is-active --quiet docker; then
    sudo service docker restart >/dev/null 2>&1 ; sleep 10
-fi   
+fi
 sudo systemctl status "docker.service" --no-pager
-exec sg docker newgrp "$(id -gn)"
+#sg docker newgrp "$(id -gn)"
 cd "$HOME" ; clear
 ##Sanity Checks
 if [[ ! -n "$GITHUB_TOKEN" ]]; then
