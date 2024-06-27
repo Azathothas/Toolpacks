@@ -14,9 +14,11 @@ EGET_EXCLUDE="--asset \"^386\" --asset \"^amd\" --asset \"^apple\" --asset \"^Ap
 USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT" 
 BUILD="YES" && export BUILD="$BUILD"
 sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "$USER" 2>/dev/null
-sudo service docker restart 2>/dev/null && sleep 10
-sudo service docker status 2>/dev/null
-newgrp docker 2>/dev/null
+if ! sudo systemctl is-active --quiet docker; then
+   sudo service docker restart >/dev/null 2>&1 ; sleep 10
+fi   
+sudo systemctl status "docker.service" --no-pager
+exec sg docker newgrp "$(id -gn)"
 clear
 ##Sanity Checks
 if [[ ! -n "$GITHUB_TOKEN" ]]; then
