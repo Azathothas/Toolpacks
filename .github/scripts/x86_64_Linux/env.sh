@@ -19,7 +19,7 @@ if ! sudo systemctl is-active --quiet docker; then
 fi
 sudo systemctl status "docker.service" --no-pager
 exec sg docker newgrp "$(id -gn)"
-clear
+cd "$HOME" ; clear
 ##Sanity Checks
 if [[ ! -n "$GITHUB_TOKEN" ]]; then
    echo -e "\n[-] GITHUB_TOKEN is NOT Exported"
