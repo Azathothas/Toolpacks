@@ -604,6 +604,7 @@
  2.1M   ├── /tmp/toolpack_aarch64/curlie
  2.0M   ├── /tmp/toolpack_aarch64/shortutil
  2.0M   ├── /tmp/toolpack_aarch64/ffufPostprocessing
+ 2.0M   ├── /tmp/toolpack_aarch64/pelfd-bin
  2.0M   ├── /tmp/toolpack_aarch64/gf
  2.0M   ├── /tmp/toolpack_aarch64/sd
  2.0M   ├── /tmp/toolpack_aarch64/cexec
@@ -786,6 +787,7 @@
   16K   ├── /tmp/toolpack_aarch64/tldr
   16K   ├── /tmp/toolpack_aarch64/dockerd-rootless-setuptool.sh
   16K   ├── /tmp/toolpack_aarch64/bdl.sh
+  12K   ├── /tmp/toolpack_aarch64/pelf
   12K   ├── /tmp/toolpack_aarch64/fastfetch
  8.0K   ├── /tmp/toolpack_aarch64/sk-tmux
  8.0K   ├── /tmp/toolpack_aarch64/rsync-ssl
@@ -798,6 +800,8 @@
  4.0K   ├── /tmp/toolpack_aarch64/scopeview
  4.0K   ├── /tmp/toolpack_aarch64/sa2
  4.0K   ├── /tmp/toolpack_aarch64/sa1
+ 4.0K   ├── /tmp/toolpack_aarch64/pelf_linker
+ 4.0K   ├── /tmp/toolpack_aarch64/pelf_extract
  4.0K   ├── /tmp/toolpack_aarch64/binfetch.cfg
  4.0K   └── /tmp/toolpack_aarch64/TEST
 ```

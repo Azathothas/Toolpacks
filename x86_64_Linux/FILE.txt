@@ -586,6 +586,10 @@ p9cpud:                          ELF 64-bit LSB pie executable, x86-64, version 
 passdetective:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pathbuster:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=d19278069f3c32a7b05819e3c64a1ffc30ad2336, for GNU/Linux 3.2.0, stripped
 pdfcpu:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=OdTRgmy6sa1Iszm4zuTW/U1_kL1o_IBjAavdgo8NR/7B89g3hD8EWtgaZ43QIP/JfIhWG-3-BaZe3_B-K36, stripped
+pelf:                            POSIX shell script, Unicode text, UTF-8 text executable, with very long lines (757)
+pelf_extract:                    POSIX shell script, ASCII text executable
+pelf_linker:                     POSIX shell script, ASCII text executable
+pelfd:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pencode:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=RVELkMrki-JchmWvHI73/8OvW6yQ8ZNsd_nwEFnAw/dJfTJGKuQ0hUvxiW7IjU/C_ZCce1O2nipe9XcJTlp, stripped
 pfetch-rs:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 pgrok:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=w1klbrDBnx8wH-yxAy_S/pvSnN0Msue3WTv2aoK8E/qYQEBZMhYWuUwkO4fOtR/rX9P__QA29-91FCZ3-BN, stripped

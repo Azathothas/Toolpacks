@@ -483,6 +483,10 @@ p9cpu:                           ELF 64-bit LSB executable, ARM aarch64, version
 p9cpud:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 passdetective:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pdfcpu:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=E14quqOxNL11v4vUfVgf/ixhVrFg9vLGgXdiXi3kM/xMEqMQ56Bz0HyQuMw1_S/42ILduJzrOWKM92QHmpo, stripped
+pelf:                            POSIX shell script, Unicode text, UTF-8 text executable, with very long lines (757)
+pelf_extract:                    POSIX shell script, ASCII text executable
+pelf_linker:                     POSIX shell script, ASCII text executable
+pelfd-bin:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pencode:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Gbtfw_W7TT2gQr1b67Nq/sjc2PAeSKbuLoxy6ipvV/sPhpiWYsuY0Ad4wRKp7m/gPJV0Zc2zrNSzPrbx3-h, stripped
 pfetch-rs:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pgweb:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=eRws24g88QoW94DeP2U_/JGcVo6j_dgmc9gJXylT9/87Bj3aXanBX9VuQMC48k/tpB_k0IUbaVJ9IoGjBRs, stripped
