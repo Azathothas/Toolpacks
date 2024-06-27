@@ -15,9 +15,9 @@
 952K   │ ├── METADATA.json
 644K   │ ├── DETAILED.md
 464K   │ ├── README.md
-144K   │ ├── FILE.txt
- 76K   │ ├── SHA256SUM.txt
- 76K   │ ├── BLAKE3SUM.txt
+148K   │ ├── FILE.txt
+ 80K   │ ├── SHA256SUM.txt
+ 80K   │ ├── BLAKE3SUM.txt
  48K   │ ├── SIZE.txt
  48K   │ ├── SIZE.md
  32K   │ └── BUILD_ERROR.log.md

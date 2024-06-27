@@ -1986,7 +1986,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-26T21:06:08",
+    "update_date": "2024-06-27T00:07:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2298,6 +2298,11 @@
     "name": "pdfcpu.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pdfcpu.sh"
+  },
+  {
+    "name": "pelf.sh",
+    "update_date": "2024-06-27T07:03:04",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pelf.sh"
   },
   {
     "name": "pencode.sh",
