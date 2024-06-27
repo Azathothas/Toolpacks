@@ -31,7 +31,7 @@
   },
   {
     "name": "agrind.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/agrind.sh"
   },
   {
@@ -251,7 +251,7 @@
   },
   {
     "name": "binfetch.sh",
-    "update_date": "2024-06-21T02:34:01",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/binfetch.sh"
   },
   {
@@ -871,7 +871,7 @@
   },
   {
     "name": "eget.sh",
-    "update_date": "2024-06-21T02:34:01",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/eget.sh"
   },
   {
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "gitui.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitui.sh"
   },
   {
@@ -1661,7 +1661,7 @@
   },
   {
     "name": "jc.sh",
-    "update_date": "2024-06-21T02:34:01",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/jc.sh"
   },
   {
@@ -1771,7 +1771,7 @@
   },
   {
     "name": "katana.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/katana.sh"
   },
   {
@@ -1801,7 +1801,7 @@
   },
   {
     "name": "ksubdomain.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ksubdomain.sh"
   },
   {
@@ -2006,7 +2006,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-26T00:04:25",
+    "update_date": "2024-06-26T21:06:08",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2096,7 +2096,7 @@
   },
   {
     "name": "naabu.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/naabu.sh"
   },
   {
@@ -3246,7 +3246,7 @@
   },
   {
     "name": "tokei.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-26T07:04:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tokei.sh"
   },
   {
