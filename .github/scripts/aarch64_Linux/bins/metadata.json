@@ -196,7 +196,7 @@
   },
   {
     "name": "bash.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bash.sh"
   },
   {
@@ -341,7 +341,7 @@
   },
   {
     "name": "busybox.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/busybox.sh"
   },
   {
@@ -531,7 +531,7 @@
   },
   {
     "name": "coreutils.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/coreutils.sh"
   },
   {
@@ -1011,7 +1011,7 @@
   },
   {
     "name": "findutils.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/findutils.sh"
   },
   {
@@ -1096,7 +1096,7 @@
   },
   {
     "name": "gawk.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gawk.sh"
   },
   {
@@ -1421,7 +1421,7 @@
   },
   {
     "name": "gzip.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gzip.sh"
   },
   {
@@ -1761,7 +1761,7 @@
   },
   {
     "name": "kmod.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kmod.sh"
   },
   {
@@ -1986,7 +1986,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-06-27T21:06:04",
+    "update_date": "2024-06-28T00:09:48",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2246,7 +2246,7 @@
   },
   {
     "name": "openssh.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/openssh.sh"
   },
   {
@@ -2256,7 +2256,7 @@
   },
   {
     "name": "openssl.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/openssl.sh"
   },
   {
@@ -2411,7 +2411,7 @@
   },
   {
     "name": "procps.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/procps.sh"
   },
   {
@@ -3031,7 +3031,7 @@
   },
   {
     "name": "sudo.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sudo.sh"
   },
   {
@@ -3116,7 +3116,7 @@
   },
   {
     "name": "tar.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tar.sh"
   },
   {
@@ -3331,7 +3331,7 @@
   },
   {
     "name": "util-linux.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/util-linux.sh"
   },
   {
@@ -3571,7 +3571,7 @@
   },
   {
     "name": "xz.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-06-28T06:47:16",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/xz.sh"
   },
   {
