@@ -1,5 +1,5 @@
 name: "openssh"
-description: ""
+description: "A Portable Implementation of the SSH protocol"
 web_url: "https://github.com/openssh/openssh-portable"
 repo_url: "https://github.com/openssh/openssh-portable"
 bins:

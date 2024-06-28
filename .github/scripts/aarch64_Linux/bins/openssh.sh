@@ -21,38 +21,73 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #openssh
-     export BIN="ssh" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/openssh/openssh-portable" #github/gitlab/homepage/etc for $BIN
+    #openssh: An implementation of the SSH protocol
+     #ssh-add : adds RSA or DSA identities to the authentication agent ssh-agent
+     #ssh-agent : OpenSSH authentication agent
+     export BIN="ssh"
+     export SOURCE_URL="https://github.com/openssh/openssh-portable"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build 
+     #-------------------------------------------------------#    
+      ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/binary-manu/static-cross-openssh" && cd "./static-cross-openssh"
        #make
        make --jobs="$(($(nproc)+1))" --keep-going ARCH="aarch64" __all__/VERSION="latest" PREFIX="/usr" all
        #Extract
        find "./bin" -type f -name '*.tgz' -exec sh -c 'mkdir -p "${1%.tgz}" && tar -xzf "$1" -C "${1%.tgz}" --strip-components=1' sh {} \;
        rm -rf "./bin/"*.tgz && find "./bin" -empty -delete
-       #Meta
+       #strip
        cd "$(find "./bin" -maxdepth 1 -type d -name '*openssh*')"
-       #ssh-add : adds RSA or DSA identities to the authentication agent ssh-agent
-       strip "./bin/ssh-add" ; file "./bin/ssh-add" && du -sh "./bin/ssh-add" && cp "./bin/ssh-add" "$BINDIR/ssh-add"
-       #ssh-agent : OpenSSH authentication agent
-       strip "./bin/ssh-agent" ; file "./bin/ssh-agent" && du -sh "./bin/ssh-agent" && cp "./bin/ssh-agent" "$BINDIR/ssh-agent"
-       #ssh-keygen : OpenSSH authentication key utility
-       strip "./bin/ssh-keygen" ; file "./bin/ssh-keygen" && du -sh "./bin/ssh-keygen" && cp "./bin/ssh-keygen" "$BINDIR/ssh-keygen"
-       #ssh-keyscan : gather SSH public keys from servers
-       strip "./bin/ssh-keyscan" ; file "./bin/ssh-keyscan" && du -sh "./bin/ssh-keyscan" && cp "./bin/ssh-keyscan" "$BINDIR/ssh-keyscan"
-       #ssh-keysign : OpenSSH helper for host-based authentication
-       strip "./libexec/ssh-keysign" ; file "./libexec/ssh-keysign" && du -sh "./libexec/ssh-keysign" && cp "./libexec/ssh-keysign" "$BINDIR/ssh-keysign"
-       #scp : copies files between hosts on a network using SFTP protocol over ssh
-       strip "./bin/scp" ; file "./bin/scp" && du -sh "./bin/scp" && cp "./bin/scp" "$BINDIR/scp"
-       #sftp : ssh sftp deps
-       strip "./bin/sftp" ; file "./bin/sftp" && du -sh "./bin/sftp" && cp "./bin/sftp" "$BINDIR/sftp"
-       strip "./libexec/sftp-server" ; file "./libexec/sftp-server" && du -sh "./libexec/sftp-server" && cp "./libexec/sftp-server" "$BINDIR/sftp-server"
-       #sshd : Main SSH Server Daemon
-       strip "./sbin/sshd" ; file "./sbin/sshd" && du -sh "./sbin/sshd" && cp "./sbin/sshd" "$BINDIR/sshd"
-       #sshd_config
-       cp "./etc/sshd_config" "$BINDIR/sshd_config"
+       find "." -type f -exec strip {} \; 2>/dev/null
+       #Copy
+       mkdir -p "$BASEUTILSDIR/openssh"
+       rsync -av --copy-links "./bin/." "$BASEUTILSDIR/openssh"
+       rsync -av --copy-links "./etc/." "$BASEUTILSDIR/openssh"
+       rsync -av --copy-links "./libexec/." "$BASEUTILSDIR/openssh"
+       rsync -av --copy-links "./sbin/." "$BASEUTILSDIR/openssh"
+      #-------------------------------------------------------#       
+      ##Meta
+       file "$BASEUTILSDIR/openssh/"*
+       #Archive [$BASEUTILSDIR/openssh]
+       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/openssh/_openssh.7z" "$BASEUTILSDIR/openssh" 2>/dev/null
+       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/openssh/_openssh.tar" "$BASEUTILSDIR/openssh" 2>/dev/null
+       #Generate METADATA
+       cd "$BASEUTILSDIR/openssh" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$BASEUTILSDIR/openssh/FILE.txt"
+       cd "$BASEUTILSDIR/openssh" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$BASEUTILSDIR/openssh/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/openssh" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$BASEUTILSDIR/openssh/SHA256SUM.txt"
+       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.jq$|\.md$|\.rar$|\.tar$|\.tmp$|\.txt$|\.zip$" "$BASEUTILSDIR/openssh" | tee "$BASEUTILSDIR/openssh/SIZE.txt"
+       #rClone
+       TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
+       cd "$BASEUTILSDIR/openssh" && rclone copy "." "r2:/bin/aarch64_arm64_Linux/Baseutils/openssh/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+       curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+       #List
+       curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/openssh.yaml" -o "$TMP_METADIR/temp.yaml"
+       yq -r '.bins[]' "$TMP_METADIR/temp.yaml" | sort -u -o "$TMP_METADIR/BINS.txt"
+       DESCRIPTION="$(yq -r '.description' $TMP_METADIR/temp.yaml)" && export DESCRIPTION="$DESCRIPTION"
+       EXTRA_BINS="$(cat $TMP_METADIR/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"
+       REPO_URL="$(yq -r '.repo_url' $TMP_METADIR/temp.yaml)" && export REPO_URL="$REPO_URL"
+       WEB_URL="$(yq -r '.web_url' $TMP_METADIR/temp.yaml)" && export WEB_URL="$WEB_URL"
+       rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/Baseutils/openssh/"  --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" | \
+       jq --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/openssh/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
+       for BIN in $(cat "$TMP_METADIR/BINS.txt" | sed 's/"//g'); do
+         #Description
+          jq --arg BIN "$BIN" --arg DESCRIPTION "$DESCRIPTION" '.[] |= if .name == $BIN then . + {description: $DESCRIPTION} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #Extras (All Bins)
+          EXTRA_BINS="$(cat $TMP_METADIR/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"  
+          jq --arg BIN "$BIN" --arg EXTRA_BINS "$EXTRA_BINS" '.[] |= if .name == $BIN then . + {extra_bins: $EXTRA_BINS} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #BSUM
+          B3SUM="$(cat "$BASEUTILSDIR/openssh/BLAKE3SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
+          jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .name == $BIN then . + {b3sum: $B3SUM} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #SHA256SUM
+          SHA256="$(cat "$BASEUTILSDIR/openssh/SHA256SUM.txt" | grep -i "\b$BIN\b" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
+          jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .name == $BIN then . + {sha256: $SHA256} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #Web URLs
+          jq --arg BIN "$BIN" --arg WEB_URL "$WEB_URL" '.[] |= if .name == $BIN then . + {web_url: $WEB_URL} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+       done
+       #Upload 
+       if jq --exit-status . "$TMP_METADIR/INFO.json" >/dev/null 2>&1; then
+          rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/openssh/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+       fi  
+       unset TMP_METADIR B3SUM DESCRIPTION EXTRA_BINS REPO_URL SHA256 WEB_URL
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

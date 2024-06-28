@@ -206,7 +206,7 @@ set +x
              du -sh "$BINDIR.7z" && file "$BINDIR.7z"
           ##Fetch&Sync [$BASEUTILSDIR]
              cd "$BASEUTILSDIR"
-             rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "." --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+             rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "." --exclude="*/" --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #Strip || Cleanup
              #Chmod +xwr
              find "$BASEUTILSDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
