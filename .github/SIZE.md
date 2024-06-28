@@ -1,58 +1,58 @@
 ```mathematica
- 40M └─┬ main
- 18M   ├─┬ aarch64_arm64_Linux
- 16M   │ ├── BUILD.log.txt
-740K   │ ├── METADATA.json
-512K   │ ├── DETAILED.md
-372K   │ ├── README.md
-120K   │ ├── FILE.txt
- 60K   │ ├── SHA256SUM.txt
- 60K   │ ├── BLAKE3SUM.txt
- 40K   │ ├── SIZE.txt
- 40K   │ ├── SIZE.md
-8.0K   │ └── BUILD_ERROR.log.md
- 17M   ├─┬ x86_64_Linux
- 14M   │ ├── BUILD.log.txt
-956K   │ ├── METADATA.json
-648K   │ ├── DETAILED.md
-468K   │ ├── README.md
-148K   │ ├── FILE.txt
- 76K   │ ├── SHA256SUM.txt
- 76K   │ ├── BLAKE3SUM.txt
- 48K   │ ├── SIZE.txt
- 48K   │ ├── SIZE.md
- 32K   │ └── BUILD_ERROR.log.md
-2.2M   ├── METADATA.json
-1.9M   ├── METADATA.yaml
-448K   ├─┬ x64_Windows
-196K   │ ├── METADATA.json
-100K   │ ├── DETAILED.md
- 72K   │ ├── README.md
- 20K   │ ├── FILE.txt
- 16K   │ ├── SHA256SUM.txt
- 16K   │ ├── BLAKE3SUM.txt
- 12K   │ ├── SIZE.txt
- 12K   │ └── SIZE.md
- 80K   ├─┬ arm64_v8a_Android
- 24K   │ ├── METADATA.json
- 16K   │ ├── DETAILED.md
- 12K   │ ├── README.md
-8.0K   │ ├── FILE.txt
-4.0K   │ ├── SIZE.txt
-4.0K   │ ├── SIZE.md
-4.0K   │ ├── SHA256SUM.txt
-4.0K   │ └── BLAKE3SUM.txt
- 72K   ├─┬ Docs
- 32K   │ ├── BUILD_NOTES.md
-8.0K   │ ├── README.md
-4.0K   │ ├── ZIG_TARGETS.txt
-4.0K   │ ├── TODO.md
-4.0K   │ ├── RUST_TARGETS.txt
-4.0K   │ ├── NIX_TARGETS.txt
-4.0K   │ ├── METADATA.md
-4.0K   │ ├── GO_TARGETS.md
-4.0K   │ └── DEBUG.md
- 16K   ├── README.md
- 16K   ├── INFO.md
-4.0K   └── LICENSE
+  38M └─┬ main
+  18M   ├─┬ aarch64_arm64_Linux
+  16M   │ ├── BUILD.log.txt
+ 780K   │ ├── METADATA.json
+ 520K   │ ├── DETAILED.md
+ 376K   │ ├── README.md
+ 120K   │ ├── FILE.txt
+  60K   │ ├── SHA256SUM.txt
+  60K   │ ├── BLAKE3SUM.txt
+  40K   │ ├── SIZE.txt
+  40K   │ ├── SIZE.md
+ 8.0K   │ └── BUILD_ERROR.log.md
+  17M   ├─┬ x86_64_Linux
+  14M   │ ├── BUILD.log.txt
+1008K   │ ├── METADATA.json
+ 656K   │ ├── DETAILED.md
+ 472K   │ ├── README.md
+ 148K   │ ├── FILE.txt
+  76K   │ ├── SHA256SUM.txt
+  76K   │ ├── BLAKE3SUM.txt
+  48K   │ ├── SIZE.txt
+  48K   │ ├── SIZE.md
+  32K   │ └── BUILD_ERROR.log.md
+ 1.1M   ├── METADATA.json
+1004K   ├── METADATA.yaml
+ 448K   ├─┬ x64_Windows
+ 196K   │ ├── METADATA.json
+ 100K   │ ├── DETAILED.md
+  72K   │ ├── README.md
+  20K   │ ├── FILE.txt
+  16K   │ ├── SHA256SUM.txt
+  16K   │ ├── BLAKE3SUM.txt
+  12K   │ ├── SIZE.txt
+  12K   │ └── SIZE.md
+  80K   ├─┬ arm64_v8a_Android
+  24K   │ ├── METADATA.json
+  16K   │ ├── DETAILED.md
+  12K   │ ├── README.md
+ 8.0K   │ ├── FILE.txt
+ 4.0K   │ ├── SIZE.txt
+ 4.0K   │ ├── SIZE.md
+ 4.0K   │ ├── SHA256SUM.txt
+ 4.0K   │ └── BLAKE3SUM.txt
+  72K   ├─┬ Docs
+  32K   │ ├── BUILD_NOTES.md
+ 8.0K   │ ├── README.md
+ 4.0K   │ ├── ZIG_TARGETS.txt
+ 4.0K   │ ├── TODO.md
+ 4.0K   │ ├── RUST_TARGETS.txt
+ 4.0K   │ ├── NIX_TARGETS.txt
+ 4.0K   │ ├── METADATA.md
+ 4.0K   │ ├── GO_TARGETS.md
+ 4.0K   │ └── DEBUG.md
+  16K   ├── README.md
+  16K   ├── INFO.md
+ 4.0K   └── LICENSE
 ```
