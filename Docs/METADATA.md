@@ -36,11 +36,11 @@
 > ↣ !# (amd64 | x86_64)
 > # https://bin.ajam.dev/x86_64_Linux/METADATA.json
 > # Append `| jq -r '.[].$PROPERTY'` to filter them
-> curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '[] | select(.host == "x86_64-Linux") | .main'
+> curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .main'
 > 
 > # https://bin.ajam.dev/x86_64_Linux/Baseutils/METADATA.json
 > # Append `| jq -r '.[].$PROPERTY'` to filter them
-> curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '[] | select(.host == "x86_64-Linux") | .baseutils'
+> curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .baseutils'
 > #-----------------------------------------------------------------------------#
 > 
 > #-----------------------------------------------------------------------------#
