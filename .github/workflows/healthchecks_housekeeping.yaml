@@ -555,7 +555,7 @@ jobs:
           #push_options: '--force'
         continue-on-error: true
 #-----------------------------------------------------#
-      - name: rClone Generate Metadata (bin.ajam.dev)
+      - name: rClone Generate Metadata (MAIN)
         run: |
           # Presets
           set +x ; set +e
@@ -566,40 +566,78 @@ jobs:
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
           #--------------------#
           ##arm64_v8a_Android##
-          #Raw Dirty
           rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/arm64_v8a_Android/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_arm64_v8a_Android" &
-          #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/arm64_v8a_Android/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_arm64_v8a_Android" &
           ##aarch64_arm64_Linux##
-          #Raw Dirty
           rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_aarch64_arm64_Linux" &
-          #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/aarch64_arm64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ;.[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
           ##x86_64_Linux##
-          #Raw Dirty
           rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x86_64_Linux" &
-          #Baseutils
-          rclone lsjson --fast-list --recursive "r2:/bin/x86_64_Linux/Baseutils/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)", size: (.Size | tonumber | bytes)}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x86_64_Linux" &
           ##x64_Windows##
-          #Raw Dirty
           rclone lsjson --fast-list "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/x64_Windows/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x64_Windows" &
           ##Clean Pretty Formatted
           wait ; echo
           echo "[" $(cat metadata.json.tmp_arm64_v8a_Android | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_arm64_v8a_Android" &
-          echo "[" $(cat metadata_Baseutils.json.tmp_arm64_v8a_Android | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json_arm64_v8a_Android" &
           echo "[" $(cat metadata.json.tmp_aarch64_arm64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_aarch64_arm64_Linux" &
-          echo "[" $(cat metadata_Baseutils.json.tmp_aarch64_arm64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json_aarch64_arm64_Linux" &
           echo "[" $(cat metadata.json.tmp_x86_64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x86_64_Linux" &
-          echo "[" $(cat metadata_Baseutils.json.tmp_x86_64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata_Baseutils.json_x86_64_Linux" &
           echo "[" $(cat metadata.json.tmp_x64_Windows | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x64_Windows" &
           ##Update Metadata
-          rclone copyto --checksum "./metadata.json_arm64_v8a_Android" "r2:/bin/arm64_v8a_Android/METADATA.json.tmp" &
-          rclone copyto --checksum "./metadata_Baseutils.json_arm64_v8a_Android" "r2:/bin/arm64_v8a_Android/Baseutils/METADATA.json" &
-          rclone copyto --checksum "./metadata.json_aarch64_arm64_Linux" "r2:/bin/aarch64_arm64_Linux/METADATA.json.tmp" &
-          rclone copyto --checksum "./metadata_Baseutils.json_aarch64_arm64_Linux" "r2:/bin/aarch64_arm64_Linux/Baseutils/METADATA.json" &
-          rclone copyto --checksum "./metadata.json_x86_64_Linux" "r2:/bin/x86_64_Linux/METADATA.json.tmp" &
-          rclone copyto --checksum "./metadata_Baseutils.json_x86_64_Linux" "r2:/bin/x86_64_Linux/Baseutils/METADATA.json" &
+          rclone copyto --checksum "./metadata.json_arm64_v8a_Android" "r2:/bin/arm64_v8a_Android/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
+          rclone copyto --checksum "./metadata.json_aarch64_arm64_Linux" "r2:/bin/aarch64_arm64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
+          rclone copyto --checksum "./metadata.json_x86_64_Linux" "r2:/bin/x86_64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
           rclone copyto --checksum "./metadata.json_x64_Windows" "r2:/bin/x64_Windows/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
+          wait ; echo
+        continue-on-error: true          
+
+      - name: rClone Generate Metadata (BASEUTILS)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          #--------------------#
+          ##arm64_v8a_Android##
+          rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "./metadata_Baseutils_arm64_v8a_Android_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
+          ##aarch64_arm64_Linux##
+          rclone copy "r2:/bin/aarch64_arm64_Linux/Baseutils/" "./metadata_Baseutils_aarch64_arm64_Linux_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
+          ##x86_64_Linux##
+          rclone copy "r2:/bin/x86_64_Linux/Baseutils/" "./metadata_Baseutils_x86_64_Linux_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
+          ##x64_Windows##
+          rclone copy "r2:/bin/x64_Windows/Baseutils/" "./metadata_Baseutils_x64_Windows_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
+          ##Merge (INFO)
+          wait ; echo
+          find "./metadata_Baseutils_arm64_v8a_Android_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_arm64_v8a_Android_INFO_ALL.json" &
+          ##aarch64_arm64_Linux##
+          find "./metadata_Baseutils_aarch64_arm64_Linux_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_aarch64_arm64_Linux_INFO_ALL.json" &
+          find "./metadata_Baseutils_x86_64_Linux_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_x86_64_Linux_INFO_ALL.json" &
+          find "./metadata_Baseutils_x64_Windows_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_x64_Windows_INFO_ALL.json" &
+          ##Enrich
+          wait ; echo
+          rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_arm64_v8a_Android" &
+          ##aarch64_arm64_Linux##
+          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
+          ##x86_64_Linux##
+          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x86_64_Linux" &
+          ##x64_Windows##
+          rclone lsjson --fast-list "r2:/bin/x64_Windows/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), b3sum, description, download_url: "https://bin.ajam.dev/x64_Windows/Baseutils/\(.Path)", extra_bins, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x64_Windows" &
+          ##Clean
+          wait ; echo 
+          sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_arm64_v8a_Android" &
+          sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
+          sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_x86_64_Linux" &
+          sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_x64_Windows" &
+          ##Merge (ALL)
+          wait ; echo
+          jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_arm64_v8a_Android" "./metadata_Baseutils_arm64_v8a_Android_INFO_ALL.json" > "./metadata_Baseutils.json_arm64_v8a_Android" &
+          jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" "./metadata_Baseutils_aarch64_arm64_Linux_INFO_ALL.json" > "./metadata_Baseutils.json_aarch64_arm64_Linux" &
+          jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_x86_64_Linux" "./metadata_Baseutils_x86_64_Linux_INFO_ALL.json" > "./metadata_Baseutils.json_x86_64_Linux" &
+          jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_x64_Windows" "./metadata_Baseutils_x64_Windows_INFO_ALL.json" > "./metadata_Baseutils.json_x64_Windows" &
+          ##Update
+          rclone copyto --checksum "./metadata_Baseutils.json_arm64_v8a_Android" "r2:/bin/arm64_v8a_Android/Baseutils/METADATA.json" &
+          rclone copyto --checksum "./metadata_Baseutils.json_aarch64_arm64_Linux" "r2:/bin/aarch64_arm64_Linux/Baseutils/METADATA.json" &
+          rclone copyto --checksum "./metadata_Baseutils.json_x86_64_Linux" "r2:/bin/x86_64_Linux/Baseutils/METADATA.json" &
+          rclone copyto --checksum "./metadata_Baseutils.json_x64_Windows" "r2:/bin/x64_Windows/Baseutils/METADATA.json" &
           wait ; echo
         continue-on-error: true
 #------------------------------------------------------------------------------------#
