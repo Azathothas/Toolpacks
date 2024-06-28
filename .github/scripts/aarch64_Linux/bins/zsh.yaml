@@ -1,6 +1,6 @@
 name: "zsh"
 description: "The Z shell"
 web_url: "https://www.zsh.org/"
-repo_url: ""
+repo_url: "https://github.com/zsh-users/zsh"
 bins:
   - "zsh"
