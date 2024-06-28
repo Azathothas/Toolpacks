@@ -1,6 +1,10 @@
 name: "gawk"
 description: "GNU implementation of the Awk programming language"
 web_url: "https://www.gnu.org/software/gawk/"
-repo_url: ""
+repo_url: "https://git.savannah.gnu.org/cgit/gawk.git"
 bins:
+  - "awk"
   - "gawk"
+  - "gawkbug"
+  - "grcat"
+  - "pwcat"
