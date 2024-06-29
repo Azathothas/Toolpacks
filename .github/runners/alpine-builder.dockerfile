@@ -3,23 +3,6 @@
 #https://hub.docker.com/r/azathothas/alpine-builder
 FROM alpine:edge
 #------------------------------------------------------------------------------------#
-
-- Autoconf   <https://www.gnu.org/software/autoconf/>
-- Automake   <https://www.gnu.org/software/automake/>
-- Bison      <https://www.gnu.org/software/bison/>
-- Git        <https://git-scm.com/>
-- Gperf      <https://www.gnu.org/software/gperf/>
-- Gzip       <https://www.gnu.org/software/gzip/>
-- Help2man   <https://www.gnu.org/software/help2man/>
-- M4         <https://www.gnu.org/software/m4/>
-- Make       <https://www.gnu.org/software/make/>
-- Perl       <https://www.cpan.org/>
-- Tar        <https://www.gnu.org/software/tar/>
-- Texinfo    <https://www.gnu.org/software/texinfo/>
-- Wget       <https://www.gnu.org/software/wget/>
-- XZ Utils   <https://tukaani.org/xz/>
-
-
 ##Base Deps :: https://pkgs.alpinelinux.org/packages
 RUN <<EOS
   set +e
