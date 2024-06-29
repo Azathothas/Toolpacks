@@ -26,16 +26,49 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://joeyh.name/code/busybox/"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#    
-      ##Build 
+      ##Build (Nix)
+       #pushd "$($TMPDIRS)" >/dev/null 2>&1
+       #NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.busybox" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       ##Copy
+       #mkdir -p "$BASEUTILSDIR/busybox"
+       #sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/busybox"
+       #sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/busybox/" && chmod -R 755 "$BASEUTILSDIR/busybox/"
+       ##Strip
+       #find "$BASEUTILSDIR/busybox" -type f -exec strip {} \; 2>/dev/null
+       #nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
+      ##Build (MUSL) 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.busybox" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       #Copy
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        bash -c '
+        #Get SRC
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         git clone --filter "blob:none" --quiet "https://git.busybox.net/busybox" && cd "./busybox"
+        #Configure
+         export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
+         export CXXFLAGS="${CFLAGS}"
+         export CPPFLAGS="${CFLAGS}"
+         export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+         make defconfig
+         sed -e "s/.*\<CONFIG_STATIC\>.*/CONFIG_STATIC=y/" -i "./.config"
+        #Build
+         make --jobs="$(($(nproc)+1))" --keep-going
+         cp "./busybox" "/build-bins/busybox"
+        #Build Single Applets
+         bash "./make_single_applets.sh"
+         find "./" -type f -executable -name "busybox_[A-Z]*" -exec sh -c "for file; do cp \"\$file\" \"/build-bins/\$(basename \"\$file\" | sed 's/^busybox_//' | tr '[:upper:]' '[:lower:]')\"; done" sh {} +
+         popd >/dev/null 2>&1
+        '
+       #Copy 
+       docker cp "alpine-builder:/build-bins/." "./"
        mkdir -p "$BASEUTILSDIR/busybox"
-       sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/busybox"
+       find "./" -type d -exec rm -rf {} + 2>/dev/null
+       find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;        
+       sudo rsync -av --copy-links "./." "$BASEUTILSDIR/busybox"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/busybox/" && chmod -R 755 "$BASEUTILSDIR/busybox/"
        #Strip
        find "$BASEUTILSDIR/busybox" -type f -exec strip {} \; 2>/dev/null
-      #-------------------------------------------------------#       
+      #-------------------------------------------------------# 
       ##Meta
        file "$BASEUTILSDIR/busybox/"*
        #Archive [$BASEUTILSDIR/busybox]
@@ -48,7 +81,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.jq$|\.md$|\.rar$|\.tar$|\.tmp$|\.txt$|\.zip$" "$BASEUTILSDIR/busybox" | tee "$BASEUTILSDIR/busybox/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
-       cd "$BASEUTILSDIR/busybox" && rclone copy "." "r2:/bin/aarch64_arm64_Linux/Baseutils/busybox/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+       cd "$BASEUTILSDIR/busybox" && rclone sync "." "r2:/bin/aarch64_arm64_Linux/Baseutils/busybox/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
        curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
        #List
        curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/busybox.yaml" -o "$TMP_METADIR/temp.yaml"
@@ -79,8 +112,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/busybox/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR B3SUM DESCRIPTION EXTRA_BINS REPO_URL SHA256 WEB_URL
-       find "$BASEUTILSDIR" -type f -size 0 -delete
-       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       find "$BASEUTILSDIR" -type f -size 0 -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

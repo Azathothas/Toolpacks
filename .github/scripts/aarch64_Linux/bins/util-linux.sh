@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.jq$|\.md$|\.rar$|\.tar$|\.tmp$|\.txt$|\.zip$" "$BASEUTILSDIR/util-linux" | tee "$BASEUTILSDIR/util-linux/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
-       cd "$BASEUTILSDIR/util-linux" && rclone copy "." "r2:/bin/aarch64_arm64_Linux/Baseutils/util-linux/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+       cd "$BASEUTILSDIR/util-linux" && rclone sync "." "r2:/bin/aarch64_arm64_Linux/Baseutils/util-linux/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
        curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
        #List
        curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/util-linux.yaml" -o "$TMP_METADIR/temp.yaml"

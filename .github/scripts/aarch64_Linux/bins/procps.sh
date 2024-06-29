@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.jq$|\.md$|\.rar$|\.tar$|\.tmp$|\.txt$|\.zip$" "$BASEUTILSDIR/procps" | tee "$BASEUTILSDIR/procps/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
-       cd "$BASEUTILSDIR/procps" && rclone copy "." "r2:/bin/aarch64_arm64_Linux/Baseutils/procps/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+       cd "$BASEUTILSDIR/procps" && rclone sync "." "r2:/bin/aarch64_arm64_Linux/Baseutils/procps/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
        curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
        #List
        curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/procps.yaml" -o "$TMP_METADIR/temp.yaml"
