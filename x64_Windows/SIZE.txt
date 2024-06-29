@@ -9,13 +9,13 @@
   50M   ├── /tmp/toolpack_x86_64/ooniprobe.exe
   50M   ├── /tmp/toolpack_x86_64/ooniprobe-windows-amd64.exe
   35M   ├── /tmp/toolpack_x86_64/step.exe
+  31M   ├── /tmp/toolpack_x86_64/algernon.exe
   29M   ├── /tmp/toolpack_x86_64/sing-box.exe
   28M   ├── /tmp/toolpack_x86_64/tusd.exe
   28M   ├── /tmp/toolpack_x86_64/dbbench.exe
   28M   ├── /tmp/toolpack_x86_64/ngrok.exe
   25M   ├── /tmp/toolpack_x86_64/cloudflared.exe
   25M   ├── /tmp/toolpack_x86_64/brutespray.exe
-  25M   ├── /tmp/toolpack_x86_64/algernon.exe
   22M   ├── /tmp/toolpack_x86_64/loclx.exe
   22M   ├── /tmp/toolpack_x86_64/localxpose.exe
   20M   ├── /tmp/toolpack_x86_64/legba.exe
@@ -65,9 +65,9 @@
  2.9M   ├── /tmp/toolpack_x86_64/deprun.exe
  2.7M   ├── /tmp/toolpack_x86_64/dust.exe
  2.5M   ├── /tmp/toolpack_x86_64/cksum.exe
+ 2.5M   ├── /tmp/toolpack_x86_64/hashsum.exe
  2.5M   ├── /tmp/toolpack_x86_64/find.exe
  2.5M   ├── /tmp/toolpack_x86_64/find-rs.exe
- 2.4M   ├── /tmp/toolpack_x86_64/hashsum.exe
  2.3M   ├── /tmp/toolpack_x86_64/pr.exe
  2.3M   ├── /tmp/toolpack_x86_64/date.exe
  2.3M   ├── /tmp/toolpack_x86_64/touch.exe
@@ -76,7 +76,6 @@
  2.3M   ├── /tmp/toolpack_x86_64/ptx.exe
  2.2M   ├── /tmp/toolpack_x86_64/pdftops.exe
  2.2M   ├── /tmp/toolpack_x86_64/csplit.exe
- 2.2M   ├── /tmp/toolpack_x86_64/err.exe
  2.2M   ├── /tmp/toolpack_x86_64/nl.exe
  2.1M   ├── /tmp/toolpack_x86_64/tac.exe
  2.1M   ├── /tmp/toolpack_x86_64/pdftopng.exe
@@ -87,6 +86,7 @@
  1.7M   ├── /tmp/toolpack_x86_64/inscope.exe
  1.6M   ├── /tmp/toolpack_x86_64/botsay.exe
  1.6M   ├── /tmp/toolpack_x86_64/sort.exe
+ 1.5M   ├── /tmp/toolpack_x86_64/err.exe
  1.5M   ├── /tmp/toolpack_x86_64/quotes-escaper.exe
  1.5M   ├── /tmp/toolpack_x86_64/dua.exe
  1.4M   ├── /tmp/toolpack_x86_64/expr.exe
@@ -94,16 +94,16 @@
  1.3M   ├── /tmp/toolpack_x86_64/pdftotext.exe
  1.3M   ├── /tmp/toolpack_x86_64/sshd.exe
  1.3M   ├── /tmp/toolpack_x86_64/pdfimages.exe
- 1.3M   ├── /tmp/toolpack_x86_64/hyperfine.exe
  1.3M   ├── /tmp/toolpack_x86_64/tail.exe
+ 1.3M   ├── /tmp/toolpack_x86_64/hyperfine.exe
  1.3M   ├── /tmp/toolpack_x86_64/7z.exe
  1.2M   ├── /tmp/toolpack_x86_64/cp.exe
  1.2M   ├── /tmp/toolpack_x86_64/pdfinfo.exe
  1.2M   ├── /tmp/toolpack_x86_64/ls.exe
  1.2M   ├── /tmp/toolpack_x86_64/pdffonts.exe
+ 1.2M   ├── /tmp/toolpack_x86_64/factor.exe
  1.2M   ├── /tmp/toolpack_x86_64/vdir.exe
  1.2M   ├── /tmp/toolpack_x86_64/flashfetch.exe
- 1.2M   ├── /tmp/toolpack_x86_64/factor.exe
  1.2M   ├── /tmp/toolpack_x86_64/dir.exe
  1.2M   ├── /tmp/toolpack_x86_64/pdfdetach.exe
  1.2M   ├── /tmp/toolpack_x86_64/wldd.exe
@@ -114,27 +114,27 @@
  1.0M   ├── /tmp/toolpack_x86_64/seq.exe
 1008K   ├── /tmp/toolpack_x86_64/env.exe
  996K   ├── /tmp/toolpack_x86_64/dd.exe
- 980K   ├── /tmp/toolpack_x86_64/od.exe
- 968K   ├── /tmp/toolpack_x86_64/more.exe
+ 984K   ├── /tmp/toolpack_x86_64/od.exe
+ 972K   ├── /tmp/toolpack_x86_64/more.exe
  964K   ├── /tmp/toolpack_x86_64/jq.exe
- 948K   ├── /tmp/toolpack_x86_64/split.exe
+ 952K   ├── /tmp/toolpack_x86_64/split.exe
  944K   ├── /tmp/toolpack_x86_64/df.exe
  944K   ├── /tmp/toolpack_x86_64/basenc.exe
- 932K   ├── /tmp/toolpack_x86_64/numfmt.exe
- 920K   ├── /tmp/toolpack_x86_64/base64.exe
+ 936K   ├── /tmp/toolpack_x86_64/numfmt.exe
+ 924K   ├── /tmp/toolpack_x86_64/base64.exe
  920K   ├── /tmp/toolpack_x86_64/base32.exe
- 912K   ├── /tmp/toolpack_x86_64/mktemp.exe
+ 916K   ├── /tmp/toolpack_x86_64/mktemp.exe
  908K   ├── /tmp/toolpack_x86_64/ln.exe
  904K   ├── /tmp/toolpack_x86_64/wc.exe
  900K   ├── /tmp/toolpack_x86_64/rm.exe
  900K   ├── /tmp/toolpack_x86_64/join.exe
  896K   ├── /tmp/toolpack_x86_64/shuf.exe
  896K   ├── /tmp/toolpack_x86_64/printf.exe
+ 896K   ├── /tmp/toolpack_x86_64/cut.exe
  892K   ├── /tmp/toolpack_x86_64/uniq.exe
- 892K   ├── /tmp/toolpack_x86_64/cut.exe
- 888K   ├── /tmp/toolpack_x86_64/head.exe
+ 892K   ├── /tmp/toolpack_x86_64/head.exe
+ 892K   ├── /tmp/toolpack_x86_64/dircolors.exe
  888K   ├── /tmp/toolpack_x86_64/fmt.exe
- 888K   ├── /tmp/toolpack_x86_64/dircolors.exe
  884K   ├── /tmp/toolpack_x86_64/tr.exe
  880K   ├── /tmp/toolpack_x86_64/shred.exe
  868K   ├── /tmp/toolpack_x86_64/xargs.exe
@@ -142,29 +142,29 @@
  868K   ├── /tmp/toolpack_x86_64/realpath.exe
  864K   ├── /tmp/toolpack_x86_64/tsort.exe
  864K   ├── /tmp/toolpack_x86_64/readlink.exe
+ 860K   ├── /tmp/toolpack_x86_64/tee.exe
  856K   ├── /tmp/toolpack_x86_64/unexpand.exe
- 856K   ├── /tmp/toolpack_x86_64/tee.exe
  856K   ├── /tmp/toolpack_x86_64/expand.exe
+ 848K   ├── /tmp/toolpack_x86_64/cat.exe
  844K   ├── /tmp/toolpack_x86_64/sum.exe
  844K   ├── /tmp/toolpack_x86_64/fold.exe
- 844K   ├── /tmp/toolpack_x86_64/cat.exe
  836K   ├── /tmp/toolpack_x86_64/truncate.exe
  836K   ├── /tmp/toolpack_x86_64/ssh-keygen.exe
+ 832K   ├── /tmp/toolpack_x86_64/uname.exe
  832K   ├── /tmp/toolpack_x86_64/test.exe
- 828K   ├── /tmp/toolpack_x86_64/uname.exe
  828K   ├── /tmp/toolpack_x86_64/hostname.exe
  824K   ├── /tmp/toolpack_x86_64/mkdir.exe
+ 824K   ├── /tmp/toolpack_x86_64/comm.exe
+ 824K   ├── /tmp/toolpack_x86_64/basename.exe
  820K   ├── /tmp/toolpack_x86_64/sync.exe
  820K   ├── /tmp/toolpack_x86_64/sleep.exe
  820K   ├── /tmp/toolpack_x86_64/rmdir.exe
  820K   ├── /tmp/toolpack_x86_64/paste.exe
- 820K   ├── /tmp/toolpack_x86_64/comm.exe
- 820K   ├── /tmp/toolpack_x86_64/basename.exe
+ 816K   ├── /tmp/toolpack_x86_64/nproc.exe
+ 816K   ├── /tmp/toolpack_x86_64/link.exe
  812K   ├── /tmp/toolpack_x86_64/unlink.exe
- 812K   ├── /tmp/toolpack_x86_64/nproc.exe
- 812K   ├── /tmp/toolpack_x86_64/link.exe
- 808K   ├── /tmp/toolpack_x86_64/arch.exe
- 804K   ├── /tmp/toolpack_x86_64/pwd.exe
+ 812K   ├── /tmp/toolpack_x86_64/arch.exe
+ 808K   ├── /tmp/toolpack_x86_64/pwd.exe
  800K   ├── /tmp/toolpack_x86_64/echo.exe
  800K   ├── /tmp/toolpack_x86_64/dirname.exe
  796K   ├── /tmp/toolpack_x86_64/whoami.exe
