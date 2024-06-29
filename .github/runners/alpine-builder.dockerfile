@@ -3,6 +3,23 @@
 #https://hub.docker.com/r/azathothas/alpine-builder
 FROM alpine:edge
 #------------------------------------------------------------------------------------#
+
+- Autoconf   <https://www.gnu.org/software/autoconf/>
+- Automake   <https://www.gnu.org/software/automake/>
+- Bison      <https://www.gnu.org/software/bison/>
+- Git        <https://git-scm.com/>
+- Gperf      <https://www.gnu.org/software/gperf/>
+- Gzip       <https://www.gnu.org/software/gzip/>
+- Help2man   <https://www.gnu.org/software/help2man/>
+- M4         <https://www.gnu.org/software/m4/>
+- Make       <https://www.gnu.org/software/make/>
+- Perl       <https://www.cpan.org/>
+- Tar        <https://www.gnu.org/software/tar/>
+- Texinfo    <https://www.gnu.org/software/texinfo/>
+- Wget       <https://www.gnu.org/software/wget/>
+- XZ Utils   <https://tukaani.org/xz/>
+
+
 ##Base Deps :: https://pkgs.alpinelinux.org/packages
 RUN <<EOS
   set +e
@@ -16,6 +33,7 @@ RUN <<EOS
   apk add alsa-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add aria2 --latest --upgrade --no-interactive 2>/dev/null
   apk add asciidoc --latest --upgrade --no-interactive 2>/dev/null
+  apk add attr-static --latest --upgrade --no-interactive 2>/dev/null
   apk add autoconf --latest --upgrade --no-interactive 2>/dev/null
   apk add autoconf-archive --latest --upgrade --no-interactive 2>/dev/null
   apk add automake --latest --upgrade --no-interactive 2>/dev/null
@@ -120,7 +138,10 @@ RUN <<EOS
   apk add gnutls-c++ --latest --upgrade --no-interactive 2>/dev/null
   apk add gnutls-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add gnutls-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add gperf --latest --upgrade --no-interactive 2>/dev/null
   apk add gpsd-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add grep --latest --upgrade --no-interactive 2>/dev/null
+  apk add help2man --latest --upgrade --no-interactive 2>/dev/null
   apk add hostapd --latest --upgrade --no-interactive 2>/dev/null
   apk add hwloc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add idn2-utils --latest --upgrade --no-interactive 2>/dev/null
@@ -145,6 +166,7 @@ RUN <<EOS
   apk add libao-pulse --latest --upgrade --no-interactive 2>/dev/null
   apk add libaio --latest --upgrade --no-interactive 2>/dev/null
   apk add libaio-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libattr --latest --upgrade --no-interactive 2>/dev/null
   apk add libblkid --latest --upgrade --no-interactive 2>/dev/null
   apk add libbpf --latest --upgrade --no-interactive 2>/dev/null
   apk add libbpf-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -410,6 +432,7 @@ RUN <<EOS
   apk add screen --latest --upgrade --no-interactive 2>/dev/null
   apk add sdl2 --latest --upgrade --no-interactive 2>/dev/null
   apk add sdl2-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add sed --latest --upgrade --no-interactive 2>/dev/null
   apk add shadow --latest --upgrade --no-interactive 2>/dev/null
   apk add shadow-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add shadow-libs --latest --upgrade --no-interactive 2>/dev/null
