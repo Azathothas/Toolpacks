@@ -16,23 +16,23 @@
 1008K   │ ├── METADATA.json
  656K   │ ├── DETAILED.md
  472K   │ ├── README.md
- 148K   │ ├── FILE.txt
-  76K   │ ├── SHA256SUM.txt
-  76K   │ ├── BLAKE3SUM.txt
-  48K   │ ├── SIZE.txt
-  48K   │ ├── SIZE.md
+ 140K   │ ├── FILE.txt
+  72K   │ ├── SHA256SUM.txt
+  72K   │ ├── BLAKE3SUM.txt
+  44K   │ ├── SIZE.txt
+  44K   │ ├── SIZE.md
   32K   │ └── BUILD_ERROR.log.md
  3.9M   ├── METADATA.json
  3.6M   ├── METADATA.yaml
- 444K   ├─┬ x64_Windows
+ 448K   ├─┬ x64_Windows
  196K   │ ├── METADATA.json
  100K   │ ├── DETAILED.md
   72K   │ ├── README.md
-  24K   │ ├── FILE.txt
+  20K   │ ├── FILE.txt
   16K   │ ├── SHA256SUM.txt
   16K   │ ├── BLAKE3SUM.txt
- 8.0K   │ ├── SIZE.txt
- 8.0K   │ └── SIZE.md
+  12K   │ ├── SIZE.txt
+  12K   │ └── SIZE.md
   80K   ├─┬ arm64_v8a_Android
   24K   │ ├── METADATA.json
   16K   │ ├── DETAILED.md
@@ -42,16 +42,16 @@
  4.0K   │ ├── SIZE.md
  4.0K   │ ├── SHA256SUM.txt
  4.0K   │ └── BLAKE3SUM.txt
-  68K   ├─┬ Docs
+  72K   ├─┬ Docs
   32K   │ ├── BUILD_NOTES.md
  8.0K   │ ├── README.md
  4.0K   │ ├── ZIG_TARGETS.txt
  4.0K   │ ├── TODO.md
  4.0K   │ ├── RUST_TARGETS.txt
+ 4.0K   │ ├── NIX_TARGETS.txt
  4.0K   │ ├── METADATA.md
  4.0K   │ ├── GO_TARGETS.md
- 4.0K   │ ├── DEBUG.md
-   0B   │ └── NIX_TARGETS.txt
+ 4.0K   │ └── DEBUG.md
   16K   ├── README.md
   16K   ├── INFO.md
  4.0K   └── LICENSE

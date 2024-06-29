@@ -1,8 +1,8 @@
 ```mathematica
- 10G └─┬ /tmp/toolpack_x86_64
+9.9G └─┬ /tmp/toolpack_x86_64
 169M   ├── /tmp/toolpack_x86_64/usql
 161M   ├── /tmp/toolpack_x86_64/sliver-server
-155M   ├── /tmp/toolpack_x86_64/traefik
+158M   ├── /tmp/toolpack_x86_64/traefik
 148M   ├── /tmp/toolpack_x86_64/cloudfox
 143M   ├── /tmp/toolpack_x86_64/aws-nuke
 108M   ├── /tmp/toolpack_x86_64/trufflehog
@@ -12,17 +12,15 @@
  90M   ├── /tmp/toolpack_x86_64/k9s
  87M   ├── /tmp/toolpack_x86_64/istioctl
  84M   ├── /tmp/toolpack_x86_64/hugo
- 79M   ├── /tmp/toolpack_x86_64/daytona
+ 80M   ├── /tmp/toolpack_x86_64/daytona
  75M   ├── /tmp/toolpack_x86_64/ffmpeg
  74M   ├── /tmp/toolpack_x86_64/ffprobe
  74M   ├── /tmp/toolpack_x86_64/nuclei
  72M   ├── /tmp/toolpack_x86_64/falconhound
- 72M   ├── /tmp/toolpack_x86_64/berty
  70M   ├── /tmp/toolpack_x86_64/alist
  69M   ├── /tmp/toolpack_x86_64/loki
  65M   ├── /tmp/toolpack_x86_64/devpod
  63M   ├── /tmp/toolpack_x86_64/ockam
- 59M   ├── /tmp/toolpack_x86_64/wtfutil
  59M   ├── /tmp/toolpack_x86_64/wtf
  59M   ├── /tmp/toolpack_x86_64/dockerd
  58M   ├── /tmp/toolpack_x86_64/rclone
@@ -32,13 +30,12 @@
  51M   ├── /tmp/toolpack_x86_64/tavern
  50M   ├── /tmp/toolpack_x86_64/steampipe
  50M   ├── /tmp/toolpack_x86_64/ooniprobe
- 49M   ├── /tmp/toolpack_x86_64/jc
  48M   ├── /tmp/toolpack_x86_64/bearer
  48M   ├── /tmp/toolpack_x86_64/matterbridge
  47M   ├── /tmp/toolpack_x86_64/gh
  46M   ├── /tmp/toolpack_x86_64/rekor-server
- 46M   ├── /tmp/toolpack_x86_64/rekor
  45M   ├── /tmp/toolpack_x86_64/teldrive
+ 39M   ├── /tmp/toolpack_x86_64/katana
  38M   ├── /tmp/toolpack_x86_64/kadeessh
  38M   ├── /tmp/toolpack_x86_64/caddy
  38M   ├── /tmp/toolpack_x86_64/httpx
@@ -46,15 +43,14 @@
  38M   ├── /tmp/toolpack_x86_64/proxify
  37M   ├── /tmp/toolpack_x86_64/containerd
  36M   ├── /tmp/toolpack_x86_64/kopia
- 35M   ├── /tmp/toolpack_x86_64/katana
  35M   ├── /tmp/toolpack_x86_64/tdl
  34M   ├── /tmp/toolpack_x86_64/amass
  34M   ├── /tmp/toolpack_x86_64/sliver-client
  34M   ├── /tmp/toolpack_x86_64/pixi
- 34M   ├── /tmp/toolpack_x86_64/xet_staticx
  33M   ├── /tmp/toolpack_x86_64/nushell
  33M   ├── /tmp/toolpack_x86_64/nu
  33M   ├── /tmp/toolpack_x86_64/cloudreve
+ 33M   ├── /tmp/toolpack_x86_64/naabu
  33M   ├── /tmp/toolpack_x86_64/nezha-dashboard
  32M   ├── /tmp/toolpack_x86_64/skupper
  32M   ├── /tmp/toolpack_x86_64/surf
@@ -63,13 +59,13 @@
  32M   ├── /tmp/toolpack_x86_64/runme
  31M   ├── /tmp/toolpack_x86_64/git-xet
  31M   ├── /tmp/toolpack_x86_64/sq
+ 31M   ├── /tmp/toolpack_x86_64/algernon
  31M   ├── /tmp/toolpack_x86_64/step
  30M   ├── /tmp/toolpack_x86_64/edgevpn
  30M   ├── /tmp/toolpack_x86_64/loki-canary
  29M   ├── /tmp/toolpack_x86_64/aix
  29M   ├── /tmp/toolpack_x86_64/zellij
  29M   ├── /tmp/toolpack_x86_64/sqlc
- 29M   ├── /tmp/toolpack_x86_64/naabu
  29M   ├── /tmp/toolpack_x86_64/dblab
  29M   ├── /tmp/toolpack_x86_64/wezterm
  29M   ├── /tmp/toolpack_x86_64/podman
@@ -93,34 +89,29 @@
  26M   ├── /tmp/toolpack_x86_64/devbox
  26M   ├── /tmp/toolpack_x86_64/cvemap
  26M   ├── /tmp/toolpack_x86_64/uncover
- 26M   ├── /tmp/toolpack_x86_64/tailscale_combined
- 26M   ├── /tmp/toolpack_x86_64/tailscale_bb
  26M   ├── /tmp/toolpack_x86_64/gum
  26M   ├── /tmp/toolpack_x86_64/interactsh-client
  25M   ├── /tmp/toolpack_x86_64/mapcidr
+ 25M   ├── /tmp/toolpack_x86_64/asnmap
  25M   ├── /tmp/toolpack_x86_64/boltconn
- 25M   ├── /tmp/toolpack_x86_64/mc
+ 25M   ├── /tmp/toolpack_x86_64/rattler-build
  25M   ├── /tmp/toolpack_x86_64/netbird
+ 25M   ├── /tmp/toolpack_x86_64/mc
  25M   ├── /tmp/toolpack_x86_64/chaos-client
  25M   ├── /tmp/toolpack_x86_64/v2raya
- 25M   ├── /tmp/toolpack_x86_64/asnmap
- 25M   ├── /tmp/toolpack_x86_64/algernon
  25M   ├── /tmp/toolpack_x86_64/brutespray
  25M   ├── /tmp/toolpack_x86_64/dagu
  24M   ├── /tmp/toolpack_x86_64/tusd
  24M   ├── /tmp/toolpack_x86_64/docker
- 24M   ├── /tmp/toolpack_x86_64/tailscaled
- 24M   ├── /tmp/toolpack_x86_64/rattler-build
  24M   ├── /tmp/toolpack_x86_64/cloudflared
- 24M   ├── /tmp/toolpack_x86_64/xetcmd
  24M   ├── /tmp/toolpack_x86_64/vhs
  23M   ├── /tmp/toolpack_x86_64/grpcurl
  23M   ├── /tmp/toolpack_x86_64/nerdctl
+ 23M   ├── /tmp/toolpack_x86_64/meli
  23M   ├── /tmp/toolpack_x86_64/dalfox
  23M   ├── /tmp/toolpack_x86_64/jaeles
  23M   ├── /tmp/toolpack_x86_64/restic
  23M   ├── /tmp/toolpack_x86_64/interactsh-server
- 23M   ├── /tmp/toolpack_x86_64/legba
  23M   ├── /tmp/toolpack_x86_64/xetmnt
  23M   ├── /tmp/toolpack_x86_64/syncthing
  22M   ├── /tmp/toolpack_x86_64/noseyparker
@@ -129,7 +120,6 @@
  22M   ├── /tmp/toolpack_x86_64/localxpose
  22M   ├── /tmp/toolpack_x86_64/ruff
  22M   ├── /tmp/toolpack_x86_64/etcd
- 22M   ├── /tmp/toolpack_x86_64/imix
  22M   ├── /tmp/toolpack_x86_64/reader
  21M   ├── /tmp/toolpack_x86_64/tuiarchiver
  21M   ├── /tmp/toolpack_x86_64/shuffledns
@@ -139,18 +129,13 @@
  21M   ├── /tmp/toolpack_x86_64/arduino-cli
  21M   ├── /tmp/toolpack_x86_64/lux
  21M   ├── /tmp/toolpack_x86_64/gix
- 21M   ├── /tmp/toolpack_x86_64/meli
- 21M   ├── /tmp/toolpack_x86_64/atuin
- 20M   ├── /tmp/toolpack_x86_64/tailscale_merged
  20M   ├── /tmp/toolpack_x86_64/mise
  20M   ├── /tmp/toolpack_x86_64/jira-cli
- 20M   ├── /tmp/toolpack_x86_64/jira
  20M   ├── /tmp/toolpack_x86_64/alterx
  20M   ├── /tmp/toolpack_x86_64/jj
  20M   ├── /tmp/toolpack_x86_64/csvtk
  20M   ├── /tmp/toolpack_x86_64/qsv
  20M   ├── /tmp/toolpack_x86_64/cdncheck
- 20M   ├── /tmp/toolpack_x86_64/golem
  20M   ├── /tmp/toolpack_x86_64/notify
  19M   ├── /tmp/toolpack_x86_64/podsync
  19M   ├── /tmp/toolpack_x86_64/go-audit
@@ -191,25 +176,21 @@
  16M   ├── /tmp/toolpack_x86_64/warp
  15M   ├── /tmp/toolpack_x86_64/diffoci
  15M   ├── /tmp/toolpack_x86_64/pgweb
- 15M   ├── /tmp/toolpack_x86_64/yazi
  15M   ├── /tmp/toolpack_x86_64/filebrowser
+ 15M   ├── /tmp/toolpack_x86_64/yazi
  15M   ├── /tmp/toolpack_x86_64/cloudcash
  15M   ├── /tmp/toolpack_x86_64/aws-wire-lengths
- 15M   ├── /tmp/toolpack_x86_64/rqbit
- 15M   ├── /tmp/toolpack_x86_64/rippkgs-index.sqlite
  15M   ├── /tmp/toolpack_x86_64/termshark
  14M   ├── /tmp/toolpack_x86_64/tinja
  14M   ├── /tmp/toolpack_x86_64/clipcatd
  14M   ├── /tmp/toolpack_x86_64/s5cmd
  14M   ├── /tmp/toolpack_x86_64/bleve
  14M   ├── /tmp/toolpack_x86_64/bin
- 14M   ├── /tmp/toolpack_x86_64/sysbox-runc
  14M   ├── /tmp/toolpack_x86_64/zerotier-one
  14M   ├── /tmp/toolpack_x86_64/zerotier-idtool
  14M   ├── /tmp/toolpack_x86_64/zerotier-cli
  14M   ├── /tmp/toolpack_x86_64/godns
  14M   ├── /tmp/toolpack_x86_64/pgrokd
- 14M   ├── /tmp/toolpack_x86_64/certwatcher
  14M   ├── /tmp/toolpack_x86_64/listmonk
  14M   ├── /tmp/toolpack_x86_64/ct_monitor
  14M   ├── /tmp/toolpack_x86_64/wiretap
@@ -220,7 +201,7 @@
  13M   ├── /tmp/toolpack_x86_64/etcdutl
  13M   ├── /tmp/toolpack_x86_64/smap
  13M   ├── /tmp/toolpack_x86_64/gdu
- 13M   ├── /tmp/toolpack_x86_64/openapi-tui
+ 13M   ├── /tmp/toolpack_x86_64/jc
  13M   ├── /tmp/toolpack_x86_64/hcloud
  13M   ├── /tmp/toolpack_x86_64/apkeep
  13M   ├── /tmp/toolpack_x86_64/stree
@@ -235,26 +216,23 @@
  12M   ├── /tmp/toolpack_x86_64/goodls
  12M   ├── /tmp/toolpack_x86_64/cntb
  12M   ├── /tmp/toolpack_x86_64/ffufw
+ 12M   ├── /tmp/toolpack_x86_64/git-cliff
  12M   ├── /tmp/toolpack_x86_64/mabel
- 12M   ├── /tmp/toolpack_x86_64/rebuildctl
  12M   ├── /tmp/toolpack_x86_64/x8
- 12M   ├── /tmp/toolpack_x86_64/tailscale
  12M   ├── /tmp/toolpack_x86_64/bucketloot
- 12M   ├── /tmp/toolpack_x86_64/sysbox-fs
  12M   ├── /tmp/toolpack_x86_64/rebuilderd-worker
  12M   ├── /tmp/toolpack_x86_64/netmaker
  12M   ├── /tmp/toolpack_x86_64/litefs
  12M   ├── /tmp/toolpack_x86_64/mdcat
  11M   ├── /tmp/toolpack_x86_64/mirrorbits
- 11M   ├── /tmp/toolpack_x86_64/git-cliff
  11M   ├── /tmp/toolpack_x86_64/containerd-shim-runc-v2
  11M   ├── /tmp/toolpack_x86_64/sync-color-schemes
  11M   ├── /tmp/toolpack_x86_64/fq
  11M   ├── /tmp/toolpack_x86_64/jqp
  11M   ├── /tmp/toolpack_x86_64/xan
- 11M   ├── /tmp/toolpack_x86_64/sysbox-mgr
  11M   ├── /tmp/toolpack_x86_64/tty2web
  11M   ├── /tmp/toolpack_x86_64/sslsearch
+ 11M   ├── /tmp/toolpack_x86_64/gitui
  11M   ├── /tmp/toolpack_x86_64/cfssl
  11M   ├── /tmp/toolpack_x86_64/vfox
  11M   ├── /tmp/toolpack_x86_64/nmctl
@@ -279,7 +257,6 @@
  10M   ├── /tmp/toolpack_x86_64/ehole
  10M   ├── /tmp/toolpack_x86_64/coreutils
  10M   ├── /tmp/toolpack_x86_64/hakrawler
- 10M   ├── /tmp/toolpack_x86_64/gitui
  10M   ├── /tmp/toolpack_x86_64/supervisord
  10M   ├── /tmp/toolpack_x86_64/yq
  10M   ├── /tmp/toolpack_x86_64/binocle
@@ -291,8 +268,8 @@
  10M   ├── /tmp/toolpack_x86_64/flawz
 9.9M   ├── /tmp/toolpack_x86_64/orbiton
 9.9M   ├── /tmp/toolpack_x86_64/nix-channel-index
-9.9M   ├── /tmp/toolpack_x86_64/noir
 9.9M   ├── /tmp/toolpack_x86_64/tut
+9.9M   ├── /tmp/toolpack_x86_64/noir
 9.8M   ├── /tmp/toolpack_x86_64/gotty
 9.8M   ├── /tmp/toolpack_x86_64/wstunnel
 9.8M   ├── /tmp/toolpack_x86_64/gitql
@@ -307,16 +284,15 @@
 9.5M   ├── /tmp/toolpack_x86_64/monolith
 9.5M   ├── /tmp/toolpack_x86_64/vultr-cli
 9.3M   ├── /tmp/toolpack_x86_64/pgrok
-9.3M   ├── /tmp/toolpack_x86_64/ipinfo-cli
 9.3M   ├── /tmp/toolpack_x86_64/ipinfo
+9.3M   ├── /tmp/toolpack_x86_64/dasel
 9.3M   ├── /tmp/toolpack_x86_64/archey
 9.3M   ├── /tmp/toolpack_x86_64/redguard
 9.3M   ├── /tmp/toolpack_x86_64/doggo
 9.3M   ├── /tmp/toolpack_x86_64/cfssl-newkey
 9.3M   ├── /tmp/toolpack_x86_64/invidtui
-9.3M   ├── /tmp/toolpack_x86_64/taplo
-9.3M   ├── /tmp/toolpack_x86_64/dasel
 9.3M   ├── /tmp/toolpack_x86_64/sttr
+9.3M   ├── /tmp/toolpack_x86_64/taplo
 9.2M   ├── /tmp/toolpack_x86_64/dura
 9.2M   ├── /tmp/toolpack_x86_64/pwninit
 9.1M   ├── /tmp/toolpack_x86_64/agg
@@ -327,23 +303,20 @@
 9.1M   ├── /tmp/toolpack_x86_64/mubeng
 9.0M   ├── /tmp/toolpack_x86_64/nix-index
 9.0M   ├── /tmp/toolpack_x86_64/ddns-go
-9.0M   ├── /tmp/toolpack_x86_64/agrind
 8.9M   ├── /tmp/toolpack_x86_64/bluetuith
-8.9M   ├── /tmp/toolpack_x86_64/rebuilderd
 8.9M   ├── /tmp/toolpack_x86_64/wormhole-rs
 8.8M   ├── /tmp/toolpack_x86_64/viewgen_staticx
 8.8M   ├── /tmp/toolpack_x86_64/stew
 8.8M   ├── /tmp/toolpack_x86_64/enc
 8.8M   ├── /tmp/toolpack_x86_64/gocurl
-8.8M   ├── /tmp/toolpack_x86_64/rospo
 8.8M   ├── /tmp/toolpack_x86_64/vproxy
+8.8M   ├── /tmp/toolpack_x86_64/rospo
 8.7M   ├── /tmp/toolpack_x86_64/cut-cdn
 8.7M   ├── /tmp/toolpack_x86_64/gocryptfs
-8.7M   ├── /tmp/toolpack_x86_64/oha
 8.7M   ├── /tmp/toolpack_x86_64/certstream-server-go
-8.6M   ├── /tmp/toolpack_x86_64/clipcat-menu
 8.6M   ├── /tmp/toolpack_x86_64/ssr-client
 8.6M   ├── /tmp/toolpack_x86_64/serverstatus-client
+8.6M   ├── /tmp/toolpack_x86_64/clipcat-menu
 8.6M   ├── /tmp/toolpack_x86_64/getghrel
 8.5M   ├── /tmp/toolpack_x86_64/smartdns-rs
 8.5M   ├── /tmp/toolpack_x86_64/rustypaste
@@ -362,9 +335,9 @@
 8.1M   ├── /tmp/toolpack_x86_64/aria2c
 8.1M   ├── /tmp/toolpack_x86_64/tgpt
 8.1M   ├── /tmp/toolpack_x86_64/cfssl-bundle
+8.1M   ├── /tmp/toolpack_x86_64/ov
 8.1M   ├── /tmp/toolpack_x86_64/sns
 8.1M   ├── /tmp/toolpack_x86_64/supercronic
-8.1M   ├── /tmp/toolpack_x86_64/ov
 8.0M   ├── /tmp/toolpack_x86_64/ladder
 8.0M   ├── /tmp/toolpack_x86_64/wireproxy
 8.0M   ├── /tmp/toolpack_x86_64/rootlesskit
@@ -375,19 +348,17 @@
 8.0M   ├── /tmp/toolpack_x86_64/cog
 7.9M   ├── /tmp/toolpack_x86_64/syncat
 7.9M   ├── /tmp/toolpack_x86_64/nomore403
-7.9M   ├── /tmp/toolpack_x86_64/dontgo403
 7.9M   ├── /tmp/toolpack_x86_64/viddy
 7.9M   ├── /tmp/toolpack_x86_64/sj
 7.8M   ├── /tmp/toolpack_x86_64/gau
 7.8M   ├── /tmp/toolpack_x86_64/hxn
 7.8M   ├── /tmp/toolpack_x86_64/gosec
 7.8M   ├── /tmp/toolpack_x86_64/ffuf
-7.8M   ├── /tmp/toolpack_x86_64/z-tokens
 7.8M   ├── /tmp/toolpack_x86_64/curl
+7.7M   ├── /tmp/toolpack_x86_64/z-tokens
 7.7M   ├── /tmp/toolpack_x86_64/gobuster
 7.7M   ├── /tmp/toolpack_x86_64/enola
 7.6M   ├── /tmp/toolpack_x86_64/husarnet
-7.6M   ├── /tmp/toolpack_x86_64/cherrybomb
 7.5M   ├── /tmp/toolpack_x86_64/trurl
 7.5M   ├── /tmp/toolpack_x86_64/pretender
 7.5M   ├── /tmp/toolpack_x86_64/quickcert
@@ -395,6 +366,7 @@
 7.5M   ├── /tmp/toolpack_x86_64/sake
 7.5M   ├── /tmp/toolpack_x86_64/xq
 7.5M   ├── /tmp/toolpack_x86_64/puredns
+7.4M   ├── /tmp/toolpack_x86_64/cherrybomb
 7.4M   ├── /tmp/toolpack_x86_64/fingerprintx
 7.4M   ├── /tmp/toolpack_x86_64/revive
 7.3M   ├── /tmp/toolpack_x86_64/dnslookup
@@ -408,16 +380,18 @@
 7.2M   ├── /tmp/toolpack_x86_64/system-info-collector
 7.2M   ├── /tmp/toolpack_x86_64/sysinfo-collector
 7.1M   ├── /tmp/toolpack_x86_64/git-log
+7.1M   ├── /tmp/toolpack_x86_64/eget
 7.1M   ├── /tmp/toolpack_x86_64/websocat
 7.1M   ├── /tmp/toolpack_x86_64/zfind
 7.0M   ├── /tmp/toolpack_x86_64/systemctl-tui
 7.0M   ├── /tmp/toolpack_x86_64/trip
+7.0M   ├── /tmp/toolpack_x86_64/twingate-connector-staticx
 7.0M   ├── /tmp/toolpack_x86_64/git-clone
 7.0M   ├── /tmp/toolpack_x86_64/git-checkout
-7.0M   ├── /tmp/toolpack_x86_64/twingate-connector-staticx
 7.0M   ├── /tmp/toolpack_x86_64/git-pull
 6.9M   ├── /tmp/toolpack_x86_64/rush
 6.9M   ├── /tmp/toolpack_x86_64/delta
+6.8M   ├── /tmp/toolpack_x86_64/qemu-xtensa-static
 6.8M   ├── /tmp/toolpack_x86_64/stunner
 6.8M   ├── /tmp/toolpack_x86_64/sessionprobe
 6.8M   ├── /tmp/toolpack_x86_64/certgraph
@@ -425,7 +399,7 @@
 6.8M   ├── /tmp/toolpack_x86_64/fscan
 6.8M   ├── /tmp/toolpack_x86_64/cloak-client
 6.7M   ├── /tmp/toolpack_x86_64/exiflooter
-6.7M   ├── /tmp/toolpack_x86_64/boxxy
+6.7M   ├── /tmp/toolpack_x86_64/qemu-xtensaeb-static
 6.7M   ├── /tmp/toolpack_x86_64/cfspeed
 6.6M   ├── /tmp/toolpack_x86_64/gitleaks
 6.6M   ├── /tmp/toolpack_x86_64/speedtest-go
@@ -433,7 +407,6 @@
 6.6M   ├── /tmp/toolpack_x86_64/direnv
 6.6M   ├── /tmp/toolpack_x86_64/yggdrasilctl
 6.6M   ├── /tmp/toolpack_x86_64/elvish
-6.6M   ├── /tmp/toolpack_x86_64/dizi-server
 6.5M   ├── /tmp/toolpack_x86_64/rga
 6.5M   ├── /tmp/toolpack_x86_64/xplr
 6.5M   ├── /tmp/toolpack_x86_64/xh
@@ -447,13 +420,10 @@
 6.3M   ├── /tmp/toolpack_x86_64/pueue
 6.3M   ├── /tmp/toolpack_x86_64/ripgrep
 6.3M   ├── /tmp/toolpack_x86_64/rg
-6.3M   ├── /tmp/toolpack_x86_64/qemu-xtensa-static
-6.3M   ├── /tmp/toolpack_x86_64/clipcatctl
 6.3M   ├── /tmp/toolpack_x86_64/cloak-server
-6.2M   ├── /tmp/toolpack_x86_64/eget
+6.2M   ├── /tmp/toolpack_x86_64/clipcatctl
 6.2M   ├── /tmp/toolpack_x86_64/uroot
 6.2M   ├── /tmp/toolpack_x86_64/u-root
-6.1M   ├── /tmp/toolpack_x86_64/qemu-xtensaeb-static
 6.1M   ├── /tmp/toolpack_x86_64/xbps-rindex
 6.1M   ├── /tmp/toolpack_x86_64/xbps-create
 6.1M   ├── /tmp/toolpack_x86_64/bigdl
@@ -471,18 +441,18 @@
 5.9M   ├── /tmp/toolpack_x86_64/nginx
 5.8M   ├── /tmp/toolpack_x86_64/volta
 5.8M   ├── /tmp/toolpack_x86_64/hcxhashtool
-5.8M   ├── /tmp/toolpack_x86_64/dizi
 5.8M   ├── /tmp/toolpack_x86_64/rescope
 5.8M   ├── /tmp/toolpack_x86_64/presenterm
 5.8M   ├── /tmp/toolpack_x86_64/tracexec
 5.8M   ├── /tmp/toolpack_x86_64/whoismac
 5.8M   ├── /tmp/toolpack_x86_64/wlancap2wpasec
 5.8M   ├── /tmp/toolpack_x86_64/albafetch
-5.8M   ├── /tmp/toolpack_x86_64/pathbuster
 5.7M   ├── /tmp/toolpack_x86_64/amp
-5.7M   ├── /tmp/toolpack_x86_64/zt-patterns
 5.7M   ├── /tmp/toolpack_x86_64/wego
+5.7M   ├── /tmp/toolpack_x86_64/zt-patterns
 5.6M   ├── /tmp/toolpack_x86_64/goanywhere
+5.6M   ├── /tmp/toolpack_x86_64/qemu-aarch64_be-static
+5.6M   ├── /tmp/toolpack_x86_64/qemu-aarch64-static
 5.6M   ├── /tmp/toolpack_x86_64/cwe_checker
 5.6M   ├── /tmp/toolpack_x86_64/gup
 5.6M   ├── /tmp/toolpack_x86_64/web-cache-vulnerability-scanner
@@ -513,8 +483,9 @@
 5.4M   ├── /tmp/toolpack_x86_64/gorilla
 5.4M   ├── /tmp/toolpack_x86_64/certspotter
 5.3M   ├── /tmp/toolpack_x86_64/bombadillo
-5.3M   ├── /tmp/toolpack_x86_64/horust
 5.3M   ├── /tmp/toolpack_x86_64/clipcat-notify
+5.3M   ├── /tmp/toolpack_x86_64/horust
+5.3M   ├── /tmp/toolpack_x86_64/qemu-hexagon-static
 5.3M   ├── /tmp/toolpack_x86_64/getJS
 5.3M   ├── /tmp/toolpack_x86_64/gitdorks_go
 5.3M   ├── /tmp/toolpack_x86_64/hacker-scoper
@@ -534,20 +505,16 @@
 5.1M   ├── /tmp/toolpack_x86_64/sourcemapper
 5.1M   ├── /tmp/toolpack_x86_64/crawley
 5.1M   ├── /tmp/toolpack_x86_64/git-tag
-5.1M   ├── /tmp/toolpack_x86_64/qemu-aarch64_be-static
 5.1M   ├── /tmp/toolpack_x86_64/unfurl
-5.1M   ├── /tmp/toolpack_x86_64/qemu-aarch64-static
 5.1M   ├── /tmp/toolpack_x86_64/rewritepkg
 5.0M   ├── /tmp/toolpack_x86_64/cpu
 5.0M   ├── /tmp/toolpack_x86_64/wth
 5.0M   ├── /tmp/toolpack_x86_64/rsync
 5.0M   ├── /tmp/toolpack_x86_64/gfx
 5.0M   ├── /tmp/toolpack_x86_64/cfspeedtest
-5.0M   ├── /tmp/toolpack_x86_64/openssl
 5.0M   ├── /tmp/toolpack_x86_64/decpud
 5.0M   ├── /tmp/toolpack_x86_64/xurls
 4.9M   ├── /tmp/toolpack_x86_64/ppfuzz
-4.9M   ├── /tmp/toolpack_x86_64/stress-ng
 4.9M   ├── /tmp/toolpack_x86_64/dnstake
 4.9M   ├── /tmp/toolpack_x86_64/mantra
 4.9M   ├── /tmp/toolpack_x86_64/elinks-lite
@@ -562,13 +529,10 @@
 4.9M   ├── /tmp/toolpack_x86_64/mkbundle
 4.9M   ├── /tmp/toolpack_x86_64/actionlint
 4.8M   ├── /tmp/toolpack_x86_64/rootlesskit-docker-proxy
-4.8M   ├── /tmp/toolpack_x86_64/sshd
 4.8M   ├── /tmp/toolpack_x86_64/agg-tunnel
 4.8M   ├── /tmp/toolpack_x86_64/nping
 4.8M   ├── /tmp/toolpack_x86_64/warp-dex
 4.8M   ├── /tmp/toolpack_x86_64/mani
-4.7M   ├── /tmp/toolpack_x86_64/gxss
-4.7M   ├── /tmp/toolpack_x86_64/qemu-hexagon-static
 4.7M   ├── /tmp/toolpack_x86_64/fget
 4.7M   ├── /tmp/toolpack_x86_64/jwt-hack
 4.7M   ├── /tmp/toolpack_x86_64/socat
@@ -580,16 +544,14 @@
 4.6M   ├── /tmp/toolpack_x86_64/httprobe
 4.6M   ├── /tmp/toolpack_x86_64/rate-limit-checker
 4.6M   ├── /tmp/toolpack_x86_64/ncat
-4.6M   ├── /tmp/toolpack_x86_64/gpg-tui
 4.6M   ├── /tmp/toolpack_x86_64/crt
 4.6M   ├── /tmp/toolpack_x86_64/enumerepo
 4.6M   ├── /tmp/toolpack_x86_64/bottom
-4.5M   ├── /tmp/toolpack_x86_64/ssh
-4.5M   ├── /tmp/toolpack_x86_64/gotld
 4.5M   ├── /tmp/toolpack_x86_64/certstream
 4.5M   ├── /tmp/toolpack_x86_64/realm
 4.5M   ├── /tmp/toolpack_x86_64/dnsperf
 4.4M   ├── /tmp/toolpack_x86_64/resperf
+4.4M   ├── /tmp/toolpack_x86_64/agrind
 4.4M   ├── /tmp/toolpack_x86_64/ouch
 4.4M   ├── /tmp/toolpack_x86_64/kubemetrics
 4.3M   ├── /tmp/toolpack_x86_64/twingate-connectorctl
@@ -598,13 +560,10 @@
 4.3M   ├── /tmp/toolpack_x86_64/onetun
 4.3M   ├── /tmp/toolpack_x86_64/bbtargets
 4.3M   ├── /tmp/toolpack_x86_64/tahm
-4.3M   ├── /tmp/toolpack_x86_64/ssh-keysign
-4.3M   ├── /tmp/toolpack_x86_64/axel
 4.3M   ├── /tmp/toolpack_x86_64/tun2proxy
-4.3M   ├── /tmp/toolpack_x86_64/ssh-keyscan
+4.3M   ├── /tmp/toolpack_x86_64/axel
 4.2M   ├── /tmp/toolpack_x86_64/datadash
 4.2M   ├── /tmp/toolpack_x86_64/overmind
-4.2M   ├── /tmp/toolpack_x86_64/ssh-keygen
 4.2M   ├── /tmp/toolpack_x86_64/hurlfmt
 4.2M   ├── /tmp/toolpack_x86_64/robotstxt
 4.2M   ├── /tmp/toolpack_x86_64/nrp
@@ -612,28 +571,38 @@
 4.2M   ├── /tmp/toolpack_x86_64/doomxss
 4.2M   ├── /tmp/toolpack_x86_64/checkbypass
 4.2M   ├── /tmp/toolpack_x86_64/chainredir
+4.1M   ├── /tmp/toolpack_x86_64/qemu-riscv64-static
 4.1M   ├── /tmp/toolpack_x86_64/cpud
 4.1M   ├── /tmp/toolpack_x86_64/warp-cli
-4.1M   ├── /tmp/toolpack_x86_64/ssh-add
-4.1M   ├── /tmp/toolpack_x86_64/ssh-agent
-4.0M   ├── /tmp/toolpack_x86_64/tokei
+4.1M   ├── /tmp/toolpack_x86_64/qemu-riscv32-static
 4.0M   ├── /tmp/toolpack_x86_64/hwatch
 4.0M   ├── /tmp/toolpack_x86_64/kalker
 4.0M   ├── /tmp/toolpack_x86_64/dotenv-linter
 4.0M   ├── /tmp/toolpack_x86_64/gojq
+4.0M   ├── /tmp/toolpack_x86_64/qemu-armeb-static
+4.0M   ├── /tmp/toolpack_x86_64/qemu-arm-static
 3.9M   ├── /tmp/toolpack_x86_64/fd
 3.9M   ├── /tmp/toolpack_x86_64/xcp
+3.9M   ├── /tmp/toolpack_x86_64/tokei
+3.9M   ├── /tmp/toolpack_x86_64/qemu-mipsn32-static
+3.9M   ├── /tmp/toolpack_x86_64/qemu-mipsn32el-static
+3.9M   ├── /tmp/toolpack_x86_64/qemu-mips64-static
+3.9M   ├── /tmp/toolpack_x86_64/qemu-mips64el-static
 3.9M   ├── /tmp/toolpack_x86_64/pfetch-rs
+3.9M   ├── /tmp/toolpack_x86_64/qemu-mips-static
 3.9M   ├── /tmp/toolpack_x86_64/twingate-notifier
 3.9M   ├── /tmp/toolpack_x86_64/just
+3.9M   ├── /tmp/toolpack_x86_64/qemu-mipsel-static
 3.8M   ├── /tmp/toolpack_x86_64/dns-doctor
 3.8M   ├── /tmp/toolpack_x86_64/validtoml
 3.8M   ├── /tmp/toolpack_x86_64/kanha
 3.8M   ├── /tmp/toolpack_x86_64/makebbmain
+3.8M   ├── /tmp/toolpack_x86_64/qemu-ppc64-static
+3.8M   ├── /tmp/toolpack_x86_64/qemu-ppc64le-static
+3.8M   ├── /tmp/toolpack_x86_64/qemu-ppc-static
 3.8M   ├── /tmp/toolpack_x86_64/ripgen
 3.8M   ├── /tmp/toolpack_x86_64/mqttui
 3.8M   ├── /tmp/toolpack_x86_64/sshkeys
-3.8M   ├── /tmp/toolpack_x86_64/wasminspect
 3.7M   ├── /tmp/toolpack_x86_64/rage
 3.7M   ├── /tmp/toolpack_x86_64/lsd
 3.7M   ├── /tmp/toolpack_x86_64/spiped
@@ -642,37 +611,27 @@
 3.7M   ├── /tmp/toolpack_x86_64/viu
 3.6M   ├── /tmp/toolpack_x86_64/cidr
 3.6M   ├── /tmp/toolpack_x86_64/hcxpcapngtool
-3.6M   ├── /tmp/toolpack_x86_64/qemu-riscv64-static
 3.6M   ├── /tmp/toolpack_x86_64/iperf3
 3.6M   ├── /tmp/toolpack_x86_64/iperf
 3.6M   ├── /tmp/toolpack_x86_64/fzf
 3.6M   ├── /tmp/toolpack_x86_64/7z
-3.5M   ├── /tmp/toolpack_x86_64/kakoune
-3.5M   ├── /tmp/toolpack_x86_64/qemu-riscv32-static
 3.5M   ├── /tmp/toolpack_x86_64/bandwhich
 3.5M   ├── /tmp/toolpack_x86_64/hcxpsktool
 3.5M   ├── /tmp/toolpack_x86_64/twingate-client
+3.4M   ├── /tmp/toolpack_x86_64/qemu-i386-static
 3.4M   ├── /tmp/toolpack_x86_64/hcxpmktool
+3.4M   ├── /tmp/toolpack_x86_64/qemu-x86_64-static
 3.4M   ├── /tmp/toolpack_x86_64/nix-locate
-3.4M   ├── /tmp/toolpack_x86_64/qemu-armeb-static
 3.4M   ├── /tmp/toolpack_x86_64/passdetective
-3.4M   ├── /tmp/toolpack_x86_64/qemu-arm-static
-3.4M   ├── /tmp/toolpack_x86_64/kalc
 3.4M   ├── /tmp/toolpack_x86_64/killport
 3.4M   ├── /tmp/toolpack_x86_64/lf
 3.4M   ├── /tmp/toolpack_x86_64/age
 3.4M   ├── /tmp/toolpack_x86_64/rust-parallel
-3.4M   ├── /tmp/toolpack_x86_64/qemu-mipsn32-static
-3.4M   ├── /tmp/toolpack_x86_64/qemu-mips64-static
-3.3M   ├── /tmp/toolpack_x86_64/qemu-mipsn32el-static
-3.3M   ├── /tmp/toolpack_x86_64/qemu-mips64el-static
 3.3M   ├── /tmp/toolpack_x86_64/pspy
 3.3M   ├── /tmp/toolpack_x86_64/navi
-3.3M   ├── /tmp/toolpack_x86_64/qemu-mips-static
-3.3M   ├── /tmp/toolpack_x86_64/qemu-mipsel-static
-3.3M   ├── /tmp/toolpack_x86_64/qemu-ppc64-static
-3.3M   ├── /tmp/toolpack_x86_64/qemu-ppc64le-static
-3.3M   ├── /tmp/toolpack_x86_64/qemu-ppc-static
+3.3M   ├── /tmp/toolpack_x86_64/kalc
+3.3M   ├── /tmp/toolpack_x86_64/qemu-loongarch64-static
+3.3M   ├── /tmp/toolpack_x86_64/qemu-s390x-static
 3.2M   ├── /tmp/toolpack_x86_64/tlrc
 3.2M   ├── /tmp/toolpack_x86_64/mosh-client
 3.2M   ├── /tmp/toolpack_x86_64/jobs
@@ -682,11 +641,15 @@
 3.1M   ├── /tmp/toolpack_x86_64/stuffbin
 3.1M   ├── /tmp/toolpack_x86_64/binary-security-check
 3.1M   ├── /tmp/toolpack_x86_64/txeh
+3.1M   ├── /tmp/toolpack_x86_64/qemu-sparc32plus-static
 3.1M   ├── /tmp/toolpack_x86_64/njs
+3.1M   ├── /tmp/toolpack_x86_64/qemu-sparc64-static
 3.1M   ├── /tmp/toolpack_x86_64/dysk
+3.1M   ├── /tmp/toolpack_x86_64/qemu-m68k-static
 3.1M   ├── /tmp/toolpack_x86_64/smartdns
 3.1M   ├── /tmp/toolpack_x86_64/taierspeed-cli
 3.1M   ├── /tmp/toolpack_x86_64/walk
+3.0M   ├── /tmp/toolpack_x86_64/qemu-sparc-static
 3.0M   ├── /tmp/toolpack_x86_64/logtimer
 3.0M   ├── /tmp/toolpack_x86_64/bed
 3.0M   ├── /tmp/toolpack_x86_64/tmate
@@ -696,24 +659,28 @@
 2.9M   ├── /tmp/toolpack_x86_64/encrypted-dns
 2.9M   ├── /tmp/toolpack_x86_64/rage-keygen
 2.9M   ├── /tmp/toolpack_x86_64/t-rec
-2.9M   ├── /tmp/toolpack_x86_64/qemu-i386-static
-2.9M   ├── /tmp/toolpack_x86_64/qemu-x86_64-static
+2.9M   ├── /tmp/toolpack_x86_64/qemu-hppa-static
 2.9M   ├── /tmp/toolpack_x86_64/dufs
 2.9M   ├── /tmp/toolpack_x86_64/htmlq
-2.8M   ├── /tmp/toolpack_x86_64/dust
 2.8M   ├── /tmp/toolpack_x86_64/wireguard-rs
 2.8M   ├── /tmp/toolpack_x86_64/rpaste
 2.8M   ├── /tmp/toolpack_x86_64/cotp
 2.8M   ├── /tmp/toolpack_x86_64/ropr
+2.8M   ├── /tmp/toolpack_x86_64/qemu-sh4eb-static
+2.8M   ├── /tmp/toolpack_x86_64/qemu-sh4-static
+2.8M   ├── /tmp/toolpack_x86_64/qemu-alpha-static
 2.8M   ├── /tmp/toolpack_x86_64/yj
 2.8M   ├── /tmp/toolpack_x86_64/rnr
 2.8M   ├── /tmp/toolpack_x86_64/goawk
-2.7M   ├── /tmp/toolpack_x86_64/qemu-loongarch64-static
+2.8M   ├── /tmp/toolpack_x86_64/qemu-cris-static
+2.8M   ├── /tmp/toolpack_x86_64/qemu-microblaze-static
+2.8M   ├── /tmp/toolpack_x86_64/qemu-microblazeel-static
 2.7M   ├── /tmp/toolpack_x86_64/cowthink
 2.7M   ├── /tmp/toolpack_x86_64/cowsay
+2.7M   ├── /tmp/toolpack_x86_64/qemu-nios2-static
 2.7M   ├── /tmp/toolpack_x86_64/gs-netcat
 2.7M   ├── /tmp/toolpack_x86_64/wireguard-go
-2.7M   ├── /tmp/toolpack_x86_64/qemu-s390x-static
+2.7M   ├── /tmp/toolpack_x86_64/qemu-or1k-static
 2.7M   ├── /tmp/toolpack_x86_64/unf
 2.6M   ├── /tmp/toolpack_x86_64/cproxy
 2.6M   ├── /tmp/toolpack_x86_64/tere
@@ -724,18 +691,14 @@
 2.6M   ├── /tmp/toolpack_x86_64/p9cpud
 2.6M   ├── /tmp/toolpack_x86_64/rippkgs
 2.6M   ├── /tmp/toolpack_x86_64/fwanalyzer
-2.5M   ├── /tmp/toolpack_x86_64/qemu-sparc32plus-static
-2.5M   ├── /tmp/toolpack_x86_64/qemu-sparc64-static
-2.5M   ├── /tmp/toolpack_x86_64/qemu-m68k-static
 2.5M   ├── /tmp/toolpack_x86_64/dsieve
 2.5M   ├── /tmp/toolpack_x86_64/sd
-2.5M   ├── /tmp/toolpack_x86_64/zt-exchange
-2.5M   ├── /tmp/toolpack_x86_64/qemu-sparc-static
 2.5M   ├── /tmp/toolpack_x86_64/phantun-client
+2.5M   ├── /tmp/toolpack_x86_64/zt-exchange
 2.5M   ├── /tmp/toolpack_x86_64/boringtun-cli
 2.5M   ├── /tmp/toolpack_x86_64/systeroid
-2.4M   ├── /tmp/toolpack_x86_64/phantun-server
 2.4M   ├── /tmp/toolpack_x86_64/geodns
+2.4M   ├── /tmp/toolpack_x86_64/phantun-server
 2.4M   ├── /tmp/toolpack_x86_64/geoping
 2.4M   ├── /tmp/toolpack_x86_64/tz
 2.4M   ├── /tmp/toolpack_x86_64/kondo
@@ -744,33 +707,24 @@
 2.4M   ├── /tmp/toolpack_x86_64/mdsh
 2.4M   ├── /tmp/toolpack_x86_64/husarnet-daemon
 2.4M   ├── /tmp/toolpack_x86_64/btop
-2.3M   ├── /tmp/toolpack_x86_64/qemu-hppa-static
 2.3M   ├── /tmp/toolpack_x86_64/encode
 2.3M   ├── /tmp/toolpack_x86_64/hadolint
 2.3M   ├── /tmp/toolpack_x86_64/gencmddeps
-2.3M   ├── /tmp/toolpack_x86_64/qemu-sh4eb-static
-2.2M   ├── /tmp/toolpack_x86_64/qemu-sh4-static
 2.2M   ├── /tmp/toolpack_x86_64/fdupes
-2.2M   ├── /tmp/toolpack_x86_64/qemu-alpha-static
-2.2M   ├── /tmp/toolpack_x86_64/qemu-microblaze-static
 2.2M   ├── /tmp/toolpack_x86_64/redive
-2.2M   ├── /tmp/toolpack_x86_64/qemu-microblazeel-static
-2.2M   ├── /tmp/toolpack_x86_64/qemu-cris-static
 2.2M   ├── /tmp/toolpack_x86_64/jq
 2.2M   ├── /tmp/toolpack_x86_64/pkgtop
-2.2M   ├── /tmp/toolpack_x86_64/qemu-nios2-static
-2.2M   ├── /tmp/toolpack_x86_64/qemu-or1k-static
 2.1M   ├── /tmp/toolpack_x86_64/tidy-viewer
 2.1M   ├── /tmp/toolpack_x86_64/udpx
 2.1M   ├── /tmp/toolpack_x86_64/headtail
 2.1M   ├── /tmp/toolpack_x86_64/hakrevdns
 2.1M   ├── /tmp/toolpack_x86_64/gosu
-2.0M   ├── /tmp/toolpack_x86_64/diffutils-rs
+2.1M   ├── /tmp/toolpack_x86_64/diffutils-rs
 2.0M   ├── /tmp/toolpack_x86_64/duf
 2.0M   ├── /tmp/toolpack_x86_64/ffufPostprocessing
 2.0M   ├── /tmp/toolpack_x86_64/miniserve
-2.0M   ├── /tmp/toolpack_x86_64/shortutil
 2.0M   ├── /tmp/toolpack_x86_64/pelfd
+2.0M   ├── /tmp/toolpack_x86_64/shortutil
 2.0M   ├── /tmp/toolpack_x86_64/gronx-tasker
 2.0M   ├── /tmp/toolpack_x86_64/zenith
 2.0M   ├── /tmp/toolpack_x86_64/pencode
@@ -778,8 +732,8 @@
 2.0M   ├── /tmp/toolpack_x86_64/gf
 1.9M   ├── /tmp/toolpack_x86_64/cexec
 1.9M   ├── /tmp/toolpack_x86_64/curlie
-1.9M   ├── /tmp/toolpack_x86_64/revit
 1.9M   ├── /tmp/toolpack_x86_64/eza
+1.9M   ├── /tmp/toolpack_x86_64/revit
 1.9M   ├── /tmp/toolpack_x86_64/deark
 1.8M   ├── /tmp/toolpack_x86_64/mergerfs
 1.8M   ├── /tmp/toolpack_x86_64/age-keygen
@@ -789,15 +743,14 @@
 1.8M   ├── /tmp/toolpack_x86_64/bbscope
 1.8M   ├── /tmp/toolpack_x86_64/gotator
 1.8M   ├── /tmp/toolpack_x86_64/ds
-1.8M   ├── /tmp/toolpack_x86_64/jaq
 1.8M   ├── /tmp/toolpack_x86_64/docker-proxy
 1.8M   ├── /tmp/toolpack_x86_64/cutlines
+1.7M   ├── /tmp/toolpack_x86_64/ht
 1.7M   ├── /tmp/toolpack_x86_64/jwt-cracker
+1.7M   ├── /tmp/toolpack_x86_64/jaq
 1.7M   ├── /tmp/toolpack_x86_64/inscope
 1.7M   ├── /tmp/toolpack_x86_64/uip
-1.7M   ├── /tmp/toolpack_x86_64/fio
 1.7M   ├── /tmp/toolpack_x86_64/xargs-rs
-1.7M   ├── /tmp/toolpack_x86_64/exa
 1.6M   ├── /tmp/toolpack_x86_64/sudo-rs
 1.6M   ├── /tmp/toolpack_x86_64/vnstat
 1.6M   ├── /tmp/toolpack_x86_64/zfxtop
@@ -805,7 +758,6 @@
 1.6M   ├── /tmp/toolpack_x86_64/tmux
 1.6M   ├── /tmp/toolpack_x86_64/jless_staticx
 1.6M   ├── /tmp/toolpack_x86_64/mmv
-1.6M   ├── /tmp/toolpack_x86_64/vnstatd
 1.6M   ├── /tmp/toolpack_x86_64/moac-pwgen
 1.5M   ├── /tmp/toolpack_x86_64/goaccess
 1.5M   ├── /tmp/toolpack_x86_64/fastfetch-staticx
@@ -840,7 +792,6 @@
 1.3M   ├── /tmp/toolpack_x86_64/eap
 1.3M   ├── /tmp/toolpack_x86_64/removepro
 1.3M   ├── /tmp/toolpack_x86_64/qsreplace
-1.3M   ├── /tmp/toolpack_x86_64/ht
 1.3M   ├── /tmp/toolpack_x86_64/strace
 1.3M   ├── /tmp/toolpack_x86_64/ubase-box
 1.3M   ├── /tmp/toolpack_x86_64/fuse-overlayfs
@@ -855,44 +806,36 @@
 1.2M   ├── /tmp/toolpack_x86_64/b3sum
 1.2M   ├── /tmp/toolpack_x86_64/anew
 1.2M   ├── /tmp/toolpack_x86_64/rathole
-1.2M   ├── /tmp/toolpack_x86_64/sudoedit
-1.2M   ├── /tmp/toolpack_x86_64/sudo
 1.2M   ├── /tmp/toolpack_x86_64/su-rs
 1.2M   ├── /tmp/toolpack_x86_64/zoxide
 1.2M   ├── /tmp/toolpack_x86_64/z
 1.1M   ├── /tmp/toolpack_x86_64/strip-ansi-escapes
 1.1M   ├── /tmp/toolpack_x86_64/zstd
-1.1M   ├── /tmp/toolpack_x86_64/busybox
 1.1M   ├── /tmp/toolpack_x86_64/catatonit
 1.0M   ├── /tmp/toolpack_x86_64/awk
 1.0M   ├── /tmp/toolpack_x86_64/jql
-1.0M   ├── /tmp/toolpack_x86_64/bash
 992K   ├── /tmp/toolpack_x86_64/csview
-972K   ├── /tmp/toolpack_x86_64/grep
 952K   ├── /tmp/toolpack_x86_64/svg-hush
 948K   ├── /tmp/toolpack_x86_64/hexyl
 924K   ├── /tmp/toolpack_x86_64/cargo-unlock
 872K   ├── /tmp/toolpack_x86_64/hx
 868K   ├── /tmp/toolpack_x86_64/catp
-856K   ├── /tmp/toolpack_x86_64/zt-hashes
+844K   ├── /tmp/toolpack_x86_64/zt-hashes
 828K   ├── /tmp/toolpack_x86_64/anew-rs
 816K   ├── /tmp/toolpack_x86_64/anewer
 740K   ├── /tmp/toolpack_x86_64/toybox
 692K   ├── /tmp/toolpack_x86_64/docker-init
 604K   ├── /tmp/toolpack_x86_64/whois
-592K   ├── /tmp/toolpack_x86_64/sudo_logsrvd
 592K   ├── /tmp/toolpack_x86_64/elfcat
 584K   ├── /tmp/toolpack_x86_64/ncdu
-568K   ├── /tmp/toolpack_x86_64/cvtsudoers
 564K   ├── /tmp/toolpack_x86_64/procan
 564K   ├── /tmp/toolpack_x86_64/filan
 552K   ├── /tmp/toolpack_x86_64/upx
-544K   ├── /tmp/toolpack_x86_64/neofetch
+548K   ├── /tmp/toolpack_x86_64/neofetch
 544K   ├── /tmp/toolpack_x86_64/dropbearmulti
-540K   ├── /tmp/toolpack_x86_64/zt-encodings
+532K   ├── /tmp/toolpack_x86_64/zt-encodings
 492K   ├── /tmp/toolpack_x86_64/unifetch
 484K   ├── /tmp/toolpack_x86_64/mtr
-476K   ├── /tmp/toolpack_x86_64/visudo
 464K   ├── /tmp/toolpack_x86_64/generate-bidi
 460K   ├── /tmp/toolpack_x86_64/dropbear
 456K   ├── /tmp/toolpack_x86_64/shellharden
@@ -902,19 +845,12 @@
 432K   ├── /tmp/toolpack_x86_64/loksh
 412K   ├── /tmp/toolpack_x86_64/dbclient
 408K   ├── /tmp/toolpack_x86_64/tio
-404K   ├── /tmp/toolpack_x86_64/smenu
 404K   ├── /tmp/toolpack_x86_64/sadf
 396K   ├── /tmp/toolpack_x86_64/nnn
-368K   ├── /tmp/toolpack_x86_64/sudo_sendlog
-364K   ├── /tmp/toolpack_x86_64/scp
-364K   ├── /tmp/toolpack_x86_64/find
-356K   ├── /tmp/toolpack_x86_64/sudoreplay
-356K   ├── /tmp/toolpack_x86_64/sftp
 356K   ├── /tmp/toolpack_x86_64/logrotate
 344K   ├── /tmp/toolpack_x86_64/fi6s
 300K   ├── /tmp/toolpack_x86_64/mdp
 288K   ├── /tmp/toolpack_x86_64/region_restriction_check.sh
-268K   ├── /tmp/toolpack_x86_64/sftp-server
 264K   ├── /tmp/toolpack_x86_64/doas
 260K   ├── /tmp/toolpack_x86_64/pigz
 256K   ├── /tmp/toolpack_x86_64/screenfetch
@@ -941,8 +877,6 @@
 140K   ├── /tmp/toolpack_x86_64/pidstat
 140K   ├── /tmp/toolpack_x86_64/ifrename
 132K   ├── /tmp/toolpack_x86_64/wg
-128K   ├── /tmp/toolpack_x86_64/ipt2socks
-124K   ├── /tmp/toolpack_x86_64/xargs
 124K   ├── /tmp/toolpack_x86_64/rust-hypervisor-firmware
 124K   ├── /tmp/toolpack_x86_64/iwlist
 124K   ├── /tmp/toolpack_x86_64/hypervisor-fw
@@ -981,7 +915,6 @@
  72K   ├── /tmp/toolpack_x86_64/bin2video
  68K   ├── /tmp/toolpack_x86_64/zapper-stealth
  68K   ├── /tmp/toolpack_x86_64/cifsiostat
- 68K   ├── /tmp/toolpack_x86_64/binfetch
  56K   ├── /tmp/toolpack_x86_64/joker
  56K   ├── /tmp/toolpack_x86_64/gguf-tools
  52K   ├── /tmp/toolpack_x86_64/hcxwltool
@@ -1012,7 +945,6 @@
 4.0K   ├── /tmp/toolpack_x86_64/zerotier-one_systemd_service
 4.0K   ├── /tmp/toolpack_x86_64/sysstat
 4.0K   ├── /tmp/toolpack_x86_64/subxtract.sh
-4.0K   ├── /tmp/toolpack_x86_64/sshd_config
 4.0K   ├── /tmp/toolpack_x86_64/serverstatus-gen-certs.sh
 4.0K   ├── /tmp/toolpack_x86_64/scopeview
 4.0K   ├── /tmp/toolpack_x86_64/sa2
@@ -1020,6 +952,5 @@
 4.0K   ├── /tmp/toolpack_x86_64/pelf_linker
 4.0K   ├── /tmp/toolpack_x86_64/pelf_extract
 4.0K   ├── /tmp/toolpack_x86_64/nezha-dashboard.service
-4.0K   ├── /tmp/toolpack_x86_64/nezha-dashboard.openrc
-4.0K   └── /tmp/toolpack_x86_64/binfetch.cfg
+4.0K   └── /tmp/toolpack_x86_64/nezha-dashboard.openrc
 ```
