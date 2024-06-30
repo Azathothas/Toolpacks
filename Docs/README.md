@@ -48,9 +48,18 @@
 ---
 
 - #### What is `Baseutils`?
-> - Essentially [Baseutils is a collection](https://github.com/Azathothas/Static-Binaries/tree/main/baseutils) of `Bins from CoreUtils` + `BusyBox` + `FindUtils` + `OpenSSH` + `Procps` + `ToyBox` + `UtilLinux` + `XZ-Utils` & [`More`](https://github.com/Azathothas/Static-Binaries/tree/main/baseutils).
+> - Essentially [Baseutils is a collection](https://bin.ajam.dev/x86_64_Linux/Baseutils/) of `Bins from CoreUtils` + `BusyBox` + `FindUtils` + `OpenSSH` + `Procps` + `ToyBox` + `UtilLinux` + `XZ-Utils` & [`More`](https://bin.ajam.dev/x86_64_Linux/Baseutils/).
 > Mostly meant for restricted environments like ephemeral [AWS Lambda](https://medium.com/clog/ssh-ing-into-your-aws-lambda-functions-c940cebf7646), [Google Cloud Functions](https://cloud.google.com/functions?hl=en) or anywhere really where there's a lack of coreutils or no privs to use pkg managers.
 > This could also be _theoretically_ used to [bootstrap a linux distro](https://www.youtube.com/watch?v=0vOEcw_sPaM), however, some binaries may not work as I haven't tested all of them comprehensively. Stability & Reliability isn't Guaranteed.
+---
+
+- #### Why not host on GitHub?
+> - Actually, I used to do just that back when there were only a few hundred binaries. All binaries were hosted on GitHub along with weekly releases containing all Binaries packed in tar/7z.
+> > You can find this on the [WayBack Archive](https://web.archive.org/web/*/https://github.com/Azathothas/Toolpacks): https://web.archive.org/web/*/https://github.com/Azathothas/Toolpacks
+> - As number of packages grew, Git turned out to be not the right tool: https://www.reddit.com/r/git/comments/ek4kv2/git_is_bad_at_binary_file_management_but_is_it/
+> - GitHub also has limits: https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
+> - Last but not least, to avoid https://github.com/Azathothas/Toolpacks/edit/main/Docs/README.md#dmca-copyright--cease--desist
+---
 
 - #### How to contribute?
 > To contribute, you **first must read & understand this entire repo**. After that, follow similar code/script style to make changes & then create a pull request.
@@ -61,3 +70,12 @@
 >
 > However, if it's not related to `code | asking for more packages` to be included, you can **contribute/help me by donating a build server**. Either `arm (Preferred)` or `amd x86_64`.
 > Servers & Storage cost money, right now I pay for [Self Hosted Github Runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) & R2 Bucket (70-100$/Month).
+---
+
+- #### [`DMCA`](https://opensource.guide/legal/), [`Copyright`](https://opensource.guide/legal/) & [`Cease & Desist`](https://opensource.guide/legal/)
+> - If you/your project/software uses a license which forbids binary distribution, and you would like to take down the binary:
+> > - First, having such clause and disallowing people to distribute binaries, will harm only your own popularity/ potential user increment
+> > - Second, this repo is intentionally licensed as [`unlicense`](https://unlicense.org/) which is essentially Public Domain/Do whatever you want.
+> > - Third, if you have no problems with any major package managers like [brew](https://brew.sh/), [NixPKGs](https://search.nixos.org/packages), [pkgsrc](https://pkgsrc.org/) etc, you shouldn't have an Issue with this repo.
+> > - In summary, all `DMCA | CopyRight` **Notices will be Ignored & Not Complied With.**
+> > > All Binaries are hosted on Cloudflare, and NOT GitHub. GitHub only contains scripts & source code.
