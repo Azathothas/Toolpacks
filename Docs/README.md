@@ -79,3 +79,7 @@
 > > - Third, if you have no problems with any major package managers like [brew](https://brew.sh/), [NixPKGs](https://search.nixos.org/packages), [pkgsrc](https://pkgsrc.org/) etc, you shouldn't have an Issue with this repo.
 > > - In summary, all `DMCA | CopyRight` **Notices will be Ignored & Not Complied With.**
 > > > All Binaries are hosted on Cloudflare, and NOT GitHub. GitHub only contains scripts & source code.
+---
+
+- #### [Contact](https://ajam.dev/contact)
+> - If you find your question hasn't been answered here OR you would like to seek clarification OR just say Hi : https://ajam.dev/contact
