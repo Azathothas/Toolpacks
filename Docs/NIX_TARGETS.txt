@@ -62,6 +62,7 @@ pkgsCross.sheevaplug
 pkgsCross.ucrt64
 pkgsCross.vc4
 pkgsCross.wasi32
+pkgsCross.wasm32-unknown-none
 pkgsCross.x86_64-darwin
 pkgsCross.x86_64-embedded
 pkgsCross.x86_64-freebsd
