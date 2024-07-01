@@ -72,7 +72,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          dasel put --file "./Cargo.toml" ".profile.release.opt-level" --type int --value "3"
          dasel put --file "./Cargo.toml" ".profile.release.strip" --type bool --value "true"
          rm rust-toolchain* 2>/dev/null
-         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+         cargo build --target "$RUST_TARGET" --release -j "$(($(nproc)+1))" --keep-going
          cp "./target/$RUST_TARGET/release/jless" "/build-bins/jless"
         '
       #Copy 

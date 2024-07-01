@@ -76,7 +76,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          #openssl = { version = "*", features = ["vendored"] }
          sed -i "/\[dependencies\]/a openssl = { version = \"*\", features = ['\''vendored'\''] }" "./Cargo.toml"
          rm rust-toolchain* 2>/dev/null
-         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+         cargo build --target "$RUST_TARGET" --release -j "$(($(nproc)+1))" --keep-going
          cp "./target/$RUST_TARGET/release/pingmole" "/build-bins/pingmole"
         '
       #Copy 

@@ -71,7 +71,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         export RUST_TARGET="aarch64-linux-android" && rustup target add "$RUST_TARGET"
         export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=${CC} -C ar=${AR} -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,--no-dynamic-linker -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
         sed '/^\[profile\.release\]/,/^$/d' -i "./Cargo.toml" ; echo -e '\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true' >> "./Cargo.toml"
-        cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/anew" "./anew-rs"
+        cargo build --target "$RUST_TARGET" --release -j "$(($(nproc)+1))" --keep-going ; cp "./target/$RUST_TARGET/release/anew" "./anew-rs"
        #Meta
         file "./anew-rs" && du -sh "./anew-rs" ; aarch64-linux-gnu-readelf -d "./anew-rs" | grep -i 'needed'
         cp "./anew-rs" "$BINDIR/anew-rs"
