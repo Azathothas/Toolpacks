@@ -1,0 +1,7 @@
+name: "squashfuse"
+description: "FUSE filesystem to mount squashfs archives"
+web_url: "https://github.com/vasi/squashfuse"
+repo_url: "https://github.com/vasi/squashfuse"
+bins:
+  - "squashfuse"
+  - "squashfuse_ll"

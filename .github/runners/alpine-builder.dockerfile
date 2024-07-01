@@ -133,6 +133,7 @@ RUN <<EOS
   apk add indent --latest --upgrade --no-interactive 2>/dev/null
   apk add iperf --latest --upgrade --no-interactive 2>/dev/null
   apk add iputils --latest --upgrade --no-interactive 2>/dev/null
+  apk add itstool --latest --upgrade --no-interactive 2>/dev/null
   apk add iw --latest --upgrade --no-interactive 2>/dev/null
   apk add jack --latest --upgrade --no-interactive 2>/dev/null
   apk add jack-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -267,6 +268,8 @@ RUN <<EOS
   apk add libxi-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxkbcommon-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libxkbcommon-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxmlb --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxmlb-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libxml2 --latest --upgrade --no-interactive 2>/dev/null
   apk add libxml2-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxml2-utils --latest --upgrade --no-interactive 2>/dev/null
@@ -485,6 +488,10 @@ RUN <<EOS
   apk add xz-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add yaml --latest --upgrade --no-interactive 2>/dev/null
+  apk add yaml-0 --latest --upgrade --no-interactive 2>/dev/null
+  apk add yaml-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add yaml-static --latest --upgrade --no-interactive 2>/dev/null
   apk add zig --latest --upgrade --no-interactive 2>/dev/null
   apk add zlib --latest --upgrade --no-interactive 2>/dev/null
   apk add zlib-dev --latest --upgrade --no-interactive 2>/dev/null

@@ -381,7 +381,7 @@
        #Host
         sudo curl -qfsSL "https://raw.githubusercontent.com/leleliu008/ndk-pkg/master/ndk-pkg" -o "/usr/local/bin/ndk-pkg" && sudo chmod +x "/usr/local/bin/ndk-pkg"
         #Setup & Config
-         ndk-pkg upgrade-self ; ndk-pkg setup ; ndk-pkg update ; ndk-pkg sysinfo
+         ndk-pkg setup ; ndk-pkg upgrade-self ; ndk-pkg update ; ndk-pkg sysinfo
         #Install a pseudo pkg to initialize ndk
          rm -rf "$SYSTMP/ndk.log" 2>/dev/null
          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/ansi2txt" -o "/usr/bin/ansi2txt" && sudo chmod +x "/usr/local/bin/ansi2txt"
