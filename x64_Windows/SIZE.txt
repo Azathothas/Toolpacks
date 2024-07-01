@@ -76,6 +76,7 @@
  2.3M   ├── /tmp/toolpack_x86_64/ptx.exe
  2.2M   ├── /tmp/toolpack_x86_64/pdftops.exe
  2.2M   ├── /tmp/toolpack_x86_64/csplit.exe
+ 2.2M   ├── /tmp/toolpack_x86_64/err.exe
  2.2M   ├── /tmp/toolpack_x86_64/nl.exe
  2.1M   ├── /tmp/toolpack_x86_64/tac.exe
  2.1M   ├── /tmp/toolpack_x86_64/pdftopng.exe
@@ -86,7 +87,6 @@
  1.7M   ├── /tmp/toolpack_x86_64/inscope.exe
  1.6M   ├── /tmp/toolpack_x86_64/botsay.exe
  1.6M   ├── /tmp/toolpack_x86_64/sort.exe
- 1.5M   ├── /tmp/toolpack_x86_64/err.exe
  1.5M   ├── /tmp/toolpack_x86_64/quotes-escaper.exe
  1.5M   ├── /tmp/toolpack_x86_64/dua.exe
  1.4M   ├── /tmp/toolpack_x86_64/expr.exe
@@ -100,10 +100,10 @@
  1.2M   ├── /tmp/toolpack_x86_64/cp.exe
  1.2M   ├── /tmp/toolpack_x86_64/pdfinfo.exe
  1.2M   ├── /tmp/toolpack_x86_64/ls.exe
+ 1.2M   ├── /tmp/toolpack_x86_64/flashfetch.exe
  1.2M   ├── /tmp/toolpack_x86_64/pdffonts.exe
  1.2M   ├── /tmp/toolpack_x86_64/factor.exe
  1.2M   ├── /tmp/toolpack_x86_64/vdir.exe
- 1.2M   ├── /tmp/toolpack_x86_64/flashfetch.exe
  1.2M   ├── /tmp/toolpack_x86_64/dir.exe
  1.2M   ├── /tmp/toolpack_x86_64/pdfdetach.exe
  1.2M   ├── /tmp/toolpack_x86_64/wldd.exe

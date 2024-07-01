@@ -10,10 +10,13 @@
 
 #### Contents
 > - [**📖 Docs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
-> > - [**` How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
-> > - [**` Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
-> > - [**` Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
-> > - [**` How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
+> > - [**`How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
+> > - [**`Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
+> > - [**`Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
+> > - [**`How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
+> > - [**`Why NOT Host On GitHub`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
+> > - [**`DMCA & Copyright`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#dmca-copyright--cease--desist)
+> > - [**`Contact Me`**](https://ajam.dev/contact)
 > - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
 > > - [**`📦Linux x86_64📦`**](https://bin.ajam.dev/x86_64_Linux/) 
 > > - [**`📦Linux aarch64📦`**](https://bin.ajam.dev/aarch64_arm64_Linux/)
@@ -27,7 +30,7 @@
 | 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 |
 |---------------------|-----------------------|-----------------|
 |[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|136| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|
-|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|1558| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|
+|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|1571| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|
 |[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|1093| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|
 |[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|
 
@@ -59,67 +62,75 @@
 > > Invoke-WebRequest -Uri "https://bin.ajam.dev/$env:PROCESSOR_ARCHITECTURE/$BIN_OR_PATH_TO_BIN.exe" -OutFile "$BIN.exe"
 > >
 > > ```
-> 1. Install [**`eget`**](https://github.com/zyedidia/eget)
-> > ```bash
-> > #--------------------------------------------------------------------------------------------#
-> > ❯ amd || x86_64 (Linux) 
-> > 
-> > !# As $USER
-> > mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
-> > curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> > wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> > 
-> > !# As ROOT
-> > sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> > sudo wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> > #--------------------------------------------------------------------------------------------#
-> > 
-> > #--------------------------------------------------------------------------------------------#
-> > ❯ arm64 || aarch64 (Linux) 
-> > 
-> > !# As $USER
-> > mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
-> > curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> > wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> > 
-> > !# As ROOT
-> > sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> > sudo wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> > #--------------------------------------------------------------------------------------------#
-> >
-> > #--------------------------------------------------------------------------------------------#
-> > ❯ arm64-v8a (Android) 
-> > 
-> > !# As $USER (TERMUX)
-> > # $PREFIX:/data/data/com.termux/files/usr
-> > curl -qfSL "https://bin.ajam.dev/arm64_v8a_Android/eget" -o "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
-> > wget -q "https://bin.ajam.dev/arm64_v8a_Android/eget" -O "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
-> > !# Root requires remounting /system/bin as RWR (NOT RECOMMENDED)
-> > #--------------------------------------------------------------------------------------------#
-> > ```
-> 2. Install **`7z`**
-> > ```bash
-> > #--------------------------------------------------------------------------------------------#
-> > ❯ amd || x86_64 (Linux) 
-> > 
-> > !# As $USER
-> > eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "$HOME/bin/7z"
-> > 
-> > !# As ROOT
-> > sudo eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "/usr/local/bin/7z"
-> > #--------------------------------------------------------------------------------------------#
-> > 
-> > #--------------------------------------------------------------------------------------------#
-> > ❯ arm64 || aarch64 (Linux) 
-> > 
-> > !# As $USER
-> > eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "$HOME/bin/7z"
-> > 
-> > !# As ROOT
-> > sudo eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "/usr/local/bin/7z"
-> > ```
-> ---
-> - #### [**Linux `amd x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)
+>
+> <details><summary>Install <b><a href="https://github.com/zyedidia/eget"><code>eget</code></a></b></summary>
+>
+> ```bash
+> #--------------------------------------------------------------------------------------------#
+> ❯ amd || x86_64 (Linux) 
+> 
+> !# As $USER
+> mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
+> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> 
+> !# As ROOT
+> sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> sudo wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> #--------------------------------------------------------------------------------------------#
+> 
+> #--------------------------------------------------------------------------------------------#
+> ❯ arm64 || aarch64 (Linux) 
+> 
+> !# As $USER
+> mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
+> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
+> 
+> !# As ROOT
+> sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> sudo wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+> #--------------------------------------------------------------------------------------------#
+>
+> #--------------------------------------------------------------------------------------------#
+> ❯ arm64-v8a (Android) 
+> 
+> !# As $USER (TERMUX)
+> # $PREFIX:/data/data/com.termux/files/usr
+> curl -qfSL "https://bin.ajam.dev/arm64_v8a_Android/eget" -o "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
+> wget -q "https://bin.ajam.dev/arm64_v8a_Android/eget" -O "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
+> !# Root requires remounting /system/bin as RWR (NOT RECOMMENDED)
+> #--------------------------------------------------------------------------------------------#
+> ```
+> </details>
+>
+> <details><summary>Install <b><a href="https://www.7-zip.org/"><code>7z</code></a></b></summary>
+>    
+> ```bash
+> #--------------------------------------------------------------------------------------------#
+> ❯ amd || x86_64 (Linux) 
+> 
+> !# As $USER
+> eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "$HOME/bin/7z"
+> 
+> !# As ROOT
+> sudo eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "/usr/local/bin/7z"
+> #--------------------------------------------------------------------------------------------#
+> 
+> #--------------------------------------------------------------------------------------------#
+> ❯ arm64 || aarch64 (Linux) 
+> 
+> !# As $USER
+> eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "$HOME/bin/7z"
+> 
+> !# As ROOT
+> sudo eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "/usr/local/bin/7z"
+> ```
+> --- 
+> </details>
+>
+> <details><summary>Info <b><a href="https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux"><code>(amd | x86_64) Linux</code></a></b></summary>
+>
 > ```bash
 > #--------------------------------------------------------------------------------------------#
 > ❯ Single/Individual Binaries
@@ -144,7 +155,10 @@
 > #--------------------------------------------------------------------------------------------#
 > ```
 > ---
-> - #### [**Linux `aarch64_arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)
+> </details>
+>
+> <details><summary>Info <b><a href="https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux"><code>(aarch64 | arm64) Linux</code></a></b></summary>    
+>
 > ```bash
 > #--------------------------------------------------------------------------------------------#
 > ❯ Single/Individual Binaries
@@ -169,7 +183,10 @@
 > #--------------------------------------------------------------------------------------------#
 > ```
 > ---
-> - #### [**Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)
+> </details>
+>
+> <details><summary>Info <b><a href="https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android"><code>(arm64-v8a) Android</code></a></b></summary> 
+>
 > ```bash
 > #--------------------------------------------------------------------------------------------#
 > ❯ Single/Individual Binaries
@@ -193,6 +210,8 @@
 > ls "$PREFIX/bin" | column -t ; popd
 > #--------------------------------------------------------------------------------------------#
 > ```
+> </details>
+>
 ---
 - #### 🚧 Security ⚙️
 It is _never a good idea_ to **install random binaries** from **random sources**. 
@@ -202,7 +221,7 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 - [The XZ Backdoor](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
 - [Reproducible Builds](https://reproducible-builds.org/docs/definition/)
 > The amount of work and the near impossibility to ensure that every source I use provide reproducibility is infeasibly impractical.
-> Even if it were practical, not every pkg/tool provide source code, so this is moot anyway.
+> Even if it were practical, not every pkg/tool provides source code, so this is impractical.
 > 
 - Reasons to **Trust this Repo**
 > - All the [Build Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows) are completely open-source. You are free to audit & scrutinize everything.
@@ -213,13 +232,10 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > ```
 > - Both `SHA256SUM` & `BLAKE3SUM` are automatically generated right after build script finishes.
 - Reasons **NOT to trust this Repo**
-> - Repos that already publish pre-compiled static binaries, nothing is changed. You can compare checksums.
+> - Repos that already publish pre-compiled static binaries, nothing is changed (Other than stripping Debug Symbols & Comments). You can compare checksums.
 > - However, for repos that don't publish releases or at least not statically linked binaries, there is ***no way for you to end up with the same binary even when you use the same build scripts***. In this case, `checksums` are meaningless as **each build will produce different checksums**. Your only option is to `trust me bro` or:
 > > - [Fork this repo](https://github.com/Azathothas/Toolpacks/fork) : https://github.com/Azathothas/Toolpacks/fork
 > > - Read & Verify everything : [Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [Workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows)
-> > - Add `TOOLPACKS` as Actions Secret & Run the workflows.
-> > > ```yaml
-> > > env:
-> > >  GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
-> > > ```
+> > - Read the [DOCS](https://github.com/Azathothas/Toolpacks/tree/main/Docs) & Setup your own Infrastructure.
+> > > - You may contact me at: [https://t.me/Azathothas](https://t.me/Azathothas) if you need help setting up your own.
 ---

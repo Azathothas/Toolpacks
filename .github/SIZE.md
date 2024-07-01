@@ -1,5 +1,16 @@
 ```mathematica
-  44M └─┬ main
+  52M └─┬ main
+  25M   ├─┬ x86_64_Linux
+  23M   │ ├── BUILD.log.txt
+1008K   │ ├── METADATA.json
+ 656K   │ ├── DETAILED.md
+ 472K   │ ├── README.md
+ 148K   │ ├── FILE.txt
+  76K   │ ├── SHA256SUM.txt
+  76K   │ ├── BLAKE3SUM.txt
+  48K   │ ├── SIZE.txt
+  48K   │ ├── SIZE.md
+  20K   │ └── BUILD_ERROR.log.md
   18M   ├─┬ aarch64_arm64_Linux
   16M   │ ├── BUILD.log.txt
  780K   │ ├── METADATA.json
@@ -11,18 +22,7 @@
   40K   │ ├── SIZE.txt
   40K   │ ├── SIZE.md
  8.0K   │ └── BUILD_ERROR.log.md
-  17M   ├─┬ x86_64_Linux
-  14M   │ ├── BUILD.log.txt
-1008K   │ ├── METADATA.json
- 656K   │ ├── DETAILED.md
- 472K   │ ├── README.md
- 140K   │ ├── FILE.txt
-  72K   │ ├── SHA256SUM.txt
-  72K   │ ├── BLAKE3SUM.txt
-  44K   │ ├── SIZE.txt
-  44K   │ ├── SIZE.md
-  32K   │ └── BUILD_ERROR.log.md
- 3.9M   ├── METADATA.json
+ 4.0M   ├── METADATA.json
  3.6M   ├── METADATA.yaml
  448K   ├─┬ x64_Windows
  196K   │ ├── METADATA.json
@@ -42,9 +42,9 @@
  4.0K   │ ├── SIZE.md
  4.0K   │ ├── SHA256SUM.txt
  4.0K   │ └── BLAKE3SUM.txt
-  72K   ├─┬ Docs
+  76K   ├─┬ Docs
   32K   │ ├── BUILD_NOTES.md
- 8.0K   │ ├── README.md
+  12K   │ ├── README.md
  4.0K   │ ├── ZIG_TARGETS.txt
  4.0K   │ ├── TODO.md
  4.0K   │ ├── RUST_TARGETS.txt
