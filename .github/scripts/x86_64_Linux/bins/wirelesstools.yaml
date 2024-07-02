@@ -1,7 +1,7 @@
 name: "wirelesstools"
 description: "Wireless tools for Linux"
-web_url: "https://www.gnu.org/software/wirelesstools/"
-repo_url: ""
+web_url: "https://hewlettpackard.github.io/wireless-tools/Tools.html"
+repo_url: "https://github.com/HewlettPackard/wireless-tools"
 bins:
   - "ifrename"
   - "iwconfig"

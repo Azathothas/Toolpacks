@@ -137,6 +137,8 @@ RUN <<EOS
   apk add iw --latest --upgrade --no-interactive 2>/dev/null
   apk add jack --latest --upgrade --no-interactive 2>/dev/null
   apk add jack-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add jansson --latest --upgrade --no-interactive 2>/dev/null
+  apk add jansson-static --latest --upgrade --no-interactive 2>/dev/null
   apk add jemalloc --latest --upgrade --no-interactive 2>/dev/null
   apk add jemalloc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add jemalloc-static --latest --upgrade --no-interactive 2>/dev/null

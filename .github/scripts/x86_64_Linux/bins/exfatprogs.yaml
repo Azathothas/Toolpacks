@@ -1,0 +1,11 @@
+name: "exfatprogs"
+description: "exFAT filesystem userspace utilities"
+web_url: "https://github.com/exfatprogs/exfatprogs"
+repo_url: "https://github.com/exfatprogs/exfatprogs"
+bins:
+  - "dump.exfat"
+  - "exfat2img"
+  - "exfatlabel"
+  - "fsck.exfat"
+  - "mkfs.exfat"
+  - "tune.exfat"
