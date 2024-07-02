@@ -238,5 +238,5 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > > - [Fork this repo](https://github.com/Azathothas/Toolpacks/fork) : https://github.com/Azathothas/Toolpacks/fork
 > > - Read & Verify everything : [Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [Workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows)
 > > - Read the [DOCS](https://github.com/Azathothas/Toolpacks/tree/main/Docs) & Setup your own Infrastructure.
-> > > - You may contact me at: [https://t.me/Azathothas](https://t.me/Azathothas) if you need help setting up your own.
+> > > - You may contact me at: [https://ajam.dev/contact](https://ajam.dev/contact) if you need help setting up your own.
 ---
