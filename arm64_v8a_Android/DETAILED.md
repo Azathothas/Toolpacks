@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 51909
+- **Stars:** 51914
 - **Version:** v0.2.64
 - **Updated:** 2024-07-01T02:21:28Z
 - **Size:** 19.31 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1801
 - **Version:** v1.31.0
-- **Updated:** 2024-07-01T14:48:49Z
+- **Updated:** 2024-07-02T06:23:26Z
 - **Size:** 168.74 kB
 - **SHA256SUM:** f0f0eec073381891b0e7b5b36606cbe7b808c806eae4a6b6ba3ad71bd39f94e5
 - **B3SUM:** 96e5d97a9ed0519247db08a4f29f00aa08ff5429601ee02498b1886012540aac
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34120
+- **Stars:** 34126
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-30T12:47:39Z
 - **Size:** 9.3 MB
@@ -141,7 +141,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34773
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-01T23:10:55Z
+- **Updated:** 2024-07-02T05:52:21Z
 - **Size:** 5.31 MB
 - **SHA256SUM:** 068c41735938785215ccc6a6d7967ee6649cd4e0f9c7a78028df110c878d9439
 - **B3SUM:** 89dd86b817a275f0e34cf2db3ea40d202512dec9391fbd777d6693e7ca1d7714
@@ -158,7 +158,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34773
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-01T23:10:55Z
+- **Updated:** 2024-07-02T05:52:21Z
 - **Size:** 229.65 kB
 - **SHA256SUM:** 1794c1d4f7055b7d02c2170337b61b48a2ef6c90d77e95444fd2596f4cac609f
 - **B3SUM:** b58055305c0fb5874b11a4e49ba49356674d8ce927aaea6ffa2632d7f4a53653
@@ -224,7 +224,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 44914
+- **Stars:** 44919
 - **Version:** v1.67.0
 - **Updated:** 2024-07-01T18:34:30Z
 - **Size:** 85.32 MB
@@ -258,7 +258,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17469
+- **Stars:** 17477
 - **Version:** v1.68.0
 - **Updated:** 2024-07-01T23:58:29Z
 - **Size:** 11.88 MB
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17469
+- **Stars:** 17477
 - **Version:** v1.68.0
 - **Updated:** 2024-07-01T23:58:29Z
 - **Size:** 25.84 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17469
+- **Stars:** 17477
 - **Version:** v1.68.0
 - **Updated:** 2024-07-01T23:58:29Z
 - **Size:** 23.74 MB
@@ -309,7 +309,7 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33706
+- **Stars:** 33708
 - **Version:** 3.4
 - **Updated:** 2024-06-24T11:05:31Z
 - **Size:** 1.55 MB
@@ -326,32 +326,15 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35516
+- **Stars:** 35521
 - **Version:** v9.1.0516
-- **Updated:** 2024-07-01T22:58:51Z
+- **Updated:** 2024-07-02T06:11:20Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** 7eb98e00a4046fc1e8ce325342356c0f3038d32e3d9790a48af9f811f3af8b69
 - **B3SUM:** bc8d3cbd079972137cbdf24c90d2443e646429dfe9ff3ff4b31470f00f2b7603
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/vim
 - **Language:** Vim Script
 - **License:** Vim License
-
----
-
-### wget
-- **Description:** Tool for retrieving files using HTTP, HTTPS, and FTP
-- **Author:** 
-- **WebURL:** [https://www.gnu.org/software/wget/](https://www.gnu.org/software/wget/)
-- **Repository:** []()
-- **Stars:** 
-- **Version:** 
-- **Updated:** 
-- **Size:** 5.81 MB
-- **SHA256SUM:** 1794c1d4f7055b7d02c2170337b61b48a2ef6c90d77e95444fd2596f4cac609f
-- **B3SUM:** b58055305c0fb5874b11a4e49ba49356674d8ce927aaea6ffa2632d7f4a53653
-- **Source:** https://bin.ajam.dev/arm64_v8a_Android/wget
-- **Language:** 
-- **License:** 
 
 ---
 
