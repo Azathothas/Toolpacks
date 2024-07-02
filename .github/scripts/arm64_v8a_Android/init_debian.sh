@@ -363,7 +363,7 @@
         #android-24,25 --> Android 7
         #android-23 --> Android 6
         #android-21,22 --> Android 5
-         export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC="android-29"
+         export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC="android-21"
          TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X="$(echo ${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC} | sed 's/-//g' | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X="${TOOLPACKS_ANDROID_APILEVEL_DYNAMIC_X}"
          export TOOLPACKS_ANDROID_APILEVEL_STATIC="android-34"
          TOOLPACKS_ANDROID_APILEVEL_STATIC_X="$(echo ${TOOLPACKS_ANDROID_APILEVEL_STATIC} | sed 's/-//g' | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_APILEVEL_STATIC_X="${TOOLPACKS_ANDROID_APILEVEL_STATIC_X}"

@@ -33,22 +33,29 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="wget" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://www.gnu.org/software/wget/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build (ndk-pkg)
+      #Build (ndk-pkg) Dynamic
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget" --profile="release" -j "$(($(nproc)+1))"
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
-      #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
-       #Meta 
        file "./wget" && du -sh "./wget" ; aarch64-linux-gnu-readelf -d "./wget" | grep -i 'needed'
        cp "./wget" "$BINDIR/wget" ; cp "./wget" "$BASEUTILSDIR/wget"
+       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget"
+      #Build (ndk-pkg) Static
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/wget" --profile="release" -j "$(($(nproc)+1))" --fsle
+       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/wget" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
+       docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
+       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/wget" "./wget_static"
+       file "./wget_static" && du -sh "./wget_static" ; aarch64-linux-gnu-readelf -d "./wget_static" | grep -i 'needed'
+       cp "./wget_static" "$BINDIR/wget_static" ; cp "./wget_static" "$BASEUTILSDIR/wget_static"
+       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/wget"
        #get cert
        eget "https://curl.se/ca/cacert.pem" --to "$BINDIR/wget_cacert.pem"
       #Test
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/wget" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/wget_static" --version
       #Cleanup Container
-       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget"
        docker exec -it "ndk-pkg" ndk-pkg cleanup
        popd >/dev/null 2>&1
       #Fixes
@@ -65,7 +72,7 @@ unset SKIP_BUILD ; export BUILT="YES"
 #In case of Android Polluted env
 unset TOOLPACKS_ANDROID_BUILDIR
 #In case of build polluted env
-unset ANDROID_API_LEVEL ANDROID_LIBRARY_DIR ANDROID_TARGET AR AS CC CFLAGS CPP CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LD LDFLAGS LIBS NM OBJCOPY OBJDUMP RANLIB READELF SIZE STRINGS STRIP SYSROOT
+unset ANDROID_API_LEVEL ANDROID_LIBRARY_DIR ANDROID_TARGET AR AS CC CFLAGS CPP CXX CPPFLAGS CXXFLAGS CROSS_COMPILE DLLTOOL HOST_CC HOST_CXX LD LDFLAGS LIBS NM OBJCOPY OBJDUMP RANLIB READELF SIZE STRINGS STRIP SYSROOT TARGET
 #In case of go polluted env
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config

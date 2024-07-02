@@ -29,43 +29,45 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-   #coreutils : GNU File, Shell, and Text utilities
-     export BIN="coreutils" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/coreutils/coreutils" #github/gitlab/homepage/etc for $BIN
+    #libarchive: Multi-format archive and compression Tools
+     export BIN="bsdtar" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/libarchive/libarchive" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-     #-------------------------------------------------------#    
-      ##Build (ndk-pkg)
+      #Build (ndk-pkg)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/coreutils" --profile="release" -j "$(($(nproc)+1))" --fsle
-       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/coreutils" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/bsdtar" --profile="release" -j "$(($(nproc)+1))" --fsle
+       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/bsdtar" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
       #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
-       mkdir -p "$BASEUTILSDIR/coreutils" && rsync -av --copy-links "./" "$BASEUTILSDIR/coreutils"
+       #Copy
+       mkdir -p "$BASEUTILSDIR/libarchive"
+       sudo rsync -av --copy-links "./" "$BASEUTILSDIR/libarchive"
+       sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/libarchive/" && chmod -R 755 "$BASEUTILSDIR/libarchive/"
       #-------------------------------------------------------#
       ##Meta
-       file "$BASEUTILSDIR/coreutils/"*
-      #Archive [$BASEUTILSDIR/coreutils]
-       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils/_coreutils.7z" "$BASEUTILSDIR/coreutils" 2>/dev/null
-       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils/_coreutils.tar" "$BASEUTILSDIR/coreutils" 2>/dev/null
+       file "$BASEUTILSDIR/libarchive/"*
+      #Archive [$BASEUTILSDIR/libarchive]
+       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/libarchive/_libarchive.7z" "$BASEUTILSDIR/libarchive" 2>/dev/null
+       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/libarchive/_libarchive.tar" "$BASEUTILSDIR/libarchive" 2>/dev/null
       #Generate METADATA
-       cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$BASEUTILSDIR/coreutils/FILE.txt"
-       cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$BASEUTILSDIR/coreutils/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/coreutils" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$BASEUTILSDIR/coreutils/SHA256SUM.txt"
-       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.md$|\.rar$|\.txt$|\.zip$" "$BASEUTILSDIR/coreutils" | tee "$BASEUTILSDIR/coreutils/SIZE.txt"
+       cd "$BASEUTILSDIR/libarchive" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs file > "$BASEUTILSDIR/libarchive/FILE.txt"
+       cd "$BASEUTILSDIR/libarchive" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs b3sum > "$BASEUTILSDIR/libarchive/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/libarchive" && find "./" -maxdepth 1 -type f | grep -v '.txt' | sort | xargs sha256sum > "$BASEUTILSDIR/libarchive/SHA256SUM.txt"
+       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.md$|\.rar$|\.txt$|\.zip$" "$BASEUTILSDIR/libarchive" | tee "$BASEUTILSDIR/libarchive/SIZE.txt"
       #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
        rclone copy "." "r2:/bin/arm64_v8a_Android/Baseutils/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
        curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
       #List
-       curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.yaml" -o "$TMP_METADIR/temp.yaml"
+       curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/libarchive.yaml" -o "$TMP_METADIR/temp.yaml"
        yq -r '.bins[]' "$TMP_METADIR/temp.yaml" | sort -u -o "$TMP_METADIR/BINS.txt"
        DESCRIPTION="$(yq -r '.description' $TMP_METADIR/temp.yaml)" && export DESCRIPTION="$DESCRIPTION"
        EXTRA_BINS="$(awk -v bin="$BIN" '$0 != bin' "$TMP_METADIR/BINS.txt" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"
        REPO_URL="$(yq -r '.repo_url' $TMP_METADIR/temp.yaml)" && export REPO_URL="$REPO_URL"
        WEB_URL="$(yq -r '.web_url' $TMP_METADIR/temp.yaml)" && export WEB_URL="$WEB_URL"
-       rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/"  --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" | \
-       jq --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, download_url: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/coreutils/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
+       rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/Baseutils/libarchive/"  --exclude="BLAKE3SUM" --exclude="*.7z" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="SHA256SUM" --exclude="*.txt" | \
+       jq --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, download_url: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
        for BIN in $(cat "$TMP_METADIR/BINS.txt" | sed 's/"//g'); do
          #Description
           jq --arg BIN "$BIN" --arg DESCRIPTION "$DESCRIPTION" '.[] |= if .name == $BIN then . + {description: $DESCRIPTION} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
@@ -73,24 +75,24 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           EXTRA_BINS="$(awk -v bin="$BIN" '$0 != bin' "$TMP_METADIR/BINS.txt" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"  
           jq --arg BIN "$BIN" --arg EXTRA_BINS "$EXTRA_BINS" '.[] |= if .name == $BIN then . + {extra_bins: $EXTRA_BINS} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
          #BSUM
-          B3SUM="$(cat "$BASEUTILSDIR/coreutils/BLAKE3SUM.txt" | grep -iF "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
+          B3SUM="$(cat "$BASEUTILSDIR/libarchive/BLAKE3SUM.txt" | grep -iF "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
           jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .name == $BIN then . + {b3sum: $B3SUM} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
          #SHA256SUM
-          SHA256="$(cat "$BASEUTILSDIR/coreutils/SHA256SUM.txt" | grep -iF "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
+          SHA256="$(cat "$BASEUTILSDIR/libarchive/SHA256SUM.txt" | grep -iF "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
           jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .name == $BIN then . + {sha256: $SHA256} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
          #Web URLs
           jq --arg BIN "$BIN" --arg WEB_URL "$WEB_URL" '.[] |= if .name == $BIN then . + {web_url: $WEB_URL} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
        done
        #Upload 
        if jq --exit-status . "$TMP_METADIR/INFO.json" >/dev/null 2>&1; then
-          rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+          rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/arm64_v8a_Android/Baseutils/libarchive/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR B3SUM DESCRIPTION EXTRA_BINS REPO_URL SHA256 WEB_URL
        find "$BASEUTILSDIR" -type f -size 0 -delete
       #Test
        #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version
       #Cleanup Container
-       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/coreutils"
+       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/libarchive"
        docker exec -it "ndk-pkg" ndk-pkg cleanup
        popd >/dev/null 2>&1
 fi

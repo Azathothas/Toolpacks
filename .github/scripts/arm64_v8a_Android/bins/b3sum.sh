@@ -29,24 +29,24 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #vim: Vi IMproved - enhanced vi editor
-     export BIN="vim" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/vim/vim" #github/gitlab/homepage/etc for $BIN
+    #b3sum: A command line utility for calculating BLAKE3 hashes
+     export BIN="b3sum" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/BLAKE3-team/BLAKE3" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build (ndk-pkg)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/vim" --profile="release" -j "$(($(nproc)+1))" --fsle
-       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/vim" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/b3sum" --profile="release" -j "$(($(nproc)+1))" --fsle
+       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/b3sum" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
       #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
-       file "./vim" && du -sh "./vim" ; aarch64-linux-gnu-readelf -d "./vim" | grep -i 'needed'
-       cp "./vim" "$BINDIR/vim" ; cp "./vim" "$BASEUTILSDIR/vim"
+       file "./b3sum" && du -sh "./b3sum" ; aarch64-linux-gnu-readelf -d "./b3sum" | grep -i 'needed'
+       cp "./b3sum" "$BINDIR/b3sum" ; cp "./b3sum" "$BASEUTILSDIR/b3sum"
       #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/vim" --version
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/b3sum" --version
       #Cleanup Container
-       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/vim"
+       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/b3sum"
        docker exec -it "ndk-pkg" ndk-pkg cleanup
        popd >/dev/null 2>&1
 fi

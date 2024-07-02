@@ -29,24 +29,26 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #vim: Vi IMproved - enhanced vi editor
-     export BIN="vim" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/vim/vim" #github/gitlab/homepage/etc for $BIN
+   #rsync : An open source utility that provides fast incremental file transfer.
+     export BIN="rsync"
+     export SOURCE_URL="https://github.com/rsync/rsync"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build (ndk-pkg)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/vim" --profile="release" -j "$(($(nproc)+1))" --fsle
-       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/vim" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/rsync" --profile="release" -j "$(($(nproc)+1))"
+       TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/rsync" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
-      #Copy
+      #Copy 
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
        #Meta 
-       file "./vim" && du -sh "./vim" ; aarch64-linux-gnu-readelf -d "./vim" | grep -i 'needed'
-       cp "./vim" "$BINDIR/vim" ; cp "./vim" "$BASEUTILSDIR/vim"
-      #Test
-       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/vim" --version
+       file "./rsync" && du -sh "./rsync" ; aarch64-linux-gnu-readelf -d "./rsync" | grep -i 'needed'
+       cp "./rsync" "$BINDIR/rsync" ; cp "./rsync" "$BASEUTILSDIR/rsync"
+       #get cert
+       eget "https://rsync.se/ca/cacert.pem" --to "$BINDIR/rsync_cacert.pem"
+      #Test [PREFIX=/data/data/com.termux/files/usr]
+       timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/rsync" --version
       #Cleanup Container
-       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/vim"
+       docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/rsync"
        docker exec -it "ndk-pkg" ndk-pkg cleanup
        popd >/dev/null 2>&1
 fi
