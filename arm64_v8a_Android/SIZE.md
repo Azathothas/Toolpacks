@@ -1,5 +1,5 @@
 ```mathematica
-539M └─┬ /tmp/toolpack_arm64_v8a_Android
+544M └─┬ /tmp/toolpack_arm64_v8a_Android
  81M   ├── /tmp/toolpack_arm64_v8a_Android/rclone
  40M   ├── /tmp/toolpack_arm64_v8a_Android/httpx
  25M   ├── /tmp/toolpack_arm64_v8a_Android/gowitness
@@ -25,7 +25,8 @@
 6.5M   ├── /tmp/toolpack_arm64_v8a_Android/static-web-server
 6.4M   ├── /tmp/toolpack_arm64_v8a_Android/bigdl
 5.9M   ├── /tmp/toolpack_arm64_v8a_Android/hxn
-5.5M   ├── /tmp/toolpack_arm64_v8a_Android/wget
+5.7M   ├── /tmp/toolpack_arm64_v8a_Android/wget_static
+5.5M   ├── /tmp/toolpack_arm64_v8a_Android/wget_dynamic_api_25
 5.1M   ├── /tmp/toolpack_arm64_v8a_Android/actionlint
 5.1M   ├── /tmp/toolpack_arm64_v8a_Android/curl
 4.8M   ├── /tmp/toolpack_arm64_v8a_Android/vim

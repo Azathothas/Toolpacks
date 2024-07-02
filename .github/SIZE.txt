@@ -32,8 +32,8 @@
   16K   │ ├── BLAKE3SUM.txt
   12K   │ ├── SIZE.txt
   12K   │ └── SIZE.md
-  80K   ├─┬ arm64_v8a_Android
-  24K   │ ├── METADATA.json
+  76K   ├─┬ arm64_v8a_Android
+  20K   │ ├── METADATA.json
   16K   │ ├── DETAILED.md
   12K   │ ├── README.md
  8.0K   │ ├── FILE.txt

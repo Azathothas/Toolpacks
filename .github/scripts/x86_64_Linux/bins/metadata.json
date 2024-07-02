@@ -265,6 +265,16 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/binocle.sh"
   },
   {
+    "name": "bintools.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bintools.sh"
+  },
+  {
+    "name": "binutils.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/binutils.sh"
+  },
+  {
     "name": "bleve.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bleve.sh"
@@ -333,6 +343,11 @@
     "name": "btop.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/btop.sh"
+  },
+  {
+    "name": "btrfs-progs.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/btrfs-progs.sh"
   },
   {
     "name": "bucketloot.sh",
@@ -710,6 +725,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dblab.sh"
   },
   {
+    "name": "dbus.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dbus.sh"
+  },
+  {
     "name": "ddns-go.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ddns-go.sh"
@@ -723,6 +743,11 @@
     "name": "delta.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/delta.sh"
+  },
+  {
+    "name": "desktop-file-utils.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/desktop-file-utils.sh"
   },
   {
     "name": "devbox.sh",
@@ -860,6 +885,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dysk.sh"
   },
   {
+    "name": "e2fsprogs.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/e2fsprogs.sh"
+  },
+  {
     "name": "ecoji.sh",
     "update_date": "2024-06-21T02:34:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ecoji.sh"
@@ -933,6 +963,16 @@
     "name": "etcd.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/etcd.sh"
+  },
+  {
+    "name": "exfat.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/exfat.sh"
+  },
+  {
+    "name": "exfatprogs.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/exfatprogs.sh"
   },
   {
     "name": "exiflooter.sh",
@@ -2011,7 +2051,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-07-02T00:07:29",
+    "update_date": "2024-07-02T07:05:59",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2156,7 +2196,7 @@
   },
   {
     "name": "nfs-utils.sh",
-    "update_date": "2024-06-21T02:34:01",
+    "update_date": "2024-07-02T14:03:43",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nfs-utils.sh"
   },
   {
@@ -2298,6 +2338,11 @@
     "name": "openssl.sh",
     "update_date": "2024-06-29T14:03:48",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/openssl.sh"
+  },
+  {
+    "name": "openvpn.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/openvpn.sh"
   },
   {
     "name": "orbiton.sh",
@@ -2783,6 +2828,41 @@
     "name": "s5cmd.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s5cmd.sh"
+  },
+  {
+    "name": "s6-dns.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s6-dns.sh"
+  },
+  {
+    "name": "s6-linux-init.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s6-linux-init.sh"
+  },
+  {
+    "name": "s6-linux-utils.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s6-linux-utils.sh"
+  },
+  {
+    "name": "s6-networking.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s6-networking.sh"
+  },
+  {
+    "name": "s6-portable-utils.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s6-portable-utils.sh"
+  },
+  {
+    "name": "s6-rc.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s6-rc.sh"
+  },
+  {
+    "name": "s6.sh",
+    "update_date": "2024-07-02T14:03:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/s6.sh"
   },
   {
     "name": "sake.sh",
@@ -3566,7 +3646,7 @@
   },
   {
     "name": "wirelesstools.sh",
-    "update_date": "2024-06-21T02:34:00",
+    "update_date": "2024-07-02T14:03:43",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wirelesstools.sh"
   },
   {
