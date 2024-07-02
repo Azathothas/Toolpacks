@@ -61,6 +61,12 @@
 > - Last but not least, to avoid https://github.com/Azathothas/Toolpacks/edit/main/Docs/README.md#dmca-copyright--cease--desist
 ---
 
+- #### Why reset ALL Git Commits?
+> - The entire repo is reset back to 1 commit as soon as Total Number of Commits reaches `>1000`
+> - This is because 95% of these commits are automated, and on average there's `50-100` commits/Day.
+> - This quickly spams the entire git history rendering backtracking changes very hard.
+> - Thus to keep it all clean and actually useful, a purge is committed every `>1000` Commits (~2-3 Weeks)
+
 - #### How to contribute?
 > To contribute, you **first must read & understand this entire repo**. After that, follow similar code/script style to make changes & then create a pull request.
 > 

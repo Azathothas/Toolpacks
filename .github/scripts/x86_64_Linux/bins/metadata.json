@@ -1830,6 +1830,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lf.sh"
   },
   {
+    "name": "libarchive.sh",
+    "update_date": "2024-07-01T14:26:49",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/libarchive.sh"
+  },
+  {
     "name": "libaws.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/libaws.sh"
@@ -2006,7 +2011,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-07-01T07:06:59",
+    "update_date": "2024-07-02T00:07:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2323,6 +2328,11 @@
     "name": "passdetective.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/passdetective.sh"
+  },
+  {
+    "name": "patchelf.sh",
+    "update_date": "2024-07-01T14:26:49",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/patchelf.sh"
   },
   {
     "name": "pathbuster.sh",
@@ -2978,6 +2988,11 @@
     "name": "sqlc.sh",
     "update_date": "2024-06-21T02:34:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sqlc.sh"
+  },
+  {
+    "name": "squashfuse.sh",
+    "update_date": "2024-07-01T14:26:49",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/squashfuse.sh"
   },
   {
     "name": "sshesame.sh",
