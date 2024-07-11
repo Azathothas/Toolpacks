@@ -1,0 +1,26 @@
+Name: curl_cacert.pem
+DESCR: A command line tool for transferring files with URL syntax
+Download URL: https://bin.ajam.dev/arm64_v8a_Android/curl_cacert.pem
+REPO: https://github.com/curl/curl
+Web URL: https://github.com/curl/curl
+
+Name: wget_cacert.pem
+DESCR: Tool for retrieving files using HTTP, HTTPS, and FTP
+Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget_cacert.pem
+REPO: 
+Web URL: https://www.gnu.org/software/wget/
+
+---------------------
+Name: wget
+DESCR: A Software Suite that provides Several Unix Utilities in a single Executable
+Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget
+REPO: 
+Web URL: https://www.busybox.net/
+
+Name: wget
+DESCR: Tool for retrieving files using HTTP, HTTPS, and FTP
+Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget
+REPO: 
+Web URL: https://www.gnu.org/software/wget/
+
+---------------------

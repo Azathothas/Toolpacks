@@ -3,7 +3,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 450
+- **Stars:** 449
 - **Version:** 24.07
 - **Updated:** 2024-07-05T14:39:53Z
 - **Size:** 1.32 MB
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2574
+- **Stars:** 2575
 - **Version:** v1.7.1
 - **Updated:** 2024-07-02T09:12:41Z
 - **Size:** 5.42 MB
@@ -37,7 +37,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 15789
+- **Stars:** 15790
 - **Version:** v1.2.0
 - **Updated:** 2024-06-21T12:52:31Z
 - **Size:** 3.88 MB
@@ -71,7 +71,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 39711
+- **Stars:** 39713
 - **Version:** v3.35.0
 - **Updated:** 2024-07-11T12:05:04Z
 - **Size:** 76.47 MB
@@ -122,9 +122,9 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 4936
+- **Stars:** 4939
 - **Version:** 1.5.1
-- **Updated:** 2024-07-11T11:29:05Z
+- **Updated:** 2024-07-11T19:21:06Z
 - **Size:** 1.06 MB
 - **SHA256SUM:** aa448286ec5ca63d9a491851c0399ce3541ed7b113cc07928d16c70ac46261e5
 - **B3SUM:** cd1cf5a4b287c8569de018232835c8449d6f689eb19fb89a8db7bc7cce7fd737
@@ -139,7 +139,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47747
+- **Stars:** 47749
 - **Version:** v0.24.0
 - **Updated:** 2024-07-05T10:31:04Z
 - **Size:** 6.32 MB
@@ -156,7 +156,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47747
+- **Stars:** 47749
 - **Version:** v0.24.0
 - **Updated:** 2024-07-05T10:31:04Z
 - **Size:** 6.32 MB
@@ -258,7 +258,7 @@
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
-- **Stars:** 12133
+- **Stars:** 12134
 - **Version:** 4.4.2
 - **Updated:** 2024-06-18T20:51:35Z
 - **Size:** 11.57 MB
@@ -275,9 +275,9 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
-- **Stars:** 8479
+- **Stars:** 8480
 - **Version:** 2024.6.1
-- **Updated:** 2024-07-10T16:30:28Z
+- **Updated:** 2024-07-11T16:42:27Z
 - **Size:** 26.83 MB
 - **SHA256SUM:** f815cb466ccf7d3c6b2db6b93f58d83259da8228de57577d9ef91ad36b4def2f
 - **B3SUM:** 0cb9fc5f7f662f9e3fa686da18f23f60f0038de692fe2a53aa595e9f2be17a7c
@@ -381,8 +381,8 @@
 - **Version:** 0.0.27
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 865.79 kB
-- **SHA256SUM:** 055325aaccb55988f84c6e0092ebf318892c38e13cfd0562703f25193000b9fc
-- **B3SUM:** 0c29030e81c49dd0440cdb7e44570846a991a7cfe0156af0e8db335fad512882
+- **SHA256SUM:** 3305a3f0ed1d1c66ed150d0db8654e62ee32c82213bcd044dc35117fcd3ef694
+- **B3SUM:** a96e011d18dba352b58d8c81920ac02cad3c86b30327a625e179eaf390f9fa91
 - **Source:** https://bin.ajam.dev/x64_Windows/cat.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -467,7 +467,7 @@
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 1.3 MB
 - **SHA256SUM:** c3d82e16032592b903aaac1347b51f369158a0ed69953ffba93296927356b4a0
-- **B3SUM:** e5dee0a86d8ddd148deb1158f20e12af55a3a9f3483f01aec22dccd22253197b
+- **B3SUM:** f617da02ba065a455294b891b590b991c5e4b202f79b22b0b9d9ec0046d02b68
 - **Source:** https://bin.ajam.dev/x64_Windows/cp.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -535,7 +535,7 @@
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 1.02 MB
 - **SHA256SUM:** 6aee8948ccb1fd6ac2001e07d6ba3740922a9ea54659d58d28a39110de7c1809
-- **B3SUM:** 5f31b4e4cc13a6170c3f711c70f94ab74aefd32632cfb3bf9dae39c615b33353
+- **B3SUM:** 9aa4e0869edf74323de2fb57f5e08983c395775d7e78017741f5692d737ceba1
 - **Source:** https://bin.ajam.dev/x64_Windows/dd.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -568,7 +568,7 @@
 - **Version:** 0.0.27
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 1.26 MB
-- **SHA256SUM:** 2cb805f1027ffaca51857dec0222f757e7738a2bdcec4d5260e4b80a6e349196
+- **SHA256SUM:** bd44e7b55bbd8ebacf6704c6103be6cdb9cf85c100cb3866d631a0038fb02f3c
 - **B3SUM:** 74c996c9c01aaadb3762ab9fe56c60cd5a9b96cd9bbfcd202292e9ec8dc9d11f
 - **Source:** https://bin.ajam.dev/x64_Windows/dir.exe
 - **Language:** Rust
@@ -620,7 +620,7 @@
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 1.13 MB
 - **SHA256SUM:** 12ed185c8222fa641da5daef15a038d9f413cb7e67033beb35b2016b9b826468
-- **B3SUM:** 0a93d57264a414d62e4075899ce52c61ea3f2869295ab16b261928d1372c280a
+- **B3SUM:** 58794187e7a3f2b9dc684aeee612c64645b78c0a16f89ad5e44be1f0b4f4fe95
 - **Source:** https://bin.ajam.dev/x64_Windows/du.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -653,8 +653,8 @@
 - **Version:** 0.0.27
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 1.03 MB
-- **SHA256SUM:** 17e8bc0f9e1590ea5d2f7e1448d94e85b09b2ac8ada29bb20015a492f4d4d597
-- **B3SUM:** 413e2788cd7e28e47686a767d891a4940419565aeedaa1e5406ab45136a4c3eb
+- **SHA256SUM:** 2573c2cadde84b79503aad7d6bfe6a77bfa485caf403956179693dbc20c86c7d
+- **B3SUM:** ecfb7b4e932a8e29377dbff251ccfdb34dfb5011f9e2b8d1eae5b24370262faa
 - **Source:** https://bin.ajam.dev/x64_Windows/env.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -739,7 +739,7 @@
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 908.8 kB
 - **SHA256SUM:** ae1d34fa18d5527ff2cd4cef9cf258582eb98eba2782c9f399f1987655b69669
-- **B3SUM:** 3ca06e74dd652667ec967688d6dd024bd31562d729448d9473e585bbba81a918
+- **B3SUM:** 7db9d4e0987b490dfb2af8fa6ae96434fafde67ba3c4ef24a5bd3c57a814e410
 - **Source:** https://bin.ajam.dev/x64_Windows/fmt.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -840,8 +840,8 @@
 - **Version:** 0.0.27
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 833.02 kB
-- **SHA256SUM:** 1eabac899c255b988fab8eb935de9d6fcd0f90520d56dbd987a278a87ea57d6d
-- **B3SUM:** 2d22538b8ec5d28a8c20d9ae602918fd4e2f435d5b1f40166aa041eb5993926c
+- **SHA256SUM:** 294c6e6ba157c4fdc6be6a932fb6f08d6923288afd24d2805fbe20b4e9f5017e
+- **B3SUM:** cb4219672e861f6c194e58da09a6e8aa4782b8eced5fbd3528b86be7d7db105c
 - **Source:** https://bin.ajam.dev/x64_Windows/link.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -875,7 +875,7 @@
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 1.27 MB
 - **SHA256SUM:** 1d0ce5f1d416e748c3120efbb2f37e54a69369916ed9b872d768c3924c450e92
-- **B3SUM:** 6a24a904fd088346b03195a1b419a8d631c42749c46f337481c4b3e21ac0c4c4
+- **B3SUM:** a39f4f6e75972ba73cf294494c9ac6119afc319b6e996650a98c81235d89af67
 - **Source:** https://bin.ajam.dev/x64_Windows/ls.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -1266,7 +1266,7 @@
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 1.65 MB
 - **SHA256SUM:** 11509cefefc0619599be97f62c46fb5528b00e67bc71ad5f7cdeb1ba2f613ba9
-- **B3SUM:** 351ae7fa078fc1aadb9ebc4246d46ef08b5bf1103f3f557c795372d76633b3e2
+- **B3SUM:** 6d93f766e5517a42311e73f417b4ccc1f1bffe45bc84d4cbac3b982f27a7475d
 - **Source:** https://bin.ajam.dev/x64_Windows/sort.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -1282,8 +1282,8 @@
 - **Version:** 0.0.27
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 971.26 kB
-- **SHA256SUM:** 5794df9339b9706bcf6b224f64bb2a0b748296c7f56375ce524f85210f4bed48
-- **B3SUM:** 0e83a1b40a449f5957d3d82c8584da5bee91985c86fe31c03b1f9cf2004115c6
+- **SHA256SUM:** c338c31bd0f12920941461293908fce44cb7967805ba25377ab1fead2f07fb20
+- **B3SUM:** 539f22c744ed888520b2d0c459c14fb14fb5e28c29645130d8dd2f0285107d7e
 - **Source:** https://bin.ajam.dev/x64_Windows/split.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -1299,8 +1299,8 @@
 - **Version:** 0.0.27
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 862.72 kB
-- **SHA256SUM:** 5634f47ebf9edd26b1f562a5a2c796b1cf78ba7e96f038200eda1b444ea21c8e
-- **B3SUM:** 11acdd9c471be197bc3f2ac7f9ebfa2f1e31870b883c8b717686e17c1df3a1be
+- **SHA256SUM:** d4a6695e801cfef2e80b97689b5c64432de7b5350bd8098b005db8fe9c8e7883
+- **B3SUM:** 7eb541eb454900ec8ee22066ee5cfb7e1faabf0c1c3e66dce55f5b64855bb912
 - **Source:** https://bin.ajam.dev/x64_Windows/sum.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -1384,8 +1384,8 @@
 - **Version:** 0.0.27
 - **Updated:** 2024-07-11T10:46:04Z
 - **Size:** 850.43 kB
-- **SHA256SUM:** 75b64f89d346849119ab306f9966bd745c6b62e4c95ed9b0a89a1bda4e97248e
-- **B3SUM:** 59d5405cf9bcf3577c6ec17503fd7876a08ef807f0a81b06242cadd10c5da4b3
+- **SHA256SUM:** f3cbd7ce5cf4252c36c09a808afa0b23291a6fa8504cd0bf401212c4748451c4
+- **B3SUM:** 7c5d43f525fbf6d89efcdb0b70258fc273729aea851406e9ac2d7ab01cf8f25f
 - **Source:** https://bin.ajam.dev/x64_Windows/test.exe
 - **Language:** Rust
 - **License:** MIT License
@@ -1618,7 +1618,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 26871
+- **Stars:** 26875
 - **Version:** v10.0.10
 - **Updated:** 2024-07-09T13:25:55Z
 - **Size:** 8.7 MB
@@ -1703,7 +1703,7 @@
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 10484
+- **Stars:** 10488
 - **Version:** v6.6.3
 - **Updated:** 2024-07-08T08:18:43Z
 - **Size:** 9.69 MB
@@ -1754,7 +1754,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
 - **Repository:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
-- **Stars:** 3707
+- **Stars:** 3708
 - **Version:** v2.29.0
 - **Updated:** 2024-05-27T05:17:07Z
 - **Size:** 1.56 MB
@@ -1771,7 +1771,7 @@
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 5401
+- **Stars:** 5403
 - **Version:** v0.41.0
 - **Updated:** 2024-07-11T11:47:22Z
 - **Size:** 3.63 MB
@@ -1788,7 +1788,7 @@
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8111
+- **Stars:** 8113
 - **Version:** v1.0.0
 - **Updated:** 2024-07-05T20:18:06Z
 - **Size:** 2.79 MB
@@ -1839,7 +1839,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8211
+- **Stars:** 8214
 - **Version:** 2.18.1
 - **Updated:** 2024-07-11T14:09:08Z
 - **Size:** 1.43 MB
@@ -1856,7 +1856,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8211
+- **Stars:** 8214
 - **Version:** 2.18.1
 - **Updated:** 2024-07-11T14:09:08Z
 - **Size:** 1.27 MB
@@ -1909,7 +1909,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 280
 - **Version:** 0.6.0
-- **Updated:** 2024-07-11T12:08:12Z
+- **Updated:** 2024-07-11T20:27:25Z
 - **Size:** 2.58 MB
 - **SHA256SUM:** d970f6b659b0be58b6b0feb6af767cc73b5a10b317199bc7bbca141ab16539b8
 - **B3SUM:** f9f9aae53c90b4aa1cd5f754deac76122007f2af482de961dd40b83b38f0d366
@@ -1926,9 +1926,9 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 280
 - **Version:** 0.6.0
-- **Updated:** 2024-07-11T12:08:12Z
+- **Updated:** 2024-07-11T20:27:25Z
 - **Size:** 2.58 MB
-- **SHA256SUM:** 21fe7ae25fac6cc37c3ac1a111c3ee8efb8668b201fe9d31d0718ed8c0fed53a
+- **SHA256SUM:** e1e957dc5b5e373196d5886d3c65583f3b88abdc9f446d716e86aeebfc6bf6b9
 - **B3SUM:** 09954b9950b8b1920b2c6cfba1ad435d0f42a34582d4742eb11a0cbb8a6b9153
 - **Source:** https://bin.ajam.dev/x64_Windows/find.exe
 - **Language:** Rust
@@ -1943,7 +1943,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 280
 - **Version:** 0.6.0
-- **Updated:** 2024-07-11T12:08:12Z
+- **Updated:** 2024-07-11T20:27:25Z
 - **Size:** 889.86 kB
 - **SHA256SUM:** c49fac534214fd7cced10e8906304ce757a045f6e880d16bd51d27f82c7cff59
 - **B3SUM:** 525515ca7367cd202d07ad92a85a8115e5efb41e6186c777c89c638d4d8bd9a0
@@ -1960,7 +1960,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 280
 - **Version:** 0.6.0
-- **Updated:** 2024-07-11T12:08:12Z
+- **Updated:** 2024-07-11T20:27:25Z
 - **Size:** 889.86 kB
 - **SHA256SUM:** b9a0dcc139f012a97bccad21fe858171c5a914d2ffa58d904a2b865b9c57f7a5
 - **B3SUM:** 273acb3abf53cce50762d3e94c7c90e3467cdac236d8ef9fc2f3c62f111ae3ee
@@ -1975,7 +1975,7 @@
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
-- **Stars:** 3458
+- **Stars:** 3460
 - **Version:** v5.29.0
 - **Updated:** 2024-07-04T23:51:23Z
 - **Size:** 14.54 MB
@@ -2026,9 +2026,9 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8441
+- **Stars:** 8442
 - **Version:** gix-mailmap-v0.23.4
-- **Updated:** 2024-07-11T11:15:46Z
+- **Updated:** 2024-07-11T18:32:22Z
 - **Size:** 9.17 MB
 - **SHA256SUM:** 06348aac8c42c14e262bdee7f23d05fc4524f14fdf2cc8d1fd28228cedc655d6
 - **B3SUM:** 7947e8c64ccfc22d754de55370d900e10cf35948a93af0cac53ae3101f2da9c6
@@ -2043,9 +2043,9 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8441
+- **Stars:** 8442
 - **Version:** gix-mailmap-v0.23.4
-- **Updated:** 2024-07-11T11:15:46Z
+- **Updated:** 2024-07-11T18:32:22Z
 - **Size:** 18.42 MB
 - **SHA256SUM:** 5ba4d8a5a4164bf33ae73edd1494e141b158b5941e9e4638071efb64d27f4fa5
 - **B3SUM:** f7de998f379ab0d4c71ded0a8548f41e97d55c88fc8c2f0ec5675d01e5ca98c5
@@ -2077,7 +2077,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 20796
+- **Stars:** 20798
 - **Version:** v1.18.0
 - **Updated:** 2024-07-11T01:59:18Z
 - **Size:** 1.33 MB
@@ -2128,9 +2128,9 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29620
+- **Stars:** 29621
 - **Version:** jq-1.7.1
-- **Updated:** 2024-07-11T07:18:51Z
+- **Updated:** 2024-07-11T21:17:06Z
 - **Size:** 985.09 kB
 - **SHA256SUM:** 7049485bc6fe7bf4a2c05fb327f7f7e1a21cd803fe6a020d9e49e4ce5ca96598
 - **B3SUM:** 7f68d78b41f8192ddf6ef00229eab8942533bea7d41ff7c4c45730dea4cab5dd
@@ -2213,7 +2213,7 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24427
+- **Stars:** 24428
 - **Version:** v2.0.13
 - **Updated:** 2024-07-11T00:19:39Z
 - **Size:** 11.88 MB
@@ -2247,7 +2247,7 @@
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
-- **Stars:** 10509
+- **Stars:** 10511
 - **Version:** v2.8.1
 - **Updated:** 2024-06-27T13:20:53Z
 - **Size:** 5.25 MB
@@ -2315,7 +2315,7 @@
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 33251
+- **Stars:** 33249
 - **Version:** 3.2.1
 - **Updated:** 2024-07-10T22:32:51Z
 - **Size:** 159.73 MB
@@ -2383,7 +2383,7 @@
 - **Author:** Picocrypt
 - **WebURL:** [https://github.com/Picocrypt/Picocrypt](https://github.com/Picocrypt/Picocrypt)
 - **Repository:** [https://github.com/Picocrypt/Picocrypt](https://github.com/Picocrypt/Picocrypt)
-- **Stars:** 135
+- **Stars:** 136
 - **Version:** 1.37
 - **Updated:** 2024-07-09T03:22:19Z
 - **Size:** 8.29 MB
@@ -2451,7 +2451,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 46313
+- **Stars:** 46316
 - **Version:** 14.1.0
 - **Updated:** 2024-07-04T11:25:13Z
 - **Size:** 5.33 MB
@@ -2485,9 +2485,9 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 16059
+- **Stars:** 16066
 - **Version:** v1.9.3
-- **Updated:** 2024-07-11T15:34:09Z
+- **Updated:** 2024-07-11T18:42:43Z
 - **Size:** 30.72 MB
 - **SHA256SUM:** 92c87fe2bbde39801fba6ba426e71fcb40c6cfe2a186a2ff61bf1c169b0c5267
 - **B3SUM:** e82b745a18f9183a740413a395109de8b689c5baa096255527ebd1f981ef878d
@@ -2502,7 +2502,7 @@
 - **Author:** antoniomika
 - **WebURL:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
 - **Repository:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
-- **Stars:** 3869
+- **Stars:** 3870
 - **Version:** v2.16.0
 - **Updated:** 2024-07-11T15:41:14Z
 - **Size:** 20.42 MB
@@ -2638,9 +2638,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 76639
+- **Stars:** 76655
 - **Version:** 2024.07.09
-- **Updated:** 2024-07-11T06:44:23Z
+- **Updated:** 2024-07-11T17:22:37Z
 - **Size:** 180.22 kB
 - **SHA256SUM:** f6d4163eb00064b894fa8e20bfb3a72abb18c3806feb948af9e3e82e47d6925f
 - **B3SUM:** 8b04e80e26b2744aa13f951d538e53947710f5b8abcb0596d7b967ba3ba6ac81
