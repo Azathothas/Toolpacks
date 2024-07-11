@@ -1187,7 +1187,7 @@ jobs:
           set +x ; set +e
           #--------------#
           rclone copyto "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
-          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/aarch64_Linux/DUPLICATES.txt"
+          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/DUPLICATES.txt"
         continue-on-error: true
 
       - name: Check Duplicates (x86_64_Linux)
