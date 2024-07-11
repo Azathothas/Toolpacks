@@ -1,0 +1,7 @@
+name: "vtm"
+description: "virtual terminal multiplexer"
+web_url: "https://github.com/directvt/vtm"
+repo_url: "https://github.com/directvt/vtm"
+path: "/"
+bins:
+  - "vtm"

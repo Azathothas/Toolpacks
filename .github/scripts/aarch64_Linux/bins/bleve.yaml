@@ -1,0 +1,7 @@
+name: "bleve"
+description: "A modern text indexing library for go"
+web_url: "https://github.com/blevesearch/bleve"
+repo_url: "https://github.com/blevesearch/bleve"
+path: "/"
+bins:
+  - "bleve"

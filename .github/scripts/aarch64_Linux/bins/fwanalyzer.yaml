@@ -1,0 +1,7 @@
+name: "fwanalyzer"
+description: "a tool to analyze filesystem images for security"
+web_url: "https://github.com/cruise-automation/fwanalyzer"
+repo_url: "https://github.com/cruise-automation/fwanalyzer"
+path: "/"
+bins:
+  - "fwanalyzer"

@@ -1,0 +1,7 @@
+name: "git-cliff"
+description: "A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️"
+web_url: "https://github.com/orhun/git-cliff"
+repo_url: "https://github.com/orhun/git-cliff"
+path: "/"
+bins:
+  - "git-cliff"

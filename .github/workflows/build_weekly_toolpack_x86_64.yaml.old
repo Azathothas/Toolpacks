@@ -1,0 +1,299 @@
+name: 🛍️ Build ⚙️ Weekly (toolpack_x86_64) Binaries 📦🗄️
+#MAX_RUNTIME:  
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "30 22 * * 5" # 10:30 PM UTC Friday --> 04:15 AM NPT Mrng Every Saturday
+  
+env:
+  GITHUB_TOKEN: ${{ secrets.TOOLPACKS }}
+  
+jobs:
+#------------------------------------------------------------------------------------#
+  build-fetch-binaries:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: "main"
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+          
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          #12.0 GB 
+          sudo rm /usr/local/lib/android -rf 2>/dev/null
+          #8.2 GB
+          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
+          #5.0 GB
+          sudo rm /usr/local/.ghcup -rf 2>/dev/null
+          #2.0 GB
+          sudo rm /usr/share/dotnet -rf 2>/dev/null
+          #1.7 GB
+          sudo rm /usr/share/swift -rf 2>/dev/null
+          #1.1 GB
+          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
+          #1.0 GB
+          sudo rm /usr/local/share/powershell -rf 2>/dev/null
+          #500 MB
+          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+        continue-on-error: true
+                       
+      - name: Install CoreUtils & Deps
+        run: |
+          set +e
+          sudo apt-get update -y
+          sudo apt-get install automake b3sum build-essential ca-certificates ccache lzip jq make musl musl-dev musl-tools p7zip-full wget -y
+          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq patch patchelf pkg-config python3-pip qemu-user-static wget
+          #libpcap
+          sudo apt install 'libpcap*' -y
+          sudo apt install 'nmap' -y
+        continue-on-error: true
+        
+      - name: Install PythonUtils & Deps (StaticX)
+        run: |       
+          set +e
+          sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev xcb -y
+          pip install ansi2txt
+          pip install scons
+          pip install staticx
+          pip install pyinstaller
+          pip install py2static
+          pip install typer
+        continue-on-error: true
+        
+      - name: Install CargoUtils & Deps
+        run: |    
+          set +e
+          cargo install cross --git "https://github.com/cross-rs/cross"
+        continue-on-error: true
+
+    ##Needed until gh runners updates go version: https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md
+    ## It helps to be on bleeding edge anyway
+      - name: Install/Update golang
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+          source "$HOME/.bashrc"
+          go version
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          set +e
+          #b3sum
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #eget
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #curl -qfsSL "https://zyedidia.github.io/eget.sh" | bash
+          #sudo mv ./eget* "/usr/local/bin/eget"
+          #sudo chmod +xwr "/usr/local/bin/eget"
+        continue-on-error: true
+
+      - name: Install Alsa-Libs (libasound)
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          sudo apt-get install alsa-base alsa-utils linux-sound-base libasound2-dev libfl-dev libjack-dev librust-cpal-dev libxi-dev libxtst-dev -y
+          pushd "$(mktemp -d)" && git clone --filter "blob:none" "https://github.com/alsa-project/alsa-lib" && cd "alsa-lib"
+          bash "./gitcompile" ; "./configure" --enable-shared=no --enable-static=yes
+          sudo make install ; popd
+        continue-on-error: true
+
+      - name: Install Crystal
+        run: |
+          #https://crystal-lang.org/install/on_ubuntu/
+          curl -fsSL https://crystal-lang.org/install.sh | sudo bash
+        continue-on-error: true
+
+      - name: Install Meson & Ninja
+        run: |
+          #Presets
+          set -x ; set +e
+          #Install
+          sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
+          pip install meson ninja --upgrade
+          #python3 -m pip install meson ninja --upgrade
+          sudo ln -s "$HOME/.local/bin/meson" "/usr/bin/meson" 2>/dev/null
+          sudo ln -s "$HOME/.local/bin/ninja" "/usr/bin/ninja" 2>/dev/null
+          sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja"
+          #version
+          meson --version ; ninja --version
+        continue-on-error: true
+
+      # - name: Build mold
+      #   run: |
+      #     # Presets
+      #     set -x ; set +e
+      #     #--------------#
+      #     #Get Source & Create Build Dirs
+      #     pushd "$(mktemp -d)" && git clone --filter="blob:none" "https://github.com/rui314/mold.git" && mkdir -p "./mold/build"
+      #     #Checkout latest version
+      #     git checkout "$(git tag --sort=-creatordate | head -n 1)"
+      #     #Install Build Deps
+      #     cd "./mold/build" && sudo bash "../install-build-deps.sh"
+      #     #Build & Compile
+      #     cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=c++ ..
+      #     cmake --build . -j"$(($(nproc)+1))"
+      #     #Install
+      #     sudo cmake --build . --target install ; popd
+      #     # -- Install configuration: "Release"
+      #     # -- Installing: /usr/local/lib/mold/mold-wrapper.so
+      #     # -- Installing: /usr/local/bin/mold
+      #     # -- Installing: /usr/local/share/man/man1/mold.1
+      #     # -- Installing: /usr/local/share/doc/mold/LICENSE
+      #     # -- Installing: /usr/local/share/doc/mold/LICENSE.third-party
+      #     # -- Installing symlink: /usr/local/libexec/mold/ld -> ../../bin/mold
+      #     # -- Installing symlink: /usr/local/bin/ld.mold -> mold
+      #     # -- Installing symlink: /usr/local/share/man/man1/ld.mold.1 -> mold.1
+      #     #Test
+      #     mold --version
+      #   continue-on-error: true
+
+      - name: Install Mold
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #Download latest release
+          pushd "$(mktemp -d)" && eget "rui314/mold" --asset "x86_64-linux.tar.gz" --download-only --to "./mold.tar.gz"
+          #Extract Archive
+          find . -type f -name "*.tar.gz*" -exec tar -xvf {} --strip-components=1 \;
+          #Main Binary
+          sudo cp "./bin/mold" "/usr/local/bin/mold" ; sudo chmod +xwr "/usr/local/bin/mold"
+          #symlinks 
+          # /usr/local/bin/ld.mold -> mold
+          sudo ln -s "/usr/local/bin/mold" "/usr/local/bin/ld.mold"
+          # /usr/local/libexec/mold/ld --> /usr/local/bin/mold
+          sudo mkdir -p "/usr/local/libexec/mold" && sudo ln -s "/usr/local/bin/mold" "/usr/local/libexec/mold/ld" ; sudo chmod +xwr "/usr/local/libexec/mold"/*
+          #lib : /usr/local/lib/mold/mold-wrapper.so
+          sudo cp -r "./lib/." "/usr/local/lib/" ; sudo chmod +xwr "/usr/local/lib/mold"/* ; popd
+          #Test
+          mold --version
+        continue-on-error: true
+        
+      - name: Install 7z
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          # cd $(mktemp -d) && curl -qfsSLJO "https://www.7-zip.org/$(curl -qfsSL "https://www.7-zip.org/download.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'linux-x64.tar.xz' | sed 's/"$//' | sort | tail -n 1)"
+          # find . -type f -name '*.xz' -exec tar -xf {} \;
+          # #sudo rm $(which 7z) 2>/dev/null ; sudo rm $(which 7z) 2>/dev/null
+          # sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/local/bin/7z" \;
+          # sudo chmod +xwr "/usr/local/bin/7z"
+          # sudo find . -type f -name '7zzs' ! -name '*.xz' -exec cp {} "/usr/bin/7z" \;
+          # sudo chmod +xwr "/usr/bin/7z"
+          7z -h
+        continue-on-error: true
+
+      - name: Install upX
+        run: |
+          #Presets
+          set -x ; set +e
+          #--------------#        
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/bin/upx" && sudo chmod +xwr "/usr/bin/upx"
+          sudo curl -qfsSL "https://bin.prashansa.com.np/x86_64_Linux/upx" -o "/usr/local/bin/upx" && sudo chmod +xwr "/usr/local/bin/upx"
+          # cd $(mktemp -d) && curl -qfLJO "$(curl -qfsSL https://api.github.com/repos/upx/upx/releases/latest | jq -r '.assets[].browser_download_url' | grep -i 'amd64_linux')"
+          # find . -type f -name '*tar*' -exec tar -xvf {} \;
+          # sudo find . -type f -name 'upx' -exec mv {} "$(which upx)" \;  
+          upx -h
+        continue-on-error: true
+
+      - name: Setup Env
+        run: |
+          # Create Output Dir
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64"
+          
+      - name: Download || Build Binaries
+        run: |
+          eget --rate
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/eget_build_binaries_amd_x86_64.sh")
+        continue-on-error: true
+        
+      - name: Strip || Cleanup
+        run: |
+           set +e
+           cd "$HOME/bin"
+           find "$HOME/bin" -maxdepth 1 -type f -exec strip {} \; 2>/dev/null
+           # Strip && Rename anything with *_amd*
+           find "$HOME/bin" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
+        continue-on-error: true
+        
+      - name: Update Binaries
+        run: |
+          #Copy to Repo
+          #Exclude copying bins > 100 MB
+          find "$HOME/bin" -maxdepth 1 -type f ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/x86_64" \;
+          #Tar bins exceeding 99M
+          find "$HOME/bin" -maxdepth 1 -type f -size +99M -exec tar czvf {}.tar.gz --transform='s|.*/||' {} \;
+          #Move to main
+          find "$HOME/bin" -maxdepth 1 -type f -name '*tar.gz' ! -size +99M -exec cp {} "$GITHUB_WORKSPACE/main/x86_64" \;
+        continue-on-error: true
+
+      - name: Update README.md
+        run: |
+           set -x ; set +e
+           cd "$GITHUB_WORKSPACE/main"
+           #cat ./x86_64/INFO.md 2>/dev/null > ./x86_64/README.md
+           #echo -e "" >> ./x86_64/README.md 
+           echo -e "" > ./x86_64/README.md
+           echo '---' >> ./x86_64/README.md
+           echo '```console' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo -e "--> METATDATA" >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ "; file ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo -e "--> BLAKE3SUM" >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ ";b3sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ ";b3sum ./x86_64/* | grep -v '.txt' ' &> ./x86_64/BLAKE3SUM
+           echo -e "" >> ./x86_64/README.md
+           echo -e "--> SHA256SUM" >> ./x86_64/README.md
+           /bin/bash -c 'PS4="$ ";sha256sum ./x86_64/* | grep -v '.txt' ' &>> ./x86_64/README.md 
+           /bin/bash -c 'PS4="$ ";sha256sum ./x86_64/* | grep -v '.txt' ' &> ./x86_64/SHA256SUM
+           echo -e '```\n' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo '---' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo '- #### Sizes' >> ./x86_64/README.md
+           echo -e "" >> ./x86_64/README.md
+           echo '```console' >> ./x86_64/README.md    
+           /bin/bash -c 'PS4="$ ";ls -lh ./x86_64/* | grep -v '.txt' | awk "{print \$5, \$9}" | column -t' &>> ./x86_64/README.md
+           echo -e "\n[+] Total Size: $(du -h ./x86_64 | awk '{print $1}')\n"
+           echo '```' >> ./x86_64/README.md     
+           echo -e "" >> ./x86_64/README.md        
+           echo '---' >> ./x86_64/README.md 
+           echo -e "" >> ./x86_64/README.md 
+        continue-on-error: true
+
+      - name: Git Pull
+        run: |
+           cd "$GITHUB_WORKSPACE/main" && git pull origin main
+        continue-on-error: true
+
+      - name: Get DateTime
+        run: |
+          # Date Time
+          NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')
+          echo "NEPALI_TIME=$NEPALI_TIME" >> $GITHUB_ENV
+          
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main        
+          commit_user_name: Azathothas # defaults to "github-actions[bot]"
+          commit_user_email: AjamX101@gmail.com # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "✅ ⚙️ Build Weekly (toolpack_x86_64) Package 📦🗄️ <-- ${{ env.NEPALI_TIME }} ⌚"
+          #push_options: '--force'          

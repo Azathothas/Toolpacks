@@ -1,0 +1,7 @@
+name: "ecoji"
+description: "Encodes (and decodes) data as emojis"
+web_url: "https://github.com/keith-turner/ecoji"
+repo_url: "https://github.com/keith-turner/ecoji"
+path: "/"
+bins:
+  - "ecoji"

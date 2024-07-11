@@ -1,0 +1,7 @@
+name: "qsv"
+description: "CSVs sliced, diced & analyzed."
+web_url: "https://github.com/jqnatividad/qsv"
+repo_url: "https://github.com/jqnatividad/qsv"
+path: "/"
+bins:
+  - "qsv"

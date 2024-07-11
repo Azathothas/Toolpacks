@@ -1,0 +1,7 @@
+name: "Hub"
+description: "A command-line tool that makes git easier to use with GitHub."
+web_url: "https://github.com/mislav/hub"
+repo_url: "https://github.com/mislav/hub"
+path: "/"
+bins:
+  - "hub"

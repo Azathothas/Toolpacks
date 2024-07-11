@@ -1,0 +1,7 @@
+name: "speedtest-go"
+description: "CLI and Go API to Test Internet Speed using multiple-servers"
+web_url: "https://github.com/showwin/speedtest-go"
+repo_url: "https://github.com/showwin/speedtest-go"
+path: "/"
+bins:
+  - "speedtest-go"

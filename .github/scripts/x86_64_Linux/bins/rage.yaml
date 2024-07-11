@@ -1,0 +1,8 @@
+name: "rage"
+description: "A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability."
+web_url: "https://github.com/str4d/rage"
+repo_url: "https://github.com/str4d/rage"
+path: "/"
+bins:
+  - "rage"
+  - "rage-keygen"

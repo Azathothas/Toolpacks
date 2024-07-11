@@ -1,0 +1,9 @@
+name: "ctrsploit"
+description: "A Penetration Toolkit for Container Environments"
+web_url: "https://github.com/ctrsploit/ctrsploit"
+repo_url: "https://github.com/ctrsploit/ctrsploit"
+path: "/"
+bins:
+  - "ctrsploit"
+  - "ctrsploit-checksec"
+  - "ctrsploit-env"

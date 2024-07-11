@@ -1,0 +1,7 @@
+name: "gitea"
+description: "Git with a cup of tea"
+web_url: "https://github.com/go-gitea/gitea"
+repo_url: "https://github.com/go-gitea/gitea"
+path: "/"
+bins:
+  - "gitea"

@@ -1,0 +1,7 @@
+name: "presenterm"
+description: "A terminal slideshow tool"
+web_url: "https://github.com/mfontanini/presenterm"
+repo_url: "https://github.com/mfontanini/presenterm"
+path: "/"
+bins:
+  - "presenterm"

@@ -1,0 +1,7 @@
+name: "pwninit"
+description: "automate starting binary exploit challenges"
+web_url: "https://github.com/io12/pwninit"
+repo_url: "https://github.com/io12/pwninit"
+path: "/"
+bins:
+  - "pwninit"

@@ -1,0 +1,8 @@
+name: "vnstat"
+description: "A Network Traffic Monitor"
+web_url: "https://humdi.net/vnstat/"
+repo_url: "https://github.com/vergoh/vnstat"
+path: "/"
+bins:
+  - "vnstat"
+  - "vnstatd"

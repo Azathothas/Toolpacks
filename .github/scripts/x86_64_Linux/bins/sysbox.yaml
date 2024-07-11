@@ -1,0 +1,12 @@
+name: "sysbox"
+description: "next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs."
+web_url: "https://github.com/nestybox/sysbox"
+repo_url: "https://github.com/nestybox/sysbox"
+path: "/"
+bins:
+  - "sysbox"
+  - "sysbox-fs"
+  - "sysbox-ipc"
+  - "sysbox-mgr"
+  - "sysbox-pkgr"
+  - "sysbox-runc"

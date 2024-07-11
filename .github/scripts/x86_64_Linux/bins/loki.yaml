@@ -1,0 +1,10 @@
+name: "loki"
+description: "Like Prometheus, but for logs."
+web_url: "https://github.com/grafana/loki"
+repo_url: "https://github.com/grafana/loki"
+path: "/"
+bins:
+  - "logcli"
+  - "loki"
+  - "loki-canary"
+  - "promtail"

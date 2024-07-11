@@ -1,0 +1,7 @@
+name: "killport"
+description: "A command-line tool to easily kill processes running on a specified port."
+web_url: "https://github.com/jkfran/killport"
+repo_url: "https://github.com/jkfran/killport"
+path: "/"
+bins:
+  - "killport"

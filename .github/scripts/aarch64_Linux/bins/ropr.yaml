@@ -1,0 +1,7 @@
+name: "ropr"
+description: "A blazing fast™ multithreaded ROP Gadget finder. ropper / ropgadget alternative"
+web_url: "https://github.com/Ben-Lichtman/ropr"
+repo_url: "https://github.com/Ben-Lichtman/ropr"
+path: "/"
+bins:
+  - "ropr"

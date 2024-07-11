@@ -1,0 +1,7 @@
+name: "spk"
+description: "A small OSINT/Recon tool to find CIDRs that belong to a specific organization"
+web_url: "https://github.com/dhn/spk"
+repo_url: "https://github.com/dhn/spk"
+path: "/"
+bins:
+  - "spk"

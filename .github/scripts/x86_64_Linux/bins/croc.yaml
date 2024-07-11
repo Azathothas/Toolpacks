@@ -1,0 +1,7 @@
+name: "croc"
+description: "Easily and securely send things from one computer to another"
+web_url: "https://github.com/schollz/croc"
+repo_url: "https://github.com/schollz/croc"
+path: "/"
+bins:
+  - "croc"

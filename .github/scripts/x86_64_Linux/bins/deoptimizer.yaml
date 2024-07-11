@@ -1,0 +1,7 @@
+name: "deoptimizer"
+description: "Machine code de-optimizer to bypass AV"
+web_url: "https://github.com/EgeBalci/deoptimizer"
+repo_url: "https://github.com/EgeBalci/deoptimizer"
+path: "/"
+bins:
+  - "deoptimizer"

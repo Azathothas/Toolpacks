@@ -1,0 +1,7 @@
+name: "xh"
+description: "Friendly and fast tool for sending HTTP requests"
+web_url: "https://github.com/ducaale/xh"
+repo_url: "https://github.com/ducaale/xh"
+path: "/"
+bins:
+  - "xh"

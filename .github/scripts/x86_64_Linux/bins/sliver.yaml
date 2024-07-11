@@ -1,0 +1,8 @@
+name: "sliver"
+description: "Adversary Emulation Framework"
+web_url: "https://github.com/BishopFox/sliver"
+repo_url: "https://github.com/BishopFox/sliver"
+path: "/"
+bins:
+  - "sliver-client"
+  - "sliver-server"

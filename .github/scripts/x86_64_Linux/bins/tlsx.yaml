@@ -1,0 +1,7 @@
+name: "tlsx"
+description: "Fast and configurable TLS grabber focused on TLS based data collection"
+web_url: "https://github.com/projectdiscovery/tlsx"
+repo_url: "https://github.com/projectdiscovery/tlsx"
+path: "/"
+bins:
+  - "tlsx"

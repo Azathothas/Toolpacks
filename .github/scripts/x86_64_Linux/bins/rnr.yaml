@@ -1,0 +1,7 @@
+name: "rnr"
+description: "A command-line tool to batch rename files and directories"
+web_url: "https://github.com/ismaelgv/rnr"
+repo_url: "https://github.com/ismaelgv/rnr"
+path: "/"
+bins:
+  - "rnr"

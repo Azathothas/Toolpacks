@@ -1,0 +1,7 @@
+name: "ddns-go"
+description: "Simple and easy to use DDNS"
+web_url: "https://github.com/jeessy2/ddns-go"
+repo_url: "https://github.com/jeessy2/ddns-go"
+path: "/"
+bins:
+  - "ddns-go.exe"

@@ -1,0 +1,8 @@
+name: "ksubdomain"
+description: "Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second"
+web_url: "https://github.com/boy-hack/ksubdomain"
+repo_url: "https://github.com/boy-hack/ksubdomain"
+path: "/"
+bins:
+  - "ksubdomain"
+  - "ksubdomain_staticx"

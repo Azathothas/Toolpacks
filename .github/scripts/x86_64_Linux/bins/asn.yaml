@@ -1,0 +1,7 @@
+name: "asn"
+description: "ASN / RPKI validity / BGP stats / IPv4v6 / Prefix / URL / ASPath / Organization / IP reputation / IP geolocation / IP fingerprinting / Network recon / lookup API server / Web traceroute server"
+web_url: "https://github.com/nitefood/asn"
+repo_url: "https://github.com/nitefood/asn"
+path: "/"
+bins:
+  - "asn"

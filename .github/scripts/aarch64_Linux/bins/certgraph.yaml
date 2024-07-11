@@ -1,0 +1,7 @@
+name: "certgraph"
+description: "An open source intelligence tool to crawl the graph of certificate Alternate Names"
+web_url: "https://github.com/lanrat/certgraph"
+repo_url: "https://github.com/lanrat/certgraph"
+path: "/"
+bins:
+  - "certgraph"

@@ -1,0 +1,7 @@
+name: "patchelf"
+description: "A small utility to modify the dynamic linker and RPATH of ELF executables"
+web_url: "https://github.com/NixOS/patchelf"
+repo_url: "https://github.com/NixOS/patchelf"
+path: "/"
+bins:
+  - "patchelf"

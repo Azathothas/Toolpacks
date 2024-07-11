@@ -1,0 +1,7 @@
+name: "mantra"
+description: "「\U0001F511」A tool used to hunt down API key leaks in JS files and pages"
+web_url: "https://github.com/MrEmpy/mantra"
+repo_url: "https://github.com/MrEmpy/mantra"
+path: "/"
+bins:
+  - "mantra"

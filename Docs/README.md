@@ -1,0 +1,119 @@
+- #### How does It All Work?
+> - Either [Github-Runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners) OR [Self-Hosted Runners](https://github.com/Azathothas/Toolpacks/tree/main/.github/runners) are configured and kicked off every 2-3 Days.
+> - These Runners are based on [Ubuntu (Debian)](https://github.com/Azathothas/Toolpacks/blob/main/.github/runners/ubuntu-systemd-base.dockerfile). Each Runner then uses the Build Script ([x86_64](https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/x86_64_Linux/build_debian.sh) | [aarch64](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/build_debian.sh)).
+> - The [Build Script](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) runs the Init Script ([x86_64](https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/x86_64_Linux/init_debian.sh) | [aarch64](https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/aarch64_Linux/init_debian.sh)) which sets up all the required env & tooling.
+> - And then, each and every script under `bins` ([x86_64](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins) | [aarch64](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins)) is run.
+> - These `bin` scripts are what's responsible for actually `building/compiling/fetching` the binaries.
+> - After this is completed, some additional housekeeping such as stripping debug symbols etc is done.
+> - Finally, all the binaries are uploaded to [bin.ajam.dev](https://bin.ajam.dev/). This is a [Cloudflare R2 Bucket](https://developers.cloudflare.com/r2/) and is managed using [rClone](https://github.com/rclone/rclone). All the binaries are also [compressed using 7z](https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/TIPS_TRICKS.md#archive--compress-dir--all-its-subfolders-with-best-possible-compression-7z) & uploaded to [R2](https://bin.ajam.dev/).
+> - These steps are same when compiling for other `$ARCH/$OS`
+
+---
+- #### How to add (request) a new a PKG/Tool?
+> 1. First & Foremost, make sure to check that it's **not already available**.
+> ```bash
+> #-----------------------------------------------------------------------------#
+> ↣ x86_64 Linux
+> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
+>
+> #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/x86_64_Linux/DETAILED.md
+>
+> #-----------------------------------------------------------------------------#
+> ↣ aarch64 || arm64 Linux
+> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
+>
+> #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/aarch64_arm64_Linux/DETAILED.md
+> 
+> ```
+> 
+> 2. After you are really sure that it's not available, Read [BUILD_NOTES.md](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md).
+> This contains notes on compiling static binaries. However, if there's already a static binary that's released, you can [just use eget to fetch it.](https://github.com/zyedidia/eget)
+> 3. After you have successfully `built/compiled/fetched` a **static** binary, you must check that it's truly static : [Tests](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#tests)
+> 4. After all this, finally describe & provide step-by-step instruction by [creating a new issue](https://github.com/Azathothas/Toolpacks/issues/new)
+> Make sure to include **ALL Steps** (Including getting source code). Be as verbose as possible. Include output of `file` | `ldd` | `readelf`. Optionally, also test the binary with `qemu-$ARCH-static` or a minimal VM/Docker Image (Preferably alpine) to ensure that it really does work.
+> 5. ***If you don't put effort into requesting a tool/pkg to be added here, neither will I.***
+---
+
+- #### Why not many Android Binaries?
+> - Android is [weird & very different from Linux](https://wiki.termux.com/wiki/Differences_from_Linux).
+> - Android has [known issues that are `won't fix | by design`](https://github.com/termux/termux-packages/wiki/Common-porting-problems)
+> - Android binaries [`CAN NOT BE COMPILED STATICALLY`](https://github.com/Zackptg5/Cross-Compiled-Binaries-Android/tree/master/build_script#dns-issues) without signifcant efforts & manual patching for each & every binary. This is not Automatable.
+> - [Termux](https://termux.dev/en/) already [ports thousands of packages](https://github.com/termux/termux-packages), Check the [Issues for your `pkg`](https://github.com/termux/termux-packages/issues). There's also a [**near-complete** list of all packages offically available on Termux](https://github.com/Azathothas/Termux-Packages)
+> - [bin.ajam.dev/arm64_v8a_Android](https://bin.ajam.dev/arm64_v8a_Android/) Only provides Tools/Pkgs (Only for `arm64-v8a`) that I personally use but aren't already available in termux-pkgs or broken or just for lulz. I will probably not accept request for android binaries.
+> - Check these : [Zackptg5/Cross-Compiled-Binaries-Android](https://github.com/Zackptg5/Cross-Compiled-Binaries-Android) & [bol-van/bins](https://github.com/bol-van/bins) 
+---
+
+- #### What is `Baseutils`?
+> - Essentially [Baseutils is a collection](https://bin.ajam.dev/x86_64_Linux/Baseutils/) of `Bins from CoreUtils` + `BusyBox` + `FindUtils` + `OpenSSH` + `Procps` + `ToyBox` + `UtilLinux` + `XZ-Utils` & [`More`](https://bin.ajam.dev/x86_64_Linux/Baseutils/).
+> Mostly meant for restricted environments like ephemeral [AWS Lambda](https://medium.com/clog/ssh-ing-into-your-aws-lambda-functions-c940cebf7646), [Google Cloud Functions](https://cloud.google.com/functions?hl=en) or anywhere really where there's a lack of coreutils or no privs to use pkg managers.
+> This could also be _theoretically_ used to [bootstrap a linux distro](https://www.youtube.com/watch?v=0vOEcw_sPaM), however, some binaries may not work as I haven't tested all of them comprehensively. Stability & Reliability isn't Guaranteed.
+---
+
+- #### `Broken | NOT Statically Linked` Binaries
+> - If you find a binary that doesn't work (`segfaults/crashes`) or is `dynamically linked`, it will be treated as a bug.
+> - There's an automated step which checks for these: [aarch64-Linux](https://github.com/Azathothas/Toolpacks/blob/main/aarch64_arm64_Linux/BUILD_ERROR.log.md) [arm64-v8a-Android](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android/BUILD_ERROR.log.md) [x86_64-Linux](https://github.com/Azathothas/Toolpacks/blob/main/x86_64_Linux/BUILD_ERROR.log.md) [x64-Windows](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)
+> - So if it's already there, it will eventually be fixed.
+> - If it's NOT Or you would like me to fix it ASAP [please create an Issue](https://github.com/Azathothas/Toolpacks/issues/new)
+> > - `Title`: Summary of Issue along with `Binary` & `Platfrom` Name
+> > - `Description`: Show me `crash/segfault` screenshot or provide `file/ldd/readelf` output along with what would be the correct behaviour
+> > - `Tag`: `BUG` + `$PLATFORM`
+---
+
+- #### Why not host on GitHub?
+> - Actually, I used to do just that back when there were only a few hundred binaries. All binaries were hosted on GitHub along with weekly releases containing all Binaries packed in tar/7z.
+> > You can find this on the [WayBack Archive](https://web.archive.org/web/*/https://github.com/Azathothas/Toolpacks): https://web.archive.org/web/*/https://github.com/Azathothas/Toolpacks
+> - As number of packages grew, Git turned out to be not the right tool: https://www.reddit.com/r/git/comments/ek4kv2/git_is_bad_at_binary_file_management_but_is_it/
+> - GitHub also has limits: https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
+> - Last but not least, to avoid https://github.com/Azathothas/Toolpacks/edit/main/Docs/README.md#dmca-copyright--cease--desist
+---
+
+- #### Why reset ALL Git Commits?
+> - The entire repo is reset back to 1 commit as soon as Total Number of Commits reaches `>1000`
+> - This is because 95% of these commits are automated, and on average there's `50-100` commits/Day.
+> - This quickly spams the entire git history rendering backtracking changes very hard.
+> - Thus to keep it all clean and actually useful, a purge is committed every `>1000` Commits (~2-3 Weeks)
+---
+
+- #### How to verify checksums?
+> - [**SHA256SUM**](https://linux.die.net/man/1/sha256sum)
+> ```bash
+> ❯ Linux (curl + jq + sha256sum) [RECOMMENDED]
+> !#path= should be exact location to $BIN, so if it's in cwd, path="./$BIN" [REPLACE $BIN with literal Value)
+> echo "$(curl -qfsSL "https://bin.ajam.dev/$(uname -m)/METADATA.json" | jq -r '.[] | select(.name == "$BIN") | .sha256')  $PATH_TO_BIN" | sha256sum -c -
+> !#If you downloaded from Baseutils/*, URL: https://bin.ajam.dev/$(uname -m)/Baseutils/METADATA.json"
+>  
+> ❯ Linux (curl + awk + sha256sum)
+> !#path= should be exact location to $BIN, so if it's in cwd, path="./$BIN" [REPLACE $BIN with literal Value)
+> curl -qfsSL "https://bin.ajam.dev/$(uname -m)/SHA256SUM.txt" | awk -v path="$PATH_TO_BIN" '/ $BIN$/{print $1, path}' | sha256sum -c -
+> !#If you downloaded from Baseutils/* etc, you must pass the correct URL: https://bin.ajam.dev/$(uname -m)/Baseutils/$PATH/SHA256SUM.txt
+>
+> ```
+---
+
+- #### [`DMCA`](https://opensource.guide/legal/), [`Copyright`](https://opensource.guide/legal/) & [`Cease & Desist`](https://opensource.guide/legal/)
+> - If you/your project/software uses a license which forbids binary distribution, and you would like to take down the binary:
+> > - First, having such clause and disallowing people to distribute binaries, will harm only your own popularity/ potential user increment
+> > - Second, this repo is intentionally licensed as [`unlicense`](https://unlicense.org/) which is essentially Public Domain/Do whatever you want.
+> > - Third, if you have no problems with any major package managers like [brew](https://brew.sh/), [NixPKGs](https://search.nixos.org/packages), [pkgsrc](https://pkgsrc.org/) etc, you shouldn't have an Issue with this repo.
+> > - In summary, all `DMCA | CopyRight` **Notices will be Ignored & Not Complied With.**
+> > > All Binaries are hosted on Cloudflare, and NOT GitHub. GitHub only contains scripts & source code.
+---
+
+- #### How to contribute?
+> To contribute, you **first must read & understand this entire repo**. After that, follow similar code/script style to make changes & then create a pull request.
+> 
+> This means, if your changes/pull request is not compatible with how I would do it, I will NOT ACCEPT it.
+> 
+> Hence, if all you want to do is request for some packages/tools to be added, you are better off creating an Issue instead. Read: https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool
+>
+> However, if it's not related to `code | asking for more packages` to be included, you can **contribute/help me by donating a build server**. Either `arm (Preferred)` or `amd x86_64`.
+> Servers & Storage cost money, right now I pay for [Self Hosted Github Runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) & R2 Bucket (70-100$/Month).
+---
+
+- #### How do I find new Tools to add?
+> - [GitHub Search](https://github.com/search?q=is%3Apublic+archived%3Afalse+template%3Afalse+lang%3Ac+lang%3Acrystal+lang%3Ago+lang%3Anim+lang%3Arust+lang%3Azig+stars%3A%3E5+cli+OR+tool+OR+utility&type=repositories&s=updated&o=desc): `is:public archived:false template:false lang:c lang:crystal lang:go lang:nim lang:rust lang:zig stars:>5 cli OR tool OR utility` (Sorted By: `Recently Updated`)
+> - [GitHub Issues](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt): [https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt)
+---
+
+- #### [Contact](https://ajam.dev/contact)
+> - If you find your question hasn't been answered here OR you would like to seek clarification OR just say Hi : https://ajam.dev/contact

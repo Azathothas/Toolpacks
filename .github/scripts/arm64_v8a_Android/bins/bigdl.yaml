@@ -1,0 +1,7 @@
+name: "bigdl"
+description: "\U0001F4E6 Poor mans package manager."
+web_url: "https://github.com/xplshn/bigdl"
+repo_url: "https://github.com/xplshn/bigdl"
+path: "/"
+bins:
+  - "bigdl"

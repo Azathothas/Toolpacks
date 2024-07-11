@@ -1,0 +1,7 @@
+name: "WebSocat"
+description: "netcat (or curl) for ws // with advanced socat-like functions"
+web_url: "https://github.com/vi/websocat"
+repo_url: "https://github.com/vi/websocat"
+path: "/"
+bins:
+  - "websocat"

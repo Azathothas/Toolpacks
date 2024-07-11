@@ -1,0 +1,58 @@
+```mathematica
+ 89M └─┬ main
+ 60M   ├─┬ x86_64_Linux
+ 57M   │ ├── BUILD.log.txt
+952K   │ ├── METADATA.json
+644K   │ ├── DETAILED.md
+464K   │ ├── README.md
+152K   │ ├── FILE.txt
+ 80K   │ ├── SHA256SUM.txt
+ 80K   │ ├── BLAKE3SUM.txt
+ 52K   │ ├── SIZE.txt
+ 52K   │ ├── SIZE.md
+ 44K   │ └── BUILD_ERROR.log.md
+ 18M   ├─┬ aarch64_arm64_Linux
+ 16M   │ ├── BUILD.log.txt
+800K   │ ├── METADATA.json
+524K   │ ├── DETAILED.md
+380K   │ ├── README.md
+124K   │ ├── FILE.txt
+ 60K   │ ├── SHA256SUM.txt
+ 60K   │ ├── BLAKE3SUM.txt
+ 40K   │ ├── SIZE.txt
+ 40K   │ ├── SIZE.md
+8.0K   │ └── BUILD_ERROR.log.md
+5.1M   ├── METADATA.json
+4.7M   ├── METADATA.yaml
+452K   ├─┬ x64_Windows
+200K   │ ├── METADATA.json
+100K   │ ├── DETAILED.md
+ 72K   │ ├── README.md
+ 20K   │ ├── FILE.txt
+ 16K   │ ├── SHA256SUM.txt
+ 16K   │ ├── BLAKE3SUM.txt
+ 12K   │ ├── SIZE.txt
+ 12K   │ └── SIZE.md
+104K   ├─┬ arm64_v8a_Android
+ 32K   │ ├── METADATA.json
+ 20K   │ ├── DETAILED.md
+ 12K   │ ├── README.md
+ 12K   │ ├── FILE.txt
+8.0K   │ ├── SHA256SUM.txt
+8.0K   │ ├── BLAKE3SUM.txt
+4.0K   │ ├── SIZE.txt
+4.0K   │ └── SIZE.md
+ 84K   ├─┬ Docs
+ 36K   │ ├── BUILD_NOTES.md
+ 16K   │ ├── README.md
+4.0K   │ ├── ZIG_TARGETS.txt
+4.0K   │ ├── TODO.md
+4.0K   │ ├── RUST_TARGETS.txt
+4.0K   │ ├── NIX_TARGETS.txt
+4.0K   │ ├── METADATA.md
+4.0K   │ ├── GO_TARGETS.md
+4.0K   │ └── DEBUG.md
+ 16K   ├── README.md
+ 16K   ├── INFO.md
+4.0K   └── LICENSE
+```

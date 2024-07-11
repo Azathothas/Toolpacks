@@ -1,0 +1,7 @@
+name: "zsh"
+description: "Z Shell"
+web_url: "https://github.com/zsh-users/zsh"
+repo_url: "https://github.com/zsh-users/zsh"
+path: "/"
+bins:
+  - "zsh"

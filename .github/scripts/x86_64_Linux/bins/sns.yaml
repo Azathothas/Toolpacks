@@ -1,0 +1,7 @@
+name: "sns"
+description: "IIS shortname scanner written in Go"
+web_url: "https://github.com/sw33tLie/sns"
+repo_url: "https://github.com/sw33tLie/sns"
+path: "/"
+bins:
+  - "sns"

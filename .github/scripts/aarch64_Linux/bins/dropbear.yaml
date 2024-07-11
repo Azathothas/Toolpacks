@@ -1,0 +1,12 @@
+name: "Dropbear"
+description: "A smallish SSH server and client"
+web_url: "https://github.com/mkj/dropbear"
+repo_url: "https://github.com/mkj/dropbear"
+path: "/"
+bins:
+  - "dbclient"
+  - "dropbear"
+  - "dropbearconvert"
+  - "dropbearkey"
+  - "dropbearmulti"
+  - "dropbearscp"

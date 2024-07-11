@@ -1,0 +1,10 @@
+name: "findutils"
+description: "Rust implementation of findutils"
+web_url: "https://github.com/uutils/findutils"
+repo_url: "https://github.com/uutils/findutils"
+path: "/"
+bins:
+  - "find-rs.exe"
+  - "find.exe"
+  - "xargs-rs.exe"
+  - "xargs.exe"

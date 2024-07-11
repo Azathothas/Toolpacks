@@ -1,0 +1,7 @@
+name: "sn0int"
+description: "Semi-automatic OSINT framework and package manager"
+web_url: "https://github.com/kpcyrd/sn0int"
+repo_url: "https://github.com/kpcyrd/sn0int"
+path: "/"
+bins:
+  - "sn0int"

@@ -1,0 +1,7 @@
+name: "binary-security-check"
+description: "Analyzer of security features in executable binaries"
+web_url: "https://github.com/koutheir/binary-security-check"
+repo_url: "https://github.com/koutheir/binary-security-check"
+path: "/"
+bins:
+  - "binary-security-check"

@@ -1,0 +1,8 @@
+name: "mosh"
+description: "the mobile shell"
+web_url: "https://github.com/mobile-shell/mosh"
+repo_url: "https://github.com/mobile-shell/mosh"
+path: "/"
+bins:
+  - "mosh-client"
+  - "mosh-server"

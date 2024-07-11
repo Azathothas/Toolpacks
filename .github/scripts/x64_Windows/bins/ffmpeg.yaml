@@ -1,0 +1,8 @@
+name: "ffmpeg"
+description: "A complete, cross-platform solution to record, convert and stream audio and video."
+web_url: "https://ffmpeg.org"
+repo_url: ""
+path: "/"
+bins:
+  - "ffmpeg.exe"
+  - "ffprobe.exe"

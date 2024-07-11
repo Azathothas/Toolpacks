@@ -1,0 +1,7 @@
+name: "mergerfs"
+description: "A featureful union filesystem"
+web_url: "https://github.com/trapexit/mergerfs"
+repo_url: "https://github.com/trapexit/mergerfs"
+path: "/"
+bins:
+  - "mergerfs"

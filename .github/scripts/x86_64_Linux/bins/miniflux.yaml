@@ -1,0 +1,7 @@
+name: "miniflux"
+description: "Minimalist and opinionated feed reader"
+web_url: "https://github.com/miniflux/v2"
+repo_url: "https://github.com/miniflux/v2"
+path: "/"
+bins:
+  - "miniflux"

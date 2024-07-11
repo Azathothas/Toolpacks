@@ -1,0 +1,7 @@
+name: "oha"
+description: "HTTP load generator"
+web_url: "https://github.com/hatoo/oha"
+repo_url: "https://github.com/hatoo/oha"
+path: "/"
+bins:
+  - "oha"

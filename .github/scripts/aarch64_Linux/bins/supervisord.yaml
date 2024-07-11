@@ -1,0 +1,7 @@
+name: "supervisord"
+description: "a go-lang supervisor implementation"
+web_url: "https://github.com/ochinchina/supervisord"
+repo_url: "https://github.com/ochinchina/supervisord"
+path: "/"
+bins:
+  - "supervisord"

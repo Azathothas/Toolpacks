@@ -1,0 +1,7 @@
+name: "certspotter"
+description: "Certificate Transparency Log Monitor"
+web_url: "https://github.com/SSLMate/certspotter"
+repo_url: "https://github.com/SSLMate/certspotter"
+path: "/"
+bins:
+  - "certspotter"

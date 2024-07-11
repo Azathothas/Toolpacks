@@ -1,0 +1,8 @@
+name: "gitoxide"
+description: "file archiver with a high compression ratio."
+web_url: "https://github.com/Byron/gitoxide"
+repo_url: "https://github.com/Byron/gitoxide"
+path: "/"
+bins:
+  - "ein.exe"
+  - "gix.exe"

@@ -1,0 +1,7 @@
+name: "gotty"
+description: "Share your terminal as a web application"
+web_url: "https://github.com/sorenisanerd/gotty"
+repo_url: "https://github.com/sorenisanerd/gotty"
+path: "/"
+bins:
+  - "gotty"

@@ -1,0 +1,7 @@
+name: "alterx"
+description: "Fast and customizable subdomain wordlist generator using DSL"
+web_url: "https://github.com/projectdiscovery/alterx"
+repo_url: "https://github.com/projectdiscovery/alterx"
+path: "/"
+bins:
+  - "alterx"

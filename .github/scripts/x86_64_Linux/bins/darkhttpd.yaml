@@ -1,0 +1,7 @@
+name: "darkhttpd"
+description: "Standalone, Minimal HTTP Server"
+web_url: "https://github.com/emikulic/darkhttpd"
+repo_url: "https://github.com/emikulic/darkhttpd"
+path: "/"
+bins:
+  - "darkhttpd"

@@ -1,0 +1,7 @@
+name: "DevBox"
+description: "Instant, easy, and predictable development environments"
+web_url: "https://github.com/jetpack-io/devbox"
+repo_url: "https://github.com/jetpack-io/devbox"
+path: "/"
+bins:
+  - "devbox"

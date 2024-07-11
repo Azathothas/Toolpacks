@@ -1,0 +1,7 @@
+name: "xurls"
+description: "Extract urls from text"
+web_url: "https://github.com/mvdan/xurls"
+repo_url: "https://github.com/mvdan/xurls"
+path: "/"
+bins:
+  - "xurls"

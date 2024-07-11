@@ -1,0 +1,12 @@
+name: "transmission"
+description: "A fast, easy and free BitTorrent client"
+web_url: "https://transmissionbt.com/"
+repo_url: "https://github.com/transmission/transmission"
+path: "/"
+bins:
+  - "transmission-cli"
+  - "transmission-create"
+  - "transmission-daemon"
+  - "transmission-edit"
+  - "transmission-remote"
+  - "transmission-show"

@@ -1,0 +1,10 @@
+name: "php"
+description: "Standalone PHP binary"
+web_url: "https://static-php.dev"
+repo_url: "https://github.com/crazywhalecc/static-php-cli"
+path: "/"
+bins:
+  - "php"
+  - "php-cli"
+  - "php-fpm"
+  - "php-micro"

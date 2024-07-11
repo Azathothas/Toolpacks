@@ -1,0 +1,7 @@
+name: "pgweb"
+description: "Cross-platform client for PostgreSQL databases"
+web_url: "https://github.com/sosedoff/pgweb"
+repo_url: "https://github.com/sosedoff/pgweb"
+path: "/"
+bins:
+  - "pgweb"

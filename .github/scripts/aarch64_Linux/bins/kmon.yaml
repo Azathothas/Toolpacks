@@ -1,0 +1,7 @@
+name: "kmon"
+description: "Linux Kernel Manager and Activity Monitor \U0001F427\U0001F4BB"
+web_url: "https://github.com/orhun/kmon"
+repo_url: "https://github.com/orhun/kmon"
+path: "/"
+bins:
+  - "kmon"

@@ -1,0 +1,10 @@
+name: "iputils"
+description: "A set of small useful utilities for Linux networking"
+web_url: "https://github.com/iputils/iputils"
+repo_url: "https://github.com/iputils/iputils"
+path: "/"
+bins:
+  - "arping"
+  - "clockdiff"
+  - "ping"
+  - "tracepath"

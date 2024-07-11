@@ -1,0 +1,7 @@
+name: "anewer"
+description: "anewer appends lines from stdin to a file if they dont already exist in the file"
+web_url: "https://github.com/ysf/anewer"
+repo_url: "https://github.com/ysf/anewer"
+path: "/"
+bins:
+  - "anewer"

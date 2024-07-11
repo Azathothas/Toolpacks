@@ -1,0 +1,8 @@
+name: "nushell"
+description: "A new type of shell"
+web_url: "https://github.com/nushell/nushell"
+repo_url: "https://github.com/nushell/nushell"
+path: "/"
+bins:
+  - "nu"
+  - "nushell"

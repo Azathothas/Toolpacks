@@ -1,0 +1,7 @@
+name: "certwatcher"
+description: "CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL."
+web_url: "https://github.com/drfabiocastro/certwatcher"
+repo_url: "https://github.com/drfabiocastro/certwatcher"
+path: "/"
+bins:
+  - "certwatcher"

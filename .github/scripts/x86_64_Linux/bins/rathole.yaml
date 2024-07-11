@@ -1,0 +1,7 @@
+name: "rathole"
+description: "A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok."
+web_url: "https://github.com/rapiz1/rathole"
+repo_url: "https://github.com/rapiz1/rathole"
+path: "/"
+bins:
+  - "rathole"

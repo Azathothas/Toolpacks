@@ -1,0 +1,7 @@
+name: "gickup"
+description: "Backup all the repositories."
+web_url: "https://github.com/cooperspencer/gickup"
+repo_url: "https://github.com/cooperspencer/gickup"
+path: "/"
+bins:
+  - "gickup"

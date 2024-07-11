@@ -1,0 +1,7 @@
+name: "t-rec"
+description: "terminal recorder that generates animated gif images for the web"
+web_url: "https://github.com/sassman/t-rec-rs"
+repo_url: "https://github.com/sassman/t-rec-rs"
+path: "/"
+bins:
+  - "t-rec"

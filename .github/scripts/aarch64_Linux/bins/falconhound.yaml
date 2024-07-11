@@ -1,0 +1,7 @@
+name: "falconhound"
+description: "FalconHound is a blue team multi-tool"
+web_url: "https://github.com/FalconForceTeam/FalconHound"
+repo_url: "https://github.com/FalconForceTeam/FalconHound"
+path: "/"
+bins:
+  - "falconhound"

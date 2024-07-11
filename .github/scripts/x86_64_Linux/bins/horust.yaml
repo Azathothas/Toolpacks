@@ -1,0 +1,7 @@
+name: "Horust"
+description: "Horust is a supervisor / init system written in rust and designed to run inside containers."
+web_url: "https://github.com/FedericoPonzi/Horust"
+repo_url: "https://github.com/FedericoPonzi/Horust"
+path: "/"
+bins:
+  - "horust"

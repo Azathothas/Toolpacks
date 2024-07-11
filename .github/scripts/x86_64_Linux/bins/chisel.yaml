@@ -1,0 +1,7 @@
+name: "chisel"
+description: "A fast TCP/UDP tunnel over HTTP"
+web_url: "https://github.com/jpillora/chisel"
+repo_url: "https://github.com/jpillora/chisel"
+path: "/"
+bins:
+  - "chisel"

@@ -1,0 +1,7 @@
+name: "bottom"
+description: "htop clone | graphical process/system monitor"
+web_url: "https://github.com/ClementTsang/bottom"
+repo_url: "https://github.com/ClementTsang/bottom"
+path: "/"
+bins:
+  - "bottom"

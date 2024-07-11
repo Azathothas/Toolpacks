@@ -1,0 +1,13 @@
+name: "wirelesstools"
+description: "Wireless tools for Linux"
+web_url: "https://hewlettpackard.github.io/wireless-tools/Tools.html"
+repo_url: "https://github.com/HewlettPackard/wireless-tools"
+path: "/Baseutils/wirelesstools/"
+bins:
+  - "ifrename"
+  - "iwconfig"
+  - "iwevent"
+  - "iwgetid"
+  - "iwlist"
+  - "iwpriv"
+  - "iwspy"

@@ -1,0 +1,8 @@
+name: "katana"
+description: "A next-generation crawling and spidering framework"
+web_url: "https://github.com/projectdiscovery/katana"
+repo_url: "https://github.com/projectdiscovery/katana"
+path: "/"
+bins:
+  - "katana"
+  - "katana_staticx"

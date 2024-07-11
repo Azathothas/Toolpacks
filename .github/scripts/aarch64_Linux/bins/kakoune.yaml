@@ -1,0 +1,8 @@
+name: "kakoune"
+description: "a better code editor"
+web_url: "https://github.com/mawww/kakoune"
+repo_url: "https://github.com/mawww/kakoune"
+path: "/"
+bins:
+  - "kak"
+  - "kakoune"

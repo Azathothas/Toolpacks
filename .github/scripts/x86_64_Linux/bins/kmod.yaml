@@ -1,0 +1,13 @@
+name: "kmod"
+description: "Tools for loading and managing Linux kernel modules"
+web_url: "https://github.com/kmod-project/kmod"
+repo_url: "https://github.com/kmod-project/kmod"
+path: "/Baseutils/kmod/"
+bins:
+  - "depmod"
+  - "insmod"
+  - "kmod"
+  - "lsmod"
+  - "modinfo"  
+  - "modprobe"  
+  - "rmmod"

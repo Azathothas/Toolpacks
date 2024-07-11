@@ -1,0 +1,7 @@
+name: "pencode"
+description: "Complex payload encoder"
+web_url: "https://github.com/ffuf/pencode"
+repo_url: "https://github.com/ffuf/pencode"
+path: "/"
+bins:
+  - "pencode"

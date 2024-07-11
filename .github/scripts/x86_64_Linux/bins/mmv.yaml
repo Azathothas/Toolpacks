@@ -1,0 +1,7 @@
+name: "mmv"
+description: "rename multiple files with editor"
+web_url: "https://github.com/itchyny/mmv"
+repo_url: "https://github.com/itchyny/mmv"
+path: "/"
+bins:
+  - "mmv"

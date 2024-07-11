@@ -1,0 +1,7 @@
+name: "jira"
+description: "\U0001F525 Feature-rich interactive Jira command line."
+web_url: "https://github.com/ankitpokhrel/jira-cli"
+repo_url: "https://github.com/ankitpokhrel/jira-cli"
+path: "/"
+bins:
+  - "jira-cli"

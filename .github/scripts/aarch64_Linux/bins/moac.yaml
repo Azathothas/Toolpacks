@@ -1,0 +1,8 @@
+name: "moac"
+description: "Go Implementation of WireGuard"
+web_url: "https://github.com/Seirdy/moac"
+repo_url: "https://github.com/Seirdy/moac"
+path: "/"
+bins:
+  - "moac"
+  - "moac-pwgen"

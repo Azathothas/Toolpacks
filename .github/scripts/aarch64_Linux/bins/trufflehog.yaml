@@ -1,0 +1,7 @@
+name: "trufflehog"
+description: "Find and verify credentials"
+web_url: "https://github.com/trufflesecurity/trufflehog"
+repo_url: "https://github.com/trufflesecurity/trufflehog"
+path: "/"
+bins:
+  - "trufflehog"

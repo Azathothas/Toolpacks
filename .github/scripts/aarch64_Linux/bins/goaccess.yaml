@@ -1,0 +1,7 @@
+name: "goaccess"
+description: "real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser."
+web_url: "https://github.com/allinurl/goaccess"
+repo_url: "https://github.com/allinurl/goaccess"
+path: "/"
+bins:
+  - "goaccess"

@@ -1,0 +1,7 @@
+name: "devpod"
+description: "Codespaces but open-source, client-only and unopinionated"
+web_url: "https://github.com/loft-sh/devpod"
+repo_url: "https://github.com/loft-sh/devpod"
+path: "/"
+bins:
+  - "devpod"

@@ -1,0 +1,7 @@
+name: "tldr"
+description: "Simplified and community-driven man pages"
+web_url: "https://github.com/raylee/tldr-sh-client"
+repo_url: "https://github.com/raylee/tldr-sh-client"
+path: "/"
+bins:
+  - "tldr"

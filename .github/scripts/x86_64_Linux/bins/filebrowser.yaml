@@ -1,0 +1,7 @@
+name: "filebrowser"
+description: "\U0001F4C2 Web File Browser"
+web_url: "https://github.com/filebrowser/filebrowser"
+repo_url: "https://github.com/filebrowser/filebrowser"
+path: "/"
+bins:
+  - "filebrowser"

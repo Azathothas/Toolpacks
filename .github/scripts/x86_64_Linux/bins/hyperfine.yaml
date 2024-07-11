@@ -1,0 +1,7 @@
+name: "hyperfine"
+description: "A command-line benchmarking tool"
+web_url: "https://github.com/sharkdp/hyperfine"
+repo_url: "https://github.com/sharkdp/hyperfine"
+path: "/"
+bins:
+  - "hyperfine"

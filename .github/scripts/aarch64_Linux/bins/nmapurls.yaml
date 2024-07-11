@@ -1,0 +1,7 @@
+name: "nmapurls"
+description: "parses Nmap xml reports and outputs a list of http(s) URLs"
+web_url: "https://github.com/sdcampbell/nmapurls"
+repo_url: "https://github.com/sdcampbell/nmapurls"
+path: "/"
+bins:
+  - "nmapurls"

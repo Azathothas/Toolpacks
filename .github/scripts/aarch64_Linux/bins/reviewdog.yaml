@@ -1,0 +1,7 @@
+name: "reviewdog"
+description: "\U0001F436 Automated code review tool integrated with any code analysis tools regardless of programming language"
+web_url: "https://github.com/reviewdog/reviewdog"
+repo_url: "https://github.com/reviewdog/reviewdog"
+path: "/"
+bins:
+  - "reviewdog"

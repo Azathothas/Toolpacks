@@ -1,0 +1,7 @@
+name: "uip"
+description: "A tool to obtain your public IP address with the help of STUN servers"
+web_url: "https://github.com/dndx/uip"
+repo_url: "https://github.com/dndx/uip"
+path: "/"
+bins:
+  - "uip"

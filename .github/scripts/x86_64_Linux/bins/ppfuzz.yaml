@@ -1,0 +1,7 @@
+name: "ppfuzz"
+description: "A fast tool to scan client-side prototype pollution vulnerability"
+web_url: "https://github.com/dwisiswant0/ppfuzz"
+repo_url: "https://github.com/dwisiswant0/ppfuzz"
+path: "/"
+bins:
+  - "ppfuzz"

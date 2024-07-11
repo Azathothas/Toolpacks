@@ -1,0 +1,7 @@
+name: "gitlab-subdomains"
+description: "Find subdomains on Gitlab"
+web_url: "https://github.com/gwen001/gitlab-subdomains"
+repo_url: "https://github.com/gwen001/gitlab-subdomains"
+path: "/"
+bins:
+  - "gitlab-subdomains"

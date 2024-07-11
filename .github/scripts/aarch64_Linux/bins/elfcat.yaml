@@ -1,0 +1,7 @@
+name: "elfcat"
+description: "ELF visualizer. Generates HTML files from ELF binaries."
+web_url: "https://github.com/ruslashev/elfcat"
+repo_url: "https://github.com/ruslashev/elfcat"
+path: "/"
+bins:
+  - "elfcat"

@@ -1,0 +1,7 @@
+name: "navi"
+description: "An interactive cheatsheet tool for the command-line"
+web_url: "https://github.com/denisidoro/navi"
+repo_url: "https://github.com/denisidoro/navi"
+path: "/"
+bins:
+  - "navi"

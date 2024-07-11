@@ -1,0 +1,7 @@
+name: "gosmee"
+description: "Command line server and client for webhooks deliveries"
+web_url: "https://github.com/chmouel/gosmee"
+repo_url: "https://github.com/chmouel/gosmee"
+path: "/"
+bins:
+  - "gosmee"

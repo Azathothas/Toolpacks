@@ -1,0 +1,7 @@
+name: "reader"
+description: "A lightweight tool offering better readability of web pages on the CLI"
+web_url: "https://github.com/mrusme/reader"
+repo_url: "https://github.com/mrusme/reader"
+path: "/"
+bins:
+  - "reader"

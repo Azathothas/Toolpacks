@@ -1,0 +1,7 @@
+name: "wtfutil"
+description: "The personal information dashboard for your terminal"
+web_url: "https://github.com/wtfutil/wtf"
+repo_url: "https://github.com/wtfutil/wtf"
+path: "/"
+bins:
+  - "wtf"

@@ -1,0 +1,7 @@
+name: "x8"
+description: "Hidden parameters discovery suite"
+web_url: "https://github.com/Sh1Yo/x8"
+repo_url: "https://github.com/Sh1Yo/x8"
+path: "/"
+bins:
+  - "x8"

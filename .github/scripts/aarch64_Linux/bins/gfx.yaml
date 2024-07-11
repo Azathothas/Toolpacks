@@ -1,0 +1,7 @@
+name: "gfx"
+description: "Updated gf"
+web_url: "https://github.com/dwisiswant0/gfx"
+repo_url: "https://github.com/dwisiswant0/gfx"
+path: "/"
+bins:
+  - "gfx"

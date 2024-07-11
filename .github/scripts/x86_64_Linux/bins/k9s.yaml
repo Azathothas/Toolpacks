@@ -1,0 +1,7 @@
+name: "k9s"
+description: "\U0001F436 Kubernetes CLI To Manage Your Clusters In Style!"
+web_url: "https://github.com/derailed/k9s"
+repo_url: "https://github.com/derailed/k9s"
+path: "/"
+bins:
+  - "k9s"

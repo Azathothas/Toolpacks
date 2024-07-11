@@ -1,0 +1,7 @@
+name: "actionlint"
+description: "Static checker for GitHub Actions workflow files"
+web_url: "https://github.com/rhysd/actionlint"
+repo_url: "https://github.com/rhysd/actionlint"
+path: "/"
+bins:
+  - "actionlint"

@@ -1,0 +1,7 @@
+name: "mdsh"
+description: "$ mdsh"
+web_url: "https://github.com/zimbatm/mdsh"
+repo_url: "https://github.com/zimbatm/mdsh"
+path: "/"
+bins:
+  - "mdsh"

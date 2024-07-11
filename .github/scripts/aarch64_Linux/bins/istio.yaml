@@ -1,0 +1,7 @@
+name: "istioctl"
+description: "Connect, secure, control, and observe services."
+web_url: "https://github.com/istio/istio"
+repo_url: "https://github.com/istio/istio"
+path: "/"
+bins:
+  - "istioctl"

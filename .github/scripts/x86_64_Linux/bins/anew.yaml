@@ -1,0 +1,7 @@
+name: "anew"
+description: "A tool for adding new lines to files, skipping duplicates"
+web_url: "https://github.com/tomnomnom/anew"
+repo_url: "https://github.com/tomnomnom/anew"
+path: "/"
+bins:
+  - "anew"

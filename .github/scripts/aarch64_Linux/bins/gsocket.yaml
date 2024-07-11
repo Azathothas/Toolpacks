@@ -1,0 +1,8 @@
+name: "gsocket"
+description: "Connect like there is no firewall. Securely."
+web_url: "https://github.com/hackerschoice/gsocket"
+repo_url: "https://github.com/hackerschoice/gsocket"
+path: "/"
+bins:
+  - "gs-netcat"
+  - "gsocket"

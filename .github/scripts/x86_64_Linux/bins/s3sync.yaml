@@ -1,0 +1,7 @@
+name: "s3sync"
+description: "Really fast sync tool for S3"
+web_url: "https://github.com/larrabee/s3sync"
+repo_url: "https://github.com/larrabee/s3sync"
+path: "/"
+bins:
+  - "s3sync"

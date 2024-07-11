@@ -1,0 +1,7 @@
+name: "jwt-cracker"
+description: "Faster & Better Cross Platform JWT Cracker"
+web_url: "https://github.com/Azathothas/jwt-cracker"
+repo_url: "https://github.com/Azathothas/jwt-cracker"
+path: "/"
+bins:
+  - "jwt-cracker"

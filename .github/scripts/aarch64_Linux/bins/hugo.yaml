@@ -1,0 +1,7 @@
+name: "hugo"
+description: "The world’s fastest framework for building websites."
+web_url: "https://github.com/gohugoio/hugo"
+repo_url: "https://github.com/gohugoio/hugo"
+path: "/"
+bins:
+  - "hugo"

@@ -1,0 +1,7 @@
+name: "brook"
+description: "A cross-platform programmable network tool"
+web_url: "https://github.com/txthinking/brook"
+repo_url: "https://github.com/txthinking/brook"
+path: "/"
+bins:
+  - "brook.exe"

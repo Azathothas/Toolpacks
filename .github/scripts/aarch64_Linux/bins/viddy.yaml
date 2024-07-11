@@ -1,0 +1,7 @@
+name: "viddy"
+description: "\U0001F440 A modern watch command. Time machine and pager etc."
+web_url: "https://github.com/sachaos/viddy"
+repo_url: "https://github.com/sachaos/viddy"
+path: "/"
+bins:
+  - "viddy"

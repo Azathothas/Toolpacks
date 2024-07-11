@@ -1,0 +1,7 @@
+name: "miniserve"
+description: "CLI tool to serve files and dirs over HTTP"
+web_url: "https://github.com/svenstaro/miniserve"
+repo_url: "https://github.com/svenstaro/miniserve"
+path: "/"
+bins:
+  - "miniserve"

@@ -1,0 +1,11 @@
+name: "twingate"
+description: "programmatically deploy and maintain a zero trust approach to infrastructures"
+web_url: "https://www.twingate.com/"
+repo_url: ""
+path: "/"
+bins:
+  - "twingate-client"
+  - "twingate-connector"
+  - "twingate-connector-staticx"
+  - "twingate-connectorctl"
+  - "twingate-notifier"

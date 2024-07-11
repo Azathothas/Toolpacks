@@ -1,0 +1,7 @@
+name: "ctlwatcher"
+description: "Monitor Certificate Transparency logs for domains matching regexes."
+web_url: "https://github.com/Azathothas/ctlwatcher"
+repo_url: "https://github.com/Azathothas/ctlwatcher"
+path: "/"
+bins:
+  - "ctlwatcher"

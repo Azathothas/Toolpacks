@@ -1,0 +1,7 @@
+name: "sqlc"
+description: "Universal DBMS/SQL client with exfiltration features  )"
+web_url: "https://github.com/kost/sqlc"
+repo_url: "https://github.com/kost/sqlc"
+path: "/"
+bins:
+  - "sqlc"

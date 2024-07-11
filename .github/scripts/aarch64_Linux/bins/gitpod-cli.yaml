@@ -1,0 +1,9 @@
+name: "gitpod-cli"
+description: "cli for gitpod"
+web_url: "https://github.com/gitpod-io/gitpod"
+repo_url: "https://github.com/gitpod-io/gitpod"
+path: "/"
+bins:
+  - "gitpod"
+  - "gitpod-cli"
+  - "gp"

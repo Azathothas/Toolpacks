@@ -1,0 +1,7 @@
+name: "cloudflared"
+description: "Cloudflare Tunnel client (formerly Argo Tunnel)"
+web_url: "https://github.com/cloudflare/cloudflared"
+repo_url: "https://github.com/cloudflare/cloudflared"
+path: "/"
+bins:
+  - "cloudflared.exe"

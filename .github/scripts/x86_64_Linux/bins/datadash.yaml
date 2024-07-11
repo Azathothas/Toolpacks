@@ -1,0 +1,7 @@
+name: "Datadash"
+description: "Visualize and graph data in the terminal"
+web_url: "https://github.com/keithknott26/datadash"
+repo_url: "https://github.com/keithknott26/datadash"
+path: "/"
+bins:
+  - "datadash"

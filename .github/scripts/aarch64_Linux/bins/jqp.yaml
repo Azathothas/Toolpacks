@@ -1,0 +1,7 @@
+name: "jqp"
+description: "TUI for jq"
+web_url: "https://github.com/noahgorstein/jqp"
+repo_url: "https://github.com/noahgorstein/jqp"
+path: "/"
+bins:
+  - "jqp"

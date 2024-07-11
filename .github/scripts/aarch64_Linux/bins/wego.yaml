@@ -1,0 +1,7 @@
+name: "wego"
+description: "weather app for the terminal"
+web_url: "https://github.com/schachmat/wego"
+repo_url: "https://github.com/schachmat/wego"
+path: "/"
+bins:
+  - "wego"

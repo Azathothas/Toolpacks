@@ -1,0 +1,7 @@
+name: "try"
+description: "Inspect a commands effects before modifying your live system"
+web_url: "https://github.com/binpash/try"
+repo_url: "https://github.com/binpash/try"
+path: "/"
+bins:
+  - "try"

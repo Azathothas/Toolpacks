@@ -1,0 +1,784 @@
+name: 📦🐧 ToolChain (Fetcher|Updater) 📦🐧
+#MAX_RUNTIME: 02 Minutes */10 * * * * 
+
+on:
+  #push:
+  workflow_dispatch:
+  schedule:
+  #  - cron: "45 03 * * *"  # 03:45 AM UTC --> 09:30 AM Morning NPT
+   - cron: "0 */16 * * *"  # Every 16 HRs
+
+env:
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
+  R2_PUB_REPO: "https://pub.ajam.dev/repos/Azathothas/Toolpacks"
+#------------------------------------------------------------------------------------#  
+jobs:
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  fetch-aarch64-toolchains:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+        continue-on-error: true
+        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set +x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          ##Setup rClone
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #csvtk
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+
+      - name: rClone Update Toolchains (aarch64-runner)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && eget "https://github.com/actions/runner" --asset "linux" --asset "arm64" --asset "tar.gz" --to "./runner.tar.gz" --download-only
+          curl -qfsSL -A "$USER_AGENT" "https://api.github.com/repos/actions/runner/releases/latest" -H "Authorization: Bearer ${GITHUB_TOKEN}" -H 'Accept: application/vnd.github+json' | jq . > "$SYSTMP/RUNNER.json"
+          echo -e "[+] Version: $(jq -r '.tag_name' "$SYSTMP/RUNNER.json")" > "./INFO.txt"
+          echo -e "[+] URL: $(jq -r '.html_url' "$SYSTMP/RUNNER.json")" >> "./INFO.txt"
+          echo -e "\n[+] ChangeLog: https://github.com/actions/runner/releases/latest" >> "./INFO.txt"
+          jq -r '.body' "$SYSTMP/RUNNER.json" | sed -n '/What'\''s Changed/,/Full Changelog/p' | sed '1d;$d' | tee -a "./INFO.txt"
+          if [ -f "./runner.tar.gz" ]; then
+             mkdir -p "./runner"
+             tar xzf "./runner.tar.gz" -C "./runner"
+             find "./runner" -type f -exec dos2unix --quiet {} \; 2>/dev/null
+             find "./runner" -type f -executable -exec strip {} \; 2>/dev/null
+             rclone sync "." "r2:/pub/utils/gh-runner-aarch64/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: rClone Update Toolchains (aarch64-bootlin)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          ##https://toolchains.bootlin.com/releases_aarch64.html
+          #--------------#
+          ##GLIBC-Stable
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'stable' | sort | tail -n 1)" -O "./aarch64-glibc-stable.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-stable/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-stable.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-glibc-stable/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##GLIBC-edge
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'edge' | sort | tail -n 1)" -O "./aarch64-glibc-edge.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-glibc-edge/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-glibc-edge.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-glibc-edge/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##musl-stable
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'stable' | sort | tail -n 1)" -O "./aarch64-musl-stable.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-stable/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-stable.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-musl-stable/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#          
+          #--------------#
+          ##musl-edge
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'edge' | sort | tail -n 1)" -O "./aarch64-musl-edge.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-musl-edge/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-musl-edge.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-musl-edge/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##uclibc-stable
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'stable' | sort | tail -n 1)" -O "./aarch64-uclibc-stable.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-stable/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-stable.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-uclibc-stable/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##uclibc-edge
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_aarch64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'edge' | sort | tail -n 1)" -O "./aarch64-uclibc-edge.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-uclibc-edge/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-uclibc-edge.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-uclibc-edge/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#          
+        continue-on-error: true
+#------------------------------------------------------------------------------------#        
+#------------------------------------------------------------------------------------#
+  fetch-x86-64-toolchains:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+        continue-on-error: true
+        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set +x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          ##Setup rClone
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #csvtk
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+
+      - name: rClone Update Toolchains (x86_64-runner)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && eget "https://github.com/actions/runner" --asset "linux" --asset "x64" --asset "^arm" --asset "tar.gz" --to "./runner.tar.gz" --download-only
+          curl -qfsSL -A "$USER_AGENT" "https://api.github.com/repos/actions/runner/releases/latest" -H "Authorization: Bearer ${GITHUB_TOKEN}" -H 'Accept: application/vnd.github+json' | jq . > "$SYSTMP/RUNNER.json"
+          echo -e "[+] Version: $(jq -r '.tag_name' "$SYSTMP/RUNNER.json")" > "./INFO.txt"
+          echo -e "[+] URL: $(jq -r '.html_url' "$SYSTMP/RUNNER.json")" >> "./INFO.txt"
+          echo -e "\n[+] ChangeLog: https://github.com/actions/runner/releases/latest" >> "./INFO.txt"
+          jq -r '.body' "$SYSTMP/RUNNER.json" | sed -n '/What'\''s Changed/,/Full Changelog/p' | sed '1d;$d' | tee -a "./INFO.txt"
+          if [ -f "./runner.tar.gz" ]; then
+             mkdir -p "./runner"
+             tar xzf "./runner.tar.gz" -C "./runner"
+             find "./runner" -type f -exec dos2unix --quiet {} \; 2>/dev/null
+             find "./runner" -type f -executable -exec strip {} \; 2>/dev/null
+             rclone sync "." "r2:/pub/utils/gh-runner-x86_64/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true 
+
+      - name: rClone Update Toolchains (x86_64-bootlin)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          #--------------#
+          ##https://toolchains.bootlin.com/releases_x86-64.html
+          #--------------#
+          ##GLIBC-Stable
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'stable' | sort | tail -n 1)" -O "./x86_64-glibc-stable.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-stable/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-stable.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-glibc-stable/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##GLIBC-edge
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'glibc' | grep -i 'edge' | sort | tail -n 1)" -O "./x86_64-glibc-edge.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-glibc-edge/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-glibc-edge.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-glibc-edge/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##musl-stable
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'stable' | sort | tail -n 1)" -O "./x86_64-musl-stable.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-stable/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-stable.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-musl-stable/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##musl-edge
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'musl' | grep -i 'edge' | sort | tail -n 1)" -O "./x86_64-musl-edge.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-musl-edge/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-musl-edge.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-musl-edge/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##uclibc-stable
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'stable' | sort | tail -n 1)" -O "./x86_64-uclibc-stable.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-stable/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-stable.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-uclibc-stable/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#
+          #--------------#
+          ##uclibc-edge
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "https://toolchains.bootlin.com/$(curl -qfsSL "https://toolchains.bootlin.com/releases_x86-64.html" | grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep 'tar\.bz2$' | grep -i 'uclibc' | grep -i 'edge' | sort | tail -n 1)" -O "./x86_64-uclibc-edge.tar.bz2"
+          #Extract
+          find . -type f -name '*.bz2' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               csvtk csv2json "$EXTRACTED_DIR/summary.csv" | jq . > "$EXTRACTED_DIR/INFO.json"
+               jq -r '.[] | "\(.PACKAGE) --> \(.VERSION)"' "$EXTRACTED_DIR/INFO.json" | sort -u -o "$EXTRACTED_DIR/INFO.txt"
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-uclibc-edge/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-uclibc-edge.tar.bz2" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-uclibc-edge/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi          
+          popd >/dev/null 2>&1
+          #--------------#          
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  fetch-zig:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Debloat Runner
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+        continue-on-error: true
+        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set +x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          ##Setup rClone
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #csvtk
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/csvtk" -o "/usr/local/bin/csvtk" && sudo chmod +xwr "/usr/local/bin/csvtk"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+
+      - name: rClone Update Toolchains (aarch64-zig)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          #--------------#
+          ##https://ziglang.org/download/
+          #--------------#
+          ##aarch64-linux
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."aarch64-linux".tarball')" -O "./aarch64-zig-linux.tar.xz"
+          #Extract
+          find . -type f -name '*.xz' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."aarch64-linux"' | jq . > "$EXTRACTED_DIR/INFO.json"
+               #txt
+               curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-linux.tar.xz" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-linux/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-linux.tar.xz" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-zig-linux/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+          #--------------#
+          ##aarch64-macos
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."aarch64-macos".tarball')" -O "./aarch64-zig-macos.tar.xz"
+          #Extract
+          find . -type f -name '*.xz' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."aarch64-macos"' | jq . > "$EXTRACTED_DIR/INFO.json"
+               #txt
+               curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-macos.tar.xz" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-macos/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-macos.tar.xz" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-zig-macos/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+          #--------------#
+          ##aarch64-windows
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."aarch64-windows".tarball')" -O "./aarch64-zig-windows.zip"
+          #Extract
+          find . -type f -name '*.zip' -exec unzip -q {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."aarch64-windows"' | jq . > "$EXTRACTED_DIR/INFO.json"
+               #txt
+               curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows.zip" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/aarch64-zig-windows/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/aarch64-zig-windows.zip" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/aarch64-zig-windows/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: rClone Update Toolchains (x86_64-zig)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          #--------------#
+          ##https://ziglang.org/download/          
+          #--------------#
+          ##x86_64-linux
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')" -O "./x86_64-zig-linux.tar.xz"
+          #Extract
+          find . -type f -name '*.xz' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n" 
+               #Get metadata
+               curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."x86_64-linux"' | jq . > "$EXTRACTED_DIR/INFO.json"
+               #txt
+               curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-linux.tar.xz" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-linux/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-linux.tar.xz" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-zig-linux/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+          #--------------#
+          ##x86_64-macos
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-macos".tarball')" -O "./x86_64-zig-macos.tar.xz"
+          #Extract
+          find . -type f -name '*.xz' -exec tar -xf {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n"
+               #Get metadata
+               curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."x86_64-macos"' | jq . > "$EXTRACTED_DIR/INFO.json"
+               #txt
+               curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-macos.tar.xz" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-macos/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-macos.tar.xz" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-zig-macos/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+          #--------------#
+          ##x86_64-windows
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && wget --show-progress --progress="dot:giga" "$(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-windows".tarball')" -O "./x86_64-zig-windows.zip"
+          #Extract
+          find . -type f -name '*.zip' -exec unzip -q {} \;
+          #Get Extracted Dir
+          ARCHIVE="$(find . -maxdepth 1 -type f -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ARCHIVE="$ARCHIVE"
+          EXTRACTED_DIR="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export EXTRACTED_DIR="$EXTRACTED_DIR"
+          EXTRACTED_DIR_SIZE="$(du -sh "$EXTRACTED_DIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "EXTRACTED_DIR_SIZE=$EXTRACTED_DIR_SIZE"
+          if [ ! -d "$EXTRACTED_DIR" ] || [ -z "$(ls -A "$EXTRACTED_DIR")" ] || [ -z "$EXTRACTED_DIR_SIZE" ] || [[ "${EXTRACTED_DIR_SIZE}" == *K* ]]; then
+               echo -e "\n[+] Broken/Empty Dir "$EXTRACTED_DIR" Found\n"
+               exit 1
+          else
+               echo -e "\n[+] Extracted "$EXTRACTED_DIR" :: $EXTRACTED_DIR_SIZE\n"
+               #Get metadata
+               curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | {version, date} + ."x86_64-windows"' | jq . > "$EXTRACTED_DIR/INFO.json"
+               #txt
+               curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+               jq -r 'include "./to_human_bytes" ; "version --> \(.version)\ndate --> \(.date)\ntarball --> \(.tarball)\nshasum --> \(.shasum)\nsize --> \(.size | tonumber | bytes)"' "$EXTRACTED_DIR/INFO.json" | tee "$EXTRACTED_DIR/INFO.txt" ; cp "$EXTRACTED_DIR/README.md" "$EXTRACTED_DIR/README.txt" 2>/dev/null
+               #rm
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows.zip" 2>/dev/null
+               #rclone delete --disable ListR --checkers 2000 --transfers 1000 --progress "r2:/pub/toolchains/x86_64-zig-windows/" 2>/dev/null
+               #Copy to r2
+               rclone copyto "$ARCHIVE" "r2:/pub/toolchains/x86_64-zig-windows.zip" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+               cd "$EXTRACTED_DIR" && rclone sync "." "r2:/pub/toolchains/x86_64-zig-windows/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true                                                            
+#------------------------------------------------------------------------------------#

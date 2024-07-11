@@ -1,0 +1,7 @@
+name: "ipt2socks"
+description: "convert iptables/nftables transparent proxy traffic to socks5"
+web_url: "https://github.com/zfl9/ipt2socks"
+repo_url: "https://github.com/zfl9/ipt2socks"
+path: "/"
+bins:
+  - "ipt2socks"

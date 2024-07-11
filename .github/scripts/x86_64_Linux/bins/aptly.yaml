@@ -1,0 +1,7 @@
+name: "aptly"
+description: "Debian repository management tool"
+web_url: "https://github.com/aptly-dev/aptly"
+repo_url: "https://github.com/aptly-dev/aptly"
+path: "/"
+bins:
+  - "aptly"

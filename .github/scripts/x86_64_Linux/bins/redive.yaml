@@ -1,0 +1,7 @@
+name: "redive"
+description: "Trace URL redirections in the terminal."
+web_url: "https://github.com/neelkarma/redive"
+repo_url: "https://github.com/neelkarma/redive"
+path: "/"
+bins:
+  - "redive"

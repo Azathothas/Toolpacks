@@ -1,0 +1,10 @@
+name: "libarchive"
+description: "Multi-format archive and compression Tools"
+web_url: "https://www.libarchive.org/"
+repo_url: "https://github.com/libarchive/libarchive"
+path: "/Baseutils/libarchive/"
+bins:
+  - "bsdcat"
+  - "bsdcpio"
+  - "bsdtar"
+  - "bsdunzip"

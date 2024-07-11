@@ -1,0 +1,7 @@
+name: "relic"
+description: "a tool for adding digital signatures to operating system packages for Linux and Windows"
+web_url: "https://github.com/sassoftware/relic"
+repo_url: "https://github.com/sassoftware/relic"
+path: "/"
+bins:
+  - "relic"

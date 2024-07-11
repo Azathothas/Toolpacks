@@ -1,0 +1,7 @@
+name: "dysk"
+description: "A linux utility to get information on filesystems, like df but better"
+web_url: "https://github.com/Canop/dysk"
+repo_url: "https://github.com/Canop/dysk"
+path: "/"
+bins:
+  - "dysk"

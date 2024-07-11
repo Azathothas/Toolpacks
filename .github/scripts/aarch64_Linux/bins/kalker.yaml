@@ -1,0 +1,7 @@
+name: "kalker"
+description: "calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals"
+web_url: "https://github.com/PaddiM8/kalker"
+repo_url: "https://github.com/PaddiM8/kalker"
+path: "/"
+bins:
+  - "kalker"

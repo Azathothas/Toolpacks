@@ -1,0 +1,7 @@
+name: "tokei"
+description: "displays statistics & number of files for code files/dirs"
+web_url: "https://github.com/XAMPPRocky/tokei"
+repo_url: "https://github.com/XAMPPRocky/tokei"
+path: "/"
+bins:
+  - "tokei"

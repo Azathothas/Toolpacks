@@ -1,0 +1,7 @@
+name: "viewgen"
+description: "ViewState tool capable of generating both signed and encrypted payloads with leaked validation keys"
+web_url: "https://github.com/0xacb/viewgen"
+repo_url: "https://github.com/0xacb/viewgen"
+path: "/"
+bins:
+  - "viewgen_staticx"

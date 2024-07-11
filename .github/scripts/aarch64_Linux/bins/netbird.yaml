@@ -1,0 +1,7 @@
+name: "NetBird"
+description: "Connects Devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls"
+web_url: "https://github.com/netbirdio/netbird"
+repo_url: "https://github.com/netbirdio/netbird"
+path: "/"
+bins:
+  - "netbird"

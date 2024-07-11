@@ -1,0 +1,7 @@
+name: "epoch"
+description: "\U0001F557 Easily convert epoch timestamps to human-readable formats and vice versa."
+web_url: "https://github.com/sj14/epoch"
+repo_url: "https://github.com/sj14/epoch"
+path: "/"
+bins:
+  - "epoch"

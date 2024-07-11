@@ -1,0 +1,7 @@
+name: "cargo-unlock"
+description: "Remove Cargo.lock lockfile"
+web_url: "https://github.com/dtolnay/cargo-unlock"
+repo_url: "https://github.com/dtolnay/cargo-unlock"
+path: "/"
+bins:
+  - "cargo-unlock"

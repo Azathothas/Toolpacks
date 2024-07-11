@@ -1,0 +1,7 @@
+name: "runc"
+description: "CLI tool for spawning and running containers according to the OCI specification"
+web_url: "https://github.com/opencontainers/runc"
+repo_url: "https://github.com/opencontainers/runc"
+path: "/"
+bins:
+  - "runc"

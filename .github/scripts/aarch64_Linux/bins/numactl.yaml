@@ -1,0 +1,12 @@
+name: "numactl"
+description: "NUMA stats"
+web_url: "https://github.com/numactl/numactl"
+repo_url: "https://github.com/numactl/numactl"
+path: "/"
+bins:
+  - "memhog"
+  - "migratepages"
+  - "migspeed"
+  - "numactl"
+  - "numademo"
+  - "numastat"

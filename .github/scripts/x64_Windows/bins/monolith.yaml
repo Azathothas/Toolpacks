@@ -1,0 +1,7 @@
+name: "monolith"
+description: "⬛️ CLI tool for saving complete web pages as a single HTML file"
+web_url: "https://github.com/Y2Z/monolith"
+repo_url: "https://github.com/Y2Z/monolith"
+path: "/"
+bins:
+  - "monolith.exe"

@@ -1,0 +1,7 @@
+name: "ds(dirstat-rs)"
+description: "(fastest?) disk usage cli, similar to windirstat."
+web_url: "https://github.com/scullionw/dirstat-rs"
+repo_url: "https://github.com/scullionw/dirstat-rs"
+path: "/"
+bins:
+  - "ds"

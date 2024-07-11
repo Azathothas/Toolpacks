@@ -1,0 +1,8 @@
+name: "interactsh"
+description: "An OOB interaction gathering server and client library"
+web_url: "https://github.com/projectdiscovery/interactsh"
+repo_url: "https://github.com/projectdiscovery/interactsh"
+path: "/"
+bins:
+  - "interactsh-client"
+  - "interactsh-server"

@@ -1,0 +1,7 @@
+name: "csvtk"
+description: "A cross-platform, efficient and practical CSV/TSV toolkit"
+web_url: "https://github.com/shenwei356/csvtk"
+repo_url: "https://github.com/shenwei356/csvtk"
+path: "/"
+bins:
+  - "csvtk"

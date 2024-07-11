@@ -1,0 +1,7 @@
+name: "sake"
+description: "\U0001F916 Task runner for local and remote hosts via ssh & more"
+web_url: "https://github.com/alajmo/sake"
+repo_url: "https://github.com/alajmo/sake"
+path: "/"
+bins:
+  - "sake"

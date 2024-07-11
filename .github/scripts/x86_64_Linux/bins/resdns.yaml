@@ -1,0 +1,7 @@
+name: "resDNS"
+description: "Wrapper around [dnsx + puredns + shuffledns] for Efficient DNS Resolution"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
+path: "/"
+bins:
+  - "resdns"

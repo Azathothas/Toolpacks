@@ -1,0 +1,7 @@
+name: "enola"
+description: "Hunt down social media accounts by username across social networks"
+web_url: "https://github.com/TheYahya/enola"
+repo_url: "https://github.com/TheYahya/enola"
+path: "/"
+bins:
+  - "enola"

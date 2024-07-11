@@ -1,0 +1,9 @@
+name: "git-xet"
+description: "\U0001F4A5 Git for Data (large files and repositories)"
+web_url: "https://github.com/xetdata/xet-core"
+repo_url: "https://github.com/xetdata/xet-core"
+path: "/"
+bins:
+  - "git-xet"
+  - "xetcmd"
+  - "xetmnt"

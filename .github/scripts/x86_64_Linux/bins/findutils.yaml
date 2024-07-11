@@ -1,0 +1,8 @@
+name: "findutils"
+description: "GNU Find Utilities, the basic directory searching utilities of the GNU operating system"
+web_url: "https://www.gnu.org/software/findutils/"
+repo_url: "https://savannah.gnu.org/git/?group=findutils"
+path: "/Baseutils/findutils/"
+bins:
+  - "find"
+  - "xargs"

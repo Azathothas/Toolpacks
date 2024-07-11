@@ -1,0 +1,7 @@
+name: "cwe_checker"
+description: "cwe_checker finds vulnerable patterns in binary executables"
+web_url: "https://github.com/fkie-cad/cwe_checker"
+repo_url: "https://github.com/fkie-cad/cwe_checker"
+path: "/"
+bins:
+  - "cwe_checker"

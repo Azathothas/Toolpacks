@@ -1,0 +1,7 @@
+name: "dperf"
+description: "Drive performance measurement tool"
+web_url: "https://github.com/minio/dperf"
+repo_url: "https://github.com/minio/dperf"
+path: "/"
+bins:
+  - "dperf"

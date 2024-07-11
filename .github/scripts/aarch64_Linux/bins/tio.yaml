@@ -1,0 +1,7 @@
+name: "tio"
+description: "A serial device I/O tool"
+web_url: "https://github.com/tio/tio"
+repo_url: "https://github.com/tio/tio"
+path: "/"
+bins:
+  - "tio"

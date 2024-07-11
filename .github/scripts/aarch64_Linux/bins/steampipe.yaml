@@ -1,0 +1,7 @@
+name: "steampipe"
+description: "Live query APIs, code & more with SQL. No DB required."
+web_url: "https://github.com/turbot/steampipe"
+repo_url: "https://github.com/turbot/steampipe"
+path: "/"
+bins:
+  - "steampipe"

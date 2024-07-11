@@ -1,0 +1,7 @@
+name: "cloudlist"
+description: "Cloudlist is a tool for listing Assets from multiple Cloud Providers."
+web_url: "https://github.com/projectdiscovery/cloudlist"
+repo_url: "https://github.com/projectdiscovery/cloudlist"
+path: "/"
+bins:
+  - "cloudlist"

@@ -1,0 +1,7 @@
+name: "pier"
+description: "A Linux script management CLI written in Rust"
+web_url: "https://github.com/pier-cli/pier"
+repo_url: "https://github.com/pier-cli/pier"
+path: "/"
+bins:
+  - "pier"

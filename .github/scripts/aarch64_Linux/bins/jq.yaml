@@ -1,0 +1,7 @@
+name: "jq"
+description: "Command-line JSON processor"
+web_url: "https://github.com/jqlang/jq"
+repo_url: "https://github.com/jqlang/jq"
+path: "/"
+bins:
+  - "jq"

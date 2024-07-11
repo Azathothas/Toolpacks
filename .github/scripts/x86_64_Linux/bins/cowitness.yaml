@@ -1,0 +1,7 @@
+name: "cowtiness"
+description: "mimic an HTTP server and a DNS server, providing complete responses"
+web_url: "https://github.com/stolenusername/cowitness"
+repo_url: "https://github.com/stolenusername/cowitness"
+path: "/"
+bins:
+  - "cowitness"

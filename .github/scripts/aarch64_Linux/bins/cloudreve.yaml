@@ -1,0 +1,7 @@
+name: "cloudreve"
+description: "Self-hosted file management and sharing system, supports multiple storage providers"
+web_url: "https://github.com/cloudreve/Cloudreve"
+repo_url: "https://github.com/cloudreve/Cloudreve"
+path: "/"
+bins:
+  - "cloudreve"

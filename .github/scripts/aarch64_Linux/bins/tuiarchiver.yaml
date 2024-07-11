@@ -1,0 +1,7 @@
+name: "tuiarchiver"
+description: "terminal application to list / manage archives"
+web_url: "https://codeberg.org/dnalor/tuiarchiver"
+repo_url: ""
+path: "/"
+bins:
+  - "tuiarchiver"

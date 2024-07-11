@@ -1,0 +1,9 @@
+name: "cronie"
+description: "Cronie cron daemon project"
+web_url: "https://github.com/cronie-crond/cronie"
+repo_url: "https://github.com/cronie-crond/cronie"
+path: "/"
+bins:
+  - "cronie-crond"
+  - "cronie-cronnext"
+  - "cronie-crontab"

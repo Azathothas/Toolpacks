@@ -1,0 +1,7 @@
+name: "maddy"
+description: "✉️ Composable all-in-one mail server."
+web_url: "https://github.com/foxcpp/maddy"
+repo_url: "https://github.com/foxcpp/maddy"
+path: "/"
+bins:
+  - "maddy"

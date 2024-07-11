@@ -1,0 +1,10 @@
+name: "sharutils"
+description: "Tools for remote synchronization and shell archives"
+web_url: "https://www.gnu.org/software/sharutils/"
+repo_url: "https://git.savannah.gnu.org/git/sharutils.git"
+path: "/Baseutils/sharutils/"
+bins:
+  - "shar"
+  - "unshar"
+  - "uudecode"
+  - "uuencode"

@@ -1,0 +1,7 @@
+name: "daktilo"
+description: "Turn your keyboard into a typewriter! \U0001F4C7"
+web_url: "https://github.com/orhun/daktilo"
+repo_url: "https://github.com/orhun/daktilo"
+path: "/"
+bins:
+  - "daktilo"

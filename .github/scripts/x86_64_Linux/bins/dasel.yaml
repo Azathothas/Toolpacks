@@ -1,0 +1,7 @@
+name: "dasel"
+description: "Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool"
+web_url: "https://github.com/TomWright/dasel"
+repo_url: "https://github.com/TomWright/dasel"
+path: "/"
+bins:
+  - "dasel"

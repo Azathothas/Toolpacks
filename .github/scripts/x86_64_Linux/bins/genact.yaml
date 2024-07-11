@@ -1,0 +1,7 @@
+name: "genact"
+description: "\U0001F300 A nonsense activity generator"
+web_url: "https://github.com/svenstaro/genact"
+repo_url: "https://github.com/svenstaro/genact"
+path: "/"
+bins:
+  - "genact"

@@ -1,0 +1,7 @@
+name: "orbiton"
+description: "Fast and config-free text editor and IDE limited to VT100"
+web_url: "https://github.com/xyproto/orbiton"
+repo_url: "https://github.com/xyproto/orbiton"
+path: "/"
+bins:
+  - "orbiton"

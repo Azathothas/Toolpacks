@@ -1,0 +1,7 @@
+name: "tok"
+description: "word string splitter"
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
+path: "/"
+bins:
+  - "tok"

@@ -1,0 +1,7 @@
+name: "sshportal"
+description: "Embedded SSH Server & Client meant for temp ssh access using invite codes"
+web_url: "https://github.com/moul/sshportal"
+repo_url: "https://github.com/moul/sshportal"
+path: "/"
+bins:
+  - "sshportal"

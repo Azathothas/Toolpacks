@@ -1,0 +1,7 @@
+name: "sshkeys"
+description: "Get all ssh public keys of a ssh server"
+web_url: "https://github.com/Eun/sshkeys"
+repo_url: "https://github.com/Eun/sshkeys"
+path: "/"
+bins:
+  - "sshkeys"

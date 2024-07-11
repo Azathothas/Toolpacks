@@ -1,0 +1,8 @@
+name: "dvc"
+description: "\U0001F989 ML Experiments Management with Git"
+web_url: "https://github.com/iterative/dvc"
+repo_url: "https://github.com/iterative/dvc"
+path: "/"
+bins:
+  - "dvc"
+  - "dvc_staticx"

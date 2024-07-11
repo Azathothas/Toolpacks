@@ -1,0 +1,10 @@
+name: "desktop-file-utils"
+description: "Command line utilities for working with .desktop files"
+web_url: "https://www.freedesktop.org/wiki/Software/desktop-file-utils"
+repo_url: "https://gitlab.freedesktop.org/xdg/desktop-file-utils"
+path: "/"
+bins:
+  - "desktop-file-edit"
+  - "desktop-file-install"
+  - "desktop-file-validate"
+  - "update-desktop-database"

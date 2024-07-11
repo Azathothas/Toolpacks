@@ -1,0 +1,7 @@
+name: "xq"
+description: "Command-line XML and HTML beautifier and content extractor"
+web_url: "https://github.com/sibprogrammer/xq"
+repo_url: "https://github.com/sibprogrammer/xq"
+path: "/"
+bins:
+  - "xq"

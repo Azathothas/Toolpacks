@@ -1,0 +1,7 @@
+name: "shell2http"
+description: "Executing shell commands via HTTP server"
+web_url: "https://github.com/msoap/shell2http"
+repo_url: "https://github.com/msoap/shell2http"
+path: "/"
+bins:
+  - "shell2http.exe"

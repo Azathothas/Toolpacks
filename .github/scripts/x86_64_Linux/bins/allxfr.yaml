@@ -1,0 +1,7 @@
+name: "allxfr"
+description: "AXFR all the things!"
+web_url: "https://github.com/lanrat/allxfr"
+repo_url: "https://github.com/lanrat/allxfr"
+path: "/"
+bins:
+  - "allxfr"

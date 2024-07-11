@@ -1,0 +1,8 @@
+name: "exatorrent"
+description: "🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player"
+web_url: "https://github.com/varbhat/exatorrent"
+repo_url: "https://github.com/varbhat/exatorrent"
+path: "/"
+bins:
+  - "exatorrent"
+  - "exatorrent-noui"

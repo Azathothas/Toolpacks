@@ -1,0 +1,7 @@
+name: "ttyd"
+description: "Share your terminal over the web"
+web_url: "https://github.com/tsl0922/ttyd"
+repo_url: "https://github.com/tsl0922/ttyd"
+path: "/"
+bins:
+  - "ttyd"

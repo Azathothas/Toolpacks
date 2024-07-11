@@ -1,0 +1,7 @@
+name: "nmap-formatter"
+description: "A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite"
+web_url: "https://github.com/vdjagilev/nmap-formatter"
+repo_url: "https://github.com/vdjagilev/nmap-formatter"
+path: "/"
+bins:
+  - "nmap-formatter"

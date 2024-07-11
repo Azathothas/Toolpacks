@@ -1,0 +1,7 @@
+name: "zigup"
+description: "Download and manage zig compilers."
+web_url: "https://github.com/marler8997/zigup"
+repo_url: "https://github.com/marler8997/zigup"
+path: "/"
+bins:
+  - "zigup"

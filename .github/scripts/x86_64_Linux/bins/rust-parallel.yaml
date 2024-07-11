@@ -1,0 +1,7 @@
+name: "rust-parallel"
+description: "parallel | xargs in rust"
+web_url: "https://github.com/aaronriekenberg/rust-parallel"
+repo_url: "https://github.com/aaronriekenberg/rust-parallel"
+path: "/"
+bins:
+  - "rust-parallel"

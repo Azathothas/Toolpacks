@@ -1,0 +1,7 @@
+name: "pixi"
+description: "Conda Package management made easy"
+web_url: "https://github.com/prefix-dev/pixi"
+repo_url: "https://github.com/prefix-dev/pixi"
+path: "/"
+bins:
+  - "pixi"

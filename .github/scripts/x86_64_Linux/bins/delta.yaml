@@ -1,0 +1,7 @@
+name: "delta"
+description: "A syntax-highlighting pager for git, diff, and grep output"
+web_url: "https://github.com/dandavison/delta"
+repo_url: "https://github.com/dandavison/delta"
+path: "/"
+bins:
+  - "delta"

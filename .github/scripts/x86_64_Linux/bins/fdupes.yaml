@@ -1,0 +1,7 @@
+name: "fdupes"
+description: "FDUPES is a program for identifying or deleting duplicate files residing within specified directories."
+web_url: "https://github.com/adrianlopezroche/fdupes"
+repo_url: "https://github.com/adrianlopezroche/fdupes"
+path: "/"
+bins:
+  - "fdupes"

@@ -1,0 +1,7 @@
+name: "goop"
+description: "Dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases"
+web_url: "https://github.com/nyancrimew/goop"
+repo_url: "https://github.com/nyancrimew/goop"
+path: "/"
+bins:
+  - "goop"

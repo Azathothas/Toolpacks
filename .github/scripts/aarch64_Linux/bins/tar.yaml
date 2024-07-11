@@ -1,0 +1,8 @@
+name: "tar"
+description: "create/manipulate tar archives"
+web_url: "https://www.gnu.org/software/tar/"
+repo_url: "https://git.savannah.gnu.org/cgit/tar.git"
+path: "/Baseutils/tar/"
+bins:
+  - "rmt"
+  - "tar"

@@ -1,0 +1,7 @@
+name: "fblog"
+description: "Small command-line JSON Log viewer"
+web_url: "https://github.com/brocode/fblog"
+repo_url: "https://github.com/brocode/fblog"
+path: "/"
+bins:
+  - "fblog"

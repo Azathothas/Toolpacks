@@ -1,0 +1,7 @@
+name: "vfox"
+description: "A cross-platform and extendable version manager with support for Java, Node.js, Flutter, .Net & more"
+web_url: "https://github.com/version-fox/vfox"
+repo_url: "https://github.com/version-fox/vfox"
+path: "/"
+bins:
+  - "vfox"

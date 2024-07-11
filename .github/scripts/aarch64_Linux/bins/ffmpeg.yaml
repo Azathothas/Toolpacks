@@ -1,0 +1,8 @@
+name: "ffmpeg"
+description: "Static build of ffmpeg"
+web_url: "https://github.com/eugeneware/ffmpeg-static"
+repo_url: "https://github.com/eugeneware/ffmpeg-static"
+path: "/"
+bins:
+  - "ffmpeg"
+  - "ffprobe"

@@ -1,0 +1,7 @@
+name: "openvpn"
+description: "A robust and highly flexible tunneling application"
+web_url: "https://openvpn.net/"
+repo_url: "https://github.com/OpenVPN/openvpn"
+path: "/"
+bins:
+  - "openvpn"

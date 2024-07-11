@@ -1,0 +1,7 @@
+name: "usql"
+description: "Universal command-line interface for SQL databases"
+web_url: "https://github.com/xo/usql"
+repo_url: "https://github.com/xo/usql"
+path: "/"
+bins:
+  - "usql"

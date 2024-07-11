@@ -1,0 +1,7 @@
+name: "mapcidr"
+description: "Utility program to perform multiple operations for a given subnet/CIDR ranges"
+web_url: "https://github.com/projectdiscovery/mapcidr"
+repo_url: "https://github.com/projectdiscovery/mapcidr"
+path: "/"
+bins:
+  - "mapcidr"

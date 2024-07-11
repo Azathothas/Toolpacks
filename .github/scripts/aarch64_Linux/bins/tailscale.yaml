@@ -1,0 +1,10 @@
+name: "tailscale"
+description: "The easiest, most secure way to use WireGuard and 2FA"
+web_url: "https://github.com/tailscale/tailscale"
+repo_url: "https://github.com/tailscale/tailscale"
+path: "/"
+bins:
+  - "tailscale"
+  - "tailscale_bb"
+  - "tailscale_combined"
+  - "tailscaled"

@@ -1,0 +1,7 @@
+name: "gowitness"
+description: "\U0001F50D gowitness - a golang, web screenshot utility using Chrome Headless"
+web_url: "https://github.com/sensepost/gowitness"
+repo_url: "https://github.com/sensepost/gowitness"
+path: "/"
+bins:
+  - "gowitness"

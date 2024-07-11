@@ -1,0 +1,7 @@
+name: "coreutils"
+description: "Cross-platform Rust rewrite of the GNU coreutils"
+web_url: "https://github.com/uutils/coreutils"
+repo_url: "https://github.com/uutils/coreutils"
+path: "/"
+bins:
+  - "coreutils"

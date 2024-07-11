@@ -1,0 +1,7 @@
+name: "chaos-client"
+description: "cli for Chaos DB API"
+web_url: "https://github.com/projectdiscovery/chaos-client"
+repo_url: "https://github.com/projectdiscovery/chaos-client"
+path: "/"
+bins:
+  - "chaos-client"

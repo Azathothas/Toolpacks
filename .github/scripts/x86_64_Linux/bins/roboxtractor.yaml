@@ -1,0 +1,7 @@
+name: "roboxtractor"
+description: "Extract endpoints marked as disallow in robots files to generate wordlists"
+web_url: "https://github.com/Josue87/roboxtractor"
+repo_url: "https://github.com/Josue87/roboxtractor"
+path: "/"
+bins:
+  - "roboxtractor"

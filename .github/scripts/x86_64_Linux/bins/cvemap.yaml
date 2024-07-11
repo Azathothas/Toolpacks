@@ -1,0 +1,7 @@
+name: "cvemap"
+description: "Navigate the CVE jungle with ease."
+web_url: "https://github.com/projectdiscovery/cvemap"
+repo_url: "https://github.com/projectdiscovery/cvemap"
+path: "/"
+bins:
+  - "cvemap"

@@ -1,0 +1,7 @@
+name: "iperf3"
+description: "Command-line JSON processor"
+web_url: "https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static"
+repo_url: "https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static"
+path: "/"
+bins:
+  - "iperf3.exe"

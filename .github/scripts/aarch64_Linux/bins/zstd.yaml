@@ -1,0 +1,7 @@
+name: "zstd"
+description: "Zstandard - Fast real-time compression algorithm"
+web_url: "https://github.com/VHSgunzo/zstd-static"
+repo_url: "https://github.com/VHSgunzo/zstd-static"
+path: "/"
+bins:
+  - "zstd"

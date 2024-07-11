@@ -1,0 +1,7 @@
+name: "wormhole-rs"
+description: "Rust implementation of Magic Wormhole, with new features and enhancements"
+web_url: "https://github.com/magic-wormhole/magic-wormhole.rs"
+repo_url: "https://github.com/magic-wormhole/magic-wormhole.rs"
+path: "/"
+bins:
+  - "wormhole-rs"

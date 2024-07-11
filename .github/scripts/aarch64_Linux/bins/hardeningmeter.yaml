@@ -1,0 +1,7 @@
+name: "HardeningMeter"
+description: "comprehensively assess the security hardening of binaries and systems."
+web_url: "https://github.com/OfriOuzan/HardeningMeter"
+repo_url: "https://github.com/OfriOuzan/HardeningMeter"
+path: "/"
+bins:
+  - "hardeningmeter_staticx"

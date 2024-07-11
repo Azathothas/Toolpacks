@@ -1,0 +1,7 @@
+name: "macchina"
+description: "system-info-fetch"
+web_url: "https://github.com/Macchina-CLI/macchina"
+repo_url: "https://github.com/Macchina-CLI/macchina"
+path: "/"
+bins:
+  - "macchina"

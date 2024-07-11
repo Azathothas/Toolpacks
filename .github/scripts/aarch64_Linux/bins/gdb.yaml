@@ -1,0 +1,10 @@
+name: "gdb"
+description: "The GNU Project debugger"
+web_url: "https://www.sourceware.org/gdb/"
+repo_url: "https://sourceware.org/git/binutils-gdb.git"
+path: "/Baseutils/gdb/"
+bins:
+  - "gcore"
+  - "gdb"
+  - "gdb-add-index"
+  - "gdbserver"

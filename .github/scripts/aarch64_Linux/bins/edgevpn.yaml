@@ -1,0 +1,7 @@
+name: "edgevpn"
+description: "⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery"
+web_url: "https://github.com/mudler/edgevpn"
+repo_url: "https://github.com/mudler/edgevpn"
+path: "/"
+bins:
+  - "edgevpn"

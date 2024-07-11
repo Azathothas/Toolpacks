@@ -1,0 +1,7 @@
+name: "Berty"
+description: "Secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
+web_url: "https://github.com/berty/berty"
+repo_url: "https://github.com/berty/berty"
+path: "/"
+bins:
+  - "berty"

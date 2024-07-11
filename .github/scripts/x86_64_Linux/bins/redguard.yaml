@@ -1,0 +1,7 @@
+name: "redguard"
+description: "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check."
+web_url: "https://github.com/wikiZ/RedGuard"
+repo_url: "https://github.com/wikiZ/RedGuard"
+path: "/"
+bins:
+  - "redguard"

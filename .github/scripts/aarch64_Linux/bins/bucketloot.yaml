@@ -1,0 +1,7 @@
+name: "BucketLoot"
+description: "Automated S3-compatible bucket inspector"
+web_url: "https://github.com/redhuntlabs/BucketLoot"
+repo_url: "https://github.com/redhuntlabs/BucketLoot"
+path: "/"
+bins:
+  - "bucketloot"

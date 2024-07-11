@@ -1,0 +1,7 @@
+name: "bombadillo"
+description: "Browser for gopher | gemini | finger | local (a users file system)"
+web_url: "https://tildegit.org/sloum/bombadillo"
+repo_url: "https://tildegit.org/sloum/bombadillo"
+path: "/"
+bins:
+  - "bombadillo"

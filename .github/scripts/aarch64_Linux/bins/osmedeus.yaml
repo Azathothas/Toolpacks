@@ -1,0 +1,7 @@
+name: "osmedeus"
+description: "A Workflow Engine for Offensive Security"
+web_url: "https://github.com/j3ssie/osmedeus"
+repo_url: "https://github.com/j3ssie/osmedeus"
+path: "/"
+bins:
+  - "osmedeus"

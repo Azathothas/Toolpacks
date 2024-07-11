@@ -1,0 +1,7 @@
+name: "logrotate"
+description: "Simplify the administration of log files on a system which generates a lot of log files"
+web_url: "https://github.com/logrotate/logrotate"
+repo_url: "https://github.com/logrotate/logrotate"
+path: "/"
+bins:
+  - "logrotate"

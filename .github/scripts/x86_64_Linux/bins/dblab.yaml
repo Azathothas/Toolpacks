@@ -1,0 +1,7 @@
+name: "dblab"
+description: "The database client every command line junkie deserves."
+web_url: "https://github.com/danvergara/dblab"
+repo_url: "https://github.com/danvergara/dblab"
+path: "/"
+bins:
+  - "dblab"

@@ -1,0 +1,7 @@
+name: "rescope"
+description: "A scope generation tool for Burp Suite & ZAP"
+web_url: "https://github.com/root4loot/rescope"
+repo_url: "https://github.com/root4loot/rescope"
+path: "/"
+bins:
+  - "rescope"

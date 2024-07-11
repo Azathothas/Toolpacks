@@ -1,0 +1,7 @@
+name: "hakrevdns"
+description: "Small, fast tool for performing reverse DNS lookups en masse."
+web_url: "https://github.com/hakluke/hakrevdns"
+repo_url: "https://github.com/hakluke/hakrevdns"
+path: "/"
+bins:
+  - "hakrevdns"

@@ -1,0 +1,7 @@
+name: "fx"
+description: "Terminal JSON viewer & processor"
+web_url: "https://github.com/antonmedv/fx"
+repo_url: "https://github.com/antonmedv/fx"
+path: "/"
+bins:
+  - "fx"

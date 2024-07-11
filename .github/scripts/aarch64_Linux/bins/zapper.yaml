@@ -1,0 +1,8 @@
+name: "zapper"
+description: "Zaps arguments and environment from the process list"
+web_url: "https://github.com/hackerschoice/zapper"
+repo_url: "https://github.com/hackerschoice/zapper"
+path: "/"
+bins:
+  - "zapper"
+  - "zapper-stealth"

@@ -1,0 +1,202 @@
+name: 🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️
+# Build x64 Windows Binaries on GH action runners
+# Main Build Script: https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/x64_Windows/build_windows.ps1
+on:
+  workflow_dispatch:
+  schedule:
+  #  - cron: "30 22 * * 5" # 10:30 PM UTC Friday --> 04:15 AM NPT Mrng Every Saturday
+    - cron: "30 22 * * 0,2,5" # 10:30 PM UTC (04:15 AM NPT Mrng Every Mon, Wed & Sat)
+#Sane env
+env:
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
+#Begin
+jobs:
+#------------------------------------------------------------------------------------#
+  presetup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          #7z
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/bin/7z" && sudo chmod +xwr "/usr/bin/7z"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/7z" -o "/usr/local/bin/7z" && sudo chmod +xwr "/usr/local/bin/7z"
+          #action-lint
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/actionlint" -o "/usr/local/bin/actionlint" && sudo chmod +xwr "/usr/local/bin/actionlint"
+          #b3sum
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/bin/b3sum" && sudo chmod +xwr "/usr/bin/b3sum"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/b3sum" -o "/usr/local/bin/b3sum" && sudo chmod +xwr "/usr/local/bin/b3sum"
+          #delta
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/delta" -o "/usr/local/bin/delta" && sudo chmod +xwr "/usr/local/bin/delta"
+          #dust
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/dust" -o "/usr/local/bin/dust" && sudo chmod +xwr "/usr/local/bin/dust"
+          #eget
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
+          #git-sizer
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/git-sizer" -o "/usr/local/bin/git-sizer" && sudo chmod +xwr "/usr/local/bin/git-sizer"
+          #rclone
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/rclone" -o "/usr/local/bin/rclone" && sudo chmod +xwr "/usr/local/bin/rclone"
+          #validtoml
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/validtoml" -o "/usr/local/bin/validtoml" && sudo chmod +xwr "/usr/local/bin/validtoml"
+          #Yq
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yq" -o "/usr/local/bin/yq" && sudo chmod +xwr "/usr/local/bin/yq"
+          #Yj
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/yj" -o "/usr/local/bin/yj" && sudo chmod +xwr "/usr/local/bin/yj"
+        continue-on-error: true
+#------------------------------------------------------------------------------------#        
+      - name: Setup Env
+        run: |
+          #presets
+          set -x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          #GH Dirs
+          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          #-------------#
+          mkdir -p "$HOME/bin"
+          sudo apt update -y
+          sudo apt install dos2unix -y
+          pip install ansi2txt --upgrade
+          ##Get Latest Data (Hysp)
+          ##Setup rClone
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+        continue-on-error: true
+
+      - name: Set TZ to (Asia/Kathmandu)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#        
+          sudo apt-get update -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+          sudo ln -fs "/usr/share/zoneinfo/Asia/Kathmandu" "/etc/localtime"
+          sudo dpkg-reconfigure --frontend noninteractive tzdata
+          sudo apt-get install apt-utils software-properties-common -y           
+          sudo apt-get update -y
+        continue-on-error: true        
+#------------------------------------------------------------------------------------#
+      - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #touch "$HOME/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
+          #copy & chdir to Repo
+          cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
+          #Git pull
+          git pull origin main --no-edit 2>/dev/null
+          #Del Bloat
+          rm -rf "$(pwd)/.git"
+          # rm -rf "$(pwd)/aarch64_arm64_Linux"
+          # rm -rf "$(pwd)/arm64_v8a_Android"
+          # rm -rf "$(pwd)/x86_64_Linux"
+          # rm -rf "$(pwd)/x64_Windows"
+          #Upload to Pub
+          echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
+          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          ##Scripts_x64_Windows
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/" --exclude="*.yaml" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/\(.Path)"}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json"      
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  build-fetch-binaries:
+    runs-on: windows-latest
+    needs: [presetup]
+    timeout-minutes: 350
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Install Addons
+        run: |
+          #presets
+          $ErrorActionPreference = "SilentlyContinue" ; $env:ErrorActionPreference = "SilentlyContinue"
+          #-------------#
+          #Upgrade Choco Packages
+          #choco upgrade all --prerelease --ignore-unfound --ignore-detected-reboot --yes
+          Import-Module "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1" ; refreshenv
+          #eget
+          Invoke-WebRequest -Uri "https://bin.ajam.dev/x64_Windows/eget.exe" -OutFile "$env:SYSTEMROOT\eget.exe"
+          #rclone
+          choco install "rclone" --prerelease --force --yes
+        continue-on-error: true
+#------------------------------------------------------------------------------------#        
+      - name: Setup Env
+        run: |
+          #presets
+          $ErrorActionPreference = "SilentlyContinue" ; $env:ErrorActionPreference = "SilentlyContinue"
+          ##Setup rClone
+          if (!(Test-Path "$env:APPDATA\rclone")) { New-Item -Path "$env:APPDATA\rclone" -ItemType Directory }
+          if (!(Test-Path "$env:APPDATA\rclone\rclone.conf")) { New-Item -Path "$env:APPDATA\rclone\rclone.conf" -ItemType File }
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$env:APPDATA\rclone\rclone.conf"
+          rclone listremotes
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+      #Main Build Script
+      - name: BUILD
+        run: |
+          #Presets
+          $ErrorActionPreference = "SilentlyContinue" ; $env:ErrorActionPreference = "SilentlyContinue"
+          #--------------#
+          #Fetch
+          # Fetch
+          Invoke-WebRequest -Uri "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/build_windows.ps1" -OutFile "$env:TEMP\BUILD.ps1" -UseBasicParsing
+          #Prep
+          Set-ItemProperty -Path "$env:TEMP\BUILD.ps1" -Name IsReadOnly $false
+          Set-ItemProperty -Path "$env:TEMP\BUILD.ps1" -Name IsHidden $false
+          Set-ItemProperty -Path "$env:TEMP\BUILD.ps1" -Name IsSystem $false
+          #Run with LOGS only
+          . "$env:TEMP\BUILD.ps1" > "$env:TEMP\BUILD.log" 2>&1
+          #Run with STDOUT + LOGS
+          #. "$env:TEMP\BUILD.ps1" 2>&1 | Tee-Object -FilePath "$env:TEMP\BUILD.log"
+          #Purge Tokens (in case set -x & gh didn't redact)
+          (Get-Content "$env:TEMP\BUILD.log") -notmatch '.*github_pat.*', '.*ghp_.*', '.*access_key_id.*', '.*secret_access_key.*', '.*cloudflarestorage.*' | Set-Content "$env:TEMP\BUILD.log"
+          #rClone Upload logs
+          rclone copyto "$env:TEMP\BUILD.log" "r2:/bin/x64_Windows/BUILD.log.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          echo "BUILDLOG=$env:TEMP\BUILD.log" >> "$GITHUB_ENV"
+          echo "TOOLPACK_ARCHIVE=$env:TEMP\toolpack_x64_Windows.7z" >> "$GITHUB_ENV"
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+      #Logs & Artifacts  
+      - name: Upload (x64_Windows) Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+            name: Toolpack_x64_Windows
+            path: |
+              ${{ env.TOOLPACK_ARCHIVE }}
+              ${{ env.BUILDLOG }}
+            compression-level: 0 # no compression, [Default: 6 (GNU Gzip)]
+            retention-days: 7
+            overwrite: true
+        continue-on-error: true
+#------------------------------------------------------------------------------------#

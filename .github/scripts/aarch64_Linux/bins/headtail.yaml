@@ -1,0 +1,7 @@
+name: "headtail"
+description: "head and tail simultaneously"
+web_url: "https://github.com/CleanCut/headtail"
+repo_url: "https://github.com/CleanCut/headtail"
+path: "/"
+bins:
+  - "headtail"

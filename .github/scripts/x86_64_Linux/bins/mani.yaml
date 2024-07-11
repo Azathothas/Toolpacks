@@ -1,0 +1,7 @@
+name: "mani"
+description: "CLI tool that helps you manage multiple repositories"
+web_url: "https://github.com/alajmo/mani"
+repo_url: "https://github.com/alajmo/mani"
+path: "/"
+bins:
+  - "mani"

@@ -1,0 +1,9 @@
+name: "realm"
+description: "parallel | xargs in rust"
+web_url: "https://github.com/spellshift/realm"
+repo_url: "https://github.com/spellshift/realm"
+path: "/"
+bins:
+  - "golem"
+  - "imix"
+  - "tavern"

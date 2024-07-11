@@ -1,0 +1,8 @@
+name: "sshx"
+description: "Fast, collaborative live terminal sharing over the web"
+web_url: "https://github.com/ekzhang/sshx"
+repo_url: "https://github.com/ekzhang/sshx"
+path: "/"
+bins:
+  - "sshx"
+  - "sshx-server"

@@ -1,0 +1,7 @@
+name: "bdl.sh"
+description: "Binary Downloader"
+web_url: "https://github.com/xplshn/Handyscripts"
+repo_url: "https://github.com/xplshn/Handyscripts"
+path: "/"
+bins:
+  - "bdl.sh"

@@ -1,0 +1,7 @@
+name: "cdwe"
+description: "⚡️(cd with env) Is a configurable cd wrapper that lets you define your environment per Directory"
+web_url: "https://github.com/synoet/cdwe"
+repo_url: "https://github.com/synoet/cdwe"
+path: "/"
+bins:
+  - "cdwe"

@@ -1,0 +1,7 @@
+name: "ngrok"
+description: "External Tunnel to Internal Assets"
+web_url: "https://ngrok.com/"
+repo_url: ""
+path: "/"
+bins:
+  - "ngrok"

@@ -1,0 +1,10 @@
+name: "squashfstools"
+description: "Tool for creating and unpacking squashfs filesystems"
+web_url: "https://github.com/plougher/squashfs-tools"
+repo_url: "https://github.com/plougher/squashfs-tools"
+path: "/Baseutils/squashfstools/"
+bins:
+  - "mksquashfs"
+  - "sqfscat"
+  - "sqfstar"
+  - "unsquashfs"

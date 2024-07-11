@@ -1,0 +1,7 @@
+name: "rclone"
+description: "rsync for cloud storage"
+web_url: "https://github.com/rclone/rclone"
+repo_url: "https://github.com/rclone/rclone"
+path: "/"
+bins:
+  - "rclone"

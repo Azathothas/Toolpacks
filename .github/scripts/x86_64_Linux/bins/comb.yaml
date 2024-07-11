@@ -1,0 +1,7 @@
+name: "comb"
+description: "Combine the lines from two files in every combination."
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
+path: "/"
+bins:
+  - "comb"

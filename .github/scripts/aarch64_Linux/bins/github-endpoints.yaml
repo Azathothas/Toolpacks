@@ -1,0 +1,7 @@
+name: "github-endpoints"
+description: "Find endpoints on GitHub"
+web_url: "https://github.com/gwen001/github-endpoints"
+repo_url: "https://github.com/gwen001/github-endpoints"
+path: "/"
+bins:
+  - "github-endpoints"

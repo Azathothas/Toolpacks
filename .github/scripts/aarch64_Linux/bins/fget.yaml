@@ -1,0 +1,7 @@
+name: "fget"
+description: "Multithread download for a list of files."
+web_url: "https://github.com/Azathothas/Arsenal"
+repo_url: "https://github.com/Azathothas/Arsenal"
+path: "/"
+bins:
+  - "fget"

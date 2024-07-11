@@ -1,0 +1,7 @@
+name: "aria2"
+description: "Download with resuming and segmented downloading"
+web_url: "https://github.com/aria2/aria2"
+repo_url: "https://github.com/aria2/aria2"
+path: "/"
+bins:
+  - "aria2c"

@@ -1,0 +1,7 @@
+name: "ppath"
+description: "Pretty Print your systems PATH environment variable."
+web_url: "https://github.com/marwanhawari/ppath"
+repo_url: "https://github.com/marwanhawari/ppath"
+path: "/"
+bins:
+  - "ppath"

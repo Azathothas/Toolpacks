@@ -1,0 +1,12 @@
+name: "lkl"
+description: "Tools for LKL (Linux Kernel Library)"
+web_url: "https://lkl.github.io/"
+repo_url: "https://github.com/lkl/linux"
+path: "/"
+bins:
+  - "cpfromfs"
+  - "cptofs"
+  - "fs2tar"
+  - "lklfuse"
+  - "lkl-hijack.sh"  
+  - "mount.fuse.lklfuse"

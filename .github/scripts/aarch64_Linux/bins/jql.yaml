@@ -1,0 +1,7 @@
+name: "jql"
+description: "A JSON Query Language CLI tool"
+web_url: "https://github.com/yamafaktory/jql"
+repo_url: "https://github.com/yamafaktory/jql"
+path: "/"
+bins:
+  - "jql"
