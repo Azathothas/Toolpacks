@@ -59,7 +59,6 @@ jobs:
           mkdir -p "$HOME/bin"
           sudo apt update -y
           sudo apt install dos2unix -y
-          pip install ansi2txt --upgrade
           ##Setup rClone
           mkdir -p "$HOME/.config/rclone"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
@@ -139,6 +138,10 @@ jobs:
           echo -e "[+] BTOP: http://$TS_DNS:7777 ||  https://$TS_DNS/btop/\n"
           set +x ; while tmux has-session -t "toolpacks" ; do sleep 1 ; done
           ##Purge Tokens (in case set -x & gh didn't redact)
+          cat "$SYSTMP/BUILD.log" | ansi2txt > "$SYSTMP/BUILD.log.txt"
+          if grep -iq "initializing" "$SYSTMP/BUILD.log.txt"; then
+             mv "$SYSTMP/BUILD.log.txt" "$SYSTMP/BUILD.log"
+          fi          
           sed -i '/.*github_pat.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*ghp_.*/d' "$SYSTMP/BUILD.log" 2>/dev/null 
           sed -i '/.*access_key_id.*/d' "$SYSTMP/BUILD.log" 2>/dev/null
