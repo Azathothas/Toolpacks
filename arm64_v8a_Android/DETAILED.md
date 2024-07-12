@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52224
+- **Stars:** 52228
 - **Version:** v0.2.64
 - **Updated:** 2024-07-11T14:29:34Z
 - **Size:** 19.31 MB
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2575
+- **Stars:** 2576
 - **Version:** v1.7.1
 - **Updated:** 2024-07-02T09:12:41Z
 - **Size:** 5.37 MB
@@ -105,7 +105,7 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 4939
+- **Stars:** 4940
 - **Version:** 1.5.1
 - **Updated:** 2024-07-11T19:21:06Z
 - **Size:** 1.27 MB
@@ -190,9 +190,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34842
+- **Stars:** 34841
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-11T21:09:52Z
+- **Updated:** 2024-07-11T23:35:47Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 9c4aa5a09c7086e04813aa991ad996ef6b8968ae4c7556ba7a0467ea0497a6ab
 - **B3SUM:** 6d0555aeb5ca558f5226d5979ee2a5cacb71e20660645f7392e9beebfa0f7687
@@ -207,9 +207,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34842
+- **Stars:** 34841
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-11T21:09:52Z
+- **Updated:** 2024-07-11T23:35:47Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -326,9 +326,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17607
+- **Stars:** 17608
 - **Version:** v1.68.2
-- **Updated:** 2024-07-11T20:57:19Z
+- **Updated:** 2024-07-11T23:16:32Z
 - **Size:** 11.95 MB
 - **SHA256SUM:** 85d64dd1a3493210800071ae5b377480b479daff9a0b0f7448fc5889419e407f
 - **B3SUM:** 8c4449333600ec2b695113f3c13715fb164336a25ce1ce0dfe0315ae6474a262
@@ -343,9 +343,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17607
+- **Stars:** 17608
 - **Version:** v1.68.2
-- **Updated:** 2024-07-11T20:57:19Z
+- **Updated:** 2024-07-11T23:16:32Z
 - **Size:** 25.88 MB
 - **SHA256SUM:** 3c364ce5c08090f9f0d7511c2c8266c556d7b576700721b842ec735617d483d9
 - **B3SUM:** 57a09e13f57db0650c060f22991d5518a40ec739a377171477921b4498b1c521
@@ -360,9 +360,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17607
+- **Stars:** 17608
 - **Version:** v1.68.2
-- **Updated:** 2024-07-11T20:57:19Z
+- **Updated:** 2024-07-11T23:16:32Z
 - **Size:** 23.77 MB
 - **SHA256SUM:** 0957b365ce87dde24f726d48346f6ca89e345cf8bad21122547408a8e00ad047
 - **B3SUM:** c84d966c4e173afe3a2e9400d2e75d80b9c6826089d4cec74433e7da63c20085
@@ -377,7 +377,7 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33801
+- **Stars:** 33803
 - **Version:** 3.4
 - **Updated:** 2024-07-11T19:30:50Z
 - **Size:** 1.55 MB
@@ -394,9 +394,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35597
+- **Stars:** 35598
 - **Version:** v9.1.0568
-- **Updated:** 2024-07-11T20:52:38Z
+- **Updated:** 2024-07-11T22:38:30Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** f29af13d962be8bf5b5cf4866497c6f8156669e43332a8401491a2547dd48a90
 - **B3SUM:** 426b8f4fbbaa3c93698129e223905475dc0ff2f44c6138e81192b0eda06f3524
