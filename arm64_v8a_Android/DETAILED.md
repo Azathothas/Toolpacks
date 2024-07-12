@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52234
+- **Stars:** 52246
 - **Version:** v0.2.64
 - **Updated:** 2024-07-11T14:29:34Z
 - **Size:** 19.31 MB
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34196
+- **Stars:** 34200
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-30T12:47:39Z
 - **Size:** 9.3 MB
@@ -107,7 +107,7 @@
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Stars:** 4940
 - **Version:** 1.5.1
-- **Updated:** 2024-07-11T19:21:06Z
+- **Updated:** 2024-07-12T10:10:34Z
 - **Size:** 1.27 MB
 - **SHA256SUM:** 244584dfb2f9a36e51ff1e85a31d2fd56c1085918e171346c91d7518552d4dca
 - **B3SUM:** 6dbae4bb2a7b853915867e345576bc8287cf89a5ccac85e23afc1e54164ee9b5
@@ -190,9 +190,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34844
+- **Stars:** 34849
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-12T00:27:06Z
+- **Updated:** 2024-07-12T14:11:28Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 9c4aa5a09c7086e04813aa991ad996ef6b8968ae4c7556ba7a0467ea0497a6ab
 - **B3SUM:** 6d0555aeb5ca558f5226d5979ee2a5cacb71e20660645f7392e9beebfa0f7687
@@ -207,9 +207,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34844
+- **Stars:** 34849
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-12T00:27:06Z
+- **Updated:** 2024-07-12T14:11:28Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -275,7 +275,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45075
+- **Stars:** 45080
 - **Version:** v1.67.0
 - **Updated:** 2024-07-10T14:44:43Z
 - **Size:** 85.32 MB
@@ -292,7 +292,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2515
+- **Stars:** 2516
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -309,7 +309,7 @@
 - **Author:** agnostic-apollo
 - **WebURL:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
 - **Repository:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
-- **Stars:** 82
+- **Stars:** 83
 - **Version:** v0.2.0
 - **Updated:** 2021-04-10T21:03:10Z
 - **Size:** 250.38 kB
@@ -326,9 +326,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17610
+- **Stars:** 17612
 - **Version:** v1.68.2
-- **Updated:** 2024-07-12T04:19:00Z
+- **Updated:** 2024-07-12T14:11:27Z
 - **Size:** 11.95 MB
 - **SHA256SUM:** 85d64dd1a3493210800071ae5b377480b479daff9a0b0f7448fc5889419e407f
 - **B3SUM:** 8c4449333600ec2b695113f3c13715fb164336a25ce1ce0dfe0315ae6474a262
@@ -343,9 +343,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17610
+- **Stars:** 17612
 - **Version:** v1.68.2
-- **Updated:** 2024-07-12T04:19:00Z
+- **Updated:** 2024-07-12T14:11:27Z
 - **Size:** 25.88 MB
 - **SHA256SUM:** 3c364ce5c08090f9f0d7511c2c8266c556d7b576700721b842ec735617d483d9
 - **B3SUM:** 57a09e13f57db0650c060f22991d5518a40ec739a377171477921b4498b1c521
@@ -360,9 +360,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17610
+- **Stars:** 17612
 - **Version:** v1.68.2
-- **Updated:** 2024-07-12T04:19:00Z
+- **Updated:** 2024-07-12T14:11:27Z
 - **Size:** 23.77 MB
 - **SHA256SUM:** 0957b365ce87dde24f726d48346f6ca89e345cf8bad21122547408a8e00ad047
 - **B3SUM:** c84d966c4e173afe3a2e9400d2e75d80b9c6826089d4cec74433e7da63c20085
@@ -377,9 +377,9 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33807
+- **Stars:** 33818
 - **Version:** 3.4
-- **Updated:** 2024-07-11T19:30:50Z
+- **Updated:** 2024-07-12T13:31:10Z
 - **Size:** 1.55 MB
 - **SHA256SUM:** ecb58d647cd2c4940b2152523efa6ebabd896f7bc776b4f5de9000ebc348ba59
 - **B3SUM:** ea4bf3c57066a4b2b1fbfc3ccd53811ecdf96f786cb979315f15e16202f9698d
@@ -394,9 +394,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35599
+- **Stars:** 35601
 - **Version:** v9.1.0571
-- **Updated:** 2024-07-12T05:50:22Z
+- **Updated:** 2024-07-12T14:03:19Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** f29af13d962be8bf5b5cf4866497c6f8156669e43332a8401491a2547dd48a90
 - **B3SUM:** 426b8f4fbbaa3c93698129e223905475dc0ff2f44c6138e81192b0eda06f3524
