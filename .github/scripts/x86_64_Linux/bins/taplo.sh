@@ -54,6 +54,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
+fi       
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
