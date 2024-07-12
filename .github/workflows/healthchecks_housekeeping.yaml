@@ -50,7 +50,6 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
-          ##Get Latest Data (Hysp)
           ##Setup rClone
           mkdir -p "$HOME/.config/rclone"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"

@@ -59,7 +59,6 @@ jobs:
           mkdir -p "$HOME/bin"
           sudo apt update -y
           sudo apt install dos2unix -y
-          ##Get Latest Data (Hysp)
           ##Setup rClone
           mkdir -p "$HOME/.config/rclone"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
@@ -154,7 +153,7 @@ jobs:
           mkdir -p "$HOME/bin"
           sudo apt update -y
           sudo apt install dos2unix -y
-          ##Get Latest Data (Hysp)
+          
           ##Setup rClone
           mkdir -p "$HOME/.config/rclone"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"

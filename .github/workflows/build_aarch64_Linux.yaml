@@ -16,9 +16,102 @@ env:
 #Begin
 jobs:
 #------------------------------------------------------------------------------------#
+  presetup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+#------------------------------------------------------------------------------------#        
+      - name: Install Addons
+        run: |
+          #presets
+          set -x ; set +e
+          #-------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+        continue-on-error: true
+#------------------------------------------------------------------------------------#        
+      - name: Setup Env
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          ##CoreUtils
+          sudo apt update -y
+          sudo apt install bc coreutils curl dos2unix fdupes jq moreutils wget -y
+          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux util-linux wget -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
+          ##tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          #GH Dirs
+          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          #-------------#
+          mkdir -p "$HOME/bin"
+          sudo apt update -y
+          sudo apt install dos2unix -y
+          ##Setup rClone
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
+        continue-on-error: true
+
+      - name: Set TZ to (Asia/Kathmandu)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#        
+          sudo apt-get update -y && sudo DEBIAN_FRONTEND="noninteractive" apt-get install -y tzdata
+          sudo ln -fs "/usr/share/zoneinfo/Asia/Kathmandu" "/etc/localtime"
+          sudo dpkg-reconfigure --frontend noninteractive tzdata
+          sudo apt-get install apt-utils software-properties-common -y           
+          sudo apt-get update -y
+        continue-on-error: true        
+#------------------------------------------------------------------------------------#
+      - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          #copy & chdir to Repo
+          cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
+          #Git pull
+          git pull origin main --no-edit 2>/dev/null
+          #Del Bloat
+          rm -rf "$(pwd)/.git"
+          # rm -rf "$(pwd)/aarch64_arm64_Linux"
+          # rm -rf "$(pwd)/arm64_v8a_Android"
+          # rm -rf "$(pwd)/x86_64_Linux"
+          # rm -rf "$(pwd)/x64_Windows"
+          #Upload to Pub
+          echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
+          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          ##Scripts_x86_64_Linux
+          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
+          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/" --exclude="*.yaml" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/\(.Path)"}' | jq . > "./metadata.json.tmp"
+          #Clean Pretty Formatted
+          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
+          #Update Metadata
+          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
   build-fetch-binaries:
     #runs-on: ubuntu-latest
     runs-on: arm64-linux-toolpacker
+    needs: [presetup]
     timeout-minutes: 2400
     permissions:
       contents: write
@@ -78,34 +171,6 @@ jobs:
           sudo dpkg-reconfigure --frontend noninteractive tzdata
           sudo apt-get install apt-utils software-properties-common -y           
           sudo apt-get update -y
-        continue-on-error: true        
-#------------------------------------------------------------------------------------#
-      - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
-        run: |
-          # Presets
-          set +x ; set +e
-          #--------------#
-          #copy & chdir to Repo
-          cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
-          #Git pull
-          git pull origin main --no-edit 2>/dev/null
-          #Del Bloat
-          rm -rf "$(pwd)/.git"
-          # rm -rf "$(pwd)/aarch64_arm64_Linux"
-          # rm -rf "$(pwd)/arm64_v8a_Android"
-          # rm -rf "$(pwd)/x86_64_Linux"
-          # rm -rf "$(pwd)/x64_Windows"
-          #Upload to Pub
-          echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
-          rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
-          ##Scripts_aarch64_Linux
-          #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
-          curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
-          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/" --exclude="*.yaml" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/\(.Path)"}' | jq . > "./metadata.json.tmp"
-          #Clean Pretty Formatted
-          echo "[" $(cat metadata.json.tmp | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json"
-          #Update Metadata
-          rclone copyto --checksum "./metadata.json" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       #Main Build Script
