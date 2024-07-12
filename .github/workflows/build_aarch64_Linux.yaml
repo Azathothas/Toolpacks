@@ -32,7 +32,7 @@ jobs:
       - name: Install Addons
         run: |
           #presets
-          set -x ; set +e
+          set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
@@ -83,7 +83,7 @@ jobs:
       - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/$GITHUB_REPOSITORY")
         run: |
           # Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
           #copy & chdir to Repo
           cp -r "$GITHUB_WORKSPACE/main" "$SYSTMP/REPO" && cd "$SYSTMP/REPO"
@@ -112,7 +112,7 @@ jobs:
       - name: BUILD
         run: |
           #Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
           #Fetch
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/build_debian.sh" -o "$SYSTMP/BUILD.sh"
