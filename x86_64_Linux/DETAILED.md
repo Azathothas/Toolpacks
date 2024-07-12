@@ -3,7 +3,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 450
+- **Stars:** 449
 - **Version:** 24.07
 - **Updated:** 2024-07-05T14:39:53Z
 - **Size:** 3.73 MB
@@ -20,12 +20,12 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52216
+- **Stars:** 52228
 - **Version:** v0.2.64
 - **Updated:** 2024-07-11T14:29:34Z
 - **Size:** 17.99 MB
-- **SHA256SUM:** 0e891a03fdab5b69cd17a09425d0d820875bb5231c63d0212c5a50690c1b1273
-- **B3SUM:** 07ab15c1dba57d1513d344affa5f06bb755bba75c739f5003a90a5f22d9ec2e2
+- **SHA256SUM:** e22cec5644ef1addb7b9f8c84128b7f7a209fb2cb8fc070262dcede76c1af49c
+- **B3SUM:** b86c0b248d5a8604cfd11b348155f3db92e53aee87989fcaebe4d01c25fbf4c1
 - **Source:** https://bin.ajam.dev/x86_64_Linux/act
 - **Language:** Go
 - **License:** MIT License
@@ -37,7 +37,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2574
+- **Stars:** 2576
 - **Version:** v1.7.1
 - **Updated:** 2024-07-02T09:12:41Z
 - **Size:** 5.09 MB
@@ -54,12 +54,12 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 15789
+- **Stars:** 15792
 - **Version:** v1.2.0
 - **Updated:** 2024-06-21T12:52:31Z
 - **Size:** 3.52 MB
-- **SHA256SUM:** 1c4954c8c7c5a9d6608d5611fb91d77336fb5926d9f043be924426d56103f85b
-- **B3SUM:** 53c5dcdc93760e221f9433686ac945e9f209f686dec493d5e8db88b00541e035
+- **SHA256SUM:** 20306efcb6fdf2292ec82a54d95dfe1bab3005febf34f9af342946f29a3a8f24
+- **B3SUM:** 6f3a8a503b866da9aa533097e0b9dc74d1919e51ea7d717505e7087875e1b441
 - **Source:** https://bin.ajam.dev/x86_64_Linux/age
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -71,11 +71,11 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 15789
+- **Stars:** 15792
 - **Version:** v1.2.0
 - **Updated:** 2024-06-21T12:52:31Z
 - **Size:** 1.92 MB
-- **SHA256SUM:** 1c4954c8c7c5a9d6608d5611fb91d77336fb5926d9f043be924426d56103f85b
+- **SHA256SUM:** a9a35aa9ba83860a80be8be93d414c5831d936b94f19f7d6a09e1f8dffbb5f21
 - **B3SUM:** 6f3a8a503b866da9aa533097e0b9dc74d1919e51ea7d717505e7087875e1b441
 - **Source:** https://bin.ajam.dev/x86_64_Linux/age-keygen
 - **Language:** Go
@@ -88,7 +88,7 @@
 - **Author:** asciinema
 - **WebURL:** [https://github.com/asciinema/agg](https://github.com/asciinema/agg)
 - **Repository:** [https://github.com/asciinema/agg](https://github.com/asciinema/agg)
-- **Stars:** 1112
+- **Stars:** 1113
 - **Version:** v1.4.3
 - **Updated:** 2024-04-14T12:57:33Z
 - **Size:** 9.59 MB
@@ -224,7 +224,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 39711
+- **Stars:** 39716
 - **Version:** v3.35.0
 - **Updated:** 2024-07-11T12:05:04Z
 - **Size:** 73.46 MB
@@ -292,7 +292,7 @@
 - **Author:** jmacdonald
 - **WebURL:** [https://github.com/jmacdonald/amp](https://github.com/jmacdonald/amp)
 - **Repository:** [https://github.com/jmacdonald/amp](https://github.com/jmacdonald/amp)
-- **Stars:** 3650
+- **Stars:** 3651
 - **Version:** 0.7.0
 - **Updated:** 2024-06-25T09:51:56Z
 - **Size:** 6.02 MB
@@ -365,7 +365,7 @@
 - **Updated:** 2024-01-12T01:06:36Z
 - **Size:** 1.28 MB
 - **SHA256SUM:** 7508799efc05295108cbbbb9528c6796f3764f5b351874b980be633324c1257a
-- **B3SUM:** a06ae5bd0631533b8624861218fbfc2b0cb54aaaa0d0aaa321ad4e220cc57cbe
+- **B3SUM:** cd012cd5af0ace11f1a65ffeb7f240e5ef436b96f84715e76574e628514cb69d
 - **Source:** https://bin.ajam.dev/x86_64_Linux/anew
 - **Language:** Go
 - **License:** MIT License
@@ -430,7 +430,7 @@
 - **Repository:** [https://github.com/aptly-dev/aptly](https://github.com/aptly-dev/aptly)
 - **Stars:** 2541
 - **Version:** v1.5.0
-- **Updated:** 2024-07-10T16:32:39Z
+- **Updated:** 2024-07-11T20:16:59Z
 - **Size:** 30 MB
 - **SHA256SUM:** 2e00c00de7670863c3ab74cce23f5d0ed3cb5dfaa00556a0c6fe4b9a016805f5
 - **B3SUM:** 486aba2553dc7aa9771d957a7b6bb6926482f067f986fd736e4569b6aa45e308
@@ -462,7 +462,7 @@
 - **Author:** arduino
 - **WebURL:** [https://github.com/arduino/arduino-cli](https://github.com/arduino/arduino-cli)
 - **Repository:** [https://github.com/arduino/arduino-cli](https://github.com/arduino/arduino-cli)
-- **Stars:** 4236
+- **Stars:** 4237
 - **Version:** v1.0.2
 - **Updated:** 2024-07-11T14:07:16Z
 - **Size:** 22.55 MB
@@ -496,7 +496,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34193
+- **Stars:** 34194
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-30T12:47:39Z
 - **Size:** 8.54 MB
@@ -513,12 +513,12 @@
 - **Author:** nitefood
 - **WebURL:** [https://github.com/nitefood/asn](https://github.com/nitefood/asn)
 - **Repository:** [https://github.com/nitefood/asn](https://github.com/nitefood/asn)
-- **Stars:** 1228
+- **Stars:** 1230
 - **Version:** v0.77.0
 - **Updated:** 2024-07-08T10:47:41Z
 - **Size:** 204.02 kB
 - **SHA256SUM:** 928fd1a301c57ae1d526b52ed440e7e3372dad52a2352ab1b7f12ed9543bcb3d
-- **B3SUM:** 72cb578e9c57444be014cb20dc2b4f8ebbe20642eb426d12ca66722e6d9b8c6e
+- **B3SUM:** e87a696b3673d35cc7999ff38af8d31949694bf1429fd97dec2444ce374a4daa
 - **Source:** https://bin.ajam.dev/x86_64_Linux/asn
 - **Language:** Shell
 - **License:** MIT License
@@ -532,7 +532,7 @@
 - **Repository:** [https://github.com/projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
 - **Stars:** 696
 - **Version:** v1.1.1
-- **Updated:** 2024-07-08T18:10:50Z
+- **Updated:** 2024-07-11T18:17:12Z
 - **Size:** 27.05 MB
 - **SHA256SUM:** ecdaac0188b9ab594cc464a6e1d958b26e71ffecf94783bf03f9d9cdda7ccd1c
 - **B3SUM:** 72cb578e9c57444be014cb20dc2b4f8ebbe20642eb426d12ca66722e6d9b8c6e
@@ -581,7 +581,7 @@
 - **Author:** atuinsh
 - **WebURL:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
 - **Repository:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
-- **Stars:** 18718
+- **Stars:** 18726
 - **Version:** v18.3.0
 - **Updated:** 2024-07-11T16:03:02Z
 - **Size:** 22.21 MB
@@ -617,7 +617,7 @@
 - **Repository:** [https://github.com/rebuy-de/aws-nuke](https://github.com/rebuy-de/aws-nuke)
 - **Stars:** 5535
 - **Version:** v2.25.0
-- **Updated:** 2024-07-09T08:24:34Z
+- **Updated:** 2024-07-11T16:36:09Z
 - **Size:** 150.31 MB
 - **SHA256SUM:** fe7ae3041809eed605781e75ff645e24e010d7bc88ec29cc3c62020c2540bdb9
 - **B3SUM:** 0b9a8466d105b9b7c8ed2b00b052822ed7ee7e12e8f144d84d0fc80ed72eda9c
@@ -649,7 +649,7 @@
 - **Author:** axel-download-accelerator
 - **WebURL:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
 - **Repository:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
-- **Stars:** 2889
+- **Stars:** 2890
 - **Version:** v2.17.14
 - **Updated:** 2024-07-01T19:28:29Z
 - **Size:** 4.49 MB
@@ -666,9 +666,9 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 4936
+- **Stars:** 4940
 - **Version:** 1.5.1
-- **Updated:** 2024-07-11T11:29:05Z
+- **Updated:** 2024-07-11T19:21:06Z
 - **Size:** 1.29 MB
 - **SHA256SUM:** 43c9f072563f3e624aba958643b8cf2b9f48ad84d0715c1e6fd8509ccfbe7f82
 - **B3SUM:** 415ab1b892afa5f4de6e6539a65db9593b88baf9b6213b305c97e7cf469c4659
@@ -700,7 +700,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47747
+- **Stars:** 47750
 - **Version:** v0.24.0
 - **Updated:** 2024-07-05T10:31:04Z
 - **Size:** 5.77 MB
@@ -717,7 +717,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47747
+- **Stars:** 47750
 - **Version:** v0.24.0
 - **Updated:** 2024-07-05T10:31:04Z
 - **Size:** 5.77 MB
@@ -772,8 +772,8 @@
 - **Version:** v0.2.5
 - **Updated:** 2024-05-03T06:33:27Z
 - **Size:** 3.15 MB
-- **SHA256SUM:** 108de2e7696eb30d53216801fda5745cbc42fd24ed2ab8b7fda7dc063bedda8c
-- **B3SUM:** 0643bedb9729df58a3dd880663c26d0701c0abb6e9e482aabad0fbd3e4d77bed
+- **SHA256SUM:** 889040e03adb6261128730e69924fc3259819daeecbde32c365ec367a70fcb82
+- **B3SUM:** 8c0aee862a2fd88a513b5e5f7b5cabe82c7f78262257413ff828955551869eef
 - **Source:** https://bin.ajam.dev/x86_64_Linux/bed
 - **Language:** Go
 - **License:** MIT License
@@ -821,7 +821,7 @@
 - **Repository:** [https://github.com/xplshn/bigdl](https://github.com/xplshn/bigdl)
 - **Stars:** 8
 - **Version:** 1.6.9
-- **Updated:** 2024-07-11T16:24:50Z
+- **Updated:** 2024-07-11T17:00:59Z
 - **Size:** 6.38 MB
 - **SHA256SUM:** 70b28759e449a9535ab17beb2425981988d88b38d1e3af31cd856bbe3c32f640
 - **B3SUM:** 85e3e8e8e6b94b83e18b5b08fa8449ffb337eeae0fb9f7928cea493e9324d0ca
@@ -840,8 +840,8 @@
 - **Version:** v0.17.6
 - **Updated:** 2024-06-17T17:53:26Z
 - **Size:** 15.41 MB
-- **SHA256SUM:** 016b052de8c9e6c34946526e58c8d221f546851238248ced7b1044ba687b5c17
-- **B3SUM:** 04ff5bd0f0855de51c63e1154e615a893b6fe8088b7226bbd1dc0be117695f2f
+- **SHA256SUM:** 75606c90a21eaa0065b0e6cd38d46fc8bea17f5dd052ac48bdaf8f1ba28c3fa1
+- **B3SUM:** 4f3cf90e84128bab5f0177f3762398b8f7d177b0098f268db0165494525254ab
 - **Source:** https://bin.ajam.dev/x86_64_Linux/bin
 - **Language:** Go
 - **License:** MIT License
@@ -955,7 +955,7 @@
 - **Author:** blevesearch
 - **WebURL:** [https://github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
 - **Repository:** [https://github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
-- **Stars:** 9834
+- **Stars:** 9835
 - **Version:** v2.4.1
 - **Updated:** 2024-07-09T15:59:04Z
 - **Size:** 15.5 MB
@@ -972,7 +972,7 @@
 - **Author:** darkhz
 - **WebURL:** [https://github.com/darkhz/bluetuith](https://github.com/darkhz/bluetuith)
 - **Repository:** [https://github.com/darkhz/bluetuith](https://github.com/darkhz/bluetuith)
-- **Stars:** 852
+- **Stars:** 854
 - **Version:** v0.2.2
 - **Updated:** 2024-07-09T08:28:43Z
 - **Size:** 9.38 MB
@@ -1040,7 +1040,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/boringtun](https://github.com/cloudflare/boringtun)
 - **Repository:** [https://github.com/cloudflare/boringtun](https://github.com/cloudflare/boringtun)
-- **Stars:** 5930
+- **Stars:** 5931
 - **Version:** boringtun-cli-0.5.2
 - **Updated:** 2024-06-02T14:42:24Z
 - **Size:** 2.58 MB
@@ -1125,7 +1125,7 @@
 - **Author:** txthinking
 - **WebURL:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
 - **Repository:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
-- **Stars:** 14378
+- **Stars:** 14379
 - **Version:** v20240606
 - **Updated:** 2024-06-11T04:15:57Z
 - **Size:** 20.38 MB
@@ -1142,7 +1142,7 @@
 - **Author:** Canop
 - **WebURL:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
 - **Repository:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
-- **Stars:** 10352
+- **Stars:** 10353
 - **Version:** v1.39.2
 - **Updated:** 2024-07-11T12:29:18Z
 - **Size:** 11.73 MB
@@ -1159,7 +1159,7 @@
 - **Author:** x90skysn3k
 - **WebURL:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
 - **Repository:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
-- **Stars:** 1964
+- **Stars:** 1965
 - **Version:** v2.2.4
 - **Updated:** 2024-07-08T02:21:57Z
 - **Size:** 26.4 MB
@@ -1176,7 +1176,7 @@
 - **Author:** aristocratos
 - **WebURL:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
 - **Repository:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
-- **Stars:** 18175
+- **Stars:** 18176
 - **Version:** v1.3.2
 - **Updated:** 2024-06-29T00:01:49Z
 - **Size:** 2.47 MB
@@ -1227,9 +1227,9 @@
 - **Author:** caddyserver
 - **WebURL:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 - **Repository:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
-- **Stars:** 55636
+- **Stars:** 55637
 - **Version:** v2.8.4
-- **Updated:** 2024-07-11T16:24:14Z
+- **Updated:** 2024-07-11T17:27:49Z
 - **Size:** 40.68 MB
 - **SHA256SUM:** 14b9a9ac80ade7b33e5bc1ccf5fda741fa28ef0e87cc61a0820dcf4f0c4061f3
 - **B3SUM:** 5e088ec14f497c9b9a87a1fdf204ce9edd0f810a079d13f47597dd4e1773da51
@@ -1453,7 +1453,7 @@
 - **Updated:** 2024-03-30T18:36:25Z
 - **Size:** 2.04 MB
 - **SHA256SUM:** 42f0c929c70d11440875f99542af02ce30def4f90f8e1e46ca13a6c4ffb92d9f
-- **B3SUM:** 01a5af73b5f8e08cf49e588f6de68d70206beecee268283c3e1bdea1af466706
+- **B3SUM:** 72e8fd1d8aafda221e6e1cb7d7584d8954c8e21e3de16e72f14a78b5ae51d714
 - **Source:** https://bin.ajam.dev/x86_64_Linux/cexec
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -1469,7 +1469,7 @@
 - **Version:** 0.2.868-f7ec890
 - **Updated:** 2024-05-26T05:35:00Z
 - **Size:** 6.98 MB
-- **SHA256SUM:** ce19fa51fb4aa796462fa5a23f0101de0e0ed903f28e39a4d99b8d4aae7c8b08
+- **SHA256SUM:** f59d150de3c62bf7debcf57a3738c189aa43a5975018475e4235398cc2d579f1
 - **B3SUM:** 5b9fc4d5867eab3459b4935bad352f4fcf825782e8cdf72ec7e109f4a61163b1
 - **Source:** https://bin.ajam.dev/x86_64_Linux/cfspeed
 - **Language:** Go
@@ -1501,7 +1501,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 11.89 MB
 - **SHA256SUM:** 108de2e7696eb30d53216801fda5745cbc42fd24ed2ab8b7fda7dc063bedda8c
 - **B3SUM:** 15725e2da15a93cb7934922bc1c9de1ff30588fba84317023d38ef6f1693edf2
@@ -1518,7 +1518,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 8.53 MB
 - **SHA256SUM:** 5e12a85d194dbce5f6a55cd18747a39e0ec641991dd8e9d4830dc593ad046ddd
 - **B3SUM:** 15725e2da15a93cb7934922bc1c9de1ff30588fba84317023d38ef6f1693edf2
@@ -1535,7 +1535,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 8.41 MB
 - **SHA256SUM:** 378d9148096dd0a6e8708e6be93f8fe553f83618bf6f9f9b801195214ed6a70c
 - **B3SUM:** 797e74cc0fcb8a1666d6dc81951db3e0da4b4221f61ed13459794c924222f898
@@ -1552,7 +1552,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 9.76 MB
 - **SHA256SUM:** 108de2e7696eb30d53216801fda5745cbc42fd24ed2ab8b7fda7dc063bedda8c
 - **B3SUM:** d439d5f8e18249abe491f4280827c97d5b07e8e27965d5c28e36f0bd5717b4b1
@@ -1569,7 +1569,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 8.86 MB
 - **SHA256SUM:** b2137f0bc852fd729053a7c563cbb29ac8073c07ec46c7e533891c704aacbceb
 - **B3SUM:** 7ef8365f897c6b27faa5cb028e353380c91871cd49bb218995ec9b86cc069ec4
@@ -1586,7 +1586,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 6.21 MB
 - **SHA256SUM:** 49795c4af7ab46bff7d99df377deb84b72b22cf14095da5f833b7e2cd78372ef
 - **B3SUM:** df970b9ffea1fa241643718e8978cc960efafd328eda1f81bea2f7305df95c1f
@@ -1603,7 +1603,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 5.09 MB
 - **SHA256SUM:** e07c230e4748facd57e365bb71177d4a90f2970f50b2cb2ebdf478b8f7faa879
 - **B3SUM:** e66f36fcf141f1b93e6abe70b052e0e56c21da1f5be4c5be77f13723460f5224
@@ -1620,7 +1620,7 @@
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Stars:** 8567
 - **Version:** v1.6.5
-- **Updated:** 2024-06-24T03:42:24Z
+- **Updated:** 2024-07-11T16:28:33Z
 - **Size:** 11.72 MB
 - **SHA256SUM:** 1de106084cc9c22dec4d3a0ace48a73e175dcc02cca6204b8f93c2d243fb1243
 - **B3SUM:** dfc740a38f1399ec992171937eb296b2c722bbadddfea48de89454b240d5b669
@@ -1669,7 +1669,7 @@
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
-- **Stars:** 12133
+- **Stars:** 12135
 - **Version:** 4.4.2
 - **Updated:** 2024-06-18T20:51:35Z
 - **Size:** 11.37 MB
@@ -1703,7 +1703,7 @@
 - **Author:** jpillora
 - **WebURL:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
 - **Repository:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
-- **Stars:** 12393
+- **Stars:** 12394
 - **Version:** v1.9.1
 - **Updated:** 2024-05-07T09:25:01Z
 - **Size:** 8.65 MB
@@ -1725,7 +1725,7 @@
 - **Updated:** 2024-07-01T11:54:10Z
 - **Size:** 3.57 MB
 - **SHA256SUM:** 3178ea9860c3ab6ca1d701a17c66d0e51611327268e0338e419abeae53e73409
-- **B3SUM:** 00237a927fd53661eb61b63b04e3409d6838ce46b9053e63db249489b3efb10d
+- **B3SUM:** 8f3d33d383f4c6831a1a1e53c38770f1f7ba64472e03a285cf3b0cfe010cb60c
 - **Source:** https://bin.ajam.dev/x86_64_Linux/cidr
 - **Language:** Go
 - **License:** MIT License
@@ -1756,7 +1756,7 @@
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Stars:** 344
 - **Version:** v0.18.1
-- **Updated:** 2024-07-10T01:55:31Z
+- **Updated:** 2024-07-11T21:33:16Z
 - **Size:** 9.01 MB
 - **SHA256SUM:** f1dbe9cd093af362843656904e09ff6bab226c21bf0198834bea996bb35496b2
 - **B3SUM:** a627b47452cccf4802784b036a20a0603edfbb109d6cedb4dd8d508da9abfa99
@@ -1773,7 +1773,7 @@
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Stars:** 344
 - **Version:** v0.18.1
-- **Updated:** 2024-07-10T01:55:31Z
+- **Updated:** 2024-07-11T21:33:16Z
 - **Size:** 5.59 MB
 - **SHA256SUM:** cdf4664bac4731069a1717c58ce11abc3c33c6d8ebf49551f5cd7341235de3a3
 - **B3SUM:** e15442b51abb9b544ddfc239c8bb7ad18eb098af704f5c740ca4215915cc69d3
@@ -1790,7 +1790,7 @@
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Stars:** 344
 - **Version:** v0.18.1
-- **Updated:** 2024-07-10T01:55:31Z
+- **Updated:** 2024-07-11T21:33:16Z
 - **Size:** 6.49 MB
 - **SHA256SUM:** 029b2781eed5665b235afe193572755b1d27a1a7575b3ca9892d57c0503b1216
 - **B3SUM:** 1ed1c4e209d7bd9a006e6850df9abead1ab9b3ae876fa9bb51295c266adcc564
@@ -1807,7 +1807,7 @@
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Stars:** 344
 - **Version:** v0.18.1
-- **Updated:** 2024-07-10T01:55:31Z
+- **Updated:** 2024-07-11T21:33:16Z
 - **Size:** 15.56 MB
 - **SHA256SUM:** 7341a2d1f04d4fbb28c770bd23bea6669aa417243024c6cb2c2c46c60aac3a24
 - **B3SUM:** 35ea714834dae9b974aa0ec397cc1fa0bafad0b805ea756d86a3662a5a7cffb7
@@ -1873,9 +1873,9 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
-- **Stars:** 8479
+- **Stars:** 8481
 - **Version:** 2024.6.1
-- **Updated:** 2024-07-10T16:30:28Z
+- **Updated:** 2024-07-11T16:42:27Z
 - **Size:** 25.48 MB
 - **SHA256SUM:** 9b99404eac00d6ad13008a2d7a320d56c7e5445b28633cbc11461752fe010f59
 - **B3SUM:** 429622bc8b32c07dcd3d3676cbb608f0ee3ae7f628345e11426c152720a880d1
@@ -1890,7 +1890,7 @@
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
 - **Repository:** [https://github.com/BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
-- **Stars:** 1848
+- **Stars:** 1849
 - **Version:** v1.14.1
 - **Updated:** 2024-07-04T02:44:58Z
 - **Size:** 155.73 MB
@@ -1924,7 +1924,7 @@
 - **Author:** cloudreve
 - **WebURL:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
 - **Repository:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
-- **Stars:** 21236
+- **Stars:** 21237
 - **Version:** 3.8.3
 - **Updated:** 2024-07-05T21:37:39Z
 - **Size:** 35.58 MB
@@ -2065,7 +2065,7 @@
 - **Updated:** 2024-07-11T04:06:10Z
 - **Size:** 1.34 MB
 - **SHA256SUM:** a94e3385f84a070f34c8d9cf8a4f27e210dbf811877a4e496c82f86c1197f343
-- **B3SUM:** 04ff5bd0f0855de51c63e1154e615a893b6fe8088b7226bbd1dc0be117695f2f
+- **B3SUM:** f5743c7709bca4f8edaf84f9c5edaeb13ddbb89d8f60e5f873f44014f2b1f495
 - **Source:** https://bin.ajam.dev/x86_64_Linux/comb
 - **Language:** Shell
 - **License:** The Unlicense
@@ -2077,9 +2077,9 @@
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
 - **Repository:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
-- **Stars:** 16742
+- **Stars:** 16743
 - **Version:** v1.7.19
-- **Updated:** 2024-07-11T16:15:36Z
+- **Updated:** 2024-07-11T21:58:54Z
 - **Size:** 39.16 MB
 - **SHA256SUM:** 6520d83123ec16e479a539e38da5d4a36bdb5c947ad7627036dc1f3d5157de7e
 - **B3SUM:** ebb12056b87b5892f2b2ae45556d9f095c9028fac0b0e18f0ea54d4291852ac4
@@ -2198,10 +2198,10 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 228
 - **Version:** 
-- **Updated:** 2024-07-11T00:11:30Z
+- **Updated:** 2024-07-12T00:25:21Z
 - **Size:** 5.26 MB
-- **SHA256SUM:** 4013e3e13cc1f9322e968ec95822946ea53b352c37f1e4c27a490b0a21e6287e
-- **B3SUM:** 1442a049b1140059b0269e0a22fd2e2ca8b8a224f3f33d1e7f40ad2c7d82b24a
+- **SHA256SUM:** a75a208a6a58ae0676369c26a048f58540515ea8030ed82a932a1c1b0ebc8f20
+- **B3SUM:** e9e71ee0c1bf8e5fb8b25b6a724397e1e178fb2747ebb22db932eb927fd23997
 - **Source:** https://bin.ajam.dev/x86_64_Linux/cpu
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2215,10 +2215,10 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 228
 - **Version:** 
-- **Updated:** 2024-07-11T00:11:30Z
+- **Updated:** 2024-07-12T00:25:21Z
 - **Size:** 4.31 MB
-- **SHA256SUM:** aefee7182a4154ab14661eb8079383ba3387c935575569158612fe2f9919e353
-- **B3SUM:** 1442a049b1140059b0269e0a22fd2e2ca8b8a224f3f33d1e7f40ad2c7d82b24a
+- **SHA256SUM:** ceabe84706ddf1a102d7372c1fa5942f340478374da2badb105fc3989191a6c0
+- **B3SUM:** b7ca7a97158a4d1000c37fe873776c20ecc8dca6c0e053a04cab95e68427c8ff
 - **Source:** https://bin.ajam.dev/x86_64_Linux/cpud
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2232,10 +2232,10 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 228
 - **Version:** 
-- **Updated:** 2024-07-11T00:11:30Z
+- **Updated:** 2024-07-12T00:25:21Z
 - **Size:** 5.76 MB
 - **SHA256SUM:** 52ddab33ae5cf674e9a86537584409c00b53c904ad51d6cefe2cb45308e4b676
-- **B3SUM:** 5e700ff56476da95823e2a69b4ddb0f4b8781bdf81ddbc3e91cb7ab4606d8345
+- **B3SUM:** 6b8144a354d1f1d789e365a77fe04d97dbc682b004b3c45eea3b01e0812d597e
 - **Source:** https://bin.ajam.dev/x86_64_Linux/decpu
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2249,7 +2249,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 228
 - **Version:** 
-- **Updated:** 2024-07-11T00:11:30Z
+- **Updated:** 2024-07-12T00:25:21Z
 - **Size:** 5.2 MB
 - **SHA256SUM:** b50e93325b4c1dd4f1fd0c37653481ffb6dd110e873b8d504cb16cfd8d52c963
 - **B3SUM:** 5e700ff56476da95823e2a69b4ddb0f4b8781bdf81ddbc3e91cb7ab4606d8345
@@ -2266,10 +2266,10 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 228
 - **Version:** 
-- **Updated:** 2024-07-11T00:11:30Z
+- **Updated:** 2024-07-12T00:25:21Z
 - **Size:** 3.13 MB
-- **SHA256SUM:** aefee7182a4154ab14661eb8079383ba3387c935575569158612fe2f9919e353
-- **B3SUM:** 1442a049b1140059b0269e0a22fd2e2ca8b8a224f3f33d1e7f40ad2c7d82b24a
+- **SHA256SUM:** ccf0c46fae56539dcb7600fc072cb05e34341e29ca261ae98ffd0772cbb1e798
+- **B3SUM:** 94b7c66fb775e778f33e83aeaa2103444bbe8e7b2c126685527b12e9aa80c76f
 - **Source:** https://bin.ajam.dev/x86_64_Linux/p9cpu
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2283,7 +2283,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 228
 - **Version:** 
-- **Updated:** 2024-07-11T00:11:30Z
+- **Updated:** 2024-07-12T00:25:21Z
 - **Size:** 2.7 MB
 - **SHA256SUM:** aefee7182a4154ab14661eb8079383ba3387c935575569158612fe2f9919e353
 - **B3SUM:** 1442a049b1140059b0269e0a22fd2e2ca8b8a224f3f33d1e7f40ad2c7d82b24a
@@ -2298,9 +2298,9 @@
 - **Author:** Dr-Noob
 - **WebURL:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
 - **Repository:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
-- **Stars:** 1828
+- **Stars:** 1830
 - **Version:** v1.05
-- **Updated:** 2024-07-11T07:20:02Z
+- **Updated:** 2024-07-11T21:27:57Z
 - **Size:** 173.68 kB
 - **SHA256SUM:** f6b1b6135f73e41ba18b9c8541563eae6b4bd083a2a91de85f75682227b387cb
 - **B3SUM:** 8ee80fcbe254c4195d5d52156b44929bdece712a8047395758e32a4eff7538bf
@@ -2366,7 +2366,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 26871
+- **Stars:** 26878
 - **Version:** v10.0.10
 - **Updated:** 2024-07-09T13:25:55Z
 - **Size:** 7.87 MB
@@ -2385,7 +2385,7 @@
 - **Repository:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
 - **Stars:** 452
 - **Version:** cronie-1.7.2
-- **Updated:** 2024-06-28T14:18:50Z
+- **Updated:** 2024-07-11T20:56:15Z
 - **Size:** 105.47 kB
 - **SHA256SUM:** 3cce03db1b952a5e7fb1a03d04d1c50782a8f02ced6bf62b0e813162fac36a0b
 - **B3SUM:** 5b19f43cf5d5619c8c9ffb400e57cc57dd9ccf064a43dc5717b4c6a5e0e8e38c
@@ -2402,7 +2402,7 @@
 - **Repository:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
 - **Stars:** 452
 - **Version:** cronie-1.7.2
-- **Updated:** 2024-06-28T14:18:50Z
+- **Updated:** 2024-07-11T20:56:15Z
 - **Size:** 76.14 kB
 - **SHA256SUM:** 71b0505dbed24359c95e3c0f342e5a9fedf533d64c33db321b27865a85b17a28
 - **B3SUM:** 2691ad1c404222be011e8ed3bc2a40d5f10de2745280f94bfd58247936249cf2
@@ -2419,7 +2419,7 @@
 - **Repository:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
 - **Stars:** 452
 - **Version:** cronie-1.7.2
-- **Updated:** 2024-06-28T14:18:50Z
+- **Updated:** 2024-07-11T20:56:15Z
 - **Size:** 89.45 kB
 - **SHA256SUM:** 4f22bfa7075978479a7d72d7eda7fc4f6145b5c5119a5c03cadd628e6e0b816d
 - **B3SUM:** 2e606e9e81b777301da4176ca3441a3df3ee4e26904bb205ed1cf638b7675de7
@@ -2439,7 +2439,7 @@
 - **Updated:** 
 - **Size:** 112.67 kB
 - **SHA256SUM:** 05ca6d9a6cba300106ac12e798ac62e5f1197f7f7e0730fa702de2bfb9a8976c
-- **B3SUM:** 2691ad1c404222be011e8ed3bc2a40d5f10de2745280f94bfd58247936249cf2
+- **B3SUM:** 5c8a8b312df321212937223663a7df81d31bd29200d77300cfbfe9a92161653f
 - **Source:** https://bin.ajam.dev/x86_64_Linux/cron
 - **Language:** 
 - **License:** 
@@ -2655,7 +2655,7 @@
 - **Author:** rs
 - **WebURL:** [https://github.com/rs/curlie](https://github.com/rs/curlie)
 - **Repository:** [https://github.com/rs/curlie](https://github.com/rs/curlie)
-- **Stars:** 2741
+- **Stars:** 2742
 - **Version:** v1.7.2
 - **Updated:** 2024-02-28T16:42:58Z
 - **Size:** 2.03 MB
@@ -2757,7 +2757,7 @@
 - **Author:** hahwul
 - **WebURL:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
 - **Repository:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
-- **Stars:** 3454
+- **Stars:** 3455
 - **Version:** v2.9.2
 - **Updated:** 2024-07-07T01:32:27Z
 - **Size:** 25.02 MB
@@ -2859,7 +2859,7 @@
 - **Author:** danvergara
 - **WebURL:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
 - **Repository:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
-- **Stars:** 2007
+- **Stars:** 2009
 - **Version:** v0.25.0
 - **Updated:** 2024-07-02T03:25:48Z
 - **Size:** 32.05 MB
@@ -2876,7 +2876,7 @@
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 10484
+- **Stars:** 10488
 - **Version:** v6.6.3
 - **Updated:** 2024-07-08T08:18:43Z
 - **Size:** 9.41 MB
@@ -2910,7 +2910,7 @@
 - **Author:** dandavison
 - **WebURL:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
 - **Repository:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
-- **Stars:** 21394
+- **Stars:** 21396
 - **Version:** 0.17.0
 - **Updated:** 2024-07-11T08:53:36Z
 - **Size:** 7.2 MB
@@ -2927,7 +2927,7 @@
 - **Author:** EgeBalci
 - **WebURL:** [https://github.com/EgeBalci/deoptimizer](https://github.com/EgeBalci/deoptimizer)
 - **Repository:** [https://github.com/EgeBalci/deoptimizer](https://github.com/EgeBalci/deoptimizer)
-- **Stars:** 220
+- **Stars:** 222
 - **Version:** v0.1.1
 - **Updated:** 2024-07-03T16:12:46Z
 - **Size:** 2.25 MB
@@ -3012,9 +3012,9 @@
 - **Author:** jetify-com
 - **WebURL:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
 - **Repository:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
-- **Stars:** 7899
+- **Stars:** 7900
 - **Version:** 0.12.0
-- **Updated:** 2024-07-11T01:01:28Z
+- **Updated:** 2024-07-11T20:44:30Z
 - **Size:** 27.83 MB
 - **SHA256SUM:** 397e9db19a23d92bad099509419d0de13d25730930ecf50192bcfd8a3078b4a6
 - **B3SUM:** a137a7e0d9030d3cdd3a520430b50648bb44a1cb3f7a8c878f2d67ed6a353bb4
@@ -3029,7 +3029,7 @@
 - **Author:** loft-sh
 - **WebURL:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
 - **Repository:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
-- **Stars:** 8449
+- **Stars:** 8452
 - **Version:** v0.5.16
 - **Updated:** 2024-07-10T15:24:47Z
 - **Size:** 69.2 MB
@@ -3080,7 +3080,7 @@
 - **Author:** direnv
 - **WebURL:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
 - **Repository:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
-- **Stars:** 11985
+- **Stars:** 11987
 - **Version:** v2.34.0
 - **Updated:** 2024-07-09T15:17:24Z
 - **Size:** 6.92 MB
@@ -3101,8 +3101,8 @@
 - **Version:** v0.3.7
 - **Updated:** 2023-02-08T12:01:11Z
 - **Size:** 1.85 MB
-- **SHA256SUM:** 33cff0a79f6d6d203eda58389087f4889ef580d0748da872cf6abe4ca3b04d8a
-- **B3SUM:** 6d0ef4c9ce57287cc4874a17b3e6b9381a70187585ae3314292b37496d0897f1
+- **SHA256SUM:** 684ae223350187f5c61d426ce9c7f3600ed698da27c0bff11cbc2b523f719b21
+- **B3SUM:** a62ca474e0a17f4c7e4733c521e78a2b84e2ecb265c8dbbca8e5ef293b400c18
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ds
 - **Language:** Rust
 - **License:** MIT License
@@ -3284,7 +3284,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 39.16 MB
@@ -3301,7 +3301,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 12.5 MB
@@ -3318,12 +3318,12 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 19.36 MB
-- **SHA256SUM:** 278f1505e3e0ac05adb3f80b4d3f0f5cb52c04f39b3b6796fb7404abf5a03c82
-- **B3SUM:** 576fae0a43d768cd7ee6c2779574424cccbd07bab6269d79187c9446c5233204
+- **SHA256SUM:** 662a09f1a5b6919d2b4dd0c76cc1dc328b12c89b9351cd379c688b92cdcfae98
+- **B3SUM:** c0c86d95abff42ee3cf5c21be13d6c2fa955de5a56c78b8e99d4882e58af6ffa
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ctr
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -3335,7 +3335,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 25.98 MB
@@ -3352,7 +3352,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 708.45 kB
@@ -3369,7 +3369,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 1.84 MB
@@ -3386,7 +3386,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 62.65 MB
@@ -3403,7 +3403,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 14.84 kB
@@ -3420,7 +3420,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 7249 B
@@ -3437,7 +3437,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 8.42 MB
@@ -3454,7 +3454,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 5.08 MB
@@ -3471,7 +3471,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 10.8 MB
@@ -3488,7 +3488,7 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4750
+- **Stars:** 4751
 - **Version:** v27.0.3
 - **Updated:** 2024-07-11T12:30:44Z
 - **Size:** 23.9 MB
@@ -3505,7 +3505,7 @@
 - **Author:** mr-karan
 - **WebURL:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
 - **Repository:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
-- **Stars:** 2474
+- **Stars:** 2478
 - **Version:** v1.0.4
 - **Updated:** 2024-07-11T15:54:34Z
 - **Size:** 8.84 MB
@@ -3624,7 +3624,7 @@
 - **Author:** mkj
 - **WebURL:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 - **Repository:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
-- **Stars:** 1613
+- **Stars:** 1614
 - **Version:** DROPBEAR_2024.85
 - **Updated:** 2024-07-10T22:53:09Z
 - **Size:** 421.13 kB
@@ -3641,12 +3641,12 @@
 - **Author:** mkj
 - **WebURL:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 - **Repository:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
-- **Stars:** 1613
+- **Stars:** 1614
 - **Version:** DROPBEAR_2024.85
 - **Updated:** 2024-07-10T22:53:09Z
 - **Size:** 470.02 kB
-- **SHA256SUM:** 6205438a6a309d509769855ce3edc9a448bc674051dfa664571d80033b1d8473
-- **B3SUM:** 00da2f497edb3d877ce8db9f5ff0a7061018e592c7403896e7c97f72808214ce
+- **SHA256SUM:** 89498e8abcffb843a4469a486d0699915ff36f089cf6a0213071d7c938de7c71
+- **B3SUM:** 452f29926b1ca20f0100093213ee63dae8d3e5da4578006ab0463fa9f278f05e
 - **Source:** https://bin.ajam.dev/x86_64_Linux/dropbear
 - **Language:** C
 - **License:** Other
@@ -3658,7 +3658,7 @@
 - **Author:** mkj
 - **WebURL:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 - **Repository:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
-- **Stars:** 1613
+- **Stars:** 1614
 - **Version:** DROPBEAR_2024.85
 - **Updated:** 2024-07-10T22:53:09Z
 - **Size:** 243.7 kB
@@ -3675,7 +3675,7 @@
 - **Author:** mkj
 - **WebURL:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 - **Repository:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
-- **Stars:** 1613
+- **Stars:** 1614
 - **Version:** DROPBEAR_2024.85
 - **Updated:** 2024-07-10T22:53:09Z
 - **Size:** 247.54 kB
@@ -3692,7 +3692,7 @@
 - **Author:** mkj
 - **WebURL:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 - **Repository:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
-- **Stars:** 1613
+- **Stars:** 1614
 - **Version:** DROPBEAR_2024.85
 - **Updated:** 2024-07-10T22:53:09Z
 - **Size:** 556.65 kB
@@ -3709,7 +3709,7 @@
 - **Author:** mkj
 - **WebURL:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 - **Repository:** [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
-- **Stars:** 1613
+- **Stars:** 1614
 - **Version:** DROPBEAR_2024.85
 - **Updated:** 2024-07-10T22:53:09Z
 - **Size:** 75.11 kB
@@ -3743,7 +3743,7 @@
 - **Author:** muesli
 - **WebURL:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
 - **Repository:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
-- **Stars:** 12499
+- **Stars:** 12500
 - **Version:** v0.8.1
 - **Updated:** 2024-02-18T21:27:09Z
 - **Size:** 2.14 MB
@@ -3760,7 +3760,7 @@
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 5402
+- **Stars:** 5404
 - **Version:** v0.41.0
 - **Updated:** 2024-07-11T11:47:22Z
 - **Size:** 3.01 MB
@@ -3789,18 +3789,18 @@
 
 ---
 
-### dufs
+### dust
 - **Description:** A more intuitive version of du in rust
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8111
+- **Stars:** 8113
 - **Version:** v1.0.0
 - **Updated:** 2024-07-05T20:18:06Z
-- **Size:** 3.01 MB
-- **SHA256SUM:** 15cd3966758ba95161f083e025208f73d3829691b55df0323549cf76459508c7
-- **B3SUM:** ff53d2ff14b8409fec95bee44a1690a1d40fea13d368f71f1fe869910be8d29f
-- **Source:** https://bin.ajam.dev/x86_64_Linux/dufs
+- **Size:** 2.98 MB
+- **SHA256SUM:** 3834fb235c4f887fed58d1d15090ab30d7bbfc3f354cea0a62a9dede44b99230
+- **B3SUM:** 98f755c9d3f9377d68c6f55d7c996a645778dddbeb399eed331d139387cdcbbb
+- **Source:** https://bin.ajam.dev/x86_64_Linux/dust
 - **Language:** Rust
 - **License:** Apache License 2.0
 
@@ -3867,7 +3867,7 @@
 - **Updated:** 2024-07-09T06:03:04Z
 - **Size:** 7.44 MB
 - **SHA256SUM:** 4770d2dabdb53a347105d87cad2f31bd64eb8829be01b7e745e8343e33a7feae
-- **B3SUM:** 40db1abb2dc034ec8647515a9be79f0e8ca52175c7ece34d09b48435b4c6bc36
+- **B3SUM:** c5bc34369320d9c6701dc7da34ad5a693e5a8ca24198738688eea6b481544457
 - **Source:** https://bin.ajam.dev/x86_64_Linux/eget
 - **Language:** Go
 - **License:** MIT License
@@ -3913,7 +3913,7 @@
 - **Author:** rkd77
 - **WebURL:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
 - **Repository:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
-- **Stars:** 316
+- **Stars:** 317
 - **Version:** v0.17.0
 - **Updated:** 2024-07-08T19:35:32Z
 - **Size:** 5.16 MB
@@ -3930,7 +3930,7 @@
 - **Author:** rkd77
 - **WebURL:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
 - **Repository:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
-- **Stars:** 316
+- **Stars:** 317
 - **Version:** v0.17.0
 - **Updated:** 2024-07-08T19:35:32Z
 - **Size:** 5.16 MB
@@ -3947,7 +3947,7 @@
 - **Author:** elves
 - **WebURL:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
 - **Repository:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
-- **Stars:** 5533
+- **Stars:** 5534
 - **Version:** v0.20.1
 - **Updated:** 2024-07-06T22:54:04Z
 - **Size:** 6.88 MB
@@ -3969,7 +3969,7 @@
 - **Updated:** 2024-01-09T10:25:42Z
 - **Size:** 9.23 MB
 - **SHA256SUM:** 325f52ff9213088ecd8301aa0b1943c8eacd8b55314338ac6d3c9afb8ee70f26
-- **B3SUM:** 079eb33c9cf0b4e11a7bef63b65ad9815d05b2a2acc20794d2a9210fc41be4f1
+- **B3SUM:** f6d486cf3b35d7cf21676bff40da4cb3a6a8cc4aa92f2f6b818695404e5e0b8c
 - **Source:** https://bin.ajam.dev/x86_64_Linux/enc
 - **Language:** Go
 - **License:** MIT License
@@ -3985,7 +3985,7 @@
 - **Version:** 
 - **Updated:** 2023-08-23T16:10:40Z
 - **Size:** 2.43 MB
-- **SHA256SUM:** 7e8078692d618b98e19c1b6ba8a97bc271e3cef19ecf92db91bcab975f9c0201
+- **SHA256SUM:** 9956fc1b1d2e165d23806a15dd43a805a148ad9288dd800ac27d19373725c3d6
 - **B3SUM:** 35b5058df4e8b200b8d56c9ccad5ef5f5c9f6840bc3533c38037d9e8211f34f2
 - **Source:** https://bin.ajam.dev/x86_64_Linux/encode
 - **Language:** Go
@@ -4083,12 +4083,12 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 46843
+- **Stars:** 46845
 - **Version:** v3.5.14
 - **Updated:** 2024-07-10T18:16:36Z
 - **Size:** 23.16 MB
-- **SHA256SUM:** 42cb79516373ac30b7cfbf0fd2f9a3700ce2a6a281b0f4457431f12a4f74baf6
-- **B3SUM:** 28f8eb2753211b1f34d671b85330cfa6c0cfc3fd147902e2c03ead96b167f52f
+- **SHA256SUM:** e6cbb41bf75923d3ecea16e1448cde881026b50aef57c5e649e872e3159ab821
+- **B3SUM:** fc3efb1d96c82e510d27456d8f5e382b747793d1be105498e3a022798057a8c8
 - **Source:** https://bin.ajam.dev/x86_64_Linux/etcd
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -4100,7 +4100,7 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 46843
+- **Stars:** 46845
 - **Version:** v3.5.14
 - **Updated:** 2024-07-10T18:16:36Z
 - **Size:** 17.54 MB
@@ -4117,7 +4117,7 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 46843
+- **Stars:** 46845
 - **Version:** v3.5.14
 - **Updated:** 2024-07-10T18:16:36Z
 - **Size:** 14.58 MB
@@ -4185,9 +4185,9 @@
 - **Author:** eza-community
 - **WebURL:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
 - **Repository:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
-- **Stars:** 8901
+- **Stars:** 8906
 - **Version:** v0.18.21
-- **Updated:** 2024-07-09T13:35:36Z
+- **Updated:** 2024-07-11T17:07:57Z
 - **Size:** 2.02 MB
 - **SHA256SUM:** 58f3db3098bcfd9f0df529bb91085f8390ddef40bc4920e55e68091ec13a5241
 - **B3SUM:** 2d4ccee6e799e60d7863fdfe71f6c5553c2b6bab6fc4cf36f9f64a20cc6b733c
@@ -4219,7 +4219,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8211
+- **Stars:** 8217
 - **Version:** 2.18.1
 - **Updated:** 2024-07-11T14:09:08Z
 - **Size:** 1.8 MB
@@ -4236,7 +4236,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8211
+- **Stars:** 8217
 - **Version:** 2.18.1
 - **Updated:** 2024-07-11T14:09:08Z
 - **Size:** 1.62 MB
@@ -4253,7 +4253,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8211
+- **Stars:** 8217
 - **Version:** 2.18.1
 - **Updated:** 2024-07-11T14:09:08Z
 - **Size:** 1.58 MB
@@ -4287,7 +4287,7 @@
 - **Author:** pkolaczk
 - **WebURL:** [https://github.com/pkolaczk/fclones](https://github.com/pkolaczk/fclones)
 - **Repository:** [https://github.com/pkolaczk/fclones](https://github.com/pkolaczk/fclones)
-- **Stars:** 1832
+- **Stars:** 1833
 - **Version:** v0.34.0
 - **Updated:** 2024-05-30T08:00:55Z
 - **Size:** 4.89 MB
@@ -4304,12 +4304,12 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- **Stars:** 32630
+- **Stars:** 32636
 - **Version:** v10.1.0
 - **Updated:** 2024-07-01T22:05:28Z
 - **Size:** 4.13 MB
-- **SHA256SUM:** 0123181c8408dc5cfcecca3bc0c2fc780833bdfd949c442565085bb3ddb5c2cf
-- **B3SUM:** 00237a927fd53661eb61b63b04e3409d6838ce46b9053e63db249489b3efb10d
+- **SHA256SUM:** 86d6a7e142e4c9228dac8c357b2ed51dcab409267f9770e2e74b47fa8d26de25
+- **B3SUM:** 48ecc7cf882438c204ddca89fb8cedf0ce02b603648e1dd07f5fefb5308b984a
 - **Source:** https://bin.ajam.dev/x86_64_Linux/fd
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -4338,7 +4338,7 @@
 - **Author:** epi052
 - **WebURL:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
 - **Repository:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
-- **Stars:** 5560
+- **Stars:** 5562
 - **Version:** v2.10.4
 - **Updated:** 2024-07-11T14:16:00Z
 - **Size:** 11.8 MB
@@ -4389,12 +4389,12 @@
 - **Author:** ffuf
 - **WebURL:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
 - **Repository:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
-- **Stars:** 11884
+- **Stars:** 11885
 - **Version:** v2.1.0
 - **Updated:** 2024-06-30T06:46:22Z
 - **Size:** 8.15 MB
-- **SHA256SUM:** 4016fa80a5b4628c37ccb27b0a572c69517f8648237fd7e64ae0d8859b0b2a09
-- **B3SUM:** 61d7130a034c92231db78bf12307a582c5e30db25d4102dd3bd043f17809766d
+- **SHA256SUM:** af058e7ffdd6b366d971748713ccedca01527b895b54aa1833b3289d19d2d58f
+- **B3SUM:** bab2a5ba057a7ab97afb6a8e93f61d990ea2a3edc55f528bae129cddeef7890d
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ffuf
 - **Language:** Go
 - **License:** MIT License
@@ -4474,7 +4474,7 @@
 - **Author:** filebrowser
 - **WebURL:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
 - **Repository:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
-- **Stars:** 24860
+- **Stars:** 24859
 - **Version:** v2.30.0
 - **Updated:** 2024-07-09T20:30:08Z
 - **Size:** 16.29 MB
@@ -4508,7 +4508,7 @@
 - **Author:** Findomain
 - **WebURL:** [https://github.com/Findomain/Findomain](https://github.com/Findomain/Findomain)
 - **Repository:** [https://github.com/Findomain/Findomain](https://github.com/Findomain/Findomain)
-- **Stars:** 3203
+- **Stars:** 3205
 - **Version:** 9.0.4
 - **Updated:** 2024-02-17T09:45:20Z
 - **Size:** 17.18 MB
@@ -4527,7 +4527,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 280
 - **Version:** 0.6.0
-- **Updated:** 2024-07-11T12:08:12Z
+- **Updated:** 2024-07-11T20:27:25Z
 - **Size:** 3.85 MB
 - **SHA256SUM:** c3e82d8d1b9714c10c9445608cea75aafd798fe6c0efea552c31af70d9c12f9d
 - **B3SUM:** 0588cfa22ee4454f85592e7a12c0592e7d3f9f35edd4d42db60114184df3a466
@@ -4544,7 +4544,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 280
 - **Version:** 0.6.0
-- **Updated:** 2024-07-11T12:08:12Z
+- **Updated:** 2024-07-11T20:27:25Z
 - **Size:** 1.73 MB
 - **SHA256SUM:** cc77211d14394db98c44544c712b3ad600ac0399462266e47e145a43680eb465
 - **B3SUM:** 6f8d9fb0daebcd74cfd5e8ee30ecd083b4750fc698fc4a33dcf7d8a1e548fd28
@@ -4578,7 +4578,7 @@
 - **Repository:** [https://github.com/axboe/fio](https://github.com/axboe/fio)
 - **Stars:** 5020
 - **Version:** fio-3.37
-- **Updated:** 2024-07-11T14:10:03Z
+- **Updated:** 2024-07-12T00:04:50Z
 - **Size:** 1.75 MB
 - **SHA256SUM:** 5e2e070a4f79247063d27cf1d18732988095b65185611c66da7f334934608e22
 - **B3SUM:** 264b84d8fc92132be829cd5a7806908d436558ad0a4ab23bc50d0037b89e0cf7
@@ -4593,7 +4593,7 @@
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
 - **Repository:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
-- **Stars:** 330
+- **Stars:** 331
 - **Version:** v0.2.2
 - **Updated:** 2024-07-11T07:57:32Z
 - **Size:** 10.48 MB
@@ -4610,7 +4610,7 @@
 - **Author:** Schniz
 - **WebURL:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 - **Repository:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
-- **Stars:** 16545
+- **Stars:** 16548
 - **Version:** v1.37.1
 - **Updated:** 2024-07-11T03:09:14Z
 - **Size:** 6.8 MB
@@ -4627,7 +4627,7 @@
 - **Author:** wader
 - **WebURL:** [https://github.com/wader/fq](https://github.com/wader/fq)
 - **Repository:** [https://github.com/wader/fq](https://github.com/wader/fq)
-- **Stars:** 9583
+- **Stars:** 9584
 - **Version:** v0.11.0
 - **Updated:** 2024-07-05T21:30:29Z
 - **Size:** 12.41 MB
@@ -4644,7 +4644,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
 - **Repository:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
-- **Stars:** 2912
+- **Stars:** 2914
 - **Version:** v0.1.6
 - **Updated:** 2024-07-02T20:44:48Z
 - **Size:** 13.27 MB
@@ -4661,7 +4661,7 @@
 - **Author:** shadow1ng
 - **WebURL:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
 - **Repository:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
-- **Stars:** 9089
+- **Stars:** 9090
 - **Version:** 1.8.4
 - **Updated:** 2024-06-15T09:11:26Z
 - **Size:** 7.1 MB
@@ -4729,12 +4729,12 @@
 - **Author:** antonmedv
 - **WebURL:** [https://github.com/antonmedv/fx](https://github.com/antonmedv/fx)
 - **Repository:** [https://github.com/antonmedv/fx](https://github.com/antonmedv/fx)
-- **Stars:** 18780
+- **Stars:** 18781
 - **Version:** 35.0.0
 - **Updated:** 2024-06-27T10:05:12Z
 - **Size:** 11.56 MB
-- **SHA256SUM:** 935b7b68cbb0c8274b6bf0f63ef7ff6ef253b6d7dfa285c49e8fdcf47144bb04
-- **B3SUM:** 505790dbc9ab8070ea13cb71f507a5665bb486e5cc24f48e3e944a6784e9a13b
+- **SHA256SUM:** ca6003ac719227ef4f552a780fbca7f0268538966e9f9787d02346752980033c
+- **B3SUM:** 6662c07e0279622982ec702442f4e1edcba251db9535f8d8e0c549e0b0df311e
 - **Source:** https://bin.ajam.dev/x86_64_Linux/fx
 - **Language:** Go
 - **License:** MIT License
@@ -4746,7 +4746,7 @@
 - **Author:** junegunn
 - **WebURL:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - **Repository:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-- **Stars:** 62112
+- **Stars:** 62128
 - **Version:** v0.54.0
 - **Updated:** 2024-07-11T15:37:48Z
 - **Size:** 3.74 MB
@@ -4780,7 +4780,7 @@
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
-- **Stars:** 3458
+- **Stars:** 3461
 - **Version:** v5.29.0
 - **Updated:** 2024-07-04T23:51:23Z
 - **Size:** 14.25 MB
@@ -4886,8 +4886,8 @@
 - **Version:** 
 - **Updated:** 2024-06-08T11:35:23Z
 - **Size:** 2.05 MB
-- **SHA256SUM:** 972cb9e998e70ba3a5cab253cad4a30ca37644ba44a3f001eb8981f04f0adc11
-- **B3SUM:** 4d6d85b3b0393082c0544bf79a06754f2482c404d0adddd7611339d11875f226
+- **SHA256SUM:** a7bf1aefd1dbf1e298ed5daa59916ae855a4068b2c97d6bcaf3bac244035259c
+- **B3SUM:** 6919c7ba506853ab5a304394ee617fad2df014648ccd64546ac2507f43ad8298
 - **Source:** https://bin.ajam.dev/x86_64_Linux/gf
 - **Language:** Go
 - **License:** MIT License
@@ -4933,7 +4933,7 @@
 - **Author:** dlvhdr
 - **WebURL:** [https://github.com/dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)
 - **Repository:** [https://github.com/dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)
-- **Stars:** 6778
+- **Stars:** 6779
 - **Version:** v4.3.0
 - **Updated:** 2024-06-29T11:15:24Z
 - **Size:** 17.69 MB
@@ -4950,11 +4950,11 @@
 - **Author:** cli
 - **WebURL:** [https://github.com/cli/cli](https://github.com/cli/cli)
 - **Repository:** [https://github.com/cli/cli](https://github.com/cli/cli)
-- **Stars:** 36090
+- **Stars:** 36092
 - **Version:** v2.52.0
 - **Updated:** 2024-07-11T15:07:37Z
 - **Size:** 49.81 MB
-- **SHA256SUM:** 04f6cc2c81450f09cec89f3174d30d8ea1b6fbb19c783754b241b5426a213510
+- **SHA256SUM:** 19ad660b921d25ee619144f826291ad9dc72639893c40b601c53e67bda8c91d9
 - **B3SUM:** 9e217693ba13d9e79d27ea17933f65802d8afada37ed7d49628331b378a30b8d
 - **Source:** https://bin.ajam.dev/x86_64_Linux/gh
 - **Language:** Go
@@ -4969,7 +4969,7 @@
 - **Repository:** [https://github.com/orangekame3/ghfetch](https://github.com/orangekame3/ghfetch)
 - **Stars:** 43
 - **Version:** v0.0.19
-- **Updated:** 2024-07-11T12:03:03Z
+- **Updated:** 2024-07-12T00:05:01Z
 - **Size:** 9.52 MB
 - **SHA256SUM:** 04f6cc2c81450f09cec89f3174d30d8ea1b6fbb19c783754b241b5426a213510
 - **B3SUM:** aea5b900425d45c1269300ad5e0bb37384f051c3092173a0f6341ed201db8d28
@@ -5018,9 +5018,9 @@
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 - **Repository:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
-- **Stars:** 8301
+- **Stars:** 8302
 - **Version:** v2.4.0
-- **Updated:** 2024-07-09T22:23:08Z
+- **Updated:** 2024-07-11T22:11:52Z
 - **Size:** 13.08 MB
 - **SHA256SUM:** 07eb2c8b880170bd2e8056d4b863519b34fc967f91c26521e888326a50cf10cf
 - **B3SUM:** deeedad92a05e6e7c2facc288aaef883f2f2e27cc688b245d7dd1c848e30f66a
@@ -5035,7 +5035,7 @@
 - **Author:** git-lfs
 - **WebURL:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
 - **Repository:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
-- **Stars:** 12662
+- **Stars:** 12663
 - **Version:** v3.5.1
 - **Updated:** 2024-07-10T08:28:19Z
 - **Size:** 11.44 MB
@@ -5071,7 +5071,7 @@
 - **Repository:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
 - **Stars:** 20
 - **Version:** v0.14.4
-- **Updated:** 2024-07-11T01:50:40Z
+- **Updated:** 2024-07-11T23:54:14Z
 - **Size:** 33.61 MB
 - **SHA256SUM:** 2248bd55ae7e1faab7fc0ee0c928992577fc03fd1ffeafe95ac2516743e44853
 - **B3SUM:** 7f7567438a3a12ef477fd0f0435afa73fcbdaeac265e4a6cc6e09e326bc311e8
@@ -5088,7 +5088,7 @@
 - **Repository:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
 - **Stars:** 20
 - **Version:** v0.14.4
-- **Updated:** 2024-07-11T01:50:40Z
+- **Updated:** 2024-07-11T23:54:14Z
 - **Size:** 25.43 MB
 - **SHA256SUM:** 55a17627d7dded0900e67cbbaea320bbac7378109d74dbd081e4a3d6e93e5343
 - **B3SUM:** 9f0aa7d24188e65b79d709b6d4796b1a6b2e24d10b66e46790fc6c596c04f427
@@ -5105,7 +5105,7 @@
 - **Repository:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
 - **Stars:** 20
 - **Version:** v0.14.4
-- **Updated:** 2024-07-11T01:50:40Z
+- **Updated:** 2024-07-11T23:54:14Z
 - **Size:** 24.16 MB
 - **SHA256SUM:** 93fde87169dd3053c81550a314d2f63ada4150b72587fe2e4ac889d073aa5f90
 - **B3SUM:** 8ce5d71d38b84fc35fa4bd50c87c715a8f3d3c263e3b5689becc171b07766717
@@ -5137,9 +5137,9 @@
 - **Author:** go-gitea
 - **WebURL:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
 - **Repository:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
-- **Stars:** 43146
+- **Stars:** 43150
 - **Version:** v1.22.1
-- **Updated:** 2024-07-11T15:12:19Z
+- **Updated:** 2024-07-12T00:27:08Z
 - **Size:** 107.03 MB
 - **SHA256SUM:** ad5c504ca020a3b94d5d0af5f3c2f80de00b3623da80d4d1185ad5c221ec3dbe
 - **B3SUM:** 943dee217b94e6d936eee3610bcb39bdd08b621a8ee58c517964aa84fe9badbf
@@ -5222,7 +5222,7 @@
 - **Author:** gitleaks
 - **WebURL:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
 - **Repository:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-- **Stars:** 16683
+- **Stars:** 16686
 - **Version:** v8.18.4
 - **Updated:** 2024-07-04T15:58:40Z
 - **Size:** 6.96 MB
@@ -5239,9 +5239,9 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8441
+- **Stars:** 8442
 - **Version:** gix-mailmap-v0.23.4
-- **Updated:** 2024-07-11T11:15:46Z
+- **Updated:** 2024-07-11T18:32:22Z
 - **Size:** 14.68 MB
 - **SHA256SUM:** d7fdae8580dedb3f8ee8acbcb481138fa9ed1cd283f44902b1c4c2a0c6f3f833
 - **B3SUM:** cd768228b5194fe67cfa8f527e19bd268a1b9505051996c6f21d099b0070fcc0
@@ -5256,9 +5256,9 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8441
+- **Stars:** 8442
 - **Version:** gix-mailmap-v0.23.4
-- **Updated:** 2024-07-11T11:15:46Z
+- **Updated:** 2024-07-11T18:32:22Z
 - **Size:** 22.38 MB
 - **SHA256SUM:** 31d68e9a9c0a11ee7d66d3d8431ac8a847c6be4b3718cbc691bb09a947773042
 - **B3SUM:** 2d4d9fe8144a6579fecba8b7c5cdd588f7ac2d756fdf30e5db4412466b61d485
@@ -5273,9 +5273,9 @@
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12529
+- **Stars:** 12531
 - **Version:** 2022.11.3
-- **Updated:** 2024-07-11T15:47:08Z
+- **Updated:** 2024-07-12T00:24:05Z
 - **Size:** 19.06 MB
 - **SHA256SUM:** 413bda7139457446bf4dde0bad1c9e53e57465399ddeb0a8727e7243c5c63e16
 - **B3SUM:** 1826154086a12077b5d960be618be459a918a56cc8054edc764d47b4ae5953cb
@@ -5290,9 +5290,9 @@
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12529
+- **Stars:** 12531
 - **Version:** 2022.11.3
-- **Updated:** 2024-07-11T15:47:08Z
+- **Updated:** 2024-07-12T00:24:05Z
 - **Size:** 17.45 MB
 - **SHA256SUM:** dc3f2b6a544a7eacfcdb92d46bca85fee1d817d2333966a0070bf635a3c0824c
 - **B3SUM:** a847ab830f70566d4420dde5e81ea456692bcdede451c38a549245d2324437df
@@ -5307,12 +5307,12 @@
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12529
+- **Stars:** 12531
 - **Version:** 2022.11.3
-- **Updated:** 2024-07-11T15:47:08Z
+- **Updated:** 2024-07-12T00:24:05Z
 - **Size:** 17.45 MB
-- **SHA256SUM:** 1b4d69ba9d7ad5042b7300b43f34e879421ee93f1ed7e06812aefbb150fd5790
-- **B3SUM:** 1b4f25e6752530b945e3376566d813f5c710ff4c4fd9c800bad4f0550b0504cd
+- **SHA256SUM:** dc3f2b6a544a7eacfcdb92d46bca85fee1d817d2333966a0070bf635a3c0824c
+- **B3SUM:** a847ab830f70566d4420dde5e81ea456692bcdede451c38a549245d2324437df
 - **Source:** https://bin.ajam.dev/x86_64_Linux/gp
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -5341,7 +5341,7 @@
 - **Author:** extrawurst
 - **WebURL:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
 - **Repository:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
-- **Stars:** 17855
+- **Stars:** 17858
 - **Version:** v0.26.3
 - **Updated:** 2024-07-09T07:07:38Z
 - **Size:** 11.93 MB
@@ -5358,9 +5358,9 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
 - **Repository:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
-- **Stars:** 15294
+- **Stars:** 15298
 - **Version:** v1.5.1
-- **Updated:** 2024-07-11T15:21:11Z
+- **Updated:** 2024-07-11T21:07:51Z
 - **Size:** 18.21 MB
 - **SHA256SUM:** 363aec6d73b38c97bd9683f012f616685da1e6cee3ff55afc85240129eaad84b
 - **B3SUM:** decc284bef8f7f7d86bf710f4b2d84c66b150cc1cfa178b5ee7b6b1c1e28b7f2
@@ -5409,7 +5409,7 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5683
+- **Stars:** 5684
 - **Version:** v5.12.0
 - **Updated:** 2024-07-05T14:49:35Z
 - **Size:** 7.34 MB
@@ -5426,7 +5426,7 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5683
+- **Stars:** 5684
 - **Version:** v5.12.0
 - **Updated:** 2024-07-05T14:49:35Z
 - **Size:** 7.34 MB
@@ -5443,7 +5443,7 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5683
+- **Stars:** 5684
 - **Version:** v5.12.0
 - **Updated:** 2024-07-05T14:49:35Z
 - **Size:** 7.45 MB
@@ -5460,7 +5460,7 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5683
+- **Stars:** 5684
 - **Version:** v5.12.0
 - **Updated:** 2024-07-05T14:49:35Z
 - **Size:** 7.32 MB
@@ -5477,7 +5477,7 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5683
+- **Stars:** 5684
 - **Version:** v5.12.0
 - **Updated:** 2024-07-05T14:49:35Z
 - **Size:** 5.33 MB
@@ -5617,7 +5617,7 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-03-05T15:43:54Z
 - **Size:** 5.79 MB
-- **SHA256SUM:** 0be599b48f8e943c67f0044a246e85d6f6c8686d3a852f3d898260a88de2c4bb
+- **SHA256SUM:** e798b72d873a1b2d9160b51172215e3ec792164a8b2acafa6091720c4784b83e
 - **B3SUM:** 861cec7b76c7f9991c3844daba46d43a3f0e0ddf6d2b4684dbf8769eddeae899
 - **Source:** https://bin.ajam.dev/x86_64_Linux/makebb
 - **Language:** Go
@@ -5753,8 +5753,8 @@
 - **Version:** v3.1.6
 - **Updated:** 2024-05-10T14:25:04Z
 - **Size:** 15.22 MB
-- **SHA256SUM:** b8213c8093d5e7ab4f12a633ed6325f1232001f5176bacbb13d663e4dc601150
-- **B3SUM:** 860d18e0b3d3a2841d31163c652adace3d4720f5aa708937bc5528079054be9f
+- **SHA256SUM:** c0d4625d8e69ba8effccd6bbe58f5639a562d7f779ad02e7e8ca6d5c6bf4b7f5
+- **B3SUM:** c0648d3276a4bf855636122e4b9a1d2f5e33f773be590cc619eac377edd73aaf
 - **Source:** https://bin.ajam.dev/x86_64_Linux/godns
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -5885,9 +5885,9 @@
 - **Author:** securego
 - **WebURL:** [https://github.com/securego/gosec](https://github.com/securego/gosec)
 - **Repository:** [https://github.com/securego/gosec](https://github.com/securego/gosec)
-- **Stars:** 7598
+- **Stars:** 7599
 - **Version:** v2.20.0
-- **Updated:** 2024-07-08T14:00:53Z
+- **Updated:** 2024-07-11T22:18:31Z
 - **Size:** 8.17 MB
 - **SHA256SUM:** 38410fd1f49735eefce5fe7c293dcd8040026bf3166461a9e84349dcfec2f596
 - **B3SUM:** 8eefa69f9d00596bca1a400bec5604fade7b94fb59713b24dad6a0780d3ed52e
@@ -5936,7 +5936,7 @@
 - **Author:** tianon
 - **WebURL:** [https://github.com/tianon/gosu](https://github.com/tianon/gosu)
 - **Repository:** [https://github.com/tianon/gosu](https://github.com/tianon/gosu)
-- **Stars:** 4635
+- **Stars:** 4637
 - **Version:** 1.17
 - **Updated:** 2024-06-06T19:05:09Z
 - **Size:** 2.18 MB
@@ -6055,7 +6055,7 @@
 - **Author:** pemistahl
 - **WebURL:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
 - **Repository:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
-- **Stars:** 7027
+- **Stars:** 7028
 - **Version:** v1.4.5
 - **Updated:** 2024-07-09T18:10:43Z
 - **Size:** 2.71 MB
@@ -6072,12 +6072,12 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
 - **Repository:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
-- **Stars:** 13649
+- **Stars:** 13652
 - **Version:** v0.7.1
 - **Updated:** 2023-10-24T20:42:37Z
 - **Size:** 5.44 MB
 - **SHA256SUM:** 2c4be2447df0d9efe68a59c7b5e30311e5f0b2edfdcd84864c44be542b375e9b
-- **B3SUM:** 051a4953f018fd90e66979d3181ebf6c5222374fb2e250f4f45872516bc13cf5
+- **B3SUM:** 387beff051f20f9e6e671e48d83173b453e6c59829f59590e1dd97c6b74dc302
 - **Source:** https://bin.ajam.dev/x86_64_Linux/gron
 - **Language:** Go
 - **License:** MIT License
@@ -6106,7 +6106,7 @@
 - **Author:** fullstorydev
 - **WebURL:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
 - **Repository:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
-- **Stars:** 10381
+- **Stars:** 10383
 - **Version:** v1.9.1
 - **Updated:** 2024-07-11T03:30:13Z
 - **Size:** 25.15 MB
@@ -6157,9 +6157,9 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
 - **Repository:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
-- **Stars:** 17356
+- **Stars:** 17359
 - **Version:** v0.14.1
-- **Updated:** 2024-07-11T04:11:09Z
+- **Updated:** 2024-07-11T22:02:12Z
 - **Size:** 27.4 MB
 - **SHA256SUM:** 8a84ec96d122b25acea90e67e33c6a6ff2ff3663857e8e2ba2316c564f7cb44b
 - **B3SUM:** 9baaeaf336f06cfe4b57a6a0f256a46d46a5e19c99f80da4310a248ca9ea81a2
@@ -6178,7 +6178,7 @@
 - **Version:** v0.27.3
 - **Updated:** 2024-07-11T13:32:53Z
 - **Size:** 5.84 MB
-- **SHA256SUM:** 12dbc3327b9b3f2e94f3723a82b4867e69cd86e0211729aeb98687fd4725026c
+- **SHA256SUM:** b3431d3d284ab8d2a7f4c31dc5fdda222fd890ba2aabb8b67dc6dfa47acc946b
 - **B3SUM:** 2637974c32952a56b2d7086346de68e14ab0a68d925626d639f7758172a52c5f
 - **Source:** https://bin.ajam.dev/x86_64_Linux/gup
 - **Language:** Go
@@ -6259,7 +6259,7 @@
 - **Author:** hakluke
 - **WebURL:** [https://github.com/hakluke/hakrawler](https://github.com/hakluke/hakrawler)
 - **Repository:** [https://github.com/hakluke/hakrawler](https://github.com/hakluke/hakrawler)
-- **Stars:** 4319
+- **Stars:** 4321
 - **Version:** 2.1
 - **Updated:** 2024-01-23T10:58:14Z
 - **Size:** 11.21 MB
@@ -6531,12 +6531,12 @@
 - **Author:** andyk
 - **WebURL:** [https://github.com/andyk/ht](https://github.com/andyk/ht)
 - **Repository:** [https://github.com/andyk/ht](https://github.com/andyk/ht)
-- **Stars:** 752
+- **Stars:** 753
 - **Version:** v0.3.0
 - **Updated:** 2024-07-06T20:29:36Z
 - **Size:** 2.59 MB
-- **SHA256SUM:** 026349cf914b3aafef7c5aee4ce882d2f54b7527a9155d309ff11a2a0c83a68d
-- **B3SUM:** 02c2d2ddf9296ab9bd94c597f1cc36f53a40e570de1f02cf3919c8bffe1547c9
+- **SHA256SUM:** c3cf9c17c714855cef6f232b5e7e4d54e9b3c6709568f7c1b9b56393a81d932f
+- **B3SUM:** 821c9097b18b9d0a6cc57376de1328dcb02b99a524373f7bb9af358d825e2ca0
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ht
 - **Language:** CSS
 - **License:** Apache License 2.0
@@ -6587,7 +6587,7 @@
 - **Updated:** 2024-06-09T18:12:44Z
 - **Size:** 889.5 kB
 - **SHA256SUM:** 6ca26bf9d30be1bdfb886a8f13ba187873d1dca6590afa923203445444be4d1c
-- **B3SUM:** 2b87499514fc15f813565547002ab0487f5d85b08605a3fc2307ac1f3b8f1869
+- **B3SUM:** 79c069e61e9212b71fd0ebdee5bd1fd70539836fe9ab19de2165f694e1621656
 - **Source:** https://bin.ajam.dev/x86_64_Linux/hx
 - **Language:** Rust
 - **License:** MIT License
@@ -6599,7 +6599,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
 - **Repository:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
-- **Stars:** 8935
+- **Stars:** 8936
 - **Version:** v0.14.0
 - **Updated:** 2024-07-02T09:24:46Z
 - **Size:** 968.86 kB
@@ -6633,7 +6633,7 @@
 - **Author:** guumaster
 - **WebURL:** [https://github.com/guumaster/hostctl](https://github.com/guumaster/hostctl)
 - **Repository:** [https://github.com/guumaster/hostctl](https://github.com/guumaster/hostctl)
-- **Stars:** 1042
+- **Stars:** 1043
 - **Version:** v1.1.4
 - **Updated:** 2024-01-26T21:11:34Z
 - **Size:** 8.72 MB
@@ -6718,9 +6718,9 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
 - **Repository:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
-- **Stars:** 7168
+- **Stars:** 7170
 - **Version:** v1.6.6
-- **Updated:** 2024-07-11T15:47:29Z
+- **Updated:** 2024-07-11T17:42:12Z
 - **Size:** 40.26 MB
 - **SHA256SUM:** b5b3fc42968a2dd96ffdd5c6c2b0b106f10d2ff402a15b9c80218bfef7679439
 - **B3SUM:** a7ba8c578bcac798d6ff30170eb369d495e6c5ce6ff6e9fe36c7c71b54b23e9f
@@ -6739,7 +6739,7 @@
 - **Version:** v2.14.2
 - **Updated:** 2024-02-02T21:00:44Z
 - **Size:** 6.6 MB
-- **SHA256SUM:** 2193e0e28be8aa4784cd97ff18fd8550618a5778c1a942fe504dd9c1339f6642
+- **SHA256SUM:** 5752b8229ba125c67a5f062fe6297f20ff58675b4c16fc1fabf4079b47088e42
 - **B3SUM:** 221814c760223a3c27eb337da1b1dcb142b4e2bdc5e77b49846c4549f356f263
 - **Source:** https://bin.ajam.dev/x86_64_Linux/hub
 - **Language:** Go
@@ -6752,7 +6752,7 @@
 - **Author:** gohugoio
 - **WebURL:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
 - **Repository:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
-- **Stars:** 73694
+- **Stars:** 73700
 - **Version:** v0.128.2
 - **Updated:** 2024-07-10T16:13:10Z
 - **Size:** 88.82 MB
@@ -6769,7 +6769,7 @@
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 12301
+- **Stars:** 12304
 - **Version:** 4.3.0
 - **Updated:** 2024-07-11T15:57:41Z
 - **Size:** 11.87 MB
@@ -6786,7 +6786,7 @@
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 12301
+- **Stars:** 12304
 - **Version:** 4.3.0
 - **Updated:** 2024-07-11T15:57:41Z
 - **Size:** 4.45 MB
@@ -6854,7 +6854,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 20796
+- **Stars:** 20799
 - **Version:** v1.18.0
 - **Updated:** 2024-07-11T01:59:18Z
 - **Size:** 1.44 MB
@@ -6973,7 +6973,7 @@
 - **Author:** esnet
 - **WebURL:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
 - **Repository:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
-- **Stars:** 6541
+- **Stars:** 6542
 - **Version:** 3.17.1
 - **Updated:** 2024-07-10T18:24:40Z
 - **Size:** 3.83 MB
@@ -7096,8 +7096,8 @@
 - **Version:** 20240117
 - **Updated:** 2024-07-07T22:26:09Z
 - **Size:** 187.63 kB
-- **SHA256SUM:** 1b4d69ba9d7ad5042b7300b43f34e879421ee93f1ed7e06812aefbb150fd5790
-- **B3SUM:** 1285e784577c79cf5983614dd08b3c11ed80630f6ea45179fe887c45bacf7622
+- **SHA256SUM:** 711d39fd7a396dd540f31f646928adbfd1069f499edc1e27a52e021ed0eff180
+- **B3SUM:** 41d482151037402bba1a04b75b4f8ec816e34b7268b372e2434c036a556ce09f
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ping
 - **Language:** C
 - **License:** Other
@@ -7145,7 +7145,7 @@
 - **Repository:** [https://github.com/istio/istio](https://github.com/istio/istio)
 - **Stars:** 35398
 - **Version:** 1.22.2
-- **Updated:** 2024-07-11T16:35:39Z
+- **Updated:** 2024-07-11T22:51:34Z
 - **Size:** 91.82 MB
 - **SHA256SUM:** e8b77eb4d8dbb6595841e60cba2076a5d6da31da8c17a5aade466787e67595e3
 - **B3SUM:** 5dfd11ccf4bc179ae02140c85b8b02656384584d72a8ae0238231727f53bce29
@@ -7177,7 +7177,7 @@
 - **Author:** 01mf02
 - **WebURL:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
 - **Repository:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
-- **Stars:** 2601
+- **Stars:** 2602
 - **Version:** v1.5.1
 - **Updated:** 2024-07-07T12:15:01Z
 - **Size:** 1.78 MB
@@ -7194,7 +7194,7 @@
 - **Author:** kellyjonbrazil
 - **WebURL:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
 - **Repository:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
-- **Stars:** 7692
+- **Stars:** 7693
 - **Version:** v1.25.3
 - **Updated:** 2024-06-26T10:45:33Z
 - **Size:** 14.11 MB
@@ -7230,7 +7230,7 @@
 - **Repository:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
 - **Stars:** 3746
 - **Version:** v1.5.1
-- **Updated:** 2024-05-29T12:14:43Z
+- **Updated:** 2024-07-11T19:42:15Z
 - **Size:** 21.92 MB
 - **SHA256SUM:** b3534f4f2df4875585cce172b78857f3d3c0d1cea0fc91644e46f5439965ad3f
 - **B3SUM:** 8a74fa8dcb162378ea346b14d6ada1612aece7a1d5034984427caa68beace030
@@ -7245,9 +7245,9 @@
 - **Author:** martinvonz
 - **WebURL:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 - **Repository:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
-- **Stars:** 7461
+- **Stars:** 7466
 - **Version:** v0.19.0
-- **Updated:** 2024-07-11T16:00:41Z
+- **Updated:** 2024-07-11T23:10:18Z
 - **Size:** 21.84 MB
 - **SHA256SUM:** da31feac6f47db7bc0dfb0e785df2458eacf3c18244bebf59bac81ce27107ba0
 - **B3SUM:** 582ee5a0d98eac1743eba7ede53e2b65a40da400a4d77ab2929a54a11be2bc31
@@ -7279,7 +7279,7 @@
 - **Author:** ynqa
 - **WebURL:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 - **Repository:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
-- **Stars:** 4591
+- **Stars:** 4592
 - **Version:** v0.3.0
 - **Updated:** 2024-06-19T13:36:10Z
 - **Size:** 4.87 MB
@@ -7330,12 +7330,12 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29620
+- **Stars:** 29621
 - **Version:** jq-1.7.1
-- **Updated:** 2024-07-11T07:18:51Z
+- **Updated:** 2024-07-11T21:17:06Z
 - **Size:** 2.32 MB
-- **SHA256SUM:** 4b7b374d11cfae2c9fec0b6b3be7096a85df191dbdd81bcc66600723224f2945
-- **B3SUM:** 4734468eb3e1d9e0221d66ff4fea4aa79ca56b8001ebbd0c9627f17b4781fbc3
+- **SHA256SUM:** 5942c9b0934e510ee61eb3e30273f1b3fe2590df93933a93d7c58b81d19c8ff5
+- **B3SUM:** f4f456f3a1a9a0dbcd9b0c2a77e29d14bc1f8bb036db4f6ff06d8c76a99e5ef2
 - **Source:** https://bin.ajam.dev/x86_64_Linux/jq
 - **Language:** C
 - **License:** Other
@@ -7364,7 +7364,7 @@
 - **Author:** noahgorstein
 - **WebURL:** [https://github.com/noahgorstein/jqp](https://github.com/noahgorstein/jqp)
 - **Repository:** [https://github.com/noahgorstein/jqp](https://github.com/noahgorstein/jqp)
-- **Stars:** 2114
+- **Stars:** 2115
 - **Version:** v0.7.0
 - **Updated:** 2024-07-11T11:58:15Z
 - **Size:** 12.39 MB
@@ -7415,7 +7415,7 @@
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/just](https://github.com/casey/just)
 - **Repository:** [https://github.com/casey/just](https://github.com/casey/just)
-- **Stars:** 18589
+- **Stars:** 18596
 - **Version:** 1.30.1
 - **Updated:** 2024-07-08T22:38:50Z
 - **Size:** 4.05 MB
@@ -7466,7 +7466,7 @@
 - **Author:** derailed
 - **WebURL:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
 - **Repository:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
-- **Stars:** 25718
+- **Stars:** 25719
 - **Version:** v0.32.5
 - **Updated:** 2024-07-11T14:12:14Z
 - **Size:** 95.27 MB
@@ -7500,7 +7500,7 @@
 - **Author:** mawww
 - **WebURL:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
 - **Repository:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
-- **Stars:** 9699
+- **Stars:** 9700
 - **Version:** v2024.05.18
 - **Updated:** 2024-07-09T07:40:35Z
 - **Size:** 3.71 MB
@@ -7568,7 +7568,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
-- **Stars:** 10344
+- **Stars:** 10345
 - **Version:** v1.1.0
 - **Updated:** 2024-07-08T14:22:06Z
 - **Size:** 41.71 MB
@@ -7602,7 +7602,7 @@
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/kmon](https://github.com/orhun/kmon)
 - **Repository:** [https://github.com/orhun/kmon](https://github.com/orhun/kmon)
-- **Stars:** 2463
+- **Stars:** 2464
 - **Version:** v1.6.5
 - **Updated:** 2024-07-09T15:22:29Z
 - **Size:** 1.49 MB
@@ -7638,7 +7638,7 @@
 - **Repository:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
 - **Stars:** 6739
 - **Version:** v0.17.0
-- **Updated:** 2024-07-11T16:08:10Z
+- **Updated:** 2024-07-12T00:18:44Z
 - **Size:** 38.16 MB
 - **SHA256SUM:** 6454d999baffe7990feb775d7ccba01b233454d012e528960679109c41a3d342
 - **B3SUM:** 3dc43d0f2bde31215bb4763fbe3b079c6618b6517b97b451c4163faba53cdbae
@@ -7670,7 +7670,7 @@
 - **Author:** everywall
 - **WebURL:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
 - **Repository:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
-- **Stars:** 4295
+- **Stars:** 4296
 - **Version:** v0.0.21
 - **Updated:** 2023-12-16T20:14:02Z
 - **Size:** 8.43 MB
@@ -7687,7 +7687,7 @@
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
 - **Repository:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
-- **Stars:** 35304
+- **Stars:** 35310
 - **Version:** v0.23.3
 - **Updated:** 2024-06-26T16:21:24Z
 - **Size:** 11.64 MB
@@ -7704,7 +7704,7 @@
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 - **Repository:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
-- **Stars:** 48216
+- **Stars:** 48238
 - **Version:** v0.42.0
 - **Updated:** 2024-07-10T21:16:47Z
 - **Size:** 17.63 MB
@@ -7738,12 +7738,12 @@
 - **Author:** gokcehan
 - **WebURL:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
 - **Repository:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
-- **Stars:** 7449
+- **Stars:** 7451
 - **Version:** r32
 - **Updated:** 2024-07-08T00:13:42Z
 - **Size:** 3.55 MB
-- **SHA256SUM:** 061a40aa0ee74ec04f7cbd9411b7b2d1cfd4f4700524b162e0dee9d08cbacb68
-- **B3SUM:** 02f310bf62c8ab70e281f2f3372e1a7d2b2277973408a8cec7127c05961baedc
+- **SHA256SUM:** 943f0c5c6310504559bc0819ab0e34a858c1d3313ea841ec0c630d7164bf836c
+- **B3SUM:** c898ed947bf294ce30bd4522a3350f2a3ec5de48c2c39754715c08e53acaba1f
 - **Source:** https://bin.ajam.dev/x86_64_Linux/lf
 - **Language:** Go
 - **License:** MIT License
@@ -7981,7 +7981,7 @@
 - **Updated:** 2024-05-14T07:30:55Z
 - **Size:** 1.43 MB
 - **SHA256SUM:** 17cf71fb5ca39c320d3f9d23771694d02200aa31d56c84be0566853515e50734
-- **B3SUM:** 0befb5f3bc1cd0b476f1de295056dcc8591a9ff36372e48feaeb349310727b21
+- **B3SUM:** 8bbf7abe8cef25b2496d43f876347e237ff0f5bfb823d59f61f93e7fce336fa0
 - **Source:** https://bin.ajam.dev/x86_64_Linux/eae
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -8015,7 +8015,7 @@
 - **Updated:** 2024-05-14T07:30:55Z
 - **Size:** 1.41 MB
 - **SHA256SUM:** 02c554fba4e4799a454b12a790fae1b98cd12f5d8ddc865a4d6bc6948b7b5175
-- **B3SUM:** 510dc9951423a3314442fb467d818c49486973ae8621e809035df81e7960f039
+- **B3SUM:** b102a6d5d786c1ea53aaf1f38465c3b0f670bc39b955f9303a9875c2d7f4fa8a
 - **Source:** https://bin.ajam.dev/x86_64_Linux/eap
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -8282,7 +8282,7 @@
 - **Author:** superfly
 - **WebURL:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
 - **Repository:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
-- **Stars:** 3787
+- **Stars:** 3789
 - **Version:** v0.5.11
 - **Updated:** 2024-01-24T19:41:33Z
 - **Size:** 12.66 MB
@@ -8299,7 +8299,7 @@
 - **Author:** tstack
 - **WebURL:** [https://github.com/tstack/lnav](https://github.com/tstack/lnav)
 - **Repository:** [https://github.com/tstack/lnav](https://github.com/tstack/lnav)
-- **Stars:** 7163
+- **Stars:** 7164
 - **Version:** v0.12.2
 - **Updated:** 2024-07-10T14:23:26Z
 - **Size:** 29.3 MB
@@ -8401,9 +8401,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 22806
+- **Stars:** 22807
 - **Version:** v3.1.0
-- **Updated:** 2024-07-11T16:34:31Z
+- **Updated:** 2024-07-12T00:28:38Z
 - **Size:** 64 MB
 - **SHA256SUM:** b5587a82c42439a2fa379fc454e6dd390dcf05f1a6f495820bc8d0f24880e746
 - **B3SUM:** 41523ab989f848817afb5cd811662de5a33e915ab9786b4450432dc7bbb1dbbf
@@ -8418,9 +8418,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 22806
+- **Stars:** 22807
 - **Version:** v3.1.0
-- **Updated:** 2024-07-11T16:34:31Z
+- **Updated:** 2024-07-12T00:28:38Z
 - **Size:** 72.38 MB
 - **SHA256SUM:** 190bcc55837bc8a5cff28300fefe4a6c7158813120857c3f91e22523becc36c8
 - **B3SUM:** 323578a94d97cdcf49bb469ddea211d24cb09a6762c231685af097b7b2074e49
@@ -8435,9 +8435,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 22806
+- **Stars:** 22807
 - **Version:** v3.1.0
-- **Updated:** 2024-07-11T16:34:31Z
+- **Updated:** 2024-07-12T00:28:38Z
 - **Size:** 33.32 MB
 - **SHA256SUM:** 190bcc55837bc8a5cff28300fefe4a6c7158813120857c3f91e22523becc36c8
 - **B3SUM:** 323578a94d97cdcf49bb469ddea211d24cb09a6762c231685af097b7b2074e49
@@ -8452,9 +8452,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 22806
+- **Stars:** 22807
 - **Version:** v3.1.0
-- **Updated:** 2024-07-11T16:34:31Z
+- **Updated:** 2024-07-12T00:28:38Z
 - **Size:** 99.02 MB
 - **SHA256SUM:** e8e35c7d0a0f785fb200f52fdb6c413af0f7d967ce90a33b5b8a8889ea9be7f3
 - **B3SUM:** fe10f6e615061ac5c9455001ef52c48f23b00d28988a4e98ebfe057fa2706efe
@@ -8486,7 +8486,7 @@
 - **Author:** lsd-rs
 - **WebURL:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
 - **Repository:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
-- **Stars:** 12818
+- **Stars:** 12819
 - **Version:** v1.1.2
 - **Updated:** 2024-07-05T09:55:38Z
 - **Size:** 3.9 MB
@@ -8520,12 +8520,12 @@
 - **Author:** iawia002
 - **WebURL:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
 - **Repository:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
-- **Stars:** 26024
+- **Stars:** 26025
 - **Version:** v0.24.1
 - **Updated:** 2024-07-08T01:27:13Z
 - **Size:** 22.39 MB
-- **SHA256SUM:** 1c9680ff156ef7be332ad0c32b51e060f6a67d1b2d88c1f63945cf00c91ad552
-- **B3SUM:** 678ffea5ee47d88dfc90899a0f8f9b7d3cf5cafe1c6870d69233ffd296a90b2d
+- **SHA256SUM:** a853a169174183b136d96cc1f25d1e1ed655acac8d6d443ff177ec80335b6bd4
+- **B3SUM:** 71faf7b487b486c790f6ea5924bc7790d824f78497c6948fae070c348f9e9410
 - **Source:** https://bin.ajam.dev/x86_64_Linux/lux
 - **Language:** Go
 - **License:** MIT License
@@ -8588,7 +8588,7 @@
 - **Author:** axllent
 - **WebURL:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
 - **Repository:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
-- **Stars:** 4925
+- **Stars:** 4928
 - **Version:** v1.19.0
 - **Updated:** 2024-07-02T07:17:41Z
 - **Size:** 19.9 MB
@@ -8673,7 +8673,7 @@
 - **Author:** 42wim
 - **WebURL:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
 - **Repository:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
-- **Stars:** 6441
+- **Stars:** 6442
 - **Version:** v1.26.0
 - **Updated:** 2024-07-10T18:28:01Z
 - **Size:** 50.49 MB
@@ -8692,10 +8692,10 @@
 - **Repository:** [https://github.com/minio/mc](https://github.com/minio/mc)
 - **Stars:** 2779
 - **Version:** RELEASE.2024-07-08T20-59-24Z
-- **Updated:** 2024-07-11T14:07:32Z
+- **Updated:** 2024-07-11T18:01:28Z
 - **Size:** 26.97 MB
 - **SHA256SUM:** 06d7686d83741cded8f555dfb88553427f53ef37906a140dd8dfc4da0605e090
-- **B3SUM:** 59b9f289b5a45537b0ee6acf225ec6916beb4ea79c9fc0d87c8cadb11993b469
+- **B3SUM:** 6f14504cb2e1bec69c9b41412e578ba8071151fb2ff93b36044e76aa335b1639
 - **Source:** https://bin.ajam.dev/x86_64_Linux/mc
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -8709,7 +8709,7 @@
 - **Repository:** [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
 - **Stars:** 6776
 - **Version:** v0.9.1
-- **Updated:** 2024-07-11T02:58:12Z
+- **Updated:** 2024-07-11T18:48:37Z
 - **Size:** 5.39 MB
 - **SHA256SUM:** b30bed9d13969e8d710b0661ab59fa98f3fa4b85ecd69090471a1c0b24b37bd4
 - **B3SUM:** c866cda7c1b3f74f3eea971352dab61a3a8b78e49dd954a41ae014c4375bed6c
@@ -8777,7 +8777,7 @@
 - **Repository:** [https://github.com/chainguard-dev/melange](https://github.com/chainguard-dev/melange)
 - **Stars:** 382
 - **Version:** v0.10.4
-- **Updated:** 2024-07-10T16:57:33Z
+- **Updated:** 2024-07-11T21:59:26Z
 - **Size:** 30.5 MB
 - **SHA256SUM:** 4bb0a2fee83f037fe1ed1917c9f8b9dab7d47536b5d19c3bec639f59b75e526b
 - **B3SUM:** 2efe8d19edb390c61de81e5ac428f6727855aea1758dc1bf2cab65fa2ec20414
@@ -8809,7 +8809,7 @@
 - **Author:** trapexit
 - **WebURL:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
 - **Repository:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
-- **Stars:** 4052
+- **Stars:** 4053
 - **Version:** 2.40.2
 - **Updated:** 2024-06-28T09:22:01Z
 - **Size:** 1.93 MB
@@ -8843,9 +8843,9 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24427
+- **Stars:** 24430
 - **Version:** v2.0.13
-- **Updated:** 2024-07-11T00:19:39Z
+- **Updated:** 2024-07-12T00:19:10Z
 - **Size:** 11.81 MB
 - **SHA256SUM:** 697fb918c800071c4d1a853d515331a9a3f245bb8a7da1c6d3653737d17ce3c4
 - **B3SUM:** 068615d10fc28908049f1678120bad9638fc8aec30fbf7634b7895a9a6c5efc1
@@ -8877,7 +8877,7 @@
 - **Author:** miniflux
 - **WebURL:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
 - **Repository:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
-- **Stars:** 6482
+- **Stars:** 6484
 - **Version:** 2.1.4
 - **Updated:** 2024-07-11T02:30:04Z
 - **Size:** 20.18 MB
@@ -8894,7 +8894,7 @@
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - **Repository:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
-- **Stars:** 5780
+- **Stars:** 5779
 - **Version:** v0.27.1
 - **Updated:** 2024-07-07T03:24:09Z
 - **Size:** 2.11 MB
@@ -8945,9 +8945,9 @@
 - **Author:** jdx
 - **WebURL:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
 - **Repository:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
-- **Stars:** 8183
+- **Stars:** 8186
 - **Version:** v2024.7.1
-- **Updated:** 2024-07-11T00:19:21Z
+- **Updated:** 2024-07-12T00:18:52Z
 - **Size:** 21.93 MB
 - **SHA256SUM:** 1d87d325519c268246e17a8bd39727e52d6c580861f06ef33ecffa3b6fcbb33f
 - **B3SUM:** 9a523d3f886993f96ed2183891eb6368c9386f860066c4de9aec53bd6a3dcb7c
@@ -8979,7 +8979,7 @@
 - **Author:** trickest
 - **WebURL:** [https://github.com/trickest/mksub](https://github.com/trickest/mksub)
 - **Repository:** [https://github.com/trickest/mksub](https://github.com/trickest/mksub)
-- **Stars:** 246
+- **Stars:** 247
 - **Version:** v1.1.1
 - **Updated:** 2023-09-25T15:19:50Z
 - **Size:** 1.53 MB
@@ -9047,7 +9047,7 @@
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
-- **Stars:** 10509
+- **Stars:** 10511
 - **Version:** v2.8.1
 - **Updated:** 2024-06-27T13:20:53Z
 - **Size:** 10.01 MB
@@ -9064,7 +9064,7 @@
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12440
+- **Stars:** 12441
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-02T01:32:19Z
 - **Size:** 3.36 MB
@@ -9081,7 +9081,7 @@
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12440
+- **Stars:** 12441
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-02T01:32:19Z
 - **Size:** 3.35 MB
@@ -9253,7 +9253,7 @@
 - **Repository:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
 - **Stars:** 7655
 - **Version:** v1.7.6
-- **Updated:** 2024-07-11T02:51:22Z
+- **Updated:** 2024-07-11T23:41:13Z
 - **Size:** 25.11 MB
 - **SHA256SUM:** c18cb7c848b53ae5c90939a24b1c0385b376e459ea264d95798d634950f0eea4
 - **B3SUM:** f227f2e7bda0138de914af8431eef2a95e5594ee6604f382c5ee8f5a658b3d94
@@ -9268,9 +9268,9 @@
 - **Author:** netbirdio
 - **WebURL:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 - **Repository:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
-- **Stars:** 9882
+- **Stars:** 9885
 - **Version:** v0.28.4
-- **Updated:** 2024-07-11T16:38:11Z
+- **Updated:** 2024-07-11T23:27:23Z
 - **Size:** 26.85 MB
 - **SHA256SUM:** c9971ff30f51998a6c28af8357d4e988d7d005963d6b70348388f5fa0ef0b97c
 - **B3SUM:** 196e00450166ba8e649a5c76d0ac79307771662578f3169599254e6137dbea90
@@ -9336,7 +9336,7 @@
 - **Author:** Chleba
 - **WebURL:** [https://github.com/Chleba/netscanner](https://github.com/Chleba/netscanner)
 - **Repository:** [https://github.com/Chleba/netscanner](https://github.com/Chleba/netscanner)
-- **Stars:** 747
+- **Stars:** 748
 - **Version:** v0.5.2
 - **Updated:** 2024-07-03T19:21:06Z
 - **Size:** 11.66 MB
@@ -9540,7 +9540,7 @@
 - **Author:** nix-community
 - **WebURL:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
 - **Repository:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
-- **Stars:** 780
+- **Stars:** 782
 - **Version:** v0.1.8
 - **Updated:** 2024-05-27T15:42:30Z
 - **Size:** 10.36 MB
@@ -9557,7 +9557,7 @@
 - **Author:** nix-community
 - **WebURL:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
 - **Repository:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
-- **Stars:** 780
+- **Stars:** 782
 - **Version:** v0.1.8
 - **Updated:** 2024-05-27T15:42:30Z
 - **Size:** 9.48 MB
@@ -9574,7 +9574,7 @@
 - **Author:** nix-community
 - **WebURL:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
 - **Repository:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
-- **Stars:** 780
+- **Stars:** 782
 - **Version:** v0.1.8
 - **Updated:** 2024-05-27T15:42:30Z
 - **Size:** 3.57 MB
@@ -9608,12 +9608,12 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 9609
+- **Stars:** 9610
 - **Version:** 
 - **Updated:** 2024-07-08T01:45:04Z
 - **Size:** 4.96 MB
-- **SHA256SUM:** 5638ee3e643dabe3800fa8e9f537cad88592f5313eb0aaaf42b51fbddfaea15e
-- **B3SUM:** ec2c97299d0763d90dab7ee7b28a35e316ccf4196158948617789b2e9c70f326
+- **SHA256SUM:** da0109721feceb85944491c9862cfb045f19c1ee9a45d99f0426fd9474f6781d
+- **B3SUM:** f4b4cc2a9a18c5a2d73a85d6868e7497265271e4f5d18ddaa1394199100f84fb
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ncat
 - **Language:** C
 - **License:** Other
@@ -9625,11 +9625,11 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 9609
+- **Stars:** 9610
 - **Version:** 
 - **Updated:** 2024-07-08T01:45:04Z
 - **Size:** 9.01 MB
-- **SHA256SUM:** 96bb487092e4fe2c37d203a77910166cef0ba2720c306c8571422698a054afe5
+- **SHA256SUM:** b2ded7362c64e249be90eed10eb62cd29ff9a17da256a720f1edeae823bdfeba
 - **B3SUM:** 469f160697c156a42c6b20cc9bda73135f64150e59d0852db1560088cd0904ce
 - **Source:** https://bin.ajam.dev/x86_64_Linux/nmap
 - **Language:** C
@@ -9642,7 +9642,7 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 9609
+- **Stars:** 9610
 - **Version:** 
 - **Updated:** 2024-07-08T01:45:04Z
 - **Size:** 5.13 MB
@@ -9676,7 +9676,7 @@
 - **Author:** jarun
 - **WebURL:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
 - **Repository:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
-- **Stars:** 18527
+- **Stars:** 18529
 - **Version:** v4.9
 - **Updated:** 2024-06-28T01:20:03Z
 - **Size:** 403.6 kB
@@ -9695,7 +9695,7 @@
 - **Repository:** [https://github.com/hahwul/noir](https://github.com/hahwul/noir)
 - **Stars:** 529
 - **Version:** v0.16.1
-- **Updated:** 2024-07-11T16:20:17Z
+- **Updated:** 2024-07-11T16:54:28Z
 - **Size:** 10.34 MB
 - **SHA256SUM:** f697e55db9b0152d686eda5b4bccf4646b3b1d753537085fa0640cc194d6b2bc
 - **B3SUM:** 817bbbd1534b0369aea278a574c24b36060ac80fb8e9c6d7c10007c97ba90deb
@@ -9710,7 +9710,7 @@
 - **Author:** devploit
 - **WebURL:** [https://github.com/devploit/nomore403](https://github.com/devploit/nomore403)
 - **Repository:** [https://github.com/devploit/nomore403](https://github.com/devploit/nomore403)
-- **Stars:** 1045
+- **Stars:** 1046
 - **Version:** 1.0.1
 - **Updated:** 2024-05-22T16:29:52Z
 - **Size:** 8.32 MB
@@ -9778,7 +9778,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 - **Repository:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
-- **Stars:** 18331
+- **Stars:** 18335
 - **Version:** v3.2.9
 - **Updated:** 2024-07-11T04:40:45Z
 - **Size:** 77.7 MB
@@ -9897,12 +9897,12 @@
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 30975
+- **Stars:** 30978
 - **Version:** 0.95.0
-- **Updated:** 2024-07-11T14:08:43Z
+- **Updated:** 2024-07-11T20:13:16Z
 - **Size:** 35.59 MB
 - **SHA256SUM:** 160c14304f6a889cffbc9ba25984f8d492c967b6688aeb99ad43065944ba30d0
-- **B3SUM:** 033188b5389219430517a9f26fa6ee852bd09af71d80d78cd7739957aad18746
+- **B3SUM:** 2c1773752284a1b70e374a12c5a946a172ab3024c89ec66edc893388e0ecab2a
 - **Source:** https://bin.ajam.dev/x86_64_Linux/nu
 - **Language:** Rust
 - **License:** MIT License
@@ -9914,9 +9914,9 @@
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 30975
+- **Stars:** 30978
 - **Version:** 0.95.0
-- **Updated:** 2024-07-11T14:08:43Z
+- **Updated:** 2024-07-11T20:13:16Z
 - **Size:** 35.59 MB
 - **SHA256SUM:** 160c14304f6a889cffbc9ba25984f8d492c967b6688aeb99ad43065944ba30d0
 - **B3SUM:** 2c1773752284a1b70e374a12c5a946a172ab3024c89ec66edc893388e0ecab2a
@@ -9933,7 +9933,7 @@
 - **Repository:** [https://github.com/build-trust/ockam](https://github.com/build-trust/ockam)
 - **Stars:** 4394
 - **Version:** ockam_v0.129.0
-- **Updated:** 2024-07-11T15:59:28Z
+- **Updated:** 2024-07-11T20:43:05Z
 - **Size:** 69.78 MB
 - **SHA256SUM:** edb715ec43a549f019438672d21a5222c3f6b18330b30d219ebbf4ef959a9e79
 - **B3SUM:** 5d6cd98b034e65a484561345d601b28f67c24fbf46ae82641b3cb3775bbcf49f
@@ -9970,7 +9970,7 @@
 - **Updated:** 2024-07-08T14:30:42Z
 - **Size:** 449.89 kB
 - **SHA256SUM:** 840b0e03e44a2da837ac1eac13e71d64d0fbcc0c7bd5b86b3162f243502a448a
-- **B3SUM:** c6ca17591e4a1d9813aecad23462866e14c5e8a46c15cfeb3d3018deb19bfdf1
+- **B3SUM:** c7b8c60735b0e3222e78ac6315561bd6f5b8fecd2a3f90cb19466d8d5cdbecd4
 - **Source:** https://bin.ajam.dev/x86_64_Linux/oksh
 - **Language:** C
 - **License:** 
@@ -10033,7 +10033,7 @@
 - **Author:** zaghaghi
 - **WebURL:** [https://github.com/zaghaghi/openapi-tui](https://github.com/zaghaghi/openapi-tui)
 - **Repository:** [https://github.com/zaghaghi/openapi-tui](https://github.com/zaghaghi/openapi-tui)
-- **Stars:** 585
+- **Stars:** 587
 - **Version:** 0.9.3
 - **Updated:** 2024-05-12T10:49:46Z
 - **Size:** 14.11 MB
@@ -10050,7 +10050,7 @@
 - **Author:** apernet
 - **WebURL:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
 - **Repository:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
-- **Stars:** 9239
+- **Stars:** 9240
 - **Version:** v0.4.0
 - **Updated:** 2024-06-12T23:17:04Z
 - **Size:** 13.61 MB
@@ -10103,7 +10103,7 @@
 - **Repository:** [https://github.com/xyproto/orbiton](https://github.com/xyproto/orbiton)
 - **Stars:** 444
 - **Version:** v2.65.12
-- **Updated:** 2024-07-10T09:24:51Z
+- **Updated:** 2024-07-11T18:42:24Z
 - **Size:** 10.42 MB
 - **SHA256SUM:** 4a29d2300f7a3c3ca46402d3bba2494cd1a0db6681969a42dbabdb84ddc03d52
 - **B3SUM:** e3ac192acab7effc37e32b75fe102a556b4b21b26006622f93fa44a231d71748
@@ -10135,7 +10135,7 @@
 - **Author:** ouch-org
 - **WebURL:** [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
 - **Repository:** [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
-- **Stars:** 2074
+- **Stars:** 2076
 - **Version:** 0.5.1
 - **Updated:** 2024-07-09T23:43:12Z
 - **Size:** 4.63 MB
@@ -10156,8 +10156,8 @@
 - **Version:** v0.35.0
 - **Updated:** 2024-07-11T04:17:37Z
 - **Size:** 8.51 MB
-- **SHA256SUM:** 1d560db1acccf8f9da447816dbb76a6fccecdfd53bdc22d7e10153559c635dfb
-- **B3SUM:** 1ec03e908dc3ab9eab34aabb494548be1c36f3ddde5c9503ed536c6a42132852
+- **SHA256SUM:** 9cb1921ccb5e25c36e07307256b37af3e8f0b6914cd3ead16f2af4eeb25da2a0
+- **B3SUM:** c0ab8b702d71d1cbc4098dada0b2495a0f6a382bd49b06941a83a02eb3c0a698
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ov
 - **Language:** Go
 - **License:** MIT License
@@ -10169,7 +10169,7 @@
 - **Author:** DarthSim
 - **WebURL:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
 - **Repository:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
-- **Stars:** 2772
+- **Stars:** 2773
 - **Version:** v2.5.1
 - **Updated:** 2024-04-05T10:19:11Z
 - **Size:** 4.45 MB
@@ -10203,7 +10203,7 @@
 - **Author:** NixOS
 - **WebURL:** [https://github.com/NixOS/patchelf](https://github.com/NixOS/patchelf)
 - **Repository:** [https://github.com/NixOS/patchelf](https://github.com/NixOS/patchelf)
-- **Stars:** 3377
+- **Stars:** 3378
 - **Version:** 0.18.0
 - **Updated:** 2024-06-15T13:17:28Z
 - **Size:** 1.3 MB
@@ -10237,7 +10237,7 @@
 - **Author:** pdfcpu
 - **WebURL:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
 - **Repository:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
-- **Stars:** 6523
+- **Stars:** 6525
 - **Version:** v0.8.0
 - **Updated:** 2024-07-08T21:14:51Z
 - **Size:** 11.29 MB
@@ -10259,7 +10259,7 @@
 - **Updated:** 2024-07-09T00:04:04Z
 - **Size:** 18.59 kB
 - **SHA256SUM:** 1c2cd805493d093c42de08a06d1527eee9a53bea75969ae7ce55cb6cdf4c7fda
-- **B3SUM:** 02f310bf62c8ab70e281f2f3372e1a7d2b2277973408a8cec7127c05961baedc
+- **B3SUM:** 3294e4d1f349c41f05bbfd75a011134eafe7e78ffcdee2ace0416ce20f91abb5
 - **Source:** https://bin.ajam.dev/x86_64_Linux/pelf
 - **Language:** Shell
 - **License:** BSD 3-Clause New or Revised License
@@ -10360,8 +10360,8 @@
 - **Version:** v1.4.1
 - **Updated:** 2024-07-01T11:30:23Z
 - **Size:** 9.79 MB
-- **SHA256SUM:** 63e142aac9faca14b97162b6eae40c9e2c36e060745563b98086d1cd5c33cf3f
-- **B3SUM:** abe1e99f91e9935043906c27d8ca439f2be0351f5fc54bb674be5752e33cbfad
+- **SHA256SUM:** d665684fe100154987799bc39873b2cb47901fd452962d309dbfebd5100faeb3
+- **B3SUM:** d2ae065a6ac38a9acad6a83b81cdeeb32936800a53f7d7f115b1b7a0a58311da
 - **Source:** https://bin.ajam.dev/x86_64_Linux/pgrok
 - **Language:** Go
 - **License:** MIT License
@@ -10390,7 +10390,7 @@
 - **Author:** sosedoff
 - **WebURL:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
 - **Repository:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
-- **Stars:** 8459
+- **Stars:** 8462
 - **Version:** v0.16.0
 - **Updated:** 2024-06-07T15:07:48Z
 - **Size:** 16.67 MB
@@ -10560,7 +10560,7 @@
 - **Author:** prefix-dev
 - **WebURL:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
 - **Repository:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
-- **Stars:** 2333
+- **Stars:** 2337
 - **Version:** v0.25.0
 - **Updated:** 2024-07-11T14:19:55Z
 - **Size:** 36.95 MB
@@ -10628,9 +10628,9 @@
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/podman](https://github.com/containers/podman)
 - **Repository:** [https://github.com/containers/podman](https://github.com/containers/podman)
-- **Stars:** 22458
+- **Stars:** 22460
 - **Version:** v5.1.2
-- **Updated:** 2024-07-11T15:41:57Z
+- **Updated:** 2024-07-11T22:38:50Z
 - **Size:** 30.46 MB
 - **SHA256SUM:** ff920fdccfe5a091f71d8971edf0330164d930bdce42d6b75b1f79d4d68850ad
 - **B3SUM:** 336450bf77386ff379f3859adeb8496f79f448dfc2cc29f90e6afe25fc8a9dad
@@ -10713,7 +10713,7 @@
 - **Author:** mfontanini
 - **WebURL:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
 - **Repository:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
-- **Stars:** 1059
+- **Stars:** 1060
 - **Version:** v0.7.0
 - **Updated:** 2024-07-08T14:29:49Z
 - **Size:** 6.11 MB
@@ -10764,7 +10764,7 @@
 - **Author:** dalance
 - **WebURL:** [https://github.com/dalance/procs](https://github.com/dalance/procs)
 - **Repository:** [https://github.com/dalance/procs](https://github.com/dalance/procs)
-- **Stars:** 4905
+- **Stars:** 4906
 - **Version:** v0.14.5
 - **Updated:** 2024-07-08T20:48:34Z
 - **Size:** 5.69 MB
@@ -10798,7 +10798,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
 - **Repository:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
-- **Stars:** 2635
+- **Stars:** 2636
 - **Version:** v0.0.15
 - **Updated:** 2024-07-08T10:04:27Z
 - **Size:** 40.18 MB
@@ -10837,7 +10837,7 @@
 - **Updated:** 2024-07-08T23:55:31Z
 - **Size:** 6.59 MB
 - **SHA256SUM:** 2c994644285980fc73efdb5886d3d1958f5fa4bed07fda8efb2fd7736d91c7dc
-- **B3SUM:** 8b147aef76f228b80da585afd25cb9d7381a2aa8511688171e6de16d04e1e9fb
+- **B3SUM:** e40eef6d0c7f804b428eaa938ad0720592379565b0f547db2db4b00153ee0e0a
 - **Source:** https://bin.ajam.dev/x86_64_Linux/pueue
 - **Language:** Rust
 - **License:** MIT License
@@ -10938,8 +10938,8 @@
 - **Version:** v0.19.2
 - **Updated:** 2024-07-01T17:52:48Z
 - **Size:** 8.77 MB
-- **SHA256SUM:** 088cf88771deac35e59ec9fa67676ad5e9552097d2b709f6a92397ad230ca98f
-- **B3SUM:** 0023eb07385ea449621140dd8d1a701b63abadde5588bd6a7d65efb274ec127c
+- **SHA256SUM:** aae70b61d8f09cf6c438dacbf7729c848b5346c6c506f4968e6e8de5b641604f
+- **B3SUM:** b38bed1d59e9316770a6e68c14559aeceb61b1c62181efd49d4b44dd437178f6
 - **Source:** https://bin.ajam.dev/x86_64_Linux/q
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10968,9 +10968,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 5.89 MB
 - **SHA256SUM:** 3fbc8ae190f709cd13af8f73f1245c08a45ad1446e6382c77f34f6e0c07c5006
 - **B3SUM:** 4b641b89687b3e127c5857945b0a514da5131eb6ff13c3267037c9d8da39da8c
@@ -10985,9 +10985,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 5.91 MB
 - **SHA256SUM:** 675ffb857f132a971bfe5b6e8d614b73a24d22b9e80965ea2d4ac29c600e8c49
 - **B3SUM:** caab5c3ce072ed20373bb97e85b1853e54121705e2c4d1410cfb9a24fc020f10
@@ -11002,9 +11002,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.93 MB
 - **SHA256SUM:** 9de9444167bef0f899ba2208942385b427e58035bacd191ec5923bc9b3f7ff2e
 - **B3SUM:** 4e737b67a30dc556acae899a74ae5b70c6e1d09ab281476ea500210cbe2589d0
@@ -11019,9 +11019,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.14 MB
 - **SHA256SUM:** 4c5814181fd1c191330a92d1d1027927b7673dc71d3bed5faea8ea8ae0c622a4
 - **B3SUM:** c7ea08b533578efa0135e1163a1261c5366caa48e784e7bc341872e0ccebc04d
@@ -11036,9 +11036,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.15 MB
 - **SHA256SUM:** ef495d0295d07564b5494841bd5f9419f3c6a6d8d3f174979e9823e82a495bbe
 - **B3SUM:** 170cf187c4a1b3d8f2b65cefaa96250e489106771b6ac9de7bf839301bab007a
@@ -11053,9 +11053,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.91 MB
 - **SHA256SUM:** aff516e0d051f910bb2f785af6baae2bca38216d52ab72379637c92be3ee6716
 - **B3SUM:** 71cacf848856b29bc0d3003b5e8a2495f1cbdf303d1664606ce46ae5c3e6a2d1
@@ -11070,9 +11070,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 5.53 MB
 - **SHA256SUM:** 701fc0ce61427c154b2b2396418d84f79c5f414fec87aad1cbff1eb8950b56c4
 - **B3SUM:** b2b1b68f64f5a9d351590f511055bce6b93f6980ba76b6422afa7d7133c382a0
@@ -11087,9 +11087,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.02 MB
 - **SHA256SUM:** 192868c0f0928a70dc540537482e4ab6feb96ce6cb4f74c78864505d62190961
 - **B3SUM:** 84a88eb2273fe7235cbcd10827e14454a8fd9f8135969901694bb46f44f7d0c5
@@ -11104,9 +11104,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.6 MB
 - **SHA256SUM:** 73fb2eda1a8e4174f540a4ec0e61a129ae6a1bd53c5b7501393c7dd067189853
 - **B3SUM:** 0ad253330ecf30d009349da313014eed34ef5b8192fb72d48698bc85289dc4c4
@@ -11121,9 +11121,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.43 MB
 - **SHA256SUM:** 1b01357d2c20787a92b93f99c97626f3173ad3e8762ef7ef1839744ef2a36952
 - **B3SUM:** 6ff6598fea5b50fd4082eefe066c0087fb625e30d21b9333629574e2746a9628
@@ -11138,9 +11138,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.23 MB
 - **SHA256SUM:** 59069a2d6efe0a4d60e2547d2700c6152d5c9c05d5c3bc51a2ac306460d5212c
 - **B3SUM:** 0cb2ffb5189bb9aa80129913042a02082034b0c4c0506b9320bff4254e793ed6
@@ -11155,9 +11155,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.91 MB
 - **SHA256SUM:** e1fddfc47fcee075d2587f855b90b22b94b59927c189730a9263b49f551d3b88
 - **B3SUM:** c77d600125f2b9791b95aafac173d7720d8d2a56871a5ded43a966b6ffd1f4d0
@@ -11172,9 +11172,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.9 MB
 - **SHA256SUM:** b2686b808f4a4280702f23542ec634591d2abc7e0c39e6056dd8a6fb60d4626d
 - **B3SUM:** 992c13a5d628a3c60da5d07a1bd5a222249325b9e54f1786d3d0e7858a335c16
@@ -11189,9 +11189,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.05 MB
 - **SHA256SUM:** d8c70f183977b214395eca4e790b84291ff56f44a7529c5bd173001574eeb0af
 - **B3SUM:** ef4194b478066e7f57f8cbf0274096336d58ca6cb395b550416654c5e77d7e32
@@ -11206,9 +11206,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.08 MB
 - **SHA256SUM:** f8276599cacf4d27e8b360ea4e65c318fca9da756bcf29962f066101b0b18efe
 - **B3SUM:** b7a61249575d2fb6595d22f773ba02f072d3e166f18dd70e328e82ec8e5f556a
@@ -11223,9 +11223,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.07 MB
 - **SHA256SUM:** aa63f08732edac2d9f6a6f5dff6b9d1e8ca81aa312bdf76295354440ed04182b
 - **B3SUM:** 994c7f2e1de3942147285ab939893c46643137b728f82cb08f25ceba869f35dd
@@ -11240,9 +11240,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.04 MB
 - **SHA256SUM:** d37a82827e3cd361073e4291f0bd472456e11903d75f2ff57ec500b05caac37c
 - **B3SUM:** 9d217a020528b8b76963769df414270fcc9a33a1908398e6d935fccf3154a973
@@ -11257,9 +11257,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.08 MB
 - **SHA256SUM:** a65b1e0d5309d38e70dca54dd0ae24762cbc6d72265ac1f2c5f4c142c647206d
 - **B3SUM:** e911f8d1fc34c044ad2c28869514c269483cdec2ca3a08cd62f029e0ed6813c0
@@ -11274,9 +11274,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.08 MB
 - **SHA256SUM:** 81049f324a01c406cca22598819fc234195ac0571475a881e4dd8d4088a3a6a1
 - **B3SUM:** ab3d5ec2577a4e7ffedccf556c0fdc24ad98264cd848bf9ca64a612143c46c6d
@@ -11291,9 +11291,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.85 MB
 - **SHA256SUM:** 3a4480d79d920fe3e6b77e2e09b18626d90db14c6db5ea0ad832ed05431caa2a
 - **B3SUM:** aeefd88b00f5d42b176d3d229d8d3a1a08ad04ccca9bf66497736d24e281d110
@@ -11308,9 +11308,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.84 MB
 - **SHA256SUM:** 5431cae49bca2446ffea9840ac2398917aac83381d94c5f34d65f1ae229d68bc
 - **B3SUM:** 301102310d3a66666cd6863fadd23998e8ab341ea21bd8af8c298a5fcd0df5b9
@@ -11325,9 +11325,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.99 MB
 - **SHA256SUM:** edafb32c65ee1666db1c9b09bbd199281fc6690583df55b9ade870242686d1ff
 - **B3SUM:** bb13b4e1229400a57498bc7e4aee47a6120bc48369e351ff33fef78c2c626815
@@ -11342,9 +11342,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.02 MB
 - **SHA256SUM:** 0dc1d7674a61a00c66ebfc204b999fa0935baad6fce23f7b6289ac8901ea94f0
 - **B3SUM:** 090019bd8acf7673aea1755cecf6fc52278e6ca2602b7984fd4f59b71217fad8
@@ -11359,9 +11359,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4 MB
 - **SHA256SUM:** 3c88884452dce5ab148bb0d03e0d11f35fa2355da425c3b0b42637ee81cd59a9
 - **B3SUM:** 0023eb07385ea449621140dd8d1a701b63abadde5588bd6a7d65efb274ec127c
@@ -11376,9 +11376,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.28 MB
 - **SHA256SUM:** 414e0803da9b74cab1613b728b5a5a0894be0e0ef1c54d3a7533fc950260a957
 - **B3SUM:** 4abb8b6073b841125dc9536100e33b6305fa50caf52b171636a64caaf6321b11
@@ -11393,9 +11393,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 4.33 MB
 - **SHA256SUM:** 29cc8da436a4febfcd3946f63361564ae238a521504748c9e21f7d9008cae7cf
 - **B3SUM:** d902d0e79c8c28f622e334058e3169ccd1aa47b629b3888218a7390fc05d8e24
@@ -11410,9 +11410,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.41 MB
 - **SHA256SUM:** 20f86c4b5351f71b50cfc2a65823c8b94421be4a0ce9b6643ca84eb1fdc61beb
 - **B3SUM:** cea7b431b77f9540af006ee0294a31d794339ee8ace5ccd481ac587bd8735eef
@@ -11427,9 +11427,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.93 MB
 - **SHA256SUM:** d810822ef1b2db8b5f0bbbe8b905eaeae9846d9047a7d3a496bea5f17925c567
 - **B3SUM:** 79f47a0274192991370e995fcd5b80905a45c7d71a16ffaaa6f14e815d197957
@@ -11444,9 +11444,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 2.94 MB
 - **SHA256SUM:** b3316d771e083a99cf484e286b8a2541caea91fe363e05eb535f5b0d54980369
 - **B3SUM:** 82fabfffb1fa9eb7519c03a97856c56de1b340e2c73a782766098b95765fd9d9
@@ -11461,9 +11461,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.19 MB
 - **SHA256SUM:** e22a24559b946dc1bc623f436dec5aef398c93c39f59d07356de79b9841f119d
 - **B3SUM:** 222bbf07503306c84f039f9d3f4bce9fc28f24e40d3f408b356c151de1c0f6bc
@@ -11478,9 +11478,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.24 MB
 - **SHA256SUM:** a1094336231077673b7c0603148644fa9c41a219598ecddeb8753b3a66e31721
 - **B3SUM:** 5dc591d56db2cc4873a91416861c535953500235c055a4822944469a32dae6d5
@@ -11495,9 +11495,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.23 MB
 - **SHA256SUM:** aa32011211a629bdc4fbb10659ccc62cdad5eccb1bfc099a20d86680aab421fb
 - **B3SUM:** 6f3f75728a6187c3d93096574a4f5def1682804d1f4cb6d0fd1b79c4f43740c6
@@ -11512,9 +11512,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 3.58 MB
 - **SHA256SUM:** 5ac2b6e6e325eacd42af06ab748113b9cab5dbaa37e6784f7b53ffbffbfd09ae
 - **B3SUM:** 5d1a9e7d56c7bea8e5c68e376518dacdea1888f253197249bf4755809922b6b8
@@ -11529,9 +11529,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 7.15 MB
 - **SHA256SUM:** eaefb385c4b93b9aab557712d3b5da17f07f8cd708d00b974f888a593a73f9ca
 - **B3SUM:** 44c756c40c890d1035892eae7f1b1b7eca0ecd0e23e64db07e975068e13ce588
@@ -11546,9 +11546,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 9644
+- **Stars:** 9645
 - **Version:** v9.0.1
-- **Updated:** 2024-07-11T14:35:31Z
+- **Updated:** 2024-07-11T21:38:24Z
 - **Size:** 6.99 MB
 - **SHA256SUM:** 1f05fa55609a0fc3f286d094a5a996c10b05f163281585ea1ac499856134630d
 - **B3SUM:** 2887916965460f2869627a6ecd95c9d2ebe5fb2f65a693d4ab49c136ba42f44f
@@ -11682,7 +11682,7 @@
 - **Author:** rapiz1
 - **WebURL:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
 - **Repository:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
-- **Stars:** 8938
+- **Stars:** 8941
 - **Version:** v0.5.0
 - **Updated:** 2024-07-06T20:09:48Z
 - **Size:** 1.28 MB
@@ -11716,7 +11716,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45069
+- **Stars:** 45071
 - **Version:** v1.67.0
 - **Updated:** 2024-07-10T14:44:43Z
 - **Size:** 61.59 MB
@@ -11752,7 +11752,7 @@
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Stars:** 367
 - **Version:** v0.1.0
-- **Updated:** 2024-07-10T02:14:28Z
+- **Updated:** 2024-07-12T00:29:10Z
 - **Size:** 21.13 MB
 - **SHA256SUM:** 3d111e03ab6fc7d295bec2331c60ea3b2244575eba732411a5c62573d953a1de
 - **B3SUM:** c4d8450d7daeefd1ab2863cbdaaf9d7c9798b50e3b693eb3e4333a000e26282b
@@ -11769,7 +11769,7 @@
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Stars:** 367
 - **Version:** v0.1.0
-- **Updated:** 2024-07-10T02:14:28Z
+- **Updated:** 2024-07-12T00:29:10Z
 - **Size:** 23.13 MB
 - **SHA256SUM:** 89bbe3f547b1d57f75ea521405bcada418d60d85a42e018e55e24e45568c280f
 - **B3SUM:** aa547e7ba774bc1792d4ee905be599f37131a35ede22e16b25567133b83d1642
@@ -11786,7 +11786,7 @@
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Stars:** 367
 - **Version:** v0.1.0
-- **Updated:** 2024-07-10T02:14:28Z
+- **Updated:** 2024-07-12T00:29:10Z
 - **Size:** 54.22 MB
 - **SHA256SUM:** 2f1872292984e661940b49bdf09a6ed6469dc0a647f3bc89a6fa315987dd15f9
 - **B3SUM:** 4ca984789effe2561fd11f2ba2741ec07695519b5ad5e630214e67670f9ec084
@@ -11801,7 +11801,7 @@
 - **Author:** zhboner
 - **WebURL:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
 - **Repository:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
-- **Stars:** 1425
+- **Stars:** 1426
 - **Version:** v2.6.0
 - **Updated:** 2024-05-19T22:10:47Z
 - **Size:** 4.7 MB
@@ -11988,7 +11988,7 @@
 - **Author:** nelhage
 - **WebURL:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
 - **Repository:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
-- **Stars:** 5691
+- **Stars:** 5692
 - **Version:** reptyr-0.10.0
 - **Updated:** 2023-09-05T01:53:44Z
 - **Size:** 76.9 kB
@@ -12039,9 +12039,9 @@
 - **Author:** restic
 - **WebURL:** [https://github.com/restic/restic](https://github.com/restic/restic)
 - **Repository:** [https://github.com/restic/restic](https://github.com/restic/restic)
-- **Stars:** 24998
+- **Stars:** 25003
 - **Version:** v0.16.5
-- **Updated:** 2024-07-11T14:24:18Z
+- **Updated:** 2024-07-11T17:32:24Z
 - **Size:** 25.72 MB
 - **SHA256SUM:** f1e9b9d91ed49f5c4948923be3938d103e8fbf1313e0d9dcca811c33cbfb7fdb
 - **B3SUM:** 9937d7c51d54ddd2171fdfbaed4f640a238860cce890f3ce09a624077ac0faf5
@@ -12073,7 +12073,7 @@
 - **Author:** reviewdog
 - **WebURL:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
 - **Repository:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
-- **Stars:** 7599
+- **Stars:** 7601
 - **Version:** v0.20.0
 - **Updated:** 2024-07-10T21:06:43Z
 - **Size:** 14.6 MB
@@ -12158,11 +12158,11 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 46313
+- **Stars:** 46319
 - **Version:** 14.1.0
 - **Updated:** 2024-07-04T11:25:13Z
 - **Size:** 6.59 MB
-- **SHA256SUM:** 609bf43bebd77fcdbb43da2c6e2eea0f6b26d0eb7acc3c00f95f9bc1c90b8228
+- **SHA256SUM:** c2feed7a376d3754958fa6235a6ef88a74bcabc9b0cfccacbd48939b5f87860d
 - **B3SUM:** 26c8169b31f9dafd4ef85e972fca28e4766e637af4b0211e142614e3a93d90ba
 - **Source:** https://bin.ajam.dev/x86_64_Linux/rg
 - **Language:** Rust
@@ -12175,7 +12175,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 46313
+- **Stars:** 46319
 - **Version:** 14.1.0
 - **Updated:** 2024-07-04T11:25:13Z
 - **Size:** 6.59 MB
@@ -12379,11 +12379,11 @@
 - **Author:** astral-sh
 - **WebURL:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
 - **Repository:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
-- **Stars:** 28927
+- **Stars:** 28938
 - **Version:** 0.5.1
-- **Updated:** 2024-07-11T16:23:43Z
+- **Updated:** 2024-07-11T20:56:55Z
 - **Size:** 23.44 MB
-- **SHA256SUM:** 39b7dfe784001fac901eae4c754cb27a60f50987dcf824ad7bf542cc80c324f8
+- **SHA256SUM:** 43b8b8cd6bf4e59cb202f0b9047786e7276b9b6bdf10cdaab470ce8595c6fd02
 - **B3SUM:** 6332e582a38ff0ef5e2ff45ee3519ac091d1266c0a805aaaa6fc77b0a09667ca
 - **Source:** https://bin.ajam.dev/x86_64_Linux/ruff
 - **Language:** Rust
@@ -12398,7 +12398,7 @@
 - **Repository:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
 - **Stars:** 11599
 - **Version:** v1.1.13
-- **Updated:** 2024-07-10T10:50:18Z
+- **Updated:** 2024-07-11T23:20:31Z
 - **Size:** 10.8 MB
 - **SHA256SUM:** 6520d83123ec16e479a539e38da5d4a36bdb5c947ad7627036dc1f3d5157de7e
 - **B3SUM:** d9316f0ca9c190fcea5e7cbceda7410d2c3c00b0977212ab479526b06788a5fc
@@ -12549,7 +12549,7 @@
 - **Author:** RustScan
 - **WebURL:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
 - **Repository:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
-- **Stars:** 13294
+- **Stars:** 13296
 - **Version:** 2.3.0
 - **Updated:** 2024-07-11T13:39:53Z
 - **Size:** 6.24 MB
@@ -12600,7 +12600,7 @@
 - **Author:** sa7mon
 - **WebURL:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
 - **Repository:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
-- **Stars:** 2456
+- **Stars:** 2457
 - **Version:** v3.0.4
 - **Updated:** 2024-07-08T13:52:30Z
 - **Size:** 19.98 MB
@@ -12634,9 +12634,9 @@
 - **Author:** peak
 - **WebURL:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
 - **Repository:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
-- **Stars:** 2451
+- **Stars:** 2453
 - **Version:** v2.2.2
-- **Updated:** 2024-07-11T16:15:05Z
+- **Updated:** 2024-07-11T17:38:02Z
 - **Size:** 15.55 MB
 - **SHA256SUM:** d5afc015ad544c3f85f5ff415a9253452c3fc504011d270fa2daf769c0db9805
 - **B3SUM:** b4edf9143d1179006c0b975cf44d7f3f359bb6bdfa8fe6729baf8bef89473512
@@ -12685,7 +12685,7 @@
 - **Author:** Foxboron
 - **WebURL:** [https://github.com/Foxboron/sbctl](https://github.com/Foxboron/sbctl)
 - **Repository:** [https://github.com/Foxboron/sbctl](https://github.com/Foxboron/sbctl)
-- **Stars:** 1350
+- **Stars:** 1351
 - **Version:** 0.14
 - **Updated:** 2024-05-26T16:32:44Z
 - **Size:** 6.18 MB
@@ -12702,7 +12702,7 @@
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/scilla](https://github.com/edoardottt/scilla)
 - **Repository:** [https://github.com/edoardottt/scilla](https://github.com/edoardottt/scilla)
-- **Stars:** 775
+- **Stars:** 786
 - **Version:** v1.3.0
 - **Updated:** 2024-06-02T08:39:33Z
 - **Size:** 10.61 MB
@@ -12774,8 +12774,8 @@
 - **Version:** v1.0.0
 - **Updated:** 2024-05-28T02:35:26Z
 - **Size:** 2.62 MB
-- **SHA256SUM:** 22a511b8676971a4e29381ac47cf3c8c5165626eeb9dcc707c67935d8821018c
-- **B3SUM:** 32b7d5ab3b9ec470ff7d1d53154f28d5fc8fbd6d8d307d3a52ead98e95967bcf
+- **SHA256SUM:** 8c48812cfde93e61bebabd29b87158cdc1ee84e3bd63e5e21f4332c658b23005
+- **B3SUM:** eb953c37df45058efda42ed38ea4a5db7d0f9384731fb5a4fd73727ec225fde6
 - **Source:** https://bin.ajam.dev/x86_64_Linux/sd
 - **Language:** Rust
 - **License:** MIT License
@@ -13080,8 +13080,8 @@
 - **Version:** v1.11.1
 - **Updated:** 2024-07-07T02:58:33Z
 - **Size:** 7.1 MB
-- **SHA256SUM:** 40e9e37051f48219732882f76e8b5f27d9ca3f124b5b9de91798555b9ff29086
-- **B3SUM:** 1edf2f0f56cae1ebf23bd8aef81f88bf6021e8756dfdb54d9b4ce41c4a3fe43e
+- **SHA256SUM:** fd9b71c4158d4e8fe410014644dcb61e1e4e0f2cfb35bb96bd074ac3e3203449
+- **B3SUM:** ec6eb2164bc98ceade9c6aae62501fee323a2ffd02616fed2a199690977dbc99
 - **Source:** https://bin.ajam.dev/x86_64_Linux/sf
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -13093,9 +13093,9 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 16059
+- **Stars:** 16066
 - **Version:** v1.9.3
-- **Updated:** 2024-07-11T15:34:09Z
+- **Updated:** 2024-07-11T18:42:43Z
 - **Size:** 29.81 MB
 - **SHA256SUM:** 110431fa8ef7d1741b02034c1e7831e44d2ca3a60ff0f1527b8775591d3dc6d8
 - **B3SUM:** a651f9e7648e5bea5e94603dfbf9f2346b5b5038cc1d825637859aeeaa5e8d3b
@@ -13110,7 +13110,7 @@
 - **Author:** antoniomika
 - **WebURL:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
 - **Repository:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
-- **Stars:** 3869
+- **Stars:** 3870
 - **Version:** v2.16.0
 - **Updated:** 2024-07-11T15:41:14Z
 - **Size:** 19.86 MB
@@ -13144,12 +13144,12 @@
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 4960
+- **Stars:** 4961
 - **Version:** v0.10.4
 - **Updated:** 2024-04-02T16:37:59Z
 - **Size:** 3.31 MB
-- **SHA256SUM:** 0123181c8408dc5cfcecca3bc0c2fc780833bdfd949c442565085bb3ddb5c2cf
-- **B3SUM:** 051a4953f018fd90e66979d3181ebf6c5222374fb2e250f4f45872516bc13cf5
+- **SHA256SUM:** 2890efaec4daf4a53bebfdc5a85cc9420e51551be6ef3b526e424f2356968bb0
+- **B3SUM:** 7ad4254ad363666d2363433b1415a2d34d56c307eecde495524567b54f9273d2
 - **Source:** https://bin.ajam.dev/x86_64_Linux/sk
 - **Language:** Rust
 - **License:** MIT License
@@ -13161,7 +13161,7 @@
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 4960
+- **Stars:** 4961
 - **Version:** v0.10.4
 - **Updated:** 2024-04-02T16:37:59Z
 - **Size:** 7342 B
@@ -13180,7 +13180,7 @@
 - **Repository:** [https://github.com/skupperproject/skupper](https://github.com/skupperproject/skupper)
 - **Stars:** 560
 - **Version:** 1.7.2
-- **Updated:** 2024-07-11T15:04:24Z
+- **Updated:** 2024-07-11T18:44:58Z
 - **Size:** 34.53 MB
 - **SHA256SUM:** 0123181c8408dc5cfcecca3bc0c2fc780833bdfd949c442565085bb3ddb5c2cf
 - **B3SUM:** c009432b6b646ef4ab9215fb3a8d600e5419c48054a842c31691942b820acd64
@@ -13195,9 +13195,9 @@
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
 - **Repository:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
-- **Stars:** 7943
+- **Stars:** 7944
 - **Version:** v1.5.42
-- **Updated:** 2024-07-09T21:45:37Z
+- **Updated:** 2024-07-11T17:58:46Z
 - **Size:** 36.52 MB
 - **SHA256SUM:** c53bc13170b9ff26b0cca93715e947318e06cafe0d98cf825eabffe3c7f763cb
 - **B3SUM:** d8557f2c6f48caa0f3ae2503d0fe85b0875f91d5c90b1a6a9eb1f888938b505e
@@ -13212,9 +13212,9 @@
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
 - **Repository:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
-- **Stars:** 7943
+- **Stars:** 7944
 - **Version:** v1.5.42
-- **Updated:** 2024-07-09T21:45:37Z
+- **Updated:** 2024-07-11T17:58:46Z
 - **Size:** 169.03 MB
 - **SHA256SUM:** 2ce6ab2d48d613830f2cd7920ced86ca7b6782dbafe64af84ba476f71d08620e
 - **B3SUM:** c2782c244e9cc9dcb2e25ea5f20528a0baeb9ee4d434e59bff71733d5b9bc358
@@ -13280,7 +13280,7 @@
 - **Author:** p-gen
 - **WebURL:** [https://github.com/p-gen/smenu](https://github.com/p-gen/smenu)
 - **Repository:** [https://github.com/p-gen/smenu](https://github.com/p-gen/smenu)
-- **Stars:** 2342
+- **Stars:** 2343
 - **Version:** v1.4.0
 - **Updated:** 2024-07-05T21:27:53Z
 - **Size:** 410.78 kB
@@ -13297,7 +13297,7 @@
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/sn0int](https://github.com/kpcyrd/sn0int)
 - **Repository:** [https://github.com/kpcyrd/sn0int](https://github.com/kpcyrd/sn0int)
-- **Stars:** 1918
+- **Stars:** 1919
 - **Version:** v0.26.0
 - **Updated:** 2024-01-25T00:50:13Z
 - **Size:** 18.24 MB
@@ -13369,8 +13369,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 5.01 MB
-- **SHA256SUM:** c3a63a2a77d1abf5baef5bbf7474690ac2896e2dabd60498e56361a2fd131d8f
-- **B3SUM:** 8dcfec246f3bfd51bcbcf65ecaed21b70f726ccb489b70544f8960a52097110a
+- **SHA256SUM:** ecbb642055457d3890859866b7f859414336cfd90306a1f2a770d18e88250198
+- **B3SUM:** 923094ae6ab01bb2754e6a53057709ac02829cff535cc25ec76e2d43db8c5666
 - **Source:** https://bin.ajam.dev/x86_64_Linux/socat
 - **Language:** 
 - **License:** 
@@ -13382,7 +13382,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
 - **Repository:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
-- **Stars:** 5022
+- **Stars:** 5023
 - **Version:** v0.7.4
 - **Updated:** 2024-07-09T11:07:55Z
 - **Size:** 29.6 MB
@@ -13437,7 +13437,7 @@
 - **Version:** 1.6.2
 - **Updated:** 2024-06-27T16:27:59Z
 - **Size:** 3.84 MB
-- **SHA256SUM:** b5f038300a612f7d08e15e04de8ab3253ebaaca3db2a113b9b06ab34508bf4de
+- **SHA256SUM:** be6093ddd6f7b89b373b8d018bd68e20f93a25145b7199f330d7258efe82f13d
 - **B3SUM:** 3c797bc9cc8905cfff6fa4479850cac4019ef54839003cf6fff082229eab4f3a
 - **Source:** https://bin.ajam.dev/x86_64_Linux/spipe
 - **Language:** C
@@ -13505,8 +13505,8 @@
 - **Version:** v0.48.3
 - **Updated:** 2024-05-13T21:22:07Z
 - **Size:** 33.1 MB
-- **SHA256SUM:** 697f1a263993a7ccd3c6cf592930c0b2c1d4c932e21619f8396dba785707650e
-- **B3SUM:** 262f9dc3923a3cfd870b6c9f37edc51420624ebb6451e7e9cd51ef4dab65a59b
+- **SHA256SUM:** b879a159a73d031c084124b50e5571754a569086648bd6a9af3ac0b87a95d1d3
+- **B3SUM:** 3c1d20880b8f46e76757322863c6f2c260b3f3b0c83d1f571589c4cb1dc8478d
 - **Source:** https://bin.ajam.dev/x86_64_Linux/sq
 - **Language:** Go
 - **License:** MIT License
@@ -13535,9 +13535,9 @@
 - **Author:** sqlite
 - **WebURL:** [https://www.sqlite.org](https://www.sqlite.org)
 - **Repository:** [https://github.com/sqlite/sqlite](https://github.com/sqlite/sqlite)
-- **Stars:** 5939
+- **Stars:** 5941
 - **Version:** vesion-3.45.1
-- **Updated:** 2024-07-11T14:11:13Z
+- **Updated:** 2024-07-11T20:11:14Z
 - **Size:** 1.91 MB
 - **SHA256SUM:** d68384cab64f42ac7b0cf7148d8430bd98a98047af25950e6aa173e5d45ee449
 - **B3SUM:** 4e6277ce6ae30cd8a673f4274e01108503e1edcc34b21cbb56b36301023c5235
@@ -13556,7 +13556,7 @@
 - **Version:** 0.5.2
 - **Updated:** 2024-02-23T18:18:29Z
 - **Size:** 685.5 kB
-- **SHA256SUM:** 9c776f8b137dc48f25f81ceea5508dea553e598f5105ad037fe5ac5733540cb6
+- **SHA256SUM:** f83ec0392b6f23fba1e689759b29ee5e2ea4b1e395980ab4b52c12e7e394bcb8
 - **B3SUM:** 2f10f67a9eac163a7077173e21aa98fb6c83ae2b52cfaad3613e4066a9ee2b25
 - **Source:** https://bin.ajam.dev/x86_64_Linux/squashfuse
 - **Language:** C
@@ -13705,7 +13705,7 @@
 - **Author:** starship
 - **WebURL:** [https://github.com/starship/starship](https://github.com/starship/starship)
 - **Repository:** [https://github.com/starship/starship](https://github.com/starship/starship)
-- **Stars:** 43052
+- **Stars:** 43051
 - **Version:** v1.19.0
 - **Updated:** 2024-07-11T07:26:34Z
 - **Size:** 10.03 MB
@@ -13722,7 +13722,7 @@
 - **Author:** turbot
 - **WebURL:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
 - **Repository:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
-- **Stars:** 6676
+- **Stars:** 6677
 - **Version:** v0.23.2
 - **Updated:** 2024-07-11T15:40:22Z
 - **Size:** 53.25 MB
@@ -13824,7 +13824,7 @@
 - **Author:** abhimanyu003
 - **WebURL:** [https://github.com/abhimanyu003/sttr](https://github.com/abhimanyu003/sttr)
 - **Repository:** [https://github.com/abhimanyu003/sttr](https://github.com/abhimanyu003/sttr)
-- **Stars:** 894
+- **Stars:** 895
 - **Version:** v0.2.22
 - **Updated:** 2024-07-03T14:50:48Z
 - **Size:** 9.9 MB
@@ -13875,7 +13875,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
 - **Repository:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
-- **Stars:** 9661
+- **Stars:** 9662
 - **Version:** v2.6.6
 - **Updated:** 2024-07-08T14:43:22Z
 - **Size:** 29.01 MB
@@ -13892,7 +13892,7 @@
 - **Author:** lc
 - **WebURL:** [https://github.com/lc/subjs](https://github.com/lc/subjs)
 - **Repository:** [https://github.com/lc/subjs](https://github.com/lc/subjs)
-- **Stars:** 727
+- **Stars:** 728
 - **Version:** v1.0.1
 - **Updated:** 2023-05-21T20:55:56Z
 - **Size:** 5.4 MB
@@ -13947,8 +13947,8 @@
 - **Version:** v0.2.3
 - **Updated:** 2024-07-11T14:00:49Z
 - **Size:** 1.72 MB
-- **SHA256SUM:** 433a122e47038db3101e8e719a9a5762eacdbb98f4ee64dc002791ee1f39f7de
-- **B3SUM:** 986389f113309599483d02e5ec916fb943c8fb091d8cf931f9ce23e2b37cd86d
+- **SHA256SUM:** cc42ebb8668cb7cb9a28eba6b1d479ef975c105469e8e23f225310d5e8945540
+- **B3SUM:** a98b101c4675090953a79669c3cc8d51ef72464b63f3fedc1e79324a348e8b83
 - **Source:** https://bin.ajam.dev/x86_64_Linux/sudo-rs
 - **Language:** Rust
 - **License:** Other
@@ -14079,9 +14079,9 @@
 - **Author:** syncthing
 - **WebURL:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
 - **Repository:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
-- **Stars:** 62203
+- **Stars:** 62209
 - **Version:** v1.27.9
-- **Updated:** 2024-07-10T02:42:55Z
+- **Updated:** 2024-07-11T19:51:10Z
 - **Size:** 24.15 MB
 - **SHA256SUM:** 24000d34d33c526282ee9a7b4c46e53d7a893617c591b7e2f811fe661ffdec16
 - **B3SUM:** 756d8f167208381f3c25ef026eb0f358e870a418230c9cd62db30687ec92e727
@@ -14096,7 +14096,7 @@
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2620
+- **Stars:** 2621
 - **Version:** v0.6.4
 - **Updated:** 2024-06-04T04:18:13Z
 - **Size:** 12.71 MB
@@ -14113,7 +14113,7 @@
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2620
+- **Stars:** 2621
 - **Version:** v0.6.4
 - **Updated:** 2024-06-04T04:18:13Z
 - **Size:** 12.25 MB
@@ -14130,7 +14130,7 @@
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2620
+- **Stars:** 2621
 - **Version:** v0.6.4
 - **Updated:** 2024-06-04T04:18:13Z
 - **Size:** 15.3 MB
@@ -14368,7 +14368,7 @@
 - **Author:** rgwood
 - **WebURL:** [https://github.com/rgwood/systemctl-tui](https://github.com/rgwood/systemctl-tui)
 - **Repository:** [https://github.com/rgwood/systemctl-tui](https://github.com/rgwood/systemctl-tui)
-- **Stars:** 212
+- **Stars:** 213
 - **Version:** v0.3.6
 - **Updated:** 2024-05-25T17:22:35Z
 - **Size:** 7.39 MB
@@ -14436,12 +14436,12 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17606
+- **Stars:** 17608
 - **Version:** v1.68.2
-- **Updated:** 2024-07-11T16:01:38Z
+- **Updated:** 2024-07-11T23:16:32Z
 - **Size:** 12.93 MB
-- **SHA256SUM:** 609bf43bebd77fcdbb43da2c6e2eea0f6b26d0eb7acc3c00f95f9bc1c90b8228
-- **B3SUM:** 04ff5bd0f0855de51c63e1154e615a893b6fe8088b7226bbd1dc0be117695f2f
+- **SHA256SUM:** 6ebd31b66bf3e344f627cbe9f08bada14cf898ea145cecb4e010a659ade7a0fd
+- **B3SUM:** 7c1ecf9cdaac9ac293016b08a8daf5647c1dfcd6c43bb3273a0343145f450055
 - **Source:** https://bin.ajam.dev/x86_64_Linux/tailscale
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -14453,9 +14453,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17606
+- **Stars:** 17608
 - **Version:** v1.68.2
-- **Updated:** 2024-07-11T16:01:38Z
+- **Updated:** 2024-07-11T23:16:32Z
 - **Size:** 27.51 MB
 - **SHA256SUM:** dd90f2fa23976ac06b913f9384b5bd1b2cbc4daf121de6bf27d1d2ccce6c8379
 - **B3SUM:** 04ff5bd0f0855de51c63e1154e615a893b6fe8088b7226bbd1dc0be117695f2f
@@ -14470,9 +14470,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17606
+- **Stars:** 17608
 - **Version:** v1.68.2
-- **Updated:** 2024-07-11T16:01:38Z
+- **Updated:** 2024-07-11T23:16:32Z
 - **Size:** 27.51 MB
 - **SHA256SUM:** dd90f2fa23976ac06b913f9384b5bd1b2cbc4daf121de6bf27d1d2ccce6c8379
 - **B3SUM:** 04ff5bd0f0855de51c63e1154e615a893b6fe8088b7226bbd1dc0be117695f2f
@@ -14487,9 +14487,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17606
+- **Stars:** 17608
 - **Version:** v1.68.2
-- **Updated:** 2024-07-11T16:01:38Z
+- **Updated:** 2024-07-11T23:16:32Z
 - **Size:** 25.96 MB
 - **SHA256SUM:** deb9a6d9370ccc4ec452bb722ef6c25681e299b5c3b0f6c840508dba2fd5ecaf
 - **B3SUM:** 274e582d1f2321d27b19a4fe564f3ccf198574d2449341940074fe6e7ce487c2
@@ -14504,7 +14504,7 @@
 - **Author:** bensadeh
 - **WebURL:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
 - **Repository:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
-- **Stars:** 5402
+- **Stars:** 5416
 - **Version:** 3.0.1
 - **Updated:** 2024-07-08T05:31:11Z
 - **Size:** 5.47 MB
@@ -14521,7 +14521,7 @@
 - **Author:** tamasfe
 - **WebURL:** [https://github.com/tamasfe/taplo](https://github.com/tamasfe/taplo)
 - **Repository:** [https://github.com/tamasfe/taplo](https://github.com/tamasfe/taplo)
-- **Stars:** 1271
+- **Stars:** 1272
 - **Version:** release-taplo-0.13.0
 - **Updated:** 2024-07-10T11:42:09Z
 - **Size:** 9.71 MB
@@ -14538,7 +14538,7 @@
 - **Author:** the-tcpdump-group
 - **WebURL:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
 - **Repository:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
-- **Stars:** 2616
+- **Stars:** 2617
 - **Version:** tcpdump-4.99.4
 - **Updated:** 2024-07-11T15:33:45Z
 - **Size:** 1.59 MB
@@ -14555,7 +14555,7 @@
 - **Author:** iyear
 - **WebURL:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
 - **Repository:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
-- **Stars:** 3783
+- **Stars:** 3784
 - **Version:** v0.17.3
 - **Updated:** 2024-07-07T11:11:54Z
 - **Size:** 37.9 MB
@@ -14623,7 +14623,7 @@
 - **Author:** aandrew-me
 - **WebURL:** [https://github.com/aandrew-me/tgpt](https://github.com/aandrew-me/tgpt)
 - **Repository:** [https://github.com/aandrew-me/tgpt](https://github.com/aandrew-me/tgpt)
-- **Stars:** 1683
+- **Stars:** 1684
 - **Version:** v2.8.0
 - **Updated:** 2024-06-26T18:46:13Z
 - **Size:** 8.53 MB
@@ -14674,11 +14674,11 @@
 - **Author:** tio
 - **WebURL:** [https://github.com/tio/tio](https://github.com/tio/tio)
 - **Repository:** [https://github.com/tio/tio](https://github.com/tio/tio)
-- **Stars:** 1816
+- **Stars:** 1815
 - **Version:** v3.5
 - **Updated:** 2024-07-11T15:00:41Z
 - **Size:** 429.25 kB
-- **SHA256SUM:** 4349bc319feb9fee768b13819f0dba866c5f620ab2831197814bb8c961578714
+- **SHA256SUM:** 9dfc532874dc5564153da8c5b671cfe6b407c1e0f71050a883dc696dd526e528
 - **B3SUM:** 1141fb23260a91bce4e9fef4d3a985085ffcb05e3724bf3c7c84808295d3462b
 - **Source:** https://bin.ajam.dev/x86_64_Linux/tio
 - **Language:** C
@@ -14759,9 +14759,9 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33797
+- **Stars:** 33804
 - **Version:** 3.4
-- **Updated:** 2024-07-10T20:20:49Z
+- **Updated:** 2024-07-11T19:30:50Z
 - **Size:** 1.72 MB
 - **SHA256SUM:** 4f132c706113cb0a35bd1949ee8874d95d4bdff39f71716a5f0b9dedad4b0ef8
 - **B3SUM:** 58e6761590307268913adc60ddbefd398e98d614a586ec94442917c6a3536e49
@@ -14780,8 +14780,8 @@
 - **Version:** 
 - **Updated:** 2024-07-11T04:06:10Z
 - **Size:** 1.36 MB
-- **SHA256SUM:** 855cc2e284411b856b7b9dde53ab36d8bc4bc453fdccd54b3ad91ed633e287eb
-- **B3SUM:** 0bcb4d70f6ba9915fbc3e5bf9bb45cbee55f511afd1b8289d253bddb0a3a3752
+- **SHA256SUM:** b7a83d2658855fb44b0783360352456cd833ba4cd7a9b11d0d944f6c81186774
+- **B3SUM:** 45a8d3de88f9cc15bfba834ce168d674f2ec393f90601ac8990e8c41a735a694
 - **Source:** https://bin.ajam.dev/x86_64_Linux/tok
 - **Language:** Shell
 - **License:** The Unlicense
@@ -14812,7 +14812,7 @@
 - **Repository:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
 - **Stars:** 2325
 - **Version:** 0.8.11
-- **Updated:** 2024-07-08T09:33:41Z
+- **Updated:** 2024-07-11T18:08:42Z
 - **Size:** 755.86 kB
 - **SHA256SUM:** 69171b03ca3f221012fac692618ae74952f5892727f459c0370c64b61c0780d4
 - **B3SUM:** aabbe338450094e36c485d0e4b1200d3c877ac3c39518f094e484b5ce8b5fa5c
@@ -14844,9 +14844,9 @@
 - **Author:** traefik
 - **WebURL:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
 - **Repository:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
-- **Stars:** 49151
+- **Stars:** 49155
 - **Version:** v3.0.4
-- **Updated:** 2024-07-11T13:46:03Z
+- **Updated:** 2024-07-11T20:20:45Z
 - **Size:** 162.91 MB
 - **SHA256SUM:** 0b8f11a03f37908ebb057cee231a0ab5f19474ce3b8e43c350045b4a1262c0a3
 - **B3SUM:** 4be6f99aa404d9bee750fde2de27dcf7c169f58488269f684edfae69aee4b2d6
@@ -14861,9 +14861,9 @@
 - **Author:** transmission
 - **WebURL:** [https://transmissionbt.com/](https://transmissionbt.com/)
 - **Repository:** [https://github.com/transmission/transmission](https://github.com/transmission/transmission)
-- **Stars:** 11742
+- **Stars:** 11744
 - **Version:** 4.0.6
-- **Updated:** 2024-07-11T15:14:05Z
+- **Updated:** 2024-07-12T00:43:39Z
 - **Size:** 9.88 MB
 - **SHA256SUM:** c126ea94025f999628ef144079b15680f4ccdf1d302fbc7f1cc0d7357e82b1ab
 - **B3SUM:** 0507b801b84901161f312264b197cc5e46b8bda1616741aceaa439414b8d5acf
@@ -14878,7 +14878,7 @@
 - **Author:** fujiapple852
 - **WebURL:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
 - **Repository:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
-- **Stars:** 3206
+- **Stars:** 3207
 - **Version:** 0.10.0
 - **Updated:** 2024-07-08T22:50:03Z
 - **Size:** 7.36 MB
@@ -14895,9 +14895,9 @@
 - **Author:** trufflesecurity
 - **WebURL:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
 - **Repository:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
-- **Stars:** 14443
+- **Stars:** 14445
 - **Version:** v3.79.0
-- **Updated:** 2024-07-11T15:45:14Z
+- **Updated:** 2024-07-11T22:00:36Z
 - **Size:** 113.97 MB
 - **SHA256SUM:** 39b7dfe784001fac901eae4c754cb27a60f50987dcf824ad7bf542cc80c324f8
 - **B3SUM:** 702bc6970d65f822e105f26e01b2d7abc1f638d91edbc24cadbe81af9aa2416a
@@ -15014,7 +15014,7 @@
 - **Author:** tus
 - **WebURL:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
 - **Repository:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
-- **Stars:** 2950
+- **Stars:** 2951
 - **Version:** v2.4.0
 - **Updated:** 2024-07-01T06:13:07Z
 - **Size:** 26.11 MB
@@ -15035,7 +15035,7 @@
 - **Version:** 2.0.1
 - **Updated:** 2023-12-18T22:52:28Z
 - **Size:** 10.34 MB
-- **SHA256SUM:** d26a4edaa80fb3803fc42357206c17712a1247ccf4a386d2381a9657bf789e75
+- **SHA256SUM:** e7f6f2b93c319bba841d64b0ba08836fabe110f3497dfe6ad3c1efe48190cdf0
 - **B3SUM:** b18f1ab31c1331d57133874dd0d21016663d1246c3507ce2bffb2093d46ee295
 - **Source:** https://bin.ajam.dev/x86_64_Linux/tut
 - **Language:** Go
@@ -15133,7 +15133,7 @@
 - **Author:** txn2
 - **WebURL:** [https://github.com/txn2/txeh](https://github.com/txn2/txeh)
 - **Repository:** [https://github.com/txn2/txeh](https://github.com/txn2/txeh)
-- **Stars:** 316
+- **Stars:** 317
 - **Version:** v1.5.4
 - **Updated:** 2024-01-30T08:27:31Z
 - **Size:** 3.25 MB
@@ -15167,7 +15167,7 @@
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
-- **Stars:** 2534
+- **Stars:** 2536
 - **Version:** v0.14.0
 - **Updated:** 2024-07-11T15:37:21Z
 - **Size:** 6.48 MB
@@ -15184,7 +15184,7 @@
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
-- **Stars:** 2534
+- **Stars:** 2536
 - **Version:** v0.14.0
 - **Updated:** 2024-07-11T15:37:21Z
 - **Size:** 6.48 MB
@@ -15252,7 +15252,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
 - **Repository:** [https://github.com/projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
-- **Stars:** 2304
+- **Stars:** 2305
 - **Version:** v1.0.9
 - **Updated:** 2024-07-08T17:18:06Z
 - **Size:** 27.54 MB
@@ -15274,7 +15274,7 @@
 - **Updated:** 2023-04-07T05:03:46Z
 - **Size:** 2.79 MB
 - **SHA256SUM:** e1941b78afe18464b52179c416836f4528c88d85a637343d7779bb0350d88a08
-- **B3SUM:** 263e152a2640a33c1e2089da59486408e1ae75b51815e76f63018da67643650d
+- **B3SUM:** 374e528d2d0a84541619b44988b6bcce6a7349c3442133599acb3534e6a8ad70
 - **Source:** https://bin.ajam.dev/x86_64_Linux/unf
 - **Language:** Rust
 - **License:** MIT License
@@ -15337,7 +15337,7 @@
 - **Author:** xo
 - **WebURL:** [https://github.com/xo/usql](https://github.com/xo/usql)
 - **Repository:** [https://github.com/xo/usql](https://github.com/xo/usql)
-- **Stars:** 8808
+- **Stars:** 8809
 - **Version:** v0.19.3
 - **Updated:** 2024-06-12T12:12:04Z
 - **Size:** 178.04 MB
@@ -15405,7 +15405,7 @@
 - **Author:** tsenart
 - **WebURL:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
 - **Repository:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
-- **Stars:** 23023
+- **Stars:** 23022
 - **Version:** v12.11.1
 - **Updated:** 2024-07-03T23:27:49Z
 - **Size:** 10.76 MB
@@ -15439,7 +15439,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
 - **Repository:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
-- **Stars:** 14394
+- **Stars:** 14396
 - **Version:** v0.7.2
 - **Updated:** 2024-07-10T20:29:23Z
 - **Size:** 25.24 MB
@@ -15456,7 +15456,7 @@
 - **Author:** sachaos
 - **WebURL:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
 - **Repository:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
-- **Stars:** 4529
+- **Stars:** 4530
 - **Version:** v0.4.0
 - **Updated:** 2024-07-05T02:22:56Z
 - **Size:** 8.29 MB
@@ -15512,7 +15512,7 @@
 - **Updated:** 2024-04-17T19:28:06Z
 - **Size:** 1.7 MB
 - **SHA256SUM:** 72464dd2c714041ced84d420815c65c14fb8627bb51539abbe4b3250ed7e643c
-- **B3SUM:** 4ca5d5a31f934c48f528a8329878c4dfa595a6a92d30ea962997630fcb0a9409
+- **B3SUM:** 6dca7295869afefeea43e89a4426aa492021e08337ebef29371f32214f91f0b9
 - **Source:** https://bin.ajam.dev/x86_64_Linux/vnstat
 - **Language:** C
 - **License:** GNU General Public License v2.0
@@ -15576,8 +15576,8 @@
 - **WebURL:** [https://github.com/gngpp/vproxy](https://github.com/gngpp/vproxy)
 - **Repository:** [https://github.com/gngpp/vproxy](https://github.com/gngpp/vproxy)
 - **Stars:** 107
-- **Version:** v1.1.3
-- **Updated:** 2024-07-09T02:39:15Z
+- **Version:** v1.2.0
+- **Updated:** 2024-07-12T00:10:10Z
 - **Size:** 8.99 MB
 - **SHA256SUM:** ca882946d5c8dfe3c3b2ff9095aa93a28ed2c0fc7a2dd38a84ef07ec793ef681
 - **B3SUM:** 86de7e31ee04b989bea9a6563b903f0f98b4ed1b6c0d973f68ad3826f10fbc99
@@ -15593,8 +15593,8 @@
 - **WebURL:** [https://github.com/directvt/vtm](https://github.com/directvt/vtm)
 - **Repository:** [https://github.com/directvt/vtm](https://github.com/directvt/vtm)
 - **Stars:** 1573
-- **Version:** v0.9.89
-- **Updated:** 2024-07-11T11:06:06Z
+- **Version:** v0.9.90
+- **Updated:** 2024-07-11T18:44:14Z
 - **Size:** 6.09 MB
 - **SHA256SUM:** 629c718d459a32394d3ad15e2261440d115bf84748872878687b8e478de59589
 - **B3SUM:** 8548a7fa1d378893368415bf4337d1d396901a62b47099605c377a1f010f8863
@@ -15745,7 +15745,7 @@
 - **Author:** watchexec
 - **WebURL:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
 - **Repository:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
-- **Stars:** 5081
+- **Stars:** 5082
 - **Version:** v2.1.2
 - **Updated:** 2024-07-02T14:33:07Z
 - **Size:** 11.31 MB
@@ -15779,7 +15779,7 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/waybackurls](https://github.com/tomnomnom/waybackurls)
 - **Repository:** [https://github.com/tomnomnom/waybackurls](https://github.com/tomnomnom/waybackurls)
-- **Stars:** 3289
+- **Stars:** 3290
 - **Version:** v0.1.0
 - **Updated:** 2024-05-01T05:40:44Z
 - **Size:** 5.1 MB
@@ -15813,7 +15813,7 @@
 - **Author:** vi
 - **WebURL:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
 - **Repository:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
-- **Stars:** 6749
+- **Stars:** 6751
 - **Version:** v1.13.0
 - **Updated:** 2024-07-10T01:28:30Z
 - **Size:** 7.43 MB
@@ -15847,7 +15847,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 14950
+- **Stars:** 14955
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-07-08T01:34:27Z
 - **Size:** 474.38 kB
@@ -15864,7 +15864,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 14950
+- **Stars:** 14955
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-07-08T01:34:27Z
 - **Size:** 1.19 MB
@@ -15881,7 +15881,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 14950
+- **Stars:** 14955
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-07-08T01:34:27Z
 - **Size:** 12.46 MB
@@ -15898,7 +15898,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 14950
+- **Stars:** 14955
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-07-08T01:34:27Z
 - **Size:** 30.61 MB
@@ -15915,7 +15915,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 14950
+- **Stars:** 14955
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-07-08T01:34:27Z
 - **Size:** 28.12 MB
@@ -16034,7 +16034,7 @@
 - **Author:** pufferffish
 - **WebURL:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
 - **Repository:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
-- **Stars:** 4137
+- **Stars:** 4141
 - **Version:** v1.0.9
 - **Updated:** 2024-07-05T12:22:42Z
 - **Size:** 8.43 MB
@@ -16123,7 +16123,7 @@
 - **Version:** v0.1.1
 - **Updated:** 2023-07-03T19:58:51Z
 - **Size:** 5.24 MB
-- **SHA256SUM:** 3f4c559b54bf934bc330f8a6570c9191cd24862bb019520724542ff07af399ac
+- **SHA256SUM:** b362769700908cab31fc9971206795ed0138e8eb082f4026262ff34cb3a9fb89
 - **B3SUM:** 9260f30a5aecbb3038ddf8f29f1127bf08ae46df34b7450da29fdd03136ee150
 - **Source:** https://bin.ajam.dev/x86_64_Linux/wth
 - **Language:** Go
@@ -16140,8 +16140,8 @@
 - **Version:** v4.3.0
 - **Updated:** 2024-04-30T19:15:42Z
 - **Size:** 12.95 MB
-- **SHA256SUM:** 5ac2b6e6e325eacd42af06ab748113b9cab5dbaa37e6784f7b53ffbffbfd09ae
-- **B3SUM:** 5d1a9e7d56c7bea8e5c68e376518dacdea1888f253197249bf4755809922b6b8
+- **SHA256SUM:** 958d68d39a2e54f52316c310d20bba0900ea14adb740966f7f46a0210a914223
+- **B3SUM:** 9e93b5e0554da6b98281d9abea30dfec84ea8379d25144b085173de287a46fa6
 - **Source:** https://bin.ajam.dev/x86_64_Linux/x8
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -16459,11 +16459,11 @@
 - **Author:** ducaale
 - **WebURL:** [https://github.com/ducaale/xh](https://github.com/ducaale/xh)
 - **Repository:** [https://github.com/ducaale/xh](https://github.com/ducaale/xh)
-- **Stars:** 4978
+- **Stars:** 4979
 - **Version:** v0.22.2
 - **Updated:** 2024-07-08T22:30:53Z
 - **Size:** 6.7 MB
-- **SHA256SUM:** 1ba5bebb0808f99ddd243c692bb6ea4339563cfaff0ba24ee15402d61466bbda
+- **SHA256SUM:** d1586626d808866a3c9298f7a64f71375d69e9de141d43069ffa71883c6d6736
 - **B3SUM:** 302b3e25353f853f60cc32d2e69769abf818233de5c0bb378a7ba730737c7c84
 - **Source:** https://bin.ajam.dev/x86_64_Linux/xh
 - **Language:** Rust
@@ -16476,7 +16476,7 @@
 - **Author:** xmrig
 - **WebURL:** [https://xmrig.com/](https://xmrig.com/)
 - **Repository:** [https://github.com/xmrig/xmrig](https://github.com/xmrig/xmrig)
-- **Stars:** 8509
+- **Stars:** 8510
 - **Version:** v6.21.3
 - **Updated:** 2024-07-06T21:10:57Z
 - **Size:** 8.29 MB
@@ -16493,7 +16493,7 @@
 - **Author:** sayanarijit
 - **WebURL:** [https://github.com/sayanarijit/xplr](https://github.com/sayanarijit/xplr)
 - **Repository:** [https://github.com/sayanarijit/xplr](https://github.com/sayanarijit/xplr)
-- **Stars:** 4066
+- **Stars:** 4067
 - **Version:** v0.21.9
 - **Updated:** 2024-06-16T10:38:26Z
 - **Size:** 6.85 MB
@@ -16544,7 +16544,7 @@
 - **Author:** masonr
 - **WebURL:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
 - **Repository:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
-- **Stars:** 3984
+- **Stars:** 3985
 - **Version:** 
 - **Updated:** 2024-06-19T17:01:12Z
 - **Size:** 45.17 kB
@@ -16595,7 +16595,7 @@
 - **Author:** sxyazi
 - **WebURL:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - **Repository:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
-- **Stars:** 12060
+- **Stars:** 12077
 - **Version:** v0.2.5
 - **Updated:** 2024-07-11T09:45:55Z
 - **Size:** 16.32 MB
@@ -16616,8 +16616,8 @@
 - **Version:** v0.5.6
 - **Updated:** 2024-06-26T22:17:28Z
 - **Size:** 9.58 MB
-- **SHA256SUM:** 29c8d3431a6b50ae1810243afe2d66a504c76f5231acb6f50fb4eb2c8d2fc893
-- **B3SUM:** 0742747c72585d5ee82c707899eebbc028608700644172758f9fbd65f66b7ce4
+- **SHA256SUM:** 9557b5816fb9df9378548cbe8e2cbe543dc73ace1970975253723b713f2a1f99
+- **B3SUM:** d11f2525e4f8ce8dd5ce1b75f68cacb05bcbddb50004e96d1881593c4b0ff99f
 - **Source:** https://bin.ajam.dev/x86_64_Linux/yggdrasil
 - **Language:** Go
 - **License:** Other
@@ -16680,7 +16680,7 @@
 - **Author:** mikefarah
 - **WebURL:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
 - **Repository:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
-- **Stars:** 11307
+- **Stars:** 11308
 - **Version:** v4.44.2
 - **Updated:** 2024-07-11T03:15:23Z
 - **Size:** 10.91 MB
@@ -16833,7 +16833,7 @@
 - **Author:** zellij-org
 - **WebURL:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
 - **Repository:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
-- **Stars:** 19517
+- **Stars:** 19520
 - **Version:** v0.40.1
 - **Updated:** 2024-07-10T19:56:27Z
 - **Size:** 31.33 MB
@@ -16850,7 +16850,7 @@
 - **Author:** bvaisvil
 - **WebURL:** [https://github.com/bvaisvil/zenith](https://github.com/bvaisvil/zenith)
 - **Repository:** [https://github.com/bvaisvil/zenith](https://github.com/bvaisvil/zenith)
-- **Stars:** 2527
+- **Stars:** 2528
 - **Version:** 0.14.1
 - **Updated:** 2024-05-01T22:57:48Z
 - **Size:** 2.07 MB
@@ -16867,7 +16867,7 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 13872
+- **Stars:** 13875
 - **Version:** 1.14.0
 - **Updated:** 2024-07-08T21:30:24Z
 - **Size:** 15.3 MB
@@ -16884,7 +16884,7 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 13872
+- **Stars:** 13875
 - **Version:** 1.14.0
 - **Updated:** 2024-07-08T21:30:24Z
 - **Size:** 15.3 MB
@@ -16901,7 +16901,7 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 13872
+- **Stars:** 13875
 - **Version:** 1.14.0
 - **Updated:** 2024-07-08T21:30:24Z
 - **Size:** 15.3 MB
@@ -16952,7 +16952,7 @@
 - **Author:** zmap
 - **WebURL:** [https://github.com/zmap/zgrab2](https://github.com/zmap/zgrab2)
 - **Repository:** [https://github.com/zmap/zgrab2](https://github.com/zmap/zgrab2)
-- **Stars:** 1669
+- **Stars:** 1670
 - **Version:** v0.1.8
 - **Updated:** 2024-07-08T09:49:10Z
 - **Size:** 13.34 MB
@@ -16969,7 +16969,7 @@
 - **Author:** marler8997
 - **WebURL:** [https://github.com/marler8997/zigup](https://github.com/marler8997/zigup)
 - **Repository:** [https://github.com/marler8997/zigup](https://github.com/marler8997/zigup)
-- **Stars:** 625
+- **Stars:** 627
 - **Version:** v2024_05_05
 - **Updated:** 2024-06-12T15:37:52Z
 - **Size:** 6.3 MB
@@ -16986,12 +16986,12 @@
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 20400
+- **Stars:** 20409
 - **Version:** v0.9.4
 - **Updated:** 2024-07-09T01:32:56Z
 - **Size:** 1.24 MB
-- **SHA256SUM:** 004621d2325f1e6ddb5908117e0c6f9f06ea43bce61ad3081bfaf0c4a44b7920
-- **B3SUM:** 02adf98e0b98d7c38299958ca82415a8e100e22ce723b68c81055af967a97144
+- **SHA256SUM:** 855cc2e284411b856b7b9dde53ab36d8bc4bc453fdccd54b3ad91ed633e287eb
+- **B3SUM:** cf3eb3045fa73c1a94cc947ecc119bcdeb0e824a5349404c67d9f9f3e3a63a18
 - **Source:** https://bin.ajam.dev/x86_64_Linux/z
 - **Language:** Rust
 - **License:** MIT License
@@ -17003,7 +17003,7 @@
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 20400
+- **Stars:** 20409
 - **Version:** v0.9.4
 - **Updated:** 2024-07-09T01:32:56Z
 - **Size:** 1.24 MB
@@ -17020,7 +17020,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://www.zsh.org/](https://www.zsh.org/)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3538
+- **Stars:** 3539
 - **Version:** zsh-5.9
 - **Updated:** 2024-07-04T03:01:37Z
 - **Size:** 1.58 MB
