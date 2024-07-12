@@ -35,10 +35,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
-        sh -c '
+        bash -c '
         #Setup ENV
-         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
-         mkdir -p "/build-bins"
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
         #Build
          git clone --filter "blob:none" --quiet "https://github.com/axel-download-accelerator/axel" && cd "./axel"
          export CFLAGS="-O2 -flto=auto -static -w -pipe"
@@ -47,6 +46,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" CPPFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
         #strip & info
          strip "./axel" ; "./axel" --version ; cp "./axel" "/build-bins/axel"
+         popd >/dev/null 2>&1
         '
       #Copy 
        docker cp "alpine-builder:/build-bins/axel" "./axel"
