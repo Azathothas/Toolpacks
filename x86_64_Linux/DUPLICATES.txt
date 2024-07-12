@@ -1,27 +1,27 @@
-Name: tailscale_bb
-DESCR: The easiest, most secure way to use WireGuard and 2FA
-Download URL: https://bin.ajam.dev/x86_64_Linux/tailscale_bb
-REPO: https://github.com/tailscale/tailscale
-Web URL: https://github.com/tailscale/tailscale
+Name: ipinfo
+DESCR: Official Command Line Interface for the IPinfo API
+Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo
+REPO: https://github.com/ipinfo/cli
+Web URL: https://ipinfo.io/
 
-Name: tailscale_combined
-DESCR: The easiest, most secure way to use WireGuard and 2FA
-Download URL: https://bin.ajam.dev/x86_64_Linux/tailscale_combined
-REPO: https://github.com/tailscale/tailscale
-Web URL: https://github.com/tailscale/tailscale
+Name: ipinfo-cli
+DESCR: Official Command Line Interface for the IPinfo API
+Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo-cli
+REPO: https://github.com/ipinfo/cli
+Web URL: https://ipinfo.io/
 
 ---------------------
-Name: warp-svc
-DESCR: cloudflare warp
-Download URL: https://bin.ajam.dev/x86_64_Linux/warp-svc
-REPO: 
-Web URL: https://pkg.cloudflareclient.com
+Name: cronie-crontab
+DESCR: Cronie cron daemon project
+Download URL: https://bin.ajam.dev/x86_64_Linux/cronie-crontab
+REPO: https://github.com/cronie-crond/cronie
+Web URL: https://github.com/cronie-crond/cronie
 
-Name: warp
-DESCR: S3 benchmarking tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/warp
-REPO: https://github.com/minio/warp
-Web URL: https://github.com/minio/warp
+Name: crontab
+DESCR: 
+Download URL: https://bin.ajam.dev/x86_64_Linux/crontab
+REPO: 
+Web URL: https://www.gnu.org/software/cron/
 
 ---------------------
 Name: rg
@@ -50,6 +50,19 @@ REPO: https://github.com/pymumu/smartdns
 Web URL: https://github.com/pymumu/smartdns
 
 ---------------------
+Name: hypervisor-fw
+DESCR: cloud-hypervisors firmware in rust
+Download URL: https://bin.ajam.dev/x86_64_Linux/hypervisor-fw
+REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
+Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
+
+Name: rust-hypervisor-firmware
+DESCR: cloud-hypervisors firmware in rust
+Download URL: https://bin.ajam.dev/x86_64_Linux/rust-hypervisor-firmware
+REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
+Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
+
+---------------------
 Name: nu
 DESCR: A new type of shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/nu
@@ -61,6 +74,19 @@ DESCR: A new type of shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/nushell
 REPO: https://github.com/nushell/nushell
 Web URL: https://github.com/nushell/nushell
+
+---------------------
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: loki
@@ -89,19 +115,6 @@ REPO: https://github.com/userdocs/iperf3-static
 Web URL: https://github.com/userdocs/iperf3-static
 
 ---------------------
-Name: u-root
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
-Name: uroot
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
----------------------
 Name: mtr
 DESCR: a network diagnostic tool
 Download URL: https://bin.ajam.dev/x86_64_Linux/mtr
@@ -128,6 +141,45 @@ REPO: https://github.com/rkd77/elinks
 Web URL: https://github.com/rkd77/elinks
 
 ---------------------
+Name: nmap-formatter
+DESCR: A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap-formatter
+REPO: https://github.com/vdjagilev/nmap-formatter
+Web URL: https://github.com/vdjagilev/nmap-formatter
+
+Name: nmap
+DESCR: port scanner
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap
+REPO: https://github.com/nmap/nmap
+Web URL: https://github.com/nmap/nmap
+
+---------------------
+Name: fd
+DESCR: A simple, fast and user-friendly alternative to find
+Download URL: https://bin.ajam.dev/x86_64_Linux/fd
+REPO: https://github.com/sharkdp/fd
+Web URL: https://github.com/sharkdp/fd
+
+Name: fd-find
+DESCR: A simple, fast and user-friendly alternative to find
+Download URL: https://bin.ajam.dev/x86_64_Linux/fd-find
+REPO: https://github.com/sharkdp/fd
+Web URL: https://github.com/sharkdp/fd
+
+---------------------
+Name: sshx
+DESCR: Fast, collaborative live terminal sharing over the web
+Download URL: https://bin.ajam.dev/x86_64_Linux/sshx
+REPO: https://github.com/ekzhang/sshx
+Web URL: https://github.com/ekzhang/sshx
+
+Name: sshx-server
+DESCR: Fast, collaborative live terminal sharing over the web
+Download URL: https://bin.ajam.dev/x86_64_Linux/sshx-server
+REPO: https://github.com/ekzhang/sshx
+Web URL: https://github.com/ekzhang/sshx
+
+---------------------
 Name: bat
 DESCR: cat with colors & syntax highlights
 Download URL: https://bin.ajam.dev/x86_64_Linux/bat
@@ -141,17 +193,30 @@ REPO: https://github.com/sharkdp/bat
 Web URL: https://github.com/sharkdp/bat
 
 ---------------------
-Name: hypervisor-fw
-DESCR: cloud-hypervisors firmware in rust
-Download URL: https://bin.ajam.dev/x86_64_Linux/hypervisor-fw
-REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
-Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
+Name: rebuilderd
+DESCR: Independent verification of binary packages - reproducible builds
+Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd
+REPO: https://github.com/kpcyrd/rebuilderd
+Web URL: https://github.com/kpcyrd/rebuilderd
 
-Name: rust-hypervisor-firmware
-DESCR: cloud-hypervisors firmware in rust
-Download URL: https://bin.ajam.dev/x86_64_Linux/rust-hypervisor-firmware
-REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
-Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
+Name: rebuilderd-worker
+DESCR: Independent verification of binary packages - reproducible builds
+Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd-worker
+REPO: https://github.com/kpcyrd/rebuilderd
+Web URL: https://github.com/kpcyrd/rebuilderd
+
+---------------------
+Name: nezha-dashboard
+DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/nezha-dashboard
+REPO: https://github.com/naiba/nezha
+Web URL: https://nezha.wiki/en_US/
+
+Name: nezha-dashboard.openrc
+DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/nezha-dashboard.openrc
+REPO: https://github.com/naiba/nezha
+Web URL: https://nezha.wiki/en_US/
 
 ---------------------
 Name: docker-proxy
@@ -198,6 +263,32 @@ REPO: https://github.com/zerotier/ZeroTierOne
 Web URL: https://www.zerotier.com/
 
 ---------------------
+Name: gitpod-cli
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gp
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gp
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+---------------------
+Name: u-root
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+Name: uroot
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+---------------------
 Name: localxpose
 DESCR: reverse proxy that enables you to expose your localhost to the internet.
 Download URL: https://bin.ajam.dev/x86_64_Linux/localxpose
@@ -237,31 +328,6 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: serverstatus-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
----------------------
 Name: desktop-file-edit
 DESCR: Command line utilities for working with .desktop files
 Download URL: https://bin.ajam.dev/x86_64_Linux/desktop-file-edit
@@ -288,17 +354,17 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: gitpod-cli
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: serverstatus-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
-Name: gp
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gp
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: ssr-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: rcat
@@ -314,30 +380,17 @@ REPO: https://github.com/robiot/rustcat
 Web URL: https://github.com/robiot/rustcat
 
 ---------------------
-Name: serverstatus-client
+Name: serverstatus-server-themed
 DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
 REPO: https://github.com/zdz/ServerStatus-Rust
 Web URL: https://doc.ssr.rs
 
-Name: ssr-client
+Name: ssr-server-themed
 DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
 REPO: https://github.com/zdz/ServerStatus-Rust
 Web URL: https://doc.ssr.rs
-
----------------------
-Name: z-tokens
-DESCR: z-tokens -- random tokens generation and related tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/z-tokens
-REPO: https://github.com/volution/z-tokens
-Web URL: https://github.com/volution/z-tokens
-
-Name: z
-DESCR: A smarter cd command.
-Download URL: https://bin.ajam.dev/x86_64_Linux/z
-REPO: https://github.com/ajeetdsouza/zoxide
-Web URL: https://github.com/ajeetdsouza/zoxide
 
 ---------------------
 Name: runc
@@ -377,6 +430,19 @@ DESCR: Container
 Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
 REPO: https://github.com/docker/cli
 Web URL: https://github.com/docker/cli
+
+---------------------
+Name: kak
+DESCR: a better code editor
+Download URL: https://bin.ajam.dev/x86_64_Linux/kak
+REPO: https://github.com/mawww/kakoune
+Web URL: https://github.com/mawww/kakoune
+
+Name: kakoune
+DESCR: a better code editor
+Download URL: https://bin.ajam.dev/x86_64_Linux/kakoune
+REPO: https://github.com/mawww/kakoune
+Web URL: https://github.com/mawww/kakoune
 
 ---------------------
 Name: gobusybox
