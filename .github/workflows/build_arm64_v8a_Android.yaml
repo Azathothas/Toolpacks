@@ -12,6 +12,7 @@ env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
   RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   TSKEY: "${{ secrets.TSKEY }}"
+  UPX_PACK: "YES"  
 #Begin
 jobs:
 #------------------------------------------------------------------------------------#

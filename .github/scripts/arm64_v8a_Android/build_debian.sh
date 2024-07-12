@@ -116,25 +116,48 @@ set +x
  curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json" | jq -r '.[].source_url' | grep -i "\.sh$" | sort -u -o "$SYSTMP/BUILDURLS"
  #Run
   echo -e "\n\n [+] Started Building at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
-  for BUILD_URL in $(cat "$SYSTMP/BUILDURLS"); do
-     #Init
-      START_TIME="$(date +%s)" && export START_TIME="$START_TIME"
-      echo -e "\n[+] Fetching : $BUILD_URL"
-     #Fetch 
-      curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
-      chmod +xwr "$BUILDSCRIPT"
-     #Run 
-      source "$BUILDSCRIPT" || true
-      #bash "$BUILDSCRIPT"
-     #Clean & Purge
-      sudo rm -rf "$SYSTMP/toolpacks" 2>/dev/null
-      mkdir -p "$SYSTMP/toolpacks"
-     #Finish
-      END_TIME="$(date +%s)" && export END_TIME="$END_TIME"
-      #ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" +%T)" && export ELAPSED_TIME="$ELAPSED_TIME"
-      ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
-      echo -e "\n[+] Completed (Building|Fetching) $BIN [$SOURCE_URL] :: $ELAPSED_TIME\n"
-  done
+  #for BUILD_URL in $(cat "$SYSTMP/BUILDURLS"); do
+  #   #Init
+  #    START_TIME="$(date +%s)" && export START_TIME="$START_TIME"
+  #    echo -e "\n[+] Fetching : $BUILD_URL"
+  #   #Fetch 
+  #    curl -qfsSL "$BUILD_URL" -o "$BUILDSCRIPT"
+  #    chmod +xwr "$BUILDSCRIPT"
+  #   #Run 
+  #    source "$BUILDSCRIPT" || true
+  #    #bash "$BUILDSCRIPT"
+  #   #Clean & Purge
+  #    sudo rm -rf "$SYSTMP/toolpacks" 2>/dev/null
+  #    mkdir -p "$SYSTMP/toolpacks"
+  #   #Finish
+  #    END_TIME="$(date +%s)" && export END_TIME="$END_TIME"
+  #    #ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" +%T)" && export ELAPSED_TIME="$ELAPSED_TIME"
+  #    ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
+  #    echo -e "\n[+] Completed (Building|Fetching) $BIN [$SOURCE_URL] :: $ELAPSED_TIME\n"
+  #done
+  readarray -t RECIPES < "$SYSTMP/BUILDURLS"
+  unset TOTAL_RECIPES
+  TOTAL_RECIPES="${#RECIPES[@]}" && export TOTAL_RECIPES="${TOTAL_RECIPES}" ; echo -e "\n[+] Total RECIPES :: ${TOTAL_RECIPES}\n"
+    for ((i=0; i<${#RECIPES[@]}; i++)); do
+      #Init
+        START_TIME="$(date +%s)" && export START_TIME="$START_TIME"
+        RECIPE="${RECIPES[i]}"
+        CURRENT_RECIPE=$((i+1))
+        echo -e "\n[+] Fetching : ${RECIPE} (${CURRENT_RECIPE}/${TOTAL_RECIPES})\n"
+      #Fetch
+        curl -qfsSL "${RECIPE}" -o "$BUILDSCRIPT"
+        chmod +xwr "$BUILDSCRIPT"
+      #Run 
+        source "$BUILDSCRIPT" || true
+      #Clean & Purge
+        sudo rm -rf "$SYSTMP/toolpacks" 2>/dev/null
+        mkdir -p "$SYSTMP/toolpacks"
+      #Finish
+        END_TIME="$(date +%s)" && export END_TIME="$END_TIME"
+        #ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" +%T)" && export ELAPSED_TIME="$ELAPSED_TIME"
+        ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
+      echo -e "\n[+] Completed (Building|Fetching) $BIN [$SOURCE_URL] :: $ELAPSED_TIME\n"  
+    done  
   echo -e "\n\n [+] Finished Building at :: $(TZ='Asia/Kathmandu' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
  #Check
  BINDIR_SIZE="$(du -sh "$BINDIR" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "BINDIR_SIZE=$BINDIR_SIZE"
@@ -167,11 +190,22 @@ set +x
 #rClone Upload to R2 (bin.ajam.dev/arm64_v8a_Android) (arm64_v8a_Android) [Binaries]
  if command -v rclone &> /dev/null && [ -s "$HOME/.config/rclone/rclone.conf" ] && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
     #Upload [$BINDIR]
-      echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      cd "$BINDIR" && rclone copy "." "r2:/bin/arm64_v8a_Android/" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress && sleep 60
+      rclone_main_up()
+      {
+        echo -e "\n[+] Uploading Results to R2 (Main)\n" 
+         rclone copy "." "r2:/bin/arm64_v8a_Android/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      }
+      export -f rclone_main_up
+      cd "$BINDIR"
+      sleep 60 && rclone_main_up ; sleep 60 && rclone_main_up ; sleep 60 && rclone_main_up
     #Upload [$BASEUTILSDIR]
-      echo -e "\n[+] Uploading Results to R2 (rclone)\n"
-      cd "$BASEUTILSDIR" && rclone copy "." "r2:/bin/arm64_v8a_Android/Baseutils/" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress && sleep 60
+      rclone_base_up()
+      {
+        echo -e "\n[+] Uploading Results to R2 (Baseutils)\n"
+         cd "$BASEUTILSDIR" && rclone copy "." "r2:/bin/arm64_v8a_Android/Baseutils/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+      }
+      export -f rclone_base_up
+      sleep 60 && rclone_base_up ; sleep 60 && rclone_base_up ; sleep 60 && rclone_base_up
     ##Archive Binaries (.7z) (arm64_v8a_Android) Bins [Downstreamed RCLONE]
        if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
             echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
@@ -180,7 +214,12 @@ set +x
           ##Fetch&Sync [$BINDIR]
              cd "$BINDIR"
              rclone delete "r2:/bin/arm64_v8a_Android/" --include "*.jq" --disable ListR --checkers="2000" --transfers="100" --progress
-             rclone copy "r2:/bin/arm64_v8a_Android/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress && sleep 60
+             rclone_main_dw()
+             {
+               rclone copy "r2:/bin/arm64_v8a_Android/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+             }
+             export -f rclone_main_dw
+             sleep 60 && rclone_main_dw ; sleep 60 && rclone_main_dw ; sleep 60 && rclone_main_dw
             #Strip || Cleanup
              #Chmod +xwr
              find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
@@ -207,7 +246,12 @@ set +x
              du -sh "$BINDIR.7z" && file "$BINDIR.7z"
           ##Fetch&Sync [$BASEUTILSDIR]
              cd "$BASEUTILSDIR"
-             rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress && sleep 60
+             rclone_base_dw()
+             {
+               rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+             }
+             export -f rclone_base_dw
+             sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw
             #Strip || Cleanup
              #Chmod +xwr
              find "$BASEUTILSDIR" -type f -exec chmod +xwr {} \; 2>/dev/null
@@ -318,8 +362,14 @@ if [ "${UPX_PACK}" = "YES" ]; then
        ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
        echo -e "\n[+] UPX Packing (Elapsed Time) $ELAPSED_TIME\n"  
        #Sync
-        rclone copy "r2:/bin/arm64_v8a_Android/" "." --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress && sleep 60
-        rclone sync "." "r2:/bin/arm64_v8a_Android/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress && sleep 60
+        rclone_upx_sync()
+        {
+           rclone copy "r2:/bin/arm64_v8a_Android/" "." --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+           sleep 30
+           rclone sync "." "r2:/bin/arm64_v8a_Android/" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+        }
+        export -f rclone_upx_sync
+        sleep 60 && rclone_upx_sync ; sleep 60 && rclone_upx_sync ; sleep 60 && rclone_upx_sync
      fi
    #Cleanup
      popd >/dev/null 2>&1
