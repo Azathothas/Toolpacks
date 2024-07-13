@@ -248,6 +248,7 @@ if ((Get-Command 7z -ErrorAction SilentlyContinue) -and (Get-Command rclone -Err
       rclone copy "." "r2:/bin/x64_Windows/" --user-agent="$env:USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress ; Pop-Location
     #Fetch&Sync
       Remove-Item -Path "$env:SYSTMP\toolpacks" -Force -Recurse -ErrorAction SilentlyContinue
+      New-Item -Path "$env:SYSTMP\toolpacks" -ItemType Directory -Force | Out-Null
       Push-Location "$env:BINDIR"     
       rclone copy "r2:/bin/x64_Windows/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$env:USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
     # #Strip || Cleanup

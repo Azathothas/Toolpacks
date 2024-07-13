@@ -210,7 +210,7 @@ set +x
        if command -v 7z &> /dev/null && [ -d "$BINDIR" ] && [ "$(find "$BINDIR" -mindepth 1 -print -quit 2>/dev/null)" ]; then
             echo -e "\n\n[+] Purging Build Cache $SYSTMP/toolpacks --> Size :: $(du -sh $SYSTMP/toolpacks | awk '{print $1}')\n\n"
              du -h --max-depth="1" "$SYSTMP" 2>/dev/null | sort -hr
-             rm -rf "$SYSTMP/toolpacks" 2>/dev/null
+             rm -rf "$SYSTMP/toolpacks" 2>/dev/null ; mkdir -p "$SYSTMP/toolpacks"
           ##Fetch&Sync [$BINDIR]
              cd "$BINDIR"
              rclone delete "r2:/bin/arm64_v8a_Android/" --include "*.jq" --disable ListR --checkers="2000" --transfers="100" --progress
@@ -340,6 +340,7 @@ set +x
 #UPX
 if [ "${UPX_PACK}" = "YES" ]; then
    #Fetch
+     mkdir -p "$SYSTMP/toolpacks"
      pushd "$($TMPDIRS)" >/dev/null 2>&1
      UPX_PACK_DIR="$(realpath .)" && export UPX_PACK_DIR="${UPX_PACK_DIR}"
      echo -e "\n[+] UPX Packing Enabled (DIR: ${UPX_PACK_DIR})\n"
