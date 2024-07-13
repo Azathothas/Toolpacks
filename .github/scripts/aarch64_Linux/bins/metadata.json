@@ -991,7 +991,7 @@
   },
   {
     "name": "exfatprogs.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-13T07:03:18",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/exfatprogs.sh"
   },
   {
@@ -1621,7 +1621,7 @@
   },
   {
     "name": "html-xml-utils.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-13T07:03:18",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/html-xml-utils.sh"
   },
   {
@@ -2096,7 +2096,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-07-12T21:06:41",
+    "update_date": "2024-07-13T00:08:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2231,7 +2231,7 @@
   },
   {
     "name": "netcat.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-13T07:03:18",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/netcat.sh"
   },
   {

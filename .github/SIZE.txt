@@ -1,4 +1,16 @@
- 83M └─┬ main
+131M └─┬ main
+ 63M   ├─┬ aarch64_arm64_Linux
+ 61M   │ ├── BUILD.log.txt
+924K   │ ├── METADATA.json
+624K   │ ├── DETAILED.md
+452K   │ ├── README.md
+180K   │ ├── BUILD_ERROR.log.md
+148K   │ ├── FILE.txt
+ 76K   │ ├── SHA256SUM.txt
+ 76K   │ ├── BLAKE3SUM.txt
+ 48K   │ ├── SIZE.txt
+ 48K   │ ├── SIZE.md
+ 16K   │ └── DUPLICATES.txt
  51M   ├─┬ x86_64_Linux
  49M   │ ├── BUILD.log.txt
 948K   │ ├── METADATA.json
@@ -11,29 +23,17 @@
  52K   │ ├── SIZE.md
  36K   │ ├── BUILD_ERROR.log.md
  16K   │ └── DUPLICATES.txt
- 18M   ├─┬ aarch64_arm64_Linux
- 16M   │ ├── BUILD.log.txt
-728K   │ ├── METADATA.json
-504K   │ ├── DETAILED.md
-368K   │ ├── README.md
-140K   │ ├── FILE.txt
- 72K   │ ├── SHA256SUM.txt
- 72K   │ ├── BLAKE3SUM.txt
- 48K   │ ├── SIZE.txt
- 48K   │ ├── SIZE.md
- 12K   │ ├── DUPLICATES.txt
-8.0K   │ └── BUILD_ERROR.log.md
-6.4M   ├── METADATA.json
-5.9M   ├── METADATA.yaml
-448K   ├─┬ x64_Windows
+7.9M   ├── METADATA.json
+7.3M   ├── METADATA.yaml
+452K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 24K   │ ├── FILE.txt
+ 20K   │ ├── FILE.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
-8.0K   │ ├── SIZE.txt
-8.0K   │ ├── SIZE.md
+ 12K   │ ├── SIZE.txt
+ 12K   │ ├── SIZE.md
   0B   │ └── DUPLICATES.txt
 108K   ├─┬ arm64_v8a_Android
  32K   │ ├── METADATA.json

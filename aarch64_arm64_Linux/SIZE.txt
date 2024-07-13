@@ -1,4 +1,4 @@
- 9.0G └─┬ /tmp/toolpack_aarch64
+ 9.4G └─┬ /tmp/toolpack_aarch64
  151M   ├── /tmp/toolpack_aarch64/traefik
  142M   ├── /tmp/toolpack_aarch64/aws-nuke
  137M   ├── /tmp/toolpack_aarch64/cloudfox
@@ -15,7 +15,9 @@
   71M   ├── /tmp/toolpack_aarch64/nuclei
   68M   ├── /tmp/toolpack_aarch64/alist
   64M   ├── /tmp/toolpack_aarch64/devpod
+  61M   ├── /tmp/toolpack_aarch64/loki
   59M   ├── /tmp/toolpack_aarch64/logcli
+  58M   ├── /tmp/toolpack_aarch64/wtfutil
   58M   ├── /tmp/toolpack_aarch64/wtf
   57M   ├── /tmp/toolpack_aarch64/dockerd
   56M   ├── /tmp/toolpack_aarch64/rclone
@@ -125,7 +127,9 @@
   20M   ├── /tmp/toolpack_aarch64/arduino-cli
   20M   ├── /tmp/toolpack_aarch64/alterx
   19M   ├── /tmp/toolpack_aarch64/jira-cli
+  19M   ├── /tmp/toolpack_aarch64/jira
   19M   ├── /tmp/toolpack_aarch64/cdncheck
+  19M   ├── /tmp/toolpack_aarch64/xetcmd
   19M   ├── /tmp/toolpack_aarch64/csvtk
   19M   ├── /tmp/toolpack_aarch64/meli
   19M   ├── /tmp/toolpack_aarch64/podsync
@@ -142,11 +146,13 @@
   18M   ├── /tmp/toolpack_aarch64/luet
   18M   ├── /tmp/toolpack_aarch64/nezha-agent
   17M   ├── /tmp/toolpack_aarch64/s3scanner
+  17M   ├── /tmp/toolpack_aarch64/chameleon
   17M   ├── /tmp/toolpack_aarch64/rekor-cli
   17M   ├── /tmp/toolpack_aarch64/ctr
   17M   ├── /tmp/toolpack_aarch64/gix
   17M   ├── /tmp/toolpack_aarch64/exatorrent
   17M   ├── /tmp/toolpack_aarch64/sunbeam
+  17M   ├── /tmp/toolpack_aarch64/imix
   17M   ├── /tmp/toolpack_aarch64/exatorrent-noui
   16M   ├── /tmp/toolpack_aarch64/garm
   16M   ├── /tmp/toolpack_aarch64/go-audit
@@ -161,6 +167,7 @@
   16M   ├── /tmp/toolpack_aarch64/gp
   16M   ├── /tmp/toolpack_aarch64/gitpod-cli
   16M   ├── /tmp/toolpack_aarch64/etcdctl
+  15M   ├── /tmp/toolpack_aarch64/golem
   15M   ├── /tmp/toolpack_aarch64/uroot-busybox
   15M   ├── /tmp/toolpack_aarch64/u-root-busybox
   15M   ├── /tmp/toolpack_aarch64/gobusybox
@@ -168,6 +175,7 @@
   15M   ├── /tmp/toolpack_aarch64/hednsextractor
   15M   ├── /tmp/toolpack_aarch64/diffoci
   15M   ├── /tmp/toolpack_aarch64/warp
+  15M   ├── /tmp/toolpack_aarch64/pgweb
   15M   ├── /tmp/toolpack_aarch64/filebrowser
   14M   ├── /tmp/toolpack_aarch64/cloudcash
   14M   ├── /tmp/toolpack_aarch64/php-fpm
@@ -181,11 +189,14 @@
   14M   ├── /tmp/toolpack_aarch64/ssr-server
   14M   ├── /tmp/toolpack_aarch64/serverstatus-server
   14M   ├── /tmp/toolpack_aarch64/hrekt
+  13M   ├── /tmp/toolpack_aarch64/certwatcher
   13M   ├── /tmp/toolpack_aarch64/pgrokd
   13M   ├── /tmp/toolpack_aarch64/godns
   13M   ├── /tmp/toolpack_aarch64/smap
+  13M   ├── /tmp/toolpack_aarch64/sysbox-runc
   13M   ├── /tmp/toolpack_aarch64/listmonk
   13M   ├── /tmp/toolpack_aarch64/ct_monitor
+  13M   ├── /tmp/toolpack_aarch64/rqbit
   13M   ├── /tmp/toolpack_aarch64/etcdutl
   13M   ├── /tmp/toolpack_aarch64/wiretap
   13M   ├── /tmp/toolpack_aarch64/zerotier-one
@@ -198,6 +209,7 @@
   12M   ├── /tmp/toolpack_aarch64/qsv
   12M   ├── /tmp/toolpack_aarch64/gdu
   12M   ├── /tmp/toolpack_aarch64/hcloud
+  12M   ├── /tmp/toolpack_aarch64/stree
   12M   ├── /tmp/toolpack_aarch64/logstation
   12M   ├── /tmp/toolpack_aarch64/opengfw
   12M   ├── /tmp/toolpack_aarch64/s3sync
@@ -221,16 +233,19 @@
   11M   ├── /tmp/toolpack_aarch64/mirrorbits
   11M   ├── /tmp/toolpack_aarch64/jqp
   11M   ├── /tmp/toolpack_aarch64/ein
+  11M   ├── /tmp/toolpack_aarch64/sysbox-fs
   11M   ├── /tmp/toolpack_aarch64/fq
   11M   ├── /tmp/toolpack_aarch64/netmaker
   11M   ├── /tmp/toolpack_aarch64/ssr-server-themed
   11M   ├── /tmp/toolpack_aarch64/serverstatus-server-themed
   11M   ├── /tmp/toolpack_aarch64/tty2web
   11M   ├── /tmp/toolpack_aarch64/sslsearch
+  11M   ├── /tmp/toolpack_aarch64/sysbox-mgr
   10M   ├── /tmp/toolpack_aarch64/cfssl
   10M   ├── /tmp/toolpack_aarch64/pktstat
   10M   ├── /tmp/toolpack_aarch64/apkeep
   10M   ├── /tmp/toolpack_aarch64/vfox
+  10M   ├── /tmp/toolpack_aarch64/openapi-tui
   10M   ├── /tmp/toolpack_aarch64/fx
   10M   ├── /tmp/toolpack_aarch64/micro
   10M   ├── /tmp/toolpack_aarch64/multirootca
@@ -248,6 +263,7 @@
   10M   ├── /tmp/toolpack_aarch64/supervisord
   10M   ├── /tmp/toolpack_aarch64/netscanner
  9.9M   ├── /tmp/toolpack_aarch64/mdcat
+ 9.9M   ├── /tmp/toolpack_aarch64/katana_staticx
  9.9M   ├── /tmp/toolpack_aarch64/sync-color-schemes
  9.8M   ├── /tmp/toolpack_aarch64/x8
  9.8M   ├── /tmp/toolpack_aarch64/runc
@@ -272,6 +288,7 @@
  9.2M   ├── /tmp/toolpack_aarch64/ngocok
  9.2M   ├── /tmp/toolpack_aarch64/vultr-cli
  9.1M   ├── /tmp/toolpack_aarch64/dasel
+ 9.0M   ├── /tmp/toolpack_aarch64/naabu_staticx
  9.0M   ├── /tmp/toolpack_aarch64/cfssl-newkey
  9.0M   ├── /tmp/toolpack_aarch64/ipinfo-cli
  9.0M   ├── /tmp/toolpack_aarch64/ipinfo
@@ -335,6 +352,7 @@
  7.7M   ├── /tmp/toolpack_aarch64/wstunnel
  7.6M   ├── /tmp/toolpack_aarch64/planor
  7.6M   ├── /tmp/toolpack_aarch64/nomore403
+ 7.6M   ├── /tmp/toolpack_aarch64/dontgo403
  7.6M   ├── /tmp/toolpack_aarch64/sj
  7.6M   ├── /tmp/toolpack_aarch64/viddy
  7.5M   ├── /tmp/toolpack_aarch64/gau
@@ -362,8 +380,10 @@
  7.0M   ├── /tmp/toolpack_aarch64/trurl
  7.0M   ├── /tmp/toolpack_aarch64/subxtract
  7.0M   ├── /tmp/toolpack_aarch64/dnslookup
+ 7.0M   ├── /tmp/toolpack_aarch64/watchexec
  7.0M   ├── /tmp/toolpack_aarch64/clipcat-menu
  6.9M   ├── /tmp/toolpack_aarch64/qemu-xtensaeb-static
+ 6.9M   ├── /tmp/toolpack_aarch64/nmap
  6.9M   ├── /tmp/toolpack_aarch64/godnsbench
  6.9M   ├── /tmp/toolpack_aarch64/brename
  6.9M   ├── /tmp/toolpack_aarch64/fasttld
@@ -396,7 +416,9 @@
  6.3M   ├── /tmp/toolpack_aarch64/speedtest-go
  6.3M   ├── /tmp/toolpack_aarch64/hxn
  6.3M   ├── /tmp/toolpack_aarch64/cloak-client
+ 6.2M   ├── /tmp/toolpack_aarch64/xplr
  6.2M   ├── /tmp/toolpack_aarch64/fuzzuli
+ 6.1M   ├── /tmp/toolpack_aarch64/mullvad-cli
  6.1M   ├── /tmp/toolpack_aarch64/yalis
  6.0M   ├── /tmp/toolpack_aarch64/hub
  6.0M   ├── /tmp/toolpack_aarch64/cherrybomb
@@ -444,10 +466,12 @@
  5.2M   ├── /tmp/toolpack_aarch64/bat
  5.1M   ├── /tmp/toolpack_aarch64/certspotter
  5.1M   ├── /tmp/toolpack_aarch64/bombadillo
+ 5.1M   ├── /tmp/toolpack_aarch64/dizi-server
  5.1M   ├── /tmp/toolpack_aarch64/albafetch
  5.1M   ├── /tmp/toolpack_aarch64/vtm
  5.1M   ├── /tmp/toolpack_aarch64/clipcatctl
  5.1M   ├── /tmp/toolpack_aarch64/gitdorks_go
+ 5.1M   ├── /tmp/toolpack_aarch64/ksubdomain_staticx
  5.1M   ├── /tmp/toolpack_aarch64/getJS
  5.0M   ├── /tmp/toolpack_aarch64/hacker-scoper
  5.0M   ├── /tmp/toolpack_aarch64/wget
@@ -493,8 +517,12 @@
  4.7M   ├── /tmp/toolpack_aarch64/mani
  4.6M   ├── /tmp/toolpack_aarch64/mkbundle
  4.6M   ├── /tmp/toolpack_aarch64/jen
+ 4.6M   ├── /tmp/toolpack_aarch64/agg
+ 4.6M   ├── /tmp/toolpack_aarch64/stress-ng
+ 4.6M   ├── /tmp/toolpack_aarch64/gxss
  4.5M   ├── /tmp/toolpack_aarch64/jwt-hack
  4.5M   ├── /tmp/toolpack_aarch64/fget
+ 4.5M   ├── /tmp/toolpack_aarch64/dizi
  4.5M   ├── /tmp/toolpack_aarch64/procs
  4.5M   ├── /tmp/toolpack_aarch64/xbps-remove
  4.5M   ├── /tmp/toolpack_aarch64/xbps-install
@@ -504,6 +532,8 @@
  4.4M   ├── /tmp/toolpack_aarch64/hakoriginfinder
  4.4M   ├── /tmp/toolpack_aarch64/hakip2host
  4.4M   ├── /tmp/toolpack_aarch64/crlfuzz
+ 4.4M   ├── /tmp/toolpack_aarch64/elinks-lite
+ 4.4M   ├── /tmp/toolpack_aarch64/elinks
  4.4M   ├── /tmp/toolpack_aarch64/cwe_checker
  4.4M   ├── /tmp/toolpack_aarch64/crt
  4.4M   ├── /tmp/toolpack_aarch64/enumerepo
@@ -521,6 +551,7 @@
  4.3M   ├── /tmp/toolpack_aarch64/xbps-dgraph
  4.3M   ├── /tmp/toolpack_aarch64/xbps-checkvers
  4.3M   ├── /tmp/toolpack_aarch64/xbps-alternatives
+ 4.3M   ├── /tmp/toolpack_aarch64/rsync
  4.3M   ├── /tmp/toolpack_aarch64/certstream
  4.2M   ├── /tmp/toolpack_aarch64/overmind
  4.2M   ├── /tmp/toolpack_aarch64/qemu-riscv64-static
@@ -572,8 +603,10 @@
  3.7M   ├── /tmp/toolpack_aarch64/fblog
  3.7M   ├── /tmp/toolpack_aarch64/zt-patterns
  3.7M   ├── /tmp/toolpack_aarch64/bottom
+ 3.6M   ├── /tmp/toolpack_aarch64/rga
  3.6M   ├── /tmp/toolpack_aarch64/tokei
  3.6M   ├── /tmp/toolpack_aarch64/sshkeys
+ 3.6M   ├── /tmp/toolpack_aarch64/gpg-tui
  3.6M   ├── /tmp/toolpack_aarch64/tun2proxy
  3.6M   ├── /tmp/toolpack_aarch64/qemu-x86_64-static
  3.6M   ├── /tmp/toolpack_aarch64/qemu-i386-static
@@ -624,6 +657,7 @@
  3.0M   ├── /tmp/toolpack_aarch64/7z
  2.9M   ├── /tmp/toolpack_aarch64/bed
  2.9M   ├── /tmp/toolpack_aarch64/lsd
+ 2.9M   ├── /tmp/toolpack_aarch64/wasminspect
  2.9M   ├── /tmp/toolpack_aarch64/ctrsploit-checksec
  2.9M   ├── /tmp/toolpack_aarch64/qemu-alpha-static
  2.9M   ├── /tmp/toolpack_aarch64/qemu-sh4eb-static
@@ -639,6 +673,7 @@
  2.8M   ├── /tmp/toolpack_aarch64/qemu-nios2-static
  2.8M   ├── /tmp/toolpack_aarch64/killport
  2.8M   ├── /tmp/toolpack_aarch64/taierspeed-cli
+ 2.8M   ├── /tmp/toolpack_aarch64/nping
  2.8M   ├── /tmp/toolpack_aarch64/smartdns
  2.7M   ├── /tmp/toolpack_aarch64/goawk
  2.7M   ├── /tmp/toolpack_aarch64/cowthink
@@ -646,6 +681,7 @@
  2.7M   ├── /tmp/toolpack_aarch64/yj
  2.7M   ├── /tmp/toolpack_aarch64/rust-parallel
  2.7M   ├── /tmp/toolpack_aarch64/gs-netcat
+ 2.7M   ├── /tmp/toolpack_aarch64/ncat
  2.7M   ├── /tmp/toolpack_aarch64/wireguard-go
  2.7M   ├── /tmp/toolpack_aarch64/jobs
  2.6M   ├── /tmp/toolpack_aarch64/tlrc
@@ -702,6 +738,7 @@
  2.0M   ├── /tmp/toolpack_aarch64/ffufPostprocessing
  2.0M   ├── /tmp/toolpack_aarch64/phantun-server
  2.0M   ├── /tmp/toolpack_aarch64/grex
+ 2.0M   ├── /tmp/toolpack_aarch64/pelfd-bin
  2.0M   ├── /tmp/toolpack_aarch64/gf
  2.0M   ├── /tmp/toolpack_aarch64/sd
  2.0M   ├── /tmp/toolpack_aarch64/cexec
@@ -779,6 +816,7 @@
  1.4M   ├── /tmp/toolpack_aarch64/eae
  1.4M   ├── /tmp/toolpack_aarch64/cleanpath
  1.3M   ├── /tmp/toolpack_aarch64/ds
+ 1.3M   ├── /tmp/toolpack_aarch64/dropbearmulti
  1.3M   ├── /tmp/toolpack_aarch64/uip
  1.3M   ├── /tmp/toolpack_aarch64/ttyd
  1.3M   ├── /tmp/toolpack_aarch64/tok
@@ -787,6 +825,7 @@
  1.3M   ├── /tmp/toolpack_aarch64/comb
  1.3M   ├── /tmp/toolpack_aarch64/mgwls
  1.3M   ├── /tmp/toolpack_aarch64/xargs-rs
+ 1.3M   ├── /tmp/toolpack_aarch64/dropbear
  1.3M   ├── /tmp/toolpack_aarch64/patchelf
  1.2M   ├── /tmp/toolpack_aarch64/genact
  1.2M   ├── /tmp/toolpack_aarch64/bore
@@ -794,11 +833,13 @@
  1.2M   ├── /tmp/toolpack_aarch64/desktop-file-install
  1.2M   ├── /tmp/toolpack_aarch64/desktop-file-edit
  1.2M   ├── /tmp/toolpack_aarch64/update-desktop-database
+ 1.2M   ├── /tmp/toolpack_aarch64/busybox
  1.1M   ├── /tmp/toolpack_aarch64/progress
  1.1M   ├── /tmp/toolpack_aarch64/hyperfine
  1.1M   ├── /tmp/toolpack_aarch64/rustcat
  1.1M   ├── /tmp/toolpack_aarch64/rcat
  1.1M   ├── /tmp/toolpack_aarch64/ubase-box
+ 1.1M   ├── /tmp/toolpack_aarch64/dbclient
  1.1M   ├── /tmp/toolpack_aarch64/bash
  1.0M   ├── /tmp/toolpack_aarch64/pier
 1004K   ├── /tmp/toolpack_aarch64/rathole
@@ -807,6 +848,8 @@
  996K   ├── /tmp/toolpack_aarch64/strip-ansi-escapes
  964K   ├── /tmp/toolpack_aarch64/grep
  960K   ├── /tmp/toolpack_aarch64/fuse-overlayfs
+ 908K   ├── /tmp/toolpack_aarch64/dropbearkey
+ 908K   ├── /tmp/toolpack_aarch64/dropbearconvert
  868K   ├── /tmp/toolpack_aarch64/jql
  868K   ├── /tmp/toolpack_aarch64/b3sum
  844K   ├── /tmp/toolpack_aarch64/svg-hush
@@ -821,9 +864,11 @@
  704K   ├── /tmp/toolpack_aarch64/anew-rs
  684K   ├── /tmp/toolpack_aarch64/anewer
  680K   ├── /tmp/toolpack_aarch64/zt-hashes
+ 664K   ├── /tmp/toolpack_aarch64/binfetch
  660K   ├── /tmp/toolpack_aarch64/whois
  644K   ├── /tmp/toolpack_aarch64/squashfuse_ll
  644K   ├── /tmp/toolpack_aarch64/squashfuse
+ 588K   ├── /tmp/toolpack_aarch64/dropbearscp
  588K   ├── /tmp/toolpack_aarch64/docker-init
  584K   ├── /tmp/toolpack_aarch64/mtr
  564K   ├── /tmp/toolpack_aarch64/upx
@@ -831,19 +876,24 @@
  544K   ├── /tmp/toolpack_aarch64/ncdu
  516K   ├── /tmp/toolpack_aarch64/tio
  516K   ├── /tmp/toolpack_aarch64/oksh
+ 516K   ├── /tmp/toolpack_aarch64/mount.fuse3
  516K   ├── /tmp/toolpack_aarch64/loksh
  512K   ├── /tmp/toolpack_aarch64/elfcat
  492K   ├── /tmp/toolpack_aarch64/unifetch
  480K   ├── /tmp/toolpack_aarch64/zt-encodings
+ 452K   ├── /tmp/toolpack_aarch64/scp
  416K   ├── /tmp/toolpack_aarch64/generate-bidi
  408K   ├── /tmp/toolpack_aarch64/shellharden
+ 400K   ├── /tmp/toolpack_aarch64/sadf
  388K   ├── /tmp/toolpack_aarch64/nnn
  388K   ├── /tmp/toolpack_aarch64/logrotate
  388K   ├── /tmp/toolpack_aarch64/fi6s
+ 364K   ├── /tmp/toolpack_aarch64/sftp
  324K   ├── /tmp/toolpack_aarch64/pigz
  324K   ├── /tmp/toolpack_aarch64/mdp
  324K   ├── /tmp/toolpack_aarch64/doas
  288K   ├── /tmp/toolpack_aarch64/region_restriction_check.sh
+ 276K   ├── /tmp/toolpack_aarch64/sftp-server
  268K   ├── /tmp/toolpack_aarch64/wg
  264K   ├── /tmp/toolpack_aarch64/netstat
  260K   ├── /tmp/toolpack_aarch64/twingate-notifier
@@ -857,6 +907,8 @@
  212K   ├── /tmp/toolpack_aarch64/zapper-stealth
  212K   ├── /tmp/toolpack_aarch64/reptyr
  212K   ├── /tmp/toolpack_aarch64/cpufetch
+ 208K   ├── /tmp/toolpack_aarch64/sar
+ 208K   ├── /tmp/toolpack_aarch64/ping
  204K   ├── /tmp/toolpack_aarch64/nfs-stat
  204K   ├── /tmp/toolpack_aarch64/nfs-ls
  204K   ├── /tmp/toolpack_aarch64/nfs-cp
@@ -869,32 +921,42 @@
  196K   ├── /tmp/toolpack_aarch64/migratepages
  196K   ├── /tmp/toolpack_aarch64/memhog
  196K   ├── /tmp/toolpack_aarch64/hcxdumptool
+ 180K   ├── /tmp/toolpack_aarch64/rust-hypervisor-firmware
  180K   ├── /tmp/toolpack_aarch64/jsmug
+ 180K   ├── /tmp/toolpack_aarch64/hypervisor-fw
  172K   ├── /tmp/toolpack_aarch64/minisign
  168K   ├── /tmp/toolpack_aarch64/linuxwave
  140K   ├── /tmp/toolpack_aarch64/unix2mac
  140K   ├── /tmp/toolpack_aarch64/unix2dos
+ 140K   ├── /tmp/toolpack_aarch64/pidstat
  140K   ├── /tmp/toolpack_aarch64/mac2unix
+ 140K   ├── /tmp/toolpack_aarch64/ipt2socks
  140K   ├── /tmp/toolpack_aarch64/dos2unix
- 136K   ├── /tmp/toolpack_aarch64/rust-hypervisor-firmware
- 136K   ├── /tmp/toolpack_aarch64/hypervisor-fw
+ 132K   ├── /tmp/toolpack_aarch64/tracepath
  132K   ├── /tmp/toolpack_aarch64/pwait
  132K   ├── /tmp/toolpack_aarch64/numastat
  132K   ├── /tmp/toolpack_aarch64/mtr-packet
  132K   ├── /tmp/toolpack_aarch64/hcxhash2cap
+ 132K   ├── /tmp/toolpack_aarch64/fusermount3
  132K   ├── /tmp/toolpack_aarch64/entr
  132K   ├── /tmp/toolpack_aarch64/crontab
  132K   ├── /tmp/toolpack_aarch64/cron
+ 132K   ├── /tmp/toolpack_aarch64/clockdiff
+ 132K   ├── /tmp/toolpack_aarch64/arping
  124K   ├── /tmp/toolpack_aarch64/sadc
+ 112K   ├── /tmp/toolpack_aarch64/tapestat
  108K   ├── /tmp/toolpack_aarch64/massdns
  108K   ├── /tmp/toolpack_aarch64/cronie-crond
+ 104K   ├── /tmp/toolpack_aarch64/iostat
  100K   ├── /tmp/toolpack_aarch64/shc
   96K   ├── /tmp/toolpack_aarch64/darkhttpd
   96K   ├── /tmp/toolpack_aarch64/cronie-crontab
+  92K   ├── /tmp/toolpack_aarch64/mpstat
   80K   ├── /tmp/toolpack_aarch64/cronie-cronnext
   76K   ├── /tmp/toolpack_aarch64/bin2video
   68K   ├── /tmp/toolpack_aarch64/hcxwltool
   68K   ├── /tmp/toolpack_aarch64/hcxeiutool
+  68K   ├── /tmp/toolpack_aarch64/cifsiostat
   64K   ├── /tmp/toolpack_aarch64/joker
   56K   ├── /tmp/toolpack_aarch64/gguf-tools
   52K   ├── /tmp/toolpack_aarch64/catatonit
@@ -916,12 +978,14 @@
   16K   ├── /tmp/toolpack_aarch64/dockerd-rootless-setuptool.sh
   16K   ├── /tmp/toolpack_aarch64/bench.sh
  8.0K   ├── /tmp/toolpack_aarch64/sk-tmux
+ 8.0K   ├── /tmp/toolpack_aarch64/rsync-ssl
  8.0K   ├── /tmp/toolpack_aarch64/gsocket
  8.0K   ├── /tmp/toolpack_aarch64/dockerd-rootless.sh
  8.0K   ├── /tmp/toolpack_aarch64/ansi2txt
  4.0K   ├── /tmp/toolpack_aarch64/zerotier-one_systemd_service
  4.0K   ├── /tmp/toolpack_aarch64/sysstat
  4.0K   ├── /tmp/toolpack_aarch64/subxtract.sh
+ 4.0K   ├── /tmp/toolpack_aarch64/sshd_config
  4.0K   ├── /tmp/toolpack_aarch64/serverstatus-gen-certs.sh
  4.0K   ├── /tmp/toolpack_aarch64/scopeview
  4.0K   ├── /tmp/toolpack_aarch64/sa2
@@ -929,4 +993,6 @@
  4.0K   ├── /tmp/toolpack_aarch64/pelf_linker
  4.0K   ├── /tmp/toolpack_aarch64/pelf_extract
  4.0K   ├── /tmp/toolpack_aarch64/nezha-dashboard.service
- 4.0K   └── /tmp/toolpack_aarch64/nezha-dashboard.openrc
+ 4.0K   ├── /tmp/toolpack_aarch64/nezha-dashboard.openrc
+ 4.0K   ├── /tmp/toolpack_aarch64/binfetch.cfg
+ 4.0K   └── /tmp/toolpack_aarch64/TEST
