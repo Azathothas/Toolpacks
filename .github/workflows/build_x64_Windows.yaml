@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
   #  - cron: "30 22 * * 5" # 10:30 PM UTC Friday --> 04:15 AM NPT Mrng Every Saturday
-    - cron: "30 22 * * 0,2,5" # 10:30 PM UTC (04:15 AM NPT Mrng Every Mon, Wed & Sat)
+    - cron: "30 18 * * 0,2,5" # 06:30 PM UTC (12:15 AM NPT Mrng Every Mon, Wed & Sat)
 #Sane env
 env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"

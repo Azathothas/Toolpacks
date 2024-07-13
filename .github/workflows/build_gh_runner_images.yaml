@@ -8,7 +8,7 @@ on:
   #push:
   workflow_dispatch:
   schedule:
-    - cron: "30 08 * * 6"  # 08:30 PM UTC Sat (02:15 AM NPT Sun Midnight) 
+    - cron: "30 08 * * 4"  # 08:30 PM UTC Fri (02:15 AM NPT Fri Midnight) 
   #  - cron: "*/30 * * * *"  # Every 30 Mins
 defaults:
   run:
