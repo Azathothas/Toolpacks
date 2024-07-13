@@ -1,4 +1,4 @@
-558M └─┬ /tmp/toolpack_arm64_v8a_Android
+1.3G └─┬ /tmp/toolpack_arm64_v8a_Android
  81M   ├── /tmp/toolpack_arm64_v8a_Android/rclone
  40M   ├── /tmp/toolpack_arm64_v8a_Android/httpx
  25M   ├── /tmp/toolpack_arm64_v8a_Android/gowitness
@@ -53,4 +53,20 @@
 248K   ├── /tmp/toolpack_arm64_v8a_Android/sudo
 224K   ├── /tmp/toolpack_arm64_v8a_Android/wget_cacert.pem
 224K   ├── /tmp/toolpack_arm64_v8a_Android/curl_cacert.pem
-168K   └── /tmp/toolpack_arm64_v8a_Android/adig
+168K   ├── /tmp/toolpack_arm64_v8a_Android/adig
+ 32K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_Baseutils_FILE
+ 28K   ├── /tmp/toolpack_arm64_v8a_Android/C7cSP_init.sh
+ 28K   ├── /tmp/toolpack_arm64_v8a_Android/BUILD.sh
+ 24K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_Baseutils_SHA256SUM
+ 24K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_Baseutils_BLAKE3SUM
+ 12K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_FILE
+8.0K   ├── /tmp/toolpack_arm64_v8a_Android/setup_tailscale.sh
+8.0K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_SHA256SUM
+8.0K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_BLAKE3SUM
+4.0K   ├── /tmp/toolpack_arm64_v8a_Android/nUMEF_build.sh
+4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_toolpack_arm64_v8a_SHA256SUM
+4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_toolpack_arm64_v8a_BLAKE3SUM
+4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_baseutils_arm64_v8a_SHA256SUM
+4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_baseutils_arm64_v8a_BLAKE3SUM
+4.0K   ├── /tmp/toolpack_arm64_v8a_Android/INITIALIZED
+4.0K   └── /tmp/toolpack_arm64_v8a_Android/BUILDURLS
