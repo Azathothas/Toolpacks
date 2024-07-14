@@ -117,7 +117,7 @@
 > >
 > > !#STOP/DEL
 > > sudo podman stop "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')"
-> > sudo podman rm "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')" --force
+> > sudo podman rm "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')" --force 2>/dev/null
 > > ```
 ---
 
