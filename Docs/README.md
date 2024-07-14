@@ -106,18 +106,20 @@
 > > ```bash
 > > !#Automatically picks up correct $ARCH & $IMAGE based on Host
 > > sudo mkdir -p "/var/lib/containers/tmp"
-> > sudo podman run --detach --rm --privileged --network="bridge" --publish "22222:22" --systemd="always" --volume="/var/lib/containers/tmp:/tmp" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
+> > sudo podman run --detach --privileged --network="bridge" --publish "22222:22" --systemd="always" --volume="/var/lib/containers/tmp:/tmp" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
 > >
 > > !#Add SSH Keys (Replace with yours)
-> > sudo podman exec -it -u "runner" "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[] | select(.Image == "docker.io/azathothas/ubuntu-systemd-base:latest") | .Id')" bash -c 'sudo curl -qfsSL "https://github.com/Azathothas.keys" | sudo sort -u -o "/etc/ssh/authorized_keys" ; sudo systemctl restart sshd'
+> > sudo podman exec -it -u "runner" "toolpacker-dbg" bash -c 'sudo curl -qfsSL "https://github.com/Azathothas.keys" | sudo sort -u -o "/etc/ssh/authorized_keys" ; sudo systemctl restart sshd'
 > >
 > > !#SSH IN
 > > echo -e "\n[+] HOST_IP : $(ip -4 addr show $(ip route | grep default | awk '{print $5}') | grep -oP '(?<=inet\s)\d+(\.\d+){3}')\n"
 > > ssh "runner@$HOST_IP" -p "22222" -o "StrictHostKeyChecking=no" -i "$PATH_TO_SSH_KEY"
+> > #After SSH, the source script sets up ENV & PATH
+> > source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/$(uname -m)_Linux/env.sh")
 > >
 > > !#STOP/DEL
-> > sudo podman stop "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')"
-> > sudo podman rm "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')" --force 2>/dev/null
+> > sudo podman stop "toolpacker-dbg"
+> > sudo podman rm "toolpacker-dbg" --force 2>/dev/null
 > > ```
 ---
 
