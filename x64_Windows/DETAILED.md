@@ -3,7 +3,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 451
+- **Stars:** 452
 - **Version:** 24.07
 - **Updated:** 2024-07-05T14:39:53Z
 - **Size:** 1.32 MB
@@ -71,9 +71,9 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 39793
+- **Stars:** 39792
 - **Version:** v3.35.0
-- **Updated:** 2024-07-13T18:42:50Z
+- **Updated:** 2024-07-13T22:16:30Z
 - **Size:** 76.47 MB
 - **SHA256SUM:** d962606c1007bf15071deaa5db223563c50891e1cff9289c013cb8e81fb0f41d
 - **B3SUM:** e14423516e32d929baa9eca0c14e3e7dc1423a4b790c1669504b7d00a0979dd6
@@ -139,7 +139,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47773
+- **Stars:** 47772
 - **Version:** v0.24.0
 - **Updated:** 2024-07-05T10:31:04Z
 - **Size:** 6.32 MB
@@ -156,7 +156,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47773
+- **Stars:** 47772
 - **Version:** v0.24.0
 - **Updated:** 2024-07-05T10:31:04Z
 - **Size:** 6.32 MB
@@ -1618,7 +1618,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 26894
+- **Stars:** 26895
 - **Version:** v10.0.10
 - **Updated:** 2024-07-09T13:25:55Z
 - **Size:** 8.7 MB
@@ -1754,7 +1754,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
 - **Repository:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
-- **Stars:** 3722
+- **Stars:** 3723
 - **Version:** v2.29.0
 - **Updated:** 2024-05-27T05:17:07Z
 - **Size:** 1.56 MB
@@ -1771,7 +1771,7 @@
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 5418
+- **Stars:** 5419
 - **Version:** v0.41.0
 - **Updated:** 2024-07-11T11:47:22Z
 - **Size:** 3.63 MB
@@ -1788,7 +1788,7 @@
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8129
+- **Stars:** 8130
 - **Version:** v1.0.0
 - **Updated:** 2024-07-13T06:45:14Z
 - **Size:** 2.79 MB
@@ -2198,7 +2198,7 @@
 - **Repository:** [https://github.com/jdrews/logstation](https://github.com/jdrews/logstation)
 - **Stars:** 80
 - **Version:** v2.2.1
-- **Updated:** 2024-07-12T02:18:43Z
+- **Updated:** 2024-07-13T22:55:56Z
 - **Size:** 14.12 MB
 - **SHA256SUM:** 4674b36dad31a9f471ed144260f30caee91dae91446bb6119282f344c628c91b
 - **B3SUM:** ead80c42b803a2825df7b6ec380577ac42518197b346f43e4c972f94a7faebf0
@@ -2213,7 +2213,7 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24435
+- **Stars:** 24434
 - **Version:** v2.0.13
 - **Updated:** 2024-07-13T15:32:53Z
 - **Size:** 11.88 MB
@@ -2230,7 +2230,7 @@
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - **Repository:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
-- **Stars:** 5785
+- **Stars:** 5784
 - **Version:** v0.27.1
 - **Updated:** 2024-07-07T03:24:09Z
 - **Size:** 1.9 MB
@@ -2451,7 +2451,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 46349
+- **Stars:** 46350
 - **Version:** 14.1.0
 - **Updated:** 2024-07-04T11:25:13Z
 - **Size:** 5.33 MB
@@ -2640,7 +2640,7 @@
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Stars:** 76830
 - **Version:** 2024.07.09
-- **Updated:** 2024-07-13T20:06:53Z
+- **Updated:** 2024-07-14T00:16:18Z
 - **Size:** 180.22 kB
 - **SHA256SUM:** a49c61fe4263717c00faca7b55ffd7ed28710f0740923735c4e9aa7d1329160b
 - **B3SUM:** 92331dcf59ec4b746843d942705e38e9ca3656769bd1488b9507c6417c90620f

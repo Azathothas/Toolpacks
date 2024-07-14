@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52319
+- **Stars:** 52324
 - **Version:** v0.2.64
 - **Updated:** 2024-07-11T14:29:34Z
 - **Size:** 19.31 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1807
 - **Version:** v1.32.1
-- **Updated:** 2024-07-13T21:18:05Z
+- **Updated:** 2024-07-14T00:09:52Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** f00718b3f70e937fc40f472ac4d448935ed16a2eea5a19e2c5bc09654b9b2695
 - **B3SUM:** 66b9127f579944bda4838c171d1519b79d32445d909ee5e1ee80a1a96f006bf0
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34206
+- **Stars:** 34207
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-30T12:47:39Z
 - **Size:** 9.3 MB
@@ -192,7 +192,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34854
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-13T20:14:11Z
+- **Updated:** 2024-07-13T22:33:44Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** e6dfa2926e6f11a1825072023fa4238385a24c45799879e9d37ed93151951b57
 - **B3SUM:** 5aca9b9f8b06dc07f74cfa7befaf2d1eae92aedae9554f49ae600756d2a7cab5
@@ -209,7 +209,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34854
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-13T20:14:11Z
+- **Updated:** 2024-07-13T22:33:44Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -275,7 +275,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45105
+- **Stars:** 45107
 - **Version:** v1.67.0
 - **Updated:** 2024-07-13T20:46:43Z
 - **Size:** 85.32 MB
@@ -328,7 +328,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17627
 - **Version:** v1.68.2
-- **Updated:** 2024-07-12T22:14:00Z
+- **Updated:** 2024-07-13T21:40:09Z
 - **Size:** 11.95 MB
 - **SHA256SUM:** 103a3708023d9825b5bc712df4b595f2f132d4e2572f8e9cae38801ad0dc9bc6
 - **B3SUM:** 2ddf90cc356cc5f13a6a60f10896bce6a623e922cfb86e068df8bfa081c3b3d7
@@ -345,7 +345,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17627
 - **Version:** v1.68.2
-- **Updated:** 2024-07-12T22:14:00Z
+- **Updated:** 2024-07-13T21:40:09Z
 - **Size:** 25.9 MB
 - **SHA256SUM:** 4bf2306896a560eef02502a9b26ec3f4e838f5d61b722b3ee2777d4b0bff1740
 - **B3SUM:** 1c41e8212fb5679957e4727d7e02ac20e6508cc62247e0fc3059ab3604b74cbe
@@ -362,7 +362,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17627
 - **Version:** v1.68.2
-- **Updated:** 2024-07-12T22:14:00Z
+- **Updated:** 2024-07-13T21:40:09Z
 - **Size:** 23.79 MB
 - **SHA256SUM:** 85720f21b18c971aeb633d98b2d021b2e59c135a4934dad603a46cbb86a28fec
 - **B3SUM:** da2792affbd044b9a8f31241b270baa205cd39a2212a891e3045424702fbd655
@@ -377,7 +377,7 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33833
+- **Stars:** 33836
 - **Version:** 3.4
 - **Updated:** 2024-07-13T16:39:13Z
 - **Size:** 1.55 MB
@@ -394,9 +394,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35611
+- **Stars:** 35612
 - **Version:** v9.1.0580
-- **Updated:** 2024-07-13T21:09:58Z
+- **Updated:** 2024-07-13T23:16:47Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** 68a71d0565026b5ca0a47c815a7d391b905e5326e784e59b4403b75f683a465f
 - **B3SUM:** 893c6e52021cd0b7835bec6f58d156b21776e29ce911f4f65cc3c792bb8c7380
