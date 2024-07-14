@@ -99,6 +99,31 @@
 > > > All Binaries are hosted on Cloudflare, and NOT GitHub. GitHub only contains scripts & source code.
 ---
 
+- #### How to Setup & Configure Local Build Environment
+> > Currently this is very easy for Linux, but will require additional steps for Android & Windows
+> - Install [Docker](https://github.com/docker/docker-install) + [Podman](https://github.com/Azathothas/Toolpacks/tree/main/.github/runners#additional-notes--refs)
+> - Run (May Differ based on Your Host)
+> > ```bash
+> > !#Automatically picks up correct $ARCH & $IMAGE based on Host
+> > sudo mkdir -p "/var/lib/containers/tmp"
+> > sudo podman run --detach --privileged --network="bridge" --publish "22222:22" --systemd="always" --volume="/var/lib/containers/tmp:/tmp" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
+> >
+> > !#Add SSH Keys (Replace with yours)
+> > sudo podman exec -it -u "runner" "toolpacker-dbg" bash -c 'bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")'
+> > sudo podman exec -it -u "runner" "toolpacker-dbg" bash -c 'sudo curl -qfsSL "https://github.com/Azathothas.keys" | sudo sort -u -o "/etc/ssh/authorized_keys" ; sudo systemctl restart sshd'
+> >
+> > !#SSH IN
+> > echo -e "\n[+] HOST_IP : $(ip -4 addr show $(ip route | grep default | awk '{print $5}') | grep -oP '(?<=inet\s)\d+(\.\d+){3}')\n"
+> > ssh "runner@$HOST_IP" -p "22222" -o "StrictHostKeyChecking=no" -i "$PATH_TO_SSH_KEY"
+> > #After SSH, the source script sets up ENV & PATH
+> > source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/$(uname -m)_Linux/env.sh")
+> >
+> > !#STOP/DEL
+> > sudo podman stop "toolpacker-dbg"
+> > sudo podman rm "toolpacker-dbg" --force 2>/dev/null
+> > ```
+---
+
 - #### How to contribute?
 > To contribute, you **first must read & understand this entire repo**. After that, follow similar code/script style to make changes & then create a pull request.
 > 
