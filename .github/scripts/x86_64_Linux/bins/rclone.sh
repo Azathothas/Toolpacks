@@ -25,8 +25,30 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="rclone" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/rclone/rclone" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux-amd64.zip" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+      ##Fetch
+      # eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux-amd64.zip" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+      #Build (alpine-musl)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        bash -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/rclone/rclone" && cd "./rclone"
+         GOOS="linux" GOARCH="amd64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -tags "cmount" -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''" -o "./rclone-bin" "./"
+        #strip & info
+         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
+         popd >/dev/null 2>&1
+        '
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "./" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./rclone-bin" "$BINDIR/rclone"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

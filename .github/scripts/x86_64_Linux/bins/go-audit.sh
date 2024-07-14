@@ -29,20 +29,21 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
-        sh -c '
+        bash -c '
         #Setup ENV
-         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
-         mkdir -p "/build-bins"
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
         #Build
          git clone --quiet --filter "blob:none" "https://github.com/slackhq/go-audit" && cd "./go-audit"
          GOOS="linux" GOARCH="amd64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''"
         #strip & info
-         strip "./go-audit" ; cp "./go-audit" "/build-bins/go-audit"
+         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
+         popd >/dev/null 2>&1
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
-       #Meta 
-       file "./go-audit" && du -sh "./go-audit" ; cp "./go-audit" "$BINDIR/go-audit"
+       docker cp "alpine-builder:/build-bins/." "./" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
@@ -58,5 +59,4 @@ unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS O
 unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 #PKG Config
 unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
-#-------------------------------------------------------#
 #-------------------------------------------------------#
