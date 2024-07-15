@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52346
+- **Stars:** 52348
 - **Version:** v0.2.64
 - **Updated:** 2024-07-11T14:29:34Z
 - **Size:** 19.31 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1807
 - **Version:** v1.32.1
-- **Updated:** 2024-07-14T21:14:59Z
+- **Updated:** 2024-07-14T22:25:16Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** c6648993802a9544b8df74ffc04ddcb9ee886828b467ed3da2af5a66116ef590
 - **B3SUM:** 4c2a43d2a0e491bee1b8edc953443a5e2ddbdbf0b4ca6216dab9f47c1767c313
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34215
+- **Stars:** 34216
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-30T12:47:39Z
 - **Size:** 9.3 MB
@@ -192,7 +192,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34860
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-14T21:08:39Z
+- **Updated:** 2024-07-15T00:13:41Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 65702eff333054ef75b6e1bf62b050cf68fab67558aad05c8e1ea845ef600fb9
 - **B3SUM:** f47381485eed13c3acd9eb6e823d669bc80b61ce64bc936ba7e3cfb684454d4b
@@ -209,7 +209,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 34860
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-14T21:08:39Z
+- **Updated:** 2024-07-15T00:13:41Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -275,9 +275,9 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45123
+- **Stars:** 45125
 - **Version:** v1.67.0
-- **Updated:** 2024-07-14T15:08:45Z
+- **Updated:** 2024-07-14T23:35:41Z
 - **Size:** 85.32 MB
 - **SHA256SUM:** 7060a457ff1af0b40afb097ecbbaebc6a0f28d5a843b551a39fb7925d443bf80
 - **B3SUM:** 14458208de1bad4df1caeb77b59b7b88001cf43a876dfe8a8ef64479c9a0ce1f
@@ -328,7 +328,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17638
 - **Version:** v1.68.2
-- **Updated:** 2024-07-14T19:03:37Z
+- **Updated:** 2024-07-14T23:07:27Z
 - **Size:** 11.95 MB
 - **SHA256SUM:** 103a3708023d9825b5bc712df4b595f2f132d4e2572f8e9cae38801ad0dc9bc6
 - **B3SUM:** 2ddf90cc356cc5f13a6a60f10896bce6a623e922cfb86e068df8bfa081c3b3d7
@@ -345,7 +345,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17638
 - **Version:** v1.68.2
-- **Updated:** 2024-07-14T19:03:37Z
+- **Updated:** 2024-07-14T23:07:27Z
 - **Size:** 25.9 MB
 - **SHA256SUM:** 4bf2306896a560eef02502a9b26ec3f4e838f5d61b722b3ee2777d4b0bff1740
 - **B3SUM:** 1c41e8212fb5679957e4727d7e02ac20e6508cc62247e0fc3059ab3604b74cbe
@@ -362,7 +362,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17638
 - **Version:** v1.68.2
-- **Updated:** 2024-07-14T19:03:37Z
+- **Updated:** 2024-07-14T23:07:27Z
 - **Size:** 23.79 MB
 - **SHA256SUM:** 85720f21b18c971aeb633d98b2d021b2e59c135a4934dad603a46cbb86a28fec
 - **B3SUM:** da2792affbd044b9a8f31241b270baa205cd39a2212a891e3045424702fbd655
@@ -394,9 +394,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35615
+- **Stars:** 35616
 - **Version:** v9.1.0586
-- **Updated:** 2024-07-14T20:26:17Z
+- **Updated:** 2024-07-14T22:46:23Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** f0eea4f5aa6bd1ea0622762152c89096a72cdd7e8b3a34ba682c52f473d95f38
 - **B3SUM:** e7e7aa090cefc2ce116d280139c631a74846b23a7501364e00d078b4ca1383e7
