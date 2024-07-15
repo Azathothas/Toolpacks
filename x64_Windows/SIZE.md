@@ -127,9 +127,9 @@
  908K   ├── /tmp/toolpack_x86_64/ln.exe
  904K   ├── /tmp/toolpack_x86_64/wc.exe
  900K   ├── /tmp/toolpack_x86_64/rm.exe
+ 900K   ├── /tmp/toolpack_x86_64/printf.exe
  900K   ├── /tmp/toolpack_x86_64/join.exe
  896K   ├── /tmp/toolpack_x86_64/shuf.exe
- 896K   ├── /tmp/toolpack_x86_64/printf.exe
  896K   ├── /tmp/toolpack_x86_64/cut.exe
  892K   ├── /tmp/toolpack_x86_64/uniq.exe
  892K   ├── /tmp/toolpack_x86_64/head.exe
