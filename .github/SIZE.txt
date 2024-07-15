@@ -25,15 +25,15 @@
  20K   │ └── DUPLICATES.txt
 7.9M   ├── METADATA.json
 7.3M   ├── METADATA.yaml
-448K   ├─┬ x64_Windows
+452K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 24K   │ ├── FILE.txt
+ 20K   │ ├── FILE.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
-8.0K   │ ├── SIZE.txt
-8.0K   │ ├── SIZE.md
+ 12K   │ ├── SIZE.txt
+ 12K   │ ├── SIZE.md
   0B   │ └── DUPLICATES.txt
 116K   ├─┬ arm64_v8a_Android
  32K   │ ├── METADATA.json
