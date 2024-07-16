@@ -43,11 +43,11 @@
 1.9M   ├── /tmp/toolpack_arm64_v8a_Android/jless
 1.8M   ├── /tmp/toolpack_arm64_v8a_Android/inscope
 1.7M   ├── /tmp/toolpack_arm64_v8a_Android/zsh
-1.7M   ├── /tmp/toolpack_arm64_v8a_Android/bash
 1.5M   ├── /tmp/toolpack_arm64_v8a_Android/scopegen
 1.5M   ├── /tmp/toolpack_arm64_v8a_Android/tmux
 1.5M   ├── /tmp/toolpack_arm64_v8a_Android/busybox
 1.4M   ├── /tmp/toolpack_arm64_v8a_Android/anew
+1.4M   ├── /tmp/toolpack_arm64_v8a_Android/bash
 1.3M   ├── /tmp/toolpack_arm64_v8a_Android/miniserve
 1.2M   ├── /tmp/toolpack_arm64_v8a_Android/b3sum
 924K   ├── /tmp/toolpack_arm64_v8a_Android/anew-rs
