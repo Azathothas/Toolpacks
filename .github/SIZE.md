@@ -1,5 +1,17 @@
 ```mathematica
-153M └─┬ main
+178M └─┬ main
+ 88M   ├─┬ aarch64_arm64_Linux
+ 86M   │ ├── BUILD.log.txt
+924K   │ ├── METADATA.json
+624K   │ ├── DETAILED.md
+452K   │ ├── README.md
+148K   │ ├── FILE.txt
+ 76K   │ ├── SHA256SUM.txt
+ 76K   │ ├── BLAKE3SUM.txt
+ 48K   │ ├── SIZE.txt
+ 48K   │ ├── SIZE.md
+ 32K   │ ├── BUILD_ERROR.log.md
+ 20K   │ └── DUPLICATES.txt
  76M   ├─┬ x86_64_Linux
  73M   │ ├── BUILD.log.txt
 948K   │ ├── METADATA.json
@@ -11,18 +23,6 @@
  52K   │ ├── SIZE.txt
  52K   │ ├── SIZE.md
  36K   │ ├── BUILD_ERROR.log.md
- 20K   │ └── DUPLICATES.txt
- 63M   ├─┬ aarch64_arm64_Linux
- 61M   │ ├── BUILD.log.txt
-924K   │ ├── METADATA.json
-624K   │ ├── DETAILED.md
-452K   │ ├── README.md
-180K   │ ├── BUILD_ERROR.log.md
-148K   │ ├── FILE.txt
- 76K   │ ├── SHA256SUM.txt
- 76K   │ ├── BLAKE3SUM.txt
- 48K   │ ├── SIZE.txt
- 48K   │ ├── SIZE.md
  20K   │ └── DUPLICATES.txt
 6.6M   ├── METADATA.json
 6.1M   ├── METADATA.yaml
