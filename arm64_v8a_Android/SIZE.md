@@ -1,74 +1,74 @@
 ```mathematica
-1.3G └─┬ /tmp/toolpack_arm64_v8a_Android
- 81M   ├── /tmp/toolpack_arm64_v8a_Android/rclone
- 40M   ├── /tmp/toolpack_arm64_v8a_Android/httpx
- 25M   ├── /tmp/toolpack_arm64_v8a_Android/gowitness
- 25M   ├── /tmp/toolpack_arm64_v8a_Android/qbittorrent-nox
- 24M   ├── /tmp/toolpack_arm64_v8a_Android/dnsx
- 24M   ├── /tmp/toolpack_arm64_v8a_Android/tailscale_combined
- 23M   ├── /tmp/toolpack_arm64_v8a_Android/ngrok
- 22M   ├── /tmp/toolpack_arm64_v8a_Android/tailscaled
- 22M   ├── /tmp/toolpack_arm64_v8a_Android/mapcidr
- 20M   ├── /tmp/toolpack_arm64_v8a_Android/tailscaled_dynamic_native
- 20M   ├── /tmp/toolpack_arm64_v8a_Android/tailscale_merged_dynamic_native
- 19M   ├── /tmp/toolpack_arm64_v8a_Android/tailscale_merged
- 18M   ├── /tmp/toolpack_arm64_v8a_Android/act
- 13M   ├── /tmp/toolpack_arm64_v8a_Android/filebrowser
- 11M   ├── /tmp/toolpack_arm64_v8a_Android/godns
- 11M   ├── /tmp/toolpack_arm64_v8a_Android/tailscale
- 10M   ├── /tmp/toolpack_arm64_v8a_Android/tailscale_dynamic_native
- 10M   ├── /tmp/toolpack_arm64_v8a_Android/certstream-server-go
-8.9M   ├── /tmp/toolpack_arm64_v8a_Android/aria2c
-8.2M   ├── /tmp/toolpack_arm64_v8a_Android/ffuf
-6.6M   ├── /tmp/toolpack_arm64_v8a_Android/pingmole
-6.5M   ├── /tmp/toolpack_arm64_v8a_Android/eget
-6.5M   ├── /tmp/toolpack_arm64_v8a_Android/static-web-server
-6.4M   ├── /tmp/toolpack_arm64_v8a_Android/bigdl
-5.9M   ├── /tmp/toolpack_arm64_v8a_Android/hxn
-5.7M   ├── /tmp/toolpack_arm64_v8a_Android/wget_static
-5.5M   ├── /tmp/toolpack_arm64_v8a_Android/wget
-5.5M   ├── /tmp/toolpack_arm64_v8a_Android/wget_dynamic_api_25
-5.1M   ├── /tmp/toolpack_arm64_v8a_Android/actionlint
-5.1M   ├── /tmp/toolpack_arm64_v8a_Android/curl
-5.0M   ├── /tmp/toolpack_arm64_v8a_Android/rsync
-4.8M   ├── /tmp/toolpack_arm64_v8a_Android/vim
-4.6M   ├── /tmp/toolpack_arm64_v8a_Android/crt
-4.5M   ├── /tmp/toolpack_arm64_v8a_Android/certstream
-3.6M   ├── /tmp/toolpack_arm64_v8a_Android/pspy
-3.6M   ├── /tmp/toolpack_arm64_v8a_Android/axel
-3.2M   ├── /tmp/toolpack_arm64_v8a_Android/hysp
-3.1M   ├── /tmp/toolpack_arm64_v8a_Android/btm
-2.8M   ├── /tmp/toolpack_arm64_v8a_Android/kanha
-2.5M   ├── /tmp/toolpack_arm64_v8a_Android/encode
-1.9M   ├── /tmp/toolpack_arm64_v8a_Android/jless
-1.8M   ├── /tmp/toolpack_arm64_v8a_Android/inscope
-1.7M   ├── /tmp/toolpack_arm64_v8a_Android/zsh
-1.5M   ├── /tmp/toolpack_arm64_v8a_Android/scopegen
-1.5M   ├── /tmp/toolpack_arm64_v8a_Android/tmux
-1.5M   ├── /tmp/toolpack_arm64_v8a_Android/busybox
-1.4M   ├── /tmp/toolpack_arm64_v8a_Android/anew
-1.4M   ├── /tmp/toolpack_arm64_v8a_Android/bash
-1.3M   ├── /tmp/toolpack_arm64_v8a_Android/miniserve
-1.2M   ├── /tmp/toolpack_arm64_v8a_Android/b3sum
-924K   ├── /tmp/toolpack_arm64_v8a_Android/anew-rs
-248K   ├── /tmp/toolpack_arm64_v8a_Android/sudo
-224K   ├── /tmp/toolpack_arm64_v8a_Android/wget_cacert.pem
-224K   ├── /tmp/toolpack_arm64_v8a_Android/curl_cacert.pem
-168K   ├── /tmp/toolpack_arm64_v8a_Android/adig
- 32K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_Baseutils_FILE
- 28K   ├── /tmp/toolpack_arm64_v8a_Android/C7cSP_init.sh
- 28K   ├── /tmp/toolpack_arm64_v8a_Android/BUILD.sh
- 24K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_Baseutils_SHA256SUM
- 24K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_Baseutils_BLAKE3SUM
- 12K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_FILE
-8.0K   ├── /tmp/toolpack_arm64_v8a_Android/setup_tailscale.sh
-8.0K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_SHA256SUM
-8.0K   ├── /tmp/toolpack_arm64_v8a_Android/arm64_v8a_Android_BLAKE3SUM
-4.0K   ├── /tmp/toolpack_arm64_v8a_Android/nUMEF_build.sh
-4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_toolpack_arm64_v8a_SHA256SUM
-4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_toolpack_arm64_v8a_BLAKE3SUM
-4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_baseutils_arm64_v8a_SHA256SUM
-4.0K   ├── /tmp/toolpack_arm64_v8a_Android/_baseutils_arm64_v8a_BLAKE3SUM
-4.0K   ├── /tmp/toolpack_arm64_v8a_Android/INITIALIZED
-4.0K   └── /tmp/toolpack_arm64_v8a_Android/BUILDURLS
+1.3G └─┬ toolpack_arm64_v8a_Android
+ 81M   ├── rclone
+ 40M   ├── httpx
+ 25M   ├── gowitness
+ 25M   ├── qbittorrent-nox
+ 24M   ├── dnsx
+ 24M   ├── tailscale_combined
+ 23M   ├── ngrok
+ 22M   ├── tailscaled
+ 22M   ├── mapcidr
+ 20M   ├── tailscaled_dynamic_native
+ 20M   ├── tailscale_merged_dynamic_native
+ 19M   ├── tailscale_merged
+ 18M   ├── act
+ 13M   ├── filebrowser
+ 11M   ├── godns
+ 11M   ├── tailscale
+ 10M   ├── tailscale_dynamic_native
+ 10M   ├── certstream-server-go
+8.9M   ├── aria2c
+8.2M   ├── ffuf
+6.6M   ├── pingmole
+6.5M   ├── eget
+6.5M   ├── static-web-server
+6.4M   ├── bigdl
+5.9M   ├── hxn
+5.7M   ├── wget_static
+5.5M   ├── wget
+5.5M   ├── wget_dynamic_api_25
+5.1M   ├── actionlint
+5.1M   ├── curl
+5.0M   ├── rsync
+4.8M   ├── vim
+4.6M   ├── crt
+4.5M   ├── certstream
+3.6M   ├── pspy
+3.6M   ├── axel
+3.2M   ├── hysp
+3.1M   ├── btm
+2.8M   ├── kanha
+2.5M   ├── encode
+1.9M   ├── jless
+1.8M   ├── inscope
+1.7M   ├── zsh
+1.5M   ├── scopegen
+1.5M   ├── tmux
+1.5M   ├── busybox
+1.4M   ├── anew
+1.4M   ├── bash
+1.3M   ├── miniserve
+1.2M   ├── b3sum
+924K   ├── anew-rs
+248K   ├── sudo
+224K   ├── wget_cacert.pem
+224K   ├── curl_cacert.pem
+168K   ├── adig
+ 32K   ├── arm64_v8a_Android_Baseutils_FILE
+ 28K   ├── C7cSP_init.sh
+ 28K   ├── BUILD.sh
+ 24K   ├── arm64_v8a_Android_Baseutils_SHA256SUM
+ 24K   ├── arm64_v8a_Android_Baseutils_BLAKE3SUM
+ 12K   ├── arm64_v8a_Android_FILE
+8.0K   ├── setup_tailscale.sh
+8.0K   ├── arm64_v8a_Android_SHA256SUM
+8.0K   ├── arm64_v8a_Android_BLAKE3SUM
+4.0K   ├── nUMEF_build.sh
+4.0K   ├── _toolpack_arm64_v8a_SHA256SUM
+4.0K   ├── _toolpack_arm64_v8a_BLAKE3SUM
+4.0K   ├── _baseutils_arm64_v8a_SHA256SUM
+4.0K   ├── _baseutils_arm64_v8a_BLAKE3SUM
+4.0K   ├── INITIALIZED
+4.0K   └── BUILDURLS
 ```
