@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52479
+- **Stars:** 52486
 - **Version:** v0.2.64
 - **Updated:** 2024-07-18T08:14:16Z
 - **Size:** 19.31 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1810
 - **Version:** v1.32.2
-- **Updated:** 2024-07-18T21:21:20Z
+- **Updated:** 2024-07-19T01:49:16Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** a140ec36f76b4c61e619a41b13ea91b204fdf9c81891727dec1f98d9abf69885
 - **B3SUM:** 9f87c72b730e6cc3f53577e90d90a6988a34b4ed35bc361bb7c4e941f25f0b00
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34241
+- **Stars:** 34246
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-30T12:47:39Z
 - **Size:** 9.3 MB
@@ -105,7 +105,7 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 4946
+- **Stars:** 4945
 - **Version:** 1.5.3
 - **Updated:** 2024-07-17T16:55:06Z
 - **Size:** 1.27 MB
@@ -190,9 +190,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34886
+- **Stars:** 34888
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-18T21:19:53Z
+- **Updated:** 2024-07-19T02:04:52Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** b47e5fc5deea2768ec152b635aa2032653d0ed0c7ef620491794abecf9f6e8a3
 - **B3SUM:** 5f60081b0f3ba74c31b361d761836784ebc93bbb04938845713338fb95efd39d
@@ -207,9 +207,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34886
+- **Stars:** 34888
 - **Version:** curl-8_8_0
-- **Updated:** 2024-07-18T21:19:53Z
+- **Updated:** 2024-07-19T02:04:52Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -275,7 +275,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45200
+- **Stars:** 45202
 - **Version:** v1.67.0
 - **Updated:** 2024-07-18T16:13:02Z
 - **Size:** 85.45 MB
@@ -328,7 +328,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17693
 - **Version:** v1.70.0
-- **Updated:** 2024-07-18T20:48:44Z
+- **Updated:** 2024-07-19T00:24:57Z
 - **Size:** 11.95 MB
 - **SHA256SUM:** 337abaf8c24ee54583f1ec1c1cb7e6983d58154a1648ca8002693a339717ea6a
 - **B3SUM:** 356cbf3802b6b80b12698811f6df791e114b0f19e0eb6bb65eb1d0ca5af4e81b
@@ -345,7 +345,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17693
 - **Version:** v1.70.0
-- **Updated:** 2024-07-18T20:48:44Z
+- **Updated:** 2024-07-19T00:24:57Z
 - **Size:** 25.9 MB
 - **SHA256SUM:** 90e392c17c79674dcc21d5f5c70e530e2ec7a15135461090d43833605db7774d
 - **B3SUM:** ea5034f5a1dab1e0ecbf26290d7a75a201cc4b5224621547723f4713e876243a
@@ -362,7 +362,7 @@
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Stars:** 17693
 - **Version:** v1.70.0
-- **Updated:** 2024-07-18T20:48:44Z
+- **Updated:** 2024-07-19T00:24:57Z
 - **Size:** 23.79 MB
 - **SHA256SUM:** 588a5575f75d726b7cbe20a41828834e3b1ef2677c03f721847f63bae16f7634
 - **B3SUM:** 3287dec68bb4cfd5a5b824b8dfa254867f5105d40e4ef0f6de5c70c5519ca640
@@ -377,7 +377,7 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 33887
+- **Stars:** 33890
 - **Version:** 3.4
 - **Updated:** 2024-07-15T17:16:24Z
 - **Size:** 1.55 MB
