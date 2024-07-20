@@ -13,9 +13,9 @@
   82M   ├── hugo
   77M   ├── daytona
   72M   ├── falconhound
-  71M   ├── nuclei
+  70M   ├── nuclei
   68M   ├── alist
-  64M   ├── devpod
+  65M   ├── devpod
   61M   ├── loki
   59M   ├── logcli
   58M   ├── wtfutil
@@ -134,12 +134,12 @@
   19M   ├── meli
   19M   ├── podsync
   19M   ├── notify
+  19M   ├── caido-cli
   19M   ├── noseyparker
-  18M   ├── ruff
   18M   ├── xetmnt
   18M   ├── miniflux
+  18M   ├── ruff
   18M   ├── brook
-  18M   ├── caido-cli
   18M   ├── jj
   18M   ├── mailpit
   18M   ├── sish
@@ -150,16 +150,16 @@
   17M   ├── rekor-cli
   17M   ├── ctr
   17M   ├── gitpod
-  17M   ├── gix
   17M   ├── exatorrent
+  17M   ├── gix
   17M   ├── sunbeam
   17M   ├── imix
   17M   ├── exatorrent-noui
   17M   ├── lazygit
   16M   ├── garm
   16M   ├── go-audit
-  16M   ├── circumflex
   16M   ├── mise
+  16M   ├── circumflex
   16M   ├── glow
   16M   ├── atuin
   16M   ├── gickup
@@ -205,8 +205,8 @@
   13M   ├── zerotier-idtool
   13M   ├── zerotier-cli
   13M   ├── reviewdog
-  13M   ├── yip
   13M   ├── yazi
+  13M   ├── yip
   12M   ├── aws-wire-lengths
   12M   ├── gdu
   12M   ├── hcloud
@@ -338,6 +338,7 @@
  7.9M   ├── assh
  7.8M   ├── ov
  7.8M   ├── starship
+ 7.8M   ├── wstunnel
  7.8M   ├── oha
  7.8M   ├── hostctl
  7.8M   ├── supercronic
@@ -351,7 +352,6 @@
  7.7M   ├── sshx-server
  7.7M   ├── syncat
  7.7M   ├── ladder
- 7.7M   ├── wstunnel
  7.6M   ├── planor
  7.6M   ├── nomore403
  7.6M   ├── dontgo403
@@ -395,11 +395,11 @@
  6.8M   ├── smartdns-rs
  6.8M   ├── git-log
  6.8M   ├── gocryptfs-xray
+ 6.7M   ├── git-clone
+ 6.7M   ├── git-checkout
  6.7M   ├── rush
  6.7M   ├── pingmole
  6.7M   ├── git-pull
- 6.7M   ├── git-clone
- 6.7M   ├── git-checkout
  6.6M   ├── certgraph
  6.5M   ├── sf
  6.5M   ├── stunner
@@ -642,7 +642,7 @@
  3.2M   ├── age
  3.2M   ├── pfetch-rs
  3.2M   ├── mqttui
- 3.2M   ├── ripgen
+ 3.1M   ├── ripgen
  3.1M   ├── qemu-sparc-static
  3.1M   ├── hcxpmktool
  3.1M   ├── viu
@@ -663,13 +663,13 @@
  2.9M   ├── wasminspect
  2.9M   ├── ctrsploit-checksec
  2.9M   ├── qemu-alpha-static
+ 2.9M   ├── find-rs
  2.9M   ├── qemu-sh4eb-static
  2.9M   ├── qemu-sh4-static
  2.9M   ├── qemu-microblazeel-static
  2.9M   ├── qemu-microblaze-static
- 2.9M   ├── find-rs
  2.9M   ├── qemu-cris-static
- 2.8M   ├── ctrsploit-env
+ 2.9M   ├── ctrsploit-env
  2.8M   ├── tmate
  2.8M   ├── njs
  2.8M   ├── qemu-or1k-static
@@ -707,8 +707,8 @@
  2.4M   ├── dysk
  2.4M   ├── cotp
  2.4M   ├── encode
+ 2.4M   ├── rage-keygen
  2.3M   ├── gping
- 2.3M   ├── rage-keygen
  2.3M   ├── navi
  2.3M   ├── gencmddeps
  2.3M   ├── dust
@@ -782,8 +782,8 @@
  1.6M   ├── moac-pwgen
  1.6M   ├── vnstat
  1.6M   ├── tcpdump
- 1.6M   ├── su-rs
  1.6M   ├── zsh
+ 1.6M   ├── su-rs
  1.6M   ├── rshijack
  1.6M   ├── visudo-rs
  1.6M   ├── nmapurls
@@ -922,9 +922,7 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
- 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  140K   ├── unix2mac
@@ -933,6 +931,8 @@
  140K   ├── mac2unix
  140K   ├── ipt2socks
  140K   ├── dos2unix
+ 136K   ├── rust-hypervisor-firmware
+ 136K   ├── hypervisor-fw
  132K   ├── tracepath
  132K   ├── pwait
  132K   ├── numastat
