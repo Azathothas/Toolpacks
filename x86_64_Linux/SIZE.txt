@@ -14,14 +14,14 @@
  80M   ├── daytona
  75M   ├── ffmpeg
  74M   ├── ffprobe
- 74M   ├── nuclei
+ 73M   ├── nuclei
  72M   ├── falconhound
  72M   ├── berty
  70M   ├── rclone
  70M   ├── alist
  69M   ├── loki
+ 67M   ├── devpod
  66M   ├── ockam
- 65M   ├── devpod
  61M   ├── logcli
  59M   ├── wtfutil
  59M   ├── wtf
@@ -102,8 +102,8 @@
  25M   ├── boltconn
  25M   ├── asnmap
  25M   ├── mc
- 25M   ├── rattler-build
  25M   ├── netbird
+ 25M   ├── rattler-build
  25M   ├── chaos-client
  25M   ├── dagu
  25M   ├── brutespray
@@ -122,16 +122,16 @@
  23M   ├── jaeles
  23M   ├── interactsh-server
  23M   ├── legba
- 23M   ├── xetmnt
  23M   ├── syncthing
+ 23M   ├── xetmnt
  22M   ├── noseyparker
  22M   ├── vpnkit
  22M   ├── loclx
  22M   ├── localxpose
+ 22M   ├── reader
  22M   ├── ruff
  22M   ├── etcd
  22M   ├── imix
- 22M   ├── reader
  21M   ├── tuiarchiver
  21M   ├── shuffledns
  21M   ├── libaws-cli
@@ -141,19 +141,19 @@
  21M   ├── lux
  21M   ├── gix
  21M   ├── atuin
- 21M   ├── mise
+ 20M   ├── mise
  20M   ├── jira-cli
  20M   ├── jira
  20M   ├── alterx
  20M   ├── jj
  20M   ├── csvtk
  20M   ├── cdncheck
+ 20M   ├── caido-cli
  20M   ├── golem
  20M   ├── notify
  19M   ├── podsync
  19M   ├── go-audit
  19M   ├── brook
- 19M   ├── caido-cli
  19M   ├── miniflux
  19M   ├── s3scanner
  18M   ├── mailpit
@@ -162,8 +162,8 @@
  18M   ├── nezha-agent
  18M   ├── rekor-cli
  18M   ├── ctr
- 18M   ├── ironrdp-client
  18M   ├── exatorrent
+ 18M   ├── ironrdp-client
  18M   ├── gitpod
  18M   ├── sunbeam
  18M   ├── exatorrent-noui
@@ -347,8 +347,8 @@
 8.6M   ├── ssr-client
 8.6M   ├── serverstatus-client
 8.6M   ├── clipcat-menu
-8.6M   ├── nmap
 8.6M   ├── vproxy
+8.6M   ├── nmap
 8.6M   ├── getghrel
 8.5M   ├── smartdns-rs
 8.5M   ├── rustypaste
@@ -370,9 +370,9 @@
 8.1M   ├── ov
 8.1M   ├── sns
 8.1M   ├── supercronic
+8.0M   ├── rootlesskit
 8.0M   ├── ladder
 8.0M   ├── wireproxy
-8.0M   ├── rootlesskit
 8.0M   ├── cfssl-certinfo
 8.0M   ├── planor
 8.0M   ├── sshesame
@@ -396,15 +396,15 @@
 7.5M   ├── pretender
 7.5M   ├── quickcert
 7.5M   ├── croc
-7.5M   ├── cherrybomb
 7.5M   ├── sake
+7.5M   ├── cherrybomb
 7.5M   ├── xq
 7.5M   ├── puredns
 7.4M   ├── fingerprintx
 7.4M   ├── revive
 7.3M   ├── dnslookup
-7.3M   ├── subxtract
 7.3M   ├── wormhole-rs
+7.3M   ├── subxtract
 7.3M   ├── brename
 7.2M   ├── godnsbench
 7.2M   ├── gocryptfs-xray
@@ -418,9 +418,9 @@
 7.1M   ├── websocat
 7.1M   ├── zfind
 7.0M   ├── systemctl-tui
+7.0M   ├── git-clone
 7.0M   ├── git-checkout
 7.0M   ├── twingate-connector-staticx
-7.0M   ├── git-clone
 7.0M   ├── git-pull
 7.0M   ├── trip
 6.9M   ├── rush
@@ -449,14 +449,15 @@
 6.4M   ├── fuzzuli
 6.4M   ├── xh
 6.4M   ├── aretext
-6.4M   ├── jen
 6.4M   ├── yalis
+6.4M   ├── jen
 6.3M   ├── hub
 6.3M   ├── pueued
 6.3M   ├── pueue
 6.3M   ├── ripgrep
 6.3M   ├── rg
 6.3M   ├── cloak-server
+6.2M   ├── tracexec
 6.2M   ├── clipcatctl
 6.2M   ├── uroot
 6.2M   ├── u-root
@@ -479,11 +480,10 @@
 5.9M   ├── volta
 5.9M   ├── wadl-dumper
 5.9M   ├── nginx
+5.8M   ├── vtm
 5.8M   ├── dizi
 5.8M   ├── rescope
-5.8M   ├── vtm
 5.8M   ├── presenterm
-5.8M   ├── tracexec
 5.8M   ├── albafetch
 5.8M   ├── pathbuster
 5.8M   ├── amp
@@ -554,8 +554,8 @@
 5.0M   ├── openssl
 5.0M   ├── decpud
 5.0M   ├── xurls
-4.9M   ├── stress-ng
 4.9M   ├── ppfuzz
+4.9M   ├── stress-ng
 4.9M   ├── dnstake
 4.9M   ├── mantra
 4.9M   ├── elinks-lite
@@ -635,16 +635,16 @@
 3.9M   ├── qemu-arm-static
 3.9M   ├── fd-find
 3.9M   ├── fd
+3.9M   ├── just
 3.9M   ├── xcp
 3.9M   ├── tokei
 3.9M   ├── qemu-mipsn32-static
 3.9M   ├── qemu-mips64-static
 3.9M   ├── qemu-mipsn32el-static
 3.9M   ├── pfetch-rs
-3.9M   ├── just
 3.9M   ├── qemu-mips64el-static
-3.9M   ├── twingate-notifier
 3.9M   ├── qemu-mips-static
+3.9M   ├── twingate-notifier
 3.9M   ├── qemu-mipsel-static
 3.8M   ├── dns-doctor
 3.8M   ├── validtoml
@@ -656,8 +656,8 @@
 3.8M   ├── ripgen
 3.8M   ├── mqttui
 3.8M   ├── sshkeys
+3.8M   ├── rage
 3.8M   ├── wasminspect
-3.7M   ├── rage
 3.7M   ├── lsd
 3.7M   ├── spiped
 3.7M   ├── find-rs
@@ -710,10 +710,10 @@
 3.0M   ├── bed
 3.0M   ├── tmate
 3.0M   ├── p9cpu
+2.9M   ├── rage-keygen
 2.9M   ├── gping
 2.9M   ├── halp
 2.9M   ├── encrypted-dns
-2.9M   ├── rage-keygen
 2.9M   ├── t-rec
 2.9M   ├── qemu-hppa-static
 2.9M   ├── dust
