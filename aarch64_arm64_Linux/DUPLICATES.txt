@@ -1,14 +1,14 @@
-Name: gitpod-cli
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gitpod-cli
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
-Name: gp
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gp
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: gocryptfs
@@ -50,30 +50,17 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: serverstatus-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: zapper
+DESCR: Zaps arguments and environment from the process list
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/zapper
+REPO: https://github.com/hackerschoice/zapper
+Web URL: https://github.com/hackerschoice/zapper
 
-Name: ssr-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
----------------------
-Name: moac
-DESCR: Go Implementation of WireGuard
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/moac
-REPO: https://github.com/Seirdy/moac
-Web URL: https://github.com/Seirdy/moac
-
-Name: moac-pwgen
-DESCR: Go Implementation of WireGuard
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/moac-pwgen
-REPO: https://github.com/Seirdy/moac
-Web URL: https://github.com/Seirdy/moac
+Name: zapper-stealth
+DESCR: Zaps arguments and environment from the process list
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/zapper-stealth
+REPO: https://github.com/hackerschoice/zapper
+Web URL: https://github.com/hackerschoice/zapper
 
 ---------------------
 Name: docker
@@ -89,19 +76,6 @@ REPO: https://github.com/docker/cli
 Web URL: https://github.com/docker/cli
 
 ---------------------
-Name: warp-svc
-DESCR: cloudflare warp
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/warp-svc
-REPO: 
-Web URL: https://pkg.cloudflareclient.com
-
-Name: warp
-DESCR: S3 benchmarking tool
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/warp
-REPO: https://github.com/minio/warp
-Web URL: https://github.com/minio/warp
-
----------------------
 Name: dos2unix
 DESCR: Convert Line Endings
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/dos2unix
@@ -115,17 +89,17 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: rage
-DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rage
-REPO: https://github.com/str4d/rage
-Web URL: https://github.com/str4d/rage
+Name: gitpod-cli
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gitpod-cli
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
 
-Name: rage-keygen
-DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rage-keygen
-REPO: https://github.com/str4d/rage
-Web URL: https://github.com/str4d/rage
+Name: gp
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gp
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
 
 ---------------------
 Name: desktop-file-edit
@@ -139,19 +113,6 @@ DESCR: Command line utilities for working with .desktop files
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/desktop-file-install
 REPO: 
 Web URL: https://www.freedesktop.org/wiki/Software/desktop-file-utils
-
----------------------
-Name: u-root
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/u-root
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
-Name: uroot
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/uroot
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
 
 ---------------------
 Name: ipinfo
@@ -180,17 +141,30 @@ REPO: https://github.com/opencontainers/runc
 Web URL: https://github.com/opencontainers/runc
 
 ---------------------
-Name: rg
-DESCR: 
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rg
-REPO: https://github.com/BurntSushi/ripgrep
-Web URL: https://github.com/BurntSushi/ripgrep
+Name: rage
+DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rage
+REPO: https://github.com/str4d/rage
+Web URL: https://github.com/str4d/rage
 
-Name: ripgrep
-DESCR: 
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ripgrep
-REPO: https://github.com/BurntSushi/ripgrep
-Web URL: https://github.com/BurntSushi/ripgrep
+Name: rage-keygen
+DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rage-keygen
+REPO: https://github.com/str4d/rage
+Web URL: https://github.com/str4d/rage
+
+---------------------
+Name: kak
+DESCR: a better code editor
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/kak
+REPO: https://github.com/mawww/kakoune
+Web URL: https://github.com/mawww/kakoune
+
+Name: kakoune
+DESCR: a better code editor
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/kakoune
+REPO: https://github.com/mawww/kakoune
+Web URL: https://github.com/mawww/kakoune
 
 ---------------------
 Name: nezha-dashboard
@@ -204,19 +178,6 @@ DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nezha-dashboard.openrc
 REPO: https://github.com/naiba/nezha
 Web URL: https://nezha.wiki/en_US/
-
----------------------
-Name: gh-dash
-DESCR: A beautiful CLI dashboard for GitHub 🚀
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gh-dash
-REPO: https://github.com/dlvhdr/gh-dash
-Web URL: https://github.com/dlvhdr/gh-dash
-
-Name: gh
-DESCR: GitHub’s official command line tool
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gh
-REPO: https://github.com/cli/cli
-Web URL: https://github.com/cli/cli
 
 ---------------------
 Name: certstream-server-go
@@ -245,6 +206,19 @@ REPO: https://github.com/husarnet/husarnet
 Web URL: https://husarnet.com/
 
 ---------------------
+Name: age
+DESCR: A simple, modern and secure encryption tool
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/age
+REPO: https://github.com/FiloSottile/age
+Web URL: https://github.com/FiloSottile/age
+
+Name: age-keygen
+DESCR: A simple, modern and secure encryption tool
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/age-keygen
+REPO: https://github.com/FiloSottile/age
+Web URL: https://github.com/FiloSottile/age
+
+---------------------
 Name: smartdns-rs
 DESCR: local DNS server (Dnsmasq like) written in rust to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/smartdns-rs
@@ -256,6 +230,19 @@ DESCR: local DNS server (Dnsmasq like) to obtain the fastest website IP for the 
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/smartdns
 REPO: https://github.com/pymumu/smartdns
 Web URL: https://github.com/pymumu/smartdns
+
+---------------------
+Name: serverstatus-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: php
@@ -310,17 +297,17 @@ REPO: https://github.com/userdocs/iperf3-static
 Web URL: https://github.com/userdocs/iperf3-static
 
 ---------------------
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: moac
+DESCR: Go Implementation of WireGuard
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/moac
+REPO: https://github.com/Seirdy/moac
+Web URL: https://github.com/Seirdy/moac
 
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: moac-pwgen
+DESCR: Go Implementation of WireGuard
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/moac-pwgen
+REPO: https://github.com/Seirdy/moac
+Web URL: https://github.com/Seirdy/moac
 
 ---------------------
 Name: rootlesskit
@@ -368,6 +355,19 @@ REPO: https://github.com/docker/cli
 Web URL: https://github.com/docker/cli
 
 ---------------------
+Name: nu
+DESCR: A new type of shell
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nu
+REPO: https://github.com/nushell/nushell
+Web URL: https://github.com/nushell/nushell
+
+Name: nushell
+DESCR: A new type of shell
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nushell
+REPO: https://github.com/nushell/nushell
+Web URL: https://github.com/nushell/nushell
+
+---------------------
 Name: hypervisor-fw
 DESCR: cloud-hypervisors firmware in rust
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/hypervisor-fw
@@ -379,19 +379,6 @@ DESCR: cloud-hypervisors firmware in rust
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rust-hypervisor-firmware
 REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
 Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
-
----------------------
-Name: kak
-DESCR: a better code editor
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/kak
-REPO: https://github.com/mawww/kakoune
-Web URL: https://github.com/mawww/kakoune
-
-Name: kakoune
-DESCR: a better code editor
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/kakoune
-REPO: https://github.com/mawww/kakoune
-Web URL: https://github.com/mawww/kakoune
 
 ---------------------
 Name: containerd
@@ -407,17 +394,30 @@ REPO: https://github.com/docker/cli
 Web URL: https://github.com/docker/cli
 
 ---------------------
-Name: rcat
-DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rcat
-REPO: https://github.com/robiot/rustcat
-Web URL: https://github.com/robiot/rustcat
+Name: rg
+DESCR: 
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rg
+REPO: https://github.com/BurntSushi/ripgrep
+Web URL: https://github.com/BurntSushi/ripgrep
 
-Name: rustcat
-DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rustcat
-REPO: https://github.com/robiot/rustcat
-Web URL: https://github.com/robiot/rustcat
+Name: ripgrep
+DESCR: 
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ripgrep
+REPO: https://github.com/BurntSushi/ripgrep
+Web URL: https://github.com/BurntSushi/ripgrep
+
+---------------------
+Name: serverstatus-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: localxpose
@@ -433,17 +433,30 @@ REPO:
 Web URL: https://localxpose.io/
 
 ---------------------
-Name: serverstatus-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: rcat
+DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rcat
+REPO: https://github.com/robiot/rustcat
+Web URL: https://github.com/robiot/rustcat
 
-Name: ssr-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: rustcat
+DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rustcat
+REPO: https://github.com/robiot/rustcat
+Web URL: https://github.com/robiot/rustcat
+
+---------------------
+Name: u-root
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/u-root
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+Name: uroot
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/uroot
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
 
 ---------------------
 Name: gobusybox
@@ -476,18 +489,5 @@ DESCR: cat with colors & syntax highlights
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/batcat
 REPO: https://github.com/sharkdp/bat
 Web URL: https://github.com/sharkdp/bat
-
----------------------
-Name: nu
-DESCR: A new type of shell
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nu
-REPO: https://github.com/nushell/nushell
-Web URL: https://github.com/nushell/nushell
-
-Name: nushell
-DESCR: A new type of shell
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nushell
-REPO: https://github.com/nushell/nushell
-Web URL: https://github.com/nushell/nushell
 
 ---------------------
