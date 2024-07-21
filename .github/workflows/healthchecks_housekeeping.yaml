@@ -512,34 +512,34 @@ jobs:
           #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --version-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
         continue-on-error: true
 
-      - name: Ensure Healthy Commit Nums (RESET ON >= 1000)
-        run: |
-          #Presets
-          set +x ; set +e
-          #--------------#
-          pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter="blob:none" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY"
-          cd "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})"
-          CLONED_DIR="$(realpath .)" && export CLONED_DIR="$CLONED_DIR"
-          COMMIT_NUMS="$(git rev-list --count HEAD)" && export COMMIT_NUMS="$COMMIT_NUMS"
-          popd > /dev/null 2>&1 ; rm -rf "$CLONED_DIR" 2>/dev/null
-          cd "$GITHUB_WORKSPACE/main"
-          if [ "$COMMIT_NUMS" -gt 1000 ]; then
-              echo -e "\n[+] Total number of commits exceeds 1000. ($COMMIT_NUMS)\n"
-              cd "$GITHUB_WORKSPACE/main"
-              git config "user.name" "Azathothas"
-              git config "user.email" "AjamX101@gmail.com"
-              git checkout --orphan temp
-              git add --all --verbose && git commit -m "Purge (Re:Init)"
-              git branch -D "main"
-              git branch -m "main"
-              git push --set-upstream origin main --force
-              echo "RESET_HISTORY=YES" >> "$GITHUB_ENV"
-          else
-              echo -e "\n[+] Total number of commits looks healthy. ($COMMIT_NUMS)\n"
-              echo "RESET_HISTORY=NO" >> "$GITHUB_ENV"
-          fi
-          pushd "$GITHUB_WORKSPACE/main" >/dev/null 2>&1 && git pull origin main && popd >/dev/null 2>&1
-        continue-on-error: true
+      #- name: Ensure Healthy Commit Nums (RESET ON >= 1000)
+      #  run: |
+      #    #Presets
+      #    set +x ; set +e
+      #    #--------------#
+      #    pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter="blob:none" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY"
+      #    cd "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})"
+      #    CLONED_DIR="$(realpath .)" && export CLONED_DIR="$CLONED_DIR"
+      #    COMMIT_NUMS="$(git rev-list --count HEAD)" && export COMMIT_NUMS="$COMMIT_NUMS"
+      #    popd > /dev/null 2>&1 ; rm -rf "$CLONED_DIR" 2>/dev/null
+      #    cd "$GITHUB_WORKSPACE/main"
+      #    if [ "$COMMIT_NUMS" -gt 1000 ]; then
+      #        echo -e "\n[+] Total number of commits exceeds 1000. ($COMMIT_NUMS)\n"
+      #        cd "$GITHUB_WORKSPACE/main"
+      #        git config "user.name" "Azathothas"
+      #        git config "user.email" "AjamX101@gmail.com"
+      #        git checkout --orphan temp
+      #        git add --all --verbose && git commit -m "Purge (Re:Init)"
+      #        git branch -D "main"
+      #        git branch -m "main"
+      #        git push --set-upstream origin main --force
+      #        echo "RESET_HISTORY=YES" >> "$GITHUB_ENV"
+      #    else
+      #        echo -e "\n[+] Total number of commits looks healthy. ($COMMIT_NUMS)\n"
+      #        echo "RESET_HISTORY=NO" >> "$GITHUB_ENV"
+      #    fi
+      #    pushd "$GITHUB_WORKSPACE/main" >/dev/null 2>&1 && git pull origin main && popd >/dev/null 2>&1
+      #  continue-on-error: true
         
       - name: Get DateTime
         run: |
