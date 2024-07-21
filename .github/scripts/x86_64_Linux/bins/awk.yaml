@@ -1,7 +1,7 @@
 name: "awk"
-description: "updated awk"
-web_url: "https://github.com/xplshn/awk"
-repo_url: "https://github.com/xplshn/awk"
+description: "One true awk"
+web_url: "https://github.com/onetrueawk/awk"
+repo_url: "https://github.com/onetrueawk/awk"
 path: "/"
 bins:
   - "awk"

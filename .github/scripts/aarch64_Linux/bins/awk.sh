@@ -22,8 +22,8 @@ fi
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
      #awk: updated awk
-     export BIN="awk" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/onetrueawk/awk" #github/gitlab/homepage/etc for $BIN
+     export BIN="awk"
+     export SOURCE_URL="https://github.com/onetrueawk/awk"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/onetrueawk/awk" && cd "./awk"
@@ -35,11 +35,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export HOST_CXX="zig c++ -target $ZIG_LIBC_TARGET"
        export OBJCOPY="zig objcopy"
        export RANLIB="zig ranlib"
-       export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
+       export CFLAGS="-O2 -flto=auto -static -w -pipe"
        export CXXFLAGS="${CFLAGS}"
-       export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none ${LDFLAGS}"
+       export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
        #zig
-       make CFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" CXXFLAGS="$CFLAGS ${ADDITIONAL_ARGS}" LDFLAGS="$LDFLAGS ${ADDITIONAL_ARGS}" --jobs="$(($(nproc)+1))" --keep-going
+       make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
        strip "./a.out" && du -sh "./a.out" && file "./a.out"
        cp "./a.out" "$BINDIR/awk" ; popd >/dev/null 2>&1
 fi
