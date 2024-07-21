@@ -46,14 +46,14 @@
 4.0K   │ ├── SIZE.txt
 4.0K   │ ├── SIZE.md
 4.0K   │ └── DUPLICATES.txt
- 84K   ├─┬ Docs
+ 88K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
  16K   │ ├── README.md
+8.0K   │ ├── METADATA.md
 4.0K   │ ├── ZIG_TARGETS.txt
 4.0K   │ ├── TODO.md
 4.0K   │ ├── RUST_TARGETS.txt
 4.0K   │ ├── NIX_TARGETS.txt
-4.0K   │ ├── METADATA.md
 4.0K   │ ├── GO_TARGETS.md
 4.0K   │ └── DEBUG.md
  16K   ├── README.md
