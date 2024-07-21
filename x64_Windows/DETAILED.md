@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2586
+- **Stars:** 2587
 - **Version:** v1.7.1
 - **Updated:** 2024-07-02T09:12:41Z
 - **Size:** 5.42 MB
@@ -71,7 +71,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 40028
+- **Stars:** 40032
 - **Version:** v3.35.0
 - **Updated:** 2024-07-20T04:27:18Z
 - **Size:** 76.47 MB
@@ -1788,7 +1788,7 @@
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8155
+- **Stars:** 8156
 - **Version:** v1.1.1
 - **Updated:** 2024-07-19T14:25:22Z
 - **Size:** 2.77 MB
@@ -1839,7 +1839,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8428
+- **Stars:** 8429
 - **Version:** 2.18.1
 - **Updated:** 2024-07-20T15:32:53Z
 - **Size:** 1.44 MB
@@ -1856,7 +1856,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8428
+- **Stars:** 8429
 - **Version:** 2.18.1
 - **Updated:** 2024-07-20T15:32:53Z
 - **Size:** 1.28 MB
@@ -2128,7 +2128,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29672
+- **Stars:** 29673
 - **Version:** jq-1.7.1
 - **Updated:** 2024-07-20T05:55:46Z
 - **Size:** 985.09 kB
@@ -2162,7 +2162,7 @@
 - **Author:** evilsocket
 - **WebURL:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
 - **Repository:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
-- **Stars:** 1330
+- **Stars:** 1331
 - **Version:** v0.9.0
 - **Updated:** 2024-07-20T15:04:59Z
 - **Size:** 21.85 MB
@@ -2213,9 +2213,9 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24464
+- **Stars:** 24465
 - **Version:** v2.0.13
-- **Updated:** 2024-07-20T13:52:20Z
+- **Updated:** 2024-07-21T00:20:59Z
 - **Size:** 11.88 MB
 - **SHA256SUM:** 6ec3ed8e485730adc4a71874440b10f59dec88b4ee1c82698717579f398a69a3
 - **B3SUM:** 82b536d6a2807d9db217201038d0bb96b0f47bd69d3ce6f588a18c6c7c894267
@@ -2315,7 +2315,7 @@
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 33353
+- **Stars:** 33352
 - **Version:** 3.2.1
 - **Updated:** 2024-07-19T18:34:28Z
 - **Size:** 159.73 MB
@@ -2349,7 +2349,7 @@
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
-- **Stars:** 3133
+- **Stars:** 3132
 - **Version:** v1.4.1
 - **Updated:** 2024-07-01T11:30:23Z
 - **Size:** 10.17 MB
@@ -2366,7 +2366,7 @@
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
-- **Stars:** 3133
+- **Stars:** 3132
 - **Version:** v1.4.1
 - **Updated:** 2024-07-01T11:30:23Z
 - **Size:** 15.67 MB
@@ -2383,7 +2383,7 @@
 - **Author:** Picocrypt
 - **WebURL:** [https://github.com/Picocrypt/Picocrypt](https://github.com/Picocrypt/Picocrypt)
 - **Repository:** [https://github.com/Picocrypt/Picocrypt](https://github.com/Picocrypt/Picocrypt)
-- **Stars:** 166
+- **Stars:** 167
 - **Version:** 1.37
 - **Updated:** 2024-07-13T03:25:08Z
 - **Size:** 8.29 MB
@@ -2451,7 +2451,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 46494
+- **Stars:** 46496
 - **Version:** 14.1.0
 - **Updated:** 2024-07-17T07:51:45Z
 - **Size:** 5.33 MB
@@ -2638,9 +2638,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 77297
+- **Stars:** 77306
 - **Version:** 2024.07.16
-- **Updated:** 2024-07-20T13:33:57Z
+- **Updated:** 2024-07-20T22:29:49Z
 - **Size:** 180.22 kB
 - **SHA256SUM:** 5a1962f7097ba45db2a4ad894a2274d179019057c552c9a66fae41cc0fa73fb3
 - **B3SUM:** bc2a64365aebaa3a62b900ef031039e51be74d588ea6b2df4edafe584beef764
