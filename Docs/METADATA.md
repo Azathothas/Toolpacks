@@ -57,4 +57,4 @@
 > ```
 
 - #### URL Redirects
-> ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/906c29b9-0852-4878-bae9-d64f68e7c569)
+> ![image](https://github.com/user-attachments/assets/4e29a9ad-b68f-483f-acd6-faff3011bbdb)
