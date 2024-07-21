@@ -90,6 +90,22 @@
 > ```
 ---
 
+- #### [⏬ **`UPX`** ⏬](https://upx.github.io/)
+> - Binaries are also packed using [`upx --best`](https://github.com/upx/upx/blob/devel/doc/upx-doc.txt#L114) after a [CI Build is Complete.](https://github.com/Azathothas/Toolpacks/actions)
+> - These can be downloaded by either using the [GUI Button](https://bin.ajam.dev/)⏬ or by simply adding a `.upx` to any binary.
+> > Example:
+> > ```bash
+> > #This will download upx packed version of curl
+> > curl -qfsSL "https://bin.ajam.dev/$(uname -m)/curl.upx" -o "./curl"
+> > ```
+> - There is no entry for `UPX` Binaries in [METADATA](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) & also no [`CHECKSUMS`](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-verify-checksums)
+> - `UPX` Binaries can still be decompressed `upx -d $BIN.upx` & then checked for original [`CHECKSUMS`](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-verify-checksums)
+> - Note: If a build was completed recently, it's `UPX` packed version may need some time to show up (Because it's done as post-build)
+> > - Hence, raw binary may be a newer version while it's `UPX` may still be from the old one. In this case, using `UPX` to decompress & verify checksum will fail.
+> > - `UPX` counterparts generally take **5-10** hrs to show up, packed fresh from the latest batch.
+> - Note: ALL Binaries (Platforms) may NOT have `UPX` Versions even if they show in [GUI Button](https://bin.ajam.dev/)⏬
+---
+
 - #### [`DMCA`](https://opensource.guide/legal/), [`Copyright`](https://opensource.guide/legal/) & [`Cease & Desist`](https://opensource.guide/legal/)
 > - If you/your project/software uses a license which forbids binary distribution, and you would like to take down the binary:
 > > - First, having such clause and disallowing people to distribute binaries, will harm only your own popularity/ potential user increment
@@ -131,8 +147,8 @@
 > 
 > Hence, if all you want to do is request for some packages/tools to be added, you are better off creating an Issue instead. Read: https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool
 >
-> However, if it's not related to `code | asking for more packages` to be included, you can **contribute/help me by donating a build server**. Either `arm (Preferred)` or `amd x86_64`.
-> Servers & Storage cost money, right now I pay for [Self Hosted Github Runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) & R2 Bucket (70-100$/Month).
+> - However, if it's not related to `code | asking for more packages` to be included, you can **contribute/help me by donating a build server**. Either `arm (Preferred)` or `amd x86_64`.
+> - Servers & Storage cost money, right now I pay for [Self Hosted Github Runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) (`$50/Month`) & R2 Bucket (`70-100$/Month`).
 ---
 
 - #### How do I find new Tools to add?
