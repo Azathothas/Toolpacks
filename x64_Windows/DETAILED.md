@@ -3,7 +3,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 466
+- **Stars:** 467
 - **Version:** 24.07
 - **Updated:** 2024-07-05T14:39:53Z
 - **Size:** 1.32 MB
@@ -37,7 +37,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 15877
+- **Stars:** 15878
 - **Version:** v1.2.0
 - **Updated:** 2024-06-21T12:52:31Z
 - **Size:** 3.88 MB
@@ -71,7 +71,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 40084
+- **Stars:** 40087
 - **Version:** v3.36.0
 - **Updated:** 2024-07-21T16:18:04Z
 - **Size:** 81.62 MB
@@ -1618,7 +1618,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 26983
+- **Stars:** 26984
 - **Version:** v10.0.10
 - **Updated:** 2024-07-20T17:22:55Z
 - **Size:** 8.7 MB
@@ -1773,7 +1773,7 @@
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Stars:** 5490
 - **Version:** v0.41.0
-- **Updated:** 2024-07-21T12:02:57Z
+- **Updated:** 2024-07-22T00:02:33Z
 - **Size:** 3.63 MB
 - **SHA256SUM:** 3243687bfd3d5ca705a2a149593973bc7d1ac28961e40ba9044bf0bd85d92099
 - **B3SUM:** 0221e214d930631b91f04c7ad5da4eac33c452ecb106738ff947ea0e40d00354
@@ -1839,7 +1839,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8454
+- **Stars:** 8453
 - **Version:** 2.18.1
 - **Updated:** 2024-07-21T04:45:13Z
 - **Size:** 1.44 MB
@@ -1856,7 +1856,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8454
+- **Stars:** 8453
 - **Version:** 2.18.1
 - **Updated:** 2024-07-21T04:45:13Z
 - **Size:** 1.28 MB
@@ -2077,7 +2077,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 20879
+- **Stars:** 20882
 - **Version:** v1.18.0
 - **Updated:** 2024-07-17T18:40:12Z
 - **Size:** 1.33 MB
@@ -2128,7 +2128,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29676
+- **Stars:** 29677
 - **Version:** jq-1.7.1
 - **Updated:** 2024-07-20T05:55:46Z
 - **Size:** 985.09 kB
@@ -2215,7 +2215,7 @@
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Stars:** 24469
 - **Version:** v2.0.13
-- **Updated:** 2024-07-21T19:39:12Z
+- **Updated:** 2024-07-22T00:19:56Z
 - **Size:** 11.88 MB
 - **SHA256SUM:** 3218550fdb3af3ee9f83507154242504e922490bed1ef28c522b8625724481a8
 - **B3SUM:** 31a46afc10ff8bc0ee1818e0e35ef7a99428b1b3304fed671e5d7f765f473c35
@@ -2315,7 +2315,7 @@
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 33358
+- **Stars:** 33360
 - **Version:** 3.2.1
 - **Updated:** 2024-07-19T18:34:28Z
 - **Size:** 159.73 MB
@@ -2451,7 +2451,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 46509
+- **Stars:** 46510
 - **Version:** 14.1.0
 - **Updated:** 2024-07-17T07:51:45Z
 - **Size:** 5.33 MB
@@ -2485,7 +2485,7 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 16562
+- **Stars:** 16564
 - **Version:** v1.9.3
 - **Updated:** 2024-07-21T02:58:25Z
 - **Size:** 30.72 MB
@@ -2638,9 +2638,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 77365
+- **Stars:** 77375
 - **Version:** 2024.07.16
-- **Updated:** 2024-07-21T17:58:37Z
+- **Updated:** 2024-07-21T22:26:17Z
 - **Size:** 180.22 kB
 - **SHA256SUM:** 52055c194da8dc227a434445ebc6cd774f68d3992d63509ebc44f5d06a778ae0
 - **B3SUM:** 8ab4bea05d0b59831312b925e08334881e135ef617274e1198db0432e605216c
