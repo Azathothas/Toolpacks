@@ -13,13 +13,13 @@
  87M   ├── istioctl
  84M   ├── hugo
  80M   ├── daytona
+ 76M   ├── alist
  75M   ├── ffmpeg
  74M   ├── ffprobe
  73M   ├── nuclei
  72M   ├── falconhound
  72M   ├── berty
- 70M   ├── rclone
- 70M   ├── alist
+ 71M   ├── rclone
  69M   ├── loki
  67M   ├── devpod
  66M   ├── ockam
@@ -130,8 +130,8 @@
  22M   ├── loclx
  22M   ├── localxpose
  22M   ├── reader
- 22M   ├── ruff
  22M   ├── etcd
+ 22M   ├── ruff
  22M   ├── imix
  21M   ├── tuiarchiver
  21M   ├── shuffledns
@@ -293,6 +293,7 @@
  10M   ├── vopono
  10M   ├── scilla
  10M   ├── ctrsploit
+ 10M   ├── wstunnel
  10M   ├── agg-speed
  10M   ├── flawz
 9.9M   ├── orbiton
@@ -300,7 +301,6 @@
 9.9M   ├── nix-channel-index
 9.9M   ├── tut
 9.8M   ├── gotty
-9.8M   ├── wstunnel
 9.8M   ├── gitql
 9.8M   ├── htb-cli
 9.8M   ├── resto
@@ -323,9 +323,9 @@
 9.3M   ├── cfssl-newkey
 9.3M   ├── invidtui
 9.2M   ├── dura
+9.2M   ├── yggdrasil
 9.2M   ├── pwninit
 9.1M   ├── agg
-9.1M   ├── yggdrasil
 9.1M   ├── taplo
 9.1M   ├── pping
 9.1M   ├── csprecon
@@ -348,8 +348,8 @@
 8.6M   ├── ssr-client
 8.6M   ├── serverstatus-client
 8.6M   ├── clipcat-menu
-8.6M   ├── vproxy
 8.6M   ├── nmap
+8.6M   ├── vproxy
 8.6M   ├── getghrel
 8.5M   ├── smartdns-rs
 8.5M   ├── rustypaste
@@ -397,8 +397,8 @@
 7.5M   ├── pretender
 7.5M   ├── quickcert
 7.5M   ├── croc
-7.5M   ├── sake
 7.5M   ├── cherrybomb
+7.5M   ├── sake
 7.5M   ├── xq
 7.5M   ├── puredns
 7.4M   ├── fingerprintx
@@ -435,6 +435,7 @@
 6.8M   ├── cloak-client
 6.7M   ├── exiflooter
 6.7M   ├── qemu-xtensaeb-static
+6.7M   ├── spoof-dpi
 6.7M   ├── boxxy
 6.7M   ├── cfspeed
 6.6M   ├── gitleaks
@@ -536,7 +537,6 @@
 5.2M   ├── gitlab-subdomains
 5.2M   ├── indextree
 5.2M   ├── gron
-5.2M   ├── spoof-dpi
 5.2M   ├── mcfly
 5.2M   ├── subjs
 5.1M   ├── github-regexp
@@ -712,12 +712,12 @@
 3.0M   ├── tmate
 3.0M   ├── p9cpu
 2.9M   ├── rage-keygen
-2.9M   ├── gping
 2.9M   ├── halp
 2.9M   ├── encrypted-dns
 2.9M   ├── t-rec
 2.9M   ├── qemu-hppa-static
 2.9M   ├── dust
+2.9M   ├── gping
 2.9M   ├── htmlq
 2.8M   ├── wireguard-rs
 2.8M   ├── rpaste
@@ -739,8 +739,6 @@
 2.7M   ├── wireguard-go
 2.7M   ├── qemu-or1k-static
 2.7M   ├── unf
-2.6M   ├── kakoune
-2.6M   ├── kak
 2.6M   ├── cproxy
 2.6M   ├── tere
 2.6M   ├── git-sizer
@@ -758,6 +756,8 @@
 2.5M   ├── boringtun-cli
 2.5M   ├── systeroid
 2.4M   ├── phantun-server
+2.4M   ├── kakoune
+2.4M   ├── kak
 2.4M   ├── geodns
 2.4M   ├── geoping
 2.4M   ├── tz
@@ -839,6 +839,7 @@
 1.4M   ├── moac
 1.4M   ├── ecoji
 1.4M   ├── v6disk
+1.4M   ├── tio
 1.4M   ├── progress
 1.4M   ├── kmon
 1.4M   ├── quotes-escaper
@@ -887,8 +888,8 @@
 1.1M   ├── catatonit
 1.1M   ├── update-desktop-database
 1.0M   ├── bash
-1.0M   ├── awk
 1.0M   ├── jql
+1.0M   ├── awk
 984K   ├── grep
 952K   ├── svg-hush
 948K   ├── hexyl
@@ -924,7 +925,6 @@
 444K   ├── sbase-box
 444K   ├── loksh
 440K   ├── oksh
-420K   ├── tio
 412K   ├── dbclient
 404K   ├── smenu
 404K   ├── sadf
