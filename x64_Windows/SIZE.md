@@ -1,5 +1,5 @@
 ```mathematica
- 1.7G └─┬ .
+ 1.7G └─┬ toolpack_x86_64
  152M   ├── pandoc.exe
  139M   ├── ffmpeg.exe
  139M   ├── ffprobe.exe
@@ -58,7 +58,6 @@
  5.1M   ├── rg.exe
  5.0M   ├── monolith.exe
  4.6M   ├── certstream.exe
- 4.6M   ├── openssh.zip
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
  3.6M   ├── pingmole.exe
@@ -96,99 +95,99 @@
  1.3M   ├── sshd.exe
  1.3M   ├── pdfimages.exe
  1.3M   ├── hyperfine.exe
- 1.3M   ├── 7z.exe
  1.3M   ├── tail.exe
+ 1.3M   ├── 7z.exe
  1.2M   ├── cp.exe
  1.2M   ├── flashfetch.exe
  1.2M   ├── pdfinfo.exe
  1.2M   ├── ls.exe
  1.2M   ├── pdffonts.exe
  1.2M   ├── vdir.exe
- 1.2M   ├── dir.exe
  1.2M   ├── factor.exe
+ 1.2M   ├── dir.exe
  1.2M   ├── pdfdetach.exe
  1.2M   ├── wldd.exe
  1.2M   ├── ssh.exe
  1.1M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── seq.exe
-1021K   ├── b3sum.exe
-1006K   ├── env.exe
- 993K   ├── dd.exe
+ 1.0M   ├── b3sum.exe
+1008K   ├── env.exe
+ 996K   ├── dd.exe
  980K   ├── od.exe
- 967K   ├── more.exe
- 962K   ├── jq.exe
- 946K   ├── split.exe
- 940K   ├── basenc.exe
+ 968K   ├── more.exe
+ 964K   ├── jq.exe
+ 948K   ├── split.exe
+ 944K   ├── basenc.exe
  940K   ├── df.exe
- 933K   ├── numfmt.exe
- 919K   ├── base64.exe
- 918K   ├── base32.exe
- 911K   ├── mktemp.exe
- 905K   ├── ln.exe
- 901K   ├── wc.exe
- 898K   ├── rm.exe
- 897K   ├── join.exe
- 896K   ├── printf.exe
- 893K   ├── shuf.exe
- 891K   ├── cut.exe
- 888K   ├── uniq.exe
- 887K   ├── head.exe
- 887K   ├── dircolors.exe
- 886K   ├── fmt.exe
- 882K   ├── tr.exe
- 877K   ├── shred.exe
- 869K   ├── xargs.exe
- 869K   ├── xargs-rs.exe
- 865K   ├── realpath.exe
- 862K   ├── tsort.exe
- 862K   ├── readlink.exe
+ 936K   ├── numfmt.exe
+ 920K   ├── base64.exe
+ 920K   ├── base32.exe
+ 912K   ├── mktemp.exe
+ 908K   ├── ln.exe
+ 904K   ├── wc.exe
+ 900K   ├── rm.exe
+ 900K   ├── printf.exe
+ 900K   ├── join.exe
+ 896K   ├── shuf.exe
+ 892K   ├── uniq.exe
+ 892K   ├── cut.exe
+ 888K   ├── head.exe
+ 888K   ├── fmt.exe
+ 888K   ├── dircolors.exe
+ 884K   ├── tr.exe
+ 880K   ├── shred.exe
+ 872K   ├── xargs.exe
+ 872K   ├── xargs-rs.exe
+ 868K   ├── realpath.exe
+ 864K   ├── tsort.exe
+ 864K   ├── readlink.exe
+ 856K   ├── unexpand.exe
  856K   ├── tee.exe
- 852K   ├── unexpand.exe
- 852K   ├── expand.exe
+ 856K   ├── expand.exe
+ 844K   ├── sum.exe
+ 844K   ├── fold.exe
  844K   ├── cat.exe
- 842K   ├── fold.exe
- 841K   ├── sum.exe
- 834K   ├── ssh-keygen.exe
- 832K   ├── truncate.exe
- 830K   ├── test.exe
+ 836K   ├── truncate.exe
+ 836K   ├── ssh-keygen.exe
+ 832K   ├── test.exe
  828K   ├── uname.exe
- 825K   ├── hostname.exe
- 820K   ├── mkdir.exe
+ 828K   ├── hostname.exe
+ 824K   ├── mkdir.exe
+ 820K   ├── rmdir.exe
+ 820K   ├── paste.exe
+ 820K   ├── comm.exe
  820K   ├── basename.exe
- 819K   ├── comm.exe
- 818K   ├── paste.exe
- 817K   ├── rmdir.exe
+ 816K   ├── sync.exe
  816K   ├── sleep.exe
- 813K   ├── sync.exe
+ 812K   ├── unlink.exe
  812K   ├── nproc.exe
  812K   ├── link.exe
- 810K   ├── unlink.exe
- 807K   ├── arch.exe
- 803K   ├── pwd.exe
- 798K   ├── dirname.exe
- 797K   ├── echo.exe
- 794K   ├── whoami.exe
- 791K   ├── yes.exe
- 786K   ├── printenv.exe
- 768K   ├── anew.exe
- 768K   ├── anew-rs.exe
- 742K   ├── true.exe
- 742K   ├── false.exe
+ 808K   ├── arch.exe
+ 804K   ├── pwd.exe
+ 800K   ├── echo.exe
+ 800K   ├── dirname.exe
+ 796K   ├── whoami.exe
+ 792K   ├── yes.exe
+ 788K   ├── printenv.exe
+ 772K   ├── anew.exe
+ 772K   ├── anew-rs.exe
+ 744K   ├── true.exe
+ 744K   ├── false.exe
  656K   ├── busybox-unicode.exe
- 649K   ├── ssh-keyscan.exe
- 649K   ├── busybox.exe
+ 652K   ├── ssh-keyscan.exe
+ 652K   ├── busybox.exe
  644K   ├── ssh-sk-helper.exe
- 590K   ├── ssh-add.exe
- 551K   ├── upx.exe
- 543K   ├── ssh-agent.exe
- 507K   ├── ssh-pkcs11-helper.exe
- 446K   ├── scp.exe
- 365K   ├── sftp-server.exe
+ 592K   ├── ssh-add.exe
+ 552K   ├── upx.exe
+ 544K   ├── ssh-agent.exe
+ 508K   ├── ssh-pkcs11-helper.exe
+ 448K   ├── scp.exe
+ 368K   ├── sftp-server.exe
  176K   ├── yt-dlp.exe
- 175K   ├── ssh-shellhost.exe
- 167K   ├── bin2video.exe
- 138K   ├── iperf3.exe
+ 176K   ├── ssh-shellhost.exe
+ 168K   ├── bin2video.exe
+ 140K   ├── iperf3.exe
    0B   ├── stiG2Kb7
    0B   └── stP1kAlM
 ```
