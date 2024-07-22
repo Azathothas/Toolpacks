@@ -3,7 +3,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 467
+- **Stars:** 468
 - **Version:** 24.07
 - **Updated:** 2024-07-05T14:39:53Z
 - **Size:** 1.32 MB
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2589
+- **Stars:** 2590
 - **Version:** v1.7.1
 - **Updated:** 2024-07-02T09:12:41Z
 - **Size:** 5.42 MB
@@ -37,7 +37,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 15878
+- **Stars:** 15879
 - **Version:** v1.2.0
 - **Updated:** 2024-06-21T12:52:31Z
 - **Size:** 3.88 MB
@@ -71,7 +71,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 40087
+- **Stars:** 40139
 - **Version:** v3.36.0
 - **Updated:** 2024-07-21T16:18:04Z
 - **Size:** 81.62 MB
@@ -139,7 +139,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47896
+- **Stars:** 47897
 - **Version:** v0.24.0
 - **Updated:** 2024-07-21T21:18:19Z
 - **Size:** 6.32 MB
@@ -156,7 +156,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 47896
+- **Stars:** 47897
 - **Version:** v0.24.0
 - **Updated:** 2024-07-21T21:18:19Z
 - **Size:** 6.32 MB
@@ -258,7 +258,7 @@
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
-- **Stars:** 12154
+- **Stars:** 12155
 - **Version:** 4.4.2
 - **Updated:** 2024-06-18T20:51:35Z
 - **Size:** 11.57 MB
@@ -275,7 +275,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
-- **Stars:** 8534
+- **Stars:** 8536
 - **Version:** 2024.6.1
 - **Updated:** 2024-07-16T16:33:23Z
 - **Size:** 26.83 MB
@@ -292,9 +292,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 826.88 kB
 - **SHA256SUM:** 873170e005b5cb6c57451bcfa561aa65399b28f21d871eb2e3ed6f94f49846ec
 - **B3SUM:** a6ff68125b82f8155d9c4defe3fc855a755aad825d8ab31def60f964a23acaef
@@ -309,9 +309,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 940.54 kB
 - **SHA256SUM:** 6c1b81ff675490fa57fc295d2e7bcddb5d3348ad0ba577088d58a9b1690bcecd
 - **B3SUM:** a46577ebb097dc2dc5fe6ba2bc4d203d9f8c2d948429987837ceb658da2e4123
@@ -326,9 +326,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 941.06 kB
 - **SHA256SUM:** 60803c64c08ccf8f1072fa485893689b76d7726385f32cddbe78fd82b79b4550
 - **B3SUM:** 32fe39f535eea70dafc2c60d9c6ffc544634a37c3c4f5e4e339604751f783335
@@ -343,9 +343,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 839.68 kB
 - **SHA256SUM:** c28551444696161bc82fb1e4f74ce37ffed1a94b3149b1860b87751ba5567ee9
 - **B3SUM:** 18577f08cee589d90c1fddb2420febdd24b0fc2ac350d3db3cbbe7cd7eaebbee
@@ -360,9 +360,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 963.07 kB
 - **SHA256SUM:** 3ac480fbb74aadfb77167e379d690d69eca8de6bfc3bf512f2887939b807d3c3
 - **B3SUM:** b92b32bef11951af2a9f12985110bdbdbee2073059de2368871a9f6f6ea6e39e
@@ -377,9 +377,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 864.26 kB
 - **SHA256SUM:** ea8b835c53ec83bbf5e7488f5add5da4c06b3a1717a3fc858e14396f9ea53a65
 - **B3SUM:** 58c960212800209e58dc9d52e0437fcbfd4fa8db15506f51d9b520ce48b14f8b
@@ -394,9 +394,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.67 MB
 - **SHA256SUM:** b1f9bfe3d37a81b4be549183abb5676c79058c7b48149065e0a87823f031ae90
 - **B3SUM:** f20fd2b375685c7067b3a414e82063782c12da6885cc2495bd44edfd2f6267c4
@@ -411,9 +411,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 838.66 kB
 - **SHA256SUM:** 84d668e1bc00ff26bfa8077523e9ec7e1576ed0162467cd284531b8f063a7dbe
 - **B3SUM:** 8dcfb725ad9c96ae7b588c00552fadc1ea68498e230a5dd596971fc6058c06ed
@@ -428,9 +428,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 9.74 MB
 - **SHA256SUM:** 5f797315c5ba2304e898ab070b8eff7c2e6d19930717394b6fa5f48381f61842
 - **B3SUM:** 7bf99d5284d93f3f2a620785adeffb8c1eea4cfad28516d68961a5af18a0d414
@@ -445,9 +445,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 9.74 MB
 - **SHA256SUM:** f6a8442970a2aa835c8342b1cc6197477531c242c1187cbe395b45a47312232f
 - **B3SUM:** 72cbf6773150ed4937a1143b867153eb4f241cbc3629ad565fba2ca1c5057c51
@@ -462,9 +462,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.3 MB
 - **SHA256SUM:** 63a869751ba12a1c8f3b69e58fcacf7db3b7f00e01b3add7699fce1caed5789e
 - **B3SUM:** 8ca36aa6daf8a5253f353edd6aff0720acf1960cd21ff8a0d972fbef9a3e01ce
@@ -479,9 +479,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.32 MB
 - **SHA256SUM:** 06125a77b67a9ccb766989774812500003576e7b760c0476e46408ebea42042c
 - **B3SUM:** 557528e16f4afd9e923d8de93f838b551e8a598eb55539facd3218d9ee3a6cb6
@@ -496,9 +496,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 912.9 kB
 - **SHA256SUM:** c3154dc7b50d14e6b6011ebb3a2ec86bb8e304f0fbe8e63d0fa516067880874b
 - **B3SUM:** b24aff3f49bfb068a902d35ec14a6f0313ceaa28b67b41a6df1e4b5f43a7963a
@@ -513,9 +513,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.41 MB
 - **SHA256SUM:** d89722c8cebc07ff44fad98d3eec266bcffc476d49a6ce10f91bc3cd09ba2558
 - **B3SUM:** 63840fcf594d5513bb7f242729f2097ce069cfac2c8b2eda5430bbcd36c76ef3
@@ -530,9 +530,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.02 MB
 - **SHA256SUM:** 06293518531765c51ac668cf37e3b74c3340962b3be3f611e7dc802b5a5c2440
 - **B3SUM:** d1d1174608d78c1bbccb37ac18b871b78b19c6b4e01234173f16f3b80e288f5d
@@ -547,9 +547,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 962.56 kB
 - **SHA256SUM:** 082629e8b63270e52fd1e76c748c3e12a7e4991164ed00754c4c350f3d46da5e
 - **B3SUM:** 671b35b087cf5963d0cb80fa78dc186b79a347bd48887d9fb5a2e2ebacff4cf1
@@ -564,9 +564,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.26 MB
 - **SHA256SUM:** 7e546494a88d46efd497ddabbc3862b1282576e98ab0192328159acc7470febc
 - **B3SUM:** 9406891a45a65fca7173645092272bb4dd9fd70fabb4df8f0b8d487192a4394e
@@ -581,9 +581,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 908.8 kB
 - **SHA256SUM:** 3436ac4df270936fb37f1ae845dee41cab0956fc90bbb24d2963ec182e81f48e
 - **B3SUM:** 8bc2eba6a1bb6d878ef6ef88a928e792825c8eb5d278cd35253f48b7336dceab
@@ -598,9 +598,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 817.66 kB
 - **SHA256SUM:** 906b5195266558e669c69fba15059a51a5a01d0bbd7e4df92bca9af65a309a9d
 - **B3SUM:** 7ec04d7a8261073a8ec4c0fdedd5f57ce02fe81e34410eee19ca27c9e6f0f59d
@@ -615,9 +615,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.13 MB
 - **SHA256SUM:** 235f783307e395b294db2d7974ee125abfff5e97e2e5b127097e752e604f5743
 - **B3SUM:** 3516c38e1eada2a318787a79efc5c035d04bcfcad51cf96424e9b008a395edbb
@@ -632,9 +632,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 816.64 kB
 - **SHA256SUM:** 44d8272a2f2239af85cc877599e49c37d81bd7b77eb974f98d9fa2dafba38408
 - **B3SUM:** c46541fe3cf019f21f48a6b61f20f6e72b9643d271c30360f6bb66a88edd1276
@@ -649,9 +649,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.03 MB
 - **SHA256SUM:** 0ad1cc28919b7ee13244acdfd2a61a4a5e62be4162f80010839095a865cfcbc0
 - **B3SUM:** 9ce1e80969fe92b1b01c62345471f4c05e0b2806f69377cb72c9e30d6bf0ecc9
@@ -666,9 +666,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 872.96 kB
 - **SHA256SUM:** 0e66ff7e00b77bd9c018e3544d000c08d9e16be4967f7a412025dee4d46e20c7
 - **B3SUM:** 1f7003e7350be3d281e45f2ba7854e64fe26514416db2c8dc9b4c7d32874eeb0
@@ -683,9 +683,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.45 MB
 - **SHA256SUM:** b7c6c1b7af67a45bc4abbe01af4e3e4db464a439f37af57baacf28b9ba87377d
 - **B3SUM:** 3ad54988e3fc8ad9ef8c7b29768a40a555b56c9073da4d0fb7aee3965ea43f6f
@@ -700,9 +700,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.26 MB
 - **SHA256SUM:** b09e3d12ed67de33927365cc6f72623fbd19c0b404a456f393e4455fe89533b6
 - **B3SUM:** 06f403763b9dd9cd68d9fc7e04b83b3d58e53cdc880d2db49050d8c37c19256f
@@ -717,9 +717,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 760.32 kB
 - **SHA256SUM:** e1c881c1168e3992127d03829a05289759655c0cd11232120e29843fcb7076e5
 - **B3SUM:** 40d7ee09264be897158f7d98b827a1eb473a90e54ef1d2c34306df0fc8b7de2d
@@ -734,9 +734,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 907.78 kB
 - **SHA256SUM:** f57c4e2e09cf9ccf6b54e9a6c9d8a47ef8d78eb8b86bdf2a8d0c7446f84fa0d1
 - **B3SUM:** 2c4b8c31ae6795037bff71542af27a8acae11f5b4f3ed8613ec75c7085e62028
@@ -751,9 +751,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 862.72 kB
 - **SHA256SUM:** 798589bc38f1007ee9946308439dc44a98b201a8acbba1e785d40ae57aaed9ac
 - **B3SUM:** 8a88576f2cb610a6f44fd0b05fe7c5c03b61058f3817bbfc7b9c43770a59f7dc
@@ -768,9 +768,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.62 MB
 - **SHA256SUM:** 0c1d032ac5750c79d810ebde64ece2be41b007d430c656a813ca3e2642a3c534
 - **B3SUM:** 8a56cc9df9684b5269535d224129fd629089e26cff35e66bdca044544f4d2521
@@ -785,9 +785,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 908.8 kB
 - **SHA256SUM:** 77a09687b2532c1b1b5ad78352ae752324e598eb537e155bebf8e709cc244c08
 - **B3SUM:** 1f862e62b39c4defb4171ad75eb6c9874422eeb3decd4b11589d664b8d02d1b2
@@ -802,9 +802,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 844.8 kB
 - **SHA256SUM:** fbb70fbf13e1d3f01ad0d880aefaa87201d3fea2234493d65ac31d6328dd508a
 - **B3SUM:** 5c1e776151f20393479a743fb632cb3417f7f9945555ec906e34a53745bfbd5d
@@ -819,9 +819,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 918.53 kB
 - **SHA256SUM:** d3ac39212e10f4e9b7ed080fb19a7d84a631ad3ab55ce50abcb291bb66fa2105
 - **B3SUM:** 09ee64c0e3ea5c23ad28388c03cc478db12a44e08bc22bf9065d7d43b1b4dbb7
@@ -836,9 +836,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 831.49 kB
 - **SHA256SUM:** 323e46d327e3fb5651f593aa08bfe6df543ec0861be5035d347078cc6ec86b93
 - **B3SUM:** 3f450ce1079dc80081e2dce17b744fc57594425627cf82a6f222346fbf4fe5fd
@@ -853,9 +853,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 926.72 kB
 - **SHA256SUM:** 73656dfabec33110cbf5d36d1a73298ed381e1f8b5a1b87ee2cae8369e8c16b2
 - **B3SUM:** eadaae21a415a3f1fb5d90481a61ad7bfbf36940803531fb0e2545a4ca8cbc78
@@ -870,9 +870,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.27 MB
 - **SHA256SUM:** ad92f44337ad00dc98eeeb55f01b3875aa4a1cd7006bf75e94364e176be167e2
 - **B3SUM:** 244ffa3d2b74a4b1bc657f0c39a0a0114427841763d1668d10ae8494572bd05e
@@ -887,9 +887,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 840.19 kB
 - **SHA256SUM:** 1e769cabece549d177b2db66bd5427eda8cb58616063e61021cc7a2147870dd9
 - **B3SUM:** d96de4a53748a33446c5eddd1adfaeaa75f0b197768a21ffe786f0b617ee095f
@@ -904,9 +904,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 932.86 kB
 - **SHA256SUM:** e27336aa2fb1e5e54f5ddac67053a71f5c3b6c0fb9c7451aa3681cc67f02a1c3
 - **B3SUM:** d8b8085c6f6a165d311dd8230bd3a0ac9a08f0ac23f22aa638e4a84bb914b494
@@ -921,9 +921,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 990.21 kB
 - **SHA256SUM:** 2b713f5f1341d736a838c2bb60c4df4ababe2efe7771673fc0e4a306b0143c4a
 - **B3SUM:** a26d8eeb32bc7a4b61304cf0135e0b80300f037e4e077faa880c1b703f890c67
@@ -938,9 +938,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.18 MB
 - **SHA256SUM:** 072df8c2660bc99a3f0c44859f7080a1e47293b22eb235c661b00b982856a5e9
 - **B3SUM:** d7baa1b1158bf65c6e458630afc597ebee511a0742cec395e042fd1456fe801b
@@ -955,9 +955,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.29 MB
 - **SHA256SUM:** c373cb5b8af0d409b9cc0e091720c4e8d125e3f7b04af8b0291a6963375e11d6
 - **B3SUM:** 149438d0e289ebf98a48b7bac2d67dfe391418179b1534eefca77c2d1106212f
@@ -972,9 +972,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 831.49 kB
 - **SHA256SUM:** b62b5e98fc4ab01290f2265a48584b256d0a58db33b31384678af7b0793a3569
 - **B3SUM:** 38859b4f0a1e41923d46338d50f5ca40f270e0876d89725426b5fe10daa06b7a
@@ -989,9 +989,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 955.9 kB
 - **SHA256SUM:** 714987e2f56f4874273d4ca6f86a93afd421fa64ad6ca8cf48cec515051e0a3d
 - **B3SUM:** 7b1d35191367d56ab366c8908b691bb991a96c62383f78b50577214ba1fb5202
@@ -1006,9 +1006,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1 MB
 - **SHA256SUM:** fedfa72aec53cec91137dd128f39bb9323db101c8be5a4e64e249d4e65c87acb
 - **B3SUM:** c498d43049d3b9688a3bada3245f27f1ba25e472ce112a06010a6e823fe770bf
@@ -1023,9 +1023,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 837.63 kB
 - **SHA256SUM:** c873fae59e37f45830e31557faa598dae962442cc3c2adff8009d713b9d808cd
 - **B3SUM:** 6962fbc20c491f019b477f1bcdc841880d07fb5848e6d87d608ab3b06f04d1b6
@@ -1040,9 +1040,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.41 MB
 - **SHA256SUM:** ad9aaf37a32fc79d06df51ec643ec2665c80e2c4cb1745783ff6b82fde25b51e
 - **B3SUM:** 7df9748ebb25422059173c844b4cbd749653912c916cabbbb49fb1baf0baf874
@@ -1057,9 +1057,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 804.86 kB
 - **SHA256SUM:** 887e6d8db66483226c51883531d292968ea2e8e2b40d366f4f4ff85a6c0bcc09
 - **B3SUM:** f87b9c13716b2933681e793027411efddb0ffc45da23f8ff6b8a3c81fa6ab0cf
@@ -1074,9 +1074,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 918.02 kB
 - **SHA256SUM:** 2b014e9aa8ccc30509a864eb45d89f714a9a9707d1b649f8c0c1e082376586b6
 - **B3SUM:** 9d081f7794bcf12282c92e0a3885e5746162d94dcc4906bb05afddaae1720af3
@@ -1091,9 +1091,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.38 MB
 - **SHA256SUM:** 839e4e588e55b3830a1087a376f96eabc05532751f2bf027f08073fca442268d
 - **B3SUM:** 385447f593b03120b3759004e9709e2012ac86882415cc03c8dd1689e68fa4f0
@@ -1108,9 +1108,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 822.27 kB
 - **SHA256SUM:** 695a7a041fea41690455f80b554c553f4af96d982cbb68ef12858af94fbb9800
 - **B3SUM:** ed6e60dce715eab8fbbc18007a4face46e3e9bee88e348c9919c70bfe42ac746
@@ -1125,9 +1125,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 882.69 kB
 - **SHA256SUM:** 3a3fb9437203507a4d430cafc2c2555fbe9d213ff845e7a8a4c26576742aaf7b
 - **B3SUM:** a38cb06104e5d156d9b3195ce01b46b4848c344ceaa3fdc3d3bbaa30b6ac86fe
@@ -1142,9 +1142,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 886.27 kB
 - **SHA256SUM:** 102aedccb22bc4c03b82e67b857a24e8b28e701091d6e9b85c5e7cd08759436c
 - **B3SUM:** 9b73327454c816a7273c65893d7d877c8294eada47aa48c35fd964b73f4465ec
@@ -1159,9 +1159,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 919.55 kB
 - **SHA256SUM:** f72712d36c22f486740651b8cef0a107bc7264a6c577021325d65a9027d97988
 - **B3SUM:** f9153769ec3c880787a7d1c5141f672f49358763fdb664def4eec1038d76f5b0
@@ -1176,9 +1176,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 837.12 kB
 - **SHA256SUM:** 679b4d06b215ead2a5a6aac13d2d33290db5b744fbe1812290d8da136b5bb36e
 - **B3SUM:** 46552d913e70e8c3dc45856c3f4d529e32b8da4737bd5082a6df139803e134d7
@@ -1193,9 +1193,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.06 MB
 - **SHA256SUM:** 6c82036ad1afb2c2a45dae5714991bc1e268c4a8eb3de7ae7f6d956204c75430
 - **B3SUM:** 8c23352c49461f340e60bd13a03a89273ad1bf7c5a8187d9aea8491dc033e4e5
@@ -1210,9 +1210,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 898.05 kB
 - **SHA256SUM:** e3fdb2b63fa8de1fe8f69e04e4f42ecb3e319e7dea048fef33a3623e7824b572
 - **B3SUM:** 87c24a19d037faeb61fed4605aab0566885c957fbd65b6a1d67c64e62ac66ea5
@@ -1227,9 +1227,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 914.43 kB
 - **SHA256SUM:** 3628308ad89a2f5d42ca7746dffa03834765107a754ba33d223e6f5c8810ff27
 - **B3SUM:** 2c133d3e2088af50609a0847cc6d767da490e9c7baeeb8c6b132054153ca74ee
@@ -1244,9 +1244,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 835.58 kB
 - **SHA256SUM:** eef163c40aa25887e6735da263f56be300e0918713fc6ee1813236d32581f7d3
 - **B3SUM:** 01fac14a3eddf536c1ed883e7e7aacaa996a2777fb8ee00a00a8f5091b9b44d2
@@ -1261,9 +1261,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.65 MB
 - **SHA256SUM:** dc0e4c02011b32cf8a09f3dfa5c036104571c7d0db794efe42dd7cf4c8d7da02
 - **B3SUM:** bc9edb537f63512f56984a0c919ec89039ab286d36ab05ec9803067cb05ef883
@@ -1278,9 +1278,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 968.7 kB
 - **SHA256SUM:** c0e46baeb0847486a9bdae5aa19e71d2a040508beb21382623190cd0ab895dc3
 - **B3SUM:** 58f72c956987dcf8a465e2a0d6862d0477e6e8388df72dda252b26bf59ac94ac
@@ -1295,9 +1295,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 861.18 kB
 - **SHA256SUM:** d1f58916b5cdf8de7b71159a5abbd92b5dd2f5789d1c5b255a9de67accd23a81
 - **B3SUM:** 0fa55d77a52754aac0a1be67c1078ff202cf8a889be2b65c172fef3c04ad9860
@@ -1312,9 +1312,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 833.02 kB
 - **SHA256SUM:** b96ec696a92996fc78365b8f5ffb72f821be8400b4148f8e763b10b37c4a6f11
 - **B3SUM:** 8cb4a20c4cc9004554462519721e6f8ccda3d2bae5442bc8b9ed62faa5b92664
@@ -1329,9 +1329,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.25 MB
 - **SHA256SUM:** d75e7a84edadb25b270d826fd9bf10c81011f1ac56afcd01683b3fecc91725ec
 - **B3SUM:** 30924dcd566c169b62842a0c7a322f9a7396a05b102d029edd9b5fe253a92d32
@@ -1346,9 +1346,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.32 MB
 - **SHA256SUM:** 68580aadf886c1f5d7e44901caa4af24b5bab2ed05ece566e1de69758a541fa2
 - **B3SUM:** 2c7c036e27ca97fbddbc26aaf09be6fcca08597fa456f4f3a324cd96cf5a7ec7
@@ -1363,9 +1363,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 876.54 kB
 - **SHA256SUM:** bc21a9aae5f4ffcb1a420ecac149e8da561b87c1b844c3a5637829701d885d33
 - **B3SUM:** be056a9850aa1a31e98b1d4662365a91bfe473e166ea2f3e3ff8b3dcebaa50db
@@ -1380,9 +1380,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 850.43 kB
 - **SHA256SUM:** f73d8197c93b1226a690e25da76f05d137bb8398bf6c872af4e464b62a49d7a0
 - **B3SUM:** 4da9c9f15bbe8171e091b73e55c5cdfc75e979a605aee89dfd00332cfd8f751a
@@ -1397,9 +1397,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 2.4 MB
 - **SHA256SUM:** ffd34c91ccff2e44b99f0d742e463192c4a5f16689adacbfd6264996e90db31d
 - **B3SUM:** 91ab86f4081a265b0a3a4fe777fcf13c6c44487985fe95e85dbd93a908cc8d05
@@ -1414,9 +1414,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 903.68 kB
 - **SHA256SUM:** cbee7e5ff15e8af096209d7027fecd321dba7c9f4a27d1bd2924861928e10b0c
 - **B3SUM:** ee8f20c9b7662d839810039e9cab70132c26b09b11f994063004ca3dba43a27b
@@ -1431,9 +1431,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 760.32 kB
 - **SHA256SUM:** b4967f9e7cc02a4b263b47cf072078bc9d02ba0962c7f79a896c000fc72ce560
 - **B3SUM:** e06a5f82bed52df8bc72bc3ae5f6e0e1f1fb705896023adbdd5eca03a48c9884
@@ -1448,9 +1448,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 852.48 kB
 - **SHA256SUM:** 9056b78d6a8fc9a7f58adef9cdf2dde5f214bf0e4def14a26d7a79d283864eb9
 - **B3SUM:** 8b3d5c06f20398a0b586c1c62c78fa7fd57bebca6dec8816d3a90420de23045b
@@ -1465,9 +1465,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 882.69 kB
 - **SHA256SUM:** 2a2d1a1c4f706523c1871d796777c13c9fd967520232f09722330806deae818f
 - **B3SUM:** 67e446bf6ce297e674025074d93eb58f526cdb416cf621892136241253c48d51
@@ -1482,9 +1482,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 847.87 kB
 - **SHA256SUM:** 3a7c9716ca83da04b95f570be805e7b71b1f9c74299d139a970c87fb8422d382
 - **B3SUM:** c962b6c15d17a8452bf359c05a2452f25271be4af8d1399e8164c38b6299890d
@@ -1499,9 +1499,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 872.96 kB
 - **SHA256SUM:** 93e9bde807ab1edbfc63f07d689e368e1f23fec0c7ef32ca67d7145e04e8d4c9
 - **B3SUM:** 5d05cac047f4f915a2629b5881e57b5e5aa51d80a72fc65789c58da45880dc19
@@ -1516,9 +1516,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 909.82 kB
 - **SHA256SUM:** 00ec6aa0a9e653de7fd582b903a1aeaf3df109e689b26812737e6b95d5e1dc53
 - **B3SUM:** 862dc72e790aafe1fc649ba35835f1c0192fa1ff6edd9bc425d3da3f77c0e949
@@ -1533,9 +1533,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 829.95 kB
 - **SHA256SUM:** 93cd88b24d846934e94d91605d9d9e7da501dbb702bbee13b1d05d0929bd00d2
 - **B3SUM:** b97a755ebd7c36e1f549f0de66bc5ade595278559724c599cc441cb02c018399
@@ -1550,9 +1550,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 1.26 MB
 - **SHA256SUM:** 8d6325cf3d50da369b10d88ab38bcdae759cdbde9f65ee4516ff02c8b8e1e2ad
 - **B3SUM:** 20a4ca22f1a941bd4faa8a7f693df84c442c80d72ee2764c8b4f53bcf553aa04
@@ -1567,9 +1567,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 923.14 kB
 - **SHA256SUM:** 7ef3e13e978a254c319b3dfc6c57c4509a52bcd24b4a18d2344b070dfd3f4367
 - **B3SUM:** e31f39575d7580e678bc15ee02d46ec8572a7b17817a532203190d7ca22309bc
@@ -1584,9 +1584,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 813.06 kB
 - **SHA256SUM:** de21720ff240841c2eb38600f2861922c05fdb839e91dd7becc2b531f2bf2da5
 - **B3SUM:** 30351ad68af91fcbdc814cedf4d6e2d0119764575c7c32a700d75e5f67361318
@@ -1601,9 +1601,9 @@
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
-- **Stars:** 17309
+- **Stars:** 17312
 - **Version:** 0.0.27
-- **Updated:** 2024-07-21T09:23:42Z
+- **Updated:** 2024-07-22T01:16:51Z
 - **Size:** 809.98 kB
 - **SHA256SUM:** 5a1de41b1851d27a18d30bbabc2f146676f7818e6e564f5d345dc738b86ec1de
 - **B3SUM:** b40f06b9bdd4756d17ec829062e70742b811e9efc5e56ebaf7d0fd17c9dc727e
@@ -1618,7 +1618,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 26984
+- **Stars:** 26987
 - **Version:** v10.0.10
 - **Updated:** 2024-07-20T17:22:55Z
 - **Size:** 8.7 MB
@@ -1703,7 +1703,7 @@
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 10632
+- **Stars:** 10636
 - **Version:** v6.6.5
 - **Updated:** 2024-07-21T04:27:52Z
 - **Size:** 9.69 MB
@@ -1754,7 +1754,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
 - **Repository:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
-- **Stars:** 3755
+- **Stars:** 3756
 - **Version:** v2.29.0
 - **Updated:** 2024-07-16T18:27:18Z
 - **Size:** 1.56 MB
@@ -1773,7 +1773,7 @@
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Stars:** 5490
 - **Version:** v0.41.0
-- **Updated:** 2024-07-22T00:02:33Z
+- **Updated:** 2024-07-22T06:13:18Z
 - **Size:** 3.63 MB
 - **SHA256SUM:** 3243687bfd3d5ca705a2a149593973bc7d1ac28961e40ba9044bf0bd85d92099
 - **B3SUM:** 0221e214d930631b91f04c7ad5da4eac33c452ecb106738ff947ea0e40d00354
@@ -1805,7 +1805,7 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
 - **Repository:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
-- **Stars:** 831
+- **Stars:** 832
 - **Version:** v1.3.4
 - **Updated:** 2024-07-09T06:03:04Z
 - **Size:** 6.94 MB
@@ -1839,9 +1839,9 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8453
-- **Version:** 2.18.1
-- **Updated:** 2024-07-21T04:45:13Z
+- **Stars:** 8454
+- **Version:** 2.19.0
+- **Updated:** 2024-07-22T06:34:16Z
 - **Size:** 1.44 MB
 - **SHA256SUM:** 5ac8dbebbb0776e7f790f7d6b5a210a8779e57c33039a58e4108eb673d0c338e
 - **B3SUM:** 4b3633976f6fc0a2cad57d20d8100a924df9f015695dc8f970707a7679d47b2f
@@ -1856,9 +1856,9 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8453
-- **Version:** 2.18.1
-- **Updated:** 2024-07-21T04:45:13Z
+- **Stars:** 8454
+- **Version:** 2.19.0
+- **Updated:** 2024-07-22T06:34:16Z
 - **Size:** 1.28 MB
 - **SHA256SUM:** a5a41e5518a253ced5614d17d6b967fc1dce06b3bd1e3551add8697510539099
 - **B3SUM:** 6833abf00e7ea51320f361b13441b58bdbaf7c2ac03c1a5b168d6f4f6f5eaaa7
@@ -2026,7 +2026,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8485
+- **Stars:** 8488
 - **Version:** gix-path-v0.10.9
 - **Updated:** 2024-07-18T06:33:47Z
 - **Size:** 9.17 MB
@@ -2043,7 +2043,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8485
+- **Stars:** 8488
 - **Version:** gix-path-v0.10.9
 - **Updated:** 2024-07-18T06:33:47Z
 - **Size:** 18.42 MB
@@ -2077,7 +2077,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 20882
+- **Stars:** 20887
 - **Version:** v1.18.0
 - **Updated:** 2024-07-17T18:40:12Z
 - **Size:** 1.33 MB
@@ -2128,7 +2128,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29677
+- **Stars:** 29678
 - **Version:** jq-1.7.1
 - **Updated:** 2024-07-20T05:55:46Z
 - **Size:** 985.09 kB
@@ -2162,7 +2162,7 @@
 - **Author:** evilsocket
 - **WebURL:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
 - **Repository:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
-- **Stars:** 1331
+- **Stars:** 1332
 - **Version:** v0.9.0
 - **Updated:** 2024-07-20T15:04:59Z
 - **Size:** 21.85 MB
@@ -2213,7 +2213,7 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24469
+- **Stars:** 24473
 - **Version:** v2.0.13
 - **Updated:** 2024-07-22T00:19:56Z
 - **Size:** 11.88 MB
@@ -2230,7 +2230,7 @@
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - **Repository:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
-- **Stars:** 5802
+- **Stars:** 5803
 - **Version:** v0.27.1
 - **Updated:** 2024-07-20T12:59:42Z
 - **Size:** 1.9 MB
@@ -2247,7 +2247,7 @@
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
-- **Stars:** 10558
+- **Stars:** 10559
 - **Version:** v2.8.1
 - **Updated:** 2024-06-27T13:20:53Z
 - **Size:** 5.25 MB
@@ -2315,7 +2315,7 @@
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 33360
+- **Stars:** 33362
 - **Version:** 3.2.1
 - **Updated:** 2024-07-19T18:34:28Z
 - **Size:** 159.73 MB
@@ -2417,7 +2417,7 @@
 - **Author:** esrrhs
 - **WebURL:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
 - **Repository:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
-- **Stars:** 2997
+- **Stars:** 2998
 - **Version:** 2.8
 - **Updated:** 2024-04-20T03:02:48Z
 - **Size:** 8.98 MB
@@ -2451,7 +2451,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 46510
+- **Stars:** 46517
 - **Version:** 14.1.0
 - **Updated:** 2024-07-17T07:51:45Z
 - **Size:** 5.33 MB
@@ -2485,9 +2485,9 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 16564
+- **Stars:** 16581
 - **Version:** v1.9.3
-- **Updated:** 2024-07-21T02:58:25Z
+- **Updated:** 2024-07-22T04:44:52Z
 - **Size:** 30.72 MB
 - **SHA256SUM:** 11e83c49f3fc8748e493f5ee938e5dd9370fe124c40fe500be7058e765f571f3
 - **B3SUM:** ea1954cbbf2289ce85c0c49b7af8611f44f6eec287d5600bdcab6852263f31bd
@@ -2519,7 +2519,7 @@
 - **Author:** mokeyish
 - **WebURL:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
 - **Repository:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
-- **Stars:** 516
+- **Stars:** 517
 - **Version:** v0.8.5
 - **Updated:** 2024-07-19T23:19:45Z
 - **Size:** 9.07 MB
@@ -2587,7 +2587,7 @@
 - **Author:** trzsz
 - **WebURL:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
 - **Repository:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
-- **Stars:** 1549
+- **Stars:** 1551
 - **Version:** v0.1.21
 - **Updated:** 2024-07-20T14:29:06Z
 - **Size:** 14.24 MB
@@ -2638,9 +2638,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 77375
+- **Stars:** 77394
 - **Version:** 2024.07.16
-- **Updated:** 2024-07-21T22:26:17Z
+- **Updated:** 2024-07-22T05:29:31Z
 - **Size:** 180.22 kB
 - **SHA256SUM:** 52055c194da8dc227a434445ebc6cd774f68d3992d63509ebc44f5d06a778ae0
 - **B3SUM:** 8ab4bea05d0b59831312b925e08334881e135ef617274e1198db0432e605216c
