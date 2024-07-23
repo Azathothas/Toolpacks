@@ -35,16 +35,16 @@
 8.0K   │ ├── SIZE.txt
 8.0K   │ ├── SIZE.md
   0B   │ └── DUPLICATES.txt
-108K   ├─┬ arm64_v8a_Android
+ 92K   ├─┬ arm64_v8a_Android
  32K   │ ├── METADATA.json
  20K   │ ├── DETAILED.md
  12K   │ ├── README.md
- 12K   │ ├── FILE.txt
-8.0K   │ ├── SHA256SUM.txt
-8.0K   │ ├── BLAKE3SUM.txt
 4.0K   │ ├── SIZE.txt
 4.0K   │ ├── SIZE.md
-4.0K   │ └── DUPLICATES.txt
+4.0K   │ ├── SHA256SUM.txt
+4.0K   │ ├── FILE.txt
+4.0K   │ ├── DUPLICATES.txt
+4.0K   │ └── BLAKE3SUM.txt
  88K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
  16K   │ ├── README.md
