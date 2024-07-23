@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52563
+- **Stars:** 52565
 - **Version:** v0.2.64
 - **Updated:** 2024-07-21T01:24:31Z
 - **Size:** 19.31 MB
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2590
+- **Stars:** 2591
 - **Version:** v1.7.1
 - **Updated:** 2024-07-02T09:12:41Z
 - **Size:** 5.38 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1810
 - **Version:** v1.32.2
-- **Updated:** 2024-07-22T20:30:58Z
+- **Updated:** 2024-07-22T22:21:46Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** bf143e3f1f13fcc234d50d29cea876a67131c2369ba6d65beb742f76141e5a90
 - **B3SUM:** a1d8c58d78d6a16325a7a3e58ecc2aac35e949d73088cf7c15db23e2a22ecd5b
@@ -71,7 +71,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 34263
+- **Stars:** 34264
 - **Version:** release-1.37.0
 - **Updated:** 2024-06-30T12:47:39Z
 - **Size:** 9.3 MB
@@ -190,7 +190,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34911
+- **Stars:** 34912
 - **Version:** curl-8_8_0
 - **Updated:** 2024-07-22T17:05:14Z
 - **Size:** 5.3 MB
@@ -207,7 +207,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34911
+- **Stars:** 34912
 - **Version:** curl-8_8_0
 - **Updated:** 2024-07-22T17:05:14Z
 - **Size:** 228.63 kB
@@ -224,7 +224,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4623
+- **Stars:** 4624
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
@@ -275,7 +275,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45258
+- **Stars:** 45261
 - **Version:** v1.67.0
 - **Updated:** 2024-07-22T19:09:55Z
 - **Size:** 85.86 MB
@@ -326,9 +326,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17733
+- **Stars:** 17737
 - **Version:** v1.70.0
-- **Updated:** 2024-07-22T21:00:15Z
+- **Updated:** 2024-07-22T23:43:16Z
 - **Size:** 11.95 MB
 - **SHA256SUM:** 9914a80cb3126938cfba93b6910fc9f351b9cc659da0d141ce4b5ed8c3537721
 - **B3SUM:** 9b38bfe8559235b68fcfe12f1b21def949561f4313619514ab5ca8d03531e4ac
@@ -343,9 +343,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17733
+- **Stars:** 17737
 - **Version:** v1.70.0
-- **Updated:** 2024-07-22T21:00:15Z
+- **Updated:** 2024-07-22T23:43:16Z
 - **Size:** 25.9 MB
 - **SHA256SUM:** b1c953b20b36774796df54aa1ac54f2f363f3581c7e19c2866ec22cca3c39721
 - **B3SUM:** d1f3284971f04ba96ad1ed77decf9f7595d91fdba4cc02985fe2fa1360ff7d21
@@ -360,9 +360,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17733
+- **Stars:** 17737
 - **Version:** v1.70.0
-- **Updated:** 2024-07-22T21:00:15Z
+- **Updated:** 2024-07-22T23:43:16Z
 - **Size:** 23.8 MB
 - **SHA256SUM:** 00b64a29b3763b6ce5a18ce1e1649159d8826b6aa4bf13a1e15956e2321ba900
 - **B3SUM:** 77dfe915d9abea62e4590b75cb7e0e42cf86353706255017fc4f9c9300f03b65
@@ -394,7 +394,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 35665
+- **Stars:** 35664
 - **Version:** v9.1.0610
 - **Updated:** 2024-07-22T20:36:24Z
 - **Size:** 5.07 MB
