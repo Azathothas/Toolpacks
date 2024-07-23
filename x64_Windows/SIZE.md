@@ -7,8 +7,8 @@
   77M   ├── alist.exe
   54M   ├── miniooni.exe
   54M   ├── miniooni-windows-amd64.exe
-  50M   ├── ooniprobe-windows-amd64.exe
   50M   ├── ooniprobe.exe
+  50M   ├── ooniprobe-windows-amd64.exe
   38M   ├── step.exe
   31M   ├── algernon.exe
   29M   ├── sing-box.exe
