@@ -1,5 +1,5 @@
 ```mathematica
-111M └─┬ main
+110M └─┬ main
  92M   ├─┬ x86_64_Linux
  90M   │ ├── BUILD.log.txt
 948K   │ ├── METADATA.json
@@ -12,8 +12,8 @@
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
  16K   │ └── DUPLICATES.txt
-7.2M   ├── METADATA.json
-6.6M   ├── METADATA.yaml
+6.5M   ├── METADATA.json
+6.0M   ├── METADATA.yaml
 4.3M   ├─┬ aarch64_arm64_Linux
 2.0M   │ ├── BUILD.log.txt
 924K   │ ├── METADATA.json
@@ -26,26 +26,16 @@
  28K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt
 4.0K   │ └── BUILD_ERROR.log.md
-444K   ├─┬ x64_Windows
+448K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 20K   │ ├── FILE.txt
+ 24K   │ ├── FILE.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
 8.0K   │ ├── SIZE.txt
 8.0K   │ ├── SIZE.md
   0B   │ └── DUPLICATES.txt
- 92K   ├─┬ arm64_v8a_Android
- 32K   │ ├── METADATA.json
- 20K   │ ├── DETAILED.md
- 12K   │ ├── README.md
-4.0K   │ ├── SIZE.txt
-4.0K   │ ├── SIZE.md
-4.0K   │ ├── SHA256SUM.txt
-4.0K   │ ├── FILE.txt
-4.0K   │ ├── DUPLICATES.txt
-4.0K   │ └── BLAKE3SUM.txt
  88K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
  16K   │ ├── README.md
@@ -56,6 +46,16 @@
 4.0K   │ ├── NIX_TARGETS.txt
 4.0K   │ ├── GO_TARGETS.md
 4.0K   │ └── DEBUG.md
+ 80K   ├─┬ arm64_v8a_Android
+ 24K   │ ├── METADATA.json
+ 16K   │ ├── DETAILED.md
+ 12K   │ ├── README.md
+4.0K   │ ├── SIZE.txt
+4.0K   │ ├── SIZE.md
+4.0K   │ ├── SHA256SUM.txt
+4.0K   │ ├── FILE.txt
+4.0K   │ ├── DUPLICATES.txt
+4.0K   │ └── BLAKE3SUM.txt
  16K   ├── README.md
  16K   ├── INFO.md
 4.0K   └── LICENSE
