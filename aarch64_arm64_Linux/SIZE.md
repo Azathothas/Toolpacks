@@ -922,7 +922,9 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
+ 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
+ 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  140K   ├── unix2mac
@@ -931,8 +933,6 @@
  140K   ├── mac2unix
  140K   ├── ipt2socks
  140K   ├── dos2unix
- 136K   ├── rust-hypervisor-firmware
- 136K   ├── hypervisor-fw
  132K   ├── tracepath
  132K   ├── pwait
  132K   ├── numastat
