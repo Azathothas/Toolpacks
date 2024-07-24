@@ -48,7 +48,6 @@
  37M   ├── containerd
  36M   ├── kopia
  36M   ├── tdl
- 35M   ├── pixi
  34M   ├── nezha-dashboard
  34M   ├── amass
  34M   ├── sliver-client
@@ -66,6 +65,7 @@
  31M   ├── loki-canary
  31M   ├── sq
  31M   ├── algernon
+ 30M   ├── pixi
  30M   ├── dblab
  30M   ├── edgevpn
  29M   ├── aix
@@ -99,18 +99,18 @@
  26M   ├── gum
  26M   ├── tailscale_combined
  26M   ├── mapcidr
+ 26M   ├── boltconn
  26M   ├── interactsh-client
- 25M   ├── boltconn
  25M   ├── asnmap
  25M   ├── mc
- 25M   ├── rattler-build
  25M   ├── netbird
+ 25M   ├── rattler-build
  25M   ├── chaos-client
- 25M   ├── dagu
  25M   ├── brutespray
  25M   ├── tailscaled
  24M   ├── tusd
  24M   ├── docker
+ 24M   ├── dagu
  24M   ├── restic
  24M   ├── qsv
  24M   ├── cloudflared
@@ -139,8 +139,8 @@
  21M   ├── libaws
  21M   ├── dnspyre
  21M   ├── arduino-cli
- 21M   ├── lux
  21M   ├── gix
+ 21M   ├── lux
  21M   ├── atuin
  20M   ├── mise
  20M   ├── jira-cli
@@ -174,12 +174,12 @@
  17M   ├── sn0int
  17M   ├── glow
  17M   ├── gickup
+ 17M   ├── uroot-busybox
+ 17M   ├── u-root-busybox
+ 17M   ├── gobusybox
  17M   ├── circumflex
  17M   ├── hrekt
  17M   ├── act
- 16M   ├── uroot-busybox
- 16M   ├── u-root-busybox
- 16M   ├── gobusybox
  16M   ├── gh-dash
  16M   ├── ssr-server
  16M   ├── serverstatus-server
@@ -218,6 +218,7 @@
  14M   ├── wiretap
  14M   ├── yip
  14M   ├── ein
+ 13M   ├── netmaker
  13M   ├── ssr-server-themed
  13M   ├── serverstatus-server-themed
  13M   ├── reviewdog
@@ -249,12 +250,11 @@
  12M   ├── bucketloot
  12M   ├── sysbox-fs
  12M   ├── rebuilderd-worker
- 12M   ├── netmaker
  12M   ├── litefs
  12M   ├── mdcat
  11M   ├── mirrorbits
- 11M   ├── sync-color-schemes
  11M   ├── containerd-shim-runc-v2
+ 11M   ├── sync-color-schemes
  11M   ├── fq
  11M   ├── jqp
  11M   ├── xan
@@ -265,9 +265,9 @@
  11M   ├── cfssl
  11M   ├── hurl
  11M   ├── vfox
- 11M   ├── nmctl
  11M   ├── micro
  11M   ├── feroxbuster
+ 11M   ├── nmctl
  11M   ├── broot
  11M   ├── multirootca
  11M   ├── netscanner
@@ -281,9 +281,9 @@
  10M   ├── sshportal
  10M   ├── watchexec
  10M   ├── pdfcpu
- 10M   ├── ksubdomain
- 10M   ├── ehole
  10M   ├── coreutils
+ 10M   ├── ehole
+ 10M   ├── ksubdomain
  10M   ├── hakrawler
  10M   ├── supervisord
  10M   ├── yq
@@ -302,6 +302,7 @@
 9.9M   ├── tut
 9.8M   ├── gotty
 9.8M   ├── gitql
+9.8M   ├── yggdrasil
 9.8M   ├── htb-cli
 9.8M   ├── resto
 9.7M   ├── warp-svc
@@ -323,7 +324,6 @@
 9.3M   ├── cfssl-newkey
 9.3M   ├── invidtui
 9.2M   ├── dura
-9.2M   ├── yggdrasil
 9.2M   ├── pwninit
 9.1M   ├── agg
 9.1M   ├── taplo
@@ -348,8 +348,8 @@
 8.6M   ├── ssr-client
 8.6M   ├── serverstatus-client
 8.6M   ├── clipcat-menu
-8.6M   ├── nmap
 8.6M   ├── vproxy
+8.6M   ├── nmap
 8.6M   ├── getghrel
 8.5M   ├── smartdns-rs
 8.5M   ├── rustypaste
@@ -375,14 +375,14 @@
 8.0M   ├── ladder
 8.0M   ├── wireproxy
 8.0M   ├── cfssl-certinfo
-8.0M   ├── planor
 8.0M   ├── sshesame
+8.0M   ├── planor
 8.0M   ├── pingmole
 8.0M   ├── cog
 7.9M   ├── nomore403
 7.9M   ├── dontgo403
-7.9M   ├── viddy
 7.9M   ├── sj
+7.9M   ├── viddy
 7.9M   ├── xmrig
 7.8M   ├── gau
 7.8M   ├── hxn
@@ -423,8 +423,8 @@
 7.0M   ├── git-checkout
 7.0M   ├── twingate-connector-staticx
 7.0M   ├── git-pull
-7.0M   ├── trip
 6.9M   ├── rush
+6.9M   ├── trip
 6.9M   ├── delta
 6.8M   ├── qemu-xtensa-static
 6.8M   ├── stunner
@@ -434,8 +434,8 @@
 6.8M   ├── fscan
 6.8M   ├── cloak-client
 6.7M   ├── exiflooter
-6.7M   ├── qemu-xtensaeb-static
 6.7M   ├── spoof-dpi
+6.7M   ├── qemu-xtensaeb-static
 6.7M   ├── boxxy
 6.7M   ├── cfspeed
 6.6M   ├── gitleaks
@@ -479,8 +479,8 @@
 5.9M   ├── v6run
 5.9M   ├── sbctl
 5.9M   ├── dperf
-5.9M   ├── volta
 5.9M   ├── wadl-dumper
+5.9M   ├── volta
 5.9M   ├── nginx
 5.8M   ├── vtm
 5.8M   ├── dizi
@@ -667,6 +667,7 @@
 3.7M   ├── viu
 3.7M   ├── iperf3
 3.7M   ├── iperf
+3.6M   ├── deoptimizer
 3.6M   ├── hcxpsktool
 3.6M   ├── fzf
 3.6M   ├── 7z
@@ -679,8 +680,8 @@
 3.4M   ├── cidr
 3.4M   ├── passdetective
 3.4M   ├── killport
-3.4M   ├── kalc
 3.4M   ├── lf
+3.4M   ├── kalc
 3.4M   ├── age
 3.4M   ├── rust-parallel
 3.3M   ├── pspy
@@ -753,9 +754,9 @@
 2.5M   ├── phantun-client
 2.5M   ├── zt-exchange
 2.5M   ├── ht
+2.5M   ├── phantun-server
 2.5M   ├── boringtun-cli
 2.5M   ├── systeroid
-2.4M   ├── phantun-server
 2.4M   ├── kakoune
 2.4M   ├── kak
 2.4M   ├── geodns
@@ -775,7 +776,6 @@
 2.2M   ├── redive
 2.2M   ├── jq
 2.2M   ├── pkgtop
-2.1M   ├── deoptimizer
 2.1M   ├── tidy-viewer
 2.1M   ├── udpx
 2.1M   ├── headtail
