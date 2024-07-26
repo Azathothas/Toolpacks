@@ -15,7 +15,7 @@
 3.6M   ├── axel
 1.9M   ├── jless
 1.4M   ├── bash
-924K   ├── anew-rs
+920K   ├── anew-rs
 248K   ├── sudo
 224K   ├── wget_cacert.pem
 224K   ├── curl_cacert.pem
