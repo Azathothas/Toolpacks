@@ -64,7 +64,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/busybox"
        find "./" -type d -exec rm -rf {} + 2>/dev/null
        find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;
-       sudo rsync -av --copy-links "./." "$BASEUTILSDIR/busybox"
+       [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/busybox"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/busybox/" && chmod -R 755 "$BASEUTILSDIR/busybox/"
        #Strip
        find "$BASEUTILSDIR/busybox" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null

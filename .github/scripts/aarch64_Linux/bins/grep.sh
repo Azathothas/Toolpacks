@@ -57,7 +57,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        docker cp "alpine-builder:/build-bins/." "./" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        mkdir -p "$BASEUTILSDIR/grep"
        find "./" -type d -exec rm -rf {} + 2>/dev/null
-       sudo rsync -av --copy-links "./." "$BASEUTILSDIR/grep"
+       [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/grep"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/grep/" && chmod -R 755 "$BASEUTILSDIR/grep/"
        #Strip
        find "$BASEUTILSDIR/grep" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null

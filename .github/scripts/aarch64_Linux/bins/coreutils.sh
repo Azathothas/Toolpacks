@@ -76,7 +76,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/coreutils"
        find "./" -type d -exec rm -rf {} + 2>/dev/null
        find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;       
-       sudo rsync -av --copy-links "./." "$BASEUTILSDIR/coreutils"
+       [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/coreutils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/coreutils/" && chmod -R 755 "$BASEUTILSDIR/coreutils/"
        #Strip
        find "$BASEUTILSDIR/coreutils" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null       
