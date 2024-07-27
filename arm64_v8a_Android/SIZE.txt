@@ -1,72 +1,21 @@
-1.3G └─┬ toolpack_arm64_v8a_Android
+205M └─┬ toolpack_arm64_v8a_Android
  81M   ├── rclone
- 40M   ├── httpx
- 25M   ├── gowitness
- 25M   ├── qbittorrent-nox
- 24M   ├── dnsx
  24M   ├── tailscale_combined
- 23M   ├── ngrok
  22M   ├── tailscaled
- 22M   ├── mapcidr
- 20M   ├── tailscaled_dynamic_native
- 20M   ├── tailscale_merged_dynamic_native
- 19M   ├── tailscale_merged
  18M   ├── act
- 13M   ├── filebrowser
- 11M   ├── godns
  11M   ├── tailscale
- 10M   ├── tailscale_dynamic_native
- 10M   ├── certstream-server-go
-8.9M   ├── aria2c
-8.2M   ├── ffuf
 6.6M   ├── pingmole
-6.5M   ├── eget
-6.5M   ├── static-web-server
 6.4M   ├── bigdl
-5.9M   ├── hxn
-5.7M   ├── wget_static
 5.5M   ├── wget
-5.5M   ├── wget_dynamic_api_25
 5.1M   ├── actionlint
 5.1M   ├── curl
 5.0M   ├── rsync
-4.8M   ├── vim
-4.6M   ├── crt
-4.5M   ├── certstream
 3.6M   ├── pspy
 3.6M   ├── axel
-3.2M   ├── hysp
-3.1M   ├── btm
-2.8M   ├── kanha
-2.5M   ├── encode
 1.9M   ├── jless
-1.8M   ├── inscope
-1.7M   ├── zsh
-1.5M   ├── scopegen
-1.5M   ├── tmux
-1.5M   ├── busybox
-1.4M   ├── anew
 1.4M   ├── bash
-1.3M   ├── miniserve
-1.2M   ├── b3sum
-924K   ├── anew-rs
+920K   ├── anew-rs
 248K   ├── sudo
 224K   ├── wget_cacert.pem
 224K   ├── curl_cacert.pem
-168K   ├── adig
- 32K   ├── arm64_v8a_Android_Baseutils_FILE
- 28K   ├── C7cSP_init.sh
- 28K   ├── BUILD.sh
- 24K   ├── arm64_v8a_Android_Baseutils_SHA256SUM
- 24K   ├── arm64_v8a_Android_Baseutils_BLAKE3SUM
- 12K   ├── arm64_v8a_Android_FILE
-8.0K   ├── setup_tailscale.sh
-8.0K   ├── arm64_v8a_Android_SHA256SUM
-8.0K   ├── arm64_v8a_Android_BLAKE3SUM
-4.0K   ├── nUMEF_build.sh
-4.0K   ├── _toolpack_arm64_v8a_SHA256SUM
-4.0K   ├── _toolpack_arm64_v8a_BLAKE3SUM
-4.0K   ├── _baseutils_arm64_v8a_SHA256SUM
-4.0K   ├── _baseutils_arm64_v8a_BLAKE3SUM
-4.0K   ├── INITIALIZED
-4.0K   └── BUILDURLS
+168K   └── adig

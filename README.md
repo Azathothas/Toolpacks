@@ -16,6 +16,7 @@
 > > - [**`How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
 > > - [**`Why NOT Host On GitHub?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
 > > - [**`Why RESET ALL GIT Commits?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
+> > - [**`UPX Binaries ⏬`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#-upx-)
 > > - [**`DMCA & Copyright`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#dmca-copyright--cease--desist)
 > > - [**`Contact Me`**](https://ajam.dev/contact)
 > - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
@@ -30,9 +31,9 @@
 - #### 📦 Status 🔖
 | 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 | 🧾Logs|
 |---------------------|-----------------------|-----------------|------------------|
-|[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|467| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|[BUILD.log](https://bin.ajam.dev/arm64_v8a_Android/BUILD.log.txt)|
+|[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|448| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|[BUILD.log](https://bin.ajam.dev/arm64_v8a_Android/BUILD.log.txt)|
 |[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|2018| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.log.txt)|
-|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2240| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt)|
+|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2041| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt)|
 |[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.ajam.dev/x64_Windows/BUILD.log.txt)|
 
 > - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as **JSON** on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json)
@@ -41,14 +42,16 @@
 #### 🔽 Download 🔽
 - ##### GUI
 > - Visit [bin.ajam.dev](https://bin.ajam.dev)
-> > Note: The dir listing may not list everything. Make **sure to check `METADATA.json`**
-> ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/c8417f69-b210-4e15-bc2e-bf82fa85fc43)
-> ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/427bf538-6389-4419-a35c-911568165a1a)
+> > Note: The dir listing may not list everything. Make **sure to check [`METADATA.json`](https://bin.ajam.dev/METADATA.json)**
+> ![bin](https://github.com/user-attachments/assets/775f0022-9932-4d7c-8d25-3a9df2bde78d)
+> ![bin x86_64_Linux](https://github.com/user-attachments/assets/8dfb6f89-6129-4692-a918-23a6b18876d7)
+> 
 ---
 - ##### CLI
-> ℹ️ Recommended ℹ️ : Use [**`Bigdl`**](https://github.com/xplshn/bigdl) if you want to skip everything below, since `bigdl` already [uses this repo as it's source.](https://github.com/xplshn/bigdl)
+> ℹ️ Recommended ℹ️ : Use [**`Bigdl`**](https://github.com/xplshn/bigdl) if you want to skip everything below, since `bigdl` already [uses this repo as it's Source.](https://github.com/xplshn/bigdl#where-do-these-binaries-come-from-)
 > - It's also possible to use `"$(uname -m)"` | `$env:PROCESSOR_ARCHITECTURE` | `adb shell getprop ro.product.cpu.abi` variations
-> > ![image](https://github.com/Azathothas/Toolpacks/assets/58171889/906c29b9-0852-4878-bae9-d64f68e7c569)
+> > SEE: https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#url-redirects
+> > 
 > > ```bash
 > > !# curl needs the `-L, --location` flag to Follow redirects
 > > !# wget works without any flags

@@ -1,5 +1,5 @@
 ```mathematica
- 9.4G └─┬ toolpack_aarch64
+ 9.5G └─┬ toolpack_aarch64
  154M   ├── traefik
  142M   ├── aws-nuke
  137M   ├── cloudfox
@@ -12,15 +12,15 @@
   85M   ├── istioctl
   82M   ├── hugo
   77M   ├── daytona
+  74M   ├── alist
   72M   ├── falconhound
   70M   ├── nuclei
-  68M   ├── alist
   65M   ├── devpod
   61M   ├── loki
   59M   ├── logcli
   58M   ├── wtfutil
   58M   ├── wtf
-  57M   ├── dockerd
+  56M   ├── dockerd
   56M   ├── rclone
   56M   ├── jr
   54M   ├── ockam
@@ -62,7 +62,6 @@
   29M   ├── dblab
   29M   ├── aix
   29M   ├── edgevpn
-  28M   ├── pixi
   28M   ├── sqlc
   28M   ├── vpnkit
   28M   ├── osmedeus
@@ -80,8 +79,8 @@
   26M   ├── subfinder
   26M   ├── nmap-formatter
   25M   ├── dnsx
-  25M   ├── git-xet
   25M   ├── tlsx
+  25M   ├── git-xet
   25M   ├── relic
   25M   ├── tailscale_merged
   25M   ├── tailscale_bb
@@ -90,14 +89,15 @@
   25M   ├── cvemap
   25M   ├── uncover
   25M   ├── mapcidr
+  24M   ├── pixi
   24M   ├── interactsh-client
-  24M   ├── dagu
   24M   ├── asnmap
   24M   ├── netbird
   24M   ├── zellij
   24M   ├── brutespray
   24M   ├── mc
   24M   ├── chaos-client
+  24M   ├── dagu
   24M   ├── tailscaled
   24M   ├── wezterm
   23M   ├── docker
@@ -121,7 +121,7 @@
   21M   ├── tuiarchiver
   21M   ├── shuffledns
   21M   ├── rattler-build
-  20M   ├── boltconn
+  21M   ├── boltconn
   20M   ├── lux
   20M   ├── dnspyre
   20M   ├── arduino-cli
@@ -167,11 +167,11 @@
   16M   ├── act
   16M   ├── gp
   16M   ├── gitpod-cli
+  16M   ├── uroot-busybox
+  16M   ├── u-root-busybox
+  16M   ├── gobusybox
   16M   ├── etcdctl
   15M   ├── golem
-  15M   ├── uroot-busybox
-  15M   ├── u-root-busybox
-  15M   ├── gobusybox
   15M   ├── findomain
   15M   ├── hednsextractor
   15M   ├── diffoci
@@ -207,6 +207,7 @@
   13M   ├── reviewdog
   13M   ├── yazi
   13M   ├── yip
+  13M   ├── netmaker
   12M   ├── aws-wire-lengths
   12M   ├── gdu
   12M   ├── hcloud
@@ -236,7 +237,6 @@
   11M   ├── fq
   11M   ├── ein
   11M   ├── sysbox-fs
-  11M   ├── netmaker
   11M   ├── ssr-server-themed
   11M   ├── serverstatus-server-themed
   11M   ├── tty2web
@@ -253,12 +253,12 @@
   10M   ├── nmctl
   10M   ├── lazydocker
   10M   ├── cheat
-  10M   ├── ksubdomain
   10M   ├── feroxbuster
   10M   ├── hakrawler
   10M   ├── git-lfs
   10M   ├── ehole
   10M   ├── sshportal
+  10M   ├── ksubdomain
   10M   ├── gosmee
   10M   ├── pdfcpu
   10M   ├── supervisord
@@ -272,6 +272,7 @@
  9.8M   ├── git-cliff
  9.7M   ├── vegeta
  9.5M   ├── gotty
+ 9.5M   ├── yggdrasil
  9.5M   ├── orbiton
  9.5M   ├── broot
  9.4M   ├── rebuilderd-worker
@@ -298,7 +299,6 @@
  8.9M   ├── redguard
  8.9M   ├── pgrok
  8.9M   ├── viewgen_staticx
- 8.8M   ├── yggdrasil
  8.8M   ├── csprecon
  8.8M   ├── transmission-daemon
  8.8M   ├── pping
@@ -331,8 +331,8 @@
  8.0M   ├── xan
  8.0M   ├── q
  7.9M   ├── chisel
- 7.9M   ├── aria2c
  7.9M   ├── agg-speed
+ 7.9M   ├── aria2c
  7.9M   ├── cfssl-bundle
  7.9M   ├── pingtunnel
  7.9M   ├── assh
@@ -360,6 +360,7 @@
  7.5M   ├── gau
  7.5M   ├── gosec
  7.5M   ├── ffuf
+ 7.4M   ├── revive
  7.4M   ├── gobuster
  7.3M   ├── enola
  7.3M   ├── husarnet
@@ -372,7 +373,6 @@
  7.2M   ├── curl
  7.1M   ├── vproxy
  7.1M   ├── fingerprintx
- 7.1M   ├── revive
  7.1M   ├── puredns
  7.1M   ├── qemu-xtensa-static
  7.0M   ├── ssr-client
@@ -406,6 +406,7 @@
  6.5M   ├── sessionprobe
  6.5M   ├── system-info-collector
  6.5M   ├── sysinfo-collector
+ 6.5M   ├── spoof-dpi
  6.4M   ├── elvish
  6.4M   ├── exiflooter
  6.4M   ├── gitleaks
@@ -438,8 +439,8 @@
  5.8M   ├── allxfr
  5.8M   ├── bigdl
  5.8M   ├── cfssljson
- 5.8M   ├── trip
  5.7M   ├── sshx
+ 5.7M   ├── trip
  5.7M   ├── zigup
  5.7M   ├── sbctl
  5.7M   ├── websocat
@@ -490,7 +491,6 @@
  4.9M   ├── subjs
  4.9M   ├── gron
  4.9M   ├── github-regexp
- 4.9M   ├── spoof-dpi
  4.9M   ├── crawley
  4.9M   ├── rewritepkg
  4.9M   ├── roboxtractor
@@ -575,8 +575,8 @@
  4.1M   ├── knoxssme
  4.1M   ├── bbtargets
  4.0M   ├── ppfuzz
- 4.0M   ├── agg-tunnel
  4.0M   ├── cfspeedtest
+ 4.0M   ├── agg-tunnel
  4.0M   ├── cpud
  4.0M   ├── fclones
  4.0M   ├── qemu-ppc-static
@@ -670,6 +670,7 @@
  2.9M   ├── qemu-microblaze-static
  2.9M   ├── qemu-cris-static
  2.9M   ├── ctrsploit-env
+ 2.8M   ├── deoptimizer
  2.8M   ├── tmate
  2.8M   ├── njs
  2.8M   ├── qemu-or1k-static
@@ -686,17 +687,15 @@
  2.7M   ├── wireguard-go
  2.7M   ├── jobs
  2.6M   ├── tlrc
- 2.6M   ├── kalc
  2.6M   ├── p9cpu
  2.6M   ├── git-sizer
+ 2.6M   ├── kalc
  2.6M   ├── bingrep
  2.6M   ├── shfmt
  2.5M   ├── sk
  2.5M   ├── fwanalyzer
  2.5M   ├── cdwe
  2.5M   ├── binary-security-check
- 2.5M   ├── kakoune
- 2.5M   ├── kak
  2.5M   ├── bandwhich
  2.4M   ├── pueued
  2.4M   ├── dsieve
@@ -708,14 +707,16 @@
  2.4M   ├── cotp
  2.4M   ├── encode
  2.4M   ├── rage-keygen
- 2.3M   ├── gping
  2.3M   ├── navi
  2.3M   ├── gencmddeps
  2.3M   ├── dust
  2.3M   ├── rpaste
  2.3M   ├── pelfd
+ 2.3M   ├── gping
  2.3M   ├── ropr
  2.3M   ├── fdupes
+ 2.3M   ├── kakoune
+ 2.3M   ├── kak
  2.2M   ├── unf
  2.2M   ├── p9cpud
  2.2M   ├── wireguard-rs
@@ -766,7 +767,6 @@
  1.8M   ├── gotator
  1.8M   ├── cutlines
  1.8M   ├── bbscope
- 1.7M   ├── deoptimizer
  1.7M   ├── tmux
  1.7M   ├── headtail
  1.7M   ├── sudo-rs
@@ -782,13 +782,14 @@
  1.6M   ├── moac-pwgen
  1.6M   ├── vnstat
  1.6M   ├── tcpdump
- 1.6M   ├── zsh
  1.6M   ├── su-rs
+ 1.6M   ├── zsh
  1.6M   ├── rshijack
  1.6M   ├── visudo-rs
  1.6M   ├── nmapurls
  1.6M   ├── botsay
  1.5M   ├── zenith
+ 1.5M   ├── tio
  1.5M   ├── jaq
  1.5M   ├── genscope
  1.5M   ├── epoch
@@ -836,9 +837,9 @@
  1.2M   ├── update-desktop-database
  1.2M   ├── busybox
  1.1M   ├── progress
- 1.1M   ├── hyperfine
  1.1M   ├── rustcat
  1.1M   ├── rcat
+ 1.1M   ├── hyperfine
  1.1M   ├── ubase-box
  1.1M   ├── dbclient
  1.1M   ├── bash
@@ -875,7 +876,6 @@
  564K   ├── upx
  548K   ├── neofetch
  544K   ├── ncdu
- 516K   ├── tio
  516K   ├── oksh
  516K   ├── mount.fuse3
  516K   ├── loksh
@@ -910,9 +910,9 @@
  212K   ├── cpufetch
  208K   ├── sar
  208K   ├── ping
+ 208K   ├── nfs-cp
  204K   ├── nfs-stat
  204K   ├── nfs-ls
- 204K   ├── nfs-cp
  200K   ├── asn
  196K   ├── numademo
  196K   ├── numactl
