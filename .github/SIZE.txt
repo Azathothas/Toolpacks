@@ -1,4 +1,16 @@
-144M └─┬ main
+184M └─┬ main
+ 90M   ├─┬ x86_64_Linux
+ 88M   │ ├── BUILD.log.txt
+948K   │ ├── METADATA.json
+640K   │ ├── DETAILED.md
+464K   │ ├── README.md
+152K   │ ├── FILE.txt
+ 80K   │ ├── SHA256SUM.txt
+ 80K   │ ├── BLAKE3SUM.txt
+ 36K   │ ├── BUILD_ERROR.log.md
+ 28K   │ ├── SIZE.txt
+ 28K   │ ├── SIZE.md
+ 16K   │ └── DUPLICATES.txt
  78M   ├─┬ aarch64_arm64_Linux
  76M   │ ├── BUILD.log.txt
 924K   │ ├── METADATA.json
@@ -11,18 +23,6 @@
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
  16K   │ └── DUPLICATES.txt
- 50M   ├─┬ x86_64_Linux
- 48M   │ ├── BUILD.log.txt
-948K   │ ├── METADATA.json
-640K   │ ├── DETAILED.md
-464K   │ ├── README.md
-152K   │ ├── FILE.txt
- 80K   │ ├── SHA256SUM.txt
- 80K   │ ├── BLAKE3SUM.txt
- 28K   │ ├── SIZE.txt
- 28K   │ ├── SIZE.md
- 16K   │ ├── DUPLICATES.txt
-4.0K   │ └── BUILD_ERROR.log.md
 7.4M   ├── METADATA.json
 6.8M   ├── METADATA.yaml
 444K   ├─┬ x64_Windows
