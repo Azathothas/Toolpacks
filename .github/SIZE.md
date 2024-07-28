@@ -1,5 +1,5 @@
 ```mathematica
-146M └─┬ main
+145M └─┬ main
  78M   ├─┬ aarch64_arm64_Linux
  76M   │ ├── BUILD.log.txt
 924K   │ ├── METADATA.json
@@ -22,10 +22,10 @@
  80K   │ ├── BLAKE3SUM.txt
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
- 20K   │ ├── DUPLICATES.txt
+ 16K   │ ├── DUPLICATES.txt
 4.0K   │ └── BUILD_ERROR.log.md
-8.3M   ├── METADATA.json
-7.7M   ├── METADATA.yaml
+7.7M   ├── METADATA.json
+7.1M   ├── METADATA.yaml
 444K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
