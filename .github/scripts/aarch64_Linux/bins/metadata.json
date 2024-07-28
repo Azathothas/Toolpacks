@@ -356,7 +356,7 @@
   },
   {
     "name": "busybox.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-27T09:49:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/busybox.sh"
   },
   {
@@ -546,12 +546,12 @@
   },
   {
     "name": "coreutils-vlang.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-27T09:49:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/coreutils-vlang.sh"
   },
   {
     "name": "coreutils.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-27T09:49:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/coreutils.sh"
   },
   {
@@ -861,7 +861,7 @@
   },
   {
     "name": "dropbear.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-27T09:49:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dropbear.sh"
   },
   {
@@ -1101,7 +1101,7 @@
   },
   {
     "name": "fio.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-27T09:49:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/fio.sh"
   },
   {
@@ -1466,7 +1466,7 @@
   },
   {
     "name": "grep.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-07-27T09:49:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/grep.sh"
   },
   {
@@ -2096,7 +2096,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-07-27T00:08:41",
+    "update_date": "2024-07-27T21:07:44",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {

@@ -151,8 +151,8 @@
 > #Inside the container
 > source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/$(uname -m)_Linux/env.sh")
 > #Stop & Delete Container
-> sudo podman stop "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')"
-> sudo podman rm "$(sudo podman ps --filter "name=toolpacker-dbg" --format json | jq -r '.[].Id')" --force
+> sudo podman stop "toolpacker-dbg"
+> sudo podman rm "toolpacker-dbg" --force
 > ```
 > ---
 > - [Install Sysbox](https://github.com/nestybox/sysbox)
