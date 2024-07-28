@@ -40,6 +40,9 @@
 # --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
 #rClone [Low Bandwidth Throughput]
 # --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+##rClone
+#https://rclone.org/faq/#rclone-is-using-too-much-memory-or-appears-to-have-a-memory-leak
+ export GOGC="20"
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
