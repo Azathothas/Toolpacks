@@ -53,6 +53,12 @@
       echo -e "\n[+] Failed To Initialize\n"
       exit 1
  fi
+##Ulimits
+#(-n) Open File Descriptors
+ echo -e "[+] ulimit -n (open file descriptors) :: [Soft --> $(ulimit -n -S)] [Hard --> $(ulimit -n -H)] [Total --> $(cat '/proc/sys/fs/file-max')]"
+ ulimit -n "$(ulimit -n -H)"
+#Stack Size
+ ulimit -s unlimited
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
