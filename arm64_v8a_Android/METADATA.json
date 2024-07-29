@@ -268,7 +268,7 @@
     "repo_updated": "2024-07-28T11:42:32Z",
     "repo_released": "2024-06-14T16:58:29Z",
     "repo_version": "v1.67.0",
-    "repo_stars": "45335",
+    "repo_stars": "45338",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "azure-blob, azure-blob-storage, azure-files, backblaze-b2, cloud-storage, dropbox, encryption, ftp, fuse-filesystem, go, golang, google-cloud-storage, google-drive, onedrive, openstack-swift, rclone, s3, sftp, sync, webdav",

@@ -37,7 +37,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 15923
+- **Stars:** 15925
 - **Version:** v1.2.0
 - **Updated:** 2024-06-21T12:52:31Z
 - **Size:** 3.88 MB
@@ -139,7 +139,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 48011
+- **Stars:** 48012
 - **Version:** v0.24.0
 - **Updated:** 2024-07-27T13:48:02Z
 - **Size:** 6.32 MB
@@ -156,7 +156,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 48011
+- **Stars:** 48012
 - **Version:** v0.24.0
 - **Updated:** 2024-07-27T13:48:02Z
 - **Size:** 6.32 MB
@@ -258,7 +258,7 @@
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
-- **Stars:** 12179
+- **Stars:** 12180
 - **Version:** 4.4.2
 - **Updated:** 2024-06-18T20:51:35Z
 - **Size:** 11.57 MB
@@ -1618,7 +1618,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 27045
+- **Stars:** 27048
 - **Version:** v10.0.10
 - **Updated:** 2024-07-28T19:27:00Z
 - **Size:** 8.7 MB
@@ -1839,7 +1839,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8573
+- **Stars:** 8575
 - **Version:** 2.20.0
 - **Updated:** 2024-07-28T08:03:39Z
 - **Size:** 1.48 MB
@@ -1856,7 +1856,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8573
+- **Stars:** 8575
 - **Version:** 2.20.0
 - **Updated:** 2024-07-28T08:03:39Z
 - **Size:** 1.32 MB
@@ -2028,7 +2028,7 @@
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Stars:** 8536
 - **Version:** v0.37.0
-- **Updated:** 2024-07-26T14:08:40Z
+- **Updated:** 2024-07-28T22:23:02Z
 - **Size:** 9.49 MB
 - **SHA256SUM:** 92e25325350af6139dcbf88ec226dc1e55c0605e92eba957f7aa270fd71450c3
 - **B3SUM:** 08aa6eb385344dd68feb853b6ea78ab77e8538144a0c81b0ffdf02962d86f4bf
@@ -2045,7 +2045,7 @@
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Stars:** 8536
 - **Version:** v0.37.0
-- **Updated:** 2024-07-26T14:08:40Z
+- **Updated:** 2024-07-28T22:23:02Z
 - **Size:** 18.97 MB
 - **SHA256SUM:** 3eab21054a9a2f53869bf768956c7669724631a8018d36a6ac75821a43607f0c
 - **B3SUM:** 7b1d3eec0dc4cd9426f6139a796bce0d77c2e5d0dcdcf43cee428785596d5d49
@@ -2077,7 +2077,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 20970
+- **Stars:** 20972
 - **Version:** v1.18.0
 - **Updated:** 2024-07-17T18:40:12Z
 - **Size:** 1.33 MB
@@ -2128,7 +2128,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29711
+- **Stars:** 29712
 - **Version:** jq-1.7.1
 - **Updated:** 2024-07-20T05:55:46Z
 - **Size:** 985.09 kB
@@ -2162,7 +2162,7 @@
 - **Author:** evilsocket
 - **WebURL:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
 - **Repository:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
-- **Stars:** 1339
+- **Stars:** 1341
 - **Version:** v0.9.0
 - **Updated:** 2024-07-28T18:13:42Z
 - **Size:** 21.85 MB
@@ -2213,9 +2213,9 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24507
+- **Stars:** 24509
 - **Version:** v2.0.13
-- **Updated:** 2024-07-28T20:36:31Z
+- **Updated:** 2024-07-29T00:20:09Z
 - **Size:** 11.88 MB
 - **SHA256SUM:** 5a56dc3bb2b90c0d954f87fd6f3c9872477abe447a43058987d20bc08d627e61
 - **B3SUM:** 0561fc68707d88b14df1e3beef88b8b7ea3ddbb1c97534ff68002eda246b1c17
@@ -2315,9 +2315,9 @@
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 33426
-- **Version:** 3.2.1
-- **Updated:** 2024-07-28T21:18:45Z
+- **Stars:** 33427
+- **Version:** 3.3
+- **Updated:** 2024-07-29T00:04:28Z
 - **Size:** 159.73 MB
 - **SHA256SUM:** 9722bf35a4890e183d2978429cbd2958419e97a73076a04959801194f948d8c2
 - **B3SUM:** f16a64923a32fd4e34268d64c5272fd825952b57bef5476a876bf5589f3f914e
@@ -2485,7 +2485,7 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 16807
+- **Stars:** 16810
 - **Version:** v1.9.3
 - **Updated:** 2024-07-27T09:43:52Z
 - **Size:** 30.72 MB
@@ -2638,9 +2638,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 77929
+- **Stars:** 77942
 - **Version:** 2024.07.25
-- **Updated:** 2024-07-28T16:19:35Z
+- **Updated:** 2024-07-28T23:05:07Z
 - **Size:** 180.22 kB
 - **SHA256SUM:** 060ebb69b513142223a28ec577cfe87fde8eb48b4ccfb83577ce6ae7025df639
 - **B3SUM:** 9386f84729e13afa9a812cb978a63fe2806b6eab04d8264b101f516c8f6aeb88

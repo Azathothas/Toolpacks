@@ -224,7 +224,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45335
+- **Stars:** 45338
 - **Version:** v1.67.0
 - **Updated:** 2024-07-28T11:42:32Z
 - **Size:** 85.87 MB
