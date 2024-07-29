@@ -22,11 +22,11 @@
  69M   ├── loki
  67M   ├── devpod
  66M   ├── ockam
+ 66M   ├── jr
  61M   ├── logcli
  59M   ├── wtfutil
  59M   ├── wtf
  59M   ├── dockerd
- 58M   ├── jr
  53M   ├── miniooni
  51M   ├── tavern
  50M   ├── steampipe
@@ -49,7 +49,7 @@
  36M   ├── tdl
  35M   ├── nushell
  35M   ├── nu
- 34M   ├── nezha-dashboard
+ 35M   ├── nezha-dashboard
  34M   ├── amass
  34M   ├── sliver-client
  33M   ├── cloudreve
@@ -175,11 +175,11 @@
  17M   ├── twingate-connector
  17M   ├── sn0int
  17M   ├── glow
+ 17M   ├── circumflex
  17M   ├── uroot-busybox
  17M   ├── u-root-busybox
  17M   ├── gobusybox
  17M   ├── gickup
- 17M   ├── circumflex
  17M   ├── act
  16M   ├── hrekt
  16M   ├── gh-dash
@@ -194,11 +194,11 @@
  15M   ├── diffoci
  15M   ├── pgweb
  15M   ├── filebrowser
- 15M   ├── yazi
  15M   ├── cloudcash
  15M   ├── aws-wire-lengths
  15M   ├── rqbit
  15M   ├── rippkgs-index.sqlite
+ 15M   ├── yazi
  15M   ├── termshark
  14M   ├── tinja
  14M   ├── clipcatd
@@ -247,9 +247,9 @@
  12M   ├── rebuildctl
  12M   ├── x8
  12M   ├── bucketloot
+ 12M   ├── mdcat
  12M   ├── sysbox-fs
  12M   ├── litefs
- 12M   ├── mdcat
  11M   ├── rebuilderd-worker
  11M   ├── mirrorbits
  11M   ├── containerd-shim-runc-v2
@@ -571,8 +571,8 @@
 4.9M   ├── actionlint
 4.8M   ├── rootlesskit-docker-proxy
 4.8M   ├── sshd
-4.8M   ├── fblog
 4.8M   ├── agg-tunnel
+4.8M   ├── fblog
 4.8M   ├── socat
 4.8M   ├── warp-dex
 4.8M   ├── mani
@@ -642,8 +642,8 @@
 3.9M   ├── qemu-mipsn32el-static
 3.9M   ├── pfetch-rs
 3.9M   ├── qemu-mips64el-static
-3.9M   ├── qemu-mips-static
 3.9M   ├── twingate-notifier
+3.9M   ├── qemu-mips-static
 3.9M   ├── qemu-mipsel-static
 3.8M   ├── dns-doctor
 3.8M   ├── validtoml
@@ -658,8 +658,8 @@
 3.7M   ├── ripgen
 3.7M   ├── lsd
 3.7M   ├── mqttui
-3.7M   ├── spiped
 3.7M   ├── rage
+3.7M   ├── spiped
 3.7M   ├── spipe
 3.7M   ├── hcxpcapngtool
 3.7M   ├── viu
@@ -715,8 +715,8 @@
 2.9M   ├── encrypted-dns
 2.9M   ├── t-rec
 2.9M   ├── qemu-hppa-static
-2.9M   ├── dust
 2.9M   ├── rage-keygen
+2.9M   ├── dust
 2.9M   ├── gping
 2.8M   ├── rpaste
 2.8M   ├── htmlq
@@ -893,7 +893,7 @@
 948K   ├── svg-hush
 948K   ├── hexyl
 948K   ├── csview
-924K   ├── cargo-unlock
+928K   ├── cargo-unlock
 864K   ├── hx
 860K   ├── catp
 844K   ├── zt-hashes
