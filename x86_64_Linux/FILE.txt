@@ -139,7 +139,7 @@ cpufetch:                        ELF 64-bit LSB executable, x86-64, version 1 (S
 crawley:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=9xH2tnHFdRvlDK_T4iSz/ZrC5AfcjOOW1ij8aFgpp/Z7i6l4C0xAuS7ZnTm2p5/l-dvaYMQ112pM74Tbp3U, stripped
 crictl:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=DTr-GBqLSrNREtcQ0m5P/Crjq0hqkcsjByodqIh7e/XE4q_QIeJJGwSdlo7g3u/LOWftkZP2RAHu4_mlfDH, stripped
 crlfuzz:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-croc:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=y62joMl9tOKFlXDYkMGo/_Wpby5O1NkDGnq0ZCcW7/I8upHExXKqdrA2MBISwZ/E0xfg3mEXJ1IzZhhmNC1, stripped
+croc:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=oKiYn1f59r4K0sTX7pId/eLMoP8x22FxjfkIvZ0qo/-29sC0wUiTQwJB-22Z7x/LDuDDTfbx-tWnZfCciWI, stripped
 cron:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 cronie-crond:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 cronie-cronnext:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
