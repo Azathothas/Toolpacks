@@ -3,9 +3,9 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52912
+- **Stars:** 52918
 - **Version:** v0.2.65
-- **Updated:** 2024-08-01T02:22:12Z
+- **Updated:** 2024-08-04T14:03:49Z
 - **Size:** 19.31 MB
 - **SHA256SUM:** 683c347c1c8b8c797c50d402017b0255469020eecb11a70c54fd137ac242ad1a
 - **B3SUM:** 6a238966f2ba5a92c17be5b7c225dac3d0b574b38269be811ab714d8ccda5601
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1816
 - **Version:** v1.33.0
-- **Updated:** 2024-08-04T00:54:35Z
+- **Updated:** 2024-08-04T14:21:31Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** c6d0451f51a7d3c1ab1be0e23748e13876e0f0a8fa02685b10ab72f656d5816b
 - **B3SUM:** 9b7aefc41547081cfb3bcf0d1f13988d1e2f917af50783302f428f7748610ab3
@@ -139,9 +139,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34978
+- **Stars:** 34980
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-04T06:45:41Z
+- **Updated:** 2024-08-04T14:21:59Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 7e02549dfb426441f6e56602dc522969e07ba8f295a45b27c8ac451e950bcaa1
 - **B3SUM:** 1b5b3728c7ddfc4c32b33c2d6673b544168b04546697314c36d869b87e7a59b9
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34978
+- **Stars:** 34980
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-04T06:45:41Z
+- **Updated:** 2024-08-04T14:21:59Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -173,7 +173,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4641
+- **Stars:** 4640
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
@@ -207,7 +207,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4791
+- **Stars:** 4793
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 3.76 MB
@@ -224,9 +224,9 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45431
+- **Stars:** 45434
 - **Version:** v1.67.0
-- **Updated:** 2024-08-03T15:49:06Z
+- **Updated:** 2024-08-04T11:19:10Z
 - **Size:** 85.87 MB
 - **SHA256SUM:** ab858a767c3a8dae93f3165f3a7b4416e0060b995bc444eef1f5bbf84c895bdd
 - **B3SUM:** 519d9f558a6f87b685c460ea62926f453eb8220e3b473557acdb863a843ee616
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17974
+- **Stars:** 17979
 - **Version:** v1.70.0
 - **Updated:** 2024-08-04T01:46:23Z
 - **Size:** 12 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17974
+- **Stars:** 17979
 - **Version:** v1.70.0
 - **Updated:** 2024-08-04T01:46:23Z
 - **Size:** 26.22 MB
@@ -309,7 +309,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17974
+- **Stars:** 17979
 - **Version:** v1.70.0
 - **Updated:** 2024-08-04T01:46:23Z
 - **Size:** 24.12 MB
