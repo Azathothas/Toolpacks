@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 52910
+- **Stars:** 52912
 - **Version:** v0.2.65
 - **Updated:** 2024-08-01T02:22:12Z
 - **Size:** 19.31 MB
@@ -37,9 +37,9 @@
 - **Author:** c-ares
 - **WebURL:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
-- **Stars:** 1815
+- **Stars:** 1816
 - **Version:** v1.33.0
-- **Updated:** 2024-08-03T23:21:24Z
+- **Updated:** 2024-08-04T00:54:35Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** c6d0451f51a7d3c1ab1be0e23748e13876e0f0a8fa02685b10ab72f656d5816b
 - **B3SUM:** 9b7aefc41547081cfb3bcf0d1f13988d1e2f917af50783302f428f7748610ab3
@@ -107,7 +107,7 @@
 - **Repository:** [https://github.com/xplshn/bigdl](https://github.com/xplshn/bigdl)
 - **Stars:** 11
 - **Version:** 1.6.9
-- **Updated:** 2024-08-02T05:48:03Z
+- **Updated:** 2024-08-04T01:38:41Z
 - **Size:** 6.69 MB
 - **SHA256SUM:** a053828137321354dce5e188f657cdfbaed6779766dea2001dd9383cdb3855e1
 - **B3SUM:** 57874fbb586454c1b9fde4ff7dbfae4ead9d9019603e8053c623161f0e831286
@@ -139,9 +139,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34975
+- **Stars:** 34978
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-04T00:09:59Z
+- **Updated:** 2024-08-04T06:45:41Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 7e02549dfb426441f6e56602dc522969e07ba8f295a45b27c8ac451e950bcaa1
 - **B3SUM:** 1b5b3728c7ddfc4c32b33c2d6673b544168b04546697314c36d869b87e7a59b9
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 34975
+- **Stars:** 34978
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-04T00:09:59Z
+- **Updated:** 2024-08-04T06:45:41Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -224,7 +224,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45432
+- **Stars:** 45431
 - **Version:** v1.67.0
 - **Updated:** 2024-08-03T15:49:06Z
 - **Size:** 85.87 MB
@@ -275,9 +275,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17972
+- **Stars:** 17974
 - **Version:** v1.70.0
-- **Updated:** 2024-08-04T00:22:15Z
+- **Updated:** 2024-08-04T01:46:23Z
 - **Size:** 12 MB
 - **SHA256SUM:** 090beafc6c1eba816cbe8dbbfeed488f8a306563e46e16d2c92ef927e3915c09
 - **B3SUM:** 336c1a7f9f7737250da7de0efb1d0e783b519040a74022ae1394a59ddb70c4fa
@@ -292,9 +292,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17972
+- **Stars:** 17974
 - **Version:** v1.70.0
-- **Updated:** 2024-08-04T00:22:15Z
+- **Updated:** 2024-08-04T01:46:23Z
 - **Size:** 26.22 MB
 - **SHA256SUM:** 2a4cc0b5c06094d2bda52f030027fc83070144e5db23bd7b5e2f4278bfb595c2
 - **B3SUM:** 7fcebf5dd5d5a8f7aeb28c18abf69d79e00567a9cf92250bcd1091e197c89f94
@@ -309,9 +309,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 17972
+- **Stars:** 17974
 - **Version:** v1.70.0
-- **Updated:** 2024-08-04T00:22:15Z
+- **Updated:** 2024-08-04T01:46:23Z
 - **Size:** 24.12 MB
 - **SHA256SUM:** 649504426cddb51ac002720ac6059d66ca795a19f0a11ecdc9fbc60685e3192d
 - **B3SUM:** 13e93cf92e2283d6e41ef87210df7fb71c2d14e1d070f1d12209f82d795d84cd
