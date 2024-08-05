@@ -1,1051 +1,1051 @@
 ```mathematica
- 10G └─┬ toolpack_x86_64
-169M   ├── usql
-161M   ├── sliver-server
-159M   ├── traefik
-148M   ├── cloudfox
-143M   ├── aws-nuke
-110M   ├── trufflehog
-102M   ├── gitea
-100M   ├── cloudlist
- 94M   ├── promtail
- 90M   ├── k9s
- 87M   ├── istioctl
- 84M   ├── hugo
- 80M   ├── daytona
- 76M   ├── alist
- 75M   ├── ffmpeg
- 74M   ├── ffprobe
- 73M   ├── nuclei
- 72M   ├── falconhound
- 72M   ├── berty
- 71M   ├── rclone
- 69M   ├── loki
- 67M   ├── devpod
- 66M   ├── ockam
- 61M   ├── logcli
- 59M   ├── wtfutil
- 59M   ├── wtf
- 59M   ├── dockerd
- 58M   ├── jr
- 53M   ├── miniooni
- 51M   ├── tavern
- 50M   ├── steampipe
- 50M   ├── ooniprobe
- 49M   ├── teldrive
- 48M   ├── bearer
- 48M   ├── matterbridge
- 47M   ├── gh
- 46M   ├── rekor-server
- 46M   ├── rekor
- 46M   ├── xet_staticx
- 39M   ├── katana
- 38M   ├── kadeessh
- 38M   ├── caddy
- 38M   ├── httpx
- 38M   ├── crictl
- 38M   ├── proxify
- 37M   ├── containerd
- 36M   ├── kopia
- 36M   ├── tdl
- 35M   ├── nushell
- 35M   ├── nu
- 34M   ├── nezha-dashboard
- 34M   ├── amass
- 34M   ├── sliver-client
- 33M   ├── cloudreve
- 33M   ├── naabu
- 33M   ├── step
- 32M   ├── skupper
- 32M   ├── surf
- 32M   ├── mlr
- 32M   ├── shellz
- 32M   ├── runme
- 32M   ├── git-xet
- 31M   ├── loki-canary
- 31M   ├── sq
- 31M   ├── algernon
- 30M   ├── pixi
- 30M   ├── dblab
- 30M   ├── edgevpn
- 29M   ├── aix
- 29M   ├── zellij
- 29M   ├── sqlc
- 29M   ├── wezterm
- 29M   ├── melange
- 29M   ├── podman
- 28M   ├── osmedeus
- 28M   ├── v2raya
- 28M   ├── gowitness
- 28M   ├── aptly
- 28M   ├── sing-box
- 28M   ├── soft-serve
- 28M   ├── qbittorrent-nox
- 27M   ├── lnav
- 27M   ├── dbbench
- 27M   ├── subfinder
- 27M   ├── ngrok
- 27M   ├── dnsx
- 27M   ├── tlsx
- 26M   ├── relic
- 26M   ├── nmap-formatter
- 26M   ├── wezterm-mux-server
- 26M   ├── maddy
- 26M   ├── tailscale_merged
- 26M   ├── tailscale_bb
- 26M   ├── devbox
- 26M   ├── cvemap
- 26M   ├── uncover
- 26M   ├── gum
- 26M   ├── tailscale_combined
- 26M   ├── mapcidr
- 26M   ├── rattler-build
- 26M   ├── boltconn
- 26M   ├── interactsh-client
- 25M   ├── asnmap
- 25M   ├── mc
- 25M   ├── netbird
- 25M   ├── chaos-client
- 25M   ├── brutespray
- 25M   ├── tailscaled
- 24M   ├── tusd
- 24M   ├── docker
- 24M   ├── restic
- 24M   ├── dagu
- 24M   ├── php-fpm
- 24M   ├── php
- 24M   ├── php-micro
- 24M   ├── qsv
- 24M   ├── cloudflared
- 24M   ├── xetcmd
- 24M   ├── vhs
- 23M   ├── grpcurl
- 23M   ├── nerdctl
- 23M   ├── dalfox
- 23M   ├── meli
- 23M   ├── jaeles
- 23M   ├── interactsh-server
- 23M   ├── legba
- 23M   ├── syncthing
- 23M   ├── xetmnt
- 22M   ├── noseyparker
- 22M   ├── vpnkit
- 22M   ├── loclx
- 22M   ├── localxpose
- 22M   ├── reader
- 22M   ├── ruff
- 22M   ├── etcd
- 22M   ├── imix
- 21M   ├── tuiarchiver
- 21M   ├── shuffledns
- 21M   ├── libaws-cli
- 21M   ├── libaws
- 21M   ├── dnspyre
- 21M   ├── arduino-cli
- 21M   ├── lux
- 21M   ├── atuin
- 20M   ├── mise
- 20M   ├── gix
- 20M   ├── jira-cli
- 20M   ├── jira
- 20M   ├── alterx
- 20M   ├── jj
- 20M   ├── csvtk
- 20M   ├── cdncheck
- 20M   ├── caido-cli
- 20M   ├── golem
- 20M   ├── notify
- 19M   ├── podsync
- 19M   ├── go-audit
- 19M   ├── brook
- 19M   ├── miniflux
- 19M   ├── s3scanner
- 19M   ├── mailpit
- 18M   ├── sish
- 18M   ├── luet
- 18M   ├── nezha-agent
- 18M   ├── rekor-cli
- 18M   ├── ctr
- 18M   ├── exatorrent
- 18M   ├── ironrdp-client
- 18M   ├── gitpod
- 18M   ├── sunbeam
- 18M   ├── exatorrent-noui
- 17M   ├── lazygit
- 17M   ├── chameleon
- 17M   ├── twingate-connector
- 17M   ├── sn0int
- 17M   ├── glow
- 17M   ├── uroot-busybox
- 17M   ├── u-root-busybox
- 17M   ├── gobusybox
- 17M   ├── gickup
- 17M   ├── circumflex
- 17M   ├── act
- 16M   ├── hrekt
- 16M   ├── gh-dash
- 16M   ├── ssr-server
- 16M   ├── serverstatus-server
- 16M   ├── etcdctl
- 16M   ├── gp
- 16M   ├── gitpod-cli
- 16M   ├── warp
- 16M   ├── findomain
- 16M   ├── hednsextractor
- 15M   ├── diffoci
- 15M   ├── pgweb
- 15M   ├── filebrowser
- 15M   ├── yazi
- 15M   ├── cloudcash
- 15M   ├── aws-wire-lengths
- 15M   ├── rqbit
- 15M   ├── rippkgs-index.sqlite
- 15M   ├── termshark
- 14M   ├── tinja
- 14M   ├── clipcatd
- 14M   ├── s5cmd
- 14M   ├── bleve
- 14M   ├── bin
- 14M   ├── zerotier-one
- 14M   ├── zerotier-idtool
- 14M   ├── zerotier-cli
- 14M   ├── sysbox-runc
- 14M   ├── godns
- 14M   ├── pgrokd
- 14M   ├── certwatcher
- 14M   ├── listmonk
- 14M   ├── ct_monitor
- 14M   ├── wiretap
- 14M   ├── yip
- 13M   ├── netmaker
- 13M   ├── ssr-server-themed
- 13M   ├── serverstatus-server-themed
- 13M   ├── reviewdog
- 13M   ├── etcdutl
- 13M   ├── smap
- 13M   ├── ein
- 13M   ├── gdu
- 13M   ├── stree
- 13M   ├── jc
- 13M   ├── hcloud
- 13M   ├── apkeep
- 13M   ├── logstation
- 13M   ├── tssh
- 13M   ├── openapi-tui
- 13M   ├── niltalk
- 12M   ├── opengfw
- 12M   ├── gost
- 12M   ├── tailscale
- 12M   ├── cent
- 12M   ├── zgrab2
- 12M   ├── s3sync
- 12M   ├── freeze
- 12M   ├── goodls
- 12M   ├── cntb
- 12M   ├── ffufw
- 12M   ├── git-cliff
- 12M   ├── mabel
- 12M   ├── rebuildctl
- 12M   ├── x8
- 12M   ├── bucketloot
- 12M   ├── sysbox-fs
- 12M   ├── litefs
- 12M   ├── mdcat
- 11M   ├── rebuilderd-worker
- 11M   ├── mirrorbits
- 11M   ├── containerd-shim-runc-v2
- 11M   ├── sync-color-schemes
- 11M   ├── fq
- 11M   ├── jqp
- 11M   ├── xan
- 11M   ├── sysbox-mgr
- 11M   ├── tty2web
- 11M   ├── sslsearch
- 11M   ├── gitui
- 11M   ├── cfssl
- 11M   ├── hurl
- 11M   ├── vfox
- 11M   ├── micro
- 11M   ├── feroxbuster
- 11M   ├── nmctl
- 11M   ├── multirootca
- 11M   ├── netscanner
- 11M   ├── pktstat
- 11M   ├── lazydocker
- 11M   ├── broot
- 11M   ├── fx
- 10M   ├── git-lfs
- 10M   ├── gip
- 10M   ├── gosmee
- 10M   ├── cheat
- 10M   ├── sshportal
- 10M   ├── watchexec
- 10M   ├── pdfcpu
- 10M   ├── ehole
- 10M   ├── ksubdomain
- 10M   ├── hakrawler
- 10M   ├── coreutils
- 10M   ├── supervisord
- 10M   ├── vegeta
- 10M   ├── yq
- 10M   ├── binocle
- 10M   ├── runc
- 10M   ├── vopono
- 10M   ├── scilla
- 10M   ├── ctrsploit
- 10M   ├── wstunnel
- 10M   ├── agg-speed
- 10M   ├── flawz
-9.9M   ├── orbiton
-9.9M   ├── noir
-9.9M   ├── nix-channel-index
-9.9M   ├── tut
-9.8M   ├── zdns
-9.8M   ├── gotty
-9.8M   ├── gitql
-9.8M   ├── yggdrasil
-9.8M   ├── htb-cli
-9.8M   ├── resto
-9.7M   ├── warp-svc
-9.6M   ├── goop
-9.6M   ├── shortscan
-9.6M   ├── vultr-cli
-9.6M   ├── ngocok
-9.6M   ├── monolith
-9.5M   ├── starship
-9.5M   ├── sshx-server
-9.4M   ├── sttr
-9.4M   ├── transmission-daemon
-9.3M   ├── ipinfo-cli
-9.3M   ├── ipinfo
-9.3M   ├── redguard
-9.3M   ├── pgrok
-9.3M   ├── dasel
-9.3M   ├── archey
-9.3M   ├── cfssl-newkey
-9.3M   ├── invidtui
-9.2M   ├── dura
-9.2M   ├── pwninit
-9.1M   ├── agg
-9.1M   ├── taplo
-9.1M   ├── pping
-9.1M   ├── csprecon
-9.1M   ├── ghfetch
-9.1M   ├── mubeng
-9.1M   ├── nix-index
-9.0M   ├── ddns-go
-8.9M   ├── bluetuith
-8.9M   ├── rebuilderd
-8.9M   ├── gocurl
-8.8M   ├── viewgen_staticx
-8.8M   ├── stew
-8.8M   ├── enc
-8.8M   ├── syncat
-8.8M   ├── rospo
-8.7M   ├── cut-cdn
-8.7M   ├── gocryptfs
-8.7M   ├── oha
-8.7M   ├── certstream-server-go
-8.6M   ├── ssr-client
-8.6M   ├── serverstatus-client
-8.6M   ├── clipcat-menu
-8.6M   ├── nmap
-8.6M   ├── getghrel
-8.5M   ├── rustypaste
-8.5M   ├── smartdns-rs
-8.5M   ├── openrisk
-8.5M   ├── cfssl-scan
-8.4M   ├── doggo
-8.4M   ├── vproxy
-8.4M   ├── q
-8.3M   ├── hostctl
-8.3M   ├── hardeningmeter_staticx
-8.3M   ├── chisel
-8.2M   ├── ctlwatcher
-8.2M   ├── pingtunnel
-8.2M   ├── recollapse_staticx
-8.2M   ├── ov
-8.2M   ├── assh
-8.1M   ├── aria2c
-8.1M   ├── tgpt
-8.1M   ├── cfssl-bundle
-8.1M   ├── sns
-8.1M   ├── supercronic
-8.0M   ├── rootlesskit
-8.0M   ├── ladder
-8.0M   ├── wireproxy
-8.0M   ├── cfssl-certinfo
-8.0M   ├── sshesame
-8.0M   ├── planor
-8.0M   ├── pingmole
-8.0M   ├── cog
-7.9M   ├── nomore403
-7.9M   ├── dontgo403
-7.9M   ├── sj
-7.9M   ├── viddy
-7.9M   ├── xmrig
-7.9M   ├── curl
-7.8M   ├── gau
-7.8M   ├── hxn
-7.8M   ├── gosec
-7.8M   ├── ffuf
-7.7M   ├── z-tokens
-7.7M   ├── revive
-7.7M   ├── gobuster
-7.7M   ├── enola
-7.7M   ├── trurl
-7.6M   ├── husarnet
-7.5M   ├── pretender
-7.5M   ├── quickcert
-7.5M   ├── croc
-7.5M   ├── sake
-7.5M   ├── cherrybomb
-7.5M   ├── xq
-7.5M   ├── puredns
-7.4M   ├── fingerprintx
-7.3M   ├── dnslookup
-7.3M   ├── subxtract
-7.3M   ├── brename
-7.2M   ├── wormhole-rs
-7.2M   ├── godnsbench
-7.2M   ├── gocryptfs-xray
-7.2M   ├── gofireprox
-7.2M   ├── fasttld
-7.2M   ├── system-info-collector
-7.2M   ├── sysinfo-collector
-7.1M   ├── git-log
-7.1M   ├── eget
-7.1M   ├── websocat
-7.1M   ├── sshx
-7.1M   ├── zfind
-7.0M   ├── git-checkout
-7.0M   ├── git-clone
-7.0M   ├── twingate-connector-staticx
-7.0M   ├── git-pull
-6.9M   ├── rush
-6.9M   ├── systemctl-tui
-6.9M   ├── delta
-6.8M   ├── qemu-xtensa-static
-6.8M   ├── stunner
-6.8M   ├── trip
-6.8M   ├── sessionprobe
-6.8M   ├── certgraph
-6.8M   ├── sf
-6.8M   ├── fscan
-6.8M   ├── cloak-client
-6.7M   ├── exiflooter
-6.7M   ├── spoof-dpi
-6.7M   ├── qemu-xtensaeb-static
-6.7M   ├── boxxy
-6.7M   ├── cfspeed
-6.6M   ├── gitleaks
-6.6M   ├── speedtest-go
-6.6M   ├── spk
-6.6M   ├── direnv
-6.6M   ├── yggdrasilctl
-6.6M   ├── elvish
-6.6M   ├── dizi-server
-6.5M   ├── rga
-6.5M   ├── xplr
-6.5M   ├── fnm
-6.4M   ├── fuzzuli
-6.4M   ├── xh
-6.4M   ├── aretext
-6.4M   ├── yalis
-6.3M   ├── hub
-6.3M   ├── pueued
-6.3M   ├── pueue
-6.3M   ├── ripgrep
-6.3M   ├── rg
-6.3M   ├── jen
-6.3M   ├── cloak-server
-6.2M   ├── tracexec
-6.2M   ├── clipcatctl
-6.2M   ├── uroot
-6.2M   ├── u-root
-6.1M   ├── xbps-rindex
-6.1M   ├── xbps-create
-6.1M   ├── bigdl
-6.1M   ├── go-simplehttpserver
-6.1M   ├── cobalt-cli
-6.0M   ├── allxfr
-6.0M   ├── zigup
-6.0M   ├── warp-diag
-6.0M   ├── hcxhashtool
-5.9M   ├── cfssljson
-5.9M   ├── whoismac
-5.9M   ├── wlancap2wpasec
-5.9M   ├── v6run
-5.9M   ├── sbctl
-5.9M   ├── dperf
-5.9M   ├── volta
-5.9M   ├── wadl-dumper
-5.9M   ├── vtm
-5.9M   ├── nginx
-5.8M   ├── rustcan
-5.8M   ├── dizi
-5.8M   ├── rescope
-5.8M   ├── presenterm
-5.8M   ├── albafetch
-5.8M   ├── pathbuster
-5.8M   ├── amp
-5.7M   ├── wego
-5.7M   ├── zt-patterns
-5.6M   ├── goanywhere
-5.6M   ├── qemu-aarch64_be-static
-5.6M   ├── qemu-aarch64-static
-5.6M   ├── macchina
-5.6M   ├── gup
-5.6M   ├── web-cache-vulnerability-scanner
-5.5M   ├── wget
-5.5M   ├── waybackrobots
-5.5M   ├── makebb
-5.5M   ├── xbps-install
-5.5M   ├── cwe_checker
-5.5M   ├── xbps-remove
-5.5M   ├── cowitness
-5.5M   ├── batcat
-5.5M   ├── bat
-5.5M   ├── decpu
-5.4M   ├── xbps-query
-5.4M   ├── procs
-5.4M   ├── xbps-uhelper
-5.4M   ├── xbps-reconfigure
-5.4M   ├── xbps-pkgdb
-5.4M   ├── xbps-dgraph
-5.4M   ├── xbps-checkvers
-5.4M   ├── xbps-alternatives
-5.4M   ├── xbps-fetch
-5.4M   ├── xbps-uchroot
-5.4M   ├── xbps-fbulk
-5.4M   ├── xbps-uunshare
-5.4M   ├── xbps-digest
-5.4M   ├── certspotter
-5.3M   ├── bombadillo
-5.3M   ├── clipcat-notify
-5.3M   ├── horust
-5.3M   ├── gorilla
-5.3M   ├── qemu-hexagon-static
-5.3M   ├── getJS
-5.3M   ├── gitdorks_go
-5.3M   ├── hacker-scoper
-5.2M   ├── golinkfinder
-5.2M   ├── shell2http
-5.2M   ├── github-subdomains
-5.2M   ├── github-endpoints
-5.2M   ├── gitlab-subdomains
-5.2M   ├── indextree
-5.2M   ├── gron
-5.2M   ├── mcfly
-5.2M   ├── subjs
-5.1M   ├── tailspin
-5.1M   ├── github-regexp
-5.1M   ├── openvpn
-5.1M   ├── roboxtractor
-5.1M   ├── sourcemapper
-5.1M   ├── crawley
-5.1M   ├── git-tag
-5.1M   ├── unfurl
-5.1M   ├── rewritepkg
-5.0M   ├── cpu
-5.0M   ├── wth
-5.0M   ├── rsync
-5.0M   ├── gfx
-5.0M   ├── cfspeedtest
-5.0M   ├── openssl
-5.0M   ├── decpud
-5.0M   ├── xurls
-4.9M   ├── stress-ng
-4.9M   ├── dnstake
-4.9M   ├── mantra
-4.9M   ├── elinks-lite
-4.9M   ├── elinks
-4.9M   ├── nping
-4.9M   ├── yataf
-4.9M   ├── ppfuzz
-4.9M   ├── assetfinder
-4.9M   ├── airixss
-4.9M   ├── analyticsrelationships
-4.9M   ├── waybackurls
-4.9M   ├── hysp
-4.9M   ├── mkbundle
-4.9M   ├── actionlint
-4.8M   ├── rootlesskit-docker-proxy
-4.8M   ├── sshd
-4.8M   ├── fblog
-4.8M   ├── agg-tunnel
-4.8M   ├── socat
-4.8M   ├── warp-dex
-4.8M   ├── mani
-4.7M   ├── gxss
-4.7M   ├── ncat
-4.7M   ├── fget
-4.7M   ├── jwt-hack
-4.7M   ├── crlfuzz
-4.7M   ├── fclones
-4.7M   ├── hakip2host
-4.6M   ├── hakoriginfinder
-4.6M   ├── httprobe
-4.6M   ├── rate-limit-checker
-4.6M   ├── gpg-tui
-4.6M   ├── crt
-4.6M   ├── jnv
-4.6M   ├── enumerepo
-4.6M   ├── dnsperf
-4.6M   ├── bottom
-4.5M   ├── resperf
-4.5M   ├── ssh
-4.5M   ├── gotld
-4.5M   ├── certstream
-4.5M   ├── realm
-4.4M   ├── agrind
-4.4M   ├── ouch
-4.4M   ├── kubemetrics
-4.3M   ├── twingate-connectorctl
-4.3M   ├── knoxssme
-4.3M   ├── eefjsf
-4.3M   ├── bbtargets
-4.3M   ├── tahm
-4.3M   ├── ssh-keysign
-4.3M   ├── axel
-4.3M   ├── tun2proxy
-4.3M   ├── ssh-keyscan
-4.3M   ├── onetun
-4.2M   ├── datadash
-4.2M   ├── overmind
-4.2M   ├── hurlfmt
-4.2M   ├── ssh-keygen
-4.2M   ├── dufs
-4.2M   ├── robotstxt
-4.2M   ├── nrp
-4.2M   ├── heacoll
-4.2M   ├── doomxss
-4.2M   ├── checkbypass
-4.2M   ├── chainredir
-4.1M   ├── qemu-riscv64-static
-4.1M   ├── cpud
-4.1M   ├── warp-cli
-4.1M   ├── qemu-riscv32-static
-4.1M   ├── ssh-add
-4.1M   ├── ssh-agent
-4.0M   ├── hwatch
-4.0M   ├── kalker
-4.0M   ├── gojq
-4.0M   ├── qemu-armeb-static
-3.9M   ├── qemu-arm-static
-3.9M   ├── fd-find
-3.9M   ├── fd
-3.9M   ├── dotenv-linter
-3.9M   ├── just
-3.9M   ├── tokei
-3.9M   ├── qemu-mipsn32-static
-3.9M   ├── qemu-mips64-static
-3.9M   ├── qemu-mipsn32el-static
-3.9M   ├── pfetch-rs
-3.9M   ├── qemu-mips64el-static
-3.9M   ├── qemu-mips-static
-3.9M   ├── twingate-notifier
-3.9M   ├── qemu-mipsel-static
-3.8M   ├── dns-doctor
-3.8M   ├── validtoml
-3.8M   ├── kanha
-3.8M   ├── xcp
-3.8M   ├── makebbmain
-3.8M   ├── qemu-ppc64-static
-3.8M   ├── qemu-ppc64le-static
-3.8M   ├── qemu-ppc-static
-3.8M   ├── sshkeys
-3.8M   ├── wasminspect
-3.7M   ├── ripgen
-3.7M   ├── lsd
-3.7M   ├── mqttui
-3.7M   ├── spiped
-3.7M   ├── rage
-3.7M   ├── spipe
-3.7M   ├── hcxpcapngtool
-3.7M   ├── viu
-3.7M   ├── iperf3
-3.7M   ├── iperf
-3.6M   ├── deoptimizer
-3.6M   ├── find-rs
-3.6M   ├── hcxpsktool
-3.6M   ├── fzf
-3.6M   ├── 7z
-3.5M   ├── hcxpmktool
-3.5M   ├── bandwhich
-3.5M   ├── twingate-client
-3.4M   ├── qemu-i386-static
-3.4M   ├── kalc
-3.4M   ├── qemu-x86_64-static
-3.4M   ├── nix-locate
-3.4M   ├── cidr
-3.4M   ├── passdetective
-3.4M   ├── lf
-3.4M   ├── age
-3.3M   ├── pspy
-3.3M   ├── killport
-3.3M   ├── navi
-3.3M   ├── rust-parallel
-3.3M   ├── qemu-loongarch64-static
-3.3M   ├── qemu-s390x-static
-3.2M   ├── mosh-client
-3.2M   ├── jobs
-3.2M   ├── cdwe
-3.2M   ├── mosh-server
-3.2M   ├── ctrsploit-checksec
-3.1M   ├── tlrc
-3.1M   ├── stuffbin
-3.1M   ├── sk
-3.1M   ├── txeh
-3.1M   ├── ctrsploit-env
-3.1M   ├── qemu-sparc32plus-static
-3.1M   ├── njs
-3.1M   ├── qemu-sparc64-static
-3.1M   ├── dysk
-3.1M   ├── qemu-m68k-static
-3.1M   ├── smartdns
-3.1M   ├── taierspeed-cli
-3.1M   ├── walk
-3.0M   ├── qemu-sparc-static
-3.0M   ├── binary-security-check
-3.0M   ├── logtimer
-3.0M   ├── bed
-3.0M   ├── tmate
-3.0M   ├── p9cpu
-2.9M   ├── halp
-2.9M   ├── encrypted-dns
-2.9M   ├── t-rec
-2.9M   ├── qemu-hppa-static
-2.9M   ├── dust
-2.9M   ├── rage-keygen
-2.9M   ├── gping
-2.8M   ├── rpaste
-2.8M   ├── htmlq
-2.8M   ├── wireguard-rs
-2.8M   ├── cotp
-2.8M   ├── qemu-sh4eb-static
-2.8M   ├── qemu-alpha-static
-2.8M   ├── yj
-2.8M   ├── rnr
-2.8M   ├── qemu-sh4-static
-2.8M   ├── goawk
-2.8M   ├── qemu-cris-static
-2.8M   ├── qemu-microblaze-static
-2.8M   ├── qemu-microblazeel-static
-2.8M   ├── ropr
-2.7M   ├── cowthink
-2.7M   ├── cowsay
-2.7M   ├── qemu-nios2-static
-2.7M   ├── gs-netcat
-2.7M   ├── wireguard-go
-2.7M   ├── qemu-or1k-static
-2.6M   ├── unf
-2.6M   ├── cproxy
-2.6M   ├── tere
-2.6M   ├── git-sizer
-2.6M   ├── shfmt
-2.6M   ├── rippkgs-index
-2.6M   ├── p9cpud
-2.6M   ├── rippkgs
-2.6M   ├── fwanalyzer
-2.5M   ├── grex
-2.5M   ├── dsieve
-2.5M   ├── sd
-2.5M   ├── ht
-2.5M   ├── zt-exchange
-2.5M   ├── boringtun-cli
-2.5M   ├── systeroid
-2.4M   ├── geodns
-2.4M   ├── geoping
-2.4M   ├── phantun-client
-2.4M   ├── tz
-2.4M   ├── phantun-server
-2.4M   ├── kondo
-2.4M   ├── bingrep
-2.4M   ├── kakoune
-2.4M   ├── kak
-2.4M   ├── husarnet-daemon
-2.4M   ├── btop
-2.4M   ├── runiq
-2.3M   ├── mdsh
-2.3M   ├── encode
-2.3M   ├── pelfd
-2.3M   ├── hadolint
-2.3M   ├── fdupes
-2.3M   ├── gencmddeps
-2.2M   ├── jq
-2.2M   ├── pkgtop
-2.2M   ├── redive
-2.1M   ├── udpx
-2.1M   ├── hakrevdns
-2.1M   ├── tidy-viewer
-2.1M   ├── gosu
-2.0M   ├── headtail
-2.0M   ├── duf
-2.0M   ├── ffufPostprocessing
-2.0M   ├── miniserve
-2.0M   ├── diffutils-rs
-2.0M   ├── shortutil
-2.0M   ├── gronx-tasker
-2.0M   ├── zenith
-2.0M   ├── pencode
-2.0M   ├── gf
-1.9M   ├── cexec
-1.9M   ├── curlie
-1.9M   ├── eza
-1.9M   ├── revit
-1.9M   ├── rshijack
-1.9M   ├── deark
-1.9M   ├── netcat
-1.8M   ├── mergerfs
-1.8M   ├── age-keygen
-1.8M   ├── sqlite3
-1.8M   ├── byp4xx
-1.8M   ├── bbscope
-1.8M   ├── gotator
-1.8M   ├── anakin
-1.8M   ├── ds
-1.8M   ├── docker-proxy
-1.8M   ├── cutlines
-1.7M   ├── fastfetch
-1.7M   ├── jwt-cracker
-1.7M   ├── jaq
-1.7M   ├── inscope
-1.7M   ├── uip
-1.7M   ├── fio
-1.7M   ├── exa
-1.6M   ├── xargs-rs
-1.6M   ├── tmux
-1.6M   ├── sudo-rs
-1.6M   ├── vnstat
-1.6M   ├── zfxtop
-1.6M   ├── jless_staticx
-1.6M   ├── mmv
-1.6M   ├── vnstatd
-1.6M   ├── moac-pwgen
-1.6M   ├── findlargedir
-1.5M   ├── goaccess
-1.5M   ├── fastfetch-staticx
-1.5M   ├── tcpdump
-1.5M   ├── flashfetch
-1.5M   ├── zsh
-1.5M   ├── visudo-rs
-1.5M   ├── genscope
-1.5M   ├── botsay
-1.5M   ├── mksub
-1.5M   ├── epoch
-1.5M   ├── nmapurls
-1.5M   ├── bore
-1.4M   ├── moac
-1.4M   ├── ecoji
-1.4M   ├── tio
-1.4M   ├── v6disk
-1.4M   ├── progress
-1.4M   ├── kmon
-1.4M   ├── quotes-escaper
-1.4M   ├── scopegen
-1.4M   ├── hyperfine
-1.4M   ├── namegen
-1.4M   ├── rapwp
-1.4M   ├── eah
-1.4M   ├── eae
-1.4M   ├── strace
-1.4M   ├── rpfu
-1.4M   ├── removehost
-1.4M   ├── earh
-1.4M   ├── eapath
-1.4M   ├── eaparam
-1.4M   ├── cleanpath
-1.3M   ├── eap
-1.3M   ├── removepro
-1.3M   ├── qsreplace
-1.3M   ├── rustcat
-1.3M   ├── rcat
-1.3M   ├── ubase-box
-1.3M   ├── fuse-overlayfs
-1.3M   ├── ttyd
-1.3M   ├── tok
-1.3M   ├── comb
-1.3M   ├── ppath
-1.3M   ├── genact
-1.2M   ├── pier
-1.2M   ├── nrich
-1.2M   ├── mgwls
-1.2M   ├── patchelf
-1.2M   ├── anew
-1.2M   ├── rathole
-1.2M   ├── sudoedit
-1.2M   ├── sudo
-1.2M   ├── su-rs
-1.2M   ├── b3sum
-1.2M   ├── zoxide
-1.2M   ├── z
-1.1M   ├── strip-ansi-escapes
-1.1M   ├── zstd
-1.1M   ├── desktop-file-install
-1.1M   ├── desktop-file-edit
-1.1M   ├── desktop-file-validate
-1.1M   ├── catatonit
-1.1M   ├── update-desktop-database
-1.0M   ├── bash
-1.0M   ├── jql
-1.0M   ├── awk
-984K   ├── grep
-948K   ├── svg-hush
-948K   ├── hexyl
-948K   ├── csview
-924K   ├── cargo-unlock
-864K   ├── hx
-860K   ├── catp
-844K   ├── zt-hashes
-824K   ├── anew-rs
-812K   ├── anewer
-740K   ├── toybox
-692K   ├── docker-init
-676K   ├── squashfuse_ll
-672K   ├── squashfuse
-608K   ├── whois
-592K   ├── sudo_logsrvd
-584K   ├── ncdu
-584K   ├── elfcat
-580K   ├── filan
-576K   ├── procan
-568K   ├── cvtsudoers
-552K   ├── upx
-548K   ├── neofetch
-544K   ├── dropbearmulti
-528K   ├── zt-encodings
-496K   ├── mtr
-492K   ├── unifetch
-476K   ├── visudo
-464K   ├── generate-bidi
-460K   ├── dropbear
-448K   ├── shellharden
-448K   ├── mount.fuse3
-444K   ├── sbase-box
-444K   ├── loksh
-440K   ├── oksh
-412K   ├── dbclient
-404K   ├── smenu
-404K   ├── sadf
-396K   ├── nnn
-368K   ├── sudo_sendlog
-364K   ├── scp
-364K   ├── find
-356K   ├── sudoreplay
-356K   ├── sftp
-356K   ├── logrotate
-344K   ├── fi6s
-300K   ├── mdp
-288K   ├── region_restriction_check.sh
-276K   ├── doas
-268K   ├── sftp-server
-268K   ├── pigz
-256K   ├── screenfetch
-244K   ├── sed
-244K   ├── dropbearkey
-240K   ├── dropbearconvert
-236K   ├── minisign
-208K   ├── sar
-208K   ├── nfs-ls
-208K   ├── nfs-cp
-204K   ├── nfs-stat
-200K   ├── nfs-cat
-200K   ├── asn
-196K   ├── netstat
-192K   ├── linuxwave
-184K   ├── ping
-180K   ├── hcxdumptool
-172K   ├── numademo
-172K   ├── numactl
-172K   ├── cpufetch
-156K   ├── migspeed
-152K   ├── mkpasswd
-152K   ├── migratepages
-152K   ├── memhog
-140K   ├── pidstat
-140K   ├── ifrename
-132K   ├── wg
-128K   ├── rust-hypervisor-firmware
-128K   ├── ipt2socks
-128K   ├── hypervisor-fw
-124K   ├── xargs
-124K   ├── iwlist
-120K   ├── sadc
-116K   ├── iwconfig
-112K   ├── tapestat
-112K   ├── massdns
-112K   ├── iwgetid
-112K   ├── iwevent
-112K   ├── cron
-104K   ├── iwspy
-104K   ├── iwpriv
-104K   ├── iostat
-104K   ├── cronie-crond
-104K   ├── clockdiff
-104K   ├── arping
-100K   ├── unix2mac
-100K   ├── unix2dos
-100K   ├── mac2unix
-100K   ├── fusermount3
-100K   ├── dos2unix
-100K   ├── crontab
- 96K   ├── mpstat
- 96K   ├── darkhttpd
- 92K   ├── shc
- 88K   ├── numastat
- 88K   ├── cronie-crontab
- 84K   ├── tracepath
- 76K   ├── reptyr
- 76K   ├── pwait
- 76K   ├── mtr-packet
- 76K   ├── dropbearscp
- 76K   ├── cronie-cronnext
- 72K   ├── zapper
- 72K   ├── hcxhash2cap
- 72K   ├── entr
- 72K   ├── bin2video
- 68K   ├── zapper-stealth
- 68K   ├── cifsiostat
- 68K   ├── binfetch
- 56K   ├── joker
- 56K   ├── gguf-tools
- 52K   ├── hcxwltool
- 48K   ├── yabs.sh
- 48K   ├── hcxeiutool
- 40K   ├── jsmug
- 36K   ├── sshpass
- 36K   ├── pipetty
- 36K   ├── ansi2html
- 32K   ├── nezha-install.sh
- 28K   ├── apk.sh
- 24K   ├── try
- 24K   ├── prettyping
- 20K   ├── ttyrec2ansi
- 20K   ├── serverstatus-status.sh
- 20K   ├── resdns
- 20K   ├── pelf
- 20K   ├── bdl.sh
- 16K   ├── wg-quick
- 16K   ├── tldr
- 16K   ├── dockerd-rootless-setuptool.sh
- 16K   ├── bench.sh
-8.0K   ├── sk-tmux
-8.0K   ├── rsync-ssl
-8.0K   ├── gsocket
-8.0K   ├── dockerd-rootless.sh
-8.0K   ├── ansi2txt
-4.0K   ├── zerotier-one_systemd_service
-4.0K   ├── sysstat
-4.0K   ├── subxtract.sh
-4.0K   ├── sshd_config
-4.0K   ├── serverstatus-gen-certs.sh
-4.0K   ├── scopeview
-4.0K   ├── sa2
-4.0K   ├── sa1
-4.0K   ├── pelf_linker
-4.0K   ├── pelf_extract
-4.0K   ├── nezha-dashboard.service
-4.0K   ├── nezha-dashboard.openrc
-4.0K   └── binfetch.cfg
+  10G └─┬ toolpack_x86_64
+ 169M   ├── usql
+ 161M   ├── sliver-server
+ 159M   ├── traefik
+ 148M   ├── cloudfox
+ 143M   ├── aws-nuke
+ 110M   ├── trufflehog
+ 102M   ├── gitea
+ 100M   ├── cloudlist
+  94M   ├── promtail
+  90M   ├── k9s
+  87M   ├── istioctl
+  86M   ├── daytona
+  85M   ├── hugo
+  76M   ├── alist
+  75M   ├── ffmpeg
+  74M   ├── ffprobe
+  73M   ├── nuclei
+  72M   ├── falconhound
+  72M   ├── berty
+  71M   ├── rclone
+  69M   ├── loki
+  68M   ├── ockam
+  67M   ├── devpod
+  66M   ├── jr
+  61M   ├── logcli
+  59M   ├── wtfutil
+  59M   ├── wtf
+  59M   ├── dockerd
+  53M   ├── miniooni
+  51M   ├── tavern
+  50M   ├── steampipe
+  50M   ├── ooniprobe
+  49M   ├── teldrive
+  48M   ├── bearer
+  48M   ├── matterbridge
+  47M   ├── gh
+  46M   ├── rekor-server
+  46M   ├── rekor
+  46M   ├── xet_staticx
+  39M   ├── katana
+  38M   ├── kadeessh
+  38M   ├── caddy
+  38M   ├── httpx
+  38M   ├── crictl
+  38M   ├── proxify
+  37M   ├── containerd
+  36M   ├── kopia
+  36M   ├── tdl
+  35M   ├── nushell
+  35M   ├── nu
+  35M   ├── nezha-dashboard
+  34M   ├── amass
+  34M   ├── sliver-client
+  33M   ├── cloudreve
+  33M   ├── naabu
+  33M   ├── aptly
+  33M   ├── step
+  32M   ├── skupper
+  32M   ├── surf
+  32M   ├── mlr
+  32M   ├── shellz
+  32M   ├── runme
+  31M   ├── loki-canary
+  31M   ├── sq
+  31M   ├── algernon
+  31M   ├── git-xet
+  30M   ├── pixi
+  30M   ├── dblab
+  30M   ├── edgevpn
+  29M   ├── aix
+  29M   ├── zellij
+  29M   ├── sqlc
+  29M   ├── podman
+  29M   ├── melange
+  28M   ├── osmedeus
+  28M   ├── v2raya
+  28M   ├── gowitness
+  28M   ├── sing-box
+  28M   ├── wezterm
+  28M   ├── qbittorrent-nox
+  27M   ├── lnav
+  27M   ├── ngrok
+  27M   ├── dbbench
+  27M   ├── subfinder
+  27M   ├── dnsx
+  27M   ├── tlsx
+  26M   ├── relic
+  26M   ├── nmap-formatter
+  26M   ├── tailscale_merged
+  26M   ├── tailscale_bb
+  26M   ├── maddy
+  26M   ├── devbox
+  26M   ├── cvemap
+  26M   ├── wezterm-mux-server
+  26M   ├── uncover
+  26M   ├── gum
+  26M   ├── tailscale_combined
+  26M   ├── soft-serve
+  26M   ├── mapcidr
+  26M   ├── boltconn
+  26M   ├── interactsh-client
+  25M   ├── asnmap
+  25M   ├── mc
+  25M   ├── netbird
+  25M   ├── chaos-client
+  25M   ├── tailscaled
+  25M   ├── brutespray
+  24M   ├── tusd
+  24M   ├── docker
+  24M   ├── restic
+  24M   ├── dagu
+  24M   ├── qsv
+  24M   ├── php-fpm
+  24M   ├── php
+  24M   ├── php-micro
+  24M   ├── cloudflared
+  24M   ├── xetcmd
+  24M   ├── vhs
+  23M   ├── grpcurl
+  23M   ├── nerdctl
+  23M   ├── dalfox
+  23M   ├── meli
+  23M   ├── jaeles
+  23M   ├── interactsh-server
+  23M   ├── legba
+  23M   ├── noseyparker
+  23M   ├── syncthing
+  22M   ├── vpnkit
+  22M   ├── loclx
+  22M   ├── localxpose
+  22M   ├── xetmnt
+  22M   ├── ruff
+  22M   ├── reader
+  22M   ├── etcd
+  22M   ├── imix
+  21M   ├── tuiarchiver
+  21M   ├── shuffledns
+  21M   ├── libaws-cli
+  21M   ├── libaws
+  21M   ├── rattler-build
+  21M   ├── dnspyre
+  21M   ├── arduino-cli
+  21M   ├── lux
+  21M   ├── atuin
+  21M   ├── gix
+  20M   ├── jira-cli
+  20M   ├── jira
+  20M   ├── alterx
+  20M   ├── jj
+  20M   ├── mise
+  20M   ├── csvtk
+  20M   ├── cdncheck
+  20M   ├── caido-cli
+  20M   ├── golem
+  20M   ├── notify
+  19M   ├── podsync
+  19M   ├── go-audit
+  19M   ├── brook
+  19M   ├── miniflux
+  19M   ├── s3scanner
+  19M   ├── mailpit
+  18M   ├── sish
+  18M   ├── luet
+  18M   ├── nezha-agent
+  18M   ├── rekor-cli
+  18M   ├── ctr
+  18M   ├── exatorrent
+  18M   ├── ironrdp-client
+  18M   ├── gitpod
+  18M   ├── sunbeam
+  18M   ├── exatorrent-noui
+  17M   ├── lazygit
+  17M   ├── chameleon
+  17M   ├── uroot-busybox
+  17M   ├── u-root-busybox
+  17M   ├── gobusybox
+  17M   ├── twingate-connector
+  17M   ├── sn0int
+  17M   ├── glow
+  17M   ├── gickup
+  17M   ├── circumflex
+  17M   ├── act
+  16M   ├── hrekt
+  16M   ├── gh-dash
+  16M   ├── etcdctl
+  16M   ├── gp
+  16M   ├── gitpod-cli
+  16M   ├── ssr-server
+  16M   ├── serverstatus-server
+  16M   ├── warp
+  16M   ├── findomain
+  16M   ├── hednsextractor
+  15M   ├── diffoci
+  15M   ├── pgweb
+  15M   ├── filebrowser
+  15M   ├── cloudcash
+  15M   ├── rqbit
+  15M   ├── yazi
+  15M   ├── rippkgs-index.sqlite
+  15M   ├── termshark
+  14M   ├── tinja
+  14M   ├── clipcatd
+  14M   ├── s5cmd
+  14M   ├── bleve
+  14M   ├── bin
+  14M   ├── zerotier-one
+  14M   ├── zerotier-idtool
+  14M   ├── zerotier-cli
+  14M   ├── sysbox-runc
+  14M   ├── godns
+  14M   ├── pgrokd
+  14M   ├── certwatcher
+  14M   ├── listmonk
+  14M   ├── aws-wire-lengths
+  14M   ├── wiretap
+  14M   ├── ct_monitor
+  14M   ├── yip
+  13M   ├── ein
+  13M   ├── netmaker
+  13M   ├── reviewdog
+  13M   ├── etcdutl
+  13M   ├── smap
+  13M   ├── gdu
+  13M   ├── ssr-server-themed
+  13M   ├── serverstatus-server-themed
+  13M   ├── stree
+  13M   ├── jc
+  13M   ├── hcloud
+  13M   ├── logstation
+  13M   ├── tssh
+  13M   ├── openapi-tui
+  13M   ├── apkeep
+  13M   ├── niltalk
+  12M   ├── opengfw
+  12M   ├── gost
+  12M   ├── tailscale
+  12M   ├── cent
+  12M   ├── zgrab2
+  12M   ├── s3sync
+  12M   ├── freeze
+  12M   ├── goodls
+  12M   ├── cntb
+  12M   ├── ffufw
+  12M   ├── git-cliff
+  12M   ├── mabel
+  12M   ├── rebuildctl
+  12M   ├── x8
+  12M   ├── bucketloot
+  12M   ├── mdcat
+  12M   ├── sysbox-fs
+  12M   ├── litefs
+  11M   ├── xan
+  11M   ├── rebuilderd-worker
+  11M   ├── mirrorbits
+  11M   ├── containerd-shim-runc-v2
+  11M   ├── fq
+  11M   ├── jqp
+  11M   ├── sync-color-schemes
+  11M   ├── sysbox-mgr
+  11M   ├── tty2web
+  11M   ├── sslsearch
+  11M   ├── gitui
+  11M   ├── cfssl
+  11M   ├── hurl
+  11M   ├── vfox
+  11M   ├── micro
+  11M   ├── feroxbuster
+  11M   ├── nmctl
+  11M   ├── multirootca
+  11M   ├── pktstat
+  11M   ├── lazydocker
+  11M   ├── broot
+  11M   ├── fx
+  11M   ├── netscanner
+  10M   ├── git-lfs
+  10M   ├── gip
+  10M   ├── gosmee
+  10M   ├── cheat
+  10M   ├── sshportal
+  10M   ├── watchexec
+  10M   ├── pdfcpu
+  10M   ├── ehole
+  10M   ├── ksubdomain
+  10M   ├── hakrawler
+  10M   ├── coreutils
+  10M   ├── supervisord
+  10M   ├── vegeta
+  10M   ├── yq
+  10M   ├── binocle
+  10M   ├── runc
+  10M   ├── vopono
+  10M   ├── scilla
+  10M   ├── ctrsploit
+  10M   ├── wstunnel
+10.0M   ├── flawz
+ 9.9M   ├── orbiton
+ 9.9M   ├── noir
+ 9.9M   ├── tut
+ 9.9M   ├── zdns
+ 9.9M   ├── nix-channel-index
+ 9.8M   ├── agg-speed
+ 9.8M   ├── gotty
+ 9.8M   ├── gitql
+ 9.8M   ├── yggdrasil
+ 9.8M   ├── htb-cli
+ 9.8M   ├── resto
+ 9.7M   ├── warp-svc
+ 9.6M   ├── goop
+ 9.6M   ├── shortscan
+ 9.6M   ├── vultr-cli
+ 9.6M   ├── ngocok
+ 9.5M   ├── starship
+ 9.5M   ├── sshx-server
+ 9.5M   ├── monolith
+ 9.4M   ├── sttr
+ 9.4M   ├── transmission-daemon
+ 9.3M   ├── ipinfo-cli
+ 9.3M   ├── ipinfo
+ 9.3M   ├── redguard
+ 9.3M   ├── pgrok
+ 9.3M   ├── dasel
+ 9.3M   ├── archey
+ 9.3M   ├── cfssl-newkey
+ 9.3M   ├── invidtui
+ 9.2M   ├── dura
+ 9.2M   ├── pwninit
+ 9.1M   ├── agg
+ 9.1M   ├── pping
+ 9.1M   ├── csprecon
+ 9.1M   ├── ghfetch
+ 9.1M   ├── mubeng
+ 9.0M   ├── taplo
+ 9.0M   ├── nix-index
+ 9.0M   ├── ddns-go
+ 8.9M   ├── bluetuith
+ 8.9M   ├── rebuilderd
+ 8.9M   ├── gocurl
+ 8.8M   ├── viewgen_staticx
+ 8.8M   ├── stew
+ 8.8M   ├── enc
+ 8.8M   ├── rospo
+ 8.7M   ├── cut-cdn
+ 8.7M   ├── gocryptfs
+ 8.7M   ├── syncat
+ 8.7M   ├── oha
+ 8.7M   ├── certstream-server-go
+ 8.6M   ├── clipcat-menu
+ 8.6M   ├── nmap
+ 8.6M   ├── getghrel
+ 8.5M   ├── smartdns-rs
+ 8.5M   ├── openrisk
+ 8.5M   ├── cfssl-scan
+ 8.4M   ├── doggo
+ 8.4M   ├── vproxy
+ 8.4M   ├── ssr-client
+ 8.4M   ├── serverstatus-client
+ 8.4M   ├── q
+ 8.3M   ├── hostctl
+ 8.3M   ├── rustypaste
+ 8.3M   ├── hardeningmeter_staticx
+ 8.3M   ├── chisel
+ 8.2M   ├── ctlwatcher
+ 8.2M   ├── pingtunnel
+ 8.2M   ├── recollapse_staticx
+ 8.2M   ├── ov
+ 8.2M   ├── assh
+ 8.1M   ├── aria2c
+ 8.1M   ├── tgpt
+ 8.1M   ├── cfssl-bundle
+ 8.1M   ├── sns
+ 8.1M   ├── supercronic
+ 8.0M   ├── rootlesskit
+ 8.0M   ├── ladder
+ 8.0M   ├── wireproxy
+ 8.0M   ├── cfssl-certinfo
+ 8.0M   ├── sshesame
+ 8.0M   ├── planor
+ 8.0M   ├── pingmole
+ 8.0M   ├── cog
+ 7.9M   ├── nomore403
+ 7.9M   ├── sj
+ 7.9M   ├── dontgo403
+ 7.9M   ├── viddy
+ 7.9M   ├── xmrig
+ 7.9M   ├── curl
+ 7.9M   ├── sbctl
+ 7.8M   ├── gau
+ 7.8M   ├── hxn
+ 7.8M   ├── gosec
+ 7.8M   ├── ffuf
+ 7.7M   ├── z-tokens
+ 7.7M   ├── revive
+ 7.7M   ├── gobuster
+ 7.7M   ├── enola
+ 7.7M   ├── trurl
+ 7.6M   ├── husarnet
+ 7.5M   ├── pretender
+ 7.5M   ├── quickcert
+ 7.5M   ├── croc
+ 7.5M   ├── cherrybomb
+ 7.5M   ├── sake
+ 7.5M   ├── xq
+ 7.5M   ├── puredns
+ 7.4M   ├── fingerprintx
+ 7.3M   ├── dnslookup
+ 7.3M   ├── subxtract
+ 7.3M   ├── brename
+ 7.2M   ├── wormhole-rs
+ 7.2M   ├── godnsbench
+ 7.2M   ├── gocryptfs-xray
+ 7.2M   ├── gofireprox
+ 7.2M   ├── fasttld
+ 7.2M   ├── system-info-collector
+ 7.2M   ├── sysinfo-collector
+ 7.1M   ├── git-log
+ 7.1M   ├── eget
+ 7.1M   ├── websocat
+ 7.1M   ├── sshx
+ 7.1M   ├── zfind
+ 7.0M   ├── git-checkout
+ 7.0M   ├── git-clone
+ 7.0M   ├── twingate-connector-staticx
+ 7.0M   ├── git-pull
+ 6.9M   ├── rush
+ 6.9M   ├── systemctl-tui
+ 6.9M   ├── delta
+ 6.8M   ├── qemu-xtensa-static
+ 6.8M   ├── stunner
+ 6.8M   ├── sessionprobe
+ 6.8M   ├── trip
+ 6.8M   ├── certgraph
+ 6.8M   ├── sf
+ 6.8M   ├── fscan
+ 6.8M   ├── cloak-client
+ 6.7M   ├── exiflooter
+ 6.7M   ├── spoof-dpi
+ 6.7M   ├── qemu-xtensaeb-static
+ 6.7M   ├── boxxy
+ 6.7M   ├── cfspeed
+ 6.6M   ├── gitleaks
+ 6.6M   ├── speedtest-go
+ 6.6M   ├── spk
+ 6.6M   ├── direnv
+ 6.6M   ├── yggdrasilctl
+ 6.6M   ├── elvish
+ 6.6M   ├── dizi-server
+ 6.5M   ├── rga
+ 6.5M   ├── xplr
+ 6.5M   ├── fnm
+ 6.4M   ├── fuzzuli
+ 6.4M   ├── xh
+ 6.4M   ├── aretext
+ 6.4M   ├── yalis
+ 6.3M   ├── hub
+ 6.3M   ├── pueued
+ 6.3M   ├── pueue
+ 6.3M   ├── ripgrep
+ 6.3M   ├── rg
+ 6.3M   ├── jen
+ 6.3M   ├── cloak-server
+ 6.2M   ├── clipcatctl
+ 6.2M   ├── uroot
+ 6.2M   ├── u-root
+ 6.2M   ├── tracexec
+ 6.1M   ├── xbps-rindex
+ 6.1M   ├── xbps-create
+ 6.1M   ├── bigdl
+ 6.1M   ├── go-simplehttpserver
+ 6.1M   ├── cobalt-cli
+ 6.0M   ├── allxfr
+ 6.0M   ├── zigup
+ 6.0M   ├── warp-diag
+ 6.0M   ├── presenterm
+ 6.0M   ├── hcxhashtool
+ 5.9M   ├── cfssljson
+ 5.9M   ├── whoismac
+ 5.9M   ├── wlancap2wpasec
+ 5.9M   ├── v6run
+ 5.9M   ├── dperf
+ 5.9M   ├── wadl-dumper
+ 5.9M   ├── vtm
+ 5.9M   ├── nginx
+ 5.8M   ├── volta
+ 5.8M   ├── rustcan
+ 5.8M   ├── dizi
+ 5.8M   ├── rescope
+ 5.8M   ├── qemu-aarch64_be-static
+ 5.8M   ├── qemu-aarch64-static
+ 5.8M   ├── albafetch
+ 5.8M   ├── pathbuster
+ 5.8M   ├── amp
+ 5.7M   ├── wego
+ 5.7M   ├── zt-patterns
+ 5.6M   ├── goanywhere
+ 5.6M   ├── macchina
+ 5.6M   ├── gup
+ 5.6M   ├── web-cache-vulnerability-scanner
+ 5.5M   ├── wget
+ 5.5M   ├── waybackrobots
+ 5.5M   ├── makebb
+ 5.5M   ├── xbps-install
+ 5.5M   ├── cwe_checker
+ 5.5M   ├── xbps-remove
+ 5.5M   ├── cowitness
+ 5.5M   ├── batcat
+ 5.5M   ├── bat
+ 5.5M   ├── decpu
+ 5.4M   ├── xbps-query
+ 5.4M   ├── xbps-uhelper
+ 5.4M   ├── xbps-reconfigure
+ 5.4M   ├── xbps-pkgdb
+ 5.4M   ├── xbps-dgraph
+ 5.4M   ├── xbps-checkvers
+ 5.4M   ├── xbps-alternatives
+ 5.4M   ├── xbps-fetch
+ 5.4M   ├── xbps-uchroot
+ 5.4M   ├── xbps-fbulk
+ 5.4M   ├── xbps-uunshare
+ 5.4M   ├── xbps-digest
+ 5.4M   ├── certspotter
+ 5.3M   ├── bombadillo
+ 5.3M   ├── clipcat-notify
+ 5.3M   ├── horust
+ 5.3M   ├── gorilla
+ 5.3M   ├── getJS
+ 5.3M   ├── gitdorks_go
+ 5.3M   ├── hacker-scoper
+ 5.2M   ├── golinkfinder
+ 5.2M   ├── procs
+ 5.2M   ├── shell2http
+ 5.2M   ├── github-subdomains
+ 5.2M   ├── github-endpoints
+ 5.2M   ├── gitlab-subdomains
+ 5.2M   ├── indextree
+ 5.2M   ├── gron
+ 5.2M   ├── mcfly
+ 5.2M   ├── subjs
+ 5.1M   ├── github-regexp
+ 5.1M   ├── tailspin
+ 5.1M   ├── openvpn
+ 5.1M   ├── roboxtractor
+ 5.1M   ├── sourcemapper
+ 5.1M   ├── crawley
+ 5.1M   ├── git-tag
+ 5.1M   ├── unfurl
+ 5.1M   ├── rewritepkg
+ 5.0M   ├── cpu
+ 5.0M   ├── wth
+ 5.0M   ├── rsync
+ 5.0M   ├── gfx
+ 5.0M   ├── openssl
+ 5.0M   ├── decpud
+ 5.0M   ├── xurls
+ 4.9M   ├── stress-ng
+ 4.9M   ├── dnstake
+ 4.9M   ├── mantra
+ 4.9M   ├── elinks-lite
+ 4.9M   ├── elinks
+ 4.9M   ├── nping
+ 4.9M   ├── cfspeedtest
+ 4.9M   ├── yataf
+ 4.9M   ├── ppfuzz
+ 4.9M   ├── assetfinder
+ 4.9M   ├── airixss
+ 4.9M   ├── analyticsrelationships
+ 4.9M   ├── waybackurls
+ 4.9M   ├── hysp
+ 4.9M   ├── mkbundle
+ 4.9M   ├── actionlint
+ 4.8M   ├── rootlesskit-docker-proxy
+ 4.8M   ├── sshd
+ 4.8M   ├── qemu-hexagon-static
+ 4.8M   ├── socat
+ 4.8M   ├── fblog
+ 4.8M   ├── warp-dex
+ 4.8M   ├── mani
+ 4.8M   ├── agg-tunnel
+ 4.7M   ├── gxss
+ 4.7M   ├── ncat
+ 4.7M   ├── fget
+ 4.7M   ├── jwt-hack
+ 4.7M   ├── crlfuzz
+ 4.7M   ├── fclones
+ 4.7M   ├── bottom
+ 4.7M   ├── hakip2host
+ 4.6M   ├── hakoriginfinder
+ 4.6M   ├── httprobe
+ 4.6M   ├── rate-limit-checker
+ 4.6M   ├── gpg-tui
+ 4.6M   ├── crt
+ 4.6M   ├── jnv
+ 4.6M   ├── enumerepo
+ 4.6M   ├── dnsperf
+ 4.5M   ├── resperf
+ 4.5M   ├── ssh
+ 4.5M   ├── gotld
+ 4.5M   ├── certstream
+ 4.5M   ├── realm
+ 4.4M   ├── ouch
+ 4.4M   ├── agrind
+ 4.4M   ├── kubemetrics
+ 4.3M   ├── twingate-connectorctl
+ 4.3M   ├── knoxssme
+ 4.3M   ├── eefjsf
+ 4.3M   ├── bbtargets
+ 4.3M   ├── tahm
+ 4.3M   ├── ssh-keysign
+ 4.3M   ├── axel
+ 4.3M   ├── ssh-keyscan
+ 4.3M   ├── onetun
+ 4.2M   ├── datadash
+ 4.2M   ├── overmind
+ 4.2M   ├── hurlfmt
+ 4.2M   ├── ssh-keygen
+ 4.2M   ├── tun2proxy
+ 4.2M   ├── dufs
+ 4.2M   ├── qemu-riscv64-static
+ 4.2M   ├── robotstxt
+ 4.2M   ├── nrp
+ 4.2M   ├── heacoll
+ 4.2M   ├── doomxss
+ 4.2M   ├── checkbypass
+ 4.2M   ├── chainredir
+ 4.1M   ├── qemu-riscv32-static
+ 4.1M   ├── cpud
+ 4.1M   ├── warp-cli
+ 4.1M   ├── ssh-add
+ 4.1M   ├── ssh-agent
+ 4.0M   ├── qemu-armeb-static
+ 4.0M   ├── qemu-arm-static
+ 4.0M   ├── kalker
+ 4.0M   ├── hwatch
+ 4.0M   ├── gojq
+ 3.9M   ├── fd-find
+ 3.9M   ├── fd
+ 3.9M   ├── qemu-mipsn32-static
+ 3.9M   ├── qemu-mipsn32el-static
+ 3.9M   ├── qemu-mips64-static
+ 3.9M   ├── dotenv-linter
+ 3.9M   ├── qemu-mips64el-static
+ 3.9M   ├── just
+ 3.9M   ├── qemu-mips-static
+ 3.9M   ├── qemu-mipsel-static
+ 3.9M   ├── twingate-notifier
+ 3.9M   ├── pfetch-rs
+ 3.8M   ├── dns-doctor
+ 3.8M   ├── validtoml
+ 3.8M   ├── kanha
+ 3.8M   ├── xcp
+ 3.8M   ├── makebbmain
+ 3.8M   ├── tokei
+ 3.8M   ├── qemu-ppc64-static
+ 3.8M   ├── qemu-ppc64le-static
+ 3.8M   ├── sshkeys
+ 3.8M   ├── wasminspect
+ 3.7M   ├── ripgen
+ 3.7M   ├── qemu-ppc-static
+ 3.7M   ├── mqttui
+ 3.7M   ├── lsd
+ 3.7M   ├── rage
+ 3.7M   ├── spiped
+ 3.7M   ├── spipe
+ 3.7M   ├── hcxpcapngtool
+ 3.7M   ├── viu
+ 3.7M   ├── iperf3
+ 3.7M   ├── iperf
+ 3.7M   ├── cproxy
+ 3.6M   ├── find-rs
+ 3.6M   ├── deoptimizer
+ 3.6M   ├── fzf
+ 3.6M   ├── hcxpsktool
+ 3.6M   ├── 7z
+ 3.5M   ├── hcxpmktool
+ 3.5M   ├── bandwhich
+ 3.5M   ├── twingate-client
+ 3.5M   ├── qemu-i386-static
+ 3.4M   ├── qemu-x86_64-static
+ 3.4M   ├── kalc
+ 3.4M   ├── cidr
+ 3.4M   ├── passdetective
+ 3.4M   ├── lf
+ 3.4M   ├── qemu-loongarch64-static
+ 3.4M   ├── age
+ 3.3M   ├── nix-locate
+ 3.3M   ├── tlrc
+ 3.3M   ├── pspy
+ 3.3M   ├── killport
+ 3.3M   ├── navi
+ 3.3M   ├── rust-parallel
+ 3.3M   ├── qemu-s390x-static
+ 3.2M   ├── mosh-client
+ 3.2M   ├── mosh-server
+ 3.2M   ├── ctrsploit-checksec
+ 3.1M   ├── cdwe
+ 3.1M   ├── qemu-sparc32plus-static
+ 3.1M   ├── jobs
+ 3.1M   ├── stuffbin
+ 3.1M   ├── qemu-sparc64-static
+ 3.1M   ├── sk
+ 3.1M   ├── txeh
+ 3.1M   ├── ctrsploit-env
+ 3.1M   ├── njs
+ 3.1M   ├── qemu-m68k-static
+ 3.1M   ├── dysk
+ 3.1M   ├── smartdns
+ 3.1M   ├── taierspeed-cli
+ 3.1M   ├── walk
+ 3.0M   ├── qemu-sparc-static
+ 3.0M   ├── binary-security-check
+ 3.0M   ├── logtimer
+ 3.0M   ├── bed
+ 3.0M   ├── tmate
+ 2.9M   ├── p9cpu
+ 2.9M   ├── rpaste
+ 2.9M   ├── halp
+ 2.9M   ├── t-rec
+ 2.9M   ├── encrypted-dns
+ 2.9M   ├── qemu-hppa-static
+ 2.9M   ├── rage-keygen
+ 2.9M   ├── dust
+ 2.9M   ├── gping
+ 2.8M   ├── htmlq
+ 2.8M   ├── wireguard-rs
+ 2.8M   ├── cotp
+ 2.8M   ├── qemu-sh4eb-static
+ 2.8M   ├── qemu-alpha-static
+ 2.8M   ├── yj
+ 2.8M   ├── rnr
+ 2.8M   ├── qemu-sh4-static
+ 2.8M   ├── goawk
+ 2.8M   ├── qemu-cris-static
+ 2.8M   ├── qemu-microblaze-static
+ 2.8M   ├── qemu-microblazeel-static
+ 2.8M   ├── ropr
+ 2.7M   ├── cowthink
+ 2.7M   ├── cowsay
+ 2.7M   ├── qemu-nios2-static
+ 2.7M   ├── gs-netcat
+ 2.7M   ├── wireguard-go
+ 2.7M   ├── qemu-or1k-static
+ 2.6M   ├── unf
+ 2.6M   ├── tere
+ 2.6M   ├── git-sizer
+ 2.6M   ├── shfmt
+ 2.6M   ├── rippkgs-index
+ 2.6M   ├── fwanalyzer
+ 2.5M   ├── p9cpud
+ 2.5M   ├── rippkgs
+ 2.5M   ├── grex
+ 2.5M   ├── dsieve
+ 2.5M   ├── sd
+ 2.5M   ├── ht
+ 2.5M   ├── zt-exchange
+ 2.5M   ├── boringtun-cli
+ 2.5M   ├── systeroid
+ 2.4M   ├── phantun-client
+ 2.4M   ├── geodns
+ 2.4M   ├── tz
+ 2.4M   ├── geoping
+ 2.4M   ├── phantun-server
+ 2.4M   ├── kondo
+ 2.4M   ├── kakoune
+ 2.4M   ├── kak
+ 2.4M   ├── husarnet-daemon
+ 2.4M   ├── btop
+ 2.4M   ├── runiq
+ 2.3M   ├── bingrep
+ 2.3M   ├── mdsh
+ 2.3M   ├── encode
+ 2.3M   ├── pelfd
+ 2.3M   ├── hadolint
+ 2.3M   ├── fdupes
+ 2.3M   ├── gencmddeps
+ 2.2M   ├── jq
+ 2.2M   ├── pkgtop
+ 2.2M   ├── redive
+ 2.1M   ├── udpx
+ 2.1M   ├── hakrevdns
+ 2.1M   ├── tidy-viewer
+ 2.1M   ├── gosu
+ 2.0M   ├── headtail
+ 2.0M   ├── duf
+ 2.0M   ├── ffufPostprocessing
+ 2.0M   ├── miniserve
+ 2.0M   ├── diffutils-rs
+ 2.0M   ├── shortutil
+ 2.0M   ├── gronx-tasker
+ 2.0M   ├── zenith
+ 2.0M   ├── pencode
+ 2.0M   ├── gf
+ 1.9M   ├── cexec
+ 1.9M   ├── curlie
+ 1.9M   ├── eza
+ 1.9M   ├── revit
+ 1.9M   ├── rshijack
+ 1.9M   ├── deark
+ 1.9M   ├── netcat
+ 1.8M   ├── sqlite3
+ 1.8M   ├── mergerfs
+ 1.8M   ├── age-keygen
+ 1.8M   ├── byp4xx
+ 1.8M   ├── bbscope
+ 1.8M   ├── gotator
+ 1.8M   ├── anakin
+ 1.8M   ├── ds
+ 1.8M   ├── docker-proxy
+ 1.8M   ├── cutlines
+ 1.7M   ├── fastfetch
+ 1.7M   ├── jwt-cracker
+ 1.7M   ├── inscope
+ 1.7M   ├── uip
+ 1.7M   ├── fio
+ 1.7M   ├── exa
+ 1.6M   ├── xargs-rs
+ 1.6M   ├── tmux
+ 1.6M   ├── sudo-rs
+ 1.6M   ├── vnstat
+ 1.6M   ├── zfxtop
+ 1.6M   ├── jless_staticx
+ 1.6M   ├── mmv
+ 1.6M   ├── vnstatd
+ 1.6M   ├── moac-pwgen
+ 1.6M   ├── findlargedir
+ 1.6M   ├── goaccess
+ 1.5M   ├── fastfetch-staticx
+ 1.5M   ├── tcpdump
+ 1.5M   ├── flashfetch
+ 1.5M   ├── zsh
+ 1.5M   ├── visudo-rs
+ 1.5M   ├── genscope
+ 1.5M   ├── botsay
+ 1.5M   ├── mksub
+ 1.5M   ├── epoch
+ 1.5M   ├── nmapurls
+ 1.5M   ├── jaq
+ 1.5M   ├── bore
+ 1.4M   ├── moac
+ 1.4M   ├── ecoji
+ 1.4M   ├── tio
+ 1.4M   ├── v6disk
+ 1.4M   ├── progress
+ 1.4M   ├── kmon
+ 1.4M   ├── quotes-escaper
+ 1.4M   ├── scopegen
+ 1.4M   ├── hyperfine
+ 1.4M   ├── namegen
+ 1.4M   ├── rapwp
+ 1.4M   ├── eah
+ 1.4M   ├── eae
+ 1.4M   ├── strace
+ 1.4M   ├── rpfu
+ 1.4M   ├── removehost
+ 1.4M   ├── earh
+ 1.4M   ├── eapath
+ 1.4M   ├── eaparam
+ 1.4M   ├── cleanpath
+ 1.3M   ├── eap
+ 1.3M   ├── removepro
+ 1.3M   ├── qsreplace
+ 1.3M   ├── ubase-box
+ 1.3M   ├── rustcat
+ 1.3M   ├── rcat
+ 1.3M   ├── fuse-overlayfs
+ 1.3M   ├── ttyd
+ 1.3M   ├── tok
+ 1.3M   ├── comb
+ 1.3M   ├── ppath
+ 1.3M   ├── genact
+ 1.2M   ├── pier
+ 1.2M   ├── nrich
+ 1.2M   ├── mgwls
+ 1.2M   ├── patchelf
+ 1.2M   ├── anew
+ 1.2M   ├── rathole
+ 1.2M   ├── sudoedit
+ 1.2M   ├── sudo
+ 1.2M   ├── su-rs
+ 1.2M   ├── b3sum
+ 1.2M   ├── zoxide
+ 1.2M   ├── z
+ 1.1M   ├── zstd
+ 1.1M   ├── strip-ansi-escapes
+ 1.1M   ├── desktop-file-install
+ 1.1M   ├── desktop-file-edit
+ 1.1M   ├── desktop-file-validate
+ 1.1M   ├── catatonit
+ 1.1M   ├── update-desktop-database
+ 1.0M   ├── bash
+ 1.0M   ├── jql
+ 1.0M   ├── awk
+ 984K   ├── grep
+ 948K   ├── svg-hush
+ 948K   ├── hexyl
+ 948K   ├── csview
+ 924K   ├── cargo-unlock
+ 864K   ├── hx
+ 860K   ├── catp
+ 844K   ├── zt-hashes
+ 824K   ├── anew-rs
+ 812K   ├── anewer
+ 740K   ├── toybox
+ 692K   ├── docker-init
+ 676K   ├── squashfuse_ll
+ 672K   ├── squashfuse
+ 608K   ├── whois
+ 592K   ├── sudo_logsrvd
+ 584K   ├── ncdu
+ 584K   ├── elfcat
+ 580K   ├── filan
+ 576K   ├── procan
+ 568K   ├── cvtsudoers
+ 552K   ├── upx
+ 548K   ├── neofetch
+ 544K   ├── dropbearmulti
+ 528K   ├── zt-encodings
+ 496K   ├── mtr
+ 492K   ├── unifetch
+ 476K   ├── visudo
+ 460K   ├── generate-bidi
+ 460K   ├── dropbear
+ 448K   ├── shellharden
+ 448K   ├── mount.fuse3
+ 444K   ├── sbase-box
+ 444K   ├── loksh
+ 440K   ├── oksh
+ 412K   ├── dbclient
+ 404K   ├── smenu
+ 404K   ├── sadf
+ 396K   ├── nnn
+ 368K   ├── sudo_sendlog
+ 364K   ├── scp
+ 364K   ├── find
+ 356K   ├── sudoreplay
+ 356K   ├── sftp
+ 356K   ├── logrotate
+ 344K   ├── fi6s
+ 300K   ├── mdp
+ 288K   ├── region_restriction_check.sh
+ 276K   ├── doas
+ 268K   ├── sftp-server
+ 268K   ├── pigz
+ 256K   ├── screenfetch
+ 244K   ├── sed
+ 244K   ├── dropbearkey
+ 240K   ├── dropbearconvert
+ 236K   ├── minisign
+ 212K   ├── nfs-cp
+ 208K   ├── sar
+ 208K   ├── nfs-ls
+ 204K   ├── nfs-stat
+ 200K   ├── nfs-cat
+ 200K   ├── asn
+ 196K   ├── netstat
+ 192K   ├── linuxwave
+ 184K   ├── ping
+ 180K   ├── hcxdumptool
+ 172K   ├── numademo
+ 172K   ├── numactl
+ 172K   ├── cpufetch
+ 156K   ├── migspeed
+ 152K   ├── mkpasswd
+ 152K   ├── migratepages
+ 152K   ├── memhog
+ 140K   ├── pidstat
+ 140K   ├── ifrename
+ 132K   ├── wg
+ 128K   ├── rust-hypervisor-firmware
+ 128K   ├── ipt2socks
+ 128K   ├── hypervisor-fw
+ 124K   ├── xargs
+ 124K   ├── iwlist
+ 120K   ├── sadc
+ 116K   ├── iwconfig
+ 112K   ├── tapestat
+ 112K   ├── massdns
+ 112K   ├── iwgetid
+ 112K   ├── iwevent
+ 112K   ├── cron
+ 104K   ├── iwspy
+ 104K   ├── iwpriv
+ 104K   ├── iostat
+ 104K   ├── cronie-crond
+ 104K   ├── clockdiff
+ 104K   ├── arping
+ 100K   ├── unix2mac
+ 100K   ├── unix2dos
+ 100K   ├── mac2unix
+ 100K   ├── fusermount3
+ 100K   ├── dos2unix
+ 100K   ├── crontab
+  96K   ├── mpstat
+  96K   ├── darkhttpd
+  92K   ├── shc
+  92K   ├── cronie-crontab
+  88K   ├── numastat
+  84K   ├── tracepath
+  80K   ├── reptyr
+  76K   ├── pwait
+  76K   ├── mtr-packet
+  76K   ├── dropbearscp
+  76K   ├── cronie-cronnext
+  72K   ├── zapper
+  72K   ├── hcxhash2cap
+  72K   ├── entr
+  72K   ├── bin2video
+  68K   ├── zapper-stealth
+  68K   ├── cifsiostat
+  68K   ├── binfetch
+  60K   ├── joker
+  60K   ├── gguf-tools
+  52K   ├── hcxwltool
+  48K   ├── yabs.sh
+  48K   ├── hcxeiutool
+  40K   ├── jsmug
+  36K   ├── sshpass
+  36K   ├── pipetty
+  36K   ├── ansi2html
+  32K   ├── nezha-install.sh
+  28K   ├── apk.sh
+  24K   ├── try
+  24K   ├── prettyping
+  20K   ├── ttyrec2ansi
+  20K   ├── serverstatus-status.sh
+  20K   ├── resdns
+  20K   ├── pelf
+  20K   ├── bdl.sh
+  16K   ├── wg-quick
+  16K   ├── tldr
+  16K   ├── dockerd-rootless-setuptool.sh
+  16K   ├── bench.sh
+ 8.0K   ├── sk-tmux
+ 8.0K   ├── rsync-ssl
+ 8.0K   ├── gsocket
+ 8.0K   ├── dockerd-rootless.sh
+ 8.0K   ├── ansi2txt
+ 4.0K   ├── zerotier-one_systemd_service
+ 4.0K   ├── sysstat
+ 4.0K   ├── subxtract.sh
+ 4.0K   ├── sshd_config
+ 4.0K   ├── serverstatus-gen-certs.sh
+ 4.0K   ├── scopeview
+ 4.0K   ├── sa2
+ 4.0K   ├── sa1
+ 4.0K   ├── pelf_linker
+ 4.0K   ├── pelf_extract
+ 4.0K   ├── nezha-dashboard.service
+ 4.0K   ├── nezha-dashboard.openrc
+ 4.0K   └── binfetch.cfg
 ```

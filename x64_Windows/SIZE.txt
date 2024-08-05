@@ -1,5 +1,5 @@
- 1.7G └─┬ toolpack_x86_64
- 152M   ├── pandoc.exe
+ 1.6G └─┬ toolpack_x86_64
+ 148M   ├── pandoc.exe
  139M   ├── ffmpeg.exe
  139M   ├── ffprobe.exe
  139M   ├── ffplay.exe
@@ -38,9 +38,9 @@
  9.2M   ├── coreutils-rs.exe
  9.1M   ├── ein.exe
  8.9M   ├── smartdns.exe
- 8.6M   ├── smartdns-rs.exe
+ 8.8M   ├── croc.exe
+ 8.8M   ├── smartdns-rs.exe
  8.6M   ├── pingtunnel.exe
- 8.3M   ├── croc.exe
  8.0M   ├── zfind.exe
  8.0M   ├── taierspeed-cli.exe
  7.9M   ├── picocrypt-gui.exe

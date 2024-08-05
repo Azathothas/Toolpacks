@@ -1,7 +1,7 @@
 205M └─┬ toolpack_arm64_v8a_Android
  81M   ├── rclone
- 24M   ├── tailscale_combined
- 22M   ├── tailscaled
+ 25M   ├── tailscale_combined
+ 23M   ├── tailscaled
  18M   ├── act
  11M   ├── tailscale
 6.6M   ├── pingmole
