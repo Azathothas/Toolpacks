@@ -148,8 +148,8 @@
   20M   ├── jira-cli
   20M   ├── jira
   20M   ├── alterx
-  20M   ├── jj
   20M   ├── mise
+  20M   ├── jj
   20M   ├── csvtk
   20M   ├── cdncheck
   20M   ├── caido-cli
@@ -196,8 +196,8 @@
   15M   ├── pgweb
   15M   ├── filebrowser
   15M   ├── cloudcash
-  15M   ├── rqbit
   15M   ├── yazi
+  15M   ├── rqbit
   15M   ├── rippkgs-index.sqlite
   15M   ├── termshark
   14M   ├── tinja
@@ -213,6 +213,7 @@
   14M   ├── pgrokd
   14M   ├── certwatcher
   14M   ├── listmonk
+  14M   ├── mdcat
   14M   ├── aws-wire-lengths
   14M   ├── wiretap
   14M   ├── ct_monitor
@@ -248,10 +249,9 @@
   12M   ├── rebuildctl
   12M   ├── x8
   12M   ├── bucketloot
-  12M   ├── mdcat
   12M   ├── sysbox-fs
   12M   ├── litefs
-  11M   ├── xan
+  12M   ├── xan
   11M   ├── rebuilderd-worker
   11M   ├── mirrorbits
   11M   ├── containerd-shim-runc-v2
@@ -263,11 +263,11 @@
   11M   ├── sslsearch
   11M   ├── gitui
   11M   ├── cfssl
-  11M   ├── hurl
   11M   ├── vfox
   11M   ├── micro
   11M   ├── feroxbuster
   11M   ├── nmctl
+  11M   ├── hurl
   11M   ├── multirootca
   11M   ├── pktstat
   11M   ├── lazydocker
@@ -612,7 +612,6 @@
  4.3M   ├── onetun
  4.2M   ├── datadash
  4.2M   ├── overmind
- 4.2M   ├── hurlfmt
  4.2M   ├── ssh-keygen
  4.2M   ├── tun2proxy
  4.2M   ├── dufs
@@ -627,6 +626,7 @@
  4.1M   ├── cpud
  4.1M   ├── warp-cli
  4.1M   ├── ssh-add
+ 4.1M   ├── hurlfmt
  4.1M   ├── ssh-agent
  4.0M   ├── qemu-armeb-static
  4.0M   ├── qemu-arm-static
@@ -721,9 +721,9 @@
  2.9M   ├── rage-keygen
  2.9M   ├── dust
  2.9M   ├── gping
+ 2.8M   ├── cotp
  2.8M   ├── htmlq
  2.8M   ├── wireguard-rs
- 2.8M   ├── cotp
  2.8M   ├── qemu-sh4eb-static
  2.8M   ├── qemu-alpha-static
  2.8M   ├── yj

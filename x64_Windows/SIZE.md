@@ -68,8 +68,8 @@
  2.5M   ├── hashsum.exe
  2.4M   ├── find.exe
  2.4M   ├── find-rs.exe
- 2.3M   ├── date.exe
  2.3M   ├── pr.exe
+ 2.3M   ├── date.exe
  2.3M   ├── touch.exe
  2.3M   ├── geoping.exe
  2.3M   ├── geodns.exe
@@ -104,8 +104,8 @@
  1.2M   ├── ls.exe
  1.2M   ├── factor.exe
  1.2M   ├── vdir.exe
- 1.2M   ├── dir.exe
  1.2M   ├── pdfdetach.exe
+ 1.2M   ├── dir.exe
  1.2M   ├── ssh.exe
  1.2M   ├── wldd.exe
  1.1M   ├── mv.exe
@@ -137,9 +137,9 @@
  884K   ├── tr.exe
  884K   ├── fmt.exe
  876K   ├── shred.exe
+ 868K   ├── realpath.exe
  864K   ├── xargs.exe
  864K   ├── xargs-rs.exe
- 864K   ├── realpath.exe
  860K   ├── tsort.exe
  860K   ├── readlink.exe
  856K   ├── unexpand.exe
@@ -156,11 +156,11 @@
  824K   ├── hostname.exe
  824K   ├── comm.exe
  820K   ├── basename.exe
+ 816K   ├── sync.exe
  816K   ├── sleep.exe
  816K   ├── rmdir.exe
  816K   ├── paste.exe
  812K   ├── unlink.exe
- 812K   ├── sync.exe
  812K   ├── nproc.exe
  812K   ├── link.exe
  808K   ├── arch.exe
