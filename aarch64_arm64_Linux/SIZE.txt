@@ -121,21 +121,21 @@
   21M   ├── etcd
   21M   ├── tuiarchiver
   21M   ├── shuffledns
-  21M   ├── boltconn
   20M   ├── lux
   20M   ├── dnspyre
+  20M   ├── boltconn
   20M   ├── arduino-cli
   20M   ├── alterx
+  20M   ├── meli
   19M   ├── jira-cli
   19M   ├── jira
   19M   ├── cdncheck
   19M   ├── xetcmd
   19M   ├── csvtk
-  19M   ├── meli
+  19M   ├── caido-cli
   19M   ├── podsync
   19M   ├── noseyparker
   19M   ├── notify
-  19M   ├── caido-cli
   18M   ├── ruff
   18M   ├── miniflux
   18M   ├── brook
@@ -151,6 +151,7 @@
   17M   ├── rekor-cli
   17M   ├── ctr
   17M   ├── gitpod
+  17M   ├── atuin
   17M   ├── exatorrent
   17M   ├── sunbeam
   17M   ├── imix
@@ -162,7 +163,6 @@
   16M   ├── go-audit
   16M   ├── gickup
   16M   ├── glow
-  16M   ├── atuin
   16M   ├── mise
   16M   ├── uroot-busybox
   16M   ├── u-root-busybox
@@ -193,10 +193,10 @@
   13M   ├── serverstatus-server
   13M   ├── hrekt
   13M   ├── godns
+  13M   ├── ct_monitor
   13M   ├── smap
   13M   ├── sysbox-runc
   13M   ├── listmonk
-  13M   ├── ct_monitor
   13M   ├── rqbit
   13M   ├── etcdutl
   13M   ├── wiretap
@@ -206,7 +206,7 @@
   13M   ├── reviewdog
   13M   ├── yip
   13M   ├── netmaker
-  12M   ├── yazi
+  13M   ├── yazi
   12M   ├── gdu
   12M   ├── hcloud
   12M   ├── stree
@@ -223,12 +223,13 @@
   12M   ├── cent
   12M   ├── cntb
   12M   ├── gost
+  12M   ├── aws-wire-lengths
   12M   ├── gitui
   12M   ├── bucketloot
   11M   ├── mabel
   11M   ├── garm-cli
-  11M   ├── aws-wire-lengths
   11M   ├── tssh
+  11M   ├── croc
   11M   ├── containerd-shim-runc-v2
   11M   ├── litefs
   11M   ├── mirrorbits
@@ -276,14 +277,14 @@
  9.5M   ├── zdns
  9.4M   ├── gitql
  9.4M   ├── htb-cli
- 9.4M   ├── hurl
  9.4M   ├── rebuilderd-worker
  9.4M   ├── shortscan
+ 9.4M   ├── broot
  9.4M   ├── tut
  9.4M   ├── resto
  9.4M   ├── archey
  9.3M   ├── warp-svc
- 9.3M   ├── broot
+ 9.3M   ├── hurl
  9.3M   ├── goop
  9.2M   ├── sttr
  9.2M   ├── doggo
@@ -316,21 +317,21 @@
  8.4M   ├── cut-cdn
  8.4M   ├── enc
  8.4M   ├── certstream-server-go
+ 8.3M   ├── xan
  8.3M   ├── vopono
  8.3M   ├── hardeningmeter_staticx
  8.3M   ├── rustypaste
- 8.3M   ├── xan
  8.3M   ├── recollapse_staticx
  8.3M   ├── gocurl
  8.2M   ├── getghrel
  8.2M   ├── openrisk
  8.2M   ├── gocryptfs
+ 8.2M   ├── chisel
  8.1M   ├── taplo
  8.1M   ├── cfssl-scan
  8.1M   ├── nmap
  8.0M   ├── binocle
  8.0M   ├── q
- 7.9M   ├── chisel
  7.9M   ├── aria2c
  7.9M   ├── ov
  7.9M   ├── cfssl-bundle
@@ -341,8 +342,8 @@
  7.8M   ├── oha
  7.8M   ├── hostctl
  7.8M   ├── supercronic
- 7.8M   ├── tgpt
  7.8M   ├── agg-speed
+ 7.8M   ├── tgpt
  7.8M   ├── sns
  7.8M   ├── wireproxy
  7.8M   ├── monolith
@@ -370,7 +371,6 @@
  7.3M   ├── xq
  7.2M   ├── pwninit
  7.2M   ├── curl
- 7.2M   ├── croc
  7.2M   ├── pretender
  7.1M   ├── fingerprintx
  7.1M   ├── puredns
@@ -393,9 +393,9 @@
  6.8M   ├── smartdns-rs
  6.8M   ├── eget
  6.8M   ├── git-log
+ 6.8M   ├── git-checkout
  6.8M   ├── gocryptfs-xray
  6.7M   ├── git-clone
- 6.7M   ├── git-checkout
  6.7M   ├── cog
  6.7M   ├── rush
  6.7M   ├── git-pull
@@ -422,8 +422,8 @@
  6.2M   ├── fuzzuli
  6.1M   ├── mullvad-cli
  6.1M   ├── yalis
- 6.0M   ├── hub
  6.0M   ├── cherrybomb
+ 6.0M   ├── hub
  6.0M   ├── aretext
  5.9M   ├── uroot
  5.9M   ├── u-root
@@ -464,8 +464,8 @@
  5.2M   ├── delta
  5.1M   ├── batcat
  5.1M   ├── bat
- 5.1M   ├── certspotter
  5.1M   ├── vtm
+ 5.1M   ├── certspotter
  5.1M   ├── bombadillo
  5.1M   ├── dizi-server
  5.1M   ├── presenterm
@@ -498,8 +498,8 @@
  4.8M   ├── cpu
  4.8M   ├── wth
  4.8M   ├── unfurl
- 4.8M   ├── qemu-hexagon-static
  4.8M   ├── warp-dex
+ 4.8M   ├── qemu-hexagon-static
  4.8M   ├── decpud
  4.8M   ├── xurls
  4.8M   ├── dnstake
@@ -574,8 +574,8 @@
  4.1M   ├── bbtargets
  4.0M   ├── agg-tunnel
  4.0M   ├── cpud
- 4.0M   ├── tailspin
  4.0M   ├── ppfuzz
+ 4.0M   ├── tailspin
  4.0M   ├── cfspeedtest
  4.0M   ├── qemu-mipsn32el-static
  4.0M   ├── qemu-mipsn32-static
@@ -596,6 +596,7 @@
  3.9M   ├── gojq
  3.9M   ├── dns-doctor
  3.9M   ├── qemu-ppc-static
+ 3.9M   ├── jnv
  3.8M   ├── ripgrep
  3.8M   ├── rg
  3.8M   ├── makebbmain
@@ -603,7 +604,6 @@
  3.8M   ├── realm
  3.7M   ├── bottom
  3.7M   ├── zt-patterns
- 3.7M   ├── jnv
  3.7M   ├── fblog
  3.6M   ├── rga
  3.6M   ├── sshkeys
@@ -613,7 +613,6 @@
  3.6M   ├── qemu-i386-static
  3.5M   ├── tun2proxy
  3.5M   ├── qemu-loongarch64-static
- 3.5M   ├── hurlfmt
  3.5M   ├── agrind
  3.5M   ├── fzf
  3.4M   ├── horust
@@ -623,6 +622,7 @@
  3.4M   ├── qemu-s390x-static
  3.4M   ├── pspy
  3.4M   ├── passdetective
+ 3.3M   ├── hurlfmt
  3.3M   ├── dufs
  3.3M   ├── spipe
  3.3M   ├── onetun
@@ -655,8 +655,8 @@
  3.0M   ├── mosh-server
  3.0M   ├── xcp
  3.0M   ├── logtimer
- 3.0M   ├── rage
  3.0M   ├── 7z
+ 2.9M   ├── rage
  2.9M   ├── bed
  2.9M   ├── lsd
  2.9M   ├── wasminspect
@@ -701,11 +701,11 @@
  2.4M   ├── tz
  2.4M   ├── halp
  2.4M   ├── rpaste
+ 2.4M   ├── cotp
  2.4M   ├── pueue
  2.4M   ├── dysk
  2.4M   ├── encrypted-dns
  2.4M   ├── encode
- 2.4M   ├── cotp
  2.3M   ├── rage-keygen
  2.3M   ├── gencmddeps
  2.3M   ├── navi
@@ -737,8 +737,8 @@
  2.0M   ├── gronx-tasker
  2.0M   ├── ffufPostprocessing
  2.0M   ├── phantun-client
- 2.0M   ├── pelfd-bin
  2.0M   ├── phantun-server
+ 2.0M   ├── pelfd-bin
  2.0M   ├── gf
  2.0M   ├── grex
  2.0M   ├── sd
@@ -921,9 +921,7 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
- 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
@@ -932,6 +930,8 @@
  140K   ├── mac2unix
  140K   ├── ipt2socks
  140K   ├── dos2unix
+ 136K   ├── rust-hypervisor-firmware
+ 136K   ├── hypervisor-fw
  132K   ├── tracepath
  132K   ├── pwait
  132K   ├── numastat
