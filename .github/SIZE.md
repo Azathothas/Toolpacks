@@ -26,11 +26,11 @@
  28K   │ ├── SIZE.md
  16K   │ ├── DUPLICATES.txt
 4.0K   │ └── BUILD_ERROR.log.md
-448K   ├─┬ x64_Windows
+444K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 24K   │ ├── FILE.txt
+ 20K   │ ├── FILE.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
 8.0K   │ ├── SIZE.txt
