@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53053
+- **Stars:** 53058
 - **Version:** v0.2.65
 - **Updated:** 2024-08-05T02:42:38Z
 - **Size:** 19.31 MB
@@ -105,9 +105,9 @@
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/bigdl](https://github.com/xplshn/bigdl)
 - **Repository:** [https://github.com/xplshn/bigdl](https://github.com/xplshn/bigdl)
-- **Stars:** 11
+- **Stars:** 12
 - **Version:** 1.6.9
-- **Updated:** 2024-08-05T01:09:22Z
+- **Updated:** 2024-08-08T01:08:02Z
 - **Size:** 6.69 MB
 - **SHA256SUM:** 85fac44d130485442de1e3079124a2a22c8b63253eeff78d850901a442108993
 - **B3SUM:** 3c450acc033529456affe04449e711858e7d4a9f94618531122976ee4224a08b
@@ -139,9 +139,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35056
+- **Stars:** 35058
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-07T23:15:42Z
+- **Updated:** 2024-08-08T06:54:32Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 85b98da47ac2f029ebcc1ed1b2e50c209bb8d941450c62963434d8c2f78644e0
 - **B3SUM:** 4f8440d84472de71adda1cb74cefe94f13fe2aa8be68ff23c1913b0957d5b1c4
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35056
+- **Stars:** 35058
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-07T23:15:42Z
+- **Updated:** 2024-08-08T06:54:32Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -224,7 +224,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45493
+- **Stars:** 45500
 - **Version:** v1.67.0
 - **Updated:** 2024-08-07T23:44:42Z
 - **Size:** 85.87 MB
@@ -241,7 +241,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2576
+- **Stars:** 2577
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -275,9 +275,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18024
+- **Stars:** 18027
 - **Version:** v1.70.0
-- **Updated:** 2024-08-07T21:44:40Z
+- **Updated:** 2024-08-08T04:44:48Z
 - **Size:** 12 MB
 - **SHA256SUM:** 24b244ce7458d5d9d044879d7995d32ad1ab7c9a036f11e911573c1124c2071a
 - **B3SUM:** 860cedd135e9048e6ccc3bcb763ab6702769520fbff3f50de53d5e9447cf423a
@@ -292,9 +292,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18024
+- **Stars:** 18027
 - **Version:** v1.70.0
-- **Updated:** 2024-08-07T21:44:40Z
+- **Updated:** 2024-08-08T04:44:48Z
 - **Size:** 26.31 MB
 - **SHA256SUM:** b8fada02fed878bdc2ff3a0bc134d75bcab55c545ea09f5da37798b5b106b901
 - **B3SUM:** ace9b529d8284334aabc8aa2d1024a79e0789aab2409b4a0c368f3f020e3284e
@@ -309,9 +309,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18024
+- **Stars:** 18027
 - **Version:** v1.70.0
-- **Updated:** 2024-08-07T21:44:40Z
+- **Updated:** 2024-08-08T04:44:48Z
 - **Size:** 24.2 MB
 - **SHA256SUM:** 1c8cb022c3f865d8550758d5f4d69f33b05470a69dfbdf68c7fe545cc0161a4b
 - **B3SUM:** 967fd4106af2492fd61fc27e0e242646241ab0755f5495e1f22167ee45806c75
