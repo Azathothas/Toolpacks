@@ -46,7 +46,7 @@ powerpc64-linux-musl
 powerpc-linux-gnueabi
 powerpc-linux-gnueabihf
 powerpc-linux-musl
-riscv32-linux-gnuilp32
+riscv32-linux-gnu
 riscv32-linux-musl
 riscv64-linux-gnu
 riscv64-linux-musl
