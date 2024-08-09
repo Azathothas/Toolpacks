@@ -145,8 +145,8 @@
   21M   ├── lux
   21M   ├── atuin
   21M   ├── gix
-  20M   ├── jira-cli
   20M   ├── jira
+  20M   ├── jira-cli
   20M   ├── alterx
   20M   ├── mise
   20M   ├── jj
