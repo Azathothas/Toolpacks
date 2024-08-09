@@ -1,6 +1,6 @@
 ```mathematica
-205M └─┬ toolpack_arm64_v8a_Android
- 81M   ├── rclone
+203M └─┬ toolpack_arm64_v8a_Android
+ 79M   ├── rclone
  25M   ├── tailscale_combined
  23M   ├── tailscaled
  18M   ├── act
