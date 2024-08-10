@@ -8,6 +8,18 @@
   <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/dbb447ce-19f9-4a3a-8b56-b21eeba470d7" width="200" />
 </p>
 
+<!-- Crude Attempt at Humor -->
+<details>
+  <summary><b><i>raison d'être</i></b></summary>
+  <a href="https://www.reddit.com/r/github/comments/1at9br4/i_am_new_to_github_and_i_have_lots_to_say/" target="_blank">
+    <img src="https://github.com/user-attachments/assets/c8b22bea-a88d-48f8-b4d2-61284320d87f" alt="Inspiration Image">
+  </a>
+  <a href="https://github.com/sherlock-project/sherlock/issues/2011" target="_blank">
+    <img src="https://github.com/user-attachments/assets/5a08ecaa-a412-4eaf-a9e8-1214455a6368" alt="Inspiration Image">
+  </a>    
+</details>
+
+---
 #### Contents
 > - [**📖 Docs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
 > > - [**`How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
