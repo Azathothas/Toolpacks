@@ -13,6 +13,7 @@
 > > - [**`How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
 > > - [**`Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
 > > - [**`Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
+> > - [**`Additional Build Targets($ARCH-$OS)`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#supporting-more-architectures--os)
 > > - [**`How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
 > > - [**`Why NOT Host On GitHub?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
 > > - [**`Why RESET ALL GIT Commits?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
