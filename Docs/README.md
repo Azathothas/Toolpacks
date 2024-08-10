@@ -155,10 +155,10 @@
 >
 > - However, if it's not related to `code | asking for more packages` to be included, you can **contribute/help me by donating a build server**. Either `arm (Preferred)` or `amd x86_64`.
 > - Servers & Storage cost money, right now I pay for [Self Hosted Github Runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) & R2 Bucket (`70-100$/Month`).
-> > | Builder | Specs| Host | Dedicated | Build Time | Cost |
+> > | Builder | Specs| Host | Dedicated ? | Build Time | Cost |
 > > | ------- | ---- | ---- | --------- | ---------- | ---- |
 > > | [`x86_64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml) | `8 vCPU (AMD EPYC™ 9634)` `+` `16 GB RAM (DDR5 ECC)` `+` `512 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3694) | [`Semi-Dedicated`](https://www.netcup.eu/vserver/vergleich-root-server-vps.php) | `20-25` `Hrs` | `$18.50/Mo` |
-> > | [`aarch64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml) | `12 vCPU (Ampere Altra)` `+` `24 GB RAM (??)` `+` `768 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3991) | [`Semi-Dedicated`](https://www.netcup.eu/vserver/vergleich-root-server-vps.php) | `35-40` `Hrs` | `$16.70/Mo` | 
+> > | [`aarch64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml) | `12 vCPU (Ampere Altra)` `+` `24 GB RAM (??)` `+` `768 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3991) | `NO` | `35-40` `Hrs` | `$16.70/Mo` | 
 ---
 
 - #### How do I find new Tools to add?
