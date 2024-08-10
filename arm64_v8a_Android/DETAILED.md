@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53123
+- **Stars:** 53128
 - **Version:** v0.2.65
 - **Updated:** 2024-08-05T02:42:38Z
 - **Size:** 19.31 MB
@@ -139,7 +139,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35078
+- **Stars:** 35080
 - **Version:** curl-8_9_1
 - **Updated:** 2024-08-10T12:31:38Z
 - **Size:** 5.3 MB
@@ -156,7 +156,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35078
+- **Stars:** 35080
 - **Version:** curl-8_9_1
 - **Updated:** 2024-08-10T12:31:38Z
 - **Size:** 228.63 kB
@@ -173,7 +173,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4649
+- **Stars:** 4650
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
@@ -207,7 +207,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4802
+- **Stars:** 4804
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 3.76 MB
@@ -224,9 +224,9 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45539
+- **Stars:** 45541
 - **Version:** v1.67.0
-- **Updated:** 2024-08-10T12:06:50Z
+- **Updated:** 2024-08-10T16:52:32Z
 - **Size:** 83.12 MB
 - **SHA256SUM:** 7ad90af9349f9c16cdd897510e2c062af7c414bb5ece6f54080b3f3134543639
 - **B3SUM:** 2127466d97031438cc90fb6ffc0f1fa3fca34254bb7d98c1503d27fa4dffa74e
@@ -241,7 +241,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2580
+- **Stars:** 2582
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -275,9 +275,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18059
+- **Stars:** 18062
 - **Version:** v1.70.0
-- **Updated:** 2024-08-10T02:08:56Z
+- **Updated:** 2024-08-10T20:47:51Z
 - **Size:** 12 MB
 - **SHA256SUM:** 3b4e571b31a331a88a2ef1363ad4479dd621f413f1d204382fa3124bc6ce3cad
 - **B3SUM:** b0abfeab218cfabb785b042e839770fc37d64d26dfc25b5d7bbfa7068cef990e
@@ -292,9 +292,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18059
+- **Stars:** 18062
 - **Version:** v1.70.0
-- **Updated:** 2024-08-10T02:08:56Z
+- **Updated:** 2024-08-10T20:47:51Z
 - **Size:** 26.31 MB
 - **SHA256SUM:** 05da6bb5fad959c299aaf67a6606a0b49afce910cb9268ae11f79a330b7190aa
 - **B3SUM:** cdf0bb87930c92c23c87e5f349b639d8952af9b9b16c98286ceaa8e450d95ca1
@@ -309,9 +309,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18059
+- **Stars:** 18062
 - **Version:** v1.70.0
-- **Updated:** 2024-08-10T02:08:56Z
+- **Updated:** 2024-08-10T20:47:51Z
 - **Size:** 24.21 MB
 - **SHA256SUM:** 85eb18683968bd8170a0c87d542f59a03808d1e47b70d912c6164a7f79dccd80
 - **B3SUM:** c2f50f8b53108ed66f152bfd27b91fa748fce1f46c605f502b928e39eba6c718
