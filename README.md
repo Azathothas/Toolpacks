@@ -8,11 +8,24 @@
   <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/dbb447ce-19f9-4a3a-8b56-b21eeba470d7" width="200" />
 </p>
 
+<!-- Crude Attempt at Humor -->
+<details>
+  <summary><b><i>raison d'être</i></b></summary>
+  <a href="https://www.reddit.com/r/github/comments/1at9br4/i_am_new_to_github_and_i_have_lots_to_say/" target="_blank">
+    <img src="https://github.com/user-attachments/assets/c8b22bea-a88d-48f8-b4d2-61284320d87f" alt="Inspiration Image">
+  </a>
+  <a href="https://github.com/sherlock-project/sherlock/issues/2011" target="_blank">
+    <img src="https://github.com/user-attachments/assets/5a08ecaa-a412-4eaf-a9e8-1214455a6368" alt="Inspiration Image">
+  </a>    
+</details>
+
+---
 #### Contents
 > - [**📖 Docs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
 > > - [**`How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
 > > - [**`Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
 > > - [**`Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
+> > - [**`Additional Build Targets($ARCH-$OS)`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#supporting-more-architectures--os)
 > > - [**`How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
 > > - [**`Why NOT Host On GitHub?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
 > > - [**`Why RESET ALL GIT Commits?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
@@ -222,10 +235,12 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 - Check these `HackerNews Discussions`
 > - [A cautionary tale from the decline of SourceForge](https://news.ycombinator.com/item?id=31110206)
 > - [Downloading PuTTY Safely Is Nearly Impossible (2014)](https://news.ycombinator.com/item?id=9577861)
+> - [Post-xz backdoor, how to know when to trust niche-distro binaries?](https://www.reddit.com/r/DistroHopping/comments/1bu5mri/postxz_backdoor_how_to_know_when_to_trust/)
+> - A number of FAQs were also answered when [Hysp (Frontend PKG Manager)](https://github.com/pwnwriter/hysp) was [featured on HN](https://news.ycombinator.com/item?id=38457926): [https://news.ycombinator.com/item?id=38457926](https://news.ycombinator.com/item?id=38457926)
 - [The XZ Backdoor](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
 - [Reproducible Builds](https://reproducible-builds.org/docs/definition/)
-> The amount of work and the near impossibility to ensure that every source I use provide reproducibility is infeasibly impractical.
-> Even if it were practical, not every pkg/tool provides source code, so this is impractical.
+> The amount of work and the near impossibility to ensure that every source used, provide reproducibility, is infeasibly impractical.
+> Even if it were practical, not every `pkg/tool` provides source code, so this is impractical.
 > 
 - Reasons to **Trust this Repo**
 > - All the [Build Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows) are completely open-source. You are free to audit & scrutinize everything.
@@ -233,8 +248,12 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > # Everything is automated via Github Actions & Build Scripts
 > WorkFlows --> https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows
 > Build Scripts --> https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts
+>
+> # Build LOGS (BUILD.log] are generated at Build Time & Pushed both to Github & R2
 > ```
+> - Complete `RAW` **Build Logs** is made available with the **exception of `Personal Access Tokens`** [everytime the Workflows are run.](https://github.com/Azathothas/Toolpacks/actions)
 > - Both `SHA256SUM` & `BLAKE3SUM` are automatically generated right after build script finishes.
+> 
 - Reasons **NOT to trust this Repo**
 > - Repos that already publish pre-compiled static binaries, nothing is changed (Other than stripping Debug Symbols & Comments). You can compare checksums.
 > - However, for repos that don't publish releases or at least not statically linked binaries, there is ***no way for you to end up with the same binary even when you use the same build scripts***. In this case, `checksums` are meaningless as **each build will produce different checksums**. Your only option is to `trust me bro` or:
