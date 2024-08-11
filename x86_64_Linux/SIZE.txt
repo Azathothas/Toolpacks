@@ -24,8 +24,8 @@
   67M   ├── devpod
   66M   ├── jr
   61M   ├── logcli
-  59M   ├── wtfutil
   59M   ├── wtf
+  59M   ├── wtfutil
   59M   ├── dockerd
   53M   ├── miniooni
   51M   ├── tavern
