@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53128
+- **Stars:** 53129
 - **Version:** v0.2.65
 - **Updated:** 2024-08-05T02:42:38Z
 - **Size:** 19.31 MB
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2626
+- **Stars:** 2627
 - **Version:** v1.7.1
 - **Updated:** 2024-07-02T09:12:41Z
 - **Size:** 5.38 MB
@@ -139,9 +139,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35080
+- **Stars:** 35081
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-10T12:31:38Z
+- **Updated:** 2024-08-10T22:07:03Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 72d53abc28d49868a056f6688d6a9ac0f07c1e22d8d3209e58e67854dc4ac686
 - **B3SUM:** f3a514160e69e57fc68a1281c0b64856c24afe7d68b3270a9057ce9ba306de7b
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35080
+- **Stars:** 35081
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-10T12:31:38Z
+- **Updated:** 2024-08-10T22:07:03Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -173,7 +173,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4650
+- **Stars:** 4649
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
@@ -224,7 +224,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45541
+- **Stars:** 45543
 - **Version:** v1.67.0
 - **Updated:** 2024-08-10T16:52:32Z
 - **Size:** 83.12 MB
@@ -275,9 +275,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18062
+- **Stars:** 18064
 - **Version:** v1.70.0
-- **Updated:** 2024-08-10T20:47:51Z
+- **Updated:** 2024-08-10T23:00:06Z
 - **Size:** 12 MB
 - **SHA256SUM:** 3b4e571b31a331a88a2ef1363ad4479dd621f413f1d204382fa3124bc6ce3cad
 - **B3SUM:** b0abfeab218cfabb785b042e839770fc37d64d26dfc25b5d7bbfa7068cef990e
@@ -292,9 +292,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18062
+- **Stars:** 18064
 - **Version:** v1.70.0
-- **Updated:** 2024-08-10T20:47:51Z
+- **Updated:** 2024-08-10T23:00:06Z
 - **Size:** 26.31 MB
 - **SHA256SUM:** 05da6bb5fad959c299aaf67a6606a0b49afce910cb9268ae11f79a330b7190aa
 - **B3SUM:** cdf0bb87930c92c23c87e5f349b639d8952af9b9b16c98286ceaa8e450d95ca1
@@ -309,9 +309,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18062
+- **Stars:** 18064
 - **Version:** v1.70.0
-- **Updated:** 2024-08-10T20:47:51Z
+- **Updated:** 2024-08-10T23:00:06Z
 - **Size:** 24.21 MB
 - **SHA256SUM:** 85eb18683968bd8170a0c87d542f59a03808d1e47b70d912c6164a7f79dccd80
 - **B3SUM:** c2f50f8b53108ed66f152bfd27b91fa748fce1f46c605f502b928e39eba6c718
