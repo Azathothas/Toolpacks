@@ -24,8 +24,8 @@
   67M   ├── devpod
   66M   ├── jr
   61M   ├── logcli
-  59M   ├── wtf
   59M   ├── wtfutil
+  59M   ├── wtf
   59M   ├── dockerd
   53M   ├── miniooni
   51M   ├── tavern
@@ -135,8 +135,8 @@
   22M   ├── jj
   22M   ├── etcd
   22M   ├── imix
-  21M   ├── tuiarchiver
   21M   ├── shuffledns
+  21M   ├── tuiarchiver
   21M   ├── libaws-cli
   21M   ├── libaws
   21M   ├── rattler-build

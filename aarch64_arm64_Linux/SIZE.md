@@ -27,8 +27,8 @@
   51M   ├── miniooni
   50M   ├── tavern
   48M   ├── steampipe
-  48M   ├── ooniprobe
   48M   ├── teldrive
+  48M   ├── ooniprobe
   48M   ├── bearer
   47M   ├── ffmpeg
   47M   ├── ffprobe
