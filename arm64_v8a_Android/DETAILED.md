@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53133
+- **Stars:** 53136
 - **Version:** v0.2.65
 - **Updated:** 2024-08-05T02:42:38Z
 - **Size:** 19.31 MB
@@ -139,9 +139,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35087
+- **Stars:** 35089
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-11T02:43:55Z
+- **Updated:** 2024-08-11T11:41:08Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 72d53abc28d49868a056f6688d6a9ac0f07c1e22d8d3209e58e67854dc4ac686
 - **B3SUM:** f3a514160e69e57fc68a1281c0b64856c24afe7d68b3270a9057ce9ba306de7b
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35087
+- **Stars:** 35089
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-11T02:43:55Z
+- **Updated:** 2024-08-11T11:41:08Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -207,7 +207,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4804
+- **Stars:** 4805
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 3.76 MB
@@ -224,9 +224,9 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45548
+- **Stars:** 45553
 - **Version:** v1.67.0
-- **Updated:** 2024-08-10T16:52:32Z
+- **Updated:** 2024-08-11T09:49:16Z
 - **Size:** 83.12 MB
 - **SHA256SUM:** 7ad90af9349f9c16cdd897510e2c062af7c414bb5ece6f54080b3f3134543639
 - **B3SUM:** 2127466d97031438cc90fb6ffc0f1fa3fca34254bb7d98c1503d27fa4dffa74e
@@ -241,7 +241,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2582
+- **Stars:** 2583
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18065
+- **Stars:** 18071
 - **Version:** v1.70.0
 - **Updated:** 2024-08-11T03:44:40Z
 - **Size:** 12 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18065
+- **Stars:** 18071
 - **Version:** v1.70.0
 - **Updated:** 2024-08-11T03:44:40Z
 - **Size:** 26.31 MB
@@ -309,7 +309,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18065
+- **Stars:** 18071
 - **Version:** v1.70.0
 - **Updated:** 2024-08-11T03:44:40Z
 - **Size:** 24.21 MB
