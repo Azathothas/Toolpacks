@@ -106,12 +106,12 @@
   25M   ├── chaos-client
   25M   ├── tailscaled
   25M   ├── brutespray
+  25M   ├── meli
   24M   ├── tusd
   24M   ├── docker
   24M   ├── qsv
   24M   ├── restic
   24M   ├── dagu
-  24M   ├── meli
   24M   ├── php-fpm
   24M   ├── php
   24M   ├── php-micro
@@ -183,6 +183,7 @@
   17M   ├── act
   16M   ├── hrekt
   16M   ├── gh-dash
+  16M   ├── clipcatd
   16M   ├── etcdctl
   16M   ├── gp
   16M   ├── gitpod-cli
@@ -200,7 +201,6 @@
   15M   ├── rippkgs-index.sqlite
   15M   ├── termshark
   14M   ├── tinja
-  14M   ├── clipcatd
   14M   ├── s5cmd
   14M   ├── bleve
   14M   ├── bin
@@ -220,8 +220,8 @@
   13M   ├── netmaker
   13M   ├── reviewdog
   13M   ├── etcdutl
-  13M   ├── smap
   13M   ├── ein
+  13M   ├── smap
   13M   ├── gdu
   13M   ├── ssr-server-themed
   13M   ├── serverstatus-server-themed
@@ -331,6 +331,7 @@
  9.1M   ├── ghfetch
  9.1M   ├── mubeng
  9.1M   ├── taplo
+ 9.1M   ├── clipcat-menu
  9.0M   ├── nix-index
  9.0M   ├── ddns-go
  8.9M   ├── bluetuith
@@ -345,7 +346,6 @@
  8.7M   ├── gocryptfs
  8.7M   ├── oha
  8.7M   ├── certstream-server-go
- 8.6M   ├── clipcat-menu
  8.6M   ├── nmap
  8.6M   ├── getghrel
  8.5M   ├── chisel
@@ -452,6 +452,7 @@
  6.4M   ├── xh
  6.4M   ├── aretext
  6.4M   ├── yalis
+ 6.3M   ├── clipcat-notify
  6.3M   ├── hub
  6.3M   ├── pueued
  6.3M   ├── pueue
@@ -479,10 +480,10 @@
  5.9M   ├── vtm
  5.9M   ├── v6run
  5.9M   ├── dperf
+ 5.9M   ├── volta
  5.9M   ├── wadl-dumper
  5.9M   ├── nginx
  5.8M   ├── rustcan
- 5.8M   ├── volta
  5.8M   ├── dizi
  5.8M   ├── rescope
  5.8M   ├── qemu-aarch64_be-static
@@ -520,7 +521,6 @@
  5.4M   ├── xbps-digest
  5.4M   ├── certspotter
  5.3M   ├── bombadillo
- 5.3M   ├── clipcat-notify
  5.3M   ├── gorilla
  5.3M   ├── horust
  5.3M   ├── getJS
@@ -571,9 +571,9 @@
  4.8M   ├── rootlesskit-docker-proxy
  4.8M   ├── sshd
  4.8M   ├── qemu-hexagon-static
+ 4.8M   ├── warp-dex
  4.8M   ├── socat
  4.8M   ├── fblog
- 4.8M   ├── warp-dex
  4.8M   ├── mani
  4.8M   ├── jnv
  4.8M   ├── agg-tunnel
@@ -889,11 +889,11 @@
  1.0M   ├── bash
  1.0M   ├── jql
  1.0M   ├── awk
- 984K   ├── grep
+1000K   ├── grep
  948K   ├── svg-hush
  948K   ├── hexyl
  948K   ├── csview
- 920K   ├── cargo-unlock
+ 924K   ├── cargo-unlock
  864K   ├── hx
  860K   ├── catp
  844K   ├── zt-hashes
