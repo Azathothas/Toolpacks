@@ -139,9 +139,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35090
+- **Stars:** 35091
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-11T21:14:00Z
+- **Updated:** 2024-08-11T23:11:39Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 8ae54814e140279c90cfd6056c71d836fb1d3b40a99108197ec060a10d5a28dc
 - **B3SUM:** 334a3b8d09fadb29d24b8b3b1d57a08c968002eafc12765e3d573069e37b4524
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35090
+- **Stars:** 35091
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-11T21:14:00Z
+- **Updated:** 2024-08-11T23:11:39Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -173,7 +173,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4650
+- **Stars:** 4651
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
