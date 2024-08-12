@@ -10,7 +10,7 @@
  80K   │ ├── BLAKE3SUM.txt
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
- 20K   │ ├── DUPLICATES.txt
+ 16K   │ ├── DUPLICATES.txt
  16K   │ └── BUILD_ERROR.log.md
 8.5M   ├── METADATA.json
 7.9M   ├── METADATA.yaml
