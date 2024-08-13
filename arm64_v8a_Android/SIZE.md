@@ -11,7 +11,7 @@
 5.1M   ├── actionlint
 5.1M   ├── curl
 5.0M   ├── rsync
-3.6M   ├── pspy
+3.8M   ├── pspy
 3.6M   ├── axel
 1.9M   ├── jless
 1.4M   ├── bash

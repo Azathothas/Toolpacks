@@ -17,6 +17,10 @@ thumb-linux-gnueabi
 thumb-linux-gnueabihf
 thumb-linux-musleabi
 thumb-linux-musleabihf
+thumbeb-linux-gnueabi
+thumbeb-linux-gnueabihf
+thumbeb-linux-musleabi
+thumbeb-linux-musleabihf
 arm-windows-gnu
 csky-linux-gnueabi
 csky-linux-gnueabihf
