@@ -3,7 +3,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 526
+- **Stars:** 529
 - **Version:** 24.08
 - **Updated:** 2024-08-12T11:51:02Z
 - **Size:** 1.32 MB
@@ -37,7 +37,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 16535
+- **Stars:** 16538
 - **Version:** v1.2.0
 - **Updated:** 2024-07-30T22:06:11Z
 - **Size:** 3.88 MB
@@ -54,7 +54,7 @@
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
 - **Repository:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
-- **Stars:** 2718
+- **Stars:** 2719
 - **Version:** v1.17.1
 - **Updated:** 2024-08-07T15:14:12Z
 - **Size:** 33.38 MB
@@ -71,7 +71,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 40940
+- **Stars:** 40941
 - **Version:** v3.36.0
 - **Updated:** 2024-08-12T13:08:37Z
 - **Size:** 81.62 MB
@@ -1703,7 +1703,7 @@
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 10907
+- **Stars:** 10908
 - **Version:** v6.6.8
 - **Updated:** 2024-08-09T09:50:18Z
 - **Size:** 9.69 MB
@@ -1754,7 +1754,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
 - **Repository:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
-- **Stars:** 3809
+- **Stars:** 3810
 - **Version:** v2.29.2
 - **Updated:** 2024-08-10T14:12:27Z
 - **Size:** 1.66 MB
@@ -1839,9 +1839,9 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8849
+- **Stars:** 8853
 - **Version:** 2.21.1
-- **Updated:** 2024-08-12T11:58:09Z
+- **Updated:** 2024-08-12T22:33:45Z
 - **Size:** 1.5 MB
 - **SHA256SUM:** 89987592cb62440b9f22fcf91a2534f34d84a6915f4c0e4817691a0887d820ef
 - **B3SUM:** a2df649a089e4da890b5b6406a6c0bdbc7e4ffc26f4f5d638ad5016dd823d7cf
@@ -1856,9 +1856,9 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 8849
+- **Stars:** 8853
 - **Version:** 2.21.1
-- **Updated:** 2024-08-12T11:58:09Z
+- **Updated:** 2024-08-12T22:33:45Z
 - **Size:** 1.33 MB
 - **SHA256SUM:** ef72769b4703f0b4e83b163e530fe064c0b76a504c95f0e16f0d721fb1339596
 - **B3SUM:** 1cd0fa6d44b9266eae1715905758bb2253455175c5015f9855b17e5f4aafa8ff
@@ -2026,7 +2026,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8601
+- **Stars:** 8602
 - **Version:** v0.37.0
 - **Updated:** 2024-08-12T16:00:15Z
 - **Size:** 9.49 MB
@@ -2043,7 +2043,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8601
+- **Stars:** 8602
 - **Version:** v0.37.0
 - **Updated:** 2024-08-12T16:00:15Z
 - **Size:** 18.97 MB
@@ -2128,7 +2128,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 29822
+- **Stars:** 29823
 - **Version:** jq-1.7.1
 - **Updated:** 2024-08-09T08:20:59Z
 - **Size:** 985.09 kB
@@ -2213,9 +2213,9 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24578
+- **Stars:** 24579
 - **Version:** v2.0.13
-- **Updated:** 2024-08-12T10:19:10Z
+- **Updated:** 2024-08-13T00:20:18Z
 - **Size:** 11.88 MB
 - **SHA256SUM:** 4d7ce57e4d34c3f2f24fd2f912bc4feebd76568fcec65886a24b298df2a789c2
 - **B3SUM:** e528b3c0434b6ffae6cbd7b5da2c23b4d09d2a9a736829bd37fe19595b8c7944
@@ -2315,7 +2315,7 @@
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 33570
+- **Stars:** 33571
 - **Version:** 3.3
 - **Updated:** 2024-08-11T18:50:18Z
 - **Size:** 155.36 MB
@@ -2485,7 +2485,7 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 17413
+- **Stars:** 17417
 - **Version:** v1.9.3
 - **Updated:** 2024-08-12T10:57:38Z
 - **Size:** 30.72 MB
@@ -2502,7 +2502,7 @@
 - **Author:** antoniomika
 - **WebURL:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
 - **Repository:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
-- **Stars:** 3903
+- **Stars:** 3904
 - **Version:** v2.16.0
 - **Updated:** 2024-07-18T12:54:44Z
 - **Size:** 20.42 MB
@@ -2638,9 +2638,9 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 79673
+- **Stars:** 79688
 - **Version:** 2024.08.06
-- **Updated:** 2024-08-12T20:29:49Z
+- **Updated:** 2024-08-12T22:17:03Z
 - **Size:** 180.22 kB
 - **SHA256SUM:** 01f20082a52599421c59c811a370f19bd6a89f6d997bcdc470fd6c62d3f5481c
 - **B3SUM:** 5a210ad2b668de56f5826230b384b1f4c4c87a27b9acc0c52e021d301e8335d4
