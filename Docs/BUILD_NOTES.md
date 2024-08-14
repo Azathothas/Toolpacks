@@ -1,3 +1,4 @@
+- This is a **WIP** & <ins>IS NOT UPDATED</ins>. I recommend checking [build scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) instead: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts
 #### [Index](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
 > - [**Cargo (Rust)**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/27ccd9d9-7a9d-43b2-92e5-bc43bb969eb3" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#cargocross-rust)
 > - [**Go**<img src="https://github.com/Azathothas/Toolpacks/assets/58171889/46dbcab3-44cd-4527-a941-5de05713bbe9" width="30" height="30">](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#go)
