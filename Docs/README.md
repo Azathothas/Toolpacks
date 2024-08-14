@@ -39,6 +39,7 @@
 > 4. After all this, finally describe & provide step-by-step instruction by [creating a new issue](https://github.com/Azathothas/Toolpacks/issues/new)
 > Make sure to include **ALL Steps** (Including getting source code). Be as verbose as possible. Include output of `file` | `ldd` | `readelf`. Optionally, also test the binary with `qemu-$ARCH-static` or a minimal VM/Docker Image (Preferably alpine) to ensure that it really does work.
 > 5. ***If you don't put effort into requesting a tool/pkg to be added here, neither will I.***
+> > - A [list of PKG/Tool to be Added](https://github.com/stars/Azathothas/lists/toolpacks-tba): https://github.com/stars/Azathothas/lists/toolpacks-tba
 ---
 
 - #### Why not many Android Binaries?
