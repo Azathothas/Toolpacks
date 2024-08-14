@@ -103,6 +103,15 @@
 > - Note: `32-Bit` Binaries will likely never be Supported/Added since that's now ancient and even embedded devices now ship with `64-Bit` **ARCH**
 ---
 
+- #### [Cache & Rebuild](https://github.com/marketplace/actions/cache)
+> - It's often been suggested to use a [caching system](https://github.com/cachix/cachix) to <ins>Decrease Build Time</ins> & <ins>Avoid Rebuilding OutDated Repos</ins>
+> - While this suggestion is sound and seems like a no-brainer to implement, potential pain-points:
+> > - This would involve rewriting all of the [build recipes (`~ >5000`)](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) or at the very least adding some new logic to the process.
+> > - This would also require [New infra & Servers](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute) which will <ins>increase Cost & Maintenance.</ins>
+> > - Using [Cached Artefacts](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/caching-dependencies-to-speed-up-workflows) & [Non-Ephemeral Containers](https://github.com/ephemeralenvironments/ephemeralenvironments) will mean an increase in [Attack Vectors via Supply Chain](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions).
+> > - Thus, this is quite impractical and is unlikely to ever be implemented.
+---
+
 - #### [⏬ **`UPX`** ⏬](https://upx.github.io/)
 > - Binaries are also packed using [`upx --best`](https://github.com/upx/upx/blob/devel/doc/upx-doc.txt#L114) after a [CI Build is Complete.](https://github.com/Azathothas/Toolpacks/actions)
 > - These can be downloaded by either using the [GUI Button](https://bin.ajam.dev/)⏬ or by simply adding a `.upx` to any binary.
@@ -166,6 +175,13 @@
 > > | ------- | ---- | ---- | --------- | ---------- | ---- |
 > > | [`x86_64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml) | `8 vCPU (AMD EPYC™ 9634)` `+` `16 GB RAM (DDR5 ECC)` `+` `512 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3694) | [`Semi-Dedicated`](https://www.netcup.eu/vserver/vergleich-root-server-vps.php) | `20-25` `Hrs` | `$18.50/Mo` |
 > > | [`aarch64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml) | `12 vCPU (Ampere Altra)` `+` `24 GB RAM (??)` `+` `768 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3991) | `NO` | `35-40` `Hrs` | `$16.70/Mo` | 
+---
+
+- #### [WebUI (bin.ajam.dev)](https://bin.ajam.dev/)
+> - There's no public source code for the web frontend powering https://bin.ajam.dev/
+> > - [bin.ajam.dev](https://bin.ajam.dev/) is **<ins>NOT a web server</ins>**. It's a [web proxy](https://developers.cloudflare.com/r2/buckets/public-buckets/#connect-a-bucket-to-a-custom-domain) to an [R2 Bucket](https://developers.cloudflare.com/r2/buckets/public-buckets/)
+> > - Internally, it uses a fork of [cmj2002/r2-dir-list](https://github.com/cmj2002/r2-dir-list) with [<ins>Hardcoded Cloudflare Credentials</ins>](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/)
+> > - The content can always <ins>be verified by comparing **CHECKSUMS**</ins>, Published both here on [Github (via Publicly Auditable & Log Viewable) Actions & on the Site.](https://github.com/Azathothas/Toolpacks/tree/main#-security-%EF%B8%8F)
 ---
 
 - #### How do I find new Tools to add?
