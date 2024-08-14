@@ -258,7 +258,10 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > ```
 > - Complete `RAW` **Build Logs** is made available with the **exception of `Personal Access Tokens`** [everytime the Workflows are run.](https://github.com/Azathothas/Toolpacks/actions)
 > - Both `SHA256SUM` & `BLAKE3SUM` are automatically generated right after build script finishes.
-> 
+> - If it still doesn't inspire confidence, there's a [Docker Image](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-setup--configure-local-build-environment) you can Configure to [<ins>Run & Reproduce</ins>](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-setup--configure-local-build-environment) any [Binary/Build Script](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) on your own Secure System.
+> > - Dockerfiles: https://github.com/Azathothas/Toolpacks/tree/main/.github/runners
+> > - Note: <ins>Checksums may not be reproduced reliably (See Reason Below)</ins>
+>
 - Reasons **NOT to trust this Repo**
 > - Repos that already publish pre-compiled static binaries, nothing is changed (Other than stripping Debug Symbols & Comments). You can compare checksums.
 > - However, for repos that don't publish releases or at least not statically linked binaries, there is ***no way for you to end up with the same binary even when you use the same build scripts***. In this case, `checksums` are meaningless as **each build will produce different checksums**. Your only option is to `trust me bro` or:
