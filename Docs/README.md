@@ -112,6 +112,12 @@
 > > - Thus, this is quite impractical and is unlikely to ever be implemented.
 ---
 
+- #### **`📦 Frontend Package Managers 📦`**
+> - Here are some fantastic package managers 📦 [developed](https://antonz.org/writing-package-manager/) by talented individuals that [utilize this project](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md):
+> > - [`@xplshn/BigDL`](https://github.com/xplshn/bigdl) is the current de-facto, recommended one you should use.
+> > - [`@pwnwriter/hysp`](https://github.com/pwnwriter/hysp) was <ins>archived</ins> is no longer recommended.
+---
+
 - #### [⏬ **`UPX`** ⏬](https://upx.github.io/)
 > - Binaries are also packed using [`upx --best`](https://github.com/upx/upx/blob/devel/doc/upx-doc.txt#L114) after a [CI Build is Complete.](https://github.com/Azathothas/Toolpacks/actions)
 > - These can be downloaded by either using the [GUI Button](https://bin.ajam.dev/)⏬ or by simply adding a `.upx` to any binary.
