@@ -38,7 +38,8 @@
 > 3. After you have successfully `built/compiled/fetched` a **static** binary, you must check that it's truly static : [Tests](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md#tests)
 > 4. After all this, finally describe & provide step-by-step instruction by [creating a new issue](https://github.com/Azathothas/Toolpacks/issues/new)
 > Make sure to include **ALL Steps** (Including getting source code). Be as verbose as possible. Include output of `file` | `ldd` | `readelf`. Optionally, also test the binary with `qemu-$ARCH-static` or a minimal VM/Docker Image (Preferably alpine) to ensure that it really does work.
-> 5. ***If you don't put effort into requesting a tool/pkg to be added here, neither will I.***
+> 5. If you can not (don't know how to) compile, [create a new issue](https://github.com/Azathothas/Toolpacks/issues/new) with links to the PKG/Tool's homepage/source-code along with a brief description on what it does.
+> 6. ***If you don't put effort into requesting a tool/pkg to be added here, neither will I.***
 > > - A [list of PKG/Tool to be Added](https://github.com/stars/Azathothas/lists/toolpacks-tba): https://github.com/stars/Azathothas/lists/toolpacks-tba
 ---
 
@@ -172,7 +173,7 @@
 - #### How to contribute?
 > To contribute, you **first must read & understand this entire repo**. After that, follow similar code/script style to make changes & then create a pull request.
 > 
-> This means, if your changes/pull request is not compatible with how I would do it, I will NOT ACCEPT it.
+> This means, if your changes/pull request is not compatible with how I would do it, it will probably involve a lot of back & forth (Merge/Squashing)
 > 
 > Hence, if all you want to do is request for some packages/tools to be added, you are better off creating an Issue instead. Read: https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool
 >
@@ -189,6 +190,12 @@
 > > - [bin.ajam.dev](https://bin.ajam.dev/) is **<ins>NOT a web server</ins>**. It's a [web proxy](https://developers.cloudflare.com/r2/buckets/public-buckets/#connect-a-bucket-to-a-custom-domain) to an [R2 Bucket](https://developers.cloudflare.com/r2/buckets/public-buckets/)
 > > - Internally, it uses a fork of [cmj2002/r2-dir-list](https://github.com/cmj2002/r2-dir-list) with [<ins>Hardcoded Cloudflare Credentials</ins>](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/)
 > > - The content can always <ins>be verified by comparing **CHECKSUMS**</ins>, Published both here on [Github (via Publicly Auditable & Log Viewable) Actions & on the Site.](https://github.com/Azathothas/Toolpacks/tree/main#-security-%EF%B8%8F)
+---
+
+- #### Typos, Grammatical Errors & Bad Documentation
+> - Unfortunately, English is NOT my Native Tongue & neither do I have the patience or time to extensibly review & double check what I write!
+> - As a result, there's higher than usual frequency of typos & grammatical errors. And the Documentation is rather obscure and not well written.
+> - That's why, I welcome any and all efforts to correct me. Please [submit PRs](https://github.com/Azathothas/Toolpacks/pulls) and I will merge them.
 ---
 
 - #### How do I find new Tools to add?
