@@ -21,20 +21,24 @@
 
 ---
 #### Contents
-> - [**📖 Docs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
+> - [**📖 Docs & FAQs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
 > > - [**`What? & Why?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#what--why)
 > > - [**`How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
 > > - [**`Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
+> > - [**`📦 Frontend Package Managers`**](https://github.com/Azathothas/Toolpacks/edit/main/Docs/README.md#-frontend-package-managers-)
 > > - [**`Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
 > > - [**`Additional Build Targets($ARCH-$OS)`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#supporting-more-architectures--os)
-> > - [**`How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
-> > - [**`Why NOT Host On GitHub?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
-> > - [**`Why RESET ALL GIT Commits?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
+> > - [**`How To Contribute/Donate`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
+> > - [**`Why NOT Host On GitHub`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
+> > - [**`Why RESET ALL GIT Commits`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
+> > - [**`Where can I find the code for bin.ajam.dev?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#webui-binajamdev)
 > > - [**`UPX Binaries ⏬`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#-upx-)
+> > - [**`Caching & Rebuilds`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#cache--rebuild)
+> > - [**`Current Problems & Setbacks`**](https://github.com/Azathothas/Toolpacks/issues?q=is%3Aissue+is%3Aopen+label%3AInfra)
 > > - [**`DMCA & Copyright`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#dmca-copyright--cease--desist)
 > > - [**`Contact Me`**](https://ajam.dev/contact)
 > - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
-> > - [**`📦Linux x86_64📦`**](https://bin.ajam.dev/x86_64_Linux/) 
+> > - [**`📦Linux x86_64📦`**](https://bin.ajam.dev/x86_64_Linux/)
 > > - [**`📦Linux aarch64📦`**](https://bin.ajam.dev/aarch64_arm64_Linux/)
 > > - [**`📦Windows_NT AMD64📦`**](https://bin.ajam.dev/x64_Windows/)
 > > - [**`📦Android arm64-v8a📦`**](https://bin.ajam.dev/arm64_v8a_Android/)
@@ -50,7 +54,7 @@
 |[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|PLACEHOLDER_x86_64_Linux| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt)|
 |[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|PLACEHOLDER_x64_Windows| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.ajam.dev/x64_Windows/BUILD.log.txt)|
 
-> - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as **JSON** on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json)
+> - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/Azathothas/Toolpacks/main/METADATA.yaml).
 > - See: [Parse METADATA.json](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---
 #### 🔽 Download 🔽
