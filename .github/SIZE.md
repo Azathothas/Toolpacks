@@ -1,5 +1,5 @@
 ```mathematica
- 70M └─┬ main
+ 69M └─┬ main
  50M   ├─┬ x86_64_Linux
  48M   │ ├── BUILD.log.txt
 948K   │ ├── METADATA.json
@@ -12,14 +12,14 @@
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
  20K   │ └── DUPLICATES.txt
-7.7M   ├── METADATA.json
-7.1M   ├── METADATA.yaml
+7.5M   ├── METADATA.json
+6.9M   ├── METADATA.yaml
 4.3M   ├─┬ aarch64_arm64_Linux
 2.0M   │ ├── BUILD.log.txt
 924K   │ ├── METADATA.json
 624K   │ ├── DETAILED.md
 456K   │ ├── README.md
-148K   │ ├── FILE.txt
+152K   │ ├── FILE.txt
  76K   │ ├── SHA256SUM.txt
  76K   │ ├── BLAKE3SUM.txt
  28K   │ ├── SIZE.txt
@@ -36,9 +36,9 @@
 8.0K   │ ├── SIZE.txt
 8.0K   │ ├── SIZE.md
   0B   │ └── DUPLICATES.txt
- 92K   ├─┬ Docs
+ 96K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
- 20K   │ ├── README.md
+ 24K   │ ├── README.md
 8.0K   │ ├── METADATA.md
 4.0K   │ ├── ZIG_TARGETS.txt
 4.0K   │ ├── TODO.md
@@ -56,7 +56,7 @@
 4.0K   │ ├── FILE.txt
 4.0K   │ ├── DUPLICATES.txt
 4.0K   │ └── BLAKE3SUM.txt
+ 24K   ├── INFO.md
  20K   ├── README.md
- 20K   ├── INFO.md
 4.0K   └── LICENSE
 ```

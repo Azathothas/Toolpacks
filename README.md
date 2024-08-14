@@ -21,20 +21,25 @@
 
 ---
 #### Contents
-> - [**📖 Docs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
+> - [**📖 Docs & FAQs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
 > > - [**`What? & Why?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#what--why)
 > > - [**`How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
 > > - [**`Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
+> > - [**`📦 Frontend Package Managers`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#-frontend-package-managers-)
 > > - [**`Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
+> > - [**`Typos, Grammatical Errors & Bad Documentation`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#typos-grammatical-errors--bad-documentation)
 > > - [**`Additional Build Targets($ARCH-$OS)`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#supporting-more-architectures--os)
-> > - [**`How To Contribute`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
-> > - [**`Why NOT Host On GitHub?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
-> > - [**`Why RESET ALL GIT Commits?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
+> > - [**`How To Contribute/Donate`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
+> > - [**`Why NOT Host On GitHub`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
+> > - [**`Why RESET ALL GIT Commits`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
+> > - [**`Where can I find the code for bin.ajam.dev?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#webui-binajamdev)
 > > - [**`UPX Binaries ⏬`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#-upx-)
+> > - [**`Caching & Rebuilds`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#cache--rebuild)
+> > - [**`Current Problems & Setbacks`**](https://github.com/Azathothas/Toolpacks/issues?q=is%3Aissue+is%3Aopen+label%3AInfra)
 > > - [**`DMCA & Copyright`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#dmca-copyright--cease--desist)
 > > - [**`Contact Me`**](https://ajam.dev/contact)
 > - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
-> > - [**`📦Linux x86_64📦`**](https://bin.ajam.dev/x86_64_Linux/) 
+> > - [**`📦Linux x86_64📦`**](https://bin.ajam.dev/x86_64_Linux/)
 > > - [**`📦Linux aarch64📦`**](https://bin.ajam.dev/aarch64_arm64_Linux/)
 > > - [**`📦Windows_NT AMD64📦`**](https://bin.ajam.dev/x64_Windows/)
 > > - [**`📦Android arm64-v8a📦`**](https://bin.ajam.dev/arm64_v8a_Android/)
@@ -50,7 +55,7 @@
 |[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2223| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt)|
 |[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.ajam.dev/x64_Windows/BUILD.log.txt)|
 
-> - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as **JSON** on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json)
+> - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/Azathothas/Toolpacks/main/METADATA.yaml).
 > - See: [Parse METADATA.json](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---
 #### 🔽 Download 🔽
@@ -254,7 +259,10 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > ```
 > - Complete `RAW` **Build Logs** is made available with the **exception of `Personal Access Tokens`** [everytime the Workflows are run.](https://github.com/Azathothas/Toolpacks/actions)
 > - Both `SHA256SUM` & `BLAKE3SUM` are automatically generated right after build script finishes.
-> 
+> - If it still doesn't inspire confidence, there's a [Docker Image](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-setup--configure-local-build-environment) you can Configure to [<ins>Run & Reproduce</ins>](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-setup--configure-local-build-environment) any [Binary/Build Script](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) on your own Secure System.
+> > - Dockerfiles: https://github.com/Azathothas/Toolpacks/tree/main/.github/runners
+> > - Note: <ins>Checksums may not be reproduced reliably (See Reason Below)</ins>
+>
 - Reasons **NOT to trust this Repo**
 > - Repos that already publish pre-compiled static binaries, nothing is changed (Other than stripping Debug Symbols & Comments). You can compare checksums.
 > - However, for repos that don't publish releases or at least not statically linked binaries, there is ***no way for you to end up with the same binary even when you use the same build scripts***. In this case, `checksums` are meaningless as **each build will produce different checksums**. Your only option is to `trust me bro` or:
@@ -262,4 +270,15 @@ It is _never a good idea_ to **install random binaries** from **random sources**
 > > - Read & Verify everything : [Scripts](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts) & [Workflows](https://github.com/Azathothas/Toolpacks/tree/main/.github/workflows)
 > > - Read the [DOCS](https://github.com/Azathothas/Toolpacks/tree/main/Docs) & Setup your own Infrastructure.
 > > > - You may contact me at: [https://ajam.dev/contact](https://ajam.dev/contact) if you need help setting up your own.
+>
+- [**Backdoors, Malwares & Viruses**](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/malware-analysis)
+> - First, it's important to verify that the alert is [NOT a False Positive](https://web.archive.org/web/2/https://www.majorgeeks.com/content/page/how_to_tell_the_difference_between_a_virus_and_a_false_positive.html) and **truly confirm** that indeed the [Binary is Malicious](https://www.reddit.com/r/linux4noobs/comments/18pbfv1/how_can_i_determine_a_elf_executable_is_malicious/)
+> - Second, check the affected [Binary's Build Script](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts), the [latest BUILD.log](https://github.com/Azathothas/Toolpacks#-status-) & finally [CHECKSUMS](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-verify-checksums)
+> - Third, if you find everything is as it should be, [create an Issue](https://github.com/Azathothas/Toolpacks/issues/new/choose) & attach Verifiable and Reproducible Proof.
+> - It's important to NOTE that **<ins>I DO NOT WRITE/OWN the binaries I compile and CAN NOT BE HELD RESPONSIBLE if the `Devloper` has DELIBERATELY made it Malicious</ins>**. If that's the case, it's best to **Notify Me ([Create an Issue](https://github.com/Azathothas/Toolpacks/issues/new/choose) OR [Contact Me](https://ajam.dev/contact)) & also [Report To Github the Original Repo](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam)** like here: https://github.com/orgs/community/discussions/63603
+> - All of the [Build Servers](https://github.com/Azathothas/Toolpacks/actions) follow [Standard Security Hardening](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions) to mitigate [Supply Chain Attacks](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security), so <ins>a single Malicious Binary is more probable than ALL of the binaries being Infected</ins>.
+> - Once again to reiterate, the source code of the packages or tools compiled here is not controlled in anyway.
+> > - The process involves fetching the code and following standard [build procedures](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md) which are [well documented](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work) and the [scripts available to audit](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts).
+> > - In the case of binaries, whose upstream developers <ins>do not provide source code</ins> ([ngrok](https://ngrok.com/), [Twingate](https://www.twingate.com/), etc.) OR <ins>themselves provide a pre-compiled static binary</ins> (Github Releases), the binary is simply fetched AS-IS (Other than stripping Debug Symbols).
+> > - <ins>It cannot be guaranteed that the upstream source is entirely safe or legitimate. It's upto you to exercise basic common sense and vigilance when using these binaries.</ins>
 ---
