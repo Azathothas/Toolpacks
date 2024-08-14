@@ -22,6 +22,7 @@
 ---
 #### Contents
 > - [**📖 Docs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
+> > - [**`What? & Why?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#what--why)
 > > - [**`How does it all actually work?`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-does-it-all-work)
 > > - [**`Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
 > > - [**`Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)

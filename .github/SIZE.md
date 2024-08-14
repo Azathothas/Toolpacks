@@ -1,5 +1,5 @@
 ```mathematica
- 71M └─┬ main
+ 70M └─┬ main
  50M   ├─┬ x86_64_Linux
  48M   │ ├── BUILD.log.txt
 948K   │ ├── METADATA.json
@@ -11,9 +11,9 @@
  40K   │ ├── BUILD_ERROR.log.md
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
- 16K   │ └── DUPLICATES.txt
-8.3M   ├── METADATA.json
-7.7M   ├── METADATA.yaml
+ 20K   │ └── DUPLICATES.txt
+7.7M   ├── METADATA.json
+7.1M   ├── METADATA.yaml
 4.3M   ├─┬ aarch64_arm64_Linux
 2.0M   │ ├── BUILD.log.txt
 924K   │ ├── METADATA.json
