@@ -166,5 +166,10 @@
 > - [GitHub Issues](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt): [https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt)
 ---
 
+- #### Public Code Search
+> - [GitHub Search](https://github.com/search?q=NOT+user%3AAzathothas+NOT+user%3Axplshn+NOT+user%3Ametis-os+NOT+user%3Ahackerschoice+NOT+is%3Afork+bin.ajam.dev&type=code&s=updated&o=desc): `NOT user:Azathothas NOT user:xplshn NOT user:metis-os NOT user:hackerschoice NOT is:fork bin.ajam.dev`
+> - [Google](https://www.google.com)|[Bing](https://www.bing.com/)|[Baidu](https://www.baidu.com): `"*.bin.ajam.dev" -site:ajam.dev`
+---
+
 - #### [Contact](https://ajam.dev/contact)
 > - If you find your question hasn't been answered here OR you would like to seek clarification OR just say Hi : https://ajam.dev/contact
