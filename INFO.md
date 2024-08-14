@@ -27,6 +27,7 @@
 > > - [**`Request a new PKG/Tool`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-add-request-a-new-a-pkgtool)
 > > - [**`📦 Frontend Package Managers`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#-frontend-package-managers-)
 > > - [**`Notes On Building`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/BUILD_NOTES.md)
+> > - [**`Typos, Grammatical Errors & Bad Documentation`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#typos-grammatical-errors--bad-documentation)
 > > - [**`Additional Build Targets($ARCH-$OS)`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#supporting-more-architectures--os)
 > > - [**`How To Contribute/Donate`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
 > > - [**`Why NOT Host On GitHub`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
