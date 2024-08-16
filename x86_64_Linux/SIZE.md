@@ -224,8 +224,8 @@
   13M   ├── etcdutl
   13M   ├── ein
   13M   ├── gdu
-  13M   ├── ssr-server-themed
   13M   ├── serverstatus-server-themed
+  13M   ├── ssr-server-themed
   13M   ├── stree
   13M   ├── jc
   13M   ├── opengfw
