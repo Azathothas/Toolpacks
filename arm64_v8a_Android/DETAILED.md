@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53273
+- **Stars:** 53278
 - **Version:** v0.2.65
 - **Updated:** 2024-08-13T17:33:47Z
 - **Size:** 19.31 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1824
 - **Version:** v1.33.0
-- **Updated:** 2024-08-16T21:37:52Z
+- **Updated:** 2024-08-17T19:09:50Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** ffc160207e12ab810801bece25813ff0a12b4a9ac534fca8eb34916ba71921c9
 - **B3SUM:** 2dcd85fe36d9888caee3b361e535cd7bb5836a0dc6af95b70f954d55693261de
@@ -139,9 +139,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35150
+- **Stars:** 35153
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-17T11:42:10Z
+- **Updated:** 2024-08-17T21:03:14Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** fa4ac074b29ad93b2033d3fd6fef70e229d13423d2323029b590f9ef498dcfae
 - **B3SUM:** 1c2f946ba5ec0e2400e2c2b44900b6ceb956db50f00895cdc11c2f69dc35bed8
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35150
+- **Stars:** 35153
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-17T11:42:10Z
+- **Updated:** 2024-08-17T21:03:14Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -173,7 +173,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4662
+- **Stars:** 4663
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
@@ -224,9 +224,9 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45642
+- **Stars:** 45643
 - **Version:** v1.67.0
-- **Updated:** 2024-08-17T14:00:42Z
+- **Updated:** 2024-08-17T19:43:25Z
 - **Size:** 85.62 MB
 - **SHA256SUM:** bd178b63108d204a2fd453f9ecba91223d78f420fed837c4792b069d74b8b7a0
 - **B3SUM:** afa388bcc1eacc15cdf2a9629b2f3c02aa338cd15ca18704a4f29f794d53070e
@@ -241,7 +241,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2601
+- **Stars:** 2602
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18164
+- **Stars:** 18170
 - **Version:** v1.70.0
 - **Updated:** 2024-08-17T03:23:55Z
 - **Size:** 12.01 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18164
+- **Stars:** 18170
 - **Version:** v1.70.0
 - **Updated:** 2024-08-17T03:23:55Z
 - **Size:** 26.25 MB
@@ -309,7 +309,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18164
+- **Stars:** 18170
 - **Version:** v1.70.0
 - **Updated:** 2024-08-17T03:23:55Z
 - **Size:** 24.14 MB
