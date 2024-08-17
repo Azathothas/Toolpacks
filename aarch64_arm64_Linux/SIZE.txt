@@ -8,7 +8,7 @@
   97M   ├── gitea
   92M   ├── promtail
   87M   ├── k9s
-  85M   ├── istioctl
+  84M   ├── istioctl
   83M   ├── daytona
   77M   ├── hugo
   74M   ├── alist
@@ -62,10 +62,10 @@
   29M   ├── aix
   29M   ├── edgevpn
   28M   ├── vpnkit
+  28M   ├── podman
   28M   ├── gowitness
   28M   ├── v2raya
   28M   ├── melange
-  27M   ├── podman
   27M   ├── ngrok
   27M   ├── sing-box
   27M   ├── dbbench
@@ -75,9 +75,9 @@
   26M   ├── nmap-formatter
   26M   ├── relic
   25M   ├── dnsx
-  25M   ├── tlsx
   25M   ├── tailscale_merged
   25M   ├── tailscale_bb
+  25M   ├── tlsx
   25M   ├── osmedeus
   25M   ├── maddy
   25M   ├── pixi
@@ -113,6 +113,7 @@
   22M   ├── interactsh-server
   21M   ├── loclx
   21M   ├── localxpose
+  21M   ├── rattler-build
   21M   ├── wezterm-mux-server
   21M   ├── libaws-cli
   21M   ├── libaws
@@ -135,18 +136,17 @@
   19M   ├── caido-cli
   19M   ├── noseyparker
   19M   ├── notify
-  18M   ├── ruff
+  19M   ├── ruff
   18M   ├── miniflux
   18M   ├── brook
   18M   ├── luet
-  18M   ├── jj
   18M   ├── uroot-busybox
   18M   ├── u-root-busybox
   18M   ├── gobusybox
+  18M   ├── jj
   18M   ├── xetmnt
   18M   ├── mailpit
   18M   ├── sish
-  18M   ├── rattler-build
   18M   ├── nezha-agent
   18M   ├── gh-dash
   17M   ├── s3scanner
@@ -171,12 +171,12 @@
   16M   ├── gitpod-cli
   16M   ├── glow
   16M   ├── act
+  16M   ├── diffoci
   16M   ├── etcdctl
   15M   ├── warp
   15M   ├── golem
   15M   ├── hednsextractor
   15M   ├── findomain
-  15M   ├── diffoci
   15M   ├── pgweb
   15M   ├── filebrowser
   14M   ├── cloudcash
@@ -223,9 +223,9 @@
   12M   ├── mabel
   12M   ├── hadolint
   12M   ├── cent
+  12M   ├── aws-wire-lengths
   12M   ├── cntb
   12M   ├── gost
-  12M   ├── aws-wire-lengths
   12M   ├── gitui
   11M   ├── tssh
   11M   ├── tty2web
@@ -253,6 +253,7 @@
   10M   ├── multirootca
   10M   ├── ehole
   10M   ├── sshportal
+  10M   ├── warp-svc
   10M   ├── cheat
   10M   ├── supervisord
   10M   ├── lazydocker
@@ -261,6 +262,7 @@
   10M   ├── feroxbuster
   10M   ├── gosmee
   10M   ├── pdfcpu
+  10M   ├── taplo
   10M   ├── scilla
   10M   ├── vegeta
   10M   ├── netscanner
@@ -282,11 +284,10 @@
  9.5M   ├── orbiton
  9.4M   ├── gitql
  9.4M   ├── rebuilderd-worker
- 9.4M   ├── broot
  9.4M   ├── tut
+ 9.4M   ├── broot
  9.4M   ├── archey
  9.4M   ├── redguard
- 9.3M   ├── warp-svc
  9.3M   ├── hurl
  9.2M   ├── csprecon
  9.2M   ├── sttr
@@ -314,8 +315,9 @@
  8.6M   ├── gip
  8.5M   ├── noir
  8.5M   ├── ddns-go
+ 8.5M   ├── warp-diag
+ 8.5M   ├── flawz
  8.5M   ├── coreutils
- 8.4M   ├── flawz
  8.4M   ├── rospo
  8.4M   ├── enc
  8.4M   ├── xan
@@ -331,7 +333,6 @@
  8.2M   ├── supercronic
  8.2M   ├── assh
  8.1M   ├── sj
- 8.1M   ├── taplo
  8.1M   ├── cfssl-scan
  8.1M   ├── sshesame
  8.1M   ├── nmap
@@ -339,13 +340,13 @@
  8.0M   ├── binocle
  8.0M   ├── nomore403
  8.0M   ├── q
+ 7.9M   ├── wstunnel
  7.9M   ├── aria2c
  7.9M   ├── ov
  7.9M   ├── cfssl-bundle
  7.9M   ├── starship
  7.9M   ├── pingtunnel
  7.8M   ├── gau
- 7.8M   ├── wstunnel
  7.8M   ├── oha
  7.8M   ├── hostctl
  7.8M   ├── agg-speed
@@ -437,7 +438,6 @@
  5.9M   ├── qemu-aarch64-static
  5.9M   ├── dperf
  5.9M   ├── rescope
- 5.9M   ├── warp-diag
  5.8M   ├── cobalt-cli
  5.8M   ├── systemctl-tui
  5.8M   ├── wormhole-rs
@@ -479,15 +479,15 @@
  5.2M   ├── delta
  5.2M   ├── unfurl
  5.2M   ├── clipcat-notify
+ 5.2M   ├── warp-dex
  5.1M   ├── batcat
  5.1M   ├── bat
  5.1M   ├── git-tag
  5.1M   ├── vtm
+ 5.1M   ├── volta
  5.1M   ├── gfx
  5.1M   ├── dizi-server
- 5.1M   ├── volta
  5.1M   ├── presenterm
- 5.1M   ├── albafetch
  5.1M   ├── xurls
  5.1M   ├── cpu
  5.1M   ├── ksubdomain_staticx
@@ -510,7 +510,6 @@
  4.9M   ├── crawley
  4.8M   ├── wth
  4.8M   ├── qemu-hexagon-static
- 4.8M   ├── warp-dex
  4.8M   ├── jwt-hack
  4.8M   ├── rate-limit-checker
  4.8M   ├── httprobe
@@ -536,6 +535,7 @@
  4.5M   ├── xbps-remove
  4.5M   ├── xbps-install
  4.5M   ├── macchina
+ 4.5M   ├── warp-cli
  4.4M   ├── procs
  4.4M   ├── elinks-lite
  4.4M   ├── elinks
@@ -575,7 +575,6 @@
  4.1M   ├── checkbypass
  4.1M   ├── nrp
  4.1M   ├── chainredir
- 4.1M   ├── warp-cli
  4.1M   ├── ouch
  4.1M   ├── hysp
  4.1M   ├── gorilla
@@ -606,9 +605,9 @@
  3.7M   ├── zt-patterns
  3.7M   ├── fblog
  3.6M   ├── rga
+ 3.6M   ├── tokei
  3.6M   ├── sshkeys
  3.6M   ├── gpg-tui
- 3.6M   ├── tokei
  3.6M   ├── qemu-x86_64-static
  3.6M   ├── qemu-i386-static
  3.6M   ├── passdetective
@@ -686,11 +685,11 @@
  2.7M   ├── goawk
  2.7M   ├── gs-netcat
  2.7M   ├── rust-parallel
+ 2.7M   ├── shfmt
  2.7M   ├── fwanalyzer
  2.7M   ├── kalc
  2.6M   ├── jobs
  2.6M   ├── p9cpu
- 2.6M   ├── shfmt
  2.6M   ├── bingrep
  2.5M   ├── sk
  2.5M   ├── gencmddeps
@@ -704,8 +703,8 @@
  2.4M   ├── pelfd
  2.4M   ├── halp
  2.4M   ├── rpaste
- 2.4M   ├── pueue
  2.4M   ├── encrypted-dns
+ 2.4M   ├── pueue
  2.4M   ├── dysk
  2.4M   ├── cotp
  2.3M   ├── rage-keygen
@@ -739,8 +738,8 @@
  2.1M   ├── gf
  2.1M   ├── curlie
  2.0M   ├── phantun-client
- 2.0M   ├── pelfd-bin
  2.0M   ├── phantun-server
+ 2.0M   ├── pelfd-bin
  2.0M   ├── grex
  2.0M   ├── sd
  2.0M   ├── cexec
@@ -776,6 +775,7 @@
  1.7M   ├── nmapurls
  1.7M   ├── epoch
  1.7M   ├── headtail
+ 1.6M   ├── vnstat
  1.6M   ├── tidy-viewer
  1.6M   ├── moac
  1.6M   ├── jq
@@ -783,7 +783,6 @@
  1.6M   ├── botsay
  1.6M   ├── mmv
  1.6M   ├── goaccess
- 1.6M   ├── vnstat
  1.6M   ├── tcpdump
  1.6M   ├── diffutils-rs
  1.6M   ├── tio
@@ -894,6 +893,7 @@
  324K   ├── doas
  288K   ├── region_restriction_check.sh
  276K   ├── sftp-server
+ 276K   ├── albafetch
  268K   ├── wg
  264K   ├── netstat
  260K   ├── twingate-notifier
@@ -909,21 +909,19 @@
  212K   ├── cpufetch
  208K   ├── sar
  208K   ├── ping
- 208K   ├── nfs-cp
  204K   ├── nfs-stat
  204K   ├── nfs-ls
- 200K   ├── nfs-cat
+ 204K   ├── nfs-cp
  200K   ├── asn
  196K   ├── numademo
  196K   ├── numactl
+ 196K   ├── nfs-cat
  196K   ├── mkpasswd
  196K   ├── migspeed
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
- 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
@@ -932,6 +930,8 @@
  140K   ├── mac2unix
  140K   ├── ipt2socks
  140K   ├── dos2unix
+ 136K   ├── rust-hypervisor-firmware
+ 136K   ├── hypervisor-fw
  132K   ├── tracepath
  132K   ├── pwait
  132K   ├── numastat
