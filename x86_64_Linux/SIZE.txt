@@ -9,8 +9,8 @@
  100M   ├── cloudlist
   94M   ├── promtail
   90M   ├── k9s
-  87M   ├── istioctl
   87M   ├── daytona
+  86M   ├── istioctl
   79M   ├── hugo
   76M   ├── alist
   75M   ├── ffmpeg
@@ -18,8 +18,8 @@
   73M   ├── nuclei
   72M   ├── falconhound
   72M   ├── berty
+  70M   ├── rclone
   69M   ├── loki
-  68M   ├── rclone
   68M   ├── ockam
   67M   ├── devpod
   63M   ├── jr
@@ -69,8 +69,8 @@
   30M   ├── edgevpn
   29M   ├── aix
   29M   ├── zellij
-  29M   ├── gowitness
   29M   ├── podman
+  29M   ├── gowitness
   29M   ├── melange
   28M   ├── v2raya
   28M   ├── wezterm
@@ -90,6 +90,7 @@
   26M   ├── nmap-formatter
   26M   ├── osmedeus
   26M   ├── devbox
+  26M   ├── rattler-build
   26M   ├── mc
   26M   ├── cvemap
   26M   ├── wezterm-mux-server
@@ -107,10 +108,10 @@
   25M   ├── brutespray
   25M   ├── meli
   24M   ├── tusd
+  24M   ├── dagu
   24M   ├── docker
   24M   ├── qsv
   24M   ├── restic
-  24M   ├── dagu
   24M   ├── php-fpm
   24M   ├── php
   24M   ├── php-micro
@@ -128,8 +129,8 @@
   22M   ├── vpnkit
   22M   ├── loclx
   22M   ├── localxpose
-  22M   ├── xetmnt
   22M   ├── ruff
+  22M   ├── xetmnt
   22M   ├── reader
   22M   ├── jj
   22M   ├── etcd
@@ -137,7 +138,6 @@
   21M   ├── shuffledns
   21M   ├── libaws-cli
   21M   ├── libaws
-  21M   ├── rattler-build
   21M   ├── arduino-cli
   21M   ├── dnspyre
   21M   ├── tuiarchiver
@@ -146,8 +146,8 @@
   20M   ├── gix
   20M   ├── jira-cli
   20M   ├── jira
-  20M   ├── mise
   20M   ├── alterx
+  20M   ├── mise
   20M   ├── csvtk
   20M   ├── cdncheck
   20M   ├── caido-cli
@@ -185,6 +185,7 @@
   17M   ├── gp
   17M   ├── gitpod-cli
   16M   ├── hrekt
+  16M   ├── diffoci
   16M   ├── warp
   16M   ├── clipcatd
   16M   ├── etcdctl
@@ -192,7 +193,6 @@
   16M   ├── ssr-server
   16M   ├── serverstatus-server
   16M   ├── findomain
-  15M   ├── diffoci
   15M   ├── pgweb
   15M   ├── termshark
   15M   ├── filebrowser
@@ -208,9 +208,9 @@
   14M   ├── zerotier-idtool
   14M   ├── zerotier-cli
   14M   ├── ct_monitor
+  14M   ├── aws-wire-lengths
   14M   ├── sysbox-runc
   14M   ├── godns
-  14M   ├── aws-wire-lengths
   14M   ├── pgrokd
   14M   ├── certwatcher
   14M   ├── listmonk
@@ -260,19 +260,21 @@
   11M   ├── jqp
   11M   ├── sysbox-mgr
   11M   ├── nmctl
+  11M   ├── taplo
+  11M   ├── warp-svc
   11M   ├── gitui
   11M   ├── cfssl
   11M   ├── vfox
   11M   ├── micro
   11M   ├── feroxbuster
   11M   ├── sshportal
-  11M   ├── hurl
   11M   ├── ehole
   11M   ├── multirootca
+  11M   ├── hurl
   11M   ├── hakrawler
+  11M   ├── broot
   11M   ├── pktstat
   11M   ├── lazydocker
-  11M   ├── broot
   11M   ├── cheat
   11M   ├── fx
   11M   ├── netscanner
@@ -293,23 +295,22 @@
   10M   ├── vopono
   10M   ├── htb-cli
   10M   ├── resto
+  10M   ├── wstunnel
   10M   ├── bucketloot
   10M   ├── goop
   10M   ├── ctrsploit
-  10M   ├── wstunnel
+  10M   ├── flawz
 10.0M   ├── ngocok
-10.0M   ├── flawz
 10.0M   ├── shortscan
  9.9M   ├── orbiton
  9.9M   ├── noir
+ 9.9M   ├── nix-channel-index
  9.9M   ├── agg-speed
  9.9M   ├── tut
- 9.9M   ├── nix-channel-index
  9.8M   ├── gotty
  9.8M   ├── gitql
  9.8M   ├── yggdrasil
  9.7M   ├── redguard
- 9.7M   ├── warp-svc
  9.6M   ├── csprecon
  9.6M   ├── vultr-cli
  9.5M   ├── mubeng
@@ -332,10 +333,9 @@
  9.1M   ├── agg
  9.1M   ├── pping
  9.1M   ├── ghfetch
- 9.1M   ├── taplo
  9.1M   ├── clipcat-menu
- 9.0M   ├── certstream-server-go
  9.0M   ├── nix-index
+ 9.0M   ├── certstream-server-go
  9.0M   ├── ddns-go
  9.0M   ├── bluetuith
  9.0M   ├── openrisk
@@ -346,6 +346,7 @@
  8.8M   ├── rospo
  8.7M   ├── syncat
  8.7M   ├── gocryptfs
+ 8.7M   ├── warp-diag
  8.7M   ├── oha
  8.6M   ├── nmap
  8.6M   ├── getghrel
@@ -399,7 +400,7 @@
  7.7M   ├── trurl
  7.6M   ├── husarnet
  7.6M   ├── fasttld
- 7.5M   ├── cherrybomb
+ 7.6M   ├── cherrybomb
  7.5M   ├── pretender
  7.5M   ├── git-log
  7.5M   ├── sake
@@ -430,7 +431,6 @@
  6.9M   ├── rush
  6.9M   ├── spk
  6.9M   ├── systemctl-tui
- 6.9M   ├── delta
  6.9M   ├── elvish
  6.8M   ├── qemu-xtensa-static
  6.8M   ├── stunner
@@ -438,6 +438,7 @@
  6.8M   ├── trip
  6.8M   ├── fscan
  6.8M   ├── cloak-client
+ 6.8M   ├── delta
  6.7M   ├── yalis
  6.7M   ├── hub
  6.7M   ├── qemu-xtensaeb-static
@@ -454,8 +455,8 @@
  6.5M   ├── fnm
  6.5M   ├── bigdl
  6.4M   ├── go-simplehttpserver
- 6.4M   ├── xh
  6.4M   ├── volta
+ 6.4M   ├── xh
  6.4M   ├── allxfr
  6.3M   ├── uroot
  6.3M   ├── u-root
@@ -476,7 +477,6 @@
  6.0M   ├── wego
  6.0M   ├── v6run
  6.0M   ├── zigup
- 6.0M   ├── warp-diag
  6.0M   ├── presenterm
  6.0M   ├── hcxhashtool
  5.9M   ├── cfssljson
@@ -493,7 +493,6 @@
  5.8M   ├── goanywhere
  5.8M   ├── qemu-aarch64_be-static
  5.8M   ├── qemu-aarch64-static
- 5.8M   ├── albafetch
  5.8M   ├── pathbuster
  5.8M   ├── amp
  5.7M   ├── decpu
@@ -540,6 +539,7 @@
  5.3M   ├── horust
  5.3M   ├── mantra
  5.2M   ├── dnstake
+ 5.2M   ├── warp-dex
  5.2M   ├── procs
  5.2M   ├── gfx
  5.2M   ├── shell2http
@@ -582,7 +582,6 @@
  4.8M   ├── qemu-hexagon-static
  4.8M   ├── socat
  4.8M   ├── fblog
- 4.8M   ├── warp-dex
  4.8M   ├── mani
  4.8M   ├── jnv
  4.8M   ├── agg-tunnel
@@ -601,6 +600,7 @@
  4.5M   ├── resperf
  4.5M   ├── ssh
  4.5M   ├── gotld
+ 4.5M   ├── warp-cli
  4.5M   ├── realm
  4.5M   ├── datadash
  4.4M   ├── doomxss
@@ -624,11 +624,10 @@
  4.2M   ├── qemu-riscv64-static
  4.1M   ├── qemu-riscv32-static
  4.1M   ├── dns-doctor
- 4.1M   ├── warp-cli
  4.1M   ├── ssh-add
- 4.1M   ├── hurlfmt
  4.1M   ├── validtoml
  4.1M   ├── ssh-agent
+ 4.0M   ├── hurlfmt
  4.0M   ├── makebbmain
  4.0M   ├── qemu-armeb-static
  4.0M   ├── qemu-arm-static
@@ -647,9 +646,9 @@
  3.9M   ├── qemu-mipsel-static
  3.9M   ├── twingate-notifier
  3.9M   ├── pfetch-rs
+ 3.9M   ├── tokei
  3.8M   ├── kanha
  3.8M   ├── xcp
- 3.8M   ├── tokei
  3.8M   ├── qemu-ppc64-static
  3.8M   ├── qemu-ppc64le-static
  3.8M   ├── sshkeys
@@ -658,16 +657,16 @@
  3.7M   ├── qemu-ppc-static
  3.7M   ├── mqttui
  3.7M   ├── lsd
- 3.7M   ├── rage
  3.7M   ├── spiped
+ 3.7M   ├── rage
  3.7M   ├── spipe
  3.7M   ├── hcxpcapngtool
+ 3.7M   ├── cproxy
  3.7M   ├── viu
  3.7M   ├── iperf3
  3.7M   ├── iperf
- 3.7M   ├── cproxy
- 3.6M   ├── passdetective
  3.6M   ├── find-rs
+ 3.6M   ├── passdetective
  3.6M   ├── deoptimizer
  3.6M   ├── fzf
  3.6M   ├── hcxpsktool
@@ -678,13 +677,13 @@
  3.5M   ├── bandwhich
  3.5M   ├── twingate-client
  3.5M   ├── qemu-i386-static
- 3.4M   ├── kalc
+ 3.5M   ├── kalc
  3.4M   ├── qemu-x86_64-static
  3.4M   ├── cidr
  3.4M   ├── lf
  3.4M   ├── qemu-loongarch64-static
- 3.3M   ├── tlrc
  3.3M   ├── nix-locate
+ 3.3M   ├── tlrc
  3.3M   ├── killport
  3.3M   ├── stuffbin
  3.3M   ├── navi
@@ -740,13 +739,13 @@
  2.7M   ├── qemu-nios2-static
  2.7M   ├── gs-netcat
  2.7M   ├── qemu-or1k-static
+ 2.7M   ├── shfmt
  2.7M   ├── fwanalyzer
  2.6M   ├── unf
- 2.6M   ├── tere
- 2.6M   ├── shfmt
  2.6M   ├── rippkgs-index
+ 2.6M   ├── tere
+ 2.6M   ├── rippkgs
  2.5M   ├── p9cpud
- 2.5M   ├── rippkgs
  2.5M   ├── grex
  2.5M   ├── kakoune
  2.5M   ├── kak
@@ -810,6 +809,7 @@
  1.8M   ├── ds
  1.8M   ├── docker-proxy
  1.7M   ├── fastfetch
+ 1.7M   ├── vnstat
  1.7M   ├── uip
  1.7M   ├── fio
  1.7M   ├── exa
@@ -817,7 +817,6 @@
  1.6M   ├── xargs-rs
  1.6M   ├── tmux
  1.6M   ├── sudo-rs
- 1.6M   ├── vnstat
  1.6M   ├── botsay
  1.6M   ├── nmapurls
  1.6M   ├── jless_staticx
@@ -889,7 +888,7 @@
  1.0M   ├── bash
  1.0M   ├── jql
  1.0M   ├── awk
-1000K   ├── grep
+1004K   ├── grep
  948K   ├── svg-hush
  948K   ├── hexyl
  948K   ├── csview
@@ -930,12 +929,12 @@
  396K   ├── nnn
  368K   ├── sudo_sendlog
  364K   ├── scp
+ 364K   ├── logrotate
  364K   ├── find
  356K   ├── sudoreplay
  356K   ├── sftp
- 356K   ├── logrotate
- 344K   ├── fi6s
- 300K   ├── mdp
+ 348K   ├── fi6s
+ 304K   ├── mdp
  288K   ├── region_restriction_check.sh
  276K   ├── doas
  268K   ├── sftp-server
@@ -943,14 +942,15 @@
  256K   ├── screenfetch
  244K   ├── sed
  244K   ├── dropbearkey
+ 244K   ├── albafetch
  240K   ├── dropbearconvert
  236K   ├── minisign
  208K   ├── sar
  208K   ├── nfs-ls
  208K   ├── nfs-cp
  204K   ├── nfs-stat
- 200K   ├── nfs-cat
  200K   ├── asn
+ 196K   ├── nfs-cat
  196K   ├── netstat
  192K   ├── linuxwave
  184K   ├── ping
