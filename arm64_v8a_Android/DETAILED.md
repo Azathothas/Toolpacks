@@ -3,12 +3,12 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53284
+- **Stars:** 53290
 - **Version:** v0.2.65
 - **Updated:** 2024-08-13T17:33:47Z
 - **Size:** 19.31 MB
-- **SHA256SUM:** 05fbdb1e6df1b420e67c9635571782116a974234485552915062a927243601ed
-- **B3SUM:** 7551cdcfd70750272f52f6a13a6e6a5a3493df5cfc0af765a1281f81127f1207
+- **SHA256SUM:** 946b505fbf0dea70ef9a4e276900ec7c91fbdc49056c15ec8c37e53506b7618b
+- **B3SUM:** 67199f31ff589e05b44fb23a1eb01e2605fa65f17105bb2db14cb8fbdaf446b4
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/act
 - **Language:** Go
 - **License:** MIT License
@@ -37,12 +37,12 @@
 - **Author:** c-ares
 - **WebURL:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
-- **Stars:** 1824
+- **Stars:** 1825
 - **Version:** v1.33.0
-- **Updated:** 2024-08-17T19:09:50Z
+- **Updated:** 2024-08-18T16:37:40Z
 - **Size:** 168.25 kB
-- **SHA256SUM:** ffc160207e12ab810801bece25813ff0a12b4a9ac534fca8eb34916ba71921c9
-- **B3SUM:** 2dcd85fe36d9888caee3b361e535cd7bb5836a0dc6af95b70f954d55693261de
+- **SHA256SUM:** 90a013e1c2f4427d430a6538a69767512faed72f3f888a6d7df7233172bbeedd
+- **B3SUM:** c012c059cfceb999d1fb7689f08208756b4a4c2fe2f6be0370f1b6fbc150b137
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/adig
 - **Language:** C
 - **License:** MIT License
@@ -58,8 +58,8 @@
 - **Version:** v0.1.0
 - **Updated:** 2024-05-08T12:29:15Z
 - **Size:** 939.71 kB
-- **SHA256SUM:** c720c9efaea2087a28b7b87a1a3e314ec98596c229db98d808c8cd4567a5caeb
-- **B3SUM:** c041c88cf1a1abef248d919c2e73f3cf72d668bf59fc170733a15fffd8220305
+- **SHA256SUM:** 379d7ef24740d152cd8f89c8ceee972ad49f40e51719bd5be195a7f2a1d47b27
+- **B3SUM:** d4a965a8c459e7b2d526a37b6f5cb41d2c8d774d2acb5a93a2fb0728be5bf6b1
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/anew-rs
 - **Language:** Rust
 - **License:** MIT License
@@ -75,8 +75,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 3.76 MB
-- **SHA256SUM:** fc9655dbdd7f140650a6370fe8fcc7c500282407b0bd56d215d000b189f33add
-- **B3SUM:** faabf614153527b256deb2a3746d29723425d81a4361cf485f70d92cbb663574
+- **SHA256SUM:** 08c6aa37781cd6b64246d0cd10f0c5b76e3056a248f5e955fca43948173584f8
+- **B3SUM:** 29b153932087baa73e3a27b5d2ae14028b6469b92c3d36e56edb229096dba701
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/axel
 - **Language:** 
 - **License:** 
@@ -109,8 +109,8 @@
 - **Version:** 1.6.9
 - **Updated:** 2024-08-18T01:38:39Z
 - **Size:** 6.69 MB
-- **SHA256SUM:** ea09708177b7cabe9785cb48835b42e21a5a51f5c430d0466044a4141ac5f574
-- **B3SUM:** 3111f11e0c6c785cbeae4dc63a174af9a7695a068e129a34473dc95f816ad33c
+- **SHA256SUM:** 42465cee2e28b71c08040c57c774df06fa3389de5f86fb623cf0bdad86f6e29c
+- **B3SUM:** 975d3b75388752e001f9d0dfd90210d6096f7cf6cb3cb2c73bc8c4871a345e59
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/bigdl
 - **Language:** Go
 - **License:** Other
@@ -126,8 +126,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 5.81 MB
-- **SHA256SUM:** dac8a4f1436907cab7952a3a4cb20a147ee4ac4a91b53a2738e89285bf78ac5f
-- **B3SUM:** d74bf3a8578b9308067f006e6d8f1f277d153705c37a51dbe8d5fa617dfc7793
+- **SHA256SUM:** 2d894e33b9cf6432e8ce53d0e6a43f094a8cfbebf12f1f86eb4553b42d306281
+- **B3SUM:** a5f76461f9a7811335709eeeb02176c22b71628e8204da4b7fed82715cde2dc1
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/wget
 - **Language:** 
 - **License:** 
@@ -139,12 +139,12 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35159
+- **Stars:** 35165
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-18T12:13:35Z
+- **Updated:** 2024-08-18T20:58:35Z
 - **Size:** 5.3 MB
-- **SHA256SUM:** fa4ac074b29ad93b2033d3fd6fef70e229d13423d2323029b590f9ef498dcfae
-- **B3SUM:** 1c2f946ba5ec0e2400e2c2b44900b6ceb956db50f00895cdc11c2f69dc35bed8
+- **SHA256SUM:** 17aae1c52dedd0ad09a6de1e8a17b4fc3dd912115e8df5f0bf6d613b363889ab
+- **B3SUM:** a581d4d8108df281a5b863790a18700423b9c6605da9de196e3fa88c2ba83492
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/curl
 - **Language:** C
 - **License:** Other
@@ -156,9 +156,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35159
+- **Stars:** 35165
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-18T12:13:35Z
+- **Updated:** 2024-08-18T20:58:35Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -173,7 +173,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4663
+- **Stars:** 4664
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
@@ -194,8 +194,8 @@
 - **Version:** 
 - **Updated:** 2024-04-16T11:28:34Z
 - **Size:** 6.93 MB
-- **SHA256SUM:** 2c886820e75035a0f5230093d8d1d5eb867e6217e70701e1afba876df697aed0
-- **B3SUM:** 79bf101f02bb355ef7924aff5d771e55eb7735f991693ac27f079c89bde18ec9
+- **SHA256SUM:** e065caaa4381758c3bd3a11bb11afc9c4b7a5a3bea0ce0b0fdce246130181f3a
+- **B3SUM:** e3246e7ecbbf041a4ba45f823868dbabf21332e6a3f23e8115965fba1693ae35
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/pingmole
 - **Language:** Rust
 - **License:** MIT License
@@ -207,7 +207,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4812
+- **Stars:** 4813
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 4.02 MB
@@ -224,12 +224,12 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45657
+- **Stars:** 45659
 - **Version:** v1.67.0
-- **Updated:** 2024-08-18T11:53:21Z
-- **Size:** 85.62 MB
-- **SHA256SUM:** bd178b63108d204a2fd453f9ecba91223d78f420fed837c4792b069d74b8b7a0
-- **B3SUM:** afa388bcc1eacc15cdf2a9629b2f3c02aa338cd15ca18704a4f29f794d53070e
+- **Updated:** 2024-08-18T18:46:04Z
+- **Size:** 85.15 MB
+- **SHA256SUM:** 1e38b26591f7ceb3230f6ad7f8cf95ed04fe3f2dc815045c975bf8983a218ae9
+- **B3SUM:** b7963330d76991fc3656642472592770d14f03bf5a1557fdab32fc27e71d59eb
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/rclone
 - **Language:** Go
 - **License:** MIT License
@@ -245,8 +245,8 @@
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
-- **SHA256SUM:** 9c92deaa2aada874ad7eb56cfc088d83c6508c53f5461b5d0e622dc997e828bf
-- **B3SUM:** 28eddf9d66a0b09bbef72d4523f61b687e7b7d88954aad41ee871b1acc794b81
+- **SHA256SUM:** 703576b0ed2354be7fef5b67bb404cfe9f239ebb96ae9b1881883a90a930caa2
+- **B3SUM:** ab8b0af7276eb360c5c1a8c4b681ddfab9905ed17d2aab3b17bc539b8b964187
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/rsync
 - **Language:** C
 - **License:** Other
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18186
+- **Stars:** 18195
 - **Version:** v1.70.0
 - **Updated:** 2024-08-17T22:43:50Z
 - **Size:** 12.01 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18186
+- **Stars:** 18195
 - **Version:** v1.70.0
 - **Updated:** 2024-08-17T22:43:50Z
 - **Size:** 26.25 MB
@@ -309,7 +309,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18186
+- **Stars:** 18195
 - **Version:** v1.70.0
 - **Updated:** 2024-08-17T22:43:50Z
 - **Size:** 24.14 MB
@@ -330,8 +330,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 5.81 MB
-- **SHA256SUM:** dac8a4f1436907cab7952a3a4cb20a147ee4ac4a91b53a2738e89285bf78ac5f
-- **B3SUM:** d74bf3a8578b9308067f006e6d8f1f277d153705c37a51dbe8d5fa617dfc7793
+- **SHA256SUM:** 2d894e33b9cf6432e8ce53d0e6a43f094a8cfbebf12f1f86eb4553b42d306281
+- **B3SUM:** a5f76461f9a7811335709eeeb02176c22b71628e8204da4b7fed82715cde2dc1
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/wget
 - **Language:** 
 - **License:** 
