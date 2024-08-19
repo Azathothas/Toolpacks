@@ -5,9 +5,9 @@
  159M   ├── traefik
  151M   ├── cloudfox
  143M   ├── aws-nuke
+ 113M   ├── cloudlist
  110M   ├── trufflehog
  102M   ├── gitea
- 100M   ├── cloudlist
   94M   ├── promtail
   90M   ├── k9s
   87M   ├── daytona
@@ -23,7 +23,7 @@
   69M   ├── loki
   68M   ├── ockam
   67M   ├── devpod
-  63M   ├── jr
+  65M   ├── jr
   61M   ├── logcli
   59M   ├── wtfutil
   59M   ├── wtf
@@ -121,6 +121,7 @@
   24M   ├── xetcmd
   24M   ├── jaeles
   24M   ├── vhs
+  24M   ├── mise
   23M   ├── nerdctl
   23M   ├── dalfox
   23M   ├── interactsh-server
@@ -148,21 +149,20 @@
   20M   ├── jira-cli
   20M   ├── jira
   20M   ├── alterx
-  20M   ├── mise
   20M   ├── csvtk
   20M   ├── cdncheck
   20M   ├── caido-cli
   20M   ├── golem
   20M   ├── notify
+  19M   ├── miniflux
   19M   ├── go-audit
   19M   ├── uroot-busybox
   19M   ├── u-root-busybox
   19M   ├── gobusybox
+  19M   ├── mailpit
   19M   ├── brook
-  19M   ├── miniflux
   19M   ├── luet
   19M   ├── s3scanner
-  19M   ├── mailpit
   18M   ├── sish
   18M   ├── gum
   18M   ├── nezha-agent
@@ -223,15 +223,15 @@
   13M   ├── reviewdog
   13M   ├── etcdutl
   13M   ├── ein
-  13M   ├── gdu
   13M   ├── ssr-server-themed
   13M   ├── serverstatus-server-themed
+  13M   ├── gdu
   13M   ├── stree
   13M   ├── jc
   13M   ├── opengfw
   13M   ├── hcloud
-  13M   ├── logstation
   13M   ├── tssh
+  13M   ├── logstation
   13M   ├── openapi-tui
   13M   ├── goodls
   13M   ├── apkeep
@@ -248,8 +248,8 @@
   12M   ├── git-cliff
   12M   ├── rebuildctl
   12M   ├── x8
-  12M   ├── xan
   12M   ├── sysbox-fs
+  12M   ├── xan
   12M   ├── litefs
   12M   ├── tty2web
   12M   ├── rebuilderd-worker
@@ -318,6 +318,7 @@
  9.5M   ├── starship
  9.5M   ├── sshx-server
  9.5M   ├── monolith
+ 9.5M   ├── tgpt
  9.4M   ├── sttr
  9.4M   ├── transmission-daemon
  9.3M   ├── ipinfo-cli
@@ -356,7 +357,7 @@
  8.5M   ├── sj
  8.5M   ├── assh
  8.5M   ├── smartdns-rs
- 8.5M   ├── tgpt
+ 8.5M   ├── rootlesskit
  8.5M   ├── supercronic
  8.5M   ├── cfssl-scan
  8.4M   ├── doggo
@@ -377,7 +378,6 @@
  8.1M   ├── aria2c
  8.1M   ├── cfssl-bundle
  8.1M   ├── enola
- 8.0M   ├── rootlesskit
  8.0M   ├── ladder
  8.0M   ├── wireproxy
  8.0M   ├── cfssl-certinfo
@@ -399,9 +399,9 @@
  7.7M   ├── revive
  7.7M   ├── gobuster
  7.7M   ├── trurl
+ 7.6M   ├── cherrybomb
  7.6M   ├── husarnet
  7.6M   ├── fasttld
- 7.6M   ├── cherrybomb
  7.5M   ├── pretender
  7.5M   ├── git-log
  7.5M   ├── sake
@@ -436,9 +436,9 @@
  6.8M   ├── qemu-xtensa-static
  6.8M   ├── stunner
  6.8M   ├── fuzzuli
- 6.8M   ├── trip
  6.8M   ├── fscan
  6.8M   ├── cloak-client
+ 6.8M   ├── trip
  6.8M   ├── delta
  6.7M   ├── yalis
  6.7M   ├── hub
@@ -675,8 +675,8 @@
  3.6M   ├── 7z
  3.5M   ├── age
  3.5M   ├── hcxpmktool
- 3.5M   ├── bandwhich
  3.5M   ├── twingate-client
+ 3.5M   ├── bandwhich
  3.5M   ├── qemu-i386-static
  3.5M   ├── kalc
  3.4M   ├── qemu-x86_64-static
@@ -747,9 +747,9 @@
  2.6M   ├── tere
  2.6M   ├── rippkgs
  2.5M   ├── p9cpud
- 2.5M   ├── grex
  2.5M   ├── kakoune
  2.5M   ├── kak
+ 2.5M   ├── grex
  2.5M   ├── dsieve
  2.5M   ├── encode
  2.5M   ├── sd
