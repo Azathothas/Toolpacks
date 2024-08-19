@@ -1,11 +1,11 @@
 ```mathematica
- 9.5G └─┬ toolpack_aarch64
+ 9.6G └─┬ toolpack_aarch64
  154M   ├── traefik
  142M   ├── aws-nuke
  139M   ├── cloudfox
  131M   ├── usql
+ 111M   ├── cloudlist
  103M   ├── trufflehog
-  98M   ├── cloudlist
   97M   ├── gitea
   92M   ├── promtail
   87M   ├── k9s
@@ -16,8 +16,8 @@
   72M   ├── falconhound
   70M   ├── nuclei
   65M   ├── devpod
+  62M   ├── jr
   61M   ├── loki
-  60M   ├── jr
   60M   ├── logcli
   58M   ├── wtfutil
   58M   ├── wtf
@@ -62,9 +62,9 @@
   29M   ├── dblab
   29M   ├── aix
   29M   ├── edgevpn
+  28M   ├── gowitness
   28M   ├── vpnkit
   28M   ├── podman
-  28M   ├── gowitness
   28M   ├── v2raya
   28M   ├── melange
   27M   ├── ngrok
@@ -137,8 +137,10 @@
   19M   ├── caido-cli
   19M   ├── noseyparker
   19M   ├── notify
+  19M   ├── mise
+  19M   ├── miniflux
   19M   ├── ruff
-  18M   ├── miniflux
+  18M   ├── mailpit
   18M   ├── brook
   18M   ├── luet
   18M   ├── uroot-busybox
@@ -146,7 +148,6 @@
   18M   ├── gobusybox
   18M   ├── jj
   18M   ├── xetmnt
-  18M   ├── mailpit
   18M   ├── sish
   18M   ├── nezha-agent
   18M   ├── gh-dash
@@ -167,7 +168,6 @@
   17M   ├── gickup
   16M   ├── circumflex
   16M   ├── go-audit
-  16M   ├── mise
   16M   ├── gp
   16M   ├── gitpod-cli
   16M   ├── glow
@@ -279,6 +279,7 @@
  9.8M   ├── shortscan
  9.7M   ├── resto
  9.7M   ├── goop
+ 9.7M   ├── oha
  9.6M   ├── ngocok
  9.5M   ├── gotty
  9.5M   ├── yggdrasil
@@ -286,9 +287,9 @@
  9.4M   ├── gitql
  9.4M   ├── rebuilderd-worker
  9.4M   ├── tut
- 9.4M   ├── broot
  9.4M   ├── archey
  9.4M   ├── redguard
+ 9.4M   ├── broot
  9.3M   ├── hurl
  9.2M   ├── csprecon
  9.2M   ├── sttr
@@ -306,6 +307,7 @@
  8.9M   ├── viewgen_staticx
  8.9M   ├── stew
  8.8M   ├── cut-cdn
+ 8.8M   ├── tgpt
  8.8M   ├── transmission-daemon
  8.8M   ├── pping
  8.7M   ├── openrisk
@@ -321,7 +323,7 @@
  8.5M   ├── coreutils
  8.4M   ├── rospo
  8.4M   ├── enc
- 8.4M   ├── xan
+ 8.3M   ├── xan
  8.3M   ├── vopono
  8.3M   ├── hardeningmeter_staticx
  8.3M   ├── rustypaste
@@ -333,11 +335,11 @@
  8.2M   ├── chisel
  8.2M   ├── supercronic
  8.2M   ├── assh
+ 8.2M   ├── rootlesskit
  8.1M   ├── sj
  8.1M   ├── cfssl-scan
  8.1M   ├── sshesame
  8.1M   ├── nmap
- 8.0M   ├── tgpt
  8.0M   ├── binocle
  8.0M   ├── nomore403
  8.0M   ├── q
@@ -348,14 +350,12 @@
  7.9M   ├── starship
  7.9M   ├── pingtunnel
  7.8M   ├── gau
- 7.8M   ├── oha
  7.8M   ├── hostctl
  7.8M   ├── agg-speed
  7.8M   ├── enola
  7.8M   ├── wireproxy
  7.8M   ├── monolith
  7.7M   ├── cfssl-certinfo
- 7.7M   ├── rootlesskit
  7.7M   ├── ladder
  7.7M   ├── syncat
  7.6M   ├── planor
@@ -428,9 +428,9 @@
  6.2M   ├── bigdl
  6.1M   ├── go-simplehttpserver
  6.1M   ├── allxfr
+ 6.1M   ├── cherrybomb
  6.1M   ├── v6run
  6.1M   ├── mullvad-cli
- 6.1M   ├── cherrybomb
  6.1M   ├── uroot
  6.1M   ├── u-root
  6.0M   ├── wadl-dumper
@@ -739,8 +739,8 @@
  2.1M   ├── gf
  2.1M   ├── curlie
  2.0M   ├── phantun-client
- 2.0M   ├── pelfd-bin
  2.0M   ├── phantun-server
+ 2.0M   ├── pelfd-bin
  2.0M   ├── grex
  2.0M   ├── sd
  2.0M   ├── cexec
@@ -922,9 +922,7 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
- 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
@@ -933,6 +931,8 @@
  140K   ├── mac2unix
  140K   ├── ipt2socks
  140K   ├── dos2unix
+ 136K   ├── rust-hypervisor-firmware
+ 136K   ├── hypervisor-fw
  132K   ├── tracepath
  132K   ├── pwait
  132K   ├── numastat
