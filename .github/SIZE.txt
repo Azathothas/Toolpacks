@@ -1,6 +1,6 @@
-127M └─┬ main
- 62M   ├─┬ aarch64_arm64_Linux
- 59M   │ ├── BUILD.log.txt
+118M └─┬ main
+ 53M   ├─┬ aarch64_arm64_Linux
+ 51M   │ ├── BUILD.log.txt
 924K   │ ├── METADATA.json
 628K   │ ├── DETAILED.md
 456K   │ ├── README.md
