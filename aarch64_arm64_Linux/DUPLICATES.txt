@@ -11,17 +11,17 @@ REPO: https://github.com/mawww/kakoune
 Web URL: https://github.com/mawww/kakoune
 
 ---------------------
-Name: wezterm
-DESCR: A GPU-accelerated cross-platform terminal emulator and multiplexer
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/wezterm
-REPO: https://github.com/wez/wezterm
-Web URL: https://github.com/wez/wezterm
+Name: exatorrent
+DESCR: 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/exatorrent
+REPO: https://github.com/varbhat/exatorrent
+Web URL: https://github.com/varbhat/exatorrent
 
-Name: wezterm-mux-server
-DESCR: A GPU-accelerated cross-platform terminal emulator and multiplexer
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/wezterm-mux-server
-REPO: https://github.com/wez/wezterm
-Web URL: https://github.com/wez/wezterm
+Name: exatorrent-noui
+DESCR: 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/exatorrent-noui
+REPO: https://github.com/varbhat/exatorrent
+Web URL: https://github.com/varbhat/exatorrent
 
 ---------------------
 Name: z
@@ -37,43 +37,17 @@ REPO: https://github.com/ajeetdsouza/zoxide
 Web URL: https://github.com/ajeetdsouza/zoxide
 
 ---------------------
-Name: exatorrent
-DESCR: 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/exatorrent
-REPO: https://github.com/varbhat/exatorrent
-Web URL: https://github.com/varbhat/exatorrent
+Name: rg
+DESCR: 
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rg
+REPO: https://github.com/BurntSushi/ripgrep
+Web URL: https://github.com/BurntSushi/ripgrep
 
-Name: exatorrent-noui
-DESCR: 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/exatorrent-noui
-REPO: https://github.com/varbhat/exatorrent
-Web URL: https://github.com/varbhat/exatorrent
-
----------------------
-Name: rage
-DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rage
-REPO: https://github.com/str4d/rage
-Web URL: https://github.com/str4d/rage
-
-Name: rage-keygen
-DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rage-keygen
-REPO: https://github.com/str4d/rage
-Web URL: https://github.com/str4d/rage
-
----------------------
-Name: u-root
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/u-root
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
-Name: uroot
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/uroot
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
+Name: ripgrep
+DESCR: 
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ripgrep
+REPO: https://github.com/BurntSushi/ripgrep
+Web URL: https://github.com/BurntSushi/ripgrep
 
 ---------------------
 Name: bat
@@ -102,6 +76,38 @@ REPO: https://github.com/docker/cli
 Web URL: https://github.com/docker/cli
 
 ---------------------
+Name: gitpod
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gitpod
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gitpod-cli
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gitpod-cli
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gp
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gp
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+---------------------
+Name: u-root
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/u-root
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+Name: uroot
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/uroot
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+---------------------
 Name: age
 DESCR: A simple, modern and secure encryption tool
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/age
@@ -113,6 +119,19 @@ DESCR: A simple, modern and secure encryption tool
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/age-keygen
 REPO: https://github.com/FiloSottile/age
 Web URL: https://github.com/FiloSottile/age
+
+---------------------
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: ipinfo
@@ -141,6 +160,19 @@ REPO: https://github.com/opencontainers/runc
 Web URL: https://github.com/opencontainers/runc
 
 ---------------------
+Name: anew-rs
+DESCR: An efficient way to filter duplicate lines from input, à la uniq.
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/anew-rs
+REPO: https://github.com/zer0yu/anew
+Web URL: https://github.com/zer0yu/anew
+
+Name: anew
+DESCR: A tool for adding new lines to files, skipping duplicates
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/anew
+REPO: https://github.com/tomnomnom/anew
+Web URL: https://github.com/tomnomnom/anew
+
+---------------------
 Name: unix2dos
 DESCR: Convert Line Endings
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/unix2dos
@@ -152,6 +184,19 @@ DESCR: Convert Line Endings
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/unix2mac
 REPO: 
 Web URL: https://dos2unix.sourceforge.io
+
+---------------------
+Name: nezha-dashboard
+DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nezha-dashboard
+REPO: https://github.com/naiba/nezha
+Web URL: https://nezha.wiki/en_US/
+
+Name: nezha-dashboard.openrc
+DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nezha-dashboard.openrc
+REPO: https://github.com/naiba/nezha
+Web URL: https://nezha.wiki/en_US/
 
 ---------------------
 Name: gocryptfs
@@ -180,25 +225,6 @@ REPO: https://github.com/pymumu/smartdns
 Web URL: https://github.com/pymumu/smartdns
 
 ---------------------
-Name: gitpod
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gitpod
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
-
-Name: gitpod-cli
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gitpod-cli
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
-
-Name: gp
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gp
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
-
----------------------
 Name: husarnet
 DESCR: Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration.
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/husarnet
@@ -210,32 +236,6 @@ DESCR: Peer-to-Peer VPN to connect your laptops, servers and microcontrollers ov
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/husarnet-daemon
 REPO: https://github.com/husarnet/husarnet
 Web URL: https://husarnet.com/
-
----------------------
-Name: serverstatus-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
----------------------
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: rootlesskit
@@ -277,25 +277,6 @@ REPO: https://github.com/userdocs/iperf3-static
 Web URL: https://github.com/userdocs/iperf3-static
 
 ---------------------
-Name: gobusybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gobusybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: u-root-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/u-root-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: uroot-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/uroot-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
----------------------
 Name: sysinfo-collector
 DESCR: collect ram/cpu usage from OS and show it in pretty graphs
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/sysinfo-collector
@@ -307,19 +288,6 @@ DESCR: collect ram/cpu usage from OS and show it in pretty graphs
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/system-info-collector
 REPO: https://github.com/qarmin/system-info-collector
 Web URL: https://github.com/qarmin/system-info-collector
-
----------------------
-Name: nu
-DESCR: A new type of shell
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nu
-REPO: https://github.com/nushell/nushell
-Web URL: https://github.com/nushell/nushell
-
-Name: nushell
-DESCR: A new type of shell
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nushell
-REPO: https://github.com/nushell/nushell
-Web URL: https://github.com/nushell/nushell
 
 ---------------------
 Name: fd
@@ -346,6 +314,19 @@ DESCR: Command line utilities for working with .desktop files
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/desktop-file-install
 REPO: 
 Web URL: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+
+---------------------
+Name: serverstatus-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: hypervisor-fw
@@ -387,6 +368,19 @@ REPO: https://github.com/grafana/loki
 Web URL: https://github.com/grafana/loki
 
 ---------------------
+Name: nu
+DESCR: A new type of shell
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nu
+REPO: https://github.com/nushell/nushell
+Web URL: https://github.com/nushell/nushell
+
+Name: nushell
+DESCR: A new type of shell
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/nushell
+REPO: https://github.com/nushell/nushell
+Web URL: https://github.com/nushell/nushell
+
+---------------------
 Name: rcat
 DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rcat
@@ -398,19 +392,6 @@ DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rustcat
 REPO: https://github.com/robiot/rustcat
 Web URL: https://github.com/robiot/rustcat
-
----------------------
-Name: serverstatus-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: localxpose
@@ -426,17 +407,17 @@ REPO:
 Web URL: https://localxpose.io/
 
 ---------------------
-Name: rg
-DESCR: 
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rg
-REPO: https://github.com/BurntSushi/ripgrep
-Web URL: https://github.com/BurntSushi/ripgrep
+Name: serverstatus-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
-Name: ripgrep
-DESCR: 
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ripgrep
-REPO: https://github.com/BurntSushi/ripgrep
-Web URL: https://github.com/BurntSushi/ripgrep
+Name: ssr-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ssr-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: zerotier-cli
@@ -456,5 +437,24 @@ DESCR: A Smart Ethernet Switch for Earth
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/zerotier-one
 REPO: https://github.com/zerotier/ZeroTierOne
 Web URL: https://www.zerotier.com/
+
+---------------------
+Name: gobusybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/gobusybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: u-root-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/u-root-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: uroot-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/uroot-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
 
 ---------------------
