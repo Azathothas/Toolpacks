@@ -23,7 +23,7 @@
   69M   ├── loki
   68M   ├── ockam
   67M   ├── devpod
-  65M   ├── jr
+  66M   ├── jr
   61M   ├── logcli
   59M   ├── wtfutil
   59M   ├── wtf
@@ -53,10 +53,11 @@
   35M   ├── nu
   34M   ├── sliver-client
   33M   ├── cloudreve
+  33M   ├── edgevpn
   33M   ├── naabu
   33M   ├── aptly
-  33M   ├── step
   33M   ├── runme
+  33M   ├── step
   32M   ├── skupper
   32M   ├── shellz
   32M   ├── surf
@@ -67,7 +68,6 @@
   31M   ├── pixi
   31M   ├── git-xet
   30M   ├── dblab
-  30M   ├── edgevpn
   29M   ├── aix
   29M   ├── zellij
   29M   ├── podman
@@ -145,7 +145,7 @@
   21M   ├── tuiarchiver
   21M   ├── lux
   21M   ├── atuin
-  20M   ├── gix
+  21M   ├── gix
   20M   ├── jira-cli
   20M   ├── jira
   20M   ├── alterx
@@ -162,9 +162,9 @@
   19M   ├── mailpit
   19M   ├── brook
   19M   ├── luet
+  19M   ├── gum
   19M   ├── s3scanner
   18M   ├── sish
-  18M   ├── gum
   18M   ├── nezha-agent
   18M   ├── rekor-cli
   18M   ├── gh-dash
@@ -203,12 +203,12 @@
   15M   ├── tinja
   15M   ├── rippkgs-index.sqlite
   15M   ├── bleve
+  14M   ├── ct_monitor
   14M   ├── s5cmd
   14M   ├── bin
   14M   ├── zerotier-one
   14M   ├── zerotier-idtool
   14M   ├── zerotier-cli
-  14M   ├── ct_monitor
   14M   ├── aws-wire-lengths
   14M   ├── sysbox-runc
   14M   ├── godns
@@ -248,8 +248,8 @@
   12M   ├── git-cliff
   12M   ├── rebuildctl
   12M   ├── x8
-  12M   ├── sysbox-fs
   12M   ├── xan
+  12M   ├── sysbox-fs
   12M   ├── litefs
   12M   ├── tty2web
   12M   ├── rebuilderd-worker
@@ -365,8 +365,8 @@
  8.4M   ├── serverstatus-client
  8.4M   ├── sshesame
  8.4M   ├── nomore403
- 8.4M   ├── q
  8.4M   ├── vproxy
+ 8.4M   ├── q
  8.3M   ├── hostctl
  8.3M   ├── rustypaste
  8.3M   ├── hardeningmeter_staticx
@@ -441,9 +441,9 @@
  6.8M   ├── trip
  6.8M   ├── delta
  6.7M   ├── yalis
+ 6.7M   ├── spoof-dpi
  6.7M   ├── hub
  6.7M   ├── qemu-xtensaeb-static
- 6.7M   ├── spoof-dpi
  6.7M   ├── boxxy
  6.6M   ├── gitleaks
  6.6M   ├── speedtest-go
@@ -480,8 +480,8 @@
  6.0M   ├── zigup
  6.0M   ├── presenterm
  6.0M   ├── hcxhashtool
- 5.9M   ├── cfssljson
  5.9M   ├── whoismac
+ 5.9M   ├── cfssljson
  5.9M   ├── wlancap2wpasec
  5.9M   ├── waybackrobots
  5.9M   ├── web-cache-vulnerability-scanner
@@ -632,6 +632,7 @@
  4.0M   ├── makebbmain
  4.0M   ├── qemu-armeb-static
  4.0M   ├── qemu-arm-static
+ 4.0M   ├── tokei
  4.0M   ├── kalker
  4.0M   ├── hwatch
  4.0M   ├── gojq
@@ -647,7 +648,6 @@
  3.9M   ├── qemu-mipsel-static
  3.9M   ├── twingate-notifier
  3.9M   ├── pfetch-rs
- 3.9M   ├── tokei
  3.8M   ├── kanha
  3.8M   ├── xcp
  3.8M   ├── qemu-ppc64-static
@@ -657,7 +657,6 @@
  3.7M   ├── ripgen
  3.7M   ├── qemu-ppc-static
  3.7M   ├── mqttui
- 3.7M   ├── lsd
  3.7M   ├── spiped
  3.7M   ├── rage
  3.7M   ├── spipe
@@ -668,6 +667,7 @@
  3.7M   ├── iperf
  3.6M   ├── find-rs
  3.6M   ├── passdetective
+ 3.6M   ├── lsd
  3.6M   ├── deoptimizer
  3.6M   ├── fzf
  3.6M   ├── hcxpsktool
@@ -950,15 +950,15 @@
  208K   ├── nfs-ls
  208K   ├── nfs-cp
  204K   ├── nfs-stat
- 200K   ├── asn
+ 204K   ├── asn
  196K   ├── nfs-cat
  196K   ├── netstat
  192K   ├── linuxwave
+ 188K   ├── cpufetch
  184K   ├── ping
  180K   ├── hcxdumptool
  172K   ├── numademo
  172K   ├── numactl
- 172K   ├── cpufetch
  156K   ├── migspeed
  152K   ├── mkpasswd
  152K   ├── migratepages
