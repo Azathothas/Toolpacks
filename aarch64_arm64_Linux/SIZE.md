@@ -16,7 +16,7 @@
   72M   ├── falconhound
   70M   ├── nuclei
   65M   ├── devpod
-  62M   ├── jr
+  63M   ├── jr
   61M   ├── loki
   60M   ├── logcli
   58M   ├── wtfutil
@@ -47,6 +47,7 @@
   34M   ├── amass
   34M   ├── nezha-dashboard
   33M   ├── kopia
+  32M   ├── edgevpn
   32M   ├── naabu
   32M   ├── cloudreve
   32M   ├── fscan
@@ -61,7 +62,6 @@
   30M   ├── sq
   29M   ├── dblab
   29M   ├── aix
-  29M   ├── edgevpn
   28M   ├── gowitness
   28M   ├── vpnkit
   28M   ├── podman
@@ -124,16 +124,16 @@
   21M   ├── arduino-cli
   21M   ├── boltconn
   20M   ├── tuiarchiver
-  20M   ├── lux
   20M   ├── dnspyre
+  20M   ├── lux
   20M   ├── meli
   20M   ├── alterx
+  20M   ├── gum
   19M   ├── jira-cli
   19M   ├── jira
   19M   ├── cdncheck
   19M   ├── xetcmd
   19M   ├── csvtk
-  19M   ├── gum
   19M   ├── caido-cli
   19M   ├── noseyparker
   19M   ├── notify
@@ -163,8 +163,8 @@
   17M   ├── exatorrent-noui
   17M   ├── sunbeam
   17M   ├── lazygit
-  17M   ├── atuin
   17M   ├── gix
+  17M   ├── atuin
   17M   ├── gickup
   16M   ├── circumflex
   16M   ├── go-audit
@@ -184,10 +184,10 @@
   14M   ├── tinja
   14M   ├── termshark
   14M   ├── bleve
+  14M   ├── ct_monitor
   14M   ├── bin
   14M   ├── sn0int
   14M   ├── s5cmd
-  14M   ├── ct_monitor
   14M   ├── qsv
   13M   ├── certwatcher
   13M   ├── smap
@@ -317,13 +317,13 @@
  8.6M   ├── ghfetch
  8.6M   ├── gip
  8.5M   ├── noir
+ 8.5M   ├── coreutils
  8.5M   ├── ddns-go
  8.5M   ├── warp-diag
  8.5M   ├── flawz
- 8.5M   ├── coreutils
  8.4M   ├── rospo
+ 8.4M   ├── xan
  8.4M   ├── enc
- 8.3M   ├── xan
  8.3M   ├── vopono
  8.3M   ├── hardeningmeter_staticx
  8.3M   ├── rustypaste
@@ -411,10 +411,10 @@
  6.6M   ├── pingmole
  6.5M   ├── stunner
  6.5M   ├── fuzzuli
+ 6.5M   ├── spoof-dpi
  6.5M   ├── system-info-collector
  6.5M   ├── sysinfo-collector
  6.5M   ├── yalis
- 6.4M   ├── spoof-dpi
  6.4M   ├── hub
  6.4M   ├── gitleaks
  6.4M   ├── ctlwatcher
@@ -537,9 +537,9 @@
  4.5M   ├── xbps-install
  4.5M   ├── macchina
  4.5M   ├── warp-cli
- 4.4M   ├── procs
  4.4M   ├── elinks-lite
  4.4M   ├── elinks
+ 4.4M   ├── procs
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
  4.4M   ├── enumerepo
@@ -602,11 +602,11 @@
  3.8M   ├── ripgrep
  3.8M   ├── rg
  3.8M   ├── realm
+ 3.7M   ├── tokei
  3.7M   ├── bottom
  3.7M   ├── zt-patterns
  3.7M   ├── fblog
  3.6M   ├── rga
- 3.6M   ├── tokei
  3.6M   ├── sshkeys
  3.6M   ├── gpg-tui
  3.6M   ├── qemu-x86_64-static
@@ -659,7 +659,6 @@
  2.9M   ├── 7z
  2.9M   ├── bed
  2.9M   ├── yj
- 2.9M   ├── lsd
  2.9M   ├── wasminspect
  2.9M   ├── ctrsploit-checksec
  2.9M   ├── qemu-alpha-static
@@ -672,6 +671,7 @@
  2.9M   ├── cowthink
  2.9M   ├── cowsay
  2.9M   ├── ctrsploit-env
+ 2.8M   ├── lsd
  2.8M   ├── tmate
  2.8M   ├── taierspeed-cli
  2.8M   ├── njs
@@ -739,8 +739,8 @@
  2.1M   ├── gf
  2.1M   ├── curlie
  2.0M   ├── phantun-client
- 2.0M   ├── pelfd-bin
  2.0M   ├── phantun-server
+ 2.0M   ├── pelfd-bin
  2.0M   ├── grex
  2.0M   ├── sd
  2.0M   ├── cexec
@@ -790,8 +790,8 @@
  1.6M   ├── su-rs
  1.6M   ├── zsh
  1.6M   ├── genscope
+ 1.6M   ├── visudo-rs
  1.6M   ├── qsreplace
- 1.5M   ├── visudo-rs
  1.5M   ├── v6disk
  1.5M   ├── scopegen
  1.5M   ├── quotes-escaper
@@ -893,6 +893,7 @@
  324K   ├── pigz
  324K   ├── doas
  288K   ├── region_restriction_check.sh
+ 280K   ├── cpufetch
  276K   ├── sftp-server
  276K   ├── albafetch
  268K   ├── wg
@@ -907,13 +908,12 @@
  216K   ├── zapper
  212K   ├── zapper-stealth
  212K   ├── reptyr
- 212K   ├── cpufetch
  208K   ├── sar
  208K   ├── ping
  204K   ├── nfs-stat
  204K   ├── nfs-ls
  204K   ├── nfs-cp
- 200K   ├── asn
+ 204K   ├── asn
  196K   ├── numademo
  196K   ├── numactl
  196K   ├── nfs-cat
@@ -922,9 +922,7 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
- 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
@@ -933,6 +931,8 @@
  140K   ├── mac2unix
  140K   ├── ipt2socks
  140K   ├── dos2unix
+ 136K   ├── rust-hypervisor-firmware
+ 136K   ├── hypervisor-fw
  132K   ├── tracepath
  132K   ├── pwait
  132K   ├── numastat
