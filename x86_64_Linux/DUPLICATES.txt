@@ -11,36 +11,17 @@ REPO: https://github.com/rootless-containers/rootlesskit
 Web URL: https://github.com/rootless-containers/rootlesskit
 
 ---------------------
-Name: u-root
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
-Name: uroot
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
----------------------
-Name: gobusybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/gobusybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: u-root-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/u-root-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: uroot-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/uroot-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: z-tokens
@@ -56,6 +37,32 @@ REPO: https://github.com/ajeetdsouza/zoxide
 Web URL: https://github.com/ajeetdsouza/zoxide
 
 ---------------------
+Name: zapper
+DESCR: Zaps arguments and environment from the process list
+Download URL: https://bin.ajam.dev/x86_64_Linux/zapper
+REPO: https://github.com/hackerschoice/zapper
+Web URL: https://github.com/hackerschoice/zapper
+
+Name: zapper-stealth
+DESCR: Zaps arguments and environment from the process list
+Download URL: https://bin.ajam.dev/x86_64_Linux/zapper-stealth
+REPO: https://github.com/hackerschoice/zapper
+Web URL: https://github.com/hackerschoice/zapper
+
+---------------------
+Name: nmap-formatter
+DESCR: A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap-formatter
+REPO: https://github.com/vdjagilev/nmap-formatter
+Web URL: https://github.com/vdjagilev/nmap-formatter
+
+Name: nmap
+DESCR: port scanner
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap
+REPO: https://github.com/nmap/nmap
+Web URL: https://github.com/nmap/nmap
+
+---------------------
 Name: hypervisor-fw
 DESCR: cloud-hypervisors firmware in rust
 Download URL: https://bin.ajam.dev/x86_64_Linux/hypervisor-fw
@@ -67,6 +74,19 @@ DESCR: cloud-hypervisors firmware in rust
 Download URL: https://bin.ajam.dev/x86_64_Linux/rust-hypervisor-firmware
 REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
 Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
+
+---------------------
+Name: serverstatus-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: rg
@@ -114,6 +134,19 @@ REPO: https://github.com/zerotier/ZeroTierOne
 Web URL: https://www.zerotier.com/
 
 ---------------------
+Name: rage
+DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+Download URL: https://bin.ajam.dev/x86_64_Linux/rage
+REPO: https://github.com/str4d/rage
+Web URL: https://github.com/str4d/rage
+
+Name: rage-keygen
+DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+Download URL: https://bin.ajam.dev/x86_64_Linux/rage-keygen
+REPO: https://github.com/str4d/rage
+Web URL: https://github.com/str4d/rage
+
+---------------------
 Name: elinks
 DESCR: Full-Featured Text WWW Browser
 Download URL: https://bin.ajam.dev/x86_64_Linux/elinks
@@ -140,42 +173,17 @@ REPO: https://github.com/sharkdp/fd
 Web URL: https://github.com/sharkdp/fd
 
 ---------------------
-Name: moac
-DESCR: Go Implementation of WireGuard
-Download URL: https://bin.ajam.dev/x86_64_Linux/moac
-REPO: https://github.com/Seirdy/moac
-Web URL: https://github.com/Seirdy/moac
+Name: certstream-server-go
+DESCR: drop-in replacement for Calidogs outdated server
+Download URL: https://bin.ajam.dev/x86_64_Linux/certstream-server-go
+REPO: https://github.com/d-Rickyy-b/certstream-server-go
+Web URL: https://github.com/d-Rickyy-b/certstream-server-go
 
-Name: moac-pwgen
-DESCR: Go Implementation of WireGuard
-Download URL: https://bin.ajam.dev/x86_64_Linux/moac-pwgen
-REPO: https://github.com/Seirdy/moac
-Web URL: https://github.com/Seirdy/moac
-
----------------------
-Name: serverstatus-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: certstream
+DESCR: Cli for calidogs certstream
+Download URL: https://bin.ajam.dev/x86_64_Linux/certstream
+REPO: https://github.com/Azathothas/Arsenal
+Web URL: https://github.com/Azathothas/Arsenal
 
 ---------------------
 Name: bat
@@ -191,19 +199,6 @@ REPO: https://github.com/sharkdp/bat
 Web URL: https://github.com/sharkdp/bat
 
 ---------------------
-Name: nmap-formatter
-DESCR: A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
-Download URL: https://bin.ajam.dev/x86_64_Linux/nmap-formatter
-REPO: https://github.com/vdjagilev/nmap-formatter
-Web URL: https://github.com/vdjagilev/nmap-formatter
-
-Name: nmap
-DESCR: port scanner
-Download URL: https://bin.ajam.dev/x86_64_Linux/nmap
-REPO: https://github.com/nmap/nmap
-Web URL: https://github.com/nmap/nmap
-
----------------------
 Name: gh-dash
 DESCR: A beautiful CLI dashboard for GitHub 🚀
 Download URL: https://bin.ajam.dev/x86_64_Linux/gh-dash
@@ -215,6 +210,19 @@ DESCR: GitHub’s official command line tool
 Download URL: https://bin.ajam.dev/x86_64_Linux/gh
 REPO: https://github.com/cli/cli
 Web URL: https://github.com/cli/cli
+
+---------------------
+Name: nezha-dashboard
+DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/nezha-dashboard
+REPO: https://github.com/naiba/nezha
+Web URL: https://nezha.wiki/en_US/
+
+Name: nezha-dashboard.openrc
+DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/nezha-dashboard.openrc
+REPO: https://github.com/naiba/nezha
+Web URL: https://nezha.wiki/en_US/
 
 ---------------------
 Name: ipinfo
@@ -230,6 +238,19 @@ REPO: https://github.com/ipinfo/cli
 Web URL: https://ipinfo.io/
 
 ---------------------
+Name: wezterm
+DESCR: A GPU-accelerated cross-platform terminal emulator and multiplexer
+Download URL: https://bin.ajam.dev/x86_64_Linux/wezterm
+REPO: https://github.com/wez/wezterm
+Web URL: https://github.com/wez/wezterm
+
+Name: wezterm-mux-server
+DESCR: A GPU-accelerated cross-platform terminal emulator and multiplexer
+Download URL: https://bin.ajam.dev/x86_64_Linux/wezterm-mux-server
+REPO: https://github.com/wez/wezterm
+Web URL: https://github.com/wez/wezterm
+
+---------------------
 Name: localxpose
 DESCR: reverse proxy that enables you to expose your localhost to the internet.
 Download URL: https://bin.ajam.dev/x86_64_Linux/localxpose
@@ -241,6 +262,19 @@ DESCR: reverse proxy that enables you to expose your localhost to the internet.
 Download URL: https://bin.ajam.dev/x86_64_Linux/loclx
 REPO: 
 Web URL: https://localxpose.io/
+
+---------------------
+Name: rebuilderd
+DESCR: Independent verification of binary packages - reproducible builds
+Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd
+REPO: https://github.com/kpcyrd/rebuilderd
+Web URL: https://github.com/kpcyrd/rebuilderd
+
+Name: rebuilderd-worker
+DESCR: Independent verification of binary packages - reproducible builds
+Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd-worker
+REPO: https://github.com/kpcyrd/rebuilderd
+Web URL: https://github.com/kpcyrd/rebuilderd
 
 ---------------------
 Name: unix2dos
@@ -282,19 +316,6 @@ REPO: https://github.com/pymumu/smartdns
 Web URL: https://github.com/pymumu/smartdns
 
 ---------------------
-Name: rebuilderd
-DESCR: Independent verification of binary packages - reproducible builds
-Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd
-REPO: https://github.com/kpcyrd/rebuilderd
-Web URL: https://github.com/kpcyrd/rebuilderd
-
-Name: rebuilderd-worker
-DESCR: Independent verification of binary packages - reproducible builds
-Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd-worker
-REPO: https://github.com/kpcyrd/rebuilderd
-Web URL: https://github.com/kpcyrd/rebuilderd
-
----------------------
 Name: rcat
 DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/rcat
@@ -306,6 +327,25 @@ DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/rustcat
 REPO: https://github.com/robiot/rustcat
 Web URL: https://github.com/robiot/rustcat
+
+---------------------
+Name: gitpod
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gitpod-cli
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gp
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gp
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
 
 ---------------------
 Name: nu
@@ -353,17 +393,35 @@ REPO: https://github.com/opencontainers/runc
 Web URL: https://github.com/opencontainers/runc
 
 ---------------------
-Name: gitpod-cli
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: gobusybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/gobusybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
 
-Name: gp
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gp
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: u-root-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/u-root-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: uroot-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/uroot-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: u-root
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+Name: uroot
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
 
 ---------------------
 Name: sysinfo-collector
@@ -377,19 +435,6 @@ DESCR: collect ram/cpu usage from OS and show it in pretty graphs
 Download URL: https://bin.ajam.dev/x86_64_Linux/system-info-collector
 REPO: https://github.com/qarmin/system-info-collector
 Web URL: https://github.com/qarmin/system-info-collector
-
----------------------
-Name: serverstatus-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: desktop-file-edit
@@ -416,6 +461,19 @@ DESCR: a better code editor
 Download URL: https://bin.ajam.dev/x86_64_Linux/kakoune
 REPO: https://github.com/mawww/kakoune
 Web URL: https://github.com/mawww/kakoune
+
+---------------------
+Name: serverstatus-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: iperf
