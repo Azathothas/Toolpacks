@@ -3,7 +3,7 @@
  53M   ├─┬ aarch64_arm64_Linux
  51M   │ ├── BUILD.log.txt
 924K   │ ├── METADATA.json
-628K   │ ├── DETAILED.md
+624K   │ ├── DETAILED.md
 456K   │ ├── README.md
 148K   │ ├── FILE.txt
  76K   │ ├── SHA256SUM.txt
