@@ -40,11 +40,6 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.sh"
   },
   {
-    "name": "bigdl.sh",
-    "update_date": "2024-07-12T03:55:14",
-    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bigdl.sh"
-  },
-  {
     "name": "busybox.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.sh"
@@ -60,6 +55,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/curl.sh"
   },
   {
+    "name": "dbin.sh",
+    "update_date": "2024-08-23T07:04:44",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/dbin.sh"
+  },
+  {
     "name": "jless.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/jless.sh"
@@ -71,7 +71,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-08-22T21:08:38",
+    "update_date": "2024-08-23T00:09:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json"
   },
   {
