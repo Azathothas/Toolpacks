@@ -24,7 +24,7 @@
 > > web_url: "#Contains the Website/Project Page URL of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]",
 > > extra_bins: "#Contains names of related binaries (Only if they belong to same $PKG_FAMILY) of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]"
 > > ```
-> - You can use this data to automate downloading, updating or even build a full fledged *📦 Package Manager* like [`@xplshn/bigdl`](https://github.com/xplshn/bigdl) & [`@pwnwriter/hysp`](https://github.com/pwnwriter/hysp)
+> - You can use this data to automate downloading, updating or even build a full fledged *📦 Package Manager* like [`@xplshn/dbin`](https://github.com/xplshn/dbin) & [`@pwnwriter/hysp`](https://github.com/pwnwriter/hysp)
 > - Though there's no Official `Schema/Specification` for the structure of this dataset, a de facto [`SPEC FREEZE`](https://en.wikipedia.org/wiki/Freeze_(software_engineering)) is already in place:
 > > - [[Request] Rename sha256 to sha in Metadata files](https://github.com/Azathothas/Toolpacks/issues/22)
 > > - [[R] Re-structure directories for consistency](https://github.com/Azathothas/Toolpacks/issues/18)
