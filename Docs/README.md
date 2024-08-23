@@ -117,7 +117,7 @@
 
 - #### **`📦 Frontend Package Managers 📦`**
 > - Here are some fantastic package managers 📦 [developed](https://antonz.org/writing-package-manager/) by talented individuals that [utilize this project](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md):
-> > - [`@xplshn/BigDL`](https://github.com/xplshn/bigdl) is the current de-facto, recommended one you should use.
+> > - [`@xplshn/dbin`](https://github.com/xplshn/dbin) is the current de-facto, recommended one you should use.
 > > - [`@pwnwriter/hysp`](https://github.com/pwnwriter/hysp) was <ins>archived</ins> is no longer recommended.
 ---
 

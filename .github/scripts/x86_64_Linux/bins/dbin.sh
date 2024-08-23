@@ -21,13 +21,13 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #bigdl : Binary Downloader(s) || Like a package manager, but for statically linked binaries.
-     export BIN="bigdl" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/xplshn/bigdl" #github/gitlab/homepage/etc for $BIN
+    #dbin : Binary Downloader(s) || Like a package manager, but for statically linked binaries.
+     export BIN="dbin"
+     export SOURCE_URL="https://github.com/xplshn/dbin" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
-       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/xplshn/bigdl" && cd "./bigdl"
-       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./bigdl" "$BINDIR/bigdl" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/xplshn/dbin" && cd "./dbin"
+       GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" ; cp "./dbin" "$BINDIR/dbin" ; popd >/dev/null 2>&1 ; go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

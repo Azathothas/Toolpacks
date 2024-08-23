@@ -1,7 +1,7 @@
-name: "bigdl"
+name: "dbin"
 description: "Binary Downloader(s) || Like a package manager, but for statically linked binaries."
-web_url: "https://github.com/xplshn/bigdl"
-repo_url: "https://github.com/xplshn/bigdl"
+web_url: "https://github.com/xplshn/dbin"
+repo_url: "https://github.com/xplshn/dbin"
 path: "/"
 bins:
-  - "bigdl"
+  - "dbin"

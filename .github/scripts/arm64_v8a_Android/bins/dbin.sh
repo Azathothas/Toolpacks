@@ -29,9 +29,9 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #bigdl : 📦 Poor man's package manager.
-     export BIN="bigdl" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/xplshn/bigdl" #github/gitlab/homepage/etc for $BIN
+    #dbin : 📦 Poor man's package manager.
+     export BIN="dbin" #Name of final binary/pkg/cli, sometimes differs from $REPO
+     export SOURCE_URL="https://github.com/xplshn/dbin" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -62,14 +62,14 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          #export ANDROID_INCLUDE_DIR="${ANDROID_NDK_SYSROOT}/usr/include/aarch64-linux-android"
          export ANDROID_LIBRARY_DIR="${ANDROID_NDK_SYSROOT}/usr/lib/aarch64-linux-android/${ANDROID_API_LEVEL}"
         #Build (Native)
-         git clone --quiet --filter "blob:none" "https://github.com/xplshn/bigdl" && cd "./bigdl"
-         #bigdl
-         GOOS="android" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -Wl,--build-id=none'\''" ; cp "./bigdl" "/build-bins/bigdl"
+         git clone --quiet --filter "blob:none" "https://github.com/xplshn/dbin" && cd "./dbin"
+         #dbin
+         GOOS="android" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -Wl,--build-id=none'\''" ; cp "./dbin" "/build-bins/dbin"
         '
       #Copy
        docker cp "alpine-builder:/build-bins/." "./"
        #Meta 
-       file "./bigdl" && du -sh "./bigdl" ; aarch64-linux-gnu-readelf -d "./bigdl" | grep -i 'needed' ; cp "./bigdl" "$BINDIR/bigdl"
+       file "./dbin" && du -sh "./dbin" ; aarch64-linux-gnu-readelf -d "./dbin" | grep -i 'needed' ; cp "./dbin" "$BINDIR/dbin"
        file "./bigdld" && du -sh "./bigdld" ; aarch64-linux-gnu-readelf -d "./bigdld" | grep -i 'needed' ; cp "./bigdld" "$BINDIR/bigdld"
        file "./bigdl_combined" && du -sh "./bigdl_combined" ; aarch64-linux-gnu-readelf -d "./bigdl_combined" | grep -i 'needed' ; cp "./bigdl_combined" "$BINDIR/bigdl_combined"
       #Delete Containers

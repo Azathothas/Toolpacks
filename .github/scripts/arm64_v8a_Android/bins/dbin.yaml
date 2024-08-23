@@ -1,0 +1,7 @@
+name: "dbin"
+description: "\U0001F4E6 Poor mans package manager."
+web_url: "https://github.com/xplshn/dbin"
+repo_url: "https://github.com/xplshn/dbin"
+path: "/"
+bins:
+  - "dbin"

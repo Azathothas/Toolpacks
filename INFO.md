@@ -67,7 +67,7 @@
 > 
 ---
 - ##### CLI
-> ℹ️ Recommended ℹ️ : Use [**`Bigdl`**](https://github.com/xplshn/bigdl) if you want to skip everything below, since `bigdl` already [uses this repo as it's Source.](https://github.com/xplshn/bigdl#where-do-these-binaries-come-from-)
+> ℹ️ Recommended ℹ️ : Use [**`dbin`**](https://github.com/xplshn/dbin) if you want to skip everything below, since `dbin` already [uses this repo as it's Source.](https://github.com/xplshn/dbin#where-do-these-binaries-come-from-)
 > - It's also possible to use `"$(uname -m)"` | `$env:PROCESSOR_ARCHITECTURE` | `adb shell getprop ro.product.cpu.abi` variations
 > > SEE: https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#url-redirects
 > > 
