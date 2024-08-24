@@ -740,8 +740,8 @@
  2.1M   ├── gf
  2.1M   ├── curlie
  2.0M   ├── phantun-client
- 2.0M   ├── phantun-server
  2.0M   ├── pelfd-bin
+ 2.0M   ├── phantun-server
  2.0M   ├── grex
  2.0M   ├── sd
  2.0M   ├── cexec
@@ -923,7 +923,9 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
+ 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
+ 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
@@ -932,8 +934,6 @@
  140K   ├── mac2unix
  140K   ├── ipt2socks
  140K   ├── dos2unix
- 136K   ├── rust-hypervisor-firmware
- 136K   ├── hypervisor-fw
  132K   ├── tracepath
  132K   ├── pwait
  132K   ├── numastat
