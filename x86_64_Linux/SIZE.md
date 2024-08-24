@@ -13,6 +13,7 @@
   87M   ├── daytona
   86M   ├── istioctl
   79M   ├── hugo
+  78M   ├── jr
   76M   ├── alist
   75M   ├── ffmpeg
   74M   ├── ffprobe
@@ -23,7 +24,6 @@
   69M   ├── loki
   68M   ├── ockam
   67M   ├── devpod
-  66M   ├── jr
   61M   ├── logcli
   59M   ├── wtfutil
   59M   ├── wtf
@@ -46,11 +46,11 @@
   38M   ├── proxify
   37M   ├── containerd
   36M   ├── kopia
+  36M   ├── nushell
+  36M   ├── nu
   36M   ├── tdl
   35M   ├── amass
   35M   ├── nezha-dashboard
-  35M   ├── nushell
-  35M   ├── nu
   34M   ├── sliver-client
   33M   ├── cloudreve
   33M   ├── edgevpn
@@ -65,9 +65,9 @@
   31M   ├── loki-canary
   31M   ├── sq
   31M   ├── algernon
-  31M   ├── pixi
   31M   ├── git-xet
   30M   ├── dblab
+  30M   ├── pixi
   29M   ├── aix
   29M   ├── zellij
   29M   ├── podman
@@ -179,12 +179,11 @@
   17M   ├── chameleon
   17M   ├── gickup
   17M   ├── twingate-connector
-  17M   ├── sn0int
-  17M   ├── glow
   17M   ├── circumflex
   17M   ├── act
   17M   ├── gp
   17M   ├── gitpod-cli
+  16M   ├── sn0int
   16M   ├── hrekt
   16M   ├── diffoci
   16M   ├── warp
@@ -194,10 +193,11 @@
   16M   ├── ssr-server
   16M   ├── serverstatus-server
   16M   ├── findomain
+  15M   ├── glow
   15M   ├── pgweb
   15M   ├── termshark
-  15M   ├── filebrowser
   15M   ├── yazi
+  15M   ├── filebrowser
   15M   ├── cloudcash
   15M   ├── rqbit
   15M   ├── tinja
@@ -221,8 +221,8 @@
   14M   ├── wiretap
   14M   ├── yip
   13M   ├── reviewdog
-  13M   ├── etcdutl
   13M   ├── ein
+  13M   ├── etcdutl
   13M   ├── ssr-server-themed
   13M   ├── serverstatus-server-themed
   13M   ├── gdu
@@ -292,7 +292,7 @@
   10M   ├── yq
   10M   ├── binocle
   10M   ├── runc
-  10M   ├── zdns
+  10M   ├── orbiton
   10M   ├── vopono
   10M   ├── htb-cli
   10M   ├── resto
@@ -303,7 +303,6 @@
   10M   ├── flawz
 10.0M   ├── ngocok
 10.0M   ├── shortscan
- 9.9M   ├── orbiton
  9.9M   ├── noir
  9.9M   ├── nix-channel-index
  9.9M   ├── agg-speed
@@ -429,19 +428,20 @@
  7.1M   ├── zfind
  7.1M   ├── cfspeed
  7.0M   ├── twingate-connector-staticx
+ 7.0M   ├── zdns
+ 7.0M   ├── spoof-dpi
  6.9M   ├── rush
  6.9M   ├── spk
  6.9M   ├── systemctl-tui
- 6.9M   ├── elvish
+ 6.8M   ├── elvish
  6.8M   ├── qemu-xtensa-static
+ 6.8M   ├── trip
  6.8M   ├── stunner
  6.8M   ├── fuzzuli
  6.8M   ├── fscan
  6.8M   ├── cloak-client
- 6.8M   ├── trip
  6.8M   ├── delta
  6.7M   ├── yalis
- 6.7M   ├── spoof-dpi
  6.7M   ├── hub
  6.7M   ├── qemu-xtensaeb-static
  6.7M   ├── boxxy
@@ -454,6 +454,7 @@
  6.5M   ├── rga
  6.5M   ├── xplr
  6.5M   ├── fnm
+ 6.5M   ├── dbin
  6.5M   ├── bigdl
  6.4M   ├── go-simplehttpserver
  6.4M   ├── volta
@@ -636,13 +637,13 @@
  4.0M   ├── kalker
  4.0M   ├── hwatch
  4.0M   ├── gojq
- 3.9M   ├── fd-find
- 3.9M   ├── fd
  3.9M   ├── qemu-mipsn32-static
  3.9M   ├── qemu-mips64-static
  3.9M   ├── qemu-mipsn32el-static
  3.9M   ├── dotenv-linter
  3.9M   ├── qemu-mips64el-static
+ 3.9M   ├── fd-find
+ 3.9M   ├── fd
  3.9M   ├── just
  3.9M   ├── qemu-mips-static
  3.9M   ├── qemu-mipsel-static
@@ -657,8 +658,8 @@
  3.7M   ├── ripgen
  3.7M   ├── qemu-ppc-static
  3.7M   ├── mqttui
- 3.7M   ├── spiped
  3.7M   ├── rage
+ 3.7M   ├── spiped
  3.7M   ├── spipe
  3.7M   ├── hcxpcapngtool
  3.7M   ├── cproxy
@@ -717,10 +718,10 @@
  2.9M   ├── halp
  2.9M   ├── encrypted-dns
  2.9M   ├── t-rec
+ 2.9M   ├── rage-keygen
  2.9M   ├── qemu-hppa-static
  2.9M   ├── cowthink
  2.9M   ├── cowsay
- 2.9M   ├── rage-keygen
  2.9M   ├── dust
  2.9M   ├── gping
  2.8M   ├── wireguard-go
@@ -887,9 +888,9 @@
  1.1M   ├── catatonit
  1.1M   ├── update-desktop-database
  1.0M   ├── bash
+ 1.0M   ├── grep
  1.0M   ├── jql
  1.0M   ├── awk
-1004K   ├── grep
  948K   ├── svg-hush
  948K   ├── hexyl
  948K   ├── csview
