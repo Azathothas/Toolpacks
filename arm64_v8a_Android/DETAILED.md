@@ -3,9 +3,9 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53426
+- **Stars:** 53431
 - **Version:** v0.2.65
-- **Updated:** 2024-08-23T23:18:07Z
+- **Updated:** 2024-08-24T13:01:18Z
 - **Size:** 19.31 MB
 - **SHA256SUM:** 083b36489d9cfcc4e492ca970e291932f3b67cbce67ee98552cdc9811912b141
 - **B3SUM:** 3a98e3810c9c6f982251148d22045b64eb58e825001b125f12ad4bdb0cbbc53f
@@ -122,7 +122,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35203
+- **Stars:** 35205
 - **Version:** curl-8_9_1
 - **Updated:** 2024-08-24T00:18:15Z
 - **Size:** 5.3 MB
@@ -139,7 +139,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35203
+- **Stars:** 35205
 - **Version:** curl-8_9_1
 - **Updated:** 2024-08-24T00:18:15Z
 - **Size:** 228.63 kB
@@ -207,7 +207,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45758
+- **Stars:** 45764
 - **Version:** v1.67.0
 - **Updated:** 2024-08-23T10:03:27Z
 - **Size:** 85.18 MB
@@ -258,7 +258,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18288
+- **Stars:** 18294
 - **Version:** v1.72.1
 - **Updated:** 2024-08-24T04:26:02Z
 - **Size:** 12.01 MB
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18288
+- **Stars:** 18294
 - **Version:** v1.72.1
 - **Updated:** 2024-08-24T04:26:02Z
 - **Size:** 26.25 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18288
+- **Stars:** 18294
 - **Version:** v1.72.1
 - **Updated:** 2024-08-24T04:26:02Z
 - **Size:** 24.14 MB
