@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53438
+- **Stars:** 53440
 - **Version:** v0.2.65
 - **Updated:** 2024-08-24T13:01:18Z
 - **Size:** 19.31 MB
@@ -124,7 +124,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35207
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-24T00:18:15Z
+- **Updated:** 2024-08-24T21:33:21Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 38037c86d397b88cca40b5886350c86234072b7a9d1eec18013e0f0330fd8740
 - **B3SUM:** e1d28e63588c8119271dad2d5a79681fa9181daf57596d00f6d376e5bb238a8a
@@ -141,7 +141,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35207
 - **Version:** curl-8_9_1
-- **Updated:** 2024-08-24T00:18:15Z
+- **Updated:** 2024-08-24T21:33:21Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -156,7 +156,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4679
+- **Stars:** 4680
 - **Version:** v0.9.0
 - **Updated:** 2024-06-01T20:34:10Z
 - **Size:** 2.02 MB
