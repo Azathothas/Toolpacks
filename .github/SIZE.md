@@ -24,8 +24,8 @@
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
  20K   │ └── DUPLICATES.txt
-8.5M   ├── METADATA.json
-7.8M   ├── METADATA.yaml
+8.3M   ├── METADATA.json
+7.7M   ├── METADATA.yaml
 444K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md

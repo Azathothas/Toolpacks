@@ -10,7 +10,7 @@
  102M   ├── gitea
   94M   ├── promtail
   90M   ├── k9s
-  87M   ├── daytona
+  88M   ├── daytona
   86M   ├── istioctl
   79M   ├── hugo
   78M   ├── jr
@@ -53,7 +53,6 @@
   35M   ├── nezha-dashboard
   34M   ├── sliver-client
   33M   ├── cloudreve
-  33M   ├── edgevpn
   33M   ├── naabu
   33M   ├── aptly
   33M   ├── runme
@@ -66,6 +65,7 @@
   31M   ├── sq
   31M   ├── algernon
   31M   ├── git-xet
+  30M   ├── edgevpn
   30M   ├── dblab
   30M   ├── pixi
   29M   ├── aix
@@ -108,9 +108,9 @@
   25M   ├── tailscaled
   25M   ├── brutespray
   25M   ├── meli
+  25M   ├── docker
   24M   ├── tusd
   24M   ├── dagu
-  24M   ├── docker
   24M   ├── qsv
   24M   ├── restic
   24M   ├── php-fpm
@@ -119,9 +119,9 @@
   24M   ├── grpcurl
   24M   ├── cloudflared
   24M   ├── xetcmd
+  24M   ├── mise
   24M   ├── jaeles
   24M   ├── vhs
-  24M   ├── mise
   23M   ├── nerdctl
   23M   ├── dalfox
   23M   ├── interactsh-server
@@ -154,11 +154,12 @@
   20M   ├── caido-cli
   20M   ├── golem
   20M   ├── notify
-  19M   ├── miniflux
-  19M   ├── go-audit
   19M   ├── uroot-busybox
   19M   ├── u-root-busybox
   19M   ├── gobusybox
+  19M   ├── miniflux
+  19M   ├── gickup
+  19M   ├── go-audit
   19M   ├── mailpit
   19M   ├── brook
   19M   ├── luet
@@ -177,7 +178,6 @@
   17M   ├── sunbeam
   17M   ├── lazygit
   17M   ├── chameleon
-  17M   ├── gickup
   17M   ├── twingate-connector
   17M   ├── circumflex
   17M   ├── act
@@ -221,8 +221,8 @@
   14M   ├── wiretap
   14M   ├── yip
   13M   ├── reviewdog
-  13M   ├── ein
   13M   ├── etcdutl
+  13M   ├── ein
   13M   ├── ssr-server-themed
   13M   ├── serverstatus-server-themed
   13M   ├── gdu
@@ -259,6 +259,7 @@
   11M   ├── sync-color-schemes
   11M   ├── fq
   11M   ├── jqp
+  11M   ├── wstunnel
   11M   ├── sysbox-mgr
   11M   ├── nmctl
   11M   ├── taplo
@@ -296,7 +297,6 @@
   10M   ├── vopono
   10M   ├── htb-cli
   10M   ├── resto
-  10M   ├── wstunnel
   10M   ├── bucketloot
   10M   ├── goop
   10M   ├── ctrsploit
@@ -352,8 +352,8 @@
  8.6M   ├── nmap
  8.6M   ├── getghrel
  8.5M   ├── sns
- 8.5M   ├── chisel
  8.5M   ├── sj
+ 8.5M   ├── chisel
  8.5M   ├── assh
  8.5M   ├── smartdns-rs
  8.5M   ├── rootlesskit
@@ -398,6 +398,7 @@
  7.7M   ├── revive
  7.7M   ├── gobuster
  7.7M   ├── trurl
+ 7.6M   ├── rush
  7.6M   ├── husarnet
  7.6M   ├── cherrybomb
  7.6M   ├── fasttld
@@ -424,19 +425,18 @@
  7.1M   ├── exiflooter
  7.1M   ├── eget
  7.1M   ├── websocat
+ 7.1M   ├── systemctl-tui
  7.1M   ├── sshx
  7.1M   ├── zfind
  7.1M   ├── cfspeed
  7.0M   ├── twingate-connector-staticx
  7.0M   ├── zdns
  7.0M   ├── spoof-dpi
- 6.9M   ├── rush
  6.9M   ├── spk
- 6.9M   ├── systemctl-tui
  6.8M   ├── elvish
  6.8M   ├── qemu-xtensa-static
- 6.8M   ├── trip
  6.8M   ├── stunner
+ 6.8M   ├── trip
  6.8M   ├── fuzzuli
  6.8M   ├── fscan
  6.8M   ├── cloak-client
@@ -572,8 +572,8 @@
  4.9M   ├── jwt-hack
  4.9M   ├── elinks-lite
  4.9M   ├── elinks
- 4.9M   ├── cfspeedtest
  4.9M   ├── nping
+ 4.9M   ├── cfspeedtest
  4.9M   ├── ppfuzz
  4.9M   ├── mkbundle
  4.9M   ├── hysp
@@ -952,7 +952,7 @@
  208K   ├── nfs-cp
  204K   ├── nfs-stat
  204K   ├── asn
- 196K   ├── nfs-cat
+ 200K   ├── nfs-cat
  196K   ├── netstat
  192K   ├── linuxwave
  188K   ├── cpufetch
