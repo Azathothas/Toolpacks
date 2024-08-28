@@ -11,17 +11,17 @@ REPO: https://github.com/rootless-containers/rootlesskit
 Web URL: https://github.com/rootless-containers/rootlesskit
 
 ---------------------
-Name: sshx
-DESCR: Fast, collaborative live terminal sharing over the web
-Download URL: https://bin.ajam.dev/x86_64_Linux/sshx
-REPO: https://github.com/ekzhang/sshx
-Web URL: https://github.com/ekzhang/sshx
+Name: containerd
+DESCR: An open and reliable container runtime
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
+REPO: https://github.com/containerd/containerd
+Web URL: https://github.com/containerd/containerd
 
-Name: sshx-server
-DESCR: Fast, collaborative live terminal sharing over the web
-Download URL: https://bin.ajam.dev/x86_64_Linux/sshx-server
-REPO: https://github.com/ekzhang/sshx
-Web URL: https://github.com/ekzhang/sshx
+Name: containerd
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
 
 ---------------------
 Name: gocryptfs
@@ -95,43 +95,49 @@ REPO: https://github.com/zerotier/ZeroTierOne
 Web URL: https://www.zerotier.com/
 
 ---------------------
-Name: nmap-formatter
-DESCR: A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
-Download URL: https://bin.ajam.dev/x86_64_Linux/nmap-formatter
-REPO: https://github.com/vdjagilev/nmap-formatter
-Web URL: https://github.com/vdjagilev/nmap-formatter
+Name: sshx
+DESCR: Fast, collaborative live terminal sharing over the web
+Download URL: https://bin.ajam.dev/x86_64_Linux/sshx
+REPO: https://github.com/ekzhang/sshx
+Web URL: https://github.com/ekzhang/sshx
 
-Name: nmap
-DESCR: port scanner
-Download URL: https://bin.ajam.dev/x86_64_Linux/nmap
-REPO: https://github.com/nmap/nmap
-Web URL: https://github.com/nmap/nmap
-
----------------------
-Name: kak
-DESCR: a better code editor
-Download URL: https://bin.ajam.dev/x86_64_Linux/kak
-REPO: https://github.com/mawww/kakoune
-Web URL: https://github.com/mawww/kakoune
-
-Name: kakoune
-DESCR: a better code editor
-Download URL: https://bin.ajam.dev/x86_64_Linux/kakoune
-REPO: https://github.com/mawww/kakoune
-Web URL: https://github.com/mawww/kakoune
+Name: sshx-server
+DESCR: Fast, collaborative live terminal sharing over the web
+Download URL: https://bin.ajam.dev/x86_64_Linux/sshx-server
+REPO: https://github.com/ekzhang/sshx
+Web URL: https://github.com/ekzhang/sshx
 
 ---------------------
-Name: cronie-crontab
-DESCR: Cronie cron daemon project
-Download URL: https://bin.ajam.dev/x86_64_Linux/cronie-crontab
-REPO: https://github.com/cronie-crond/cronie
-Web URL: https://github.com/cronie-crond/cronie
+Name: u-root
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
 
-Name: crontab
-DESCR: 
-Download URL: https://bin.ajam.dev/x86_64_Linux/crontab
-REPO: 
-Web URL: https://www.gnu.org/software/cron/
+Name: uroot
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+---------------------
+Name: gobusybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/gobusybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: u-root-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/u-root-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: uroot-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/uroot-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
 
 ---------------------
 Name: elinks
@@ -147,6 +153,19 @@ REPO: https://github.com/rkd77/elinks
 Web URL: https://github.com/rkd77/elinks
 
 ---------------------
+Name: docker
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/docker
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
+
+Name: docker-proxy
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/docker-proxy
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
+
+---------------------
 Name: bat
 DESCR: cat with colors & syntax highlights
 Download URL: https://bin.ajam.dev/x86_64_Linux/bat
@@ -158,6 +177,31 @@ DESCR: cat with colors & syntax highlights
 Download URL: https://bin.ajam.dev/x86_64_Linux/batcat
 REPO: https://github.com/sharkdp/bat
 Web URL: https://github.com/sharkdp/bat
+
+---------------------
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: serverstatus-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: gh-dash
@@ -173,45 +217,6 @@ REPO: https://github.com/cli/cli
 Web URL: https://github.com/cli/cli
 
 ---------------------
-Name: nezha-dashboard
-DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/nezha-dashboard
-REPO: https://github.com/naiba/nezha
-Web URL: https://nezha.wiki/en_US/
-
-Name: nezha-dashboard.openrc
-DESCR: Self-hosted, lightweight server and website monitoring and O&M tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/nezha-dashboard.openrc
-REPO: https://github.com/naiba/nezha
-Web URL: https://nezha.wiki/en_US/
-
----------------------
-Name: rage
-DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
-Download URL: https://bin.ajam.dev/x86_64_Linux/rage
-REPO: https://github.com/str4d/rage
-Web URL: https://github.com/str4d/rage
-
-Name: rage-keygen
-DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
-Download URL: https://bin.ajam.dev/x86_64_Linux/rage-keygen
-REPO: https://github.com/str4d/rage
-Web URL: https://github.com/str4d/rage
-
----------------------
-Name: serverstatus-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
----------------------
 Name: ipinfo
 DESCR: Official Command Line Interface for the IPinfo API
 Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo
@@ -223,19 +228,6 @@ DESCR: Official Command Line Interface for the IPinfo API
 Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo-cli
 REPO: https://github.com/ipinfo/cli
 Web URL: https://ipinfo.io/
-
----------------------
-Name: serverstatus-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: localxpose
@@ -251,6 +243,51 @@ REPO:
 Web URL: https://localxpose.io/
 
 ---------------------
+Name: gitpod
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gitpod-cli
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gp
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gp
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+---------------------
+Name: z-tokens
+DESCR: z-tokens -- random tokens generation and related tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/z-tokens
+REPO: https://github.com/volution/z-tokens
+Web URL: https://github.com/volution/z-tokens
+
+Name: z
+DESCR: A smarter cd command.
+Download URL: https://bin.ajam.dev/x86_64_Linux/z
+REPO: https://github.com/ajeetdsouza/zoxide
+Web URL: https://github.com/ajeetdsouza/zoxide
+
+---------------------
+Name: serverstatus-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
 Name: nu
 DESCR: A new type of shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/nu
@@ -262,19 +299,6 @@ DESCR: A new type of shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/nushell
 REPO: https://github.com/nushell/nushell
 Web URL: https://github.com/nushell/nushell
-
----------------------
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: unix2dos
@@ -290,17 +314,36 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: z-tokens
-DESCR: z-tokens -- random tokens generation and related tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/z-tokens
-REPO: https://github.com/volution/z-tokens
-Web URL: https://github.com/volution/z-tokens
+Name: containerd-shim-runc-v2
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd-shim-runc-v2
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
 
-Name: z
-DESCR: A smarter cd command.
-Download URL: https://bin.ajam.dev/x86_64_Linux/z
-REPO: https://github.com/ajeetdsouza/zoxide
-Web URL: https://github.com/ajeetdsouza/zoxide
+Name: runc
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/runc
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
+
+Name: runc
+DESCR: CLI tool for spawning and running containers according to the OCI specification
+Download URL: https://bin.ajam.dev/x86_64_Linux/runc
+REPO: https://github.com/opencontainers/runc
+Web URL: https://github.com/opencontainers/runc
+
+---------------------
+Name: rage
+DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+Download URL: https://bin.ajam.dev/x86_64_Linux/rage
+REPO: https://github.com/str4d/rage
+Web URL: https://github.com/str4d/rage
+
+Name: rage-keygen
+DESCR: A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+Download URL: https://bin.ajam.dev/x86_64_Linux/rage-keygen
+REPO: https://github.com/str4d/rage
+Web URL: https://github.com/str4d/rage
 
 ---------------------
 Name: dos2unix
@@ -355,83 +398,6 @@ REPO: https://github.com/sharkdp/fd
 Web URL: https://github.com/sharkdp/fd
 
 ---------------------
-Name: containerd
-DESCR: An open and reliable container runtime
-Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
-REPO: https://github.com/containerd/containerd
-Web URL: https://github.com/containerd/containerd
-
-Name: containerd
-DESCR: Container
-Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
----------------------
-Name: containerd-shim-runc-v2
-DESCR: Container
-Download URL: https://bin.ajam.dev/x86_64_Linux/containerd-shim-runc-v2
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
-Name: runc
-DESCR: Container
-Download URL: https://bin.ajam.dev/x86_64_Linux/runc
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
-Name: runc
-DESCR: CLI tool for spawning and running containers according to the OCI specification
-Download URL: https://bin.ajam.dev/x86_64_Linux/runc
-REPO: https://github.com/opencontainers/runc
-Web URL: https://github.com/opencontainers/runc
-
----------------------
-Name: u-root
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
-Name: uroot
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
----------------------
-Name: gobusybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/gobusybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: u-root-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/u-root-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: uroot-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/uroot-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
----------------------
-Name: gitpod-cli
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
-
-Name: gp
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gp
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
-
----------------------
 Name: sysinfo-collector
 DESCR: collect ram/cpu usage from OS and show it in pretty graphs
 Download URL: https://bin.ajam.dev/x86_64_Linux/sysinfo-collector
@@ -456,6 +422,19 @@ DESCR: Command line utilities for working with .desktop files
 Download URL: https://bin.ajam.dev/x86_64_Linux/desktop-file-install
 REPO: 
 Web URL: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+
+---------------------
+Name: kak
+DESCR: a better code editor
+Download URL: https://bin.ajam.dev/x86_64_Linux/kak
+REPO: https://github.com/mawww/kakoune
+Web URL: https://github.com/mawww/kakoune
+
+Name: kakoune
+DESCR: a better code editor
+Download URL: https://bin.ajam.dev/x86_64_Linux/kakoune
+REPO: https://github.com/mawww/kakoune
+Web URL: https://github.com/mawww/kakoune
 
 ---------------------
 Name: iperf
