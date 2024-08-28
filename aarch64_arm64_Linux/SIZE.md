@@ -9,8 +9,8 @@
   97M   ├── gitea
   92M   ├── promtail
   87M   ├── k9s
+  85M   ├── daytona
   84M   ├── istioctl
-  83M   ├── daytona
   77M   ├── hugo
   74M   ├── alist
   74M   ├── jr
@@ -47,7 +47,6 @@
   34M   ├── amass
   34M   ├── nezha-dashboard
   33M   ├── kopia
-  32M   ├── edgevpn
   32M   ├── naabu
   32M   ├── cloudreve
   32M   ├── fscan
@@ -61,15 +60,16 @@
   30M   ├── algernon
   30M   ├── sq
   29M   ├── dblab
+  29M   ├── edgevpn
   29M   ├── aix
   28M   ├── podman
   28M   ├── gowitness
   28M   ├── vpnkit
   28M   ├── v2raya
   28M   ├── melange
+  27M   ├── dbbench
   27M   ├── ngrok
   27M   ├── sing-box
-  27M   ├── dbbench
   26M   ├── sqlc
   26M   ├── qbittorrent-nox
   26M   ├── subfinder
@@ -96,11 +96,11 @@
   24M   ├── brutespray
   24M   ├── asnmap
   24M   ├── zellij
-  24M   ├── tailscaled
   24M   ├── pixi
+  24M   ├── tailscaled
   24M   ├── chaos-client
   24M   ├── dagu
-  23M   ├── docker
+  24M   ├── docker
   23M   ├── tusd
   23M   ├── restic
   23M   ├── grpcurl
@@ -140,13 +140,14 @@
   19M   ├── mise
   19M   ├── ruff
   19M   ├── miniflux
+  18M   ├── gickup
   18M   ├── mailpit
-  18M   ├── brook
-  18M   ├── jj
-  18M   ├── luet
   18M   ├── uroot-busybox
   18M   ├── u-root-busybox
   18M   ├── gobusybox
+  18M   ├── brook
+  18M   ├── jj
+  18M   ├── luet
   18M   ├── xetmnt
   18M   ├── sish
   18M   ├── nezha-agent
@@ -161,11 +162,10 @@
   17M   ├── exatorrent
   17M   ├── imix
   17M   ├── exatorrent-noui
-  17M   ├── gix
   17M   ├── sunbeam
   17M   ├── lazygit
   17M   ├── atuin
-  17M   ├── gickup
+  17M   ├── gix
   16M   ├── circumflex
   16M   ├── go-audit
   16M   ├── gp
@@ -207,8 +207,8 @@
   13M   ├── zerotier-idtool
   13M   ├── zerotier-cli
   13M   ├── reviewdog
-  13M   ├── yip
   13M   ├── yazi
+  13M   ├── yip
   13M   ├── garm-cli
   12M   ├── gdu
   12M   ├── opengfw
@@ -237,8 +237,8 @@
   11M   ├── mirrorbits
   11M   ├── jqp
   11M   ├── fq
-  11M   ├── sysbox-fs
   11M   ├── ein
+  11M   ├── sysbox-fs
   11M   ├── sysbox-mgr
   11M   ├── ssr-server-themed
   11M   ├── serverstatus-server-themed
@@ -274,12 +274,12 @@
  9.8M   ├── x8
  9.8M   ├── runc
  9.8M   ├── orbiton
- 9.8M   ├── git-cliff
  9.8M   ├── htb-cli
  9.8M   ├── shortscan
  9.7M   ├── resto
  9.7M   ├── goop
  9.7M   ├── oha
+ 9.6M   ├── git-cliff
  9.6M   ├── ngocok
  9.5M   ├── gotty
  9.5M   ├── yggdrasil
@@ -307,6 +307,7 @@
  8.9M   ├── stew
  8.8M   ├── cut-cdn
  8.8M   ├── tgpt
+ 8.8M   ├── wstunnel
  8.8M   ├── transmission-daemon
  8.8M   ├── pping
  8.7M   ├── openrisk
@@ -342,7 +343,6 @@
  8.0M   ├── binocle
  8.0M   ├── nomore403
  8.0M   ├── q
- 7.9M   ├── wstunnel
  7.9M   ├── aria2c
  7.9M   ├── ov
  7.9M   ├── cfssl-bundle
@@ -369,6 +369,7 @@
  7.4M   ├── revive
  7.4M   ├── gobuster
  7.4M   ├── subxtract
+ 7.3M   ├── rush
  7.3M   ├── husarnet
  7.3M   ├── dura
  7.3M   ├── xq
@@ -407,7 +408,6 @@
  6.7M   ├── cog
  6.7M   ├── elvish
  6.7M   ├── spk
- 6.7M   ├── rush
  6.6M   ├── zdns
  6.6M   ├── pingmole
  6.5M   ├── stunner
@@ -435,13 +435,13 @@
  6.1M   ├── uroot
  6.1M   ├── u-root
  6.0M   ├── wadl-dumper
+ 6.0M   ├── systemctl-tui
  5.9M   ├── cloak-server
  5.9M   ├── qemu-aarch64_be-static
  5.9M   ├── qemu-aarch64-static
  5.9M   ├── dperf
  5.9M   ├── rescope
  5.8M   ├── cobalt-cli
- 5.8M   ├── systemctl-tui
  5.8M   ├── wormhole-rs
  5.8M   ├── cfssljson
  5.8M   ├── wego
@@ -480,13 +480,13 @@
  5.2M   ├── clipcatctl
  5.2M   ├── delta
  5.2M   ├── unfurl
+ 5.2M   ├── vtm
  5.2M   ├── clipcat-notify
  5.2M   ├── warp-dex
  5.1M   ├── batcat
  5.1M   ├── bat
  5.1M   ├── git-tag
  5.1M   ├── volta
- 5.1M   ├── vtm
  5.1M   ├── gfx
  5.1M   ├── dizi-server
  5.1M   ├── presenterm
@@ -583,13 +583,13 @@
  4.1M   ├── validtoml
  4.1M   ├── dns-doctor
  4.0M   ├── agg-tunnel
- 4.0M   ├── tailspin
  4.0M   ├── ppfuzz
- 4.0M   ├── cfspeedtest
+ 4.0M   ├── tailspin
  4.0M   ├── qemu-mipsn32el-static
  4.0M   ├── qemu-mipsn32-static
  4.0M   ├── qemu-mips64el-static
  4.0M   ├── qemu-mips64-static
+ 4.0M   ├── cfspeedtest
  4.0M   ├── axel
  4.0M   ├── qemu-mipsel-static
  4.0M   ├── qemu-mips-static
@@ -740,8 +740,8 @@
  2.1M   ├── gf
  2.1M   ├── curlie
  2.0M   ├── phantun-client
- 2.0M   ├── pelfd-bin
  2.0M   ├── phantun-server
+ 2.0M   ├── pelfd-bin
  2.0M   ├── grex
  2.0M   ├── sd
  2.0M   ├── cexec
@@ -874,7 +874,7 @@
  588K   ├── docker-init
  584K   ├── mtr
  564K   ├── upx
- 548K   ├── neofetch
+ 552K   ├── neofetch
  544K   ├── ncdu
  516K   ├── oksh
  516K   ├── mount.fuse3
@@ -923,16 +923,16 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
- 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
  140K   ├── unix2mac
  140K   ├── unix2dos
+ 140K   ├── rust-hypervisor-firmware
  140K   ├── mac2unix
  140K   ├── ipt2socks
+ 140K   ├── hypervisor-fw
  140K   ├── dos2unix
  132K   ├── tracepath
  132K   ├── pwait
