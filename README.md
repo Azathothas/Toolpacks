@@ -47,7 +47,7 @@
 > - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks#-security-%EF%B8%8F)
 ---
 <!-- DO NOT CHANGE -->
-- #### 📦 Status 🔖
+- #### [📦 Status 🔖](https://trello.com/b/rxIHO8Zj/toolpacks-status)
 | 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 | 🧾Logs|
 |---------------------|-----------------------|-----------------|------------------|
 |[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|447| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|[BUILD.log](https://bin.ajam.dev/arm64_v8a_Android/BUILD.log.txt)|
@@ -55,6 +55,7 @@
 |[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2243| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt)|
 |[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.ajam.dev/x64_Windows/BUILD.log.txt)|
 
+> - A [Trello-Board](https://trello.com/b/rxIHO8Zj/toolpacks-status) informing the Build Status is at: [https://trello.com/b/rxIHO8Zj/toolpacks-status](https://trello.com/b/rxIHO8Zj/toolpacks-status)
 > - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/Azathothas/Toolpacks/main/METADATA.yaml).
 > - See: [Parse METADATA.json](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---

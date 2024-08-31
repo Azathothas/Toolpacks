@@ -9,7 +9,7 @@
   97M   ├── gitea
   92M   ├── promtail
   87M   ├── k9s
-  85M   ├── daytona
+  86M   ├── daytona
   84M   ├── istioctl
   77M   ├── hugo
   74M   ├── alist
@@ -42,10 +42,10 @@
   36M   ├── proxify
   36M   ├── containerd
   35M   ├── tdl
-  35M   ├── nushell
-  35M   ├── nu
-  34M   ├── amass
   34M   ├── nezha-dashboard
+  34M   ├── amass
+  34M   ├── nushell
+  34M   ├── nu
   33M   ├── kopia
   32M   ├── naabu
   32M   ├── cloudreve
@@ -122,11 +122,12 @@
   21M   ├── etcd
   21M   ├── shuffledns
   21M   ├── arduino-cli
-  21M   ├── boltconn
+  20M   ├── boltconn
   20M   ├── tuiarchiver
   20M   ├── dnspyre
   20M   ├── lux
   20M   ├── meli
+  20M   ├── nezha-agent
   20M   ├── alterx
   20M   ├── gum
   19M   ├── jira-cli
@@ -150,7 +151,6 @@
   18M   ├── luet
   18M   ├── xetmnt
   18M   ├── sish
-  18M   ├── nezha-agent
   18M   ├── gh-dash
   17M   ├── s3scanner
   17M   ├── chameleon
@@ -176,10 +176,10 @@
   15M   ├── warp
   15M   ├── golem
   15M   ├── hednsextractor
+  15M   ├── filebrowser
   15M   ├── findomain
   15M   ├── glow
   15M   ├── pgweb
-  15M   ├── filebrowser
   14M   ├── cloudcash
   14M   ├── tinja
   14M   ├── termshark
@@ -193,21 +193,21 @@
   13M   ├── smap
   13M   ├── pgrokd
   13M   ├── clipcatd
+  13M   ├── hrekt
   13M   ├── ssr-server
   13M   ├── serverstatus-server
-  13M   ├── hrekt
   13M   ├── godns
   13M   ├── sysbox-runc
   13M   ├── listmonk
   13M   ├── rqbit
+  13M   ├── netmaker
   13M   ├── etcdutl
   13M   ├── wiretap
-  13M   ├── netmaker
   13M   ├── zerotier-one
   13M   ├── zerotier-idtool
   13M   ├── zerotier-cli
-  13M   ├── reviewdog
   13M   ├── yazi
+  13M   ├── reviewdog
   13M   ├── yip
   13M   ├── garm-cli
   12M   ├── gdu
@@ -285,10 +285,10 @@
  9.5M   ├── yggdrasil
  9.4M   ├── gitql
  9.4M   ├── rebuilderd-worker
+ 9.4M   ├── broot
  9.4M   ├── tut
  9.4M   ├── archey
  9.4M   ├── redguard
- 9.4M   ├── broot
  9.3M   ├── hurl
  9.2M   ├── csprecon
  9.2M   ├── sttr
@@ -349,8 +349,8 @@
  7.9M   ├── starship
  7.9M   ├── pingtunnel
  7.8M   ├── gau
- 7.8M   ├── hostctl
  7.8M   ├── agg-speed
+ 7.8M   ├── hostctl
  7.8M   ├── enola
  7.8M   ├── wireproxy
  7.8M   ├── monolith
@@ -372,7 +372,6 @@
  7.3M   ├── rush
  7.3M   ├── husarnet
  7.3M   ├── dura
- 7.3M   ├── xq
  7.2M   ├── fasttld
  7.2M   ├── pwninit
  7.2M   ├── curl
@@ -409,6 +408,7 @@
  6.7M   ├── elvish
  6.7M   ├── spk
  6.6M   ├── zdns
+ 6.6M   ├── xq
  6.6M   ├── pingmole
  6.5M   ├── stunner
  6.5M   ├── fuzzuli
@@ -416,6 +416,7 @@
  6.5M   ├── sysinfo-collector
  6.5M   ├── yalis
  6.4M   ├── hub
+ 6.4M   ├── dbin
  6.4M   ├── gitleaks
  6.4M   ├── ctlwatcher
  6.3M   ├── yggdrasilctl
@@ -426,7 +427,6 @@
  6.3M   ├── aretext
  6.2M   ├── xplr
  6.2M   ├── bigdl
- 6.2M   ├── dbin
  6.1M   ├── go-simplehttpserver
  6.1M   ├── allxfr
  6.1M   ├── cherrybomb
@@ -580,9 +580,9 @@
  4.1M   ├── ouch
  4.1M   ├── hysp
  4.1M   ├── gorilla
+ 4.1M   ├── agg-tunnel
  4.1M   ├── validtoml
  4.1M   ├── dns-doctor
- 4.0M   ├── agg-tunnel
  4.0M   ├── ppfuzz
  4.0M   ├── tailspin
  4.0M   ├── qemu-mipsn32el-static
@@ -615,9 +615,9 @@
  3.6M   ├── passdetective
  3.5M   ├── pspy
  3.5M   ├── tun2proxy
+ 3.5M   ├── fzf
  3.5M   ├── qemu-loongarch64-static
  3.5M   ├── agrind
- 3.5M   ├── fzf
  3.4M   ├── horust
  3.4M   ├── spiped
  3.4M   ├── age
@@ -647,9 +647,9 @@
  3.1M   ├── hcxpmktool
  3.1M   ├── ripgen
  3.1M   ├── viu
- 3.1M   ├── just
  3.1M   ├── walk
  3.1M   ├── txeh
+ 3.0M   ├── just
  3.0M   ├── qemu-hppa-static
  3.0M   ├── kalker
  3.0M   ├── mosh-client
@@ -729,6 +729,7 @@
  2.2M   ├── shortutil
  2.2M   ├── ffufPostprocessing
  2.1M   ├── htmlq
+ 2.1M   ├── eza
  2.1M   ├── duf
  2.1M   ├── ht
  2.1M   ├── revit
@@ -740,8 +741,8 @@
  2.1M   ├── gf
  2.1M   ├── curlie
  2.0M   ├── phantun-client
- 2.0M   ├── pelfd-bin
  2.0M   ├── phantun-server
+ 2.0M   ├── pelfd-bin
  2.0M   ├── grex
  2.0M   ├── sd
  2.0M   ├── cexec
@@ -759,7 +760,6 @@
  1.9M   ├── sqlite3
  1.9M   ├── mergerfs
  1.9M   ├── deark
- 1.9M   ├── eza
  1.9M   ├── redive
  1.9M   ├── inscope
  1.8M   ├── runiq
@@ -909,7 +909,6 @@
  216K   ├── zapper
  212K   ├── zapper-stealth
  212K   ├── reptyr
- 208K   ├── sar
  208K   ├── ping
  204K   ├── nfs-stat
  204K   ├── nfs-ls
@@ -923,16 +922,17 @@
  196K   ├── migratepages
  196K   ├── memhog
  196K   ├── hcxdumptool
- 180K   ├── rust-hypervisor-firmware
+ 192K   ├── sar
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
  140K   ├── unix2mac
  140K   ├── unix2dos
+ 140K   ├── rust-hypervisor-firmware
  140K   ├── mac2unix
  140K   ├── ipt2socks
+ 140K   ├── hypervisor-fw
  140K   ├── dos2unix
  132K   ├── tracepath
  132K   ├── pwait
