@@ -9,7 +9,7 @@
  102M   ├── gitea
   94M   ├── promtail
   90M   ├── k9s
-  88M   ├── daytona
+  89M   ├── daytona
   86M   ├── istioctl
   79M   ├── hugo
   78M   ├── jr
@@ -48,8 +48,8 @@
   36M   ├── nushell
   36M   ├── nu
   36M   ├── tdl
-  35M   ├── amass
   35M   ├── nezha-dashboard
+  35M   ├── amass
   34M   ├── sliver-client
   33M   ├── cloudreve
   33M   ├── naabu
@@ -135,14 +135,15 @@
   22M   ├── reader
   22M   ├── jj
   22M   ├── etcd
+  22M   ├── libaws-cli
+  22M   ├── libaws
   22M   ├── imix
   21M   ├── shuffledns
-  21M   ├── libaws-cli
-  21M   ├── libaws
   21M   ├── arduino-cli
   21M   ├── dnspyre
   21M   ├── tuiarchiver
   21M   ├── lux
+  21M   ├── nezha-agent
   21M   ├── atuin
   21M   ├── gix
   20M   ├── jira-cli
@@ -165,7 +166,6 @@
   19M   ├── gum
   19M   ├── s3scanner
   18M   ├── sish
-  18M   ├── nezha-agent
   18M   ├── rekor-cli
   18M   ├── gh-dash
   18M   ├── ctr
@@ -192,11 +192,11 @@
   16M   ├── ssr-server
   16M   ├── serverstatus-server
   16M   ├── findomain
+  16M   ├── filebrowser
   15M   ├── glow
   15M   ├── pgweb
-  15M   ├── termshark
   15M   ├── yazi
-  15M   ├── filebrowser
+  15M   ├── termshark
   15M   ├── cloudcash
   15M   ├── rqbit
   15M   ├── tinja
@@ -214,8 +214,8 @@
   14M   ├── pgrokd
   14M   ├── certwatcher
   14M   ├── listmonk
-  14M   ├── mdcat
   14M   ├── netmaker
+  14M   ├── mdcat
   14M   ├── smap
   14M   ├── wiretap
   14M   ├── yip
@@ -259,23 +259,23 @@
   11M   ├── fq
   11M   ├── jqp
   11M   ├── wstunnel
-  11M   ├── sysbox-mgr
   11M   ├── nmctl
+  11M   ├── sysbox-mgr
   11M   ├── taplo
   11M   ├── warp-svc
   11M   ├── gitui
   11M   ├── cfssl
   11M   ├── vfox
-  11M   ├── micro
   11M   ├── feroxbuster
   11M   ├── sshportal
   11M   ├── ehole
   11M   ├── multirootca
   11M   ├── hurl
   11M   ├── hakrawler
-  11M   ├── broot
+  11M   ├── micro
   11M   ├── pktstat
   11M   ├── lazydocker
+  11M   ├── broot
   11M   ├── cheat
   11M   ├── fx
   11M   ├── netscanner
@@ -303,8 +303,8 @@
 10.0M   ├── ngocok
 10.0M   ├── shortscan
  9.9M   ├── noir
- 9.9M   ├── nix-channel-index
  9.9M   ├── agg-speed
+ 9.9M   ├── nix-channel-index
  9.9M   ├── tut
  9.8M   ├── gotty
  9.8M   ├── gitql
@@ -404,7 +404,6 @@
  7.5M   ├── pretender
  7.5M   ├── git-log
  7.5M   ├── sake
- 7.5M   ├── xq
  7.5M   ├── puredns
  7.4M   ├── fingerprintx
  7.4M   ├── git-clone
@@ -423,8 +422,8 @@
  7.1M   ├── sf
  7.1M   ├── exiflooter
  7.1M   ├── eget
- 7.1M   ├── websocat
  7.1M   ├── systemctl-tui
+ 7.1M   ├── websocat
  7.1M   ├── sshx
  7.1M   ├── zfind
  7.1M   ├── cfspeed
@@ -437,10 +436,12 @@
  6.8M   ├── stunner
  6.8M   ├── trip
  6.8M   ├── fuzzuli
+ 6.8M   ├── xq
  6.8M   ├── fscan
  6.8M   ├── cloak-client
  6.8M   ├── delta
  6.7M   ├── yalis
+ 6.7M   ├── dbin
  6.7M   ├── hub
  6.7M   ├── qemu-xtensaeb-static
  6.7M   ├── boxxy
@@ -453,7 +454,6 @@
  6.5M   ├── rga
  6.5M   ├── xplr
  6.5M   ├── fnm
- 6.5M   ├── dbin
  6.5M   ├── bigdl
  6.4M   ├── go-simplehttpserver
  6.4M   ├── volta
@@ -487,8 +487,8 @@
  5.9M   ├── waybackrobots
  5.9M   ├── web-cache-vulnerability-scanner
  5.9M   ├── dperf
+ 5.9M   ├── rustcan
  5.9M   ├── nginx
- 5.8M   ├── rustcan
  5.8M   ├── dizi
  5.8M   ├── cowitness
  5.8M   ├── goanywhere
@@ -580,12 +580,12 @@
  4.8M   ├── rootlesskit-docker-proxy
  4.8M   ├── sshd
  4.8M   ├── certstream
+ 4.8M   ├── agg-tunnel
  4.8M   ├── qemu-hexagon-static
  4.8M   ├── socat
  4.8M   ├── fblog
  4.8M   ├── mani
  4.8M   ├── jnv
- 4.8M   ├── agg-tunnel
  4.7M   ├── gxss
  4.7M   ├── ncat
  4.7M   ├── bottom
@@ -631,8 +631,8 @@
  4.0M   ├── hurlfmt
  4.0M   ├── makebbmain
  4.0M   ├── qemu-armeb-static
- 4.0M   ├── qemu-arm-static
  4.0M   ├── tokei
+ 4.0M   ├── qemu-arm-static
  4.0M   ├── kalker
  4.0M   ├── hwatch
  4.0M   ├── gojq
@@ -643,11 +643,11 @@
  3.9M   ├── qemu-mips64el-static
  3.9M   ├── fd-find
  3.9M   ├── fd
- 3.9M   ├── just
  3.9M   ├── qemu-mips-static
  3.9M   ├── qemu-mipsel-static
  3.9M   ├── twingate-notifier
  3.9M   ├── pfetch-rs
+ 3.8M   ├── just
  3.8M   ├── kanha
  3.8M   ├── xcp
  3.8M   ├── qemu-ppc64-static
@@ -668,8 +668,8 @@
  3.6M   ├── find-rs
  3.6M   ├── passdetective
  3.6M   ├── lsd
- 3.6M   ├── deoptimizer
  3.6M   ├── fzf
+ 3.6M   ├── deoptimizer
  3.6M   ├── hcxpsktool
  3.6M   ├── pspy
  3.6M   ├── 7z
@@ -758,8 +758,8 @@
  2.5M   ├── zt-exchange
  2.5M   ├── boringtun-cli
  2.5M   ├── systeroid
- 2.4M   ├── pelfd
  2.4M   ├── phantun-client
+ 2.4M   ├── pelfd
  2.4M   ├── geodns
  2.4M   ├── geoping
  2.4M   ├── tz
