@@ -13,15 +13,11 @@ arm-linux-gnueabi
 arm-linux-gnueabihf
 arm-linux-musleabi
 arm-linux-musleabihf
-thumb-linux-gnueabi
-thumb-linux-gnueabihf
 thumb-linux-musleabi
 thumb-linux-musleabihf
-thumbeb-linux-gnueabi
-thumbeb-linux-gnueabihf
 thumbeb-linux-musleabi
 thumbeb-linux-musleabihf
-arm-windows-gnu
+thumb-windows-gnu
 csky-linux-gnueabi
 csky-linux-gnueabihf
 x86-linux-gnu
