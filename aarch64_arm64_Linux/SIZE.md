@@ -142,13 +142,13 @@
   19M   ├── ruff
   19M   ├── miniflux
   18M   ├── gickup
-  18M   ├── mailpit
   18M   ├── uroot-busybox
   18M   ├── u-root-busybox
   18M   ├── gobusybox
   18M   ├── brook
-  18M   ├── jj
+  18M   ├── mailpit
   18M   ├── luet
+  18M   ├── jj
   18M   ├── xetmnt
   18M   ├── sish
   18M   ├── gh-dash
@@ -255,6 +255,7 @@
   10M   ├── ehole
   10M   ├── sshportal
   10M   ├── warp-svc
+  10M   ├── pdfcpu
   10M   ├── cheat
   10M   ├── supervisord
   10M   ├── lazydocker
@@ -262,7 +263,6 @@
   10M   ├── ksubdomain
   10M   ├── feroxbuster
   10M   ├── gosmee
-  10M   ├── pdfcpu
   10M   ├── taplo
   10M   ├── scilla
   10M   ├── vegeta
@@ -450,10 +450,10 @@
  5.7M   ├── websocat
  5.7M   ├── amp
  5.6M   ├── web-cache-vulnerability-scanner
+ 5.6M   ├── trip
  5.6M   ├── cowitness
  5.6M   ├── waybackrobots
  5.6M   ├── goanywhere
- 5.6M   ├── trip
  5.6M   ├── decpu
  5.5M   ├── hcxhashtool
  5.5M   ├── wlancap2wpasec
@@ -477,14 +477,15 @@
  5.3M   ├── sourcemapper
  5.3M   ├── roboxtractor
  5.3M   ├── github-regexp
+ 5.2M   ├── crawley
  5.2M   ├── clipcatctl
  5.2M   ├── delta
  5.2M   ├── unfurl
  5.2M   ├── vtm
  5.2M   ├── clipcat-notify
  5.2M   ├── warp-dex
- 5.1M   ├── batcat
- 5.1M   ├── bat
+ 5.2M   ├── batcat
+ 5.2M   ├── bat
  5.1M   ├── git-tag
  5.1M   ├── volta
  5.1M   ├── gfx
@@ -509,7 +510,6 @@
  5.0M   ├── xbps-create
  5.0M   ├── waybackurls
  5.0M   ├── assetfinder
- 4.9M   ├── crawley
  4.8M   ├── wth
  4.8M   ├── qemu-hexagon-static
  4.8M   ├── jwt-hack
@@ -538,9 +538,9 @@
  4.5M   ├── xbps-install
  4.5M   ├── macchina
  4.5M   ├── warp-cli
+ 4.4M   ├── procs
  4.4M   ├── elinks-lite
  4.4M   ├── elinks
- 4.4M   ├── procs
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
  4.4M   ├── enumerepo
@@ -583,8 +583,8 @@
  4.1M   ├── agg-tunnel
  4.1M   ├── validtoml
  4.1M   ├── dns-doctor
- 4.0M   ├── ppfuzz
  4.0M   ├── tailspin
+ 4.0M   ├── ppfuzz
  4.0M   ├── qemu-mipsn32el-static
  4.0M   ├── qemu-mipsn32-static
  4.0M   ├── qemu-mips64el-static
@@ -884,7 +884,7 @@
  476K   ├── zt-encodings
  452K   ├── scp
  408K   ├── generate-bidi
- 400K   ├── shellharden
+ 404K   ├── shellharden
  400K   ├── sadf
  388K   ├── nnn
  388K   ├── mdp
@@ -923,16 +923,16 @@
  196K   ├── memhog
  196K   ├── hcxdumptool
  192K   ├── sar
- 180K   ├── rust-hypervisor-firmware
  180K   ├── jsmug
- 180K   ├── hypervisor-fw
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
  140K   ├── unix2mac
  140K   ├── unix2dos
+ 140K   ├── rust-hypervisor-firmware
  140K   ├── mac2unix
  140K   ├── ipt2socks
+ 140K   ├── hypervisor-fw
  140K   ├── dos2unix
  132K   ├── tracepath
  132K   ├── pwait
