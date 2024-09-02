@@ -160,9 +160,9 @@
   19M   ├── miniflux
   19M   ├── gickup
   19M   ├── go-audit
-  19M   ├── mailpit
   19M   ├── brook
   19M   ├── luet
+  19M   ├── mailpit
   19M   ├── gum
   19M   ├── s3scanner
   18M   ├── sish
@@ -178,8 +178,8 @@
   17M   ├── lazygit
   17M   ├── chameleon
   17M   ├── twingate-connector
-  17M   ├── circumflex
   17M   ├── act
+  17M   ├── circumflex
   17M   ├── gp
   17M   ├── gitpod-cli
   16M   ├── sn0int
@@ -220,8 +220,8 @@
   14M   ├── wiretap
   14M   ├── yip
   13M   ├── reviewdog
-  13M   ├── etcdutl
   13M   ├── ein
+  13M   ├── etcdutl
   13M   ├── ssr-server-themed
   13M   ├── serverstatus-server-themed
   13M   ├── gdu
@@ -270,6 +270,7 @@
   11M   ├── sshportal
   11M   ├── ehole
   11M   ├── multirootca
+  11M   ├── pdfcpu
   11M   ├── hurl
   11M   ├── hakrawler
   11M   ├── micro
@@ -284,7 +285,6 @@
   10M   ├── gip
   10M   ├── gosmee
   10M   ├── watchexec
-  10M   ├── pdfcpu
   10M   ├── ksubdomain
   10M   ├── coreutils
   10M   ├── scilla
@@ -523,6 +523,7 @@
  5.5M   ├── sourcemapper
  5.4M   ├── xbps-query
  5.4M   ├── unfurl
+ 5.4M   ├── crawley
  5.4M   ├── git-tag
  5.4M   ├── xbps-uhelper
  5.4M   ├── xbps-reconfigure
@@ -555,7 +556,6 @@
  5.2M   ├── decpud
  5.1M   ├── openvpn
  5.1M   ├── tailspin
- 5.1M   ├── crawley
  5.1M   ├── mcfly
  5.0M   ├── fget
  5.0M   ├── wth
@@ -582,8 +582,8 @@
  4.8M   ├── certstream
  4.8M   ├── agg-tunnel
  4.8M   ├── qemu-hexagon-static
- 4.8M   ├── socat
  4.8M   ├── fblog
+ 4.8M   ├── socat
  4.8M   ├── mani
  4.8M   ├── jnv
  4.7M   ├── gxss
@@ -919,7 +919,7 @@
  476K   ├── visudo
  460K   ├── generate-bidi
  460K   ├── dropbear
- 448K   ├── shellharden
+ 452K   ├── shellharden
  448K   ├── mount.fuse3
  444K   ├── sbase-box
  444K   ├── loksh
