@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53574
+- **Stars:** 53575
 - **Version:** v0.2.66
 - **Updated:** 2024-09-01T02:29:40Z
 - **Size:** 19.31 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1834
 - **Version:** v1.33.1
-- **Updated:** 2024-09-01T18:20:14Z
+- **Updated:** 2024-09-02T00:07:54Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** f56e341d08730d38ebd7b2e66e71beb471f16638b375e17efa9f9519260d6814
 - **B3SUM:** c4748961dabb480d139b21f240d2337ed6ec679ddc09bf81a22ece393cdb346d
@@ -207,7 +207,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 45871
+- **Stars:** 45872
 - **Version:** v1.67.0
 - **Updated:** 2024-08-31T20:31:26Z
 - **Size:** 85.18 MB
@@ -224,7 +224,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2655
+- **Stars:** 2656
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -258,7 +258,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18405
+- **Stars:** 18406
 - **Version:** v1.72.1
 - **Updated:** 2024-08-31T21:10:37Z
 - **Size:** 12.01 MB
@@ -275,7 +275,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18405
+- **Stars:** 18406
 - **Version:** v1.72.1
 - **Updated:** 2024-08-31T21:10:37Z
 - **Size:** 26.25 MB
@@ -292,7 +292,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18405
+- **Stars:** 18406
 - **Version:** v1.72.1
 - **Updated:** 2024-08-31T21:10:37Z
 - **Size:** 24.14 MB
