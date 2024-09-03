@@ -177,13 +177,15 @@
          #Deps 
           sudo apt install lm-sensors pciutils procps python3-distro python3-netifaces sysfsutils virt-what -y 2>/dev/null
           sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev scons xcb -y 2>/dev/null
-          pip install build cffi scons scuba pytest --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --upgrade 2>/dev/null
-          pip install build cffi scons scuba pytest --break-system-packages --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --break-system-packages --upgrade 2>/dev/null
+          pip install build cffi scons scuba pytest --upgrade --force 2>/dev/null ; pip install ansi2txt pipx scons py2static typer --upgrade --force 2>/dev/null
+          pip install build cffi scons scuba pytest --break-system-packages --upgrade --force 2>/dev/null ; pip install ansi2txt pipx scons py2static typer --break-system-packages --upgrade --force 2>/dev/null
           #Nutika
           #pip install nuitka --break-system-packages --upgrade ; nuitka3 --version
           pip install "git+https://github.com/Nuitka/Nuitka" --break-system-packages --force-reinstall --upgrade ; nuitka3 --version
           #Pex
           pip install "git+https://github.com/pex-tool/pex" --break-system-packages --force-reinstall --upgrade ; pex --version
+          #pyinstaller
+          pip install "git+https://github.com/pyinstaller/pyinstaller" --break-system-packages --force-reinstall --upgrade ; pyinstaller --version
          ##Addons
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
     fi
@@ -314,6 +316,21 @@
              cargo install cross --git "https://github.com/cross-rs/cross"
              sudo ldconfig && sudo ldconfig -p
           fi
+         #----------------------#
+         #staticx: https://github.com/JonathonReinhart/staticx/blob/main/.github/workflows/build-test.yml
+          pushd "$($TMPDIRS)" >/dev/null 2>&1
+          #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
+          git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
+          #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
+          pip install -r "./requirements.txt" --break-system-packages --upgrade --force
+          sudo apt-get update -y
+          sudo apt-get install -y busybox musl-tools scons
+          export BOOTLOADER_CC="musl-gcc"
+          rm -rf build dist scons_build staticx/assets
+          python -m build
+          pip install dist/staticx-*-py3-none-manylinux1_x86_64.whl --break-system-packages --upgrade --force
+          staticx --version ; unset BOOTLOADER_CC
+          popd >/dev/null 2>&1          
          #----------------------# 
          #v-lang: https://github.com/vlang/v/blob/master/README.md#installing-v-from-source
           sudo rm -rf "/opt/vlang" ; sudo mkdir -p "/opt/vlang"
