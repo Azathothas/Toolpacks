@@ -21,9 +21,9 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #wget
-     export BIN="wget" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://www.gnu.org/software/wget/" #github/gitlab/homepage/etc for $BIN
+    #wget: Tool for retrieving files using HTTP, HTTPS, and FTP
+     export BIN="wget"
+     export SOURCE_URL="https://www.gnu.org/software/wget/"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
