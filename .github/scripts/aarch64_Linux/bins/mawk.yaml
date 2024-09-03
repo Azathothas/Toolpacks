@@ -1,0 +1,7 @@
+name: "mawk"
+description: "Interpreter for the AWK Programming Language"
+web_url: "https://invisible-island.net/mawk/mawk.html"
+repo_url: "https://github.com/ThomasDickey/mawk-snapshots"
+path: "/"
+bins:
+  - "mawk"
