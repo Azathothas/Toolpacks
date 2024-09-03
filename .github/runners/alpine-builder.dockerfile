@@ -217,6 +217,8 @@ RUN <<EOS
   apk add libpq --latest --upgrade --no-interactive 2>/dev/null
   apk add libpq-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libpulse --latest --upgrade --no-interactive 2>/dev/null
+  apk add librtlsdr --latest --upgrade --no-interactive 2>/dev/null
+  apk add librtlsdr-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libseccomp --latest --upgrade --no-interactive 2>/dev/null
   apk add libseccomp-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libseccomp-static --latest --upgrade --no-interactive 2>/dev/null
