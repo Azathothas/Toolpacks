@@ -29,7 +29,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.iotop-c" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        sudo strip "./result/bin/iotop-c" ; file "./result/bin/iotop-c" && du -sh "./result/bin/iotop-c"
-       cp "./result/bin/iotop-c" "$BINDIR/iotop-c"
+       cp "./result/bin/iotop-c" "$BINDIR/iotop-c" ; cp "$BINDIR/iotop-c" "$BINDIR/iotop"
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

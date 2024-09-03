@@ -5,3 +5,4 @@ repo_url: "https://github.com/Tomas-M/iotop"
 path: "/"
 bins:
   - "iotop-c"
+  - "iotop"
