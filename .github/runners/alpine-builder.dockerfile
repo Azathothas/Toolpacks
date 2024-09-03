@@ -522,6 +522,9 @@ RUN <<EOS
  #Eget for simplified releases
   wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/eget" -O "/usr/bin/eget"
   chmod +xwr "/usr/bin/eget"
+ #Micro
+  wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/micro" -O "/usr/bin/micro"
+  chmod +xwr "/usr/bin/micro"
 EOS
 #------------------------------------------------------------------------------------#
 ##Config
