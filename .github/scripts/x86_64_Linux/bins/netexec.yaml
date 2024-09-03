@@ -1,0 +1,8 @@
+name: "netexec"
+description: "The Network Execution (CrackMapExec) Tool"
+web_url: "https://netexec.wiki/"
+repo_url: "https://github.com/Pennyw0rth/NetExec"
+path: "/"
+bins:
+  - "netexec"
+  - "netexec_dynamic"
