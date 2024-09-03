@@ -1,0 +1,7 @@
+name: "iotop-c"
+description: "A top utility for IO"
+web_url: "https://github.com/Tomas-M/iotop"
+repo_url: "https://github.com/Tomas-M/iotop"
+path: "/"
+bins:
+  - "iotop-c"
