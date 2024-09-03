@@ -14,8 +14,10 @@ RUN <<EOS
   apk add alsa-lib-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add alsa-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add alsa-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add argp-standalone --latest --upgrade --no-interactive 2>/dev/null
   apk add aria2 --latest --upgrade --no-interactive 2>/dev/null
   apk add asciidoc --latest --upgrade --no-interactive 2>/dev/null
+  apk add asciidoctor --latest --upgrade --no-interactive 2>/dev/null
   apk add attr-static --latest --upgrade --no-interactive 2>/dev/null
   apk add autoconf --latest --upgrade --no-interactive 2>/dev/null
   apk add autoconf-archive --latest --upgrade --no-interactive 2>/dev/null
@@ -23,6 +25,8 @@ RUN <<EOS
   apk add b3sum --latest --upgrade --no-interactive 2>/dev/null
   apk add bash --latest --upgrade --no-interactive 2>/dev/null
   apk add bc --latest --upgrade --no-interactive 2>/dev/null
+  apk add bcc-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add bcc-static --latest --upgrade --no-interactive 2>/dev/null
   apk add bearssl --latest --upgrade --no-interactive 2>/dev/null
   apk add bearssl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add bearssl-libs --latest --upgrade --no-interactive 2>/dev/null
@@ -58,6 +62,7 @@ RUN <<EOS
   apk add capstone-static --latest --upgrade --no-interactive 2>/dev/null
   apk add ccache --latest --upgrade --no-interactive 2>/dev/null
   apk add ceph-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add cereal --latest --upgrade --no-interactive 2>/dev/null
   apk add ck --latest --upgrade --no-interactive 2>/dev/null
   apk add ck-static --latest --upgrade --no-interactive 2>/dev/null
   apk add clang --latest --upgrade --no-interactive 2>/dev/null
@@ -128,6 +133,7 @@ RUN <<EOS
   apk add gperf --latest --upgrade --no-interactive 2>/dev/null
   apk add gpsd-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add grep --latest --upgrade --no-interactive 2>/dev/null
+  apk add gtest-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add help2man --latest --upgrade --no-interactive 2>/dev/null
   apk add hostapd --latest --upgrade --no-interactive 2>/dev/null
   apk add hwloc-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -163,6 +169,7 @@ RUN <<EOS
   apk add libblkid --latest --upgrade --no-interactive 2>/dev/null
   apk add libbpf --latest --upgrade --no-interactive 2>/dev/null
   apk add libbpf-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libc6-compat --latest --upgrade --no-interactive 2>/dev/null
   apk add libc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libcaca --latest --upgrade --no-interactive 2>/dev/null
   apk add libcaca-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -181,6 +188,7 @@ RUN <<EOS
   apk add libdw --latest --upgrade --no-interactive 2>/dev/null
   apk add libedit-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libelf --latest --upgrade --no-interactive 2>/dev/null
+  apk add libelf-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libepoxy --latest --upgrade --no-interactive 2>/dev/null
   apk add libepoxy-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libevent --latest --upgrade --no-interactive 2>/dev/null
@@ -297,6 +305,8 @@ RUN <<EOS
   apk add linux-pam-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add linux-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add linux-tools-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add llvm16-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add llvm16-static --latest --upgrade --no-interactive 2>/dev/null
   apk add llvm17 --latest --upgrade --no-interactive 2>/dev/null
   apk add llvm17-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add llvm17-linker-tools --latest --upgrade --no-interactive 2>/dev/null
@@ -330,6 +340,7 @@ RUN <<EOS
   apk add musl --latest --upgrade --no-interactive 2>/dev/null
   apk add musl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add musl-fts --latest --upgrade --no-interactive 2>/dev/null
+  apk add musl-obstack-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add musl-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add nano --latest --upgrade --no-interactive 2>/dev/null
   apk add ncdu --latest --upgrade --no-interactive 2>/dev/null
@@ -369,6 +380,7 @@ RUN <<EOS
   apk add openssl --latest --upgrade --no-interactive 2>/dev/null
   apk add openssl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add openssl-libs-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add pahole --latest --upgrade --no-interactive 2>/dev/null
   apk add pam-u2f --latest --upgrade --no-interactive 2>/dev/null
   apk add pango --latest --upgrade --no-interactive 2>/dev/null
   apk add pango-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -500,6 +512,7 @@ RUN <<EOS
   apk add xfsprogs --latest --upgrade --no-interactive 2>/dev/null
   apk add xfsprogs-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xfsprogs-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add xxd --latest --upgrade --no-interactive 2>/dev/null
   apk add xz --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add xz-libs --latest --upgrade --no-interactive 2>/dev/null
