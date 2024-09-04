@@ -747,6 +747,7 @@ jobs:
           chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
           dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
           bash "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BINS.yaml"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -830,6 +831,7 @@ jobs:
           chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
           dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
           bash "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BINS.yaml"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -913,6 +915,7 @@ jobs:
           chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
           dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
           bash "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/x86_64_Linux/BINS.yaml"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -996,6 +999,7 @@ jobs:
           chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
           dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
           bash "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/x64_Windows/BINS.yaml"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -1171,40 +1175,80 @@ jobs:
           fi   
         continue-on-error: true
 
-      - name: Check Duplicates (arm64_v8a_Android)
+      - name: Check Health (arm64_v8a_Android)
         run: |
           # Presets
           set +x ; set +e
           #--------------#
           rclone copyto "r2:/bin/arm64_v8a_Android/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Duplicates
           jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/DUPLICATES.txt"
+          #Duplicates (overwrites)
+          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
+          for dupe in "${dupes[@]}"; do
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BINS.yaml" | paste -sd ' ')
+            echo "$dupe --> $names_and_paths"
+          done | tee "$GITHUB_WORKSPACE/main/arm64_v8a_Android/DUPLICATES_OVERWRITES.txt"          
+          #Dates
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BUILD_DATES.txt"
         continue-on-error: true
 
-      - name: Check Duplicates (aarch64_arm64_Linux)
+      - name: Check Health (aarch64_arm64_Linux)
         run: |
           # Presets
           set +x ; set +e
           #--------------#
           rclone copyto "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Duplicates
           jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/DUPLICATES.txt"
+          #Duplicates (overwrites)
+          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
+          for dupe in "${dupes[@]}"; do
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BINS.yaml" | paste -sd ' ')
+            echo "$dupe --> $names_and_paths"
+          done | tee "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/DUPLICATES_OVERWRITES.txt"          
+          #Dates
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_DATES.txt"
         continue-on-error: true
 
-      - name: Check Duplicates (x86_64_Linux)
+      - name: Check Health (x86_64_Linux)
         run: |
           # Presets
           set +x ; set +e
           #--------------#
           rclone copyto "r2:/bin/x86_64_Linux/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Duplicates
           jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/x86_64_Linux/DUPLICATES.txt"
+          #Duplicates (overwrites)
+          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/x86_64_Linux/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
+          for dupe in "${dupes[@]}"; do
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/x86_64_Linux/BINS.yaml" | paste -sd ' ')
+            echo "$dupe --> $names_and_paths"
+          done | tee "$GITHUB_WORKSPACE/main/x86_64_Linux/DUPLICATES_OVERWRITES.txt"
+          #Dates
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_DATES.txt"
         continue-on-error: true
 
-      - name: Check Duplicates (x64_Windows)
+      - name: Check Health (x64_Windows)
         run: |
           # Presets
           set +x ; set +e
           #--------------#
           rclone copyto "r2:/bin/x64_Windows/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Duplicates
           jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/x64_Windows/DUPLICATES.txt"
+          #Duplicates (overwrites)
+          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/x64_Windows/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
+          for dupe in "${dupes[@]}"; do
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/x64_Windows/BINS.yaml" | paste -sd ' ')
+            echo "$dupe --> $names_and_paths"
+          done | tee "$GITHUB_WORKSPACE/main/x64_Windows/DUPLICATES_OVERWRITES.txt"          
+          #Dates
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/x64_Windows/BUILD_DATES.txt"
         continue-on-error: true
 
       - name: Get DateTime
