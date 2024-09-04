@@ -1,9 +1,10 @@
 ```mathematica
-  10G └─┬ toolpack_x86_64
+  11G └─┬ toolpack_x86_64
  169M   ├── usql
  161M   ├── sliver-server
  159M   ├── traefik
  151M   ├── cloudfox
+ 149M   ├── bpftrace
  143M   ├── aws-nuke
  113M   ├── cloudlist
  110M   ├── trufflehog
@@ -36,9 +37,9 @@
   48M   ├── bearer
   48M   ├── matterbridge
   47M   ├── gh
+  47M   ├── xet_staticx
   46M   ├── rekor-server
   46M   ├── rekor
-  46M   ├── xet_staticx
   39M   ├── katana
   38M   ├── kadeessh
   38M   ├── caddy
@@ -60,6 +61,7 @@
   32M   ├── skupper
   32M   ├── shellz
   32M   ├── surf
+  32M   ├── yt-dlp
   32M   ├── mlr
   31M   ├── loki-canary
   31M   ├── sq
@@ -109,9 +111,10 @@
   25M   ├── brutespray
   25M   ├── meli
   25M   ├── docker
+  25M   ├── dalfox
   24M   ├── tusd
-  24M   ├── dagu
   24M   ├── qsv
+  24M   ├── dagu
   24M   ├── restic
   24M   ├── php-fpm
   24M   ├── php
@@ -123,11 +126,10 @@
   24M   ├── jaeles
   24M   ├── vhs
   23M   ├── nerdctl
-  23M   ├── dalfox
   23M   ├── interactsh-server
   23M   ├── legba
-  23M   ├── syncthing
   23M   ├── noseyparker
+  22M   ├── syncthing
   22M   ├── vpnkit
   22M   ├── loclx
   22M   ├── localxpose
@@ -211,6 +213,7 @@
   14M   ├── zerotier-cli
   14M   ├── aws-wire-lengths
   14M   ├── sysbox-runc
+  14M   ├── netexec
   14M   ├── godns
   14M   ├── pgrokd
   14M   ├── certwatcher
@@ -227,6 +230,7 @@
   13M   ├── serverstatus-server-themed
   13M   ├── gdu
   13M   ├── stree
+  13M   ├── netexec_dynamic
   13M   ├── jc
   13M   ├── opengfw
   13M   ├── hcloud
@@ -288,11 +292,11 @@
   10M   ├── watchexec
   10M   ├── ksubdomain
   10M   ├── coreutils
+  10M   ├── runc
   10M   ├── scilla
   10M   ├── vegeta
   10M   ├── yq
   10M   ├── binocle
-  10M   ├── runc
   10M   ├── orbiton
   10M   ├── vopono
   10M   ├── htb-cli
@@ -311,12 +315,11 @@
  9.8M   ├── gitql
  9.8M   ├── yggdrasil
  9.7M   ├── redguard
+ 9.6M   ├── mubeng
  9.6M   ├── csprecon
  9.6M   ├── vultr-cli
- 9.5M   ├── mubeng
  9.5M   ├── starship
  9.5M   ├── sshx-server
- 9.5M   ├── monolith
  9.5M   ├── tgpt
  9.4M   ├── sttr
  9.4M   ├── transmission-daemon
@@ -325,6 +328,7 @@
  9.3M   ├── pgrok
  9.3M   ├── dasel
  9.3M   ├── archey
+ 9.3M   ├── monolith
  9.3M   ├── cfssl-newkey
  9.3M   ├── invidtui
  9.3M   ├── stew
@@ -345,10 +349,11 @@
  8.8M   ├── viewgen_staticx
  8.8M   ├── enc
  8.8M   ├── rospo
- 8.7M   ├── syncat
  8.7M   ├── gocryptfs
+ 8.7M   ├── syncat
  8.7M   ├── warp-diag
  8.7M   ├── oha
+ 8.7M   ├── supercronic
  8.6M   ├── nmap
  8.6M   ├── getghrel
  8.5M   ├── sns
@@ -357,8 +362,8 @@
  8.5M   ├── assh
  8.5M   ├── smartdns-rs
  8.5M   ├── rootlesskit
- 8.5M   ├── supercronic
  8.5M   ├── cfssl-scan
+ 8.4M   ├── wormhole-rs
  8.4M   ├── doggo
  8.4M   ├── ssr-client
  8.4M   ├── serverstatus-client
@@ -399,8 +404,8 @@
  7.7M   ├── gobuster
  7.7M   ├── trurl
  7.6M   ├── rush
- 7.6M   ├── husarnet
  7.6M   ├── cherrybomb
+ 7.6M   ├── husarnet
  7.6M   ├── fasttld
  7.5M   ├── pretender
  7.5M   ├── git-log
@@ -414,7 +419,6 @@
  7.3M   ├── brename
  7.2M   ├── sessionprobe
  7.2M   ├── godnsbench
- 7.2M   ├── wormhole-rs
  7.2M   ├── gocryptfs-xray
  7.2M   ├── gofireprox
  7.2M   ├── system-info-collector
@@ -434,8 +438,8 @@
  6.9M   ├── spk
  6.8M   ├── elvish
  6.8M   ├── qemu-xtensa-static
- 6.8M   ├── stunner
  6.8M   ├── trip
+ 6.8M   ├── stunner
  6.8M   ├── fuzzuli
  6.8M   ├── xq
  6.8M   ├── fscan
@@ -792,6 +796,7 @@
  2.0M   ├── zenith
  2.0M   ├── pencode
  1.9M   ├── cexec
+ 1.9M   ├── xdotool
  1.9M   ├── gotator
  1.9M   ├── curlie
  1.9M   ├── age-keygen
@@ -891,6 +896,7 @@
  1.0M   ├── grep
  1.0M   ├── jql
  1.0M   ├── awk
+1020K   ├── xdo
  948K   ├── svg-hush
  948K   ├── hexyl
  948K   ├── csview
@@ -915,6 +921,8 @@
  552K   ├── neofetch
  544K   ├── dropbearmulti
  528K   ├── zt-encodings
+ 524K   ├── iotop-c
+ 524K   ├── iotop
  496K   ├── mtr
  492K   ├── unifetch
  476K   ├── visudo
@@ -941,6 +949,7 @@
  276K   ├── doas
  268K   ├── sftp-server
  268K   ├── pigz
+ 260K   ├── mawk
  256K   ├── screenfetch
  244K   ├── sed
  244K   ├── dropbearkey

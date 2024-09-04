@@ -1036,7 +1036,7 @@
   },
   {
     "name": "fastfetch.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-04T07:06:30",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fastfetch.sh"
   },
   {
@@ -2136,7 +2136,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-03T21:08:08",
+    "update_date": "2024-09-04T00:09:22",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2713,6 +2713,11 @@
     "name": "quotes-escaper.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/quotes-escaper.sh"
+  },
+  {
+    "name": "radare2.sh",
+    "update_date": "2024-09-04T07:06:30",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/radare2.sh"
   },
   {
     "name": "rage.sh",
@@ -3376,7 +3381,7 @@
   },
   {
     "name": "sysstat.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-04T07:06:30",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sysstat.sh"
   },
   {
@@ -3681,7 +3686,7 @@
   },
   {
     "name": "viddy.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-04T07:06:30",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/viddy.sh"
   },
   {
@@ -3931,7 +3936,7 @@
   },
   {
     "name": "yip.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-04T07:06:30",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yip.sh"
   },
   {
@@ -3943,6 +3948,11 @@
     "name": "yq.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yq.sh"
+  },
+  {
+    "name": "yt-dlp.sh",
+    "update_date": "2024-09-04T07:06:30",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/yt-dlp.sh"
   },
   {
     "name": "z-tokens.sh",
@@ -4006,7 +4016,7 @@
   },
   {
     "name": "zstd.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-04T07:06:30",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/zstd.sh"
   }
 ]
