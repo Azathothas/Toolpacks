@@ -107,7 +107,7 @@ RUN <<EOS
   #----------------------#
   #staticx: https://github.com/JonathonReinhart/staticx/blob/main/.github/workflows/build-test.yml
   export CWD="$(realpath .)" 
-  pushd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
+  cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
   #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
   git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
   #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
