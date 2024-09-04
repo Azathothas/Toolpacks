@@ -7,6 +7,7 @@ FROM debian:unstable
 ENV DEBIAN_FRONTEND="noninteractive"
 #ENV INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux"
 RUN <<EOS
+  set +e
   #Base
   apt-get update -y
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
@@ -77,6 +78,7 @@ EOS
 #------------------------------------------------------------------------------------#
 ##Build Tools
 RUN <<EOS
+  set +e
   #----------------------#
   #Main
   apt-get update -y
@@ -104,7 +106,8 @@ RUN <<EOS
   sudo apt-get install liblz-dev librust-lzma-sys-dev lzma lzma-dev -y
   #----------------------#
   #staticx: https://github.com/JonathonReinhart/staticx/blob/main/.github/workflows/build-test.yml
-  pushd "$(mktemp -d)" >/dev/null 2>&1
+  export CWD="$(realpath .)" 
+  pushd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
   #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
   git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
   #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
@@ -116,7 +119,8 @@ RUN <<EOS
   python -m build
   pip install dist/staticx-*-py3-none-manylinux1_*.whl --break-system-packages --upgrade --force
   staticx --version || pip install staticx --break-system-packages --force-reinstall --upgrade ; unset BOOTLOADER_CC
-  rm -rf "$(realpath .)" ; popd >/dev/null 2>&1
+  rm -rf "$(realpath .)" ; popd >/dev/null 2>&1 
+  cd "${CWD}"
   #----------------------#
   #pyinstaller
   pip install "git+https://github.com/pyinstaller/pyinstaller" --break-system-packages --force-reinstall --upgrade ; pyinstaller --version
