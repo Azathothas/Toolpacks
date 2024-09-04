@@ -21,17 +21,20 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #wget
-     export BIN="wget" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://www.gnu.org/software/wget/" #github/gitlab/homepage/etc for $BIN
+    #wget: Tool for retrieving files using HTTP, HTTPS, and FTP
+     export BIN="wget"
+     export SOURCE_URL="https://www.gnu.org/software/wget/"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build 
-       pushd "$($TMPDIRS)" >/dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.wget" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       sudo strip "./result/bin/wget" ; file "./result/bin/wget" && du -sh "./result/bin/wget"
-       cp "./result/bin/wget" "$BINDIR/wget"
-       sudo cp "./result/bin/wget" "$BASEUTILSDIR/wget"
-       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
+      #fetch
+       eget "https://github.com/supriyo-biswas/static-builds" --tag "wget" --asset "aarch64" --file "wget" --to "$BINDIR/wget"
+       cp "$BINDIR/wget" "$BASEUTILSDIR/wget"
+      ##Build 
+      # pushd "$($TMPDIRS)" >/dev/null 2>&1
+      # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.wget" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+      # sudo strip "./result/bin/wget" ; file "./result/bin/wget" && du -sh "./result/bin/wget"
+      # cp "./result/bin/wget" "$BINDIR/wget"
+      # sudo cp "./result/bin/wget" "$BASEUTILSDIR/wget"
+      # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

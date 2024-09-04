@@ -217,6 +217,8 @@ RUN <<EOS
   apk add libpng-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libpng-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libprotobuf --latest --upgrade --no-interactive 2>/dev/null
+  apk add libproxy --latest --upgrade --no-interactive 2>/dev/null
+  apk add libproxy-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libpsl --latest --upgrade --no-interactive 2>/dev/null
   apk add libpsl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libpsl-native --latest --upgrade --no-interactive 2>/dev/null
@@ -254,6 +256,9 @@ RUN <<EOS
   apk add libtorrent-rasterbar-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libu2f-server --latest --upgrade --no-interactive 2>/dev/null
   apk add libu2f-server-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libunistring --latest --upgrade --no-interactive 2>/dev/null
+  apk add libunistring-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libunistring-static --latest --upgrade --no-interactive 2>/dev/null
   apk add liburing --latest --upgrade --no-interactive 2>/dev/null
   apk add liburing-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libusb --latest --upgrade --no-interactive 2>/dev/null
