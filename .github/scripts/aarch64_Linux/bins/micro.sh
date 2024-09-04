@@ -21,12 +21,15 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-  #micro : A modern and intuitive terminal-based text editor 
-     export BIN="micro" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/zyedidia/micro" #github/gitlab/homepage/etc for $BIN
+    #micro : A modern and intuitive terminal-based text editor
+     export BIN="micro"
+     export SOURCE_URL="https://github.com/zyedidia/micro"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux"  --asset "arm64" --asset "static" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+      #Build 
+       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/zyedidia/micro" && cd "./micro"
+       GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./micro-bin" ./cmd/micro ; cp "./micro-bin" "$BINDIR/micro"
+       popd >/dev/null 2>&1
+       go clean -cache -fuzzcache -modcache -testcache
 fi
 #-------------------------------------------------------#
 

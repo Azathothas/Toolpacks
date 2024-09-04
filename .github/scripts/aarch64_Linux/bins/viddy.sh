@@ -22,11 +22,11 @@ fi
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
    #viddy : 👀 A modern watch command. Time machine and pager etc.
-     export BIN="viddy" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/sachaos/viddy" #github/gitlab/homepage/etc for $BIN
+     export BIN="viddy"
+     export SOURCE_URL="https://github.com/sachaos/viddy"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "Linux" --asset "arm64" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "linux" --asset "arm64" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
 fi
 #-------------------------------------------------------#
 
