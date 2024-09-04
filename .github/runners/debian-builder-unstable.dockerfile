@@ -85,13 +85,14 @@ RUN <<EOS
   apt-get install -y aria2 automake bc binutils b3sum build-essential ca-certificates ccache clang diffutils dos2unix findutils gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools python3 p7zip-full rsync texinfo wget xz-utils yasm
   #----------------------#
   #Install Meson & Ninja
-  sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
+  #sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
   pip install meson ninja --upgrade 2>/dev/null
-  pip install meson ninja --break-system-packages --upgrade 2>/dev/null
+  pip install meson ninja --break-system-packages --upgrade --force-reinstall 2>/dev/null
   #python3 -m pip install meson ninja --upgrade
-  sudo ln -s "$HOME/.local/bin/meson" "/usr/bin/meson" 2>/dev/null
-  sudo ln -s "$HOME/.local/bin/ninja" "/usr/bin/ninja" 2>/dev/null
-  sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
+  #Installs to /usr/local/bin/
+  #sudo ln -s "$HOME/.local/bin/meson" "/usr/bin/meson" 2>/dev/null
+  #sudo ln -s "$HOME/.local/bin/ninja" "/usr/bin/ninja" 2>/dev/null
+  #sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
   #----------------------#
   #libpcap
   sudo apt install 'libpcap*' -y 2>/dev/null 
