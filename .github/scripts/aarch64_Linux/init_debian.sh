@@ -328,9 +328,9 @@
           export BOOTLOADER_CC="musl-gcc"
           rm -rf build dist scons_build staticx/assets
           python -m build
-          pip install dist/staticx-*-py3-none-manylinux1_x86_64.whl --break-system-packages --upgrade --force
+          pip install dist/staticx-*-py3-none-manylinux1_*.whl --break-system-packages --upgrade --force
           staticx --version ; unset BOOTLOADER_CC
-          popd >/dev/null 2>&1          
+          popd >/dev/null 2>&1
          #----------------------# 
          #v-lang: https://github.com/vlang/v/blob/master/README.md#installing-v-from-source
           sudo rm -rf "/opt/vlang" ; sudo mkdir -p "/opt/vlang"

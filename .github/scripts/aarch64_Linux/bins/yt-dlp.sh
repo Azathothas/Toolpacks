@@ -28,10 +28,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Build: https://github.com/yt-dlp/yt-dlp/blob/master/bundle/docker/static/entrypoint.sh
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/yt-dlp/yt-dlp" && cd "./yt-dlp"
        #https://github.com/yt-dlp/yt-dlp/blob/master/.github/workflows/build.yml
-       cd "./bundle/docker" && docker compose up --build "static"
+       cd "./bundle/docker"
+       sed 's/yt-dlp_linux/yt-dlp_linux_aarch64/g' -i "./static/entrypoint.sh"
+       docker compose up --build "static"
        #copy
        INSTANCE_ID="$(docker ps -a --format '{{json .}}' | jq -rs 'sort_by(.CreatedAt) | reverse | .[] | select(.Status | contains("Exited")) | .ID' | head -n 1)" && export INSTANCE_ID="${INSTANCE_ID}"
-       docker cp "${INSTANCE_ID}:/build/yt-dlp_linux" "./yt-dlp"
+       docker cp "${INSTANCE_ID}:/build/yt-dlp_linux_aarch64" "./yt-dlp"
        #Meta 
        file "./yt-dlp" && du -sh "./yt-dlp" ; cp "./yt-dlp" "$BINDIR/yt-dlp"
       #Delete Containers

@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/schollz/croc" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "Linux" --asset "64bit" --asset "tar.gz" --to "$BINDIR/croc"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "Linux" --asset "ARM64" --asset "tar.gz" --to "$BINDIR/croc"
 fi
 #-------------------------------------------------------#
 

@@ -2,7 +2,7 @@ name: "sysstat"
 description: "Performance monitoring tools for Linux"
 web_url: "https://github.com/sysstat/sysstat"
 repo_url: "https://github.com/sysstat/sysstat"
-path: "/"
+path: "/Baseutils/sysstat/"
 bins:
   - "cifsiostat"
   - "iostat"

@@ -70,23 +70,14 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          -GNinja \
          -B "./STATIC_BUILD"
          cmake --build "./STATIC_BUILD" --target package -j"$(($(nproc)+1))"
-        #strip & info
-         strip "./STATIC_BUILD/fastfetch" ; strip "./STATIC_BUILD/flashfetch"
-         cp "./STATIC_BUILD/fastfetch" "/build-bins/fastfetch"
-         cp "./STATIC_BUILD/flashfetch" "/build-bins/flashfetch"
+         #copy
+         find "./STATIC_BUILD" -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
         '
-      #Copy 
-       docker cp "alpine-builder:/build-bins/fastfetch" "./fastfetch"
-       docker cp "alpine-builder:/build-bins/flashfetch" "./flashfetch"
-      #Staticx
-       eval "$EGET_TIMEOUT" eget "https://github.com/fastfetch-cli/fastfetch" --asset "linux" --asset "amd64" --asset "tar.gz" "$EGET_EXCLUDE" --to "./fastfetch-dynamic"
-       staticx --loglevel DEBUG "./fastfetch-dynamic" --strip "$BINDIR/fastfetch-staticx"
-       file "$BINDIR/fastfetch-staticx" ; du -sh "$BINDIR/fastfetch-staticx"       
-       #Meta 
-       file "./fastfetch" && du -sh "./fastfetch"
-       file "./flashfetch" && du -sh "./flashfetch"
-       cp "./fastfetch" "$BINDIR/fastfetch"
-       cp "./flashfetch" "$BINDIR/flashfetch"
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "./"
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
        #Test
        docker run --privileged -it --rm --network="bridge" -v "$BINDIR:/mnt" "alpine" "/mnt/fastfetch"
        docker run --privileged -it --rm --network="bridge" -v "$BINDIR:/mnt" "alpine" "/mnt/flashfetch"       

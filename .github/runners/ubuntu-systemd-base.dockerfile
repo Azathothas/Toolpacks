@@ -16,7 +16,7 @@ FROM ubuntu:latest
 #------------------------------------------------------------------------------------#
 ##Base Deps
 ENV DEBIAN_FRONTEND="noninteractive"
-ENV INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux"
+#ENV INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux"
 RUN <<EOS
   #Base
   apt-get update -y
