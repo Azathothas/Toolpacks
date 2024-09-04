@@ -49,6 +49,7 @@
   33M   ├── kopia
   32M   ├── naabu
   32M   ├── cloudreve
+  32M   ├── yt-dlp
   32M   ├── fscan
   32M   ├── mlr
   32M   ├── shellz
@@ -153,7 +154,6 @@
   18M   ├── sish
   18M   ├── gh-dash
   17M   ├── s3scanner
-  17M   ├── chameleon
   17M   ├── rekor-cli
   17M   ├── ctr
   17M   ├── garm
@@ -230,7 +230,6 @@
   12M   ├── gitui
   11M   ├── tssh
   11M   ├── tty2web
-  11M   ├── croc
   11M   ├── sslsearch
   11M   ├── containerd-shim-runc-v2
   11M   ├── litefs
@@ -357,6 +356,7 @@
  7.7M   ├── cfssl-certinfo
  7.7M   ├── ladder
  7.7M   ├── syncat
+ 7.7M   ├── croc
  7.6M   ├── planor
  7.6M   ├── sshx-server
  7.6M   ├── sbctl

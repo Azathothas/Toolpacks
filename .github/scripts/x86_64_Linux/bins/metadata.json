@@ -1355,6 +1355,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/glow.sh"
   },
   {
+    "name": "go-appimage.sh",
+    "update_date": "2024-09-04T14:04:08",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-appimage.sh"
+  },
+  {
     "name": "go-audit.sh",
     "update_date": "2024-07-14T07:03:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-audit.sh"
@@ -2136,7 +2141,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-04T00:09:22",
+    "update_date": "2024-09-04T07:11:18",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -3786,7 +3791,7 @@
   },
   {
     "name": "wget.sh",
-    "update_date": "2024-09-03T14:04:14",
+    "update_date": "2024-09-04T14:04:08",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wget.sh"
   },
   {

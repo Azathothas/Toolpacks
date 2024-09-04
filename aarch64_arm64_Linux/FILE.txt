@@ -98,7 +98,6 @@ cfssl-newkey:                    ELF 64-bit LSB executable, ARM aarch64, version
 cfssl-scan:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ZgChy2xeqlNq-3OpjATY/ogb0YNqdZ1cUasMop5SF/8ECgMP-k0CGJ-EKS_QDA/6QuJj1G5g5aI3odrXlOo, stripped
 cfssljson:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=C4kut4efhzEsw-CKKuZG/GyZXAthVLi80UQVrzXYz/lSHPNVb2aTAx_8tT-T9r/rBizmg1-7gTo7jHr8Ed0, stripped
 chainredir:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=KqBySwDAx5TG1SUpsbDx/cN53e7VlT-pQzEiPaDbA/CXMidu-n0E9ctG2L1xr4/EBtdtVaecsRvxXKvqHIu, stripped
-chameleon:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 chaos-client:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=M7iNk2dfWfFZ4QWCHQ__/61qitM1z5GwJMM4eCmTg/BHmK_CNAFAXwg_dyYxz6/SZ5W2kceMKdNMxUvTRZB, stripped
 cheat:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 checkbypass:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=crYYMunrBaRJ55Ezu_r1/ywo0D6B5Tj_LNCg7S0ir/ubVXZhFRsNza3etJmp2A/wO-5jeOV-_Q0F9lufxMM, stripped
@@ -137,7 +136,7 @@ cpufetch:                        ELF 64-bit LSB executable, ARM aarch64, version
 crawley:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=UFCsbVwdfT9B8gv3xrAv/rJzJZpE246N4zhXTEBU5/hWqbfOZWxI36Eplj-79M/Vm-dU-_XGkg3-sruvrmf, stripped
 crictl:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=wZKAMfa9QSVmWtBsvAKR/s2vsVQtUhWS_JBOczpr0/0Cr9P7NOmbvGVFLB_ESA/vtlRupnLfjKjHJugeKqU, stripped
 crlfuzz:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-croc:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=YyJdZljK86m0aHUeDBQn/XxSPNzIQ6NkdHh2CIz8R/IIkbWQVYIgKZkHmou3z_/zwuSQ0E8dBX-tCcCCPbu, with debug_info, not stripped
+croc:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=aFw06_faOslYtWDhXpHl/Qhk5LbGg6oxRhN0S4LAi/3ny2LE0nFokPOnTh4M2w/M6ZdggqYx08QnHTNcKWF, stripped
 cron:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, stripped
 cronie-crond:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 cronie-cronnext:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -975,6 +974,7 @@ yggdrasilctl:                    ELF 64-bit LSB pie executable, ARM aarch64, ver
 yip:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Qj6vxoql6csxVIWXSR_D/_ePIHkkoIO4RNlN9T80n/5UBhi134sE74gvIrw_sB/x-POdFuKsTjYrVw2_cly, stripped
 yj:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 yq:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=zPakAc9SVVeNrd93qYci/CKFV4OTRf3ncaDGIrNdA/oA8hplr9CwGiDTa8w2O8/IGZB7AFpT6XRYkJ2E9W3, stripped
+yt-dlp:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=b49df2f208eca8c1e6b279e6005fac4aaec6ef3e, stripped
 z:                               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 z-tokens:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 zapper:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
