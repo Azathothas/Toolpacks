@@ -77,7 +77,6 @@
  2.2M   ├── csplit.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── nl.exe
- 2.2M   ├── err.exe
  2.2M   ├── tac.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
@@ -89,6 +88,7 @@
  1.6M   ├── quotes-escaper.exe
  1.6M   ├── dua.exe
  1.6M   ├── sort.exe
+ 1.5M   ├── err.exe
  1.5M   ├── ls.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
