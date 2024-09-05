@@ -95,6 +95,8 @@ if [[ "${TOOLPACKS_NDK_HOME}" == *"android-ndk"* ]] && [[ "${TOOLPACKS_NDK_ROOT}
   echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "/etc/profile"
   echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "$HOME/.profile"
   echo '[ -r "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"' >> "$HOME/.bashrc"
+ #In case was symlinked, causes infinite callback loop 
+  sed '/\[ -r "\/etc\/bash\.bashrc" \] && \. "\/etc\/bash\.bashrc"/d' -i "/etc/bash.bashrc"
   echo && cat "/etc/bash.bashrc" && echo
 else
   echo -e "\n[-] FATAL: Failed to set NDK ENVs\n"
