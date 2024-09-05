@@ -42,7 +42,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Copy
        docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "$(pwd)/"
        find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
-       mkdir -p "$BASEUTILSDIR/coreutils" && rsync -av --copy-links "./" "$BASEUTILSDIR/coreutils"
+       mkdir -p "$BASEUTILSDIR/coreutils" && rsync -av --copy-links "./" "$BASEUTILSDIR/coreutils/"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/coreutils/" && chmod -R 755 "$BASEUTILSDIR/coreutils/"
       #-------------------------------------------------------#
       ##Meta
@@ -58,7 +58,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.md$|\.rar$|\.txt$|\.zip$" "$BASEUTILSDIR/coreutils" | tee "$BASEUTILSDIR/coreutils/SIZE.txt"
       #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
-       rclone copy "." "r2:/bin/arm64_v8a_Android/Baseutils/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+       rclone copy "." "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
        curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
       #List
        curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.yaml" -o "$TMP_METADIR/temp.yaml"
