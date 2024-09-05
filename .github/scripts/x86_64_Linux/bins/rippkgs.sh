@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/rippkgs-index" "/build-bins/rippkgs-index"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./rippkgs" && du -sh "./rippkgs" ; cp "./rippkgs" "$BINDIR/rippkgs"
        file "./rippkgs-index" && du -sh "./rippkgs-index" ; cp "./rippkgs-index" "$BINDIR/rippkgs-index"

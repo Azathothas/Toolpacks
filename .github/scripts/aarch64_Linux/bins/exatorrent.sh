@@ -43,7 +43,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./exatorrent-bin-noui" ; cp "./exatorrent-bin-noui" "/build-bins/exatorrent-noui"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta
        file "./exatorrent" && du -sh "./exatorrent" ; cp "./exatorrent" "$BINDIR/exatorrent"
        file "./exatorrent-noui" && du -sh "./exatorrent-noui" ; cp "./exatorrent-noui" "$BINDIR/exatorrent-noui"

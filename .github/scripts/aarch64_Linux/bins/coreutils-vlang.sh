@@ -155,7 +155,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          rsync -av --copy-links "./build-bin/." "/build-bins"
         '
        #Copy 
-       docker cp "alpine-builder-vlang:/build-bins/." "./"
+       docker cp "alpine-builder-vlang:/build-bins/." "$(pwd)/"
        mkdir -p "$BASEUTILSDIR/coreutils-vlang"
        find "./" -type d -exec rm -rf {} + 2>/dev/null
        find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;

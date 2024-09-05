@@ -35,14 +35,14 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build (ndk-pkg)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh" --profile="release" -j "$(($(nproc)+1))" --fsle
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh" --profile="release" -j "$(($(nproc)+1))" --static
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
       #Copy
-       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
-       #Meta 
-       file "./zsh" && du -sh "./zsh" ; aarch64-linux-gnu-readelf -d "./zsh" | grep -i 'needed'
-       cp "./zsh" "$BINDIR/zsh" ; cp "./zsh" "$BASEUTILSDIR/zsh"
+       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "$(pwd)/"
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sudo rsync -av --copy-links {} "$BINDIR/"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sh -c 'file "{}"; du -sh "{}"; aarch64-linux-gnu-readelf -d "{}"'
       #Test
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/zsh" --version
       #Cleanup Container

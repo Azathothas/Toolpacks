@@ -47,7 +47,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/deoptimizer" "/build-bins/deoptimizer"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./deoptimizer" && du -sh "./deoptimizer" ; cp "./deoptimizer" "$BINDIR/deoptimizer"
       #Delete Containers

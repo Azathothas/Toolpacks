@@ -71,7 +71,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          GOOS="android" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -Wl,--build-id=none'\''" -tags "ts_include_cli" -o "./tailscale_bb" "./cmd/tailscaled" ; cp "./tailscale_bb" "/build-bins/tailscale_combined"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
        #Meta 
        file "./tailscale" && du -sh "./tailscale" ; aarch64-linux-gnu-readelf -d "./tailscale" | grep -i 'needed' ; cp "./tailscale" "$BINDIR/tailscale"
        file "./tailscaled" && du -sh "./tailscaled" ; aarch64-linux-gnu-readelf -d "./tailscaled" | grep -i 'needed' ; cp "./tailscaled" "$BINDIR/tailscaled"

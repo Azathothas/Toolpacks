@@ -43,7 +43,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./spiped/spiped" ; "./spiped/spiped" -v ; cp "./spiped/spiped" "/build-bins/spiped"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./spipe" && du -sh "./spipe" ; cp "./spipe" "$BINDIR/spipe"
        file "./spiped" && du -sh "./spiped" ; cp "./spiped" "$BINDIR/spiped"

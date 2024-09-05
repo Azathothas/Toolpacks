@@ -80,7 +80,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/pingmole" "/build-bins/pingmole"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/pingmole" "./pingmole"
+       docker cp "alpine-builder:/build-bins/." "./."
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
       #Meta
        file "./pingmole" && du -sh "./pingmole" ; aarch64-linux-gnu-readelf -d "./pingmole" | grep -i 'needed'
        cp "./pingmole" "$BINDIR/pingmole"

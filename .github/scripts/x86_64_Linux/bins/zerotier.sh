@@ -51,7 +51,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          find "/build-bins" -type f -exec file {} \; 2>/dev/null
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta
        file "./zerotier-cli" && du -sh "./zerotier-cli" ; cp "./zerotier-cli" "$BINDIR/zerotier-cli"
        file "./zerotier-idtool" && du -sh "./zerotier-idtool" ; cp "./zerotier-idtool" "$BINDIR/zerotier-idtool"

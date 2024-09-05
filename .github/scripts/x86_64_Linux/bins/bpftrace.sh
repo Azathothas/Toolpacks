@@ -65,7 +65,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          '
       #Copy
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker cp "$IMAGE:/build-bins/." "./"
+       docker cp "$IMAGE:/build-bins/." "$(pwd)/"
        #Meta
        file "./bpftrace" && du -sh "./bpftrace" ; cp "./bpftrace" "$BINDIR/bpftrace"
       #Delete Containers

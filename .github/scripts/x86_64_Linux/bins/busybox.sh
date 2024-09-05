@@ -60,7 +60,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          popd >/dev/null 2>&1
         '
        #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        mkdir -p "$BASEUTILSDIR/busybox"
        find "./" -type d -exec rm -rf {} + 2>/dev/null
        find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;

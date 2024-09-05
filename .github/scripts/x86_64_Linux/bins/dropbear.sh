@@ -54,7 +54,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          popd >/dev/null 2>&1
         '
        #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        mkdir -p "$BASEUTILSDIR/dropbear"
        find "./" -type d -exec rm -rf {} + 2>/dev/null
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/dropbear"

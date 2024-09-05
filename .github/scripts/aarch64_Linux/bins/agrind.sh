@@ -47,7 +47,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/agrind" "/build-bins/agrind"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./agrind" && du -sh "./agrind" ; cp "./agrind" "$BINDIR/agrind"
       #Delete Containers

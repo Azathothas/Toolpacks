@@ -51,7 +51,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          popd >/dev/null 2>&1
         '
       #Copy 
-       docker cp "debian-builder-unstable:/build-bins/." "./"
+       docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
        #Meta 
        file "./axel" && du -sh "./axel"
        cp "./axel" "$BINDIR/axel"

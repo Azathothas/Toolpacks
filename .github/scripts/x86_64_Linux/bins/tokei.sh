@@ -47,7 +47,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/tokei" "/build-bins/tokei"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./tokei" && du -sh "./tokei" ; cp "./tokei" "$BINDIR/tokei"
       #Delete Containers

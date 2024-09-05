@@ -40,7 +40,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./dblab" ; cp "./dblab" "/build-bins/dblab"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./dblab" && du -sh "./dblab" ; cp "./dblab" "$BINDIR/dblab"
       #Delete Containers

@@ -80,7 +80,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #https://github.com/zdz/ServerStatus-Rust/blob/master/systemd/stat_client.service
        #https://github.com/zdz/ServerStatus-Rust/blob/master/systemd/stat_server.service
       #Binaries
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        file "./stat_client" && du -sh "./stat_client" ; cp "./stat_client" "$BINDIR/serverstatus-client"
        cp "./stat_client" "$BINDIR/ssr-client"
        file "./stat_server" && du -sh "./stat_server" ; cp "./stat_server" "$BINDIR/serverstatus-server"

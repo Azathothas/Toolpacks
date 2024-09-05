@@ -38,17 +38,20 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget" --profile="release" -j "$(($(nproc)+1))"
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
-       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
-       file "./wget" && du -sh "./wget" ; aarch64-linux-gnu-readelf -d "./wget" | grep -i 'needed'
-       cp "./wget" "$BINDIR/wget" ; cp "./wget" "$BASEUTILSDIR/wget"
+       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "$(pwd)/"
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sudo rsync -av --copy-links {} "$BINDIR/"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sh -c 'file "{}"; du -sh "{}"; aarch64-linux-gnu-readelf -d "{}"'
+       cp "$BINDIR/wget" "$BASEUTILSDIR/wget"
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget"
       #Build (ndk-pkg) Static
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/wget" --profile="release" -j "$(($(nproc)+1))" --fsle
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/wget" --profile="release" -j "$(($(nproc)+1))" --static
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/wget" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
-       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/wget" "./wget_static"
-       file "./wget_static" && du -sh "./wget_static" ; aarch64-linux-gnu-readelf -d "./wget_static" | grep -i 'needed'
-       cp "./wget_static" "$BINDIR/wget_static" ; cp "./wget_static" "$BASEUTILSDIR/wget_static"
+       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/wget" "$(pwd)/wget_static"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sudo rsync -av --copy-links {} "$BINDIR/"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sh -c 'file "{}"; du -sh "{}"; aarch64-linux-gnu-readelf -d "{}"'
+       cp "$BINDIR/wget_static" "$BASEUTILSDIR/wget_static"
        docker exec -it "ndk-pkg" ndk-pkg uninstall "${TOOLPACKS_ANDROID_BUILD_STATIC}/wget"
        #get cert
        eget "https://curl.se/ca/cacert.pem" --to "$BINDIR/wget_cacert.pem"

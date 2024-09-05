@@ -77,6 +77,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         '
       #Copy 
        docker cp "alpine-builder:/build-bins/jless" "./jless"
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
       #Meta
        file "./jless" && du -sh "./jless" ; aarch64-linux-gnu-readelf -d "./jless" | grep -i 'needed'
        cp "./jless" "$BINDIR/jless"

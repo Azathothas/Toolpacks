@@ -54,7 +54,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          popd >/dev/null 2>&1
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
        find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
        sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"

@@ -39,10 +39,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/actionlint" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
       #Copy
-       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
-       #Meta 
-       file "./actionlint" && du -sh "./actionlint" ; aarch64-linux-gnu-readelf -d "./actionlint" | grep -i 'needed'
-       cp "./actionlint" "$BINDIR/actionlint"
+       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "$(pwd)/"
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sudo rsync -av --copy-links {} "$BINDIR/"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sh -c 'file "{}"; du -sh "{}"; aarch64-linux-gnu-readelf -d "{}"'
       #Test
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/actionlint" --version
       #Cleanup Container

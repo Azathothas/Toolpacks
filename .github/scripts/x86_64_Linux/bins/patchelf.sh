@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./src/patchelf" ; "./src/patchelf" --version ; cp "./src/patchelf" "/build-bins/patchelf"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./patchelf" && du -sh "./patchelf" ; cp "./patchelf" "$BINDIR/patchelf"
       #Delete Containers

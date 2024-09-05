@@ -42,7 +42,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./mdp" ; "./mdp" --version ; cp "./mdp" "/build-bins/mdp"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./mdp" && du -sh "./mdp" ; cp "./mdp" "$BINDIR/mdp"
       #Delete Containers

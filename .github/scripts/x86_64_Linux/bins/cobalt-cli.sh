@@ -41,7 +41,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./cobalt" "/build-bins/cobalt"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./cobalt" && du -sh "./cobalt" ; cp "./cobalt" "$BINDIR/cobalt-cli"
       #Delete Containers

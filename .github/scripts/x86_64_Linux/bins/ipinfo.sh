@@ -40,7 +40,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./ipinfo-bin" ; cp "./ipinfo-bin" "/build-bins/ipinfo"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./ipinfo" && du -sh "./ipinfo" ; cp "./ipinfo" "$BINDIR/ipinfo"
        cp "$BINDIR/ipinfo" "$BINDIR/ipinfo-cli"

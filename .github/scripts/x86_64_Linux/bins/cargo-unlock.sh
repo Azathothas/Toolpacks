@@ -47,7 +47,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/cargo-unlock" "/build-bins/cargo-unlock"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./cargo-unlock" && du -sh "./cargo-unlock"
        cp "./cargo-unlock" "$BINDIR/cargo-unlock"

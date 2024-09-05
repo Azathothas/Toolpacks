@@ -40,7 +40,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./go-audit" ; cp "./go-audit" "/build-bins/go-audit"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./go-audit" && du -sh "./go-audit" ; cp "./go-audit" "$BINDIR/go-audit"
       #Delete Containers

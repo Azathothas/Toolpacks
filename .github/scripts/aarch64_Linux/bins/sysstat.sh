@@ -42,7 +42,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Copy
        find "./" -type d -exec rm -rf {} + 2>/dev/null
        find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;

@@ -50,7 +50,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       #Addons
        curl -qfsSL "https://raw.githubusercontent.com/naiba/nezha/master/script/install_en.sh" -o "$BINDIR/nezha-install.sh"
       #Binaries
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        file "./nezha-dashboard" && du -sh "./nezha-dashboard" ; cp "./nezha-dashboard" "$BINDIR/nezha-dashboard"
        file "./nezha-agent" && du -sh "./nezha-agent" ; cp "./nezha-agent" "$BINDIR/nezha-agent"
       #Services

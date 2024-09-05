@@ -35,14 +35,14 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build (ndk-pkg)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/b3sum" --profile="release" -j "$(($(nproc)+1))" --fsle
+       docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/b3sum" --profile="release" -j "$(($(nproc)+1))" --static
        TOOLPACKS_ANDROID_BUILDIR="$(docker exec -it "ndk-pkg" ndk-pkg tree "${TOOLPACKS_ANDROID_BUILD_STATIC}/b3sum" --dirsfirst -L 1 | grep -o '/.*/.*' | tail -n1 | tr -d '[:space:]')" && export TOOLPACKS_ANDROID_BUILDIR="${TOOLPACKS_ANDROID_BUILDIR}"
        docker exec -it "ndk-pkg" ls "${TOOLPACKS_ANDROID_BUILDIR}/bin"
       #Copy
-       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "./"
-       #Meta 
-       file "./b3sum" && du -sh "./b3sum" ; aarch64-linux-gnu-readelf -d "./b3sum" | grep -i 'needed'
-       cp "./b3sum" "$BINDIR/b3sum" ; cp "./b3sum" "$BASEUTILSDIR/b3sum"
+       docker cp "ndk-pkg:/${TOOLPACKS_ANDROID_BUILDIR}/bin/." "$(pwd)/"
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sudo rsync -av --copy-links {} "$BINDIR/"
+       find "." -maxdepth 1 -type f -exec file "{}" \; | grep ".*executable.*aarch64" | cut -d":" -f1 | xargs realpath | xargs -I {} sh -c 'file "{}"; du -sh "{}"; aarch64-linux-gnu-readelf -d "{}"'
       #Test
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BINDIR:/mnt" "termux/termux-docker:aarch64" "/mnt/b3sum" --version
       #Cleanup Container

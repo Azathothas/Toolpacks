@@ -40,7 +40,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./eget" ; cp "./eget" "/build-bins/eget"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./eget" && du -sh "./eget" ; cp "./eget" "$BINDIR/eget"
       #Delete Containers

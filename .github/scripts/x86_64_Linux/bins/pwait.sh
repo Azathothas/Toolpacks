@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./STATIC_BUILD/src/pwait" ; cp "./STATIC_BUILD/src/pwait" "/build-bins/pwait"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./pwait" && du -sh "./pwait" ; cp "./pwait" "$BINDIR/pwait"
       #Delete Containers

@@ -39,7 +39,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./naabu-bin" ; cp "./naabu-bin" "/build-bins/naabu"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./naabu" && du -sh "./naabu" ; cp "./naabu" "$BINDIR/naabu"
       #Delete Containers

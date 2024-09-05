@@ -40,7 +40,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./ksubdomain" ; cp "./ksubdomain" "/build-bins/ksubdomain"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./ksubdomain" && du -sh "./ksubdomain" ; cp "./ksubdomain" "$BINDIR/ksubdomain"
       #Delete Containers

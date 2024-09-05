@@ -40,7 +40,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./katana" ; cp "./katana" "/build-bins/katana"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./katana" && du -sh "./katana" ; cp "./katana" "$BINDIR/katana"
       #Delete Containers

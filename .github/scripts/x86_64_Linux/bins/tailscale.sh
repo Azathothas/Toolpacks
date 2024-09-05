@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./tailscale_bb" "/build-bins/tailscale_bb"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./tailscale" && du -sh "./tailscale" ; cp "./tailscale" "$BINDIR/tailscale"
        file "./tailscaled" && du -sh "./tailscaled" ; cp "./tailscaled" "$BINDIR/tailscaled"

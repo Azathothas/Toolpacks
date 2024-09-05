@@ -49,7 +49,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./target/$RUST_TARGET/release/nix-locate" "/build-bins/nix-locate"
         '
       #Copy 
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta 
        file "./nix-index" && du -sh "./nix-index" ; cp "./nix-index" "$BINDIR/nix-index"
        file "./nix-channel-index" && du -sh "./nix-channel-index" ; cp "./nix-channel-index" "$BINDIR/nix-channel-index"

@@ -67,7 +67,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          GOOS="android" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -Wl,--build-id=none'\''" ; cp "./dbin" "/build-bins/dbin"
         '
       #Copy
-       docker cp "alpine-builder:/build-bins/." "./"
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f ! -exec file "{}" \; | grep -v ".*executable.*aarch64" | cut -d":" -f1 | xargs -I {} rm -f "{}"
        #Meta 
        file "./dbin" && du -sh "./dbin" ; aarch64-linux-gnu-readelf -d "./dbin" | grep -i 'needed' ; cp "./dbin" "$BINDIR/dbin"
        file "./bigdld" && du -sh "./bigdld" ; aarch64-linux-gnu-readelf -d "./bigdld" | grep -i 'needed' ; cp "./bigdld" "$BINDIR/bigdld"
