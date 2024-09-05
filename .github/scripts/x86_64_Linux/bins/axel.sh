@@ -48,11 +48,12 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          strip "./axel" ; "./axel" --version ; cp "./axel" "/build-bins/axel"
          popd >/dev/null 2>&1
         '
-      #Copy 
-       docker cp "alpine-builder:/build-bins/axel" "./axel"
-       #Meta 
-       file "./axel" && du -sh "./axel"
-       cp "./axel" "$BINDIR/axel"
+      #Copy & Meta
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"       
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1

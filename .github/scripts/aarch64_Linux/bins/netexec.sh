@@ -25,15 +25,38 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="netexec"
      export SOURCE_URL="https://github.com/Pennyw0rth/NetExec"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Build: https://github.com/Pennyw0rth/NetExec/blob/main/.github/workflows/build-binaries.yml
-       pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/Pennyw0rth/NetExec" && cd "./NetExec"
-       pip install . --break-system-packages --force-reinstall --upgrade
-       #https://github.com/Pennyw0rth/NetExec/blob/main/netexec.spec
-       sed 's/upx=True/upx=False/' -i "./netexec.spec"
-       pyinstaller --clean "./netexec.spec" --noconfirm
-       staticx --loglevel DEBUG "./dist/nxc" --strip "$BINDIR/netexec"
-       cp "./dist/nxc" "$BINDIR/netexec_dynamic"
+      ##Fetch
        #eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "nxc" --to "$BINDIR/netexec_dynamic"
+      ##Build: https://github.com/Pennyw0rth/NetExec/blob/main/.github/workflows/build-binaries.yml
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
+       docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
+        bash -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+        #https://github.com/Pennyw0rth/NetExec/blob/main/Dockerfile
+         sudo apt-get update -y -qq
+         sudo apt-get install -y -qq libffi-dev libxml2-dev libxslt-dev libssl-dev openssl autoconf g++ python3-dev curl git
+         sudo apt-get update -y -qq
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/Pennyw0rth/NetExec" && cd "./NetExec"
+         pip install . --break-system-packages --force-reinstall --upgrade
+         #https://github.com/Pennyw0rth/NetExec/blob/main/netexec.spec
+         sed "s/upx=True/upx=False/" -i "./netexec.spec"
+         pyinstaller --clean "./netexec.spec" --noconfirm
+         staticx --loglevel DEBUG "./dist/nxc" --strip "/build-bins/netexec"
+        #strip & info 
+         cp "./dist/nxc" "/build-bins/netexec_dynamic"
+         popd >/dev/null 2>&1
+        '
+      #Copy & Meta
+       docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
+      #Delete Containers
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

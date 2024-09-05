@@ -28,7 +28,6 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       ##Fetch
        #eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "nxc" --to "$BINDIR/netexec_dynamic"
       ##Build: https://github.com/Pennyw0rth/NetExec/blob/main/.github/workflows/build-binaries.yml
-       popd >/dev/null 2>&1
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
        docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
@@ -50,16 +49,15 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./dist/nxc" "/build-bins/netexec_dynamic"
          popd >/dev/null 2>&1
         '
-      #Copy 
+      #Copy & Meta
        docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
-       #Meta 
-       file "./axel" && du -sh "./axel"
-       cp "./axel" "$BINDIR/axel"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
       #Delete Containers
        docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
        popd >/dev/null 2>&1
-
-
 fi
 #-------------------------------------------------------#
 
