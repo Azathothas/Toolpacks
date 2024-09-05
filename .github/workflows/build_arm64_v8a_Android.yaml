@@ -115,6 +115,8 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
+          ulimit -S -s unlimited 2>/dev/null
+          ulimit -f unlimited 2>/dev/null
           ##Main
           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/build_debian.sh" -o "$SYSTMP/BUILD.sh"
           dos2unix --quiet "$SYSTMP/BUILD.sh" ; chmod +xwr "$SYSTMP/BUILD.sh"
