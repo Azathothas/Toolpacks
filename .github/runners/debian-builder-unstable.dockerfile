@@ -129,11 +129,17 @@ RUN <<EOS
   #----------------------#
   #golang
   cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
-  echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+  curl -qfsSL "https://git.io/go-installer" -o "./install.sh"
+  dos2unix --quiet "./install.sh" && chmod +x "./install.sh"
+  echo "yes" | bash "./install.sh" 2>/dev/null || true
   rm -rf "$(realpath .)" ; cd "${CWD}"
   #----------------------#
   #Rust
-  bash <(curl -qfsSL "https://sh.rustup.rs") -y
+  cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
+  curl -qfsSL "https://sh.rustup.rs" -o "./install.sh"
+  dos2unix --quiet "./install.sh" && chmod +x "./install.sh"
+  bash "./install.sh" -y 2>/dev/null || true
+  rm -rf "$(realpath .)" ; cd "${CWD}"
   #----------------------#
 EOS
 #------------------------------------------------------------------------------------#
