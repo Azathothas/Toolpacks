@@ -35,6 +35,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         bash -c '
         #Setup ENV
          mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+        #https://github.com/Pennyw0rth/NetExec/blob/main/Dockerfile
+         sudo apt-get update -y -qq
+         sudo apt-get install -y -qq libffi-dev libxml2-dev libxslt-dev libssl-dev openssl autoconf g++ python3-dev curl git
+         sudo apt-get update -y -qq
         #Build
          git clone --quiet --filter "blob:none" "https://github.com/Pennyw0rth/NetExec" && cd "./NetExec"
          pip install . --break-system-packages --force-reinstall --upgrade

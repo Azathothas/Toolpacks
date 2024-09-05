@@ -7,15 +7,15 @@ FROM debian:unstable
 ENV DEBIAN_FRONTEND="noninteractive"
 #ENV INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux"
 RUN <<EOS
-  set +e
   #Base
+  set +e
   apt-get update -y
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
   #RE
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
   #NetTools
-  apt-get install dnsutils inetutils-ftp inetutils-ftpd inetutils-inetd inetutils-ping inetutils-syslogd inetutils-tools inetutils-traceroute net-tools netcat-traditional -y -qq --ignore-missing
-  apt-get install iputils-arping iputils-clockdiff iputils-ping iputils-tracepath -y -qq --ignore-missing
+  apt-get install dnsutils inetutils-ftp inetutils-ftpd inetutils-inetd inetutils-ping inetutils-syslogd inetutils-tools inetutils-traceroute iproute2 net-tools netcat-traditional -y -qq --ignore-missing
+  apt-get install iputils-arping iputils-clockdiff iputils-ping iputils-tracepath iproute2 -y -qq --ignore-missing
   setcap 'cap_net_raw+ep' "$(which ping)"
   #Python
   apt-get install python3 -y
@@ -65,7 +65,7 @@ RUN <<EOS
 EOS
 ##Set PATH [Default: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin] /command is s6-tools
 #ENV PATH "/command:${PATH}"
-RUN echo 'export PATH="/command:${PATH}"' >> "/etc/bash.bashrc"
+#RUN echo 'export PATH="/command:${PATH}"' >> "/etc/bash.bashrc"
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
@@ -82,9 +82,9 @@ EOS
 #------------------------------------------------------------------------------------#
 ##Build Tools
 RUN <<EOS
-  set +e
   #----------------------#
   #Main
+  set +e
   apt-get update -y
   apt-get install -y aria2 automake bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras cython3 diffutils dos2unix execline findutils fontconfig gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html wget xxhash xz-utils yasm
   #Re
@@ -118,9 +118,10 @@ RUN <<EOS
   sudo apt-get update -y
   sudo apt-get install -y busybox musl-tools scons
   export BOOTLOADER_CC="musl-gcc"
-  rm -rf build dist scons_build staticx/assets
-  python -m build
-  pip install dist/staticx-*-py3-none-manylinux1_*.whl --break-system-packages --upgrade --force
+  rm -rf "./build" "./dist" "./scons_build" "./staticx/assets"
+  python "./setup.py" sdist bdist_wheel
+  find "dist/" -name "*.whl" | xargs -I {} sh -c 'newname=$(echo {} | sed "s/none-[^/]*\.whl$/none-any.whl/"); mv "{}" "$newname"'
+  find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force
   staticx --version || pip install staticx --break-system-packages --force-reinstall --upgrade ; unset BOOTLOADER_CC
   rm -rf "$(realpath .)" ; cd "${CWD}"
   #----------------------#

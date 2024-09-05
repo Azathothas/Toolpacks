@@ -319,10 +319,11 @@
           sudo apt-get update -y
           sudo apt-get install -y busybox musl-tools scons
           export BOOTLOADER_CC="musl-gcc"
-          rm -rf build dist scons_build staticx/assets
-          python -m build
-          pip install dist/staticx-*-py3-none-manylinux1_x86_64.whl --break-system-packages --upgrade --force
-          staticx --version ; unset BOOTLOADER_CC
+          rm -rf "./build" "./dist" "./scons_build" "./staticx/assets"
+          python "./setup.py" sdist bdist_wheel
+          find "dist/" -name "*.whl" | xargs -I {} sh -c 'newname=$(echo {} | sed "s/none-[^/]*\.whl$/none-any.whl/"); mv "{}" "$newname"'
+          find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force
+          staticx --version || pip install staticx --break-system-packages --force-reinstall --upgrade ; unset BOOTLOADER_CC
           popd >/dev/null 2>&1
          #----------------------# 
          #v-lang: https://github.com/vlang/v/blob/master/README.md#installing-v-from-source
