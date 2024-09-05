@@ -14,8 +14,8 @@ RUN <<EOS
   #RE
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
   #NetTools
-  apt-get install dnsutils 'inetutils*' net-tools netcat-traditional -y -qq --ignore-missing
-  apt-get install 'iputils*' -y -qq --ignore-missing
+  apt-get install dnsutils inetutils-ftp inetutils-ftpd inetutils-inetd inetutils-ping inetutils-syslogd inetutils-tools inetutils-traceroute net-tools netcat-traditional -y -qq --ignore-missing
+  apt-get install iputils-arping iputils-clockdiff iputils-ping iputils-tracepath -y -qq --ignore-missing
   setcap 'cap_net_raw+ep' "$(which ping)"
   #Python
   apt-get install python3 -y
@@ -101,7 +101,7 @@ RUN <<EOS
   #sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
   #----------------------#
   #libpcap
-  sudo apt install 'libpcap*' -y 2>/dev/null 
+  sudo apt install libpcap-dev pcaputils -y 2>/dev/null 
   #----------------------#        
   #libsqlite3
   sudo apt-get install libsqlite3-dev sqlite3 sqlite3-pcre sqlite3-tools -y 2>/dev/null
