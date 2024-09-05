@@ -364,6 +364,7 @@
  8.5M   ├── rootlesskit
  8.5M   ├── cfssl-scan
  8.4M   ├── wormhole-rs
+ 8.4M   ├── appimagetool
  8.4M   ├── doggo
  8.4M   ├── ssr-client
  8.4M   ├── serverstatus-client
@@ -416,6 +417,7 @@
  7.4M   ├── git-checkout
  7.4M   ├── git-pull
  7.3M   ├── dnslookup
+ 7.3M   ├── mkappimage
  7.3M   ├── brename
  7.2M   ├── sessionprobe
  7.2M   ├── godnsbench
@@ -573,6 +575,7 @@
  4.9M   ├── rate-limit-checker
  4.9M   ├── stress-ng
  4.9M   ├── crt
+ 4.9M   ├── appimaged
  4.9M   ├── jwt-hack
  4.9M   ├── elinks-lite
  4.9M   ├── elinks

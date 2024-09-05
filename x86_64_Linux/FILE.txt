@@ -25,6 +25,8 @@ ansi2html:                       ELF 64-bit LSB executable, x86-64, version 1 (S
 ansi2txt:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 apk.sh:                          Bourne-Again shell script, Unicode text, UTF-8 text executable
 apkeep:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+appimaged:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+appimagetool:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 aptly:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 archey:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 arduino-cli:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_N4WnqLwpkeZ8DmwOnpf/XBFsKGNZ7NloBIcRq0i3/kJRw8dDe3L6MFHqSgqVi/FO_OFtUHWW4fQOS90KcV, stripped
@@ -521,6 +523,7 @@ miniserve:                       ELF 64-bit LSB shared object, x86-64, version 1
 minisign:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 mirrorbits:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 mise:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+mkappimage:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 mkbundle:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=0LcoSh2bBvWRC3wHSRCM/uXl6h8QhioMRxfV_qL1n/21e7-VWEaZUoI4yYiTEg/6fBvnXO8tqaz2dFtESyN, stripped
 mkpasswd:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 mksub:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=5mn83aB2vyh1vCV0m7RI/VxvspaPwcis9rCtjmXiD/j-PPCJFa_ofeYVRfyrrx/1J0CstS7Jh39l3UuRs9S, stripped

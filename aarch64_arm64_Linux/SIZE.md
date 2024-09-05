@@ -338,6 +338,7 @@
  8.1M   ├── sj
  8.1M   ├── cfssl-scan
  8.1M   ├── sshesame
+ 8.1M   ├── appimagetool
  8.1M   ├── nmap
  8.0M   ├── binocle
  8.0M   ├── nomore403
@@ -385,6 +386,7 @@
  7.0M   ├── git-clone
  7.0M   ├── git-checkout
  7.0M   ├── sake
+ 7.0M   ├── mkappimage
  7.0M   ├── dnslookup
  7.0M   ├── watchexec
  6.9M   ├── sessionprobe
@@ -525,6 +527,7 @@
  4.7M   ├── rootlesskit-docker-proxy
  4.7M   ├── rustcan
  4.7M   ├── mani
+ 4.7M   ├── appimaged
  4.6M   ├── mkbundle
  4.6M   ├── agg
  4.6M   ├── stress-ng
