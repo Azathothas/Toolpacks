@@ -13,6 +13,10 @@ RUN <<EOS
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
   #RE
   apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
+  #NetTools
+  apt-get install dnsutils 'inetutils*' net-tools netcat-traditional -y -qq --ignore-missing
+  apt-get install 'iputils*' -y -qq --ignore-missing
+  setcap 'cap_net_raw+ep' "$(which ping)"
   #Python
   apt-get install python3 -y
   #Test
@@ -82,9 +86,9 @@ RUN <<EOS
   #----------------------#
   #Main
   apt-get update -y
-  apt-get install -y aria2 automake bc binutils b3sum build-essential ca-certificates ccache clang cmake cmake-extras diffutils dos2unix findutils gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools python3 p7zip-full rsync texinfo wget xz-utils yasm
+  apt-get install -y aria2 automake bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras cython3 diffutils dos2unix execline findutils fontconfig gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html wget xxhash xz-utils yasm
   #Re
-  apt-get install -y aria2 automake bc binutils b3sum build-essential ca-certificates ccache clang diffutils dos2unix findutils gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools python3 p7zip-full rsync texinfo wget xz-utils yasm
+  apt-get install -y aria2 automake bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras cython3 diffutils dos2unix execline findutils fontconfig gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html wget xxhash xz-utils yasm
   #----------------------#
   #Install Meson & Ninja
   #sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
@@ -131,6 +135,10 @@ EOS
 #------------------------------------------------------------------------------------#
 #Start
 RUN <<EOS
+ #Locale
+  echo "LC_ALL=en_US.UTF-8" | tee -a "/etc/environment"
+  echo "en_US.UTF-8 UTF-8" | tee -a "/etc/locale.gen"
+  echo "LANG=en_US.UTF-8" | tee -a "/etc/locale.conf"
   locale-gen "en_US.UTF-8"
 EOS
 ENV LANG="en_US.UTF-8"

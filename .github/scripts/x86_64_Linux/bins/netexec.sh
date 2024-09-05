@@ -35,6 +35,32 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "./dist/nxc" "$BINDIR/netexec_dynamic"
        #eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "nxc" --to "$BINDIR/netexec_dynamic"
        popd >/dev/null 2>&1
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
+       docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
+        bash -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+        #Build
+         git clone --filter "blob:none" --quiet "https://github.com/axel-download-accelerator/axel" && cd "./axel"
+         export CFLAGS="-O2 -flto=auto -static -w -pipe"
+         export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
+         autoreconf -i ; "./configure" --disable-shared --disable-Werror --enable-static --enable-year2038 --enable-compile-warnings="no" --with-ssl="openssl"
+         make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" CPPFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
+        #strip & info
+         strip "./axel" ; "./axel" --version ; cp "./axel" "/build-bins/axel"
+         popd >/dev/null 2>&1
+        '
+      #Copy 
+       docker cp "debian-builder-unstable:/build-bins/axel" "./axel"
+       #Meta 
+       file "./axel" && du -sh "./axel"
+       cp "./axel" "$BINDIR/axel"
+      #Delete Containers
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
+       popd >/dev/null 2>&1
+
+
 fi
 #-------------------------------------------------------#
 
