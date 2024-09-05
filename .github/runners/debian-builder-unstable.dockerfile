@@ -110,8 +110,7 @@ RUN <<EOS
   sudo apt-get install liblz-dev librust-lzma-sys-dev lzma lzma-dev -y
   #----------------------#
   #staticx: https://github.com/JonathonReinhart/staticx/blob/main/.github/workflows/build-test.yml
-  export CWD="$(realpath .)" 
-  cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
+  export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
   #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
   git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
   #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
@@ -123,11 +122,18 @@ RUN <<EOS
   python -m build
   pip install dist/staticx-*-py3-none-manylinux1_*.whl --break-system-packages --upgrade --force
   staticx --version || pip install staticx --break-system-packages --force-reinstall --upgrade ; unset BOOTLOADER_CC
-  rm -rf "$(realpath .)" ; popd >/dev/null 2>&1 
-  cd "${CWD}"
+  rm -rf "$(realpath .)" ; cd "${CWD}"
   #----------------------#
   #pyinstaller
   pip install "git+https://github.com/pyinstaller/pyinstaller" --break-system-packages --force-reinstall --upgrade ; pyinstaller --version
+  #----------------------#
+  #golang
+  cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
+  echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+  rm -rf "$(realpath .)" ; cd "${CWD}"
+  #----------------------#
+  #Rust
+  bash <(curl -qfsSL "https://sh.rustup.rs") -y
   #----------------------#
 EOS
 #------------------------------------------------------------------------------------#
@@ -144,4 +150,5 @@ EOS
 ENV LANG="en_US.UTF-8"
 ENV LANGUAGE="en_US:en"
 ENV LC_ALL="en_US.UTF-8"
+ENV PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
 #------------------------------------------------------------------------------------#
