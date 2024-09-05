@@ -3,23 +3,15 @@ name: 0xf 📱 (Android Builder) ➼ Debug (gh-runner) Ubuntu-22.04
 on:
   workflow_dispatch:
 env:
-  #Authenticate with [ Pre-Approved: Yes(No, if you intend to expose key publicly) | Ephemeral:Yes | ReUsable: Yes] Key: https://login.tailscale.com/admin/settings/keys
-  #DO NOT PUT A PRE_APPROVED HIGH PRIVILEGED KEY
-  # Use a secret [ ${{ secrets.TSKEY }} ] instead: https://github.com/Azathothas/Runners/settings/secrets/actions >> New Repository Secret >> Name = TSKEY
-  #If it's least privileged, NOT Pre-Approved and you don't care bots sshing into your machines, uncomment and replace with yours.
-  #TSKEY: "tskey-auth-k99X9C6CNTRL-9vLLaJWxZBShRvNFSifuBSwvm3fijbBAE"
-  #This is the machine name
+  GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   THOST: "gh-runner-ubuntu-android"
-  #The Username for Runners
   TUSER: "runner"
   
 jobs:
   connect:
     runs-on: ubuntu-latest
-    #Default Timeout= 6 Hr (360 Mins) : https://nesin.io/blog/github-action-timeout
-    #Docs: https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration
-    #It's best to cause this timeout from your own side (Low to No chance of GH Disabling your repo) rather than gh (High Chance of them disabling your repo)
-    timeout-minutes: 350 
+    timeout-minutes: 355
     permissions:
       contents: write
       
@@ -30,140 +22,73 @@ jobs:
           # Presets
           set -x ; set +e
           #--------------#
-          #oneliner
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Arsenal/main/misc/Github/Runners/Ubuntu/debloat.sh")
-          #Manually
-          #12.0 GB
-          #Needed
-          #sudo rm /usr/local/lib/android -rf 2>/dev/null
-          #8.2 GB
-          sudo rm /opt/hostedtoolcache/CodeQL -rf 2>/dev/null
-          #5.0 GB
-          sudo rm /usr/local/.ghcup -rf 2>/dev/null
-          #2.0 GB
-          sudo rm /usr/share/dotnet -rf 2>/dev/null
-          #1.7 GB
-          sudo rm /usr/share/swift -rf 2>/dev/null
-          #1.1 GB
-          #sudo rm /usr/local/lib/node_modules -rf 2>/dev/null
-          #1.0 GB
-          sudo rm /usr/local/share/powershell -rf 2>/dev/null
-          #500 MB
-          sudo rm /usr/local/lib/heroku -rf 2>/dev/null
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh") 2>/dev/null
         continue-on-error: true
         
       # Static Binaries are used instead of pkg manager to save Time & Space     
       - name: Setup Tailscale
         run: |
           # Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
-          #Download & Chmod
-          sudo curl -qfSL "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/tailscale/tailscale_amd_x86_64_Linux" -o "/usr/local/bin/tailscale"
-          sudo curl -qfSL "https://raw.githubusercontent.com/Azathothas/Static-Binaries/main/tailscale/tailscaled_amd_x86_64_Linux" -o "/usr/local/bin/tailscaled"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/tailscale" -o "/usr/local/bin/tailscale"
+          sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/tailscaled" -o "/usr/local/bin/tailscaled"
           sudo chmod +xwr /usr/local/bin/tailscale*
-          #Enable Userspace Networking
           sudo tailscaled --tun=userspace-networking --socks5-server=localhost:9025 --outbound-http-proxy-listen=localhost:9025 >/dev/null 2>&1 &
-          #Authenticate with Ephemeral Key: https://login.tailscale.com/admin/settings/keys
           sudo tailscale up --ssh --hostname="${{ env.THOST }}" --authkey="${{ secrets.TSKEY }}" 
-          #Check Status
           sudo tailscale status --peers=false
-          #Get SSH String
-          SSH_IP=$(sudo tailscale ip -4 | tr -d '\n')
-          ssh_connection_string="SSH: ssh $USER@$SSH_IP"
-          echo -e "$ssh_connection_string"
-          #In case of debug
-          #sleep 60s
-          #Also shows up on: https://login.tailscale.com/admin/machines
+          SSH_IP="$(sudo tailscale ip -4 | tr -d '\n')" && export SSH_IP="$SSH_IP"
+          TS_DNS="$(sudo tailscale status --json | jq -r '.Self.DNSName' | sed 's/\.$//')" && export TS_DNS="$TS_DNS"
+          export GREEN='\033[32m' ; export BLUE='\033[34m' ; export YELLOW='\033[33m' ; export PURPLE='\033[35m' ; export VIOLET='\033[0;35m' ; export NC='\033[0m'
+          echo -e "${GREEN}SSH: ${YELLOW}ssh "$USER@$SSH_IP" -o "StrictHostKeyChecking=no${NC}"\n     ${YELLOW}ssh "$USER@$TS_DNS" -o "StrictHostKeyChecking=no${NC}""
+          echo -e "\n [+] ${GREEN}openvscode-server: ${BLUE}http://$TS_DNS:8080${NC}\n"
       
-      - name: Install CoreUtils
-        run: |
-           # Presets
-           set -x ; set +e
-           #--------------#
-           sudo apt-get update -y
-           sudo apt-get --fix-missing
-           sudo apt-get install -y bison build-essential ca-certificates ccache flex '*glibc*' jq 'libssl*' lzip musl musl-dev musl-tools 'openssl*' p7zip-full pkg-config qemu-user-static wget
-           sudo apt-get install coreutils moreutils -y
-           pip install ansi2txt
-           # Do again, sometimes fails
-           sudo apt install coreutils curl dos2unix jq moreutils wget -y
-           pip install ansi2txt
-           # For TG BOT Notifs
-           pip install apprise 
-           pip install apprise 2>/dev/null
-           # For neofetch
-           pip install archey4
-           pip install archey4 2>/dev/null
-           #Bin Utils
-           sudo apt install binutils-aarch64-linux-gnu -y
-           #libpcap
-           sudo apt install 'libpcap*' -y
-           sudo apt install 'nmap' -y
-        continue-on-error: true
-
-     #Comment, if you do not want to pre-install anything
-     #Tools Installed: https://github.com/Azathothas/Toolpacks/tree/main/x86_64
-     #Note: It takes 1-2 Mins, and CPU/RAM usage of GH until this time will be high
-      - name: Install Addons & ToolPacks
-        run: |
-           # Presets
-           set -x ; set +e
-           #--------------#
-           # for binaries
-           # eget for bins
-           sudo wget "https://bin.prashansa.com.np/x86_64_Linux/eget" -O "/usr/local/bin/eget"
-           sudo chmod +xwr "/usr/local/bin/eget"
-           # 7zip
-           sudo eget "https://bin.prashansa.com.np/x86_64_Linux/7z" --to "/usr/local/bin/7z" 
-           # All Bins
-           #sudo eget "Azathothas/Toolpacks" --asset "toolpack_x86_64.tar.bz2" --all --to "/usr/local/bin" && sudo chmod +xwr /usr/local/bin/*
-           #wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Toolpacks/releases/latest" | jq -r '.assets[] | .browser_download_url' | grep -i '.7z$')" -O "./toolpack_x86_64.7z"
-           wget --quiet --show-progress --progress="dot:giga" "https://bin.prashansa.com.np/x86_64_Linux/_toolpack_x86_64.7z" -O "./toolpack_x86_64.7z"
-           sudo 7z e "./toolpack_x86_64.7z" -o"/usr/local/bin" -y 2>/dev/null && sudo rm -rf "/usr/local/bin/toolpack_x86_64" 2>/dev/null && sudo rm -rf "./toolpack_x86_64.7z" 2>/dev/null ; sudo chmod +xwr /usr/local/bin/* 2>/dev/null
-        continue-on-error: true
-        
-     #Comment, if you do not want a build/compile ready environment for python
-      - name: Install StaticX
+      - name: Install Addons
         run: |
           # Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
-          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential ca-certificates flex file jq patch patchelf pkg-config python3-pip qemu-user-static wget 
-          pip3 install scons
-          pip3 install staticx
-          pip3 install pyinstaller
-          pip3 install py2static
-          pip3 install typer
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
         continue-on-error: true
-        
-     #Comment, if you do not want a build/compile ready environment for rust      
-      - name: Install Rust ToolChains
+
+      - name: Install Deps
         run: |
            # Presets
            set -x ; set +e
            #--------------#
-           # for rust & cargo
-           cargo install -f cross
+           ##PATH
+           export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
+           ##Setup rClone
+           mkdir -p "$HOME/.config/rclone"
+           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+           export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+           ##User-Agent
+           USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+           echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
+           #tmp
+           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+           #Init: https://github.com/Azathothas/Toolpacks/blob/main/.github/scripts/arm64_v8a_Android/init_debian.sh
+           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/init_debian.sh")
+           #Setup
+           echo -e "\n\n[+] Setup Env: source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/main/.github/scripts/arm64_v8a_Android/env.sh")\n\n" ; sleep 5
         continue-on-error: true
-           
-     #Comment, if you do not want a build/compile ready environment for zig        
-      - name: Install Zig
-        run: |
-         cd $(mktemp -d) && 
-         curl -qfSLJO $(curl -qfsSL "https://ziglang.org/download/index.json" | jq -r '.master | ."x86_64-linux".tarball')
-         find . -type f -name '*.tar*' -exec tar -xvf {} \;
-         sudo mkdir -p "/usr/local/zig" && sudo mv "$(find . -maxdepth 1 -type d | grep -v '^.$')"/* "/usr/local/zig" 
-         export PATH="/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:$PATH"
-        continue-on-error: true
-
-     #Replace with any extra things you want to do             
+        
       - name: Run Custom Cmd
         run: |
+           # Presets
+           set -x ; set +e
+           #--------------#        
            echo "Hellow"
         continue-on-error: true
 
      #This keeps GH Actions hypnotized until timeout                
       - name: Breakpoint || Sleep ∞
-        run: |        
-          while :; do sleep 1; done  
+        run: |
+          # Presets
+          set -x ; set +e
+          #--------------#
+          #sleep infinity
+          #while :; do sleep 1; done
+          sleep 345m
+        continue-on-error: true
