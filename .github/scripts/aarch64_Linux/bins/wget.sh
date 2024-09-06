@@ -26,8 +26,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://www.gnu.org/software/wget/"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #fetch
-      # eget "https://github.com/supriyo-biswas/static-builds" --tag "wget" --asset "aarch64" --file "wget" --to "$BINDIR/wget"
-      # cp "$BINDIR/wget" "$BASEUTILSDIR/wget"
+       eget "https://github.com/supriyo-biswas/static-builds" --tag "wget" --asset "aarch64" --file "wget" --to "$BINDIR/wget"
+       cp "$BINDIR/wget" "$BASEUTILSDIR/wget"
       ##Build 
       # pushd "$($TMPDIRS)" >/dev/null 2>&1
       # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.wget" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
