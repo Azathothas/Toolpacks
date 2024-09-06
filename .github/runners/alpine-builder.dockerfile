@@ -45,6 +45,7 @@ RUN <<EOS
   apk add brotli-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add brotli-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add brotli-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add bsd-compat-headers --latest --upgrade --no-interactive 2>/dev/null
   apk add build-base --latest --upgrade --no-interactive 2>/dev/null
   apk add bzip2 --latest --upgrade --no-interactive 2>/dev/null
   apk add bzip2-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -366,6 +367,8 @@ RUN <<EOS
   apk add libxcb --latest --upgrade --no-interactive 2>/dev/null
   apk add libxcb-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libxcb-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxdp-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libxdp-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libxfixes --latest --upgrade --no-interactive 2>/dev/null
   apk add libxfixes-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libxi --latest --upgrade --no-interactive 2>/dev/null
@@ -527,6 +530,7 @@ RUN <<EOS
   apk add python3-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add py3-distro --latest --upgrade --no-interactive 2>/dev/null
   apk add py3-docutils --latest --upgrade --no-interactive 2>/dev/null
+  apk add py3-elftools --latest --upgrade --no-interactive 2>/dev/null
   apk add py3-netifaces --latest --upgrade --no-interactive 2>/dev/null
   apk add py3-pip --latest --upgrade --no-interactive 2>/dev/null
   apk add pipx --latest --upgrade --no-interactive 2>/dev/null
