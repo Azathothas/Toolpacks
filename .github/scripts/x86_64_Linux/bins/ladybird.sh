@@ -21,19 +21,19 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #mpv : 🎥 Command line video player
-     export BIN="mpv"
-     export SOURCE_URL="https://github.com/mpv-player/mpv"
+    #ladybird : Truly independent Web Browser & Web Engine
+     export BIN="ladybird"
+     export SOURCE_URL="https://github.com/LadybirdBrowser/ladybird"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#mpv" --log-format bar-with-logs
+       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#ladybird" --log-format bar-with-logs
       ##Copy
-       sudo rsync -av --copy-links "./mpv.AppImage" "./mpv.AppImage.tmp"
-       sudo chown -R "$(whoami):$(whoami)" "./mpv.AppImage.tmp" && chmod -R 755 "./mpv.AppImage.tmp"
-       du -sh "./mpv.AppImage.tmp" && file "./mpv.AppImage.tmp"
+       sudo rsync -av --copy-links "./Ladybird.AppImage" "./ladybird.AppImage.tmp"
+       sudo chown -R "$(whoami):$(whoami)" "./ladybird.AppImage.tmp" && chmod -R 755 "./ladybird.AppImage.tmp"
+       du -sh "./ladybird.AppImage.tmp" && file "./ladybird.AppImage.tmp"
       ##Extract
-       APPIMAGE="$(realpath .)/mpv.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
+       APPIMAGE="$(realpath .)/ladybird.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
        OFFSET="$(${APPIMAGE} --appimage-offset)" && export OFFSET="${OFFSET}"
        tail -c +"$(($OFFSET + 1))" "${APPIMAGE}" > "./squash.tmp"
        #unsquashfs -force -dest "./squash_tmp/" "./squash.tmp"
@@ -45,25 +45,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           #Media
            cd "${APPIMAGE_EXTRACT}"
            mkdir -p "./usr/share/applications" && mkdir -p "./usr/share/metainfo"
-           SHARE_DIR="$(find "." -path '*share/*mpv*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | awk -F'/share/' '{print $1}')/share" && export SHARE_DIR="${SHARE_DIR}"
-           #usr/{applications,bash-completion,icons,metainfo,mpv,zsh}
-            rsync -av --copy-links \
-                      --include="*/" \
-                      --include="*.desktop" \
-                      --include="*.png" \
-                      --include="*.svg" \
-                      --include="*.xml" \
-                      --exclude="*" \
-                     "${SHARE_DIR}/" "./usr/share/" && ls "./usr/share/"
-           ##Appdata/AppStream
-           # find "." -path '*share/*mpv*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./usr/share/metainfo/"' ; cp "./usr/share/metainfo/mpv.metainfo.xml" "./usr/share/metainfo/mpv.appdata.xml"
            #Icon
-            find "." -path '*128x128/apps/*.png' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp "{}" ./mpv.png'
+            curl -qfsSL "https://raw.githubusercontent.com/LadybirdBrowser/ladybird/master/Base/res/icons/128x128/app-browser.png" -o "./ladybird.png"
             find "." -maxdepth 1 -type f -name '*.svg' -exec sh -c 'convert "$0" "${0%.svg}.png"' {} \; 2>/dev/null
-            cp "./mpv.png" "./.DirIcon"
+            cp "./ladybird.png" "./.DirIcon"
            ##Desktop
-            find "." -path '*mpv*.desktop' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./mpv.desktop"'
-            sed 's/Icon=[^ ]*/Icon=mpv/' -i "./mpv.desktop" 2>/dev/null
+            echo -e "[Desktop Entry]\nVersion=1.0\nName=Ladybird\nComment=Ladybird is an ongoing project to build an independent web browser from scratch\nExec=ladybird\nIcon=ladybird\nType=Application\nCategories=Network;WebBrowser;\nMimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;\nStartupNotify=true" > "./ladybird.desktop"
+            sed 's/Icon=[^ ]*/Icon=ladybird/' -i "./ladybird.desktop" 2>/dev/null
           #(Re)Pack
            cd "${OWD}"
            curl -qfsSL "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-$(uname -m).AppImage" -o "./appimagetool" && chmod +x "./appimagetool"
@@ -74,9 +62,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            --mksquashfs-opt -b --mksquashfs-opt "1M" \
            --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
            --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
-           "${APPIMAGE_EXTRACT}" "$BINDIR/mpv.AppImage"
+           "${APPIMAGE_EXTRACT}" "$BINDIR/ladybird.AppImage"
           #Meta
-           du -sh "$BINDIR/mpv.AppImage" && file "$BINDIR/mpv.AppImage"
+           du -sh "$BINDIR/ladybird.AppImage" && file "$BINDIR/ladybird.AppImage"
           #clean
            unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD SHARE_DIR
        fi

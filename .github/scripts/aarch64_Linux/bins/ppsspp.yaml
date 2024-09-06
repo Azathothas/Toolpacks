@@ -1,0 +1,7 @@
+name: "ppsspp"
+description: "A Cross Platform PSP emulator (AppImage)"
+web_url: "https://www.ppsspp.org"
+repo_url: "https://github.com/hrydgard/ppsspp"
+path: "/"
+bins:
+  - "ppsspp.AppImage"

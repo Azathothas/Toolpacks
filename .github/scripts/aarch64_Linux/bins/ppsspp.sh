@@ -21,19 +21,19 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #mpv : 🎥 Command line video player
-     export BIN="mpv"
-     export SOURCE_URL="https://github.com/mpv-player/mpv"
+    #ppsspp : A Cross Platform PSP emulator
+     export BIN="ppsspp"
+     export SOURCE_URL="https://github.com/hrydgard/ppsspp"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#mpv" --log-format bar-with-logs
+       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#ppsspp" --log-format bar-with-logs
       ##Copy
-       sudo rsync -av --copy-links "./mpv.AppImage" "./mpv.AppImage.tmp"
-       sudo chown -R "$(whoami):$(whoami)" "./mpv.AppImage.tmp" && chmod -R 755 "./mpv.AppImage.tmp"
-       du -sh "./mpv.AppImage.tmp" && file "./mpv.AppImage.tmp"
+       sudo rsync -av --copy-links "./ppsspp.AppImage" "./ppsspp.AppImage.tmp"
+       sudo chown -R "$(whoami):$(whoami)" "./ppsspp.AppImage.tmp" && chmod -R 755 "./ppsspp.AppImage.tmp"
+       du -sh "./ppsspp.AppImage.tmp" && file "./ppsspp.AppImage.tmp"
       ##Extract
-       APPIMAGE="$(realpath .)/mpv.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
+       APPIMAGE="$(realpath .)/ppsspp.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
        OFFSET="$(${APPIMAGE} --appimage-offset)" && export OFFSET="${OFFSET}"
        tail -c +"$(($OFFSET + 1))" "${APPIMAGE}" > "./squash.tmp"
        #unsquashfs -force -dest "./squash_tmp/" "./squash.tmp"
@@ -45,8 +45,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           #Media
            cd "${APPIMAGE_EXTRACT}"
            mkdir -p "./usr/share/applications" && mkdir -p "./usr/share/metainfo"
-           SHARE_DIR="$(find "." -path '*share/*mpv*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | awk -F'/share/' '{print $1}')/share" && export SHARE_DIR="${SHARE_DIR}"
-           #usr/{applications,bash-completion,icons,metainfo,mpv,zsh}
+           SHARE_DIR="$(find "." -path '*share/*ppsspp*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | awk -F'/share/' '{print $1}')/share" && export SHARE_DIR="${SHARE_DIR}"
+           #usr/{applications,bash-completion,icons,metainfo,ppsspp,zsh}
             rsync -av --copy-links \
                       --include="*/" \
                       --include="*.desktop" \
@@ -56,14 +56,14 @@ if [ "$SKIP_BUILD" == "NO" ]; then
                       --exclude="*" \
                      "${SHARE_DIR}/" "./usr/share/" && ls "./usr/share/"
            ##Appdata/AppStream
-           # find "." -path '*share/*mpv*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./usr/share/metainfo/"' ; cp "./usr/share/metainfo/mpv.metainfo.xml" "./usr/share/metainfo/mpv.appdata.xml"
+           # find "." -path '*share/*ppsspp*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./usr/share/metainfo/"' ; cp "./usr/share/metainfo/ppsspp.metainfo.xml" "./usr/share/metainfo/ppsspp.appdata.xml"
            #Icon
-            find "." -path '*128x128/apps/*.png' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp "{}" ./mpv.png'
+            find "." -path '*128x128/apps/*.png' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp "{}" ./ppsspp.png'
             find "." -maxdepth 1 -type f -name '*.svg' -exec sh -c 'convert "$0" "${0%.svg}.png"' {} \; 2>/dev/null
-            cp "./mpv.png" "./.DirIcon"
+            cp "./ppsspp.png" "./.DirIcon"
            ##Desktop
-            find "." -path '*mpv*.desktop' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./mpv.desktop"'
-            sed 's/Icon=[^ ]*/Icon=mpv/' -i "./mpv.desktop" 2>/dev/null
+            find "." -path '*ppsspp*.desktop' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./ppsspp.desktop"'
+            sed 's/Icon=[^ ]*/Icon=ppsspp/' -i "./ppsspp.desktop" 2>/dev/null
           #(Re)Pack
            cd "${OWD}"
            curl -qfsSL "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-$(uname -m).AppImage" -o "./appimagetool" && chmod +x "./appimagetool"
@@ -74,9 +74,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            --mksquashfs-opt -b --mksquashfs-opt "1M" \
            --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
            --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
-           "${APPIMAGE_EXTRACT}" "$BINDIR/mpv.AppImage"
+           "${APPIMAGE_EXTRACT}" "$BINDIR/ppsspp.AppImage"
           #Meta
-           du -sh "$BINDIR/mpv.AppImage" && file "$BINDIR/mpv.AppImage"
+           du -sh "$BINDIR/ppsspp.AppImage" && file "$BINDIR/ppsspp.AppImage"
           #clean
            unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD SHARE_DIR
        fi

@@ -1,0 +1,7 @@
+name: "netsurf"
+description: "A multi-platform Web Browser (AppImage)"
+web_url: "https://netsurf.io"
+repo_url: "https://source.netsurf-browser.org/netsurf.git"
+path: "/"
+bins:
+  - "netsurf.AppImage"

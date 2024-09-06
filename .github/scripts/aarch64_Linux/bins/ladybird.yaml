@@ -1,0 +1,7 @@
+name: "ladybird"
+description: "Truly independent Web Browser & Web Engine (AppImage)"
+web_url: "https://ladybird.org"
+repo_url: "https://github.com/LadybirdBrowser/ladybird"
+path: "/"
+bins:
+  - "ladybird.AppImage"

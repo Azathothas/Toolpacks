@@ -1,0 +1,7 @@
+name: "nicotine-plus"
+description: "Graphical client for the Soulseek peer-to-peer network (AppImage)"
+web_url: "https://nicotine-plus.io"
+repo_url: "https://github.com/nicotine-plus/nicotine-plus"
+path: "/"
+bins:
+  - "nicotine-plus.AppImage"
