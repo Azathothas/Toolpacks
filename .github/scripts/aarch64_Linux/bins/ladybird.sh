@@ -55,7 +55,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           #(Re)Pack
            cd "${OWD}"
            curl -qfsSL "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-$(uname -m).AppImage" -o "./appimagetool" && chmod +x "./appimagetool"
-           "./appimagetool" --comp "zstd" \
+           ARCH="$(uname -m)" "./appimagetool" --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \
            --mksquashfs-opt -noappend \

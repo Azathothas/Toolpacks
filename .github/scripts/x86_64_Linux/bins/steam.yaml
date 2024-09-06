@@ -1,0 +1,7 @@
+name: "steam"
+description: "A video game digital distribution service and storefront from Valve (AppImage)"
+web_url: "https://store.steampowered.com/about/"
+repo_url: "NA"
+path: "/"
+bins:
+  - "steam.AppImage"
