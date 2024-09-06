@@ -165,6 +165,7 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
+          #https://github.com/NixOS/nixpkgs/blob/master/lib/systems/examples.nix
           export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.cargo/env:$HOME/.go/bin:$HOME/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$HOME/.local/bin:$HOME/miniconda3/bin:$HOME/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:$PATH"
           nix-instantiate --eval --strict --expr 'let pkgs = import <nixpkgs> {}; pkgsCross = pkgs.pkgsCross; in builtins.attrNames pkgsCross' | tr -d '[]"' | tr ' ' '\n' | sed '/^\s*$/d' | sed 's/^/pkgsCross./' > "$GITHUB_WORKSPACE/main/Docs/NIX_TARGETS.txt"
         continue-on-error: true
