@@ -1,21 +1,24 @@
-205M └─┬ toolpack_arm64_v8a_Android
- 81M   ├── rclone
- 25M   ├── tailscale_combined
- 23M   ├── tailscaled
+ 75M └─┬ toolpack_arm64_v8a_Android
  18M   ├── act
- 11M   ├── tailscale
 6.6M   ├── pingmole
-6.4M   ├── bigdl
+5.7M   ├── wget_static
 5.5M   ├── wget
 5.1M   ├── actionlint
 5.1M   ├── curl
 5.0M   ├── rsync
+4.8M   ├── vim
 3.8M   ├── pspy
 3.6M   ├── axel
 1.9M   ├── jless
-1.4M   ├── bash
+1.7M   ├── zsh-5.9
+1.7M   ├── zsh
+1.7M   ├── bash
+1.5M   ├── busybox
+1.2M   ├── b3sum
 920K   ├── anew-rs
+444K   ├── xxd
 248K   ├── sudo
 224K   ├── wget_cacert.pem
 224K   ├── curl_cacert.pem
-168K   └── adig
+168K   ├── adig
+160K   └── ahost

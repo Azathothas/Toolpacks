@@ -16,6 +16,7 @@ arm-unknown-linux-gnueabi
 arm-unknown-linux-gnueabihf
 arm-unknown-linux-musleabi
 arm-unknown-linux-musleabihf
+arm64ec-pc-windows-msvc
 armebv7r-none-eabi
 armebv7r-none-eabihf
 armv5te-unknown-linux-gnueabi
@@ -41,6 +42,7 @@ i686-unknown-linux-gnu
 i686-unknown-linux-musl
 i686-unknown-uefi
 loongarch64-unknown-linux-gnu
+loongarch64-unknown-linux-musl
 loongarch64-unknown-none
 loongarch64-unknown-none-softfloat
 nvptx64-nvidia-cuda
