@@ -16,7 +16,7 @@
 1.7M   ├── bash
 1.5M   ├── busybox
 1.2M   ├── b3sum
-920K   ├── anew-rs
+948K   ├── anew-rs
 444K   ├── xxd
 248K   ├── sudo
 224K   ├── wget_cacert.pem
