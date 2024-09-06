@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       # mkdir -p "$BASEUTILSDIR/dropbear" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/dropbear"
       # sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/dropbear/" && chmod -R 755 "$BASEUTILSDIR/dropbear/"
       # #Strip
-      # find "$BASEUTILSDIR/dropbear" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+      # find "$BASEUTILSDIR/dropbear" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -60,7 +60,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/dropbear"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/dropbear/" && chmod -R 755 "$BASEUTILSDIR/dropbear/"
        #Strip
-       find "$BASEUTILSDIR/dropbear" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/dropbear" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#
       ##Meta
        file "$BASEUTILSDIR/dropbear/"*

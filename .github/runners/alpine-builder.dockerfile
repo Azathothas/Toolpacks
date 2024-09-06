@@ -163,6 +163,7 @@ RUN <<EOS
   apk add hostapd --latest --upgrade --no-interactive 2>/dev/null
   apk add hwloc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add idn2-utils --latest --upgrade --no-interactive 2>/dev/null
+  apk add imagemagick --latest --upgrade --no-interactive 2>/dev/null
   apk add imagemagick-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add imagemagick-static --latest --upgrade --no-interactive 2>/dev/null
   apk add indent --latest --upgrade --no-interactive 2>/dev/null

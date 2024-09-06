@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/procps"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/procps/" && chmod -R 755 "$BASEUTILSDIR/procps/"
        #Strip
-       find "$BASEUTILSDIR/procps" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/procps" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#       
       ##Meta
        file "$BASEUTILSDIR/procps/"*

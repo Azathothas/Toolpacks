@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/squashfs-tools-ng" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/squashfs-tools-ng"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/squashfs-tools-ng/" && chmod -R 755 "$BASEUTILSDIR/squashfs-tools-ng/"
        #Strip
-       find "$BASEUTILSDIR/squashfs-tools-ng" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/squashfs-tools-ng" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

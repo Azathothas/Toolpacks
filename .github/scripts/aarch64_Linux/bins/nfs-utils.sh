@@ -33,7 +33,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/nfs-utils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/nfs-utils/" && chmod -R 755 "$BASEUTILSDIR/nfs-utils/"
        #Strip
-       find "$BASEUTILSDIR/nfs-utils" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/nfs-utils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1    
       #-------------------------------------------------------#
       ##Meta

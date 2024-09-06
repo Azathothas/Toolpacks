@@ -37,7 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        rm -rf "./bin/"*.tgz && find "./bin" -empty -delete
        #strip
        cd "$(find "./bin" -maxdepth 1 -type d -name '*openssh*')"
-       find "." -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "." -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        #Copy
        mkdir -p "$BASEUTILSDIR/openssh"
        rsync -av --copy-links "./bin/." "$BASEUTILSDIR/openssh"

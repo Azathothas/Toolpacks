@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       # mkdir -p "$BASEUTILSDIR/dropbear" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/dropbear"
       # sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/dropbear/" && chmod -R 755 "$BASEUTILSDIR/dropbear/"
       # #Strip
-      # find "$BASEUTILSDIR/dropbear" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+      # find "$BASEUTILSDIR/dropbear" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -60,7 +60,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/dropbear"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/dropbear/" && chmod -R 755 "$BASEUTILSDIR/dropbear/"
        #Strip
-       find "$BASEUTILSDIR/dropbear" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/dropbear" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#
       ##Meta
        file "$BASEUTILSDIR/dropbear/"*
@@ -83,7 +83,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        EXTRA_BINS="$(awk -v bin="$BIN" '$0 != bin' "$TMP_METADIR/BINS.txt" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"
        REPO_URL="$(yq -r '.repo_url' $TMP_METADIR/temp.yaml)" && export REPO_URL="$REPO_URL"
        WEB_URL="$(yq -r '.web_url' $TMP_METADIR/temp.yaml)" && export WEB_URL="$WEB_URL"
-       rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/dropbear/" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" | \
+       rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/dropbear/" --exclude="*.7z" --exclude="*.AppImage" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" | \
        jq --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/dropbear/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
        for BIN in $(cat "$TMP_METADIR/BINS.txt" | sed 's/"//g'); do
          #Description

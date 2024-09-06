@@ -36,7 +36,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/a-utils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/a-utils/" && chmod -R 755 "$BASEUTILSDIR/a-utils/"
        #Strip
-       find "$BASEUTILSDIR/a-utils" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/a-utils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#
       ##Meta
        file "$BASEUTILSDIR/a-utils/"*

@@ -35,7 +35,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #mkdir -p "$BASEUTILSDIR/lkl" ; sudo rsync -av --copy-links "./result-bin/bin/." "$BASEUTILSDIR/lkl"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/lkl/" && chmod -R 755 "$BASEUTILSDIR/lkl/"
        #Strip
-       find "$BASEUTILSDIR/lkl" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/lkl" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

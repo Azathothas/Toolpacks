@@ -183,7 +183,7 @@ set +x
  #Chmod +xwr
  find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
- find "$BINDIR" -maxdepth 1 -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+ find "$BINDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
  #Rename anything with *_amd*
  find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
@@ -191,7 +191,7 @@ set +x
  #Chmod +xwr
  find "$BASEUTILSDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
- find "$BASEUTILSDIR" -maxdepth 1 -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+ find "$BASEUTILSDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
  #Rename anything with *_amd*
  find "$BASEUTILSDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
@@ -232,7 +232,7 @@ set +x
              #Chmod +xwr
              find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
              #Strip
-             find "$BINDIR" -maxdepth 1 -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+             find "$BINDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
              #Rename anything with *_amd*
              find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
             #File
@@ -256,7 +256,7 @@ set +x
              cd "$BASEUTILSDIR"
              rclone_base_dw()
              {
-               rclone copy "r2:/bin/aarch64_arm64_Linux/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copy "r2:/bin/aarch64_arm64_Linux/Baseutils/" "." --exclude="*.7z" --exclude="*.AppImage" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip"--exclude="*.7z" --exclude="*.AppImage" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              }
              export -f rclone_base_dw
              sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw
@@ -264,7 +264,7 @@ set +x
              #Chmod +xwr
              find "$BASEUTILSDIR" -type f -exec chmod +xwr {} \; 2>/dev/null
              #Strip
-             find "$BASEUTILSDIR" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+             find "$BASEUTILSDIR" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
              #Rename anything with *_amd*
              find "$BASEUTILSDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
             #File

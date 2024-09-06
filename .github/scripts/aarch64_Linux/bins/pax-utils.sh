@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/pax-utils" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/pax-utils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/pax-utils/" && chmod -R 755 "$BASEUTILSDIR/pax-utils/"
        #Strip
-       find "$BASEUTILSDIR/pax-utils" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/pax-utils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

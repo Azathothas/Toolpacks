@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/unionfs-fuse" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/unionfs-fuse"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/unionfs-fuse/" && chmod -R 755 "$BASEUTILSDIR/unionfs-fuse/"
        #Strip
-       find "$BASEUTILSDIR/unionfs-fuse" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/unionfs-fuse" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/nettools" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/nettools"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/nettools/" && chmod -R 755 "$BASEUTILSDIR/nettools/"
        #Strip
-       find "$BASEUTILSDIR/nettools" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/nettools" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

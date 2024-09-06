@@ -35,7 +35,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/libexec/." "$BASEUTILSDIR/findutils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/findutils/" && chmod -R 755 "$BASEUTILSDIR/findutils/"
        #Strip
-       find "$BASEUTILSDIR/findutils" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/findutils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#       
       ##Meta
        file "$BASEUTILSDIR/findutils/"*

@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/sharutils" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/sharutils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/sharutils/" && chmod -R 755 "$BASEUTILSDIR/sharutils/"
        #Strip
-       find "$BASEUTILSDIR/sharutils" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/sharutils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

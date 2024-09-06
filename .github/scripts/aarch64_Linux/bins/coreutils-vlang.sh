@@ -162,7 +162,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/coreutils-vlang"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/coreutils-vlang/" && chmod -R 755 "$BASEUTILSDIR/coreutils-vlang/"
        #Strip
-       find "$BASEUTILSDIR/coreutils-vlang" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/coreutils-vlang" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#
       ##Meta
        file "$BASEUTILSDIR/coreutils-vlang/"*

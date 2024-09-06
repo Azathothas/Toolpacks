@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result-bin/bin/." "$BASEUTILSDIR/openssl"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/openssl/" && chmod -R 755 "$BASEUTILSDIR/openssl/"
        #Strip
-       find "$BASEUTILSDIR/openssl" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/openssl" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#       
       ##Meta
        file "$BASEUTILSDIR/openssl/"*

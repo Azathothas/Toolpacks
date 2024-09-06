@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/busybox"
        #sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/busybox/" && chmod -R 755 "$BASEUTILSDIR/busybox/"
        ##Strip
-       #find "$BASEUTILSDIR/busybox" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       #find "$BASEUTILSDIR/busybox" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        #nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       ##Build (MUSL) 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -67,7 +67,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/busybox"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/busybox/" && chmod -R 755 "$BASEUTILSDIR/busybox/"
        #Strip
-       find "$BASEUTILSDIR/busybox" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/busybox" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------# 
       ##Meta
        file "$BASEUTILSDIR/busybox/"*

@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/dateutils" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/dateutils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/dateutils/" && chmod -R 755 "$BASEUTILSDIR/dateutils/"
        #Strip
-       find "$BASEUTILSDIR/dateutils" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/dateutils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

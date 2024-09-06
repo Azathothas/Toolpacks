@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/e2fsprogs" ; sudo rsync -av --copy-links "./result-bin/bin/." "$BASEUTILSDIR/e2fsprogs"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/e2fsprogs/" && chmod -R 755 "$BASEUTILSDIR/e2fsprogs/"
        #Strip
-       find "$BASEUTILSDIR/e2fsprogs" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/e2fsprogs" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

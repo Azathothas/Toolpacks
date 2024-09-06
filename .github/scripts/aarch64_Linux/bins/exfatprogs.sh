@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/exfatprogs" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/exfatprogs"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/exfatprogs/" && chmod -R 755 "$BASEUTILSDIR/exfatprogs/"
        #Strip
-       find "$BASEUTILSDIR/exfatprogs" -type f -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/exfatprogs" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta
