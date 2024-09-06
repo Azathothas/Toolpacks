@@ -256,7 +256,7 @@ set +x
              cd "$BASEUTILSDIR"
              rclone_base_dw()
              {
-               rclone copy "r2:/bin/aarch64_arm64_Linux/Baseutils/" "." --exclude="*.7z" --exclude="*.AppImage" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip"--exclude="*.7z" --exclude="*.AppImage" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copy "r2:/bin/aarch64_arm64_Linux/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              }
              export -f rclone_base_dw
              sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw
