@@ -52,6 +52,23 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            ##Desktop
             echo -e "[Desktop Entry]\nVersion=1.0\nName=netsurf-browser\nComment=Small as a mouse, fast as a cheetah and available for free. NetSurf is a multi-platform web browser for RISC OS, UNIX-like platforms (including Linux), Mac OS X, and more.\nExec=netsurf\nIcon=netsurf\nType=Application\nCategories=Network;WebBrowser;\nMimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;\nStartupNotify=true" > "./netsurf.desktop"
             sed 's/Icon=[^ ]*/Icon=netsurf/' -i "./netsurf.desktop" 2>/dev/null
+           ##Purge Bloatware
+           echo -e "\n[+] Purging Bloatware...\n"
+            O_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "O_SIZE=${O_SIZE}"
+            #Headers
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            #docs & manpages
+            find "." -type d -path "*doc/share*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "." -type d -path "*/share/docs*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "." -type d -path "*/share/man*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            #static libs
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+            #systemd (need .so)
+            find "." -type d -name "*systemd*" -exec find {} -type f ! -name "*.so*" -delete \;
+            #Strip (this breaks things)
+            #find "." -type f -executable -exec file -i '{}' \; | grep "application/.*executable" | cut -d':' -f1 | xargs realpath | xargs sudo strip -R ".comment" -R ".gnu.version" --strip-unneeded 2>/dev/null
+            P_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "P_SIZE=${P_SIZE}"
+           echo -e "\n[+] Shaved off ${O_SIZE} --> ${P_SIZE}\n"
           #(Re)Pack
            cd "${OWD}"
            curl -qfsSL "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-$(uname -m).AppImage" -o "./appimagetool" && chmod +x "./appimagetool"
