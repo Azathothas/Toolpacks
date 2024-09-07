@@ -1,10 +1,16 @@
 ```mathematica
- 9.6G └─┬ toolpack_aarch64
+  11G └─┬ toolpack_aarch64
+ 415M   ├── firefox.AppImage
+ 348M   ├── mpv.AppImage
+ 312M   ├── nicotine-plus.AppImage
+ 290M   ├── ladybird.AppImage
+ 220M   ├── ppsspp.AppImage
  154M   ├── traefik
  142M   ├── aws-nuke
  139M   ├── cloudfox
  131M   ├── usql
  111M   ├── cloudlist
+ 109M   ├── netsurf.AppImage
  103M   ├── trufflehog
   97M   ├── gitea
   92M   ├── promtail
@@ -62,6 +68,7 @@
   30M   ├── sq
   29M   ├── dblab
   29M   ├── edgevpn
+  29M   ├── helix.AppImage
   29M   ├── aix
   28M   ├── podman
   28M   ├── gowitness
