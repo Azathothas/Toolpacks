@@ -1,11 +1,18 @@
 ```mathematica
-  11G └─┬ toolpack_x86_64
+  13G └─┬ toolpack_x86_64
+ 1.2G   ├── steam.AppImage
+ 426M   ├── firefox.AppImage
+ 357M   ├── mpv.AppImage
+ 312M   ├── ladybird.AppImage
+ 226M   ├── ppsspp.AppImage
  169M   ├── usql
+ 164M   ├── kitty.AppImage
  161M   ├── sliver-server
  159M   ├── traefik
  151M   ├── cloudfox
  149M   ├── bpftrace
  143M   ├── aws-nuke
+ 123M   ├── netsurf.AppImage
  113M   ├── cloudlist
  110M   ├── trufflehog
  102M   ├── gitea
@@ -24,6 +31,7 @@
   70M   ├── rclone
   69M   ├── loki
   68M   ├── ockam
+  68M   ├── lorien.AppImage
   67M   ├── devpod
   61M   ├── logcli
   59M   ├── wtfutil
@@ -70,6 +78,7 @@
   30M   ├── edgevpn
   30M   ├── dblab
   30M   ├── pixi
+  30M   ├── helix.AppImage
   29M   ├── aix
   29M   ├── zellij
   29M   ├── podman
