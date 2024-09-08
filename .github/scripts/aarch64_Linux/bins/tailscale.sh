@@ -29,10 +29,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
-        sh -c '
+        bash -c '
         #Setup ENV
-         tempdir="$(mktemp -d)" ; mkdir -p "$tempdir" && cd "$tempdir"
-         mkdir -p "/build-bins"
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         pushd "$(mktemp -d)" >/dev/null ; echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer") ; popd >/dev/null
         #Build
          git clone --quiet --filter "blob:none" "https://github.com/tailscale/tailscale" && cd "./tailscale"
          #tailscale
@@ -46,6 +46,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          cp "./tailscale" "/build-bins/tailscale"
          cp "./tailscaled" "/build-bins/tailscaled"
          cp "./tailscale_bb" "/build-bins/tailscale_bb"
+         popd >/dev/null 2>&1
         '
       #Copy
        docker cp "alpine-builder:/build-bins/." "$(pwd)/"

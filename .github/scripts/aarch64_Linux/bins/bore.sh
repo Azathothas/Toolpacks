@@ -21,12 +21,39 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-     #bore : ngrok alternative for making tunnels to localhost
-     export BIN="bore" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/ekzhang/bore" #github/gitlab/homepage/etc for $BIN
+    #bore : ngrok alternative for making tunnels to localhost
+     export BIN="bore"
+     export SOURCE_URL="https://github.com/ekzhang/bore"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/bore/bore_aarch64_arm64_musl_Linux" --to "$BINDIR/$BIN"
+      #Build
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        bash -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         source "$HOME/.cargo/env"
+         export RUST_TARGET="x86_64-unknown-linux-musl"
+         rustup target add "$RUST_TARGET"
+         export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+        #Build
+         git clone --filter "blob:none" --quiet "https://github.com/ekzhang/bore" && cd "./bore"
+         echo -e "\n[+] Target: $RUST_TARGET\n"
+         echo -e "\n[+] Flags: $RUSTFLAGS\n"
+         sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
+         rm rust-toolchain* 2>/dev/null
+         cargo build --target "$RUST_TARGET" --release --jobs="$(($(nproc)+1))" --keep-going
+         find "./target/$RUST_TARGET/release" -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
+         popd >/dev/null 2>&1
+        '
+      #Copy 
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

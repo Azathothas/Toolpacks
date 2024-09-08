@@ -21,16 +21,114 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-     #twingate : programmatically deploy and maintain a zero trust approach to infrastructures
-     export BIN="twingate-connector" #Name of final binary/pkg/cli, sometimes differs from $REPO
+    #twingate : Zero Trust VPN replacement for programmatic & Secure access to Infrastructures
+     export BIN="twingate" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://www.twingate.com/" #github/gitlab/homepage/etc for $BIN
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_client_amd_x86_64_staticx_Linux" --to "$BINDIR/twingate-client"
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connector_amd_x86_64_dynamic_Linux" --to "$BINDIR/twingate-connector"
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connector_amd_x86_64_staticx_Linux" --to "$BINDIR/twingate-connector-staticx"
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_connectorctl_amd_x86_64_staticx_Linux" --to "$BINDIR/twingate-connectorctl"
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/twingate/twingate_notifier_amd_x86_64_staticx_Linux" --to "$BINDIR/twingate-notifier"
+      ##Build: Clients
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
+       docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
+        bash -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         sudo apt-get update -y -qq
+         sudo apt-get install -y -qq libffi-dev libxml2-dev libxslt-dev libssl-dev openssl autoconf g++ python3-dev curl git
+         sudo apt-get update -y -qq
+        #Build
+         #Clients:https://www.twingate.com/docs/linux
+         curl -qfsSL "https://binaries.twingate.com/client/linux/install.sh" -o "./install.sh" && chmod +x "./install.sh" && sudo bash "./install.sh"
+         sudo rsync -av --copy-links "$(which twingate)" "./twingate"
+         staticx --loglevel DEBUG "./twingate" --strip "/build-bins/twingate"
+         sudo rsync -av --copy-links "$(which twingated)" "./twingated"
+         staticx --loglevel DEBUG "./twingated" --strip "/build-bins/twingated"
+         sudo rsync -av --copy-links "$(which twingate-notifier)" "./twingate-notifier"
+         staticx --loglevel DEBUG "./twingate-notifier" --strip "/build-bins/twingate-notifier"
+         popd >/dev/null 2>&1
+        '
+      #Copy & Meta
+       docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/twingate/"
+      #Delete Containers
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
+       popd >/dev/null 2>&1
+      ##Build: Connectors
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
+       docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
+        bash -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         sudo apt-get update -y -qq
+         sudo apt-get install -y -qq libffi-dev libxml2-dev libxslt-dev libssl-dev openssl autoconf g++ python3-dev curl git
+         sudo apt-get update -y -qq
+        #Build
+         #Connectors:https://www.twingate.com/docs/connectors-on-linux
+         curl -qfsSL "https://binaries.twingate.com/connector/setup.sh" -o "./setup.sh" && chmod +x "./setup.sh" && sudo bash "./setup.sh"
+         sudo rsync -av --copy-links "$(which twingate-connector)" "./twingate-connector"
+         staticx --loglevel DEBUG "./twingate-connector" --strip "/build-bins/twingate-connector"
+         sudo rsync -av --copy-links "$(which twingate-connectorctl)" "./twingate-connectorctl"
+         staticx --loglevel DEBUG "./twingate-connectorctl" --strip "/build-bins/twingate-connectorctl"
+         popd >/dev/null 2>&1
+        '
+      #Copy & Meta
+       docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/twingate/"
+      #Delete Containers
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
+       popd >/dev/null 2>&1
+      #-------------------------------------------------------#
+      ##Meta
+       file "$BASEUTILSDIR/twingate/"*
+       #Archive [$BASEUTILSDIR/twingate]
+       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/twingate/_twingate.7z" "$BASEUTILSDIR/twingate" 2>/dev/null
+       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/twingate/_twingate.tar" "$BASEUTILSDIR/twingate" 2>/dev/null
+       #Generate METADATA
+       cd "$BASEUTILSDIR/twingate" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/twingate/FILE.txt"
+       cd "$BASEUTILSDIR/twingate" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/twingate/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/twingate" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/twingate/SHA256SUM.txt"
+       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/twingate" | tee "$BASEUTILSDIR/twingate/SIZE.txt"
+       #rClone
+       TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
+       cd "$BASEUTILSDIR/twingate" && rclone sync "." "r2:/bin/x86_64_Linux/Baseutils/twingate/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+       curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
+       #List
+       curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/twingate.yaml" -o "$TMP_METADIR/temp.yaml"
+       yq -r '.bins[]' "$TMP_METADIR/temp.yaml" | sort -u -o "$TMP_METADIR/BINS.txt"
+       DESCRIPTION="$(yq -r '.description' $TMP_METADIR/temp.yaml)" && export DESCRIPTION="$DESCRIPTION"
+       EXTRA_BINS="$(awk -v bin="$BIN" '$0 != bin' "$TMP_METADIR/BINS.txt" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"
+       REPO_URL="$(yq -r '.repo_url' $TMP_METADIR/temp.yaml)" && export REPO_URL="$REPO_URL"
+       WEB_URL="$(yq -r '.web_url' $TMP_METADIR/temp.yaml)" && export WEB_URL="$WEB_URL"
+       rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/twingate/" --exclude="*.7z" --exclude="*.AppImage" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" | \
+       jq --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/twingate/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
+       for BIN in $(cat "$TMP_METADIR/BINS.txt" | sed 's/"//g'); do
+         #Description
+          jq --arg BIN "$BIN" --arg DESCRIPTION "$DESCRIPTION" '.[] |= if .name == $BIN then . + {description: $DESCRIPTION} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #Extras (All Bins)
+          EXTRA_BINS="$(awk -v bin="$BIN" '$0 != bin' "$TMP_METADIR/BINS.txt" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"  
+          jq --arg BIN "$BIN" --arg EXTRA_BINS "$EXTRA_BINS" '.[] |= if .name == $BIN then . + {extra_bins: $EXTRA_BINS} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #BSUM
+          B3SUM="$(cat "$BASEUTILSDIR/twingate/BLAKE3SUM.txt" | grep --fixed-strings --ignore-case --word-regexp "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
+          jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .name == $BIN then . + {b3sum: $B3SUM} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #SHA256SUM
+          SHA256="$(cat "$BASEUTILSDIR/twingate/SHA256SUM.txt" | grep --fixed-strings --ignore-case --word-regexp "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
+          jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .name == $BIN then . + {sha256: $SHA256} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+         #Web URLs
+          jq --arg BIN "$BIN" --arg WEB_URL "$WEB_URL" '.[] |= if .name == $BIN then . + {web_url: $WEB_URL} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
+       done
+       #Upload 
+       if jq --exit-status . "$TMP_METADIR/INFO.json" >/dev/null 2>&1; then
+          rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/x86_64_Linux/Baseutils/twingate/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+       fi
+       unset TMP_METADIR B3SUM DESCRIPTION EXTRA_BINS REPO_URL SHA256 WEB_URL
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       find "$BASEUTILSDIR" -type f -size 0 -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

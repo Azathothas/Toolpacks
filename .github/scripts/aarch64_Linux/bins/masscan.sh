@@ -19,15 +19,19 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+export SKIP_BUILD="NO" #YES, static masscan doesn't really work
 if [ "$SKIP_BUILD" == "NO" ]; then
     #masscan : TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. 
-     export BIN="masscan" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/robertdavidgraham/masscan" #github/gitlab/homepage/etc for $BIN
+     export BIN="masscan"
+     export SOURCE_URL="https://github.com/robertdavidgraham/masscan"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      #Fetch
-       #Doesn't work
-       #eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/masscan/masscan_linux_x86_64_gcc" --to "$BINDIR/masscan"
+      ##Build
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.masscan" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       sudo rsync -av --copy-links "./result/bin/.masscan-wrapped" "$BINDIR/masscan"
+       sudo chown -R "$(whoami):$(whoami)" "$BINDIR" && chmod -R 755 "$BINDIR"
+       sudo strip "$BINDIR/masscan" ; file "$BINDIR/masscan" && du -sh "$BINDIR/masscan"
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -22,11 +22,34 @@ fi
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
    #gost : GO Simple Tunnel - a simple tunnel written in golang
-     export BIN="gost" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/ginuerzh/gost" #github/gitlab/homepage/etc for $BIN
+     export BIN="gost"
+     export SOURCE_URL="https://github.com/ginuerzh/gost"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/gost/gost_amd_x86_64_Linux" --to "$BINDIR/gost"
+       eval "$EGET_TIMEOUT" eget "https://github.com/Azathothas/Static-Binaries/raw/main/gost/gost_aarch64_arm64_Linux" --to "$BINDIR/gost"
+      #Build (alpine-musl)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        bash -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         pushd "$(mktemp -d)" >/dev/null ; echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer") ; popd >/dev/null
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/ginuerzh/gost" && cd "./gost"
+         #https://github.com/ginuerzh/gost/blob/master/Makefile
+         GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''" -o "./gost-bin" "./cmd/gost/"
+         cp "./gost-bin" "/build-bins/gost"
+         popd >/dev/null 2>&1
+        '
+      #Copy 
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 
