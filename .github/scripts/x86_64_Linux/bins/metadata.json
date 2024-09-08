@@ -2005,9 +2005,9 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/litefs.sh"
   },
   {
-    "name": "lklfuse.sh",
-    "update_date": "2024-09-06T18:36:14",
-    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lklfuse.sh"
+    "name": "lkl.sh",
+    "update_date": "2024-09-07T21:03:28",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lkl.sh"
   },
   {
     "name": "lnav.sh",
@@ -2166,7 +2166,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-07T07:08:21",
+    "update_date": "2024-09-08T00:09:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
