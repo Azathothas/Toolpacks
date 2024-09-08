@@ -147,7 +147,6 @@ Elapsed time:        26.0s
 621:pathbuster:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=d19278069f3c32a7b05819e3c64a1ffc30ad2336, for GNU/Linux 3.2.0, stripped
 660:promtail:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=40740f81c49565dcf5634273162551ef921c8e5c, for GNU/Linux 3.2.0, stripped
 758:rqbit:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.16, stripped
-937:twingate-connector:              ELF 64-bit LSB pie executable, x86-64, version 1 (GNU/Linux), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=4f9ed0d4d31aeeee9c3ab74ffe05b6c7f771ea1a, for GNU/Linux 3.2.0, stripped
 
 
 [-] Incorrect Arch --> # Not for x86_64

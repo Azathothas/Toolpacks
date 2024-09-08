@@ -876,11 +876,6 @@ tuiarchiver:                     ELF 64-bit LSB executable, ARM aarch64, version
 tun2proxy:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 tusd:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=uD_Vhj58Kd8mumFfJwoT/x-1BaGcG3dzcmFwZK35u/tHLtFP8ZCxhVbuGsXx1N/7NmXUIZZo46_0RfsTx66, stripped
 tut:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=iLUih0ZEucieo7o48QGC/24zOVIRTlz0b9rY7M2H7/f1bh5f_sTzrDKq_9ylzz/71t9n1IMqWUX4seTfvhv, stripped
-twingate-client:                 HTML document, Unicode text, UTF-8 text, with very long lines (1616)
-twingate-connector:              HTML document, Unicode text, UTF-8 text, with very long lines (1616)
-twingate-connector-staticx:      HTML document, Unicode text, UTF-8 text, with very long lines (1616)
-twingate-connectorctl:           HTML document, Unicode text, UTF-8 text, with very long lines (1616)
-twingate-notifier:               HTML document, Unicode text, UTF-8 text, with very long lines (1616)
 txeh:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=5qa87qrcMgNL9L_Kehtj/dkdJLCcIETC5vFDWKaC6/aJ-wJFB7nivZ9SF22pg9/WOkWCwfD0QMZ4MfGTBvk, stripped
 tz:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=r46vCKPzcIaJaHR9CwWb/awF-RiUGOcuAaPwgGHkF/xxZJI7WW34SG10lJYver/wVODJcsjxI7i0RUhEJIV, stripped
 u-root:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped

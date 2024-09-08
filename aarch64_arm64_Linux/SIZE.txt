@@ -908,11 +908,6 @@
  276K   ├── albafetch
  268K   ├── wg
  264K   ├── netstat
- 260K   ├── twingate-notifier
- 260K   ├── twingate-connectorctl
- 260K   ├── twingate-connector-staticx
- 260K   ├── twingate-connector
- 260K   ├── twingate-client
  260K   ├── sed
  256K   ├── screenfetch
  216K   ├── zapper
