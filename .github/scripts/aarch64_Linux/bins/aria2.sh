@@ -26,7 +26,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/aria2/aria2"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "https://github.com/abcfy2/aria2-static-build" --tag "continuous" --asset "x86_64" --asset "musl" --asset "static" --asset "^libressl" --to "$BINDIR/aria2"
+       eval "$EGET_TIMEOUT" eget "https://github.com/abcfy2/aria2-static-build" --tag "continuous" --asset "aarch64" --asset "musl" --asset "static" --asset "^libressl" --to "$BINDIR/aria2"
        cp "$BINDIR/aria2" "$BINDIR/aria2c"
 fi
 #-------------------------------------------------------#
