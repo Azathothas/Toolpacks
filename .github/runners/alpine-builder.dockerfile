@@ -704,7 +704,7 @@ RUN <<EOS
   wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/micro" -O "/usr/bin/micro"
   chmod +xwr "/usr/bin/micro"
  #musl-gcc wrapper
-  ln --symbolic "$(which gcc)" "/usr/local/bin/musl-gcc" 2>/dev/null
+  ln --symbolic "/usr/bin/$(uname -m)-alpine-linux-musl-gcc" "/usr/local/bin/musl-gcc" 2>/dev/null
 EOS
 #------------------------------------------------------------------------------------#
 ##Config
