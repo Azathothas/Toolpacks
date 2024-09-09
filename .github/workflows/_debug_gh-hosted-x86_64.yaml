@@ -52,7 +52,7 @@ jobs:
         continue-on-error: true
 
       - name: Get latest Python
-        uses: deadsnakes/action@v3.1.0
+        uses: deadsnakes/action@v3.2.0
         with:
           python-version: "3.13"
         continue-on-error: true

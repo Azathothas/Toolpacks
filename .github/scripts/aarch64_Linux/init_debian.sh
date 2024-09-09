@@ -281,7 +281,7 @@
           #source "$HOME/.bash_profile" ; source "$HOME/.nix-profile/etc/profile.d/nix.sh" ; . "$HOME/.nix-profile/etc/profile.d/nix.sh"
           ##https://github.com/DeterminateSystems/nix-installer
           "/nix/nix-installer" uninstall --no-confirm 2>/dev/null
-          curl -qfsSL "https://install.determinate.systems/nix" | bash -s -- install linux --init none --no-confirm
+          curl -qfsSL "https://install.determinate.systems/nix" | bash -s -- install linux --init none --extra-conf "filter-syscalls = false" --no-confirm
           #Source
           source "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
           #Fix perms: could not set permissions on '/nix/var/nix/profiles/per-user' to 755: Operation not permitted

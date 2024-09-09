@@ -933,11 +933,6 @@ tuiarchiver:                     ELF 64-bit LSB executable, x86-64, version 1 (S
 tun2proxy:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 tusd:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=u4YgzLrYqrneFj2kkz39/NVcgKkkNR1Ci-6aCVeDQ/ZM36xzPb7NsRmVYFvwLV/GhAFKEOfrkwLnBem-Wky, stripped
 tut:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=TBd0guBa2GJAZJuDL4NZ/YBikZjOVaviLfKv463je/En81n9VrfAZwBbBJTtFm/dVcHh6AuJ0aSd5FkWaPz, stripped
-twingate-client:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-twingate-connector:              ELF 64-bit LSB pie executable, x86-64, version 1 (GNU/Linux), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=4f9ed0d4d31aeeee9c3ab74ffe05b6c7f771ea1a, for GNU/Linux 3.2.0, stripped
-twingate-connector-staticx:      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-twingate-connectorctl:           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-twingate-notifier:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 txeh:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=D7ggyPCOaUsmHAJjKCNu/m0F--k_hJQ1n9u9xuk7O/ukBtgnsP4t0ZcHovWA4K/YOlVTtpzYBRwG9n3vT1_, stripped
 tz:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=oFukFLdYYhDBA7AmRmV2/t8liJwpFkTumpD-qETu4/MnDgufopOtmREX4BwHa2/UP0d402lz_jlfPcrNS8i, stripped
 u-root:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

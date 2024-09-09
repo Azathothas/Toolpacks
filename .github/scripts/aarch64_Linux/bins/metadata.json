@@ -110,6 +110,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/anewer.sh"
   },
   {
+    "name": "angryoxide.sh",
+    "update_date": "2024-09-08T14:03:29",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/angryoxide.sh"
+  },
+  {
     "name": "apk.sh.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/apk.sh.sh"
@@ -141,7 +146,7 @@
   },
   {
     "name": "aria2.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-08T14:03:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/aria2.sh"
   },
   {
@@ -296,7 +301,7 @@
   },
   {
     "name": "bore.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-08T14:03:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bore.sh"
   },
   {
@@ -1451,7 +1456,7 @@
   },
   {
     "name": "gost.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-08T14:03:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gost.sh"
   },
   {
@@ -2081,7 +2086,7 @@
   },
   {
     "name": "masscan.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-08T14:03:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/masscan.sh"
   },
   {
@@ -2146,7 +2151,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-08T00:09:14",
+    "update_date": "2024-09-09T00:09:09",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -3406,7 +3411,7 @@
   },
   {
     "name": "tailscale.sh",
-    "update_date": "2024-09-05T09:14:39",
+    "update_date": "2024-09-08T14:03:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/tailscale.sh"
   },
   {
@@ -3576,7 +3581,7 @@
   },
   {
     "name": "twingate.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-08T14:03:29",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/twingate.sh"
   },
   {

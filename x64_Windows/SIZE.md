@@ -4,7 +4,7 @@
  139M   ├── ffmpeg.exe
  139M   ├── ffprobe.exe
  139M   ├── ffplay.exe
-  77M   ├── alist.exe
+  76M   ├── alist.exe
   54M   ├── miniooni.exe
   54M   ├── miniooni-windows-amd64.exe
   50M   ├── ooniprobe.exe
@@ -78,6 +78,7 @@
  2.3M   ├── nl.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── tac.exe
+ 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -89,7 +90,6 @@
  1.6M   ├── sort.exe
  1.6M   ├── dua.exe
  1.5M   ├── ls.exe
- 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.4M   ├── fastfetch.exe
@@ -113,7 +113,7 @@
  1.0M   ├── seq.exe
  1.0M   ├── env.exe
  1.0M   ├── b3sum.exe
-1020K   ├── dd.exe
+1016K   ├── dd.exe
 1012K   ├── od.exe
  996K   ├── more.exe
  988K   ├── split.exe
@@ -134,8 +134,8 @@
  920K   ├── shuf.exe
  920K   ├── fmt.exe
  916K   ├── tr.exe
- 912K   ├── dircolors.exe
  908K   ├── head.exe
+ 908K   ├── dircolors.exe
  904K   ├── shred.exe
  896K   ├── xargs.exe
  896K   ├── xargs-rs.exe
@@ -172,8 +172,8 @@
  808K   ├── printenv.exe
  808K   ├── anew.exe
  808K   ├── anew-rs.exe
+ 768K   ├── false.exe
  764K   ├── true.exe
- 764K   ├── false.exe
  656K   ├── busybox-unicode.exe
  652K   ├── ssh-keyscan.exe
  652K   ├── busybox.exe

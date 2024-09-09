@@ -191,7 +191,6 @@
   17M   ├── sunbeam
   17M   ├── lazygit
   17M   ├── chameleon
-  17M   ├── twingate-connector
   17M   ├── sn0int
   17M   ├── act
   17M   ├── circumflex
@@ -443,7 +442,6 @@
  7.1M   ├── websocat
  7.1M   ├── zfind
  7.1M   ├── cfspeed
- 7.0M   ├── twingate-connector-staticx
  7.0M   ├── zdns
  7.0M   ├── spoof-dpi
  6.9M   ├── spk
@@ -628,7 +626,6 @@
  4.4M   ├── chainredir
  4.4M   ├── ouch
  4.4M   ├── agrind
- 4.3M   ├── twingate-connectorctl
  4.3M   ├── onetun
  4.3M   ├── axel
  4.3M   ├── ssh-keysign
@@ -662,7 +659,6 @@
  3.9M   ├── fd
  3.9M   ├── qemu-mips-static
  3.9M   ├── qemu-mipsel-static
- 3.9M   ├── twingate-notifier
  3.9M   ├── pfetch-rs
  3.8M   ├── just
  3.8M   ├── kanha
@@ -691,7 +687,6 @@
  3.6M   ├── 7z
  3.5M   ├── age
  3.5M   ├── hcxpmktool
- 3.5M   ├── twingate-client
  3.5M   ├── bandwhich
  3.5M   ├── qemu-i386-static
  3.5M   ├── kalc
