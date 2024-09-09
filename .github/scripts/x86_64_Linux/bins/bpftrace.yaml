@@ -5,3 +5,4 @@ repo_url: "https://github.com/bpftrace/bpftrace"
 path: "/"
 bins:
   - "bpftrace"
+  - "bpftrace-aotrt"

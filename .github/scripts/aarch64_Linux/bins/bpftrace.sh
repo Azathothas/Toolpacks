@@ -27,49 +27,40 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       git clone --filter "blob:none" --quiet "https://github.com/bpftrace/bpftrace" && cd "./bpftrace"
-       IMAGE="bpftrace-static" ; docker stop "$IMAGE" 2>/dev/null ; docker rm "$IMAGE" ; docker rmi "$IMAGE"
-       docker build -t "$IMAGE" -f "docker/Dockerfile.static" docker/
-       docker run --privileged --net="host" --name "$IMAGE" -v "$(pwd):$(pwd)" -w "$(pwd)" -i "$IMAGE" sh -c '
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
+        bash -c '
         #Setup ENV
-         mkdir -p "/build-bins"
-         apk update && apk upgrade --no-interactive 2>/dev/null
-         apk add bash --latest --upgrade --no-interactive 2>/dev/null
-         apk add coreutils --latest --upgrade --no-interactive 2>/dev/null
-         apk add file --latest --upgrade --no-interactive 2>/dev/null
-         apk add grep --latest --upgrade --no-interactive 2>/dev/null
-         apk add moreutils --latest --upgrade --no-interactive 2>/dev/null
-         apk add rsync --latest --upgrade --no-interactive 2>/dev/null
-         apk add util-linux --latest --upgrade --no-interactive 2>/dev/null
-         #Main Libs: https://github.com/bpftrace/bpftrace/blob/master/.github/include/static.sh
-         BUILD_DIR="STATIC_BUILD"
-         cmake -DCMAKE_BUILD_TYPE="Release" \
-         -DCMAKE_VERBOSE_MAKEFILE="ON" \
-         -DBUILD_TESTING="OFF" \
-         -DSTATIC_LINKING="ON" \
-         -B "./STATIC_BUILD"
-         make -C "./STATIC_BUILD" -j"$(($(nproc)+1))" all
-         #Main Binary
-         cmake -DCMAKE_C_FLAGS="-O2 -flto=auto -static -w -pipe" \
-         -DCMAKE_EXE_LINKER_FLAGS="-static -s -Wl,-S -Wl,--build-id=none" \
-         -DCMAKE_BUILD_TYPE="Release" \
-         -DIS_MUSL="ON" \
-         -DBUILD_SHARED_LIBS="Off" \
-         -DSTATIC_LINKING="ON" \
-         -DBUILD_TESTING="OFF" \
-         -DCMAKE_VERBOSE_MAKEFILE="ON" \
-         -B "./STATIC_BUILD"
-         make -C "./STATIC_BUILD" -j"$(($(nproc)+1))" all
-         #copy
-         find "./STATIC_BUILD/src/" -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
-         '
-      #Copy
-       pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker cp "$IMAGE:/build-bins/." "$(pwd)/"
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+        #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
+         git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
+         #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
+         pip install -r "./requirements.txt" --break-system-packages --upgrade --force
+         apk update && apk upgrade --no-interactive
+         apk add busybox scons --latest --upgrade --no-interactive
+         export BOOTLOADER_CC="musl-gcc"
+         rm -rf "./build" "./dist" "./scons_build" "./staticx/assets"
+         python "./setup.py" sdist bdist_wheel
+         find dist/ -name "*.whl" | while read -r file; do 
+           newname=$(echo "$file" | sed "s/none-[^/]*\.whl$/none-any.whl/");
+           mv "$file" "$newname"; 
+         done
+         find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force
+         staticx --version ; popd >/dev/null 2>&1
+        ##Staticx
+         apk update && apk upgrade --no-interactive
+         apk add bpftrace --latest --upgrade --no-interactive
+         staticx --loglevel DEBUG "$(which bpftrace)" --strip "/build-bins/bpftrace"
+         staticx --loglevel DEBUG "$(which bpftrace-aotrt)" --strip "/build-bins/bpftrace-aotrt"
+        '
+      #Copy & Meta
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
-       file "./bpftrace" && du -sh "./bpftrace" ; cp "./bpftrace" "$BINDIR/bpftrace"
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
       #Delete Containers
-       docker stop "$IMAGE" 2>/dev/null ; docker rm "$IMAGE" 2>/dev/null
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
