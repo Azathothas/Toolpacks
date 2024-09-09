@@ -173,7 +173,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35335
+- **Stars:** 35336
 - **Version:** curl-8_9_1
 - **Updated:** 2024-09-08T15:41:47Z
 - **Size:** 5.3 MB
@@ -190,7 +190,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35335
+- **Stars:** 35336
 - **Version:** curl-8_9_1
 - **Updated:** 2024-09-08T15:41:47Z
 - **Size:** 228.63 kB
@@ -292,7 +292,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36044
+- **Stars:** 36047
 - **Version:** v9.1.0722
 - **Updated:** 2024-09-08T18:08:43Z
 - **Size:** 5.07 MB
