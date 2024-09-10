@@ -1,0 +1,7 @@
+name: "lsof"
+description: "A tool to list open files"
+web_url: "https://lsof.readthedocs.io"
+repo_url: "https://github.com/lsof-org/lsof"
+path: "/"
+bins:
+  - "lsof"
