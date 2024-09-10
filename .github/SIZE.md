@@ -30,11 +30,11 @@
   0B   │ └── DUPLICATES_OVERWRITES.txt
 6.6M   ├── METADATA.json
 6.1M   ├── METADATA.yaml
-464K   ├─┬ x64_Windows
+468K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 20K   │ ├── FILE.txt
+ 24K   │ ├── FILE.txt
  20K   │ ├── BUILD_DATES.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
@@ -42,7 +42,7 @@
 8.0K   │ ├── SIZE.md
   0B   │ ├── DUPLICATES_OVERWRITES.txt
   0B   │ └── DUPLICATES.txt
- 92K   ├─┬ Docs
+ 96K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
  24K   │ ├── README.md
 8.0K   │ ├── METADATA.md
@@ -50,8 +50,8 @@
 4.0K   │ ├── TODO.md
 4.0K   │ ├── RUST_TARGETS.txt
 4.0K   │ ├── NIX_TARGETS.txt
-4.0K   │ ├── DEBUG.md
-  0B   │ └── GO_TARGETS.md
+4.0K   │ ├── GO_TARGETS.md
+4.0K   │ └── DEBUG.md
  88K   ├─┬ arm64_v8a_Android
  28K   │ ├── METADATA.json
  16K   │ ├── DETAILED.md
