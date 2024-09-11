@@ -2171,7 +2171,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-11T00:10:13",
+    "update_date": "2024-09-11T07:09:46",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2695,9 +2695,19 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/progress.sh"
   },
   {
+    "name": "proot.sh",
+    "update_date": "2024-09-11T14:04:47",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/proot.sh"
+  },
+  {
     "name": "proxify.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/proxify.sh"
+  },
+  {
+    "name": "psmisc.sh",
+    "update_date": "2024-09-11T14:04:47",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/psmisc.sh"
   },
   {
     "name": "pspy.sh",
@@ -3851,7 +3861,7 @@
   },
   {
     "name": "wget.sh",
-    "update_date": "2024-09-06T14:04:55",
+    "update_date": "2024-09-11T14:04:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wget.sh"
   },
   {
@@ -3936,12 +3946,12 @@
   },
   {
     "name": "xdo.sh",
-    "update_date": "2024-09-06T14:04:55",
+    "update_date": "2024-09-11T14:04:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xdo.sh"
   },
   {
     "name": "xdotool.sh",
-    "update_date": "2024-09-06T14:04:55",
+    "update_date": "2024-09-11T14:04:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xdotool.sh"
   },
   {
