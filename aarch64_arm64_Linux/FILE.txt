@@ -472,6 +472,7 @@ loki:                            ELF 64-bit LSB executable, ARM aarch64, version
 loki-canary:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=yO-hh6E_ZtUz3W17DzBn/HBmq603nyuT-FLtKoRc8/fthLGCF7JaqpHQNwvtn0/VzSZJuNvaoXm5741jlhS, stripped
 loksh:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 lsd:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+lsof:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 luet:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 lux:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=xaHE6LMM5NuIVHM6WK0e/QB4ITHNJzJ0Xh5AV3cFr/aQXoNlctRiuHw-7W8Jyb/lYlN9vcSy3iymmIubBzZ, stripped
 mabel:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -772,6 +773,7 @@ sj:                              ELF 64-bit LSB executable, ARM aarch64, version
 sk:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 sk-tmux:                         Bourne-Again shell script, ASCII text executable
 skupper:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=KvlqNCu-rZMrAfJtpS3d/qbXrjaEbq2u2Uv1Wh1Ab/X2LsisEcK_No8y-ovO61/mad0r_-tTmXBZB1oQzR5, stripped
+slirp4netns:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 smap:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 smartdns:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 smartdns-rs:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -930,7 +932,7 @@ wezterm:                         ELF 64-bit LSB executable, ARM aarch64, version
 wezterm-mux-server:              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 wg:                              ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 wg-quick:                        Bourne-Again shell script, ASCII text executable
-wget:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+wget:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=2ebc107668d7950a7fb87e1e3c2d0a1274d3a29f, stripped
 whois:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 whoismac:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 wireguard-go:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped

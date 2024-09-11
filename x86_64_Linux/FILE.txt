@@ -495,6 +495,7 @@ loki-canary:                     ELF 64-bit LSB executable, x86-64, version 1 (S
 loksh:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 lorien.AppImage:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped
 lsd:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+lsof:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 luet:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 lux:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=1mF2oZ1xiN9lSGmW7wDO/IZkELUJmz6isouxGfu9G/NYZef3q1nDdI_51Bzl4C/mKLkfAM9t5rqHn0ABlGn, stripped
 mabel:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -810,6 +811,7 @@ sj:                              ELF 64-bit LSB executable, x86-64, version 1 (S
 sk:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 sk-tmux:                         Bourne-Again shell script, ASCII text executable
 skupper:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=pHuqfe79mHrHdRn9Y8Qo/QMmIX05liAoJv5_qHzDB/zkKTaqEAzrPh9Wqs1fCB/rOdRur55oKbHV_FPeOww, stripped
+slirp4netns:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 sliver-client:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=b4d70dd57296f4d3fd7e692ff5fffdb0cbe017e8, for GNU/Linux 3.2.0, stripped
 sliver-server:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=6fde7bfd711261886a795763c895edbd73140e4f, for GNU/Linux 3.2.0, stripped
 smap:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -989,7 +991,7 @@ wezterm:                         ELF 64-bit LSB pie executable, x86-64, version 
 wezterm-mux-server:              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 wg:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 wg-quick:                        Bourne-Again shell script, ASCII text executable
-wget:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=c5df64d0fbf6993498f61c522d1fccdad6a058a7, stripped
+wget:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=11556805cfb0ad469c4a61726c0999c9c64e3b2f, stripped
 whois:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 whoismac:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 wireguard-go:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

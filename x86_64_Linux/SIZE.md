@@ -872,6 +872,7 @@
  1.4M   ├── removepro
  1.4M   ├── hyperfine
  1.4M   ├── strace
+ 1.3M   ├── slirp4netns
  1.3M   ├── ubase-box
  1.3M   ├── rustcat
  1.3M   ├── rcat
@@ -952,6 +953,7 @@
  356K   ├── sudoreplay
  356K   ├── sftp
  352K   ├── fi6s
+ 316K   ├── lsof
  304K   ├── mdp
  288K   ├── region_restriction_check.sh
  276K   ├── doas
