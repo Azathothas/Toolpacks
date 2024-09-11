@@ -1,0 +1,12 @@
+name: "psmisc"
+description: "A set of small useful utilities that use the proc filesystem"
+web_url: "https://gitlab.com/psmisc/psmisc"
+repo_url: "https://gitlab.com/psmisc/psmisc"
+path: "/Baseutils/psmisc/"
+bins:
+  - "fuser"
+  - "killall"
+  - "prtstat"
+  - "pslog"
+  - "pstree"
+  - "pstree.x11"

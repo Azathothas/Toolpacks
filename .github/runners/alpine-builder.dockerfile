@@ -428,6 +428,7 @@ RUN <<EOS
   apk add mariadb --latest --upgrade --no-interactive 2>/dev/null
   apk add mariadb-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add mariadb-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add mcookie --latest --upgrade --no-interactive 2>/dev/null
   apk add mesa --latest --upgrade --no-interactive 2>/dev/null
   apk add mesa-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add mesa-gbm --latest --upgrade --no-interactive 2>/dev/null
@@ -600,6 +601,7 @@ RUN <<EOS
   apk add sqlite-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add sqlite-static --latest --upgrade --no-interactive 2>/dev/null
   apk add sudo --latest --upgrade --no-interactive 2>/dev/null
+  apk add swig --latest --upgrade --no-interactive 2>/dev/null
   apk add svt-av1 --latest --upgrade --no-interactive 2>/dev/null
   apk add svt-av1-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add sysfsutils --latest --upgrade --no-interactive 2>/dev/null
@@ -608,6 +610,9 @@ RUN <<EOS
   apk add sysprof --latest --upgrade --no-interactive 2>/dev/null
   apk add sysprof-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add sysprof-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add talloc --latest --upgrade --no-interactive 2>/dev/null
+  apk add talloc-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add talloc-static --latest --upgrade --no-interactive 2>/dev/null
   apk add tar --latest --upgrade --no-interactive 2>/dev/null
   apk add tcpdump --latest --upgrade --no-interactive 2>/dev/null
   apk add texinfo --latest --upgrade --no-interactive 2>/dev/null
@@ -623,6 +628,8 @@ RUN <<EOS
   apk add upx --latest --upgrade --no-interactive 2>/dev/null
   apk add usbutils --latest --upgrade --no-interactive 2>/dev/null
   apk add usbutils-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add uthash --latest --upgrade --no-interactive 2>/dev/null
+  apk add uthash-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add util-linux --latest --upgrade --no-interactive 2>/dev/null
   apk add util-linux-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add util-linux-static --latest --upgrade --no-interactive 2>/dev/null

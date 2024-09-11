@@ -28,10 +28,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       ##Build:
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
-       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
-        bash -c '
+       docker run --privileged --net="host" --name "alpine-builder" "alpine:latest" \
+        sh -c '
         #Setup ENV
-         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         mkdir -p "/build-bins" && cd "$(mktemp -d)" >/dev/null 2>&1
+         apk update && apk upgrade --no-interactive 2>/dev/null
+        #CoreUtils 
+         apk add autoconf binutils build-base clang clang-static cmake coreutils croc curl elfutils file gawk gcc gettext git iputils jq linux-tools make mold moreutils musl musl-dev musl-utils nano ncdu perl pkgconfig procps python3 rsync sudo tar util-linux xz zig zstd 7zip --no-interactive 2>/dev/nul
         #https://github.com/leleliu008/ppkg
         #https://github.com/leleliu008/ppkg-package-manually-build/blob/master/.github/workflows/manually-build-for-linux-musl.yml
          sudo curl -qfsSL "https://raw.githubusercontent.com/leleliu008/ppkg/master/ppkg" -o "/usr/local/bin/ppkg" && sudo chmod a+x "/usr/local/bin/ppkg"
