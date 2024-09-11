@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53799
+- **Stars:** 53804
 - **Version:** v0.2.67
 - **Updated:** 2024-09-10T18:17:08Z
 - **Size:** 19.31 MB
@@ -39,7 +39,7 @@
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Stars:** 1839
 - **Version:** v1.33.1
-- **Updated:** 2024-09-10T16:06:27Z
+- **Updated:** 2024-09-10T23:24:01Z
 - **Size:** 168.25 kB
 - **SHA256SUM:** d98121541ced5ecae066c56c6fcc7e82b20c11336042b043127e967c0bb8fa06
 - **B3SUM:** 82d92d4cc2c4928fb7d2ba157f30e33335e825059aaedff3ab801ac7a01441f1
@@ -173,7 +173,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35350
+- **Stars:** 35351
 - **Version:** curl-8_9_1
 - **Updated:** 2024-09-10T14:28:34Z
 - **Size:** 5.3 MB
@@ -190,7 +190,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35350
+- **Stars:** 35351
 - **Version:** curl-8_9_1
 - **Updated:** 2024-09-10T14:28:34Z
 - **Size:** 228.63 kB

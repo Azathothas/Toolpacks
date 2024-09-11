@@ -6,7 +6,7 @@
 2024-09-06T18:49:55 --> [act Run your GitHub Actions locally 🚀 (2024-09-10T18:17:08Z)]
 2024-09-06T18:52:04 --> [anew-rs A tool for adding new lines to files, skipping duplicates and written in Rust! (2024-05-08T12:29:15Z)]
 2024-09-06T19:19:36 --> [pspy Monitor linux processes without root permissions (2023-01-17T21:09:22Z)]
-2024-09-10T18:52:05 --> [adig A C library for asynchronous DNS requests (2024-09-10T16:06:27Z)]
+2024-09-10T18:52:05 --> [adig A C library for asynchronous DNS requests (2024-09-10T23:24:01Z)]
 2024-09-10T19:00:43 --> [axel  ()]
 2024-09-10T19:01:40 --> [b3sum the official Rust and C implementations of the BLAKE3 cryptographic hash function (2024-09-05T00:23:31Z)]
 2024-09-10T19:03:34 --> [bash null (null)]
