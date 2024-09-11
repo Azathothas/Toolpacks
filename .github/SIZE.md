@@ -3,8 +3,8 @@
  73M   ├─┬ x86_64_Linux
  71M   │ ├── BUILD.log.txt
 956K   │ ├── METADATA.json
-644K   │ ├── DETAILED.md
-464K   │ ├── README.md
+648K   │ ├── DETAILED.md
+468K   │ ├── README.md
 152K   │ ├── FILE.txt
 124K   │ ├── BUILD_DATES.txt
  80K   │ ├── SHA256SUM.txt
@@ -16,7 +16,7 @@
   0B   │ └── DUPLICATES_OVERWRITES.txt
  69M   ├─┬ aarch64_arm64_Linux
  67M   │ ├── BUILD.log.txt
-920K   │ ├── METADATA.json
+924K   │ ├── METADATA.json
 624K   │ ├── DETAILED.md
 452K   │ ├── README.md
 148K   │ ├── FILE.txt
@@ -42,7 +42,7 @@
 8.0K   │ ├── SIZE.md
   0B   │ ├── DUPLICATES_OVERWRITES.txt
   0B   │ └── DUPLICATES.txt
- 92K   ├─┬ Docs
+ 96K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
  24K   │ ├── README.md
 8.0K   │ ├── METADATA.md
@@ -50,8 +50,8 @@
 4.0K   │ ├── TODO.md
 4.0K   │ ├── RUST_TARGETS.txt
 4.0K   │ ├── NIX_TARGETS.txt
-4.0K   │ ├── DEBUG.md
-  0B   │ └── GO_TARGETS.md
+4.0K   │ ├── GO_TARGETS.md
+4.0K   │ └── DEBUG.md
  88K   ├─┬ arm64_v8a_Android
  28K   │ ├── METADATA.json
  16K   │ ├── DETAILED.md

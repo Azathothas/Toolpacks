@@ -1,7 +1,7 @@
 ```mathematica
  1.7G └─┬ toolpack_x86_64
- 148M   ├── pandoc.exe
- 139M   ├── ffmpeg.exe
+ 149M   ├── pandoc.exe
+ 140M   ├── ffmpeg.exe
  139M   ├── ffprobe.exe
  139M   ├── ffplay.exe
   76M   ├── alist.exe
@@ -11,10 +11,10 @@
   50M   ├── ooniprobe-windows-amd64.exe
   38M   ├── step.exe
   31M   ├── algernon.exe
+  30M   ├── tusd.exe
   29M   ├── sing-box.exe
   29M   ├── dbbench.exe
-  28M   ├── tusd.exe
-  28M   ├── ngrok.exe
+  26M   ├── ngrok.exe
   25M   ├── brutespray.exe
   25M   ├── cloudflared.exe
   22M   ├── loclx.exe
@@ -55,7 +55,7 @@
  5.4M   ├── shell2http.exe
  5.3M   ├── cfspeedtest.exe
  5.2M   ├── actionlint.exe
- 5.1M   ├── rg.exe
+ 5.2M   ├── rg.exe
  5.0M   ├── monolith.exe
  4.6M   ├── certstream.exe
  4.4M   ├── wget2.exe

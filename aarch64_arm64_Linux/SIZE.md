@@ -452,6 +452,7 @@
  5.9M   ├── rescope
  5.8M   ├── cobalt-cli
  5.8M   ├── wormhole-rs
+ 5.8M   ├── wget
  5.8M   ├── cfssljson
  5.8M   ├── wego
  5.7M   ├── sshx
@@ -504,7 +505,6 @@
  5.1M   ├── cpu
  5.1M   ├── ksubdomain_staticx
  5.1M   ├── mantra
- 5.0M   ├── wget
  5.0M   ├── nginx
  5.0M   ├── dnstake
  5.0M   ├── rewritepkg
@@ -812,6 +812,7 @@
  1.5M   ├── namegen
  1.5M   ├── mksub
  1.4M   ├── anakin
+ 1.4M   ├── slirp4netns
  1.4M   ├── tok
  1.4M   ├── rpfu
  1.4M   ├── removehost
@@ -898,6 +899,7 @@
  400K   ├── sadf
  388K   ├── nnn
  388K   ├── mdp
+ 388K   ├── lsof
  388K   ├── logrotate
  388K   ├── fi6s
  364K   ├── sftp
