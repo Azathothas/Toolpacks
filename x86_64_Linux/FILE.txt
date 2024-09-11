@@ -659,6 +659,7 @@ procan:                          ELF 64-bit LSB executable, x86-64, version 1 (S
 procs:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=396524cd46bb0ed26907ede9d972fed3e59678eb, stripped
 progress:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, for GNU/Linux 3.2.0, stripped
 promtail:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=40740f81c49565dcf5634273162551ef921c8e5c, for GNU/Linux 3.2.0, stripped
+proot:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=482918f8c0ed042867b128e9ee73f5efc874f221, stripped
 proxify:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pspy:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pueue:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=b2f818b417a8a75518b5ec02cece647e8fbf1d95, stripped
