@@ -216,6 +216,7 @@ duf:                             ELF 64-bit LSB executable, ARM aarch64, version
 dufs:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 dura:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 dust:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+dwarfs-tools:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, stripped
 dysk:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 eae:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=6mSBW9zgWSsTs3eAJfJ7/g9418Wj1F6frZm3JU00W/uG33IDpR1D5m4obvU7jk/pEXi30ICEoxkzithbHYz, stripped
 eah:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=o9-6fbCNcd9W-HNwFK7I/9fLEcPROeGK8vTyvNyWc/WGiaMW49iy1R3YNm3o4e/5rG-k_cGehERbRWGau19, stripped
