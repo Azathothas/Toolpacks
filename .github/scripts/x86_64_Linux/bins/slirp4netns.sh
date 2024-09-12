@@ -31,6 +31,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        BIN_DIR="$(find "." -maxdepth 1 -type d -o -type l -exec realpath {} \; | grep -Ev '^\.$')"
        sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "${BINDIR}" ; unset BIN_DIR
        sudo chown -R "$(whoami):$(whoami)" "${BINDIR}" && chmod -R 755 "${BINDIR}"
+       sudo objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "$BINDIR/slirp4netns"
        sudo strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/slirp4netns" ; file "${BINDIR}/slirp4netns" && du -sh "${BINDIR}/slirp4netns"
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi

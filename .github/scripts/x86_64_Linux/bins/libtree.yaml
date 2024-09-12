@@ -1,0 +1,7 @@
+name: "libtree"
+description: "Tree ldd with an option to bundle dependencies into a single folder"
+web_url: "https://github.com/haampie/libtree"
+repo_url: "https://github.com/haampie/libtree"
+path: "/"
+bins:
+  - "libtree"

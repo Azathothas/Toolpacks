@@ -21,18 +21,18 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #slirp4netns: User-mode networking for unprivileged network namespaces
-     export BIN="slirp4netns"
-     export SOURCE_URL="https://github.com/rootless-containers/slirp4netns"
+    #libtree: Tree ldd with an option to bundle dependencies into a single folder
+     export BIN="libtree"
+     export SOURCE_URL="https://github.com/haampie/libtree"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Build 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.slirp4netns" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.libtree" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        BIN_DIR="$(find "." -maxdepth 1 -type d -o -type l -exec realpath {} \; | grep -Ev '^\.$')"
        sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "${BINDIR}" ; unset BIN_DIR
        sudo chown -R "$(whoami):$(whoami)" "${BINDIR}" && chmod -R 755 "${BINDIR}"
-       sudo objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "$BINDIR/slirp4netns"
-       sudo strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/slirp4netns" ; file "${BINDIR}/slirp4netns" && du -sh "${BINDIR}/slirp4netns"
+       sudo objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "$BINDIR/libtree"
+       sudo strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/libtree" ; file "${BINDIR}/libtree" && du -sh "${BINDIR}/libtree"
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
