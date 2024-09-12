@@ -221,6 +221,7 @@ duf:                             ELF 64-bit LSB executable, x86-64, version 1 (S
 dufs:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 dura:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 dust:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+dwarfs-tools:                    ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, stripped
 dysk:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 eae:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=2nBealj8iqwGldfG4L4i/OrwFrQtfkhPiis2AL9oW/JwEPUqOvS3sCl0nR2M2P/WWoRpSZ4xSQS3MDSbBsP, stripped
 eah:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=rjJ8UADL2Y3CLBA7gV1s/6G89vJx7_goYnY2j6-45/nZ75sVrAM_zdHruU-hyd/bia4wjfPwdmtLfiYoCCE, stripped

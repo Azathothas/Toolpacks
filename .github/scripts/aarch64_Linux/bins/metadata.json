@@ -910,6 +910,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dvc.sh"
   },
   {
+    "name": "dwarfs.sh",
+    "update_date": "2024-09-12T07:04:24",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dwarfs.sh"
+  },
+  {
     "name": "dysk.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dysk.sh"
@@ -1970,6 +1975,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/libnfs.sh"
   },
   {
+    "name": "libtree.sh",
+    "update_date": "2024-09-12T07:04:23",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/libtree.sh"
+  },
+  {
     "name": "linuxwave.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/linuxwave.sh"
@@ -2156,7 +2166,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-11T21:09:17",
+    "update_date": "2024-09-12T07:09:48",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -3161,7 +3171,7 @@
   },
   {
     "name": "slirp4netns.sh",
-    "update_date": "2024-09-10T18:38:29",
+    "update_date": "2024-09-12T07:04:23",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/slirp4netns.sh"
   },
   {

@@ -1,7 +1,7 @@
 157M └─┬ main
  73M   ├─┬ x86_64_Linux
  71M   │ ├── BUILD.log.txt
-956K   │ ├── METADATA.json
+960K   │ ├── METADATA.json
 648K   │ ├── DETAILED.md
 468K   │ ├── README.md
 156K   │ ├── FILE.txt
