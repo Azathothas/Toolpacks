@@ -1,0 +1,7 @@
+name: "dwarfs"
+description: "Single Binary DwarFS Toolset including mkdwarfs, dwarfsck, dwarfsextract & dwarfs"
+web_url: "https://github.com/mhx/dwarfs"
+repo_url: "https://github.com/mhx/dwarfs"
+path: "/"
+bins:
+  - "dwarfs-tools"
