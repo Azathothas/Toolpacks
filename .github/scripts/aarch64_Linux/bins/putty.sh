@@ -21,19 +21,19 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #dbeaver : Universal SQL Client for developers, DBA and analysts. Supports MySQL, PostgreSQL, MariaDB, SQLite, and more (AppImage)
-     export BIN="dbeaver"
-     export SOURCE_URL="https://github.com/dbeaver/dbeaver"
+    #putty : A Free Telnet/SSH Client (AppImage)
+     export BIN="putty"
+     export SOURCE_URL="https://www.chiark.greenend.org.uk/~sgtatham/putty/"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#dbeaver-bin" --log-format bar-with-logs
+       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#putty" --log-format bar-with-logs
       ##Copy
-       sudo rsync -av --copy-links "./dbeaver.AppImage" "./dbeaver.AppImage.tmp"
-       sudo chown -R "$(whoami):$(whoami)" "./dbeaver.AppImage.tmp" && chmod -R 755 "./dbeaver.AppImage.tmp"
-       du -sh "./dbeaver.AppImage.tmp" && file "./dbeaver.AppImage.tmp"
+       sudo rsync -av --copy-links "./putty.AppImage" "./putty.AppImage.tmp"
+       sudo chown -R "$(whoami):$(whoami)" "./putty.AppImage.tmp" && chmod -R 755 "./putty.AppImage.tmp"
+       du -sh "./putty.AppImage.tmp" && file "./putty.AppImage.tmp"
       ##Extract
-       APPIMAGE="$(realpath .)/dbeaver.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
+       APPIMAGE="$(realpath .)/putty.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
        "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
        OWD="$(realpath .)" && export OWD="${OWD}"
        APPIMAGE_EXTRACT="$(realpath "./squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
@@ -42,8 +42,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           #Media
            cd "${APPIMAGE_EXTRACT}"
            mkdir -p "./usr/share/applications" && mkdir -p "./usr/share/metainfo"
-           SHARE_DIR="$(find "." -path '*share/*dbeaver*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | awk -F'/share/' '{print $1}')/share" && export SHARE_DIR="${SHARE_DIR}"
-           #usr/{applications,bash-completion,icons,metainfo,dbeaver,zsh}
+           SHARE_DIR="$(find "." -path '*share/*putty*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | awk -F'/share/' '{print $1}')/share" && export SHARE_DIR="${SHARE_DIR}"
+           #usr/{applications,bash-completion,icons,metainfo,putty,zsh}
             rsync -av --copy-links \
                       --include="*/" \
                       --include="*.desktop" \
@@ -53,21 +53,22 @@ if [ "$SKIP_BUILD" == "NO" ]; then
                       --exclude="*" \
                      "${SHARE_DIR}/" "./usr/share/" && ls "./usr/share/"
            #Icon
-            find "." \( -path '*128x128/apps/*.png' -o -path '*256x256/apps/*.png' \) | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} convert {} -resize "128x128" "./dbeaver.png"
+            #find "." \( -path '*128x128/apps/*.png' -o -path '*256x256/apps/*.png' \) | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} convert {} -resize "128x128" "./putty.png"
+            curl -qfsSL "https://upload.wikimedia.org/wikipedia/commons/e/e7/PuTTY_Icon.svg?download" -o "./putty.svg"
             find "." -maxdepth 1 -type f -name '*.svg' -exec sh -c 'convert "$0" -resize "128x128" "${0%.svg}.png"' {} \; 2>/dev/null
-            cp "./dbeaver.png" "./.DirIcon"
+            cp "./putty.png" "./.DirIcon"
            ##Desktop
-            find "." -path '*dbeaver*.desktop' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./dbeaver.desktop"'
-            sed 's/Icon=[^ ]*/Icon=dbeaver/' -i "./dbeaver.desktop" 2>/dev/null
+            find "." -path '*putty*.desktop' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} cp {} "./putty.desktop"
+            sed 's/Icon=[^ ]*/Icon=putty/' -i "./putty.desktop" 2>/dev/null
            ##Purge Bloatware
            echo -e "\n[+] Purging Bloatware...\n"
             O_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "O_SIZE=${O_SIZE}"
             #Headers
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #docs & manpages
-            find "." -type d -path "*doc/share*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "." -type d -path "*/share/docs*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "." -type d -path "*/share/man*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "." -type d -path "*doc/share*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "." -type d -path "*/share/docs*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "." -type d -path "*/share/man*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #static libs
             find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
             #systemd (need .so)
@@ -84,9 +85,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            --mksquashfs-opt -b --mksquashfs-opt "1M" \
            --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
            --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
-           "${APPIMAGE_EXTRACT}" "$BINDIR/dbeaver.AppImage"
+           "${APPIMAGE_EXTRACT}" "$BINDIR/putty.AppImage"
           #Meta
-           du -sh "$BINDIR/dbeaver.AppImage" && file "$BINDIR/dbeaver.AppImage"
+           du -sh "$BINDIR/putty.AppImage" && file "$BINDIR/putty.AppImage"
           #clean
            unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD SHARE_DIR
        fi

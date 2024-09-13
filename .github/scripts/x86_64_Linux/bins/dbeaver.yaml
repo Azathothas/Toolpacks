@@ -4,4 +4,4 @@ web_url: "https://dbeaver.io/"
 repo_url: "https://github.com/dbeaver/dbeaver"
 path: "/"
 bins:
-  - "dbeaver"
+  - "dbeaver.AppImage"
