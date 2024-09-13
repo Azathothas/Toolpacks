@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53854
+- **Stars:** 53853
 - **Version:** v0.2.67
 - **Updated:** 2024-09-11T20:49:14Z
 - **Size:** 19.31 MB
@@ -173,7 +173,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35369
+- **Stars:** 35368
 - **Version:** curl-8_10_0
 - **Updated:** 2024-09-12T19:27:53Z
 - **Size:** 5.3 MB
@@ -190,7 +190,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35369
+- **Stars:** 35368
 - **Version:** curl-8_10_0
 - **Updated:** 2024-09-12T19:27:53Z
 - **Size:** 228.63 kB
@@ -292,7 +292,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36055
+- **Stars:** 36056
 - **Version:** v9.1.0727
 - **Updated:** 2024-09-10T19:57:33Z
 - **Size:** 5.07 MB
@@ -343,7 +343,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3597
+- **Stars:** 3599
 - **Version:** zsh-5.9
 - **Updated:** 2024-08-31T15:33:41Z
 - **Size:** 1.8 MB
