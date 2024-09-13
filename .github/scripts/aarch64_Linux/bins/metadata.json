@@ -366,7 +366,7 @@
   },
   {
     "name": "busybox.sh",
-    "update_date": "2024-09-06T18:36:14",
+    "update_date": "2024-09-13T18:37:41",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/busybox.sh"
   },
   {
@@ -2166,7 +2166,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-13T07:08:49",
+    "update_date": "2024-09-13T14:10:13",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2703,6 +2703,11 @@
     "name": "puredns.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/puredns.sh"
+  },
+  {
+    "name": "putty.sh",
+    "update_date": "2024-09-13T18:37:41",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/putty.sh"
   },
   {
     "name": "pwait.sh",
