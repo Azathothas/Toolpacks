@@ -27,15 +27,16 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#    
       ##Build (Nix)
-       #pushd "$($TMPDIRS)" >/dev/null 2>&1
-       #NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.busybox" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       ##Copy
-       #mkdir -p "$BASEUTILSDIR/busybox"
-       #sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/busybox"
-       #sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/busybox/" && chmod -R 755 "$BASEUTILSDIR/busybox/"
-       ##Strip
-       #find "$BASEUTILSDIR/busybox" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
-       #nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
+      #ash
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.busybox-sandbox-shell" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+       #Copy
+       mkdir -p "$BASEUTILSDIR/busybox"
+       sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/busybox"
+       sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/busybox/" && chmod -R 755 "$BASEUTILSDIR/busybox/"
+       #Strip
+       find "$BASEUTILSDIR/busybox" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       ##Build (MUSL) 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
