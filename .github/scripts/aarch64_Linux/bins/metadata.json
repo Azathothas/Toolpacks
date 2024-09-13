@@ -2166,7 +2166,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-12T07:09:48",
+    "update_date": "2024-09-13T00:10:58",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -3723,6 +3723,11 @@
     "name": "viewgen.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/viewgen.sh"
+  },
+  {
+    "name": "vim.sh",
+    "update_date": "2024-09-12T21:04:23",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/vim.sh"
   },
   {
     "name": "viu.sh",

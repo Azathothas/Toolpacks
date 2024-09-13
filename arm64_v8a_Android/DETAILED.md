@@ -3,9 +3,9 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53847
+- **Stars:** 53858
 - **Version:** v0.2.67
-- **Updated:** 2024-09-11T20:49:14Z
+- **Updated:** 2024-09-13T05:30:25Z
 - **Size:** 19.31 MB
 - **SHA256SUM:** 334f3eb3ad5322410e1e5d1643462bbf22651502a2ae534fc9dfa39f29346624
 - **B3SUM:** be42c585683ca027577242180f8ca73042124045266c66282ebd4865c1e4152f
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2686
+- **Stars:** 2688
 - **Version:** v1.7.1
 - **Updated:** 2024-09-12T12:52:03Z
 - **Size:** 5.38 MB
@@ -173,9 +173,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35369
+- **Stars:** 35373
 - **Version:** curl-8_10_0
-- **Updated:** 2024-09-12T11:46:58Z
+- **Updated:** 2024-09-12T19:27:53Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 3fe2da4d58259114ba9552abd2c2a5cf531dfe0245234c355c7fe5ce03031dfe
 - **B3SUM:** eec3303cc09a74980bf1b74b237b8c23e12de3886db6cec4290bef3be878f1d5
@@ -190,9 +190,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35369
+- **Stars:** 35373
 - **Version:** curl-8_10_0
-- **Updated:** 2024-09-12T11:46:58Z
+- **Updated:** 2024-09-12T19:27:53Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -207,7 +207,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4705
+- **Stars:** 4706
 - **Version:** v0.9.0
 - **Updated:** 2024-09-07T16:16:59Z
 - **Size:** 2.03 MB
@@ -241,7 +241,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4845
+- **Stars:** 4846
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 4.02 MB
@@ -258,7 +258,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2703
+- **Stars:** 2704
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -292,7 +292,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36056
+- **Stars:** 36060
 - **Version:** v9.1.0727
 - **Updated:** 2024-09-10T19:57:33Z
 - **Size:** 5.07 MB
@@ -343,7 +343,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3597
+- **Stars:** 3599
 - **Version:** zsh-5.9
 - **Updated:** 2024-08-31T15:33:41Z
 - **Size:** 1.8 MB
