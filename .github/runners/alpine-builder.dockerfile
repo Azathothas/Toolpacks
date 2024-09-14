@@ -704,10 +704,16 @@ EOS
 #------------------------------------------------------------------------------------#
 ##Addons
 RUN <<EOS
+  set +e
  #Eget for simplified releases
   wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/eget" -O "/usr/bin/eget"
   chmod +xwr "/usr/bin/eget"
- #Micro
+ #Golang
+  cd "$(mktemp -d)" >/dev/null 2>&1
+  curl -qfsSL "https://git.io/go-installer" -o "./install.sh" && chmod +x "./install.sh"
+  echo "yes" | bash "./install.sh"
+  cd - >/dev/null 2>&1
+  #Micro
   wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/micro" -O "/usr/bin/micro"
   chmod +xwr "/usr/bin/micro"
  #musl-gcc wrapper
