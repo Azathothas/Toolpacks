@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53889
+- **Stars:** 53900
 - **Version:** v0.2.67
 - **Updated:** 2024-09-13T05:30:25Z
 - **Size:** 19.31 MB
@@ -173,9 +173,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35382
+- **Stars:** 35383
 - **Version:** curl-8_10_0
-- **Updated:** 2024-09-13T20:50:51Z
+- **Updated:** 2024-09-14T08:37:59Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** c69b7f32495482f6c455c908a10fd4d78fe8af3fdff4375c9e327bbb1a08c809
 - **B3SUM:** 99b4faec3e6b06153f21abad5f633439c31790c848d1567d96287d9aa481f279
@@ -190,9 +190,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35382
+- **Stars:** 35383
 - **Version:** curl-8_10_0
-- **Updated:** 2024-09-13T20:50:51Z
+- **Updated:** 2024-09-14T08:37:59Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -292,9 +292,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36072
-- **Version:** v9.1.0727
-- **Updated:** 2024-09-10T19:57:33Z
+- **Stars:** 36074
+- **Version:** v9.1.0730
+- **Updated:** 2024-09-14T08:42:03Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** 508e65eff81c592b31826b42cb75eb91265ebabd376816a47c9946379968f762
 - **B3SUM:** 99d8a271136f4b53cf188783263933f395d0aa51ef683faf0408b50db892c6c3
@@ -343,7 +343,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3601
+- **Stars:** 3602
 - **Version:** zsh-5.9
 - **Updated:** 2024-08-31T15:33:41Z
 - **Size:** 1.8 MB
