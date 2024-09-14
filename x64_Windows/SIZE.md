@@ -9,7 +9,7 @@
   54M   ├── miniooni-windows-amd64.exe
   50M   ├── ooniprobe.exe
   50M   ├── ooniprobe-windows-amd64.exe
-  38M   ├── step.exe
+  39M   ├── step.exe
   31M   ├── algernon.exe
   30M   ├── tusd.exe
   29M   ├── sing-box.exe
@@ -46,7 +46,7 @@
  8.0M   ├── taierspeed-cli.exe
  8.0M   ├── zfind.exe
  7.3M   ├── cfspeed.exe
- 7.2M   ├── curl.exe
+ 7.3M   ├── curl.exe
  7.1M   ├── stunner.exe
  7.0M   ├── eget.exe
  6.8M   ├── trurl.exe
@@ -78,7 +78,6 @@
  2.3M   ├── nl.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── tac.exe
- 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -90,6 +89,7 @@
  1.6M   ├── sort.exe
  1.6M   ├── dua.exe
  1.5M   ├── ls.exe
+ 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.4M   ├── fastfetch.exe
@@ -134,8 +134,8 @@
  920K   ├── shuf.exe
  920K   ├── fmt.exe
  916K   ├── tr.exe
+ 912K   ├── dircolors.exe
  908K   ├── head.exe
- 908K   ├── dircolors.exe
  904K   ├── shred.exe
  896K   ├── xargs.exe
  896K   ├── xargs-rs.exe
@@ -172,8 +172,8 @@
  808K   ├── printenv.exe
  808K   ├── anew.exe
  808K   ├── anew-rs.exe
- 768K   ├── false.exe
  764K   ├── true.exe
+ 764K   ├── false.exe
  656K   ├── busybox-unicode.exe
  652K   ├── ssh-keyscan.exe
  652K   ├── busybox.exe
