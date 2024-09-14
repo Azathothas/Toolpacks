@@ -19,6 +19,8 @@ if ! sudo systemctl is-active --quiet docker; then
    sudo service docker restart >/dev/null 2>&1 ; sleep 10
 fi
 sudo systemctl status "docker.service" --no-pager
+#Nix
+source "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
 #sg docker newgrp "$(id -gn)"
 cd "$HOME" ; clear
 ##Sanity Checks
