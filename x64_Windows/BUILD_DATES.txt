@@ -95,7 +95,7 @@
 2024-09-13T19:56:22 --> [numfmt.exe Cross-platform Rust rewrite of the GNU coreutils (2024-09-14T07:11:17Z)]
 2024-09-13T19:56:23 --> [od.exe Cross-platform Rust rewrite of the GNU coreutils (2024-09-14T07:11:17Z)]
 2024-09-13T19:56:24 --> [ooniprobe.exe OONI Probe Engine and CLI (2024-09-05T13:12:53Z)]
-2024-09-13T19:56:28 --> [pandoc.exe Universal markup converter (2024-09-14T17:21:54Z)]
+2024-09-13T19:56:28 --> [pandoc.exe Universal markup converter (2024-09-15T00:19:54Z)]
 2024-09-13T19:56:29 --> [paste.exe Cross-platform Rust rewrite of the GNU coreutils (2024-09-14T07:11:17Z)]
 2024-09-13T19:56:30 --> [pdfcpu.exe A PDF processor written in Go. (2024-09-13T00:09:27Z)]
 2024-09-13T19:56:39 --> [pgrok.exe Poor mans ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding (2024-09-03T13:23:39Z)]
