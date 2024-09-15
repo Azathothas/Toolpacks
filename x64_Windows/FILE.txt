@@ -1,190 +1,191 @@
-7z.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-actionlint.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-age.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-algernon.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-alist.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-anew-rs.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-anew.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-arch.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-b3sum.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-base32.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-base64.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-basename.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-basenc.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-bat.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-batcat.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-bin2video.exe:               PE32+ executable (console) x86-64, for MS Windows
-botsay.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-brook.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-brook_windows_amd64.exe:     PE32+ executable (console) x86-64, for MS Windows
-brutespray.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-busybox-unicode.exe:         PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-busybox.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cat.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-certstream.exe:              PE32+ executable (console) x86-64, for MS Windows
-cfspeed.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cfspeedtest.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cheat.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cksum.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cloudflared.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-comm.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-coreutils-rs.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-coreutils.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cp.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-croc.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-csplit.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-curl.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cut.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-cutlines.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-date.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dbbench.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dd.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ddns-go.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-deprun.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-df.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dir.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dircolors.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dirname.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-du.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dua.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dufs.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-dust.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-echo.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-eget.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ein.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-env.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
+7z.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+actionlint.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+age.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+algernon.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+alist.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+anew-rs.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+anew.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+arch.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+b3sum.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+base32.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+base64.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+basename.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+basenc.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+bat.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+batcat.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+bin2video.exe:               PE32+ executable (console) x86-64, for MS Windows, 7 sections
+botsay.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+brook.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+brook_windows_amd64.exe:     PE32+ executable (console) x86-64, for MS Windows, 8 sections
+brutespray.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+busybox-unicode.exe:         PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+busybox.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+cat.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+certstream.exe:              PE32+ executable (console) x86-64, for MS Windows, 8 sections
+cfspeed.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+cfspeedtest.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+cheat.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+cksum.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+cloudflared.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+comm.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+coreutils-rs.exe:            PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+coreutils.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+cp.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+croc.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+csplit.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+curl.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+cut.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+cutlines.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+date.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+dbbench.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+dd.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+ddns-go.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+deprun.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+df.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+dir.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+dircolors.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+dirname.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+du.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+dua.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+dufs.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+dust.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+echo.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+eget.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+ein.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+env.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 err.exe:                     7-zip archive data, version 0.4
-expand.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-expr.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-factor.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-false.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-fastfetch.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ffmpeg.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ffplay.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ffprobe.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-find-rs.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-find.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-flashfetch.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-fmt.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-fold.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-gdu.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-geodns.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-geoping.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-gix.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-hashsum.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-hcloud.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-head.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-hostname.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-hyperfine.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-inscope.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-iperf3.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-join.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-jq.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-jwt-cracker.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-legba.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-link.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ln.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-localxpose.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-loclx.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-logstation.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ls.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-micro.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-miniooni-windows-amd64.exe:  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-miniooni.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-miniserve.exe:               PE32+ executable (console) x86-64, for MS Windows
-mkdir.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-mktemp.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-monolith.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-more.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-mv.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ngrok.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-nl.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-nproc.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-numfmt.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-od.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ooniprobe-windows-amd64.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ooniprobe.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pandoc.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-paste.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdfcpu.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdfdetach.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdffonts.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdfimages.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdfinfo.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdftopng.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdftoppm.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdftops.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdftotext.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pgrok.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pgrokd.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-picocrypt-gui.exe:           PE32+ executable (GUI) x86-64 (stripped to external PDB), for MS Windows
-pingmole.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pingtunnel.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pr.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-printenv.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-printf.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ptx.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pwd.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-quotes-escaper.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-readlink.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-realpath.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-rg.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-rm.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-rmdir.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-scp.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-seq.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-sftp-server.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-shell2http.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-shred.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-shuf.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-sing-box.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-sish.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-sleep.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-smartdns-rs.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-smartdns.exe:                PE32+ executable (console) x86-64, for MS Windows
-sort.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-split.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh-add.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh-agent.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh-keygen.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh-keyscan.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh-pkcs11-helper.exe:       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh-shellhost.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh-sk-helper.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-ssh.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-sshd.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
+expand.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+expr.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+factor.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+false.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+fastfetch.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+ffmpeg.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 13 sections
+ffplay.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 13 sections
+ffprobe.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 13 sections
+find-rs.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+find.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+flashfetch.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+fmt.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+fold.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+gdu.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+geodns.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+geoping.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+gix.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+hashsum.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+hcloud.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+head.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+hostname.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+hyperfine.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+inscope.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+iperf3.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 10 sections
+join.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+jq.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+jwt-cracker.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+legba.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+link.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+ln.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+localxpose.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+loclx.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+logstation.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+ls.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+micro.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+miniooni-windows-amd64.exe:  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+miniooni.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+miniserve.exe:               PE32+ executable (console) x86-64, for MS Windows, 3 sections
+mkdir.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+mktemp.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+monolith.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+more.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+mv.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+ngrok.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 9 sections
+nl.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+nproc.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+numfmt.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+od.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+ooniprobe-windows-amd64.exe: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+ooniprobe.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+openssh.zip:                 Zip archive data, at least v2.0 to extract, compression method=store
+pandoc.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 9 sections
+paste.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+pdfcpu.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+pdfdetach.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pdffonts.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pdfimages.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pdfinfo.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pdftopng.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pdftoppm.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pdftops.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pdftotext.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+pgrok.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+pgrokd.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+picocrypt-gui.exe:           PE32+ executable (GUI) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+pingmole.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+pingtunnel.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+pr.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+printenv.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+printf.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+ptx.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+pwd.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+quotes-escaper.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+readlink.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+realpath.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+rg.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+rm.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+rmdir.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+scp.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+seq.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+sftp-server.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+shell2http.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+shred.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+shuf.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+sing-box.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+sish.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+sleep.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+smartdns-rs.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+smartdns.exe:                PE32+ executable (console) x86-64, for MS Windows, 5 sections
+sort.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+split.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+ssh-add.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+ssh-agent.exe:               PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+ssh-keygen.exe:              PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+ssh-keyscan.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+ssh-pkcs11-helper.exe:       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+ssh-shellhost.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+ssh-sk-helper.exe:           PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+ssh.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
+sshd.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 7 sections
 stP1kAlM:                    empty
-step.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
+step.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 stiG2Kb7:                    empty
-stunner.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-sum.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-sync.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-tac.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-taierspeed-cli.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-tail.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-tee.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-test.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-touch.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-tr.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-true.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-truncate.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-trurl.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-tsort.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-tssh.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-tusd.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-uname.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-unexpand.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-uniq.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-unlink.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-upx.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-vdir.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-wc.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-wget2.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-whoami.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-wldd.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-xargs-rs.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-xargs.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-yes.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-yq.exe:                      PE32+ executable (console) x86-64, for MS Windows
-yt-dlp.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-zfind.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
+stunner.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+sum.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+sync.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+tac.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+taierspeed-cli.exe:          PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+tail.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+tee.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+test.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+touch.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+tr.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+true.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+truncate.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+trurl.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+tsort.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+tssh.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+tusd.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
+uname.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+unexpand.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+uniq.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+unlink.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+upx.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 3 sections
+vdir.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+wc.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+wget2.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 3 sections
+whoami.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+wldd.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+xargs-rs.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+xargs.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+yes.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
+yq.exe:                      PE32+ executable (console) x86-64, for MS Windows, 8 sections
+yt-dlp.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
+zfind.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections

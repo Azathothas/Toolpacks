@@ -79,7 +79,9 @@ brook:                           ELF 64-bit LSB executable, x86-64, version 1 (S
 broot:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 brutespray:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 btop:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+bubblewrap:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 bucketloot:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+bwrap:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 byp4xx:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 caddy:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=DlUsVlrwb2cbW6LP7gx3/dF_GDUJj6iC_K5FG6DKV/aIxWQCzpxaJfxaOJ_EKq/3Xl7LePZGqyRaMS8ccmY, stripped
 caido-cli:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

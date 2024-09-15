@@ -37,8 +37,8 @@
   66M   ├── lorien.AppImage
   61M   ├── logcli
   60M   ├── dockerd
-  59M   ├── wtfutil
   59M   ├── wtf
+  59M   ├── wtfutil
   53M   ├── miniooni
   52M   ├── steampipe
   51M   ├── tavern
@@ -988,6 +988,8 @@
  180K   ├── hcxdumptool
  172K   ├── numademo
  172K   ├── numactl
+ 164K   ├── bwrap
+ 164K   ├── bubblewrap
  156K   ├── migspeed
  152K   ├── mkpasswd
  152K   ├── migratepages
