@@ -1,0 +1,8 @@
+name: "huggingface-cli"
+description: "The official Python client for the Huggingface Hub"
+web_url: "https://huggingface.co/docs/huggingface_hub"
+repo_url: "https://github.com/huggingface/huggingface_hub"
+path: "/"
+bins:
+  - "hf-cli"
+  - "huggingface-cli"

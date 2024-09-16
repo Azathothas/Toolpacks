@@ -134,6 +134,8 @@ RUN <<EOS
   dos2unix --quiet "./install.sh" && chmod +x "./install.sh"
   echo "yes" | bash "./install.sh" 2>/dev/null || true
   rm -rf "$(realpath .)" ; cd "${CWD}"
+  #patchelf
+  curl -qfsSL "https://bin.ajam.dev/$(uname -m)/patchelf" -o "/usr/bin/patchelf" && chmod +x "/usr/bin/patchelf"
   #----------------------#
   #Rust
   cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
