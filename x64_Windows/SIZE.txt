@@ -96,23 +96,23 @@
  1.3M   ├── pdftotext.exe
  1.3M   ├── tail.exe
  1.3M   ├── flashfetch.exe
- 1.3M   ├── sshd.exe
  1.3M   ├── cp.exe
+ 1.3M   ├── sshd.exe
  1.3M   ├── pdfimages.exe
  1.3M   ├── hyperfine.exe
  1.3M   ├── 7z.exe
- 1.2M   ├── pdfinfo.exe
  1.2M   ├── factor.exe
+ 1.2M   ├── pdfinfo.exe
  1.2M   ├── pdffonts.exe
  1.2M   ├── wldd.exe
  1.2M   ├── pdfdetach.exe
  1.2M   ├── ssh.exe
- 1.1M   ├── mv.exe
+ 1.2M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── seq.exe
  1.0M   ├── env.exe
  1.0M   ├── b3sum.exe
-1016K   ├── dd.exe
+1020K   ├── dd.exe
 1012K   ├── od.exe
  996K   ├── more.exe
  988K   ├── split.exe
@@ -124,18 +124,18 @@
  948K   ├── base32.exe
  932K   ├── ln.exe
  928K   ├── wc.exe
+ 928K   ├── rm.exe
  928K   ├── mktemp.exe
  928K   ├── cut.exe
- 924K   ├── rm.exe
+ 924K   ├── uniq.exe
  924K   ├── printf.exe
  924K   ├── join.exe
- 920K   ├── uniq.exe
  920K   ├── shuf.exe
  920K   ├── fmt.exe
  916K   ├── tr.exe
+ 912K   ├── head.exe
  912K   ├── dircolors.exe
- 908K   ├── head.exe
- 904K   ├── shred.exe
+ 908K   ├── shred.exe
  896K   ├── xargs.exe
  896K   ├── xargs-rs.exe
  896K   ├── tsort.exe
@@ -144,7 +144,7 @@
  888K   ├── tee.exe
  888K   ├── readlink.exe
  884K   ├── expand.exe
- 868K   ├── fold.exe
+ 872K   ├── fold.exe
  868K   ├── cat.exe
  864K   ├── sum.exe
  856K   ├── uname.exe
@@ -154,9 +154,9 @@
  852K   ├── mkdir.exe
  852K   ├── comm.exe
  848K   ├── sleep.exe
+ 848K   ├── paste.exe
  844K   ├── sync.exe
  844K   ├── rmdir.exe
- 844K   ├── paste.exe
  844K   ├── basename.exe
  836K   ├── unlink.exe
  836K   ├── ssh-keygen.exe
