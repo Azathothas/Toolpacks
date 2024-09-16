@@ -37,8 +37,8 @@
   66M   ├── lorien.AppImage
   61M   ├── logcli
   60M   ├── dockerd
-  59M   ├── wtf
   59M   ├── wtfutil
+  59M   ├── wtf
   53M   ├── miniooni
   52M   ├── steampipe
   51M   ├── tavern
