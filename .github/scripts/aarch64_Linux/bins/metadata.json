@@ -360,6 +360,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/btrfs-progs.sh"
   },
   {
+    "name": "bubblewrap.sh",
+    "update_date": "2024-09-16T14:06:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bubblewrap.sh"
+  },
+  {
     "name": "bucketloot.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/bucketloot.sh"
@@ -566,7 +571,7 @@
   },
   {
     "name": "coreutils_uutils.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh"
   },
   {
@@ -1126,7 +1131,7 @@
   },
   {
     "name": "firefox.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/firefox.sh"
   },
   {
@@ -1621,7 +1626,7 @@
   },
   {
     "name": "helix.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/helix.sh"
   },
   {
@@ -1706,8 +1711,13 @@
   },
   {
     "name": "hysp.sh",
-    "update_date": "2024-07-12T03:55:14",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/hysp.sh"
+  },
+  {
+    "name": "imagemagick.sh",
+    "update_date": "2024-09-16T14:06:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/imagemagick.sh"
   },
   {
     "name": "indextree.sh",
@@ -1901,7 +1911,7 @@
   },
   {
     "name": "kitty.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/kitty.sh"
   },
   {
@@ -1936,7 +1946,7 @@
   },
   {
     "name": "ladybird.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ladybird.sh"
   },
   {
@@ -1973,6 +1983,11 @@
     "name": "libnfs.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/libnfs.sh"
+  },
+  {
+    "name": "librewolf.sh",
+    "update_date": "2024-09-16T14:06:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/librewolf.sh"
   },
   {
     "name": "libtree.sh",
@@ -2041,13 +2056,18 @@
   },
   {
     "name": "lorien.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lorien.sh"
   },
   {
     "name": "lsd.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lsd.sh"
+  },
+  {
+    "name": "lsix.sh",
+    "update_date": "2024-09-16T14:06:00",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/lsix.sh"
   },
   {
     "name": "lsof.sh",
@@ -2166,7 +2186,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-16T00:12:35",
+    "update_date": "2024-09-16T07:10:24",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2331,7 +2351,7 @@
   },
   {
     "name": "netsurf.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/netsurf.sh"
   },
   {
@@ -2366,7 +2386,7 @@
   },
   {
     "name": "nicotine-plus.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nicotine-plus.sh"
   },
   {
@@ -2641,7 +2661,7 @@
   },
   {
     "name": "ppsspp.sh",
-    "update_date": "2024-09-07T14:03:26",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ppsspp.sh"
   },
   {
@@ -2706,7 +2726,7 @@
   },
   {
     "name": "putty.sh",
-    "update_date": "2024-09-13T18:37:41",
+    "update_date": "2024-09-16T14:06:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/putty.sh"
   },
   {
