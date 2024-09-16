@@ -52,6 +52,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            ##Desktop
             echo -e "[Desktop Entry]\nVersion=1.0\nName=netsurf-browser\nComment=Small as a mouse, fast as a cheetah and available for free. NetSurf is a multi-platform web browser for RISC OS, UNIX-like platforms (including Linux), Mac OS X, and more.\nExec=netsurf\nIcon=netsurf\nType=Application\nCategories=Network;WebBrowser;\nMimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;\nStartupNotify=true" > "./netsurf.desktop"
             sed 's/Icon=[^ ]*/Icon=netsurf/' -i "./netsurf.desktop" 2>/dev/null
+           ##Perms
+            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +  
            ##Purge Bloatware
            echo -e "\n[+] Purging Bloatware...\n"
             O_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "O_SIZE=${O_SIZE}"

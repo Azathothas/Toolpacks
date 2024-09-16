@@ -64,6 +64,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            ##Desktop
             find "." -path '*ppsspp*.desktop' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./ppsspp.desktop"'
             sed 's/Icon=[^ ]*/Icon=ppsspp/' -i "./ppsspp.desktop" 2>/dev/null
+           ##Perms
+            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +  
            ##Purge Bloatware
            echo -e "\n[+] Purging Bloatware...\n"
             O_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "O_SIZE=${O_SIZE}"

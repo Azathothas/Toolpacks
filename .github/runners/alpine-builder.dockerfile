@@ -447,6 +447,7 @@ RUN <<EOS
   apk add musl --latest --upgrade --no-interactive 2>/dev/null
   apk add musl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add musl-fts --latest --upgrade --no-interactive 2>/dev/null
+  apk add musl-fts-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add musl-obstack-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add musl-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add nano --latest --upgrade --no-interactive 2>/dev/null
@@ -456,6 +457,7 @@ RUN <<EOS
   apk add ncurses-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add ncurses-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add ncurses-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add ncurses-terminfo --latest --upgrade --no-interactive 2>/dev/null
   apk add ndctl --latest --upgrade --no-interactive 2>/dev/null
   apk add ndctl-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add ndctl-libs --latest --upgrade --no-interactive 2>/dev/null

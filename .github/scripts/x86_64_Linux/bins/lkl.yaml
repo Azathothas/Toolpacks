@@ -2,7 +2,7 @@ name: "lkl"
 description: "Tools for LKL (Linux Kernel Library)"
 web_url: "https://lkl.github.io/"
 repo_url: "https://github.com/lkl/linux"
-path: "/"
+path: "/Baseutils/lkl/"
 bins:
   - "cpfromfs"
   - "cptofs"

@@ -1,0 +1,7 @@
+name: "lsix"
+description: "Like ls, but for images. Shows thumbnails in terminal using sixel graphics."
+web_url: "https://github.com/hackerb9/lsix"
+repo_url: "https://github.com/hackerb9/lsix"
+path: "/"
+bins:
+  - "lsix"

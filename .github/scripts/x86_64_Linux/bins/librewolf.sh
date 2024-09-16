@@ -21,22 +21,19 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #ladybird : Truly independent Web Browser & Web Engine
-     export BIN="ladybird"
-     export SOURCE_URL="https://github.com/LadybirdBrowser/ladybird"
+    #librewolf : A fork of Firefox, focused on privacy, security and freedom
+     export BIN="librewolf"
+     export SOURCE_URL="https://codeberg.org/librewolf"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#ladybird" --log-format bar-with-logs
+       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#librewolf" --log-format bar-with-logs
       ##Copy
-       sudo rsync -av --copy-links "./Ladybird.AppImage" "./ladybird.AppImage.tmp"
-       sudo chown -R "$(whoami):$(whoami)" "./ladybird.AppImage.tmp" && chmod -R 755 "./ladybird.AppImage.tmp"
-       du -sh "./ladybird.AppImage.tmp" && file "./ladybird.AppImage.tmp"
+       sudo rsync -av --copy-links "./librewolf.AppImage" "./librewolf.AppImage.tmp"
+       sudo chown -R "$(whoami):$(whoami)" "./librewolf.AppImage.tmp" && chmod -R 755 "./librewolf.AppImage.tmp"
+       du -sh "./librewolf.AppImage.tmp" && file "./librewolf.AppImage.tmp"
       ##Extract
-       APPIMAGE="$(realpath .)/ladybird.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
-       OFFSET="$(${APPIMAGE} --appimage-offset)" && export OFFSET="${OFFSET}"
-       tail -c +"$(($OFFSET + 1))" "${APPIMAGE}" > "./squash.tmp"
-       #unsquashfs -force -dest "./squash_tmp/" "./squash.tmp"
+       APPIMAGE="$(realpath .)/librewolf.AppImage.tmp" && export APPIMAGE="${APPIMAGE}"
        "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
        OWD="$(realpath .)" && export OWD="${OWD}"
        APPIMAGE_EXTRACT="$(realpath "./squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
@@ -45,30 +42,38 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           #Media
            cd "${APPIMAGE_EXTRACT}"
            mkdir -p "./usr/share/applications" && mkdir -p "./usr/share/metainfo"
+           SHARE_DIR="$(find "${APPIMAGE_EXTRACT}" -path '*share/*librewolf*' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | awk -F'/share/' '{print $1}')/share" && export SHARE_DIR="${SHARE_DIR}"
+           #usr/{applications,bash-completion,icons,metainfo,librewolf,zsh}
+            rsync -av --copy-links \
+                      --include="*/" \
+                      --include="*.desktop" \
+                      --include="*.png" \
+                      --include="*.svg" \
+                      --include="*.xml" \
+                      --exclude="*" \
+                     "${SHARE_DIR}/" "./usr/share/" && ls "./usr/share/"
            #Icon
-            curl -qfsSL "https://raw.githubusercontent.com/LadybirdBrowser/ladybird/master/Base/res/icons/128x128/app-browser.png" -o "./ladybird.png"
-            find "." -maxdepth 1 -type f -name '*.svg' -exec sh -c 'convert "$0" "${0%.svg}.png"' {} \; 2>/dev/null
-            cp "./ladybird.png" "./.DirIcon"
+           find "${APPIMAGE_EXTRACT}" \( -path '*128x128/apps/*.png' -o -path '*256x256/apps/*.png' \) | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} convert {} -resize "128x128" "./librewolf.png"
+            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -name '*.svg' -exec sh -c 'convert "$0" -resize "128x128" "${0%.svg}.png"' {} \; 2>/dev/null
+            cp "./librewolf.png" "./.DirIcon"
            ##Desktop
-            echo -e "[Desktop Entry]\nVersion=1.0\nName=Ladybird\nComment=Ladybird is an ongoing project to build an independent web browser from scratch\nExec=ladybird\nIcon=ladybird\nType=Application\nCategories=Network;WebBrowser;\nMimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;\nStartupNotify=true" > "./ladybird.desktop"
-            sed 's/Icon=[^ ]*/Icon=ladybird/' -i "./ladybird.desktop" 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -path '*librewolf*.desktop' | awk '{ print length, $0 }' | sort -n | cut -d" " -f2- | head -n 1 | xargs -I {} sh -c 'cp {} "./librewolf.desktop"'
+            sed 's/Icon=[^ ]*/Icon=librewolf/' -i "./librewolf.desktop" 2>/dev/null
            ##Perms
-            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +  
+            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
            ##Purge Bloatware
            echo -e "\n[+] Purging Bloatware...\n"
             O_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "O_SIZE=${O_SIZE}"
             #Headers
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #docs & manpages
-            find "." -type d -path "*doc/share*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "." -type d -path "*/share/docs*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "." -type d -path "*/share/man*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #static libs
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
             #systemd (need .so)
-            find "." -type d -name "*systemd*" -exec find {} -type f ! -name "*.so*" -delete \;
-            #Strip (this breaks things)
-            #find "." -type f -executable -exec file -i '{}' \; | grep "application/.*executable" | cut -d':' -f1 | xargs realpath | xargs sudo strip -R ".comment" -R ".gnu.version" --strip-unneeded 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -name "*systemd*" -exec find {} -type f ! -name "*.so*" -delete \;
             P_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "P_SIZE=${P_SIZE}"
            echo -e "\n[+] Shaved off ${O_SIZE} --> ${P_SIZE}\n"
           #(Re)Pack
@@ -81,9 +86,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            --mksquashfs-opt -b --mksquashfs-opt "1M" \
            --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
            --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
-           "${APPIMAGE_EXTRACT}" "$BINDIR/ladybird.AppImage"
+           "${APPIMAGE_EXTRACT}" "$BINDIR/librewolf.AppImage"
           #Meta
-           du -sh "$BINDIR/ladybird.AppImage" && file "$BINDIR/ladybird.AppImage"
+           du -sh "$BINDIR/librewolf.AppImage" && file "$BINDIR/librewolf.AppImage"
           #clean
            unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD SHARE_DIR
        fi

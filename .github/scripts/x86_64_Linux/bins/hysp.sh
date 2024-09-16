@@ -19,7 +19,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+export SKIP_BUILD="YES" #Archived & Abandoned
 if [ "$SKIP_BUILD" == "NO" ]; then
       #hysp : 📦 An independent package manager that every hacker deserves.
      export BIN="hysp" #Name of final binary/pkg/cli, sometimes differs from $REPO

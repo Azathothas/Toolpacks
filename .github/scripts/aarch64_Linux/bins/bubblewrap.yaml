@@ -1,0 +1,8 @@
+name: "bubblewrap"
+description: "Unprivileged sandboxing tool"
+web_url: "https://github.com/containers/bubblewrap"
+repo_url: "https://github.com/containers/bubblewrap"
+path: "/"
+bins:
+  - "bubblewrap"
+  - "bwrap"

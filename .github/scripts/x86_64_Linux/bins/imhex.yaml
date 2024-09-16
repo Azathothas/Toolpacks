@@ -1,0 +1,7 @@
+name: "imhex"
+description: "🔍 A Hex Editor for Reverse Engineers & Programmers (AppImage)"
+web_url: "https://imhex.werwolv.net/"
+repo_url: "https://github.com/WerWolv/ImHex"
+path: "/"
+bins:
+  - "imhex.AppImage"
