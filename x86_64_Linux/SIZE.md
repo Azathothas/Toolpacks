@@ -1,5 +1,5 @@
 ```mathematica
-  13G └─┬ toolpack_x86_64
+  14G └─┬ toolpack_x86_64
  758M   ├── dbeaver.AppImage
  469M   ├── steam.AppImage
  330M   ├── firefox.AppImage
@@ -30,10 +30,10 @@
   74M   ├── nuclei
   72M   ├── falconhound
   72M   ├── berty
+  71M   ├── devpod
   70M   ├── rclone
   69M   ├── loki
   68M   ├── ockam
-  67M   ├── devpod
   66M   ├── lorien.AppImage
   61M   ├── logcli
   60M   ├── dockerd
@@ -51,6 +51,7 @@
   47M   ├── xet_staticx
   46M   ├── rekor-server
   46M   ├── rekor
+  45M   ├── wush
   39M   ├── katana
   38M   ├── kadeessh
   38M   ├── caddy
@@ -87,7 +88,7 @@
   29M   ├── zellij
   29M   ├── podman
   29M   ├── gowitness
-  28M   ├── wezterm
+  29M   ├── wezterm
   28M   ├── v2raya
   28M   ├── sing-box
   28M   ├── dbbench
@@ -144,8 +145,8 @@
   22M   ├── vpnkit
   22M   ├── loclx
   22M   ├── localxpose
-  22M   ├── xetmnt
   22M   ├── ruff
+  22M   ├── xetmnt
   22M   ├── etcd
   22M   ├── dnspyre
   22M   ├── reader
@@ -207,7 +208,7 @@
   16M   ├── serverstatus-server
   16M   ├── findomain
   16M   ├── filebrowser
-  15M   ├── yazi
+  16M   ├── yazi
   15M   ├── glow
   15M   ├── pgweb
   15M   ├── termshark
@@ -237,8 +238,8 @@
   14M   ├── wiretap
   14M   ├── etcdutl
   14M   ├── ein
+  14M   ├── reviewdog
   14M   ├── dwarfs-tools
-  13M   ├── reviewdog
   13M   ├── ssr-server-themed
   13M   ├── serverstatus-server-themed
   13M   ├── gdu
@@ -283,13 +284,13 @@
   11M   ├── nmctl
   11M   ├── sysbox-mgr
   11M   ├── netexec_dynamic
+  11M   ├── feroxbuster
   11M   ├── pktstat
   11M   ├── warp-svc
   11M   ├── gitui
   11M   ├── cfssl
   11M   ├── vfox
   11M   ├── broot
-  11M   ├── feroxbuster
   11M   ├── sshportal
   11M   ├── ksubdomain
   11M   ├── ehole
@@ -378,7 +379,6 @@
  8.5M   ├── assh
  8.5M   ├── smartdns-rs
  8.5M   ├── rootlesskit
- 8.5M   ├── wormhole-rs
  8.5M   ├── ssr-client
  8.5M   ├── serverstatus-client
  8.5M   ├── cfssl-scan
@@ -418,11 +418,12 @@
  7.7M   ├── revive
  7.7M   ├── gobuster
  7.7M   ├── trurl
+ 7.6M   ├── cherrybomb
  7.6M   ├── rush
  7.6M   ├── husarnet
- 7.6M   ├── cherrybomb
  7.6M   ├── fasttld
  7.5M   ├── eget
+ 7.5M   ├── wormhole-rs
  7.5M   ├── pretender
  7.5M   ├── git-log
  7.5M   ├── sake
@@ -481,6 +482,7 @@
  6.4M   ├── xh
  6.4M   ├── jen
  6.4M   ├── allxfr
+ 6.3M   ├── dperf
  6.3M   ├── clipcat-notify
  6.3M   ├── tracexec
  6.3M   ├── ripgrep
@@ -506,7 +508,6 @@
  5.9M   ├── web-cache-vulnerability-scanner
  5.9M   ├── waybackrobots
  5.9M   ├── wget
- 5.9M   ├── dperf
  5.9M   ├── nginx
  5.8M   ├── dizi
  5.8M   ├── cowitness
@@ -630,7 +631,7 @@
  4.4M   ├── heacoll
  4.4M   ├── chainredir
  4.4M   ├── ouch
- 4.3M   ├── tun2proxy
+ 4.4M   ├── tun2proxy
  4.3M   ├── onetun
  4.3M   ├── axel
  4.3M   ├── ssh-keysign
@@ -649,8 +650,8 @@
  4.1M   ├── ssh-agent
  4.0M   ├── hurlfmt
  4.0M   ├── makebbmain
- 4.0M   ├── qemu-armeb-static
  4.0M   ├── kalker
+ 4.0M   ├── qemu-armeb-static
  4.0M   ├── qemu-arm-static
  4.0M   ├── dotenv-linter
  4.0M   ├── gojq
@@ -690,6 +691,7 @@
  3.6M   ├── pspy
  3.6M   ├── 7z
  3.5M   ├── age
+ 3.5M   ├── pelfd
  3.5M   ├── hcxpmktool
  3.5M   ├── bandwhich
  3.5M   ├── qemu-i386-static
@@ -732,6 +734,7 @@
  2.9M   ├── encrypted-dns
  2.9M   ├── rpaste
  2.9M   ├── halp
+ 2.9M   ├── goawk
  2.9M   ├── t-rec
  2.9M   ├── qemu-hppa-static
  2.9M   ├── cowthink
@@ -747,9 +750,9 @@
  2.8M   ├── qemu-alpha-static
  2.8M   ├── rnr
  2.8M   ├── qemu-sh4-static
- 2.8M   ├── goawk
  2.8M   ├── qemu-cris-static
  2.8M   ├── git-sizer
+ 2.8M   ├── tere
  2.8M   ├── qemu-microblaze-static
  2.8M   ├── qemu-microblazeel-static
  2.7M   ├── qemu-nios2-static
@@ -762,7 +765,6 @@
  2.6M   ├── rippkgs
  2.6M   ├── grex
  2.6M   ├── p9cpud
- 2.6M   ├── tere
  2.6M   ├── bpftrace-aotrt
  2.5M   ├── kakoune
  2.5M   ├── kak
@@ -778,7 +780,6 @@
  2.5M   ├── geodns
  2.5M   ├── gencmddeps
  2.5M   ├── systeroid
- 2.4M   ├── pelfd
  2.4M   ├── runiq
  2.4M   ├── tz
  2.4M   ├── kondo
@@ -825,8 +826,8 @@
  1.8M   ├── anakin
  1.8M   ├── ds
  1.8M   ├── zfxtop
+ 1.8M   ├── fastfetch
  1.8M   ├── bore
- 1.7M   ├── fastfetch
  1.7M   ├── xargs-rs
  1.7M   ├── vnstat
  1.7M   ├── uip
@@ -845,10 +846,10 @@
  1.6M   ├── ecoji
  1.6M   ├── vnstatd
  1.6M   ├── genscope
+ 1.6M   ├── flashfetch
  1.6M   ├── goaccess
  1.6M   ├── v6disk
  1.5M   ├── fastfetch-staticx
- 1.5M   ├── flashfetch
  1.5M   ├── quotes-escaper
  1.5M   ├── tcpdump
  1.5M   ├── scopegen
