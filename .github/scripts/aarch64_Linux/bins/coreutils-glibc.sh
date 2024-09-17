@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         #Setup ENV
          mkdir -p "/build-bins"
          sudo apt update -y -qq
-         sudo apt install autopoint bison gettext gperf libacl1 libacl1-dev libcap-dev -y -qq
+         sudo apt install autopoint bison gettext git gperf libacl1 libacl1-dev libcap-dev -y -qq
         #Build
          pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --filter="blob:none" "https://github.com/coreutils/coreutils" && cd "./coreutils"
          export CFLAGS="-Os -ffunction-sections -fdata-sections -flto=auto -static -w -pipe"

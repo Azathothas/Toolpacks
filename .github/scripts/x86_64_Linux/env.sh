@@ -59,5 +59,5 @@ else
      fi
 fi
 #-------------------------------------------------------#
-history -c 2>/dev/null ; rm -rf "$HOME/.bash_history"
+history -c 2>/dev/null ; rm -rf "$HOME/.bash_history" ; pushd "$($TMPDIRS)" >/dev/null 2>&1
 #-------------------------------------------------------#
