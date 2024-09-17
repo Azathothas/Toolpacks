@@ -175,6 +175,8 @@
   19M   ├── libaws
   19M   ├── miniflux
   19M   ├── gickup
+  19M   ├── huggingface-cli
+  19M   ├── hf-cli
   19M   ├── brook
   19M   ├── gosec
   19M   ├── luet

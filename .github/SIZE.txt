@@ -2,7 +2,7 @@
  78M   ├─┬ x86_64_Linux
  75M   │ ├── BUILD.log.txt
 968K   │ ├── METADATA.json
-652K   │ ├── DETAILED.md
+656K   │ ├── DETAILED.md
 472K   │ ├── README.md
 156K   │ ├── FILE.txt
 128K   │ ├── BUILD_DATES.txt
