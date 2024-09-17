@@ -43,9 +43,10 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         bash -c '
         #Get SRC
          mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
-         curl -qfsSLJO "https://ftp.gnu.org/gnu/coreutils/$(curl -qfsSL "https://ftp.gnu.org/gnu/coreutils/" | grep -oP "(?<=href=\")[^\"]+\.tar\.xz(?=\")" | sort -V | tail -n 1)"
-         find "./" -type f -iname "*tar.xz" -exec tar -xvf {} \; && find "./" -type f -iname "*tar.xz" -exec rm -rf {} \;
-         cd $(find . -maxdepth 1 -type d | grep -v "^.$")
+         #curl -qfsSLJO "https://ftp.gnu.org/gnu/coreutils/$(curl -qfsSL "https://ftp.gnu.org/gnu/coreutils/" | grep -oP "(?<=href=\")[^\"]+\.tar\.xz(?=\")" | sort -V | tail -n 1)"
+         #find "./" -type f -iname "*tar.xz" -exec tar -xvf {} \; && find "./" -type f -iname "*tar.xz" -exec rm -rf {} \;
+         #cd $(find . -maxdepth 1 -type d | grep -v "^.$")
+         git clone --filter="blob:none" "https://github.com/coreutils/coreutils" && cd "./coreutils"
         #Configure
          export CFLAGS="-O2 -flto=auto -static -w -pipe ${CFLAGS}"
          export CXXFLAGS="${CFLAGS}"
@@ -55,18 +56,28 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          ulimit -n unlimited
         #Build
          make dist clean 2>/dev/null ; make clean 2>/dev/null
-         bash "./configure" --enable-single-binary --disable-shared --enable-static
-         #Re run succeeds
-         timeout -k 05 05 apk del busybox 2>/dev/null
-         bash "./configure" --enable-single-binary --disable-shared --enable-static
+         "./configure" --enable-single-binary --disable-shared --enable-static
+         #https://github.com/moby/moby/issues/13451
+         if [ -d "./confdir3/confdir3" ]; then
+             ulimit -n unlimited 2>/dev/null
+             timeout -k 05 05 apk del busybox 2>/dev/null
+             while [[ -e "./confdir3/confdir3" ]]; do mv "./confdir3/confdir3" "./confdir3a"; rmdir "./confdir3"; mv "./confdir3a" "./confdir3"; done; rmdir "./confdir3"
+             "./configure" --disable-shared --enable-static
+         fi
+         "./configure" --enable-single-binary --disable-shared --enable-static
          make --jobs="$(($(nproc)+1))" --keep-going
          find "./src" -type f -executable -exec cp {} "/build-bins/" \;
         #Build Single Applets
          make dist clean 2>/dev/null ; make clean 2>/dev/null
-         bash "./configure" --disable-shared --enable-static
-         #Re run succeeds
-         timeout -k 05 05 apk del busybox 2>/dev/null
-         bash "./configure" --disable-shared --enable-static
+         "./configure" --disable-shared --enable-static
+         #https://github.com/moby/moby/issues/13451
+         if [ -d "./confdir3/confdir3" ]; then
+             ulimit -n unlimited 2>/dev/null
+             timeout -k 05 05 apk del busybox 2>/dev/null
+             while [[ -e "./confdir3/confdir3" ]]; do mv "./confdir3/confdir3" "./confdir3a"; rmdir "./confdir3"; mv "./confdir3a" "./confdir3"; done; rmdir "./confdir3"
+             "./configure" --disable-shared --enable-static
+         fi
+         "./configure" --disable-shared --enable-static
          make --jobs="$(($(nproc)+1))" --keep-going
          find "./src" -type f -executable -exec cp {} "/build-bins/" \;
          popd >/dev/null 2>&1

@@ -1,8 +1,8 @@
-name: "coreutils"
-description: "GNU File, Shell, and Text utilities"
+name: "coreutils-glibc"
+description: "GNU File, Shell, and Text utilities (GLIBC)"
 web_url: "https://www.gnu.org/software/coreutils/"
 repo_url: "https://github.com/coreutils/coreutils"
-path: "/Baseutils/coreutils/"
+path: "/Baseutils/coreutils-glibc/"
 bins:
   - "["
   - "b2sum"
