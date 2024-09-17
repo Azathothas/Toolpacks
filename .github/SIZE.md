@@ -21,20 +21,20 @@
 460K   │ ├── README.md
 152K   │ ├── FILE.txt
 120K   │ ├── BUILD_DATES.txt
- 76K   │ ├── SHA256SUM.txt
- 76K   │ ├── BLAKE3SUM.txt
+ 80K   │ ├── SHA256SUM.txt
+ 80K   │ ├── BLAKE3SUM.txt
  40K   │ ├── BUILD_ERROR.log.md
  28K   │ ├── SIZE.txt
  28K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt
   0B   │ └── DUPLICATES_OVERWRITES.txt
-6.9M   ├── METADATA.json
-6.4M   ├── METADATA.yaml
-464K   ├─┬ x64_Windows
+7.2M   ├── METADATA.json
+6.6M   ├── METADATA.yaml
+468K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 20K   │ ├── FILE.txt
+ 24K   │ ├── FILE.txt
  20K   │ ├── BUILD_DATES.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
