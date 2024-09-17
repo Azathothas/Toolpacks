@@ -399,6 +399,7 @@ headtail:                        ELF 64-bit LSB pie executable, x86-64, version 
 hednsextractor:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 helix.AppImage:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped
 hexyl:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+hf-cli:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 horust:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 hostctl:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=U7XKI9TsqsNDN7H4EDdJ/8FIoDLlOuqpEPbus4-jW/KmHfDUnVzgweudW_LAM7/i2_hUG8_2t3PfEh_92cI, stripped
 hrekt:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
@@ -408,6 +409,7 @@ htmlq:                           ELF 64-bit LSB pie executable, x86-64, version 
 httprobe:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 httpx:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=-9D8n6nuDGNqWlfOY0xF/PIdcMERSU0RP-W06ku75/pZBIkHHOLpnaaluP74O1/EXBgDVeCkv6I6VZA4xo2, stripped
 hub:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+huggingface-cli:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 hugo:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=540f30e1ae83d89eb662bac595f0cd01b327b8e7, for GNU/Linux 3.2.0, stripped
 hurl:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 hurlfmt:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
