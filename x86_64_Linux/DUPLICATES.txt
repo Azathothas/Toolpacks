@@ -264,6 +264,19 @@ REPO: https://github.com/naiba/nezha
 Web URL: https://nezha.wiki/en_US/
 
 ---------------------
+Name: hf-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/hf-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
+
+Name: huggingface-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/huggingface-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
+
+---------------------
 Name: sshx
 DESCR: Fast, collaborative live terminal sharing over the web
 Download URL: https://bin.ajam.dev/x86_64_Linux/sshx
