@@ -223,6 +223,7 @@ set +x
           ##Fetch&Sync [$BINDIR]
              cd "$BINDIR"
              rclone delete "r2:/bin/arm64_v8a_Android/" --include "*.jq" --disable ListR --checkers="2000" --transfers="100" --progress
+             rclone delete "r2:/bin/" --include ".*" --disable ListR --checkers="2000" --transfers="100" --progress
              rclone_main_dw()
              {
                rclone copy "r2:/bin/arm64_v8a_Android/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
