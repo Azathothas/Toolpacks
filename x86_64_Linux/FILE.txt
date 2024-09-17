@@ -1,3 +1,5 @@
+.dot:                            empty
+.dot2:                           ASCII text, with CRLF line terminators
 7z:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8f388fa250943ba18d148fa065ce15e24f273ce7, for GNU/Linux 3.2.0, stripped
 act:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=H7v2O-qN7M80cR642ANZ/6F0A2W4bvZeNfP-jdLaR/5inDrtVtO0wcNtYLwjdk/h2J_jYIdaX0vXb3hXiwP, stripped
 actionlint:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=GOhsVppsKJh1hjvYA1uR/BW12ckj1_99upFhZ4UBH/Q8KapjyZD0fJPhysdd7X/5IMlObZfCh1S9EgIwhVc, stripped

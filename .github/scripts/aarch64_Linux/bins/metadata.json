@@ -561,7 +561,7 @@
   },
   {
     "name": "coreutils-glibc.sh",
-    "update_date": "2024-09-17T07:04:26",
+    "update_date": "2024-09-17T14:04:55",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/coreutils-glibc.sh"
   },
   {
@@ -2196,7 +2196,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-17T00:10:13",
+    "update_date": "2024-09-17T07:09:23",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
