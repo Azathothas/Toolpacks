@@ -590,6 +590,7 @@ onetun:                          ELF 64-bit LSB executable, ARM aarch64, version
 ooniprobe:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=010214c98a05026589bd6f272109e150b7d8dc6e, stripped
 openapi-tui:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 opengfw:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+opengist:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 openrisk:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 openvpn:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 orbiton:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=eZHZ_MsB4qH2PsNBcBIY/AStPqH0-3izK8J46oSEd/zHe2pEOyJhlXJKcNlpKZ/-4GjTx8o4JePnqQtUyK1, stripped

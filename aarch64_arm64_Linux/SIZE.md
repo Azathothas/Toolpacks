@@ -43,6 +43,7 @@
   47M   ├── ffprobe
   47M   ├── gh
   46M   ├── matterbridge
+  45M   ├── opengist
   44M   ├── rekor-server
   44M   ├── wush
   43M   ├── xet_staticx
