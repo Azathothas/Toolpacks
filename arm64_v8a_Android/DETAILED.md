@@ -3,7 +3,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 53978
+- **Stars:** 53993
 - **Version:** v0.2.67
 - **Updated:** 2024-09-16T02:36:42Z
 - **Size:** 19.31 MB
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2696
+- **Stars:** 2697
 - **Version:** v1.7.1
 - **Updated:** 2024-09-17T13:38:58Z
 - **Size:** 5.38 MB
@@ -175,7 +175,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35407
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-18T05:57:58Z
+- **Updated:** 2024-09-18T14:26:53Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 6ed24a17773b005bed314b52f7268d2e1ef92503e2b924e5aed7c073e92cc33f
 - **B3SUM:** a9dfc81e6ba374503df4d377ac07b2cbad11a8067dfcb56507d93bac9bb50962
@@ -192,7 +192,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35407
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-18T05:57:58Z
+- **Updated:** 2024-09-18T14:26:53Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -258,7 +258,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2713
+- **Stars:** 2712
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -292,7 +292,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36099
+- **Stars:** 36101
 - **Version:** v9.1.0736
 - **Updated:** 2024-09-17T18:27:01Z
 - **Size:** 5.07 MB
@@ -345,7 +345,7 @@
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Stars:** 3601
 - **Version:** zsh-5.9
-- **Updated:** 2024-09-14T19:44:41Z
+- **Updated:** 2024-09-18T09:32:41Z
 - **Size:** 1.8 MB
 - **SHA256SUM:** 2572885eec907008a6edb778df16f3ef02164f3167b6e909f6ce300e676b983e
 - **B3SUM:** b72e4cf4ef0584853896a8e8751d2a3da25d0786033eccdf2fd3647ecb9eb696
