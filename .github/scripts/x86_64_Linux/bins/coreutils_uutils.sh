@@ -151,7 +151,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        find "./target/$RUST_TARGET/release" -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} rsync -av --copy-links --exclude="*/" "{}" "$BASEUTILSDIR/coreutils_uutils/"
        cp "$BASEUTILSDIR/coreutils_uutils/coreutils" "$BINDIR/coreutils"
       #Strip 
-       find "$BASEUTILSDIR/coreutils_uutils/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "{}" \;
+       find "$BASEUTILSDIR/coreutils_uutils/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
        find "$BASEUTILSDIR/coreutils_uutils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       ###Build (Alpine:musl)
       # pushd "$($TMPDIRS)" >/dev/null 2>&1

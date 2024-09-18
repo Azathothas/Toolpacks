@@ -29,7 +29,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "Linux" --asset "x86_64" --asset "universal" --asset "^stack" "$EGET_EXCLUDE" --to "./dwarfs.upx"
        upx -d "./dwarfs.upx" --force-overwrite -o"$BINDIR/dwarfs-tools"
-       objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "$BINDIR/dwarfs-tools"
+       objcopy --remove-section=".comment" --remove-section=".note.*" "$BINDIR/dwarfs-tools"
        file "$BINDIR/dwarfs-tools" && du -sh "$BINDIR/dwarfs-tools"
        popd >/dev/null 2>&1
 fi

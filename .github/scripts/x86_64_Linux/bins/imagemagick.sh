@@ -48,7 +48,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         #Copy
          cp "./utilities/magick" "/build-bins/magick"
          strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "/build-bins/magick"
-         objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "/build-bins/magick"
+         objcopy --remove-section=".comment" --remove-section=".note.*" "/build-bins/magick"
         '
       ###Build:
       # pushd "$($TMPDIRS)" >/dev/null 2>&1

@@ -33,7 +33,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/vim/" && chmod -R 755 "$BASEUTILSDIR/vim/"
        #Strip
        find "$BASEUTILSDIR/vim" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
-       find "$BASEUTILSDIR/vim" -type f ! -name "*.AppImage" -exec objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/vim" -type f ! -name "*.AppImage" -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

@@ -147,7 +147,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          ADD_LIBS="$(echo $(find . -maxdepth 1 -type f -name "*.so*" -exec realpath {} \; | sed "s/^/-l \"/" | sed "s/$/\" /" | tr "\n" " "))" && export ADD_LIBS="${ADD_LIBS}"
          eval staticx --loglevel DEBUG "${TMP_BUILD}/dist/huggingface-cli" "${ADD_LIBS}" --strip "/build-bins/huggingface-cli"
         #strip & info 
-         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "{}" \;
+         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
          find "/build-bins/" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
          cp "/build-bins/huggingface-cli" "/build-bins/hf-cli"
          file "/build-bins/"* && du -sh "/build-bins/"*

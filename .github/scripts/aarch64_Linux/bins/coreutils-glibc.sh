@@ -77,7 +77,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
        sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/coreutils-glibc/"
       #Strip 
-       find "$BASEUTILSDIR/coreutils-glibc" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.ABI-tag" --remove-section=".note.gnu.build-id" --remove-section=".note.stapsdt" "{}" \;
+       find "$BASEUTILSDIR/coreutils-glibc" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
        find "$BASEUTILSDIR/coreutils-glibc" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#
       ##Meta

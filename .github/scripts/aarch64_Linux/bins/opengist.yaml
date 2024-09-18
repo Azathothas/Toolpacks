@@ -1,0 +1,7 @@
+name: "opengist"
+description: "Self-hosted pastebin powered by Git, open-source alternative to Github Gist."
+web_url: "https://github.com/thomiceli/opengist"
+repo_url: "https://github.com/thomiceli/opengist"
+path: "/"
+bins:
+  - "opengist"
