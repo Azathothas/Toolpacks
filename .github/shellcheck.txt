@@ -1,349 +1,29 @@
 
-In .github/scripts/aarch64_Linux/bins/librewolf.sh line 68:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/librewolf.sh line 70:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/librewolf.sh line 71:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/librewolf.sh line 72:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/librewolf.sh line 74:
-            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/lorien.sh line 73:
+In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 68:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64_Linux/bins/lorien.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/lorien.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/lorien.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 70:
+            find "." -type d -path "*doc/share*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64_Linux/bins/lorien.sh line 79:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/ladybird.sh line 61:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/ladybird.sh line 63:
-            find "." -type d -path "*doc/share*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/ladybird.sh line 64:
-            find "." -type d -path "*/share/docs*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/ladybird.sh line 65:
-            find "." -type d -path "*/share/man*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 71:
+            find "." -type d -path "*/share/docs*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64_Linux/bins/ladybird.sh line 67:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/kitty.sh line 73:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/kitty.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/kitty.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/kitty.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/kitty.sh line 79:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 71:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 73:
-            find "." -type d -path "*doc/share*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 72:
+            find "." -type d -path "*/share/man*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 74:
-            find "." -type d -path "*/share/docs*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 75:
-            find "." -type d -path "*/share/man*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 77:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/netsurf.sh line 61:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/netsurf.sh line 63:
-            find "." -type d -path "*doc/share*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/netsurf.sh line 64:
-            find "." -type d -path "*/share/docs*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/netsurf.sh line 65:
-            find "." -type d -path "*/share/man*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/netsurf.sh line 67:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/mpv.sh line 71:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/mpv.sh line 73:
-            find "." -type d -path "*doc/share*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/mpv.sh line 74:
-            find "." -type d -path "*/share/docs*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/mpv.sh line 75:
-            find "." -type d -path "*/share/man*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/mpv.sh line 77:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/putty.sh line 69:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/putty.sh line 71:
-            find "." -type d -path "*doc/share*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/putty.sh line 72:
-            find "." -type d -path "*/share/docs*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/putty.sh line 73:
-            find "." -type d -path "*/share/man*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/putty.sh line 75:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/firefox.sh line 73:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/firefox.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*firefox*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/firefox.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*firefox*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/firefox.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*firefox*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/firefox.sh line 79:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 73:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*ppsspp*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*ppsspp*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*ppsspp*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 79:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/aarch64_Linux/bins/helix.sh line 73:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/helix.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/helix.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/helix.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64_Linux/bins/helix.sh line 79:
+In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 74:
             find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -383,31 +63,31 @@ In .github/scripts/x86_64_Linux/bins/librewolf.sh line 74:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64_Linux/bins/lorien.sh line 73:
+In .github/scripts/x86_64_Linux/bins/helix.sh line 73:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/lorien.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+In .github/scripts/x86_64_Linux/bins/helix.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/lorien.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/lorien.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/helix.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/lorien.sh line 79:
+In .github/scripts/x86_64_Linux/bins/helix.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/helix.sh line 79:
             find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -447,159 +127,31 @@ In .github/scripts/x86_64_Linux/bins/ladybird.sh line 65:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64_Linux/bins/kitty.sh line 73:
+In .github/scripts/x86_64_Linux/bins/lorien.sh line 73:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/kitty.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/kitty.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/kitty.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/lorien.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/kitty.sh line 79:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 71:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 73:
-            find "." -type d -path "*doc/share*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/lorien.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 74:
-            find "." -type d -path "*/share/docs*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 75:
-            find "." -type d -path "*/share/man*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 77:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/x86_64_Linux/bins/netsurf.sh line 61:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/netsurf.sh line 63:
-            find "." -type d -path "*doc/share*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/lorien.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/netsurf.sh line 64:
-            find "." -type d -path "*/share/docs*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/netsurf.sh line 65:
-            find "." -type d -path "*/share/man*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/netsurf.sh line 67:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/x86_64_Linux/bins/mpv.sh line 73:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/mpv.sh line 75:
-            find "." -type d -path "*doc/share*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/mpv.sh line 76:
-            find "." -type d -path "*/share/docs*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/mpv.sh line 77:
-            find "." -type d -path "*/share/man*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/mpv.sh line 79:
-            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
-                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/x86_64_Linux/bins/putty.sh line 69:
-            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/putty.sh line 71:
-            find "." -type d -path "*doc/share*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/putty.sh line 72:
-            find "." -type d -path "*/share/docs*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/putty.sh line 73:
-            find "." -type d -path "*/share/man*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/putty.sh line 75:
+In .github/scripts/x86_64_Linux/bins/lorien.sh line 79:
             find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -639,6 +191,134 @@ In .github/scripts/x86_64_Linux/bins/firefox.sh line 79:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
+In .github/scripts/x86_64_Linux/bins/mpv.sh line 73:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/mpv.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/mpv.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/mpv.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/mpv.sh line 79:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64_Linux/bins/netsurf.sh line 61:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/netsurf.sh line 63:
+            find "." -type d -path "*doc/share*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/netsurf.sh line 64:
+            find "." -type d -path "*/share/docs*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/netsurf.sh line 65:
+            find "." -type d -path "*/share/man*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/netsurf.sh line 67:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64_Linux/bins/kitty.sh line 73:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/kitty.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/kitty.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/kitty.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/kitty.sh line 79:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64_Linux/bins/putty.sh line 69:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/putty.sh line 71:
+            find "." -type d -path "*doc/share*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/putty.sh line 72:
+            find "." -type d -path "*/share/docs*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/putty.sh line 73:
+            find "." -type d -path "*/share/man*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/putty.sh line 75:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
 In .github/scripts/x86_64_Linux/bins/ppsspp.sh line 73:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -671,31 +351,31 @@ In .github/scripts/x86_64_Linux/bins/ppsspp.sh line 79:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 68:
+In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 71:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 70:
-            find "." -type d -path "*doc/share*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 71:
-            find "." -type d -path "*/share/docs*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 72:
-            find "." -type d -path "*/share/man*" ! -name "*dbeaver*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 73:
+            find "." -type d -path "*doc/share*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 74:
+In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 74:
+            find "." -type d -path "*/share/docs*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 75:
+            find "." -type d -path "*/share/man*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64_Linux/bins/nicotine-plus.sh line 77:
             find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -703,31 +383,351 @@ In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 74:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64_Linux/bins/helix.sh line 73:
+In .github/scripts/aarch64_Linux/bins/librewolf.sh line 68:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/librewolf.sh line 70:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/librewolf.sh line 71:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/librewolf.sh line 72:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*librewolf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/librewolf.sh line 74:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/helix.sh line 73:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/helix.sh line 75:
+In .github/scripts/aarch64_Linux/bins/helix.sh line 75:
             find "." -type d -path "*doc/share*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/helix.sh line 76:
+In .github/scripts/aarch64_Linux/bins/helix.sh line 76:
             find "." -type d -path "*/share/docs*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/helix.sh line 77:
+In .github/scripts/aarch64_Linux/bins/helix.sh line 77:
             find "." -type d -path "*/share/man*" ! -name "*helix*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64_Linux/bins/helix.sh line 79:
+In .github/scripts/aarch64_Linux/bins/helix.sh line 79:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/ladybird.sh line 61:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ladybird.sh line 63:
+            find "." -type d -path "*doc/share*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ladybird.sh line 64:
+            find "." -type d -path "*/share/docs*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ladybird.sh line 65:
+            find "." -type d -path "*/share/man*" ! -name "*ladybird*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ladybird.sh line 67:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/lorien.sh line 73:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/lorien.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/lorien.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/lorien.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*lorien*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/lorien.sh line 79:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/firefox.sh line 73:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/firefox.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*firefox*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/firefox.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*firefox*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/firefox.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*firefox*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/firefox.sh line 79:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/mpv.sh line 71:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/mpv.sh line 73:
+            find "." -type d -path "*doc/share*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/mpv.sh line 74:
+            find "." -type d -path "*/share/docs*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/mpv.sh line 75:
+            find "." -type d -path "*/share/man*" ! -name "*mpv*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/mpv.sh line 77:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/netsurf.sh line 61:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/netsurf.sh line 63:
+            find "." -type d -path "*doc/share*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/netsurf.sh line 64:
+            find "." -type d -path "*/share/docs*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/netsurf.sh line 65:
+            find "." -type d -path "*/share/man*" ! -name "*netsurf*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/netsurf.sh line 67:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/kitty.sh line 73:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/kitty.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/kitty.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/kitty.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*kitty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/kitty.sh line 79:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/putty.sh line 69:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/putty.sh line 71:
+            find "." -type d -path "*doc/share*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/putty.sh line 72:
+            find "." -type d -path "*/share/docs*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/putty.sh line 73:
+            find "." -type d -path "*/share/man*" ! -name "*putty*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/putty.sh line 75:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 73:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 75:
+            find "." -type d -path "*doc/share*" ! -name "*ppsspp*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 76:
+            find "." -type d -path "*/share/docs*" ! -name "*ppsspp*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 77:
+            find "." -type d -path "*/share/man*" ! -name "*ppsspp*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                            ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 79:
+            find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 71:
+            find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                        ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                       ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 73:
+            find "." -type d -path "*doc/share*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 74:
+            find "." -type d -path "*/share/docs*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 75:
+            find "." -type d -path "*/share/man*" ! -name "*nicotine*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64_Linux/bins/nicotine-plus.sh line 77:
             find "." -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
