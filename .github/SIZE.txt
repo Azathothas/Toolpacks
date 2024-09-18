@@ -21,8 +21,8 @@
 156K   │ ├── FILE.txt
 128K   │ ├── BUILD_DATES.txt
 100K   │ ├── BUILD_ERROR.log.md
- 84K   │ ├── SHA256SUM.txt
- 84K   │ ├── BLAKE3SUM.txt
+ 80K   │ ├── SHA256SUM.txt
+ 80K   │ ├── BLAKE3SUM.txt
  32K   │ ├── SIZE.txt
  32K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt
