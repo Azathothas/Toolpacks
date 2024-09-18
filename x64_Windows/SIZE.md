@@ -78,6 +78,7 @@
  2.3M   ├── nl.exe
  2.2M   ├── pdftops.exe
  2.2M   ├── tac.exe
+ 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -89,7 +90,6 @@
  1.6M   ├── sort.exe
  1.6M   ├── dua.exe
  1.5M   ├── ls.exe
- 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.4M   ├── fastfetch.exe
@@ -115,7 +115,7 @@
  1.0M   ├── b3sum.exe
 1020K   ├── dd.exe
 1012K   ├── od.exe
- 996K   ├── more.exe
+1000K   ├── more.exe
  988K   ├── split.exe
  972K   ├── basenc.exe
  968K   ├── numfmt.exe
@@ -129,9 +129,9 @@
  928K   ├── mktemp.exe
  928K   ├── cut.exe
  924K   ├── uniq.exe
+ 924K   ├── shuf.exe
  924K   ├── printf.exe
  924K   ├── join.exe
- 920K   ├── shuf.exe
  920K   ├── fmt.exe
  916K   ├── tr.exe
  912K   ├── head.exe
@@ -172,7 +172,7 @@
  808K   ├── printenv.exe
  808K   ├── anew.exe
  808K   ├── anew-rs.exe
- 764K   ├── true.exe
+ 768K   ├── true.exe
  764K   ├── false.exe
  656K   ├── busybox-unicode.exe
  652K   ├── ssh-keyscan.exe

@@ -1,23 +1,14 @@
-  14G └─┬ toolpack_x86_64
- 758M   ├── dbeaver.AppImage
+  11G └─┬ toolpack_x86_64
  469M   ├── steam.AppImage
- 330M   ├── firefox.AppImage
- 261M   ├── nicotine-plus.AppImage
- 259M   ├── ladybird.AppImage
- 257M   ├── mpv.AppImage
- 186M   ├── ppsspp.AppImage
  169M   ├── usql
  161M   ├── sliver-server
- 159M   ├── traefik
+ 157M   ├── traefik
  151M   ├── cloudfox
  143M   ├── aws-nuke
- 125M   ├── kitty.AppImage
- 114M   ├── netsurf.AppImage
  113M   ├── cloudlist
  110M   ├── trufflehog
  102M   ├── gitea
   94M   ├── promtail
-  91M   ├── putty.AppImage
   90M   ├── k9s
   86M   ├── istioctl
   80M   ├── daytona
@@ -33,7 +24,6 @@
   70M   ├── rclone
   69M   ├── loki
   68M   ├── ockam
-  66M   ├── lorien.AppImage
   61M   ├── logcli
   60M   ├── dockerd
   59M   ├── wtfutil
@@ -50,6 +40,7 @@
   47M   ├── xet_staticx
   46M   ├── rekor-server
   46M   ├── rekor
+  45M   ├── opengist
   45M   ├── wush
   39M   ├── katana
   38M   ├── kadeessh
@@ -81,7 +72,6 @@
   31M   ├── git-xet
   31M   ├── dblab
   30M   ├── edgevpn
-  30M   ├── helix.AppImage
   30M   ├── pixi
   29M   ├── aix
   29M   ├── zellij
@@ -220,16 +210,16 @@
   15M   ├── kitten
   15M   ├── bleve
   14M   ├── ct_monitor
+  14M   ├── yip
   14M   ├── s5cmd
   14M   ├── zerotier-one
   14M   ├── zerotier-idtool
   14M   ├── zerotier-cli
   14M   ├── bin
-  14M   ├── yip
   14M   ├── aws-wire-lengths
   14M   ├── sysbox-runc
-  14M   ├── godns
   14M   ├── s3scanner
+  14M   ├── godns
   14M   ├── pgrokd
   14M   ├── certwatcher
   14M   ├── listmonk
@@ -293,6 +283,7 @@
   11M   ├── vfox
   11M   ├── broot
   11M   ├── sshportal
+  11M   ├── zdns
   11M   ├── ksubdomain
   11M   ├── ehole
   11M   ├── multirootca
@@ -372,13 +363,13 @@
  8.7M   ├── supercronic
  8.7M   ├── warp-diag
  8.7M   ├── oha
+ 8.6M   ├── smartdns-rs
  8.6M   ├── nmap
  8.6M   ├── getghrel
  8.5M   ├── sns
  8.5M   ├── sj
  8.5M   ├── chisel
  8.5M   ├── assh
- 8.5M   ├── smartdns-rs
  8.5M   ├── rootlesskit
  8.5M   ├── ssr-client
  8.5M   ├── serverstatus-client
@@ -448,7 +439,6 @@
  7.1M   ├── websocat
  7.1M   ├── zfind
  7.1M   ├── cfspeed
- 7.0M   ├── zdns
  7.0M   ├── spoof-dpi
  7.0M   ├── yggdrasilctl
  6.9M   ├── spk

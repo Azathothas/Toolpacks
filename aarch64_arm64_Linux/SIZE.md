@@ -2,10 +2,10 @@
   11G └─┬ toolpack_aarch64
  320M   ├── firefox.AppImage
  254M   ├── nicotine-plus.AppImage
- 249M   ├── mpv.AppImage
+ 250M   ├── mpv.AppImage
  237M   ├── ladybird.AppImage
  179M   ├── ppsspp.AppImage
- 154M   ├── traefik
+ 152M   ├── traefik
  142M   ├── aws-nuke
  139M   ├── cloudfox
  131M   ├── usql
@@ -15,6 +15,7 @@
  101M   ├── netsurf.AppImage
   98M   ├── gitea
   92M   ├── promtail
+  90M   ├── putty.AppImage
   87M   ├── k9s
   84M   ├── istioctl
   77M   ├── hugo
@@ -42,7 +43,9 @@
   47M   ├── ffprobe
   47M   ├── gh
   46M   ├── matterbridge
+  45M   ├── opengist
   44M   ├── rekor-server
+  44M   ├── wush
   43M   ├── xet_staticx
   43M   ├── bpftrace
   38M   ├── katana
@@ -145,10 +148,10 @@
   19M   ├── xetcmd
   19M   ├── csvtk
   19M   ├── noseyparker
+  19M   ├── mise
   19M   ├── uroot-busybox
   19M   ├── u-root-busybox
   19M   ├── gobusybox
-  19M   ├── mise
   19M   ├── libaws-cli
   19M   ├── libaws
   19M   ├── notify
@@ -198,14 +201,14 @@
   14M   ├── kitten
   14M   ├── ct_monitor
   14M   ├── bin
-  14M   ├── sn0int
-  14M   ├── s5cmd
   14M   ├── qsv
+  14M   ├── s5cmd
+  14M   ├── sn0int
+  14M   ├── yip
   13M   ├── certwatcher
   13M   ├── ssr-server
   13M   ├── serverstatus-server
   13M   ├── smap
-  13M   ├── yip
   13M   ├── pgrokd
   13M   ├── clipcatd
   13M   ├── s3scanner
@@ -214,8 +217,8 @@
   13M   ├── godns
   13M   ├── sysbox-runc
   13M   ├── listmonk
-  13M   ├── rqbit
   13M   ├── yazi
+  13M   ├── rqbit
   13M   ├── netmaker
   13M   ├── wiretap
   13M   ├── zerotier-one
@@ -269,6 +272,7 @@
   10M   ├── fx
   10M   ├── multirootca
   10M   ├── ehole
+  10M   ├── zdns
   10M   ├── sshportal
   10M   ├── pdfcpu
   10M   ├── cheat
@@ -372,8 +376,8 @@
  7.7M   ├── croc
  7.6M   ├── planor
  7.6M   ├── sbctl
- 7.6M   ├── quickcert
  7.6M   ├── xan
+ 7.6M   ├── quickcert
  7.6M   ├── dontgo403
  7.5M   ├── godnsbench
  7.5M   ├── ffuf
@@ -408,6 +412,7 @@
  6.9M   ├── viddy
  6.9M   ├── ssr-client
  6.9M   ├── serverstatus-client
+ 6.9M   ├── smartdns-rs
  6.9M   ├── brename
  6.9M   ├── certgraph
  6.9M   ├── sf
@@ -416,13 +421,11 @@
  6.8M   ├── zfind
  6.8M   ├── exiflooter
  6.8M   ├── cfspeed
- 6.8M   ├── smartdns-rs
  6.7M   ├── spoof-dpi
  6.7M   ├── yggdrasilctl
  6.7M   ├── elvish
  6.7M   ├── pingmole
  6.7M   ├── spk
- 6.6M   ├── zdns
  6.6M   ├── xq
  6.5M   ├── stunner
  6.5M   ├── uroot
@@ -616,7 +619,7 @@
  3.9M   ├── gojq
  3.9M   ├── qemu-ppc-static
  3.8M   ├── tokei
- 3.8M   ├── realm
+ 3.7M   ├── realm
  3.7M   ├── fblog
  3.7M   ├── bottom
  3.7M   ├── zt-patterns
@@ -631,6 +634,7 @@
  3.5M   ├── pspy
  3.5M   ├── fzf
  3.5M   ├── qemu-loongarch64-static
+ 3.5M   ├── pelfd
  3.5M   ├── horust
  3.4M   ├── spiped
  3.4M   ├── age
@@ -717,7 +721,6 @@
  2.4M   ├── pueued
  2.4M   ├── dsieve
  2.4M   ├── tz
- 2.4M   ├── pelfd
  2.4M   ├── halp
  2.4M   ├── cotp
  2.4M   ├── rpaste
@@ -738,6 +741,7 @@
  2.2M   ├── hakrevdns
  2.2M   ├── shortutil
  2.2M   ├── wireguard-rs
+ 2.2M   ├── tere
  2.2M   ├── husarnet-daemon
  2.2M   ├── btop
  2.2M   ├── htmlq
@@ -748,7 +752,6 @@
  2.1M   ├── eza
  2.1M   ├── ht
  2.1M   ├── duf
- 2.1M   ├── tere
  2.1M   ├── revit
  2.1M   ├── gronx-tasker
  2.1M   ├── gosu
