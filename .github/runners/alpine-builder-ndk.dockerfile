@@ -25,6 +25,7 @@ RUN <<EOS
  ##Setup
   ndk-pkg setup
   ndk-pkg update
+  ndk-pkg upgrade-self
   ndk-pkg sysinfo
   ndk-pkg formula-repo-list
   ndk-pkg formula-repo-sync "official-core"
