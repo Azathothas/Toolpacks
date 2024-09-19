@@ -19,7 +19,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+export SKIP_BUILD="YES" #To be considered & re-evaulated later
 if [ "$SKIP_BUILD" == "NO" ]; then
     #steam :  A video game digital distribution service and storefront from Valve.
      export BIN="steam"
