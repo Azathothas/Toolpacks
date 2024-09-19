@@ -138,6 +138,8 @@ RUN <<EOS
   apk add geoip-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add gettext --latest --upgrade --no-interactive 2>/dev/null
   apk add gettext-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add ghc --latest --upgrade --no-interactive 2>/dev/null
+  apk add ghc-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add ghostscript --latest --upgrade --no-interactive 2>/dev/null
   apk add ghostscript-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add git --latest --upgrade --no-interactive 2>/dev/null
@@ -147,6 +149,8 @@ RUN <<EOS
   apk add glslang-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add glslang-static --latest --upgrade --no-interactive 2>/dev/null
   apk add go --latest --upgrade --no-interactive 2>/dev/null
+  apk add gmp --latest --upgrade --no-interactive 2>/dev/null
+  apk add gmp-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add gnupg --latest --upgrade --no-interactive 2>/dev/null
   apk add gnutls --latest --upgrade --no-interactive 2>/dev/null
   apk add gnutls-c++ --latest --upgrade --no-interactive 2>/dev/null

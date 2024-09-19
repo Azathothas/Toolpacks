@@ -25,13 +25,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="axel"
      export SOURCE_URL="https://github.com/axel-download-accelerator/axel"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      ##Build (nix) 
-      # pushd "$($TMPDIRS)" >/dev/null 2>&1
-      # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.axel" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-      # sudo strip "./result/bin/axel" ; file "./result/bin/axel" && du -sh "./result/bin/axel"
-      # cp "./result/bin/axel" "$BINDIR/axel"
-      # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
-      #Build (alpine-musl)
+      ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
@@ -44,8 +38,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
          autoreconf -i ; "./configure" --disable-shared --disable-Werror --enable-static --enable-year2038 --enable-compile-warnings="no" --with-ssl="openssl"
          make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" CPPFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
-        #strip & info
-         strip "./axel" ; "./axel" --version ; cp "./axel" "/build-bins/axel"
+        #Copy
+         #cp "./axel" "/build-bins/axel"
+         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
+        #strip & info 
+         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
+         find "/build-bins/" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         file "/build-bins/"* && du -sh "/build-bins/"*
          popd >/dev/null 2>&1
         '
       #Copy & Meta
