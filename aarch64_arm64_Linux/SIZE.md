@@ -1,21 +1,13 @@
 ```mathematica
-  11G └─┬ toolpack_aarch64
- 320M   ├── firefox.AppImage
- 254M   ├── nicotine-plus.AppImage
- 250M   ├── mpv.AppImage
- 237M   ├── ladybird.AppImage
- 179M   ├── ppsspp.AppImage
+ 9.8G └─┬ toolpack_aarch64
  152M   ├── traefik
  142M   ├── aws-nuke
  139M   ├── cloudfox
  131M   ├── usql
  111M   ├── cloudlist
- 108M   ├── kitty.AppImage
  103M   ├── trufflehog
- 101M   ├── netsurf.AppImage
   98M   ├── gitea
   92M   ├── promtail
-  90M   ├── putty.AppImage
   87M   ├── k9s
   84M   ├── istioctl
   77M   ├── hugo
@@ -25,7 +17,6 @@
   72M   ├── falconhound
   71M   ├── nuclei
   65M   ├── devpod
-  63M   ├── lorien.AppImage
   61M   ├── loki
   60M   ├── logcli
   58M   ├── wtfutil
@@ -75,7 +66,6 @@
   30M   ├── algernon
   30M   ├── sq
   29M   ├── edgevpn
-  29M   ├── helix.AppImage
   29M   ├── aix
   28M   ├── podman
   28M   ├── gowitness
@@ -136,6 +126,7 @@
   21M   ├── arduino-cli
   20M   ├── boltconn
   20M   ├── tuiarchiver
+  20M   ├── toru
   20M   ├── vhs
   20M   ├── nezha-agent
   20M   ├── meli
@@ -196,6 +187,7 @@
   14M   ├── termshark
   14M   ├── cloudcash
   14M   ├── tinja
+  14M   ├── tget
   14M   ├── bleve
   14M   ├── gost
   14M   ├── kitten
@@ -997,6 +989,7 @@
   28K   ├── apk.sh
   24K   ├── try
   24K   ├── prettyping
+  24K   ├── ani-cli
   20K   ├── serverstatus-status.sh
   20K   ├── resdns
   20K   ├── pelf
