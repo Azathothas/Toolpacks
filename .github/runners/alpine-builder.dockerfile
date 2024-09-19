@@ -711,7 +711,9 @@ RUN <<EOS
   wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/eget" -O "/usr/bin/eget"
   chmod +xwr "/usr/bin/eget"
  #Golang
+  #pushd "$(mktemp -d)" >/dev/null 2>&1 && echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer") && popd >/dev/null 2>&1
   cd "$(mktemp -d)" >/dev/null 2>&1
+  apk del go --force --no-interactive 2>/dev/null
   curl -qfsSL "https://git.io/go-installer" -o "./install.sh" && chmod +x "./install.sh"
   echo "yes" | bash "./install.sh"
   cd - >/dev/null 2>&1
