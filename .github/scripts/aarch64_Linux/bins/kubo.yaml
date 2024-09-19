@@ -1,0 +1,8 @@
+name: "kubo"
+description: "Official IPFS implementation in Go"
+web_url: "https://docs.ipfs.tech"
+repo_url: "https://github.com/ipfs/kubo"
+path: "/"
+bins:
+  - "ipfs"
+  - "ipfswatch"
