@@ -1,0 +1,8 @@
+name: "intermodal"
+description: "A CLI utility for BitTorrent torrent file creation, verification, and more"
+web_url: "https://github.com/casey/intermodal"
+repo_url: "https://github.com/casey/intermodal"
+path: "/"
+bins:
+  - "imdl"
+  - "intermodal"

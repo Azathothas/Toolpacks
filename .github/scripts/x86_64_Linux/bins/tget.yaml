@@ -1,0 +1,7 @@
+name: "tget"
+description: "wget but for torrents"
+web_url: "https://github.com/sweetbbak/tget"
+repo_url: "https://github.com/sweetbbak/tget"
+path: "/"
+bins:
+  - "tget"
