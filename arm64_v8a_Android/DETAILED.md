@@ -3,9 +3,9 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54009
+- **Stars:** 54028
 - **Version:** v0.2.67
-- **Updated:** 2024-09-16T02:36:42Z
+- **Updated:** 2024-09-19T21:36:11Z
 - **Size:** 19.31 MB
 - **SHA256SUM:** 334f3eb3ad5322410e1e5d1643462bbf22651502a2ae534fc9dfa39f29346624
 - **B3SUM:** be42c585683ca027577242180f8ca73042124045266c66282ebd4865c1e4152f
@@ -20,7 +20,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2697
+- **Stars:** 2699
 - **Version:** v1.7.1
 - **Updated:** 2024-09-17T13:38:58Z
 - **Size:** 5.38 MB
@@ -37,7 +37,7 @@
 - **Author:** c-ares
 - **WebURL:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
-- **Stars:** 1844
+- **Stars:** 1846
 - **Version:** v1.33.1
 - **Updated:** 2024-09-17T15:53:23Z
 - **Size:** 168.25 kB
@@ -88,7 +88,7 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 5028
+- **Stars:** 5039
 - **Version:** 1.5.4
 - **Updated:** 2024-09-14T14:37:47Z
 - **Size:** 1.28 MB
@@ -173,9 +173,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35411
+- **Stars:** 35426
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-19T07:02:20Z
+- **Updated:** 2024-09-20T06:50:58Z
 - **Size:** 5.3 MB
 - **SHA256SUM:** 6ed24a17773b005bed314b52f7268d2e1ef92503e2b924e5aed7c073e92cc33f
 - **B3SUM:** a9dfc81e6ba374503df4d377ac07b2cbad11a8067dfcb56507d93bac9bb50962
@@ -190,9 +190,9 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35411
+- **Stars:** 35426
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-19T07:02:20Z
+- **Updated:** 2024-09-20T06:50:58Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -207,7 +207,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4716
+- **Stars:** 4718
 - **Version:** v0.9.0
 - **Updated:** 2024-09-07T16:16:59Z
 - **Size:** 2.03 MB
@@ -241,7 +241,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4859
+- **Stars:** 4862
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 4.02 MB
@@ -258,7 +258,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2713
+- **Stars:** 2717
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -275,7 +275,7 @@
 - **Author:** agnostic-apollo
 - **WebURL:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
 - **Repository:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
-- **Stars:** 88
+- **Stars:** 89
 - **Version:** v0.2.0
 - **Updated:** 2021-04-10T21:03:10Z
 - **Size:** 250.38 kB
@@ -292,9 +292,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36111
-- **Version:** v9.1.0736
-- **Updated:** 2024-09-17T18:27:01Z
+- **Stars:** 36118
+- **Version:** v9.1.0737
+- **Updated:** 2024-09-19T17:53:13Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** a4bc536de9309201fe211ccd8cd38952c24e001c52a4f52997ad3a23467b0041
 - **B3SUM:** f63d78615c34f9e275d751d557f0d9a0cc2241f6f1c848c0abe29396039e769b
@@ -343,7 +343,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3602
+- **Stars:** 3604
 - **Version:** zsh-5.9
 - **Updated:** 2024-09-18T09:32:41Z
 - **Size:** 1.8 MB

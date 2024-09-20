@@ -15,8 +15,8 @@
   0B   │ └── DUPLICATES_OVERWRITES.txt
  87M   ├─┬ aarch64_arm64_Linux
  84M   │ ├── BUILD.log.txt
-932K   │ ├── METADATA.json
-632K   │ ├── DETAILED.md
+940K   │ ├── METADATA.json
+636K   │ ├── DETAILED.md
 460K   │ ├── README.md
 148K   │ ├── FILE.txt
 120K   │ ├── BUILD_DATES.txt
