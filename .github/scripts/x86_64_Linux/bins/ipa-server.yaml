@@ -1,0 +1,8 @@
+name: "ipa-server"
+description: "Upload and install Apple ipa and Android apk in web."
+web_url: "https://github.com/iineva/ipa-server"
+repo_url: "https://github.com/iineva/ipa-server"
+path: "/"
+bins:
+  - "ipasd"
+  - "ipa-server"

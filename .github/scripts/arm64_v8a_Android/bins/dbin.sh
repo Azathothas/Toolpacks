@@ -37,7 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder-ndk:latest" \
-        bash -c '
+        bash -l -c '
         #Setup Base ENV
          pushd "$(mktemp -d)" >/dev/null 2>&1 && mkdir -p "/build-bins"
          source "$HOME/.cargo/env" ; source "$HOME/.bashrc"

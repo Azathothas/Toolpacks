@@ -309,20 +309,20 @@ set +x
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
       rclone copyto "$BINDIR.7z" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_aarch64_arm64_BLAKE3SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";b3sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_aarch64_arm64_BLAKE3SUM"
       rclone copyto "$SYSTMP/_toolpack_aarch64_arm64_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_aarch64_arm64_SHA256SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";sha256sum ./toolpack_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_aarch64_arm64_SHA256SUM"
       rclone copyto "$SYSTMP/_toolpack_aarch64_arm64_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/_toolpack_aarch64_arm64_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
  #rClone Upload Toolpacks to R2 (bin.ajam.dev/aarch64_Linux/_baseutils_aarch64_arm64.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
       rclone copyto "$BASEUTILSDIR.7z" "r2:/bin/aarch64_arm64_Linux/Baseutils/_baseutils_aarch64_arm64.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./baseutils_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_aarch64_arm64_BLAKE3SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";b3sum ./baseutils_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_aarch64_arm64_BLAKE3SUM"
       rclone copyto "$SYSTMP/_baseutils_aarch64_arm64_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/Baseutils/_baseutils_aarch64_arm64_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./baseutils_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_aarch64_arm64_SHA256SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";sha256sum ./baseutils_aarch64.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_aarch64_arm64_SHA256SUM"
       rclone copyto "$SYSTMP/_baseutils_aarch64_arm64_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/Baseutils/_baseutils_aarch64_arm64_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
  fi
 #-------------------------------------------------------#

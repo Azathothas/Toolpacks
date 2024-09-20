@@ -25,6 +25,37 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="simplex-chat"
      export SOURCE_URL="https://github.com/simplex-chat/simplex-chat"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
+       docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
+        bash -l -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+         sudo apt-get update -y -qq
+         sudo apt-get install -y -qq libpcre3 libgmp3-dev xdg-utils zlib1g-dev
+         sudo apt-get update -y -qq
+        #Fetch
+         eget "https://github.com/simplex-chat/simplex-chat" --asset "chat" --asset "ubuntu-22_04" --asset "x86_64" --asset "^desktop" --asset "^deb" --to "./simplex-chat"
+         #sudo mkdir -p "/usr/share/desktop-directories"
+         #sudo dpkg --install "./simplex-chat.deb"
+         staticx --loglevel DEBUG "./simplex-chat" --strip "/build-bins/simplex-chat"
+        #strip & info 
+         objcopy --remove-section=".comment" --remove-section=".note.*" "/build-bins/simplex-chat"
+         strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "/build-bins/simplex-chat"
+         file "/build-bins/simplex-chat" && du -sh "/build-bins/simplex-chat"
+         popd >/dev/null 2>&1
+        '
+      #Copy & Meta
+       docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
+      #Delete Containers
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
+       popd >/dev/null 2>&1
+
       ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null

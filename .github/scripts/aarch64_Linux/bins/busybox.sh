@@ -40,8 +40,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       ##Build (MUSL) 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
-       docker run --privileged --net="host" --name "alpine-builder" "azathothas/alpine-builder:latest" \
-        bash -c '
+       docker run --privileged --net="host" --name "alpine-builder" --pull="always" "azathothas/alpine-builder:latest" \
+        bash -l -c '
         #Get SRC
          mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
          git clone --filter "blob:none" --quiet "https://git.busybox.net/busybox" && cd "./busybox"

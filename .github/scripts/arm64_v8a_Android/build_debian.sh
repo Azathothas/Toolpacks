@@ -310,20 +310,20 @@ set +x
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
       rclone copyto "$BINDIR.7z" "r2:/bin/arm64_v8a_Android/_toolpack_arm64_v8a.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./toolpack_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64_v8a_BLAKE3SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";b3sum ./toolpack_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64_v8a_BLAKE3SUM"
       rclone copyto "$SYSTMP/_toolpack_arm64_v8a_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/_toolpack_arm64_v8a_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./toolpack_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64_v8a_SHA256SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";sha256sum ./toolpack_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_toolpack_arm64_v8a_SHA256SUM"
       rclone copyto "$SYSTMP/_toolpack_arm64_v8a_SHA256SUM" "r2:/bin/arm64_v8a_Android/_toolpack_arm64_v8a_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
  #rClone Upload Toolpacks to R2 (bin.ajam.dev/arm64_v8a_Android/_baseutils_arm64_v8a.7z) [Archive]
      #Upload
       echo -e "\n[+] Uploading Results to R2 (rclone)\n"
       rclone copyto "$BASEUTILSDIR.7z" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_arm64_v8a.7z" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #BLAKE3SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";b3sum ./baseutils_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_arm64_v8a_BLAKE3SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";b3sum ./baseutils_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_arm64_v8a_BLAKE3SUM"
       rclone copyto "$SYSTMP/_baseutils_arm64_v8a_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_arm64_v8a_BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
      #SHA256SUM
-      cd "$SYSTMP/" && /bin/bash -c 'PS4="$ ";sha256sum ./baseutils_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_arm64_v8a_SHA256SUM"
+      cd "$SYSTMP/" && /bin/bash -l -c 'PS4="$ ";sha256sum ./baseutils_arm64_v8a.7z | grep -v '.txt' ' &> "$SYSTMP/_baseutils_arm64_v8a_SHA256SUM"
       rclone copyto "$SYSTMP/_baseutils_arm64_v8a_SHA256SUM" "r2:/bin/arm64_v8a_Android/Baseutils/_baseutils_arm64_v8a_SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress      
  fi
 #-------------------------------------------------------#

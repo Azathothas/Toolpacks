@@ -29,7 +29,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
        docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
-        bash -c '
+        bash -l -c '
         #Setup ENV
          mkdir -p "/build-bins" && TMP_BUILD="$(mktemp -d)" && export TMP_BUILD="${TMP_BUILD}"
          sudo apt-get update -y -qq

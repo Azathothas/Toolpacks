@@ -30,7 +30,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder-vlang" 2>/dev/null ; docker rm "alpine-builder-vlang" 2>/dev/null
        docker run --privileged --net="host" --user "root" --name "alpine-builder-vlang" "vlang_alpine:latest" \
-        bash -c '
+        bash -l -c '
         #Setup ENV
          mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
          apk update && apk upgrade --no-interactive 2>/dev/null
