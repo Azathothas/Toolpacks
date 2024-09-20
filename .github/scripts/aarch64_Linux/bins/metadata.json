@@ -870,6 +870,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/docker.sh"
   },
   {
+    "name": "dockerc.sh",
+    "update_date": "2024-09-20T18:38:57",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dockerc.sh"
+  },
+  {
     "name": "doggo.sh",
     "update_date": "2024-07-13T14:03:50",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/doggo.sh"
@@ -2216,7 +2221,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-20T07:09:20",
+    "update_date": "2024-09-20T14:10:54",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {

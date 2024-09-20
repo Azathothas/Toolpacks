@@ -429,6 +429,8 @@ invidtui:                        ELF 64-bit LSB executable, x86-64, version 1 (S
 iostat:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 iotop:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 iotop-c:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+ipa-server:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+ipasd:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 iperf:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 iperf3:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ipinfo:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped

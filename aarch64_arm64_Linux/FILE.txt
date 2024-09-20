@@ -417,6 +417,8 @@ invidtui:                        ELF 64-bit LSB executable, ARM aarch64, version
 iostat:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 iotop:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 iotop-c:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+ipa-server:                      ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
+ipasd:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 iperf:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 iperf3:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ipinfo:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
