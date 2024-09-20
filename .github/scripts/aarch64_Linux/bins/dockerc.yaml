@@ -1,0 +1,7 @@
+name: "dockerc"
+description: "Container Image to Single Executable Compiler"
+web_url: "https://github.com/NilsIrl/dockerc"
+repo_url: "https://github.com/NilsIrl/dockerc"
+path: "/"
+bins:
+  - "dockerc"
