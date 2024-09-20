@@ -50,6 +50,19 @@ REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
 Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
 
 ---------------------
+Name: ipa-server
+DESCR: Upload and install Apple ipa and Android apk in web.
+Download URL: https://bin.ajam.dev/x86_64_Linux/ipa-server
+REPO: https://github.com/iineva/ipa-server
+Web URL: https://github.com/iineva/ipa-server
+
+Name: ipasd
+DESCR: Upload and install Apple ipa and Android apk in web.
+Download URL: https://bin.ajam.dev/x86_64_Linux/ipasd
+REPO: https://github.com/iineva/ipa-server
+Web URL: https://github.com/iineva/ipa-server
+
+---------------------
 Name: serverstatus-server
 DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
 Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
