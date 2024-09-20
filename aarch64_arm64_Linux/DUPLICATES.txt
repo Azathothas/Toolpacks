@@ -18,18 +18,6 @@ REPO: https://github.com/containerd/containerd
 Web URL: https://github.com/containerd/containerd
 
 Name: containerd
-DESCR: An open and reliable container runtime
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/containerd
-REPO: https://github.com/containerd/containerd
-Web URL: https://github.com/containerd/containerd
-
-Name: containerd
-DESCR: Container
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/containerd
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
-Name: containerd
 DESCR: Container
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/containerd
 REPO: https://github.com/docker/cli
@@ -145,18 +133,6 @@ DESCR: Container
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/runc
 REPO: https://github.com/docker/cli
 Web URL: https://github.com/docker/cli
-
-Name: runc
-DESCR: Container
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/runc
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
-Name: runc
-DESCR: CLI tool for spawning and running containers according to the OCI specification
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/runc
-REPO: https://github.com/opencontainers/runc
-Web URL: https://github.com/opencontainers/runc
 
 Name: runc
 DESCR: CLI tool for spawning and running containers according to the OCI specification
@@ -332,18 +308,6 @@ DESCR: Container
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rootlesskit
 REPO: https://github.com/docker/cli
 Web URL: https://github.com/docker/cli
-
-Name: rootlesskit
-DESCR: Container
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rootlesskit
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
-Name: rootlesskit
-DESCR: Linux-native fake root for implementing rootless containers
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/rootlesskit
-REPO: https://github.com/rootless-containers/rootlesskit
-Web URL: https://github.com/rootless-containers/rootlesskit
 
 Name: rootlesskit
 DESCR: Linux-native fake root for implementing rootless containers
