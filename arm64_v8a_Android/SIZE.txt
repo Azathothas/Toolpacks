@@ -1,8 +1,13 @@
- 75M └─┬ toolpack_arm64_v8a_Android
+225M └─┬ toolpack_arm64_v8a_Android
+ 81M   ├── rclone
+ 25M   ├── tailscale_combined
+ 23M   ├── tailscaled
  18M   ├── act
+ 11M   ├── tailscale
+7.0M   ├── dbin
 6.6M   ├── pingmole
 5.7M   ├── wget_static
-5.5M   ├── wget
+5.6M   ├── wget
 5.1M   ├── actionlint
 5.1M   ├── curl
 5.0M   ├── rsync
@@ -20,5 +25,5 @@
 248K   ├── sudo
 224K   ├── wget_cacert.pem
 224K   ├── curl_cacert.pem
-168K   ├── adig
-160K   └── ahost
+184K   ├── adig
+176K   └── ahost

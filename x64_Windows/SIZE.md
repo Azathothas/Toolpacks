@@ -2,8 +2,8 @@
  1.7G └─┬ toolpack_x86_64
  149M   ├── pandoc.exe
  140M   ├── ffmpeg.exe
- 139M   ├── ffprobe.exe
- 139M   ├── ffplay.exe
+ 140M   ├── ffprobe.exe
+ 140M   ├── ffplay.exe
   76M   ├── alist.exe
   54M   ├── miniooni.exe
   54M   ├── miniooni-windows-amd64.exe
@@ -92,13 +92,13 @@
  1.5M   ├── ls.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
- 1.4M   ├── fastfetch.exe
+ 1.5M   ├── fastfetch.exe
  1.4M   ├── expr.exe
  1.3M   ├── pdftotext.exe
- 1.3M   ├── tail.exe
  1.3M   ├── flashfetch.exe
- 1.3M   ├── cp.exe
+ 1.3M   ├── tail.exe
  1.3M   ├── sshd.exe
+ 1.3M   ├── cp.exe
  1.3M   ├── pdfimages.exe
  1.3M   ├── hyperfine.exe
  1.3M   ├── 7z.exe
@@ -174,7 +174,7 @@
  808K   ├── anew-rs.exe
  768K   ├── true.exe
  764K   ├── false.exe
- 656K   ├── busybox-unicode.exe
+ 660K   ├── busybox-unicode.exe
  652K   ├── ssh-keyscan.exe
  652K   ├── busybox.exe
  644K   ├── ssh-sk-helper.exe
