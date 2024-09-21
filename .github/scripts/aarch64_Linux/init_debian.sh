@@ -249,6 +249,9 @@
              sudo ldconfig && sudo ldconfig -p
           fi
          #----------------------# 
+         #Dockerc
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/local/bin/dockerc" && sudo chmod +x "/usr/local/bin/dockerc"
+         #----------------------# 
          ##Install golang 
           pushd "$($TMPDIRS)" >/dev/null 2>&1
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")

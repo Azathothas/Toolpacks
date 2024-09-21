@@ -39,6 +39,8 @@ EOS
 RUN <<EOS
  #dasel for toml
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dasel" -o "/usr/bin/dasel" && chmod +x "/usr/bin/dasel"
+ #dockerc
+  curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/bin/dockerc" && chmod +x "/usr/bin/dockerc"
  #Eget for simplified releases
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/eget" -o "/usr/bin/eget" && chmod +x "/usr/bin/eget"
  #Golang

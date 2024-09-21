@@ -711,6 +711,9 @@ EOS
 ##Addons
 RUN <<EOS
   set +e
+ #Dockerc
+  wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/bin/dockerc"
+  sudo chmod +x "/usr/bin/dockerc"
  #Eget for simplified releases
   wget --quiet --show-progress "https://bin.ajam.dev/$(uname -m)/eget" -O "/usr/bin/eget"
   chmod +xwr "/usr/bin/eget"
