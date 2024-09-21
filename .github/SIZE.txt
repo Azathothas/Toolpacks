@@ -1,7 +1,7 @@
-190M └─┬ main
+191M └─┬ main
  89M   ├─┬ x86_64_Linux
  86M   │ ├── BUILD.log.txt
-972K   │ ├── METADATA.json
+1.1M   │ ├── METADATA.json
 656K   │ ├── DETAILED.md
 476K   │ ├── README.md
 156K   │ ├── FILE.txt
@@ -15,7 +15,7 @@
   0B   │ └── DUPLICATES_OVERWRITES.txt
  87M   ├─┬ aarch64_arm64_Linux
  84M   │ ├── BUILD.log.txt
-932K   │ ├── METADATA.json
+972K   │ ├── METADATA.json
 632K   │ ├── DETAILED.md
 460K   │ ├── README.md
 152K   │ ├── FILE.txt
@@ -27,10 +27,10 @@
  28K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt
   0B   │ └── DUPLICATES_OVERWRITES.txt
-7.1M   ├── METADATA.json
-6.5M   ├── METADATA.yaml
-464K   ├─┬ x64_Windows
-200K   │ ├── METADATA.json
+7.3M   ├── METADATA.json
+6.7M   ├── METADATA.yaml
+468K   ├─┬ x64_Windows
+204K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
  20K   │ ├── FILE.txt
