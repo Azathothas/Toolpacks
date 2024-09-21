@@ -14,12 +14,12 @@
     "repo_updated": "2024-09-19T21:36:11Z",
     "repo_released": "2024-09-10T18:21:52Z",
     "repo_version": "v0.2.67",
-    "repo_stars": "54053",
+    "repo_stars": "54054",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "ci, devops, github-actions, golang",
     "web_url": "https://github.com/nektos/act",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/act.sh",
     "extra_bins": ""
   },
   {
@@ -42,7 +42,7 @@
     "repo_license": "MIT License",
     "repo_topics": "actions, ci, github-actions, lint, linter",
     "web_url": "https://github.com/rhysd/actionlint",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/actionlint.sh",
     "extra_bins": ""
   },
   {
@@ -65,7 +65,7 @@
     "repo_license": "MIT License",
     "repo_topics": "async, c, dns, dns-queries, library, resolver",
     "web_url": "https://github.com/c-ares/c-ares",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/adig.sh",
     "extra_bins": ""
   },
   {
@@ -88,7 +88,7 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/zer0yu/anew",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh",
     "extra_bins": ""
   },
   {
@@ -111,7 +111,7 @@
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://github.com/axel/axel",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/axel.sh",
     "extra_bins": ""
   },
   {
@@ -134,7 +134,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "",
     "web_url": "https://github.com/BLAKE3-team/BLAKE3",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/b3sum.sh",
     "extra_bins": ""
   },
   {
@@ -148,7 +148,7 @@
     "build_date": "2024-09-20T19:04:34",
     "repo_url": "",
     "web_url": "https://www.bash.ws/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/bash.sh",
     "extra_bins": ""
   },
   {
@@ -162,7 +162,7 @@
     "build_date": "2024-09-20T19:05:50",
     "repo_url": "",
     "web_url": "https://www.busybox.net/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh",
     "extra_bins": "[,[[,acpid,add_shell,addgroup,adduser,adjtimex,arch,arp,arping,ascii,ash,awk,base32,base64,basename,bb_arch,bb_sysctl,bc,beep,blkdiscard,blkid,blockdev,bootchartd,brctl,bunzip2,bzcat,bzip2,cal,cat,chat,chattr,chgrp,chmod,chown,chpasswd,chpst,chroot,chrt,chvt,cksum,clear,cmp,comm,conspy,cp,cpio,crc32,crond,crontab,cryptpw,cttyhack,cut,date,dc,dd,deallocvt,delgroup,deluser,depmod,devmem,df,dhcprelay,diff,dirname,dmesg,dnsd,dnsdomainname,dos2unix,dpkg,dpkg_deb,du,dumpkmap,dumpleases,echo,ed,egrep,eject,env,envdir,envuidgid,ether_wake,expand,expr,factor,fakeidentd,fallocate,false,fatattr,fbset,fbsplash,fdflush,fdformat,fdisk,fgconsole,fgrep,find,findfs,flock,fold,free,freeramdisk,fsck,fsck_minix,fsfreeze,fstrim,fsync,ftpd,ftpget,ftpput,fuser,getfattr,getopt,getty,grep,groups,gunzip,gzip,halt,hd,hdparm,head,hexdump,hexedit,hostid,hostname,httpd,hush,hwclock,i2cdetect,i2cdump,i2cget,i2cset,i2ctransfer,id,ifconfig,ifdown,ifenslave,ifplugd,ifup,inetd,init,insmod,install,ionice,iostat,ip,ipaddr,ipcalc,ipcrm,ipcs,iplink,ipneigh,iproute,iprule,iptunnel,kbd_mode,kill,killall,killall5,klogd,last,less,link,linux32,linux64,linuxrc,ln,loadfont,loadkmap,logger,login,logname,logread,losetup,lpd,lpq,lpr,ls,lsattr,lsmod,lsof,lspci,lsscsi,lsusb,lzcat,lzma,lzop,makedevs,makemime,man,md5sum,mdev,mesg,microcom,mim,mkdir,mkdosfs,mke2fs,mkfifo,mkfs_ext2,mkfs_minix,mkfs_vfat,mknod,mkpasswd,mkswap,mktemp,modinfo,modprobe,more,mount,mountpoint,mpstat,mt,mv,nameif,nanddump,nandwrite,nbdclient,nc,netstat,nice,nl,nmeter,nohup,nologin,nproc,nsenter,nslookup,ntpd,od,openvt,partprobe,passwd,paste,patch,pgrep,pidof,ping,ping6,pipe_progress,pivot_root,pkill,pmap,popmaildir,poweroff,powertop,printenv,printf,ps,pscan,pstree,pwd,pwdx,raidautorun,rdate,rdev,readahead,readlink,readprofile,realpath,reboot,reformime,remove_shell,renice,reset,resize,resume,rev,rm,rmdir,rmmod,route,rpm,rpm2cpio,rtcwake,run_init,run_parts,runlevel,runsv,runsvdir,rx,script,scriptreplay,sed,seedrng,sendmail,seq,setarch,setconsole,setfattr,setfont,setkeycodes,setlogcons,setpriv,setserial,setsid,setuidgid,sh,sh_is_ash,sha1sum,sha256sum,sha3sum,sha512sum,showkey,shred,shuf,slattach,sleep,smemcap,softlimit,sort,split,ssl_client,start_stop_daemon,stat,strings,stty,su,sulogin,sum,sv,svc,svlogd,svok,swapoff,swapon,switch_root,sync,sysctl,syslogd,tac,tail,tar,taskset,tc,tcpsvd,tee,telnet,telnetd,test,test1,test2,tftp,tftpd,time,timeout,top,touch,tr,traceroute,traceroute6,tree,true,truncate,ts,tsort,tty,ttysize,tunctl,ubiattach,ubidetach,ubimkvol,ubirename,ubirmvol,ubirsvol,ubiupdatevol,udhcpc,udhcpc6,udhcpd,udpsvd,uevent,umount,uname,unexpand,uniq,unix2dos,unlink,unlzma,unshare,unxz,unzip,uptime,users,usleep,uudecode,uuencode,vconfig,vi,vlock,volname,w,wall,watch,watchdog,wc,wget,which,who,whoami,whois,xargs,xxd,xz,xzcat,yes,zcat,zcip"
   },
   {
@@ -176,7 +176,7 @@
     "build_date": "2024-09-20T19:40:36",
     "repo_url": "",
     "web_url": "https://www.busybox.net/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh",
     "extra_bins": "[,[[,acpid,add_shell,addgroup,adduser,adjtimex,arch,arp,arping,ascii,ash,awk,base32,base64,basename,bb_arch,bb_sysctl,bc,beep,blkdiscard,blkid,blockdev,bootchartd,brctl,bunzip2,busybox,bzcat,bzip2,cal,cat,chat,chattr,chgrp,chmod,chown,chpasswd,chpst,chroot,chrt,chvt,cksum,clear,cmp,comm,conspy,cp,cpio,crc32,crond,crontab,cryptpw,cttyhack,cut,date,dc,dd,deallocvt,delgroup,deluser,depmod,devmem,df,dhcprelay,diff,dirname,dmesg,dnsd,dnsdomainname,dos2unix,dpkg,dpkg_deb,du,dumpkmap,dumpleases,echo,ed,egrep,eject,env,envdir,envuidgid,ether_wake,expand,expr,factor,fakeidentd,fallocate,false,fatattr,fbset,fbsplash,fdflush,fdformat,fdisk,fgconsole,fgrep,find,findfs,flock,fold,free,freeramdisk,fsck,fsck_minix,fsfreeze,fstrim,fsync,ftpd,ftpget,ftpput,fuser,getfattr,getopt,getty,grep,groups,gunzip,gzip,halt,hd,hdparm,head,hexdump,hexedit,hostid,hostname,httpd,hush,hwclock,i2cdetect,i2cdump,i2cget,i2cset,i2ctransfer,id,ifconfig,ifdown,ifenslave,ifplugd,ifup,inetd,init,insmod,install,ionice,iostat,ip,ipaddr,ipcalc,ipcrm,ipcs,iplink,ipneigh,iproute,iprule,iptunnel,kbd_mode,kill,killall,killall5,klogd,last,less,link,linux32,linux64,linuxrc,ln,loadfont,loadkmap,logger,login,logname,logread,losetup,lpd,lpq,lpr,ls,lsattr,lsmod,lsof,lspci,lsscsi,lsusb,lzcat,lzma,lzop,makedevs,makemime,man,md5sum,mdev,mesg,microcom,mim,mkdir,mkdosfs,mke2fs,mkfifo,mkfs_ext2,mkfs_minix,mkfs_vfat,mknod,mkpasswd,mkswap,mktemp,modinfo,modprobe,more,mount,mountpoint,mpstat,mt,mv,nameif,nanddump,nandwrite,nbdclient,nc,netstat,nice,nl,nmeter,nohup,nologin,nproc,nsenter,nslookup,ntpd,od,openvt,partprobe,passwd,paste,patch,pgrep,pidof,ping,ping6,pipe_progress,pivot_root,pkill,pmap,popmaildir,poweroff,powertop,printenv,printf,ps,pscan,pstree,pwd,pwdx,raidautorun,rdate,rdev,readahead,readlink,readprofile,realpath,reboot,reformime,remove_shell,renice,reset,resize,resume,rev,rm,rmdir,rmmod,route,rpm,rpm2cpio,rtcwake,run_init,run_parts,runlevel,runsv,runsvdir,rx,script,scriptreplay,sed,seedrng,sendmail,seq,setarch,setconsole,setfattr,setfont,setkeycodes,setlogcons,setpriv,setserial,setsid,setuidgid,sh,sh_is_ash,sha1sum,sha256sum,sha3sum,sha512sum,showkey,shred,shuf,slattach,sleep,smemcap,softlimit,sort,split,ssl_client,start_stop_daemon,stat,strings,stty,su,sulogin,sum,sv,svc,svlogd,svok,swapoff,swapon,switch_root,sync,sysctl,syslogd,tac,tail,tar,taskset,tc,tcpsvd,tee,telnet,telnetd,test,test1,test2,tftp,tftpd,time,timeout,top,touch,tr,traceroute,traceroute6,tree,true,truncate,ts,tsort,tty,ttysize,tunctl,ubiattach,ubidetach,ubimkvol,ubirename,ubirmvol,ubirsvol,ubiupdatevol,udhcpc,udhcpc6,udhcpd,udpsvd,uevent,umount,uname,unexpand,uniq,unix2dos,unlink,unlzma,unshare,unxz,unzip,uptime,users,usleep,uudecode,uuencode,vconfig,vi,vlock,volname,w,wall,watch,watchdog,wc,which,who,whoami,whois,xargs,xxd,xz,xzcat,yes,zcat,zcip"
   },
   {
@@ -190,7 +190,7 @@
     "build_date": "2024-09-05T13:24:53",
     "repo_url": "",
     "web_url": "https://www.busybox.net/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh",
     "extra_bins": "[,[[,acpid,add_shell,addgroup,adduser,adjtimex,arch,arp,arping,ascii,ash,awk,base32,base64,basename,bb_arch,bb_sysctl,bc,beep,blkdiscard,blkid,blockdev,bootchartd,brctl,bunzip2,busybox,bzcat,bzip2,cal,cat,chat,chattr,chgrp,chmod,chown,chpasswd,chpst,chroot,chrt,chvt,cksum,clear,cmp,comm,conspy,cp,cpio,crc32,crond,crontab,cryptpw,cttyhack,cut,date,dc,dd,deallocvt,delgroup,deluser,depmod,devmem,df,dhcprelay,diff,dirname,dmesg,dnsd,dnsdomainname,dos2unix,dpkg,dpkg_deb,du,dumpkmap,dumpleases,echo,ed,egrep,eject,env,envdir,envuidgid,ether_wake,expand,expr,factor,fakeidentd,fallocate,false,fatattr,fbset,fbsplash,fdflush,fdformat,fdisk,fgconsole,fgrep,find,findfs,flock,fold,free,freeramdisk,fsck,fsck_minix,fsfreeze,fstrim,fsync,ftpd,ftpget,ftpput,fuser,getfattr,getopt,getty,grep,groups,gunzip,gzip,halt,hd,hdparm,head,hexdump,hexedit,hostid,hostname,httpd,hush,hwclock,i2cdetect,i2cdump,i2cget,i2cset,i2ctransfer,id,ifconfig,ifdown,ifenslave,ifplugd,ifup,inetd,init,insmod,install,ionice,iostat,ip,ipaddr,ipcalc,ipcrm,ipcs,iplink,ipneigh,iproute,iprule,iptunnel,kbd_mode,kill,killall,killall5,klogd,last,less,link,linux32,linux64,linuxrc,ln,loadfont,loadkmap,logger,login,logname,logread,losetup,lpd,lpq,lpr,ls,lsattr,lsmod,lsof,lspci,lsscsi,lsusb,lzcat,lzma,lzop,makedevs,makemime,man,md5sum,mdev,mesg,microcom,mim,mkdir,mkdosfs,mke2fs,mkfifo,mkfs_ext2,mkfs_minix,mkfs_vfat,mknod,mkpasswd,mkswap,mktemp,modinfo,modprobe,more,mount,mountpoint,mpstat,mt,mv,nameif,nanddump,nandwrite,nbdclient,nc,netstat,nice,nl,nmeter,nohup,nologin,nproc,nsenter,nslookup,ntpd,od,openvt,partprobe,passwd,paste,patch,pgrep,pidof,ping,ping6,pipe_progress,pivot_root,pkill,pmap,popmaildir,poweroff,powertop,printenv,printf,ps,pscan,pstree,pwd,pwdx,raidautorun,rdate,rdev,readahead,readlink,readprofile,realpath,reboot,reformime,remove_shell,renice,reset,resize,resume,rev,rm,rmdir,rmmod,route,rpm,rpm2cpio,rtcwake,run_init,run_parts,runlevel,runsv,runsvdir,rx,script,scriptreplay,sed,seedrng,sendmail,seq,setarch,setconsole,setfattr,setfont,setkeycodes,setlogcons,setpriv,setserial,setsid,setuidgid,sh,sh_is_ash,sha1sum,sha256sum,sha3sum,sha512sum,showkey,shred,shuf,slattach,sleep,smemcap,softlimit,sort,split,ssl_client,start_stop_daemon,stat,strings,stty,su,sulogin,sum,sv,svc,svlogd,svok,swapoff,swapon,switch_root,sync,sysctl,syslogd,tac,tail,tar,taskset,tc,tcpsvd,tee,telnet,telnetd,test,test1,test2,tftp,tftpd,time,timeout,top,touch,tr,traceroute,traceroute6,tree,true,truncate,ts,tsort,tty,ttysize,tunctl,ubiattach,ubidetach,ubimkvol,ubirename,ubirmvol,ubirsvol,ubiupdatevol,udhcpc,udhcpc6,udhcpd,udpsvd,uevent,umount,uname,unexpand,uniq,unix2dos,unlink,unlzma,unshare,unxz,unzip,uptime,users,usleep,uudecode,uuencode,vconfig,vi,vlock,volname,w,wall,watch,watchdog,wc,wget,which,who,whoami,whois,xargs,xz,xzcat,yes,zcat,zcip"
   },
   {
@@ -205,7 +205,7 @@
     "repo_url": "https://github.com/curl/curl",
     "repo_author": "curl",
     "repo_info": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
-    "repo_updated": "2024-09-21T10:21:27Z",
+    "repo_updated": "2024-09-21T15:57:52Z",
     "repo_released": "2024-09-18T06:08:13Z",
     "repo_version": "curl-8_10_1",
     "repo_stars": "35437",
@@ -213,7 +213,7 @@
     "repo_license": "Other",
     "repo_topics": "c, client, curl, ftp, gopher, hacktoberfest, http, https, imaps, ldap, libcurl, library, mqtt, pop3, scp, sftp, transfer-data, transferring-data, user-agent, websocket",
     "web_url": "https://github.com/curl/curl",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh",
     "extra_bins": "curl_cacert.pem"
   },
   {
@@ -228,7 +228,7 @@
     "repo_url": "https://github.com/curl/curl",
     "repo_author": "curl",
     "repo_info": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
-    "repo_updated": "2024-09-21T10:21:27Z",
+    "repo_updated": "2024-09-21T15:57:52Z",
     "repo_released": "2024-09-18T06:08:13Z",
     "repo_version": "curl-8_10_1",
     "repo_stars": "35437",
@@ -236,7 +236,7 @@
     "repo_license": "Other",
     "repo_topics": "c, client, curl, ftp, gopher, hacktoberfest, http, https, imaps, ldap, libcurl, library, mqtt, pop3, scp, sftp, transfer-data, transferring-data, user-agent, websocket",
     "web_url": "https://github.com/curl/curl",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh",
     "extra_bins": "curl"
   },
   {
@@ -259,7 +259,7 @@
     "repo_license": "Other",
     "repo_topics": "binary-manager, cli, cool, dependency-checker, fast, go, no-config, no-install, package-management, package-manager, package-manager-tool, portable, portable-package-manager, runner, standalone, static, suckless",
     "web_url": "https://github.com/xplshn/dbin",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/dbin.sh",
     "extra_bins": ""
   },
   {
@@ -282,7 +282,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, json, rust",
     "web_url": "https://github.com/PaulJuliusMartinez/jless",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/jless.sh",
     "extra_bins": ""
   },
   {
@@ -305,7 +305,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, mullvad, rust",
     "web_url": "https://github.com/norskeld/pingmole",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pingmole.sh",
     "extra_bins": ""
   },
   {
@@ -328,7 +328,7 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "ctf, enumeration, golang, pentesting, privesc, security",
     "web_url": "https://github.com/DominicBreuker/pspy",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pspy.sh",
     "extra_bins": ""
   },
   {
@@ -351,7 +351,7 @@
     "repo_license": "MIT License",
     "repo_topics": "azure-blob, azure-blob-storage, azure-files, backblaze-b2, cloud-storage, dropbox, encryption, ftp, fuse-filesystem, go, golang, google-cloud-storage, google-drive, onedrive, openstack-swift, rclone, s3, sftp, sync, webdav",
     "web_url": "https://github.com/rclone/rclone",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rclone.sh",
     "extra_bins": ""
   },
   {
@@ -374,7 +374,7 @@
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/WayneD/rsync",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rsync.sh",
     "extra_bins": "rsync-ssl"
   },
   {
@@ -397,7 +397,7 @@
     "repo_license": "MIT License",
     "repo_topics": "bash, tasker, termux, termux-tasker",
     "web_url": "https://github.com/agnostic-apollo/sudo",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/sudo.sh",
     "extra_bins": ""
   },
   {
@@ -420,7 +420,7 @@
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh",
     "extra_bins": "tailscale_combined,tailscaled"
   },
   {
@@ -443,7 +443,7 @@
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh",
     "extra_bins": "tailscale,tailscaled"
   },
   {
@@ -466,7 +466,7 @@
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh",
     "extra_bins": "tailscale,tailscale_combined"
   },
   {
@@ -484,12 +484,12 @@
     "repo_updated": "2024-09-21T09:40:57Z",
     "repo_released": "",
     "repo_version": "v9.1.0739",
-    "repo_stars": "36124",
+    "repo_stars": "36125",
     "repo_language": "Vim Script",
     "repo_license": "Vim License",
     "repo_topics": "c, cross-platform, text-editor, vim",
     "web_url": "https://github.com/vim/vim",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/vim.sh",
     "extra_bins": ""
   },
   {
@@ -503,7 +503,7 @@
     "build_date": "2024-09-20T19:40:36",
     "repo_url": "",
     "web_url": "https://www.gnu.org/software/wget/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/wget.sh",
     "extra_bins": "wget_cacert.pem"
   },
   {
@@ -517,7 +517,7 @@
     "build_date": "2024-09-05T13:28:34",
     "repo_url": "",
     "web_url": "https://www.gnu.org/software/wget/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/wget.sh",
     "extra_bins": "wget"
   },
   {
@@ -535,12 +535,12 @@
     "repo_updated": "2024-09-18T09:32:41Z",
     "repo_released": "",
     "repo_version": "zsh-5.9",
-    "repo_stars": "3603",
+    "repo_stars": "3604",
     "repo_language": "C",
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/zsh-users/zsh",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/zsh.sh",
     "extra_bins": ""
   }
 ]

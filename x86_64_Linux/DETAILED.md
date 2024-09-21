@@ -1,9 +1,11 @@
 ### 7z
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/7z.sh
 - **Description:** Unarchiver
+- **Note:** 
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 661
+- **Stars:** 660
 - **Version:** 24.08
 - **Updated:** 2024-08-12T11:51:02Z
 - **Size:** 3.74 MB
@@ -16,11 +18,13 @@
 ---
 
 ### act
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/act.sh
 - **Description:** Run your GitHub Actions locally 🚀
+- **Note:** 
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54053
+- **Stars:** 54054
 - **Version:** v0.2.67
 - **Updated:** 2024-09-19T21:36:11Z
 - **Size:** 18.14 MB
@@ -33,7 +37,9 @@
 ---
 
 ### actionlint
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/actionlint.sh
 - **Description:** octocat  Static checker for GitHub Actions workflow files
+- **Note:** 
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
@@ -50,11 +56,13 @@
 ---
 
 ### age
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/age.sh
 - **Description:** A simple, modern and secure encryption tool
+- **Note:** 
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 16925
+- **Stars:** 16926
 - **Version:** v1.2.0
 - **Updated:** 2024-08-21T10:37:07Z
 - **Size:** 3.72 MB
@@ -67,11 +75,13 @@
 ---
 
 ### age-keygen
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/age.sh
 - **Description:** A simple, modern and secure encryption tool
+- **Note:** 
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 16925
+- **Stars:** 16926
 - **Version:** v1.2.0
 - **Updated:** 2024-08-21T10:37:07Z
 - **Size:** 2.03 MB
@@ -84,7 +94,9 @@
 ---
 
 ### agg
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/agg.sh
 - **Description:** asciinema gif generator
+- **Note:** 
 - **Author:** asciinema
 - **WebURL:** [https://github.com/asciinema/agg](https://github.com/asciinema/agg)
 - **Repository:** [https://github.com/asciinema/agg](https://github.com/asciinema/agg)
@@ -101,7 +113,9 @@
 ---
 
 ### agg-speed
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aggligator.sh
 - **Description:** Aggregates multiple links (TCP, Bluetooth, USB or similar) into one connection having their combined bandwidth and provides resiliency against failure of individual links.
+- **Note:** 
 - **Author:** surban
 - **WebURL:** [https://github.com/surban/aggligator](https://github.com/surban/aggligator)
 - **Repository:** [https://github.com/surban/aggligator](https://github.com/surban/aggligator)
@@ -118,7 +132,9 @@
 ---
 
 ### agg-tunnel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aggligator.sh
 - **Description:** Aggregates multiple links (TCP, Bluetooth, USB or similar) into one connection having their combined bandwidth and provides resiliency against failure of individual links.
+- **Note:** 
 - **Author:** surban
 - **WebURL:** [https://github.com/surban/aggligator](https://github.com/surban/aggligator)
 - **Repository:** [https://github.com/surban/aggligator](https://github.com/surban/aggligator)
@@ -135,7 +151,9 @@
 ---
 
 ### agrind
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/agrind.sh
 - **Description:** Slice and dice logs on the command line
+- **Note:** 
 - **Author:** rcoh
 - **WebURL:** [https://github.com/rcoh/angle-grinder](https://github.com/rcoh/angle-grinder)
 - **Repository:** [https://github.com/rcoh/angle-grinder](https://github.com/rcoh/angle-grinder)
@@ -152,7 +170,9 @@
 ---
 
 ### airixss
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/airixss.sh
 - **Description:** xss automater
+- **Note:** 
 - **Author:** ferreiraklet
 - **WebURL:** [https://github.com/ferreiraklet/airixss](https://github.com/ferreiraklet/airixss)
 - **Repository:** [https://github.com/ferreiraklet/airixss](https://github.com/ferreiraklet/airixss)
@@ -169,7 +189,9 @@
 ---
 
 ### aix
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aix.sh
 - **Description:** AIx is a cli tool to interact with Large Language Models (LLM) APIs.
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/aix](https://github.com/projectdiscovery/aix)
 - **Repository:** [https://github.com/projectdiscovery/aix](https://github.com/projectdiscovery/aix)
@@ -186,7 +208,9 @@
 ---
 
 ### albafetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/albafetch.sh
 - **Description:** system-info-fetcher
+- **Note:** 
 - **Author:** alba4k
 - **WebURL:** [https://github.com/alba4k/albafetch](https://github.com/alba4k/albafetch)
 - **Repository:** [https://github.com/alba4k/albafetch](https://github.com/alba4k/albafetch)
@@ -203,7 +227,9 @@
 ---
 
 ### algernon
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/algernon.sh
 - **Description:** Small self-contained pure-Go web server with Lua, Teal, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support
+- **Note:** 
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
 - **Repository:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
@@ -220,11 +246,13 @@
 ---
 
 ### alist
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/alist.sh
 - **Description:** A file list/WebDAV program that supports multiple storages
+- **Note:** 
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 42222
+- **Stars:** 42223
 - **Version:** v3.37.4
 - **Updated:** 2024-09-18T17:24:44Z
 - **Size:** 81.37 MB
@@ -237,7 +265,9 @@
 ---
 
 ### allxfr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/allxfr.sh
 - **Description:** AXFR all the things!
+- **Note:** 
 - **Author:** lanrat
 - **WebURL:** [https://github.com/lanrat/allxfr](https://github.com/lanrat/allxfr)
 - **Repository:** [https://github.com/lanrat/allxfr](https://github.com/lanrat/allxfr)
@@ -254,7 +284,9 @@
 ---
 
 ### alterx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/alterx.sh
 - **Description:** Fast and customizable subdomain wordlist generator using DSL
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/alterx](https://github.com/projectdiscovery/alterx)
 - **Repository:** [https://github.com/projectdiscovery/alterx](https://github.com/projectdiscovery/alterx)
@@ -271,7 +303,9 @@
 ---
 
 ### amass
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/amass.sh
 - **Description:** In-depth attack surface mapping and asset discovery
+- **Note:** 
 - **Author:** owasp-amass
 - **WebURL:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
 - **Repository:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
@@ -288,13 +322,15 @@
 ---
 
 ### amp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/amp.sh
 - **Description:** A complete text editor for your terminal.
+- **Note:** 
 - **Author:** jmacdonald
 - **WebURL:** [https://github.com/jmacdonald/amp](https://github.com/jmacdonald/amp)
 - **Repository:** [https://github.com/jmacdonald/amp](https://github.com/jmacdonald/amp)
 - **Stars:** 3684
 - **Version:** 0.7.0
-- **Updated:** 2024-09-19T12:44:54Z
+- **Updated:** 2024-09-21T17:28:31Z
 - **Size:** 5.98 MB
 - **SHA256SUM:** 1a09cc74167d47653bb8f4ae58093c9905b86bd6de74aa874a630b971b1992b4
 - **B3SUM:** b5b0398cce1eb53edee6501d8bdfd4d023cbb075e9e908284c06db030303f921
@@ -305,7 +341,9 @@
 ---
 
 ### anakin
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/anakin.sh
 - **Description:** Kill orphan processes
+- **Note:** 
 - **Author:** Timmmm
 - **WebURL:** [https://github.com/Timmmm/anakin](https://github.com/Timmmm/anakin)
 - **Repository:** [https://github.com/Timmmm/anakin](https://github.com/Timmmm/anakin)
@@ -322,7 +360,9 @@
 ---
 
 ### analyticsrelationships
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/analyticsrelationships.sh
 - **Description:** Get related domains / subdomains by looking at Google Analytics IDs
+- **Note:** 
 - **Author:** Josue87
 - **WebURL:** [https://github.com/Josue87/AnalyticsRelationships](https://github.com/Josue87/AnalyticsRelationships)
 - **Repository:** [https://github.com/Josue87/AnalyticsRelationships](https://github.com/Josue87/AnalyticsRelationships)
@@ -339,7 +379,9 @@
 ---
 
 ### anew-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/anew-rs.sh
 - **Description:** An efficient way to filter duplicate lines from input, à la uniq.
+- **Note:** 
 - **Author:** zer0yu
 - **WebURL:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
 - **Repository:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
@@ -356,7 +398,9 @@
 ---
 
 ### anew
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/anew.sh
 - **Description:** A tool for adding new lines to files, skipping duplicates
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/anew](https://github.com/tomnomnom/anew)
 - **Repository:** [https://github.com/tomnomnom/anew](https://github.com/tomnomnom/anew)
@@ -373,7 +417,9 @@
 ---
 
 ### anewer
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/anewer.sh
 - **Description:** anewer appends lines from stdin to a file if they dont already exist in the file
+- **Note:** 
 - **Author:** ysf
 - **WebURL:** [https://github.com/ysf/anewer](https://github.com/ysf/anewer)
 - **Repository:** [https://github.com/ysf/anewer](https://github.com/ysf/anewer)
@@ -390,11 +436,13 @@
 ---
 
 ### ani-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ani-cli.sh
 - **Description:** A cli tool to browse and play anime
+- **Note:** 
 - **Author:** pystardust
 - **WebURL:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
 - **Repository:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
-- **Stars:** 7814
+- **Stars:** 7815
 - **Version:** v4.9
 - **Updated:** 2024-09-19T07:11:00Z
 - **Size:** 23 kB
@@ -407,7 +455,9 @@
 ---
 
 ### apk.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/apk.sh.sh
 - **Description:** apk.sh makes reverse engineering Android apps easier
+- **Note:** 
 - **Author:** ax
 - **WebURL:** [https://github.com/ax/apk.sh](https://github.com/ax/apk.sh)
 - **Repository:** [https://github.com/ax/apk.sh](https://github.com/ax/apk.sh)
@@ -424,7 +474,9 @@
 ---
 
 ### apkeep
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/apkeep.sh
 - **Description:** command-line tool for downloading APK files from various sources
+- **Note:** 
 - **Author:** EFForg
 - **WebURL:** [https://github.com/EFForg/apkeep](https://github.com/EFForg/apkeep)
 - **Repository:** [https://github.com/EFForg/apkeep](https://github.com/EFForg/apkeep)
@@ -441,7 +493,9 @@
 ---
 
 ### aptly
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aptly.sh
 - **Description:** Debian repository management tool
+- **Note:** 
 - **Author:** aptly-dev
 - **WebURL:** [https://github.com/aptly-dev/aptly](https://github.com/aptly-dev/aptly)
 - **Repository:** [https://github.com/aptly-dev/aptly](https://github.com/aptly-dev/aptly)
@@ -458,7 +512,9 @@
 ---
 
 ### archey
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/archey.sh
 - **Description:** Archey is a simple system information tool written in Python
+- **Note:** 
 - **Author:** HorlogeSkynet
 - **WebURL:** [https://github.com/HorlogeSkynet/archey4](https://github.com/HorlogeSkynet/archey4)
 - **Repository:** [https://github.com/HorlogeSkynet/archey4](https://github.com/HorlogeSkynet/archey4)
@@ -475,7 +531,9 @@
 ---
 
 ### arduino-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/arduino-cli.sh
 - **Description:** Arduino command line tool
+- **Note:** 
 - **Author:** arduino
 - **WebURL:** [https://github.com/arduino/arduino-cli](https://github.com/arduino/arduino-cli)
 - **Repository:** [https://github.com/arduino/arduino-cli](https://github.com/arduino/arduino-cli)
@@ -492,7 +550,9 @@
 ---
 
 ### aretext
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aretext.sh
 - **Description:** Minimalist text editor with vim-compatible key bindings.
+- **Note:** 
 - **Author:** aretext
 - **WebURL:** [https://github.com/aretext/aretext](https://github.com/aretext/aretext)
 - **Repository:** [https://github.com/aretext/aretext](https://github.com/aretext/aretext)
@@ -509,11 +569,13 @@
 ---
 
 ### aria2
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aria2.sh
 - **Description:** A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
+- **Note:** 
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 35176
+- **Stars:** 35177
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
 - **Size:** 12.79 MB
@@ -526,11 +588,13 @@
 ---
 
 ### aria2c
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aria2.sh
 - **Description:** A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
+- **Note:** 
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 35176
+- **Stars:** 35177
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
 - **Size:** 12.79 MB
@@ -543,7 +607,9 @@
 ---
 
 ### asn
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/asn.sh
 - **Description:** ASN / RPKI validity / BGP stats / IPv4v6 / Prefix / URL / ASPath / Organization / IP reputation / IP geolocation / IP fingerprinting / Network recon / lookup API server / Web traceroute server
+- **Note:** 
 - **Author:** nitefood
 - **WebURL:** [https://github.com/nitefood/asn](https://github.com/nitefood/asn)
 - **Repository:** [https://github.com/nitefood/asn](https://github.com/nitefood/asn)
@@ -560,7 +626,9 @@
 ---
 
 ### asnmap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/asnmap.sh
 - **Description:** Mapping organization network ranges using ASN information
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
 - **Repository:** [https://github.com/projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
@@ -577,7 +645,9 @@
 ---
 
 ### assetfinder
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/assetfinder.sh
 - **Description:** Find domains and subdomains related to a given domain
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
 - **Repository:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
@@ -594,7 +664,9 @@
 ---
 
 ### assh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/assh.sh
 - **Description:** 💻 make your ssh client smarter
+- **Note:** 
 - **Author:** moul
 - **WebURL:** [https://github.com/moul/assh](https://github.com/moul/assh)
 - **Repository:** [https://github.com/moul/assh](https://github.com/moul/assh)
@@ -611,7 +683,9 @@
 ---
 
 ### atuin
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/atuin.sh
 - **Description:** Sync Shell History
+- **Note:** 
 - **Author:** atuinsh
 - **WebURL:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
 - **Repository:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
@@ -628,7 +702,9 @@
 ---
 
 ### awk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/awk.sh
 - **Description:** One true awk
+- **Note:** 
 - **Author:** onetrueawk
 - **WebURL:** [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk)
 - **Repository:** [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk)
@@ -645,7 +721,9 @@
 ---
 
 ### aws-nuke
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aws-nuke.sh
 - **Description:** Nuke a whole AWS account and delete all its resources.
+- **Note:** 
 - **Author:** rebuy-de
 - **WebURL:** [https://github.com/rebuy-de/aws-nuke](https://github.com/rebuy-de/aws-nuke)
 - **Repository:** [https://github.com/rebuy-de/aws-nuke](https://github.com/rebuy-de/aws-nuke)
@@ -662,7 +740,9 @@
 ---
 
 ### aws-wire-lengths
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/aws-wire-lengths.sh
 - **Description:** simple command line for various AWS management tasks
+- **Note:** 
 - **Author:** oxidecomputer
 - **WebURL:** [https://github.com/oxidecomputer/aws-wire-lengths](https://github.com/oxidecomputer/aws-wire-lengths)
 - **Repository:** [https://github.com/oxidecomputer/aws-wire-lengths](https://github.com/oxidecomputer/aws-wire-lengths)
@@ -679,7 +759,9 @@
 ---
 
 ### axel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/axel.sh
 - **Description:** Lightweight CLI download accelerator
+- **Note:** 
 - **Author:** axel-download-accelerator
 - **WebURL:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
 - **Repository:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
@@ -696,7 +778,9 @@
 ---
 
 ### b3sum
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/b3sum.sh
 - **Description:** the official Rust and C implementations of the BLAKE3 cryptographic hash function
+- **Note:** 
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
@@ -713,7 +797,9 @@
 ---
 
 ### bandwhich
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bandwhich.sh
 - **Description:** Terminal bandwidth utilization tool
+- **Note:** 
 - **Author:** imsnif
 - **WebURL:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
 - **Repository:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
@@ -730,7 +816,9 @@
 ---
 
 ### bat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/batcat.sh
 - **Description:** cat with colors & syntax highlights
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
@@ -747,7 +835,9 @@
 ---
 
 ### batcat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/batcat.sh
 - **Description:** cat with colors & syntax highlights
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
@@ -764,7 +854,9 @@
 ---
 
 ### bdl.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bdl.sh
 - **Description:** Binary Downloader
+- **Note:** 
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/Handyscripts](https://github.com/xplshn/Handyscripts)
 - **Repository:** [https://github.com/xplshn/Handyscripts](https://github.com/xplshn/Handyscripts)
@@ -781,7 +873,9 @@
 ---
 
 ### bearer
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bearer.sh
 - **Description:** Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.
+- **Note:** 
 - **Author:** Bearer
 - **WebURL:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
 - **Repository:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
@@ -798,7 +892,9 @@
 ---
 
 ### bed
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bed.sh
 - **Description:** Binary editor written in Go
+- **Note:** 
 - **Author:** itchyny
 - **WebURL:** [https://github.com/itchyny/bed](https://github.com/itchyny/bed)
 - **Repository:** [https://github.com/itchyny/bed](https://github.com/itchyny/bed)
@@ -815,7 +911,9 @@
 ---
 
 ### bench.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bench.sh.sh
 - **Description:** A quick & easy Benchmarking Script
+- **Note:** 
 - **Author:** teddysun
 - **WebURL:** [https://github.com/teddysun/across](https://github.com/teddysun/across)
 - **Repository:** [https://github.com/teddysun/across](https://github.com/teddysun/across)
@@ -832,7 +930,9 @@
 ---
 
 ### berty
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/berty.sh
 - **Description:** Secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
+- **Note:** 
 - **Author:** berty
 - **WebURL:** [https://github.com/berty/berty](https://github.com/berty/berty)
 - **Repository:** [https://github.com/berty/berty](https://github.com/berty/berty)
@@ -849,7 +949,9 @@
 ---
 
 ### bin
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bin.sh
 - **Description:** Effortless binary manager
+- **Note:** 
 - **Author:** marcosnils
 - **WebURL:** [https://github.com/marcosnils/bin](https://github.com/marcosnils/bin)
 - **Repository:** [https://github.com/marcosnils/bin](https://github.com/marcosnils/bin)
@@ -866,7 +968,9 @@
 ---
 
 ### bin2video
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bin2video.sh
 - **Description:** Tool for encoding files as videos
+- **Note:** 
 - **Author:** pixelomer
 - **WebURL:** [https://github.com/pixelomer/bin2video](https://github.com/pixelomer/bin2video)
 - **Repository:** [https://github.com/pixelomer/bin2video](https://github.com/pixelomer/bin2video)
@@ -883,7 +987,9 @@
 ---
 
 ### binary-security-check
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/binary-security-check.sh
 - **Description:** Analyzer of security features in executable binaries
+- **Note:** 
 - **Author:** koutheir
 - **WebURL:** [https://github.com/koutheir/binary-security-check](https://github.com/koutheir/binary-security-check)
 - **Repository:** [https://github.com/koutheir/binary-security-check](https://github.com/koutheir/binary-security-check)
@@ -900,7 +1006,9 @@
 ---
 
 ### binfetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/binfetch.sh
 - **Description:** neofetch for binaries
+- **Note:** 
 - **Author:** Im-0xea
 - **WebURL:** [https://github.com/Im-0xea/binfetch](https://github.com/Im-0xea/binfetch)
 - **Repository:** [https://github.com/Im-0xea/binfetch](https://github.com/Im-0xea/binfetch)
@@ -917,7 +1025,9 @@
 ---
 
 ### binfetch.cfg
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/binfetch.sh
 - **Description:** neofetch for binaries
+- **Note:** 
 - **Author:** Im-0xea
 - **WebURL:** [https://github.com/Im-0xea/binfetch](https://github.com/Im-0xea/binfetch)
 - **Repository:** [https://github.com/Im-0xea/binfetch](https://github.com/Im-0xea/binfetch)
@@ -934,7 +1044,9 @@
 ---
 
 ### bingrep
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bingrep.sh
 - **Description:** like ~~grep~~ UBER, but for binaries
+- **Note:** 
 - **Author:** m4b
 - **WebURL:** [https://github.com/m4b/bingrep](https://github.com/m4b/bingrep)
 - **Repository:** [https://github.com/m4b/bingrep](https://github.com/m4b/bingrep)
@@ -951,7 +1063,9 @@
 ---
 
 ### binocle
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/binocle.sh
 - **Description:** a graphical tool to visualize binary data
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/binocle](https://github.com/sharkdp/binocle)
 - **Repository:** [https://github.com/sharkdp/binocle](https://github.com/sharkdp/binocle)
@@ -968,7 +1082,9 @@
 ---
 
 ### bleve
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bleve.sh
 - **Description:** A modern text indexing library for go
+- **Note:** 
 - **Author:** blevesearch
 - **WebURL:** [https://github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
 - **Repository:** [https://github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
@@ -985,7 +1101,9 @@
 ---
 
 ### bluetuith
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bluetuith.sh
 - **Description:** A TUI bluetooth manager for Linux.
+- **Note:** 
 - **Author:** darkhz
 - **WebURL:** [https://github.com/darkhz/bluetuith](https://github.com/darkhz/bluetuith)
 - **Repository:** [https://github.com/darkhz/bluetuith](https://github.com/darkhz/bluetuith)
@@ -1002,7 +1120,9 @@
 ---
 
 ### boltconn
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/boltconn.sh
 - **Description:** Transparent and flexible L4/L7 networking manager, supporting WireGuard, firewall and scripted MitM
+- **Note:** 
 - **Author:** XOR-op
 - **WebURL:** [https://github.com/XOR-op/BoltConn](https://github.com/XOR-op/BoltConn)
 - **Repository:** [https://github.com/XOR-op/BoltConn](https://github.com/XOR-op/BoltConn)
@@ -1019,7 +1139,9 @@
 ---
 
 ### bombadillo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bombadillo.sh
 - **Description:** Browser for gopher | gemini | finger | local (a users file system)
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://tildegit.org/sloum/bombadillo](https://tildegit.org/sloum/bombadillo)
 - **Repository:** []()
@@ -1036,7 +1158,9 @@
 ---
 
 ### bore
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bore.sh
 - **Description:** ngrok alternative for making tunnels to localhost
+- **Note:** 
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
 - **Repository:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
@@ -1053,7 +1177,9 @@
 ---
 
 ### boringtun-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/boringtun.sh
 - **Description:** Userspace WireGuard® Implementation in Rust
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/boringtun](https://github.com/cloudflare/boringtun)
 - **Repository:** [https://github.com/cloudflare/boringtun](https://github.com/cloudflare/boringtun)
@@ -1070,7 +1196,9 @@
 ---
 
 ### botsay
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/botsay.sh
 - **Description:** 🤖 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows
+- **Note:** 
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/botsay](https://github.com/xyproto/botsay)
 - **Repository:** [https://github.com/xyproto/botsay](https://github.com/xyproto/botsay)
@@ -1087,7 +1215,9 @@
 ---
 
 ### bottom
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bottom.sh
 - **Description:** htop clone | graphical process/system monitor
+- **Note:** 
 - **Author:** ClementTsang
 - **WebURL:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
 - **Repository:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
@@ -1104,7 +1234,9 @@
 ---
 
 ### boxxy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/boxxy.sh
 - **Description:** boxxy puts bad Linux applications in a box with only their files.
+- **Note:** 
 - **Author:** queer
 - **WebURL:** [https://github.com/queer/boxxy](https://github.com/queer/boxxy)
 - **Repository:** [https://github.com/queer/boxxy](https://github.com/queer/boxxy)
@@ -1121,11 +1253,13 @@
 ---
 
 ### bpftrace
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bpftrace.sh
 - **Description:** High-level tracing language & tool for Linux
+- **Note:** 
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8472
+- **Stars:** 8473
 - **Version:** v0.21.2
 - **Updated:** 2024-09-20T09:14:47Z
 - **Size:** 51.31 MB
@@ -1138,11 +1272,13 @@
 ---
 
 ### bpftrace-aotrt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bpftrace.sh
 - **Description:** High-level tracing language & tool for Linux
+- **Note:** 
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8472
+- **Stars:** 8473
 - **Version:** v0.21.2
 - **Updated:** 2024-09-20T09:14:47Z
 - **Size:** 2.72 MB
@@ -1155,7 +1291,9 @@
 ---
 
 ### brename
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/brename.sh
 - **Description:** tool for safely batch renaming files/directories via regular expression
+- **Note:** 
 - **Author:** shenwei356
 - **WebURL:** [https://github.com/shenwei356/brename](https://github.com/shenwei356/brename)
 - **Repository:** [https://github.com/shenwei356/brename](https://github.com/shenwei356/brename)
@@ -1172,7 +1310,9 @@
 ---
 
 ### brook
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/brook.sh
 - **Description:** A cross-platform programmable network tool
+- **Note:** 
 - **Author:** txthinking
 - **WebURL:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
 - **Repository:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
@@ -1189,7 +1329,9 @@
 ---
 
 ### broot
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/broot.sh
 - **Description:** A new way to see and navigate directory trees
+- **Note:** 
 - **Author:** Canop
 - **WebURL:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
 - **Repository:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
@@ -1206,7 +1348,9 @@
 ---
 
 ### brutespray
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/brutespray.sh
 - **Description:** Bruteforcing from various scanner output - Automatically attempts default creds on found services.
+- **Note:** 
 - **Author:** x90skysn3k
 - **WebURL:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
 - **Repository:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
@@ -1223,11 +1367,13 @@
 ---
 
 ### btop
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/btop.sh
 - **Description:** htop clone | A monitor of resources
+- **Note:** 
 - **Author:** aristocratos
 - **WebURL:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
 - **Repository:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
-- **Stars:** 19312
+- **Stars:** 19321
 - **Version:** v1.3.2
 - **Updated:** 2024-09-21T11:58:59Z
 - **Size:** 2.47 MB
@@ -1240,11 +1386,13 @@
 ---
 
 ### bubblewrap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bubblewrap.sh
 - **Description:** Unprivileged sandboxing tool
+- **Note:** 
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
 - **Repository:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
-- **Stars:** 3878
+- **Stars:** 3879
 - **Version:** v0.10.0
 - **Updated:** 2024-09-03T13:00:12Z
 - **Size:** 165.71 kB
@@ -1257,11 +1405,13 @@
 ---
 
 ### bwrap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bubblewrap.sh
 - **Description:** Unprivileged sandboxing tool
+- **Note:** 
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
 - **Repository:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
-- **Stars:** 3878
+- **Stars:** 3879
 - **Version:** v0.10.0
 - **Updated:** 2024-09-03T13:00:12Z
 - **Size:** 165.71 kB
@@ -1274,7 +1424,9 @@
 ---
 
 ### bucketloot
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/bucketloot.sh
 - **Description:** Automated S3-compatible bucket inspector
+- **Note:** 
 - **Author:** redhuntlabs
 - **WebURL:** [https://github.com/redhuntlabs/BucketLoot](https://github.com/redhuntlabs/BucketLoot)
 - **Repository:** [https://github.com/redhuntlabs/BucketLoot](https://github.com/redhuntlabs/BucketLoot)
@@ -1291,7 +1443,9 @@
 ---
 
 ### byp4xx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/byp4xx.sh
 - **Description:** 40X/HTTP bypasser in Go. Features  Verb tampering, headers,
+- **Note:** 
 - **Author:** lobuhi
 - **WebURL:** [https://github.com/lobuhi/byp4xx](https://github.com/lobuhi/byp4xx)
 - **Repository:** [https://github.com/lobuhi/byp4xx](https://github.com/lobuhi/byp4xx)
@@ -1308,11 +1462,13 @@
 ---
 
 ### caddy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/caddy.sh
 - **Description:** Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+- **Note:** 
 - **Author:** caddyserver
 - **WebURL:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 - **Repository:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
-- **Stars:** 57145
+- **Stars:** 57146
 - **Version:** v2.8.4
 - **Updated:** 2024-09-21T07:42:34Z
 - **Size:** 40.68 MB
@@ -1325,7 +1481,9 @@
 ---
 
 ### caido-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/caido.sh
 - **Description:** A lightweight web security auditing toolkit
+- **Note:** 
 - **Author:** caido
 - **WebURL:** [https://github.com/caido/caido](https://github.com/caido/caido)
 - **Repository:** [https://github.com/caido/caido](https://github.com/caido/caido)
@@ -1342,7 +1500,9 @@
 ---
 
 ### cargo-unlock
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cargo-unlock.sh
 - **Description:** Remove Cargo.lock lockfile
+- **Note:** 
 - **Author:** dtolnay
 - **WebURL:** [https://github.com/dtolnay/cargo-unlock](https://github.com/dtolnay/cargo-unlock)
 - **Repository:** [https://github.com/dtolnay/cargo-unlock](https://github.com/dtolnay/cargo-unlock)
@@ -1359,7 +1519,9 @@
 ---
 
 ### catatonit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/catatonit.sh
 - **Description:** A container init that is so simple its effectively brain-dead.
+- **Note:** 
 - **Author:** openSUSE
 - **WebURL:** [https://github.com/openSUSE/catatonit](https://github.com/openSUSE/catatonit)
 - **Repository:** [https://github.com/openSUSE/catatonit](https://github.com/openSUSE/catatonit)
@@ -1376,7 +1538,9 @@
 ---
 
 ### catp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/catp.sh
 - **Description:** Print the output of a running process
+- **Note:** 
 - **Author:** rapiz1
 - **WebURL:** [https://github.com/rapiz1/catp](https://github.com/rapiz1/catp)
 - **Repository:** [https://github.com/rapiz1/catp](https://github.com/rapiz1/catp)
@@ -1393,7 +1557,9 @@
 ---
 
 ### cdncheck
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cdncheck.sh
 - **Description:** A utility to detect various technology for a given IP address.
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/cdncheck](https://github.com/projectdiscovery/cdncheck)
 - **Repository:** [https://github.com/projectdiscovery/cdncheck](https://github.com/projectdiscovery/cdncheck)
@@ -1410,7 +1576,9 @@
 ---
 
 ### cdwe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cdwe.sh
 - **Description:** ⚡️(cd with env) Is a configurable cd wrapper that lets you define your environment per Directory
+- **Note:** 
 - **Author:** synoet
 - **WebURL:** [https://github.com/synoet/cdwe](https://github.com/synoet/cdwe)
 - **Repository:** [https://github.com/synoet/cdwe](https://github.com/synoet/cdwe)
@@ -1427,7 +1595,9 @@
 ---
 
 ### cent
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cent.sh
 - **Description:** Fetch & Organize all Nuclei Templates
+- **Note:** 
 - **Author:** xm1k3
 - **WebURL:** [https://github.com/xm1k3/cent](https://github.com/xm1k3/cent)
 - **Repository:** [https://github.com/xm1k3/cent](https://github.com/xm1k3/cent)
@@ -1444,7 +1614,9 @@
 ---
 
 ### certgraph
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/certgraph.sh
 - **Description:** An open source intelligence tool to crawl the graph of certificate Alternate Names
+- **Note:** 
 - **Author:** lanrat
 - **WebURL:** [https://github.com/lanrat/certgraph](https://github.com/lanrat/certgraph)
 - **Repository:** [https://github.com/lanrat/certgraph](https://github.com/lanrat/certgraph)
@@ -1461,7 +1633,9 @@
 ---
 
 ### certspotter
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/certspotter.sh
 - **Description:** Certificate Transparency Log Monitor
+- **Note:** 
 - **Author:** SSLMate
 - **WebURL:** [https://github.com/SSLMate/certspotter](https://github.com/SSLMate/certspotter)
 - **Repository:** [https://github.com/SSLMate/certspotter](https://github.com/SSLMate/certspotter)
@@ -1478,7 +1652,9 @@
 ---
 
 ### certstream-server-go
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/certstream-server-go.sh
 - **Description:** drop-in replacement for Calidogs outdated server
+- **Note:** 
 - **Author:** d-Rickyy-b
 - **WebURL:** [https://github.com/d-Rickyy-b/certstream-server-go](https://github.com/d-Rickyy-b/certstream-server-go)
 - **Repository:** [https://github.com/d-Rickyy-b/certstream-server-go](https://github.com/d-Rickyy-b/certstream-server-go)
@@ -1495,7 +1671,9 @@
 ---
 
 ### certstream
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/certstream.sh
 - **Description:** Cli for calidogs certstream
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -1512,7 +1690,9 @@
 ---
 
 ### certwatcher
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/certwatcher.sh
 - **Description:** CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/drfabiocastro/certwatcher](https://github.com/drfabiocastro/certwatcher)
 - **Repository:** [https://github.com/drfabiocastro/certwatcher](https://github.com/drfabiocastro/certwatcher)
@@ -1529,7 +1709,9 @@
 ---
 
 ### cexec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cexec.sh
 - **Description:** Execute any command, cache its output and get cached output on subsequent execution
+- **Note:** 
 - **Author:** mrusme
 - **WebURL:** [https://github.com/mrusme/cexec](https://github.com/mrusme/cexec)
 - **Repository:** [https://github.com/mrusme/cexec](https://github.com/mrusme/cexec)
@@ -1546,7 +1728,9 @@
 ---
 
 ### cfspeed
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfspeed.sh
 - **Description:** GO CLI-based implementation of speed.cloudflare.com
+- **Note:** 
 - **Author:** makotom
 - **WebURL:** [https://github.com/makotom/cfspeed](https://github.com/makotom/cfspeed)
 - **Repository:** [https://github.com/makotom/cfspeed](https://github.com/makotom/cfspeed)
@@ -1563,7 +1747,9 @@
 ---
 
 ### cfspeedtest
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfspeedtest.sh
 - **Description:** Unofficial CLI for speed.cloudflare.com
+- **Note:** 
 - **Author:** code-inflation
 - **WebURL:** [https://github.com/code-inflation/cfspeedtest](https://github.com/code-inflation/cfspeedtest)
 - **Repository:** [https://github.com/code-inflation/cfspeedtest](https://github.com/code-inflation/cfspeedtest)
@@ -1580,7 +1766,9 @@
 ---
 
 ### cfssl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1597,7 +1785,9 @@
 ---
 
 ### cfssl-bundle
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1614,7 +1804,9 @@
 ---
 
 ### cfssl-certinfo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1631,7 +1823,9 @@
 ---
 
 ### cfssl-newkey
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1648,7 +1842,9 @@
 ---
 
 ### cfssl-scan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1665,7 +1861,9 @@
 ---
 
 ### cfssljson
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1682,7 +1880,9 @@
 ---
 
 ### mkbundle
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1699,7 +1899,9 @@
 ---
 
 ### multirootca
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
@@ -1716,7 +1918,9 @@
 ---
 
 ### chameleon
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/chameleon.sh
 - **Description:** Content Discovery using wappalyzers set of technology fingerprints alongside custom wordlists tailored to each detected technologies.
+- **Note:** 
 - **Author:** iustin24
 - **WebURL:** [https://github.com/iustin24/chameleon](https://github.com/iustin24/chameleon)
 - **Repository:** [https://github.com/iustin24/chameleon](https://github.com/iustin24/chameleon)
@@ -1733,7 +1937,9 @@
 ---
 
 ### chaos-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/chaos-client.sh
 - **Description:** cli for Chaos DB API
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/chaos-client](https://github.com/projectdiscovery/chaos-client)
 - **Repository:** [https://github.com/projectdiscovery/chaos-client](https://github.com/projectdiscovery/chaos-client)
@@ -1750,7 +1956,9 @@
 ---
 
 ### cheat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cheat.sh
 - **Description:** create and view interactive cheatsheets on the command-line
+- **Note:** 
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
@@ -1767,7 +1975,9 @@
 ---
 
 ### cherrybomb
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cherrybomb.sh
 - **Description:** Validating and Testing APIs using an OpenAPI file
+- **Note:** 
 - **Author:** blst-security
 - **WebURL:** [https://github.com/blst-security/cherrybomb](https://github.com/blst-security/cherrybomb)
 - **Repository:** [https://github.com/blst-security/cherrybomb](https://github.com/blst-security/cherrybomb)
@@ -1784,7 +1994,9 @@
 ---
 
 ### chisel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/chisel.sh
 - **Description:** A fast TCP/UDP tunnel over HTTP
+- **Note:** 
 - **Author:** jpillora
 - **WebURL:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
 - **Repository:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
@@ -1801,7 +2013,9 @@
 ---
 
 ### cidr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cidr.sh
 - **Description:** CLI to perform various actions on CIDR ranges
+- **Note:** 
 - **Author:** bschaatsbergen
 - **WebURL:** [https://github.com/bschaatsbergen/cidr](https://github.com/bschaatsbergen/cidr)
 - **Repository:** [https://github.com/bschaatsbergen/cidr](https://github.com/bschaatsbergen/cidr)
@@ -1818,7 +2032,9 @@
 ---
 
 ### circumflex
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/circumflex.sh
 - **Description:** 🌿 Its Hacker News in your terminal
+- **Note:** 
 - **Author:** bensadeh
 - **WebURL:** [https://github.com/bensadeh/circumflex](https://github.com/bensadeh/circumflex)
 - **Repository:** [https://github.com/bensadeh/circumflex](https://github.com/bensadeh/circumflex)
@@ -1835,7 +2051,9 @@
 ---
 
 ### clipcat-menu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
+- **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
@@ -1852,7 +2070,9 @@
 ---
 
 ### clipcat-notify
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
+- **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
@@ -1869,7 +2089,9 @@
 ---
 
 ### clipcatctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
+- **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
@@ -1886,7 +2108,9 @@
 ---
 
 ### clipcatd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
+- **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
@@ -1903,7 +2127,9 @@
 ---
 
 ### cloak-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cloak.sh
 - **Description:** A censorship circumvention tool to evade detection by authoritarian state adversaries
+- **Note:** 
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
@@ -1920,7 +2146,9 @@
 ---
 
 ### cloak-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cloak.sh
 - **Description:** A censorship circumvention tool to evade detection by authoritarian state adversaries
+- **Note:** 
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
@@ -1937,7 +2165,9 @@
 ---
 
 ### cloudcash
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cloudcash.sh
 - **Description:** Check your cloud spending from the CLI, from Waybar, and from the macOS menu bar!
+- **Note:** 
 - **Author:** mrusme
 - **WebURL:** [https://github.com/mrusme/cloudcash](https://github.com/mrusme/cloudcash)
 - **Repository:** [https://github.com/mrusme/cloudcash](https://github.com/mrusme/cloudcash)
@@ -1954,13 +2184,15 @@
 ---
 
 ### cloudflared
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cloudflared.sh
 - **Description:** Cloudflare Tunnel client
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Stars:** 8870
 - **Version:** 2024.9.1
-- **Updated:** 2024-09-20T01:52:46Z
+- **Updated:** 2024-09-21T17:18:55Z
 - **Size:** 25.48 MB
 - **SHA256SUM:** e91515e11b3ea988b04080668e0e8f3861b9bdcb42181f180ebeb4086e8e6059
 - **B3SUM:** ddec3e02082802a62d9d82e0b87b041a86eaa7642eebde9ea733fa319940334f
@@ -1971,7 +2203,9 @@
 ---
 
 ### cloudfox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cloudfox.sh
 - **Description:** Automating situational awareness for cloud penetration tests
+- **Note:** 
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
 - **Repository:** [https://github.com/BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
@@ -1988,7 +2222,9 @@
 ---
 
 ### cloudlist
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cloudlist.sh
 - **Description:** Cloudlist is a tool for listing Assets from multiple Cloud Providers.
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/cloudlist](https://github.com/projectdiscovery/cloudlist)
 - **Repository:** [https://github.com/projectdiscovery/cloudlist](https://github.com/projectdiscovery/cloudlist)
@@ -2005,7 +2241,9 @@
 ---
 
 ### cloudreve
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cloudreve.sh
 - **Description:** Self-hosted file management and sharing system, supports multiple storage providers
+- **Note:** 
 - **Author:** cloudreve
 - **WebURL:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
 - **Repository:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
@@ -2022,7 +2260,9 @@
 ---
 
 ### cntb
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cntb.sh
 - **Description:** Contabo Command Line Interface
+- **Note:** 
 - **Author:** contabo
 - **WebURL:** [https://github.com/contabo/cntb](https://github.com/contabo/cntb)
 - **Repository:** [https://github.com/contabo/cntb](https://github.com/contabo/cntb)
@@ -2039,7 +2279,9 @@
 ---
 
 ### cobalt-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cobalt-cli.sh
 - **Description:** Command-line interface wrapper for https://cobalt.tools
+- **Note:** 
 - **Author:** lostdusty
 - **WebURL:** [https://github.com/lostdusty/cobalt](https://github.com/lostdusty/cobalt)
 - **Repository:** [https://github.com/lostdusty/cobalt](https://github.com/lostdusty/cobalt)
@@ -2056,7 +2298,9 @@
 ---
 
 ### cog
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cocogitto.sh
 - **Description:** The Conventional Commits toolbox
+- **Note:** 
 - **Author:** cocogitto
 - **WebURL:** [https://github.com/cocogitto/cocogitto](https://github.com/cocogitto/cocogitto)
 - **Repository:** [https://github.com/cocogitto/cocogitto](https://github.com/cocogitto/cocogitto)
@@ -2073,7 +2317,9 @@
 ---
 
 ### ansi2html
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
+- **Note:** 
 - **Author:** kilobyte
 - **WebURL:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
 - **Repository:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
@@ -2090,7 +2336,9 @@
 ---
 
 ### ansi2txt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
+- **Note:** 
 - **Author:** kilobyte
 - **WebURL:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
 - **Repository:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
@@ -2107,7 +2355,9 @@
 ---
 
 ### pipetty
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
+- **Note:** 
 - **Author:** kilobyte
 - **WebURL:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
 - **Repository:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
@@ -2124,7 +2374,9 @@
 ---
 
 ### ttyrec2ansi
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
+- **Note:** 
 - **Author:** kilobyte
 - **WebURL:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
 - **Repository:** [https://github.com/kilobyte/colorized-logs](https://github.com/kilobyte/colorized-logs)
@@ -2141,7 +2393,9 @@
 ---
 
 ### comb
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/comb.sh
 - **Description:** Combine the lines from two files in every combination.
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -2158,7 +2412,9 @@
 ---
 
 ### containerd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/containerd.sh
 - **Description:** An open and reliable container runtime
+- **Note:** 
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
 - **Repository:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
@@ -2175,7 +2431,9 @@
 ---
 
 ### coreutils
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/coreutils_uutils.sh
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -2192,7 +2450,9 @@
 ---
 
 ### cotp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cotp.sh
 - **Description:** Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality.
+- **Note:** 
 - **Author:** replydev
 - **WebURL:** [https://github.com/replydev/cotp](https://github.com/replydev/cotp)
 - **Repository:** [https://github.com/replydev/cotp](https://github.com/replydev/cotp)
@@ -2209,7 +2469,9 @@
 ---
 
 ### cowitness
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cowitness.sh
 - **Description:** mimic an HTTP server and a DNS server, providing complete responses
+- **Note:** 
 - **Author:** stolenusername
 - **WebURL:** [https://github.com/stolenusername/cowitness](https://github.com/stolenusername/cowitness)
 - **Repository:** [https://github.com/stolenusername/cowitness](https://github.com/stolenusername/cowitness)
@@ -2226,7 +2488,9 @@
 ---
 
 ### cowsay
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cowsay.sh
 - **Description:** complete rewrite of cowsay in Go
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.com/nmyk/cowsay](https://gitlab.com/nmyk/cowsay)
 - **Repository:** []()
@@ -2243,7 +2507,9 @@
 ---
 
 ### cowthink
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cowsay.sh
 - **Description:** complete rewrite of cowsay in Go
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.com/nmyk/cowsay](https://gitlab.com/nmyk/cowsay)
 - **Repository:** []()
@@ -2260,13 +2526,15 @@
 ---
 
 ### cproxy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cproxy.sh
 - **Description:** Easy per application transparent proxy built on cgroup.
+- **Note:** 
 - **Author:** NOBLES5E
 - **WebURL:** [https://github.com/NOBLES5E/cproxy](https://github.com/NOBLES5E/cproxy)
 - **Repository:** [https://github.com/NOBLES5E/cproxy](https://github.com/NOBLES5E/cproxy)
-- **Stars:** 374
+- **Stars:** 375
 - **Version:** v4.2.1
-- **Updated:** 2024-09-20T18:04:43Z
+- **Updated:** 2024-09-21T16:28:20Z
 - **Size:** 4.37 MB
 - **SHA256SUM:** ceb6ddb8004a02ef4b4c335d5c97bac3d3db6eae69be12ec72d7ae0937ea3d1a
 - **B3SUM:** 36246d551803440f6b7af747432259e1e206830d1d02b9142308d3209ce8427e
@@ -2277,7 +2545,9 @@
 ---
 
 ### cpu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
@@ -2294,7 +2564,9 @@
 ---
 
 ### cpud
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
@@ -2311,7 +2583,9 @@
 ---
 
 ### decpu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
@@ -2328,7 +2602,9 @@
 ---
 
 ### decpud
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
@@ -2345,7 +2621,9 @@
 ---
 
 ### p9cpu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
@@ -2362,7 +2640,9 @@
 ---
 
 ### p9cpud
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
@@ -2379,7 +2659,9 @@
 ---
 
 ### cpufetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cpufetch.sh
 - **Description:** fetch for cpu
+- **Note:** 
 - **Author:** Dr-Noob
 - **WebURL:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
 - **Repository:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
@@ -2396,7 +2678,9 @@
 ---
 
 ### crawley
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/crawley.sh
 - **Description:** The unix-way web crawler
+- **Note:** 
 - **Author:** s0rg
 - **WebURL:** [https://github.com/s0rg/crawley](https://github.com/s0rg/crawley)
 - **Repository:** [https://github.com/s0rg/crawley](https://github.com/s0rg/crawley)
@@ -2413,7 +2697,9 @@
 ---
 
 ### crictl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cri-tools.sh
 - **Description:** CLI and validation tools for Kubelet Container Runtime Interface (CRI)
+- **Note:** 
 - **Author:** kubernetes-sigs
 - **WebURL:** [https://github.com/kubernetes-sigs/cri-tools](https://github.com/kubernetes-sigs/cri-tools)
 - **Repository:** [https://github.com/kubernetes-sigs/cri-tools](https://github.com/kubernetes-sigs/cri-tools)
@@ -2430,7 +2716,9 @@
 ---
 
 ### crlfuzz
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/crlfuzz.sh
 - **Description:** A fast tool to scan CRLF vulnerability written in Go
+- **Note:** 
 - **Author:** 
 - **WebURL:** [hhttps://github.com/dwisiswant0/crlfuzz](hhttps://github.com/dwisiswant0/crlfuzz)
 - **Repository:** []()
@@ -2447,7 +2735,9 @@
 ---
 
 ### croc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/croc.sh
 - **Description:** Easily and securely send things from one computer to another
+- **Note:** 
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
@@ -2464,7 +2754,9 @@
 ---
 
 ### cronie-crond
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cronie.sh
 - **Description:** Cronie cron daemon project
+- **Note:** 
 - **Author:** cronie-crond
 - **WebURL:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
 - **Repository:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
@@ -2481,7 +2773,9 @@
 ---
 
 ### cronie-cronnext
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cronie.sh
 - **Description:** Cronie cron daemon project
+- **Note:** 
 - **Author:** cronie-crond
 - **WebURL:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
 - **Repository:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
@@ -2498,7 +2792,9 @@
 ---
 
 ### cronie-crontab
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cronie.sh
 - **Description:** Cronie cron daemon project
+- **Note:** 
 - **Author:** cronie-crond
 - **WebURL:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
 - **Repository:** [https://github.com/cronie-crond/cronie](https://github.com/cronie-crond/cronie)
@@ -2515,7 +2811,9 @@
 ---
 
 ### cron
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/crontab.sh
 - **Description:** 
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/cron/](https://www.gnu.org/software/cron/)
 - **Repository:** []()
@@ -2532,7 +2830,9 @@
 ---
 
 ### crontab
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/crontab.sh
 - **Description:** 
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/cron/](https://www.gnu.org/software/cron/)
 - **Repository:** []()
@@ -2549,7 +2849,9 @@
 ---
 
 ### crt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/crt.sh
 - **Description:** A CLI tool to check Certificate Transparency logs of a domain name
+- **Note:** 
 - **Author:** cemulus
 - **WebURL:** [https://github.com/cemulus/crt](https://github.com/cemulus/crt)
 - **Repository:** [https://github.com/cemulus/crt](https://github.com/cemulus/crt)
@@ -2566,7 +2868,9 @@
 ---
 
 ### csprecon
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/csprecon.sh
 - **Description:** Discover new target domains using Content Security Policy
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/csprecon](https://github.com/edoardottt/csprecon)
 - **Repository:** [https://github.com/edoardottt/csprecon](https://github.com/edoardottt/csprecon)
@@ -2583,7 +2887,9 @@
 ---
 
 ### csview
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/csview.sh
 - **Description:** 📠 Pretty and fast csv viewer for cli with cjk/emoji support.
+- **Note:** 
 - **Author:** wfxr
 - **WebURL:** [https://github.com/wfxr/csview](https://github.com/wfxr/csview)
 - **Repository:** [https://github.com/wfxr/csview](https://github.com/wfxr/csview)
@@ -2600,7 +2906,9 @@
 ---
 
 ### csvtk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/csvtk.sh
 - **Description:** A cross-platform, efficient and practical CSV/TSV toolkit
+- **Note:** 
 - **Author:** shenwei356
 - **WebURL:** [https://github.com/shenwei356/csvtk](https://github.com/shenwei356/csvtk)
 - **Repository:** [https://github.com/shenwei356/csvtk](https://github.com/shenwei356/csvtk)
@@ -2617,7 +2925,9 @@
 ---
 
 ### ct_monitor
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ct_monitor.sh
 - **Description:** Certificate Transparency log monitor
+- **Note:** 
 - **Author:** crtsh
 - **WebURL:** [https://github.com/crtsh/ct_monitor](https://github.com/crtsh/ct_monitor)
 - **Repository:** [https://github.com/crtsh/ct_monitor](https://github.com/crtsh/ct_monitor)
@@ -2634,7 +2944,9 @@
 ---
 
 ### ctlwatcher
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ctlwatcher.sh
 - **Description:** Monitor Certificate Transparency logs for domains matching regexes.
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/ctlwatcher](https://github.com/Azathothas/ctlwatcher)
 - **Repository:** [https://github.com/Azathothas/ctlwatcher](https://github.com/Azathothas/ctlwatcher)
@@ -2651,7 +2963,9 @@
 ---
 
 ### ctrsploit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ctrsploit.sh
 - **Description:** A Penetration Toolkit for Container Environments
+- **Note:** 
 - **Author:** ctrsploit
 - **WebURL:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
 - **Repository:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
@@ -2668,7 +2982,9 @@
 ---
 
 ### ctrsploit-checksec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ctrsploit.sh
 - **Description:** A Penetration Toolkit for Container Environments
+- **Note:** 
 - **Author:** ctrsploit
 - **WebURL:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
 - **Repository:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
@@ -2685,7 +3001,9 @@
 ---
 
 ### ctrsploit-env
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ctrsploit.sh
 - **Description:** A Penetration Toolkit for Container Environments
+- **Note:** 
 - **Author:** ctrsploit
 - **WebURL:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
 - **Repository:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
@@ -2702,7 +3020,9 @@
 ---
 
 ### curl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
+- **Note:** 
 - **Author:** stunnel
 - **WebURL:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
 - **Repository:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
@@ -2719,7 +3039,9 @@
 ---
 
 ### trurl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
+- **Note:** 
 - **Author:** stunnel
 - **WebURL:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
 - **Repository:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
@@ -2736,7 +3058,9 @@
 ---
 
 ### curlie
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/curlie.sh
 - **Description:** The power of curl, the ease of use of httpie.
+- **Note:** 
 - **Author:** rs
 - **WebURL:** [https://github.com/rs/curlie](https://github.com/rs/curlie)
 - **Repository:** [https://github.com/rs/curlie](https://github.com/rs/curlie)
@@ -2753,7 +3077,9 @@
 ---
 
 ### cut-cdn
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cut-cdn.sh
 - **Description:** ✂️ Removing CDN IPs from the list of IP addresses
+- **Note:** 
 - **Author:** ImAyrix
 - **WebURL:** [https://github.com/ImAyrix/cut-cdn](https://github.com/ImAyrix/cut-cdn)
 - **Repository:** [https://github.com/ImAyrix/cut-cdn](https://github.com/ImAyrix/cut-cdn)
@@ -2770,7 +3096,9 @@
 ---
 
 ### cutlines
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cutlines.sh
 - **Description:** Cut & Paste Lines (from|to) file without $TEMPFILE even if another process is writing to it
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -2787,7 +3115,9 @@
 ---
 
 ### cvemap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cvemap.sh
 - **Description:** Navigate the CVE jungle with ease.
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
 - **Repository:** [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
@@ -2804,7 +3134,9 @@
 ---
 
 ### cwe_checker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/cwe_checker.sh
 - **Description:** cwe_checker finds vulnerable patterns in binary executables
+- **Note:** 
 - **Author:** fkie-cad
 - **WebURL:** [https://github.com/fkie-cad/cwe_checker](https://github.com/fkie-cad/cwe_checker)
 - **Repository:** [https://github.com/fkie-cad/cwe_checker](https://github.com/fkie-cad/cwe_checker)
@@ -2821,11 +3153,13 @@
 ---
 
 ### czkawka-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/czkawka.sh
 - **Description:** Multi functional app to find duplicates, empty folders, similar images etc.
+- **Note:** 
 - **Author:** qarmin
 - **WebURL:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
 - **Repository:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
-- **Stars:** 19457
+- **Stars:** 19458
 - **Version:** 7.0.0
 - **Updated:** 2024-08-16T02:43:20Z
 - **Size:** 12.28 MB
@@ -2838,7 +3172,9 @@
 ---
 
 ### dagu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dagu.sh
 - **Description:** cron alternative with a Web UI, but with much more capabilities
+- **Note:** 
 - **Author:** dagu-org
 - **WebURL:** [https://github.com/dagu-dev/dagu](https://github.com/dagu-dev/dagu)
 - **Repository:** [https://github.com/dagu-dev/dagu](https://github.com/dagu-dev/dagu)
@@ -2855,7 +3191,9 @@
 ---
 
 ### dalfox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dalfox.sh
 - **Description:** 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.
+- **Note:** 
 - **Author:** hahwul
 - **WebURL:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
 - **Repository:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
@@ -2872,7 +3210,9 @@
 ---
 
 ### darkhttpd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/darkhttpd.sh
 - **Description:** Standalone, Minimal HTTP Server
+- **Note:** 
 - **Author:** emikulic
 - **WebURL:** [https://github.com/emikulic/darkhttpd](https://github.com/emikulic/darkhttpd)
 - **Repository:** [https://github.com/emikulic/darkhttpd](https://github.com/emikulic/darkhttpd)
@@ -2889,7 +3229,9 @@
 ---
 
 ### dasel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dasel.sh
 - **Description:** Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool
+- **Note:** 
 - **Author:** TomWright
 - **WebURL:** [https://github.com/TomWright/dasel](https://github.com/TomWright/dasel)
 - **Repository:** [https://github.com/TomWright/dasel](https://github.com/TomWright/dasel)
@@ -2906,7 +3248,9 @@
 ---
 
 ### datadash
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/datadash.sh
 - **Description:** Visualize and graph data in the terminal
+- **Note:** 
 - **Author:** keithknott26
 - **WebURL:** [https://github.com/keithknott26/datadash](https://github.com/keithknott26/datadash)
 - **Repository:** [https://github.com/keithknott26/datadash](https://github.com/keithknott26/datadash)
@@ -2923,7 +3267,9 @@
 ---
 
 ### daytona
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/daytona.sh
 - **Description:** The Open Source Dev Environment Manager.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/daytonaio/daytonahttps://github.com/daytonaio/daytona](https://github.com/daytonaio/daytonahttps://github.com/daytonaio/daytona)
 - **Repository:** [https://github.com/daytonaio/daytonahttps://github.com/daytonaio/daytona](https://github.com/daytonaio/daytonahttps://github.com/daytonaio/daytona)
@@ -2940,7 +3286,9 @@
 ---
 
 ### dbbench
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dbbench.sh
 - **Description:** a simple database benchmarking tool which supports several databases and own scripts
+- **Note:** 
 - **Author:** sj14
 - **WebURL:** [https://github.com/sj14/dbbench](https://github.com/sj14/dbbench)
 - **Repository:** [https://github.com/sj14/dbbench](https://github.com/sj14/dbbench)
@@ -2957,7 +3305,9 @@
 ---
 
 ### dbin
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dbin.sh
 - **Description:** Binary Downloader(s) || Like a package manager, but for statically linked binaries.
+- **Note:** 
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
 - **Repository:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
@@ -2974,7 +3324,9 @@
 ---
 
 ### dblab
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dblab.sh
 - **Description:** The database client every command line junkie deserves.
+- **Note:** 
 - **Author:** danvergara
 - **WebURL:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
 - **Repository:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
@@ -2991,7 +3343,9 @@
 ---
 
 ### ddns-go
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ddns-go.sh
 - **Description:** Simple and easy to use DDNS.
+- **Note:** 
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
@@ -3008,13 +3362,15 @@
 ---
 
 ### deark
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/deark.sh
 - **Description:** A utility for file format and metadata analysis, data extraction, decompression, and image format decoding
+- **Note:** 
 - **Author:** jsummers
 - **WebURL:** [https://entropymine.com/deark/](https://entropymine.com/deark/)
 - **Repository:** [https://github.com/jsummers/deark](https://github.com/jsummers/deark)
 - **Stars:** 169
 - **Version:** v1.6.8
-- **Updated:** 2024-09-12T12:12:53Z
+- **Updated:** 2024-09-21T17:29:51Z
 - **Size:** 2 MB
 - **SHA256SUM:** 9d64eb5e4b216072120fdd1eac960e672bee51a4e9d23615b2d316655fa16a20
 - **B3SUM:** b8099bd836d6026cac7a1522dd90de03932eb4e63c47c72051c95d9d91b094e9
@@ -3025,11 +3381,13 @@
 ---
 
 ### delta
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/delta.sh
 - **Description:** A syntax-highlighting pager for git, diff, and grep output
+- **Note:** 
 - **Author:** dandavison
 - **WebURL:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
 - **Repository:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
-- **Stars:** 22583
+- **Stars:** 22585
 - **Version:** 0.18.2
 - **Updated:** 2024-09-15T08:42:35Z
 - **Size:** 7.18 MB
@@ -3042,7 +3400,9 @@
 ---
 
 ### deoptimizer
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/deoptimizer.sh
 - **Description:** Machine code de-optimizer to bypass AV
+- **Note:** 
 - **Author:** EgeBalci
 - **WebURL:** [https://github.com/EgeBalci/deoptimizer](https://github.com/EgeBalci/deoptimizer)
 - **Repository:** [https://github.com/EgeBalci/deoptimizer](https://github.com/EgeBalci/deoptimizer)
@@ -3059,7 +3419,9 @@
 ---
 
 ### desktop-file-edit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.freedesktop.org/wiki/Software/desktop-file-utils](https://www.freedesktop.org/wiki/Software/desktop-file-utils)
 - **Repository:** []()
@@ -3076,7 +3438,9 @@
 ---
 
 ### desktop-file-install
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.freedesktop.org/wiki/Software/desktop-file-utils](https://www.freedesktop.org/wiki/Software/desktop-file-utils)
 - **Repository:** []()
@@ -3093,7 +3457,9 @@
 ---
 
 ### desktop-file-validate
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.freedesktop.org/wiki/Software/desktop-file-utils](https://www.freedesktop.org/wiki/Software/desktop-file-utils)
 - **Repository:** []()
@@ -3110,7 +3476,9 @@
 ---
 
 ### update-desktop-database
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.freedesktop.org/wiki/Software/desktop-file-utils](https://www.freedesktop.org/wiki/Software/desktop-file-utils)
 - **Repository:** []()
@@ -3127,7 +3495,9 @@
 ---
 
 ### devbox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/devbox.sh
 - **Description:** Instant, easy, and predictable development environments
+- **Note:** 
 - **Author:** jetify-com
 - **WebURL:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
 - **Repository:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
@@ -3144,7 +3514,9 @@
 ---
 
 ### devpod
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/devpod.sh
 - **Description:** Codespaces but open-source, client-only and unopinionated
+- **Note:** 
 - **Author:** loft-sh
 - **WebURL:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
 - **Repository:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
@@ -3161,7 +3533,9 @@
 ---
 
 ### diffoci
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/diffoci.sh
 - **Description:** diff for Docker and OCI container images
+- **Note:** 
 - **Author:** reproducible-containers
 - **WebURL:** [https://github.com/reproducible-containers/diffoci](https://github.com/reproducible-containers/diffoci)
 - **Repository:** [https://github.com/reproducible-containers/diffoci](https://github.com/reproducible-containers/diffoci)
@@ -3178,7 +3552,9 @@
 ---
 
 ### diffutils-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/diffutils-rs.sh
 - **Description:** Dropped in replacement of diffutils in Rust
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/diffutils](https://github.com/uutils/diffutils)
 - **Repository:** [https://github.com/uutils/diffutils](https://github.com/uutils/diffutils)
@@ -3195,7 +3571,9 @@
 ---
 
 ### direnv
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/direnv.sh
 - **Description:** unclutter your .profile
+- **Note:** 
 - **Author:** direnv
 - **WebURL:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
 - **Repository:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
@@ -3212,7 +3590,9 @@
 ---
 
 ### ds
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dirstat-rs.sh
 - **Description:** (fastest?) disk usage cli, similar to windirstat.
+- **Note:** 
 - **Author:** scullionw
 - **WebURL:** [https://github.com/scullionw/dirstat-rs](https://github.com/scullionw/dirstat-rs)
 - **Repository:** [https://github.com/scullionw/dirstat-rs](https://github.com/scullionw/dirstat-rs)
@@ -3229,7 +3609,9 @@
 ---
 
 ### dizi
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dizi.sh
 - **Description:** Server-client music player written in Rust
+- **Note:** 
 - **Author:** kamiyaa
 - **WebURL:** [https://github.com/kamiyaa/dizi](https://github.com/kamiyaa/dizi)
 - **Repository:** [https://github.com/kamiyaa/dizi](https://github.com/kamiyaa/dizi)
@@ -3246,7 +3628,9 @@
 ---
 
 ### dizi-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dizi.sh
 - **Description:** Server-client music player written in Rust
+- **Note:** 
 - **Author:** kamiyaa
 - **WebURL:** [https://github.com/kamiyaa/dizi](https://github.com/kamiyaa/dizi)
 - **Repository:** [https://github.com/kamiyaa/dizi](https://github.com/kamiyaa/dizi)
@@ -3263,7 +3647,9 @@
 ---
 
 ### dns-doctor
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dns-doctor.sh
 - **Description:** Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems
+- **Note:** 
 - **Author:** jvns
 - **WebURL:** [https://github.com/jvns/dns-doctor](https://github.com/jvns/dns-doctor)
 - **Repository:** [https://github.com/jvns/dns-doctor](https://github.com/jvns/dns-doctor)
@@ -3280,7 +3666,9 @@
 ---
 
 ### dnslookup
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dnslookup.sh
 - **Description:** Simple command line utility to make DNS lookups to the specified server
+- **Note:** 
 - **Author:** ameshkov
 - **WebURL:** [https://github.com/ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
 - **Repository:** [https://github.com/ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
@@ -3297,7 +3685,9 @@
 ---
 
 ### dnsperf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dnsperf.sh
 - **Description:** DNS Performance Testing Tools
+- **Note:** 
 - **Author:** DNS-OARC
 - **WebURL:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
 - **Repository:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
@@ -3314,7 +3704,9 @@
 ---
 
 ### resperf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dnsperf.sh
 - **Description:** DNS Performance Testing Tools
+- **Note:** 
 - **Author:** DNS-OARC
 - **WebURL:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
 - **Repository:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
@@ -3331,7 +3723,9 @@
 ---
 
 ### dnspyre
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dnspyre.sh
 - **Description:** command-line DNS benchmark tool built to stress test and measure the performance of DNS servers
+- **Note:** 
 - **Author:** Tantalor93
 - **WebURL:** [https://github.com/Tantalor93/dnspyre](https://github.com/Tantalor93/dnspyre)
 - **Repository:** [https://github.com/Tantalor93/dnspyre](https://github.com/Tantalor93/dnspyre)
@@ -3348,7 +3742,9 @@
 ---
 
 ### dnstake
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dnstake.sh
 - **Description:** Check missing hosted DNS zones that can lead to subdomain takeover
+- **Note:** 
 - **Author:** pwnesia
 - **WebURL:** [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 - **Repository:** [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
@@ -3365,11 +3761,13 @@
 ---
 
 ### dnsx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dnsx.sh
 - **Description:** Multi-purpose DNS toolkit allow to run multiple DNS queries
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/dnsx](https://github.com/projectdiscovery/dnsx)
 - **Repository:** [https://github.com/projectdiscovery/dnsx](https://github.com/projectdiscovery/dnsx)
-- **Stars:** 2147
+- **Stars:** 2148
 - **Version:** v1.2.1
 - **Updated:** 2024-09-16T02:44:34Z
 - **Size:** 28.44 MB
@@ -3382,7 +3780,9 @@
 ---
 
 ### doas
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/doas.sh
 - **Description:** A portable fork of the OpenBSD doas command
+- **Note:** 
 - **Author:** Duncaen
 - **WebURL:** [https://github.com/Duncaen/OpenDoas](https://github.com/Duncaen/OpenDoas)
 - **Repository:** [https://github.com/Duncaen/OpenDoas](https://github.com/Duncaen/OpenDoas)
@@ -3399,7 +3799,9 @@
 ---
 
 ### containerd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3416,7 +3818,9 @@
 ---
 
 ### containerd-shim-runc-v2
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3433,7 +3837,9 @@
 ---
 
 ### ctr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3450,7 +3856,9 @@
 ---
 
 ### docker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3467,7 +3875,9 @@
 ---
 
 ### docker-init
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3484,7 +3894,9 @@
 ---
 
 ### docker-proxy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3501,7 +3913,9 @@
 ---
 
 ### dockerd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3518,7 +3932,9 @@
 ---
 
 ### dockerd-rootless-setuptool.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3535,7 +3951,9 @@
 ---
 
 ### dockerd-rootless.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3552,7 +3970,9 @@
 ---
 
 ### rootlesskit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3569,7 +3989,9 @@
 ---
 
 ### rootlesskit-docker-proxy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3586,7 +4008,9 @@
 ---
 
 ### runc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3603,7 +4027,9 @@
 ---
 
 ### vpnkit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/docker.sh
 - **Description:** Container
+- **Note:** 
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
@@ -3620,7 +4046,9 @@
 ---
 
 ### dockerc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dockerc.sh
 - **Description:** Container Image to Single Executable Compiler
+- **Note:** 
 - **Author:** NilsIrl
 - **WebURL:** [https://github.com/NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
 - **Repository:** [https://github.com/NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
@@ -3637,7 +4065,9 @@
 ---
 
 ### doggo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/doggo.sh
 - **Description:** 🐶 Command-line DNS Client for Humans
+- **Note:** 
 - **Author:** mr-karan
 - **WebURL:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
 - **Repository:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
@@ -3654,7 +4084,9 @@
 ---
 
 ### dos2unix
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://dos2unix.sourceforge.io](https://dos2unix.sourceforge.io)
 - **Repository:** []()
@@ -3671,7 +4103,9 @@
 ---
 
 ### mac2unix
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://dos2unix.sourceforge.io](https://dos2unix.sourceforge.io)
 - **Repository:** []()
@@ -3688,7 +4122,9 @@
 ---
 
 ### unix2dos
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://dos2unix.sourceforge.io](https://dos2unix.sourceforge.io)
 - **Repository:** []()
@@ -3705,7 +4141,9 @@
 ---
 
 ### unix2mac
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://dos2unix.sourceforge.io](https://dos2unix.sourceforge.io)
 - **Repository:** []()
@@ -3722,7 +4160,9 @@
 ---
 
 ### dotenv-linter
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dotenv-linter.sh
 - **Description:** ⚡️Lightning-fast linter for .env files. Written in Rust 🦀
+- **Note:** 
 - **Author:** dotenv-linter
 - **WebURL:** [https://github.com/dotenv-linter/dotenv-linter](https://github.com/dotenv-linter/dotenv-linter)
 - **Repository:** [https://github.com/dotenv-linter/dotenv-linter](https://github.com/dotenv-linter/dotenv-linter)
@@ -3739,7 +4179,9 @@
 ---
 
 ### dperf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dperf.sh
 - **Description:** Drive performance measurement tool
+- **Note:** 
 - **Author:** minio
 - **WebURL:** [https://github.com/minio/dperf](https://github.com/minio/dperf)
 - **Repository:** [https://github.com/minio/dperf](https://github.com/minio/dperf)
@@ -3756,7 +4198,9 @@
 ---
 
 ### dsieve
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dsieve.sh
 - **Description:** Filter and enrich a list of subdomains by level
+- **Note:** 
 - **Author:** trickest
 - **WebURL:** [https://github.com/trickest/dsieve](https://github.com/trickest/dsieve)
 - **Repository:** [https://github.com/trickest/dsieve](https://github.com/trickest/dsieve)
@@ -3773,7 +4217,9 @@
 ---
 
 ### duf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/duf.sh
 - **Description:** Disk Usage/Free Utility - a better df alternative
+- **Note:** 
 - **Author:** muesli
 - **WebURL:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
 - **Repository:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
@@ -3790,7 +4236,9 @@
 ---
 
 ### dufs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dufs.sh
 - **Description:** A file server that supports static serving, uploading, searching, accessing control, webdav
+- **Note:** 
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
@@ -3807,7 +4255,9 @@
 ---
 
 ### dura
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dura.sh
 - **Description:** Dura is a background process that watches your Git repositories and commits your uncommitted changes without impacting HEAD, the current branch, or the Git index (staged files)
+- **Note:** 
 - **Author:** tkellogg
 - **WebURL:** [https://github.com/tkellogg/dura](https://github.com/tkellogg/dura)
 - **Repository:** [https://github.com/tkellogg/dura](https://github.com/tkellogg/dura)
@@ -3824,11 +4274,13 @@
 ---
 
 ### dust
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dust.sh
 - **Description:** A more intuitive version of du in rust
+- **Note:** 
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8631
+- **Stars:** 8633
 - **Version:** v1.1.1
 - **Updated:** 2024-09-16T21:01:10Z
 - **Size:** 3.01 MB
@@ -3841,7 +4293,9 @@
 ---
 
 ### dwarfs-tools
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dwarfs.sh
 - **Description:** Single Binary DwarFS Toolset including mkdwarfs, dwarfsck, dwarfsextract & dwarfs
+- **Note:** 
 - **Author:** mhx
 - **WebURL:** [https://github.com/mhx/dwarfs](https://github.com/mhx/dwarfs)
 - **Repository:** [https://github.com/mhx/dwarfs](https://github.com/mhx/dwarfs)
@@ -3858,7 +4312,9 @@
 ---
 
 ### dysk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dysk.sh
 - **Description:** A linux utility to get information on filesystems, like df but better
+- **Note:** 
 - **Author:** Canop
 - **WebURL:** [https://github.com/Canop/dysk](https://github.com/Canop/dysk)
 - **Repository:** [https://github.com/Canop/dysk](https://github.com/Canop/dysk)
@@ -3875,7 +4331,9 @@
 ---
 
 ### ecoji
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ecoji.sh
 - **Description:** Encodes (and decodes) data as emojis
+- **Note:** 
 - **Author:** keith-turner
 - **WebURL:** [https://github.com/keith-turner/ecoji](https://github.com/keith-turner/ecoji)
 - **Repository:** [https://github.com/keith-turner/ecoji](https://github.com/keith-turner/ecoji)
@@ -3892,7 +4350,9 @@
 ---
 
 ### edgevpn
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/edgevpn.sh
 - **Description:** ⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery
+- **Note:** 
 - **Author:** mudler
 - **WebURL:** [https://github.com/mudler/edgevpn](https://github.com/mudler/edgevpn)
 - **Repository:** [https://github.com/mudler/edgevpn](https://github.com/mudler/edgevpn)
@@ -3909,7 +4369,9 @@
 ---
 
 ### eget
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/eget.sh
 - **Description:** Easily install prebuilt binaries from GitHub.
+- **Note:** 
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
 - **Repository:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
@@ -3926,7 +4388,9 @@
 ---
 
 ### ehole
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ehole.sh
 - **Description:** vulnerability detection & exploitation
+- **Note:** 
 - **Author:** lemonlove7
 - **WebURL:** [https://github.com/lemonlove7/EHole_magic](https://github.com/lemonlove7/EHole_magic)
 - **Repository:** [https://github.com/lemonlove7/EHole_magic](https://github.com/lemonlove7/EHole_magic)
@@ -3943,7 +4407,9 @@
 ---
 
 ### elfcat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/elfcat.sh
 - **Description:** ELF visualizer. Generates HTML files from ELF binaries.
+- **Note:** 
 - **Author:** ruslashev
 - **WebURL:** [https://github.com/ruslashev/elfcat](https://github.com/ruslashev/elfcat)
 - **Repository:** [https://github.com/ruslashev/elfcat](https://github.com/ruslashev/elfcat)
@@ -3960,13 +4426,15 @@
 ---
 
 ### elinks
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/elinks.sh
 - **Description:** Full-Featured Text WWW Browser
+- **Note:** 
 - **Author:** rkd77
 - **WebURL:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
 - **Repository:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
 - **Stars:** 340
 - **Version:** v0.17.0
-- **Updated:** 2024-09-21T10:43:50Z
+- **Updated:** 2024-09-21T17:10:12Z
 - **Size:** 5.16 MB
 - **SHA256SUM:** 05de54b8e76a624dc0a60f7bba20b6a723e68bc853fb1f7573c5cebbded4ec92
 - **B3SUM:** 443ed0be123ff84dbc11e09d5151120957fcea45649e53d3a9275d8095341a85
@@ -3977,13 +4445,15 @@
 ---
 
 ### elinks-lite
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/elinks.sh
 - **Description:** Full-Featured Text WWW Browser
+- **Note:** 
 - **Author:** rkd77
 - **WebURL:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
 - **Repository:** [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
 - **Stars:** 340
 - **Version:** v0.17.0
-- **Updated:** 2024-09-21T10:43:50Z
+- **Updated:** 2024-09-21T17:10:12Z
 - **Size:** 5.16 MB
 - **SHA256SUM:** 05de54b8e76a624dc0a60f7bba20b6a723e68bc853fb1f7573c5cebbded4ec92
 - **B3SUM:** 443ed0be123ff84dbc11e09d5151120957fcea45649e53d3a9275d8095341a85
@@ -3994,7 +4464,9 @@
 ---
 
 ### elvish
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/elvish.sh
 - **Description:** Elvish = Expressive Programming Language + Versatile Interactive Shell
+- **Note:** 
 - **Author:** elves
 - **WebURL:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
 - **Repository:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
@@ -4011,7 +4483,9 @@
 ---
 
 ### enc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/enc.sh
 - **Description:** 🔑🔒 A modern and friendly CLI alternative to GnuPG
+- **Note:** 
 - **Author:** life4
 - **WebURL:** [https://github.com/life4/enc](https://github.com/life4/enc)
 - **Repository:** [https://github.com/life4/enc](https://github.com/life4/enc)
@@ -4028,7 +4502,9 @@
 ---
 
 ### encode
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/encode.sh
 - **Description:** Encode|Decode input from stdin
+- **Note:** 
 - **Author:** Brum3ns
 - **WebURL:** [https://github.com/Brum3ns/encode](https://github.com/Brum3ns/encode)
 - **Repository:** [https://github.com/Brum3ns/encode](https://github.com/Brum3ns/encode)
@@ -4045,7 +4521,9 @@
 ---
 
 ### encrypted-dns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/encrypted-dns-server.sh
 - **Description:** high-performance, zero maintenance proxy to run an encrypted DNS server.
+- **Note:** 
 - **Author:** DNSCrypt
 - **WebURL:** [https://github.com/DNSCrypt/encrypted-dns-server](https://github.com/DNSCrypt/encrypted-dns-server)
 - **Repository:** [https://github.com/DNSCrypt/encrypted-dns-server](https://github.com/DNSCrypt/encrypted-dns-server)
@@ -4062,7 +4540,9 @@
 ---
 
 ### enola
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/enola.sh
 - **Description:** Hunt down social media accounts by username across social networks
+- **Note:** 
 - **Author:** TheYahya
 - **WebURL:** [https://github.com/TheYahya/enola](https://github.com/TheYahya/enola)
 - **Repository:** [https://github.com/TheYahya/enola](https://github.com/TheYahya/enola)
@@ -4079,7 +4559,9 @@
 ---
 
 ### entr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/entr.sh
 - **Description:** Run arbitrary commands when files change
+- **Note:** 
 - **Author:** eradman
 - **WebURL:** [https://eradman.com/entrproject/](https://eradman.com/entrproject/)
 - **Repository:** [https://github.com/eradman/entr](https://github.com/eradman/entr)
@@ -4096,7 +4578,9 @@
 ---
 
 ### enumerepo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/enumerepo.sh
 - **Description:** List all public repositories for (valid) GitHub usernames
+- **Note:** 
 - **Author:** trickest
 - **WebURL:** [https://github.com/trickest/enumerepo](https://github.com/trickest/enumerepo)
 - **Repository:** [https://github.com/trickest/enumerepo](https://github.com/trickest/enumerepo)
@@ -4113,7 +4597,9 @@
 ---
 
 ### epoch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/epoch.sh
 - **Description:** 🕗 Easily convert epoch timestamps to human-readable formats and vice versa.
+- **Note:** 
 - **Author:** sj14
 - **WebURL:** [https://github.com/sj14/epoch](https://github.com/sj14/epoch)
 - **Repository:** [https://github.com/sj14/epoch](https://github.com/sj14/epoch)
@@ -4130,11 +4616,13 @@
 ---
 
 ### etcd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/etcd.sh
 - **Description:** Distributed reliable key-value store for the most critical data of a distributed system
+- **Note:** 
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47434
+- **Stars:** 47435
 - **Version:** v3.5.16
 - **Updated:** 2024-09-20T09:42:34Z
 - **Size:** 23.62 MB
@@ -4147,11 +4635,13 @@
 ---
 
 ### etcdctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/etcd.sh
 - **Description:** Distributed reliable key-value store for the most critical data of a distributed system
+- **Note:** 
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47434
+- **Stars:** 47435
 - **Version:** v3.5.16
 - **Updated:** 2024-09-20T09:42:34Z
 - **Size:** 17.9 MB
@@ -4164,11 +4654,13 @@
 ---
 
 ### etcdutl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/etcd.sh
 - **Description:** Distributed reliable key-value store for the most critical data of a distributed system
+- **Note:** 
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47434
+- **Stars:** 47435
 - **Version:** v3.5.16
 - **Updated:** 2024-09-20T09:42:34Z
 - **Size:** 14.89 MB
@@ -4181,7 +4673,9 @@
 ---
 
 ### exatorrent
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/exatorrent.sh
 - **Description:** 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
+- **Note:** 
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
@@ -4198,7 +4692,9 @@
 ---
 
 ### exatorrent-noui
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/exatorrent.sh
 - **Description:** 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
+- **Note:** 
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
@@ -4215,7 +4711,9 @@
 ---
 
 ### exiflooter
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/exiflooter.sh
 - **Description:** ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap
+- **Note:** 
 - **Author:** aydinnyunus
 - **WebURL:** [https://github.com/aydinnyunus/exifLooter](https://github.com/aydinnyunus/exifLooter)
 - **Repository:** [https://github.com/aydinnyunus/exifLooter](https://github.com/aydinnyunus/exifLooter)
@@ -4232,13 +4730,15 @@
 ---
 
 ### eza
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/eza.sh
 - **Description:** A modern replacement for ‘ls’. (Fork of exa)
+- **Note:** 
 - **Author:** eza-community
 - **WebURL:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
 - **Repository:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
-- **Stars:** 11184
+- **Stars:** 11185
 - **Version:** v0.19.4
-- **Updated:** 2024-09-21T07:08:17Z
+- **Updated:** 2024-09-21T16:04:44Z
 - **Size:** 2.36 MB
 - **SHA256SUM:** b1f79a9c183fa28f822326d744a3e32a9b1f2d6922ca8ddcf32f2409c368b402
 - **B3SUM:** 0bd91c7b0bb7313a34a97e2196ae95ff74781bfd17d774db1425857e420f2b82
@@ -4249,7 +4749,9 @@
 ---
 
 ### falconhound
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/falconhound.sh
 - **Description:** FalconHound is a blue team multi-tool
+- **Note:** 
 - **Author:** FalconForceTeam
 - **WebURL:** [https://github.com/FalconForceTeam/FalconHound](https://github.com/FalconForceTeam/FalconHound)
 - **Repository:** [https://github.com/FalconForceTeam/FalconHound](https://github.com/FalconForceTeam/FalconHound)
@@ -4266,11 +4768,13 @@
 ---
 
 ### fastfetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fastfetch.sh
 - **Description:** Like neofetch, but much faster because written in C.
+- **Note:** 
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 9748
+- **Stars:** 9751
 - **Version:** 2.25.0
 - **Updated:** 2024-09-21T15:05:01Z
 - **Size:** 1.85 MB
@@ -4283,11 +4787,13 @@
 ---
 
 ### fastfetch-staticx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fastfetch.sh
 - **Description:** Like neofetch, but much faster because written in C.
+- **Note:** 
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 9748
+- **Stars:** 9751
 - **Version:** 2.25.0
 - **Updated:** 2024-09-21T15:05:01Z
 - **Size:** 1.62 MB
@@ -4300,11 +4806,13 @@
 ---
 
 ### flashfetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fastfetch.sh
 - **Description:** Like neofetch, but much faster because written in C.
+- **Note:** 
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 9748
+- **Stars:** 9751
 - **Version:** 2.25.0
 - **Updated:** 2024-09-21T15:05:01Z
 - **Size:** 1.64 MB
@@ -4317,7 +4825,9 @@
 ---
 
 ### fblog
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fblog.sh
 - **Description:** Small command-line JSON Log viewer
+- **Note:** 
 - **Author:** brocode
 - **WebURL:** [https://github.com/brocode/fblog](https://github.com/brocode/fblog)
 - **Repository:** [https://github.com/brocode/fblog](https://github.com/brocode/fblog)
@@ -4334,7 +4844,9 @@
 ---
 
 ### fclones
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fclones.sh
 - **Description:** Efficient Duplicate File Finder
+- **Note:** 
 - **Author:** pkolaczk
 - **WebURL:** [https://github.com/pkolaczk/fclones](https://github.com/pkolaczk/fclones)
 - **Repository:** [https://github.com/pkolaczk/fclones](https://github.com/pkolaczk/fclones)
@@ -4351,7 +4863,9 @@
 ---
 
 ### fd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fd.sh
 - **Description:** A simple, fast and user-friendly alternative to find
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
@@ -4368,7 +4882,9 @@
 ---
 
 ### fd-find
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fd.sh
 - **Description:** A simple, fast and user-friendly alternative to find
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
@@ -4385,7 +4901,9 @@
 ---
 
 ### fdupes
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fdupes.sh
 - **Description:** FDUPES is a program for identifying or deleting duplicate files residing within specified directories.
+- **Note:** 
 - **Author:** adrianlopezroche
 - **WebURL:** [https://github.com/adrianlopezroche/fdupes](https://github.com/adrianlopezroche/fdupes)
 - **Repository:** [https://github.com/adrianlopezroche/fdupes](https://github.com/adrianlopezroche/fdupes)
@@ -4402,7 +4920,9 @@
 ---
 
 ### feroxbuster
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/feroxbuster.sh
 - **Description:** A fast, simple, recursive content discovery tool written in Rust.
+- **Note:** 
 - **Author:** epi052
 - **WebURL:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
 - **Repository:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
@@ -4419,7 +4939,9 @@
 ---
 
 ### ffmpeg
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ffmpeg.sh
 - **Description:** Static build of ffmpeg
+- **Note:** 
 - **Author:** eugeneware
 - **WebURL:** [https://github.com/eugeneware/ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
 - **Repository:** [https://github.com/eugeneware/ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
@@ -4436,7 +4958,9 @@
 ---
 
 ### ffprobe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ffmpeg.sh
 - **Description:** Static build of ffmpeg
+- **Note:** 
 - **Author:** eugeneware
 - **WebURL:** [https://github.com/eugeneware/ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
 - **Repository:** [https://github.com/eugeneware/ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
@@ -4453,7 +4977,9 @@
 ---
 
 ### ffuf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ffuf.sh
 - **Description:** Fast web fuzzer written in Go
+- **Note:** 
 - **Author:** ffuf
 - **WebURL:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
 - **Repository:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
@@ -4470,7 +4996,9 @@
 ---
 
 ### ffufPostprocessing
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ffufPostprocessing.sh
 - **Description:** Filter ffuf results
+- **Note:** 
 - **Author:** dsecuredcom
 - **WebURL:** [https://github.com/Damian89/ffufPostprocessing](https://github.com/Damian89/ffufPostprocessing)
 - **Repository:** [https://github.com/Damian89/ffufPostprocessing](https://github.com/Damian89/ffufPostprocessing)
@@ -4487,7 +5015,9 @@
 ---
 
 ### ffufw
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ffufw.sh
 - **Description:** a wrapper around ffuf to make directory bruteforcing easier and more intelligent
+- **Note:** 
 - **Author:** puzzlepeaches
 - **WebURL:** [https://github.com/puzzlepeaches/ffufw](https://github.com/puzzlepeaches/ffufw)
 - **Repository:** [https://github.com/puzzlepeaches/ffufw](https://github.com/puzzlepeaches/ffufw)
@@ -4504,7 +5034,9 @@
 ---
 
 ### fget
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fget.sh
 - **Description:** Multithread download for a list of files.
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -4521,7 +5053,9 @@
 ---
 
 ### fi6s
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fi6s.sh
 - **Description:** IPv6 network scanner designed to be fast
+- **Note:** 
 - **Author:** sfan5
 - **WebURL:** [https://github.com/sfan5/fi6s](https://github.com/sfan5/fi6s)
 - **Repository:** [https://github.com/sfan5/fi6s](https://github.com/sfan5/fi6s)
@@ -4538,11 +5072,13 @@
 ---
 
 ### filebrowser
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/filebrowser.sh
 - **Description:** 📂 Web File Browser
+- **Note:** 
 - **Author:** filebrowser
 - **WebURL:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
 - **Repository:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
-- **Stars:** 25984
+- **Stars:** 25985
 - **Version:** v2.31.1
 - **Updated:** 2024-09-17T23:54:36Z
 - **Size:** 17.05 MB
@@ -4555,7 +5091,9 @@
 ---
 
 ### findlargedir
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/findlargedir.sh
 - **Description:** quickly find all blackhole directories with a huge amount of filesystem entries in a flat structure
+- **Note:** 
 - **Author:** dkorunic
 - **WebURL:** [https://github.com/dkorunic/findlargedir](https://github.com/dkorunic/findlargedir)
 - **Repository:** [https://github.com/dkorunic/findlargedir](https://github.com/dkorunic/findlargedir)
@@ -4572,7 +5110,9 @@
 ---
 
 ### findomain
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/findomain.sh
 - **Description:** Subdomains Finder
+- **Note:** 
 - **Author:** Findomain
 - **WebURL:** [https://github.com/Findomain/Findomain](https://github.com/Findomain/Findomain)
 - **Repository:** [https://github.com/Findomain/Findomain](https://github.com/Findomain/Findomain)
@@ -4589,7 +5129,9 @@
 ---
 
 ### find-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/findutils_uutils.sh
 - **Description:** Rust implementation of findutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
@@ -4606,7 +5148,9 @@
 ---
 
 ### xargs-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/findutils_uutils.sh
 - **Description:** Rust implementation of findutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
@@ -4623,7 +5167,9 @@
 ---
 
 ### fingerprintx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fingerprintx.sh
 - **Description:** Standalone utility for service discovery on open ports!
+- **Note:** 
 - **Author:** praetorian-inc
 - **WebURL:** [https://github.com/praetorian-inc/fingerprintx](https://github.com/praetorian-inc/fingerprintx)
 - **Repository:** [https://github.com/praetorian-inc/fingerprintx](https://github.com/praetorian-inc/fingerprintx)
@@ -4640,7 +5186,9 @@
 ---
 
 ### fio
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fio.sh
 - **Description:** Flexible I/O Tester
+- **Note:** 
 - **Author:** axboe
 - **WebURL:** [https://github.com/axboe/fio](https://github.com/axboe/fio)
 - **Repository:** [https://github.com/axboe/fio](https://github.com/axboe/fio)
@@ -4657,7 +5205,9 @@
 ---
 
 ### flawz
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/flawz.sh
 - **Description:** A Terminal UI for browsing security vulnerabilities (CVEs)
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
 - **Repository:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
@@ -4674,7 +5224,9 @@
 ---
 
 ### fnm
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fnm.sh
 - **Description:** 🚀 Fast and simple Node.js version manager, built in Rust
+- **Note:** 
 - **Author:** Schniz
 - **WebURL:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 - **Repository:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
@@ -4691,7 +5243,9 @@
 ---
 
 ### fq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fq.sh
 - **Description:** jq for binary formats - tool, language and decoders for working with binary and text formats
+- **Note:** 
 - **Author:** wader
 - **WebURL:** [https://github.com/wader/fq](https://github.com/wader/fq)
 - **Repository:** [https://github.com/wader/fq](https://github.com/wader/fq)
@@ -4708,7 +5262,9 @@
 ---
 
 ### freeze
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/freeze.sh
 - **Description:** Generate images of code and terminal output 📸
+- **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
 - **Repository:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
@@ -4725,7 +5281,9 @@
 ---
 
 ### fscan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fscan.sh
 - **Description:** A comprehensive intranet scanning tool that facilitates one-click automated, all-round missed scanning.
+- **Note:** 
 - **Author:** shadow1ng
 - **WebURL:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
 - **Repository:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
@@ -4742,7 +5300,9 @@
 ---
 
 ### fuse-overlayfs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fuse-overlayfs.sh
 - **Description:** FUSE implementation for overlayfs
+- **Note:** 
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/fuse-overlayfs](https://github.com/containers/fuse-overlayfs)
 - **Repository:** [https://github.com/containers/fuse-overlayfs](https://github.com/containers/fuse-overlayfs)
@@ -4759,7 +5319,9 @@
 ---
 
 ### fuzzuli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fuzzuli.sh
 - **Description:** URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
+- **Note:** 
 - **Author:** musana
 - **WebURL:** [https://github.com/musana/fuzzuli](https://github.com/musana/fuzzuli)
 - **Repository:** [https://github.com/musana/fuzzuli](https://github.com/musana/fuzzuli)
@@ -4776,7 +5338,9 @@
 ---
 
 ### fwanalyzer
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fwanalyzer.sh
 - **Description:** a tool to analyze filesystem images for security
+- **Note:** 
 - **Author:** cruise-automation
 - **WebURL:** [https://github.com/cruise-automation/fwanalyzer](https://github.com/cruise-automation/fwanalyzer)
 - **Repository:** [https://github.com/cruise-automation/fwanalyzer](https://github.com/cruise-automation/fwanalyzer)
@@ -4793,11 +5357,13 @@
 ---
 
 ### fx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fx.sh
 - **Description:** Terminal JSON viewer & processor
+- **Note:** 
 - **Author:** antonmedv
 - **WebURL:** [https://github.com/antonmedv/fx](https://github.com/antonmedv/fx)
 - **Repository:** [https://github.com/antonmedv/fx](https://github.com/antonmedv/fx)
-- **Stars:** 18943
+- **Stars:** 18944
 - **Version:** 35.0.0
 - **Updated:** 2024-08-07T04:20:48Z
 - **Size:** 11.56 MB
@@ -4810,7 +5376,9 @@
 ---
 
 ### fzf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/fzf.sh
 - **Description:** 🌸 A command-line fuzzy finder
+- **Note:** 
 - **Author:** junegunn
 - **WebURL:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - **Repository:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
@@ -4827,7 +5395,9 @@
 ---
 
 ### gau
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gau.sh
 - **Description:** Fetch known URLs from AlienVaults Open Threat Exchange, the Wayback Machine, and Common Crawl.
+- **Note:** 
 - **Author:** lc
 - **WebURL:** [https://github.com/lc/gau](https://github.com/lc/gau)
 - **Repository:** [https://github.com/lc/gau](https://github.com/lc/gau)
@@ -4844,7 +5414,9 @@
 ---
 
 ### gdu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gdu.sh
 - **Description:** Fast disk usage analyzer with console interface written in Go
+- **Note:** 
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
@@ -4861,7 +5433,9 @@
 ---
 
 ### genact
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/genact.sh
 - **Description:** 🌀 A nonsense activity generator
+- **Note:** 
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
 - **Repository:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
@@ -4878,7 +5452,9 @@
 ---
 
 ### geodns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/geonet.sh
 - **Description:** Network tools that run from multiple geographic locations using the GeoNet API.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.com/shodan-public/geonet-rs](https://gitlab.com/shodan-public/geonet-rs)
 - **Repository:** []()
@@ -4895,7 +5471,9 @@
 ---
 
 ### geoping
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/geonet.sh
 - **Description:** Network tools that run from multiple geographic locations using the GeoNet API.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.com/shodan-public/geonet-rs](https://gitlab.com/shodan-public/geonet-rs)
 - **Repository:** []()
@@ -4912,7 +5490,9 @@
 ---
 
 ### getJS
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/getJS.sh
 - **Description:** A tool to fastly get all javascript sources/files
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -4929,7 +5509,9 @@
 ---
 
 ### getghrel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/getghrel.sh
 - **Description:** 
+- **Note:** 
 - **Author:** kavishgr
 - **WebURL:** [https://github.com/kavishgr/getghrel](https://github.com/kavishgr/getghrel)
 - **Repository:** [https://github.com/kavishgr/getghrel](https://github.com/kavishgr/getghrel)
@@ -4946,7 +5528,9 @@
 ---
 
 ### gf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gf.sh
 - **Description:** A wrapper around grep
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/gf](https://github.com/tomnomnom/gf)
 - **Repository:** [https://github.com/tomnomnom/gf](https://github.com/tomnomnom/gf)
@@ -4963,7 +5547,9 @@
 ---
 
 ### gfx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gfx.sh
 - **Description:** Updated gf
+- **Note:** 
 - **Author:** dwisiswant0
 - **WebURL:** [https://github.com/dwisiswant0/gfx](https://github.com/dwisiswant0/gfx)
 - **Repository:** [https://github.com/dwisiswant0/gfx](https://github.com/dwisiswant0/gfx)
@@ -4980,7 +5566,9 @@
 ---
 
 ### gguf-tools
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gguf-tools.sh
 - **Description:** GGUF implementation in C as a library and a tools CLI program
+- **Note:** 
 - **Author:** antirez
 - **WebURL:** [https://github.com/antirez/gguf-tools](https://github.com/antirez/gguf-tools)
 - **Repository:** [https://github.com/antirez/gguf-tools](https://github.com/antirez/gguf-tools)
@@ -4997,7 +5585,9 @@
 ---
 
 ### gh-dash
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gh-dash.sh
 - **Description:** A beautiful CLI dashboard for GitHub 🚀
+- **Note:** 
 - **Author:** dlvhdr
 - **WebURL:** [https://github.com/dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)
 - **Repository:** [https://github.com/dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)
@@ -5014,11 +5604,13 @@
 ---
 
 ### gh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gh.sh
 - **Description:** GitHub’s official command line tool
+- **Note:** 
 - **Author:** cli
 - **WebURL:** [https://github.com/cli/cli](https://github.com/cli/cli)
 - **Repository:** [https://github.com/cli/cli](https://github.com/cli/cli)
-- **Stars:** 36744
+- **Stars:** 36747
 - **Version:** v2.57.0
 - **Updated:** 2024-09-20T22:51:11Z
 - **Size:** 50.01 MB
@@ -5031,7 +5623,9 @@
 ---
 
 ### ghfetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ghfetch.sh
 - **Description:** octocat  ghfetch is a CLI tool to fetch GitHub user information and show like neofetch.
+- **Note:** 
 - **Author:** orangekame3
 - **WebURL:** [https://github.com/orangekame3/ghfetch](https://github.com/orangekame3/ghfetch)
 - **Repository:** [https://github.com/orangekame3/ghfetch](https://github.com/orangekame3/ghfetch)
@@ -5048,7 +5642,9 @@
 ---
 
 ### gickup
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gickup.sh
 - **Description:** Backup all the repositories.
+- **Note:** 
 - **Author:** cooperspencer
 - **WebURL:** [https://github.com/cooperspencer/gickup](https://github.com/cooperspencer/gickup)
 - **Repository:** [https://github.com/cooperspencer/gickup](https://github.com/cooperspencer/gickup)
@@ -5065,7 +5661,9 @@
 ---
 
 ### gip
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gip.sh
 - **Description:** command-line tool to get global IP address
+- **Note:** 
 - **Author:** dalance
 - **WebURL:** [https://github.com/dalance/gip](https://github.com/dalance/gip)
 - **Repository:** [https://github.com/dalance/gip](https://github.com/dalance/gip)
@@ -5082,13 +5680,15 @@
 ---
 
 ### git-cliff
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/git-cliff.sh
 - **Description:** A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 - **Repository:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 - **Stars:** 8713
 - **Version:** v2.5.0
-- **Updated:** 2024-09-21T15:46:45Z
+- **Updated:** 2024-09-21T17:37:54Z
 - **Size:** 12.83 MB
 - **SHA256SUM:** dc0cebd97b3a495d8486c601b7888893a74cd82903f97531af6c4754cefbf1b0
 - **B3SUM:** ba588c9746d3914e4aafd7adaa67d0229a11486a7bb10afc6d9c4f22f2d93f71
@@ -5099,7 +5699,9 @@
 ---
 
 ### git-lfs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/git-lfs.sh
 - **Description:** Git extension for versioning large files
+- **Note:** 
 - **Author:** git-lfs
 - **WebURL:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
 - **Repository:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
@@ -5116,7 +5718,9 @@
 ---
 
 ### git-sizer
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/git-sizer.sh
 - **Description:** Compute various size metrics for a Git repository
+- **Note:** 
 - **Author:** github
 - **WebURL:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
 - **Repository:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
@@ -5133,7 +5737,9 @@
 ---
 
 ### git-xet
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/git-xet.sh
 - **Description:** 💥 Git for Data (large files and repositories)
+- **Note:** 
 - **Author:** xetdata
 - **WebURL:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
 - **Repository:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
@@ -5150,7 +5756,9 @@
 ---
 
 ### xetcmd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/git-xet.sh
 - **Description:** 💥 Git for Data (large files and repositories)
+- **Note:** 
 - **Author:** xetdata
 - **WebURL:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
 - **Repository:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
@@ -5167,7 +5775,9 @@
 ---
 
 ### xetmnt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/git-xet.sh
 - **Description:** 💥 Git for Data (large files and repositories)
+- **Note:** 
 - **Author:** xetdata
 - **WebURL:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
 - **Repository:** [https://github.com/xetdata/xet-core](https://github.com/xetdata/xet-core)
@@ -5184,7 +5794,9 @@
 ---
 
 ### gitdorks_go
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitdorks_go.sh
 - **Description:** An automated collection tool for discovering sensitive information on GitHub
+- **Note:** 
 - **Author:** damit5
 - **WebURL:** [https://github.com/damit5/gitdorks_go](https://github.com/damit5/gitdorks_go)
 - **Repository:** [https://github.com/damit5/gitdorks_go](https://github.com/damit5/gitdorks_go)
@@ -5201,11 +5813,13 @@
 ---
 
 ### gitea
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitea.sh
 - **Description:** Git with a cup of tea
+- **Note:** 
 - **Author:** go-gitea
 - **WebURL:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
 - **Repository:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
-- **Stars:** 44196
+- **Stars:** 44197
 - **Version:** v1.22.2
 - **Updated:** 2024-09-21T09:50:54Z
 - **Size:** 107.34 MB
@@ -5218,7 +5832,9 @@
 ---
 
 ### github-endpoints
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/github-endpoints.sh
 - **Description:** Find endpoints on GitHub
+- **Note:** 
 - **Author:** gwen001
 - **WebURL:** [https://github.com/gwen001/github-endpoints](https://github.com/gwen001/github-endpoints)
 - **Repository:** [https://github.com/gwen001/github-endpoints](https://github.com/gwen001/github-endpoints)
@@ -5235,7 +5851,9 @@
 ---
 
 ### github-regexp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/github-regexp.sh
 - **Description:** Basically a regexp over a GitHub search
+- **Note:** 
 - **Author:** gwen001
 - **WebURL:** [https://github.com/gwen001/github-regexp](https://github.com/gwen001/github-regexp)
 - **Repository:** [https://github.com/gwen001/github-regexp](https://github.com/gwen001/github-regexp)
@@ -5252,7 +5870,9 @@
 ---
 
 ### github-subdomains
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/github-subdomains.sh
 - **Description:** Find subdomains on GitHub
+- **Note:** 
 - **Author:** gwen001
 - **WebURL:** [https://github.com/gwen001/github-subdomains](https://github.com/gwen001/github-subdomains)
 - **Repository:** [https://github.com/gwen001/github-subdomains](https://github.com/gwen001/github-subdomains)
@@ -5269,7 +5889,9 @@
 ---
 
 ### gitlab-subdomains
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitlab-subdomains.sh
 - **Description:** Find subdomains on Gitlab
+- **Note:** 
 - **Author:** gwen001
 - **WebURL:** [https://github.com/gwen001/gitlab-subdomains](https://github.com/gwen001/gitlab-subdomains)
 - **Repository:** [https://github.com/gwen001/gitlab-subdomains](https://github.com/gwen001/gitlab-subdomains)
@@ -5286,7 +5908,9 @@
 ---
 
 ### gitleaks
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitleaks.sh
 - **Description:** Protect and discover secrets using Gitleaks 🔑
+- **Note:** 
 - **Author:** gitleaks
 - **WebURL:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
 - **Repository:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
@@ -5303,7 +5927,9 @@
 ---
 
 ### ein
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitoxide.sh
 - **Description:** An idiomatic, lean, fast & safe pure Rust implementation of Git
+- **Note:** 
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
@@ -5320,7 +5946,9 @@
 ---
 
 ### gix
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitoxide.sh
 - **Description:** An idiomatic, lean, fast & safe pure Rust implementation of Git
+- **Note:** 
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
@@ -5337,7 +5965,9 @@
 ---
 
 ### gitpod
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitpod-cli.sh
 - **Description:** cli for gitpod
+- **Note:** 
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
@@ -5354,7 +5984,9 @@
 ---
 
 ### gitpod-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitpod-cli.sh
 - **Description:** cli for gitpod
+- **Note:** 
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
@@ -5371,7 +6003,9 @@
 ---
 
 ### gp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitpod-cli.sh
 - **Description:** cli for gitpod
+- **Note:** 
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
@@ -5388,7 +6022,9 @@
 ---
 
 ### gitql
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitql.sh
 - **Description:** 💊 A git query language
+- **Note:** 
 - **Author:** filhodanuvem
 - **WebURL:** [https://github.com/filhodanuvem/gitql](https://github.com/filhodanuvem/gitql)
 - **Repository:** [https://github.com/filhodanuvem/gitql](https://github.com/filhodanuvem/gitql)
@@ -5405,7 +6041,9 @@
 ---
 
 ### gitui
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gitui.sh
 - **Description:** Blazing 💥 fast terminal-ui for git written in rust 🦀
+- **Note:** 
 - **Author:** extrawurst
 - **WebURL:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
 - **Repository:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
@@ -5422,11 +6060,13 @@
 ---
 
 ### glow
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/glow.sh
 - **Description:** Render markdown on the CLI
+- **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
 - **Repository:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
-- **Stars:** 15924
+- **Stars:** 15925
 - **Version:** v2.0.0
 - **Updated:** 2024-08-23T19:04:46Z
 - **Size:** 16.69 MB
@@ -5439,7 +6079,9 @@
 ---
 
 ### appimaged
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-appimage.sh
 - **Description:** Go implementation of AppImage Tools
+- **Note:** 
 - **Author:** probonopd
 - **WebURL:** [https://github.com/probonopd/go-appimage](https://github.com/probonopd/go-appimage)
 - **Repository:** [https://github.com/probonopd/go-appimage](https://github.com/probonopd/go-appimage)
@@ -5456,7 +6098,9 @@
 ---
 
 ### appimagetool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-appimage.sh
 - **Description:** Go implementation of AppImage Tools
+- **Note:** 
 - **Author:** probonopd
 - **WebURL:** [https://github.com/probonopd/go-appimage](https://github.com/probonopd/go-appimage)
 - **Repository:** [https://github.com/probonopd/go-appimage](https://github.com/probonopd/go-appimage)
@@ -5473,7 +6117,9 @@
 ---
 
 ### mkappimage
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-appimage.sh
 - **Description:** Go implementation of AppImage Tools
+- **Note:** 
 - **Author:** probonopd
 - **WebURL:** [https://github.com/probonopd/go-appimage](https://github.com/probonopd/go-appimage)
 - **Repository:** [https://github.com/probonopd/go-appimage](https://github.com/probonopd/go-appimage)
@@ -5490,7 +6136,9 @@
 ---
 
 ### go-audit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-audit.sh
 - **Description:** go-audit is an alternative to the auditd daemon that ships with many distros
+- **Note:** 
 - **Author:** slackhq
 - **WebURL:** [https://github.com/slackhq/go-audit](https://github.com/slackhq/go-audit)
 - **Repository:** [https://github.com/slackhq/go-audit](https://github.com/slackhq/go-audit)
@@ -5507,7 +6155,9 @@
 ---
 
 ### fasttld
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-fasttld.sh
 - **Description:** go-fasttld is a high performance effective top level domains (eTLD) extraction module
+- **Note:** 
 - **Author:** elliotwutingfeng
 - **WebURL:** [https://github.com/elliotwutingfeng/go-fasttld](https://github.com/elliotwutingfeng/go-fasttld)
 - **Repository:** [https://github.com/elliotwutingfeng/go-fasttld](https://github.com/elliotwutingfeng/go-fasttld)
@@ -5524,7 +6174,9 @@
 ---
 
 ### git-checkout
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
+- **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
@@ -5541,7 +6193,9 @@
 ---
 
 ### git-clone
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
+- **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
@@ -5558,7 +6212,9 @@
 ---
 
 ### git-log
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
+- **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
@@ -5575,7 +6231,9 @@
 ---
 
 ### git-pull
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
+- **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
@@ -5592,7 +6250,9 @@
 ---
 
 ### git-tag
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
+- **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
@@ -5609,7 +6269,9 @@
 ---
 
 ### go-simplehttpserver
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/go-simplehttpserver.sh
 - **Description:** Go alternative of python SimpleHTTPServer
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/simplehttpserver](https://github.com/projectdiscovery/simplehttpserver)
 - **Repository:** [https://github.com/projectdiscovery/simplehttpserver](https://github.com/projectdiscovery/simplehttpserver)
@@ -5626,11 +6288,13 @@
 ---
 
 ### goaccess
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/goaccess.sh
 - **Description:** real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
+- **Note:** 
 - **Author:** allinurl
 - **WebURL:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
 - **Repository:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
-- **Stars:** 18199
+- **Stars:** 18200
 - **Version:** v1.9.3
 - **Updated:** 2024-08-21T01:22:05Z
 - **Size:** 1.63 MB
@@ -5643,7 +6307,9 @@
 ---
 
 ### goawk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/goawk.sh
 - **Description:** A POSIX-compliant AWK interpreter written in Go, with CSV support
+- **Note:** 
 - **Author:** benhoyt
 - **WebURL:** [https://github.com/benhoyt/goawk](https://github.com/benhoyt/goawk)
 - **Repository:** [https://github.com/benhoyt/goawk](https://github.com/benhoyt/goawk)
@@ -5660,11 +6326,13 @@
 ---
 
 ### gobuster
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobuster.sh
 - **Description:** Directory/File, DNS and VHost busting tool written in Go
+- **Note:** 
 - **Author:** OJ
 - **WebURL:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
 - **Repository:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
-- **Stars:** 9598
+- **Stars:** 9599
 - **Version:** v3.6.0
 - **Updated:** 2024-09-09T21:39:57Z
 - **Size:** 8.08 MB
@@ -5677,7 +6345,9 @@
 ---
 
 ### gencmddeps
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5694,7 +6364,9 @@
 ---
 
 ### goanywhere
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5711,7 +6383,9 @@
 ---
 
 ### gobusybox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5728,7 +6402,9 @@
 ---
 
 ### makebb
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5745,7 +6421,9 @@
 ---
 
 ### makebbmain
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5762,7 +6440,9 @@
 ---
 
 ### rewritepkg
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5779,7 +6459,9 @@
 ---
 
 ### u-root-busybox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5796,7 +6478,9 @@
 ---
 
 ### uroot-busybox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
 - **Repository:** [https://github.com/u-root/gobusybox](https://github.com/u-root/gobusybox)
@@ -5813,7 +6497,9 @@
 ---
 
 ### gocryptfs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gocryptfs.sh
 - **Description:** Encrypted overlay filesystem written in Go
+- **Note:** 
 - **Author:** rfjakob
 - **WebURL:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - **Repository:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
@@ -5830,7 +6516,9 @@
 ---
 
 ### gocryptfs-xray
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gocryptfs.sh
 - **Description:** Encrypted overlay filesystem written in Go
+- **Note:** 
 - **Author:** rfjakob
 - **WebURL:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - **Repository:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
@@ -5847,7 +6535,9 @@
 ---
 
 ### gocurl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gocurl.sh
 - **Description:** Simplified version of curl written in pure Go
+- **Note:** 
 - **Author:** ameshkov
 - **WebURL:** [https://github.com/ameshkov/gocurl](https://github.com/ameshkov/gocurl)
 - **Repository:** [https://github.com/ameshkov/gocurl](https://github.com/ameshkov/gocurl)
@@ -5864,7 +6554,9 @@
 ---
 
 ### godns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/godns.sh
 - **Description:** A dynamic DNS client tool supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc
+- **Note:** 
 - **Author:** TimothyYe
 - **WebURL:** [https://github.com/TimothyYe/godns](https://github.com/TimothyYe/godns)
 - **Repository:** [https://github.com/TimothyYe/godns](https://github.com/TimothyYe/godns)
@@ -5881,7 +6573,9 @@
 ---
 
 ### godnsbench
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/godnsbench.sh
 - **Description:** Simple DNS bench util that supports encrypted protocols.
+- **Note:** 
 - **Author:** ameshkov
 - **WebURL:** [https://github.com/ameshkov/godnsbench](https://github.com/ameshkov/godnsbench)
 - **Repository:** [https://github.com/ameshkov/godnsbench](https://github.com/ameshkov/godnsbench)
@@ -5898,7 +6592,9 @@
 ---
 
 ### gofireprox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gofireprox.sh
 - **Description:** FireProx written in Go
+- **Note:** 
 - **Author:** mr-pmillz
 - **WebURL:** [https://github.com/mr-pmillz/gofireprox](https://github.com/mr-pmillz/gofireprox)
 - **Repository:** [https://github.com/mr-pmillz/gofireprox](https://github.com/mr-pmillz/gofireprox)
@@ -5915,7 +6611,9 @@
 ---
 
 ### gojq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gojq.sh
 - **Description:** Pure Go implementation of jq
+- **Note:** 
 - **Author:** itchyny
 - **WebURL:** [https://github.com/itchyny/gojq](https://github.com/itchyny/gojq)
 - **Repository:** [https://github.com/itchyny/gojq](https://github.com/itchyny/gojq)
@@ -5932,7 +6630,9 @@
 ---
 
 ### golinkfinder
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/golinkfinder.sh
 - **Description:** A fast and minimal JS endpoint extractor
+- **Note:** 
 - **Author:** 0xsha
 - **WebURL:** [https://github.com/0xsha/GoLinkFinder](https://github.com/0xsha/GoLinkFinder)
 - **Repository:** [https://github.com/0xsha/GoLinkFinder](https://github.com/0xsha/GoLinkFinder)
@@ -5949,7 +6649,9 @@
 ---
 
 ### goodls
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/goodls.sh
 - **Description:** This is a CLI tool to download shared files and folders from Google Drive.
+- **Note:** 
 - **Author:** tanaikech
 - **WebURL:** [https://github.com/tanaikech/goodls](https://github.com/tanaikech/goodls)
 - **Repository:** [https://github.com/tanaikech/goodls](https://github.com/tanaikech/goodls)
@@ -5966,7 +6668,9 @@
 ---
 
 ### goop
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/goop.sh
 - **Description:** Dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases
+- **Note:** 
 - **Author:** nyancrimew
 - **WebURL:** [https://github.com/nyancrimew/goop](https://github.com/nyancrimew/goop)
 - **Repository:** [https://github.com/nyancrimew/goop](https://github.com/nyancrimew/goop)
@@ -5983,7 +6687,9 @@
 ---
 
 ### gorilla
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gorilla.sh
 - **Description:** Tool for generating wordlists or extending an existing one using mutations
+- **Note:** 
 - **Author:** d4rckh
 - **WebURL:** [https://github.com/d4rckh/gorilla](https://github.com/d4rckh/gorilla)
 - **Repository:** [https://github.com/d4rckh/gorilla](https://github.com/d4rckh/gorilla)
@@ -6000,7 +6706,9 @@
 ---
 
 ### gosec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gosec.sh
 - **Description:** Go security checker
+- **Note:** 
 - **Author:** securego
 - **WebURL:** [https://github.com/securego/gosec](https://github.com/securego/gosec)
 - **Repository:** [https://github.com/securego/gosec](https://github.com/securego/gosec)
@@ -6017,7 +6725,9 @@
 ---
 
 ### gosmee
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gosmee.sh
 - **Description:** Command line server and client for webhooks deliveries
+- **Note:** 
 - **Author:** chmouel
 - **WebURL:** [https://github.com/chmouel/gosmee](https://github.com/chmouel/gosmee)
 - **Repository:** [https://github.com/chmouel/gosmee](https://github.com/chmouel/gosmee)
@@ -6034,7 +6744,9 @@
 ---
 
 ### gost
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gost.sh
 - **Description:** GO Simple Tunnel - a simple tunnel written in golang
+- **Note:** 
 - **Author:** ginuerzh
 - **WebURL:** [https://github.com/ginuerzh/gost](https://github.com/ginuerzh/gost)
 - **Repository:** [https://github.com/ginuerzh/gost](https://github.com/ginuerzh/gost)
@@ -6051,7 +6763,9 @@
 ---
 
 ### gosu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gosu.sh
 - **Description:** Simple Go-based setuid+setgid+setgroups+exec
+- **Note:** 
 - **Author:** tianon
 - **WebURL:** [https://github.com/tianon/gosu](https://github.com/tianon/gosu)
 - **Repository:** [https://github.com/tianon/gosu](https://github.com/tianon/gosu)
@@ -6068,7 +6782,9 @@
 ---
 
 ### gotator
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gotator.sh
 - **Description:** Generate DNS wordlists through permutations
+- **Note:** 
 - **Author:** Josue87
 - **WebURL:** [https://github.com/Josue87/gotator](https://github.com/Josue87/gotator)
 - **Repository:** [https://github.com/Josue87/gotator](https://github.com/Josue87/gotator)
@@ -6085,7 +6801,9 @@
 ---
 
 ### gotty
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gotty.sh
 - **Description:** Share your terminal as a web application
+- **Note:** 
 - **Author:** sorenisanerd
 - **WebURL:** [https://github.com/sorenisanerd/gotty](https://github.com/sorenisanerd/gotty)
 - **Repository:** [https://github.com/sorenisanerd/gotty](https://github.com/sorenisanerd/gotty)
@@ -6102,7 +6820,9 @@
 ---
 
 ### gowitness
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gowitness.sh
 - **Description:** 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
+- **Note:** 
 - **Author:** sensepost
 - **WebURL:** [https://github.com/sensepost/gowitness](https://github.com/sensepost/gowitness)
 - **Repository:** [https://github.com/sensepost/gowitness](https://github.com/sensepost/gowitness)
@@ -6119,7 +6839,9 @@
 ---
 
 ### gpg-tui
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gpg-tui.sh
 - **Description:** Manage your GnuPG keys with ease! 🔐
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/gpg-tui](https://github.com/orhun/gpg-tui)
 - **Repository:** [https://github.com/orhun/gpg-tui](https://github.com/orhun/gpg-tui)
@@ -6136,7 +6858,9 @@
 ---
 
 ### gping
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gping.sh
 - **Description:** Ping, but with a graph
+- **Note:** 
 - **Author:** orf
 - **WebURL:** [https://github.com/orf/gping](https://github.com/orf/gping)
 - **Repository:** [https://github.com/orf/gping](https://github.com/orf/gping)
@@ -6153,7 +6877,9 @@
 ---
 
 ### grep
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/grep.sh
 - **Description:** Search one or more input files for lines containing a match to a specified pattern.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/grep/](https://www.gnu.org/software/grep/)
 - **Repository:** []()
@@ -6170,7 +6896,9 @@
 ---
 
 ### grex
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/grex.sh
 - **Description:** A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cases
+- **Note:** 
 - **Author:** pemistahl
 - **WebURL:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
 - **Repository:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
@@ -6187,7 +6915,9 @@
 ---
 
 ### gron
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gron.sh
 - **Description:** Make JSON greppable!
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
 - **Repository:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
@@ -6204,7 +6934,9 @@
 ---
 
 ### gronx-tasker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gronx.sh
 - **Description:** Lightweight, fast and dependency-free Cron expression parser, task runner, job scheduler and/or daemon
+- **Note:** 
 - **Author:** adhocore
 - **WebURL:** [https://github.com/adhocore/gronx](https://github.com/adhocore/gronx)
 - **Repository:** [https://github.com/adhocore/gronx](https://github.com/adhocore/gronx)
@@ -6221,7 +6953,9 @@
 ---
 
 ### grpcurl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/grpcurl.sh
 - **Description:** Like cURL, but for gRPC  Command-line tool for interacting with gRPC servers
+- **Note:** 
 - **Author:** fullstorydev
 - **WebURL:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
 - **Repository:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
@@ -6238,7 +6972,9 @@
 ---
 
 ### gs-netcat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gsocket.sh
 - **Description:** Connect like there is no firewall. Securely.
+- **Note:** 
 - **Author:** hackerschoice
 - **WebURL:** [https://github.com/hackerschoice/gsocket](https://github.com/hackerschoice/gsocket)
 - **Repository:** [https://github.com/hackerschoice/gsocket](https://github.com/hackerschoice/gsocket)
@@ -6255,7 +6991,9 @@
 ---
 
 ### gsocket
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gsocket.sh
 - **Description:** Connect like there is no firewall. Securely.
+- **Note:** 
 - **Author:** hackerschoice
 - **WebURL:** [https://github.com/hackerschoice/gsocket](https://github.com/hackerschoice/gsocket)
 - **Repository:** [https://github.com/hackerschoice/gsocket](https://github.com/hackerschoice/gsocket)
@@ -6272,7 +7010,9 @@
 ---
 
 ### gum
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gum.sh
 - **Description:** A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools.
+- **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
 - **Repository:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
@@ -6289,7 +7029,9 @@
 ---
 
 ### gup
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/gup.sh
 - **Description:** Update binaries installed by go install with goroutines.
+- **Note:** 
 - **Author:** nao1215
 - **WebURL:** [https://github.com/nao1215/gup](https://github.com/nao1215/gup)
 - **Repository:** [https://github.com/nao1215/gup](https://github.com/nao1215/gup)
@@ -6306,7 +7048,9 @@
 ---
 
 ### hacker-scoper
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hacker-scoper.sh
 - **Description:** Automagically filter URLs with Bug Bounty program scope rules scraped from the internet
+- **Note:** 
 - **Author:** ItsIgnacioPortal
 - **WebURL:** [https://github.com/ItsIgnacioPortal/hacker-scoper](https://github.com/ItsIgnacioPortal/hacker-scoper)
 - **Repository:** [https://github.com/ItsIgnacioPortal/hacker-scoper](https://github.com/ItsIgnacioPortal/hacker-scoper)
@@ -6323,7 +7067,9 @@
 ---
 
 ### hadolint
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hadolint.sh
 - **Description:** Dockerfile linter, validate inline bash, written in Haskell
+- **Note:** 
 - **Author:** hadolint
 - **WebURL:** [https://github.com/hadolint/hadolint](https://github.com/hadolint/hadolint)
 - **Repository:** [https://github.com/hadolint/hadolint](https://github.com/hadolint/hadolint)
@@ -6340,7 +7086,9 @@
 ---
 
 ### hakip2host
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hakip2host.sh
 - **Description:** takes a list of IP addresses via stdin, then does a series of checks to return associated domain names
+- **Note:** 
 - **Author:** hakluke
 - **WebURL:** [https://github.com/hakluke/hakip2host](https://github.com/hakluke/hakip2host)
 - **Repository:** [https://github.com/hakluke/hakip2host](https://github.com/hakluke/hakip2host)
@@ -6357,7 +7105,9 @@
 ---
 
 ### hakoriginfinder
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hakoriginfinder.sh
 - **Description:** Tool for discovering the origin host behind a reverse proxy
+- **Note:** 
 - **Author:** hakluke
 - **WebURL:** [https://github.com/hakluke/hakoriginfinder](https://github.com/hakluke/hakoriginfinder)
 - **Repository:** [https://github.com/hakluke/hakoriginfinder](https://github.com/hakluke/hakoriginfinder)
@@ -6374,7 +7124,9 @@
 ---
 
 ### hakrawler
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hakrawler.sh
 - **Description:** Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
+- **Note:** 
 - **Author:** hakluke
 - **WebURL:** [https://github.com/hakluke/hakrawler](https://github.com/hakluke/hakrawler)
 - **Repository:** [https://github.com/hakluke/hakrawler](https://github.com/hakluke/hakrawler)
@@ -6391,7 +7143,9 @@
 ---
 
 ### hakrevdns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hakrevdns.sh
 - **Description:** Small, fast tool for performing reverse DNS lookups en masse.
+- **Note:** 
 - **Author:** hakluke
 - **WebURL:** [https://github.com/hakluke/hakrevdns](https://github.com/hakluke/hakrevdns)
 - **Repository:** [https://github.com/hakluke/hakrevdns](https://github.com/hakluke/hakrevdns)
@@ -6408,7 +7162,9 @@
 ---
 
 ### halp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/halp.sh
 - **Description:** A CLI tool to get help with CLI tools 🐙
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/halp](https://github.com/orhun/halp)
 - **Repository:** [https://github.com/orhun/halp](https://github.com/orhun/halp)
@@ -6425,7 +7181,9 @@
 ---
 
 ### hardeningmeter_staticx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hardeningmeter.sh
 - **Description:** comprehensively assess the security hardening of binaries and systems.
+- **Note:** 
 - **Author:** OfriOuzan
 - **WebURL:** [https://github.com/OfriOuzan/HardeningMeter](https://github.com/OfriOuzan/HardeningMeter)
 - **Repository:** [https://github.com/OfriOuzan/HardeningMeter](https://github.com/OfriOuzan/HardeningMeter)
@@ -6442,7 +7200,9 @@
 ---
 
 ### hxn
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/haylxon.sh
 - **Description:** ⚡ Blazing-fast tool to grab screenshots of your domain list right from terminal
+- **Note:** 
 - **Author:** pwnwriter
 - **WebURL:** [https://github.com/pwnwriter/haylxon](https://github.com/pwnwriter/haylxon)
 - **Repository:** [https://github.com/pwnwriter/haylxon](https://github.com/pwnwriter/haylxon)
@@ -6459,7 +7219,9 @@
 ---
 
 ### hcloud
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcloud.sh
 - **Description:** A command-line interface for Hetzner Cloud
+- **Note:** 
 - **Author:** hetznercloud
 - **WebURL:** [https://github.com/hetznercloud/cli](https://github.com/hetznercloud/cli)
 - **Repository:** [https://github.com/hetznercloud/cli](https://github.com/hetznercloud/cli)
@@ -6476,7 +7238,9 @@
 ---
 
 ### hcxdumptool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxdumptool.sh
 - **Description:** Small tool to capture packets from wlan devices.
+- **Note:** 
 - **Author:** ZerBea
 - **WebURL:** [https://github.com/ZerBea/hcxdumptool](https://github.com/ZerBea/hcxdumptool)
 - **Repository:** [https://github.com/ZerBea/hcxdumptool](https://github.com/ZerBea/hcxdumptool)
@@ -6493,7 +7257,9 @@
 ---
 
 ### hcxeiutool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6510,7 +7276,9 @@
 ---
 
 ### hcxhash2cap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6527,7 +7295,9 @@
 ---
 
 ### hcxhashtool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6544,7 +7314,9 @@
 ---
 
 ### hcxpcapngtool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6561,7 +7333,9 @@
 ---
 
 ### hcxpmktool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6578,7 +7352,9 @@
 ---
 
 ### hcxpsktool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6595,7 +7371,9 @@
 ---
 
 ### hcxwltool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6612,7 +7390,9 @@
 ---
 
 ### whoismac
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6629,7 +7409,9 @@
 ---
 
 ### wlancap2wpasec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
 - **Repository:** [https://github.com/checkpoint-restore/hcxtools](https://github.com/checkpoint-restore/hcxtools)
@@ -6646,7 +7428,9 @@
 ---
 
 ### ht
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/headless-terminal.sh
 - **Description:** headless terminal - wrap any binary with a terminal interface for easy programmatic access.
+- **Note:** 
 - **Author:** andyk
 - **WebURL:** [https://github.com/andyk/ht](https://github.com/andyk/ht)
 - **Repository:** [https://github.com/andyk/ht](https://github.com/andyk/ht)
@@ -6663,7 +7447,9 @@
 ---
 
 ### headtail
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/headtail.sh
 - **Description:** head and tail simultaneously
+- **Note:** 
 - **Author:** CleanCut
 - **WebURL:** [https://github.com/CleanCut/headtail](https://github.com/CleanCut/headtail)
 - **Repository:** [https://github.com/CleanCut/headtail](https://github.com/CleanCut/headtail)
@@ -6680,7 +7466,9 @@
 ---
 
 ### hednsextractor
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hednsextractor.sh
 - **Description:** Raw html extractor from Hurricane Electric portal
+- **Note:** 
 - **Author:** HuntDownProject
 - **WebURL:** [https://github.com/HuntDownProject/HEDnsExtractor](https://github.com/HuntDownProject/HEDnsExtractor)
 - **Repository:** [https://github.com/HuntDownProject/HEDnsExtractor](https://github.com/HuntDownProject/HEDnsExtractor)
@@ -6697,7 +7485,9 @@
 ---
 
 ### hx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hex.sh
 - **Description:** 🔮 Futuristic take on hexdump, made in Rust.
+- **Note:** 
 - **Author:** sitkevij
 - **WebURL:** [https://github.com/sitkevij/hex](https://github.com/sitkevij/hex)
 - **Repository:** [https://github.com/sitkevij/hex](https://github.com/sitkevij/hex)
@@ -6714,7 +7504,9 @@
 ---
 
 ### hexyl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hexyl.sh
 - **Description:** A command-line hex viewer
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
 - **Repository:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
@@ -6731,7 +7523,9 @@
 ---
 
 ### horust
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/horust.sh
 - **Description:** Horust is a supervisor / init system written in rust and designed to run inside containers.
+- **Note:** 
 - **Author:** FedericoPonzi
 - **WebURL:** [https://github.com/FedericoPonzi/Horust](https://github.com/FedericoPonzi/Horust)
 - **Repository:** [https://github.com/FedericoPonzi/Horust](https://github.com/FedericoPonzi/Horust)
@@ -6748,7 +7542,9 @@
 ---
 
 ### hostctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hostctl.sh
 - **Description:** dev tool to manage /etc/hosts like a pro!
+- **Note:** 
 - **Author:** guumaster
 - **WebURL:** [https://github.com/guumaster/hostctl](https://github.com/guumaster/hostctl)
 - **Repository:** [https://github.com/guumaster/hostctl](https://github.com/guumaster/hostctl)
@@ -6765,7 +7561,9 @@
 ---
 
 ### hrekt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hrekt.sh
 - **Description:** A really fast http prober.
+- **Note:** 
 - **Author:** ethicalhackingplayground
 - **WebURL:** [https://github.com/ethicalhackingplayground/hrekt](https://github.com/ethicalhackingplayground/hrekt)
 - **Repository:** [https://github.com/ethicalhackingplayground/hrekt](https://github.com/ethicalhackingplayground/hrekt)
@@ -6782,7 +7580,9 @@
 ---
 
 ### htb-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/htb-cli.sh
 - **Description:** Interact with Hackthebox using your terminal
+- **Note:** 
 - **Author:** GoToolSharing
 - **WebURL:** [https://github.com/GoToolSharing/htb-cli](https://github.com/GoToolSharing/htb-cli)
 - **Repository:** [https://github.com/GoToolSharing/htb-cli](https://github.com/GoToolSharing/htb-cli)
@@ -6799,7 +7599,9 @@
 ---
 
 ### htmlq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/htmlq.sh
 - **Description:** Like jq, but for HTML
+- **Note:** 
 - **Author:** mgdm
 - **WebURL:** [https://github.com/mgdm/htmlq](https://github.com/mgdm/htmlq)
 - **Repository:** [https://github.com/mgdm/htmlq](https://github.com/mgdm/htmlq)
@@ -6816,7 +7618,9 @@
 ---
 
 ### httprobe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/httprobe.sh
 - **Description:** Take a list of domains and probe for working HTTP and HTTPS servers
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/httprobe](https://github.com/tomnomnom/httprobe)
 - **Repository:** [https://github.com/tomnomnom/httprobe](https://github.com/tomnomnom/httprobe)
@@ -6833,7 +7637,9 @@
 ---
 
 ### httpx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/httpx.sh
 - **Description:** httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
 - **Repository:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
@@ -6850,7 +7656,9 @@
 ---
 
 ### hub
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hub.sh
 - **Description:** A command-line tool that makes git easier to use with GitHub.
+- **Note:** 
 - **Author:** mislav
 - **WebURL:** [https://github.com/mislav/hub](https://github.com/mislav/hub)
 - **Repository:** [https://github.com/mislav/hub](https://github.com/mislav/hub)
@@ -6867,7 +7675,9 @@
 ---
 
 ### hf-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/huggingface-cli.sh
 - **Description:** The official Python client for the Huggingface Hub
+- **Note:** 
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
@@ -6884,7 +7694,9 @@
 ---
 
 ### huggingface-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/huggingface-cli.sh
 - **Description:** The official Python client for the Huggingface Hub
+- **Note:** 
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
@@ -6901,13 +7713,15 @@
 ---
 
 ### hugo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hugo.sh
 - **Description:** The world’s fastest framework for building websites.
+- **Note:** 
 - **Author:** gohugoio
 - **WebURL:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
 - **Repository:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
-- **Stars:** 74843
+- **Stars:** 74844
 - **Version:** v0.134.3
-- **Updated:** 2024-09-20T08:02:28Z
+- **Updated:** 2024-09-21T17:10:34Z
 - **Size:** 83.54 MB
 - **SHA256SUM:** d97f0fe46c819fe2c95727f34ab91eecafccc312075d907761c8ce659759ab74
 - **B3SUM:** ae84ab0645aa1045b7141c461a5409c8aa10679cbb6b964d02ac8ba5231b8e47
@@ -6918,7 +7732,9 @@
 ---
 
 ### hurl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hurl.sh
 - **Description:** Hurl, run and test HTTP requests with plain text.
+- **Note:** 
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
@@ -6935,7 +7751,9 @@
 ---
 
 ### hurlfmt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hurl.sh
 - **Description:** Hurl, run and test HTTP requests with plain text.
+- **Note:** 
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
@@ -6952,7 +7770,9 @@
 ---
 
 ### husarnet
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/husarnet.sh
 - **Description:** Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration.
+- **Note:** 
 - **Author:** husarnet
 - **WebURL:** [https://husarnet.com/](https://husarnet.com/)
 - **Repository:** [https://github.com/husarnet/husarnet](https://github.com/husarnet/husarnet)
@@ -6969,7 +7789,9 @@
 ---
 
 ### husarnet-daemon
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/husarnet.sh
 - **Description:** Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration.
+- **Note:** 
 - **Author:** husarnet
 - **WebURL:** [https://husarnet.com/](https://husarnet.com/)
 - **Repository:** [https://github.com/husarnet/husarnet](https://github.com/husarnet/husarnet)
@@ -6986,7 +7808,9 @@
 ---
 
 ### hwatch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hwatch.sh
 - **Description:** A modern alternative to the watch command, records the differences in execution results and can check this differences at after.
+- **Note:** 
 - **Author:** blacknon
 - **WebURL:** [https://github.com/blacknon/hwatch](https://github.com/blacknon/hwatch)
 - **Repository:** [https://github.com/blacknon/hwatch](https://github.com/blacknon/hwatch)
@@ -7003,7 +7827,9 @@
 ---
 
 ### hyperfine
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hyperfine.sh
 - **Description:** A command-line benchmarking tool
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
@@ -7020,7 +7846,9 @@
 ---
 
 ### hysp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hysp.sh
 - **Description:** 📦 An independent package manager that every hacker deserves.
+- **Note:** 
 - **Author:** pwnwriter
 - **WebURL:** [https://github.com/pwnwriter/hysp](https://github.com/pwnwriter/hysp)
 - **Repository:** [https://github.com/pwnwriter/hysp](https://github.com/pwnwriter/hysp)
@@ -7037,7 +7865,9 @@
 ---
 
 ### indextree
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/indextree.sh
 - **Description:** Generates the tree of the directory listing page.
+- **Note:** 
 - **Author:** riza
 - **WebURL:** [https://github.com/riza/indextree](https://github.com/riza/indextree)
 - **Repository:** [https://github.com/riza/indextree](https://github.com/riza/indextree)
@@ -7054,7 +7884,9 @@
 ---
 
 ### inscope
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/inscope.sh
 - **Description:** filtering URLs and domains supplied on stdin to make sure they meet one of a set of regular expressions
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -7071,7 +7903,9 @@
 ---
 
 ### interactsh-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/interactsh.sh
 - **Description:** An OOB interaction gathering server and client library
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
@@ -7088,7 +7922,9 @@
 ---
 
 ### interactsh-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/interactsh.sh
 - **Description:** An OOB interaction gathering server and client library
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
@@ -7105,7 +7941,9 @@
 ---
 
 ### imdl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/intermodal.sh
 - **Description:** A CLI utility for BitTorrent torrent file creation, verification, and more
+- **Note:** 
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
 - **Repository:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
@@ -7122,7 +7960,9 @@
 ---
 
 ### intermodal
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/intermodal.sh
 - **Description:** A CLI utility for BitTorrent torrent file creation, verification, and more
+- **Note:** 
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
 - **Repository:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
@@ -7139,7 +7979,9 @@
 ---
 
 ### invidtui
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/invidtui.sh
 - **Description:** A TUI based Invidious client
+- **Note:** 
 - **Author:** darkhz
 - **WebURL:** [https://github.com/darkhz/invidtui](https://github.com/darkhz/invidtui)
 - **Repository:** [https://github.com/darkhz/invidtui](https://github.com/darkhz/invidtui)
@@ -7156,7 +7998,9 @@
 ---
 
 ### iotop
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iotop-c.sh
 - **Description:** A top utility for IO
+- **Note:** 
 - **Author:** Tomas-M
 - **WebURL:** [https://github.com/Tomas-M/iotop](https://github.com/Tomas-M/iotop)
 - **Repository:** [https://github.com/Tomas-M/iotop](https://github.com/Tomas-M/iotop)
@@ -7173,7 +8017,9 @@
 ---
 
 ### iotop-c
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iotop-c.sh
 - **Description:** A top utility for IO
+- **Note:** 
 - **Author:** Tomas-M
 - **WebURL:** [https://github.com/Tomas-M/iotop](https://github.com/Tomas-M/iotop)
 - **Repository:** [https://github.com/Tomas-M/iotop](https://github.com/Tomas-M/iotop)
@@ -7190,7 +8036,9 @@
 ---
 
 ### ipa-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ipa-server.sh
 - **Description:** Upload and install Apple ipa and Android apk in web.
+- **Note:** 
 - **Author:** iineva
 - **WebURL:** [https://github.com/iineva/ipa-server](https://github.com/iineva/ipa-server)
 - **Repository:** [https://github.com/iineva/ipa-server](https://github.com/iineva/ipa-server)
@@ -7207,7 +8055,9 @@
 ---
 
 ### ipasd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ipa-server.sh
 - **Description:** Upload and install Apple ipa and Android apk in web.
+- **Note:** 
 - **Author:** iineva
 - **WebURL:** [https://github.com/iineva/ipa-server](https://github.com/iineva/ipa-server)
 - **Repository:** [https://github.com/iineva/ipa-server](https://github.com/iineva/ipa-server)
@@ -7224,7 +8074,9 @@
 ---
 
 ### iperf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iperf.sh
 - **Description:** A TCP, UDP, and SCTP network bandwidth measurement tool
+- **Note:** 
 - **Author:** esnet
 - **WebURL:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
 - **Repository:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
@@ -7241,7 +8093,9 @@
 ---
 
 ### iperf3
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iperf3.sh
 - **Description:** A tool for network performance measurement and tuning
+- **Note:** 
 - **Author:** userdocs
 - **WebURL:** [https://github.com/userdocs/iperf3-static](https://github.com/userdocs/iperf3-static)
 - **Repository:** [https://github.com/userdocs/iperf3-static](https://github.com/userdocs/iperf3-static)
@@ -7258,7 +8112,9 @@
 ---
 
 ### ipinfo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ipinfo.sh
 - **Description:** Official Command Line Interface for the IPinfo API
+- **Note:** 
 - **Author:** ipinfo
 - **WebURL:** [https://ipinfo.io/](https://ipinfo.io/)
 - **Repository:** [https://github.com/ipinfo/cli](https://github.com/ipinfo/cli)
@@ -7275,7 +8131,9 @@
 ---
 
 ### ipinfo-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ipinfo.sh
 - **Description:** Official Command Line Interface for the IPinfo API
+- **Note:** 
 - **Author:** ipinfo
 - **WebURL:** [https://ipinfo.io/](https://ipinfo.io/)
 - **Repository:** [https://github.com/ipinfo/cli](https://github.com/ipinfo/cli)
@@ -7292,7 +8150,9 @@
 ---
 
 ### ipt2socks
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ipt2socks.sh
 - **Description:** convert iptables/nftables transparent proxy traffic to socks5
+- **Note:** 
 - **Author:** zfl9
 - **WebURL:** [https://github.com/zfl9/ipt2socks](https://github.com/zfl9/ipt2socks)
 - **Repository:** [https://github.com/zfl9/ipt2socks](https://github.com/zfl9/ipt2socks)
@@ -7309,7 +8169,9 @@
 ---
 
 ### arping
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
+- **Note:** 
 - **Author:** iputils
 - **WebURL:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
 - **Repository:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
@@ -7326,7 +8188,9 @@
 ---
 
 ### clockdiff
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
+- **Note:** 
 - **Author:** iputils
 - **WebURL:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
 - **Repository:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
@@ -7343,7 +8207,9 @@
 ---
 
 ### ping
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
+- **Note:** 
 - **Author:** iputils
 - **WebURL:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
 - **Repository:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
@@ -7360,7 +8226,9 @@
 ---
 
 ### tracepath
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
+- **Note:** 
 - **Author:** iputils
 - **WebURL:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
 - **Repository:** [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
@@ -7377,7 +8245,9 @@
 ---
 
 ### ironrdp-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ironrdp.sh
 - **Description:** Rust implementation of the Microsoft Remote Desktop Protocol (RDP) 
+- **Note:** 
 - **Author:** Devolutions
 - **WebURL:** [https://github.com/Devolutions/IronRDP](https://github.com/Devolutions/IronRDP)
 - **Repository:** [https://github.com/Devolutions/IronRDP](https://github.com/Devolutions/IronRDP)
@@ -7394,11 +8264,13 @@
 ---
 
 ### istioctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/istio.sh
 - **Description:** Connect, secure, control, and observe services.
+- **Note:** 
 - **Author:** istio
 - **WebURL:** [https://github.com/istio/istio](https://github.com/istio/istio)
 - **Repository:** [https://github.com/istio/istio](https://github.com/istio/istio)
-- **Stars:** 35740
+- **Stars:** 35741
 - **Version:** 1.23.2
 - **Updated:** 2024-09-21T16:04:20Z
 - **Size:** 91.22 MB
@@ -7411,7 +8283,9 @@
 ---
 
 ### jaeles
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jaeles.sh
 - **Description:** The Swiss Army knife for automated Web Application Testing
+- **Note:** 
 - **Author:** jaeles-project
 - **WebURL:** [https://github.com/jaeles-project/jaeles](https://github.com/jaeles-project/jaeles)
 - **Repository:** [https://github.com/jaeles-project/jaeles](https://github.com/jaeles-project/jaeles)
@@ -7428,7 +8302,9 @@
 ---
 
 ### jaq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jaq.sh
 - **Description:** A jq clone focussed on correctness, speed, and simplicity
+- **Note:** 
 - **Author:** 01mf02
 - **WebURL:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
 - **Repository:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
@@ -7445,7 +8321,9 @@
 ---
 
 ### jc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jc.sh
 - **Description:** converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries
+- **Note:** 
 - **Author:** kellyjonbrazil
 - **WebURL:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
 - **Repository:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
@@ -7462,7 +8340,9 @@
 ---
 
 ### jen
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jen.sh
 - **Description:** A fast utility to generate fake/test documents based on a template
+- **Note:** 
 - **Author:** whitfin
 - **WebURL:** [https://github.com/whitfin/jen](https://github.com/whitfin/jen)
 - **Repository:** [https://github.com/whitfin/jen](https://github.com/whitfin/jen)
@@ -7479,7 +8359,9 @@
 ---
 
 ### jira-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jira-cli.sh
 - **Description:** 🔥 Feature-rich interactive Jira command line.
+- **Note:** 
 - **Author:** ankitpokhrel
 - **WebURL:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
 - **Repository:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
@@ -7496,13 +8378,15 @@
 ---
 
 ### jj
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jj.sh
 - **Description:** A Git-compatible DVCS that is both simple and powerful
+- **Note:** 
 - **Author:** martinvonz
 - **WebURL:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 - **Repository:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 - **Stars:** 8263
 - **Version:** v0.21.0
-- **Updated:** 2024-09-21T13:09:25Z
+- **Updated:** 2024-09-21T16:17:59Z
 - **Size:** 23.2 MB
 - **SHA256SUM:** 7453a79ae5875ed1368f5972fd2eb970df47ef5f32bf188c8ffbaeb9dbb550f0
 - **B3SUM:** 533ccd27319221cb467802a7b782fd9d114d23897a08ab7c2b4d535be4c46d5d
@@ -7513,7 +8397,9 @@
 ---
 
 ### jless_staticx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jless.sh
 - **Description:** jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data
+- **Note:** 
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
@@ -7530,7 +8416,9 @@
 ---
 
 ### jnv
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jnv.sh
 - **Description:** interactive JSON filter using jq
+- **Note:** 
 - **Author:** ynqa
 - **WebURL:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 - **Repository:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
@@ -7547,7 +8435,9 @@
 ---
 
 ### jobs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/job-security.sh
 - **Description:** job control from anywhere!
+- **Note:** 
 - **Author:** yshui
 - **WebURL:** [https://github.com/yshui/job-security](https://github.com/yshui/job-security)
 - **Repository:** [https://github.com/yshui/job-security](https://github.com/yshui/job-security)
@@ -7564,7 +8454,9 @@
 ---
 
 ### joker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/joker.sh
 - **Description:** turn process into daemon. Zero-Configuration
+- **Note:** 
 - **Author:** txthinking
 - **WebURL:** [https://github.com/txthinking/joker](https://github.com/txthinking/joker)
 - **Repository:** [https://github.com/txthinking/joker](https://github.com/txthinking/joker)
@@ -7581,11 +8473,13 @@
 ---
 
 ### jq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jq.sh
 - **Description:** Command-line JSON processor
+- **Note:** 
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 30134
+- **Stars:** 30135
 - **Version:** jq-1.7.1
 - **Updated:** 2024-09-18T04:00:19Z
 - **Size:** 2.32 MB
@@ -7598,7 +8492,9 @@
 ---
 
 ### jql
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jql.sh
 - **Description:** A JSON Query Language CLI tool
+- **Note:** 
 - **Author:** yamafaktory
 - **WebURL:** [https://github.com/yamafaktory/jql](https://github.com/yamafaktory/jql)
 - **Repository:** [https://github.com/yamafaktory/jql](https://github.com/yamafaktory/jql)
@@ -7615,7 +8511,9 @@
 ---
 
 ### jqp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jqp.sh
 - **Description:** TUI for jq
+- **Note:** 
 - **Author:** noahgorstein
 - **WebURL:** [https://github.com/noahgorstein/jqp](https://github.com/noahgorstein/jqp)
 - **Repository:** [https://github.com/noahgorstein/jqp](https://github.com/noahgorstein/jqp)
@@ -7632,7 +8530,9 @@
 ---
 
 ### jr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jr.sh
 - **Description:** streaming quality random data from the command line
+- **Note:** 
 - **Author:** jrnd-io
 - **WebURL:** [https://github.com/ugol/jr](https://github.com/ugol/jr)
 - **Repository:** [https://github.com/ugol/jr](https://github.com/ugol/jr)
@@ -7649,7 +8549,9 @@
 ---
 
 ### jsmug
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jsmug.sh
 - **Description:** JSON Smuggling technique to smuggle arbitrary files through JSON
+- **Note:** 
 - **Author:** xscorp
 - **WebURL:** [https://github.com/xscorp/jsmug](https://github.com/xscorp/jsmug)
 - **Repository:** [https://github.com/xscorp/jsmug](https://github.com/xscorp/jsmug)
@@ -7666,7 +8568,9 @@
 ---
 
 ### just
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/just.sh
 - **Description:** A handy way to save and run project-specific commands.
+- **Note:** 
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/just](https://github.com/casey/just)
 - **Repository:** [https://github.com/casey/just](https://github.com/casey/just)
@@ -7683,7 +8587,9 @@
 ---
 
 ### jwt-cracker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jwt-cracker.sh
 - **Description:** Faster & Better Cross Platform JWT Cracker
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/jwt-cracker](https://github.com/Azathothas/jwt-cracker)
 - **Repository:** [https://github.com/Azathothas/jwt-cracker](https://github.com/Azathothas/jwt-cracker)
@@ -7700,7 +8606,9 @@
 ---
 
 ### jwt-hack
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/jwt-hack.sh
 - **Description:** 🔩 jwt-hack is tool for hacking / security testing to JWT
+- **Note:** 
 - **Author:** hahwul
 - **WebURL:** [https://github.com/hahwul/jwt-hack](https://github.com/hahwul/jwt-hack)
 - **Repository:** [https://github.com/hahwul/jwt-hack](https://github.com/hahwul/jwt-hack)
@@ -7717,11 +8625,13 @@
 ---
 
 ### k9s
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/k9s.sh
 - **Description:** 🐶 Kubernetes CLI To Manage Your Clusters In Style!
+- **Note:** 
 - **Author:** derailed
 - **WebURL:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
 - **Repository:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
-- **Stars:** 26618
+- **Stars:** 26620
 - **Version:** v0.32.5
 - **Updated:** 2024-09-16T23:32:05Z
 - **Size:** 95.27 MB
@@ -7734,7 +8644,9 @@
 ---
 
 ### kadeessh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kadeessh.sh
 - **Description:** A general-purpose, extensible, modular, memory-safe SSH server
+- **Note:** 
 - **Author:** kadeessh
 - **WebURL:** [https://github.com/kadeessh/kadeessh](https://github.com/kadeessh/kadeessh)
 - **Repository:** [https://github.com/kadeessh/kadeessh](https://github.com/kadeessh/kadeessh)
@@ -7751,7 +8663,9 @@
 ---
 
 ### kak
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kakoune.sh
 - **Description:** a better code editor
+- **Note:** 
 - **Author:** mawww
 - **WebURL:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
 - **Repository:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
@@ -7768,7 +8682,9 @@
 ---
 
 ### kakoune
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kakoune.sh
 - **Description:** a better code editor
+- **Note:** 
 - **Author:** mawww
 - **WebURL:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
 - **Repository:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
@@ -7785,7 +8701,9 @@
 ---
 
 ### kalc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kalc.sh
 - **Description:** a complex numbers, 2d/3d graphing, arbitrary precision, vector/matrix, cli calculator with real-time output and support for units
+- **Note:** 
 - **Author:** bgkillas
 - **WebURL:** [https://github.com/bgkillas/kalc](https://github.com/bgkillas/kalc)
 - **Repository:** [https://github.com/bgkillas/kalc](https://github.com/bgkillas/kalc)
@@ -7802,7 +8720,9 @@
 ---
 
 ### kalker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kalker.sh
 - **Description:** calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals
+- **Note:** 
 - **Author:** PaddiM8
 - **WebURL:** [https://github.com/PaddiM8/kalker](https://github.com/PaddiM8/kalker)
 - **Repository:** [https://github.com/PaddiM8/kalker](https://github.com/PaddiM8/kalker)
@@ -7819,7 +8739,9 @@
 ---
 
 ### kanha
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kanha.sh
 - **Description:** 🦚 A web-app pentesting suite written in rust
+- **Note:** 
 - **Author:** pwnwriter
 - **WebURL:** [https://github.com/pwnwriter/kanha](https://github.com/pwnwriter/kanha)
 - **Repository:** [https://github.com/pwnwriter/kanha](https://github.com/pwnwriter/kanha)
@@ -7836,7 +8758,9 @@
 ---
 
 ### katana
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/katana.sh
 - **Description:** A next-generation crawling and spidering framework
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
@@ -7853,7 +8777,9 @@
 ---
 
 ### killport
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/killport.sh
 - **Description:** A command-line tool to easily kill processes running on a specified port.
+- **Note:** 
 - **Author:** jkfran
 - **WebURL:** [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
 - **Repository:** [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
@@ -7870,7 +8796,9 @@
 ---
 
 ### kitten
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kitty.sh
 - **Description:** Cross-platform, fast, feature-rich, GPU based terminal
+- **Note:** 
 - **Author:** kovidgoyal
 - **WebURL:** [https://sw.kovidgoyal.net/kitty/](https://sw.kovidgoyal.net/kitty/)
 - **Repository:** [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
@@ -7887,7 +8815,9 @@
 ---
 
 ### kmon
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kmon.sh
 - **Description:** Linux Kernel Manager and Activity Monitor 🐧💻
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/kmon](https://github.com/orhun/kmon)
 - **Repository:** [https://github.com/orhun/kmon](https://github.com/orhun/kmon)
@@ -7904,7 +8834,9 @@
 ---
 
 ### kondo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kondo.sh
 - **Description:** Cleans dependencies and build artifacts from your projects.
+- **Note:** 
 - **Author:** tbillington
 - **WebURL:** [https://github.com/tbillington/kondo](https://github.com/tbillington/kondo)
 - **Repository:** [https://github.com/tbillington/kondo](https://github.com/tbillington/kondo)
@@ -7921,7 +8853,9 @@
 ---
 
 ### kopia
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kopia.sh
 - **Description:** Backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication
+- **Note:** 
 - **Author:** kopia
 - **WebURL:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
 - **Repository:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
@@ -7938,7 +8872,9 @@
 ---
 
 ### ksubdomain
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ksubdomain.sh
 - **Description:** Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second
+- **Note:** 
 - **Author:** boy-hack
 - **WebURL:** [https://github.com/boy-hack/ksubdomain](https://github.com/boy-hack/ksubdomain)
 - **Repository:** [https://github.com/boy-hack/ksubdomain](https://github.com/boy-hack/ksubdomain)
@@ -7955,11 +8891,13 @@
 ---
 
 ### ipfs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kubo.sh
 - **Description:** Official IPFS implementation in Go
+- **Note:** 
 - **Author:** ipfs
 - **WebURL:** [https://docs.ipfs.tech](https://docs.ipfs.tech)
 - **Repository:** [https://github.com/ipfs/kubo](https://github.com/ipfs/kubo)
-- **Stars:** 16047
+- **Stars:** 16048
 - **Version:** v0.30.0
 - **Updated:** 2024-09-20T22:23:53Z
 - **Size:** 58 MB
@@ -7972,11 +8910,13 @@
 ---
 
 ### ipfswatch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/kubo.sh
 - **Description:** Official IPFS implementation in Go
+- **Note:** 
 - **Author:** ipfs
 - **WebURL:** [https://docs.ipfs.tech](https://docs.ipfs.tech)
 - **Repository:** [https://github.com/ipfs/kubo](https://github.com/ipfs/kubo)
-- **Stars:** 16047
+- **Stars:** 16048
 - **Version:** v0.30.0
 - **Updated:** 2024-09-20T22:23:53Z
 - **Size:** 56.06 MB
@@ -7989,7 +8929,9 @@
 ---
 
 ### ladder
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ladder.sh
 - **Description:** Selfhosted alternative to 12ft.io. and 1ft.io
+- **Note:** 
 - **Author:** everywall
 - **WebURL:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
 - **Repository:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
@@ -8006,11 +8948,13 @@
 ---
 
 ### lazydocker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lazydocker.sh
 - **Description:** The lazier way to manage everything docker
+- **Note:** 
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
 - **Repository:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
-- **Stars:** 36429
+- **Stars:** 36430
 - **Version:** v0.23.3
 - **Updated:** 2024-08-17T17:45:30Z
 - **Size:** 11.64 MB
@@ -8023,11 +8967,13 @@
 ---
 
 ### lazygit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lazygit.sh
 - **Description:** simple terminal UI for git commands
+- **Note:** 
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 - **Repository:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
-- **Stars:** 50867
+- **Stars:** 50871
 - **Version:** v0.44.1
 - **Updated:** 2024-09-18T11:26:49Z
 - **Size:** 18.9 MB
@@ -8040,11 +8986,13 @@
 ---
 
 ### legba
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/legba.sh
 - **Description:** A multiprotocol credentials bruteforcer / password sprayer and enumerator. 🥷
+- **Note:** 
 - **Author:** evilsocket
 - **WebURL:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
 - **Repository:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
-- **Stars:** 1392
+- **Stars:** 1394
 - **Version:** v0.9.0
 - **Updated:** 2024-08-21T12:24:49Z
 - **Size:** 24.24 MB
@@ -8057,7 +9005,9 @@
 ---
 
 ### lf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lf.sh
 - **Description:** Terminal file manager
+- **Note:** 
 - **Author:** gokcehan
 - **WebURL:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
 - **Repository:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
@@ -8074,7 +9024,9 @@
 ---
 
 ### libaws
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/libaws.sh
 - **Description:** A simpler way to declare aws infrastructure that is easy to use and extend
+- **Note:** 
 - **Author:** nathants
 - **WebURL:** [https://nathants.com/projects/libaws](https://nathants.com/projects/libaws)
 - **Repository:** [https://github.com/nathants/libaws](https://github.com/nathants/libaws)
@@ -8091,7 +9043,9 @@
 ---
 
 ### nfs-cat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
+- **Note:** 
 - **Author:** sahlberg
 - **WebURL:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
 - **Repository:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
@@ -8108,7 +9062,9 @@
 ---
 
 ### nfs-cp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
+- **Note:** 
 - **Author:** sahlberg
 - **WebURL:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
 - **Repository:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
@@ -8125,7 +9081,9 @@
 ---
 
 ### nfs-ls
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
+- **Note:** 
 - **Author:** sahlberg
 - **WebURL:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
 - **Repository:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
@@ -8142,7 +9100,9 @@
 ---
 
 ### nfs-stat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
+- **Note:** 
 - **Author:** sahlberg
 - **WebURL:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
 - **Repository:** [https://github.com/sahlberg/libnfs](https://github.com/sahlberg/libnfs)
@@ -8159,7 +9119,9 @@
 ---
 
 ### libtree
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/libtree.sh
 - **Description:** Tree ldd with an option to bundle dependencies into a single folder
+- **Note:** 
 - **Author:** haampie
 - **WebURL:** [https://github.com/haampie/libtree](https://github.com/haampie/libtree)
 - **Repository:** [https://github.com/haampie/libtree](https://github.com/haampie/libtree)
@@ -8176,7 +9138,9 @@
 ---
 
 ### linuxwave
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/linuxwave.sh
 - **Description:** Generate music from the entropy of Linux 🐧🎵
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/linuxwave](https://github.com/orhun/linuxwave)
 - **Repository:** [https://github.com/orhun/linuxwave](https://github.com/orhun/linuxwave)
@@ -8193,11 +9157,13 @@
 ---
 
 ### listmonk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/listmonk.sh
 - **Description:** High performance, self-hosted, newsletter and mailing list manager with a modern dashboard
+- **Note:** 
 - **Author:** knadh
 - **WebURL:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
 - **Repository:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
-- **Stars:** 14588
+- **Stars:** 14590
 - **Version:** v3.0.0
 - **Updated:** 2024-09-19T20:10:45Z
 - **Size:** 15.16 MB
@@ -8210,7 +9176,9 @@
 ---
 
 ### bbscope
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8227,7 +9195,9 @@
 ---
 
 ### bbtargets
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8244,7 +9214,9 @@
 ---
 
 ### chainredir
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8261,7 +9233,9 @@
 ---
 
 ### checkbypass
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8278,7 +9252,9 @@
 ---
 
 ### cleanpath
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8295,7 +9271,9 @@
 ---
 
 ### doomxss
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8312,7 +9290,9 @@
 ---
 
 ### eae
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8329,7 +9309,9 @@
 ---
 
 ### eah
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8346,7 +9328,9 @@
 ---
 
 ### eap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8363,7 +9347,9 @@
 ---
 
 ### eaparam
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8380,7 +9366,9 @@
 ---
 
 ### eapath
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8397,7 +9385,9 @@
 ---
 
 ### earh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8414,7 +9404,9 @@
 ---
 
 ### eefjsf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8431,7 +9423,9 @@
 ---
 
 ### genscope
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8448,7 +9442,9 @@
 ---
 
 ### heacoll
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8465,7 +9461,9 @@
 ---
 
 ### knoxssme
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8482,7 +9480,9 @@
 ---
 
 ### kubemetrics
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8499,7 +9499,9 @@
 ---
 
 ### nrp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8516,7 +9518,9 @@
 ---
 
 ### rapwp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8533,7 +9537,9 @@
 ---
 
 ### removehost
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8550,7 +9556,9 @@
 ---
 
 ### removepro
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8567,7 +9575,9 @@
 ---
 
 ### robotstxt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8584,7 +9594,9 @@
 ---
 
 ### rpfu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8601,7 +9613,9 @@
 ---
 
 ### tahm
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
 - **Repository:** [https://github.com/edoardottt/lit-bb-hack-tools](https://github.com/edoardottt/lit-bb-hack-tools)
@@ -8618,7 +9632,9 @@
 ---
 
 ### litefs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/litefs.sh
 - **Description:** FUSE-based file system for replicating SQLite databases across a cluster of machines
+- **Note:** 
 - **Author:** superfly
 - **WebURL:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
 - **Repository:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
@@ -8635,7 +9651,9 @@
 ---
 
 ### lnav
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lnav.sh
 - **Description:** Log file navigator
+- **Note:** 
 - **Author:** tstack
 - **WebURL:** [https://github.com/tstack/lnav](https://github.com/tstack/lnav)
 - **Repository:** [https://github.com/tstack/lnav](https://github.com/tstack/lnav)
@@ -8652,7 +9670,9 @@
 ---
 
 ### localxpose
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/localxpose.sh
 - **Description:** reverse proxy that enables you to expose your localhost to the internet.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://localxpose.io/](https://localxpose.io/)
 - **Repository:** []()
@@ -8669,7 +9689,9 @@
 ---
 
 ### loclx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/localxpose.sh
 - **Description:** reverse proxy that enables you to expose your localhost to the internet.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://localxpose.io/](https://localxpose.io/)
 - **Repository:** []()
@@ -8686,7 +9708,9 @@
 ---
 
 ### logrotate
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/logrotate.sh
 - **Description:** Simplify the administration of log files on a system which generates a lot of log files
+- **Note:** 
 - **Author:** logrotate
 - **WebURL:** [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
 - **Repository:** [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
@@ -8703,7 +9727,9 @@
 ---
 
 ### logstation
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/logstation.sh
 - **Description:** Tail log files in web browser
+- **Note:** 
 - **Author:** jdrews
 - **WebURL:** [https://github.com/jdrews/logstation](https://github.com/jdrews/logstation)
 - **Repository:** [https://github.com/jdrews/logstation](https://github.com/jdrews/logstation)
@@ -8720,7 +9746,9 @@
 ---
 
 ### logtimer
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/logtimer.sh
 - **Description:** Enhance your output with a timer / date
+- **Note:** 
 - **Author:** Eun
 - **WebURL:** [https://github.com/Eun/logtimer](https://github.com/Eun/logtimer)
 - **Repository:** [https://github.com/Eun/logtimer](https://github.com/Eun/logtimer)
@@ -8737,7 +9765,9 @@
 ---
 
 ### logcli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
+- **Note:** 
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
@@ -8754,7 +9784,9 @@
 ---
 
 ### loki
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
+- **Note:** 
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
@@ -8771,7 +9803,9 @@
 ---
 
 ### loki-canary
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
+- **Note:** 
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
@@ -8788,7 +9822,9 @@
 ---
 
 ### promtail
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
+- **Note:** 
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
@@ -8805,7 +9841,9 @@
 ---
 
 ### loksh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/loksh.sh
 - **Description:** Linux port of OpenBSDs ksh
+- **Note:** 
 - **Author:** dimkr
 - **WebURL:** [https://github.com/dimkr/loksh](https://github.com/dimkr/loksh)
 - **Repository:** [https://github.com/dimkr/loksh](https://github.com/dimkr/loksh)
@@ -8822,11 +9860,13 @@
 ---
 
 ### lsd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lsd.sh
 - **Description:** The next gen ls command
+- **Note:** 
 - **Author:** lsd-rs
 - **WebURL:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
 - **Repository:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
-- **Stars:** 13218
+- **Stars:** 13219
 - **Version:** v1.1.5
 - **Updated:** 2024-08-20T16:57:58Z
 - **Size:** 3.76 MB
@@ -8839,7 +9879,9 @@
 ---
 
 ### lsix
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lsix.sh
 - **Description:** Like ls, but for images. Shows thumbnails in terminal using sixel graphics.
+- **Note:** 
 - **Author:** hackerb9
 - **WebURL:** [https://github.com/hackerb9/lsix](https://github.com/hackerb9/lsix)
 - **Repository:** [https://github.com/hackerb9/lsix](https://github.com/hackerb9/lsix)
@@ -8856,7 +9898,9 @@
 ---
 
 ### lsof
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lsof.sh
 - **Description:** A tool to list open files
+- **Note:** 
 - **Author:** lsof-org
 - **WebURL:** [https://lsof.readthedocs.io](https://lsof.readthedocs.io)
 - **Repository:** [https://github.com/lsof-org/lsof](https://github.com/lsof-org/lsof)
@@ -8873,7 +9917,9 @@
 ---
 
 ### luet
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/luet.sh
 - **Description:** 📦 🐳 0-dependency Container-based Package Manager
+- **Note:** 
 - **Author:** mudler
 - **WebURL:** [https://github.com/mudler/luet](https://github.com/mudler/luet)
 - **Repository:** [https://github.com/mudler/luet](https://github.com/mudler/luet)
@@ -8890,11 +9936,13 @@
 ---
 
 ### lux
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/lux.sh
 - **Description:** 👾 Fast and simple video download library and CLI tool written in Go
+- **Note:** 
 - **Author:** iawia002
 - **WebURL:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
 - **Repository:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
-- **Stars:** 26923
+- **Stars:** 26929
 - **Version:** v0.24.1
 - **Updated:** 2024-08-14T00:58:47Z
 - **Size:** 22.39 MB
@@ -8907,7 +9955,9 @@
 ---
 
 ### mabel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mabel.sh
 - **Description:** A fancy BitTorrent client for the terminal.
+- **Note:** 
 - **Author:** smmr-software
 - **WebURL:** [https://github.com/smmr-software/mabel](https://github.com/smmr-software/mabel)
 - **Repository:** [https://github.com/smmr-software/mabel](https://github.com/smmr-software/mabel)
@@ -8924,7 +9974,9 @@
 ---
 
 ### macchina
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/macchina.sh
 - **Description:** system-info-fetch
+- **Note:** 
 - **Author:** Macchina-CLI
 - **WebURL:** [https://github.com/Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)
 - **Repository:** [https://github.com/Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)
@@ -8941,7 +9993,9 @@
 ---
 
 ### maddy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/maddy.sh
 - **Description:** ✉️ Composable all-in-one mail server.
+- **Note:** 
 - **Author:** foxcpp
 - **WebURL:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
 - **Repository:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
@@ -8958,7 +10012,9 @@
 ---
 
 ### mailpit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mailpit.sh
 - **Description:** An email and SMTP testing tool with API for developers
+- **Note:** 
 - **Author:** axllent
 - **WebURL:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
 - **Repository:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
@@ -8975,7 +10031,9 @@
 ---
 
 ### mani
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mani.sh
 - **Description:** CLI tool that helps you manage multiple repositories
+- **Note:** 
 - **Author:** alajmo
 - **WebURL:** [https://github.com/alajmo/mani](https://github.com/alajmo/mani)
 - **Repository:** [https://github.com/alajmo/mani](https://github.com/alajmo/mani)
@@ -8992,7 +10050,9 @@
 ---
 
 ### mantra
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mantra.sh
 - **Description:** 「🔑」A tool used to hunt down API key leaks in JS files and pages
+- **Note:** 
 - **Author:** MrEmpy
 - **WebURL:** [https://github.com/MrEmpy/mantra](https://github.com/MrEmpy/mantra)
 - **Repository:** [https://github.com/MrEmpy/mantra](https://github.com/MrEmpy/mantra)
@@ -9009,7 +10069,9 @@
 ---
 
 ### mapcidr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mapcidr.sh
 - **Description:** Utility program to perform multiple operations for a given subnet/CIDR ranges
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/mapcidr](https://github.com/projectdiscovery/mapcidr)
 - **Repository:** [https://github.com/projectdiscovery/mapcidr](https://github.com/projectdiscovery/mapcidr)
@@ -9026,7 +10088,9 @@
 ---
 
 ### masscan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/masscan.sh
 - **Description:** TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
+- **Note:** 
 - **Author:** robertdavidgraham
 - **WebURL:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
 - **Repository:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
@@ -9043,7 +10107,9 @@
 ---
 
 ### massdns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/massdns.sh
 - **Description:** A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
+- **Note:** 
 - **Author:** blechschmidt
 - **WebURL:** [https://github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns)
 - **Repository:** [https://github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns)
@@ -9060,7 +10126,9 @@
 ---
 
 ### matterbridge
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/matterbridge.sh
 - **Description:** A simple chat bridge
+- **Note:** 
 - **Author:** 42wim
 - **WebURL:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
 - **Repository:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
@@ -9077,7 +10145,9 @@
 ---
 
 ### mawk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mawk.sh
 - **Description:** Interpreter for the AWK Programming Language
+- **Note:** 
 - **Author:** ThomasDickey
 - **WebURL:** [https://invisible-island.net/mawk/mawk.html](https://invisible-island.net/mawk/mawk.html)
 - **Repository:** [https://github.com/ThomasDickey/mawk-snapshots](https://github.com/ThomasDickey/mawk-snapshots)
@@ -9094,7 +10164,9 @@
 ---
 
 ### mc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mc.sh
 - **Description:** Drive performance measurement tool
+- **Note:** 
 - **Author:** minio
 - **WebURL:** [https://github.com/minio/mc](https://github.com/minio/mc)
 - **Repository:** [https://github.com/minio/mc](https://github.com/minio/mc)
@@ -9111,7 +10183,9 @@
 ---
 
 ### mcfly
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mcfly.sh
 - **Description:** Fly through your shell history.
+- **Note:** 
 - **Author:** cantino
 - **WebURL:** [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
 - **Repository:** [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
@@ -9128,7 +10202,9 @@
 ---
 
 ### mdcat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mdcat.sh
 - **Description:** cat for markdown
+- **Note:** 
 - **Author:** swsnr
 - **WebURL:** [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 - **Repository:** [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
@@ -9145,7 +10221,9 @@
 ---
 
 ### mdp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mdp.sh
 - **Description:** A command-line based markdown presentation tool
+- **Note:** 
 - **Author:** visit1985
 - **WebURL:** [https://github.com/visit1985/mdp](https://github.com/visit1985/mdp)
 - **Repository:** [https://github.com/visit1985/mdp](https://github.com/visit1985/mdp)
@@ -9162,7 +10240,9 @@
 ---
 
 ### mdsh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mdsh.sh
 - **Description:** $ mdsh
+- **Note:** 
 - **Author:** zimbatm
 - **WebURL:** [https://github.com/zimbatm/mdsh](https://github.com/zimbatm/mdsh)
 - **Repository:** [https://github.com/zimbatm/mdsh](https://github.com/zimbatm/mdsh)
@@ -9179,7 +10259,9 @@
 ---
 
 ### melange
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/melange.sh
 - **Description:** build APKs from source code
+- **Note:** 
 - **Author:** chainguard-dev
 - **WebURL:** [https://github.com/chainguard-dev/melange](https://github.com/chainguard-dev/melange)
 - **Repository:** [https://github.com/chainguard-dev/melange](https://github.com/chainguard-dev/melange)
@@ -9196,7 +10278,9 @@
 ---
 
 ### meli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/meli.sh
 - **Description:** 🐝 terminal mail client
+- **Note:** 
 - **Author:** meli
 - **WebURL:** [https://github.com/meli/meli](https://github.com/meli/meli)
 - **Repository:** [https://github.com/meli/meli](https://github.com/meli/meli)
@@ -9213,11 +10297,13 @@
 ---
 
 ### mergerfs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mergerfs.sh
 - **Description:** A featureful union filesystem
+- **Note:** 
 - **Author:** trapexit
 - **WebURL:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
 - **Repository:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
-- **Stars:** 4184
+- **Stars:** 4185
 - **Version:** 2.40.2
 - **Updated:** 2024-07-18T20:28:42Z
 - **Size:** 1.93 MB
@@ -9230,7 +10316,9 @@
 ---
 
 ### mgwls
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mgwls.sh
 - **Description:** Combine words from two wordlist files and concatenate them with an optional delimiter
+- **Note:** 
 - **Author:** trickest
 - **WebURL:** [https://github.com/trickest/mgwls](https://github.com/trickest/mgwls)
 - **Repository:** [https://github.com/trickest/mgwls](https://github.com/trickest/mgwls)
@@ -9247,11 +10335,13 @@
 ---
 
 ### micro
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/micro.sh
 - **Description:** A modern and intuitive terminal-based text editor
+- **Note:** 
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24873
+- **Stars:** 24874
 - **Version:** v2.0.14
 - **Updated:** 2024-09-21T00:20:16Z
 - **Size:** 11.67 MB
@@ -9264,7 +10354,9 @@
 ---
 
 ### mlr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/miller.sh
 - **Description:** Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+- **Note:** 
 - **Author:** johnkerl
 - **WebURL:** [https://github.com/johnkerl/miller](https://github.com/johnkerl/miller)
 - **Repository:** [https://github.com/johnkerl/miller](https://github.com/johnkerl/miller)
@@ -9281,7 +10373,9 @@
 ---
 
 ### miniflux
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/miniflux.sh
 - **Description:** Minimalist and opinionated feed reader
+- **Note:** 
 - **Author:** miniflux
 - **WebURL:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
 - **Repository:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
@@ -9298,7 +10392,9 @@
 ---
 
 ### miniserve
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/miniserve.sh
 - **Description:** CLI tool to serve files and dirs over HTTP
+- **Note:** 
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - **Repository:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
@@ -9315,7 +10411,9 @@
 ---
 
 ### minisign
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/minisign.sh
 - **Description:** A dead simple tool to sign files and verify digital signatures.
+- **Note:** 
 - **Author:** jedisct1
 - **WebURL:** [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign)
 - **Repository:** [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign)
@@ -9332,7 +10430,9 @@
 ---
 
 ### mirrorbits
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mirrorbits.sh
 - **Description:** geographical download redirector written in Go for distributing files efficiently across a set of mirrors.
+- **Note:** 
 - **Author:** etix
 - **WebURL:** [https://github.com/etix/mirrorbits](https://github.com/etix/mirrorbits)
 - **Repository:** [https://github.com/etix/mirrorbits](https://github.com/etix/mirrorbits)
@@ -9349,11 +10449,13 @@
 ---
 
 ### mise
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mise.sh
 - **Description:** dev tools, env vars, task runner
+- **Note:** 
 - **Author:** jdx
 - **WebURL:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
 - **Repository:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
-- **Stars:** 9177
+- **Stars:** 9179
 - **Version:** v2024.9.6
 - **Updated:** 2024-09-21T00:16:54Z
 - **Size:** 25.76 MB
@@ -9366,7 +10468,9 @@
 ---
 
 ### mkpasswd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mkpasswd.sh
 - **Description:** 
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://packages.qa.debian.org/w/whois.html](https://packages.qa.debian.org/w/whois.html)
 - **Repository:** []()
@@ -9383,7 +10487,9 @@
 ---
 
 ### mksub
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mksub.sh
 - **Description:** Generate tens of thousands of subdomain combinations in a matter of seconds
+- **Note:** 
 - **Author:** trickest
 - **WebURL:** [https://github.com/trickest/mksub](https://github.com/trickest/mksub)
 - **Repository:** [https://github.com/trickest/mksub](https://github.com/trickest/mksub)
@@ -9400,7 +10506,9 @@
 ---
 
 ### mmv
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mmv.sh
 - **Description:** rename multiple files with editor
+- **Note:** 
 - **Author:** itchyny
 - **WebURL:** [https://github.com/itchyny/mmv](https://github.com/itchyny/mmv)
 - **Repository:** [https://github.com/itchyny/mmv](https://github.com/itchyny/mmv)
@@ -9417,7 +10525,9 @@
 ---
 
 ### moac
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/moac.sh
 - **Description:** Go Implementation of WireGuard
+- **Note:** 
 - **Author:** Seirdy
 - **WebURL:** [https://github.com/Seirdy/moac](https://github.com/Seirdy/moac)
 - **Repository:** [https://github.com/Seirdy/moac](https://github.com/Seirdy/moac)
@@ -9434,7 +10544,9 @@
 ---
 
 ### moac-pwgen
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/moac.sh
 - **Description:** Go Implementation of WireGuard
+- **Note:** 
 - **Author:** Seirdy
 - **WebURL:** [https://github.com/Seirdy/moac](https://github.com/Seirdy/moac)
 - **Repository:** [https://github.com/Seirdy/moac](https://github.com/Seirdy/moac)
@@ -9451,7 +10563,9 @@
 ---
 
 ### monolith
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/monolith.sh
 - **Description:** ⬛️ CLI tool for saving complete web pages as a single HTML file
+- **Note:** 
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
@@ -9468,7 +10582,9 @@
 ---
 
 ### mosh-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mosh.sh
 - **Description:** the mobile shell
+- **Note:** 
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
@@ -9485,7 +10601,9 @@
 ---
 
 ### mosh-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mosh.sh
 - **Description:** the mobile shell
+- **Note:** 
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
@@ -9502,7 +10620,9 @@
 ---
 
 ### mqttui
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mqttui.sh
 - **Description:** Subscribe to a MQTT Topic or publish something quickly from the terminal
+- **Note:** 
 - **Author:** EdJoPaTo
 - **WebURL:** [https://github.com/EdJoPaTo/mqttui](https://github.com/EdJoPaTo/mqttui)
 - **Repository:** [https://github.com/EdJoPaTo/mqttui](https://github.com/EdJoPaTo/mqttui)
@@ -9519,7 +10639,9 @@
 ---
 
 ### mtr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mtr.sh
 - **Description:** a network diagnostic tool
+- **Note:** 
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
@@ -9536,7 +10658,9 @@
 ---
 
 ### mtr-packet
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mtr.sh
 - **Description:** a network diagnostic tool
+- **Note:** 
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
@@ -9553,7 +10677,9 @@
 ---
 
 ### mubeng
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/mubeng.sh
 - **Description:** An incredibly fast proxy checker & IP rotator with ease
+- **Note:** 
 - **Author:** kitabisa
 - **WebURL:** [https://github.com/kitabisa/mubeng](https://github.com/kitabisa/mubeng)
 - **Repository:** [https://github.com/kitabisa/mubeng](https://github.com/kitabisa/mubeng)
@@ -9570,7 +10696,9 @@
 ---
 
 ### naabu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/naabu.sh
 - **Description:** A fast port scanner written in go with a focus on reliability and simplicity
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
 - **Repository:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
@@ -9587,7 +10715,9 @@
 ---
 
 ### namegen
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/namegen.sh
 - **Description:** A unique(ish) random name and id generator
+- **Note:** 
 - **Author:** anandvarma
 - **WebURL:** [https://github.com/anandvarma/namegen](https://github.com/anandvarma/namegen)
 - **Repository:** [https://github.com/anandvarma/namegen](https://github.com/anandvarma/namegen)
@@ -9604,11 +10734,13 @@
 ---
 
 ### navi
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/navi.sh
 - **Description:** An interactive cheatsheet tool for the command-line
+- **Note:** 
 - **Author:** denisidoro
 - **WebURL:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
 - **Repository:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
-- **Stars:** 14858
+- **Stars:** 14859
 - **Version:** v2.23.0
 - **Updated:** 2024-06-30T14:11:42Z
 - **Size:** 3.49 MB
@@ -9621,7 +10753,9 @@
 ---
 
 ### ncdu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ncdu.sh
 - **Description:** disk usage analyzer
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://dev.yorhel.nl](https://dev.yorhel.nl)
 - **Repository:** []()
@@ -9638,7 +10772,9 @@
 ---
 
 ### neofetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/neofetch.sh
 - **Description:** Updated Fork
+- **Note:** 
 - **Author:** hykilpikonna
 - **WebURL:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
 - **Repository:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
@@ -9655,13 +10791,15 @@
 ---
 
 ### nerdctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nerdctl.sh
 - **Description:** Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS
+- **Note:** 
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
 - **Repository:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
-- **Stars:** 7939
+- **Stars:** 7941
 - **Version:** v1.7.7
-- **Updated:** 2024-09-20T22:51:01Z
+- **Updated:** 2024-09-21T17:42:27Z
 - **Size:** 25.98 MB
 - **SHA256SUM:** 40333877297eb8728730c36a218d290da1bb10624eeb2aa29b94a2c2275de5e9
 - **B3SUM:** 991cfc12545a6fb57dbb2c63804cbc4fd9a14133efc2a35bc51fa4a44745de6b
@@ -9672,11 +10810,13 @@
 ---
 
 ### netbird
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netbird.sh
 - **Description:** Connects Devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls
+- **Note:** 
 - **Author:** netbirdio
 - **WebURL:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 - **Repository:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
-- **Stars:** 10664
+- **Stars:** 10665
 - **Version:** v0.29.4
 - **Updated:** 2024-09-20T15:44:31Z
 - **Size:** 28.65 MB
@@ -9689,7 +10829,9 @@
 ---
 
 ### netcat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netcat-gnu.sh
 - **Description:** TCP/IP swiss army knife (GNU-variant)
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://netcat.sourceforge.net/](https://netcat.sourceforge.net/)
 - **Repository:** []()
@@ -9706,7 +10848,9 @@
 ---
 
 ### netexec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netexec.sh
 - **Description:** The Network Execution (CrackMapExec) Tool
+- **Note:** 
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
@@ -9723,7 +10867,9 @@
 ---
 
 ### netexec_dynamic
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netexec.sh
 - **Description:** The Network Execution (CrackMapExec) Tool
+- **Note:** 
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
@@ -9740,11 +10886,13 @@
 ---
 
 ### netmaker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netmaker.sh
 - **Description:** makes networks with WireGuard
+- **Note:** 
 - **Author:** gravitl
 - **WebURL:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
-- **Stars:** 9395
+- **Stars:** 9396
 - **Version:** v0.25.0
 - **Updated:** 2024-09-20T11:59:16Z
 - **Size:** 15.1 MB
@@ -9757,11 +10905,13 @@
 ---
 
 ### nmctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netmaker.sh
 - **Description:** makes networks with WireGuard
+- **Note:** 
 - **Author:** gravitl
 - **WebURL:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
-- **Stars:** 9395
+- **Stars:** 9396
 - **Version:** v0.25.0
 - **Updated:** 2024-09-20T11:59:16Z
 - **Size:** 12.28 MB
@@ -9774,7 +10924,9 @@
 ---
 
 ### netscanner
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netscanner.sh
 - **Description:** Network scanner & diagnostic tool with modern TUI
+- **Note:** 
 - **Author:** Chleba
 - **WebURL:** [https://github.com/Chleba/netscanner](https://github.com/Chleba/netscanner)
 - **Repository:** [https://github.com/Chleba/netscanner](https://github.com/Chleba/netscanner)
@@ -9791,7 +10943,9 @@
 ---
 
 ### netstat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netstat.sh
 - **Description:** 
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://sourceforge.net/projects/net-tools/](https://sourceforge.net/projects/net-tools/)
 - **Repository:** []()
@@ -9808,11 +10962,13 @@
 ---
 
 ### nezha-agent
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
+- **Note:** 
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 6956
+- **Stars:** 6957
 - **Version:** v0.19.11
 - **Updated:** 2024-09-11T13:54:55Z
 - **Size:** 22.82 MB
@@ -9825,11 +10981,13 @@
 ---
 
 ### nezha-dashboard
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
+- **Note:** 
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 6956
+- **Stars:** 6957
 - **Version:** v0.19.11
 - **Updated:** 2024-09-11T13:54:55Z
 - **Size:** 38.05 MB
@@ -9842,11 +11000,13 @@
 ---
 
 ### nezha-dashboard.openrc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
+- **Note:** 
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 6956
+- **Stars:** 6957
 - **Version:** v0.19.11
 - **Updated:** 2024-09-11T13:54:55Z
 - **Size:** 376 B
@@ -9859,11 +11019,13 @@
 ---
 
 ### nezha-dashboard.service
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
+- **Note:** 
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 6956
+- **Stars:** 6957
 - **Version:** v0.19.11
 - **Updated:** 2024-09-11T13:54:55Z
 - **Size:** 798 B
@@ -9876,11 +11038,13 @@
 ---
 
 ### nezha-install.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
+- **Note:** 
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 6956
+- **Stars:** 6957
 - **Version:** v0.19.11
 - **Updated:** 2024-09-11T13:54:55Z
 - **Size:** 31.12 kB
@@ -9893,7 +11057,9 @@
 ---
 
 ### nginx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nginx.sh
 - **Description:** Static Nginx and njs binaries for Linux
+- **Note:** 
 - **Author:** jirutka
 - **WebURL:** [https://github.com/jirutka/nginx-binaries](https://github.com/jirutka/nginx-binaries)
 - **Repository:** [https://github.com/jirutka/nginx-binaries](https://github.com/jirutka/nginx-binaries)
@@ -9910,7 +11076,9 @@
 ---
 
 ### njs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nginx.sh
 - **Description:** Static Nginx and njs binaries for Linux
+- **Note:** 
 - **Author:** jirutka
 - **WebURL:** [https://github.com/jirutka/nginx-binaries](https://github.com/jirutka/nginx-binaries)
 - **Repository:** [https://github.com/jirutka/nginx-binaries](https://github.com/jirutka/nginx-binaries)
@@ -9927,7 +11095,9 @@
 ---
 
 ### ngocok
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ngocok.sh
 - **Description:** ngrok Collaborator Link — yet another Burp Collaborator alternative for free with ngrok.
+- **Note:** 
 - **Author:** dwisiswant0
 - **WebURL:** [https://github.com/dwisiswant0/ngocok](https://github.com/dwisiswant0/ngocok)
 - **Repository:** [https://github.com/dwisiswant0/ngocok](https://github.com/dwisiswant0/ngocok)
@@ -9944,7 +11114,9 @@
 ---
 
 ### ngrok
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ngrok.sh
 - **Description:** External Tunnel to Internal Assets
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://ngrok.com/](https://ngrok.com/)
 - **Repository:** []()
@@ -9961,7 +11133,9 @@
 ---
 
 ### niltalk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/niltalk.sh
 - **Description:** Instant, disposable, single-binary web based live chat server
+- **Note:** 
 - **Author:** knadh
 - **WebURL:** [https://github.com/knadh/niltalk](https://github.com/knadh/niltalk)
 - **Repository:** [https://github.com/knadh/niltalk](https://github.com/knadh/niltalk)
@@ -9978,7 +11152,9 @@
 ---
 
 ### nix-channel-index
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nix-index.sh
 - **Description:** Quickly locate nix packages with specific files
+- **Note:** 
 - **Author:** nix-community
 - **WebURL:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
 - **Repository:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
@@ -9995,7 +11171,9 @@
 ---
 
 ### nix-index
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nix-index.sh
 - **Description:** Quickly locate nix packages with specific files
+- **Note:** 
 - **Author:** nix-community
 - **WebURL:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
 - **Repository:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
@@ -10012,7 +11190,9 @@
 ---
 
 ### nix-locate
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nix-index.sh
 - **Description:** Quickly locate nix packages with specific files
+- **Note:** 
 - **Author:** nix-community
 - **WebURL:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
 - **Repository:** [https://github.com/nix-community/nix-index](https://github.com/nix-community/nix-index)
@@ -10029,7 +11209,9 @@
 ---
 
 ### nmap-formatter
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nmap-formatter.sh
 - **Description:** A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
+- **Note:** 
 - **Author:** vdjagilev
 - **WebURL:** [https://github.com/vdjagilev/nmap-formatter](https://github.com/vdjagilev/nmap-formatter)
 - **Repository:** [https://github.com/vdjagilev/nmap-formatter](https://github.com/vdjagilev/nmap-formatter)
@@ -10046,7 +11228,9 @@
 ---
 
 ### ncat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nmap.sh
 - **Description:** port scanner
+- **Note:** 
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
@@ -10063,7 +11247,9 @@
 ---
 
 ### nmap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nmap.sh
 - **Description:** port scanner
+- **Note:** 
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
@@ -10080,7 +11266,9 @@
 ---
 
 ### nping
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nmap.sh
 - **Description:** port scanner
+- **Note:** 
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
@@ -10097,7 +11285,9 @@
 ---
 
 ### nmapurls
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nmapurls.sh
 - **Description:** parses Nmap xml reports and outputs a list of http(s) URLs
+- **Note:** 
 - **Author:** sdcampbell
 - **WebURL:** [https://github.com/sdcampbell/nmapurls](https://github.com/sdcampbell/nmapurls)
 - **Repository:** [https://github.com/sdcampbell/nmapurls](https://github.com/sdcampbell/nmapurls)
@@ -10114,7 +11304,9 @@
 ---
 
 ### nnn
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nnn.sh
 - **Description:** n³ The unorthodox terminal file manager
+- **Note:** 
 - **Author:** jarun
 - **WebURL:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
 - **Repository:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
@@ -10131,13 +11323,15 @@
 ---
 
 ### noir
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/noir.sh
 - **Description:** ♠️ Noir is an attack surface detector that identifies endpoints by static analysis
+- **Note:** 
 - **Author:** owasp-noir
 - **WebURL:** [https://github.com/hahwul/noir](https://github.com/hahwul/noir)
 - **Repository:** [https://github.com/hahwul/noir](https://github.com/hahwul/noir)
 - **Stars:** 556
 - **Version:** v0.17.0
-- **Updated:** 2024-09-21T15:49:06Z
+- **Updated:** 2024-09-21T16:42:01Z
 - **Size:** 10.42 MB
 - **SHA256SUM:** 38e3675a002edb03d10b58c3c27eb24ad22bdadd51bb08cacc4a55129af56219
 - **B3SUM:** 50dd3cfa2158d0ff8cf18394b991e1fffdf1740c9d1730d78e1a8eddd06fa6f9
@@ -10148,7 +11342,9 @@
 ---
 
 ### nomore403
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nomore403.sh
 - **Description:** Tool to bypass 403/40X response codes.
+- **Note:** 
 - **Author:** devploit
 - **WebURL:** [https://github.com/devploit/nomore403](https://github.com/devploit/nomore403)
 - **Repository:** [https://github.com/devploit/nomore403](https://github.com/devploit/nomore403)
@@ -10165,7 +11361,9 @@
 ---
 
 ### noseyparker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/noseyparker.sh
 - **Description:** command-line program that finds secrets and sensitive information in textual data and Git history.
+- **Note:** 
 - **Author:** praetorian-inc
 - **WebURL:** [https://github.com/praetorian-inc/noseyparker](https://github.com/praetorian-inc/noseyparker)
 - **Repository:** [https://github.com/praetorian-inc/noseyparker](https://github.com/praetorian-inc/noseyparker)
@@ -10182,7 +11380,9 @@
 ---
 
 ### notify
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/notify.sh
 - **Description:** stream the output of several tools (or read from a file) and send notifications
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/notify](https://github.com/projectdiscovery/notify)
 - **Repository:** [https://github.com/projectdiscovery/notify](https://github.com/projectdiscovery/notify)
@@ -10199,7 +11399,9 @@
 ---
 
 ### nrich
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nrich.sh
 - **Description:** A command-line tool to quickly analyze all IPs in a file and see which ones have open ports/ vulnerabilities
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.com/shodan-public/nrich](https://gitlab.com/shodan-public/nrich)
 - **Repository:** []()
@@ -10216,7 +11418,9 @@
 ---
 
 ### nuclei
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nuclei.sh
 - **Description:** Fast and customizable vulnerability scanner based on simple YAML based DSL
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 - **Repository:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
@@ -10233,7 +11437,9 @@
 ---
 
 ### memhog
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
+- **Note:** 
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
@@ -10250,7 +11456,9 @@
 ---
 
 ### migratepages
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
+- **Note:** 
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
@@ -10267,7 +11475,9 @@
 ---
 
 ### migspeed
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
+- **Note:** 
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
@@ -10284,7 +11494,9 @@
 ---
 
 ### numactl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
+- **Note:** 
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
@@ -10301,7 +11513,9 @@
 ---
 
 ### numademo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
+- **Note:** 
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
@@ -10318,7 +11532,9 @@
 ---
 
 ### numastat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
+- **Note:** 
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
@@ -10335,11 +11551,13 @@
 ---
 
 ### nu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nushell.sh
 - **Description:** A new type of shell
+- **Note:** 
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 31727
+- **Stars:** 31725
 - **Version:** 0.98.0
 - **Updated:** 2024-09-19T12:38:36Z
 - **Size:** 35.96 MB
@@ -10352,11 +11570,13 @@
 ---
 
 ### nushell
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nushell.sh
 - **Description:** A new type of shell
+- **Note:** 
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 31727
+- **Stars:** 31725
 - **Version:** 0.98.0
 - **Updated:** 2024-09-19T12:38:36Z
 - **Size:** 35.96 MB
@@ -10369,7 +11589,9 @@
 ---
 
 ### nvme
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nvme-cli.sh
 - **Description:** NVMe management command line interface.
+- **Note:** 
 - **Author:** linux-nvme
 - **WebURL:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
 - **Repository:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
@@ -10386,7 +11608,9 @@
 ---
 
 ### nvme-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/nvme-cli.sh
 - **Description:** NVMe management command line interface.
+- **Note:** 
 - **Author:** linux-nvme
 - **WebURL:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
 - **Repository:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
@@ -10403,7 +11627,9 @@
 ---
 
 ### ockam
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ockam.sh
 - **Description:** Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
+- **Note:** 
 - **Author:** build-trust
 - **WebURL:** [https://github.com/build-trust/ockam](https://github.com/build-trust/ockam)
 - **Repository:** [https://github.com/build-trust/ockam](https://github.com/build-trust/ockam)
@@ -10420,7 +11646,9 @@
 ---
 
 ### oha
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/oha.sh
 - **Description:** HTTP load generator
+- **Note:** 
 - **Author:** hatoo
 - **WebURL:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 - **Repository:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
@@ -10437,7 +11665,9 @@
 ---
 
 ### oksh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/oksh.sh
 - **Description:** Portable OpenBSD ksh, based on the Public Domain Korn Shell (pdksh)
+- **Note:** 
 - **Author:** ibara
 - **WebURL:** [https://github.com/ibara/oksh](https://github.com/ibara/oksh)
 - **Repository:** [https://github.com/ibara/oksh](https://github.com/ibara/oksh)
@@ -10454,7 +11684,9 @@
 ---
 
 ### onetun
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/onetun.sh
 - **Description:** User space WireGuard proxy in Rust
+- **Note:** 
 - **Author:** aramperes
 - **WebURL:** [https://github.com/aramperes/onetun](https://github.com/aramperes/onetun)
 - **Repository:** [https://github.com/aramperes/onetun](https://github.com/aramperes/onetun)
@@ -10471,7 +11703,9 @@
 ---
 
 ### miniooni
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ooniprobe.sh
 - **Description:** OONI Probe Engine and CLI
+- **Note:** 
 - **Author:** ooni
 - **WebURL:** [https://ooni.org](https://ooni.org)
 - **Repository:** [https://github.com/ooni/probe-cli](https://github.com/ooni/probe-cli)
@@ -10488,7 +11722,9 @@
 ---
 
 ### ooniprobe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ooniprobe.sh
 - **Description:** OONI Probe Engine and CLI
+- **Note:** 
 - **Author:** ooni
 - **WebURL:** [https://ooni.org](https://ooni.org)
 - **Repository:** [https://github.com/ooni/probe-cli](https://github.com/ooni/probe-cli)
@@ -10505,7 +11741,9 @@
 ---
 
 ### openapi-tui
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/openapi-tui.sh
 - **Description:** Terminal UI to list, browse and run APIs defined with openapi spec.
+- **Note:** 
 - **Author:** zaghaghi
 - **WebURL:** [https://github.com/zaghaghi/openapi-tui](https://github.com/zaghaghi/openapi-tui)
 - **Repository:** [https://github.com/zaghaghi/openapi-tui](https://github.com/zaghaghi/openapi-tui)
@@ -10522,7 +11760,9 @@
 ---
 
 ### opengfw
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/opengfw.sh
 - **Description:** a flexible, easy-to-use, open source implementation of GFW (Great Firewall of China) on Linux
+- **Note:** 
 - **Author:** apernet
 - **WebURL:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
 - **Repository:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
@@ -10539,7 +11779,9 @@
 ---
 
 ### opengist
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/opengist.sh
 - **Description:** Self-hosted pastebin powered by Git, open-source alternative to Github Gist.
+- **Note:** 
 - **Author:** thomiceli
 - **WebURL:** [https://github.com/thomiceli/opengist](https://github.com/thomiceli/opengist)
 - **Repository:** [https://github.com/thomiceli/opengist](https://github.com/thomiceli/opengist)
@@ -10556,7 +11798,9 @@
 ---
 
 ### openrisk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/openrisk.sh
 - **Description:** Generates a risk score based on the results of a Nuclei scan
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/openrisk](https://github.com/projectdiscovery/openrisk)
 - **Repository:** [https://github.com/projectdiscovery/openrisk](https://github.com/projectdiscovery/openrisk)
@@ -10573,11 +11817,13 @@
 ---
 
 ### openvpn
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/openvpn.sh
 - **Description:** A robust and highly flexible tunneling application
+- **Note:** 
 - **Author:** OpenVPN
 - **WebURL:** [https://openvpn.net/](https://openvpn.net/)
 - **Repository:** [https://github.com/OpenVPN/openvpn](https://github.com/OpenVPN/openvpn)
-- **Stars:** 10684
+- **Stars:** 10685
 - **Version:** v2.6.12
 - **Updated:** 2024-09-19T10:02:12Z
 - **Size:** 5.37 MB
@@ -10590,7 +11836,9 @@
 ---
 
 ### orbiton
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/orbiton.sh
 - **Description:** Fast and config-free text editor and IDE limited to VT100
+- **Note:** 
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/orbiton](https://github.com/xyproto/orbiton)
 - **Repository:** [https://github.com/xyproto/orbiton](https://github.com/xyproto/orbiton)
@@ -10607,7 +11855,9 @@
 ---
 
 ### osmedeus
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/osmedeus.sh
 - **Description:** A Workflow Engine for Offensive Security
+- **Note:** 
 - **Author:** j3ssie
 - **WebURL:** [https://github.com/j3ssie/osmedeus](https://github.com/j3ssie/osmedeus)
 - **Repository:** [https://github.com/j3ssie/osmedeus](https://github.com/j3ssie/osmedeus)
@@ -10624,7 +11874,9 @@
 ---
 
 ### ouch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ouch.sh
 - **Description:** Painless compression and decompression in the terminal
+- **Note:** 
 - **Author:** ouch-org
 - **WebURL:** [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
 - **Repository:** [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
@@ -10641,7 +11893,9 @@
 ---
 
 ### ov
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ov.sh
 - **Description:** 🎑Feature-rich terminal-based text viewer. It is a so-called terminal pager.
+- **Note:** 
 - **Author:** noborus
 - **WebURL:** [https://github.com/noborus/ov](https://github.com/noborus/ov)
 - **Repository:** [https://github.com/noborus/ov](https://github.com/noborus/ov)
@@ -10658,7 +11912,9 @@
 ---
 
 ### overmind
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/overmind.sh
 - **Description:** Process manager for Procfile-based applications and tmux
+- **Note:** 
 - **Author:** DarthSim
 - **WebURL:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
 - **Repository:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
@@ -10675,7 +11931,9 @@
 ---
 
 ### passdetective
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/passdetective.sh
 - **Description:** PassDetective is a command-line tool that scans shell command history to detect mistakenly written passwords, API keys, and secrets
+- **Note:** 
 - **Author:** aydinnyunus
 - **WebURL:** [https://github.com/aydinnyunus/PassDetective](https://github.com/aydinnyunus/PassDetective)
 - **Repository:** [https://github.com/aydinnyunus/PassDetective](https://github.com/aydinnyunus/PassDetective)
@@ -10692,7 +11950,9 @@
 ---
 
 ### patchelf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/patchelf.sh
 - **Description:** A small utility to modify the dynamic linker and RPATH of ELF executables
+- **Note:** 
 - **Author:** NixOS
 - **WebURL:** [https://github.com/NixOS/patchelf](https://github.com/NixOS/patchelf)
 - **Repository:** [https://github.com/NixOS/patchelf](https://github.com/NixOS/patchelf)
@@ -10709,7 +11969,9 @@
 ---
 
 ### pathbuster
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pathbuster.sh
 - **Description:** A path-normalization pentesting tool
+- **Note:** 
 - **Author:** ethicalhackingplayground
 - **WebURL:** [https://github.com/ethicalhackingplayground/pathbuster](https://github.com/ethicalhackingplayground/pathbuster)
 - **Repository:** [https://github.com/ethicalhackingplayground/pathbuster](https://github.com/ethicalhackingplayground/pathbuster)
@@ -10726,7 +11988,9 @@
 ---
 
 ### pdfcpu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pdfcpu.sh
 - **Description:** A PDF processor written in Go.
+- **Note:** 
 - **Author:** pdfcpu
 - **WebURL:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
 - **Repository:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
@@ -10743,7 +12007,9 @@
 ---
 
 ### pelf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
+- **Note:** 
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
@@ -10760,7 +12026,9 @@
 ---
 
 ### pelf_extract
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
+- **Note:** 
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
@@ -10777,7 +12045,9 @@
 ---
 
 ### pelf_linker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
+- **Note:** 
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
@@ -10794,7 +12064,9 @@
 ---
 
 ### pelfd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
+- **Note:** 
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
@@ -10811,7 +12083,9 @@
 ---
 
 ### pencode
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pencode.sh
 - **Description:** Complex payload encoder
+- **Note:** 
 - **Author:** ffuf
 - **WebURL:** [https://github.com/ffuf/pencode](https://github.com/ffuf/pencode)
 - **Repository:** [https://github.com/ffuf/pencode](https://github.com/ffuf/pencode)
@@ -10828,7 +12102,9 @@
 ---
 
 ### pfetch-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pfetch-rs.sh
 - **Description:** A rewrite of the pfetch system information tool in Rust
+- **Note:** 
 - **Author:** Gobidev
 - **WebURL:** [https://github.com/Gobidev/pfetch-rs](https://github.com/Gobidev/pfetch-rs)
 - **Repository:** [https://github.com/Gobidev/pfetch-rs](https://github.com/Gobidev/pfetch-rs)
@@ -10845,7 +12121,9 @@
 ---
 
 ### pgrok
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pgrok.sh
 - **Description:** multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
+- **Note:** 
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
@@ -10862,7 +12140,9 @@
 ---
 
 ### pgrokd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pgrok.sh
 - **Description:** multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
+- **Note:** 
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
@@ -10879,7 +12159,9 @@
 ---
 
 ### pgweb
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pgweb.sh
 - **Description:** Cross-platform client for PostgreSQL databases
+- **Note:** 
 - **Author:** sosedoff
 - **WebURL:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
 - **Repository:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
@@ -10896,7 +12178,9 @@
 ---
 
 ### phantun-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/phantun.sh
 - **Description:** Easy per application transparent proxy built on cgroup.
+- **Note:** 
 - **Author:** dndx
 - **WebURL:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
 - **Repository:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
@@ -10913,7 +12197,9 @@
 ---
 
 ### phantun-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/phantun.sh
 - **Description:** Easy per application transparent proxy built on cgroup.
+- **Note:** 
 - **Author:** dndx
 - **WebURL:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
 - **Repository:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
@@ -10930,7 +12216,9 @@
 ---
 
 ### php
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/php.sh
 - **Description:** Standalone PHP binary
+- **Note:** 
 - **Author:** crazywhalecc
 - **WebURL:** [https://static-php.dev](https://static-php.dev)
 - **Repository:** [https://github.com/crazywhalecc/static-php-cli](https://github.com/crazywhalecc/static-php-cli)
@@ -10947,7 +12235,9 @@
 ---
 
 ### php-fpm
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/php.sh
 - **Description:** Standalone PHP binary
+- **Note:** 
 - **Author:** crazywhalecc
 - **WebURL:** [https://static-php.dev](https://static-php.dev)
 - **Repository:** [https://github.com/crazywhalecc/static-php-cli](https://github.com/crazywhalecc/static-php-cli)
@@ -10964,7 +12254,9 @@
 ---
 
 ### php-micro
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/php.sh
 - **Description:** Standalone PHP binary
+- **Note:** 
 - **Author:** crazywhalecc
 - **WebURL:** [https://static-php.dev](https://static-php.dev)
 - **Repository:** [https://github.com/crazywhalecc/static-php-cli](https://github.com/crazywhalecc/static-php-cli)
@@ -10981,7 +12273,9 @@
 ---
 
 ### pier
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pier.sh
 - **Description:** A Linux script management CLI written in Rust
+- **Note:** 
 - **Author:** pier-cli
 - **WebURL:** [https://github.com/pier-cli/pier](https://github.com/pier-cli/pier)
 - **Repository:** [https://github.com/pier-cli/pier](https://github.com/pier-cli/pier)
@@ -10998,7 +12292,9 @@
 ---
 
 ### pigz
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pigz.sh
 - **Description:** A parallel implementation of gzip for multi-core machines
+- **Note:** 
 - **Author:** madler
 - **WebURL:** [https://github.com/madler/pigz](https://github.com/madler/pigz)
 - **Repository:** [https://github.com/madler/pigz](https://github.com/madler/pigz)
@@ -11015,7 +12311,9 @@
 ---
 
 ### pingmole
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pingmole.sh
 - **Description:** CLI that helps to filter pingmole servers and pick the closest one.
+- **Note:** 
 - **Author:** norskeld
 - **WebURL:** [https://github.com/norskeld/pingmole](https://github.com/norskeld/pingmole)
 - **Repository:** [https://github.com/norskeld/pingmole](https://github.com/norskeld/pingmole)
@@ -11032,7 +12330,9 @@
 ---
 
 ### pingtunnel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pingtunnel.sh
 - **Description:** Pingtunnel is a tool that send TCP/UDP traffic over ICMP
+- **Note:** 
 - **Author:** esrrhs
 - **WebURL:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
 - **Repository:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
@@ -11049,13 +12349,15 @@
 ---
 
 ### pixi
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pixi.sh
 - **Description:** Conda Package management made easy
+- **Note:** 
 - **Author:** prefix-dev
 - **WebURL:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
 - **Repository:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
 - **Stars:** 2968
 - **Version:** v0.30.0
-- **Updated:** 2024-09-20T20:05:48Z
+- **Updated:** 2024-09-21T17:16:06Z
 - **Size:** 31.73 MB
 - **SHA256SUM:** f1db6021a32549d043d1a9af84f758b98e3e2bdcf004574f37c1a80c605280c2
 - **B3SUM:** 36be4bf01bb7c3ebc49c7aa8bb0525a20d0ba810e3c95fc320cf549e374fa13b
@@ -11066,7 +12368,9 @@
 ---
 
 ### pkgtop
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pkgtop.sh
 - **Description:** Interactive package manager and resource monitor designed for the GNU/Linux.
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/pkgtop](https://github.com/orhun/pkgtop)
 - **Repository:** [https://github.com/orhun/pkgtop](https://github.com/orhun/pkgtop)
@@ -11083,7 +12387,9 @@
 ---
 
 ### pktstat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pktstat.sh
 - **Description:** Simple ethernet interface traffic monitor and reporting tool
+- **Note:** 
 - **Author:** dkorunic
 - **WebURL:** [https://github.com/dkorunic/pktstat](https://github.com/dkorunic/pktstat)
 - **Repository:** [https://github.com/dkorunic/pktstat](https://github.com/dkorunic/pktstat)
@@ -11100,7 +12406,9 @@
 ---
 
 ### planor
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/planor.sh
 - **Description:** TUI client for cloud services (AWS, Vultr, Heroku, Render.com, Fleek, ...)
+- **Note:** 
 - **Author:** mrusme
 - **WebURL:** [https://github.com/mrusme/planor](https://github.com/mrusme/planor)
 - **Repository:** [https://github.com/mrusme/planor](https://github.com/mrusme/planor)
@@ -11117,11 +12425,13 @@
 ---
 
 ### podman
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/podman.sh
 - **Description:** A tool for managing OCI containers and pods.
+- **Note:** 
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/podman](https://github.com/containers/podman)
 - **Repository:** [https://github.com/containers/podman](https://github.com/containers/podman)
-- **Stars:** 23153
+- **Stars:** 23154
 - **Version:** v5.2.2
 - **Updated:** 2024-09-20T22:29:35Z
 - **Size:** 31.15 MB
@@ -11134,7 +12444,9 @@
 ---
 
 ### podsync
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/podsync.sh
 - **Description:** Turn YouTube or Vimeo channels, users, or playlists into podcast feeds
+- **Note:** 
 - **Author:** mxpv
 - **WebURL:** [https://github.com/mxpv/podsync](https://github.com/mxpv/podsync)
 - **Repository:** [https://github.com/mxpv/podsync](https://github.com/mxpv/podsync)
@@ -11151,7 +12463,9 @@
 ---
 
 ### ppath
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ppath.sh
 - **Description:** Pretty Print your systems PATH environment variable.
+- **Note:** 
 - **Author:** marwanhawari
 - **WebURL:** [https://github.com/marwanhawari/ppath](https://github.com/marwanhawari/ppath)
 - **Repository:** [https://github.com/marwanhawari/ppath](https://github.com/marwanhawari/ppath)
@@ -11168,7 +12482,9 @@
 ---
 
 ### ppfuzz
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ppfuzz.sh
 - **Description:** A fast tool to scan client-side prototype pollution vulnerability
+- **Note:** 
 - **Author:** dwisiswant0
 - **WebURL:** [https://github.com/dwisiswant0/ppfuzz](https://github.com/dwisiswant0/ppfuzz)
 - **Repository:** [https://github.com/dwisiswant0/ppfuzz](https://github.com/dwisiswant0/ppfuzz)
@@ -11185,7 +12501,9 @@
 ---
 
 ### pping
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pping.sh
 - **Description:** tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping
+- **Note:** 
 - **Author:** wzv5
 - **WebURL:** [https://github.com/wzv5/pping](https://github.com/wzv5/pping)
 - **Repository:** [https://github.com/wzv5/pping](https://github.com/wzv5/pping)
@@ -11202,7 +12520,9 @@
 ---
 
 ### presenterm
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/presenterm.sh
 - **Description:** A terminal slideshow tool
+- **Note:** 
 - **Author:** mfontanini
 - **WebURL:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
 - **Repository:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
@@ -11219,7 +12539,9 @@
 ---
 
 ### pretender
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pretender.sh
 - **Description:** MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing.
+- **Note:** 
 - **Author:** RedTeamPentesting
 - **WebURL:** [https://github.com/RedTeamPentesting/pretender](https://github.com/RedTeamPentesting/pretender)
 - **Repository:** [https://github.com/RedTeamPentesting/pretender](https://github.com/RedTeamPentesting/pretender)
@@ -11236,7 +12558,9 @@
 ---
 
 ### prettyping
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/prettyping.sh
 - **Description:** Ping prettier, more colorful, more compact, and easier to read
+- **Note:** 
 - **Author:** denilsonsa
 - **WebURL:** [https://github.com/denilsonsa/prettyping](https://github.com/denilsonsa/prettyping)
 - **Repository:** [https://github.com/denilsonsa/prettyping](https://github.com/denilsonsa/prettyping)
@@ -11253,7 +12577,9 @@
 ---
 
 ### procs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/procs.sh
 - **Description:** A modern replacement for ps written in Rust
+- **Note:** 
 - **Author:** dalance
 - **WebURL:** [https://github.com/dalance/procs](https://github.com/dalance/procs)
 - **Repository:** [https://github.com/dalance/procs](https://github.com/dalance/procs)
@@ -11270,7 +12596,9 @@
 ---
 
 ### progress
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/progress.sh
 - **Description:** Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)
+- **Note:** 
 - **Author:** Xfennec
 - **WebURL:** [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
 - **Repository:** [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
@@ -11287,7 +12615,9 @@
 ---
 
 ### proot
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/proot.sh
 - **Description:** User-space implementation of chroot, mount --bind and binfmt_misc
+- **Note:** 
 - **Author:** proot-me
 - **WebURL:** [https://proot-me.github.io/](https://proot-me.github.io/)
 - **Repository:** [https://github.com/proot-me/proot](https://github.com/proot-me/proot)
@@ -11304,7 +12634,9 @@
 ---
 
 ### proxify
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/proxify.sh
 - **Description:** A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
 - **Repository:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
@@ -11321,7 +12653,9 @@
 ---
 
 ### pspy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pspy.sh
 - **Description:** Monitor linux processes without root permissions
+- **Note:** 
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
@@ -11338,7 +12672,9 @@
 ---
 
 ### pueue
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pueue.sh
 - **Description:** task management tool for sequential and parallel execution of long-running tasks
+- **Note:** 
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
@@ -11355,7 +12691,9 @@
 ---
 
 ### pueued
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pueue.sh
 - **Description:** task management tool for sequential and parallel execution of long-running tasks
+- **Note:** 
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
@@ -11372,7 +12710,9 @@
 ---
 
 ### puredns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/puredns.sh
 - **Description:** fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries
+- **Note:** 
 - **Author:** d3mondev
 - **WebURL:** [https://github.com/d3mondev/puredns](https://github.com/d3mondev/puredns)
 - **Repository:** [https://github.com/d3mondev/puredns](https://github.com/d3mondev/puredns)
@@ -11389,7 +12729,9 @@
 ---
 
 ### pwait
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pwait.sh
 - **Description:** Small utility to wait for a process to finish
+- **Note:** 
 - **Author:** diazona
 - **WebURL:** [https://github.com/diazona/pwait](https://github.com/diazona/pwait)
 - **Repository:** [https://github.com/diazona/pwait](https://github.com/diazona/pwait)
@@ -11406,7 +12748,9 @@
 ---
 
 ### pwninit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pwninit.sh
 - **Description:** automate starting binary exploit challenges
+- **Note:** 
 - **Author:** io12
 - **WebURL:** [https://github.com/io12/pwninit](https://github.com/io12/pwninit)
 - **Repository:** [https://github.com/io12/pwninit](https://github.com/io12/pwninit)
@@ -11423,7 +12767,9 @@
 ---
 
 ### xet_staticx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/pyxet.sh
 - **Description:** 💥 Python CLI for XetHub
+- **Note:** 
 - **Author:** xetdata
 - **WebURL:** [https://github.com/xetdata/pyxet](https://github.com/xetdata/pyxet)
 - **Repository:** [https://github.com/xetdata/pyxet](https://github.com/xetdata/pyxet)
@@ -11440,7 +12786,9 @@
 ---
 
 ### q
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/q.sh
 - **Description:** A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH.
+- **Note:** 
 - **Author:** natesales
 - **WebURL:** [https://github.com/natesales/q](https://github.com/natesales/q)
 - **Repository:** [https://github.com/natesales/q](https://github.com/natesales/q)
@@ -11457,7 +12805,9 @@
 ---
 
 ### qbittorrent-nox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qbittorrent-nox.sh
 - **Description:** static Single binary for qbittorent
+- **Note:** 
 - **Author:** userdocs
 - **WebURL:** [https://github.com/userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)
 - **Repository:** [https://github.com/userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)
@@ -11474,11 +12824,13 @@
 ---
 
 ### qemu-aarch64-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 6.06 MB
@@ -11491,11 +12843,13 @@
 ---
 
 ### qemu-aarch64_be-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 6.07 MB
@@ -11508,11 +12862,13 @@
 ---
 
 ### qemu-alpha-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.93 MB
@@ -11525,11 +12881,13 @@
 ---
 
 ### qemu-arm-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.22 MB
@@ -11542,11 +12900,13 @@
 ---
 
 ### qemu-armeb-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.22 MB
@@ -11559,11 +12919,13 @@
 ---
 
 ### qemu-cris-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.92 MB
@@ -11576,11 +12938,13 @@
 ---
 
 ### qemu-hexagon-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 5.02 MB
@@ -11593,11 +12957,13 @@
 ---
 
 ### qemu-hppa-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.02 MB
@@ -11610,11 +12976,13 @@
 ---
 
 ### qemu-i386-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.63 MB
@@ -11627,11 +12995,13 @@
 ---
 
 ### qemu-loongarch64-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.53 MB
@@ -11644,11 +13014,13 @@
 ---
 
 ### qemu-m68k-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.23 MB
@@ -11661,11 +13033,13 @@
 ---
 
 ### qemu-microblaze-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.91 MB
@@ -11678,11 +13052,13 @@
 ---
 
 ### qemu-microblazeel-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.9 MB
@@ -11695,11 +13071,13 @@
 ---
 
 ### qemu-mips-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.08 MB
@@ -11712,11 +13090,13 @@
 ---
 
 ### qemu-mips64-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.11 MB
@@ -11729,11 +13109,13 @@
 ---
 
 ### qemu-mips64el-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.1 MB
@@ -11746,11 +13128,13 @@
 ---
 
 ### qemu-mipsel-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.07 MB
@@ -11763,11 +13147,13 @@
 ---
 
 ### qemu-mipsn32-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.11 MB
@@ -11780,11 +13166,13 @@
 ---
 
 ### qemu-mipsn32el-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.1 MB
@@ -11797,11 +13185,13 @@
 ---
 
 ### qemu-nios2-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.85 MB
@@ -11814,11 +13204,13 @@
 ---
 
 ### qemu-or1k-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.84 MB
@@ -11831,11 +13223,13 @@
 ---
 
 ### qemu-ppc-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.91 MB
@@ -11848,11 +13242,13 @@
 ---
 
 ### qemu-ppc64-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.98 MB
@@ -11865,11 +13261,13 @@
 ---
 
 ### qemu-ppc64le-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.97 MB
@@ -11882,11 +13280,13 @@
 ---
 
 ### qemu-riscv32-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.31 MB
@@ -11899,11 +13299,13 @@
 ---
 
 ### qemu-riscv64-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 4.36 MB
@@ -11916,11 +13318,13 @@
 ---
 
 ### qemu-s390x-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.42 MB
@@ -11933,11 +13337,13 @@
 ---
 
 ### qemu-sh4-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.93 MB
@@ -11950,11 +13356,13 @@
 ---
 
 ### qemu-sh4eb-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 2.94 MB
@@ -11967,11 +13375,13 @@
 ---
 
 ### qemu-sparc-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.19 MB
@@ -11984,11 +13394,13 @@
 ---
 
 ### qemu-sparc32plus-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.28 MB
@@ -12001,11 +13413,13 @@
 ---
 
 ### qemu-sparc64-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.27 MB
@@ -12018,11 +13432,13 @@
 ---
 
 ### qemu-x86_64-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 3.61 MB
@@ -12035,11 +13451,13 @@
 ---
 
 ### qemu-xtensa-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 7.15 MB
@@ -12052,11 +13470,13 @@
 ---
 
 ### qemu-xtensaeb-static
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
+- **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10145
+- **Stars:** 10146
 - **Version:** v9.1.0
 - **Updated:** 2024-09-19T20:36:58Z
 - **Size:** 6.99 MB
@@ -12069,7 +13489,9 @@
 ---
 
 ### qsreplace
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qsreplace.sh
 - **Description:** Accept URLs on stdin, replace all query string values with a user-supplied value
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/qsreplace](https://github.com/tomnomnom/qsreplace)
 - **Repository:** [https://github.com/tomnomnom/qsreplace](https://github.com/tomnomnom/qsreplace)
@@ -12086,13 +13508,15 @@
 ---
 
 ### qsv
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/qsv.sh
 - **Description:** CSVs sliced, diced & analyzed.
+- **Note:** 
 - **Author:** jqnatividad
 - **WebURL:** [https://github.com/jqnatividad/qsv](https://github.com/jqnatividad/qsv)
 - **Repository:** [https://github.com/jqnatividad/qsv](https://github.com/jqnatividad/qsv)
 - **Stars:** 2437
 - **Version:** 0.134.0
-- **Updated:** 2024-09-20T20:43:58Z
+- **Updated:** 2024-09-21T17:18:24Z
 - **Size:** 28.86 MB
 - **SHA256SUM:** f6141b3f3605283b88b1f7b80b4e032ae132e11d184ba3a93e21cf146be392a5
 - **B3SUM:** 4f10ecddec2b87e447ce5533bb5a1efc6d9b637f57a2e68111033931f83c34e5
@@ -12103,7 +13527,9 @@
 ---
 
 ### quickcert
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/quickcert.sh
 - **Description:** Query crtsh via pgsl server --> postgres //guest@crt.sh 5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol
+- **Note:** 
 - **Author:** c3l3si4n
 - **WebURL:** [https://github.com/c3l3si4n/quickcert](https://github.com/c3l3si4n/quickcert)
 - **Repository:** [https://github.com/c3l3si4n/quickcert](https://github.com/c3l3si4n/quickcert)
@@ -12120,7 +13546,9 @@
 ---
 
 ### quotes-escaper
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/quotes-escaper.sh
 - **Description:** Escape Single | Double Quotes
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -12137,7 +13565,9 @@
 ---
 
 ### rage
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rage.sh
 - **Description:** A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+- **Note:** 
 - **Author:** str4d
 - **WebURL:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
 - **Repository:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
@@ -12154,7 +13584,9 @@
 ---
 
 ### rage-keygen
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rage.sh
 - **Description:** A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
+- **Note:** 
 - **Author:** str4d
 - **WebURL:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
 - **Repository:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
@@ -12171,7 +13603,9 @@
 ---
 
 ### rate-limit-checker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rate-limit-checker.sh
 - **Description:** Check whether the domain has a rate limit enabled
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -12188,7 +13622,9 @@
 ---
 
 ### rathole
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rathole.sh
 - **Description:** A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
+- **Note:** 
 - **Author:** rapiz1
 - **WebURL:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
 - **Repository:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
@@ -12205,7 +13641,9 @@
 ---
 
 ### rattler-build
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rattler-build.sh
 - **Description:** rattler-build is a universal package builder for Windows, macOS and Linux
+- **Note:** 
 - **Author:** prefix-dev
 - **WebURL:** [https://github.com/prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)
 - **Repository:** [https://github.com/prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)
@@ -12222,7 +13660,9 @@
 ---
 
 ### rclone
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rclone.sh
 - **Description:** rsync for cloud storage
+- **Note:** 
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
@@ -12239,7 +13679,9 @@
 ---
 
 ### reader
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/reader.sh
 - **Description:** A lightweight tool offering better readability of web pages on the CLI
+- **Note:** 
 - **Author:** mrusme
 - **WebURL:** [https://github.com/mrusme/reader](https://github.com/mrusme/reader)
 - **Repository:** [https://github.com/mrusme/reader](https://github.com/mrusme/reader)
@@ -12256,7 +13698,9 @@
 ---
 
 ### golem
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/realm-tavern.sh
 - **Description:** parallel | xargs in rust
+- **Note:** 
 - **Author:** spellshift
 - **WebURL:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
@@ -12273,7 +13717,9 @@
 ---
 
 ### imix
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/realm-tavern.sh
 - **Description:** parallel | xargs in rust
+- **Note:** 
 - **Author:** spellshift
 - **WebURL:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
@@ -12290,7 +13736,9 @@
 ---
 
 ### tavern
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/realm-tavern.sh
 - **Description:** parallel | xargs in rust
+- **Note:** 
 - **Author:** spellshift
 - **WebURL:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
@@ -12307,7 +13755,9 @@
 ---
 
 ### realm
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/realm.sh
 - **Description:** A network relay tool
+- **Note:** 
 - **Author:** zhboner
 - **WebURL:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
 - **Repository:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
@@ -12324,7 +13774,9 @@
 ---
 
 ### rebuildctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rebuilderd.sh
 - **Description:** Independent verification of binary packages - reproducible builds
+- **Note:** 
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/rebuilderd](https://github.com/kpcyrd/rebuilderd)
 - **Repository:** [https://github.com/kpcyrd/rebuilderd](https://github.com/kpcyrd/rebuilderd)
@@ -12341,7 +13793,9 @@
 ---
 
 ### rebuilderd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rebuilderd.sh
 - **Description:** Independent verification of binary packages - reproducible builds
+- **Note:** 
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/rebuilderd](https://github.com/kpcyrd/rebuilderd)
 - **Repository:** [https://github.com/kpcyrd/rebuilderd](https://github.com/kpcyrd/rebuilderd)
@@ -12358,7 +13812,9 @@
 ---
 
 ### rebuilderd-worker
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rebuilderd.sh
 - **Description:** Independent verification of binary packages - reproducible builds
+- **Note:** 
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/rebuilderd](https://github.com/kpcyrd/rebuilderd)
 - **Repository:** [https://github.com/kpcyrd/rebuilderd](https://github.com/kpcyrd/rebuilderd)
@@ -12375,7 +13831,9 @@
 ---
 
 ### recollapse_staticx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/recollapse.sh
 - **Description:** Helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications
+- **Note:** 
 - **Author:** 0xacb
 - **WebURL:** [https://github.com/0xacb/recollapse](https://github.com/0xacb/recollapse)
 - **Repository:** [https://github.com/0xacb/recollapse](https://github.com/0xacb/recollapse)
@@ -12392,7 +13850,9 @@
 ---
 
 ### redguard
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/redguard.sh
 - **Description:** RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.
+- **Note:** 
 - **Author:** wikiZ
 - **WebURL:** [https://github.com/wikiZ/RedGuard](https://github.com/wikiZ/RedGuard)
 - **Repository:** [https://github.com/wikiZ/RedGuard](https://github.com/wikiZ/RedGuard)
@@ -12409,7 +13869,9 @@
 ---
 
 ### redive
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/redive.sh
 - **Description:** Trace URL redirections in the terminal.
+- **Note:** 
 - **Author:** neelkarma
 - **WebURL:** [https://github.com/neelkarma/redive](https://github.com/neelkarma/redive)
 - **Repository:** [https://github.com/neelkarma/redive](https://github.com/neelkarma/redive)
@@ -12426,7 +13888,9 @@
 ---
 
 ### region_restriction_check.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/region_restriction_check.sh
 - **Description:** A bash script to check the status of your IP on various geo-restricted Services
+- **Note:** 
 - **Author:** lmc999
 - **WebURL:** [https://github.com/lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)
 - **Repository:** [https://github.com/lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)
@@ -12443,7 +13907,9 @@
 ---
 
 ### rekor-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rekor.sh
 - **Description:** Software Supply Chain Transparency Log
+- **Note:** 
 - **Author:** sigstore
 - **WebURL:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
 - **Repository:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
@@ -12460,7 +13926,9 @@
 ---
 
 ### rekor-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rekor.sh
 - **Description:** Software Supply Chain Transparency Log
+- **Note:** 
 - **Author:** sigstore
 - **WebURL:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
 - **Repository:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
@@ -12477,7 +13945,9 @@
 ---
 
 ### relic
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/relic.sh
 - **Description:** a tool for adding digital signatures to operating system packages for Linux and Windows
+- **Note:** 
 - **Author:** sassoftware
 - **WebURL:** [https://github.com/sassoftware/relic](https://github.com/sassoftware/relic)
 - **Repository:** [https://github.com/sassoftware/relic](https://github.com/sassoftware/relic)
@@ -12494,7 +13964,9 @@
 ---
 
 ### reptyr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/reptyr.sh
 - **Description:** Reparent a running program to a new terminal
+- **Note:** 
 - **Author:** nelhage
 - **WebURL:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
 - **Repository:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
@@ -12511,7 +13983,9 @@
 ---
 
 ### rescope
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rescope.sh
 - **Description:** A scope generation tool for Burp Suite & ZAP
+- **Note:** 
 - **Author:** root4loot
 - **WebURL:** [https://github.com/root4loot/rescope](https://github.com/root4loot/rescope)
 - **Repository:** [https://github.com/root4loot/rescope](https://github.com/root4loot/rescope)
@@ -12528,7 +14002,9 @@
 ---
 
 ### resdns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/resdns.sh
 - **Description:** Wrapper around [dnsx + puredns + shuffledns] for Efficient DNS Resolution
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -12545,7 +14021,9 @@
 ---
 
 ### restic
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/restic.sh
 - **Description:** Fast, secure, efficient backup program
+- **Note:** 
 - **Author:** restic
 - **WebURL:** [https://github.com/restic/restic](https://github.com/restic/restic)
 - **Repository:** [https://github.com/restic/restic](https://github.com/restic/restic)
@@ -12562,7 +14040,9 @@
 ---
 
 ### resto
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/resto.sh
 - **Description:** 🔗 Send pretty HTTP & API requests with TUI.
+- **Note:** 
 - **Author:** abdfnx
 - **WebURL:** [https://github.com/abdfnx/resto](https://github.com/abdfnx/resto)
 - **Repository:** [https://github.com/abdfnx/resto](https://github.com/abdfnx/resto)
@@ -12579,7 +14059,9 @@
 ---
 
 ### reviewdog
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/reviewdog.sh
 - **Description:** 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language
+- **Note:** 
 - **Author:** reviewdog
 - **WebURL:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
 - **Repository:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
@@ -12596,7 +14078,9 @@
 ---
 
 ### revit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/revit.sh
 - **Description:** A command-line utility for performing reverse DNS lookups
+- **Note:** 
 - **Author:** devanshbatham
 - **WebURL:** [https://github.com/devanshbatham/revit](https://github.com/devanshbatham/revit)
 - **Repository:** [https://github.com/devanshbatham/revit](https://github.com/devanshbatham/revit)
@@ -12613,7 +14097,9 @@
 ---
 
 ### revive
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/revive.sh
 - **Description:** 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint
+- **Note:** 
 - **Author:** mgechev
 - **WebURL:** [https://github.com/mgechev/revive](https://github.com/mgechev/revive)
 - **Repository:** [https://github.com/mgechev/revive](https://github.com/mgechev/revive)
@@ -12630,11 +14116,13 @@
 ---
 
 ### rga
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rga.sh
 - **Description:** ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc
+- **Note:** 
 - **Author:** phiresky
 - **WebURL:** [https://github.com/phiresky/ripgrep-all](https://github.com/phiresky/ripgrep-all)
 - **Repository:** [https://github.com/phiresky/ripgrep-all](https://github.com/phiresky/ripgrep-all)
-- **Stars:** 7810
+- **Stars:** 7813
 - **Version:** v0.10.6
 - **Updated:** 2024-09-04T17:47:18Z
 - **Size:** 6.86 MB
@@ -12647,7 +14135,9 @@
 ---
 
 ### ripgen
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ripgen.sh
 - **Description:** Rust-based high performance domain permutation generator
+- **Note:** 
 - **Author:** resyncgg
 - **WebURL:** [https://github.com/resyncgg/ripgen](https://github.com/resyncgg/ripgen)
 - **Repository:** [https://github.com/resyncgg/ripgen](https://github.com/resyncgg/ripgen)
@@ -12664,7 +14154,9 @@
 ---
 
 ### rg
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ripgrep.sh
 - **Description:** 
+- **Note:** 
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
@@ -12681,7 +14173,9 @@
 ---
 
 ### ripgrep
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ripgrep.sh
 - **Description:** 
+- **Note:** 
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
@@ -12698,7 +14192,9 @@
 ---
 
 ### rippkgs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rippkgs.sh
 - **Description:** A CLI for indexing and searching packages in Nix expressions
+- **Note:** 
 - **Author:** replit
 - **WebURL:** [https://github.com/replit/rippkgs](https://github.com/replit/rippkgs)
 - **Repository:** [https://github.com/replit/rippkgs](https://github.com/replit/rippkgs)
@@ -12715,7 +14211,9 @@
 ---
 
 ### rippkgs-index
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rippkgs.sh
 - **Description:** A CLI for indexing and searching packages in Nix expressions
+- **Note:** 
 - **Author:** replit
 - **WebURL:** [https://github.com/replit/rippkgs](https://github.com/replit/rippkgs)
 - **Repository:** [https://github.com/replit/rippkgs](https://github.com/replit/rippkgs)
@@ -12732,7 +14230,9 @@
 ---
 
 ### rnr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rnr.sh
 - **Description:** A command-line tool to batch rename files and directories
+- **Note:** 
 - **Author:** ismaelgv
 - **WebURL:** [https://github.com/ismaelgv/rnr](https://github.com/ismaelgv/rnr)
 - **Repository:** [https://github.com/ismaelgv/rnr](https://github.com/ismaelgv/rnr)
@@ -12749,7 +14249,9 @@
 ---
 
 ### roboxtractor
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/roboxtractor.sh
 - **Description:** Extract endpoints marked as disallow in robots files to generate wordlists
+- **Note:** 
 - **Author:** Josue87
 - **WebURL:** [https://github.com/Josue87/roboxtractor](https://github.com/Josue87/roboxtractor)
 - **Repository:** [https://github.com/Josue87/roboxtractor](https://github.com/Josue87/roboxtractor)
@@ -12766,7 +14268,9 @@
 ---
 
 ### rootlesskit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rootlesskit.sh
 - **Description:** Linux-native fake root for implementing rootless containers
+- **Note:** 
 - **Author:** rootless-containers
 - **WebURL:** [https://github.com/rootless-containers/rootlesskit](https://github.com/rootless-containers/rootlesskit)
 - **Repository:** [https://github.com/rootless-containers/rootlesskit](https://github.com/rootless-containers/rootlesskit)
@@ -12783,7 +14287,9 @@
 ---
 
 ### ropr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ropr.sh
 - **Description:** A blazing fast™ multithreaded ROP Gadget finder. ropper / ropgadget alternative
+- **Note:** 
 - **Author:** Ben-Lichtman
 - **WebURL:** [https://github.com/Ben-Lichtman/ropr](https://github.com/Ben-Lichtman/ropr)
 - **Repository:** [https://github.com/Ben-Lichtman/ropr](https://github.com/Ben-Lichtman/ropr)
@@ -12800,7 +14306,9 @@
 ---
 
 ### rospo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rospo.sh
 - **Description:** 🐸 Simple, reliable, persistent ssh tunnels with embedded ssh server
+- **Note:** 
 - **Author:** ferama
 - **WebURL:** [https://github.com/ferama/rospo](https://github.com/ferama/rospo)
 - **Repository:** [https://github.com/ferama/rospo](https://github.com/ferama/rospo)
@@ -12817,7 +14325,9 @@
 ---
 
 ### rqbit
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rqbit.sh
 - **Description:** A bittorrent client in Rust
+- **Note:** 
 - **Author:** ikatson
 - **WebURL:** [https://github.com/ikatson/rqbit](https://github.com/ikatson/rqbit)
 - **Repository:** [https://github.com/ikatson/rqbit](https://github.com/ikatson/rqbit)
@@ -12834,7 +14344,9 @@
 ---
 
 ### rshijack
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rshijack.sh
 - **Description:** tcp connection hijacker, rust rewrite of shijack
+- **Note:** 
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/rshijack](https://github.com/kpcyrd/rshijack)
 - **Repository:** [https://github.com/kpcyrd/rshijack](https://github.com/kpcyrd/rshijack)
@@ -12851,7 +14363,9 @@
 ---
 
 ### rsync
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rsync.sh
 - **Description:** An open source utility that provides fast incremental file transfer.
+- **Note:** 
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
@@ -12868,7 +14382,9 @@
 ---
 
 ### rsync-ssl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rsync.sh
 - **Description:** An open source utility that provides fast incremental file transfer.
+- **Note:** 
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
@@ -12885,13 +14401,15 @@
 ---
 
 ### ruff
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ruff.sh
 - **Description:** An extremely fast Python linter and code formatter, written in Rust.
+- **Note:** 
 - **Author:** astral-sh
 - **WebURL:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
 - **Repository:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
 - **Stars:** 31163
-- **Version:** 0.6.6
-- **Updated:** 2024-09-21T14:37:53Z
+- **Version:** 0.6.7
+- **Updated:** 2024-09-21T17:39:51Z
 - **Size:** 26.68 MB
 - **SHA256SUM:** c1930cc1721f34894dcf7fdd1364f6a2f6ab505a3611abcca3a17cac14cd6055
 - **B3SUM:** 98f892f3a02464f9c83af48c034c013a91eb780a0cee38d180ac87cc462c0614
@@ -12902,11 +14420,13 @@
 ---
 
 ### runc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/runc.sh
 - **Description:** CLI tool for spawning and running containers according to the OCI specification
+- **Note:** 
 - **Author:** opencontainers
 - **WebURL:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
 - **Repository:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
-- **Stars:** 11744
+- **Stars:** 11745
 - **Version:** v1.1.14
 - **Updated:** 2024-09-14T01:22:50Z
 - **Size:** 11.09 MB
@@ -12919,7 +14439,9 @@
 ---
 
 ### runiq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/runiq.sh
 - **Description:** An efficient way to filter duplicate lines from input, à la uniq.
+- **Note:** 
 - **Author:** whitfin
 - **WebURL:** [https://github.com/whitfin/runiq](https://github.com/whitfin/runiq)
 - **Repository:** [https://github.com/whitfin/runiq](https://github.com/whitfin/runiq)
@@ -12936,7 +14458,9 @@
 ---
 
 ### runme
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/runme.sh
 - **Description:** Execute your runbooks, docs, and READMEs.
+- **Note:** 
 - **Author:** stateful
 - **WebURL:** [https://github.com/stateful/runme](https://github.com/stateful/runme)
 - **Repository:** [https://github.com/stateful/runme](https://github.com/stateful/runme)
@@ -12953,7 +14477,9 @@
 ---
 
 ### rush
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rush.sh
 - **Description:** A cross-platform command-line tool for executing jobs in parallel
+- **Note:** 
 - **Author:** shenwei356
 - **WebURL:** [https://github.com/shenwei356/rush](https://github.com/shenwei356/rush)
 - **Repository:** [https://github.com/shenwei356/rush](https://github.com/shenwei356/rush)
@@ -12970,7 +14496,9 @@
 ---
 
 ### hypervisor-fw
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rust-hypervisor-firmware.sh
 - **Description:** cloud-hypervisors firmware in rust
+- **Note:** 
 - **Author:** cloud-hypervisor
 - **WebURL:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
 - **Repository:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
@@ -12987,7 +14515,9 @@
 ---
 
 ### rust-hypervisor-firmware
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rust-hypervisor-firmware.sh
 - **Description:** cloud-hypervisors firmware in rust
+- **Note:** 
 - **Author:** cloud-hypervisor
 - **WebURL:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
 - **Repository:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
@@ -13004,7 +14534,9 @@
 ---
 
 ### rust-parallel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rust-parallel.sh
 - **Description:** parallel | xargs in rust
+- **Note:** 
 - **Author:** aaronriekenberg
 - **WebURL:** [https://github.com/aaronriekenberg/rust-parallel](https://github.com/aaronriekenberg/rust-parallel)
 - **Repository:** [https://github.com/aaronriekenberg/rust-parallel](https://github.com/aaronriekenberg/rust-parallel)
@@ -13021,7 +14553,9 @@
 ---
 
 ### rcat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rustcat.sh
 - **Description:** Rustcat(rcat) - The modern Port listener and Reverse shell
+- **Note:** 
 - **Author:** robiot
 - **WebURL:** [https://github.com/robiot/rustcat](https://github.com/robiot/rustcat)
 - **Repository:** [https://github.com/robiot/rustcat](https://github.com/robiot/rustcat)
@@ -13038,7 +14572,9 @@
 ---
 
 ### rustcat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rustcat.sh
 - **Description:** Rustcat(rcat) - The modern Port listener and Reverse shell
+- **Note:** 
 - **Author:** robiot
 - **WebURL:** [https://github.com/robiot/rustcat](https://github.com/robiot/rustcat)
 - **Repository:** [https://github.com/robiot/rustcat](https://github.com/robiot/rustcat)
@@ -13055,11 +14591,13 @@
 ---
 
 ### rustcan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rustscan.sh
 - **Description:** 🤖 The Modern Port Scanner 🤖
+- **Note:** 
 - **Author:** RustScan
 - **WebURL:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
 - **Repository:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
-- **Stars:** 14219
+- **Stars:** 14220
 - **Version:** 2.3.0
 - **Updated:** 2024-09-19T13:13:44Z
 - **Size:** 6.37 MB
@@ -13072,7 +14610,9 @@
 ---
 
 ### rpaste
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rustypaste-cli.sh
 - **Description:** A CLI tool for rustypaste
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/rustypaste-cli](https://github.com/orhun/rustypaste-cli)
 - **Repository:** [https://github.com/orhun/rustypaste-cli](https://github.com/orhun/rustypaste-cli)
@@ -13089,7 +14629,9 @@
 ---
 
 ### rustypaste
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rustypaste.sh
 - **Description:** A minimal file upload/pastebin service.
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/rustypaste](https://github.com/orhun/rustypaste)
 - **Repository:** [https://github.com/orhun/rustypaste](https://github.com/orhun/rustypaste)
@@ -13106,7 +14648,9 @@
 ---
 
 ### s3scanner
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/s3scanner.sh
 - **Description:** Scan for misconfigured S3 buckets across S3-compatible APIs
+- **Note:** 
 - **Author:** sa7mon
 - **WebURL:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
 - **Repository:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
@@ -13123,7 +14667,9 @@
 ---
 
 ### s3sync
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/s3sync.sh
 - **Description:** Really fast sync tool for S3
+- **Note:** 
 - **Author:** larrabee
 - **WebURL:** [https://github.com/larrabee/s3sync](https://github.com/larrabee/s3sync)
 - **Repository:** [https://github.com/larrabee/s3sync](https://github.com/larrabee/s3sync)
@@ -13140,7 +14686,9 @@
 ---
 
 ### s5cmd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/s5cmd.sh
 - **Description:** Parallel S3 and local filesystem execution tool.
+- **Note:** 
 - **Author:** peak
 - **WebURL:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
 - **Repository:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
@@ -13157,7 +14705,9 @@
 ---
 
 ### sake
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sake.sh
 - **Description:** 🤖 Task runner for local and remote hosts via ssh & more
+- **Note:** 
 - **Author:** alajmo
 - **WebURL:** [https://github.com/alajmo/sake](https://github.com/alajmo/sake)
 - **Repository:** [https://github.com/alajmo/sake](https://github.com/alajmo/sake)
@@ -13174,7 +14724,9 @@
 ---
 
 ### sbase-box
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sbase.sh
 - **Description:** a collection of unix tools that are portable across unix-systems.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://git.suckless.org/sbase](https://git.suckless.org/sbase)
 - **Repository:** []()
@@ -13191,7 +14743,9 @@
 ---
 
 ### sbctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sbctl.sh
 - **Description:** 💻 🔒 🔑 Secure Boot key manager
+- **Note:** 
 - **Author:** Foxboron
 - **WebURL:** [https://github.com/Foxboron/sbctl](https://github.com/Foxboron/sbctl)
 - **Repository:** [https://github.com/Foxboron/sbctl](https://github.com/Foxboron/sbctl)
@@ -13208,7 +14762,9 @@
 ---
 
 ### scilla
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/scilla.sh
 - **Description:** Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
+- **Note:** 
 - **Author:** edoardottt
 - **WebURL:** [https://github.com/edoardottt/scilla](https://github.com/edoardottt/scilla)
 - **Repository:** [https://github.com/edoardottt/scilla](https://github.com/edoardottt/scilla)
@@ -13225,7 +14781,9 @@
 ---
 
 ### scopegen
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/scopegen.sh
 - **Description:** Generates .scope compatible format for ScopeView (based on TomNomNoms Inscope)
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -13242,7 +14800,9 @@
 ---
 
 ### scopeview
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/scopeview.sh
 - **Description:** Slightly revamped vesion of TomNomNoms Inscope that allows custom .scope to be defined using -s or --scope options
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -13259,7 +14819,9 @@
 ---
 
 ### screenfetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/screenfetch.sh
 - **Description:** bash neofetch alt
+- **Note:** 
 - **Author:** KittyKatt
 - **WebURL:** [https://github.com/KittyKatt/screenFetch](https://github.com/KittyKatt/screenFetch)
 - **Repository:** [https://github.com/KittyKatt/screenFetch](https://github.com/KittyKatt/screenFetch)
@@ -13276,7 +14838,9 @@
 ---
 
 ### sd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sd.sh
 - **Description:** Intuitive find & replace CLI (sed alternative)
+- **Note:** 
 - **Author:** chmln
 - **WebURL:** [https://github.com/chmln/sd](https://github.com/chmln/sd)
 - **Repository:** [https://github.com/chmln/sd](https://github.com/chmln/sd)
@@ -13293,7 +14857,9 @@
 ---
 
 ### sed
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sed.sh
 - **Description:** (stream editor) is a non-interactive command-line text editor
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/sed/](https://www.gnu.org/software/sed/)
 - **Repository:** []()
@@ -13310,7 +14876,9 @@
 ---
 
 ### serverstatus-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13327,7 +14895,9 @@
 ---
 
 ### serverstatus-gen-certs.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13344,7 +14914,9 @@
 ---
 
 ### serverstatus-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13361,7 +14933,9 @@
 ---
 
 ### serverstatus-server-themed
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13378,7 +14952,9 @@
 ---
 
 ### serverstatus-status.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13395,7 +14971,9 @@
 ---
 
 ### ssr-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13412,7 +14990,9 @@
 ---
 
 ### ssr-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13429,7 +15009,9 @@
 ---
 
 ### ssr-server-themed
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
+- **Note:** 
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
@@ -13446,7 +15028,9 @@
 ---
 
 ### sessionprobe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sessionprobe.sh
 - **Description:** evaluates user privileges in web applications by taking a session token and checking access across a list of URLs
+- **Note:** 
 - **Author:** dub-flow
 - **WebURL:** [https://github.com/dub-flow/sessionprobe](https://github.com/dub-flow/sessionprobe)
 - **Repository:** [https://github.com/dub-flow/sessionprobe](https://github.com/dub-flow/sessionprobe)
@@ -13463,7 +15047,9 @@
 ---
 
 ### shc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shc.sh
 - **Description:** Shell script compiler
+- **Note:** 
 - **Author:** neurobin
 - **WebURL:** [https://github.com/neurobin/shc](https://github.com/neurobin/shc)
 - **Repository:** [https://github.com/neurobin/shc](https://github.com/neurobin/shc)
@@ -13480,7 +15066,9 @@
 ---
 
 ### shell2http
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shell2http.sh
 - **Description:** Executing shell commands via HTTP server
+- **Note:** 
 - **Author:** msoap
 - **WebURL:** [https://github.com/msoap/shell2http](https://github.com/msoap/shell2http)
 - **Repository:** [https://github.com/msoap/shell2http](https://github.com/msoap/shell2http)
@@ -13497,7 +15085,9 @@
 ---
 
 ### shellharden
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shellharden.sh
 - **Description:** The corrective bash syntax highlighter
+- **Note:** 
 - **Author:** anordal
 - **WebURL:** [https://github.com/anordal/shellharden](https://github.com/anordal/shellharden)
 - **Repository:** [https://github.com/anordal/shellharden](https://github.com/anordal/shellharden)
@@ -13514,7 +15104,9 @@
 ---
 
 ### shellz
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shellz.sh
 - **Description:** a small utility to manage your ssh, telnet, kubernetes, winrm, web or any custom shell in a single place.
+- **Note:** 
 - **Author:** evilsocket
 - **WebURL:** [https://github.com/evilsocket/shellz](https://github.com/evilsocket/shellz)
 - **Repository:** [https://github.com/evilsocket/shellz](https://github.com/evilsocket/shellz)
@@ -13531,7 +15123,9 @@
 ---
 
 ### shfmt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shfmt.sh
 - **Description:** A shell parser, formatter, and interpreter with bash support; includes shfmt
+- **Note:** 
 - **Author:** mvdan
 - **WebURL:** [https://github.com/mvdan/sh](https://github.com/mvdan/sh)
 - **Repository:** [https://github.com/mvdan/sh](https://github.com/mvdan/sh)
@@ -13548,7 +15142,9 @@
 ---
 
 ### shortscan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shortscan.sh
 - **Description:** An IIS short filename enumeration tool
+- **Note:** 
 - **Author:** bitquark
 - **WebURL:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
 - **Repository:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
@@ -13565,7 +15161,9 @@
 ---
 
 ### shortutil
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shortscan.sh
 - **Description:** An IIS short filename enumeration tool
+- **Note:** 
 - **Author:** bitquark
 - **WebURL:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
 - **Repository:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
@@ -13582,7 +15180,9 @@
 ---
 
 ### shuffledns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/shuffledns.sh
 - **Description:** MassDNS wrapper written in go
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns)
 - **Repository:** [https://github.com/projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns)
@@ -13599,7 +15199,9 @@
 ---
 
 ### sf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/siegfried.sh
 - **Description:** signature-based file format identification
+- **Note:** 
 - **Author:** richardlehane
 - **WebURL:** [https://github.com/richardlehane/siegfried](https://github.com/richardlehane/siegfried)
 - **Repository:** [https://github.com/richardlehane/siegfried](https://github.com/richardlehane/siegfried)
@@ -13616,11 +15218,13 @@
 ---
 
 ### sing-box
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sing-box.sh
 - **Description:** The universal proxy platform
+- **Note:** 
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 18613
+- **Stars:** 18615
 - **Version:** v1.9.6
 - **Updated:** 2024-09-21T11:20:27Z
 - **Size:** 30.27 MB
@@ -13633,7 +15237,9 @@
 ---
 
 ### sish
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sish.sh
 - **Description:** HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.
+- **Note:** 
 - **Author:** antoniomika
 - **WebURL:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
 - **Repository:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
@@ -13650,11 +15256,13 @@
 ---
 
 ### sj
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sj.sh
 - **Description:** A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
+- **Note:** 
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/sj](https://github.com/BishopFox/sj)
 - **Repository:** [https://github.com/BishopFox/sj](https://github.com/BishopFox/sj)
-- **Stars:** 481
+- **Stars:** 482
 - **Version:** 1.8.4
 - **Updated:** 2024-09-20T19:29:58Z
 - **Size:** 8.95 MB
@@ -13667,7 +15275,9 @@
 ---
 
 ### sk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/skim.sh
 - **Description:** Fuzzy Finder in rust!
+- **Note:** 
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
@@ -13684,7 +15294,9 @@
 ---
 
 ### sk-tmux
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/skim.sh
 - **Description:** Fuzzy Finder in rust!
+- **Note:** 
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
@@ -13701,7 +15313,9 @@
 ---
 
 ### skupper
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/skupper.sh
 - **Description:** Virtual Application Network, enabling rich hybrid cloud communication
+- **Note:** 
 - **Author:** skupperproject
 - **WebURL:** [https://github.com/skupperproject/skupper](https://github.com/skupperproject/skupper)
 - **Repository:** [https://github.com/skupperproject/skupper](https://github.com/skupperproject/skupper)
@@ -13718,7 +15332,9 @@
 ---
 
 ### slirp4netns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/slirp4netns.sh
 - **Description:** User-mode networking for unprivileged network namespaces
+- **Note:** 
 - **Author:** rootless-containers
 - **WebURL:** [https://github.com/rootless-containers/slirp4netns](https://github.com/rootless-containers/slirp4netns)
 - **Repository:** [https://github.com/rootless-containers/slirp4netns](https://github.com/rootless-containers/slirp4netns)
@@ -13735,7 +15351,9 @@
 ---
 
 ### sliver-client
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sliver.sh
 - **Description:** Adversary Emulation Framework
+- **Note:** 
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
 - **Repository:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
@@ -13752,7 +15370,9 @@
 ---
 
 ### sliver-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sliver.sh
 - **Description:** Adversary Emulation Framework
+- **Note:** 
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
 - **Repository:** [https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)
@@ -13769,7 +15389,9 @@
 ---
 
 ### smap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/smap.sh
 - **Description:** a drop-in replacement for Nmap powered by shodan.io
+- **Note:** 
 - **Author:** s0md3v
 - **WebURL:** [https://github.com/s0md3v/Smap](https://github.com/s0md3v/Smap)
 - **Repository:** [https://github.com/s0md3v/Smap](https://github.com/s0md3v/Smap)
@@ -13786,7 +15408,9 @@
 ---
 
 ### smartdns-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/smartdns-rs.sh
 - **Description:** local DNS server (Dnsmasq like) written in rust to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.
+- **Note:** 
 - **Author:** mokeyish
 - **WebURL:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
 - **Repository:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
@@ -13803,7 +15427,9 @@
 ---
 
 ### smartdns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/smartdns.sh
 - **Description:** local DNS server (Dnsmasq like) to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.
+- **Note:** 
 - **Author:** pymumu
 - **WebURL:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 - **Repository:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
@@ -13820,7 +15446,9 @@
 ---
 
 ### smenu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/smenu.sh
 - **Description:** a powerful and versatile CLI selection tool for interactive or scripting use.
+- **Note:** 
 - **Author:** p-gen
 - **WebURL:** [https://github.com/p-gen/smenu](https://github.com/p-gen/smenu)
 - **Repository:** [https://github.com/p-gen/smenu](https://github.com/p-gen/smenu)
@@ -13837,11 +15465,13 @@
 ---
 
 ### sn0int
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sn0int.sh
 - **Description:** Semi-automatic OSINT framework and package manager
+- **Note:** 
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/sn0int](https://github.com/kpcyrd/sn0int)
 - **Repository:** [https://github.com/kpcyrd/sn0int](https://github.com/kpcyrd/sn0int)
-- **Stars:** 1985
+- **Stars:** 1986
 - **Version:** v0.26.1
 - **Updated:** 2024-09-14T14:18:12Z
 - **Size:** 18.24 MB
@@ -13854,7 +15484,9 @@
 ---
 
 ### sns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sns.sh
 - **Description:** IIS shortname scanner written in Go
+- **Note:** 
 - **Author:** sw33tLie
 - **WebURL:** [https://github.com/sw33tLie/sns](https://github.com/sw33tLie/sns)
 - **Repository:** [https://github.com/sw33tLie/sns](https://github.com/sw33tLie/sns)
@@ -13871,7 +15503,9 @@
 ---
 
 ### filan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/socat.sh
 - **Description:** socat is a program for identifying or deleting duplicate files residing within specified directories.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/adrianlopezroche/socat](https://github.com/adrianlopezroche/socat)
 - **Repository:** [https://github.com/adrianlopezroche/socat](https://github.com/adrianlopezroche/socat)
@@ -13888,7 +15522,9 @@
 ---
 
 ### procan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/socat.sh
 - **Description:** socat is a program for identifying or deleting duplicate files residing within specified directories.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/adrianlopezroche/socat](https://github.com/adrianlopezroche/socat)
 - **Repository:** [https://github.com/adrianlopezroche/socat](https://github.com/adrianlopezroche/socat)
@@ -13905,7 +15541,9 @@
 ---
 
 ### socat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/socat.sh
 - **Description:** socat is a program for identifying or deleting duplicate files residing within specified directories.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/adrianlopezroche/socat](https://github.com/adrianlopezroche/socat)
 - **Repository:** [https://github.com/adrianlopezroche/socat](https://github.com/adrianlopezroche/socat)
@@ -13922,7 +15560,9 @@
 ---
 
 ### soft-serve
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/soft-serve.sh
 - **Description:** The mighty, self-hostable Git server for the command line🍦
+- **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
 - **Repository:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
@@ -13939,7 +15579,9 @@
 ---
 
 ### sourcemapper
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sourcemapper.sh
 - **Description:** Extract JavaScript source trees from Sourcemap files
+- **Note:** 
 - **Author:** denandz
 - **WebURL:** [https://github.com/denandz/sourcemapper](https://github.com/denandz/sourcemapper)
 - **Repository:** [https://github.com/denandz/sourcemapper](https://github.com/denandz/sourcemapper)
@@ -13956,7 +15598,9 @@
 ---
 
 ### speedtest-go
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/speedtest-go.sh
 - **Description:** CLI and Go API to Test Internet Speed using multiple-servers
+- **Note:** 
 - **Author:** showwin
 - **WebURL:** [https://github.com/showwin/speedtest-go](https://github.com/showwin/speedtest-go)
 - **Repository:** [https://github.com/showwin/speedtest-go](https://github.com/showwin/speedtest-go)
@@ -13973,7 +15617,9 @@
 ---
 
 ### spipe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/spiped.sh
 - **Description:** Utility for creating symmetrically encrypted and authenticated pipes between Socket Addresses
+- **Note:** 
 - **Author:** Tarsnap
 - **WebURL:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
 - **Repository:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
@@ -13990,7 +15636,9 @@
 ---
 
 ### spiped
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/spiped.sh
 - **Description:** Utility for creating symmetrically encrypted and authenticated pipes between Socket Addresses
+- **Note:** 
 - **Author:** Tarsnap
 - **WebURL:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
 - **Repository:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
@@ -14007,7 +15655,9 @@
 ---
 
 ### spk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/spk.sh
 - **Description:** A small OSINT/Recon tool to find CIDRs that belong to a specific organization
+- **Note:** 
 - **Author:** dhn
 - **WebURL:** [https://github.com/dhn/spk](https://github.com/dhn/spk)
 - **Repository:** [https://github.com/dhn/spk](https://github.com/dhn/spk)
@@ -14024,7 +15674,9 @@
 ---
 
 ### spoof-dpi
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/spoof-dpi.sh
 - **Description:** A simple and fast anti-censorship tool written in Go
+- **Note:** 
 - **Author:** xvzc
 - **WebURL:** [https://github.com/xvzc/SpoofDPI](https://github.com/xvzc/SpoofDPI)
 - **Repository:** [https://github.com/xvzc/SpoofDPI](https://github.com/xvzc/SpoofDPI)
@@ -14041,7 +15693,9 @@
 ---
 
 ### sq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sq.sh
 - **Description:** jq for sql
+- **Note:** 
 - **Author:** neilotoole
 - **WebURL:** [https://github.com/neilotoole/sq](https://github.com/neilotoole/sq)
 - **Repository:** [https://github.com/neilotoole/sq](https://github.com/neilotoole/sq)
@@ -14058,7 +15712,9 @@
 ---
 
 ### sqlc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sqlc.sh
 - **Description:** Universal DBMS/SQL client with exfiltration features  )
+- **Note:** 
 - **Author:** kost
 - **WebURL:** [https://github.com/kost/sqlc](https://github.com/kost/sqlc)
 - **Repository:** [https://github.com/kost/sqlc](https://github.com/kost/sqlc)
@@ -14075,7 +15731,9 @@
 ---
 
 ### sqlite3
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sqlite3.sh
 - **Description:** A self-contained, serverless, zero-configuration, transactional SQL database engine
+- **Note:** 
 - **Author:** sqlite
 - **WebURL:** [https://www.sqlite.org](https://www.sqlite.org)
 - **Repository:** [https://github.com/sqlite/sqlite](https://github.com/sqlite/sqlite)
@@ -14092,7 +15750,9 @@
 ---
 
 ### squashfuse
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/squashfuse.sh
 - **Description:** FUSE filesystem to mount squashfs archives
+- **Note:** 
 - **Author:** vasi
 - **WebURL:** [https://github.com/vasi/squashfuse](https://github.com/vasi/squashfuse)
 - **Repository:** [https://github.com/vasi/squashfuse](https://github.com/vasi/squashfuse)
@@ -14109,7 +15769,9 @@
 ---
 
 ### squashfuse_ll
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/squashfuse.sh
 - **Description:** FUSE filesystem to mount squashfs archives
+- **Note:** 
 - **Author:** vasi
 - **WebURL:** [https://github.com/vasi/squashfuse](https://github.com/vasi/squashfuse)
 - **Repository:** [https://github.com/vasi/squashfuse](https://github.com/vasi/squashfuse)
@@ -14126,7 +15788,9 @@
 ---
 
 ### sshesame
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sshesame.sh
 - **Description:** SSH honeypot, a fake SSH server that lets anyone in and logs their activity
+- **Note:** 
 - **Author:** jaksi
 - **WebURL:** [https://github.com/jaksi/sshesame](https://github.com/jaksi/sshesame)
 - **Repository:** [https://github.com/jaksi/sshesame](https://github.com/jaksi/sshesame)
@@ -14143,7 +15807,9 @@
 ---
 
 ### sshkeys
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sshkeys.sh
 - **Description:** Get all ssh public keys of a ssh server
+- **Note:** 
 - **Author:** Eun
 - **WebURL:** [https://github.com/Eun/sshkeys](https://github.com/Eun/sshkeys)
 - **Repository:** [https://github.com/Eun/sshkeys](https://github.com/Eun/sshkeys)
@@ -14160,7 +15826,9 @@
 ---
 
 ### sshpass
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sshpass.sh
 - **Description:** Standalone, Minimal HTTP Server
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://git.code.sf.net/p/sshpass/code-git](https://git.code.sf.net/p/sshpass/code-git)
 - **Repository:** []()
@@ -14177,7 +15845,9 @@
 ---
 
 ### sshportal
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sshportal.sh
 - **Description:** Embedded SSH Server & Client meant for temp ssh access using invite codes
+- **Note:** 
 - **Author:** moul
 - **WebURL:** [https://github.com/moul/sshportal](https://github.com/moul/sshportal)
 - **Repository:** [https://github.com/moul/sshportal](https://github.com/moul/sshportal)
@@ -14194,11 +15864,13 @@
 ---
 
 ### sshx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sshx.sh
 - **Description:** Fast, collaborative live terminal sharing over the web
+- **Note:** 
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 - **Repository:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
-- **Stars:** 5751
+- **Stars:** 5752
 - **Version:** v0.2.4
 - **Updated:** 2024-09-20T13:21:19Z
 - **Size:** 7.76 MB
@@ -14211,11 +15883,13 @@
 ---
 
 ### sshx-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sshx.sh
 - **Description:** Fast, collaborative live terminal sharing over the web
+- **Note:** 
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 - **Repository:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
-- **Stars:** 5751
+- **Stars:** 5752
 - **Version:** v0.2.4
 - **Updated:** 2024-09-20T13:21:19Z
 - **Size:** 10.43 MB
@@ -14228,7 +15902,9 @@
 ---
 
 ### sslsearch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sslsearch.sh
 - **Description:** Hunt SSL Certificates for interesting keywords on major cloud service providers / internet
+- **Note:** 
 - **Author:** HarshVaragiya
 - **WebURL:** [https://github.com/HarshVaragiya/sslsearch](https://github.com/HarshVaragiya/sslsearch)
 - **Repository:** [https://github.com/HarshVaragiya/sslsearch](https://github.com/HarshVaragiya/sslsearch)
@@ -14245,7 +15921,9 @@
 ---
 
 ### starship
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/starship.sh
 - **Description:** ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+- **Note:** 
 - **Author:** starship
 - **WebURL:** [https://github.com/starship/starship](https://github.com/starship/starship)
 - **Repository:** [https://github.com/starship/starship](https://github.com/starship/starship)
@@ -14262,7 +15940,9 @@
 ---
 
 ### steampipe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/steampipe.sh
 - **Description:** Live query APIs, code & more with SQL. No DB required.
+- **Note:** 
 - **Author:** turbot
 - **WebURL:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
 - **Repository:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
@@ -14279,7 +15959,9 @@
 ---
 
 ### step
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/step.sh
 - **Description:** 🧰 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.
+- **Note:** 
 - **Author:** smallstep
 - **WebURL:** [https://github.com/smallstep/cli](https://github.com/smallstep/cli)
 - **Repository:** [https://github.com/smallstep/cli](https://github.com/smallstep/cli)
@@ -14296,7 +15978,9 @@
 ---
 
 ### stew
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/stew.sh
 - **Description:** 🥘 An independent package manager for compiled binaries.
+- **Note:** 
 - **Author:** marwanhawari
 - **WebURL:** [https://github.com/marwanhawari/stew](https://github.com/marwanhawari/stew)
 - **Repository:** [https://github.com/marwanhawari/stew](https://github.com/marwanhawari/stew)
@@ -14313,7 +15997,9 @@
 ---
 
 ### strace
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/strace.sh
 - **Description:** strace is a diagnostic, debugging and instructional userspace utility for Linux
+- **Note:** 
 - **Author:** strace
 - **WebURL:** [https://github.com/strace/strace](https://github.com/strace/strace)
 - **Repository:** [https://github.com/strace/strace](https://github.com/strace/strace)
@@ -14330,7 +16016,9 @@
 ---
 
 ### stree
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/stree.sh
 - **Description:** 📁Directory trees of AWS S3 Bucket
+- **Note:** 
 - **Author:** orangekame3
 - **WebURL:** [https://github.com/orangekame3/stree](https://github.com/orangekame3/stree)
 - **Repository:** [https://github.com/orangekame3/stree](https://github.com/orangekame3/stree)
@@ -14347,7 +16035,9 @@
 ---
 
 ### stress-ng
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/stress-ng.sh
 - **Description:** stress test a computer system in various selectable ways
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/stress-ng/](https://www.gnu.org/software/stress-ng/)
 - **Repository:** []()
@@ -14364,7 +16054,9 @@
 ---
 
 ### sttr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sttr.sh
 - **Description:** cli app to perform various operations on string
+- **Note:** 
 - **Author:** abhimanyu003
 - **WebURL:** [https://github.com/abhimanyu003/sttr](https://github.com/abhimanyu003/sttr)
 - **Repository:** [https://github.com/abhimanyu003/sttr](https://github.com/abhimanyu003/sttr)
@@ -14381,7 +16073,9 @@
 ---
 
 ### stuffbin
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/stuffbin.sh
 - **Description:** Compress and embed static files and assets into Go binaries and access them with a virtual file system in production
+- **Note:** 
 - **Author:** knadh
 - **WebURL:** [https://github.com/knadh/stuffbin](https://github.com/knadh/stuffbin)
 - **Repository:** [https://github.com/knadh/stuffbin](https://github.com/knadh/stuffbin)
@@ -14398,7 +16092,9 @@
 ---
 
 ### stunner
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/stunner.sh
 - **Description:** tool to test and exploit STUN, TURN and TURN over TCP servers.
+- **Note:** 
 - **Author:** firefart
 - **WebURL:** [https://github.com/firefart/stunner](https://github.com/firefart/stunner)
 - **Repository:** [https://github.com/firefart/stunner](https://github.com/firefart/stunner)
@@ -14415,7 +16111,9 @@
 ---
 
 ### subfinder
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/subfinder.sh
 - **Description:** Fast passive subdomain enumeration tool
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
 - **Repository:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
@@ -14432,7 +16130,9 @@
 ---
 
 ### subjs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/subjs.sh
 - **Description:** Fetches javascript file from a list of URLS or subdomains
+- **Note:** 
 - **Author:** lc
 - **WebURL:** [https://github.com/lc/subjs](https://github.com/lc/subjs)
 - **Repository:** [https://github.com/lc/subjs](https://github.com/lc/subjs)
@@ -14449,7 +16149,9 @@
 ---
 
 ### subxtract
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/subxtract.sh
 - **Description:** Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -14466,7 +16168,9 @@
 ---
 
 ### su-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sudo-rs.sh
 - **Description:** A memory safe implementation of sudo and su.
+- **Note:** sudo must be owned by uid 0 and have the setuid bit set (RUN: sudo chown 'root:root' sudo ; sudo chmod 'a=rx,u+ws' sudo)
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
@@ -14483,7 +16187,9 @@
 ---
 
 ### sudo-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sudo-rs.sh
 - **Description:** A memory safe implementation of sudo and su.
+- **Note:** sudo must be owned by uid 0 and have the setuid bit set (RUN: sudo chown 'root:root' sudo ; sudo chmod 'a=rx,u+ws' sudo)
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
@@ -14500,7 +16206,9 @@
 ---
 
 ### visudo-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sudo-rs.sh
 - **Description:** A memory safe implementation of sudo and su.
+- **Note:** sudo must be owned by uid 0 and have the setuid bit set (RUN: sudo chown 'root:root' sudo ; sudo chmod 'a=rx,u+ws' sudo)
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
@@ -14517,7 +16225,9 @@
 ---
 
 ### sunbeam
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sunbeam.sh
 - **Description:** a general purpose command-line launcher
+- **Note:** 
 - **Author:** pomdtr
 - **WebURL:** [https://github.com/pomdtr/sunbeam](https://github.com/pomdtr/sunbeam)
 - **Repository:** [https://github.com/pomdtr/sunbeam](https://github.com/pomdtr/sunbeam)
@@ -14534,7 +16244,9 @@
 ---
 
 ### supercronic
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/supercronic.sh
 - **Description:** Cron for containers
+- **Note:** 
 - **Author:** aptible
 - **WebURL:** [https://github.com/aptible/supercronic](https://github.com/aptible/supercronic)
 - **Repository:** [https://github.com/aptible/supercronic](https://github.com/aptible/supercronic)
@@ -14551,7 +16263,9 @@
 ---
 
 ### supervisord
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/supervisord.sh
 - **Description:** a go-lang supervisor implementation
+- **Note:** 
 - **Author:** ochinchina
 - **WebURL:** [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
 - **Repository:** [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
@@ -14568,7 +16282,9 @@
 ---
 
 ### surf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/surf.sh
 - **Description:** filter a list of hosts, returning a list of viable SSRF candidates
+- **Note:** 
 - **Author:** assetnote
 - **WebURL:** [https://github.com/assetnote/surf](https://github.com/assetnote/surf)
 - **Repository:** [https://github.com/assetnote/surf](https://github.com/assetnote/surf)
@@ -14585,7 +16301,9 @@
 ---
 
 ### svg-hush
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/svg-hush.sh
 - **Description:** Make it safe to serve untrusted SVG files
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/svg-hush](https://github.com/cloudflare/svg-hush)
 - **Repository:** [https://github.com/cloudflare/svg-hush](https://github.com/cloudflare/svg-hush)
@@ -14602,7 +16320,9 @@
 ---
 
 ### syncat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/syncat.sh
 - **Description:** Syntax aware cat
+- **Note:** 
 - **Author:** foxfriends
 - **WebURL:** [https://github.com/foxfriends/syncat](https://github.com/foxfriends/syncat)
 - **Repository:** [https://github.com/foxfriends/syncat](https://github.com/foxfriends/syncat)
@@ -14619,11 +16339,13 @@
 ---
 
 ### syncthing
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/syncthing.sh
 - **Description:** Open Source Continuous File Synchronization
+- **Note:** 
 - **Author:** syncthing
 - **WebURL:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
 - **Repository:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
-- **Stars:** 63949
+- **Stars:** 63948
 - **Version:** v1.27.12
 - **Updated:** 2024-09-21T07:27:23Z
 - **Size:** 24.08 MB
@@ -14636,11 +16358,13 @@
 ---
 
 ### sysbox-fs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sysbox.sh
 - **Description:** next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
+- **Note:** 
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2721
+- **Stars:** 2722
 - **Version:** v0.6.4
 - **Updated:** 2024-09-21T03:27:10Z
 - **Size:** 12.71 MB
@@ -14653,11 +16377,13 @@
 ---
 
 ### sysbox-mgr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sysbox.sh
 - **Description:** next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
+- **Note:** 
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2721
+- **Stars:** 2722
 - **Version:** v0.6.4
 - **Updated:** 2024-09-21T03:27:10Z
 - **Size:** 12.25 MB
@@ -14670,11 +16396,13 @@
 ---
 
 ### sysbox-runc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sysbox.sh
 - **Description:** next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
+- **Note:** 
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2721
+- **Stars:** 2722
 - **Version:** v0.6.4
 - **Updated:** 2024-09-21T03:27:10Z
 - **Size:** 15.3 MB
@@ -14687,7 +16415,9 @@
 ---
 
 ### sysinfo-collector
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/system-info-collector.sh
 - **Description:** collect ram/cpu usage from OS and show it in pretty graphs
+- **Note:** 
 - **Author:** qarmin
 - **WebURL:** [https://github.com/qarmin/system-info-collector](https://github.com/qarmin/system-info-collector)
 - **Repository:** [https://github.com/qarmin/system-info-collector](https://github.com/qarmin/system-info-collector)
@@ -14704,7 +16434,9 @@
 ---
 
 ### system-info-collector
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/system-info-collector.sh
 - **Description:** collect ram/cpu usage from OS and show it in pretty graphs
+- **Note:** 
 - **Author:** qarmin
 - **WebURL:** [https://github.com/qarmin/system-info-collector](https://github.com/qarmin/system-info-collector)
 - **Repository:** [https://github.com/qarmin/system-info-collector](https://github.com/qarmin/system-info-collector)
@@ -14721,11 +16453,13 @@
 ---
 
 ### systemctl-tui
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/systemctl-tui.sh
 - **Description:** A fast, simple TUI for interacting with systemd services and their logs
+- **Note:** 
 - **Author:** rgwood
 - **WebURL:** [https://github.com/rgwood/systemctl-tui](https://github.com/rgwood/systemctl-tui)
 - **Repository:** [https://github.com/rgwood/systemctl-tui](https://github.com/rgwood/systemctl-tui)
-- **Stars:** 250
+- **Stars:** 252
 - **Version:** v0.3.8
 - **Updated:** 2024-09-16T01:37:59Z
 - **Size:** 7.55 MB
@@ -14738,7 +16472,9 @@
 ---
 
 ### systeroid
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/systeroid.sh
 - **Description:** A more powerful alternative to sysctl(8) with a terminal user interface 🐧
+- **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/systeroid](https://github.com/orhun/systeroid)
 - **Repository:** [https://github.com/orhun/systeroid](https://github.com/orhun/systeroid)
@@ -14755,7 +16491,9 @@
 ---
 
 ### t-rec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/t-rec-rs.sh
 - **Description:** terminal recorder that generates animated gif images for the web
+- **Note:** 
 - **Author:** sassman
 - **WebURL:** [https://github.com/sassman/t-rec-rs](https://github.com/sassman/t-rec-rs)
 - **Repository:** [https://github.com/sassman/t-rec-rs](https://github.com/sassman/t-rec-rs)
@@ -14772,7 +16510,9 @@
 ---
 
 ### taierspeed-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/taierspeed-cli.sh
 - **Description:** Speedtest cli for Tel Speed Test
+- **Note:** 
 - **Author:** ztelliot
 - **WebURL:** [https://github.com/ztelliot/taierspeed-cli](https://github.com/ztelliot/taierspeed-cli)
 - **Repository:** [https://github.com/ztelliot/taierspeed-cli](https://github.com/ztelliot/taierspeed-cli)
@@ -14789,7 +16529,9 @@
 ---
 
 ### tailscale
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
+- **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
@@ -14806,7 +16548,9 @@
 ---
 
 ### tailscale_bb
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
+- **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
@@ -14823,7 +16567,9 @@
 ---
 
 ### tailscale_combined
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
+- **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
@@ -14840,7 +16586,9 @@
 ---
 
 ### tailscaled
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
+- **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
@@ -14857,7 +16605,9 @@
 ---
 
 ### tailspin
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tailspin.sh
 - **Description:** 🌀 A log file highlighter
+- **Note:** 
 - **Author:** bensadeh
 - **WebURL:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
 - **Repository:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
@@ -14874,7 +16624,9 @@
 ---
 
 ### taplo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/taplo.sh
 - **Description:** A TOML toolkit written in Rust
+- **Note:** 
 - **Author:** tamasfe
 - **WebURL:** [https://github.com/tamasfe/taplo](https://github.com/tamasfe/taplo)
 - **Repository:** [https://github.com/tamasfe/taplo](https://github.com/tamasfe/taplo)
@@ -14891,7 +16643,9 @@
 ---
 
 ### tcpdump
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tcpdump.sh
 - **Description:** the TCPdump network dissector
+- **Note:** 
 - **Author:** the-tcpdump-group
 - **WebURL:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
 - **Repository:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
@@ -14908,11 +16662,13 @@
 ---
 
 ### tdl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tdl.sh
 - **Description:** 📥 A Telegram downloader/tools written in Golang
+- **Note:** 
 - **Author:** iyear
 - **WebURL:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
 - **Repository:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
-- **Stars:** 4199
+- **Stars:** 4200
 - **Version:** v0.17.4
 - **Updated:** 2024-09-17T16:43:17Z
 - **Size:** 38.82 MB
@@ -14925,7 +16681,9 @@
 ---
 
 ### teldrive
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/teldrive.sh
 - **Description:** Telegram Drive Storage
+- **Note:** 
 - **Author:** tgdrive
 - **WebURL:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
 - **Repository:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
@@ -14942,7 +16700,9 @@
 ---
 
 ### tere
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tere.sh
 - **Description:** Terminal Dir Navigator
+- **Note:** 
 - **Author:** mgunyho
 - **WebURL:** [https://github.com/mgunyho/tere](https://github.com/mgunyho/tere)
 - **Repository:** [https://github.com/mgunyho/tere](https://github.com/mgunyho/tere)
@@ -14959,7 +16719,9 @@
 ---
 
 ### termshark
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/termshark.sh
 - **Description:** A terminal UI for tshark, inspired by Wireshark.
+- **Note:** 
 - **Author:** gcla
 - **WebURL:** [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
 - **Repository:** [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
@@ -14976,7 +16738,9 @@
 ---
 
 ### tget
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tget.sh
 - **Description:** wget but for torrents
+- **Note:** 
 - **Author:** sweetbbak
 - **WebURL:** [https://github.com/sweetbbak/tget](https://github.com/sweetbbak/tget)
 - **Repository:** [https://github.com/sweetbbak/tget](https://github.com/sweetbbak/tget)
@@ -14993,7 +16757,9 @@
 ---
 
 ### tgpt
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tgpt.sh
 - **Description:** Access ChatGPT from the comfort of your terminal. No API or config files are needed.
+- **Note:** 
 - **Author:** aandrew-me
 - **WebURL:** [https://github.com/aandrew-me/tgpt](https://github.com/aandrew-me/tgpt)
 - **Repository:** [https://github.com/aandrew-me/tgpt](https://github.com/aandrew-me/tgpt)
@@ -15010,7 +16776,9 @@
 ---
 
 ### tidy-viewer
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tidy-viewer.sh
 - **Description:** 📺(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
+- **Note:** 
 - **Author:** alexhallam
 - **WebURL:** [https://github.com/alexhallam/tv](https://github.com/alexhallam/tv)
 - **Repository:** [https://github.com/alexhallam/tv](https://github.com/alexhallam/tv)
@@ -15027,7 +16795,9 @@
 ---
 
 ### tinja
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tinja.sh
 - **Description:** CLI tool for testing web pages for template injection vulnerabilities
+- **Note:** 
 - **Author:** Hackmanit
 - **WebURL:** [https://github.com/Hackmanit/TInjA](https://github.com/Hackmanit/TInjA)
 - **Repository:** [https://github.com/Hackmanit/TInjA](https://github.com/Hackmanit/TInjA)
@@ -15044,7 +16814,9 @@
 ---
 
 ### tio
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tio.sh
 - **Description:** A serial device I/O tool
+- **Note:** 
 - **Author:** tio
 - **WebURL:** [https://github.com/tio/tio](https://github.com/tio/tio)
 - **Repository:** [https://github.com/tio/tio](https://github.com/tio/tio)
@@ -15061,7 +16833,9 @@
 ---
 
 ### tldr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tldr.sh
 - **Description:** Simplified and community-driven man pages
+- **Note:** 
 - **Author:** raylee
 - **WebURL:** [https://github.com/raylee/tldr-sh-client](https://github.com/raylee/tldr-sh-client)
 - **Repository:** [https://github.com/raylee/tldr-sh-client](https://github.com/raylee/tldr-sh-client)
@@ -15078,7 +16852,9 @@
 ---
 
 ### tlrc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tlrc.sh
 - **Description:** A tldr client written in Rust
+- **Note:** 
 - **Author:** tldr-pages
 - **WebURL:** [https://github.com/tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)
 - **Repository:** [https://github.com/tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)
@@ -15095,7 +16871,9 @@
 ---
 
 ### tlsx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tlsx.sh
 - **Description:** Fast and configurable TLS grabber focused on TLS based data collection
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/tlsx](https://github.com/projectdiscovery/tlsx)
 - **Repository:** [https://github.com/projectdiscovery/tlsx](https://github.com/projectdiscovery/tlsx)
@@ -15112,7 +16890,9 @@
 ---
 
 ### tmate
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tmate.sh
 - **Description:** Instant Terminal Sharing
+- **Note:** 
 - **Author:** tmate-io
 - **WebURL:** [https://github.com/tmate-io/tmate](https://github.com/tmate-io/tmate)
 - **Repository:** [https://github.com/tmate-io/tmate](https://github.com/tmate-io/tmate)
@@ -15129,11 +16909,13 @@
 ---
 
 ### tmux
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tmux.sh
 - **Description:** terminal multiplexer
+- **Note:** 
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 34510
+- **Stars:** 34511
 - **Version:** 3.4
 - **Updated:** 2024-09-16T23:01:43Z
 - **Size:** 1.72 MB
@@ -15146,7 +16928,9 @@
 ---
 
 ### tok
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tok.sh
 - **Description:** word string splitter
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
@@ -15163,11 +16947,13 @@
 ---
 
 ### tokei
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tokei.sh
 - **Description:** displays statistics & number of files for code files/dirs
+- **Note:** 
 - **Author:** XAMPPRocky
 - **WebURL:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
 - **Repository:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
-- **Stars:** 10942
+- **Stars:** 10943
 - **Version:** v13.0.0-alpha.5
 - **Updated:** 2024-09-19T08:42:01Z
 - **Size:** 4.35 MB
@@ -15180,7 +16966,9 @@
 ---
 
 ### toru
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/toru.sh
 - **Description:** Bittorrent streaming CLI for anime torrents, real-time with no waiting for downloads.
+- **Note:** 
 - **Author:** sweetbbak
 - **WebURL:** [https://github.com/sweetbbak/toru](https://github.com/sweetbbak/toru)
 - **Repository:** [https://github.com/sweetbbak/toru](https://github.com/sweetbbak/toru)
@@ -15197,7 +16985,9 @@
 ---
 
 ### toybox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/toybox.sh
 - **Description:** minimal busybox
+- **Note:** 
 - **Author:** landley
 - **WebURL:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
 - **Repository:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
@@ -15214,11 +17004,13 @@
 ---
 
 ### tracexec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tracexec.sh
 - **Description:** A small utility for tracing execve{,at} and pre-exec behavior.
+- **Note:** 
 - **Author:** kxxt
 - **WebURL:** [https://github.com/kxxt/tracexec](https://github.com/kxxt/tracexec)
 - **Repository:** [https://github.com/kxxt/tracexec](https://github.com/kxxt/tracexec)
-- **Stars:** 254
+- **Stars:** 255
 - **Version:** v0.6.0
 - **Updated:** 2024-09-21T01:06:43Z
 - **Size:** 6.6 MB
@@ -15231,7 +17023,9 @@
 ---
 
 ### traefik
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/traefik.sh
 - **Description:** The Cloud Native Application Proxy
+- **Note:** 
 - **Author:** traefik
 - **WebURL:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
 - **Repository:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
@@ -15248,7 +17042,9 @@
 ---
 
 ### transmission-daemon
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/transmission.sh
 - **Description:** A fast, easy and free BitTorrent client
+- **Note:** 
 - **Author:** transmission
 - **WebURL:** [https://transmissionbt.com/](https://transmissionbt.com/)
 - **Repository:** [https://github.com/transmission/transmission](https://github.com/transmission/transmission)
@@ -15265,7 +17061,9 @@
 ---
 
 ### trip
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/trippy.sh
 - **Description:** A network diagnostic tool
+- **Note:** 
 - **Author:** fujiapple852
 - **WebURL:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
 - **Repository:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
@@ -15282,13 +17080,15 @@
 ---
 
 ### trufflehog
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/trufflehog.sh
 - **Description:** Find and verify credentials
+- **Note:** 
 - **Author:** trufflesecurity
 - **WebURL:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
 - **Repository:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
 - **Stars:** 15686
 - **Version:** v3.82.2
-- **Updated:** 2024-09-20T17:36:51Z
+- **Updated:** 2024-09-21T17:55:29Z
 - **Size:** 116.07 MB
 - **SHA256SUM:** 586c05a6983e306685714fa82b3c7c59256f1fd0293b903f4a9aec5d5dfb44fd
 - **B3SUM:** be3f0223bc2f1fc2945e7a0d7d84f41baa3e1bd4ebcf8312fe612d24d1cd5358
@@ -15299,7 +17099,9 @@
 ---
 
 ### try
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/try.sh
 - **Description:** Inspect a commands effects before modifying your live system
+- **Note:** 
 - **Author:** binpash
 - **WebURL:** [https://github.com/binpash/try](https://github.com/binpash/try)
 - **Repository:** [https://github.com/binpash/try](https://github.com/binpash/try)
@@ -15316,7 +17118,9 @@
 ---
 
 ### tssh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tssh.sh
 - **Description:** an alternative to ssh client, offers additional useful features, such as login prompt, trzsz ( trz / tsz ), batch login, remember password, zmodem ( rz / sz ), etc.
+- **Note:** 
 - **Author:** trzsz
 - **WebURL:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
 - **Repository:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
@@ -15333,7 +17137,9 @@
 ---
 
 ### tty2web
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tty2web.sh
 - **Description:** Share your terminal as a web application in bind/reverse mode
+- **Note:** 
 - **Author:** kost
 - **WebURL:** [https://github.com/kost/tty2web](https://github.com/kost/tty2web)
 - **Repository:** [https://github.com/kost/tty2web](https://github.com/kost/tty2web)
@@ -15350,11 +17156,13 @@
 ---
 
 ### ttyd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ttyd.sh
 - **Description:** Share your terminal over the web
+- **Note:** 
 - **Author:** tsl0922
 - **WebURL:** [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
 - **Repository:** [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
-- **Stars:** 7989
+- **Stars:** 7990
 - **Version:** 1.7.7
 - **Updated:** 2024-06-14T17:12:42Z
 - **Size:** 1.36 MB
@@ -15367,7 +17175,9 @@
 ---
 
 ### tuiarchiver
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tuiarchiver.sh
 - **Description:** terminal application to list / manage archives
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://codeberg.org/dnalor/tuiarchiver](https://codeberg.org/dnalor/tuiarchiver)
 - **Repository:** []()
@@ -15384,7 +17194,9 @@
 ---
 
 ### tun2proxy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tun2proxy.sh
 - **Description:** Tunnel (TUN) interface for SOCKS and HTTP proxies
+- **Note:** 
 - **Author:** tun2proxy
 - **WebURL:** [https://github.com/tun2proxy/tun2proxy](https://github.com/tun2proxy/tun2proxy)
 - **Repository:** [https://github.com/tun2proxy/tun2proxy](https://github.com/tun2proxy/tun2proxy)
@@ -15401,7 +17213,9 @@
 ---
 
 ### tusd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tusd.sh
 - **Description:** Server for tus, the open protocol for resumable file uploads
+- **Note:** 
 - **Author:** tus
 - **WebURL:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
 - **Repository:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
@@ -15418,7 +17232,9 @@
 ---
 
 ### tut
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tut.sh
 - **Description:** TUI for Mastodon with vim inspired keys
+- **Note:** 
 - **Author:** RasmusLindroth
 - **WebURL:** [https://github.com/RasmusLindroth/tut](https://github.com/RasmusLindroth/tut)
 - **Repository:** [https://github.com/RasmusLindroth/tut](https://github.com/RasmusLindroth/tut)
@@ -15435,7 +17251,9 @@
 ---
 
 ### txeh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/txeh.sh
 - **Description:** CLI utility for /etc/hosts management.
+- **Note:** 
 - **Author:** txn2
 - **WebURL:** [https://github.com/txn2/txeh](https://github.com/txn2/txeh)
 - **Repository:** [https://github.com/txn2/txeh](https://github.com/txn2/txeh)
@@ -15452,7 +17270,9 @@
 ---
 
 ### tz
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/tz.sh
 - **Description:** 🌐 A time zone helper
+- **Note:** 
 - **Author:** oz
 - **WebURL:** [https://github.com/oz/tz](https://github.com/oz/tz)
 - **Repository:** [https://github.com/oz/tz](https://github.com/oz/tz)
@@ -15469,7 +17289,9 @@
 ---
 
 ### u-root
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/u-root.sh
 - **Description:** create a one-binary root file system (initramfs) containing a busybox-like set of tools
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
@@ -15486,7 +17308,9 @@
 ---
 
 ### uroot
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/u-root.sh
 - **Description:** create a one-binary root file system (initramfs) containing a busybox-like set of tools
+- **Note:** 
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
@@ -15503,7 +17327,9 @@
 ---
 
 ### ubase-box
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ubase.sh
 - **Description:** a collection of unportable tools, similar in spirit to util-linux but much simpler.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://git.suckless.org/ubase](https://git.suckless.org/ubase)
 - **Repository:** []()
@@ -15520,7 +17346,9 @@
 ---
 
 ### udpx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/udpx.sh
 - **Description:** a single-packet UDP port scanner
+- **Note:** 
 - **Author:** nullt3r
 - **WebURL:** [https://github.com/nullt3r/udpx](https://github.com/nullt3r/udpx)
 - **Repository:** [https://github.com/nullt3r/udpx](https://github.com/nullt3r/udpx)
@@ -15537,7 +17365,9 @@
 ---
 
 ### uip
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/uip.sh
 - **Description:** A tool to obtain your public IP address with the help of STUN servers
+- **Note:** 
 - **Author:** dndx
 - **WebURL:** [https://github.com/dndx/uip](https://github.com/dndx/uip)
 - **Repository:** [https://github.com/dndx/uip](https://github.com/dndx/uip)
@@ -15554,7 +17384,9 @@
 ---
 
 ### uncover
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/uncover.sh
 - **Description:** Quickly discover exposed hosts on the internet using multiple search engines
+- **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
 - **Repository:** [https://github.com/projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
@@ -15571,7 +17403,9 @@
 ---
 
 ### unf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/unf.sh
 - **Description:** UNixize Filename -- replace annoying anti-unix characters in filenames
+- **Note:** 
 - **Author:** io12
 - **WebURL:** [https://github.com/io12/unf](https://github.com/io12/unf)
 - **Repository:** [https://github.com/io12/unf](https://github.com/io12/unf)
@@ -15588,7 +17422,9 @@
 ---
 
 ### unfurl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/unfurl.sh
 - **Description:** Pull out bits of URLs provided on stdin
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/unfurl](https://github.com/tomnomnom/unfurl)
 - **Repository:** [https://github.com/tomnomnom/unfurl](https://github.com/tomnomnom/unfurl)
@@ -15605,7 +17441,9 @@
 ---
 
 ### unifetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/unifetch.sh
 - **Description:** An unofficial inheritor of Neofetch
+- **Note:** 
 - **Author:** nmimusic
 - **WebURL:** [https://github.com/nmimusic/unifetch](https://github.com/nmimusic/unifetch)
 - **Repository:** [https://github.com/nmimusic/unifetch](https://github.com/nmimusic/unifetch)
@@ -15622,7 +17460,9 @@
 ---
 
 ### upx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/upx.sh
 - **Description:** Ultimate Packer for eXecutables
+- **Note:** 
 - **Author:** upx
 - **WebURL:** [https://github.com/upx/upx](https://github.com/upx/upx)
 - **Repository:** [https://github.com/upx/upx](https://github.com/upx/upx)
@@ -15639,7 +17479,9 @@
 ---
 
 ### usql
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/usql.sh
 - **Description:** Universal command-line interface for SQL databases
+- **Note:** 
 - **Author:** xo
 - **WebURL:** [https://github.com/xo/usql](https://github.com/xo/usql)
 - **Repository:** [https://github.com/xo/usql](https://github.com/xo/usql)
@@ -15656,11 +17498,13 @@
 ---
 
 ### v2raya
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/v2raya.sh
 - **Description:** A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀
+- **Note:** 
 - **Author:** v2rayA
 - **WebURL:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
 - **Repository:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
-- **Stars:** 10982
+- **Stars:** 10983
 - **Version:** v2.2.5.8
 - **Updated:** 2024-09-20T09:38:13Z
 - **Size:** 30.37 MB
@@ -15673,7 +17517,9 @@
 ---
 
 ### v6run
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/v6-unix.sh
 - **Description:** Old Unix programs running on modern computers.
+- **Note:** 
 - **Author:** rsc
 - **WebURL:** [https://github.com/rsc/unix](https://github.com/rsc/unix)
 - **Repository:** [https://github.com/rsc/unix](https://github.com/rsc/unix)
@@ -15690,7 +17536,9 @@
 ---
 
 ### validtoml
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/validtoml.sh
 - **Description:** simple toml validitor
+- **Note:** 
 - **Author:** martinlindhe
 - **WebURL:** [https://github.com/martinlindhe/validtoml](https://github.com/martinlindhe/validtoml)
 - **Repository:** [https://github.com/martinlindhe/validtoml](https://github.com/martinlindhe/validtoml)
@@ -15707,11 +17555,13 @@
 ---
 
 ### vegeta
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vegeta.sh
 - **Description:** HTTP load testing tool and library
+- **Note:** 
 - **Author:** tsenart
 - **WebURL:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
 - **Repository:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
-- **Stars:** 23371
+- **Stars:** 23372
 - **Version:** v12.12.0
 - **Updated:** 2024-09-09T16:45:56Z
 - **Size:** 10.97 MB
@@ -15724,7 +17574,9 @@
 ---
 
 ### vfox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vfox.sh
 - **Description:** A cross-platform and extendable version manager with support for Java, Node.js, Flutter, .Net & more
+- **Note:** 
 - **Author:** version-fox
 - **WebURL:** [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
 - **Repository:** [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
@@ -15741,7 +17593,9 @@
 ---
 
 ### vhs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vhs.sh
 - **Description:** CLI home video recorder 📼
+- **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
 - **Repository:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
@@ -15758,7 +17612,9 @@
 ---
 
 ### viddy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/viddy.sh
 - **Description:** 👀 A modern watch command. Time machine and pager etc.
+- **Note:** 
 - **Author:** sachaos
 - **WebURL:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
 - **Repository:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
@@ -15775,7 +17631,9 @@
 ---
 
 ### viewgen_staticx
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/viewgen.sh
 - **Description:** ViewState tool capable of generating both signed and encrypted payloads with leaked validation keys
+- **Note:** 
 - **Author:** 0xacb
 - **WebURL:** [https://github.com/0xacb/viewgen](https://github.com/0xacb/viewgen)
 - **Repository:** [https://github.com/0xacb/viewgen](https://github.com/0xacb/viewgen)
@@ -15792,7 +17650,9 @@
 ---
 
 ### viu
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/viu.sh
 - **Description:** Terminal image viewer with native support for iTerm and Kitty
+- **Note:** 
 - **Author:** atanunq
 - **WebURL:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
 - **Repository:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
@@ -15809,7 +17669,9 @@
 ---
 
 ### vnstat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vnstat.sh
 - **Description:** A Network Traffic Monitor
+- **Note:** 
 - **Author:** vergoh
 - **WebURL:** [https://humdi.net/vnstat/](https://humdi.net/vnstat/)
 - **Repository:** [https://github.com/vergoh/vnstat](https://github.com/vergoh/vnstat)
@@ -15826,7 +17688,9 @@
 ---
 
 ### vnstatd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vnstat.sh
 - **Description:** A Network Traffic Monitor
+- **Note:** 
 - **Author:** vergoh
 - **WebURL:** [https://humdi.net/vnstat/](https://humdi.net/vnstat/)
 - **Repository:** [https://github.com/vergoh/vnstat](https://github.com/vergoh/vnstat)
@@ -15843,11 +17707,13 @@
 ---
 
 ### volta
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/volta.sh
 - **Description:** JS Toolchains as Code. ⚡
+- **Note:** 
 - **Author:** volta-cli
 - **WebURL:** [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
 - **Repository:** [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
-- **Stars:** 10942
+- **Stars:** 10944
 - **Version:** v2.0.1
 - **Updated:** 2024-09-18T18:42:51Z
 - **Size:** 6.71 MB
@@ -15860,7 +17726,9 @@
 ---
 
 ### vopono
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vopono.sh
 - **Description:** Run applications through VPN tunnels with temporary network namespaces
+- **Note:** 
 - **Author:** jamesmcm
 - **WebURL:** [https://github.com/jamesmcm/vopono](https://github.com/jamesmcm/vopono)
 - **Repository:** [https://github.com/jamesmcm/vopono](https://github.com/jamesmcm/vopono)
@@ -15877,7 +17745,9 @@
 ---
 
 ### vproxy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vproxy.sh
 - **Description:** IPv6 Subnet-based Proxy for Generating Random IP Requests
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/gngpp/vproxy](https://github.com/gngpp/vproxy)
 - **Repository:** [https://github.com/gngpp/vproxy](https://github.com/gngpp/vproxy)
@@ -15894,7 +17764,9 @@
 ---
 
 ### vtm
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vtm.sh
 - **Description:** virtual terminal multiplexer
+- **Note:** 
 - **Author:** directvt
 - **WebURL:** [https://github.com/directvt/vtm](https://github.com/directvt/vtm)
 - **Repository:** [https://github.com/directvt/vtm](https://github.com/directvt/vtm)
@@ -15911,7 +17783,9 @@
 ---
 
 ### vultr-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/vultr-cli.sh
 - **Description:** Official command line tool for Vultr services
+- **Note:** 
 - **Author:** vultr
 - **WebURL:** [https://github.com/vultr/vultr-cli](https://github.com/vultr/vultr-cli)
 - **Repository:** [https://github.com/vultr/vultr-cli](https://github.com/vultr/vultr-cli)
@@ -15928,7 +17802,9 @@
 ---
 
 ### wadl-dumper
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wadl-dumper.sh
 - **Description:** Dump all available paths and/or endpoints on WADL file
+- **Note:** 
 - **Author:** dwisiswant0
 - **WebURL:** [https://github.com/dwisiswant0/wadl-dumper](https://github.com/dwisiswant0/wadl-dumper)
 - **Repository:** [https://github.com/dwisiswant0/wadl-dumper](https://github.com/dwisiswant0/wadl-dumper)
@@ -15945,7 +17821,9 @@
 ---
 
 ### walk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/walk.sh
 - **Description:** Terminal file manager
+- **Note:** 
 - **Author:** antonmedv
 - **WebURL:** [https://github.com/antonmedv/walk](https://github.com/antonmedv/walk)
 - **Repository:** [https://github.com/antonmedv/walk](https://github.com/antonmedv/walk)
@@ -15962,7 +17840,9 @@
 ---
 
 ### warp-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://pkg.cloudflareclient.com](https://pkg.cloudflareclient.com)
 - **Repository:** []()
@@ -15979,7 +17859,9 @@
 ---
 
 ### warp-dex
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://pkg.cloudflareclient.com](https://pkg.cloudflareclient.com)
 - **Repository:** []()
@@ -15996,7 +17878,9 @@
 ---
 
 ### warp-diag
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://pkg.cloudflareclient.com](https://pkg.cloudflareclient.com)
 - **Repository:** []()
@@ -16013,7 +17897,9 @@
 ---
 
 ### warp-svc
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://pkg.cloudflareclient.com](https://pkg.cloudflareclient.com)
 - **Repository:** []()
@@ -16030,7 +17916,9 @@
 ---
 
 ### warp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/warp.sh
 - **Description:** S3 benchmarking tool
+- **Note:** 
 - **Author:** minio
 - **WebURL:** [https://github.com/minio/warp](https://github.com/minio/warp)
 - **Repository:** [https://github.com/minio/warp](https://github.com/minio/warp)
@@ -16047,7 +17935,9 @@
 ---
 
 ### watchexec
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/watchexec.sh
 - **Description:** Executes commands in response to file modifications
+- **Note:** 
 - **Author:** watchexec
 - **WebURL:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
 - **Repository:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
@@ -16064,7 +17954,9 @@
 ---
 
 ### waybackrobots
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/waybackrobots.sh
 - **Description:** Enumerate old versions of robots.txt paths using Wayback Machine for content discovery
+- **Note:** 
 - **Author:** mhmdiaa
 - **WebURL:** [https://github.com/mhmdiaa/waybackrobots](https://github.com/mhmdiaa/waybackrobots)
 - **Repository:** [https://github.com/mhmdiaa/waybackrobots](https://github.com/mhmdiaa/waybackrobots)
@@ -16081,7 +17973,9 @@
 ---
 
 ### waybackurls
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/waybackurls.sh
 - **Description:** Fetch all the URLs that the Wayback Machine knows about for a domain
+- **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/waybackurls](https://github.com/tomnomnom/waybackurls)
 - **Repository:** [https://github.com/tomnomnom/waybackurls](https://github.com/tomnomnom/waybackurls)
@@ -16098,7 +17992,9 @@
 ---
 
 ### web-cache-vulnerability-scanner
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/web-cache-vulnerability-scanner.sh
 - **Description:** CLI tool for testing for web cache poisoning
+- **Note:** 
 - **Author:** Hackmanit
 - **WebURL:** [https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner](https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner)
 - **Repository:** [https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner](https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner)
@@ -16115,7 +18011,9 @@
 ---
 
 ### websocat
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/websocat.sh
 - **Description:** netcat (or curl) for ws // with advanced socat-like functions
+- **Note:** 
 - **Author:** vi
 - **WebURL:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
 - **Repository:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
@@ -16132,7 +18030,9 @@
 ---
 
 ### wego
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wego.sh
 - **Description:** weather app for the terminal
+- **Note:** 
 - **Author:** schachmat
 - **WebURL:** [https://github.com/schachmat/wego](https://github.com/schachmat/wego)
 - **Repository:** [https://github.com/schachmat/wego](https://github.com/schachmat/wego)
@@ -16149,7 +18049,9 @@
 ---
 
 ### generate-bidi
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
+- **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
@@ -16166,7 +18068,9 @@
 ---
 
 ### strip-ansi-escapes
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
+- **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
@@ -16183,7 +18087,9 @@
 ---
 
 ### sync-color-schemes
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
+- **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
@@ -16200,7 +18106,9 @@
 ---
 
 ### wezterm
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
+- **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
@@ -16217,7 +18125,9 @@
 ---
 
 ### wezterm-mux-server
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
+- **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
@@ -16234,7 +18144,9 @@
 ---
 
 ### wget
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wget.sh
 - **Description:** Tool for retrieving files using HTTP, HTTPS, and FTP
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/wget/](https://www.gnu.org/software/wget/)
 - **Repository:** []()
@@ -16251,7 +18163,9 @@
 ---
 
 ### whois
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/whois.sh
 - **Description:** 
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://packages.qa.debian.org/w/whois.html](https://packages.qa.debian.org/w/whois.html)
 - **Repository:** []()
@@ -16268,7 +18182,9 @@
 ---
 
 ### wireguard-go
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wireguard-go.sh
 - **Description:** Go Implementation of WireGuard
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://git.zx2c4.com/wireguard-go](https://git.zx2c4.com/wireguard-go)
 - **Repository:** []()
@@ -16285,7 +18201,9 @@
 ---
 
 ### wireguard-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wireguard-rs.sh
 - **Description:** Rust Implementation of WireGuard
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://git.zx2c4.com/wireguard-rs](https://git.zx2c4.com/wireguard-rs)
 - **Repository:** []()
@@ -16302,7 +18220,9 @@
 ---
 
 ### wg
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wireguard-tools.sh
 - **Description:** tools for configuring WireGuard
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://git.zx2c4.com/wireguard-tools](https://git.zx2c4.com/wireguard-tools)
 - **Repository:** []()
@@ -16319,7 +18239,9 @@
 ---
 
 ### wg-quick
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wireguard-tools.sh
 - **Description:** tools for configuring WireGuard
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://git.zx2c4.com/wireguard-tools](https://git.zx2c4.com/wireguard-tools)
 - **Repository:** []()
@@ -16336,7 +18258,9 @@
 ---
 
 ### wireproxy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wireproxy.sh
 - **Description:** Wireguard client that exposes itself as a socks5 proxy
+- **Note:** 
 - **Author:** pufferffish
 - **WebURL:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
 - **Repository:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
@@ -16353,7 +18277,9 @@
 ---
 
 ### wiretap
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wiretap.sh
 - **Description:** ransparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run
+- **Note:** 
 - **Author:** sandialabs
 - **WebURL:** [https://github.com/sandialabs/wiretap](https://github.com/sandialabs/wiretap)
 - **Repository:** [https://github.com/sandialabs/wiretap](https://github.com/sandialabs/wiretap)
@@ -16370,7 +18296,9 @@
 ---
 
 ### wormhole-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wormhole-rs.sh
 - **Description:** Rust implementation of Magic Wormhole, with new features and enhancements
+- **Note:** 
 - **Author:** magic-wormhole
 - **WebURL:** [https://github.com/magic-wormhole/magic-wormhole.rs](https://github.com/magic-wormhole/magic-wormhole.rs)
 - **Repository:** [https://github.com/magic-wormhole/magic-wormhole.rs](https://github.com/magic-wormhole/magic-wormhole.rs)
@@ -16387,11 +18315,13 @@
 ---
 
 ### wstunnel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wstunnel.sh
 - **Description:** Tunnel all your traffic over websocket protocol - Bypass firewalls/DPI
+- **Note:** 
 - **Author:** erebe
 - **WebURL:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
 - **Repository:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
-- **Stars:** 4153
+- **Stars:** 4154
 - **Version:** v10.1.1
 - **Updated:** 2024-09-04T06:20:13Z
 - **Size:** 12.34 MB
@@ -16404,11 +18334,13 @@
 ---
 
 ### wtf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wtf.sh
 - **Description:** The personal information dashboard for your terminal
+- **Note:** 
 - **Author:** wtfutil
 - **WebURL:** [https://github.com/wtfutil/wtf](https://github.com/wtfutil/wtf)
 - **Repository:** [https://github.com/wtfutil/wtf](https://github.com/wtfutil/wtf)
-- **Stars:** 15746
+- **Stars:** 15747
 - **Version:** v0.43.0
 - **Updated:** 2024-08-10T01:51:27Z
 - **Size:** 62.87 MB
@@ -16421,7 +18353,9 @@
 ---
 
 ### wth
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wth.sh
 - **Description:** What The Heck  The better personal information dashboard for your terminal
+- **Note:** 
 - **Author:** mrusme
 - **WebURL:** [https://github.com/mrusme/wth](https://github.com/mrusme/wth)
 - **Repository:** [https://github.com/mrusme/wth](https://github.com/mrusme/wth)
@@ -16438,11 +18372,13 @@
 ---
 
 ### wush
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wush.sh
 - **Description:** Simplest & Fastest way to transfer files between computers via WireGuard
+- **Note:** 
 - **Author:** coder
 - **WebURL:** [https://wush.dev](https://wush.dev)
 - **Repository:** [https://github.com/coder/wush](https://github.com/coder/wush)
-- **Stars:** 656
+- **Stars:** 657
 - **Version:** v0.2.1
 - **Updated:** 2024-09-16T15:33:46Z
 - **Size:** 48.04 MB
@@ -16455,7 +18391,9 @@
 ---
 
 ### x8
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/x8.sh
 - **Description:** Hidden parameters discovery suite
+- **Note:** 
 - **Author:** Sh1Yo
 - **WebURL:** [https://github.com/Sh1Yo/x8](https://github.com/Sh1Yo/x8)
 - **Repository:** [https://github.com/Sh1Yo/x8](https://github.com/Sh1Yo/x8)
@@ -16472,7 +18410,9 @@
 ---
 
 ### xan
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xan.sh
 - **Description:** The CSV magician
+- **Note:** 
 - **Author:** medialab
 - **WebURL:** [https://github.com/medialab/xan](https://github.com/medialab/xan)
 - **Repository:** [https://github.com/medialab/xan](https://github.com/medialab/xan)
@@ -16489,7 +18429,9 @@
 ---
 
 ### xbps-alternatives
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16506,7 +18448,9 @@
 ---
 
 ### xbps-checkvers
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16523,7 +18467,9 @@
 ---
 
 ### xbps-create
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16540,7 +18486,9 @@
 ---
 
 ### xbps-dgraph
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16557,7 +18505,9 @@
 ---
 
 ### xbps-digest
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16574,7 +18524,9 @@
 ---
 
 ### xbps-fbulk
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16591,7 +18543,9 @@
 ---
 
 ### xbps-fetch
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16608,7 +18562,9 @@
 ---
 
 ### xbps-install
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16625,7 +18581,9 @@
 ---
 
 ### xbps-pkgdb
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16642,7 +18600,9 @@
 ---
 
 ### xbps-query
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16659,7 +18619,9 @@
 ---
 
 ### xbps-reconfigure
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16676,7 +18638,9 @@
 ---
 
 ### xbps-remove
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16693,7 +18657,9 @@
 ---
 
 ### xbps-rindex
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16710,7 +18676,9 @@
 ---
 
 ### xbps-uchroot
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16727,7 +18695,9 @@
 ---
 
 ### xbps-uhelper
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16744,7 +18714,9 @@
 ---
 
 ### xbps-uunshare
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
+- **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
@@ -16761,7 +18733,9 @@
 ---
 
 ### xcp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xcp.sh
 - **Description:** An extended cp
+- **Note:** 
 - **Author:** tarka
 - **WebURL:** [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
 - **Repository:** [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
@@ -16778,7 +18752,9 @@
 ---
 
 ### xdo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xdo.sh
 - **Description:** Small X utility to perform elementary actions on windows
+- **Note:** 
 - **Author:** baskerville
 - **WebURL:** [https://github.com/baskerville/xdo](https://github.com/baskerville/xdo)
 - **Repository:** [https://github.com/baskerville/xdo](https://github.com/baskerville/xdo)
@@ -16795,7 +18771,9 @@
 ---
 
 ### xdotool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xdotool.sh
 - **Description:** Fake keyboard/mouse input, window management, and more
+- **Note:** 
 - **Author:** jordansissel
 - **WebURL:** [https://github.com/jordansissel/xdotool](https://github.com/jordansissel/xdotool)
 - **Repository:** [https://github.com/jordansissel/xdotool](https://github.com/jordansissel/xdotool)
@@ -16812,7 +18790,9 @@
 ---
 
 ### xh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xh.sh
 - **Description:** Friendly and fast tool for sending HTTP requests
+- **Note:** 
 - **Author:** ducaale
 - **WebURL:** [https://github.com/ducaale/xh](https://github.com/ducaale/xh)
 - **Repository:** [https://github.com/ducaale/xh](https://github.com/ducaale/xh)
@@ -16829,7 +18809,9 @@
 ---
 
 ### xhost
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xhost.sh
 - **Description:** Tool to manage the list of host names or user names allowed to make connections to the X server.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.freedesktop.org/xorg/app/xhost](https://gitlab.freedesktop.org/xorg/app/xhost)
 - **Repository:** []()
@@ -16846,7 +18828,9 @@
 ---
 
 ### xmrig
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xmrig.sh
 - **Description:** Monero (XMR) CPU miner
+- **Note:** 
 - **Author:** xmrig
 - **WebURL:** [https://xmrig.com/](https://xmrig.com/)
 - **Repository:** [https://github.com/xmrig/xmrig](https://github.com/xmrig/xmrig)
@@ -16863,7 +18847,9 @@
 ---
 
 ### xplr
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xplr.sh
 - **Description:** A hackable, minimal, fast TUI file explorer
+- **Note:** 
 - **Author:** sayanarijit
 - **WebURL:** [https://github.com/sayanarijit/xplr](https://github.com/sayanarijit/xplr)
 - **Repository:** [https://github.com/sayanarijit/xplr](https://github.com/sayanarijit/xplr)
@@ -16880,7 +18866,9 @@
 ---
 
 ### xq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xq.sh
 - **Description:** Command-line XML and HTML beautifier and content extractor
+- **Note:** 
 - **Author:** sibprogrammer
 - **WebURL:** [https://github.com/sibprogrammer/xq](https://github.com/sibprogrammer/xq)
 - **Repository:** [https://github.com/sibprogrammer/xq](https://github.com/sibprogrammer/xq)
@@ -16897,7 +18885,9 @@
 ---
 
 ### xurls
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xurls.sh
 - **Description:** Extract urls from text
+- **Note:** 
 - **Author:** mvdan
 - **WebURL:** [https://github.com/mvdan/xurls](https://github.com/mvdan/xurls)
 - **Repository:** [https://github.com/mvdan/xurls](https://github.com/mvdan/xurls)
@@ -16914,7 +18904,9 @@
 ---
 
 ### yabs.sh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yabs.sh.sh
 - **Description:** YABS - a simple bash script to estimate Linux server performance using fio, iperf3, & Geekbench
+- **Note:** 
 - **Author:** masonr
 - **WebURL:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
 - **Repository:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
@@ -16931,7 +18923,9 @@
 ---
 
 ### yalis
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yalis.sh
 - **Description:** Yet Another LinkedIn Scraper
+- **Note:** 
 - **Author:** EatonChips
 - **WebURL:** [https://github.com/EatonChips/yalis](https://github.com/EatonChips/yalis)
 - **Repository:** [https://github.com/EatonChips/yalis](https://github.com/EatonChips/yalis)
@@ -16948,7 +18942,9 @@
 ---
 
 ### yataf
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yataf.sh
 - **Description:** yataf extracts secrets and paths from files or urls - its best used against javascript files
+- **Note:** 
 - **Author:** dsecuredcom
 - **WebURL:** [https://github.com/Damian89/yataf](https://github.com/Damian89/yataf)
 - **Repository:** [https://github.com/Damian89/yataf](https://github.com/Damian89/yataf)
@@ -16965,11 +18961,13 @@
 ---
 
 ### yazi
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yazi.sh
 - **Description:** 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
+- **Note:** 
 - **Author:** sxyazi
 - **WebURL:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - **Repository:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
-- **Stars:** 14685
+- **Stars:** 14692
 - **Version:** v0.3.3
 - **Updated:** 2024-09-21T12:12:45Z
 - **Size:** 16.87 MB
@@ -16982,7 +18980,9 @@
 ---
 
 ### yggdrasil
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yggdrasil.sh
 - **Description:** An experiment in scalable routing as an encrypted IPv6 overlay network
+- **Note:** 
 - **Author:** yggdrasil-network
 - **WebURL:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
 - **Repository:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
@@ -16999,7 +18999,9 @@
 ---
 
 ### yggdrasilctl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yggdrasil.sh
 - **Description:** An experiment in scalable routing as an encrypted IPv6 overlay network
+- **Note:** 
 - **Author:** yggdrasil-network
 - **WebURL:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
 - **Repository:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
@@ -17016,7 +19018,9 @@
 ---
 
 ### yip
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yip.sh
 - **Description:** 📌 Yaml Instructions Processor - Simply applies a cloud-init style yaml file to the system
+- **Note:** 
 - **Author:** mudler
 - **WebURL:** [https://github.com/mudler/yip](https://github.com/mudler/yip)
 - **Repository:** [https://github.com/mudler/yip](https://github.com/mudler/yip)
@@ -17033,7 +19037,9 @@
 ---
 
 ### yj
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yj.sh
 - **Description:** Convert between YAML, TOML, JSON, and HCL
+- **Note:** 
 - **Author:** sclevine
 - **WebURL:** [https://github.com/sclevine/yj](https://github.com/sclevine/yj)
 - **Repository:** [https://github.com/sclevine/yj](https://github.com/sclevine/yj)
@@ -17050,7 +19056,9 @@
 ---
 
 ### yq
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yq.sh
 - **Description:** portable command-line YAML, JSON, XML, CSV, TOML and properties processor
+- **Note:** 
 - **Author:** mikefarah
 - **WebURL:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
 - **Repository:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
@@ -17067,11 +19075,13 @@
 ---
 
 ### yt-dlp
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/yt-dlp.sh
 - **Description:** A feature-rich command-line audio/video downloader
+- **Note:** 
 - **Author:** yt-dlp
 - **WebURL:** [https://discord.gg/H5MNcFW63r](https://discord.gg/H5MNcFW63r)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 82959
+- **Stars:** 82962
 - **Version:** 2024.08.06
 - **Updated:** 2024-09-17T19:17:05Z
 - **Size:** 34.12 MB
@@ -17084,7 +19094,9 @@
 ---
 
 ### z-tokens
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
+- **Note:** 
 - **Author:** volution
 - **WebURL:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
 - **Repository:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
@@ -17101,7 +19113,9 @@
 ---
 
 ### zt-encodings
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
+- **Note:** 
 - **Author:** volution
 - **WebURL:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
 - **Repository:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
@@ -17118,7 +19132,9 @@
 ---
 
 ### zt-exchange
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
+- **Note:** 
 - **Author:** volution
 - **WebURL:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
 - **Repository:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
@@ -17135,7 +19151,9 @@
 ---
 
 ### zt-hashes
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
+- **Note:** 
 - **Author:** volution
 - **WebURL:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
 - **Repository:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
@@ -17152,7 +19170,9 @@
 ---
 
 ### zt-patterns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
+- **Note:** 
 - **Author:** volution
 - **WebURL:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
 - **Repository:** [https://github.com/volution/z-tokens](https://github.com/volution/z-tokens)
@@ -17169,11 +19189,13 @@
 ---
 
 ### zapper
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zapper.sh
 - **Description:** Zaps arguments and environment from the process list
+- **Note:** 
 - **Author:** hackerschoice
 - **WebURL:** [https://github.com/hackerschoice/zapper](https://github.com/hackerschoice/zapper)
 - **Repository:** [https://github.com/hackerschoice/zapper](https://github.com/hackerschoice/zapper)
-- **Stars:** 148
+- **Stars:** 149
 - **Version:** v1.1
 - **Updated:** 2024-04-26T20:00:18Z
 - **Size:** 71.1 kB
@@ -17186,11 +19208,13 @@
 ---
 
 ### zapper-stealth
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zapper.sh
 - **Description:** Zaps arguments and environment from the process list
+- **Note:** 
 - **Author:** hackerschoice
 - **WebURL:** [https://github.com/hackerschoice/zapper](https://github.com/hackerschoice/zapper)
 - **Repository:** [https://github.com/hackerschoice/zapper](https://github.com/hackerschoice/zapper)
-- **Stars:** 148
+- **Stars:** 149
 - **Version:** v1.1
 - **Updated:** 2024-04-26T20:00:18Z
 - **Size:** 69.02 kB
@@ -17203,7 +19227,9 @@
 ---
 
 ### zdns
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zdns.sh
 - **Description:** Fast CLI DNS Lookup Tool
+- **Note:** 
 - **Author:** zmap
 - **WebURL:** [https://github.com/zmap/zdns](https://github.com/zmap/zdns)
 - **Repository:** [https://github.com/zmap/zdns](https://github.com/zmap/zdns)
@@ -17220,11 +19246,13 @@
 ---
 
 ### zellij
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zellij.sh
 - **Description:** A terminal workspace with batteries included
+- **Note:** 
 - **Author:** zellij-org
 - **WebURL:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
 - **Repository:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
-- **Stars:** 20695
+- **Stars:** 20697
 - **Version:** v0.40.1
 - **Updated:** 2024-09-20T13:39:17Z
 - **Size:** 31.33 MB
@@ -17237,7 +19265,9 @@
 ---
 
 ### zenith
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zenith.sh
 - **Description:** sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage
+- **Note:** 
 - **Author:** bvaisvil
 - **WebURL:** [https://github.com/bvaisvil/zenith](https://github.com/bvaisvil/zenith)
 - **Repository:** [https://github.com/bvaisvil/zenith](https://github.com/bvaisvil/zenith)
@@ -17254,11 +19284,13 @@
 ---
 
 ### zerotier-cli
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zerotier.sh
 - **Description:** A Smart Ethernet Switch for Earth
+- **Note:** 
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14249
+- **Stars:** 14250
 - **Version:** 1.14.1
 - **Updated:** 2024-09-18T15:49:29Z
 - **Size:** 15.44 MB
@@ -17271,11 +19303,13 @@
 ---
 
 ### zerotier-idtool
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zerotier.sh
 - **Description:** A Smart Ethernet Switch for Earth
+- **Note:** 
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14249
+- **Stars:** 14250
 - **Version:** 1.14.1
 - **Updated:** 2024-09-18T15:49:29Z
 - **Size:** 15.44 MB
@@ -17288,11 +19322,13 @@
 ---
 
 ### zerotier-one
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zerotier.sh
 - **Description:** A Smart Ethernet Switch for Earth
+- **Note:** 
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14249
+- **Stars:** 14250
 - **Version:** 1.14.1
 - **Updated:** 2024-09-18T15:49:29Z
 - **Size:** 15.44 MB
@@ -17305,7 +19341,9 @@
 ---
 
 ### zfind
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zfind.sh
 - **Description:** Search for files (even inside tar/zip/7z/rar) using a SQL-WHERE filter
+- **Note:** 
 - **Author:** laktak
 - **WebURL:** [https://github.com/laktak/zfind](https://github.com/laktak/zfind)
 - **Repository:** [https://github.com/laktak/zfind](https://github.com/laktak/zfind)
@@ -17322,7 +19360,9 @@
 ---
 
 ### zfxtop
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zfxtop.sh
 - **Description:** fetch top for gen Z with X written by bubbletea enjoyer
+- **Note:** 
 - **Author:** ssleert
 - **WebURL:** [https://github.com/ssleert/zfxtop](https://github.com/ssleert/zfxtop)
 - **Repository:** [https://github.com/ssleert/zfxtop](https://github.com/ssleert/zfxtop)
@@ -17339,7 +19379,9 @@
 ---
 
 ### zgrab2
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zgrab2.sh
 - **Description:** Fast Go Application Scanner
+- **Note:** 
 - **Author:** zmap
 - **WebURL:** [https://github.com/zmap/zgrab2](https://github.com/zmap/zgrab2)
 - **Repository:** [https://github.com/zmap/zgrab2](https://github.com/zmap/zgrab2)
@@ -17356,7 +19398,9 @@
 ---
 
 ### zigup
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zigup.sh
 - **Description:** Download and manage zig compilers.
+- **Note:** 
 - **Author:** marler8997
 - **WebURL:** [https://github.com/marler8997/zigup](https://github.com/marler8997/zigup)
 - **Repository:** [https://github.com/marler8997/zigup](https://github.com/marler8997/zigup)
@@ -17373,11 +19417,13 @@
 ---
 
 ### z
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zoxide.sh
 - **Description:** A smarter cd command.
+- **Note:** 
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 21798
+- **Stars:** 21800
 - **Version:** v0.9.6
 - **Updated:** 2024-09-20T16:01:59Z
 - **Size:** 1.25 MB
@@ -17390,11 +19436,13 @@
 ---
 
 ### zoxide
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zoxide.sh
 - **Description:** A smarter cd command.
+- **Note:** 
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 21798
+- **Stars:** 21800
 - **Version:** v0.9.6
 - **Updated:** 2024-09-20T16:01:59Z
 - **Size:** 1.25 MB
@@ -17407,11 +19455,13 @@
 ---
 
 ### zsh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/zsh.sh
 - **Description:** The Z shell
+- **Note:** 
 - **Author:** zsh-users
 - **WebURL:** [https://www.zsh.org/](https://www.zsh.org/)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3603
+- **Stars:** 3604
 - **Version:** zsh-5.9
 - **Updated:** 2024-09-18T09:32:41Z
 - **Size:** 1.58 MB
