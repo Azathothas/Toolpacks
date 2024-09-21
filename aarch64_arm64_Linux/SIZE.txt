@@ -16,6 +16,7 @@
   72M   ├── falconhound
   71M   ├── nuclei
   65M   ├── devpod
+  64M   ├── dockerc
   61M   ├── loki
   60M   ├── logcli
   58M   ├── wtfutil

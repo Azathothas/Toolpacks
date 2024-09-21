@@ -200,6 +200,7 @@ doas:                            ELF 64-bit LSB executable, ARM aarch64, version
 docker:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=olOerAYxS-w_G6Gz1hCY/td4jDedhNIoRObYFY-72/W1f5RnhmCjjE6TPA9nki/RCPHt4IvBhigZsFdADvp, BuildID[xxHash]=240410bfc0066dac, stripped
 docker-init:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=b0c8689cd560a5a2be918edcddbba7f8b34a355b, for GNU/Linux 3.7.0, stripped
 docker-proxy:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=aKdBABkoF7GoGHURVMgA/eUxxkhrIAPJnFOQ24t50/5BjDK1qdRb2BpuG0YWiw/tvuWFdGu8FG25J3J_Hjr, stripped
+dockerc:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 dockerd:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=9fe80685b405c057fb5b19ad12eab0cd43f66b19, for GNU/Linux 3.7.0, stripped
 dockerd-rootless-setuptool.sh:   POSIX shell script, ASCII text executable
 dockerd-rootless.sh:             POSIX shell script, Unicode text, UTF-8 text executable

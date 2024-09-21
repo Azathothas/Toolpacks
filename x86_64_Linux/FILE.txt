@@ -206,6 +206,7 @@ doas:                            ELF 64-bit LSB executable, x86-64, version 1 (S
 docker:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=UkpQNHEgym_199QyqnM5/2JZBKLGCedh65SA0l-Xc/1Df0piQlZ8-3LVCO34dM/3XkgPQAAclZbzVjQyo0e, BuildID[xxHash]=f46c005ce125e61c, stripped
 docker-init:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=e5c375e6cd1e7237df1f3755c75cea365ef6bc01, for GNU/Linux 3.2.0, stripped
 docker-proxy:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=0J_NfnwtJsV09yzcpIgN/7S-LwVPyJQwuFlncCtVn/Wut627Q9Rv3cI8_CJYrU/Oq5BPM21OOlU_QBTCt6_, stripped
+dockerc:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 dockerd:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, for GNU/Linux 3.2.0, Go BuildID=mCzguW_9rI_YJ6dFpNfO/-gko75hafY_EIUVMrp1g/Bwx-9w5Wcds97m8jlMS9/OYI6t6eKAwxXwoX1J1tY, BuildID[xxHash]=6d77ba9d0d64ce0e, stripped
 dockerd-rootless-setuptool.sh:   POSIX shell script, ASCII text executable
 dockerd-rootless.sh:             POSIX shell script, Unicode text, UTF-8 text executable

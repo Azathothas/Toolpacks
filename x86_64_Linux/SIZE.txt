@@ -23,6 +23,7 @@
   70M   ├── rclone
   69M   ├── loki
   68M   ├── ockam
+  65M   ├── dockerc
   61M   ├── logcli
   60M   ├── dockerd
   59M   ├── wtfutil

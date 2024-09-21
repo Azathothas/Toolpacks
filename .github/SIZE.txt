@@ -18,7 +18,7 @@
 932K   │ ├── METADATA.json
 632K   │ ├── DETAILED.md
 460K   │ ├── README.md
-148K   │ ├── FILE.txt
+152K   │ ├── FILE.txt
 120K   │ ├── BUILD_DATES.txt
  76K   │ ├── SHA256SUM.txt
  76K   │ ├── BLAKE3SUM.txt
@@ -29,11 +29,11 @@
   0B   │ └── DUPLICATES_OVERWRITES.txt
 7.1M   ├── METADATA.json
 6.5M   ├── METADATA.yaml
-468K   ├─┬ x64_Windows
+464K   ├─┬ x64_Windows
 200K   │ ├── METADATA.json
 100K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 24K   │ ├── FILE.txt
+ 20K   │ ├── FILE.txt
  20K   │ ├── BUILD_DATES.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt
@@ -52,8 +52,8 @@
 4.0K   │ ├── GO_TARGETS.md
 4.0K   │ ├── DEBUG.md
 4.0K   │ └── APPIMAGES.md
- 88K   ├─┬ arm64_v8a_Android
- 28K   │ ├── METADATA.json
+ 92K   ├─┬ arm64_v8a_Android
+ 32K   │ ├── METADATA.json
  16K   │ ├── DETAILED.md
  12K   │ ├── README.md
 4.0K   │ ├── SIZE.txt
