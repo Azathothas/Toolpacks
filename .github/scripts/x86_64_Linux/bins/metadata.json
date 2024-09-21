@@ -2246,7 +2246,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-20T21:08:19",
+    "update_date": "2024-09-21T00:10:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2518,6 +2518,11 @@
     "name": "nushell.sh",
     "update_date": "2024-07-12T03:55:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nushell.sh"
+  },
+  {
+    "name": "nvme-cli.sh",
+    "update_date": "2024-09-21T07:05:30",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nvme-cli.sh"
   },
   {
     "name": "ockam.sh",
