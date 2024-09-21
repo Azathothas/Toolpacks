@@ -52,6 +52,8 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
           yq -r '.bins[]' "$BUILDYAML" | sort -u -o "$TMPDIR/BINS.txt"
          #export Description (Descr)
           DESCRIPTION="$(yq -r '.description' $BUILDYAML)" && export DESCRIPTION="$DESCRIPTION"
+         #export Build Script
+          BUILD_SCRIPT="$(echo "$BUILD_URL" | sed 's|https://pub.ajam.dev/repos|https://github.com|; s|/Toolpacks|/Toolpacks/tree/main|; s|\.yaml$|.sh|')" && export BUILD_SCRIPT="$BUILD_SCRIPT"
          #export Notes (Note)
           NOTE="$(yq -r '.note' $BUILDYAML)" && export NOTE="$NOTE"
          #export WEB_URL (WebURL)
@@ -103,7 +105,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
             #Web URLs
              jq --arg BIN "$BIN" --arg WEB_URL "$WEB_URL" '.[] |= if .name == $BIN then . + {web_url: $WEB_URL} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
             #Build_Script
-             jq --arg BIN "$BIN" --arg BUILD_SCRIPT "$BUILD_URL" '.[] |= if .name == $BIN then . + {build_script: $BUILD_SCRIPT} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+             jq --arg BIN "$BIN" --arg BUILD_SCRIPT "$BUILD_SCRIPT" '.[] |= if .name == $BIN then . + {build_script: $BUILD_SCRIPT} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
             #Git Meta
              if [ -n "${REPO_URL}" ]; then
              #$REPO_AUTHOR repo_author
