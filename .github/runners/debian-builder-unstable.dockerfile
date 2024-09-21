@@ -86,9 +86,9 @@ RUN <<EOS
   #Main
   set +e
   apt-get update -y
-  apt-get install -y aria2 automake bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras cython3 diffutils dos2unix execline findutils fontconfig gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html wget xxhash xz-utils yasm
+  apt-get install -y aria2 autoconf autoconf-archive automake autopoint bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras coreutils cython3 diffutils dos2unix execline findutils fontconfig gawk gcc gettext lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm policycoreutils pkg-config python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html util-linux wget xsltpro xxhash xz-utils yasm
   #Re
-  apt-get install -y aria2 automake bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras cython3 diffutils dos2unix execline findutils fontconfig gawk gcc lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html wget xxhash xz-utils yasm
+  apt-get install -y aria2 autoconf autoconf-archive automake autopoint bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras coreutils cython3 diffutils dos2unix execline findutils fontconfig gawk gcc gettext lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm policycoreutils pkg-config python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html util-linux wget xsltpro xxhash xz-utils yasm
   #----------------------#
   #Dockerc
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/bin/dockerc" && chmod +x "/usr/bin/dockerc"

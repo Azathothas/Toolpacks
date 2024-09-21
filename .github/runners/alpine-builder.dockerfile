@@ -266,6 +266,8 @@ RUN <<EOS
   apk add libnfs --latest --upgrade --no-interactive 2>/dev/null
   apk add libnfs-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libnfs-tools --latest --upgrade --no-interactive 2>/dev/null
+  apk add libnvme --latest --upgrade --no-interactive 2>/dev/null
+  apk add libnvme-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libopenmpt --latest --upgrade --no-interactive 2>/dev/null
   apk add libopenmpt-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libpcap --latest --upgrade --no-interactive 2>/dev/null
