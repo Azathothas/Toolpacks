@@ -14,12 +14,12 @@
     "repo_updated": "2024-08-12T11:51:02Z",
     "repo_released": "2024-08-12T12:01:23Z",
     "repo_version": "24.08",
-    "repo_stars": "661",
+    "repo_stars": "660",
     "repo_language": "C++",
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://www.7-zip.org",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/7z.ps1",
     "extra_bins": "7za.exe"
   },
   {
@@ -42,7 +42,7 @@
     "repo_license": "MIT License",
     "repo_topics": "actions, ci, github-actions, lint, linter",
     "web_url": "https://github.com/rhysd/actionlint",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/actionlint.ps1",
     "extra_bins": ""
   },
   {
@@ -60,12 +60,12 @@
     "repo_updated": "2024-08-21T10:37:07Z",
     "repo_released": "2024-06-16T14:11:14Z",
     "repo_version": "v1.2.0",
-    "repo_stars": "16925",
+    "repo_stars": "16926",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "age-encryption, built-at-rc",
     "web_url": "https://github.com/FiloSottile/age",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/age.ps1",
     "extra_bins": ""
   },
   {
@@ -88,7 +88,7 @@
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "algernon, buildless, cross-platform, fasthttp, go, http2, http3, live-reload, llm, lua, mysql, ollama, pongo2, postgresql, quic, redis, server-sent-events, sqlite, tls13",
     "web_url": "https://github.com/xyproto/algernon",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/algernon.ps1",
     "extra_bins": ""
   },
   {
@@ -106,12 +106,12 @@
     "repo_updated": "2024-09-18T17:24:44Z",
     "repo_released": "2024-09-18T17:25:03Z",
     "repo_version": "v3.37.4",
-    "repo_stars": "42222",
+    "repo_stars": "42223",
     "repo_language": "Go",
     "repo_license": "GNU Affero General Public License v3.0",
     "repo_topics": "file-server, gin, golang, onedrive, solidjs, webdav",
     "web_url": "https://github.com/alist-org/alist",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/alist.ps1",
     "extra_bins": ""
   },
   {
@@ -134,7 +134,7 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/zer0yu/anew",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/anew-rs.ps1",
     "extra_bins": "anew.exe"
   },
   {
@@ -157,7 +157,7 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/zer0yu/anew",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/anew-rs.ps1",
     "extra_bins": "anew-rs.exe"
   },
   {
@@ -180,7 +180,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "",
     "web_url": "https://github.com/BLAKE3-team/BLAKE3",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/b3sum.ps1",
     "extra_bins": ""
   },
   {
@@ -203,7 +203,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "cli, command-line, git, hacktoberfest, rust, syntax-highlighting, terminal, tool",
     "web_url": "https://github.com/sharkdp/bat",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/batcat.ps1",
     "extra_bins": "batcat.exe"
   },
   {
@@ -226,7 +226,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "cli, command-line, git, hacktoberfest, rust, syntax-highlighting, terminal, tool",
     "web_url": "https://github.com/sharkdp/bat",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/batcat.ps1",
     "extra_bins": "bat.exe"
   },
   {
@@ -249,7 +249,7 @@
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "ascii-art, ci, command-line, cowsay, devops, devops-tools, rainbow, synthwave, terminal, utility",
     "web_url": "https://github.com/xyproto/botsay",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/botsay.ps1",
     "extra_bins": ""
   },
   {
@@ -272,7 +272,7 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "android, cross-platform, decryption, encryption, ios, linux, macos, mitm, network-analysis, network-monitoring, network-programming, network-security, openwrt, packet-capture, proxy, socks5, tls, vpn, windows, zero-configuration",
     "web_url": "https://github.com/txthinking/brook",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/brook.ps1",
     "extra_bins": ""
   },
   {
@@ -295,7 +295,7 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/x90skysn3k/brutespray",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/brutespray.ps1",
     "extra_bins": ""
   },
   {
@@ -309,7 +309,7 @@
     "build_date": "2024-09-20T19:51:42",
     "repo_url": "",
     "web_url": "https://frippery.org/busybox/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/busybox.ps1",
     "extra_bins": "busybox.exe"
   },
   {
@@ -323,7 +323,7 @@
     "build_date": "2024-09-20T19:51:43",
     "repo_url": "",
     "web_url": "https://frippery.org/busybox/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/busybox.ps1",
     "extra_bins": "busybox-unicode.exe"
   },
   {
@@ -346,7 +346,7 @@
     "repo_license": "MIT License",
     "repo_topics": "bash, cheat, cheatsheet, cheatsheets, documentation, help, interactive-cheatsheets, man-page",
     "web_url": "https://github.com/cheat/cheat",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/cheat.ps1",
     "extra_bins": ""
   },
   {
@@ -361,7 +361,7 @@
     "repo_url": "https://github.com/cloudflare/cloudflared",
     "repo_author": "cloudflare",
     "repo_info": "Cloudflare Tunnel client (formerly Argo Tunnel)",
-    "repo_updated": "2024-09-20T01:52:46Z",
+    "repo_updated": "2024-09-21T17:18:55Z",
     "repo_released": "2024-09-10T17:35:07Z",
     "repo_version": "2024.9.1",
     "repo_stars": "8870",
@@ -369,7 +369,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "argo-tunnel, cloudflare, cloudflare-tunnel, reverse-proxy, zero-trust-network-access",
     "web_url": "https://github.com/cloudflare/cloudflared",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/cloudflared.ps1",
     "extra_bins": ""
   },
   {
@@ -392,7 +392,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -415,7 +415,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -438,7 +438,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -461,7 +461,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -484,7 +484,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -507,7 +507,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -530,7 +530,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -553,7 +553,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -576,7 +576,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -599,7 +599,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -622,7 +622,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -645,7 +645,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -668,7 +668,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -691,7 +691,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -714,7 +714,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -737,7 +737,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -760,7 +760,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -783,7 +783,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -806,7 +806,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -829,7 +829,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -852,7 +852,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -875,7 +875,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -898,7 +898,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -921,7 +921,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -944,7 +944,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -967,7 +967,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -990,7 +990,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1013,7 +1013,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1036,7 +1036,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1059,7 +1059,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1082,7 +1082,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1105,7 +1105,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1128,7 +1128,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1151,7 +1151,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1174,7 +1174,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1197,7 +1197,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1220,7 +1220,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1243,7 +1243,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1266,7 +1266,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1289,7 +1289,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1312,7 +1312,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1335,7 +1335,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1358,7 +1358,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1381,7 +1381,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1404,7 +1404,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1427,7 +1427,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1450,7 +1450,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1473,7 +1473,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1496,7 +1496,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1519,7 +1519,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1542,7 +1542,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1565,7 +1565,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1588,7 +1588,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1611,7 +1611,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1634,7 +1634,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1657,7 +1657,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1680,7 +1680,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1703,7 +1703,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1726,7 +1726,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1749,7 +1749,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1772,7 +1772,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1795,7 +1795,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1818,7 +1818,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1841,7 +1841,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1864,7 +1864,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1887,7 +1887,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1910,7 +1910,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1933,7 +1933,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1956,7 +1956,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -1979,7 +1979,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -2002,7 +2002,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -2025,7 +2025,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -2048,7 +2048,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -2071,7 +2071,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -2094,7 +2094,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
@@ -2117,7 +2117,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,whoami.exe,yes.exe"
   },
   {
@@ -2140,7 +2140,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,yes.exe"
   },
   {
@@ -2163,7 +2163,7 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe"
   },
   {
@@ -2186,7 +2186,7 @@
     "repo_license": "MIT License",
     "repo_topics": "data-transfer, file-sharing, golang, pake, peer-to-peer, tcp, transfer",
     "web_url": "https://github.com/schollz/croc",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/croc.ps1",
     "extra_bins": ""
   },
   {
@@ -2209,7 +2209,7 @@
     "repo_license": "MIT License",
     "repo_topics": "curl, http-client, http3, http3-client",
     "web_url": "https://github.com/stunnel/static-curl",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/curl.ps1",
     "extra_bins": "trurl.exe"
   },
   {
@@ -2232,7 +2232,7 @@
     "repo_license": "MIT License",
     "repo_topics": "curl, http-client, http3, http3-client",
     "web_url": "https://github.com/stunnel/static-curl",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/curl.ps1",
     "extra_bins": "curl.exe"
   },
   {
@@ -2246,7 +2246,7 @@
     "build_date": "2024-09-20T19:51:58",
     "repo_url": "",
     "web_url": "hhttps://github.com/Azathothas/Arsenal",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cutlines.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/cutlines.ps1",
     "extra_bins": ""
   },
   {
@@ -2269,7 +2269,7 @@
     "repo_license": "MIT License",
     "repo_topics": "benchmark, cassandra, cockroachdb, database, golang, hacktoberfest, mariadb, mssql, mysql, postgresql, scylladb, sqlite, stress-testing",
     "web_url": "https://github.com/sj14/dbbench",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dbbench.ps1",
     "extra_bins": ""
   },
   {
@@ -2292,7 +2292,7 @@
     "repo_license": "MIT License",
     "repo_topics": "alidns, baiduyun, cloudflare, ddns, ddns-go, dnspod, godaddy-ddns, google-domains, porkbun",
     "web_url": "https://github.com/jeessy2/ddns-go",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ddns-go.ps1",
     "extra_bins": ""
   },
   {
@@ -2315,7 +2315,7 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "dependencies, dependencies-checking, dll, ldd, windows",
     "web_url": "https://github.com/marcoesposito1988/dependency_runner",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dependency_runner.ps1",
     "extra_bins": "wldd.exe"
   },
   {
@@ -2338,7 +2338,7 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "dependencies, dependencies-checking, dll, ldd, windows",
     "web_url": "https://github.com/marcoesposito1988/dependency_runner",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dependency_runner.ps1",
     "extra_bins": "deprun.exe"
   },
   {
@@ -2356,12 +2356,12 @@
     "repo_updated": "2024-09-06T19:55:56Z",
     "repo_released": "2024-08-10T14:12:28Z",
     "repo_version": "v2.29.2",
-    "repo_stars": "3981",
+    "repo_stars": "3982",
     "repo_language": "Rust",
     "repo_license": "MIT License",
     "repo_topics": "cleaner, disk, efficient, fast, space-use, terminal-based",
     "web_url": "https://github.com/Byron/dua-cli",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dua.ps1",
     "extra_bins": ""
   },
   {
@@ -2384,7 +2384,7 @@
     "repo_license": "Other",
     "repo_topics": "cloud-disk, command-line, file-sharing, file-upload-server, rust, static-server, webdav, webdav-server",
     "web_url": "https://github.com/sigoden/dufs",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dufs.ps1",
     "extra_bins": ""
   },
   {
@@ -2402,12 +2402,12 @@
     "repo_updated": "2024-09-16T21:01:10Z",
     "repo_released": "2024-07-17T18:38:14Z",
     "repo_version": "v1.1.1",
-    "repo_stars": "8631",
+    "repo_stars": "8633",
     "repo_language": "Rust",
     "repo_license": "Apache License 2.0",
     "repo_topics": "",
     "web_url": "https://github.com/bootandy/dust",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dust.ps1",
     "extra_bins": ""
   },
   {
@@ -2430,7 +2430,7 @@
     "repo_license": "MIT License",
     "repo_topics": "command-line-tool, go, golang, installer, prebuilt-binaries",
     "web_url": "https://github.com/zyedidia/eget",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/eget.ps1",
     "extra_bins": ""
   },
   {
@@ -2444,7 +2444,7 @@
     "build_date": "2024-09-20T19:52:16",
     "repo_url": "",
     "web_url": "https://www.microsoft.com/en-us/download/details.aspx?id=100432",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/err.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/err.ps1",
     "extra_bins": ""
   },
   {
@@ -2462,12 +2462,12 @@
     "repo_updated": "2024-09-21T15:05:01Z",
     "repo_released": "2024-09-19T02:36:09Z",
     "repo_version": "2.25.0",
-    "repo_stars": "9747",
+    "repo_stars": "9751",
     "repo_language": "C",
     "repo_license": "MIT License",
     "repo_topics": "command-line, fastfetch, fetch, flashfetch, hacktoberfest, neofetch, terminal",
     "web_url": "https://github.com/fastfetch-cli/fastfetch",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/fastfetch.ps1",
     "extra_bins": "flashfetch.exe"
   },
   {
@@ -2485,12 +2485,12 @@
     "repo_updated": "2024-09-21T15:05:01Z",
     "repo_released": "2024-09-19T02:36:09Z",
     "repo_version": "2.25.0",
-    "repo_stars": "9747",
+    "repo_stars": "9751",
     "repo_language": "C",
     "repo_license": "MIT License",
     "repo_topics": "command-line, fastfetch, fetch, flashfetch, hacktoberfest, neofetch, terminal",
     "web_url": "https://github.com/fastfetch-cli/fastfetch",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/fastfetch.ps1",
     "extra_bins": "fastfetch.exe"
   },
   {
@@ -2504,7 +2504,7 @@
     "build_date": "2024-09-20T19:52:25",
     "repo_url": "",
     "web_url": "https://ffmpeg.org",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ffmpeg.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ffmpeg.ps1",
     "extra_bins": "ffprobe.exe"
   },
   {
@@ -2518,7 +2518,7 @@
     "build_date": "2024-09-20T19:52:31",
     "repo_url": "",
     "web_url": "https://ffmpeg.org",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ffmpeg.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ffmpeg.ps1",
     "extra_bins": "ffmpeg.exe"
   },
   {
@@ -2541,7 +2541,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1",
     "extra_bins": "find.exe,xargs-rs.exe,xargs.exe"
   },
   {
@@ -2564,7 +2564,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1",
     "extra_bins": "find-rs.exe,xargs-rs.exe,xargs.exe"
   },
   {
@@ -2587,7 +2587,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1",
     "extra_bins": "find-rs.exe,find.exe,xargs.exe"
   },
   {
@@ -2610,7 +2610,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1",
     "extra_bins": "find-rs.exe,find.exe,xargs-rs.exe"
   },
   {
@@ -2633,7 +2633,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, disk-usage, filesystem, golang, hacktoberfest",
     "web_url": "https://github.com/dundee/gdu",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/gdu.ps1",
     "extra_bins": ""
   },
   {
@@ -2647,7 +2647,7 @@
     "build_date": "2024-09-20T19:52:37",
     "repo_url": "",
     "web_url": "https://gitlab.com/shodan-public/geonet-rs",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/geonet.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/geonet.ps1",
     "extra_bins": "geoping.exe"
   },
   {
@@ -2661,7 +2661,7 @@
     "build_date": "2024-09-20T19:52:39",
     "repo_url": "",
     "web_url": "https://gitlab.com/shodan-public/geonet-rs",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/geonet.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/geonet.ps1",
     "extra_bins": "geodns.exe"
   },
   {
@@ -2684,7 +2684,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "blazingly-fast, built-with-rust, cli, git, version-control",
     "web_url": "https://github.com/Byron/gitoxide",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/gitoxide.ps1",
     "extra_bins": "gix.exe"
   },
   {
@@ -2707,7 +2707,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "blazingly-fast, built-with-rust, cli, git, version-control",
     "web_url": "https://github.com/Byron/gitoxide",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/gitoxide.ps1",
     "extra_bins": "ein.exe"
   },
   {
@@ -2730,7 +2730,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, command-line, command-line-tool, commandline-interface, hcloud, hetzner, hetzner-cloud",
     "web_url": "https://github.com/hetznercloud/cli",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/hcloud.ps1",
     "extra_bins": ""
   },
   {
@@ -2753,7 +2753,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "benchmark, cli, command-line, hacktoberfest, rust, terminal, tool",
     "web_url": "https://github.com/sharkdp/hyperfine",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/hyperfine.ps1",
     "extra_bins": ""
   },
   {
@@ -2767,7 +2767,7 @@
     "build_date": "2024-09-20T19:52:45",
     "repo_url": "",
     "web_url": "hhttps://github.com/Azathothas/Arsenal",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/inscope.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/inscope.ps1",
     "extra_bins": ""
   },
   {
@@ -2790,7 +2790,7 @@
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/iperf3.ps1",
     "extra_bins": ""
   },
   {
@@ -2808,12 +2808,12 @@
     "repo_updated": "2024-09-18T04:00:19Z",
     "repo_released": "2023-12-13T19:56:17Z",
     "repo_version": "jq-1.7.1",
-    "repo_stars": "30134",
+    "repo_stars": "30135",
     "repo_language": "C",
     "repo_license": "Other",
     "repo_topics": "jq",
     "web_url": "https://github.com/jqlang/jq",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/jq.ps1",
     "extra_bins": ""
   },
   {
@@ -2836,7 +2836,7 @@
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://github.com/Azathothas/jwt-cracker",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/jwt-cracker.ps1",
     "extra_bins": ""
   },
   {
@@ -2854,12 +2854,12 @@
     "repo_updated": "2024-08-21T12:24:49Z",
     "repo_released": "2024-05-28T12:43:51Z",
     "repo_version": "v0.9.0",
-    "repo_stars": "1392",
+    "repo_stars": "1394",
     "repo_language": "Rust",
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/evilsocket/legba",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/legba.ps1",
     "extra_bins": ""
   },
   {
@@ -2873,7 +2873,7 @@
     "build_date": "2024-09-20T19:52:54",
     "repo_url": "",
     "web_url": "https://localxpose.io/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/localxpose.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/localxpose.ps1",
     "extra_bins": "localexpose.exe"
   },
   {
@@ -2896,7 +2896,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "go, golang, log, logfile, logging, logs, react, reactjs, server, tail, tailing, webui",
     "web_url": "https://github.com/jdrews/logstation",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/logstation.ps1",
     "extra_bins": ""
   },
   {
@@ -2914,12 +2914,12 @@
     "repo_updated": "2024-09-21T00:20:16Z",
     "repo_released": "2024-08-27T18:13:07Z",
     "repo_version": "v2.0.14",
-    "repo_stars": "24873",
+    "repo_stars": "24874",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "command-line, cross-platform, editor, go, golang, micro, terminal, text-editor",
     "web_url": "https://github.com/zyedidia/micro",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/micro.ps1",
     "extra_bins": ""
   },
   {
@@ -2942,7 +2942,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, command-line, command-line-tool, http-server, serve, server, static-files",
     "web_url": "https://github.com/svenstaro/miniserve",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/miniserve.ps1",
     "extra_bins": ""
   },
   {
@@ -2965,7 +2965,7 @@
     "repo_license": "Creative Commons Zero v1.0 Universal",
     "repo_topics": "come-and-take-it, e-hoarding, its-mine, make-the-internet-great-again, no-more-404, procrastination, save-the-internet, tab-rehab",
     "web_url": "https://github.com/Y2Z/monolith",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/monolith.ps1",
     "extra_bins": ""
   },
   {
@@ -2979,7 +2979,7 @@
     "build_date": "2024-09-20T19:53:03",
     "repo_url": "",
     "web_url": "https://ngrok.com/",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ngrok.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ngrok.ps1",
     "extra_bins": ""
   },
   {
@@ -3002,7 +3002,7 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "",
     "web_url": "https://ooni.org",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ooniprobe.ps1",
     "extra_bins": "ooniprobe.exe"
   },
   {
@@ -3025,7 +3025,7 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "",
     "web_url": "https://ooni.org",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ooniprobe.ps1",
     "extra_bins": "miniooni.exe"
   },
   {
@@ -3043,12 +3043,12 @@
     "repo_updated": "2024-09-21T13:30:19Z",
     "repo_released": "2024-09-10T17:33:00Z",
     "repo_version": "3.4",
-    "repo_stars": "34042",
+    "repo_stars": "34043",
     "repo_language": "Haskell",
     "repo_license": "Other",
     "repo_topics": "commonmark, converter, document, haskell, markdown, markup, pandoc, presentation, publishing",
     "web_url": "https://github.com/jgm/pandoc",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pandoc.ps1",
     "extra_bins": ""
   },
   {
@@ -3071,7 +3071,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "go, golang, golang-library, pdf, pdf-files, pdf-lib, pdf-processor, pdflib, processor",
     "web_url": "https://github.com/pdfcpu/pdfcpu",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pdfcpu.ps1",
     "extra_bins": ""
   },
   {
@@ -3094,7 +3094,7 @@
     "repo_license": "MIT License",
     "repo_topics": "go, http, lsif-enabled, ngrok-alternative, oidc, pgrok, reverse-tunnel, ssh-tunnel, sso, tcp",
     "web_url": "https://github.com/pgrok/pgrok",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pgrok.ps1",
     "extra_bins": "pgrokd.exe"
   },
   {
@@ -3117,7 +3117,7 @@
     "repo_license": "MIT License",
     "repo_topics": "go, http, lsif-enabled, ngrok-alternative, oidc, pgrok, reverse-tunnel, ssh-tunnel, sso, tcp",
     "web_url": "https://github.com/pgrok/pgrok",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pgrok.ps1",
     "extra_bins": "pgrok.exe"
   },
   {
@@ -3135,12 +3135,12 @@
     "repo_updated": "2024-09-12T16:32:51Z",
     "repo_released": "2024-09-12T01:47:37Z",
     "repo_version": "1.43",
-    "repo_stars": "363",
+    "repo_stars": "364",
     "repo_language": "Go",
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "argon2, blake2b, cryptography, encryption, file-encryption, golang, password, portable, privacy, privacy-tools, reed-solomon, security, security-tools, serpent, sha3, xchacha20",
     "web_url": "https://github.com/Picocrypt/Picocrypt",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/picocrypt.ps1",
     "extra_bins": ""
   },
   {
@@ -3163,7 +3163,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, mullvad, rust",
     "web_url": "https://github.com/norskeld/pingmole",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pingmole.ps1",
     "extra_bins": ""
   },
   {
@@ -3186,7 +3186,7 @@
     "repo_license": "MIT License",
     "repo_topics": "bypass, docker, icmp, icmp-traffic, ping, pingtunnel, socks5, tcp, tcp-pingtunnel, traffic, tunnel, udp, udp-traffic, wifi",
     "web_url": "https://github.com/esrrhs/pingtunnel",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pingtunnel.ps1",
     "extra_bins": ""
   },
   {
@@ -3200,7 +3200,7 @@
     "build_date": "2024-09-20T19:53:33",
     "repo_url": "",
     "web_url": "hhttps://github.com/Azathothas/Arsenal",
-    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/quotes-escaper.yaml",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/quotes-escaper.ps1",
     "extra_bins": ""
   },
   {
@@ -3223,7 +3223,7 @@
     "repo_license": "The Unlicense",
     "repo_topics": "cli, command-line, command-line-tool, gitignore, grep, recursively-search, regex, ripgrep, rust, search",
     "web_url": "https://github.com/BurntSushi/ripgrep",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ripgrep.ps1",
     "extra_bins": "ripgrep.exe"
   },
   {
@@ -3246,7 +3246,7 @@
     "repo_license": "MIT License",
     "repo_topics": "bash, cli, docker, golang, http, proxy, server, shell",
     "web_url": "https://github.com/msoap/shell2http",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/shell2http.ps1",
     "extra_bins": ""
   },
   {
@@ -3264,12 +3264,12 @@
     "repo_updated": "2024-09-21T11:20:27Z",
     "repo_released": "2024-09-21T11:20:00Z",
     "repo_version": "v1.9.6",
-    "repo_stars": "18611",
+    "repo_stars": "18614",
     "repo_language": "Go",
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/SagerNet/sing-box",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/sing-box.ps1",
     "extra_bins": ""
   },
   {
@@ -3292,7 +3292,7 @@
     "repo_license": "MIT License",
     "repo_topics": "http, https, ngrok, serveo, ssh, tcp, tunnel, websockets",
     "web_url": "https://github.com/antoniomika/sish",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/sish.ps1",
     "extra_bins": ""
   },
   {
@@ -3315,7 +3315,7 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "dns, dns-over-h3, dns-over-https, dns-over-quic, dns-over-tls, dns-server, dnsmasq, doh, dot, linux, macos, pi-hole, rust, smartdns, smartdns-rs, trust-dns, trustdns, windows",
     "web_url": "https://github.com/mokeyish/smartdns-rs",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/smartdns-rs.ps1",
     "extra_bins": ""
   },
   {
@@ -3338,7 +3338,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "certificate, cryptography, encryption, jose, jwe, jws, jwt, mfa, oath, oauth, security, security-tools, ssh, sso, tls, totp, x509",
     "web_url": "https://github.com/smallstep/cli",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/step.ps1",
     "extra_bins": ""
   },
   {
@@ -3361,7 +3361,7 @@
     "repo_license": "Other",
     "repo_topics": "exploit, misconfiguration, security, stun, testing, tool, turn, webrtc",
     "web_url": "https://github.com/firefart/stunner",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/stunner.ps1",
     "extra_bins": ""
   },
   {
@@ -3384,7 +3384,7 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "",
     "web_url": "https://github.com/ztelliot/taierspeed-cli",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/taierspeed-cli.ps1",
     "extra_bins": ""
   },
   {
@@ -3407,7 +3407,7 @@
     "repo_license": "MIT License",
     "repo_topics": "openssh, openssh-client, rz, ssh, ssh-client, sz, tmux, trz, trzsz, tsz, zmodem",
     "web_url": "https://github.com/trzsz/trzsz-ssh",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/tssh.ps1",
     "extra_bins": ""
   },
   {
@@ -3430,7 +3430,7 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/tus/tusd",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/tusd.ps1",
     "extra_bins": ""
   },
   {
@@ -3453,7 +3453,7 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "hacktoberfest",
     "web_url": "https://github.com/rockdaboot/wget2",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/wget2.ps1",
     "extra_bins": ""
   },
   {
@@ -3471,12 +3471,12 @@
     "repo_updated": "2024-09-17T19:17:05Z",
     "repo_released": "2024-08-06T03:09:46Z",
     "repo_version": "2024.08.06",
-    "repo_stars": "82959",
+    "repo_stars": "82961",
     "repo_language": "Python",
     "repo_license": "The Unlicense",
     "repo_topics": "python, sponskrub, sponsorblock, video-downloader, youtube-dl, youtube-dlc, youtube-downloader, yt-dlp",
     "web_url": "https://github.com/yt-dlp/yt-dlp",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/yt-dlp.ps1",
     "extra_bins": ""
   },
   {
@@ -3499,7 +3499,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, find, sql",
     "web_url": "https://github.com/laktak/zfind",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/zfind.ps1",
     "extra_bins": ""
   }
 ]

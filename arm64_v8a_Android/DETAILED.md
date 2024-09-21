@@ -1,9 +1,11 @@
 ### act
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/act.sh
 - **Description:** Run your GitHub Actions locally
+- **Note:** 
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54053
+- **Stars:** 54054
 - **Version:** v0.2.67
 - **Updated:** 2024-09-19T21:36:11Z
 - **Size:** 19.31 MB
@@ -16,7 +18,9 @@
 ---
 
 ### actionlint
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/actionlint.sh
 - **Description:** Static checker for GitHub Actions workflow files
+- **Note:** 
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
@@ -33,7 +37,9 @@
 ---
 
 ### adig
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/adig.sh
 - **Description:** A command-line tool that allows you to perform DNS lookups from the command line
+- **Note:** 
 - **Author:** c-ares
 - **WebURL:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
 - **Repository:** [https://github.com/c-ares/c-ares](https://github.com/c-ares/c-ares)
@@ -50,7 +56,9 @@
 ---
 
 ### anew-rs
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh
 - **Description:** A fast, simple, recursive content discovery tool written in Rust.
+- **Note:** 
 - **Author:** zer0yu
 - **WebURL:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
 - **Repository:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
@@ -67,7 +75,9 @@
 ---
 
 ### axel
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/axel.sh
 - **Description:** A lightweight download accelerator
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/axel/axel](https://github.com/axel/axel)
 - **Repository:** [https://github.com/axel/axel](https://github.com/axel/axel)
@@ -84,7 +94,9 @@
 ---
 
 ### b3sum
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/b3sum.sh
 - **Description:** A command line utility for calculating BLAKE3 hashes
+- **Note:** 
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
@@ -101,7 +113,9 @@
 ---
 
 ### bash
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/bash.sh
 - **Description:** GNU Bourne-Again Shell, the de facto standard shell on Linux
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.bash.ws/](https://www.bash.ws/)
 - **Repository:** []()
@@ -118,7 +132,9 @@
 ---
 
 ### busybox
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh
 - **Description:** A Software Suite that provides Several Unix Utilities in a single Executable
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.busybox.net/](https://www.busybox.net/)
 - **Repository:** []()
@@ -135,7 +151,9 @@
 ---
 
 ### wget
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh
 - **Description:** A Software Suite that provides Several Unix Utilities in a single Executable
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.busybox.net/](https://www.busybox.net/)
 - **Repository:** []()
@@ -152,7 +170,9 @@
 ---
 
 ### xxd
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh
 - **Description:** A Software Suite that provides Several Unix Utilities in a single Executable
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.busybox.net/](https://www.busybox.net/)
 - **Repository:** []()
@@ -169,13 +189,15 @@
 ---
 
 ### curl
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
+- **Note:** 
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35437
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-21T10:21:27Z
+- **Updated:** 2024-09-21T15:57:52Z
 - **Size:** 5.36 MB
 - **SHA256SUM:** 3217a39fc258f3566a0afd959474b312b52ef77b8afbecb2887d57deed338a58
 - **B3SUM:** d9279776e9d8171e0192ae6f29b8be82cb0130b403dc9a20afb96bc220f4760f
@@ -186,13 +208,15 @@
 ---
 
 ### curl_cacert.pem
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
+- **Note:** 
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35437
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-21T10:21:27Z
+- **Updated:** 2024-09-21T15:57:52Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -203,7 +227,9 @@
 ---
 
 ### dbin
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/dbin.sh
 - **Description:** 📦 Poor mans package manager.
+- **Note:** 
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
 - **Repository:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
@@ -220,7 +246,9 @@
 ---
 
 ### jless
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/jless.sh
 - **Description:** command-line JSON viewer designed for reading, exploring, and searching through JSON data.
+- **Note:** 
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
@@ -237,7 +265,9 @@
 ---
 
 ### pingmole
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pingmole.sh
 - **Description:** CLI that helps to filter pingmole servers and pick the closest one.
+- **Note:** 
 - **Author:** norskeld
 - **WebURL:** [https://github.com/norskeld/pingmole](https://github.com/norskeld/pingmole)
 - **Repository:** [https://github.com/norskeld/pingmole](https://github.com/norskeld/pingmole)
@@ -254,7 +284,9 @@
 ---
 
 ### pspy
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pspy.sh
 - **Description:** Monitor linux processes without root permissions
+- **Note:** 
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
@@ -271,7 +303,9 @@
 ---
 
 ### rclone
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rclone.sh
 - **Description:** Rsync for cloud storage
+- **Note:** 
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
@@ -288,7 +322,9 @@
 ---
 
 ### rsync
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rsync.sh
 - **Description:** An open source utility that provides fast incremental file transfer.
+- **Note:** 
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
@@ -305,7 +341,9 @@
 ---
 
 ### sudo
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/sudo.sh
 - **Description:** Download with resuming and segmented downloading
+- **Note:** 
 - **Author:** agnostic-apollo
 - **WebURL:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
 - **Repository:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
@@ -322,7 +360,9 @@
 ---
 
 ### tailscale
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
+- **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
@@ -339,7 +379,9 @@
 ---
 
 ### tailscale_combined
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
+- **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
@@ -356,7 +398,9 @@
 ---
 
 ### tailscaled
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
+- **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
@@ -373,11 +417,13 @@
 ---
 
 ### vim
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/vim.sh
 - **Description:** Vi IMproved - enhanced vi editor
+- **Note:** 
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36124
+- **Stars:** 36125
 - **Version:** v9.1.0739
 - **Updated:** 2024-09-21T09:40:57Z
 - **Size:** 5.07 MB
@@ -390,7 +436,9 @@
 ---
 
 ### wget
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/wget.sh
 - **Description:** Tool for retrieving files using HTTP, HTTPS, and FTP
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/wget/](https://www.gnu.org/software/wget/)
 - **Repository:** []()
@@ -407,7 +455,9 @@
 ---
 
 ### wget_cacert.pem
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/wget.sh
 - **Description:** Tool for retrieving files using HTTP, HTTPS, and FTP
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.gnu.org/software/wget/](https://www.gnu.org/software/wget/)
 - **Repository:** []()
@@ -424,11 +474,13 @@
 ---
 
 ### zsh
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/zsh.sh
 - **Description:** Z Shell
+- **Note:** 
 - **Author:** zsh-users
 - **WebURL:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3603
+- **Stars:** 3604
 - **Version:** zsh-5.9
 - **Updated:** 2024-09-18T09:32:41Z
 - **Size:** 1.8 MB

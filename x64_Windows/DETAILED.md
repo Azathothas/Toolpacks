@@ -1,9 +1,11 @@
 ### 7z.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/7z.ps1
 - **Description:** file archiver with a high compression ratio.
+- **Note:** 
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 661
+- **Stars:** 660
 - **Version:** 24.08
 - **Updated:** 2024-08-12T11:51:02Z
 - **Size:** 1.32 MB
@@ -16,7 +18,9 @@
 ---
 
 ### actionlint.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/actionlint.ps1
 - **Description:** octocat  Static checker for GitHub Actions workflow files
+- **Note:** 
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
@@ -33,11 +37,13 @@
 ---
 
 ### age.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/age.ps1
 - **Description:** A simple, modern and secure encryption tool
+- **Note:** 
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 16925
+- **Stars:** 16926
 - **Version:** v1.2.0
 - **Updated:** 2024-08-21T10:37:07Z
 - **Size:** 3.88 MB
@@ -50,7 +56,9 @@
 ---
 
 ### algernon.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/algernon.ps1
 - **Description:** Small self-contained pure-Go web server with Lua, Teal, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support
+- **Note:** 
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
 - **Repository:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
@@ -67,11 +75,13 @@
 ---
 
 ### alist.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/alist.ps1
 - **Description:** A file list/WebDAV program that supports multiple storages
+- **Note:** 
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 42222
+- **Stars:** 42223
 - **Version:** v3.37.4
 - **Updated:** 2024-09-18T17:24:44Z
 - **Size:** 80.52 MB
@@ -84,7 +94,9 @@
 ---
 
 ### anew-rs.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/anew-rs.ps1
 - **Description:** An efficient way to filter duplicate lines from input, à la uniq.
+- **Note:** 
 - **Author:** zer0yu
 - **WebURL:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
 - **Repository:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
@@ -101,7 +113,9 @@
 ---
 
 ### anew.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/anew-rs.ps1
 - **Description:** An efficient way to filter duplicate lines from input, à la uniq.
+- **Note:** 
 - **Author:** zer0yu
 - **WebURL:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
 - **Repository:** [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
@@ -118,7 +132,9 @@
 ---
 
 ### b3sum.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/b3sum.ps1
 - **Description:** the official Rust and C implementations of the BLAKE3 cryptographic hash function
+- **Note:** 
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
@@ -135,7 +151,9 @@
 ---
 
 ### bat.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/batcat.ps1
 - **Description:** cat with colors & syntax highlights
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
@@ -152,7 +170,9 @@
 ---
 
 ### batcat.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/batcat.ps1
 - **Description:** cat with colors & syntax highlights
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
@@ -169,7 +189,9 @@
 ---
 
 ### botsay.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/botsay.ps1
 - **Description:** 🤖 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows
+- **Note:** 
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/botsay](https://github.com/xyproto/botsay)
 - **Repository:** [https://github.com/xyproto/botsay](https://github.com/xyproto/botsay)
@@ -186,7 +208,9 @@
 ---
 
 ### brook.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/brook.ps1
 - **Description:** A cross-platform programmable network tool
+- **Note:** 
 - **Author:** txthinking
 - **WebURL:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
 - **Repository:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
@@ -203,7 +227,9 @@
 ---
 
 ### brutespray.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/brutespray.ps1
 - **Description:** Command-line JSON processor
+- **Note:** 
 - **Author:** x90skysn3k
 - **WebURL:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
 - **Repository:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
@@ -220,7 +246,9 @@
 ---
 
 ### busybox-unicode.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/busybox.ps1
 - **Description:** single binary that contains many common Unix tools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://frippery.org/busybox/](https://frippery.org/busybox/)
 - **Repository:** []()
@@ -237,7 +265,9 @@
 ---
 
 ### busybox.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/busybox.ps1
 - **Description:** single binary that contains many common Unix tools
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://frippery.org/busybox/](https://frippery.org/busybox/)
 - **Repository:** []()
@@ -254,7 +284,9 @@
 ---
 
 ### cheat.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/cheat.ps1
 - **Description:** create and view interactive cheatsheets on the command-line
+- **Note:** 
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
@@ -271,13 +303,15 @@
 ---
 
 ### cloudflared.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/cloudflared.ps1
 - **Description:** Cloudflare Tunnel client (formerly Argo Tunnel)
+- **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Stars:** 8870
 - **Version:** 2024.9.1
-- **Updated:** 2024-09-20T01:52:46Z
+- **Updated:** 2024-09-21T17:18:55Z
 - **Size:** 26.84 MB
 - **SHA256SUM:** 4948c958dadc91d9d976b386479ecaf142bc7362c930fbb4606300a78b92f2af
 - **B3SUM:** 4aec450df402514e5f9e8db5963485a5dbf2c102dfaa1fe953b0eb949c8d7aca
@@ -288,7 +322,9 @@
 ---
 
 ### arch.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -305,7 +341,9 @@
 ---
 
 ### base32.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -322,7 +360,9 @@
 ---
 
 ### base64.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -339,7 +379,9 @@
 ---
 
 ### basename.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -356,7 +398,9 @@
 ---
 
 ### basenc.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -373,7 +417,9 @@
 ---
 
 ### cat.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -390,7 +436,9 @@
 ---
 
 ### cksum.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -407,7 +455,9 @@
 ---
 
 ### comm.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -424,7 +474,9 @@
 ---
 
 ### coreutils-rs.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -441,7 +493,9 @@
 ---
 
 ### coreutils.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -458,7 +512,9 @@
 ---
 
 ### cp.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -475,7 +531,9 @@
 ---
 
 ### csplit.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -492,7 +550,9 @@
 ---
 
 ### cut.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -509,7 +569,9 @@
 ---
 
 ### date.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -526,7 +588,9 @@
 ---
 
 ### dd.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -543,7 +607,9 @@
 ---
 
 ### df.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -560,7 +626,9 @@
 ---
 
 ### dir.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -577,7 +645,9 @@
 ---
 
 ### dircolors.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -594,7 +664,9 @@
 ---
 
 ### dirname.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -611,7 +683,9 @@
 ---
 
 ### du.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -628,7 +702,9 @@
 ---
 
 ### echo.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -645,7 +721,9 @@
 ---
 
 ### env.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -662,7 +740,9 @@
 ---
 
 ### expand.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -679,7 +759,9 @@
 ---
 
 ### expr.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -696,7 +778,9 @@
 ---
 
 ### factor.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -713,7 +797,9 @@
 ---
 
 ### false.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -730,7 +816,9 @@
 ---
 
 ### fmt.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -747,7 +835,9 @@
 ---
 
 ### fold.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -764,7 +854,9 @@
 ---
 
 ### hashsum.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -781,7 +873,9 @@
 ---
 
 ### head.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -798,7 +892,9 @@
 ---
 
 ### hostname.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -815,7 +911,9 @@
 ---
 
 ### join.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -832,7 +930,9 @@
 ---
 
 ### link.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -849,7 +949,9 @@
 ---
 
 ### ln.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -866,7 +968,9 @@
 ---
 
 ### ls.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -883,7 +987,9 @@
 ---
 
 ### mkdir.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -900,7 +1006,9 @@
 ---
 
 ### mktemp.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -917,7 +1025,9 @@
 ---
 
 ### more.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -934,7 +1044,9 @@
 ---
 
 ### mv.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -951,7 +1063,9 @@
 ---
 
 ### nl.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -968,7 +1082,9 @@
 ---
 
 ### nproc.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -985,7 +1101,9 @@
 ---
 
 ### numfmt.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1002,7 +1120,9 @@
 ---
 
 ### od.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1019,7 +1139,9 @@
 ---
 
 ### paste.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1036,7 +1158,9 @@
 ---
 
 ### pr.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1053,7 +1177,9 @@
 ---
 
 ### printenv.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1070,7 +1196,9 @@
 ---
 
 ### printf.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1087,7 +1215,9 @@
 ---
 
 ### ptx.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1104,7 +1234,9 @@
 ---
 
 ### pwd.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1121,7 +1253,9 @@
 ---
 
 ### readlink.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1138,7 +1272,9 @@
 ---
 
 ### realpath.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1155,7 +1291,9 @@
 ---
 
 ### rm.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1172,7 +1310,9 @@
 ---
 
 ### rmdir.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1189,7 +1329,9 @@
 ---
 
 ### seq.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1206,7 +1348,9 @@
 ---
 
 ### shred.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1223,7 +1367,9 @@
 ---
 
 ### shuf.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1240,7 +1386,9 @@
 ---
 
 ### sleep.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1257,7 +1405,9 @@
 ---
 
 ### sort.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1274,7 +1424,9 @@
 ---
 
 ### split.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1291,7 +1443,9 @@
 ---
 
 ### sum.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1308,7 +1462,9 @@
 ---
 
 ### sync.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1325,7 +1481,9 @@
 ---
 
 ### tac.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1342,7 +1500,9 @@
 ---
 
 ### tail.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1359,7 +1519,9 @@
 ---
 
 ### tee.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1376,7 +1538,9 @@
 ---
 
 ### test.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1393,7 +1557,9 @@
 ---
 
 ### touch.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1410,7 +1576,9 @@
 ---
 
 ### tr.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1427,7 +1595,9 @@
 ---
 
 ### true.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1444,7 +1614,9 @@
 ---
 
 ### truncate.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1461,7 +1633,9 @@
 ---
 
 ### tsort.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1478,7 +1652,9 @@
 ---
 
 ### uname.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1495,7 +1671,9 @@
 ---
 
 ### unexpand.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1512,7 +1690,9 @@
 ---
 
 ### uniq.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1529,7 +1709,9 @@
 ---
 
 ### unlink.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1546,7 +1728,9 @@
 ---
 
 ### vdir.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1563,7 +1747,9 @@
 ---
 
 ### wc.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1580,7 +1766,9 @@
 ---
 
 ### whoami.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1597,7 +1785,9 @@
 ---
 
 ### yes.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/coreutils_uutils.ps1
 - **Description:** Cross-platform Rust rewrite of the GNU coreutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - **Repository:** [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
@@ -1614,7 +1804,9 @@
 ---
 
 ### croc.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/croc.ps1
 - **Description:** Easily and securely send things from one computer to another 🐊 📦
+- **Note:** 
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
@@ -1631,7 +1823,9 @@
 ---
 
 ### curl.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/curl.ps1
 - **Description:** 
+- **Note:** 
 - **Author:** stunnel
 - **WebURL:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
 - **Repository:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
@@ -1648,7 +1842,9 @@
 ---
 
 ### trurl.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/curl.ps1
 - **Description:** 
+- **Note:** 
 - **Author:** stunnel
 - **WebURL:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
 - **Repository:** [https://github.com/stunnel/static-curl](https://github.com/stunnel/static-curl)
@@ -1665,7 +1861,9 @@
 ---
 
 ### cutlines.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/cutlines.ps1
 - **Description:** Cut & Paste Lines (from|to) file without $TEMPFILE even if another process is writing to it
+- **Note:** 
 - **Author:** 
 - **WebURL:** [hhttps://github.com/Azathothas/Arsenal](hhttps://github.com/Azathothas/Arsenal)
 - **Repository:** []()
@@ -1682,7 +1880,9 @@
 ---
 
 ### dbbench.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dbbench.ps1
 - **Description:** a simple database benchmarking tool which supports several databases and own scripts
+- **Note:** 
 - **Author:** sj14
 - **WebURL:** [https://github.com/sj14/dbbench](https://github.com/sj14/dbbench)
 - **Repository:** [https://github.com/sj14/dbbench](https://github.com/sj14/dbbench)
@@ -1699,7 +1899,9 @@
 ---
 
 ### ddns-go.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ddns-go.ps1
 - **Description:** Simple and easy to use DDNS
+- **Note:** 
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
@@ -1716,7 +1918,9 @@
 ---
 
 ### deprun.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dependency_runner.ps1
 - **Description:** ldd for Windows - and more!
+- **Note:** 
 - **Author:** marcoesposito1988
 - **WebURL:** [https://github.com/marcoesposito1988/dependency_runner](https://github.com/marcoesposito1988/dependency_runner)
 - **Repository:** [https://github.com/marcoesposito1988/dependency_runner](https://github.com/marcoesposito1988/dependency_runner)
@@ -1733,7 +1937,9 @@
 ---
 
 ### wldd.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dependency_runner.ps1
 - **Description:** ldd for Windows - and more!
+- **Note:** 
 - **Author:** marcoesposito1988
 - **WebURL:** [https://github.com/marcoesposito1988/dependency_runner](https://github.com/marcoesposito1988/dependency_runner)
 - **Repository:** [https://github.com/marcoesposito1988/dependency_runner](https://github.com/marcoesposito1988/dependency_runner)
@@ -1750,11 +1956,13 @@
 ---
 
 ### dua.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dua.ps1
 - **Description:** (du) View disk space usage and delete unwanted data, fast.
+- **Note:** 
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
 - **Repository:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
-- **Stars:** 3981
+- **Stars:** 3982
 - **Version:** v2.29.2
 - **Updated:** 2024-09-06T19:55:56Z
 - **Size:** 1.66 MB
@@ -1767,7 +1975,9 @@
 ---
 
 ### dufs.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dufs.ps1
 - **Description:** A file server that supports static serving, uploading, searching, accessing control, webdav
+- **Note:** 
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
@@ -1784,11 +1994,13 @@
 ---
 
 ### dust.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/dust.ps1
 - **Description:** A more intuitive version of du in rust
+- **Note:** 
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8631
+- **Stars:** 8633
 - **Version:** v1.1.1
 - **Updated:** 2024-09-16T21:01:10Z
 - **Size:** 2.77 MB
@@ -1801,7 +2013,9 @@
 ---
 
 ### eget.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/eget.ps1
 - **Description:** Easily install prebuilt binaries from GitHub.
+- **Note:** 
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
 - **Repository:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
@@ -1818,7 +2032,9 @@
 ---
 
 ### err.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/err.ps1
 - **Description:** The Error Lookup Tool, also known as ERR, is a command-line tool to decode many Microsoft error codes. It does not require elevation and is very easy to use.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://www.microsoft.com/en-us/download/details.aspx?id=100432](https://www.microsoft.com/en-us/download/details.aspx?id=100432)
 - **Repository:** []()
@@ -1835,11 +2051,13 @@
 ---
 
 ### fastfetch.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/fastfetch.ps1
 - **Description:** Like neofetch, but much faster because written in C.
+- **Note:** 
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 9747
+- **Stars:** 9751
 - **Version:** 2.25.0
 - **Updated:** 2024-09-21T15:05:01Z
 - **Size:** 1.52 MB
@@ -1852,11 +2070,13 @@
 ---
 
 ### flashfetch.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/fastfetch.ps1
 - **Description:** Like neofetch, but much faster because written in C.
+- **Note:** 
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 9747
+- **Stars:** 9751
 - **Version:** 2.25.0
 - **Updated:** 2024-09-21T15:05:01Z
 - **Size:** 1.37 MB
@@ -1869,7 +2089,9 @@
 ---
 
 ### ffmpeg.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ffmpeg.ps1
 - **Description:** A complete, cross-platform solution to record, convert and stream audio and video.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://ffmpeg.org](https://ffmpeg.org)
 - **Repository:** []()
@@ -1886,7 +2108,9 @@
 ---
 
 ### ffprobe.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ffmpeg.ps1
 - **Description:** A complete, cross-platform solution to record, convert and stream audio and video.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://ffmpeg.org](https://ffmpeg.org)
 - **Repository:** []()
@@ -1903,7 +2127,9 @@
 ---
 
 ### find-rs.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1
 - **Description:** Rust implementation of findutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
@@ -1920,7 +2146,9 @@
 ---
 
 ### find.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1
 - **Description:** Rust implementation of findutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
@@ -1937,7 +2165,9 @@
 ---
 
 ### xargs-rs.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1
 - **Description:** Rust implementation of findutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
@@ -1954,7 +2184,9 @@
 ---
 
 ### xargs.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/findutils_uutils.ps1
 - **Description:** Rust implementation of findutils
+- **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
@@ -1971,7 +2203,9 @@
 ---
 
 ### gdu.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/gdu.ps1
 - **Description:** (ncdu) Fast disk usage analyzer with console interface written in Go
+- **Note:** 
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
@@ -1988,7 +2222,9 @@
 ---
 
 ### geodns.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/geonet.ps1
 - **Description:** Network tools that run from multiple geographic locations using the GeoNet API.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.com/shodan-public/geonet-rs](https://gitlab.com/shodan-public/geonet-rs)
 - **Repository:** []()
@@ -2005,7 +2241,9 @@
 ---
 
 ### geoping.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/geonet.ps1
 - **Description:** Network tools that run from multiple geographic locations using the GeoNet API.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://gitlab.com/shodan-public/geonet-rs](https://gitlab.com/shodan-public/geonet-rs)
 - **Repository:** []()
@@ -2022,7 +2260,9 @@
 ---
 
 ### ein.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/gitoxide.ps1
 - **Description:** file archiver with a high compression ratio.
+- **Note:** 
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
@@ -2039,7 +2279,9 @@
 ---
 
 ### gix.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/gitoxide.ps1
 - **Description:** file archiver with a high compression ratio.
+- **Note:** 
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
@@ -2056,7 +2298,9 @@
 ---
 
 ### hcloud.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/hcloud.ps1
 - **Description:** A command-line interface for Hetzner Cloud
+- **Note:** 
 - **Author:** hetznercloud
 - **WebURL:** [https://github.com/hetznercloud/cli](https://github.com/hetznercloud/cli)
 - **Repository:** [https://github.com/hetznercloud/cli](https://github.com/hetznercloud/cli)
@@ -2073,7 +2317,9 @@
 ---
 
 ### hyperfine.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/hyperfine.ps1
 - **Description:** A command-line benchmarking tool
+- **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
@@ -2090,7 +2336,9 @@
 ---
 
 ### inscope.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/inscope.ps1
 - **Description:** filtering URLs and domains supplied on stdin to make sure they meet one of a set of regular expressions
+- **Note:** 
 - **Author:** 
 - **WebURL:** [hhttps://github.com/Azathothas/Arsenal](hhttps://github.com/Azathothas/Arsenal)
 - **Repository:** []()
@@ -2107,7 +2355,9 @@
 ---
 
 ### iperf3.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/iperf3.ps1
 - **Description:** Command-line JSON processor
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static](https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static)
 - **Repository:** [https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static](https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static)
@@ -2124,11 +2374,13 @@
 ---
 
 ### jq.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/jq.ps1
 - **Description:** Command-line JSON processor
+- **Note:** 
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 30134
+- **Stars:** 30135
 - **Version:** jq-1.7.1
 - **Updated:** 2024-09-18T04:00:19Z
 - **Size:** 985.09 kB
@@ -2141,7 +2393,9 @@
 ---
 
 ### jwt-cracker.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/jwt-cracker.ps1
 - **Description:** Faster & Better Cross Platform JWT Cracker
+- **Note:** 
 - **Author:** Azathothas
 - **WebURL:** [https://github.com/Azathothas/jwt-cracker](https://github.com/Azathothas/jwt-cracker)
 - **Repository:** [https://github.com/Azathothas/jwt-cracker](https://github.com/Azathothas/jwt-cracker)
@@ -2158,11 +2412,13 @@
 ---
 
 ### legba.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/legba.ps1
 - **Description:** A multiprotocol credentials bruteforcer / password sprayer and enumerator. 🥷
+- **Note:** 
 - **Author:** evilsocket
 - **WebURL:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
 - **Repository:** [https://github.com/evilsocket/legba](https://github.com/evilsocket/legba)
-- **Stars:** 1392
+- **Stars:** 1394
 - **Version:** v0.9.0
 - **Updated:** 2024-08-21T12:24:49Z
 - **Size:** 21.85 MB
@@ -2175,7 +2431,9 @@
 ---
 
 ### loclx.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/localxpose.ps1
 - **Description:** reverse proxy that enables you to expose your localhost to the internet.
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://localxpose.io/](https://localxpose.io/)
 - **Repository:** []()
@@ -2192,7 +2450,9 @@
 ---
 
 ### logstation.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/logstation.ps1
 - **Description:** Tail log files in web browser
+- **Note:** 
 - **Author:** jdrews
 - **WebURL:** [https://github.com/jdrews/logstation](https://github.com/jdrews/logstation)
 - **Repository:** [https://github.com/jdrews/logstation](https://github.com/jdrews/logstation)
@@ -2209,11 +2469,13 @@
 ---
 
 ### micro.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/micro.ps1
 - **Description:** A modern and intuitive terminal-based text editor
+- **Note:** 
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24873
+- **Stars:** 24874
 - **Version:** v2.0.14
 - **Updated:** 2024-09-21T00:20:16Z
 - **Size:** 11.88 MB
@@ -2226,7 +2488,9 @@
 ---
 
 ### miniserve.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/miniserve.ps1
 - **Description:** Http Server
+- **Note:** 
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - **Repository:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
@@ -2243,7 +2507,9 @@
 ---
 
 ### monolith.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/monolith.ps1
 - **Description:** ⬛️ CLI tool for saving complete web pages as a single HTML file
+- **Note:** 
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
@@ -2260,7 +2526,9 @@
 ---
 
 ### ngrok.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ngrok.ps1
 - **Description:** External Tunnel to Internal Assets
+- **Note:** 
 - **Author:** 
 - **WebURL:** [https://ngrok.com/](https://ngrok.com/)
 - **Repository:** []()
@@ -2277,7 +2545,9 @@
 ---
 
 ### miniooni.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ooniprobe.ps1
 - **Description:** OONI Probe Engine and CLI
+- **Note:** 
 - **Author:** ooni
 - **WebURL:** [https://ooni.org](https://ooni.org)
 - **Repository:** [https://github.com/ooni/probe-cli](https://github.com/ooni/probe-cli)
@@ -2294,7 +2564,9 @@
 ---
 
 ### ooniprobe.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ooniprobe.ps1
 - **Description:** OONI Probe Engine and CLI
+- **Note:** 
 - **Author:** ooni
 - **WebURL:** [https://ooni.org](https://ooni.org)
 - **Repository:** [https://github.com/ooni/probe-cli](https://github.com/ooni/probe-cli)
@@ -2311,11 +2583,13 @@
 ---
 
 ### pandoc.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pandoc.ps1
 - **Description:** Universal markup converter
+- **Note:** 
 - **Author:** jgm
 - **WebURL:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-- **Stars:** 34042
+- **Stars:** 34043
 - **Version:** 3.4
 - **Updated:** 2024-09-21T13:30:19Z
 - **Size:** 156.77 MB
@@ -2328,7 +2602,9 @@
 ---
 
 ### pdfcpu.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pdfcpu.ps1
 - **Description:** PDF processor
+- **Note:** 
 - **Author:** pdfcpu
 - **WebURL:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
 - **Repository:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
@@ -2345,7 +2621,9 @@
 ---
 
 ### pgrok.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pgrok.ps1
 - **Description:** multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
+- **Note:** 
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
@@ -2362,7 +2640,9 @@
 ---
 
 ### pgrokd.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pgrok.ps1
 - **Description:** multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
+- **Note:** 
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
@@ -2379,11 +2659,13 @@
 ---
 
 ### picocrypt-gui.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/picocrypt.ps1
 - **Description:** A very small, very simple, yet very secure encryption tool
+- **Note:** 
 - **Author:** Picocrypt
 - **WebURL:** [https://github.com/Picocrypt/Picocrypt](https://github.com/Picocrypt/Picocrypt)
 - **Repository:** [https://github.com/Picocrypt/Picocrypt](https://github.com/Picocrypt/Picocrypt)
-- **Stars:** 363
+- **Stars:** 364
 - **Version:** 1.43
 - **Updated:** 2024-09-12T16:32:51Z
 - **Size:** 8.48 MB
@@ -2396,7 +2678,9 @@
 ---
 
 ### pingmole.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pingmole.ps1
 - **Description:** CLI that helps to filter pingmole servers and pick the closest one.
+- **Note:** 
 - **Author:** norskeld
 - **WebURL:** [https://github.com/norskeld/pingmole](https://github.com/norskeld/pingmole)
 - **Repository:** [https://github.com/norskeld/pingmole](https://github.com/norskeld/pingmole)
@@ -2413,7 +2697,9 @@
 ---
 
 ### pingtunnel.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/pingtunnel.ps1
 - **Description:** Pingtunnel is a tool that send TCP/UDP traffic over ICMP
+- **Note:** 
 - **Author:** esrrhs
 - **WebURL:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
 - **Repository:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
@@ -2430,7 +2716,9 @@
 ---
 
 ### quotes-escaper.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/quotes-escaper.ps1
 - **Description:** Escape Single | Double Quotes
+- **Note:** 
 - **Author:** 
 - **WebURL:** [hhttps://github.com/Azathothas/Arsenal](hhttps://github.com/Azathothas/Arsenal)
 - **Repository:** []()
@@ -2447,7 +2735,9 @@
 ---
 
 ### rg.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/ripgrep.ps1
 - **Description:** rust-grep
+- **Note:** 
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
@@ -2464,7 +2754,9 @@
 ---
 
 ### shell2http.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/shell2http.ps1
 - **Description:** Executing shell commands via HTTP server
+- **Note:** 
 - **Author:** msoap
 - **WebURL:** [https://github.com/msoap/shell2http](https://github.com/msoap/shell2http)
 - **Repository:** [https://github.com/msoap/shell2http](https://github.com/msoap/shell2http)
@@ -2481,11 +2773,13 @@
 ---
 
 ### sing-box.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/sing-box.ps1
 - **Description:** The universal proxy platform
+- **Note:** 
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 18611
+- **Stars:** 18614
 - **Version:** v1.9.6
 - **Updated:** 2024-09-21T11:20:27Z
 - **Size:** 31.21 MB
@@ -2498,7 +2792,9 @@
 ---
 
 ### sish.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/sish.ps1
 - **Description:** HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.
+- **Note:** 
 - **Author:** antoniomika
 - **WebURL:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
 - **Repository:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
@@ -2515,7 +2811,9 @@
 ---
 
 ### smartdns-rs.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/smartdns-rs.ps1
 - **Description:** local DNS server (Dnsmasq like) written in rust to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.
+- **Note:** 
 - **Author:** mokeyish
 - **WebURL:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
 - **Repository:** [https://github.com/mokeyish/smartdns-rs](https://github.com/mokeyish/smartdns-rs)
@@ -2532,7 +2830,9 @@
 ---
 
 ### step.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/step.ps1
 - **Description:** 🧰 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.
+- **Note:** 
 - **Author:** smallstep
 - **WebURL:** [https://github.com/smallstep/cli](https://github.com/smallstep/cli)
 - **Repository:** [https://github.com/smallstep/cli](https://github.com/smallstep/cli)
@@ -2549,7 +2849,9 @@
 ---
 
 ### stunner.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/stunner.ps1
 - **Description:** tool to test and exploit STUN, TURN and TURN over TCP servers.
+- **Note:** 
 - **Author:** firefart
 - **WebURL:** [https://github.com/firefart/stunner](https://github.com/firefart/stunner)
 - **Repository:** [https://github.com/firefart/stunner](https://github.com/firefart/stunner)
@@ -2566,7 +2868,9 @@
 ---
 
 ### taierspeed-cli.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/taierspeed-cli.ps1
 - **Description:** Speedtest cli for Tel Speed Test
+- **Note:** 
 - **Author:** ztelliot
 - **WebURL:** [https://github.com/ztelliot/taierspeed-cli](https://github.com/ztelliot/taierspeed-cli)
 - **Repository:** [https://github.com/ztelliot/taierspeed-cli](https://github.com/ztelliot/taierspeed-cli)
@@ -2583,7 +2887,9 @@
 ---
 
 ### tssh.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/tssh.ps1
 - **Description:** an alternative to ssh client, offers additional useful features, such as login prompt, trzsz ( trz / tsz ), batch login, remember password, zmodem ( rz / sz ), etc.
+- **Note:** 
 - **Author:** trzsz
 - **WebURL:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
 - **Repository:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
@@ -2600,7 +2906,9 @@
 ---
 
 ### tusd.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/tusd.ps1
 - **Description:** Server for tus, the open protocol for resumable file uploads
+- **Note:** 
 - **Author:** tus
 - **WebURL:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
 - **Repository:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
@@ -2617,7 +2925,9 @@
 ---
 
 ### wget2.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/wget2.ps1
 - **Description:** The successor of GNU Wget.
+- **Note:** 
 - **Author:** rockdaboot
 - **WebURL:** [https://github.com/rockdaboot/wget2](https://github.com/rockdaboot/wget2)
 - **Repository:** [https://github.com/rockdaboot/wget2](https://github.com/rockdaboot/wget2)
@@ -2634,11 +2944,13 @@
 ---
 
 ### yt-dlp.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/yt-dlp.ps1
 - **Description:** A feature-rich command-line audio/video downloader
+- **Note:** 
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 82959
+- **Stars:** 82961
 - **Version:** 2024.08.06
 - **Updated:** 2024-09-17T19:17:05Z
 - **Size:** 180.22 kB
@@ -2651,7 +2963,9 @@
 ---
 
 ### zfind.exe
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x64_Windows/bins/zfind.ps1
 - **Description:** Search for files (even inside tar/zip/7z/rar) using a SQL-WHERE filter
+- **Note:** 
 - **Author:** laktak
 - **WebURL:** [https://github.com/laktak/zfind](https://github.com/laktak/zfind)
 - **Repository:** [https://github.com/laktak/zfind](https://github.com/laktak/zfind)

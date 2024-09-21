@@ -14,12 +14,12 @@
     "repo_updated": "2024-09-19T21:36:11Z",
     "repo_released": "2024-09-10T18:21:52Z",
     "repo_version": "v0.2.67",
-    "repo_stars": "54053",
+    "repo_stars": "54054",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "ci, devops, github-actions, golang",
     "web_url": "https://github.com/nektos/act",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/act.sh",
     "extra_bins": ""
   },
   {
@@ -42,7 +42,7 @@
     "repo_license": "MIT License",
     "repo_topics": "actions, ci, github-actions, lint, linter",
     "web_url": "https://github.com/rhysd/actionlint",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/actionlint.sh",
     "extra_bins": ""
   },
   {
@@ -65,7 +65,7 @@
     "repo_license": "MIT License",
     "repo_topics": "async, c, dns, dns-queries, library, resolver",
     "web_url": "https://github.com/c-ares/c-ares",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/adig.sh",
     "extra_bins": ""
   },
   {
@@ -88,7 +88,7 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/zer0yu/anew",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh",
     "extra_bins": ""
   },
   {
@@ -111,7 +111,7 @@
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://github.com/axel/axel",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/axel.sh",
     "extra_bins": ""
   },
   {
@@ -134,7 +134,7 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "",
     "web_url": "https://github.com/BLAKE3-team/BLAKE3",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/b3sum.sh",
     "extra_bins": ""
   },
   {
@@ -213,7 +213,7 @@
     "repo_license": "Other",
     "repo_topics": "c, client, curl, ftp, gopher, hacktoberfest, http, https, imaps, ldap, libcurl, library, mqtt, pop3, scp, sftp, transfer-data, transferring-data, user-agent, websocket",
     "web_url": "https://github.com/curl/curl",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh",
     "extra_bins": "curl_cacert.pem"
   },
   {
@@ -236,7 +236,7 @@
     "repo_license": "Other",
     "repo_topics": "c, client, curl, ftp, gopher, hacktoberfest, http, https, imaps, ldap, libcurl, library, mqtt, pop3, scp, sftp, transfer-data, transferring-data, user-agent, websocket",
     "web_url": "https://github.com/curl/curl",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh",
     "extra_bins": "curl"
   },
   {
@@ -259,7 +259,7 @@
     "repo_license": "Other",
     "repo_topics": "binary-manager, cli, cool, dependency-checker, fast, go, no-config, no-install, package-management, package-manager, package-manager-tool, portable, portable-package-manager, runner, standalone, static, suckless",
     "web_url": "https://github.com/xplshn/dbin",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/dbin.sh",
     "extra_bins": ""
   },
   {
@@ -282,7 +282,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, json, rust",
     "web_url": "https://github.com/PaulJuliusMartinez/jless",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/jless.sh",
     "extra_bins": ""
   },
   {
@@ -305,7 +305,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, mullvad, rust",
     "web_url": "https://github.com/norskeld/pingmole",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pingmole.sh",
     "extra_bins": ""
   },
   {
@@ -328,7 +328,7 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "ctf, enumeration, golang, pentesting, privesc, security",
     "web_url": "https://github.com/DominicBreuker/pspy",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pspy.sh",
     "extra_bins": ""
   },
   {
@@ -351,7 +351,7 @@
     "repo_license": "MIT License",
     "repo_topics": "azure-blob, azure-blob-storage, azure-files, backblaze-b2, cloud-storage, dropbox, encryption, ftp, fuse-filesystem, go, golang, google-cloud-storage, google-drive, onedrive, openstack-swift, rclone, s3, sftp, sync, webdav",
     "web_url": "https://github.com/rclone/rclone",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rclone.sh",
     "extra_bins": ""
   },
   {
@@ -374,7 +374,7 @@
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/WayneD/rsync",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rsync.sh",
     "extra_bins": "rsync-ssl"
   },
   {
@@ -397,7 +397,7 @@
     "repo_license": "MIT License",
     "repo_topics": "bash, tasker, termux, termux-tasker",
     "web_url": "https://github.com/agnostic-apollo/sudo",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/sudo.sh",
     "extra_bins": ""
   },
   {
@@ -415,12 +415,12 @@
     "repo_updated": "2024-09-20T23:30:33Z",
     "repo_released": "2024-09-18T19:27:02Z",
     "repo_version": "v1.74.1",
-    "repo_stars": "18661",
+    "repo_stars": "18660",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh",
     "extra_bins": "tailscale_combined,tailscaled"
   },
   {
@@ -438,12 +438,12 @@
     "repo_updated": "2024-09-20T23:30:33Z",
     "repo_released": "2024-09-18T19:27:02Z",
     "repo_version": "v1.74.1",
-    "repo_stars": "18661",
+    "repo_stars": "18660",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh",
     "extra_bins": "tailscale,tailscaled"
   },
   {
@@ -461,12 +461,12 @@
     "repo_updated": "2024-09-20T23:30:33Z",
     "repo_released": "2024-09-18T19:27:02Z",
     "repo_version": "v1.74.1",
-    "repo_stars": "18661",
+    "repo_stars": "18660",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh",
     "extra_bins": "tailscale,tailscale_combined"
   },
   {
@@ -484,12 +484,12 @@
     "repo_updated": "2024-09-21T09:40:57Z",
     "repo_released": "",
     "repo_version": "v9.1.0739",
-    "repo_stars": "36124",
+    "repo_stars": "36125",
     "repo_language": "Vim Script",
     "repo_license": "Vim License",
     "repo_topics": "c, cross-platform, text-editor, vim",
     "web_url": "https://github.com/vim/vim",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/vim.sh",
     "extra_bins": ""
   },
   {
@@ -535,12 +535,12 @@
     "repo_updated": "2024-09-18T09:32:41Z",
     "repo_released": "",
     "repo_version": "zsh-5.9",
-    "repo_stars": "3603",
+    "repo_stars": "3604",
     "repo_language": "C",
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/zsh-users/zsh",
-    "build_url": "",
+    "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/zsh.sh",
     "extra_bins": ""
   }
 ]
