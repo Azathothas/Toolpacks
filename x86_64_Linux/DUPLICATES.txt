@@ -426,6 +426,19 @@ REPO: https://github.com/gitpod-io/gitpod
 Web URL: https://github.com/gitpod-io/gitpod
 
 ---------------------
+Name: nvme
+DESCR: NVMe management command line interface.
+Download URL: https://bin.ajam.dev/x86_64_Linux/nvme
+REPO: https://github.com/linux-nvme/nvme-cli
+Web URL: https://github.com/linux-nvme/nvme-cli
+
+Name: nvme-cli
+DESCR: NVMe management command line interface.
+Download URL: https://bin.ajam.dev/x86_64_Linux/nvme-cli
+REPO: https://github.com/linux-nvme/nvme-cli
+Web URL: https://github.com/linux-nvme/nvme-cli
+
+---------------------
 Name: fd
 DESCR: A simple, fast and user-friendly alternative to find
 Download URL: https://bin.ajam.dev/x86_64_Linux/fd
