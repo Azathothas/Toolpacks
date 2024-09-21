@@ -9,6 +9,8 @@ ENV DEBIAN_FRONTEND="noninteractive"
 RUN <<EOS
   #Base
   set +e
+  export DEBIAN_FRONTEND="noninteractive"
+  echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
   apt-get update -y
   apt-get install -y --ignore-missing apt-transport-https apt-utils autopoint bash bison ca-certificates coreutils curl dos2unix fdupes findutils gettext git gnupg2 gperf imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
   #RE
