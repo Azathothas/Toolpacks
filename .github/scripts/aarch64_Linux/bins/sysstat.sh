@@ -49,7 +49,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/sysstat"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/sysstat/" && chmod -R 755 "$BASEUTILSDIR/sysstat/"
        #Strip
-       find "$BASEUTILSDIR/sysstat" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/sysstat" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#
       ##Meta
        file "$BASEUTILSDIR/sysstat/"*

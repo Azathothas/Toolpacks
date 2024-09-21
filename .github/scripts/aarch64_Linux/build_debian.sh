@@ -183,7 +183,7 @@ set +x
  #Chmod +xwr
  find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
- find "$BINDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+ find "$BINDIR" -maxdepth 1 -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
  #Rename anything with *_amd*
  find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
@@ -191,7 +191,7 @@ set +x
  #Chmod +xwr
  find "$BASEUTILSDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
- find "$BASEUTILSDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+ find "$BASEUTILSDIR" -maxdepth 1 -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
  #Rename anything with *_amd*
  find "$BASEUTILSDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
@@ -233,7 +233,7 @@ set +x
              #Chmod +xwr
              find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
              #Strip
-             find "$BINDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+             find "$BINDIR" -maxdepth 1 -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
              #Rename anything with *_amd*
              find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
             #File
@@ -265,7 +265,7 @@ set +x
              #Chmod +xwr
              find "$BASEUTILSDIR" -type f -exec chmod +xwr {} \; 2>/dev/null
              #Strip
-             find "$BASEUTILSDIR" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+             find "$BASEUTILSDIR" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
              #Rename anything with *_amd*
              find "$BASEUTILSDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_aarch64_arm64_Linux//"); mv "$1" "$newname"' sh {} \;
             #File

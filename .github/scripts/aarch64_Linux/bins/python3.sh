@@ -33,7 +33,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/python3"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/python3/" && chmod -R 755 "$BASEUTILSDIR/python3/"
        #Strip
-       find "$BASEUTILSDIR/python3" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/python3" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
        #Test 
        docker run --privileged -it --rm --network="bridge" -v "$BASEUTILSDIR/python3:/mnt" "alpine" "/mnt/python3" --version

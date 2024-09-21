@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        cp "$BASEUTILSDIR/netcat/nc" "$BASEUTILSDIR/netcat/netcat"
        cp "$BASEUTILSDIR/netcat/netcat" "$BINDIR/netcat"
        #Strip
-       find "$BASEUTILSDIR/netcat" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/netcat" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

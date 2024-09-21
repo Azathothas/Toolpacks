@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/hashcat-utils" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/hashcat-utils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/hashcat-utils/" && chmod -R 755 "$BASEUTILSDIR/hashcat-utils/"
        #Strip
-       find "$BASEUTILSDIR/hashcat-utils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/hashcat-utils" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        find "$BASEUTILSDIR/hashcat-utils" -type f -executable -name "*.bin" -exec sh -c 'mv "$1" "${1%.bin}"' _ {} \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#

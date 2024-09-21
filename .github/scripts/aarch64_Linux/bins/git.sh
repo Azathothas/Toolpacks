@@ -35,7 +35,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        rsync -av --copy-links --exclude="*/" "./bin/." "$BASEUTILSDIR/git"
        rsync -av --copy-links --exclude="*/" "./libexec/git-core/." "$BASEUTILSDIR/git"
        rsync -av --copy-links "./share/git-core/." "$BASEUTILSDIR/git"
-       find "$BASEUTILSDIR/git" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/git" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        popd >/dev/null 2>&1
       #-------------------------------------------------------#       
       ##Meta

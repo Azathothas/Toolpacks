@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/coreutils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/coreutils/" && chmod -R 755 "$BASEUTILSDIR/coreutils/"
        #Strip
-       find "$BASEUTILSDIR/coreutils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/coreutils" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       ##Build (MUSL) 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -90,7 +90,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        [ "$(find ./ -mindepth 1 -maxdepth 1)" ] && sudo rsync -av --copy-links "./." "$BASEUTILSDIR/coreutils"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/coreutils/" && chmod -R 755 "$BASEUTILSDIR/coreutils/"
        #Strip
-       find "$BASEUTILSDIR/coreutils" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null       
+       find "$BASEUTILSDIR/coreutils" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null       
       #-------------------------------------------------------#       
       ##Meta
        file "$BASEUTILSDIR/coreutils/"*

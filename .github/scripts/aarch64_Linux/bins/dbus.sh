@@ -33,7 +33,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/libexec/." "$BASEUTILSDIR/dbus"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/dbus/" && chmod -R 755 "$BASEUTILSDIR/dbus/"
        #Strip
-       find "$BASEUTILSDIR/dbus" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/dbus" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#       
       ##Meta

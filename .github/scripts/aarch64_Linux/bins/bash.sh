@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/bash"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/bash/" && chmod -R 755 "$BASEUTILSDIR/bash/"
        #Strip
-       find "$BASEUTILSDIR/bash" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/bash" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        cp "$BASEUTILSDIR/bash/bash" "$BINDIR/bash"
       #-------------------------------------------------------#       
       ##Meta

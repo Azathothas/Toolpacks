@@ -36,7 +36,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/btrfs-progs" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/btrfs-progs"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/btrfs-progs/" && chmod -R 755 "$BASEUTILSDIR/btrfs-progs/"
        #Strip
-       find "$BASEUTILSDIR/btrfs-progs" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/btrfs-progs" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1  
       #-------------------------------------------------------#       
       ##Meta

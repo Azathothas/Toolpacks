@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/s6-networking" ; sudo rsync -av --copy-links "./result-bin/bin/." "$BASEUTILSDIR/s6-networking"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/s6-networking/" && chmod -R 755 "$BASEUTILSDIR/s6-networking/"
        #Strip
-       find "$BASEUTILSDIR/s6-networking" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/s6-networking" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta

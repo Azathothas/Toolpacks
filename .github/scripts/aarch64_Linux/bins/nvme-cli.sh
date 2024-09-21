@@ -54,7 +54,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          find "./STATIC_BUILD" -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
         #strip & info 
          find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
-         find "/build-bins/" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
          cp "/build-bins/nvme" "/build-bins/nvme-cli"
          file "/build-bins/"* && du -sh "/build-bins/"*
          popd >/dev/null 2>&1

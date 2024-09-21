@@ -34,7 +34,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/kmod"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/kmod/" && chmod -R 755 "$BASEUTILSDIR/kmod/"
        #Strip
-       find "$BASEUTILSDIR/kmod" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/kmod" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#       
       ##Meta
        file "$BASEUTILSDIR/kmod/"*

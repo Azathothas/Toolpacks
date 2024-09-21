@@ -30,7 +30,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.wirelesstools" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        mkdir -p "$BASEUTILSDIR/wirelesstools" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/wirelesstools"
        #Strip
-       find "$BASEUTILSDIR/wirelesstools" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+       find "$BASEUTILSDIR/wirelesstools" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#       
       ##Meta

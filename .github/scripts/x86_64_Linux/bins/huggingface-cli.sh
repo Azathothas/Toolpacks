@@ -148,7 +148,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          eval staticx --loglevel DEBUG "${TMP_BUILD}/dist/huggingface-cli" "${ADD_LIBS}" --strip "/build-bins/huggingface-cli"
         #strip & info 
          find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
-         find "/build-bins/" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
          cp "/build-bins/huggingface-cli" "/build-bins/hf-cli"
          file "/build-bins/"* && du -sh "/build-bins/"*
          popd >/dev/null 2>&1

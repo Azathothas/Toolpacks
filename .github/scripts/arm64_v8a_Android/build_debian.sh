@@ -184,7 +184,7 @@ set +x
  #Chmod +xwr
  find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
- find "$BINDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec aarch64-linux-gnu-strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+ find "$BINDIR" -maxdepth 1 -type f ! -name "*.no_strip" -exec aarch64-linux-gnu-strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
  #Rename anything with *_arm64_v8a*
  find "$BINDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
@@ -192,7 +192,7 @@ set +x
  #Chmod +xwr
  find "$BASEUTILSDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #Strip
- find "$BASEUTILSDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec aarch64-linux-gnu-strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+ find "$BASEUTILSDIR" -maxdepth 1 -type f ! -name "*.no_strip" -exec aarch64-linux-gnu-strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
  #Rename anything with *_arm64_v8a*
  find "$BASEUTILSDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
 #-------------------------------------------------------#
@@ -234,7 +234,7 @@ set +x
              #Chmod +xwr
              find "$BINDIR" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
              #Strip
-             find "$BINDIR" -maxdepth 1 -type f ! -name "*.AppImage" -exec aarch64-linux-gnu-strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+             find "$BINDIR" -maxdepth 1 -type f ! -name "*.no_strip" -exec aarch64-linux-gnu-strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
              #Rename anything with *_arm64_v8a*
              find "$BINDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
             #File

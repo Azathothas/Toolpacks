@@ -47,7 +47,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          rsync -av --copy-links --checksum "./zerotier-idtool" "/build-bins/zerotier-idtool"
          rsync -av --copy-links --checksum "./zerotier-one" "/build-bins/zerotier-one"
         #strip & info
-         find "/build-bins" -type f ! -name "*.AppImage" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         find "/build-bins" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
          find "/build-bins" -type f -exec file {} \; 2>/dev/null
         '
       #Copy 
