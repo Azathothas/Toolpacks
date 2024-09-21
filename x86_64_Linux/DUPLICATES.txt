@@ -11,19 +11,6 @@ REPO: https://github.com/rootless-containers/rootlesskit
 Web URL: https://github.com/rootless-containers/rootlesskit
 
 ---------------------
-Name: rebuilderd
-DESCR: Independent verification of binary packages - reproducible builds
-Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd
-REPO: https://github.com/kpcyrd/rebuilderd
-Web URL: https://github.com/kpcyrd/rebuilderd
-
-Name: rebuilderd-worker
-DESCR: Independent verification of binary packages - reproducible builds
-Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd-worker
-REPO: https://github.com/kpcyrd/rebuilderd
-Web URL: https://github.com/kpcyrd/rebuilderd
-
----------------------
 Name: smartdns-rs
 DESCR: local DNS server (Dnsmasq like) written in rust to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.
 Download URL: https://bin.ajam.dev/x86_64_Linux/smartdns-rs
@@ -63,58 +50,6 @@ REPO: https://github.com/iineva/ipa-server
 Web URL: https://github.com/iineva/ipa-server
 
 ---------------------
-Name: serverstatus-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
----------------------
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
----------------------
-Name: bubblewrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/bubblewrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
-
-Name: bwrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/bwrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
-
----------------------
-Name: iotop
-DESCR: A top utility for IO
-Download URL: https://bin.ajam.dev/x86_64_Linux/iotop
-REPO: https://github.com/Tomas-M/iotop
-Web URL: https://github.com/Tomas-M/iotop
-
-Name: iotop-c
-DESCR: A top utility for IO
-Download URL: https://bin.ajam.dev/x86_64_Linux/iotop-c
-REPO: https://github.com/Tomas-M/iotop
-Web URL: https://github.com/Tomas-M/iotop
-
----------------------
 Name: u-root
 DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
 Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
@@ -147,6 +82,58 @@ REPO: https://github.com/u-root/gobusybox
 Web URL: https://github.com/u-root/gobusybox
 
 ---------------------
+Name: iotop
+DESCR: A top utility for IO
+Download URL: https://bin.ajam.dev/x86_64_Linux/iotop
+REPO: https://github.com/Tomas-M/iotop
+Web URL: https://github.com/Tomas-M/iotop
+
+Name: iotop-c
+DESCR: A top utility for IO
+Download URL: https://bin.ajam.dev/x86_64_Linux/iotop-c
+REPO: https://github.com/Tomas-M/iotop
+Web URL: https://github.com/Tomas-M/iotop
+
+---------------------
+Name: bubblewrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/bubblewrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
+
+Name: bwrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/bwrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
+
+---------------------
+Name: moac
+DESCR: Go Implementation of WireGuard
+Download URL: https://bin.ajam.dev/x86_64_Linux/moac
+REPO: https://github.com/Seirdy/moac
+Web URL: https://github.com/Seirdy/moac
+
+Name: moac-pwgen
+DESCR: Go Implementation of WireGuard
+Download URL: https://bin.ajam.dev/x86_64_Linux/moac-pwgen
+REPO: https://github.com/Seirdy/moac
+Web URL: https://github.com/Seirdy/moac
+
+---------------------
+Name: z
+DESCR: A smarter cd command.
+Download URL: https://bin.ajam.dev/x86_64_Linux/z
+REPO: https://github.com/ajeetdsouza/zoxide
+Web URL: https://github.com/ajeetdsouza/zoxide
+
+Name: zoxide
+DESCR: A smarter cd command.
+Download URL: https://bin.ajam.dev/x86_64_Linux/zoxide
+REPO: https://github.com/ajeetdsouza/zoxide
+Web URL: https://github.com/ajeetdsouza/zoxide
+
+---------------------
 Name: unix2dos
 DESCR: Convert Line Endings
 Download URL: https://bin.ajam.dev/x86_64_Linux/unix2dos
@@ -160,17 +147,17 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: serverstatus-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: exatorrent
+DESCR: 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
+Download URL: https://bin.ajam.dev/x86_64_Linux/exatorrent
+REPO: https://github.com/varbhat/exatorrent
+Web URL: https://github.com/varbhat/exatorrent
 
-Name: ssr-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: exatorrent-noui
+DESCR: 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
+Download URL: https://bin.ajam.dev/x86_64_Linux/exatorrent-noui
+REPO: https://github.com/varbhat/exatorrent
+Web URL: https://github.com/varbhat/exatorrent
 
 ---------------------
 Name: rg
@@ -199,17 +186,36 @@ REPO: https://github.com/replit/rippkgs
 Web URL: https://github.com/replit/rippkgs
 
 ---------------------
-Name: loki
-DESCR: Like Prometheus, but for logs.
-Download URL: https://bin.ajam.dev/x86_64_Linux/loki
-REPO: https://github.com/grafana/loki
-Web URL: https://github.com/grafana/loki
+Name: docker
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/docker
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
 
-Name: loki-canary
-DESCR: Like Prometheus, but for logs.
-Download URL: https://bin.ajam.dev/x86_64_Linux/loki-canary
-REPO: https://github.com/grafana/loki
-Web URL: https://github.com/grafana/loki
+Name: docker-proxy
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/docker-proxy
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
+
+---------------------
+Name: zerotier-cli
+DESCR: A Smart Ethernet Switch for Earth
+Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-cli
+REPO: https://github.com/zerotier/ZeroTierOne
+Web URL: https://www.zerotier.com/
+
+Name: zerotier-idtool
+DESCR: A Smart Ethernet Switch for Earth
+Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-idtool
+REPO: https://github.com/zerotier/ZeroTierOne
+Web URL: https://www.zerotier.com/
+
+Name: zerotier-one
+DESCR: A Smart Ethernet Switch for Earth
+Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-one
+REPO: https://github.com/zerotier/ZeroTierOne
+Web URL: https://www.zerotier.com/
 
 ---------------------
 Name: ipinfo
@@ -223,6 +229,32 @@ DESCR: Official Command Line Interface for the IPinfo API
 Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo-cli
 REPO: https://github.com/ipinfo/cli
 Web URL: https://ipinfo.io/
+
+---------------------
+Name: age
+DESCR: A simple, modern and secure encryption tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/age
+REPO: https://github.com/FiloSottile/age
+Web URL: https://github.com/FiloSottile/age
+
+Name: age-keygen
+DESCR: A simple, modern and secure encryption tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/age-keygen
+REPO: https://github.com/FiloSottile/age
+Web URL: https://github.com/FiloSottile/age
+
+---------------------
+Name: loki
+DESCR: Like Prometheus, but for logs.
+Download URL: https://bin.ajam.dev/x86_64_Linux/loki
+REPO: https://github.com/grafana/loki
+Web URL: https://github.com/grafana/loki
+
+Name: loki-canary
+DESCR: Like Prometheus, but for logs.
+Download URL: https://bin.ajam.dev/x86_64_Linux/loki-canary
+REPO: https://github.com/grafana/loki
+Web URL: https://github.com/grafana/loki
 
 ---------------------
 Name: iperf
@@ -264,6 +296,37 @@ REPO: https://github.com/rkd77/elinks
 Web URL: https://github.com/rkd77/elinks
 
 ---------------------
+Name: containerd
+DESCR: An open and reliable container runtime
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
+REPO: https://github.com/containerd/containerd
+Web URL: https://github.com/containerd/containerd
+
+Name: containerd
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
+
+Name: containerd-shim-runc-v2
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd-shim-runc-v2
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
+
+Name: runc
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/runc
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
+
+Name: runc
+DESCR: CLI tool for spawning and running containers according to the OCI specification
+Download URL: https://bin.ajam.dev/x86_64_Linux/runc
+REPO: https://github.com/opencontainers/runc
+Web URL: https://github.com/opencontainers/runc
+
+---------------------
 Name: desktop-file-edit
 DESCR: Command line utilities for working with .desktop files
 Download URL: https://bin.ajam.dev/x86_64_Linux/desktop-file-edit
@@ -303,19 +366,6 @@ REPO: https://github.com/naiba/nezha
 Web URL: https://nezha.wiki/en_US/
 
 ---------------------
-Name: hf-cli
-DESCR: The official Python client for the Huggingface Hub
-Download URL: https://bin.ajam.dev/x86_64_Linux/hf-cli
-REPO: https://github.com/huggingface/huggingface_hub
-Web URL: https://huggingface.co/docs/huggingface_hub
-
-Name: huggingface-cli
-DESCR: The official Python client for the Huggingface Hub
-Download URL: https://bin.ajam.dev/x86_64_Linux/huggingface-cli
-REPO: https://github.com/huggingface/huggingface_hub
-Web URL: https://huggingface.co/docs/huggingface_hub
-
----------------------
 Name: gocryptfs
 DESCR: Encrypted overlay filesystem written in Go
 Download URL: https://bin.ajam.dev/x86_64_Linux/gocryptfs
@@ -327,58 +377,6 @@ DESCR: Encrypted overlay filesystem written in Go
 Download URL: https://bin.ajam.dev/x86_64_Linux/gocryptfs-xray
 REPO: https://github.com/rfjakob/gocryptfs
 Web URL: https://github.com/rfjakob/gocryptfs
-
----------------------
-Name: localxpose
-DESCR: reverse proxy that enables you to expose your localhost to the internet.
-Download URL: https://bin.ajam.dev/x86_64_Linux/localxpose
-REPO: 
-Web URL: https://localxpose.io/
-
-Name: loclx
-DESCR: reverse proxy that enables you to expose your localhost to the internet.
-Download URL: https://bin.ajam.dev/x86_64_Linux/loclx
-REPO: 
-Web URL: https://localxpose.io/
-
----------------------
-Name: containerd
-DESCR: An open and reliable container runtime
-Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
-REPO: https://github.com/containerd/containerd
-Web URL: https://github.com/containerd/containerd
-
-Name: containerd
-DESCR: Container
-Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
----------------------
-Name: runc
-DESCR: Container
-Download URL: https://bin.ajam.dev/x86_64_Linux/runc
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
-
-Name: runc
-DESCR: CLI tool for spawning and running containers according to the OCI specification
-Download URL: https://bin.ajam.dev/x86_64_Linux/runc
-REPO: https://github.com/opencontainers/runc
-Web URL: https://github.com/opencontainers/runc
-
----------------------
-Name: nu
-DESCR: A new type of shell
-Download URL: https://bin.ajam.dev/x86_64_Linux/nu
-REPO: https://github.com/nushell/nushell
-Web URL: https://github.com/nushell/nushell
-
-Name: nushell
-DESCR: A new type of shell
-Download URL: https://bin.ajam.dev/x86_64_Linux/nushell
-REPO: https://github.com/nushell/nushell
-Web URL: https://github.com/nushell/nushell
 
 ---------------------
 Name: dos2unix
@@ -394,25 +392,6 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: zerotier-cli
-DESCR: A Smart Ethernet Switch for Earth
-Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-cli
-REPO: https://github.com/zerotier/ZeroTierOne
-Web URL: https://www.zerotier.com/
-
-Name: zerotier-idtool
-DESCR: A Smart Ethernet Switch for Earth
-Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-idtool
-REPO: https://github.com/zerotier/ZeroTierOne
-Web URL: https://www.zerotier.com/
-
-Name: zerotier-one
-DESCR: A Smart Ethernet Switch for Earth
-Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-one
-REPO: https://github.com/zerotier/ZeroTierOne
-Web URL: https://www.zerotier.com/
-
----------------------
 Name: gitpod-cli
 DESCR: cli for gitpod
 Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
@@ -424,6 +403,19 @@ DESCR: cli for gitpod
 Download URL: https://bin.ajam.dev/x86_64_Linux/gp
 REPO: https://github.com/gitpod-io/gitpod
 Web URL: https://github.com/gitpod-io/gitpod
+
+---------------------
+Name: zapper
+DESCR: Zaps arguments and environment from the process list
+Download URL: https://bin.ajam.dev/x86_64_Linux/zapper
+REPO: https://github.com/hackerschoice/zapper
+Web URL: https://github.com/hackerschoice/zapper
+
+Name: zapper-stealth
+DESCR: Zaps arguments and environment from the process list
+Download URL: https://bin.ajam.dev/x86_64_Linux/zapper-stealth
+REPO: https://github.com/hackerschoice/zapper
+Web URL: https://github.com/hackerschoice/zapper
 
 ---------------------
 Name: nvme
@@ -439,6 +431,19 @@ REPO: https://github.com/linux-nvme/nvme-cli
 Web URL: https://github.com/linux-nvme/nvme-cli
 
 ---------------------
+Name: localxpose
+DESCR: reverse proxy that enables you to expose your localhost to the internet.
+Download URL: https://bin.ajam.dev/x86_64_Linux/localxpose
+REPO: 
+Web URL: https://localxpose.io/
+
+Name: loclx
+DESCR: reverse proxy that enables you to expose your localhost to the internet.
+Download URL: https://bin.ajam.dev/x86_64_Linux/loclx
+REPO: 
+Web URL: https://localxpose.io/
+
+---------------------
 Name: fd
 DESCR: A simple, fast and user-friendly alternative to find
 Download URL: https://bin.ajam.dev/x86_64_Linux/fd
@@ -452,17 +457,43 @@ REPO: https://github.com/sharkdp/fd
 Web URL: https://github.com/sharkdp/fd
 
 ---------------------
-Name: nmap-formatter
-DESCR: A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
-Download URL: https://bin.ajam.dev/x86_64_Linux/nmap-formatter
-REPO: https://github.com/vdjagilev/nmap-formatter
-Web URL: https://github.com/vdjagilev/nmap-formatter
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
-Name: nmap
-DESCR: port scanner
-Download URL: https://bin.ajam.dev/x86_64_Linux/nmap
-REPO: https://github.com/nmap/nmap
-Web URL: https://github.com/nmap/nmap
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
+Name: rebuilderd
+DESCR: Independent verification of binary packages - reproducible builds
+Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd
+REPO: https://github.com/kpcyrd/rebuilderd
+Web URL: https://github.com/kpcyrd/rebuilderd
+
+Name: rebuilderd-worker
+DESCR: Independent verification of binary packages - reproducible builds
+Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd-worker
+REPO: https://github.com/kpcyrd/rebuilderd
+Web URL: https://github.com/kpcyrd/rebuilderd
+
+---------------------
+Name: hf-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/hf-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
+
+Name: huggingface-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/huggingface-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
 
 ---------------------
 Name: aria2
@@ -478,6 +509,19 @@ REPO: https://github.com/aria2/aria2
 Web URL: https://github.com/aria2/aria2
 
 ---------------------
+Name: serverstatus-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
 Name: rcat
 DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/rcat
@@ -489,6 +533,19 @@ DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/rustcat
 REPO: https://github.com/robiot/rustcat
 Web URL: https://github.com/robiot/rustcat
+
+---------------------
+Name: nu
+DESCR: A new type of shell
+Download URL: https://bin.ajam.dev/x86_64_Linux/nu
+REPO: https://github.com/nushell/nushell
+Web URL: https://github.com/nushell/nushell
+
+Name: nushell
+DESCR: A new type of shell
+Download URL: https://bin.ajam.dev/x86_64_Linux/nushell
+REPO: https://github.com/nushell/nushell
+Web URL: https://github.com/nushell/nushell
 
 ---------------------
 Name: sysinfo-collector
@@ -504,6 +561,32 @@ REPO: https://github.com/qarmin/system-info-collector
 Web URL: https://github.com/qarmin/system-info-collector
 
 ---------------------
+Name: serverstatus-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
+Name: nmap-formatter
+DESCR: A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap-formatter
+REPO: https://github.com/vdjagilev/nmap-formatter
+Web URL: https://github.com/vdjagilev/nmap-formatter
+
+Name: nmap
+DESCR: port scanner
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap
+REPO: https://github.com/nmap/nmap
+Web URL: https://github.com/nmap/nmap
+
+---------------------
 Name: kak
 DESCR: a better code editor
 Download URL: https://bin.ajam.dev/x86_64_Linux/kak
@@ -515,5 +598,18 @@ DESCR: a better code editor
 Download URL: https://bin.ajam.dev/x86_64_Linux/kakoune
 REPO: https://github.com/mawww/kakoune
 Web URL: https://github.com/mawww/kakoune
+
+---------------------
+Name: imdl
+DESCR: A CLI utility for BitTorrent torrent file creation, verification, and more
+Download URL: https://bin.ajam.dev/x86_64_Linux/imdl
+REPO: https://github.com/casey/intermodal
+Web URL: https://github.com/casey/intermodal
+
+Name: intermodal
+DESCR: A CLI utility for BitTorrent torrent file creation, verification, and more
+Download URL: https://bin.ajam.dev/x86_64_Linux/intermodal
+REPO: https://github.com/casey/intermodal
+Web URL: https://github.com/casey/intermodal
 
 ---------------------
