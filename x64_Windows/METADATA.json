@@ -2,6 +2,7 @@
   {
     "name": "7z.exe",
     "description": "file archiver with a high compression ratio.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/7z.exe",
     "size": "1.32 MB",
     "b3sum": "f4bac6fe307b3d21e87a8a4f505f285d0158d55f26189e9698f3bd05eae2ab04",
@@ -13,16 +14,18 @@
     "repo_updated": "2024-08-12T11:51:02Z",
     "repo_released": "2024-08-12T12:01:23Z",
     "repo_version": "24.08",
-    "repo_stars": "660",
+    "repo_stars": "661",
     "repo_language": "C++",
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://www.7-zip.org",
+    "build_url": "",
     "extra_bins": "7za.exe"
   },
   {
     "name": "actionlint.exe",
     "description": "octocat  Static checker for GitHub Actions workflow files",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/actionlint.exe",
     "size": "5.42 MB",
     "b3sum": "5b489ba08924f5a9e024ad49856f9204e78857457e760b64be17536d9a9b5f68",
@@ -39,11 +42,13 @@
     "repo_license": "MIT License",
     "repo_topics": "actions, ci, github-actions, lint, linter",
     "web_url": "https://github.com/rhysd/actionlint",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "age.exe",
     "description": "A simple, modern and secure encryption tool",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/age.exe",
     "size": "3.88 MB",
     "b3sum": "6fad9666c199bd67d3e9599d5a403a54c49896f914d7cbd904e9f49d4be75db1",
@@ -55,16 +60,18 @@
     "repo_updated": "2024-08-21T10:37:07Z",
     "repo_released": "2024-06-16T14:11:14Z",
     "repo_version": "v1.2.0",
-    "repo_stars": "16924",
+    "repo_stars": "16925",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "age-encryption, built-at-rc",
     "web_url": "https://github.com/FiloSottile/age",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "algernon.exe",
     "description": "Small self-contained pure-Go web server with Lua, Teal, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/algernon.exe",
     "size": "33.38 MB",
     "b3sum": "6aad0ae479ba1509a7bbe4147b1b47714c39860ef0a89070a03c26677f324ba3",
@@ -76,16 +83,18 @@
     "repo_updated": "2024-09-13T07:18:23Z",
     "repo_released": "2024-07-13T12:52:18Z",
     "repo_version": "v1.17.1",
-    "repo_stars": "2785",
+    "repo_stars": "2786",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "algernon, buildless, cross-platform, fasthttp, go, http2, http3, live-reload, llm, lua, mysql, ollama, pongo2, postgresql, quic, redis, server-sent-events, sqlite, tls13",
     "web_url": "https://github.com/xyproto/algernon",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "alist.exe",
     "description": "A file list/WebDAV program that supports multiple storages",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/alist.exe",
     "size": "80.52 MB",
     "b3sum": "fa6b401aee2e7ccc6843c1cd42f7be108c0759a23e55fc79a90f354fdee1b926",
@@ -97,16 +106,18 @@
     "repo_updated": "2024-09-18T17:24:44Z",
     "repo_released": "2024-09-18T17:25:03Z",
     "repo_version": "v3.37.4",
-    "repo_stars": "42217",
+    "repo_stars": "42222",
     "repo_language": "Go",
     "repo_license": "GNU Affero General Public License v3.0",
     "repo_topics": "file-server, gin, golang, onedrive, solidjs, webdav",
     "web_url": "https://github.com/alist-org/alist",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "anew-rs.exe",
     "description": "An efficient way to filter duplicate lines from input, à la uniq.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/anew-rs.exe",
     "size": "823.81 kB",
     "b3sum": "ef867664894f3964d504ac4b59ae424014bda5e29797bd942829bbdeca4be0ce",
@@ -123,11 +134,13 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/zer0yu/anew",
+    "build_url": "",
     "extra_bins": "anew.exe"
   },
   {
     "name": "anew.exe",
     "description": "An efficient way to filter duplicate lines from input, à la uniq.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/anew.exe",
     "size": "823.81 kB",
     "b3sum": "d67112ea7389ceaa4d47a94eb94cdfe7b30c710f1031979e8bfd1c515ffbae18",
@@ -144,11 +157,13 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/zer0yu/anew",
+    "build_url": "",
     "extra_bins": "anew-rs.exe"
   },
   {
     "name": "b3sum.exe",
     "description": "the official Rust and C implementations of the BLAKE3 cryptographic hash function",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/b3sum.exe",
     "size": "1.05 MB",
     "b3sum": "44b6119e39dab585093cc74441580b909e2447d42cb5a0a2656c1ec20f159709",
@@ -165,11 +180,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "",
     "web_url": "https://github.com/BLAKE3-team/BLAKE3",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "bat.exe",
     "description": "cat with colors & syntax highlights",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/bat.exe",
     "size": "6.32 MB",
     "b3sum": "5f3fc725a7d3e3829b44c484bdf6d2e1e84c82e62f70c92c7af98fd2a400b454",
@@ -181,16 +198,18 @@
     "repo_updated": "2024-09-20T04:28:20Z",
     "repo_released": "2023-10-11T18:20:46Z",
     "repo_version": "v0.24.0",
-    "repo_stars": "48828",
+    "repo_stars": "48829",
     "repo_language": "Rust",
     "repo_license": "Apache License 2.0",
     "repo_topics": "cli, command-line, git, hacktoberfest, rust, syntax-highlighting, terminal, tool",
     "web_url": "https://github.com/sharkdp/bat",
+    "build_url": "",
     "extra_bins": "batcat.exe"
   },
   {
     "name": "batcat.exe",
     "description": "cat with colors & syntax highlights",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/batcat.exe",
     "size": "6.32 MB",
     "b3sum": "9f5923ff0dd8fb34e02a9b3cf474458b05799798415a2a5e5423db5f9c1368ef",
@@ -202,16 +221,18 @@
     "repo_updated": "2024-09-20T04:28:20Z",
     "repo_released": "2023-10-11T18:20:46Z",
     "repo_version": "v0.24.0",
-    "repo_stars": "48828",
+    "repo_stars": "48829",
     "repo_language": "Rust",
     "repo_license": "Apache License 2.0",
     "repo_topics": "cli, command-line, git, hacktoberfest, rust, syntax-highlighting, terminal, tool",
     "web_url": "https://github.com/sharkdp/bat",
+    "build_url": "",
     "extra_bins": "bat.exe"
   },
   {
     "name": "botsay.exe",
     "description": "🤖 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/botsay.exe",
     "size": "1.84 MB",
     "b3sum": "2d7bbc9898fba0b2dd80fa0f2cfa44f6dac6b9045acde5a751346ddaa40c8423",
@@ -228,11 +249,13 @@
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "ascii-art, ci, command-line, cowsay, devops, devops-tools, rainbow, synthwave, terminal, utility",
     "web_url": "https://github.com/xyproto/botsay",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "brook.exe",
     "description": "A cross-platform programmable network tool",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/brook.exe",
     "size": "20.63 MB",
     "b3sum": "04d326c8dacf2ae52a3e362ef04fed44e74251749f414029da3da5f93a292c08",
@@ -249,11 +272,13 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "android, cross-platform, decryption, encryption, ios, linux, macos, mitm, network-analysis, network-monitoring, network-programming, network-security, openwrt, packet-capture, proxy, socks5, tls, vpn, windows, zero-configuration",
     "web_url": "https://github.com/txthinking/brook",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "brutespray.exe",
     "description": "Command-line JSON processor",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/brutespray.exe",
     "size": "26.84 MB",
     "b3sum": "f4496f6fb3409eed53efdb0b55a08039b93707a7a48ec9170e09c0b8de6241e5",
@@ -270,11 +295,13 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/x90skysn3k/brutespray",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "busybox-unicode.exe",
     "description": "single binary that contains many common Unix tools",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/busybox-unicode.exe",
     "size": "673.28 kB",
     "b3sum": "dd11026795c30a3ae716c75491f66b52c0880d6b5178c8f4008cefd1af141dfd",
@@ -282,11 +309,13 @@
     "build_date": "2024-09-20T19:51:42",
     "repo_url": "",
     "web_url": "https://frippery.org/busybox/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.yaml",
     "extra_bins": "busybox.exe"
   },
   {
     "name": "busybox.exe",
     "description": "single binary that contains many common Unix tools",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/busybox.exe",
     "size": "666.11 kB",
     "b3sum": "6b5b3260ea7ef2d2ad3ae02deb785a333a498f629ae02afc3d1b39775a09afbf",
@@ -294,11 +323,13 @@
     "build_date": "2024-09-20T19:51:43",
     "repo_url": "",
     "web_url": "https://frippery.org/busybox/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/busybox.yaml",
     "extra_bins": "busybox-unicode.exe"
   },
   {
     "name": "cheat.exe",
     "description": "create and view interactive cheatsheets on the command-line",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/cheat.exe",
     "size": "11.57 MB",
     "b3sum": "2fba60d3b577975a21fa7b5959e4190cd3b9b1a0e338871cf0f682eaf96ab3f0",
@@ -315,11 +346,13 @@
     "repo_license": "MIT License",
     "repo_topics": "bash, cheat, cheatsheet, cheatsheets, documentation, help, interactive-cheatsheets, man-page",
     "web_url": "https://github.com/cheat/cheat",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "cloudflared.exe",
     "description": "Cloudflare Tunnel client (formerly Argo Tunnel)",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/cloudflared.exe",
     "size": "26.84 MB",
     "b3sum": "4aec450df402514e5f9e8db5963485a5dbf2c102dfaa1fe953b0eb949c8d7aca",
@@ -336,11 +369,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "argo-tunnel, cloudflare, cloudflare-tunnel, reverse-proxy, zero-trust-network-access",
     "web_url": "https://github.com/cloudflare/cloudflared",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "arch.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/arch.exe",
     "size": "849.41 kB",
     "b3sum": "bacd65fd21b70a24eaf7af28af6eab38ed1d9f847e97781964c2ecda9c49466c",
@@ -357,11 +392,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "base32.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/base32.exe",
     "size": "970.75 kB",
     "b3sum": "68c54df721deb47815ae9a87847bc8418b1185ac22d0257e2193d3dbeab0bdf6",
@@ -378,11 +415,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "base64.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/base64.exe",
     "size": "970.75 kB",
     "b3sum": "ab3cdebaf9d3b5b499dd54e503861ae99abe982deeaad13d923b7145a9b45607",
@@ -399,11 +438,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "basename.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/basename.exe",
     "size": "863.23 kB",
     "b3sum": "2730cd77fff9bd0cb6382bcb68b8e1c9d60d0c1911e5937bd512b12914b8485a",
@@ -420,11 +461,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "basenc.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/basenc.exe",
     "size": "992.26 kB",
     "b3sum": "516d606ede15ec9ffdf713f138c15febd6af64b95b7d36dac6a945f9d80acd9a",
@@ -441,11 +484,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "cat.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/cat.exe",
     "size": "888.83 kB",
     "b3sum": "e05b5af950d1e963144cf8b569aec94053d04ea978f56a02a703fce889eb4d4b",
@@ -462,11 +507,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "cksum.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/cksum.exe",
     "size": "2.74 MB",
     "b3sum": "d72961d864fe9a3ef5e5199dd37deb4e0aea68f5149d2acf8bb3d00754486db7",
@@ -483,11 +530,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "comm.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/comm.exe",
     "size": "870.4 kB",
     "b3sum": "df5b002db990c0f914bc910895fc7c79f1b13c8a33861ecbeb2dd81b7d9a369d",
@@ -504,11 +553,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "coreutils-rs.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/coreutils-rs.exe",
     "size": "9.84 MB",
     "b3sum": "9c832993051c1a62f0fea4560b4bec84c20f611827a0a2d50987808c436ae528",
@@ -525,11 +576,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "coreutils.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/coreutils.exe",
     "size": "9.84 MB",
     "b3sum": "2aeea4449b978d0b503b83ba12c0d35591e8f764c9a82ea711af9fedba9a6f5e",
@@ -546,11 +599,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "cp.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/cp.exe",
     "size": "1.34 MB",
     "b3sum": "2e0bd09ebc34a0cb81343e42acca394f1dbeab5e7762991b2669e2ab80067fc2",
@@ -567,11 +622,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "csplit.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/csplit.exe",
     "size": "2.4 MB",
     "b3sum": "3dc31b626d7ff7a8bdd147250168f4b60686c2299d5f8523e9f096e8d62066bb",
@@ -588,11 +645,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "cut.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/cut.exe",
     "size": "950.27 kB",
     "b3sum": "383635bcaf1af2ec8ed6a3b7077c0b1fb772c5a96d01b23d27ee8d948fe8d10a",
@@ -609,11 +668,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "date.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/date.exe",
     "size": "2.49 MB",
     "b3sum": "1dcd42a718cd8690ada5badeaa67ad392dcfec16226c55292e14024188980f9a",
@@ -630,11 +691,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "dd.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dd.exe",
     "size": "1.04 MB",
     "b3sum": "505f1dbd0ae78c5eab0b7699c98735d57f3e4b51a73084d975db0f70410cb3ef",
@@ -651,11 +714,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "df.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/df.exe",
     "size": "986.62 kB",
     "b3sum": "de614c09efb310c3057a236ebbf39696d966dafa3b1db49d270fb4a136023a98",
@@ -672,11 +737,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "dir.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dir.exe",
     "size": "1.6 MB",
     "b3sum": "1658f4873860f8e4c04007b60f52e5a78996adf9b0dc437740c2ac59d5dbed92",
@@ -693,11 +760,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "dircolors.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dircolors.exe",
     "size": "930.3 kB",
     "b3sum": "392d2c415831a33b9456db9964136dbcf13bba5491422dfc680dd18f7c2a6549",
@@ -714,11 +783,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "dirname.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dirname.exe",
     "size": "842.24 kB",
     "b3sum": "892bc02ca6a55735c7b4e4f4d1b3425d9d0e951b6979b3b7ddd55b12ea7d6185",
@@ -735,11 +806,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "du.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/du.exe",
     "size": "1.16 MB",
     "b3sum": "20a376bb9a0f03b7617c07c3a4fd991238da567bb575b320afc68d3c2d3b8664",
@@ -756,11 +829,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "echo.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/echo.exe",
     "size": "840.7 kB",
     "b3sum": "c3d89fe41387b72a1ac28fb66165a629c54bf931441dc4d3ce5af7663f9dc44c",
@@ -777,11 +852,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "env.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/env.exe",
     "size": "1.06 MB",
     "b3sum": "363480beff3ff705c9d6c02390ee9eb71c31148a91bfdb03f1932476afb91a23",
@@ -798,11 +875,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "expand.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/expand.exe",
     "size": "902.14 kB",
     "b3sum": "3936affd209a975b675d996690d42d6f04a7dc08b6d1984306248475b99f4a44",
@@ -819,11 +898,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "expr.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/expr.exe",
     "size": "1.46 MB",
     "b3sum": "9beeb639eab26355994b8599b901db22e8ed6bfa15421beb729515705aa84a83",
@@ -840,11 +921,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "factor.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/factor.exe",
     "size": "1.28 MB",
     "b3sum": "575a9dca13b0076efecd68ec9282dd55d67dd628560297f8a5440b6e9c235769",
@@ -861,11 +944,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "false.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/false.exe",
     "size": "782.34 kB",
     "b3sum": "4290b0b4ee99b92c35cc86e76ec490a0183c47e3b1fbb5972e930781ae23376c",
@@ -882,11 +967,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "fmt.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/fmt.exe",
     "size": "940.03 kB",
     "b3sum": "0dda43cb4ea43e81c4221e47cf13f8ba99a6f1b1d9a43ce66fe48dce8935b536",
@@ -903,11 +990,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "fold.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/fold.exe",
     "size": "889.86 kB",
     "b3sum": "a80829a11d7fd2e51543840552450d716ef1e4912621ad613964e9b021bb19a8",
@@ -924,11 +1013,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "hashsum.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/hashsum.exe",
     "size": "2.69 MB",
     "b3sum": "0365c33a15fb424cad572bd1f7f8c3d01ef193a0477666cac9f5a347a53df332",
@@ -945,11 +1036,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "head.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/head.exe",
     "size": "930.3 kB",
     "b3sum": "ae190401cea503f33d9e99baacb6c97cca266c2ac917319f2a0a77fa104caefa",
@@ -966,11 +1059,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "hostname.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/hostname.exe",
     "size": "874.5 kB",
     "b3sum": "739433bcd1ba20a3f625d1d334bd70a5444659687ad31c214304b226622ff49b",
@@ -987,11 +1082,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "join.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/join.exe",
     "size": "944.13 kB",
     "b3sum": "a65ba00da1fe489a92c1cdb8d081333bde1b3460386088fa04a7a78a919a2439",
@@ -1008,11 +1105,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "link.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/link.exe",
     "size": "856.06 kB",
     "b3sum": "331ee1be1e7436f69e0ae97914beeb9162b8a2f71a9e47db9e08bfa9e3f68cd9",
@@ -1029,11 +1128,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "ln.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ln.exe",
     "size": "950.78 kB",
     "b3sum": "419e8622f3ab866704ba5090a172a2e0c181502bd1adc674412259c2211487ad",
@@ -1050,11 +1151,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "ls.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ls.exe",
     "size": "1.62 MB",
     "b3sum": "acdf9980bcc2ee5737ebe07f251987e867daa0180345a9a85a8dcb265d57b65f",
@@ -1071,11 +1174,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "mkdir.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/mkdir.exe",
     "size": "869.89 kB",
     "b3sum": "4976532cafea90d1f917d2a9655583ba9caec8058195b6148856468214436790",
@@ -1092,11 +1197,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "mktemp.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/mktemp.exe",
     "size": "950.27 kB",
     "b3sum": "a3d66847fe9b71fc9ce35c7c4004a12787fc4d0f97aa1a68ca791bba88d0cbaa",
@@ -1113,11 +1220,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "more.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/more.exe",
     "size": "1.02 MB",
     "b3sum": "4aa2793d949946ee76cce2854f837ba97a7a2fdea5b22c79ed0532050ab44099",
@@ -1134,11 +1243,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "mv.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/mv.exe",
     "size": "1.21 MB",
     "b3sum": "a088c953c951b595009db5c36c5b42ae44feb462d51218cee7368becd48ccb61",
@@ -1155,11 +1266,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "nl.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/nl.exe",
     "size": "2.37 MB",
     "b3sum": "cd92ff7fcfc24bb8eae489037aca5c341f7f0ec927f8f8fbe0f77227d141beb9",
@@ -1176,11 +1289,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "nproc.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/nproc.exe",
     "size": "855.04 kB",
     "b3sum": "7da15fd2719fb2b091c8121e649e8e679a8bf0782cc663081d81fe810148080c",
@@ -1197,11 +1312,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "numfmt.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/numfmt.exe",
     "size": "990.21 kB",
     "b3sum": "ffebad96cdd2ba739f3e95646a57caece02ce2651e4c8f804965ee2740b850ef",
@@ -1218,11 +1335,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "od.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/od.exe",
     "size": "1.03 MB",
     "b3sum": "8db6f676d0dc27d985e92a2aa01a6652cc2f42d9f1f2504efe52bae53595e196",
@@ -1239,11 +1358,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "paste.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/paste.exe",
     "size": "864.77 kB",
     "b3sum": "ef904d9edc226e0a42d161978d856a72578a8bf6ab08cd08b584b87e99fab165",
@@ -1260,11 +1381,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "pr.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pr.exe",
     "size": "2.49 MB",
     "b3sum": "70c9a9dbfa373ff46fbac4db2ab05fa4ad93f81238ecf8e6281e8547906c518e",
@@ -1281,11 +1404,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "printenv.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/printenv.exe",
     "size": "825.86 kB",
     "b3sum": "3b97959feef2506cbe66e95206b7508f9abc1cf8814429e4a2cfd68d11cea7b9",
@@ -1302,11 +1427,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "printf.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/printf.exe",
     "size": "942.59 kB",
     "b3sum": "abc3d48dcb0756a7de6fbcea597b4b218896f3ff306972b599fb376ac036fa8b",
@@ -1323,11 +1450,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "ptx.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ptx.exe",
     "size": "2.46 MB",
     "b3sum": "ddb946e0effc4a2aa6478eb0d9242a72a08f2e748c05e2e7bc5b157a552f4145",
@@ -1344,11 +1473,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "pwd.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pwd.exe",
     "size": "845.31 kB",
     "b3sum": "e6503535c5559214617681d7461be03bbd3346b993b7d7c056415721ebf84064",
@@ -1365,11 +1496,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "readlink.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/readlink.exe",
     "size": "906.24 kB",
     "b3sum": "a2587084168e41d4735bb11a02ef832e22677569d64eb09b17d6fbf9f43c9a93",
@@ -1386,11 +1519,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "realpath.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/realpath.exe",
     "size": "909.82 kB",
     "b3sum": "7ca29e0bd7e9f450394e9fab6160e3d38799581d806309f94255a5b952024ec0",
@@ -1407,11 +1542,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "rm.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/rm.exe",
     "size": "946.69 kB",
     "b3sum": "e1f5f428f31cf1578d8fe4645a3a2640f12e0fd6b62dd2665288d07f72f637bc",
@@ -1428,11 +1565,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "rmdir.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/rmdir.exe",
     "size": "863.23 kB",
     "b3sum": "4f38ff3670135359e7cbdc7fd8ff9fbb77b6bf3df54b97a117665fb23687a74e",
@@ -1449,11 +1588,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "seq.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/seq.exe",
     "size": "1.07 MB",
     "b3sum": "17b5641fad818fc33eefa93a88ee589fb5747b5f7d1c2a46d79ca3fe906f1c40",
@@ -1470,11 +1611,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "shred.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/shred.exe",
     "size": "926.21 kB",
     "b3sum": "0d0b567b39cc8b726454ca9448209b00b369759bed1cd48f4754aeac77aa6d35",
@@ -1491,11 +1634,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "shuf.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/shuf.exe",
     "size": "942.59 kB",
     "b3sum": "b650d47406e10dec7442ef03ef208cc5bfa635990ce41bc521892a1c15f1680c",
@@ -1512,11 +1657,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "sleep.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/sleep.exe",
     "size": "865.28 kB",
     "b3sum": "c4d1543661e1d01a2c547869fc324249aa805962cc46b173064295b98d740d1a",
@@ -1533,11 +1680,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "sort.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/sort.exe",
     "size": "1.66 MB",
     "b3sum": "253e129f4fac80eb11c8125fc5501a55474d896762f52d8f47e7d7d6c8eec825",
@@ -1554,11 +1703,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "split.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/split.exe",
     "size": "1.01 MB",
     "b3sum": "58cf638f9a92748345b6fe979b41a00684d6f522ff7b10a800e4d0eb5b5cff39",
@@ -1575,11 +1726,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "sum.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/sum.exe",
     "size": "884.22 kB",
     "b3sum": "676869abe957c057d5c5459f2fa28690fb84b8c852aead39e08dcaa80d0a4fc7",
@@ -1596,11 +1749,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "sync.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/sync.exe",
     "size": "862.21 kB",
     "b3sum": "7a18c79bea6b89f6b51447cb79c06d7bfbae3cbaaf0a8dc7c22cc4db039ebc3f",
@@ -1617,11 +1772,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "tac.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/tac.exe",
     "size": "2.33 MB",
     "b3sum": "7a9a83738ab07d3dd4b92e5cf3e40c5440696ac86cae867b1ed060878418b87a",
@@ -1638,11 +1795,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "tail.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/tail.exe",
     "size": "1.36 MB",
     "b3sum": "a28bb8ebec8eba5406b56d825ff245e811d63b34b6e36cb471058b396c2beffc",
@@ -1659,11 +1818,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "tee.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/tee.exe",
     "size": "908.8 kB",
     "b3sum": "f7a8be38946f461e16e113469cb5c6be1abdd6eb621ffe696cce9e598e8ff270",
@@ -1680,11 +1841,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "test.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/test.exe",
     "size": "871.42 kB",
     "b3sum": "9232616b2726f020d9d11797e48a19a9a94b3695834ab47c5d913d7ee7e2c40d",
@@ -1701,11 +1864,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "touch.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/touch.exe",
     "size": "2.48 MB",
     "b3sum": "81e432d1eeccefe73867d93001643d00bafd5264105dfcb74b31beca209a4df0",
@@ -1722,11 +1887,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "tr.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/tr.exe",
     "size": "935.42 kB",
     "b3sum": "464b450cae7133abd070e7fbcb98facb46761041c762b0cb8e10b8c748d73dba",
@@ -1743,11 +1910,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "true.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/true.exe",
     "size": "782.85 kB",
     "b3sum": "1f4e042ff135959509ee01152dcc3ad915e9df9bee6ca726a1a8552bd71b30d7",
@@ -1764,11 +1933,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "truncate.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/truncate.exe",
     "size": "876.03 kB",
     "b3sum": "14b26d201b36e54f40b2c6c1554eb3ffb22b7f0f62d79515b11f33316c7f9e94",
@@ -1785,11 +1956,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "tsort.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/tsort.exe",
     "size": "913.92 kB",
     "b3sum": "2be9368af37341f64cdf8ce14d537feed5e2e1b81d43f97d53c146b1999d8ceb",
@@ -1806,11 +1979,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "uname.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/uname.exe",
     "size": "874.5 kB",
     "b3sum": "f7949d34cccc3e4c5eefd9b430476b0c90866b804fc13747523399f1eb5908f3",
@@ -1827,11 +2002,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "unexpand.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/unexpand.exe",
     "size": "906.75 kB",
     "b3sum": "6704717b7501a43c171ca6801d740fc78a56649416cd0cc183bd3857243fca8b",
@@ -1848,11 +2025,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "uniq.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/uniq.exe",
     "size": "943.1 kB",
     "b3sum": "717703e20067856b14495e4c84b261fb4d39909c289e71336b9c8de43232f691",
@@ -1869,11 +2048,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "unlink.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/unlink.exe",
     "size": "854.02 kB",
     "b3sum": "763e4b747cfb2e192a9b8722b8c0cf85c588f16a8a78e4eb4b29d4a88e20f3af",
@@ -1890,11 +2071,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,vdir.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "vdir.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/vdir.exe",
     "size": "1.6 MB",
     "b3sum": "56c268fe893b659dbb61bf1f10196fc6a4269290c80348a181e0464cdc3e8eb0",
@@ -1911,11 +2094,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,wc.exe,whoami.exe,yes.exe"
   },
   {
     "name": "wc.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/wc.exe",
     "size": "950.27 kB",
     "b3sum": "f5ab25fbbed576c6a59373dec8bd35fcaf7d4379c992f9e50c2f00fb0af7a70e",
@@ -1932,11 +2117,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,whoami.exe,yes.exe"
   },
   {
     "name": "whoami.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/whoami.exe",
     "size": "838.14 kB",
     "b3sum": "7c1b490e05d20bf9dce21523985e3759a22c41d0ffce4f37755096cc7da2d6db",
@@ -1953,11 +2140,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,yes.exe"
   },
   {
     "name": "yes.exe",
     "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/yes.exe",
     "size": "835.07 kB",
     "b3sum": "2eb3d9a0f0c5028dfec628ffe6c3f111c5c9644e1a2aa83245b4e13c358683b4",
@@ -1974,11 +2163,13 @@
     "repo_license": "MIT License",
     "repo_topics": "busybox, command-line-tool, coreutils, cross-platform, gnu-coreutils, rust",
     "web_url": "https://github.com/uutils/coreutils",
+    "build_url": "",
     "extra_bins": "arch.exe,base32.exe,base64.exe,basename.exe,basenc.exe,cat.exe,cksum.exe,comm.exe,coreutils-rs.exe,coreutils.exe,cp.exe,csplit.exe,cut.exe,date.exe,dd.exe,df.exe,dir.exe,dircolors.exe,dirname.exe,du.exe,echo.exe,env.exe,expand.exe,expr.exe,factor.exe,false.exe,fmt.exe,fold.exe,hashsum.exe,head.exe,hostname.exe,join.exe,link.exe,ln.exe,ls.exe,mkdir.exe,mktemp.exe,more.exe,mv.exe,nl.exe,nproc.exe,numfmt.exe,od.exe,paste.exe,pr.exe,printenv.exe,printf.exe,ptx.exe,pwd.exe,readlink.exe,realpath.exe,rm.exe,rmdir.exe,seq.exe,shred.exe,shuf.exe,sleep.exe,sort.exe,split.exe,sum.exe,sync.exe,tac.exe,tail.exe,tee.exe,test.exe,touch.exe,tr.exe,true.exe,truncate.exe,tsort.exe,uname.exe,unexpand.exe,uniq.exe,unlink.exe,vdir.exe,wc.exe,whoami.exe"
   },
   {
     "name": "croc.exe",
     "description": "Easily and securely send things from one computer to another 🐊 📦",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/croc.exe",
     "size": "9.21 MB",
     "b3sum": "d80c143d7acb160ab817e15b22f638ec87d83ed530d2e9eb1e05c75ef73f3a1d",
@@ -1990,16 +2181,18 @@
     "repo_updated": "2024-09-17T13:39:36Z",
     "repo_released": "2024-09-01T22:24:23Z",
     "repo_version": "v10.0.12",
-    "repo_stars": "27682",
+    "repo_stars": "27683",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "data-transfer, file-sharing, golang, pake, peer-to-peer, tcp, transfer",
     "web_url": "https://github.com/schollz/croc",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "curl.exe",
     "description": "",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/curl.exe",
     "size": "7.6 MB",
     "b3sum": "49474e32dc2d2fb9e50f8734c3d484bf184c470b4fa600a7cc4d493de06a341a",
@@ -2016,11 +2209,13 @@
     "repo_license": "MIT License",
     "repo_topics": "curl, http-client, http3, http3-client",
     "web_url": "https://github.com/stunnel/static-curl",
+    "build_url": "",
     "extra_bins": "trurl.exe"
   },
   {
     "name": "trurl.exe",
     "description": "",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/trurl.exe",
     "size": "7.17 MB",
     "b3sum": "26386a10f4fce93932af6c782c396270402549ad92578c17f0320400057c08e5",
@@ -2037,11 +2232,13 @@
     "repo_license": "MIT License",
     "repo_topics": "curl, http-client, http3, http3-client",
     "web_url": "https://github.com/stunnel/static-curl",
+    "build_url": "",
     "extra_bins": "curl.exe"
   },
   {
     "name": "cutlines.exe",
     "description": "Cut & Paste Lines (from|to) file without $TEMPFILE even if another process is writing to it",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/cutlines.exe",
     "size": "2.07 MB",
     "b3sum": "26e3f08c883c7da252691407cda23df641604023b1a0818ae4a9822da5e6d767",
@@ -2049,11 +2246,13 @@
     "build_date": "2024-09-20T19:51:58",
     "repo_url": "",
     "web_url": "hhttps://github.com/Azathothas/Arsenal",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/cutlines.yaml",
     "extra_bins": ""
   },
   {
     "name": "dbbench.exe",
     "description": "a simple database benchmarking tool which supports several databases and own scripts",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dbbench.exe",
     "size": "30.53 MB",
     "b3sum": "df754c434051a29e83a5c3dc04486cb6cb4393ff8ec9eb662765ca21f560235e",
@@ -2070,11 +2269,13 @@
     "repo_license": "MIT License",
     "repo_topics": "benchmark, cassandra, cockroachdb, database, golang, hacktoberfest, mariadb, mssql, mysql, postgresql, scylladb, sqlite, stress-testing",
     "web_url": "https://github.com/sj14/dbbench",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "ddns-go.exe",
     "description": "Simple and easy to use DDNS",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ddns-go.exe",
     "size": "9.71 MB",
     "b3sum": "d4c00089cc47faeb83ba694fdba8c4701fdf795d4a6b535769717cced7e7244f",
@@ -2086,16 +2287,18 @@
     "repo_updated": "2024-09-13T06:28:26Z",
     "repo_released": "2024-08-29T12:49:51Z",
     "repo_version": "v6.7.0",
-    "repo_stars": "11422",
+    "repo_stars": "11424",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "alidns, baiduyun, cloudflare, ddns, ddns-go, dnspod, godaddy-ddns, google-domains, porkbun",
     "web_url": "https://github.com/jeessy2/ddns-go",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "deprun.exe",
     "description": "ldd for Windows - and more!",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/deprun.exe",
     "size": "3.07 MB",
     "b3sum": "fc24f2a9075342c2a3803386aad6ea614d4c6e31c4608d2b0206505d87e106bb",
@@ -2112,11 +2315,13 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "dependencies, dependencies-checking, dll, ldd, windows",
     "web_url": "https://github.com/marcoesposito1988/dependency_runner",
+    "build_url": "",
     "extra_bins": "wldd.exe"
   },
   {
     "name": "wldd.exe",
     "description": "ldd for Windows - and more!",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/wldd.exe",
     "size": "1.26 MB",
     "b3sum": "2389dfd3e8b369ceb63d20ae57325356faf80beb53f95d1dc983bf8cfcbd7248",
@@ -2133,11 +2338,13 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "dependencies, dependencies-checking, dll, ldd, windows",
     "web_url": "https://github.com/marcoesposito1988/dependency_runner",
+    "build_url": "",
     "extra_bins": "deprun.exe"
   },
   {
     "name": "dua.exe",
     "description": "(du) View disk space usage and delete unwanted data, fast.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dua.exe",
     "size": "1.66 MB",
     "b3sum": "e2977f194ca0ee2c55e3402d4311ad07556bda28aa8a475c56cf0edfa32be3a0",
@@ -2154,11 +2361,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cleaner, disk, efficient, fast, space-use, terminal-based",
     "web_url": "https://github.com/Byron/dua-cli",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "dufs.exe",
     "description": "A file server that supports static serving, uploading, searching, accessing control, webdav",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dufs.exe",
     "size": "3.69 MB",
     "b3sum": "73eb3d27075dd1b9d3f55cd83b749e5ca95ca782fcaf0c4086fe4698ea46a57d",
@@ -2175,11 +2384,13 @@
     "repo_license": "Other",
     "repo_topics": "cloud-disk, command-line, file-sharing, file-upload-server, rust, static-server, webdav, webdav-server",
     "web_url": "https://github.com/sigoden/dufs",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "dust.exe",
     "description": "A more intuitive version of du in rust",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/dust.exe",
     "size": "2.77 MB",
     "b3sum": "ac47de9ae46f89378fe3eab506855c43ac7f8180de80e7379d1b6d43f28680da",
@@ -2196,11 +2407,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "",
     "web_url": "https://github.com/bootandy/dust",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "eget.exe",
     "description": "Easily install prebuilt binaries from GitHub.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/eget.exe",
     "size": "7.35 MB",
     "b3sum": "2ae32d1aa48800c66e996854599cf9e08a97d9c5975b5be17dcd814f27b36235",
@@ -2217,11 +2430,13 @@
     "repo_license": "MIT License",
     "repo_topics": "command-line-tool, go, golang, installer, prebuilt-binaries",
     "web_url": "https://github.com/zyedidia/eget",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "err.exe",
     "description": "The Error Lookup Tool, also known as ERR, is a command-line tool to decode many Microsoft error codes. It does not require elevation and is very easy to use.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/err.exe",
     "size": "2.29 MB",
     "b3sum": "d50ceb6e263e622dac4661c1700073acb84222501033fc6d4f7038b78fce1c81",
@@ -2229,11 +2444,13 @@
     "build_date": "2024-09-20T19:52:16",
     "repo_url": "",
     "web_url": "https://www.microsoft.com/en-us/download/details.aspx?id=100432",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/err.yaml",
     "extra_bins": ""
   },
   {
     "name": "fastfetch.exe",
     "description": "Like neofetch, but much faster because written in C.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/fastfetch.exe",
     "size": "1.52 MB",
     "b3sum": "d0d7100688264bb0e1010825c6ac24d7c99a3c76b09d8d91291fd471b2537f8a",
@@ -2242,19 +2459,21 @@
     "repo_url": "https://github.com/fastfetch-cli/fastfetch",
     "repo_author": "fastfetch-cli",
     "repo_info": "An actively maintained, feature-rich and performance oriented, neofetch like system information tool.",
-    "repo_updated": "2024-09-20T08:31:29Z",
+    "repo_updated": "2024-09-21T15:05:01Z",
     "repo_released": "2024-09-19T02:36:09Z",
     "repo_version": "2.25.0",
-    "repo_stars": "9745",
+    "repo_stars": "9747",
     "repo_language": "C",
     "repo_license": "MIT License",
     "repo_topics": "command-line, fastfetch, fetch, flashfetch, hacktoberfest, neofetch, terminal",
     "web_url": "https://github.com/fastfetch-cli/fastfetch",
+    "build_url": "",
     "extra_bins": "flashfetch.exe"
   },
   {
     "name": "flashfetch.exe",
     "description": "Like neofetch, but much faster because written in C.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/flashfetch.exe",
     "size": "1.37 MB",
     "b3sum": "d14864141e5d7e6131b1062ca2fd5557eb10be51d332a948f7ebe8097c4a7c23",
@@ -2263,19 +2482,21 @@
     "repo_url": "https://github.com/fastfetch-cli/fastfetch",
     "repo_author": "fastfetch-cli",
     "repo_info": "An actively maintained, feature-rich and performance oriented, neofetch like system information tool.",
-    "repo_updated": "2024-09-20T08:31:29Z",
+    "repo_updated": "2024-09-21T15:05:01Z",
     "repo_released": "2024-09-19T02:36:09Z",
     "repo_version": "2.25.0",
-    "repo_stars": "9745",
+    "repo_stars": "9747",
     "repo_language": "C",
     "repo_license": "MIT License",
     "repo_topics": "command-line, fastfetch, fetch, flashfetch, hacktoberfest, neofetch, terminal",
     "web_url": "https://github.com/fastfetch-cli/fastfetch",
+    "build_url": "",
     "extra_bins": "fastfetch.exe"
   },
   {
     "name": "ffmpeg.exe",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ffmpeg.exe",
     "size": "146.94 MB",
     "b3sum": "8cd5b261b3b2ca454bcddf7048a7620859a7850a13a82ed7304b312b20108f28",
@@ -2283,11 +2504,13 @@
     "build_date": "2024-09-20T19:52:25",
     "repo_url": "",
     "web_url": "https://ffmpeg.org",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ffmpeg.yaml",
     "extra_bins": "ffprobe.exe"
   },
   {
     "name": "ffprobe.exe",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ffprobe.exe",
     "size": "146.82 MB",
     "b3sum": "e23f063ccccea32d0d45115536607dd071f9912c7e9138907c2bd7cd7fca3e58",
@@ -2295,11 +2518,13 @@
     "build_date": "2024-09-20T19:52:31",
     "repo_url": "",
     "web_url": "https://ffmpeg.org",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ffmpeg.yaml",
     "extra_bins": "ffmpeg.exe"
   },
   {
     "name": "find-rs.exe",
     "description": "Rust implementation of findutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/find-rs.exe",
     "size": "2.6 MB",
     "b3sum": "9a11481e6501db080b55d08418b70ca987b23e11fae6b993c75a5a38dcfd5fa6",
@@ -2316,11 +2541,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
+    "build_url": "",
     "extra_bins": "find.exe,xargs-rs.exe,xargs.exe"
   },
   {
     "name": "find.exe",
     "description": "Rust implementation of findutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/find.exe",
     "size": "2.6 MB",
     "b3sum": "ae56e15efda7501929f3f13d94d3ff4c4db414a624779a5f883147e950549323",
@@ -2337,11 +2564,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
+    "build_url": "",
     "extra_bins": "find-rs.exe,xargs-rs.exe,xargs.exe"
   },
   {
     "name": "xargs-rs.exe",
     "description": "Rust implementation of findutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/xargs-rs.exe",
     "size": "915.97 kB",
     "b3sum": "bb113896fee01c936520c7216691d5402b4e7bc3c6cf0f67dbfb54df7f712dac",
@@ -2358,11 +2587,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
+    "build_url": "",
     "extra_bins": "find-rs.exe,find.exe,xargs.exe"
   },
   {
     "name": "xargs.exe",
     "description": "Rust implementation of findutils",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/xargs.exe",
     "size": "915.97 kB",
     "b3sum": "39e113877d314f5cb16e1ccf665414357639886050efb7a6b4356a2ee46205e9",
@@ -2379,11 +2610,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cross-platform, findutils, rust",
     "web_url": "https://github.com/uutils/findutils",
+    "build_url": "",
     "extra_bins": "find-rs.exe,find.exe,xargs-rs.exe"
   },
   {
     "name": "gdu.exe",
     "description": "(ncdu) Fast disk usage analyzer with console interface written in Go",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/gdu.exe",
     "size": "14.54 MB",
     "b3sum": "1d63944c370aae8201f19dca4168a7728105c281b04eddc581249c07a328d78d",
@@ -2400,11 +2633,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, disk-usage, filesystem, golang, hacktoberfest",
     "web_url": "https://github.com/dundee/gdu",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "geodns.exe",
     "description": "Network tools that run from multiple geographic locations using the GeoNet API.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/geodns.exe",
     "size": "2.39 MB",
     "b3sum": "96143902e759df51a4975fbd447447dcb812a6ce883dde488b597374853751db",
@@ -2412,11 +2647,13 @@
     "build_date": "2024-09-20T19:52:37",
     "repo_url": "",
     "web_url": "https://gitlab.com/shodan-public/geonet-rs",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/geonet.yaml",
     "extra_bins": "geoping.exe"
   },
   {
     "name": "geoping.exe",
     "description": "Network tools that run from multiple geographic locations using the GeoNet API.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/geoping.exe",
     "size": "2.39 MB",
     "b3sum": "3ca6b4d60d3525e9873fe75268fb8464ebfdfddf0fbb98b0d4f936117a4984de",
@@ -2424,11 +2661,13 @@
     "build_date": "2024-09-20T19:52:39",
     "repo_url": "",
     "web_url": "https://gitlab.com/shodan-public/geonet-rs",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/geonet.yaml",
     "extra_bins": "geodns.exe"
   },
   {
     "name": "ein.exe",
     "description": "file archiver with a high compression ratio.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ein.exe",
     "size": "9.49 MB",
     "b3sum": "58b492459720e6548cfe98c56d983f899d812e9815f7f6d32dea4d4c0a0077f9",
@@ -2445,11 +2684,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "blazingly-fast, built-with-rust, cli, git, version-control",
     "web_url": "https://github.com/Byron/gitoxide",
+    "build_url": "",
     "extra_bins": "gix.exe"
   },
   {
     "name": "gix.exe",
     "description": "file archiver with a high compression ratio.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/gix.exe",
     "size": "18.97 MB",
     "b3sum": "0ae1d5a8c840fb6866481779aa5011e3764a9c09b03fc2c24b9dabda12f8cd03",
@@ -2466,11 +2707,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "blazingly-fast, built-with-rust, cli, git, version-control",
     "web_url": "https://github.com/Byron/gitoxide",
+    "build_url": "",
     "extra_bins": "ein.exe"
   },
   {
     "name": "hcloud.exe",
     "description": "A command-line interface for Hetzner Cloud",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/hcloud.exe",
     "size": "14.5 MB",
     "b3sum": "f3ead2e13dc0667ac24d5caf2529b2107fce5be079188616ef8ded1cfa4fb2d6",
@@ -2487,11 +2730,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, command-line, command-line-tool, commandline-interface, hcloud, hetzner, hetzner-cloud",
     "web_url": "https://github.com/hetznercloud/cli",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "hyperfine.exe",
     "description": "A command-line benchmarking tool",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/hyperfine.exe",
     "size": "1.33 MB",
     "b3sum": "a9d75238c7451f2cda66ecc40d1e04ba6d69af6ac6c0042022aec6570aaa2dc9",
@@ -2503,16 +2748,18 @@
     "repo_updated": "2024-09-01T02:42:12Z",
     "repo_released": "2023-10-05T08:07:11Z",
     "repo_version": "v1.18.0",
-    "repo_stars": "21556",
+    "repo_stars": "21558",
     "repo_language": "Rust",
     "repo_license": "Apache License 2.0",
     "repo_topics": "benchmark, cli, command-line, hacktoberfest, rust, terminal, tool",
     "web_url": "https://github.com/sharkdp/hyperfine",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "inscope.exe",
     "description": "filtering URLs and domains supplied on stdin to make sure they meet one of a set of regular expressions",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/inscope.exe",
     "size": "1.97 MB",
     "b3sum": "25dacdbfc9a2303776390d01fd4fbbc58bc4cb497d9e5b1b773701b1ed80fb46",
@@ -2520,11 +2767,13 @@
     "build_date": "2024-09-20T19:52:45",
     "repo_url": "",
     "web_url": "hhttps://github.com/Azathothas/Arsenal",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/inscope.yaml",
     "extra_bins": ""
   },
   {
     "name": "iperf3.exe",
     "description": "Command-line JSON processor",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/iperf3.exe",
     "size": "141.82 kB",
     "b3sum": "e61b44c1f61ceb89d8275625f595bd2a415c187fbb6636b13cc0e43a4bc654f8",
@@ -2541,11 +2790,13 @@
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://github.com/userdocs/iperf3-statichttps://github.com/userdocs/iperf3-static",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "jq.exe",
     "description": "Command-line JSON processor",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/jq.exe",
     "size": "985.09 kB",
     "b3sum": "392562ad8e627f85c7cc7bea95f5003a3a37892a8a29cd3cc101522f28655800",
@@ -2562,11 +2813,13 @@
     "repo_license": "Other",
     "repo_topics": "jq",
     "web_url": "https://github.com/jqlang/jq",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "jwt-cracker.exe",
     "description": "Faster & Better Cross Platform JWT Cracker",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/jwt-cracker.exe",
     "size": "2.08 MB",
     "b3sum": "93a9413b3a1aa29a337d96dfec4616d7dbbf1a1e14c652711e9b991e410ed256",
@@ -2583,11 +2836,13 @@
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://github.com/Azathothas/jwt-cracker",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "legba.exe",
     "description": "A multiprotocol credentials bruteforcer / password sprayer and enumerator. 🥷",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/legba.exe",
     "size": "21.85 MB",
     "b3sum": "e9a6e50506d01a42e05ceb035f05be841c9e72e6ab602004774c06aa8d605e1e",
@@ -2604,11 +2859,13 @@
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/evilsocket/legba",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "loclx.exe",
     "description": "reverse proxy that enables you to expose your localhost to the internet.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/loclx.exe",
     "size": "24.1 MB",
     "b3sum": "5de82e31f455ff4a13f41ac18f1e65907bb913dfb785d4417e4deb98eed703f3",
@@ -2616,11 +2873,13 @@
     "build_date": "2024-09-20T19:52:54",
     "repo_url": "",
     "web_url": "https://localxpose.io/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/localxpose.yaml",
     "extra_bins": "localexpose.exe"
   },
   {
     "name": "logstation.exe",
     "description": "Tail log files in web browser",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/logstation.exe",
     "size": "14.12 MB",
     "b3sum": "12dd0a3e939024053786473f28f20f7dc69f605014ea1935b93c2a36f8c64ada",
@@ -2637,11 +2896,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "go, golang, log, logfile, logging, logs, react, reactjs, server, tail, tailing, webui",
     "web_url": "https://github.com/jdrews/logstation",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "micro.exe",
     "description": "A modern and intuitive terminal-based text editor",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/micro.exe",
     "size": "11.88 MB",
     "b3sum": "d7dda7e4ad230fe9e944a3715daf82eee4998928ad086b9f5f7dac294fa0568c",
@@ -2653,16 +2914,18 @@
     "repo_updated": "2024-09-21T00:20:16Z",
     "repo_released": "2024-08-27T18:13:07Z",
     "repo_version": "v2.0.14",
-    "repo_stars": "24872",
+    "repo_stars": "24873",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "command-line, cross-platform, editor, go, golang, micro, terminal, text-editor",
     "web_url": "https://github.com/zyedidia/micro",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "miniserve.exe",
     "description": "Http Server",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/miniserve.exe",
     "size": "1.89 MB",
     "b3sum": "fa58899cb6b88fd9f54d8da9905ab03550df743ffc3da54c14e92773bde0e1bf",
@@ -2679,11 +2942,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, command-line, command-line-tool, http-server, serve, server, static-files",
     "web_url": "https://github.com/svenstaro/miniserve",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "monolith.exe",
     "description": "⬛️ CLI tool for saving complete web pages as a single HTML file",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/monolith.exe",
     "size": "5.21 MB",
     "b3sum": "c53d4c3ed008a56879ca3379a440c31974e41b7935d4adc02f43e6c7c9c80c5a",
@@ -2700,11 +2965,13 @@
     "repo_license": "Creative Commons Zero v1.0 Universal",
     "repo_topics": "come-and-take-it, e-hoarding, its-mine, make-the-internet-great-again, no-more-404, procrastination, save-the-internet, tab-rehab",
     "web_url": "https://github.com/Y2Z/monolith",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "ngrok.exe",
     "description": "External Tunnel to Internal Assets",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ngrok.exe",
     "size": "27.54 MB",
     "b3sum": "89eb5986baf0507723d2e3653656a6b67ab1a58bc06d1be2228db6c1c7815c80",
@@ -2712,11 +2979,13 @@
     "build_date": "2024-09-20T19:53:03",
     "repo_url": "",
     "web_url": "https://ngrok.com/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/ngrok.yaml",
     "extra_bins": ""
   },
   {
     "name": "miniooni.exe",
     "description": "OONI Probe Engine and CLI",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/miniooni.exe",
     "size": "56.84 MB",
     "b3sum": "593d5bf5d9ae5ba53580e7800f553d543064c1eff7b428ca18a0b76516f3faa8",
@@ -2733,11 +3002,13 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "",
     "web_url": "https://ooni.org",
+    "build_url": "",
     "extra_bins": "ooniprobe.exe"
   },
   {
     "name": "ooniprobe.exe",
     "description": "OONI Probe Engine and CLI",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/ooniprobe.exe",
     "size": "53.39 MB",
     "b3sum": "c27a1fd1fd134354ee2e6da8ef8e2b7b6277298aa3701b89068c0f4c50f57898",
@@ -2754,11 +3025,13 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "",
     "web_url": "https://ooni.org",
+    "build_url": "",
     "extra_bins": "miniooni.exe"
   },
   {
     "name": "pandoc.exe",
     "description": "Universal markup converter",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pandoc.exe",
     "size": "156.77 MB",
     "b3sum": "40ec6de411af2029a73b46b1af84f440eb7eb741bf41ec10afafe21c8c416a0d",
@@ -2770,16 +3043,18 @@
     "repo_updated": "2024-09-21T13:30:19Z",
     "repo_released": "2024-09-10T17:33:00Z",
     "repo_version": "3.4",
-    "repo_stars": "34040",
+    "repo_stars": "34042",
     "repo_language": "Haskell",
     "repo_license": "Other",
     "repo_topics": "commonmark, converter, document, haskell, markdown, markup, pandoc, presentation, publishing",
     "web_url": "https://github.com/jgm/pandoc",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "pdfcpu.exe",
     "description": "PDF processor",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pdfcpu.exe",
     "size": "11.99 MB",
     "b3sum": "7c3fde0e9b1ed32b316adb546196894623ae81653f1e59c757e9b720bb2a3230",
@@ -2796,11 +3071,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "go, golang, golang-library, pdf, pdf-files, pdf-lib, pdf-processor, pdflib, processor",
     "web_url": "https://github.com/pdfcpu/pdfcpu",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "pgrok.exe",
     "description": "multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pgrok.exe",
     "size": "10.17 MB",
     "b3sum": "a6d537d145bdf5a153e0bbc62dac836fbaccd5e96efb598dec3288c3f1530106",
@@ -2817,11 +3094,13 @@
     "repo_license": "MIT License",
     "repo_topics": "go, http, lsif-enabled, ngrok-alternative, oidc, pgrok, reverse-tunnel, ssh-tunnel, sso, tcp",
     "web_url": "https://github.com/pgrok/pgrok",
+    "build_url": "",
     "extra_bins": "pgrokd.exe"
   },
   {
     "name": "pgrokd.exe",
     "description": "multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pgrokd.exe",
     "size": "15.67 MB",
     "b3sum": "01fe1d97f5e79e3f3c1459db3c26612734e17eca8784d040c3888e6b7dad5c71",
@@ -2838,11 +3117,13 @@
     "repo_license": "MIT License",
     "repo_topics": "go, http, lsif-enabled, ngrok-alternative, oidc, pgrok, reverse-tunnel, ssh-tunnel, sso, tcp",
     "web_url": "https://github.com/pgrok/pgrok",
+    "build_url": "",
     "extra_bins": "pgrok.exe"
   },
   {
     "name": "picocrypt-gui.exe",
     "description": "A very small, very simple, yet very secure encryption tool",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/picocrypt-gui.exe",
     "size": "8.48 MB",
     "b3sum": "8193b6282f8fbc7dd8aa5d2a36436c5b2adc27f2d3b57bc3ab0c50a5b73e7dcc",
@@ -2859,11 +3140,13 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "argon2, blake2b, cryptography, encryption, file-encryption, golang, password, portable, privacy, privacy-tools, reed-solomon, security, security-tools, serpent, sha3, xchacha20",
     "web_url": "https://github.com/Picocrypt/Picocrypt",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "pingmole.exe",
     "description": "CLI that helps to filter pingmole servers and pick the closest one.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pingmole.exe",
     "size": "3.81 MB",
     "b3sum": "3d77b59570aede0f70413059e8a7c479bd2a5089b53950cb5a1e2dab4835990a",
@@ -2880,11 +3163,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, mullvad, rust",
     "web_url": "https://github.com/norskeld/pingmole",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "pingtunnel.exe",
     "description": "Pingtunnel is a tool that send TCP/UDP traffic over ICMP",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/pingtunnel.exe",
     "size": "8.98 MB",
     "b3sum": "ce3a833647d129cda2a8352bed56ebc31cf1a2b9e5bcabe99c2cbcbf7afdb03c",
@@ -2901,11 +3186,13 @@
     "repo_license": "MIT License",
     "repo_topics": "bypass, docker, icmp, icmp-traffic, ping, pingtunnel, socks5, tcp, tcp-pingtunnel, traffic, tunnel, udp, udp-traffic, wifi",
     "web_url": "https://github.com/esrrhs/pingtunnel",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "quotes-escaper.exe",
     "description": "Escape Single | Double Quotes",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/quotes-escaper.exe",
     "size": "1.71 MB",
     "b3sum": "1db3c9df258d38db2afe69b61ac16d3401d7151c0f7db019154b8ea4fb7ba004",
@@ -2913,11 +3200,13 @@
     "build_date": "2024-09-20T19:53:33",
     "repo_url": "",
     "web_url": "hhttps://github.com/Azathothas/Arsenal",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/quotes-escaper.yaml",
     "extra_bins": ""
   },
   {
     "name": "rg.exe",
     "description": "rust-grep",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/rg.exe",
     "size": "5.41 MB",
     "b3sum": "710c8f18407620a05a8692c37d428b20b72b9677d08f8b082fdfc0a7799300d3",
@@ -2929,16 +3218,18 @@
     "repo_updated": "2024-09-19T13:30:31Z",
     "repo_released": "2024-09-09T02:28:54Z",
     "repo_version": "14.1.1",
-    "repo_stars": "47747",
+    "repo_stars": "47749",
     "repo_language": "Rust",
     "repo_license": "The Unlicense",
     "repo_topics": "cli, command-line, command-line-tool, gitignore, grep, recursively-search, regex, ripgrep, rust, search",
     "web_url": "https://github.com/BurntSushi/ripgrep",
+    "build_url": "",
     "extra_bins": "ripgrep.exe"
   },
   {
     "name": "shell2http.exe",
     "description": "Executing shell commands via HTTP server",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/shell2http.exe",
     "size": "5.67 MB",
     "b3sum": "5e3bade8c5a91e189fa4ffa0c6d6b86f49ee763dcff70e3433eed7433ba28e08",
@@ -2955,11 +3246,13 @@
     "repo_license": "MIT License",
     "repo_topics": "bash, cli, docker, golang, http, proxy, server, shell",
     "web_url": "https://github.com/msoap/shell2http",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "sing-box.exe",
     "description": "The universal proxy platform",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/sing-box.exe",
     "size": "31.21 MB",
     "b3sum": "ea36e4e1f55afea037fc3e7dd9bc469de67ba828e88bd47deac329c1c2904c24",
@@ -2971,16 +3264,18 @@
     "repo_updated": "2024-09-21T11:20:27Z",
     "repo_released": "2024-09-21T11:20:00Z",
     "repo_version": "v1.9.6",
-    "repo_stars": "18608",
+    "repo_stars": "18611",
     "repo_language": "Go",
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/SagerNet/sing-box",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "sish.exe",
     "description": "HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/sish.exe",
     "size": "20.42 MB",
     "b3sum": "33b0441e5250eaad974bf844fa784b48cc3623d449b18f825ecd0d79aeab8d23",
@@ -2997,11 +3292,13 @@
     "repo_license": "MIT License",
     "repo_topics": "http, https, ngrok, serveo, ssh, tcp, tunnel, websockets",
     "web_url": "https://github.com/antoniomika/sish",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "smartdns-rs.exe",
     "description": "local DNS server (Dnsmasq like) written in rust to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/smartdns-rs.exe",
     "size": "9.19 MB",
     "b3sum": "40bcfb76de7bc3b8c79c633dd968959ea412e8a71b86ac5e070494645e71cac7",
@@ -3018,11 +3315,13 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "dns, dns-over-h3, dns-over-https, dns-over-quic, dns-over-tls, dns-server, dnsmasq, doh, dot, linux, macos, pi-hole, rust, smartdns, smartdns-rs, trust-dns, trustdns, windows",
     "web_url": "https://github.com/mokeyish/smartdns-rs",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "step.exe",
     "description": "🧰 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/step.exe",
     "size": "41.13 MB",
     "b3sum": "a269ff9d9d99fcd5be1c2daba54e02f79450762be756ca7660b30e1e119515d3",
@@ -3039,11 +3338,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "certificate, cryptography, encryption, jose, jwe, jws, jwt, mfa, oath, oauth, security, security-tools, ssh, sso, tls, totp, x509",
     "web_url": "https://github.com/smallstep/cli",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "stunner.exe",
     "description": "tool to test and exploit STUN, TURN and TURN over TCP servers.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/stunner.exe",
     "size": "7.46 MB",
     "b3sum": "ff41e6e8fa59a90b57af0e9982c476b8b7e7a82776bc22603f65df91c506ff3b",
@@ -3060,11 +3361,13 @@
     "repo_license": "Other",
     "repo_topics": "exploit, misconfiguration, security, stun, testing, tool, turn, webrtc",
     "web_url": "https://github.com/firefart/stunner",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "taierspeed-cli.exe",
     "description": "Speedtest cli for Tel Speed Test",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/taierspeed-cli.exe",
     "size": "8.39 MB",
     "b3sum": "fff24c9b5b6d0223689954c298f84d9115c61d9a86329763cf54cdb4190f8607",
@@ -3081,11 +3384,13 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "",
     "web_url": "https://github.com/ztelliot/taierspeed-cli",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "tssh.exe",
     "description": "an alternative to ssh client, offers additional useful features, such as login prompt, trzsz ( trz / tsz ), batch login, remember password, zmodem ( rz / sz ), etc.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/tssh.exe",
     "size": "14.31 MB",
     "b3sum": "abbda059938b1d94793019e1243607b8afe27a38a3fed8ab9eca41aeee1513c2",
@@ -3102,11 +3407,13 @@
     "repo_license": "MIT License",
     "repo_topics": "openssh, openssh-client, rz, ssh, ssh-client, sz, tmux, trz, trzsz, tsz, zmodem",
     "web_url": "https://github.com/trzsz/trzsz-ssh",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "tusd.exe",
     "description": "Server for tus, the open protocol for resumable file uploads",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/tusd.exe",
     "size": "31.69 MB",
     "b3sum": "bd95dde63f94a28caf60b7e62b80155dc835d043d39bc5f5db9ec692e7f760f3",
@@ -3123,11 +3430,13 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/tus/tusd",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "wget2.exe",
     "description": "The successor of GNU Wget.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/wget2.exe",
     "size": "4.61 MB",
     "b3sum": "f89db1af19d9c08f4cf4bfbb84065886e6c922141bb53b3ecc6bb88b29f41431",
@@ -3144,11 +3453,13 @@
     "repo_license": "GNU Lesser General Public License v3.0",
     "repo_topics": "hacktoberfest",
     "web_url": "https://github.com/rockdaboot/wget2",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "yt-dlp.exe",
     "description": "A feature-rich command-line audio/video downloader",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/yt-dlp.exe",
     "size": "180.22 kB",
     "b3sum": "feadf7f4663d833e8c4613e458c8062eea681b3cb0aaf6d8221f604e5c902e2a",
@@ -3160,16 +3471,18 @@
     "repo_updated": "2024-09-17T19:17:05Z",
     "repo_released": "2024-08-06T03:09:46Z",
     "repo_version": "2024.08.06",
-    "repo_stars": "82958",
+    "repo_stars": "82959",
     "repo_language": "Python",
     "repo_license": "The Unlicense",
     "repo_topics": "python, sponskrub, sponsorblock, video-downloader, youtube-dl, youtube-dlc, youtube-downloader, yt-dlp",
     "web_url": "https://github.com/yt-dlp/yt-dlp",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "zfind.exe",
     "description": "Search for files (even inside tar/zip/7z/rar) using a SQL-WHERE filter",
+    "note": "",
     "download_url": "https://bin.ajam.dev/x64_Windows/zfind.exe",
     "size": "8.38 MB",
     "b3sum": "7ab861e6fc66fa5feec08fe062f2932a3a0725795dbd67783f934f893bc3b42f",
@@ -3186,6 +3499,7 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, find, sql",
     "web_url": "https://github.com/laktak/zfind",
+    "build_url": "",
     "extra_bins": ""
   }
 ]

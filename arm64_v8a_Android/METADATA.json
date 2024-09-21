@@ -2,6 +2,7 @@
   {
     "name": "act",
     "description": "Run your GitHub Actions locally",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/act",
     "size": "19.31 MB",
     "b3sum": "be42c585683ca027577242180f8ca73042124045266c66282ebd4865c1e4152f",
@@ -13,16 +14,18 @@
     "repo_updated": "2024-09-19T21:36:11Z",
     "repo_released": "2024-09-10T18:21:52Z",
     "repo_version": "v0.2.67",
-    "repo_stars": "54051",
+    "repo_stars": "54053",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "ci, devops, github-actions, golang",
     "web_url": "https://github.com/nektos/act",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "actionlint",
     "description": "Static checker for GitHub Actions workflow files",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/actionlint",
     "size": "5.38 MB",
     "b3sum": "747a57a1bc57d6348b2d9af55c0106696922cbcbdbbae25e8f78a0c3fd769f72",
@@ -39,11 +42,13 @@
     "repo_license": "MIT License",
     "repo_topics": "actions, ci, github-actions, lint, linter",
     "web_url": "https://github.com/rhysd/actionlint",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "adig",
     "description": "A command-line tool that allows you to perform DNS lookups from the command line",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/adig",
     "size": "186.01 kB",
     "b3sum": "00ddbeda26843fcd807b897a02f82fdb6bf29bfe1f66f710735a24ffa5f291b2",
@@ -60,11 +65,13 @@
     "repo_license": "MIT License",
     "repo_topics": "async, c, dns, dns-queries, library, resolver",
     "web_url": "https://github.com/c-ares/c-ares",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "anew-rs",
     "description": "A fast, simple, recursive content discovery tool written in Rust.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/anew-rs",
     "size": "968.48 kB",
     "b3sum": "e829e92fdf23c567ed71cf97b0246dc629f4933301e9a4a705d9580103faa543",
@@ -81,11 +88,13 @@
     "repo_license": "MIT License",
     "repo_topics": "",
     "web_url": "https://github.com/zer0yu/anew",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "axel",
     "description": "A lightweight download accelerator",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/axel",
     "size": "3.76 MB",
     "b3sum": "7a4d13263a6b40b9308aa882bd4d5e05b1cd5cea615953fd4e95afc7d45e35dc",
@@ -102,11 +111,13 @@
     "repo_license": "",
     "repo_topics": "",
     "web_url": "https://github.com/axel/axel",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "b3sum",
     "description": "A command line utility for calculating BLAKE3 hashes",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/b3sum",
     "size": "1.28 MB",
     "b3sum": "3ac1f14b8344d6d4fd4255340bc5b956a33763491025c096e8ceb9519d19b974",
@@ -123,11 +134,13 @@
     "repo_license": "Apache License 2.0",
     "repo_topics": "",
     "web_url": "https://github.com/BLAKE3-team/BLAKE3",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "bash",
     "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/bash",
     "size": "1.78 MB",
     "b3sum": "4c1e227916006d07f5e84b948bbc9e98a848d0056277e98ebc17f07e44c3989a",
@@ -135,11 +148,13 @@
     "build_date": "2024-09-20T19:04:34",
     "repo_url": "",
     "web_url": "https://www.bash.ws/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/bash.yaml",
     "extra_bins": ""
   },
   {
     "name": "busybox",
     "description": "A Software Suite that provides Several Unix Utilities in a single Executable",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/busybox",
     "size": "1.54 MB",
     "b3sum": "3e570fd3328e66364f2c7fe6effefb7b9660d1d104d467ef7a0ce0cd87b4149b",
@@ -147,11 +162,13 @@
     "build_date": "2024-09-20T19:05:50",
     "repo_url": "",
     "web_url": "https://www.busybox.net/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.yaml",
     "extra_bins": "[,[[,acpid,add_shell,addgroup,adduser,adjtimex,arch,arp,arping,ascii,ash,awk,base32,base64,basename,bb_arch,bb_sysctl,bc,beep,blkdiscard,blkid,blockdev,bootchartd,brctl,bunzip2,bzcat,bzip2,cal,cat,chat,chattr,chgrp,chmod,chown,chpasswd,chpst,chroot,chrt,chvt,cksum,clear,cmp,comm,conspy,cp,cpio,crc32,crond,crontab,cryptpw,cttyhack,cut,date,dc,dd,deallocvt,delgroup,deluser,depmod,devmem,df,dhcprelay,diff,dirname,dmesg,dnsd,dnsdomainname,dos2unix,dpkg,dpkg_deb,du,dumpkmap,dumpleases,echo,ed,egrep,eject,env,envdir,envuidgid,ether_wake,expand,expr,factor,fakeidentd,fallocate,false,fatattr,fbset,fbsplash,fdflush,fdformat,fdisk,fgconsole,fgrep,find,findfs,flock,fold,free,freeramdisk,fsck,fsck_minix,fsfreeze,fstrim,fsync,ftpd,ftpget,ftpput,fuser,getfattr,getopt,getty,grep,groups,gunzip,gzip,halt,hd,hdparm,head,hexdump,hexedit,hostid,hostname,httpd,hush,hwclock,i2cdetect,i2cdump,i2cget,i2cset,i2ctransfer,id,ifconfig,ifdown,ifenslave,ifplugd,ifup,inetd,init,insmod,install,ionice,iostat,ip,ipaddr,ipcalc,ipcrm,ipcs,iplink,ipneigh,iproute,iprule,iptunnel,kbd_mode,kill,killall,killall5,klogd,last,less,link,linux32,linux64,linuxrc,ln,loadfont,loadkmap,logger,login,logname,logread,losetup,lpd,lpq,lpr,ls,lsattr,lsmod,lsof,lspci,lsscsi,lsusb,lzcat,lzma,lzop,makedevs,makemime,man,md5sum,mdev,mesg,microcom,mim,mkdir,mkdosfs,mke2fs,mkfifo,mkfs_ext2,mkfs_minix,mkfs_vfat,mknod,mkpasswd,mkswap,mktemp,modinfo,modprobe,more,mount,mountpoint,mpstat,mt,mv,nameif,nanddump,nandwrite,nbdclient,nc,netstat,nice,nl,nmeter,nohup,nologin,nproc,nsenter,nslookup,ntpd,od,openvt,partprobe,passwd,paste,patch,pgrep,pidof,ping,ping6,pipe_progress,pivot_root,pkill,pmap,popmaildir,poweroff,powertop,printenv,printf,ps,pscan,pstree,pwd,pwdx,raidautorun,rdate,rdev,readahead,readlink,readprofile,realpath,reboot,reformime,remove_shell,renice,reset,resize,resume,rev,rm,rmdir,rmmod,route,rpm,rpm2cpio,rtcwake,run_init,run_parts,runlevel,runsv,runsvdir,rx,script,scriptreplay,sed,seedrng,sendmail,seq,setarch,setconsole,setfattr,setfont,setkeycodes,setlogcons,setpriv,setserial,setsid,setuidgid,sh,sh_is_ash,sha1sum,sha256sum,sha3sum,sha512sum,showkey,shred,shuf,slattach,sleep,smemcap,softlimit,sort,split,ssl_client,start_stop_daemon,stat,strings,stty,su,sulogin,sum,sv,svc,svlogd,svok,swapoff,swapon,switch_root,sync,sysctl,syslogd,tac,tail,tar,taskset,tc,tcpsvd,tee,telnet,telnetd,test,test1,test2,tftp,tftpd,time,timeout,top,touch,tr,traceroute,traceroute6,tree,true,truncate,ts,tsort,tty,ttysize,tunctl,ubiattach,ubidetach,ubimkvol,ubirename,ubirmvol,ubirsvol,ubiupdatevol,udhcpc,udhcpc6,udhcpd,udpsvd,uevent,umount,uname,unexpand,uniq,unix2dos,unlink,unlzma,unshare,unxz,unzip,uptime,users,usleep,uudecode,uuencode,vconfig,vi,vlock,volname,w,wall,watch,watchdog,wc,wget,which,who,whoami,whois,xargs,xxd,xz,xzcat,yes,zcat,zcip"
   },
   {
     "name": "wget",
     "description": "A Software Suite that provides Several Unix Utilities in a single Executable",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/wget",
     "size": "5.83 MB",
     "b3sum": "f7ad7f72346e11a51da4a382603d334d9c1b06657036e70f57431c8ba3cacc22",
@@ -159,11 +176,13 @@
     "build_date": "2024-09-20T19:40:36",
     "repo_url": "",
     "web_url": "https://www.busybox.net/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.yaml",
     "extra_bins": "[,[[,acpid,add_shell,addgroup,adduser,adjtimex,arch,arp,arping,ascii,ash,awk,base32,base64,basename,bb_arch,bb_sysctl,bc,beep,blkdiscard,blkid,blockdev,bootchartd,brctl,bunzip2,busybox,bzcat,bzip2,cal,cat,chat,chattr,chgrp,chmod,chown,chpasswd,chpst,chroot,chrt,chvt,cksum,clear,cmp,comm,conspy,cp,cpio,crc32,crond,crontab,cryptpw,cttyhack,cut,date,dc,dd,deallocvt,delgroup,deluser,depmod,devmem,df,dhcprelay,diff,dirname,dmesg,dnsd,dnsdomainname,dos2unix,dpkg,dpkg_deb,du,dumpkmap,dumpleases,echo,ed,egrep,eject,env,envdir,envuidgid,ether_wake,expand,expr,factor,fakeidentd,fallocate,false,fatattr,fbset,fbsplash,fdflush,fdformat,fdisk,fgconsole,fgrep,find,findfs,flock,fold,free,freeramdisk,fsck,fsck_minix,fsfreeze,fstrim,fsync,ftpd,ftpget,ftpput,fuser,getfattr,getopt,getty,grep,groups,gunzip,gzip,halt,hd,hdparm,head,hexdump,hexedit,hostid,hostname,httpd,hush,hwclock,i2cdetect,i2cdump,i2cget,i2cset,i2ctransfer,id,ifconfig,ifdown,ifenslave,ifplugd,ifup,inetd,init,insmod,install,ionice,iostat,ip,ipaddr,ipcalc,ipcrm,ipcs,iplink,ipneigh,iproute,iprule,iptunnel,kbd_mode,kill,killall,killall5,klogd,last,less,link,linux32,linux64,linuxrc,ln,loadfont,loadkmap,logger,login,logname,logread,losetup,lpd,lpq,lpr,ls,lsattr,lsmod,lsof,lspci,lsscsi,lsusb,lzcat,lzma,lzop,makedevs,makemime,man,md5sum,mdev,mesg,microcom,mim,mkdir,mkdosfs,mke2fs,mkfifo,mkfs_ext2,mkfs_minix,mkfs_vfat,mknod,mkpasswd,mkswap,mktemp,modinfo,modprobe,more,mount,mountpoint,mpstat,mt,mv,nameif,nanddump,nandwrite,nbdclient,nc,netstat,nice,nl,nmeter,nohup,nologin,nproc,nsenter,nslookup,ntpd,od,openvt,partprobe,passwd,paste,patch,pgrep,pidof,ping,ping6,pipe_progress,pivot_root,pkill,pmap,popmaildir,poweroff,powertop,printenv,printf,ps,pscan,pstree,pwd,pwdx,raidautorun,rdate,rdev,readahead,readlink,readprofile,realpath,reboot,reformime,remove_shell,renice,reset,resize,resume,rev,rm,rmdir,rmmod,route,rpm,rpm2cpio,rtcwake,run_init,run_parts,runlevel,runsv,runsvdir,rx,script,scriptreplay,sed,seedrng,sendmail,seq,setarch,setconsole,setfattr,setfont,setkeycodes,setlogcons,setpriv,setserial,setsid,setuidgid,sh,sh_is_ash,sha1sum,sha256sum,sha3sum,sha512sum,showkey,shred,shuf,slattach,sleep,smemcap,softlimit,sort,split,ssl_client,start_stop_daemon,stat,strings,stty,su,sulogin,sum,sv,svc,svlogd,svok,swapoff,swapon,switch_root,sync,sysctl,syslogd,tac,tail,tar,taskset,tc,tcpsvd,tee,telnet,telnetd,test,test1,test2,tftp,tftpd,time,timeout,top,touch,tr,traceroute,traceroute6,tree,true,truncate,ts,tsort,tty,ttysize,tunctl,ubiattach,ubidetach,ubimkvol,ubirename,ubirmvol,ubirsvol,ubiupdatevol,udhcpc,udhcpc6,udhcpd,udpsvd,uevent,umount,uname,unexpand,uniq,unix2dos,unlink,unlzma,unshare,unxz,unzip,uptime,users,usleep,uudecode,uuencode,vconfig,vi,vlock,volname,w,wall,watch,watchdog,wc,which,who,whoami,whois,xargs,xxd,xz,xzcat,yes,zcat,zcip"
   },
   {
     "name": "xxd",
     "description": "A Software Suite that provides Several Unix Utilities in a single Executable",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/xxd",
     "size": "451.62 kB",
     "b3sum": "3027277a321b2c28844f0fde52022d7b88c973d4b943f4f8cdbe2ad56438d0fa",
@@ -171,11 +190,13 @@
     "build_date": "2024-09-05T13:24:53",
     "repo_url": "",
     "web_url": "https://www.busybox.net/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.yaml",
     "extra_bins": "[,[[,acpid,add_shell,addgroup,adduser,adjtimex,arch,arp,arping,ascii,ash,awk,base32,base64,basename,bb_arch,bb_sysctl,bc,beep,blkdiscard,blkid,blockdev,bootchartd,brctl,bunzip2,busybox,bzcat,bzip2,cal,cat,chat,chattr,chgrp,chmod,chown,chpasswd,chpst,chroot,chrt,chvt,cksum,clear,cmp,comm,conspy,cp,cpio,crc32,crond,crontab,cryptpw,cttyhack,cut,date,dc,dd,deallocvt,delgroup,deluser,depmod,devmem,df,dhcprelay,diff,dirname,dmesg,dnsd,dnsdomainname,dos2unix,dpkg,dpkg_deb,du,dumpkmap,dumpleases,echo,ed,egrep,eject,env,envdir,envuidgid,ether_wake,expand,expr,factor,fakeidentd,fallocate,false,fatattr,fbset,fbsplash,fdflush,fdformat,fdisk,fgconsole,fgrep,find,findfs,flock,fold,free,freeramdisk,fsck,fsck_minix,fsfreeze,fstrim,fsync,ftpd,ftpget,ftpput,fuser,getfattr,getopt,getty,grep,groups,gunzip,gzip,halt,hd,hdparm,head,hexdump,hexedit,hostid,hostname,httpd,hush,hwclock,i2cdetect,i2cdump,i2cget,i2cset,i2ctransfer,id,ifconfig,ifdown,ifenslave,ifplugd,ifup,inetd,init,insmod,install,ionice,iostat,ip,ipaddr,ipcalc,ipcrm,ipcs,iplink,ipneigh,iproute,iprule,iptunnel,kbd_mode,kill,killall,killall5,klogd,last,less,link,linux32,linux64,linuxrc,ln,loadfont,loadkmap,logger,login,logname,logread,losetup,lpd,lpq,lpr,ls,lsattr,lsmod,lsof,lspci,lsscsi,lsusb,lzcat,lzma,lzop,makedevs,makemime,man,md5sum,mdev,mesg,microcom,mim,mkdir,mkdosfs,mke2fs,mkfifo,mkfs_ext2,mkfs_minix,mkfs_vfat,mknod,mkpasswd,mkswap,mktemp,modinfo,modprobe,more,mount,mountpoint,mpstat,mt,mv,nameif,nanddump,nandwrite,nbdclient,nc,netstat,nice,nl,nmeter,nohup,nologin,nproc,nsenter,nslookup,ntpd,od,openvt,partprobe,passwd,paste,patch,pgrep,pidof,ping,ping6,pipe_progress,pivot_root,pkill,pmap,popmaildir,poweroff,powertop,printenv,printf,ps,pscan,pstree,pwd,pwdx,raidautorun,rdate,rdev,readahead,readlink,readprofile,realpath,reboot,reformime,remove_shell,renice,reset,resize,resume,rev,rm,rmdir,rmmod,route,rpm,rpm2cpio,rtcwake,run_init,run_parts,runlevel,runsv,runsvdir,rx,script,scriptreplay,sed,seedrng,sendmail,seq,setarch,setconsole,setfattr,setfont,setkeycodes,setlogcons,setpriv,setserial,setsid,setuidgid,sh,sh_is_ash,sha1sum,sha256sum,sha3sum,sha512sum,showkey,shred,shuf,slattach,sleep,smemcap,softlimit,sort,split,ssl_client,start_stop_daemon,stat,strings,stty,su,sulogin,sum,sv,svc,svlogd,svok,swapoff,swapon,switch_root,sync,sysctl,syslogd,tac,tail,tar,taskset,tc,tcpsvd,tee,telnet,telnetd,test,test1,test2,tftp,tftpd,time,timeout,top,touch,tr,traceroute,traceroute6,tree,true,truncate,ts,tsort,tty,ttysize,tunctl,ubiattach,ubidetach,ubimkvol,ubirename,ubirmvol,ubirsvol,ubiupdatevol,udhcpc,udhcpc6,udhcpd,udpsvd,uevent,umount,uname,unexpand,uniq,unix2dos,unlink,unlzma,unshare,unxz,unzip,uptime,users,usleep,uudecode,uuencode,vconfig,vi,vlock,volname,w,wall,watch,watchdog,wc,wget,which,who,whoami,whois,xargs,xz,xzcat,yes,zcat,zcip"
   },
   {
     "name": "curl",
     "description": "A command line tool for transferring files with URL syntax",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/curl",
     "size": "5.36 MB",
     "b3sum": "d9279776e9d8171e0192ae6f29b8be82cb0130b403dc9a20afb96bc220f4760f",
@@ -192,11 +213,13 @@
     "repo_license": "Other",
     "repo_topics": "c, client, curl, ftp, gopher, hacktoberfest, http, https, imaps, ldap, libcurl, library, mqtt, pop3, scp, sftp, transfer-data, transferring-data, user-agent, websocket",
     "web_url": "https://github.com/curl/curl",
+    "build_url": "",
     "extra_bins": "curl_cacert.pem"
   },
   {
     "name": "curl_cacert.pem",
     "description": "A command line tool for transferring files with URL syntax",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/curl_cacert.pem",
     "size": "228.63 kB",
     "b3sum": "d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e",
@@ -213,11 +236,13 @@
     "repo_license": "Other",
     "repo_topics": "c, client, curl, ftp, gopher, hacktoberfest, http, https, imaps, ldap, libcurl, library, mqtt, pop3, scp, sftp, transfer-data, transferring-data, user-agent, websocket",
     "web_url": "https://github.com/curl/curl",
+    "build_url": "",
     "extra_bins": "curl"
   },
   {
     "name": "dbin",
     "description": "📦 Poor mans package manager.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/dbin",
     "size": "7.37 MB",
     "b3sum": "6ea5eb806395c665e222c6198829e31a8e217ec12d3fdac132158cb57d78f330",
@@ -234,11 +259,13 @@
     "repo_license": "Other",
     "repo_topics": "binary-manager, cli, cool, dependency-checker, fast, go, no-config, no-install, package-management, package-manager, package-manager-tool, portable, portable-package-manager, runner, standalone, static, suckless",
     "web_url": "https://github.com/xplshn/dbin",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "jless",
     "description": "command-line JSON viewer designed for reading, exploring, and searching through JSON data.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/jless",
     "size": "2.03 MB",
     "b3sum": "11968e37028a57353efbba052401a3679ee0dc604f7515a052ddebae5ad1dace",
@@ -255,11 +282,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, json, rust",
     "web_url": "https://github.com/PaulJuliusMartinez/jless",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "pingmole",
     "description": "CLI that helps to filter pingmole servers and pick the closest one.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/pingmole",
     "size": "6.96 MB",
     "b3sum": "4e8fbc5632bc3920792f91f6ae5a107eacb83934c1419caf8c9a8c8a296e3ed8",
@@ -276,11 +305,13 @@
     "repo_license": "MIT License",
     "repo_topics": "cli, mullvad, rust",
     "web_url": "https://github.com/norskeld/pingmole",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "pspy",
     "description": "Monitor linux processes without root permissions",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/pspy",
     "size": "4.02 MB",
     "b3sum": "363fc12bc08d6c611bd08c4b20d603c2d89cbe4ad077be211b2617cce730f85c",
@@ -297,11 +328,13 @@
     "repo_license": "GNU General Public License v3.0",
     "repo_topics": "ctf, enumeration, golang, pentesting, privesc, security",
     "web_url": "https://github.com/DominicBreuker/pspy",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "rclone",
     "description": "Rsync for cloud storage",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/rclone",
     "size": "85.87 MB",
     "b3sum": "ba769f6a3af6fbbb0e2e9d5a792361c1b0f08e61d94cdc3c0897f7894022e6ff",
@@ -313,16 +346,18 @@
     "repo_updated": "2024-09-21T01:22:31Z",
     "repo_released": "2024-09-08T16:22:08Z",
     "repo_version": "v1.68.0",
-    "repo_stars": "46232",
+    "repo_stars": "46236",
     "repo_language": "Go",
     "repo_license": "MIT License",
     "repo_topics": "azure-blob, azure-blob-storage, azure-files, backblaze-b2, cloud-storage, dropbox, encryption, ftp, fuse-filesystem, go, golang, google-cloud-storage, google-drive, onedrive, openstack-swift, rclone, s3, sftp, sync, webdav",
     "web_url": "https://github.com/rclone/rclone",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "rsync",
     "description": "An open source utility that provides fast incremental file transfer.",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/rsync",
     "size": "5.26 MB",
     "b3sum": "57acfb4fd7934b3968945cc51c8bd874287e62bbbd995e50803768f5ebcdf74b",
@@ -334,16 +369,18 @@
     "repo_updated": "2024-07-06T04:30:43Z",
     "repo_released": "",
     "repo_version": "v3.3.0",
-    "repo_stars": "2721",
+    "repo_stars": "2722",
     "repo_language": "C",
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/WayneD/rsync",
+    "build_url": "",
     "extra_bins": "rsync-ssl"
   },
   {
     "name": "sudo",
     "description": "Download with resuming and segmented downloading",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/sudo",
     "size": "250.38 kB",
     "b3sum": "261a7ec6cf5ed2fbc82f8128f2583eda7faeb8939b9e08143046f0b046e504ae",
@@ -360,11 +397,13 @@
     "repo_license": "MIT License",
     "repo_topics": "bash, tasker, termux, termux-tasker",
     "web_url": "https://github.com/agnostic-apollo/sudo",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/tailscale",
     "size": "12.46 MB",
     "b3sum": "e96ea76c30d5e81e52a2bceec93078c582949fe8c3fc0d96787c3aad2e4f6ab5",
@@ -376,16 +415,18 @@
     "repo_updated": "2024-09-20T23:30:33Z",
     "repo_released": "2024-09-18T19:27:02Z",
     "repo_version": "v1.74.1",
-    "repo_stars": "18661",
+    "repo_stars": "18660",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
+    "build_url": "",
     "extra_bins": "tailscale_combined,tailscaled"
   },
   {
     "name": "tailscale_combined",
     "description": "The easiest, most secure way to use WireGuard and 2FA",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/tailscale_combined",
     "size": "26.74 MB",
     "b3sum": "1587dafc709c37aab20a507dbf667b0083df56ccfc3b1eb2f74cbc357f1ce19b",
@@ -397,16 +438,18 @@
     "repo_updated": "2024-09-20T23:30:33Z",
     "repo_released": "2024-09-18T19:27:02Z",
     "repo_version": "v1.74.1",
-    "repo_stars": "18661",
+    "repo_stars": "18660",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
+    "build_url": "",
     "extra_bins": "tailscale,tailscaled"
   },
   {
     "name": "tailscaled",
     "description": "The easiest, most secure way to use WireGuard and 2FA",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/tailscaled",
     "size": "24.61 MB",
     "b3sum": "f54599d561075348fe421cdc0f3c2a6a1c70777ed36f36872679c76563afb235",
@@ -418,16 +461,18 @@
     "repo_updated": "2024-09-20T23:30:33Z",
     "repo_released": "2024-09-18T19:27:02Z",
     "repo_version": "v1.74.1",
-    "repo_stars": "18661",
+    "repo_stars": "18660",
     "repo_language": "Go",
     "repo_license": "BSD 3-Clause New or Revised License",
     "repo_topics": "2fa, oauth, sso, tailscale, vpn, wireguard",
     "web_url": "https://github.com/tailscale/tailscale",
+    "build_url": "",
     "extra_bins": "tailscale,tailscale_combined"
   },
   {
     "name": "vim",
     "description": "Vi IMproved - enhanced vi editor",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/vim",
     "size": "5.07 MB",
     "b3sum": "4ebdc629bad60b0f442fde2cce1c73aac2be821746ae9cd4afd0112c53b9e546",
@@ -439,16 +484,18 @@
     "repo_updated": "2024-09-21T09:40:57Z",
     "repo_released": "",
     "repo_version": "v9.1.0739",
-    "repo_stars": "36122",
+    "repo_stars": "36124",
     "repo_language": "Vim Script",
     "repo_license": "Vim License",
     "repo_topics": "c, cross-platform, text-editor, vim",
     "web_url": "https://github.com/vim/vim",
+    "build_url": "",
     "extra_bins": ""
   },
   {
     "name": "wget",
     "description": "Tool for retrieving files using HTTP, HTTPS, and FTP",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/wget",
     "size": "5.83 MB",
     "b3sum": "f7ad7f72346e11a51da4a382603d334d9c1b06657036e70f57431c8ba3cacc22",
@@ -456,11 +503,13 @@
     "build_date": "2024-09-20T19:40:36",
     "repo_url": "",
     "web_url": "https://www.gnu.org/software/wget/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.yaml",
     "extra_bins": "wget_cacert.pem"
   },
   {
     "name": "wget_cacert.pem",
     "description": "Tool for retrieving files using HTTP, HTTPS, and FTP",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/wget_cacert.pem",
     "size": "228.63 kB",
     "b3sum": "d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e",
@@ -468,11 +517,13 @@
     "build_date": "2024-09-05T13:28:34",
     "repo_url": "",
     "web_url": "https://www.gnu.org/software/wget/",
+    "build_script": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/wget.yaml",
     "extra_bins": "wget"
   },
   {
     "name": "zsh",
     "description": "Z Shell",
+    "note": "",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/zsh",
     "size": "1.8 MB",
     "b3sum": "35a34d412b56d5c113ab3af3e8f56fa11f045fead4be36f6bdbc03ee53be43ee",
@@ -489,6 +540,7 @@
     "repo_license": "Other",
     "repo_topics": "",
     "web_url": "https://github.com/zsh-users/zsh",
+    "build_url": "",
     "extra_bins": ""
   }
 ]
