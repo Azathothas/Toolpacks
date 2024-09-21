@@ -1,5 +1,6 @@
 name: "agrind(angle-grinder)"
 description: "Slice and dice logs on the command line"
+note: ""
 web_url: "https://github.com/rcoh/angle-grinder"
 repo_url: "https://github.com/rcoh/angle-grinder"
 path: "/"

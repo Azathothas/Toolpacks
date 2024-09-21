@@ -1,5 +1,6 @@
 name: "shortscan"
 description: "An IIS short filename enumeration tool"
+note: ""
 web_url: "https://github.com/bitquark/shortscan"
 repo_url: "https://github.com/bitquark/shortscan"
 path: "/"

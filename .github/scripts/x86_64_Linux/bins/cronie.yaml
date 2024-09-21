@@ -1,5 +1,6 @@
 name: "cronie"
 description: "Cronie cron daemon project"
+note: ""
 web_url: "https://github.com/cronie-crond/cronie"
 repo_url: "https://github.com/cronie-crond/cronie"
 path: "/"

@@ -1,5 +1,6 @@
 name: "naabu"
 description: "A fast port scanner written in go with a focus on reliability and simplicity"
+note: ""
 web_url: "https://github.com/projectdiscovery/naabu"
 repo_url: "https://github.com/projectdiscovery/naabu"
 path: "/"

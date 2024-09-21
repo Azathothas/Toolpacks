@@ -1,5 +1,6 @@
 name: "sshx"
 description: "Fast, collaborative live terminal sharing over the web"
+note: ""
 web_url: "https://github.com/ekzhang/sshx"
 repo_url: "https://github.com/ekzhang/sshx"
 path: "/"

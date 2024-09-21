@@ -1,5 +1,6 @@
 name: "ffmpeg"
 description: "Static build of ffmpeg"
+note: ""
 web_url: "https://github.com/eugeneware/ffmpeg-static"
 repo_url: "https://github.com/eugeneware/ffmpeg-static"
 path: "/"

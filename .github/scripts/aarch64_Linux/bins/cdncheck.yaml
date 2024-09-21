@@ -1,5 +1,6 @@
 name: "cdncheck"
 description: "A utility to detect various technology for a given IP address."
+note: ""
 web_url: "https://github.com/projectdiscovery/cdncheck"
 repo_url: "https://github.com/projectdiscovery/cdncheck"
 path: "/"

@@ -1,5 +1,6 @@
 name: "xbps"
 description: "Void Package Builder|Installer"
+note: ""
 web_url: "https://github.com/void-linux/xbps"
 repo_url: "https://github.com/void-linux/xbps"
 path: "/"

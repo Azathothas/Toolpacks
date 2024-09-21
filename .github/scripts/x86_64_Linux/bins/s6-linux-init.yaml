@@ -1,5 +1,6 @@
 name: "s6-linux-init"
 description: "A set of minimalistic tools used to create a s6-based init system, including a /sbin/init binary, on a Linux kernel"
+note: ""
 web_url: "https://skarnet.org/software/s6-linux-init/"
 repo_url: "https://github.com/skarnet/s6-linux-init"
 path: "/Baseutils/s6-linux-init/"

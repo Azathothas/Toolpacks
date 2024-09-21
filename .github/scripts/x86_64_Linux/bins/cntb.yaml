@@ -1,5 +1,6 @@
 name: "cntb"
 description: "Contabo Command Line Interface"
+note: ""
 web_url: "https://github.com/contabo/cntb"
 repo_url: "https://github.com/contabo/cntb"
 path: "/"

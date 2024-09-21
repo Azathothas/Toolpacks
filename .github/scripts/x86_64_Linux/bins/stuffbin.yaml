@@ -1,5 +1,6 @@
 name: "stuffbin"
 description: "Compress and embed static files and assets into Go binaries and access them with a virtual file system in production"
+note: ""
 web_url: "https://github.com/knadh/stuffbin"
 repo_url: "https://github.com/knadh/stuffbin"
 path: "/"

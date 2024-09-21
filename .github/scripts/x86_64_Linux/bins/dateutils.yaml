@@ -1,5 +1,6 @@
 name: "dateutils"
 description: "A bunch of tools that revolve around fiddling with dates and times in the command line"
+note: ""
 web_url: "https://www.fresse.org/dateutils/"
 repo_url: "https://github.com/hroptatyr/dateutils"
 path: "/Baseutils/dateutils/"

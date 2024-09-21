@@ -1,5 +1,6 @@
 name: "viu"
 description: "Terminal image viewer with native support for iTerm and Kitty"
+note: ""
 web_url: "https://github.com/atanunq/viu"
 repo_url: "https://github.com/atanunq/viu"
 path: "/"

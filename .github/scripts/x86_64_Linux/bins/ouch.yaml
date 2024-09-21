@@ -1,5 +1,6 @@
 name: "ouch"
 description: "Painless compression and decompression in the terminal"
+note: ""
 web_url: "https://github.com/ouch-org/ouch"
 repo_url: "https://github.com/ouch-org/ouch"
 path: "/"

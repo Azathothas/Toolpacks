@@ -1,5 +1,6 @@
 name: "nettools"
 description: "A set of tools for controlling the network subsystem in Linux"
+note: ""
 web_url: "https://net-tools.sourceforge.io/"
 repo_url: "https://git.code.sf.net/p/net-tools/code"
 path: "/Baseutils/nettools/"

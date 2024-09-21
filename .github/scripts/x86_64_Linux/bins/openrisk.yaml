@@ -1,5 +1,6 @@
 name: "openrisk"
 description: "Generates a risk score based on the results of a Nuclei scan"
+note: ""
 web_url: "https://github.com/projectdiscovery/openrisk"
 repo_url: "https://github.com/projectdiscovery/openrisk"
 path: "/"

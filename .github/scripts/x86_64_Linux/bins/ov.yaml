@@ -1,5 +1,6 @@
 name: "ov"
 description: "\U0001F391Feature-rich terminal-based text viewer. It is a so-called terminal pager."
+note: ""
 web_url: "https://github.com/noborus/ov"
 repo_url: "https://github.com/noborus/ov"
 path: "/"

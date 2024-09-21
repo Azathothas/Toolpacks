@@ -1,5 +1,6 @@
 name: "starship"
 description: "☄\U0001F30C️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+note: ""
 web_url: "https://github.com/starship/starship"
 repo_url: "https://github.com/starship/starship"
 path: "/"

@@ -1,5 +1,6 @@
 name: "brename"
 description: "tool for safely batch renaming files/directories via regular expression"
+note: ""
 web_url: "https://github.com/shenwei356/brename"
 repo_url: "https://github.com/shenwei356/brename"
 path: "/"

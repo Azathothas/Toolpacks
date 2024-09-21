@@ -1,5 +1,6 @@
 name: "agg"
 description: "asciinema gif generator"
+note: ""
 web_url: "https://github.com/asciinema/agg"
 repo_url: "https://github.com/asciinema/agg"
 path: "/"

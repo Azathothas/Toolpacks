@@ -1,5 +1,6 @@
 name: "rg(ripgrep)"
 description: ""
+note: ""
 web_url: "https://github.com/BurntSushi/ripgrep"
 repo_url: "https://github.com/BurntSushi/ripgrep"
 path: "/"

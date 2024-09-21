@@ -1,5 +1,6 @@
 name: "jsmug"
 description: "JSON Smuggling technique to smuggle arbitrary files through JSON"
+note: ""
 web_url: "https://github.com/xscorp/jsmug"
 repo_url: "https://github.com/xscorp/jsmug"
 path: "/"

@@ -1,5 +1,6 @@
 name: "dsieve"
 description: "Filter and enrich a list of subdomains by level"
+note: ""
 web_url: "https://github.com/trickest/dsieve"
 repo_url: "https://github.com/trickest/dsieve"
 path: "/"

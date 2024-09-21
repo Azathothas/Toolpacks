@@ -1,5 +1,6 @@
 name: "pwait"
 description: "Small utility to wait for a process to finish"
+note: ""
 web_url: "https://github.com/diazona/pwait"
 repo_url: "https://github.com/diazona/pwait"
 path: "/"

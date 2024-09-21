@@ -1,5 +1,6 @@
 name: "tty2web"
 description: "Share your terminal as a web application in bind/reverse mode"
+note: ""
 web_url: "https://github.com/kost/tty2web"
 repo_url: "https://github.com/kost/tty2web"
 path: "/"

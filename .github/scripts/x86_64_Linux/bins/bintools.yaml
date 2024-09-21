@@ -1,5 +1,6 @@
 name: "bintools"
 description: "Tools for manipulating binaries (linker, assembler, etc.) (wrapper script)"
+note: ""
 web_url: "https://www.gnu.org/software/binutils/"
 repo_url: "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git"
 path: "/Baseutils/bintools/"

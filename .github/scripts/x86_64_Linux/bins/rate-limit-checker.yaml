@@ -1,5 +1,6 @@
 name: "rate-limit-checker"
 description: "Check whether the domain has a rate limit enabled"
+note: ""
 web_url: "https://github.com/Azathothas/Arsenal"
 repo_url: "https://github.com/Azathothas/Arsenal"
 path: "/"

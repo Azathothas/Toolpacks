@@ -1,5 +1,6 @@
 name: "openssh"
 description: "A Portable Implementation of the SSH protocol"
+note: ""
 web_url: "https://github.com/openssh/openssh-portable"
 repo_url: "https://github.com/openssh/openssh-portable"
 path: "/Baseutils/openssh/"

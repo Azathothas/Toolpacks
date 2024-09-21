@@ -1,5 +1,6 @@
 name: "twingate"
 description: "Zero Trust VPN replacement for programmatic & Secure access to Infrastructures"
+note: ""
 web_url: "https://www.twingate.com/"
 repo_url: "https://github.com/Twingate"
 path: "/Baseutils/twingate/"

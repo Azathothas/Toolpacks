@@ -1,5 +1,6 @@
 name: "hysp"
 description: "\U0001F4E6 An independent package manager that every hacker deserves."
+note: ""
 web_url: "https://github.com/pwnwriter/hysp"
 repo_url: "https://github.com/pwnwriter/hysp"
 path: "/"

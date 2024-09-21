@@ -1,5 +1,6 @@
 name: "ooniprobe"
 description: "OONI Probe Engine and CLI"
+note: ""
 web_url: "https://ooni.org"
 repo_url: "https://github.com/ooni/probe-cli"
 path: "/"

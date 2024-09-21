@@ -1,5 +1,6 @@
 name: "ruff"
 description: "An extremely fast Python linter and code formatter, written in Rust."
+note: ""
 web_url: "https://github.com/astral-sh/ruff"
 repo_url: "https://github.com/astral-sh/ruff"
 path: "/"

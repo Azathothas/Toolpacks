@@ -1,5 +1,6 @@
 name: "nfs-utils"
 description: "nfs-common|nfs-utils"
+note: ""
 web_url: "http://git.linux-nfs.org/?p=steved/nfs-utils.git;a=summary"
 repo_url: "http://git.linux-nfs.org/?p=steved/nfs-utils.git;a=summary"
 path: "/"

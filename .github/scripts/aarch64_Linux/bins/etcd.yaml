@@ -1,5 +1,6 @@
 name: "etcd"
 description: "Distributed reliable key-value store for the most critical data of a distributed system"
+note: ""
 web_url: "https://github.com/etcd-io/etcd"
 repo_url: "https://github.com/etcd-io/etcd"
 path: "/"

@@ -1,5 +1,6 @@
 name: "vopono"
 description: "Run applications through VPN tunnels with temporary network namespaces"
+note: ""
 web_url: "https://github.com/jamesmcm/vopono"
 repo_url: "https://github.com/jamesmcm/vopono"
 path: "/"

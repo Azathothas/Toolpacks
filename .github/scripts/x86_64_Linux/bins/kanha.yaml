@@ -1,5 +1,6 @@
 name: "kanha"
 description: "\U0001F99A A web-app pentesting suite written in rust"
+note: ""
 web_url: "https://github.com/pwnwriter/kanha"
 repo_url: "https://github.com/pwnwriter/kanha"
 path: "/"

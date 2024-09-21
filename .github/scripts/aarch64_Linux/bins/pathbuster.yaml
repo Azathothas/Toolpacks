@@ -1,5 +1,6 @@
 name: "pathbuster"
 description: "A path-normalization pentesting tool"
+note: ""
 web_url: "https://github.com/ethicalhackingplayground/pathbuster"
 repo_url: "https://github.com/ethicalhackingplayground/pathbuster"
 path: "/"

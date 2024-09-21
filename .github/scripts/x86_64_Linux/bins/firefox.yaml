@@ -1,5 +1,6 @@
 name: "firefox"
 description: "An open source web browser from Mozilla (AppImage)"
+note: ""
 web_url: "https://www.mozilla.org"
 repo_url: "https://github.com/mozilla/gecko-dev"
 path: "/"

@@ -1,5 +1,6 @@
 name: "imagemagick"
 description: "A software suite to create, edit, compose, or convert bitmap images"
+note: ""
 web_url: "https://imagemagick.org/"
 repo_url: "https://github.com/imagemagick/linux"
 path: "/Baseutils/imagemagick/"

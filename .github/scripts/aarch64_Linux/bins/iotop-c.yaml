@@ -1,5 +1,6 @@
 name: "iotop-c"
 description: "A top utility for IO"
+note: ""
 web_url: "https://github.com/Tomas-M/iotop"
 repo_url: "https://github.com/Tomas-M/iotop"
 path: "/"

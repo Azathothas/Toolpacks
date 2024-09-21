@@ -1,5 +1,6 @@
 name: "meli"
 description: "\U0001F41D terminal mail client"
+note: ""
 web_url: "https://github.com/meli/meli"
 repo_url: "https://github.com/meli/meli"
 path: "/"

@@ -1,5 +1,6 @@
 name: "rshijack"
 description: "tcp connection hijacker, rust rewrite of shijack"
+note: ""
 web_url: "https://github.com/kpcyrd/rshijack"
 repo_url: "https://github.com/kpcyrd/rshijack"
 path: "/"

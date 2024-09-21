@@ -1,5 +1,6 @@
 name: "b3sum"
 description: "the official Rust and C implementations of the BLAKE3 cryptographic hash function"
+note: ""
 web_url: "https://github.com/BLAKE3-team/BLAKE3"
 repo_url: "https://github.com/BLAKE3-team/BLAKE3"
 path: "/"

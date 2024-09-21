@@ -1,5 +1,6 @@
 name: "hrekt"
 description: "A really fast http prober."
+note: ""
 web_url: "https://github.com/ethicalhackingplayground/hrekt"
 repo_url: "https://github.com/ethicalhackingplayground/hrekt"
 path: "/"

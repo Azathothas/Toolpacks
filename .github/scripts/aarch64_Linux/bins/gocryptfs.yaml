@@ -1,5 +1,6 @@
 name: "gocryptfs"
 description: "Encrypted overlay filesystem written in Go"
+note: ""
 web_url: "https://github.com/rfjakob/gocryptfs"
 repo_url: "https://github.com/rfjakob/gocryptfs"
 path: "/"

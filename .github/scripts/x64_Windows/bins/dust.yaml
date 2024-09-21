@@ -1,5 +1,6 @@
 name: "dust"
 description: "A more intuitive version of du in rust"
+note: ""
 web_url: "https://github.com/bootandy/dust"
 repo_url: "https://github.com/bootandy/dust"
 path: "/"

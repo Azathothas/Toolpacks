@@ -1,5 +1,6 @@
 name: "gotator"
 description: "Generate DNS wordlists through permutations"
+note: ""
 web_url: "https://github.com/Josue87/gotator"
 repo_url: "https://github.com/Josue87/gotator"
 path: "/"

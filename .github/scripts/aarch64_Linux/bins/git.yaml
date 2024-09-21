@@ -1,5 +1,6 @@
 name: "git"
 description: "Free and Open Source Distributed Version Control System (VCS)"
+note: ""
 web_url: "https://git-scm.com/"
 repo_url: "https://github.com/git/git"
 path: "/Baseutils/git/"

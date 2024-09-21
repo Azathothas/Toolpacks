@@ -1,5 +1,6 @@
 name: "openssh"
 description: "SSH for Windows"
+note: ""
 web_url: "https://github.com/PowerShell/Win32-OpenSSH"
 repo_url: "https://github.com/PowerShell/Win32-OpenSSH"
 bins:

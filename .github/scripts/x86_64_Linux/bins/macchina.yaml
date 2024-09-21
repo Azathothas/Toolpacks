@@ -1,5 +1,6 @@
 name: "macchina"
 description: "system-info-fetch"
+note: ""
 web_url: "https://github.com/Macchina-CLI/macchina"
 repo_url: "https://github.com/Macchina-CLI/macchina"
 path: "/"

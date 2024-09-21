@@ -1,5 +1,6 @@
 name: "s6-portable-utils"
 description: "A set of tiny general Unix utilities optimized for simplicity and small size"
+note: ""
 web_url: "https://skarnet.org/software/s6-portable-utils/"
 repo_url: "https://github.com/skarnet/s6-portable-utils"
 path: "/Baseutils/s6-portable-utils/"

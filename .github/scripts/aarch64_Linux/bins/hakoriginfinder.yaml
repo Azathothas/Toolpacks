@@ -1,5 +1,6 @@
 name: "hakoriginfinder"
 description: "Tool for discovering the origin host behind a reverse proxy"
+note: ""
 web_url: "https://github.com/hakluke/hakoriginfinder"
 repo_url: "https://github.com/hakluke/hakoriginfinder"
 path: "/"

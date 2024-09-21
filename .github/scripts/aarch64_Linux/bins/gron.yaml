@@ -1,5 +1,6 @@
 name: "gron"
 description: "Make JSON greppable!"
+note: ""
 web_url: "https://github.com/tomnomnom/gron"
 repo_url: "https://github.com/tomnomnom/gron"
 path: "/"

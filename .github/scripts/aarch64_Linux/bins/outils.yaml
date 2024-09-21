@@ -1,5 +1,6 @@
 name: "outils"
 description: "Port of some non-standard OpenBSD tools to Linux"
+note: ""
 web_url: "https://github.com/leahneukirchen/outils"
 repo_url: "https://github.com/leahneukirchen/outils"
 path: "/Baseutils/outils/"

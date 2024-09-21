@@ -1,5 +1,6 @@
 name: "sudo-rs"
 description: "A memory safe implementation of sudo and su."
+note: ""
 web_url: "https://github.com/memorysafety/sudo-rs"
 repo_url: "https://github.com/memorysafety/sudo-rs"
 path: "/"

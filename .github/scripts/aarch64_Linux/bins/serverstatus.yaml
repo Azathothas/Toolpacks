@@ -1,5 +1,6 @@
 name: "ServerStatus-Rust"
 description: "Multi Server, Multi Cloud Probing & Server Monitoring"
+note: ""
 web_url: "https://doc.ssr.rs"
 repo_url: "https://github.com/zdz/ServerStatus-Rust"
 path: "/"

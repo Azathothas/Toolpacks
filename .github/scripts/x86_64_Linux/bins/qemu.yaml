@@ -1,5 +1,6 @@
 name: "qemu"
 description: "machine & userspace emulator and virtualizer"
+note: ""
 web_url: "https://github.com/qemu/qemu"
 repo_url: "https://github.com/qemu/qemu"
 path: "/"

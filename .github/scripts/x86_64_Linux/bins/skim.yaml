@@ -1,5 +1,6 @@
 name: "skim"
 description: "Fuzzy Finder in rust!"
+note: ""
 web_url: "https://github.com/lotabout/skim"
 repo_url: "https://github.com/lotabout/skim"
 path: "/"

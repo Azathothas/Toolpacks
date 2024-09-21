@@ -1,5 +1,6 @@
 name: "pretender"
 description: "MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing."
+note: ""
 web_url: "https://github.com/RedTeamPentesting/pretender"
 repo_url: "https://github.com/RedTeamPentesting/pretender"
 path: "/"

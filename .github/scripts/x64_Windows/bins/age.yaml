@@ -1,5 +1,6 @@
 name: "age"
 description: "A simple, modern and secure encryption tool"
+note: ""
 web_url: "https://github.com/FiloSottile/age"
 repo_url: "https://github.com/FiloSottile/age"
 path: "/"

@@ -1,5 +1,6 @@
 name: "trufflehog"
 description: "Find and verify credentials"
+note: ""
 web_url: "https://github.com/trufflesecurity/trufflehog"
 repo_url: "https://github.com/trufflesecurity/trufflehog"
 path: "/"

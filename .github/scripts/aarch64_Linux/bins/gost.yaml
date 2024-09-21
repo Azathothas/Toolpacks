@@ -1,5 +1,6 @@
 name: "gost"
 description: "GO Simple Tunnel - a simple tunnel written in golang"
+note: ""
 web_url: "https://github.com/ginuerzh/gost"
 repo_url: "https://github.com/ginuerzh/gost"
 path: "/"

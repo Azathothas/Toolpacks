@@ -1,5 +1,6 @@
 name: "gf"
 description: "A wrapper around grep"
+note: ""
 web_url: "https://github.com/tomnomnom/gf"
 repo_url: "https://github.com/tomnomnom/gf"
 path: "/"

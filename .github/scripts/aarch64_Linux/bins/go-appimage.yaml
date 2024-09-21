@@ -1,5 +1,6 @@
 name: "go-appimage"
 description: "Go implementation of AppImage Tools"
+note: ""
 web_url: "https://github.com/probonopd/go-appimage"
 repo_url: "https://github.com/probonopd/go-appimage"
 path: "/"

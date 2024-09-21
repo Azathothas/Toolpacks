@@ -1,5 +1,6 @@
 name: "progress"
 description: "Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)"
+note: ""
 web_url: "https://github.com/Xfennec/progress"
 repo_url: "https://github.com/Xfennec/progress"
 path: "/"

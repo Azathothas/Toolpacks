@@ -1,5 +1,6 @@
 name: "transmission"
 description: "A fast, easy and free BitTorrent client"
+note: ""
 web_url: "https://transmissionbt.com/"
 repo_url: "https://github.com/transmission/transmission"
 path: "/"

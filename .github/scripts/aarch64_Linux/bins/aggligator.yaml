@@ -1,5 +1,6 @@
 name: "aggligator"
 description: "Aggregates multiple links (TCP, Bluetooth, USB or similar) into one connection having their combined bandwidth and provides resiliency against failure of individual links."
+note: ""
 web_url: "https://github.com/surban/aggligator"
 repo_url: "https://github.com/surban/aggligator"
 path: "/"

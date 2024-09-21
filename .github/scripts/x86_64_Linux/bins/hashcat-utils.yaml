@@ -1,5 +1,6 @@
 name: "hashcat-utils"
 description: "Utilities that are useful in advanced password cracking (HashCat)"
+note: ""
 web_url: "https://hashcat.net/wiki/doku.php?id=hashcat_utils"
 repo_url: "https://github.com/hashcat/hashcat-utils"
 path: "/Baseutils/hashcat-utils/"

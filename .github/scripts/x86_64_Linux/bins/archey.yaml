@@ -1,5 +1,6 @@
 name: "archey"
 description: "Archey is a simple system information tool written in Python"
+note: ""
 web_url: "https://github.com/HorlogeSkynet/archey4"
 repo_url: "https://github.com/HorlogeSkynet/archey4"
 path: "/"

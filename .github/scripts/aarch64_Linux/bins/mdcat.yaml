@@ -1,5 +1,6 @@
 name: "mdcat"
 description: "cat for markdown"
+note: ""
 web_url: "https://github.com/swsnr/mdcat"
 repo_url: "https://github.com/swsnr/mdcat"
 path: "/"

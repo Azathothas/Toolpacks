@@ -1,5 +1,6 @@
 name: "clipcat"
 description: "A clipboard manager written in Rust Programming Language."
+note: ""
 web_url: "https://github.com/xrelkd/clipcat"
 repo_url: "https://github.com/xrelkd/clipcat"
 path: "/"

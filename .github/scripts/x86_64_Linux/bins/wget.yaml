@@ -1,5 +1,6 @@
 name: "wget"
 description: "Tool for retrieving files using HTTP, HTTPS, and FTP"
+note: ""
 web_url: "https://www.gnu.org/software/wget/"
 repo_url: "https://ftp.gnu.org/gnu/wget/"
 path: "/"

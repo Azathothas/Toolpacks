@@ -1,5 +1,6 @@
 name: "soft-serve"
 description: "The mighty, self-hostable Git server for the command line\U0001F366"
+note: ""
 web_url: "https://github.com/charmbracelet/soft-serve"
 repo_url: "https://github.com/charmbracelet/soft-serve"
 path: "/"

@@ -1,5 +1,6 @@
 name: "huggingface-cli"
 description: "The official Python client for the Huggingface Hub"
+note: ""
 web_url: "https://huggingface.co/docs/huggingface_hub"
 repo_url: "https://github.com/huggingface/huggingface_hub"
 path: "/"

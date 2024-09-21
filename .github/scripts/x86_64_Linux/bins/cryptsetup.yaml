@@ -1,5 +1,6 @@
 name: "cryptsetup"
 description: "LUKS for dm-crypt"
+note: ""
 web_url: "https://gitlab.com/cryptsetup/cryptsetup"
 repo_url: "https://gitlab.com/cryptsetup/cryptsetup"
 path: "/Baseutils/cryptsetup/"

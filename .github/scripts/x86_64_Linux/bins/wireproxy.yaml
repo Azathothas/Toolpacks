@@ -1,5 +1,6 @@
 name: "WireProxy"
 description: "Wireguard client that exposes itself as a socks5 proxy"
+note: ""
 web_url: "https://github.com/pufferffish/wireproxy"
 repo_url: "https://github.com/pufferffish/wireproxy"
 path: "/"

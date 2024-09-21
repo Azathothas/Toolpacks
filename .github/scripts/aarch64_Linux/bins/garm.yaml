@@ -1,5 +1,6 @@
 name: "garm"
 description: "GitHub Actions Runners Manager"
+note: ""
 web_url: "https://github.com/cloudbase/garm"
 repo_url: "https://github.com/cloudbase/garm"
 path: "/"

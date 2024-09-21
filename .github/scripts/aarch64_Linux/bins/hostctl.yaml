@@ -1,5 +1,6 @@
 name: "hostctl"
 description: "dev tool to manage /etc/hosts like a pro!"
+note: ""
 web_url: "https://github.com/guumaster/hostctl"
 repo_url: "https://github.com/guumaster/hostctl"
 path: "/"

@@ -1,5 +1,6 @@
 name: "rclone"
 description: "rsync for cloud storage"
+note: ""
 web_url: "https://github.com/rclone/rclone"
 repo_url: "https://github.com/rclone/rclone"
 path: "/"

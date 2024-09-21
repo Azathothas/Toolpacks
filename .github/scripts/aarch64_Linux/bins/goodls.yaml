@@ -1,5 +1,6 @@
 name: "goodls"
 description: "This is a CLI tool to download shared files and folders from Google Drive."
+note: ""
 web_url: "https://github.com/tanaikech/goodls"
 repo_url: "https://github.com/tanaikech/goodls"
 path: "/"

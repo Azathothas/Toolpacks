@@ -1,5 +1,6 @@
 name: "linuxwave"
 description: "Generate music from the entropy of Linux \U0001F427\U0001F3B5"
+note: ""
 web_url: "https://github.com/orhun/linuxwave"
 repo_url: "https://github.com/orhun/linuxwave"
 path: "/"

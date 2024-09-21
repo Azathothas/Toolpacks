@@ -1,5 +1,6 @@
 name: "cloudflared"
 description: "Cloudflare Tunnel client"
+note: ""
 web_url: "https://github.com/cloudflare/cloudflared"
 repo_url: "https://github.com/cloudflare/cloudflared"
 path: "/"

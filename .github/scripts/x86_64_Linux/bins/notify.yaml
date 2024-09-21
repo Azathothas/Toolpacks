@@ -1,5 +1,6 @@
 name: "notify"
 description: "stream the output of several tools (or read from a file) and send notifications"
+note: ""
 web_url: "https://github.com/projectdiscovery/notify"
 repo_url: "https://github.com/projectdiscovery/notify"
 path: "/"

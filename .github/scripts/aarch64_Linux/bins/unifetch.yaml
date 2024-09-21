@@ -1,5 +1,6 @@
 name: "unifetch"
 description: "An unofficial inheritor of Neofetch"
+note: ""
 web_url: "https://github.com/nmimusic/unifetch"
 repo_url: "https://github.com/nmimusic/unifetch"
 path: "/"

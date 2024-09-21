@@ -1,5 +1,6 @@
 name: "cog"
 description: "The Conventional Commits toolbox"
+note: ""
 web_url: "https://github.com/cocogitto/cocogitto"
 repo_url: "https://github.com/cocogitto/cocogitto"
 path: "/"

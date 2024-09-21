@@ -1,5 +1,6 @@
 name: "lnav"
 description: "Log file navigator"
+note: ""
 web_url: "https://github.com/tstack/lnav"
 repo_url: "https://github.com/tstack/lnav"
 path: "/"

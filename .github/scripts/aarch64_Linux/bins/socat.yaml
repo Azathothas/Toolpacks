@@ -1,5 +1,6 @@
 name: "socat"
 description: "socat is a program for identifying or deleting duplicate files residing within specified directories."
+note: ""
 web_url: "https://github.com/adrianlopezroche/socat"
 repo_url: "https://github.com/adrianlopezroche/socat"
 path: "/"

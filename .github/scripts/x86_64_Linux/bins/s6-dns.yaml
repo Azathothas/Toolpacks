@@ -1,5 +1,6 @@
 name: "s6-dns"
 description: "A suite of DNS client programs and libraries for Unix systems"
+note: ""
 web_url: "https://skarnet.org/software/s6-dns/"
 repo_url: "https://github.com/skarnet/s6-dns"
 path: "/Baseutils/s6-dns/"

@@ -1,5 +1,6 @@
 name: "pandoc"
 description: "Universal markup converter"
+note: ""
 web_url: "https://github.com/jgm/pandoc"
 repo_url: "https://github.com/jgm/pandoc"
 path: "/"

@@ -1,5 +1,6 @@
 name: "gojq"
 description: "Pure Go implementation of jq"
+note: ""
 web_url: "https://github.com/itchyny/gojq"
 repo_url: "https://github.com/itchyny/gojq"
 path: "/"

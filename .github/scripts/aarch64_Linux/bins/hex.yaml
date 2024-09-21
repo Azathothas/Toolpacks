@@ -1,5 +1,6 @@
 name: "hex(hx)"
 description: "\U0001F52E Futuristic take on hexdump, made in Rust."
+note: ""
 web_url: "https://github.com/sitkevij/hex"
 repo_url: "https://github.com/sitkevij/hex"
 path: "/"

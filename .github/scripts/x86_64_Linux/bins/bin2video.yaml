@@ -1,5 +1,6 @@
 name: "bin2video"
 description: "Tool for encoding files as videos"
+note: ""
 web_url: "https://github.com/pixelomer/bin2video"
 repo_url: "https://github.com/pixelomer/bin2video"
 path: "/"

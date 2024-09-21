@@ -1,5 +1,6 @@
 name: "zstd"
 description: "Zstandard - Fast real-time compression algorithm"
+note: ""
 web_url: "https://facebook.github.io/zstd/"
 repo_url: "https://github.com/facebook/zstd"
 path: "/Baseutils/zstd/"

@@ -1,5 +1,6 @@
 name: "squashfs-tools-ng"
 description: "New Set of Tools for working with SquashFS Images"
+note: ""
 web_url: "https://github.com/AgentD/squashfs-tools-ng"
 repo_url: "https://github.com/AgentD/squashfs-tools-ng"
 path: "/Baseutils/squashfs-tools-ng/"

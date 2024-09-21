@@ -1,5 +1,6 @@
 name: "gdb"
 description: "The GNU Project debugger"
+note: ""
 web_url: "https://www.sourceware.org/gdb/"
 repo_url: "https://sourceware.org/git/binutils-gdb.git"
 path: "/Baseutils/gdb/"

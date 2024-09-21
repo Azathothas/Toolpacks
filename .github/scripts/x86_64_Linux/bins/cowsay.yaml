@@ -1,5 +1,6 @@
 name: "cowsay"
 description: "complete rewrite of cowsay in Go"
+note: ""
 web_url: "https://gitlab.com/nmyk/cowsay"
 repo_url: "https://gitlab.com/nmyk/cowsay"
 path: "/"

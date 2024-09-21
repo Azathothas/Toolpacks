@@ -1,5 +1,6 @@
 name: "dbus"
 description: "Simple interprocess messaging system"
+note: ""
 web_url: "https://www.freedesktop.org/wiki/Software/dbus/"
 repo_url: "https://gitlab.freedesktop.org/dbus/dbus"
 path: "/Baseutils/dbus/"

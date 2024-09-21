@@ -1,5 +1,6 @@
 name: "u-root"
 description: "create a one-binary root file system (initramfs) containing a busybox-like set of tools"
+note: ""
 web_url: "https://github.com/u-root/u-root"
 repo_url: "https://github.com/u-root/u-root"
 path: "/"

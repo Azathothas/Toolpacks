@@ -1,5 +1,6 @@
 name: "htb-cli"
 description: "Interact with Hackthebox using your terminal"
+note: ""
 web_url: "https://github.com/GoToolSharing/htb-cli"
 repo_url: "https://github.com/GoToolSharing/htb-cli"
 path: "/"

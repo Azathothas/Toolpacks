@@ -1,5 +1,6 @@
 name: "xhost"
 description: "Tool to manage the list of host names or user names allowed to make connections to the X server."
+note: ""
 web_url: "https://gitlab.freedesktop.org/xorg/app/xhost"
 repo_url: "https://gitlab.freedesktop.org/xorg/app/xhost"
 path: "/"

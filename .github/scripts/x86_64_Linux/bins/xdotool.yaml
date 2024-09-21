@@ -1,5 +1,6 @@
 name: "xdotool"
 description: "Fake keyboard/mouse input, window management, and more"
+note: ""
 web_url: "https://github.com/jordansissel/xdotool"
 repo_url: "https://github.com/jordansissel/xdotool"
 path: "/"

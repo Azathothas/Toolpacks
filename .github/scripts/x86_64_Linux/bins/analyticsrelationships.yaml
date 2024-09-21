@@ -1,5 +1,6 @@
 name: "analyticsrelationships"
 description: "Get related domains / subdomains by looking at Google Analytics IDs"
+note: ""
 web_url: "https://github.com/Josue87/AnalyticsRelationships"
 repo_url: "https://github.com/Josue87/AnalyticsRelationships"
 path: "/"

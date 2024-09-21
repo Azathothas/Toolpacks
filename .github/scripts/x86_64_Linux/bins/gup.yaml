@@ -1,5 +1,6 @@
 name: "gup"
 description: "Update binaries installed by go install with goroutines."
+note: ""
 web_url: "https://github.com/nao1215/gup"
 repo_url: "https://github.com/nao1215/gup"
 path: "/"

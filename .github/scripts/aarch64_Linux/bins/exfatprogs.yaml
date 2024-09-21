@@ -1,5 +1,6 @@
 name: "exfatprogs"
 description: "exFAT filesystem userspace utilities"
+note: ""
 web_url: "https://github.com/exfatprogs/exfatprogs"
 repo_url: "https://github.com/exfatprogs/exfatprogs"
 path: "/Baseutils/exfatprogs/"

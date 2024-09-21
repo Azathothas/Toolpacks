@@ -1,5 +1,6 @@
 name: "csprecon"
 description: "Discover new target domains using Content Security Policy"
+note: ""
 web_url: "https://github.com/edoardottt/csprecon"
 repo_url: "https://github.com/edoardottt/csprecon"
 path: "/"

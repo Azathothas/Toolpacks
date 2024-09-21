@@ -1,5 +1,6 @@
 name: "JR"
 description: "streaming quality random data from the command line"
+note: ""
 web_url: "https://github.com/ugol/jr"
 repo_url: "https://github.com/ugol/jr"
 path: "/"

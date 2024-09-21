@@ -1,5 +1,6 @@
 name: "python3"
 description: "A high-level dynamically-typed programming language"
+note: ""
 web_url: "https://www.python.org"
 repo_url: "https://github.com/python/cpython"
 path: "/Baseutils/python3/"

@@ -1,5 +1,6 @@
 name: "Dropbear"
 description: "A smallish SSH server and client"
+note: ""
 web_url: "https://matt.ucc.asn.au/dropbear/dropbear.html"
 repo_url: "https://github.com/mkj/dropbear"
 path: "/Baseutils/dropbear/"

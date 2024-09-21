@@ -1,5 +1,6 @@
 name: "deoptimizer"
 description: "Machine code de-optimizer to bypass AV"
+note: ""
 web_url: "https://github.com/EgeBalci/deoptimizer"
 repo_url: "https://github.com/EgeBalci/deoptimizer"
 path: "/"

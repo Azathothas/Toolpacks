@@ -1,5 +1,6 @@
 name: "mtdutils"
 description: "Tools for MTD filesystems"
+note: ""
 web_url: "http://www.linux-mtd.infradead.org/"
 repo_url: "https://git.infradead.org/mtd-utils.git"
 path: "/Baseutils/mtdutils/"

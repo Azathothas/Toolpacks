@@ -1,5 +1,6 @@
 name: "listmonk"
 description: "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard"
+note: ""
 web_url: "https://github.com/knadh/listmonk"
 repo_url: "https://github.com/knadh/listmonk"
 path: "/"

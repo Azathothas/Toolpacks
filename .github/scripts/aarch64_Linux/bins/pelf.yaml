@@ -1,5 +1,6 @@
 name: "pelf"
 description: "Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs."
+note: ""
 web_url: "https://github.com/xplshn/pelf"
 repo_url: "https://github.com/xplshn/pelf"
 path: "/"

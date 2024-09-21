@@ -1,5 +1,6 @@
 name: "byp4xx"
 description: "40X/HTTP bypasser in Go. Features  Verb tampering, headers,"
+note: ""
 web_url: "https://github.com/lobuhi/byp4xx"
 repo_url: "https://github.com/lobuhi/byp4xx"
 path: "/"

@@ -1,5 +1,6 @@
 name: "restic"
 description: "Fast, secure, efficient backup program"
+note: ""
 web_url: "https://github.com/restic/restic"
 repo_url: "https://github.com/restic/restic"
 path: "/"

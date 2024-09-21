@@ -1,5 +1,6 @@
 name: "walk"
 description: "Terminal file manager"
+note: ""
 web_url: "https://github.com/antonmedv/walk"
 repo_url: "https://github.com/antonmedv/walk"
 path: "/"

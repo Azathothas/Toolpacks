@@ -1,5 +1,6 @@
 name: "ZeroTierOne"
 description: "A Smart Ethernet Switch for Earth"
+note: ""
 web_url: "https://www.zerotier.com/"
 repo_url: "https://github.com/zerotier/ZeroTierOne"
 path: "/"

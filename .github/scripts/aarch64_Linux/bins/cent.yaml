@@ -1,5 +1,6 @@
 name: "cent"
 description: "Fetch & Organize all Nuclei Templates"
+note: ""
 web_url: "https://github.com/xm1k3/cent"
 repo_url: "https://github.com/xm1k3/cent"
 path: "/"

@@ -1,5 +1,6 @@
 name: "loksh"
 description: "Linux port of OpenBSDs ksh"
+note: ""
 web_url: "https://github.com/dimkr/loksh"
 repo_url: "https://github.com/dimkr/loksh"
 path: "/"

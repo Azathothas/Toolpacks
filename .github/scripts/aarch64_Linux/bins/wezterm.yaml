@@ -1,5 +1,6 @@
 name: "wezterm"
 description: "A GPU-accelerated cross-platform terminal emulator and multiplexer"
+note: ""
 web_url: "https://github.com/wez/wezterm"
 repo_url: "https://github.com/wez/wezterm"
 path: "/"

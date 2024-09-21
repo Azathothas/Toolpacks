@@ -1,5 +1,6 @@
 name: "presenterm"
 description: "A terminal slideshow tool"
+note: ""
 web_url: "https://github.com/mfontanini/presenterm"
 repo_url: "https://github.com/mfontanini/presenterm"
 path: "/"

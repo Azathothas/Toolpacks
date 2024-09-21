@@ -1,5 +1,6 @@
 name: "miniserve"
 description: "Http Server"
+note: ""
 web_url: "https://github.com/svenstaro/miniserve"
 repo_url: "https://github.com/svenstaro/miniserve"
 path: "/"

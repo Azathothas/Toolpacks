@@ -1,5 +1,6 @@
 name: "busybox"
 description: "A Software Suite that provides Several Unix Utilities in a single Executable"
+note: ""
 web_url: "https://www.busybox.net/"
 repo_url: "https://git.busybox.net/busybox/"
 path: "/"

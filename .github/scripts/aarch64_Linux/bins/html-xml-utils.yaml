@@ -1,5 +1,6 @@
 name: "html-xml-utils"
 description: "Utilities for manipulating HTML and XML files"
+note: ""
 web_url: "https://www.w3.org/Tools/HTML-XML-utils/"
 repo_url: ""
 path: "/Baseutils/html-xml-utils/"

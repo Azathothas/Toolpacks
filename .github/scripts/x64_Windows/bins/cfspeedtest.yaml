@@ -1,5 +1,6 @@
 name: "cfspeedtest"
 description: "Unofficial CLI for speed.cloudflare.com"
+note: ""
 web_url: "https://github.com/code-inflation/cfspeedtest"
 repo_url: "https://github.com/code-inflation/cfspeedtest"
 path: "/"

@@ -1,5 +1,6 @@
 name: "Chameleon"
 description: "Content Discovery using wappalyzers set of technology fingerprints alongside custom wordlists tailored to each detected technologies."
+note: ""
 web_url: "https://github.com/iustin24/chameleon"
 repo_url: "https://github.com/iustin24/chameleon"
 path: "/"

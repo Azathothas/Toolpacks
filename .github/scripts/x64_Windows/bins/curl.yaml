@@ -1,5 +1,6 @@
 name: "curl"
 description: ""
+note: ""
 web_url: "https://github.com/stunnel/static-curl"
 repo_url: "https://github.com/stunnel/static-curl"
 path: "/"

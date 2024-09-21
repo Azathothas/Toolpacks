@@ -1,5 +1,6 @@
 name: "loki"
 description: "Like Prometheus, but for logs."
+note: ""
 web_url: "https://github.com/grafana/loki"
 repo_url: "https://github.com/grafana/loki"
 path: "/"

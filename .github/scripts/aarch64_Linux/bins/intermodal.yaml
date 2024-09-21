@@ -1,5 +1,6 @@
 name: "intermodal"
 description: "A CLI utility for BitTorrent torrent file creation, verification, and more"
+note: ""
 web_url: "https://github.com/casey/intermodal"
 repo_url: "https://github.com/casey/intermodal"
 path: "/"

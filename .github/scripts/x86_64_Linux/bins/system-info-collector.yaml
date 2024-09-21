@@ -1,5 +1,6 @@
 name: "system-info-collector"
 description: "collect ram/cpu usage from OS and show it in pretty graphs"
+note: ""
 web_url: "https://github.com/qarmin/system-info-collector"
 repo_url: "https://github.com/qarmin/system-info-collector"
 path: "/"

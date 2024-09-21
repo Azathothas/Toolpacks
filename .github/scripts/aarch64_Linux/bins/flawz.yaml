@@ -1,5 +1,6 @@
 name: "flawz"
 description: "A Terminal UI for browsing security vulnerabilities (CVEs)"
+note: ""
 web_url: "https://github.com/orhun/flawz"
 repo_url: "https://github.com/orhun/flawz"
 path: "/"

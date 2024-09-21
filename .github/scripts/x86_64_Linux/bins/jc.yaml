@@ -1,5 +1,6 @@
 name: "jc"
 description: "converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries"
+note: ""
 web_url: "https://github.com/kellyjonbrazil/jc"
 repo_url: "https://github.com/kellyjonbrazil/jc"
 path: "/"

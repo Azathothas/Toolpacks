@@ -1,5 +1,6 @@
 name: "s5cmd"
 description: "Parallel S3 and local filesystem execution tool."
+note: ""
 web_url: "https://github.com/peak/s5cmd"
 repo_url: "https://github.com/peak/s5cmd"
 path: "/"

@@ -1,5 +1,6 @@
 name: "libarchive"
 description: "Multi-format archive and compression Tools"
+note: ""
 web_url: "https://www.libarchive.org/"
 repo_url: "https://github.com/libarchive/libarchive"
 path: "/"

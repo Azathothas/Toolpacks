@@ -1,5 +1,6 @@
 name: "realm"
 description: "parallel | xargs in rust"
+note: ""
 web_url: "https://github.com/spellshift/realm"
 repo_url: "https://github.com/spellshift/realm"
 path: "/"

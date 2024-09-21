@@ -1,5 +1,6 @@
 name: "rootlesskit"
 description: "Linux-native fake root for implementing rootless containers"
+note: ""
 web_url: "https://github.com/rootless-containers/rootlesskit"
 repo_url: "https://github.com/rootless-containers/rootlesskit"
 path: "/"

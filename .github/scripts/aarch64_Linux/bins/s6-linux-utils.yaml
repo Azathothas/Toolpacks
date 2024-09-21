@@ -1,5 +1,6 @@
 name: "s6-linux-utils"
 description: "A set of minimalistic Linux-specific system utilities"
+note: ""
 web_url: "https://skarnet.org/software/s6-linux-utils/"
 repo_url: "https://github.com/skarnet/s6-linux-utils"
 path: "/Baseutils/s6-linux-utils/"

@@ -1,5 +1,6 @@
 name: "httpx"
 description: "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes"
+note: ""
 web_url: "https://github.com/projectdiscovery/httpx"
 repo_url: "https://github.com/projectdiscovery/httpx"
 path: "/"

@@ -1,5 +1,6 @@
 name: "s6"
 description: "small & secure supervision software suite"
+note: ""
 web_url: "https://skarnet.org/software/s6/"
 repo_url: "https://github.com/skarnet/s6"
 path: "/Baseutils/s6/"

@@ -1,5 +1,6 @@
 name: "nvme-cli"
 description: "NVMe management command line interface."
+note: ""
 web_url: "https://github.com/linux-nvme/nvme-cli"
 repo_url: "https://github.com/linux-nvme/nvme-cli"
 path: "/"

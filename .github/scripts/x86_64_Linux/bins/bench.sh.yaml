@@ -1,5 +1,6 @@
 name: "bench.sh"
 description: "A quick & easy Benchmarking Script"
+note: ""
 web_url: "https://github.com/teddysun/across"
 repo_url: "https://github.com/teddysun/across"
 path: "/"

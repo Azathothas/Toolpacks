@@ -1,5 +1,6 @@
 name: "cfssl"
 description: "Cloudflares PKI and TLS toolkit"
+note: ""
 web_url: "https://github.com/cloudflare/cfssl"
 repo_url: "https://github.com/cloudflare/cfssl"
 path: "/"

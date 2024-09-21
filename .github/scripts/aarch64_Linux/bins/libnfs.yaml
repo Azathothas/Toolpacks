@@ -1,5 +1,6 @@
 name: "libnfs"
 description: "NFS client library"
+note: ""
 web_url: "https://github.com/sahlberg/libnfs"
 repo_url: "https://github.com/sahlberg/libnfs"
 path: "/"

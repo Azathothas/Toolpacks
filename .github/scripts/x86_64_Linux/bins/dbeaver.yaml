@@ -1,5 +1,6 @@
 name: "dbeaver"
 description: "Universal SQL Client for developers, DBA and analysts. Supports MySQL, PostgreSQL, MariaDB, SQLite, and more (AppImage)"
+note: ""
 web_url: "https://dbeaver.io/"
 repo_url: "https://github.com/dbeaver/dbeaver"
 path: "/"

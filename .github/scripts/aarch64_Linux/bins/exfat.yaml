@@ -1,5 +1,6 @@
 name: "exfat"
 description: "Tools for exFAT file system implementations"
+note: ""
 web_url: "https://github.com/relan/exfat"
 repo_url: "https://github.com/relan/exfat"
 path: "/Baseutils/exfat/"

@@ -1,5 +1,6 @@
 name: "yazi"
 description: "\U0001F4A5 Blazing fast terminal file manager written in Rust, based on async I/O."
+note: ""
 web_url: "https://github.com/sxyazi/yazi"
 repo_url: "https://github.com/sxyazi/yazi"
 path: "/"

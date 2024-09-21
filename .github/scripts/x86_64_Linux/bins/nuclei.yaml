@@ -1,5 +1,6 @@
 name: "nuclei"
 description: "Fast and customizable vulnerability scanner based on simple YAML based DSL"
+note: ""
 web_url: "https://github.com/projectdiscovery/nuclei"
 repo_url: "https://github.com/projectdiscovery/nuclei"
 path: "/"

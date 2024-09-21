@@ -1,5 +1,6 @@
 name: "ffufw"
 description: "a wrapper around ffuf to make directory bruteforcing easier and more intelligent"
+note: ""
 web_url: "https://github.com/puzzlepeaches/ffufw"
 repo_url: "https://github.com/puzzlepeaches/ffufw"
 path: "/"

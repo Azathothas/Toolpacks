@@ -1,5 +1,6 @@
 name: "sqlite3"
 description: "A self-contained, serverless, zero-configuration, transactional SQL database engine"
+note: ""
 web_url: "https://www.sqlite.org"
 repo_url: "https://github.com/sqlite/sqlite"
 path: "/"

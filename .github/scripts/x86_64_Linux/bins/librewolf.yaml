@@ -1,5 +1,6 @@
 name: "librewolf"
 description: "A fork of Firefox, focused on privacy, security and freedom (AppImage)"
+note: ""
 web_url: "https://librewolf.net"
 repo_url: "https://codeberg.org/librewolf"
 path: "/"

@@ -1,5 +1,6 @@
 name: "s6-networking"
 description: "A suite of small networking utilities for Unix systems"
+note: ""
 web_url: "https://skarnet.org/software/s6-networking/"
 repo_url: "https://github.com/skarnet/s6-networking"
 path: "/Baseutils/s6-networking/"

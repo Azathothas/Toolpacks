@@ -1,5 +1,6 @@
 name: "gobusybox"
 description: "Tools for compiling many Go commands into one binary to save space"
+note: ""
 web_url: "https://github.com/u-root/gobusybox"
 repo_url: "https://github.com/u-root/gobusybox"
 path: "/"

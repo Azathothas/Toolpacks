@@ -1,5 +1,6 @@
 name: "rekor"
 description: "Software Supply Chain Transparency Log"
+note: ""
 web_url: "https://github.com/sigstore/rekor"
 repo_url: "https://github.com/sigstore/rekor"
 path: "/"

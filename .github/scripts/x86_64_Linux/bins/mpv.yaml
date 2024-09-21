@@ -1,5 +1,6 @@
 name: "mpv"
 description: "🎥 Command line video player (AppImage)"
+note: ""
 web_url: "https://mpv.io"
 repo_url: "https://github.com/mpv-player/mpv"
 path: "/"

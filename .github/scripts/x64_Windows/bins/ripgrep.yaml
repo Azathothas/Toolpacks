@@ -1,5 +1,6 @@
 name: "ripgrepcat"
 description: "rust-grep"
+note: ""
 web_url: "https://github.com/BurntSushi/ripgrep"
 repo_url: "https://github.com/BurntSushi/ripgrep"
 path: "/"

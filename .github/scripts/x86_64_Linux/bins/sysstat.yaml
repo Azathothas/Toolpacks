@@ -1,5 +1,6 @@
 name: "sysstat"
 description: "Performance monitoring tools for Linux"
+note: ""
 web_url: "https://github.com/sysstat/sysstat"
 repo_url: "https://github.com/sysstat/sysstat"
 path: "/Baseutils/sysstat/"

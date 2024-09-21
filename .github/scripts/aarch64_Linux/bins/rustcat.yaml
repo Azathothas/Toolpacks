@@ -1,5 +1,6 @@
 name: "rustcat"
 description: "Rustcat(rcat) - The modern Port listener and Reverse shell"
+note: ""
 web_url: "https://github.com/robiot/rustcat"
 repo_url: "https://github.com/robiot/rustcat"
 path: "/"

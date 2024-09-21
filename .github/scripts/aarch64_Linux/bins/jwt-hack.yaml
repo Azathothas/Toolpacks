@@ -1,5 +1,6 @@
 name: "jwthack"
 description: "\U0001F529 jwt-hack is tool for hacking / security testing to JWT"
+note: ""
 web_url: "https://github.com/hahwul/jwt-hack"
 repo_url: "https://github.com/hahwul/jwt-hack"
 path: "/"

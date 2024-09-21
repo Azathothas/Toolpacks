@@ -1,5 +1,6 @@
 name: "e2fsprogs"
 description: "Tools for creating and checking ext2/ext3/ext4 filesystems"
+note: ""
 web_url: "https://e2fsprogs.sourceforge.net/"
 repo_url: "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git"
 path: "/Baseutils/e2fsprogs/"

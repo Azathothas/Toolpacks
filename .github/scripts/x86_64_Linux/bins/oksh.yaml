@@ -1,5 +1,6 @@
 name: "oksh"
 description: "Portable OpenBSD ksh, based on the Public Domain Korn Shell (pdksh)"
+note: ""
 web_url: "https://github.com/ibara/oksh"
 repo_url: "https://github.com/ibara/oksh"
 path: "/"

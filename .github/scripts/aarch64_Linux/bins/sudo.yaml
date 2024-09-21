@@ -1,5 +1,6 @@
 name: "sudo"
 description: "A command to run commands as root"
+note: ""
 web_url: "https://www.sudo.ws/"
 repo_url: "https://github.com/sudo-project/sudo"
 path: "/Baseutils/sudo/"

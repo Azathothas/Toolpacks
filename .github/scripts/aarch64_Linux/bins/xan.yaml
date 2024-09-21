@@ -1,5 +1,6 @@
 name: "xan"
 description: "The CSV magician"
+note: ""
 web_url: "https://github.com/medialab/xan"
 repo_url: "https://github.com/medialab/xan"
 path: "/"

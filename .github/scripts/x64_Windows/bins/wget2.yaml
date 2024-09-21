@@ -1,5 +1,6 @@
 name: "wget2"
 description: "The successor of GNU Wget."
+note: ""
 web_url: "https://github.com/rockdaboot/wget2"
 repo_url: "https://github.com/rockdaboot/wget2"
 path: "/"

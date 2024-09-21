@@ -1,5 +1,6 @@
 name: "opengfw"
 description: "a flexible, easy-to-use, open source implementation of GFW (Great Firewall of China) on Linux"
+note: ""
 web_url: "https://github.com/apernet/OpenGFW"
 repo_url: "https://github.com/apernet/OpenGFW"
 path: "/"

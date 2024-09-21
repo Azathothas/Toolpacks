@@ -1,5 +1,6 @@
 name: "BoltConn"
 description: "Transparent and flexible L4/L7 networking manager, supporting WireGuard, firewall and scripted MitM"
+note: ""
 web_url: "https://github.com/XOR-op/BoltConn"
 repo_url: "https://github.com/XOR-op/BoltConn"
 path: "/"

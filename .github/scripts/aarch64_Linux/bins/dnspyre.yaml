@@ -1,5 +1,6 @@
 name: "dnspyre"
 description: "command-line DNS benchmark tool built to stress test and measure the performance of DNS servers"
+note: ""
 web_url: "https://github.com/Tantalor93/dnspyre"
 repo_url: "https://github.com/Tantalor93/dnspyre"
 path: "/"

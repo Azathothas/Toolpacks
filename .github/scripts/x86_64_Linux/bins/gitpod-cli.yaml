@@ -1,5 +1,6 @@
 name: "gitpod-cli"
 description: "cli for gitpod"
+note: ""
 web_url: "https://github.com/gitpod-io/gitpod"
 repo_url: "https://github.com/gitpod-io/gitpod"
 path: "/"

@@ -1,5 +1,6 @@
 name: "docker"
 description: "Container"
+note: ""
 web_url: "https://github.com/docker/cli"
 repo_url: "https://github.com/docker/cli"
 path: "/"

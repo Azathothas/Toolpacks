@@ -1,5 +1,6 @@
 name: "elinks"
 description: "Full-Featured Text WWW Browser"
+note: ""
 web_url: "https://github.com/rkd77/elinks"
 repo_url: "https://github.com/rkd77/elinks"
 path: "/"

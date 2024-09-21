@@ -1,5 +1,6 @@
 name: "brutespray"
 description: "Bruteforcing from various scanner output - Automatically attempts default creds on found services."
+note: ""
 web_url: "https://github.com/x90skysn3k/brutespray"
 repo_url: "https://github.com/x90skysn3k/brutespray"
 path: "/"

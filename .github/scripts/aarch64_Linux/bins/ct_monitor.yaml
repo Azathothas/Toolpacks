@@ -1,5 +1,6 @@
 name: "ct_monitor"
 description: "Certificate Transparency log monitor"
+note: ""
 web_url: "https://github.com/crtsh/ct_monitor"
 repo_url: "https://github.com/crtsh/ct_monitor"
 path: "/"

@@ -1,5 +1,6 @@
 name: "surf"
 description: "filter a list of hosts, returning a list of viable SSRF candidates"
+note: ""
 web_url: "https://github.com/assetnote/surf"
 repo_url: "https://github.com/assetnote/surf"
 path: "/"

@@ -1,5 +1,6 @@
 name: "dnstake"
 description: "Check missing hosted DNS zones that can lead to subdomain takeover"
+note: ""
 web_url: "https://github.com/pwnesia/dnstake"
 repo_url: "https://github.com/pwnesia/dnstake"
 path: "/"

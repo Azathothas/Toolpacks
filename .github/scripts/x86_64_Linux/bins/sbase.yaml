@@ -1,5 +1,6 @@
 name: "sbase"
 description: "a collection of unix tools that are portable across unix-systems."
+note: ""
 web_url: "https://git.suckless.org/sbase"
 repo_url: "https://git.suckless.org/sbase"
 path: "/"

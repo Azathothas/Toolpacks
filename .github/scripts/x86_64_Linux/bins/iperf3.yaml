@@ -1,5 +1,6 @@
 name: "iperf3"
 description: "A tool for network performance measurement and tuning"
+note: ""
 web_url: "https://github.com/userdocs/iperf3-static"
 repo_url: "https://github.com/userdocs/iperf3-static"
 path: "/"

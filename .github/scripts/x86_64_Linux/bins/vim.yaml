@@ -1,5 +1,6 @@
 name: "vim"
 description: "The most popular clone of the VI editor"
+note: ""
 web_url: "https://www.vim.org"
 repo_url: "https://github.com/vim/vim"
 path: "/Baseutils/vim/"

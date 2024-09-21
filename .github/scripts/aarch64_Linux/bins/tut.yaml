@@ -1,5 +1,6 @@
 name: "tut"
 description: "TUI for Mastodon with vim inspired keys"
+note: ""
 web_url: "https://github.com/RasmusLindroth/tut"
 repo_url: "https://github.com/RasmusLindroth/tut"
 path: "/"

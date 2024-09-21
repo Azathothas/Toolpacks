@@ -1,5 +1,6 @@
 name: "coreutils-vlang"
 description: "Programs equivalent to GNU coreutils, written in the V language"
+note: ""
 web_url: "https://github.com/vlang/coreutils"
 repo_url: "https://github.com/vlang/coreutils"
 path: "/Baseutils/coreutils-vlang/"

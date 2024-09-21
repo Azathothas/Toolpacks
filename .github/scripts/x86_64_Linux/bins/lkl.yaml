@@ -1,5 +1,6 @@
 name: "lkl"
 description: "Tools for LKL (Linux Kernel Library)"
+note: ""
 web_url: "https://lkl.github.io/"
 repo_url: "https://github.com/lkl/linux"
 path: "/Baseutils/lkl/"

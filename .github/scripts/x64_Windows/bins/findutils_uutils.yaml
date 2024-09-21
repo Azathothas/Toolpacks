@@ -1,5 +1,6 @@
 name: "findutils"
 description: "Rust implementation of findutils"
+note: ""
 web_url: "https://github.com/uutils/findutils"
 repo_url: "https://github.com/uutils/findutils"
 path: "/"

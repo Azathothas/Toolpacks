@@ -1,5 +1,6 @@
 name: "bed"
 description: "Binary editor written in Go"
+note: ""
 web_url: "https://github.com/itchyny/bed"
 repo_url: "https://github.com/itchyny/bed"
 path: "/"

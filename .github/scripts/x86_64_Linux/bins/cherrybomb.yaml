@@ -1,5 +1,6 @@
 name: "cherrybomb"
 description: "Validating and Testing APIs using an OpenAPI file"
+note: ""
 web_url: "https://github.com/blst-security/cherrybomb"
 repo_url: "https://github.com/blst-security/cherrybomb"
 path: "/"

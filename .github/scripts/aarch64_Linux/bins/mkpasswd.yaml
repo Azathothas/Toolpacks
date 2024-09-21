@@ -1,5 +1,6 @@
 name: "mkpasswd"
 description: ""
+note: ""
 web_url: "https://packages.qa.debian.org/w/whois.html"
 repo_url: ""
 path: "/"

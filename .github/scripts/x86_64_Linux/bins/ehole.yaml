@@ -1,5 +1,6 @@
 name: "ehole"
 description: "vulnerability detection & exploitation"
+note: ""
 web_url: "https://github.com/lemonlove7/EHole_magic"
 repo_url: "https://github.com/lemonlove7/EHole_magic"
 path: "/"

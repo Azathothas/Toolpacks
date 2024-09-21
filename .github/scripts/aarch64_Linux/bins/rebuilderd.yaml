@@ -1,5 +1,6 @@
 name: "rebuilderd"
 description: "Independent verification of binary packages - reproducible builds"
+note: ""
 web_url: "https://github.com/kpcyrd/rebuilderd"
 repo_url: "https://github.com/kpcyrd/rebuilderd"
 path: "/"

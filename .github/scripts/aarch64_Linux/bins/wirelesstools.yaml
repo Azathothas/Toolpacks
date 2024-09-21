@@ -1,5 +1,6 @@
 name: "wirelesstools"
 description: "Wireless tools for Linux"
+note: ""
 web_url: "https://hewlettpackard.github.io/wireless-tools/Tools.html"
 repo_url: "https://github.com/HewlettPackard/wireless-tools"
 path: "/Baseutils/wirelesstools/"

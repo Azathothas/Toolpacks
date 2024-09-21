@@ -1,5 +1,6 @@
 name: "pdfcpu"
 description: "A PDF processor written in Go."
+note: ""
 web_url: "https://github.com/pdfcpu/pdfcpu"
 repo_url: "https://github.com/pdfcpu/pdfcpu"
 path: "/"

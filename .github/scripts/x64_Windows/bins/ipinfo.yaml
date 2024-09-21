@@ -1,5 +1,6 @@
 name: "ipinfo"
 description: "Official Command Line Interface for the IPinfo API"
+note: ""
 web_url: "https://ipinfo.io/"
 repo_url: "https://github.com/ipinfo/cli"
 path: "/"

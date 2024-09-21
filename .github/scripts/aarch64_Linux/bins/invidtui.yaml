@@ -1,5 +1,6 @@
 name: "invidtui"
 description: "A TUI based Invidious client"
+note: ""
 web_url: "https://github.com/darkhz/invidtui"
 repo_url: "https://github.com/darkhz/invidtui"
 path: "/"

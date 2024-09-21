@@ -1,5 +1,6 @@
 name: "which"
 description: "Shows the full path of (shell) commands"
+note: ""
 web_url: "https://www.gnu.org/software/which/"
 repo_url: ""
 path: "/"

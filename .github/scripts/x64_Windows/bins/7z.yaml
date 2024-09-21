@@ -1,5 +1,6 @@
 name: "7z"
 description: "file archiver with a high compression ratio."
+note: ""
 web_url: "https://www.7-zip.org"
 repo_url: "https://github.com/ip7z/7zip"
 path: "/"

@@ -1,5 +1,6 @@
 name: "ctrsploit"
 description: "A Penetration Toolkit for Container Environments"
+note: ""
 web_url: "https://github.com/ctrsploit/ctrsploit"
 repo_url: "https://github.com/ctrsploit/ctrsploit"
 path: "/"
