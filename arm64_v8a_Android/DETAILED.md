@@ -5,7 +5,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54051
+- **Stars:** 54054
 - **Version:** v0.2.67
 - **Updated:** 2024-09-19T21:36:11Z
 - **Size:** 19.31 MB
@@ -100,7 +100,7 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 5044
+- **Stars:** 5045
 - **Version:** 1.5.4
 - **Updated:** 2024-09-14T14:37:47Z
 - **Size:** 1.28 MB
@@ -197,7 +197,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35439
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-21T15:57:52Z
+- **Updated:** 2024-09-22T06:00:21Z
 - **Size:** 5.36 MB
 - **SHA256SUM:** 3217a39fc258f3566a0afd959474b312b52ef77b8afbecb2887d57deed338a58
 - **B3SUM:** d9279776e9d8171e0192ae6f29b8be82cb0130b403dc9a20afb96bc220f4760f
@@ -216,7 +216,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35439
 - **Version:** curl-8_10_1
-- **Updated:** 2024-09-21T15:57:52Z
+- **Updated:** 2024-09-22T06:00:21Z
 - **Size:** 228.63 kB
 - **SHA256SUM:** 1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9
 - **B3SUM:** d0993af134271f1511e1b5f01a2bfe216d4bf22d8c5d0f9cd60f9f6b9626d65e
@@ -235,7 +235,7 @@
 - **Repository:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
 - **Stars:** 140
 - **Version:** 0.4
-- **Updated:** 2024-09-20T03:36:12Z
+- **Updated:** 2024-09-22T01:20:19Z
 - **Size:** 7.37 MB
 - **SHA256SUM:** 7c03671d19e0ff009e1bcfcdc9ecf571770cfd4d52f0cf7d739289efc94aa03c
 - **B3SUM:** 6ea5eb806395c665e222c6198829e31a8e217ec12d3fdac132158cb57d78f330
@@ -290,7 +290,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4864
+- **Stars:** 4866
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 4.02 MB
@@ -309,7 +309,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 46244
+- **Stars:** 46247
 - **Version:** v1.68.0
 - **Updated:** 2024-09-21T01:22:31Z
 - **Size:** 85.87 MB
@@ -366,7 +366,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18660
+- **Stars:** 18666
 - **Version:** v1.74.1
 - **Updated:** 2024-09-20T23:30:33Z
 - **Size:** 12.46 MB
@@ -385,7 +385,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18660
+- **Stars:** 18666
 - **Version:** v1.74.1
 - **Updated:** 2024-09-20T23:30:33Z
 - **Size:** 26.74 MB
@@ -404,7 +404,7 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18660
+- **Stars:** 18666
 - **Version:** v1.74.1
 - **Updated:** 2024-09-20T23:30:33Z
 - **Size:** 24.61 MB
@@ -423,7 +423,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36126
+- **Stars:** 36130
 - **Version:** v9.1.0739
 - **Updated:** 2024-09-21T09:40:57Z
 - **Size:** 5.07 MB
@@ -482,7 +482,7 @@
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Stars:** 3605
 - **Version:** zsh-5.9
-- **Updated:** 2024-09-18T09:32:41Z
+- **Updated:** 2024-09-22T01:04:41Z
 - **Size:** 1.8 MB
 - **SHA256SUM:** 6c5521f65fd71a7a94c14f852a80446b51550e9c929adef8f8747c3aa874480b
 - **B3SUM:** 35a34d412b56d5c113ab3af3e8f56fa11f045fead4be36f6bdbc03ee53be43ee
