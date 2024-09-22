@@ -1,32 +1,32 @@
 ```mathematica
-191M └─┬ main
- 89M   ├─┬ x86_64_Linux
- 86M   │ ├── BUILD.log.txt
+187M └─┬ main
+ 87M   ├─┬ aarch64_arm64_Linux
+ 84M   │ ├── BUILD.log.txt
+1.0M   │ ├── METADATA.json
+756K   │ ├── DETAILED.md
+464K   │ ├── README.md
+152K   │ ├── FILE.txt
+120K   │ ├── BUILD_DATES.txt
+ 76K   │ ├── SHA256SUM.txt
+ 76K   │ ├── BLAKE3SUM.txt
+ 68K   │ ├── BUILD_ERROR.log.md
+ 28K   │ ├── SIZE.txt
+ 28K   │ ├── SIZE.md
+ 20K   │ ├── DUPLICATES.txt
+  0B   │ └── DUPLICATES_OVERWRITES.txt
+ 84M   ├─┬ x86_64_Linux
+ 81M   │ ├── BUILD.log.txt
 1.1M   │ ├── METADATA.json
 780K   │ ├── DETAILED.md
 476K   │ ├── README.md
 156K   │ ├── FILE.txt
 128K   │ ├── BUILD_DATES.txt
- 84K   │ ├── SHA256SUM.txt
- 84K   │ ├── BLAKE3SUM.txt
- 40K   │ ├── BUILD_ERROR.log.md
+ 80K   │ ├── SHA256SUM.txt
+ 80K   │ ├── BLAKE3SUM.txt
+ 44K   │ ├── BUILD_ERROR.log.md
  32K   │ ├── SIZE.txt
  32K   │ ├── SIZE.md
  24K   │ ├── DUPLICATES.txt
-  0B   │ └── DUPLICATES_OVERWRITES.txt
- 87M   ├─┬ aarch64_arm64_Linux
- 84M   │ ├── BUILD.log.txt
-1.0M   │ ├── METADATA.json
-752K   │ ├── DETAILED.md
-460K   │ ├── README.md
-152K   │ ├── FILE.txt
-120K   │ ├── BUILD_DATES.txt
- 80K   │ ├── SHA256SUM.txt
- 80K   │ ├── BLAKE3SUM.txt
- 68K   │ ├── BUILD_ERROR.log.md
- 28K   │ ├── SIZE.txt
- 28K   │ ├── SIZE.md
- 20K   │ ├── DUPLICATES.txt
   0B   │ └── DUPLICATES_OVERWRITES.txt
 7.4M   ├── METADATA.json
 6.8M   ├── METADATA.yaml
