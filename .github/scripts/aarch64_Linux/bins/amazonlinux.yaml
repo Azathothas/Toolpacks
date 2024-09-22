@@ -1,0 +1,9 @@
+name: "amazonlinux"
+description: "Portable Ephemeral AmazonLinux Docker Image (DockerC)"
+note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/amazonlinux)"
+web_url: "https://github.com/aws/amazon-linux-docker-images"
+repo_url: "https://github.com/aws/amazon-linux-docker-images"
+path: "/"
+bins:
+  - "amazonlinux"
+  - "amazonlinux.no_strip"

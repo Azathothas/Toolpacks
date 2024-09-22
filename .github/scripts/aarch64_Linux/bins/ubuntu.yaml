@@ -1,0 +1,9 @@
+name: "ubuntu"
+description: "Portable Ephemeral Ubuntu Linux Docker Image (DockerC)"
+note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/ubuntu)"
+web_url: "https://github.com/docker-library/docs/tree/master/ubuntu"
+repo_url: "https://github.com/docker-library/docs/tree/master/ubuntu"
+path: "/"
+bins:
+  - "ubuntu"
+  - "ubuntu.no_strip"

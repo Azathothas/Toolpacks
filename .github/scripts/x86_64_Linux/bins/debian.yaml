@@ -1,0 +1,11 @@
+name: "debian"
+description: "Portable Ephemeral Debian Linux Docker Image (DockerC)"
+note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/debian)"
+web_url: "https://wiki.debian.org/Docker"
+repo_url: "https://github.com/debuerreotype/docker-debian-artifacts"
+path: "/"
+bins:
+  - "debian"
+  - "debian-slim"
+  - "debian.no_strip"
+  - "debian-slim.no_strip"

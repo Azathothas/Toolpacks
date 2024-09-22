@@ -1,0 +1,11 @@
+name: "rockylinux"
+description: "Portable Ephemeral RockyLinux Docker Image (DockerC)"
+note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/rockylinux)"
+web_url: "https://github.com/rocky-linux/sig-cloud-instance-images"
+repo_url: "https://github.com/rocky-linux/sig-cloud-instance-images"
+path: "/"
+bins:
+  - "rockylinux"
+  - "rockylinux-minimal"
+  - "rockylinux.no_strip"
+  - "rockylinux-minimal.no_strip"

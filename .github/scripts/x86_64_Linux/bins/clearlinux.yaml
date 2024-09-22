@@ -1,0 +1,9 @@
+name: "clearlinux"
+description: "Portable Ephemeral ClearLinux Docker Image (DockerC)"
+note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/clearlinux)"
+web_url: "https://github.com/clearlinux/docker-brew-clearlinux"
+repo_url: "https://github.com/clearlinux/docker-brew-clearlinux"
+path: "/"
+bins:
+  - "clearlinux"
+  - "clearlinux.no_strip"

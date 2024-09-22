@@ -1,0 +1,9 @@
+name: "alpine"
+description: "Portable Ephemeral Alpine Linux Docker Image (DockerC)"
+note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/alpine)"
+web_url: "https://github.com/alpinelinux/docker-alpine"
+repo_url: "https://github.com/alpinelinux/docker-alpine"
+path: "/"
+bins:
+  - "alpine"
+  - "alpine.no_strip"
