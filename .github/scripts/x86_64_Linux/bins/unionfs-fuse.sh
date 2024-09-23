@@ -26,14 +26,55 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export SOURCE_URL="https://github.com/rpodgorny/unionfs-fuse"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
-      ##Build (unionfs-fuse)
+      ###Build (nix)
+      # pushd "$($TMPDIRS)" >/dev/null 2>&1
+      # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.unionfs-fuse" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+      # mkdir -p "$BASEUTILSDIR/unionfs-fuse" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/unionfs-fuse"
+      # sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/unionfs-fuse/" && chmod -R 755 "$BASEUTILSDIR/unionfs-fuse/"
+      # #Strip
+      # find "$BASEUTILSDIR/unionfs-fuse" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+      # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
+      ##Build (alpine-musl)
+       mkdir -p "$BASEUTILSDIR/unionfs-fuse"
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.unionfs-fuse" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       mkdir -p "$BASEUTILSDIR/unionfs-fuse" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/unionfs-fuse"
-       sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/unionfs-fuse/" && chmod -R 755 "$BASEUTILSDIR/unionfs-fuse/"
-       #Strip
-       find "$BASEUTILSDIR/unionfs-fuse" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
-       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" --pull="always" "azathothas/alpine-builder:latest" \
+        bash -l -c '
+        #Setup ENV
+         mkdir -p "/build-bins"
+        #Build (fuse)
+         pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --filter "blob:none" --quiet "https://github.com/rpodgorny/unionfs-fuse" && cd "./unionfs-fuse"
+         export CFLAGS="-O2 -flto=auto -static -w -pipe"
+         export LDFLAGS="--static -s -Wl,-S -Wl,--build-id=none"
+         cmake -DCMAKE_C_FLAGS="-O2 -flto=auto -static -w -pipe" \
+         -DCMAKE_EXE_LINKER_FLAGS="-static -s -Wl,-S -Wl,--build-id=none" \
+         -DCMAKE_BUILD_TYPE="Release" \
+         -DCMAKE_INSTALL_PREFIX="/usr" \
+         -DBUILD_SHARED_LIBS="OFF" \
+         -DWITH_LIBFUSE3="FALSE" \
+         -GNinja \
+         -B "./STATIC_BUILD"
+         cmake --build "./STATIC_BUILD" -j"$(($(nproc)+1))"
+         cmake --install "./STATIC_BUILD"
+         #copy
+         rsync -av --copy-links --exclude="*/" "./mount.unionfs" "/build-bins/mount.unionfs"
+         rsync -av --copy-links --exclude="*/" "./STATIC_BUILD/src/unionfs" "/build-bins/unionfs"
+         rsync -av --copy-links --exclude="*/" "./STATIC_BUILD/src/unionfsctl" "/build-bins/unionfsctl"
+         popd >/dev/null 2>&1
+        #strip & info 
+         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
+         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         file "/build-bins/"* && du -sh "/build-bins/"*
+         '
+      #Copy & Meta
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/unionfs-fuse"       
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta
        file "$BASEUTILSDIR/unionfs-fuse/"*

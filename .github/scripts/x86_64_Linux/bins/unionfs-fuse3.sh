@@ -21,28 +21,28 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #unionfs-fuse : Tools for union filesystem using fuse
-     export BIN="unionfs-fuse"
-     export SOURCE_URL="https://github.com/rpodgorny/unionfs-fuse"
+    #unionfs-fuse3 : Tools for union filesystem using fuse3
+     export BIN="unionfs-fuse33"
+     export SOURCE_URL="https://github.com/rpodgorny/unionfs-fuse3"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
       ###Build (nix)
       # pushd "$($TMPDIRS)" >/dev/null 2>&1
-      # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.unionfs-fuse" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-      # mkdir -p "$BASEUTILSDIR/unionfs-fuse" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/unionfs-fuse"
-      # sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/unionfs-fuse/" && chmod -R 755 "$BASEUTILSDIR/unionfs-fuse/"
+      # NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.unionfs-fuse3" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
+      # mkdir -p "$BASEUTILSDIR/unionfs-fuse3" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/unionfs-fuse3"
+      # sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/unionfs-fuse3/" && chmod -R 755 "$BASEUTILSDIR/unionfs-fuse3/"
       # #Strip
-      # find "$BASEUTILSDIR/unionfs-fuse" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+      # find "$BASEUTILSDIR/unionfs-fuse3" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       # nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       ##Build (alpine-musl)
-       mkdir -p "$BASEUTILSDIR/unionfs-fuse"
+       mkdir -p "$BASEUTILSDIR/unionfs-fuse3"
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" --pull="always" "azathothas/alpine-builder:latest" \
         bash -l -c '
         #Setup ENV
          mkdir -p "/build-bins"
-        #Build (fuse)
+        #Build (fuse3)
          pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --filter "blob:none" --quiet "https://github.com/rpodgorny/unionfs-fuse" && cd "./unionfs-fuse"
          export CFLAGS="-O2 -flto=auto -static -w -pipe"
          export LDFLAGS="--static -s -Wl,-S -Wl,--build-id=none"
@@ -51,7 +51,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          -DCMAKE_BUILD_TYPE="Release" \
          -DCMAKE_INSTALL_PREFIX="/usr" \
          -DBUILD_SHARED_LIBS="OFF" \
-         -DWITH_LIBFUSE3="FALSE" \
+         -DWITH_LIBFUSE3="TRUE" \
          -GNinja \
          -B "./STATIC_BUILD"
          cmake --build "./STATIC_BUILD" -j"$(($(nproc)+1))"
@@ -71,27 +71,27 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
        find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
-       sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/unionfs-fuse"       
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/unionfs-fuse3"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
       #-------------------------------------------------------#
       ##Meta
-       file "$BASEUTILSDIR/unionfs-fuse/"*
-       #Archive [$BASEUTILSDIR/unionfs-fuse]
-       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/unionfs-fuse/_unionfs-fuse.7z" "$BASEUTILSDIR/unionfs-fuse" 2>/dev/null
-       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/unionfs-fuse/_unionfs-fuse.tar" "$BASEUTILSDIR/unionfs-fuse" 2>/dev/null
+       file "$BASEUTILSDIR/unionfs-fuse3/"*
+       #Archive [$BASEUTILSDIR/unionfs-fuse3]
+       7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/unionfs-fuse3/_unionfs-fuse3.7z" "$BASEUTILSDIR/unionfs-fuse3" 2>/dev/null
+       7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/unionfs-fuse3/_unionfs-fuse3.tar" "$BASEUTILSDIR/unionfs-fuse3" 2>/dev/null
        #Generate METADATA
-       cd "$BASEUTILSDIR/unionfs-fuse" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/unionfs-fuse/FILE.txt"
-       cd "$BASEUTILSDIR/unionfs-fuse" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/unionfs-fuse/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/unionfs-fuse" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/unionfs-fuse/SHA256SUM.txt"
-       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/unionfs-fuse" | tee "$BASEUTILSDIR/unionfs-fuse/SIZE.txt"
+       cd "$BASEUTILSDIR/unionfs-fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/unionfs-fuse3/FILE.txt"
+       cd "$BASEUTILSDIR/unionfs-fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/unionfs-fuse3/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/unionfs-fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/unionfs-fuse3/SHA256SUM.txt"
+       dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/unionfs-fuse3" | tee "$BASEUTILSDIR/unionfs-fuse3/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"
-       cd "$BASEUTILSDIR/unionfs-fuse" && rclone sync "." "r2:/bin/aarch64_arm64_Linux/Baseutils/unionfs-fuse/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+       cd "$BASEUTILSDIR/unionfs-fuse3" && rclone sync "." "r2:/bin/x86_64_Linux/Baseutils/unionfs-fuse3/" --exclude="*.jq" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
        curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
        #List
-       BUILD_URL="https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/unionfs-fuse.yaml" && export BUILD_URL="$BUILD_URL"
+       BUILD_URL="https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/unionfs-fuse3.yaml" && export BUILD_URL="$BUILD_URL"
        curl -qfsSL "$BUILD_URL" -o "$TMP_METADIR/temp.yaml"
        yq -r '.bins[]' "$TMP_METADIR/temp.yaml" | sort -u -o "$TMP_METADIR/BINS.txt"
        BUILD_SCRIPT="$(echo "$BUILD_URL" | sed 's|https://pub.ajam.dev/repos|https://github.com|; s|/Toolpacks|/Toolpacks/tree/main|; s|\.yaml$|.sh|')" && export BUILD_SCRIPT="$BUILD_SCRIPT"
@@ -100,8 +100,8 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        EXTRA_BINS="$(awk -v bin="$BIN" '$0 != bin' "$TMP_METADIR/BINS.txt" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"
        REPO_URL="$(yq -r '.repo_url' $TMP_METADIR/temp.yaml)" && export REPO_URL="$REPO_URL"
        WEB_URL="$(yq -r '.web_url' $TMP_METADIR/temp.yaml)" && export WEB_URL="$WEB_URL"
-       rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/Baseutils/unionfs-fuse/" --exclude="*.7z" --exclude="*.no_strip" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" | \
-       jq --arg BUILD_SCRIPT "$BUILD_SCRIPT" --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg NOTE "$NOTE" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, note: $NOTE, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/unionfs-fuse/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, build_script: $BUILD_SCRIPT, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
+       rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/unionfs-fuse3/" --exclude="*.7z" --exclude="*.no_strip" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" | \
+       jq --arg BUILD_SCRIPT "$BUILD_SCRIPT" --arg DESCRIPTION "$DESCRIPTION" --arg EXTRA_BINS "$EXTRA_BINS" --arg NOTE "$NOTE" --arg WEB_URL "$WEB_URL" --arg REPO_URL "$REPO_URL" -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|bz2|gz|json|md|rar|tar|tgz|tmp|txt|zip)$") | not)) | {name: (.Name), description: $DESCRIPTION, note: $NOTE, download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/unionfs-fuse3/\(.Path)", size: (.Size | tonumber | bytes), build_date: (.ModTime | split(".")[0]), repo_url: $REPO_URL, web_url: $WEB_URL, build_script: $BUILD_SCRIPT, extra_bins: $EXTRA_BINS}' | jq -s 'sort_by(.name)' > "$TMP_METADIR/INFO.json"
        for BIN in $(cat "$TMP_METADIR/BINS.txt" | sed 's/"//g'); do
          #Description
           jq --arg BIN "$BIN" --arg DESCRIPTION "$DESCRIPTION" '.[] |= if .name == $BIN then . + {description: $DESCRIPTION} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
@@ -109,17 +109,17 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           EXTRA_BINS="$(awk -v bin="$BIN" '$0 != bin' "$TMP_METADIR/BINS.txt" | paste -sd ',' -)" && export EXTRA_BINS="${EXTRA_BINS}"  
           jq --arg BIN "$BIN" --arg EXTRA_BINS "$EXTRA_BINS" '.[] |= if .name == $BIN then . + {extra_bins: $EXTRA_BINS} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
          #BSUM
-          B3SUM="$(cat "$BASEUTILSDIR/unionfs-fuse/BLAKE3SUM.txt" | grep --fixed-strings --ignore-case --word-regexp "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
+          B3SUM="$(cat "$BASEUTILSDIR/unionfs-fuse3/BLAKE3SUM.txt" | grep --fixed-strings --ignore-case --word-regexp "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export B3SUM="$B3SUM"
           jq --arg BIN "$BIN" --arg B3SUM "$B3SUM" '.[] |= if .name == $BIN then . + {b3sum: $B3SUM} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
          #SHA256SUM
-          SHA256="$(cat "$BASEUTILSDIR/unionfs-fuse/SHA256SUM.txt" | grep --fixed-strings --ignore-case --word-regexp "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
+          SHA256="$(cat "$BASEUTILSDIR/unionfs-fuse3/SHA256SUM.txt" | grep --fixed-strings --ignore-case --word-regexp "${BIN}" | awk '{print $1}' | sort  -u | head -n 1 | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/`//g' | sed 's/|//g' | tr -d '[:space:]')" && export SHA256="$SHA256"
           jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .name == $BIN then . + {sha256: $SHA256} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
          #Web URLs
           jq --arg BIN "$BIN" --arg WEB_URL "$WEB_URL" '.[] |= if .name == $BIN then . + {web_url: $WEB_URL} else . end' "$TMP_METADIR/INFO.json" > "$TMP_METADIR/INFO.tmp" && mv "$TMP_METADIR/INFO.tmp" "$TMP_METADIR/INFO.json"
        done
        #Upload 
        if jq --exit-status . "$TMP_METADIR/INFO.json" >/dev/null 2>&1; then
-          rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/unionfs-fuse/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+          rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/x86_64_Linux/Baseutils/unionfs-fuse3/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
        find "$BASEUTILSDIR" -type f -size 0 -delete ; popd >/dev/null 2>&1

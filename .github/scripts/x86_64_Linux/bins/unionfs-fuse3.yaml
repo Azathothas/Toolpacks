@@ -1,0 +1,10 @@
+name: "unionfs-fuse3"
+description: "Tools for union filesystem using fuse3"
+note: "This is linked with libfuse3"
+web_url: "https://github.com/rpodgorny/unionfs-fuse"
+repo_url: "https://github.com/rpodgorny/unionfs-fuse"
+path: "/Baseutils/unionfs-fuse/"
+bins:
+  - "mount.unionfs-fuse"
+  - "unionfs"
+  - "unionfsctl"
