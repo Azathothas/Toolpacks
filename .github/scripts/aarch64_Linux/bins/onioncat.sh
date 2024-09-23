@@ -21,9 +21,9 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #bpftrace : High-level tracing language & tool for Linux 
-     export BIN="bpftrace"
-     export SOURCE_URL="https://github.com/bpftrace/bpftrace"
+    #onioncat : VPN adapter for Tor and I2P
+     export BIN="onioncat"
+     export SOURCE_URL="https://github.com/rahra/onioncat"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -32,26 +32,15 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         bash -l -c '
         #Setup ENV
          mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
-        #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
-         git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
-         #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
-         pip install -r "./requirements.txt" --break-system-packages --upgrade --force
-         apk update && apk upgrade --no-interactive
-         apk add busybox scons --latest --upgrade --no-interactive
-         export BOOTLOADER_CC="musl-gcc"
-         rm -rf "./build" "./dist" "./scons_build" "./staticx/assets"
-         python "./setup.py" sdist bdist_wheel
-         find dist/ -name "*.whl" | while read -r file; do 
-           newname=$(echo "$file" | sed "s/none-[^/]*\.whl$/none-any.whl/");
-           mv "$file" "$newname"; 
-         done
-         find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force
-         staticx --version ; popd >/dev/null 2>&1
-        ##Staticx
-         apk update && apk upgrade --no-interactive
-         apk add bpftrace --latest --upgrade --no-interactive
-         staticx --loglevel DEBUG "$(which bpftrace)" --strip "/build-bins/bpftrace"
-         staticx --loglevel DEBUG "$(which bpftrace-aotrt)" --strip "/build-bins/bpftrace-aotrt"
+        #Build
+         git clone --filter "blob:none" --quiet "https://github.com/rahra/onioncat" && cd "./onioncat"
+         export CFLAGS="-O2 -flto=auto -static -w -pipe"
+         export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
+         "./autogen.sh" ; "./configure" --disable-shared --disable-Werror --enable-static --enable-year2038 --enable-handle-http --enable-packet-log --enable-packet-queue --enable-rtt
+         make --jobs="$(($(nproc)+1))" --keep-going
+        #Copy
+         cp "./src/ocat" "/build-bins/ocat"
+         cp "./src/ocat" "/build-bins/onioncat"
         #strip & info 
          find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
          find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null

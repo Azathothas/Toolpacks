@@ -1,6 +1,6 @@
 name: "bpftrace"
 description: "High-level tracing language & tool for Linux"
-note: ""
+note: "This is a Staticx Static Binary (Might NOT Work)"
 web_url: "https://github.com/bpftrace/bpftrace"
 repo_url: "https://github.com/bpftrace/bpftrace"
 path: "/"

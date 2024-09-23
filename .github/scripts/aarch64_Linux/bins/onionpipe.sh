@@ -19,48 +19,31 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
+export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-    #bpftrace : High-level tracing language & tool for Linux 
-     export BIN="bpftrace"
-     export SOURCE_URL="https://github.com/bpftrace/bpftrace"
+    #onionpipe : Forward ports on the local host to remote Onion addresses as Tor hidden services and vice-versa.
+     export BIN="onionpipe"
+     export SOURCE_URL="https://github.com/cmars/onionpipe"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-      ##Build (alpine-musl)
+      #Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
        docker run --privileged --net="host" --name "alpine-builder" --pull="always" "azathothas/alpine-builder:latest" \
         bash -l -c '
         #Setup ENV
          mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
-        #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
-         git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
-         #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
-         pip install -r "./requirements.txt" --break-system-packages --upgrade --force
-         apk update && apk upgrade --no-interactive
-         apk add busybox scons --latest --upgrade --no-interactive
-         export BOOTLOADER_CC="musl-gcc"
-         rm -rf "./build" "./dist" "./scons_build" "./staticx/assets"
-         python "./setup.py" sdist bdist_wheel
-         find dist/ -name "*.whl" | while read -r file; do 
-           newname=$(echo "$file" | sed "s/none-[^/]*\.whl$/none-any.whl/");
-           mv "$file" "$newname"; 
-         done
-         find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force
-         staticx --version ; popd >/dev/null 2>&1
-        ##Staticx
-         apk update && apk upgrade --no-interactive
-         apk add bpftrace --latest --upgrade --no-interactive
-         staticx --loglevel DEBUG "$(which bpftrace)" --strip "/build-bins/bpftrace"
-         staticx --loglevel DEBUG "$(which bpftrace-aotrt)" --strip "/build-bins/bpftrace-aotrt"
-        #strip & info 
+        #Build
+         git clone --quiet --filter "blob:none" "https://github.com/cmars/onionpipe" && cd "./onionpipe"
+         GOOS="linux" GOARCH="arm64" CGO_ENABLED="1" CGO_CFLAGS="-O2 -flto=auto -fPIE -fpie -static -w -pipe" go build -v -trimpath -buildmode="pie" -ldflags="-s -w -buildid= -linkmode=external -extldflags '\''-s -w -static-pie -Wl,--build-id=none'\''"
+        #strip & info
+         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} rsync -av --copy-links --exclude="*/" "{}" "/build-bins/"
          find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
          find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
          file "/build-bins/"* && du -sh "/build-bins/"*
          popd >/dev/null 2>&1
         '
-      #Copy & Meta
-       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
-       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+      #Copy
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
        find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
        sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"

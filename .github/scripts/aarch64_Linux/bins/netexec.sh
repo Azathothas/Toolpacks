@@ -37,6 +37,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
         #https://github.com/Pennyw0rth/NetExec/blob/main/Dockerfile
          sudo apt-get update -y -qq
          sudo apt-get install -y -qq libffi-dev libxml2-dev libxslt-dev libssl-dev openssl autoconf g++ python3-dev curl git
+         pip install "git+https://github.com/pyinstaller/pyinstaller" --break-system-packages --force-reinstall --upgrade ; pyinstaller --version
          sudo apt-get update -y -qq
         #Build
          git clone --quiet --filter "blob:none" "https://github.com/Pennyw0rth/NetExec" && cd "./NetExec"

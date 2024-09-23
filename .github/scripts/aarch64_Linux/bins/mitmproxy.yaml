@@ -1,0 +1,10 @@
+name: "mitmproxy"
+description: "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers"
+note: "This is a Staticx Static Binary (Might NOT Work)"
+web_url: "https://mitmproxy.org"
+repo_url: "https://github.com/mitmproxy/mitmproxy"
+path: "/"
+bins:
+  - "mitmdump"
+  - "mitmproxy"  
+  - "mitmweb"

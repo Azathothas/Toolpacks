@@ -1,0 +1,8 @@
+name: "onionpipe"
+description: "Forward ports on the local host to remote Onion addresses as Tor hidden services and vice-versa"
+note: ""
+web_url: "https://github.com/cmars/onionpipe"
+repo_url: "https://github.com/cmars/onionpipe"
+path: "/"
+bins:
+  - "onionpipe"

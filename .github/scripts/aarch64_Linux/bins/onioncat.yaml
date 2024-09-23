@@ -1,0 +1,9 @@
+name: "onioncat"
+description: "VPN adapter for Tor and I2P"
+note: ""
+web_url: "https://www.onioncat.org"
+repo_url: "https://github.com/rahra/onioncat"
+path: "/"
+bins:
+  - "ocat"
+  - "onioncat"

@@ -52,6 +52,11 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          apk add bpftrace --latest --upgrade --no-interactive
          staticx --loglevel DEBUG "$(which bpftrace)" --strip "/build-bins/bpftrace"
          staticx --loglevel DEBUG "$(which bpftrace-aotrt)" --strip "/build-bins/bpftrace-aotrt"
+        #strip & info 
+         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
+         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         file "/build-bins/"* && du -sh "/build-bins/"*
+         popd >/dev/null 2>&1
         '
       #Copy & Meta
        docker cp "alpine-builder:/build-bins/." "$(pwd)/"
