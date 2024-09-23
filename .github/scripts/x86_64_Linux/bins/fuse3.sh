@@ -32,6 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/fuse3" ; sudo rsync -av --copy-links "./result/bin/." "$BASEUTILSDIR/fuse3"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/fuse3/" && chmod -R 755 "$BASEUTILSDIR/fuse3/"
        #Strip
+       find "$BASEUTILSDIR/fuse3" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \; 2>/dev/null
        find "$BASEUTILSDIR/fuse3" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
