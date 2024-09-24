@@ -6,6 +6,7 @@
 > > ```YAML
 > > name: "#Contains the Name of the $BINARY itself",
 > > description: "#Contains the Description of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]",
+> > note: "#Contains Additional Notes,Refs,Info the user need to be aware of, of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]"
 > > download_url: "#Contains the Raw Direct Download URL of the $BINARY",
 > > size: "#Contains the Total Size of the $BINARY",
 > > b3sum: "#Contains the Exact Blake3sum of the $BINARY",
@@ -22,6 +23,7 @@
 > > repo_license: "#Contains the Repo's License (Only if REPO = Github) of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]",
 > > repo_topics: "#Contains the Repo's Topics/Tags (Only if REPO = Github) of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]",
 > > web_url: "#Contains the Website/Project Page URL of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]",
+> > build_script: "#Contains the Actual Script the $BINARY was Built(Fetched) By",
 > > extra_bins: "#Contains names of related binaries (Only if they belong to same $PKG_FAMILY) of the $BINARY/$PKG_FAMILY [Otherwise EMPTY]"
 > > ```
 > - You can use this data to automate downloading, updating or even build a full fledged *📦 Package Manager* like [`@xplshn/dbin`](https://github.com/xplshn/dbin) & [`@pwnwriter/hysp`](https://github.com/pwnwriter/hysp)
