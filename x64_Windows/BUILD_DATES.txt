@@ -1,6 +1,6 @@
 2024-06-14T23:41:43 --> [age.exe A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. (2024-08-21T10:37:07Z)]
 2024-07-14T20:07:27 --> [legba.exe A multiprotocol credentials bruteforcer / password sprayer and enumerator. 🥷 (2024-08-21T12:24:49Z)]
-2024-08-25T19:52:26 --> [micro.exe A modern and intuitive terminal-based text editor (2024-09-23T00:21:29Z)]
+2024-08-25T19:52:26 --> [micro.exe A modern and intuitive terminal-based text editor (2024-09-24T00:21:02Z)]
 2024-09-01T19:54:21 --> [monolith.exe ⬛️ CLI tool for saving complete web pages as a single HTML file (2024-09-05T23:56:49Z)]
 2024-09-13T19:46:14 --> [miniserve.exe 🌟 For when you really just want to serve some files over HTTP right now! (2024-09-21T22:01:48Z)]
 2024-09-22T19:47:25 --> [7z.exe 7-Zip (2024-08-12T11:51:02Z)]
