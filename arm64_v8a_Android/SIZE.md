@@ -24,8 +24,8 @@
 948K   ├── anew-rs
 444K   ├── xxd
 248K   ├── sudo
-224K   ├── wget_cacert.pem
-224K   ├── curl_cacert.pem
+232K   ├── wget_cacert.pem
+232K   ├── curl_cacert.pem
 184K   ├── adig
 176K   └── ahost
 ```

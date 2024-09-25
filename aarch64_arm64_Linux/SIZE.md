@@ -5,7 +5,7 @@
  139M   ├── cloudfox
  131M   ├── usql
  111M   ├── cloudlist
- 103M   ├── trufflehog
+ 105M   ├── trufflehog
   98M   ├── gitea
   97M   ├── promtail
   87M   ├── k9s
@@ -53,8 +53,8 @@
   34M   ├── nu
   33M   ├── kopia
   33M   ├── loki-canary
-  32M   ├── cloudreve
   32M   ├── yt-dlp
+  32M   ├── cloudreve
   32M   ├── naabu
   32M   ├── fscan
   32M   ├── aptly
@@ -92,7 +92,6 @@
   25M   ├── mc
   25M   ├── cvemap
   25M   ├── uncover
-  25M   ├── mapcidr
   24M   ├── ngrok
   24M   ├── tusd
   24M   ├── tailscaled
@@ -114,6 +113,7 @@
   23M   ├── nerdctl
   23M   ├── cloudflared
   23M   ├── jaeles
+  22M   ├── mapcidr
   22M   ├── interactsh-server
   22M   ├── syncthing
   22M   ├── loclx
@@ -121,7 +121,6 @@
   22M   ├── wezterm-mux-server
   21M   ├── rattler-build
   21M   ├── etcd
-  21M   ├── ruff
   21M   ├── reader
   21M   ├── dnspyre
   21M   ├── shuffledns
@@ -130,12 +129,12 @@
   20M   ├── tuiarchiver
   20M   ├── toru
   20M   ├── vhs
+  20M   ├── meli
   20M   ├── nezha-agent
   20M   ├── lux
-  20M   ├── meli
+  20M   ├── ruff
   20M   ├── alterx
   20M   ├── gum
-  19M   ├── jira-cli
   19M   ├── jira
   19M   ├── cdncheck
   19M   ├── xetcmd
@@ -166,12 +165,13 @@
   17M   ├── rekor-cli
   17M   ├── exatorrent-noui
   17M   ├── garm
-  17M   ├── podsync
   17M   ├── gix
+  17M   ├── podsync
   17M   ├── gitpod
   17M   ├── imix
   17M   ├── lazygit
   17M   ├── atuin
+  17M   ├── jira-cli
   17M   ├── sunbeam
   17M   ├── go-audit
   16M   ├── circumflex
@@ -198,7 +198,6 @@
   14M   ├── ipa-server
   14M   ├── ct_monitor
   14M   ├── bin
-  14M   ├── qsv
   14M   ├── s5cmd
   14M   ├── sn0int
   14M   ├── yip
@@ -234,6 +233,7 @@
   12M   ├── dwarfs-tools
   12M   ├── zgrab2
   12M   ├── ffufw
+  12M   ├── qsv
   12M   ├── s3sync
   12M   ├── freeze
   12M   ├── mabel
@@ -250,12 +250,12 @@
   11M   ├── micro
   11M   ├── tty2web
   11M   ├── ein
+  11M   ├── fq
   11M   ├── sslsearch
   11M   ├── litefs
   11M   ├── aria2c
   11M   ├── aria2
   11M   ├── jqp
-  11M   ├── fq
   11M   ├── sysbox-fs
   11M   ├── pktstat
   11M   ├── sysbox-mgr
@@ -294,9 +294,9 @@
  9.8M   ├── htb-cli
  9.8M   ├── shortscan
  9.7M   ├── resto
+ 9.7M   ├── git-cliff
  9.7M   ├── goop
  9.7M   ├── oha
- 9.6M   ├── git-cliff
  9.6M   ├── ngocok
  9.5M   ├── gotty
  9.5M   ├── broot
@@ -318,6 +318,8 @@
  9.0M   ├── cfssl-newkey
  8.9M   ├── invidtui
  8.9M   ├── pgrok
+ 8.9M   ├── czkawka_cli
+ 8.9M   ├── czkawka-cli
  8.9M   ├── stew
  8.9M   ├── archey
  8.8M   ├── cut-cdn
@@ -358,7 +360,7 @@
  8.0M   ├── nomore403
  8.0M   ├── sshx-server
  8.0M   ├── q
- 7.9M   ├── warp-diag
+ 8.0M   ├── warp-diag
  7.9M   ├── gau
  7.9M   ├── ov
  7.9M   ├── cfssl-bundle
@@ -372,16 +374,16 @@
  7.7M   ├── cfssl-certinfo
  7.7M   ├── syncat
  7.7M   ├── ladder
+ 7.7M   ├── xan
  7.7M   ├── croc
  7.6M   ├── planor
- 7.6M   ├── xan
  7.6M   ├── sbctl
  7.6M   ├── quickcert
  7.6M   ├── dontgo403
  7.5M   ├── godnsbench
  7.5M   ├── ffuf
+ 7.5M   ├── revive
  7.4M   ├── clipcat-menu
- 7.4M   ├── revive
  7.4M   ├── gobuster
  7.4M   ├── monolith
  7.4M   ├── subxtract
@@ -459,8 +461,8 @@
  5.9M   ├── qemu-aarch64-static
  5.9M   ├── sshx
  5.9M   ├── rescope
- 5.8M   ├── cfssljson
  5.8M   ├── wego
+ 5.8M   ├── cfssljson
  5.7M   ├── wget
  5.7M   ├── trip
  5.7M   ├── zigup
@@ -498,8 +500,8 @@
  5.2M   ├── clipcatctl
  5.2M   ├── batcat
  5.2M   ├── bat
- 5.2M   ├── vtm
  5.2M   ├── unfurl
+ 5.2M   ├── vtm
  5.2M   ├── clipcat-notify
  5.1M   ├── git-tag
  5.1M   ├── volta
@@ -524,6 +526,7 @@
  5.0M   ├── xbps-create
  5.0M   ├── waybackurls
  5.0M   ├── assetfinder
+ 4.9M   ├── actionlint
  4.9M   ├── rustcan
  4.8M   ├── rootlesskit-docker-proxy
  4.8M   ├── wth
@@ -536,7 +539,8 @@
  4.8M   ├── hakip2host
  4.8M   ├── fget
  4.8M   ├── crlfuzz
- 4.8M   ├── actionlint
+ 4.7M   ├── nvme-cli
+ 4.7M   ├── nvme
  4.7M   ├── openvpn
  4.7M   ├── crt
  4.7M   ├── mani
@@ -618,7 +622,7 @@
  3.9M   ├── gojq
  3.9M   ├── qemu-ppc-static
  3.8M   ├── tokei
- 3.7M   ├── realm
+ 3.8M   ├── realm
  3.7M   ├── fblog
  3.7M   ├── bottom
  3.7M   ├── zt-patterns
@@ -743,8 +747,8 @@
  2.2M   ├── shortutil
  2.2M   ├── wireguard-rs
  2.2M   ├── tere
- 2.2M   ├── husarnet-daemon
  2.2M   ├── btop
+ 2.2M   ├── husarnet-daemon
  2.2M   ├── htmlq
  2.2M   ├── systeroid-tui
  2.2M   ├── ffufPostprocessing
@@ -874,9 +878,9 @@
  908K   ├── dropbearkey
  908K   ├── dropbearconvert
  900K   ├── b3sum
+ 888K   ├── jql
  872K   ├── hexyl
  872K   ├── csview
- 868K   ├── jql
  864K   ├── svg-hush
  824K   ├── toybox
  816K   ├── cargo-unlock
@@ -932,8 +936,8 @@
  260K   ├── xdo
  260K   ├── sed
  256K   ├── screenfetch
- 216K   ├── zapper
  212K   ├── zapper-stealth
+ 212K   ├── zapper
  212K   ├── reptyr
  208K   ├── ping
  208K   ├── nfs-cp
@@ -952,8 +956,8 @@
  196K   ├── bubblewrap
  192K   ├── sar
  180K   ├── rust-hypervisor-firmware
- 180K   ├── jsmug
  180K   ├── hypervisor-fw
+ 176K   ├── jsmug
  172K   ├── minisign
  168K   ├── linuxwave
  144K   ├── pidstat
