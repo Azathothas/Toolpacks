@@ -134,12 +134,12 @@
           #PYTHON_VERSION_LATEST="$(curl -qfsSL "https://devguide.python.org/versions/" |  grep -oP 'Python \d+\.\d+' | sed 's/Python //' | sort -V | uniq | tail -n 1)" && export PYTHON_VERSION_LATEST="$PYTHON_VERSION_LATEST"
           #sudo apt-get install "python${PYTHON_VERSION_LATEST}" -y
           #Install Build Des
-          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk imagemagick lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget -y 2>/dev/null
+          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk git-lfs imagemagick lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget -y 2>/dev/null
           sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config qemu-user-static scons tree wget 2>/dev/null
           sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
           sudo apt-get install cmake -y
           #Re
-          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk imagemagick lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget -y 2>/dev/null
+          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk git-lfs imagemagick lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget -y 2>/dev/null
           sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config qemu-user-static scons tree wget 2>/dev/null
           sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
           sudo apt-get install cmake -y
