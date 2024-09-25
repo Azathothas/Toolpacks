@@ -1,6 +1,6 @@
 ```mathematica
-  13G └─┬ toolpack_x86_64
- 330M   ├── gentoo.no_strip
+  62G └─┬ toolpack_x86_64
+ 308M   ├── gentoo.no_strip
  279M   ├── gentoo-musl.no_strip
  169M   ├── usql
  161M   ├── sliver-server
@@ -10,7 +10,7 @@
  135M   ├── archlinux.no_strip
  117M   ├── aws-cli.no_strip
  113M   ├── cloudlist
- 110M   ├── trufflehog
+ 112M   ├── trufflehog
  102M   ├── gitea
   99M   ├── promtail
   90M   ├── k9s
@@ -30,10 +30,10 @@
   71M   ├── devpod
   70M   ├── rclone
   69M   ├── clearlinux.no_strip
+  69M   ├── ockam
   69M   ├── loki
-  68M   ├── ockam
-  65M   ├── dockerc
   65M   ├── almalinux.no_strip
+  65M   ├── dockerc
   61M   ├── rockylinux.no_strip
   60M   ├── dockerd
   59M   ├── wtfutil
@@ -111,7 +111,6 @@
   27M   ├── lnav
   27M   ├── sqlc
   27M   ├── subfinder
-  27M   ├── qsv
   27M   ├── relic
   27M   ├── tailscale_merged
   27M   ├── tailscale_bb
@@ -122,16 +121,16 @@
   27M   ├── tlsx
   26M   ├── nmap-formatter
   26M   ├── wezterm-mux-server
-  26M   ├── osmedeus
   26M   ├── mc
+  26M   ├── osmedeus
   26M   ├── rattler-build
   26M   ├── cvemap
   26M   ├── uncover
   26M   ├── tailscale_combined
   26M   ├── soft-serve
-  26M   ├── mapcidr
   26M   ├── tusd
   26M   ├── interactsh-client
+  25M   ├── qsv
   25M   ├── tailscaled
   25M   ├── asnmap
   25M   ├── meli
@@ -146,13 +145,14 @@
   24M   ├── nerdctl
   24M   ├── php-fpm
   24M   ├── php
-  24M   ├── mise
   24M   ├── php-micro
+  24M   ├── mise
   24M   ├── grpcurl
   24M   ├── cloudflared
   24M   ├── xetcmd
   24M   ├── jaeles
   23M   ├── ruff
+  23M   ├── mapcidr
   23M   ├── noseyparker
   23M   ├── interactsh-server
   23M   ├── legba
@@ -186,6 +186,7 @@
   20M   ├── golem
   20M   ├── go-audit
   20M   ├── notify
+  19M   ├── tor-socks-proxy.no_strip
   19M   ├── libaws-cli
   19M   ├── libaws
   19M   ├── miniflux
@@ -244,7 +245,6 @@
   14M   ├── zerotier-one
   14M   ├── zerotier-idtool
   14M   ├── zerotier-cli
-  14M   ├── bin
   14M   ├── aws-wire-lengths
   14M   ├── sysbox-runc
   14M   ├── s3scanner
@@ -300,9 +300,9 @@
   11M   ├── fq
   11M   ├── jqp
   11M   ├── wstunnel
+  11M   ├── taplo
   11M   ├── czkawka_cli
   11M   ├── czkawka-cli
-  11M   ├── taplo
   11M   ├── nmctl
   11M   ├── sysbox-mgr
   11M   ├── netexec_dynamic
@@ -513,6 +513,7 @@
  6.3M   ├── pueued
  6.3M   ├── pueue
  6.3M   ├── cloak-server
+ 6.2M   ├── onionpipe
  6.2M   ├── clipcatctl
  6.2M   ├── wadl-dumper
  6.2M   ├── rescope
@@ -605,6 +606,7 @@
  5.0M   ├── fget
  5.0M   ├── wth
  5.0M   ├── rsync
+ 5.0M   ├── actionlint
  5.0M   ├── crlfuzz
  5.0M   ├── cfspeedtest
  5.0M   ├── openssl
@@ -623,7 +625,6 @@
  4.9M   ├── agg-tunnel
  4.9M   ├── fblog
  4.9M   ├── mkbundle
- 4.9M   ├── actionlint
  4.8M   ├── sshd
  4.8M   ├── certstream
  4.8M   ├── jnv
@@ -683,8 +684,8 @@
  4.0M   ├── qemu-arm-static
  4.0M   ├── dotenv-linter
  4.0M   ├── gojq
- 3.9M   ├── qemu-mipsn32-static
  3.9M   ├── xcp
+ 3.9M   ├── qemu-mipsn32-static
  3.9M   ├── qemu-mips64-static
  3.9M   ├── qemu-mipsn32el-static
  3.9M   ├── qemu-mips64el-static
@@ -931,9 +932,9 @@
  1.1M   ├── desktop-file-validate
  1.1M   ├── catatonit
  1.1M   ├── update-desktop-database
+ 1.0M   ├── jql
  1.0M   ├── bash
  1.0M   ├── grep
- 1.0M   ├── jql
  1.0M   ├── awk
  976K   ├── svg-hush
  972K   ├── cargo-unlock
@@ -1013,6 +1014,8 @@
  192K   ├── linuxwave
  188K   ├── cpufetch
  184K   ├── ping
+ 184K   ├── onioncat
+ 184K   ├── ocat
  180K   ├── hcxdumptool
  172K   ├── numademo
  172K   ├── numactl
@@ -1098,16 +1101,38 @@
  8.0K   ├── dockerd-rootless.sh
  8.0K   ├── ansi2txt
  4.0K   ├── zerotier-one_systemd_service
+ 4.0K   ├── var
+ 4.0K   ├── usr
+ 4.0K   ├── tmp
  4.0K   ├── sysstat
+ 4.0K   ├── sys
  4.0K   ├── subxtract.sh
  4.0K   ├── sshd_config
+ 4.0K   ├── srv
  4.0K   ├── serverstatus-gen-certs.sh
  4.0K   ├── scopeview
+ 4.0K   ├── sbin.usr-is-merged
+ 4.0K   ├── sbin
  4.0K   ├── sa2
  4.0K   ├── sa1
+ 4.0K   ├── runner-init
+ 4.0K   ├── runner
+ 4.0K   ├── run
+ 4.0K   ├── root
+ 4.0K   ├── proc
  4.0K   ├── pelf_linker
  4.0K   ├── pelf_extract
+ 4.0K   ├── opt
+ 4.0K   ├── nix
  4.0K   ├── nezha-dashboard.service
  4.0K   ├── nezha-dashboard.openrc
- 4.0K   └── binfetch.cfg
+ 4.0K   ├── mnt
+ 4.0K   ├── media
+ 4.0K   ├── lib64
+ 4.0K   ├── lib.usr-is-merged
+ 4.0K   ├── lib
+ 4.0K   ├── home
+ 4.0K   ├── boot
+ 4.0K   ├── binfetch.cfg
+ 4.0K   └── bin.usr-is-merged
 ```
