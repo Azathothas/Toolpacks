@@ -1,15 +1,20 @@
 ```mathematica
-  11G └─┬ toolpack_x86_64
+  62G └─┬ toolpack_x86_64
+ 308M   ├── gentoo.no_strip
+ 279M   ├── gentoo-musl.no_strip
  169M   ├── usql
  161M   ├── sliver-server
  157M   ├── traefik
  151M   ├── cloudfox
  143M   ├── aws-nuke
+ 135M   ├── archlinux.no_strip
+ 117M   ├── aws-cli.no_strip
  113M   ├── cloudlist
- 110M   ├── trufflehog
+ 112M   ├── trufflehog
  102M   ├── gitea
   99M   ├── promtail
   90M   ├── k9s
+  90M   ├── slskd.no_strip
   86M   ├── istioctl
   80M   ├── daytona
   79M   ├── hugo
@@ -18,44 +23,58 @@
   77M   ├── alist
   75M   ├── ffmpeg
   74M   ├── ffprobe
+  74M   ├── fedora.no_strip
   74M   ├── nuclei
   73M   ├── falconhound
   72M   ├── berty
   71M   ├── devpod
   70M   ├── rclone
+  69M   ├── clearlinux.no_strip
+  69M   ├── ockam
   69M   ├── loki
-  68M   ├── ockam
+  65M   ├── almalinux.no_strip
   65M   ├── dockerc
+  61M   ├── rockylinux.no_strip
   60M   ├── dockerd
   59M   ├── wtfutil
   59M   ├── wtf
   55M   ├── ipfs
   53M   ├── miniooni
   53M   ├── ipfswatch
+  52M   ├── kalilinux.no_strip
   52M   ├── steampipe
   51M   ├── tavern
+  51M   ├── amazonlinux.no_strip
   51M   ├── gowitness
+  50M   ├── void-glibc.no_strip
   50M   ├── ooniprobe
   50M   ├── teldrive
+  49M   ├── debian.no_strip
   48M   ├── bpftrace
   48M   ├── bearer
   48M   ├── matterbridge
   47M   ├── gh
   47M   ├── xet_staticx
+  46M   ├── rockylinux-minimal.no_strip
   46M   ├── rekor-server
   46M   ├── rekor
   45M   ├── opengist
   45M   ├── wush
+  44M   ├── termux.no_strip
   39M   ├── katana
   38M   ├── kadeessh
   38M   ├── caddy
   38M   ├── httpx
+  38M   ├── mitmproxy
   38M   ├── proxify
   37M   ├── containerd
   37M   ├── tdl
+  36M   ├── void-musl.no_strip
+  36M   ├── almalinux-minimal.no_strip
   36M   ├── kopia
   36M   ├── nezha-dashboard
   35M   ├── amass
+  35M   ├── mitmweb
   34M   ├── sliver-client
   34M   ├── nushell
   34M   ├── nu
@@ -64,6 +83,8 @@
   33M   ├── cloudreve
   33M   ├── aptly
   33M   ├── naabu
+  33M   ├── mitmdump
+  33M   ├── ubuntu.no_strip
   32M   ├── skupper
   32M   ├── shellz
   32M   ├── runme
@@ -71,6 +92,7 @@
   32M   ├── yt-dlp
   32M   ├── mlr
   32M   ├── melange
+  31M   ├── debian-slim.no_strip
   31M   ├── sq
   31M   ├── algernon
   31M   ├── git-xet
@@ -89,7 +111,6 @@
   27M   ├── lnav
   27M   ├── sqlc
   27M   ├── subfinder
-  27M   ├── qsv
   27M   ├── relic
   27M   ├── tailscale_merged
   27M   ├── tailscale_bb
@@ -100,23 +121,22 @@
   27M   ├── tlsx
   26M   ├── nmap-formatter
   26M   ├── wezterm-mux-server
-  26M   ├── osmedeus
   26M   ├── mc
+  26M   ├── osmedeus
   26M   ├── rattler-build
   26M   ├── cvemap
   26M   ├── uncover
   26M   ├── tailscale_combined
   26M   ├── soft-serve
-  26M   ├── mapcidr
   26M   ├── tusd
   26M   ├── interactsh-client
+  25M   ├── qsv
   25M   ├── tailscaled
   25M   ├── asnmap
-  25M   ├── crictl
   25M   ├── meli
+  25M   ├── crictl
   25M   ├── ngrok
   25M   ├── chaos-client
-  25M   ├── ruff
   25M   ├── docker
   25M   ├── restic
   25M   ├── brutespray
@@ -125,12 +145,14 @@
   24M   ├── nerdctl
   24M   ├── php-fpm
   24M   ├── php
-  24M   ├── mise
   24M   ├── php-micro
+  24M   ├── mise
   24M   ├── grpcurl
   24M   ├── cloudflared
   24M   ├── xetcmd
   24M   ├── jaeles
+  23M   ├── ruff
+  23M   ├── mapcidr
   23M   ├── noseyparker
   23M   ├── interactsh-server
   23M   ├── legba
@@ -154,7 +176,6 @@
   21M   ├── lux
   21M   ├── atuin
   21M   ├── caido-cli
-  20M   ├── jira-cli
   20M   ├── jira
   20M   ├── alterx
   20M   ├── csvtk
@@ -165,6 +186,7 @@
   20M   ├── golem
   20M   ├── go-audit
   20M   ├── notify
+  19M   ├── tor-socks-proxy.no_strip
   19M   ├── libaws-cli
   19M   ├── libaws
   19M   ├── miniflux
@@ -185,6 +207,7 @@
   18M   ├── ironrdp-client
   18M   ├── gitpod
   18M   ├── podsync
+  18M   ├── jira-cli
   18M   ├── lazygit
   17M   ├── sunbeam
   17M   ├── chameleon
@@ -222,7 +245,6 @@
   14M   ├── zerotier-one
   14M   ├── zerotier-idtool
   14M   ├── zerotier-cli
-  14M   ├── bin
   14M   ├── aws-wire-lengths
   14M   ├── sysbox-runc
   14M   ├── s3scanner
@@ -264,8 +286,8 @@
   12M   ├── cntb
   12M   ├── mirrorbits
   12M   ├── rebuildctl
-  12M   ├── containerd-shim-runc-v2
   12M   ├── git-cliff
+  12M   ├── containerd-shim-runc-v2
   12M   ├── aria2c
   12M   ├── aria2
   12M   ├── gost
@@ -279,6 +301,7 @@
   11M   ├── jqp
   11M   ├── wstunnel
   11M   ├── taplo
+  11M   ├── czkawka_cli
   11M   ├── czkawka-cli
   11M   ├── nmctl
   11M   ├── sysbox-mgr
@@ -310,6 +333,7 @@
   10M   ├── watchexec
   10M   ├── xan
   10M   ├── runc
+  10M   ├── alpine.no_strip
   10M   ├── scilla
   10M   ├── vegeta
   10M   ├── yq
@@ -489,13 +513,14 @@
  6.3M   ├── pueued
  6.3M   ├── pueue
  6.3M   ├── cloak-server
+ 6.2M   ├── onionpipe
  6.2M   ├── clipcatctl
  6.2M   ├── wadl-dumper
  6.2M   ├── rescope
  6.1M   ├── xbps-rindex
  6.1M   ├── xbps-create
  6.1M   ├── rustcan
- 6.0M   ├── wego
+ 6.1M   ├── wego
  6.0M   ├── v6run
  6.0M   ├── zigup
  6.0M   ├── presenterm
@@ -515,8 +540,8 @@
  5.8M   ├── qemu-aarch64-static
  5.8M   ├── pathbuster
  5.7M   ├── decpu
- 5.7M   ├── bombadillo
  5.7M   ├── amp
+ 5.7M   ├── bombadillo
  5.7M   ├── cwe_checker
  5.7M   ├── certspotter
  5.7M   ├── zt-patterns
@@ -581,6 +606,7 @@
  5.0M   ├── fget
  5.0M   ├── wth
  5.0M   ├── rsync
+ 5.0M   ├── actionlint
  5.0M   ├── crlfuzz
  5.0M   ├── cfspeedtest
  5.0M   ├── openssl
@@ -599,7 +625,6 @@
  4.9M   ├── agg-tunnel
  4.9M   ├── fblog
  4.9M   ├── mkbundle
- 4.9M   ├── actionlint
  4.8M   ├── sshd
  4.8M   ├── certstream
  4.8M   ├── jnv
@@ -659,8 +684,8 @@
  4.0M   ├── qemu-arm-static
  4.0M   ├── dotenv-linter
  4.0M   ├── gojq
- 3.9M   ├── qemu-mipsn32-static
  3.9M   ├── xcp
+ 3.9M   ├── qemu-mipsn32-static
  3.9M   ├── qemu-mips64-static
  3.9M   ├── qemu-mipsn32el-static
  3.9M   ├── qemu-mips64el-static
@@ -680,8 +705,8 @@
  3.7M   ├── mqttui
  3.7M   ├── qemu-ppc-static
  3.7M   ├── spiped
- 3.7M   ├── spipe
  3.7M   ├── find-rs
+ 3.7M   ├── spipe
  3.7M   ├── hcxpcapngtool
  3.7M   ├── viu
  3.7M   ├── iperf3
@@ -907,9 +932,9 @@
  1.1M   ├── desktop-file-validate
  1.1M   ├── catatonit
  1.1M   ├── update-desktop-database
+ 1.0M   ├── jql
  1.0M   ├── bash
  1.0M   ├── grep
- 1.0M   ├── jql
  1.0M   ├── awk
  976K   ├── svg-hush
  972K   ├── cargo-unlock
@@ -949,8 +974,8 @@
  476K   ├── visudo
  464K   ├── shellharden
  460K   ├── dropbear
+ 448K   ├── sbase-box
  448K   ├── mount.fuse3
- 444K   ├── sbase-box
  444K   ├── loksh
  440K   ├── oksh
  412K   ├── dbclient
@@ -989,6 +1014,8 @@
  192K   ├── linuxwave
  188K   ├── cpufetch
  184K   ├── ping
+ 184K   ├── onioncat
+ 184K   ├── ocat
  180K   ├── hcxdumptool
  172K   ├── numademo
  172K   ├── numactl
@@ -1013,10 +1040,10 @@
  112K   ├── iwgetid
  112K   ├── iwevent
  112K   ├── cron
+ 108K   ├── cronie-crond
  104K   ├── iwspy
  104K   ├── iwpriv
  104K   ├── iostat
- 104K   ├── cronie-crond
  104K   ├── clockdiff
  104K   ├── arping
  100K   ├── unix2mac
@@ -1037,11 +1064,11 @@
   76K   ├── mtr-packet
   76K   ├── dropbearscp
   76K   ├── cronie-cronnext
-  72K   ├── zapper
   72K   ├── hcxhash2cap
   72K   ├── entr
   72K   ├── bin2video
   68K   ├── zapper-stealth
+  68K   ├── zapper
   68K   ├── cifsiostat
   68K   ├── binfetch
   60K   ├── joker
@@ -1074,16 +1101,38 @@
  8.0K   ├── dockerd-rootless.sh
  8.0K   ├── ansi2txt
  4.0K   ├── zerotier-one_systemd_service
+ 4.0K   ├── var
+ 4.0K   ├── usr
+ 4.0K   ├── tmp
  4.0K   ├── sysstat
+ 4.0K   ├── sys
  4.0K   ├── subxtract.sh
  4.0K   ├── sshd_config
+ 4.0K   ├── srv
  4.0K   ├── serverstatus-gen-certs.sh
  4.0K   ├── scopeview
+ 4.0K   ├── sbin.usr-is-merged
+ 4.0K   ├── sbin
  4.0K   ├── sa2
  4.0K   ├── sa1
+ 4.0K   ├── runner-init
+ 4.0K   ├── runner
+ 4.0K   ├── run
+ 4.0K   ├── root
+ 4.0K   ├── proc
  4.0K   ├── pelf_linker
  4.0K   ├── pelf_extract
+ 4.0K   ├── opt
+ 4.0K   ├── nix
  4.0K   ├── nezha-dashboard.service
  4.0K   ├── nezha-dashboard.openrc
- 4.0K   └── binfetch.cfg
+ 4.0K   ├── mnt
+ 4.0K   ├── media
+ 4.0K   ├── lib64
+ 4.0K   ├── lib.usr-is-merged
+ 4.0K   ├── lib
+ 4.0K   ├── home
+ 4.0K   ├── boot
+ 4.0K   ├── binfetch.cfg
+ 4.0K   └── bin.usr-is-merged
 ```

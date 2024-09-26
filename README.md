@@ -34,6 +34,7 @@
 > > - [**`Why RESET ALL GIT Commits`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
 > > - [**`Where can I find the code for bin.ajam.dev?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#webui-binajamdev)
 > > - [**`UPX Binaries ⏬`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#-upx-)
+> > - [**`🏜️ GUI PKGs 📀`**](https://github.com/Azathothas/Toolpacks-Extras)
 > > - [**`Caching & Rebuilds`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#cache--rebuild)
 > > - [**`Current Problems & Setbacks`**](https://github.com/Azathothas/Toolpacks/issues?q=is%3Aissue+is%3Aopen+label%3AInfra)
 > > - [**`DMCA & Copyright`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#dmca-copyright--cease--desist)
@@ -51,8 +52,8 @@
 | 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 | 🧾Logs|
 |---------------------|-----------------------|-----------------|------------------|
 |[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|147| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|[BUILD.log](https://bin.ajam.dev/arm64_v8a_Android/BUILD.log.txt)|
-|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|2086| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.log.txt)|
-|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2337| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt)|
+|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|2106| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.log.txt)|
+|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2393| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt)|
 |[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.ajam.dev/x64_Windows/BUILD.log.txt)|
 
 > - A [Trello-Board](https://trello.com/b/rxIHO8Zj/toolpacks-status) informing the Build Status is at: [https://trello.com/b/rxIHO8Zj/toolpacks-status](https://trello.com/b/rxIHO8Zj/toolpacks-status)
