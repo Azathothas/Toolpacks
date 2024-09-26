@@ -21,11 +21,11 @@
 1.7M   ├── bash
 1.5M   ├── busybox
 1.2M   ├── b3sum
-948K   ├── anew-rs
-444K   ├── xxd
-248K   ├── sudo
-232K   ├── wget_cacert.pem
-232K   ├── curl_cacert.pem
-184K   ├── adig
-176K   └── ahost
+946K   ├── anew-rs
+441K   ├── xxd
+245K   ├── sudo
+229K   ├── wget_cacert.pem
+229K   ├── curl_cacert.pem
+182K   ├── adig
+175K   └── ahost
 ```

@@ -94,8 +94,8 @@
   24M   ├── ngrok
   24M   ├── tusd
   24M   ├── tailscaled
-  24M   ├── php-fpm
   24M   ├── interactsh-client
+  24M   ├── php-fpm
   24M   ├── crictl
   24M   ├── php
   24M   ├── brutespray
@@ -239,8 +239,8 @@
   12M   ├── hadolint
   12M   ├── aws-wire-lengths
   12M   ├── cent
-  12M   ├── gitui
   12M   ├── cntb
+  12M   ├── gitui
   12M   ├── mirrorbits
   11M   ├── containerd-shim-runc-v2
   11M   ├── netexec_dynamic
@@ -308,8 +308,8 @@
  9.3M   ├── hurl
  9.3M   ├── mubeng
  9.2M   ├── csprecon
- 9.2M   ├── sttr
  9.2M   ├── doggo
+ 9.2M   ├── sttr
  9.2M   ├── vultr-cli
  9.2M   ├── yq
  9.1M   ├── dasel
@@ -339,8 +339,8 @@
  8.5M   ├── gocryptfs
  8.4M   ├── rospo
  8.4M   ├── enola
- 8.4M   ├── viewgen_staticx
  8.4M   ├── enc
+ 8.4M   ├── viewgen_staticx
  8.4M   ├── supercronic
  8.3M   ├── rustypaste
  8.3M   ├── vopono
@@ -374,7 +374,7 @@
  7.7M   ├── syncat
  7.7M   ├── ladder
  7.7M   ├── xan
- 7.7M   ├── croc
+ 7.6M   ├── croc
  7.6M   ├── planor
  7.6M   ├── sbctl
  7.6M   ├── quickcert
@@ -399,15 +399,15 @@
  7.1M   ├── fingerprintx
  7.1M   ├── puredns
  7.1M   ├── qemu-xtensa-static
- 7.0M   ├── git-pull
  7.0M   ├── git-clone
  7.0M   ├── git-checkout
+ 7.0M   ├── git-pull
  7.0M   ├── sake
  7.0M   ├── dnslookup
  7.0M   ├── watchexec
  7.0M   ├── gocryptfs-xray
- 6.9M   ├── sessionprobe
  6.9M   ├── qemu-xtensaeb-static
+ 6.9M   ├── sessionprobe
  6.9M   ├── vproxy
  6.9M   ├── viddy
  6.9M   ├── ssr-client
@@ -422,8 +422,8 @@
  6.8M   ├── exiflooter
  6.8M   ├── cfspeed
  6.7M   ├── spoof-dpi
- 6.7M   ├── yggdrasilctl
  6.7M   ├── elvish
+ 6.7M   ├── yggdrasilctl
  6.7M   ├── pingmole
  6.7M   ├── spk
  6.6M   ├── xq
@@ -441,8 +441,8 @@
  6.3M   ├── direnv
  6.3M   ├── speedtest-go
  6.3M   ├── hxn
- 6.3M   ├── cloak-client
  6.3M   ├── aretext
+ 6.3M   ├── cloak-client
  6.2M   ├── xplr
  6.2M   ├── cobalt-cli
  6.2M   ├── bigdl
@@ -483,22 +483,22 @@
  5.4M   ├── gup
  5.4M   ├── getJS
  5.4M   ├── fnm
- 5.4M   ├── xh
+ 5.3M   ├── xh
  5.3M   ├── gitdorks_go
+ 5.3M   ├── golinkfinder
  5.3M   ├── subjs
  5.3M   ├── gron
- 5.3M   ├── golinkfinder
  5.3M   ├── delta
  5.3M   ├── gitlab-subdomains
- 5.3M   ├── github-subdomains
  5.3M   ├── github-endpoints
+ 5.3M   ├── github-subdomains
+ 5.3M   ├── github-regexp
  5.3M   ├── sourcemapper
  5.3M   ├── roboxtractor
- 5.3M   ├── github-regexp
  5.2M   ├── crawley
- 5.2M   ├── clipcatctl
  5.2M   ├── batcat
  5.2M   ├── bat
+ 5.2M   ├── clipcatctl
  5.2M   ├── unfurl
  5.2M   ├── vtm
  5.2M   ├── clipcat-notify
@@ -514,15 +514,15 @@
  5.0M   ├── nginx
  5.0M   ├── dnstake
  5.0M   ├── rewritepkg
- 5.0M   ├── yataf
- 5.0M   ├── shell2http
- 5.0M   ├── indextree
  5.0M   ├── analyticsrelationships
+ 5.0M   ├── yataf
  5.0M   ├── airixss
+ 5.0M   ├── indextree
+ 5.0M   ├── shell2http
  5.0M   ├── socat
  5.0M   ├── decpud
- 5.0M   ├── xbps-rindex
  5.0M   ├── xbps-create
+ 5.0M   ├── xbps-rindex
  5.0M   ├── waybackurls
  5.0M   ├── assetfinder
  4.9M   ├── actionlint
@@ -531,13 +531,13 @@
  4.8M   ├── wth
  4.8M   ├── qemu-hexagon-static
  4.8M   ├── jwt-hack
+ 4.8M   ├── crlfuzz
  4.8M   ├── rate-limit-checker
- 4.8M   ├── procs
  4.8M   ├── httprobe
  4.8M   ├── hakoriginfinder
  4.8M   ├── hakip2host
  4.8M   ├── fget
- 4.8M   ├── crlfuzz
+ 4.8M   ├── procs
  4.7M   ├── nvme-cli
  4.7M   ├── nvme
  4.7M   ├── openvpn
@@ -550,8 +550,8 @@
  4.6M   ├── stress-ng
  4.6M   ├── certstream
  4.6M   ├── gxss
- 4.5M   ├── nping
  4.5M   ├── macchina
+ 4.5M   ├── nping
  4.5M   ├── datadash
  4.5M   ├── cwe_checker
  4.5M   ├── dizi
@@ -562,16 +562,16 @@
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
  4.4M   ├── enumerepo
+ 4.3M   ├── xbps-query
+ 4.3M   ├── xbps-dgraph
  4.3M   ├── xbps-uunshare
  4.3M   ├── xbps-uhelper
  4.3M   ├── xbps-uchroot
  4.3M   ├── xbps-reconfigure
- 4.3M   ├── xbps-query
  4.3M   ├── xbps-pkgdb
  4.3M   ├── xbps-fetch
  4.3M   ├── xbps-fbulk
  4.3M   ├── xbps-digest
- 4.3M   ├── xbps-dgraph
  4.3M   ├── xbps-checkvers
  4.3M   ├── xbps-alternatives
  4.3M   ├── rsync
@@ -589,9 +589,9 @@
  4.2M   ├── cpud
  4.2M   ├── qemu-armeb-static
  4.2M   ├── qemu-arm-static
+ 4.1M   ├── doomxss
  4.1M   ├── robotstxt
  4.1M   ├── heacoll
- 4.1M   ├── doomxss
  4.1M   ├── checkbypass
  4.1M   ├── nrp
  4.1M   ├── chainredir
@@ -601,7 +601,7 @@
  4.1M   ├── tailspin
  4.1M   ├── fclones
  4.1M   ├── validtoml
- 4.1M   ├── dns-doctor
+ 4.0M   ├── dns-doctor
  4.0M   ├── cfspeedtest
  4.0M   ├── ppfuzz
  4.0M   ├── qemu-mipsn32el-static
@@ -632,7 +632,7 @@
  3.6M   ├── sshkeys
  3.6M   ├── gpg-tui
  3.6M   ├── qemu-x86_64-static
- 3.6M   ├── passdetective
+ 3.5M   ├── passdetective
  3.5M   ├── pspy
  3.5M   ├── fzf
  3.5M   ├── qemu-loongarch64-static
@@ -643,9 +643,9 @@
  3.4M   ├── lf
  3.4M   ├── dufs
  3.4M   ├── cidr
- 3.4M   ├── qemu-s390x-static
  3.4M   ├── intermodal
  3.4M   ├── imdl
+ 3.4M   ├── qemu-s390x-static
  3.4M   ├── onetun
  3.3M   ├── hurlfmt
  3.3M   ├── spipe
@@ -682,19 +682,19 @@
  2.9M   ├── bed
  2.9M   ├── yj
  2.9M   ├── find-rs
- 2.9M   ├── wasminspect
  2.9M   ├── ctrsploit-checksec
+ 2.9M   ├── wasminspect
  2.9M   ├── qemu-alpha-static
- 2.9M   ├── qemu-sh4eb-static
- 2.9M   ├── qemu-sh4-static
  2.9M   ├── qemu-microblazeel-static
  2.9M   ├── qemu-microblaze-static
+ 2.9M   ├── qemu-sh4eb-static
+ 2.9M   ├── qemu-sh4-static
  2.9M   ├── qemu-cris-static
  2.9M   ├── goawk
  2.9M   ├── deoptimizer
  2.9M   ├── cowthink
  2.9M   ├── cowsay
- 2.9M   ├── ctrsploit-env
+ 2.8M   ├── ctrsploit-env
  2.8M   ├── lsd
  2.8M   ├── killport
  2.8M   ├── tmate
@@ -715,7 +715,7 @@
  2.6M   ├── p9cpu
  2.6M   ├── sk
  2.6M   ├── kalc
- 2.6M   ├── cdwe
+ 2.5M   ├── cdwe
  2.5M   ├── bpftrace-aotrt
  2.5M   ├── dysk
  2.5M   ├── binary-security-check
@@ -749,11 +749,11 @@
  2.2M   ├── btop
  2.2M   ├── husarnet-daemon
  2.2M   ├── htmlq
- 2.2M   ├── systeroid-tui
  2.2M   ├── ffufPostprocessing
+ 2.2M   ├── systeroid-tui
  2.1M   ├── rnr
- 2.1M   ├── zt-exchange
  2.1M   ├── eza
+ 2.1M   ├── zt-exchange
  2.1M   ├── ht
  2.1M   ├── duf
  2.1M   ├── revit
@@ -763,7 +763,7 @@
  2.1M   ├── grex
  2.1M   ├── gf
  2.1M   ├── phantun-server
- 2.1M   ├── curlie
+ 2.0M   ├── curlie
  2.0M   ├── pelfd-bin
  2.0M   ├── sd
  2.0M   ├── cexec
@@ -773,19 +773,19 @@
  2.0M   ├── geodns
  1.9M   ├── pencode
  1.9M   ├── boringtun-cli
- 1.9M   ├── cutlines
  1.9M   ├── age-keygen
+ 1.9M   ├── cutlines
  1.9M   ├── systeroid
  1.9M   ├── netcat
- 1.9M   ├── sqlite3
  1.9M   ├── runiq
- 1.9M   ├── redive
- 1.9M   ├── mergerfs
+ 1.9M   ├── sqlite3
  1.9M   ├── deark
+ 1.9M   ├── mergerfs
+ 1.9M   ├── redive
  1.9M   ├── kondo
  1.9M   ├── docker-proxy
- 1.9M   ├── mdsh
  1.9M   ├── inscope
+ 1.9M   ├── mdsh
  1.8M   ├── jwt-cracker
  1.8M   ├── zfxtop
  1.8M   ├── bbscope
@@ -811,7 +811,7 @@
  1.6M   ├── tio
  1.6M   ├── zsh
  1.6M   ├── genscope
- 1.6M   ├── qsreplace
+ 1.5M   ├── qsreplace
  1.5M   ├── v6disk
  1.5M   ├── scopegen
  1.5M   ├── quotes-escaper
@@ -832,9 +832,9 @@
  1.4M   ├── eah
  1.4M   ├── eae
  1.4M   ├── cleanpath
+ 1.4M   ├── anew
  1.4M   ├── ppath
  1.4M   ├── comb
- 1.4M   ├── anew
  1.4M   ├── strace
  1.4M   ├── kmon
  1.4M   ├── removepro
@@ -863,172 +863,172 @@
  1.1M   ├── ubase-box
  1.1M   ├── dbclient
  1.1M   ├── bash
- 1.1M   ├── su-rs
+ 1.0M   ├── su-rs
  1.0M   ├── visudo-rs
  1.0M   ├── pier
  1.0M   ├── xdotool
  1.0M   ├── zoxide
  1.0M   ├── z
  1.0M   ├── strip-ansi-escapes
-1004K   ├── rathole
- 964K   ├── grep
- 960K   ├── fuse-overlayfs
- 948K   ├── xhost
- 908K   ├── dropbearkey
- 908K   ├── dropbearconvert
- 900K   ├── b3sum
- 888K   ├── jql
- 872K   ├── hexyl
- 872K   ├── csview
- 864K   ├── svg-hush
- 824K   ├── toybox
- 816K   ├── cargo-unlock
- 784K   ├── awk
- 764K   ├── hx
- 740K   ├── anew-rs
- 732K   ├── procan
- 732K   ├── filan
- 700K   ├── anewer
- 688K   ├── zt-hashes
+1002K   ├── rathole
+ 962K   ├── grep
+ 957K   ├── fuse-overlayfs
+ 946K   ├── xhost
+ 906K   ├── dropbearkey
+ 906K   ├── dropbearconvert
+ 896K   ├── b3sum
+ 886K   ├── jql
+ 871K   ├── csview
+ 869K   ├── hexyl
+ 862K   ├── svg-hush
+ 822K   ├── toybox
+ 815K   ├── cargo-unlock
+ 782K   ├── awk
+ 763K   ├── hx
+ 737K   ├── anew-rs
+ 729K   ├── procan
+ 729K   ├── filan
+ 697K   ├── anewer
+ 687K   ├── zt-hashes
  664K   ├── binfetch
- 660K   ├── whois
- 644K   ├── squashfuse_ll
- 644K   ├── squashfuse
- 588K   ├── iotop-c
- 588K   ├── iotop
- 588K   ├── dropbearscp
- 588K   ├── docker-init
- 584K   ├── mtr
+ 658K   ├── whois
+ 642K   ├── squashfuse_ll
+ 641K   ├── squashfuse
+ 587K   ├── docker-init
+ 586K   ├── dropbearscp
+ 586K   ├── iotop-c
+ 586K   ├── iotop
+ 581K   ├── mtr
  564K   ├── upx
- 552K   ├── neofetch
- 544K   ├── ncdu
- 532K   ├── masscan
- 520K   ├── elfcat
- 516K   ├── oksh
- 516K   ├── mount.fuse3
+ 551K   ├── neofetch
+ 541K   ├── ncdu
+ 529K   ├── masscan
+ 517K   ├── elfcat
  516K   ├── loksh
- 492K   ├── unifetch
- 488K   ├── zt-encodings
- 488K   ├── mkappimage
- 488K   ├── appimagetool
- 488K   ├── appimaged
- 452K   ├── scp
- 424K   ├── generate-bidi
+ 515K   ├── oksh
+ 514K   ├── mount.fuse3
+ 490K   ├── unifetch
+ 485K   ├── zt-encodings
+ 484K   ├── mkappimage
+ 484K   ├── appimagetool
+ 484K   ├── appimaged
+ 450K   ├── scp
+ 423K   ├── generate-bidi
  412K   ├── shellharden
- 400K   ├── sadf
- 388K   ├── nnn
- 388K   ├── mdp
- 388K   ├── lsof
- 388K   ├── logrotate
- 388K   ├── fi6s
- 364K   ├── sftp
- 332K   ├── proot
- 324K   ├── pigz
- 324K   ├── mawk
- 324K   ├── doas
+ 399K   ├── sadf
+ 387K   ├── mdp
+ 387K   ├── lsof
+ 386K   ├── nnn
+ 386K   ├── logrotate
+ 386K   ├── fi6s
+ 362K   ├── sftp
+ 329K   ├── proot
+ 322K   ├── mawk
+ 322K   ├── pigz
+ 322K   ├── doas
  288K   ├── region_restriction_check.sh
- 280K   ├── cpufetch
- 276K   ├── sftp-server
- 276K   ├── albafetch
+ 276K   ├── cpufetch
+ 274K   ├── sftp-server
+ 273K   ├── albafetch
  268K   ├── wg
- 264K   ├── netstat
- 260K   ├── xdo
- 260K   ├── sed
- 256K   ├── screenfetch
- 212K   ├── zapper-stealth
- 212K   ├── zapper
- 212K   ├── reptyr
- 208K   ├── ping
- 208K   ├── nfs-cp
- 204K   ├── nfs-stat
- 204K   ├── nfs-ls
+ 261K   ├── netstat
+ 258K   ├── sed
+ 258K   ├── xdo
+ 253K   ├── screenfetch
+ 211K   ├── zapper
+ 209K   ├── zapper-stealth
+ 209K   ├── reptyr
+ 207K   ├── ping
+ 204K   ├── nfs-cp
  204K   ├── asn
- 196K   ├── numademo
- 196K   ├── numactl
+ 203K   ├── nfs-ls
+ 201K   ├── nfs-stat
  196K   ├── nfs-cat
- 196K   ├── mkpasswd
- 196K   ├── migspeed
- 196K   ├── migratepages
- 196K   ├── memhog
- 196K   ├── hcxdumptool
- 196K   ├── bwrap
- 196K   ├── bubblewrap
- 192K   ├── sar
- 180K   ├── rust-hypervisor-firmware
- 180K   ├── hypervisor-fw
+ 195K   ├── numactl
+ 194K   ├── numademo
+ 194K   ├── migratepages
+ 194K   ├── migspeed
+ 194K   ├── memhog
+ 194K   ├── hcxdumptool
+ 194K   ├── bwrap
+ 194K   ├── bubblewrap
+ 193K   ├── mkpasswd
+ 191K   ├── sar
+ 179K   ├── rust-hypervisor-firmware
+ 179K   ├── hypervisor-fw
  176K   ├── jsmug
- 172K   ├── minisign
+ 168K   ├── minisign
  168K   ├── linuxwave
- 144K   ├── pidstat
- 140K   ├── unix2mac
- 140K   ├── unix2dos
- 140K   ├── mac2unix
- 140K   ├── ipt2socks
- 140K   ├── dos2unix
- 132K   ├── tracepath
- 132K   ├── pwait
- 132K   ├── numastat
- 132K   ├── mtr-packet
- 132K   ├── libtree
- 132K   ├── hcxhash2cap
- 132K   ├── fusermount3
- 132K   ├── entr
- 132K   ├── crontab
- 132K   ├── cron
- 132K   ├── clockdiff
- 132K   ├── arping
- 124K   ├── sadc
+ 141K   ├── pidstat
+ 138K   ├── unix2mac
+ 138K   ├── unix2dos
+ 138K   ├── mac2unix
+ 138K   ├── ipt2socks
+ 138K   ├── dos2unix
+ 131K   ├── numastat
+ 131K   ├── crontab
+ 130K   ├── cron
+ 130K   ├── mtr-packet
+ 130K   ├── libtree
+ 130K   ├── hcxhash2cap
+ 130K   ├── fusermount3
+ 130K   ├── entr
+ 130K   ├── clockdiff
+ 130K   ├── arping
+ 129K   ├── tracepath
+ 129K   ├── pwait
+ 123K   ├── sadc
  116K   ├── tapestat
- 112K   ├── cronie-crond
- 108K   ├── massdns
- 108K   ├── iostat
- 100K   ├── shc
+ 110K   ├── cronie-crond
+ 107K   ├── massdns
+ 106K   ├── iostat
  100K   ├── mpstat
- 100K   ├── darkhttpd
-  96K   ├── cronie-crontab
+  98K   ├── shc
+  97K   ├── darkhttpd
+  94K   ├── cronie-crontab
   80K   ├── cronie-cronnext
-  76K   ├── cifsiostat
-  76K   ├── bin2video
-  68K   ├── hcxwltool
-  68K   ├── hcxeiutool
+  75K   ├── cifsiostat
+  74K   ├── bin2video
+  65K   ├── hcxwltool
+  65K   ├── hcxeiutool
   64K   ├── joker
-  60K   ├── gguf-tools
-  52K   ├── catatonit
-  48K   ├── yabs.sh
-  44K   ├── sshpass
-  44K   ├── pipetty
-  40K   ├── ansi2html
-  32K   ├── nezha-install.sh
-  28K   ├── ttyrec2ansi
-  28K   ├── apk.sh
-  24K   ├── try
-  24K   ├── prettyping
-  24K   ├── ani-cli
-  20K   ├── serverstatus-status.sh
-  20K   ├── resdns
-  20K   ├── pelf
-  20K   ├── bdl.sh
-  16K   ├── wg-quick
-  16K   ├── tldr
-  16K   ├── dockerd-rootless-setuptool.sh
-  16K   ├── bench.sh
-  12K   ├── lsix
- 8.0K   ├── sk-tmux
- 8.0K   ├── rsync-ssl
- 8.0K   ├── gsocket
- 8.0K   ├── dockerd-rootless.sh
- 8.0K   ├── ansi2txt
- 4.0K   ├── zerotier-one_systemd_service
- 4.0K   ├── sysstat
+  58K   ├── gguf-tools
+  51K   ├── catatonit
+  44K   ├── yabs.sh
+  41K   ├── sshpass
+  41K   ├── pipetty
+  38K   ├── ansi2html
+  30K   ├── nezha-install.sh
+  26K   ├── apk.sh
+  26K   ├── ttyrec2ansi
+  23K   ├── prettyping
+  23K   ├── try
+  22K   ├── ani-cli
+  19K   ├── pelf
+  19K   ├── serverstatus-status.sh
+  17K   ├── resdns
+  17K   ├── bdl.sh
+  15K   ├── dockerd-rootless-setuptool.sh
+  15K   ├── bench.sh
+  14K   ├── tldr
+  13K   ├── wg-quick
+  11K   ├── lsix
+ 7.5K   ├── sk-tmux
+ 7.5K   ├── dockerd-rootless.sh
+ 7.5K   ├── ansi2txt
+ 5.5K   ├── rsync-ssl
+ 5.5K   ├── gsocket
  4.0K   ├── subxtract.sh
- 4.0K   ├── sshd_config
- 4.0K   ├── serverstatus-gen-certs.sh
- 4.0K   ├── scopeview
- 4.0K   ├── sa2
- 4.0K   ├── sa1
- 4.0K   ├── pelf_linker
- 4.0K   ├── pelf_extract
- 4.0K   ├── nezha-dashboard.service
- 4.0K   ├── nezha-dashboard.openrc
- 4.0K   ├── binfetch.cfg
- 4.0K   └── TEST
+ 3.5K   ├── sshd_config
+ 2.5K   ├── scopeview
+ 2.0K   ├── sa2
+ 2.0K   ├── sa1
+ 2.0K   ├── pelf_linker
+ 1.5K   ├── sysstat
+ 1.5K   ├── serverstatus-gen-certs.sh
+ 1.5K   ├── pelf_extract
+ 1.0K   ├── nezha-dashboard.service
+ 512B   ├── zerotier-one_systemd_service
+ 512B   ├── nezha-dashboard.openrc
+ 512B   ├── binfetch.cfg
+ 512B   └── TEST
