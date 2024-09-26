@@ -122,7 +122,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/x86_64_Linux/Baseutils/unionfs-fuse3/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
-       find "$BASEUTILSDIR" -type f -size 0 -delete ; popd >/dev/null 2>&1
+       find "$BASEUTILSDIR" -type f -size -3c -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

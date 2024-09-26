@@ -85,7 +85,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        fi
        unset TMP_METADIR BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
-       find "$BASEUTILSDIR" -type f -size 0 -delete ; popd >/dev/null 2>&1
+       find "$BASEUTILSDIR" -type f -size -3c -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

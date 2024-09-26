@@ -92,7 +92,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
-       find "$BASEUTILSDIR" -type f -size 0 -delete
+       find "$BASEUTILSDIR" -type f -size -3c -delete
       #Test
        #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version
       #Cleanup Container

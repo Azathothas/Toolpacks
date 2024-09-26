@@ -31,7 +31,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo strip "./result/bin/"* ; file "./result/bin/"* && du -sh "./result/bin/"*
        sudo cp "./result/bin/"* "$BASEUTILSDIR/" 2>/dev/null
        sudo cp "$BASEUTILSDIR/sed" "$BINDIR/sed" 2>/dev/null
-       find "$BASEUTILSDIR" -type f -size 0 -delete
+       find "$BASEUTILSDIR" -type f -size -3c -delete
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

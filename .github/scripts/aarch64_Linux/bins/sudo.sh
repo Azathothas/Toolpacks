@@ -86,7 +86,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        # sudo chown "root:root" sudo
        # sudo chmod "a=rx,u+ws" sudo   
        unset TMP_METADIR BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
-       find "$BASEUTILSDIR" -type f -size 0 -delete
+       find "$BASEUTILSDIR" -type f -size -3c -delete
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#             
