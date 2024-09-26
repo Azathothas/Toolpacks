@@ -712,6 +712,10 @@ jobs:
           set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
+          sudo sed 's/#user_allow_other/user_allow_other/g' -i "/etc/fuse.conf"
         continue-on-error: true
 
       - name: rClone Check Metadata (bin.ajam.dev/arm64_v8a_Android)
@@ -719,24 +723,43 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          BINDIR="$SYSTMP/toolpack_arm64_v8a_Android" && export BINDIR="$BINDIR"
-          mkdir -p "$SYSTMP/toolpack_arm64_v8a_Android"
-          cd "$BINDIR"
-          rclone copy "r2:/bin/arm64_v8a_Android/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          BINDIR="${SYSTMP}/toolpack_arm64_v8a_Android" && export BINDIR="${BINDIR}"
+          mkdir -p "${BINDIR}"
+          rclone mount "r2:/bin/arm64_v8a_Android/" "${BINDIR}" \
+          --daemon \
+          --allow-other \
+          --no-modtime \
+          --read-only \
+          --attr-timeout 15s \
+          --checkers 100 \
+          --buffer-size 512M \
+          --dir-cache-time 5m \
+          --low-level-retries 10 \
+          --multi-thread-streams 16 \
+          --poll-interval 15s \
+          --transfers 16 \
+          --vfs-read-wait 0 \
+          --vfs-cache-mode full \
+          --vfs-cache-max-size 20G \
+          --vfs-cache-poll-interval 15s \
+          --vfs-read-chunk-size 128M \
+          --vfs-read-chunk-size-limit off \
+          --user-agent="${USER_AGENT}" ; df -h
           #File
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/arm64_v8a_Android_FILE"
-          rclone copyto "$SYSTMP/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs file | sed 's/^.\///' > "${SYSTMP}/arm64_v8a_Android_FILE"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #Size (Dust)
-          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/arm64_v8a_Android_SIZE.txt"
-          rclone copyto "$SYSTMP/arm64_v8a_Android_SIZE.txt" "r2:/bin/arm64_v8a_Android/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          dust --depth 1 -v '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "${BINDIR}" | tee "${SYSTMP}/arm64_v8a_Android_SIZE.txt"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_SIZE.txt" "r2:/bin/arm64_v8a_Android/SIZE.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #BLAKE3SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/arm64_v8a_Android_BLAKE3SUM"
-          rclone copyto "$SYSTMP/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs b3sum | sed 's/\.\///g' > "${SYSTMP}/arm64_v8a_Android_BLAKE3SUM"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #SHA256SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/arm64_v8a_Android_SHA256SUM"
-          rclone copyto "$SYSTMP/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs sha256sum | sed 's/\.\///g' > "${SYSTMP}/arm64_v8a_Android_SHA256SUM"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           ##Purge
-          rm -rf "$BINDIR"
+          #rm -rf "${BINDIR}"
+          sudo fusermount3 -uz "${BINDIR}" ; df -h
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/arm64_v8a_Android)
@@ -796,6 +819,10 @@ jobs:
           set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
+          sudo sed 's/#user_allow_other/user_allow_other/g' -i "/etc/fuse.conf"          
         continue-on-error: true
 
       - name: rClone Check Metadata (bin.ajam.dev/aarch64_arm64_Linux)
@@ -803,24 +830,43 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          BINDIR="$SYSTMP/toolpack_aarch64" && export BINDIR="$BINDIR"
-          mkdir -p "$SYSTMP/toolpack_aarch64"
-          cd "$BINDIR"
-          rclone copy "r2:/bin/aarch64_arm64_Linux/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          BINDIR="${SYSTMP}/toolpack_aarch64" && export BINDIR="${BINDIR}"
+          mkdir -p "${BINDIR}"
+          rclone mount "r2:/bin/aarch64_arm64_Linux/" "${BINDIR}" \
+          --daemon \
+          --allow-other \
+          --no-modtime \
+          --read-only \
+          --attr-timeout 15s \
+          --checkers 100 \
+          --buffer-size 512M \
+          --dir-cache-time 5m \
+          --low-level-retries 10 \
+          --multi-thread-streams 16 \
+          --poll-interval 15s \
+          --transfers 16 \
+          --vfs-read-wait 0 \
+          --vfs-cache-mode full \
+          --vfs-cache-max-size 20G \
+          --vfs-cache-poll-interval 15s \
+          --vfs-read-chunk-size 128M \
+          --vfs-read-chunk-size-limit off \
+          --user-agent="${USER_AGENT}" ; df -h
           #File
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/aarch64_Linux_FILE"
-          rclone copyto "$SYSTMP/aarch64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs file | sed 's/^.\///' > "${SYSTMP}/aarch64_Linux_FILE"
+          rclone copyto "${SYSTMP}/aarch64_Linux_FILE" "r2:/bin/aarch64_arm64_Linux/FILE.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #Size (Dust)
-          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/aarch64_Linux_SIZE.txt"
-          rclone copyto "$SYSTMP/aarch64_Linux_SIZE.txt" "r2:/bin/aarch64_arm64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          dust --depth 1 -v '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "${BINDIR}" | tee "${SYSTMP}/aarch64_Linux_SIZE.txt"
+          rclone copyto "${SYSTMP}/aarch64_Linux_SIZE.txt" "r2:/bin/aarch64_arm64_Linux/SIZE.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #BLAKE3SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/aarch64_Linux_BLAKE3SUM"
-          rclone copyto "$SYSTMP/aarch64_Linux_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs b3sum | sed 's/\.\///g' > "${SYSTMP}/aarch64_Linux_BLAKE3SUM"
+          rclone copyto "${SYSTMP}/aarch64_Linux_BLAKE3SUM" "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #SHA256SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/aarch64_Linux_SHA256SUM"
-          rclone copyto "$SYSTMP/aarch64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs sha256sum | sed 's/\.\///g' > "${SYSTMP}/aarch64_Linux_SHA256SUM"
+          rclone copyto "${SYSTMP}/aarch64_Linux_SHA256SUM" "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           ##Purge
-          rm -rf "$BINDIR"
+          #rm -rf "${BINDIR}"
+          sudo fusermount3 -uz "${BINDIR}" ; df -h
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/aarch64_arm64_Linux)
@@ -880,6 +926,10 @@ jobs:
           set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
+          sudo sed 's/#user_allow_other/user_allow_other/g' -i "/etc/fuse.conf"          
         continue-on-error: true
 
       - name: rClone Check Metadata (bin.ajam.dev/x86_64_Linux)
@@ -887,24 +937,43 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          BINDIR="$SYSTMP/toolpack_x86_64" && export BINDIR="$BINDIR"
-          mkdir -p "$SYSTMP/toolpack_x86_64"
-          cd "$BINDIR"
-          rclone copy "r2:/bin/x86_64_Linux/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          BINDIR="${SYSTMP}/toolpack_x86_64" && export BINDIR="${BINDIR}"
+          mkdir -p "${BINDIR}"
+          rclone mount "r2:/bin/x86_64_Linux/" "${BINDIR}" \
+          --daemon \
+          --allow-other \
+          --no-modtime \
+          --read-only \
+          --attr-timeout 15s \
+          --checkers 100 \
+          --buffer-size 512M \
+          --dir-cache-time 5m \
+          --low-level-retries 10 \
+          --multi-thread-streams 16 \
+          --poll-interval 15s \
+          --transfers 16 \
+          --vfs-read-wait 0 \
+          --vfs-cache-mode full \
+          --vfs-cache-max-size 20G \
+          --vfs-cache-poll-interval 15s \
+          --vfs-read-chunk-size 128M \
+          --vfs-read-chunk-size-limit off \
+          --user-agent="${USER_AGENT}" ; df -h
           #File
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/x86_64_Linux_FILE"
-          rclone copyto "$SYSTMP/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs file | sed 's/^.\///' > "${SYSTMP}/x86_64_Linux_FILE"
+          rclone copyto "${SYSTMP}/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #Size (Dust)
-          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/x86_64_Linux_SIZE.txt"
-          rclone copyto "$SYSTMP/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          dust --depth 1 -v '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "${BINDIR}" | tee "${SYSTMP}/x86_64_Linux_SIZE.txt"
+          rclone copyto "${SYSTMP}/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #BLAKE3SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/x86_64_Linux_BLAKE3SUM"
-          rclone copyto "$SYSTMP/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs b3sum | sed 's/\.\///g' > "${SYSTMP}/x86_64_Linux_BLAKE3SUM"
+          rclone copyto "${SYSTMP}/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #SHA256SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/x86_64_Linux_SHA256SUM"
-          rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs sha256sum | sed 's/\.\///g' > "${SYSTMP}/x86_64_Linux_SHA256SUM"
+          rclone copyto "${SYSTMP}/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           ##Purge
-          rm -rf "$BINDIR"
+          #rm -rf "${BINDIR}"
+          sudo fusermount3 -uz "${BINDIR}" ; df -h
         continue-on-error: true
 
       - name: rClone Enrich Metadata (bin.ajam.dev/x86_64_Linux)
@@ -964,6 +1033,10 @@ jobs:
           set +x ; set +e
           #-------------#
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
+          sudo sed 's/#user_allow_other/user_allow_other/g' -i "/etc/fuse.conf"          
         continue-on-error: true
 
       - name: rClone Check Metadata (bin.ajam.dev/x64_Windows)
@@ -971,24 +1044,43 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          BINDIR="$SYSTMP/toolpack_x86_64" && export BINDIR="$BINDIR"
-          mkdir -p "$SYSTMP/toolpack_x86_64"
-          cd "$BINDIR"
-          rclone copy "r2:/bin/x64_Windows/" "." --exclude="Baseutils/**" --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.tar" --exclude="*.tgz" --exclude="*.tmp" --exclude="*.txt" --exclude="*.upx" --exclude="*.zip" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          BINDIR="${SYSTMP}/toolpack_x86_64" && export BINDIR="${BINDIR}"
+          mkdir -p "${BINDIR}"
+          rclone mount "r2:/bin/x64_Windows/" "${BINDIR}" \
+          --daemon \
+          --allow-other \
+          --no-modtime \
+          --read-only \
+          --attr-timeout 15s \
+          --checkers 100 \
+          --buffer-size 512M \
+          --dir-cache-time 5m \
+          --low-level-retries 10 \
+          --multi-thread-streams 16 \
+          --poll-interval 15s \
+          --transfers 16 \
+          --vfs-read-wait 0 \
+          --vfs-cache-mode full \
+          --vfs-cache-max-size 20G \
+          --vfs-cache-poll-interval 15s \
+          --vfs-read-chunk-size 128M \
+          --vfs-read-chunk-size-limit off \
+          --user-agent="${USER_AGENT}" ; df -h
           #File
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file | sed 's/^.\///' > "$SYSTMP/x64_Windows_FILE"
-          rclone copyto "$SYSTMP/x64_Windows_FILE" "r2:/bin/x64_Windows/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f |  grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs file | sed 's/^.\///' > "${SYSTMP}/x64_Windows_FILE"
+          rclone copyto "${SYSTMP}/x64_Windows_FILE" "r2:/bin/x64_Windows/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #Size (Dust)
-          dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/x64_Windows_SIZE.txt"
-          rclone copyto "$SYSTMP/x64_Windows_SIZE.txt" "r2:/bin/x64_Windows/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          dust --depth 1 -v '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "${BINDIR}" | tee "${SYSTMP}/x64_Windows_SIZE.txt"
+          rclone copyto "${SYSTMP}/x64_Windows_SIZE.txt" "r2:/bin/x64_Windows/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #BLAKE3SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum | sed 's/\.\///g' > "$SYSTMP/x64_Windows_BLAKE3SUM"
-          rclone copyto "$SYSTMP/x64_Windows_BLAKE3SUM" "r2:/bin/x64_Windows/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f |  grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs b3sum | sed 's/\.\///g' > "${SYSTMP}/x64_Windows_BLAKE3SUM"
+          rclone copyto "${SYSTMP}/x64_Windows_BLAKE3SUM" "r2:/bin/x64_Windows/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #SHA256SUM
-          cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum | sed 's/\.\///g' > "$SYSTMP/x64_Windows_SHA256SUM"
-          rclone copyto "$SYSTMP/x64_Windows_SHA256SUM" "r2:/bin/x64_Windows/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f |  grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs sha256sum | sed 's/\.\///g' > "${SYSTMP}/x64_Windows_SHA256SUM"
+          rclone copyto "${SYSTMP}/x64_Windows_SHA256SUM" "r2:/bin/x64_Windows/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           ##Purge
-          rm -rf "$BINDIR"
+          #rm -rf "${BINDIR}"
+          sudo fusermount3 -uz "${BINDIR}" ; df -h
         continue-on-error: true
         
       - name: rClone Enrich Metadata (bin.ajam.dev/x64_Windows)
