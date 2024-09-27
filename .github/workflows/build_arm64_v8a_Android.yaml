@@ -141,11 +141,11 @@ jobs:
           echo -e "[+] BTOP: http://$TS_DNS:7777 ||  https://$TS_DNS/btop/\n"
           set +x ; while tmux has-session -t "toolpacks" ; do sleep 1 ; done
           ##Purge Tokens (in case set -x & gh didn't redact)
-          sed -i '/.*github_pat.*/d' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
-          sed -i '/.*ghp_.*/d' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
-          sed -i '/.*access_key_id.*/d' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
-          sed -i '/.*secret_access_key.*/d' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
-          sed -i '/.*cloudflarestorage.*/d' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
+          sed -i '/.*github_pat.*/Id' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
+          sed -i '/.*ghp_.*/Id' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
+          sed -i '/.*access_key_id.*/Id' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
+          sed -i '/.*secret_access_key.*/Id' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
+          sed -i '/.*cloudflarestorage.*/Id' "$SYSTMP/BUILD.log.tmp" 2>/dev/null
           ##rClone Upload logs
           cat "$SYSTMP/BUILD.log.tmp" | ansi2txt > "$SYSTMP/BUILD.log"
           rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/arm64_v8a_Android/BUILD.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
