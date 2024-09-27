@@ -115,4 +115,4 @@
 > > Invoke-WebRequest -Uri "https://bin.ajam.dev/$env:PROCESSOR_ARCHITECTURE/$BIN_OR_PATH_TO_BIN.exe" -OutFile "$BIN.exe"
 > >
 > > ```
-> ![image](https://github.com/user-attachments/assets/4e29a9ad-b68f-483f-acd6-faff3011bbdb)
+> ![image](https://github.com/user-attachments/assets/10579cc7-bee5-4695-87c1-61942610a9da)
