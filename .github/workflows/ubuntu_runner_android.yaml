@@ -49,7 +49,7 @@ jobs:
           # Presets
           set +x ; set +e
           #--------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
         continue-on-error: true
 
       - name: Install Deps

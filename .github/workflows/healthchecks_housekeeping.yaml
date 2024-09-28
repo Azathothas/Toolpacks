@@ -64,7 +64,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
         continue-on-error: true
 
       - name: Install Golang
@@ -711,7 +711,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
           sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
           sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
           sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
@@ -818,7 +818,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
           sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
           sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
           sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
@@ -925,7 +925,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
           sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
           sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
           sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
@@ -1032,7 +1032,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
           sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
           sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
           sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
@@ -1142,7 +1142,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
         continue-on-error: true
 
       - name: Merge & Update ("bin.ajam.dev/METADATA.json")

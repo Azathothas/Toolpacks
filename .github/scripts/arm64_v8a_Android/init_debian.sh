@@ -157,7 +157,7 @@
               pip install build cffi scons scuba pytest --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --upgrade 2>/dev/null
               pip install build cffi scons scuba pytest --break-system-packages --upgrade 2>/dev/null ; pip install ansi2txt pipx scons staticx pyinstaller py2static typer --break-system-packages --upgrade 2>/dev/null
            ##Addons
-            bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")
+            bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
             #Appimage tools
             sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/appimagetool" -o "/usr/local/bin/appimagetool" && sudo chmod +x "/usr/local/bin/appimagetool"
             sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/mkappimage" -o "/usr/local/bin/mkappimage" && sudo chmod +x "/usr/local/bin/mkappimage"

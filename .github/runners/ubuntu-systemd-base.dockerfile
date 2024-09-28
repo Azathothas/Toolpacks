@@ -143,8 +143,8 @@ EOS
 ##Addons
 RUN <<EOS
  #Addons
- #https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/install_bb_tools.sh
- curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh" -o "./tools.sh"
+ #https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/install_dev_tools.sh
+ curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh" -o "./tools.sh"
  dos2unix --quiet "./tools.sh" && chmod +x "./tools.sh"
  bash "./tools.sh" 2>/dev/null || true ; rm -rf "./tools.sh"
 EOS
