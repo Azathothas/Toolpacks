@@ -152,11 +152,10 @@
 > - Run (May Differ based on Your Host)
 > > ```bash
 > > !#Automatically picks up correct $ARCH & $IMAGE based on Host
-> > sudo mkdir -p "/var/lib/containers/tmp"
-> > sudo podman run --detach --privileged --network="bridge" --publish "22222:22" --systemd="always" --ulimit="host" --volume="/var/lib/containers/tmp:/tmp" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
+> > sudo podman run --detach --privileged --network="bridge" --publish "22222:22" --systemd="always" --ulimit="host" --volume="/tmp:/tmp" --tz="UTC" --pull="always" --name="toolpacker-dbg" "docker.io/azathothas/ubuntu-systemd-base:latest"
 > >
 > > !#Add SSH Keys (Replace with yours)
-> > sudo podman exec -it -u "runner" "toolpacker-dbg" bash -c 'bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_bb_tools.sh")'
+> > sudo podman exec -it -u "runner" "toolpacker-dbg" bash -c 'bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")'
 > > sudo podman exec -it -u "runner" "toolpacker-dbg" bash -c 'sudo curl -qfsSL "https://github.com/Azathothas.keys" | sudo sort -u -o "/etc/ssh/authorized_keys" ; sudo systemctl restart sshd'
 > >
 > > !#SSH IN
@@ -183,7 +182,7 @@
 > > | Builder | Specs| Host | Dedicated ? | Build Time | Cost |
 > > | ------- | ---- | ---- | --------- | ---------- | ---- |
 > > | [`x86_64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml) | `8 vCPU (AMD EPYC™ 9634)` `+` `16 GB RAM (DDR5 ECC)` `+` `512 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3694) | [`Semi-Dedicated`](https://www.netcup.eu/vserver/vergleich-root-server-vps.php) | `20-25` `Hrs` | `$18.50/Mo` |
-> > | [`aarch64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml) | `12 vCPU (Ampere Altra)` `+` `24 GB RAM (??)` `+` `768 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3991) | `NO` | `35-40` `Hrs` | `$16.70/Mo` | 
+> > | [`aarch64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml) | `14 vCPU (Ampere Altra)` `+` `32 GB RAM (??)` `+` `1024 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3991) | `NO` | `35-40` `Hrs` | `$17/Mo` | 
 ---
 
 - #### [WebUI (bin.ajam.dev)](https://bin.ajam.dev/)
