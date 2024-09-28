@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   schedule:
   #  - cron: "30 22 * * 5" # 10:30 PM UTC Friday --> 04:15 AM NPT Mrng Every Saturday
-    - cron: "30 18 * * 0,2,5" # 06:30 PM UTC (12:15 AM NPT Mrng Every Mon, Wed & Sat)
+    - cron: "30 18 * * 1" # 06:30 PM UTC (12:15 AM NPT Mrng Every Tuesday)
 #Sane env
 env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS }}"
@@ -212,6 +212,7 @@ jobs:
           sed -i '/.*ghp_.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*access_key_id.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*secret_access_key.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
+          sed -i '/.*token.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*cloudflarestorage.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           ##rClone Upload logs
           rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/x86_64_Linux/BUILD.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
