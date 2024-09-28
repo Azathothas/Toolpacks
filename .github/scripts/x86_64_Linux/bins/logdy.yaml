@@ -1,0 +1,8 @@
+name: "logdy"
+description: "Web based real-time log viewer"
+note: ""
+web_url: "https://logdy.dev"
+repo_url: "https://github.com/logdyhq/logdy-core"
+path: "/"
+bins:
+  - "logdy"
