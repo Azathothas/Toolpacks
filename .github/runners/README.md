@@ -103,6 +103,14 @@
 > journalctl -xeu "dagu_ts.service"
 > ```
 > ---
+> - [Install Docker](https://docs.docker.com/engine/install/debian/#install-using-the-convenience-script)
+> ```bash
+> curl -qfsSL "https://get.docker.com" | sed 's/sleep 20//g' | sudo bash
+> sudo groupadd docker 2>/dev/null ; sudo usermod -aG docker "${USER}" 2>/dev/null
+> sudo service docker restart 2>/dev/null && sleep 10
+> sudo service docker status 2>/dev/null
+> ```
+> ---
 > - [Install Podman](https://podman.io/docs/installation)
 > ```bash
 > ##Install podman :: https://software.opensuse.org/download/package?package=podman&project=home%3Aalvistack
