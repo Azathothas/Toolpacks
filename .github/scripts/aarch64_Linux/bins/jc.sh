@@ -19,15 +19,15 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="YES" #YES, No arm binaries
+export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "$SKIP_BUILD" == "NO" ]; then
-      #jc : converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries
-     export BIN="jc" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/kellyjonbrazil/jc" #github/gitlab/homepage/etc for $BIN
+    #jc : converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries
+     export BIN="jc"
+     export SOURCE_URL="https://github.com/kellyjonbrazil/jc"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       #Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       eval "$EGET_TIMEOUT" eget "kellyjonbrazil/jc" --asset "linux" --asset "arm64" --asset "tar.gz" --to "./jc"
+       eval "$EGET_TIMEOUT" eget "kellyjonbrazil/jc" --asset "linux" --asset "aarch64" --asset "tar.gz" --to "./jc"
        staticx --loglevel DEBUG "./jc" --strip "$BINDIR/jc" ; file "$BINDIR/jc" && du -sh "$BINDIR/jc"
        popd >/dev/null 2>&1
 fi
