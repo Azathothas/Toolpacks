@@ -89,37 +89,6 @@ REPO: https://github.com/linux-nvme/nvme-cli
 Web URL: https://github.com/linux-nvme/nvme-cli
 
 ---------------------
-Name: gobusybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/gobusybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: u-root-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/u-root-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: uroot-busybox
-DESCR: Tools for compiling many Go commands into one binary to save space
-Download URL: https://bin.ajam.dev/x86_64_Linux/uroot-busybox
-REPO: https://github.com/u-root/gobusybox
-Web URL: https://github.com/u-root/gobusybox
-
-Name: u-root
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
-Name: uroot
-DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
-Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
-REPO: https://github.com/u-root/u-root
-Web URL: https://github.com/u-root/u-root
-
----------------------
 Name: unix2dos
 DESCR: Convert Line Endings
 Download URL: https://bin.ajam.dev/x86_64_Linux/unix2dos
@@ -146,6 +115,32 @@ REPO: https://github.com/varbhat/exatorrent
 Web URL: https://github.com/varbhat/exatorrent
 
 ---------------------
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
+Name: serverstatus-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
 Name: ocat
 DESCR: VPN adapter for Tor and I2P
 Download URL: https://bin.ajam.dev/x86_64_Linux/ocat
@@ -170,19 +165,6 @@ DESCR:
 Download URL: https://bin.ajam.dev/x86_64_Linux/ripgrep
 REPO: https://github.com/BurntSushi/ripgrep
 Web URL: https://github.com/BurntSushi/ripgrep
-
----------------------
-Name: rebuilderd
-DESCR: Independent verification of binary packages - reproducible builds
-Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd
-REPO: https://github.com/kpcyrd/rebuilderd
-Web URL: https://github.com/kpcyrd/rebuilderd
-
-Name: rebuilderd-worker
-DESCR: Independent verification of binary packages - reproducible builds
-Download URL: https://bin.ajam.dev/x86_64_Linux/rebuilderd-worker
-REPO: https://github.com/kpcyrd/rebuilderd
-Web URL: https://github.com/kpcyrd/rebuilderd
 
 ---------------------
 Name: rippkgs
@@ -230,6 +212,19 @@ REPO: https://github.com/zerotier/ZeroTierOne
 Web URL: https://www.zerotier.com/
 
 ---------------------
+Name: gitpod-cli
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+Name: gp
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gp
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
+
+---------------------
 Name: ipinfo
 DESCR: Official Command Line Interface for the IPinfo API
 Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo
@@ -241,19 +236,6 @@ DESCR: Official Command Line Interface for the IPinfo API
 Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo-cli
 REPO: https://github.com/ipinfo/cli
 Web URL: https://ipinfo.io/
-
----------------------
-Name: serverstatus-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-server
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: loki
@@ -352,6 +334,37 @@ REPO: https://github.com/opencontainers/runc
 Web URL: https://github.com/opencontainers/runc
 
 ---------------------
+Name: gobusybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/gobusybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: u-root-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/u-root-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: uroot-busybox
+DESCR: Tools for compiling many Go commands into one binary to save space
+Download URL: https://bin.ajam.dev/x86_64_Linux/uroot-busybox
+REPO: https://github.com/u-root/gobusybox
+Web URL: https://github.com/u-root/gobusybox
+
+Name: u-root
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/u-root
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+Name: uroot
+DESCR: create a one-binary root file system (initramfs) containing a busybox-like set of tools
+Download URL: https://bin.ajam.dev/x86_64_Linux/uroot
+REPO: https://github.com/u-root/u-root
+Web URL: https://github.com/u-root/u-root
+
+---------------------
 Name: desktop-file-edit
 DESCR: Command line utilities for working with .desktop files
 Download URL: https://bin.ajam.dev/x86_64_Linux/desktop-file-edit
@@ -417,6 +430,32 @@ REPO: https://github.com/rfjakob/gocryptfs
 Web URL: https://github.com/rfjakob/gocryptfs
 
 ---------------------
+Name: nmap-formatter
+DESCR: A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap-formatter
+REPO: https://github.com/vdjagilev/nmap-formatter
+Web URL: https://github.com/vdjagilev/nmap-formatter
+
+Name: nmap
+DESCR: port scanner
+Download URL: https://bin.ajam.dev/x86_64_Linux/nmap
+REPO: https://github.com/nmap/nmap
+Web URL: https://github.com/nmap/nmap
+
+---------------------
+Name: serverstatus-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-client
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
 Name: dos2unix
 DESCR: Convert Line Endings
 Download URL: https://bin.ajam.dev/x86_64_Linux/dos2unix
@@ -441,6 +480,32 @@ DESCR: Multi functional app to find duplicates, empty folders, similar images et
 Download URL: https://bin.ajam.dev/x86_64_Linux/czkawka_cli
 REPO: https://github.com/qarmin/czkawka
 Web URL: https://github.com/qarmin/czkawka
+
+---------------------
+Name: hf-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/hf-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
+
+Name: huggingface-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/huggingface-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
+
+---------------------
+Name: gitlab-cli
+DESCR: Official Gitlab CLI
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitlab-cli
+REPO: 
+Web URL: https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
+
+Name: glab
+DESCR: Official Gitlab CLI
+Download URL: https://bin.ajam.dev/x86_64_Linux/glab
+REPO: 
+Web URL: https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
 
 ---------------------
 Name: localxpose
@@ -469,17 +534,17 @@ REPO: https://github.com/sharkdp/fd
 Web URL: https://github.com/sharkdp/fd
 
 ---------------------
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: bpftrace
+DESCR: High-level tracing language & tool for Linux
+Download URL: https://bin.ajam.dev/x86_64_Linux/bpftrace
+REPO: https://github.com/bpftrace/bpftrace
+Web URL: https://github.com/bpftrace/bpftrace
 
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: bpftrace-aotrt
+DESCR: High-level tracing language & tool for Linux
+Download URL: https://bin.ajam.dev/x86_64_Linux/bpftrace-aotrt
+REPO: https://github.com/bpftrace/bpftrace
+Web URL: https://github.com/bpftrace/bpftrace
 
 ---------------------
 Name: rcat
@@ -493,19 +558,6 @@ DESCR: Rustcat(rcat) - The modern Port listener and Reverse shell
 Download URL: https://bin.ajam.dev/x86_64_Linux/rustcat
 REPO: https://github.com/robiot/rustcat
 Web URL: https://github.com/robiot/rustcat
-
----------------------
-Name: serverstatus-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
-
-Name: ssr-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: nu
@@ -532,32 +584,6 @@ DESCR: collect ram/cpu usage from OS and show it in pretty graphs
 Download URL: https://bin.ajam.dev/x86_64_Linux/system-info-collector
 REPO: https://github.com/qarmin/system-info-collector
 Web URL: https://github.com/qarmin/system-info-collector
-
----------------------
-Name: gitpod-cli
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
-
-Name: gp
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gp
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
-
----------------------
-Name: hf-cli
-DESCR: The official Python client for the Huggingface Hub
-Download URL: https://bin.ajam.dev/x86_64_Linux/hf-cli
-REPO: https://github.com/huggingface/huggingface_hub
-Web URL: https://huggingface.co/docs/huggingface_hub
-
-Name: huggingface-cli
-DESCR: The official Python client for the Huggingface Hub
-Download URL: https://bin.ajam.dev/x86_64_Linux/huggingface-cli
-REPO: https://github.com/huggingface/huggingface_hub
-Web URL: https://huggingface.co/docs/huggingface_hub
 
 ---------------------
 Name: imdl
