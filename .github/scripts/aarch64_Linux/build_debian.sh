@@ -357,7 +357,7 @@ if [ "${UPX_PACK}" = "YES" ]; then
    #Pack:: https://github.com/upx/upx/blob/devel/doc/upx-doc.txt
      if command -v upx &> /dev/null && [ -d "${UPX_PACK_DIR}" ] && [ "$(find "${UPX_PACK_DIR}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
        find . -type f -exec chmod +xwr {} \; 2>/dev/null
-       find . -type f ! -name '*.upx' ! -name '*.AppImage' -exec file -i '{}' \; | grep "application/.*executable" | cut -d':' -f1 | xargs realpath | sort -u -o "$SYSTMP/upx_input.txt"
+       find . -type f ! -name '*.upx' ! -name '*.no_strip' -exec file -i '{}' \; | grep "application/.*executable" | cut -d':' -f1 | xargs realpath | sort -u -o "$SYSTMP/upx_input.txt"
        readarray -t files < "$SYSTMP/upx_input.txt"
        unset CURRENT_BIN TOTAL_BINS UPX
        START_TIME="$(date +%s)" && export START_TIME="$START_TIME"
