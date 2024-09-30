@@ -1,0 +1,9 @@
+name: "eweos"
+description: "An musl-based, lightweight, general-purpose Linux distribution with a rolling-release model (DockerC)"
+note: "Created using DockerC, might require ROOT (Details: https://github.com/eweOS/docker)"
+web_url: "https://os.ewe.moe"
+repo_url: "https://github.com/orgs/eweOS"
+path: "/"
+bins:
+  - "eweos"
+  - "eweos.no_strip"
