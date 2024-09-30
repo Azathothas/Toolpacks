@@ -25,7 +25,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      export BIN="simplex-chat"
      export SOURCE_URL="https://github.com/simplex-chat/simplex-chat"
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-
+      ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
        docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
@@ -54,60 +54,6 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
       #Delete Containers
        docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
-       popd >/dev/null 2>&1
-
-      ##Build (alpine-musl)
-       pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
-       docker run --privileged --net="host" --name "alpine-builder" "alpine:latest" \
-        sh -c '
-        #Setup ENV
-         mkdir -p "/build-bins" && cd "$(mktemp -d)" >/dev/null 2>&1
-         apk update && apk upgrade --no-interactive 2>/dev/null
-        #CoreUtils 
-         apk add alpine-sdk alpine-base coreutils croc curl file git grep jq moreutils nano ncdu rsync sudo tar util-linux xz 7zip --latest --upgrade --no-interactive 2>/dev/null
-        #Deps
-         apk add ghc-dev gmp-dev openssl-dev openssl-libs-static zlib-dev zlib-static --latest --upgrade --no-interactive 2>/dev/null
-         ln -s "/usr/lib/libncursesw.so.6" "/usr/lib/libtinfow.so.6"
-         #Install ghcup: https://github.com/simplex-chat/simplex-chat/blob/stable/Dockerfile
-         export BOOTSTRAP_HASKELL_GHC_VERSION="9.6.3"
-         export BOOTSTRAP_HASKELL_CABAL_VERSION="3.10.1.0"
-         curl -qfsSL "https://get-ghcup.haskell.org" | BOOTSTRAP_HASKELL_NONINTERACTIVE="1" sh
-         export PATH="/root/.cabal/bin:/root/.ghcup/bin:${PATH}" ; ghcup --version
-         #ghcup install ghc "latest" ; ghcup set ghc "latest"
-         #ghcup install cabal "latest" ; ghcup set cabal "latest"
-         ghcup set ghc "${BOOTSTRAP_HASKELL_GHC_VERSION}"
-         ghcup set cabal "${BOOTSTRAP_HASKELL_CABAL_VERSION}"
-         cabal install hpack --install-method="copy" --installdir="/usr/local/bin"
-        #Build
-         cd "$(mktemp -d)" >/dev/null 2>&1 && git clone --filter "blob:none" --quiet "https://github.com/simplex-chat/simplex-chat" && cd "./simplex-chat"
-         cp "./scripts/cabal.project.local.linux" "./cabal.project.local"
-         sed '\''/- -Wunused-type-patterns/a\  - -O2\n\  - -split-sections\n\  - -with-rtsopts=-N\n\  - -static\n\cc-options: -static -w -pipe\n\ld-options: -static -pthread -s -Wl,-S -Wl,--build-id=none'\'' -i "./package.yaml"
-
-         sed '/- -Wunused-type-patterns/a\  - -O2\n\  - -split-sections\n\  - -with-rtsopts=-N\n\  - -static\n\cc-options: -static -w -pipe\n\ld-options: -static -pthread -s -Wl,-S -Wl,--build-id=none' -i "./package.yaml"
-         
-         #Reconfigure cabal project
-         cabal clean ; hpack ; cabal update
-         cabal build "exe:simplex-chat" --allow-newer --jobs="$(($(nproc)+1))" --keep-going  
-
-
-          find /project/dist-newstyle -name "simplex-chat" -type f -executable
-        #Copy
-         #cp "./simplex-chat" "/build-bins/simplex-chat"
-         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
-        #strip & info 
-         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
-         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
-         file "/build-bins/"* && du -sh "/build-bins/"*
-        '
-      #Copy & Meta
-       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
-       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
-       #Meta
-       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
-       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"       
-      #Delete Containers
-       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
