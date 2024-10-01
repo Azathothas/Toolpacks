@@ -13,6 +13,17 @@ curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json.tmp" -o "$TMPDIR/ME
 curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BLAKE3SUM.txt" -o "$TMPDIR/BLAKE3SUM.txt"
 #Get SHA256SUM.txt
 curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/SHA256SUM.txt" -o "$TMPDIR/SHA256SUM.txt"
+#Get BUILD.BIN.log.txt
+curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BUILD.BIN.log.txt" -o "$SYSTMP/BUILD.log"
+sed -e '/.*github_pat.*/Id' \
+        -e '/.*ghp_.*/Id' \
+        -e '/.*glpat.*/Id' \
+        -e '/.*hf_.*/Id' \
+        -e '/.*token.*/Id' \
+        -e '/.*access_key_id.*/Id' \
+        -e '/.*secret_access_key.*/Id' \
+        -e '/.*cloudflarestorage.*/Id' -i "$SYSTMP/BUILD.log"
+rm -rf "${SYSTMP}/BIN_LOGS" 2>/dev/null ; mkdir -p "${SYSTMP}/BIN_LOGS"
 ##Sanity
 if [[ -n "$GITHUB_TOKEN" ]]; then
    echo -e "\n[+] GITHUB_TOKEN is Exported"
@@ -104,6 +115,15 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
              jq --arg BIN "$BIN" --arg SHA256 "$SHA256" '.[] |= if .name == $BIN then . + {sha256: $SHA256} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
             #Web URLs
              jq --arg BIN "$BIN" --arg WEB_URL "$WEB_URL" '.[] |= if .name == $BIN then . + {web_url: $WEB_URL} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+            #Build Log
+             LOG_MATCH="$(echo "${BUILD_SCRIPT}" | sed 's|https://github.com/Azathothas/Toolpacks/tree/main|https://pub.ajam.dev/repos/Azathothas/Toolpacks|')" && export LOG_MATCH="${LOG_MATCH}"
+             #LOG_BIN="$(echo "${BIN}" | sed 's/\.no_strip$//')" && export LOG_BIN="${LOG_BIN}"
+             LOG_BIN="$(echo "${BIN}")" && export LOG_BIN="${LOG_BIN}"
+             LOG_BEGIN="$(grep -nE "^\[\+\] (Building|Fetching) \: ${LOG_MATCH}" "$SYSTMP/BUILD.log" | head -n 1 | cut -d: -f1)" && export LOG_BEGIN="${LOG_BEGIN}"
+             LOG_END="$(awk -v start="$LOG_BEGIN" 'NR > start && /.*Completed \(Building\|Fetching\).*/ {print NR; exit}' "$SYSTMP/BUILD.log")" && export LOG_END="${LOG_END}"
+             sed -n "${LOG_BEGIN},${LOG_END}p" "$SYSTMP/BUILD.log" > "$SYSTMP/BIN_LOGS/${BIN}.log.txt"
+             BUILD_LOG="$(jq --arg BIN "$BIN" -r '.[] | select(.name == $BIN) | .download_url' "$TMPDIR/METADATA.json" | sed 's/\.no_strip$//').log.txt"
+             jq --arg BIN "$BIN" --arg BUILD_LOG "$BUILD_LOG" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
             #Build_Script
              jq --arg BIN "$BIN" --arg BUILD_SCRIPT "$BUILD_SCRIPT" '.[] |= if .name == $BIN then . + {build_script: $BUILD_SCRIPT} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
             #Git Meta
@@ -125,14 +145,14 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
              #$REPO_URL repo_url
                jq --arg BIN "$BIN" --arg REPO_URL "$REPO_URL" '.[] |= if .name == $BIN then . + {repo_url: $REPO_URL} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
              #$REPO_STARS repo_url
-               jq --arg BIN "$BIN" --arg REPO_STARS "$REPO_STARS" '.[] |= if .name == $BIN then . + {repo_stars: $REPO_STARS} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"                     
+               jq --arg BIN "$BIN" --arg REPO_STARS "$REPO_STARS" '.[] |= if .name == $BIN then . + {repo_stars: $REPO_STARS} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
              #$REPO_TOPICS repo_topics
                jq --arg BIN "$BIN" --arg REPO_TOPICS "$REPO_TOPICS" '.[] |= if .name == $BIN then . + {repo_topics: $REPO_TOPICS} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
              #Sort & Map
-               jq 'map({name: (.name // "" | if . == null or . == "" then "" else . end), description: (.description // "" | if . == null or . == "" then "" else . end),note: (.note // "" | if . == null or . == "" then "" else . end), download_url: (.download_url // "" | if . == null or . == "" then "" else . end), size: (.size // "" | if . == null or . == "" then "" else . end), b3sum: (.b3sum // "" | if . == null or . == "" then "" else . end), sha256: (.sha256 // "" | if . == null or . == "" then "" else . end), build_date: (.build_date // "" | if . == null or . == "" then "" else . end), repo_url: (.repo_url // "" | if . == null or . == "" then "" else . end), repo_author: (.repo_author // "" | if . == null or . == "" then "" else . end), repo_info: (.repo_info // "" | if . == null or . == "" then "" else . end), repo_updated: (.repo_updated // "" | if . == null or . == "" then "" else . end), repo_released: (.repo_released // "" | if . == null or . == "" then "" else . end), repo_version: (.repo_version // "" | if . == null or . == "" then "" else . end), repo_stars: (.repo_stars // "" | if . == null or . == "" then "" else . end), repo_language: (.repo_language // "" | if . == null or . == "" then "" else . end), repo_license: (.repo_license // "" | if . == null or . == "" then "" else . end), repo_topics: (.repo_topics // "" | if . == null or . == "" then "" else . end), web_url: (.web_url // "" | if . == null or . == "" then "" else . end),build_script: (.build_script // "" | if . == null or . == "" then "" else . end), extra_bins: (.extra_bins // "" | if . == null or . == "" then "" else . end)})' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+               jq 'map({name: (.name // "" | if . == null or . == "" then "" else . end), description: (.description // "" | if . == null or . == "" then "" else . end),note: (.note // "" | if . == null or . == "" then "" else . end), download_url: (.download_url // "" | if . == null or . == "" then "" else . end), size: (.size // "" | if . == null or . == "" then "" else . end), b3sum: (.b3sum // "" | if . == null or . == "" then "" else . end), sha256: (.sha256 // "" | if . == null or . == "" then "" else . end), build_date: (.build_date // "" | if . == null or . == "" then "" else . end), repo_url: (.repo_url // "" | if . == null or . == "" then "" else . end), repo_author: (.repo_author // "" | if . == null or . == "" then "" else . end), repo_info: (.repo_info // "" | if . == null or . == "" then "" else . end), repo_updated: (.repo_updated // "" | if . == null or . == "" then "" else . end), repo_released: (.repo_released // "" | if . == null or . == "" then "" else . end), repo_version: (.repo_version // "" | if . == null or . == "" then "" else . end), repo_stars: (.repo_stars // "" | if . == null or . == "" then "" else . end), repo_language: (.repo_language // "" | if . == null or . == "" then "" else . end), repo_license: (.repo_license // "" | if . == null or . == "" then "" else . end), repo_topics: (.repo_topics // "" | if . == null or . == "" then "" else . end), web_url: (.web_url // "" | if . == null or . == "" then "" else . end),build_script: (.build_script // "" | if . == null or . == "" then "" else . end),build_log: (.build_log // "" | if . == null or . == "" then "" else . end), extra_bins: (.extra_bins // "" | if . == null or . == "" then "" else . end)})' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
              else
              #Sort & Map
-               jq 'map({name: (.name // "" | if . == null or . == "" then "" else . end), description: (.description // "" | if . == null or . == "" then "" else . end), note: (.note // "" | if . == null or . == "" then "" else . end), download_url: (.download_url // "" | if . == null or . == "" then "" else . end), size: (.size // "" | if . == null or . == "" then "" else . end), b3sum: (.b3sum // "" | if . == null or . == "" then "" else . end), sha256: (.sha256 // "" | if . == null or . == "" then "" else . end), build_date: (.build_date // "" | if . == null or . == "" then "" else . end), repo_url: (.repo_url // "" | if . == null or . == "" then "" else . end), web_url: (.web_url // "" | if . == null or . == "" then "" else . end), build_script: (.build_script // "" | if . == null or . == "" then "" else . end), extra_bins: (.extra_bins // "" | if . == null or . == "" then "" else . end)})' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+               jq 'map({name: (.name // "" | if . == null or . == "" then "" else . end), description: (.description // "" | if . == null or . == "" then "" else . end), note: (.note // "" | if . == null or . == "" then "" else . end), download_url: (.download_url // "" | if . == null or . == "" then "" else . end), size: (.size // "" | if . == null or . == "" then "" else . end), b3sum: (.b3sum // "" | if . == null or . == "" then "" else . end), sha256: (.sha256 // "" | if . == null or . == "" then "" else . end), build_date: (.build_date // "" | if . == null or . == "" then "" else . end), repo_url: (.repo_url // "" | if . == null or . == "" then "" else . end), web_url: (.web_url // "" | if . == null or . == "" then "" else . end), build_script: (.build_script // "" | if . == null or . == "" then "" else . end), build_log: (.build_log // "" | if . == null or . == "" then "" else . end), extra_bins: (.extra_bins // "" | if . == null or . == "" then "" else . end)})' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
              fi
             #Print json
             echo -e "\n[+] BIN: $BIN"
@@ -152,6 +172,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
 echo -e "\n[+] Updating Metadata.json ($(realpath $TMPDIR/METADATA.json))\n"
 if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
    cat "$TMPDIR/METADATA.json.bak" | jq -s '.' | jq 'walk(if type == "string" and . == "null" then "" else . end)' > $TMPDIR/METADATA.json
+   rclone copy --checksum "$SYSTMP/BIN_LOGS/." "r2:/bin/x86_64_Linux/" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
    rclone copyto --checksum "$TMPDIR/METADATA.json" "r2:/bin/x86_64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
    rclone delete "r2:/bin/x86_64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
 else

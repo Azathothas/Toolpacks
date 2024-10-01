@@ -165,7 +165,7 @@ jobs:
           #Run with STDOUT + LOGS
           #. "$env:TEMP\BUILD.ps1" 2>&1 | Tee-Object -FilePath "$env:TEMP\BUILD.log"
           #Purge Tokens (in case set -x & gh didn't redact)
-          (Get-Content "$env:TEMP\BUILD.log") -notmatch '.*github_pat.*', '.*ghp_.*', '.*access_key_id.*', '.*secret_access_key.*', '.*cloudflarestorage.*' | Set-Content "$env:TEMP\BUILD.log"
+          (Get-Content "$env:TEMP\BUILD.log") -notmatch '.*github_pat.*', '.*ghp_.*', '.*token.*', '.*access_key_id.*', '.*secret_access_key.*', '.*cloudflarestorage.*' | Set-Content "$env:TEMP\BUILD.log"
           #rClone Upload logs
           rclone copyto "$env:TEMP\BUILD.log" "r2:/bin/x64_Windows/BUILD.log.txt" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.5.3 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           echo "BUILDLOG=$env:TEMP\BUILD.log" >> "$GITHUB_ENV"

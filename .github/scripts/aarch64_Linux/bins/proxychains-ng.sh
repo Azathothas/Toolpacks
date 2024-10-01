@@ -30,7 +30,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.proxychains-ng" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        BIN_DIR="$(find "." -maxdepth 1 -type d -o -type l -exec realpath {} \; | grep -Ev '^\.$')"
        find "$BIN_DIR" -type f -path '*/bin*' -name "*[0-9]*" -exec sudo bash -c 'for file; do mv "$file" "$(dirname "$file")/$(basename "$file" | tr -d "0-9")"; done' bash {} +
-       sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "${BINDIR}" ; unset BIN_DIR
+       [ -d "$BIN_DIR" ] && sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "${BINDIR}" ; unset BIN_DIR
        sudo chown -R "$(whoami):$(whoami)" "${BINDIR}" && chmod -R 755 "${BINDIR}"
        sudo objcopy --remove-section=".comment" --remove-section=".note.*" "$BINDIR/proxychains"
        sudo objcopy --remove-section=".comment" --remove-section=".note.*" "$BINDIR/proxychains-daemon"

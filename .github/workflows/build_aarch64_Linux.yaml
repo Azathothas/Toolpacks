@@ -214,8 +214,11 @@ jobs:
           sed -i '/.*secret_access_key.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*token.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*cloudflarestorage.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
+          ##Fetch Only Relevant Logs
+          sed -n "$(grep -nE '^\[\+\] (Building|Fetching)' "$SYSTMP/BUILD.log" | head -n 1 | cut -d: -f1),$(grep -nE '^\[\+\] Completed \(Building|Fetching\)' "$SYSTMP/BUILD.log" | tail -n 1 | cut -d: -f1)p" "$SYSTMP/BUILD.log" > "$SYSTMP/BUILD.BIN.log"
           ##rClone Upload logs
           rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/aarch64_arm64_Linux/BUILD.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto "$SYSTMP/BUILD.BIN.log" "r2:/bin/aarch64_arm64_Linux/BUILD.BIN.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       #Logs & Artifacts  

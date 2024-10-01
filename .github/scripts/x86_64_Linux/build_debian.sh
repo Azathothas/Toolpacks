@@ -225,6 +225,7 @@ set +x
           ##Fetch&Sync [$BINDIR]
              cd "$BINDIR"
              rclone delete "r2:/bin/x86_64_Linux/" --include "*.jq" --disable ListR --checkers="2000" --transfers="100" --progress
+             rclone lsf "r2:/bin/x86_64_Linux/" --dirs-only --fast-list --exclude "Baseutils/**" | xargs -I "{}" rclone delete "r2:/bin/x86_64_Linux/{}" --disable ListR --checkers="2000" --transfers="100" --progress
              rclone delete "r2:/bin/" --include ".*" --disable ListR --checkers="2000" --transfers="100" --progress
              rclone_main_dw()
              {

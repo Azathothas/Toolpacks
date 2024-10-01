@@ -27,31 +27,13 @@ if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
       ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
-       docker run --privileged --net="host" --name "debian-builder-unstable" "azathothas/debian-builder-unstable:latest" \
-        bash -l -c '
-        #Setup ENV
-         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
-         sudo apt-get update -y -qq
-         sudo apt-get install -y -qq libpcre3 libgmp3-dev xdg-utils zlib1g-dev
-         sudo apt-get update -y -qq
-        #Fetch
-         eget "https://github.com/simplex-chat/simplex-chat" --asset "chat" --asset "ubuntu-22_04" --asset "x86_64" --asset "^desktop" --asset "^deb" --to "./simplex-chat"
-         #sudo mkdir -p "/usr/share/desktop-directories"
-         #sudo dpkg --install "./simplex-chat.deb"
-         staticx --loglevel DEBUG "./simplex-chat" --strip "/build-bins/simplex-chat"
-        #strip & info 
-         objcopy --remove-section=".comment" --remove-section=".note.*" "/build-bins/simplex-chat"
-         strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "/build-bins/simplex-chat"
-         file "/build-bins/simplex-chat" && du -sh "/build-bins/simplex-chat"
-         popd >/dev/null 2>&1
-        '
-      #Copy & Meta
-       docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
-       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
-       #Meta
-       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
-       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
+       git clone --filter="blob:none" --depth="1" --quiet "https://github.com/simplex-chat/simplex-chat" && cd "./simplex-chat"
+       git checkout stable
+       DOCKER_BUILDKIT="1" docker build --output "./" "."
+       staticx --loglevel DEBUG "./simplex-chat" --strip "${BINDIR}/simplex-chat"
+       objcopy --remove-section=".comment" --remove-section=".note.*" "${BINDIR}/simplex-chat"
+       strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/simplex-chat"
+       file "${BINDIR}/simplex-chat" && du -sh "${BINDIR}/simplex-chat"
       #Delete Containers
        docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
        popd >/dev/null 2>&1

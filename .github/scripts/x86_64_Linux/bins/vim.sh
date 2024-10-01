@@ -29,7 +29,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.vim" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
        BIN_DIR="$(find "." -maxdepth 1 -type d -o -type l -exec realpath {} \; | grep -Ev '^\.$')"
-       mkdir -p "$BASEUTILSDIR/vim" ; sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "$BASEUTILSDIR/vim/" ; unset BIN_DIR
+       mkdir -p "$BASEUTILSDIR/vim" ; [ -d "$BIN_DIR" ] && sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "$BASEUTILSDIR/vim/" ; unset BIN_DIR
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/vim/" && chmod -R 755 "$BASEUTILSDIR/vim/"
        #Strip
        find "$BASEUTILSDIR/vim" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
