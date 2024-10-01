@@ -87,7 +87,7 @@ EOS
 ##Build Tools
 RUN <<EOS
   #----------------------#
-  #Main
+  ##Main
   set +e
   pacman -Syu --noconfirm
   pacman aria2 autoconf autoconf-archive automake bazel bc binutils b3sum brotli busybox ccache clang cmake coreutils cython diffutils dos2unix findutils fontconfig gawk gcc gettext kernel-headers-musl jq libpcap libtool meson musl nasm polkit pkgconf rsync spirv-headers spirv-tools sqlite texinfo texi2html util-linux util-linux-libs wget libxslt xxhash yasm --sync --needed --noconfirm
@@ -95,10 +95,10 @@ RUN <<EOS
   pacman -Syu --noconfirm
   pacman aria2 autoconf autoconf-archive automake bazel bc binutils b3sum brotli busybox ccache clang cmake coreutils cython diffutils dos2unix findutils fontconfig gawk gcc gettext kernel-headers-musl jq libpcap libtool meson musl nasm polkit pkgconf rsync spirv-headers spirv-tools sqlite texinfo texi2html util-linux util-linux-libs wget libxslt xxhash yasm --sync --needed --noconfirm
   #----------------------#
-  #Dockerc
+  ##Dockerc
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/bin/dockerc" && chmod +x "/usr/bin/dockerc"
   #----------------------#
-  #Linux Headers
+  ##Linux Headers
   if [ "$(uname -m)" == "aarch64" ]; then
      pacman -Syu --noconfirm && pacman linux-aarch64-headers --sync --needed --noconfirm
   elif [ "$(uname -m)" == "x86_64" ]; then
@@ -107,12 +107,12 @@ RUN <<EOS
      echo "[+]"
   fi
   #----------------------#
-  #Install Meson & Ninja
+  ##Install Meson & Ninja
   #sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
   pip install meson ninja --break-system-packages --upgrade --force-reinstall 2>/dev/null
   #----------------------#  
-  #musl
-   export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
+  ##musl
+   export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath "."
    git clone --filter "blob:none" --depth="1" "https://git.musl-libc.org/git/musl" && cd "./musl"
    unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS OBJCOPY RANLIB
    make dest clean 2>/dev/null ; make clean 2>/dev/null
@@ -121,7 +121,7 @@ RUN <<EOS
    rm -rf "$(realpath .)" ; cd "${CWD}"
    ldconfig && ldconfig -p || true
   #----------------------#
-  #staticx: https://github.com/JonathonReinhart/staticx/blob/main/.github/workflows/build-test.yml
+  ##staticx: https://github.com/JonathonReinhart/staticx/blob/main/.github/workflows/build-test.yml
   export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
   #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
   git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
@@ -136,23 +136,54 @@ RUN <<EOS
   staticx --version || pip install staticx --break-system-packages --force-reinstall --upgrade ; unset BOOTLOADER_CC
   rm -rf "$(realpath .)" ; cd "${CWD}"
   #----------------------#
-  #pyinstaller
+  ##pyinstaller
   pip install "git+https://github.com/pyinstaller/pyinstaller" --break-system-packages --force-reinstall --upgrade ; pyinstaller --version
   #----------------------#
-  #golang
+  ##golang
   #Installed later to ensure correct ENV
   #pacman -Syu --noconfirm && pacman go --sync --needed --noconfirm ; go version
-  sudo -u "runner" bash -c 'sudo pacman -R go --noconfirm 2>/dev/null; rm -rf "/usr/lib/go" 2>/dev/null; pushd "$(mktemp -d)" >/dev/null; echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer"); popd >/dev/null'
+  sudo -u "runner" bash -c \
+  '
+  sudo pacman -R go --noconfirm 2>/dev/null
+  rm -rf "/usr/lib/go" 2>/dev/null 
+  pushd "$(mktemp -d)" >/dev/null
+  echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
+  popd >/dev/null
+  ' || true
   echo 'export GOROOT="/home/runner/.go"' >> "/etc/bash.bashrc"
   echo 'export GOPATH="/home/runner/go"' >> "/etc/bash.bashrc"
   echo 'export PATH="${PATH}:${GOROOT}/bin:${GOPATH}/bin"' >> "/etc/bash.bashrc"
   #----------------------#
-  #patchelf
+  ##patchelf
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/patchelf" -o "/usr/bin/patchelf" && chmod +x "/usr/bin/patchelf"
   #----------------------#
-  #Rust
+  ##Rust
   pacman -Syu --noconfirm && pacman rust --sync --needed --noconfirm ; cargo --version ; rustc --version
   #----------------------#
+EOS
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
+##AUR Helpers
+RUN <<EOS
+  #----------------------#
+  #Paru:https://github.com/Morganamilo/paru
+  sudo -u "runner" bash -c \
+  '
+  export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath "."
+  git clone --filter "blob:none" --depth="1" "https://aur.archlinux.org/paru-bin.git" && cd "./paru-bin"
+  makepkg --install --syncdeps --cleanbuild --clean --force --noconfirm ; paru --version
+  rm -rf "$(realpath .)" ; cd "${CWD}"
+  ' || true
+  #----------------------#
+  #Yay:https://github.com/Jguer/yay
+  sudo -u "runner" bash -c \
+  '
+  export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath "."
+  git clone --filter "blob:none" --depth="1" "https://aur.archlinux.org/yay.git" && cd "./yay"
+  makepkg --install --syncdeps --cleanbuild --clean --force --noconfirm ; yay --version
+  rm -rf "$(realpath .)" ; cd "${CWD}"
+  ' || true
 EOS
 #------------------------------------------------------------------------------------#
 
