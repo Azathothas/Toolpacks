@@ -122,6 +122,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
              LOG_BEGIN="$(grep -nE "^\[\+\] (Building|Fetching) \: ${LOG_MATCH}" "$SYSTMP/BUILD.log" | head -n 1 | cut -d: -f1)" && export LOG_BEGIN="${LOG_BEGIN}"
              LOG_END="$(awk -v start="$LOG_BEGIN" 'NR > start && /.*Completed \(Building\|Fetching\).*/ {print NR; exit}' "$SYSTMP/BUILD.log")" && export LOG_END="${LOG_END}"
              sed -n "${LOG_BEGIN},${LOG_END}p" "$SYSTMP/BUILD.log" > "$SYSTMP/BIN_LOGS/${BIN}.log.txt"
+             cat "$SYSTMP/BIN_LOGS/${BIN}.log.txt" > "$SYSTMP/BIN_LOGS/$(echo ${BUILD_URL} | sed -n 's|.*\/bins/\(.*\)\.yaml$|\1|p').log.txt"             
              BUILD_LOG="$(jq --arg BIN "$BIN" -r '.[] | select(.name == $BIN) | .download_url' "$TMPDIR/METADATA.json" | sed 's/\.no_strip$//').log.txt"
              jq --arg BIN "$BIN" --arg BUILD_LOG "$BUILD_LOG" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
             #Build_Script
