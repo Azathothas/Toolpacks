@@ -41,12 +41,12 @@
   },
   {
     "name": "busybox.sh",
-    "update_date": "2024-09-21T21:04:23",
+    "update_date": "2024-09-27T00:34:12",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/busybox.sh"
   },
   {
     "name": "coreutils.sh",
-    "update_date": "2024-09-21T21:04:23",
+    "update_date": "2024-09-27T00:34:12",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/coreutils.sh"
   },
   {
@@ -66,12 +66,12 @@
   },
   {
     "name": "libarchive.sh",
-    "update_date": "2024-09-21T21:04:23",
+    "update_date": "2024-09-27T00:34:12",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/libarchive.sh"
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-09-26T05:52:10",
+    "update_date": "2024-10-01T18:40:23",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json"
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "name": "xz.sh",
-    "update_date": "2024-09-21T21:04:23",
+    "update_date": "2024-09-27T00:34:12",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/xz.sh"
   },
   {
