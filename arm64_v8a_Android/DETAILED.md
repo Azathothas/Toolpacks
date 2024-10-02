@@ -1,11 +1,12 @@
 ### act
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/act.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/act.sh
 - **Description:** Run your GitHub Actions locally
 - **Note:** 
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54271
+- **Stars:** 54280
 - **Version:** v0.2.68
 - **Updated:** 2024-10-01T02:31:31Z
 - **Size:** 19.31 MB
@@ -18,6 +19,7 @@
 ---
 
 ### actionlint
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/actionlint.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/actionlint.sh
 - **Description:** Static checker for GitHub Actions workflow files
 - **Note:** 
@@ -37,6 +39,7 @@
 ---
 
 ### adig
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/adig.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/adig.sh
 - **Description:** A command-line tool that allows you to perform DNS lookups from the command line
 - **Note:** 
@@ -47,8 +50,8 @@
 - **Version:** v1.33.1
 - **Updated:** 2024-09-26T11:18:37Z
 - **Size:** 186.01 kB
-- **SHA256SUM:** 8b59f420aad5add33fb3999a3e9b92a5d138011de2627123b9b16f30b2f41e50
-- **B3SUM:** 00ddbeda26843fcd807b897a02f82fdb6bf29bfe1f66f710735a24ffa5f291b2
+- **SHA256SUM:** e6378f217eee051cceebfd4491c1a24c5c7d2dbefa8595a799452dbfbd299d12
+- **B3SUM:** aa7241416be080dd81306fb6f411e9743e216f23ca2aa82104a4a70075ad0068
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/adig
 - **Language:** C
 - **License:** MIT License
@@ -56,6 +59,7 @@
 ---
 
 ### anew-rs
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/anew-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/anew-rs.sh
 - **Description:** A fast, simple, recursive content discovery tool written in Rust.
 - **Note:** 
@@ -66,8 +70,8 @@
 - **Version:** v0.1.0
 - **Updated:** 2024-05-08T12:29:15Z
 - **Size:** 968.48 kB
-- **SHA256SUM:** 7c75b2db91ccb0cff8e6acbbc7b699949b7dc486a1c1fb9b05750dc1a3cbd373
-- **B3SUM:** 192ff24146c728f10b04d2540d62e8644706404f5d2e92ba4eee6ae3b8c9d249
+- **SHA256SUM:** 1943ad52e3d57e485d93fc0ba2af8f1b27f71faad793cb3ddb2f8b1918485685
+- **B3SUM:** 470645b1a41db3ac0c9f86372bbffcbddf0731e9f73bd02c9bc320cf3763fde9
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/anew-rs
 - **Language:** Rust
 - **License:** MIT License
@@ -75,6 +79,7 @@
 ---
 
 ### axel
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/axel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/axel.sh
 - **Description:** A lightweight download accelerator
 - **Note:** 
@@ -85,8 +90,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 3.76 MB
-- **SHA256SUM:** add231772f918ec6f8b7945737a3299f104642a60ed499a98f67bf6c1b22b7df
-- **B3SUM:** c5fe7d24cfe7fae75f0524d25d425df89eaa4b02b09bd5d793d20bd09c76acd6
+- **SHA256SUM:** 5b2f573f58e3fe3c7623795c95d391e6698a76e000a7bdcd98a2c5359729d409
+- **B3SUM:** 52d2594e5337b3cb5ea138a6b37ecce3d09524a3d18c6bfbf4b83bb7a4aa0ada
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/axel
 - **Language:** 
 - **License:** 
@@ -94,18 +99,19 @@
 ---
 
 ### b3sum
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/b3sum.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/b3sum.sh
 - **Description:** A command line utility for calculating BLAKE3 hashes
 - **Note:** 
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 5062
+- **Stars:** 5065
 - **Version:** 1.5.4
 - **Updated:** 2024-09-14T14:37:47Z
 - **Size:** 1.28 MB
-- **SHA256SUM:** f8b569e7c66cc2819e94e0b32453f6a0851ad22990520a94b9788ac2527e5284
-- **B3SUM:** 52ade60c3da6dd557306cf174175725cfd62e016a1975d6bfbcd456d6f59a9d3
+- **SHA256SUM:** 352b0f9be31d264094b884dc77dd888422e3d9cad6cf5ff1bc55b3b742ab6fc9
+- **B3SUM:** c83562a4331ac8af03b321c666c472f7857d23e76d196b9213efc9a6dfc11176
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/b3sum
 - **Language:** Assembly
 - **License:** Apache License 2.0
@@ -113,6 +119,7 @@
 ---
 
 ### bash
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/bash.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/bash.sh
 - **Description:** GNU Bourne-Again Shell, the de facto standard shell on Linux
 - **Note:** 
@@ -123,8 +130,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 1.78 MB
-- **SHA256SUM:** cdee97d9d29fa7a868a4ce5fae01017278c1180ad9cb292d1853690bb5db08fa
-- **B3SUM:** 15cb7c47027e105b2950dcdb5a27295af69ee3501697eacd9f34df6ce9c8daba
+- **SHA256SUM:** f0d601f7131cbb47121c0cefa5bfe0c2aa9d13398aa40ae63690a5458c6aecf5
+- **B3SUM:** e009d6f479d8ae0e26439cba3b252bfdc86632e0c9fca0276eb8124592b7d304
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/bash
 - **Language:** 
 - **License:** 
@@ -132,6 +139,7 @@
 ---
 
 ### busybox
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/busybox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh
 - **Description:** A Software Suite that provides Several Unix Utilities in a single Executable
 - **Note:** 
@@ -142,8 +150,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 1.54 MB
-- **SHA256SUM:** f80facc553cc6b4e96bf6c6e1da39fa119937ae8a3bbd611ff8f684ad2894d83
-- **B3SUM:** 6123209f16697f8fdce6c9e5f63f7d89df7aafa849d49daeea0b7820ed49d597
+- **SHA256SUM:** 6c466974cd144f576812ad5519eb6e413a51edb3d7754cbc82513403be622c3f
+- **B3SUM:** dba6f04689a3204d0f142e7988645c3779ee6345d315c2079025098535006c9e
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/busybox
 - **Language:** 
 - **License:** 
@@ -151,6 +159,7 @@
 ---
 
 ### wget
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/wget.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh
 - **Description:** A Software Suite that provides Several Unix Utilities in a single Executable
 - **Note:** 
@@ -170,6 +179,7 @@
 ---
 
 ### xxd
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/xxd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/busybox.sh
 - **Description:** A Software Suite that provides Several Unix Utilities in a single Executable
 - **Note:** 
@@ -189,15 +199,16 @@
 ---
 
 ### curl
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/curl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
 - **Note:** 
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35538
+- **Stars:** 35543
 - **Version:** curl-8_10_1
-- **Updated:** 2024-10-01T11:58:05Z
+- **Updated:** 2024-10-02T00:17:18Z
 - **Size:** 5.36 MB
 - **SHA256SUM:** 6a8d6c58d5ee96df4852a3d1ca2d99ba93e2fe030a6c1a931641325ea3a96d36
 - **B3SUM:** f37c80f27b035c3eb103051406167c4a7bf40484a04e7edd6600f406110bda26
@@ -208,15 +219,16 @@
 ---
 
 ### curl_cacert.pem
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/curl_cacert.pem.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
 - **Note:** 
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35538
+- **Stars:** 35543
 - **Version:** curl-8_10_1
-- **Updated:** 2024-10-01T11:58:05Z
+- **Updated:** 2024-10-02T00:17:18Z
 - **Size:** 234.85 kB
 - **SHA256SUM:** 189d3cf6d103185fba06d76c1af915263c6d42225481a1759e853b33ac857540
 - **B3SUM:** 1856b10ee91d0e1828f100a99b50dbf6c66373f659f855f01c8a9f9a22b002b5
@@ -227,6 +239,7 @@
 ---
 
 ### dbin
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/dbin.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/dbin.sh
 - **Description:** 📦 Poor mans package manager.
 - **Note:** 
@@ -246,6 +259,7 @@
 ---
 
 ### jless
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/jless.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/jless.sh
 - **Description:** command-line JSON viewer designed for reading, exploring, and searching through JSON data.
 - **Note:** 
@@ -265,6 +279,7 @@
 ---
 
 ### pingmole
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/pingmole.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pingmole.sh
 - **Description:** CLI that helps to filter pingmole servers and pick the closest one.
 - **Note:** 
@@ -284,6 +299,7 @@
 ---
 
 ### pspy
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/pspy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/pspy.sh
 - **Description:** Monitor linux processes without root permissions
 - **Note:** 
@@ -293,9 +309,9 @@
 - **Stars:** 4882
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
-- **Size:** 4.02 MB
-- **SHA256SUM:** 16c29602e69964565ca6c0279332e57ea6a96449bc7a599c71b8b0edeb0eaec4
-- **B3SUM:** 363fc12bc08d6c611bd08c4b20d603c2d89cbe4ad077be211b2617cce730f85c
+- **Size:** 4.03 MB
+- **SHA256SUM:** 5903e001c8ee432c3d459c3a3a63d5c9dcb29d005db9d79cee45d0da81e10553
+- **B3SUM:** 32a7b693a4790bea1f796faf09c5f4c5875a2421dc3b4d1d75da120631967b1b
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/pspy
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -303,15 +319,16 @@
 ---
 
 ### rclone
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/rclone.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rclone.sh
 - **Description:** Rsync for cloud storage
 - **Note:** 
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 46428
+- **Stars:** 46437
 - **Version:** v1.68.1
-- **Updated:** 2024-09-30T16:22:32Z
+- **Updated:** 2024-10-01T14:55:03Z
 - **Size:** 85.87 MB
 - **SHA256SUM:** d41fad562d717ba09eeb4155568e6532cfa537fcae32faf5ea9c41b1b86d21c9
 - **B3SUM:** 37b98f90cb44185e5435c7d7196bf97674971b4f396d9ff297fbaf3648a815bd
@@ -322,13 +339,14 @@
 ---
 
 ### rsync
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/rsync.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/rsync.sh
 - **Description:** An open source utility that provides fast incremental file transfer.
 - **Note:** 
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2744
+- **Stars:** 2745
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5.26 MB
@@ -341,6 +359,7 @@
 ---
 
 ### sudo
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/sudo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/sudo.sh
 - **Description:** Download with resuming and segmented downloading
 - **Note:** 
@@ -360,15 +379,16 @@
 ---
 
 ### tailscale
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/tailscale.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
 - **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18763
+- **Stars:** 18768
 - **Version:** v1.74.1
-- **Updated:** 2024-10-01T11:51:47Z
+- **Updated:** 2024-10-01T22:03:40Z
 - **Size:** 12.46 MB
 - **SHA256SUM:** bd17012ec2204dfd0019d7bb430919e73a0af092b07716777a7a2bbfa26c0ae2
 - **B3SUM:** 67e813cd75e06d1ae679da90403c48dd5903d718d580a0975afeea8c8e25627a
@@ -379,15 +399,16 @@
 ---
 
 ### tailscale_combined
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/tailscale_combined.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
 - **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18763
+- **Stars:** 18768
 - **Version:** v1.74.1
-- **Updated:** 2024-10-01T11:51:47Z
+- **Updated:** 2024-10-01T22:03:40Z
 - **Size:** 26.75 MB
 - **SHA256SUM:** d363015f0cf122b73b206ef1baa9617ac364a876c18ac1b849fc0620c5d91954
 - **B3SUM:** 49bf63489ff0d6ccb1ac30c9e52ed8002ad62f26664d53e0e79aa09b7fc6849b
@@ -398,15 +419,16 @@
 ---
 
 ### tailscaled
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/tailscaled.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
 - **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18763
+- **Stars:** 18768
 - **Version:** v1.74.1
-- **Updated:** 2024-10-01T11:51:47Z
+- **Updated:** 2024-10-01T22:03:40Z
 - **Size:** 24.61 MB
 - **SHA256SUM:** 226b283c5b11fd4856c9d5ab7acadb44dfa9a8263d444143c13b352ed30eb65d
 - **B3SUM:** 58edcdfc38ac1da46a68c3771a65fde58b143d51b1bf230fb57067894ff0c182
@@ -417,15 +439,16 @@
 ---
 
 ### vim
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/vim.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/vim.sh
 - **Description:** Vi IMproved - enhanced vi editor
 - **Note:** 
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36223
-- **Version:** v9.1.0751
-- **Updated:** 2024-09-30T19:33:28Z
+- **Stars:** 36226
+- **Version:** v9.1.0754
+- **Updated:** 2024-10-01T18:35:31Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** 9c4d88bd8c906af1ff31cc632dbcbda3d1901d1e32ad2382afee6c28c6c07461
 - **B3SUM:** bfe908bbbd64ccfbcde0c26bd361e2bb9a45d0d60f249106cdf4dd61495d7f63
@@ -436,6 +459,7 @@
 ---
 
 ### wget
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/wget.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/wget.sh
 - **Description:** Tool for retrieving files using HTTP, HTTPS, and FTP
 - **Note:** 
@@ -455,6 +479,7 @@
 ---
 
 ### wget_cacert.pem
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/wget_cacert.pem.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/wget.sh
 - **Description:** Tool for retrieving files using HTTP, HTTPS, and FTP
 - **Note:** 
@@ -474,6 +499,7 @@
 ---
 
 ### zsh
+- **Log:** https://bin.ajam.dev/arm64_v8a_Android/zsh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/zsh.sh
 - **Description:** Z Shell
 - **Note:** 

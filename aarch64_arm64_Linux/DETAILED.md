@@ -1,11 +1,12 @@
 ### 7z
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/7z.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/7z.sh
 - **Description:** Unarchiver
 - **Note:** 
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 687
+- **Stars:** 688
 - **Version:** 24.08
 - **Updated:** 2024-08-12T11:51:02Z
 - **Size:** 3.09 MB
@@ -18,13 +19,14 @@
 ---
 
 ### act
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/act.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/act.sh
 - **Description:** Run your GitHub Actions locally 🚀
 - **Note:** 
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54271
+- **Stars:** 54279
 - **Version:** v0.2.68
 - **Updated:** 2024-10-01T02:31:31Z
 - **Size:** 17.2 MB
@@ -37,6 +39,7 @@
 ---
 
 ### actionlint
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/actionlint.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/actionlint.sh
 - **Description:** octocat  Static checker for GitHub Actions workflow files
 - **Note:** 
@@ -56,13 +59,14 @@
 ---
 
 ### age
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/age.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/age.sh
 - **Description:** A simple, modern and secure encryption tool
 - **Note:** 
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 17003
+- **Stars:** 17008
 - **Version:** v1.2.0
 - **Updated:** 2024-09-26T11:09:18Z
 - **Size:** 3.55 MB
@@ -75,13 +79,14 @@
 ---
 
 ### age-keygen
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/age-keygen.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/age.sh
 - **Description:** A simple, modern and secure encryption tool
 - **Note:** 
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 17003
+- **Stars:** 17008
 - **Version:** v1.2.0
 - **Updated:** 2024-09-26T11:09:18Z
 - **Size:** 2.01 MB
@@ -94,6 +99,7 @@
 ---
 
 ### agg
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/agg.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/agg.sh
 - **Description:** asciinema gif generator
 - **Note:** 
@@ -113,6 +119,7 @@
 ---
 
 ### agg-speed
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/agg-speed.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aggligator.sh
 - **Description:** Aggregates multiple links (TCP, Bluetooth, USB or similar) into one connection having their combined bandwidth and provides resiliency against failure of individual links.
 - **Note:** 
@@ -132,6 +139,7 @@
 ---
 
 ### agg-tunnel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/agg-tunnel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aggligator.sh
 - **Description:** Aggregates multiple links (TCP, Bluetooth, USB or similar) into one connection having their combined bandwidth and provides resiliency against failure of individual links.
 - **Note:** 
@@ -151,6 +159,7 @@
 ---
 
 ### agrind
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/agrind.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/agrind.sh
 - **Description:** Slice and dice logs on the command line
 - **Note:** 
@@ -170,6 +179,7 @@
 ---
 
 ### airixss
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/airixss.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/airixss.sh
 - **Description:** xss automater
 - **Note:** 
@@ -189,6 +199,7 @@
 ---
 
 ### aix
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aix.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aix.sh
 - **Description:** AIx is a cli tool to interact with Large Language Models (LLM) APIs.
 - **Note:** 
@@ -208,6 +219,7 @@
 ---
 
 ### albafetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/albafetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/albafetch.sh
 - **Description:** system-info-fetcher
 - **Note:** 
@@ -227,6 +239,7 @@
 ---
 
 ### algernon
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/algernon.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/algernon.sh
 - **Description:** Small self-contained pure-Go web server with Lua, Teal, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support
 - **Note:** 
@@ -246,13 +259,14 @@
 ---
 
 ### alist
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/alist.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/alist.sh
 - **Description:** A file list/WebDAV program that supports multiple storages
 - **Note:** 
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 42486
+- **Stars:** 42490
 - **Version:** v3.37.4
 - **Updated:** 2024-09-28T15:16:11Z
 - **Size:** 79.33 MB
@@ -265,6 +279,7 @@
 ---
 
 ### allxfr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/allxfr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/allxfr.sh
 - **Description:** AXFR all the things!
 - **Note:** 
@@ -284,6 +299,7 @@
 ---
 
 ### almalinux-minimal.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/almalinux-minimal.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/almalinux.sh
 - **Description:** Portable Ephemeral AlmaLinux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/almalinux)
@@ -303,6 +319,7 @@
 ---
 
 ### almalinux.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/almalinux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/almalinux.sh
 - **Description:** Portable Ephemeral AlmaLinux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/almalinux)
@@ -322,13 +339,14 @@
 ---
 
 ### alpine.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/alpine.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/alpine.sh
 - **Description:** Portable Ephemeral Alpine Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/alpine)
 - **Author:** alpinelinux
 - **WebURL:** [https://github.com/alpinelinux/docker-alpine](https://github.com/alpinelinux/docker-alpine)
 - **Repository:** [https://github.com/alpinelinux/docker-alpine](https://github.com/alpinelinux/docker-alpine)
-- **Stars:** 1081
+- **Stars:** 1082
 - **Version:** 
 - **Updated:** 2024-09-23T20:06:46Z
 - **Size:** 21.58 MB
@@ -341,6 +359,7 @@
 ---
 
 ### alterx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/alterx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/alterx.sh
 - **Description:** Fast and customizable subdomain wordlist generator using DSL
 - **Note:** 
@@ -360,13 +379,14 @@
 ---
 
 ### amass
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/amass.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/amass.sh
 - **Description:** In-depth attack surface mapping and asset discovery
 - **Note:** 
 - **Author:** owasp-amass
 - **WebURL:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
 - **Repository:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
-- **Stars:** 11866
+- **Stars:** 11872
 - **Version:** v4.2.0
 - **Updated:** 2024-09-24T01:46:21Z
 - **Size:** 36.18 MB
@@ -379,6 +399,7 @@
 ---
 
 ### amazonlinux.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/amazonlinux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/amazonlinux.sh
 - **Description:** Portable Ephemeral AmazonLinux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/amazonlinux)
@@ -398,6 +419,7 @@
 ---
 
 ### amp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/amp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/amp.sh
 - **Description:** A complete text editor for your terminal.
 - **Note:** 
@@ -417,6 +439,7 @@
 ---
 
 ### anakin
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/anakin.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/anakin.sh
 - **Description:** Kill orphan processes
 - **Note:** 
@@ -436,6 +459,7 @@
 ---
 
 ### analyticsrelationships
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/analyticsrelationships.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/analyticsrelationships.sh
 - **Description:** Get related domains / subdomains by looking at Google Analytics IDs
 - **Note:** 
@@ -455,6 +479,7 @@
 ---
 
 ### anew-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/anew-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/anew-rs.sh
 - **Description:** An efficient way to filter duplicate lines from input, à la uniq.
 - **Note:** 
@@ -474,6 +499,7 @@
 ---
 
 ### anew
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/anew.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/anew.sh
 - **Description:** A tool for adding new lines to files, skipping duplicates
 - **Note:** 
@@ -493,6 +519,7 @@
 ---
 
 ### anewer
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/anewer.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/anewer.sh
 - **Description:** anewer appends lines from stdin to a file if they dont already exist in the file
 - **Note:** 
@@ -512,13 +539,14 @@
 ---
 
 ### ani-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ani-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ani-cli.sh
 - **Description:** A cli tool to browse and play anime
 - **Note:** 
 - **Author:** pystardust
 - **WebURL:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
 - **Repository:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
-- **Stars:** 7868
+- **Stars:** 7873
 - **Version:** v4.9
 - **Updated:** 2024-09-19T07:11:00Z
 - **Size:** 23 kB
@@ -531,6 +559,7 @@
 ---
 
 ### apk.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/apk.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/apk.sh.sh
 - **Description:** apk.sh makes reverse engineering Android apps easier
 - **Note:** 
@@ -550,13 +579,14 @@
 ---
 
 ### apkeep
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/apkeep.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/apkeep.sh
 - **Description:** command-line tool for downloading APK files from various sources
 - **Note:** 
 - **Author:** EFForg
 - **WebURL:** [https://github.com/EFForg/apkeep](https://github.com/EFForg/apkeep)
 - **Repository:** [https://github.com/EFForg/apkeep](https://github.com/EFForg/apkeep)
-- **Stars:** 797
+- **Stars:** 799
 - **Version:** 0.16.0
 - **Updated:** 2024-08-15T03:29:21Z
 - **Size:** 11.46 MB
@@ -569,6 +599,7 @@
 ---
 
 ### aptly
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aptly.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aptly.sh
 - **Description:** Debian repository management tool
 - **Note:** 
@@ -577,7 +608,7 @@
 - **Repository:** [https://github.com/aptly-dev/aptly](https://github.com/aptly-dev/aptly)
 - **Stars:** 2562
 - **Version:** v1.5.0
-- **Updated:** 2024-10-01T13:03:46Z
+- **Updated:** 2024-10-01T18:19:20Z
 - **Size:** 33.76 MB
 - **SHA256SUM:** ed869c9870da8ad84a61903b2a37efda80a270ce1cd86309e06ed2ca82fba1d7
 - **B3SUM:** 84c07b8ce0b2f410e4e0499dc1c5e1928e95dba4dd8d694a9dc328689104b65e
@@ -588,13 +619,14 @@
 ---
 
 ### archey
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/archey.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/archey.sh
 - **Description:** Archey is a simple system information tool written in Python
 - **Note:** 
 - **Author:** HorlogeSkynet
 - **WebURL:** [https://github.com/HorlogeSkynet/archey4](https://github.com/HorlogeSkynet/archey4)
 - **Repository:** [https://github.com/HorlogeSkynet/archey4](https://github.com/HorlogeSkynet/archey4)
-- **Stars:** 289
+- **Stars:** 290
 - **Version:** v4.15.0.0
 - **Updated:** 2024-09-30T20:46:09Z
 - **Size:** 9.28 MB
@@ -607,6 +639,7 @@
 ---
 
 ### archlinux.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/archlinux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/archlinux.sh
 - **Description:** Portable Ephemeral ArchLinuxArm Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/archlinux)
@@ -615,7 +648,7 @@
 - **Repository:** [https://github.com/Azathothas/docker-archlinux](https://github.com/Azathothas/docker-archlinux)
 - **Stars:** 1
 - **Version:** 
-- **Updated:** 2024-10-01T12:04:39Z
+- **Updated:** 2024-10-02T00:11:16Z
 - **Size:** 192.98 MB
 - **SHA256SUM:** de668ab2fd8acdcd567ed273aba125c8f27266a1b0bc982948d518fe43ecd02a
 - **B3SUM:** 62b251927cbcdaa5890a5a470001f138d5c5511576dc74555a3340278343f73d
@@ -626,6 +659,7 @@
 ---
 
 ### arduino-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/arduino-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/arduino-cli.sh
 - **Description:** Arduino command line tool
 - **Note:** 
@@ -634,7 +668,7 @@
 - **Repository:** [https://github.com/arduino/arduino-cli](https://github.com/arduino/arduino-cli)
 - **Stars:** 4328
 - **Version:** v1.0.4
-- **Updated:** 2024-10-01T12:38:33Z
+- **Updated:** 2024-10-01T14:32:48Z
 - **Size:** 22.07 MB
 - **SHA256SUM:** 7655ab5955bb935b9a8c039414e4aed1f23849792fb1293897ecfaf4acbb4eb0
 - **B3SUM:** 86ca73f58c6c495e3d4fa0a10d0df69a189d1a2356c1ec36c67faf7d80193ba1
@@ -645,6 +679,7 @@
 ---
 
 ### aretext
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aretext.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aretext.sh
 - **Description:** Minimalist text editor with vim-compatible key bindings.
 - **Note:** 
@@ -664,13 +699,14 @@
 ---
 
 ### aria2
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aria2.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aria2.sh
 - **Description:** A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
 - **Note:** 
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 35285
+- **Stars:** 35286
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
 - **Size:** 12.09 MB
@@ -683,13 +719,14 @@
 ---
 
 ### aria2c
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aria2c.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aria2.sh
 - **Description:** A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
 - **Note:** 
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 35285
+- **Stars:** 35286
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
 - **Size:** 12.09 MB
@@ -702,13 +739,14 @@
 ---
 
 ### asn
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/asn.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/asn.sh
 - **Description:** ASN / RPKI validity / BGP stats / IPv4v6 / Prefix / URL / ASPath / Organization / IP reputation / IP geolocation / IP fingerprinting / Network recon / lookup API server / Web traceroute server
 - **Note:** 
 - **Author:** nitefood
 - **WebURL:** [https://github.com/nitefood/asn](https://github.com/nitefood/asn)
 - **Repository:** [https://github.com/nitefood/asn](https://github.com/nitefood/asn)
-- **Stars:** 1346
+- **Stars:** 1347
 - **Version:** v0.78.0
 - **Updated:** 2024-09-28T14:02:48Z
 - **Size:** 208.47 kB
@@ -721,13 +759,14 @@
 ---
 
 ### asnmap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/asnmap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/asnmap.sh
 - **Description:** Mapping organization network ranges using ASN information
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
 - **Repository:** [https://github.com/projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
-- **Stars:** 743
+- **Stars:** 744
 - **Version:** v1.1.1
 - **Updated:** 2024-09-30T17:01:58Z
 - **Size:** 25.81 MB
@@ -740,13 +779,14 @@
 ---
 
 ### assetfinder
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/assetfinder.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/assetfinder.sh
 - **Description:** Find domains and subdomains related to a given domain
 - **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
 - **Repository:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
-- **Stars:** 2985
+- **Stars:** 2986
 - **Version:** v0.1.1
 - **Updated:** 2024-06-07T17:08:47Z
 - **Size:** 5.19 MB
@@ -759,6 +799,7 @@
 ---
 
 ### assh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/assh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/assh.sh
 - **Description:** 💻 make your ssh client smarter
 - **Note:** 
@@ -778,13 +819,14 @@
 ---
 
 ### atuin
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/atuin.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/atuin.sh
 - **Description:** Sync Shell History
 - **Note:** 
 - **Author:** atuinsh
 - **WebURL:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
 - **Repository:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
-- **Stars:** 20333
+- **Stars:** 20336
 - **Version:** v18.3.0
 - **Updated:** 2024-10-01T00:21:21Z
 - **Size:** 18.23 MB
@@ -797,6 +839,7 @@
 ---
 
 ### awk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/awk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/awk.sh
 - **Description:** One true awk
 - **Note:** 
@@ -816,6 +859,7 @@
 ---
 
 ### aws-cli.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aws-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aws-cli.sh
 - **Description:** Portable Ephemeral aws-cli Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/r/amazon/aws-cli)
@@ -835,6 +879,7 @@
 ---
 
 ### aws-nuke
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aws-nuke.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aws-nuke.sh
 - **Description:** Nuke a whole AWS account and delete all its resources.
 - **Note:** 
@@ -854,6 +899,7 @@
 ---
 
 ### aws-wire-lengths
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/aws-wire-lengths.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/aws-wire-lengths.sh
 - **Description:** simple command line for various AWS management tasks
 - **Note:** 
@@ -873,13 +919,14 @@
 ---
 
 ### axel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/axel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/axel.sh
 - **Description:** Lightweight CLI download accelerator
 - **Note:** 
 - **Author:** axel-download-accelerator
 - **WebURL:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
 - **Repository:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
-- **Stars:** 2951
+- **Stars:** 2952
 - **Version:** v2.17.14
 - **Updated:** 2024-08-26T15:08:45Z
 - **Size:** 4.15 MB
@@ -892,13 +939,14 @@
 ---
 
 ### b3sum
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/b3sum.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/b3sum.sh
 - **Description:** the official Rust and C implementations of the BLAKE3 cryptographic hash function
 - **Note:** 
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 5062
+- **Stars:** 5064
 - **Version:** 1.5.4
 - **Updated:** 2024-09-14T14:37:47Z
 - **Size:** 917.8 kB
@@ -911,13 +959,14 @@
 ---
 
 ### bandwhich
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bandwhich.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bandwhich.sh
 - **Description:** Terminal bandwidth utilization tool
 - **Note:** 
 - **Author:** imsnif
 - **WebURL:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
 - **Repository:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
-- **Stars:** 9961
+- **Stars:** 9963
 - **Version:** v0.23.0
 - **Updated:** 2024-10-01T06:06:52Z
 - **Size:** 2.62 MB
@@ -930,13 +979,14 @@
 ---
 
 ### bat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/batcat.sh
 - **Description:** cat with colors & syntax highlights
 - **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 48983
+- **Stars:** 48992
 - **Version:** v0.24.0
 - **Updated:** 2024-10-01T03:38:24Z
 - **Size:** 5.48 MB
@@ -949,13 +999,14 @@
 ---
 
 ### batcat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/batcat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/batcat.sh
 - **Description:** cat with colors & syntax highlights
 - **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 48983
+- **Stars:** 48992
 - **Version:** v0.24.0
 - **Updated:** 2024-10-01T03:38:24Z
 - **Size:** 5.48 MB
@@ -968,6 +1019,7 @@
 ---
 
 ### bdl.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bdl.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bdl.sh
 - **Description:** Binary Downloader
 - **Note:** 
@@ -987,13 +1039,14 @@
 ---
 
 ### bearer
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bearer.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bearer.sh
 - **Description:** Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.
 - **Note:** 
 - **Author:** Bearer
 - **WebURL:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
 - **Repository:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
-- **Stars:** 1959
+- **Stars:** 1960
 - **Version:** v1.46.1
 - **Updated:** 2024-09-30T02:58:58Z
 - **Size:** 50.21 MB
@@ -1006,13 +1059,14 @@
 ---
 
 ### bed
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bed.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bed.sh
 - **Description:** Binary editor written in Go
 - **Note:** 
 - **Author:** itchyny
 - **WebURL:** [https://github.com/itchyny/bed](https://github.com/itchyny/bed)
 - **Repository:** [https://github.com/itchyny/bed](https://github.com/itchyny/bed)
-- **Stars:** 1229
+- **Stars:** 1240
 - **Version:** v0.2.5
 - **Updated:** 2024-10-01T12:08:11Z
 - **Size:** 3.08 MB
@@ -1025,6 +1079,7 @@
 ---
 
 ### bench.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bench.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bench.sh.sh
 - **Description:** A quick & easy Benchmarking Script
 - **Note:** 
@@ -1044,6 +1099,7 @@
 ---
 
 ### bin
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bin.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bin.sh
 - **Description:** Effortless binary manager
 - **Note:** 
@@ -1063,6 +1119,7 @@
 ---
 
 ### bin2video
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bin2video.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bin2video.sh
 - **Description:** Tool for encoding files as videos
 - **Note:** 
@@ -1082,6 +1139,7 @@
 ---
 
 ### binary-security-check
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/binary-security-check.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/binary-security-check.sh
 - **Description:** Analyzer of security features in executable binaries
 - **Note:** 
@@ -1101,6 +1159,7 @@
 ---
 
 ### binfetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/binfetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/binfetch.sh
 - **Description:** neofetch for binaries
 - **Note:** 
@@ -1120,6 +1179,7 @@
 ---
 
 ### binfetch.cfg
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/binfetch.cfg.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/binfetch.sh
 - **Description:** neofetch for binaries
 - **Note:** 
@@ -1139,6 +1199,7 @@
 ---
 
 ### bingrep
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bingrep.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bingrep.sh
 - **Description:** like ~~grep~~ UBER, but for binaries
 - **Note:** 
@@ -1158,6 +1219,7 @@
 ---
 
 ### binocle
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/binocle.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/binocle.sh
 - **Description:** a graphical tool to visualize binary data
 - **Note:** 
@@ -1177,6 +1239,7 @@
 ---
 
 ### bleve
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bleve.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bleve.sh
 - **Description:** A modern text indexing library for go
 - **Note:** 
@@ -1196,6 +1259,7 @@
 ---
 
 ### bluetuith
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bluetuith.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bluetuith.sh
 - **Description:** A TUI bluetooth manager for Linux.
 - **Note:** 
@@ -1215,6 +1279,7 @@
 ---
 
 ### boltconn
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/boltconn.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/boltconn.sh
 - **Description:** Transparent and flexible L4/L7 networking manager, supporting WireGuard, firewall and scripted MitM
 - **Note:** 
@@ -1223,7 +1288,7 @@
 - **Repository:** [https://github.com/XOR-op/BoltConn](https://github.com/XOR-op/BoltConn)
 - **Stars:** 51
 - **Version:** 0.9.0
-- **Updated:** 2024-09-22T04:20:10Z
+- **Updated:** 2024-10-02T00:08:17Z
 - **Size:** 22.01 MB
 - **SHA256SUM:** bc867d13a5622bc0ed1a2e586663403d147dd31c192b3cecc9089345411ce94e
 - **B3SUM:** 0084e7eff280d0ce6e3228306de99d6c55b53418700e917beeb61a3e6319ce16
@@ -1234,6 +1299,7 @@
 ---
 
 ### bombadillo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bombadillo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bombadillo.sh
 - **Description:** Browser for gopher | gemini | finger | local (a users file system)
 - **Note:** 
@@ -1253,13 +1319,14 @@
 ---
 
 ### bore
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bore.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bore.sh
 - **Description:** ngrok alternative for making tunnels to localhost
 - **Note:** 
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
 - **Repository:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
-- **Stars:** 8516
+- **Stars:** 8517
 - **Version:** v0.5.1
 - **Updated:** 2024-07-13T20:33:44Z
 - **Size:** 1.27 MB
@@ -1272,6 +1339,7 @@
 ---
 
 ### boringtun-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/boringtun-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/boringtun.sh
 - **Description:** Userspace WireGuard® Implementation in Rust
 - **Note:** 
@@ -1291,6 +1359,7 @@
 ---
 
 ### botsay
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/botsay.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/botsay.sh
 - **Description:** 🤖 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows
 - **Note:** 
@@ -1310,13 +1379,14 @@
 ---
 
 ### bottom
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bottom.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bottom.sh
 - **Description:** htop clone | graphical process/system monitor
 - **Note:** 
 - **Author:** ClementTsang
 - **WebURL:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
 - **Repository:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
-- **Stars:** 9909
+- **Stars:** 9913
 - **Version:** 0.10.2
 - **Updated:** 2024-09-28T04:46:26Z
 - **Size:** 3.89 MB
@@ -1329,13 +1399,14 @@
 ---
 
 ### bpftrace
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bpftrace.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bpftrace.sh
 - **Description:** High-level tracing language & tool for Linux
 - **Note:** This is a Staticx Static Binary (Might NOT Work)
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8510
+- **Stars:** 8512
 - **Version:** v0.21.2
 - **Updated:** 2024-10-01T11:00:29Z
 - **Size:** 45.2 MB
@@ -1348,13 +1419,14 @@
 ---
 
 ### bpftrace-aotrt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bpftrace-aotrt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bpftrace.sh
 - **Description:** High-level tracing language & tool for Linux
 - **Note:** This is a Staticx Static Binary (Might NOT Work)
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8510
+- **Stars:** 8512
 - **Version:** v0.21.2
 - **Updated:** 2024-10-01T11:00:29Z
 - **Size:** 2.66 MB
@@ -1367,6 +1439,7 @@
 ---
 
 ### brename
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/brename.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/brename.sh
 - **Description:** tool for safely batch renaming files/directories via regular expression
 - **Note:** 
@@ -1386,6 +1459,7 @@
 ---
 
 ### brook
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/brook.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/brook.sh
 - **Description:** A cross-platform programmable network tool
 - **Note:** 
@@ -1394,7 +1468,7 @@
 - **Repository:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
 - **Stars:** 14526
 - **Version:** v20240606
-- **Updated:** 2024-09-27T07:19:25Z
+- **Updated:** 2024-10-02T00:30:39Z
 - **Size:** 19.55 MB
 - **SHA256SUM:** 85c0ee4daf25e8e510064fd976b1e4b15eed97efb6ca11bc8df66fc7e5fc1591
 - **B3SUM:** 326f674d89d3cc9c1d2102b7250ad7d28a75e06c029b68bfd7be4b6d7b395bb4
@@ -1405,13 +1479,14 @@
 ---
 
 ### broot
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/broot.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/broot.sh
 - **Description:** A new way to see and navigate directory trees
 - **Note:** 
 - **Author:** Canop
 - **WebURL:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
 - **Repository:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
-- **Stars:** 10600
+- **Stars:** 10605
 - **Version:** v1.44.0
 - **Updated:** 2024-09-23T05:19:03Z
 - **Size:** 10 MB
@@ -1424,13 +1499,14 @@
 ---
 
 ### brutespray
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/brutespray.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/brutespray.sh
 - **Description:** Bruteforcing from various scanner output - Automatically attempts default creds on found services.
 - **Note:** 
 - **Author:** x90skysn3k
 - **WebURL:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
 - **Repository:** [https://github.com/x90skysn3k/brutespray](https://github.com/x90skysn3k/brutespray)
-- **Stars:** 2008
+- **Stars:** 2010
 - **Version:** v2.2.4
 - **Updated:** 2024-09-23T19:08:15Z
 - **Size:** 25.86 MB
@@ -1443,13 +1519,14 @@
 ---
 
 ### btop
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/btop.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/btop.sh
 - **Description:** htop clone | A monitor of resources
 - **Note:** 
 - **Author:** aristocratos
 - **WebURL:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
 - **Repository:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
-- **Stars:** 19939
+- **Stars:** 19954
 - **Version:** v1.4.0
 - **Updated:** 2024-09-24T18:43:49Z
 - **Size:** 2.29 MB
@@ -1462,15 +1539,16 @@
 ---
 
 ### bubblewrap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bubblewrap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bubblewrap.sh
 - **Description:** Unprivileged sandboxing tool
 - **Note:** 
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
 - **Repository:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
-- **Stars:** 3894
+- **Stars:** 3895
 - **Version:** v0.10.0
-- **Updated:** 2024-09-30T19:02:47Z
+- **Updated:** 2024-10-01T18:37:33Z
 - **Size:** 198.46 kB
 - **SHA256SUM:** 0ed3906e706beb083fdb2cf4128333d0e52927a65ac131ced43b16e99c1ebee2
 - **B3SUM:** 4272eca5dfdb281dd94952f13a9b30954c25c768cf137e8780db4596d8f6d449
@@ -1481,15 +1559,16 @@
 ---
 
 ### bwrap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bwrap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bubblewrap.sh
 - **Description:** Unprivileged sandboxing tool
 - **Note:** 
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
 - **Repository:** [https://github.com/containers/bubblewrap](https://github.com/containers/bubblewrap)
-- **Stars:** 3894
+- **Stars:** 3895
 - **Version:** v0.10.0
-- **Updated:** 2024-09-30T19:02:47Z
+- **Updated:** 2024-10-01T18:37:33Z
 - **Size:** 198.46 kB
 - **SHA256SUM:** 0ed3906e706beb083fdb2cf4128333d0e52927a65ac131ced43b16e99c1ebee2
 - **B3SUM:** 4272eca5dfdb281dd94952f13a9b30954c25c768cf137e8780db4596d8f6d449
@@ -1500,6 +1579,7 @@
 ---
 
 ### bucketloot
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bucketloot.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bucketloot.sh
 - **Description:** Automated S3-compatible bucket inspector
 - **Note:** 
@@ -1519,6 +1599,7 @@
 ---
 
 ### byp4xx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/byp4xx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/byp4xx.sh
 - **Description:** 40X/HTTP bypasser in Go. Features  Verb tampering, headers,
 - **Note:** 
@@ -1538,15 +1619,16 @@
 ---
 
 ### caddy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/caddy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/caddy.sh
 - **Description:** Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
 - **Note:** 
 - **Author:** caddyserver
 - **WebURL:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 - **Repository:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
-- **Stars:** 57374
+- **Stars:** 57405
 - **Version:** v2.8.4
-- **Updated:** 2024-10-01T07:50:52Z
+- **Updated:** 2024-10-01T23:18:19Z
 - **Size:** 39.34 MB
 - **SHA256SUM:** 0f8f64ee2a94b1379ec09d3b5da4ca8021bb97d92a5e66d292cea8464aa426bc
 - **B3SUM:** f55202709ba6b14f7250a48de852f32847ac18e2ed32853c9dcf9b6788fc1155
@@ -1557,13 +1639,14 @@
 ---
 
 ### caido-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/caido-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/caido.sh
 - **Description:** A lightweight web security auditing toolkit
 - **Note:** 
 - **Author:** caido
 - **WebURL:** [https://github.com/caido/caido](https://github.com/caido/caido)
 - **Repository:** [https://github.com/caido/caido](https://github.com/caido/caido)
-- **Stars:** 1096
+- **Stars:** 1098
 - **Version:** v0.41.0
 - **Updated:** 2024-09-21T22:35:49Z
 - **Size:** 20.2 MB
@@ -1576,6 +1659,7 @@
 ---
 
 ### cargo-unlock
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cargo-unlock.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cargo-unlock.sh
 - **Description:** Remove Cargo.lock lockfile
 - **Note:** 
@@ -1595,6 +1679,7 @@
 ---
 
 ### catatonit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/catatonit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/catatonit.sh
 - **Description:** A container init that is so simple its effectively brain-dead.
 - **Note:** 
@@ -1614,6 +1699,7 @@
 ---
 
 ### cdncheck
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cdncheck.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cdncheck.sh
 - **Description:** A utility to detect various technology for a given IP address.
 - **Note:** 
@@ -1633,6 +1719,7 @@
 ---
 
 ### cdwe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cdwe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cdwe.sh
 - **Description:** ⚡️(cd with env) Is a configurable cd wrapper that lets you define your environment per Directory
 - **Note:** 
@@ -1652,6 +1739,7 @@
 ---
 
 ### cent
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cent.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cent.sh
 - **Description:** Fetch & Organize all Nuclei Templates
 - **Note:** 
@@ -1671,6 +1759,7 @@
 ---
 
 ### certgraph
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/certgraph.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/certgraph.sh
 - **Description:** An open source intelligence tool to crawl the graph of certificate Alternate Names
 - **Note:** 
@@ -1690,6 +1779,7 @@
 ---
 
 ### certspotter
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/certspotter.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/certspotter.sh
 - **Description:** Certificate Transparency Log Monitor
 - **Note:** 
@@ -1709,6 +1799,7 @@
 ---
 
 ### certstream-server-go
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/certstream-server-go.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/certstream-server-go.sh
 - **Description:** drop-in replacement for Calidogs outdated server
 - **Note:** 
@@ -1728,6 +1819,7 @@
 ---
 
 ### certstream
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/certstream.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/certstream.sh
 - **Description:** Cli for calidogs certstream
 - **Note:** 
@@ -1736,7 +1828,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 4.8 MB
 - **SHA256SUM:** 563a9daf7a657bdea9e0e35e1be32e4c0ead5dd74ff67e1d9ba109cfa78910b4
 - **B3SUM:** 351c4aca2dea9d3d24bc157f8561b81bfabad893038433539917c59296644a20
@@ -1747,6 +1839,7 @@
 ---
 
 ### certwatcher
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/certwatcher.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/certwatcher.sh
 - **Description:** CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL.
 - **Note:** 
@@ -1766,6 +1859,7 @@
 ---
 
 ### cexec
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cexec.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cexec.sh
 - **Description:** Execute any command, cache its output and get cached output on subsequent execution
 - **Note:** 
@@ -1785,6 +1879,7 @@
 ---
 
 ### cfspeed
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfspeed.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfspeed.sh
 - **Description:** GO CLI-based implementation of speed.cloudflare.com
 - **Note:** 
@@ -1804,6 +1899,7 @@
 ---
 
 ### cfspeedtest
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfspeedtest.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfspeedtest.sh
 - **Description:** Unofficial CLI for speed.cloudflare.com
 - **Note:** 
@@ -1823,6 +1919,7 @@
 ---
 
 ### cfssl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfssl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1842,6 +1939,7 @@
 ---
 
 ### cfssl-bundle
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfssl-bundle.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1861,6 +1959,7 @@
 ---
 
 ### cfssl-certinfo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfssl-certinfo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1880,6 +1979,7 @@
 ---
 
 ### cfssl-newkey
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfssl-newkey.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1899,6 +1999,7 @@
 ---
 
 ### cfssl-scan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfssl-scan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1918,6 +2019,7 @@
 ---
 
 ### cfssljson
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cfssljson.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1937,6 +2039,7 @@
 ---
 
 ### mkbundle
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mkbundle.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1956,6 +2059,7 @@
 ---
 
 ### multirootca
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/multirootca.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cfssl.sh
 - **Description:** Cloudflares PKI and TLS toolkit
 - **Note:** 
@@ -1975,6 +2079,7 @@
 ---
 
 ### chaos-client
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/chaos-client.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/chaos-client.sh
 - **Description:** cli for Chaos DB API
 - **Note:** 
@@ -1994,13 +2099,14 @@
 ---
 
 ### cheat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cheat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cheat.sh
 - **Description:** create and view interactive cheatsheets on the command-line
 - **Note:** 
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
-- **Stars:** 12318
+- **Stars:** 12319
 - **Version:** 4.4.2
 - **Updated:** 2024-07-29T06:38:08Z
 - **Size:** 11.1 MB
@@ -2013,6 +2119,7 @@
 ---
 
 ### cherrybomb
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cherrybomb.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cherrybomb.sh
 - **Description:** Validating and Testing APIs using an OpenAPI file
 - **Note:** 
@@ -2032,13 +2139,14 @@
 ---
 
 ### chisel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/chisel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/chisel.sh
 - **Description:** A fast TCP/UDP tunnel over HTTP
 - **Note:** 
 - **Author:** jpillora
 - **WebURL:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
 - **Repository:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
-- **Stars:** 12783
+- **Stars:** 12785
 - **Version:** v1.10.0
 - **Updated:** 2024-09-28T23:35:13Z
 - **Size:** 8.59 MB
@@ -2051,6 +2159,7 @@
 ---
 
 ### cidr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cidr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cidr.sh
 - **Description:** CLI to perform various actions on CIDR ranges
 - **Note:** 
@@ -2070,6 +2179,7 @@
 ---
 
 ### circumflex
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/circumflex.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/circumflex.sh
 - **Description:** 🌿 Its Hacker News in your terminal
 - **Note:** 
@@ -2089,15 +2199,16 @@
 ---
 
 ### clipcat-menu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcat-menu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
 - **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 383
+- **Stars:** 384
 - **Version:** v0.18.3
-- **Updated:** 2024-09-30T22:05:46Z
+- **Updated:** 2024-10-01T21:33:27Z
 - **Size:** 7.79 MB
 - **SHA256SUM:** d867f3cd58e8fb95139bb56bca7d01ab7284fe5a1ea62b82847e41a78a2e1d5b
 - **B3SUM:** 53f22a0b0e0066face91a0b0f81f396d4d1f0c52b41c19457f6149e77073b3f2
@@ -2108,15 +2219,16 @@
 ---
 
 ### clipcat-notify
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcat-notify.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
 - **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 383
+- **Stars:** 384
 - **Version:** v0.18.3
-- **Updated:** 2024-09-30T22:05:46Z
+- **Updated:** 2024-10-01T21:33:27Z
 - **Size:** 5.41 MB
 - **SHA256SUM:** 229d407018ce009f8611338531d89878d4817c531cd46c187a0767a4364237b5
 - **B3SUM:** 659beab98f94ccd36870dd7fbc1c2338c826ca5491640415dc7adef1084eafb6
@@ -2127,15 +2239,16 @@
 ---
 
 ### clipcatctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcatctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
 - **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 383
+- **Stars:** 384
 - **Version:** v0.18.3
-- **Updated:** 2024-09-30T22:05:46Z
+- **Updated:** 2024-10-01T21:33:27Z
 - **Size:** 5.48 MB
 - **SHA256SUM:** b152e5b1bf2619405d19afd04f62acb0e285e0e02a231690b39907d0bc8779ec
 - **B3SUM:** 24dd42e95672f1eff0729f1486cdfcf927df637b72be8ca41f9c128170492ede
@@ -2146,15 +2259,16 @@
 ---
 
 ### clipcatd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcatd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/clipcat.sh
 - **Description:** A clipboard manager written in Rust Programming Language.
 - **Note:** 
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 383
+- **Stars:** 384
 - **Version:** v0.18.3
-- **Updated:** 2024-09-30T22:05:46Z
+- **Updated:** 2024-10-01T21:33:27Z
 - **Size:** 14.59 MB
 - **SHA256SUM:** b3a64ca24484fb9933f1dd9172c0f8cf17df97bdddbb24cdc5fb6ac0049225d0
 - **B3SUM:** 4a90d482c60231b9820cdcf79382fdae1fff17c1dd665209b69c98ba77f7c361
@@ -2165,15 +2279,16 @@
 ---
 
 ### cloak-client
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cloak-client.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cloak.sh
 - **Description:** A censorship circumvention tool to evade detection by authoritarian state adversaries
 - **Note:** 
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
-- **Stars:** 3321
+- **Stars:** 3320
 - **Version:** v2.9.0
-- **Updated:** 2024-07-05T07:41:26Z
+- **Updated:** 2024-10-01T22:35:43Z
 - **Size:** 6.56 MB
 - **SHA256SUM:** 0832036b7778557ba00b4f0cd2cdd9445046ba667aa06c9950474c3b9caed8c3
 - **B3SUM:** 9340e87b67c484c1d406280580b80b5f8461ce602319d893f48e4ea39d699f58
@@ -2184,15 +2299,16 @@
 ---
 
 ### cloak-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cloak-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cloak.sh
 - **Description:** A censorship circumvention tool to evade detection by authoritarian state adversaries
 - **Note:** 
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
-- **Stars:** 3321
+- **Stars:** 3320
 - **Version:** v2.9.0
-- **Updated:** 2024-07-05T07:41:26Z
+- **Updated:** 2024-10-01T22:35:43Z
 - **Size:** 6.23 MB
 - **SHA256SUM:** f901d8d4d2f1286aff3d1f52dda1610dc4a67d5422e1ed51d382a945b2b57886
 - **B3SUM:** 1f425034db50e393f03574bf4ffa51d472a82125b094befc44a1cfa125218dab
@@ -2203,6 +2319,7 @@
 ---
 
 ### cloudcash
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cloudcash.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cloudcash.sh
 - **Description:** Check your cloud spending from the CLI, from Waybar, and from the macOS menu bar!
 - **Note:** 
@@ -2222,13 +2339,14 @@
 ---
 
 ### cloudflared
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cloudflared.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cloudflared.sh
 - **Description:** Cloudflare Tunnel client
 - **Note:** 
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
-- **Stars:** 8927
+- **Stars:** 8934
 - **Version:** 2024.9.1
 - **Updated:** 2024-09-25T01:40:50Z
 - **Size:** 24.47 MB
@@ -2241,6 +2359,7 @@
 ---
 
 ### cloudfox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cloudfox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cloudfox.sh
 - **Description:** Automating situational awareness for cloud penetration tests
 - **Note:** 
@@ -2260,6 +2379,7 @@
 ---
 
 ### cloudlist
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cloudlist.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cloudlist.sh
 - **Description:** Cloudlist is a tool for listing Assets from multiple Cloud Providers.
 - **Note:** 
@@ -2279,6 +2399,7 @@
 ---
 
 ### cloudreve
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cloudreve.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cloudreve.sh
 - **Description:** Self-hosted file management and sharing system, supports multiple storage providers
 - **Note:** 
@@ -2298,6 +2419,7 @@
 ---
 
 ### cntb
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cntb.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cntb.sh
 - **Description:** Contabo Command Line Interface
 - **Note:** 
@@ -2317,6 +2439,7 @@
 ---
 
 ### cobalt-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cobalt-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cobalt-cli.sh
 - **Description:** Command-line interface wrapper for https://cobalt.tools
 - **Note:** 
@@ -2336,13 +2459,14 @@
 ---
 
 ### cog
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cog.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cocogitto.sh
 - **Description:** The Conventional Commits toolbox
 - **Note:** 
 - **Author:** cocogitto
 - **WebURL:** [https://github.com/cocogitto/cocogitto](https://github.com/cocogitto/cocogitto)
 - **Repository:** [https://github.com/cocogitto/cocogitto](https://github.com/cocogitto/cocogitto)
-- **Stars:** 706
+- **Stars:** 707
 - **Version:** 6.1.0
 - **Updated:** 2024-09-17T07:44:49Z
 - **Size:** 7.16 MB
@@ -2355,6 +2479,7 @@
 ---
 
 ### ansi2html
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ansi2html.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
 - **Note:** 
@@ -2374,6 +2499,7 @@
 ---
 
 ### ansi2txt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ansi2txt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
 - **Note:** 
@@ -2393,6 +2519,7 @@
 ---
 
 ### pipetty
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pipetty.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
 - **Note:** 
@@ -2412,6 +2539,7 @@
 ---
 
 ### ttyrec2ansi
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ttyrec2ansi.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/colorized-logs.sh
 - **Description:** tools for logs with ANSI color
 - **Note:** 
@@ -2431,6 +2559,7 @@
 ---
 
 ### comb
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/comb.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/comb.sh
 - **Description:** Combine the lines from two files in every combination.
 - **Note:** 
@@ -2439,7 +2568,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 1.49 MB
 - **SHA256SUM:** 1f91b0484cac5fd351f8cd066bd0d4539f465f0ff0f1b8c0f28622f7744653c4
 - **B3SUM:** 9a62b87db18fb95af25b8002f3a7a0e6c52aece7d61375b6324fd8cf3fc20df8
@@ -2450,15 +2579,16 @@
 ---
 
 ### containerd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/containerd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/containerd.sh
 - **Description:** An open and reliable container runtime
 - **Note:** 
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
 - **Repository:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
-- **Stars:** 17203
+- **Stars:** 17207
 - **Version:** v1.7.22
-- **Updated:** 2024-09-30T23:56:47Z
+- **Updated:** 2024-10-01T16:09:46Z
 - **Size:** 38.44 MB
 - **SHA256SUM:** 3d866d7ca8b871efd4bf4571de68b496710b04eb551146965bf65d100838fe0a
 - **B3SUM:** 63d082ef8242d7eb652a895bfd7847f6dbdd0e2171032a5635393e7f69c81eda
@@ -2469,6 +2599,7 @@
 ---
 
 ### cotp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cotp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cotp.sh
 - **Description:** Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality.
 - **Note:** 
@@ -2488,6 +2619,7 @@
 ---
 
 ### cowitness
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cowitness.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cowitness.sh
 - **Description:** mimic an HTTP server and a DNS server, providing complete responses
 - **Note:** 
@@ -2507,6 +2639,7 @@
 ---
 
 ### cowsay
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cowsay.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cowsay.sh
 - **Description:** complete rewrite of cowsay in Go
 - **Note:** 
@@ -2526,6 +2659,7 @@
 ---
 
 ### cowthink
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cowthink.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cowsay.sh
 - **Description:** complete rewrite of cowsay in Go
 - **Note:** 
@@ -2545,6 +2679,7 @@
 ---
 
 ### cpu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cpu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
 - **Note:** 
@@ -2553,7 +2688,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 232
 - **Version:** 
-- **Updated:** 2024-09-30T17:01:45Z
+- **Updated:** 2024-10-01T16:02:46Z
 - **Size:** 5.32 MB
 - **SHA256SUM:** 16cb05ac45ba3f90d7dc68eaad7831e8bad187c8b4df39297e03e2b3f4a2d850
 - **B3SUM:** be8bb8e0fc4941313b4365ca593326e63b21776a5c7c2f72cf33ae3ab52a2da0
@@ -2564,6 +2699,7 @@
 ---
 
 ### cpud
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cpud.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
 - **Note:** 
@@ -2572,7 +2708,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 232
 - **Version:** 
-- **Updated:** 2024-09-30T17:01:45Z
+- **Updated:** 2024-10-01T16:02:46Z
 - **Size:** 4.36 MB
 - **SHA256SUM:** fcb8d23b96378529004100c2f764c642f881d420bfab48ccb3d4d38ab84d50ae
 - **B3SUM:** 8fbeb291f5abb4a38fead676587aecdebeb3917f88e69bdec11cd3abe5d250f9
@@ -2583,6 +2719,7 @@
 ---
 
 ### decpu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/decpu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
 - **Note:** 
@@ -2591,7 +2728,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 232
 - **Version:** 
-- **Updated:** 2024-09-30T17:01:45Z
+- **Updated:** 2024-10-01T16:02:46Z
 - **Size:** 5.85 MB
 - **SHA256SUM:** 68ff276e08a8a77ef0487f6c19e91bb70d9335c4a8520acbe5c9127389c4ced5
 - **B3SUM:** d55eb1f629209c927b405526fddfa076ff859e3312a741f5226c60129bb610d0
@@ -2602,6 +2739,7 @@
 ---
 
 ### decpud
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/decpud.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
 - **Note:** 
@@ -2610,7 +2748,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 232
 - **Version:** 
-- **Updated:** 2024-09-30T17:01:45Z
+- **Updated:** 2024-10-01T16:02:46Z
 - **Size:** 5.21 MB
 - **SHA256SUM:** 10b6da28ed94c9c6bc9ad9133e01148acf70527fadc0a995c28226650273c511
 - **B3SUM:** 8159ab2e09b0fbf48b2f992030b49c888d9c1c5e050f6a378019d1fbae1610e3
@@ -2621,6 +2759,7 @@
 ---
 
 ### p9cpu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/p9cpu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
 - **Note:** 
@@ -2629,7 +2768,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 232
 - **Version:** 
-- **Updated:** 2024-09-30T17:01:45Z
+- **Updated:** 2024-10-01T16:02:46Z
 - **Size:** 2.72 MB
 - **SHA256SUM:** 7fc228690f610598a6f57d26e41b29d479c174408f5ab4c65959112ad53ff548
 - **B3SUM:** c8ca6045ba2b786cc3e7cfdbb5887f4dd1f13b2990731afc6029a9644a901370
@@ -2640,6 +2779,7 @@
 ---
 
 ### p9cpud
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/p9cpud.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cpu.sh
 - **Description:** cpu command in Go, inspired by the Plan 9 cpu command
 - **Note:** 
@@ -2648,7 +2788,7 @@
 - **Repository:** [https://github.com/u-root/cpu](https://github.com/u-root/cpu)
 - **Stars:** 232
 - **Version:** 
-- **Updated:** 2024-09-30T17:01:45Z
+- **Updated:** 2024-10-01T16:02:46Z
 - **Size:** 2.36 MB
 - **SHA256SUM:** f8fa24ec3b3c44632e62ba6646f5d18d112e4ec35fd1cae3db443c9a4a0a6366
 - **B3SUM:** eedf37799182a0b30213bba5d550c4fd17cae9c15854bd27b95ec403c61541e4
@@ -2659,13 +2799,14 @@
 ---
 
 ### cpufetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cpufetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cpufetch.sh
 - **Description:** fetch for cpu
 - **Note:** 
 - **Author:** Dr-Noob
 - **WebURL:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
 - **Repository:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
-- **Stars:** 1881
+- **Stars:** 1882
 - **Version:** v1.06
 - **Updated:** 2024-09-29T13:21:14Z
 - **Size:** 282.9 kB
@@ -2678,13 +2819,14 @@
 ---
 
 ### crawley
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/crawley.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/crawley.sh
 - **Description:** The unix-way web crawler
 - **Note:** 
 - **Author:** s0rg
 - **WebURL:** [https://github.com/s0rg/crawley](https://github.com/s0rg/crawley)
 - **Repository:** [https://github.com/s0rg/crawley](https://github.com/s0rg/crawley)
-- **Stars:** 254
+- **Stars:** 255
 - **Version:** v1.7.10
 - **Updated:** 2024-09-08T22:53:31Z
 - **Size:** 5.48 MB
@@ -2697,6 +2839,7 @@
 ---
 
 ### crictl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/crictl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cri-tools.sh
 - **Description:** CLI and validation tools for Kubelet Container Runtime Interface (CRI)
 - **Note:** 
@@ -2716,6 +2859,7 @@
 ---
 
 ### crlfuzz
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/crlfuzz.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/crlfuzz.sh
 - **Description:** A fast tool to scan CRLF vulnerability written in Go
 - **Note:** 
@@ -2735,15 +2879,16 @@
 ---
 
 ### croc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/croc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/croc.sh
 - **Description:** Easily and securely send things from one computer to another
 - **Note:** 
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 27745
-- **Version:** v10.0.12
-- **Updated:** 2024-10-01T13:10:10Z
+- **Stars:** 27747
+- **Version:** v10.0.13
+- **Updated:** 2024-10-01T14:28:16Z
 - **Size:** 8.02 MB
 - **SHA256SUM:** a634052d02aa0f4664425a0dc974a6e738449265120501ff5c7d0e0e65cd61c5
 - **B3SUM:** c1ace17fa05eeccfc7b2686c685a2e161acef98f9ecc09279d04077290205b6d
@@ -2754,6 +2899,7 @@
 ---
 
 ### cronie-crond
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cronie-crond.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cronie.sh
 - **Description:** Standalone, Minimal HTTP Server
 - **Note:** 
@@ -2773,6 +2919,7 @@
 ---
 
 ### cronie-cronnext
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cronie-cronnext.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cronie.sh
 - **Description:** Standalone, Minimal HTTP Server
 - **Note:** 
@@ -2792,6 +2939,7 @@
 ---
 
 ### cronie-crontab
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cronie-crontab.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cronie.sh
 - **Description:** Standalone, Minimal HTTP Server
 - **Note:** 
@@ -2811,6 +2959,7 @@
 ---
 
 ### cron
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cron.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/crontab.sh
 - **Description:** 
 - **Note:** 
@@ -2830,6 +2979,7 @@
 ---
 
 ### crontab
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/crontab.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/crontab.sh
 - **Description:** 
 - **Note:** 
@@ -2849,13 +2999,14 @@
 ---
 
 ### crt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/crt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/crt.sh
 - **Description:** A CLI tool to check Certificate Transparency logs of a domain name
 - **Note:** 
 - **Author:** cemulus
 - **WebURL:** [https://github.com/cemulus/crt](https://github.com/cemulus/crt)
 - **Repository:** [https://github.com/cemulus/crt](https://github.com/cemulus/crt)
-- **Stars:** 68
+- **Stars:** 69
 - **Version:** v0.1.0
 - **Updated:** 2023-04-27T12:08:48Z
 - **Size:** 4.93 MB
@@ -2867,26 +3018,8 @@
 
 ---
 
-### csprecon
-- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/csprecon.sh
-- **Description:** Discover new target domains using Content Security Policy
-- **Note:** 
-- **Author:** edoardottt
-- **WebURL:** [https://github.com/edoardottt/csprecon](https://github.com/edoardottt/csprecon)
-- **Repository:** [https://github.com/edoardottt/csprecon](https://github.com/edoardottt/csprecon)
-- **Stars:** 363
-- **Version:** v0.4.0
-- **Updated:** 2024-09-30T21:12:17Z
-- **Size:** 9.68 MB
-- **SHA256SUM:** 6213515bd51214052ea162135726cf1b7677fd61295f5576162edae2c5953d87
-- **B3SUM:** 07d7bcca905db010dd49f8d6934682dc82d078a16011fc4ac969062559bb51de
-- **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/csprecon
-- **Language:** Go
-- **License:** MIT License
-
----
-
 ### csview
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/csview.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/csview.sh
 - **Description:** 📠 Pretty and fast csv viewer for cli with cjk/emoji support.
 - **Note:** 
@@ -2906,6 +3039,7 @@
 ---
 
 ### csvtk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/csvtk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/csvtk.sh
 - **Description:** A cross-platform, efficient and practical CSV/TSV toolkit
 - **Note:** 
@@ -2925,6 +3059,7 @@
 ---
 
 ### ct_monitor
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ct_monitor.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ct_monitor.sh
 - **Description:** Certificate Transparency log monitor
 - **Note:** 
@@ -2944,6 +3079,7 @@
 ---
 
 ### ctlwatcher
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ctlwatcher.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ctlwatcher.sh
 - **Description:** Monitor Certificate Transparency logs for domains matching regexes.
 - **Note:** 
@@ -2963,6 +3099,7 @@
 ---
 
 ### ctrsploit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ctrsploit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ctrsploit.sh
 - **Description:** A Penetration Toolkit for Container Environments
 - **Note:** 
@@ -2982,6 +3119,7 @@
 ---
 
 ### ctrsploit-checksec
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ctrsploit-checksec.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ctrsploit.sh
 - **Description:** A Penetration Toolkit for Container Environments
 - **Note:** 
@@ -3001,6 +3139,7 @@
 ---
 
 ### ctrsploit-env
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ctrsploit-env.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ctrsploit.sh
 - **Description:** A Penetration Toolkit for Container Environments
 - **Note:** 
@@ -3020,6 +3159,7 @@
 ---
 
 ### curl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/curl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
 - **Note:** 
@@ -3039,6 +3179,7 @@
 ---
 
 ### trurl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/trurl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/curl.sh
 - **Description:** A command line tool for transferring files with URL syntax
 - **Note:** 
@@ -3058,6 +3199,7 @@
 ---
 
 ### curlie
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/curlie.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/curlie.sh
 - **Description:** The power of curl, the ease of use of httpie.
 - **Note:** 
@@ -3077,6 +3219,7 @@
 ---
 
 ### cut-cdn
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cut-cdn.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cut-cdn.sh
 - **Description:** ✂️ Removing CDN IPs from the list of IP addresses
 - **Note:** 
@@ -3096,6 +3239,7 @@
 ---
 
 ### cutlines
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cutlines.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cutlines.sh
 - **Description:** Cut & Paste Lines (from|to) file without $TEMPFILE even if another process is writing to it
 - **Note:** 
@@ -3104,7 +3248,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 2.01 MB
 - **SHA256SUM:** 492f2343f78f03d89a44f3f442e5c1f975d8678e3c97c1db57cc51b70e0de12a
 - **B3SUM:** 345f0aa1b590275e06fe0b56896110a55d1af2689187cd8c99251d38713ac8e7
@@ -3115,13 +3259,14 @@
 ---
 
 ### cvemap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cvemap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cvemap.sh
 - **Description:** Navigate the CVE jungle with ease.
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
 - **Repository:** [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
-- **Stars:** 1639
+- **Stars:** 1641
 - **Version:** v0.0.7
 - **Updated:** 2024-09-30T11:36:13Z
 - **Size:** 26.4 MB
@@ -3134,6 +3279,7 @@
 ---
 
 ### cwe_checker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cwe_checker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/cwe_checker.sh
 - **Description:** cwe_checker finds vulnerable patterns in binary executables
 - **Note:** 
@@ -3153,13 +3299,14 @@
 ---
 
 ### czkawka-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/czkawka-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/czkawka.sh
 - **Description:** Multi functional app to find duplicates, empty folders, similar images etc.
 - **Note:** 
 - **Author:** qarmin
 - **WebURL:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
 - **Repository:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
-- **Stars:** 19604
+- **Stars:** 19605
 - **Version:** 7.0.0
 - **Updated:** 2024-09-27T16:50:19Z
 - **Size:** 9.31 MB
@@ -3172,13 +3319,14 @@
 ---
 
 ### czkawka_cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/czkawka_cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/czkawka.sh
 - **Description:** Multi functional app to find duplicates, empty folders, similar images etc.
 - **Note:** 
 - **Author:** qarmin
 - **WebURL:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
 - **Repository:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
-- **Stars:** 19604
+- **Stars:** 19605
 - **Version:** 7.0.0
 - **Updated:** 2024-09-27T16:50:19Z
 - **Size:** 9.31 MB
@@ -3191,15 +3339,16 @@
 ---
 
 ### dagu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dagu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dagu.sh
 - **Description:** cron alternative with a Web UI, but with much more capabilities
 - **Note:** 
 - **Author:** dagu-org
 - **WebURL:** [https://github.com/dagu-dev/dagu](https://github.com/dagu-dev/dagu)
 - **Repository:** [https://github.com/dagu-dev/dagu](https://github.com/dagu-dev/dagu)
-- **Stars:** 1461
+- **Stars:** 1462
 - **Version:** v1.14.5
-- **Updated:** 2024-09-24T02:35:53Z
+- **Updated:** 2024-10-01T13:36:47Z
 - **Size:** 25.37 MB
 - **SHA256SUM:** f4b7b9f63158923dfc6471a98f00df34a5fbfb47de47bc18ba55ff42deca1bf7
 - **B3SUM:** d5b0ca6c0dfa60f03a59ff5a85fa33ed5cb6bea25105ba45a55be2f7080a13cc
@@ -3210,13 +3359,14 @@
 ---
 
 ### dalfox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dalfox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dalfox.sh
 - **Description:** 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.
 - **Note:** 
 - **Author:** hahwul
 - **WebURL:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
 - **Repository:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
-- **Stars:** 3671
+- **Stars:** 3672
 - **Version:** v2.9.3
 - **Updated:** 2024-09-22T01:33:27Z
 - **Size:** 25.56 MB
@@ -3229,6 +3379,7 @@
 ---
 
 ### darkhttpd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/darkhttpd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/darkhttpd.sh
 - **Description:** Standalone, Minimal HTTP Server
 - **Note:** 
@@ -3248,15 +3399,16 @@
 ---
 
 ### dasel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dasel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dasel.sh
 - **Description:** Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool
 - **Note:** 
 - **Author:** TomWright
 - **WebURL:** [https://github.com/TomWright/dasel](https://github.com/TomWright/dasel)
 - **Repository:** [https://github.com/TomWright/dasel](https://github.com/TomWright/dasel)
-- **Stars:** 7083
+- **Stars:** 7084
 - **Version:** v2.8.1
-- **Updated:** 2024-10-01T01:16:44Z
+- **Updated:** 2024-10-01T20:19:47Z
 - **Size:** 9.55 MB
 - **SHA256SUM:** e0a411aef4d7fb448e5a4e40a2f4cc9ff5a95974545071081bcf14b77107b3bf
 - **B3SUM:** 723557dbac35c75fda94d18a4cd0a01f73cf9ee8ac7a98fc93f3b15872e33584
@@ -3267,6 +3419,7 @@
 ---
 
 ### datadash
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/datadash.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/datadash.sh
 - **Description:** Visualize and graph data in the terminal
 - **Note:** 
@@ -3286,6 +3439,7 @@
 ---
 
 ### daytona
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/daytona.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/daytona.sh
 - **Description:** The Open Source Dev Environment Manager.
 - **Note:** 
@@ -3305,6 +3459,7 @@
 ---
 
 ### dbbench
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dbbench.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dbbench.sh
 - **Description:** a simple database benchmarking tool which supports several databases and own scripts
 - **Note:** 
@@ -3324,6 +3479,7 @@
 ---
 
 ### dbin
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dbin.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dbin.sh
 - **Description:** Binary Downloader(s) || Like a package manager, but for statically linked binaries.
 - **Note:** 
@@ -3343,6 +3499,7 @@
 ---
 
 ### dblab
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dblab.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dblab.sh
 - **Description:** The database client every command line junkie deserves.
 - **Note:** 
@@ -3362,13 +3519,14 @@
 ---
 
 ### ddns-go
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ddns-go.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ddns-go.sh
 - **Description:** Simple and easy to use DDNS.
 - **Note:** 
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 11546
+- **Stars:** 11551
 - **Version:** v6.7.0
 - **Updated:** 2024-09-25T06:20:34Z
 - **Size:** 8.89 MB
@@ -3381,6 +3539,7 @@
 ---
 
 ### deark
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/deark.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/deark.sh
 - **Description:** A utility for file format and metadata analysis, data extraction, decompression, and image format decoding
 - **Note:** 
@@ -3400,6 +3559,7 @@
 ---
 
 ### debian-slim.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/debian-slim.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/debian.sh
 - **Description:** Portable Ephemeral Debian Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/debian)
@@ -3419,6 +3579,7 @@
 ---
 
 ### debian.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/debian.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/debian.sh
 - **Description:** Portable Ephemeral Debian Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/debian)
@@ -3438,13 +3599,14 @@
 ---
 
 ### delta
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/delta.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/delta.sh
 - **Description:** A syntax-highlighting pager for git, diff, and grep output
 - **Note:** 
 - **Author:** dandavison
 - **WebURL:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
 - **Repository:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
-- **Stars:** 22709
+- **Stars:** 22714
 - **Version:** 0.18.2
 - **Updated:** 2024-09-30T06:44:20Z
 - **Size:** 5.56 MB
@@ -3457,6 +3619,7 @@
 ---
 
 ### deoptimizer
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/deoptimizer.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/deoptimizer.sh
 - **Description:** Machine code de-optimizer to bypass AV
 - **Note:** 
@@ -3476,6 +3639,7 @@
 ---
 
 ### desktop-file-edit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/desktop-file-edit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
 - **Note:** 
@@ -3495,6 +3659,7 @@
 ---
 
 ### desktop-file-install
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/desktop-file-install.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
 - **Note:** 
@@ -3514,6 +3679,7 @@
 ---
 
 ### desktop-file-validate
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/desktop-file-validate.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
 - **Note:** 
@@ -3533,6 +3699,7 @@
 ---
 
 ### update-desktop-database
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/update-desktop-database.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/desktop-file-utils.sh
 - **Description:** Command line utilities for working with .desktop files
 - **Note:** 
@@ -3552,15 +3719,16 @@
 ---
 
 ### devbox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/devbox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/devbox.sh
 - **Description:** Instant, easy, and predictable development environments
 - **Note:** 
 - **Author:** jetify-com
 - **WebURL:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
 - **Repository:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
-- **Stars:** 8357
+- **Stars:** 8358
 - **Version:** 0.13.2
-- **Updated:** 2024-10-01T00:25:03Z
+- **Updated:** 2024-10-01T22:44:17Z
 - **Size:** 27 MB
 - **SHA256SUM:** 8d200d082b4b17b21d3fd9098d3115d0da809a11a1e2c89c7a9e869a4c3ce2dc
 - **B3SUM:** 6142817b17cbddb37cb39a5162dd4eb28d59a96de5877737fb7f0b36b7afa33c
@@ -3571,13 +3739,14 @@
 ---
 
 ### devpod
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/devpod.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/devpod.sh
 - **Description:** Codespaces but open-source, client-only and unopinionated
 - **Note:** 
 - **Author:** loft-sh
 - **WebURL:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
 - **Repository:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
-- **Stars:** 8735
+- **Stars:** 8741
 - **Version:** v0.5.21
 - **Updated:** 2024-09-27T13:33:49Z
 - **Size:** 73.17 MB
@@ -3590,6 +3759,7 @@
 ---
 
 ### diffoci
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/diffoci.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/diffoci.sh
 - **Description:** diff for Docker and OCI container images
 - **Note:** 
@@ -3609,15 +3779,16 @@
 ---
 
 ### diffutils-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/diffutils-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/diffutils-rs.sh
 - **Description:** Dropped in replacement of diffutils in Rust
 - **Note:** 
 - **Author:** uutils
 - **WebURL:** [https://github.com/uutils/diffutils](https://github.com/uutils/diffutils)
 - **Repository:** [https://github.com/uutils/diffutils](https://github.com/uutils/diffutils)
-- **Stars:** 59
+- **Stars:** 60
 - **Version:** v0.4.2
-- **Updated:** 2024-09-29T15:44:11Z
+- **Updated:** 2024-10-01T17:02:31Z
 - **Size:** 1.69 MB
 - **SHA256SUM:** 46505a8d90b929aaa011f788e7cebbf2fa2ee197591c119abcad0ba002ccbcba
 - **B3SUM:** e1de3ba548c31534c2a278821c5f3d1c7057f5f2c5aa55e1aac46eb9f92aa985
@@ -3628,13 +3799,14 @@
 ---
 
 ### direnv
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/direnv.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/direnv.sh
 - **Description:** unclutter your .profile
 - **Note:** 
 - **Author:** direnv
 - **WebURL:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
 - **Repository:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
-- **Stars:** 12357
+- **Stars:** 12361
 - **Version:** v2.34.0
 - **Updated:** 2024-09-30T07:40:40Z
 - **Size:** 6.62 MB
@@ -3647,6 +3819,7 @@
 ---
 
 ### ds
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ds.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dirstat-rs.sh
 - **Description:** (fastest?) disk usage cli, similar to windirstat.
 - **Note:** 
@@ -3666,6 +3839,7 @@
 ---
 
 ### dizi
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dizi.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dizi.sh
 - **Description:** Server-client music player written in Rust
 - **Note:** 
@@ -3685,6 +3859,7 @@
 ---
 
 ### dizi-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dizi-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dizi.sh
 - **Description:** Server-client music player written in Rust
 - **Note:** 
@@ -3704,6 +3879,7 @@
 ---
 
 ### dns-doctor
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dns-doctor.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dns-doctor.sh
 - **Description:** Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems
 - **Note:** 
@@ -3723,13 +3899,14 @@
 ---
 
 ### dnslookup
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dnslookup.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dnslookup.sh
 - **Description:** Simple command line utility to make DNS lookups to the specified server
 - **Note:** 
 - **Author:** ameshkov
 - **WebURL:** [https://github.com/ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
 - **Repository:** [https://github.com/ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
-- **Stars:** 838
+- **Stars:** 839
 - **Version:** v1.11.1
 - **Updated:** 2024-07-26T11:44:56Z
 - **Size:** 7.3 MB
@@ -3742,13 +3919,14 @@
 ---
 
 ### dnsperf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dnsperf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dnsperf.sh
 - **Description:** DNS Performance Testing Tools
 - **Note:** 
 - **Author:** DNS-OARC
 - **WebURL:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
 - **Repository:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
-- **Stars:** 400
+- **Stars:** 401
 - **Version:** v2.14.0
 - **Updated:** 2024-08-22T13:22:26Z
 - **Size:** 4.37 MB
@@ -3761,13 +3939,14 @@
 ---
 
 ### resperf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/resperf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dnsperf.sh
 - **Description:** DNS Performance Testing Tools
 - **Note:** 
 - **Author:** DNS-OARC
 - **WebURL:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
 - **Repository:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
-- **Stars:** 400
+- **Stars:** 401
 - **Version:** v2.14.0
 - **Updated:** 2024-08-22T13:22:26Z
 - **Size:** 4.37 MB
@@ -3780,6 +3959,7 @@
 ---
 
 ### dnspyre
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dnspyre.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dnspyre.sh
 - **Description:** command-line DNS benchmark tool built to stress test and measure the performance of DNS servers
 - **Note:** 
@@ -3799,13 +3979,14 @@
 ---
 
 ### dnstake
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dnstake.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dnstake.sh
 - **Description:** Check missing hosted DNS zones that can lead to subdomain takeover
 - **Note:** 
 - **Author:** pwnesia
 - **WebURL:** [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 - **Repository:** [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
-- **Stars:** 829
+- **Stars:** 830
 - **Version:** v0.1.1
 - **Updated:** 2023-02-13T09:08:15Z
 - **Size:** 5.26 MB
@@ -3818,6 +3999,7 @@
 ---
 
 ### dnsx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dnsx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dnsx.sh
 - **Description:** Multi-purpose DNS toolkit allow to run multiple DNS queries
 - **Note:** 
@@ -3837,6 +4019,7 @@
 ---
 
 ### doas
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/doas.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/doas.sh
 - **Description:** A portable fork of the OpenBSD doas command
 - **Note:** 
@@ -3856,6 +4039,7 @@
 ---
 
 ### containerd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/containerd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -3875,6 +4059,7 @@
 ---
 
 ### containerd-shim-runc-v2
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/containerd-shim-runc-v2.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -3894,6 +4079,7 @@
 ---
 
 ### ctr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ctr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -3913,6 +4099,7 @@
 ---
 
 ### docker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/docker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -3932,6 +4119,7 @@
 ---
 
 ### docker-init
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/docker-init.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -3951,6 +4139,7 @@
 ---
 
 ### docker-proxy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/docker-proxy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -3970,6 +4159,7 @@
 ---
 
 ### dockerd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dockerd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -3989,6 +4179,7 @@
 ---
 
 ### dockerd-rootless-setuptool.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dockerd-rootless-setuptool.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -4008,6 +4199,7 @@
 ---
 
 ### dockerd-rootless.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dockerd-rootless.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -4027,6 +4219,7 @@
 ---
 
 ### rootlesskit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rootlesskit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -4046,6 +4239,7 @@
 ---
 
 ### rootlesskit-docker-proxy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rootlesskit-docker-proxy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -4065,6 +4259,7 @@
 ---
 
 ### runc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/runc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -4084,6 +4279,7 @@
 ---
 
 ### vpnkit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vpnkit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/docker.sh
 - **Description:** Container
 - **Note:** 
@@ -4103,6 +4299,7 @@
 ---
 
 ### dockerc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dockerc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dockerc.sh
 - **Description:** Container Image to Single Executable Compiler
 - **Note:** 
@@ -4122,13 +4319,14 @@
 ---
 
 ### doggo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/doggo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/doggo.sh
 - **Description:** 🐶 Command-line DNS Client for Humans
 - **Note:** 
 - **Author:** mr-karan
 - **WebURL:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
 - **Repository:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
-- **Stars:** 2969
+- **Stars:** 2972
 - **Version:** v1.0.5
 - **Updated:** 2024-09-30T09:30:59Z
 - **Size:** 9.67 MB
@@ -4141,6 +4339,7 @@
 ---
 
 ### dos2unix
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dos2unix.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
 - **Note:** 
@@ -4160,6 +4359,7 @@
 ---
 
 ### mac2unix
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mac2unix.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
 - **Note:** 
@@ -4179,6 +4379,7 @@
 ---
 
 ### unix2dos
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/unix2dos.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
 - **Note:** 
@@ -4198,6 +4399,7 @@
 ---
 
 ### unix2mac
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/unix2mac.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dos2unix.sh
 - **Description:** Convert Line Endings
 - **Note:** 
@@ -4217,13 +4419,14 @@
 ---
 
 ### dotenv-linter
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dotenv-linter.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dotenv-linter.sh
 - **Description:** ⚡️Lightning-fast linter for .env files. Written in Rust 🦀
 - **Note:** 
 - **Author:** dotenv-linter
 - **WebURL:** [https://github.com/dotenv-linter/dotenv-linter](https://github.com/dotenv-linter/dotenv-linter)
 - **Repository:** [https://github.com/dotenv-linter/dotenv-linter](https://github.com/dotenv-linter/dotenv-linter)
-- **Stars:** 1815
+- **Stars:** 1816
 - **Version:** v3.3.0
 - **Updated:** 2024-09-09T08:36:38Z
 - **Size:** 3.4 MB
@@ -4236,6 +4439,7 @@
 ---
 
 ### dperf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dperf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dperf.sh
 - **Description:** Drive performance measurement tool
 - **Note:** 
@@ -4255,13 +4459,14 @@
 ---
 
 ### dsieve
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dsieve.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dsieve.sh
 - **Description:** Filter and enrich a list of subdomains by level
 - **Note:** 
 - **Author:** trickest
 - **WebURL:** [https://github.com/trickest/dsieve](https://github.com/trickest/dsieve)
 - **Repository:** [https://github.com/trickest/dsieve](https://github.com/trickest/dsieve)
-- **Stars:** 187
+- **Stars:** 188
 - **Version:** v1.2.0
 - **Updated:** 2023-09-25T15:39:02Z
 - **Size:** 2.55 MB
@@ -4274,13 +4479,14 @@
 ---
 
 ### duf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/duf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/duf.sh
 - **Description:** Disk Usage/Free Utility - a better df alternative
 - **Note:** 
 - **Author:** muesli
 - **WebURL:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
 - **Repository:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
-- **Stars:** 12753
+- **Stars:** 12754
 - **Version:** v0.8.1
 - **Updated:** 2024-07-30T09:50:14Z
 - **Size:** 2.24 MB
@@ -4293,13 +4499,14 @@
 ---
 
 ### dufs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dufs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dufs.sh
 - **Description:** A file server that supports static serving, uploading, searching, accessing control, webdav
 - **Note:** 
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 6100
+- **Stars:** 6102
 - **Version:** v0.42.0
 - **Updated:** 2024-09-25T14:19:27Z
 - **Size:** 3.53 MB
@@ -4312,6 +4519,7 @@
 ---
 
 ### dura
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dura.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dura.sh
 - **Description:** Dura is a background process that watches your Git repositories and commits your uncommitted changes without impacting HEAD, the current branch, or the Git index (staged files)
 - **Note:** 
@@ -4331,13 +4539,14 @@
 ---
 
 ### dust
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dust.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dust.sh
 - **Description:** A more intuitive version of du in rust
 - **Note:** 
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8677
+- **Stars:** 8678
 - **Version:** v1.1.1
 - **Updated:** 2024-09-16T21:01:10Z
 - **Size:** 2.41 MB
@@ -4350,6 +4559,7 @@
 ---
 
 ### dwarfs-tools
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dwarfs-tools.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dwarfs.sh
 - **Description:** Single Binary DwarFS Toolset including mkdwarfs, dwarfsck, dwarfsextract & dwarfs
 - **Note:** 
@@ -4369,6 +4579,7 @@
 ---
 
 ### dysk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/dysk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dysk.sh
 - **Description:** A linux utility to get information on filesystems, like df but better
 - **Note:** 
@@ -4388,6 +4599,7 @@
 ---
 
 ### ecoji
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ecoji.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ecoji.sh
 - **Description:** Encodes (and decodes) data as emojis
 - **Note:** 
@@ -4407,6 +4619,7 @@
 ---
 
 ### edgevpn
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/edgevpn.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/edgevpn.sh
 - **Description:** ⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery
 - **Note:** 
@@ -4415,7 +4628,7 @@
 - **Repository:** [https://github.com/mudler/edgevpn](https://github.com/mudler/edgevpn)
 - **Stars:** 645
 - **Version:** v0.28.3
-- **Updated:** 2024-09-24T18:49:55Z
+- **Updated:** 2024-10-01T19:01:14Z
 - **Size:** 31.05 MB
 - **SHA256SUM:** b519d1252fab2a19849ca57994c4d3ae5b31a538c739c2a2c391fb1cd5ced131
 - **B3SUM:** e5f9fb6d27b117dddffb32f863f7d2cce3148ca524a97d025fb30122bf4d768c
@@ -4426,6 +4639,7 @@
 ---
 
 ### eget
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eget.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/eget.sh
 - **Description:** Easily install prebuilt binaries from GitHub.
 - **Note:** 
@@ -4445,6 +4659,7 @@
 ---
 
 ### ehole
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ehole.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ehole.sh
 - **Description:** vulnerability detection & exploitation
 - **Note:** 
@@ -4464,6 +4679,7 @@
 ---
 
 ### elfcat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/elfcat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/elfcat.sh
 - **Description:** ELF visualizer. Generates HTML files from ELF binaries.
 - **Note:** 
@@ -4483,6 +4699,7 @@
 ---
 
 ### elvish
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/elvish.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/elvish.sh
 - **Description:** Elvish = Expressive Programming Language + Versatile Interactive Shell
 - **Note:** 
@@ -4502,6 +4719,7 @@
 ---
 
 ### enc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/enc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/enc.sh
 - **Description:** 🔑🔒 A modern and friendly CLI alternative to GnuPG
 - **Note:** 
@@ -4521,6 +4739,7 @@
 ---
 
 ### encode
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/encode.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/encode.sh
 - **Description:** Encode|Decode input from stdin
 - **Note:** 
@@ -4540,6 +4759,7 @@
 ---
 
 ### encrypted-dns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/encrypted-dns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/encrypted-dns-server.sh
 - **Description:** high-performance, zero maintenance proxy to run an encrypted DNS server.
 - **Note:** 
@@ -4559,6 +4779,7 @@
 ---
 
 ### enola
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/enola.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/enola.sh
 - **Description:** Hunt down social media accounts by username across social networks
 - **Note:** 
@@ -4578,13 +4799,14 @@
 ---
 
 ### entr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/entr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/entr.sh
 - **Description:** Run arbitrary commands when files change
 - **Note:** 
 - **Author:** eradman
 - **WebURL:** [https://eradman.com/entrproject/](https://eradman.com/entrproject/)
 - **Repository:** [https://github.com/eradman/entr](https://github.com/eradman/entr)
-- **Stars:** 4469
+- **Stars:** 4472
 - **Version:** 5.6
 - **Updated:** 2024-09-27T07:53:09Z
 - **Size:** 132.85 kB
@@ -4597,6 +4819,7 @@
 ---
 
 ### enumerepo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/enumerepo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/enumerepo.sh
 - **Description:** List all public repositories for (valid) GitHub usernames
 - **Note:** 
@@ -4616,6 +4839,7 @@
 ---
 
 ### epoch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/epoch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/epoch.sh
 - **Description:** 🕗 Easily convert epoch timestamps to human-readable formats and vice versa.
 - **Note:** 
@@ -4635,15 +4859,16 @@
 ---
 
 ### etcd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/etcd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/etcd.sh
 - **Description:** Distributed reliable key-value store for the most critical data of a distributed system
 - **Note:** 
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47505
+- **Stars:** 47504
 - **Version:** v3.5.16
-- **Updated:** 2024-10-01T12:01:13Z
+- **Updated:** 2024-10-01T13:37:43Z
 - **Size:** 22.86 MB
 - **SHA256SUM:** 7b5daa5311fd933e1f0429c8d65b896778d828ffe459a1bd1fdc1c2c70e738b6
 - **B3SUM:** e24d9b026279c08719b9d92006403a9767e41671eaaaaf630977d2b011837a4a
@@ -4654,15 +4879,16 @@
 ---
 
 ### etcdctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/etcdctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/etcd.sh
 - **Description:** Distributed reliable key-value store for the most critical data of a distributed system
 - **Note:** 
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47505
+- **Stars:** 47504
 - **Version:** v3.5.16
-- **Updated:** 2024-10-01T12:01:13Z
+- **Updated:** 2024-10-01T13:37:43Z
 - **Size:** 17.35 MB
 - **SHA256SUM:** b59f544519bca2378a575084c5e4fd11d8e864222a63fdbe8b435019f98a2d16
 - **B3SUM:** 48944430fa010a551c40e156ae062181da0148adba5d06d93b69103277eaa321
@@ -4673,15 +4899,16 @@
 ---
 
 ### etcdutl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/etcdutl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/etcd.sh
 - **Description:** Distributed reliable key-value store for the most critical data of a distributed system
 - **Note:** 
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47505
+- **Stars:** 47504
 - **Version:** v3.5.16
-- **Updated:** 2024-10-01T12:01:13Z
+- **Updated:** 2024-10-01T13:37:43Z
 - **Size:** 14.51 MB
 - **SHA256SUM:** da037634224d5f311ef5bdc616fe43731757afa53de1dba536fbc5716d76f463
 - **B3SUM:** e9787ad7c441b163ebe5755799dcaf4b187e52b274b3e4a2d8be11bac50695a6
@@ -4692,6 +4919,7 @@
 ---
 
 ### eweos.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eweos.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/eweos.sh
 - **Description:** An musl-based, lightweight, general-purpose Linux distribution with a rolling-release model (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://github.com/eweOS/docker)
@@ -4711,13 +4939,14 @@
 ---
 
 ### exatorrent
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/exatorrent.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/exatorrent.sh
 - **Description:** 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
 - **Note:** 
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
-- **Stars:** 1893
+- **Stars:** 1894
 - **Version:** v1.3.0
 - **Updated:** 2024-09-30T15:09:56Z
 - **Size:** 18.92 MB
@@ -4730,13 +4959,14 @@
 ---
 
 ### exatorrent-noui
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/exatorrent-noui.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/exatorrent.sh
 - **Description:** 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player
 - **Note:** 
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
-- **Stars:** 1893
+- **Stars:** 1894
 - **Version:** v1.3.0
 - **Updated:** 2024-09-30T15:09:56Z
 - **Size:** 18.72 MB
@@ -4749,6 +4979,7 @@
 ---
 
 ### exiflooter
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/exiflooter.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/exiflooter.sh
 - **Description:** ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap
 - **Note:** 
@@ -4768,13 +4999,14 @@
 ---
 
 ### eza
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eza.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/eza.sh
 - **Description:** A modern replacement for ‘ls’. (Fork of exa)
 - **Note:** 
 - **Author:** eza-community
 - **WebURL:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
 - **Repository:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
-- **Stars:** 11397
+- **Stars:** 11409
 - **Version:** v0.20.0
 - **Updated:** 2024-10-01T02:55:13Z
 - **Size:** 2.26 MB
@@ -4787,6 +5019,7 @@
 ---
 
 ### falconhound
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/falconhound.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/falconhound.sh
 - **Description:** FalconHound is a blue team multi-tool
 - **Note:** 
@@ -4806,15 +5039,16 @@
 ---
 
 ### fastfetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fastfetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fastfetch.sh
 - **Description:** Like neofetch, but much faster because written in C.
 - **Note:** 
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 9924
+- **Stars:** 9934
 - **Version:** 2.26.1
-- **Updated:** 2024-10-01T10:33:47Z
+- **Updated:** 2024-10-01T23:43:58Z
 - **Size:** 1.78 MB
 - **SHA256SUM:** 96c385d3043d3bf8e0df3a215a996652669230cd47e625a2041452a7f21a6caf
 - **B3SUM:** 930a1b31a88d945751f182e701b40ce3489d143e358a0567b1dca4a8392d6639
@@ -4825,15 +5059,16 @@
 ---
 
 ### flashfetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/flashfetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fastfetch.sh
 - **Description:** Like neofetch, but much faster because written in C.
 - **Note:** 
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 9924
+- **Stars:** 9934
 - **Version:** 2.26.1
-- **Updated:** 2024-10-01T10:33:47Z
+- **Updated:** 2024-10-01T23:43:58Z
 - **Size:** 1.58 MB
 - **SHA256SUM:** c0f839068221516f065ccef79b814170b07347aa85a5390abe2f25e67026baf5
 - **B3SUM:** 16798629beef5efd4f2cca23ff7c09996d6e3a6eaa41060513d27210f2505780
@@ -4844,6 +5079,7 @@
 ---
 
 ### fblog
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fblog.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fblog.sh
 - **Description:** Small command-line JSON Log viewer
 - **Note:** 
@@ -4852,7 +5088,7 @@
 - **Repository:** [https://github.com/brocode/fblog](https://github.com/brocode/fblog)
 - **Stars:** 434
 - **Version:** v4.12.0
-- **Updated:** 2024-09-27T07:29:12Z
+- **Updated:** 2024-10-01T16:21:02Z
 - **Size:** 3.9 MB
 - **SHA256SUM:** 55d190c70e42ab5719195df22baf12f72bd74a199abedf5534fce24efed42133
 - **B3SUM:** 2feff281d57064153d394cae17782ac9e002805f6ba3622873ea59fd0041a203
@@ -4863,13 +5099,14 @@
 ---
 
 ### fclones
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fclones.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fclones.sh
 - **Description:** Efficient Duplicate File Finder
 - **Note:** 
 - **Author:** pkolaczk
 - **WebURL:** [https://github.com/pkolaczk/fclones](https://github.com/pkolaczk/fclones)
 - **Repository:** [https://github.com/pkolaczk/fclones](https://github.com/pkolaczk/fclones)
-- **Stars:** 1937
+- **Stars:** 1936
 - **Version:** v0.34.0
 - **Updated:** 2024-05-30T08:00:55Z
 - **Size:** 4.26 MB
@@ -4882,15 +5119,16 @@
 ---
 
 ### fd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fd.sh
 - **Description:** A simple, fast and user-friendly alternative to find
 - **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- **Stars:** 33576
+- **Stars:** 33580
 - **Version:** v10.2.0
-- **Updated:** 2024-09-23T07:42:58Z
+- **Updated:** 2024-10-01T17:18:04Z
 - **Size:** 3.43 MB
 - **SHA256SUM:** 86418896c2e8e9a58da98ada0cadd20981502f5b15da746b3bdc131231db760e
 - **B3SUM:** 0c994efd3503dfe15eac61e68c9d3097be8bdd38e68de611f27a95bc2b8d6315
@@ -4901,15 +5139,16 @@
 ---
 
 ### fd-find
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fd-find.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fd.sh
 - **Description:** A simple, fast and user-friendly alternative to find
 - **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- **Stars:** 33576
+- **Stars:** 33580
 - **Version:** v10.2.0
-- **Updated:** 2024-09-23T07:42:58Z
+- **Updated:** 2024-10-01T17:18:04Z
 - **Size:** 3.43 MB
 - **SHA256SUM:** 86418896c2e8e9a58da98ada0cadd20981502f5b15da746b3bdc131231db760e
 - **B3SUM:** 0c994efd3503dfe15eac61e68c9d3097be8bdd38e68de611f27a95bc2b8d6315
@@ -4920,6 +5159,7 @@
 ---
 
 ### fdupes
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fdupes.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fdupes.sh
 - **Description:** FDUPES is a program for identifying or deleting duplicate files residing within specified directories.
 - **Note:** 
@@ -4939,6 +5179,7 @@
 ---
 
 ### fedora.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fedora.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fedora.sh
 - **Description:** Portable Ephemeral Fedora Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/fedora)
@@ -4958,13 +5199,14 @@
 ---
 
 ### feroxbuster
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/feroxbuster.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/feroxbuster.sh
 - **Description:** A fast, simple, recursive content discovery tool written in Rust.
 - **Note:** 
 - **Author:** epi052
 - **WebURL:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
 - **Repository:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
-- **Stars:** 5832
+- **Stars:** 5837
 - **Version:** v2.11.0
 - **Updated:** 2024-09-15T11:36:18Z
 - **Size:** 10.94 MB
@@ -4977,6 +5219,7 @@
 ---
 
 ### ffmpeg
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ffmpeg.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ffmpeg.sh
 - **Description:** Static build of ffmpeg
 - **Note:** 
@@ -4996,6 +5239,7 @@
 ---
 
 ### ffprobe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ffprobe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ffmpeg.sh
 - **Description:** Static build of ffmpeg
 - **Note:** 
@@ -5015,13 +5259,14 @@
 ---
 
 ### ffuf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ffuf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ffuf.sh
 - **Description:** Fast web fuzzer written in Go
 - **Note:** 
 - **Author:** ffuf
 - **WebURL:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
 - **Repository:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
-- **Stars:** 12338
+- **Stars:** 12343
 - **Version:** v2.1.0
 - **Updated:** 2024-06-30T06:46:22Z
 - **Size:** 7.82 MB
@@ -5034,6 +5279,7 @@
 ---
 
 ### ffufPostprocessing
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ffufPostprocessing.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ffufPostprocessing.sh
 - **Description:** Filter ffuf results
 - **Note:** 
@@ -5053,6 +5299,7 @@
 ---
 
 ### ffufw
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ffufw.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ffufw.sh
 - **Description:** a wrapper around ffuf to make directory bruteforcing easier and more intelligent
 - **Note:** 
@@ -5072,6 +5319,7 @@
 ---
 
 ### fget
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fget.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fget.sh
 - **Description:** Multithread download for a list of files.
 - **Note:** 
@@ -5080,7 +5328,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 4.99 MB
 - **SHA256SUM:** 793dbe34287e17f79ad063c18f01f38074641b43e53fa90222961d008dc1ba11
 - **B3SUM:** 4a18a04d1f58329e61f45a0eda6f27b26710c28f01f85d4162456373bf58faf2
@@ -5091,6 +5339,7 @@
 ---
 
 ### fi6s
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fi6s.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fi6s.sh
 - **Description:** IPv6 network scanner designed to be fast
 - **Note:** 
@@ -5110,13 +5359,14 @@
 ---
 
 ### filebrowser
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/filebrowser.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/filebrowser.sh
 - **Description:** 📂 Web File Browser
 - **Note:** 
 - **Author:** filebrowser
 - **WebURL:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
 - **Repository:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
-- **Stars:** 26148
+- **Stars:** 26156
 - **Version:** v2.31.1
 - **Updated:** 2024-09-30T09:40:20Z
 - **Size:** 16.45 MB
@@ -5129,6 +5379,7 @@
 ---
 
 ### findlargedir
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/findlargedir.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/findlargedir.sh
 - **Description:** quickly find all blackhole directories with a huge amount of filesystem entries in a flat structure
 - **Note:** 
@@ -5148,6 +5399,7 @@
 ---
 
 ### findomain
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/findomain.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/findomain.sh
 - **Description:** Subdomains Finder
 - **Note:** 
@@ -5167,6 +5419,7 @@
 ---
 
 ### find-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/find-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/findutils_uutils.sh
 - **Description:** Rust implementation of findutils
 - **Note:** 
@@ -5186,6 +5439,7 @@
 ---
 
 ### xargs-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xargs-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/findutils_uutils.sh
 - **Description:** Rust implementation of findutils
 - **Note:** 
@@ -5205,6 +5459,7 @@
 ---
 
 ### fingerprintx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fingerprintx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fingerprintx.sh
 - **Description:** Standalone utility for service discovery on open ports!
 - **Note:** 
@@ -5224,13 +5479,14 @@
 ---
 
 ### flawz
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/flawz.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/flawz.sh
 - **Description:** A Terminal UI for browsing security vulnerabilities (CVEs)
 - **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
 - **Repository:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
-- **Stars:** 359
+- **Stars:** 362
 - **Version:** v0.2.2
 - **Updated:** 2024-09-23T07:37:39Z
 - **Size:** 8.89 MB
@@ -5243,15 +5499,16 @@
 ---
 
 ### fnm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fnm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fnm.sh
 - **Description:** 🚀 Fast and simple Node.js version manager, built in Rust
 - **Note:** 
 - **Author:** Schniz
 - **WebURL:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 - **Repository:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
-- **Stars:** 17683
+- **Stars:** 17688
 - **Version:** v1.37.1
-- **Updated:** 2024-09-30T19:33:04Z
+- **Updated:** 2024-10-01T18:43:03Z
 - **Size:** 5.63 MB
 - **SHA256SUM:** 10510df485b4356a31e9869fdc6b3d6f2cf0ebb39afba8e400bb2942adeafa3c
 - **B3SUM:** c3328bb55916d46396af10d382d4dca1798a1f7270d38bcb4e514803ab1a103f
@@ -5262,6 +5519,7 @@
 ---
 
 ### fq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fq.sh
 - **Description:** jq for binary formats - tool, language and decoders for working with binary and text formats
 - **Note:** 
@@ -5281,13 +5539,14 @@
 ---
 
 ### freeze
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/freeze.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/freeze.sh
 - **Description:** Generate images of code and terminal output 📸
 - **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
 - **Repository:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
-- **Stars:** 3203
+- **Stars:** 3204
 - **Version:** v0.1.6
 - **Updated:** 2024-09-17T12:33:16Z
 - **Size:** 12.92 MB
@@ -5300,13 +5559,14 @@
 ---
 
 ### fscan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fscan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fscan.sh
 - **Description:** A comprehensive intranet scanning tool that facilitates one-click automated, all-round missed scanning.
 - **Note:** 
 - **Author:** shadow1ng
 - **WebURL:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
 - **Repository:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
-- **Stars:** 10402
+- **Stars:** 10401
 - **Version:** 1.8.4
 - **Updated:** 2024-08-29T07:18:17Z
 - **Size:** 33.78 MB
@@ -5319,6 +5579,7 @@
 ---
 
 ### fuse-overlayfs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fuse-overlayfs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fuse-overlayfs.sh
 - **Description:** FUSE implementation for overlayfs
 - **Note:** 
@@ -5338,6 +5599,7 @@
 ---
 
 ### fuzzuli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fuzzuli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fuzzuli.sh
 - **Description:** URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain.
 - **Note:** 
@@ -5357,6 +5619,7 @@
 ---
 
 ### fwanalyzer
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fwanalyzer.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fwanalyzer.sh
 - **Description:** a tool to analyze filesystem images for security
 - **Note:** 
@@ -5376,6 +5639,7 @@
 ---
 
 ### fx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fx.sh
 - **Description:** Terminal JSON viewer & processor
 - **Note:** 
@@ -5395,13 +5659,14 @@
 ---
 
 ### fzf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fzf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/fzf.sh
 - **Description:** 🌸 A command-line fuzzy finder
 - **Note:** 
 - **Author:** junegunn
 - **WebURL:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - **Repository:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-- **Stars:** 64218
+- **Stars:** 64228
 - **Version:** v0.55.0
 - **Updated:** 2024-10-01T10:46:27Z
 - **Size:** 3.71 MB
@@ -5414,6 +5679,7 @@
 ---
 
 ### garm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/garm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/garm.sh
 - **Description:** GitHub Actions Runners Manager
 - **Note:** 
@@ -5433,6 +5699,7 @@
 ---
 
 ### garm-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/garm-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/garm.sh
 - **Description:** GitHub Actions Runners Manager
 - **Note:** 
@@ -5452,13 +5719,14 @@
 ---
 
 ### gau
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gau.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gau.sh
 - **Description:** Fetch known URLs from AlienVaults Open Threat Exchange, the Wayback Machine, and Common Crawl.
 - **Note:** 
 - **Author:** lc
 - **WebURL:** [https://github.com/lc/gau](https://github.com/lc/gau)
 - **Repository:** [https://github.com/lc/gau](https://github.com/lc/gau)
-- **Stars:** 3895
+- **Stars:** 3898
 - **Version:** v2.2.3
 - **Updated:** 2024-08-21T01:26:55Z
 - **Size:** 8.28 MB
@@ -5471,13 +5739,14 @@
 ---
 
 ### gdu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gdu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gdu.sh
 - **Description:** Fast disk usage analyzer with console interface written in Go
 - **Note:** 
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
-- **Stars:** 3862
+- **Stars:** 3863
 - **Version:** v5.29.0
 - **Updated:** 2024-09-04T23:22:34Z
 - **Size:** 13.51 MB
@@ -5490,13 +5759,14 @@
 ---
 
 ### genact
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/genact.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/genact.sh
 - **Description:** 🌀 A nonsense activity generator
 - **Note:** 
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
 - **Repository:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
-- **Stars:** 9573
+- **Stars:** 9574
 - **Version:** v1.4.2
 - **Updated:** 2024-10-01T05:11:29Z
 - **Size:** 1.29 MB
@@ -5509,6 +5779,7 @@
 ---
 
 ### gentoo-musl.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gentoo-musl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gentoo.sh
 - **Description:** Portable Ephemeral Gentoo Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/r/gentoo/stage3)
@@ -5528,6 +5799,7 @@
 ---
 
 ### gentoo.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gentoo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gentoo.sh
 - **Description:** Portable Ephemeral Gentoo Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/r/gentoo/stage3)
@@ -5547,6 +5819,7 @@
 ---
 
 ### geodns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/geodns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/geonet.sh
 - **Description:** Network tools that run from multiple geographic locations using the GeoNet API.
 - **Note:** 
@@ -5566,6 +5839,7 @@
 ---
 
 ### geoping
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/geoping.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/geonet.sh
 - **Description:** Network tools that run from multiple geographic locations using the GeoNet API.
 - **Note:** 
@@ -5585,6 +5859,7 @@
 ---
 
 ### getJS
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/getJS.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/getJS.sh
 - **Description:** A tool to fastly get all javascript sources/files
 - **Note:** 
@@ -5593,7 +5868,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 5.64 MB
 - **SHA256SUM:** ac6acf38d2d53519aa9a90fa994b3ab0bc8bc032bf5cd223dc9766cb88eee38e
 - **B3SUM:** 8485e2bde8a38c98d66971769222fbdc6d546a92ed534934f34e4e0026ddd1f6
@@ -5604,6 +5879,7 @@
 ---
 
 ### getghrel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/getghrel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/getghrel.sh
 - **Description:** 
 - **Note:** 
@@ -5623,6 +5899,7 @@
 ---
 
 ### gf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gf.sh
 - **Description:** A wrapper around grep
 - **Note:** 
@@ -5642,6 +5919,7 @@
 ---
 
 ### gfx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gfx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gfx.sh
 - **Description:** Updated gf
 - **Note:** 
@@ -5661,6 +5939,7 @@
 ---
 
 ### gguf-tools
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gguf-tools.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gguf-tools.sh
 - **Description:** GGUF implementation in C as a library and a tools CLI program
 - **Note:** 
@@ -5680,6 +5959,7 @@
 ---
 
 ### gh-dash
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gh-dash.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gh-dash.sh
 - **Description:** A beautiful CLI dashboard for GitHub 🚀
 - **Note:** 
@@ -5688,7 +5968,7 @@
 - **Repository:** [https://github.com/dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)
 - **Stars:** 7032
 - **Version:** v4.5.4
-- **Updated:** 2024-09-25T16:51:05Z
+- **Updated:** 2024-10-01T14:33:50Z
 - **Size:** 18.88 MB
 - **SHA256SUM:** ea2e12951150782958e2cfc5029809ff3d07d73b0d5e5c88d54bd4dce3d7ebb0
 - **B3SUM:** 00b6f9c65cc6ebaf88f38b74377573c0ad5a152a709a3703439bdb1834422540
@@ -5699,15 +5979,16 @@
 ---
 
 ### gh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gh.sh
 - **Description:** GitHub’s official command line tool
 - **Note:** 
 - **Author:** cli
 - **WebURL:** [https://github.com/cli/cli](https://github.com/cli/cli)
 - **Repository:** [https://github.com/cli/cli](https://github.com/cli/cli)
-- **Stars:** 36850
-- **Version:** v2.57.0
-- **Updated:** 2024-10-01T04:38:22Z
+- **Stars:** 36851
+- **Version:** v2.58.0
+- **Updated:** 2024-10-01T23:58:19Z
 - **Size:** 49.69 MB
 - **SHA256SUM:** 13620135ddbb04e8cba1fb7f4c4b270b087e64b906347649696ec8e65bf69461
 - **B3SUM:** 00b6f9c65cc6ebaf88f38b74377573c0ad5a152a709a3703439bdb1834422540
@@ -5718,6 +5999,7 @@
 ---
 
 ### ghfetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ghfetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ghfetch.sh
 - **Description:** octocat  ghfetch is a CLI tool to fetch GitHub user information and show like neofetch.
 - **Note:** 
@@ -5726,7 +6008,7 @@
 - **Repository:** [https://github.com/orangekame3/ghfetch](https://github.com/orangekame3/ghfetch)
 - **Stars:** 45
 - **Version:** v0.0.19
-- **Updated:** 2024-10-01T12:03:07Z
+- **Updated:** 2024-10-02T00:05:41Z
 - **Size:** 9.02 MB
 - **SHA256SUM:** f831d847b10170a404950f9d09042667ba7b6c05d9706809b744503c1b04d111
 - **B3SUM:** 0b715559f16d861fe7f50b9e7c05072b5cc001747627d0e065c9ec967529509c
@@ -5737,13 +6019,14 @@
 ---
 
 ### gickup
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gickup.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gickup.sh
 - **Description:** Backup all the repositories.
 - **Note:** 
 - **Author:** cooperspencer
 - **WebURL:** [https://github.com/cooperspencer/gickup](https://github.com/cooperspencer/gickup)
 - **Repository:** [https://github.com/cooperspencer/gickup](https://github.com/cooperspencer/gickup)
-- **Stars:** 967
+- **Stars:** 969
 - **Version:** v0.10.36
 - **Updated:** 2024-09-29T10:33:46Z
 - **Size:** 19.76 MB
@@ -5756,6 +6039,7 @@
 ---
 
 ### gip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gip.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gip.sh
 - **Description:** command-line tool to get global IP address
 - **Note:** 
@@ -5775,15 +6059,16 @@
 ---
 
 ### git-cliff
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-cliff.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/git-cliff.sh
 - **Description:** A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
 - **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 - **Repository:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
-- **Stars:** 9023
+- **Stars:** 9031
 - **Version:** v2.6.1
-- **Updated:** 2024-09-30T23:04:56Z
+- **Updated:** 2024-10-01T23:02:00Z
 - **Size:** 10.19 MB
 - **SHA256SUM:** d06189cc265ddd82125df82a4c28220f91afb6b97e02bfccd6e38883ec5edd6e
 - **B3SUM:** e02690c9cee0908757301fe2e2710a4e94cc6c318ae570afaa0824a09b660c40
@@ -5794,13 +6079,14 @@
 ---
 
 ### git-lfs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-lfs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/git-lfs.sh
 - **Description:** Git extension for versioning large files
 - **Note:** 
 - **Author:** git-lfs
 - **WebURL:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
 - **Repository:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
-- **Stars:** 12859
+- **Stars:** 12860
 - **Version:** v3.5.1
 - **Updated:** 2024-09-30T19:41:46Z
 - **Size:** 10.9 MB
@@ -5813,13 +6099,14 @@
 ---
 
 ### git-sizer
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-sizer.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/git-sizer.sh
 - **Description:** Compute various size metrics for a Git repository
 - **Note:** 
 - **Author:** github
 - **WebURL:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
 - **Repository:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
-- **Stars:** 3453
+- **Stars:** 3456
 - **Version:** v1.5.0
 - **Updated:** 2024-08-10T18:54:04Z
 - **Size:** 2.93 MB
@@ -5832,6 +6119,7 @@
 ---
 
 ### git-xet
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-xet.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/git-xet.sh
 - **Description:** 💥 Git for Data (large files and repositories)
 - **Note:** 
@@ -5851,6 +6139,7 @@
 ---
 
 ### xetcmd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xetcmd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/git-xet.sh
 - **Description:** 💥 Git for Data (large files and repositories)
 - **Note:** 
@@ -5870,6 +6159,7 @@
 ---
 
 ### xetmnt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xetmnt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/git-xet.sh
 - **Description:** 💥 Git for Data (large files and repositories)
 - **Note:** 
@@ -5889,13 +6179,14 @@
 ---
 
 ### gitdorks_go
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitdorks_go.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitdorks_go.sh
 - **Description:** An automated collection tool for discovering sensitive information on GitHub
 - **Note:** 
 - **Author:** damit5
 - **WebURL:** [https://github.com/damit5/gitdorks_go](https://github.com/damit5/gitdorks_go)
 - **Repository:** [https://github.com/damit5/gitdorks_go](https://github.com/damit5/gitdorks_go)
-- **Stars:** 213
+- **Stars:** 214
 - **Version:** v0.1
 - **Updated:** 2022-04-21T13:17:21Z
 - **Size:** 5.59 MB
@@ -5908,15 +6199,16 @@
 ---
 
 ### gitea
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitea.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitea.sh
 - **Description:** Git with a cup of tea
 - **Note:** 
 - **Author:** go-gitea
 - **WebURL:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
 - **Repository:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
-- **Stars:** 44362
+- **Stars:** 44366
 - **Version:** v1.22.2
-- **Updated:** 2024-10-01T05:27:37Z
+- **Updated:** 2024-10-02T00:03:19Z
 - **Size:** 103 MB
 - **SHA256SUM:** ee8570fecd88acca78a717e7ea30718d0958bc84d3ea501cae3e998df7874480
 - **B3SUM:** 2513ea35d9cc78e653736578b49d61bb8df468820d9d780577faaf2213d0958f
@@ -5927,6 +6219,7 @@
 ---
 
 ### github-endpoints
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/github-endpoints.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/github-endpoints.sh
 - **Description:** Find endpoints on GitHub
 - **Note:** 
@@ -5946,6 +6239,7 @@
 ---
 
 ### github-regexp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/github-regexp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/github-regexp.sh
 - **Description:** Basically a regexp over a GitHub search
 - **Note:** 
@@ -5965,6 +6259,7 @@
 ---
 
 ### github-subdomains
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/github-subdomains.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/github-subdomains.sh
 - **Description:** Find subdomains on GitHub
 - **Note:** 
@@ -5984,6 +6279,7 @@
 ---
 
 ### glab
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/glab.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitlab-cli.sh
 - **Description:** Official Gitlab CLI
 - **Note:** 
@@ -6003,6 +6299,7 @@
 ---
 
 ### gitlab-subdomains
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitlab-subdomains.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitlab-subdomains.sh
 - **Description:** Find subdomains on Gitlab
 - **Note:** 
@@ -6022,13 +6319,14 @@
 ---
 
 ### gitleaks
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitleaks.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitleaks.sh
 - **Description:** Protect and discover secrets using Gitleaks 🔑
 - **Note:** 
 - **Author:** gitleaks
 - **WebURL:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
 - **Repository:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-- **Stars:** 17517
+- **Stars:** 17521
 - **Version:** v8.19.3
 - **Updated:** 2024-09-30T12:32:25Z
 - **Size:** 6.69 MB
@@ -6041,13 +6339,14 @@
 ---
 
 ### ein
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ein.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitoxide.sh
 - **Description:** An idiomatic, lean, fast & safe pure Rust implementation of Git
 - **Note:** 
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8844
+- **Stars:** 8845
 - **Version:** gix-v0.66.0
 - **Updated:** 2024-10-01T09:31:01Z
 - **Size:** 12.12 MB
@@ -6060,13 +6359,14 @@
 ---
 
 ### gix
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gix.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitoxide.sh
 - **Description:** An idiomatic, lean, fast & safe pure Rust implementation of Git
 - **Note:** 
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8844
+- **Stars:** 8845
 - **Version:** gix-v0.66.0
 - **Updated:** 2024-10-01T09:31:01Z
 - **Size:** 18.61 MB
@@ -6079,15 +6379,16 @@
 ---
 
 ### gitpod
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitpod.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitpod-cli.sh
 - **Description:** cli for gitpod
 - **Note:** 
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12766
+- **Stars:** 12773
 - **Version:** 2022.11.3
-- **Updated:** 2024-10-01T13:01:08Z
+- **Updated:** 2024-10-02T00:27:45Z
 - **Size:** 18.42 MB
 - **SHA256SUM:** 163ffa7f7146f9bdd98489ab3afb5396c21522af0e60c6b74a53eed00ab95ded
 - **B3SUM:** 47f5b5ca56cdf4b10e86f536329e753ce688d5a02c274afc806affec5a1bda04
@@ -6098,15 +6399,16 @@
 ---
 
 ### gitpod-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitpod-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitpod-cli.sh
 - **Description:** cli for gitpod
 - **Note:** 
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12766
+- **Stars:** 12773
 - **Version:** 2022.11.3
-- **Updated:** 2024-10-01T13:01:08Z
+- **Updated:** 2024-10-02T00:27:45Z
 - **Size:** 17.42 MB
 - **SHA256SUM:** aa3b0210d6aade1c192a90960fc17fc6385b0c2eeadec2411e39891b6ef6b583
 - **B3SUM:** 47f5b5ca56cdf4b10e86f536329e753ce688d5a02c274afc806affec5a1bda04
@@ -6117,15 +6419,16 @@
 ---
 
 ### gp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitpod-cli.sh
 - **Description:** cli for gitpod
 - **Note:** 
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12766
+- **Stars:** 12773
 - **Version:** 2022.11.3
-- **Updated:** 2024-10-01T13:01:08Z
+- **Updated:** 2024-10-02T00:27:45Z
 - **Size:** 17.42 MB
 - **SHA256SUM:** aa3b0210d6aade1c192a90960fc17fc6385b0c2eeadec2411e39891b6ef6b583
 - **B3SUM:** 47f5b5ca56cdf4b10e86f536329e753ce688d5a02c274afc806affec5a1bda04
@@ -6136,6 +6439,7 @@
 ---
 
 ### gitql
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitql.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitql.sh
 - **Description:** 💊 A git query language
 - **Note:** 
@@ -6155,6 +6459,7 @@
 ---
 
 ### gitui
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gitui.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gitui.sh
 - **Description:** Blazing 💥 fast terminal-ui for git written in rust 🦀
 - **Note:** 
@@ -6174,15 +6479,16 @@
 ---
 
 ### glow
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/glow.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/glow.sh
 - **Description:** Render markdown on the CLI
 - **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
 - **Repository:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
-- **Stars:** 15993
+- **Stars:** 15996
 - **Version:** v2.0.0
-- **Updated:** 2024-08-23T19:04:46Z
+- **Updated:** 2024-10-01T17:23:20Z
 - **Size:** 16.15 MB
 - **SHA256SUM:** bc410eb4f4d6895c2961734f8d6c042245a1b99121dd5fed2dc092e79dec0b60
 - **B3SUM:** 90c258feb3564d682aacc480f3e857763a4bb465f349eda69b7fc09efcc6f43a
@@ -6193,6 +6499,7 @@
 ---
 
 ### appimaged
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/appimaged.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-appimage.sh
 - **Description:** Go implementation of AppImage Tools
 - **Note:** 
@@ -6212,6 +6519,7 @@
 ---
 
 ### appimagetool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/appimagetool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-appimage.sh
 - **Description:** Go implementation of AppImage Tools
 - **Note:** 
@@ -6231,6 +6539,7 @@
 ---
 
 ### mkappimage
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mkappimage.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-appimage.sh
 - **Description:** Go implementation of AppImage Tools
 - **Note:** 
@@ -6250,6 +6559,7 @@
 ---
 
 ### go-audit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/go-audit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-audit.sh
 - **Description:** go-audit is an alternative to the auditd daemon that ships with many distros
 - **Note:** 
@@ -6269,6 +6579,7 @@
 ---
 
 ### fasttld
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/fasttld.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-fasttld.sh
 - **Description:** go-fasttld is a high performance effective top level domains (eTLD) extraction module
 - **Note:** 
@@ -6288,13 +6599,14 @@
 ---
 
 ### git-checkout
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-checkout.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
 - **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5867
+- **Stars:** 5868
 - **Version:** v5.12.0
 - **Updated:** 2024-09-30T11:14:49Z
 - **Size:** 7.38 MB
@@ -6307,13 +6619,14 @@
 ---
 
 ### git-clone
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-clone.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
 - **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5867
+- **Stars:** 5868
 - **Version:** v5.12.0
 - **Updated:** 2024-09-30T11:14:49Z
 - **Size:** 7.38 MB
@@ -6326,13 +6639,14 @@
 ---
 
 ### git-log
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-log.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
 - **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5867
+- **Stars:** 5868
 - **Version:** v5.12.0
 - **Updated:** 2024-09-30T11:14:49Z
 - **Size:** 7.51 MB
@@ -6345,13 +6659,14 @@
 ---
 
 ### git-pull
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-pull.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
 - **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5867
+- **Stars:** 5868
 - **Version:** v5.12.0
 - **Updated:** 2024-09-30T11:14:49Z
 - **Size:** 7.38 MB
@@ -6364,13 +6679,14 @@
 ---
 
 ### git-tag
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/git-tag.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-git.sh
 - **Description:** A highly extensible Git implementation in pure Go.
 - **Note:** 
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5867
+- **Stars:** 5868
 - **Version:** v5.12.0
 - **Updated:** 2024-09-30T11:14:49Z
 - **Size:** 5.39 MB
@@ -6383,6 +6699,7 @@
 ---
 
 ### go-simplehttpserver
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/go-simplehttpserver.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-simplehttpserver.sh
 - **Description:** Go alternative of python SimpleHTTPServer
 - **Note:** 
@@ -6402,13 +6719,14 @@
 ---
 
 ### goaccess
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/goaccess.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/goaccess.sh
 - **Description:** real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
 - **Note:** 
 - **Author:** allinurl
 - **WebURL:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
 - **Repository:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
-- **Stars:** 18256
+- **Stars:** 18259
 - **Version:** v1.9.3
 - **Updated:** 2024-08-21T01:22:05Z
 - **Size:** 1.68 MB
@@ -6421,6 +6739,7 @@
 ---
 
 ### goawk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/goawk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/goawk.sh
 - **Description:** A POSIX-compliant AWK interpreter written in Go, with CSV support
 - **Note:** 
@@ -6440,13 +6759,14 @@
 ---
 
 ### gobuster
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gobuster.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobuster.sh
 - **Description:** Directory/File, DNS and VHost busting tool written in Go
 - **Note:** 
 - **Author:** OJ
 - **WebURL:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
 - **Repository:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
-- **Stars:** 9632
+- **Stars:** 9635
 - **Version:** v3.6.0
 - **Updated:** 2024-09-23T21:02:24Z
 - **Size:** 7.75 MB
@@ -6459,6 +6779,7 @@
 ---
 
 ### gencmddeps
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gencmddeps.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6478,6 +6799,7 @@
 ---
 
 ### goanywhere
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/goanywhere.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6497,6 +6819,7 @@
 ---
 
 ### gobusybox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gobusybox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6516,6 +6839,7 @@
 ---
 
 ### makebb
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/makebb.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6535,6 +6859,7 @@
 ---
 
 ### makebbmain
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/makebbmain.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6554,6 +6879,7 @@
 ---
 
 ### rewritepkg
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rewritepkg.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6573,6 +6899,7 @@
 ---
 
 ### u-root-busybox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/u-root-busybox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6592,6 +6919,7 @@
 ---
 
 ### uroot-busybox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/uroot-busybox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gobusybox.sh
 - **Description:** Tools for compiling many Go commands into one binary to save space
 - **Note:** 
@@ -6611,6 +6939,7 @@
 ---
 
 ### gocryptfs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gocryptfs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gocryptfs.sh
 - **Description:** Encrypted overlay filesystem written in Go
 - **Note:** 
@@ -6630,6 +6959,7 @@
 ---
 
 ### gocryptfs-xray
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gocryptfs-xray.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gocryptfs.sh
 - **Description:** Encrypted overlay filesystem written in Go
 - **Note:** 
@@ -6649,13 +6979,14 @@
 ---
 
 ### gocurl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gocurl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gocurl.sh
 - **Description:** Simplified version of curl written in pure Go
 - **Note:** 
 - **Author:** ameshkov
 - **WebURL:** [https://github.com/ameshkov/gocurl](https://github.com/ameshkov/gocurl)
 - **Repository:** [https://github.com/ameshkov/gocurl](https://github.com/ameshkov/gocurl)
-- **Stars:** 33
+- **Stars:** 34
 - **Version:** v1.4.3
 - **Updated:** 2024-07-04T17:00:46Z
 - **Size:** 8.67 MB
@@ -6668,6 +6999,7 @@
 ---
 
 ### godns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/godns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/godns.sh
 - **Description:** A dynamic DNS client tool supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc
 - **Note:** 
@@ -6687,6 +7019,7 @@
 ---
 
 ### godnsbench
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/godnsbench.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/godnsbench.sh
 - **Description:** Simple DNS bench util that supports encrypted protocols.
 - **Note:** 
@@ -6706,6 +7039,7 @@
 ---
 
 ### gofireprox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gofireprox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gofireprox.sh
 - **Description:** FireProx written in Go
 - **Note:** 
@@ -6725,13 +7059,14 @@
 ---
 
 ### gojq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gojq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gojq.sh
 - **Description:** Pure Go implementation of jq
 - **Note:** 
 - **Author:** itchyny
 - **WebURL:** [https://github.com/itchyny/gojq](https://github.com/itchyny/gojq)
 - **Repository:** [https://github.com/itchyny/gojq](https://github.com/itchyny/gojq)
-- **Stars:** 3273
+- **Stars:** 3274
 - **Version:** v0.12.16
 - **Updated:** 2024-09-23T10:16:30Z
 - **Size:** 4.07 MB
@@ -6744,6 +7079,7 @@
 ---
 
 ### golinkfinder
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/golinkfinder.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/golinkfinder.sh
 - **Description:** A fast and minimal JS endpoint extractor
 - **Note:** 
@@ -6763,6 +7099,7 @@
 ---
 
 ### goodls
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/goodls.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/goodls.sh
 - **Description:** This is a CLI tool to download shared files and folders from Google Drive.
 - **Note:** 
@@ -6782,6 +7119,7 @@
 ---
 
 ### goop
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/goop.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/goop.sh
 - **Description:** Dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases
 - **Note:** 
@@ -6801,6 +7139,7 @@
 ---
 
 ### gorilla
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gorilla.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gorilla.sh
 - **Description:** Tool for generating wordlists or extending an existing one using mutations
 - **Note:** 
@@ -6820,6 +7159,7 @@
 ---
 
 ### gosec
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gosec.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gosec.sh
 - **Description:** Go security checker
 - **Note:** 
@@ -6828,7 +7168,7 @@
 - **Repository:** [https://github.com/securego/gosec](https://github.com/securego/gosec)
 - **Stars:** 7755
 - **Version:** v2.21.4
-- **Updated:** 2024-09-30T00:30:20Z
+- **Updated:** 2024-10-01T15:13:43Z
 - **Size:** 19.44 MB
 - **SHA256SUM:** f89f87dd4cb611b234e0ce6c00bd2f69d8a336b275e98f3304824c1b0475d88c
 - **B3SUM:** 2383f1a5204d43662b00b82312b8b75034aabb2e6644b144970643f7c9d5533d
@@ -6839,6 +7179,7 @@
 ---
 
 ### gosmee
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gosmee.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gosmee.sh
 - **Description:** Command line server and client for webhooks deliveries
 - **Note:** 
@@ -6858,6 +7199,7 @@
 ---
 
 ### gost
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gost.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gost.sh
 - **Description:** GO Simple Tunnel - a simple tunnel written in golang
 - **Note:** 
@@ -6877,6 +7219,7 @@
 ---
 
 ### gosu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gosu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gosu.sh
 - **Description:** Simple Go-based setuid+setgid+setgroups+exec
 - **Note:** 
@@ -6896,6 +7239,7 @@
 ---
 
 ### gotator
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gotator.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gotator.sh
 - **Description:** Generate DNS wordlists through permutations
 - **Note:** 
@@ -6915,6 +7259,7 @@
 ---
 
 ### gotty
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gotty.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gotty.sh
 - **Description:** Share your terminal as a web application
 - **Note:** 
@@ -6934,13 +7279,14 @@
 ---
 
 ### gowitness
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gowitness.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gowitness.sh
 - **Description:** 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
 - **Note:** 
 - **Author:** sensepost
 - **WebURL:** [https://github.com/sensepost/gowitness](https://github.com/sensepost/gowitness)
 - **Repository:** [https://github.com/sensepost/gowitness](https://github.com/sensepost/gowitness)
-- **Stars:** 2974
+- **Stars:** 3000
 - **Version:** 3.0.3
 - **Updated:** 2024-09-30T10:47:07Z
 - **Size:** 52.88 MB
@@ -6953,13 +7299,14 @@
 ---
 
 ### gpg-tui
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gpg-tui.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gpg-tui.sh
 - **Description:** Manage your GnuPG keys with ease! 🔐
 - **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/gpg-tui](https://github.com/orhun/gpg-tui)
 - **Repository:** [https://github.com/orhun/gpg-tui](https://github.com/orhun/gpg-tui)
-- **Stars:** 1354
+- **Stars:** 1352
 - **Version:** v0.11.0
 - **Updated:** 2024-09-24T11:57:47Z
 - **Size:** 3.76 MB
@@ -6972,13 +7319,14 @@
 ---
 
 ### gping
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gping.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gping.sh
 - **Description:** Ping, but with a graph
 - **Note:** 
 - **Author:** orf
 - **WebURL:** [https://github.com/orf/gping](https://github.com/orf/gping)
 - **Repository:** [https://github.com/orf/gping](https://github.com/orf/gping)
-- **Stars:** 10721
+- **Stars:** 10723
 - **Version:** gping-v1.17.3
 - **Updated:** 2024-09-23T10:57:23Z
 - **Size:** 2.4 MB
@@ -6991,6 +7339,7 @@
 ---
 
 ### grep
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/grep.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/grep.sh
 - **Description:** Search one or more input files for lines containing a match to a specified pattern.
 - **Note:** 
@@ -7010,13 +7359,14 @@
 ---
 
 ### grex
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/grex.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/grex.sh
 - **Description:** A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cases
 - **Note:** 
 - **Author:** pemistahl
 - **WebURL:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
 - **Repository:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
-- **Stars:** 7213
+- **Stars:** 7214
 - **Version:** v1.4.5
 - **Updated:** 2024-10-01T07:59:03Z
 - **Size:** 2.16 MB
@@ -7029,6 +7379,7 @@
 ---
 
 ### gron
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gron.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gron.sh
 - **Description:** Make JSON greppable!
 - **Note:** 
@@ -7048,6 +7399,7 @@
 ---
 
 ### gronx-tasker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gronx-tasker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gronx.sh
 - **Description:** Lightweight, fast and dependency-free Cron expression parser, task runner, job scheduler and/or daemon
 - **Note:** 
@@ -7067,13 +7419,14 @@
 ---
 
 ### grpcurl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/grpcurl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/grpcurl.sh
 - **Description:** Like cURL, but for gRPC  Command-line tool for interacting with gRPC servers
 - **Note:** 
 - **Author:** fullstorydev
 - **WebURL:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
 - **Repository:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
-- **Stars:** 10736
+- **Stars:** 10739
 - **Version:** v1.9.1
 - **Updated:** 2024-09-09T15:29:54Z
 - **Size:** 24.76 MB
@@ -7086,6 +7439,7 @@
 ---
 
 ### gs-netcat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gs-netcat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gsocket.sh
 - **Description:** Connect like there is no firewall. Securely.
 - **Note:** 
@@ -7105,6 +7459,7 @@
 ---
 
 ### gsocket
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gsocket.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gsocket.sh
 - **Description:** Connect like there is no firewall. Securely.
 - **Note:** 
@@ -7124,13 +7479,14 @@
 ---
 
 ### gum
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gum.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gum.sh
 - **Description:** A tool for glamorous shell scripts. That can be used as a replacement for dialog(7) and other TUI tools.
 - **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
 - **Repository:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
-- **Stars:** 17925
+- **Stars:** 17927
 - **Version:** v0.14.5
 - **Updated:** 2024-09-17T12:40:13Z
 - **Size:** 20.98 MB
@@ -7143,13 +7499,14 @@
 ---
 
 ### gup
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/gup.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gup.sh
 - **Description:** Update binaries installed by go install with goroutines.
 - **Note:** 
 - **Author:** nao1215
 - **WebURL:** [https://github.com/nao1215/gup](https://github.com/nao1215/gup)
 - **Repository:** [https://github.com/nao1215/gup](https://github.com/nao1215/gup)
-- **Stars:** 330
+- **Stars:** 331
 - **Version:** v0.27.5
 - **Updated:** 2024-09-10T11:22:44Z
 - **Size:** 5.67 MB
@@ -7162,6 +7519,7 @@
 ---
 
 ### hacker-scoper
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hacker-scoper.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hacker-scoper.sh
 - **Description:** Automagically filter URLs with Bug Bounty program scope rules scraped from the internet
 - **Note:** 
@@ -7181,6 +7539,7 @@
 ---
 
 ### hadolint
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hadolint.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hadolint.sh
 - **Description:** Dockerfile linter, validate inline bash, written in Haskell
 - **Note:** 
@@ -7200,6 +7559,7 @@
 ---
 
 ### hakip2host
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hakip2host.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hakip2host.sh
 - **Description:** takes a list of IP addresses via stdin, then does a series of checks to return associated domain names
 - **Note:** 
@@ -7219,6 +7579,7 @@
 ---
 
 ### hakoriginfinder
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hakoriginfinder.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hakoriginfinder.sh
 - **Description:** Tool for discovering the origin host behind a reverse proxy
 - **Note:** 
@@ -7238,6 +7599,7 @@
 ---
 
 ### hakrawler
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hakrawler.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hakrawler.sh
 - **Description:** Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 - **Note:** 
@@ -7257,6 +7619,7 @@
 ---
 
 ### hakrevdns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hakrevdns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hakrevdns.sh
 - **Description:** Small, fast tool for performing reverse DNS lookups en masse.
 - **Note:** 
@@ -7276,6 +7639,7 @@
 ---
 
 ### halp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/halp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/halp.sh
 - **Description:** A CLI tool to get help with CLI tools 🐙
 - **Note:** 
@@ -7295,6 +7659,7 @@
 ---
 
 ### hardeningmeter_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hardeningmeter_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hardeningmeter.sh
 - **Description:** comprehensively assess the security hardening of binaries and systems.
 - **Note:** 
@@ -7314,6 +7679,7 @@
 ---
 
 ### hxn
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hxn.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/haylxon.sh
 - **Description:** ⚡ Blazing-fast tool to grab screenshots of your domain list right from terminal
 - **Note:** 
@@ -7333,6 +7699,7 @@
 ---
 
 ### hcloud
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcloud.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcloud.sh
 - **Description:** A command-line interface for Hetzner Cloud
 - **Note:** 
@@ -7341,7 +7708,7 @@
 - **Repository:** [https://github.com/hetznercloud/cli](https://github.com/hetznercloud/cli)
 - **Stars:** 1086
 - **Version:** v1.47.0
-- **Updated:** 2024-10-01T09:57:30Z
+- **Updated:** 2024-10-01T21:27:27Z
 - **Size:** 13.43 MB
 - **SHA256SUM:** 5bdc7c758fbfd77c1f17084d62fade1ec796eeba9f39957267ccdcfe3f13f634
 - **B3SUM:** cf598a2ba9b8fcdc125d87e53ee0deb4d62b79bb990f3e93bb2c06733548a903
@@ -7352,6 +7719,7 @@
 ---
 
 ### hcxeiutool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcxeiutool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7371,6 +7739,7 @@
 ---
 
 ### hcxhash2cap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcxhash2cap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7390,6 +7759,7 @@
 ---
 
 ### hcxhashtool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcxhashtool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7409,6 +7779,7 @@
 ---
 
 ### hcxpcapngtool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcxpcapngtool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7428,6 +7799,7 @@
 ---
 
 ### hcxpmktool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcxpmktool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7447,6 +7819,7 @@
 ---
 
 ### hcxpsktool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcxpsktool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7466,6 +7839,7 @@
 ---
 
 ### hcxwltool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hcxwltool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7485,6 +7859,7 @@
 ---
 
 ### whoismac
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/whoismac.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7504,6 +7879,7 @@
 ---
 
 ### wlancap2wpasec
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wlancap2wpasec.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hcxtools.sh
 - **Description:** https //github.com/ZerBea/hcxtools
 - **Note:** 
@@ -7523,6 +7899,7 @@
 ---
 
 ### ht
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ht.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/headless-terminal.sh
 - **Description:** headless terminal - wrap any binary with a terminal interface for easy programmatic access.
 - **Note:** 
@@ -7542,6 +7919,7 @@
 ---
 
 ### headtail
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/headtail.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/headtail.sh
 - **Description:** head and tail simultaneously
 - **Note:** 
@@ -7561,6 +7939,7 @@
 ---
 
 ### hednsextractor
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hednsextractor.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hednsextractor.sh
 - **Description:** Raw html extractor from Hurricane Electric portal
 - **Note:** 
@@ -7580,6 +7959,7 @@
 ---
 
 ### hx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hex.sh
 - **Description:** 🔮 Futuristic take on hexdump, made in Rust.
 - **Note:** 
@@ -7599,6 +7979,7 @@
 ---
 
 ### hexyl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hexyl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hexyl.sh
 - **Description:** A command-line hex viewer
 - **Note:** 
@@ -7618,6 +7999,7 @@
 ---
 
 ### horust
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/horust.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/horust.sh
 - **Description:** Horust is a supervisor / init system written in rust and designed to run inside containers.
 - **Note:** 
@@ -7637,6 +8019,7 @@
 ---
 
 ### hostctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hostctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hostctl.sh
 - **Description:** dev tool to manage /etc/hosts like a pro!
 - **Note:** 
@@ -7656,6 +8039,7 @@
 ---
 
 ### hrekt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hrekt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hrekt.sh
 - **Description:** A really fast http prober.
 - **Note:** 
@@ -7675,6 +8059,7 @@
 ---
 
 ### htb-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/htb-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/htb-cli.sh
 - **Description:** Interact with Hackthebox using your terminal
 - **Note:** 
@@ -7694,13 +8079,14 @@
 ---
 
 ### htmlq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/htmlq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/htmlq.sh
 - **Description:** Like jq, but for HTML
 - **Note:** 
 - **Author:** mgdm
 - **WebURL:** [https://github.com/mgdm/htmlq](https://github.com/mgdm/htmlq)
 - **Repository:** [https://github.com/mgdm/htmlq](https://github.com/mgdm/htmlq)
-- **Stars:** 7081
+- **Stars:** 7082
 - **Version:** v0.4.0
 - **Updated:** 2024-05-29T03:40:49Z
 - **Size:** 2.28 MB
@@ -7713,13 +8099,14 @@
 ---
 
 ### httprobe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/httprobe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/httprobe.sh
 - **Description:** Take a list of domains and probe for working HTTP and HTTPS servers
 - **Note:** 
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/httprobe](https://github.com/tomnomnom/httprobe)
 - **Repository:** [https://github.com/tomnomnom/httprobe](https://github.com/tomnomnom/httprobe)
-- **Stars:** 2835
+- **Stars:** 2837
 - **Version:** v0.2
 - **Updated:** 2024-06-22T22:47:09Z
 - **Size:** 4.99 MB
@@ -7732,13 +8119,14 @@
 ---
 
 ### httpx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/httpx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/httpx.sh
 - **Description:** httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
 - **Repository:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
-- **Stars:** 7532
+- **Stars:** 7533
 - **Version:** v1.6.8
 - **Updated:** 2024-09-30T11:00:25Z
 - **Size:** 39.23 MB
@@ -7751,6 +8139,7 @@
 ---
 
 ### hub
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hub.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hub.sh
 - **Description:** A command-line tool that makes git easier to use with GitHub.
 - **Note:** 
@@ -7770,15 +8159,16 @@
 ---
 
 ### hf-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hf-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/huggingface-cli.sh
 - **Description:** The official Python client for the Huggingface Hub
 - **Note:** 
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
-- **Stars:** 2012
+- **Stars:** 2014
 - **Version:** v0.25.1
-- **Updated:** 2024-10-01T12:49:43Z
+- **Updated:** 2024-10-01T16:58:43Z
 - **Size:** 20.21 MB
 - **SHA256SUM:** f78f0c7c7b5b08ba8b4a10707354294571af9d3dc0013d62b97d524f48b1be11
 - **B3SUM:** b0745471701dabb0f018417c10ce98dbc86b5e91122033921d9f50acc9bdebad
@@ -7789,15 +8179,16 @@
 ---
 
 ### huggingface-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/huggingface-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/huggingface-cli.sh
 - **Description:** The official Python client for the Huggingface Hub
 - **Note:** 
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
-- **Stars:** 2012
+- **Stars:** 2014
 - **Version:** v0.25.1
-- **Updated:** 2024-10-01T12:49:43Z
+- **Updated:** 2024-10-01T16:58:43Z
 - **Size:** 20.21 MB
 - **SHA256SUM:** f78f0c7c7b5b08ba8b4a10707354294571af9d3dc0013d62b97d524f48b1be11
 - **B3SUM:** b0745471701dabb0f018417c10ce98dbc86b5e91122033921d9f50acc9bdebad
@@ -7808,13 +8199,14 @@
 ---
 
 ### hugo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hugo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hugo.sh
 - **Description:** The world’s fastest framework for building websites.
 - **Note:** 
 - **Author:** gohugoio
 - **WebURL:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
 - **Repository:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
-- **Stars:** 75021
+- **Stars:** 75025
 - **Version:** v0.135.0
 - **Updated:** 2024-09-30T08:52:10Z
 - **Size:** 81.17 MB
@@ -7827,15 +8219,16 @@
 ---
 
 ### hurl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hurl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hurl.sh
 - **Description:** Hurl, run and test HTTP requests with plain text.
 - **Note:** 
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 12878
+- **Stars:** 12879
 - **Version:** 5.0.1
-- **Updated:** 2024-10-01T12:49:47Z
+- **Updated:** 2024-10-01T20:06:45Z
 - **Size:** 9.73 MB
 - **SHA256SUM:** 566d9c8bed1e82b0f2730663de7815741868ceff54f523d470346d8ff1122b40
 - **B3SUM:** 14aa734a75912ad40fd929227676bf638e19c9f67012cf99c9bc14c07a0ae2c7
@@ -7846,15 +8239,16 @@
 ---
 
 ### hurlfmt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hurlfmt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hurl.sh
 - **Description:** Hurl, run and test HTTP requests with plain text.
 - **Note:** 
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 12878
+- **Stars:** 12879
 - **Version:** 5.0.1
-- **Updated:** 2024-10-01T12:49:47Z
+- **Updated:** 2024-10-01T20:06:45Z
 - **Size:** 3.5 MB
 - **SHA256SUM:** 23890c8b3123f1b96de3e802741bfb62062f7a9f123db0c7fcdaac081b508694
 - **B3SUM:** bce2bf4fd8288f812d9d4d75da173215bc55b5a022c99b2970618a9322f092fb
@@ -7865,6 +8259,7 @@
 ---
 
 ### husarnet
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/husarnet.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/husarnet.sh
 - **Description:** Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration.
 - **Note:** 
@@ -7873,7 +8268,7 @@
 - **Repository:** [https://github.com/husarnet/husarnet](https://github.com/husarnet/husarnet)
 - **Stars:** 300
 - **Version:** v2.0.180
-- **Updated:** 2024-10-01T12:40:46Z
+- **Updated:** 2024-10-01T13:22:21Z
 - **Size:** 7.66 MB
 - **SHA256SUM:** 96edaac91752a3a92f921b17745f8631d6f79b558607798403ccbd1222d63ce5
 - **B3SUM:** 64cddd98a93cc3e6dbc1ad78954e983e8a0da5fda19c8f9b8708ded5e1a85df9
@@ -7884,6 +8279,7 @@
 ---
 
 ### husarnet-daemon
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/husarnet-daemon.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/husarnet.sh
 - **Description:** Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration.
 - **Note:** 
@@ -7892,7 +8288,7 @@
 - **Repository:** [https://github.com/husarnet/husarnet](https://github.com/husarnet/husarnet)
 - **Stars:** 300
 - **Version:** v2.0.180
-- **Updated:** 2024-10-01T12:40:46Z
+- **Updated:** 2024-10-01T13:22:21Z
 - **Size:** 2.28 MB
 - **SHA256SUM:** 96edaac91752a3a92f921b17745f8631d6f79b558607798403ccbd1222d63ce5
 - **B3SUM:** 64cddd98a93cc3e6dbc1ad78954e983e8a0da5fda19c8f9b8708ded5e1a85df9
@@ -7903,6 +8299,7 @@
 ---
 
 ### hwatch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hwatch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hwatch.sh
 - **Description:** A modern alternative to the watch command, records the differences in execution results and can check this differences at after.
 - **Note:** 
@@ -7911,7 +8308,7 @@
 - **Repository:** [https://github.com/blacknon/hwatch](https://github.com/blacknon/hwatch)
 - **Stars:** 763
 - **Version:** 0.3.15
-- **Updated:** 2024-09-23T01:40:47Z
+- **Updated:** 2024-10-01T17:55:35Z
 - **Size:** 3.47 MB
 - **SHA256SUM:** 1f12b2a7a9eaadb07441658e44fa9ccec571b7f6a27b7ac9fa3ef81b4b19c9f4
 - **B3SUM:** f6fbb249cab716d8c4939de2b0dc4c413fd2905db03278533fb95ede39a59abd
@@ -7922,13 +8319,14 @@
 ---
 
 ### hyperfine
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hyperfine.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hyperfine.sh
 - **Description:** A command-line benchmarking tool
 - **Note:** 
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 21668
+- **Stars:** 21672
 - **Version:** v1.18.0
 - **Updated:** 2024-09-01T02:42:12Z
 - **Size:** 1.21 MB
@@ -7941,6 +8339,7 @@
 ---
 
 ### hysp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hysp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/hysp.sh
 - **Description:** 📦 An independent package manager that every hacker deserves.
 - **Note:** 
@@ -7960,6 +8359,7 @@
 ---
 
 ### indextree
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/indextree.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/indextree.sh
 - **Description:** Generates the tree of the directory listing page.
 - **Note:** 
@@ -7979,6 +8379,7 @@
 ---
 
 ### inscope
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/inscope.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/inscope.sh
 - **Description:** filtering URLs and domains supplied on stdin to make sure they meet one of a set of regular expressions
 - **Note:** 
@@ -7987,7 +8388,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 1.94 MB
 - **SHA256SUM:** d0538971029d9eca88f42c043fa29612eec17d267c08aae2a25a89fcc98e78db
 - **B3SUM:** c8cf97f4a1673ebeb5700ad342be6c327b29ed59f193300cc3fc673b7458f75d
@@ -7998,13 +8399,14 @@
 ---
 
 ### interactsh-client
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/interactsh-client.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/interactsh.sh
 - **Description:** An OOB interaction gathering server and client library
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
-- **Stars:** 3339
+- **Stars:** 3340
 - **Version:** v1.2.2
 - **Updated:** 2024-09-30T01:49:47Z
 - **Size:** 23.84 MB
@@ -8017,13 +8419,14 @@
 ---
 
 ### interactsh-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/interactsh-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/interactsh.sh
 - **Description:** An OOB interaction gathering server and client library
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
-- **Stars:** 3339
+- **Stars:** 3340
 - **Version:** v1.2.2
 - **Updated:** 2024-09-30T01:49:47Z
 - **Size:** 26.41 MB
@@ -8036,6 +8439,7 @@
 ---
 
 ### imdl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/imdl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/intermodal.sh
 - **Description:** A CLI utility for BitTorrent torrent file creation, verification, and more
 - **Note:** 
@@ -8055,6 +8459,7 @@
 ---
 
 ### intermodal
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/intermodal.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/intermodal.sh
 - **Description:** A CLI utility for BitTorrent torrent file creation, verification, and more
 - **Note:** 
@@ -8074,6 +8479,7 @@
 ---
 
 ### invidtui
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/invidtui.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/invidtui.sh
 - **Description:** A TUI based Invidious client
 - **Note:** 
@@ -8093,6 +8499,7 @@
 ---
 
 ### iotop
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/iotop.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iotop-c.sh
 - **Description:** A top utility for IO
 - **Note:** 
@@ -8112,6 +8519,7 @@
 ---
 
 ### iotop-c
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/iotop-c.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iotop-c.sh
 - **Description:** A top utility for IO
 - **Note:** 
@@ -8131,6 +8539,7 @@
 ---
 
 ### iperf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/iperf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iperf.sh
 - **Description:** A TCP, UDP, and SCTP network bandwidth measurement tool
 - **Note:** 
@@ -8150,6 +8559,7 @@
 ---
 
 ### iperf3
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/iperf3.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iperf3.sh
 - **Description:** A tool for network performance measurement and tuning
 - **Note:** 
@@ -8169,13 +8579,14 @@
 ---
 
 ### ipinfo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ipinfo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ipinfo.sh
 - **Description:** Official Command Line Interface for the IPinfo API
 - **Note:** 
 - **Author:** ipinfo
 - **WebURL:** [https://ipinfo.io/](https://ipinfo.io/)
 - **Repository:** [https://github.com/ipinfo/cli](https://github.com/ipinfo/cli)
-- **Stars:** 1726
+- **Stars:** 1727
 - **Version:** ipinfo-3.3.1
 - **Updated:** 2024-08-14T00:40:19Z
 - **Size:** 9.92 MB
@@ -8188,13 +8599,14 @@
 ---
 
 ### ipinfo-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ipinfo-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ipinfo.sh
 - **Description:** Official Command Line Interface for the IPinfo API
 - **Note:** 
 - **Author:** ipinfo
 - **WebURL:** [https://ipinfo.io/](https://ipinfo.io/)
 - **Repository:** [https://github.com/ipinfo/cli](https://github.com/ipinfo/cli)
-- **Stars:** 1726
+- **Stars:** 1727
 - **Version:** ipinfo-3.3.1
 - **Updated:** 2024-08-14T00:40:19Z
 - **Size:** 9.92 MB
@@ -8207,6 +8619,7 @@
 ---
 
 ### ipt2socks
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ipt2socks.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ipt2socks.sh
 - **Description:** convert iptables/nftables transparent proxy traffic to socks5
 - **Note:** 
@@ -8226,6 +8639,7 @@
 ---
 
 ### arping
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/arping.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
 - **Note:** 
@@ -8245,6 +8659,7 @@
 ---
 
 ### clockdiff
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/clockdiff.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
 - **Note:** 
@@ -8264,6 +8679,7 @@
 ---
 
 ### ping
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ping.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
 - **Note:** 
@@ -8283,6 +8699,7 @@
 ---
 
 ### tracepath
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tracepath.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/iputils.sh
 - **Description:** A set of small useful utilities for Linux networking
 - **Note:** 
@@ -8302,15 +8719,16 @@
 ---
 
 ### istioctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/istioctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/istio.sh
 - **Description:** Connect, secure, control, and observe services.
 - **Note:** 
 - **Author:** istio
 - **WebURL:** [https://github.com/istio/istio](https://github.com/istio/istio)
 - **Repository:** [https://github.com/istio/istio](https://github.com/istio/istio)
-- **Stars:** 35789
+- **Stars:** 35790
 - **Version:** 1.23.2
-- **Updated:** 2024-10-01T11:39:36Z
+- **Updated:** 2024-10-02T01:36:29Z
 - **Size:** 88.74 MB
 - **SHA256SUM:** 535b85a3e7802fc342ffa2c5c735bb1292ab865cb75c3b97ac0aa3487f57bf45
 - **B3SUM:** ac795074993f1b4bbd67b5af4f482c39361f06f961ececea3404502d401b7871
@@ -8321,6 +8739,7 @@
 ---
 
 ### jaeles
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jaeles.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jaeles.sh
 - **Description:** The Swiss Army knife for automated Web Application Testing
 - **Note:** 
@@ -8340,13 +8759,14 @@
 ---
 
 ### jaq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jaq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jaq.sh
 - **Description:** A jq clone focussed on correctness, speed, and simplicity
 - **Note:** 
 - **Author:** 01mf02
 - **WebURL:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
 - **Repository:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
-- **Stars:** 2694
+- **Stars:** 2695
 - **Version:** v1.6.0
 - **Updated:** 2024-09-28T17:05:00Z
 - **Size:** 1.32 MB
@@ -8359,6 +8779,7 @@
 ---
 
 ### jc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jc.sh
 - **Description:** converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries
 - **Note:** This is a StaticX Binary
@@ -8378,6 +8799,7 @@
 ---
 
 ### jen
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jen.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jen.sh
 - **Description:** A fast utility to generate fake/test documents based on a template
 - **Note:** 
@@ -8397,13 +8819,14 @@
 ---
 
 ### jira-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jira-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jira-cli.sh
 - **Description:** 🔥 Feature-rich interactive Jira command line.
 - **Note:** 
 - **Author:** ankitpokhrel
 - **WebURL:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
 - **Repository:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
-- **Stars:** 3901
+- **Stars:** 3902
 - **Version:** v1.5.2
 - **Updated:** 2024-09-22T08:14:14Z
 - **Size:** 18.18 MB
@@ -8416,15 +8839,16 @@
 ---
 
 ### jj
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jj.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jj.sh
 - **Description:** A Git-compatible DVCS that is both simple and powerful
 - **Note:** 
 - **Author:** martinvonz
 - **WebURL:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 - **Repository:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
-- **Stars:** 8310
+- **Stars:** 8314
 - **Version:** v0.21.0
-- **Updated:** 2024-10-01T12:24:03Z
+- **Updated:** 2024-10-01T20:39:02Z
 - **Size:** 19.76 MB
 - **SHA256SUM:** 95f393eb189e823d9e0f99a64d38e42b39da77863c4a9e51b3a89280de468408
 - **B3SUM:** d4348180b372829c4f5eb3ab5cde666067bfba6c47b7e4e572ad7695c78c481f
@@ -8435,6 +8859,7 @@
 ---
 
 ### jless_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jless_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jless.sh
 - **Description:** jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data
 - **Note:** 
@@ -8454,13 +8879,14 @@
 ---
 
 ### jnv
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jnv.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jnv.sh
 - **Description:** interactive JSON filter using jq
 - **Note:** 
 - **Author:** ynqa
 - **WebURL:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 - **Repository:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
-- **Stars:** 4815
+- **Stars:** 4818
 - **Version:** v0.4.1
 - **Updated:** 2024-09-25T11:24:12Z
 - **Size:** 4.09 MB
@@ -8473,6 +8899,7 @@
 ---
 
 ### jobs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jobs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/job-security.sh
 - **Description:** job control from anywhere!
 - **Note:** 
@@ -8492,6 +8919,7 @@
 ---
 
 ### joker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/joker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/joker.sh
 - **Description:** turn process into daemon. Zero-Configuration
 - **Note:** 
@@ -8511,13 +8939,14 @@
 ---
 
 ### jq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jq.sh
 - **Description:** Command-line JSON processor
 - **Note:** 
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 30206
+- **Stars:** 30211
 - **Version:** jq-1.7.1
 - **Updated:** 2024-09-18T04:00:19Z
 - **Size:** 1.71 MB
@@ -8530,6 +8959,7 @@
 ---
 
 ### jql
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jql.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jql.sh
 - **Description:** A JSON Query Language CLI tool
 - **Note:** 
@@ -8549,13 +8979,14 @@
 ---
 
 ### jqp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jqp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jqp.sh
 - **Description:** TUI for jq
 - **Note:** 
 - **Author:** noahgorstein
 - **WebURL:** [https://github.com/noahgorstein/jqp](https://github.com/noahgorstein/jqp)
 - **Repository:** [https://github.com/noahgorstein/jqp](https://github.com/noahgorstein/jqp)
-- **Stars:** 2168
+- **Stars:** 2169
 - **Version:** v0.7.0
 - **Updated:** 2024-09-12T16:20:48Z
 - **Size:** 12.01 MB
@@ -8568,6 +8999,7 @@
 ---
 
 ### jr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jr.sh
 - **Description:** streaming quality random data from the command line
 - **Note:** 
@@ -8587,6 +9019,7 @@
 ---
 
 ### jsmug
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jsmug.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jsmug.sh
 - **Description:** JSON Smuggling technique to smuggle arbitrary files through JSON
 - **Note:** 
@@ -8606,15 +9039,16 @@
 ---
 
 ### just
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/just.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/just.sh
 - **Description:** A handy way to save and run project-specific commands.
 - **Note:** 
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/just](https://github.com/casey/just)
 - **Repository:** [https://github.com/casey/just](https://github.com/casey/just)
-- **Stars:** 20527
+- **Stars:** 20541
 - **Version:** 1.36.0
-- **Updated:** 2024-09-30T22:48:28Z
+- **Updated:** 2024-10-01T20:31:55Z
 - **Size:** 3.18 MB
 - **SHA256SUM:** 0bde8d4a67429286125ee28c94f221471e599ebb91c53a3dbb0c52d224ac9408
 - **B3SUM:** 32703df6f0fe956f5439e926a45231950dfb4c626ddef5aaa78604014281e84b
@@ -8625,6 +9059,7 @@
 ---
 
 ### jwt-cracker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jwt-cracker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jwt-cracker.sh
 - **Description:** Faster & Better Cross Platform JWT Cracker
 - **Note:** 
@@ -8644,6 +9079,7 @@
 ---
 
 ### jwt-hack
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/jwt-hack.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/jwt-hack.sh
 - **Description:** 🔩 jwt-hack is tool for hacking / security testing to JWT
 - **Note:** 
@@ -8663,13 +9099,14 @@
 ---
 
 ### k9s
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/k9s.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/k9s.sh
 - **Description:** 🐶 Kubernetes CLI To Manage Your Clusters In Style!
 - **Note:** 
 - **Author:** derailed
 - **WebURL:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
 - **Repository:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
-- **Stars:** 26711
+- **Stars:** 26723
 - **Version:** v0.32.5
 - **Updated:** 2024-09-30T23:48:08Z
 - **Size:** 92.24 MB
@@ -8682,13 +9119,14 @@
 ---
 
 ### kak
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kak.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kakoune.sh
 - **Description:** a better code editor
 - **Note:** 
 - **Author:** mawww
 - **WebURL:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
 - **Repository:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
-- **Stars:** 9899
+- **Stars:** 9898
 - **Version:** v2024.05.18
 - **Updated:** 2024-09-22T17:12:24Z
 - **Size:** 2.37 MB
@@ -8701,13 +9139,14 @@
 ---
 
 ### kakoune
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kakoune.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kakoune.sh
 - **Description:** a better code editor
 - **Note:** 
 - **Author:** mawww
 - **WebURL:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
 - **Repository:** [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
-- **Stars:** 9899
+- **Stars:** 9898
 - **Version:** v2024.05.18
 - **Updated:** 2024-09-22T17:12:24Z
 - **Size:** 2.37 MB
@@ -8720,6 +9159,7 @@
 ---
 
 ### kalc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kalc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kalc.sh
 - **Description:** a complex numbers, 2d/3d graphing, arbitrary precision, vector/matrix, cli calculator with real-time output and support for units
 - **Note:** 
@@ -8739,6 +9179,7 @@
 ---
 
 ### kalilinux.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kalilinux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kalilinux.sh
 - **Description:** Portable Ephemeral KaliLinux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/r/kalilinux/kali-rolling)
@@ -8758,6 +9199,7 @@
 ---
 
 ### kalker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kalker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kalker.sh
 - **Description:** calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals
 - **Note:** 
@@ -8777,13 +9219,14 @@
 ---
 
 ### kanha
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kanha.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kanha.sh
 - **Description:** 🦚 A web-app pentesting suite written in rust
 - **Note:** 
 - **Author:** pwnwriter
 - **WebURL:** [https://github.com/pwnwriter/kanha](https://github.com/pwnwriter/kanha)
 - **Repository:** [https://github.com/pwnwriter/kanha](https://github.com/pwnwriter/kanha)
-- **Stars:** 260
+- **Stars:** 261
 - **Version:** v-v0.1.2
 - **Updated:** 2024-10-01T12:57:48Z
 - **Size:** 3.41 MB
@@ -8796,13 +9239,14 @@
 ---
 
 ### katana
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/katana.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/katana.sh
 - **Description:** A next-generation crawling and spidering framework
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
-- **Stars:** 10902
+- **Stars:** 10906
 - **Version:** v1.1.0
 - **Updated:** 2024-09-30T12:17:48Z
 - **Size:** 40.34 MB
@@ -8815,13 +9259,14 @@
 ---
 
 ### katana_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/katana_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/katana.sh
 - **Description:** A next-generation crawling and spidering framework
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
-- **Stars:** 10902
+- **Stars:** 10906
 - **Version:** v1.1.0
 - **Updated:** 2024-09-30T12:17:48Z
 - **Size:** 10.39 MB
@@ -8834,13 +9279,14 @@
 ---
 
 ### killport
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/killport.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/killport.sh
 - **Description:** A command-line tool to easily kill processes running on a specified port.
 - **Note:** 
 - **Author:** jkfran
 - **WebURL:** [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
 - **Repository:** [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
-- **Stars:** 1679
+- **Stars:** 1680
 - **Version:** v1.1.0
 - **Updated:** 2024-05-31T18:21:56Z
 - **Size:** 2.98 MB
@@ -8853,15 +9299,16 @@
 ---
 
 ### kitten
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kitten.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kitty.sh
 - **Description:** Cross-platform, fast, feature-rich, GPU based terminal
 - **Note:** 
 - **Author:** kovidgoyal
 - **WebURL:** [https://sw.kovidgoyal.net/kitty/](https://sw.kovidgoyal.net/kitty/)
 - **Repository:** [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
-- **Stars:** 23993
+- **Stars:** 24005
 - **Version:** v0.36.4
-- **Updated:** 2024-10-01T10:01:26Z
+- **Updated:** 2024-10-01T21:25:15Z
 - **Size:** 15.24 MB
 - **SHA256SUM:** 3207d286e5d9e8400b1507c1f1eccda0e3628b1f88b98ebcd27e383b9b052a0b
 - **B3SUM:** 9f923156aca42bdb8305a1d40b583c69a5170a08b581c0716b36fff55902ca55
@@ -8872,13 +9319,14 @@
 ---
 
 ### kmon
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kmon.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kmon.sh
 - **Description:** Linux Kernel Manager and Activity Monitor 🐧💻
 - **Note:** 
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/kmon](https://github.com/orhun/kmon)
 - **Repository:** [https://github.com/orhun/kmon](https://github.com/orhun/kmon)
-- **Stars:** 2518
+- **Stars:** 2519
 - **Version:** v1.6.5
 - **Updated:** 2024-08-25T08:54:57Z
 - **Size:** 1.44 MB
@@ -8891,6 +9339,7 @@
 ---
 
 ### kondo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kondo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kondo.sh
 - **Description:** Cleans dependencies and build artifacts from your projects.
 - **Note:** 
@@ -8910,15 +9359,16 @@
 ---
 
 ### kopia
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kopia.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/kopia.sh
 - **Description:** Backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication
 - **Note:** 
 - **Author:** kopia
 - **WebURL:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
 - **Repository:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
-- **Stars:** 7532
+- **Stars:** 7547
 - **Version:** v0.17.0
-- **Updated:** 2024-10-01T05:43:48Z
+- **Updated:** 2024-10-01T23:14:52Z
 - **Size:** 35.56 MB
 - **SHA256SUM:** 93d45cad6f71ba3c9c35564490049f875fd4e106b47f7bc648913ccaed397c17
 - **B3SUM:** be002d023e8905f3a1524c885cf49efce1ee53987f1de702deb45b4351452254
@@ -8929,6 +9379,7 @@
 ---
 
 ### ksubdomain
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ksubdomain.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ksubdomain.sh
 - **Description:** Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second
 - **Note:** 
@@ -8948,6 +9399,7 @@
 ---
 
 ### ksubdomain_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ksubdomain_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ksubdomain.sh
 - **Description:** Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second
 - **Note:** 
@@ -8967,6 +9419,7 @@
 ---
 
 ### ladder
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ladder.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ladder.sh
 - **Description:** Selfhosted alternative to 12ft.io. and 1ft.io
 - **Note:** 
@@ -8986,13 +9439,14 @@
 ---
 
 ### lazydocker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/lazydocker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lazydocker.sh
 - **Description:** The lazier way to manage everything docker
 - **Note:** 
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
 - **Repository:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
-- **Stars:** 36597
+- **Stars:** 36606
 - **Version:** v0.23.3
 - **Updated:** 2024-08-17T17:45:30Z
 - **Size:** 10.99 MB
@@ -9005,13 +9459,14 @@
 ---
 
 ### lazygit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/lazygit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lazygit.sh
 - **Description:** simple terminal UI for git commands
 - **Note:** 
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 - **Repository:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
-- **Stars:** 51279
+- **Stars:** 51301
 - **Version:** v0.44.1
 - **Updated:** 2024-09-28T10:07:29Z
 - **Size:** 18.25 MB
@@ -9024,13 +9479,14 @@
 ---
 
 ### lf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/lf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lf.sh
 - **Description:** Terminal file manager
 - **Note:** 
 - **Author:** gokcehan
 - **WebURL:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
 - **Repository:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
-- **Stars:** 7657
+- **Stars:** 7661
 - **Version:** r32
 - **Updated:** 2024-09-13T14:25:26Z
 - **Size:** 3.54 MB
@@ -9043,6 +9499,7 @@
 ---
 
 ### libaws
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/libaws.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/libaws.sh
 - **Description:** A simpler way to declare aws infrastructure that is easy to use and extend
 - **Note:** 
@@ -9062,6 +9519,7 @@
 ---
 
 ### nfs-cat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nfs-cat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
 - **Note:** 
@@ -9081,6 +9539,7 @@
 ---
 
 ### nfs-cp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nfs-cp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
 - **Note:** 
@@ -9100,6 +9559,7 @@
 ---
 
 ### nfs-ls
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nfs-ls.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
 - **Note:** 
@@ -9119,6 +9579,7 @@
 ---
 
 ### nfs-stat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nfs-stat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/libnfs.sh
 - **Description:** NFS client library
 - **Note:** 
@@ -9138,6 +9599,7 @@
 ---
 
 ### libtree
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/libtree.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/libtree.sh
 - **Description:** Tree ldd with an option to bundle dependencies into a single folder
 - **Note:** 
@@ -9157,6 +9619,7 @@
 ---
 
 ### linuxwave
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/linuxwave.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/linuxwave.sh
 - **Description:** Generate music from the entropy of Linux 🐧🎵
 - **Note:** 
@@ -9176,13 +9639,14 @@
 ---
 
 ### listmonk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/listmonk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/listmonk.sh
 - **Description:** High performance, self-hosted, newsletter and mailing list manager with a modern dashboard
 - **Note:** 
 - **Author:** knadh
 - **WebURL:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
 - **Repository:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
-- **Stars:** 14691
+- **Stars:** 14697
 - **Version:** v3.0.0
 - **Updated:** 2024-09-25T08:07:13Z
 - **Size:** 14.34 MB
@@ -9195,6 +9659,7 @@
 ---
 
 ### bbscope
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bbscope.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9214,6 +9679,7 @@
 ---
 
 ### bbtargets
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/bbtargets.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9233,6 +9699,7 @@
 ---
 
 ### chainredir
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/chainredir.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9252,6 +9719,7 @@
 ---
 
 ### checkbypass
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/checkbypass.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9271,6 +9739,7 @@
 ---
 
 ### cleanpath
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/cleanpath.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9290,6 +9759,7 @@
 ---
 
 ### doomxss
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/doomxss.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9309,6 +9779,7 @@
 ---
 
 ### eae
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eae.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9328,6 +9799,7 @@
 ---
 
 ### eah
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eah.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9347,6 +9819,7 @@
 ---
 
 ### eap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9366,6 +9839,7 @@
 ---
 
 ### eaparam
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eaparam.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9385,6 +9859,7 @@
 ---
 
 ### eapath
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eapath.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9404,6 +9879,7 @@
 ---
 
 ### earh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/earh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9423,6 +9899,7 @@
 ---
 
 ### eefjsf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/eefjsf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9442,6 +9919,7 @@
 ---
 
 ### genscope
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/genscope.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9461,6 +9939,7 @@
 ---
 
 ### heacoll
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/heacoll.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9480,6 +9959,7 @@
 ---
 
 ### knoxssme
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/knoxssme.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9499,6 +9979,7 @@
 ---
 
 ### kubemetrics
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/kubemetrics.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9518,6 +9999,7 @@
 ---
 
 ### nrp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nrp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9537,6 +10019,7 @@
 ---
 
 ### rapwp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rapwp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9556,6 +10039,7 @@
 ---
 
 ### removehost
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/removehost.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9575,6 +10059,7 @@
 ---
 
 ### removepro
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/removepro.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9594,6 +10079,7 @@
 ---
 
 ### robotstxt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/robotstxt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9613,6 +10099,7 @@
 ---
 
 ### rpfu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rpfu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9632,6 +10119,7 @@
 ---
 
 ### tahm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tahm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lit-bb-hack-tools.sh
 - **Description:** misc bb tools
 - **Note:** 
@@ -9651,13 +10139,14 @@
 ---
 
 ### litefs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/litefs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/litefs.sh
 - **Description:** FUSE-based file system for replicating SQLite databases across a cluster of machines
 - **Note:** 
 - **Author:** superfly
 - **WebURL:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
 - **Repository:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
-- **Stars:** 3954
+- **Stars:** 3957
 - **Version:** v0.5.11
 - **Updated:** 2024-09-24T19:02:39Z
 - **Size:** 12.1 MB
@@ -9670,6 +10159,7 @@
 ---
 
 ### localxpose
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/localxpose.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/localxpose.sh
 - **Description:** reverse proxy that enables you to expose your localhost to the internet.
 - **Note:** 
@@ -9689,6 +10179,7 @@
 ---
 
 ### loclx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/loclx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/localxpose.sh
 - **Description:** reverse proxy that enables you to expose your localhost to the internet.
 - **Note:** 
@@ -9708,13 +10199,14 @@
 ---
 
 ### logdy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/logdy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/logdy.sh
 - **Description:** Web based real-time log viewer
 - **Note:** 
 - **Author:** logdyhq
 - **WebURL:** [https://logdy.dev](https://logdy.dev)
 - **Repository:** [https://github.com/logdyhq/logdy-core](https://github.com/logdyhq/logdy-core)
-- **Stars:** 1214
+- **Stars:** 1215
 - **Version:** v0.13.0
 - **Updated:** 2024-07-22T15:42:58Z
 - **Size:** 34.94 MB
@@ -9727,6 +10219,7 @@
 ---
 
 ### logrotate
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/logrotate.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/logrotate.sh
 - **Description:** Simplify the administration of log files on a system which generates a lot of log files
 - **Note:** 
@@ -9746,6 +10239,7 @@
 ---
 
 ### logstation
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/logstation.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/logstation.sh
 - **Description:** Tail log files in web browser
 - **Note:** 
@@ -9765,6 +10259,7 @@
 ---
 
 ### logtimer
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/logtimer.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/logtimer.sh
 - **Description:** Enhance your output with a timer / date
 - **Note:** 
@@ -9784,6 +10279,7 @@
 ---
 
 ### logcli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/logcli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
 - **Note:** 
@@ -9792,7 +10288,7 @@
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Stars:** 23494
 - **Version:** v3.2.0
-- **Updated:** 2024-10-01T12:43:48Z
+- **Updated:** 2024-10-01T23:32:08Z
 - **Size:** 80.8 MB
 - **SHA256SUM:** 136860e71ff09654dabb857c2b72c5570d9dcc348ddd526764cd2ef81b53d42d
 - **B3SUM:** 3b75c9cdd92ebd3f1c9aae44c66a3b375af6a6b4a95e59f4b75f95675eacc3d7
@@ -9803,6 +10299,7 @@
 ---
 
 ### loki
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/loki.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
 - **Note:** 
@@ -9811,7 +10308,7 @@
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Stars:** 23494
 - **Version:** v3.2.0
-- **Updated:** 2024-10-01T12:43:48Z
+- **Updated:** 2024-10-01T23:32:08Z
 - **Size:** 64.59 MB
 - **SHA256SUM:** 0f8e4d7e571b4cb3a5b4740e5b80bfd6e1ec027102e8b501a3ad63ae3f03b800
 - **B3SUM:** 360d310a935106739ea4616fa36a34c40d71265543a87504c03d6a966074613c
@@ -9822,6 +10319,7 @@
 ---
 
 ### loki-canary
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/loki-canary.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
 - **Note:** 
@@ -9830,7 +10328,7 @@
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Stars:** 23494
 - **Version:** v3.2.0
-- **Updated:** 2024-10-01T12:43:48Z
+- **Updated:** 2024-10-01T23:32:08Z
 - **Size:** 35.03 MB
 - **SHA256SUM:** 0f8e4d7e571b4cb3a5b4740e5b80bfd6e1ec027102e8b501a3ad63ae3f03b800
 - **B3SUM:** 360d310a935106739ea4616fa36a34c40d71265543a87504c03d6a966074613c
@@ -9841,6 +10339,7 @@
 ---
 
 ### promtail
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/promtail.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/loki.sh
 - **Description:** Like Prometheus, but for logs.
 - **Note:** 
@@ -9849,7 +10348,7 @@
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Stars:** 23494
 - **Version:** v3.2.0
-- **Updated:** 2024-10-01T12:43:48Z
+- **Updated:** 2024-10-01T23:32:08Z
 - **Size:** 102.29 MB
 - **SHA256SUM:** f2b0912568c477a9feb3facce9b53c9f67701b045b00e6f0e64b83433797fe85
 - **B3SUM:** b487d5cc9c3edf0cc366e9f063aa74596468c4ea2259c82149e3ac74b1f8af5e
@@ -9860,6 +10359,7 @@
 ---
 
 ### loksh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/loksh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/loksh.sh
 - **Description:** Linux port of OpenBSDs ksh
 - **Note:** 
@@ -9879,13 +10379,14 @@
 ---
 
 ### lsd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/lsd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lsd.sh
 - **Description:** The next gen ls command
 - **Note:** 
 - **Author:** lsd-rs
 - **WebURL:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
 - **Repository:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
-- **Stars:** 13274
+- **Stars:** 13278
 - **Version:** v1.1.5
 - **Updated:** 2024-09-28T04:13:51Z
 - **Size:** 2.99 MB
@@ -9898,6 +10399,7 @@
 ---
 
 ### lsix
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/lsix.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lsix.sh
 - **Description:** Like ls, but for images. Shows thumbnails in terminal using sixel graphics.
 - **Note:** 
@@ -9917,6 +10419,7 @@
 ---
 
 ### lsof
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/lsof.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lsof.sh
 - **Description:** A tool to list open files
 - **Note:** 
@@ -9936,6 +10439,7 @@
 ---
 
 ### luet
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/luet.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/luet.sh
 - **Description:** 📦 🐳 0-dependency Container-based Package Manager
 - **Note:** 
@@ -9955,13 +10459,14 @@
 ---
 
 ### lux
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/lux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/lux.sh
 - **Description:** 👾 Fast and simple video download library and CLI tool written in Go
 - **Note:** 
 - **Author:** iawia002
 - **WebURL:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
 - **Repository:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
-- **Stars:** 27258
+- **Stars:** 27261
 - **Version:** v0.24.1
 - **Updated:** 2024-09-27T07:11:01Z
 - **Size:** 21.74 MB
@@ -9974,6 +10479,7 @@
 ---
 
 ### mabel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mabel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mabel.sh
 - **Description:** A fancy BitTorrent client for the terminal.
 - **Note:** 
@@ -9993,6 +10499,7 @@
 ---
 
 ### macchina
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/macchina.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/macchina.sh
 - **Description:** system-info-fetch
 - **Note:** 
@@ -10012,13 +10519,14 @@
 ---
 
 ### maddy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/maddy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/maddy.sh
 - **Description:** ✉️ Composable all-in-one mail server.
 - **Note:** 
 - **Author:** foxcpp
 - **WebURL:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
 - **Repository:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
-- **Stars:** 5032
+- **Stars:** 5031
 - **Version:** v0.7.1
 - **Updated:** 2024-08-31T12:26:59Z
 - **Size:** 26.98 MB
@@ -10031,13 +10539,14 @@
 ---
 
 ### mailpit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mailpit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mailpit.sh
 - **Description:** An email and SMTP testing tool with API for developers
 - **Note:** 
 - **Author:** axllent
 - **WebURL:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
 - **Repository:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
-- **Stars:** 5423
+- **Stars:** 5438
 - **Version:** v1.20.5
 - **Updated:** 2024-10-01T09:58:31Z
 - **Size:** 19.65 MB
@@ -10050,6 +10559,7 @@
 ---
 
 ### mani
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mani.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mani.sh
 - **Description:** CLI tool that helps you manage multiple repositories
 - **Note:** 
@@ -10069,6 +10579,7 @@
 ---
 
 ### mantra
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mantra.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mantra.sh
 - **Description:** 「🔑」A tool used to hunt down API key leaks in JS files and pages
 - **Note:** 
@@ -10088,13 +10599,14 @@
 ---
 
 ### mapcidr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mapcidr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mapcidr.sh
 - **Description:** Utility program to perform multiple operations for a given subnet/CIDR ranges
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/mapcidr](https://github.com/projectdiscovery/mapcidr)
 - **Repository:** [https://github.com/projectdiscovery/mapcidr](https://github.com/projectdiscovery/mapcidr)
-- **Stars:** 980
+- **Stars:** 981
 - **Version:** v1.1.34
 - **Updated:** 2024-09-30T21:53:35Z
 - **Size:** 23.8 MB
@@ -10107,13 +10619,14 @@
 ---
 
 ### masscan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/masscan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/masscan.sh
 - **Description:** TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
 - **Note:** 
 - **Author:** robertdavidgraham
 - **WebURL:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
 - **Repository:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
-- **Stars:** 23443
+- **Stars:** 23445
 - **Version:** 1.3.2
 - **Updated:** 2024-08-13T01:38:30Z
 - **Size:** 541.85 kB
@@ -10126,13 +10639,14 @@
 ---
 
 ### massdns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/massdns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/massdns.sh
 - **Description:** A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
 - **Note:** 
 - **Author:** blechschmidt
 - **WebURL:** [https://github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns)
 - **Repository:** [https://github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns)
-- **Stars:** 3126
+- **Stars:** 3127
 - **Version:** v1.1.0
 - **Updated:** 2024-03-11T21:34:47Z
 - **Size:** 109.97 kB
@@ -10145,13 +10659,14 @@
 ---
 
 ### matterbridge
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/matterbridge.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/matterbridge.sh
 - **Description:** A simple chat bridge
 - **Note:** 
 - **Author:** 42wim
 - **WebURL:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
 - **Repository:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
-- **Stars:** 6586
+- **Stars:** 6587
 - **Version:** v1.26.0
 - **Updated:** 2024-08-27T17:04:10Z
 - **Size:** 48.61 MB
@@ -10164,6 +10679,7 @@
 ---
 
 ### mawk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mawk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mawk.sh
 - **Description:** Interpreter for the AWK Programming Language
 - **Note:** 
@@ -10183,6 +10699,7 @@
 ---
 
 ### mc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mc.sh
 - **Description:** Drive performance measurement tool
 - **Note:** 
@@ -10191,7 +10708,7 @@
 - **Repository:** [https://github.com/minio/mc](https://github.com/minio/mc)
 - **Stars:** 2832
 - **Version:** RELEASE.2024-09-16T17-43-14Z
-- **Updated:** 2024-09-27T12:08:56Z
+- **Updated:** 2024-10-01T22:14:33Z
 - **Size:** 26.57 MB
 - **SHA256SUM:** 4b6e9c0e9ebab28bb3971c53eda933f068962b8f933302fe09f0bb9e0c4de5b0
 - **B3SUM:** ddb36d4f2265413883a77946e899f2742c998ad6941ab3255670e203e1c5ad46
@@ -10202,13 +10719,14 @@
 ---
 
 ### mcfly
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mcfly.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mcfly.sh
 - **Description:** Fly through your shell history.
 - **Note:** 
 - **Author:** cantino
 - **WebURL:** [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
 - **Repository:** [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
-- **Stars:** 6884
+- **Stars:** 6885
 - **Version:** v0.9.2
 - **Updated:** 2024-09-04T00:42:11Z
 - **Size:** 4.5 MB
@@ -10221,13 +10739,14 @@
 ---
 
 ### mdcat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mdcat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mdcat.sh
 - **Description:** cat for markdown
 - **Note:** 
 - **Author:** swsnr
 - **WebURL:** [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 - **Repository:** [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
-- **Stars:** 2127
+- **Stars:** 2128
 - **Version:** mdcat-2.5.0
 - **Updated:** 2024-09-26T20:06:37Z
 - **Size:** 10.55 MB
@@ -10240,13 +10759,14 @@
 ---
 
 ### mdp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mdp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mdp.sh
 - **Description:** A command-line based markdown presentation tool
 - **Note:** 
 - **Author:** visit1985
 - **WebURL:** [https://github.com/visit1985/mdp](https://github.com/visit1985/mdp)
 - **Repository:** [https://github.com/visit1985/mdp](https://github.com/visit1985/mdp)
-- **Stars:** 4937
+- **Stars:** 4938
 - **Version:** 1.0.15
 - **Updated:** 2024-06-10T13:48:04Z
 - **Size:** 396.58 kB
@@ -10259,13 +10779,14 @@
 ---
 
 ### mdsh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mdsh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mdsh.sh
 - **Description:** $ mdsh
 - **Note:** 
 - **Author:** zimbatm
 - **WebURL:** [https://github.com/zimbatm/mdsh](https://github.com/zimbatm/mdsh)
 - **Repository:** [https://github.com/zimbatm/mdsh](https://github.com/zimbatm/mdsh)
-- **Stars:** 119
+- **Stars:** 120
 - **Version:** v0.9.0
 - **Updated:** 2024-09-29T15:32:38Z
 - **Size:** 1.94 MB
@@ -10278,6 +10799,7 @@
 ---
 
 ### melange
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/melange.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/melange.sh
 - **Description:** build APKs from source code
 - **Note:** 
@@ -10297,6 +10819,7 @@
 ---
 
 ### meli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/meli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/meli.sh
 - **Description:** 🐝 terminal mail client
 - **Note:** 
@@ -10316,13 +10839,14 @@
 ---
 
 ### mergerfs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mergerfs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mergerfs.sh
 - **Description:** A featureful union filesystem
 - **Note:** 
 - **Author:** trapexit
 - **WebURL:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
 - **Repository:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
-- **Stars:** 4207
+- **Stars:** 4210
 - **Version:** 2.40.2
 - **Updated:** 2024-07-18T20:28:42Z
 - **Size:** 1.97 MB
@@ -10335,6 +10859,7 @@
 ---
 
 ### mgwls
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mgwls.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mgwls.sh
 - **Description:** Combine words from two wordlist files and concatenate them with an optional delimiter
 - **Note:** 
@@ -10354,15 +10879,16 @@
 ---
 
 ### micro
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/micro.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/micro.sh
 - **Description:** A modern and intuitive terminal-based text editor
 - **Note:** 
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24917
+- **Stars:** 24923
 - **Version:** v2.0.14
-- **Updated:** 2024-10-01T00:23:32Z
+- **Updated:** 2024-10-02T00:21:17Z
 - **Size:** 12.16 MB
 - **SHA256SUM:** 31c2fecd3365f5560b54ad0e905bd9ba3e6cba6ba10a6edee7324c3ae8f33a94
 - **B3SUM:** c28a4ab46666f70c329b8bbbe7ed2b020fa7776560edec8d23e3ae03286a95a7
@@ -10373,13 +10899,14 @@
 ---
 
 ### mlr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mlr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/miller.sh
 - **Description:** Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
 - **Note:** 
 - **Author:** johnkerl
 - **WebURL:** [https://github.com/johnkerl/miller](https://github.com/johnkerl/miller)
 - **Repository:** [https://github.com/johnkerl/miller](https://github.com/johnkerl/miller)
-- **Stars:** 8907
+- **Stars:** 8908
 - **Version:** v6.12.0
 - **Updated:** 2024-10-01T11:32:03Z
 - **Size:** 33.74 MB
@@ -10392,6 +10919,7 @@
 ---
 
 ### miniflux
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/miniflux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/miniflux.sh
 - **Description:** Minimalist and opinionated feed reader
 - **Note:** 
@@ -10411,13 +10939,14 @@
 ---
 
 ### miniserve
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/miniserve.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/miniserve.sh
 - **Description:** CLI tool to serve files and dirs over HTTP
 - **Note:** 
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - **Repository:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
-- **Stars:** 6016
+- **Stars:** 6013
 - **Version:** v0.28.0
 - **Updated:** 2024-10-01T04:31:12Z
 - **Size:** 1.87 MB
@@ -10430,6 +10959,7 @@
 ---
 
 ### minisign
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/minisign.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/minisign.sh
 - **Description:** A dead simple tool to sign files and verify digital signatures.
 - **Note:** 
@@ -10449,6 +10979,7 @@
 ---
 
 ### mirrorbits
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mirrorbits.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mirrorbits.sh
 - **Description:** geographical download redirector written in Go for distributing files efficiently across a set of mirrors.
 - **Note:** 
@@ -10468,15 +10999,16 @@
 ---
 
 ### mise
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mise.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mise.sh
 - **Description:** dev tools, env vars, task runner
 - **Note:** 
 - **Author:** jdx
 - **WebURL:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
 - **Repository:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
-- **Stars:** 9342
+- **Stars:** 9348
 - **Version:** v2024.9.13
-- **Updated:** 2024-10-01T00:19:37Z
+- **Updated:** 2024-10-02T00:23:06Z
 - **Size:** 21.11 MB
 - **SHA256SUM:** d9f83c53a844071e5a6581957ea43dfb2a508ddc691854d987548df29b401797
 - **B3SUM:** 4e4d66b3d4cc413645c0e49247e8d6064c4bead9901c45796a0d58f0c570672d
@@ -10487,6 +11019,7 @@
 ---
 
 ### mkpasswd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mkpasswd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mkpasswd.sh
 - **Description:** 
 - **Note:** 
@@ -10506,6 +11039,7 @@
 ---
 
 ### mksub
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mksub.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mksub.sh
 - **Description:** Generate tens of thousands of subdomain combinations in a matter of seconds
 - **Note:** 
@@ -10525,6 +11059,7 @@
 ---
 
 ### mmv
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mmv.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mmv.sh
 - **Description:** rename multiple files with editor
 - **Note:** 
@@ -10544,6 +11079,7 @@
 ---
 
 ### moac
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/moac.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/moac.sh
 - **Description:** Go Implementation of WireGuard
 - **Note:** 
@@ -10563,6 +11099,7 @@
 ---
 
 ### moac-pwgen
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/moac-pwgen.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/moac.sh
 - **Description:** Go Implementation of WireGuard
 - **Note:** 
@@ -10582,6 +11119,7 @@
 ---
 
 ### monolith
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/monolith.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/monolith.sh
 - **Description:** ⬛️ CLI tool for saving complete web pages as a single HTML file
 - **Note:** 
@@ -10601,13 +11139,14 @@
 ---
 
 ### mosh-client
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mosh-client.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mosh.sh
 - **Description:** the mobile shell
 - **Note:** 
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12593
+- **Stars:** 12595
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-17T12:43:50Z
 - **Size:** 3.16 MB
@@ -10620,13 +11159,14 @@
 ---
 
 ### mosh-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mosh-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mosh.sh
 - **Description:** the mobile shell
 - **Note:** 
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12593
+- **Stars:** 12595
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-17T12:43:50Z
 - **Size:** 3.15 MB
@@ -10639,6 +11179,7 @@
 ---
 
 ### mqttui
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mqttui.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mqttui.sh
 - **Description:** Subscribe to a MQTT Topic or publish something quickly from the terminal
 - **Note:** 
@@ -10658,13 +11199,14 @@
 ---
 
 ### mtr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mtr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mtr.sh
 - **Description:** a network diagnostic tool
 - **Note:** 
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
-- **Stars:** 2656
+- **Stars:** 2657
 - **Version:** v0.95
 - **Updated:** 2024-08-27T17:12:57Z
 - **Size:** 594.75 kB
@@ -10677,13 +11219,14 @@
 ---
 
 ### mtr-packet
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mtr-packet.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mtr.sh
 - **Description:** a network diagnostic tool
 - **Note:** 
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
-- **Stars:** 2656
+- **Stars:** 2657
 - **Version:** v0.95
 - **Updated:** 2024-08-27T17:12:57Z
 - **Size:** 132.84 kB
@@ -10696,6 +11239,7 @@
 ---
 
 ### mubeng
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/mubeng.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mubeng.sh
 - **Description:** An incredibly fast proxy checker & IP rotator with ease
 - **Note:** 
@@ -10715,13 +11259,14 @@
 ---
 
 ### naabu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/naabu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/naabu.sh
 - **Description:** A fast port scanner written in go with a focus on reliability and simplicity
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
 - **Repository:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
-- **Stars:** 4653
+- **Stars:** 4655
 - **Version:** v2.3.1
 - **Updated:** 2024-09-30T14:10:47Z
 - **Size:** 33.89 MB
@@ -10734,13 +11279,14 @@
 ---
 
 ### naabu_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/naabu_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/naabu.sh
 - **Description:** A fast port scanner written in go with a focus on reliability and simplicity
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
 - **Repository:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
-- **Stars:** 4653
+- **Stars:** 4655
 - **Version:** v2.3.1
 - **Updated:** 2024-09-30T14:10:47Z
 - **Size:** 9.46 MB
@@ -10753,6 +11299,7 @@
 ---
 
 ### namegen
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/namegen.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/namegen.sh
 - **Description:** A unique(ish) random name and id generator
 - **Note:** 
@@ -10760,8 +11307,8 @@
 - **WebURL:** [https://github.com/anandvarma/namegen](https://github.com/anandvarma/namegen)
 - **Repository:** [https://github.com/anandvarma/namegen](https://github.com/anandvarma/namegen)
 - **Stars:** 22
-- **Version:** v1.1
-- **Updated:** 2024-09-18T17:14:09Z
+- **Version:** v1.1.1
+- **Updated:** 2024-10-01T18:36:17Z
 - **Size:** 1.57 MB
 - **SHA256SUM:** 8545a5f21c50ae426c9e005d8950480dfec1e7193eeb4db720374a7ae0440ad3
 - **B3SUM:** a5aff893615051a9f6f05bf2928b785bb59c045308a0d3f825aada9a4273179d
@@ -10772,13 +11319,14 @@
 ---
 
 ### navi
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/navi.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/navi.sh
 - **Description:** An interactive cheatsheet tool for the command-line
 - **Note:** 
 - **Author:** denisidoro
 - **WebURL:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
 - **Repository:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
-- **Stars:** 14900
+- **Stars:** 14902
 - **Version:** v2.23.0
 - **Updated:** 2024-09-29T01:53:07Z
 - **Size:** 2.46 MB
@@ -10791,6 +11339,7 @@
 ---
 
 ### ncdu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ncdu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ncdu.sh
 - **Description:** disk usage analyzer
 - **Note:** 
@@ -10810,13 +11359,14 @@
 ---
 
 ### neofetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/neofetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/neofetch.sh
 - **Description:** Updated Fork
 - **Note:** 
 - **Author:** hykilpikonna
 - **WebURL:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
 - **Repository:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
-- **Stars:** 1289
+- **Stars:** 1291
 - **Version:** 1.4.11
 - **Updated:** 2024-09-07T04:51:58Z
 - **Size:** 564.57 kB
@@ -10829,15 +11379,16 @@
 ---
 
 ### nerdctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nerdctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nerdctl.sh
 - **Description:** Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS
 - **Note:** 
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
 - **Repository:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
-- **Stars:** 7977
+- **Stars:** 7978
 - **Version:** v1.7.7
-- **Updated:** 2024-09-30T22:07:44Z
+- **Updated:** 2024-10-01T22:15:35Z
 - **Size:** 24.75 MB
 - **SHA256SUM:** f52163c60255eb04af7f1d903c050e2058dc51119ad304dfaacd16c2df0732c7
 - **B3SUM:** 2dae030513fab3230ec192cbacc8ac66e4da3173f0bc425298292c8e7a5a5c35
@@ -10848,15 +11399,16 @@
 ---
 
 ### netbird
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/netbird.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netbird.sh
 - **Description:** Connects Devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls
 - **Note:** 
 - **Author:** netbirdio
 - **WebURL:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 - **Repository:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
-- **Stars:** 10742
+- **Stars:** 10745
 - **Version:** v0.29.4
-- **Updated:** 2024-10-01T11:32:58Z
+- **Updated:** 2024-10-01T22:31:02Z
 - **Size:** 27.68 MB
 - **SHA256SUM:** 8c5ad236101b0e8fbaf95ae2d0402fd769704a29ef9948a54ffcb17a1ae94197
 - **B3SUM:** 29522c9bbd23274fdbe77ff76e29d1b23de008b0509d5df7b171f44a76a92e50
@@ -10867,6 +11419,7 @@
 ---
 
 ### netcat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/netcat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netcat-gnu.sh
 - **Description:** TCP/IP swiss army knife (GNU-variant)
 - **Note:** 
@@ -10886,13 +11439,14 @@
 ---
 
 ### netexec
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/netexec.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netexec.sh
 - **Description:** The Network Execution (CrackMapExec) Tool
 - **Note:** 
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
-- **Stars:** 2911
+- **Stars:** 2913
 - **Version:** v1.2.0
 - **Updated:** 2024-09-28T21:03:00Z
 - **Size:** 13.3 MB
@@ -10905,13 +11459,14 @@
 ---
 
 ### netexec_dynamic
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/netexec_dynamic.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netexec.sh
 - **Description:** The Network Execution (CrackMapExec) Tool
 - **Note:** 
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
-- **Stars:** 2911
+- **Stars:** 2913
 - **Version:** v1.2.0
 - **Updated:** 2024-09-28T21:03:00Z
 - **Size:** 12.4 MB
@@ -10924,6 +11479,7 @@
 ---
 
 ### netmaker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/netmaker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netmaker.sh
 - **Description:** makes networks with WireGuard
 - **Note:** 
@@ -10932,7 +11488,7 @@
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Stars:** 9414
 - **Version:** v0.25.0
-- **Updated:** 2024-10-01T07:54:04Z
+- **Updated:** 2024-10-01T13:48:36Z
 - **Size:** 14.22 MB
 - **SHA256SUM:** 72ef23704b55401b3ecb2567e6d538cd760928babde0581def5f03a4940c67d8
 - **B3SUM:** d542a9f640cb5d8621a908a4b0d9194d3434cf78d02cf530fb32bfdac9085557
@@ -10943,6 +11499,7 @@
 ---
 
 ### nmctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nmctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netmaker.sh
 - **Description:** makes networks with WireGuard
 - **Note:** 
@@ -10951,7 +11508,7 @@
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Stars:** 9414
 - **Version:** v0.25.0
-- **Updated:** 2024-10-01T07:54:04Z
+- **Updated:** 2024-10-01T13:48:36Z
 - **Size:** 11.5 MB
 - **SHA256SUM:** eb206d1e460697bcee1ada2abc6d4fca71dae252c192ca2e035d301d349f76b3
 - **B3SUM:** 24131e5b19297b8eb817bf08c65ddedc4e657efcbafe7f7739cefa38ee5d2a4d
@@ -10962,6 +11519,7 @@
 ---
 
 ### netscanner
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/netscanner.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netscanner.sh
 - **Description:** Network scanner & diagnostic tool with modern TUI
 - **Note:** 
@@ -10981,6 +11539,7 @@
 ---
 
 ### netstat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/netstat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/netstat.sh
 - **Description:** 
 - **Note:** 
@@ -11000,6 +11559,7 @@
 ---
 
 ### nezha-agent
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nezha-agent.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
 - **Note:** 
@@ -11019,6 +11579,7 @@
 ---
 
 ### nezha-dashboard
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nezha-dashboard.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
 - **Note:** 
@@ -11038,6 +11599,7 @@
 ---
 
 ### nezha-dashboard.openrc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nezha-dashboard.openrc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
 - **Note:** 
@@ -11057,6 +11619,7 @@
 ---
 
 ### nezha-dashboard.service
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nezha-dashboard.service.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
 - **Note:** 
@@ -11076,6 +11639,7 @@
 ---
 
 ### nezha-install.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nezha-install.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nezha.sh
 - **Description:** Self-hosted, lightweight server and website monitoring and O&M tool
 - **Note:** 
@@ -11095,6 +11659,7 @@
 ---
 
 ### nginx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nginx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nginx.sh
 - **Description:** Static Nginx and njs binaries for Linux
 - **Note:** 
@@ -11114,6 +11679,7 @@
 ---
 
 ### njs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/njs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nginx.sh
 - **Description:** Static Nginx and njs binaries for Linux
 - **Note:** 
@@ -11133,6 +11699,7 @@
 ---
 
 ### ngocok
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ngocok.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ngocok.sh
 - **Description:** ngrok Collaborator Link — yet another Burp Collaborator alternative for free with ngrok.
 - **Note:** 
@@ -11152,6 +11719,7 @@
 ---
 
 ### ngrok
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ngrok.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ngrok.sh
 - **Description:** External Tunnel to Internal Assets
 - **Note:** 
@@ -11171,13 +11739,14 @@
 ---
 
 ### nmap-formatter
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nmap-formatter.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nmap-formatter.sh
 - **Description:** A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite
 - **Note:** 
 - **Author:** vdjagilev
 - **WebURL:** [https://github.com/vdjagilev/nmap-formatter](https://github.com/vdjagilev/nmap-formatter)
 - **Repository:** [https://github.com/vdjagilev/nmap-formatter](https://github.com/vdjagilev/nmap-formatter)
-- **Stars:** 642
+- **Stars:** 643
 - **Version:** v3.0.2
 - **Updated:** 2024-08-18T18:20:50Z
 - **Size:** 27.56 MB
@@ -11190,13 +11759,14 @@
 ---
 
 ### ncat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ncat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nmap.sh
 - **Description:** port scanner
 - **Note:** 
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 9978
+- **Stars:** 9979
 - **Version:** 
 - **Updated:** 2024-09-27T19:30:05Z
 - **Size:** 4.55 MB
@@ -11209,13 +11779,14 @@
 ---
 
 ### nmap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nmap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nmap.sh
 - **Description:** port scanner
 - **Note:** 
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 9978
+- **Stars:** 9979
 - **Version:** 
 - **Updated:** 2024-09-27T19:30:05Z
 - **Size:** 8.46 MB
@@ -11228,13 +11799,14 @@
 ---
 
 ### nping
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nping.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nmap.sh
 - **Description:** port scanner
 - **Note:** 
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 9978
+- **Stars:** 9979
 - **Version:** 
 - **Updated:** 2024-09-27T19:30:05Z
 - **Size:** 4.75 MB
@@ -11247,6 +11819,7 @@
 ---
 
 ### nmapurls
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nmapurls.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nmapurls.sh
 - **Description:** parses Nmap xml reports and outputs a list of http(s) URLs
 - **Note:** 
@@ -11266,13 +11839,14 @@
 ---
 
 ### nnn
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nnn.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nnn.sh
 - **Description:** n³ The unorthodox terminal file manager
 - **Note:** 
 - **Author:** jarun
 - **WebURL:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
 - **Repository:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
-- **Stars:** 19077
+- **Stars:** 19087
 - **Version:** v5.0
 - **Updated:** 2024-09-29T16:16:40Z
 - **Size:** 395.3 kB
@@ -11285,6 +11859,7 @@
 ---
 
 ### noir
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/noir.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/noir.sh
 - **Description:** ♠️ Noir is an attack surface detector that identifies endpoints by static analysis
 - **Note:** 
@@ -11293,7 +11868,7 @@
 - **Repository:** [https://github.com/hahwul/noir](https://github.com/hahwul/noir)
 - **Stars:** 557
 - **Version:** v0.17.0
-- **Updated:** 2024-09-30T15:21:42Z
+- **Updated:** 2024-10-01T13:39:12Z
 - **Size:** 8.95 MB
 - **SHA256SUM:** 01492be98d140f07bc03c699ac11420fff90be381f0492326aa19de9037c595b
 - **B3SUM:** bdc609ec07966335fe08727184c451d2d1367edeee36f0d2b5fcd1db9f7b0990
@@ -11304,13 +11879,14 @@
 ---
 
 ### nomore403
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nomore403.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nomore403.sh
 - **Description:** Tool to bypass 403/40X response codes.
 - **Note:** 
 - **Author:** devploit
 - **WebURL:** [https://github.com/devploit/nomore403](https://github.com/devploit/nomore403)
 - **Repository:** [https://github.com/devploit/nomore403](https://github.com/devploit/nomore403)
-- **Stars:** 1091
+- **Stars:** 1092
 - **Version:** 1.0.1
 - **Updated:** 2024-07-30T07:25:47Z
 - **Size:** 8.41 MB
@@ -11323,6 +11899,7 @@
 ---
 
 ### noseyparker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/noseyparker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/noseyparker.sh
 - **Description:** command-line program that finds secrets and sensitive information in textual data and Git history.
 - **Note:** 
@@ -11342,6 +11919,7 @@
 ---
 
 ### notify
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/notify.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/notify.sh
 - **Description:** stream the output of several tools (or read from a file) and send notifications
 - **Note:** 
@@ -11361,15 +11939,16 @@
 ---
 
 ### nuclei
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nuclei.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nuclei.sh
 - **Description:** Fast and customizable vulnerability scanner based on simple YAML based DSL
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 - **Repository:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
-- **Stars:** 20105
+- **Stars:** 20113
 - **Version:** v3.3.4
-- **Updated:** 2024-10-01T12:11:25Z
+- **Updated:** 2024-10-01T15:44:32Z
 - **Size:** 78.22 MB
 - **SHA256SUM:** d7cd2d8eb1ff99353336207cf3918d874181fdd8832f69d389748bf285e1fbd4
 - **B3SUM:** 43556352ca81561066d1f7462fc47117a807198a049b6da9fd245e7c11ec9c47
@@ -11380,6 +11959,7 @@
 ---
 
 ### memhog
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/memhog.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
 - **Note:** 
@@ -11399,6 +11979,7 @@
 ---
 
 ### migratepages
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/migratepages.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
 - **Note:** 
@@ -11418,6 +11999,7 @@
 ---
 
 ### migspeed
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/migspeed.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
 - **Note:** 
@@ -11437,6 +12019,7 @@
 ---
 
 ### numactl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/numactl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
 - **Note:** 
@@ -11456,6 +12039,7 @@
 ---
 
 ### numademo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/numademo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
 - **Note:** 
@@ -11475,6 +12059,7 @@
 ---
 
 ### numastat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/numastat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/numactl.sh
 - **Description:** NUMA stats
 - **Note:** 
@@ -11494,15 +12079,16 @@
 ---
 
 ### nu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nushell.sh
 - **Description:** A new type of shell
 - **Note:** 
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 31817
+- **Stars:** 31828
 - **Version:** 0.98.0
-- **Updated:** 2024-10-01T11:28:14Z
+- **Updated:** 2024-10-02T01:08:44Z
 - **Size:** 36.05 MB
 - **SHA256SUM:** b4998d5ffeedc456c1256e71206aea09f25da00ab102df8c731b4c1ef7f526d7
 - **B3SUM:** 3f16973be26cf0c2721c3a8aa318cefdec9e209a419fb0db02300c4da68f0b68
@@ -11513,15 +12099,16 @@
 ---
 
 ### nushell
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nushell.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nushell.sh
 - **Description:** A new type of shell
 - **Note:** 
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 31817
+- **Stars:** 31828
 - **Version:** 0.98.0
-- **Updated:** 2024-10-01T11:28:14Z
+- **Updated:** 2024-10-02T01:08:44Z
 - **Size:** 36.05 MB
 - **SHA256SUM:** b4998d5ffeedc456c1256e71206aea09f25da00ab102df8c731b4c1ef7f526d7
 - **B3SUM:** 3f16973be26cf0c2721c3a8aa318cefdec9e209a419fb0db02300c4da68f0b68
@@ -11532,6 +12119,7 @@
 ---
 
 ### nvme
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nvme.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nvme-cli.sh
 - **Description:** NVMe management command line interface.
 - **Note:** 
@@ -11540,7 +12128,7 @@
 - **Repository:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
 - **Stars:** 1456
 - **Version:** v2.10.2
-- **Updated:** 2024-09-30T16:29:16Z
+- **Updated:** 2024-10-01T14:46:18Z
 - **Size:** 4.96 MB
 - **SHA256SUM:** 704e6341f136a40452b6b0a48fc567d64cdf14ce54005c6af8af41a43f322650
 - **B3SUM:** a9d923e36dd9d221c07cbc1db20e0d32ffbdaec996308d656259c840c253e388
@@ -11551,6 +12139,7 @@
 ---
 
 ### nvme-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/nvme-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nvme-cli.sh
 - **Description:** NVMe management command line interface.
 - **Note:** 
@@ -11559,7 +12148,7 @@
 - **Repository:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
 - **Stars:** 1456
 - **Version:** v2.10.2
-- **Updated:** 2024-09-30T16:29:16Z
+- **Updated:** 2024-10-01T14:46:18Z
 - **Size:** 4.96 MB
 - **SHA256SUM:** 704e6341f136a40452b6b0a48fc567d64cdf14ce54005c6af8af41a43f322650
 - **B3SUM:** a9d923e36dd9d221c07cbc1db20e0d32ffbdaec996308d656259c840c253e388
@@ -11570,15 +12159,16 @@
 ---
 
 ### ockam
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ockam.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ockam.sh
 - **Description:** Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
 - **Note:** 
 - **Author:** build-trust
 - **WebURL:** [https://github.com/build-trust/ockam](https://github.com/build-trust/ockam)
 - **Repository:** [https://github.com/build-trust/ockam](https://github.com/build-trust/ockam)
-- **Stars:** 4440
+- **Stars:** 4441
 - **Version:** ockam_v0.134.0
-- **Updated:** 2024-10-01T12:19:23Z
+- **Updated:** 2024-10-01T22:31:32Z
 - **Size:** 59.68 MB
 - **SHA256SUM:** f846f90430ece150b1942321a73553f674d876024b376c035167438458cbb1c9
 - **B3SUM:** ef5ca63040388fdead132381ef65f03e5593ad110aac3516d911fd50e4e0017f
@@ -11589,13 +12179,14 @@
 ---
 
 ### oha
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/oha.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/oha.sh
 - **Description:** HTTP load generator
 - **Note:** 
 - **Author:** hatoo
 - **WebURL:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 - **Repository:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
-- **Stars:** 5409
+- **Stars:** 5430
 - **Version:** v1.4.6
 - **Updated:** 2024-09-30T05:09:09Z
 - **Size:** 10.15 MB
@@ -11608,6 +12199,7 @@
 ---
 
 ### oksh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/oksh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/oksh.sh
 - **Description:** Portable OpenBSD ksh, based on the Public Domain Korn Shell (pdksh)
 - **Note:** 
@@ -11627,6 +12219,7 @@
 ---
 
 ### onetun
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/onetun.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/onetun.sh
 - **Description:** User space WireGuard proxy in Rust
 - **Note:** 
@@ -11646,6 +12239,7 @@
 ---
 
 ### ocat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ocat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/onioncat.sh
 - **Description:** VPN adapter for Tor and I2P
 - **Note:** 
@@ -11665,6 +12259,7 @@
 ---
 
 ### onioncat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/onioncat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/onioncat.sh
 - **Description:** VPN adapter for Tor and I2P
 - **Note:** 
@@ -11684,6 +12279,7 @@
 ---
 
 ### onionpipe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/onionpipe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/onionpipe.sh
 - **Description:** Forward ports on the local host to remote Onion addresses as Tor hidden services and vice-versa
 - **Note:** 
@@ -11703,6 +12299,7 @@
 ---
 
 ### miniooni
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/miniooni.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ooniprobe.sh
 - **Description:** OONI Probe Engine and CLI
 - **Note:** 
@@ -11722,6 +12319,7 @@
 ---
 
 ### ooniprobe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ooniprobe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ooniprobe.sh
 - **Description:** OONI Probe Engine and CLI
 - **Note:** 
@@ -11741,13 +12339,14 @@
 ---
 
 ### openapi-tui
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/openapi-tui.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/openapi-tui.sh
 - **Description:** Terminal UI to list, browse and run APIs defined with openapi spec.
 - **Note:** 
 - **Author:** zaghaghi
 - **WebURL:** [https://github.com/zaghaghi/openapi-tui](https://github.com/zaghaghi/openapi-tui)
 - **Repository:** [https://github.com/zaghaghi/openapi-tui](https://github.com/zaghaghi/openapi-tui)
-- **Stars:** 633
+- **Stars:** 634
 - **Version:** 0.9.4
 - **Updated:** 2024-07-27T09:45:44Z
 - **Size:** 11.57 MB
@@ -11760,13 +12359,14 @@
 ---
 
 ### opengfw
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/opengfw.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/opengfw.sh
 - **Description:** a flexible, easy-to-use, open source implementation of GFW (Great Firewall of China) on Linux
 - **Note:** 
 - **Author:** apernet
 - **WebURL:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
 - **Repository:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
-- **Stars:** 9567
+- **Stars:** 9568
 - **Version:** v0.4.0
 - **Updated:** 2024-06-12T23:17:04Z
 - **Size:** 13.43 MB
@@ -11779,15 +12379,16 @@
 ---
 
 ### opengist
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/opengist.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/opengist.sh
 - **Description:** Self-hosted pastebin powered by Git, open-source alternative to Github Gist.
 - **Note:** 
 - **Author:** thomiceli
 - **WebURL:** [https://github.com/thomiceli/opengist](https://github.com/thomiceli/opengist)
 - **Repository:** [https://github.com/thomiceli/opengist](https://github.com/thomiceli/opengist)
-- **Stars:** 1693
+- **Stars:** 1694
 - **Version:** v1.7.5
-- **Updated:** 2024-09-30T07:30:23Z
+- **Updated:** 2024-10-02T01:13:23Z
 - **Size:** 47.87 MB
 - **SHA256SUM:** acf8dc04148a07e0b3b80f60d1eaff8bdcd8114b246824ef470331eadca43e55
 - **B3SUM:** b4f6f99cead18415e2e04ce24bde290b37d2b661ba8ce5c7cc3c186a59c6b72a
@@ -11798,6 +12399,7 @@
 ---
 
 ### openrisk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/openrisk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/openrisk.sh
 - **Description:** Generates a risk score based on the results of a Nuclei scan
 - **Note:** 
@@ -11817,6 +12419,7 @@
 ---
 
 ### openvpn
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/openvpn.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/openvpn.sh
 - **Description:** A robust and highly flexible tunneling application
 - **Note:** 
@@ -11825,7 +12428,7 @@
 - **Repository:** [https://github.com/OpenVPN/openvpn](https://github.com/OpenVPN/openvpn)
 - **Stars:** 10739
 - **Version:** v2.6.12
-- **Updated:** 2024-10-01T03:00:22Z
+- **Updated:** 2024-10-01T14:19:29Z
 - **Size:** 4.94 MB
 - **SHA256SUM:** cf17b149bbeacf7c88f3f01d20c0f55aa6b3b9b64ee13c693ff32aec15fb0ad3
 - **B3SUM:** f7b6d0b26793209093209a8fbc12bba216f7158c5e6ed6cc9ab0f1f888eefdf6
@@ -11836,6 +12439,7 @@
 ---
 
 ### orbiton
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/orbiton.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/orbiton.sh
 - **Description:** Fast and config-free text editor and IDE limited to VT100
 - **Note:** 
@@ -11855,13 +12459,14 @@
 ---
 
 ### osmedeus
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/osmedeus.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/osmedeus.sh
 - **Description:** A Workflow Engine for Offensive Security
 - **Note:** 
 - **Author:** j3ssie
 - **WebURL:** [https://github.com/j3ssie/osmedeus](https://github.com/j3ssie/osmedeus)
 - **Repository:** [https://github.com/j3ssie/osmedeus](https://github.com/j3ssie/osmedeus)
-- **Stars:** 5281
+- **Stars:** 5282
 - **Version:** v4.6.4
 - **Updated:** 2024-05-27T04:29:10Z
 - **Size:** 26.99 MB
@@ -11874,15 +12479,16 @@
 ---
 
 ### ouch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ouch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ouch.sh
 - **Description:** Painless compression and decompression in the terminal
 - **Note:** 
 - **Author:** ouch-org
 - **WebURL:** [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
 - **Repository:** [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
-- **Stars:** 2217
+- **Stars:** 2218
 - **Version:** 0.5.1
-- **Updated:** 2024-09-20T23:20:24Z
+- **Updated:** 2024-10-01T23:32:05Z
 - **Size:** 4.32 MB
 - **SHA256SUM:** 226b32300c9958752b8e8dd182d5c94e3fbfd26e3ef01074b26c87202dd0b3a4
 - **B3SUM:** d21ea79b33e8866df2d657d99125f163d53e54b57fef5c30271dd2c2a1b2ed88
@@ -11893,6 +12499,7 @@
 ---
 
 ### ov
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ov.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ov.sh
 - **Description:** 🎑Feature-rich terminal-based text viewer. It is a so-called terminal pager.
 - **Note:** 
@@ -11912,13 +12519,14 @@
 ---
 
 ### overmind
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/overmind.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/overmind.sh
 - **Description:** Process manager for Procfile-based applications and tmux
 - **Note:** 
 - **Author:** DarthSim
 - **WebURL:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
 - **Repository:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
-- **Stars:** 2852
+- **Stars:** 2853
 - **Version:** v2.5.1
 - **Updated:** 2024-04-05T10:19:11Z
 - **Size:** 4.39 MB
@@ -11931,6 +12539,7 @@
 ---
 
 ### passdetective
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/passdetective.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/passdetective.sh
 - **Description:** PassDetective is a command-line tool that scans shell command history to detect mistakenly written passwords, API keys, and secrets
 - **Note:** 
@@ -11950,6 +12559,7 @@
 ---
 
 ### patchelf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/patchelf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/patchelf.sh
 - **Description:** A small utility to modify the dynamic linker and RPATH of ELF executables
 - **Note:** 
@@ -11969,13 +12579,14 @@
 ---
 
 ### pdfcpu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pdfcpu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pdfcpu.sh
 - **Description:** A PDF processor written in Go.
 - **Note:** 
 - **Author:** pdfcpu
 - **WebURL:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
 - **Repository:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
-- **Stars:** 6809
+- **Stars:** 6811
 - **Version:** v0.8.1
 - **Updated:** 2024-09-29T19:22:04Z
 - **Size:** 11.12 MB
@@ -11988,6 +12599,7 @@
 ---
 
 ### pelf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pelf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
 - **Note:** 
@@ -12007,6 +12619,7 @@
 ---
 
 ### pelf_extract
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pelf_extract.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
 - **Note:** 
@@ -12026,6 +12639,7 @@
 ---
 
 ### pelf_linker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pelf_linker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
 - **Note:** 
@@ -12045,6 +12659,7 @@
 ---
 
 ### pelfd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pelfd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pelf.sh
 - **Description:** Pack an ELF. Turn your binaries into single-file executables [.AppBundle OR .blob], similar to a AppImages/AppDirs.
 - **Note:** 
@@ -12064,6 +12679,7 @@
 ---
 
 ### pencode
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pencode.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pencode.sh
 - **Description:** Complex payload encoder
 - **Note:** 
@@ -12083,13 +12699,14 @@
 ---
 
 ### pfetch-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pfetch-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pfetch-rs.sh
 - **Description:** A rewrite of the pfetch system information tool in Rust
 - **Note:** 
 - **Author:** Gobidev
 - **WebURL:** [https://github.com/Gobidev/pfetch-rs](https://github.com/Gobidev/pfetch-rs)
 - **Repository:** [https://github.com/Gobidev/pfetch-rs](https://github.com/Gobidev/pfetch-rs)
-- **Stars:** 258
+- **Stars:** 259
 - **Version:** v2.11.0
 - **Updated:** 2024-09-19T19:52:46Z
 - **Size:** 3.32 MB
@@ -12102,6 +12719,7 @@
 ---
 
 ### pgrok
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pgrok.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pgrok.sh
 - **Description:** multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
 - **Note:** 
@@ -12110,7 +12728,7 @@
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Stars:** 3176
 - **Version:** v1.4.1
-- **Updated:** 2024-10-01T08:59:50Z
+- **Updated:** 2024-10-02T00:45:01Z
 - **Size:** 9.34 MB
 - **SHA256SUM:** ba37c1d71e89b80cfa284ecb2108f09c6139376d69a39b436d0283866c06e280
 - **B3SUM:** 9a391e64af8a8cd3a80a8a1c828c2f072e544e4c0b39f296cc83edd3791ba572
@@ -12121,6 +12739,7 @@
 ---
 
 ### pgrokd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pgrokd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pgrok.sh
 - **Description:** multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
 - **Note:** 
@@ -12129,7 +12748,7 @@
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Stars:** 3176
 - **Version:** v1.4.1
-- **Updated:** 2024-10-01T08:59:50Z
+- **Updated:** 2024-10-02T00:45:01Z
 - **Size:** 14.61 MB
 - **SHA256SUM:** 842dea132e76c3f91033b0e23775d5fb486c1b72007648353ccabf855a04e616
 - **B3SUM:** f9dd631df2575fdba47eb10b88e6f0ca49711fda0286e065ffaa04db74f40d75
@@ -12140,6 +12759,7 @@
 ---
 
 ### pgweb
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pgweb.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pgweb.sh
 - **Description:** Cross-platform client for PostgreSQL databases
 - **Note:** 
@@ -12159,13 +12779,14 @@
 ---
 
 ### phantun-client
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/phantun-client.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/phantun.sh
 - **Description:** Easy per application transparent proxy built on cgroup.
 - **Note:** 
 - **Author:** dndx
 - **WebURL:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
 - **Repository:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
-- **Stars:** 1601
+- **Stars:** 1600
 - **Version:** v0.6.0
 - **Updated:** 2024-08-27T15:19:11Z
 - **Size:** 2.19 MB
@@ -12178,13 +12799,14 @@
 ---
 
 ### phantun-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/phantun-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/phantun.sh
 - **Description:** Easy per application transparent proxy built on cgroup.
 - **Note:** 
 - **Author:** dndx
 - **WebURL:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
 - **Repository:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
-- **Stars:** 1601
+- **Stars:** 1600
 - **Version:** v0.6.0
 - **Updated:** 2024-08-27T15:19:11Z
 - **Size:** 2.15 MB
@@ -12197,6 +12819,7 @@
 ---
 
 ### php
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/php.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/php.sh
 - **Description:** Standalone PHP binary
 - **Note:** 
@@ -12216,6 +12839,7 @@
 ---
 
 ### php-fpm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/php-fpm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/php.sh
 - **Description:** Standalone PHP binary
 - **Note:** 
@@ -12235,6 +12859,7 @@
 ---
 
 ### pier
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pier.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pier.sh
 - **Description:** A Linux script management CLI written in Rust
 - **Note:** 
@@ -12254,6 +12879,7 @@
 ---
 
 ### pigz
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pigz.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pigz.sh
 - **Description:** A parallel implementation of gzip for multi-core machines
 - **Note:** 
@@ -12273,6 +12899,7 @@
 ---
 
 ### pingmole
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pingmole.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pingmole.sh
 - **Description:** CLI that helps to filter pingmole servers and pick the closest one.
 - **Note:** 
@@ -12292,6 +12919,7 @@
 ---
 
 ### pingtunnel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pingtunnel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pingtunnel.sh
 - **Description:** Pingtunnel is a tool that send TCP/UDP traffic over ICMP
 - **Note:** 
@@ -12311,15 +12939,16 @@
 ---
 
 ### pixi
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pixi.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pixi.sh
 - **Description:** Conda Package management made easy
 - **Note:** 
 - **Author:** prefix-dev
 - **WebURL:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
 - **Repository:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
-- **Stars:** 3031
+- **Stars:** 3032
 - **Version:** v0.30.0
-- **Updated:** 2024-10-01T12:08:31Z
+- **Updated:** 2024-10-01T13:46:53Z
 - **Size:** 25.73 MB
 - **SHA256SUM:** bba4988f91a0157b7f647d216e70660e85c0d755c51db9b581c7a45a7f618901
 - **B3SUM:** 32c747300ed056b29024a8e5e1532f06bee898ba73bfa25fd56564fe5484f19a
@@ -12330,6 +12959,7 @@
 ---
 
 ### pkgtop
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pkgtop.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pkgtop.sh
 - **Description:** Interactive package manager and resource monitor designed for the GNU/Linux.
 - **Note:** 
@@ -12349,6 +12979,7 @@
 ---
 
 ### pktstat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pktstat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pktstat.sh
 - **Description:** Simple ethernet interface traffic monitor and reporting tool
 - **Note:** 
@@ -12368,13 +12999,14 @@
 ---
 
 ### planor
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/planor.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/planor.sh
 - **Description:** TUI client for cloud services (AWS, Vultr, Heroku, Render.com, Fleek, ...)
 - **Note:** 
 - **Author:** mrusme
 - **WebURL:** [https://github.com/mrusme/planor](https://github.com/mrusme/planor)
 - **Repository:** [https://github.com/mrusme/planor](https://github.com/mrusme/planor)
-- **Stars:** 69
+- **Stars:** 70
 - **Version:** v0.5.1
 - **Updated:** 2024-08-01T20:13:33Z
 - **Size:** 8.02 MB
@@ -12387,15 +13019,16 @@
 ---
 
 ### podman
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/podman.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/podman.sh
 - **Description:** A tool for managing OCI containers and pods.
 - **Note:** 
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/podman](https://github.com/containers/podman)
 - **Repository:** [https://github.com/containers/podman](https://github.com/containers/podman)
-- **Stars:** 23299
+- **Stars:** 23314
 - **Version:** v5.2.3
-- **Updated:** 2024-10-01T13:06:49Z
+- **Updated:** 2024-10-01T21:02:05Z
 - **Size:** 29.95 MB
 - **SHA256SUM:** 014dd4e9980c9a2f21e2eb3f967fc79384146086033ff6b0c3b9aaf6dc0b9313
 - **B3SUM:** 30f73fc5f6c95d1d1d3d285d5af9d2c966107e01e345c2120eb683e236e71561
@@ -12406,13 +13039,14 @@
 ---
 
 ### podsync
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/podsync.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/podsync.sh
 - **Description:** Turn YouTube or Vimeo channels, users, or playlists into podcast feeds
 - **Note:** 
 - **Author:** mxpv
 - **WebURL:** [https://github.com/mxpv/podsync](https://github.com/mxpv/podsync)
 - **Repository:** [https://github.com/mxpv/podsync](https://github.com/mxpv/podsync)
-- **Stars:** 1504
+- **Stars:** 1505
 - **Version:** v2.7.0
 - **Updated:** 2024-09-26T01:32:38Z
 - **Size:** 18.58 MB
@@ -12425,6 +13059,7 @@
 ---
 
 ### ppath
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ppath.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ppath.sh
 - **Description:** Pretty Print your systems PATH environment variable.
 - **Note:** 
@@ -12444,6 +13079,7 @@
 ---
 
 ### ppfuzz
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ppfuzz.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ppfuzz.sh
 - **Description:** A fast tool to scan client-side prototype pollution vulnerability
 - **Note:** 
@@ -12463,6 +13099,7 @@
 ---
 
 ### pping
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pping.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pping.sh
 - **Description:** tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping
 - **Note:** 
@@ -12482,15 +13119,16 @@
 ---
 
 ### presenterm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/presenterm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/presenterm.sh
 - **Description:** A terminal slideshow tool
 - **Note:** 
 - **Author:** mfontanini
 - **WebURL:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
 - **Repository:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
-- **Stars:** 1208
+- **Stars:** 1214
 - **Version:** v0.8.0
-- **Updated:** 2024-09-29T20:38:42Z
+- **Updated:** 2024-10-02T01:30:14Z
 - **Size:** 5.35 MB
 - **SHA256SUM:** 321bcd5211c0075826b8763db01f57013d352df6096beff93024f46403ecdecb
 - **B3SUM:** 64053fd96f2ebadd97c025152220156fc7279934deec7ea6d82a23a6f26b89fa
@@ -12501,6 +13139,7 @@
 ---
 
 ### pretender
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pretender.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pretender.sh
 - **Description:** MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing.
 - **Note:** 
@@ -12520,6 +13159,7 @@
 ---
 
 ### prettyping
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/prettyping.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/prettyping.sh
 - **Description:** Ping prettier, more colorful, more compact, and easier to read
 - **Note:** 
@@ -12539,6 +13179,7 @@
 ---
 
 ### procs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/procs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/procs.sh
 - **Description:** A modern replacement for ps written in Rust
 - **Note:** 
@@ -12558,6 +13199,7 @@
 ---
 
 ### progress
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/progress.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/progress.sh
 - **Description:** Linux tool to show progress for cp, mv, dd, ... (formerly known as cv)
 - **Note:** 
@@ -12577,13 +13219,14 @@
 ---
 
 ### proot
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/proot.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/proot.sh
 - **Description:** User-space implementation of chroot, mount --bind and binfmt_misc
 - **Note:** 
 - **Author:** proot-me
 - **WebURL:** [https://proot-me.github.io/](https://proot-me.github.io/)
 - **Repository:** [https://github.com/proot-me/proot](https://github.com/proot-me/proot)
-- **Stars:** 1986
+- **Stars:** 1987
 - **Version:** v5.4.0
 - **Updated:** 2024-08-15T06:49:04Z
 - **Size:** 337.09 kB
@@ -12596,6 +13239,7 @@
 ---
 
 ### proxify
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/proxify.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/proxify.sh
 - **Description:** A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go
 - **Note:** 
@@ -12615,6 +13259,7 @@
 ---
 
 ### proxychains
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/proxychains.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/proxychains-ng.sh
 - **Description:** Preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies
 - **Note:** Updated & Maintained fork of: https://github.com/haad/proxychains
@@ -12634,6 +13279,7 @@
 ---
 
 ### proxychains-daemon
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/proxychains-daemon.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/proxychains-ng.sh
 - **Description:** Preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies
 - **Note:** Updated & Maintained fork of: https://github.com/haad/proxychains
@@ -12653,6 +13299,7 @@
 ---
 
 ### pspy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pspy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pspy.sh
 - **Description:** Monitor linux processes without root permissions
 - **Note:** 
@@ -12672,13 +13319,14 @@
 ---
 
 ### pueue
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pueue.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pueue.sh
 - **Description:** task management tool for sequential and parallel execution of long-running tasks
 - **Note:** 
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
-- **Stars:** 4894
+- **Stars:** 4895
 - **Version:** v3.4.1
 - **Updated:** 2024-09-25T17:44:42Z
 - **Size:** 2.5 MB
@@ -12691,13 +13339,14 @@
 ---
 
 ### pueued
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pueued.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pueue.sh
 - **Description:** task management tool for sequential and parallel execution of long-running tasks
 - **Note:** 
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
-- **Stars:** 4894
+- **Stars:** 4895
 - **Version:** v3.4.1
 - **Updated:** 2024-09-25T17:44:42Z
 - **Size:** 2.56 MB
@@ -12710,6 +13359,7 @@
 ---
 
 ### puredns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/puredns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/puredns.sh
 - **Description:** fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries
 - **Note:** 
@@ -12729,6 +13379,7 @@
 ---
 
 ### pwait
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pwait.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pwait.sh
 - **Description:** Small utility to wait for a process to finish
 - **Note:** 
@@ -12748,13 +13399,14 @@
 ---
 
 ### pwninit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/pwninit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pwninit.sh
 - **Description:** automate starting binary exploit challenges
 - **Note:** 
 - **Author:** io12
 - **WebURL:** [https://github.com/io12/pwninit](https://github.com/io12/pwninit)
 - **Repository:** [https://github.com/io12/pwninit](https://github.com/io12/pwninit)
-- **Stars:** 853
+- **Stars:** 855
 - **Version:** 3.3.1
 - **Updated:** 2024-08-11T07:01:24Z
 - **Size:** 7.6 MB
@@ -12767,6 +13419,7 @@
 ---
 
 ### xet_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xet_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pyxet.sh
 - **Description:** 💥 Python CLI for XetHub
 - **Note:** 
@@ -12786,6 +13439,7 @@
 ---
 
 ### q
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/q.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/q.sh
 - **Description:** A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH.
 - **Note:** 
@@ -12805,13 +13459,14 @@
 ---
 
 ### qbittorrent-nox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qbittorrent-nox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qbittorrent-nox.sh
 - **Description:** static Single binary for qbittorent
 - **Note:** 
 - **Author:** userdocs
 - **WebURL:** [https://github.com/userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)
 - **Repository:** [https://github.com/userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)
-- **Stars:** 1054
+- **Stars:** 1055
 - **Version:** release-5.0.0_v2.0.10
 - **Updated:** 2024-09-30T02:21:40Z
 - **Size:** 27.67 MB
@@ -12824,15 +13479,16 @@
 ---
 
 ### qemu-aarch64-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-aarch64-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 6.23 MB
 - **SHA256SUM:** 2d760c0b12ef58a5f2082b1a2f5f7a63896850486924689e230f513c7b6a83c6
 - **B3SUM:** a8154359bd3cad7abfa07653829d7a54a01c84959c4a6b6c6b3a93da7432ef80
@@ -12843,15 +13499,16 @@
 ---
 
 ### qemu-aarch64_be-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-aarch64_be-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 6.23 MB
 - **SHA256SUM:** 68770c056cc8c4e2cdc29a0ad65294ba9ca4208b19a9c5f727109a59e30836f0
 - **B3SUM:** 457d85c28e1af547778188db40016e693f5a19e26b9a49dd11c199cb5176b6b3
@@ -12862,15 +13519,16 @@
 ---
 
 ### qemu-alpha-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-alpha-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** eff399f91f3f33b9e745093029e39093f0db8fbb42e865dc9f6ebcab544e4105
 - **B3SUM:** dbcc7d613a6582bfc8cac23338044b970b5a0db15fb1f78fe5f32e282ce067e2
@@ -12881,15 +13539,16 @@
 ---
 
 ### qemu-arm-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-arm-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.35 MB
 - **SHA256SUM:** b6b751494a20d4c5712d1045b57438a0856c6801b99038bd3885932e6c83a9b1
 - **B3SUM:** c5aa99ddfa4783335d9ea6b711bc78e1e1dedbc722fab865a44d1f95e9e3810c
@@ -12900,15 +13559,16 @@
 ---
 
 ### qemu-armeb-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-armeb-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.35 MB
 - **SHA256SUM:** c4724d9b7b0b92a76d30356aa4f34f6ff999665c9eabd8882a91e0905316cff7
 - **B3SUM:** c708f7cda0ab62d7d8c184abbdb3ab53d8a135d278dd4c83575da69d8f90e715
@@ -12919,15 +13579,16 @@
 ---
 
 ### qemu-cris-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-cris-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** 22440ad64acfaf67eed0ba1da47d30db7a91f7b255f4728163b8637bca885db8
 - **B3SUM:** c8cd550bc61a43b4f5720ba3f83672c637c78fd6f4e5d1412d0ba11057bcfb8a
@@ -12938,15 +13599,16 @@
 ---
 
 ### qemu-hexagon-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-hexagon-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 5.03 MB
 - **SHA256SUM:** 565bc8cb4a31c07847e8d6318bce920b1bcaf53a1f05693c8e9fbc46c3e8fafa
 - **B3SUM:** 929efae4f32a84b12b97cb1a13f404af35ee36d8371cd1960bdb66bd9f65770d
@@ -12957,15 +13619,16 @@
 ---
 
 ### qemu-hppa-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-hppa-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.16 MB
 - **SHA256SUM:** e544993fcd1f2be1bb7ee1232a61da0762851697c29eab5edb5a1d7a90595c82
 - **B3SUM:** 5b1038fa3caf17f81f442f959e3ef44d799e3c483732364df998ddcea6f00b08
@@ -12976,15 +13639,16 @@
 ---
 
 ### qemu-i386-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-i386-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.79 MB
 - **SHA256SUM:** ce6ae582c8c225c3462a86a94b6d2a35b383c39882bf879fef98deb526764a47
 - **B3SUM:** acd685b6fb4852ddffbbf51989f35de9805fb97805993098c9d8510074acb665
@@ -12995,15 +13659,16 @@
 ---
 
 ### qemu-loongarch64-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-loongarch64-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.67 MB
 - **SHA256SUM:** 1cf04b3111fc4f4b46dd0ceac84dbdd9159d07f6abd85fef258c112aa1d540c0
 - **B3SUM:** 76a78f9d06ddd46ba0dbb680fd032f0ce5c9e2e216231c8477ca23302936b2b0
@@ -13014,15 +13679,16 @@
 ---
 
 ### qemu-m68k-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-m68k-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.36 MB
 - **SHA256SUM:** bb9476a4cb5b8cf9637a320b847eb8ec5823a7e82ffafab9f8be0e14261e1cd8
 - **B3SUM:** cf2d548d7d836b6fdff9814bd87d368c800904262ee114851974b416cf8c4aae
@@ -13033,15 +13699,16 @@
 ---
 
 ### qemu-microblaze-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-microblaze-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** ea49976a3becaa8c6726b8c83ea32f761c1274dbaa6a9cb45d9320b24f3774a8
 - **B3SUM:** 9fc784fa9723c058b9f1eb42aaf781986dc99975c429a6345c60761de7c9feb9
@@ -13052,15 +13719,16 @@
 ---
 
 ### qemu-microblazeel-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-microblazeel-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** aa871e830e8e0ebe7d2e5b3486246464de758171cce97549c83b38d8f6ee459e
 - **B3SUM:** f6f44c55353d156dbd3074d62f202e9c728d12714bf5b83624d438c2b72f4d54
@@ -13071,15 +13739,16 @@
 ---
 
 ### qemu-mips-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mips-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.15 MB
 - **SHA256SUM:** 27b625e92db30a8f1bbd03ca4f3312223e96570b27a848ab637324c4246070cd
 - **B3SUM:** 3e62cc0cf2441cc4bfe8a6154eadc487feb05eb983e783340c1d4f40180e8105
@@ -13090,15 +13759,16 @@
 ---
 
 ### qemu-mips64-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mips64-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.17 MB
 - **SHA256SUM:** 216e930f7b8695be84a981e706762261864818215fadabca86eddfd0b4fbddd2
 - **B3SUM:** f86d720aa48c6e5f8e693e52b9211c728cfcf53eb545bbd2bb1c84d4ae75f1c4
@@ -13109,15 +13779,16 @@
 ---
 
 ### qemu-mips64el-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mips64el-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.17 MB
 - **SHA256SUM:** 740a2c02423493b8d749792a72e4a6d7609f78ddf8fb4c533c19ef8f8a3c56d4
 - **B3SUM:** 3d423b68308f6e2b17d8a7c4233732fa8876016ed70be83152f7fbcc81815fb9
@@ -13128,15 +13799,16 @@
 ---
 
 ### qemu-mipsel-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mipsel-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.15 MB
 - **SHA256SUM:** 000aa4b9c2e4f4e7695f61161844b0728998b295a88007382fc889bdf35e458e
 - **B3SUM:** bd893617a7dba160c158adf0b6e20ade46825ef9e65540572b18b940e7a19726
@@ -13147,15 +13819,16 @@
 ---
 
 ### qemu-mipsn32-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mipsn32-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.17 MB
 - **SHA256SUM:** db5f35fafe379efb45b2a88044c96fae4c24807e45f08d17b6abb98aaf0ed6f6
 - **B3SUM:** d845b15344fc144f5cb91ccf8ec56fd21b306738c66fe52488d67678fbafb782
@@ -13166,15 +13839,16 @@
 ---
 
 ### qemu-mipsn32el-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mipsn32el-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.17 MB
 - **SHA256SUM:** 27735be41b994470162470377e2fab822cb878dabc8d292e12bb35e9dc46057b
 - **B3SUM:** 4dcdcbe389863ea87af9b61bbcf3ecd509ab9536bd8786e59040e65529046c2b
@@ -13185,15 +13859,16 @@
 ---
 
 ### qemu-nios2-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-nios2-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 2.96 MB
 - **SHA256SUM:** 30c490c47d935c73248c0c8a5873aafe5d78841cde0853820eb9af303a3dae91
 - **B3SUM:** 52ea01b4d9b544b53c21e47d27f22a557cdc3f1ebc6f40fa26140ba7c7edeb55
@@ -13204,15 +13879,16 @@
 ---
 
 ### qemu-or1k-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-or1k-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 2.96 MB
 - **SHA256SUM:** 58856e4a6fc67c1dfaf88d838bddc690693b2622fc6451b39503a766e8312070
 - **B3SUM:** 921498e610b99fd32caef025cd83fc22b991f65acf3da96d61335a92d11a2c08
@@ -13223,15 +13899,16 @@
 ---
 
 ### qemu-ppc-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-ppc-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.04 MB
 - **SHA256SUM:** 6a70a1743290919e50c009d6b7c04c24307993c03e4bc5bb918eb6fc60614f48
 - **B3SUM:** 400faa2ec09537f0122afeb45f7a626bd6a6158593e8bc435a790b420de4937a
@@ -13242,15 +13919,16 @@
 ---
 
 ### qemu-ppc64-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-ppc64-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.11 MB
 - **SHA256SUM:** 5587d0610c0d0266757f5b22fd796dad9ee0ce6cda09e106007bb3eab7bfb097
 - **B3SUM:** eb9b4571350d64f798bd12c550f33ad02c9b408cb23bb1e1e836046e3fb0893a
@@ -13261,15 +13939,16 @@
 ---
 
 ### qemu-ppc64le-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-ppc64le-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.11 MB
 - **SHA256SUM:** 79af0f0cefd4e1aa403a02a30505e1cceee45e16d84ea2a89b6e9cd9e301f1ea
 - **B3SUM:** de1fafdd482fd854c1c6d9158102f1f85af739d3654926b613c8f092088d5545
@@ -13280,15 +13959,16 @@
 ---
 
 ### qemu-riscv32-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-riscv32-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.45 MB
 - **SHA256SUM:** 2ef272bb43532cac6346c915218c8411169943daffa6c19b826a3ad58c2fd361
 - **B3SUM:** ae931891b3820fd1f486dc4431cbe3b31b14e822e4d8dd1facbf6e23d6d083ee
@@ -13299,15 +13979,16 @@
 ---
 
 ### qemu-riscv64-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-riscv64-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 4.52 MB
 - **SHA256SUM:** 37747f48d186744e3d077404d9b4db746138f41fed785b16006e50a6eabce783
 - **B3SUM:** 671f404643848af09bd2b540c54d7234cbc3db09b7e065c36a9d682e41342732
@@ -13318,15 +13999,16 @@
 ---
 
 ### qemu-s390x-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-s390x-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.53 MB
 - **SHA256SUM:** 1e2e9ef38c2b15ed15b422296342e06e8716edf3c2d0064f79d2f14f8801aa79
 - **B3SUM:** f16c80ab95e852ea8817ffc222c8b889ba1df27650f8841c399f2a3f4e5e949d
@@ -13337,15 +14019,16 @@
 ---
 
 ### qemu-sh4-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sh4-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** 2fb250e337ada0a61c2e7536a8d081b8d1807c6c29727d55295173219089f1c9
 - **B3SUM:** e28bcbf5442a5c08dc53fb6c5c330a396e1bf46e775415fa0abe8298f0e14a84
@@ -13356,15 +14039,16 @@
 ---
 
 ### qemu-sh4eb-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sh4eb-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** 09c55fbfe30283b5dbd796d32168e8ef64a3b61f740bed6eaafa80f2fe03cdbe
 - **B3SUM:** 54ad1f1aea89539e4ebbaef8f1b71dc688959d9e1b1529a1ec7edb86398606e5
@@ -13375,15 +14059,16 @@
 ---
 
 ### qemu-sparc-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sparc-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.29 MB
 - **SHA256SUM:** 637dfca5247fefd3593636a6b568a6080f57736c343760934e491dfc5a8e03eb
 - **B3SUM:** a34746781c4fed6775eb46ce79206d5f8723bb79586f1b4a0d52b85e387841b8
@@ -13394,15 +14079,16 @@
 ---
 
 ### qemu-sparc32plus-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sparc32plus-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.43 MB
 - **SHA256SUM:** 3753f3fd1836a7836952f1ac298541d7e472d5c7b745c90c543e163f86584bee
 - **B3SUM:** da42415f8cb6419699165894fce5fc043f102bb3549f7b9fbd1db60cc4a34635
@@ -13413,15 +14099,16 @@
 ---
 
 ### qemu-sparc64-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sparc64-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.37 MB
 - **SHA256SUM:** 9eec81da67c72bb24667ea9a3751556bb5b0a8bfb8dc45aa32a8e6f19a171dbf
 - **B3SUM:** 2d9740da516e9fddb6a8ce19b29de614c68b32526aa293e2413ec63055edf481
@@ -13432,15 +14119,16 @@
 ---
 
 ### qemu-x86_64-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-x86_64-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 3.73 MB
 - **SHA256SUM:** e8c65565b8a13e48f3390c45f0b41bfc137e1bcc996ef73573c3f8eeac132b14
 - **B3SUM:** 9c46d54c9d4c8eb7eca96a38dc146709618b1a074d0c65cf7f4821cd93e76849
@@ -13451,15 +14139,16 @@
 ---
 
 ### qemu-xtensa-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-xtensa-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 7.4 MB
 - **SHA256SUM:** 56d468ed305338a9cd019753a15705e71ac191fdf3df671dbb4902206a5029fb
 - **B3SUM:** 05e8c27c3296c630b14dc6609cb1c1e70e474269557fa4b65cbe8dad419059b9
@@ -13470,15 +14159,16 @@
 ---
 
 ### qemu-xtensaeb-static
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-xtensaeb-static.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qemu.sh
 - **Description:** machine & userspace emulator and virtualizer
 - **Note:** 
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10201
+- **Stars:** 10205
 - **Version:** v9.1.0
-- **Updated:** 2024-10-01T12:09:59Z
+- **Updated:** 2024-10-01T16:40:52Z
 - **Size:** 7.29 MB
 - **SHA256SUM:** 21423f6def4d37b9869e7b69ad7698b0ec165066a5bc4d33ab7fa20c44bfcda6
 - **B3SUM:** 1d6834794f0c57dd05c97aa248688805d829b2fdb8b7b303cf7112ff6f293baa
@@ -13489,6 +14179,7 @@
 ---
 
 ### qsreplace
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qsreplace.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qsreplace.sh
 - **Description:** Accept URLs on stdin, replace all query string values with a user-supplied value
 - **Note:** 
@@ -13508,13 +14199,14 @@
 ---
 
 ### qsv
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/qsv.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/qsv.sh
 - **Description:** CSVs sliced, diced & analyzed.
 - **Note:** 
 - **Author:** jqnatividad
 - **WebURL:** [https://github.com/jqnatividad/qsv](https://github.com/jqnatividad/qsv)
 - **Repository:** [https://github.com/jqnatividad/qsv](https://github.com/jqnatividad/qsv)
-- **Stars:** 2449
+- **Stars:** 2450
 - **Version:** 0.135.0
 - **Updated:** 2024-10-01T11:41:13Z
 - **Size:** 13.01 MB
@@ -13527,6 +14219,7 @@
 ---
 
 ### quickcert
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/quickcert.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/quickcert.sh
 - **Description:** Query crtsh via pgsl server --> postgres //guest@crt.sh 5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol
 - **Note:** 
@@ -13546,6 +14239,7 @@
 ---
 
 ### quotes-escaper
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/quotes-escaper.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/quotes-escaper.sh
 - **Description:** Escape Single | Double Quotes
 - **Note:** 
@@ -13554,7 +14248,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 1.62 MB
 - **SHA256SUM:** 20ec25dab3a415c4f1174e23475ed1b9fa0663142bb5d4dff4daac05a62d6a95
 - **B3SUM:** b368e650c004bba483e57b8f0ce9debd5537cf473f2c88769d23aade8a487670
@@ -13565,6 +14259,7 @@
 ---
 
 ### rage
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rage.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rage.sh
 - **Description:** A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
 - **Note:** 
@@ -13584,6 +14279,7 @@
 ---
 
 ### rage-keygen
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rage-keygen.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rage.sh
 - **Description:** A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability.
 - **Note:** 
@@ -13603,6 +14299,7 @@
 ---
 
 ### rate-limit-checker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rate-limit-checker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rate-limit-checker.sh
 - **Description:** Check whether the domain has a rate limit enabled
 - **Note:** 
@@ -13611,7 +14308,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 4.99 MB
 - **SHA256SUM:** 941cccb1f123e695a13b3a6ae50825eeb583b00b6831235baa52e1d334bcc105
 - **B3SUM:** 56f63f34159de707d966efcc2c3518ab0ac64edb7ac80817512281f60d9994f9
@@ -13622,13 +14319,14 @@
 ---
 
 ### rathole
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rathole.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rathole.sh
 - **Description:** A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
 - **Note:** 
 - **Author:** rapiz1
 - **WebURL:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
 - **Repository:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
-- **Stars:** 9453
+- **Stars:** 9456
 - **Version:** v0.5.0
 - **Updated:** 2024-07-06T20:09:48Z
 - **Size:** 1.03 MB
@@ -13641,13 +14339,14 @@
 ---
 
 ### rattler-build
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rattler-build.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rattler-build.sh
 - **Description:** rattler-build is a universal package builder for Windows, macOS and Linux
 - **Note:** 
 - **Author:** prefix-dev
 - **WebURL:** [https://github.com/prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)
 - **Repository:** [https://github.com/prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)
-- **Stars:** 196
+- **Stars:** 197
 - **Version:** v0.22.0
 - **Updated:** 2024-10-01T05:07:39Z
 - **Size:** 22.29 MB
@@ -13660,15 +14359,16 @@
 ---
 
 ### rclone
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rclone.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rclone.sh
 - **Description:** rsync for cloud storage
 - **Note:** 
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 46430
+- **Stars:** 46438
 - **Version:** v1.68.1
-- **Updated:** 2024-09-30T16:22:32Z
+- **Updated:** 2024-10-01T14:55:03Z
 - **Size:** 58.07 MB
 - **SHA256SUM:** bffcf17f53e2f03dc8ff32c6c4e1a83df81fdbd10c3044c0b5f612eb873996e6
 - **B3SUM:** 89b1613ffd2b9bc174a5238e656a4e34c96ca51bc450219d0b15e5d6235a8ec0
@@ -13679,6 +14379,7 @@
 ---
 
 ### reader
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/reader.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/reader.sh
 - **Description:** A lightweight tool offering better readability of web pages on the CLI
 - **Note:** 
@@ -13698,6 +14399,7 @@
 ---
 
 ### golem
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/golem.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/realm-tavern.sh
 - **Description:** parallel | xargs in rust
 - **Note:** 
@@ -13717,6 +14419,7 @@
 ---
 
 ### imix
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/imix.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/realm-tavern.sh
 - **Description:** parallel | xargs in rust
 - **Note:** 
@@ -13736,6 +14439,7 @@
 ---
 
 ### tavern
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tavern.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/realm-tavern.sh
 - **Description:** parallel | xargs in rust
 - **Note:** 
@@ -13755,13 +14459,14 @@
 ---
 
 ### realm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/realm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/realm.sh
 - **Description:** A network relay tool
 - **Note:** 
 - **Author:** zhboner
 - **WebURL:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
 - **Repository:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
-- **Stars:** 1502
+- **Stars:** 1503
 - **Version:** v2.6.2
 - **Updated:** 2024-09-22T09:28:25Z
 - **Size:** 3.94 MB
@@ -13774,6 +14479,7 @@
 ---
 
 ### rebuilderd-worker
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rebuilderd-worker.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rebuilderd.sh
 - **Description:** Independent verification of binary packages - reproducible builds
 - **Note:** 
@@ -13793,6 +14499,7 @@
 ---
 
 ### recollapse_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/recollapse_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/recollapse.sh
 - **Description:** Helper tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications
 - **Note:** 
@@ -13812,13 +14519,14 @@
 ---
 
 ### redguard
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/redguard.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/redguard.sh
 - **Description:** RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.
 - **Note:** 
 - **Author:** wikiZ
 - **WebURL:** [https://github.com/wikiZ/RedGuard](https://github.com/wikiZ/RedGuard)
 - **Repository:** [https://github.com/wikiZ/RedGuard](https://github.com/wikiZ/RedGuard)
-- **Stars:** 1370
+- **Stars:** 1371
 - **Version:** 24.06.18
 - **Updated:** 2024-08-20T17:43:35Z
 - **Size:** 9.81 MB
@@ -13831,6 +14539,7 @@
 ---
 
 ### redive
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/redive.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/redive.sh
 - **Description:** Trace URL redirections in the terminal.
 - **Note:** 
@@ -13850,6 +14559,7 @@
 ---
 
 ### region_restriction_check.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/region_restriction_check.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/region_restriction_check.sh
 - **Description:** A bash script to check the status of your IP on various geo-restricted Services
 - **Note:** 
@@ -13869,6 +14579,7 @@
 ---
 
 ### rekor-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rekor-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rekor.sh
 - **Description:** Software Supply Chain Transparency Log
 - **Note:** 
@@ -13888,6 +14599,7 @@
 ---
 
 ### rekor-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rekor-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rekor.sh
 - **Description:** Software Supply Chain Transparency Log
 - **Note:** 
@@ -13907,6 +14619,7 @@
 ---
 
 ### relic
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/relic.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/relic.sh
 - **Description:** a tool for adding digital signatures to operating system packages for Linux and Windows
 - **Note:** 
@@ -13926,6 +14639,7 @@
 ---
 
 ### reptyr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/reptyr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/reptyr.sh
 - **Description:** Reparent a running program to a new terminal
 - **Note:** 
@@ -13945,6 +14659,7 @@
 ---
 
 ### rescope
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rescope.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rescope.sh
 - **Description:** A scope generation tool for Burp Suite & ZAP
 - **Note:** 
@@ -13964,6 +14679,7 @@
 ---
 
 ### resdns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/resdns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/resdns.sh
 - **Description:** Wrapper around [dnsx + puredns + shuffledns] for Efficient DNS Resolution
 - **Note:** 
@@ -13972,7 +14688,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 17.49 kB
 - **SHA256SUM:** 5c7763da58f0ec48aafce0d47efc21793286499d65411b67ae65fd64b1776d1a
 - **B3SUM:** 32b7d5ab3b9ec470ff7d1d53154f28d5fc8fbd6d8d307d3a52ead98e95967bcf
@@ -13983,13 +14699,14 @@
 ---
 
 ### restic
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/restic.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/restic.sh
 - **Description:** Fast, secure, efficient backup program
 - **Note:** 
 - **Author:** restic
 - **WebURL:** [https://github.com/restic/restic](https://github.com/restic/restic)
 - **Repository:** [https://github.com/restic/restic](https://github.com/restic/restic)
-- **Stars:** 25941
+- **Stars:** 25948
 - **Version:** v0.17.1
 - **Updated:** 2024-10-01T01:50:01Z
 - **Size:** 25.32 MB
@@ -14002,6 +14719,7 @@
 ---
 
 ### resto
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/resto.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/resto.sh
 - **Description:** 🔗 Send pretty HTTP & API requests with TUI.
 - **Note:** 
@@ -14021,15 +14739,16 @@
 ---
 
 ### reviewdog
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/reviewdog.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/reviewdog.sh
 - **Description:** 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language
 - **Note:** 
 - **Author:** reviewdog
 - **WebURL:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
 - **Repository:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
-- **Stars:** 7839
+- **Stars:** 7841
 - **Version:** v0.20.2
-- **Updated:** 2024-09-30T18:12:25Z
+- **Updated:** 2024-10-02T01:42:26Z
 - **Size:** 14.12 MB
 - **SHA256SUM:** b08baa6992dc39c70b9ad6c249910017e3be515c36e7a78da6fa0f3f75ecccb1
 - **B3SUM:** 98c45671daea674e01a3ecbfcae482b4d63dc6a53777e45c7f01d81d02a10e1b
@@ -14040,6 +14759,7 @@
 ---
 
 ### revit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/revit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/revit.sh
 - **Description:** A command-line utility for performing reverse DNS lookups
 - **Note:** 
@@ -14059,6 +14779,7 @@
 ---
 
 ### revive
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/revive.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/revive.sh
 - **Description:** 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint
 - **Note:** 
@@ -14078,13 +14799,14 @@
 ---
 
 ### ripgen
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ripgen.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ripgen.sh
 - **Description:** Rust-based high performance domain permutation generator
 - **Note:** 
 - **Author:** resyncgg
 - **WebURL:** [https://github.com/resyncgg/ripgen](https://github.com/resyncgg/ripgen)
 - **Repository:** [https://github.com/resyncgg/ripgen](https://github.com/resyncgg/ripgen)
-- **Stars:** 269
+- **Stars:** 270
 - **Version:** 
 - **Updated:** 2023-12-02T22:57:22Z
 - **Size:** 3.32 MB
@@ -14097,13 +14819,14 @@
 ---
 
 ### rg
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rg.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ripgrep.sh
 - **Description:** 
 - **Note:** 
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 47915
+- **Stars:** 47926
 - **Version:** 14.1.1
 - **Updated:** 2024-09-30T11:38:42Z
 - **Size:** 4.09 MB
@@ -14116,13 +14839,14 @@
 ---
 
 ### ripgrep
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ripgrep.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ripgrep.sh
 - **Description:** 
 - **Note:** 
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 47915
+- **Stars:** 47926
 - **Version:** 14.1.1
 - **Updated:** 2024-09-30T11:38:42Z
 - **Size:** 4.09 MB
@@ -14135,6 +14859,7 @@
 ---
 
 ### rnr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rnr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rnr.sh
 - **Description:** A command-line tool to batch rename files and directories
 - **Note:** 
@@ -14154,6 +14879,7 @@
 ---
 
 ### roboxtractor
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/roboxtractor.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/roboxtractor.sh
 - **Description:** Extract endpoints marked as disallow in robots files to generate wordlists
 - **Note:** 
@@ -14173,6 +14899,7 @@
 ---
 
 ### rockylinux-minimal.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rockylinux-minimal.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rockylinux.sh
 - **Description:** Portable Ephemeral RockyLinux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/rockylinux)
@@ -14192,6 +14919,7 @@
 ---
 
 ### rockylinux.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rockylinux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rockylinux.sh
 - **Description:** Portable Ephemeral RockyLinux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/rockylinux)
@@ -14211,6 +14939,7 @@
 ---
 
 ### rootlesskit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rootlesskit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rootlesskit.sh
 - **Description:** Linux-native fake root for implementing rootless containers
 - **Note:** 
@@ -14230,6 +14959,7 @@
 ---
 
 ### ropr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ropr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ropr.sh
 - **Description:** A blazing fast™ multithreaded ROP Gadget finder. ropper / ropgadget alternative
 - **Note:** 
@@ -14249,6 +14979,7 @@
 ---
 
 ### rospo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rospo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rospo.sh
 - **Description:** 🐸 Simple, reliable, persistent ssh tunnels with embedded ssh server
 - **Note:** 
@@ -14268,6 +14999,7 @@
 ---
 
 ### rqbit
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rqbit.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rqbit.sh
 - **Description:** A bittorrent client in Rust
 - **Note:** 
@@ -14287,6 +15019,7 @@
 ---
 
 ### rshijack
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rshijack.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rshijack.sh
 - **Description:** tcp connection hijacker, rust rewrite of shijack
 - **Note:** 
@@ -14306,13 +15039,14 @@
 ---
 
 ### rsync
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rsync.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rsync.sh
 - **Description:** An open source utility that provides fast incremental file transfer.
 - **Note:** 
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2744
+- **Stars:** 2746
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 4.55 MB
@@ -14325,13 +15059,14 @@
 ---
 
 ### rsync-ssl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rsync-ssl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rsync.sh
 - **Description:** An open source utility that provides fast incremental file transfer.
 - **Note:** 
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2744
+- **Stars:** 2746
 - **Version:** v3.3.0
 - **Updated:** 2024-07-06T04:30:43Z
 - **Size:** 5217 B
@@ -14344,15 +15079,16 @@
 ---
 
 ### ruff
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ruff.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ruff.sh
 - **Description:** An extremely fast Python linter and code formatter, written in Rust.
 - **Note:** 
 - **Author:** astral-sh
 - **WebURL:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
 - **Repository:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
-- **Stars:** 31431
+- **Stars:** 31452
 - **Version:** 0.6.8
-- **Updated:** 2024-10-01T13:26:42Z
+- **Updated:** 2024-10-01T21:22:13Z
 - **Size:** 21.28 MB
 - **SHA256SUM:** b37609c37061fb6866628d41ce1341eeedaf3528b07618c2a7e2511085e318c3
 - **B3SUM:** 03270a999f8ec1ccb74a3ed39f0068b7888b60b0b48e9dde3613f6ca42c1becc
@@ -14363,6 +15099,7 @@
 ---
 
 ### runc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/runc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/runc.sh
 - **Description:** CLI tool for spawning and running containers according to the OCI specification
 - **Note:** 
@@ -14382,6 +15119,7 @@
 ---
 
 ### runiq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/runiq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/runiq.sh
 - **Description:** An efficient way to filter duplicate lines from input, à la uniq.
 - **Note:** 
@@ -14401,6 +15139,7 @@
 ---
 
 ### runme
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/runme.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/runme.sh
 - **Description:** Execute your runbooks, docs, and READMEs.
 - **Note:** 
@@ -14409,7 +15148,7 @@
 - **Repository:** [https://github.com/stateful/runme](https://github.com/stateful/runme)
 - **Stars:** 1113
 - **Version:** v3.8.3
-- **Updated:** 2024-09-30T22:38:32Z
+- **Updated:** 2024-10-01T21:04:27Z
 - **Size:** 33.2 MB
 - **SHA256SUM:** eaa27aa7e69b813b522b3fc51b3d5257a488be6b287c06176828e7e995c31de7
 - **B3SUM:** 6aec7be29aa7011eaf0aa7691823475eea3146151d30297aab99ef1f1675067e
@@ -14420,6 +15159,7 @@
 ---
 
 ### rush
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rush.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rush.sh
 - **Description:** A cross-platform command-line tool for executing jobs in parallel
 - **Note:** 
@@ -14439,6 +15179,7 @@
 ---
 
 ### hypervisor-fw
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/hypervisor-fw.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rust-hypervisor-firmware.sh
 - **Description:** cloud-hypervisors firmware in rust
 - **Note:** 
@@ -14458,6 +15199,7 @@
 ---
 
 ### rust-hypervisor-firmware
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rust-hypervisor-firmware.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rust-hypervisor-firmware.sh
 - **Description:** cloud-hypervisors firmware in rust
 - **Note:** 
@@ -14477,6 +15219,7 @@
 ---
 
 ### rust-parallel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rust-parallel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rust-parallel.sh
 - **Description:** parallel | xargs in rust
 - **Note:** 
@@ -14496,6 +15239,7 @@
 ---
 
 ### rcat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rcat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rustcat.sh
 - **Description:** Rustcat(rcat) - The modern Port listener and Reverse shell
 - **Note:** 
@@ -14515,6 +15259,7 @@
 ---
 
 ### rustcat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rustcat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rustcat.sh
 - **Description:** Rustcat(rcat) - The modern Port listener and Reverse shell
 - **Note:** 
@@ -14534,13 +15279,14 @@
 ---
 
 ### rustcan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rustcan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rustscan.sh
 - **Description:** 🤖 The Modern Port Scanner 🤖
 - **Note:** 
 - **Author:** RustScan
 - **WebURL:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
 - **Repository:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
-- **Stars:** 14284
+- **Stars:** 14285
 - **Version:** 2.3.0
 - **Updated:** 2024-09-30T10:02:18Z
 - **Size:** 5.11 MB
@@ -14553,6 +15299,7 @@
 ---
 
 ### rpaste
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rpaste.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rustypaste-cli.sh
 - **Description:** A CLI tool for rustypaste
 - **Note:** 
@@ -14572,6 +15319,7 @@
 ---
 
 ### rustypaste
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/rustypaste.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rustypaste.sh
 - **Description:** A minimal file upload/pastebin service.
 - **Note:** 
@@ -14591,13 +15339,14 @@
 ---
 
 ### s3scanner
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/s3scanner.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/s3scanner.sh
 - **Description:** Scan for misconfigured S3 buckets across S3-compatible APIs
 - **Note:** 
 - **Author:** sa7mon
 - **WebURL:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
 - **Repository:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
-- **Stars:** 2525
+- **Stars:** 2526
 - **Version:** v3.1.1
 - **Updated:** 2024-09-30T13:22:15Z
 - **Size:** 14.58 MB
@@ -14610,6 +15359,7 @@
 ---
 
 ### s3sync
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/s3sync.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/s3sync.sh
 - **Description:** Really fast sync tool for S3
 - **Note:** 
@@ -14629,13 +15379,14 @@
 ---
 
 ### s5cmd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/s5cmd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/s5cmd.sh
 - **Description:** Parallel S3 and local filesystem execution tool.
 - **Note:** 
 - **Author:** peak
 - **WebURL:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
 - **Repository:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
-- **Stars:** 2593
+- **Stars:** 2594
 - **Version:** v2.2.2
 - **Updated:** 2024-07-31T07:54:27Z
 - **Size:** 14.82 MB
@@ -14648,6 +15399,7 @@
 ---
 
 ### sake
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sake.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sake.sh
 - **Description:** 🤖 Task runner for local and remote hosts via ssh & more
 - **Note:** 
@@ -14667,6 +15419,7 @@
 ---
 
 ### sbctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sbctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sbctl.sh
 - **Description:** 💻 🔒 🔑 Secure Boot key manager
 - **Note:** 
@@ -14686,6 +15439,7 @@
 ---
 
 ### scilla
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/scilla.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/scilla.sh
 - **Description:** Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
 - **Note:** 
@@ -14705,6 +15459,7 @@
 ---
 
 ### scopegen
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/scopegen.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/scopegen.sh
 - **Description:** Generates .scope compatible format for ScopeView (based on TomNomNoms Inscope)
 - **Note:** 
@@ -14713,7 +15468,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 1.62 MB
 - **SHA256SUM:** 11dcbe9088082f5f5a9eed34ceda9ed21a9c556b6838c3a66a70c0019b895e4d
 - **B3SUM:** 50144f021d92c811970b8b6b21a172526ae49b2d2aa6d7fccba5e448af861cf3
@@ -14724,6 +15479,7 @@
 ---
 
 ### scopeview
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/scopeview.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/scopeview.sh
 - **Description:** Slightly revamped vesion of TomNomNoms Inscope that allows custom .scope to be defined using -s or --scope options
 - **Note:** 
@@ -14732,7 +15488,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 2532 B
 - **SHA256SUM:** 1230b65d7e5558576bc76a743023e4c1756d5faad543c46c17b812177771f4ce
 - **B3SUM:** 816056faddc42363ac7aa271f02dcd418d3db778869ce9d1224a9ad6378c8eff
@@ -14743,6 +15499,7 @@
 ---
 
 ### screenfetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/screenfetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/screenfetch.sh
 - **Description:** bash neofetch alt
 - **Note:** 
@@ -14762,13 +15519,14 @@
 ---
 
 ### sd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sd.sh
 - **Description:** Intuitive find & replace CLI (sed alternative)
 - **Note:** 
 - **Author:** chmln
 - **WebURL:** [https://github.com/chmln/sd](https://github.com/chmln/sd)
 - **Repository:** [https://github.com/chmln/sd](https://github.com/chmln/sd)
-- **Stars:** 5804
+- **Stars:** 5805
 - **Version:** v1.0.0
 - **Updated:** 2024-05-28T02:35:26Z
 - **Size:** 2.08 MB
@@ -14781,6 +15539,7 @@
 ---
 
 ### sed
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sed.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sed.sh
 - **Description:** (stream editor) is a non-interactive command-line text editor
 - **Note:** 
@@ -14800,6 +15559,7 @@
 ---
 
 ### serverstatus-client
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-client.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14808,7 +15568,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 7.24 MB
 - **SHA256SUM:** 5c37aab1c50c3b81f8ad1136652f0c93af1f39d68485df1348aaeb11cccdfc06
 - **B3SUM:** fc766f8216d8a504b17f925af3e53674b2e09ad5533838c83083d375648f71a6
@@ -14819,6 +15579,7 @@
 ---
 
 ### serverstatus-gen-certs.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-gen-certs.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14827,7 +15588,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 1076 B
 - **SHA256SUM:** f99153c062388103dc133a83ffc57a3f4548f4a561bc4a207865c2d1de0ba884
 - **B3SUM:** efee7ebf1f3f6a4d96f373b4114dd2034e8fa4fb0184423ea9f8127f5bf012bb
@@ -14838,6 +15599,7 @@
 ---
 
 ### serverstatus-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14846,7 +15608,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 14.65 MB
 - **SHA256SUM:** 0874b78b8988b44dc43ecd5ebba62ec1c76d7c0e2237bab0393dab539f80f443
 - **B3SUM:** 5502875ca2337192b74d4f611e0951208a4ea2df993ff3015c5175bbbf888941
@@ -14857,6 +15619,7 @@
 ---
 
 ### serverstatus-server-themed
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server-themed.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14865,7 +15628,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 11.66 MB
 - **SHA256SUM:** 0874b78b8988b44dc43ecd5ebba62ec1c76d7c0e2237bab0393dab539f80f443
 - **B3SUM:** 58c9c298afd86efdb8689259fabd390042459f316a9937888bb086c57b67e52e
@@ -14876,6 +15639,7 @@
 ---
 
 ### serverstatus-status.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-status.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14884,7 +15648,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 19.28 kB
 - **SHA256SUM:** d00a81ca3bf27f0da5c6e66571e994412a278687238f338b2a213bb53b284e32
 - **B3SUM:** b2be58fd03de0656ab8caba7b3e169805cef55f1625db2bf88e174ea0b2b36db
@@ -14895,6 +15659,7 @@
 ---
 
 ### ssr-client
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ssr-client.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14903,7 +15668,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 7.24 MB
 - **SHA256SUM:** 5c37aab1c50c3b81f8ad1136652f0c93af1f39d68485df1348aaeb11cccdfc06
 - **B3SUM:** fc766f8216d8a504b17f925af3e53674b2e09ad5533838c83083d375648f71a6
@@ -14914,6 +15679,7 @@
 ---
 
 ### ssr-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14922,7 +15688,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 14.65 MB
 - **SHA256SUM:** 0874b78b8988b44dc43ecd5ebba62ec1c76d7c0e2237bab0393dab539f80f443
 - **B3SUM:** 5502875ca2337192b74d4f611e0951208a4ea2df993ff3015c5175bbbf888941
@@ -14933,6 +15699,7 @@
 ---
 
 ### ssr-server-themed
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server-themed.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/serverstatus.sh
 - **Description:** Multi Server, Multi Cloud Probing & Server Monitoring
 - **Note:** 
@@ -14941,7 +15708,7 @@
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
 - **Stars:** 1775
 - **Version:** v1.8.1
-- **Updated:** 2024-09-27T19:03:47Z
+- **Updated:** 2024-10-02T01:35:09Z
 - **Size:** 11.66 MB
 - **SHA256SUM:** 0874b78b8988b44dc43ecd5ebba62ec1c76d7c0e2237bab0393dab539f80f443
 - **B3SUM:** 58c9c298afd86efdb8689259fabd390042459f316a9937888bb086c57b67e52e
@@ -14952,6 +15719,7 @@
 ---
 
 ### sessionprobe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sessionprobe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sessionprobe.sh
 - **Description:** evaluates user privileges in web applications by taking a session token and checking access across a list of URLs
 - **Note:** 
@@ -14971,6 +15739,7 @@
 ---
 
 ### shc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shc.sh
 - **Description:** Shell script compiler
 - **Note:** 
@@ -14990,6 +15759,7 @@
 ---
 
 ### shell2http
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shell2http.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shell2http.sh
 - **Description:** Executing shell commands via HTTP server
 - **Note:** 
@@ -15009,13 +15779,14 @@
 ---
 
 ### shellharden
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shellharden.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shellharden.sh
 - **Description:** The corrective bash syntax highlighter
 - **Note:** 
 - **Author:** anordal
 - **WebURL:** [https://github.com/anordal/shellharden](https://github.com/anordal/shellharden)
 - **Repository:** [https://github.com/anordal/shellharden](https://github.com/anordal/shellharden)
-- **Stars:** 4617
+- **Stars:** 4618
 - **Version:** v4.3.1
 - **Updated:** 2024-09-01T09:50:59Z
 - **Size:** 421.4 kB
@@ -15028,6 +15799,7 @@
 ---
 
 ### shellz
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shellz.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shellz.sh
 - **Description:** a small utility to manage your ssh, telnet, kubernetes, winrm, web or any custom shell in a single place.
 - **Note:** 
@@ -15047,13 +15819,14 @@
 ---
 
 ### shfmt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shfmt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shfmt.sh
 - **Description:** A shell parser, formatter, and interpreter with bash support; includes shfmt
 - **Note:** 
 - **Author:** mvdan
 - **WebURL:** [https://github.com/mvdan/sh](https://github.com/mvdan/sh)
 - **Repository:** [https://github.com/mvdan/sh](https://github.com/mvdan/sh)
-- **Stars:** 7189
+- **Stars:** 7191
 - **Version:** v3.9.0
 - **Updated:** 2024-09-29T12:03:40Z
 - **Size:** 2.81 MB
@@ -15066,13 +15839,14 @@
 ---
 
 ### shortscan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shortscan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shortscan.sh
 - **Description:** An IIS short filename enumeration tool
 - **Note:** 
 - **Author:** bitquark
 - **WebURL:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
 - **Repository:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
-- **Stars:** 747
+- **Stars:** 748
 - **Version:** v0.9.0
 - **Updated:** 2024-07-24T23:44:14Z
 - **Size:** 10.23 MB
@@ -15085,13 +15859,14 @@
 ---
 
 ### shortutil
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shortutil.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shortscan.sh
 - **Description:** An IIS short filename enumeration tool
 - **Note:** 
 - **Author:** bitquark
 - **WebURL:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
 - **Repository:** [https://github.com/bitquark/shortscan](https://github.com/bitquark/shortscan)
-- **Stars:** 747
+- **Stars:** 748
 - **Version:** v0.9.0
 - **Updated:** 2024-07-24T23:44:14Z
 - **Size:** 2.34 MB
@@ -15104,6 +15879,7 @@
 ---
 
 ### shuffledns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/shuffledns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/shuffledns.sh
 - **Description:** MassDNS wrapper written in go
 - **Note:** 
@@ -15123,6 +15899,7 @@
 ---
 
 ### sf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/siegfried.sh
 - **Description:** signature-based file format identification
 - **Note:** 
@@ -15142,13 +15919,14 @@
 ---
 
 ### sing-box
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sing-box.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sing-box.sh
 - **Description:** The universal proxy platform
 - **Note:** 
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 18869
+- **Stars:** 18878
 - **Version:** v1.9.6
 - **Updated:** 2024-09-23T12:48:07Z
 - **Size:** 28.9 MB
@@ -15161,13 +15939,14 @@
 ---
 
 ### sish
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sish.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sish.sh
 - **Description:** HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.
 - **Note:** 
 - **Author:** antoniomika
 - **WebURL:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
 - **Repository:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
-- **Stars:** 3977
+- **Stars:** 3978
 - **Version:** v2.16.0
 - **Updated:** 2024-09-17T16:27:43Z
 - **Size:** 19.1 MB
@@ -15180,15 +15959,16 @@
 ---
 
 ### sj
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sj.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sj.sh
 - **Description:** A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
 - **Note:** 
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/sj](https://github.com/BishopFox/sj)
 - **Repository:** [https://github.com/BishopFox/sj](https://github.com/BishopFox/sj)
-- **Stars:** 484
-- **Version:** 1.8.4
-- **Updated:** 2024-09-20T19:29:58Z
+- **Stars:** 485
+- **Version:** 1.8.5
+- **Updated:** 2024-10-01T17:37:56Z
 - **Size:** 8.54 MB
 - **SHA256SUM:** 57ed11fcf8dbd05d6b38034c2ae316ff4a1e4704b162ea5eb7ba183d6e8e317a
 - **B3SUM:** f30727579e0996a9b44119c84f4d85ec9c39013a357961322a2571d38f38aa88
@@ -15199,13 +15979,14 @@
 ---
 
 ### sk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/skim.sh
 - **Description:** Fuzzy Finder in rust!
 - **Note:** 
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 5093
+- **Stars:** 5092
 - **Version:** v0.10.4
 - **Updated:** 2024-07-19T21:42:07Z
 - **Size:** 2.71 MB
@@ -15218,13 +15999,14 @@
 ---
 
 ### sk-tmux
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sk-tmux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/skim.sh
 - **Description:** Fuzzy Finder in rust!
 - **Note:** 
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 5093
+- **Stars:** 5092
 - **Version:** v0.10.4
 - **Updated:** 2024-07-19T21:42:07Z
 - **Size:** 7342 B
@@ -15237,6 +16019,7 @@
 ---
 
 ### skupper
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/skupper.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/skupper.sh
 - **Description:** Virtual Application Network, enabling rich hybrid cloud communication
 - **Note:** 
@@ -15256,6 +16039,7 @@
 ---
 
 ### slirp4netns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/slirp4netns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/slirp4netns.sh
 - **Description:** User-mode networking for unprivileged network namespaces
 - **Note:** 
@@ -15275,13 +16059,14 @@
 ---
 
 ### slskd.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/slskd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/slskd.sh
 - **Description:** A modern client-server application for the Soulseek file sharing network. (DockerC)
 - **Note:** Created using DockerC (Run: slskd -e 'SLSKD_REMOTE_CONFIGURATION=true' -v '<path/to/application/data>:/app')
 - **Author:** slskd
 - **WebURL:** [https://github.com/slskd/slskd](https://github.com/slskd/slskd)
 - **Repository:** [https://github.com/slskd/slskd](https://github.com/slskd/slskd)
-- **Stars:** 964
+- **Stars:** 965
 - **Version:** 0.21.4
 - **Updated:** 2024-09-29T20:12:09Z
 - **Size:** 103.31 MB
@@ -15294,6 +16079,7 @@
 ---
 
 ### smap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/smap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/smap.sh
 - **Description:** a drop-in replacement for Nmap powered by shodan.io
 - **Note:** 
@@ -15313,6 +16099,7 @@
 ---
 
 ### smartdns-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/smartdns-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/smartdns-rs.sh
 - **Description:** local DNS server (Dnsmasq like) written in rust to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.
 - **Note:** 
@@ -15332,13 +16119,14 @@
 ---
 
 ### smartdns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/smartdns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/smartdns.sh
 - **Description:** local DNS server (Dnsmasq like) to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.
 - **Note:** 
 - **Author:** pymumu
 - **WebURL:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 - **Repository:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
-- **Stars:** 8319
+- **Stars:** 8323
 - **Version:** Release46
 - **Updated:** 2024-09-21T16:03:45Z
 - **Size:** 2.92 MB
@@ -15351,6 +16139,7 @@
 ---
 
 ### sn0int
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sn0int.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sn0int.sh
 - **Description:** Semi-automatic OSINT framework and package manager
 - **Note:** 
@@ -15370,6 +16159,7 @@
 ---
 
 ### sns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sns.sh
 - **Description:** IIS shortname scanner written in Go
 - **Note:** 
@@ -15389,6 +16179,7 @@
 ---
 
 ### filan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/filan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/socat.sh
 - **Description:** socat is a program for identifying or deleting duplicate files residing within specified directories.
 - **Note:** 
@@ -15408,6 +16199,7 @@
 ---
 
 ### procan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/procan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/socat.sh
 - **Description:** socat is a program for identifying or deleting duplicate files residing within specified directories.
 - **Note:** 
@@ -15427,6 +16219,7 @@
 ---
 
 ### socat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/socat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/socat.sh
 - **Description:** socat is a program for identifying or deleting duplicate files residing within specified directories.
 - **Note:** 
@@ -15446,13 +16239,14 @@
 ---
 
 ### soft-serve
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/soft-serve.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/soft-serve.sh
 - **Description:** The mighty, self-hostable Git server for the command line🍦
 - **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
 - **Repository:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
-- **Stars:** 5244
+- **Stars:** 5245
 - **Version:** v0.7.6
 - **Updated:** 2024-09-24T10:04:05Z
 - **Size:** 26.54 MB
@@ -15465,13 +16259,14 @@
 ---
 
 ### sourcemapper
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sourcemapper.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sourcemapper.sh
 - **Description:** Extract JavaScript source trees from Sourcemap files
 - **Note:** 
 - **Author:** denandz
 - **WebURL:** [https://github.com/denandz/sourcemapper](https://github.com/denandz/sourcemapper)
 - **Repository:** [https://github.com/denandz/sourcemapper](https://github.com/denandz/sourcemapper)
-- **Stars:** 845
+- **Stars:** 846
 - **Version:** 
 - **Updated:** 2024-03-22T04:01:09Z
 - **Size:** 5.51 MB
@@ -15484,6 +16279,7 @@
 ---
 
 ### speedtest-go
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/speedtest-go.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/speedtest-go.sh
 - **Description:** CLI and Go API to Test Internet Speed using multiple-servers
 - **Note:** 
@@ -15503,6 +16299,7 @@
 ---
 
 ### spipe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/spipe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/spiped.sh
 - **Description:** Utility for creating symmetrically encrypted and authenticated pipes between Socket Addresses
 - **Note:** 
@@ -15522,6 +16319,7 @@
 ---
 
 ### spiped
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/spiped.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/spiped.sh
 - **Description:** Utility for creating symmetrically encrypted and authenticated pipes between Socket Addresses
 - **Note:** 
@@ -15541,6 +16339,7 @@
 ---
 
 ### spk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/spk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/spk.sh
 - **Description:** A small OSINT/Recon tool to find CIDRs that belong to a specific organization
 - **Note:** 
@@ -15560,13 +16359,14 @@
 ---
 
 ### spoof-dpi
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/spoof-dpi.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/spoof-dpi.sh
 - **Description:** A simple and fast anti-censorship tool written in Go
 - **Note:** 
 - **Author:** xvzc
 - **WebURL:** [https://github.com/xvzc/SpoofDPI](https://github.com/xvzc/SpoofDPI)
 - **Repository:** [https://github.com/xvzc/SpoofDPI](https://github.com/xvzc/SpoofDPI)
-- **Stars:** 3491
+- **Stars:** 3497
 - **Version:** v0.12.0
 - **Updated:** 2024-09-19T12:33:21Z
 - **Size:** 7.06 MB
@@ -15579,13 +16379,14 @@
 ---
 
 ### sq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sq.sh
 - **Description:** jq for sql
 - **Note:** 
 - **Author:** neilotoole
 - **WebURL:** [https://github.com/neilotoole/sq](https://github.com/neilotoole/sq)
 - **Repository:** [https://github.com/neilotoole/sq](https://github.com/neilotoole/sq)
-- **Stars:** 733
+- **Stars:** 735
 - **Version:** v0.48.3
 - **Updated:** 2024-08-26T02:34:40Z
 - **Size:** 31.46 MB
@@ -15598,6 +16399,7 @@
 ---
 
 ### sqlc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sqlc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sqlc.sh
 - **Description:** Universal DBMS/SQL client with exfiltration features  )
 - **Note:** 
@@ -15617,15 +16419,16 @@
 ---
 
 ### sqlite3
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sqlite3.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sqlite3.sh
 - **Description:** A self-contained, serverless, zero-configuration, transactional SQL database engine
 - **Note:** 
 - **Author:** sqlite
 - **WebURL:** [https://www.sqlite.org](https://www.sqlite.org)
 - **Repository:** [https://github.com/sqlite/sqlite](https://github.com/sqlite/sqlite)
-- **Stars:** 6404
+- **Stars:** 6407
 - **Version:** vesion-3.45.1
-- **Updated:** 2024-10-01T11:14:43Z
+- **Updated:** 2024-10-01T21:14:43Z
 - **Size:** 1.99 MB
 - **SHA256SUM:** c7b4bdf8c0ff36e1996a5f68edeaecb7655387a1d53768a9ed7f06fdf01a9562
 - **B3SUM:** 794c135aa36fe3a66274b920ae1920bd672a082805ca34950063ac1d703286c1
@@ -15636,6 +16439,7 @@
 ---
 
 ### squashfuse
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/squashfuse.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/squashfuse.sh
 - **Description:** FUSE filesystem to mount squashfs archives
 - **Note:** 
@@ -15655,6 +16459,7 @@
 ---
 
 ### squashfuse_ll
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/squashfuse_ll.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/squashfuse.sh
 - **Description:** FUSE filesystem to mount squashfs archives
 - **Note:** 
@@ -15674,6 +16479,7 @@
 ---
 
 ### sshesame
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sshesame.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sshesame.sh
 - **Description:** SSH honeypot, a fake SSH server that lets anyone in and logs their activity
 - **Note:** 
@@ -15693,6 +16499,7 @@
 ---
 
 ### sshkeys
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sshkeys.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sshkeys.sh
 - **Description:** Get all ssh public keys of a ssh server
 - **Note:** 
@@ -15712,6 +16519,7 @@
 ---
 
 ### sshpass
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sshpass.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sshpass.sh
 - **Description:** Standalone, Minimal HTTP Server
 - **Note:** 
@@ -15731,6 +16539,7 @@
 ---
 
 ### sshportal
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sshportal.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sshportal.sh
 - **Description:** Embedded SSH Server & Client meant for temp ssh access using invite codes
 - **Note:** 
@@ -15739,7 +16548,7 @@
 - **Repository:** [https://github.com/moul/sshportal](https://github.com/moul/sshportal)
 - **Stars:** 1779
 - **Version:** v1.19.5
-- **Updated:** 2024-09-26T21:39:39Z
+- **Updated:** 2024-10-02T00:52:14Z
 - **Size:** 11.23 MB
 - **SHA256SUM:** 1f186931b6218bdedd7294969c9567012e8acdb4265f50fdfd50eaabf6016910
 - **B3SUM:** 341eef71d128f98c62930a253c58fa8a5364af231c78c2090a9475332af33b6b
@@ -15750,13 +16559,14 @@
 ---
 
 ### sshx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sshx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sshx.sh
 - **Description:** Fast, collaborative live terminal sharing over the web
 - **Note:** 
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 - **Repository:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
-- **Stars:** 5807
+- **Stars:** 5810
 - **Version:** v0.2.5
 - **Updated:** 2024-09-24T01:00:11Z
 - **Size:** 6.22 MB
@@ -15769,13 +16579,14 @@
 ---
 
 ### sshx-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sshx-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sshx.sh
 - **Description:** Fast, collaborative live terminal sharing over the web
 - **Note:** 
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 - **Repository:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
-- **Stars:** 5807
+- **Stars:** 5810
 - **Version:** v0.2.5
 - **Updated:** 2024-09-24T01:00:11Z
 - **Size:** 8.37 MB
@@ -15788,6 +16599,7 @@
 ---
 
 ### sslsearch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sslsearch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sslsearch.sh
 - **Description:** Hunt SSL Certificates for interesting keywords on major cloud service providers / internet
 - **Note:** 
@@ -15807,15 +16619,16 @@
 ---
 
 ### starship
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/starship.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/starship.sh
 - **Description:** ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 - **Note:** 
 - **Author:** starship
 - **WebURL:** [https://github.com/starship/starship](https://github.com/starship/starship)
 - **Repository:** [https://github.com/starship/starship](https://github.com/starship/starship)
-- **Stars:** 44443
+- **Stars:** 44448
 - **Version:** v1.20.1
-- **Updated:** 2024-10-01T12:35:31Z
+- **Updated:** 2024-10-02T00:22:42Z
 - **Size:** 8.24 MB
 - **SHA256SUM:** db423d7b653547f7796d747af03a1a10cab7ccef1b391daa1e441cc005e6ac79
 - **B3SUM:** 7b315dc504413cd3d9cc112ca8738e926ea66fb5f28f4ab7b7f7106608b21f9a
@@ -15826,13 +16639,14 @@
 ---
 
 ### steampipe
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/steampipe.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/steampipe.sh
 - **Description:** Live query APIs, code & more with SQL. No DB required.
 - **Note:** 
 - **Author:** turbot
 - **WebURL:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
 - **Repository:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
-- **Stars:** 6854
+- **Stars:** 6856
 - **Version:** v0.24.2
 - **Updated:** 2024-09-30T09:56:48Z
 - **Size:** 52.95 MB
@@ -15845,6 +16659,7 @@
 ---
 
 ### stew
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/stew.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/stew.sh
 - **Description:** 🥘 An independent package manager for compiled binaries.
 - **Note:** 
@@ -15864,6 +16679,7 @@
 ---
 
 ### strace
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/strace.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/strace.sh
 - **Description:** strace is a diagnostic, debugging and instructional userspace utility for Linux
 - **Note:** 
@@ -15883,6 +16699,7 @@
 ---
 
 ### stree
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/stree.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/stree.sh
 - **Description:** 📁Directory trees of AWS S3 Bucket
 - **Note:** 
@@ -15902,6 +16719,7 @@
 ---
 
 ### stress-ng
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/stress-ng.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/stress-ng.sh
 - **Description:** stress test a computer system in various selectable ways
 - **Note:** 
@@ -15921,6 +16739,7 @@
 ---
 
 ### sttr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sttr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sttr.sh
 - **Description:** cli app to perform various operations on string
 - **Note:** 
@@ -15940,6 +16759,7 @@
 ---
 
 ### stuffbin
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/stuffbin.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/stuffbin.sh
 - **Description:** Compress and embed static files and assets into Go binaries and access them with a virtual file system in production
 - **Note:** 
@@ -15959,6 +16779,7 @@
 ---
 
 ### stunner
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/stunner.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/stunner.sh
 - **Description:** tool to test and exploit STUN, TURN and TURN over TCP servers.
 - **Note:** 
@@ -15978,15 +16799,16 @@
 ---
 
 ### subfinder
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/subfinder.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/subfinder.sh
 - **Description:** Fast passive subdomain enumeration tool
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
 - **Repository:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
-- **Stars:** 10023
+- **Stars:** 10026
 - **Version:** v2.6.6
-- **Updated:** 2024-09-30T14:57:25Z
+- **Updated:** 2024-10-01T21:19:35Z
 - **Size:** 27.75 MB
 - **SHA256SUM:** a8474eccf054aaffe9b63f3d80f8bb61315db85b3e9d8d72552b07a56aa0b5c0
 - **B3SUM:** 9fce1d281398a56326b2f28658e59dfb970795008b60a3310f9e37bc9b9dabef
@@ -15997,6 +16819,7 @@
 ---
 
 ### subjs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/subjs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/subjs.sh
 - **Description:** Fetches javascript file from a list of URLS or subdomains
 - **Note:** 
@@ -16016,6 +16839,7 @@
 ---
 
 ### subxtract
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/subxtract.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/subxtract.sh
 - **Description:** Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor
 - **Note:** 
@@ -16024,7 +16848,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 7.71 MB
 - **SHA256SUM:** 7902f419a474d470d06c6fd32de903d0aee376013a3d47a5237160643dce7ddc
 - **B3SUM:** c7631fc4f64a30d90b299aa2b253ee919babf2ffacb5b1255edcd3119689b185
@@ -16035,6 +16859,7 @@
 ---
 
 ### su-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/su-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sudo-rs.sh
 - **Description:** A memory safe implementation of sudo and su.
 - **Note:** sudo must be owned by uid 0 and have the setuid bit set (RUN: sudo chown 'root:root' sudo ; sudo chmod 'a=rx,u+ws' sudo)
@@ -16054,6 +16879,7 @@
 ---
 
 ### sudo-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sudo-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sudo-rs.sh
 - **Description:** A memory safe implementation of sudo and su.
 - **Note:** sudo must be owned by uid 0 and have the setuid bit set (RUN: sudo chown 'root:root' sudo ; sudo chmod 'a=rx,u+ws' sudo)
@@ -16073,6 +16899,7 @@
 ---
 
 ### visudo-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/visudo-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sudo-rs.sh
 - **Description:** A memory safe implementation of sudo and su.
 - **Note:** sudo must be owned by uid 0 and have the setuid bit set (RUN: sudo chown 'root:root' sudo ; sudo chmod 'a=rx,u+ws' sudo)
@@ -16092,6 +16919,7 @@
 ---
 
 ### sunbeam
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sunbeam.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sunbeam.sh
 - **Description:** a general purpose command-line launcher
 - **Note:** 
@@ -16111,13 +16939,14 @@
 ---
 
 ### supercronic
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/supercronic.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/supercronic.sh
 - **Description:** Cron for containers
 - **Note:** 
 - **Author:** aptible
 - **WebURL:** [https://github.com/aptible/supercronic](https://github.com/aptible/supercronic)
 - **Repository:** [https://github.com/aptible/supercronic](https://github.com/aptible/supercronic)
-- **Stars:** 1855
+- **Stars:** 1856
 - **Version:** v0.2.32
 - **Updated:** 2024-09-12T18:22:04Z
 - **Size:** 8.77 MB
@@ -16130,6 +16959,7 @@
 ---
 
 ### supervisord
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/supervisord.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/supervisord.sh
 - **Description:** a go-lang supervisor implementation
 - **Note:** 
@@ -16149,6 +16979,7 @@
 ---
 
 ### surf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/surf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/surf.sh
 - **Description:** filter a list of hosts, returning a list of viable SSRF candidates
 - **Note:** 
@@ -16168,6 +16999,7 @@
 ---
 
 ### svg-hush
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/svg-hush.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/svg-hush.sh
 - **Description:** Make it safe to serve untrusted SVG files
 - **Note:** 
@@ -16187,6 +17019,7 @@
 ---
 
 ### syncat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/syncat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/syncat.sh
 - **Description:** Syntax aware cat
 - **Note:** 
@@ -16206,15 +17039,16 @@
 ---
 
 ### syncthing
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/syncthing.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/syncthing.sh
 - **Description:** Open Source Continuous File Synchronization
 - **Note:** 
 - **Author:** syncthing
 - **WebURL:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
 - **Repository:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
-- **Stars:** 64258
+- **Stars:** 64266
 - **Version:** v1.27.12
-- **Updated:** 2024-10-01T01:29:45Z
+- **Updated:** 2024-10-01T15:04:29Z
 - **Size:** 23.19 MB
 - **SHA256SUM:** f466facf7182f304f274308e2d35b904c7f1ea7c73bdcdfb8634b5c1dfe69bea
 - **B3SUM:** 94737d4d1d47a1e5a39ea7330d67bd935b6beb3032a7caac9deffb7913e83925
@@ -16225,6 +17059,7 @@
 ---
 
 ### sysbox-fs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sysbox-fs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sysbox.sh
 - **Description:** next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
 - **Note:** 
@@ -16244,6 +17079,7 @@
 ---
 
 ### sysbox-mgr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sysbox-mgr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sysbox.sh
 - **Description:** next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
 - **Note:** 
@@ -16263,6 +17099,7 @@
 ---
 
 ### sysbox-runc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sysbox-runc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/sysbox.sh
 - **Description:** next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
 - **Note:** 
@@ -16282,6 +17119,7 @@
 ---
 
 ### sysinfo-collector
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sysinfo-collector.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/system-info-collector.sh
 - **Description:** collect ram/cpu usage from OS and show it in pretty graphs
 - **Note:** 
@@ -16301,6 +17139,7 @@
 ---
 
 ### system-info-collector
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/system-info-collector.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/system-info-collector.sh
 - **Description:** collect ram/cpu usage from OS and show it in pretty graphs
 - **Note:** 
@@ -16320,13 +17159,14 @@
 ---
 
 ### systemctl-tui
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/systemctl-tui.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/systemctl-tui.sh
 - **Description:** A fast, simple TUI for interacting with systemd services and their logs
 - **Note:** 
 - **Author:** rgwood
 - **WebURL:** [https://github.com/rgwood/systemctl-tui](https://github.com/rgwood/systemctl-tui)
 - **Repository:** [https://github.com/rgwood/systemctl-tui](https://github.com/rgwood/systemctl-tui)
-- **Stars:** 285
+- **Stars:** 286
 - **Version:** v0.3.8
 - **Updated:** 2024-09-16T01:37:59Z
 - **Size:** 6.38 MB
@@ -16339,6 +17179,7 @@
 ---
 
 ### systeroid
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/systeroid.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/systeroid.sh
 - **Description:** A more powerful alternative to sysctl(8) with a terminal user interface 🐧
 - **Note:** 
@@ -16358,6 +17199,7 @@
 ---
 
 ### taierspeed-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/taierspeed-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/taierspeed-cli.sh
 - **Description:** Speedtest cli for Tel Speed Test
 - **Note:** 
@@ -16377,15 +17219,16 @@
 ---
 
 ### tailscale
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tailscale.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
 - **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18764
+- **Stars:** 18769
 - **Version:** v1.74.1
-- **Updated:** 2024-10-01T11:51:47Z
+- **Updated:** 2024-10-01T22:03:40Z
 - **Size:** 13.38 MB
 - **SHA256SUM:** 29bec62f7971ce00dd6211a33bcb74db59c325941e89057c869423350175dff5
 - **B3SUM:** 57944e3880249f6a153067e3c49618f991566e4ac51e64c85dd6270b23c0d5e6
@@ -16396,15 +17239,16 @@
 ---
 
 ### tailscale_bb
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tailscale_bb.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
 - **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18764
+- **Stars:** 18769
 - **Version:** v1.74.1
-- **Updated:** 2024-10-01T11:51:47Z
+- **Updated:** 2024-10-01T22:03:40Z
 - **Size:** 27.73 MB
 - **SHA256SUM:** 3d553ad31dec7d77a39cd552b1d76cb0cd46a6e94bc09a0195e4fc11aca6eee3
 - **B3SUM:** 70913bb85547b3a6159c1cb1bec6bb1c6fdeb61bbb4503896c6a5e8b6fbcc1b7
@@ -16415,15 +17259,16 @@
 ---
 
 ### tailscaled
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tailscaled.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tailscale.sh
 - **Description:** The easiest, most secure way to use WireGuard and 2FA
 - **Note:** 
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18764
+- **Stars:** 18769
 - **Version:** v1.74.1
-- **Updated:** 2024-10-01T11:51:47Z
+- **Updated:** 2024-10-01T22:03:40Z
 - **Size:** 26.18 MB
 - **SHA256SUM:** ee058772b34f71772330d3d095e7b4340da7174d36c96548c3ba96e3b4f3fc5c
 - **B3SUM:** 987669dff37b5a48032f4309d7f782d7067999ea7bfa902c92589d5f0cb7f8f0
@@ -16434,13 +17279,14 @@
 ---
 
 ### tailspin
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tailspin.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tailspin.sh
 - **Description:** 🌀 A log file highlighter
 - **Note:** 
 - **Author:** bensadeh
 - **WebURL:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
 - **Repository:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
-- **Stars:** 5870
+- **Stars:** 5871
 - **Version:** 3.0.2
 - **Updated:** 2024-09-30T04:48:58Z
 - **Size:** 4.28 MB
@@ -16453,6 +17299,7 @@
 ---
 
 ### taplo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/taplo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/taplo.sh
 - **Description:** A TOML toolkit written in Rust
 - **Note:** 
@@ -16472,15 +17319,16 @@
 ---
 
 ### tcpdump
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tcpdump.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tcpdump.sh
 - **Description:** the TCPdump network dissector
 - **Note:** 
 - **Author:** the-tcpdump-group
 - **WebURL:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
 - **Repository:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
-- **Stars:** 2692
+- **Stars:** 2693
 - **Version:** tcpdump-4.99.5
-- **Updated:** 2024-09-30T18:37:03Z
+- **Updated:** 2024-10-01T18:08:01Z
 - **Size:** 1.66 MB
 - **SHA256SUM:** 548fd969be723da1210ace7cd922f32b5407190143221b6ff2c44be2c5c28c0a
 - **B3SUM:** 88e056c2258098c67b90cb12e74dcdf08ff4dbb7bd42206ca3bb445c2d45ec36
@@ -16491,13 +17339,14 @@
 ---
 
 ### tdl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tdl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tdl.sh
 - **Description:** 📥 A Telegram downloader/tools written in Golang
 - **Note:** 
 - **Author:** iyear
 - **WebURL:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
 - **Repository:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
-- **Stars:** 4243
+- **Stars:** 4247
 - **Version:** v0.17.4
 - **Updated:** 2024-09-30T15:23:41Z
 - **Size:** 38.03 MB
@@ -16510,13 +17359,14 @@
 ---
 
 ### teldrive
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/teldrive.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/teldrive.sh
 - **Description:** Telegram Drive Storage
 - **Note:** 
 - **Author:** tgdrive
 - **WebURL:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
 - **Repository:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
-- **Stars:** 1739
+- **Stars:** 1740
 - **Version:** 1.5.2
 - **Updated:** 2024-09-26T13:38:20Z
 - **Size:** 51.62 MB
@@ -16529,13 +17379,14 @@
 ---
 
 ### tere
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tere.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tere.sh
 - **Description:** Terminal Dir Navigator
 - **Note:** 
 - **Author:** mgunyho
 - **WebURL:** [https://github.com/mgunyho/tere](https://github.com/mgunyho/tere)
 - **Repository:** [https://github.com/mgunyho/tere](https://github.com/mgunyho/tere)
-- **Stars:** 1668
+- **Stars:** 1669
 - **Version:** v1.6.0
 - **Updated:** 2024-09-15T20:14:15Z
 - **Size:** 2.31 MB
@@ -16548,13 +17399,14 @@
 ---
 
 ### termshark
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/termshark.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/termshark.sh
 - **Description:** A terminal UI for tshark, inspired by Wireshark.
 - **Note:** 
 - **Author:** gcla
 - **WebURL:** [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
 - **Repository:** [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
-- **Stars:** 9028
+- **Stars:** 9030
 - **Version:** v2.4.0
 - **Updated:** 2024-04-30T06:15:11Z
 - **Size:** 15.7 MB
@@ -16567,6 +17419,7 @@
 ---
 
 ### termux.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/termux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/termux.sh
 - **Description:** The Android Termux Environment as a Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://github.com/termux/termux-docker/issues/63)
@@ -16586,6 +17439,7 @@
 ---
 
 ### tget
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tget.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tget.sh
 - **Description:** wget but for torrents
 - **Note:** 
@@ -16605,13 +17459,14 @@
 ---
 
 ### tgpt
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tgpt.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tgpt.sh
 - **Description:** Access ChatGPT from the comfort of your terminal. No API or config files are needed.
 - **Note:** 
 - **Author:** aandrew-me
 - **WebURL:** [https://github.com/aandrew-me/tgpt](https://github.com/aandrew-me/tgpt)
 - **Repository:** [https://github.com/aandrew-me/tgpt](https://github.com/aandrew-me/tgpt)
-- **Stars:** 1905
+- **Stars:** 1907
 - **Version:** v2.8.1
 - **Updated:** 2024-09-30T17:52:44Z
 - **Size:** 9.27 MB
@@ -16624,6 +17479,7 @@
 ---
 
 ### tidy-viewer
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tidy-viewer.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tidy-viewer.sh
 - **Description:** 📺(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
 - **Note:** 
@@ -16643,6 +17499,7 @@
 ---
 
 ### tinja
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tinja.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tinja.sh
 - **Description:** CLI tool for testing web pages for template injection vulnerabilities
 - **Note:** 
@@ -16662,6 +17519,7 @@
 ---
 
 ### tio
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tio.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tio.sh
 - **Description:** A serial device I/O tool
 - **Note:** 
@@ -16681,6 +17539,7 @@
 ---
 
 ### tldr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tldr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tldr.sh
 - **Description:** Simplified and community-driven man pages
 - **Note:** 
@@ -16700,6 +17559,7 @@
 ---
 
 ### tlrc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tlrc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tlrc.sh
 - **Description:** A tldr client written in Rust
 - **Note:** 
@@ -16708,7 +17568,7 @@
 - **Repository:** [https://github.com/tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)
 - **Stars:** 309
 - **Version:** v1.9.3
-- **Updated:** 2024-09-03T13:15:43Z
+- **Updated:** 2024-10-01T20:53:55Z
 - **Size:** 2.97 MB
 - **SHA256SUM:** 888b00d8d622f79a198db16b9ef9b80f15b7c2547009bed272557a364e2be77f
 - **B3SUM:** feee859b793ab004c64aba68301c808f34c6a6971e91851a4559ce6da656a485
@@ -16719,13 +17579,14 @@
 ---
 
 ### tlsx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tlsx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tlsx.sh
 - **Description:** Fast and configurable TLS grabber focused on TLS based data collection
 - **Note:** 
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/tlsx](https://github.com/projectdiscovery/tlsx)
 - **Repository:** [https://github.com/projectdiscovery/tlsx](https://github.com/projectdiscovery/tlsx)
-- **Stars:** 839
+- **Stars:** 840
 - **Version:** v1.1.7
 - **Updated:** 2024-09-30T03:09:35Z
 - **Size:** 27.11 MB
@@ -16738,6 +17599,7 @@
 ---
 
 ### tmate
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tmate.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tmate.sh
 - **Description:** Instant Terminal Sharing
 - **Note:** 
@@ -16757,13 +17619,14 @@
 ---
 
 ### tmux
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tmux.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tmux.sh
 - **Description:** terminal multiplexer
 - **Note:** 
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 34803
+- **Stars:** 34809
 - **Version:** 3.5
 - **Updated:** 2024-10-01T13:02:06Z
 - **Size:** 1.78 MB
@@ -16776,6 +17639,7 @@
 ---
 
 ### tok
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tok.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tok.sh
 - **Description:** word string splitter
 - **Note:** 
@@ -16784,7 +17648,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 67
 - **Version:** 
-- **Updated:** 2024-09-28T14:08:55Z
+- **Updated:** 2024-10-01T20:15:41Z
 - **Size:** 1.49 MB
 - **SHA256SUM:** c757257fb12b935966914e36e9fc58e3906bdd91ec1c5bf421d2d4df263bc2e6
 - **B3SUM:** ff1d65368614a2ab2181fdd565be315c51319384ed8b19498a7ef5293db4f2e6
@@ -16795,13 +17659,14 @@
 ---
 
 ### tokei
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tokei.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tokei.sh
 - **Description:** displays statistics & number of files for code files/dirs
 - **Note:** 
 - **Author:** XAMPPRocky
 - **WebURL:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
 - **Repository:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
-- **Stars:** 10993
+- **Stars:** 10995
 - **Version:** v13.0.0-alpha.5
 - **Updated:** 2024-09-30T09:25:37Z
 - **Size:** 4 MB
@@ -16814,6 +17679,7 @@
 ---
 
 ### toru
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/toru.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/toru.sh
 - **Description:** Bittorrent streaming CLI for anime torrents, real-time with no waiting for downloads.
 - **Note:** 
@@ -16833,13 +17699,14 @@
 ---
 
 ### toybox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/toybox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/toybox.sh
 - **Description:** minimal busybox
 - **Note:** 
 - **Author:** landley
 - **WebURL:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
 - **Repository:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
-- **Stars:** 2396
+- **Stars:** 2397
 - **Version:** 0.8.11
 - **Updated:** 2024-09-13T03:34:58Z
 - **Size:** 841.69 kB
@@ -16852,13 +17719,14 @@
 ---
 
 ### traefik
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/traefik.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/traefik.sh
 - **Description:** The Cloud Native Application Proxy
 - **Note:** 
 - **Author:** traefik
 - **WebURL:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
 - **Repository:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
-- **Stars:** 50578
+- **Stars:** 50588
 - **Version:** v3.1.4
 - **Updated:** 2024-10-01T12:19:12Z
 - **Size:** 160.29 MB
@@ -16871,13 +17739,14 @@
 ---
 
 ### transmission-daemon
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/transmission-daemon.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/transmission.sh
 - **Description:** A fast, easy and free BitTorrent client
 - **Note:** 
 - **Author:** transmission
 - **WebURL:** [https://transmissionbt.com/](https://transmissionbt.com/)
 - **Repository:** [https://github.com/transmission/transmission](https://github.com/transmission/transmission)
-- **Stars:** 12060
+- **Stars:** 12062
 - **Version:** 4.0.6
 - **Updated:** 2024-09-23T23:32:25Z
 - **Size:** 9.21 MB
@@ -16890,15 +17759,16 @@
 ---
 
 ### trip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/trip.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/trippy.sh
 - **Description:** A network diagnostic tool
 - **Note:** 
 - **Author:** fujiapple852
 - **WebURL:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
 - **Repository:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
-- **Stars:** 3531
+- **Stars:** 3532
 - **Version:** 0.11.0
-- **Updated:** 2024-10-01T05:58:00Z
+- **Updated:** 2024-10-02T00:26:36Z
 - **Size:** 5.98 MB
 - **SHA256SUM:** 9c5bfdc918762c31590b087bb05e2b6a160102f6c70ddbf3784bb35098884ede
 - **B3SUM:** 23d2da9926a1aa3db3de2901566b81d343ef0fe2ca049161947bf1d1c0ba9f4f
@@ -16909,15 +17779,16 @@
 ---
 
 ### trufflehog
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/trufflehog.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/trufflehog.sh
 - **Description:** Find and verify credentials
 - **Note:** 
 - **Author:** trufflesecurity
 - **WebURL:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
 - **Repository:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
-- **Stars:** 15787
+- **Stars:** 15789
 - **Version:** v3.82.6
-- **Updated:** 2024-10-01T11:07:22Z
+- **Updated:** 2024-10-01T21:22:44Z
 - **Size:** 110.85 MB
 - **SHA256SUM:** d05d6cc34b0600edde5beaeb44d153d72c668be33baf93c3ef893a9c046e3638
 - **B3SUM:** cb6ff6b3409838224709ea37c006f2009471b6bae7ee35ab5814fbf29740f1c4
@@ -16928,13 +17799,14 @@
 ---
 
 ### try
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/try.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/try.sh
 - **Description:** Inspect a commands effects before modifying your live system
 - **Note:** 
 - **Author:** binpash
 - **WebURL:** [https://github.com/binpash/try](https://github.com/binpash/try)
 - **Repository:** [https://github.com/binpash/try](https://github.com/binpash/try)
-- **Stars:** 5181
+- **Stars:** 5180
 - **Version:** v0.2.0
 - **Updated:** 2024-09-18T03:19:53Z
 - **Size:** 23.31 kB
@@ -16947,6 +17819,7 @@
 ---
 
 ### tssh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tssh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tssh.sh
 - **Description:** an alternative to ssh client, offers additional useful features, such as login prompt, trzsz ( trz / tsz ), batch login, remember password, zmodem ( rz / sz ), etc.
 - **Note:** 
@@ -16966,6 +17839,7 @@
 ---
 
 ### tty2web
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tty2web.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tty2web.sh
 - **Description:** Share your terminal as a web application in bind/reverse mode
 - **Note:** 
@@ -16985,6 +17859,7 @@
 ---
 
 ### ttyd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ttyd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ttyd.sh
 - **Description:** Share your terminal over the web
 - **Note:** 
@@ -17004,6 +17879,7 @@
 ---
 
 ### tuiarchiver
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tuiarchiver.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tuiarchiver.sh
 - **Description:** terminal application to list / manage archives
 - **Note:** 
@@ -17023,6 +17899,7 @@
 ---
 
 ### tun2proxy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tun2proxy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tun2proxy.sh
 - **Description:** Tunnel (TUN) interface for SOCKS and HTTP proxies
 - **Note:** 
@@ -17042,6 +17919,7 @@
 ---
 
 ### tusd
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tusd.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tusd.sh
 - **Description:** Server for tus, the open protocol for resumable file uploads
 - **Note:** 
@@ -17061,6 +17939,7 @@
 ---
 
 ### tut
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tut.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tut.sh
 - **Description:** TUI for Mastodon with vim inspired keys
 - **Note:** 
@@ -17080,6 +17959,7 @@
 ---
 
 ### txeh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/txeh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/txeh.sh
 - **Description:** CLI utility for /etc/hosts management.
 - **Note:** 
@@ -17099,6 +17979,7 @@
 ---
 
 ### tz
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/tz.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/tz.sh
 - **Description:** 🌐 A time zone helper
 - **Note:** 
@@ -17118,6 +17999,7 @@
 ---
 
 ### u-root
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/u-root.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/u-root.sh
 - **Description:** create a one-binary root file system (initramfs) containing a busybox-like set of tools
 - **Note:** 
@@ -17137,6 +18019,7 @@
 ---
 
 ### uroot
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/uroot.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/u-root.sh
 - **Description:** create a one-binary root file system (initramfs) containing a busybox-like set of tools
 - **Note:** 
@@ -17156,6 +18039,7 @@
 ---
 
 ### ubase-box
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ubase-box.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ubase.sh
 - **Description:** a collection of unportable tools, similar in spirit to util-linux but much simpler.
 - **Note:** 
@@ -17175,6 +18059,7 @@
 ---
 
 ### ubuntu.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/ubuntu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ubuntu.sh
 - **Description:** Portable Ephemeral Ubuntu Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/ubuntu)
@@ -17194,6 +18079,7 @@
 ---
 
 ### udpx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/udpx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/udpx.sh
 - **Description:** a single-packet UDP port scanner
 - **Note:** 
@@ -17213,6 +18099,7 @@
 ---
 
 ### uip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/uip.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/uip.sh
 - **Description:** A tool to obtain your public IP address with the help of STUN servers
 - **Note:** 
@@ -17232,6 +18119,7 @@
 ---
 
 ### uncover
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/uncover.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/uncover.sh
 - **Description:** Quickly discover exposed hosts on the internet using multiple search engines
 - **Note:** 
@@ -17251,6 +18139,7 @@
 ---
 
 ### unf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/unf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/unf.sh
 - **Description:** UNixize Filename -- replace annoying anti-unix characters in filenames
 - **Note:** 
@@ -17270,6 +18159,7 @@
 ---
 
 ### unfurl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/unfurl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/unfurl.sh
 - **Description:** Pull out bits of URLs provided on stdin
 - **Note:** 
@@ -17289,6 +18179,7 @@
 ---
 
 ### unifetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/unifetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/unifetch.sh
 - **Description:** An unofficial inheritor of Neofetch
 - **Note:** 
@@ -17308,13 +18199,14 @@
 ---
 
 ### upx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/upx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/upx.sh
 - **Description:** Ultimate Packer for eXecutables
 - **Note:** 
 - **Author:** upx
 - **WebURL:** [https://github.com/upx/upx](https://github.com/upx/upx)
 - **Repository:** [https://github.com/upx/upx](https://github.com/upx/upx)
-- **Stars:** 14286
+- **Stars:** 14285
 - **Version:** v4.2.4
 - **Updated:** 2024-09-17T08:57:25Z
 - **Size:** 577.12 kB
@@ -17327,6 +18219,7 @@
 ---
 
 ### usql
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/usql.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/usql.sh
 - **Description:** Universal command-line interface for SQL databases
 - **Note:** 
@@ -17346,13 +18239,14 @@
 ---
 
 ### v2raya
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/v2raya.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/v2raya.sh
 - **Description:** A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀
 - **Note:** 
 - **Author:** v2rayA
 - **WebURL:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
 - **Repository:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
-- **Stars:** 11061
+- **Stars:** 11064
 - **Version:** v2.2.5.8
 - **Updated:** 2024-09-26T13:05:32Z
 - **Size:** 29.49 MB
@@ -17365,13 +18259,14 @@
 ---
 
 ### v6run
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/v6run.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/v6-unix.sh
 - **Description:** Old Unix programs running on modern computers.
 - **Note:** 
 - **Author:** rsc
 - **WebURL:** [https://github.com/rsc/unix](https://github.com/rsc/unix)
 - **Repository:** [https://github.com/rsc/unix](https://github.com/rsc/unix)
-- **Stars:** 336
+- **Stars:** 335
 - **Version:** 
 - **Updated:** 2024-02-23T02:24:07Z
 - **Size:** 6.4 MB
@@ -17384,6 +18279,7 @@
 ---
 
 ### validtoml
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/validtoml.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/validtoml.sh
 - **Description:** simple toml validitor
 - **Note:** 
@@ -17403,13 +18299,14 @@
 ---
 
 ### vegeta
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vegeta.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vegeta.sh
 - **Description:** HTTP load testing tool and library
 - **Note:** 
 - **Author:** tsenart
 - **WebURL:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
 - **Repository:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
-- **Stars:** 23405
+- **Stars:** 23406
 - **Version:** v12.12.0
 - **Updated:** 2024-09-23T16:19:57Z
 - **Size:** 10.55 MB
@@ -17422,13 +18319,14 @@
 ---
 
 ### vfox
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vfox.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vfox.sh
 - **Description:** A cross-platform and extendable version manager with support for Java, Node.js, Flutter, .Net & more
 - **Note:** 
 - **Author:** version-fox
 - **WebURL:** [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
 - **Repository:** [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
-- **Stars:** 2729
+- **Stars:** 2730
 - **Version:** v0.6.0
 - **Updated:** 2024-09-29T08:02:52Z
 - **Size:** 11.43 MB
@@ -17441,13 +18339,14 @@
 ---
 
 ### vhs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vhs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vhs.sh
 - **Description:** CLI home video recorder 📼
 - **Note:** 
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
 - **Repository:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
-- **Stars:** 14939
+- **Stars:** 14945
 - **Version:** v0.8.0
 - **Updated:** 2024-09-27T13:22:20Z
 - **Size:** 21.89 MB
@@ -17460,6 +18359,7 @@
 ---
 
 ### viddy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/viddy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/viddy.sh
 - **Description:** 👀 A modern watch command. Time machine and pager etc.
 - **Note:** 
@@ -17479,6 +18379,7 @@
 ---
 
 ### viewgen_staticx
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/viewgen_staticx.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/viewgen.sh
 - **Description:** ViewState tool capable of generating both signed and encrypted payloads with leaked validation keys
 - **Note:** 
@@ -17498,13 +18399,14 @@
 ---
 
 ### viu
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/viu.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/viu.sh
 - **Description:** Terminal image viewer with native support for iTerm and Kitty
 - **Note:** 
 - **Author:** atanunq
 - **WebURL:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
 - **Repository:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
-- **Stars:** 2541
+- **Stars:** 2544
 - **Version:** v1.5.0
 - **Updated:** 2024-07-05T13:52:56Z
 - **Size:** 3.25 MB
@@ -17517,6 +18419,7 @@
 ---
 
 ### vnstat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vnstat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vnstat.sh
 - **Description:** A Network Traffic Monitor
 - **Note:** 
@@ -17536,6 +18439,7 @@
 ---
 
 ### void-glibc.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/void-glibc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/void.sh
 - **Description:** Portable Ephemeral Void Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://github.com/void-linux/void-containers)
@@ -17555,6 +18459,7 @@
 ---
 
 ### void-musl.no_strip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/void-musl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/void.sh
 - **Description:** Portable Ephemeral Void Linux Docker Image (DockerC)
 - **Note:** Created using DockerC, might require ROOT (Details: https://github.com/void-linux/void-containers)
@@ -17574,13 +18479,14 @@
 ---
 
 ### volta
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/volta.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/volta.sh
 - **Description:** JS Toolchains as Code. ⚡
 - **Note:** 
 - **Author:** volta-cli
 - **WebURL:** [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
 - **Repository:** [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
-- **Stars:** 10964
+- **Stars:** 10965
 - **Version:** v2.0.1
 - **Updated:** 2024-09-30T14:35:45Z
 - **Size:** 5.38 MB
@@ -17593,6 +18499,7 @@
 ---
 
 ### vopono
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vopono.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vopono.sh
 - **Description:** Run applications through VPN tunnels with temporary network namespaces
 - **Note:** 
@@ -17612,6 +18519,7 @@
 ---
 
 ### vproxy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vproxy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vproxy.sh
 - **Description:** IPv6 Subnet-based Proxy for Generating Random IP Requests
 - **Note:** 
@@ -17631,6 +18539,7 @@
 ---
 
 ### vtm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vtm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vtm.sh
 - **Description:** virtual terminal multiplexer
 - **Note:** 
@@ -17638,8 +18547,8 @@
 - **WebURL:** [https://github.com/directvt/vtm](https://github.com/directvt/vtm)
 - **Repository:** [https://github.com/directvt/vtm](https://github.com/directvt/vtm)
 - **Stars:** 1608
-- **Version:** v0.9.99.18
-- **Updated:** 2024-10-01T13:30:52Z
+- **Version:** v0.9.99.19
+- **Updated:** 2024-10-01T17:41:41Z
 - **Size:** 5.43 MB
 - **SHA256SUM:** 73b1003b4edb3f328bd072f06c39c91bd4ba5ec2d7f4bc73571f9dcdd29a3916
 - **B3SUM:** 854b0795f658b1a835df0cd8425c5b9a0c9c72b716dff03c08a04245dbde7c11
@@ -17650,6 +18559,7 @@
 ---
 
 ### vultr-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/vultr-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/vultr-cli.sh
 - **Description:** Official command line tool for Vultr services
 - **Note:** 
@@ -17669,6 +18579,7 @@
 ---
 
 ### wadl-dumper
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wadl-dumper.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wadl-dumper.sh
 - **Description:** Dump all available paths and/or endpoints on WADL file
 - **Note:** 
@@ -17688,6 +18599,7 @@
 ---
 
 ### walk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/walk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/walk.sh
 - **Description:** Terminal file manager
 - **Note:** 
@@ -17707,6 +18619,7 @@
 ---
 
 ### warp-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
 - **Note:** 
@@ -17726,6 +18639,7 @@
 ---
 
 ### warp-dex
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-dex.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
 - **Note:** 
@@ -17745,6 +18659,7 @@
 ---
 
 ### warp-diag
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-diag.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
 - **Note:** 
@@ -17764,6 +18679,7 @@
 ---
 
 ### warp-svc
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-svc.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/warp-cli.sh
 - **Description:** cloudflare warp
 - **Note:** 
@@ -17783,6 +18699,7 @@
 ---
 
 ### warp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/warp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/warp.sh
 - **Description:** S3 benchmarking tool
 - **Note:** 
@@ -17802,13 +18719,14 @@
 ---
 
 ### watchexec
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/watchexec.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/watchexec.sh
 - **Description:** Executes commands in response to file modifications
 - **Note:** 
 - **Author:** watchexec
 - **WebURL:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
 - **Repository:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
-- **Stars:** 5268
+- **Stars:** 5274
 - **Version:** v2.1.2
 - **Updated:** 2024-08-21T00:20:09Z
 - **Size:** 7.3 MB
@@ -17821,6 +18739,7 @@
 ---
 
 ### waybackrobots
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/waybackrobots.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/waybackrobots.sh
 - **Description:** Enumerate old versions of robots.txt paths using Wayback Machine for content discovery
 - **Note:** 
@@ -17840,6 +18759,7 @@
 ---
 
 ### waybackurls
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/waybackurls.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/waybackurls.sh
 - **Description:** Fetch all the URLs that the Wayback Machine knows about for a domain
 - **Note:** 
@@ -17859,6 +18779,7 @@
 ---
 
 ### web-cache-vulnerability-scanner
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/web-cache-vulnerability-scanner.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/web-cache-vulnerability-scanner.sh
 - **Description:** CLI tool for testing for web cache poisoning
 - **Note:** 
@@ -17878,6 +18799,7 @@
 ---
 
 ### websocat
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/websocat.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/websocat.sh
 - **Description:** netcat (or curl) for ws // with advanced socat-like functions
 - **Note:** 
@@ -17897,6 +18819,7 @@
 ---
 
 ### wego
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wego.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wego.sh
 - **Description:** weather app for the terminal
 - **Note:** 
@@ -17916,13 +18839,14 @@
 ---
 
 ### generate-bidi
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/generate-bidi.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
 - **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 16950
+- **Stars:** 16958
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-01T01:06:43Z
 - **Size:** 433.3 kB
@@ -17935,13 +18859,14 @@
 ---
 
 ### strip-ansi-escapes
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/strip-ansi-escapes.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
 - **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 16950
+- **Stars:** 16958
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-01T01:06:43Z
 - **Size:** 1.05 MB
@@ -17954,13 +18879,14 @@
 ---
 
 ### sync-color-schemes
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/sync-color-schemes.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
 - **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 16950
+- **Stars:** 16958
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-01T01:06:43Z
 - **Size:** 10.41 MB
@@ -17973,13 +18899,14 @@
 ---
 
 ### wezterm
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wezterm.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
 - **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 16950
+- **Stars:** 16958
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-01T01:06:43Z
 - **Size:** 25.03 MB
@@ -17992,13 +18919,14 @@
 ---
 
 ### wezterm-mux-server
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wezterm-mux-server.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wezterm.sh
 - **Description:** A GPU-accelerated cross-platform terminal emulator and multiplexer
 - **Note:** 
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 16950
+- **Stars:** 16958
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-01T01:06:43Z
 - **Size:** 23.12 MB
@@ -18011,6 +18939,7 @@
 ---
 
 ### wget
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wget.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wget.sh
 - **Description:** 
 - **Note:** 
@@ -18030,6 +18959,7 @@
 ---
 
 ### whois
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/whois.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/whois.sh
 - **Description:** 
 - **Note:** 
@@ -18049,6 +18979,7 @@
 ---
 
 ### wireguard-go
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wireguard-go.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wireguard-go.sh
 - **Description:** Go Implementation of WireGuard
 - **Note:** 
@@ -18068,6 +18999,7 @@
 ---
 
 ### wireguard-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wireguard-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wireguard-rs.sh
 - **Description:** Rust Implementation of WireGuard
 - **Note:** 
@@ -18087,6 +19019,7 @@
 ---
 
 ### wg
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wg.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wireguard-tools.sh
 - **Description:** tools for configuring WireGuard
 - **Note:** 
@@ -18106,6 +19039,7 @@
 ---
 
 ### wg-quick
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wg-quick.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wireguard-tools.sh
 - **Description:** tools for configuring WireGuard
 - **Note:** 
@@ -18125,13 +19059,14 @@
 ---
 
 ### wireproxy
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wireproxy.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wireproxy.sh
 - **Description:** Wireguard client that exposes itself as a socks5 proxy
 - **Note:** 
 - **Author:** pufferffish
 - **WebURL:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
 - **Repository:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
-- **Stars:** 4377
+- **Stars:** 4378
 - **Version:** v1.0.9
 - **Updated:** 2024-09-03T20:21:40Z
 - **Size:** 8.13 MB
@@ -18144,15 +19079,16 @@
 ---
 
 ### wiretap
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wiretap.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wiretap.sh
 - **Description:** ransparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run
 - **Note:** 
 - **Author:** sandialabs
 - **WebURL:** [https://github.com/sandialabs/wiretap](https://github.com/sandialabs/wiretap)
 - **Repository:** [https://github.com/sandialabs/wiretap](https://github.com/sandialabs/wiretap)
-- **Stars:** 841
+- **Stars:** 842
 - **Version:** v0.5.0
-- **Updated:** 2024-09-25T00:11:19Z
+- **Updated:** 2024-10-01T23:15:18Z
 - **Size:** 14.14 MB
 - **SHA256SUM:** cc85e0babf6b667ebefcf57a29eb68d37865294eecb9c554e57bba1a53687512
 - **B3SUM:** fefceb229b0eee690f6ddc228dbdfa27a80e974a635adc0c0b26ed13e5f95c40
@@ -18163,6 +19099,7 @@
 ---
 
 ### wormhole-rs
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wormhole-rs.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wormhole-rs.sh
 - **Description:** Rust implementation of Magic Wormhole, with new features and enhancements
 - **Note:** 
@@ -18182,13 +19119,14 @@
 ---
 
 ### wstunnel
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wstunnel.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wstunnel.sh
 - **Description:** Tunnel all your traffic over websocket protocol - Bypass firewalls/DPI
 - **Note:** 
 - **Author:** erebe
 - **WebURL:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
 - **Repository:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
-- **Stars:** 4182
+- **Stars:** 4185
 - **Version:** v10.1.2
 - **Updated:** 2024-10-01T06:37:44Z
 - **Size:** 9.32 MB
@@ -18201,6 +19139,7 @@
 ---
 
 ### wtf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wtf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wtf.sh
 - **Description:** The personal information dashboard for your terminal
 - **Note:** 
@@ -18220,6 +19159,7 @@
 ---
 
 ### wth
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wth.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wth.sh
 - **Description:** What The Heck  The better personal information dashboard for your terminal
 - **Note:** 
@@ -18239,6 +19179,7 @@
 ---
 
 ### wush
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/wush.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/wush.sh
 - **Description:** Simplest & Fastest way to transfer files between computers via WireGuard
 - **Note:** 
@@ -18247,7 +19188,7 @@
 - **Repository:** [https://github.com/coder/wush](https://github.com/coder/wush)
 - **Stars:** 679
 - **Version:** v0.2.1
-- **Updated:** 2024-09-30T17:04:48Z
+- **Updated:** 2024-10-01T18:46:03Z
 - **Size:** 46.38 MB
 - **SHA256SUM:** 9ca6de9760b611cfaef9460845fb158f7fa69e81b157062d162b6293f698fa70
 - **B3SUM:** cce7284b319ae79e114d3367bbd44717dca7394b924eb4adf8090e33584ba945
@@ -18258,6 +19199,7 @@
 ---
 
 ### x8
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/x8.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/x8.sh
 - **Description:** Hidden parameters discovery suite
 - **Note:** 
@@ -18277,15 +19219,16 @@
 ---
 
 ### xan
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xan.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xan.sh
 - **Description:** The CSV magician
 - **Note:** 
 - **Author:** medialab
 - **WebURL:** [https://github.com/medialab/xan](https://github.com/medialab/xan)
 - **Repository:** [https://github.com/medialab/xan](https://github.com/medialab/xan)
-- **Stars:** 163
+- **Stars:** 164
 - **Version:** 0.13.0
-- **Updated:** 2024-10-01T13:15:35Z
+- **Updated:** 2024-10-01T16:36:28Z
 - **Size:** 8.11 MB
 - **SHA256SUM:** 34237e1fc8dd280a121c89dbe4851729d78ad51ce9776a9c726fd60490737936
 - **B3SUM:** 288d99d4432ed5503726197b5a5eeb28854988a039305a5054672b484fdad755
@@ -18296,13 +19239,14 @@
 ---
 
 ### xbps-alternatives
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-alternatives.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18315,13 +19259,14 @@
 ---
 
 ### xbps-checkvers
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-checkvers.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18334,13 +19279,14 @@
 ---
 
 ### xbps-create
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-create.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 5.21 MB
@@ -18353,13 +19299,14 @@
 ---
 
 ### xbps-dgraph
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-dgraph.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18372,13 +19319,14 @@
 ---
 
 ### xbps-digest
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-digest.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18391,13 +19339,14 @@
 ---
 
 ### xbps-fbulk
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-fbulk.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18410,13 +19359,14 @@
 ---
 
 ### xbps-fetch
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-fetch.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18429,13 +19379,14 @@
 ---
 
 ### xbps-install
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-install.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.68 MB
@@ -18448,13 +19399,14 @@
 ---
 
 ### xbps-pkgdb
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-pkgdb.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18467,13 +19419,14 @@
 ---
 
 ### xbps-query
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-query.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18486,13 +19439,14 @@
 ---
 
 ### xbps-reconfigure
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-reconfigure.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18505,13 +19459,14 @@
 ---
 
 ### xbps-remove
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-remove.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.68 MB
@@ -18524,13 +19479,14 @@
 ---
 
 ### xbps-rindex
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-rindex.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 5.21 MB
@@ -18543,13 +19499,14 @@
 ---
 
 ### xbps-uchroot
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-uchroot.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18562,13 +19519,14 @@
 ---
 
 ### xbps-uhelper
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-uhelper.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18581,13 +19539,14 @@
 ---
 
 ### xbps-uunshare
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xbps-uunshare.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xbps-void.sh
 - **Description:** Void Package Builder|Installer
 - **Note:** 
 - **Author:** void-linux
 - **WebURL:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
 - **Repository:** [https://github.com/void-linux/xbps](https://github.com/void-linux/xbps)
-- **Stars:** 798
+- **Stars:** 799
 - **Version:** 0.59.2
 - **Updated:** 2024-06-24T13:06:16Z
 - **Size:** 4.55 MB
@@ -18600,6 +19559,7 @@
 ---
 
 ### xcp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xcp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xcp.sh
 - **Description:** An extended cp
 - **Note:** 
@@ -18619,6 +19579,7 @@
 ---
 
 ### xdo
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xdo.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xdo.sh
 - **Description:** Small X utility to perform elementary actions on windows
 - **Note:** 
@@ -18638,6 +19599,7 @@
 ---
 
 ### xdotool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xdotool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xdotool.sh
 - **Description:** Fake keyboard/mouse input, window management, and more
 - **Note:** 
@@ -18657,13 +19619,14 @@
 ---
 
 ### xh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xh.sh
 - **Description:** Friendly and fast tool for sending HTTP requests
 - **Note:** 
 - **Author:** ducaale
 - **WebURL:** [https://github.com/ducaale/xh](https://github.com/ducaale/xh)
 - **Repository:** [https://github.com/ducaale/xh](https://github.com/ducaale/xh)
-- **Stars:** 5481
+- **Stars:** 5482
 - **Version:** v0.22.2
 - **Updated:** 2024-09-30T21:07:42Z
 - **Size:** 5.61 MB
@@ -18676,6 +19639,7 @@
 ---
 
 ### xhost
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xhost.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xhost.sh
 - **Description:** Tool to manage the list of host names or user names allowed to make connections to the X server.
 - **Note:** 
@@ -18695,13 +19659,14 @@
 ---
 
 ### xplr
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xplr.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xplr.sh
 - **Description:** A hackable, minimal, fast TUI file explorer
 - **Note:** 
 - **Author:** sayanarijit
 - **WebURL:** [https://github.com/sayanarijit/xplr](https://github.com/sayanarijit/xplr)
 - **Repository:** [https://github.com/sayanarijit/xplr](https://github.com/sayanarijit/xplr)
-- **Stars:** 4147
+- **Stars:** 4149
 - **Version:** v0.21.9
 - **Updated:** 2024-09-03T17:28:07Z
 - **Size:** 6.54 MB
@@ -18714,6 +19679,7 @@
 ---
 
 ### xq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xq.sh
 - **Description:** Command-line XML and HTML beautifier and content extractor
 - **Note:** 
@@ -18733,6 +19699,7 @@
 ---
 
 ### xurls
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/xurls.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/xurls.sh
 - **Description:** Extract urls from text
 - **Note:** 
@@ -18741,7 +19708,7 @@
 - **Repository:** [https://github.com/mvdan/xurls](https://github.com/mvdan/xurls)
 - **Stars:** 1181
 - **Version:** v2.5.0
-- **Updated:** 2024-08-16T22:20:53Z
+- **Updated:** 2024-10-01T14:55:55Z
 - **Size:** 5.34 MB
 - **SHA256SUM:** 24167c8020eb6504846756cf726e7100d84809810a3e9c1191d2ae5cb2545280
 - **B3SUM:** 5a44bcdf1970510d9a2cc42c727b497bec989c19499209b1685fe0f9c34cf900
@@ -18752,13 +19719,14 @@
 ---
 
 ### yabs.sh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yabs.sh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yabs.sh.sh
 - **Description:** YABS - a simple bash script to estimate Linux server performance using fio, iperf3, & Geekbench
 - **Note:** 
 - **Author:** masonr
 - **WebURL:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
 - **Repository:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
-- **Stars:** 4207
+- **Stars:** 4211
 - **Version:** 
 - **Updated:** 2024-07-27T14:41:41Z
 - **Size:** 45.17 kB
@@ -18771,6 +19739,7 @@
 ---
 
 ### yalis
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yalis.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yalis.sh
 - **Description:** Yet Another LinkedIn Scraper
 - **Note:** 
@@ -18790,6 +19759,7 @@
 ---
 
 ### yataf
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yataf.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yataf.sh
 - **Description:** yataf extracts secrets and paths from files or urls - its best used against javascript files
 - **Note:** 
@@ -18809,13 +19779,14 @@
 ---
 
 ### yazi
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yazi.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yazi.sh
 - **Description:** 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
 - **Note:** 
 - **Author:** sxyazi
 - **WebURL:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - **Repository:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
-- **Stars:** 15115
+- **Stars:** 15133
 - **Version:** v0.3.3
 - **Updated:** 2024-10-01T10:38:39Z
 - **Size:** 14.39 MB
@@ -18828,13 +19799,14 @@
 ---
 
 ### yggdrasil
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yggdrasil.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yggdrasil.sh
 - **Description:** An experiment in scalable routing as an encrypted IPv6 overlay network
 - **Note:** 
 - **Author:** yggdrasil-network
 - **WebURL:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
 - **Repository:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
-- **Stars:** 3486
+- **Stars:** 3485
 - **Version:** v0.5.8
 - **Updated:** 2024-09-30T13:25:05Z
 - **Size:** 10.34 MB
@@ -18847,13 +19819,14 @@
 ---
 
 ### yggdrasilctl
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yggdrasilctl.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yggdrasil.sh
 - **Description:** An experiment in scalable routing as an encrypted IPv6 overlay network
 - **Note:** 
 - **Author:** yggdrasil-network
 - **WebURL:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
 - **Repository:** [https://github.com/yggdrasil-network/yggdrasil-go](https://github.com/yggdrasil-network/yggdrasil-go)
-- **Stars:** 3486
+- **Stars:** 3485
 - **Version:** v0.5.8
 - **Updated:** 2024-09-30T13:25:05Z
 - **Size:** 7.02 MB
@@ -18866,6 +19839,7 @@
 ---
 
 ### yip
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yip.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yip.sh
 - **Description:** 📌 Yaml Instructions Processor - Simply applies a cloud-init style yaml file to the system
 - **Note:** 
@@ -18885,6 +19859,7 @@
 ---
 
 ### yj
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yj.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yj.sh
 - **Description:** Convert between YAML, TOML, JSON, and HCL
 - **Note:** 
@@ -18904,13 +19879,14 @@
 ---
 
 ### yq
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yq.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yq.sh
 - **Description:** portable command-line YAML, JSON, XML, CSV, TOML and properties processor
 - **Note:** 
 - **Author:** mikefarah
 - **WebURL:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
 - **Repository:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
-- **Stars:** 11994
+- **Stars:** 11998
 - **Version:** v4.44.3
 - **Updated:** 2024-09-29T05:21:16Z
 - **Size:** 9.64 MB
@@ -18923,13 +19899,14 @@
 ---
 
 ### yt-dlp
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/yt-dlp.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/yt-dlp.sh
 - **Description:** A feature-rich command-line audio/video downloader
 - **Note:** 
 - **Author:** yt-dlp
 - **WebURL:** [https://discord.gg/H5MNcFW63r](https://discord.gg/H5MNcFW63r)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 83747
+- **Stars:** 83787
 - **Version:** 2024.09.27
 - **Updated:** 2024-10-01T00:13:48Z
 - **Size:** 33.9 MB
@@ -18942,6 +19919,7 @@
 ---
 
 ### z-tokens
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/z-tokens.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
 - **Note:** 
@@ -18961,6 +19939,7 @@
 ---
 
 ### zt-encodings
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-encodings.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
 - **Note:** 
@@ -18980,6 +19959,7 @@
 ---
 
 ### zt-exchange
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-exchange.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
 - **Note:** 
@@ -18999,6 +19979,7 @@
 ---
 
 ### zt-hashes
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-hashes.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
 - **Note:** 
@@ -19018,6 +19999,7 @@
 ---
 
 ### zt-patterns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-patterns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/z-tokens.sh
 - **Description:** z-tokens -- random tokens generation and related tools
 - **Note:** 
@@ -19037,6 +20019,7 @@
 ---
 
 ### zapper
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zapper.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zapper.sh
 - **Description:** Zaps arguments and environment from the process list
 - **Note:** 
@@ -19056,6 +20039,7 @@
 ---
 
 ### zapper-stealth
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zapper-stealth.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zapper.sh
 - **Description:** Zaps arguments and environment from the process list
 - **Note:** 
@@ -19075,15 +20059,16 @@
 ---
 
 ### zdns
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zdns.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zdns.sh
 - **Description:** Fast CLI DNS Lookup Tool
 - **Note:** 
 - **Author:** zmap
 - **WebURL:** [https://github.com/zmap/zdns](https://github.com/zmap/zdns)
 - **Repository:** [https://github.com/zmap/zdns](https://github.com/zmap/zdns)
-- **Stars:** 921
+- **Stars:** 922
 - **Version:** v1.1.0
-- **Updated:** 2024-09-30T15:28:53Z
+- **Updated:** 2024-10-01T15:25:39Z
 - **Size:** 11.28 MB
 - **SHA256SUM:** e884a3b20c1188ba6c912bfe61e06603856d038af7306b6e682231c689a52b6d
 - **B3SUM:** 8907d948e0d83322355afb46ee42fb8db21c8324c2d5f75ffe1f1a8e25f400a6
@@ -19094,13 +20079,14 @@
 ---
 
 ### zellij
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zellij.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zellij.sh
 - **Description:** A terminal workspace with batteries included
 - **Note:** 
 - **Author:** zellij-org
 - **WebURL:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
 - **Repository:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
-- **Stars:** 20881
+- **Stars:** 20886
 - **Version:** v0.40.1
 - **Updated:** 2024-09-30T16:05:38Z
 - **Size:** 25.8 MB
@@ -19113,13 +20099,14 @@
 ---
 
 ### zenith
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zenith.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zenith.sh
 - **Description:** sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage
 - **Note:** 
 - **Author:** bvaisvil
 - **WebURL:** [https://github.com/bvaisvil/zenith](https://github.com/bvaisvil/zenith)
 - **Repository:** [https://github.com/bvaisvil/zenith](https://github.com/bvaisvil/zenith)
-- **Stars:** 2608
+- **Stars:** 2609
 - **Version:** 0.14.1
 - **Updated:** 2024-09-27T22:17:35Z
 - **Size:** 1.62 MB
@@ -19132,13 +20119,14 @@
 ---
 
 ### zerotier-cli
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zerotier-cli.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zerotier.sh
 - **Description:** A Smart Ethernet Switch for Earth
 - **Note:** 
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14304
+- **Stars:** 14306
 - **Version:** 1.14.1
 - **Updated:** 2024-09-27T21:53:23Z
 - **Size:** 14.13 MB
@@ -19151,13 +20139,14 @@
 ---
 
 ### zerotier-idtool
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zerotier-idtool.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zerotier.sh
 - **Description:** A Smart Ethernet Switch for Earth
 - **Note:** 
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14304
+- **Stars:** 14306
 - **Version:** 1.14.1
 - **Updated:** 2024-09-27T21:53:23Z
 - **Size:** 14.13 MB
@@ -19170,13 +20159,14 @@
 ---
 
 ### zerotier-one
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zerotier-one.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zerotier.sh
 - **Description:** A Smart Ethernet Switch for Earth
 - **Note:** 
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14304
+- **Stars:** 14306
 - **Version:** 1.14.1
 - **Updated:** 2024-09-27T21:53:23Z
 - **Size:** 14.13 MB
@@ -19189,6 +20179,7 @@
 ---
 
 ### zfind
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zfind.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zfind.sh
 - **Description:** Search for files (even inside tar/zip/7z/rar) using a SQL-WHERE filter
 - **Note:** 
@@ -19208,6 +20199,7 @@
 ---
 
 ### zfxtop
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zfxtop.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zfxtop.sh
 - **Description:** fetch top for gen Z with X written by bubbletea enjoyer
 - **Note:** 
@@ -19227,6 +20219,7 @@
 ---
 
 ### zgrab2
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zgrab2.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zgrab2.sh
 - **Description:** Fast Go Application Scanner
 - **Note:** 
@@ -19246,13 +20239,14 @@
 ---
 
 ### zigup
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zigup.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zigup.sh
 - **Description:** Download and manage zig compilers.
 - **Note:** 
 - **Author:** marler8997
 - **WebURL:** [https://github.com/marler8997/zigup](https://github.com/marler8997/zigup)
 - **Repository:** [https://github.com/marler8997/zigup](https://github.com/marler8997/zigup)
-- **Stars:** 727
+- **Stars:** 728
 - **Version:** v2024_05_05
 - **Updated:** 2024-09-23T16:46:09Z
 - **Size:** 5.96 MB
@@ -19265,13 +20259,14 @@
 ---
 
 ### z
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/z.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zoxide.sh
 - **Description:** A smarter cd command.
 - **Note:** 
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 21995
+- **Stars:** 22005
 - **Version:** v0.9.6
 - **Updated:** 2024-09-30T19:00:21Z
 - **Size:** 1.05 MB
@@ -19284,13 +20279,14 @@
 ---
 
 ### zoxide
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zoxide.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zoxide.sh
 - **Description:** A smarter cd command.
 - **Note:** 
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 21995
+- **Stars:** 22005
 - **Version:** v0.9.6
 - **Updated:** 2024-09-30T19:00:21Z
 - **Size:** 1.05 MB
@@ -19303,13 +20299,14 @@
 ---
 
 ### zsh
+- **Log:** https://bin.ajam.dev/aarch64_arm64_Linux/zsh.log.txt
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/zsh.sh
 - **Description:** The Z shell
 - **Note:** 
 - **Author:** zsh-users
 - **WebURL:** [https://www.zsh.org/](https://www.zsh.org/)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3615
+- **Stars:** 3614
 - **Version:** zsh-5.9
 - **Updated:** 2024-09-22T01:04:41Z
 - **Size:** 1.63 MB
