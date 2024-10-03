@@ -199,7 +199,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
   build-push-docker-ubuntu-base-aarch64:
-    name: Push (Ubuntu-Base) --> Docker Hub
+    name: Push (Ubuntu-Base-aarch64) --> Docker Hub
     runs-on: arm64-linux-healthchecker
     
     steps:
@@ -259,7 +259,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
   build-push-docker-ubuntu-base-x64:
-    name: Push (Ubuntu-Base) --> Docker Hub
+    name: Push (Ubuntu-Base-x64) --> Docker Hub
     runs-on: ubuntu-latest
     
     steps:
