@@ -51,8 +51,8 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
-       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
-       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"       
+       find "." -maxdepth 1 -type f -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1

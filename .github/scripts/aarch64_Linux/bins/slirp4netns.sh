@@ -32,7 +32,8 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        [ -d "$BIN_DIR" ] && sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "${BINDIR}" ; unset BIN_DIR
        sudo chown -R "$(whoami):$(whoami)" "${BINDIR}" && chmod -R 755 "${BINDIR}"
        sudo objcopy --remove-section=".comment" --remove-section=".note.*" "$BINDIR/slirp4netns"
-       sudo strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/slirp4netns" ; file "${BINDIR}/slirp4netns" && du -sh "${BINDIR}/slirp4netns"
+       sudo strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/slirp4netns"
+       realpath "${BINDIR}/slirp4netns" | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
