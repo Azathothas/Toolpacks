@@ -25,16 +25,40 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
      export BIN="pv"
      export SOURCE_URL="https://github.com/rootless-containers/pv"
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
-      #Build 
+      ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.pv" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       BIN_DIR="$(find "." -maxdepth 1 -type d -o -type l -exec realpath {} \; | grep -Ev '^\.$')"
-       [ -d "$BIN_DIR" ] && [[ "$BIN_DIR" == "/nix"* ]] && sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "${BINDIR}" ; unset BIN_DIR
-       sudo chown -R "$(whoami):$(whoami)" "${BINDIR}" && chmod -R 755 "${BINDIR}"
-       sudo objcopy --remove-section=".comment" --remove-section=".note.*" "$BINDIR/pv"
-       sudo strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/pv"
-       realpath "${BINDIR}/pv" | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-       nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "alpine-builder" --pull="always" "azathothas/alpine-builder:latest" \
+        bash -l -c '
+        #Setup ENV
+         mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
+        #Get SRC
+         DL_LINK="$(curl -qfsSL "https://www.ivarch.com/programs/pv.shtml" | grep -o '\''href="[^"]*"'\'' | sed '\''s/href="//'\'' | sed '\''s/"$//'\'' | grep -Ei "tar.gz$" | sort --version-sort | tail -n 1 | xargs basename | tr -d '[:space:]')" && export DL_LINK="${DL_LINK}"
+         curl -qfsSL "https://www.ivarch.com/programs/sources/${DL_LINK}" -o "./pv.tar.gz"
+         tar -xf "./pv.tar.gz"
+         cd "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev "^\.$" | xargs -I {} realpath {})"
+        #Build
+         export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
+         export CFLAGS="-O2 -flto=auto -static -w -pipe"
+         "./configure" --disable-shared --disable-Werror --enable-static --enable-year2038 --enable-compile-warnings="no"
+         make --jobs="$(($(nproc)+1))" --keep-going
+        #Copy
+         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} rsync -achvL "{}" "/build-bins/"
+        #strip & info 
+         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
+         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         file "/build-bins/"* && du -sh "/build-bins/"*
+         popd >/dev/null 2>&1
+        '
+      #Copy & Meta
+       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
+       find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
+       #Meta
+       find "." -maxdepth 1 -type f -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
+      #Delete Containers
+       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

@@ -40,7 +40,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          make CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" CPPFLAGS="$CFLAGS" LDFLAGS="$LDFLAGS" --jobs="$(($(nproc)+1))" --keep-going
         #Copy
          #cp "./axel" "/build-bins/axel"
-         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
+         find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} rsync -achvL "{}" "/build-bins/"
         #strip & info 
          find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
          find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
@@ -52,7 +52,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
        find "." -maxdepth 1 -type f -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-       sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
+       sudo rsync -av --copy-links --exclude="*/" "./." "${BINDIR}"
       #Delete Containers
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
        popd >/dev/null 2>&1
