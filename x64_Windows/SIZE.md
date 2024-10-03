@@ -1,5 +1,5 @@
 ```mathematica
- 1.7G └─┬ .
+ 1.7G └─┬ toolpack_x86_64
  149M   ├── pandoc.exe
  140M   ├── ffmpeg.exe
  140M   ├── ffprobe.exe
@@ -58,7 +58,6 @@
  5.2M   ├── rg.exe
  5.0M   ├── monolith.exe
  4.6M   ├── certstream.exe
- 4.6M   ├── openssh.zip
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
  3.6M   ├── pingmole.exe

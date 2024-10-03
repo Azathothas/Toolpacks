@@ -69,7 +69,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
 ^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
 
 
-In .github/scripts/aarch64_Linux/bins/binutils.sh line 120:
+In .github/scripts/aarch64_Linux/bins/binutils.sh line 121:
 #-------------------------------------------------------#
                                                          ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
                                                          ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
@@ -341,7 +341,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
 ^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
 
 
-In .github/scripts/aarch64_Linux/bins/bintools.sh line 120:
+In .github/scripts/aarch64_Linux/bins/bintools.sh line 121:
 #-------------------------------------------------------#
                                                          ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
                                                          ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
@@ -453,7 +453,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
 ^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
 
 
-In .github/scripts/x86_64_Linux/bins/binutils.sh line 120:
+In .github/scripts/x86_64_Linux/bins/binutils.sh line 121:
 #-------------------------------------------------------#
                                                          ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
                                                          ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
@@ -757,7 +757,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
 ^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
 
 
-In .github/scripts/x86_64_Linux/bins/bintools.sh line 120:
+In .github/scripts/x86_64_Linux/bins/bintools.sh line 121:
 #-------------------------------------------------------#
                                                          ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
                                                          ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
