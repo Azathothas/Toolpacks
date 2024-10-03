@@ -58,6 +58,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
        sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/imagemagick/"
       #-------------------------------------------------------#
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/imagemagick" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/imagemagick/"*
        #Archive [$BASEUTILSDIR/imagemagick]
@@ -105,6 +106,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/imagemagick/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi       
        find "$BASEUTILSDIR" -type f -size -3c -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

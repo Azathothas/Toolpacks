@@ -35,6 +35,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        find "$BASEUTILSDIR/outils" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/outils" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/outils/"*
        #Archive [$BASEUTILSDIR/outils]
@@ -82,6 +83,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/x86_64_Linux/Baseutils/outils/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi       
        find "$BASEUTILSDIR" -type f -size -3c -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

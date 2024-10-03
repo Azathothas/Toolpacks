@@ -180,6 +180,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       ##Copy 
       # docker cp "alpine-builder:/build-bins/." "$(pwd)/" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
       #-------------------------------------------------------#
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/coreutils_uutils" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/coreutils_uutils/"*
        #Archive [$BASEUTILSDIR/coreutils_uutils]
@@ -227,6 +228,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/coreutils_uutils/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi
        find "$BASEUTILSDIR" -type f -size -3c -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

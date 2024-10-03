@@ -48,6 +48,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       #Test
        timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$BASEUTILSDIR/busybox:/mnt" "termux/termux-docker:aarch64" "/mnt/busybox"
       #-------------------------------------------------------#
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/busybox" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/busybox/"*
        find "$BASEUTILSDIR/busybox/" -type f -executable -exec sh -c 'aarch64-linux-gnu-readelf -d "{}" | grep -i "needed"' \;
@@ -96,6 +97,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/arm64_v8a_Android/Baseutils/busybox/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi       
        find "$BASEUTILSDIR" -type f -size -3c -delete
       #Test
        #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version

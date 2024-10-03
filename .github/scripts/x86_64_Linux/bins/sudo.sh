@@ -37,6 +37,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Strip
        find "$BASEUTILSDIR/sudo" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
       #-------------------------------------------------------#       
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/sudo" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/sudo/"*
        #Archive [$BASEUTILSDIR/sudo]
@@ -87,6 +88,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        # sudo chown "root:root" sudo
        # sudo chmod "a=rx,u+ws" sudo   
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi       
        find "$BASEUTILSDIR" -type f -size -3c -delete
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi

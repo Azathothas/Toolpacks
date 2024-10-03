@@ -45,6 +45,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        rsync -av --copy-links "./libexec/." "$BASEUTILSDIR/openssh"
        rsync -av --copy-links "./sbin/." "$BASEUTILSDIR/openssh"
       #-------------------------------------------------------#       
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/openssh" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/openssh/"*
        #Archive [$BASEUTILSDIR/openssh]
@@ -92,6 +93,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/aarch64_arm64_Linux/Baseutils/openssh/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi  
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi 
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

@@ -21,29 +21,6 @@ fi
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "${SKIP_BUILD}" == "NO" ]; then
-    #bintools: Userland tools for the f2fs filesystem#!/usr/bin/env bash
-
-#-------------------------------------------------------#
-#Sanity Checks
-if [ "${BUILD}" != "YES" ] || \
-   [ -z "${BINDIR}" ] || \
-   [ -z "${EGET_EXCLUDE}" ] || \
-   [ -z "${EGET_TIMEOUT}" ] || \
-   [ -z "${GIT_TERMINAL_PROMPT}" ] || \
-   [ -z "${GIT_ASKPASS}" ] || \
-   [ -z "${GITHUB_TOKEN}" ] || \
-   [ -z "${SYSTMP}" ] || \
-   [ -z "${TMPDIRS}" ]; then
- #exit
-  echo -e "\n[+]Skipping Builds...\n"
-  exit 1
-fi
-#-------------------------------------------------------#
-
-#-------------------------------------------------------#
-##Main
-SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
-if [ "${SKIP_BUILD}" == "NO" ]; then
     #bintools: Tools for manipulating binaries (linker, assembler, etc.) (wrapper script)
      export BIN="bintools"
      export SOURCE_URL="https://www.gnu.org/software/binutils/"
@@ -58,6 +35,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        find "$BASEUTILSDIR/bintools" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
       #-------------------------------------------------------#
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/bintools" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/bintools/"*
        #Archive [$BASEUTILSDIR/bintools]
@@ -105,6 +83,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/x86_64_Linux/Baseutils/bintools/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi       
        find "$BASEUTILSDIR" -type f -size -3c -delete ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

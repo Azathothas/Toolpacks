@@ -45,6 +45,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        mkdir -p "$BASEUTILSDIR/coreutils" && rsync -av --copy-links "./" "$BASEUTILSDIR/coreutils/"
        sudo chown -R "$(whoami):$(whoami)" "$BASEUTILSDIR/coreutils/" && chmod -R 755 "$BASEUTILSDIR/coreutils/"
       #-------------------------------------------------------#
+      if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/coreutils" -mindepth 1 -print -quit 2>/dev/null)" ]; then
       ##Meta
        file "$BASEUTILSDIR/coreutils/"*
        find "$BASEUTILSDIR/coreutils/" -type f -executable -exec sh -c 'aarch64-linux-gnu-readelf -d "{}" | grep -i "needed"' \;
@@ -93,6 +94,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           rclone copyto --checksum "$TMP_METADIR/INFO.json" "r2:/bin/arm64_v8a_Android/Baseutils/coreutils/INFO.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
        fi
        unset TMP_METADIR BUILD_LOG BUILD_SCRIPT B3SUM DESCRIPTION NOTE EXTRA_BINS REPO_URL SHA256 WEB_URL
+      fi       
        find "$BASEUTILSDIR" -type f -size -3c -delete
       #Test
        #timeout -k 10s 20s docker run --privileged -it --rm --platform="linux/arm64" --network="bridge" -v "$(pwd):/mnt" "termux/termux-docker:aarch64" "/mnt/cat" --version
