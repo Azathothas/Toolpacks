@@ -2,15 +2,15 @@
 
 #-------------------------------------------------------#
 #Sanity Checks
-if [ "$BUILD" != "YES" ] || \
-   [ -z "$BINDIR" ] || \
-   [ -z "$EGET_EXCLUDE" ] || \
-   [ -z "$EGET_TIMEOUT" ] || \
-   [ -z "$GIT_TERMINAL_PROMPT" ] || \
-   [ -z "$GIT_ASKPASS" ] || \
-   [ -z "$GITHUB_TOKEN" ] || \
-   [ -z "$SYSTMP" ] || \
-   [ -z "$TMPDIRS" ]; then
+if [ "${BUILD}" != "YES" ] || \
+   [ -z "${BINDIR}" ] || \
+   [ -z "${EGET_EXCLUDE}" ] || \
+   [ -z "${EGET_TIMEOUT}" ] || \
+   [ -z "${GIT_TERMINAL_PROMPT}" ] || \
+   [ -z "${GIT_ASKPASS}" ] || \
+   [ -z "${GITHUB_TOKEN}" ] || \
+   [ -z "${SYSTMP}" ] || \
+   [ -z "${TMPDIRS}" ]; then
  #exit
   echo -e "\n[+]Skipping Builds...\n"
   exit 1
@@ -20,11 +20,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="YES" #tries jack: https://github.com/jackaudio/jack2/issues/743
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
       #dizi: Server-client music player written in Rust
      export BIN="dizi" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/kamiyaa/dizi" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/kamiyaa/dizi" && cd "./dizi"
        export RUST_TARGET="x86_64-unknown-linux-gnu" && rustup target add "$RUST_TARGET"

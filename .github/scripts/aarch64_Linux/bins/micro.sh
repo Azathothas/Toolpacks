@@ -2,15 +2,15 @@
 
 #-------------------------------------------------------#
 #Sanity Checks
-if [ "$BUILD" != "YES" ] || \
-   [ -z "$BINDIR" ] || \
-   [ -z "$EGET_EXCLUDE" ] || \
-   [ -z "$EGET_TIMEOUT" ] || \
-   [ -z "$GIT_TERMINAL_PROMPT" ] || \
-   [ -z "$GIT_ASKPASS" ] || \
-   [ -z "$GITHUB_TOKEN" ] || \
-   [ -z "$SYSTMP" ] || \
-   [ -z "$TMPDIRS" ]; then
+if [ "${BUILD}" != "YES" ] || \
+   [ -z "${BINDIR}" ] || \
+   [ -z "${EGET_EXCLUDE}" ] || \
+   [ -z "${EGET_TIMEOUT}" ] || \
+   [ -z "${GIT_TERMINAL_PROMPT}" ] || \
+   [ -z "${GIT_ASKPASS}" ] || \
+   [ -z "${GITHUB_TOKEN}" ] || \
+   [ -z "${SYSTMP}" ] || \
+   [ -z "${TMPDIRS}" ]; then
  #exit
   echo -e "\n[+]Skipping Builds...\n"
   exit 1
@@ -20,11 +20,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
     #micro : A modern and intuitive terminal-based text editor
      export BIN="micro"
      export SOURCE_URL="https://github.com/zyedidia/micro"
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Build 
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/zyedidia/micro" && cd "./micro"
        GOOS="linux" GOARCH="arm64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./micro-bin" ./cmd/micro ; cp "./micro-bin" "$BINDIR/micro"

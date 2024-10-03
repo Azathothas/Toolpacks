@@ -2,15 +2,15 @@
 
 #-------------------------------------------------------#
 #Sanity Checks
-if [ "$BUILD" != "YES" ] || \
-   [ -z "$BINDIR" ] || \
-   [ -z "$EGET_EXCLUDE" ] || \
-   [ -z "$EGET_TIMEOUT" ] || \
-   [ -z "$GIT_TERMINAL_PROMPT" ] || \
-   [ -z "$GIT_ASKPASS" ] || \
-   [ -z "$GITHUB_TOKEN" ] || \
-   [ -z "$SYSTMP" ] || \
-   [ -z "$TMPDIRS" ]; then
+if [ "${BUILD}" != "YES" ] || \
+   [ -z "${BINDIR}" ] || \
+   [ -z "${EGET_EXCLUDE}" ] || \
+   [ -z "${EGET_TIMEOUT}" ] || \
+   [ -z "${GIT_TERMINAL_PROMPT}" ] || \
+   [ -z "${GIT_ASKPASS}" ] || \
+   [ -z "${GITHUB_TOKEN}" ] || \
+   [ -z "${SYSTMP}" ] || \
+   [ -z "${TMPDIRS}" ]; then
  #exit
   echo -e "\n[+]Skipping Builds...\n"
   exit 1
@@ -20,11 +20,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
    #dwarfs : Single Binary DwarFS Toolset including mkdwarfs, dwarfsck, dwarfsextract & dwarfs
      export BIN="dwarfs"
      export SOURCE_URL="https://github.com/mhx/dwarfs"
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --asset "Linux" --asset "x86_64" --asset "universal" --asset "^stack" "$EGET_EXCLUDE" --to "./dwarfs.upx"

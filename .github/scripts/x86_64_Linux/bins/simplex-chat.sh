@@ -2,15 +2,15 @@
 
 #-------------------------------------------------------#
 #Sanity Checks
-if [ "$BUILD" != "YES" ] || \
-   [ -z "$BINDIR" ] || \
-   [ -z "$EGET_EXCLUDE" ] || \
-   [ -z "$EGET_TIMEOUT" ] || \
-   [ -z "$GIT_TERMINAL_PROMPT" ] || \
-   [ -z "$GIT_ASKPASS" ] || \
-   [ -z "$GITHUB_TOKEN" ] || \
-   [ -z "$SYSTMP" ] || \
-   [ -z "$TMPDIRS" ]; then
+if [ "${BUILD}" != "YES" ] || \
+   [ -z "${BINDIR}" ] || \
+   [ -z "${EGET_EXCLUDE}" ] || \
+   [ -z "${EGET_TIMEOUT}" ] || \
+   [ -z "${GIT_TERMINAL_PROMPT}" ] || \
+   [ -z "${GIT_ASKPASS}" ] || \
+   [ -z "${GITHUB_TOKEN}" ] || \
+   [ -z "${SYSTMP}" ] || \
+   [ -z "${TMPDIRS}" ]; then
  #exit
   echo -e "\n[+]Skipping Builds...\n"
   exit 1
@@ -20,11 +20,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 SKIP_BUILD="YES" #WIP
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
     #simplex-chat : SimpleX Chat terminal (console) app
      export BIN="simplex-chat"
      export SOURCE_URL="https://github.com/simplex-chat/simplex-chat"
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       ##Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        git clone --filter="blob:none" --depth="1" --quiet "https://github.com/simplex-chat/simplex-chat" && cd "./simplex-chat"

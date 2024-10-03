@@ -2,15 +2,15 @@
 
 #-------------------------------------------------------#
 #Sanity Checks
-if [ "$BUILD" != "YES" ] || \
-   [ -z "$BINDIR" ] || \
-   [ -z "$EGET_EXCLUDE" ] || \
-   [ -z "$EGET_TIMEOUT" ] || \
-   [ -z "$GIT_TERMINAL_PROMPT" ] || \
-   [ -z "$GIT_ASKPASS" ] || \
-   [ -z "$GITHUB_TOKEN" ] || \
-   [ -z "$SYSTMP" ] || \
-   [ -z "$TMPDIRS" ]; then
+if [ "${BUILD}" != "YES" ] || \
+   [ -z "${BINDIR}" ] || \
+   [ -z "${EGET_EXCLUDE}" ] || \
+   [ -z "${EGET_TIMEOUT}" ] || \
+   [ -z "${GIT_TERMINAL_PROMPT}" ] || \
+   [ -z "${GIT_ASKPASS}" ] || \
+   [ -z "${GITHUB_TOKEN}" ] || \
+   [ -z "${SYSTMP}" ] || \
+   [ -z "${TMPDIRS}" ]; then
  #exit
   echo -e "\n[+]Skipping Builds...\n"
   exit 1
@@ -20,11 +20,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="YES" #https://github.com/rapiz1/catp/issues/6
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
       #catp: Print the output of a running process 
      export BIN="catp" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/rapiz1/catp" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1 && git clone --quiet --filter "blob:none" "https://github.com/rapiz1/catp" && cd "./catp"
        export RUST_TARGET="aarch64-unknown-linux-musl" && rustup target add "$RUST_TARGET"

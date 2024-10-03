@@ -28,11 +28,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
    #zsh: Z Shell
      export BIN="zsh" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/zsh-users/zsh" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Build (ndk-pkg)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_STATIC}/zsh" --profile="release" -j "$(($(nproc)+1))" --static

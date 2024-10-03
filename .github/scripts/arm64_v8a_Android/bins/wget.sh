@@ -28,11 +28,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
    #wget : Tool for retrieving files using HTTP, HTTPS, and FTP
      export BIN="wget" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://www.gnu.org/software/wget/" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Build (ndk-pkg) Dynamic
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        docker exec -it "ndk-pkg" ndk-pkg install "${TOOLPACKS_ANDROID_BUILD_DYNAMIC}/wget" --profile="release" -j "$(($(nproc)+1))"

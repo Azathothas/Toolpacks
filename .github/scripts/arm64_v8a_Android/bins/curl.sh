@@ -28,11 +28,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
    #curl : A command line tool for transferring files with URL syntax 
      export BIN="curl" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/curl/curl" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       ##Fetch
       # eval "$EGET_TIMEOUT" eget "https://github.com/stunnel/static-curl" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "curl" "$EGET_EXCLUDE" --to "$BINDIR/curl"
       # eval "$EGET_TIMEOUT" eget "https://github.com/stunnel/static-curl" --asset "linux" --asset "musl" --asset "aarch64" --asset "tar" --asset "^dev" --file "trurl" "$EGET_EXCLUDE" --to "$BINDIR/trurl"     

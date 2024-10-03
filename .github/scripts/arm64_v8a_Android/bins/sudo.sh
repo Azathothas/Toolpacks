@@ -28,11 +28,11 @@ fi
 #-------------------------------------------------------#
 ##Main
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
    #sudo : Download with resuming and segmented downloading
      export BIN="sudo" #Name of final binary/pkg/cli, sometimes differs from $REPO
      export SOURCE_URL="https://github.com/agnostic-apollo/sudo" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Fetch
        curl -A "$USER_AGENT" -qfsSL "https://raw.githubusercontent.com/agnostic-apollo/sudo/master/sudo" -o "$BINDIR/sudo"
        cp "$BINDIR/sudo" "$BASEUTILSDIR/sudo"
