@@ -16,20 +16,25 @@ ENV DEBIAN_FRONTEND="noninteractive"
 ENV INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux"
 RUN <<EOS
   #Base
-  apt-get update -y
-  apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
-  #RE
-  apt-get install -y --ignore-missing apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
+  export DEBIAN_FRONTEND="noninteractive"
+  echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+  packages="apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip"
+  #Install
+  apt update -y -qq
+  for pkg in $packages; do apt install -y --ignore-missing "$pkg"; done
+  #Install_Re
+  for pkg in $packages; do apt install -y --ignore-missing "$pkg"; done
   #unminimize : https://wiki.ubuntu.com/Minimal
   yes | unminimize
   #Python
-  apt-get install python3 -y
+  apt install python3 -y
   #Test
   python --version 2>/dev/null ; python3 --version 2>/dev/null
   #Install pip:
   #python3 -m ensurepip --upgrade ; pip3 --version
   #curl -qfsSL "https://bootstrap.pypa.io/get-pip.py" -o "$SYSTMP/get-pip.py" && python3 "$SYSTMP/get-pip.py"
-  apt-get install libxslt-dev lm-sensors pciutils procps python3-distro python-dev-is-python3 python3-lxml python3-netifaces python3-pip python3-venv sysfsutils virt-what -y --ignore-missing
+  packages="libxslt-dev lm-sensors pciutils procps python3-distro python-dev-is-python3 python3-lxml python3-netifaces python3-pip python3-venv sysfsutils virt-what"
+  for pkg in $packages; do apt install -y --ignore-missing "$pkg"; done
   pip install --break-system-packages --upgrade pip || pip install --upgrade pip
   #Misc
   pip install ansi2txt --break-system-packages --force-reinstall --upgrade
@@ -41,8 +46,9 @@ EOS
 ##Systemd installation
 RUN <<EOS
   #SystemD
-  apt-get update -y
-  apt-get install -y --no-install-recommends dbus iptables iproute2 libsystemd0 kmod systemd systemd-sysv udev
+  apt update -y
+  packages="dbus iptables iproute2 libsystemd0 kmod systemd systemd-sysv udev"
+  for pkg in $packages; do apt install -y --ignore-missing "$pkg"; done
  ##Prevents journald from reading kernel messages from /dev/kmsg
  # echo "ReadKMsg=no" >> "/etc/systemd/journald.conf"
  #Disable systemd services/units that are unnecessary within a container.
@@ -53,7 +59,7 @@ RUN <<EOS
   #systemctl mask "sys-kernel-debug.mount"
   #systemctl mask "sys-kernel-tracing.mount"
  #Housekeeping
-  apt-get clean -y
+  apt clean -y
   rm -rf "/lib/systemd/system/getty.target" 2>/dev/null
   rm -rf "/lib/systemd/system/systemd"*udev* 2>/dev/null
   rm -rf "/usr/share/doc/"* 2>/dev/null
@@ -117,7 +123,8 @@ RUN <<EOS
   #Remove Hardlimit
   sed -i 's/ulimit -Hn/# ulimit -Hn/g' "/etc/init.d/docker"
   #Install Additional Deps
-  apt-get install btrfs-progs fuse-overlayfs fuse3 kmod libfuse3-dev zfs-dkms -y
+  packages="btrfs-progs fuse-overlayfs fuse3 kmod libfuse3-dev zfs-dkms"
+  for pkg in $packages; do apt install -y --ignore-missing "$pkg"; done
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -135,9 +142,10 @@ EOS
 #------------------------------------------------------------------------------------#
 ##Build Tools
 RUN <<EOS
-  apt-get update -y
-  apt-get install -y aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix findutils gawk lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget xz-utils
-  apt-get install python3 -y
+  apt update -y
+  packages="aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix findutils gawk lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo wget xz-utils"
+  for pkg in $packages; do apt install -y --ignore-missing "$pkg"; done
+  apt install python3 -y
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -176,10 +184,14 @@ RUN chmod +x "/usr/local/bin/manager.sh"
 RUN <<EOS
  #x11 & display server
   echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-  DEBIAN_FRONTEND=noninteractive apt-get update -y -qq && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
+  apt update -y
+  packages="dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb"
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
  #Re
   echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-  DEBIAN_FRONTEND=noninteractive apt-get update -y -qq && apt install dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb -y --ignore-missing
+  apt update -y
+  packages="dbus-x11 fonts-ipafont-gothic fonts-freefont-ttf gtk2-engines-pixbuf imagemagick libxss1 xauth xfonts-base xfonts-100dpi xfonts-75dpi xfonts-cyrillic xfonts-scalable x11-apps xorg xvfb"
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
  #Configure
   touch "/root/.Xauthority"
   sudo -u "runner" touch "/home/runner/.Xauthority"
@@ -197,7 +209,7 @@ RUN <<EOS
 #System has not been booted with systemd as init system (PID 1). Can't operate.
 #Failed to connect to bus: Host is down
 #Replace with patched
- apt-get install python3 -y
+ apt install python3 -y
 # curl -qfsSL "https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py" -o "$(which systemctl)"
  mkdir -p "/var/run/dbus" ; dbus-daemon --config-file="/usr/share/dbus-1/system.conf" --print-address
 EOS
@@ -208,7 +220,7 @@ EOS
 RUN <<EOS
   ##Install SSH
   set +e
-  apt-get update -y && apt-get install openssh-server ssh -y
+  apt update -y && apt install openssh-server ssh -y
   #Config
   mkdir -p "/run/sshd" ; mkdir -p "/etc/ssh" ; touch "/var/log/auth.log" "/var/log/btmp" 2>/dev/null || true
   mkdir -p "/root/.ssh" ; chown "root:root" "/root/.ssh"

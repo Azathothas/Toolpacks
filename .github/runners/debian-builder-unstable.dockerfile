@@ -11,13 +11,17 @@ RUN <<EOS
   set +e
   export DEBIAN_FRONTEND="noninteractive"
   echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-  apt-get update -y
-  apt-get install -y --ignore-missing apt-transport-https apt-utils autopoint bash bison ca-certificates coreutils curl dos2unix fdupes file findutils gettext git gnupg2 gperf imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
-  #RE
-  apt-get install -y --ignore-missing apt-transport-https apt-utils autopoint bash bison ca-certificates coreutils curl dos2unix fdupes file findutils gettext git gnupg2 gperf imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip
+  packages="apt-transport-https apt-utils autopoint bash bison ca-certificates coreutils curl dos2unix fdupes file findutils gettext git gnupg2 gperf imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip"
+  #Install
+  apt-get update -y -qq
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
+  #Install_Re
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
   #NetTools
-  apt-get install dnsutils inetutils-ftp inetutils-ftpd inetutils-inetd inetutils-ping inetutils-syslogd inetutils-tools inetutils-traceroute iproute2 net-tools netcat-traditional -y -qq --ignore-missing
-  apt-get install iputils-arping iputils-clockdiff iputils-ping iputils-tracepath iproute2 -y -qq --ignore-missing
+  packages="dnsutils inetutils-ftp inetutils-ftpd inetutils-inetd inetutils-ping inetutils-syslogd inetutils-tools inetutils-traceroute iproute2 net-tools netcat-traditional"
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
+  packages="iputils-arping iputils-clockdiff iputils-ping iputils-tracepath iproute2"
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
   setcap 'cap_net_raw+ep' "$(which ping)"
   #Python
   apt-get install python3 -y
@@ -26,7 +30,8 @@ RUN <<EOS
   #Install pip:
   #python3 -m ensurepip --upgrade ; pip3 --version
   #curl -qfsSL "https://bootstrap.pypa.io/get-pip.py" -o "$SYSTMP/get-pip.py" && python3 "$SYSTMP/get-pip.py"
-  apt-get install libxslt-dev lm-sensors pciutils procps python3-distro python-dev-is-python3 python3-lxml python3-netifaces python3-pip python3-venv sysfsutils virt-what -y --ignore-missing
+  packages="libxslt-dev lm-sensors pciutils procps python3-distro python-dev-is-python3 python3-lxml python3-netifaces python3-pip python3-venv sysfsutils virt-what"
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
   pip install --break-system-packages --upgrade pip || pip install --upgrade pip
   #Misc
   pip install ansi2txt --break-system-packages --force-reinstall --upgrade
@@ -87,10 +92,12 @@ RUN <<EOS
   #----------------------#
   #Main
   set +e
-  apt-get update -y
-  apt-get install -y aria2 autoconf autoconf-archive automake autopoint bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras coreutils cython3 diffutils dos2unix execline findutils fontconfig gawk gcc gettext lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm policycoreutils pkg-config python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html util-linux wget xsltpro xxhash xz-utils yasm
-  #Re
-  apt-get install -y aria2 autoconf autoconf-archive automake autopoint bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras coreutils cython3 diffutils dos2unix execline findutils fontconfig gawk gcc gettext lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm policycoreutils pkg-config python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html util-linux wget xsltpro xxhash xz-utils yasm
+  packages="aria2 autoconf autoconf-archive automake autopoint bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras coreutils cython3 diffutils dos2unix execline findutils fontconfig gawk gcc gettext lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm policycoreutils pkg-config python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html util-linux wget xsltproc xxhash xz-utils yasm"
+  #Install
+  apt-get update -y -qq
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
+  #Install_Re
+  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
   #----------------------#
   #Dockerc
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/bin/dockerc" && chmod +x "/usr/bin/dockerc"

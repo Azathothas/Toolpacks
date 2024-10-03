@@ -330,7 +330,7 @@
              rustup default stable
              rustc --version && cargo --version
              #Cross-rs
-             cargo install cross --git "https://github.com/cross-rs/cross"
+             #cargo install cross --git "https://github.com/cross-rs/cross"
              sudo ldconfig && sudo ldconfig -p
           fi
          #----------------------#
