@@ -1,0 +1,8 @@
+name: "pv"
+description: "Tool for monitoring the progress of data through a pipeline"
+note: ""
+web_url: "https://www.ivarch.com/programs/pv.shtml"
+repo_url: "https://codeberg.org/a-j-wood/pv"
+path: "/"
+bins:
+  - "pv"
