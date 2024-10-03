@@ -1,0 +1,8 @@
+name: "htop"
+description: "An interactive Process Viewer"
+note: ""
+web_url: "https://htop.dev"
+repo_url: "https://github.com/htop-dev/htop"
+path: "/"
+bins:
+  - "htop"
