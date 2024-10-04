@@ -18,7 +18,7 @@
  94M   ├─┬ aarch64_arm64_Linux
  91M   │ ├── BUILD.log.txt
 1.2M   │ ├── METADATA.json
-852K   │ ├── DETAILED.md
+856K   │ ├── DETAILED.md
 480K   │ ├── README.md
 156K   │ ├── FILE.txt
 128K   │ ├── BUILD_DATES.txt
@@ -30,7 +30,7 @@
 4.0K   │ ├── BUILD_ERROR.log.md
   0B   │ └── DUPLICATES_OVERWRITES.txt
 7.9M   ├── METADATA.json
-7.2M   ├── METADATA.yaml
+7.3M   ├── METADATA.yaml
 528K   ├─┬ x64_Windows
 232K   │ ├── METADATA.json
 132K   │ ├── DETAILED.md
