@@ -422,6 +422,7 @@ hrekt:                           ELF 64-bit LSB pie executable, x86-64, version 
 ht:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 htb-cli:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 htmlq:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
+htop:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 httprobe:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 httpx:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=-9D8n6nuDGNqWlfOY0xF/PIdcMERSU0RP-W06ku75/pZBIkHHOLpnaaluP74O1/EXBgDVeCkv6I6VZA4xo2, stripped
 hub:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -702,6 +703,7 @@ pspy:                            ELF 64-bit LSB executable, x86-64, version 1 (S
 pueue:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=b2f818b417a8a75518b5ec02cece647e8fbf1d95, stripped
 pueued:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=b6be30c9802003f06264e44e63fe2da7f1fdc82b, stripped
 puredns:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=bhO2gMjx9aj2LnAbOwa9/qwl6zQq2GrTeZBeap_HA/iuEQLlaz9ohCmaIBMH0J/mqlRyOsDsBu4KkD0sG8d, stripped
+pv:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pwait:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pwninit:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 q:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=yI0vLfgBKa5I3xgDtNj3/ZK07_XtXPVrnXAoli9Aa/FeNyZUW1fSWCUDQgfKqt/dStbyINzTcsMmRuhsAJp, stripped

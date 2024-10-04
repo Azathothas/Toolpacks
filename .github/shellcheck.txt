@@ -63,22 +63,6 @@ In .github/scripts/aarch64_Linux/bins/lorien.sh line 79:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/aarch64_Linux/bins/binutils.sh line 23:
-if [ "$SKIP_BUILD" == "NO" ]; then
-^-- SC1046 (error): Couldn't find 'fi' for this 'if'.
-^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
-
-
-In .github/scripts/aarch64_Linux/bins/binutils.sh line 121:
-#-------------------------------------------------------#
-                                                         ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
-                                                         ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC1046 -- Couldn't find 'fi' for this 'if'.
-  https://www.shellcheck.net/wiki/SC1047 -- Expected 'fi' matching previously...
-  https://www.shellcheck.net/wiki/SC1072 -- Expected 'fi'. Fix any mentioned ...
-
 In .github/scripts/aarch64_Linux/bins/ladybird.sh line 61:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -335,22 +319,6 @@ In .github/scripts/aarch64_Linux/bins/ppsspp.sh line 79:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/aarch64_Linux/bins/bintools.sh line 23:
-if [ "$SKIP_BUILD" == "NO" ]; then
-^-- SC1046 (error): Couldn't find 'fi' for this 'if'.
-^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
-
-
-In .github/scripts/aarch64_Linux/bins/bintools.sh line 121:
-#-------------------------------------------------------#
-                                                         ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
-                                                         ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC1046 -- Couldn't find 'fi' for this 'if'.
-  https://www.shellcheck.net/wiki/SC1047 -- Expected 'fi' matching previously...
-  https://www.shellcheck.net/wiki/SC1072 -- Expected 'fi'. Fix any mentioned ...
-
 In .github/scripts/aarch64_Linux/bins/helix.sh line 73:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -446,22 +414,6 @@ In .github/scripts/x86_64_Linux/bins/lorien.sh line 79:
 
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/x86_64_Linux/bins/binutils.sh line 23:
-if [ "$SKIP_BUILD" == "NO" ]; then
-^-- SC1046 (error): Couldn't find 'fi' for this 'if'.
-^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
-
-
-In .github/scripts/x86_64_Linux/bins/binutils.sh line 121:
-#-------------------------------------------------------#
-                                                         ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
-                                                         ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC1046 -- Couldn't find 'fi' for this 'if'.
-  https://www.shellcheck.net/wiki/SC1047 -- Expected 'fi' matching previously...
-  https://www.shellcheck.net/wiki/SC1072 -- Expected 'fi'. Fix any mentioned ...
 
 In .github/scripts/x86_64_Linux/bins/ladybird.sh line 59:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
@@ -750,22 +702,6 @@ In .github/scripts/x86_64_Linux/bins/dbeaver.sh line 74:
 
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
-
-In .github/scripts/x86_64_Linux/bins/bintools.sh line 23:
-if [ "$SKIP_BUILD" == "NO" ]; then
-^-- SC1046 (error): Couldn't find 'fi' for this 'if'.
-^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
-
-
-In .github/scripts/x86_64_Linux/bins/bintools.sh line 121:
-#-------------------------------------------------------#
-                                                         ^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
-                                                         ^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
-
-For more information:
-  https://www.shellcheck.net/wiki/SC1046 -- Couldn't find 'fi' for this 'if'.
-  https://www.shellcheck.net/wiki/SC1047 -- Expected 'fi' matching previously...
-  https://www.shellcheck.net/wiki/SC1072 -- Expected 'fi'. Fix any mentioned ...
 
 In .github/scripts/x86_64_Linux/bins/helix.sh line 73:
             find "." -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null

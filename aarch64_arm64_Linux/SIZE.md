@@ -917,6 +917,7 @@
  687K   ├── zt-hashes
  664K   ├── binfetch
  658K   ├── whois
+ 647K   ├── htop
  642K   ├── squashfuse_ll
  641K   ├── squashfuse
  587K   ├── docker-init
@@ -948,6 +949,7 @@
  386K   ├── fi6s
  362K   ├── sftp
  329K   ├── proot
+ 323K   ├── pv
  322K   ├── mawk
  322K   ├── pigz
  322K   ├── doas

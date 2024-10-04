@@ -955,6 +955,7 @@
  692K   ├── docker-init
  673K   ├── squashfuse_ll
  669K   ├── squashfuse
+ 607K   ├── htop
  606K   ├── whois
  597K   ├── elfcat
  589K   ├── sudo_logsrvd
@@ -994,6 +995,7 @@
  350K   ├── fi6s
  346K   ├── logrotate
  315K   ├── lsof
+ 311K   ├── pv
  303K   ├── mdp
  288K   ├── region_restriction_check.sh
  274K   ├── doas
