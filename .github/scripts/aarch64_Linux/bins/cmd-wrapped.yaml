@@ -1,0 +1,8 @@
+name: "cmd-wrapped"
+description: "A CLI Tool for Command Line Insights"
+note: ""
+web_url: "https://github.com/YiNNx/cmd-wrapped"
+repo_url: "https://github.com/YiNNx/cmd-wrapped"
+path: "/"
+bins:
+  - "cmd-wrapped"

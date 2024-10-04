@@ -1,0 +1,8 @@
+name: "sic"
+description: "Accessible image processing and conversion from the terminal using image-rs/image"
+note: ""
+web_url: "https://github.com/foresterre/sic"
+repo_url: "https://github.com/foresterre/sic"
+path: "/"
+bins:
+  - "sic"

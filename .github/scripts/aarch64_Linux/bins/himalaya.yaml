@@ -1,0 +1,8 @@
+name: "himalaya"
+description: "CLI to manage emails"
+note: ""
+web_url: "https://github.com/pimalaya/himalaya"
+repo_url: "https://github.com/pimalaya/himalaya"
+path: "/"
+bins:
+  - "himalaya"

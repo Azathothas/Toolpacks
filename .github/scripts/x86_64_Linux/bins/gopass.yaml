@@ -1,0 +1,8 @@
+name: "gopass"
+description: "The slightly more awesome standard unix password manager for teams"
+note: ""
+web_url: "https://www.gopass.pw"
+repo_url: "https://github.com/gopasspw/gopass"
+path: "/"
+bins:
+  - "gopass"
