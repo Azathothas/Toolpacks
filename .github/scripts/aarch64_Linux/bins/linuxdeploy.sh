@@ -21,14 +21,12 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "${SKIP_BUILD}" == "NO" ]; then
-    #go-appimage : Go implementation of AppImage tools 
-     export BIN="go-appimage"
-     export SOURCE_URL="https://github.com/probonopd/go-appimage"
+    #linuxdeploy : AppDir creation and maintenance tool. Featuring flexible plugin system
+     export BIN="linuxdeploy"
+     export SOURCE_URL="https://github.com/linuxdeploy/linuxdeploy"
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --tag "continuous" --asset "appimaged" --asset "$(uname -m)" --asset "AppImage" --asset "^.zsync" --to "$BINDIR/go-appimaged.no_strip"
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --tag "continuous" --asset "appimagetool" --asset "$(uname -m)" --asset "AppImage" --asset "^.zsync" --to "$BINDIR/go-appimagetool.no_strip"
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --tag "continuous" --asset "mkappimage" --asset "$(uname -m)" --asset "AppImage" --asset "^.zsync" --to "$BINDIR/go-mkappimage.no_strip"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --tag "continuous" --asset "$(uname -m)" --asset "AppImage" --asset "^.zsync" --to "$BINDIR/linuxdeploy.no_strip"
 fi
 #-------------------------------------------------------#
 

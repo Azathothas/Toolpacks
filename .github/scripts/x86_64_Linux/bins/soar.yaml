@@ -1,0 +1,8 @@
+name: "soar"
+description: "A highly experimental package manager"
+note: ""
+web_url: "https://github.com/QaidVoid/soar"
+repo_url: "https://github.com/QaidVoid/soar"
+path: "/"
+bins:
+  - "soar"

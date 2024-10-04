@@ -21,14 +21,14 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "${SKIP_BUILD}" == "NO" ]; then
-    #go-appimage : Go implementation of AppImage tools
+    #go-appimage : Go implementation of AppImage tools 
      export BIN="go-appimage"
      export SOURCE_URL="https://github.com/probonopd/go-appimage"
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --pre-release --tag "continuous" --asset "appimaged" --asset "x86_64" --asset "^zsync" "$EGET_EXCLUDE" --to "$BINDIR/appimaged"
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --pre-release --tag "continuous" --asset "appimagetool" --asset "x86_64" --asset "^zsync" "$EGET_EXCLUDE" --to "$BINDIR/appimagetool"
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --pre-release --tag "continuous" --asset "mkappimage" --asset "x86_64" --asset "^zsync" "$EGET_EXCLUDE" --to "$BINDIR/mkappimage"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --tag "continuous" --asset "appimaged" --asset "$(uname -m)" --asset "AppImage" --asset "^.zsync" --to "$BINDIR/go-appimaged.no_strip"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --tag "continuous" --asset "appimagetool" --asset "$(uname -m)" --asset "AppImage" --asset "^.zsync" --to "$BINDIR/go-appimagetool.no_strip"
+       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" --tag "continuous" --asset "mkappimage" --asset "$(uname -m)" --asset "AppImage" --asset "^.zsync" --to "$BINDIR/go-mkappimage.no_strip"
 fi
 #-------------------------------------------------------#
 
