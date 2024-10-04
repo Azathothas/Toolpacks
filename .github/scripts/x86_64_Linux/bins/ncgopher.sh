@@ -21,9 +21,9 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "${SKIP_BUILD}" == "NO" ]; then
-    #pingmole: CLI that helps to filter pingmole servers and pick the closest one. 
-     export BIN="pingmole"
-     export SOURCE_URL="https://github.com/norskeld/pingmole"
+    #ncgopher: A gopher and gemini client for the modern internet. 
+     export BIN="ncgopher"
+     export SOURCE_URL="https://github.com/jansc/ncgopher"
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Build
        pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -37,7 +37,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          rustup target add "${RUST_TARGET}"
          export RUSTFLAGS="-C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
         #Build
-         git clone --filter "blob:none" --quiet "https://github.com/norskeld/pingmole" && cd "./pingmole"
+         git clone --filter "blob:none" --quiet "https://github.com/jansc/ncgopher" && cd "./ncgopher"
          echo -e "\n[+] Target: ${RUST_TARGET}\n"
          echo -e "\n[+] Flags: ${RUSTFLAGS}\n"
          sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"

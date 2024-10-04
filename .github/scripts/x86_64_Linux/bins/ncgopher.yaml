@@ -1,0 +1,8 @@
+name: "ncgopher"
+description: "A gopher and gemini client for the modern internet"
+note: ""
+web_url: "https://github.com/jansc/ncgopher"
+repo_url: "https://github.com/jansc/ncgopher"
+path: "/"
+bins:
+  - "ncgopher"

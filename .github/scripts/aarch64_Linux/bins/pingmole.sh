@@ -43,7 +43,10 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
          rm rust-toolchain* 2>/dev/null
          cargo build --target "${RUST_TARGET}" --release --jobs="$(($(nproc)+1))" --keep-going
-         find "./target/${RUST_TARGET}/release" -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} cp --force {} /build-bins/
+         find "./target/${RUST_TARGET}/release" -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath | xargs -I {} rsync -achvL "{}" "/build-bins/"
+         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
+         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
+         file "/build-bins/"* && du -sh "/build-bins/"*
          popd >/dev/null 2>&1
         '
       #Copy & Meta
