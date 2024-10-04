@@ -2301,7 +2301,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-03T12:20:49",
+    "update_date": "2024-10-04T00:40:04",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2423,6 +2423,11 @@
     "name": "ncdu.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ncdu.sh"
+  },
+  {
+    "name": "ncgopher.sh",
+    "update_date": "2024-10-04T12:14:30",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ncgopher.sh"
   },
   {
     "name": "neofetch.sh",
@@ -2746,7 +2751,7 @@
   },
   {
     "name": "pingmole.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-04T12:14:30",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/pingmole.sh"
   },
   {
@@ -3853,6 +3858,11 @@
     "name": "uip.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/uip.sh"
+  },
+  {
+    "name": "ulexec.sh",
+    "update_date": "2024-10-04T12:14:30",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ulexec.sh"
   },
   {
     "name": "uncover.sh",
