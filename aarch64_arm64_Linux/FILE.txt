@@ -568,6 +568,7 @@ namegen:                         ELF 64-bit LSB executable, ARM aarch64, version
 navi:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ncat:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ncdu:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+ncgopher:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 neofetch:                        Bourne-Again shell script, Unicode text, UTF-8 text executable
 nerdctl:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=31uE8ow3fLcTenfKU6Iz/t6m-Tr0iq-AlzTuEqd2e/tE6gycqNr_jzcNL3GRTR/BUm-tawLG991X5g7A0tb, stripped
 netbird:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=TO2lKWGaM7fzotkbTn3I/-WnMCEVG8bAKNk5ybNnm/J2rKcpn7A3eO8UN5W4VF/zp0lJ8u75CyMLB3mImY8, stripped
@@ -937,6 +938,7 @@ ubase-box:                       ELF 64-bit LSB executable, ARM aarch64, version
 ubuntu.no_strip:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, with debug_info, not stripped
 udpx:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 uip:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+ulexec:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 uncover:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=X2oaukUl17ZlLbjspjsn/DEPPZbajjjfXLlBAI750/d6d7NCbRCxS7RTA-qu5F/SGi-HRP6OxwhZTJT2sFR, stripped
 unf:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 unfurl:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped

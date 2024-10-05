@@ -3,7 +3,7 @@
  98M   │ ├── BUILD.log.txt
  60M   │ ├── BUILD.BIN.log.txt
 1.2M   │ ├── METADATA.json
-872K   │ ├── DETAILED.md
+876K   │ ├── DETAILED.md
 492K   │ ├── README.md
 160K   │ ├── FILE.txt
 132K   │ ├── BUILD_DATES.txt
@@ -28,13 +28,13 @@
  20K   │ ├── DUPLICATES.txt
 4.0K   │ ├── BUILD_ERROR.log.md
   0B   │ └── DUPLICATES_OVERWRITES.txt
-7.9M   ├── METADATA.json
-7.3M   ├── METADATA.yaml
-528K   ├─┬ x64_Windows
+8.2M   ├── METADATA.json
+7.6M   ├── METADATA.yaml
+532K   ├─┬ x64_Windows
 232K   │ ├── METADATA.json
 132K   │ ├── DETAILED.md
  72K   │ ├── README.md
- 20K   │ ├── FILE.txt
+ 24K   │ ├── FILE.txt
  20K   │ ├── BUILD_DATES.txt
  16K   │ ├── SHA256SUM.txt
  16K   │ ├── BLAKE3SUM.txt

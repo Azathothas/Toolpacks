@@ -565,6 +565,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cloudreve.sh"
   },
   {
+    "name": "cmd-wrapped.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cmd-wrapped.sh"
+  },
+  {
     "name": "cntb.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cntb.sh"
@@ -1461,7 +1466,7 @@
   },
   {
     "name": "go-appimage.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-05T00:33:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-appimage.sh"
   },
   {
@@ -1548,6 +1553,11 @@
     "name": "goop.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/goop.sh"
+  },
+  {
+    "name": "gopass.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gopass.sh"
   },
   {
     "name": "gorilla.sh",
@@ -1738,6 +1748,11 @@
     "name": "hexyl.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hexyl.sh"
+  },
+  {
+    "name": "himalaya.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/himalaya.sh"
   },
   {
     "name": "horust.sh",
@@ -2135,6 +2150,16 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/libtree.sh"
   },
   {
+    "name": "linutil.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/linutil.sh"
+  },
+  {
+    "name": "linuxdeploy.sh",
+    "update_date": "2024-10-05T00:33:47",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/linuxdeploy.sh"
+  },
+  {
     "name": "linuxwave.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/linuxwave.sh"
@@ -2331,7 +2356,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-04T00:40:04",
+    "update_date": "2024-10-04T12:20:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2353,6 +2378,11 @@
     "name": "miniflux.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/miniflux.sh"
+  },
+  {
+    "name": "minify.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/minify.sh"
   },
   {
     "name": "miniserve.sh",
@@ -2725,6 +2755,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/overmind.sh"
   },
   {
+    "name": "ox.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ox.sh"
+  },
+  {
     "name": "passdetective.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/passdetective.sh"
@@ -2823,6 +2858,11 @@
     "name": "planor.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/planor.sh"
+  },
+  {
+    "name": "pls.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pls.sh"
   },
   {
     "name": "podman.sh",
@@ -3380,6 +3420,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/shuffledns.sh"
   },
   {
+    "name": "sic.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sic.sh"
+  },
+  {
     "name": "siegfried.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/siegfried.sh"
@@ -3458,6 +3503,11 @@
     "name": "sns.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sns.sh"
+  },
+  {
+    "name": "soar.sh",
+    "update_date": "2024-10-05T00:33:47",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/soar.sh"
   },
   {
     "name": "socat.sh",
@@ -3878,6 +3928,11 @@
     "name": "ttyd.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ttyd.sh"
+  },
+  {
+    "name": "ttysvr.sh",
+    "update_date": "2024-10-04T18:38:26",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ttysvr.sh"
   },
   {
     "name": "tuiarchiver.sh",

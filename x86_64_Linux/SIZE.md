@@ -302,6 +302,7 @@
   12M   ├── tty2web
   11M   ├── sslsearch
   11M   ├── sync-color-schemes
+  11M   ├── ncgopher
   11M   ├── fq
   11M   ├── jqp
   11M   ├── wstunnel
@@ -510,6 +511,7 @@
  6.4M   ├── jen
  6.4M   ├── xh
  6.4M   ├── allxfr
+ 6.4M   ├── ulexec
  6.3M   ├── dperf
  6.3M   ├── clipcat-notify
  6.3M   ├── ripgrep
