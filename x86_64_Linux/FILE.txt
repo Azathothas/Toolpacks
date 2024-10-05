@@ -589,6 +589,7 @@ namegen:                         ELF 64-bit LSB executable, x86-64, version 1 (S
 navi:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ncat:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ncdu:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+ncgopher:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 neofetch:                        Bourne-Again shell script, Unicode text, UTF-8 text executable
 nerdctl:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=4ROgGzbN2UAxEAz_LND4/IrZCN5zeaXkcnmJLBf71/rQEwssYBY_U9hDo7Pfaf/_wFPpvZhF4Z9K9yMTaEp, stripped
 netbird:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=nJ__yQcs8A1TYqfoF0qw/uiCe4YybqDS8F9OHKXZ6/f_3UghOKSFBppLwwl8Xa/O6yVZWpZgsW0VgTrGjC_, stripped
@@ -989,6 +990,7 @@ ubase-box:                       ELF 64-bit LSB executable, x86-64, version 1 (G
 ubuntu.no_strip:                 ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
 udpx:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 uip:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+ulexec:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 uncover:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=NgwDFelcAX9hFBa1ldTT/FPJbIMRpbRsEsNERE-Nq/bEzPndjhIDTVEFRyob6q/oltvL8YBP_FzmAjJn_Ft, stripped
 unf:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 unfurl:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

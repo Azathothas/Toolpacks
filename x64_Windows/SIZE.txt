@@ -1,8 +1,8 @@
- 1.7G └─┬ toolpack_x86_64
+ 1.7G └─┬ .
  149M   ├── pandoc.exe
- 140M   ├── ffmpeg.exe
- 140M   ├── ffprobe.exe
- 140M   ├── ffplay.exe
+ 141M   ├── ffmpeg.exe
+ 141M   ├── ffprobe.exe
+ 141M   ├── ffplay.exe
   76M   ├── alist.exe
   54M   ├── miniooni.exe
   54M   ├── miniooni-windows-amd64.exe
@@ -57,6 +57,7 @@
  5.2M   ├── rg.exe
  5.0M   ├── monolith.exe
  4.6M   ├── certstream.exe
+ 4.6M   ├── openssh.zip
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
  3.6M   ├── pingmole.exe
@@ -77,7 +78,6 @@
  2.3M   ├── geodns.exe
  2.2M   ├── tac.exe
  2.2M   ├── pdftops.exe
- 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -89,6 +89,7 @@
  1.6M   ├── sort.exe
  1.6M   ├── dua.exe
  1.5M   ├── ls.exe
+ 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.5M   ├── fastfetch.exe
