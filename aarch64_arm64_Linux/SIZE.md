@@ -313,6 +313,7 @@
   10M   ├── ncgopher
  9.9M   ├── sync-color-schemes
  9.9M   ├── katana_staticx
+ 9.9M   ├── linuxdeploy.no_strip
  9.9M   ├── yggdrasil
  9.8M   ├── bucketloot
  9.8M   ├── htb-cli
@@ -359,6 +360,7 @@
  8.6M   ├── coreutils
  8.6M   ├── gip
  8.5M   ├── noir
+ 8.5M   ├── go-appimagetool.no_strip
  8.5M   ├── flawz
  8.5M   ├── ddns-go
  8.5M   ├── gocryptfs
@@ -414,6 +416,7 @@
  7.3M   ├── dura
  7.3M   ├── rush
  7.3M   ├── husarnet
+ 7.3M   ├── go-mkappimage.no_strip
  7.3M   ├── curl
  7.3M   ├── pwninit
  7.2M   ├── eget
@@ -459,6 +462,7 @@
  6.5M   ├── fuzzuli
  6.5M   ├── system-info-collector
  6.5M   ├── sysinfo-collector
+ 6.5M   ├── sic
  6.5M   ├── yalis
  6.4M   ├── hub
  6.4M   ├── ctlwatcher
@@ -552,6 +556,7 @@
  5.0M   ├── xbps-rindex
  5.0M   ├── waybackurls
  5.0M   ├── assetfinder
+ 4.9M   ├── go-appimaged.no_strip
  4.9M   ├── actionlint
  4.9M   ├── rustcan
  4.8M   ├── rootlesskit-docker-proxy
@@ -639,6 +644,7 @@
  4.0M   ├── qemu-mipsel-static
  4.0M   ├── qemu-mips-static
  3.9M   ├── warp-cli
+ 3.9M   ├── pls
  3.9M   ├── makebbmain
  3.9M   ├── qemu-ppc64le-static
  3.9M   ├── qemu-ppc64-static
@@ -677,6 +683,7 @@
  3.3M   ├── hurlfmt
  3.3M   ├── spipe
  3.3M   ├── hwatch
+ 3.3M   ├── ox
  3.3M   ├── qemu-sparc32plus-static
  3.3M   ├── fd-find
  3.3M   ├── fd

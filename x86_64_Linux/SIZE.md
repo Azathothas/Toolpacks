@@ -273,6 +273,7 @@
   13M   ├── opengfw
   13M   ├── hcloud
   13M   ├── tailscale
+  13M   ├── linuxdeploy.no_strip
   13M   ├── apkeep
   13M   ├── openapi-tui
   13M   ├── tssh
@@ -391,6 +392,7 @@
  9.0M   ├── bluetuith
  9.0M   ├── monolith
  9.0M   ├── openrisk
+ 8.9M   ├── go-appimagetool.no_strip
  8.9M   ├── rebuilderd
  8.9M   ├── doggo
  8.8M   ├── gocurl
@@ -402,6 +404,7 @@
  8.7M   ├── supercronic
  8.7M   ├── warp-diag
  8.7M   ├── oha
+ 8.7M   ├── sic
  8.6M   ├── smartdns-rs
  8.6M   ├── nmap
  8.5M   ├── getghrel
@@ -448,6 +451,7 @@
  7.7M   ├── subxtract
  7.7M   ├── gobuster
  7.7M   ├── trurl
+ 7.7M   ├── go-mkappimage.no_strip
  7.6M   ├── cherrybomb
  7.6M   ├── rush
  7.6M   ├── trip
@@ -600,6 +604,7 @@
  5.2M   ├── cpu
  5.2M   ├── assetfinder
  5.2M   ├── airixss
+ 5.2M   ├── go-appimaged.no_strip
  5.2M   ├── analyticsrelationships
  5.2M   ├── waybackurls
  5.2M   ├── tailspin
@@ -635,6 +640,7 @@
  4.8M   ├── sshd
  4.8M   ├── certstream
  4.8M   ├── jnv
+ 4.8M   ├── pls
  4.8M   ├── qemu-hexagon-static
  4.8M   ├── socat
  4.8M   ├── mani
@@ -683,6 +689,7 @@
  4.1M   ├── hwatch
  4.1M   ├── ssh-add
  4.1M   ├── validtoml
+ 4.1M   ├── ox
  4.1M   ├── hurlfmt
  4.0M   ├── ssh-agent
  4.0M   ├── makebbmain
