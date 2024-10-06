@@ -1,7 +1,11 @@
-271M └─┬ main
-161M   ├─┬ x86_64_Linux
+298M └─┬ main
+177M   ├─┬ x86_64_Linux
  98M   │ ├── BUILD.log.txt
  60M   │ ├── BUILD.BIN.log.txt
+4.5M   │ ├── METADATA.AIO.json
+4.1M   │ ├── METADATA.AIO.yaml
+4.1M   │ ├── METADATA.AIO.toml
+4.1M   │ ├── METADATA.AIO.min.json
 1.1M   │ ├── METADATA.json
 744K   │ ├── DETAILED.md
 360K   │ ├── README.md
@@ -14,8 +18,12 @@
  32K   │ ├── SIZE.txt
  32K   │ ├── SIZE.md
   0B   │ └── DUPLICATES_OVERWRITES.txt
- 93M   ├─┬ aarch64_arm64_Linux
+104M   ├─┬ aarch64_arm64_Linux
  91M   │ ├── BUILD.log.txt
+3.0M   │ ├── METADATA.AIO.json
+2.7M   │ ├── METADATA.AIO.yaml
+2.7M   │ ├── METADATA.AIO.toml
+2.6M   │ ├── METADATA.AIO.min.json
 1.0M   │ ├── METADATA.json
 732K   │ ├── DETAILED.md
 356K   │ ├── README.md
