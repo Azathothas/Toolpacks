@@ -1,0 +1,8 @@
+name: "otree"
+description: "A command line tool to view objects (JSON/YAML/TOML) in TUI tree widget"
+note: ""
+web_url: "https://github.com/fioncat/otree"
+repo_url: "https://github.com/fioncat/otree"
+path: "/"
+bins:
+  - "otree"
