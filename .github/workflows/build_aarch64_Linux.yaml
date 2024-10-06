@@ -205,9 +205,6 @@ jobs:
           set +x ; while tmux has-session -t "toolpacks" ; do sleep 1 ; done
           ##Purge Tokens (in case set -x & gh didn't redact)
           cat "$SYSTMP/BUILD.log" | ansi2txt > "$SYSTMP/BUILD.log.txt"
-          if grep -iq "initializing" "$SYSTMP/BUILD.log.txt"; then
-             mv "$SYSTMP/BUILD.log.txt" "$SYSTMP/BUILD.log"
-          fi          
           sed -i '/.*github_pat.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*ghp_.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null 
           sed -i '/.*access_key_id.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
@@ -215,9 +212,15 @@ jobs:
           sed -i '/.*token.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*cloudflarestorage.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           ##Fetch Only Relevant Logs
+          if grep -iq "completed" "$SYSTMP/BUILD.log.txt"; then
+             mv "$SYSTMP/BUILD.log.txt" "$SYSTMP/BUILD.log"
+          elif grep -iq "initializing" "$SYSTMP/BUILD.log.txt"; then
+             mv "$SYSTMP/BUILD.log.txt" "$SYSTMP/BUILD_FAILED.log"
+          fi
           sed -n "$(grep -nE '^\[\+\] (Building|Fetching)' "$SYSTMP/BUILD.log" | head -n 1 | cut -d: -f1),$(grep -nE '^\[\+\] Completed \(Building|Fetching\)' "$SYSTMP/BUILD.log" | tail -n 1 | cut -d: -f1)p" "$SYSTMP/BUILD.log" > "$SYSTMP/BUILD.BIN.log"
           ##rClone Upload logs
           rclone copyto "$SYSTMP/BUILD.log" "r2:/bin/aarch64_arm64_Linux/BUILD.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          rclone copyto "$SYSTMP/BUILD_FAILED.log" "r2:/bin/aarch64_arm64_Linux/BUILD_FAILED.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           rclone copyto "$SYSTMP/BUILD.BIN.log" "r2:/bin/aarch64_arm64_Linux/BUILD.BIN.log.txt" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
