@@ -184,11 +184,14 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
 #Update R2
 echo -e "\n[+] Updating Metadata.json ($(realpath $TMPDIR/METADATA.json))\n"
 if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
-   cat "$TMPDIR/METADATA.json.bak" | jq -s '.' | jq 'walk(if type == "string" and . == "null" then "" else . end)' > $TMPDIR/METADATA.json
-   rclone copy --checksum "$SYSTMP/BIN_LOGS/." "r2:/bin/x64_Windows/" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
-   rclone copyto --checksum "$TMPDIR/METADATA.json" "r2:/bin/x64_Windows/METADATA.json" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
-   rclone copyto --checksum "$SYSTMP/BUILD.log" "r2:/bin/x64_Windows/BUILD.BIN.log.txt" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
-   rclone delete "r2:/bin/x64_Windows/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+   cat "$TMPDIR/METADATA.json.bak" | jq -s '.' | jq 'walk(if type == "string" and . == "null" then "" else . end)' > "$TMPDIR/METADATA.json"
+   if [ "$(jq '. | length' "$TMPDIR/METADATA.json")" -gt 100 ]; then
+     rclone copy --checksum "$SYSTMP/BIN_LOGS/." "r2:/bin/x64_Windows/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+     rclone copyto --checksum "$TMPDIR/METADATA.json" "r2:/bin/x64_Windows/METADATA.json" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+     rclone delete "r2:/bin/x64_Windows/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+   else
+     echo -e "\n[-] FATAL: ($(realpath "$TMPDIR/METADATA.json")) is small (<100)\n"
+   fi
 else
    echo -e "\n[-] FATAL: ($(realpath $TMPDIR/METADATA.json.bak)) is Inavlid\n"
  exit 1
