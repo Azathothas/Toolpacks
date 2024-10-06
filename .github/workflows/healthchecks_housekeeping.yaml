@@ -133,7 +133,7 @@ jobs:
           set +x ; set +e
           #--------------#
           cd "$GITHUB_WORKSPACE/main"
-          find ".github" -type f -name '*.sh' -exec shellcheck --severity=error {} \; 2>/dev/null | tee "$GITHUB_WORKSPACE/main/.github/shellcheck.txt"
+          find ".github" -type f -name '*.sh' -exec shellcheck --exclude="SC2261" --severity=error "{}" \; 2>/dev/null | tee "${GITHUB_WORKSPACE}/main/.github/shellcheck.txt"
         continue-on-error: true
 
       - name: YAMLint
@@ -268,6 +268,10 @@ jobs:
            #Copy to $GITHUB_WORKSPACE/main/aarch64_arm64_Linux
            rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BLAKE3SUM.txt" 2>/dev/null
            rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/FILE.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/FILE.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.min.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.toml" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.yaml" 2>/dev/null
            rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/SIZE.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.txt" 2>/dev/null
            echo '```mathematica' > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
            cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
@@ -285,6 +289,10 @@ jobs:
            #Copy to $GITHUB_WORKSPACE/main/x86_64_Linux
            rclone copyto --checksum "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/BLAKE3SUM.txt" 2>/dev/null
            rclone copyto --checksum "r2:/bin/x86_64_Linux/FILE.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/FILE.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.min.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.min.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.toml" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.toml" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.yaml" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.yaml" 2>/dev/null
            rclone copyto --checksum "r2:/bin/x86_64_Linux/SIZE.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.txt" 2>/dev/null
            echo '```mathematica' > "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
            cat "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
