@@ -1,146 +1,8 @@
-Name: act
-DESCR: Run your GitHub Actions locally
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/act
-REPO: https://github.com/nektos/act
-Web URL: https://github.com/nektos/act
-
-Name: actionlint
-DESCR: Static checker for GitHub Actions workflow files
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/actionlint
-REPO: https://github.com/rhysd/actionlint
-Web URL: https://github.com/rhysd/actionlint
-
-Name: adig
-DESCR: A command-line tool that allows you to perform DNS lookups from the command line
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/adig
-REPO: https://github.com/c-ares/c-ares
-Web URL: https://github.com/c-ares/c-ares
-
-Name: anew-rs
-DESCR: A fast, simple, recursive content discovery tool written in Rust.
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/anew-rs
-REPO: https://github.com/zer0yu/anew
-Web URL: https://github.com/zer0yu/anew
-
-Name: axel
-DESCR: A lightweight download accelerator
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/axel
-REPO: https://github.com/axel/axel
-Web URL: https://github.com/axel/axel
-
-Name: b3sum
-DESCR: A command line utility for calculating BLAKE3 hashes
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/b3sum
-REPO: https://github.com/BLAKE3-team/BLAKE3
-Web URL: https://github.com/BLAKE3-team/BLAKE3
-
-Name: bash
-DESCR: GNU Bourne-Again Shell, the de facto standard shell on Linux
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/bash
-REPO: 
-Web URL: https://www.bash.ws/
-
-Name: busybox
-DESCR: A Software Suite that provides Several Unix Utilities in a single Executable
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/busybox
-REPO: 
-Web URL: https://www.busybox.net/
-
-Name: wget
-DESCR: A Software Suite that provides Several Unix Utilities in a single Executable
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget
-REPO: 
-Web URL: https://www.busybox.net/
-
-Name: xxd
-DESCR: A Software Suite that provides Several Unix Utilities in a single Executable
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/xxd
-REPO: 
-Web URL: https://www.busybox.net/
-
-Name: curl
-DESCR: A command line tool for transferring files with URL syntax
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/curl
-REPO: https://github.com/curl/curl
-Web URL: https://github.com/curl/curl
-
 Name: curl_cacert.pem
 DESCR: A command line tool for transferring files with URL syntax
 Download URL: https://bin.ajam.dev/arm64_v8a_Android/curl_cacert.pem
 REPO: https://github.com/curl/curl
 Web URL: https://github.com/curl/curl
-
-Name: dbin
-DESCR: 📦 Poor mans package manager.
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/dbin
-REPO: https://github.com/xplshn/dbin
-Web URL: https://github.com/xplshn/dbin
-
-Name: jless
-DESCR: command-line JSON viewer designed for reading, exploring, and searching through JSON data.
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/jless
-REPO: https://github.com/PaulJuliusMartinez/jless
-Web URL: https://github.com/PaulJuliusMartinez/jless
-
-Name: pingmole
-DESCR: CLI that helps to filter pingmole servers and pick the closest one.
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/pingmole
-REPO: https://github.com/norskeld/pingmole
-Web URL: https://github.com/norskeld/pingmole
-
-Name: pspy
-DESCR: Monitor linux processes without root permissions
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/pspy
-REPO: https://github.com/DominicBreuker/pspy
-Web URL: https://github.com/DominicBreuker/pspy
-
-Name: rclone
-DESCR: Rsync for cloud storage
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/rclone
-REPO: https://github.com/rclone/rclone
-Web URL: https://github.com/rclone/rclone
-
-Name: rsync
-DESCR: An open source utility that provides fast incremental file transfer.
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/rsync
-REPO: https://github.com/WayneD/rsync
-Web URL: https://github.com/WayneD/rsync
-
-Name: sudo
-DESCR: Download with resuming and segmented downloading
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/sudo
-REPO: https://github.com/agnostic-apollo/sudo
-Web URL: https://github.com/agnostic-apollo/sudo
-
-Name: tailscale
-DESCR: The easiest, most secure way to use WireGuard and 2FA
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/tailscale
-REPO: https://github.com/tailscale/tailscale
-Web URL: https://github.com/tailscale/tailscale
-
-Name: tailscale_combined
-DESCR: The easiest, most secure way to use WireGuard and 2FA
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/tailscale_combined
-REPO: https://github.com/tailscale/tailscale
-Web URL: https://github.com/tailscale/tailscale
-
-Name: tailscaled
-DESCR: The easiest, most secure way to use WireGuard and 2FA
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/tailscaled
-REPO: https://github.com/tailscale/tailscale
-Web URL: https://github.com/tailscale/tailscale
-
-Name: vim
-DESCR: Vi IMproved - enhanced vi editor
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/vim
-REPO: https://github.com/vim/vim
-Web URL: https://github.com/vim/vim
-
-Name: wget
-DESCR: Tool for retrieving files using HTTP, HTTPS, and FTP
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget
-REPO: 
-Web URL: https://www.gnu.org/software/wget/
 
 Name: wget_cacert.pem
 DESCR: Tool for retrieving files using HTTP, HTTPS, and FTP
@@ -148,10 +10,17 @@ Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget_cacert.pem
 REPO: 
 Web URL: https://www.gnu.org/software/wget/
 
-Name: zsh
-DESCR: Z Shell
-Download URL: https://bin.ajam.dev/arm64_v8a_Android/zsh
-REPO: https://github.com/zsh-users/zsh
-Web URL: https://github.com/zsh-users/zsh
+---------------------
+Name: wget
+DESCR: A Software Suite that provides Several Unix Utilities in a single Executable
+Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget
+REPO: 
+Web URL: https://www.busybox.net/
+
+Name: wget
+DESCR: Tool for retrieving files using HTTP, HTTPS, and FTP
+Download URL: https://bin.ajam.dev/arm64_v8a_Android/wget
+REPO: 
+Web URL: https://www.gnu.org/software/wget/
 
 ---------------------
