@@ -128,8 +128,9 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
                LOG_BEGIN="$(grep -nE "^\[\+\] (Building|Fetching) \: ${LOG_MATCH}" "$SYSTMP/BUILD.log" | head -n 1 | cut -d: -f1)" && export LOG_BEGIN="${LOG_BEGIN}"
                LOG_END="$(awk -v start="$LOG_BEGIN" 'NR > start && /.*Completed \(Building\|Fetching\).*/ {print NR; exit}' "$SYSTMP/BUILD.log")" && export LOG_END="${LOG_END}"
                if [ -n "${LOG_BEGIN}" ] && [ -n "${LOG_END}" ]; then
-                 sed -n "${LOG_BEGIN},${LOG_END}p" "$SYSTMP/BUILD.log" > "$SYSTMP/BIN_LOGS/${BIN}.log.txt"
-                 cat "$SYSTMP/BIN_LOGS/${BIN}.log.txt" > "$SYSTMP/BIN_LOGS/$(echo ${BUILD_URL} | sed -n 's|.*\/bins/\(.*\)\.yaml$|\1|p').log.txt"
+                 rm -rf "${SYSTMP}/BIN_LOGS" 2>/dev/null ; mkdir -p "${SYSTMP}/BIN_LOGS"
+                 sed -n "${LOG_BEGIN},${LOG_END}p" "$SYSTMP/BUILD.log" > "${SYSTMP}/BIN_LOGS/${BIN}.log.txt"
+                 cat "${SYSTMP}/BIN_LOGS/${BIN}.log.txt" > "${SYSTMP}/BIN_LOGS/$(echo ${BUILD_URL} | sed -n 's|.*\/bins/\(.*\)\.yaml$|\1|p').log.txt"
                  BUILD_LOG="$(jq --arg BIN "$BIN" -r '.[] | select(.name == $BIN) | .download_url' "$TMPDIR/METADATA.json" | sed 's/\.no_strip$//').log.txt"
                  jq --arg BIN "$BIN" --arg BUILD_LOG "$BUILD_LOG" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
                fi
@@ -185,7 +186,7 @@ echo -e "\n[+] Updating Metadata.json ($(realpath $TMPDIR/METADATA.json))\n"
 if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
    cat "$TMPDIR/METADATA.json.bak" | jq -s '.' | jq 'walk(if type == "string" and . == "null" then "" else . end)' > "$TMPDIR/METADATA.json"
    if [ "$(jq '. | length' "$TMPDIR/METADATA.json")" -gt 1000 ]; then
-     rclone copy --checksum "$SYSTMP/BIN_LOGS/." "r2:/bin/aarch64_arm64_Linux/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+     rclone copy --checksum "${SYSTMP}/BIN_LOGS/." "r2:/bin/aarch64_arm64_Linux/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
      rclone copyto --checksum "$TMPDIR/METADATA.json" "r2:/bin/aarch64_arm64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
      rclone delete "r2:/bin/aarch64_arm64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
    else
