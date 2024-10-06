@@ -1,0 +1,8 @@
+name: "gomuks"
+description: "A terminal based Matrix client written in Go"
+note: ""
+web_url: "https://maunium.net/go/gomuks"
+repo_url: "https://github.com/tulir/gomuks"
+path: "/"
+bins:
+  - "gomuks"

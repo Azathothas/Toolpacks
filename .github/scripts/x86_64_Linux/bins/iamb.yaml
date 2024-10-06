@@ -1,0 +1,8 @@
+name: "iamb"
+description: "A Matrix client for Vim addicts"
+note: ""
+web_url: "https://iamb.chat"
+repo_url: "https://github.com/ulyssa/iamb"
+path: "/"
+bins:
+  - "iamb"
