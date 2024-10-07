@@ -1,4 +1,6 @@
 7z:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
+METADATA.AIO.toml:               Unicode text, UTF-8 text
+METADATA.AIO.yaml:               Unicode text, UTF-8 text
 TEST:                            ASCII text, with CRLF line terminators
 act:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=kCuDL62eKdiYN-qEh1LO/ANwGcMIq2SqcDK2BzmEV/le3t85N2xmrDT-Datd7y/ZuZUSHnJ4lZ0JRV12rSs, stripped
 actionlint:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=-ixZwDldSsT9jQv7x_TW/1BwZkaeMO08WKY4yaKvj/6l5Zfz79vBpBy3rXqgis/XzKmFLAEtt5I7yz7J7_d, stripped
@@ -629,6 +631,7 @@ openrisk:                        ELF 64-bit LSB executable, ARM aarch64, version
 openvpn:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 orbiton:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=eZHZ_MsB4qH2PsNBcBIY/AStPqH0-3izK8J46oSEd/zHe2pEOyJhlXJKcNlpKZ/-4GjTx8o4JePnqQtUyK1, stripped
 osmedeus:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+otree:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ouch:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ov:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=BcWFHEJ2Vtz4IT-aHslc/Fgf4bIiBt4S9qtDTARWd/07IBWqZ3xS3ZL1phCI4a/5D0rj18f7SD-kLW_DD37, stripped
 overmind:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=N31qT_6zQxKGYsMD71zM/O68rOitcXSkQ9iZtc2es/J9W-lQh9iveMRX7e9i9G/GGc6aWN3RlmHEOh7ljK3, stripped

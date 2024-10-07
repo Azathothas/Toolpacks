@@ -1545,6 +1545,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/golinkfinder.sh"
   },
   {
+    "name": "gomuks.sh",
+    "update_date": "2024-10-06T18:37:05",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gomuks.sh"
+  },
+  {
     "name": "goodls.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/goodls.sh"
@@ -1838,6 +1843,11 @@
     "name": "hysp.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/hysp.sh"
+  },
+  {
+    "name": "iamb.sh",
+    "update_date": "2024-10-06T18:37:05",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/iamb.sh"
   },
   {
     "name": "imagemagick.sh",
@@ -2356,7 +2366,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-06T00:41:05",
+    "update_date": "2024-10-06T12:19:00",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
