@@ -1,0 +1,8 @@
+name: "chafa"
+description: "Terminal graphics for the 21st century"
+note: "This is a Staticx Static Binary (Might NOT Work)"
+web_url: "https://hpjansson.org/chafa/"
+repo_url: "https://github.com/chafa/chafa"
+path: "/"
+bins:
+  - "chafa"
