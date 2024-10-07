@@ -1,4 +1,6 @@
 7z:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8f388fa250943ba18d148fa065ce15e24f273ce7, for GNU/Linux 3.2.0, stripped
+METADATA.AIO.toml:               Unicode text, UTF-8 text
+METADATA.AIO.yaml:               Unicode text, UTF-8 text
 act:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=H7v2O-qN7M80cR642ANZ/6F0A2W4bvZeNfP-jdLaR/5inDrtVtO0wcNtYLwjdk/h2J_jYIdaX0vXb3hXiwP, stripped
 actionlint:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=yPecHKXZoBXGiAYg2Dek/NQEAgPUfFgcj3H5HDLQl/jNfr5RUc0JVpz6hlcQQY/ru5mAXW009a6kVaRhCXk, stripped
 age:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -656,6 +658,7 @@ openssl:                         ELF 64-bit LSB executable, x86-64, version 1 (S
 openvpn:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 orbiton:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=JKOC7MzC82nhfYKSKxvd/SUS9N-nDX062oNMKC8qq/QmMFqIr-ta6Q1uqivVsC/csHI8amMuAzBN3K14_g8, stripped
 osmedeus:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+otree:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ouch:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ov:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=DHv1PPShYB2WuCVN2rvC/c3N6DBe7uiB6fKNcK-0J/ywouEvGrwQYEFD5ppf1F/1_ARmydLl5xhFjqf6lAH, stripped
 overmind:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=Yl5bRyeJrYK644OPgLn9/FtSehTW95r7P6BQ783SP/BScox9Nsto3Q_Z6QOvzc/j1i5d9A0UvdeVf23vdVv, stripped
