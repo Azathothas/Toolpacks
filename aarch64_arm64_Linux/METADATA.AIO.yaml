@@ -2803,7 +2803,7 @@ bin:
     bin_name: dbin
     description: Binary Downloader(s) || Like a package manager, but for statically linked binaries.
     note: ""
-    version: "0.4"
+    version: "0.5"
     download_url: https://bin.ajam.dev/aarch64/dbin
     size: 6.95 MB
     bsum: c24b673fc0a7040862c18f6d20685be9e41861083377d0f3a1fe5ea758975838
@@ -4419,7 +4419,7 @@ bin:
     bin_name: fnm
     description: "\U0001F680 Fast and simple Node.js version manager, built in Rust"
     note: ""
-    version: v1.37.1
+    version: v1.37.2
     download_url: https://bin.ajam.dev/aarch64/fnm
     size: 5.63 MB
     bsum: c3328bb55916d46396af10d382d4dca1798a1f7270d38bcb4e514803ab1a103f
@@ -5293,7 +5293,7 @@ bin:
     web_url: https://github.com/elliotwutingfeng/go-fasttld
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/go-fasttld.sh
     build_log: https://bin.ajam.dev/aarch64/fasttld.log.txt
-    category: compressed-trie, etld, extract, golang, hacktoberfest, idn, idna, ipv4, ipv6, mozilla, osint, parser, public, public-suffix-list, punycode, radix-tree, suffix, tld, tldextract, url
+    category: compressed-trie, etld, extract, golang, idn, idna, ipv4, ipv6, mozilla, osint, parser, public, public-suffix-list, punycode, radix-tree, suffix, tld, tldextract, url
     extra_bins: ""
   - name: git-checkout
     bin_name: git-checkout
@@ -10355,7 +10355,7 @@ bin:
     bin_name: php
     description: Standalone PHP binary
     note: ""
-    version: 2.3.4
+    version: 2.3.5
     download_url: https://bin.ajam.dev/aarch64/php
     size: 26.02 MB
     bsum: 0e8345a55d4793f4a8433cef01dad52e13d75ad17b5fc76293a7765343c98323
@@ -10371,7 +10371,7 @@ bin:
     bin_name: php-fpm
     description: Standalone PHP binary
     note: ""
-    version: 2.3.4
+    version: 2.3.5
     download_url: https://bin.ajam.dev/aarch64/php-fpm
     size: 26.04 MB
     bsum: afcdeca701b554cc2a585c155c3af82cd25200eea0cfc423ad615735cacb207c
@@ -10611,7 +10611,7 @@ bin:
     bin_name: presenterm
     description: A terminal slideshow tool
     note: ""
-    version: v0.8.0
+    version: v0.9.0
     download_url: https://bin.ajam.dev/aarch64/presenterm
     size: 5.35 MB
     bsum: 64053fd96f2ebadd97c025152220156fc7279934deec7ea6d82a23a6f26b89fa

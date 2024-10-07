@@ -375,6 +375,7 @@ gofireprox:                      ELF 64-bit LSB executable, x86-64, version 1 (S
 gojq:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=NtzqlDH0i6dH_1CPzy2J/-PJ_ML5_-DNJxrvbC3Z3/fR8tmAPE9SLncjr9onJl/9QFyadk76av04MMbX1oN, stripped
 golem:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 golinkfinder:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+gomuks:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=91b927baf0c9ffb6cab890529f43b40d284f99dd, stripped
 goodls:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 goop:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 gorilla:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
@@ -443,6 +444,7 @@ hxn:                             ELF 64-bit LSB pie executable, x86-64, version 
 hyperfine:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 hypervisor-fw:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 hysp:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+iamb:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=6af2f87d98c19378833b6d9d88a104804c5e2dda, not stripped
 ifrename:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 imdl:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 imix:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
