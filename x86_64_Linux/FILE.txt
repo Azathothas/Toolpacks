@@ -114,6 +114,7 @@ cfssl-certinfo:                  ELF 64-bit LSB executable, x86-64, version 1 (S
 cfssl-newkey:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=tFUWTpTOlLFBaOMtd2E7/v0elMqboMNv_Gfy2AOUc/fRtfVI2l-hQKKRs8nQzy/1nAhf-9L5U6lqf4q_Jtc, stripped
 cfssl-scan:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AawGuvt1zG7MBtLufuW3/aBZMB21p4Y1gy6EH8rCH/8yqOudHaH5lcnWeer5TF/oDPtjnrBrHRUltE_Uu00, stripped
 cfssljson:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=42s3xrTYxVfM9Bjuu2TB/W7GyWNYD3hWr5szw0Lx6/OxPSrH2k8KvrNojZ601D/JQGfcKMu3fG-RVGwtNSs, stripped
+chafa:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 chainredir:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=s6t8NPA-Gdd-T4Y_2gSW/5VVK3dJxYryKjinUV9Vl/5pnQ_Cyc8tZr-ekYTPgd/fLX_MCBF-uXIDiGr8QGa, stripped
 chameleon:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 chaos-client:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=fiLfqqaEq6fuPsKBvxLm/f8u_6KNhRH8bT2mvzULs/TLsV-pojdCA5GZD8gTsQ/_yZe3-yhYJF0U6L8UlZi, stripped
@@ -447,6 +448,7 @@ hysp:                            ELF 64-bit LSB pie executable, x86-64, version 
 iamb:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=6af2f87d98c19378833b6d9d88a104804c5e2dda, not stripped
 ifrename:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 imdl:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+imgcat:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 imix:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 indextree:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=3AU3g8Q515FyTgZ4uv7D/6FpEbAJSkBda5ScuwjRL/LI5DpZSEQzPo6Xr9EQwF/5g03StqTNCsLqY5Gb5EM, stripped
 inscope:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

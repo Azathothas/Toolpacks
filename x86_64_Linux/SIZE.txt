@@ -308,6 +308,7 @@
   11M   ├── fq
   11M   ├── jqp
   11M   ├── wstunnel
+  11M   ├── chafa
   11M   ├── taplo
   11M   ├── czkawka_cli
   11M   ├── czkawka-cli
@@ -781,6 +782,7 @@
  2.9M   ├── goawk
  2.9M   ├── halp
  2.9M   ├── encrypted-dns
+ 2.9M   ├── imgcat
  2.9M   ├── t-rec
  2.9M   ├── cowthink
  2.9M   ├── cowsay

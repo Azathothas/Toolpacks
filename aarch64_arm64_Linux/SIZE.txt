@@ -295,6 +295,7 @@
   10M   ├── ehole
   10M   ├── zdns
   10M   ├── sshportal
+  10M   ├── chafa
   10M   ├── pdfcpu
   10M   ├── cheat
   10M   ├── supervisord
