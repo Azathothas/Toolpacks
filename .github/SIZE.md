@@ -1,5 +1,5 @@
 ```mathematica
-299M └─┬ main
+308M └─┬ main
 178M   ├─┬ x86_64_Linux
  98M   │ ├── BUILD.log.txt
  60M   │ ├── BUILD.BIN.log.txt
@@ -10,22 +10,22 @@
 1.2M   │ ├── METADATA.json
 880K   │ ├── DETAILED.md
 496K   │ ├── README.md
-160K   │ ├── FILE.txt
+164K   │ ├── FILE.txt
 132K   │ ├── BUILD_DATES.txt
- 84K   │ ├── SHA256SUM.txt
- 84K   │ ├── BLAKE3SUM.txt
+ 88K   │ ├── SHA256SUM.txt
+ 88K   │ ├── BLAKE3SUM.txt
  52K   │ ├── BUILD_ERROR.log.md
  32K   │ ├── SIZE.txt
  32K   │ ├── SIZE.md
  16K   │ ├── DUPLICATES.txt
 4.0K   │ ├── METADATA.urls
   0B   │ └── DUPLICATES_OVERWRITES.txt
-105M   ├─┬ aarch64_arm64_Linux
+110M   ├─┬ aarch64_arm64_Linux
  91M   │ ├── BUILD.log.txt
-3.0M   │ ├── METADATA.AIO.json
-2.7M   │ ├── METADATA.AIO.yaml
-2.7M   │ ├── METADATA.AIO.toml
-2.6M   │ ├── METADATA.AIO.min.json
+4.4M   │ ├── METADATA.AIO.json
+4.1M   │ ├── METADATA.AIO.yaml
+4.0M   │ ├── METADATA.AIO.toml
+4.0M   │ ├── METADATA.AIO.min.json
 1.2M   │ ├── METADATA.json
 860K   │ ├── DETAILED.md
 484K   │ ├── README.md
@@ -39,8 +39,8 @@
 4.0K   │ ├── METADATA.urls
 4.0K   │ ├── BUILD_ERROR.log.md
   0B   │ └── DUPLICATES_OVERWRITES.txt
-8.3M   ├── METADATA.json
-7.6M   ├── METADATA.yaml
+9.8M   ├── METADATA.json
+9.0M   ├── METADATA.yaml
 528K   ├─┬ x64_Windows
 232K   │ ├── METADATA.json
 132K   │ ├── DETAILED.md

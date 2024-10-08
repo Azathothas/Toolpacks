@@ -703,6 +703,7 @@
  3.1M   ├── qemu-sparc-static
  3.1M   ├── hcxpmktool
  3.1M   ├── viu
+ 3.1M   ├── tealdeer
  3.1M   ├── walk
  3.1M   ├── txeh
  3.0M   ├── rage

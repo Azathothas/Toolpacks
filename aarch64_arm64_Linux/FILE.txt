@@ -908,6 +908,7 @@ taplo:                           ELF 64-bit LSB executable, ARM aarch64, version
 tavern:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 tcpdump:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 tdl:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=4I7w8I2TQmWiS-mMwphB/J01i0c2YRSm_nsa2rPbn/npG1HqwxSmZ2uhUXskdT/jpR89Ba4TJtd1lr4HcnZ, stripped
+tealdeer:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 teldrive:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=sdfL7hxjdSFKiw7aifXa/OhoCoY5_E1TfNCUNxPKw/rSqZe45vF2eu5RSJanLR/ZFTKOCXzVoswiLBXV82-, stripped
 tere:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 termshark:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
