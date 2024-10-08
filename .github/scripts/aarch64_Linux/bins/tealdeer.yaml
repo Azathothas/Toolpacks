@@ -1,0 +1,8 @@
+name: "tealdeer"
+description: "A very fast implementation of tldr in Rust"
+note: ""
+web_url: "https://tealdeer-rs.github.io/tealdeer"
+repo_url: "https://github.com/tealdeer-rs/tealdeer"
+path: "/"
+bins:
+  - "tealdeer"

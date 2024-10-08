@@ -44,9 +44,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/gawk/_gawk.7z" "$BASEUTILSDIR/gawk" 2>/dev/null
        7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/gawk/_gawk.tar" "$BASEUTILSDIR/gawk" 2>/dev/null
        #Generate METADATA
-       cd "$BASEUTILSDIR/gawk" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/gawk/FILE.txt"
-       cd "$BASEUTILSDIR/gawk" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/gawk/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/gawk" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/gawk/SHA256SUM.txt"
+       cd "$BASEUTILSDIR/gawk" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/gawk/FILE.txt"
+       cd "$BASEUTILSDIR/gawk" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/gawk/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/gawk" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/gawk/SHA256SUM.txt"
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/gawk" | tee "$BASEUTILSDIR/gawk/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"

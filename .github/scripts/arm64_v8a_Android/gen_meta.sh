@@ -28,6 +28,11 @@ sed -e '/.*github_pat.*/Id' \
         -e '/.*secret_access_key.*/Id' \
         -e '/.*cloudflarestorage.*/Id' -i "$SYSTMP/BUILD.log"
 rm -rf "${SYSTMP}/BIN_LOGS" 2>/dev/null ; mkdir -p "${SYSTMP}/BIN_LOGS"
+##gh previews
+rm -rf "${SYSTMP}/GH_TMP" 2>/dev/null ; mkdir -p "${SYSTMP}/GH_TMP"
+##tldr
+rm -rf "${SYSTMP}/TLDR" 2>/dev/null ; mkdir -p "${SYSTMP}/TLDR"
+tealdeer --seed-config 2>/dev/null ; tealdeer --update
 ##Sanity
 if [[ -n "$GITHUB_TOKEN" ]]; then
    echo -e "\n[+] GITHUB_TOKEN is Exported"
@@ -63,6 +68,8 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
        dos2unix --quiet "$BUILDYAML"
       #Sanity Check 
       if [ "$(yq e '.path' "$BUILDYAML")" = "/" ]; then
+         #C_NAME
+          C_NAME="$(echo ${BUILD_URL} | sed -n 's|.*\/bins/\(.*\)\.yaml$|\1|p')" && export C_NAME="${C_NAME}"
          #export BIN= 
           yq -r '.bins[]' "$BUILDYAML" | sort -u -o "$TMPDIR/BINS.txt"
          #export Description (Descr)
@@ -87,6 +94,10 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
             REPO_DESCRIPTION="$(echo $REPO_METADATA | jq -r '.description' | sed 's/`//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed ':a;N;$!ba;s/\r\n//g; s/\n//g' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_DESCRIPTION="$REPO_DESCRIPTION"
             REPO_LANGUAGE="$(echo $REPO_METADATA | jq -r '.language' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_LANGUAGE="$REPO_LANGUAGE"
             REPO_LICENSE="$(echo $REPO_METADATA | jq -r '.license.name' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_LICENSE="$REPO_LICENSE"
+            #Get Preview Images
+            REPO_IMG="$(curl -qfsSL "${REPO_URL}" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | grep -oP '(?<=property="og:image" content=")[^"]+' | tr -d '[:space:]' | grep -im1 "repository-images")" && export REPO_IMG="${REPO_IMG}"
+            [ -n "${REPO_IMG+x}" ] && [ -n "${REPO_IMG}" ] && curl -qfsSL "${REPO_IMG}" -o "${SYSTMP}/GH_TMP/${C_NAME}.preview.png" 2>/dev/null
+            #Last Updated
             LAST_UPDATED="$(echo $REPO_METADATA | jq -r '.pushed_at' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export LAST_UPDATED="$LAST_UPDATED"
            #If Releases don't exist, use tags
             if [ -z "$RELEASE_METADATA" ]; then
@@ -128,9 +139,8 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
                LOG_BEGIN="$(grep -nE "^\[\+\] (Building|Fetching) \: ${LOG_MATCH}" "$SYSTMP/BUILD.log" | head -n 1 | cut -d: -f1)" && export LOG_BEGIN="${LOG_BEGIN}"
                LOG_END="$(awk -v start="$LOG_BEGIN" 'NR > start && /.*Completed \(Building\|Fetching\).*/ {print NR; exit}' "$SYSTMP/BUILD.log")" && export LOG_END="${LOG_END}"
                if [ -n "${LOG_BEGIN}" ] && [ -n "${LOG_END}" ]; then
-                 rm -rf "${SYSTMP}/BIN_LOGS" 2>/dev/null ; mkdir -p "${SYSTMP}/BIN_LOGS"
                  sed -n "${LOG_BEGIN},${LOG_END}p" "$SYSTMP/BUILD.log" > "${SYSTMP}/BIN_LOGS/${BIN}.log.txt"
-                 cat "${SYSTMP}/BIN_LOGS/${BIN}.log.txt" > "${SYSTMP}/BIN_LOGS/$(echo ${BUILD_URL} | sed -n 's|.*\/bins/\(.*\)\.yaml$|\1|p').log.txt"
+                 cat "${SYSTMP}/BIN_LOGS/${BIN}.log.txt" > "${SYSTMP}/BIN_LOGS/${C_NAME}.log.txt"
                  BUILD_LOG="$(jq --arg BIN "$BIN" -r '.[] | select(.name == $BIN) | .download_url' "$TMPDIR/METADATA.json" | sed 's/\.no_strip$//').log.txt"
                  jq --arg BIN "$BIN" --arg BUILD_LOG "$BUILD_LOG" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
                fi
@@ -139,8 +149,16 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
              fi
             #Build_Script
              jq --arg BIN "$BIN" --arg BUILD_SCRIPT "$BUILD_SCRIPT" '.[] |= if .name == $BIN then . + {build_script: $BUILD_SCRIPT} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+            #TLDR
+             tealdeer --no-auto-update --quiet --raw "${BIN}" > "${SYSTMP}/TLDR/${C_NAME}.tldr.md"
+             if [ -f "${SYSTMP}/TLDR/${C_NAME}.tldr.md" ] && [ $(stat -c%s "${SYSTMP}/TLDR/${C_NAME}.tldr.md") -lt 10 ]; then
+               tealdeer --no-auto-update --quiet --raw "${C_NAME}" > "${SYSTMP}/TLDR/${C_NAME}.tldr.md"
+                 if [ -f "${SYSTMP}/TLDR/${C_NAME}.tldr.md" ] && [ $(stat -c%s "${SYSTMP}/TLDR/${C_NAME}.tldr.md") -lt 10 ]; then
+                   tealdeer --no-auto-update --quiet --raw "${C_NAME%%-*}" > "${SYSTMP}/TLDR/${C_NAME}.tldr.md"
+                 fi
+             fi
             #Git Meta
-             if [ -n "${REPO_URL}" ]; then
+             if [ -n "${REPO_URL}" ] && [[ "${REPO_URL}" == https://github.com* ]]; then
              #$REPO_AUTHOR repo_author
                jq --arg BIN "$BIN" --arg REPO_AUTHOR "$REPO_AUTHOR" '.[] |= if .name == $BIN then . + {repo_author: $REPO_AUTHOR} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
              #$REPO_DESCRIPTION repo_info
@@ -186,7 +204,16 @@ echo -e "\n[+] Updating Metadata.json ($(realpath $TMPDIR/METADATA.json))\n"
 if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
    cat "$TMPDIR/METADATA.json.bak" | jq -s '.' | jq 'walk(if type == "string" and . == "null" then "" else . end)' > "$TMPDIR/METADATA.json"
    if [ "$(jq '. | length' "$TMPDIR/METADATA.json")" -gt 10 ]; then
+    #Sync Logs
+     find "${SYSTMP}/BIN_LOGS" -type f -size -3c -delete 2>/dev/null
      rclone copy --checksum "${SYSTMP}/BIN_LOGS/." "r2:/bin/arm64_v8a_Android/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+    #Sync GH Meta 
+     find "${SYSTMP}/GH_TMP" -type f -size -3c -delete 2>/dev/null
+     rclone copy --checksum "${SYSTMP}/GH_TMP/." "r2:/bin/arm64_v8a_Android/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+    #Sync TLDR
+     find "${SYSTMP}/TLDR" -type f -size -3c -delete 2>/dev/null
+     rclone copy --checksum "${SYSTMP}/TLDR/." "r2:/bin/arm64_v8a_Android/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+    #Sync rest     
      rclone copyto --checksum "$TMPDIR/METADATA.json" "r2:/bin/arm64_v8a_Android/METADATA.json" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
      rclone delete "r2:/bin/arm64_v8a_Android/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
    else
@@ -196,4 +223,6 @@ else
    echo -e "\n[-] FATAL: ($(realpath $TMPDIR/METADATA.json.bak)) is Inavlid\n"
  exit 1
 fi
+#END
+ rm -rf "${TMPDIR}" "${SYSTMP}/BIN_LOGS" "${SYSTMP}/GH_TMP" "${SYSTMP}/TLDR" 2>/dev/null
 #-------------------------------------------------------#

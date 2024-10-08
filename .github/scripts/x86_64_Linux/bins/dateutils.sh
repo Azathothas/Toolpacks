@@ -42,9 +42,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/dateutils/_dateutils.7z" "$BASEUTILSDIR/dateutils" 2>/dev/null
        7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/dateutils/_dateutils.tar" "$BASEUTILSDIR/dateutils" 2>/dev/null
        #Generate METADATA
-       cd "$BASEUTILSDIR/dateutils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/dateutils/FILE.txt"
-       cd "$BASEUTILSDIR/dateutils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/dateutils/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/dateutils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/dateutils/SHA256SUM.txt"
+       cd "$BASEUTILSDIR/dateutils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/dateutils/FILE.txt"
+       cd "$BASEUTILSDIR/dateutils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/dateutils/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/dateutils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/dateutils/SHA256SUM.txt"
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/dateutils" | tee "$BASEUTILSDIR/dateutils/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"

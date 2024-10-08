@@ -86,6 +86,7 @@ RUN <<EOS
   apk add dbus-cpp --latest --upgrade --no-interactive 2>/dev/null
   apk add dbus-glib --latest --upgrade --no-interactive 2>/dev/null
   apk add dbus-libs --latest --upgrade --no-interactive 2>/dev/null
+  apk add desktop-file-utils --latest --upgrade --no-interactive 2>/dev/null
   apk add diffutils --latest --upgrade --no-interactive 2>/dev/null
   apk add dos2unix --latest --upgrade --no-interactive 2>/dev/null
   apk add dpdk --latest --upgrade --no-interactive 2>/dev/null
@@ -107,6 +108,7 @@ RUN <<EOS
   apk add ffnvcodec-headers --latest --upgrade --no-interactive 2>/dev/null
   apk add file --latest --upgrade --no-interactive 2>/dev/null
   apk add file-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add findutils --latest --upgrade --no-interactive 2>/dev/null
   apk add flac-libs --latest --upgrade --no-interactive 2>/dev/null
   apk add flex --latest --upgrade --no-interactive 2>/dev/null
   apk add flex-dev --latest --upgrade --no-interactive 2>/dev/null

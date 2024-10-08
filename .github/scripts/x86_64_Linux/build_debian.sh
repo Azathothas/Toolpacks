@@ -241,16 +241,16 @@ set +x
               #Rename anything with *_amd*
               find "$BINDIR" -type f -name '*_Linux' -exec sh -c 'newname=$(echo "$1" | sed "s/_amd_x86_64_Linux//"); mv "$1" "$newname"' sh {} \;
              #File 
-               cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$SYSTMP/x86_64_Linux_FILE"
+               cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$SYSTMP/x86_64_Linux_FILE"
                rclone copyto "$SYSTMP/x86_64_Linux_FILE" "r2:/bin/x86_64_Linux/FILE.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #Size (Dust)
                dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/x86_64_Linux_SIZE.txt"
                rclone copyto "$SYSTMP/x86_64_Linux_SIZE.txt" "r2:/bin/x86_64_Linux/SIZE.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #BLAKE3SUM
-               cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$SYSTMP/x86_64_Linux_BLAKE3SUM"
+               cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$SYSTMP/x86_64_Linux_BLAKE3SUM"
                rclone copyto "$SYSTMP/x86_64_Linux_BLAKE3SUM" "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              #SHA256SUM
-               cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$SYSTMP/x86_64_Linux_SHA256SUM"
+               cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$SYSTMP/x86_64_Linux_SHA256SUM"
                rclone copyto "$SYSTMP/x86_64_Linux_SHA256SUM" "r2:/bin/x86_64_Linux/SHA256SUM.txt" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
@@ -260,7 +260,7 @@ set +x
              cd "$BASEUTILSDIR"
              rclone_base_dw()
              {
-               rclone copy "r2:/bin/x86_64_Linux/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copy "r2:/bin/x86_64_Linux/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.png" --exclude="*.svg" --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              }
              export -f rclone_base_dw
              sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw

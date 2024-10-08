@@ -42,9 +42,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/s6-linux-utils/_s6-linux-utils.7z" "$BASEUTILSDIR/s6-linux-utils" 2>/dev/null
        7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/s6-linux-utils/_s6-linux-utils.tar" "$BASEUTILSDIR/s6-linux-utils" 2>/dev/null
        #Generate METADATA
-       cd "$BASEUTILSDIR/s6-linux-utils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/s6-linux-utils/FILE.txt"
-       cd "$BASEUTILSDIR/s6-linux-utils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/s6-linux-utils/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/s6-linux-utils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/s6-linux-utils/SHA256SUM.txt"
+       cd "$BASEUTILSDIR/s6-linux-utils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/s6-linux-utils/FILE.txt"
+       cd "$BASEUTILSDIR/s6-linux-utils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/s6-linux-utils/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/s6-linux-utils" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/s6-linux-utils/SHA256SUM.txt"
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/s6-linux-utils" | tee "$BASEUTILSDIR/s6-linux-utils/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"

@@ -43,9 +43,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/fuse3/_fuse3.7z" "$BASEUTILSDIR/fuse3" 2>/dev/null
        7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/fuse3/_fuse3.tar" "$BASEUTILSDIR/fuse3" 2>/dev/null
        #Generate METADATA
-       cd "$BASEUTILSDIR/fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/fuse3/FILE.txt"
-       cd "$BASEUTILSDIR/fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/fuse3/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/fuse3/SHA256SUM.txt"
+       cd "$BASEUTILSDIR/fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/fuse3/FILE.txt"
+       cd "$BASEUTILSDIR/fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/fuse3/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/fuse3" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/fuse3/SHA256SUM.txt"
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/fuse3" | tee "$BASEUTILSDIR/fuse3/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"

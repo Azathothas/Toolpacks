@@ -43,9 +43,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/kmod/_kmod.7z" "$BASEUTILSDIR/kmod" 2>/dev/null
        7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/kmod/_kmod.tar" "$BASEUTILSDIR/kmod" 2>/dev/null
        #Generate METADATA
-       cd "$BASEUTILSDIR/kmod" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/kmod/FILE.txt"
-       cd "$BASEUTILSDIR/kmod" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/kmod/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/kmod" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/kmod/SHA256SUM.txt"
+       cd "$BASEUTILSDIR/kmod" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/kmod/FILE.txt"
+       cd "$BASEUTILSDIR/kmod" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/kmod/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/kmod" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/kmod/SHA256SUM.txt"
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/kmod" | tee "$BASEUTILSDIR/kmod/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"

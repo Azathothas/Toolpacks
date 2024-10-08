@@ -171,9 +171,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils-vlang/_coreutils-vlang.7z" "$BASEUTILSDIR/coreutils-vlang" 2>/dev/null
        7z a -ttar -mx="9" -mmt="$(($(nproc)+1))" -bt "$BASEUTILSDIR/coreutils-vlang/_coreutils-vlang.tar" "$BASEUTILSDIR/coreutils-vlang" 2>/dev/null
        #Generate METADATA
-       cd "$BASEUTILSDIR/coreutils-vlang" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/coreutils-vlang/FILE.txt"
-       cd "$BASEUTILSDIR/coreutils-vlang" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/coreutils-vlang/BLAKE3SUM.txt"
-       cd "$BASEUTILSDIR/coreutils-vlang" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/coreutils-vlang/SHA256SUM.txt"
+       cd "$BASEUTILSDIR/coreutils-vlang" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$BASEUTILSDIR/coreutils-vlang/FILE.txt"
+       cd "$BASEUTILSDIR/coreutils-vlang" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$BASEUTILSDIR/coreutils-vlang/BLAKE3SUM.txt"
+       cd "$BASEUTILSDIR/coreutils-vlang" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$BASEUTILSDIR/coreutils-vlang/SHA256SUM.txt"
        dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 --invert-filter "\.7z$|\.gz$|\.jq$|\.json$|\.md$|\.rar$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.yaml$|\.zip$" "$BASEUTILSDIR/coreutils-vlang" | tee "$BASEUTILSDIR/coreutils-vlang/SIZE.txt"
        #rClone
        TMP_METADIR="$(mktemp -d)" && export TMP_METADIR="$TMP_METADIR"

@@ -239,17 +239,17 @@ set +x
              #Rename anything with *_arm64_v8a*
              find "$BINDIR" -type f -name '*_Android' -exec sh -c 'newname=$(echo "$1" | sed "s/_arm64_v8a_Android//"); mv "$1" "$newname"' sh {} \;
             #File
-              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs file > "$SYSTMP/arm64_v8a_Android_FILE"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs file > "$SYSTMP/arm64_v8a_Android_FILE"
               rclone copyto "$SYSTMP/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #Size (Dust)
               dust --depth 1 --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "$BINDIR" | tee "$SYSTMP/arm64_v8a_Android_SIZE.txt"
               rclone copyto "$SYSTMP/arm64_v8a_Android_SIZE.md" "r2:/bin/arm64_v8a_Android/SIZE.md" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
               rclone copyto "$SYSTMP/arm64_v8a_Android_SIZE.txt" "r2:/bin/arm64_v8a_Android/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #BLAKE3SUM
-              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs b3sum > "$SYSTMP/arm64_v8a_Android_BLAKE3SUM"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs b3sum > "$SYSTMP/arm64_v8a_Android_BLAKE3SUM"
               rclone copyto "$SYSTMP/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
             #SHA256SUM
-              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.txt$|\.upx$' | sort | xargs sha256sum > "$SYSTMP/arm64_v8a_Android_SHA256SUM"
+              cd "$BINDIR" && find "./" -maxdepth 1 -type f | grep -v -E '\.jq$|\.log$|\.md$|\.png$|\.txt$|\.upx$' | sort | xargs sha256sum > "$SYSTMP/arm64_v8a_Android_SHA256SUM"
               rclone copyto "$SYSTMP/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
            #Archive
              7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bt "$BINDIR.7z" "$BINDIR" 2>/dev/null
@@ -259,7 +259,7 @@ set +x
              cd "$BASEUTILSDIR"
              rclone_base_dw()
              {
-               rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md"  --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+               rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "." --exclude="*.7z" --exclude="*.gz" --exclude="*.jq" --exclude="*.json" --exclude="*.log" --exclude="*.md" --exclude="*.png" --exclude="*.svg" --exclude="*.tar" --exclude="*.tgz" --exclude="*.txt" --exclude="*.tmp" --exclude="*.upx" --exclude="*.yaml" --exclude="*.zip" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress
              }
              export -f rclone_base_dw
              sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw ; sleep 60 && rclone_base_dw
