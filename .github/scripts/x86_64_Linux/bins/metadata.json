@@ -490,6 +490,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cfssl.sh"
   },
   {
+    "name": "chafa.sh",
+    "update_date": "2024-10-07T12:15:51",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/chafa.sh"
+  },
+  {
     "name": "chameleon.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/chameleon.sh"
@@ -1855,6 +1860,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/imagemagick.sh"
   },
   {
+    "name": "imgcat.sh",
+    "update_date": "2024-10-07T12:15:51",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/imgcat.sh"
+  },
+  {
     "name": "imhex.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/imhex.sh"
@@ -2366,7 +2376,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-06T12:19:00",
+    "update_date": "2024-10-08T00:32:38",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {

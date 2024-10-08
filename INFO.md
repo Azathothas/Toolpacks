@@ -46,6 +46,9 @@
 > > - [**`📦Android arm64-v8a📦`**](https://bin.ajam.dev/arm64_v8a_Android/)
 > - [**📦 Status 🔖**](https://github.com/Azathothas/Toolpacks/tree/main#-status-)
 > - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks#-security-%EF%B8%8F)
+> - [**Community 💬**](https://t.me/official_loonix/63949)
+> > - <a href="https://t.me/official_loonix/63949"><img src="https://github.com/user-attachments/assets/2edc90b9-606e-4bfc-89f3-2a758b2f0377" width="18" height="18"><code>Loonix (<img src="https://github.com/user-attachments/assets/abc35eee-c9c9-4023-9035-d440b56cac4c" width="18" height="18">) Telegram</code></a> `➼` [`https://t.me/official_loonix/63949`](https://t.me/official_loonix/63949)
+> > - <a href="https://matrix.to/#/#loonix:matrix.org"><img src="https://github.com/user-attachments/assets/1dcd4a64-2fec-4f4f-926a-e61313b6b646" width="18" height="18"><code>Loonix (<img src="https://github.com/user-attachments/assets/abc35eee-c9c9-4023-9035-d440b56cac4c" width="18" height="18">) Matrix </code></a> `➼` [`https://matrix.to/#/#loonix:matrix.org`](https://matrix.to/#/#loonix:matrix.org) **`ABANDONED & NOT ACTIVE`** 
 ---
 <!-- DO NOT CHANGE -->
 - #### [📦 Status 🔖](https://trello.com/b/rxIHO8Zj/toolpacks-status)

@@ -35,6 +35,7 @@
   66M   ├── eweos.no_strip
   65M   ├── almalinux.no_strip
   65M   ├── dockerc
+  61M   ├── iamb
   61M   ├── rockylinux.no_strip
   60M   ├── dockerd
   59M   ├── wtfutil
@@ -187,6 +188,7 @@
   20M   ├── u-root-busybox
   20M   ├── gobusybox
   20M   ├── cdncheck
+  20M   ├── gomuks
   20M   ├── golem
   20M   ├── go-audit
   20M   ├── notify
@@ -307,6 +309,7 @@
   11M   ├── fq
   11M   ├── jqp
   11M   ├── wstunnel
+  11M   ├── chafa
   11M   ├── taplo
   11M   ├── czkawka_cli
   11M   ├── czkawka-cli
@@ -780,6 +783,7 @@
  2.9M   ├── goawk
  2.9M   ├── halp
  2.9M   ├── encrypted-dns
+ 2.9M   ├── imgcat
  2.9M   ├── t-rec
  2.9M   ├── cowthink
  2.9M   ├── cowsay
