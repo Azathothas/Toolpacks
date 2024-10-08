@@ -209,10 +209,10 @@ if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
      rclone copy --checksum "${SYSTMP}/BIN_LOGS/." "r2:/bin/aarch64_arm64_Linux/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
     #Sync GH Meta 
      find "${SYSTMP}/GH_TMP" -type f -size -3c -delete 2>/dev/null
-     rclone copy --checksum "${SYSTMP}/GH_TMP/." "r2:/bin/arm64_v8a_Android/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+     rclone copy --checksum "${SYSTMP}/GH_TMP/." "r2:/bin/aaarch64_arm64_Linux/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
     #Sync TLDR
      find "${SYSTMP}/TLDR" -type f -size -3c -delete 2>/dev/null
-     rclone copy --checksum "${SYSTMP}/TLDR/." "r2:/bin/arm64_v8a_Android/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+     rclone copy --checksum "${SYSTMP}/TLDR/." "r2:/bin/aarch64_arm64_Linux/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
     #Sync rest
      rclone copyto --checksum "$TMPDIR/METADATA.json" "r2:/bin/aarch64_arm64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
      rclone delete "r2:/bin/aarch64_arm64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
