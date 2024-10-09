@@ -205,6 +205,7 @@ jobs:
           set +x ; while tmux has-session -t "toolpacks" ; do sleep 1 ; done
           ##Purge Tokens (in case set -x & gh didn't redact)
           cat "$SYSTMP/BUILD.log" | ansi2txt > "$SYSTMP/BUILD.log.txt"
+          sed 's/\r/\n/g' -i "$SYSTMP/BUILD.log.txt"
           sed -i '/.*github_pat.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
           sed -i '/.*ghp_.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null 
           sed -i '/.*access_key_id.*/Id' "$SYSTMP/BUILD.log" 2>/dev/null
