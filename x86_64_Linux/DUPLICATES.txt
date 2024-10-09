@@ -24,17 +24,17 @@ REPO: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
 Web URL: https://github.com/cloud-hypervisor/rust-hypervisor-firmware
 
 ---------------------
-Name: ipa-server
-DESCR: Upload and install Apple ipa and Android apk in web.
-Download URL: https://bin.ajam.dev/x86_64_Linux/ipa-server
-REPO: https://github.com/iineva/ipa-server
-Web URL: https://github.com/iineva/ipa-server
+Name: nvme
+DESCR: NVMe management command line interface.
+Download URL: https://bin.ajam.dev/x86_64_Linux/nvme
+REPO: https://github.com/linux-nvme/nvme-cli
+Web URL: https://github.com/linux-nvme/nvme-cli
 
-Name: ipasd
-DESCR: Upload and install Apple ipa and Android apk in web.
-Download URL: https://bin.ajam.dev/x86_64_Linux/ipasd
-REPO: https://github.com/iineva/ipa-server
-Web URL: https://github.com/iineva/ipa-server
+Name: nvme-cli
+DESCR: NVMe management command line interface.
+Download URL: https://bin.ajam.dev/x86_64_Linux/nvme-cli
+REPO: https://github.com/linux-nvme/nvme-cli
+Web URL: https://github.com/linux-nvme/nvme-cli
 
 ---------------------
 Name: iotop
@@ -63,19 +63,6 @@ REPO: https://github.com/containers/bubblewrap
 Web URL: https://github.com/containers/bubblewrap
 
 ---------------------
-Name: nvme
-DESCR: NVMe management command line interface.
-Download URL: https://bin.ajam.dev/x86_64_Linux/nvme
-REPO: https://github.com/linux-nvme/nvme-cli
-Web URL: https://github.com/linux-nvme/nvme-cli
-
-Name: nvme-cli
-DESCR: NVMe management command line interface.
-Download URL: https://bin.ajam.dev/x86_64_Linux/nvme-cli
-REPO: https://github.com/linux-nvme/nvme-cli
-Web URL: https://github.com/linux-nvme/nvme-cli
-
----------------------
 Name: z
 DESCR: A smarter cd command.
 Download URL: https://bin.ajam.dev/x86_64_Linux/z
@@ -102,30 +89,17 @@ REPO:
 Web URL: https://dos2unix.sourceforge.io
 
 ---------------------
-Name: ocat
-DESCR: VPN adapter for Tor and I2P
-Download URL: https://bin.ajam.dev/x86_64_Linux/ocat
-REPO: https://github.com/rahra/onioncat
-Web URL: https://www.onioncat.org
+Name: serverstatus-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
-Name: onioncat
-DESCR: VPN adapter for Tor and I2P
-Download URL: https://bin.ajam.dev/x86_64_Linux/onioncat
-REPO: https://github.com/rahra/onioncat
-Web URL: https://www.onioncat.org
-
----------------------
-Name: aria2
-DESCR: A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
-Download URL: https://bin.ajam.dev/x86_64_Linux/aria2
-REPO: https://github.com/aria2/aria2
-Web URL: https://github.com/aria2/aria2
-
-Name: aria2c
-DESCR: A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
-Download URL: https://bin.ajam.dev/x86_64_Linux/aria2c
-REPO: https://github.com/aria2/aria2
-Web URL: https://github.com/aria2/aria2
+Name: ssr-server
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
 
 ---------------------
 Name: rg
@@ -139,19 +113,6 @@ DESCR:
 Download URL: https://bin.ajam.dev/x86_64_Linux/ripgrep
 REPO: https://github.com/BurntSushi/ripgrep
 Web URL: https://github.com/BurntSushi/ripgrep
-
----------------------
-Name: hf-cli
-DESCR: The official Python client for the Huggingface Hub
-Download URL: https://bin.ajam.dev/x86_64_Linux/hf-cli
-REPO: https://github.com/huggingface/huggingface_hub
-Web URL: https://huggingface.co/docs/huggingface_hub
-
-Name: huggingface-cli
-DESCR: The official Python client for the Huggingface Hub
-Download URL: https://bin.ajam.dev/x86_64_Linux/huggingface-cli
-REPO: https://github.com/huggingface/huggingface_hub
-Web URL: https://huggingface.co/docs/huggingface_hub
 
 ---------------------
 Name: ipinfo
@@ -193,19 +154,6 @@ REPO: https://github.com/rkd77/elinks
 Web URL: https://github.com/rkd77/elinks
 
 ---------------------
-Name: gitlab-cli
-DESCR: Official Gitlab CLI
-Download URL: https://bin.ajam.dev/x86_64_Linux/gitlab-cli
-REPO: 
-Web URL: https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
-
-Name: glab
-DESCR: Official Gitlab CLI
-Download URL: https://bin.ajam.dev/x86_64_Linux/glab
-REPO: 
-Web URL: https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
-
----------------------
 Name: kak
 DESCR: a better code editor
 Download URL: https://bin.ajam.dev/x86_64_Linux/kak
@@ -217,6 +165,19 @@ DESCR: a better code editor
 Download URL: https://bin.ajam.dev/x86_64_Linux/kakoune
 REPO: https://github.com/mawww/kakoune
 Web URL: https://github.com/mawww/kakoune
+
+---------------------
+Name: localxpose
+DESCR: reverse proxy that enables you to expose your localhost to the internet.
+Download URL: https://bin.ajam.dev/x86_64_Linux/localxpose
+REPO: 
+Web URL: https://localxpose.io/
+
+Name: loclx
+DESCR: reverse proxy that enables you to expose your localhost to the internet.
+Download URL: https://bin.ajam.dev/x86_64_Linux/loclx
+REPO: 
+Web URL: https://localxpose.io/
 
 ---------------------
 Name: desktop-file-edit
@@ -245,6 +206,19 @@ REPO: https://github.com/sharkdp/bat
 Web URL: https://github.com/sharkdp/bat
 
 ---------------------
+Name: gitlab-cli
+DESCR: Official Gitlab CLI
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitlab-cli
+REPO: 
+Web URL: https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
+
+Name: glab
+DESCR: Official Gitlab CLI
+Download URL: https://bin.ajam.dev/x86_64_Linux/glab
+REPO: 
+Web URL: https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
+
+---------------------
 Name: gobusybox
 DESCR: Tools for compiling many Go commands into one binary to save space
 Download URL: https://bin.ajam.dev/x86_64_Linux/gobusybox
@@ -264,30 +238,23 @@ REPO: https://github.com/u-root/gobusybox
 Web URL: https://github.com/u-root/gobusybox
 
 ---------------------
-Name: dos2unix
-DESCR: Convert Line Endings
-Download URL: https://bin.ajam.dev/x86_64_Linux/dos2unix
-REPO: 
-Web URL: https://dos2unix.sourceforge.io
+Name: zerotier-cli
+DESCR: A Smart Ethernet Switch for Earth
+Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-cli
+REPO: https://github.com/zerotier/ZeroTierOne
+Web URL: https://www.zerotier.com/
 
-Name: mac2unix
-DESCR: Convert Line Endings
-Download URL: https://bin.ajam.dev/x86_64_Linux/mac2unix
-REPO: 
-Web URL: https://dos2unix.sourceforge.io
+Name: zerotier-idtool
+DESCR: A Smart Ethernet Switch for Earth
+Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-idtool
+REPO: https://github.com/zerotier/ZeroTierOne
+Web URL: https://www.zerotier.com/
 
----------------------
-Name: containerd
-DESCR: An open and reliable container runtime
-Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
-REPO: https://github.com/containerd/containerd
-Web URL: https://github.com/containerd/containerd
-
-Name: containerd
-DESCR: Container
-Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
-REPO: https://github.com/docker/cli
-Web URL: https://github.com/docker/cli
+Name: zerotier-one
+DESCR: A Smart Ethernet Switch for Earth
+Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-one
+REPO: https://github.com/zerotier/ZeroTierOne
+Web URL: https://www.zerotier.com/
 
 ---------------------
 Name: u-root
@@ -303,17 +270,43 @@ REPO: https://github.com/u-root/u-root
 Web URL: https://github.com/u-root/u-root
 
 ---------------------
-Name: gitpod-cli
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: dos2unix
+DESCR: Convert Line Endings
+Download URL: https://bin.ajam.dev/x86_64_Linux/dos2unix
+REPO: 
+Web URL: https://dos2unix.sourceforge.io
 
-Name: gp
-DESCR: cli for gitpod
-Download URL: https://bin.ajam.dev/x86_64_Linux/gp
-REPO: https://github.com/gitpod-io/gitpod
-Web URL: https://github.com/gitpod-io/gitpod
+Name: mac2unix
+DESCR: Convert Line Endings
+Download URL: https://bin.ajam.dev/x86_64_Linux/mac2unix
+REPO: 
+Web URL: https://dos2unix.sourceforge.io
+
+---------------------
+Name: serverstatus-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+Name: ssr-server-themed
+DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
+REPO: https://github.com/zdz/ServerStatus-Rust
+Web URL: https://doc.ssr.rs
+
+---------------------
+Name: containerd
+DESCR: An open and reliable container runtime
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
+REPO: https://github.com/containerd/containerd
+Web URL: https://github.com/containerd/containerd
+
+Name: containerd
+DESCR: Container
+Download URL: https://bin.ajam.dev/x86_64_Linux/containerd
+REPO: https://github.com/docker/cli
+Web URL: https://github.com/docker/cli
 
 ---------------------
 Name: czkawka-cli
@@ -329,30 +322,30 @@ REPO: https://github.com/qarmin/czkawka
 Web URL: https://github.com/qarmin/czkawka
 
 ---------------------
-Name: serverstatus-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: gitpod-cli
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gitpod-cli
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
 
-Name: ssr-client
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: gp
+DESCR: cli for gitpod
+Download URL: https://bin.ajam.dev/x86_64_Linux/gp
+REPO: https://github.com/gitpod-io/gitpod
+Web URL: https://github.com/gitpod-io/gitpod
 
 ---------------------
-Name: localxpose
-DESCR: reverse proxy that enables you to expose your localhost to the internet.
-Download URL: https://bin.ajam.dev/x86_64_Linux/localxpose
-REPO: 
-Web URL: https://localxpose.io/
+Name: ipa-server
+DESCR: Upload and install Apple ipa and Android apk in web.
+Download URL: https://bin.ajam.dev/x86_64_Linux/ipa-server
+REPO: https://github.com/iineva/ipa-server
+Web URL: https://github.com/iineva/ipa-server
 
-Name: loclx
-DESCR: reverse proxy that enables you to expose your localhost to the internet.
-Download URL: https://bin.ajam.dev/x86_64_Linux/loclx
-REPO: 
-Web URL: https://localxpose.io/
+Name: ipasd
+DESCR: Upload and install Apple ipa and Android apk in web.
+Download URL: https://bin.ajam.dev/x86_64_Linux/ipasd
+REPO: https://github.com/iineva/ipa-server
+Web URL: https://github.com/iineva/ipa-server
 
 ---------------------
 Name: fd
@@ -368,15 +361,15 @@ REPO: https://github.com/sharkdp/fd
 Web URL: https://github.com/sharkdp/fd
 
 ---------------------
-Name: serverstatus-server
+Name: serverstatus-client
 DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server
+Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-client
 REPO: https://github.com/zdz/ServerStatus-Rust
 Web URL: https://doc.ssr.rs
 
-Name: ssr-server
+Name: ssr-client
 DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server
+Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-client
 REPO: https://github.com/zdz/ServerStatus-Rust
 Web URL: https://doc.ssr.rs
 
@@ -433,36 +426,43 @@ REPO: https://github.com/qarmin/system-info-collector
 Web URL: https://github.com/qarmin/system-info-collector
 
 ---------------------
-Name: zerotier-cli
-DESCR: A Smart Ethernet Switch for Earth
-Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-cli
-REPO: https://github.com/zerotier/ZeroTierOne
-Web URL: https://www.zerotier.com/
+Name: ocat
+DESCR: VPN adapter for Tor and I2P
+Download URL: https://bin.ajam.dev/x86_64_Linux/ocat
+REPO: https://github.com/rahra/onioncat
+Web URL: https://www.onioncat.org
 
-Name: zerotier-idtool
-DESCR: A Smart Ethernet Switch for Earth
-Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-idtool
-REPO: https://github.com/zerotier/ZeroTierOne
-Web URL: https://www.zerotier.com/
-
-Name: zerotier-one
-DESCR: A Smart Ethernet Switch for Earth
-Download URL: https://bin.ajam.dev/x86_64_Linux/zerotier-one
-REPO: https://github.com/zerotier/ZeroTierOne
-Web URL: https://www.zerotier.com/
+Name: onioncat
+DESCR: VPN adapter for Tor and I2P
+Download URL: https://bin.ajam.dev/x86_64_Linux/onioncat
+REPO: https://github.com/rahra/onioncat
+Web URL: https://www.onioncat.org
 
 ---------------------
-Name: serverstatus-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/serverstatus-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: aria2
+DESCR: A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
+Download URL: https://bin.ajam.dev/x86_64_Linux/aria2
+REPO: https://github.com/aria2/aria2
+Web URL: https://github.com/aria2/aria2
 
-Name: ssr-server-themed
-DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
-Download URL: https://bin.ajam.dev/x86_64_Linux/ssr-server-themed
-REPO: https://github.com/zdz/ServerStatus-Rust
-Web URL: https://doc.ssr.rs
+Name: aria2c
+DESCR: A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility
+Download URL: https://bin.ajam.dev/x86_64_Linux/aria2c
+REPO: https://github.com/aria2/aria2
+Web URL: https://github.com/aria2/aria2
+
+---------------------
+Name: hf-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/hf-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
+
+Name: huggingface-cli
+DESCR: The official Python client for the Huggingface Hub
+Download URL: https://bin.ajam.dev/x86_64_Linux/huggingface-cli
+REPO: https://github.com/huggingface/huggingface_hub
+Web URL: https://huggingface.co/docs/huggingface_hub
 
 ---------------------
 Name: imdl
