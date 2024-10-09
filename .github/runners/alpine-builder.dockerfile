@@ -161,6 +161,9 @@ RUN <<EOS
   apk add gperf --latest --upgrade --no-interactive 2>/dev/null
   apk add gpsd-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add grep --latest --upgrade --no-interactive 2>/dev/null
+  apk add gstreamer --latest --upgrade --no-interactive 2>/dev/null
+  apk add gstreamer-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add gstreamer-tools --latest --upgrade --no-interactive 2>/dev/null
   apk add gtest-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add harfbuzz --latest --upgrade --no-interactive 2>/dev/null
   apk add harfbuzz-dev --latest --upgrade --no-interactive 2>/dev/null
@@ -306,6 +309,7 @@ RUN <<EOS
   apk add libsndfile-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libsixel --latest --upgrade --no-interactive 2>/dev/null
   apk add libsixel-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsixel-tool --latest --upgrade --no-interactive 2>/dev/null
   apk add libslirp --latest --upgrade --no-interactive 2>/dev/null
   apk add libslirp-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libsoup --latest --upgrade --no-interactive 2>/dev/null

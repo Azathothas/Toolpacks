@@ -1,28 +1,22 @@
 # syntax=docker/dockerfile:1
 #------------------------------------------------------------------------------------#
-#https://hub.docker.com/r/azathothas/debian-builder-unstable
-FROM debian:unstable
+# DOCKER HUB URL : https://hub.docker.com/r/azathothas/ubuntu-builder
+FROM ubuntu:latest
+#FROM ubuntu:rolling
 #------------------------------------------------------------------------------------#
 ##Base Deps
 ENV DEBIAN_FRONTEND="noninteractive"
-#ENV INSTALL_SRC="https://bin.ajam.dev/x86_64_Linux"
 RUN <<EOS
   #Base
-  set +e
-  export DEBIAN_FRONTEND="noninteractive"
-  echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-  packages="apt-transport-https apt-utils autopoint bash bison ca-certificates coreutils curl dos2unix fdupes file findutils gettext git gnupg2 gperf imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo sudo tmux unzip util-linux xz-utils wget zip"
+  apt-get update -y
+  packages="apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo tmux tree unzip util-linux xz-utils wget zip"
   #Install
   apt-get update -y -qq
   for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
   #Install_Re
   for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
-  #NetTools
-  packages="dnsutils inetutils-ftp inetutils-ftpd inetutils-inetd inetutils-ping inetutils-syslogd inetutils-tools inetutils-traceroute iproute2 net-tools netcat-traditional"
-  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
-  packages="iputils-arping iputils-clockdiff iputils-ping iputils-tracepath iproute2"
-  for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
-  setcap 'cap_net_raw+ep' "$(which ping)"
+  #unminimize : https://wiki.ubuntu.com/Minimal
+  yes | unminimize
   #Python
   apt-get install python3 -y
   #Test
@@ -40,6 +34,28 @@ RUN <<EOS
   pip install pipx --upgrade --break-system-packages 2>/dev/null
 EOS
 #------------------------------------------------------------------------------------#
+##Systemd installation
+RUN <<EOS
+  #SystemD
+  apt-get update -y
+  packages="dbus iptables iproute2 libsystemd0 kmod systemd systemd-sysv udev"
+  for pkg in $packages; do apt install -y --ignore-missing "$pkg"; done
+ #Housekeeping
+  apt-get clean -y
+  rm -rf "/lib/systemd/system/getty.target" 2>/dev/null
+  rm -rf "/lib/systemd/system/systemd"*udev* 2>/dev/null
+  rm -rf "/usr/share/doc/"* 2>/dev/null
+  rm -rf "/usr/share/local/"* 2>/dev/null
+  rm -rf "/usr/share/man/"* 2>/dev/null
+  rm -rf "/var/cache/debconf/"* 2>/dev/null
+  rm -rf "/var/lib/apt/lists/"* 2>/dev/null
+  rm -rf "/var/log/"* 2>/dev/null
+  rm -rf "/var/tmp/"* 2>/dev/null
+  rm -rf "/tmp/"* 2>/dev/null
+EOS
+# Make use of stopsignal (instead of sigterm) to stop systemd containers.
+STOPSIGNAL SIGRTMIN+3
+#------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
 ##Create User + Setup Perms
@@ -51,8 +67,8 @@ RUN <<EOS
  #Add runner to sudo
   usermod -aG "sudo" "runner"
   usermod -aG "sudo" "root"
- #Passwordless sudo for runner
-  echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> "/etc/sudoers"
+ #Passwordless for runner
+  echo "%  ALL=(ALL:ALL) NOPASSWD:ALL" >> "/etc/sudoers"
  #Remove preconfigured admin user
   userdel -r "admin" 2>/dev/null || true
 EOS
@@ -70,9 +86,6 @@ RUN <<EOS
  #Recheck 
   grep runner "/etc/passwd"
 EOS
-##Set PATH [Default: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin] /command is s6-tools
-#ENV PATH "/command:${PATH}"
-#RUN echo 'export PATH="/command:${PATH}"' >> "/etc/bash.bashrc"
 #------------------------------------------------------------------------------------#
 
 #------------------------------------------------------------------------------------#
@@ -101,7 +114,7 @@ RUN <<EOS
   #----------------------#
   #Main
   set +e
-  packages="aria2 autoconf autoconf-archive automake autopoint bc binutils b3sum brotli build-essential ca-certificates ccache clang cmake cmake-extras coreutils cython3 diffutils dos2unix execline findutils fontconfig gawk gcc gettext lzip jq libtool libtool-bin make meson musl musl-dev musl-tools nasm policycoreutils pkg-config python3 p7zip-full spirv-cross rsync texinfo texi2html txt2html util-linux wget xsltproc xxhash xz-utils yasm"
+  packages="apt-transport-https apt-utils aria2 autoconf automake autopoint bc binutils bison b3sum build-essential byacc ca-certificates ccache clang cmake coreutils desktop-file-utils devscripts diffutils dnsutils dos2unix flex file findutils gawk git-lfs gnupg2 imagemagick lzip liblz-dev librust-lzma-sys-dev lzma lzma-dev jq libsqlite3-dev libtool libtool-bin make moreutils musl musl-dev musl-tools patch patchelf pkg-config python3-pip python3-venv p7zip-full qemu-user-static rsync scons software-properties-common sqlite3 sqlite3-pcre sqlite3-tools texinfo tree util-linux wget xz-utils zsync"
   #Install
   apt-get update -y -qq
   for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
@@ -112,23 +125,18 @@ RUN <<EOS
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/bin/dockerc" && chmod +x "/usr/bin/dockerc"
   #----------------------#
   #Install Meson & Ninja
-  #sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
+  #rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
   pip install meson ninja --upgrade 2>/dev/null
   pip install meson ninja --break-system-packages --upgrade --force-reinstall 2>/dev/null
-  #python3 -m pip install meson ninja --upgrade
-  #Installs to /usr/local/bin/
-  #sudo ln -s "$HOME/.local/bin/meson" "/usr/bin/meson" 2>/dev/null
-  #sudo ln -s "$HOME/.local/bin/ninja" "/usr/bin/ninja" 2>/dev/null
-  #sudo chmod +xwr "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
   #----------------------#
   #libpcap
-  sudo apt install libpcap-dev pcaputils -y 2>/dev/null 
+  apt install libpcap-dev pcaputils -y 2>/dev/null 
   #----------------------#        
   #libsqlite3
-  sudo apt-get install libsqlite3-dev sqlite3 sqlite3-pcre sqlite3-tools -y 2>/dev/null
+  apt-get install libsqlite3-dev sqlite3 sqlite3-pcre sqlite3-tools -y 2>/dev/null
   #----------------------#
   #lzma
-  sudo apt-get install liblz-dev librust-lzma-sys-dev lzma lzma-dev -y
+  apt-get install liblz-dev librust-lzma-sys-dev lzma lzma-dev -y
   #----------------------#
   #staticx: https://github.com/JonathonReinhart/staticx/blob/main/.github/workflows/build-test.yml
   export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath .
@@ -136,8 +144,8 @@ RUN <<EOS
   git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
   #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
   pip install -r "./requirements.txt" --break-system-packages --upgrade --force
-  sudo apt-get update -y
-  sudo apt-get install -y busybox musl-tools scons
+  apt-get update -y
+  apt-get install -y busybox musl-tools scons
   export BOOTLOADER_CC="musl-gcc"
   rm -rf "./build" "./dist" "./scons_build" "./staticx/assets"
   python "./setup.py" sdist bdist_wheel
