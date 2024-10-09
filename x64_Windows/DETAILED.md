@@ -26,7 +26,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2723
+- **Stars:** 2724
 - **Version:** v1.7.3
 - **Updated:** 2024-10-05T05:36:35Z
 - **Size:** 5.66 MB
@@ -46,7 +46,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 17078
+- **Stars:** 17079
 - **Version:** v1.2.0
 - **Updated:** 2024-09-26T11:09:18Z
 - **Size:** 3.88 MB
@@ -66,7 +66,7 @@
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
 - **Repository:** [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
-- **Stars:** 2799
+- **Stars:** 2800
 - **Version:** v1.17.1
 - **Updated:** 2024-10-02T13:22:09Z
 - **Size:** 33.38 MB
@@ -86,7 +86,7 @@
 - **Author:** alist-org
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 42674
+- **Stars:** 42677
 - **Version:** v3.37.4
 - **Updated:** 2024-10-04T07:46:25Z
 - **Size:** 80.52 MB
@@ -109,7 +109,7 @@
 - **Stars:** 12
 - **Version:** v0.1.0
 - **Updated:** 2024-05-08T12:29:15Z
-- **Size:** 823.81 kB
+- **Size:** 823.81 KB
 - **SHA256SUM:** f5a0533b2d3484ac5a4bc84e980ea222c8fe6b5d08096482e7b948c2150c719f
 - **B3SUM:** 83d59271f202ddde92ad092538c08422dba9929f1b2f1e472ecd91c7e6e073f8
 - **Source:** https://bin.ajam.dev/x64_Windows/anew-rs.exe
@@ -129,7 +129,7 @@
 - **Stars:** 12
 - **Version:** v0.1.0
 - **Updated:** 2024-05-08T12:29:15Z
-- **Size:** 823.81 kB
+- **Size:** 823.81 KB
 - **SHA256SUM:** 8c8e5d50cc1dc1b9cb3c5ca551da0c2d18b23035dfadb7e89c80b5248b6d4334
 - **B3SUM:** 651717f084458521e97944413af139643e6e4f67e88a717d4edbb0c02ddada96
 - **Source:** https://bin.ajam.dev/x64_Windows/anew.exe
@@ -166,7 +166,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 49103
+- **Stars:** 49104
 - **Version:** v0.24.0
 - **Updated:** 2024-10-06T19:27:19Z
 - **Size:** 6.32 MB
@@ -186,7 +186,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 49103
+- **Stars:** 49104
 - **Version:** v0.24.0
 - **Updated:** 2024-10-06T19:27:19Z
 - **Size:** 6.32 MB
@@ -226,7 +226,7 @@
 - **Author:** txthinking
 - **WebURL:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
 - **Repository:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
-- **Stars:** 14547
+- **Stars:** 14549
 - **Version:** v20240606
 - **Updated:** 2024-10-02T00:30:39Z
 - **Size:** 20.63 MB
@@ -269,7 +269,7 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 673.28 kB
+- **Size:** 673.28 KB
 - **SHA256SUM:** 8f8653f2a984b77db71ebc7225eb5479acc798f765a8453236121c3e235043e1
 - **B3SUM:** 6427ae084f8952d79edb2efdc5658b52c00bf5cea35be36d4863ba8bcaca93e1
 - **Source:** https://bin.ajam.dev/x64_Windows/busybox-unicode.exe
@@ -289,7 +289,7 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 666.11 kB
+- **Size:** 666.11 KB
 - **SHA256SUM:** 3812b7f8bfc6557ae1a00113b82705fb97590d951cc3fc79be4b363a3b0dd24d
 - **B3SUM:** 5fcb7c2f7008086182b40b051cf2d6777ef0a45b0336820800be431c16fe3331
 - **Source:** https://bin.ajam.dev/x64_Windows/busybox.exe
@@ -326,7 +326,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
-- **Stars:** 8982
+- **Stars:** 8985
 - **Version:** 2024.9.1
 - **Updated:** 2024-10-08T16:52:48Z
 - **Size:** 26.84 MB
@@ -349,7 +349,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 848.9 kB
+- **Size:** 848.9 KB
 - **SHA256SUM:** 10732759e6c6e0b3e3932b3699542d26c726197f6ab007a9e08c9e25c9fa56b6
 - **B3SUM:** b6cebe29dd78bc096733b4a0c23fbef59390429a21ebf19d0536a224bb79f0aa
 - **Source:** https://bin.ajam.dev/x64_Windows/arch.exe
@@ -369,7 +369,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 981.5 kB
+- **Size:** 981.5 KB
 - **SHA256SUM:** 79b85df0fffcdddb252507814502e85495288f80b002cadc3f4d7d0f9a43c6c4
 - **B3SUM:** abb2a2b1c160924cd8e4d68db94895f8ab620ac0792d19740a9f7a1db980600b
 - **Source:** https://bin.ajam.dev/x64_Windows/base32.exe
@@ -389,7 +389,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 981.5 kB
+- **Size:** 981.5 KB
 - **SHA256SUM:** 3eea64f6aee0159a6d9d668ba7edcf618f89b292929cbd3fa722f168286328ec
 - **B3SUM:** 7ca3507c566679bee420618676ba43224f3b848344b0ca764cf134820ed816b9
 - **Source:** https://bin.ajam.dev/x64_Windows/base64.exe
@@ -409,7 +409,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 863.74 kB
+- **Size:** 863.74 KB
 - **SHA256SUM:** 72dcdf87d3b27bcc4481fdeb7ab738540af448ef242192e48ca4c1d594ff9f3b
 - **B3SUM:** d6c4926c460c6b227a557379ba66b36777bdabb399a929a931dc103bde4745c9
 - **Source:** https://bin.ajam.dev/x64_Windows/basename.exe
@@ -449,7 +449,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 889.34 kB
+- **Size:** 889.34 KB
 - **SHA256SUM:** 28c15b37f622383ceb84e0313d35a57cd0a78baa450eff207b554ac3234392f8
 - **B3SUM:** 6aa180a31420344b4c183e1d23b44e47f1a88068c32bc7365337357894125db5
 - **Source:** https://bin.ajam.dev/x64_Windows/cat.exe
@@ -489,7 +489,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 870.4 kB
+- **Size:** 870.4 KB
 - **SHA256SUM:** 3f10e16b8576aee14091c535ba8c2bc3b96e7ceb107c91e9302279131ae035b0
 - **B3SUM:** 276fd71c844ce40a8f4664ae27ee83c014c27f7f0b69bd033298874addaaa15b
 - **Source:** https://bin.ajam.dev/x64_Windows/comm.exe
@@ -589,7 +589,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 949.76 kB
+- **Size:** 949.76 KB
 - **SHA256SUM:** 3af0ee22285a8698c6df8b7e69ccb227c2cbe1495a43dee75963cc0c453d62c7
 - **B3SUM:** 0681866f18f8dfe5ebd2f2939edcedff3e7a6e608bbd8817634314fb85524c73
 - **Source:** https://bin.ajam.dev/x64_Windows/cut.exe
@@ -649,7 +649,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 986.62 kB
+- **Size:** 986.62 KB
 - **SHA256SUM:** ae4dde7580ec6743185de918bcd5bf09d28fe4854774e28d1046da50823071f4
 - **B3SUM:** 796625a53e98cf2b91af5f4bd9d9db2045fba53b4484e5341503d961f6c94f71
 - **Source:** https://bin.ajam.dev/x64_Windows/df.exe
@@ -689,7 +689,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 931.33 kB
+- **Size:** 931.33 KB
 - **SHA256SUM:** 08551fdd09efb0050fbfdd4ab2770e4c4b4eeec18185126d341acaaa54f43466
 - **B3SUM:** e49a66c2ba8d71dcdc7e52638e0f05eb0dd04d97b92ae34210ac454db42a67c8
 - **Source:** https://bin.ajam.dev/x64_Windows/dircolors.exe
@@ -709,7 +709,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 842.24 kB
+- **Size:** 842.24 KB
 - **SHA256SUM:** 539f9eeb056756ab854ec99cb7be47d33f898958f0adb95cb24075f07c376721
 - **B3SUM:** a1861d38ba6572bd5cb7c4e7ea201c5c2e1fe73b40d6f2b78b12010327bcd697
 - **Source:** https://bin.ajam.dev/x64_Windows/dirname.exe
@@ -749,7 +749,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 840.7 kB
+- **Size:** 840.7 KB
 - **SHA256SUM:** 500332cd2a60ab41a84196c92834f93e8678d2e0ff1acb8526289f17883b11fe
 - **B3SUM:** 7bef27aea4da2a21b650a2a5579b07a241ba9d5dbd4260932ae42dc89f8007e9
 - **Source:** https://bin.ajam.dev/x64_Windows/echo.exe
@@ -789,7 +789,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 902.66 kB
+- **Size:** 902.66 KB
 - **SHA256SUM:** 0229340f1e91cb893df7d130384e5ed94cabcdcc76f55262cc8fa3ec8c8c7776
 - **B3SUM:** 71d39c59acacc9759c57a3ad218263544609ba4f6f74655681647a2675fd20e1
 - **Source:** https://bin.ajam.dev/x64_Windows/expand.exe
@@ -849,7 +849,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 782.85 kB
+- **Size:** 782.85 KB
 - **SHA256SUM:** e85ce92e55e3de33c9ab55163e9340f411d7ca490c27c3a9f38b4eedaada5b37
 - **B3SUM:** e52f2009f82901319066ca386ffa9d695db1dd705e6d83ca5a13bf8cdaa0f1d5
 - **Source:** https://bin.ajam.dev/x64_Windows/false.exe
@@ -869,7 +869,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 940.54 kB
+- **Size:** 940.54 KB
 - **SHA256SUM:** 2f20ec1883c781a935e803daa663fb4f361685326d7419d774d602cc1ff7addf
 - **B3SUM:** 11853fe3c8c98bca0987352c81a653d27867dd6f35b6c1ee8efcbce43ad8b0c7
 - **Source:** https://bin.ajam.dev/x64_Windows/fmt.exe
@@ -889,7 +889,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 889.86 kB
+- **Size:** 889.86 KB
 - **SHA256SUM:** d87d3b918385fd23421a7455fc2d2243ae64e23c4ed09022b202d5a4e79aec03
 - **B3SUM:** c29f9782d31e88d4b2c340cea5c90fa12452531cfb11d650b461bc345e0e3741
 - **Source:** https://bin.ajam.dev/x64_Windows/fold.exe
@@ -929,7 +929,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 930.3 kB
+- **Size:** 930.3 KB
 - **SHA256SUM:** 2546526a4919851a94dda8eb919ccd0b41f40902b6055091fb340634753a8bd8
 - **B3SUM:** 761015580be4959531b0a6704a71531de07f9e87cbf8eace1e0af547b86d9bd3
 - **Source:** https://bin.ajam.dev/x64_Windows/head.exe
@@ -949,7 +949,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 873.47 kB
+- **Size:** 873.47 KB
 - **SHA256SUM:** 74a33ef04e79a92b001f4ac630f3085a0fff0242f6a33dc3ba53f89f3cf87335
 - **B3SUM:** b79803ab49560c39102f21b88702d68510528524fe7cab7da84edfef916743a1
 - **Source:** https://bin.ajam.dev/x64_Windows/hostname.exe
@@ -989,7 +989,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 856.06 kB
+- **Size:** 856.06 KB
 - **SHA256SUM:** ee4bb8d29f401953decf8c234253c0dd47a192a77496d39c0691bfa672ebc67f
 - **B3SUM:** bb7385fd2a6d20877bb30d491f215362d5858d9f03c496ab40862b4a8f0f5996
 - **Source:** https://bin.ajam.dev/x64_Windows/link.exe
@@ -1009,7 +1009,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 951.3 kB
+- **Size:** 951.3 KB
 - **SHA256SUM:** 1ea3f2b7b46dc528878da92319b7b62e1f7539129ea37963fd72b33b27404b4b
 - **B3SUM:** d3dd8c80430c5b409ff6ce0a2d336abe20ba51ca589b30255a8cbb914d4595a3
 - **Source:** https://bin.ajam.dev/x64_Windows/ln.exe
@@ -1049,7 +1049,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 870.91 kB
+- **Size:** 870.91 KB
 - **SHA256SUM:** a25f8ca421a0b9104b851e9832f90792edb3a7783ea9f9914f07b1ee1deda83e
 - **B3SUM:** c34b1763952a388b485a57a73c95621540b5c1bf5652001c129594e64cfcfd26
 - **Source:** https://bin.ajam.dev/x64_Windows/mkdir.exe
@@ -1069,7 +1069,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 951.3 kB
+- **Size:** 951.3 KB
 - **SHA256SUM:** 71d54afcaf58a885ed137492023a018f2f19abdb491453b6facc046f87cba1e3
 - **B3SUM:** 995020327ea2952c3030093f72bd3b2426ae6014d264758066a3676dbeb43b68
 - **Source:** https://bin.ajam.dev/x64_Windows/mktemp.exe
@@ -1149,7 +1149,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 855.55 kB
+- **Size:** 855.55 KB
 - **SHA256SUM:** 64af2d09c05ecafae435cdbea2544915429ee4f0db2b9ff949447abf3d7c0ad5
 - **B3SUM:** c72b95dcecd02ada69da13ac55517e6ce3d78c32b6c12144b454836b82888684
 - **Source:** https://bin.ajam.dev/x64_Windows/nproc.exe
@@ -1169,7 +1169,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 990.21 kB
+- **Size:** 990.21 KB
 - **SHA256SUM:** 7411698a50d3701706f0ceb3fe68e1e86a9f7db4d9a91e1f2cdd7bdc10e23ed5
 - **B3SUM:** d22854dd60a90a4a291502bab8f4086008f42f6fee3362ab01c774133f2d1fd1
 - **Source:** https://bin.ajam.dev/x64_Windows/numfmt.exe
@@ -1209,7 +1209,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 864.77 kB
+- **Size:** 864.77 KB
 - **SHA256SUM:** 93dcd8060a72abafc4d12b0668afcc9b74e38668ff56a137ee5264279d66cec8
 - **B3SUM:** 5813c4581828d9ff08fd4379a35ce6c556047aded632448920a6eec9ba33e3fb
 - **Source:** https://bin.ajam.dev/x64_Windows/paste.exe
@@ -1249,7 +1249,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 826.37 kB
+- **Size:** 826.37 KB
 - **SHA256SUM:** a1dcb410f4035d93226edb82d76036917fc56cc5f7236b7e511c8d1506986099
 - **B3SUM:** 55afad75564ba4aa83c26787b1765519feb089a69153bcd43044752002c289c8
 - **Source:** https://bin.ajam.dev/x64_Windows/printenv.exe
@@ -1269,7 +1269,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 943.1 kB
+- **Size:** 943.1 KB
 - **SHA256SUM:** c4ec8d47e39bbaf89158aad112c54db5a19da89ab206f7687f0b814cbc886899
 - **B3SUM:** bf5959f21fc7250be033791ac3673acaa0c504e36a01480957af6b3273720d51
 - **Source:** https://bin.ajam.dev/x64_Windows/printf.exe
@@ -1309,7 +1309,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 845.82 kB
+- **Size:** 845.82 KB
 - **SHA256SUM:** 645693e4b81c8ed0044114460f3ca2c604407735358524838902b8bf054bc6ef
 - **B3SUM:** 82aabd40c177e484859190cbec9e64449e59db7e21be289cc3bab1a5911f3888
 - **Source:** https://bin.ajam.dev/x64_Windows/pwd.exe
@@ -1329,7 +1329,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 907.26 kB
+- **Size:** 907.26 KB
 - **SHA256SUM:** ea61b0f58aa26572b43b02104f40588a17f23a1e40c93405c563dd7c404588c2
 - **B3SUM:** 2ecb4619c77f107a4193e619b4c11e2426535517ed92533128841dfa6d71536f
 - **Source:** https://bin.ajam.dev/x64_Windows/readlink.exe
@@ -1349,7 +1349,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 910.34 kB
+- **Size:** 910.34 KB
 - **SHA256SUM:** cf373ba527ddc5ec6121561677a0ac82162442bc4d71c55c5ef61ceb7fa1404f
 - **B3SUM:** 1bfb434c227246a4627de8c1c490ffe5b92f1e5d22528ef363eb78585e60f1ae
 - **Source:** https://bin.ajam.dev/x64_Windows/realpath.exe
@@ -1369,7 +1369,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 946.69 kB
+- **Size:** 946.69 KB
 - **SHA256SUM:** 4c384911f2dd729c803b9f1e1bd1a458e904e6d17c6d59b55f91ddd5d73249be
 - **B3SUM:** cfcd8fa8fa84d692caf90c2a7f88504dcfc893b0dd897d176f4db96692e44b0c
 - **Source:** https://bin.ajam.dev/x64_Windows/rm.exe
@@ -1389,7 +1389,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 863.23 kB
+- **Size:** 863.23 KB
 - **SHA256SUM:** 9d9568c0759ae32ae10a979cff746a8bd528df1a637bcefa3f81b0b2fafb8463
 - **B3SUM:** 77b809a5255c565f364e7b5375664c6815f45b8a7914ff1b38f4a5bc19510f5d
 - **Source:** https://bin.ajam.dev/x64_Windows/rmdir.exe
@@ -1429,7 +1429,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 926.21 kB
+- **Size:** 926.21 KB
 - **SHA256SUM:** f532b73248a401ff3e9e56bc428a79810277016a0c481b1ffc2f7aaa0e9566fa
 - **B3SUM:** 01b5086fc28d2562ce203ffeb351fee06f1fb24597d5ce573fa6eb3f494bd597
 - **Source:** https://bin.ajam.dev/x64_Windows/shred.exe
@@ -1449,7 +1449,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 942.59 kB
+- **Size:** 942.59 KB
 - **SHA256SUM:** 16fcce4172fa4bc86cd87dcd253a9ac4ab4f5a1db74fe92bbbed42f96548d190
 - **B3SUM:** 493b63e7a765d33e1bf33f95e59d17795e3ed796da4b0e4936abb9db6dd9d9a6
 - **Source:** https://bin.ajam.dev/x64_Windows/shuf.exe
@@ -1469,7 +1469,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 865.28 kB
+- **Size:** 865.28 KB
 - **SHA256SUM:** 0ce8abb0b1588271a24ac0065baeff54494e70fe4cc00d67dd8b2ee1283a235a
 - **B3SUM:** 77181591fad7deabc9986d698a8c38201b0a0ee46a08a51bd98a4aedaa20424b
 - **Source:** https://bin.ajam.dev/x64_Windows/sleep.exe
@@ -1529,7 +1529,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 884.22 kB
+- **Size:** 884.22 KB
 - **SHA256SUM:** b3a45e9c96b86b22d6d5b9c16acb3426d3b6cfbba89673e7a0f79e2652b9180f
 - **B3SUM:** 2b1e850d468785e07747816a2873115a5fdac750ecbd00fbbd34539d414d7b95
 - **Source:** https://bin.ajam.dev/x64_Windows/sum.exe
@@ -1549,7 +1549,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 862.21 kB
+- **Size:** 862.21 KB
 - **SHA256SUM:** 684e537b1421ebb0b3d4d275253452f023cc2a5b9e04e8b00dc0e19679972444
 - **B3SUM:** 302ddc8e16ad2c7591787180a84f0a5df3bb75b6c14f4944f6ec37404c7c5046
 - **Source:** https://bin.ajam.dev/x64_Windows/sync.exe
@@ -1609,7 +1609,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 908.8 kB
+- **Size:** 908.8 KB
 - **SHA256SUM:** 630d80e1f04b22df65f19351b47c1752e51f5725f679857c0a3d9089df2342f9
 - **B3SUM:** 7878ace67148edf6a9a90394cadbdfc891e5daee227ad32134b71ec5ac1217db
 - **Source:** https://bin.ajam.dev/x64_Windows/tee.exe
@@ -1629,7 +1629,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 871.42 kB
+- **Size:** 871.42 KB
 - **SHA256SUM:** fde95365878d3307e08f25d0e88f386e17fa194680b48d88f11ff8c4be0231a7
 - **B3SUM:** e8b222373176d74a9fc70c1e1a031e58e1f0ae3e78db8a1a28c54ac11e0e2862
 - **Source:** https://bin.ajam.dev/x64_Windows/test.exe
@@ -1669,7 +1669,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 935.42 kB
+- **Size:** 935.42 KB
 - **SHA256SUM:** 9fb436f9c90d72c5c031d0b2f32aac9cab856e5396daf869aeb6e5b6056be424
 - **B3SUM:** 066d85447ef8c7e3b51019090fa1e81e8c0a27110148d5830cc333ba09b2f144
 - **Source:** https://bin.ajam.dev/x64_Windows/tr.exe
@@ -1689,7 +1689,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 782.85 kB
+- **Size:** 782.85 KB
 - **SHA256SUM:** eef81b8a25f95b39bd5f216469819313da7505b00ca040e5560318029f30aa3f
 - **B3SUM:** d64d5d856673f9838678a87b4d5c855a79d73012311c573efdf33667849b0de9
 - **Source:** https://bin.ajam.dev/x64_Windows/true.exe
@@ -1709,7 +1709,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 875.52 kB
+- **Size:** 875.52 KB
 - **SHA256SUM:** 95cd6282605f9cd22ffc07581efb0c8dda01dac92525a89bb7f54c884f491d33
 - **B3SUM:** 8e4ee707c4bfba1b2d5f6d01c005a7a4567fffd36fe4acee36ecdcc840ca7aba
 - **Source:** https://bin.ajam.dev/x64_Windows/truncate.exe
@@ -1729,7 +1729,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 914.43 kB
+- **Size:** 914.43 KB
 - **SHA256SUM:** 7504be9cc8f2dfd0150c4750753df759d3a3800b453c7bc6145e3e91b32b7914
 - **B3SUM:** b32d66524a25ee092dc7356b8ea3fd28e9601f1fbb19ab0c9714ab2d395a0696
 - **Source:** https://bin.ajam.dev/x64_Windows/tsort.exe
@@ -1749,7 +1749,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 875.01 kB
+- **Size:** 875.01 KB
 - **SHA256SUM:** 0a4233b30c860db658c938874573686d928a16131fbce56988778b63c9f195a1
 - **B3SUM:** 0756ef029ea525321959983dd2bf39e751394aecdd49a00d60097579a283cd10
 - **Source:** https://bin.ajam.dev/x64_Windows/uname.exe
@@ -1769,7 +1769,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 907.26 kB
+- **Size:** 907.26 KB
 - **SHA256SUM:** b89cbe26d03805af52aa90dc5784c54defe0a1d522e615acbdc0725a7b8f9aa9
 - **B3SUM:** f13a8dd66a303404eae24bfee41ecace3b45ed7bb1d62f5b64dc5908b8faff20
 - **Source:** https://bin.ajam.dev/x64_Windows/unexpand.exe
@@ -1789,7 +1789,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 943.1 kB
+- **Size:** 943.1 KB
 - **SHA256SUM:** a83908adc90fedd69057b09e71b43e17848007ad254955416087e33e59926f5a
 - **B3SUM:** 5d936a23824b83d52265ededc96158331f31df55d442cd236759af92758a3659
 - **Source:** https://bin.ajam.dev/x64_Windows/uniq.exe
@@ -1809,7 +1809,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 854.53 kB
+- **Size:** 854.53 KB
 - **SHA256SUM:** e879fb6d01ec5d7503f545e4226d86c578d197a208363a9bb0b18c19135221c5
 - **B3SUM:** a490571c1c284a7ec59faea9efc460f66a1467f2055443c682afb3971be00528
 - **Source:** https://bin.ajam.dev/x64_Windows/unlink.exe
@@ -1849,7 +1849,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 951.3 kB
+- **Size:** 951.3 KB
 - **SHA256SUM:** ffe2b459b34484d58e095bcf98f64c018459ad1d34bebc5b85c4b8d55e338974
 - **B3SUM:** b07c2b5126fc120e79ca1bd163f9affd43dcd500063aa03fe1381adf3df65ca4
 - **Source:** https://bin.ajam.dev/x64_Windows/wc.exe
@@ -1869,7 +1869,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 838.66 kB
+- **Size:** 838.66 KB
 - **SHA256SUM:** aef29ecff721599309c78de358da491b378fb58d0c9e5c0025457f798d9a1287
 - **B3SUM:** 8e476fbe20fb3d3e4fc4282f5b5be4155ddb642a6aabff74f262707b6f557bd9
 - **Source:** https://bin.ajam.dev/x64_Windows/whoami.exe
@@ -1889,7 +1889,7 @@
 - **Stars:** 17617
 - **Version:** 0.0.27
 - **Updated:** 2024-10-08T17:12:50Z
-- **Size:** 835.58 kB
+- **Size:** 835.58 KB
 - **SHA256SUM:** 8bc70c3b442a6eab468749b327f2b36f5657d0d6dd545419b76f4b3c852a9ec7
 - **B3SUM:** 32dad7a9b7da7b0a1fc256e156042d79f22cc754583258687f8f5d35a3784eba
 - **Source:** https://bin.ajam.dev/x64_Windows/yes.exe
@@ -2006,7 +2006,7 @@
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 11614
+- **Stars:** 11615
 - **Version:** v6.7.0
 - **Updated:** 2024-10-07T08:23:05Z
 - **Size:** 9.71 MB
@@ -2066,7 +2066,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
 - **Repository:** [https://github.com/Byron/dua-cli](https://github.com/Byron/dua-cli)
-- **Stars:** 4025
+- **Stars:** 4026
 - **Version:** v2.29.2
 - **Updated:** 2024-09-06T19:55:56Z
 - **Size:** 1.66 MB
@@ -2086,7 +2086,7 @@
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 6135
+- **Stars:** 6137
 - **Version:** v0.42.0
 - **Updated:** 2024-09-25T14:19:27Z
 - **Size:** 3.69 MB
@@ -2106,7 +2106,7 @@
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8720
+- **Stars:** 8721
 - **Version:** v1.1.1
 - **Updated:** 2024-09-16T21:01:10Z
 - **Size:** 2.77 MB
@@ -2166,7 +2166,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 10052
+- **Stars:** 10053
 - **Version:** 2.27.1
 - **Updated:** 2024-10-08T13:36:07Z
 - **Size:** 1.54 MB
@@ -2186,7 +2186,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 10052
+- **Stars:** 10053
 - **Version:** 2.27.1
 - **Updated:** 2024-10-08T13:36:07Z
 - **Size:** 1.39 MB
@@ -2248,7 +2248,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 301
 - **Version:** 0.7.0
-- **Updated:** 2024-10-07T03:45:55Z
+- **Updated:** 2024-10-09T03:21:27Z
 - **Size:** 2.63 MB
 - **SHA256SUM:** dc475183f4cbb58c73ff83fdaad4f30768ec67bbbe38d38d9e504c194803a392
 - **B3SUM:** 8ca9888dc727c8c5ec53f65dfac74149e9396166cd46a5716639d876c1584367
@@ -2268,7 +2268,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 301
 - **Version:** 0.7.0
-- **Updated:** 2024-10-07T03:45:55Z
+- **Updated:** 2024-10-09T03:21:27Z
 - **Size:** 2.63 MB
 - **SHA256SUM:** 408fef3e06a9ffeb4f9afee9add2f366e1f2ddbb2619ad8d76e7a2196211dabb
 - **B3SUM:** 0e2c7bebea3dec0750cb0e861992271d965590e4f856e4d4ed860258353c50dc
@@ -2288,8 +2288,8 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 301
 - **Version:** 0.7.0
-- **Updated:** 2024-10-07T03:45:55Z
-- **Size:** 915.97 kB
+- **Updated:** 2024-10-09T03:21:27Z
+- **Size:** 915.97 KB
 - **SHA256SUM:** 13bc8cd881a8dbe07a7565f69f499984e2fff67672625501791ffacd93e64c8b
 - **B3SUM:** d7c6c796fbcab7f3cc8b8ce64758a8107d3d48c55f40c2d8a75e4ccc829a9816
 - **Source:** https://bin.ajam.dev/x64_Windows/xargs-rs.exe
@@ -2308,8 +2308,8 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 301
 - **Version:** 0.7.0
-- **Updated:** 2024-10-07T03:45:55Z
-- **Size:** 915.97 kB
+- **Updated:** 2024-10-09T03:21:27Z
+- **Size:** 915.97 KB
 - **SHA256SUM:** 673c940a1e6a51a0be06686416218ff96c33f681943f938898fa7f65d576fbb0
 - **B3SUM:** 27cb316a4354887c604b94ff273f29f9e653a04d10203d5bb7c10efd63a58046
 - **Source:** https://bin.ajam.dev/x64_Windows/xargs.exe
@@ -2326,7 +2326,7 @@
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
-- **Stars:** 3880
+- **Stars:** 3881
 - **Version:** v5.29.0
 - **Updated:** 2024-09-04T23:22:34Z
 - **Size:** 14.54 MB
@@ -2386,7 +2386,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8879
+- **Stars:** 8881
 - **Version:** gix-v0.66.0
 - **Updated:** 2024-10-08T20:56:08Z
 - **Size:** 9.49 MB
@@ -2406,7 +2406,7 @@
 - **Author:** Byron
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 8879
+- **Stars:** 8881
 - **Version:** gix-v0.66.0
 - **Updated:** 2024-10-08T20:56:08Z
 - **Size:** 18.97 MB
@@ -2446,7 +2446,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 21750
+- **Stars:** 21751
 - **Version:** v1.18.0
 - **Updated:** 2024-09-01T02:42:12Z
 - **Size:** 1.33 MB
@@ -2489,7 +2489,7 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 141.82 kB
+- **Size:** 141.82 KB
 - **SHA256SUM:** 31dbe6c28ef7800020fd7333bc6831ed36107c7c3ff48c4af7379d59614d2fc9
 - **B3SUM:** 1e30f2d3ca2e98f677f93a9b1755ed58074e678ca91b42b7061733927f566c6c
 - **Source:** https://bin.ajam.dev/x64_Windows/iperf3.exe
@@ -2506,10 +2506,10 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 30280
+- **Stars:** 30284
 - **Version:** jq-1.7.1
 - **Updated:** 2024-10-05T23:52:56Z
-- **Size:** 985.09 kB
+- **Size:** 985.09 KB
 - **SHA256SUM:** 2dce7e5b0ac70a35c42045162b6b25152628dd0d7e044e955fce079ff163e6d1
 - **B3SUM:** 3b79006aabcf9a5fe8072049f5b66347cbc8150e25de88bc3b2d4d7f761fa673
 - **Source:** https://bin.ajam.dev/x64_Windows/jq.exe
@@ -2606,7 +2606,7 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 24980
+- **Stars:** 24982
 - **Version:** v2.0.14
 - **Updated:** 2024-10-09T00:21:10Z
 - **Size:** 11.88 MB
@@ -2646,7 +2646,7 @@
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
-- **Stars:** 10992
+- **Stars:** 10993
 - **Version:** v2.8.3
 - **Updated:** 2024-09-25T23:15:45Z
 - **Size:** 5.21 MB
@@ -2728,7 +2728,7 @@
 - **Repository:** [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 - **Stars:** 34224
 - **Version:** 3.5
-- **Updated:** 2024-10-07T15:00:52Z
+- **Updated:** 2024-10-09T03:15:14Z
 - **Size:** 156.66 MB
 - **SHA256SUM:** 51694edc8cbb689c73f256d354867adb34625e6a3c7df42b7ff2fcd40111b02e
 - **B3SUM:** 7a2da1762851554978793adbb84eebe273d08e90999225062a355598e6cad704
@@ -2926,7 +2926,7 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 19033
+- **Stars:** 19038
 - **Version:** v1.9.7
 - **Updated:** 2024-10-08T12:59:31Z
 - **Size:** 31.21 MB
@@ -3106,10 +3106,10 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 84279
+- **Stars:** 84294
 - **Version:** 2024.10.07
 - **Updated:** 2024-10-07T23:51:12Z
-- **Size:** 179.71 kB
+- **Size:** 179.71 KB
 - **SHA256SUM:** 82889ef384414dcd5f3d069240b338027a9616755b76a22f1c1e2d397d62875e
 - **B3SUM:** 17531cb51689dbd18874d40c23b7ab9797442c3d7de5428aa58e5a8b0106790e
 - **Source:** https://bin.ajam.dev/x64_Windows/yt-dlp.exe

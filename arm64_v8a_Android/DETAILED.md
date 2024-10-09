@@ -6,7 +6,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54416
+- **Stars:** 54420
 - **Version:** v0.2.68
 - **Updated:** 2024-10-07T02:49:32Z
 - **Size:** 19.31 MB
@@ -26,7 +26,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2723
+- **Stars:** 2724
 - **Version:** v1.7.3
 - **Updated:** 2024-10-05T05:36:35Z
 - **Size:** 5.38 MB
@@ -49,7 +49,7 @@
 - **Stars:** 1855
 - **Version:** v1.33.1
 - **Updated:** 2024-10-08T20:18:52Z
-- **Size:** 186.01 kB
+- **Size:** 186.01 KB
 - **SHA256SUM:** 49c12625abee2e65893cd81494fcada8a56a405dcb07fadf42704ecc9211460a
 - **B3SUM:** 854000e6b99276d988e712bd408c9c873d45b424ccc5139801d0c94160f1e8f6
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/adig
@@ -69,7 +69,7 @@
 - **Stars:** 12
 - **Version:** v0.1.0
 - **Updated:** 2024-05-08T12:29:15Z
-- **Size:** 968.48 kB
+- **Size:** 968.48 KB
 - **SHA256SUM:** ac08b5093760bc45cb16a68f081460e688ec51594bdf3e11fd9834730c68c769
 - **B3SUM:** 904efd5691937706d678162a4302e4faf9dc56af09e787d8c79131fb93caa747
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/anew-rs
@@ -146,7 +146,7 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35600
+- **Stars:** 35603
 - **Version:** curl-8_10_1
 - **Updated:** 2024-10-09T00:46:51Z
 - **Size:** 5.36 MB
@@ -166,10 +166,10 @@
 - **Author:** curl
 - **WebURL:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
-- **Stars:** 35600
+- **Stars:** 35603
 - **Version:** curl-8_10_1
 - **Updated:** 2024-10-09T00:46:51Z
-- **Size:** 234.85 kB
+- **Size:** 234.85 KB
 - **SHA256SUM:** 189d3cf6d103185fba06d76c1af915263c6d42225481a1759e853b33ac857540
 - **B3SUM:** 1856b10ee91d0e1828f100a99b50dbf6c66373f659f855f01c8a9f9a22b002b5
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/curl_cacert.pem
@@ -188,7 +188,7 @@
 - **Repository:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
 - **Stars:** 146
 - **Version:** 0.5
-- **Updated:** 2024-10-08T23:18:54Z
+- **Updated:** 2024-10-09T03:38:23Z
 - **Size:** 7.37 MB
 - **SHA256SUM:** 01da1e5083d0bed1c5bc71758984feb8bc357bab319adf9d65c9bf7490c86e56
 - **B3SUM:** 45ed4fa1fb5785734e3e92b36fdcc474b4b86b51d04eb977a67da9ebf9cf83fd
@@ -266,7 +266,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 46557
+- **Stars:** 46560
 - **Version:** v1.68.1
 - **Updated:** 2024-10-08T14:27:05Z
 - **Size:** 85.87 MB
@@ -309,7 +309,7 @@
 - **Stars:** 91
 - **Version:** v0.2.0
 - **Updated:** 2021-04-10T21:03:10Z
-- **Size:** 250.38 kB
+- **Size:** 250.38 KB
 - **SHA256SUM:** 9e56787b3ca489a9eb9e3a64f54944aa92c728d18576972ef7ef6bb10ca6462c
 - **B3SUM:** 261a7ec6cf5ed2fbc82f8128f2583eda7faeb8939b9e08143046f0b046e504ae
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/sudo
@@ -326,9 +326,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18855
+- **Stars:** 18860
 - **Version:** v1.74.1
-- **Updated:** 2024-10-08T23:11:24Z
+- **Updated:** 2024-10-09T02:13:21Z
 - **Size:** 12.46 MB
 - **SHA256SUM:** bd17012ec2204dfd0019d7bb430919e73a0af092b07716777a7a2bbfa26c0ae2
 - **B3SUM:** 67e813cd75e06d1ae679da90403c48dd5903d718d580a0975afeea8c8e25627a
@@ -346,9 +346,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18855
+- **Stars:** 18860
 - **Version:** v1.74.1
-- **Updated:** 2024-10-08T23:11:24Z
+- **Updated:** 2024-10-09T02:13:21Z
 - **Size:** 26.75 MB
 - **SHA256SUM:** d363015f0cf122b73b206ef1baa9617ac364a876c18ac1b849fc0620c5d91954
 - **B3SUM:** 49bf63489ff0d6ccb1ac30c9e52ed8002ad62f26664d53e0e79aa09b7fc6849b
@@ -366,9 +366,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 18855
+- **Stars:** 18860
 - **Version:** v1.74.1
-- **Updated:** 2024-10-08T23:11:24Z
+- **Updated:** 2024-10-09T02:13:21Z
 - **Size:** 24.61 MB
 - **SHA256SUM:** 226b283c5b11fd4856c9d5ab7acadb44dfa9a8263d444143c13b352ed30eb65d
 - **B3SUM:** 58edcdfc38ac1da46a68c3771a65fde58b143d51b1bf230fb57067894ff0c182
@@ -386,7 +386,7 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36281
+- **Stars:** 36283
 - **Version:** v9.1.0771
 - **Updated:** 2024-10-08T20:32:38Z
 - **Size:** 5.07 MB
@@ -429,7 +429,7 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 234.85 kB
+- **Size:** 234.85 KB
 - **SHA256SUM:** 189d3cf6d103185fba06d76c1af915263c6d42225481a1759e853b33ac857540
 - **B3SUM:** 1856b10ee91d0e1828f100a99b50dbf6c66373f659f855f01c8a9f9a22b002b5
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/wget_cacert.pem
