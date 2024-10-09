@@ -319,7 +319,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
   build-push-debian-unstable-base:
-    name: Push (Debian-Unstable) --> Docker Hub
+    name: Push (Debian-Builder) --> Docker Hub
     runs-on: ubuntu-latest
     
     steps:
@@ -379,7 +379,7 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
   build-push-ubuntu-builder:
-    name: Push (Debian-Latest) --> Docker Hub
+    name: Push (Ubuntu-Builder) --> Docker Hub
     runs-on: ubuntu-latest
     
     steps:
