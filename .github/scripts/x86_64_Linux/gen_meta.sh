@@ -27,6 +27,7 @@ sed -e '/.*github_pat.*/Id' \
         -e '/.*access_key_id.*/Id' \
         -e '/.*secret_access_key.*/Id' \
         -e '/.*cloudflarestorage.*/Id' -i "$SYSTMP/BUILD.log"
+sed 's/\r/\n/g' -i "$SYSTMP/BUILD.log" 2>/dev/null
 rm -rf "${SYSTMP}/BIN_LOGS" 2>/dev/null ; mkdir -p "${SYSTMP}/BIN_LOGS"
 ##gh previews
 rm -rf "${SYSTMP}/GH_TMP" 2>/dev/null ; mkdir -p "${SYSTMP}/GH_TMP"
@@ -140,9 +141,13 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
                LOG_END="$(awk -v start="$LOG_BEGIN" 'NR > start && /.*Completed \(Building\|Fetching\).*/ {print NR; exit}' "$SYSTMP/BUILD.log")" && export LOG_END="${LOG_END}"
                if [ -n "${LOG_BEGIN}" ] && [ -n "${LOG_END}" ]; then
                  sed -n "${LOG_BEGIN},${LOG_END}p" "$SYSTMP/BUILD.log" > "${SYSTMP}/BIN_LOGS/${BIN}.log.txt"
-                 cat "${SYSTMP}/BIN_LOGS/${BIN}.log.txt" > "${SYSTMP}/BIN_LOGS/${C_NAME}.log.txt"
-                 BUILD_LOG="$(jq --arg BIN "$BIN" -r '.[] | select(.name == $BIN) | .download_url' "$TMPDIR/METADATA.json" | sed 's/\.no_strip$//').log.txt"
-                 jq --arg BIN "$BIN" --arg BUILD_LOG "$BUILD_LOG" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+                 cat "${SYSTMP}/BIN_LOGS/${BIN}.log.txt" >> "${SYSTMP}/BIN_LOGS/${C_NAME}.log.txt"
+                 if [ -f "${SYSTMP}/BIN_LOGS/${C_NAME}.log.txt" ] && [ $(stat -c%s "${SYSTMP}/BIN_LOGS/${C_NAME}.log.txt") -gt 10 ]; then
+                   BUILD_LOG="$(jq --arg BIN "$BIN" -r '.[] | select(.name == $BIN) | .download_url' "$TMPDIR/METADATA.json" | sed 's/\.no_strip$//').log.txt"
+                   jq --arg BIN "$BIN" --arg BUILD_LOG "$BUILD_LOG" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+                 else
+                   jq --arg BIN "$BIN" --arg BUILD_LOG "https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
+                 fi
                fi
              else
                  jq --arg BIN "$BIN" --arg BUILD_LOG "https://bin.ajam.dev/x86_64_Linux/BUILD.log.txt" '.[] |= if .name == $BIN then . + {build_log: $BUILD_LOG} else . end' "$TMPDIR/METADATA.json" > "$TMPDIR/METADATA.tmp" && mv "$TMPDIR/METADATA.tmp" "$TMPDIR/METADATA.json"
@@ -216,6 +221,8 @@ if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
     #Sync rest
      rclone copyto --checksum "$TMPDIR/METADATA.json" "r2:/bin/x86_64_Linux/METADATA.json" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
      rclone delete "r2:/bin/x86_64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --user-agent="$USER_AGENT"
+    #Cleanup
+      rclone delete "r2:/bin/x86_64_Linux" --min-size 0 --max-size 0
    else
      echo -e "\n[-] FATAL: ($(realpath "$TMPDIR/METADATA.json")) is small (<1000)\n"
    fi

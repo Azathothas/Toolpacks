@@ -1,0 +1,8 @@
+name: "pixterm"
+description: "Draw images in your ANSI terminal with true color"
+note: ""
+web_url: "https://github.com/eliukblau/pixterm"
+repo_url: "https://github.com/eliukblau/pixterm"
+path: "/"
+bins:
+  - "pixterm"

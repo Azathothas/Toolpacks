@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND="noninteractive"
 RUN <<EOS
   #Base
   apt-get update -y
-  packages="apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common texinfo tmux tree unzip util-linux xz-utils wget zip"
+  packages="apt-transport-https apt-utils bash ca-certificates coreutils curl dos2unix fdupes findutils git gnupg2 imagemagick jq locales locate moreutils nano ncdu p7zip-full rename rsync software-properties-common sudo texinfo tmux tree unzip util-linux xz-utils wget zip"
   #Install
   apt-get update -y -qq
   for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" apt install -y --ignore-missing "$pkg"; done
