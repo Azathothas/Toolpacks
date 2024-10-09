@@ -1,5 +1,5 @@
 ```mathematica
- 1.7G └─┬ toolpack_x86_64
+ 1.7G └─┬ .
  149M   ├── pandoc.exe
  141M   ├── ffmpeg.exe
  141M   ├── ffprobe.exe
@@ -57,6 +57,7 @@
  5.3M   ├── cfspeedtest.exe
  5.2M   ├── rg.exe
  5.0M   ├── monolith.exe
+ 4.9M   ├── openssh.zip
  4.6M   ├── certstream.exe
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
@@ -87,8 +88,8 @@
  1.8M   ├── miniserve.exe
  1.8M   ├── botsay.exe
  1.6M   ├── quotes-escaper.exe
- 1.6M   ├── dua.exe
  1.6M   ├── sort.exe
+ 1.6M   ├── dua.exe
  1.5M   ├── ls.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
@@ -98,7 +99,6 @@
  1.3M   ├── flashfetch.exe
  1.3M   ├── tail.exe
  1.3M   ├── cp.exe
- 1.3M   ├── sshd.exe
  1.3M   ├── pdfimages.exe
  1.3M   ├── hyperfine.exe
  1.3M   ├── 7z.exe
@@ -106,8 +106,8 @@
  1.2M   ├── pdfinfo.exe
  1.2M   ├── pdffonts.exe
  1.2M   ├── wldd.exe
- 1.2M   ├── pdfdetach.exe
  1.2M   ├── ssh.exe
+ 1.2M   ├── pdfdetach.exe
  1.2M   ├── mv.exe
  1.1M   ├── du.exe
  1.0M   ├── seq.exe
@@ -119,14 +119,14 @@
  990K   ├── join.exe
  987K   ├── split.exe
  981K   ├── basenc.exe
- 966K   ├── numfmt.exe
+ 967K   ├── numfmt.exe
  963K   ├── df.exe
  962K   ├── jq.exe
  958K   ├── base64.exe
  958K   ├── base32.exe
+ 929K   ├── wc.exe
  929K   ├── mktemp.exe
  929K   ├── ln.exe
- 928K   ├── wc.exe
  927K   ├── cut.exe
  924K   ├── rm.exe
  921K   ├── uniq.exe
@@ -150,7 +150,7 @@
  863K   ├── sum.exe
  855K   ├── truncate.exe
  854K   ├── uname.exe
- 854K   ├── hostname.exe
+ 853K   ├── hostname.exe
  851K   ├── test.exe
  850K   ├── mkdir.exe
  850K   ├── comm.exe
@@ -159,10 +159,10 @@
  843K   ├── basename.exe
  843K   ├── rmdir.exe
  842K   ├── sync.exe
+ 837K   ├── ssh-keygen.exe
  836K   ├── link.exe
  835K   ├── nproc.exe
  834K   ├── unlink.exe
- 834K   ├── ssh-keygen.exe
  829K   ├── arch.exe
  826K   ├── pwd.exe
  822K   ├── dirname.exe
@@ -174,20 +174,79 @@
  804K   ├── anew-rs.exe
  764K   ├── true.exe
  764K   ├── false.exe
+ 743K   ├── sshd.exe
  657K   ├── busybox-unicode.exe
  650K   ├── busybox.exe
- 649K   ├── ssh-keyscan.exe
- 644K   ├── ssh-sk-helper.exe
- 590K   ├── ssh-add.exe
+ 647K   ├── ssh-keyscan.exe
+ 632K   ├── ssh-sk-helper.exe
+ 587K   ├── ssh-add.exe
  551K   ├── upx.exe
- 543K   ├── ssh-agent.exe
- 507K   ├── ssh-pkcs11-helper.exe
- 446K   ├── scp.exe
- 365K   ├── sftp-server.exe
+ 537K   ├── ssh-agent.exe
+ 498K   ├── ssh-pkcs11-helper.exe
+ 445K   ├── scp.exe
+ 364K   ├── sftp-server.exe
+ 315K   ├── picocrypt.preview.png
+ 281K   ├── pdfcpu.preview.png
  175K   ├── yt-dlp.exe
- 175K   ├── ssh-shellhost.exe
+ 174K   ├── ssh-shellhost.exe
  167K   ├── bin2video.exe
+ 142K   ├── gitoxide.preview.png
+ 141K   ├── step.preview.png
  138K   ├── iperf3.exe
+ 132K   ├── ripgrep.preview.png
+ 128K   ├── pandoc.preview.png
+ 128K   ├── gdu.preview.png
+ 128K   ├── dbbench.preview.png
+ 121K   ├── shell2http.preview.png
+ 120K   ├── pgrok.preview.png
+ 110K   ├── wget2.preview.png
+ 109K   ├── cfspeed.preview.png
+ 108K   ├── stunner.preview.png
+ 107K   ├── actionlint.preview.png
+ 105K   ├── logstation.preview.png
+ 104K   ├── botsay.preview.png
+ 102K   ├── dua.preview.png
+  99K   ├── ddns-go.preview.png
+  95K   ├── legba.preview.png
+  94K   ├── sish.preview.png
+  94K   ├── pingtunnel.preview.png
+  93K   ├── gost.preview.png
+  93K   ├── smartdns-rs.preview.png
+  92K   ├── anew-rs.preview.png
+  91K   ├── dependency_runner.preview.png
+  85K   ├── brutespray.preview.png
+  82K   ├── algernon.preview.png
+  82K   ├── monolith.preview.png
+  80K   ├── taierspeed-cli.preview.png
+  78K   ├── pingmole.preview.png
+  74K   ├── dust.preview.png
+  74K   ├── alist.preview.png
+  72K   ├── jwt-cracker.preview.png
+  68K   ├── age.preview.png
+  67K   ├── brook.preview.png
+  61K   ├── eget.preview.png
+  58K   ├── batcat.preview.png
+  54K   ├── b3sum.preview.png
+  53K   ├── coreutils_uutils.preview.png
+  53K   ├── cloudflared.preview.png
+  51K   ├── tssh.preview.png
+  49K   ├── fastfetch.preview.png
+  48K   ├── cheat.preview.png
+  47K   ├── tusd.preview.png
+  46K   ├── dufs.preview.png
+  45K   ├── sing-box.preview.png
+  45K   ├── findutils_uutils.preview.png
+  45K   ├── ipinfo.preview.png
+  43K   ├── ooniprobe.preview.png
+  42K   ├── jq.preview.png
+  41K   ├── miniserve.preview.png
+  38K   ├── cfspeedtest.preview.png
+  36K   ├── hyperfine.preview.png
+  36K   ├── curl.preview.png
+  36K   ├── micro.preview.png
+  25K   ├── 7z.preview.png
+  14K   ├── croc.preview.png
+  11K   ├── yt-dlp.preview.png
    0B   ├── stiG2Kb7
    0B   └── stP1kAlM
 ```
