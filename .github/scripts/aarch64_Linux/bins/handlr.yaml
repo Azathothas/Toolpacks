@@ -1,0 +1,8 @@
+name: "handlr"
+description: "A better xdg-utils"
+note: ""
+web_url: "https://github.com/Anomalocaridid/handlr-regex"
+repo_url: "https://github.com/Anomalocaridid/handlr-regex"
+path: "/"
+bins:
+  - "handlr"

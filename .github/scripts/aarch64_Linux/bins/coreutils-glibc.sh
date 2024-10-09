@@ -74,7 +74,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;
        find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
-       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       find "." -maxdepth 1 -type f | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
        sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/coreutils-glibc/"
       #Strip 
        find "$BASEUTILSDIR/coreutils-glibc" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;

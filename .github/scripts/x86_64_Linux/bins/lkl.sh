@@ -55,7 +55,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
-       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       find "." -maxdepth 1 -type f | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
        sudo rsync -av --copy-links --exclude="*/" "./." "$BASEUTILSDIR/lkl/"
       #-------------------------------------------------------#
       if [ -s "$HOME/.config/rclone/rclone.conf" ] && [ "$(find "$BASEUTILSDIR/lkl" -mindepth 1 -print -quit 2>/dev/null)" ]; then

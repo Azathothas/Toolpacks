@@ -1,0 +1,8 @@
+name: "nfpm"
+description: "A simple deb, rpm, apk, ipk, and arch linux packager"
+note: ""
+web_url: "https://nfpm.goreleaser.com"
+repo_url: "https://github.com/goreleaser/nfpm"
+path: "/"
+bins:
+  - "nfpm"

@@ -1,0 +1,8 @@
+name: "rye"
+description: "A Hassle-Free Python Experience"
+note: ""
+web_url: "https://rye.astral.sh"
+repo_url: "https://github.com/astral-sh/rye"
+path: "/"
+bins:
+  - "rye"

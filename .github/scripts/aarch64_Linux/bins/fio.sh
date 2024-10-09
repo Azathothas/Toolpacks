@@ -59,7 +59,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       #Copy 
        docker cp "alpine-builder:/build-bins/." "$(pwd)/" ; find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
-       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       find "." -maxdepth 1 -type f | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
        mkdir -p "$BASEUTILSDIR/fio"
        find "./" -type d -exec rm -rf {} + 2>/dev/null
        find "./" -type f -exec sh -c 'file "{}" | grep -q "text" && rm -f "{}"' \;

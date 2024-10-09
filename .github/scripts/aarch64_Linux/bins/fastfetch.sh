@@ -76,7 +76,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       #Copy
        docker cp "alpine-builder:/build-bins/." "$(pwd)/"
        #Meta
-       find "." -maxdepth 1 -type f -exec sh -c 'file "{}"; du -sh "{}"' \;
+       find "." -maxdepth 1 -type f | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
        sudo rsync -av --copy-links --exclude="*/" "./." "$BINDIR"
        #Test
        docker run --privileged -it --rm --network="bridge" -v "$BINDIR:/mnt" "alpine" "/mnt/fastfetch"
