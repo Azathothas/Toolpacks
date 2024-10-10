@@ -68,7 +68,7 @@ RUN <<EOS
   usermod -aG "sudo" "runner"
   usermod -aG "sudo" "root"
  #Passwordless for runner
-  echo "%  ALL=(ALL:ALL) NOPASSWD:ALL" >> "/etc/sudoers"
+  echo "%sudo  ALL=(ALL:ALL) NOPASSWD:ALL" >> "/etc/sudoers"
  #Remove preconfigured admin user
   userdel -r "admin" 2>/dev/null || true
 EOS
