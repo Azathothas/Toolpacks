@@ -98,12 +98,56 @@ jobs:
           echo -e "[+] URL: $(jq -r '.html_url' "$SYSTMP/RUNNER.json")" >> "./INFO.txt"
           echo -e "\n[+] ChangeLog: https://github.com/actions/runner/releases/latest" >> "./INFO.txt"
           jq -r '.body' "$SYSTMP/RUNNER.json" | sed -n '/What'\''s Changed/,/Full Changelog/p' | sed '1d;$d' | tee -a "./INFO.txt"
-          if [ -f "./runner.tar.gz" ]; then
+          if [[ -f "./runner.tar.gz" ]] && [[ $(stat -c%s "./runner.tar.gz") -gt 1024 ]]; then
              mkdir -p "./runner"
              tar xzf "./runner.tar.gz" -C "./runner"
              find "./runner" -type f -exec dos2unix --quiet {} \; 2>/dev/null
              find "./runner" -type f -executable -exec strip {} \; 2>/dev/null
              rclone sync "." "r2:/pub/utils/gh-runner-aarch64/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: rClone Update Alpine ROOTFS (aarch64)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+          DL_URL="$(curl -A "${USER_AGENT}" -qfsSL "https://alpinelinux.org/downloads/" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'alpine-minirootfs'| grep "aarch64.tar.gz" | sed 's/"$//' | sed 's/&#x2F;/\//g' | grep '\.tar\.gz$' | sort -n --reverse | tail -n 1 |tr -d '[:space:]')"
+          VERSION="$(echo "${DL_URL##*/alpine-minirootfs-}" | sed 's/-aarch64.tar.gz//')" && export VERSION="${VERSION}"
+          aria2c "${DL_URL}" \
+          --split="16" --max-connection-per-server="16" --min-split-size="1M" \
+          --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+          --download-result="default" --allow-overwrite --out="./rootfs.tar.gz" 2>/dev/null
+          if [[ -f "./rootfs.tar.gz" ]] && [[ $(stat -c%s "./rootfs.tar.gz") -gt 1024 ]]; then
+             echo -e "[+] Version: ${VERSION}" > "./INFO.txt"
+             echo -e "\n[+] URL: ${DL_URL}" >> "./INFO.txt"
+             echo -e "\n[+] ChangeLog:" >> "./INFO.txt"
+             curl -qfsSL "https://dl-cdn.alpinelinux.org/alpine/v$(echo "${VERSION%.*}")/releases/aarch64/latest-releases.yaml" | yj -yj | jq '.[] | select(.title | test("mini.*root.*filesystem"; "i"))' | sed 's/\\n/ /g' | jq -r '. | to_entries[] | "\(.key): \(.value)"' >> "./INFO.txt"
+             mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
+             rclone sync "." "r2:/pub/utils/alpine-mini-aarch64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: rClone Update ArchLinuxArm ROOTFS (aarch64)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+          DL_URL="https://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz"
+          VERSION="$(echo "latest")" && export VERSION="${VERSION}"
+          aria2c "${DL_URL}" \
+          --split="16" --max-connection-per-server="16" --min-split-size="1M" \
+          --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+          --download-result="default" --allow-overwrite --out="./rootfs.tar.gz" 2>/dev/null
+          if [[ -f "./rootfs.tar.gz" ]] && [[ $(stat -c%s "./rootfs.tar.gz") -gt 1024 ]]; then
+             echo -e "[+] Version: ${VERSION}" > "./INFO.txt"
+             echo -e "\n[+] URL: ${DL_URL}" >> "./INFO.txt"
+             mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
+             rclone sync "." "r2:/pub/utils/archlinuxarm-aarch64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd >/dev/null 2>&1
         continue-on-error: true
@@ -355,7 +399,7 @@ jobs:
           echo -e "[+] URL: $(jq -r '.html_url' "$SYSTMP/RUNNER.json")" >> "./INFO.txt"
           echo -e "\n[+] ChangeLog: https://github.com/actions/runner/releases/latest" >> "./INFO.txt"
           jq -r '.body' "$SYSTMP/RUNNER.json" | sed -n '/What'\''s Changed/,/Full Changelog/p' | sed '1d;$d' | tee -a "./INFO.txt"
-          if [ -f "./runner.tar.gz" ]; then
+          if [[ -f "./runner.tar.gz" ]] && [[ $(stat -c%s "./runner.tar.gz") -gt 1024 ]]; then
              mkdir -p "./runner"
              tar xzf "./runner.tar.gz" -C "./runner"
              find "./runner" -type f -exec dos2unix --quiet {} \; 2>/dev/null
@@ -363,7 +407,53 @@ jobs:
              rclone sync "." "r2:/pub/utils/gh-runner-x86_64/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd >/dev/null 2>&1
-        continue-on-error: true 
+        continue-on-error: true
+
+      - name: rClone Update Alpine ROOTFS (x86_64)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+          DL_URL="$(curl -A "${USER_AGENT}" -qfsSL "https://alpinelinux.org/downloads/" | grep -o 'href="[^"]*"' | sed 's/href="//' | grep 'alpine-minirootfs'| grep "x86_64.tar.gz" | sed 's/"$//' | sed 's/&#x2F;/\//g' | grep '\.tar\.gz$' | sort -n --reverse | tail -n 1 |tr -d '[:space:]')"
+          VERSION="$(echo "${DL_URL##*/alpine-minirootfs-}" | sed 's/-x86_64.tar.gz//')" && export VERSION="${VERSION}"
+          aria2c "${DL_URL}" \
+          --split="16" --max-connection-per-server="16" --min-split-size="1M" \
+          --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+          --download-result="default" --allow-overwrite --out="./rootfs.tar.gz" 2>/dev/null
+          if [[ -f "./rootfs.tar.gz" ]] && [[ $(stat -c%s "./rootfs.tar.gz") -gt 1024 ]]; then
+             echo -e "[+] Version: ${VERSION}" > "./INFO.txt"
+             echo -e "\n[+] URL: ${DL_URL}" >> "./INFO.txt"
+             echo -e "\n[+] ChangeLog:" >> "./INFO.txt"
+             curl -qfsSL "https://dl-cdn.alpinelinux.org/alpine/v$(echo "${VERSION%.*}")/releases/x86_64/latest-releases.yaml" | yj -yj | jq '.[] | select(.title | test("mini.*root.*filesystem"; "i"))' | sed 's/\\n/ /g' | jq -r '. | to_entries[] | "\(.key): \(.value)"' >> "./INFO.txt"
+             mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
+             rclone sync "." "r2:/pub/utils/alpine-mini-x86_64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: rClone Update ArchLinux ROOTFS (x86_64)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+          DL_URL="https://geo.mirror.pkgbuild.com/iso/latest/archlinux-bootstrap-x86_64.tar.zst"
+          VERSION="$(curl -qfsSL "https://archlinux.org/releng/releases/" | grep -oE '([0-9]{4}\.(0[1-9]|1[0-2])\.(0[1-9]|[12][0-9]|3[01]))' | sort -u | sort --version-sort | tail -n 1 | tr -d "[:space:]")" && export VERSION="${VERSION}"
+          aria2c "${DL_URL}" \
+          --split="16" --max-connection-per-server="16" --min-split-size="1M" \
+          --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+          --download-result="default" --allow-overwrite --out="./rootfs.tar.gz" 2>/dev/null
+          if [[ -f "./rootfs.tar.gz" ]] && [[ $(stat -c%s "./rootfs.tar.gz") -gt 1024 ]]; then
+             echo -e "[+] Version: ${VERSION}" > "./INFO.txt"
+             echo -e "\n[+] URL: ${DL_URL}" >> "./INFO.txt"
+             echo -e "\n[+] ChangeLog: https://archlinux.org/releng/releases/${VERSION}/" >> "./INFO.txt"
+             echo -e "\n[+] PKGLIST: https://geo.mirror.pkgbuild.com/iso/${VERSION}/arch/pkglist.x86_64.txt" >> "./INFO.txt"
+             mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
+             rclone sync "." "r2:/pub/utils/archlinux-x86_64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true
 
       - name: rClone Update Toolchains (x86_64-bootlin)
         run: |
