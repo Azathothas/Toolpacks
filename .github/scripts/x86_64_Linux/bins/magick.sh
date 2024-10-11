@@ -26,8 +26,16 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
      export SOURCE_URL="https://github.com/ImageMagick/ImageMagick"
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Fetch
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
        eval "${EGET_TIMEOUT}" eget "https://pkg.ajam.dev/$(uname -m)/magick.AppImage" --to "${BINDIR}/magick.no_strip"
        eval "${EGET_TIMEOUT}" eget "https://pkg.ajam.dev/$(uname -m)/magick.AppImage" --to "${BINDIR}/imagemagick.no_strip"
+       eval "${EGET_TIMEOUT}" eget "https://pkg.ajam.dev/$(uname -m)/magick.dwfs.AppBundle" --to "./magick_appbundle.no_strip"
+       chmod +x "./magick_appbundle.no_strip"
+       curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bin.default.png" -o "./bin.default.png"
+       if ! "./magick_appbundle.no_strip" identify "./bin.default.png" 2>&1 | grep -qi "error"; then
+         rsync -achLv "./magick_appbundle.no_strip" "${BINDIR}/magick_appbundle.no_strip"
+       fi
+       popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#
 

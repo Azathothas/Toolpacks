@@ -6,4 +6,5 @@ repo_url: "https://github.com/ImageMagick/ImageMagick"
 path: "/"
 bins:
   - "magick.no_strip"
+  - "magick_appbundle.no_strip"
   - "imagemagick.no_strip"
