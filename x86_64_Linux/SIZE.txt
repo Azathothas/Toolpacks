@@ -211,6 +211,7 @@
   18M   ├── exatorrent-noui
   18M   ├── rekor-cli
   18M   ├── ironrdp-client
+  18M   ├── rye
   18M   ├── gitpod
   18M   ├── podsync
   18M   ├── jira-cli
@@ -275,6 +276,7 @@
   13M   ├── czkawka-cli
   13M   ├── gdu
   13M   ├── stree
+  13M   ├── fyne
   13M   ├── jc
   13M   ├── opengfw
   13M   ├── hcloud
@@ -297,6 +299,7 @@
   12M   ├── mirrorbits
   12M   ├── apkeep
   12M   ├── rebuildctl
+  12M   ├── nfpm
   12M   ├── git-cliff
   12M   ├── containerd-shim-runc-v2
   12M   ├── aria2c
@@ -720,6 +723,7 @@
  3.9M   ├── qemu-mipsel-static
  3.9M   ├── pfetch-rs
  3.8M   ├── kanha
+ 3.8M   ├── handlr
  3.8M   ├── ripgen
  3.8M   ├── rage
  3.8M   ├── qemu-ppc64-static

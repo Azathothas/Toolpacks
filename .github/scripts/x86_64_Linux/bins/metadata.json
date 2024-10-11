@@ -96,7 +96,7 @@
   },
   {
     "name": "amp.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/amp.sh"
   },
   {
@@ -326,7 +326,7 @@
   },
   {
     "name": "bore.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bore.sh"
   },
   {
@@ -351,7 +351,7 @@
   },
   {
     "name": "bpftrace.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bpftrace.sh"
   },
   {
@@ -606,7 +606,7 @@
   },
   {
     "name": "coreutils-glibc.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/coreutils-glibc.sh"
   },
   {
@@ -756,7 +756,7 @@
   },
   {
     "name": "czkawka.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/czkawka.sh"
   },
   {
@@ -886,7 +886,7 @@
   },
   {
     "name": "dizi.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dizi.sh"
   },
   {
@@ -1021,7 +1021,7 @@
   },
   {
     "name": "eget2.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/eget2.sh"
   },
   {
@@ -1071,7 +1071,7 @@
   },
   {
     "name": "entropy.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/entropy.sh"
   },
   {
@@ -1126,7 +1126,7 @@
   },
   {
     "name": "fastfetch.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fastfetch.sh"
   },
   {
@@ -1221,7 +1221,7 @@
   },
   {
     "name": "fio.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fio.sh"
   },
   {
@@ -1283,6 +1283,11 @@
     "name": "fx.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fx.sh"
+  },
+  {
+    "name": "fyne.sh",
+    "update_date": "2024-10-11T14:50:01",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/fyne.sh"
   },
   {
     "name": "fzf.sh",
@@ -1436,7 +1441,7 @@
   },
   {
     "name": "gitlab-cli.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gitlab-cli.sh"
   },
   {
@@ -1481,7 +1486,7 @@
   },
   {
     "name": "go-audit.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/go-audit.sh"
   },
   {
@@ -1591,7 +1596,7 @@
   },
   {
     "name": "gost.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/gost.sh"
   },
   {
@@ -1703,6 +1708,11 @@
     "name": "halp.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/halp.sh"
+  },
+  {
+    "name": "handlr.sh",
+    "update_date": "2024-10-11T14:50:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/handlr.sh"
   },
   {
     "name": "hardeningmeter.sh",
@@ -1821,7 +1831,7 @@
   },
   {
     "name": "huggingface-cli.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/huggingface-cli.sh"
   },
   {
@@ -1861,12 +1871,12 @@
   },
   {
     "name": "imagemagick.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/imagemagick.sh"
   },
   {
     "name": "imgcat.sh",
-    "update_date": "2024-10-07T12:15:51",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/imgcat.sh"
   },
   {
@@ -1906,7 +1916,7 @@
   },
   {
     "name": "ipa-server.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ipa-server.sh"
   },
   {
@@ -2051,7 +2061,7 @@
   },
   {
     "name": "kakoune.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kakoune.sh"
   },
   {
@@ -2116,7 +2126,7 @@
   },
   {
     "name": "kubo.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/kubo.sh"
   },
   {
@@ -2206,7 +2216,7 @@
   },
   {
     "name": "lkl.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lkl.sh"
   },
   {
@@ -2295,6 +2305,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/maddy.sh"
   },
   {
+    "name": "magick.sh",
+    "update_date": "2024-10-11T14:50:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/magick.sh"
+  },
+  {
     "name": "mailpit.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mailpit.sh"
@@ -2381,7 +2396,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-09T00:38:20",
+    "update_date": "2024-10-09T03:28:52",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2431,7 +2446,7 @@
   },
   {
     "name": "mitmproxy.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/mitmproxy.sh"
   },
   {
@@ -2541,7 +2556,7 @@
   },
   {
     "name": "netexec.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/netexec.sh"
   },
   {
@@ -2573,6 +2588,11 @@
     "name": "nezha.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nezha.sh"
+  },
+  {
+    "name": "nfpm.sh",
+    "update_date": "2024-10-11T14:50:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nfpm.sh"
   },
   {
     "name": "nfs-utils.sh",
@@ -2671,7 +2691,7 @@
   },
   {
     "name": "nvme-cli.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/nvme-cli.sh"
   },
   {
@@ -2696,12 +2716,12 @@
   },
   {
     "name": "onioncat.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/onioncat.sh"
   },
   {
     "name": "onionpipe.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/onionpipe.sh"
   },
   {
@@ -2875,6 +2895,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pixi.sh"
   },
   {
+    "name": "pixterm.sh",
+    "update_date": "2024-10-11T14:50:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pixterm.sh"
+  },
+  {
     "name": "pkgtop.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/pkgtop.sh"
@@ -2956,7 +2981,7 @@
   },
   {
     "name": "proot.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/proot.sh"
   },
   {
@@ -3081,7 +3106,7 @@
   },
   {
     "name": "rclone.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rclone.sh"
   },
   {
@@ -3298,6 +3323,16 @@
     "name": "rustypaste.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rustypaste.sh"
+  },
+  {
+    "name": "rye.sh",
+    "update_date": "2024-10-11T14:50:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/rye.sh"
+  },
+  {
+    "name": "ryelang.sh",
+    "update_date": "2024-10-11T14:50:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ryelang.sh"
   },
   {
     "name": "s3scanner.sh",
@@ -3741,7 +3776,7 @@
   },
   {
     "name": "syncat.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/syncat.sh"
   },
   {
@@ -3796,7 +3831,7 @@
   },
   {
     "name": "taplo.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/taplo.sh"
   },
   {
@@ -3841,7 +3876,7 @@
   },
   {
     "name": "tget.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:01",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tget.sh"
   },
   {
@@ -3853,6 +3888,11 @@
     "name": "tidy-viewer.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tidy-viewer.sh"
+  },
+  {
+    "name": "timer.sh",
+    "update_date": "2024-10-11T14:50:02",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/timer.sh"
   },
   {
     "name": "tinja.sh",
@@ -3906,12 +3946,12 @@
   },
   {
     "name": "tor.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/tor.sh"
   },
   {
     "name": "toru.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/toru.sh"
   },
   {
@@ -3991,7 +4031,7 @@
   },
   {
     "name": "twingate.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/twingate.sh"
   },
   {
@@ -4056,12 +4096,12 @@
   },
   {
     "name": "unionfs-fuse.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/unionfs-fuse.sh"
   },
   {
     "name": "unionfs-fuse3.sh",
-    "update_date": "2024-10-08T11:45:05",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/unionfs-fuse3.sh"
   },
   {
@@ -4221,7 +4261,7 @@
   },
   {
     "name": "wget.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wget.sh"
   },
   {
@@ -4266,7 +4306,7 @@
   },
   {
     "name": "wormhole-rs.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wormhole-rs.sh"
   },
   {
@@ -4286,7 +4326,7 @@
   },
   {
     "name": "wush.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wush.sh"
   },
   {
@@ -4311,12 +4351,12 @@
   },
   {
     "name": "xdo.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xdo.sh"
   },
   {
     "name": "xdotool.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xdotool.sh"
   },
   {
@@ -4326,7 +4366,7 @@
   },
   {
     "name": "xhost.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/xhost.sh"
   },
   {

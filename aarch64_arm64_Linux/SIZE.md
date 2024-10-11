@@ -216,6 +216,7 @@
   15M   ├── hednsextractor
   15M   ├── findomain
   15M   ├── filebrowser
+  15M   ├── rye
   15M   ├── glow
   15M   ├── pgweb
   14M   ├── termshark
@@ -277,6 +278,7 @@
   12M   ├── mirrorbits
   11M   ├── containerd-shim-runc-v2
   11M   ├── netexec_dynamic
+  11M   ├── nfpm
   11M   ├── netscanner
   11M   ├── tssh
   11M   ├── micro
@@ -645,8 +647,8 @@
  4.1M   ├── minify
  4.1M   ├── tailspin
  4.1M   ├── fclones
+ 4.1M   ├── METADATA.AIO.yaml
  4.1M   ├── validtoml
- 4.0M   ├── METADATA.AIO.yaml
  4.0M   ├── dns-doctor
  4.0M   ├── cfspeedtest
  4.0M   ├── ppfuzz
@@ -724,6 +726,7 @@
  3.0M   ├── rage
  3.0M   ├── xcp
  3.0M   ├── kalker
+ 3.0M   ├── handlr
  3.0M   ├── qemu-hppa-static
  3.0M   ├── otree
  3.0M   ├── mosh-client

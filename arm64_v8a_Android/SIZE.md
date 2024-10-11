@@ -1,5 +1,5 @@
 ```mathematica
-225M └─┬ toolpack_arm64_v8a_Android
+226M └─┬ toolpack_arm64_v8a_Android
  81M   ├── rclone
  25M   ├── tailscale_combined
  23M   ├── tailscaled
@@ -26,6 +26,10 @@
 245K   ├── sudo
 229K   ├── wget_cacert.pem
 229K   ├── curl_cacert.pem
+182K   ├── jless.preview.png
 182K   ├── adig
-175K   └── ahost
+175K   ├── ahost
+ 69K   ├── curl.preview.png
+ 44K   ├── tailscale.preview.png
+ 38K   └── rclone.preview.png
 ```
