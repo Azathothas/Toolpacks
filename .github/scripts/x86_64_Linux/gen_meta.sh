@@ -214,6 +214,7 @@ if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
      rclone copy --checksum "${SYSTMP}/BIN_LOGS/." "r2:/bin/x86_64_Linux/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
     #Sync GH Meta 
      find "${SYSTMP}/GH_TMP" -type f -size -3c -delete 2>/dev/null
+     find "${SYSTMP}/GH_TMP/" -type f -name "*.png" -exec magick "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "{}" \;
      rclone copy --checksum "${SYSTMP}/GH_TMP/." "r2:/bin/x86_64_Linux/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
     #Sync TLDR
      find "${SYSTMP}/TLDR" -type f -size -3c -delete 2>/dev/null
