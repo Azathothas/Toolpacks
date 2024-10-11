@@ -214,9 +214,13 @@ if jq --exit-status . "$TMPDIR/METADATA.json.bak" >/dev/null 2>&1; then
      find "${SYSTMP}/BIN_LOGS" -type f -size -3c -delete 2>/dev/null
      rclone copy --checksum "${SYSTMP}/BIN_LOGS/." "r2:/bin/x64_Windows/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
     #Sync GH Meta 
+     curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/refs/heads/main/.github/assets/base.png" -o "${SYSTMP}/GH_TMP/base.default.png"
+     curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/refs/heads/main/.github/assets/bin.png" -o "${SYSTMP}/GH_TMP/bin.default.png"
+     curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/refs/heads/main/.github/assets/pkg.png" -o "${SYSTMP}/GH_TMP/pkg.default.png"
      find "${SYSTMP}/GH_TMP" -type f -size -3c -delete 2>/dev/null
-     find "${SYSTMP}/GH_TMP/" -type f -name "*.png" -exec magick "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "{}" \;
+     find "${SYSTMP}/GH_TMP/" -type f -name "*.png" -exec magick "{}" -background "none" -density "1000" -resize "512x512" -gravity "center" -extent "512x512" -verbose "{}" \;
      rclone copy --checksum "${SYSTMP}/GH_TMP/." "r2:/bin/x64_Windows/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
+     rclone copyto --checksum "${SYSTMP}/GH_TMP/bin.default.png" "r2:/bin/x64_Windows/bin.default.png" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
     #Sync TLDR
      find "${SYSTMP}/TLDR" -type f -size -3c -delete 2>/dev/null
      rclone copy --checksum "${SYSTMP}/TLDR/." "r2:/bin/x64_Windows/" --check-first --checkers 2000 --transfers 1000 --retries="10" --user-agent="$USER_AGENT"
