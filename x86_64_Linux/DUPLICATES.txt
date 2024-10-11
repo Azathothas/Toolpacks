@@ -141,6 +141,19 @@ REPO: https://github.com/userdocs/iperf3-static
 Web URL: https://github.com/userdocs/iperf3-static
 
 ---------------------
+Name: imagemagick.no_strip
+DESCR: FOSS suite for editing and manipulating Digital Images & Files
+Download URL: https://bin.ajam.dev/x86_64_Linux/imagemagick.no_strip
+REPO: https://github.com/ImageMagick/ImageMagick
+Web URL: https://imagemagick.org
+
+Name: magick.no_strip
+DESCR: FOSS suite for editing and manipulating Digital Images & Files
+Download URL: https://bin.ajam.dev/x86_64_Linux/magick.no_strip
+REPO: https://github.com/ImageMagick/ImageMagick
+Web URL: https://imagemagick.org
+
+---------------------
 Name: elinks
 DESCR: Full-Featured Text WWW Browser
 Download URL: https://bin.ajam.dev/x86_64_Linux/elinks
