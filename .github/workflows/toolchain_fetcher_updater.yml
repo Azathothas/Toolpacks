@@ -101,7 +101,8 @@ jobs:
              echo -e "\n[+] ChangeLog:" >> "./INFO.txt"
              curl -qfsSL "https://dl-cdn.alpinelinux.org/alpine/v$(echo "${VERSION%.*}")/releases/aarch64/latest-releases.yaml" | yj -yj | jq '.[] | select(.title | test("mini.*root.*filesystem"; "i"))' | sed 's/\\n/ /g' | jq -r '. | to_entries[] | "\(.key): \(.value)"' >> "./INFO.txt"
              mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
-             rclone sync "." "r2:/pub/utils/alpine-mini-aarch64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+             rm -rfv "./rootfs/var/run" 2>/dev/null ; touch "./rootfs/var/run"
+             rclone sync "." "r2:/pub/utils/alpine-mini-aarch64/" --create-empty-src-dirs --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd >/dev/null 2>&1
         continue-on-error: true
@@ -122,7 +123,8 @@ jobs:
              echo -e "[+] Version: ${VERSION}" > "./INFO.txt"
              echo -e "\n[+] URL: ${DL_URL}" >> "./INFO.txt"
              mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
-             rclone sync "." "r2:/pub/utils/archlinuxarm-aarch64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+             rm -rfv "./rootfs/var/run" 2>/dev/null ; touch "./rootfs/var/run"
+             rclone sync "." "r2:/pub/utils/archlinuxarm-aarch64/" --create-empty-src-dirs --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd >/dev/null 2>&1
         continue-on-error: true
@@ -377,7 +379,8 @@ jobs:
              echo -e "\n[+] ChangeLog:" >> "./INFO.txt"
              curl -qfsSL "https://dl-cdn.alpinelinux.org/alpine/v$(echo "${VERSION%.*}")/releases/x86_64/latest-releases.yaml" | yj -yj | jq '.[] | select(.title | test("mini.*root.*filesystem"; "i"))' | sed 's/\\n/ /g' | jq -r '. | to_entries[] | "\(.key): \(.value)"' >> "./INFO.txt"
              mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
-             rclone sync "." "r2:/pub/utils/alpine-mini-x86_64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+             rm -rfv "./rootfs/var/run" 2>/dev/null ; touch "./rootfs/var/run"
+             rclone sync "." "r2:/pub/utils/alpine-mini-x86_64/" --create-empty-src-dirs --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd >/dev/null 2>&1
         continue-on-error: true
@@ -400,7 +403,8 @@ jobs:
              echo -e "\n[+] ChangeLog: https://archlinux.org/releng/releases/${VERSION}/" >> "./INFO.txt"
              echo -e "\n[+] PKGLIST: https://geo.mirror.pkgbuild.com/iso/${VERSION}/arch/pkglist.x86_64.txt" >> "./INFO.txt"
              mkdir -p "./rootfs" && bsdtar -x -f "./rootfs.tar.gz" -p -C "./rootfs" 2>/dev/null
-             rclone sync "." "r2:/pub/utils/archlinux-x86_64/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
+             rm -rfv "./rootfs/var/run" 2>/dev/null ; touch "./rootfs/var/run"
+             rclone sync "." "r2:/pub/utils/archlinux-x86_64/" --create-empty-src-dirs --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress 2>/dev/null
           fi
           popd >/dev/null 2>&1
         continue-on-error: true
