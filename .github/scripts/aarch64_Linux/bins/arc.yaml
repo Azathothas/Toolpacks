@@ -1,0 +1,8 @@
+name: "arc"
+description: "Tiny package manager for Linux"
+note: ""
+web_url: "https://avs-origami.github.io/projects/arc/"
+repo_url: "https://github.com/avs-origami/arc"
+path: "/"
+bins:
+  - "arc"
