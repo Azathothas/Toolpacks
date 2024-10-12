@@ -33,6 +33,8 @@
   61M   ├── loki
   61M   ├── void-glibc.no_strip
   60M   ├── amazonlinux.no_strip
+  60M   ├── magick.no_strip
+  60M   ├── imagemagick.no_strip
   59M   ├── debian.no_strip
   58M   ├── wtfutil
   58M   ├── wtf
@@ -184,6 +186,7 @@
   19M   ├── jj
   18M   ├── gickup
   18M   ├── mailpit
+  18M   ├── magick_appbundle.no_strip
   18M   ├── brook
   18M   ├── gosec
   18M   ├── luet
@@ -216,6 +219,7 @@
   15M   ├── hednsextractor
   15M   ├── findomain
   15M   ├── filebrowser
+  15M   ├── rye
   15M   ├── glow
   15M   ├── pgweb
   14M   ├── termshark
@@ -253,6 +257,8 @@
   13M   ├── zerotier-cli
   13M   ├── reviewdog
   13M   ├── garm-cli
+  13M   ├── ryelang
+  12M   ├── fyne
   12M   ├── jc
   12M   ├── gdu
   12M   ├── tailscale
@@ -277,6 +283,7 @@
   12M   ├── mirrorbits
   11M   ├── containerd-shim-runc-v2
   11M   ├── netexec_dynamic
+  11M   ├── nfpm
   11M   ├── netscanner
   11M   ├── tssh
   11M   ├── micro
@@ -486,6 +493,7 @@
  6.2M   ├── xplr
  6.2M   ├── trip
  6.2M   ├── cobalt-cli
+ 6.2M   ├── pixterm
  6.2M   ├── bigdl
  6.2M   ├── cherrybomb
  6.1M   ├── go-simplehttpserver
@@ -622,6 +630,7 @@
  4.3M   ├── tahm
  4.3M   ├── knoxssme
  4.3M   ├── bbtargets
+ 4.3M   ├── timer
  4.3M   ├── qemu-riscv64-static
  4.3M   ├── mcfly
  4.2M   ├── qemu-riscv32-static
@@ -646,11 +655,9 @@
  4.1M   ├── tailspin
  4.1M   ├── fclones
  4.1M   ├── validtoml
- 4.0M   ├── METADATA.AIO.yaml
  4.0M   ├── dns-doctor
  4.0M   ├── cfspeedtest
  4.0M   ├── ppfuzz
- 4.0M   ├── METADATA.AIO.toml
  4.0M   ├── qemu-mipsn32el-static
  4.0M   ├── qemu-mipsn32-static
  4.0M   ├── qemu-mips64el-static
@@ -724,6 +731,7 @@
  3.0M   ├── rage
  3.0M   ├── xcp
  3.0M   ├── kalker
+ 3.0M   ├── handlr
  3.0M   ├── qemu-hppa-static
  3.0M   ├── otree
  3.0M   ├── mosh-client
@@ -758,6 +766,8 @@
  2.8M   ├── wireguard-go
  2.8M   ├── git-sizer
  2.8M   ├── smartdns
+ 2.8M   ├── METADATA.AIO.yaml
+ 2.8M   ├── METADATA.AIO.toml
  2.7M   ├── rust-parallel
  2.7M   ├── gs-netcat
  2.7M   ├── jobs

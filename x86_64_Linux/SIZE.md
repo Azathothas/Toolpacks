@@ -35,6 +35,8 @@
   66M   ├── eweos.no_strip
   65M   ├── almalinux.no_strip
   65M   ├── dockerc
+  62M   ├── magick.no_strip
+  62M   ├── imagemagick.no_strip
   61M   ├── ipfs
   61M   ├── rockylinux.no_strip
   60M   ├── dockerd
@@ -202,6 +204,7 @@
   19M   ├── huggingface-cli
   19M   ├── hf-cli
   19M   ├── brook
+  19M   ├── magick_appbundle.no_strip
   19M   ├── luet
   19M   ├── gosec
   19M   ├── gum
@@ -212,6 +215,7 @@
   18M   ├── exatorrent-noui
   18M   ├── rekor-cli
   18M   ├── ironrdp-client
+  18M   ├── rye
   18M   ├── gitpod
   18M   ├── podsync
   18M   ├── jira-cli
@@ -275,7 +279,9 @@
   13M   ├── czkawka_cli
   13M   ├── czkawka-cli
   13M   ├── gdu
+  13M   ├── ryelang
   13M   ├── stree
+  13M   ├── fyne
   13M   ├── jc
   13M   ├── opengfw
   13M   ├── hcloud
@@ -298,6 +304,7 @@
   12M   ├── mirrorbits
   12M   ├── apkeep
   12M   ├── rebuildctl
+  12M   ├── nfpm
   12M   ├── git-cliff
   12M   ├── containerd-shim-runc-v2
   12M   ├── aria2c
@@ -516,6 +523,7 @@
  6.5M   ├── rga
  6.5M   ├── xplr
  6.5M   ├── cobalt-cli
+ 6.5M   ├── pixterm
  6.5M   ├── bigdl
  6.4M   ├── go-simplehttpserver
  6.4M   ├── volta
@@ -677,6 +685,7 @@
  4.4M   ├── heacoll
  4.4M   ├── chainredir
  4.4M   ├── ouch
+ 4.4M   ├── timer
  4.4M   ├── tun2proxy
  4.3M   ├── onetun
  4.3M   ├── axel
@@ -693,10 +702,8 @@
  4.1M   ├── tokei
  4.1M   ├── intermodal
  4.1M   ├── imdl
- 4.1M   ├── METADATA.AIO.yaml
  4.1M   ├── qemu-riscv32-static
  4.1M   ├── dns-doctor
- 4.1M   ├── METADATA.AIO.toml
  4.1M   ├── ox
  4.1M   ├── hwatch
  4.1M   ├── ssh-add
@@ -721,6 +728,7 @@
  3.9M   ├── qemu-mipsel-static
  3.9M   ├── pfetch-rs
  3.8M   ├── kanha
+ 3.8M   ├── handlr
  3.8M   ├── ripgen
  3.8M   ├── rage
  3.8M   ├── qemu-ppc64-static
@@ -743,9 +751,11 @@
  3.6M   ├── pelfd
  3.6M   ├── lsd
  3.6M   ├── fzf
+ 3.6M   ├── METADATA.AIO.yaml
  3.6M   ├── hcxpsktool
  3.6M   ├── pspy
  3.6M   ├── 7z
+ 3.6M   ├── METADATA.AIO.toml
  3.5M   ├── age
  3.5M   ├── hcxpmktool
  3.5M   ├── bandwhich
@@ -965,17 +975,14 @@
  1.0M   ├── bash
  1.0M   ├── grep
  1.0M   ├── awk
- 987K   ├── husarnet.preview.png
  973K   ├── svg-hush
  972K   ├── cargo-unlock
  963K   ├── xdotool
  946K   ├── hexyl
  946K   ├── csview
  934K   ├── xhost
- 909K   ├── yazi.preview.png
  905K   ├── hx
  893K   ├── catp
- 891K   ├── ngocok.preview.png
  876K   ├── anew-rs
  868K   ├── tok.preview.png
  868K   ├── subxtract.preview.png
@@ -992,17 +999,10 @@
  868K   ├── certstream.preview.png
  853K   ├── zt-hashes
  838K   ├── anewer
- 793K   ├── sshx.preview.png
- 753K   ├── hysp.preview.png
  738K   ├── toybox
- 709K   ├── caddy.preview.png
- 696K   ├── gh.preview.png
  692K   ├── docker-init
- 675K   ├── htb-cli.preview.png
  673K   ├── squashfuse_ll
  669K   ├── squashfuse
- 645K   ├── starship.preview.png
- 643K   ├── ockam.preview.png
  615K   ├── htop
  606K   ├── whois
  597K   ├── elfcat
@@ -1011,13 +1011,10 @@
  577K   ├── filan
  573K   ├── procan
  566K   ├── cvtsudoers
- 564K   ├── gosmee.preview.png
- 557K   ├── dagu.preview.png
  551K   ├── neofetch
  550K   ├── upx
  544K   ├── dropbearmulti
  538K   ├── zt-encodings
- 530K   ├── pixi.preview.png
  522K   ├── iotop-c
  522K   ├── iotop
  512K   ├── mkappimage
@@ -1026,24 +1023,31 @@
  493K   ├── mtr
  490K   ├── unifetch
  489K   ├── masscan
- 479K   ├── intermodal.preview.png
- 478K   ├── ov.preview.png
  478K   ├── generate-bidi
  473K   ├── visudo
  462K   ├── shellharden
  459K   ├── dropbear
- 452K   ├── devpod.preview.png
  446K   ├── sbase-box
  446K   ├── mount.fuse3
  444K   ├── loksh
  439K   ├── oksh
+ 415K   ├── tok.preview-3.png
+ 415K   ├── subxtract.preview-3.png
+ 415K   ├── scopeview.preview-3.png
+ 415K   ├── scopegen.preview-3.png
+ 415K   ├── resdns.preview-3.png
+ 415K   ├── rate-limit-checker.preview-3.png
+ 415K   ├── quotes-escaper.preview-3.png
+ 415K   ├── inscope.preview-3.png
+ 415K   ├── getJS.preview-3.png
+ 415K   ├── fget.preview-3.png
+ 415K   ├── cutlines.preview-3.png
+ 415K   ├── comb.preview-3.png
+ 415K   ├── certstream.preview-3.png
  411K   ├── dbclient
  402K   ├── sadf
  401K   ├── smenu
- 397K   ├── traefik.preview.png
  394K   ├── nnn
- 373K   ├── realm-tavern.preview.png
- 369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
  363K   ├── find
  362K   ├── scp
@@ -1051,263 +1055,339 @@
  352K   ├── sudoreplay
  350K   ├── logrotate
  350K   ├── fi6s
- 336K   ├── ppfuzz.preview.png
- 322K   ├── berty.preview.png
+ 322K   ├── tok.preview-4.png
+ 322K   ├── subxtract.preview-4.png
+ 322K   ├── scopeview.preview-4.png
+ 322K   ├── scopegen.preview-4.png
+ 322K   ├── resdns.preview-4.png
+ 322K   ├── rate-limit-checker.preview-4.png
+ 322K   ├── quotes-escaper.preview-4.png
+ 322K   ├── inscope.preview-4.png
+ 322K   ├── getJS.preview-4.png
+ 322K   ├── fget.preview-4.png
+ 322K   ├── cutlines.preview-4.png
+ 322K   ├── comb.preview-4.png
+ 322K   ├── certstream.preview-4.png
+ 320K   ├── tok.preview-2.png
+ 320K   ├── subxtract.preview-2.png
+ 320K   ├── scopeview.preview-2.png
+ 320K   ├── scopegen.preview-2.png
+ 320K   ├── resdns.preview-2.png
+ 320K   ├── rate-limit-checker.preview-2.png
+ 320K   ├── quotes-escaper.preview-2.png
+ 320K   ├── inscope.preview-2.png
+ 320K   ├── getJS.preview-2.png
+ 320K   ├── fget.preview-2.png
+ 320K   ├── cutlines.preview-2.png
+ 320K   ├── comb.preview-2.png
+ 320K   ├── certstream.preview-2.png
  315K   ├── lsof
+ 314K   ├── tok.preview-1.png
+ 314K   ├── subxtract.preview-1.png
+ 314K   ├── scopeview.preview-1.png
+ 314K   ├── scopegen.preview-1.png
+ 314K   ├── resdns.preview-1.png
+ 314K   ├── rate-limit-checker.preview-1.png
+ 314K   ├── quotes-escaper.preview-1.png
+ 314K   ├── inscope.preview-1.png
+ 314K   ├── getJS.preview-1.png
+ 314K   ├── fget.preview-1.png
+ 314K   ├── cutlines.preview-1.png
+ 314K   ├── comb.preview-1.png
+ 314K   ├── certstream.preview-1.png
  311K   ├── pv
- 308K   ├── gh-dash.preview.png
- 305K   ├── gum.preview.png
  303K   ├── mdp
+ 290K   ├── intermodal.preview.png
  288K   ├── region_restriction_check.sh
- 282K   ├── pdfcpu.preview.png
- 278K   ├── freeze.preview.png
- 274K   ├── viddy.preview.png
  274K   ├── doas
- 269K   ├── vhs.preview.png
- 269K   ├── jc.preview.png
  266K   ├── pigz
  266K   ├── sftp-server
- 261K   ├── flawz.preview.png
+ 263K   ├── yazi.preview.png
  259K   ├── mawk
- 255K   ├── mubeng.preview.png
  253K   ├── screenfetch
- 251K   ├── meli.preview.png
- 243K   ├── lorien.preview.png
  242K   ├── sed
  242K   ├── dropbearkey
  241K   ├── albafetch
- 240K   ├── rattler-build.preview.png
- 238K   ├── udpx.preview.png
  238K   ├── dropbearconvert
- 236K   ├── planor.preview.png
  234K   ├── minisign
  233K   ├── proot
- 232K   ├── netexec.preview.png
- 231K   ├── glow.preview.png
- 220K   ├── ppsspp.preview.png
- 218K   ├── soft-serve.preview.png
+ 233K   ├── ngocok.preview.png
+ 232K   ├── jwt-hack.preview.png
+ 215K   ├── dagu.preview.png
+ 212K   ├── dalfox.preview.png
+ 211K   ├── imhex.preview.png
  208K   ├── nfs-cp
  207K   ├── nfs-ls
  206K   ├── sar
  204K   ├── nfs-stat
  204K   ├── asn
+ 199K   ├── tok.preview-0.png
+ 199K   ├── subxtract.preview-0.png
+ 199K   ├── scopeview.preview-0.png
+ 199K   ├── scopegen.preview-0.png
+ 199K   ├── resdns.preview-0.png
+ 199K   ├── rate-limit-checker.preview-0.png
+ 199K   ├── quotes-escaper.preview-0.png
+ 199K   ├── inscope.preview-0.png
+ 199K   ├── getJS.preview-0.png
+ 199K   ├── fget.preview-0.png
+ 199K   ├── cutlines.preview-0.png
+ 199K   ├── comb.preview-0.png
+ 199K   ├── certstream.preview-0.png
  198K   ├── nfs-cat
+ 195K   ├── hysp.preview.png
  194K   ├── xdo
  193K   ├── netstat
- 193K   ├── dalfox.preview.png
  192K   ├── linuxwave
- 188K   ├── yabs.sh.preview.png
- 187K   ├── rescope.preview.png
+ 189K   ├── ov.preview.png
  184K   ├── cpufetch
- 184K   ├── trufflehog.preview.png
  184K   ├── onioncat
  184K   ├── ocat
- 184K   ├── haylxon.preview.png
  183K   ├── ping
- 182K   ├── jless.preview.png
+ 179K   ├── miller.preview.png
  178K   ├── hcxdumptool
- 177K   ├── fq.preview.png
  171K   ├── numactl
+ 171K   ├── gosmee.preview.png
  170K   ├── numademo
- 169K   ├── gpg-tui.preview.png
+ 169K   ├── htb-cli.preview.png
  162K   ├── bwrap
  162K   ├── bubblewrap
- 158K   ├── k9s.preview.png
+ 161K   ├── devpod.preview.png
  154K   ├── migspeed
+ 154K   ├── gitea.preview.png
  150K   ├── migratepages
  150K   ├── memhog
  150K   ├── mkpasswd
- 149K   ├── asn.preview.png
- 149K   ├── sshportal.preview.png
- 149K   ├── assh.preview.png
- 143K   ├── qsv.preview.png
- 143K   ├── gitoxide.preview.png
- 142K   ├── step.preview.png
- 141K   ├── grex.preview.png
- 140K   ├── qbittorrent-nox.preview.png
- 140K   ├── jwt-hack.preview.png
+ 149K   ├── meli.preview.png
+ 149K   ├── goaccess.preview.png
+ 147K   ├── qbittorrent-nox.preview.png
+ 141K   ├── btop.preview.png
  138K   ├── pidstat
  138K   ├── ifrename
- 136K   ├── xplr.preview.png
- 134K   ├── zellij.preview.png
- 134K   ├── lazydocker.preview.png
- 132K   ├── noseyparker.preview.png
- 132K   ├── mantra.preview.png
  130K   ├── wg
- 129K   ├── gdu.preview.png
- 128K   ├── systeroid.preview.png
  128K   ├── rust-hypervisor-firmware
- 128K   ├── istio.preview.png
  128K   ├── hypervisor-fw
+ 127K   ├── ppfuzz.preview.png
  126K   ├── ipt2socks
- 124K   ├── osmedeus.preview.png
- 123K   ├── duf.preview.png
- 123K   ├── watchexec.preview.png
  122K   ├── xargs
- 122K   ├── shell2http.preview.png
  122K   ├── iwlist
- 121K   ├── pgrok.preview.png
  120K   ├── sadc
- 119K   ├── gitea.preview.png
- 118K   ├── archey.preview.png
- 115K   ├── binocle.preview.png
- 115K   ├── btop.preview.png
+ 119K   ├── hakrawler.preview.png
+ 119K   ├── gh.preview.png
+ 116K   ├── lorien.preview.png
+ 115K   ├── asn.preview.png
  114K   ├── iwconfig
  111K   ├── tapestat
  110K   ├── massdns
  110K   ├── cron
  110K   ├── iwgetid
  110K   ├── iwevent
- 105K   ├── daktilo.preview.png
+ 110K   ├── hugo.preview.png
+ 108K   ├── duf.preview.png
+ 107K   ├── udpx.preview.png
+ 107K   ├── eza.preview.png
+ 107K   ├── xplr.preview.png
  104K   ├── cronie-crond
- 103K   ├── dnstake.preview.png
  102K   ├── iwspy
  102K   ├── iwpriv
  102K   ├── iostat
- 102K   ├── cmd-wrapped.preview.png
  102K   ├── clockdiff
  102K   ├── arping
-  99K   ├── gitpod-cli.preview.png
+ 101K   ├── flawz.preview.png
+ 101K   ├── zellij.preview.png
   98K   ├── crontab
   98K   ├── unix2mac
   98K   ├── unix2dos
   98K   ├── mac2unix
   98K   ├── fusermount3
   98K   ├── dos2unix
-  97K   ├── termshark.preview.png
-  97K   ├── listmonk.preview.png
-  94K   ├── imhex.preview.png
+  97K   ├── berty.preview.png
+  97K   ├── sshx.preview.png
+  96K   ├── planor.preview.png
   94K   ├── darkhttpd
+  93K   ├── gh-dash.preview.png
   93K   ├── mpstat
-  92K   ├── mdcat.preview.png
+  92K   ├── fq.preview.png
   91K   ├── shc
-  91K   ├── git-cliff.preview.png
-  90K   ├── steampipe.preview.png
+  90K   ├── viddy.preview.png
   89K   ├── cronie-crontab
-  87K   ├── runst.preview.png
+  88K   ├── gitpod-cli.preview.png
   87K   ├── numastat
-  85K   ├── kubo.preview.png
-  83K   ├── yggdrasil.preview.png
-  82K   ├── algernon.preview.png
+  87K   ├── noseyparker.preview.png
+  83K   ├── sshportal.preview.png
+  83K   ├── assh.preview.png
+  82K   ├── mubeng.preview.png
+  82K   ├── croc.preview.png
+  82K   ├── trufflehog.preview.png
   82K   ├── tracepath
   82K   ├── libtree
-  81K   ├── reviewdog.preview.png
-  81K   ├── albafetch.preview.png
-  81K   ├── vtm.preview.png
-  80K   ├── smartdns.preview.png
-  79K   ├── macchina.preview.png
-  77K   ├── revive.preview.png
+  82K   ├── gum.preview.png
+  80K   ├── gdu.preview.png
   77K   ├── reptyr
+  76K   ├── step.preview.png
+  75K   ├── starship.preview.png
   75K   ├── cronie-cronnext
-  75K   ├── arduino-cli.preview.png
+  75K   ├── cloudfox.preview.png
   74K   ├── mtr-packet
+  73K   ├── vhs.preview.png
   73K   ├── pwait
   73K   ├── dropbearscp
-  72K   ├── hugo.preview.png
+  73K   ├── cocogitto.preview.png
+  73K   ├── caddy.preview.png
+  71K   ├── netexec.preview.png
+  71K   ├── qsv.preview.png
   70K   ├── hcxhash2cap
   70K   ├── entr
-  69K   ├── rage.preview.png
   69K   ├── bin2video
-  69K   ├── cocogitto.preview.png
-  68K   ├── age.preview.png
+  69K   ├── albafetch.preview.png
+  69K   ├── watchexec.preview.png
+  69K   ├── rattler-build.preview.png
+  68K   ├── hacker-scoper.preview.png
   68K   ├── zapper
-  67K   ├── sn0int.preview.png
-  67K   ├── hacker-scoper.preview.png
+  68K   ├── glow.preview.png
+  67K   ├── tut.preview.png
   67K   ├── cifsiostat
+  67K   ├── pixi.preview.png
+  67K   ├── husarnet.preview.png
   66K   ├── binfetch
   66K   ├── zapper-stealth
-  66K   ├── oha.preview.png
-  65K   ├── hakrawler.preview.png
-  63K   ├── jaeles.preview.png
-  62K   ├── z-tokens.preview.png
-  62K   ├── tut.preview.png
-  62K   ├── libtree.preview.png
+  66K   ├── lazydocker.preview.png
+  64K   ├── libtree.preview.png
+  63K   ├── ppsspp.preview.png
+  63K   ├── pdfcpu.preview.png
+  63K   ├── haylxon.preview.png
   61K   ├── zoxide.preview.png
-  58K   ├── batcat.preview.png
+  60K   ├── jaeles.preview.png
+  60K   ├── algernon.preview.png
+  59K   ├── soft-serve.preview.png
+  59K   ├── hyperfine.preview.png
   57K   ├── gguf-tools
+  57K   ├── traefik.preview.png
+  57K   ├── massdns.preview.png
   57K   ├── joker
-  57K   ├── amass.preview.png
-  56K   ├── cloudfox.preview.png
-  55K   ├── huggingface-cli.preview.png
-  55K   ├── cherrybomb.preview.png
+  56K   ├── gitoxide.preview.png
+  55K   ├── freeze.preview.png
+  55K   ├── pfetch-rs.preview.png
+  55K   ├── k9s.preview.png
+  54K   ├── mdcat.preview.png
   54K   ├── podsync.preview.png
-  52K   ├── miller.preview.png
-  51K   ├── redguard.preview.png
-  50K   ├── vopono.preview.png
-  50K   ├── noir.preview.png
-  50K   ├── dvc.preview.png
+  52K   ├── oha.preview.png
+  52K   ├── yabs.sh.preview.png
+  51K   ├── systeroid.preview.png
+  51K   ├── gpg-tui.preview.png
+  50K   ├── jless.preview.png
   50K   ├── hcxwltool
-  49K   ├── circumflex.preview.png
-  48K   ├── resto.preview.png
-  48K   ├── pfetch-rs.preview.png
-  47K   ├── rathole.preview.png
-  47K   ├── massdns.preview.png
-  46K   ├── hexyl.preview.png
+  49K   ├── binocle.preview.png
+  46K   ├── proot.preview.png
+  46K   ├── listmonk.preview.png
+  46K   ├── rage.preview.png
   46K   ├── hcxeiutool
+  45K   ├── miniserve.preview.png
+  45K   ├── smartdns.preview.png
   44K   ├── yabs.sh
-  44K   ├── tailscale.preview.png
-  43K   ├── stree.preview.png
-  42K   ├── fx.preview.png
-  42K   ├── miniserve.preview.png
-  41K   ├── fzf.preview.png
+  43K   ├── redguard.preview.png
+  43K   ├── fzf.preview.png
+  42K   ├── git-cliff.preview.png
+  42K   ├── daktilo.preview.png
+  41K   ├── puredns.preview.png
+  41K   ├── osmedeus.preview.png
+  41K   ├── aggligator.preview.png
+  40K   ├── steampipe.preview.png
+  40K   ├── pkg.default.png
   40K   ├── jsmug
-  39K   ├── kitty.preview.png
-  39K   ├── gowitness.preview.png
-  38K   ├── rclone.preview.png
-  37K   ├── v2raya.preview.png
-  37K   ├── hyperfine.preview.png
-  36K   ├── pls.preview.png
-  36K   ├── micro.preview.png
-  36K   ├── dbeaver.preview.png
+  39K   ├── termshark.preview.png
+  38K   ├── runst.preview.png
+  38K   ├── vtm.preview.png
+  37K   ├── grex.preview.png
+  37K   ├── base.default.png
+  37K   ├── cherrybomb.preview.png
+  36K   ├── ockam.preview.png
+  36K   ├── mantra.preview.png
+  35K   ├── z-tokens.preview.png
   35K   ├── sshpass
-  35K   ├── puredns.preview.png
   35K   ├── pipetty
-  35K   ├── broot.preview.png
-  33K   ├── fnm.preview.png
+  34K   ├── yggdrasil.preview.png
+  34K   ├── findomain.preview.png
+  34K   ├── bandwhich.preview.png
+  34K   ├── rescope.preview.png
+  34K   ├── realm-tavern.preview.png
+  33K   ├── archey.preview.png
+  33K   ├── reviewdog.preview.png
+  33K   ├── jc.preview.png
   33K   ├── ansi2html
+  32K   ├── gowitness.preview.png
+  32K   ├── shell2http.preview.png
+  31K   ├── revive.preview.png
   31K   ├── nezha-install.sh
   29K   ├── rustscan.preview.png
-  27K   ├── aggligator.preview.png
-  26K   ├── tidy-viewer.preview.png
-  26K   ├── smap.preview.png
+  28K   ├── resto.preview.png
+  28K   ├── macchina.preview.png
+  27K   ├── zoxide.preview-1.png
+  27K   ├── zoxide.preview-0.png
+  27K   ├── sn0int.preview.png
+  27K   ├── rathole.preview.png
+  27K   ├── pls.preview.png
+  26K   ├── cmd-wrapped.preview.png
   26K   ├── apk.sh
-  25K   ├── czkawka.preview.png
-  24K   ├── goaccess.preview.png
-  24K   ├── certstream-server-go.preview.png
+  26K   ├── vopono.preview.png
+  26K   ├── kubo.preview.png
+  25K   ├── broot.preview.png
+  25K   ├── batcat.preview.png
+  24K   ├── v2raya.preview.png
+  24K   ├── pgrok.preview.png
   23K   ├── prettyping
   23K   ├── try
+  23K   ├── rclone.preview.png
   22K   ├── ani-cli
-  21K   ├── txeh.preview.png
-  20K   ├── findomain.preview.png
+  22K   ├── hexyl.preview.png
+  21K   ├── age.preview.png
+  21K   ├── huggingface-cli.preview.png
+  21K   ├── encrypted-dns-server.preview.png
+  20K   ├── smap.preview.png
+  20K   ├── kitty.preview.png
+  20K   ├── dbeaver.preview.png
   19K   ├── pelf
-  19K   ├── bandwhich.preview.png
+  19K   ├── bin.default.png
+  19K   ├── yt-dlp.preview.png
   19K   ├── ttyrec2ansi
   19K   ├── serverstatus-status.sh
-  18K   ├── gitui.preview.png
+  18K   ├── certstream-server-go.preview.png
+  18K   ├── dnstake.preview.png
   17K   ├── resdns
-  17K   ├── gsocket.preview.png
+  17K   ├── fnm.preview.png
   17K   ├── bdl.sh
-  16K   ├── feroxbuster.preview.png
-  16K   ├── dotenv-linter.preview.png
-  16K   ├── cut-cdn.preview.png
+  16K   ├── stree.preview.png
+  16K   ├── dvc.preview.png
+  15K   ├── czkawka.preview.png
+  15K   ├── gsocket.preview.png
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
-  14K   ├── croc.preview.png
+  14K   ├── noir.preview.png
+  14K   ├── micro.preview.png
+  14K   ├── arduino-cli.preview.png
+  14K   ├── amass.preview.png
+  14K   ├── txeh.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
-  11K   ├── yt-dlp.preview.png
+  13K   ├── istio.preview.png
+  13K   ├── gitui.preview.png
+  13K   ├── dotenv-linter.preview.png
+  12K   ├── tailscale.preview.png
+  12K   ├── cut-cdn.preview.png
+  11K   ├── tidy-viewer.preview.png
   11K   ├── lsix
-  11K   ├── tailspin.preview.png
-  11K   ├── nicotine-plus.preview.png
- 8.5K   ├── proot.preview.png
+  11K   ├── circumflex.preview.png
+  10K   ├── nicotine-plus.preview.png
+ 9.5K   ├── fx.preview.png
+ 9.0K   ├── tailspin.preview.png
  8.5K   ├── halp.preview.png
  7.5K   ├── sk-tmux
  7.5K   ├── dockerd-rootless.sh
- 6.5K   ├── kmon.preview.png
+ 7.0K   ├── feroxbuster.preview.png
  6.0K   ├── ansi2txt
  5.5K   ├── rsync-ssl
  5.5K   ├── gsocket
- 5.5K   ├── encrypted-dns-server.preview.png
+ 4.5K   ├── kmon.preview.png
  4.0K   ├── subxtract.sh
  3.5K   ├── sshd_config
  2.5K   ├── scopeview

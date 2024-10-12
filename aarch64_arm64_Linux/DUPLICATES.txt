@@ -1,3 +1,16 @@
+Name: imagemagick.no_strip
+DESCR: FOSS suite for editing and manipulating Digital Images & Files
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/imagemagick.no_strip
+REPO: https://github.com/ImageMagick/ImageMagick
+Web URL: https://imagemagick.org
+
+Name: magick.no_strip
+DESCR: FOSS suite for editing and manipulating Digital Images & Files
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/magick.no_strip
+REPO: https://github.com/ImageMagick/ImageMagick
+Web URL: https://imagemagick.org
+
+---------------------
 Name: serverstatus-server
 DESCR: Multi Server, Multi Cloud Probing & Server Monitoring
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server
