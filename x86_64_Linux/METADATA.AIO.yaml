@@ -9948,7 +9948,7 @@ bin:
     bin_name: mise
     description: dev tools, env vars, task runner
     note: ""
-    version: v2024.10.1
+    version: v2024.10.2
     download_url: https://bin.ajam.dev/x86_64/mise
     size: 26.86 MB
     bsum: c62ab4cade2e070d5b9d56a582bfd474637cafa1e004ded487c51aac7d923ec2
@@ -11427,7 +11427,7 @@ bin:
     bin_name: ox
     description: An independent Rust text editor that runs in your terminal
     note: ""
-    version: 0.6.5
+    version: 0.6.6
     download_url: https://bin.ajam.dev/x86_64/ox
     size: 4.28 MB
     bsum: 129bbded894f6991531b378e26f1c35c629987638c7106799b5d093c7b6e99b1
@@ -13802,6 +13802,23 @@ bin:
     build_log: https://bin.ajam.dev/x86_64/runme.log.txt
     category: cloud, devops, notebooks, workflows
     icon: https://bin.ajam.dev/x86_64/runme.preview.png
+    extra_bins: ""
+  - name: ruri
+    bin_name: ruri
+    description: Lightweight, User-friendly Linux-container Implementation
+    note: ""
+    version: v3.5
+    download_url: https://bin.ajam.dev/x86_64/ruri
+    size: 1.16 MB
+    bsum: a5172d0623bb129399e60eb52f5a6d5f403cff1f405406e3e3237d6c71212468
+    shasum: 0c096baa13bf6ecf6e8db2868bfb514744dac5b659f46cb50d4c1a2470bb133c
+    build_date: 2024-10-12T15:23:18
+    src_url: https://github.com/Moe-hacker/ruri
+    web_url: https://blog.crack.moe/2023/07/31/moe-ruri-notes/
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ruri.sh
+    build_log: https://bin.ajam.dev/x86_64/ruri.log.txt
+    category: capability, chroot, container, linux, linux-container, rootfs, unshare
+    icon: https://bin.ajam.dev/x86_64/ruri.preview.png
     extra_bins: ""
   - name: rush
     bin_name: rush
@@ -16578,7 +16595,7 @@ bin:
     bin_name: ulexec
     description: A tool for loading and executing PE/ELF from memory
     note: ""
-    version: v0.0.4
+    version: v0.0.5
     download_url: https://bin.ajam.dev/x86_64/ulexec
     size: 6.67 MB
     bsum: 8c267de41458bac04c21a96f80d9d2e6e447554c9518be90f3e4b363ad205764
@@ -17887,7 +17904,7 @@ bin:
     bin_name: xh
     description: Friendly and fast tool for sending HTTP requests
     note: ""
-    version: v0.22.2
+    version: v0.23.0
     download_url: https://bin.ajam.dev/x86_64/xh
     size: 6.7 MB
     bsum: 302b3e25353f853f60cc32d2e69769abf818233de5c0bb378a7ba730737c7c84
@@ -34663,6 +34680,380 @@ base:
     category: ""
     icon: https://bin.ajam.dev/x86_64/fio.preview.png
     extra_bins: axmap,fio,fio-btrace2fio,fio-dedupe,fio-genzipf,fio-verify-state,gen-rand,ieee754,io_uring,lfsr-test,memlock,read-to-pipe-async
+  - name: etc-cleanup
+    bin_name: etc-cleanup
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/etc-cleanup
+    size: 62.13 KB
+    bsum: ca4213587b9424f10d2f433c127eb8b6299568e4f1af4b4bf0d4fe2c622755ff
+    shasum: fa97b2b71c829024c2d6a86cd29dbac996f3821898e66c08c261277b73bafc23
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/etc-cleanup.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fbuilder
+    bin_name: fbuilder
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fbuilder
+    size: 111.74 KB
+    bsum: 2164a6c212f50cb1d338013ae3d1046d9897a1455ccc5e18c67a8eef17688683
+    shasum: 6e8658bd94bc5a438c7cec67b10e1206124d3aeb3a125f461b50d961ffa4a279
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fbuilder.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fcopy
+    bin_name: fcopy
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fcopy
+    size: 73.71 KB
+    bsum: 42572711ed64532e029ca2d708c1a995391f4a949b03c5a788691047973528cf
+    shasum: 7af62b870ff970ce507b79c2b85294e3bcaf7b2c737f2ba5565f4d0cd441e85a
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fcopy.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fids
+    bin_name: fids
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fids
+    size: 98.26 KB
+    bsum: 19e1b8ed5f727afc18336cb22eb4c20648987a51fbe0896aa7d3abde9d9a12b7
+    shasum: 7d9ca3c4b9561b30b0a79b5d872b7c4af6db405b5d6d856a8669bf8602b7189e
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fids.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: firecfg
+    bin_name: firecfg
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/firecfg
+    size: 132.75 KB
+    bsum: 134c40d16b1c784e93d667346082f5e7fe11da979d64a6ecdb2350b52c3cad4e
+    shasum: 760864c59387ac4af147e3388de1e099f77291dc3d6556b74c9108c82056ac07
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/firecfg.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: firejail
+    bin_name: firejail
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/firejail
+    size: 688.24 KB
+    bsum: b63cf62ebae9a7e3037c1a12b768aa307f305e40826f44c38dc35275d30841f1
+    shasum: 0ef9ff5b28181a8a52a88c5c16a66d238819872c331e69b03c4879665b20efb3
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/firejail.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: firemon
+    bin_name: firemon
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/firemon
+    size: 161.33 KB
+    bsum: e803c946c34d6167af7a848a025d3754c580b31a24a2868550efa8326164185c
+    shasum: b3b345a30deef5f9fe606c27cb18f1803bafb127807a5e7c19c0736acb043f0f
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/firemon.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fldd
+    bin_name: fldd
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fldd
+    size: 60.53 KB
+    bsum: a0b824de3f62b2c8878b5c4601cf1861193c9d4b92774de523ef4de6a875c5f2
+    shasum: b256331eea3cbb75f1899ea151522fd60a4b1ec5bd11da763bcb45ca65d9127b
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fldd.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fnet
+    bin_name: fnet
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fnet
+    size: 99.98 KB
+    bsum: 92610fa045c5b49b5b42a35026943a4e7bacd8ad9c0688ce9bd5cbcabc11370b
+    shasum: 818b0b7b614311a5ee4994f32252394481e571ae895a2ed99b28543447838b12
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fnet.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fnetfilter
+    bin_name: fnetfilter
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fnetfilter
+    size: 77.14 KB
+    bsum: 45af646fce3e63bfb29665c7cb2b21bb273e96f40f8b3c1357ec25a659a5d616
+    shasum: fbe615a3b7bb5368b113ea52f3f5aaccfaa463e7ce0ebf61badae3440bb36f83
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fnetfilter.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fnetlock
+    bin_name: fnetlock
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fnetlock
+    size: 63.78 KB
+    bsum: e9d2c43f95da890fadfee9f3ec24679c6ead0d20f95c879fbb31e90d077c2f38
+    shasum: c910d92844125f953ed47cacee5f00eeead24778edc4bc497b033e08919b0632
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fnetlock.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fnettrace
+    bin_name: fnettrace
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fnettrace
+    size: 108.59 KB
+    bsum: 8300f93daa94690200c534792b24aeb64295ab9733a2776dbdda46c967900f7b
+    shasum: ac28148d785a838a58ebda8dac40d6a894c1eaaf13da1c9dccf268cef7da3c12
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fnettrace.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fnettrace-dns
+    bin_name: fnettrace-dns
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fnettrace-dns
+    size: 63.54 KB
+    bsum: 5afd72380d7850cd26691ee467cf30dee49169d1b5ccc1ba2d83a6cd04121229
+    shasum: b436a85da9188467a4fe6569322c318035d727095f99a4a6249d5553d028557f
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fnettrace-dns.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fnettrace-icmp
+    bin_name: fnettrace-icmp
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fnettrace-icmp
+    size: 63.54 KB
+    bsum: 0e637b63fc5e9423f138f0b79f5cba26b81f67be693991dffe432c0a62120043
+    shasum: eff413b954c098e73abc80545eeed9028c31a1adc396bafac1e4d145f4764388
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fnettrace-icmp.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fnettrace-sni
+    bin_name: fnettrace-sni
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fnettrace-sni
+    size: 63.54 KB
+    bsum: 9215841e8ed48dc90440497e5821fa2943b2818d748ce2d3ddf593f00d74affa
+    shasum: 6a77a55f385798db118380e0f38df51462294c0038a7b53a0e80f9f30a03ae0d
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fnettrace-sni.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fsec-optimize
+    bin_name: fsec-optimize
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fsec-optimize
+    size: 69.65 KB
+    bsum: 1e54fe7030fd3f700c990090bd6e270e2e1cc8a6bc98b6bd9a51db96d209dee0
+    shasum: 6c786710921e24502a8a97e3cdec6cc7a67cf04a5971b2b78490c3a5d6f941eb
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fsec-optimize.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: fsec-print
+    bin_name: fsec-print
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fsec-print
+    size: 74.83 KB
+    bsum: a49a58f38ef3d8ccd0ea3e929f938fca235393d9043c52c81635ebb7e899c0ab
+    shasum: 9a96cf81da0ce1f1692896d59549363c5fb427487247e805bd7a1480767824cb
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fsec-print.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,ftee,fzenity,jailcheck,profstats
+  - name: fseccomp
+    bin_name: fseccomp
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fseccomp
+    size: 110.03 KB
+    bsum: 20ad8c6363e885088bc099a7bc1bd49e3379b8d927fb9f056fa700955874802c
+    shasum: f3ab7c5e31b52d7032d1b45cf0f07f0cc82d092590d31ad80821d9b189a51b39
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fseccomp.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fsec-optimize,fsec-print,ftee,fzenity,jailcheck,profstats
+  - name: ftee
+    bin_name: ftee
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/ftee
+    size: 55.38 KB
+    bsum: bfece2c3999c656ff0beef6d795a213ae0630f1114d0bb96282abe1ee591a69b
+    shasum: 8f5e469b010d42a5598c5b151e1cefcfe3a230691bcadc0d3f13fd56120d6850
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/ftee.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,fzenity,jailcheck,profstats
+  - name: fzenity
+    bin_name: fzenity
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/fzenity
+    size: 55.79 KB
+    bsum: cfdea3e1c273cc2334d6040f7692d551bb4e9553549687b29db75d3893d26d68
+    shasum: ff99542abb5a9283fee33ad0d90bdeabd38fe1badf89e70f7f4db8bc721dd48f
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/fzenity.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,jailcheck,profstats
+  - name: jailcheck
+    bin_name: jailcheck
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/jailcheck
+    size: 138.19 KB
+    bsum: 0733e739bc814677d093675848b55fe1a7eeb1cb0f9f3f0ed7bc905f5839e426
+    shasum: 51fc090ee3dd53f625d735cca8988ce8361cf5f296b2882fc7154f15866459ad
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/jailcheck.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,profstats
+  - name: profstats
+    bin_name: profstats
+    description: Linux namespaces and seccomp-bpf sandbox Tools
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/x86_64/Baseutils/firejail/profstats
+    size: 63.28 KB
+    bsum: b4b9452aa311c0fee7c2954ba8426641537d19f48e8b626965ff2df95f6f92ff
+    shasum: 12da89656321464710605c8047d268d1ecbf0212d9a951d34f84b5d8e1721d9a
+    build_date: 2024-10-12T14:36:32
+    src_url: https://github.com/netblue30/firejail
+    web_url: https://firejail.wordpress.com
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/firejail.sh
+    build_log: https://bin.ajam.dev/x86_64/profstats.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/x86_64/firejail.preview.png
+    extra_bins: etc-cleanup,fbuilder,fcopy,fids,firecfg,firejail,firemon,fldd,fnet,fnetfilter,fnetlock,fnettrace,fnettrace-dns,fnettrace-icmp,fnettrace-sni,fseccomp,fsec-optimize,fsec-print,ftee,fzenity,jailcheck
   - name: fusermount
     bin_name: fusermount
     description: The reference implementation of the Linux FUSE (Filesystem in Userspace) interface
@@ -40974,7 +41365,7 @@ pkg:
   - name: signal-desktop.NixAppImage
     bin_name: signal-desktop
     description: A private messenger for Windows, macOS, and Linux (NixAppImage)
-    note: 'Requires --no-sandbox to run<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)'
+    note: 'Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)'
     version: 7.27.0
     download_url: https://pkg.ajam.dev/x86_64/signal-desktop.NixAppImage
     size: 429.46 MB

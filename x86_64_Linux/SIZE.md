@@ -970,6 +970,7 @@
  1.1M   ├── desktop-file-install
  1.1M   ├── desktop-file-edit
  1.1M   ├── desktop-file-validate
+ 1.1M   ├── ruri
  1.1M   ├── catatonit
  1.1M   ├── update-desktop-database
  1.0M   ├── jql
@@ -1067,7 +1068,6 @@
  401K   ├── smenu
  397K   ├── traefik.preview.png
  394K   ├── nnn
- 373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
  363K   ├── find
@@ -1134,6 +1134,7 @@
  259K   ├── mawk
  255K   ├── mubeng.preview.png
  253K   ├── screenfetch
+ 251K   ├── meli.preview.png
  243K   ├── lorien.preview.png
  242K   ├── sed
  242K   ├── dropbearkey
@@ -1171,7 +1172,6 @@
  193K   ├── netstat
  193K   ├── dalfox.preview.png
  192K   ├── linuxwave
- 188K   ├── yabs.sh.preview.png
  187K   ├── rescope.preview.png
  184K   ├── cpufetch
  184K   ├── trufflehog.preview.png
@@ -1192,7 +1192,6 @@
  150K   ├── migratepages
  150K   ├── memhog
  150K   ├── mkpasswd
- 149K   ├── meli.preview.png
  149K   ├── asn.preview.png
  149K   ├── sshportal.preview.png
  149K   ├── assh.preview.png
@@ -1263,7 +1262,6 @@
   87K   ├── runst.preview.png
   87K   ├── numastat
   85K   ├── kubo.preview.png
-  83K   ├── yggdrasil.preview.png
   82K   ├── algernon.preview.png
   82K   ├── tracepath
   82K   ├── libtree
@@ -1308,12 +1306,14 @@
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── podsync.preview.png
+  52K   ├── yabs.sh.preview.png
   52K   ├── miller.preview.png
   51K   ├── redguard.preview.png
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
   50K   ├── dvc.preview.png
   50K   ├── hcxwltool
+  49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
   48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
@@ -1341,6 +1341,8 @@
   35K   ├── puredns.preview.png
   35K   ├── pipetty
   35K   ├── broot.preview.png
+  34K   ├── yggdrasil.preview.png
+  34K   ├── realm-tavern.preview.png
   33K   ├── fnm.preview.png
   33K   ├── ansi2html
   31K   ├── nezha-install.sh
@@ -1348,6 +1350,7 @@
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
   27K   ├── aggligator.preview.png
+  26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
   25K   ├── czkawka.preview.png
@@ -1376,9 +1379,7 @@
   14K   ├── tldr
   13K   ├── wg-quick
   11K   ├── yt-dlp.preview.png
-  11K   ├── tidy-viewer.preview.png
   11K   ├── lsix
-  11K   ├── circumflex.preview.png
   11K   ├── tailspin.preview.png
   11K   ├── nicotine-plus.preview.png
  8.5K   ├── proot.preview.png
