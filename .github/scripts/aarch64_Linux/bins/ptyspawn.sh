@@ -27,14 +27,17 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       ##Build (alpine-musl)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
-       docker run --privileged --net="host" --name "alpine-builder" --pull="always" "azathothas/alpine-builder:latest" \
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable" 2>/dev/null
+       docker run --privileged --net="host" --name "debian-builder-unstable" --pull="always" "azathothas/debian-builder-unstable:latest" \
         bash -l -c '
         #Setup ENV
          mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
         #Build
          git clone --filter "blob:none" --quiet "https://github.com/VHSgunzo/ptyspawn" && cd "./ptyspawn"
+         export CC="$(which musl-gcc)"
          export CFLAGS="-O2 -flto=auto -static -w -pipe"
+         export CXXFLAGS="${CFLAGS}"
+         export CPPFLAGS="${CFLAGS}"
          export LDFLAGS="-static -s -Wl,-S -Wl,--build-id=none"
          make --jobs="$(($(nproc)+1))" --keep-going
         #Copy
@@ -47,13 +50,13 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          popd >/dev/null 2>&1
         '
       #Copy & Meta
-       docker cp "alpine-builder:/build-bins/." "$(pwd)/"
+       docker cp "debian-builder-unstable:/build-bins/." "$(pwd)/"
        find "." -maxdepth 1 -type f -exec file -i "{}" \; | grep "application/.*executable" | cut -d":" -f1 | xargs realpath
        #Meta
        find "." -maxdepth 1 -type f -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
        sudo rsync -av --copy-links --exclude="*/" "./." "${BINDIR}"
       #Delete Containers
-       docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder"
+       docker stop "debian-builder-unstable" 2>/dev/null ; docker rm "debian-builder-unstable"
        popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

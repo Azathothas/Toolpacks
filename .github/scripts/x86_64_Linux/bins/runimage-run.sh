@@ -37,7 +37,8 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          rustup component add rust-src --toolchain nightly
          export RUST_TARGET="x86_64-unknown-linux-musl"
          rustup target add "${RUST_TARGET}"
-         export RUSTFLAGS="-C panic=abort -C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
+         #https://github.com/VHSgunzo/Run-wrapper/blob/main/.cargo/config.toml
+         export RUSTFLAGS="-Z remap-cwd-prefix= -C panic=abort -C target-feature=+crt-static -C default-linker-libraries=yes -C link-self-contained=yes -C prefer-dynamic=no -C embed-bitcode=yes -C lto=yes -C opt-level=3 -C debuginfo=none -C strip=symbols -C linker=clang -C link-arg=-fuse-ld=$(which mold) -C link-arg=-Wl,--Bstatic -C link-arg=-Wl,--static -C link-arg=-Wl,-S -C link-arg=-Wl,--build-id=none"
         #Build
          git clone --filter "blob:none" --quiet "https://github.com/VHSgunzo/Run-wrapper" && cd "./Run-wrapper"
          echo -e "\n[+] Target: ${RUST_TARGET}\n"
@@ -45,7 +46,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          sed "/^\[profile\.release\]/,/^$/d" -i "./Cargo.toml" ; echo -e "\n[profile.release]\nstrip = true\nopt-level = 3\nlto = true" >> "./Cargo.toml"
          rm rust-toolchain* 2>/dev/null
          cargo build --target "${RUST_TARGET}" --release --jobs="$(($(nproc)+1))" --keep-going
-         cp "./target/${RUST_TARGET}/release/Run" "/build-bins/runimage-run.no_strip"
+         cp "./target/${RUST_TARGET}/release/Run" "/build-bins/runimage-run"
+         find "/build-bins/" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
+         find "/build-bins/" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded --preserve-dates "{}" \; 2>/dev/null
          file "/build-bins/"* && du -sh "/build-bins/"*
          popd >/dev/null 2>&1
         '
