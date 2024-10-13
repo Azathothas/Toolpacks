@@ -1,0 +1,9 @@
+name: "notify-send"
+description: "Rust version of notify-send for display notifications on linux desktop"
+note: ""
+web_url: "https://github.com/VHSgunzo/notify-send"
+repo_url: "https://github.com/VHSgunzo/notify-send"
+path: "/"
+bins:
+  - "notify-send"
+  - "notify-send-rs"

@@ -22,15 +22,19 @@ fi
 SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "${SKIP_BUILD}" == "NO" ]; then
     #which : Shows the full path of (shell) commands
-     export BIN="which" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://www.gnu.org/software/which/" #github/gitlab/homepage/etc for $BIN
+     export BIN="which"
+     export SOURCE_URL="https://www.gnu.org/software/which/"
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Build 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.which" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
-       sudo strip "./result/bin/"* ; file "./result/bin/"* && du -sh "./result/bin/"*
-       sudo cp "./result/bin/"* "$BASEUTILSDIR/" 2>/dev/null
-       find "$BASEUTILSDIR" -type f -size -3c -delete
+       BIN_DIR="$(find "." -maxdepth 1 -type d -o -type l -exec realpath {} \; | grep -Ev '^\.$')"
+       [ -d "$BIN_DIR" ] && [[ "$BIN_DIR" == "/nix"* ]] && sudo rsync -av --copy-links --no-relative "$(find "$BIN_DIR" -type d -path '*/bin*' -print0 | xargs --null -I {} realpath {})/." "${BINDIR}" ; unset BIN_DIR
+       sudo chown -R "$(whoami):$(whoami)" "${BINDIR}" && chmod -R 755 "${BINDIR}"
+       sudo objcopy --remove-section=".comment" --remove-section=".note.*" "${BINDIR}/which"
+       sudo strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/which"
+       realpath "${BINDIR}/which" | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+       cp "${BINDIR}/which" "${BASEUTILSDIR}/which"
        nix-collect-garbage >/dev/null 2>&1 ; popd >/dev/null 2>&1
 fi
 #-------------------------------------------------------#

@@ -1,0 +1,9 @@
+name: "runimage-run"
+description: "ELF wrapper for RunImage Run.sh script in the extracted form"
+note: ""
+web_url: "https://github.com/VHSgunzo/Run-wrapper"
+repo_url: "https://github.com/VHSgunzo/Run-wrapper"
+path: "/"
+bins:
+  - "runimage-run"
+  - "runimage-run.no_strip"

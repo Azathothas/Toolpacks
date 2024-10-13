@@ -56,13 +56,13 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          ulimit -n unlimited
         #Build
          make dist clean 2>/dev/null ; make clean 2>/dev/null
-         "./configure" --enable-single-binary --disable-shared --enable-static
+         "./bootstrap" ; "./configure" --enable-single-binary --disable-shared --enable-static
          #https://github.com/moby/moby/issues/13451
          if [ -d "./confdir3/confdir3" ]; then
              ulimit -n unlimited 2>/dev/null
              timeout -k 05 05 apk del busybox 2>/dev/null
              while [[ -e "./confdir3/confdir3" ]]; do mv "./confdir3/confdir3" "./confdir3a"; rmdir "./confdir3"; mv "./confdir3a" "./confdir3"; done; rmdir "./confdir3"
-             "./configure" --disable-shared --enable-static
+             "./configure" --enable-single-binary --disable-shared --enable-static
          fi
          "./configure" --enable-single-binary --disable-shared --enable-static
          make --jobs="$(($(nproc)+1))" --keep-going

@@ -1,0 +1,8 @@
+name: "ptyspawn"
+description: "Tool for executing a command in a new PTY (pseudo-terminal) with new PGID and SID"
+note: ""
+web_url: "https://github.com/VHSgunzo/ptyspawn"
+repo_url: "https://github.com/VHSgunzo/ptyspawn"
+path: "/"
+bins:
+  - "ptyspawn"
