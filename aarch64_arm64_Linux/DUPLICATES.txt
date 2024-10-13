@@ -303,6 +303,19 @@ REPO: https://github.com/userdocs/iperf3-static
 Web URL: https://github.com/userdocs/iperf3-static
 
 ---------------------
+Name: notify-send
+DESCR: Rust version of notify-send for display notifications on linux desktop
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/notify-send
+REPO: https://github.com/VHSgunzo/notify-send
+Web URL: https://github.com/VHSgunzo/notify-send
+
+Name: notify-send-rs
+DESCR: Rust version of notify-send for display notifications on linux desktop
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/notify-send-rs
+REPO: https://github.com/VHSgunzo/notify-send
+Web URL: https://github.com/VHSgunzo/notify-send
+
+---------------------
 Name: ocat
 DESCR: VPN adapter for Tor and I2P
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ocat
