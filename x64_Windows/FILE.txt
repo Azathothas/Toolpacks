@@ -108,7 +108,7 @@ hcloud.exe:                    PE32+ executable (console) x86-64 (stripped to ex
 head.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 hostname.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 hyperfine.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-hyperfine.preview.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+hyperfine.preview.png:         PNG image data, 640 x 320, 8-bit/color RGB, non-interlaced
 inscope.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 iperf3.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 ipinfo.preview.png:            PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
@@ -207,10 +207,8 @@ ssh-shellhost.exe:             PE32+ executable (console) x86-64 (stripped to ex
 ssh-sk-helper.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 ssh.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 sshd.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-stP1kAlM:                      empty
 step.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 step.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-stiG2Kb7:                      empty
 stunner.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 stunner.preview.png:           PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
 sum.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows

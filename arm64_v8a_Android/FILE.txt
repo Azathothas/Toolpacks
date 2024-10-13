@@ -23,7 +23,7 @@ rclone.preview.png:    PNG image data, 1280 x 640, 8-bit/color RGBA, non-interla
 rsync:                 ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 sudo:                  a /data/data/com.termux/files/usr/bin/bash script, Unicode text, UTF-8 text executable, with very long lines (402)
 tailscale:             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-tailscale.preview.png: PNG image data, 2560 x 1280, 8-bit/color RGBA, non-interlaced
+tailscale.preview.png: PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 tailscale_combined:    ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 tailscaled:            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 vim:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
