@@ -1235,6 +1235,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/firefox.sh"
   },
   {
+    "name": "firejail.sh",
+    "update_date": "2024-10-13T00:14:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/firejail.sh"
+  },
+  {
     "name": "flawz.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/flawz.sh"
@@ -2401,7 +2406,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-12T00:16:24",
+    "update_date": "2024-10-12T12:13:10",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -3293,6 +3298,11 @@
     "name": "runst.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/runst.sh"
+  },
+  {
+    "name": "ruri.sh",
+    "update_date": "2024-10-13T00:14:43",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ruri.sh"
   },
   {
     "name": "rush.sh",

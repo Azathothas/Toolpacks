@@ -224,7 +224,6 @@
   68K   ├── brook.preview.png
   63K   ├── pdfcpu.preview.png
   62K   ├── eget.preview.png
-  59K   ├── hyperfine.preview.png
   58K   ├── batcat.preview.png
   54K   ├── b3sum.preview.png
   53K   ├── coreutils_uutils.preview.png
@@ -243,12 +242,11 @@
   39K   ├── pkg.default.png
   38K   ├── cfspeedtest.preview.png
   37K   ├── base.default.png
+  37K   ├── hyperfine.preview.png
   36K   ├── micro.preview.png
   36K   ├── curl.preview.png
   26K   ├── 7z.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
-  11K   ├── yt-dlp.preview.png
-   0B   ├── stiG2Kb7
-   0B   └── stP1kAlM
+  11K   └── yt-dlp.preview.png
 ```

@@ -714,6 +714,7 @@
  4.0M   ├── kalker
  4.0M   ├── just
  4.0M   ├── qemu-armeb-static
+ 4.0M   ├── arc
  4.0M   ├── qemu-arm-static
  4.0M   ├── dotenv-linter
  4.0M   ├── gojq
@@ -1133,7 +1134,6 @@
  259K   ├── mawk
  255K   ├── mubeng.preview.png
  253K   ├── screenfetch
- 251K   ├── meli.preview.png
  243K   ├── lorien.preview.png
  242K   ├── sed
  242K   ├── dropbearkey
@@ -1177,6 +1177,7 @@
  184K   ├── trufflehog.preview.png
  184K   ├── onioncat
  184K   ├── ocat
+ 184K   ├── haylxon.preview.png
  183K   ├── ping
  182K   ├── jless.preview.png
  178K   ├── hcxdumptool
@@ -1191,6 +1192,7 @@
  150K   ├── migratepages
  150K   ├── memhog
  150K   ├── mkpasswd
+ 149K   ├── meli.preview.png
  149K   ├── asn.preview.png
  149K   ├── sshportal.preview.png
  149K   ├── assh.preview.png
@@ -1293,7 +1295,6 @@
   66K   ├── oha.preview.png
   65K   ├── hakrawler.preview.png
   63K   ├── pdfcpu.preview.png
-  63K   ├── haylxon.preview.png
   63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
   62K   ├── tut.preview.png
@@ -1313,7 +1314,6 @@
   50K   ├── noir.preview.png
   50K   ├── dvc.preview.png
   50K   ├── hcxwltool
-  49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
   48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
@@ -1323,6 +1323,7 @@
   44K   ├── yabs.sh
   44K   ├── tailscale.preview.png
   43K   ├── stree.preview.png
+  42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
   40K   ├── jsmug
@@ -1333,6 +1334,7 @@
   37K   ├── base.default.png
   37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
+  36K   ├── pls.preview.png
   36K   ├── micro.preview.png
   36K   ├── dbeaver.preview.png
   35K   ├── sshpass
@@ -1345,9 +1347,7 @@
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
-  27K   ├── pls.preview.png
   27K   ├── aggligator.preview.png
-  26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
   25K   ├── czkawka.preview.png
@@ -1376,10 +1376,11 @@
   14K   ├── tldr
   13K   ├── wg-quick
   11K   ├── yt-dlp.preview.png
+  11K   ├── tidy-viewer.preview.png
   11K   ├── lsix
+  11K   ├── circumflex.preview.png
   11K   ├── tailspin.preview.png
   11K   ├── nicotine-plus.preview.png
- 9.5K   ├── fx.preview.png
  8.5K   ├── proot.preview.png
  8.5K   ├── halp.preview.png
  7.5K   ├── sk-tmux
