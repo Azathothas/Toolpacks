@@ -128,6 +128,19 @@ REPO: https://github.com/ipinfo/cli
 Web URL: https://ipinfo.io/
 
 ---------------------
+Name: notify-send
+DESCR: Rust version of notify-send for display notifications on linux desktop
+Download URL: https://bin.ajam.dev/x86_64_Linux/notify-send
+REPO: https://github.com/VHSgunzo/notify-send
+Web URL: https://github.com/VHSgunzo/notify-send
+
+Name: notify-send-rs
+DESCR: Rust version of notify-send for display notifications on linux desktop
+Download URL: https://bin.ajam.dev/x86_64_Linux/notify-send-rs
+REPO: https://github.com/VHSgunzo/notify-send
+Web URL: https://github.com/VHSgunzo/notify-send
+
+---------------------
 Name: iperf
 DESCR: A TCP, UDP, and SCTP network bandwidth measurement tool
 Download URL: https://bin.ajam.dev/x86_64_Linux/iperf
