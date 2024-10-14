@@ -65,14 +65,14 @@
  4.0K   │ ├── GO_TARGETS.md
  4.0K   │ ├── DEBUG.md
  4.0K   │ └── APPIMAGES.md
-  92K   ├─┬ arm64_v8a_Android
+  96K   ├─┬ arm64_v8a_Android
   28K   │ ├── METADATA.json
   20K   │ ├── DETAILED.md
   12K   │ ├── README.md
+ 8.0K   │ ├── FILE.txt
  4.0K   │ ├── SIZE.txt
  4.0K   │ ├── SIZE.md
  4.0K   │ ├── SHA256SUM.txt
- 4.0K   │ ├── FILE.txt
  4.0K   │ ├── DUPLICATES.txt
  4.0K   │ ├── BUILD_DATES.txt
  4.0K   │ ├── BLAKE3SUM.txt

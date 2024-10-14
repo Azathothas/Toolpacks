@@ -149,8 +149,8 @@
 712:netexec_dynamic:                  ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=0e27551a98c48e21ca54d870d9af15adb7837ced, for GNU/Linux 3.7.0, stripped
 829:procan:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, stripped
 832:promtail:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=38cf16ed4afc67a8a06a8b3fefcacdfad6d3ef94, for GNU/Linux 3.7.0, stripped
-948:rqbit:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, stripped
-1024:socat:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, stripped
+953:rqbit:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, stripped
+1029:socat:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, stripped
 
 
 [-] Incorrect Arch --> # Not for aarch64
@@ -180,8 +180,8 @@
 130:certstream.preview-3.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 131:certstream.preview-4.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 132:certstream.preview.png:           GIF image data, version 89a, 1920 x 1080
-149:cherrybomb.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-154:circumflex.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+149:cherrybomb.preview.png:           PNG image data, 1280 x 640, 8-bit colormap, non-interlaced
+154:circumflex.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 166:cloudfox.preview.png:             JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1200x628, components 3
 170:cmd-wrapped.preview.png:          PNG image data, 1651 x 824, 8-bit/color RGBA, non-interlaced
 173:cocogitto.preview.png:            PNG image data, 640 x 640, 8-bit/color RGBA, non-interlaced
@@ -207,7 +207,7 @@
 344:findomain.preview.png:            JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 756x756, components 3
 348:flawz.preview.png:                JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=2, software=GIMP 2.10.36, datetime=2024:05:18 15:10:59], progressive, precision 8, 1280x640, components 3
 350:fnm.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-352:fq.preview.png:                   PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+352:fq.preview.png:                   PNG image data, 1400 x 700, 8-bit/color RGBA, non-interlaced
 354:freeze.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 361:fx.preview.png:                   PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 364:fzf.preview.png:                  PNG image data, 1200 x 680, 8-bit/color RGB, non-interlaced
@@ -259,7 +259,7 @@
 637:magick.preview.png:               PNG image data, 1280 x 640, 16-bit/color RGB, non-interlaced
 644:mantra.preview.png:               PNG image data, 1840 x 818, 8-bit/color RGBA, non-interlaced
 648:massdns.preview.png:              PNG image data, 735 x 373, 8-bit/color RGBA, non-interlaced
-654:mdcat.preview.png:                PNG image data, 1560 x 566, 8-bit/color RGB, non-interlaced
+654:mdcat.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 659:meli.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 664:micro.preview.png:                PNG image data, 1280 x 437, 8-bit/color RGBA, non-interlaced
 667:miller.preview.png:               PNG image data, 190 x 190, 8-bit/color RGBA, non-interlaced
@@ -297,54 +297,59 @@
 906:realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA, non-interlaced
 910:redguard.preview.png:             PNG image data, 640 x 365, 8-bit/color RGB, non-interlaced
 920:rescope.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-922:resdns.preview.png:               GIF image data, version 89a, 1920 x 1080
-926:resto.preview.png:                PNG image data, 1280 x 644, 8-bit/color RGBA, non-interlaced
-928:reviewdog.preview.png:            PNG image data, 927 x 461, 8-bit/color RGBA, non-interlaced
-931:revive.preview.png:               PNG image data, 1138 x 478, 8-bit/color RGBA, non-interlaced
-957:runst.preview.png:                JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
-959:ruri.preview.png:                 PNG image data, 1600 x 800, 8-bit/color RGBA, non-interlaced
-961:rust-hypervisor-firmware:         Linux kernel ARM64 boot executable Image, little-endian
-965:rustscan.preview.png:             PNG image data, 1000 x 959, 8-bit/color RGBA, non-interlaced
-975:sadf:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-981:scopegen.preview.png:             GIF image data, version 89a, 1920 x 1080
-983:scopeview.preview.png:            GIF image data, version 89a, 1920 x 1080
-999:shell2http.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-1016:smap.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-1019:smartdns.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1021:sn0int.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1026:soft-serve.preview.png:           JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
-1043:sshportal.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-1046:sshx.preview.png:                 PNG image data, 2660 x 1638, 8-bit/color RGBA, non-interlaced
-1052:starship.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1054:steampipe.preview.png:            PNG image data, 1800 x 900, 8-bit/color RGB, non-interlaced
-1055:step.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-1059:stree.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1069:subxtract.preview.png:            GIF image data, version 89a, 1920 x 1080
-1089:systeroid.preview.png:            JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
-1093:tailscale.preview.png:            PNG image data, 2560 x 1280, 8-bit/color RGBA, non-interlaced
-1098:tailspin.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-1108:termshark.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1113:tidy-viewer.preview.png:          PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1123:tok.preview.png:                  GIF image data, version 89a, 1920 x 1080
-1129:traefik.preview.png:              PNG image data, 3840 x 1281, 8-bit/color RGBA, non-interlaced
-1133:trufflehog.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1144:tut.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-1146:txeh.preview.png:                 PNG image data, 900 x 348, 8-bit/color RGBA, non-interlaced
-1153:udpx.preview.png:                 PNG image data, 1280 x 720, 8-bit/color RGB, non-interlaced
-1168:v2raya.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-1175:vhs.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
-1177:viddy.preview.png:                PNG image data, 1467 x 1464, 8-bit/color RGBA, non-interlaced
-1186:vopono.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1190:vtm.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1201:watchexec.preview.png:            PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
-1254:xplr.preview.png:                 JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1], baseline, precision 8, 1200x630, components 3
-1258:yabs.sh.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1262:yazi.preview.png:                 JPEG image data, JFIF standard 1.01, aspect ratio, density 144x144, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=4, xresolution=62, yresolution=70, resolutionunit=2], baseline, precision 8, 2620x1420, components 3
-1264:yggdrasil.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1270:yt-dlp.preview.png:               PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
-1273:z-tokens.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1278:zellij.preview.png:               PNG image data, 1065 x 534, 8-bit/color RGBA, non-interlaced
-1289:zoxide.preview.png:               GIF image data, version 89a, 2002 x 1002
+922:resdns.preview-0.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+923:resdns.preview-1.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+924:resdns.preview-2.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+925:resdns.preview-3.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+926:resdns.preview-4.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+927:resdns.preview.png:               GIF image data, version 89a, 1920 x 1080
+931:resto.preview.png:                PNG image data, 1280 x 644, 8-bit/color RGBA, non-interlaced
+933:reviewdog.preview.png:            PNG image data, 927 x 461, 8-bit/color RGBA, non-interlaced
+936:revive.preview.png:               PNG image data, 1138 x 478, 8-bit/color RGBA, non-interlaced
+962:runst.preview.png:                JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
+964:ruri.preview.png:                 PNG image data, 1600 x 800, 8-bit/color RGBA, non-interlaced
+966:rust-hypervisor-firmware:         Linux kernel ARM64 boot executable Image, little-endian
+970:rustscan.preview.png:             PNG image data, 1000 x 959, 8-bit/color RGBA, non-interlaced
+980:sadf:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+986:scopegen.preview.png:             GIF image data, version 89a, 1920 x 1080
+988:scopeview.preview.png:            GIF image data, version 89a, 1920 x 1080
+1004:shell2http.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1021:smap.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1024:smartdns.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1026:sn0int.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1031:soft-serve.preview.png:           JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
+1048:sshportal.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1051:sshx.preview.png:                 PNG image data, 2660 x 1638, 8-bit/color RGBA, non-interlaced
+1057:starship.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1059:steampipe.preview.png:            PNG image data, 1800 x 900, 8-bit/color RGB, non-interlaced
+1060:step.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1064:stree.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1074:subxtract.preview.png:            GIF image data, version 89a, 1920 x 1080
+1094:systeroid.preview.png:            JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
+1098:tailscale.preview.png:            PNG image data, 2560 x 1280, 8-bit/color RGBA, non-interlaced
+1103:tailspin.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1113:termshark.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1118:tidy-viewer.preview.png:          PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1128:tok.preview.png:                  GIF image data, version 89a, 1920 x 1080
+1134:traefik.preview.png:              PNG image data, 3840 x 1281, 8-bit/color RGBA, non-interlaced
+1138:trufflehog.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1149:tut.preview.png:                  PNG image data, 941 x 453, 8-bit/color RGBA, non-interlaced
+1151:txeh.preview.png:                 PNG image data, 900 x 348, 8-bit/color RGBA, non-interlaced
+1158:udpx.preview.png:                 PNG image data, 1280 x 720, 8-bit/color RGB, non-interlaced
+1173:v2raya.preview.png:               PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
+1180:vhs.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
+1182:viddy.preview.png:                PNG image data, 1467 x 1464, 8-bit/color RGBA, non-interlaced
+1191:vopono.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1195:vtm.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1206:watchexec.preview.png:            PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
+1259:xplr.preview.png:                 JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1], baseline, precision 8, 1200x630, components 3
+1263:yabs.sh.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1267:yazi.preview.png:                 JPEG image data, JFIF standard 1.01, aspect ratio, density 144x144, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=4, xresolution=62, yresolution=70, resolutionunit=2], baseline, precision 8, 2620x1420, components 3
+1269:yggdrasil.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1275:yt-dlp.preview.png:               PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
+1278:z-tokens.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1283:zellij.preview.png:               PNG image data, 1065 x 534, 8-bit/color RGBA, non-interlaced
+1294:zoxide.preview.png:               GIF image data, version 89a, 2002 x 1002
 
 
 [-] No such file or directory # Usually Because Build Failures
