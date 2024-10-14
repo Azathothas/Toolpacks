@@ -8,8 +8,8 @@
  3.6M   │ ├── METADATA.AIO.toml
  3.6M   │ ├── METADATA.AIO.min.json
  1.2M   │ ├── METADATA.json
- 896K   │ ├── DETAILED.md
- 504K   │ ├── README.md
+ 900K   │ ├── DETAILED.md
+ 508K   │ ├── README.md
  192K   │ ├── FILE.txt
  132K   │ ├── BUILD_DATES.txt
  108K   │ ├── SHA256SUM.txt
@@ -28,16 +28,16 @@
  2.8M   │ ├── METADATA.AIO.toml
  2.8M   │ ├── METADATA.AIO.min.json
  1.2M   │ ├── METADATA.json
- 884K   │ ├── DETAILED.md
- 496K   │ ├── README.md
- 180K   │ ├── FILE.txt
+ 888K   │ ├── DETAILED.md
+ 500K   │ ├── README.md
+ 184K   │ ├── FILE.txt
  132K   │ ├── BUILD_DATES.txt
  100K   │ ├── SHA256SUM.txt
  100K   │ ├── BLAKE3SUM.txt
   64K   │ ├── BUILD_ERROR.log.md
-  36K   │ ├── SIZE.txt
-  36K   │ ├── SIZE.md
-  16K   │ ├── DUPLICATES.txt
+  40K   │ ├── SIZE.txt
+  40K   │ ├── SIZE.md
+  20K   │ ├── DUPLICATES.txt
  4.0K   │ ├── METADATA.urls
    0B   │ └── DUPLICATES_OVERWRITES.txt
 10.0M   ├── METADATA.json
@@ -65,14 +65,14 @@
  4.0K   │ ├── GO_TARGETS.md
  4.0K   │ ├── DEBUG.md
  4.0K   │ └── APPIMAGES.md
-  96K   ├─┬ arm64_v8a_Android
+  92K   ├─┬ arm64_v8a_Android
   28K   │ ├── METADATA.json
   20K   │ ├── DETAILED.md
   12K   │ ├── README.md
- 8.0K   │ ├── FILE.txt
  4.0K   │ ├── SIZE.txt
  4.0K   │ ├── SIZE.md
  4.0K   │ ├── SHA256SUM.txt
+ 4.0K   │ ├── FILE.txt
  4.0K   │ ├── DUPLICATES.txt
  4.0K   │ ├── BUILD_DATES.txt
  4.0K   │ ├── BLAKE3SUM.txt

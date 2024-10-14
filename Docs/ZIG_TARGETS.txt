@@ -24,7 +24,6 @@ x86-linux-gnu
 x86-linux-musl
 x86-windows-gnu
 loongarch64-linux-gnu
-loongarch64-linux-gnusf
 loongarch64-linux-musl
 m68k-linux-gnu
 m68k-linux-musl
