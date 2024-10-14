@@ -1,0 +1,8 @@
+name: "noroot-do"
+description: "Wrapper around bwrap to do various things in chroots"
+note: ""
+web_url: "https://github.com/xplshn/a-utils"
+repo_url: "https://github.com/xplshn/a-utils"
+path: "/"
+bins:
+  - "noroot-do"
