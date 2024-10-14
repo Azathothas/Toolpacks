@@ -8,19 +8,19 @@ RUN <<EOS
   #Base
   set +e
   pacman -Syu --noconfirm
-  pacman base-devel bash bison ca-certificates coreutils curl dos2unix findutils gettext git gnupg gperf imagemagick jq less lzip lzlib moreutils micro nano ncdu pacutils p7zip rsync sudo texinfo tmux unzip util-linux wget xz zip --sync --noconfirm
+  pacman base-devel bash bison ca-certificates coreutils curl dos2unix findutils gettext git gnupg gperf imagemagick jq less lzip lzlib moreutils micro nano ncdu pacutils p7zip rsync sudo texinfo tmux unzip util-linux wget xz zip --sync --noconfirm || true
   #RE
   pacman -Syu --noconfirm
-  pacman base-devel bash bison ca-certificates coreutils curl dos2unix findutils gettext git gnupg gperf imagemagick jq less lzip lzlib moreutils micro nano ncdu pacutils p7zip rsync sudo texinfo tmux unzip util-linux wget xz zip --sync --needed --noconfirm
+  pacman base-devel bash bison ca-certificates coreutils curl dos2unix findutils gettext git gnupg gperf imagemagick jq less lzip lzlib moreutils micro nano ncdu pacutils p7zip rsync sudo texinfo tmux unzip util-linux wget xz zip --sync --needed --noconfirm || true
   #NetTools
-  pacman inetutils iproute2 iputils net-tools openbsd-netcat --sync --needed --noconfirm
+  pacman inetutils iproute2 iputils net-tools openbsd-netcat --sync --needed --noconfirm || true
   setcap 'cap_net_raw+ep' "$(which ping)"
   #Python & Deps
-  pacman patchelf python python-devtools python-distro python-lxml python-netifaces python-pypatchelf python-pip python-pipx python-pkgconfig python-xxhash scons sysfsutils virt-what --sync --needed --noconfirm
+  pacman patchelf python python-devtools python-distro python-lxml python-netifaces python-pypatchelf python-pip python-pipx python-pkgconfig python-xxhash scons sysfsutils virt-what --sync --needed --noconfirm || true
   #Test
-  python --version 2>/dev/null ; python3 --version 2>/dev/null
-  pip --version 2>/dev/null ; pip3 --version 2>/dev/null
-  pipx --version 2>/dev/null
+  python --version 2>/dev/null ; python3 --version 2>/dev/null || true
+  pip --version 2>/dev/null ; pip3 --version 2>/dev/null || true
+  pipx --version 2>/dev/null || true
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -35,7 +35,7 @@ RUN <<EOS
  #Key-Verification
   #sed 's/^.*SigLevel\s*=.*$/SigLevel = Never/' -i "/etc/pacman.conf"
  #Update
-  pacman -Syu --noconfirm
+  pacman -Syu --noconfirm || true
 EOS
 #------------------------------------------------------------------------------------#
 
@@ -98,27 +98,27 @@ RUN <<EOS
   #----------------------#
   ##Main
   set +e
-  pacman -Syu --noconfirm
-  pacman aria2 autoconf autoconf-archive automake bazel bc binutils b3sum brotli busybox ccache clang cmake coreutils cython diffutils dos2unix findutils fontconfig gawk gcc gettext kernel-headers-musl jq libpcap libtool meson musl nasm polkit pkgconf rsync spirv-headers spirv-tools sqlite texinfo texi2html util-linux util-linux-libs wget libxslt xxhash yasm --sync --needed --noconfirm
+  pacman -Syu --noconfirm || true
+  pacman aria2 autoconf autoconf-archive automake bazel bc binutils b3sum brotli busybox ccache clang cmake coreutils cython diffutils dos2unix findutils fontconfig gawk gcc gettext kernel-headers-musl jq libpcap libtool meson musl nasm polkit pkgconf rsync spirv-headers spirv-tools sqlite texinfo texi2html util-linux util-linux-libs wget libxslt xxhash yasm --sync --needed --noconfirm || true
   #Re
-  pacman -Syu --noconfirm
-  pacman aria2 autoconf autoconf-archive automake bazel bc binutils b3sum brotli busybox ccache clang cmake coreutils cython diffutils dos2unix findutils fontconfig gawk gcc gettext kernel-headers-musl jq libpcap libtool meson musl nasm polkit pkgconf rsync spirv-headers spirv-tools sqlite texinfo texi2html util-linux util-linux-libs wget libxslt xxhash yasm --sync --needed --noconfirm
+  pacman -Syu --noconfirm || true
+  pacman aria2 autoconf autoconf-archive automake bazel bc binutils b3sum brotli busybox ccache clang cmake coreutils cython diffutils dos2unix findutils fontconfig gawk gcc gettext kernel-headers-musl jq libpcap libtool meson musl nasm polkit pkgconf rsync spirv-headers spirv-tools sqlite texinfo texi2html util-linux util-linux-libs wget libxslt xxhash yasm --sync --needed --noconfirm || true
   #----------------------#
   ##Dockerc
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/bin/dockerc" && chmod +x "/usr/bin/dockerc"
   #----------------------#
   ##Linux Headers
   if [ "$(uname -m)" == "aarch64" ]; then
-     pacman -Syu --noconfirm && pacman linux-aarch64-headers --sync --needed --noconfirm
+     pacman -Syu --noconfirm && pacman linux-aarch64-headers --sync --needed --noconfirm || true
   elif [ "$(uname -m)" == "x86_64" ]; then
-     pacman -Syu --noconfirm && pacman linux-headers --sync --needed --noconfirm
+     pacman -Syu --noconfirm && pacman linux-headers --sync --needed --noconfirm || true
   else
      echo "[+]"
   fi
   #----------------------#
   ##Install Meson & Ninja
   #sudo rm "/usr/bin/meson" "/usr/bin/ninja" 2>/dev/null
-  pip install meson ninja --break-system-packages --upgrade --force-reinstall 2>/dev/null
+  pip install meson ninja --break-system-packages --upgrade --force-reinstall 2>/dev/null || true
   #----------------------#  
   ##musl
    export CWD="$(realpath .)" ; cd "$(mktemp -d)" >/dev/null 2>&1 ; realpath "."
@@ -135,13 +135,13 @@ RUN <<EOS
   #Switch to default: https://github.com/JonathonReinhart/staticx/pull/284
   git clone --filter "blob:none" "https://github.com/JonathonReinhart/staticx" --branch "add-type-checking" && cd "./staticx"
   #https://github.com/JonathonReinhart/staticx/blob/main/build.sh
-  pip install -r "./requirements.txt" --break-system-packages --upgrade --force
+  pip install -r "./requirements.txt" --break-system-packages --upgrade --force || true
   pacman -Syu --noconfirm
   export BOOTLOADER_CC="/usr/local/musl/bin/musl-gcc"
   rm -rf "./build" "./dist" "./scons_build" "./staticx/assets"
   python "./setup.py" sdist bdist_wheel
   find "dist/" -name "*.whl" | xargs -I {} sh -c 'newname=$(echo {} | sed "s/none-[^/]*\.whl$/none-any.whl/"); mv "{}" "$newname"'
-  find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force
+  find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force || true
   staticx --version || pip install staticx --break-system-packages --force-reinstall --upgrade ; unset BOOTLOADER_CC
   rm -rf "$(realpath .)" ; cd "${CWD}"
   #----------------------#
@@ -167,7 +167,7 @@ RUN <<EOS
   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/patchelf" -o "/usr/bin/patchelf" && chmod +x "/usr/bin/patchelf"
   #----------------------#
   ##Rust
-  pacman -Syu --noconfirm && pacman rust --sync --needed --noconfirm ; cargo --version ; rustc --version
+  pacman -Syu --noconfirm && pacman rust --sync --needed --noconfirm ; cargo --version ; rustc --version || true
   #----------------------#
 EOS
 #------------------------------------------------------------------------------------#
