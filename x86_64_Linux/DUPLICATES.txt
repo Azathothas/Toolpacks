@@ -115,19 +115,6 @@ REPO: https://github.com/BurntSushi/ripgrep
 Web URL: https://github.com/BurntSushi/ripgrep
 
 ---------------------
-Name: ipinfo
-DESCR: Official Command Line Interface for the IPinfo API
-Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo
-REPO: https://github.com/ipinfo/cli
-Web URL: https://ipinfo.io/
-
-Name: ipinfo-cli
-DESCR: Official Command Line Interface for the IPinfo API
-Download URL: https://bin.ajam.dev/x86_64_Linux/ipinfo-cli
-REPO: https://github.com/ipinfo/cli
-Web URL: https://ipinfo.io/
-
----------------------
 Name: notify-send
 DESCR: Rust version of notify-send for display notifications on linux desktop
 Download URL: https://bin.ajam.dev/x86_64_Linux/notify-send
