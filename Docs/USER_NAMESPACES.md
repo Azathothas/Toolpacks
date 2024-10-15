@@ -27,12 +27,18 @@ sudo dmesg | grep -E '(selinux|apparmor|security)'
 
 - #### [Enable]()
 > - READ: https://www.baeldung.com/linux/kernel-enable-user-namespaces
+> - You will also need to install [`uidmap`](https://command-not-found.com/newuidmap)
+> - For [Ubuntu (AppArmor)](https://askubuntu.com/questions/1511854/how-to-permanently-disable-ubuntus-new-apparmor-user-namespace-creation-restric): https://askubuntu.com/questions/1511854/how-to-permanently-disable-ubuntus-new-apparmor-user-namespace-creation-restric
 ```bash
 !#It will differ based on your Distro & Config, so seek help elsewhere
 
-!#For Ubuntu/Debian & Variants
+!#For Ubuntu/Debian & Variants [Default]
 echo 'kernel.unprivileged_userns_clone=1' | sudo tee -a "/etc/sysctl.conf"
 sudo service procps restart
 sudo sysctl -p "/etc/sysctl.conf"
+#Reboot
+
+!#For Ubuntu/Debian & Variants [AppArmor]
+echo 'kernel.apparmor_restrict_unprivileged_userns = 0' | sudo tee "/etc/sysctl.d/20-apparmor-donotrestrict.conf"
+#Reboot
 ```
-> - You will also need to install [`uidmap`](https://command-not-found.com/newuidmap)
