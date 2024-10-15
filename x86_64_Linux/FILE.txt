@@ -411,7 +411,7 @@ gfx:                              ELF 64-bit LSB executable, x86-64, version 1 (
 gguf-tools:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 gh:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=mchjKUPGP-tcHgmeASCt/K7Ax8oTHND2I5HdEIxZV/O1s8WhuTYbxA4kxg-XL-/51vKUfqKFjHGJFwwWQU0, stripped
 gh-dash:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=RSuh5zzJioEmyrrTJ8g3/_FagRMCcQlrEdh5qX6_p/IC_j9dnIlpH-lT-B-_Ou/9iZ_G578HsacVPe-GjC0, stripped
-gh-dash.preview.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+gh-dash.preview.png:              PNG image data, 1282 x 640, 8-bit/color RGBA, non-interlaced
 gh.preview.png:                   PNG image data, 1200 x 630, 8-bit/color RGBA, non-interlaced
 ghfetch:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AWfYq3gLwK4k-ZdEbk8h/c0TlJdB1OUh5bzA5bdt5/c9aUKKHjnmJNYNK5QVnt/p6nrvCoe7OBSdng9PNpE, stripped
 gickup:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -785,6 +785,7 @@ nnn:                              ELF 64-bit LSB executable, x86-64, version 1 (
 noir:                             ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=38d33be9193651bee1ee0beab01dcb29dc7b1311, for GNU/Linux 3.2.0, stripped
 noir.preview.png:                 JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1280x640, components 3
 nomore403:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+noroot-do:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 noseyparker:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 noseyparker.preview.png:          PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 notify:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=mBHVWX_6pARDwV5Hjhbo/ZVnvGsXvcGLPup60Q40h/ZWcUUbYDhCb0MyEfQV66/fcgGgV10vN4QQ0BfW0MV, stripped
@@ -832,7 +833,7 @@ passdetective:                    ELF 64-bit LSB executable, x86-64, version 1 (
 patchelf:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pathbuster:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=d19278069f3c32a7b05819e3c64a1ffc30ad2336, for GNU/Linux 3.2.0, stripped
 pdfcpu:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=pJ9g1DrKoVYLADY2qLrz/S5_hLEhuvtnO9UqvhVuc/Vb2Vdx6DOjyLv2SNrvMD/vUlpcUN0sRyVY0XSKqOH, stripped
-pdfcpu.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+pdfcpu.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 pelf:                             POSIX shell script, Unicode text, UTF-8 text executable, with very long lines (757)
 pelf_extract:                     POSIX shell script, ASCII text executable
 pelf_linker:                      POSIX shell script, ASCII text executable
@@ -1075,6 +1076,8 @@ sessionprobe:                     ELF 64-bit LSB executable, x86-64, version 1 (
 sf:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 sftp:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 sftp-server:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+sharun:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+sharun-lib4bin:                   Bourne-Again shell script, ASCII text executable
 shc:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 shell2http:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AiVp-YLpnea7VHGvShxv/atpIs5vStslZE5E57Zf8/9mY-5RzGwzPGtkRMZK8j/GHwPzywrsPai6ve99kYr, stripped
 shell2http.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
@@ -1389,7 +1392,7 @@ zapper:                           ELF 64-bit LSB executable, x86-64, version 1 (
 zapper-stealth:                   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 zdns:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 zellij:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-zellij.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+zellij.preview.png:               PNG image data, 1065 x 534, 8-bit/color RGBA, non-interlaced
 zenith:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8864c9c02bd61fd707353ccbc39f71027d5b8fcd, stripped
 zerotier-cli:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 zerotier-idtool:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

@@ -30,7 +30,7 @@
 175K   ├── ahost
  69K   ├── curl.preview.png
  44K   ├── tailscale.preview.png
- 40K   ├── pkg.default.png
+ 39K   ├── pkg.default.png
  38K   ├── rclone.preview.png
  37K   ├── base.default.png
  19K   └── bin.default.png

@@ -882,6 +882,7 @@
  1.9M   ├── age-keygen
  1.9M   ├── curlie
  1.9M   ├── byp4xx
+ 1.9M   ├── noroot-do
  1.9M   ├── notify-send-rs
  1.9M   ├── notify-send
  1.9M   ├── bbscope
@@ -1122,9 +1123,11 @@
  314K   ├── comb.preview-1.png
  314K   ├── certstream.preview-1.png
  311K   ├── pv
+ 308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  303K   ├── mdp
  288K   ├── region_restriction_check.sh
+ 282K   ├── pdfcpu.preview.png
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
  274K   ├── doas
@@ -1208,6 +1211,7 @@
  138K   ├── pidstat
  138K   ├── ifrename
  136K   ├── xplr.preview.png
+ 134K   ├── zellij.preview.png
  134K   ├── lazydocker.preview.png
  132K   ├── noseyparker.preview.png
  132K   ├── mantra.preview.png
@@ -1245,7 +1249,6 @@
  102K   ├── cmd-wrapped.preview.png
  102K   ├── clockdiff
  102K   ├── arping
- 101K   ├── zellij.preview.png
   99K   ├── gitpod-cli.preview.png
   98K   ├── crontab
   98K   ├── unix2mac
@@ -1257,7 +1260,7 @@
   97K   ├── listmonk.preview.png
   94K   ├── imhex.preview.png
   94K   ├── darkhttpd
-  93K   ├── gh-dash.preview.png
+  93K   ├── sharun
   93K   ├── mpstat
   92K   ├── mdcat.preview.png
   91K   ├── shc
@@ -1301,7 +1304,6 @@
   66K   ├── zapper-stealth
   66K   ├── oha.preview.png
   65K   ├── hakrawler.preview.png
-  63K   ├── pdfcpu.preview.png
   63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
   62K   ├── tut.preview.png
@@ -1389,6 +1391,7 @@
   11K   ├── lsix
   11K   ├── tailspin.preview.png
   11K   ├── nicotine-plus.preview.png
+ 8.5K   ├── sharun-lib4bin
  8.5K   ├── proot.preview.png
  8.5K   ├── halp.preview.png
  7.5K   ├── sk-tmux

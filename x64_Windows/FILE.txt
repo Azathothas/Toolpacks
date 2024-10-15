@@ -150,7 +150,7 @@ pandoc.exe:                    PE32+ executable (console) x86-64 (stripped to ex
 pandoc.preview.png:            PNG image data, 933 x 411, 8-bit/color RGBA, non-interlaced
 paste.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 pdfcpu.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
-pdfcpu.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+pdfcpu.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 pdfdetach.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 pdffonts.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 pdfimages.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
@@ -207,7 +207,6 @@ ssh-shellhost.exe:             PE32+ executable (console) x86-64 (stripped to ex
 ssh-sk-helper.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 ssh.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 sshd.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
-stP1kAlM:                      empty
 step.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 step.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 stunner.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections

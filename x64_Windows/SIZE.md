@@ -186,6 +186,7 @@
  445K   ├── scp.exe
  364K   ├── sftp-server.exe
  316K   ├── picocrypt.preview.png
+ 282K   ├── pdfcpu.preview.png
  175K   ├── yt-dlp.exe
  174K   ├── ssh-shellhost.exe
  167K   ├── bin2video.exe
@@ -222,7 +223,6 @@
   73K   ├── jwt-cracker.preview.png
   68K   ├── age.preview.png
   68K   ├── brook.preview.png
-  63K   ├── pdfcpu.preview.png
   62K   ├── eget.preview.png
   58K   ├── batcat.preview.png
   54K   ├── b3sum.preview.png
@@ -248,6 +248,5 @@
   26K   ├── 7z.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
-  11K   ├── yt-dlp.preview.png
-   0B   └── stP1kAlM
+  11K   └── yt-dlp.preview.png
 ```

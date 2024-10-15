@@ -829,6 +829,7 @@
  2.1M   ├── phantun-server
  2.0M   ├── curlie
  2.0M   ├── pelfd-bin
+ 2.0M   ├── noroot-do
  2.0M   ├── sd
  2.0M   ├── cexec
  2.0M   ├── byp4xx
@@ -1041,6 +1042,7 @@
  308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  288K   ├── region_restriction_check.sh
+ 282K   ├── pdfcpu.preview.png
  278K   ├── freeze.preview.png
  276K   ├── cpufetch
  274K   ├── sftp-server
@@ -1163,6 +1165,7 @@
   97K   ├── darkhttpd
   97K   ├── listmonk.preview.png
   94K   ├── cronie-crontab
+  92K   ├── mdcat.preview.png
   91K   ├── git-cliff.preview.png
   90K   ├── steampipe.preview.png
   87K   ├── runst.preview.png
@@ -1188,12 +1191,12 @@
   67K   ├── hacker-scoper.preview.png
   66K   ├── proxychains
   66K   ├── oha.preview.png
+  65K   ├── sharun
   65K   ├── ptyspawn
   65K   ├── hcxwltool
   65K   ├── hcxeiutool
   65K   ├── hakrawler.preview.png
   64K   ├── joker
-  63K   ├── pdfcpu.preview.png
   63K   ├── jaeles.preview.png
   63K   ├── importenv
   62K   ├── z-tokens.preview.png
@@ -1206,7 +1209,6 @@
   56K   ├── cloudfox.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
-  54K   ├── mdcat.preview.png
   54K   ├── podsync.preview.png
   52K   ├── miller.preview.png
   51K   ├── redguard.preview.png
@@ -1214,6 +1216,7 @@
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
   50K   ├── dvc.preview.png
+  49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
   48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
@@ -1273,9 +1276,9 @@
   13K   ├── wg-quick
   11K   ├── yt-dlp.preview.png
   11K   ├── lsix
-  11K   ├── circumflex.preview.png
   11K   ├── tailspin.preview.png
   11K   ├── nicotine-plus.preview.png
+ 8.5K   ├── sharun-lib4bin
  8.5K   ├── proot.preview.png
  8.5K   ├── halp.preview.png
  7.5K   ├── sk-tmux
