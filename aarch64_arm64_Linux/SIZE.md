@@ -1061,7 +1061,11 @@
  243K   ├── lorien.preview.png
  240K   ├── rattler-build.preview.png
  238K   ├── udpx.preview.png
+ 238K   ├── METADATA.AIO.json.xz
  236K   ├── planor.preview.png
+ 236K   ├── METADATA.AIO.yaml.xz
+ 235K   ├── METADATA.AIO.toml.xz
+ 235K   ├── METADATA.AIO.min.json.xz
  232K   ├── netexec.preview.png
  231K   ├── glow.preview.png
  220K   ├── ppsspp.preview.png
@@ -1301,5 +1305,13 @@
  512B   ├── zerotier-one_systemd_service
  512B   ├── nezha-dashboard.openrc
  512B   ├── binfetch.cfg
- 512B   └── TEST
+ 512B   ├── TEST
+ 512B   ├── METADATA.AIO.yaml.xz.bsum
+ 512B   ├── METADATA.AIO.yaml.bsum
+ 512B   ├── METADATA.AIO.toml.xz.bsum
+ 512B   ├── METADATA.AIO.toml.bsum
+ 512B   ├── METADATA.AIO.min.json.xz.bsum
+ 512B   ├── METADATA.AIO.min.json.bsum
+ 512B   ├── METADATA.AIO.json.xz.bsum
+ 512B   └── METADATA.AIO.json.bsum
 ```

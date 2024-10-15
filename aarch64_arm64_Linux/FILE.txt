@@ -1,6 +1,18 @@
 7z:                               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
+METADATA.AIO.json.bsum:           ASCII text, with no line terminators
+METADATA.AIO.json.xz:             7-zip archive data, version 0.4
+METADATA.AIO.json.xz.bsum:        ASCII text, with no line terminators
+METADATA.AIO.min.json.bsum:       ASCII text, with no line terminators
+METADATA.AIO.min.json.xz:         7-zip archive data, version 0.4
+METADATA.AIO.min.json.xz.bsum:    ASCII text, with no line terminators
 METADATA.AIO.toml:                Unicode text, UTF-8 text
+METADATA.AIO.toml.bsum:           ASCII text, with no line terminators
+METADATA.AIO.toml.xz:             7-zip archive data, version 0.4
+METADATA.AIO.toml.xz.bsum:        ASCII text, with no line terminators
 METADATA.AIO.yaml:                Unicode text, UTF-8 text
+METADATA.AIO.yaml.bsum:           ASCII text, with no line terminators
+METADATA.AIO.yaml.xz:             7-zip archive data, version 0.4
+METADATA.AIO.yaml.xz.bsum:        ASCII text, with no line terminators
 TEST:                             ASCII text, with CRLF line terminators
 act:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=g2yoMBcPlG01QV2FzYDg/z2SHapMPk_pT_1OeuYvZ/TATv2O39H21T-AA8fVBH/T7P0GBtHdBxnpx6sNauu, stripped
 actionlint:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=hdw8OHW5Gr2XEZYH8fyx/OzLGzTtnjAssvOAscTyP/7vihgvP4JGVjqBRaxPFm/QtL7BC-Wm6hjTVtrQLow, stripped
