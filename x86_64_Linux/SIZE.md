@@ -1131,9 +1131,9 @@
  284K   ├── METADATA.AIO.json.zstd
  283K   ├── METADATA.AIO.yaml.xz
  282K   ├── pdfcpu.preview.png
- 282K   ├── METADATA.AIO.toml.zstd
  282K   ├── METADATA.AIO.min.json.zstd
  281K   ├── METADATA.AIO.yaml.zstd
+ 281K   ├── METADATA.AIO.toml.zstd
  281K   ├── METADATA.AIO.toml.xz
  281K   ├── METADATA.AIO.min.json.xz
  278K   ├── freeze.preview.png
