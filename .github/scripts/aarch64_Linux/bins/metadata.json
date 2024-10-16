@@ -2381,7 +2381,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-13T12:11:40",
+    "update_date": "2024-10-15T12:12:44",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -2633,6 +2633,11 @@
     "name": "nomore403.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/nomore403.sh"
+  },
+  {
+    "name": "noroot-do.sh",
+    "update_date": "2024-10-14T12:08:58",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/noroot-do.sh"
   },
   {
     "name": "noseyparker.sh",
@@ -3423,6 +3428,11 @@
     "name": "sessionprobe.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sessionprobe.sh"
+  },
+  {
+    "name": "sharun.sh",
+    "update_date": "2024-10-14T12:08:58",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/sharun.sh"
   },
   {
     "name": "sharutils.sh",

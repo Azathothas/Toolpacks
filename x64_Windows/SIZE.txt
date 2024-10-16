@@ -11,7 +11,7 @@
   39M   ├── step.exe
   31M   ├── algernon.exe
   30M   ├── tusd.exe
-  29M   ├── sing-box.exe
+  30M   ├── sing-box.exe
   29M   ├── dbbench.exe
   26M   ├── ngrok.exe
   25M   ├── brutespray.exe
@@ -79,7 +79,6 @@
  2.3M   ├── geodns.exe
  2.2M   ├── tac.exe
  2.2M   ├── pdftops.exe
- 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -91,6 +90,7 @@
  1.6M   ├── sort.exe
  1.6M   ├── dua.exe
  1.5M   ├── ls.exe
+ 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.5M   ├── fastfetch.exe
@@ -124,14 +124,14 @@
  962K   ├── jq.exe
  958K   ├── base64.exe
  958K   ├── base32.exe
- 929K   ├── wc.exe
  929K   ├── mktemp.exe
  929K   ├── ln.exe
+ 928K   ├── wc.exe
  927K   ├── cut.exe
  924K   ├── rm.exe
  921K   ├── uniq.exe
- 921K   ├── printf.exe
  920K   ├── shuf.exe
+ 920K   ├── printf.exe
  918K   ├── fmt.exe
  913K   ├── tr.exe
  909K   ├── dircolors.exe
@@ -186,6 +186,7 @@
  445K   ├── scp.exe
  364K   ├── sftp-server.exe
  315K   ├── picocrypt.preview.png
+ 281K   ├── pdfcpu.preview.png
  175K   ├── yt-dlp.exe
  174K   ├── ssh-shellhost.exe
  167K   ├── bin2video.exe
@@ -222,7 +223,6 @@
   72K   ├── jwt-cracker.preview.png
   68K   ├── age.preview.png
   67K   ├── brook.preview.png
-  63K   ├── pdfcpu.preview.png
   61K   ├── eget.preview.png
   58K   ├── batcat.preview.png
   54K   ├── b3sum.preview.png
@@ -249,4 +249,5 @@
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
   11K   ├── yt-dlp.preview.png
+   0B   ├── stiG2Kb7
    0B   └── stP1kAlM
