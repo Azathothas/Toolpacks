@@ -80,7 +80,7 @@ eget.exe:                      PE32+ executable (console) x86-64 (stripped to ex
 eget.preview.png:              PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
 ein.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 env.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
-err.exe:                       PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows, 5 sections
+err.exe:                       7-zip archive data, version 0.4
 expand.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 expr.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
 factor.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
@@ -146,6 +146,7 @@ od.exe:                        PE32+ executable (console) x86-64 (stripped to ex
 ooniprobe-windows-amd64.exe:   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
 ooniprobe.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 11 sections
 ooniprobe.preview.png:         PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
+openssh.zip:                   Zip archive data, at least v2.0 to extract, compression method=store
 pandoc.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 9 sections
 pandoc.preview.png:            PNG image data, 933 x 411, 8-bit/color RGBA, non-interlaced
 paste.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections
@@ -207,8 +208,10 @@ ssh-shellhost.exe:             PE32+ executable (console) x86-64 (stripped to ex
 ssh-sk-helper.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 ssh.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
 sshd.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 6 sections
+stP1kAlM:                      empty
 step.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 step.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+stiG2Kb7:                      empty
 stunner.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 8 sections
 stunner.preview.png:           PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
 sum.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows, 5 sections

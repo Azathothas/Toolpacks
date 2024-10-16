@@ -4899,7 +4899,7 @@ bin:
     bin_name: fyne
     description: Cross platform GUI toolkit in Go inspired by Material Design
     note: ""
-    version: v2.5.1
+    version: v2.5.2
     download_url: https://bin.ajam.dev/aarch64/fyne
     size: 13.59 MB
     bsum: 18ff5a4bf0781262695294b1c92564493a50b3e5f0f2b5b563de83ab5ddd8744
@@ -5494,7 +5494,7 @@ bin:
     bin_name: gitleaks
     description: "Protect and discover secrets using Gitleaks \U0001F511"
     note: ""
-    version: v8.20.1
+    version: v8.21.0
     download_url: https://bin.ajam.dev/aarch64/gitleaks
     size: 6.82 MB
     bsum: 540b38170e48f712a857ec731114cdff4017efa44c271c6550c4ee541fdf9cd9
@@ -10832,7 +10832,7 @@ bin:
     bin_name: ockam
     description: Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
     note: ""
-    version: ockam_v0.134.0
+    version: ockam_v0.135.0
     download_url: https://bin.ajam.dev/aarch64/ockam
     size: 59.68 MB
     bsum: ef5ca63040388fdead132381ef65f03e5593ad110aac3516d911fd50e4e0017f
@@ -14249,7 +14249,7 @@ bin:
     bin_name: sing-box
     description: The universal proxy platform
     note: ""
-    version: v1.9.7
+    version: v1.10.0
     download_url: https://bin.ajam.dev/aarch64/sing-box
     size: 28.9 MB
     bsum: 340c415483409d6872e3c152360e7b3e11f93c1ac6d4c5fc99899dc5a037f0cb
@@ -29910,9 +29910,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/base32
     size: 1.38 MB
-    bsum: 0b2e725db834f1d3df70963e176dc48c2a670b2b2bcd12d12ef1ac1e684b4565
-    shasum: 7e67de16721efa00afe72896a21df9c45720784e2d4bead95b28e08bfd07c453
-    build_date: 2024-10-08T06:08:58
+    bsum: be1d3daabf3fd51ed67e5eafdb9bd3ccdcc66741ed3330f73ec158663ecf59d5
+    shasum: 113fda3061cb776f608059bf6f1ab2f5b2f101cff6415fd4dfdace5e8d5e78af
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -29927,9 +29927,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/base64
     size: 1.38 MB
-    bsum: f020ee5c7b23c6fcc6516fed13b481eb0ccc02f6fcef6dd193e5f1d2486a3325
-    shasum: e773f37c648f455035fd92ad21382adb3dcd8d60826d8ab61a7efdd31db9d255
-    build_date: 2024-10-08T06:08:58
+    bsum: 62d7e528b2a48d8987f3d961e209154807ff745d0f9e9ccbeb6240c0cd932765
+    shasum: 578fa4743f35d69bdee383448adc6453422c9225c395f7b4b5ae9645d5778e56
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -29944,9 +29944,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/basename
     size: 1.27 MB
-    bsum: 23c1c3051be6476e464066936e8af672b6dcc105f9d49d374e55a2d6a0e2d0d2
-    shasum: fea8e534b6fbd439814b003f42022ef0ced0c5acb414db08868e50d42e8969cc
-    build_date: 2024-10-08T06:08:57
+    bsum: fc249ccadb293b67c884930ff2ee9712a38bd50391768002396fda1ed5cd45a6
+    shasum: e5ffb3e65da97e019492a197b0402dbcb2f53153f19cf2fedbd298ac603f7685
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -29961,9 +29961,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/basenc
     size: 1.4 MB
-    bsum: 1a9b0c79f4e1a5fc5c2cb13fc348b3ac917737419ce8c0dcb06124972db8c34b
-    shasum: d8737087ab6fb4fd73fb82d5d1ed4e7719d7ad201284a2a47646534ad30348a1
-    build_date: 2024-10-08T06:08:58
+    bsum: 95414cddfce681613745ff59bfcd8c139df5836e225f26fac814ae5b3cc5520c
+    shasum: 03ae3ad00fed6b9467984566116cf08af29af134ec6bae3a2216bccd5fc57ace
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -29978,9 +29978,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/cat
     size: 1.31 MB
-    bsum: 54036fbc923b090b9c815750833696f784f1bd4389fcdd5654c59ad4bc65eb41
-    shasum: c316d99ff5e28627ca404ff37cc2c56fcaadaf612058e350c98bb29e8113ae6c
-    build_date: 2024-10-08T06:08:58
+    bsum: 2a95701420f8117fec6114204a99c49d6043a2a3b39e03c0875409e9f8a12ab0
+    shasum: 0ca052ee3acafcbf86e0f0f5e42735fad60c8b350ac34676cff50f278d5779d3
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30012,9 +30012,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/chmod
     size: 1.3 MB
-    bsum: ff185dc1d7b754a087fe1a7c3b120dc3ee4af358a87763538ec7ed4cc92fffb5
-    shasum: 29f03fff87d9076f506d0815092c9bfe352728fd176562cd8d4fe9f404182b9b
-    build_date: 2024-10-08T06:08:57
+    bsum: 42473734117433772144dfbd977ffdc71cd98461fb0605d75dac11444b04caba
+    shasum: e30996e0b2801cdb9818faf8e341d1da3169d588281a5af4f5e60e78bfd99d08
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30046,9 +30046,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/chroot
     size: 1.53 MB
-    bsum: 45e9e5fd00540ea1d1491b830f78b2352c0c0a6a90a54a7c1dda0325e8b821b7
-    shasum: c1892111d46d597a03ef59462ab7bd32b5b6787ad5db3e50b7de7048d556f8a0
-    build_date: 2024-10-08T06:08:58
+    bsum: 43f5e1d492c793b54df0e13435bd4c8adfd4fd9ef817bf3cb8c4313f9ddcf573
+    shasum: c24c195203e8bfbac49d7472fd950d2498707fee05402dee534786fd4add2977
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30063,9 +30063,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/cksum
     size: 2.69 MB
-    bsum: 3f6404738f2d36e17a81e4c9e11bc362b81cb410d3066f664017b3cb32f0a403
-    shasum: 1147e2952b5cc268e0b5606c023493e3dee05b5e30ed9aa18c37806c8da3c7a5
-    build_date: 2024-10-08T06:08:57
+    bsum: 3d0fc77d57af0528863f3f5e2479424565ad6b92e517d965d9cc195898ff195d
+    shasum: a8824a0c6ca6bc94eb67c6eb34b6708a6dd329a41760a60f9753078040036f75
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30080,9 +30080,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/comm
     size: 1.27 MB
-    bsum: 126c5cec90a40abc74c9e6564c6e3a1add0d55cb97e62989e89fcc23ada8ba80
-    shasum: 1e738ccf449932b9d2d1004a21a80888b85ab5239bd05b91ef14fa1a7584da37
-    build_date: 2024-10-08T06:08:57
+    bsum: 62ba069537dcf22bd954f52a4fceda516aa30d666fa3ed4f12eaae45ac27aa2a
+    shasum: 57462c5b6082da870da1b4d7ff66ee4214195dc4bd8da4022c8595fd5c393abb
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30096,10 +30096,10 @@ base:
     note: ""
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/coreutils
-    size: 9.07 MB
-    bsum: 15daaed89f22c84271e086a0f4fabcd0770818b685bbac5aa19ad642c25ca381
-    shasum: 6efeb008b246b6c6ce4ad686e9035a3b119359cd950961a3d37cea5f291662ed
-    build_date: 2024-10-08T06:08:57
+    size: 9.08 MB
+    bsum: 8f4692a0f7052d4a9cfb729baf3f071f9953fa747cf93cfb72ba104faa8e2f0b
+    shasum: 94cc1e40045a3e77dae26f96accd2506c87515a1f31e284062fa478ae780416d
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30114,9 +30114,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/cp
     size: 1.64 MB
-    bsum: 054b33992092ca68690bcbc19a1bb0e688118a114491160597316a64ff7d6825
-    shasum: d6926f683dfafcf7f63b6aeb878b616449a844a0ff62f0a446bcc7c0105913bc
-    build_date: 2024-10-08T06:08:58
+    bsum: be4cf351b4593857b0407f8eb8fdd39d9cc44e57e13167418c1fc0b01b4e21c6
+    shasum: a546361da18c78c4ba9f9d2d0c3283993b51e054aaaec8d7e699b26c302963d7
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30131,9 +30131,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/csplit
     size: 2.47 MB
-    bsum: fb4b4d6b02088c4a77b86590fea432e93850e8631e36333a8e895f2137eea5ba
-    shasum: 4aed56c8070007371f2087e24c7c62c889c31f7a6c020c021d1a4bed0bb1750d
-    build_date: 2024-10-08T06:08:59
+    bsum: 6b7975529fea3f830829837d2ae9aad641eb6a42946b6f95423003b8d28c00f5
+    shasum: d878736cbb4aa1b52abc6ae70274e332ebff9aecda57ff2dc3844cc98a83475a
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30165,9 +30165,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/date
     size: 2.58 MB
-    bsum: 2fc989d905090038856bfd4afc651f161dbbb8854ee2117cb61336a6e16bf2d1
-    shasum: e64a1500f629061fac7b6fb2d113e669c2cc52833c02de75becd76c114c32f0c
-    build_date: 2024-10-08T06:08:58
+    bsum: e3fc14be315cfae6ab4f9e30922f6d43a6a0dfa289bd2b224d57ccd3c275ef86
+    shasum: 904995dfb2e90c98c8d37ea8c14d4575008ecbbdc4ed74356b5289d0adc2152f
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30250,9 +30250,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/dirname
     size: 1.26 MB
-    bsum: e88644da7a3a626822c34d9f9abaecbf885ebe36a3bd868197416866c598620f
-    shasum: 64191d55bcac8236450cb258cfd15587a317cc9fbfd2fe2ca17cd4d55c986c37
-    build_date: 2024-10-08T06:08:58
+    bsum: 739fe1a27135b8e8475527c86d29f0d9297e9d5e5fe8ed8ae3ee83bc0dd4fd02
+    shasum: 7002dfe73ab89911eeee7350bfce2c15593f7855dde5f24df732170ea169c941
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30267,9 +30267,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/du
     size: 1.6 MB
-    bsum: 7df0504b50130fd5f1c25c832c837e09a04a6c39faf63496d5c0c0b824c366d1
-    shasum: fb7c74646c28ad9f0aa24fe04a19de5f3671a7f5dfdf453ac0975d711f9bd80a
-    build_date: 2024-10-08T06:08:59
+    bsum: 03f5c9f3a4802a3d669f57424f56143aeb4100f2a1678d017060f35a6bcd9e4b
+    shasum: b3d567ec92a6159b8bdef6688a779865c4d0380029f55b9741289c493be8983b
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30437,9 +30437,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/hashsum
     size: 2.66 MB
-    bsum: cbb19787d496df9875a10e6be27b1986c7be42d9a497f54bb2496c2458ee0af1
-    shasum: 1410e7df633335d04ba420787df4d7fad35d5995bd306027a9537fc29c9ce369
-    build_date: 2024-10-08T06:08:57
+    bsum: 96228cdbb1656bb7150859a8541e9481f5bb7516b2bd24c07f6e7d6a3446e49d
+    shasum: ec99f0957a4cc429bfd0143ea76603794d601ef8f6862ab9b32743367d37f4ba
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30454,9 +30454,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/head
     size: 1.33 MB
-    bsum: b9e31d99472f9370f817f03fb8283e3f3aa95a20ce4011a8ab7696b94007581d
-    shasum: 4dc67bde3978de5974e77fc3ef38116ad7a56b21fa72180d9124d17853509b48
-    build_date: 2024-10-08T06:08:59
+    bsum: 7574e32f1a3881fbb22dc81f389736d2dc03508e87e36cf090363c24a8033891
+    shasum: 7a3cfab994e9006e2f39a9ada44baf1fe668a296d7c665dd507c2305a3b78fc7
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30505,9 +30505,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/id
     size: 1.49 MB
-    bsum: ea5c588e4b44ab7656cd8d3a5fc58128d9985e04fe4be5a2d3f173a72a8d4bbf
-    shasum: 2d21a4afab4cb6a0fa48a8e291b41d46daf172e807d2babbc0b729522b71e654
-    build_date: 2024-10-08T06:08:58
+    bsum: d1c61b0e5db9e95811feaf72dc7b5ba789b7451bb72eec771691c63ef23bdc46
+    shasum: fbdae27ccb54ad39e9e8589eb6ddb3e2759945279fe8e0121961ac8e96c9a0e8
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30522,9 +30522,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/install
     size: 1.57 MB
-    bsum: 0bb0fe9b977265630f684331d6d5e0315e7e3ee4ec82a7a16b4e7afb6d3632ee
-    shasum: 7817668580b35cc5907de1e21840f37ee248a1b49dae2e7e7f547a81e0be0140
-    build_date: 2024-10-08T06:08:58
+    bsum: 759fb981ea12d2510b4d805ef6c53834dcf6605a7d20528885ce5ac46155ee5f
+    shasum: 54e6a45e7f68b6e3cab53aa65406b509c72d6be184e6588edd2f1319d48f21d8
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30539,9 +30539,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/join
     size: 1.37 MB
-    bsum: 78c4c79e2984e08399df5697c69e62986d6a433fd689ae619cc231ad33df4a24
-    shasum: 19122bcdd6a9d9c104631b30b68105cf2e8862d7e7aed7a7b75d780310651231
-    build_date: 2024-10-08T06:08:58
+    bsum: 275a0b12c0e5773829f95ec53266fbfae56d03152b974dd6a6d36ee90b3e0ba2
+    shasum: d9e799b27b2fef271aa7fd9ca14382422c6d8ed070193fe9c299a005affd2c18
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30573,9 +30573,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/link
     size: 1.27 MB
-    bsum: f0689b29c5a8df83672ad1c6cff71867e8a925a11bf06c583f84e68fbc4d9566
-    shasum: a9bd6055b73742afdee04dc26522ee3d29eacad95749eabcf6000efac7eb186b
-    build_date: 2024-10-08T06:08:57
+    bsum: 8c92320ee29b349af4854c6db59c5b0e0d22f0001a15372a30c0302995f165de
+    shasum: 8ef1e4ff004464d17f9f064ea4b56587ce9010ef1a7a20980d08b94c38593dec
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30590,9 +30590,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/ln
     size: 1.34 MB
-    bsum: 566b36ab35afa0ee4c61df7a22878c64d46d89b2d435e3ed1dd15660c743be3d
-    shasum: a60390231bd085908eaaede9c6ceb300d559bbbf74223ee677cce5d92195fdd7
-    build_date: 2024-10-08T06:08:57
+    bsum: 04d0ed384d7487a6b451f3d25eef0f9d132e98ef4bd81e022cb2e0b675135d20
+    shasum: 2d9c94b1ca13405abacbaa4d26a82137da2e1cb46e52227fa3e2a14a5fd3ca22
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30641,9 +30641,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/mkdir
     size: 1.29 MB
-    bsum: ecfdb98d84927c38c894fb24bc6acc27731128d12ffa497f1cdd680e6ddf4d86
-    shasum: 5fe972e719375d9bca3b6382705a8c737040f374ff4374b148e5aae47c03445a
-    build_date: 2024-10-08T06:08:58
+    bsum: 97b3846f44aa06c350f59fee9334c542f2c05de89ed098f7272272578b8ae073
+    shasum: dad284e0c315959f6f332e754b2dd98baeb6627cbe1032482c9bfb2cb4c5ad98
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30658,9 +30658,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/mkfifo
     size: 1.27 MB
-    bsum: 6f5009388f01abc232623859f4b77a3f1128231226137998db46e428918f7ed0
-    shasum: 816774715c985fd45b291200516c2b29677b1b38ec40b357ae842f617504835d
-    build_date: 2024-10-08T06:08:58
+    bsum: 68f8257125d18197cd9370e57d81f3e4390f624dfc72367fc01f73949b7a937a
+    shasum: 3c8a5aa4f637b9d042e39bc27cc985d6ce73d96479f7124dfe2fb9b1ee04d5ea
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30675,9 +30675,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/mknod
     size: 1.32 MB
-    bsum: 7739febb5faebda244328437c611a5c90c7cb8d3aa5248581289b06025dcf26e
-    shasum: 15b2315165ab80ef60b8d02469c04e677d905cd4bcf1192094e092d4e03b2cff
-    build_date: 2024-10-08T06:08:58
+    bsum: 87ed2442d1236114014d1616ef3ccbbed611421f3445633091893a4773ae27ad
+    shasum: 9146dac20efb47455983dabe098e31901daebfdf1b146ac4e95abf66dc2c8589
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30692,9 +30692,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/mktemp
     size: 1.32 MB
-    bsum: c15ee4d28e2d03ea3aca9eb1a76fa62cbb3d62f316ccabe308f712a6668017fb
-    shasum: 9bbfce75dacbaf1fbca577e2e7a5f10e017a9ef989b1d52e1e264b9391de7f54
-    build_date: 2024-10-08T06:08:58
+    bsum: 7f496e054b3b6e9a57f720e657287a01d82bab755ab0708b2af53fb7164499a4
+    shasum: 50b4af460aac8a48bba0e97fba5f214a9f12cb3f3129f369466dd974f779d681
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30709,9 +30709,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/more
     size: 1.48 MB
-    bsum: cef7b54523a0fc16aa1a5934ae08793e04a8623670d6396d5f1e1455d490bb40
-    shasum: b0a1ea6940298203c181489793c949916661c443b8738589325f95a7d4c6c9fa
-    build_date: 2024-10-08T06:08:59
+    bsum: b473d50777fc94857d1843ef7de87bf947533e6c7702446b60c8bc8671d0e22b
+    shasum: 54c0a652064304a4bb14c96794e4d35713c15136df91dc58e6ab12796978a883
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30743,9 +30743,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/nice
     size: 1.26 MB
-    bsum: c88d3c8309bc615bb1418649aec5121130272cfcd696e667693bf15824260fb4
-    shasum: 6db2c70d1b6ab6d9dcb8e2ee3435bec948c9de528185fa7cc581ca01fedec51b
-    build_date: 2024-10-08T06:08:59
+    bsum: 6754cf85432a7eaebe796cadcecf5d18ac11097358949cff2065c53b1199d19c
+    shasum: 05d295c667cd9fea9da0bc95a2c598572d9adc25b4df4cf79935891d6110924d
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30760,9 +30760,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/nl
     size: 2.45 MB
-    bsum: 92291d07efbc3139f5835ed7aa9cdc8ace8c7eb02806da500afad8bb233557ff
-    shasum: 81bffac35df4ecb12cb9a1d6dd99e50ded4e8fd32aea9c130dd6e3360cbae9a0
-    build_date: 2024-10-08T06:08:58
+    bsum: 77887d868b77394a5824a59a52765f3f939c7cdf395ebb2a100fd9a083ddc06b
+    shasum: eecfe1b855fc4eacb4ad494bfe7f826120c55e5b8eaf3e9dbb580d5b8a8cb70d
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30777,9 +30777,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/nohup
     size: 1.28 MB
-    bsum: b4b9d9c0970166c35990cd099b4491ffad6d36b0c0885e007cea5b03084a7f3e
-    shasum: 884e4136c876fcfe65224d529cebf42f2a0f139f7bd2a133e0887dbc3bcaf305
-    build_date: 2024-10-08T06:08:58
+    bsum: 8aa4078e73a9641b80ca670908e5aefde44246ec6e249bc0d687cfd790556c51
+    shasum: 7e3a24207109c7b85c7888543e9d6a479011e5f19d1fa7c63b948706f9683c2f
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30811,9 +30811,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/numfmt
     size: 1.37 MB
-    bsum: fb260ee827bfa442d3eeae786059ba517f261c9e5f6e919f773837a8b3f42afe
-    shasum: c05a704399ab3345dc68f5458a53dfb70e8b331c99907c3e5456908535212a37
-    build_date: 2024-10-08T06:08:58
+    bsum: 795aa0e3b94133b5435425624921656311e0ce923bed2d7b953434214ba625c0
+    shasum: 69d0dca8dfb4c789b223f3f316e5b29d19808dfc55355ff214272e9238813868
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30828,9 +30828,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/od
     size: 1.39 MB
-    bsum: 7cfd712bdacd25866d8159e25748389362234dcebee67c3563d4cf964d0b120f
-    shasum: f4a202c5aacedba3ecf35e5c5e76858312dd610b5d9eee949ee4be8c188a1375
-    build_date: 2024-10-08T06:08:57
+    bsum: 3db05e10cab84512d7dd57a14097c9171fe5a1d426d73c2124fc25fa3e21d771
+    shasum: 0f8ec229ac64410d56def3aa6ba092530421ed687fce172bee9526334436f444
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30844,10 +30844,10 @@ base:
     note: ""
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/paste
-    size: 1.28 MB
-    bsum: 063cf57334698f984d2d7f37e9bc4eadb361f7388779d74b1bc74d2616ecc3cd
-    shasum: 34a0db0ee15ecbb5b98e0abd90b71b9afae8f011bb647816fe39127213cd7402
-    build_date: 2024-10-08T06:08:58
+    size: 1.27 MB
+    bsum: b3a983496476be68b2b977098fe2c95d1c16756f7bfe7baf4fb09b8b54ddaf75
+    shasum: 74f3ee74800e30c328ce9e29d32b9ab8882f8284996dd79f822b19dbce038c0a
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30930,9 +30930,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/printf
     size: 1.33 MB
-    bsum: 9def133aad8e3d25c3d1460bb6026036f1f1ed37f5c04bd9b6edb6df833c90cc
-    shasum: 5c7cf88fbed9ba364a6e18bef7cb5fb54dace5504ac9b9788fa6e1c9bdd731e4
-    build_date: 2024-10-08T06:08:58
+    bsum: 6cd77017c0c1293bac674c9d93977ed4c7d18e43960a7537003b52d1608cb90a
+    shasum: 3865b497597b3b646641de12f888805ab3f5e7abbe4d9f0f2a96b648040c4e92
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30947,9 +30947,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/ptx
     size: 2.51 MB
-    bsum: b35a01addbc3be932615569dd1488d283fe6beb2a715a12c50e49cf7929df561
-    shasum: bf60b53fb84645915b870c9c6da722226afbd2a5eebc5b144e7f47e4930c53e8
-    build_date: 2024-10-08T06:08:58
+    bsum: eb2ec5b9fbd03a1f1e928c780c013997421379cbe8d0da3f3be20b28816360ef
+    shasum: ea4feab5ed24092d2d5d7b2f11a9ebd39ba9473fb1c3d3ffd792d81f9bbfe84b
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30981,9 +30981,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/readlink
     size: 1.3 MB
-    bsum: 351e639039265ac9ec2f9d3f50c2e8b7902cd4c0602a3a6516298625224a7e70
-    shasum: 13274e3155097a5824acd5a61ed71e608e63a65b15ff1a14200f1129126e7082
-    build_date: 2024-10-08T06:08:57
+    bsum: b958e09a1d0a28b50328ea57f178fc6792c80d94da689a383b86987df6490794
+    shasum: 754fe205c616cebeee9fd9730966e2479b5705c38de30b77c275c3a3bf19a05d
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -30998,9 +30998,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/realpath
     size: 1.3 MB
-    bsum: c4ca56ce8cb2be8cdd6f9cff3227232659d2d1c31acd944233301ab96c9077c3
-    shasum: dd4fb4670b6b78931be3a2444ff6f671363276625eea40b45d65f20740e60826
-    build_date: 2024-10-08T06:08:58
+    bsum: ec5773263478b0f5d9c08157fcc69d0178930be49a5d9a3fc12b27f3ad0c3336
+    shasum: 14a0a49cfe4232129f3cfcf9ca019a0282c6028dce49c37c1adc7dc49f959774
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31015,9 +31015,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/rm
     size: 1.33 MB
-    bsum: 337f34ebed097d9b692705bf285449ff445671d519ca2619e8e319d71cbf73a9
-    shasum: d20ed90916b42ae845f838f7c1815057764f4fbf025f03430f89177f6fd1a04e
-    build_date: 2024-10-08T06:08:59
+    bsum: e8df8dcde739c6da18af7a51866eb220f90c79c50d3e9302b2ef595fa57f41c4
+    shasum: 6ed2e61d40bce5169586e319d40d628bb00f4a0312203cfac23508f54b4373e1
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31049,9 +31049,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/seq
     size: 1.4 MB
-    bsum: 4103cd2d966da151df370e80ee8ce53025940bf24e51fe4c238e9bae18599002
-    shasum: 8c37c72aec17b698d64814cb89824a48bd49484f0bbb7c8d4437739d0f525771
-    build_date: 2024-10-08T06:08:58
+    bsum: f32a8abd32a6c3e7266af4f7c0df6544c6df243abdee53ddc46673aac2345bc4
+    shasum: 57ccfc178b7dbdbc61624c5e7642fa343c8b806ee26e9632a37dc06de5c3ff5b
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31066,9 +31066,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/shred
     size: 1.33 MB
-    bsum: 2780e0f8fff5d286d5ea8818040a2d26fcc2893925f0ad7f67bd8bc1c47d9a88
-    shasum: 54aa5578f51399f396a9db540deb7b71bc739cc471b54b386c30fbddd8862016
-    build_date: 2024-10-08T06:08:58
+    bsum: 96d70447ae5de9cefce1146da4b249e216b880718793182dda1d41330ccb42cb
+    shasum: 3e86850b13f722af56fb352faae618dfee612b837315a9d20b9c7342ac19794b
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31117,9 +31117,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/sort
     size: 1.91 MB
-    bsum: 959a61cf5dfb4d01e893fcfa66c17ccd43c990d4b1c55bbf76099aa59e9611f4
-    shasum: 7957e85c8daaf06e0926a208cc2bbac6e3350f277d76fa74ff87f44bd8aa9fb0
-    build_date: 2024-10-08T06:08:57
+    bsum: 861101a3a61d0e3bf568df803b385faa15a7d4402e334f4382af91bf67e1895a
+    shasum: a5c3a84a9b367183eaccf171f54bdc54dfff7e231530068f8866df2f77d07a65
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31168,9 +31168,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/stdbuf
     size: 1.69 MB
-    bsum: 01ce0a4f71ca6a4dd04068ca49fdf335597d07129703cfdf88f5af1262ef6036
-    shasum: 4766d7c802e7a4ae4c1ae108a2ac8173f7b2f6df325c9675476b9cbefe24dcc5
-    build_date: 2024-10-08T06:08:58
+    bsum: c83226c18e43aae6ae3fa2ff732dfd8be23a0f83b6d526b5e8fe146564d85aaa
+    shasum: 7b6132377bad57b500926e32977e0fd6763ef552aed373b8a93e4eaee38d6b14
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31202,9 +31202,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/sum
     size: 1.29 MB
-    bsum: fae5234d5412dbf4c9a139d51700e044134574e6af8442b04e83465061729e4b
-    shasum: 755446916426fcd02046fd83dfd1f3e77ebf0235a88dad190b37749e7c4552ef
-    build_date: 2024-10-08T06:08:58
+    bsum: 985be54dcbd42066f19ebed897a9e960cdec42bf3809b1eee9de604a252d71eb
+    shasum: 8cc00b769104a983035220c0cf5c2004249ee9aad7b32b9ba8411e894c496b8a
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31270,9 +31270,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/tee
     size: 1.31 MB
-    bsum: 1800dd7f20f61e17e3757c10402990650a8456f1cace0c66be8e84631d728634
-    shasum: 02fa1299e43badfc68a06f4558703f714e7316a644abd0bc26a7d08a3fc4df3f
-    build_date: 2024-10-08T06:08:58
+    bsum: 342f2d595da200f563bb91176e20d658dd24474f8fe46a649e10333de8aff27c
+    shasum: 1a51ff1ebe8e3b4b89b2dbac775f5e1b9ce705789ca1a9ebb6eee4599c8836b4
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31338,9 +31338,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/tr
     size: 1.34 MB
-    bsum: 9cf1c239fe038931a1e330aa2647cd6338a162e7b01acad9d8360ad1e83f4802
-    shasum: 46f0e4cc99c61ad0c812c14a4d731de9b71dedf0ed1781810ab56d7927c99249
-    build_date: 2024-10-08T06:08:58
+    bsum: 076393d8029c60cd30586a6efffe4a966d0bbc8728ff4b443432338495494405
+    shasum: 812d1ecf326809396d643e9612d96c3cdc0d25e2185874768126f4dd9ad28bb0
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31372,9 +31372,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/truncate
     size: 1.28 MB
-    bsum: 877c7633c97e559d76d91594463ca727180972091be6d0ccb655b60acd5b337a
-    shasum: 64e56669521bc32d802861539c00faf6b06544ec42735901bfae0cdefbc0a185
-    build_date: 2024-10-08T06:08:58
+    bsum: 48a99ef15034a024e4a3b1d7080b38822d84f9a2b0f4f6e9b73db3bba3e97e12
+    shasum: 4287d960e75e28075a8545cda8307ebfcf32ac6c3bc21b3d56436d83ff4c10aa
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31389,9 +31389,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/tsort
     size: 1.3 MB
-    bsum: f00bc81eef6fd6979da1e62e543af53121de28e96e244efb1d14b5d9e07dd71f
-    shasum: 11919e5999b8b098bcde8488aad9c33e06b97e2f720baf14c753bf06a16c1fe1
-    build_date: 2024-10-08T06:08:57
+    bsum: 366e5c082cf05269dbf956626cc9b6379776844c2446be5965c6405a46a13f06
+    shasum: 63b8149c8459f9580e097ef98e4d5e68aa8571a8cdb646d97a62a3074af9468d
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31474,9 +31474,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/unlink
     size: 1.27 MB
-    bsum: 70de75e528e769cd77df515858cfd3c3c9f956843049fdb15d45570a56f11d6a
-    shasum: c7f658e15208806701a8a3b6ec2261dc258ac207ea618baa52f1e45497e07196
-    build_date: 2024-10-08T06:08:57
+    bsum: 12f93ac8f4165308670d8a522a9bd5617d92bd2c86ae984b5cbe8e304ac58c3c
+    shasum: 9bd9b9a3f63b1ce4b4d5331baa86069366c844b2110b3d4cb1cca65952e194f6
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31491,9 +31491,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/uptime
     size: 1.39 MB
-    bsum: 0719ec8d7c74beff1231e019feb63f99d14f6940b2210e96ac2282d1450cbd69
-    shasum: 490d5c1ebf3803f1224650889e0be387cfdebf177012aae5af801b232eb88517
-    build_date: 2024-10-08T06:08:57
+    bsum: 5a2739dfda05a888c2748a24774c3e8335ed5e670782d0fe2cf2ec224d90bd3f
+    shasum: e872c5d1eb796ae88132f6af187f297bedf5121c98b36ea89abbeb419d1d93be
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31508,9 +31508,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/users
     size: 1.27 MB
-    bsum: 62515d24051812ffcf404712d362f2c6f8b57a51b3383d6ac90cb93d19c3aab9
-    shasum: 3f8ebcda501334d8dd4489e3d9cc97f0f6c2de84fe5e11677054a6cbde6a6293
-    build_date: 2024-10-08T06:08:58
+    bsum: fae83906c3e38f597c6d7b885a0669c8dbf64df59346bc31832af013e1e44f86
+    shasum: 5653b3102a14b342b9ec28ea07436d09e9ee637e6dd9f23554917f54434bb7c2
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31542,9 +31542,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/wc
     size: 1.34 MB
-    bsum: bc480ab3f375f61b7cfda9c0131f7743afe5f58691cc7ddcb72bbce462bda092
-    shasum: f5ffb383397f5c82f24de054c89a4dc2cc4c9b8629a363914ed1887735fd0bb4
-    build_date: 2024-10-08T06:08:58
+    bsum: 776d8f3d443393c121a472b6e908f3173eff9224530faa20d8e918f7a89eae56
+    shasum: 07c4e16e8f19e1b999fbec3ab66b459091bf0dbf839c580f60448e413e8ff13a
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31559,9 +31559,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/who
     size: 1.59 MB
-    bsum: 3b7c7276248e81bcb99717fcf03904d61b27c10838bb337eaed75cd3269e535a
-    shasum: 7f41d01936dd2d9a72fa35c24169efa03ff9a68f3dc73482eaf3a57cdc286708
-    build_date: 2024-10-08T06:08:57
+    bsum: 5dfe6a48e9cca926c23143357b07a0f196a2cc02b4ccd7701631e6aa4f28269e
+    shasum: cc763ed54e96771bf039ee01f620714440f23e468f645a6d411787c0e0d4429f
+    build_date: 2024-10-15T06:27:38
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -31593,9 +31593,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/coreutils_uutils/yes
     size: 1.26 MB
-    bsum: 1972ed0de8ffe34811ff71ffc948654d33c03c1fe63b3a2452014e2fa51b34d2
-    shasum: a5642a491f6cf2d56465850290cd65c2dab428331475deb66e84e8856380ebd1
-    build_date: 2024-10-08T06:08:58
+    bsum: 84fc68f1558f15bc7125c70b03dc37a571ef9e624dd889d8bd6040bfd6172649
+    shasum: 028ff2bc32ad37887906201d2ad03cc1c725e2caa70a76f5cab7250d4110487d
+    build_date: 2024-10-15T06:27:39
     src_url: https://github.com/uutils/coreutils
     web_url: https://github.com/uutils/coreutils
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/coreutils_uutils.sh
@@ -32154,9 +32154,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/dropbear/dbclient
     size: 462.03 KB
-    bsum: 1e7893c1afb18cb72a75166a9d7290dfd47ff7eeb9439a195a8e0ff42bb6a5e8
-    shasum: ad9f6f3fba352de99e8ba9dbe375f464e6433108323c1bc9ce9ab7f29d4b9293
-    build_date: 2024-10-08T07:12:30
+    bsum: bb023dbb8aadb8a96914c03f59c20f03104b1112277b008e994fbc866a2fc2da
+    shasum: d7ff9df82cb261876e7ed062c7134fae6a2c283d0f60329f7f97cdfb8e7a20e3
+    build_date: 2024-10-15T07:32:07
     src_url: https://github.com/mkj/dropbear
     web_url: https://matt.ucc.asn.au/dropbear/dropbear.html
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dropbear.sh
@@ -32171,9 +32171,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/dropbear/dropbear
     size: 461.8 KB
-    bsum: c47e8f8f23456557057b979e5c66172f0184886c948d79b53e53023924aba0e8
-    shasum: 8f4152a86e323f1db81d1da8f3b163990664b6b2a7c882b29b53b64003b28e24
-    build_date: 2024-10-08T07:12:30
+    bsum: 8f04f4e8cc7cb251437b128dc0fcfc9fd7244bddcf0e9604d77ee4772cf6ff74
+    shasum: a3b6c044c577e87696794a7da82e6e9988cbeebc173a2f5a05d94c17a28ecaf8
+    build_date: 2024-10-15T07:32:07
     src_url: https://github.com/mkj/dropbear
     web_url: https://matt.ucc.asn.au/dropbear/dropbear.html
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dropbear.sh
@@ -32188,9 +32188,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/dropbear/dropbearconvert
     size: 264.13 KB
-    bsum: 5c3ac1c848ec0e4a1bd09d672c7a682ac9e6172f0e6183bc6b4748bd76dafc7f
-    shasum: 1eb77444ae7e2c1b261af2ee5e3c846fb261d6a1844b893d8f75b82e8e791769
-    build_date: 2024-10-08T07:12:30
+    bsum: bc2f0ef2136cd7cdfda00275320e8a5829cbb036f6b21ffc0465b114e5801103
+    shasum: 38087f2e638080954a78cc0b763f7c5e92d27dc8732a153c1c24a492f9157a12
+    build_date: 2024-10-15T07:32:07
     src_url: https://github.com/mkj/dropbear
     web_url: https://matt.ucc.asn.au/dropbear/dropbear.html
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dropbear.sh
@@ -32205,9 +32205,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/dropbear/dropbearkey
     size: 263.9 KB
-    bsum: 3d5de65f46c9f05750371f13fe394c098dc2fd4015b09526e770a5acb05c09c9
-    shasum: ac4c1b590ffc90ff0160bb35f0cc96cc6552cb88770616a8f4997acd846e04ac
-    build_date: 2024-10-08T07:12:30
+    bsum: 5cbc06a2c87c2967cbf1acf3800133a0dbf42ae1468dbee8c3f859ddb622abc0
+    shasum: dda542e7a2b2c6dc4c95c810100e0d5b75d2c0fb09b6dbad64f6f9b20c988855
+    build_date: 2024-10-15T07:32:07
     src_url: https://github.com/mkj/dropbear
     web_url: https://matt.ucc.asn.au/dropbear/dropbear.html
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dropbear.sh
@@ -32222,9 +32222,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/dropbear/dropbearmulti
     size: 593.42 KB
-    bsum: 7d6052ca5ba3dbf60c12f4dc25fea9d0ad64e6d741f8b8004180ba2467cfd0b6
-    shasum: 11814b32ba814658aa599ea3a20bedc1c379d005e488372259ab49a159ff4471
-    build_date: 2024-10-08T07:12:21
+    bsum: 6d44eeee87eaba11df790667829d06b54b5cb7c6125891ff9585424cdef942ac
+    shasum: 805bfbb44139cee7efb26b3890fbb800467edcee00c8dab7dc74c97069229a81
+    build_date: 2024-10-15T07:31:57
     src_url: https://github.com/mkj/dropbear
     web_url: https://matt.ucc.asn.au/dropbear/dropbear.html
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dropbear.sh
@@ -32239,9 +32239,9 @@ base:
     version: latest
     download_url: https://bin.ajam.dev/aarch64/Baseutils/dropbear/scp
     size: 132.4 KB
-    bsum: e49555c024770ecb7220ff44b909655d360cae46e35f4068c024d7152047fe87
-    shasum: 77dc6eb69b7d432e907cdd62147c6a5eee055e9b0f594826048c62ab2dde5e29
-    build_date: 2024-10-08T07:12:30
+    bsum: ea9023b473e676abb953887c8902da059de0b017398aa2bf926c75268c1440c3
+    shasum: 4c650c6e86ba6d729d435ac9a5d6444b6185ede2b8d890385320f6327f62844a
+    build_date: 2024-10-15T07:32:07
     src_url: https://github.com/mkj/dropbear
     web_url: https://matt.ucc.asn.au/dropbear/dropbear.html
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dropbear.sh
