@@ -1,9 +1,10 @@
 name: "bubblewrap"
 description: "Unprivileged sandboxing tool"
-note: ""
+note: "The bwrap-patched binary is patched to allow nested bubblewraps with capabilities (INSECURE)"
 web_url: "https://github.com/containers/bubblewrap"
 repo_url: "https://github.com/containers/bubblewrap"
 path: "/"
 bins:
   - "bubblewrap"
   - "bwrap"
+  - "bwrap-patched"
