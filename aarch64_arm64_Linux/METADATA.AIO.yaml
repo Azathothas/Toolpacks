@@ -1295,7 +1295,7 @@ bin:
     bin_name: broot
     description: A new way to see and navigate directory trees
     note: ""
-    version: v1.44.0
+    version: v1.44.1
     download_url: https://bin.ajam.dev/aarch64/broot
     size: 9.98 MB
     bsum: 784b4894835a1c8f204e2b094529685c3f1c099593fb69e6d5169a9369501d04
@@ -1350,7 +1350,7 @@ bin:
     download_url: https://bin.ajam.dev/aarch64/bubblewrap
     size: 198.46 KB
     bsum: 4272eca5dfdb281dd94952f13a9b30954c25c768cf137e8780db4596d8f6d449
-    shasum: 0ed3906e706beb083fdb2cf4128333d0e52927a65ac131ced43b16e99c1ebee2
+    shasum: ""
     build_date: 2024-09-20T21:26:14
     src_url: https://github.com/containers/bubblewrap
     web_url: https://github.com/containers/bubblewrap
@@ -1367,7 +1367,7 @@ bin:
     download_url: https://bin.ajam.dev/aarch64/bwrap
     size: 198.46 KB
     bsum: 4272eca5dfdb281dd94952f13a9b30954c25c768cf137e8780db4596d8f6d449
-    shasum: 0ed3906e706beb083fdb2cf4128333d0e52927a65ac131ced43b16e99c1ebee2
+    shasum: ""
     build_date: 2024-09-20T21:26:14
     src_url: https://github.com/containers/bubblewrap
     web_url: https://github.com/containers/bubblewrap
@@ -3250,7 +3250,7 @@ bin:
     bin_name: devbox
     description: Instant, easy, and predictable development environments
     note: ""
-    version: 0.13.4
+    version: 0.13.5
     download_url: https://bin.ajam.dev/aarch64/devbox
     size: 27.2 MB
     bsum: e9105cf26ed9b3b3b40b27241904cab38f60e6e56f94bb909204ee5499aff8db
@@ -7194,7 +7194,7 @@ bin:
     bin_name: hugo
     description: The world’s fastest framework for building websites.
     note: ""
-    version: v0.136.0
+    version: v0.136.1
     download_url: https://bin.ajam.dev/aarch64/hugo
     size: 72.97 MB
     bsum: b415a32ad135377b16cf11819359fa846dfcae9287f6c0ec8dcd74628b8dd357
@@ -10135,7 +10135,7 @@ bin:
     bin_name: netbird
     description: Connects Devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls
     note: ""
-    version: v0.30.1
+    version: v0.30.2
     download_url: https://bin.ajam.dev/aarch64/netbird
     size: 27.94 MB
     bsum: d116d6e13b28d3c9392cdd88bd49638017fa6efa63ccad7f17f150cca461d4d8
@@ -10849,7 +10849,7 @@ bin:
     bin_name: ockam
     description: Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
     note: ""
-    version: ockam_v0.135.0
+    version: ockam_v0.136.0
     download_url: https://bin.ajam.dev/aarch64/ockam
     size: 59.68 MB
     bsum: ef5ca63040388fdead132381ef65f03e5593ad110aac3516d911fd50e4e0017f
@@ -14300,7 +14300,7 @@ bin:
     bin_name: sj
     description: A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
     note: ""
-    version: 1.9.1
+    version: 1.9.2
     download_url: https://bin.ajam.dev/aarch64/sj
     size: 8.54 MB
     bsum: 07aff7c6a79f3da6d34d5803f701aceb9d2fdbf3d3cf303f91481a481778af47
@@ -15388,7 +15388,7 @@ bin:
     bin_name: tailscale
     description: The easiest, most secure way to use WireGuard and 2FA
     note: ""
-    version: v1.76.0
+    version: v1.76.1
     download_url: https://bin.ajam.dev/aarch64/tailscale
     size: 13.38 MB
     bsum: 890db05625962888e69a164f67763a324be79d400167328ace970d91ab3a8d49
@@ -15405,7 +15405,7 @@ bin:
     bin_name: tailscale_bb
     description: The easiest, most secure way to use WireGuard and 2FA
     note: ""
-    version: v1.76.0
+    version: v1.76.1
     download_url: https://bin.ajam.dev/aarch64/tailscale_bb
     size: 27.73 MB
     bsum: 9dd81553d45ac581f660dc4edb3e6d4f869f5955a18fef17b085dff389414e31
@@ -15422,7 +15422,7 @@ bin:
     bin_name: tailscaled
     description: The easiest, most secure way to use WireGuard and 2FA
     note: ""
-    version: v1.76.0
+    version: v1.76.1
     download_url: https://bin.ajam.dev/aarch64/tailscaled
     size: 26.18 MB
     bsum: 636938377eb2d2dbd3da87f81dcf5b360b370d11b1047b6f0001dd3703123719
@@ -16561,7 +16561,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.22
+    version: v0.9.99.23
     download_url: https://bin.ajam.dev/aarch64/vtm
     size: 5.71 MB
     bsum: bbc0e2be00d21797035f0701514c6e3e37238c761135b0454e37f451997b5f50
@@ -32273,10 +32273,10 @@ pkg:
     note: 'You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)'
     version: v4.2.1
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/86box.AppImage
-    size: 54.21 MB
-    bsum: 80406afb0bc90f436d85fe24f086e7bcd6a31fe79e6c70ed7518a08deec8342e
-    shasum: 3ba06cb597b7626a3773cf955476df8dc237f2deb39f124e87dcce81e0516df8
-    build_date: 2024-10-12T10:20:17
+    size: 54.19 MB
+    bsum: 9746cf5a1cb541848b976de93c05b1b55472d21ce0e3c93d9a5e2cb682247389
+    shasum: f418b5e876074134e19465da7a4ce1f99f74615c2887b3936dacde0dfe4d3f24
+    build_date: 2024-10-17T12:07:02
     src_url: https://github.com/86Box/86Box
     web_url: https://86box.readthedocs.io
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.sh
@@ -32290,10 +32290,10 @@ pkg:
     note: 'This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
     version: v0.10.2-alpha
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/aisap.AppImage
-    size: 2.5 MB
-    bsum: cc3b3b5508d5c0ab3421d0059f3d19874cda45e4b5646503bfff4e0c5db5bf5a
-    shasum: e379bfe93410ace766a9f7990e844ec84173ec48fc286f034caaad64eb574037
-    build_date: 2024-10-12T10:20:18
+    size: 2.52 MB
+    bsum: 9d1d6cb861bd57e7ad22d6c6651e337f46ee286d0ae215b313ac38b0c157be89
+    shasum: e1b28e919f7ac0d884b727567146450a5679d0ce60f12b28e16b7092cb630446
+    build_date: 2024-10-17T12:13:15
     src_url: https://github.com/mgord9518/aisap
     web_url: https://github.com/mgord9518/aisap
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/aisap.sh
@@ -32308,9 +32308,9 @@ pkg:
     version: 35.0.2
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/android-tools.AppImage
     size: 11.06 MB
-    bsum: caab700ed9fcf73265d9c5a63c6b8017527a664e83c23608a3ab851e34762f8f
-    shasum: c9b95554386d65b639c1ae43d07e90e10eae5e60f159741ddea4ad7895e0614e
-    build_date: 2024-10-12T10:20:18
+    bsum: 8cd6114464d3a8dbf4a65e87da9a3522abcf4950dec5dd881248e3450b467f89
+    shasum: c614a3fb64a6fb26da7930e1457c062733228610ea9c82de228dce29fe20bdce
+    build_date: 2024-10-17T12:15:21
     src_url: https://github.com/lzhiyong/android-sdk-tools
     web_url: https://developer.android.com/tools/releases/platform-tools
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/android-tools.sh
@@ -32325,9 +32325,9 @@ pkg:
     version: 1.11.0
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/dunst.AppImage
     size: 12.27 MB
-    bsum: 3fe46046fc556ac9a8cf69a3c026413d700ab9a8f4fad3f61cec33b6326cfe9c
-    shasum: 05bd28dc1af41e2fcb070eeb142472c9884d15884925716b2bcfbf9c305b45e3
-    build_date: 2024-10-12T10:20:18
+    bsum: 4961eba998eea859664e597cfade87992e6988e96d1610e7c4b9106888095b69
+    shasum: 99dd24caefa213015d4acbcbc2d9978aa56ae800f8f4af6a687e2d15465e7509
+    build_date: 2024-10-17T12:17:16
     src_url: https://github.com/dunst-project/dunst
     web_url: https://dunst-project.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/dunst.sh
@@ -32339,12 +32339,12 @@ pkg:
     bin_name: floorp
     description: A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)'
-    version: 11.19.0
+    version: 11.19.1
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/floorp.NixAppImage
     size: 355.52 MB
     bsum: 82b993b9bd93ffe12b88a5c7d444066363abde2c749b3c7e7d2d8242d6ca7ac5
     shasum: d229afccae6f12512a6a9126566d0aef89ceecf4ac5284f22fd683681e59f7f3
-    build_date: 2024-10-12T10:20:29
+    build_date: 2024-10-17T12:28:49
     src_url: https://github.com/Floorp-Projects/Floorp
     web_url: https://floorp.app
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/floorp.sh
@@ -32361,7 +32361,7 @@ pkg:
     size: 63.04 MB
     bsum: 00e61be4a548093f50d1ac722d9c30973c81928eaeb90eb70ccb2aa091f9abfc
     shasum: e126181f85e49b20b19052cd8995dea4901730e3b96ee487d1a9f9226ad3a57a
-    build_date: 2024-10-12T10:20:18
+    build_date: 2024-10-17T12:28:34
     src_url: https://github.com/ImageMagick/ImageMagick
     web_url: https://imagemagick.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.sh
@@ -32378,7 +32378,7 @@ pkg:
     size: 19.57 MB
     bsum: cbafa9af838ef3899d060bafa70f5e3de958b4b4197de15722dfcbf1725fdbe7
     shasum: 9ceb41998f2c487ecfefd26bd9ee5d69e413d91b010e084f2f31bf3d07676c4c
-    build_date: 2024-10-12T10:20:18
+    build_date: 2024-10-17T12:28:32
     src_url: https://github.com/ImageMagick/ImageMagick
     web_url: https://imagemagick.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.sh
@@ -32395,7 +32395,7 @@ pkg:
     size: 245.71 MB
     bsum: d7d9d2bef182f87e11f2cd9e936e8a41938f0cbe538ed762c1542adf4b4a080d
     shasum: 2c6e6ff7d9bf40a7ef0a2654f6e04c95959d57852332d481d1c7afce104c9dd5
-    build_date: 2024-10-12T10:20:24
+    build_date: 2024-10-17T12:28:42
     src_url: https://gitlab.com/inkscape/inkscape
     web_url: https://inkscape.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/inkscape.sh
@@ -32407,12 +32407,12 @@ pkg:
     bin_name: librewolf
     description: LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
-    version: v131.0-1
+    version: v131.0.2-1
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.AppImage
-    size: 88.39 MB
-    bsum: 4dfe4474a7062d897bae26fec0531f6f54e2ebd90d009be64370f51f57c234f5
-    shasum: e62be95947b099d0b4a3a906625fb2ea0c4449965e8c293dbd0b66cae985e1b2
-    build_date: 2024-10-12T10:20:19
+    size: 88.4 MB
+    bsum: 9df86474e2754dfa2d77e7eabea7cf5167ba9aca6b85c2c97939d83ec3fcbe26
+    shasum: 629828bcc26012391dbc597450ec80dcd156b952de4de011ec5a7ba7e81fa995
+    build_date: 2024-10-17T12:20:46
     src_url: https://gitlab.com/librewolf-community/browser
     web_url: https://librewolf.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
@@ -32424,12 +32424,12 @@ pkg:
     bin_name: librewolf
     description: LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
-    version: 130.0-3
+    version: 131.0.2-1
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.NixAppImage
     size: 334.29 MB
     bsum: 0e430eeee0c703112e56f37489cdef5dd378fdba04fdfad684fd0f8b44690c87
     shasum: a8ff66607f08fff45e3eca97c4460d86a025ad69d23c7936716b9ba7a584a646
-    build_date: 2024-10-12T10:20:27
+    build_date: 2024-10-17T12:28:45
     src_url: https://gitlab.com/librewolf-community/browser
     web_url: https://librewolf.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
@@ -32443,10 +32443,10 @@ pkg:
     note: '(CI_VERIFIED: NONE)'
     version: 4.0.1
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/persepolis.NixAppImage
-    size: 214.39 MB
-    bsum: fd3c7d54a3e5fec3c1c07de606a95739bd205e0b38915a65d0646c0dac730251
-    shasum: 1696d2110177ffb13bd7d852a85371c3a1a47c381508eb06349cda8f2468fb39
-    build_date: 2024-10-12T10:20:23
+    size: 175.03 MB
+    bsum: 7d1132a16e7d120c3db0a7386dcaca7a6886541378e1146d39e4d92f67b14371
+    shasum: 464e4ada2f4436768bafa166fed36e4f624b9f7b121951bdc323ec3f18984402
+    build_date: 2024-10-17T12:26:15
     src_url: https://github.com/persepolisdm/persepolis
     web_url: https://persepolisdm.github.io
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/persepolis.sh
@@ -32460,10 +32460,10 @@ pkg:
     note: '(CI_VERIFIED: https://github.com/ryujinx-mirror/ryujinx/actions)'
     version: r.b4cac89
     download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/ryujinx.AppImage
-    size: 24.25 MB
-    bsum: cd1af79d4e3226ba4355f893a8f4936681439a018d74e699e6c98e32486d0a72
-    shasum: bccab55187c0c38c44988525268db9bc8e4cb5d64f87ebde5df2b1553723b3ad
-    build_date: 2024-10-12T10:20:16
+    size: 24.24 MB
+    bsum: 12bb627827d82353e4a9976cf48bb12064b6e02a5011a608efec693527dbe439
+    shasum: 82b7a86928b2fb78c79f9002ef243d97f6abb477566d6e127f3a4aafbef7c89c
+    build_date: 2024-10-17T12:27:07
     src_url: https://github.com/ryujinx-mirror/ryujinx
     web_url: https://github.com/ryujinx-mirror/ryujinx
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/ryujinx.sh
@@ -32480,7 +32480,7 @@ pkg:
     size: 414.96 MB
     bsum: 1b6d6ec5e8fde1fe4e6c056ba9fae39d85b28cbe94d1af6de348aa6c04d69bb7
     shasum: ed0ad92cd041affc87d30e4fc72ead7dd012bd4669bbd01d9fa654e5d3272a4c
-    build_date: 2024-10-12T10:18:30
+    build_date: 2024-10-17T12:28:48
     src_url: https://github.com/signalapp/Signal-Desktop
     web_url: https://signal.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/signal-desktop.sh
