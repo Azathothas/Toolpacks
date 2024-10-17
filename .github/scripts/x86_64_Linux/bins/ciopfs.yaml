@@ -1,0 +1,8 @@
+name: "ciopfs"
+description: "A fuse file system that mounts a directory on a regular file system in case insensitive fashion"
+note: ""
+web_url: "https://www.brain-dump.org/projects/ciopfs/"
+repo_url: "https://github.com/martanne/ciopfs"
+path: "/"
+bins:
+  - "ciopfs"
