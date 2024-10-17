@@ -1,3 +1,16 @@
+Name: bubblewrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/bubblewrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
+
+Name: bwrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/bwrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
+
+---------------------
 Name: rootlesskit
 DESCR: Container
 Download URL: https://bin.ajam.dev/x86_64_Linux/rootlesskit
@@ -48,19 +61,6 @@ DESCR: A top utility for IO
 Download URL: https://bin.ajam.dev/x86_64_Linux/iotop-c
 REPO: https://github.com/Tomas-M/iotop
 Web URL: https://github.com/Tomas-M/iotop
-
----------------------
-Name: bubblewrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/bubblewrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
-
-Name: bwrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/bwrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
 
 ---------------------
 Name: z
