@@ -5205,7 +5205,7 @@ bin:
     bin_name: gh
     description: GitHub’s official command line tool
     note: ""
-    version: v2.58.0
+    version: v2.59.0
     download_url: https://bin.ajam.dev/aarch64/gh
     size: 49.69 MB
     bsum: 9cda89c6334cf55b9fd745f20892a70417fcfc84a3c16bc9c42aaaaf68ef07bb
@@ -9540,7 +9540,7 @@ bin:
     bin_name: melange
     description: build APKs from source code
     note: ""
-    version: v0.13.5
+    version: v0.13.6
     download_url: https://bin.ajam.dev/aarch64/melange
     size: 45.49 MB
     bsum: 9e5d37213b26506d7f030b5edaecdd54ac954fedeb052e5a04f7f6c47ec4e5ee
@@ -10781,7 +10781,7 @@ bin:
     bin_name: nu
     description: A new type of shell
     note: ""
-    version: 0.98.0
+    version: 0.99.0
     download_url: https://bin.ajam.dev/aarch64/nu
     size: 35.78 MB
     bsum: 1dd8d4ac773d0b19469d96a2a059311827c48ee9fe1d92de9a1388e3b2a60060
@@ -10798,7 +10798,7 @@ bin:
     bin_name: nushell
     description: A new type of shell
     note: ""
-    version: 0.98.0
+    version: 0.99.0
     download_url: https://bin.ajam.dev/aarch64/nushell
     size: 35.78 MB
     bsum: 1dd8d4ac773d0b19469d96a2a059311827c48ee9fe1d92de9a1388e3b2a60060
@@ -11546,7 +11546,7 @@ bin:
     bin_name: pixi
     description: Conda Package management made easy
     note: ""
-    version: v0.32.1
+    version: v0.33.0
     download_url: https://bin.ajam.dev/aarch64/pixi
     size: 26.2 MB
     bsum: 96914e4cb59ea331beea4590b9f422747b285f4af7c25d74e8ce5f82359f80e3
@@ -12804,7 +12804,7 @@ bin:
     bin_name: rattler-build
     description: rattler-build is a universal package builder for Windows, macOS and Linux
     note: ""
-    version: v0.25.0
+    version: v0.27.0
     download_url: https://bin.ajam.dev/aarch64/rattler-build
     size: 22.81 MB
     bsum: 5b310e7153deee7a63941bccd97c632fc3648fe51d6406a3cc166fcc3bec1bac
@@ -12906,7 +12906,7 @@ bin:
     bin_name: realm
     description: A network relay tool
     note: ""
-    version: v2.6.2
+    version: v2.6.3
     download_url: https://bin.ajam.dev/aarch64/realm
     size: 3.94 MB
     bsum: 77065e14aff13c9065bc728f8bf6350fed085ebb4473a9202a3cf815e3839bb8
@@ -15235,7 +15235,7 @@ bin:
     bin_name: syncthing
     description: Open Source Continuous File Synchronization
     note: ""
-    version: v1.27.12
+    version: v1.28.0
     download_url: https://bin.ajam.dev/aarch64/syncthing
     size: 23.19 MB
     bsum: 94737d4d1d47a1e5a39ea7330d67bd935b6beb3032a7caac9deffb7913e83925

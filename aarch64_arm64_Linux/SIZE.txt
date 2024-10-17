@@ -1063,12 +1063,12 @@
  239K   ├── METADATA.AIO.json.xz
  238K   ├── udpx.preview.png
  238K   ├── METADATA.AIO.json.zstd
- 236K   ├── METADATA.AIO.yaml.zstd
+ 237K   ├── METADATA.AIO.yaml.zstd
  236K   ├── METADATA.AIO.yaml.xz
  236K   ├── METADATA.AIO.toml.zstd
  236K   ├── METADATA.AIO.min.json.zstd
  236K   ├── planor.preview.png
- 235K   ├── METADATA.AIO.toml.xz
+ 236K   ├── METADATA.AIO.toml.xz
  235K   ├── METADATA.AIO.min.json.xz
  232K   ├── netexec.preview.png
  231K   ├── glow.preview.png

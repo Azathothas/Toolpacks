@@ -248,7 +248,5 @@
   26K   ├── 7z.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
-  11K   ├── yt-dlp.preview.png
-   0B   ├── stiG2Kb7
-   0B   └── stP1kAlM
+  11K   └── yt-dlp.preview.png
 ```

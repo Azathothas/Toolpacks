@@ -1,5 +1,6 @@
 ```mathematica
-  13G └─┬ toolpack_x86_64
+  14G └─┬ toolpack_x86_64
+ 379M   ├── archlinux-flatimage.no_strip
  308M   ├── gentoo.no_strip
  257M   ├── gentoo-musl.no_strip
  169M   ├── usql
@@ -56,6 +57,7 @@
   48M   ├── matterbridge
   47M   ├── gh
   47M   ├── xet_staticx
+  46M   ├── alpine-flatimage.no_strip
   46M   ├── rockylinux-minimal.no_strip
   46M   ├── rekor-server
   46M   ├── rekor
@@ -125,6 +127,7 @@
   27M   ├── dnsx
   27M   ├── maddy
   27M   ├── tlsx
+  26M   ├── blueprint-flatimage.no_strip
   26M   ├── nmap-formatter
   26M   ├── rattler-build
   26M   ├── wezterm-mux-server
