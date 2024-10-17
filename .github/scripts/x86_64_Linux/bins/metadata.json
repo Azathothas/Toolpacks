@@ -1240,6 +1240,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/firejail.sh"
   },
   {
+    "name": "flatimage.sh",
+    "update_date": "2024-10-16T12:07:23",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/flatimage.sh"
+  },
+  {
     "name": "flawz.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/flawz.sh"
@@ -2411,7 +2416,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-15T12:12:44",
+    "update_date": "2024-10-16T12:11:46",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {

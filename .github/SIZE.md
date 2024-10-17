@@ -1,6 +1,6 @@
 ```mathematica
-394M └─┬ main
-188M   ├─┬ x86_64_Linux
+396M └─┬ main
+189M   ├─┬ x86_64_Linux
  98M   │ ├── BUILD.log.txt
  72M   │ ├── BUILD.BIN.log.txt
 4.0M   │ ├── METADATA.AIO.json
@@ -8,21 +8,21 @@
 3.7M   │ ├── METADATA.AIO.toml
 3.6M   │ ├── METADATA.AIO.min.json
 1.2M   │ ├── METADATA.json
-904K   │ ├── DETAILED.md
-508K   │ ├── README.md
-192K   │ ├── FILE.txt
+908K   │ ├── DETAILED.md
+512K   │ ├── README.md
+196K   │ ├── FILE.txt
 136K   │ ├── BUILD_DATES.txt
 112K   │ ├── SHA256SUM.txt
 112K   │ ├── BLAKE3SUM.txt
+ 76K   │ ├── BUILD_ERROR.log.md
  44K   │ ├── SIZE.txt
  44K   │ ├── SIZE.md
- 44K   │ ├── BUILD_ERROR.log.md
  20K   │ ├── DUPLICATES.txt
 4.0K   │ ├── METADATA.urls
   0B   │ └── DUPLICATES_OVERWRITES.txt
-185M   ├─┬ aarch64_arm64_Linux
+187M   ├─┬ aarch64_arm64_Linux
  91M   │ ├── BUILD.log.txt
- 80M   │ ├── BUILD.BIN.log.txt
+ 81M   │ ├── BUILD.BIN.log.txt
 3.0M   │ ├── METADATA.AIO.json
 2.8M   │ ├── METADATA.AIO.yaml
 2.8M   │ ├── METADATA.AIO.toml
@@ -30,10 +30,10 @@
 1.2M   │ ├── METADATA.json
 892K   │ ├── DETAILED.md
 500K   │ ├── README.md
-164K   │ ├── FILE.txt
+184K   │ ├── FILE.txt
 132K   │ ├── BUILD_DATES.txt
- 88K   │ ├── SHA256SUM.txt
- 88K   │ ├── BLAKE3SUM.txt
+100K   │ ├── SHA256SUM.txt
+100K   │ ├── BLAKE3SUM.txt
  64K   │ ├── BUILD_ERROR.log.md
  40K   │ ├── SIZE.txt
  40K   │ ├── SIZE.md
@@ -54,6 +54,18 @@
 8.0K   │ ├── SIZE.md
   0B   │ ├── DUPLICATES_OVERWRITES.txt
   0B   │ └── DUPLICATES.txt
+ 96K   ├─┬ arm64_v8a_Android
+ 28K   │ ├── METADATA.json
+ 20K   │ ├── DETAILED.md
+ 12K   │ ├── README.md
+8.0K   │ ├── FILE.txt
+4.0K   │ ├── SIZE.txt
+4.0K   │ ├── SIZE.md
+4.0K   │ ├── SHA256SUM.txt
+4.0K   │ ├── DUPLICATES.txt
+4.0K   │ ├── BUILD_DATES.txt
+4.0K   │ ├── BLAKE3SUM.txt
+  0B   │ └── DUPLICATES_OVERWRITES.txt
  96K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
  24K   │ ├── README.md
@@ -64,18 +76,6 @@
 4.0K   │ ├── NIX_TARGETS.txt
 4.0K   │ ├── GO_TARGETS.md
 4.0K   │ └── DEBUG.md
- 92K   ├─┬ arm64_v8a_Android
- 28K   │ ├── METADATA.json
- 20K   │ ├── DETAILED.md
- 12K   │ ├── README.md
-4.0K   │ ├── SIZE.txt
-4.0K   │ ├── SIZE.md
-4.0K   │ ├── SHA256SUM.txt
-4.0K   │ ├── FILE.txt
-4.0K   │ ├── DUPLICATES.txt
-4.0K   │ ├── BUILD_DATES.txt
-4.0K   │ ├── BLAKE3SUM.txt
-  0B   │ └── DUPLICATES_OVERWRITES.txt
  24K   ├── README.md
  24K   ├── INFO.md
 4.0K   └── LICENSE

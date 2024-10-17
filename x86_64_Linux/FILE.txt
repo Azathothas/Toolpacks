@@ -41,6 +41,7 @@ alist:                            ELF 64-bit LSB executable, x86-64, version 1 (
 allxfr:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 almalinux-minimal.no_strip:       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
 almalinux.no_strip:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
+alpine-flatimage.no_strip:        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=ba7c28dbef3361ecac44fe5fbb9c20a4b45a09a7, stripped
 alpine.no_strip:                  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
 alterx:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AZ-q785aWiqoCXH9b3OE/LZQ-ujrDSeB7421Bmi9O/ae0GgX2fAt1ParKqFFEs/QEHMxOxTR7FjCQFqnwgG, stripped
 amass:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -63,6 +64,7 @@ aptly:                            ELF 64-bit LSB pie executable, x86-64, version
 arc:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 archey:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 archey.preview.png:               PNG image data, 2000 x 1686, 8-bit/color RGBA, non-interlaced
+archlinux-flatimage.no_strip:     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=35ea0926267b505ad262b379fb9665c7dbf82e56, stripped
 archlinux.no_strip:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
 arduino-cli:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_N4WnqLwpkeZ8DmwOnpf/XBFsKGNZ7NloBIcRq0i3/kJRw8dDe3L6MFHqSgqVi/FO_OFtUHWW4fQOS90KcV, stripped
 arduino-cli.preview.png:          PNG image data, 3598 x 2411, 8-bit/color RGBA, non-interlaced
@@ -109,6 +111,7 @@ bingrep:                          ELF 64-bit LSB pie executable, x86-64, version
 binocle:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 binocle.preview.png:              PNG image data, 1279 x 631, 8-bit/color RGBA, non-interlaced
 bleve:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+blueprint-flatimage.no_strip:     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=ad340988ce17202c3d9b24a1d362e91701875efc, stripped
 bluetuith:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=LWbh1shrAmTRVIgeZZwz/UnJB7qqziBDMrA-0mZ-p/ie6xep_YW5JzIdVr7meh/W6NK95z69pn_m_5Gy5ne, stripped
 boltconn:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 bombadillo:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
