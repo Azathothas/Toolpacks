@@ -242,9 +242,9 @@
   38K   ├── cfspeedtest.preview.png
   37K   ├── base.default.png
   37K   ├── hyperfine.preview.png
-  36K   ├── micro.preview.png
   36K   ├── curl.preview.png
   26K   ├── 7z.preview.png
   19K   ├── bin.default.png
+  14K   ├── micro.preview.png
   14K   ├── croc.preview.png
   11K   └── yt-dlp.preview.png

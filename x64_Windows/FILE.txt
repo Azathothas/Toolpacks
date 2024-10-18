@@ -127,7 +127,7 @@ logstation.exe:                PE32+ executable (console) x86-64 (stripped to ex
 logstation.preview.png:        PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
 ls.exe:                        PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 micro.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-micro.preview.png:             PNG image data, 1280 x 437, 8-bit/color RGBA, non-interlaced
+micro.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 miniooni-windows-amd64.exe:    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 miniooni.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 miniserve.exe:                 PE32+ executable (console) x86-64, for MS Windows

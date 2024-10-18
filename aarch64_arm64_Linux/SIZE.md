@@ -1015,6 +1015,7 @@
  452K   ├── devpod.preview.png
  450K   ├── nnn
  450K   ├── scp
+ 428K   ├── magick.preview.png
  423K   ├── generate-bidi
  415K   ├── resdns.preview-3.png
  415K   ├── cutlines.preview-3.png
@@ -1046,6 +1047,7 @@
  314K   ├── cutlines.preview-1.png
  314K   ├── certstream.preview-1.png
  308K   ├── gh-dash.preview.png
+ 305K   ├── gum.preview.png
  286K   ├── region_restriction_check.sh
  278K   ├── freeze.preview.png
  276K   ├── cpufetch
@@ -1065,15 +1067,15 @@
  243K   ├── lorien.preview.png
  240K   ├── rattler-build.preview.png
  239K   ├── METADATA.AIO.json.xz
+ 239K   ├── METADATA.AIO.json.zstd
  238K   ├── udpx.preview.png
- 238K   ├── METADATA.AIO.json.zstd
- 236K   ├── METADATA.AIO.yaml.zstd
- 236K   ├── METADATA.AIO.yaml.xz
- 236K   ├── METADATA.AIO.toml.zstd
- 236K   ├── METADATA.AIO.min.json.zstd
- 236K   ├── planor.preview.png
+ 237K   ├── METADATA.AIO.yaml.zstd
+ 237K   ├── METADATA.AIO.yaml.xz
+ 237K   ├── METADATA.AIO.toml.zstd
+ 237K   ├── METADATA.AIO.min.json.zstd
  236K   ├── METADATA.AIO.toml.xz
- 235K   ├── METADATA.AIO.min.json.xz
+ 236K   ├── planor.preview.png
+ 236K   ├── METADATA.AIO.min.json.xz
  232K   ├── netexec.preview.png
  231K   ├── glow.preview.png
  220K   ├── ppsspp.preview.png
@@ -1123,7 +1125,6 @@
  149K   ├── assh.preview.png
  143K   ├── qsv.preview.png
  143K   ├── gitoxide.preview.png
- 142K   ├── step.preview.png
  141K   ├── grex.preview.png
  141K   ├── pidstat
  140K   ├── qbittorrent-nox.preview.png
@@ -1162,7 +1163,6 @@
  122K   ├── shell2http.preview.png
  121K   ├── pgrok.preview.png
  119K   ├── gitea.preview.png
- 119K   ├── magick.preview.png
  118K   ├── archey.preview.png
  116K   ├── tapestat
  115K   ├── binocle.preview.png
@@ -1187,7 +1187,6 @@
   85K   ├── kubo.preview.png
   83K   ├── yggdrasil.preview.png
   82K   ├── algernon.preview.png
-  82K   ├── gum.preview.png
   81K   ├── reviewdog.preview.png
   81K   ├── albafetch.preview.png
   81K   ├── vtm.preview.png
@@ -1195,6 +1194,7 @@
   80K   ├── cronie-cronnext
   79K   ├── macchina.preview.png
   77K   ├── revive.preview.png
+  76K   ├── step.preview.png
   75K   ├── cifsiostat
   75K   ├── arduino-cli.preview.png
   74K   ├── bin2video
@@ -1203,7 +1203,6 @@
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
   67K   ├── sn0int.preview.png
-  67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
   66K   ├── proxychains
   66K   ├── oha.preview.png
@@ -1228,6 +1227,7 @@
   55K   ├── cherrybomb.preview.png
   54K   ├── podsync.preview.png
   52K   ├── miller.preview.png
+  51K   ├── redguard.preview.png
   51K   ├── catatonit
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
@@ -1240,7 +1240,6 @@
   46K   ├── hexyl.preview.png
   44K   ├── yabs.sh
   44K   ├── tailscale.preview.png
-  43K   ├── redguard.preview.png
   43K   ├── stree.preview.png
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
@@ -1274,6 +1273,7 @@
   23K   ├── try
   22K   ├── ani-cli
   21K   ├── txeh.preview.png
+  21K   ├── ruri.preview.png
   20K   ├── findomain.preview.png
   19K   ├── pelf
   19K   ├── bin.default.png
