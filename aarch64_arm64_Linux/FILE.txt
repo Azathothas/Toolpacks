@@ -56,6 +56,7 @@ anewer:                           ELF 64-bit LSB executable, ARM aarch64, versio
 ani-cli:                          POSIX shell script, ASCII text executable, with very long lines (445)
 ansi2html:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ansi2txt:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+apk-static:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 apk.sh:                           Bourne-Again shell script, Unicode text, UTF-8 text executable
 apkeep:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 appimaged:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -130,6 +131,7 @@ bubblewrap:                       ELF 64-bit LSB executable, ARM aarch64, versio
 bucketloot:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 busybox:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 bwrap:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+bwrap-patched:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 byp4xx:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 caddy:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=tZKoqa6cBHpl2lF0HNGp/Dh6bf4GK6AsN7QVP8_6o/E18C2czXiRuFCPfsn2hf/-n78kBK4tdFousYl003K, stripped
 caddy.preview.png:                PNG image data, 2000 x 1195, 8-bit/color RGB, non-interlaced
@@ -170,6 +172,7 @@ cherrybomb.preview.png:           PNG image data, 1280 x 640, 8-bit colormap, no
 chisel:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=QmWLrctabC7AI_-kPG9P/GNajPiZQJ9fqlmAHxY9a/gsST6pUQVDK7lUHNdsfq/XHxGffeodNBOHPJadYf7, stripped
 cidr:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=wX-cPEbzN-tWX_EMA3tl/VGbUTSzI7KzrmpY-Z9OU/aADGDvHFZNHLwaBX9khQ/n27LJk9F85aKRLUYNMSf, stripped
 cifsiostat:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+ciopfs:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 circumflex:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=C_4qstxYlfJqE2q869uB/Ysny3j-rm0QnX3KSb_aI/NJI_5kVCHJKzBPmX3uLG/kFatVATuHWQJsGTgdiVy, stripped
 circumflex.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 cleanpath:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=z5F4wfP_RNRcRb1fEm8Q/7jMgTnizuMpAtRdV0zvr/9TUNp-xdD17VLWvRqhdz/1_nx_exYdLRCKX_E2oKW, stripped
@@ -229,6 +232,11 @@ curlie:                           ELF 64-bit LSB executable, ARM aarch64, versio
 cut-cdn:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 cut-cdn.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 cutlines:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+cutlines.preview-0.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+cutlines.preview-1.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+cutlines.preview-2.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+cutlines.preview-3.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+cutlines.preview-4.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 cutlines.preview.png:             GIF image data, version 89a, 1920 x 1080
 cvemap:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=jGmuz7Otf_3DzgyBw7ZU/VrlJg2zqzWXo4m5wPA1B/6i4tNDXafiNutP_TR3Ix/s7N3K_UaeFQGmhJWM2rA, stripped
 cwe_checker:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -487,7 +495,7 @@ gs-netcat:                        ELF 64-bit LSB pie executable, ARM aarch64, ve
 gsocket:                          Bourne-Again shell script, ASCII text executable, with very long lines (384)
 gsocket.preview.png:              PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 gum:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-gum.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
+gum.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 gup:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=qzRW8-53YkDrb8JZyZ35/Yl1pt3l3JY1DorS6dvEv/fSQMUl8p0fkrb0-Hw9Gh/GObSZbVcA-TksHeLnBKB, stripped
 gxss:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=bin.ajam.dev/aarch64_arm64_Linux/, stripped
 hacker-scoper:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -655,7 +663,7 @@ macchina:                         ELF 64-bit LSB executable, ARM aarch64, versio
 macchina.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 maddy:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=b098d59b357acb3ee48b7c2d1038b177c7a70ca1, for GNU/Linux 3.7.0, stripped
 magick.no_strip:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped
-magick.preview.png:               PNG image data, 1280 x 640, 16-bit/color RGB, non-interlaced
+magick.preview.png:               PNG image data, 512 x 512, 16-bit/color RGBA, non-interlaced
 magick_appbundle.no_strip:        POSIX shell script, ASCII text executable
 mailpit:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=cefbl0kbs-zDcZYXj7Jg/Mpc9CjM00BBGxKWtraPO/ZITEIs7BeEEF4MwT61-z/eZ4QwvwzCwDzl7XP_C2J, stripped
 makebb:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -803,7 +811,7 @@ p9cpud:                           ELF 64-bit LSB executable, ARM aarch64, versio
 passdetective:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 patchelf:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pdfcpu:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=-VVO7u1u-IYuEvR8lTcI/CNEEokVM8iB0vEyqw_2E/zv3VnwkqoLlYf7Rc7CTD/iq_zbm3j-i9Fl25zhMAo, stripped
-pdfcpu.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+pdfcpu.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pelf:                             POSIX shell script, Unicode text, UTF-8 text executable, with very long lines (757)
 pelf_extract:                     POSIX shell script, ASCII text executable
 pelf_linker:                      POSIX shell script, ASCII text executable
@@ -929,7 +937,7 @@ realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA,
 rebuilderd-worker:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 recollapse_staticx:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 redguard:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-redguard.preview.png:             PNG image data, 640 x 365, 8-bit/color RGB, non-interlaced
+redguard.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 redive:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 region_restriction_check.sh:      Bourne-Again shell script, Unicode text, UTF-8 text executable, with very long lines (1558)
 rekor-cli:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=M2Ysor1DSEjZDyxesqz4/oL9m8yukEd7_63z-3pq9/I2QrMcZSr12yWqfINA1i/ihd_Y18YrsAsXVBNWali, stripped

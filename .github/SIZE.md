@@ -28,12 +28,12 @@
 2.8M   │ ├── METADATA.AIO.toml
 2.8M   │ ├── METADATA.AIO.min.json
 1.2M   │ ├── METADATA.json
-892K   │ ├── DETAILED.md
-500K   │ ├── README.md
+896K   │ ├── DETAILED.md
+504K   │ ├── README.md
 184K   │ ├── FILE.txt
 132K   │ ├── BUILD_DATES.txt
-100K   │ ├── SHA256SUM.txt
-100K   │ ├── BLAKE3SUM.txt
+104K   │ ├── SHA256SUM.txt
+104K   │ ├── BLAKE3SUM.txt
  64K   │ ├── BUILD_ERROR.log.md
  40K   │ ├── SIZE.txt
  40K   │ ├── SIZE.md
@@ -41,7 +41,7 @@
 4.0K   │ ├── METADATA.urls
   0B   │ └── DUPLICATES_OVERWRITES.txt
  10M   ├── METADATA.json
-9.3M   ├── METADATA.yaml
+9.4M   ├── METADATA.yaml
 544K   ├─┬ x64_Windows
 232K   │ ├── METADATA.json
 132K   │ ├── DETAILED.md

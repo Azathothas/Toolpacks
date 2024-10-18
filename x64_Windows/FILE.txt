@@ -150,7 +150,7 @@ pandoc.exe:                    PE32+ executable (console) x86-64 (stripped to ex
 pandoc.preview.png:            PNG image data, 933 x 411, 8-bit/color RGBA, non-interlaced
 paste.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pdfcpu.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-pdfcpu.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+pdfcpu.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pdfdetach.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pdffonts.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pdfimages.exe:                 PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows

@@ -634,6 +634,7 @@
  4.3M   ├── qemu-riscv64-static
  4.3M   ├── mcfly
  4.2M   ├── qemu-riscv32-static
+ 4.2M   ├── apk-static
  4.2M   ├── agg-tunnel
  4.2M   ├── warp-cli
  4.2M   ├── overmind
@@ -915,6 +916,7 @@
  1.3M   ├── mgwls
  1.3M   ├── dropbear
  1.3M   ├── jaq
+ 1.3M   ├── ciopfs
  1.2M   ├── genact
  1.2M   ├── bore
  1.2M   ├── desktop-file-validate
@@ -1012,9 +1014,9 @@
  452K   ├── devpod.preview.png
  450K   ├── nnn
  450K   ├── scp
- 428K   ├── magick.preview.png
  423K   ├── generate-bidi
  415K   ├── resdns.preview-3.png
+ 415K   ├── cutlines.preview-3.png
  415K   ├── certstream.preview-3.png
  412K   ├── shellharden
  399K   ├── sadf
@@ -1033,16 +1035,17 @@
  322K   ├── resdns.preview-4.png
  322K   ├── pigz
  322K   ├── doas
+ 322K   ├── cutlines.preview-4.png
  322K   ├── certstream.preview-4.png
  322K   ├── berty.preview.png
  320K   ├── resdns.preview-2.png
+ 320K   ├── cutlines.preview-2.png
  320K   ├── certstream.preview-2.png
  314K   ├── resdns.preview-1.png
+ 314K   ├── cutlines.preview-1.png
  314K   ├── certstream.preview-1.png
  308K   ├── gh-dash.preview.png
- 305K   ├── gum.preview.png
  286K   ├── region_restriction_check.sh
- 282K   ├── pdfcpu.preview.png
  278K   ├── freeze.preview.png
  276K   ├── cpufetch
  274K   ├── sftp-server
@@ -1063,7 +1066,7 @@
  239K   ├── METADATA.AIO.json.xz
  238K   ├── udpx.preview.png
  238K   ├── METADATA.AIO.json.zstd
- 237K   ├── METADATA.AIO.yaml.zstd
+ 236K   ├── METADATA.AIO.yaml.zstd
  236K   ├── METADATA.AIO.yaml.xz
  236K   ├── METADATA.AIO.toml.zstd
  236K   ├── METADATA.AIO.min.json.zstd
@@ -1083,6 +1086,7 @@
  203K   ├── nfs-ls
  201K   ├── nfs-stat
  199K   ├── resdns.preview-0.png
+ 199K   ├── cutlines.preview-0.png
  199K   ├── certstream.preview-0.png
  196K   ├── onioncat
  196K   ├── ocat
@@ -1093,6 +1097,7 @@
  194K   ├── migspeed
  194K   ├── memhog
  194K   ├── hcxdumptool
+ 194K   ├── bwrap-patched
  194K   ├── bwrap
  194K   ├── bubblewrap
  193K   ├── mkpasswd
@@ -1156,6 +1161,7 @@
  122K   ├── shell2http.preview.png
  121K   ├── pgrok.preview.png
  119K   ├── gitea.preview.png
+ 119K   ├── magick.preview.png
  118K   ├── archey.preview.png
  116K   ├── tapestat
  115K   ├── binocle.preview.png
@@ -1180,6 +1186,7 @@
   85K   ├── kubo.preview.png
   83K   ├── yggdrasil.preview.png
   82K   ├── algernon.preview.png
+  82K   ├── gum.preview.png
   81K   ├── reviewdog.preview.png
   81K   ├── albafetch.preview.png
   81K   ├── vtm.preview.png
@@ -1205,6 +1212,7 @@
   65K   ├── hcxeiutool
   65K   ├── hakrawler.preview.png
   64K   ├── joker
+  63K   ├── pdfcpu.preview.png
   63K   ├── importenv
   63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
@@ -1219,7 +1227,6 @@
   55K   ├── cherrybomb.preview.png
   54K   ├── podsync.preview.png
   52K   ├── miller.preview.png
-  51K   ├── redguard.preview.png
   51K   ├── catatonit
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
@@ -1232,6 +1239,7 @@
   46K   ├── hexyl.preview.png
   44K   ├── yabs.sh
   44K   ├── tailscale.preview.png
+  43K   ├── redguard.preview.png
   43K   ├── stree.preview.png
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
