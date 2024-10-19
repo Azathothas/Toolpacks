@@ -1018,6 +1018,7 @@
  450K   ├── scp
  428K   ├── magick.preview.png
  423K   ├── generate-bidi
+ 415K   ├── scopeview.preview-3.png
  415K   ├── resdns.preview-3.png
  415K   ├── cutlines.preview-3.png
  415K   ├── certstream.preview-3.png
@@ -1035,15 +1036,18 @@
  329K   ├── proot
  323K   ├── pv
  322K   ├── mawk
+ 322K   ├── scopeview.preview-4.png
  322K   ├── resdns.preview-4.png
  322K   ├── pigz
  322K   ├── doas
  322K   ├── cutlines.preview-4.png
  322K   ├── certstream.preview-4.png
  322K   ├── berty.preview.png
+ 320K   ├── scopeview.preview-2.png
  320K   ├── resdns.preview-2.png
  320K   ├── cutlines.preview-2.png
  320K   ├── certstream.preview-2.png
+ 314K   ├── scopeview.preview-1.png
  314K   ├── resdns.preview-1.png
  314K   ├── cutlines.preview-1.png
  314K   ├── certstream.preview-1.png
@@ -1089,6 +1093,7 @@
  204K   ├── asn
  203K   ├── nfs-ls
  201K   ├── nfs-stat
+ 199K   ├── scopeview.preview-0.png
  199K   ├── resdns.preview-0.png
  199K   ├── cutlines.preview-0.png
  199K   ├── certstream.preview-0.png
@@ -1140,7 +1145,6 @@
  134K   ├── zellij.preview.png
  134K   ├── lazydocker.preview.png
  132K   ├── noseyparker.preview.png
- 132K   ├── mantra.preview.png
  131K   ├── numastat
  131K   ├── crontab
  130K   ├── which
@@ -1178,6 +1182,7 @@
  100K   ├── mpstat
   99K   ├── gitpod-cli.preview.png
   98K   ├── shc
+  97K   ├── termshark.preview.png
   97K   ├── darkhttpd
   97K   ├── listmonk.preview.png
   94K   ├── cronie-crontab
@@ -1188,7 +1193,6 @@
   85K   ├── kubo.preview.png
   83K   ├── yggdrasil.preview.png
   82K   ├── algernon.preview.png
-  81K   ├── reviewdog.preview.png
   81K   ├── albafetch.preview.png
   81K   ├── vtm.preview.png
   80K   ├── smartdns.preview.png
@@ -1224,12 +1228,12 @@
   58K   ├── gguf-tools
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
-  55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── podsync.preview.png
   52K   ├── miller.preview.png
   51K   ├── redguard.preview.png
   51K   ├── catatonit
+  50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
   50K   ├── dvc.preview.png
   49K   ├── circumflex.preview.png
@@ -1246,7 +1250,6 @@
   41K   ├── sshpass
   41K   ├── pipetty
   41K   ├── fzf.preview.png
-  39K   ├── termshark.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
@@ -1257,8 +1260,10 @@
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
   36K   ├── micro.preview.png
+  36K   ├── mantra.preview.png
   35K   ├── puredns.preview.png
   35K   ├── broot.preview.png
+  33K   ├── reviewdog.preview.png
   33K   ├── fnm.preview.png
   31K   ├── nezha-install.sh
   29K   ├── rustscan.preview.png
@@ -1266,7 +1271,6 @@
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
-  26K   ├── vopono.preview.png
   26K   ├── ttyrec2ansi
   25K   ├── czkawka.preview.png
   24K   ├── goaccess.preview.png
@@ -1274,6 +1278,8 @@
   23K   ├── prettyping
   23K   ├── try
   22K   ├── ani-cli
+  21K   ├── txeh.preview.png
+  21K   ├── huggingface-cli.preview.png
   20K   ├── findomain.preview.png
   19K   ├── pelf
   19K   ├── bin.default.png
@@ -1284,14 +1290,13 @@
   17K   ├── gsocket.preview.png
   17K   ├── bdl.sh
   16K   ├── feroxbuster.preview.png
-  16K   ├── dotenv-linter.preview.png
   16K   ├── cut-cdn.preview.png
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
   14K   ├── croc.preview.png
-  14K   ├── txeh.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
+  13K   ├── dotenv-linter.preview.png
   11K   ├── yt-dlp.preview.png
   11K   ├── lsix
   11K   ├── tailspin.preview.png

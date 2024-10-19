@@ -4474,7 +4474,7 @@ bin:
     bin_name: fblog
     description: Small command-line JSON Log viewer
     note: ""
-    version: v4.13.0
+    version: v4.13.1
     download_url: https://bin.ajam.dev/aarch64/fblog
     size: 3.92 MB
     bsum: 3b328bd17f2bbd8eafee8ae3f7fd797a74656fa8786aa2c7b15341abef0334ee
@@ -10322,7 +10322,7 @@ bin:
     bin_name: nezha-agent
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.2
+    version: v0.20.3
     download_url: https://bin.ajam.dev/aarch64/nezha-agent
     size: 21.78 MB
     bsum: 63e0cf07dcfcc842aafa1f8ce02dcc7ddff5016a9133aee8f46b20fc6ce8f83d
@@ -10339,7 +10339,7 @@ bin:
     bin_name: nezha-dashboard
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.2
+    version: v0.20.3
     download_url: https://bin.ajam.dev/aarch64/nezha-dashboard
     size: 37.04 MB
     bsum: d9e96978a604370540d6492b0ac0dc7594baad845defe89967dad679c1b26606
@@ -10356,7 +10356,7 @@ bin:
     bin_name: nezha-dashboard.openrc
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.2
+    version: v0.20.3
     download_url: https://bin.ajam.dev/aarch64/nezha-dashboard.openrc
     size: 376 B
     bsum: 5c1d7d58d6b4c7940968773c09a415b8da56ded17d9713b0d1fc1d6142edb01c
@@ -10373,7 +10373,7 @@ bin:
     bin_name: nezha-dashboard.service
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.2
+    version: v0.20.3
     download_url: https://bin.ajam.dev/aarch64/nezha-dashboard.service
     size: 798 B
     bsum: bd71a8149d962451109a1fca429318b363ea5c2e62d6763838ecd94f402559e6
@@ -10390,7 +10390,7 @@ bin:
     bin_name: nezha-install.sh
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.2
+    version: v0.20.3
     download_url: https://bin.ajam.dev/aarch64/nezha-install.sh
     size: 31.28 KB
     bsum: fe7b62044773e463748fcaee646f54b1095f07ac72f9f04afaeca1e009b9c6c2
@@ -10723,7 +10723,7 @@ bin:
     web_url: https://github.com/projectdiscovery/nuclei
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/nuclei.sh
     build_log: https://bin.ajam.dev/aarch64/nuclei.log.txt
-    category: attack-surface, cve-scanner, hacktoberfest, nuclei-engine, security, security-scanner, subdomain-takeover, vulnerability-assessment, vulnerability-detection, vulnerability-scanner
+    category: attack-surface, cve-scanner, dast, hacktoberfest, nuclei-engine, security, security-scanner, subdomain-takeover, vulnerability-assessment, vulnerability-detection, vulnerability-scanner
     icon: https://bin.ajam.dev/aarch64/nuclei.preview.png
     extra_bins: ""
   - name: memhog
@@ -12124,7 +12124,7 @@ bin:
     bin_name: qemu-aarch64-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-aarch64-static
     size: 6.23 MB
     bsum: 1990eefc02433ea6457297a02803c83fe5c284a5773404b103ef1407c8e011e5
@@ -12141,7 +12141,7 @@ bin:
     bin_name: qemu-aarch64_be-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-aarch64_be-static
     size: 6.23 MB
     bsum: b597bcc5fd3d23ca26226537f87a4ce336f4fd6f2a3425126047b863677bacf7
@@ -12158,7 +12158,7 @@ bin:
     bin_name: qemu-alpha-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-alpha-static
     size: 3.03 MB
     bsum: dbcc7d613a6582bfc8cac23338044b970b5a0db15fb1f78fe5f32e282ce067e2
@@ -12175,7 +12175,7 @@ bin:
     bin_name: qemu-arm-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-arm-static
     size: 4.35 MB
     bsum: 86b2b19f16e94b606944ea1d832a56873a8b82ca543b47b16eac272885bf6c12
@@ -12192,7 +12192,7 @@ bin:
     bin_name: qemu-armeb-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-armeb-static
     size: 4.35 MB
     bsum: f407b7972eb805e3e06e73e12ddf33b08b026615fdf8078fcf01477130e9258b
@@ -12209,7 +12209,7 @@ bin:
     bin_name: qemu-cris-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-cris-static
     size: 3.03 MB
     bsum: c8cd550bc61a43b4f5720ba3f83672c637c78fd6f4e5d1412d0ba11057bcfb8a
@@ -12226,7 +12226,7 @@ bin:
     bin_name: qemu-hexagon-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-hexagon-static
     size: 5.03 MB
     bsum: 207fd668548d579e0b0f88d4abd094efcef235cbe1eddb7dfdbb706e6be6fc4d
@@ -12243,7 +12243,7 @@ bin:
     bin_name: qemu-hppa-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-hppa-static
     size: 3.16 MB
     bsum: 935137c013a15a3df8144aee5c4cb6b595f4ff15065eafc2aa2044eff2375369
@@ -12260,7 +12260,7 @@ bin:
     bin_name: qemu-i386-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-i386-static
     size: 3.79 MB
     bsum: acd685b6fb4852ddffbbf51989f35de9805fb97805993098c9d8510074acb665
@@ -12277,7 +12277,7 @@ bin:
     bin_name: qemu-loongarch64-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-loongarch64-static
     size: 3.67 MB
     bsum: 34fab9bd04b3fc6a96a603980a5e2edc9eaef1268b5b6fa3bdd92ff73c1bdf03
@@ -12294,7 +12294,7 @@ bin:
     bin_name: qemu-m68k-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-m68k-static
     size: 3.36 MB
     bsum: cf2d548d7d836b6fdff9814bd87d368c800904262ee114851974b416cf8c4aae
@@ -12311,7 +12311,7 @@ bin:
     bin_name: qemu-microblaze-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-microblaze-static
     size: 3.03 MB
     bsum: 9fc784fa9723c058b9f1eb42aaf781986dc99975c429a6345c60761de7c9feb9
@@ -12328,7 +12328,7 @@ bin:
     bin_name: qemu-microblazeel-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-microblazeel-static
     size: 3.03 MB
     bsum: 8e358530839589c1746e5237f25c355d0d438b5e1564e54773c2006bc3917213
@@ -12345,7 +12345,7 @@ bin:
     bin_name: qemu-mips-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-mips-static
     size: 4.15 MB
     bsum: ef36d78e317ff01ad4ef4a27da48351b99b9408546b5e6526fdfae67ce7e497e
@@ -12362,7 +12362,7 @@ bin:
     bin_name: qemu-mips64-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-mips64-static
     size: 4.17 MB
     bsum: a3f2e88bd8351f9a16e48578184b4f90f0364a6f29535e034828628024c95faf
@@ -12379,7 +12379,7 @@ bin:
     bin_name: qemu-mips64el-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-mips64el-static
     size: 4.17 MB
     bsum: 4f8e664107f6a6068170185f59daca859b878490dcc7cb84bcaee4c6b7770912
@@ -12396,7 +12396,7 @@ bin:
     bin_name: qemu-mipsel-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-mipsel-static
     size: 4.15 MB
     bsum: 3f57548c57557b65fad8887343ff4397168c1a3d5bac457a9b17234ad5ccd4ad
@@ -12413,7 +12413,7 @@ bin:
     bin_name: qemu-mipsn32-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-mipsn32-static
     size: 4.17 MB
     bsum: 8ef99ab8b146e831b02901a6868df094d2f106ecbb047acb902172ddd72c3cb0
@@ -12430,7 +12430,7 @@ bin:
     bin_name: qemu-mipsn32el-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-mipsn32el-static
     size: 4.17 MB
     bsum: 58e473ea36ffbe5c00cd33bf04d13042dd28398111d337325dacc642b9ef0665
@@ -12447,7 +12447,7 @@ bin:
     bin_name: qemu-nios2-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-nios2-static
     size: 2.96 MB
     bsum: 52ea01b4d9b544b53c21e47d27f22a557cdc3f1ebc6f40fa26140ba7c7edeb55
@@ -12464,7 +12464,7 @@ bin:
     bin_name: qemu-or1k-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-or1k-static
     size: 2.96 MB
     bsum: fc64f747cb520b8d7bae0e4bfbbb7732c85e288b1b447e73491f37b7353829c0
@@ -12481,7 +12481,7 @@ bin:
     bin_name: qemu-ppc-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-ppc-static
     size: 4.04 MB
     bsum: 0144ca632b630fe2042e0a486968308c26ebebb2db24ed87a99b7d745047f3f4
@@ -12498,7 +12498,7 @@ bin:
     bin_name: qemu-ppc64-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-ppc64-static
     size: 4.11 MB
     bsum: 9573621755347a5b93c1a9a630584b87c442f8ef1076fe0cdf664f6e39b3bf92
@@ -12515,7 +12515,7 @@ bin:
     bin_name: qemu-ppc64le-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-ppc64le-static
     size: 4.11 MB
     bsum: 6656bc8d9881f82f58d1392d87159312697e6efbff7844625981ff53888d3677
@@ -12532,7 +12532,7 @@ bin:
     bin_name: qemu-riscv32-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-riscv32-static
     size: 4.45 MB
     bsum: 531df2b5c8a7283c420111179d3b9e726e05e90c3435d5a81d8fa98e0f3fefd2
@@ -12549,7 +12549,7 @@ bin:
     bin_name: qemu-riscv64-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-riscv64-static
     size: 4.52 MB
     bsum: c77d3eb87c873c8e313b2cdee6404d5bd82f0dc542bbc6a842fdd2d37d6c7cd9
@@ -12566,7 +12566,7 @@ bin:
     bin_name: qemu-s390x-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-s390x-static
     size: 3.53 MB
     bsum: f16c80ab95e852ea8817ffc222c8b889ba1df27650f8841c399f2a3f4e5e949d
@@ -12583,7 +12583,7 @@ bin:
     bin_name: qemu-sh4-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-sh4-static
     size: 3.03 MB
     bsum: e28bcbf5442a5c08dc53fb6c5c330a396e1bf46e775415fa0abe8298f0e14a84
@@ -12600,7 +12600,7 @@ bin:
     bin_name: qemu-sh4eb-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-sh4eb-static
     size: 3.03 MB
     bsum: 54ad1f1aea89539e4ebbaef8f1b71dc688959d9e1b1529a1ec7edb86398606e5
@@ -12617,7 +12617,7 @@ bin:
     bin_name: qemu-sparc-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-sparc-static
     size: 3.29 MB
     bsum: d6ce1ab1739dc63ea8de539f3f791f64a0f5b36ae705e8f71d3b3c1b87349537
@@ -12634,7 +12634,7 @@ bin:
     bin_name: qemu-sparc32plus-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-sparc32plus-static
     size: 3.43 MB
     bsum: 8712e1dfcddb1f95ddbc33cb32471ef7b08dbbef61abc3909aee2181ef1dd249
@@ -12651,7 +12651,7 @@ bin:
     bin_name: qemu-sparc64-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-sparc64-static
     size: 3.37 MB
     bsum: b30acab9b76b3828a240e15c4bbe37cb71e58f258848eed9ed77751c81c8a37d
@@ -12668,7 +12668,7 @@ bin:
     bin_name: qemu-x86_64-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-x86_64-static
     size: 3.73 MB
     bsum: 9c46d54c9d4c8eb7eca96a38dc146709618b1a074d0c65cf7f4821cd93e76849
@@ -12685,7 +12685,7 @@ bin:
     bin_name: qemu-xtensa-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-xtensa-static
     size: 7.4 MB
     bsum: 05e8c27c3296c630b14dc6609cb1c1e70e474269557fa4b65cbe8dad419059b9
@@ -12702,7 +12702,7 @@ bin:
     bin_name: qemu-xtensaeb-static
     description: machine & userspace emulator and virtualizer
     note: ""
-    version: v9.1.0
+    version: v9.1.1
     download_url: https://bin.ajam.dev/aarch64/qemu-xtensaeb-static
     size: 7.29 MB
     bsum: 1d6834794f0c57dd05c97aa248688805d829b2fdb8b7b303cf7112ff6f293baa
@@ -13569,7 +13569,7 @@ bin:
     bin_name: ruri
     description: Lightweight, User-friendly Linux-container Implementation
     note: ""
-    version: v3.5
+    version: v3.6
     download_url: https://bin.ajam.dev/aarch64/ruri
     size: 903.26 KB
     bsum: 2b3bdd40974802a9c0a9ffab21397a41dab6c35b017215f1689c1972bec86951
@@ -13841,7 +13841,7 @@ bin:
     bin_name: sbctl
     description: "\U0001F4BB \U0001F512 \U0001F511 Secure Boot key manager"
     note: ""
-    version: 0.15.4
+    version: "0.16"
     download_url: https://bin.ajam.dev/aarch64/sbctl
     size: 7.98 MB
     bsum: 5a53b5eee03501093e16fffdc69f6b6ec621f3d75b823462200e0f717b66ab8c
@@ -14929,7 +14929,7 @@ bin:
     bin_name: starship
     description: "☄\U0001F30C️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
     note: ""
-    version: v1.20.1
+    version: v1.21.1
     download_url: https://bin.ajam.dev/aarch64/starship
     size: 8.24 MB
     bsum: 7b315dc504413cd3d9cc112ca8738e926ea66fb5f28f4ab7b7f7106608b21f9a
@@ -16612,7 +16612,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.24
+    version: v0.9.99.25
     download_url: https://bin.ajam.dev/aarch64/vtm
     size: 5.71 MB
     bsum: bbc0e2be00d21797035f0701514c6e3e37238c761135b0454e37f451997b5f50
