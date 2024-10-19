@@ -972,7 +972,7 @@ bin:
     bin_name: berty
     description: Secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
     note: ""
-    version: v2.470.3
+    version: v2.470.5
     download_url: https://bin.ajam.dev/x86_64/berty
     size: 83.59 MB
     bsum: 4559f3054e696a4c0b36e6d43df0b9b299e28652bce4e5676c05d6d8d2985245
@@ -4525,7 +4525,7 @@ bin:
     bin_name: eza
     description: A modern replacement for ‘ls’. (Fork of exa)
     note: ""
-    version: v0.20.3
+    version: v0.20.4
     download_url: https://bin.ajam.dev/x86_64/eza
     size: 2.38 MB
     bsum: 19f7af7acd1ef087bbe48e9dcc9fb45c7596e24e272be13d4827ed18692649a3
@@ -4610,7 +4610,7 @@ bin:
     bin_name: fblog
     description: Small command-line JSON Log viewer
     note: ""
-    version: v4.13.0
+    version: v4.13.1
     download_url: https://bin.ajam.dev/x86_64/fblog
     size: 5.13 MB
     bsum: 426f54a091cf4c8df13f0138303c8aac3e0d253cc0329ebea0801b016fc711af
@@ -5732,7 +5732,7 @@ bin:
     bin_name: gitleaks
     description: "Protect and discover secrets using Gitleaks \U0001F511"
     note: ""
-    version: v8.21.0
+    version: v8.21.1
     download_url: https://bin.ajam.dev/x86_64/gitleaks
     size: 7.02 MB
     bsum: 020c9b3e45b0dc298d259b3bd8abe29a39394ac04aa33e5f15e14ab470f063ec
@@ -7398,7 +7398,7 @@ bin:
     bin_name: hf-cli
     description: The official Python client for the Huggingface Hub
     note: ""
-    version: v0.25.2
+    version: v0.26.0
     download_url: https://bin.ajam.dev/x86_64/hf-cli
     size: 20.44 MB
     bsum: 5194ebb90d3107060cac4bb2bc4eea7454edc90caebd24718b2bf3d6f236fc68
@@ -7415,7 +7415,7 @@ bin:
     bin_name: huggingface-cli
     description: The official Python client for the Huggingface Hub
     note: ""
-    version: v0.25.2
+    version: v0.26.0
     download_url: https://bin.ajam.dev/x86_64/huggingface-cli
     size: 20.44 MB
     bsum: 5194ebb90d3107060cac4bb2bc4eea7454edc90caebd24718b2bf3d6f236fc68
@@ -10594,7 +10594,7 @@ bin:
     bin_name: nezha-agent
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.1
+    version: v0.20.3
     download_url: https://bin.ajam.dev/x86_64/nezha-agent
     size: 22.82 MB
     bsum: c19603e2cc70840f82f4c6d6e4103532a74f3f6932f5c32e90b70340218a4feb
@@ -10611,7 +10611,7 @@ bin:
     bin_name: nezha-dashboard
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.1
+    version: v0.20.3
     download_url: https://bin.ajam.dev/x86_64/nezha-dashboard
     size: 38.05 MB
     bsum: c95597e2ad61dc918a53f77b9a198785c7b901a8cb32ced39e03f4a8bd122d08
@@ -10628,7 +10628,7 @@ bin:
     bin_name: nezha-dashboard.openrc
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.1
+    version: v0.20.3
     download_url: https://bin.ajam.dev/x86_64/nezha-dashboard.openrc
     size: 376 B
     bsum: 5c1d7d58d6b4c7940968773c09a415b8da56ded17d9713b0d1fc1d6142edb01c
@@ -10645,7 +10645,7 @@ bin:
     bin_name: nezha-dashboard.service
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.1
+    version: v0.20.3
     download_url: https://bin.ajam.dev/x86_64/nezha-dashboard.service
     size: 798 B
     bsum: bd71a8149d962451109a1fca429318b363ea5c2e62d6763838ecd94f402559e6
@@ -10662,7 +10662,7 @@ bin:
     bin_name: nezha-install.sh
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.1
+    version: v0.20.3
     download_url: https://bin.ajam.dev/x86_64/nezha-install.sh
     size: 31.28 KB
     bsum: fe7b62044773e463748fcaee646f54b1095f07ac72f9f04afaeca1e009b9c6c2
@@ -11869,7 +11869,7 @@ bin:
     bin_name: php
     description: Standalone PHP binary
     note: ""
-    version: 2.3.5
+    version: 2.3.6
     download_url: https://bin.ajam.dev/x86_64/php
     size: 25.77 MB
     bsum: 4cdc3cce13c5090c3c8a9bdbce862d27f75b44976f6b853e8e41644a4ad53527
@@ -11886,7 +11886,7 @@ bin:
     bin_name: php-fpm
     description: Standalone PHP binary
     note: ""
-    version: 2.3.5
+    version: 2.3.6
     download_url: https://bin.ajam.dev/x86_64/php-fpm
     size: 25.79 MB
     bsum: 17396c834f3de2181a47a041b601747bfc55e61c37bae3419ef167694fc9dc32
@@ -11903,7 +11903,7 @@ bin:
     bin_name: php-micro
     description: Standalone PHP binary
     note: ""
-    version: 2.3.5
+    version: 2.3.6
     download_url: https://bin.ajam.dev/x86_64/php-micro
     size: 25.74 MB
     bsum: 8e2ccd96f3b6b571d3d819be31dc5528d0cf362c9354b08672732a2818bd3c67
@@ -14011,7 +14011,7 @@ bin:
     bin_name: ruri
     description: Lightweight, User-friendly Linux-container Implementation
     note: ""
-    version: v3.5
+    version: v3.6
     download_url: https://bin.ajam.dev/x86_64/ruri
     size: 1.16 MB
     bsum: 13fb401379cd32d8fb64f9e5da61e1918096fbb4503c8b0d557373874919df08
@@ -15439,7 +15439,7 @@ bin:
     bin_name: starship
     description: "☄\U0001F30C️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
     note: ""
-    version: v1.21.0
+    version: v1.20.1
     download_url: https://bin.ajam.dev/x86_64/starship
     size: 9.98 MB
     bsum: 9ee9de0d5c5f25227aeadadd45a1331cb99388b17c09f1f8e7fd6ca845364996
@@ -17224,7 +17224,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.23
+    version: v0.9.99.24
     download_url: https://bin.ajam.dev/x86_64/vtm
     size: 6.24 MB
     bsum: 9f2396082caeacb9cbc00d9491a72eb20661c51a38064df0ccbae04c2c4097b6

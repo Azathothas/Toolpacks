@@ -475,6 +475,7 @@
  6.7M   ├── pingmole
  6.7M   ├── spk
  6.6M   ├── xq
+ 6.6M   ├── rate-mirrors
  6.5M   ├── stunner
  6.5M   ├── cloak-client
  6.5M   ├── uroot
@@ -1073,8 +1074,8 @@
  237K   ├── METADATA.AIO.yaml.xz
  237K   ├── METADATA.AIO.toml.zstd
  237K   ├── METADATA.AIO.min.json.zstd
- 236K   ├── METADATA.AIO.toml.xz
  236K   ├── planor.preview.png
+ 236K   ├── METADATA.AIO.toml.xz
  236K   ├── METADATA.AIO.min.json.xz
  232K   ├── netexec.preview.png
  231K   ├── glow.preview.png
@@ -1125,6 +1126,7 @@
  149K   ├── assh.preview.png
  143K   ├── qsv.preview.png
  143K   ├── gitoxide.preview.png
+ 142K   ├── step.preview.png
  141K   ├── grex.preview.png
  141K   ├── pidstat
  140K   ├── qbittorrent-nox.preview.png
@@ -1176,7 +1178,6 @@
  100K   ├── mpstat
   99K   ├── gitpod-cli.preview.png
   98K   ├── shc
-  97K   ├── termshark.preview.png
   97K   ├── darkhttpd
   97K   ├── listmonk.preview.png
   94K   ├── cronie-crontab
@@ -1194,7 +1195,6 @@
   80K   ├── cronie-cronnext
   79K   ├── macchina.preview.png
   77K   ├── revive.preview.png
-  76K   ├── step.preview.png
   75K   ├── cifsiostat
   75K   ├── arduino-cli.preview.png
   74K   ├── bin2video
@@ -1203,6 +1203,7 @@
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
   67K   ├── sn0int.preview.png
+  67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
   66K   ├── proxychains
   66K   ├── oha.preview.png
@@ -1229,7 +1230,6 @@
   52K   ├── miller.preview.png
   51K   ├── redguard.preview.png
   51K   ├── catatonit
-  50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
   50K   ├── dvc.preview.png
   49K   ├── circumflex.preview.png
@@ -1246,6 +1246,7 @@
   41K   ├── sshpass
   41K   ├── pipetty
   41K   ├── fzf.preview.png
+  39K   ├── termshark.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
@@ -1265,6 +1266,7 @@
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
+  26K   ├── vopono.preview.png
   26K   ├── ttyrec2ansi
   25K   ├── czkawka.preview.png
   24K   ├── goaccess.preview.png
@@ -1272,8 +1274,6 @@
   23K   ├── prettyping
   23K   ├── try
   22K   ├── ani-cli
-  21K   ├── txeh.preview.png
-  21K   ├── ruri.preview.png
   20K   ├── findomain.preview.png
   19K   ├── pelf
   19K   ├── bin.default.png
@@ -1289,6 +1289,7 @@
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
   14K   ├── croc.preview.png
+  14K   ├── txeh.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
   11K   ├── yt-dlp.preview.png
