@@ -27,17 +27,17 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
       #Fetch
        #eval "${EGET_TIMEOUT}" eget "${SOURCE_URL}" --asset "alpine" --asset "flatimage" --asset "^.sha" --to "${BINDIR}/alpine-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/alpine.flatimage" --to "${BINDIR}/alpine-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/alpine.flatimage" --to "${BINDIR}/alpine-flatimage.no_strip"
        #eval "${EGET_TIMEOUT}" eget "${SOURCE_URL}" --asset "arch" --asset "flatimage" --asset "^.sha" --to "${BINDIR}/archlinux-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/archlinux.flatimage" --to "${BINDIR}/archlinux-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/archlinux.flatimage" --to "${BINDIR}/archlinux-flatimage.no_strip"
        #eval "${EGET_TIMEOUT}" eget "${SOURCE_URL}" --asset "blueprint" --asset "flatimage" --asset "^.sha" --to "${BINDIR}/blueprint-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/artix.flatimage" --to "${BINDIR}/artix-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/blueprint.flatimage" --to "${BINDIR}/blueprint-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/cachyos.flatimage" --to "${BINDIR}/cachyos-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/debian.flatimage" --to "${BINDIR}/debian-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/ubuntu.flatimage" --to "${BINDIR}/ubuntu-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/void-glibc.flatimage" --to "${BINDIR}/void-glibc-flatimage.no_strip"
-       eget "https://github.com/Azathothas/flatimage-base/releases/download/x86_64/void-musl.flatimage" --to "${BINDIR}/void-musl-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/artix.flatimage" --to "${BINDIR}/artix-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/blueprint.flatimage" --to "${BINDIR}/blueprint-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/cachyos.flatimage" --to "${BINDIR}/cachyos-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/debian.flatimage" --to "${BINDIR}/debian-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/ubuntu.flatimage" --to "${BINDIR}/ubuntu-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/void-glibc.flatimage" --to "${BINDIR}/void-glibc-flatimage.no_strip"
+       eget "https://github.com/Azathothas/flatimage-base/releases/download/aarch64/void-musl.flatimage" --to "${BINDIR}/void-musl-flatimage.no_strip"
 fi
 #-------------------------------------------------------#
 

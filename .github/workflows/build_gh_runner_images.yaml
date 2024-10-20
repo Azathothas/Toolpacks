@@ -254,6 +254,7 @@ jobs:
           platforms: "linux/arm64"
           tags: |
             azathothas/ubuntu-systemd-base:latest
+            azathothas/ubuntu-systemd-base:aarch64
             azathothas/ubuntu-systemd-base:${{ env.DOCKER_TAG }}
           push: true  
         continue-on-error: true
@@ -314,6 +315,7 @@ jobs:
           platforms: "linux/amd64"
           tags: |
             azathothas/ubuntu-systemd-base:latest
+            azathothas/ubuntu-systemd-base:x86_64
             azathothas/ubuntu-systemd-base:${{ env.DOCKER_TAG }}
           push: true
         continue-on-error: true
