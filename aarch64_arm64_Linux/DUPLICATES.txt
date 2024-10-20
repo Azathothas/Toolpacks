@@ -76,6 +76,19 @@ REPO: https://github.com/nushell/nushell
 Web URL: https://github.com/nushell/nushell
 
 ---------------------
+Name: bubblewrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/bubblewrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
+
+Name: bwrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/bwrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
+
+---------------------
 Name: ocat
 DESCR: VPN adapter for Tor and I2P
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/ocat
@@ -126,19 +139,6 @@ DESCR: cat with colors & syntax highlights
 Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/batcat
 REPO: https://github.com/sharkdp/bat
 Web URL: https://github.com/sharkdp/bat
-
----------------------
-Name: bubblewrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/bubblewrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
-
-Name: bwrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/aarch64_arm64_Linux/bwrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
 
 ---------------------
 Name: zerotier-cli

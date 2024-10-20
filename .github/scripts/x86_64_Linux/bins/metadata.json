@@ -130,6 +130,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ani-cli.sh"
   },
   {
+    "name": "apk-static.sh",
+    "update_date": "2024-10-17T12:08:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/apk-static.sh"
+  },
+  {
     "name": "apk.sh.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/apk.sh.sh"
@@ -391,7 +396,7 @@
   },
   {
     "name": "bubblewrap.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-10-17T12:08:55",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/bubblewrap.sh"
   },
   {
@@ -528,6 +533,11 @@
     "name": "cidr.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/cidr.sh"
+  },
+  {
+    "name": "ciopfs.sh",
+    "update_date": "2024-10-17T12:08:55",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/ciopfs.sh"
   },
   {
     "name": "circumflex.sh",
@@ -2416,7 +2426,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-16T12:11:46",
+    "update_date": "2024-10-19T12:13:06",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {

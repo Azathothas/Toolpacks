@@ -20,8 +20,8 @@
 1.7M   ├── zsh
 1.7M   ├── bash
 1.5M   ├── busybox
-1.2M   ├── b3sum
-946K   ├── anew-rs
+1.4M   ├── b3sum
+1.1M   ├── anew-rs
 441K   ├── xxd
 245K   ├── sudo
 229K   ├── wget_cacert.pem
@@ -31,7 +31,7 @@
 175K   ├── ahost
  69K   ├── curl.preview.png
  44K   ├── tailscale.preview.png
- 39K   ├── pkg.default.png
+ 40K   ├── pkg.default.png
  38K   ├── rclone.preview.png
  37K   ├── base.default.png
  19K   └── bin.default.png

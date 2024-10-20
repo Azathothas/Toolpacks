@@ -1,16 +1,3 @@
-Name: bubblewrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/bubblewrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
-
-Name: bwrap
-DESCR: Unprivileged sandboxing tool
-Download URL: https://bin.ajam.dev/x86_64_Linux/bwrap
-REPO: https://github.com/containers/bubblewrap
-Web URL: https://github.com/containers/bubblewrap
-
----------------------
 Name: rootlesskit
 DESCR: Container
 Download URL: https://bin.ajam.dev/x86_64_Linux/rootlesskit
@@ -178,6 +165,19 @@ DESCR: a better code editor
 Download URL: https://bin.ajam.dev/x86_64_Linux/kakoune
 REPO: https://github.com/mawww/kakoune
 Web URL: https://github.com/mawww/kakoune
+
+---------------------
+Name: bubblewrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/bubblewrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
+
+Name: bwrap
+DESCR: Unprivileged sandboxing tool
+Download URL: https://bin.ajam.dev/x86_64_Linux/bwrap
+REPO: https://github.com/containers/bubblewrap
+Web URL: https://github.com/containers/bubblewrap
 
 ---------------------
 Name: localxpose

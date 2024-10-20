@@ -1,6 +1,6 @@
 ```mathematica
   14G └─┬ toolpack_x86_64
- 379M   ├── archlinux-flatimage.no_strip
+ 380M   ├── archlinux-flatimage.no_strip
  308M   ├── gentoo.no_strip
  257M   ├── gentoo-musl.no_strip
  169M   ├── usql
@@ -459,6 +459,7 @@
  7.9M   ├── godnsbench
  7.9M   ├── xmrig
  7.9M   ├── sbctl
+ 7.9M   ├── rate-mirrors
  7.8M   ├── quickcert
  7.8M   ├── hxn
  7.8M   ├── ffuf
@@ -676,6 +677,7 @@
  4.6M   ├── enumerepo
  4.6M   ├── dnsperf
  4.5M   ├── resperf
+ 4.5M   ├── apk-static
  4.5M   ├── gotld
  4.5M   ├── ssh
  4.5M   ├── realm
@@ -747,8 +749,8 @@
  3.7M   ├── METADATA.AIO.yaml
  3.7M   ├── tealdeer
  3.7M   ├── spipe
- 3.7M   ├── hcxpcapngtool
  3.7M   ├── METADATA.AIO.toml
+ 3.7M   ├── hcxpcapngtool
  3.7M   ├── viu
  3.7M   ├── iperf3
  3.7M   ├── iperf
@@ -969,6 +971,7 @@
  1.2M   ├── sudo
  1.2M   ├── su-rs
  1.2M   ├── b3sum
+ 1.2M   ├── ciopfs
  1.2M   ├── zoxide
  1.2M   ├── z
  1.2M   ├── strip-ansi-escapes
@@ -1020,7 +1023,6 @@
  673K   ├── squashfuse_ll
  669K   ├── squashfuse
  645K   ├── starship.preview.png
- 643K   ├── ockam.preview.png
  607K   ├── htop
  606K   ├── whois
  597K   ├── elfcat
@@ -1129,16 +1131,15 @@
  308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  303K   ├── mdp
+ 287K   ├── METADATA.AIO.json.xz
  286K   ├── region_restriction_check.sh
- 286K   ├── METADATA.AIO.json.xz
- 284K   ├── METADATA.AIO.json.zstd
- 283K   ├── METADATA.AIO.yaml.xz
- 282K   ├── pdfcpu.preview.png
- 282K   ├── METADATA.AIO.min.json.zstd
- 281K   ├── METADATA.AIO.yaml.zstd
- 281K   ├── METADATA.AIO.toml.zstd
- 281K   ├── METADATA.AIO.toml.xz
- 281K   ├── METADATA.AIO.min.json.xz
+ 285K   ├── METADATA.AIO.json.zstd
+ 284K   ├── METADATA.AIO.yaml.xz
+ 283K   ├── METADATA.AIO.toml.zstd
+ 283K   ├── METADATA.AIO.min.json.zstd
+ 282K   ├── METADATA.AIO.yaml.zstd
+ 282K   ├── METADATA.AIO.toml.xz
+ 282K   ├── METADATA.AIO.min.json.xz
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
  274K   ├── doas
@@ -1203,9 +1204,6 @@
  171K   ├── numactl
  170K   ├── numademo
  169K   ├── gpg-tui.preview.png
- 162K   ├── bwrap
- 162K   ├── bubblewrap
- 158K   ├── k9s.preview.png
  154K   ├── migspeed
  150K   ├── migratepages
  150K   ├── memhog
@@ -1221,6 +1219,9 @@
  140K   ├── jwt-hack.preview.png
  138K   ├── pidstat
  138K   ├── ifrename
+ 138K   ├── bwrap-patched
+ 138K   ├── bwrap
+ 138K   ├── bubblewrap
  136K   ├── xplr.preview.png
  134K   ├── zellij.preview.png
  134K   ├── lazydocker.preview.png
@@ -1315,6 +1316,7 @@
   66K   ├── zapper-stealth
   66K   ├── oha.preview.png
   65K   ├── hakrawler.preview.png
+  63K   ├── pdfcpu.preview.png
   63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
   62K   ├── tut.preview.png
@@ -1325,6 +1327,7 @@
   57K   ├── joker
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
+  55K   ├── k9s.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── ptyspawn
@@ -1333,7 +1336,6 @@
   51K   ├── redguard.preview.png
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
-  50K   ├── dvc.preview.png
   50K   ├── hcxwltool
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
@@ -1357,6 +1359,7 @@
   37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
+  36K   ├── ockam.preview.png
   36K   ├── micro.preview.png
   36K   ├── dbeaver.preview.png
   35K   ├── sshpass
@@ -1392,6 +1395,7 @@
   17K   ├── bdl.sh
   16K   ├── feroxbuster.preview.png
   16K   ├── dotenv-linter.preview.png
+  16K   ├── dvc.preview.png
   16K   ├── cut-cdn.preview.png
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
