@@ -17700,7 +17700,7 @@ bin:
     bin_name: yggdrasil
     description: An experiment in scalable routing as an encrypted IPv6 overlay network
     note: ""
-    version: v0.5.8
+    version: v0.5.9
     download_url: https://bin.ajam.dev/aarch64/yggdrasil
     size: 10.34 MB
     bsum: 5d7e27075098cca0a1177c6ed2d5de34faf64eeee4eefb01a5ea540b063fd427
@@ -17717,7 +17717,7 @@ bin:
     bin_name: yggdrasilctl
     description: An experiment in scalable routing as an encrypted IPv6 overlay network
     note: ""
-    version: v0.5.8
+    version: v0.5.9
     download_url: https://bin.ajam.dev/aarch64/yggdrasilctl
     size: 7.02 MB
     bsum: e44888a6f14aa5cd6fa61f5514a2071c698743bdbaba55c5367c46b3c632c279

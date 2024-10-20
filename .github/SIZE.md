@@ -41,7 +41,7 @@
 4.0K   │ ├── METADATA.urls
   0B   │ └── DUPLICATES_OVERWRITES.txt
  10M   ├── METADATA.json
-9.4M   ├── METADATA.yaml
+9.3M   ├── METADATA.yaml
 544K   ├─┬ x64_Windows
 232K   │ ├── METADATA.json
 132K   │ ├── DETAILED.md

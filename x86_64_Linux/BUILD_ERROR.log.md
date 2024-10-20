@@ -222,9 +222,9 @@
 296:dnstake.preview.png:              JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
 311:dotenv-linter.preview.png:        PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 321:duf.preview.png:                  PNG image data, 1122 x 726, 8-bit/color RGBA, non-interlaced
-325:dvc.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+325:dvc.preview.png:                  PNG image data, 2189 x 1093, 8-bit/color RGBA, non-interlaced
 348:encrypted-dns-server.preview.png: PNG image data, 627 x 119, 8-bit colormap, non-interlaced
-362:eza.preview.png:                  PNG image data, 1181 x 640, 8-bit/color RGB, non-interlaced
+362:eza.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 374:feroxbuster.preview.png:          PNG image data, 1000 x 1000, 8-bit/color RGBA, non-interlaced
 381:fget.preview-0.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 382:fget.preview-1.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -286,7 +286,7 @@
 630:jc.preview.png:                   PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 635:jless.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 648:jwt-hack.preview.png:             JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1280x640, components 3
-650:k9s.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+650:k9s.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 661:kitty.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 663:kmon.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 669:kubo.preview.png:                 JPEG image data, JFIF standard 1.01, resolution (DPI), density 144x144, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=5, xresolution=74, yresolution=82, resolutionunit=2, datetime=2023:10:03 18:40:39], baseline, precision 8, 1280x640, components 3
@@ -309,7 +309,7 @@
 800:nicotine-plus.preview.png:        PNG image data, 1280 x 640, 16-bit/color RGBA, non-interlaced
 812:noir.preview.png:                 JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1280x640, components 3
 816:noseyparker.preview.png:          PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
-833:ockam.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+833:ockam.preview.png:                PNG image data, 2400 x 1260, 8-bit/color RGBA, non-interlaced
 835:oha.preview.png:                  PNG image data, 1364 x 684, 8-bit/color RGBA, non-interlaced
 849:osmedeus.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 853:ov.preview.png:                   PNG image data, 1200 x 516, 8-bit/color RGB, non-interlaced
@@ -413,7 +413,7 @@
 1398:xplr.preview.png:                 JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1], baseline, precision 8, 1200x630, components 3
 1402:yabs.sh.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1406:yazi.preview.png:                 JPEG image data, JFIF standard 1.01, aspect ratio, density 144x144, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=4, xresolution=62, yresolution=70, resolutionunit=2], baseline, precision 8, 2620x1420, components 3
-1408:yggdrasil.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1408:yggdrasil.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1414:yt-dlp.preview.png:               PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
 1417:z-tokens.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1422:zellij.preview.png:               PNG image data, 1065 x 534, 8-bit/color RGBA, non-interlaced
