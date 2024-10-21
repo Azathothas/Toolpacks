@@ -254,7 +254,7 @@
 467:gitpod-cli.preview.png:           JPEG image data, JFIF standard 1.01, aspect ratio, density 0x0, segment length 16, baseline, precision 8, 2400x1350, components 3
 470:gitui.preview.png:                PNG image data, 1000 x 600, 8-bit gray+alpha, non-interlaced
 474:glow.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-481:goaccess.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+481:goaccess.preview.png:             PNG image data, 725 x 411, 4-bit colormap, non-interlaced
 502:gosmee.preview.png:               PNG image data, 1792 x 1024, 8-bit colormap, non-interlaced
 503:gost:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=OVmBQl7Gp37Wjg7ZI_qx/g0eYkNTCnwuM5xLli1Kk/Eg-FeyzgT1hpmZFPausQ/FigF6hru-9SsYb6NVoAG, stripped
 509:gowitness.preview.png:            PNG image data, 710 x 172, 8-bit/color RGBA, non-interlaced
@@ -324,7 +324,7 @@
 901:ppfuzz.preview.png:               JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
 903:ppsspp.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 912:proot.preview.png:                PNG image data, 200 x 200, 8-bit/color RGBA, non-interlaced
-919:puredns.preview.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+919:puredns.preview.png:              PNG image data, 1080 x 540, 8-bit/color RGBA, non-interlaced
 925:qbittorrent-nox.preview.png:      JPEG image data, JFIF standard 1.02, resolution (DPI), density 96x96, segment length 16, comment: "LEADTOOLS v20.0", baseline, precision 8, 1198x687, components 3
 963:qsv.preview.png:                  PNG image data, 1280 x 800, 8-bit/color RGBA, non-interlaced
 966:quotes-escaper.preview-0.png:     PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -343,8 +343,8 @@
 985:rathole.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 987:rattler-build.preview.png:        PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
 990:rclone.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-993:realm-tavern.preview.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-999:redguard.preview.png:             PNG image data, 640 x 365, 8-bit/color RGB, non-interlaced
+993:realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA, non-interlaced
+999:redguard.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1010:rescope.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 1012:resdns.preview-0.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1013:resdns.preview-1.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -406,7 +406,7 @@
 1293:udpx.preview.png:                 PNG image data, 1280 x 720, 8-bit/color RGB, non-interlaced
 1308:v2raya.preview.png:               PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 1315:vhs.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
-1317:viddy.preview.png:                PNG image data, 1467 x 1464, 8-bit/color RGBA, non-interlaced
+1317:viddy.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1328:vopono.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1332:vtm.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1343:watchexec.preview.png:            PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
@@ -415,7 +415,7 @@
 1406:yazi.preview.png:                 JPEG image data, JFIF standard 1.01, aspect ratio, density 144x144, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=4, xresolution=62, yresolution=70, resolutionunit=2], baseline, precision 8, 2620x1420, components 3
 1408:yggdrasil.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1414:yt-dlp.preview.png:               PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
-1417:z-tokens.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1417:z-tokens.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1422:zellij.preview.png:               PNG image data, 1065 x 534, 8-bit/color RGBA, non-interlaced
 1433:zoxide.preview-0.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1434:zoxide.preview-1.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced

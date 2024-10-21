@@ -989,7 +989,7 @@ bin:
     bin_name: bin
     description: Effortless binary manager
     note: ""
-    version: v0.18.0
+    version: v0.19.0
     download_url: https://bin.ajam.dev/aarch64/bin
     size: 14.96 MB
     bsum: 5bf834534218dbfbcbca6dda265f5ca72f5f95a7f25b7c7f50cf5f77b8350a7f
@@ -7177,7 +7177,7 @@ bin:
     bin_name: httpx
     description: httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes
     note: ""
-    version: v1.6.8
+    version: v1.6.9
     download_url: https://bin.ajam.dev/aarch64/httpx
     size: 39.23 MB
     bsum: 712e01e31a23c36e1ab2ee225f9c36ef1d3e143ee43f33749c453524ff301db1
@@ -8537,7 +8537,7 @@ bin:
     bin_name: linuxwave
     description: "Generate music from the entropy of Linux \U0001F427\U0001F3B5"
     note: ""
-    version: v0.1.5
+    version: v0.2.0
     download_url: https://bin.ajam.dev/aarch64/linuxwave
     size: 171.72 KB
     bsum: 9c069589a6e389c079dd088340b6e7dbff8f9fbbad12ba7b5cb47d1a0fba457b
@@ -10832,7 +10832,7 @@ bin:
     bin_name: nu
     description: A new type of shell
     note: ""
-    version: 0.99.0
+    version: 0.99.1
     download_url: https://bin.ajam.dev/aarch64/nu
     size: 35.78 MB
     bsum: 1dd8d4ac773d0b19469d96a2a059311827c48ee9fe1d92de9a1388e3b2a60060
@@ -10849,7 +10849,7 @@ bin:
     bin_name: nushell
     description: A new type of shell
     note: ""
-    version: 0.99.0
+    version: 0.99.1
     download_url: https://bin.ajam.dev/aarch64/nushell
     size: 35.78 MB
     bsum: 1dd8d4ac773d0b19469d96a2a059311827c48ee9fe1d92de9a1388e3b2a60060
@@ -14232,7 +14232,7 @@ bin:
     bin_name: shfmt
     description: A shell parser, formatter, and interpreter with bash support; includes shfmt
     note: ""
-    version: v3.9.0
+    version: v3.10.0
     download_url: https://bin.ajam.dev/aarch64/shfmt
     size: 2.81 MB
     bsum: 3322c35e67c77dce17ecdc0fbdfa4215b8dc620c0e716386a0449f69fa43cfef
@@ -15796,7 +15796,7 @@ bin:
     bin_name: tlsx
     description: Fast and configurable TLS grabber focused on TLS based data collection
     note: ""
-    version: v1.1.7
+    version: v1.1.8
     download_url: https://bin.ajam.dev/aarch64/tlsx
     size: 27.11 MB
     bsum: 3fbcdd9320f16dd582bfd9e1c6c9498a3f0b309d5be98ddb2a83127685e5a17f
@@ -16255,7 +16255,7 @@ bin:
     bin_name: ulexec
     description: A tool for loading and executing PE/ELF from memory
     note: ""
-    version: v0.0.5
+    version: v0.0.6
     download_url: https://bin.ajam.dev/aarch64/ulexec
     size: 5.32 MB
     bsum: 4a70c018a2e2824683fc3ae2822f7f614422b5253e223cd962431c3543821c53
@@ -16510,7 +16510,7 @@ bin:
     bin_name: viu
     description: Terminal image viewer with native support for iTerm and Kitty
     note: ""
-    version: v1.5.0
+    version: v1.5.1
     download_url: https://bin.ajam.dev/aarch64/viu
     size: 3.25 MB
     bsum: dd08d3d13eae55f3e1045c71ab81f3a63577f951a0dd6863e64c5b3e3b7607e3
@@ -16629,7 +16629,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.25
+    version: v0.9.99.26
     download_url: https://bin.ajam.dev/aarch64/vtm
     size: 5.71 MB
     bsum: bbc0e2be00d21797035f0701514c6e3e37238c761135b0454e37f451997b5f50

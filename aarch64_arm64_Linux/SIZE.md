@@ -1000,7 +1000,6 @@
  557K   ├── dagu.preview.png
  551K   ├── neofetch
  541K   ├── ncdu
- 530K   ├── pixi.preview.png
  529K   ├── masscan
  517K   ├── elfcat
  516K   ├── loksh
@@ -1079,7 +1078,7 @@
  251K   ├── meli.preview.png
  243K   ├── lorien.preview.png
  240K   ├── rattler-build.preview.png
- 239K   ├── METADATA.AIO.json.xz
+ 240K   ├── METADATA.AIO.json.xz
  239K   ├── METADATA.AIO.json.zstd
  238K   ├── udpx.preview.png
  237K   ├── METADATA.AIO.yaml.zstd
@@ -1088,6 +1087,7 @@
  237K   ├── METADATA.AIO.min.json.zstd
  236K   ├── METADATA.AIO.toml.xz
  236K   ├── METADATA.AIO.min.json.xz
+ 236K   ├── planor.preview.png
  232K   ├── netexec.preview.png
  231K   ├── glow.preview.png
  220K   ├── ppsspp.preview.png
@@ -1137,7 +1137,6 @@
  155K   ├── runimage-run
  149K   ├── asn.preview.png
  149K   ├── sshportal.preview.png
- 149K   ├── assh.preview.png
  143K   ├── qsv.preview.png
  143K   ├── gitoxide.preview.png
  142K   ├── step.preview.png
@@ -1177,6 +1176,7 @@
  123K   ├── duf.preview.png
  123K   ├── watchexec.preview.png
  122K   ├── shell2http.preview.png
+ 121K   ├── pgrok.preview.png
  119K   ├── gitea.preview.png
  118K   ├── archey.preview.png
  116K   ├── tapestat
@@ -1194,7 +1194,6 @@
   97K   ├── termshark.preview.png
   97K   ├── darkhttpd
   97K   ├── listmonk.preview.png
-  96K   ├── planor.preview.png
   94K   ├── cronie-crontab
   92K   ├── mdcat.preview.png
   91K   ├── git-cliff.preview.png
@@ -1202,6 +1201,7 @@
   87K   ├── runst.preview.png
   85K   ├── kubo.preview.png
   83K   ├── yggdrasil.preview.png
+  83K   ├── assh.preview.png
   82K   ├── algernon.preview.png
   81K   ├── reviewdog.preview.png
   81K   ├── albafetch.preview.png
@@ -1213,13 +1213,14 @@
   75K   ├── cifsiostat
   75K   ├── arduino-cli.preview.png
   74K   ├── bin2video
-  73K   ├── cocogitto.preview.png
   72K   ├── hugo.preview.png
   69K   ├── rage.preview.png
+  69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
   67K   ├── sn0int.preview.png
   67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
+  67K   ├── pixi.preview.png
   66K   ├── proxychains
   66K   ├── oha.preview.png
   65K   ├── sharun
@@ -1277,6 +1278,8 @@
   33K   ├── fnm.preview.png
   31K   ├── nezha-install.sh
   29K   ├── rustscan.preview.png
+  27K   ├── zoxide.preview-1.png
+  27K   ├── zoxide.preview-0.png
   27K   ├── aggligator.preview.png
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
@@ -1284,7 +1287,6 @@
   26K   ├── ttyrec2ansi
   25K   ├── czkawka.preview.png
   24K   ├── goaccess.preview.png
-  24K   ├── pgrok.preview.png
   24K   ├── certstream-server-go.preview.png
   23K   ├── prettyping
   23K   ├── try
@@ -1299,6 +1301,7 @@
   17K   ├── resdns
   17K   ├── gsocket.preview.png
   17K   ├── bdl.sh
+  16K   ├── feroxbuster.preview.png
   16K   ├── dotenv-linter.preview.png
   16K   ├── cut-cdn.preview.png
   15K   ├── dockerd-rootless-setuptool.sh
@@ -1316,7 +1319,6 @@
  7.5K   ├── sk-tmux
  7.5K   ├── dockerd-rootless.sh
  7.5K   ├── ansi2txt
- 7.0K   ├── feroxbuster.preview.png
  6.5K   ├── kmon.preview.png
  5.5K   ├── rsync-ssl
  5.5K   ├── gsocket
