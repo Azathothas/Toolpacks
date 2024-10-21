@@ -1,5 +1,5 @@
 ```mathematica
- 1.7G └─┬ toolpack_x86_64
+ 1.7G └─┬ .
  149M   ├── pandoc.exe
  141M   ├── ffmpeg.exe
  141M   ├── ffprobe.exe
@@ -57,6 +57,7 @@
  5.3M   ├── cfspeedtest.exe
  5.2M   ├── rg.exe
  5.0M   ├── monolith.exe
+ 4.9M   ├── openssh.zip
  4.6M   ├── certstream.exe
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
@@ -79,7 +80,6 @@
  2.3M   ├── geoping.exe
  2.2M   ├── tac.exe
  2.2M   ├── pdftops.exe
- 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -91,6 +91,7 @@
  1.6M   ├── dua.exe
  1.6M   ├── sort.exe
  1.5M   ├── ls.exe
+ 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.5M   ├── fastfetch.exe
@@ -140,10 +141,10 @@
  902K   ├── fmt.exe
  898K   ├── head.exe
  883K   ├── realpath.exe
- 881K   ├── tsort.exe
  880K   ├── unexpand.exe
  878K   ├── tee.exe
  878K   ├── readlink.exe
+ 877K   ├── tsort.exe
  869K   ├── expand.exe
  865K   ├── fold.exe
  860K   ├── cat.exe
@@ -151,8 +152,8 @@
  847K   ├── test.exe
  846K   ├── uname.exe
  844K   ├── truncate.exe
+ 844K   ├── mkdir.exe
  843K   ├── hostname.exe
- 843K   ├── mkdir.exe
  841K   ├── comm.exe
  837K   ├── ssh-keygen.exe
  837K   ├── paste.exe
@@ -185,68 +186,70 @@
  498K   ├── ssh-pkcs11-helper.exe
  445K   ├── scp.exe
  364K   ├── sftp-server.exe
- 316K   ├── picocrypt.preview.png
+ 315K   ├── picocrypt.preview.png
  175K   ├── yt-dlp.exe
  174K   ├── ssh-shellhost.exe
  167K   ├── bin2video.exe
- 143K   ├── gitoxide.preview.png
- 142K   ├── step.preview.png
- 133K   ├── ripgrep.preview.png
- 129K   ├── pandoc.preview.png
- 129K   ├── gdu.preview.png
+ 142K   ├── gitoxide.preview.png
+ 141K   ├── step.preview.png
+ 132K   ├── ripgrep.preview.png
+ 128K   ├── pandoc.preview.png
+ 128K   ├── gdu.preview.png
  128K   ├── dbbench.preview.png
- 122K   ├── shell2http.preview.png
- 121K   ├── pgrok.preview.png
+ 121K   ├── shell2http.preview.png
+ 120K   ├── pgrok.preview.png
  110K   ├── wget2.preview.png
  109K   ├── cfspeed.preview.png
  108K   ├── stunner.preview.png
- 108K   ├── actionlint.preview.png
- 106K   ├── logstation.preview.png
- 105K   ├── botsay.preview.png
- 103K   ├── dua.preview.png
- 100K   ├── ddns-go.preview.png
-  96K   ├── legba.preview.png
-  95K   ├── sish.preview.png
-  95K   ├── pingtunnel.preview.png
-  93K   ├── smartdns-rs.preview.png
+ 107K   ├── actionlint.preview.png
+ 105K   ├── logstation.preview.png
+ 104K   ├── botsay.preview.png
+ 102K   ├── dua.preview.png
+  99K   ├── ddns-go.preview.png
+  95K   ├── legba.preview.png
+  94K   ├── sish.preview.png
+  94K   ├── pingtunnel.preview.png
   93K   ├── gost.preview.png
+  93K   ├── smartdns-rs.preview.png
   92K   ├── anew-rs.preview.png
-  92K   ├── dependency_runner.preview.png
-  86K   ├── brutespray.preview.png
-  82K   ├── monolith.preview.png
+  91K   ├── dependency_runner.preview.png
+  85K   ├── brutespray.preview.png
   82K   ├── algernon.preview.png
-  81K   ├── taierspeed-cli.preview.png
+  82K   ├── monolith.preview.png
+  80K   ├── taierspeed-cli.preview.png
   78K   ├── pingmole.preview.png
   74K   ├── dust.preview.png
   74K   ├── alist.preview.png
-  73K   ├── jwt-cracker.preview.png
+  72K   ├── jwt-cracker.preview.png
   68K   ├── age.preview.png
-  68K   ├── brook.preview.png
+  67K   ├── brook.preview.png
   63K   ├── pdfcpu.preview.png
-  62K   ├── eget.preview.png
+  61K   ├── eget.preview.png
   58K   ├── batcat.preview.png
   54K   ├── b3sum.preview.png
   53K   ├── coreutils_uutils.preview.png
   53K   ├── cloudflared.preview.png
   51K   ├── tssh.preview.png
-  50K   ├── fastfetch.preview.png
+  49K   ├── fastfetch.preview.png
   48K   ├── cheat.preview.png
   47K   ├── tusd.preview.png
-  47K   ├── dufs.preview.png
-  46K   ├── sing-box.preview.png
-  46K   ├── findutils_uutils.preview.png
+  46K   ├── dufs.preview.png
+  45K   ├── sing-box.preview.png
+  45K   ├── findutils_uutils.preview.png
   45K   ├── ipinfo.preview.png
   43K   ├── ooniprobe.preview.png
   42K   ├── jq.preview.png
-  42K   ├── miniserve.preview.png
+  41K   ├── miniserve.preview.png
   39K   ├── pkg.default.png
   38K   ├── cfspeedtest.preview.png
   37K   ├── base.default.png
-  37K   ├── hyperfine.preview.png
-  36K   ├── micro.preview.png
+  36K   ├── hyperfine.preview.png
   36K   ├── curl.preview.png
-  26K   ├── 7z.preview.png
+  36K   ├── micro.preview.png
+  25K   ├── 7z.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
-  11K   └── yt-dlp.preview.png
+  11K   ├── yt-dlp.preview.png
+   0B   ├── stiG2Kb7
+   0B   └── stP1kAlM
 ```

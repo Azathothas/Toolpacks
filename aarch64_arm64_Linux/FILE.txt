@@ -193,7 +193,7 @@ cmd-wrapped:                      ELF 64-bit LSB executable, ARM aarch64, versio
 cmd-wrapped.preview.png:          PNG image data, 1651 x 824, 8-bit/color RGBA, non-interlaced
 cntb:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=o1LVFt5EemmQ6mYM91oC/EDMBqBl1WGWDthrXTsIc/7SnIXPweps6BIG9OmK3x/HJBPsO1nrEku6LPHjkDH, stripped
 cobalt-cli:                       ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
-cocogitto.preview.png:            PNG image data, 640 x 640, 8-bit/color RGBA, non-interlaced
+cocogitto.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 cog:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 comb:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 comb.preview.png:                 GIF image data, version 89a, 1920 x 1080
@@ -356,7 +356,7 @@ fd-find:                          ELF 64-bit LSB executable, ARM aarch64, versio
 fdupes:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 fedora.no_strip:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, with debug_info, not stripped
 feroxbuster:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-feroxbuster.preview.png:          PNG image data, 1000 x 1000, 8-bit/color RGBA, non-interlaced
+feroxbuster.preview.png:          PNG image data, 512 x 512, 8-bit colormap, non-interlaced
 ffmpeg:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, for GNU/Linux 3.7.0, BuildID[sha1]=e00b61e56c3dfb8844e2918e7949984aaaac9158, stripped
 ffprobe:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, for GNU/Linux 3.7.0, BuildID[sha1]=236db3edcca9162fa0a213d955b76c636d74cf66, stripped
 ffuf:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=4VFppB9KNoQ5m15se_Dy/0cfxBKXjY6pu7NHR0o73/H4pGK5Xc9Q2r7AQHxNHO/mY1C1xTLoRgIwjMLV5Vs, stripped
@@ -380,7 +380,7 @@ fnm.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, 
 fq:                               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=X4zaoGLHBNVI7sWVRWR7/oTjoLTSo6kq_tDqx2_vj/KnjJ72R82Pbkq3Db9IAd/gWg7lIKixk3Z7iP3rM9x, stripped
 fq.preview.png:                   PNG image data, 1400 x 700, 8-bit/color RGBA, non-interlaced
 freeze:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=e9XgfJjbdXGMQJWVJROw/MTTrCIerEGSCGAdkwayY/l25qjsS_cAt0Ghoi9zVf/23b7E8idXf7mg7DdLCR5, stripped
-freeze.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+freeze.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 fscan:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=xc4d0TSYv-Wq9EvSzGiU/ctU2l0lLVG1jHNVGcj3x/3xbpf2yvC264W_qrx5D2/pClyiU4imK2jDi2DFiS9, stripped
 fuse-overlayfs:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=f11a8e5d96f0e3fc29aa49a1492b542d7449f543, for GNU/Linux 3.7.0, stripped
 fusermount3:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -587,7 +587,7 @@ ipt2socks:                        ELF 64-bit LSB executable, ARM aarch64, versio
 istio.preview.png:                PNG image data, 3360 x 1676, 8-bit/color RGBA, non-interlaced
 istioctl:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=PIPCDwEEusK6FJepRl2H/xu4MfFu9m5P89zKI6WA0/DXGws4HYWYxFl8Dl3GHq/mYm9uCb3VujwDBw-AP0l, stripped
 jaeles:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-jaeles.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+jaeles.preview.png:               PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 jaq:                              ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), statically linked, no section header
 jc:                               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 jc.preview.png:                   PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
@@ -826,7 +826,7 @@ pencode:                          ELF 64-bit LSB executable, ARM aarch64, versio
 pfetch-rs:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pfetch-rs.preview.png:            PNG image data, 804 x 350, 8-bit/color RGBA, non-interlaced
 pgrok:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=LPx9IFo2Q5wIFeg8Kcjr/Mm1O5cwaRrYsUTnOa1uo/IbPEqjPRhBXac5lJnLte/p4bsz0ThQgIyzpzhqkmw, stripped
-pgrok.preview.png:                PNG image data, 1500 x 500, 8-bit/color RGBA, non-interlaced
+pgrok.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pgrokd:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=LbVUViiTGp_POrYfa8nt/qK_rO_Z3HkcoBTiLjq9a/8D8LmCH1ienHqX1dBQ6-/e0JmarChMm4JfpFO6vXn, stripped
 pgweb:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=eRws24g88QoW94DeP2U_/JGcVo6j_dgmc9gJXylT9/87Bj3aXanBX9VuQMC48k/tpB_k0IUbaVJ9IoGjBRs, stripped
 phantun-client:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -847,7 +847,7 @@ pkg.default.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, n
 pkgtop:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pktstat:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 planor:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=MaFjbwt5BlLcpgBBD3-8/xZJPGuTw0AkCTvxaFcc_/GfRwNaQ7qZzoO3wzd16q/GI8hU9AwX5HkN0F-E59W, stripped
-planor.preview.png:               PNG image data, 1137 x 870, 8-bit/color RGBA, non-interlaced
+planor.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pls:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pls.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 podman:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=3u3v__Z_crFBc29peLU1/mjvfWVsSA7ceOcmY_WHg/PKodtCYJkYt5ZfeBV7pv/7aAr-wBFv-Uin6A_EtuX, stripped
@@ -1066,7 +1066,7 @@ smartdns:                         ELF 64-bit LSB executable, ARM aarch64, versio
 smartdns-rs:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 smartdns.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 sn0int:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, for GNU/Linux 3.7.0, stripped
-sn0int.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+sn0int.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 sns:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 soar:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 socat:                            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, stripped

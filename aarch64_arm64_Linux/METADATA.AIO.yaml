@@ -938,7 +938,7 @@ bin:
     bin_name: bed
     description: Binary editor written in Go
     note: ""
-    version: v0.2.6
+    version: v0.2.7
     download_url: https://bin.ajam.dev/aarch64/bed
     size: 3.08 MB
     bsum: 067f050adc764ec9a69b7248e1bdc252e483f1ebadeb92cbcede3102e6d02ee8
@@ -12833,6 +12833,23 @@ bin:
     build_log: https://bin.ajam.dev/aarch64/rate-limit-checker.log.txt
     category: bug-bounty, bugbounty, hacking, recon, recon-tools, security, security-tools, tools
     icon: https://bin.ajam.dev/aarch64/rate-limit-checker.preview.png
+    extra_bins: ""
+  - name: rate-mirrors
+    bin_name: rate-mirrors
+    description: Client-Side map-aware Mirror Ranking Tool (Arch Linux; Manjaro; custom ones)
+    note: ""
+    version: v0.18.0
+    download_url: https://bin.ajam.dev/aarch64/rate-mirrors
+    size: 6.87 MB
+    bsum: 963930f331e19d25f9d81f432702b84874969745bd67580630a1efa763ff94c2
+    shasum: b858cc597f48886d1a428b79ea5eef4f69c33d1c59ad4298f80e14c586933ab3
+    build_date: 2024-10-18T06:44:13
+    src_url: https://github.com/westandskif/rate-mirrors
+    web_url: https://github.com/westandskif/rate-mirrors
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/rate-mirrors.sh
+    build_log: https://bin.ajam.dev/aarch64/rate-mirrors.log.txt
+    category: arch-linux, archlinux, manjaro, mirrors, pacman, speedtest
+    icon: https://bin.ajam.dev/aarch64/rate-mirrors.preview.png
     extra_bins: ""
   - name: rathole
     bin_name: rathole
