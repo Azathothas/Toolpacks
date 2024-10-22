@@ -161,7 +161,7 @@
 8:METADATA.AIO.min.json.xz:         7-zip archive data, version 0.4
 10:METADATA.AIO.min.json.zstd:       Zstandard compressed data (v0.8+), Dictionary ID: None
 14:METADATA.AIO.toml.xz:             7-zip archive data, version 0.4
-16:METADATA.AIO.toml.zstd:           DOS/MBR boot sector
+16:METADATA.AIO.toml.zstd:           Zstandard compressed data (v0.8+), Dictionary ID: None
 20:METADATA.AIO.yaml.xz:             7-zip archive data, version 0.4
 22:METADATA.AIO.yaml.zstd:           Zstandard compressed data (v0.8+), Dictionary ID: None
 29:age.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
@@ -251,9 +251,9 @@
 542:huggingface-cli.preview.png:      PNG image data, 1260 x 640, 8-bit/color RGBA, non-interlaced
 544:hugo.preview.png:                 PNG image data, 900 x 450, 8-bit colormap, non-interlaced
 549:husarnet.preview.png:             PNG image data, 4782 x 2958, 8-bit/color RGBA, non-interlaced
-554:hyperfine.preview.png:            PNG image data, 640 x 320, 8-bit/color RGB, non-interlaced
+554:hyperfine.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 555:hypervisor-fw:                    Linux kernel ARM64 boot executable Image, little-endian
-557:hysp.preview.png:                 PNG image data, 1366 x 768, 8-bit/color RGB, non-interlaced
+557:hysp.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 566:inscope.preview-0.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 567:inscope.preview-1.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 568:inscope.preview-2.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -273,7 +273,7 @@
 636:lazydocker.preview.png:           PNG image data, 726 x 413, 8-bit/color RGBA, non-interlaced
 642:libtree.preview.png:              PNG image data, 737 x 511, 8-bit/color RGBA, non-interlaced
 647:listmonk.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-659:lorien.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+659:lorien.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 668:macchina.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 671:magick.preview.png:               PNG image data, 1280 x 640, 16-bit/color RGB, non-interlaced
 678:mantra.preview.png:               PNG image data, 1840 x 818, 8-bit/color RGBA, non-interlaced
@@ -295,7 +295,7 @@
 811:ov.preview.png:                   PNG image data, 1200 x 516, 8-bit/color RGB, non-interlaced
 819:pdfcpu.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 827:pfetch-rs.preview.png:            PNG image data, 804 x 350, 8-bit/color RGBA, non-interlaced
-829:pgrok.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+829:pgrok.preview.png:                PNG image data, 1500 x 500, 8-bit/color RGBA, non-interlaced
 844:pixi.preview.png:                 PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
 846:pkg.default.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 850:planor.preview.png:               PNG image data, 1137 x 870, 8-bit/color RGBA, non-interlaced
@@ -337,7 +337,7 @@
 1027:scopeview.preview-3.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1028:scopeview.preview-4.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1029:scopeview.preview.png:            GIF image data, version 89a, 1920 x 1080
-1047:shell2http.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1047:shell2http.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1064:smap.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 1067:smartdns.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1069:sn0int.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
