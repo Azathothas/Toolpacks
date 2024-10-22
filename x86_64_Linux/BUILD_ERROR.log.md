@@ -173,7 +173,7 @@
 32:aggligator.preview.png:           PNG image data, 467 x 482, 8-bit/color RGBA, non-interlaced
 37:albafetch.preview.png:            PNG image data, 685 x 396, 8-bit/color RGBA, non-interlaced
 39:algernon.preview.png:             JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=6, xresolution=86, yresolution=94, resolutionunit=2, software=GIMP 2.10.14, datetime=2020:01:31 17:23:12], progressive, precision 8, 1280x640, components 3
-48:amass.preview.png:                PNG image data, 3000 x 1000, 8-bit/color RGB, non-interlaced
+48:amass.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 67:archey.preview.png:               PNG image data, 2000 x 1686, 8-bit/color RGBA, non-interlaced
 71:arduino-cli.preview.png:          PNG image data, 3598 x 2411, 8-bit/color RGBA, non-interlaced
 77:asn.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
@@ -281,7 +281,7 @@
 598:inscope.preview-4.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 599:inscope.preview.png:              GIF image data, version 89a, 1920 x 1080
 603:intermodal.preview.png:           JPEG image data, JFIF standard 1.01, aspect ratio, density 216x216, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=6, orientation=upper-left, xresolution=86, yresolution=94, resolutionunit=2, software=Pixelmator Pro 1.5.4], baseline, precision 8, 1668x834, components 3
-618:istio.preview.png:                PNG image data, 3360 x 1676, 8-bit/color RGBA, non-interlaced
+618:istio.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 627:jaeles.preview.png:               PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 630:jc.preview.png:                   PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 635:jless.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
@@ -344,7 +344,7 @@
 987:rattler-build.preview.png:        PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
 990:rclone.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 993:realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA, non-interlaced
-999:redguard.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+999:redguard.preview.png:             PNG image data, 640 x 365, 8-bit/color RGB, non-interlaced
 1010:rescope.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 1012:resdns.preview-0.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1013:resdns.preview-1.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -380,7 +380,7 @@
 1167:sshx.preview.png:                 PNG image data, 2660 x 1638, 8-bit/color RGBA, non-interlaced
 1173:starship.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1175:steampipe.preview.png:            PNG image data, 1800 x 900, 8-bit/color RGB, non-interlaced
-1177:step.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1177:step.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1181:stree.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1191:subxtract.preview-0.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1192:subxtract.preview-1.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -406,7 +406,7 @@
 1293:udpx.preview.png:                 PNG image data, 1280 x 720, 8-bit/color RGB, non-interlaced
 1308:v2raya.preview.png:               PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 1315:vhs.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
-1317:viddy.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1317:viddy.preview.png:                PNG image data, 1467 x 1464, 8-bit/color RGBA, non-interlaced
 1328:vopono.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1332:vtm.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1343:watchexec.preview.png:            PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced

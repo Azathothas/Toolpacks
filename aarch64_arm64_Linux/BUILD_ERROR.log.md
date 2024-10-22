@@ -172,7 +172,7 @@
 67:archey.preview.png:               PNG image data, 2000 x 1686, 8-bit/color RGBA, non-interlaced
 70:arduino-cli.preview.png:          PNG image data, 3598 x 2411, 8-bit/color RGBA, non-interlaced
 76:asn.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-80:assh.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+80:assh.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 89:bandwhich.preview.png:            PNG image data, 654 x 321, 8-bit/color RGB, non-interlaced
 90:base.default.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 94:batcat.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
@@ -295,8 +295,8 @@
 811:ov.preview.png:                   PNG image data, 1200 x 516, 8-bit/color RGB, non-interlaced
 819:pdfcpu.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 827:pfetch-rs.preview.png:            PNG image data, 804 x 350, 8-bit/color RGBA, non-interlaced
-829:pgrok.preview.png:                PNG image data, 1500 x 500, 8-bit/color RGBA, non-interlaced
-844:pixi.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+829:pgrok.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+844:pixi.preview.png:                 PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
 846:pkg.default.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 850:planor.preview.png:               PNG image data, 1137 x 870, 8-bit/color RGBA, non-interlaced
 852:pls.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced

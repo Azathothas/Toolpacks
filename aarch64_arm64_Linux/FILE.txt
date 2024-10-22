@@ -77,7 +77,7 @@ asn.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGB, n
 asnmap:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 assetfinder:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 assh:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-assh.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+assh.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 atuin:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 awk:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=ed2f1e6250641b39963136678b20534935b3ebec, for GNU/Linux 3.7.0, stripped
 aws-cli.no_strip:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, with debug_info, not stripped
@@ -826,7 +826,7 @@ pencode:                          ELF 64-bit LSB executable, ARM aarch64, versio
 pfetch-rs:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pfetch-rs.preview.png:            PNG image data, 804 x 350, 8-bit/color RGBA, non-interlaced
 pgrok:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=LPx9IFo2Q5wIFeg8Kcjr/Mm1O5cwaRrYsUTnOa1uo/IbPEqjPRhBXac5lJnLte/p4bsz0ThQgIyzpzhqkmw, stripped
-pgrok.preview.png:                PNG image data, 1500 x 500, 8-bit/color RGBA, non-interlaced
+pgrok.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pgrokd:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=LbVUViiTGp_POrYfa8nt/qK_rO_Z3HkcoBTiLjq9a/8D8LmCH1ienHqX1dBQ6-/e0JmarChMm4JfpFO6vXn, stripped
 pgweb:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=eRws24g88QoW94DeP2U_/JGcVo6j_dgmc9gJXylT9/87Bj3aXanBX9VuQMC48k/tpB_k0IUbaVJ9IoGjBRs, stripped
 phantun-client:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -841,7 +841,7 @@ pingmole:                         ELF 64-bit LSB executable, ARM aarch64, versio
 pingtunnel:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=s2gZt113BFAIhb2693EU/76dKYp7nTHaE8roXK2xC/u37HMc0208d4w86cnX-k/G1hhNxjaCaJtxSUkNVdb, stripped
 pipetty:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pixi:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-pixi.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+pixi.preview.png:                 PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
 pixterm:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 pkg.default.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pkgtop:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
