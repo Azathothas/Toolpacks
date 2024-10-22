@@ -8,7 +8,7 @@
 3.7M   │ ├── METADATA.AIO.toml
 3.6M   │ ├── METADATA.AIO.min.json
 1.2M   │ ├── METADATA.json
-908K   │ ├── DETAILED.md
+912K   │ ├── DETAILED.md
 512K   │ ├── README.md
 196K   │ ├── FILE.txt
 136K   │ ├── BUILD_DATES.txt
@@ -34,7 +34,7 @@
 132K   │ ├── BUILD_DATES.txt
 104K   │ ├── SHA256SUM.txt
 104K   │ ├── BLAKE3SUM.txt
- 64K   │ ├── BUILD_ERROR.log.md
+ 68K   │ ├── BUILD_ERROR.log.md
  40K   │ ├── SIZE.txt
  40K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt

@@ -79,7 +79,6 @@
  2.3M   ├── geoping.exe
  2.2M   ├── tac.exe
  2.2M   ├── pdftops.exe
- 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -91,6 +90,7 @@
  1.6M   ├── dua.exe
  1.6M   ├── sort.exe
  1.5M   ├── ls.exe
+ 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.5M   ├── fastfetch.exe
@@ -140,10 +140,10 @@
  902K   ├── fmt.exe
  898K   ├── head.exe
  883K   ├── realpath.exe
- 881K   ├── tsort.exe
  880K   ├── unexpand.exe
  878K   ├── tee.exe
  878K   ├── readlink.exe
+ 877K   ├── tsort.exe
  869K   ├── expand.exe
  865K   ├── fold.exe
  860K   ├── cat.exe
@@ -151,8 +151,8 @@
  847K   ├── test.exe
  846K   ├── uname.exe
  844K   ├── truncate.exe
+ 844K   ├── mkdir.exe
  843K   ├── hostname.exe
- 843K   ├── mkdir.exe
  841K   ├── comm.exe
  837K   ├── ssh-keygen.exe
  837K   ├── paste.exe

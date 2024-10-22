@@ -80,7 +80,7 @@ eget.exe:                      PE32+ executable (console) x86-64 (stripped to ex
 eget.preview.png:              PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
 ein.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 env.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-err.exe:                       PE32 executable (console) Intel 80386 (stripped to external PDB), for MS Windows
+err.exe:                       7-zip archive data, version 0.4
 expand.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 expr.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 factor.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows

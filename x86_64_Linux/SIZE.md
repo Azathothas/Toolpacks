@@ -1023,6 +1023,7 @@
  673K   ├── squashfuse_ll
  669K   ├── squashfuse
  645K   ├── starship.preview.png
+ 643K   ├── ockam.preview.png
  607K   ├── htop
  606K   ├── whois
  597K   ├── elfcat
@@ -1133,13 +1134,13 @@
  303K   ├── mdp
  287K   ├── METADATA.AIO.json.xz
  286K   ├── region_restriction_check.sh
- 285K   ├── METADATA.AIO.json.zstd
+ 286K   ├── METADATA.AIO.json.zstd
  284K   ├── METADATA.AIO.yaml.xz
  283K   ├── METADATA.AIO.toml.zstd
  283K   ├── METADATA.AIO.min.json.zstd
- 282K   ├── METADATA.AIO.yaml.zstd
- 282K   ├── METADATA.AIO.toml.xz
- 282K   ├── METADATA.AIO.min.json.xz
+ 283K   ├── METADATA.AIO.yaml.zstd
+ 283K   ├── METADATA.AIO.toml.xz
+ 283K   ├── METADATA.AIO.min.json.xz
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
  274K   ├── doas
@@ -1204,6 +1205,7 @@
  171K   ├── numactl
  170K   ├── numademo
  169K   ├── gpg-tui.preview.png
+ 158K   ├── k9s.preview.png
  154K   ├── migspeed
  150K   ├── migratepages
  150K   ├── memhog
@@ -1213,7 +1215,6 @@
  149K   ├── assh.preview.png
  143K   ├── qsv.preview.png
  143K   ├── gitoxide.preview.png
- 142K   ├── step.preview.png
  141K   ├── grex.preview.png
  140K   ├── qbittorrent-nox.preview.png
  140K   ├── jwt-hack.preview.png
@@ -1231,7 +1232,6 @@
  129K   ├── gdu.preview.png
  128K   ├── systeroid.preview.png
  128K   ├── rust-hypervisor-firmware
- 128K   ├── istio.preview.png
  128K   ├── hypervisor-fw
  126K   ├── ipt2socks
  124K   ├── osmedeus.preview.png
@@ -1293,6 +1293,7 @@
   77K   ├── revive.preview.png
   77K   ├── importenv
   77K   ├── reptyr
+  76K   ├── step.preview.png
   75K   ├── cronie-cronnext
   75K   ├── arduino-cli.preview.png
   74K   ├── mtr-packet
@@ -1325,9 +1326,7 @@
   58K   ├── batcat.preview.png
   57K   ├── gguf-tools
   57K   ├── joker
-  57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
-  55K   ├── k9s.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── ptyspawn
@@ -1336,6 +1335,7 @@
   51K   ├── redguard.preview.png
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
+  50K   ├── dvc.preview.png
   50K   ├── hcxwltool
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
@@ -1359,7 +1359,6 @@
   37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
-  36K   ├── ockam.preview.png
   36K   ├── micro.preview.png
   36K   ├── dbeaver.preview.png
   35K   ├── sshpass
@@ -1395,13 +1394,14 @@
   17K   ├── bdl.sh
   16K   ├── feroxbuster.preview.png
   16K   ├── dotenv-linter.preview.png
-  16K   ├── dvc.preview.png
   16K   ├── cut-cdn.preview.png
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
   14K   ├── croc.preview.png
+  14K   ├── amass.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
+  13K   ├── istio.preview.png
   11K   ├── yt-dlp.preview.png
   11K   ├── lsix
   11K   ├── tailspin.preview.png
