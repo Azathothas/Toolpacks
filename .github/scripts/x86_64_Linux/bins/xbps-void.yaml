@@ -1,9 +1,9 @@
 name: "xbps"
 description: "Void Package Builder|Installer"
 note: ""
-web_url: "https://github.com/void-linux/xbps"
+web_url: "https://docs.voidlinux.org/xbps/index.html"
 repo_url: "https://github.com/void-linux/xbps"
-path: "/"
+path: "/Baseutils/xbps/"
 bins:
   - "xbps-alternatives"
   - "xbps-checkvers"
