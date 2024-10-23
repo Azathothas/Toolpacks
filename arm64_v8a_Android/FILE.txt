@@ -1,35 +1,28 @@
-act:                   ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=NzPZdWcK3JRSUpDloVN-/z_Ul69p7JUFnKtNvD-Ll/TvkVG_CnALvl3M1dyuDH/Yxy7Yy8vOHzjpe3bzk-9, stripped
-actionlint:            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=wI6xkwg9liYmyL2MJfaP/vYFd5QE3Ia-A1ItLgh9y/Ocp4NsPotSBU9YgSC1QR/7JHWGiFnSOcLsb2zziP7, stripped
-adig:                  ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-ahost:                 ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-anew-rs:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-axel:                  ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-b3sum:                 ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-base.default.png:      PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-bash:                  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-bin.default.png:       PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-busybox:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-curl:                  ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-curl.preview.png:      PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-curl_cacert.pem:       Unicode text, UTF-8 text
-dbin:                  ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-jless:                 ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-jless.preview.png:     PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-pingmole:              ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-pkg.default.png:       PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-pspy:                  ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-rclone:                ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-rclone.preview.png:    PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-rsync:                 ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-sudo:                  a /data/data/com.termux/files/usr/bin/bash script, Unicode text, UTF-8 text executable, with very long lines (402)
-tailscale:             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-tailscale.preview.png: PNG image data, 2560 x 1280, 8-bit/color RGBA, non-interlaced
-tailscale_combined:    ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-tailscaled:            ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-vim:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-wget:                  ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
-wget_cacert.pem:       Unicode text, UTF-8 text
-wget_static:           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-xxd:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-zsh:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-zsh-5.9:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./act:                ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=2cLLunvk1JZ-zGnBQ02m/z_Ul69p7JUFnKtNvD-Ll/TvkVG_CnALvl3M1dyuDH/Yxy7Yy8vOHzjpe3bzk-9, stripped
+./actionlint:         ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, Go BuildID=wI6xkwg9liYmyL2MJfaP/vYFd5QE3Ia-A1ItLgh9y/Ocp4NsPotSBU9YgSC1QR/7JHWGiFnSOcLsb2zziP7, stripped
+./adig:               ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./ahost:              ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./anew-rs:            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./axel:               ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./b3sum:              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./bash:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./busybox:            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./curl:               ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./curl_cacert.pem:    Unicode text, UTF-8 text
+./dbin:               ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./jless:              ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./pingmole:           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./pspy:               ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./rclone:             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./rsync:              ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./sudo:               a /data/data/com.termux/files/usr/bin/bash script, Unicode text, UTF-8 text executable, with very long lines (402)
+./tailscale:          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./tailscale_combined: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./tailscaled:         ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./vim:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./wget:               ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
+./wget_cacert.pem:    Unicode text, UTF-8 text
+./wget_static:        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./xxd:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./zsh:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+./zsh-5.9:            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
