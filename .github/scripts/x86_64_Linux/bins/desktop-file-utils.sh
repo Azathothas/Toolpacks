@@ -25,6 +25,22 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
      export BIN="desktop-file-utils"
      export SOURCE_URL="https://gitlab.freedesktop.org/xdg/desktop-file-utils"
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
+      ##Fetch: https://github.com/probonopd/static-tools
+      # #desktop-file-install
+      # eval "${EGET_TIMEOUT}" eget "${SOURCE_URL}" --asset "desktop-file-install" --asset "x86_64" --to "${BINDIR}/desktop-file-install"
+      # objcopy --remove-section=".comment" --remove-section=".note.*" "${BINDIR}/desktop-file-install"
+      # strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/desktop-file-install"
+      # realpath "${BINDIR}/desktop-file-install" | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+      # #desktop-file-validate
+      # eval "${EGET_TIMEOUT}" eget "${SOURCE_URL}" --asset "desktop-file-validate" --asset "x86_64" --to "${BINDIR}/desktop-file-validate"
+      # objcopy --remove-section=".comment" --remove-section=".note.*" "${BINDIR}/desktop-file-validate"
+      # strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/desktop-file-validate"
+      # realpath "${BINDIR}/desktop-file-validate" | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+      # #update-desktop-database
+      # eval "${EGET_TIMEOUT}" eget "${SOURCE_URL}" --asset "update-desktop-database" --asset "x86_64" --to "${BINDIR}/update-desktop-database"
+      # objcopy --remove-section=".comment" --remove-section=".note.*" "${BINDIR}/update-desktop-database"
+      # strip --strip-debug --strip-dwo --strip-unneeded -R ".comment" -R ".gnu.version" "${BINDIR}/update-desktop-database"
+      # realpath "${BINDIR}/update-desktop-database" | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'     
       #Build 
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        NIXPKGS_ALLOW_BROKEN="1" NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1" nix-build '<nixpkgs>' --attr "pkgsStatic.desktop-file-utils" --cores "$(($(nproc)+1))" --max-jobs "$(($(nproc)+1))" --log-format bar-with-logs
