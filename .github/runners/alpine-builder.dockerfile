@@ -323,6 +323,8 @@ RUN <<EOS
   apk add libssh2 --latest --upgrade --no-interactive 2>/dev/null
   apk add libssh2-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libssh2-static --latest --upgrade --no-interactive 2>/dev/null
+  apk add libstemmer --latest --upgrade --no-interactive 2>/dev/null
+  apk add libstemmer-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libtasn1 --latest --upgrade --no-interactive 2>/dev/null
   apk add libtasn1-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libtasn1-progs --latest --upgrade --no-interactive 2>/dev/null
