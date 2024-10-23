@@ -1,4 +1,4 @@
- 1.7G └─┬ .
+ 1.7G └─┬ toolpack_x86_64
  149M   ├── pandoc.exe
  141M   ├── ffmpeg.exe
  141M   ├── ffprobe.exe
@@ -56,7 +56,6 @@
  5.3M   ├── cfspeedtest.exe
  5.2M   ├── rg.exe
  5.0M   ├── monolith.exe
- 4.9M   ├── openssh.zip
  4.6M   ├── certstream.exe
  4.4M   ├── wget2.exe
  3.7M   ├── age.exe
@@ -185,67 +184,67 @@
  498K   ├── ssh-pkcs11-helper.exe
  445K   ├── scp.exe
  364K   ├── sftp-server.exe
- 315K   ├── picocrypt.preview.png
+ 316K   ├── picocrypt.preview.png
  175K   ├── yt-dlp.exe
  174K   ├── ssh-shellhost.exe
  167K   ├── bin2video.exe
- 142K   ├── gitoxide.preview.png
- 141K   ├── step.preview.png
- 132K   ├── ripgrep.preview.png
- 128K   ├── pandoc.preview.png
- 128K   ├── gdu.preview.png
+ 143K   ├── gitoxide.preview.png
+ 142K   ├── step.preview.png
+ 133K   ├── ripgrep.preview.png
+ 129K   ├── pandoc.preview.png
+ 129K   ├── gdu.preview.png
  128K   ├── dbbench.preview.png
- 121K   ├── shell2http.preview.png
+ 122K   ├── shell2http.preview.png
  110K   ├── wget2.preview.png
  109K   ├── cfspeed.preview.png
  108K   ├── stunner.preview.png
- 107K   ├── actionlint.preview.png
- 105K   ├── logstation.preview.png
- 104K   ├── botsay.preview.png
- 102K   ├── dua.preview.png
-  99K   ├── ddns-go.preview.png
-  95K   ├── legba.preview.png
-  94K   ├── sish.preview.png
-  94K   ├── pingtunnel.preview.png
-  93K   ├── gost.preview.png
+ 108K   ├── actionlint.preview.png
+ 106K   ├── logstation.preview.png
+ 105K   ├── botsay.preview.png
+ 103K   ├── dua.preview.png
+ 100K   ├── ddns-go.preview.png
+  96K   ├── legba.preview.png
+  95K   ├── sish.preview.png
+  95K   ├── pingtunnel.preview.png
   93K   ├── smartdns-rs.preview.png
+  93K   ├── gost.preview.png
   92K   ├── anew-rs.preview.png
-  91K   ├── dependency_runner.preview.png
-  85K   ├── brutespray.preview.png
-  82K   ├── algernon.preview.png
+  92K   ├── dependency_runner.preview.png
+  86K   ├── brutespray.preview.png
   82K   ├── monolith.preview.png
-  80K   ├── taierspeed-cli.preview.png
+  82K   ├── algernon.preview.png
+  81K   ├── taierspeed-cli.preview.png
   78K   ├── pingmole.preview.png
   74K   ├── dust.preview.png
   74K   ├── alist.preview.png
-  72K   ├── jwt-cracker.preview.png
+  73K   ├── jwt-cracker.preview.png
   68K   ├── age.preview.png
-  67K   ├── brook.preview.png
+  68K   ├── brook.preview.png
   63K   ├── pdfcpu.preview.png
-  61K   ├── eget.preview.png
+  62K   ├── eget.preview.png
   58K   ├── batcat.preview.png
   54K   ├── b3sum.preview.png
   53K   ├── coreutils_uutils.preview.png
   53K   ├── cloudflared.preview.png
   51K   ├── tssh.preview.png
-  49K   ├── fastfetch.preview.png
+  50K   ├── fastfetch.preview.png
   48K   ├── cheat.preview.png
   47K   ├── tusd.preview.png
-  46K   ├── dufs.preview.png
-  45K   ├── sing-box.preview.png
-  45K   ├── findutils_uutils.preview.png
+  47K   ├── dufs.preview.png
+  46K   ├── sing-box.preview.png
+  46K   ├── findutils_uutils.preview.png
   45K   ├── ipinfo.preview.png
   43K   ├── ooniprobe.preview.png
   42K   ├── jq.preview.png
-  41K   ├── miniserve.preview.png
+  42K   ├── miniserve.preview.png
   39K   ├── pkg.default.png
   38K   ├── cfspeedtest.preview.png
   37K   ├── base.default.png
-  36K   ├── hyperfine.preview.png
-  36K   ├── curl.preview.png
+  37K   ├── hyperfine.preview.png
   36K   ├── micro.preview.png
-  25K   ├── 7z.preview.png
-  23K   ├── pgrok.preview.png
+  36K   ├── curl.preview.png
+  26K   ├── 7z.preview.png
+  24K   ├── pgrok.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
   11K   ├── yt-dlp.preview.png
