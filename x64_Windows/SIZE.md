@@ -196,6 +196,7 @@
  129K   ├── gdu.preview.png
  128K   ├── dbbench.preview.png
  122K   ├── shell2http.preview.png
+ 121K   ├── pgrok.preview.png
  110K   ├── wget2.preview.png
  109K   ├── cfspeed.preview.png
  108K   ├── stunner.preview.png
@@ -245,10 +246,7 @@
   36K   ├── micro.preview.png
   36K   ├── curl.preview.png
   26K   ├── 7z.preview.png
-  24K   ├── pgrok.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
-  11K   ├── yt-dlp.preview.png
-   0B   ├── stiG2Kb7
-   0B   └── stP1kAlM
+  11K   └── yt-dlp.preview.png
 ```

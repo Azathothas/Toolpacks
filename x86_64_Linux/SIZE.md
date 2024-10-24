@@ -555,8 +555,6 @@
  6.2M   ├── wadl-dumper
  6.2M   ├── rescope
  6.2M   ├── presenterm
- 6.1M   ├── xbps-rindex
- 6.1M   ├── xbps-create
  6.1M   ├── rustcan
  6.1M   ├── ulexec
  6.1M   ├── wego
@@ -598,8 +596,6 @@
  5.6M   ├── gup
  5.6M   ├── golinkfinder
  5.6M   ├── gron
- 5.5M   ├── xbps-install
- 5.5M   ├── xbps-remove
  5.5M   ├── batcat
  5.5M   ├── bat
  5.5M   ├── github-regexp
@@ -609,21 +605,9 @@
  5.4M   ├── unfurl
  5.4M   ├── nvme-cli
  5.4M   ├── nvme
- 5.4M   ├── xbps-query
  5.4M   ├── git-tag
  5.4M   ├── crawley
- 5.4M   ├── xbps-reconfigure
- 5.4M   ├── xbps-pkgdb
- 5.4M   ├── xbps-checkvers
- 5.4M   ├── xbps-alternatives
- 5.4M   ├── xbps-uhelper
- 5.4M   ├── xbps-dgraph
- 5.4M   ├── xbps-fetch
  5.4M   ├── gorilla
- 5.4M   ├── xbps-uchroot
- 5.4M   ├── xbps-fbulk
- 5.4M   ├── xbps-uunshare
- 5.4M   ├── xbps-digest
  5.3M   ├── xurls
  5.3M   ├── horust
  5.3M   ├── mantra
@@ -684,6 +668,7 @@
  4.6M   ├── tahm
  4.6M   ├── enumerepo
  4.6M   ├── realm
+ 4.6M   ├── appstreamcli
  4.5M   ├── apk-static
  4.5M   ├── gotld
  4.5M   ├── ssh
@@ -1171,7 +1156,6 @@
  234K   ├── minisign
  233K   ├── proot
  232K   ├── netexec.preview.png
- 231K   ├── glow.preview.png
  220K   ├── ppsspp.preview.png
  218K   ├── soft-serve.preview.png
  208K   ├── nfs-cp
@@ -1303,7 +1287,6 @@
   77K   ├── importenv
   77K   ├── reptyr
   75K   ├── cronie-cronnext
-  75K   ├── arduino-cli.preview.png
   74K   ├── hcxhash2cap
   74K   ├── entr
   73K   ├── pwait
@@ -1316,7 +1299,9 @@
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
   68K   ├── zapper
+  68K   ├── glow.preview.png
   67K   ├── sn0int.preview.png
+  67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
   67K   ├── cifsiostat
   66K   ├── binfetch
@@ -1353,10 +1338,10 @@
   46K   ├── hexyl.preview.png
   44K   ├── yabs.sh
   44K   ├── tailscale.preview.png
-  43K   ├── fzf.preview.png
   43K   ├── stree.preview.png
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
+  41K   ├── fzf.preview.png
   40K   ├── jsmug
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
@@ -1389,7 +1374,6 @@
   23K   ├── ani-cli
   23K   ├── try
   21K   ├── txeh.preview.png
-  21K   ├── ruri.preview.png
   20K   ├── findomain.preview.png
   19K   ├── pelf
   19K   ├── bin.default.png
@@ -1406,12 +1390,13 @@
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
   14K   ├── croc.preview.png
+  14K   ├── arduino-cli.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
   11K   ├── yt-dlp.preview.png
   11K   ├── lsix
   11K   ├── tailspin.preview.png
-  11K   ├── nicotine-plus.preview.png
+  10K   ├── nicotine-plus.preview.png
  8.5K   ├── sharun-lib4bin
  8.5K   ├── proot.preview.png
  8.5K   ├── halp.preview.png
