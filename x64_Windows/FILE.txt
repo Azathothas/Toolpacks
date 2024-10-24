@@ -163,7 +163,7 @@ pgrok.exe:                     PE32+ executable (console) x86-64 (stripped to ex
 pgrok.preview.png:             PNG image data, 1500 x 500, 8-bit/color RGBA, non-interlaced
 pgrokd.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 picocrypt-gui.exe:             PE32+ executable (GUI) x86-64 (stripped to external PDB), for MS Windows
-picocrypt.preview.png:         PNG image data, 4000 x 2000, 8-bit/color RGBA, non-interlaced
+picocrypt.preview.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pingmole.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 pingmole.preview.png:          PNG image data, 1200 x 600, 8-bit/color RGB, non-interlaced
 pingtunnel.exe:                PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows

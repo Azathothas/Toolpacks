@@ -746,8 +746,8 @@
  3.7M   ├── tealdeer
  3.7M   ├── spipe
  3.7M   ├── viu
- 3.7M   ├── METADATA.AIO.toml
  3.7M   ├── deoptimizer
+ 3.7M   ├── METADATA.AIO.toml
  3.6M   ├── passdetective
  3.6M   ├── pelfd
  3.6M   ├── bandwhich
@@ -1124,16 +1124,16 @@
  305K   ├── gum.preview.png
  303K   ├── mdp
  292K   ├── linuxwave
- 288K   ├── METADATA.AIO.json.xz
+ 287K   ├── METADATA.AIO.json.xz
  286K   ├── region_restriction_check.sh
- 286K   ├── METADATA.AIO.json.zstd
- 285K   ├── METADATA.AIO.yaml.xz
- 284K   ├── METADATA.AIO.min.json.zstd
- 283K   ├── METADATA.AIO.toml.zstd
- 283K   ├── METADATA.AIO.toml.xz
- 283K   ├── METADATA.AIO.yaml.zstd
- 283K   ├── METADATA.AIO.min.json.xz
+ 285K   ├── METADATA.AIO.json.zstd
+ 284K   ├── METADATA.AIO.yaml.xz
+ 283K   ├── METADATA.AIO.min.json.zstd
+ 282K   ├── METADATA.AIO.yaml.zstd
+ 282K   ├── METADATA.AIO.toml.zstd
+ 282K   ├── METADATA.AIO.toml.xz
  282K   ├── doas
+ 282K   ├── METADATA.AIO.min.json.xz
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
  270K   ├── pigz
@@ -1156,6 +1156,7 @@
  234K   ├── minisign
  233K   ├── proot
  232K   ├── netexec.preview.png
+ 231K   ├── glow.preview.png
  220K   ├── ppsspp.preview.png
  218K   ├── soft-serve.preview.png
  208K   ├── nfs-cp
@@ -1235,7 +1236,6 @@
  121K   ├── pgrok.preview.png
  120K   ├── sadc
  119K   ├── gitea.preview.png
- 118K   ├── archey.preview.png
  118K   ├── cron
  115K   ├── binocle.preview.png
  115K   ├── btop.preview.png
@@ -1260,7 +1260,6 @@
  102K   ├── arping
   99K   ├── gitpod-cli.preview.png
   98K   ├── fusermount3
-  97K   ├── termshark.preview.png
   97K   ├── listmonk.preview.png
   94K   ├── imhex.preview.png
   94K   ├── darkhttpd
@@ -1287,6 +1286,7 @@
   77K   ├── importenv
   77K   ├── reptyr
   75K   ├── cronie-cronnext
+  75K   ├── arduino-cli.preview.png
   74K   ├── hcxhash2cap
   74K   ├── entr
   73K   ├── pwait
@@ -1299,7 +1299,6 @@
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
   68K   ├── zapper
-  68K   ├── glow.preview.png
   67K   ├── sn0int.preview.png
   67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
@@ -1314,7 +1313,6 @@
   62K   ├── tut.preview.png
   62K   ├── libtree.preview.png
   61K   ├── zoxide.preview.png
-  58K   ├── batcat.preview.png
   57K   ├── gguf-tools
   57K   ├── joker
   57K   ├── amass.preview.png
@@ -1343,6 +1341,7 @@
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
   40K   ├── jsmug
+  39K   ├── termshark.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
@@ -1357,6 +1356,7 @@
   35K   ├── puredns.preview.png
   35K   ├── pipetty
   35K   ├── broot.preview.png
+  33K   ├── archey.preview.png
   33K   ├── fnm.preview.png
   33K   ├── ansi2html
   31K   ├── nezha-install.sh
@@ -1368,8 +1368,8 @@
   26K   ├── smap.preview.png
   26K   ├── apk.sh
   25K   ├── czkawka.preview.png
+  25K   ├── batcat.preview.png
   24K   ├── goaccess.preview.png
-  24K   ├── certstream-server-go.preview.png
   23K   ├── prettyping
   23K   ├── ani-cli
   23K   ├── try
@@ -1381,6 +1381,7 @@
   19K   ├── ttyrec2ansi
   19K   ├── serverstatus-status.sh
   18K   ├── gitui.preview.png
+  18K   ├── certstream-server-go.preview.png
   17K   ├── resdns
   17K   ├── gsocket.preview.png
   17K   ├── bdl.sh
@@ -1390,13 +1391,12 @@
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
   14K   ├── croc.preview.png
-  14K   ├── arduino-cli.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
   11K   ├── yt-dlp.preview.png
   11K   ├── lsix
   11K   ├── tailspin.preview.png
-  10K   ├── nicotine-plus.preview.png
+  11K   ├── nicotine-plus.preview.png
  8.5K   ├── sharun-lib4bin
  8.5K   ├── proot.preview.png
  8.5K   ├── halp.preview.png
