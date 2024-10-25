@@ -185,6 +185,7 @@
  498K   ├── ssh-pkcs11-helper.exe
  445K   ├── scp.exe
  364K   ├── sftp-server.exe
+ 316K   ├── picocrypt.preview.png
  175K   ├── yt-dlp.exe
  174K   ├── ssh-shellhost.exe
  167K   ├── bin2video.exe
@@ -245,7 +246,6 @@
   36K   ├── micro.preview.png
   36K   ├── curl.preview.png
   26K   ├── 7z.preview.png
-  24K   ├── picocrypt.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
   11K   └── yt-dlp.preview.png
