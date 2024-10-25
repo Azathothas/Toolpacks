@@ -234,7 +234,7 @@
 392:fq.preview.png:                   PNG image data, 1400 x 700, 8-bit/color RGBA, non-interlaced
 394:freeze.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 401:fx.preview.png:                   PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-404:fzf.preview.png:                  PNG image data, 1200 x 680, 8-bit/color RGB, non-interlaced
+404:fzf.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 409:gdu.preview.png:                  PNG image data, 800 x 500, 8-bit/color RGBA, non-interlaced
 419:getJS.preview.png:                GIF image data, version 89a, 1920 x 1080
 426:gh-dash.preview.png:              PNG image data, 1282 x 640, 8-bit/color RGBA, non-interlaced
@@ -304,7 +304,7 @@
 818:osmedeus.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 822:ov.preview.png:                   PNG image data, 1200 x 516, 8-bit/color RGB, non-interlaced
 830:pdfcpu.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-838:pfetch-rs.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+838:pfetch-rs.preview.png:            PNG image data, 804 x 350, 8-bit/color RGBA, non-interlaced
 840:pgrok.preview.png:                PNG image data, 1500 x 500, 8-bit/color RGBA, non-interlaced
 855:pixi.preview.png:                 PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
 857:pkg.default.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -318,7 +318,7 @@
 895:qbittorrent-nox.preview.png:      JPEG image data, JFIF standard 1.02, resolution (DPI), density 96x96, segment length 16, comment: "LEADTOOLS v20.0", baseline, precision 8, 1198x687, components 3
 933:qsv.preview.png:                  PNG image data, 1280 x 800, 8-bit/color RGBA, non-interlaced
 936:quotes-escaper.preview.png:       GIF image data, version 89a, 1920 x 1080
-939:rage.preview.png:                 PNG image data, 1246 x 592, 8-bit/color RGBA, non-interlaced
+939:rage.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 942:rate-limit-checker.preview.png:   GIF image data, version 89a, 1920 x 1080
 945:rathole.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 947:rattler-build.preview.png:        PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
@@ -375,7 +375,7 @@
 1190:tok.preview-3.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1191:tok.preview-4.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1192:tok.preview.png:                  GIF image data, version 89a, 1920 x 1080
-1198:traefik.preview.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1198:traefik.preview.png:              PNG image data, 3840 x 1281, 8-bit/color RGBA, non-interlaced
 1202:trufflehog.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1213:tut.preview.png:                  PNG image data, 941 x 453, 8-bit/color RGBA, non-interlaced
 1215:txeh.preview.png:                 PNG image data, 900 x 348, 8-bit/color RGBA, non-interlaced

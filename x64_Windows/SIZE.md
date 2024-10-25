@@ -220,7 +220,6 @@
   74K   ├── dust.preview.png
   74K   ├── alist.preview.png
   73K   ├── jwt-cracker.preview.png
-  68K   ├── age.preview.png
   68K   ├── brook.preview.png
   63K   ├── pdfcpu.preview.png
   62K   ├── eget.preview.png
@@ -246,6 +245,7 @@
   36K   ├── micro.preview.png
   36K   ├── curl.preview.png
   26K   ├── 7z.preview.png
+  21K   ├── age.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
   11K   └── yt-dlp.preview.png

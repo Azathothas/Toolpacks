@@ -1036,6 +1036,7 @@
  415K   ├── comb.preview-3.png
  415K   ├── certstream.preview-3.png
  399K   ├── sadf
+ 397K   ├── traefik.preview.png
  387K   ├── mdp
  387K   ├── pv
  387K   ├── lsof
@@ -1232,7 +1233,6 @@
   75K   ├── arduino-cli.preview.png
   74K   ├── bin2video
   72K   ├── hugo.preview.png
-  69K   ├── rage.preview.png
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
   67K   ├── sn0int.preview.png
@@ -1255,10 +1255,8 @@
   61K   ├── zoxide.preview.png
   58K   ├── batcat.preview.png
   58K   ├── gguf-tools
-  57K   ├── traefik.preview.png
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
-  55K   ├── pfetch-rs.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── podsync.preview.png
@@ -1270,17 +1268,19 @@
   50K   ├── dvc.preview.png
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
+  48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
+  46K   ├── rage.preview.png
   46K   ├── hexyl.preview.png
   44K   ├── yabs.sh
   44K   ├── tailscale.preview.png
+  43K   ├── fzf.preview.png
   43K   ├── stree.preview.png
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
   41K   ├── sshpass
   41K   ├── pipetty
-  41K   ├── fzf.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
