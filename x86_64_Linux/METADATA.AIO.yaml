@@ -3233,7 +3233,7 @@ bin:
     bin_name: ddns-go
     description: Simple and easy to use DDNS.
     note: ""
-    version: v6.7.2
+    version: v6.7.3
     download_url: https://bin.ajam.dev/x86_64/ddns-go
     size: 9.43 MB
     bsum: ef0b4f6b8ae8a7bce4462a587f4f53f706da8909e62d0de57bdf154a1a16c34c
@@ -4542,7 +4542,7 @@ bin:
     bin_name: eza
     description: A modern replacement for ‘ls’. (Fork of exa)
     note: ""
-    version: v0.20.4
+    version: v0.20.5
     download_url: https://bin.ajam.dev/x86_64/eza
     size: 2.38 MB
     bsum: 26d33f581e5215011141b19d6c2b530b374974cb7b8ec94ade31ddf129067b96
@@ -7075,7 +7075,7 @@ bin:
     bin_name: hcloud
     description: A command-line interface for Hetzner Cloud
     note: ""
-    version: v1.47.0
+    version: v1.48.0
     download_url: https://bin.ajam.dev/x86_64/hcloud
     size: 14.01 MB
     bsum: 9721fd24a5ca6c980ebebb09616f00ec8d08142eaf7f41dd1f25dece981d72b4
@@ -14147,7 +14147,7 @@ bin:
     bin_name: ruri
     description: Lightweight, User-friendly Linux-container Implementation
     note: ""
-    version: Final
+    version: v3.6
     download_url: https://bin.ajam.dev/x86_64/ruri
     size: 1.15 MB
     bsum: b14978f117d90cefe28a322fdda5175c53a82962cdafc6936ea2c6a8b7cc3b37
@@ -17088,7 +17088,7 @@ bin:
     bin_name: v2raya
     description: "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. \U0001F680"
     note: ""
-    version: v2.2.6
+    version: v2.2.6.1
     download_url: https://bin.ajam.dev/x86_64/v2raya
     size: 30.38 MB
     bsum: 99dec50572788bc79d62473a2148925848bb5fc28225f50e2267f50482f7fc53
