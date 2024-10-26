@@ -22,17 +22,17 @@
 1.5M   ├── busybox
 1.4M   ├── b3sum
 1.1M   ├── anew-rs
-444K   ├── xxd
-248K   ├── sudo
-232K   ├── wget_cacert.pem
-232K   ├── curl_cacert.pem
-184K   ├── jless.preview.png
-184K   ├── adig
-176K   ├── ahost
- 72K   ├── curl.preview.png
+441K   ├── xxd
+245K   ├── sudo
+229K   ├── wget_cacert.pem
+229K   ├── curl_cacert.pem
+182K   ├── jless.preview.png
+182K   ├── adig
+175K   ├── ahost
+ 69K   ├── curl.preview.png
  44K   ├── tailscale.preview.png
- 40K   ├── rclone.preview.png
  40K   ├── pkg.default.png
- 40K   ├── base.default.png
- 20K   └── bin.default.png
+ 38K   ├── rclone.preview.png
+ 37K   ├── base.default.png
+ 19K   └── bin.default.png
 ```

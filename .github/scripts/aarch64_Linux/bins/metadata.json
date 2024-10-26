@@ -890,6 +890,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dirstat-rs.sh"
   },
   {
+    "name": "dive.sh",
+    "update_date": "2024-10-26T12:08:56",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dive.sh"
+  },
+  {
     "name": "dizi.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/dizi.sh"
@@ -2401,7 +2406,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-10-25T12:13:19",
+    "update_date": "2024-10-26T00:16:20",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {

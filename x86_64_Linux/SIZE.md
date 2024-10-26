@@ -14,6 +14,7 @@
  121M   ├── trufflehog
  118M   ├── aws-cli.no_strip
  113M   ├── cloudlist
+ 113M   ├── woofwoof
  102M   ├── gitea
   99M   ├── promtail
   90M   ├── k9s
@@ -1040,7 +1041,6 @@
  490K   ├── unifetch
  479K   ├── intermodal.preview.png
  479K   ├── generate-bidi
- 478K   ├── ov.preview.png
  473K   ├── visudo
  463K   ├── shellharden
  459K   ├── dropbear
@@ -1132,8 +1132,8 @@
  282K   ├── METADATA.AIO.yaml.zstd
  282K   ├── METADATA.AIO.toml.zstd
  282K   ├── METADATA.AIO.toml.xz
- 282K   ├── METADATA.AIO.min.json.xz
  282K   ├── doas
+ 282K   ├── METADATA.AIO.min.json.xz
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
  270K   ├── pigz
@@ -1181,6 +1181,7 @@
  198K   ├── nfs-cat
  194K   ├── xdo
  193K   ├── dalfox.preview.png
+ 189K   ├── ov.preview.png
  188K   ├── yabs.sh.preview.png
  188K   ├── cpufetch
  187K   ├── rescope.preview.png
@@ -1191,7 +1192,6 @@
  184K   ├── ocat
  184K   ├── haylxon.preview.png
  183K   ├── ping
- 182K   ├── jless.preview.png
  182K   ├── hcxdumptool
  177K   ├── fq.preview.png
  174K   ├── runimage-run
@@ -1261,7 +1261,6 @@
  102K   ├── arping
   99K   ├── gitpod-cli.preview.png
   98K   ├── fusermount3
-  97K   ├── termshark.preview.png
   97K   ├── listmonk.preview.png
   94K   ├── imhex.preview.png
   94K   ├── darkhttpd
@@ -1310,11 +1309,11 @@
   66K   ├── oha.preview.png
   65K   ├── hakrawler.preview.png
   63K   ├── pdfcpu.preview.png
+  63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
   62K   ├── tut.preview.png
   62K   ├── libtree.preview.png
   61K   ├── zoxide.preview.png
-  60K   ├── jaeles.preview.png
   58K   ├── batcat.preview.png
   57K   ├── gguf-tools
   57K   ├── joker
@@ -1329,11 +1328,13 @@
   51K   ├── redguard.preview.png
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
+  50K   ├── jless.preview.png
   50K   ├── dvc.preview.png
   50K   ├── hcxeiutool
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
   48K   ├── pfetch-rs.preview.png
+  47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
   46K   ├── hexyl.preview.png
   44K   ├── yabs.sh
@@ -1343,6 +1344,7 @@
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
   40K   ├── jsmug
+  39K   ├── termshark.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
@@ -1351,7 +1353,6 @@
   37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
-  36K   ├── micro.preview.png
   36K   ├── dbeaver.preview.png
   35K   ├── sshpass
   35K   ├── puredns.preview.png
@@ -1363,7 +1364,6 @@
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
-  27K   ├── rathole.preview.png
   27K   ├── aggligator.preview.png
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
@@ -1385,10 +1385,12 @@
   17K   ├── resdns
   17K   ├── gsocket.preview.png
   17K   ├── bdl.sh
+  16K   ├── feroxbuster.preview.png
   16K   ├── dotenv-linter.preview.png
   16K   ├── cut-cdn.preview.png
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
+  14K   ├── micro.preview.png
   14K   ├── croc.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
@@ -1401,7 +1403,6 @@
  8.5K   ├── halp.preview.png
  7.5K   ├── sk-tmux
  7.5K   ├── dockerd-rootless.sh
- 7.0K   ├── feroxbuster.preview.png
  6.5K   ├── kmon.preview.png
  6.0K   ├── ansi2txt
  5.5K   ├── rsync-ssl
