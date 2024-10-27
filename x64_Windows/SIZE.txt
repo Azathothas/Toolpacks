@@ -234,10 +234,10 @@
   47K   ├── dufs.preview.png
   46K   ├── sing-box.preview.png
   46K   ├── findutils_uutils.preview.png
+  45K   ├── miniserve.preview.png
   45K   ├── ipinfo.preview.png
   43K   ├── ooniprobe.preview.png
   42K   ├── jq.preview.png
-  42K   ├── miniserve.preview.png
   39K   ├── pkg.default.png
   38K   ├── cfspeedtest.preview.png
   37K   ├── base.default.png

@@ -211,7 +211,7 @@
 178:cherrybomb.preview.png:           PNG image data, 1280 x 640, 8-bit colormap, non-interlaced
 184:circumflex.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 197:cloudfox.preview.png:             JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1200x628, components 3
-201:cmd-wrapped.preview.png:          PNG image data, 1651 x 824, 8-bit/color RGBA, non-interlaced
+201:cmd-wrapped.preview.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 204:cocogitto.preview.png:            PNG image data, 640 x 640, 8-bit/color RGBA, non-interlaced
 207:comb.preview-0.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 208:comb.preview-1.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -266,10 +266,10 @@
 461:gitea.preview.png:                JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1500x500, components 3
 468:gitoxide.preview.png:             PNG image data, 1384 x 656, 8-bit/color RGBA, non-interlaced
 471:gitpod-cli.preview.png:           JPEG image data, JFIF standard 1.01, aspect ratio, density 0x0, segment length 16, baseline, precision 8, 2400x1350, components 3
-474:gitui.preview.png:                PNG image data, 1000 x 600, 8-bit gray+alpha, non-interlaced
+474:gitui.preview.png:                PNG image data, 512 x 512, 8-bit gray+alpha, non-interlaced
 478:glow.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 485:goaccess.preview.png:             PNG image data, 725 x 411, 4-bit colormap, non-interlaced
-506:gosmee.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+506:gosmee.preview.png:               PNG image data, 1792 x 1024, 8-bit colormap, non-interlaced
 507:gost:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=OVmBQl7Gp37Wjg7ZI_qx/g0eYkNTCnwuM5xLli1Kk/Eg-FeyzgT1hpmZFPausQ/FigF6hru-9SsYb6NVoAG, stripped
 513:gowitness.preview.png:            PNG image data, 710 x 172, 8-bit/color RGBA, non-interlaced
 516:gpg-tui.preview.png:              JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
@@ -278,7 +278,7 @@
 528:gum.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
 532:hacker-scoper.preview.png:        PNG image data, 1000 x 482, 8-bit/color RGB, non-interlaced
 537:hakrawler.preview.png:            PNG image data, 620 x 286, 8-bit/color RGBA, non-interlaced
-540:halp.preview.png:                 PNG image data, 512 x 512, 8-bit colormap, non-interlaced
+540:halp.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 543:haylxon.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 557:hexyl.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 565:htb-cli.preview.png:              PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
@@ -287,7 +287,7 @@
 579:husarnet.preview.png:             PNG image data, 4782 x 2958, 8-bit/color RGBA, non-interlaced
 584:hyperfine.preview.png:            PNG image data, 640 x 320, 8-bit/color RGB, non-interlaced
 587:hysp.preview.png:                 PNG image data, 1366 x 768, 8-bit/color RGB, non-interlaced
-593:imhex.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+593:imhex.preview.png:                PNG image data, 1528 x 948, 8-bit/color RGB, non-interlaced
 598:inscope.preview-0.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 599:inscope.preview-1.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 600:inscope.preview-2.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
@@ -356,7 +356,7 @@
 986:rate-limit-checker.preview.png:   GIF image data, version 89a, 1920 x 1080
 989:rathole.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 991:rattler-build.preview.png:        PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
-994:rclone.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+994:rclone.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 997:realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA, non-interlaced
 1003:redguard.preview.png:             PNG image data, 640 x 365, 8-bit/color RGB, non-interlaced
 1014:rescope.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
@@ -385,7 +385,7 @@
 1094:scopeview.preview-3.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1095:scopeview.preview-4.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1096:scopeview.preview.png:            GIF image data, version 89a, 1920 x 1080
-1114:shell2http.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+1114:shell2http.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1133:smap.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 1136:smartdns.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1139:sn0int.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced

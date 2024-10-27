@@ -131,7 +131,7 @@ micro.preview.png:             PNG image data, 1280 x 437, 8-bit/color RGBA, non
 miniooni-windows-amd64.exe:    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 miniooni.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 miniserve.exe:                 PE32+ executable (console) x86-64, for MS Windows
-miniserve.preview.png:         PNG image data, 850 x 570, 8-bit/color RGBA, non-interlaced
+miniserve.preview.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 mkdir.exe:                     PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 mktemp.exe:                    PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 monolith.exe:                  PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
