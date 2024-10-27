@@ -1992,7 +1992,7 @@ bin:
     bin_name: clipcat-menu
     description: A clipboard manager written in Rust Programming Language.
     note: ""
-    version: v0.18.3
+    version: v0.19.0
     download_url: https://bin.ajam.dev/aarch64/clipcat-menu
     size: 7.79 MB
     bsum: 53f22a0b0e0066face91a0b0f81f396d4d1f0c52b41c19457f6149e77073b3f2
@@ -2009,7 +2009,7 @@ bin:
     bin_name: clipcat-notify
     description: A clipboard manager written in Rust Programming Language.
     note: ""
-    version: v0.18.3
+    version: v0.19.0
     download_url: https://bin.ajam.dev/aarch64/clipcat-notify
     size: 5.41 MB
     bsum: 659beab98f94ccd36870dd7fbc1c2338c826ca5491640415dc7adef1084eafb6
@@ -2026,7 +2026,7 @@ bin:
     bin_name: clipcatctl
     description: A clipboard manager written in Rust Programming Language.
     note: ""
-    version: v0.18.3
+    version: v0.19.0
     download_url: https://bin.ajam.dev/aarch64/clipcatctl
     size: 5.48 MB
     bsum: 24dd42e95672f1eff0729f1486cdfcf927df637b72be8ca41f9c128170492ede
@@ -2043,7 +2043,7 @@ bin:
     bin_name: clipcatd
     description: A clipboard manager written in Rust Programming Language.
     note: ""
-    version: v0.18.3
+    version: v0.19.0
     download_url: https://bin.ajam.dev/aarch64/clipcatd
     size: 14.59 MB
     bsum: 4a90d482c60231b9820cdcf79382fdae1fff17c1dd665209b69c98ba77f7c361
@@ -9744,7 +9744,7 @@ bin:
     bin_name: melange
     description: build APKs from source code
     note: ""
-    version: v0.14.7
+    version: v0.14.10
     download_url: https://bin.ajam.dev/aarch64/melange
     size: 45.62 MB
     bsum: 64d547aa50854e50dccbedae2162bcf7c8cb163c733b00d532a0810878200c9e
@@ -11070,7 +11070,7 @@ bin:
     bin_name: oha
     description: HTTP load generator
     note: ""
-    version: v1.4.6
+    version: v1.4.7
     download_url: https://bin.ajam.dev/aarch64/oha
     size: 10.15 MB
     bsum: 0ca97c7865809be6ac7c3eb6607f33398d75c4a0ba373c7455de3364df69fa8d
@@ -13025,7 +13025,7 @@ bin:
     bin_name: rattler-build
     description: rattler-build is a universal package builder for Windows, macOS and Linux
     note: ""
-    version: v0.28.0
+    version: v0.28.1
     download_url: https://bin.ajam.dev/aarch64/rattler-build
     size: 22.92 MB
     bsum: 9e46087a2432815fff44388ad77ede1e7652488bdc138720629dde08d1660e3a
@@ -14708,7 +14708,7 @@ bin:
     bin_name: soar
     description: A highly experimental package manager
     note: ""
-    version: v0.2.0
+    version: v0.3.0
     download_url: https://bin.ajam.dev/aarch64/soar
     size: 4.95 MB
     bsum: 96999877ac1bd796e2f1277bd7eb8bdabcbb663a618c33f789626168e66af4a3
@@ -15711,7 +15711,7 @@ bin:
     bin_name: tdl
     description: "\U0001F4E5 A Telegram downloader/tools written in Golang"
     note: ""
-    version: v0.17.5
+    version: v0.17.6
     download_url: https://bin.ajam.dev/aarch64/tdl
     size: 38.22 MB
     bsum: 23d32da6f7ccc1f15a49a28844a660bb9a55a7ca84f517f8d0424e2982226960
@@ -16221,7 +16221,7 @@ bin:
     bin_name: tun2proxy
     description: Tunnel (TUN) interface for SOCKS and HTTP proxies
     note: ""
-    version: v0.5.4
+    version: v0.6.0
     download_url: https://bin.ajam.dev/aarch64/tun2proxy
     size: 3.81 MB
     bsum: 3ec8698951f2e0e2e52484941c6c489be503b93f585c76f1b28ccffebf55506e
