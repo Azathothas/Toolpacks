@@ -198,7 +198,7 @@ cloudfox.preview.png:             JPEG image data, JFIF standard 1.01, aspect ra
 cloudlist:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=7rarWXIiMMA_VPcnD22C/eH-N07QuBt_t-i_tm3LQ/3D98E-xrNBAomU97LunX/6xoxNzQxtJl801j1hydT, stripped
 cloudreve:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=whVGJ93k4JLF9rLUi8RD/LODrrTHako0VeqRFNfIB/dM4WSlPIQQdVFUjvVO8x/yJ4EmgTz-b6RPPkmn3ob, stripped
 cmd-wrapped:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-cmd-wrapped.preview.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+cmd-wrapped.preview.png:          PNG image data, 1651 x 824, 8-bit/color RGBA, non-interlaced
 cntb:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_9yn-zVvNl-NhqBh-ojY/GWIniiGBWBkTLPjwGVB_/5WUJkqnYdurdNDuJaanW/h2lHUMII1a7gfvU1flfT, stripped
 cobalt-cli:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 cocogitto.preview.png:            PNG image data, 640 x 640, 8-bit/color RGBA, non-interlaced
@@ -471,7 +471,7 @@ gitpod-cli:                       ELF 64-bit LSB executable, x86-64, version 1 (
 gitpod-cli.preview.png:           JPEG image data, JFIF standard 1.01, aspect ratio, density 0x0, segment length 16, baseline, precision 8, 2400x1350, components 3
 gitql:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=OVSJDx-npxbk6cSkAbys/pWWulbgbZDSmzfOT2ShR/DTtkcx8ZatU79yW6luo-/fnHs7OCcTvsZmj9Le7o3, stripped
 gitui:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=2f394831556c2146e98226183f7c2694aad4d340, stripped
-gitui.preview.png:                PNG image data, 512 x 512, 8-bit gray+alpha, non-interlaced
+gitui.preview.png:                PNG image data, 1000 x 600, 8-bit gray+alpha, non-interlaced
 gix:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 glab:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 glow:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=JpZ7ArowtopjaWrex2AU/tBPgU19Uc2Le3LbogKGp/rzZN7x_QsrrlF4dci3na/zuVJhUYlzq35AGzCQTxn, stripped
@@ -631,7 +631,7 @@ jaeles:                           ELF 64-bit LSB executable, x86-64, version 1 (
 jaeles.preview.png:               PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 jaq:                              ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), statically linked, no section header
 jc:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-jc.preview.png:                   PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+jc.preview.png:                   PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 jen:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 jira:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=JZAovJa6wKf_FCVpMVM1/pN-uUDnYzUUddWVMnLx7/AakNw1NowN7fQclHkQ0b/m6uc7Rdqyke0lJQ3IUP9, stripped
 jira-cli:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=XC0Enf4-D9Fk1qnwLSOE/yyEw2TI-efA2DHKmJhqj/ePS2gRespDlxqFpTnqKv/3MwdrzJRHa0eoxPhd5C-, stripped
@@ -870,7 +870,7 @@ pelf_linker:                      POSIX shell script, ASCII text executable
 pelfd:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pencode:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=RVELkMrki-JchmWvHI73/8OvW6yQ8ZNsd_nwEFnAw/dJfTJGKuQ0hUvxiW7IjU/C_ZCce1O2nipe9XcJTlp, stripped
 pfetch-rs:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-pfetch-rs.preview.png:            PNG image data, 804 x 350, 8-bit/color RGBA, non-interlaced
+pfetch-rs.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pgrok:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=w1klbrDBnx8wH-yxAy_S/pvSnN0Msue3WTv2aoK8E/qYQEBZMhYWuUwkO4fOtR/rX9P__QA29-91FCZ3-BN, stripped
 pgrok.preview.png:                PNG image data, 1500 x 500, 8-bit/color RGBA, non-interlaced
 pgrokd:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=jVGzT0Vk6nPzawxZX8SX/D9CSviF1ZrfczyCcmG6Q/0UY5hTXVF82ARvNVYPOC/IFzbufkVeBwzVc1CiaKz, stripped
@@ -991,7 +991,7 @@ rattler-build:                    ELF 64-bit LSB pie executable, x86-64, version
 rattler-build.preview.png:        PNG image data, 2560 x 1280, 8-bit/color RGB, non-interlaced
 rcat:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 rclone:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-rclone.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+rclone.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 reader:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=mhyHr8uYnB3cXGsxvKhp/A-lcP1FItWOXYxvAPcBI/2JqhdnE3DteMv8_KB-ea/u0ZtHjXwo0iU0iKy_AHB, stripped
 realm:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA, non-interlaced
@@ -1058,7 +1058,7 @@ runiq:                            ELF 64-bit LSB pie executable, x86-64, version
 runme:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=POVYW0Ph5alFbHIzYWpe/q8TaqJqq8m7_z9_wbx-O/5Gr0mOCbqiUVrEEWCjI1/ntUcHbglU2CYcLEobond, stripped
 runst.preview.png:                JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
 ruri:                             ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, stripped
-ruri.preview.png:                 PNG image data, 1600 x 800, 8-bit/color RGBA, non-interlaced
+ruri.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 rush:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=TwvobzIaD4XApN5Wai-V/IaHcX-IEuDlfcabzmmvM/YvgjNtSJ-2xGiHmmpWtr/6dUDfrYXs3XT4HIs222G, stripped
 rust-hypervisor-firmware:         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 rust-parallel:                    ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
@@ -1111,7 +1111,7 @@ sharun:                           ELF 64-bit LSB pie executable, x86-64, version
 sharun-lib4bin:                   Bourne-Again shell script, ASCII text executable
 shc:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 shell2http:                       ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AiVp-YLpnea7VHGvShxv/atpIs5vStslZE5E57Zf8/9mY-5RzGwzPGtkRMZK8j/GHwPzywrsPai6ve99kYr, stripped
-shell2http.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+shell2http.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 shellharden:                      ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 shellz:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 shfmt:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=eEyPQ5_adV69uR11syXW/ZnV7_Ge-qARj3R3QqBKE/JzJJ8QBUy49mb1eJXW8Q/3sMTInujtnmbs9ikD0im, stripped
@@ -1403,7 +1403,7 @@ yip:                              ELF 64-bit LSB executable, x86-64, version 1 (
 yj:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 yq:                               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 yt-dlp:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=cc74c4a74145b7afe126ee5e67d528f4a0e6fee2, stripped
-yt-dlp.preview.png:               PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
+yt-dlp.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 z:                                ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 z-tokens:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 z-tokens.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced

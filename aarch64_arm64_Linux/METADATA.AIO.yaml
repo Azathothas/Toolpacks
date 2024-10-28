@@ -5137,7 +5137,7 @@ bin:
     bin_name: fzf
     description: "\U0001F338 A command-line fuzzy finder"
     note: ""
-    version: v0.55.0
+    version: v0.56.0
     download_url: https://bin.ajam.dev/aarch64/fzf
     size: 3.71 MB
     bsum: 689fa39005359c12610a18d8551c58eb53b87bf99b0c94797d57a8d6e33ff749
@@ -6667,7 +6667,7 @@ bin:
     bin_name: gronx-tasker
     description: Lightweight, fast and dependency-free Cron expression parser, task runner, job scheduler and/or daemon
     note: ""
-    version: v1.19.2
+    version: v1.19.3
     download_url: https://bin.ajam.dev/aarch64/gronx-tasker
     size: 2.21 MB
     bsum: c77451e84d481b063f99c272aff8da9df171c2f448a51fbb71cb1c91629fbac9

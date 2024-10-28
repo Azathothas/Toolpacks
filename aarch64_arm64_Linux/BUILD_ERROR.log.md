@@ -195,7 +195,7 @@
 158:certstream.preview-4.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 159:certstream.preview.png:           GIF image data, version 89a, 1920 x 1080
 176:cherrybomb.preview.png:           PNG image data, 1280 x 640, 8-bit colormap, non-interlaced
-182:circumflex.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+182:circumflex.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 194:cloudfox.preview.png:             JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1200x628, components 3
 198:cmd-wrapped.preview.png:          PNG image data, 1651 x 824, 8-bit/color RGBA, non-interlaced
 201:cocogitto.preview.png:            PNG image data, 640 x 640, 8-bit/color RGBA, non-interlaced
@@ -257,7 +257,7 @@
 521:halp.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 524:haylxon.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 538:hexyl.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-546:htb-cli.preview.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+546:htb-cli.preview.png:              PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
 553:huggingface-cli.preview.png:      PNG image data, 1260 x 640, 8-bit/color RGBA, non-interlaced
 555:hugo.preview.png:                 PNG image data, 900 x 450, 8-bit colormap, non-interlaced
 560:husarnet.preview.png:             PNG image data, 4782 x 2958, 8-bit/color RGBA, non-interlaced
@@ -283,16 +283,16 @@
 647:lazydocker.preview.png:           PNG image data, 726 x 413, 8-bit/color RGBA, non-interlaced
 653:libtree.preview.png:              PNG image data, 737 x 511, 8-bit/color RGBA, non-interlaced
 658:listmonk.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-670:lorien.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+670:lorien.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 679:macchina.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 682:magick.preview.png:               PNG image data, 1280 x 640, 16-bit/color RGB, non-interlaced
 689:mantra.preview.png:               PNG image data, 1840 x 818, 8-bit/color RGBA, non-interlaced
 693:massdns.preview.png:              PNG image data, 735 x 373, 8-bit/color RGBA, non-interlaced
 699:mdcat.preview.png:                PNG image data, 1560 x 566, 8-bit/color RGB, non-interlaced
-704:meli.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+704:meli.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 709:micro.preview.png:                PNG image data, 1280 x 437, 8-bit/color RGBA, non-interlaced
 712:miller.preview.png:               PNG image data, 190 x 190, 8-bit/color RGBA, non-interlaced
-717:miniserve.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+717:miniserve.preview.png:            PNG image data, 850 x 570, 8-bit/color RGBA, non-interlaced
 741:mubeng.preview.png:               JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
 756:netexec.preview.png:              PNG image data, 2560 x 1280, 8-bit/color RGBA, non-interlaced
 773:ngocok.preview.png:               JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 2134x1066, components 3
@@ -354,7 +354,7 @@
 1045:scopeview.preview.png:            GIF image data, version 89a, 1920 x 1080
 1063:shell2http.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 1080:smap.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-1083:smartdns.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1083:smartdns.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1085:sn0int.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1090:soft-serve.preview.png:           JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
 1107:sshportal.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
