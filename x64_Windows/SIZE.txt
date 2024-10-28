@@ -14,8 +14,8 @@
   30M   ├── sing-box.exe
   29M   ├── dbbench.exe
   26M   ├── ngrok.exe
-  25M   ├── brutespray.exe
   25M   ├── cloudflared.exe
+  25M   ├── brutespray.exe
   22M   ├── loclx.exe
   22M   ├── localxpose.exe
   20M   ├── legba.exe
@@ -24,8 +24,8 @@
   19M   ├── sish.exe
   17M   ├── gix.exe
   14M   ├── pgrokd.exe
+  14M   ├── hcloud.exe
   13M   ├── gdu.exe
-  13M   ├── hcloud.exe
   13M   ├── tssh.exe
   13M   ├── logstation.exe
   11M   ├── pdfcpu.exe
@@ -64,18 +64,18 @@
  3.5M   ├── dufs.exe
  3.5M   ├── iperf3.exe
  2.9M   ├── deprun.exe
- 2.6M   ├── cksum.exe
+ 2.7M   ├── cksum.exe
  2.6M   ├── dust.exe
  2.6M   ├── hashsum.exe
  2.5M   ├── find.exe
  2.5M   ├── find-rs.exe
- 2.4M   ├── date.exe
  2.4M   ├── pr.exe
+ 2.4M   ├── date.exe
  2.4M   ├── touch.exe
  2.4M   ├── ptx.exe
  2.3M   ├── csplit.exe
- 2.3M   ├── nl.exe
  2.3M   ├── geodns.exe
+ 2.3M   ├── nl.exe
  2.3M   ├── geoping.exe
  2.2M   ├── tac.exe
  2.2M   ├── pdftops.exe
@@ -95,8 +95,8 @@
  1.5M   ├── dir.exe
  1.5M   ├── fastfetch.exe
  1.4M   ├── expr.exe
- 1.3M   ├── pdftotext.exe
  1.3M   ├── flashfetch.exe
+ 1.3M   ├── pdftotext.exe
  1.3M   ├── tail.exe
  1.3M   ├── cp.exe
  1.3M   ├── pdfimages.exe
@@ -110,64 +110,64 @@
  1.2M   ├── pdfdetach.exe
  1.2M   ├── mv.exe
  1.1M   ├── du.exe
- 1.0M   ├── env.exe
  1.0M   ├── seq.exe
+ 1.0M   ├── env.exe
  1.0M   ├── b3sum.exe
 1011K   ├── dd.exe
-1004K   ├── od.exe
-1002K   ├── more.exe
+1001K   ├── od.exe
+1001K   ├── more.exe
  986K   ├── basenc.exe
  980K   ├── join.exe
  977K   ├── split.exe
- 967K   ├── numfmt.exe
+ 965K   ├── numfmt.exe
  963K   ├── base64.exe
  963K   ├── base32.exe
  962K   ├── jq.exe
- 954K   ├── df.exe
- 930K   ├── mktemp.exe
+ 953K   ├── df.exe
+ 927K   ├── mktemp.exe
  924K   ├── ln.exe
  922K   ├── cut.exe
- 919K   ├── rm.exe
- 914K   ├── wc.exe
- 913K   ├── shuf.exe
- 912K   ├── uniq.exe
+ 918K   ├── rm.exe
+ 913K   ├── wc.exe
+ 912K   ├── shuf.exe
  912K   ├── printf.exe
+ 910K   ├── uniq.exe
  907K   ├── tr.exe
- 906K   ├── shred.exe
  904K   ├── xargs.exe
  904K   ├── xargs-rs.exe
+ 904K   ├── shred.exe
  904K   ├── dircolors.exe
  902K   ├── fmt.exe
  898K   ├── head.exe
  883K   ├── realpath.exe
  880K   ├── unexpand.exe
- 879K   ├── readlink.exe
- 878K   ├── tee.exe
+ 878K   ├── readlink.exe
  877K   ├── tsort.exe
- 869K   ├── expand.exe
- 865K   ├── fold.exe
+ 876K   ├── tee.exe
+ 868K   ├── expand.exe
+ 864K   ├── fold.exe
  860K   ├── cat.exe
  857K   ├── sum.exe
  847K   ├── test.exe
- 846K   ├── uname.exe
+ 845K   ├── uname.exe
  844K   ├── truncate.exe
- 844K   ├── mkdir.exe
+ 843K   ├── mkdir.exe
  843K   ├── hostname.exe
  841K   ├── comm.exe
  837K   ├── ssh-keygen.exe
- 837K   ├── paste.exe
  836K   ├── rmdir.exe
- 835K   ├── basename.exe
+ 836K   ├── paste.exe
+ 834K   ├── basename.exe
  833K   ├── sleep.exe
  832K   ├── sync.exe
  829K   ├── nproc.exe
  828K   ├── link.exe
  825K   ├── unlink.exe
- 824K   ├── arch.exe
+ 823K   ├── arch.exe
  818K   ├── pwd.exe
  815K   ├── dirname.exe
  812K   ├── echo.exe
- 811K   ├── whoami.exe
+ 810K   ├── whoami.exe
  807K   ├── yes.exe
  803K   ├── anew.exe
  803K   ├── anew-rs.exe
@@ -196,6 +196,7 @@
  128K   ├── gdu.preview.png
  128K   ├── dbbench.preview.png
  121K   ├── shell2http.preview.png
+ 120K   ├── pgrok.preview.png
  110K   ├── wget2.preview.png
  109K   ├── cfspeed.preview.png
  108K   ├── stunner.preview.png
@@ -245,7 +246,6 @@
   36K   ├── curl.preview.png
   36K   ├── micro.preview.png
   25K   ├── 7z.preview.png
-  23K   ├── pgrok.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
   11K   ├── yt-dlp.preview.png

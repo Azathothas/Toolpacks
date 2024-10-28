@@ -14,6 +14,7 @@
  121M   ├── trufflehog
  118M   ├── aws-cli.no_strip
  113M   ├── cloudlist
+ 113M   ├── woofwoof
  102M   ├── gitea
   99M   ├── promtail
   90M   ├── k9s
@@ -555,8 +556,6 @@
  6.2M   ├── wadl-dumper
  6.2M   ├── rescope
  6.2M   ├── presenterm
- 6.1M   ├── xbps-rindex
- 6.1M   ├── xbps-create
  6.1M   ├── rustcan
  6.1M   ├── ulexec
  6.1M   ├── wego
@@ -598,8 +597,6 @@
  5.6M   ├── gup
  5.6M   ├── golinkfinder
  5.6M   ├── gron
- 5.5M   ├── xbps-install
- 5.5M   ├── xbps-remove
  5.5M   ├── batcat
  5.5M   ├── bat
  5.5M   ├── github-regexp
@@ -609,21 +606,9 @@
  5.4M   ├── unfurl
  5.4M   ├── nvme-cli
  5.4M   ├── nvme
- 5.4M   ├── xbps-query
  5.4M   ├── git-tag
  5.4M   ├── crawley
- 5.4M   ├── xbps-reconfigure
- 5.4M   ├── xbps-pkgdb
- 5.4M   ├── xbps-checkvers
- 5.4M   ├── xbps-alternatives
- 5.4M   ├── xbps-uhelper
- 5.4M   ├── xbps-dgraph
- 5.4M   ├── xbps-fetch
  5.4M   ├── gorilla
- 5.4M   ├── xbps-uchroot
- 5.4M   ├── xbps-fbulk
- 5.4M   ├── xbps-uunshare
- 5.4M   ├── xbps-digest
  5.3M   ├── xurls
  5.3M   ├── horust
  5.3M   ├── mantra
@@ -684,6 +669,7 @@
  4.6M   ├── tahm
  4.6M   ├── enumerepo
  4.6M   ├── realm
+ 4.6M   ├── appstreamcli
  4.5M   ├── apk-static
  4.5M   ├── gotld
  4.5M   ├── ssh
@@ -761,8 +747,8 @@
  3.7M   ├── tealdeer
  3.7M   ├── spipe
  3.7M   ├── viu
- 3.7M   ├── METADATA.AIO.toml
  3.7M   ├── deoptimizer
+ 3.7M   ├── METADATA.AIO.toml
  3.6M   ├── passdetective
  3.6M   ├── pelfd
  3.6M   ├── bandwhich
@@ -1135,24 +1121,24 @@
  314K   ├── cutlines.preview-1.png
  314K   ├── comb.preview-1.png
  314K   ├── certstream.preview-1.png
+ 308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  303K   ├── mdp
  292K   ├── linuxwave
  287K   ├── METADATA.AIO.json.xz
  286K   ├── region_restriction_check.sh
- 286K   ├── METADATA.AIO.json.zstd
+ 285K   ├── METADATA.AIO.json.zstd
  284K   ├── METADATA.AIO.yaml.xz
  283K   ├── METADATA.AIO.min.json.zstd
- 283K   ├── METADATA.AIO.yaml.zstd
- 283K   ├── METADATA.AIO.toml.zstd
- 283K   ├── METADATA.AIO.toml.xz
- 283K   ├── METADATA.AIO.min.json.xz
+ 282K   ├── METADATA.AIO.yaml.zstd
+ 282K   ├── METADATA.AIO.toml.zstd
+ 282K   ├── METADATA.AIO.toml.xz
  282K   ├── doas
+ 282K   ├── METADATA.AIO.min.json.xz
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
  270K   ├── pigz
  269K   ├── vhs.preview.png
- 269K   ├── jc.preview.png
  266K   ├── mawk
  266K   ├── sftp-server
  261K   ├── flawz.preview.png
@@ -1216,6 +1202,7 @@
  158K   ├── k9s.preview.png
  154K   ├── mkpasswd
  149K   ├── asn.preview.png
+ 149K   ├── sshportal.preview.png
  149K   ├── assh.preview.png
  143K   ├── qsv.preview.png
  143K   ├── gitoxide.preview.png
@@ -1240,6 +1227,7 @@
  128K   ├── istio.preview.png
  128K   ├── hypervisor-fw
  126K   ├── ipt2socks
+ 124K   ├── osmedeus.preview.png
  123K   ├── duf.preview.png
  123K   ├── watchexec.preview.png
  122K   ├── xargs
@@ -1277,7 +1265,6 @@
   97K   ├── listmonk.preview.png
   94K   ├── imhex.preview.png
   94K   ├── darkhttpd
-  93K   ├── gh-dash.preview.png
   93K   ├── mpstat
   92K   ├── mdcat.preview.png
   91K   ├── shc
@@ -1289,7 +1276,6 @@
   85K   ├── libtree
   85K   ├── kubo.preview.png
   83K   ├── yggdrasil.preview.png
-  83K   ├── sshportal.preview.png
   82K   ├── algernon.preview.png
   82K   ├── tracepath
   81K   ├── reviewdog.preview.png
@@ -1316,7 +1302,6 @@
   68K   ├── age.preview.png
   68K   ├── zapper
   67K   ├── sn0int.preview.png
-  67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
   67K   ├── cifsiostat
   66K   ├── binfetch
@@ -1334,6 +1319,7 @@
   57K   ├── joker
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
+  55K   ├── pfetch-rs.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── ptyspawn
@@ -1347,7 +1333,6 @@
   50K   ├── hcxeiutool
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
-  48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
   46K   ├── hexyl.preview.png
@@ -1357,8 +1342,6 @@
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
-  41K   ├── puredns.preview.png
-  41K   ├── osmedeus.preview.png
   40K   ├── jsmug
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
@@ -1371,8 +1354,10 @@
   36K   ├── micro.preview.png
   36K   ├── dbeaver.preview.png
   35K   ├── sshpass
+  35K   ├── puredns.preview.png
   35K   ├── pipetty
   35K   ├── broot.preview.png
+  33K   ├── jc.preview.png
   33K   ├── fnm.preview.png
   33K   ├── ansi2html
   31K   ├── nezha-install.sh
@@ -1390,10 +1375,12 @@
   23K   ├── ani-cli
   23K   ├── try
   21K   ├── txeh.preview.png
+  21K   ├── ruri.preview.png
   20K   ├── findomain.preview.png
   19K   ├── pelf
   19K   ├── bin.default.png
   19K   ├── bandwhich.preview.png
+  19K   ├── yt-dlp.preview.png
   19K   ├── ttyrec2ansi
   19K   ├── serverstatus-status.sh
   18K   ├── gitui.preview.png
@@ -1408,7 +1395,6 @@
   14K   ├── croc.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
-  11K   ├── yt-dlp.preview.png
   11K   ├── lsix
   11K   ├── tailspin.preview.png
   11K   ├── nicotine-plus.preview.png
