@@ -177,7 +177,7 @@
 69:archey.preview.png:               PNG image data, 2000 x 1686, 8-bit/color RGBA, non-interlaced
 73:arduino-cli.preview.png:          PNG image data, 3598 x 2411, 8-bit/color RGBA, non-interlaced
 80:asn.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-84:assh.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+84:assh.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 93:bandwhich.preview.png:            PNG image data, 654 x 321, 8-bit/color RGB, non-interlaced
 94:base.default.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 98:batcat.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
@@ -194,8 +194,8 @@
 157:certstream.preview-3.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 158:certstream.preview-4.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 159:certstream.preview.png:           GIF image data, version 89a, 1920 x 1080
-176:cherrybomb.preview.png:           PNG image data, 1280 x 640, 8-bit colormap, non-interlaced
-182:circumflex.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+176:cherrybomb.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+182:circumflex.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 194:cloudfox.preview.png:             JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1200x628, components 3
 198:cmd-wrapped.preview.png:          PNG image data, 1651 x 824, 8-bit/color RGBA, non-interlaced
 201:cocogitto.preview.png:            PNG image data, 640 x 640, 8-bit/color RGBA, non-interlaced
@@ -283,13 +283,13 @@
 647:lazydocker.preview.png:           PNG image data, 726 x 413, 8-bit/color RGBA, non-interlaced
 653:libtree.preview.png:              PNG image data, 737 x 511, 8-bit/color RGBA, non-interlaced
 658:listmonk.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
-670:lorien.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+670:lorien.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 679:macchina.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 682:magick.preview.png:               PNG image data, 1280 x 640, 16-bit/color RGB, non-interlaced
 689:mantra.preview.png:               PNG image data, 1840 x 818, 8-bit/color RGBA, non-interlaced
 693:massdns.preview.png:              PNG image data, 735 x 373, 8-bit/color RGBA, non-interlaced
 699:mdcat.preview.png:                PNG image data, 1560 x 566, 8-bit/color RGB, non-interlaced
-704:meli.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+704:meli.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 709:micro.preview.png:                PNG image data, 1280 x 437, 8-bit/color RGBA, non-interlaced
 712:miller.preview.png:               PNG image data, 190 x 190, 8-bit/color RGBA, non-interlaced
 717:miniserve.preview.png:            PNG image data, 850 x 570, 8-bit/color RGBA, non-interlaced

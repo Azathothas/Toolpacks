@@ -3216,7 +3216,7 @@ bin:
     bin_name: dblab
     description: The database client every command line junkie deserves.
     note: ""
-    version: v0.26.0
+    version: v0.27.0
     download_url: https://bin.ajam.dev/x86_64/dblab
     size: 32.53 MB
     bsum: 2b3a664aaf8dc9fee31715d8a12342a36b931e721cf5e19467068b20adfa059a
@@ -8945,7 +8945,7 @@ bin:
     bin_name: listmonk
     description: High performance, self-hosted, newsletter and mailing list manager with a modern dashboard
     note: ""
-    version: v3.0.0
+    version: v4.0.0
     download_url: https://bin.ajam.dev/x86_64/listmonk
     size: 15.16 MB
     bsum: 61922c9bbf43f60b2a67192be9863965f96330839f39d5ad2e3333ea5de16e2d
@@ -10186,7 +10186,7 @@ bin:
     bin_name: mise
     description: dev tools, env vars, task runner
     note: ""
-    version: v2024.10.11
+    version: v2024.10.12
     download_url: https://bin.ajam.dev/x86_64/mise
     size: 27.21 MB
     bsum: b7d8dea0bec9a468b2bce06f0f81c3bf8575e5524e43c393565f497f7a6fe9b6
@@ -11614,7 +11614,7 @@ bin:
     bin_name: orbiton
     description: Fast and config-free text editor and IDE limited to VT100
     note: ""
-    version: v2.68.0
+    version: v2.68.1
     download_url: https://bin.ajam.dev/x86_64/orbiton
     size: 8.69 MB
     bsum: 5a2895926c97ed1a13772d7dcd3c4b0c2868c88d0434f7c400fb5d20a744413a
@@ -13688,7 +13688,7 @@ bin:
     bin_name: restic
     description: Fast, secure, efficient backup program
     note: ""
-    version: v0.17.1
+    version: v0.17.2
     download_url: https://bin.ajam.dev/x86_64/restic
     size: 26.48 MB
     bsum: acc7c27070a5cf415cb27f7c50b545c9c68e1e930080b5af8a0b811753be4121
@@ -41022,21 +41022,399 @@ base:
     icon: https://bin.ajam.dev/x86_64/lkl.preview.png
     extra_bins: cpfromfs,cptofs,fs2tar,lkl-hijack.sh,mount.fuse.lklfuse
 pkg:
+  - name: 86box.AppImage
+    bin_id: net._86box._86Box
+    bin_name: 86box
+    description: Emulator of x86-based machines
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/86Box/86Box<br>You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)
+    version: v4.2.1
+    download_url: https://pkg.ajam.dev/x86_64/86box.AppImage
+    size: 57.96 MB
+    bsum: fae5e514ee684a86b640ceef34d3342a653104f167a6fc4a18e008c14047f723
+    shasum: 5a86ea62ef5e12bb003479b063e2d2461119dda4fdc54f63de5a45fcadfceab3
+    build_date: 2024-10-28T08:09:10
+    src_url: https://github.com/86Box/86Box
+    web_url: https://86box.readthedocs.io
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/86box.AppImage.log
+    category: emulator,hypervisor
+    icon: https://pkg.ajam.dev/x86_64/86box.icon.png
+    extra_bins: ""
+  - name: acreom.AppImage
+    bin_id: xxx.acreom.acreom
+    bin_name: acreom
+    description: An IDE based Knowledge Base using Markdown (AppImage)
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/Acreom/releases
+    version: v1.20.2
+    download_url: https://pkg.ajam.dev/x86_64/acreom.AppImage
+    size: 139.12 MB
+    bsum: 4a749ce93ce4bbb1ee2c92bc2c42909a7b6e9e2740b45f2c8629e5cc255ba2fc
+    shasum: 0622796773666ff90a79a82ee246b86e22a0b7766fb92cb6bc64c4a38a775687
+    build_date: 2024-10-28T08:10:10
+    src_url: https://github.com/Acreom/releases
+    web_url: https://acreom.com
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/acreom.AppImage.log
+    category: ide,knowledge-base,wiki
+    icon: https://pkg.ajam.dev/x86_64/acreom.icon.png
+    extra_bins: ""
+  - name: actual.AppImage
+    bin_id: xxx.actual.actual
+    bin_name: actual
+    description: A local-first personal finance app
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/actualbudget/actual
+    version: v24.10.1
+    download_url: https://pkg.ajam.dev/x86_64/actual.AppImage
+    size: 93.54 MB
+    bsum: ba0b035f92dc803722baf2cccdc6ea079b58fe257d86b3d82675cbb938b253eb
+    shasum: 4293761d0bcb85b58d644503e3651078ec597073024d8c2a8ce678ef450cde49
+    build_date: 2024-10-28T08:10:46
+    src_url: https://github.com/actualbudget/actual
+    web_url: https://actualbudget.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/actual.AppImage.log
+    category: finance
+    icon: https://pkg.ajam.dev/x86_64/actual.icon.png
+    extra_bins: ""
+  - name: advanced-passgen.AppImage
+    bin_id: xxx.advanced-passgen.advanced-passgen
+    bin_name: advanced-passgen
+    description: Advanced Password Generator
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/CodeDead/Advanced-PassGen
+    version: v2.5.2
+    download_url: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage
+    size: 101.13 MB
+    bsum: 02dde8bd1f137dc1aaaf48c0ab070c6842c73aeca7a8e437bb980ada5b2ba433
+    shasum: f8305e7444a5858d8112956d0a684ef17faab496d7762d0de20fc0bedd1d57da
+    build_date: 2024-10-28T08:11:28
+    src_url: https://github.com/CodeDead/Advanced-PassGen
+    web_url: https://advancedpassgen.codedead.com
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage.log
+    category: passgen,password-manager
+    icon: https://pkg.ajam.dev/x86_64/advanced-passgen.icon.png
+    extra_bins: ""
+  - name: affine.AppImage
+    bin_id: xxx.affine.affine
+    bin_name: affine
+    description: A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/toeverything/AFFiNE
+    version: v0.17.5
+    download_url: https://pkg.ajam.dev/x86_64/affine.AppImage
+    size: 156.97 MB
+    bsum: cf0e39d1640ea2b4be1fccf73e6da2d194e4b3616d3a1ac31f0085e2d9902706
+    shasum: 018abf2b6fab7ef5b242d42cf80c1b51eafa307db851feea452ac8ffe870b086
+    build_date: 2024-10-28T08:45:10
+    src_url: https://github.com/toeverything/AFFiNE
+    web_url: https://affine.pro
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/affine.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/affine.AppImage.log
+    category: knowledge-base,wiki
+    icon: https://pkg.ajam.dev/x86_64/affine.icon.png
+    extra_bins: ""
+  - name: browservice.AppImage
+    bin_id: org.browservice.browservice
+    bin_name: browservice
+    description: Browse the modern web on historical browsers
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/ttalvitie/browservice
+    version: v0.9.10.0
+    download_url: https://pkg.ajam.dev/x86_64/browservice.AppImage
+    size: 228.38 MB
+    bsum: 3d4dbc7b50234e555e10f3c182ad666db7eaa9f557d4cf25c88c800c01d74783
+    shasum: 78a9058787719ccbb8e32280c546605ec58259c3e89aca5f65cda811ba073d62
+    build_date: 2024-10-28T08:12:32
+    src_url: https://github.com/ttalvitie/browservice
+    web_url: https://github.com/ttalvitie/browservice
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/browservice.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/browservice.AppImage.log
+    category: browser
+    icon: https://pkg.ajam.dev/x86_64/browservice.icon.png
+    extra_bins: ""
   - name: chromium-alpine.FlatImage
     bin_id: org.chromium.Chromium
     bin_name: chromium
     description: Open source web browser from Google
     note: 'FlatImages: https://github.com/ruanformigoni/flatimage<br>More: https://l.ajam.dev/flatimages'
-    version: 130.0.6723.58
+    version: 130.0.6723.69
     download_url: https://pkg.ajam.dev/x86_64/chromium-alpine.FlatImage
-    size: 248.65 MB
-    bsum: c89f786b91db46cb9ef62c05e4b36b2087933190f29035464f3dd0a056946367
-    shasum: 65a5cc63c902183d735328983bc08b14308d8bebf71fc7451a91495a5cddf2e7
-    build_date: 2024-10-24T12:27:26
+    size: 235.14 MB
+    bsum: 3eea1e0e7d3e14ee52a776b9ebd7f25b1c1c57e6c3754883626612e6b488b345
+    shasum: cd7d2ff559564343f90dc685d8dae49315dca34deeca0b9f02222d633c16efc0
+    build_date: 2024-10-28T08:15:39
     src_url: https://chromium.googlesource.com/chromium/src.git
     web_url: https://www.chromium.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.FlatImage.sh
     build_log: https://pkg.ajam.dev/x86_64/chromium.FlatImage.log
     category: browser
     icon: https://pkg.ajam.dev/x86_64/chromium.icon.png
+    extra_bins: ""
+  - name: chromium.NixAppImage
+    bin_id: org.chromium.Chromium
+    bin_name: chromium
+    description: Open source web browser from Google
+    note: 'NixAppImages: https://l.ajam.dev/nix-appimage'
+    version: 130.0.6723.58
+    download_url: https://pkg.ajam.dev/x86_64/chromium.NixAppImage
+    size: 437.84 MB
+    bsum: ce72471aa1cd57695c6de8e58e892f931e091cd9f63c0803c26170c344207d03
+    shasum: f156d364f8733d78700861f6507eb14973b3b9753ae402f43e902fba4e5f310f
+    build_date: 2024-10-28T08:22:07
+    src_url: https://chromium.googlesource.com/chromium/src.git
+    web_url: https://www.chromium.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.NixAppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/chromium.NixAppImage.log
+    category: browser
+    icon: https://pkg.ajam.dev/x86_64/chromium.icon.png
+    extra_bins: ""
+  - name: i3.AppImage
+    bin_id: org.i3wm.i3
+    bin_name: i3
+    description: A Tiling Window Manager
+    note: Community Created AppImage based on Conty (ArchLinux)<br>Check/Report @ https://github.com/Samueru-sama/i3-AppImage
+    version: "4.23"
+    download_url: https://pkg.ajam.dev/x86_64/i3.AppImage
+    size: 3.86 MB
+    bsum: 839c7e75248d0310ea70b5ff15c25f6e6eba63a9d4cd61696d64ee417b230471
+    shasum: 3f86ee6471271f681fc58f03f7868a408a1d8f52e450ca3f332791e58ab6d694
+    build_date: 2024-10-28T08:25:00
+    src_url: https://github.com/i3/i3
+    web_url: https://i3wm.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/i3.AppImage.log
+    category: window,window-manager,wm
+    icon: https://pkg.ajam.dev/x86_64/i3.icon.png
+    extra_bins: ""
+  - name: inkscape-dev.AppImage
+    bin_id: org.inkscape.Inkscape
+    bin_name: inkscape
+    description: FOSS Vector Graphics Editor
+    note: Officially Created AppImage<br>Check/Report @ https://gitlab.com/inkscape/inkscape
+    version: af29f8e-dev
+    download_url: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage
+    size: 100.42 MB
+    bsum: 7204b998c356805954d41baf753987782c452d4db700094b89a58628d68a116b
+    shasum: 4b2bd898203df6ad6cc2372af1ff9b04274bae0ddebe19fce59b07dae70ef321
+    build_date: 2024-10-28T08:27:48
+    src_url: https://gitlab.com/inkscape/inkscape
+    web_url: https://inkscape.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape-dev.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage.log
+    category: graphics,multimedia
+    icon: https://pkg.ajam.dev/x86_64/inkscape.icon.png
+    extra_bins: ""
+  - name: inkscape.AppImage
+    bin_id: org.inkscape.Inkscape
+    bin_name: inkscape
+    description: FOSS Vector Graphics Editor
+    note: Officially Created AppImage<br>Check/Report @ https://gitlab.com/inkscape/inkscape
+    version: "1.4"
+    download_url: https://pkg.ajam.dev/x86_64/inkscape.AppImage
+    size: 96.39 MB
+    bsum: 59ec353d1a55193e01148d81f221ebdead3e3aba76518d924dc2df593e4bbae0
+    shasum: e89f80eabd102a9503493ff077417844b4e42308511b67b7a96afe499c311f5e
+    build_date: 2024-10-28T08:26:55
+    src_url: https://gitlab.com/inkscape/inkscape
+    web_url: https://inkscape.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/inkscape.AppImage.log
+    category: graphics,multimedia
+    icon: https://pkg.ajam.dev/x86_64/inkscape.icon.png
+    extra_bins: ""
+  - name: librewolf.AppImage
+    bin_id: io.gitlab.librewolf-community
+    bin_name: librewolf
+    description: A fork of Firefox, focused on privacy, security and freedom
+    note: Officially Created AppImage<br>Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
+    version: v131.0.3-1
+    download_url: https://pkg.ajam.dev/x86_64/librewolf.AppImage
+    size: 93.92 MB
+    bsum: 27b9edef57966a6b0d9c30988cb75903e6d3882ec5977bf67b82c7b84ba7d111
+    shasum: af39489d453aa606ec8dabf52acc484f2e3a8e4d2001721e5a4f3432ffa2491e
+    build_date: 2024-10-28T08:28:33
+    src_url: https://gitlab.com/librewolf-community/browser
+    web_url: https://librewolf.net
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/librewolf.AppImage.log
+    category: browser,privacy
+    icon: https://pkg.ajam.dev/x86_64/librewolf.icon.png
+    extra_bins: ""
+  - name: librewolf-cachyos.FlatImage
+    bin_id: io.gitlab.librewolf-community
+    bin_name: librewolf
+    description: A custom version of Firefox, focused on privacy, security and freedom
+    note: 'FlatImages: https://github.com/ruanformigoni/flatimage<br>More: https://l.ajam.dev/flatimages'
+    version: 131.0.3
+    download_url: https://pkg.ajam.dev/x86_64/librewolf-cachyos.FlatImage
+    size: 469.51 MB
+    bsum: 6921a346bb4ed3776d33ef237e902589a6a9486ff22cb47e9c7f8484063c5265
+    shasum: 8ededf0e33a7b8a5187df8590b10ac883b694e15ee1626c82a9dd97e78d94e6d
+    build_date: 2024-10-28T08:32:16
+    src_url: https://codeberg.org/librewolf/source
+    web_url: https://librewolf.net
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.FlatImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/librewolf.FlatImage.log
+    category: browser,privacy
+    icon: https://pkg.ajam.dev/x86_64/librewolf.icon.png
+    extra_bins: ""
+  - name: obs-studio.AppImage
+    bin_id: com.obsproject.Studio
+    bin_name: obs-studio
+    description: FOSS cross-platform screencasting and streaming app (AppImage|NixAppImage)
+    note: Community Created AppImage<br>Check/Report @ https://github.com/ivan-hc/OBS-Studio-appimage
+    version: 30.2.1
+    download_url: https://pkg.ajam.dev/x86_64/obs-studio.AppImage
+    size: 174.2 MB
+    bsum: c1da87eb0dc53efda94d80c40d585e9b272a6e76146fd48f22f46ad7a4f70c31
+    shasum: 58e6fcb566c0cfd8ae29a5b2ea81ebe65a70c2e1d9fd6e442a66211b0ee3813f
+    build_date: 2024-10-28T08:33:49
+    src_url: https://github.com/obsproject/obs-studio
+    web_url: https://obsproject.com
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/obs-studio.AppImage.log
+    category: multimedia,screenrecording,video
+    icon: https://pkg.ajam.dev/x86_64/obs-studio.icon.png
+    extra_bins: ""
+  - name: olive-editor.AppImage
+    bin_id: org.olivevideoeditor.Olive
+    bin_name: olive
+    description: Free open-source non-linear video editor
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/olive-editor/olive
+    version: "2024-08-24T22:35:10Z"
+    download_url: https://pkg.ajam.dev/x86_64/olive-editor.AppImage
+    size: 120.57 MB
+    bsum: 02d3b85784f1499012463326104628d4df3b9b8f625f3d6e9bf2e115b930577b
+    shasum: 2925c589e74f64bcb434c7e5d24f50c375d38fc49457d9029e95b6f6b8e2a18b
+    build_date: 2024-10-28T08:35:04
+    src_url: https://github.com/olive-editor/olive
+    web_url: https://www.olivevideoeditor.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/olive-editor.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/olive-editor.AppImage.log
+    category: multimedia,video,video-editor
+    icon: https://pkg.ajam.dev/x86_64/olive.icon.png
+    extra_bins: ""
+  - name: puddletag.AppImage
+    bin_id: net.puddletag.puddletag
+    bin_name: puddletag
+    description: Powerful, simple, audio tag editor for GNU/Linux
+    note: Community Created AppImage<br>Check/Report @ https://github.com/Samueru-sama/puddletag-AppImage
+    version: 2.4.0
+    download_url: https://pkg.ajam.dev/x86_64/puddletag.AppImage
+    size: 52.03 MB
+    bsum: 04cd55a86c7cbd5f43fe44f75310adc0f7357746cb2de000335b4c3ecd28d5b6
+    shasum: 8fe3514defdb3fee57da72cb450ad9b573e4ad32532406d517b70d117cec575f
+    build_date: 2024-10-28T08:36:23
+    src_url: https://github.com/puddletag/puddletag
+    web_url: https://docs.puddletag.net
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/puddletag.AppImage.log
+    category: audio,multimedia,music
+    icon: https://pkg.ajam.dev/x86_64/puddletag.icon.png
+    extra_bins: ""
+  - name: qbittorrent-enhanced.AppImage
+    bin_id: org.qbittorrent.qBittorrent
+    bin_name: qbittorrent-enhanced
+    description: A qBittorrent for with Enhanced Features
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/c0re100/qBittorrent-Enhanced-Edition
+    version: release-4.6.7.10
+    download_url: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage
+    size: 24.91 MB
+    bsum: 5a07396972a9366ebaeab5b7d670c3149b9eb407767d3bed135acdfdeff257c8
+    shasum: 656b2b7a8b274229d4943fe33ebcf9f5a2df31016611ad53ae993fb8bd9c5a45
+    build_date: 2024-10-28T08:45:32
+    src_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
+    web_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent-enhanced.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage.log
+    category: downloader,torrent
+    icon: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.icon.png
+    extra_bins: ""
+  - name: qbittorrent.AppImage
+    bin_id: org.qbittorrent.qBittorrent
+    bin_name: qbittorrent
+    description: A Bittorrent Client
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/qbittorrent/qBittorrent
+    version: release-5.0.0.10
+    download_url: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage
+    size: 25.59 MB
+    bsum: 04a26427c569e95b031fe190271ff5b5ed46a3ee38cf67f28baaf8d783166340
+    shasum: 6bf04ad2a9fd499209bebf7f7f10e4f304851278ef151215a9dcb8f73486ff9e
+    build_date: 2024-10-28T08:37:07
+    src_url: https://github.com/qbittorrent/qBittorrent
+    web_url: https://www.qbittorrent.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.log
+    category: downloader,torrent
+    icon: https://pkg.ajam.dev/x86_64/qbittorrent.icon.png
+    extra_bins: ""
+  - name: ryujinx.AppImage
+    bin_id: org.ryujinx.Ryujinx
+    bin_name: ryujinx
+    description: A simple, experimental Nintendo Switch emulator
+    note: Officially Created AppImage<br>Check/Report @ https://github.com/ryujinx-mirror/ryujinx
+    version: r.49574a9
+    download_url: https://pkg.ajam.dev/x86_64/ryujinx.AppImage
+    size: 25.23 MB
+    bsum: 71e76d64f88974e6886d75789566b7e5f735103be8b2c62d2209df10c114651a
+    shasum: ccd92f4da54be41d2df3aadc46ac7c221d2c5fe5f480a7911f9f436b73b37285
+    build_date: 2024-10-28T08:37:47
+    src_url: https://github.com/ryujinx-mirror/ryujinx
+    web_url: https://github.com/ryujinx-mirror/ryujinx
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ryujinx.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/ryujinx.AppImage.log
+    category: emulator
+    icon: https://pkg.ajam.dev/x86_64/ryujinx.icon.png
+    extra_bins: ""
+  - name: signal-desktop.AppImage
+    bin_id: org.signal.Signal
+    bin_name: signal-desktop
+    description: A private messenger for Windows, macOS, and Linux
+    note: Community Created AppImage<br>Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage
+    version: 7.30.0
+    download_url: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage
+    size: 138.44 MB
+    bsum: a4db0eff4d8c0384a3bba81de3a3c68ad3631eab42f85b16e2de13cb4ed005ed
+    shasum: cee69212855c89a34dceecf3b4a818ae34addf9bfa5f1716476644af388b6f77
+    build_date: 2024-10-28T08:38:35
+    src_url: https://github.com/signalapp/Signal-Desktop
+    web_url: https://signal.org
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage.log
+    category: messenger,privacy
+    icon: https://pkg.ajam.dev/x86_64/signal-desktop.icon.png
+    extra_bins: ""
+  - name: steam.AppImage
+    bin_id: com.valvesoftware.Steam
+    bin_name: steam
+    description: A video game digital distribution service and storefront from Valve
+    note: Community Created AppImage based on Conty (ArchLinux)<br>Check/Report @ https://github.com/ivan-hc/Steam-appimage
+    version: 1.0.0.81
+    download_url: https://pkg.ajam.dev/x86_64/steam.AppImage
+    size: 355.59 MB
+    bsum: 9d17f7d191fe05f45018640ac9e09565bea9beedea1940d2420a8da763c6ad0c
+    shasum: dd49b1a43bc632ed9bcee9ab76f5a7c62a64d2e692331830e7bdb91223c6646d
+    build_date: 2024-10-28T08:39:09
+    src_url: https://github.com/ivan-hc/Steam-appimage
+    web_url: https://store.steampowered.com/about/
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.AppImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/steam.AppImage.log
+    category: gaming
+    icon: https://pkg.ajam.dev/x86_64/steam.icon.png
+    extra_bins: ""
+  - name: steam-cachyos.FlatImage
+    bin_id: com.valvesoftware.Steam
+    bin_name: steam
+    description: Open source web browser from Google
+    note: 'FlatImages: https://github.com/ruanformigoni/flatimage<br>More: https://l.ajam.dev/flatimages'
+    version: 1.0.0.81
+    download_url: https://pkg.ajam.dev/x86_64/steam-cachyos.FlatImage
+    size: 555.11 MB
+    bsum: e489b9d3daed6ac930cbc445a766b8a2658f659c7d288347b7c945a6d7e197f7
+    shasum: cdce7699daadb3d4c5e6c194051c4439d1b51cf7025d66894a421b13415d3451
+    build_date: 2024-10-28T08:43:53
+    src_url: https://github.com/ValveSoftware/steam-for-linux
+    web_url: https://store.steampowered.com/about/
+    build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.FlatImage.sh
+    build_log: https://pkg.ajam.dev/x86_64/steam.FlatImage.log
+    category: gaming
+    icon: https://pkg.ajam.dev/x86_64/steam.icon.png
     extra_bins: ""
