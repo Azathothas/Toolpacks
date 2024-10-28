@@ -377,7 +377,7 @@ jobs:
           META_URL="https://dl-cdn.alpinelinux.org/alpine/edge/releases/x86_64/latest-releases.yaml"
           FILE="$(curl -qfsSL 'https://dl-cdn.alpinelinux.org/alpine/edge/releases/x86_64/latest-releases.yaml' | yq '.[0].file')"
           VERSION="$(curl -qfsSL 'https://dl-cdn.alpinelinux.org/alpine/edge/releases/x86_64/latest-releases.yaml' | yq '.[0].version')" && export VERSION="${VERSION}"
-          DL_URL="https://dl-cdn.alpinelinux.org/alpine/edge/releases/$(uname -m)/${FILE}"
+          DL_URL="https://dl-cdn.alpinelinux.org/alpine/edge/releases/x86_64/${FILE}"
           aria2c "${DL_URL}" \
           --split="16" --max-connection-per-server="16" --min-split-size="1M" \
           --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
