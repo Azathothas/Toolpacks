@@ -170,7 +170,7 @@
 20:METADATA.AIO.yaml.xz:             7-zip archive data, version 0.4
 22:METADATA.AIO.yaml.zstd:           Zstandard compressed data (v0.8+), Dictionary ID: None
 29:age.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-33:aggligator.preview.png:           PNG image data, 467 x 482, 8-bit/color RGBA, non-interlaced
+33:aggligator.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 38:albafetch.preview.png:            PNG image data, 685 x 396, 8-bit/color RGBA, non-interlaced
 40:algernon.preview.png:             JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=6, xresolution=86, yresolution=94, resolutionunit=2, software=GIMP 2.10.14, datetime=2020:01:31 17:23:12], progressive, precision 8, 1280x640, components 3
 49:amass.preview.png:                PNG image data, 3000 x 1000, 8-bit/color RGB, non-interlaced
@@ -333,7 +333,7 @@
 973:resdns.preview-4.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 974:resdns.preview.png:               GIF image data, version 89a, 1920 x 1080
 978:resto.preview.png:                PNG image data, 1280 x 644, 8-bit/color RGBA, non-interlaced
-980:reviewdog.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+980:reviewdog.preview.png:            PNG image data, 927 x 461, 8-bit/color RGBA, non-interlaced
 983:revive.preview.png:               PNG image data, 1138 x 478, 8-bit/color RGBA, non-interlaced
 1009:runst.preview.png:                JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
 1011:ruri.preview.png:                 PNG image data, 1600 x 800, 8-bit/color RGBA, non-interlaced
@@ -377,10 +377,10 @@
 1192:tok.preview.png:                  GIF image data, version 89a, 1920 x 1080
 1198:traefik.preview.png:              PNG image data, 3840 x 1281, 8-bit/color RGBA, non-interlaced
 1202:trufflehog.preview.png:           PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1213:tut.preview.png:                  PNG image data, 941 x 453, 8-bit/color RGBA, non-interlaced
+1213:tut.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1215:txeh.preview.png:                 PNG image data, 900 x 348, 8-bit/color RGBA, non-interlaced
 1223:udpx.preview.png:                 PNG image data, 1280 x 720, 8-bit/color RGB, non-interlaced
-1238:v2raya.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1238:v2raya.preview.png:               PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 1245:vhs.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
 1247:viddy.preview.png:                PNG image data, 1467 x 1464, 8-bit/color RGBA, non-interlaced
 1258:vopono.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced

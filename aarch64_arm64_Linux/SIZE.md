@@ -776,11 +776,11 @@
  2.8M   ├── qemu-or1k-static
  2.8M   ├── arc
  2.8M   ├── qemu-nios2-static
+ 2.8M   ├── METADATA.AIO.yaml
  2.8M   ├── wireguard-go
  2.8M   ├── git-sizer
- 2.8M   ├── METADATA.AIO.yaml
- 2.8M   ├── smartdns
  2.8M   ├── METADATA.AIO.toml
+ 2.8M   ├── smartdns
  2.7M   ├── rust-parallel
  2.7M   ├── gs-netcat
  2.7M   ├── shfmt
@@ -1100,16 +1100,16 @@
  251K   ├── meli.preview.png
  243K   ├── lorien.preview.png
  240K   ├── rattler-build.preview.png
+ 240K   ├── METADATA.AIO.json.xz
+ 239K   ├── METADATA.AIO.json.zstd
  238K   ├── udpx.preview.png
- 237K   ├── METADATA.AIO.json.xz
- 237K   ├── METADATA.AIO.json.zstd
+ 238K   ├── METADATA.AIO.min.json.zstd
+ 237K   ├── METADATA.AIO.yaml.zstd
+ 237K   ├── METADATA.AIO.yaml.xz
+ 237K   ├── METADATA.AIO.toml.zstd
+ 236K   ├── METADATA.AIO.toml.xz
+ 236K   ├── METADATA.AIO.min.json.xz
  236K   ├── planor.preview.png
- 235K   ├── METADATA.AIO.yaml.zstd
- 235K   ├── METADATA.AIO.min.json.zstd
- 235K   ├── METADATA.AIO.yaml.xz
- 235K   ├── METADATA.AIO.toml.zstd
- 234K   ├── METADATA.AIO.toml.xz
- 234K   ├── METADATA.AIO.min.json.xz
  232K   ├── netexec.preview.png
  231K   ├── glow.preview.png
  220K   ├── ppsspp.preview.png
@@ -1223,6 +1223,7 @@
   85K   ├── kubo.preview.png
   83K   ├── yggdrasil.preview.png
   82K   ├── algernon.preview.png
+  81K   ├── reviewdog.preview.png
   81K   ├── albafetch.preview.png
   81K   ├── vtm.preview.png
   80K   ├── smartdns.preview.png
@@ -1236,6 +1237,7 @@
   69K   ├── rage.preview.png
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
+  67K   ├── tut.preview.png
   67K   ├── sn0int.preview.png
   67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
@@ -1251,7 +1253,6 @@
   63K   ├── jaeles.preview.png
   63K   ├── importenv
   62K   ├── z-tokens.preview.png
-  62K   ├── tut.preview.png
   62K   ├── libtree.preview.png
   61K   ├── zoxide.preview.png
   58K   ├── batcat.preview.png
@@ -1281,30 +1282,29 @@
   41K   ├── sshpass
   41K   ├── pipetty
   41K   ├── fzf.preview.png
+  41K   ├── aggligator.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
   38K   ├── ansi2html
   38K   ├── rclone.preview.png
   37K   ├── base.default.png
+  37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
   36K   ├── micro.preview.png
   35K   ├── puredns.preview.png
   35K   ├── broot.preview.png
-  33K   ├── reviewdog.preview.png
   33K   ├── fnm.preview.png
   31K   ├── nezha-install.sh
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
-  27K   ├── aggligator.preview.png
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
   26K   ├── ttyrec2ansi
   25K   ├── czkawka.preview.png
-  24K   ├── v2raya.preview.png
   24K   ├── goaccess.preview.png
   24K   ├── certstream-server-go.preview.png
   23K   ├── prettyping
