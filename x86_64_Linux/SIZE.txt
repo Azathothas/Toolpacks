@@ -742,12 +742,12 @@
  3.7M   ├── find-rs
  3.7M   ├── qemu-ppc-static
  3.7M   ├── spiped
- 3.7M   ├── METADATA.AIO.yaml
  3.7M   ├── tealdeer
  3.7M   ├── spipe
  3.7M   ├── viu
+ 3.7M   ├── METADATA.AIO.yaml
  3.7M   ├── deoptimizer
- 3.7M   ├── METADATA.AIO.toml
+ 3.6M   ├── METADATA.AIO.toml
  3.6M   ├── passdetective
  3.6M   ├── pelfd
  3.6M   ├── bandwhich
@@ -1124,20 +1124,21 @@
  305K   ├── gum.preview.png
  303K   ├── mdp
  292K   ├── linuxwave
- 287K   ├── METADATA.AIO.json.xz
  286K   ├── region_restriction_check.sh
- 285K   ├── METADATA.AIO.json.zstd
- 284K   ├── METADATA.AIO.yaml.xz
- 283K   ├── METADATA.AIO.min.json.zstd
- 282K   ├── METADATA.AIO.yaml.zstd
- 282K   ├── METADATA.AIO.toml.zstd
- 282K   ├── METADATA.AIO.toml.xz
+ 285K   ├── METADATA.AIO.json.xz
+ 283K   ├── METADATA.AIO.json.zstd
  282K   ├── doas
- 282K   ├── METADATA.AIO.min.json.xz
+ 282K   ├── METADATA.AIO.yaml.xz
+ 281K   ├── METADATA.AIO.min.json.zstd
+ 280K   ├── METADATA.AIO.yaml.zstd
+ 280K   ├── METADATA.AIO.toml.zstd
+ 280K   ├── METADATA.AIO.toml.xz
+ 280K   ├── METADATA.AIO.min.json.xz
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
  270K   ├── pigz
  269K   ├── vhs.preview.png
+ 269K   ├── jc.preview.png
  266K   ├── mawk
  266K   ├── sftp-server
  261K   ├── flawz.preview.png
@@ -1190,7 +1191,6 @@
  184K   ├── ocat
  184K   ├── haylxon.preview.png
  183K   ├── ping
- 182K   ├── jless.preview.png
  182K   ├── hcxdumptool
  177K   ├── fq.preview.png
  174K   ├── runimage-run
@@ -1260,7 +1260,6 @@
  102K   ├── arping
   99K   ├── gitpod-cli.preview.png
   98K   ├── fusermount3
-  97K   ├── termshark.preview.png
   97K   ├── listmonk.preview.png
   94K   ├── imhex.preview.png
   94K   ├── darkhttpd
@@ -1301,6 +1300,7 @@
   68K   ├── age.preview.png
   68K   ├── zapper
   67K   ├── sn0int.preview.png
+  67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
   67K   ├── cifsiostat
   66K   ├── binfetch
@@ -1318,7 +1318,6 @@
   57K   ├── joker
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
-  55K   ├── pfetch-rs.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── ptyspawn
@@ -1328,10 +1327,12 @@
   51K   ├── redguard.preview.png
   50K   ├── vopono.preview.png
   50K   ├── noir.preview.png
+  50K   ├── jless.preview.png
   50K   ├── dvc.preview.png
   50K   ├── hcxeiutool
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
+  48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
   46K   ├── hexyl.preview.png
@@ -1342,12 +1343,12 @@
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
   40K   ├── jsmug
+  39K   ├── termshark.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
   38K   ├── rclone.preview.png
   37K   ├── base.default.png
-  37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
   36K   ├── micro.preview.png
@@ -1356,7 +1357,6 @@
   35K   ├── puredns.preview.png
   35K   ├── pipetty
   35K   ├── broot.preview.png
-  33K   ├── jc.preview.png
   33K   ├── fnm.preview.png
   33K   ├── ansi2html
   31K   ├── nezha-install.sh
@@ -1367,19 +1367,17 @@
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
-  25K   ├── czkawka.preview.png
+  24K   ├── v2raya.preview.png
   24K   ├── goaccess.preview.png
   24K   ├── certstream-server-go.preview.png
   23K   ├── prettyping
   23K   ├── ani-cli
   23K   ├── try
   21K   ├── txeh.preview.png
-  21K   ├── ruri.preview.png
   20K   ├── findomain.preview.png
   19K   ├── pelf
   19K   ├── bin.default.png
   19K   ├── bandwhich.preview.png
-  19K   ├── yt-dlp.preview.png
   19K   ├── ttyrec2ansi
   19K   ├── serverstatus-status.sh
   18K   ├── gitui.preview.png
@@ -1389,11 +1387,13 @@
   16K   ├── feroxbuster.preview.png
   16K   ├── dotenv-linter.preview.png
   16K   ├── cut-cdn.preview.png
+  15K   ├── czkawka.preview.png
   15K   ├── dockerd-rootless-setuptool.sh
   15K   ├── bench.sh
   14K   ├── croc.preview.png
   14K   ├── tldr
   13K   ├── wg-quick
+  11K   ├── yt-dlp.preview.png
   11K   ├── lsix
   11K   ├── tailspin.preview.png
   11K   ├── nicotine-plus.preview.png
