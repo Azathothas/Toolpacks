@@ -239,7 +239,7 @@
   43K   ├── ooniprobe.preview.png
   42K   ├── jq.preview.png
   42K   ├── miniserve.preview.png
-  40K   ├── pkg.default.png
+  39K   ├── pkg.default.png
   38K   ├── cfspeedtest.preview.png
   37K   ├── base.default.png
   37K   ├── hyperfine.preview.png
@@ -248,7 +248,5 @@
   26K   ├── 7z.preview.png
   19K   ├── bin.default.png
   14K   ├── croc.preview.png
-  11K   ├── yt-dlp.preview.png
-   0B   ├── stiG2Kb7
-   0B   └── stP1kAlM
+  11K   └── yt-dlp.preview.png
 ```
