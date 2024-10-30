@@ -26,9 +26,9 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 54878
+- **Stars:** 54887
 - **Version:** v0.2.68
-- **Updated:** 2024-10-29T02:35:00Z
+- **Updated:** 2024-10-29T22:08:24Z
 - **Size:** 17.54 MB
 - **SHA256SUM:** bfd2485ffa000473e830ffdf3b81c7f04c0d3b9c78d1ce6b775db8af17110c31
 - **B3SUM:** 1f8c91d1872c186ba89d338b2217823cb7119632edc2b90cdd4f3690f0fe53ab
@@ -66,12 +66,12 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 17209
+- **Stars:** 17214
 - **Version:** v1.2.0
 - **Updated:** 2024-09-26T11:09:18Z
 - **Size:** 3.55 MB
-- **SHA256SUM:** ee29b275256a61a445461278c53846928b556ba87d27dabaa730b9243e7657c6
-- **B3SUM:** b5777933ce570652a28f3877440724aa8909a412009a684f4e4b561c075fef13
+- **SHA256SUM:** 9f2b823065c7287929196b5dba59f416fc3373b2f9249cfbb084842efd2af429
+- **B3SUM:** 18f7cd3563e216985db676a21fa6b38b4287c90f2c055eacbfae9b77afb49fa3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/age
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -86,12 +86,12 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 17209
+- **Stars:** 17214
 - **Version:** v1.2.0
 - **Updated:** 2024-09-26T11:09:18Z
 - **Size:** 2.01 MB
-- **SHA256SUM:** 583f193b779b26a7cfd601cbace42c71c57351a25bc13cc09ba72100e5e0a324
-- **B3SUM:** 7ff7585bd1ab3693350e032beeebdaf50d946c3eabe0c911006503766e06fbe1
+- **SHA256SUM:** c642ada6ddbfb4c843e170f50e8cc409e3f00a49b54cebf4a0535b02288516db
+- **B3SUM:** 5806e20261256e9839c04b9f74c05c89062455ca9610df31eca4ff83f4a92c9b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/age-keygen
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -106,7 +106,7 @@
 - **Author:** asciinema
 - **WebURL:** [https://github.com/asciinema/agg](https://github.com/asciinema/agg)
 - **Repository:** [https://github.com/asciinema/agg](https://github.com/asciinema/agg)
-- **Stars:** 1197
+- **Stars:** 1198
 - **Version:** v1.5.0
 - **Updated:** 2024-10-23T16:13:04Z
 - **Size:** 4.84 MB
@@ -129,9 +129,9 @@
 - **Stars:** 139
 - **Version:** util-v0.15.0
 - **Updated:** 2024-07-14T15:54:58Z
-- **Size:** 8.41 MB
-- **SHA256SUM:** cb4e3a841cb83c52f5dc67ebd25c37b7430b02924f1a23145d0bbdca81110cab
-- **B3SUM:** a92a5894211e97939db5ba6b264e1b2efa3434895fe08114eeb84165ccf4d3bf
+- **Size:** 8.39 MB
+- **SHA256SUM:** 742db55310e4d0c2d34b27ca5cbfa972b750da53b6f26aa06e5940f1ff542950
+- **B3SUM:** f9a90418ac27567deee2d3bfb91439786a205c139de5dcabcd3030b725f4575a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/agg-speed
 - **Language:** Rust
 - **License:** Other
@@ -150,8 +150,8 @@
 - **Version:** util-v0.15.0
 - **Updated:** 2024-07-14T15:54:58Z
 - **Size:** 4.42 MB
-- **SHA256SUM:** 8aa3c6a2925eeaa31531644ed483782fbd36f7148b185f5d60ab48be8cce726e
-- **B3SUM:** f8a6fb1501200027188e3248eaa079d655878179481af83bfbea3e3c72800ed1
+- **SHA256SUM:** 7967768a63bbccd3a8724f1e761679436b340ed779fb1de08d74619bda0a8790
+- **B3SUM:** 37b859b89b30b104e632b3c3c12cd991de42e7bbda1b3e7861af5a5c39db3af1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/agg-tunnel
 - **Language:** Rust
 - **License:** Other
@@ -170,8 +170,8 @@
 - **Version:** v0.19.4
 - **Updated:** 2024-09-03T21:01:48Z
 - **Size:** 3.78 MB
-- **SHA256SUM:** 041ab358992e3bfcc806e814e175e2a44bf36d26e76c839c2bf26cd52c525ed5
-- **B3SUM:** f7e40934943978ebee5f6e2468cd20ab08a1d9581fa7557498bc8b35341ecc87
+- **SHA256SUM:** deb08f0fde8a41a87e412acd9588ab606194fcaa0db329edbb273e1058e3d6d9
+- **B3SUM:** 0bcaddf643c3c4dccd798abd05c142c7c4a226e7219423718a524c63c3ac4ca0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/agrind
 - **Language:** Rust
 - **License:** MIT License
@@ -190,8 +190,8 @@
 - **Version:** att
 - **Updated:** 2022-09-13T20:15:47Z
 - **Size:** 5.24 MB
-- **SHA256SUM:** e95fa4239f96f81a548ec68a4f68802b38ff090d45b85e972e3a0852220beb3a
-- **B3SUM:** 3ddadaaf85fda37b0186078887f0448bbeb0ac12f2bbd45c1ea8f1bd7a7a6f95
+- **SHA256SUM:** b1af780de81ab71274a79b366a02d69a92f51d73e5e79cb000064d29f1345f7c
+- **B3SUM:** 40a37274352bc1a52fab87fca5981048e2b2961effa1e0124377a5917e3d2f29
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/airixss
 - **Language:** Go
 - **License:** MIT License
@@ -208,7 +208,7 @@
 - **Repository:** [https://github.com/projectdiscovery/aix](https://github.com/projectdiscovery/aix)
 - **Stars:** 262
 - **Version:** v0.0.5
-- **Updated:** 2024-10-28T17:55:39Z
+- **Updated:** 2024-10-29T17:23:37Z
 - **Size:** 30.91 MB
 - **SHA256SUM:** ce7edeecb58a55bd6139972d7788ce584d5795b51cd5edaf52c1958e7b75a41f
 - **B3SUM:** e7d51f8de268663fed8ba0aff5ceddd59a55e6fb476531f95f5570d7c20c8c00
@@ -266,7 +266,7 @@
 - **Author:** AlistGo
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 43325
+- **Stars:** 43339
 - **Version:** v3.38.0
 - **Updated:** 2024-10-20T16:06:15Z
 - **Size:** 79.54 MB
@@ -290,8 +290,8 @@
 - **Version:** v1.0.0
 - **Updated:** 2024-06-04T16:27:38Z
 - **Size:** 6.43 MB
-- **SHA256SUM:** 543890f1ab5cefee0374c0da5100955607ce0aa595ca8b73c267a155d71fa22f
-- **B3SUM:** dd883180a3b63e3f50866971a4b7f06ee9c4bf5765d3a18ac2e5254e5ae0b0ea
+- **SHA256SUM:** 3d3069d5daf1b7d44b5b31cd9908144b507a09c4c180707652e73d1771a072d8
+- **B3SUM:** b066352c1b5145d6ebc009ad25a8c546bdfcdd6c8bc33a2bdb5a8a5c58211459
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/allxfr
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -310,8 +310,8 @@
 - **Version:** 
 - **Updated:** 2024-04-26T12:21:58Z
 - **Size:** 47.19 MB
-- **SHA256SUM:** 82e0c1600e184989fa5f4166af5aa57bab74e33e9c38811bfb545bc218e0e435
-- **B3SUM:** 7406711e94e6a2ccec33415e58e4492a90fef093442705700033ef938ef635f3
+- **SHA256SUM:** 04136a72fc801bc0db00583749d831930075f85545b8d43cf223f97bfa006c81
+- **B3SUM:** 19159dfb8cd8e969541a81a7a74a5195871f58f627adb39b4c2144b012033fa6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/almalinux-minimal.no_strip
 - **Language:** Shell
 - **License:** MIT License
@@ -330,8 +330,8 @@
 - **Version:** 
 - **Updated:** 2024-04-26T12:21:58Z
 - **Size:** 78.04 MB
-- **SHA256SUM:** a0a1f4de32ea0a0e0991735b9e0ae7466c8053d6da3e73d1334f194522109633
-- **B3SUM:** 24d5cb6a888fcb9a78a379cc244ae493cc1eb14984bc8a680c618f166ec6f30e
+- **SHA256SUM:** b17a284a0302a68f71eb8b9b19a34ee3acde1179dc06494aa3ef4a84926c7fbd
+- **B3SUM:** 7bba26e2a33ab533ba56bb4750c2d4e0f5e70dd5bbc3f412b8a119be841f1477
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/almalinux.no_strip
 - **Language:** Shell
 - **License:** MIT License
@@ -346,12 +346,12 @@
 - **Author:** alpinelinux
 - **WebURL:** [https://github.com/alpinelinux/docker-alpine](https://github.com/alpinelinux/docker-alpine)
 - **Repository:** [https://github.com/alpinelinux/docker-alpine](https://github.com/alpinelinux/docker-alpine)
-- **Stars:** 1091
+- **Stars:** 1090
 - **Version:** 
 - **Updated:** 2024-09-23T20:06:46Z
 - **Size:** 21.58 MB
-- **SHA256SUM:** deb16da2135157d6c64ea73cdb20e55442d74918ce57f18377f560c40e3a19c4
-- **B3SUM:** 5eda726688ba8d41963de0253c9642b298cd91388bf4ea6810d5c04005775f90
+- **SHA256SUM:** ad80198e402ae265a407a83ef838056b5c6eea168510158c82fea1fd5433611e
+- **B3SUM:** 873df99bd0ef569f08d50af243c723c17c38a325ab4b7b24758d9d92367e729d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/alpine.no_strip
 - **Language:** Lua
 - **License:** MIT License
@@ -386,12 +386,12 @@
 - **Author:** owasp-amass
 - **WebURL:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
 - **Repository:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
-- **Stars:** 11990
+- **Stars:** 11992
 - **Version:** v4.2.0
 - **Updated:** 2024-10-19T21:31:23Z
 - **Size:** 36.18 MB
-- **SHA256SUM:** 09bea4813e090eb542bbd88307b2484ce69521319eff12e119dbc45c7ee02458
-- **B3SUM:** 5a4eadf6a44c535736d2e227cab1bd68deb8cefde19651d6b43ecbb80e9d6d6c
+- **SHA256SUM:** 345b12d2fd5dcc93993cab1be76d82d4c94f1ef6313f5479b9277dea1fa5d701
+- **B3SUM:** 1b4a873f7c56ecebbde22a77e5cbe936a3d4346916b3f3a6b9247838b82c9da6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/amass
 - **Language:** Go
 - **License:** Other
@@ -410,8 +410,8 @@
 - **Version:** 
 - **Updated:** 2024-10-19T00:03:11Z
 - **Size:** 63.34 MB
-- **SHA256SUM:** 826c9a02fe3152dd42f450be423ff4a53524dfed2a1d21e50e7e321981ddb6f1
-- **B3SUM:** bd89a2e63e4a1f80a0dbc7c94a7cacfab2d9557b97a778631c567bae1278f574
+- **SHA256SUM:** 71e050244685e9e45020e56a8ee4572048ffacf584bd7d26766f4ab38a6da6f3
+- **B3SUM:** e9b762870bc5b71381b5e2d1d21f461bef9120a322534aba95062b476581bda7
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/amazonlinux.no_strip
 - **Language:** 
 - **License:** GNU General Public License v2.0
@@ -428,10 +428,10 @@
 - **Repository:** [https://github.com/jmacdonald/amp](https://github.com/jmacdonald/amp)
 - **Stars:** 3721
 - **Version:** 0.7.1
-- **Updated:** 2024-10-29T02:30:34Z
-- **Size:** 5.87 MB
-- **SHA256SUM:** 9a2b2fef8d118da2fa0cd63d32cbb80f4867c2aa0799460ce01dfed9c0a792d7
-- **B3SUM:** dcacbdec1163eb491ded981d39fe6b6ebcf2771b0ff196ecb57b163e56569654
+- **Updated:** 2024-10-30T01:18:25Z
+- **Size:** 5.89 MB
+- **SHA256SUM:** 780c2439db74cf4f1bcd9a296fc38d22dc31ccb1254243fe1210b6e0f55c5c58
+- **B3SUM:** eed7e2534a76fba565bd49a37b740a4e39c69128f9ae20c3725e762f06482546
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/amp
 - **Language:** Rust
 - **License:** Other
@@ -470,8 +470,8 @@
 - **Version:** 
 - **Updated:** 2022-06-03T14:00:13Z
 - **Size:** 5.24 MB
-- **SHA256SUM:** 4e4627eab442e1c21993c00f216661012dde58304f62ce58085d094beb236bd3
-- **B3SUM:** e789a18767d4ae754a898ce54474e7dedc4715f2f948135cdd51917ac36f0703
+- **SHA256SUM:** a852c52a92b97218f2251cc668c578deabcbf68b1def0db0a121bbaa041fb8f9
+- **B3SUM:** 11a8b026c9b82951123eb528b4dbccd61111db149b1598cb321cf63a1e1a0814
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/analyticsrelationships
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -489,9 +489,9 @@
 - **Stars:** 12
 - **Version:** v0.1.0
 - **Updated:** 2024-05-08T12:29:15Z
-- **Size:** 762.19 KB
-- **SHA256SUM:** 16ea2bb6ea3e9de99da0ba949a4e765f9ded05dae66b71dd510997cac1bd668a
-- **B3SUM:** e2142b3509f0f371c3849237a0acc1bc1bde5a6971cb37f5c7e4247961a7a199
+- **Size:** 762.21 KB
+- **SHA256SUM:** 854a2e7efa5d72a65de75e0f222ac5b06c47e0a372102521cb9af904ee8543d2
+- **B3SUM:** 7d4a85d38bc0a8210af8eb0c20cee245a14bde95ee9cc9d0c2bde1fffc3f5343
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/anew-rs
 - **Language:** Rust
 - **License:** MIT License
@@ -510,8 +510,8 @@
 - **Version:** v0.1.1
 - **Updated:** 2024-01-12T01:06:36Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 236c3491a3a4302873a7c9606d657ff7cec7508ad8557098cacb5a19afa44189
-- **B3SUM:** efac02a48f4f9e3cd78e1b9f0b2831686a427107fcb7d8828342bdad53f88ef6
+- **SHA256SUM:** 84d69013059f6d9e8d1e8d20e0fc2bdf49c0c2558c8eeb2d71b9795facb8a7c6
+- **B3SUM:** 8d522eb9ab22f2e91493f70a908d1768e120dadcf00a0f5d875736cd94edd0ad
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/anew
 - **Language:** Go
 - **License:** MIT License
@@ -546,7 +546,7 @@
 - **Author:** pystardust
 - **WebURL:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
 - **Repository:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
-- **Stars:** 7977
+- **Stars:** 7978
 - **Version:** v4.9
 - **Updated:** 2024-10-25T16:56:10Z
 - **Size:** 23.7 KB
@@ -606,7 +606,7 @@
 - **Author:** EFForg
 - **WebURL:** [https://github.com/EFForg/apkeep](https://github.com/EFForg/apkeep)
 - **Repository:** [https://github.com/EFForg/apkeep](https://github.com/EFForg/apkeep)
-- **Stars:** 834
+- **Stars:** 835
 - **Version:** 0.17.0
 - **Updated:** 2024-10-17T23:55:54Z
 - **Size:** 10.78 MB
@@ -669,9 +669,9 @@
 - **Stars:** 4
 - **Version:** 
 - **Updated:** 2024-10-27T00:33:03Z
-- **Size:** 2.96 MB
-- **SHA256SUM:** e898ae848f3ee471647d1b9b97268e3b8da76c16b891a461018733e8f8902c90
-- **B3SUM:** 238d683d560f45eadc6ba1cdc77dbc0c283b4c8fc24c6b7dc14fc71bf79e77dc
+- **Size:** 2.97 MB
+- **SHA256SUM:** 73ea157d60c3614956c90e205033dfc04640416cd259a4969ae844469060c493
+- **B3SUM:** b1f3dc4738cd7f53ff09f4a9b15271f5395cd303d86760dfb7c4cf85ffc61a30
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/arc
 - **Language:** Rust
 - **License:** MIT License
@@ -690,8 +690,8 @@
 - **Version:** v4.15.0.0
 - **Updated:** 2024-10-26T10:55:53Z
 - **Size:** 9.31 MB
-- **SHA256SUM:** a060c8afeb1aad6c5959845c543287b064825b29ee0e087b3b7beea8b639f436
-- **B3SUM:** 1f7b732ba9dbf87bcc5cd30ccc40e7044011095d4fc05ba7c5610b2075197d58
+- **SHA256SUM:** 36bb4d4990de0366edb376655f588a6bedcf55c382b2e151688abfd87a64e98a
+- **B3SUM:** 5222de5ccf6f2e0b6699acf60a07bd39f47386bac5ba342ca967162cb0e1a490
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/archey
 - **Language:** Python
 - **License:** GNU General Public License v3.0
@@ -708,10 +708,10 @@
 - **Repository:** [https://github.com/Azathothas/docker-archlinux](https://github.com/Azathothas/docker-archlinux)
 - **Stars:** 1
 - **Version:** 
-- **Updated:** 2024-10-29T12:04:32Z
-- **Size:** 193 MB
-- **SHA256SUM:** 0da599fcba447ed826015fd950879e39b30e96d287abc3db46f9714a3c207167
-- **B3SUM:** e603db34f4915119479db5249adea3407d6f0bbf43f265c2cfeaf70265eabae3
+- **Updated:** 2024-10-30T00:11:29Z
+- **Size:** 193.09 MB
+- **SHA256SUM:** 91da353bce07e7f815f9dfc0e4c600c405b21d537061bd11edb693dfa6fd892a
+- **B3SUM:** eee8b8c6575433c01a8fa8403dc6bea566585eeb04bb8808342674d5e4453007
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/archlinux.no_strip
 - **Language:** Dockerfile
 - **License:** MIT License
@@ -750,8 +750,8 @@
 - **Version:** v1.3.0
 - **Updated:** 2024-10-07T13:18:30Z
 - **Size:** 6.57 MB
-- **SHA256SUM:** 4c2468705eccacd27e740bd2169e48ef344df17b0c2f13fe06afb86d02534da4
-- **B3SUM:** 7338187baa6cd0283125ad922676269425de25a43a52fb7444da827e1169f7bc
+- **SHA256SUM:** 2dcc788b376b5e60e3383e233d2d646325419f37f7cf24b8645b911207b56605
+- **B3SUM:** 903241eb72f06fea57c66271fa03244ccdf995a73cded0a24d632113c8094f58
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/aretext
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -766,12 +766,12 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 35625
+- **Stars:** 35633
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
-- **Size:** 11.97 MB
-- **SHA256SUM:** 1b228936eeb90c26fe5cb599b466bbe1af5a584a94f58fa7f37b2da90a9f1711
-- **B3SUM:** 12eaac362aa5de174fddfa948c71c3dfb9855e73a24c35d23e2957fbbf61b3f0
+- **Size:** 12.13 MB
+- **SHA256SUM:** 365d323ec1491790c45585338da2c3d8971af53438d34b8995c85fb5f5b0e7fc
+- **B3SUM:** 8d3d30b1018321a8bba217f6d9a4550bd267767a5815dad0b2c99a34bcd4b2fa
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/aria2
 - **Language:** C++
 - **License:** GNU General Public License v2.0
@@ -786,12 +786,12 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 35625
+- **Stars:** 35633
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
-- **Size:** 11.97 MB
-- **SHA256SUM:** 1b228936eeb90c26fe5cb599b466bbe1af5a584a94f58fa7f37b2da90a9f1711
-- **B3SUM:** 12eaac362aa5de174fddfa948c71c3dfb9855e73a24c35d23e2957fbbf61b3f0
+- **Size:** 12.13 MB
+- **SHA256SUM:** 365d323ec1491790c45585338da2c3d8971af53438d34b8995c85fb5f5b0e7fc
+- **B3SUM:** 8d3d30b1018321a8bba217f6d9a4550bd267767a5815dad0b2c99a34bcd4b2fa
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/aria2c
 - **Language:** C++
 - **License:** GNU General Public License v2.0
@@ -830,8 +830,8 @@
 - **Version:** v1.1.1
 - **Updated:** 2024-10-28T16:37:52Z
 - **Size:** 25.81 MB
-- **SHA256SUM:** 91e214e4a93cfb3461133d4589c22f91d63680a3324c55adb889a5529f522159
-- **B3SUM:** 3d51941489bf880b5a255ef73c56862e4b32e7767754811bd903112beb1c3b2d
+- **SHA256SUM:** 68a48c5acd590dce2fadacf8843d81abebf816f16734313b5791bcf60c9c802d
+- **B3SUM:** 66de87019c8b5548e77d4ffe673dc63d2328de3ef81dce82c6c24fff64b10440
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/asnmap
 - **Language:** Go
 - **License:** MIT License
@@ -846,12 +846,12 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
 - **Repository:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
-- **Stars:** 3017
+- **Stars:** 3018
 - **Version:** v0.1.1
 - **Updated:** 2024-06-07T17:08:47Z
 - **Size:** 5.19 MB
-- **SHA256SUM:** 80ced15a73b6328c1504fad0d6839ebfb712a5a916ee583e3d7b1c55a2dbe5c3
-- **B3SUM:** 94ae17021b6232aeae09231a21450c644deb13b083d8ad6b363afc3c94ad21bd
+- **SHA256SUM:** cbe7d4dc86d8a565d283f27a0721fa3d40563f628736cf721cb650deba582044
+- **B3SUM:** d40bfe62c3d8acb8373317c37b5c3ff25648ab8717714036fb55419b739fc974
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/assetfinder
 - **Language:** Go
 - **License:** MIT License
@@ -870,8 +870,8 @@
 - **Version:** v2.16.0
 - **Updated:** 2024-10-22T14:15:34Z
 - **Size:** 8.57 MB
-- **SHA256SUM:** 93fa2312e35c6dc8d6357fee48eb08e9771cfcf1c048ec4a7956705ce12c0d03
-- **B3SUM:** f75670984500fbc55bc6f04954e03290eddf6d67da4c7dd415b21388d118e725
+- **SHA256SUM:** affe6ad75a4ec7adbd4ba5d679a37018a16259cbe767827ebe8474b766144078
+- **B3SUM:** 0eb1ea6a66ee599db50c6f9246ea7e18f5d0253f1e0e568399dfd73a72b66526
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/assh
 - **Language:** Go
 - **License:** MIT License
@@ -886,12 +886,12 @@
 - **Author:** atuinsh
 - **WebURL:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
 - **Repository:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
-- **Stars:** 20679
+- **Stars:** 20684
 - **Version:** v18.3.0
 - **Updated:** 2024-10-22T23:58:26Z
 - **Size:** 18.24 MB
-- **SHA256SUM:** 465c3ccf1502d7297d44c957717997127ee6478928f7f0d20402d79fdd2d2afc
-- **B3SUM:** dda328060cd4947226679ac80f53f2591a7b9ea4acec33f467ec51c10911f293
+- **SHA256SUM:** d03764dda0c7b62419913583a87673ffeb2611a1e538b970a8eaa8841a87c6b0
+- **B3SUM:** 44414f77b66cf1d0b99342aaeba2b3b55798ee908a31bd1d48bf3a089c99e5dc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/atuin
 - **Language:** Rust
 - **License:** MIT License
@@ -910,8 +910,8 @@
 - **Version:** 20240728
 - **Updated:** 2024-08-20T06:14:32Z
 - **Size:** 800.47 KB
-- **SHA256SUM:** cf04f716c5f16b0801821daa5f1bb9e616984d66814f6fb78cb656ddec12dc2d
-- **B3SUM:** 7dc45c612f518fc56226422c34a2e1e4a1e232ea177d6e4adb5c11b5dff7c042
+- **SHA256SUM:** 2f18e76aa9bae102e08799468d1a7d802d57f23f19028da6ac64670d6406133b
+- **B3SUM:** 0fc128acb3575e98cead44fc18028fd7a08dbfbdede859a8b73a4b357d6a91c6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/awk
 - **Language:** C
 - **License:** Other
@@ -929,9 +929,9 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 133.78 MB
-- **SHA256SUM:** ca63a5dc1ae766c1e56f9fbb899f3557d0485ab37a27f9795e9d3d4d1163fb52
-- **B3SUM:** 04ec65413fd8ed9ba80d3808e96a1cf9c211615f2fbc87fce80de7f6cba4136f
+- **Size:** 133.76 MB
+- **SHA256SUM:** 2c0236dcc0ef2314d8dc3fddca21841a50704ad9a3e6948d694722a95730cb3f
+- **B3SUM:** 07d2feca7c3d9e7b365be9fecb0497fc2f69b880d732cddd29dafb4b9a233359
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/aws-cli.no_strip
 - **Language:** 
 - **License:** 
@@ -966,7 +966,7 @@
 - **Author:** oxidecomputer
 - **WebURL:** [https://github.com/oxidecomputer/aws-wire-lengths](https://github.com/oxidecomputer/aws-wire-lengths)
 - **Repository:** [https://github.com/oxidecomputer/aws-wire-lengths](https://github.com/oxidecomputer/aws-wire-lengths)
-- **Stars:** 23
+- **Stars:** 24
 - **Version:** 
 - **Updated:** 2024-08-28T23:40:23Z
 - **Size:** 12.56 MB
@@ -986,7 +986,7 @@
 - **Author:** axel-download-accelerator
 - **WebURL:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
 - **Repository:** [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
-- **Stars:** 2994
+- **Stars:** 2995
 - **Version:** v2.17.14
 - **Updated:** 2024-08-26T15:08:45Z
 - **Size:** 4.15 MB
@@ -1006,12 +1006,12 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 5103
+- **Stars:** 5104
 - **Version:** 1.5.4
 - **Updated:** 2024-10-08T12:05:59Z
 - **Size:** 924.21 KB
-- **SHA256SUM:** 2cc566f1ab7db96fe1ea122af0f19b204639ce2d4e6e0d6c634a9827059067b6
-- **B3SUM:** b13b10124a4f25f9a814047cdf058a354b8e6a3f83b1de7400e9441429a9aa15
+- **SHA256SUM:** f4c83540e433455a8eaa067e97bf4ca29e19153de205d64a0c13172de1fc5518
+- **B3SUM:** 79b8c6d22b2e0f9af8d8b85a2ecb5c0901f95b145eeb1d600113506d6d24f566
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/b3sum
 - **Language:** Assembly
 - **License:** Apache License 2.0
@@ -1026,7 +1026,7 @@
 - **Author:** imsnif
 - **WebURL:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
 - **Repository:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
-- **Stars:** 10051
+- **Stars:** 10053
 - **Version:** v0.23.1
 - **Updated:** 2024-10-17T06:16:39Z
 - **Size:** 2.66 MB
@@ -1046,12 +1046,12 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 49387
+- **Stars:** 49397
 - **Version:** v0.24.0
 - **Updated:** 2024-10-25T07:17:52Z
 - **Size:** 5.5 MB
-- **SHA256SUM:** e6950c3c4e3c3fe1b364a5dc9f0e90b4bb9f5d63977e3962abc1ad6f9a2d32e7
-- **B3SUM:** e0a8b4c31813c2ae71ec9eea03febe11b7d237134f84b74a2752732882da518e
+- **SHA256SUM:** 5a1e369d87fbfbc8ecb0e104d14d3ebc1dfe2e28d98a8965c59f49c744e1284a
+- **B3SUM:** f9be062b49151835da7bebc1c90ebbf19bc11cefdba2edd02c30002f9c435205
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bat
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -1066,12 +1066,12 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 49387
+- **Stars:** 49397
 - **Version:** v0.24.0
 - **Updated:** 2024-10-25T07:17:52Z
 - **Size:** 5.5 MB
-- **SHA256SUM:** e6950c3c4e3c3fe1b364a5dc9f0e90b4bb9f5d63977e3962abc1ad6f9a2d32e7
-- **B3SUM:** e0a8b4c31813c2ae71ec9eea03febe11b7d237134f84b74a2752732882da518e
+- **SHA256SUM:** 5a1e369d87fbfbc8ecb0e104d14d3ebc1dfe2e28d98a8965c59f49c744e1284a
+- **B3SUM:** f9be062b49151835da7bebc1c90ebbf19bc11cefdba2edd02c30002f9c435205
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/batcat
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -1106,12 +1106,12 @@
 - **Author:** Bearer
 - **WebURL:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
 - **Repository:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
-- **Stars:** 1991
+- **Stars:** 1992
 - **Version:** v1.46.4
 - **Updated:** 2024-10-28T02:39:00Z
 - **Size:** 50.21 MB
-- **SHA256SUM:** 92c4652ec3bb2edc80478450929dfa5e0f4423afa802e3b944425e305c559544
-- **B3SUM:** 82bfb4344250916b1bd7ac27eb23c75146fd4f6d8604ab5db624ea3ab00838f3
+- **SHA256SUM:** 313d8614a9f9d22c2fe7b2eb7af6be3f37ee804da6103ae5d49a09f191657cf2
+- **B3SUM:** 80efccfb0319b83361df701bfc0c004fe35a8c89515aa53046981c6206d0e68b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bearer
 - **Language:** Go
 - **License:** Other
@@ -1166,12 +1166,12 @@
 - **Author:** berty
 - **WebURL:** [https://github.com/berty/berty](https://github.com/berty/berty)
 - **Repository:** [https://github.com/berty/berty](https://github.com/berty/berty)
-- **Stars:** 7608
+- **Stars:** 7610
 - **Version:** v2.470.5
 - **Updated:** 2024-10-29T13:18:34Z
 - **Size:** 80.81 MB
-- **SHA256SUM:** 2c3687a4ce32211a89caf216ac5497169e65beb3d59a994e930f36e8290fefe7
-- **B3SUM:** 8b637bc0dba7dd865375d0833c548a30c4716c77a0f1e05fd1f8792bc6d820f8
+- **SHA256SUM:** e4e12783bd9e93dbd06779bbec2be0a34bfae848db1ddede57deabcb10de6376
+- **B3SUM:** 89863984fe7c241293302aedd076383ef8a4022332dd754111d419f0bb48c5c9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/berty
 - **Language:** Go
 - **License:** Other
@@ -1310,8 +1310,8 @@
 - **Version:** v0.3.2
 - **Updated:** 2024-05-05T18:43:00Z
 - **Size:** 8.46 MB
-- **SHA256SUM:** 6d8551369a2a96033b7dd412cbf5731ae033d5e578fa707518cff71ad58c9020
-- **B3SUM:** 26ccb5168a2ae1a1d9b626b11d54d2aff021a4414a08fd3a668b756deed2b694
+- **SHA256SUM:** dac6326f52294a17a3f8737c3bc5b5b4bd8e165eb3fb988f27cbbe5d94b57656
+- **B3SUM:** 66657ab96a6290a4f3eb32308b84fe46a1461f81c38b3fc753771b3a1c80c996
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/binocle
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -1346,12 +1346,12 @@
 - **Author:** blevesearch
 - **WebURL:** [https://github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
 - **Repository:** [https://github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
-- **Stars:** 10068
+- **Stars:** 10069
 - **Version:** v2.4.2
 - **Updated:** 2024-10-28T16:45:22Z
 - **Size:** 15.4 MB
-- **SHA256SUM:** d0b36855e359e6b8e91cd3c826572b785d80a6d1a5a9cf32f356c7f401b32f14
-- **B3SUM:** 8976c2d09e9490ef8cae77082d535f4aa88802a3e5f473ed0c01065cfa83c1c3
+- **SHA256SUM:** 003f5acaa1bc15057795e717374e642f5be101cbca6a488fcb970d49657ebb10
+- **B3SUM:** 17350bf2dd34f64f27feb09f2ba9a2409c3c446a593772e0cc978159cf69ffbd
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bleve
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -1366,7 +1366,7 @@
 - **Author:** darkhz
 - **WebURL:** [https://github.com/darkhz/bluetuith](https://github.com/darkhz/bluetuith)
 - **Repository:** [https://github.com/darkhz/bluetuith](https://github.com/darkhz/bluetuith)
-- **Stars:** 936
+- **Stars:** 938
 - **Version:** v0.2.3
 - **Updated:** 2024-10-19T08:11:18Z
 - **Size:** 9.08 MB
@@ -1410,8 +1410,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 5.71 MB
-- **SHA256SUM:** b56a356126eb7e6cea5b9d4ce164cbf66a958642799bae392f0079c93956404d
-- **B3SUM:** b723a2ddd5ee8540f4d921d7488ba7ab4a4c9500192ef6185845ab0a703ce869
+- **SHA256SUM:** de9ee476a5b1c666e10cd0ea797355ba260ac8447b3e87e8a6bc24b7113a1ec2
+- **B3SUM:** 707b8f8737f0e5e108f43cdf9ba1eb8e282b680b165adbbe3223eef37b3e3355
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bombadillo
 - **Language:** 
 - **License:** 
@@ -1426,7 +1426,7 @@
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
 - **Repository:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
-- **Stars:** 8597
+- **Stars:** 8599
 - **Version:** v0.5.1
 - **Updated:** 2024-10-16T16:32:35Z
 - **Size:** 1.27 MB
@@ -1469,9 +1469,9 @@
 - **Stars:** 27
 - **Version:** v1.4.1
 - **Updated:** 2024-10-23T08:01:07Z
-- **Size:** 1.69 MB
-- **SHA256SUM:** 47d319a700edcc6a114ed75708aa04c2e577b107b3bcd1d1ae276ff09c456e38
-- **B3SUM:** 654d4a920f2465f810148d241446b188014a5ef933f1ffd26c8b81974f9e6ffb
+- **Size:** 1.82 MB
+- **SHA256SUM:** ef197d52a63f462356ca14cca222a9654dd69221c03d25fd5e50f95efd058cd1
+- **B3SUM:** 266e0d3b03136112b0dcc476e32809d2fe52392ca8f42fe7605c3776a6ba83cf
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/botsay
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -1486,7 +1486,7 @@
 - **Author:** ClementTsang
 - **WebURL:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
 - **Repository:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
-- **Stars:** 10047
+- **Stars:** 10048
 - **Version:** 0.10.2
 - **Updated:** 2024-10-16T00:37:22Z
 - **Size:** 3.89 MB
@@ -1506,12 +1506,12 @@
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8586
+- **Stars:** 8587
 - **Version:** v0.21.2
-- **Updated:** 2024-10-29T00:30:19Z
-- **Size:** 45.2 MB
-- **SHA256SUM:** 29b71c8e436743a7144bce43f26e99974c0213117417f6b73e4c959d7b605622
-- **B3SUM:** a5faee1dc8c11dc079e210d66fbf50526b434c5b8fd02c4942429a0db3a2e086
+- **Updated:** 2024-10-29T23:32:45Z
+- **Size:** 45.21 MB
+- **SHA256SUM:** 170084602d47df89e3765fca7db1106c76cb82d842fbfc277de5b3c342c2b775
+- **B3SUM:** 6abf9922af9a069623207e7d72596c505058fb597493da1b74373773419bc31a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bpftrace
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -1526,12 +1526,12 @@
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8586
+- **Stars:** 8587
 - **Version:** v0.21.2
-- **Updated:** 2024-10-29T00:30:19Z
+- **Updated:** 2024-10-29T23:32:45Z
 - **Size:** 2.66 MB
-- **SHA256SUM:** 18896f77826c961f299eb6dd6ab5d01ae0712779fc9c23153fe0d02abb694a52
-- **B3SUM:** 5434adcfa1bbc7a5532acf61a4c41cfa85144c9ac995bd1be6aa601e2d632e38
+- **SHA256SUM:** 1777141016026d17c2cb80947af660ea12f4f7535046aea7e11a6082c7d06300
+- **B3SUM:** 5241e4857687ca5678017c8ae370cca4d665093c4c984878cf8da93941d3c8e5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bpftrace-aotrt
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -1566,7 +1566,7 @@
 - **Author:** txthinking
 - **WebURL:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
 - **Repository:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
-- **Stars:** 14597
+- **Stars:** 14598
 - **Version:** v20240606
 - **Updated:** 2024-10-20T10:33:43Z
 - **Size:** 19.55 MB
@@ -1586,12 +1586,12 @@
 - **Author:** Canop
 - **WebURL:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
 - **Repository:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
-- **Stars:** 10711
+- **Stars:** 10712
 - **Version:** v1.44.2
 - **Updated:** 2024-10-22T06:54:58Z
 - **Size:** 9.96 MB
-- **SHA256SUM:** 00aa27851d707ce255699d3674e818d2ed0ead0a502cfa3ba7f6c116556ff48d
-- **B3SUM:** 948093485176d101c231c17f180afa80eb08b063d9dc6116ef2296afa57e6194
+- **SHA256SUM:** 2859b2c16e6dae8cd17c2c7382956e5ed3df2b7ea576c9561b32570d279f2280
+- **B3SUM:** ec93c448da6d7fb909d3010cdf84b3d3198c8a23ebc407f4964ce5d8db700bc7
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/broot
 - **Language:** Rust
 - **License:** MIT License
@@ -1610,8 +1610,8 @@
 - **Version:** v2.2.4
 - **Updated:** 2024-10-14T02:28:11Z
 - **Size:** 25.86 MB
-- **SHA256SUM:** 3d42d7a947ae5d5b43a373a2af25487619e0ec3bea1e10be7a5303d79d52963e
-- **B3SUM:** 1d57e7e729a06ce55b57fe0c7fa981ffbf86a59299cdd774bd99a88d889f431e
+- **SHA256SUM:** a6c44761ef99ab779434282791e4d362897a4a2b1fe71552de4f848a5fa502fc
+- **B3SUM:** 678641f0c6684bc6fd473f8e3fb84f31e3bd225a0d9f265a43367e7bd4ec02c6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/brutespray
 - **Language:** Go
 - **License:** MIT License
@@ -1626,7 +1626,7 @@
 - **Author:** aristocratos
 - **WebURL:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
 - **Repository:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
-- **Stars:** 20654
+- **Stars:** 20661
 - **Version:** v1.4.0
 - **Updated:** 2024-09-24T18:43:49Z
 - **Size:** 2.29 MB
@@ -1710,8 +1710,8 @@
 - **Version:** v2.0
 - **Updated:** 2024-08-04T14:06:53Z
 - **Size:** 10.31 MB
-- **SHA256SUM:** f1fd45a094bc1ab2197e03fdc6960b4b82d59f1ea303970bc51bf5a7ca2a7f51
-- **B3SUM:** 999aed0af51eb87ecb48f5cdad9d05c76be278c104d4ee5291cbada63212ea74
+- **SHA256SUM:** 47a0f71b4c9303430ac15c3aeec7167b51b28cda58a37708a3d63ca1022f13e4
+- **B3SUM:** 9aab032d795f38a66bd3a74e3f8ae6c1a59837897a6b485ba3a3c3375d8df244
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bucketloot
 - **Language:** Go
 - **License:** MIT License
@@ -1730,8 +1730,8 @@
 - **Version:** 
 - **Updated:** 2023-07-03T14:40:54Z
 - **Size:** 2.07 MB
-- **SHA256SUM:** 82cb502968aa147a350c3486c3240e947dfde7192f7b8dc47b46222a22e615fa
-- **B3SUM:** 0a3cf8b09260b95fe915eea8eb5ebb65f6e599be89c04e34fb41337bd2a1a313
+- **SHA256SUM:** da38b1d4d17714c6fc924b487188aa60de07d91ec7fb1d95b3245cb9c753ef59
+- **B3SUM:** fc8c7b76db0d0e01fed0e0d60d449718562e8506c4256efa465e7360af80d5ea
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/byp4xx
 - **Language:** Go
 - **License:** 
@@ -1746,9 +1746,9 @@
 - **Author:** caddyserver
 - **WebURL:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 - **Repository:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
-- **Stars:** 58068
+- **Stars:** 58085
 - **Version:** v2.8.4
-- **Updated:** 2024-10-28T21:21:50Z
+- **Updated:** 2024-10-29T22:03:20Z
 - **Size:** 39.34 MB
 - **SHA256SUM:** 0f8f64ee2a94b1379ec09d3b5da4ca8021bb97d92a5e66d292cea8464aa426bc
 - **B3SUM:** f55202709ba6b14f7250a48de852f32847ac18e2ed32853c9dcf9b6788fc1155
@@ -1766,12 +1766,12 @@
 - **Author:** caido
 - **WebURL:** [https://github.com/caido/caido](https://github.com/caido/caido)
 - **Repository:** [https://github.com/caido/caido](https://github.com/caido/caido)
-- **Stars:** 1144
-- **Version:** v0.42.0
-- **Updated:** 2024-10-08T17:56:53Z
+- **Stars:** 1146
+- **Version:** v0.43.0
+- **Updated:** 2024-10-29T20:12:48Z
 - **Size:** 20.36 MB
-- **SHA256SUM:** d9e5267494e3620bff577efee652d60d093c0ca167cdfe611cd47cf75181ac6e
-- **B3SUM:** 93678361754b2946bffe9844f94a1f333a76bbdb525639dc6c9e67887549de93
+- **SHA256SUM:** 345d770f60cc31c1a2444f65ec80481e25e7b79f8d39f36fe4c5f45eb1a78f2f
+- **B3SUM:** 644b1df1907556c7bb64d0c1d9d45d675ddda7908e47030215c252583f59d737
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/caido-cli
 - **Language:** TypeScript
 - **License:** 
@@ -1789,9 +1789,9 @@
 - **Stars:** 32
 - **Version:** 1.0.9
 - **Updated:** 2024-08-25T19:13:04Z
-- **Size:** 841.66 KB
-- **SHA256SUM:** 976e43df848b63ef06989b17b14266abd768d918df64318df240efa89190fa1b
-- **B3SUM:** 4c4f6041ca4c7de310abf948cffa5b24e8f1181e702699f0e1dbf0d4c515af75
+- **Size:** 841.54 KB
+- **SHA256SUM:** abb1d4de13fba7ece48fd2abc88fecce9e9aacd750c729749338144845493527
+- **B3SUM:** a6f65de0cd35f225e389e45eb85b764c77afb539bdf303e23e930e69a56aeb5a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cargo-unlock
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -1846,7 +1846,7 @@
 - **Author:** synoet
 - **WebURL:** [https://github.com/synoet/cdwe](https://github.com/synoet/cdwe)
 - **Repository:** [https://github.com/synoet/cdwe](https://github.com/synoet/cdwe)
-- **Stars:** 39
+- **Stars:** 40
 - **Version:** 0.2.4
 - **Updated:** 2024-06-15T15:24:57Z
 - **Size:** 2.67 MB
@@ -1890,8 +1890,8 @@
 - **Version:** 20220513
 - **Updated:** 2024-02-21T02:00:47Z
 - **Size:** 7.2 MB
-- **SHA256SUM:** 64ac70c899e425412994cc931cd64dc92957b67d741df9920a6d6b167f746917
-- **B3SUM:** 6c78d8cb282b7c76cc7e6c8b8b1bdf11bb0933d3d311f88ed3314c01f2533519
+- **SHA256SUM:** f057e8c3cb2a89e822dfd4aaedf190a377ea8c9d0a47c271284b1007167fba05
+- **B3SUM:** 46013250c8fd4f0a57441c710a3852a0df6fce804f6b5a6fb6f22d621f3ca64f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/certgraph
 - **Language:** Go
 - **License:** GNU General Public License v2.0
@@ -1906,12 +1906,12 @@
 - **Author:** SSLMate
 - **WebURL:** [https://github.com/SSLMate/certspotter](https://github.com/SSLMate/certspotter)
 - **Repository:** [https://github.com/SSLMate/certspotter](https://github.com/SSLMate/certspotter)
-- **Stars:** 970
+- **Stars:** 971
 - **Version:** v0.18.0
 - **Updated:** 2024-10-16T12:24:25Z
 - **Size:** 5.72 MB
-- **SHA256SUM:** 6000df59420101c38a776a5a72fd6b841310e0c613d365313f66d9adf23f4523
-- **B3SUM:** c750e33b9b9a8111ad8a4bc7763652f66b480b0fa3d77e24047a7297f08ef81f
+- **SHA256SUM:** 2f49d602cab97f3f5ddf6b82e238b0baa48ad1665210eb2faaf1bb1c3c514359
+- **B3SUM:** c04803af67290406ea2624b5af7beb97a87b93124a8c3f4670a227a432c4466a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/certspotter
 - **Language:** Go
 - **License:** Mozilla Public License 2.0
@@ -1930,8 +1930,8 @@
 - **Version:** v1.7.0
 - **Updated:** 2024-08-19T22:36:12Z
 - **Size:** 9.04 MB
-- **SHA256SUM:** 9ad7d36ab20b2f089b7c38d88fc034ff822e9f0937bdefa58c41fa700047a0ae
-- **B3SUM:** 783f6eaa6b0e44f203eaba7cd58b66b0c27d4de1fb5841349008b136f0f12906
+- **SHA256SUM:** 39ff88440811e74ee512587360c43288beaa0b359fff4e3bee9a007365034e45
+- **B3SUM:** 0d15e898f84d9a09f88bc40423f703838a075cd13f999b1b90f89f72f2713e43
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/certstream-server-go
 - **Language:** Go
 - **License:** MIT License
@@ -1950,8 +1950,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 4.8 MB
-- **SHA256SUM:** f8dea154cdd2db6b9ce9022a398044236f66e7a00a2dac0968b2627ee33c262a
-- **B3SUM:** f74ac283db85238f99d1ad66c92dbb6f7b525dfdaef38988bb82380b9fac3035
+- **SHA256SUM:** b264a8cebefb553041328502d05783735bcdd731dd2130936e70886c8cd6111b
+- **B3SUM:** c83f31447a0adad16bec2852e0b9196f888a392cabe2327fb65105e3afc7d424
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/certstream
 - **Language:** Shell
 - **License:** The Unlicense
@@ -2010,8 +2010,8 @@
 - **Version:** 0.2.926-bbecf77
 - **Updated:** 2024-09-28T07:01:06Z
 - **Size:** 7.15 MB
-- **SHA256SUM:** 7b4a9926c51a24a1555a6ae20f63f87911b521ef2d981ce7c4b2cab858f92777
-- **B3SUM:** 8426bf64c3d8fa538950c3d83469892911cc3b90bfd7b84272b6b93360757fe2
+- **SHA256SUM:** 236b02a8290463e542a8d804a44b1969a1cd87972f8d4d5e44e6c28e0ccb8a17
+- **B3SUM:** c1c7d69db0d86031feb03315156ac86de4d53230be633c1b5e0bc02fb665f3ac
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cfspeed
 - **Language:** Go
 - **License:** 
@@ -2046,7 +2046,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 11.51 MB
@@ -2066,7 +2066,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 8.26 MB
@@ -2086,7 +2086,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 8.12 MB
@@ -2106,7 +2106,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 9.45 MB
@@ -2126,7 +2126,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 8.53 MB
@@ -2146,7 +2146,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 6.06 MB
@@ -2166,7 +2166,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 4.87 MB
@@ -2186,7 +2186,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8723
+- **Stars:** 8726
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 11.31 MB
@@ -2210,8 +2210,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 11.19 MB
-- **SHA256SUM:** 674c4d0a44e95b6ae43c7a317d23d30fc04a0d82bea3a631dc3e6638ae13b31d
-- **B3SUM:** 804a44a3181b7e2fd18fd3af1b739e475e0c007ff09b8261537a2722b251e376
+- **SHA256SUM:** fad5b293b05323948e3509dbf1c72f3a56abed16afd251450ca4e1de2922e0ec
+- **B3SUM:** c01f7dd1eef7097d40b30354f718bbfceb9b444203e94c38b6ff2df3ad49e702
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/chafa
 - **Language:** 
 - **License:** 
@@ -2226,7 +2226,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/chaos-client](https://github.com/projectdiscovery/chaos-client)
 - **Repository:** [https://github.com/projectdiscovery/chaos-client](https://github.com/projectdiscovery/chaos-client)
-- **Stars:** 638
+- **Stars:** 639
 - **Version:** v0.5.2
 - **Updated:** 2024-10-28T13:10:26Z
 - **Size:** 25.5 MB
@@ -2246,12 +2246,12 @@
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
-- **Stars:** 12365
+- **Stars:** 12367
 - **Version:** 4.4.2
 - **Updated:** 2024-07-29T06:38:08Z
 - **Size:** 11.1 MB
-- **SHA256SUM:** 11230080ba4e6ef770164abe779852c61bdca9549603c2e176630af4ced778bc
-- **B3SUM:** 3c7e4f1902bbb9e6cfc3f10b200e79e94b6fe9fe2b702716f82140ed867faf81
+- **SHA256SUM:** 3f2441bd73b4824cb17ec12d3a3b643cc81496fb26a8df9af39f2ba42735b4db
+- **B3SUM:** cc768ec244b35a8c9b0f1c0916c3039c6010fb9bc54a93824607c4eed2fdf90b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cheat
 - **Language:** Go
 - **License:** MIT License
@@ -2270,8 +2270,8 @@
 - **Version:** v1.0.1
 - **Updated:** 2024-10-25T10:04:00Z
 - **Size:** 6.5 MB
-- **SHA256SUM:** b90695b9665399380c4b52c6094cfc4f84f2cddd484bcc0acfd24e5631f85d27
-- **B3SUM:** e19b234663feafb4d30cce765b306fc0ced29aa2bf8cc0fea4ad71c05357d846
+- **SHA256SUM:** 7ce25f367a6464311c8b816a154b244ac87cd1eff665da18999bc44fbc406990
+- **B3SUM:** cfa28ed6d78c142686284ff4ccf968af442ca6da5ed6101a5d98f6320df822bd
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cherrybomb
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -2286,7 +2286,7 @@
 - **Author:** jpillora
 - **WebURL:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
 - **Repository:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
-- **Stars:** 13211
+- **Stars:** 13214
 - **Version:** v1.10.1
 - **Updated:** 2024-09-28T23:35:13Z
 - **Size:** 8.99 MB
@@ -2366,12 +2366,12 @@
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 387
+- **Stars:** 388
 - **Version:** v0.19.0
-- **Updated:** 2024-10-29T06:49:27Z
-- **Size:** 7.79 MB
-- **SHA256SUM:** d867f3cd58e8fb95139bb56bca7d01ab7284fe5a1ea62b82847e41a78a2e1d5b
-- **B3SUM:** 53f22a0b0e0066face91a0b0f81f396d4d1f0c52b41c19457f6149e77073b3f2
+- **Updated:** 2024-10-29T21:08:33Z
+- **Size:** 7.93 MB
+- **SHA256SUM:** 67ac2258f06f39451fec29bc209fc0ce1ddd0e5ff5b44043530ac029de4389cf
+- **B3SUM:** be36360fcc8765cb4d7c2c87d85aac5fff69e2ce4e54b1b3847f2d731059c90d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcat-menu
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -2386,12 +2386,12 @@
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 387
+- **Stars:** 388
 - **Version:** v0.19.0
-- **Updated:** 2024-10-29T06:49:27Z
-- **Size:** 5.41 MB
-- **SHA256SUM:** 229d407018ce009f8611338531d89878d4817c531cd46c187a0767a4364237b5
-- **B3SUM:** 659beab98f94ccd36870dd7fbc1c2338c826ca5491640415dc7adef1084eafb6
+- **Updated:** 2024-10-29T21:08:33Z
+- **Size:** 5.43 MB
+- **SHA256SUM:** ee6b131fbc13dbd7d58bcecfd586de39621858e5f460f3a075d9511d511cf763
+- **B3SUM:** be91f6cb23bbc1f1e3e896d35b7fe2a1bcd2e029c717eba7638aa0f82a5436a2
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcat-notify
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -2406,12 +2406,12 @@
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 387
+- **Stars:** 388
 - **Version:** v0.19.0
-- **Updated:** 2024-10-29T06:49:27Z
-- **Size:** 5.48 MB
-- **SHA256SUM:** b152e5b1bf2619405d19afd04f62acb0e285e0e02a231690b39907d0bc8779ec
-- **B3SUM:** 24dd42e95672f1eff0729f1486cdfcf927df637b72be8ca41f9c128170492ede
+- **Updated:** 2024-10-29T21:08:33Z
+- **Size:** 5.55 MB
+- **SHA256SUM:** a376b557246877be65653b99458e0d9c71986d7e8fcac7672dcb29ff3e61a4d1
+- **B3SUM:** 5ba9a982f7696500fe8c8a77fa41e3cc0c090e06a7a9c6048edb3c78be93879a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcatctl
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -2426,12 +2426,12 @@
 - **Author:** xrelkd
 - **WebURL:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
 - **Repository:** [https://github.com/xrelkd/clipcat](https://github.com/xrelkd/clipcat)
-- **Stars:** 387
+- **Stars:** 388
 - **Version:** v0.19.0
-- **Updated:** 2024-10-29T06:49:27Z
-- **Size:** 14.59 MB
-- **SHA256SUM:** b3a64ca24484fb9933f1dd9172c0f8cf17df97bdddbb24cdc5fb6ac0049225d0
-- **B3SUM:** 4a90d482c60231b9820cdcf79382fdae1fff17c1dd665209b69c98ba77f7c361
+- **Updated:** 2024-10-29T21:08:33Z
+- **Size:** 14.81 MB
+- **SHA256SUM:** ad1b2d609227e295e77bd6567e9b1f1c93a0278e63ff3a4344acf6a4ba7acd6d
+- **B3SUM:** 6e7cb3ef67a9435a9babeacda24ffb2e0a3de33512f5714e40d4b3f5276a6e7c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/clipcatd
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -2446,7 +2446,7 @@
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
-- **Stars:** 3380
+- **Stars:** 3381
 - **Version:** v2.10.0
 - **Updated:** 2024-10-11T19:46:00Z
 - **Size:** 6.83 MB
@@ -2466,7 +2466,7 @@
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
-- **Stars:** 3380
+- **Stars:** 3381
 - **Version:** v2.10.0
 - **Updated:** 2024-10-11T19:46:00Z
 - **Size:** 6.56 MB
@@ -2506,12 +2506,12 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
-- **Stars:** 9153
+- **Stars:** 9157
 - **Version:** 2024.10.1
 - **Updated:** 2024-10-25T12:46:47Z
-- **Size:** 24.54 MB
-- **SHA256SUM:** f2728e29f8a4b9ebffdc0374555a58048c65f59afee26efe4f4b91a195f709b1
-- **B3SUM:** d5845cff418e05ae9b4cd4df44a164e1644632b5a711ff7507500036564b612b
+- **Size:** 24.61 MB
+- **SHA256SUM:** 4f90b60d7a06b8a20ffab34c716cdd466c4133d4ff9d7cccac725f64b02953d5
+- **B3SUM:** 0d98741030a4eb34a888d8ba248741167c289578d0bc368c16d6b23709c9f8fb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cloudflared
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -2566,7 +2566,7 @@
 - **Author:** cloudreve
 - **WebURL:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
 - **Repository:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
-- **Stars:** 21833
+- **Stars:** 21840
 - **Version:** 3.8.3
 - **Updated:** 2024-10-25T05:31:22Z
 - **Size:** 33.89 MB
@@ -2650,8 +2650,8 @@
 - **Version:** 6.1.0
 - **Updated:** 2024-10-28T07:49:31Z
 - **Size:** 7.18 MB
-- **SHA256SUM:** 8e239fd6db753303e6af3649a9d13c90249d79ffe2d7747437d8db6039c7b7ec
-- **B3SUM:** c14de23f4017aaefac101dbde0c9fb2e521e50fb871fb89059ceec4085b7b246
+- **SHA256SUM:** 5147a1ed36ee58c76d5c585d932c5671df0c51a87d86466929cf9635a417149b
+- **B3SUM:** def2b4640773b21b9a5883657dd8849f4fa0bce8a45cdefe2ba715fb5f40ff0f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cog
 - **Language:** Rust
 - **License:** MIT License
@@ -2750,8 +2750,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** d288331cc335feba0962a6e1529bc0c598ae2d5e6bbd092b1401c84f59dc80a6
-- **B3SUM:** ee3fb7487b57ea6b53276f1f72f5d076bef9bb33328115e644776e22d0f80062
+- **SHA256SUM:** 4ffeed70624849e25d07bbe311419c6e4b1a2c178621febe163052d75d275949
+- **B3SUM:** 6e1d603b2c6459cf7bbe846b9920cfec09160a4b4828bd3fa4e4a8ac354a0446
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/comb
 - **Language:** Shell
 - **License:** The Unlicense
@@ -2766,9 +2766,9 @@
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
 - **Repository:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
-- **Stars:** 17373
+- **Stars:** 17375
 - **Version:** v1.7.23
-- **Updated:** 2024-10-28T23:51:06Z
+- **Updated:** 2024-10-30T01:00:43Z
 - **Size:** 38.44 MB
 - **SHA256SUM:** 3d866d7ca8b871efd4bf4571de68b496710b04eb551146965bf65d100838fe0a
 - **B3SUM:** 63d082ef8242d7eb652a895bfd7847f6dbdd0e2171032a5635393e7f69c81eda
@@ -2788,10 +2788,10 @@
 - **Repository:** [https://github.com/replydev/cotp](https://github.com/replydev/cotp)
 - **Stars:** 255
 - **Version:** v1.9.1
-- **Updated:** 2024-10-27T23:03:07Z
-- **Size:** 2.51 MB
-- **SHA256SUM:** 5db5764cbe5f5ae1bd0fe9c9e8883f2802cf9836cfa5b70ecac70b49783af832
-- **B3SUM:** aa8630c20f81651a74703f03576da8cc66a60f924474f80bc72723024681d2b8
+- **Updated:** 2024-10-29T20:44:05Z
+- **Size:** 2.52 MB
+- **SHA256SUM:** 85346d0ef580a1eed5a4e5421a8c64925a262aa2bdf581484d99a42cdd41bcd2
+- **B3SUM:** 63adbaaa0ccdba3130a8bd7927661d95bc0788b32871038298f2dfaf5ac17b1b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cotp
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -2810,8 +2810,8 @@
 - **Version:** 1.3
 - **Updated:** 2024-04-10T12:30:46Z
 - **Size:** 5.92 MB
-- **SHA256SUM:** 06c966b1df334f0833a1f38b2e3036060de2add21d3302751f62fe4e8eec887f
-- **B3SUM:** a1a404ca0eb646269fab24ad9bc8d41e4c1344870f8d9eaa364423ac5fbc7f10
+- **SHA256SUM:** 104e226647cfffe98ccfcb306c0bc212a1cb4c54aa65d2fed8fbe2751c0dc873
+- **B3SUM:** ad480c561811cd64becd0e46b93e6c195946356b81accd86d9a936061c191cb6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cowitness
 - **Language:** Go
 - **License:** MIT License
@@ -2830,8 +2830,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 3 MB
-- **SHA256SUM:** d2a1bc13af77d37e1655ac9fd1c7f9d864374abe882685d64112432294bb7dff
-- **B3SUM:** d8ab7024ca35d5bce00a4f7a866ac3eaa486240fb708c66d830413278382f55d
+- **SHA256SUM:** 2aab7a1fbce0449951ba2c95103d474a19ecda73bbd3b8a21293b49609194631
+- **B3SUM:** 858ddf76e3d0f38306fd7aca6700e22313435749c9abcae95df4a249ad8b341a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cowsay
 - **Language:** 
 - **License:** 
@@ -2850,8 +2850,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 3 MB
-- **SHA256SUM:** 849fdf6577113974feab6699451ab8f1629021ab5a3fe8965f1328707670d2eb
-- **B3SUM:** efe36cebcac56d69d635c1ff2e164c87913e2b0ed2ca0115b3e112096587155a
+- **SHA256SUM:** 279996c2e22975922d7edfc3d5fb48eb0ac2a6e5dc896bbd1fac83cf70eb4873
+- **B3SUM:** 75367749d434428d00c1bfbf5ec0a53c99d52470b83a0dc7cf9700102eadad0c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cowthink
 - **Language:** 
 - **License:** 
@@ -2870,8 +2870,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T16:01:40Z
 - **Size:** 5.32 MB
-- **SHA256SUM:** 501e0f5c032b4ca2ded8b0542025dfc7e83c66799ba4e490b29846f5938801cf
-- **B3SUM:** 387bc5b502b3e72034c49ebe80558213d98678cb56d41d26f33e32c55b2acd72
+- **SHA256SUM:** 69e5c8ac73114b39cb3d2322aafe78ce5e0793d2210a3ce40871bce3cf4ab5e9
+- **B3SUM:** 6b665807b6de3ea8808a0ddcab62ff3b12c381c21ee43a1c30c3c05fa04681f3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cpu
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2890,8 +2890,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T16:01:40Z
 - **Size:** 4.36 MB
-- **SHA256SUM:** 5e1784dc4dc5657b260ccc4357b244b2f298e1948256be7137d58c0ef37ee324
-- **B3SUM:** db241128b4fd79b3306e13de2f478c12305de7a4ddd1122939d9e3d73cf38378
+- **SHA256SUM:** 5c5705e1813a57012f2f3d947e53dcee20c103836adc846c66b83c4b483914b7
+- **B3SUM:** b5d99369ce37972df1075e915c00f37c5526411be97e563995ac5db4f1efd771
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cpud
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2910,8 +2910,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T16:01:40Z
 - **Size:** 5.85 MB
-- **SHA256SUM:** a0af1147b82cfafc1a51a646b36ca38215e3d0041c26ff8eace664a84607a195
-- **B3SUM:** a86b104dc50b076be7d8d6ca99c1f13ce830d11e1b0089d1a2ba0e03b6d9336e
+- **SHA256SUM:** fa7f55e3ad002126f48249bc9942d9e21a75d40a08f43f65d693c4f49ec51f34
+- **B3SUM:** 6d5196315cd6feb6209f8ecaf561b88aeb4fa79a70b680e9b77cb42663402fff
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/decpu
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2930,8 +2930,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T16:01:40Z
 - **Size:** 5.21 MB
-- **SHA256SUM:** dd7e659d450099e43da64784a4bb8827e060781e415eddf26c6557c24882bf56
-- **B3SUM:** 605a00ea272d4ec1e88aa0990b49e6fd88bc6d478f66c674e15f5fd66cf7dccb
+- **SHA256SUM:** d2dd75cba6984340dd0216e311c139e0327524fa983faa796ad9c017fafb2d01
+- **B3SUM:** 16ac3cb3e02291f61000407967b870cc59ca0ec2c11d80a448de3799e06fa763
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/decpud
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2950,8 +2950,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T16:01:40Z
 - **Size:** 2.7 MB
-- **SHA256SUM:** 5e5798e1b0eadefc45e78262d156b76c593060f360971c19b155904936a5f292
-- **B3SUM:** 69387b81dad83c3cd5dbe695b40fc2f31949c3194534226d94b7165d24b3639f
+- **SHA256SUM:** eb8be2b77448ea1cd88d7ee1becb77fe3aabd54b11c62d91923b1114d48dd6bb
+- **B3SUM:** 20093fbf73590a4fa43a2329d2e8a66531edc392c19af4290babd53689fe0102
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/p9cpu
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -2970,8 +2970,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T16:01:40Z
 - **Size:** 2.36 MB
-- **SHA256SUM:** 0ce23f93fd06c4dece7e97cab27453941ec6480408bc0ebbb681090d3438f90d
-- **B3SUM:** 54569d65bf3f81dd293106ff61b6255d04c2d5211e2a85d020cfce2298f559e3
+- **SHA256SUM:** 45bdde3d79b2413a8e34d5137069cc20b48c32f0e001c5bff1f9976747236bba
+- **B3SUM:** 215519f24bcf57bbd6f014b05faaa8da1ec26e35c43b493d86ad9eac41ef3e00
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/p9cpud
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -3006,7 +3006,7 @@
 - **Author:** s0rg
 - **WebURL:** [https://github.com/s0rg/crawley](https://github.com/s0rg/crawley)
 - **Repository:** [https://github.com/s0rg/crawley](https://github.com/s0rg/crawley)
-- **Stars:** 260
+- **Stars:** 261
 - **Version:** v1.7.10
 - **Updated:** 2024-10-25T22:34:05Z
 - **Size:** 5.48 MB
@@ -3050,8 +3050,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 4.99 MB
-- **SHA256SUM:** ca12a3a1bb9940c361740bf4fac65186873cbeb407584102f9069d8017064463
-- **B3SUM:** 68dd4a7abd2be80b0cfbf004651b34950dc631e9732146a7b0b133a15604c184
+- **SHA256SUM:** 32b1fd102f0046e0585d26e3c439e2d7eb64623fab3c20c626825a2e7a012c76
+- **B3SUM:** 9f03ec54e5755328c322da66c1e3d5fe84c4e32aac421ca79ceb58c33b5cfae2
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/crlfuzz
 - **Language:** 
 - **License:** 
@@ -3066,7 +3066,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 27924
+- **Stars:** 27933
 - **Version:** v10.0.13
 - **Updated:** 2024-10-28T08:15:38Z
 - **Size:** 8.29 MB
@@ -3150,8 +3150,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 199.13 KB
-- **SHA256SUM:** 47dac4156f5efc14e5090f143fa9414f935c9303ea8191a8e9c3c7b36b27dd66
-- **B3SUM:** 937cfc824df0211631187b0eaffa84f34987fcf7f1ca7b2179b81ea4514b46c0
+- **SHA256SUM:** e63c13b1351041a4e9871d00dd21ae199c6078d17109c91185575b8055ad1329
+- **B3SUM:** 6686e4567d582fc4f0473262e1bbddd5e370ea5a1322cb8fcde55ce023935114
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cron
 - **Language:** 
 - **License:** 
@@ -3170,8 +3170,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 133.9 KB
-- **SHA256SUM:** 085cf91b3be530b829f0cdb9c847dfe5f75246191894cf20c86b4c5828e051b5
-- **B3SUM:** 44a1594572d3f096017ccf1e35d5e07aa554aaf9276b55f50b9b55bc8fa7d8ef
+- **SHA256SUM:** 4f43d62befb6bca3bc9cddce0f930c4637c1fae3ee89a7cfbb927e4893e69238
+- **B3SUM:** 91522ea3cf715717fa6deb6f92d5d970f0474b5332f64c2a5e3213e4df380a65
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/crontab
 - **Language:** 
 - **License:** 
@@ -3190,8 +3190,8 @@
 - **Version:** v0.1.0
 - **Updated:** 2023-04-27T12:08:48Z
 - **Size:** 4.93 MB
-- **SHA256SUM:** 0467923a196adf6a70bc7daeac998b2a3ccdfee9a72a56ad906dce1e04fc600c
-- **B3SUM:** 10d1455c3ddda2337facaf8eb3f94664f85c227e632557cbe1ef5b9b6a653fe6
+- **SHA256SUM:** de1bc2f49b763ea39e33d92ae58a0fb77e9a958c67ce0f30b9fdeda922d3ada9
+- **B3SUM:** c4209f2b707b1a23aeb8b8da19d4a0ee7579145fb238f707dae5802fd8693af0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/crt
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -3210,8 +3210,8 @@
 - **Version:** v0.4.0
 - **Updated:** 2024-10-28T21:36:37Z
 - **Size:** 9.68 MB
-- **SHA256SUM:** a5da498e61cd6f9df2020cce24fcf71a36ee52425293da73c737971a532afbd0
-- **B3SUM:** 598d94e44fdc1b1187c00220930708db3def12f754a55c596f9863bfac224d02
+- **SHA256SUM:** c1fb0976d66fc66f08117f44050bc6ea07cf46d07058342842cc42c38ff2f1d4
+- **B3SUM:** f8024614678a62cabfc3143869d5edfc2ce33aadbea32a1bd294458acc2cc2cb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/csprecon
 - **Language:** Go
 - **License:** MIT License
@@ -3269,9 +3269,9 @@
 - **Stars:** 340
 - **Version:** 
 - **Updated:** 2024-10-24T10:34:45Z
-- **Size:** 15.21 MB
-- **SHA256SUM:** 03e8945cacd6137f26c73d0938669a56d8b9f29e67e77b1ca3b981f9685835f8
-- **B3SUM:** 929f9036752d6bfaca28c16e53a0fbb6fd996829a63bb8a6a0dac4cc82a833b4
+- **Size:** 15.34 MB
+- **SHA256SUM:** dfeac0fb5ee83cb2e5c24850c8fa03073e5880984c6d1f460969799d1b8e9d34
+- **B3SUM:** 51c2c04097b32f7c43b8e1f607bcb33c5b3e58ab5b3146e72e0b7524eb3b4874
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ct_monitor
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -3406,7 +3406,7 @@
 - **Author:** rs
 - **WebURL:** [https://github.com/rs/curlie](https://github.com/rs/curlie)
 - **Repository:** [https://github.com/rs/curlie](https://github.com/rs/curlie)
-- **Stars:** 2852
+- **Stars:** 2853
 - **Version:** v1.7.2
 - **Updated:** 2024-02-28T16:42:58Z
 - **Size:** 2.15 MB
@@ -3430,8 +3430,8 @@
 - **Version:** v1.0.31
 - **Updated:** 2024-07-27T16:45:28Z
 - **Size:** 9.28 MB
-- **SHA256SUM:** 933bdfbb131de9cd7f141587fbcff1ba262a835b205d5a442a1e22f739155719
-- **B3SUM:** d6baf9a80fa5d33f9e6b0fce9eaff5310df045323e6ed48e1560615a4cfe4ade
+- **SHA256SUM:** a8c79ea5826d9828534ace847b78b03e155e3286b4b7fde1d6768eeb788d2c9a
+- **B3SUM:** e3f3d4282f2f0592a4e9f4bc8a98aa22fae9e609b69687312d882cba1aedf63a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cut-cdn
 - **Language:** Go
 - **License:** MIT License
@@ -3450,8 +3450,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 2.01 MB
-- **SHA256SUM:** 17ff9670c1318a6547e387263075656e58ff1c294cea28299b66e368660db32a
-- **B3SUM:** 1380a1167b116a869388816741d054dab12734f9542d64602e00b5bad0009b19
+- **SHA256SUM:** e4efccc47f26089aff9a5b30f51dcdd8ca2b57e498172697791d3c9451e4e395
+- **B3SUM:** 737b36c2f4a01dc1c9bdab9dc7e0d5bc58586c66deb7ebe6ebfbe0a06571670b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cutlines
 - **Language:** Shell
 - **License:** The Unlicense
@@ -3466,7 +3466,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
 - **Repository:** [https://github.com/projectdiscovery/cvemap](https://github.com/projectdiscovery/cvemap)
-- **Stars:** 1709
+- **Stars:** 1714
 - **Version:** v0.0.7
 - **Updated:** 2024-10-28T12:02:31Z
 - **Size:** 26.4 MB
@@ -3506,12 +3506,12 @@
 - **Author:** qarmin
 - **WebURL:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
 - **Repository:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
-- **Stars:** 20003
+- **Stars:** 20006
 - **Version:** 8.0.0
 - **Updated:** 2024-10-12T21:01:05Z
-- **Size:** 10.87 MB
-- **SHA256SUM:** 260f57ace2f06dc31d43b54ec6a493fe4ed074750c9e783666194c877a92a814
-- **B3SUM:** 40117715a35c9f95c0e3527c711c81d2d1d2efef3dc242e2d6a3ce5f395d8c62
+- **Size:** 10.83 MB
+- **SHA256SUM:** b43684eea28f64354c98e4d4470af5089f97e6589ff0985e026fcb9f3c3144d0
+- **B3SUM:** 6e48d53f186b453bc200b06d0a2361ef55fd456af95cd4d3a51cf3650db7d5c6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/czkawka-cli
 - **Language:** Rust
 - **License:** Other
@@ -3526,12 +3526,12 @@
 - **Author:** qarmin
 - **WebURL:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
 - **Repository:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
-- **Stars:** 20003
+- **Stars:** 20006
 - **Version:** 8.0.0
 - **Updated:** 2024-10-12T21:01:05Z
-- **Size:** 10.87 MB
-- **SHA256SUM:** 260f57ace2f06dc31d43b54ec6a493fe4ed074750c9e783666194c877a92a814
-- **B3SUM:** 40117715a35c9f95c0e3527c711c81d2d1d2efef3dc242e2d6a3ce5f395d8c62
+- **Size:** 10.83 MB
+- **SHA256SUM:** b43684eea28f64354c98e4d4470af5089f97e6589ff0985e026fcb9f3c3144d0
+- **B3SUM:** 6e48d53f186b453bc200b06d0a2361ef55fd456af95cd4d3a51cf3650db7d5c6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/czkawka_cli
 - **Language:** Rust
 - **License:** Other
@@ -3566,7 +3566,7 @@
 - **Author:** hahwul
 - **WebURL:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
 - **Repository:** [https://github.com/hahwul/dalfox](https://github.com/hahwul/dalfox)
-- **Stars:** 3732
+- **Stars:** 3735
 - **Version:** v2.9.3
 - **Updated:** 2024-09-22T01:33:27Z
 - **Size:** 25.56 MB
@@ -3606,9 +3606,9 @@
 - **Author:** TomWright
 - **WebURL:** [https://github.com/TomWright/dasel](https://github.com/TomWright/dasel)
 - **Repository:** [https://github.com/TomWright/dasel](https://github.com/TomWright/dasel)
-- **Stars:** 7138
+- **Stars:** 7140
 - **Version:** v2.8.1
-- **Updated:** 2024-10-28T22:33:37Z
+- **Updated:** 2024-10-29T23:38:47Z
 - **Size:** 9.55 MB
 - **SHA256SUM:** e0a411aef4d7fb448e5a4e40a2f4cc9ff5a95974545071081bcf14b77107b3bf
 - **B3SUM:** 723557dbac35c75fda94d18a4cd0a01f73cf9ee8ac7a98fc93f3b15872e33584
@@ -3630,8 +3630,8 @@
 - **Version:** v0.1.0
 - **Updated:** 2023-03-13T00:09:16Z
 - **Size:** 4.72 MB
-- **SHA256SUM:** 9bbd16fb1338866304d2c8f2d53529dece730b7613369858818fe0e8bbbd1505
-- **B3SUM:** 025774c0ccc11c7d84defbedacf2196986078f598784319908a67c1617d80231
+- **SHA256SUM:** 014d39c1d15b1651f55f9d04ae6e7ee360973d6b5607ab81f07060d716faf68c
+- **B3SUM:** cdb4209ff022e72c9d06ca4d50d879614a1082fec45e933d6fe156c0494ac4be
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/datadash
 - **Language:** Go
 - **License:** MIT License
@@ -3649,9 +3649,9 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 81.67 MB
-- **SHA256SUM:** df560cfa06e48595c94d4db46fdeabb330173209f0a63745001aa68ff2eb74db
-- **B3SUM:** 36b0f722ef77e08b780dacfa008dbd9b53ee4ef2029a32a9dd960db34ebbbe68
+- **Size:** 81.73 MB
+- **SHA256SUM:** b3b7e97c7cdc21348988fd85bdf04a1e4867e18704472f2a747c507fe0dc3e67
+- **B3SUM:** 8e4880c7c710b54282beca97d96b9e83035f4e5992f40cda5245e63f947a5721
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/daytona
 - **Language:** 
 - **License:** 
@@ -3690,8 +3690,8 @@
 - **Version:** 0.5
 - **Updated:** 2024-10-27T01:21:49Z
 - **Size:** 7.08 MB
-- **SHA256SUM:** 3ee30c5f21be6a8db1cd3c2be181a217869d3b09bf933c8a6a646248af646c83
-- **B3SUM:** 8c624e73491345c0bb30405392a41c930a572761413bb51ec56910ee410d5438
+- **SHA256SUM:** e97d01b46a8c78b2958904ff896f3e23ad5ef563a0d25f1ecaafdc1ad4855011
+- **B3SUM:** f9d6a238bc961831a6aa324622dd9275a3f5b5b29400ceab5cdd10a328fac89e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/dbin
 - **Language:** Go
 - **License:** Other
@@ -3706,7 +3706,7 @@
 - **Author:** danvergara
 - **WebURL:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
 - **Repository:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
-- **Stars:** 2380
+- **Stars:** 2381
 - **Version:** v0.27.0
 - **Updated:** 2024-10-27T21:04:20Z
 - **Size:** 31.74 MB
@@ -3726,12 +3726,12 @@
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 11861
+- **Stars:** 11864
 - **Version:** v6.7.3
 - **Updated:** 2024-10-25T01:44:18Z
 - **Size:** 8.89 MB
-- **SHA256SUM:** 4792d070285d1aa0b4e3ed38ee6caaddf1bc71c76a4c201a3b99663e6695ea8d
-- **B3SUM:** 2180503fc00a847b6ebdcd31bc06941ee1faac39e217ca96cc2939d522246b29
+- **SHA256SUM:** 8ad155fe34135bf1d19129636ae62efaf40f0abbfe6cfa3c791f227c8ced98f9
+- **B3SUM:** 4dcd0a5a8467b95d0bb799eef2afa15f7037aeefbbd685520656bb104f3570af
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ddns-go
 - **Language:** Go
 - **License:** MIT License
@@ -3748,10 +3748,10 @@
 - **Repository:** [https://github.com/jsummers/deark](https://github.com/jsummers/deark)
 - **Stars:** 170
 - **Version:** v1.6.8
-- **Updated:** 2024-10-27T12:30:35Z
+- **Updated:** 2024-10-29T19:04:24Z
 - **Size:** 1.97 MB
-- **SHA256SUM:** af7df492c17786be17ffdc588fe6ace7473637f4e1d6e7ce8d0c9a86adeda835
-- **B3SUM:** d49a0424038a20d413fae25a8efe16b45ab77b389330289327793906aca6e043
+- **SHA256SUM:** cbde72c4b3b995e91dfce5ca8e15363ad119e6e8582f4525819f6c2459a183cf
+- **B3SUM:** 0becfa7cd4cc08598e6a7ddde68e59716a3b63c364c4e42d46f96762b428e89e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/deark
 - **Language:** C
 - **License:** Other
@@ -3770,8 +3770,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T18:28:50Z
 - **Size:** 43.72 MB
-- **SHA256SUM:** 1b1b21d1889de26d38cd967a1bdbc47a46a47abd2fd5734c7b56917557760549
-- **B3SUM:** 69f93929ab82aed46c8c99429577f46308c3df83cfdd45a3ff6aa2ed75a38eb8
+- **SHA256SUM:** 0f14d55efe4a13e20c9f8c49e9fe2df72a5b894ccde896305f7a6a21c450f0d8
+- **B3SUM:** 12f0d94fb85c57aa2b96f5ee50905749a0e541c68f340222cc668516a476a82c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/debian-slim.no_strip
 - **Language:** Shell
 - **License:** Apache License 2.0
@@ -3790,8 +3790,8 @@
 - **Version:** 
 - **Updated:** 2024-10-16T18:28:50Z
 - **Size:** 61.99 MB
-- **SHA256SUM:** 130ba07a5e4950c8ee99c3b5e76114ef8cd2175154a2f373aa4c12fe6b63df29
-- **B3SUM:** 9f75b1583d06b6fb0d8265b319d5db227f4809e89334132eb59e8175fd8609d5
+- **SHA256SUM:** fd5904e55c83185d2ca20e0fc4e45fc122f853f2567e26afa06d79c83fc811d1
+- **B3SUM:** ca8a3c859109919b5efce29f9895d9877b333f4fbb7f85fb5d0e80b93a1b8a43
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/debian.no_strip
 - **Language:** Shell
 - **License:** Apache License 2.0
@@ -3806,9 +3806,9 @@
 - **Author:** dandavison
 - **WebURL:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
 - **Repository:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
-- **Stars:** 23085
+- **Stars:** 23088
 - **Version:** 0.18.2
-- **Updated:** 2024-10-28T06:38:26Z
+- **Updated:** 2024-10-29T21:12:31Z
 - **Size:** 5.55 MB
 - **SHA256SUM:** 54627ae978473978b402119c689f840243ef85bc06954faa3d8c299c2f1abd0d
 - **B3SUM:** 34422e9f63d610eef5f764698a90e026dafe6266d392d92e9d23182de70dbc54
@@ -3926,9 +3926,9 @@
 - **Author:** jetify-com
 - **WebURL:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
 - **Repository:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
-- **Stars:** 8602
-- **Version:** 0.13.5
-- **Updated:** 2024-10-29T00:34:01Z
+- **Stars:** 8606
+- **Version:** 0.13.6
+- **Updated:** 2024-10-29T17:40:38Z
 - **Size:** 27.2 MB
 - **SHA256SUM:** 210dc279aa8055ca78dc2adad9633fdf87fd7f79f39230e9417b41c3146e3b95
 - **B3SUM:** 69da5a0999c24fe2c57aa10d3a2685c3dff1d29ad1a968d3e7e6a292f9628eda
@@ -3946,9 +3946,9 @@
 - **Author:** loft-sh
 - **WebURL:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
 - **Repository:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
-- **Stars:** 8981
+- **Stars:** 8990
 - **Version:** v0.5.21
-- **Updated:** 2024-10-29T09:48:14Z
+- **Updated:** 2024-10-29T16:57:41Z
 - **Size:** 73.17 MB
 - **SHA256SUM:** 79860e35c774b5146d6599827d4c47982905ff0140ce2650c9da69988d04b6dd
 - **B3SUM:** 734407c94aa2943334956ad107cabff1fc6deb5cff8d0530306638b8fdd523f9
@@ -3990,8 +3990,8 @@
 - **Version:** v0.4.2
 - **Updated:** 2024-10-24T15:14:30Z
 - **Size:** 1.74 MB
-- **SHA256SUM:** 6e7ec9f89fe57c2ed3d2160217609d66021c87e0708cc56edea6bb95c52ceda8
-- **B3SUM:** 731c49853f1905de045bf3aea82622aa0ee5f96ad720a7a80f1fd087d553af6a
+- **SHA256SUM:** f31a12a916da6498b31b312eaa597eb4b317025e585de3b35971ab9692a0a8b9
+- **B3SUM:** 9947fbf358a0b79b1f41de1b6e11d656a98d8f9f1be87c50375e260e71eace14
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/diffutils-rs
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -4006,7 +4006,7 @@
 - **Author:** direnv
 - **WebURL:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
 - **Repository:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
-- **Stars:** 12484
+- **Stars:** 12490
 - **Version:** v2.35.0
 - **Updated:** 2024-10-28T07:48:53Z
 - **Size:** 6.62 MB
@@ -4034,6 +4034,26 @@
 - **B3SUM:** c63fa983c56ebb07b46c00fb1ebdb8e87b796bb9487c3b71ab74bc3e90f622c4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ds
 - **Language:** Rust
+- **License:** MIT License
+
+---
+
+### dive
+- **Log:** 
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/dive.sh
+- **Description:** A tool for exploring each layer in a docker image
+- **Note:** 
+- **Author:** wagoodman
+- **WebURL:** [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive)
+- **Repository:** [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive)
+- **Stars:** 46063
+- **Version:** v0.12.0
+- **Updated:** 2024-07-15T05:05:37Z
+- **Size:** 9.87 MB
+- **SHA256SUM:** 82e9ae253686f83dd8f12ed203f74a625031cf406bde5b39c10bb02a02dd0b7f
+- **B3SUM:** 7ccd9ba9bcf95d6a9cafa9dad419fba1fe4116a3c6772ad20c039de5220b2fbf
+- **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/dive
+- **Language:** Go
 - **License:** MIT License
 
 ---
@@ -4090,8 +4110,8 @@
 - **Version:** 
 - **Updated:** 2023-09-10T07:45:53Z
 - **Size:** 4.24 MB
-- **SHA256SUM:** df78694aaaa72c18683170d004b3d26a9fce9679616f44da7cdbf812caa2f4a7
-- **B3SUM:** 768e7af1cac51b82962cc556882abdce3d2b0f3c56e19792cba1b2c792236d6d
+- **SHA256SUM:** 5f27e4273589de01b709d9bccb6bcc0bdb94277ff27698d8ae987cf490801f60
+- **B3SUM:** 7da1a0b8a91af737f4bcf9f9740b2c8b428186dcc9cd21c5524624fc89068e2b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/dns-doctor
 - **Language:** Go
 - **License:** MIT License
@@ -4126,7 +4146,7 @@
 - **Author:** DNS-OARC
 - **WebURL:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
 - **Repository:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
-- **Stars:** 406
+- **Stars:** 407
 - **Version:** v2.14.0
 - **Updated:** 2024-08-22T13:22:26Z
 - **Size:** 4.89 MB
@@ -4146,7 +4166,7 @@
 - **Author:** DNS-OARC
 - **WebURL:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
 - **Repository:** [https://github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf)
-- **Stars:** 406
+- **Stars:** 407
 - **Version:** v2.14.0
 - **Updated:** 2024-08-22T13:22:26Z
 - **Size:** 4.89 MB
@@ -4190,8 +4210,8 @@
 - **Version:** v0.1.1
 - **Updated:** 2023-02-13T09:08:15Z
 - **Size:** 5.33 MB
-- **SHA256SUM:** a46db6b1888f265b3388ed2b7a5054abc972c589772a692749bb5a2bced4a234
-- **B3SUM:** 704665b2d5a1880ae95da03503aca8c87f9dcf40053067e304bc1b8c0eec000d
+- **SHA256SUM:** afba8231e8d6d226a27d9143b0e5216c47e2401dd4295f4ab161961a9e44899f
+- **B3SUM:** 304403577471ef4e82a188cba1631149a7785352980ef6ecd51497035c29b1e5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/dnstake
 - **Language:** Go
 - **License:** MIT License
@@ -4206,7 +4226,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/dnsx](https://github.com/projectdiscovery/dnsx)
 - **Repository:** [https://github.com/projectdiscovery/dnsx](https://github.com/projectdiscovery/dnsx)
-- **Stars:** 2165
+- **Stars:** 2167
 - **Version:** v1.2.1
 - **Updated:** 2024-10-28T02:31:27Z
 - **Size:** 27.23 MB
@@ -4246,9 +4266,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 38.44 MB
 - **SHA256SUM:** 3d866d7ca8b871efd4bf4571de68b496710b04eb551146965bf65d100838fe0a
 - **B3SUM:** 63d082ef8242d7eb652a895bfd7847f6dbdd0e2171032a5635393e7f69c81eda
@@ -4266,9 +4286,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 12.52 MB
 - **SHA256SUM:** 84778d0bdc5365ddf263bfc4547ca3ca0ad8d0454085756d683adeca52358621
 - **B3SUM:** d826e817648cff9d3202de4a7301f1bef04afe24a7356c36ac3c062aa808b7cf
@@ -4286,9 +4306,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 19.11 MB
 - **SHA256SUM:** 845dd20e9c9675bffacd5be6e53ee259b9a60e4188ddd9f280981f0c9b470f81
 - **B3SUM:** 03ba678bab0f0acf0e5d412a45bfc54f950f0452d16ca8c3366fd9f20249bd32
@@ -4306,9 +4326,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 25.65 MB
 - **SHA256SUM:** 124d774fb4e4ace79f707bd3bb0f6142f1c7cd278a843535df7bd344466de512
 - **B3SUM:** ab23afa4ed2e3ce8c9431f71a56186796bc8f598feda974e21d86652171a84f1
@@ -4326,9 +4346,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 601.29 KB
 - **SHA256SUM:** 2914711e19b79e2ec98ece26296032dedf8c0f559530ee8930b90a4c8fd022bf
 - **B3SUM:** 22af176a91001e889f4ecb2d082565161799235dbcaeacbfd9fdcb4aba1aff18
@@ -4346,9 +4366,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 1.95 MB
 - **SHA256SUM:** 3f5360c9605916411c20376de3d4dd903c7d5ef9c02ae7a0b2e22efbc400ac5e
 - **B3SUM:** 734e057951da38d5623f1ab1806752574ce2a6d67de3f143f2f67ba30872587b
@@ -4366,9 +4386,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 60.76 MB
 - **SHA256SUM:** a94cefb113f7e6eade0ea54f9d7bdc10721b34d897cb90b17906713cec3ddd0c
 - **B3SUM:** bebda94462f1d9f5862ecb55ae524d81c381d67d314412462036f788dd493a43
@@ -4386,9 +4406,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 14.97 KB
 - **SHA256SUM:** ef57a31a999b3e6845355c78c160a70de1a4b1985ae82c2e15f394e57bb2e1e1
 - **B3SUM:** a27f6d0ad3ba58e9ad6cad063790a8eda02676b1eb4257bb73808c15176a998e
@@ -4406,9 +4426,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 7249 B
 - **SHA256SUM:** f2e515d1e635a110c95d939a9ef115725317ea2c3e752469ea4ca0e3dcc12ea1
 - **B3SUM:** 9f4ed7f0ac51557fa72af473ff7e48be3fdc74e9fcd92abc3b179cd42d5f0a50
@@ -4426,9 +4446,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 8.55 MB
 - **SHA256SUM:** 0618c36d02ed73584dec9debcc288fb663dc2582c19c4070bf9867d9311bc4db
 - **B3SUM:** ac3faa1007327c07ed3d635a9ee5595c4c44ebfe82a84b3ad532cd2b59398b9e
@@ -4446,9 +4466,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 5.06 MB
 - **SHA256SUM:** c22ec68112e981326ad34ca946692cb840c49965cc23859f2f6f48267b74ac13
 - **B3SUM:** e4b133ac2d5ed82494cb604ed9e204d4696fab18accf015cc9dbe736835ab351
@@ -4466,9 +4486,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 10.71 MB
 - **SHA256SUM:** 3d4f66dc1d91f1b2a46713d185a506a604f1fe9f2f2b89c281eb1c5c13677ff0
 - **B3SUM:** 3393a4d3563a17d99982c42ccca4d7779245aef1a90bed4f906fcc0fd778d86f
@@ -4486,9 +4506,9 @@
 - **Author:** docker
 - **WebURL:** [https://github.com/docker/cli](https://github.com/docker/cli)
 - **Repository:** [https://github.com/docker/cli](https://github.com/docker/cli)
-- **Stars:** 4914
+- **Stars:** 4913
 - **Version:** v27.3.1
-- **Updated:** 2024-10-25T15:38:47Z
+- **Updated:** 2024-10-29T16:58:16Z
 - **Size:** 29.89 MB
 - **SHA256SUM:** a3fcb65e21646a9f985bdae154fa8d80227269dd27259ffac071063060c53a11
 - **B3SUM:** 75849fe9710eadda74f812a49ace271b91fb472209f7e86e6753aca4a8082543
@@ -4506,7 +4526,7 @@
 - **Author:** NilsIrl
 - **WebURL:** [https://github.com/NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
 - **Repository:** [https://github.com/NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
-- **Stars:** 3037
+- **Stars:** 3042
 - **Version:** v0.3.2
 - **Updated:** 2024-10-28T17:33:16Z
 - **Size:** 67.47 MB
@@ -4526,7 +4546,7 @@
 - **Author:** mr-karan
 - **WebURL:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
 - **Repository:** [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
-- **Stars:** 3053
+- **Stars:** 3055
 - **Version:** v1.0.5
 - **Updated:** 2024-09-30T09:30:59Z
 - **Size:** 10.93 MB
@@ -4628,7 +4648,7 @@
 - **Repository:** [https://github.com/dotenv-linter/dotenv-linter](https://github.com/dotenv-linter/dotenv-linter)
 - **Stars:** 1831
 - **Version:** v3.3.0
-- **Updated:** 2024-10-29T11:54:50Z
+- **Updated:** 2024-10-29T13:57:29Z
 - **Size:** 3.39 MB
 - **SHA256SUM:** f3abeec8d41aafa7395a41f367a6fd37712ff9c9b943f86932d39de8d521c431
 - **B3SUM:** 8740e6ef8b60a327c6cc0746f87b01b6f86d4fbf6496be50781f54ef5ea4a46f
@@ -4650,8 +4670,8 @@
 - **Version:** v0.6.0
 - **Updated:** 2024-09-14T11:28:12Z
 - **Size:** 6.36 MB
-- **SHA256SUM:** 2dc3bae2312a81f39d0af6e530a6649224cd489057e8a070a516e99752f91bb6
-- **B3SUM:** 41273329f4b6e1f71f734421a5fc4b03b8d6e219c69d6fa5514e77f8cd9aa4db
+- **SHA256SUM:** a54f53b32e1e908dd22e0bd4799c48692e42f2b89f760297625408a98e1e4008
+- **B3SUM:** 1d5383f5b19016ab91815cd54e5cf80abc0c7d271493509c2c68a66cce305570
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/dperf
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -4686,7 +4706,7 @@
 - **Author:** muesli
 - **WebURL:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
 - **Repository:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
-- **Stars:** 12842
+- **Stars:** 12843
 - **Version:** v0.8.1
 - **Updated:** 2024-07-30T09:50:14Z
 - **Size:** 2.24 MB
@@ -4706,7 +4726,7 @@
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 6244
+- **Stars:** 6249
 - **Version:** v0.42.0
 - **Updated:** 2024-10-27T23:37:22Z
 - **Size:** 3.53 MB
@@ -4726,12 +4746,12 @@
 - **Author:** tkellogg
 - **WebURL:** [https://github.com/tkellogg/dura](https://github.com/tkellogg/dura)
 - **Repository:** [https://github.com/tkellogg/dura](https://github.com/tkellogg/dura)
-- **Stars:** 4269
+- **Stars:** 4270
 - **Version:** v0.2.0
 - **Updated:** 2023-10-02T00:18:51Z
 - **Size:** 7.68 MB
-- **SHA256SUM:** a62722485bceb5797421585aca6b54f4d9f90c034aec1a45ac5d56a8e6cdb73e
-- **B3SUM:** 78fbc5b55a8de16d5fb36871fdf413f197bf787e9c257cb70c2a70842e536277
+- **SHA256SUM:** 353142ada2c40de2f57f1f1134ef612bc4500216601046354a1f895ed4ebaec7
+- **B3SUM:** 6b0d0bb559d69b364542ce576db0eb0d401916dd17e1e8d4d7e0c9bdf2cac939
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/dura
 - **Language:** Rust
 - **License:** Other
@@ -4746,7 +4766,7 @@
 - **Author:** bootandy
 - **WebURL:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 - **Repository:** [https://github.com/bootandy/dust](https://github.com/bootandy/dust)
-- **Stars:** 8830
+- **Stars:** 8834
 - **Version:** v1.1.1
 - **Updated:** 2024-10-17T22:03:35Z
 - **Size:** 2.41 MB
@@ -4810,8 +4830,8 @@
 - **Version:** v2.0.1
 - **Updated:** 2024-07-15T18:13:25Z
 - **Size:** 1.69 MB
-- **SHA256SUM:** eeab72a0107f8b7fb92d324ded837fe8315bfa56fe1f8d78af28f720c5fd6df0
-- **B3SUM:** 90a73543bd239abd62ff2928c35160496b659560126895dc871ef69879e3532a
+- **SHA256SUM:** fd2f24ac9f89d7210ac4e9ca4aab8820f13cd624311b98baa7d8f1af4bf06ad9
+- **B3SUM:** 3692ee23c5108e26f0acedda40727f4e7b82fad0371e1bc8956585de1476a400
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ecoji
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -4828,7 +4848,7 @@
 - **Repository:** [https://github.com/mudler/edgevpn](https://github.com/mudler/edgevpn)
 - **Stars:** 653
 - **Version:** v0.28.3
-- **Updated:** 2024-10-23T18:38:22Z
+- **Updated:** 2024-10-29T22:46:32Z
 - **Size:** 31.05 MB
 - **SHA256SUM:** b519d1252fab2a19849ca57994c4d3ae5b31a538c739c2a2c391fb1cd5ced131
 - **B3SUM:** e5f9fb6d27b117dddffb32f863f7d2cce3148ca524a97d025fb30122bf4d768c
@@ -4846,7 +4866,7 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
 - **Repository:** [https://github.com/zyedidia/eget](https://github.com/zyedidia/eget)
-- **Stars:** 1014
+- **Stars:** 1015
 - **Version:** v1.3.4
 - **Updated:** 2024-07-09T06:03:04Z
 - **Size:** 7.59 MB
@@ -4890,8 +4910,8 @@
 - **Version:** 领先
 - **Updated:** 2024-03-06T09:29:38Z
 - **Size:** 11.3 MB
-- **SHA256SUM:** d2a99743f0a032c2fd6069ff4461141c4f304d3741514b7fe7a228ffc122f13e
-- **B3SUM:** 4c6fdb9fe79cd0c81cea994840f0c9450ae25f2a13038c15a5698b9ad65aed8d
+- **SHA256SUM:** 98b8f3e1796f9849b61449aee901f6b2291d9dcafdba2535f1368706c8ab0e25
+- **B3SUM:** 690963781196a36d4f167230de4154fe53d9061cbeccba560d9a6f1897677f09
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ehole
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -4926,12 +4946,12 @@
 - **Author:** elves
 - **WebURL:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
 - **Repository:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
-- **Stars:** 5671
+- **Stars:** 5672
 - **Version:** v0.21.0
 - **Updated:** 2024-10-21T16:36:38Z
 - **Size:** 7.02 MB
-- **SHA256SUM:** 228365e0015a3a861fc0b49b383391cffa714b1863cfabf956450170151aa433
-- **B3SUM:** d725f409adff69aa2892a38ffb0899f7660d344ad6b5abe1689802484389f696
+- **SHA256SUM:** 390364a08275259b6dae25cb0cf0ec1426c3672cb1e1989f19df6bc95828a8cf
+- **B3SUM:** 4044695833119c0be5c346d63206408313bcff75bf731e40cd310a9b58879d08
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/elvish
 - **Language:** Go
 - **License:** BSD 2-Clause Simplified License
@@ -4970,8 +4990,8 @@
 - **Version:** 
 - **Updated:** 2023-08-23T16:10:40Z
 - **Size:** 2.62 MB
-- **SHA256SUM:** d6aa5b6f132be3b6a27332b03203ec2616a1a1a73f264450c94e95e0de8ae6d9
-- **B3SUM:** e13a67b2ef6256037d1502e168862ebc0b653939e7c4cff82134f29b1e9d7d81
+- **SHA256SUM:** 5759af48c59b2de4fbcb648e72ff05261c15eca634a7b93ab137ec6659597bd3
+- **B3SUM:** 8bce2243f9b9cb2f76bfd03d5c99552be370f8f2dd35700885a8f16dfc5e05cb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/encode
 - **Language:** Go
 - **License:** MIT License
@@ -4989,9 +5009,9 @@
 - **Stars:** 969
 - **Version:** 0.9.16
 - **Updated:** 2024-10-25T11:56:59Z
-- **Size:** 2.55 MB
-- **SHA256SUM:** f316e2ac2a53b67899b2a0be87fd7b5711846a1610e4520c3decc8054cb78020
-- **B3SUM:** 1d6ddfe8e69c9cd7357fe62bf20907c966f1e05f7ae2b561cefc7f6be4242f15
+- **Size:** 2.54 MB
+- **SHA256SUM:** 028330d22dc4122444d679bc490b24ca4282c8b61488941d481d920f255c8e8c
+- **B3SUM:** 248d22bb7bfb0d233914dd3830c69855d5efa82c2ba72111b44af2aa6d31568b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/encrypted-dns
 - **Language:** Rust
 - **License:** MIT License
@@ -5006,12 +5026,12 @@
 - **Author:** TheYahya
 - **WebURL:** [https://github.com/TheYahya/enola](https://github.com/TheYahya/enola)
 - **Repository:** [https://github.com/TheYahya/enola](https://github.com/TheYahya/enola)
-- **Stars:** 600
+- **Stars:** 601
 - **Version:** 0.3.2
 - **Updated:** 2024-09-11T03:19:48Z
 - **Size:** 8.77 MB
-- **SHA256SUM:** 803a53f79fe944bf3474456f554dbefbac6b42c57889c20643a2697ee9a3a24f
-- **B3SUM:** 2315927b6713c4669de736ef24fdaea66c288d867dc92aac7b701d00160a4e45
+- **SHA256SUM:** 7cf35dd80efc62909a6439d68fe228b55b849f8c1060247cb370f9e6d1628c35
+- **B3SUM:** 5602e4c45be9413f49a8d783b77dd7e08f5940107a259fc96e0cabf152ce3a82
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/enola
 - **Language:** Go
 - **License:** MIT License
@@ -5026,7 +5046,7 @@
 - **Author:** eradman
 - **WebURL:** [https://eradman.com/entrproject/](https://eradman.com/entrproject/)
 - **Repository:** [https://github.com/eradman/entr](https://github.com/eradman/entr)
-- **Stars:** 4575
+- **Stars:** 4577
 - **Version:** 5.6
 - **Updated:** 2024-09-27T07:53:09Z
 - **Size:** 132.85 KB
@@ -5070,8 +5090,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-10-04T08:03:16Z
 - **Size:** 1.76 MB
-- **SHA256SUM:** e9ae047a8314315420f1d738ebe578a7970e8e78bca504c68fa530c6b5a37deb
-- **B3SUM:** b7dcff6914e21b6a73a8394537097b9f8767c336f15e26634a14980f5e3360bf
+- **SHA256SUM:** 9772a2decb4186dbf6db7cb0da28877e07850eccdfcc7921c914bc4865070a3d
+- **B3SUM:** 0d579eb0871d5ceffdb92f81c804cc0ead4ed78ddd1802bd36448d37f8538ab5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/epoch
 - **Language:** Go
 - **License:** MIT License
@@ -5086,7 +5106,7 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47705
+- **Stars:** 47707
 - **Version:** v3.5.16
 - **Updated:** 2024-10-29T08:41:49Z
 - **Size:** 22.86 MB
@@ -5106,7 +5126,7 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47705
+- **Stars:** 47707
 - **Version:** v3.5.16
 - **Updated:** 2024-10-29T08:41:49Z
 - **Size:** 17.35 MB
@@ -5126,7 +5146,7 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47705
+- **Stars:** 47707
 - **Version:** v3.5.16
 - **Updated:** 2024-10-29T08:41:49Z
 - **Size:** 14.51 MB
@@ -5149,9 +5169,9 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 79.12 MB
-- **SHA256SUM:** 4d6901f7b0499f8f91c0f10f47de370dcbfd78316ae07deb72f51f6e6773f538
-- **B3SUM:** 81a4460e9a770a29709006d0b279f18ea1543ee350d8244f95a88b8de6f8ec93
+- **Size:** 79.26 MB
+- **SHA256SUM:** 32cfc11aa3e6d66daadaee0c610e34f6e34a2ea96c0fbb91400b1eaf91f257dc
+- **B3SUM:** 809b9d59e16fe7ca736a6449f6b2a99b1ce772123868d8f0adf018838e73235c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eweos.no_strip
 - **Language:** 
 - **License:** 
@@ -5166,12 +5186,12 @@
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
-- **Stars:** 1907
+- **Stars:** 1908
 - **Version:** v1.3.0
-- **Updated:** 2024-10-28T23:42:57Z
+- **Updated:** 2024-10-29T15:40:00Z
 - **Size:** 18.92 MB
-- **SHA256SUM:** 6ac9267f267ce4bee6ef09a2864b169d3d4c7b1f4746c0302ade6e5d8dd300bd
-- **B3SUM:** 6d9c157784fc0b3e3ecb6d7d386a650102db9c6e55fe7e15256f70d98dc888bb
+- **SHA256SUM:** 9f308717a60e00bfc6168b510aa3536d2e6aea56f8a6fb221fb0e82d458bbdaa
+- **B3SUM:** 80dd5978374734cb32efe3e99c25a9783b27d60136d25dc5e1faa01eb0b238ae
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/exatorrent
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -5186,9 +5206,9 @@
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
-- **Stars:** 1907
+- **Stars:** 1908
 - **Version:** v1.3.0
-- **Updated:** 2024-10-28T23:42:57Z
+- **Updated:** 2024-10-29T15:40:00Z
 - **Size:** 18.72 MB
 - **SHA256SUM:** 283fddbc7be2a8d90f0e12227de69aa2a993b28028a22e461ce8611b5e2e8e83
 - **B3SUM:** 5a5d35fe98d332999c301cb9fe4d0707a4891d9b7795266288de90a5f232b2b3
@@ -5210,8 +5230,8 @@
 - **Version:** v1.0.0
 - **Updated:** 2024-07-14T13:38:18Z
 - **Size:** 7.16 MB
-- **SHA256SUM:** 8cca0be26e388210ff867a90d18119ff7f4a75c27c759d61bb3b14225a485509
-- **B3SUM:** d90bf71bb28cb6f63ae2fdc38d9b760a92d798c590fbe1e9cc63e08fd0ff7811
+- **SHA256SUM:** cfb552a580ccc42b2893d49b3b22fc83d842ffc9d85b4503dff9b0abd0edd71c
+- **B3SUM:** 82d27c364da7d538166fcb3cfc01189401c03eb64839b1c81a134f58e905416a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/exiflooter
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -5226,12 +5246,12 @@
 - **Author:** eza-community
 - **WebURL:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
 - **Repository:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
-- **Stars:** 11910
+- **Stars:** 11916
 - **Version:** v0.20.5
 - **Updated:** 2024-10-29T13:31:35Z
 - **Size:** 2.28 MB
-- **SHA256SUM:** a76e03b12352a4df33b00012bc85259fe59f52f00a11f28d5b1b64e4970ede10
-- **B3SUM:** ebd54719b08e8333a58f94b3a721fa28b445feb70f6c5f9bf2f1e7027423c20f
+- **SHA256SUM:** e5142c2323a67edea102dc52814a5cb92cb58d761b3dda521ca4bf8d4e5ca464
+- **B3SUM:** af4e2665595647fb817057e0f894c72334474ad94d77d13f8e50d0898c9579ff
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eza
 - **Language:** Rust
 - **License:** European Union Public License 1.2
@@ -5266,12 +5286,12 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 10429
+- **Stars:** 10442
 - **Version:** 2.28.0
 - **Updated:** 2024-10-29T01:22:19Z
 - **Size:** 1.84 MB
-- **SHA256SUM:** 198ec4d3d9f64fa23397f09235270c5671c69a4a218d1534c89a992dfcb8e397
-- **B3SUM:** 65e6e1bcd72ad641452b108d318017226bb2f741012e6c61c8d819ab089989e9
+- **SHA256SUM:** aa2071ad55c7d4db730b46aa5f689ead085d11fe1e37c5e5f67100cb2c728745
+- **B3SUM:** cae60207bfe7f1bc0bf20d5e7169058f21dc8954e3a5532a3a3e612da294c73d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fastfetch
 - **Language:** C
 - **License:** MIT License
@@ -5286,12 +5306,12 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 10429
+- **Stars:** 10442
 - **Version:** 2.28.0
 - **Updated:** 2024-10-29T01:22:19Z
 - **Size:** 1.65 MB
-- **SHA256SUM:** ceb5962c310201ef660bf62d7e67c995a3d1259f4c2717ff58bb835883842d85
-- **B3SUM:** b55a12773d720cc4b2c73bfaa11246f5b3d3d5b367318af5e283cdbdfbdf5c56
+- **SHA256SUM:** d922b5223d5831654f52049b43a74ec6df1723a22afa627b2a3ed1f65a11718c
+- **B3SUM:** 47a3caaa706e2b115fbcf4918e81d1ed87808965dce802b4cf5fbb4cae463c03
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/flashfetch
 - **Language:** C
 - **License:** MIT License
@@ -5330,8 +5350,8 @@
 - **Version:** v0.34.0
 - **Updated:** 2024-05-30T08:00:55Z
 - **Size:** 4.26 MB
-- **SHA256SUM:** e8b81c0d820bc5b003a771b7c0fa0d4e821498d2fb0533edcaaec25b323ae6b1
-- **B3SUM:** a80eba15fd0308a063f4d176a36eea5304ad6b50f21c362c21905b3da2c6fbb9
+- **SHA256SUM:** 5ac0c7cde786fc9b84827252caa9232a67ed99cbd03b673e8b29157f161fd1e6
+- **B3SUM:** 11dd581c22ec960c7c08bd6cd45af1fa4d7d07bc3e7c231244edae636d791475
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fclones
 - **Language:** Rust
 - **License:** MIT License
@@ -5346,7 +5366,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- **Stars:** 33890
+- **Stars:** 33899
 - **Version:** v10.2.0
 - **Updated:** 2024-10-06T20:25:02Z
 - **Size:** 3.44 MB
@@ -5366,7 +5386,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- **Stars:** 33890
+- **Stars:** 33899
 - **Version:** v10.2.0
 - **Updated:** 2024-10-06T20:25:02Z
 - **Size:** 3.44 MB
@@ -5410,8 +5430,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 87.62 MB
-- **SHA256SUM:** b5d0fe466473df5997e7a6b73a6cf6cd73b4a2caa1de4349f8c1ebba06f167de
-- **B3SUM:** 84d01f546af90fbbcef0a245e9f9d38320bd4b7b3962ed953ff18db5fc50fe3e
+- **SHA256SUM:** f0e9a4ddf2d2be6f5ae9f47c7a60a0df8358819d68cc27385be381a26d22f529
+- **B3SUM:** 69eca5932cc40ea75a97af53ab59efa067294856d0e3b812cef49668bda4814b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fedora.no_strip
 - **Language:** 
 - **License:** 
@@ -5426,12 +5446,12 @@
 - **Author:** epi052
 - **WebURL:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
 - **Repository:** [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster)
-- **Stars:** 5913
+- **Stars:** 5914
 - **Version:** v2.11.0
 - **Updated:** 2024-09-15T11:36:18Z
 - **Size:** 10.97 MB
-- **SHA256SUM:** 71648ee27982762dfe244cc1ad1027724bfca38574a225b8fd8ddf38483bf16c
-- **B3SUM:** b72b9ae4c443dea40a9284556644ba88c70f60cb67e2c7ced03e8f262103eb6d
+- **SHA256SUM:** da703d4d64ffa7352c0d4bc0ba1c69084c60e442073b46d2544a79638785dc4c
+- **B3SUM:** f670c17a72faddeb67aa17603f7180da0fee58cbd36b1e3e9b24023e94ab29b9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/feroxbuster
 - **Language:** Rust
 - **License:** MIT License
@@ -5486,7 +5506,7 @@
 - **Author:** ffuf
 - **WebURL:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
 - **Repository:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
-- **Stars:** 12555
+- **Stars:** 12560
 - **Version:** v2.1.0
 - **Updated:** 2024-06-30T06:46:22Z
 - **Size:** 7.82 MB
@@ -5510,8 +5530,8 @@
 - **Version:** 
 - **Updated:** 2024-09-16T10:16:46Z
 - **Size:** 2.27 MB
-- **SHA256SUM:** 813cbea81172839e51cfd84fae4b0992adbc2090807732165f88d44b930ec1d9
-- **B3SUM:** 8ef19408a425246a3cc720fdaeaddbce557216018a27740016491a1c847eb6eb
+- **SHA256SUM:** c148de4ac2bab64e357cca32bb3f0484a828aed4906cd5081ed544e232ff6bf2
+- **B3SUM:** 5b958aacf2e5c5a3e9f3e8a059e30f130ed4714c32c7702e9a7efbd9b270cba0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ffufPostprocessing
 - **Language:** Go
 - **License:** 
@@ -5530,8 +5550,8 @@
 - **Version:** 
 - **Updated:** 2024-04-25T12:03:23Z
 - **Size:** 13.2 MB
-- **SHA256SUM:** 841fb6408e469d7cb92ba55ab62cb17d497b5ab3857da98a8540b422f1fd06e4
-- **B3SUM:** 4799b174e222fc6851e18188870c0450143765e922a1e7e670d7923b4ef38495
+- **SHA256SUM:** faed8ba27a11e36cfa5d64b7137b3201f552720ef61212d569a08102a4dff563
+- **B3SUM:** 09ed5417bb1a63e3850323aaacb252abeae7caf9beac66dfd877c530b03750e5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ffufw
 - **Language:** Go
 - **License:** 
@@ -5550,8 +5570,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 4.99 MB
-- **SHA256SUM:** e1fb3a7a34fb1a10162fb4e733007ad673c7ad2693c5ea937f3efe0cdeea1359
-- **B3SUM:** 2fb1a7207f395805dce491d9283b11c418365a55c52b64809f9dda199079edf5
+- **SHA256SUM:** 39e1e9ff618e40a1ef06940fd6def83b68a88169dc4b812b860dd9479dba711a
+- **B3SUM:** 018b7a4034f2be0662c20fe6eb2cf043f180a09a381f2b1c44e67e9c4b366807
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fget
 - **Language:** Shell
 - **License:** The Unlicense
@@ -5586,7 +5606,7 @@
 - **Author:** filebrowser
 - **WebURL:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
 - **Repository:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
-- **Stars:** 26569
+- **Stars:** 26574
 - **Version:** v2.31.2
 - **Updated:** 2024-10-03T13:11:27Z
 - **Size:** 16.45 MB
@@ -5626,12 +5646,12 @@
 - **Author:** Findomain
 - **WebURL:** [https://github.com/Findomain/Findomain](https://github.com/Findomain/Findomain)
 - **Repository:** [https://github.com/Findomain/Findomain](https://github.com/Findomain/Findomain)
-- **Stars:** 3302
+- **Stars:** 3304
 - **Version:** 9.0.4
 - **Updated:** 2024-02-17T09:45:20Z
 - **Size:** 16.48 MB
-- **SHA256SUM:** 67408ddc66fa39e211850154e768c208f88b3f82928887ab98d56deeecaf03a3
-- **B3SUM:** 5d7d2162f715c25e14839a4d9b6a52cf5834561e4c5ac3b859e052c8640994bd
+- **SHA256SUM:** 5426983802a2ff6150aaccb1e706166d23538ab31ccdd94f1437f7cc018a045a
+- **B3SUM:** 69c028770f0632c65c14b65aa3ca357343eff2f2e8e0e62f8e8e99e07bd5342a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/findomain
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -5650,8 +5670,8 @@
 - **Version:** 0.7.0
 - **Updated:** 2024-10-25T05:03:51Z
 - **Size:** 3.08 MB
-- **SHA256SUM:** 1a566e9bfbe6258f4bad38b9ed28f8295b1bc565d7c7e50a89fe6fb1e1eab43a
-- **B3SUM:** 21f6b13198ddb7cefa1cc2bc820433c5f9188f8ab15acb5366539c1f7814898f
+- **SHA256SUM:** 82bc10543faf4275642f6e6c0405ddb266bb09c2d20b8a1d0c6262ea9c9848d5
+- **B3SUM:** 80a63f98a9a30faaeb32390c7b35ab1d1ca8475a8bff023e5b061857422216e3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/find-rs
 - **Language:** Rust
 - **License:** MIT License
@@ -5670,8 +5690,8 @@
 - **Version:** 0.7.0
 - **Updated:** 2024-10-25T05:03:51Z
 - **Size:** 1.36 MB
-- **SHA256SUM:** 3aecbf1a3b2eb749a7cddacebd483d9dd4d2948877b17c914650732438278693
-- **B3SUM:** b7a583547c3fd6bf181ad57202d452a5d3b073bd91f6c62b439377328c66230e
+- **SHA256SUM:** 0120cd14681ff2d3b0f3db111303c230f848791de75e477a60ae14841e44308a
+- **B3SUM:** dec477647363fff58e159c57c05ea477ba33f9aeade643d0e11669bc2ae9862b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/xargs-rs
 - **Language:** Rust
 - **License:** MIT License
@@ -5709,9 +5729,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 36.28 MB
-- **SHA256SUM:** b2654368805d7885203cc51022d7e46e6c9baa625303277d7ae0ca49578b5458
-- **B3SUM:** 42f54a766610b25d0adc6713b3b932df1a55afe77182b7c08adbb846e11aeff9
+- **Size:** 36.37 MB
+- **SHA256SUM:** 13e7e46f2e065f4764faf7a258c4644bf9f904789040f571dcdbc0f48f69f5ad
+- **B3SUM:** e7bf8a4f86ae62dc766a6cb4e37b8ada156f8fdecea79fbcb89c03de8ac5e648
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/alpine-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5729,9 +5749,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 252.51 MB
-- **SHA256SUM:** 45d3c59f4b1a9fdfa4a0cdc80ee22f529cc0f4ac73303d49a4e728749f608729
-- **B3SUM:** dff77d757a985cb56b178d03e73016e95ecbccf6369350ccb727fd7c1051b088
+- **Size:** 159.24 MB
+- **SHA256SUM:** 4d06a298a0370637181eb0a164abe330a9082d6cd781fb611fe2b46e244a5822
+- **B3SUM:** eab073ef6cef6f4be476a149084e6e2e7e152787f9c6740699cfa96c06c467cc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/archlinux-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5749,9 +5769,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 121.11 MB
-- **SHA256SUM:** fa2ed8ac80e3a7898d9646041bbd2d502d6c29666b52f815d1648c3961a66db1
-- **B3SUM:** c025f0d66af0f03b6fd04e8c5944edc97e4d53e98762a51dae1825e2394eeb66
+- **Size:** 141.52 MB
+- **SHA256SUM:** dd199430b070e77d78c08aabdfdbcb1cb92e37cc02de375f32e236033f83b3b6
+- **B3SUM:** e4745cf1fcba8dd9280395df55c39085625922b08291ed5d427af28890de0ee9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/artix-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5769,9 +5789,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 25.99 MB
-- **SHA256SUM:** 369ccaa425963c0d2ee32a1f8fd53d5553dbffc9f6df05a38138c6cda647fbfd
-- **B3SUM:** 73caace175cf29ae4c0e1589bc892b4d480c870bc27a3b8cf3b9630922cf7f8e
+- **Size:** 26.07 MB
+- **SHA256SUM:** 700e0b8aa4ea39599e47e857dc2aadfdfb69cd120c4541ab3b87499c78a66da6
+- **B3SUM:** dff33b1aac417c65b579e554c3104488e3ba364566da8e6dfbca0b21314a6051
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/blueprint-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5789,9 +5809,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 43.89 MB
-- **SHA256SUM:** 0cdd98ade213f8ba1553c996a382f5c242f167414edf2c30a4c2bb721db5c6f8
-- **B3SUM:** be9cf0df07b6204e14873b11a5f5b94efbfe92fe4472400f563f20a6bec30e92
+- **Size:** 43.97 MB
+- **SHA256SUM:** 8f5e7506dbfec11553a1017c9f300b56f9fc033863e1a7c0bff6f673afcfdab7
+- **B3SUM:** cc618b8e56b71617d9043d2f83768e25c49286916aa26d5d9cc4d7636c03faf4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/debian-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5809,9 +5829,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 88.19 MB
-- **SHA256SUM:** 0ce1e1bae8fd98fb11a94bc2088a20e00239166a81c6245c919b9aa833a70cea
-- **B3SUM:** 17ca647cfd05b49e723ec44112afcfb7ed0a24320dc6a66df271edaec9db06e3
+- **Size:** 88.23 MB
+- **SHA256SUM:** 97b36bba276463411d63ef448049c3f3ef24b86586519982d90074fc7e014617
+- **B3SUM:** 5f5ba1c083d060c8909475501bddf790534b03102d68fec8e3ddfc718e7f0bfc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ubuntu-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5829,9 +5849,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 68.31 MB
-- **SHA256SUM:** b61b281b007e0e59c58bdb232a35f9b8eaec5a6608b67531f6e518376b340e30
-- **B3SUM:** 6826d70dd2ff3e2c7b35c97401e08a38a7a0da88fa0c7ee61af81e0a04844825
+- **Size:** 68.51 MB
+- **SHA256SUM:** c5cc5c31eb2fc1cdd4442278446e024726191f0d81140710b66297750fd16759
+- **B3SUM:** 36f0b55cf977f72d9de12198d1591128b717cb7e6d228cee331072c8ce129995
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/void-glibc-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5849,9 +5869,9 @@
 - **Stars:** 71
 - **Version:** v1.0.5
 - **Updated:** 2024-10-27T19:09:46Z
-- **Size:** 61.92 MB
-- **SHA256SUM:** 38e1ca1ff953cfa7c5ccebbb6b796b843a41a3c1df6e136de4883c7bb1a0bdcc
-- **B3SUM:** 8711dd5f0491512999320aaeb42e80e74c9db8aa5cb5d63fd51645cc8ec508c2
+- **Size:** 62.04 MB
+- **SHA256SUM:** abd7924cbaa063a167f5b53ce5f359e188f3d6db9840c22adc4408b3bb6cd80b
+- **B3SUM:** feb1c30f236ba93d49e5f39759e722f88d87e4967d8864f957b4074c7ef63242
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/void-musl-flatimage.no_strip
 - **Language:** C++
 - **License:** Apache License 2.0
@@ -5866,12 +5886,12 @@
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
 - **Repository:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
-- **Stars:** 371
+- **Stars:** 372
 - **Version:** v0.2.2
 - **Updated:** 2024-10-23T07:28:34Z
-- **Size:** 8.89 MB
-- **SHA256SUM:** 01d3fb08c7f583f07d023c98eb6d26c8ec0c28dc1cdeba34f5fa177e7e9773f1
-- **B3SUM:** 7cf720646239b543a00a30ee7f70f41bcbcf57d32955b12d808921eb6baadbfc
+- **Size:** 8.9 MB
+- **SHA256SUM:** 9a956b9fdcb38d164b238d1424a067c61e47c54ec7fa54ea0c007ffc6dae2840
+- **B3SUM:** d30cf580e4396ed874af1af7177c581a591b4a482ac6526c9b4379fd5fbad41e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/flawz
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -5886,9 +5906,9 @@
 - **Author:** Schniz
 - **WebURL:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 - **Repository:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
-- **Stars:** 18062
+- **Stars:** 18066
 - **Version:** v1.37.2
-- **Updated:** 2024-10-29T09:57:35Z
+- **Updated:** 2024-10-29T19:16:18Z
 - **Size:** 5.81 MB
 - **SHA256SUM:** 72a6d088d30b19977f2131b23c5c72459f8b4ddae54a5137d4058ab098458ce7
 - **B3SUM:** fff76ab5ef9b14587736563c04e48284a16cbfea9e038fce1e243dc322506f7a
@@ -5906,7 +5926,7 @@
 - **Author:** wader
 - **WebURL:** [https://github.com/wader/fq](https://github.com/wader/fq)
 - **Repository:** [https://github.com/wader/fq](https://github.com/wader/fq)
-- **Stars:** 9765
+- **Stars:** 9764
 - **Version:** v0.13.0
 - **Updated:** 2024-10-23T11:50:21Z
 - **Size:** 12.12 MB
@@ -5926,7 +5946,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
 - **Repository:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
-- **Stars:** 3304
+- **Stars:** 3307
 - **Version:** v0.1.6
 - **Updated:** 2024-10-28T16:29:36Z
 - **Size:** 12.92 MB
@@ -5946,7 +5966,7 @@
 - **Author:** shadow1ng
 - **WebURL:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
 - **Repository:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
-- **Stars:** 10598
+- **Stars:** 10602
 - **Version:** 1.8.4
 - **Updated:** 2024-10-25T08:41:45Z
 - **Size:** 33.78 MB
@@ -5990,8 +6010,8 @@
 - **Version:** v1.1.4
 - **Updated:** 2023-08-24T11:53:50Z
 - **Size:** 6.8 MB
-- **SHA256SUM:** f3f2e1e7d4c4ca17998e952a4ebbb8a72f7f8cdf217188cf22a54611deb4d0b5
-- **B3SUM:** bfacbba7ef93fd46177233ddf0274d7e1df6618011f0605f3b7afb3c0b35a1a3
+- **SHA256SUM:** c8348cfc6ef0eb130bdc0fb38d6bfd10ef9a206a53e27177eb4505bdd74425c7
+- **B3SUM:** 1ed88d6900045d114c001fa6fa38713b5d00552aca58587f87bad31aef9ddd99
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fuzzuli
 - **Language:** Go
 - **License:** MIT License
@@ -6010,8 +6030,8 @@
 - **Version:** 1.4.4
 - **Updated:** 2023-10-08T15:26:40Z
 - **Size:** 2.8 MB
-- **SHA256SUM:** 075447f4ca4d922c2c7302004747571cdf0a4a641e4654b9b578cafb10dd3bfe
-- **B3SUM:** 4a175744425e2cb5b1f0451f28e8d3ae646564384f4fb11591a37943f9596598
+- **SHA256SUM:** 56353243363e64760b2b266f74956cbcae8e420a2f43f47196e65c7d995c6610
+- **B3SUM:** 80b373702406c511629b305c66b01c850997a85038d9b988b5273d7e86907674
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fwanalyzer
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -6046,7 +6066,7 @@
 - **Author:** fyne-io
 - **WebURL:** [https://fyne.io](https://fyne.io)
 - **Repository:** [https://github.com/fyne-io/fyne](https://github.com/fyne-io/fyne)
-- **Stars:** 25013
+- **Stars:** 25015
 - **Version:** v2.5.2
 - **Updated:** 2024-10-21T13:18:36Z
 - **Size:** 13.59 MB
@@ -6066,12 +6086,12 @@
 - **Author:** junegunn
 - **WebURL:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - **Repository:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-- **Stars:** 65105
+- **Stars:** 65129
 - **Version:** v0.56.0
 - **Updated:** 2024-10-28T13:36:00Z
 - **Size:** 3.71 MB
-- **SHA256SUM:** 674ea20b3159a62ccab9fd0b176fe0fbf8528b2c03cce746233982f2edd19c72
-- **B3SUM:** 689fa39005359c12610a18d8551c58eb53b87bf99b0c94797d57a8d6e33ff749
+- **SHA256SUM:** b3e19ecd5982bc5cf185d070bdf0d9dc41d80a21751d7611aaf6cee2622e76fa
+- **B3SUM:** b3e16d12949d082e8870f3d328de44c207b42dffaadf7927273ab747cc330212
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fzf
 - **Language:** Go
 - **License:** MIT License
@@ -6126,12 +6146,12 @@
 - **Author:** lc
 - **WebURL:** [https://github.com/lc/gau](https://github.com/lc/gau)
 - **Repository:** [https://github.com/lc/gau](https://github.com/lc/gau)
-- **Stars:** 3961
+- **Stars:** 3962
 - **Version:** v2.2.4
 - **Updated:** 2024-10-28T18:33:27Z
 - **Size:** 8.28 MB
-- **SHA256SUM:** b4b83bd6f4146d33fe30228baf571966938a919f20c451589f37ac3ced7580fa
-- **B3SUM:** 07474e7f40e9b4126c8658a0c2a8dc00c2f14f6731701e5446dc91aa54aabd50
+- **SHA256SUM:** 4b69434444245d1a71b070b418bafcf29cd5497b329fda3cf3fa4610fc795146
+- **B3SUM:** ba7ab0acafa3f0e3fc17deacb14ffde5e5a3fb90c497bf640a47d3f820f8b066
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gau
 - **Language:** Go
 - **License:** MIT License
@@ -6146,7 +6166,7 @@
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
-- **Stars:** 3935
+- **Stars:** 3937
 - **Version:** v5.29.0
 - **Updated:** 2024-09-04T23:22:34Z
 - **Size:** 13.51 MB
@@ -6166,7 +6186,7 @@
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
 - **Repository:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
-- **Stars:** 9630
+- **Stars:** 9631
 - **Version:** v1.4.2
 - **Updated:** 2024-10-21T21:42:18Z
 - **Size:** 1.29 MB
@@ -6186,12 +6206,12 @@
 - **Author:** gentoo
 - **WebURL:** [https://github.com/gentoo/gentoo-docker-images](https://github.com/gentoo/gentoo-docker-images)
 - **Repository:** [https://github.com/gentoo/gentoo-docker-images](https://github.com/gentoo/gentoo-docker-images)
-- **Stars:** 321
+- **Stars:** 322
 - **Version:** 
 - **Updated:** 2024-09-21T22:12:20Z
-- **Size:** 275.68 MB
-- **SHA256SUM:** 81569ebdb41c25a2539142005d5854c0d16ede46b1a20ac2bb36bf11965fdc1a
-- **B3SUM:** 0cdacf43c2f85b080e36fed577f99d76c3a7c0152b4ac4045720f061563c4ed9
+- **Size:** 275.69 MB
+- **SHA256SUM:** 406af9380a9adacd9249cce524cd2bacaa8972b94dd5a09926e5a3f25f10f1cd
+- **B3SUM:** bdc3e382c22bc03551acf6fb8685213402ae817a2982b4b9849f6ddbb2255eca
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gentoo-musl.no_strip
 - **Language:** Dockerfile
 - **License:** GNU General Public License v2.0
@@ -6206,12 +6226,12 @@
 - **Author:** gentoo
 - **WebURL:** [https://github.com/gentoo/gentoo-docker-images](https://github.com/gentoo/gentoo-docker-images)
 - **Repository:** [https://github.com/gentoo/gentoo-docker-images](https://github.com/gentoo/gentoo-docker-images)
-- **Stars:** 321
+- **Stars:** 322
 - **Version:** 
 - **Updated:** 2024-09-21T22:12:20Z
 - **Size:** 312.88 MB
-- **SHA256SUM:** e8cf35cbcbb1150d4438b64bf3b79da0a54de60bca6c511710fc50071f0d2bc7
-- **B3SUM:** 2dbfd104765358c723aff39060730469efd2f6ee6b0952e3f517464cbf423927
+- **SHA256SUM:** ceecbfeebe0f49257d985cd83f59488b55650ff64bd93d4cc53b06a78b821fa4
+- **B3SUM:** 0c32f9141ee1bbbbe30387ac2dd4d6268cfb150153fa8a69242199b8e953d250
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gentoo.no_strip
 - **Language:** Dockerfile
 - **License:** GNU General Public License v2.0
@@ -6270,8 +6290,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 5.64 MB
-- **SHA256SUM:** aedbd79ae5c7402243a9646636ecd085a7ae972946fa31c7a8a71304a771ccec
-- **B3SUM:** 39880f56b3bd963217c6fde11824d1a183c0a014ddc235b5841db1753101c814
+- **SHA256SUM:** f7b0d795fc475fae0e37d8c60c093432c3bce60207c6aaf739c1dd7e0f939b82
+- **B3SUM:** 5ce6925db586e6901866eb8caf9f1e3fef88e4d57b133ab2a2a76840b303a3f9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/getJS
 - **Language:** Shell
 - **License:** The Unlicense
@@ -6310,8 +6330,8 @@
 - **Version:** 
 - **Updated:** 2024-06-08T11:35:23Z
 - **Size:** 2.16 MB
-- **SHA256SUM:** 6d6d9cedeb67b14bb37bd17bafa4365b0ade4e91bfbced7b08429f563b62f105
-- **B3SUM:** c5747f13d8a941130e337f8a15d3530f57bfa517cc89de990a7dbbd2c3833d2c
+- **SHA256SUM:** eac752401cf4072b47e2ad3b63d0e5757e727b12c98d26e97e7e1263e77ddf21
+- **B3SUM:** 459679ab40d7dac3b8f7436766ae219dbaa80ac88d4f8991456265a81684ef60
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gf
 - **Language:** Go
 - **License:** MIT License
@@ -6366,7 +6386,7 @@
 - **Author:** dlvhdr
 - **WebURL:** [https://github.com/dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)
 - **Repository:** [https://github.com/dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash)
-- **Stars:** 7157
+- **Stars:** 7159
 - **Version:** v4.7.0
 - **Updated:** 2024-10-10T13:05:08Z
 - **Size:** 18.03 MB
@@ -6386,12 +6406,12 @@
 - **Author:** cli
 - **WebURL:** [https://github.com/cli/cli](https://github.com/cli/cli)
 - **Repository:** [https://github.com/cli/cli](https://github.com/cli/cli)
-- **Stars:** 37147
+- **Stars:** 37155
 - **Version:** v2.60.1
-- **Updated:** 2024-10-28T15:46:25Z
+- **Updated:** 2024-10-29T18:17:07Z
 - **Size:** 49.69 MB
-- **SHA256SUM:** 806e6aa10153e74377c051b05d2b733ad5466a931debdc0e6cef3a5a84018e66
-- **B3SUM:** dc1e6f9c6a6d67cbb55a48df7d0655186f289e6c382c4c0d3851faad5179f10b
+- **SHA256SUM:** 8197c82dc16c7db97aabb6e81e12b0281a163fffd2d2099520e63dd8bd92bb71
+- **B3SUM:** 925b2d69a14d95d7bce617f4b877e956e527e0f23657e1d474ed2649d7074584
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gh
 - **Language:** Go
 - **License:** MIT License
@@ -6408,7 +6428,7 @@
 - **Repository:** [https://github.com/orangekame3/ghfetch](https://github.com/orangekame3/ghfetch)
 - **Stars:** 46
 - **Version:** v0.0.19
-- **Updated:** 2024-10-29T12:03:17Z
+- **Updated:** 2024-10-30T00:05:32Z
 - **Size:** 9.02 MB
 - **SHA256SUM:** f831d847b10170a404950f9d09042667ba7b6c05d9706809b744503c1b04d111
 - **B3SUM:** 0b715559f16d861fe7f50b9e7c05072b5cc001747627d0e065c9ec967529509c
@@ -6426,12 +6446,12 @@
 - **Author:** cooperspencer
 - **WebURL:** [https://github.com/cooperspencer/gickup](https://github.com/cooperspencer/gickup)
 - **Repository:** [https://github.com/cooperspencer/gickup](https://github.com/cooperspencer/gickup)
-- **Stars:** 984
+- **Stars:** 985
 - **Version:** v0.10.36
 - **Updated:** 2024-10-24T16:11:07Z
 - **Size:** 19.76 MB
-- **SHA256SUM:** 41c6523288e79e4c5063263fe26fcfce93425a17c3287c002019dcf237dd4c1a
-- **B3SUM:** 0d4b8eef14dba348246a219ecbba7fd1d40762feabc59a708b7fc581aed5d053
+- **SHA256SUM:** 55c91bdd04392aa968f41224aa7ebbb561ac36bd87868f7a6080c9139a5e53ce
+- **B3SUM:** 3a543c26e8ae929209ccac7d21ac5f69f6541ba771d35f015bbb5845cab288bd
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gickup
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -6450,8 +6470,8 @@
 - **Version:** v0.6.0
 - **Updated:** 2024-10-28T20:57:35Z
 - **Size:** 9.02 MB
-- **SHA256SUM:** 153e95c94ea6b22870c01211985b9d35387ff124c839599ad76d1451036c20a8
-- **B3SUM:** d9fabffe063eb43f32345506c11f57806aff2d9e1982f260d12dfea24111a01b
+- **SHA256SUM:** 0372c0206da3021b03d902cf3bdd9cd74ee9ef13a0e10ec338fdb33d291b7ccc
+- **B3SUM:** 9b7f3f8b4824c00a4dc4c788cf24d642e11ce2772e4ad24c574909d1fa008504
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gip
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -6466,9 +6486,9 @@
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 - **Repository:** [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
-- **Stars:** 9224
+- **Stars:** 9227
 - **Version:** v2.6.1
-- **Updated:** 2024-10-29T06:46:58Z
+- **Updated:** 2024-10-29T22:09:44Z
 - **Size:** 10.19 MB
 - **SHA256SUM:** d06189cc265ddd82125df82a4c28220f91afb6b97e02bfccd6e38883ec5edd6e
 - **B3SUM:** e02690c9cee0908757301fe2e2710a4e94cc6c318ae570afaa0824a09b660c40
@@ -6486,9 +6506,9 @@
 - **Author:** git-lfs
 - **WebURL:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
 - **Repository:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
-- **Stars:** 12932
+- **Stars:** 12933
 - **Version:** v3.5.1
-- **Updated:** 2024-10-17T02:17:46Z
+- **Updated:** 2024-10-29T23:36:36Z
 - **Size:** 10.9 MB
 - **SHA256SUM:** 502fc8f32c0f6513fea3985adf5c074567b890d7311efebfa699df51457fd608
 - **B3SUM:** c703da53505f5613e484992fa32a30ad59286ac0617163171a69db9ad7a4c885
@@ -6506,12 +6526,12 @@
 - **Author:** github
 - **WebURL:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
 - **Repository:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
-- **Stars:** 3506
+- **Stars:** 3513
 - **Version:** v1.5.0
 - **Updated:** 2024-08-10T18:54:04Z
 - **Size:** 2.93 MB
-- **SHA256SUM:** 2ec810646f35d3e1f639abde6ecc896392b195b13ac45c5dc33e98fb8b38b136
-- **B3SUM:** 9568572a60f4df24ddc7e6685393112c91ba37f0e9a057ca08015644293c5f32
+- **SHA256SUM:** 68964a40941aab854aa271a67a1ab43d7be3202040a564b07be7d28becab6dde
+- **B3SUM:** 10eee96de8e9e41b3c6298060bcff180336fe009b4f97ddc329d0bf78012bb1c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/git-sizer
 - **Language:** Go
 - **License:** MIT License
@@ -6530,8 +6550,8 @@
 - **Version:** v0.14.4
 - **Updated:** 2024-10-16T17:59:02Z
 - **Size:** 26.59 MB
-- **SHA256SUM:** 9a81e1d366c6e219366f9eae4f135b6c39082f69dcd2e89750dd6514484ee993
-- **B3SUM:** 322362a7a35be7ecda7977669bf9c863123c81da7d65417193cb35d5f43b0d41
+- **SHA256SUM:** a5b50f893d89f31dd9dff81b55da65ece37ab6a8ed32eea8e7d53d92c4819edf
+- **B3SUM:** 297820de292b8c1cee2df4741777a964516b9d31bbe4d4ce3721b7d48a61cb3a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/git-xet
 - **Language:** Rust
 - **License:** BSD 3-Clause New or Revised License
@@ -6570,8 +6590,8 @@
 - **Version:** v0.14.4
 - **Updated:** 2024-10-16T17:59:02Z
 - **Size:** 19.33 MB
-- **SHA256SUM:** e4d7d06936b45a6af597eb9f158f776ee039eb514bc6d6d60d02a755338be4a6
-- **B3SUM:** f579c32409ab635ab0554267a7e5743067f023ab82f9f33668cd6f7fd9260e15
+- **SHA256SUM:** 0ee3534ba3fb4eb47bd8451c653dcd0e29fc91827f0f0fd145f5858204c0cd16
+- **B3SUM:** c9f6c8bd79be4a3342f6ee525af5e9a43addb6c67ec9fabb985e5aaae01f9d27
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/xetmnt
 - **Language:** Rust
 - **License:** BSD 3-Clause New or Revised License
@@ -6590,8 +6610,8 @@
 - **Version:** v0.1
 - **Updated:** 2022-04-21T13:17:21Z
 - **Size:** 5.59 MB
-- **SHA256SUM:** 55a3263bcb99008fcfe9b2bdbbefa8ed9df3f3ff639719c9515ea35cd1921c99
-- **B3SUM:** 35e5b530cb91281d83dd404d109d83c49213072057e8239c74858fc2492421b5
+- **SHA256SUM:** 486a47d6f06fab68487030f55d47e7350c2d18a9832045800d4a77dc2db53e94
+- **B3SUM:** a98134dfa0ecb1dfa00e85e73389d432971390cf610b5f0618b4354e1b5a5951
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gitdorks_go
 - **Language:** Go
 - **License:** 
@@ -6606,9 +6626,9 @@
 - **Author:** go-gitea
 - **WebURL:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
 - **Repository:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
-- **Stars:** 44794
+- **Stars:** 44804
 - **Version:** v1.22.3
-- **Updated:** 2024-10-29T09:20:50Z
+- **Updated:** 2024-10-29T16:27:03Z
 - **Size:** 103 MB
 - **SHA256SUM:** 8411d491632ec45658eb57a9bd842276749f7b1b1bf1f6778530098a7894367d
 - **B3SUM:** 5ea8c0a95208906411bacefb2d2f677787c5f0ece02028518a922d15bf47d778
@@ -6630,8 +6650,8 @@
 - **Version:** v1.2.2
 - **Updated:** 2023-03-28T15:46:56Z
 - **Size:** 5.55 MB
-- **SHA256SUM:** 2e6a5848ac1b1d94267238b749ad31609edc6f4de390a02fd4cea224d491a767
-- **B3SUM:** a54ff8806c10fe48e15adaa4496e0a2c44fb58cf16929cf48b167b96a6c45aed
+- **SHA256SUM:** 61f24d19a18f4b9276bd5548ff149a721999d2b35440ab3a62c93fc940f4d0a3
+- **B3SUM:** 875ab634fe352302d8c978a2a6453394361f39081f04da7863533c6fe53aa307
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/github-endpoints
 - **Language:** Go
 - **License:** MIT License
@@ -6650,8 +6670,8 @@
 - **Version:** v1.2.1
 - **Updated:** 2023-03-28T15:47:13Z
 - **Size:** 5.51 MB
-- **SHA256SUM:** f5f28df9fa0ba4ff46d62ff7e2b9b837874c2038acc8772ec5f34b461e5bb7ad
-- **B3SUM:** 743b3d47cc9d0127a7fe25d5760c098cb8c9419a86c7b62c8e331bc95a2500bb
+- **SHA256SUM:** f088dcff5a408d5ba9fdd784c9e133237326ad285f7761d3368a6a343f2aafa0
+- **B3SUM:** 806633c76007864b36084d87b6f0bda782241a77543ce03ffe186b5c65aafa8b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/github-regexp
 - **Language:** Go
 - **License:** MIT License
@@ -6666,12 +6686,12 @@
 - **Author:** gwen001
 - **WebURL:** [https://github.com/gwen001/github-subdomains](https://github.com/gwen001/github-subdomains)
 - **Repository:** [https://github.com/gwen001/github-subdomains](https://github.com/gwen001/github-subdomains)
-- **Stars:** 664
+- **Stars:** 666
 - **Version:** v1.2.2
 - **Updated:** 2023-03-28T15:47:06Z
 - **Size:** 5.55 MB
-- **SHA256SUM:** 61a30f2c813787bd179da130a3610169c409827283da36de65e899e0d4e0cd03
-- **B3SUM:** eb93855716733e1d39ab3bf724d5d47c204300ee487151888cbbeb221920c530
+- **SHA256SUM:** fbd87ad923e913124421560374a4b436def559917334ca6379dfe3760e489bf2
+- **B3SUM:** 2f53dcba4b89c582e36ac5687bcf74bdbad8455f5d4531e65baa2da86665f279
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/github-subdomains
 - **Language:** Go
 - **License:** MIT License
@@ -6690,8 +6710,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 28.8 MB
-- **SHA256SUM:** 91ea89e55c423dc21bb82c96233f55ed5afc2b00c2916f9a9cb7593759dc2fcd
-- **B3SUM:** 70dc8c17a905cb88c9cae49d3c7b54eb34604eaf8e2d4e535985bc859983880e
+- **SHA256SUM:** a8ef3b87753119485ddf71b6ef4192a01d694bb08499417e79d056c78c9c88b6
+- **B3SUM:** 00597bb537a31217139560382044fca324ac6e8fb4de759694e7c8f3d989cde0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gitlab-cli
 - **Language:** 
 - **License:** 
@@ -6710,8 +6730,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 28.8 MB
-- **SHA256SUM:** 91ea89e55c423dc21bb82c96233f55ed5afc2b00c2916f9a9cb7593759dc2fcd
-- **B3SUM:** 70dc8c17a905cb88c9cae49d3c7b54eb34604eaf8e2d4e535985bc859983880e
+- **SHA256SUM:** a8ef3b87753119485ddf71b6ef4192a01d694bb08499417e79d056c78c9c88b6
+- **B3SUM:** 00597bb537a31217139560382044fca324ac6e8fb4de759694e7c8f3d989cde0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/glab
 - **Language:** 
 - **License:** 
@@ -6730,8 +6750,8 @@
 - **Version:** v1.0.1
 - **Updated:** 2024-04-28T05:43:26Z
 - **Size:** 5.55 MB
-- **SHA256SUM:** 985471b4e8a73541055a955f5d618651633d3e472c8edc265e47787afe1c67a5
-- **B3SUM:** 7e10156c28a02af6b73fff93652333de0d1022f6c070ac579f71ed75d146d5d4
+- **SHA256SUM:** c12214d67013936ece7ee7cffd23ac13ce11f97118d3ffedfb6ec9d9239fec74
+- **B3SUM:** 09c84d9bd11ae3ea88118647f6955816980c41707d8f81b446b3b6175a1461ce
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gitlab-subdomains
 - **Language:** Go
 - **License:** MIT License
@@ -6746,12 +6766,12 @@
 - **Author:** gitleaks
 - **WebURL:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
 - **Repository:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-- **Stars:** 17755
+- **Stars:** 17759
 - **Version:** v8.21.2
-- **Updated:** 2024-10-29T06:47:12Z
+- **Updated:** 2024-10-29T21:33:10Z
 - **Size:** 7.16 MB
-- **SHA256SUM:** 0d149827caf85ce347e296028cd4dd7ec5bc0a743c8bfdcb2664b292b7f82008
-- **B3SUM:** 534f116bc601f60eb68ed2729ed273b8fe6c9b3f2109d78dab2c95e42e95738b
+- **SHA256SUM:** 08bed15e7391799f3251138794ab1094e17b7644a904a3b1518511a958476b89
+- **B3SUM:** 3e1d099c9e4b47d6f589f140b844deb83fd424c6dd9ac2924704c16dd0ce587b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gitleaks
 - **Language:** Go
 - **License:** MIT License
@@ -6766,12 +6786,12 @@
 - **Author:** GitoxideLabs
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 9000
+- **Stars:** 9005
 - **Version:** v0.38.0
-- **Updated:** 2024-10-29T06:56:30Z
+- **Updated:** 2024-10-29T20:28:12Z
 - **Size:** 12.08 MB
-- **SHA256SUM:** fdf01a038214fb93574a59467f1a955cd4cb618788f8fa501b64cd1b7f712043
-- **B3SUM:** f8aade8db14ed80d8069474f9b6e8df11ea2ac206069ae01a1b711710bb8f60a
+- **SHA256SUM:** a8fd930f621d89bb40729967da6194e9a220d920db51f9d97210eb6b276f5ae7
+- **B3SUM:** 94e6da4d112759f24b9cfd2ffecc67f6d5278743885dc3b00f91f61a61d7c4d4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ein
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -6786,12 +6806,12 @@
 - **Author:** GitoxideLabs
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 9000
+- **Stars:** 9005
 - **Version:** v0.38.0
-- **Updated:** 2024-10-29T06:56:30Z
-- **Size:** 18.67 MB
-- **SHA256SUM:** 6739f8fa203142115c95a18a7d00f445b37ea8a66bcb4c55449220ebed487dde
-- **B3SUM:** 0b21097e6214810eadcfa9963de599dbc5929a673494ccffd1a3755b0962e989
+- **Updated:** 2024-10-29T20:28:12Z
+- **Size:** 18.68 MB
+- **SHA256SUM:** c6eb635b112a096761fc0f2cedeec645c2976443d7612e57c349b552a9531e4e
+- **B3SUM:** 7fb1210d898d72f13834e2fd22c0bc727ded3b2535e9cc716587b2119a6f2ed6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gix
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -6806,9 +6826,9 @@
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12849
+- **Stars:** 12853
 - **Version:** 2022.11.3
-- **Updated:** 2024-10-29T12:31:42Z
+- **Updated:** 2024-10-30T00:28:14Z
 - **Size:** 18.42 MB
 - **SHA256SUM:** 35a6c3ce52f9b12585a0bcf2b4d3bef17b0e06ce75e13fc5902bcb3ffb273c83
 - **B3SUM:** 9e4b015ac3dbd2af32486039e95ddbe4ea532cfdc3f2b9bc527d72a6404b380e
@@ -6826,12 +6846,12 @@
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12849
+- **Stars:** 12853
 - **Version:** 2022.11.3
-- **Updated:** 2024-10-29T12:31:42Z
+- **Updated:** 2024-10-30T00:28:14Z
 - **Size:** 17.42 MB
-- **SHA256SUM:** 2556718cbacb91ffc41bc58108e3f265dbdc922f73619e35faefb72505274e01
-- **B3SUM:** 50845a47ca216d6ab8422575ea90e9f3da0a1f42389b80206952a886ea663e80
+- **SHA256SUM:** 4f17ddaa2a68266bbd3c8f6a6ba7a332e115f2e4da6e42277ebfc4dc665a71b7
+- **B3SUM:** 46191bf8cef1d474c621e44079725867b7f15a0dbb98da1cb1bad68880298866
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gitpod-cli
 - **Language:** TypeScript
 - **License:** GNU Affero General Public License v3.0
@@ -6846,12 +6866,12 @@
 - **Author:** gitpod-io
 - **WebURL:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-- **Stars:** 12849
+- **Stars:** 12853
 - **Version:** 2022.11.3
-- **Updated:** 2024-10-29T12:31:42Z
+- **Updated:** 2024-10-30T00:28:14Z
 - **Size:** 17.42 MB
-- **SHA256SUM:** 2556718cbacb91ffc41bc58108e3f265dbdc922f73619e35faefb72505274e01
-- **B3SUM:** 50845a47ca216d6ab8422575ea90e9f3da0a1f42389b80206952a886ea663e80
+- **SHA256SUM:** 4f17ddaa2a68266bbd3c8f6a6ba7a332e115f2e4da6e42277ebfc4dc665a71b7
+- **B3SUM:** 46191bf8cef1d474c621e44079725867b7f15a0dbb98da1cb1bad68880298866
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gp
 - **Language:** TypeScript
 - **License:** GNU Affero General Public License v3.0
@@ -6886,12 +6906,12 @@
 - **Author:** extrawurst
 - **WebURL:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
 - **Repository:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
-- **Stars:** 18487
+- **Stars:** 18488
 - **Version:** v0.26.3
 - **Updated:** 2024-10-29T08:42:25Z
-- **Size:** 12.69 MB
-- **SHA256SUM:** 8529d874446df5016c994527d87b897989e857874a4c2f3cc318bcb57d19f3ea
-- **B3SUM:** 15d9f6fcaf0e36018d261b8d1e737a814d83b3e47ac3340005983876f591d0ec
+- **Size:** 12.71 MB
+- **SHA256SUM:** 9debf485c3474df79bd13a3bbb958fd8750ff5c11826a35d0a1478cf68346104
+- **B3SUM:** 2d0978810a0866e912e3869d9064e17b882898e6caea6cd10830bd0ab55ee613
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gitui
 - **Language:** Rust
 - **License:** MIT License
@@ -6906,7 +6926,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
 - **Repository:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
-- **Stars:** 16206
+- **Stars:** 16207
 - **Version:** v2.0.0
 - **Updated:** 2024-10-01T17:23:20Z
 - **Size:** 16.15 MB
@@ -7010,8 +7030,8 @@
 - **Version:** v0.4.4
 - **Updated:** 2024-10-22T12:56:54Z
 - **Size:** 7.59 MB
-- **SHA256SUM:** 1c64dd298c88423196ea24308466f71f2ce7726057ff0250878976afe7096d41
-- **B3SUM:** ffdda21c5dd22d1bd9d66073720c013f6413c27e19f7b81f5485128c92ff4d70
+- **SHA256SUM:** 9dbacf4d3b075ecc8ed46269414f9ecad13ed9d3f73708e55c92e68661720ecc
+- **B3SUM:** 2c611aa67fc22b930266347ae93645b22037c8f4d63f6620cc56145709ce6b00
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/fasttld
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7026,12 +7046,12 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5948
+- **Stars:** 5949
 - **Version:** v5.12.0
 - **Updated:** 2024-10-29T10:05:44Z
 - **Size:** 7.38 MB
-- **SHA256SUM:** 9f8d80efcff8cb3eec5bb0383d07b0db67d6cf319b6e1b8758a455846d02c22d
-- **B3SUM:** 2ac28a1df8ea8655340e6d5232157849a6fd5da900859ded680f59aef19ca9de
+- **SHA256SUM:** 7ab5ba0c1c417eba33a853fbe2feec6f0f2f0cd87d14263769571efc437f38d6
+- **B3SUM:** 1fcdfe66d8968db23ad6fcea284a8fc85f23a735589a04b45ee1913b20233ca3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/git-checkout
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -7046,12 +7066,12 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5948
+- **Stars:** 5949
 - **Version:** v5.12.0
 - **Updated:** 2024-10-29T10:05:44Z
 - **Size:** 7.38 MB
-- **SHA256SUM:** 8f907c960d2c3904b0297ac1f65e6774f651182d3f2c4d2a2ff80faa05f23808
-- **B3SUM:** 687930aa8287af5d381dffe9e1026b873397c00e22cdabe996ea01184a22927b
+- **SHA256SUM:** 7967f9f5f84d9def0d8baa083ffdf1c48f142b552fb0abe3970c928f1a44fed3
+- **B3SUM:** a6db1c0edc87c2af22cf224b39eedd97ad9a1659ccafac8025ed85a7ab2e0d57
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/git-clone
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -7066,12 +7086,12 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5948
+- **Stars:** 5949
 - **Version:** v5.12.0
 - **Updated:** 2024-10-29T10:05:44Z
 - **Size:** 7.51 MB
-- **SHA256SUM:** 3329c10a1f17330663eceb7c7c41201c6419981ec6f2dd1747364782afe24313
-- **B3SUM:** 6db8d828df7ab17b6ab68777172114cd4bf75e0f1be4e8e03f661dc1f120f4f7
+- **SHA256SUM:** 0318cb2337a7a027bbad7fab3e2ce999181460bc62e665c3b1760943a89c70dc
+- **B3SUM:** e2bd4fade5b4cad1f51c32af67d094787c040dc5ef86e7e322646bd043c0660d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/git-log
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -7086,12 +7106,12 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5948
+- **Stars:** 5949
 - **Version:** v5.12.0
 - **Updated:** 2024-10-29T10:05:44Z
 - **Size:** 7.38 MB
-- **SHA256SUM:** 339d9ebebba88172f64beb52b898651f8a55b76f94da0f3c8030627848a0e5d3
-- **B3SUM:** f97ff42374d34cd108cb5c8665984269827f463347a300de77e0e3e390f2c42a
+- **SHA256SUM:** aa5f7ff3f0ae7b796c7c27476f8859fc50f685001f2857c603f98de83b7703b8
+- **B3SUM:** 702458b9340167ac6108fc6f87f9592119bc0dce138e6a677edf0fb4d44a3fcc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/git-pull
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -7106,12 +7126,12 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 5948
+- **Stars:** 5949
 - **Version:** v5.12.0
 - **Updated:** 2024-10-29T10:05:44Z
 - **Size:** 5.39 MB
-- **SHA256SUM:** 9b80d3eafaf33b7d35532d68513453db1050402f1b727cce48b7fbf8ec0e1061
-- **B3SUM:** 38fede8773914129b2324d925297c3649f5179dbd3b1b00e4ccb2b0374cb3bd8
+- **SHA256SUM:** 8092432acc5ebcd5f25dad67f164e67f9183c3c2da721da9f8d0a5da4a10a0b2
+- **B3SUM:** e793ac86fdfe29b3fc26cc5c21831506247d8b2004271bb315d8edf45b51a52a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/git-tag
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -7126,12 +7146,12 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/simplehttpserver](https://github.com/projectdiscovery/simplehttpserver)
 - **Repository:** [https://github.com/projectdiscovery/simplehttpserver](https://github.com/projectdiscovery/simplehttpserver)
-- **Stars:** 474
+- **Stars:** 475
 - **Version:** v0.0.6
 - **Updated:** 2024-01-22T10:09:07Z
 - **Size:** 6.44 MB
-- **SHA256SUM:** 64423ab628aca10838f0506e9d41d77b812bc2b602d055b744b122c575a66c73
-- **B3SUM:** d5e1d46bda503314a1bf84c657e92c6eddb84c457cfac367e963af6ac374f8e0
+- **SHA256SUM:** e695686bdb4eb02ba497159dce5e74edbb44e3af0cd4a508d0dec67e2bd800c1
+- **B3SUM:** b72e17b18d9d2da95c7f5a3094f230488ead37cde11f7b75432aa0887d2d7b34
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/go-simplehttpserver
 - **Language:** Go
 - **License:** MIT License
@@ -7146,12 +7166,12 @@
 - **Author:** allinurl
 - **WebURL:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
 - **Repository:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
-- **Stars:** 18427
+- **Stars:** 18428
 - **Version:** v1.9.3
-- **Updated:** 2024-10-20T22:46:50Z
+- **Updated:** 2024-10-30T00:42:47Z
 - **Size:** 1.68 MB
-- **SHA256SUM:** 209f3a34d604c5afd6a239f9820e0a6d792a65b20d484f97350f2a1e48c19a29
-- **B3SUM:** 4c638be72f724b99c4b38a5739a38077992fb89acf6bbbca4fbaba506de63833
+- **SHA256SUM:** 3532964d5f055aa81d97e8cbd5d81de97227503330a6a84de6ffa8e1a3276af9
+- **B3SUM:** a4f42bae8df82bba663fb833027f353362ee8f2302c55e3b42931c257c138d28
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/goaccess
 - **Language:** C
 - **License:** MIT License
@@ -7166,7 +7186,7 @@
 - **Author:** benhoyt
 - **WebURL:** [https://github.com/benhoyt/goawk](https://github.com/benhoyt/goawk)
 - **Repository:** [https://github.com/benhoyt/goawk](https://github.com/benhoyt/goawk)
-- **Stars:** 1936
+- **Stars:** 1937
 - **Version:** v1.29.0
 - **Updated:** 2024-09-18T20:56:53Z
 - **Size:** 3.01 MB
@@ -7186,7 +7206,7 @@
 - **Author:** OJ
 - **WebURL:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
 - **Repository:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
-- **Stars:** 9978
+- **Stars:** 9980
 - **Version:** v3.6.0
 - **Updated:** 2024-10-28T22:17:33Z
 - **Size:** 7.75 MB
@@ -7210,8 +7230,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 2.62 MB
-- **SHA256SUM:** 6d5b89201eb577e05a27408cd968f87054ce762f5dc7bd3e5ce40ec4a3b14587
-- **B3SUM:** d3e01264bbb9fe3c06767d28f292a794933d73bded741431f22962692e9543f3
+- **SHA256SUM:** 792dc3ad5ed4dcd014a9dbc0d236c8771312a21b69c032d4fa1de6b544b8be0b
+- **B3SUM:** 45ccbcb20b63b0e915eebc29c774dc7c9a8b51e85782b8eb1c77274f257c923d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gencmddeps
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7230,8 +7250,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 5.91 MB
-- **SHA256SUM:** bbf425b55aa65d1c7f016efb897df7d44a9408bd072986895b46a780a10243c1
-- **B3SUM:** 21c797fbece2b0e48912c38b1d0cab64ced46145b0be9b8d317d37cb3d1ef9f3
+- **SHA256SUM:** 0882e082d8ca2511021c5a3671cbf4d70385c621c847d92d8056e3461efd0f0b
+- **B3SUM:** 58c989062c335549f06e216f34ef2e347c3f2430ff392fc6e770291edc39458a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/goanywhere
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7250,8 +7270,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 20.35 MB
-- **SHA256SUM:** ea8dc04d1a25b4a83e0fe74b5bbf2e8fde8a2dcfcca48eb997c599cf23dd9b15
-- **B3SUM:** 954d7755d29e50224cb3311b3e04cc732ce2149a1cb866782bb72d66f6971fa6
+- **SHA256SUM:** bde6aae3fb046ebaff1b98f3ad166ea31697378a6a7d8a39f0a5cea9961faee7
+- **B3SUM:** 7507c965a564cbca712adf9968a989c7feb2ad4bd21cc7a09b0c3ef3bdb0bdbc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gobusybox
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7270,8 +7290,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 5.71 MB
-- **SHA256SUM:** 4536dd94fbf67f9c1653e1d29d35d279a05736703c56405630a3a33575e9b850
-- **B3SUM:** bf796e9b4ac3caf456c8428571a45548191519b4112381fd5adbdbaa2a7b2e00
+- **SHA256SUM:** 3863f9962ad82d0ab148557f448a7fa534a96133c42b90fd829425665b4e627f
+- **B3SUM:** 9c4fde85873b4f8e47c1de37943c2d1e92797e47b205619570482ea770299908
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/makebb
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7290,8 +7310,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 4.12 MB
-- **SHA256SUM:** b6a65a5cff782fd27bb05608b3fd5da4f945ef6364a377ff4f707249858796de
-- **B3SUM:** ff1590528aaecf6b7147a2c090e5f592d088e49b678adcb7760defda870928c3
+- **SHA256SUM:** c08802cdd3ee263f33274b085e7d0f1ff645bf2976a59360fe7191526f1c0bc1
+- **B3SUM:** d7a155ba1e7c7f616fd2251bda705d2600bcffe7dfc11513bc7c84c2ee184c8b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/makebbmain
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7310,8 +7330,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 5.25 MB
-- **SHA256SUM:** 5765aefe1d8c7cc85a29356a4a52bc8070b3875b5f085311f004a0144524c845
-- **B3SUM:** ce34119dbec505c15c4fa636ef3287a67637cc1e874cf128e4eee12c910e97f2
+- **SHA256SUM:** 50b87fc6a1fa6e12fcb47e9482311fc8aea950c26589ee9824ac8cf63af2b1c1
+- **B3SUM:** aed70c9ec12372e482ee62e46b3e7f3559891297fb359232e8c4d63668fcab69
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rewritepkg
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7330,8 +7350,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 20.35 MB
-- **SHA256SUM:** ea8dc04d1a25b4a83e0fe74b5bbf2e8fde8a2dcfcca48eb997c599cf23dd9b15
-- **B3SUM:** 954d7755d29e50224cb3311b3e04cc732ce2149a1cb866782bb72d66f6971fa6
+- **SHA256SUM:** bde6aae3fb046ebaff1b98f3ad166ea31697378a6a7d8a39f0a5cea9961faee7
+- **B3SUM:** 7507c965a564cbca712adf9968a989c7feb2ad4bd21cc7a09b0c3ef3bdb0bdbc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/u-root-busybox
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7350,8 +7370,8 @@
 - **Version:** v0.2.0
 - **Updated:** 2024-08-09T09:20:00Z
 - **Size:** 20.35 MB
-- **SHA256SUM:** ea8dc04d1a25b4a83e0fe74b5bbf2e8fde8a2dcfcca48eb997c599cf23dd9b15
-- **B3SUM:** 954d7755d29e50224cb3311b3e04cc732ce2149a1cb866782bb72d66f6971fa6
+- **SHA256SUM:** bde6aae3fb046ebaff1b98f3ad166ea31697378a6a7d8a39f0a5cea9961faee7
+- **B3SUM:** 7507c965a564cbca712adf9968a989c7feb2ad4bd21cc7a09b0c3ef3bdb0bdbc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/uroot-busybox
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -7366,7 +7386,7 @@
 - **Author:** rfjakob
 - **WebURL:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - **Repository:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
-- **Stars:** 3550
+- **Stars:** 3552
 - **Version:** v2.4.0
 - **Updated:** 2024-09-19T12:14:52Z
 - **Size:** 8.86 MB
@@ -7386,7 +7406,7 @@
 - **Author:** rfjakob
 - **WebURL:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - **Repository:** [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
-- **Stars:** 3550
+- **Stars:** 3552
 - **Version:** v2.4.0
 - **Updated:** 2024-09-19T12:14:52Z
 - **Size:** 7.29 MB
@@ -7510,8 +7530,8 @@
 - **Version:** 
 - **Updated:** 2024-01-13T12:05:10Z
 - **Size:** 5.57 MB
-- **SHA256SUM:** 947943b63fc52646507c864e77b3f4963fa7b5b61fb010bfb89480026b48d9a6
-- **B3SUM:** 5c45cad3c492be7dcd691efb0a8b63bf674b1b61eb568d5f5985758e3c24b17c
+- **SHA256SUM:** 4d1d5d099851484790009346804869b33c9a8ef214a1f30fc7a756c8d973cab2
+- **B3SUM:** b3d09e8ec2eb2ce272062353c53a69c6388f432356b91b4a60a69458e428ca51
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/golinkfinder
 - **Language:** Go
 - **License:** MIT License
@@ -7528,7 +7548,7 @@
 - **Repository:** [https://github.com/tulir/gomuks](https://github.com/tulir/gomuks)
 - **Stars:** 1364
 - **Version:** v0.3.1
-- **Updated:** 2024-10-28T23:27:30Z
+- **Updated:** 2024-10-29T16:25:39Z
 - **Size:** 20.38 MB
 - **SHA256SUM:** aa3f97ea24835b25cf2d24b65fa376ca764a9a412d1002ec08c42f8e871f832b
 - **B3SUM:** 5a7192ec7967f84596ad79441b5c936bbe88d48a05248f0e3e752e64c35fd71f
@@ -7550,8 +7570,8 @@
 - **Version:** v2.0.5
 - **Updated:** 2024-03-10T08:12:58Z
 - **Size:** 13.29 MB
-- **SHA256SUM:** b4eec9d9a80049f4a4e5202fe15f76d8dee5b82f30c5ab770ca54443a7bed0e1
-- **B3SUM:** 7f7afc9ec93a018a4fdabf3d352e85fd171416e439fb4a9b23305f3fd9fce713
+- **SHA256SUM:** 68e270719930c83c8708ba4a03a6ea2e9dfa34aa6e01bc7220591e730ebbfc6e
+- **B3SUM:** 5607a37aaa9b4407ae99e9aa2125b1944f8d0db75f36555d4fa8128f072359bf
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/goodls
 - **Language:** Go
 - **License:** MIT License
@@ -7570,8 +7590,8 @@
 - **Version:** 
 - **Updated:** 2024-03-22T12:24:41Z
 - **Size:** 10.17 MB
-- **SHA256SUM:** 23ebd6dadb52b0f7eb80a208332b2078a216c6a54e63dbe849b4105f9aa4f536
-- **B3SUM:** 52cc9b6e1cd160b42d37bbcbc2f0accb968861d64922d5ab972abe9f1ccc70c0
+- **SHA256SUM:** 6b7e335cb1c9cbf00d903b44aa940041382b62094aa790f801a22e0bd4a4d91b
+- **B3SUM:** 88c7a3106fdaa1c784c68df2672d0677c28cd06bd729332d5d88b77820620190
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/goop
 - **Language:** Go
 - **License:** MIT License
@@ -7586,9 +7606,9 @@
 - **Author:** gopasspw
 - **WebURL:** [https://www.gopass.pw](https://www.gopass.pw)
 - **Repository:** [https://github.com/gopasspw/gopass](https://github.com/gopasspw/gopass)
-- **Stars:** 5891
+- **Stars:** 5892
 - **Version:** v1.15.14
-- **Updated:** 2024-10-25T03:11:04Z
+- **Updated:** 2024-10-29T22:47:48Z
 - **Size:** 18.88 MB
 - **SHA256SUM:** e281485fe0dd949ba052b45f69dddd29c0e07d035272ed9660b7cc47ca34ec32
 - **B3SUM:** e7d86d70ea024c9b4d3cdd95323ac6219a9f423ca38f3e2d52afd199f1a5edd5
@@ -7610,8 +7630,8 @@
 - **Version:** 
 - **Updated:** 2023-09-27T00:51:00Z
 - **Size:** 4.36 MB
-- **SHA256SUM:** e5942afaa830eab9a78d35371edc6ab50f6900d68fc8b38231318e3225efd3cd
-- **B3SUM:** 170209a34de22866bfe7bd07d4140bc1c8c5ea804830e82b0c3e7a63a60223b6
+- **SHA256SUM:** 5ce768008f38a53d051300734b706de4318c0a2f196dedc0be3fddea51cbf182
+- **B3SUM:** cc7e4ec7a85e9861a25b8013e8061d69d98100c137b87c9dd86188d70094a421
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gorilla
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -7626,7 +7646,7 @@
 - **Author:** securego
 - **WebURL:** [https://github.com/securego/gosec](https://github.com/securego/gosec)
 - **Repository:** [https://github.com/securego/gosec](https://github.com/securego/gosec)
-- **Stars:** 7804
+- **Stars:** 7805
 - **Version:** v2.21.4
 - **Updated:** 2024-10-28T08:24:00Z
 - **Size:** 19.44 MB
@@ -7666,7 +7686,7 @@
 - **Author:** ginuerzh
 - **WebURL:** [https://github.com/ginuerzh/gost](https://github.com/ginuerzh/gost)
 - **Repository:** [https://github.com/ginuerzh/gost](https://github.com/ginuerzh/gost)
-- **Stars:** 15946
+- **Stars:** 15948
 - **Version:** v2.12.0
 - **Updated:** 2024-10-11T08:02:49Z
 - **Size:** 15.28 MB
@@ -7686,7 +7706,7 @@
 - **Author:** tianon
 - **WebURL:** [https://github.com/tianon/gosu](https://github.com/tianon/gosu)
 - **Repository:** [https://github.com/tianon/gosu](https://github.com/tianon/gosu)
-- **Stars:** 4706
+- **Stars:** 4707
 - **Version:** 1.17
 - **Updated:** 2024-09-27T08:20:44Z
 - **Size:** 2.2 MB
@@ -7710,8 +7730,8 @@
 - **Version:** v1.1
 - **Updated:** 2022-07-17T13:10:41Z
 - **Size:** 2.07 MB
-- **SHA256SUM:** 76969d6bda6e49bd8993ed39d84a83c84976a054efb07ba8958766a83060d627
-- **B3SUM:** 669045f16fb07b984d91835e50d10b4dcb217305f685f61fb29025f98df97b2c
+- **SHA256SUM:** 9e451b04015f190285bb358023644a0f0d9550daa98d90a17c93b240be3e217b
+- **B3SUM:** 9deb7d6b540e83a2818892c46bc2a67be4fe60b768904f297ae74a8f0886c4d6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gotator
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -7746,12 +7766,12 @@
 - **Author:** sensepost
 - **WebURL:** [https://github.com/sensepost/gowitness](https://github.com/sensepost/gowitness)
 - **Repository:** [https://github.com/sensepost/gowitness](https://github.com/sensepost/gowitness)
-- **Stars:** 3205
+- **Stars:** 3209
 - **Version:** 3.0.5
 - **Updated:** 2024-10-22T12:59:24Z
-- **Size:** 52.88 MB
-- **SHA256SUM:** 826978e985e96568b1dcc1c9b00942bb69e32f19a0dac23d23ffbd9812d2db10
-- **B3SUM:** 96de25914b28c4009639e02a345c267c540f1c186ba6b23633e4220bcb0e9830
+- **Size:** 52.98 MB
+- **SHA256SUM:** 218e05491a852dfa7494d7ca7f6e6fd12f3093f6dc4072620c1f3286250eb52c
+- **B3SUM:** 7111572430784e9974062297aae3b408a87fbbd782263d449d09365aaf6b7c30
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gowitness
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -7786,7 +7806,7 @@
 - **Author:** orf
 - **WebURL:** [https://github.com/orf/gping](https://github.com/orf/gping)
 - **Repository:** [https://github.com/orf/gping](https://github.com/orf/gping)
-- **Stars:** 10809
+- **Stars:** 10810
 - **Version:** gping-v1.17.3
 - **Updated:** 2024-10-21T10:19:32Z
 - **Size:** 2.4 MB
@@ -7826,12 +7846,12 @@
 - **Author:** pemistahl
 - **WebURL:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
 - **Repository:** [https://github.com/pemistahl/grex](https://github.com/pemistahl/grex)
-- **Stars:** 7281
+- **Stars:** 7282
 - **Version:** v1.4.5
 - **Updated:** 2024-10-24T17:36:11Z
 - **Size:** 2.18 MB
-- **SHA256SUM:** b590bd02d6a11b9de706d684d6540e7f94c38ae40760622f9edd4e30caad46ec
-- **B3SUM:** 8f2cfac9304ef3d38516c50d6cf6dd3ae485e6968f3e380e0252350656411ed5
+- **SHA256SUM:** 1916835808ed9fce53f35321c23ac46a3f4c0ca0b71219fb9e1775ee7d5edcb7
+- **B3SUM:** f09bd21ccaa70eeb5a1b3778727f561814f9071f4539e0d14be938700d76c819
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/grex
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -7846,12 +7866,12 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
 - **Repository:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
-- **Stars:** 13848
+- **Stars:** 13849
 - **Version:** v0.7.1
 - **Updated:** 2023-10-24T20:42:37Z
 - **Size:** 5.57 MB
-- **SHA256SUM:** 50d712b20303ba9779e326c873f42a7d4a24c0064e247d6fbbc086258db2a9d5
-- **B3SUM:** ed62d5b9dea0d791afbbbb82d7f39fa6c07c9b0c4dad6af0a8209d09d41bf69f
+- **SHA256SUM:** f4ee44fa4badeb84aa4ecb6c70d0eb3d2c600c734059ec97b8ffa82af8a623e1
+- **B3SUM:** 50d52dc9a8a3b6a3ea868d7b21afab66bd08a1d1d57be0138c2ea0069c5cfaa0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gron
 - **Language:** Go
 - **License:** MIT License
@@ -7870,8 +7890,8 @@
 - **Version:** v1.19.3
 - **Updated:** 2024-10-27T11:16:29Z
 - **Size:** 2.21 MB
-- **SHA256SUM:** deae49eaf3c7423a3f1b4a792812931571abe927f750f4edc6fa1b0e2982d994
-- **B3SUM:** c77451e84d481b063f99c272aff8da9df171c2f448a51fbb71cb1c91629fbac9
+- **SHA256SUM:** 5025eb5bd2342bd7c0d9e26100fc1c033b6159b87a2b4a127c1c9f8d8a5b431d
+- **B3SUM:** 22e48c0bc1a01a30e438b341b3fe81f3dabc15277b108f1525fd4aa16d1a320a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gronx-tasker
 - **Language:** Go
 - **License:** MIT License
@@ -7886,12 +7906,12 @@
 - **Author:** fullstorydev
 - **WebURL:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
 - **Repository:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
-- **Stars:** 10835
+- **Stars:** 10837
 - **Version:** v1.9.1
 - **Updated:** 2024-10-25T13:22:52Z
 - **Size:** 24.76 MB
-- **SHA256SUM:** 282dc5ca8b4c4cb33c3b17989a85f7d0df0bea441deb075943a0852a262d43b8
-- **B3SUM:** 4934dd3df1793271bfbd98113600e62ed8d2eb2ec0d639e90fa24ed50d7867a5
+- **SHA256SUM:** 4031fc0351f0b5c7b9eb6c5c42d40329340bc63de409f8adc24c6d46f75b3521
+- **B3SUM:** 616177a82d1cea185951e9b9760a8d68219b4d68b98cb27a27ff1c4cf8e9773b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/grpcurl
 - **Language:** Go
 - **License:** MIT License
@@ -7946,12 +7966,12 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
 - **Repository:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
-- **Stars:** 18088
+- **Stars:** 18092
 - **Version:** v0.14.5
 - **Updated:** 2024-10-28T12:08:18Z
 - **Size:** 20.98 MB
-- **SHA256SUM:** 35a4b6414da6eff334909594ea2ab4dce09b14fc98e1abacc7193197a66e7de6
-- **B3SUM:** 715fded30854333c6a7aa5be5d22fe2ce6c10d8e35e6d1820a6fb743d4877941
+- **SHA256SUM:** 9a7fb3d3c746cb3f9882993d03a93a9b04aa2e202c4e9ada9c0c2d00b44a5d86
+- **B3SUM:** 300fa4b57884535cabd949cd6730ec9fa8a086c6a97b8b860ac7f71f5bee79e5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/gum
 - **Language:** Go
 - **License:** MIT License
@@ -7968,7 +7988,7 @@
 - **Repository:** [https://github.com/nao1215/gup](https://github.com/nao1215/gup)
 - **Stars:** 340
 - **Version:** v0.27.5
-- **Updated:** 2024-10-24T12:07:27Z
+- **Updated:** 2024-10-29T20:14:21Z
 - **Size:** 5.67 MB
 - **SHA256SUM:** 87ebc6d28d57ef6acca04b82ede75bebdd724d53b784e3da9dcc1cdcb0c9fd0a
 - **B3SUM:** 6ef6be703b64c9aa688e2368fd15ca35f2afafca7e6a2525b3daaa2f857f38ac
@@ -7990,8 +8010,8 @@
 - **Version:** v3.0.0
 - **Updated:** 2024-08-15T17:54:25Z
 - **Size:** 5.69 MB
-- **SHA256SUM:** dc9b0fba03ff589814817d33ef9be6971227e227d0b051c448ddde184f936068
-- **B3SUM:** c2e54df3de49870929240a209e757065081303c5c3669cfe85f57ad4eedd9a12
+- **SHA256SUM:** 910cec29a433051463191488c64ef02c1cf17b6fcc85522c0e1f99ab1d8ed171
+- **B3SUM:** a494e691f5a5c7a875af42830b634eae5c6f3aca82c5400e54ad542b0965c726
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hacker-scoper
 - **Language:** Go
 - **License:** Other
@@ -8006,7 +8026,7 @@
 - **Author:** hadolint
 - **WebURL:** [https://github.com/hadolint/hadolint](https://github.com/hadolint/hadolint)
 - **Repository:** [https://github.com/hadolint/hadolint](https://github.com/hadolint/hadolint)
-- **Stars:** 10402
+- **Stars:** 10405
 - **Version:** v2.12.0
 - **Updated:** 2024-10-28T08:27:47Z
 - **Size:** 12.85 MB
@@ -8030,8 +8050,8 @@
 - **Version:** 
 - **Updated:** 2022-04-27T00:46:55Z
 - **Size:** 4.99 MB
-- **SHA256SUM:** 2b6b6ca538b5c36bbfa0eeda599ee43a897784573be5ebef6b494ebb1a2a11c5
-- **B3SUM:** 6259c2fd474d6886126ed41f45546716cdf154a2fbbc6277f0f644bc005bf8ef
+- **SHA256SUM:** c6aa531fcc35ecf585600eaf6f7ae319ad9ce7d215b9221dc593c3dd6c4b405b
+- **B3SUM:** 9cca48144ddff42fce814c61792a8910edc87398296b0ba6bb554ccbc57518a1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hakip2host
 - **Language:** Go
 - **License:** 
@@ -8050,8 +8070,8 @@
 - **Version:** 
 - **Updated:** 2024-01-12T11:56:34Z
 - **Size:** 4.99 MB
-- **SHA256SUM:** f62ed2ba41996440515aec1aa1e546fa725f7efa521a80d0ba27a48989454f98
-- **B3SUM:** dff1f4619257cde4238f223793b932416cfafd4eef21e45c653c1aa77af7316d
+- **SHA256SUM:** b2653569b2f9ede794fa3fefd4d9e94574e5a221e9731cd219400506eb8408d1
+- **B3SUM:** ad4022d1f92bf598301ecad0afb0491eb114d6d1a8aeb989d00eb30e7372f510
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hakoriginfinder
 - **Language:** Go
 - **License:** 
@@ -8070,8 +8090,8 @@
 - **Version:** 2.1
 - **Updated:** 2024-01-23T10:58:14Z
 - **Size:** 11.37 MB
-- **SHA256SUM:** 4a74e23ecf79e65045e51b27079903dc35a7dd15ca60ea76cf4e52b10dc2a906
-- **B3SUM:** 29e01c7819e89c28c884ea7811b58b533f1ec76882356acdd0814daf0ce77c34
+- **SHA256SUM:** 84a9e94f45f88f9e61e9c4ba0595a782582b84376eb3da2618714f5788442a87
+- **B3SUM:** e72aa35c602a5ea377a0ce1ceb626f4958b34e1f5c3e803c1c945874c638ba02
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hakrawler
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -8090,8 +8110,8 @@
 - **Version:** 
 - **Updated:** 2024-08-01T12:25:31Z
 - **Size:** 2.34 MB
-- **SHA256SUM:** e959a5669355e2d34a7673322888aabea197a82703e0183414e5ca40890ef2fb
-- **B3SUM:** a202310d143b43b063f579ed8afd6d6ee147830aaf990419d29525913c9f1672
+- **SHA256SUM:** cdeb12440bc30517d5dabccacb1e69e1c96932b437c4af6d4bbdc9e73714f93b
+- **B3SUM:** 913aaf70cd87ef97382eb873051f19d759154d0e7f53183e21cadc1a08495f7e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hakrevdns
 - **Language:** Go
 - **License:** MIT License
@@ -8150,8 +8170,8 @@
 - **Version:** 
 - **Updated:** 2024-06-26T09:59:29Z
 - **Size:** 8.17 MB
-- **SHA256SUM:** 032418e6173e1270adfd7acb435ee8fedd05b094bcd9af91a3aa5d26b8e0d4e7
-- **B3SUM:** d64e1490a4350856ff8e84eb163e16f65f7c87ceb1a915129ef972329355b8ac
+- **SHA256SUM:** 324beb8c2961365c528f7a81d8ecc267602c0d082895c35dac711cd8f901ab58
+- **B3SUM:** 350cfc57529aeb4e354a6a0cfd6309465ad4f819e9ddd7afe75938c93d1340b6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hardeningmeter_staticx
 - **Language:** Python
 - **License:** GNU Affero General Public License v3.0
@@ -8189,9 +8209,9 @@
 - **Stars:** 1101
 - **Version:** v1.48.0
 - **Updated:** 2024-10-28T16:52:58Z
-- **Size:** 13.43 MB
-- **SHA256SUM:** 5bdc7c758fbfd77c1f17084d62fade1ec796eeba9f39957267ccdcfe3f13f634
-- **B3SUM:** cf598a2ba9b8fcdc125d87e53ee0deb4d62b79bb990f3e93bb2c06733548a903
+- **Size:** 14.25 MB
+- **SHA256SUM:** f27c2d9da614e34d06992ff1e949c275462c8deb7fcd284a80a2aa8401ee29f8
+- **B3SUM:** 7db276e3eb238d633741925a7fc55fa80fd608b25da2a69e2f4c426a2a2f3b12
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hcloud
 - **Language:** Go
 - **License:** MIT License
@@ -8390,8 +8410,8 @@
 - **Version:** v0.3.0
 - **Updated:** 2024-07-06T20:29:36Z
 - **Size:** 2.27 MB
-- **SHA256SUM:** 46ec55def77b0443ceb0f9c80678b22259a510c54956313ae20b7c2145741f1b
-- **B3SUM:** a45412bde3b3fe6146856fcc578db7cfb31ead67f672679d04f1402defedbda7
+- **SHA256SUM:** ef493e7e6ca07bcd847fe8ccfdc6fe30a76e18a6aaa6163bc949a3910a08641c
+- **B3SUM:** 5c480df79eac0b60d65d72b6b792d47ee304313ba6a46de1550f95f9e9375aee
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ht
 - **Language:** CSS
 - **License:** Apache License 2.0
@@ -8408,10 +8428,10 @@
 - **Repository:** [https://github.com/CleanCut/headtail](https://github.com/CleanCut/headtail)
 - **Stars:** 43
 - **Version:** v0.3.2
-- **Updated:** 2024-10-28T00:08:59Z
+- **Updated:** 2024-10-29T18:30:21Z
 - **Size:** 1.79 MB
-- **SHA256SUM:** a453db3b8d319758fc0fda6cfec50ebec7c1bf1e6a5fe5e3532552272de9e033
-- **B3SUM:** f7f2b955c573a181adc5853a916552cfe06f99e4d9ed37ac6d93dcc497246f6d
+- **SHA256SUM:** ad8657f6f71417fb9d937053fe9bcd9806c9c554b3f1c03dca5354e52d07debf
+- **B3SUM:** 06e3bd97655e72cfa34de16e8f28eb0d37fb77d3afe88b29d4858017a529cdd6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/headtail
 - **Language:** Rust
 - **License:** 
@@ -8430,8 +8450,8 @@
 - **Version:** v1.0.7
 - **Updated:** 2024-10-05T09:33:34Z
 - **Size:** 16.61 MB
-- **SHA256SUM:** b8c4c3454e7dbb0370e8a17cf0ce4f479cc9b47ad3ad090d178be7f7518311a4
-- **B3SUM:** 19c382e898100c31950b7c12913497c7007cc679ba155f9e7828cdd9b935a47b
+- **SHA256SUM:** 4050d7faf5ee197be9f33d64a325d4bc8c0a9d1ef0d2c4b851805f2fae68aef2
+- **B3SUM:** 42903336d43e9663d86f06fb673e169993f93821d2e2d1ea594702c3fe181ebb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hednsextractor
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -8446,7 +8466,7 @@
 - **Author:** sitkevij
 - **WebURL:** [https://github.com/sitkevij/hex](https://github.com/sitkevij/hex)
 - **Repository:** [https://github.com/sitkevij/hex](https://github.com/sitkevij/hex)
-- **Stars:** 521
+- **Stars:** 522
 - **Version:** v0.6.0
 - **Updated:** 2024-06-09T18:12:44Z
 - **Size:** 796.41 KB
@@ -8466,12 +8486,12 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
 - **Repository:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
-- **Stars:** 9118
-- **Version:** v0.14.0
-- **Updated:** 2024-09-08T11:09:17Z
+- **Stars:** 9119
+- **Version:** v0.15.0
+- **Updated:** 2024-10-29T21:47:05Z
 - **Size:** 899.82 KB
-- **SHA256SUM:** ab80a57069431f03550d6523e8c3e7f71f336819ef9f1720eea6f0a03d7a75d7
-- **B3SUM:** 61a4c29058ee8445f1bbd4de42337f1d611246130ebb2c8523e31bc9f86d1680
+- **SHA256SUM:** ee94614a2a30e1fd2a881da56ab68ec9a57a72502bc3d92ddad6ff048525c62a
+- **B3SUM:** ec120a657e5d55591e758b9cb7ffb876c24b5a178e15c77508ee9d4b4689875d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hexyl
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -8486,9 +8506,9 @@
 - **Author:** pimalaya
 - **WebURL:** [https://github.com/pimalaya/himalaya](https://github.com/pimalaya/himalaya)
 - **Repository:** [https://github.com/pimalaya/himalaya](https://github.com/pimalaya/himalaya)
-- **Stars:** 3156
+- **Stars:** 3157
 - **Version:** v1.0.0-beta.4
-- **Updated:** 2024-10-29T11:13:03Z
+- **Updated:** 2024-10-29T18:40:00Z
 - **Size:** 24.4 MB
 - **SHA256SUM:** c76251f4da91b2776be0ae764ab442a05920528beef6dbcd22fa1566aaca684c
 - **B3SUM:** 29d08c8c7d2ae269724a0d01b1df156ecd33b39a8961a2447eee85351298db21
@@ -8508,7 +8528,7 @@
 - **Repository:** [https://github.com/FedericoPonzi/Horust](https://github.com/FedericoPonzi/Horust)
 - **Stars:** 183
 - **Version:** v0.1.7
-- **Updated:** 2024-10-01T08:39:13Z
+- **Updated:** 2024-10-29T22:30:23Z
 - **Size:** 3.63 MB
 - **SHA256SUM:** c6f765b2b68b5699115e8759e9bd4fc7df1759d5038d40bfeebf2e2f65d72b1f
 - **B3SUM:** d906279eb5da71b6c98c75d9a0890aba6ae2fe99d3f527f307e92a0c728a644d
@@ -8549,9 +8569,9 @@
 - **Stars:** 39
 - **Version:** v0.1.6
 - **Updated:** 2024-02-01T00:54:07Z
-- **Size:** 14.53 MB
-- **SHA256SUM:** 57126e80c3de12e7f570aadef328b8d92983f3e9a162fae25c00daea899682d0
-- **B3SUM:** 733c3d3df3444fcc4307d7675a3b757f0282a90828b3e008c7b92e89c2f8fc81
+- **Size:** 14.54 MB
+- **SHA256SUM:** b19a93b7f0d867b67f3d971cabbc20a2a9e534b77a4c091b7bda1b5feced3993
+- **B3SUM:** b96ec2fc110b88fcab9dd452575222da4b936da68c95a7fc14baf5a407305e92
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hrekt
 - **Language:** Rust
 - **License:** MIT License
@@ -8570,8 +8590,8 @@
 - **Version:** v1.6.0
 - **Updated:** 2024-04-23T14:50:51Z
 - **Size:** 10.25 MB
-- **SHA256SUM:** 9220c3299e418cc3a72b851d8e0473c2ab8f95b5fb9f30050cc0aa3192d31d17
-- **B3SUM:** 536cd71d97b253dde81eb31bbf6dc0079993daae1be459bcd5730f9a57bd7a54
+- **SHA256SUM:** 78a0400f20bc3f6efbc8fb774785d7f1bb8517b427efc3fc842c2b69bd6028db
+- **B3SUM:** f60dbf97c57c5015c8b978ff78decb1a310a24f78951d9b571f184269bfef0ce
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/htb-cli
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -8590,8 +8610,8 @@
 - **Version:** v0.4.0
 - **Updated:** 2024-05-29T03:40:49Z
 - **Size:** 2.28 MB
-- **SHA256SUM:** a2e00c73adedd94202c551ddd88496ff0ed4d2e0d7bb24aa41774498f8e052e2
-- **B3SUM:** f15a50b0aa3f18809cf187c26f130b9f91211bae8db744f9a050bd11e7011c5a
+- **SHA256SUM:** ce10b5731ae9a2a3ff1a8cb6fca781586324c4fd31f433554faee0661d777f07
+- **B3SUM:** ba5851646f20b18cfa589b52bcefaf04d689b05dc8c46266d22d22c3ba41d105
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/htmlq
 - **Language:** Rust
 - **License:** MIT License
@@ -8606,7 +8626,7 @@
 - **Author:** htop-dev
 - **WebURL:** [https://htop.dev](https://htop.dev)
 - **Repository:** [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
-- **Stars:** 6427
+- **Stars:** 6429
 - **Version:** 3.3.0
 - **Updated:** 2024-10-12T11:37:42Z
 - **Size:** 662.3 KB
@@ -8626,12 +8646,12 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/httprobe](https://github.com/tomnomnom/httprobe)
 - **Repository:** [https://github.com/tomnomnom/httprobe](https://github.com/tomnomnom/httprobe)
-- **Stars:** 2858
+- **Stars:** 2861
 - **Version:** v0.2
 - **Updated:** 2024-06-22T22:47:09Z
 - **Size:** 4.99 MB
-- **SHA256SUM:** ef65d7a4d8317e673f6d32a425fb479ebf55c6a15474bbd98f3dd90471729e7e
-- **B3SUM:** daa0aa1befe32ab9ccf6b1a61e45e2fc67fecc8c849d1977716864a8172c4b1c
+- **SHA256SUM:** 0bd03c2be1a17a0deec6e7b6fb4933af3223b20c5d015a2fde9650fe12ddb318
+- **B3SUM:** 4c73ff3906d7582e71d4b137c6b8a9cf8383a03cf47ec0b21cb223b185f66a7b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/httprobe
 - **Language:** Go
 - **License:** MIT License
@@ -8646,7 +8666,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
 - **Repository:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
-- **Stars:** 7647
+- **Stars:** 7653
 - **Version:** v1.6.9
 - **Updated:** 2024-10-28T10:44:15Z
 - **Size:** 37.22 MB
@@ -8670,8 +8690,8 @@
 - **Version:** v2.14.2
 - **Updated:** 2024-02-02T21:00:44Z
 - **Size:** 6.73 MB
-- **SHA256SUM:** 5e7cec49c6087448a63b8e2d194a3f7ea420049e6ee422518610fd0940b07c12
-- **B3SUM:** b69b8e2eb680dd0df0a717a4c7587d4c87384ed6a761607e05f7fb1cd979e847
+- **SHA256SUM:** 93edcd886c0f73bc582ecb99b158c3b0d46cb4478f18d70e47d083f5b07bcbe5
+- **B3SUM:** 16e3c8a98c148298dfa81e467740fe44345c53567dbb0842e13d659049185d71
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hub
 - **Language:** Go
 - **License:** MIT License
@@ -8686,12 +8706,12 @@
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
-- **Stars:** 2069
+- **Stars:** 2072
 - **Version:** v0.26.2
-- **Updated:** 2024-10-28T17:29:23Z
-- **Size:** 20.26 MB
-- **SHA256SUM:** 34e11fc5296b58e687344e791877e86076fad68fc245c5e37ecf5cece1010348
-- **B3SUM:** 18ba34e3c397d3b5687f0053b0c9c760ffa2209da8566813e1e3d8374bdc23f5
+- **Updated:** 2024-10-29T21:39:59Z
+- **Size:** 20.24 MB
+- **SHA256SUM:** 4e52969f9865e3b2c86bf7e2ebb37be2aa49ae449c3ca88d63c1e5b0afd0a8c8
+- **B3SUM:** 7d692babb38b042db66de18896f4853e96de486234cfaabc9a9bb4c282937e94
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hf-cli
 - **Language:** Python
 - **License:** Apache License 2.0
@@ -8706,12 +8726,12 @@
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
-- **Stars:** 2069
+- **Stars:** 2072
 - **Version:** v0.26.2
-- **Updated:** 2024-10-28T17:29:23Z
-- **Size:** 20.26 MB
-- **SHA256SUM:** 34e11fc5296b58e687344e791877e86076fad68fc245c5e37ecf5cece1010348
-- **B3SUM:** 18ba34e3c397d3b5687f0053b0c9c760ffa2209da8566813e1e3d8374bdc23f5
+- **Updated:** 2024-10-29T21:39:59Z
+- **Size:** 20.24 MB
+- **SHA256SUM:** 4e52969f9865e3b2c86bf7e2ebb37be2aa49ae449c3ca88d63c1e5b0afd0a8c8
+- **B3SUM:** 7d692babb38b042db66de18896f4853e96de486234cfaabc9a9bb4c282937e94
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/huggingface-cli
 - **Language:** Python
 - **License:** Apache License 2.0
@@ -8726,12 +8746,12 @@
 - **Author:** gohugoio
 - **WebURL:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
 - **Repository:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
-- **Stars:** 75582
+- **Stars:** 75596
 - **Version:** v0.136.5
 - **Updated:** 2024-10-27T11:43:36Z
 - **Size:** 72.91 MB
-- **SHA256SUM:** d309b1e1f697aedea8730a1f225f365ed138f3bb9a44423e9d9638a8ed643eab
-- **B3SUM:** 6411f175edbd24e06a5b9f098386e850a8b7e53efbd1a249074d380032f08fb7
+- **SHA256SUM:** dd2726f1f5fbc41262266bf1d5bc58cd03a9359903e486d199a9e9c57b2e8b53
+- **B3SUM:** ed8c885347efbb0148c84954e5b1dd1d203461b5bcf4b74c6663d9f2ea720bda
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hugo
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -8746,9 +8766,9 @@
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 13003
+- **Stars:** 13008
 - **Version:** 5.0.1
-- **Updated:** 2024-10-29T13:52:46Z
+- **Updated:** 2024-10-29T16:03:15Z
 - **Size:** 10.51 MB
 - **SHA256SUM:** d604fd4ba35d08a09ea55721f686f9e4e0725e60c0ffe5b26c64284d94603029
 - **B3SUM:** 0dd65c9028c18b3abcada9282556c36126435380ed08a3444dface6b2807db13
@@ -8766,9 +8786,9 @@
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 13003
+- **Stars:** 13008
 - **Version:** 5.0.1
-- **Updated:** 2024-10-29T13:52:46Z
+- **Updated:** 2024-10-29T16:03:15Z
 - **Size:** 3.61 MB
 - **SHA256SUM:** 5d4b77a6d8d64c0d8359677e919c809fb381024b27100b46b95425bb11ec5a2d
 - **B3SUM:** 87c7abf5ccfff6c46b5315f6db5578f6c05c4d12db74b72dc220cfaf927f3fc3
@@ -8826,7 +8846,7 @@
 - **Author:** blacknon
 - **WebURL:** [https://github.com/blacknon/hwatch](https://github.com/blacknon/hwatch)
 - **Repository:** [https://github.com/blacknon/hwatch](https://github.com/blacknon/hwatch)
-- **Stars:** 775
+- **Stars:** 776
 - **Version:** 0.3.15
 - **Updated:** 2024-10-27T14:58:47Z
 - **Size:** 3.49 MB
@@ -8846,7 +8866,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 21980
+- **Stars:** 21983
 - **Version:** v1.18.0
 - **Updated:** 2024-09-01T02:42:12Z
 - **Size:** 1.22 MB
@@ -8886,12 +8906,12 @@
 - **Author:** ulyssa
 - **WebURL:** [https://iamb.chat](https://iamb.chat)
 - **Repository:** [https://github.com/ulyssa/iamb](https://github.com/ulyssa/iamb)
-- **Stars:** 642
+- **Stars:** 643
 - **Version:** v0.0.10
 - **Updated:** 2024-09-17T05:15:36Z
 - **Size:** 22.44 MB
-- **SHA256SUM:** ea8f8768f3f45c210c1697e37a7f90522cde25235fd40e9d5ef8b31dd52c1878
-- **B3SUM:** 87d81847eff816a3f19ed18ae776ac625cb09ac7d4682060b982260c2ce3ab1c
+- **SHA256SUM:** 684d1a7970c5d2968d25f1267b88dc83a26c89c567b4e96ae18fef4a111fd6a6
+- **B3SUM:** be3fcf374b0385e1c6f3f917934bf589ca7e56cdd8500e5d153e18584794b758
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/iamb
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -8930,8 +8950,8 @@
 - **Version:** v0.0.7
 - **Updated:** 2024-10-05T13:20:24Z
 - **Size:** 64.5 KB
-- **SHA256SUM:** a9ae7283de31eeb4659e5720ff2c3db2beae97a90df2378bce2077a8f0ad3a34
-- **B3SUM:** 8489a4a3272c136031d7dbf7ce6dee87be3414f9a591e9166a750ec23382780e
+- **SHA256SUM:** 3de769a96646cd1a8cc4f4602b46c8511e44c62cc424e8d85526b1a4a591e8d2
+- **B3SUM:** 483fd788c1a718075ff370a88eea7cd3c0778e5c7080ed106460250a55f0dc10
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/importenv
 - **Language:** Rust
 - **License:** MIT License
@@ -8970,8 +8990,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 1.94 MB
-- **SHA256SUM:** 432cf9c04f3d6b72f5ad2694ccaaf72f76cdbc21703c4088d0c09068819e85cb
-- **B3SUM:** 93332c1b349781b9cb41d12538879c2e9c64729ac81f59d9829ccf787897e654
+- **SHA256SUM:** a5d322bfd963fa737e52b1b81346efcc64b294a8c4ebd6eacdea0914b56fc66b
+- **B3SUM:** c78572c858d2f3576684248be3338c62760cb0140decc7260818412da9739783
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/inscope
 - **Language:** Shell
 - **License:** The Unlicense
@@ -8986,7 +9006,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
-- **Stars:** 3401
+- **Stars:** 3404
 - **Version:** v1.2.2
 - **Updated:** 2024-10-28T01:27:45Z
 - **Size:** 23.84 MB
@@ -9006,7 +9026,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
-- **Stars:** 3401
+- **Stars:** 3404
 - **Version:** v1.2.2
 - **Updated:** 2024-10-28T01:27:45Z
 - **Size:** 26.41 MB
@@ -9126,7 +9146,7 @@
 - **Author:** esnet
 - **WebURL:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
 - **Repository:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
-- **Stars:** 6896
+- **Stars:** 6897
 - **Version:** 3.17.1
 - **Updated:** 2024-10-25T18:07:35Z
 - **Size:** 3.62 MB
@@ -9308,7 +9328,7 @@
 - **Repository:** [https://github.com/istio/istio](https://github.com/istio/istio)
 - **Stars:** 35894
 - **Version:** 1.23.2
-- **Updated:** 2024-10-29T04:39:53Z
+- **Updated:** 2024-10-29T18:32:54Z
 - **Size:** 88.74 MB
 - **SHA256SUM:** 535b85a3e7802fc342ffa2c5c735bb1292ab865cb75c3b97ac0aa3487f57bf45
 - **B3SUM:** ac795074993f1b4bbd67b5af4f482c39361f06f961ececea3404502d401b7871
@@ -9330,8 +9350,8 @@
 - **Version:** beta-v0.17.1
 - **Updated:** 2024-05-08T10:05:21Z
 - **Size:** 24.4 MB
-- **SHA256SUM:** ba5a175db7a7e74da88583cfc9325a0e9c28450c4980da630f72d1aac6ab6d9d
-- **B3SUM:** 0a8aad3d0f955b936493c1a4fca2c02111221848b9d505b7fc4e942db7c00002
+- **SHA256SUM:** 0d7b18585e97f168095b831f393a07804ec40c4159a82c08869f4eb95076d595
+- **B3SUM:** 52aa748225276b549476b4b686a31eb413306fca5d4dcba7031b214ab8f7c18f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jaeles
 - **Language:** Go
 - **License:** MIT License
@@ -9366,12 +9386,12 @@
 - **Author:** kellyjonbrazil
 - **WebURL:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
 - **Repository:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
-- **Stars:** 7873
+- **Stars:** 7874
 - **Version:** v1.25.3
 - **Updated:** 2024-10-20T16:50:39Z
 - **Size:** 13.53 MB
-- **SHA256SUM:** 853359ed65c294d3afcb5c89d3fb7bd976dc4bcc1088dfd02db7c779fe79794d
-- **B3SUM:** 15816b6249f9d35549a6a77a1056dd6318a8a9df6d5dc470f1a50bab481c5257
+- **SHA256SUM:** c0838ffe570eddaf8704f14cb3e5942d072bdb5f35c4ff410fe01a2e77d39c7a
+- **B3SUM:** c8db5c08c35442995ed27d334c90e6caf4f7e49edc1dec2292b8a9f87f4fc979
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jc
 - **Language:** Python
 - **License:** MIT License
@@ -9390,8 +9410,8 @@
 - **Version:** v1.7.0
 - **Updated:** 2024-01-05T22:31:27Z
 - **Size:** 4.93 MB
-- **SHA256SUM:** 2823f3a47a5ecc7eef6e7bc10ed1907b2b4aa4eabf87decfc30f8efa65c52bc9
-- **B3SUM:** 7c79ceaebc447eff1809c630c20ee93ffc7ad39c90997dac78c9da556d1e6f92
+- **SHA256SUM:** ca40fc509644422f9070a005dd7be84f3f8d842db034a208297b57772a61b4fb
+- **B3SUM:** 0f82bed290830ccb4e7d4905e6272d3a2266a0961f4534448b65dc59b82996a3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jen
 - **Language:** Rust
 - **License:** MIT License
@@ -9406,7 +9426,7 @@
 - **Author:** ankitpokhrel
 - **WebURL:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
 - **Repository:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
-- **Stars:** 3952
+- **Stars:** 3955
 - **Version:** v1.5.2
 - **Updated:** 2024-09-22T08:14:14Z
 - **Size:** 18.18 MB
@@ -9426,12 +9446,12 @@
 - **Author:** martinvonz
 - **WebURL:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 - **Repository:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
-- **Stars:** 8901
+- **Stars:** 8916
 - **Version:** v0.22.0
-- **Updated:** 2024-10-29T05:58:56Z
-- **Size:** 20.26 MB
-- **SHA256SUM:** c64cca827444b5a375852a30ee987a9bc33c2ba3607f3635993bdca97c05d890
-- **B3SUM:** 7eae9965df2a39b36c890c5ba8c3dab77a9beeb12a3534c7e5105e5ee49bc72c
+- **Updated:** 2024-10-29T16:20:41Z
+- **Size:** 20.16 MB
+- **SHA256SUM:** 0a80b46dceb9f11e492d9d082f92997603de106c4ecd788d44c8b0845af04ddd
+- **B3SUM:** e7283d9bc388f519387b991fed4c62821da9a38f4698e13a7ac89ac1be6df5fd
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jj
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -9446,12 +9466,12 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4768
+- **Stars:** 4769
 - **Version:** v0.9.0
 - **Updated:** 2024-09-07T16:16:59Z
 - **Size:** 1.51 MB
-- **SHA256SUM:** 6414fd7cefa5dd99e43f09d0bbc9540913ec4870a14c84c402b29114ee71dd61
-- **B3SUM:** 9832a1a47a0cbea20cd8b669425ee45035f9724117c85ae5a5d5fbd5b1eb01c5
+- **SHA256SUM:** 35b8b9c9b933378053f2f6a65d346ca6e5cf645142442688906626dafbd121fe
+- **B3SUM:** 455db86b70071d545c7b8214f2cf0d3759c62736fdca5e08a26de5728e81ce67
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jless_staticx
 - **Language:** Rust
 - **License:** MIT License
@@ -9466,7 +9486,7 @@
 - **Author:** ynqa
 - **WebURL:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 - **Repository:** [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
-- **Stars:** 4867
+- **Stars:** 4868
 - **Version:** v0.4.1
 - **Updated:** 2024-10-05T13:17:25Z
 - **Size:** 4.26 MB
@@ -9490,8 +9510,8 @@
 - **Version:** 
 - **Updated:** 2024-04-07T01:14:12Z
 - **Size:** 2.8 MB
-- **SHA256SUM:** 6cca4ba543a2f802953bb586dae35583fcb6a167a11919adc93f51198506cf47
-- **B3SUM:** 489c1d040d01c23e6dd59333f1af4db6905b6941bf75b13e8cf361c8364033b5
+- **SHA256SUM:** e30b100133b2252fb07979e71c3e2ba330c623ec60e9068a4f685831fef88feb
+- **B3SUM:** 9341f9af39f70f09a5fdeb240cfbbe613123ee44da30911d7d68c208bd2b364f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jobs
 - **Language:** Rust
 - **License:** 
@@ -9526,7 +9546,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 30462
+- **Stars:** 30463
 - **Version:** jq-1.7.1
 - **Updated:** 2024-10-27T06:55:22Z
 - **Size:** 1.71 MB
@@ -9549,9 +9569,9 @@
 - **Stars:** 1499
 - **Version:** jql-v8.0.0
 - **Updated:** 2024-10-28T12:06:27Z
-- **Size:** 906.99 KB
-- **SHA256SUM:** c480641547f9ace79bcad5af7f537a11e778fccf1a53ae53c378442060613c9c
-- **B3SUM:** adea131e7e1694c79e690d51bd380a3e6e7cf376c836f0236c2ed3399db20919
+- **Size:** 911.09 KB
+- **SHA256SUM:** 86a5847a4a8816e6041f87740785b4e4c12442ada41c0eb934b55919763973e0
+- **B3SUM:** e10cf49582544c744954d1995d29b6c3854afa7e4b3a8723d420876bdb8e8373
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jql
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -9590,8 +9610,8 @@
 - **Version:** v0.3.9
 - **Updated:** 2024-10-03T16:07:09Z
 - **Size:** 77.9 MB
-- **SHA256SUM:** 5ef9c547e70a9931b861022f171859edfadc453028b5b2c7b8c91be382dd547d
-- **B3SUM:** 3b8134cd174805023428351c612405920fefbc4801f8730058e4f22eeb142167
+- **SHA256SUM:** 3f8bdfdb6f1454fd275e7d093bdb84f1d39b3a5a3512b4ed6d3c2d7c98d14819
+- **B3SUM:** e4a85e563a5bf011c4231f69096b9cedae5c20adf1ecf47f4452656799614d6f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jr
 - **Language:** Go
 - **License:** MIT License
@@ -9626,7 +9646,7 @@
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/just](https://github.com/casey/just)
 - **Repository:** [https://github.com/casey/just](https://github.com/casey/just)
-- **Stars:** 21143
+- **Stars:** 21150
 - **Version:** 1.36.0
 - **Updated:** 2024-10-27T09:53:35Z
 - **Size:** 3.34 MB
@@ -9650,8 +9670,8 @@
 - **Version:** 
 - **Updated:** 2024-02-27T16:42:21Z
 - **Size:** 1.9 MB
-- **SHA256SUM:** df6d3e6f053565e73224cd6190726dab51920faf329e2e412fdb27cefb05aac6
-- **B3SUM:** a5616791508e8495e9922f151953e99951aa385e669f95e3cd0df43b65fe7be0
+- **SHA256SUM:** cc715c19c756b64477f22f5eec16687463e4f179361a6cb47ea8b7c86d983172
+- **B3SUM:** 816f59517d0ce214ab6413c1ff67fb3a120fa0b2a68965bed62964fad20623a3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jwt-cracker
 - **Language:** 
 - **License:** 
@@ -9666,12 +9686,12 @@
 - **Author:** hahwul
 - **WebURL:** [https://github.com/hahwul/jwt-hack](https://github.com/hahwul/jwt-hack)
 - **Repository:** [https://github.com/hahwul/jwt-hack](https://github.com/hahwul/jwt-hack)
-- **Stars:** 760
+- **Stars:** 761
 - **Version:** v1.2.0
 - **Updated:** 2024-05-21T15:01:06Z
 - **Size:** 4.99 MB
-- **SHA256SUM:** 157d06cbae2ab28f533d26107007ec08b61fff50a994e9b125fc08ce83bbdc85
-- **B3SUM:** 3aa7cfb5c778ef3bd615b266298830cf0b58c95081a9a6e0d99154d930bfab21
+- **SHA256SUM:** 3a17972cc4f23dbe89a762626a31f5d1da6fadb89236aafaf236078260746699
+- **B3SUM:** e03e30ccddd9e93dfec423b8c5a73386a9be268f6ee275b197f4c27a68ba88e9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/jwt-hack
 - **Language:** Go
 - **License:** MIT License
@@ -9686,7 +9706,7 @@
 - **Author:** derailed
 - **WebURL:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
 - **Repository:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
-- **Stars:** 27078
+- **Stars:** 27082
 - **Version:** v0.32.5
 - **Updated:** 2024-10-28T23:28:47Z
 - **Size:** 92.24 MB
@@ -9710,8 +9730,8 @@
 - **Version:** v2024.05.18
 - **Updated:** 2024-10-28T01:23:26Z
 - **Size:** 2.37 MB
-- **SHA256SUM:** 5133a0b7bb516b70db486a27d545189f13aa1b0c8f118a21ab6462df503ea241
-- **B3SUM:** 8de6813fdb8273f90b7984a489262fc8644b722d34227afd9444408acdaf7968
+- **SHA256SUM:** c0d8ec52a9aaa4d3fafee2848b16baf05ed3e6f27d575e31c3d1ad2978cd43fe
+- **B3SUM:** 0ff26f7a2da8d5cefad6fc1a7a4683c5630b7ccad37744c3ba32dcee6bfeb4fe
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/kak
 - **Language:** C++
 - **License:** The Unlicense
@@ -9730,8 +9750,8 @@
 - **Version:** v2024.05.18
 - **Updated:** 2024-10-28T01:23:26Z
 - **Size:** 2.37 MB
-- **SHA256SUM:** 5133a0b7bb516b70db486a27d545189f13aa1b0c8f118a21ab6462df503ea241
-- **B3SUM:** 8de6813fdb8273f90b7984a489262fc8644b722d34227afd9444408acdaf7968
+- **SHA256SUM:** c0d8ec52a9aaa4d3fafee2848b16baf05ed3e6f27d575e31c3d1ad2978cd43fe
+- **B3SUM:** 0ff26f7a2da8d5cefad6fc1a7a4683c5630b7ccad37744c3ba32dcee6bfeb4fe
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/kakoune
 - **Language:** C++
 - **License:** The Unlicense
@@ -9769,9 +9789,9 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 66.28 MB
-- **SHA256SUM:** ed60a70908aa47068ea3cb7cfa9ee8cc975c37cdbb02073fe88416ed89a5fbda
-- **B3SUM:** a9bb3621e67f93917cab0524a2f863063370b39d70e8c79ba8021b13516e0203
+- **Size:** 66.25 MB
+- **SHA256SUM:** 9c46e331310c92c1f6ddf464441891b1df056967727f8d4518093f4e6527223e
+- **B3SUM:** 1f04c6b9cb79ee3cca34aad0af812892908135b3ac52d7c87aac162ee58ebd01
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/kalilinux.no_strip
 - **Language:** 
 - **License:** 
@@ -9786,7 +9806,7 @@
 - **Author:** PaddiM8
 - **WebURL:** [https://github.com/PaddiM8/kalker](https://github.com/PaddiM8/kalker)
 - **Repository:** [https://github.com/PaddiM8/kalker](https://github.com/PaddiM8/kalker)
-- **Stars:** 1649
+- **Stars:** 1650
 - **Version:** v2.2.1
 - **Updated:** 2024-10-03T20:05:50Z
 - **Size:** 3.19 MB
@@ -9826,7 +9846,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
-- **Stars:** 11146
+- **Stars:** 11148
 - **Version:** v1.1.1
 - **Updated:** 2024-10-28T15:32:54Z
 - **Size:** 40.34 MB
@@ -9846,7 +9866,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
-- **Stars:** 11146
+- **Stars:** 11148
 - **Version:** v1.1.1
 - **Updated:** 2024-10-28T15:32:54Z
 - **Size:** 10.39 MB
@@ -9886,9 +9906,9 @@
 - **Author:** kovidgoyal
 - **WebURL:** [https://sw.kovidgoyal.net/kitty/](https://sw.kovidgoyal.net/kitty/)
 - **Repository:** [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
-- **Stars:** 24376
+- **Stars:** 24387
 - **Version:** v0.36.4
-- **Updated:** 2024-10-29T06:32:27Z
+- **Updated:** 2024-10-29T21:25:34Z
 - **Size:** 15.24 MB
 - **SHA256SUM:** 3207d286e5d9e8400b1507c1f1eccda0e3628b1f88b98ebcd27e383b9b052a0b
 - **B3SUM:** 9f923156aca42bdb8305a1d40b583c69a5170a08b581c0716b36fff55902ca55
@@ -9910,8 +9930,8 @@
 - **Version:** v1.6.5
 - **Updated:** 2024-10-09T17:40:47Z
 - **Size:** 1.44 MB
-- **SHA256SUM:** e8cdbef709d3d354d10783954f53e9523580678e4a9952a70be6d60379bf5eb3
-- **B3SUM:** 11a96baadd9c5103db0f31dda2d52279113c1c29f80b8c6fddc4a4971b8c4022
+- **SHA256SUM:** a8564c916abd36d79a271d618931fa5760d2262ff5f32f10ccc412b2a4c08711
+- **B3SUM:** e8bc8be75ddc356e3ecc25817b1af42c43497cfd816becafbdf0a0157e6d6efc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/kmon
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -9946,7 +9966,7 @@
 - **Author:** kopia
 - **WebURL:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
 - **Repository:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
-- **Stars:** 7781
+- **Stars:** 7786
 - **Version:** v0.17.0
 - **Updated:** 2024-10-29T01:12:31Z
 - **Size:** 35.56 MB
@@ -10006,7 +10026,7 @@
 - **Author:** everywall
 - **WebURL:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
 - **Repository:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
-- **Stars:** 4461
+- **Stars:** 4462
 - **Version:** v0.0.21
 - **Updated:** 2024-10-02T07:19:49Z
 - **Size:** 8.05 MB
@@ -10026,7 +10046,7 @@
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
 - **Repository:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
-- **Stars:** 37020
+- **Stars:** 37028
 - **Version:** v0.23.3
 - **Updated:** 2024-08-17T17:45:30Z
 - **Size:** 10.99 MB
@@ -10046,7 +10066,7 @@
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 - **Repository:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
-- **Stars:** 52523
+- **Stars:** 52555
 - **Version:** v0.44.1
 - **Updated:** 2024-10-18T20:49:16Z
 - **Size:** 18.25 MB
@@ -10066,7 +10086,7 @@
 - **Author:** gokcehan
 - **WebURL:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
 - **Repository:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
-- **Stars:** 7741
+- **Stars:** 7743
 - **Version:** r32
 - **Updated:** 2024-10-22T12:54:49Z
 - **Size:** 3.54 MB
@@ -10186,7 +10206,7 @@
 - **Author:** haampie
 - **WebURL:** [https://github.com/haampie/libtree](https://github.com/haampie/libtree)
 - **Repository:** [https://github.com/haampie/libtree](https://github.com/haampie/libtree)
-- **Stars:** 2659
+- **Stars:** 2660
 - **Version:** v3.1.1
 - **Updated:** 2024-06-21T12:53:49Z
 - **Size:** 132.62 KB
@@ -10206,7 +10226,7 @@
 - **Author:** ChrisTitusTech
 - **WebURL:** [https://christitustech.github.io/linutil](https://christitustech.github.io/linutil)
 - **Repository:** [https://github.com/ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-- **Stars:** 2666
+- **Stars:** 2668
 - **Version:** 2024.09.28
 - **Updated:** 2024-10-25T20:44:41Z
 - **Size:** 3.78 MB
@@ -10246,7 +10266,7 @@
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/linuxwave](https://github.com/orhun/linuxwave)
 - **Repository:** [https://github.com/orhun/linuxwave](https://github.com/orhun/linuxwave)
-- **Stars:** 532
+- **Stars:** 531
 - **Version:** v0.2.0
 - **Updated:** 2024-10-24T09:38:21Z
 - **Size:** 262.83 KB
@@ -10266,12 +10286,12 @@
 - **Author:** knadh
 - **WebURL:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
 - **Repository:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
-- **Stars:** 15038
+- **Stars:** 15056
 - **Version:** v4.0.1
-- **Updated:** 2024-10-29T05:53:23Z
-- **Size:** 14.34 MB
-- **SHA256SUM:** 4b5c75a9b5137e22e3f94208e699f7ecb367c43bf1c307a9bc9cb4c1942b772a
-- **B3SUM:** c8ed109315bd965638c2497a6425fe9b10a696c167bffa116de52f2e771496fc
+- **Updated:** 2024-10-29T18:35:33Z
+- **Size:** 15.68 MB
+- **SHA256SUM:** 170ed122e04cf676ebf16314e6d0ff20bbb9bbbd13f5d8bd9dc9c53e46ded7c0
+- **B3SUM:** c7843564d1407955e6f3b7bdc25ace9eefbd43bd7511705aef9ec9791ceeada6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/listmonk
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -10290,8 +10310,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.88 MB
-- **SHA256SUM:** eb3a53e2b06579b09f15269eba47cda037a88780571b9917118fbff9f4d30191
-- **B3SUM:** 16e074c03c4db19f4b03a96dbe97e9e09a5b2f81ec23e29af7f265e37736bf76
+- **SHA256SUM:** 20b2ddff4ed7d535d707a14de98c55daebfe6207834212ab59a9059779f7bfb2
+- **B3SUM:** 5a09c58c2e13f37ac03cfb5aa7c93cbe11fc45229b920e798140ae5e33916e4c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bbscope
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10310,8 +10330,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.53 MB
-- **SHA256SUM:** b3a02b215236f7751608b81e4d6e1a1c3e3e295d68b5aeaf5ab50f0fd6062cb1
-- **B3SUM:** 28cf270da1b5121b4f8d78da131aa5f11fe16668d8a87845fa78060cdb559238
+- **SHA256SUM:** 46a76a4ef524ff7107befb9c9f98f9a26bb0d3d50701a6680187d96c62900d5d
+- **B3SUM:** d90428e5b432bea70a9e66df97d4f5dfb08c64399eb1d5198bcdd3e22523569f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/bbtargets
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10330,8 +10350,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.33 MB
-- **SHA256SUM:** 2a40f69335aaeb9f7896482411743e618d7ca8352e0df41f3a4e93e202e2a753
-- **B3SUM:** 1b91be6fdcb391527e8e8f30993484106cd56c3576a4fbb1f338bebba1dc5808
+- **SHA256SUM:** 716d898e7a88bf5d05c483130c4f9006ec3d7e90c394de8daa812ea927061217
+- **B3SUM:** 1f36a914e5bd2b46ae734b511e46b8109760191e60571e9c9450be6f93901ae0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/chainredir
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10350,8 +10370,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.33 MB
-- **SHA256SUM:** 1a17afeb951168fa677165cff733ac915a11733cad9a8ea3e523220eb192255d
-- **B3SUM:** 0f19aa4e7568d63019958868b8575147b0028198aa129961c50f5a3fc9253fdb
+- **SHA256SUM:** 9fc77698696925e717a755740f99602dfcc65ad5073099d717f48bdc0573fe9a
+- **B3SUM:** 0ec54e95fc1c2b2f4246cc3d885c65cee87d58952f5db8ecb298c2ffb840cf63
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/checkbypass
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10370,8 +10390,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 58406fb119b98691b694c8a17916496ed2831ef2d9350fe0cdc1b66370e2bca7
-- **B3SUM:** 13c8c5c487468580a2fc8b179f4fb56b920064bff0902292ff798c91566fe7fc
+- **SHA256SUM:** de18a7dc1d103713e750272b23add947856820f7f657bbae166b912c7d8242c8
+- **B3SUM:** c28ee0a27fa593fd20cea6c695704a0a3c285724b5eac6ec2bd0b1727c38df2c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/cleanpath
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10390,8 +10410,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.33 MB
-- **SHA256SUM:** 08041614a40d8e07767ecaacdaf45d8d1e4211f003e5a3ed0a917a71299ca2ed
-- **B3SUM:** 286bdb84e2049b25b7923d9c91b51abbfa43f62ee053dcb4340c53ed1ae03796
+- **SHA256SUM:** c3ef3e49510f5375f24d1e8851c1397701757746536644db4985d3c8ac440456
+- **B3SUM:** 1817d6007d3ebe5699c3a34e0cf3c26ac07a8b8fd9cd183da025fab3065e5009
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/doomxss
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10410,8 +10430,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 1549b036714798a8bb075281c9916dc6185d2532b5582ed78de91abc57d6e25d
-- **B3SUM:** 694455c9325029c7e4d5db6d8aa3961c1bf3b00fd4ae70969c24fe5c4400e291
+- **SHA256SUM:** 7f605669f512d7eb3876d03662bf71d0542a43caf913cffb4addc0b2e213a319
+- **B3SUM:** 97d5b5008f5326a0b2ebbfec6a1ad484f9f70cf01d504b26deadecd06ad446f6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eae
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10430,8 +10450,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 4b31bb3957ebffcfcad4eed9855b8e1a16d1c4c1af67ce9c3ad9967c68090f8f
-- **B3SUM:** e7706a303ff1a265ffbb161307c203cbc246b6cc0909dddfcd5728594e2a96d8
+- **SHA256SUM:** 0abbbd84f64de6656cf69d03050b3d7c1b5a1775afcf91f120bd55d48f8d1066
+- **B3SUM:** 6dec0f04b8eee00f4d98577cbe6985495acff2ece4f18656b99f4676e2177839
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eah
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10450,8 +10470,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 125e3ccbf6405bd4f0d94e546c85b0d60b4f86872280e11af7c1d26c04c06b74
-- **B3SUM:** 2b5d45e43b80af00543200a0d42bcc8a5d439e9779c3d0099cc76d1b8026c5f0
+- **SHA256SUM:** 7611b9e01f89f69d2e4a92262d6fdbd867766012185f0ed2221fbc7c77a1b339
+- **B3SUM:** f2d7de9e179a73d368e81669c714245839b2759d5560b07543786253d9ab320a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eap
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10470,8 +10490,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 12ea8c0dd787b05152dc6cb7c5b385a11d365298a42f92518e04cf88c84fd595
-- **B3SUM:** 1944da8731f4e8988241904a33eab08691d27a66685aa9e0c2f0567ef0c3a94f
+- **SHA256SUM:** ddbfb4d73017cd47dbfce2e7120f34fe5e3beac3b574dce62dc30b069ef93c27
+- **B3SUM:** 5c079a7d5ad21a803d06977608e8d5d93d219917064d87ef50a2f963ac84fc4d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eaparam
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10490,8 +10510,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 0cab5a69dbe3a2c5a314af48963292ed151c55413b3fe1d9b7855d01bc785309
-- **B3SUM:** 44c45c755316ebdd5862d54793ff9ddc8db4e45ac9c25e0c2200f779632382b0
+- **SHA256SUM:** 82095c77c86d32af7b2ed82a8b65809c6b80d2ce04d763f76153b4cffc7d1fb8
+- **B3SUM:** 0b1dfff3dc11e4ad0b6cc391d11b439dca135aa6ab66c526e51388c52605121c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eapath
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10510,8 +10530,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 4efb861d1cb9f859f2ee479baba51760e0d5e194b4ed3c9a3187a6cc42c7b738
-- **B3SUM:** ce9f3346b72ab0d6bc8316fcfb9e64589a016fd5ca411270e1fa939087b4a22b
+- **SHA256SUM:** 942cc79457e3758d81e88acdb6ef2129d79152aa2e859dbdb2c238cfa93dd969
+- **B3SUM:** 41297545eebead9713463168c815d75d5a9733e7797761c73e66f24d82f20ded
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/earh
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10530,8 +10550,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.58 MB
-- **SHA256SUM:** a47548e24404a7f1fbfd746aaa501ba4061ba28bf8f5b1f9b3b4aea03fa16811
-- **B3SUM:** c319b7d2316935b2094ffebb6965fd6ca75428884d509a83930246c22bd54388
+- **SHA256SUM:** 0913c4211904e512caf05224228e402f14db5c6cff41d92ec45d04f3adba4942
+- **B3SUM:** e85435ccdafdf043d01d52bd2cfb92e384ef7a7205107e6c795c490b5fe169d9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/eefjsf
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10550,8 +10570,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.63 MB
-- **SHA256SUM:** 8a82cfec335774b6ba1746ea3e5d784ffe9a6982e926a641210c4de217361f54
-- **B3SUM:** a7cebdededbce28cf2104300a1c2fa1b01f8115aca9ace1384f47a92389f5770
+- **SHA256SUM:** 60760f841936fc9aac0280a2a7c688dc6dc840772e783cd1536eabf738960590
+- **B3SUM:** 2963ad9d59fdac899548df52a2208fefcacc68db9a30a6ac8979ac55011310cc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/genscope
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10570,8 +10590,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.33 MB
-- **SHA256SUM:** f6dd82098a570c4f314cc8aa72b4e24213f9bfaf1a6ed5ef7f9e151b2949fcd5
-- **B3SUM:** db64d6fd62ca0e4a164d897d21ed1ed55d6a22d4c5acbbc51fd3f5e7d839fad8
+- **SHA256SUM:** bf57e36fba1deaae7d682dd54bd39977239e08f04245cc056eb7e1b6db5edc3d
+- **B3SUM:** e5a702983e210c87bae98371ff4dbf8c9222609b85ad272466693807bc3a02ef
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/heacoll
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10590,8 +10610,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.53 MB
-- **SHA256SUM:** 669dc6c015961de80b58177a7b6fe5b3c335fbeb6e82daf05ef999541761d27f
-- **B3SUM:** 0736e72b787a3895a436a0600b6c141193f84da2376bff4886b0934415635038
+- **SHA256SUM:** 87262f9496cc284dc4e875a17ad2ae105e3aad1a41d89189980a839f3466cccc
+- **B3SUM:** 967fb43613091b6b8415cbc616e425133caa73cf868a69173e48df62b31a2e9f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/knoxssme
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10610,8 +10630,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.58 MB
-- **SHA256SUM:** 55ab252e89c53bcac6de912be0cd757f58e4ef95aebbee025b012e9027fbc76b
-- **B3SUM:** 03e8231945fc1040fe1c88d019bd1f63bc262030d8eebe2881c07e246905783f
+- **SHA256SUM:** 78fbd1f0dbe5d4dd89931e1eb680000ffa404386735dbabc32e53f93c03e79cc
+- **B3SUM:** 872bb025b2a42b4c7bbea023c9d8621bccebd538161f9303b208f33b80920d67
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/kubemetrics
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10630,8 +10650,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.33 MB
-- **SHA256SUM:** fa47683ec05b0482d96bcf57e221b12b233b74493d790d9dd44f2cba6fa4caf7
-- **B3SUM:** d4d3e341880387eb266b4c54b7965dbe747b6e6a955ee539e9bfdcd50bbb0e8c
+- **SHA256SUM:** 6e6e3cd595e94d8f406c7b50d8c51e3c3a97b763b27480ebe7a69e032fcfb852
+- **B3SUM:** 924c67e3c23e010e1b061ba4c0c8d77bb85f9fc5926e8b13842948ebb9737d35
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nrp
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10650,8 +10670,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** adf271068ea931a5f38446e07e8da87359eb2f35019035d5292a5e512ed54e3d
-- **B3SUM:** 78072c16ffa03704e80f24363f72e483c36049ac6ea0fbe3d5744f73cbbce7d6
+- **SHA256SUM:** 46623bfc5a88f3570631e87bdf197e80548f3eb94b4feb2ce0c08ef5e674f294
+- **B3SUM:** dcc8cc3570c9f9a8984e4888586f8c7a9b895069f9c6bbe693de40279ae53fb9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rapwp
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10670,8 +10690,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 3b7dc02c582b0e21ebc75e80faff86946d8abecbb1a3b81df09b5fdbf0eeaa8b
-- **B3SUM:** 405a0ef339c1433cec724c350b8bbf41e515e8f75c29904d0e8da34a8e25e389
+- **SHA256SUM:** 336d07bfc86859255d56788cadf41c4e00ec10f09a4ea683d3f4e6eb56e7e4c6
+- **B3SUM:** 58a3cbfaf22834c98476a18af69b20829ff4432837eb0d43ea3c77da5da923ce
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/removehost
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10690,8 +10710,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.43 MB
-- **SHA256SUM:** bbe3b69afeb77eb729e10082c488bf05f113c7ea249087355395ddd861a99394
-- **B3SUM:** 41ab4a3459eb1a8fb39238818c1fc29b44e2768cd7ee0081bc11c7b7ad836ed9
+- **SHA256SUM:** 46ce5ee152e81bdf55717e07077567c7576764eb2aed017ec4d803625432171b
+- **B3SUM:** a3cb7884fb40386a0e8a297677db00c5a06100c1987dacef754ed484da46a615
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/removepro
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10710,8 +10730,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.33 MB
-- **SHA256SUM:** b838ff37b962070745097f6bd6dde222f451ac6ad593145e5b66e687076f9851
-- **B3SUM:** 8db3ff2d4009969f67f052cbc4bfbc9444b9b3c75f556ad7112661e2d2a030b9
+- **SHA256SUM:** 45e5283c926126567fdb8e2f6c144ca8fb9cc19a8e20b188ba13717c7039d40b
+- **B3SUM:** 0315397b582981e21b49899ad191a006fe108078a42e96229717ef577e552cae
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/robotstxt
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10730,8 +10750,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 744c241007ca2a931580efcb54d87068c7471e573f23865128241e1a8648a636
-- **B3SUM:** cf1363aea3bb017c89a740232e8d3f68b54d3722a61222f371cec6f6313aa304
+- **SHA256SUM:** 0cf707604a17b9d333fea8a16fab90b9f359f43c2fa8245d81f78c39bb83f83b
+- **B3SUM:** db2dcd0d87b479a185033798832ccde0768de1326a03133be4721f9cf55cb758
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rpfu
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10750,8 +10770,8 @@
 - **Version:** v1.3.5
 - **Updated:** 2024-10-28T16:32:59Z
 - **Size:** 4.53 MB
-- **SHA256SUM:** 2f4b82d6346a1a044bfb93ca64ba411c45dd6c427c5d38f31803a69a78f21d8b
-- **B3SUM:** e768ad99566e1ef5d863cb915e3f054a688edb617217c1d1b92fd7d2388d24b9
+- **SHA256SUM:** a5693ce717431897582a26c84e16f1186478af23977c0d89b2778584983e64a1
+- **B3SUM:** 64fc6fb708495a06ed27ec66bb2104336f9d53616deb8a624d0e1204674df1b4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tahm
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -10766,7 +10786,7 @@
 - **Author:** superfly
 - **WebURL:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
 - **Repository:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
-- **Stars:** 4026
+- **Stars:** 4027
 - **Version:** v0.5.11
 - **Updated:** 2024-09-24T19:02:39Z
 - **Size:** 12.1 MB
@@ -10846,7 +10866,7 @@
 - **Author:** logrotate
 - **WebURL:** [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
 - **Repository:** [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
-- **Stars:** 1285
+- **Stars:** 1284
 - **Version:** 3.22.0
 - **Updated:** 2024-10-01T00:02:47Z
 - **Size:** 395.47 KB
@@ -10906,9 +10926,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 23749
+- **Stars:** 23758
 - **Version:** v3.2.1
-- **Updated:** 2024-10-29T13:19:17Z
+- **Updated:** 2024-10-29T23:33:19Z
 - **Size:** 80.8 MB
 - **SHA256SUM:** 20e1e951cf2f43d87f395260faab95de4a72e6908038761f33d4a46e37f98fce
 - **B3SUM:** eb800e76824dd52b24c5102e91508125b3e09310dbb921bdc95a80530baa5fd5
@@ -10926,9 +10946,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 23749
+- **Stars:** 23758
 - **Version:** v3.2.1
-- **Updated:** 2024-10-29T13:19:17Z
+- **Updated:** 2024-10-29T23:33:19Z
 - **Size:** 64.59 MB
 - **SHA256SUM:** d9511125beedaf839af3d461bfd5be4732948ffffa24f90566611881399cbbbf
 - **B3SUM:** c796a901346034c248077a74d185b2fd8a4109bb1d37961f1278fe32b98af48c
@@ -10946,9 +10966,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 23749
+- **Stars:** 23758
 - **Version:** v3.2.1
-- **Updated:** 2024-10-29T13:19:17Z
+- **Updated:** 2024-10-29T23:33:19Z
 - **Size:** 35.03 MB
 - **SHA256SUM:** 2f837445afac42897f29fd6f47807b316a83fdea88b18233eda6281bc8d6c4b6
 - **B3SUM:** dad84dbdb98c7a6aa506f3526e2db92383a868bd5e768398e51e013fe797dff8
@@ -10966,9 +10986,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 23749
+- **Stars:** 23758
 - **Version:** v3.2.1
-- **Updated:** 2024-10-29T13:19:17Z
+- **Updated:** 2024-10-29T23:33:19Z
 - **Size:** 102.24 MB
 - **SHA256SUM:** f7d70aa8ea10a4b80c6930ac28adc5808c90570f08d248708135e232c41eb63c
 - **B3SUM:** 8ba2c9436a8b170da3ea9cdff6509c8b0093a355bf94d56dcb5648b2ca77551f
@@ -11006,7 +11026,7 @@
 - **Author:** lsd-rs
 - **WebURL:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
 - **Repository:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
-- **Stars:** 13433
+- **Stars:** 13438
 - **Version:** v1.1.5
 - **Updated:** 2024-10-20T03:27:25Z
 - **Size:** 2.99 MB
@@ -11070,8 +11090,8 @@
 - **Version:** 0.35.5
 - **Updated:** 2024-08-27T08:58:27Z
 - **Size:** 19.43 MB
-- **SHA256SUM:** a43d366d56638e551607de34226097f18fee298610ba9fc43742b4735f96f04e
-- **B3SUM:** 4552daf2d7d5125df29478a93bcc64e3b7795d61c915e86a6da784fd06f592e8
+- **SHA256SUM:** 1df077a20107a186d6e0862b3f0f2374396383cedafc98733ad9ba8b98583b22
+- **B3SUM:** ad337ea5319b65b8cf63ee5776bdb70ac035c3f2659e271e55207e53a4f442e9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/luet
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -11086,7 +11106,7 @@
 - **Author:** iawia002
 - **WebURL:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
 - **Repository:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
-- **Stars:** 27482
+- **Stars:** 27503
 - **Version:** v0.24.1
 - **Updated:** 2024-10-12T05:49:08Z
 - **Size:** 21.74 MB
@@ -11110,8 +11130,8 @@
 - **Version:** v0.1.7
 - **Updated:** 2023-08-22T17:57:20Z
 - **Size:** 12.85 MB
-- **SHA256SUM:** 1a8e4af2c50868c1b0541330f085ba8419b523821b6039b0e9cd4418279c6f0f
-- **B3SUM:** 2bc1694ba0a6d294fc91c451fadc73cad93e314f55606614394459048b561d89
+- **SHA256SUM:** 5549664e97f7ca2933f3fd606b2ba42337c997260f4a66e52ff7ff65c3a55b6c
+- **B3SUM:** aef14cae43ace38baa6358f461b7dcd199d616750b377cd98ba73cd8ff6d5153
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mabel
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -11126,9 +11146,9 @@
 - **Author:** Macchina-CLI
 - **WebURL:** [https://github.com/Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)
 - **Repository:** [https://github.com/Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)
-- **Stars:** 1440
-- **Version:** v6.3.0
-- **Updated:** 2024-10-29T12:44:42Z
+- **Stars:** 1439
+- **Version:** v6.3.1
+- **Updated:** 2024-10-29T19:44:44Z
 - **Size:** 4.76 MB
 - **SHA256SUM:** af827351ff39692d9c838a689b79100170053eac5f54b083983e41781d0f9bd8
 - **B3SUM:** c60a708de874e78e0a69f44fc8bd39342f59ad7381677290d591d5ce62936a3a
@@ -11146,12 +11166,12 @@
 - **Author:** foxcpp
 - **WebURL:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
 - **Repository:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
-- **Stars:** 5066
+- **Stars:** 5068
 - **Version:** v0.7.1
 - **Updated:** 2024-08-31T12:26:59Z
 - **Size:** 26.98 MB
-- **SHA256SUM:** 9bfe12fd9a84ece810a483930841f832832e055735358ae662a0d4d1a9d57334
-- **B3SUM:** f84d109b284ffbca641dd5067a544071fd9da786597cd71b40a9a695f735d01d
+- **SHA256SUM:** 04c79b6be4e56346d3364b7fafbf052dcab91c1d5ce6c249e6e16541795e21c5
+- **B3SUM:** e51bfda9f88a657c4af89cceb40f0282c6b2526a39fabb50a57628f32f3a8ed6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/maddy
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -11166,7 +11186,7 @@
 - **Author:** ImageMagick
 - **WebURL:** [https://imagemagick.org](https://imagemagick.org)
 - **Repository:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
-- **Stars:** 12176
+- **Stars:** 12182
 - **Version:** 7.1.1-39
 - **Updated:** 2024-10-28T20:05:12Z
 - **Size:** 63.04 MB
@@ -11186,7 +11206,7 @@
 - **Author:** ImageMagick
 - **WebURL:** [https://imagemagick.org](https://imagemagick.org)
 - **Repository:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
-- **Stars:** 12176
+- **Stars:** 12182
 - **Version:** 7.1.1-39
 - **Updated:** 2024-10-28T20:05:12Z
 - **Size:** 63.04 MB
@@ -11206,7 +11226,7 @@
 - **Author:** ImageMagick
 - **WebURL:** [https://imagemagick.org](https://imagemagick.org)
 - **Repository:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
-- **Stars:** 12176
+- **Stars:** 12182
 - **Version:** 7.1.1-39
 - **Updated:** 2024-10-28T20:05:12Z
 - **Size:** 19.57 MB
@@ -11226,12 +11246,12 @@
 - **Author:** axllent
 - **WebURL:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
 - **Repository:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
-- **Stars:** 5626
+- **Stars:** 5627
 - **Version:** v1.21.0
 - **Updated:** 2024-10-26T13:15:32Z
 - **Size:** 19.65 MB
-- **SHA256SUM:** a0bbb866fce6895bb6c6930fdb2c5808668bd5ebd886be47a909f3ec1d2e0f30
-- **B3SUM:** 3ec4b98607e902064e48102831c4db1a06d475f3a291c7b011348c1a8865d869
+- **SHA256SUM:** 25ac862cf0362335af44ab47dfe5ee529496e7e410044ce8b50e99104c76e2f6
+- **B3SUM:** bc870fe1a35624159c3c79c6681e356fbf95fed7ee8170cffb172531a6fc0987
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mailpit
 - **Language:** Go
 - **License:** MIT License
@@ -11263,15 +11283,15 @@
 - **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mantra.sh
 - **Description:** 「🔑」A tool used to hunt down API key leaks in JS files and pages
 - **Note:** 
-- **Author:** MrEmpy
+- **Author:** brosck
 - **WebURL:** [https://github.com/MrEmpy/mantra](https://github.com/MrEmpy/mantra)
 - **Repository:** [https://github.com/MrEmpy/mantra](https://github.com/MrEmpy/mantra)
-- **Stars:** 567
+- **Stars:** 569
 - **Version:** v2.0
 - **Updated:** 2024-08-14T05:58:19Z
 - **Size:** 5.31 MB
-- **SHA256SUM:** fbdaf1d12df94e0605560c28b06a6798b316cb9501cfe32895fa3893a5b65495
-- **B3SUM:** 3615a1b9d12b8588972acba186250d90d7578befb2cc84418a4795bc853d497b
+- **SHA256SUM:** fc7eaed8b3d83fa72532fae02da38762cd45568f9dc81cf02987366bd43e9653
+- **B3SUM:** ebe0ccbee31f3e61d9d1707ee754ca698d45b9a2e77ed12fc8d8dd0d89599ff4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mantra
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -11290,8 +11310,8 @@
 - **Version:** v1.1.34
 - **Updated:** 2024-10-28T21:19:10Z
 - **Size:** 23.8 MB
-- **SHA256SUM:** 7c9f4b6e0a760693d2f0a4e45a0a1db67a430c8f62bedf8b878592398653ca15
-- **B3SUM:** e203141f865d28cbde1dd2100275508b4e80320a84e5b031959c46488ae183fe
+- **SHA256SUM:** d8210e0c5e2808f1d8ac6ee2d27106114340c11c2131fb1dccc2f46196de35ba
+- **B3SUM:** 4bd7470168bce748f154685b71d156af7aa8839f806420175a67c24982eeb557
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mapcidr
 - **Language:** Go
 - **License:** MIT License
@@ -11306,7 +11326,7 @@
 - **Author:** robertdavidgraham
 - **WebURL:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
 - **Repository:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
-- **Stars:** 23587
+- **Stars:** 23593
 - **Version:** 1.3.2
 - **Updated:** 2024-08-13T01:38:30Z
 - **Size:** 541.85 KB
@@ -11346,7 +11366,7 @@
 - **Author:** 42wim
 - **WebURL:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
 - **Repository:** [https://github.com/42wim/matterbridge](https://github.com/42wim/matterbridge)
-- **Stars:** 6625
+- **Stars:** 6626
 - **Version:** v1.26.0
 - **Updated:** 2024-08-27T17:04:10Z
 - **Size:** 48.61 MB
@@ -11386,12 +11406,12 @@
 - **Author:** minio
 - **WebURL:** [https://github.com/minio/mc](https://github.com/minio/mc)
 - **Repository:** [https://github.com/minio/mc](https://github.com/minio/mc)
-- **Stars:** 2857
+- **Stars:** 2858
 - **Version:** RELEASE.2024-10-08T09-37-26Z
-- **Updated:** 2024-10-21T08:51:15Z
+- **Updated:** 2024-10-29T15:34:59Z
 - **Size:** 26.64 MB
-- **SHA256SUM:** 8211ea71ec655de0552761f4290cf0856961e9d04e8dba72271b2793dd75d734
-- **B3SUM:** c1905afa02999f6f432fd6d9f4ac38de5133f7a0f5455f42442aad2195a6336e
+- **SHA256SUM:** 2db085af4c50c4501a3847583575accdef929e7b14f942268c025a29787cff75
+- **B3SUM:** 1c86e6cf0565430a9f4a9169eae4a8d5ef36f6816521034c325a4c311967d999
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mc
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -11430,8 +11450,8 @@
 - **Version:** mdcat-2.5.0
 - **Updated:** 2024-09-26T20:06:37Z
 - **Size:** 10.53 MB
-- **SHA256SUM:** c88fe58b387383e07658b1127c61d050ddb13b167323ce50c6dd69291fa1aa8b
-- **B3SUM:** 3e187567daa783faadb2aa31a98831732fe28239d612327b90d107339a8359a0
+- **SHA256SUM:** 3e2b72fea11c490760902d55c74b786454ea2daa787b7152703ce1e7bb2b0fa4
+- **B3SUM:** 2fabbf6989de4644c5903348263784f4847108c6ac3dc88091f1b4fc976bc346
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mdcat
 - **Language:** Rust
 - **License:** Mozilla Public License 2.0
@@ -11446,7 +11466,7 @@
 - **Author:** visit1985
 - **WebURL:** [https://github.com/visit1985/mdp](https://github.com/visit1985/mdp)
 - **Repository:** [https://github.com/visit1985/mdp](https://github.com/visit1985/mdp)
-- **Stars:** 4958
+- **Stars:** 4959
 - **Version:** 1.0.15
 - **Updated:** 2024-06-10T13:48:04Z
 - **Size:** 396.58 KB
@@ -11466,7 +11486,7 @@
 - **Author:** zimbatm
 - **WebURL:** [https://github.com/zimbatm/mdsh](https://github.com/zimbatm/mdsh)
 - **Repository:** [https://github.com/zimbatm/mdsh](https://github.com/zimbatm/mdsh)
-- **Stars:** 123
+- **Stars:** 124
 - **Version:** v0.9.0
 - **Updated:** 2024-10-24T15:28:09Z
 - **Size:** 1.94 MB
@@ -11489,9 +11509,9 @@
 - **Stars:** 425
 - **Version:** v0.14.10
 - **Updated:** 2024-10-29T00:08:45Z
-- **Size:** 45.62 MB
-- **SHA256SUM:** f84baaf98f4f53b4183b2d578ab840a95577fec5f4d036ba4d5ba68da28607f3
-- **B3SUM:** 64d547aa50854e50dccbedae2162bcf7c8cb163c733b00d532a0810878200c9e
+- **Size:** 45.83 MB
+- **SHA256SUM:** 148d3af4edbbef9a1492c9e800985c0ee93ad300c4d63e9d0906d5c3598d8857
+- **B3SUM:** e8dac9bcc7429fa13c4711d9fe8459a3ccf665522d5ce585f3da55bd0c9c6146
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/melange
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -11506,12 +11526,12 @@
 - **Author:** meli
 - **WebURL:** [https://github.com/meli/meli](https://github.com/meli/meli)
 - **Repository:** [https://github.com/meli/meli](https://github.com/meli/meli)
-- **Stars:** 667
+- **Stars:** 668
 - **Version:** v0.8.7
 - **Updated:** 2024-10-10T06:24:08Z
 - **Size:** 21.83 MB
-- **SHA256SUM:** dd64c6abd3652f52eff01a3aad017d8093755bb0c16702e5b91c49d03ac0dd55
-- **B3SUM:** 967e3a35bbb1016ac7039e9be01f49517c99b802490048dda978dcfe0e31111f
+- **SHA256SUM:** 6ccf3778a85fdf6f3e10c905ac0624fbd57979ad1e3333bcb4a76a4261383db9
+- **B3SUM:** cb8525b3fe44e954b83d67327ed2258fda3ff584729d57a8e269a3ebe66c5fe9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/meli
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -11526,7 +11546,7 @@
 - **Author:** trapexit
 - **WebURL:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
 - **Repository:** [https://github.com/trapexit/mergerfs](https://github.com/trapexit/mergerfs)
-- **Stars:** 4265
+- **Stars:** 4266
 - **Version:** 2.40.2
 - **Updated:** 2024-07-18T20:28:42Z
 - **Size:** 1.97 MB
@@ -11566,12 +11586,12 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 25127
+- **Stars:** 25131
 - **Version:** v2.0.14
-- **Updated:** 2024-10-29T00:21:50Z
+- **Updated:** 2024-10-30T00:21:41Z
 - **Size:** 12.16 MB
-- **SHA256SUM:** d02f3bd3f765accd5a45b61be67b993e881b95ac022350cd0bfed2ea60d8e657
-- **B3SUM:** 444abfdc3136dc989cf0c7f18ca526ffe1a82cc31f1770042dc366f1e4e796cf
+- **SHA256SUM:** 0efa8f7e9eb46975f60c938861ae9497c9200c34b6490d6bb1df54cc974dc885
+- **B3SUM:** 3b07c2cb767b84460860796d97e3d2385e5dc3592245dc9085d0f3a435f17e54
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/micro
 - **Language:** Go
 - **License:** MIT License
@@ -11606,7 +11626,7 @@
 - **Author:** miniflux
 - **WebURL:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
 - **Repository:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
-- **Stars:** 6840
+- **Stars:** 6842
 - **Version:** 2.2.1
 - **Updated:** 2024-10-29T00:13:40Z
 - **Size:** 20.04 MB
@@ -11626,12 +11646,12 @@
 - **Author:** tdewolff
 - **WebURL:** [https://go.tacodewolff.nl/minify](https://go.tacodewolff.nl/minify)
 - **Repository:** [https://github.com/tdewolff/minify](https://github.com/tdewolff/minify)
-- **Stars:** 3733
+- **Stars:** 3734
 - **Version:** v2.21.1
 - **Updated:** 2024-10-24T18:26:27Z
 - **Size:** 4.38 MB
-- **SHA256SUM:** 90b87d67a06a3db60da5524db5a6e13eadeef289802ab4ca7174810429fc7399
-- **B3SUM:** d35b47480a0220ec7173d6e39cb69f915152b22346abc1b10d5c9d4791992f20
+- **SHA256SUM:** c1e48be0b0029a50ca1d58ba36a1c5671fda788603e04b3f7c9943f86cda2083
+- **B3SUM:** ab87f41e78995a6aca1e55b6439806b28262f7fcbcd3aad73d4569f705cd4076
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/minify
 - **Language:** Go
 - **License:** MIT License
@@ -11706,12 +11726,12 @@
 - **Author:** jdx
 - **WebURL:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
 - **Repository:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
-- **Stars:** 9829
+- **Stars:** 9837
 - **Version:** v2024.10.13
-- **Updated:** 2024-10-29T00:17:52Z
-- **Size:** 21.56 MB
-- **SHA256SUM:** dbb14734dc261e142023ef7ba5c68f697118903c4ad3499ed300aa557a3bbc8b
-- **B3SUM:** 5acb73afd50803f2a719d757a9ca7269cbccf60a30619131b9ad0144d5dc1535
+- **Updated:** 2024-10-30T00:21:04Z
+- **Size:** 21.81 MB
+- **SHA256SUM:** 8a6100a943c442ce270f9b6efec38bbdf8efb90210a814aef6d61b0ce0c72cda
+- **B3SUM:** 8922ea3375d4eb6a36b0c77d5229b1122b0b636b38540f545ff9c5d5811c5843
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mise
 - **Language:** Rust
 - **License:** MIT License
@@ -11726,12 +11746,12 @@
 - **Author:** mitmproxy
 - **WebURL:** [https://mitmproxy.org](https://mitmproxy.org)
 - **Repository:** [https://github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy)
-- **Stars:** 36622
+- **Stars:** 36624
 - **Version:** v11.0.0
 - **Updated:** 2024-10-28T21:04:39Z
-- **Size:** 33.14 MB
-- **SHA256SUM:** 7135a3edd54b513a8c49ebb847beb97620c238214b10599ec5caead98c048e2a
-- **B3SUM:** ed68a2d678b5a450e49a6bb4a91e868aed2f919509c44dd7ce886f55cae3b58c
+- **Size:** 33.18 MB
+- **SHA256SUM:** 9b0964d3afe15461be34f61fd430f42dbde442447159a11a1df20cdce56aec59
+- **B3SUM:** 77da3da200ecf140331de73da8692243f11444c60da6259d78638d35c37437ff
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mitmdump
 - **Language:** Python
 - **License:** MIT License
@@ -11746,12 +11766,12 @@
 - **Author:** mitmproxy
 - **WebURL:** [https://mitmproxy.org](https://mitmproxy.org)
 - **Repository:** [https://github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy)
-- **Stars:** 36622
+- **Stars:** 36624
 - **Version:** v11.0.0
 - **Updated:** 2024-10-28T21:04:39Z
-- **Size:** 38.5 MB
-- **SHA256SUM:** 8fe6ce1584553cb937a646dd4e63c2aa1c910e2bd54b1b89b1ab23d6447af7b9
-- **B3SUM:** 641684bbe645f44862a29f0f0205fdafe21f375e8b048b8aae710cbe7cc4f677
+- **Size:** 38.53 MB
+- **SHA256SUM:** 872fc836879ae161e81d9cdbdf7d691d4db6249e1da6e8ea16abd8e74338c6a0
+- **B3SUM:** b8ba924df5db3a7ac4dfb5b2bb863260089d126f3f430f1442b2febbb480a812
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mitmproxy
 - **Language:** Python
 - **License:** MIT License
@@ -11766,12 +11786,12 @@
 - **Author:** mitmproxy
 - **WebURL:** [https://mitmproxy.org](https://mitmproxy.org)
 - **Repository:** [https://github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy)
-- **Stars:** 36622
+- **Stars:** 36624
 - **Version:** v11.0.0
 - **Updated:** 2024-10-28T21:04:39Z
-- **Size:** 34.91 MB
-- **SHA256SUM:** 93f3b10ffa538a40bb78b7cf4696caf0ab28fee7d4f86d2cc0cc4773274736f8
-- **B3SUM:** 2e272dfd4a32d4fd478edc10c130d9633b2c2b5d54fd02dafc405ec80dc7bdc0
+- **Size:** 34.94 MB
+- **SHA256SUM:** d825a640b226cd5f121da204cba7a2aff7de6450a5844295bf3f139e4ce103c5
+- **B3SUM:** a4da1faf7e0c98e44fdc335eacee4937b7dc813f35aa1a9b69fae1b835e2e945
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mitmweb
 - **Language:** Python
 - **License:** MIT License
@@ -11850,8 +11870,8 @@
 - **Version:** v2.0.2
 - **Updated:** 2023-02-25T10:27:25Z
 - **Size:** 1.72 MB
-- **SHA256SUM:** 92a04d82cd1628b944d261258065d94dd36a9d69900125d1bf85975ad80261b8
-- **B3SUM:** 80677b29f6196bd28881b3727fb5bc1eaeb931ae2dc49a61a4b86ce629bfbd52
+- **SHA256SUM:** 51e75cce064bd1856a51deef3852b990db9fe89d88a922ca2f747ac7c74e8e82
+- **B3SUM:** de1ed5a1e14730c51e34894d579be6be1aacc3c38be8088e5408f94350f874be
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/moac
 - **Language:** Go
 - **License:** Mozilla Public License 2.0
@@ -11870,8 +11890,8 @@
 - **Version:** v2.0.2
 - **Updated:** 2023-02-25T10:27:25Z
 - **Size:** 1.8 MB
-- **SHA256SUM:** 45f64d4a46750322c33bb4d5bf3fe15f66fd0332964c7d60f4fc65f907d38339
-- **B3SUM:** 767b929c519b4f7f4b734d56c3a947b1e5bf6fa1488f278dfd7cc6e1ff3be4b8
+- **SHA256SUM:** a2ce62a81c3e9aa26c0ac5f1e83f0f8aa99029ed292e5cafe0ba6d796a192afa
+- **B3SUM:** ceaad513b602f9e5190389c9d0b80edaf0b61dbc948d1935064cbcbcd0cf3c93
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/moac-pwgen
 - **Language:** Go
 - **License:** Mozilla Public License 2.0
@@ -11886,12 +11906,12 @@
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
-- **Stars:** 11098
+- **Stars:** 11102
 - **Version:** v2.8.3
 - **Updated:** 2024-09-25T23:15:45Z
 - **Size:** 7.74 MB
-- **SHA256SUM:** c3aeb68ece74ade316282c83942a455e5bb5e2448777b087e7cb68a288038e36
-- **B3SUM:** a9fff4521dd9f3ccb4ba740e372a7c11f2238bf3fafbb443c9032dbe809e31a2
+- **SHA256SUM:** e2b63f2a608a64481992024c323723ab892f4a63b1ea90b592e8704196e8115e
+- **B3SUM:** 2c400f4b36d2df72ddb82ef71d2f6eb462e3f669a6247f79be97102bc90203ac
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/monolith
 - **Language:** Rust
 - **License:** Creative Commons Zero v1.0 Universal
@@ -11906,7 +11926,7 @@
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12646
+- **Stars:** 12649
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-17T12:43:50Z
 - **Size:** 3.16 MB
@@ -11926,7 +11946,7 @@
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12646
+- **Stars:** 12649
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-17T12:43:50Z
 - **Size:** 3.15 MB
@@ -11949,9 +11969,9 @@
 - **Stars:** 381
 - **Version:** v0.21.1
 - **Updated:** 2024-10-23T12:02:53Z
-- **Size:** 3.29 MB
-- **SHA256SUM:** 729230cd967affa055ab2ec3e12afb9b6bad32f4ba5aa86762d26a5bb6603522
-- **B3SUM:** 3300128ffe1ffd7d48bf657e2a5ab9daa2323629a89136de4c5e3ed3885d42cc
+- **Size:** 3.3 MB
+- **SHA256SUM:** 6437b0775475c1b35a2902e03f80e3a2b738bbc52a54fec54310d4019eba6f96
+- **B3SUM:** b758375a71b86793e6c4bfd43866cb68ecea6ab9029d5048f89e56c286fba438
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mqttui
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -11966,7 +11986,7 @@
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
-- **Stars:** 2672
+- **Stars:** 2674
 - **Version:** v0.95
 - **Updated:** 2024-08-27T17:12:57Z
 - **Size:** 594.75 KB
@@ -11986,7 +12006,7 @@
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
-- **Stars:** 2672
+- **Stars:** 2674
 - **Version:** v0.95
 - **Updated:** 2024-08-27T17:12:57Z
 - **Size:** 132.84 KB
@@ -12010,8 +12030,8 @@
 - **Version:** v0.18.0
 - **Updated:** 2024-09-15T20:45:05Z
 - **Size:** 9.71 MB
-- **SHA256SUM:** 869de695f30ce0eacf675c73a19574ddb7096b5a28004f3245696504e421e95d
-- **B3SUM:** 747f6c0d23c628ac074aeec3df96bdc43aa4dde23c69127706714c27ded067b3
+- **SHA256SUM:** 81dab2b17a3092ab2deb2f94a24a7cb8450e294cb07d28702cf07d87220f92df
+- **B3SUM:** 4d8fc199f87b3e4d01d5a83c4af0704192a3c4a9192bbd1afe8108c6f199fc39
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/mubeng
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -12026,7 +12046,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
 - **Repository:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
-- **Stars:** 4722
+- **Stars:** 4727
 - **Version:** v2.3.1
 - **Updated:** 2024-10-28T14:03:08Z
 - **Size:** 33.89 MB
@@ -12046,7 +12066,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
 - **Repository:** [https://github.com/projectdiscovery/naabu](https://github.com/projectdiscovery/naabu)
-- **Stars:** 4722
+- **Stars:** 4727
 - **Version:** v2.3.1
 - **Updated:** 2024-10-28T14:03:08Z
 - **Size:** 9.46 MB
@@ -12070,8 +12090,8 @@
 - **Version:** v1.1.1
 - **Updated:** 2024-10-01T18:36:17Z
 - **Size:** 1.57 MB
-- **SHA256SUM:** b0a1ec24082709ad8d4ea11c572723467542e8b1dac730d1e95b1467bf61163f
-- **B3SUM:** ca5bfa19239a8811306402197c08041d63af9e42b38ae37d9278e0fc320a1497
+- **SHA256SUM:** c229f7350a76f0510b17d33c90b6028f0fd9990b094b73dbf87b870d7811309d
+- **B3SUM:** a33f2c03e10500e0487d8400bd74572325a4b23094403b3fccba193c5cec85c1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/namegen
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -12086,7 +12106,7 @@
 - **Author:** denisidoro
 - **WebURL:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
 - **Repository:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
-- **Stars:** 15073
+- **Stars:** 15078
 - **Version:** v2.23.0
 - **Updated:** 2024-09-29T01:53:07Z
 - **Size:** 2.46 MB
@@ -12129,9 +12149,9 @@
 - **Stars:** 169
 - **Version:** v0.6.0
 - **Updated:** 2024-10-25T04:51:51Z
-- **Size:** 10.49 MB
-- **SHA256SUM:** a7dde73cc545eb6d065daf5e23ee0c211e27db28af84e0b51628c7c2d6544cba
-- **B3SUM:** c48a0a8c8b6c1cfead3ff7d3c6d33c6e09c36bc622e6bf840cf09fe428b4bcd3
+- **Size:** 10.51 MB
+- **SHA256SUM:** 91403268cc41b5ce544e188faa61691055c31a62bd3c2e28bf9e09cb3ab343f1
+- **B3SUM:** b75aa04471ca8173dc209f801b5b8c2d829a1e2d0586c7b7115c343aed1a60e8
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ncgopher
 - **Language:** Rust
 - **License:** Other
@@ -12146,12 +12166,12 @@
 - **Author:** hykilpikonna
 - **WebURL:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
 - **Repository:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
-- **Stars:** 1336
+- **Stars:** 1337
 - **Version:** 1.99.0
-- **Updated:** 2024-10-25T22:05:29Z
-- **Size:** 565.24 KB
-- **SHA256SUM:** 9998436e1ed6351bb3e1387dae42ea86b4b4a56cc4dbf224c9158e267833dc7e
-- **B3SUM:** 4ca253d60d61dd01dd44c1456c3cb7307ed9e573f8a3800c6048cc8a47727162
+- **Updated:** 2024-10-29T20:46:19Z
+- **Size:** 569.05 KB
+- **SHA256SUM:** fed8da23e6738bcef7214d96ba1d8b0a75146fe0a4b89315b0c38e07f8e9878a
+- **B3SUM:** f472fd4be923e5510c70686aaedddabe8e2cf002977a119ae0b444d0089305ee
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/neofetch
 - **Language:** Shell
 - **License:** MIT License
@@ -12166,7 +12186,7 @@
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
 - **Repository:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
-- **Stars:** 8091
+- **Stars:** 8093
 - **Version:** v1.7.7
 - **Updated:** 2024-10-29T00:36:37Z
 - **Size:** 24.75 MB
@@ -12186,12 +12206,12 @@
 - **Author:** netbirdio
 - **WebURL:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 - **Repository:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
-- **Stars:** 10997
+- **Stars:** 11002
 - **Version:** v0.30.3
-- **Updated:** 2024-10-29T13:54:46Z
-- **Size:** 27.94 MB
-- **SHA256SUM:** 97fe1e1a4f50670ffdda53370e96141f6da9df5d67efbca2fc9ece0b8dfe0edf
-- **B3SUM:** b480143fbe2265d1461edb3cfb032ef279f067c471e498eea77bd70091d7977c
+- **Updated:** 2024-10-29T23:41:46Z
+- **Size:** 28.01 MB
+- **SHA256SUM:** 1580f1bf2e79d413e4b34f60bcd3035a32ec039fc54401b689a9519d6b999a94
+- **B3SUM:** 128c122041e5a2623733584aba5f03d62caededd442d6748e528ed6f56dc1059
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/netbird
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -12209,9 +12229,9 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 1.99 MB
-- **SHA256SUM:** 3f1f52c644a35f24c698ea6489a6c4cd14f6a00bd83039f6feb2101a705a20c8
-- **B3SUM:** 41d379fed1cbec3890f137adcdba327d10d4b257a225b5ccd8a7281a63d98cfe
+- **Size:** 1.97 MB
+- **SHA256SUM:** 6fd0ff8c0ca6e6c01070e5cb3ae26d833679a144392ba4780fe6cb6075aca134
+- **B3SUM:** c18eacf10efc45618d68a4ee6bfa71b7fe49d5d848c9303755407d7cb64a1cca
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/netcat
 - **Language:** 
 - **License:** 
@@ -12226,12 +12246,12 @@
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
-- **Stars:** 3141
+- **Stars:** 3144
 - **Version:** v1.3.0
 - **Updated:** 2024-10-27T23:23:20Z
 - **Size:** 13.32 MB
-- **SHA256SUM:** a50393e05b6aee3f87d1718c39daf149fe64aa4650c5ea1a0c4eb93015c64a87
-- **B3SUM:** 307c94923bc469ae6846e872f08d60c8a52d655c5929ea068c8f60c2a3b97c73
+- **SHA256SUM:** 4cee5804b53af7abed273baeb022d1734cb01438d7cfbf15fd1e84e774498494
+- **B3SUM:** ebc3767d18b9a603c530172ec07c2d7d67ce596a2d51c2346883475b4e516260
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/netexec
 - **Language:** Python
 - **License:** BSD 2-Clause Simplified License
@@ -12246,12 +12266,12 @@
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
-- **Stars:** 3141
+- **Stars:** 3144
 - **Version:** v1.3.0
 - **Updated:** 2024-10-27T23:23:20Z
 - **Size:** 12.4 MB
-- **SHA256SUM:** 5524cb0db8fd64740a77420ae26a03e3b01a298402c8c84099dc5a66e5194bac
-- **B3SUM:** 55e9cedc4d9710dba403cd8791ad1b7f6f57029ed38dfb25be6f8e6ebf455b51
+- **SHA256SUM:** 8681f1082e488c6d937cc2603915ca590e61d52a803ad28cfb34e036e7f866b0
+- **B3SUM:** db4dda99bf5284c66b407fd43f16721f73ad3a3cafefac9b05325d0f365a8684
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/netexec_dynamic
 - **Language:** Python
 - **License:** BSD 2-Clause Simplified License
@@ -12268,10 +12288,10 @@
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Stars:** 9468
 - **Version:** v0.25.0
-- **Updated:** 2024-10-29T12:30:08Z
+- **Updated:** 2024-10-29T18:58:06Z
 - **Size:** 14.22 MB
-- **SHA256SUM:** b58a1e0b208f0fc84965dca4667461fbc421dd69b8a1b08da74d2d9371bb634c
-- **B3SUM:** f94a0b1ed88ab9033aec8b10ea20f287254260544c5282d4b47113721546b3cc
+- **SHA256SUM:** 3bec908ae2322721568a42790c75b0da1d4b661e40d675aad201ea20c4d090f9
+- **B3SUM:** cb31c3be688cc7964d28bd35e59943ec51339da7358b4705020163d6b4b5a8ca
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/netmaker
 - **Language:** Go
 - **License:** Other
@@ -12288,10 +12308,10 @@
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Stars:** 9468
 - **Version:** v0.25.0
-- **Updated:** 2024-10-29T12:30:08Z
+- **Updated:** 2024-10-29T18:58:06Z
 - **Size:** 11.5 MB
-- **SHA256SUM:** ae1ab096c57e38910c6e10b3d84d7da69b5c9d63bfe33d1cbb1b33c1902a020b
-- **B3SUM:** a9edfb3d5e5e09d58f1d683ac14196a40587985c48625cfb84cdf55da4317b3f
+- **SHA256SUM:** 55d7e511cad4d9ff5da9d9dc765de8193b5871aeda77c80e560f609ebcf34470
+- **B3SUM:** 488448c8f3063d7fe433c866f8b46edc83207b07cc623cbe12ee45cae9ccbcc0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nmctl
 - **Language:** Go
 - **License:** Other
@@ -12310,8 +12330,8 @@
 - **Version:** v0.6.0
 - **Updated:** 2024-10-23T21:48:48Z
 - **Size:** 12.72 MB
-- **SHA256SUM:** 5ebcc75d6fa32d7939b02e41a7694501ab0969a18e33fbd615d0b6ebc6e3239f
-- **B3SUM:** e3e787ced931b96ef59e7a2d2a233d75fc5b7eea388f8c77d92458c9d291f7a8
+- **SHA256SUM:** 8b1b7a41b6900238b78a4bb7aadd55b21a3ca81f440124e9d29cdc4db2e9c8ab
+- **B3SUM:** 90944fe04d5a5e881aa1d860a3a81ca7c208fef03efccd43357b4d691fc88d1a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/netscanner
 - **Language:** Rust
 - **License:** MIT License
@@ -12346,9 +12366,9 @@
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7172
-- **Version:** v0.20.4
-- **Updated:** 2024-10-29T13:39:45Z
+- **Stars:** 7174
+- **Version:** v0.20.5
+- **Updated:** 2024-10-29T14:46:10Z
 - **Size:** 21.78 MB
 - **SHA256SUM:** ce742a372205876667490a24b585b5a9257d955aa74c671926d9d0bbef90e03b
 - **B3SUM:** 63e0cf07dcfcc842aafa1f8ce02dcc7ddff5016a9133aee8f46b20fc6ce8f83d
@@ -12366,9 +12386,9 @@
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7172
-- **Version:** v0.20.4
-- **Updated:** 2024-10-29T13:39:45Z
+- **Stars:** 7174
+- **Version:** v0.20.5
+- **Updated:** 2024-10-29T14:46:10Z
 - **Size:** 37.04 MB
 - **SHA256SUM:** a58a9e250bd60ee5cd7c0448a748cda6f7512e74e2a81a65a9d5356f4c96a577
 - **B3SUM:** d9e96978a604370540d6492b0ac0dc7594baad845defe89967dad679c1b26606
@@ -12386,9 +12406,9 @@
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7172
-- **Version:** v0.20.4
-- **Updated:** 2024-10-29T13:39:45Z
+- **Stars:** 7174
+- **Version:** v0.20.5
+- **Updated:** 2024-10-29T14:46:10Z
 - **Size:** 376 B
 - **SHA256SUM:** 21ce2f0e26fbfb47f0f581b2d9dd9adecfcc2c3ca4a02597fcb657dc36f7ba84
 - **B3SUM:** 5c1d7d58d6b4c7940968773c09a415b8da56ded17d9713b0d1fc1d6142edb01c
@@ -12406,9 +12426,9 @@
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7172
-- **Version:** v0.20.4
-- **Updated:** 2024-10-29T13:39:45Z
+- **Stars:** 7174
+- **Version:** v0.20.5
+- **Updated:** 2024-10-29T14:46:10Z
 - **Size:** 798 B
 - **SHA256SUM:** 9adc852dc0b83c017c1e460335b770f0f85c8806cfe7331ef96fc9fa9ceb1e47
 - **B3SUM:** bd71a8149d962451109a1fca429318b363ea5c2e62d6763838ecd94f402559e6
@@ -12426,9 +12446,9 @@
 - **Author:** naiba
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7172
-- **Version:** v0.20.4
-- **Updated:** 2024-10-29T13:39:45Z
+- **Stars:** 7174
+- **Version:** v0.20.5
+- **Updated:** 2024-10-29T14:46:10Z
 - **Size:** 31.77 KB
 - **SHA256SUM:** d1026a52d7c2ffcea724e89f3858defd839f6dc0ede723227ec85c9f64e313f2
 - **B3SUM:** f5541a2e28bce397239a45a5d612fa0b584d492328609a8f09687aa20e4af927
@@ -12449,9 +12469,9 @@
 - **Stars:** 2164
 - **Version:** v2.41.0
 - **Updated:** 2024-10-25T14:49:03Z
-- **Size:** 12.38 MB
-- **SHA256SUM:** 202d3127515445bc78b569719627c71ac1e8e2b873b5b8800b95a6e12bbfa445
-- **B3SUM:** b5df7756225c0290d7af9570fb5e4b19a43ef2deff1b254e8f766986e3190397
+- **Size:** 12.39 MB
+- **SHA256SUM:** 4b7454d2c6788f61c8d3b0cb673cdb68b60133e7c45088c0e8ffc611519724cd
+- **B3SUM:** c1788b9158d68a97042e3289a31edd611fbb04820b6991b6ee831dd1de67f6ea
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nfpm
 - **Language:** Go
 - **License:** MIT License
@@ -12470,8 +12490,8 @@
 - **Version:** v0.7.0
 - **Updated:** 2024-10-27T00:48:13Z
 - **Size:** 5.27 MB
-- **SHA256SUM:** ac57331a307632019af3b815167ddf5d288016dfb794f0a82af7fad2ac25c38a
-- **B3SUM:** 60a1fd8b3b56aa06752a6c0e927b2583e3572f1da803ae268638d99106bdff84
+- **SHA256SUM:** 7f1ce6f8089ac00acb6ec575e37193f9581d55f41470440592bd8914015a78ae
+- **B3SUM:** 5f21f6d0174e2598bae99b4036ea2445718e2b54a54163dfcc722ee22b09e1b9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nginx
 - **Language:** TypeScript
 - **License:** 
@@ -12510,8 +12530,8 @@
 - **Version:** v1.0.0
 - **Updated:** 2024-01-04T07:49:44Z
 - **Size:** 10.02 MB
-- **SHA256SUM:** 1357e8836ed7425b8b0ea3c1809bc652af096d555f1e694e10669b639702e7d0
-- **B3SUM:** 9eb0093b48fdcee61d19ad2485701b994b558762f0e29cc244aa22089f511784
+- **SHA256SUM:** c87485697d9fb100ec2b653614b5bb96d875a2c37716c7bc35d98233e202499b
+- **B3SUM:** 8ea30681d12aebb04fa39586cd7f50735af20f331cef4d68264b1600d95d8646
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ngocok
 - **Language:** Go
 - **License:** MIT License
@@ -12550,8 +12570,8 @@
 - **Version:** v3.0.2
 - **Updated:** 2024-08-18T18:20:50Z
 - **Size:** 27.56 MB
-- **SHA256SUM:** 5f8446b3a4d107ab57c251d0a7ff561f9f1503c99a041260aa2d9a02a5cca6ad
-- **B3SUM:** fdf3aa499bd806536f59ec33768608933497b34a8e552f17b5ef93339c9b7eab
+- **SHA256SUM:** 5eb47e15c72750bc4916229a07b90ba950fb43faecc0321a22844056019fb7ff
+- **B3SUM:** 5b68e52f110a8c9cfad3c0ff9b7283247f2afdd413e2c572be81845b868a839c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nmap-formatter
 - **Language:** Go
 - **License:** MIT License
@@ -12566,7 +12586,7 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 10123
+- **Stars:** 10129
 - **Version:** 
 - **Updated:** 2024-10-28T23:30:04Z
 - **Size:** 4.55 MB
@@ -12586,7 +12606,7 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 10123
+- **Stars:** 10129
 - **Version:** 
 - **Updated:** 2024-10-28T23:30:04Z
 - **Size:** 8.46 MB
@@ -12606,7 +12626,7 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 10123
+- **Stars:** 10129
 - **Version:** 
 - **Updated:** 2024-10-28T23:30:04Z
 - **Size:** 4.75 MB
@@ -12630,8 +12650,8 @@
 - **Version:** 
 - **Updated:** 2024-02-13T11:02:14Z
 - **Size:** 1.76 MB
-- **SHA256SUM:** baa5d11d45714a98dee96ca63e952b129679851ff2af9d3e0647d6bea0297fd6
-- **B3SUM:** 7cb787b57f9cd588715c67d12b8e3090018fa136713949ec269e90941224d018
+- **SHA256SUM:** 1e885aa0a377b1157721b945d8440f8bb4476f35e8f6cdfd40d3db81cc5de9b9
+- **B3SUM:** 50b74ffa75f266ab9ed2b2ec29207a6e6c2998c209650f12d3cbe1a8da51ab22
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nmapurls
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -12646,7 +12666,7 @@
 - **Author:** jarun
 - **WebURL:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
 - **Repository:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
-- **Stars:** 19273
+- **Stars:** 19276
 - **Version:** v5.0
 - **Updated:** 2024-10-24T14:19:48Z
 - **Size:** 460.85 KB
@@ -12668,10 +12688,10 @@
 - **Repository:** [https://github.com/hahwul/noir](https://github.com/hahwul/noir)
 - **Stars:** 565
 - **Version:** v0.17.0
-- **Updated:** 2024-10-28T18:35:56Z
+- **Updated:** 2024-10-29T14:27:09Z
 - **Size:** 8.95 MB
-- **SHA256SUM:** b28ce9839266f2d27a78978e40c7790a99fab7691b333e1bf5fb0ce816054725
-- **B3SUM:** 16088fd8acba138c74258154428923ff699c1dac27516de71053fd204a621136
+- **SHA256SUM:** cf0c2783a3277479de72fd20e3533b2a9e8acfdbdb0483cb80d879de4eb9af6d
+- **B3SUM:** 3bf34fdf9f69a6139c5b0a0c99c61639bb97abe560fd168918b7713ab3cc958b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/noir
 - **Language:** Crystal
 - **License:** MIT License
@@ -12690,8 +12710,8 @@
 - **Version:** 1.0.1
 - **Updated:** 2024-07-30T07:25:47Z
 - **Size:** 8.41 MB
-- **SHA256SUM:** 1a968acc16f5143207fc8295eae53da7e5bf371bb865885c978cdc4b6d563d83
-- **B3SUM:** 9816077603168d21cbbaf51194ec12fd170f2d8bde354c889de0fec8b7c8bb04
+- **SHA256SUM:** 2d90f520cada67f70e5817ccbf5bc0f7f098700bf6e3f93a2d9191e8f5bf67e2
+- **B3SUM:** 0d2786008b87a218c272ddb319a02d7936d719dafe0934a83857702afbf9f18a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nomore403
 - **Language:** Go
 - **License:** MIT License
@@ -12710,8 +12730,8 @@
 - **Version:** 0.0.5
 - **Updated:** 2024-10-17T23:46:37Z
 - **Size:** 2.08 MB
-- **SHA256SUM:** 0604da5dd403b869ba1f1faa65ed5ac5700a3d09562359f782312afc8044b4c6
-- **B3SUM:** d1c8542a06e7c6ead3857feb588b9cf4caa6a649fefa1c6aee2fbf34e6b8e2ae
+- **SHA256SUM:** a3bb99377178bcf8861792b6312ee6b71f7d35ed3edf97b0988c26d549d1d166
+- **B3SUM:** 338da19a51c85d14953d0edfc35efd77e4992f429a9ccee5e5fa4aa5243bf961
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/noroot-do
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -12728,10 +12748,10 @@
 - **Repository:** [https://github.com/praetorian-inc/noseyparker](https://github.com/praetorian-inc/noseyparker)
 - **Stars:** 1680
 - **Version:** v0.20.0
-- **Updated:** 2024-10-28T23:24:37Z
-- **Size:** 20.57 MB
-- **SHA256SUM:** 426d9d868adcd49f520005e2e64356e1092733d35de7312ec9344166ad747554
-- **B3SUM:** 602c19624146246acab2a75c544fdcf28fd609cda513554000311abef0d0753d
+- **Updated:** 2024-10-29T18:18:46Z
+- **Size:** 20.55 MB
+- **SHA256SUM:** 45e45255e79f239a0a38ca179f956022299e0688aaa4ff55576c4a78192aa08a
+- **B3SUM:** ea176153602cdbb037c473858806ad6fcecd5ec183fe8e33223f13e4c40a9167
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/noseyparker
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -12750,8 +12770,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 1.67 MB
-- **SHA256SUM:** 27785cefccbd97530a3e81109f26ed0fbdfc6f30203dd97298d5816ff67b4540
-- **B3SUM:** bd0be86417aa3a2ca5e55b07058dc7c5e4862302d5273e38769424423ccb7142
+- **SHA256SUM:** 675b180315cd667a138d154fe8993da97b7bfced67c9453dfd97452acfa0f166
+- **B3SUM:** 661a6335054442b1f61f5bfdd1231f97127277ec552e42ab8a33f5a79b2a7ced
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/notify-send
 - **Language:** 
 - **License:** 
@@ -12770,8 +12790,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 1.67 MB
-- **SHA256SUM:** 27785cefccbd97530a3e81109f26ed0fbdfc6f30203dd97298d5816ff67b4540
-- **B3SUM:** bd0be86417aa3a2ca5e55b07058dc7c5e4862302d5273e38769424423ccb7142
+- **SHA256SUM:** 675b180315cd667a138d154fe8993da97b7bfced67c9453dfd97452acfa0f166
+- **B3SUM:** 661a6335054442b1f61f5bfdd1231f97127277ec552e42ab8a33f5a79b2a7ced
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/notify-send-rs
 - **Language:** 
 - **License:** 
@@ -12806,7 +12826,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 - **Repository:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
-- **Stars:** 20479
+- **Stars:** 20482
 - **Version:** v3.3.5
 - **Updated:** 2024-10-29T12:33:09Z
 - **Size:** 81.65 MB
@@ -12946,12 +12966,12 @@
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 32135
+- **Stars:** 32136
 - **Version:** 0.99.1
-- **Updated:** 2024-10-29T13:08:56Z
-- **Size:** 35.09 MB
-- **SHA256SUM:** 71db0cd91a8a504fbfe7b7bc08077d055e98754f5831b47ce35ffd363e8cffa8
-- **B3SUM:** 5b42bebff17a416c499afa1a660d59c750029d38dead6d5dc647a96b08e80f7f
+- **Updated:** 2024-10-30T00:47:07Z
+- **Size:** 35.1 MB
+- **SHA256SUM:** f596fc2010529bfc9e77a3bef556582f00fc395be17555b4d37b4f837c9c2306
+- **B3SUM:** cc2a025f917d7f616514f7e6421d2d0f955c7b63a914736c59616c32c2e7f24c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nu
 - **Language:** Rust
 - **License:** MIT License
@@ -12966,12 +12986,12 @@
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 32135
+- **Stars:** 32136
 - **Version:** 0.99.1
-- **Updated:** 2024-10-29T13:08:56Z
-- **Size:** 35.09 MB
-- **SHA256SUM:** 71db0cd91a8a504fbfe7b7bc08077d055e98754f5831b47ce35ffd363e8cffa8
-- **B3SUM:** 5b42bebff17a416c499afa1a660d59c750029d38dead6d5dc647a96b08e80f7f
+- **Updated:** 2024-10-30T00:47:07Z
+- **Size:** 35.1 MB
+- **SHA256SUM:** f596fc2010529bfc9e77a3bef556582f00fc395be17555b4d37b4f837c9c2306
+- **B3SUM:** cc2a025f917d7f616514f7e6421d2d0f955c7b63a914736c59616c32c2e7f24c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nushell
 - **Language:** Rust
 - **License:** MIT License
@@ -12990,8 +13010,8 @@
 - **Version:** v2.10.2
 - **Updated:** 2024-10-29T06:39:08Z
 - **Size:** 4.96 MB
-- **SHA256SUM:** 117cdcf8962858508c417af01ca869a1e4213dca17854cc07dd0c73b66da154e
-- **B3SUM:** 0982f95da20975d24d70242c2fa12747e52ef8a3f3dee2b0d6853c61422f0822
+- **SHA256SUM:** f3c280dc5faf89a10b40454480bb60f981ae1227cac0e7f601a8376e82ec5209
+- **B3SUM:** fa9b99a993500265eb04e6fe5dc9a091c9763f5b08729575877ab8d591ac3d7a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nvme
 - **Language:** C
 - **License:** GNU General Public License v2.0
@@ -13010,8 +13030,8 @@
 - **Version:** v2.10.2
 - **Updated:** 2024-10-29T06:39:08Z
 - **Size:** 4.96 MB
-- **SHA256SUM:** 117cdcf8962858508c417af01ca869a1e4213dca17854cc07dd0c73b66da154e
-- **B3SUM:** 0982f95da20975d24d70242c2fa12747e52ef8a3f3dee2b0d6853c61422f0822
+- **SHA256SUM:** f3c280dc5faf89a10b40454480bb60f981ae1227cac0e7f601a8376e82ec5209
+- **B3SUM:** fa9b99a993500265eb04e6fe5dc9a091c9763f5b08729575877ab8d591ac3d7a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/nvme-cli
 - **Language:** C
 - **License:** GNU General Public License v2.0
@@ -13026,12 +13046,12 @@
 - **Author:** build-trust
 - **WebURL:** [https://github.com/build-trust/ockam](https://github.com/build-trust/ockam)
 - **Repository:** [https://github.com/build-trust/ockam](https://github.com/build-trust/ockam)
-- **Stars:** 4459
+- **Stars:** 4460
 - **Version:** ockam_v0.140.0
-- **Updated:** 2024-10-29T09:17:19Z
-- **Size:** 59.77 MB
-- **SHA256SUM:** 360a9635b0a9ec3515c1a26a6b071d3cbc966492840de2b15867bcb16248e3f9
-- **B3SUM:** 6b700a6e42793ef894f6128332e7b17dfdac24d9c1908c89fbc8d6983ebff2f5
+- **Updated:** 2024-10-29T21:07:22Z
+- **Size:** 62.85 MB
+- **SHA256SUM:** 78df4da9cfb20481e2fb6701ad59a5a7fe94a549bb7871844d53cb5be641a123
+- **B3SUM:** cdca28a2f960aa9ee13bdb4d8850c689c6d24bcd04d712460d58d4106c551a3d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ockam
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -13046,12 +13066,12 @@
 - **Author:** hatoo
 - **WebURL:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 - **Repository:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
-- **Stars:** 6004
+- **Stars:** 6016
 - **Version:** v1.4.7
 - **Updated:** 2024-10-26T16:14:17Z
-- **Size:** 10.15 MB
-- **SHA256SUM:** 7eb066a5bc5edea0d3530d0b3661ef98fae5da6dc78bb1e24d541f1295077615
-- **B3SUM:** 0ca97c7865809be6ac7c3eb6607f33398d75c4a0ba373c7455de3364df69fa8d
+- **Size:** 10.39 MB
+- **SHA256SUM:** bf202774e4813ccfb9b16c748b75da84f1b709fbe0adbaf6217a93b97f203f1b
+- **B3SUM:** 5b1f2cadff1d27c6ee248cdd40095b88ff5713a1a87543197b73c9f1e0dfa7e5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/oha
 - **Language:** Rust
 - **License:** MIT License
@@ -13090,8 +13110,8 @@
 - **Version:** v0.3.7
 - **Updated:** 2024-04-08T00:38:08Z
 - **Size:** 3.52 MB
-- **SHA256SUM:** 15c3fa56700f8281c713f2a5d854896f275c2a3f6910dd916a4a783f9dcedb50
-- **B3SUM:** 06c41723e99d42d3288740175a93e4ab7fba89b53f7e2120b2534039febf30ef
+- **SHA256SUM:** 25677b96afa67366826fb95544ebe5d6ecab3da466a36788892477862040f824
+- **B3SUM:** 2b237839f19a4201060eefaee4def61fbaad7996bcdc00aa3ef4262636e4a816
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/onetun
 - **Language:** Rust
 - **License:** MIT License
@@ -13210,8 +13230,8 @@
 - **Version:** 0.10.0
 - **Updated:** 2024-10-04T15:39:06Z
 - **Size:** 11.97 MB
-- **SHA256SUM:** 006e6adcd7aedcb7d495547b106760b2391c1060a0f1cb0442fb58650e3519c7
-- **B3SUM:** 690c1437e600a563d3e406edeb6a179d5992291aaddd12aa846e9dd64ded89aa
+- **SHA256SUM:** c3c2547391e0129dc8aa3e2235b7771aa9b1dcb8cfd0b53a91900bd6df51023f
+- **B3SUM:** daadb7c50d5accfff29647c088eae63ace5280ae5599e23e7d5b4e75b799aa8f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/openapi-tui
 - **Language:** Rust
 - **License:** MIT License
@@ -13226,12 +13246,12 @@
 - **Author:** apernet
 - **WebURL:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
 - **Repository:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
-- **Stars:** 9668
+- **Stars:** 9667
 - **Version:** v0.4.1
 - **Updated:** 2024-10-28T02:12:14Z
 - **Size:** 13.43 MB
-- **SHA256SUM:** 2962f8321e70db0ca81b1c34007636ff200cb07e8da04fabb76a8569a73d731c
-- **B3SUM:** 07709ce7991b2ded12231146c19cfdb06dbabe690bb00cbb701e00e0928bd68c
+- **SHA256SUM:** 1352ac01fdb4bc199ce9b0ed938ae63db91f3bcb8071d1c9fcb8c605f0f6b3fa
+- **B3SUM:** 19ff69912aafdd8f59c65046d8e8cfb2393dae9ed8a74f518fd2aeed392bcee3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/opengfw
 - **Language:** Go
 - **License:** Mozilla Public License 2.0
@@ -13246,9 +13266,9 @@
 - **Author:** thomiceli
 - **WebURL:** [https://github.com/thomiceli/opengist](https://github.com/thomiceli/opengist)
 - **Repository:** [https://github.com/thomiceli/opengist](https://github.com/thomiceli/opengist)
-- **Stars:** 1779
+- **Stars:** 1781
 - **Version:** v1.7.5
-- **Updated:** 2024-10-25T00:05:08Z
+- **Updated:** 2024-10-29T22:15:51Z
 - **Size:** 47.87 MB
 - **SHA256SUM:** acf8dc04148a07e0b3b80f60d1eaff8bdcd8114b246824ef470331eadca43e55
 - **B3SUM:** b4f6f99cead18415e2e04ce24bde290b37d2b661ba8ce5c7cc3c186a59c6b72a
@@ -13270,8 +13290,8 @@
 - **Version:** v0.0.1
 - **Updated:** 2024-05-16T10:52:32Z
 - **Size:** 9.08 MB
-- **SHA256SUM:** 45668b60043356e04ca7731223ad1754abe4cf33fe53258447af0370967e48a1
-- **B3SUM:** 4d6c29df737cd43ddb33d9225fa941298f23e0235d7ff4144fb34b5416f45763
+- **SHA256SUM:** 59167968227e2565e5e35734bc6550dfe4a0c2889785dc7ca9df0bad5ea6e373
+- **B3SUM:** cecdf7c5205c8e4383214806f8c1ef6e9349799e9fb44efa3ae36784d3612957
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/openrisk
 - **Language:** Go
 - **License:** MIT License
@@ -13288,7 +13308,7 @@
 - **Repository:** [https://github.com/OpenVPN/openvpn](https://github.com/OpenVPN/openvpn)
 - **Stars:** 10891
 - **Version:** v2.6.12
-- **Updated:** 2024-10-29T09:42:09Z
+- **Updated:** 2024-10-29T21:22:19Z
 - **Size:** 4.94 MB
 - **SHA256SUM:** cf17b149bbeacf7c88f3f01d20c0f55aa6b3b9b64ee13c693ff32aec15fb0ad3
 - **B3SUM:** f7b6d0b26793209093209a8fbc12bba216f7158c5e6ed6cc9ab0f1f888eefdf6
@@ -13306,12 +13326,12 @@
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/orbiton](https://github.com/xyproto/orbiton)
 - **Repository:** [https://github.com/xyproto/orbiton](https://github.com/xyproto/orbiton)
-- **Stars:** 490
+- **Stars:** 491
 - **Version:** v2.68.1
-- **Updated:** 2024-10-29T10:11:06Z
-- **Size:** 8.42 MB
-- **SHA256SUM:** 2ffea5d2a14d32d7f8acd69f20c07516e0da39d483c6088833664e15fa45b1b6
-- **B3SUM:** 3d4e5352250745ec021909c31540b5ca6d610c4e0009ecaf7bb3fe0d13ee1b73
+- **Updated:** 2024-10-29T23:34:48Z
+- **Size:** 8.48 MB
+- **SHA256SUM:** 5f6c8db6f3b98efd6aaf0479e16510d65ec066920f317f411930c2ade5e9937e
+- **B3SUM:** af9d4b07b73a1025364ab0b7d44de1bd4ebc3c2d6962dccf26f1da1c95590de0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/orbiton
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -13330,8 +13350,8 @@
 - **Version:** v4.6.4
 - **Updated:** 2024-05-27T04:29:10Z
 - **Size:** 26.99 MB
-- **SHA256SUM:** b9b25ddfcd9ae608817dc949eb3641c96e34d1bb65d8e60ec81b752e2399b694
-- **B3SUM:** 8778f4b5aee3a4fdb7517572125772597423e0f12a03f577be50ee2e921c3488
+- **SHA256SUM:** 4b6ee48d74c8a41a44fa2d37bff47e17f9068efa88a87a1294a98b9e8654b8fa
+- **B3SUM:** af2d8d944adb177f52af90bf656b631d50ebfd1114942ebeb58b7247c1111760
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/osmedeus
 - **Language:** Go
 - **License:** MIT License
@@ -13349,9 +13369,9 @@
 - **Stars:** 282
 - **Version:** v0.3.0
 - **Updated:** 2024-10-28T10:55:38Z
-- **Size:** 3.16 MB
-- **SHA256SUM:** e865d5cd65434c19ddd06b62e321052d3f52557a5ef82f7581ed5ec7a9396a9d
-- **B3SUM:** 7b74691e7c00095482785d889670aa469ecf58e3571fde54f1a52a6014b6993e
+- **Size:** 3.19 MB
+- **SHA256SUM:** 7cc3b556efe9e6cbd50d07386d01c7ded3dac26ce9d7a614e7963ecd2fa89692
+- **B3SUM:** 92693a46741790127adc7bd9ca52f82ef228de385f2db622577e03805df89845
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/otree
 - **Language:** Rust
 - **License:** MIT License
@@ -13368,7 +13388,7 @@
 - **Repository:** [https://github.com/ouch-org/ouch](https://github.com/ouch-org/ouch)
 - **Stars:** 2246
 - **Version:** 0.5.1
-- **Updated:** 2024-10-29T01:37:54Z
+- **Updated:** 2024-10-29T23:43:32Z
 - **Size:** 4.32 MB
 - **SHA256SUM:** 226b32300c9958752b8e8dd182d5c94e3fbfd26e3ef01074b26c87202dd0b3a4
 - **B3SUM:** d21ea79b33e8866df2d657d99125f163d53e54b57fef5c30271dd2c2a1b2ed88
@@ -13386,7 +13406,7 @@
 - **Author:** noborus
 - **WebURL:** [https://github.com/noborus/ov](https://github.com/noborus/ov)
 - **Repository:** [https://github.com/noborus/ov](https://github.com/noborus/ov)
-- **Stars:** 1465
+- **Stars:** 1466
 - **Version:** v0.36.0
 - **Updated:** 2024-10-29T01:41:44Z
 - **Size:** 8.27 MB
@@ -13406,7 +13426,7 @@
 - **Author:** DarthSim
 - **WebURL:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
 - **Repository:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
-- **Stars:** 2872
+- **Stars:** 2873
 - **Version:** v2.5.1
 - **Updated:** 2024-04-05T10:19:11Z
 - **Size:** 4.39 MB
@@ -13428,10 +13448,10 @@
 - **Repository:** [https://github.com/curlpipe/ox](https://github.com/curlpipe/ox)
 - **Stars:** 3336
 - **Version:** 0.6.9
-- **Updated:** 2024-10-29T13:35:07Z
-- **Size:** 3.55 MB
-- **SHA256SUM:** cdbce9f959e8bd1d964fef719d95c445beb047bcae51fd9fb647fa4753b330e3
-- **B3SUM:** 065587ba80c8bb6c25649ab53003b43a957ba02182de74f857fd77afe619e137
+- **Updated:** 2024-10-30T00:11:24Z
+- **Size:** 3.7 MB
+- **SHA256SUM:** 08c76f56ef63c4621e94c3987193c44f88834f23f977b0784e5e258ffdfe03e1
+- **B3SUM:** a3df8335cf2ec581efed9446c72d8d2bb420ea2a114aaafbf0fc9bb696ad5fc6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ox
 - **Language:** Rust
 - **License:** GNU General Public License v2.0
@@ -13450,8 +13470,8 @@
 - **Version:** 1.0.7
 - **Updated:** 2024-06-19T10:39:39Z
 - **Size:** 3.72 MB
-- **SHA256SUM:** 4bb0cfab4a5c56405e4e956a1f626143d14d73e629154a646bc54e16f7d51772
-- **B3SUM:** f448c727ea83ed917111247f1aadebd6ffb58b076355e8ee0c123bc8c5a47963
+- **SHA256SUM:** b2be081aa2d50bd8453c9fec085f75bede78ca298c809b4da4737204a24c078c
+- **B3SUM:** bd854fa1a3f0aa9e09dd41f06419bfa3b02a7e3831ed0fcc1a1c5a201f3708c9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/passdetective
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -13466,7 +13486,7 @@
 - **Author:** NixOS
 - **WebURL:** [https://github.com/NixOS/patchelf](https://github.com/NixOS/patchelf)
 - **Repository:** [https://github.com/NixOS/patchelf](https://github.com/NixOS/patchelf)
-- **Stars:** 3558
+- **Stars:** 3560
 - **Version:** 0.18.0
 - **Updated:** 2024-08-03T07:32:34Z
 - **Size:** 1.38 MB
@@ -13486,12 +13506,12 @@
 - **Author:** pdfcpu
 - **WebURL:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
 - **Repository:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
-- **Stars:** 6895
+- **Stars:** 6909
 - **Version:** v0.9.1
 - **Updated:** 2024-10-27T22:00:11Z
-- **Size:** 11.12 MB
-- **SHA256SUM:** 2ce0706b461b64bef6180b304925956f94eb28151999fc5497f963308a712077
-- **B3SUM:** 31da30c4d240279fdc91180a43633b54fd776000d9f04b43a16033df2c1c035e
+- **Size:** 11.25 MB
+- **SHA256SUM:** 453c1534222a12adb915842ec04c9a560ee6777fd504f047a49990abe32e868f
+- **B3SUM:** cae49881df5f488679dcba6aff08e90fc33cf599de97c4e02eafbb28c65701fd
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/pdfcpu
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -13508,7 +13528,7 @@
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Stars:** 14
 - **Version:** 1.8
-- **Updated:** 2024-10-29T07:54:34Z
+- **Updated:** 2024-10-30T01:36:31Z
 - **Size:** 19.6 KB
 - **SHA256SUM:** 3277ae6517ca0179d43e15764185e72ac2fd5aae9d63f0731ba6a40e1208450a
 - **B3SUM:** 07dfb0b33e83365146547d18eb067d570452465620d25e334453cf1682180678
@@ -13528,7 +13548,7 @@
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Stars:** 14
 - **Version:** 1.8
-- **Updated:** 2024-10-29T07:54:34Z
+- **Updated:** 2024-10-30T01:36:31Z
 - **Size:** 1330 B
 - **SHA256SUM:** b092492d5c04cff14ca1db16a8a25374b2b35d9e2835740ec37127e87a1248d4
 - **B3SUM:** 60ed38629b7711c27584e7d9cc670b8d52ea40a7860f9dff9fa7ba6a8bd0fc66
@@ -13548,7 +13568,7 @@
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Stars:** 14
 - **Version:** 1.8
-- **Updated:** 2024-10-29T07:54:34Z
+- **Updated:** 2024-10-30T01:36:31Z
 - **Size:** 1665 B
 - **SHA256SUM:** 8e7271dc3dc5682a007b48256999f9c5ee9ed00a5929e2ee7afa0fc416aa9289
 - **B3SUM:** 02f310bf62c8ab70e281f2f3372e1a7d2b2277973408a8cec7127c05961baedc
@@ -13568,10 +13588,10 @@
 - **Repository:** [https://github.com/xplshn/pelf](https://github.com/xplshn/pelf)
 - **Stars:** 14
 - **Version:** 1.8
-- **Updated:** 2024-10-29T07:54:34Z
+- **Updated:** 2024-10-30T01:36:31Z
 - **Size:** 3.73 MB
-- **SHA256SUM:** e6941809481b86d3bf66774062f1cdf444f97b62290f3699f6f3354401ae051f
-- **B3SUM:** e60cf0bf6f198e88a50c22025ec07008b0d6e1e054b108eadd5b9960ba2dba3d
+- **SHA256SUM:** 1f7c2e9dd59e1d0bb44ff97052ebe3bbda7fe52d16a1bafe7a7ba6c7e12c65b7
+- **B3SUM:** 6d0680d9ad54f2bb450272474816ccf3fd6326494afb82c699b32f8922e297a3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/pelfd
 - **Language:** Shell
 - **License:** BSD 3-Clause New or Revised License
@@ -13626,7 +13646,7 @@
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
-- **Stars:** 3184
+- **Stars:** 3191
 - **Version:** v1.4.1
 - **Updated:** 2024-10-03T01:51:52Z
 - **Size:** 9.34 MB
@@ -13646,7 +13666,7 @@
 - **Author:** pgrok
 - **WebURL:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
 - **Repository:** [https://github.com/pgrok/pgrok](https://github.com/pgrok/pgrok)
-- **Stars:** 3184
+- **Stars:** 3191
 - **Version:** v1.4.1
 - **Updated:** 2024-10-03T01:51:52Z
 - **Size:** 14.61 MB
@@ -13666,7 +13686,7 @@
 - **Author:** sosedoff
 - **WebURL:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
 - **Repository:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
-- **Stars:** 8627
+- **Stars:** 8628
 - **Version:** v0.16.1
 - **Updated:** 2024-10-17T03:28:28Z
 - **Size:** 15.73 MB
@@ -13690,8 +13710,8 @@
 - **Version:** v0.6.0
 - **Updated:** 2024-08-27T15:19:11Z
 - **Size:** 2.18 MB
-- **SHA256SUM:** 9bed3a3715a194d6521ce90d414aaac4a8c730e2a7cd63fbe939f2e62aa931f4
-- **B3SUM:** d4fa1e20e706edf0a36b3044f28f2ed2e493a6f8394ab2c012986f8efd05e9f9
+- **SHA256SUM:** 556e45d7636aa53299665adc52914f8dcace236b2da07d9c3e34779a983bfc6f
+- **B3SUM:** 1d4e14dbca9ca21d4e8659e49b150451fa05be2b0f4e34e2cb00e48e073910ea
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/phantun-client
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -13710,8 +13730,8 @@
 - **Version:** v0.6.0
 - **Updated:** 2024-08-27T15:19:11Z
 - **Size:** 2.15 MB
-- **SHA256SUM:** 9fec19d34137b48fa010d1d151b46679eac9d5b14e4a3c4cf5db03e1e51ca56c
-- **B3SUM:** 2f2fbfc170c8b49b44fa2ff78d146928a4f20f9650ec8d0cb227e34dc2c726a8
+- **SHA256SUM:** 2f3abe9ccfb4e78bed6e8ac9189b199bb7c0bafc54a32f1b6c7d055fe2e87e1f
+- **B3SUM:** 251f3b4447555cdc705de5317581ce6bbcdac149e327f67f0d0e657d2eec1b7e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/phantun-server
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -13786,7 +13806,7 @@
 - **Author:** madler
 - **WebURL:** [https://github.com/madler/pigz](https://github.com/madler/pigz)
 - **Repository:** [https://github.com/madler/pigz](https://github.com/madler/pigz)
-- **Stars:** 2650
+- **Stars:** 2648
 - **Version:** v2.8
 - **Updated:** 2024-09-17T20:02:36Z
 - **Size:** 329.6 KB
@@ -13810,8 +13830,8 @@
 - **Version:** 
 - **Updated:** 2024-04-16T11:28:34Z
 - **Size:** 7.02 MB
-- **SHA256SUM:** c5504738eeb8ce098cf978bc75264ba31c3905726d9db7b3bfd5f64cab88ed2c
-- **B3SUM:** 6ff57fa32eb60444055b48549243bceed116ff83a1a2102752607e8c57aa9ba3
+- **SHA256SUM:** 24bdac3c09b59543c698efd185d9efd08a32b7bdfba43d2f73f40f0cc3ad5a50
+- **B3SUM:** 1d999901dced2d81d12749427289110b2f58497e0c8d5652764b3651dbc09eff
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/pingmole
 - **Language:** Rust
 - **License:** MIT License
@@ -13846,7 +13866,7 @@
 - **Author:** prefix-dev
 - **WebURL:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
 - **Repository:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
-- **Stars:** 3211
+- **Stars:** 3214
 - **Version:** v0.34.0
 - **Updated:** 2024-10-29T10:19:30Z
 - **Size:** 29.05 MB
@@ -13890,8 +13910,8 @@
 - **Version:** 2.5.1
 - **Updated:** 2023-10-13T10:56:12Z
 - **Size:** 2.42 MB
-- **SHA256SUM:** 2aaa32ad296f7bfadacb73d794c4fb044f3e4eefe0c7fec132680e7bbe0b31c2
-- **B3SUM:** 78b65172592cbedcaf33ff4a1e17af8d9a841ddc6112d30b8dc86cd1a9c2e349
+- **SHA256SUM:** 5e2fa7d5e0f1554d72295f7642f1b7a7ad994c71363428ca0234907f346a669e
+- **B3SUM:** aaa0567c26984b20f83364e54833230c6eb494c63c8117ba6aaa259aa1532a82
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/pkgtop
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -13966,12 +13986,12 @@
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/podman](https://github.com/containers/podman)
 - **Repository:** [https://github.com/containers/podman](https://github.com/containers/podman)
-- **Stars:** 23609
+- **Stars:** 23610
 - **Version:** v5.2.5
-- **Updated:** 2024-10-29T12:20:36Z
+- **Updated:** 2024-10-29T23:37:19Z
 - **Size:** 29.95 MB
-- **SHA256SUM:** 93fafdecfbd9b401f108168340e3acf0af47795f740638b71012ebb0b24bc4c1
-- **B3SUM:** 685521aeb994b5b9f039fcd41e50d1ddcb8714429e5f6422978f8635d9ff9f42
+- **SHA256SUM:** a62097f425b496d83d931075ac9774284c75595dc30a56be0812de8e943cb4c0
+- **B3SUM:** aa9f717e913970b12cec196f1e81c7af2d0630543ba2e7ad4a27ad74c7e65507
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/podman
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -13990,8 +14010,8 @@
 - **Version:** v2.7.0
 - **Updated:** 2024-10-24T01:50:19Z
 - **Size:** 18.58 MB
-- **SHA256SUM:** bee3e1b21209103a0487759d5f80ea1dc4234936a5fdb3779e5f5ea8d503ee59
-- **B3SUM:** bbe1a429dc7f0e91859a13df143aa9eee4aacadf38e541c7b66081fa39b14080
+- **SHA256SUM:** 61b3ebc8df30aa4bbf5d718fb974f79d5af7a73df7cd9d24298a719639cc9e36
+- **B3SUM:** 9ff99237a7b13927b313b151d533258d2c1e22119023f21b6e0f7a074244237f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/podsync
 - **Language:** Go
 - **License:** MIT License
@@ -14010,8 +14030,8 @@
 - **Version:** v0.0.3
 - **Updated:** 2022-02-26T02:29:04Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 885ca0b94b36f93190e0a39d3e59432fb346f16368682a0a3ad4bbdf447c54bd
-- **B3SUM:** 1ad8e2ea94820165c54228640fcb5586036c633559de0d5a0363bab8ae35e597
+- **SHA256SUM:** b00595b6a78097c845049f699b8d39e1ad2c672ee54f59df55678d13487ee2d9
+- **B3SUM:** 4f89057e0d205ced6dcf955394b4375e0454d667a7db729368012a528d245f56
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ppath
 - **Language:** Go
 - **License:** MIT License
@@ -14026,12 +14046,12 @@
 - **Author:** dwisiswant0
 - **WebURL:** [https://github.com/dwisiswant0/ppfuzz](https://github.com/dwisiswant0/ppfuzz)
 - **Repository:** [https://github.com/dwisiswant0/ppfuzz](https://github.com/dwisiswant0/ppfuzz)
-- **Stars:** 580
+- **Stars:** 584
 - **Version:** v1.0.2
 - **Updated:** 2023-03-20T15:01:05Z
 - **Size:** 4.25 MB
-- **SHA256SUM:** dcac74f88e5fdd35a9dbc470406e857b66da7e2d58b3846495de60c1c7dfb029
-- **B3SUM:** 8ee997258c583701bd0061a00659b02a6462fb2a85010a2ed48b3fd944699a3b
+- **SHA256SUM:** 70131d8b6bca60f3fed98a8a71c3b3b26632df616f9c023c283736a84945ca17
+- **B3SUM:** 77f645f69082cdbcb9d0fa05764dab852d07ff6aee0b80400e05d9f86ee7749e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ppfuzz
 - **Language:** Rust
 - **License:** MIT License
@@ -14066,7 +14086,7 @@
 - **Author:** mfontanini
 - **WebURL:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
 - **Repository:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
-- **Stars:** 1303
+- **Stars:** 1306
 - **Version:** v0.9.0
 - **Updated:** 2024-10-26T20:43:09Z
 - **Size:** 5.52 MB
@@ -14126,12 +14146,12 @@
 - **Author:** dalance
 - **WebURL:** [https://github.com/dalance/procs](https://github.com/dalance/procs)
 - **Repository:** [https://github.com/dalance/procs](https://github.com/dalance/procs)
-- **Stars:** 5108
+- **Stars:** 5110
 - **Version:** v0.14.8
 - **Updated:** 2024-10-28T20:54:07Z
-- **Size:** 4.85 MB
-- **SHA256SUM:** 5141d69206220d089778fbb3af8c4990c0d2862f83cd365d4a81db7aed9ae49c
-- **B3SUM:** 4d7c289f979dcbad85b4e1e431f5155a414cd5162186ad0a0510037d4ce4046e
+- **Size:** 4.84 MB
+- **SHA256SUM:** be6ccd1aee2def3bd750fe3d5396464c1434a29a8d071b34c932442cf1e1030f
+- **B3SUM:** 67b5adeac19ea6cbaebb3a4e658b1ec8842b78a359c5f44599c7cbc6a56be83d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/procs
 - **Language:** Rust
 - **License:** MIT License
@@ -14186,12 +14206,12 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
 - **Repository:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
-- **Stars:** 2712
+- **Stars:** 2711
 - **Version:** v0.0.15
 - **Updated:** 2024-10-28T09:19:07Z
 - **Size:** 38.53 MB
-- **SHA256SUM:** 1b7e25df748865b87351789074b1f2628585d5bbd728492ddd5a5161375947a5
-- **B3SUM:** 461080da0d8959565e83512556eb34c0b0edea5f7afbce84a69f977aeb24368f
+- **SHA256SUM:** 2e2235a946c2b6587fdf53aa15f46a98b2f9104cee15ec0281ecb701331028f8
+- **B3SUM:** dd12bb2e70a58a733b928b8cde834b7878584cd44283ac2e627caf70d699bddc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/proxify
 - **Language:** Go
 - **License:** MIT License
@@ -14250,8 +14270,8 @@
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 3.72 MB
-- **SHA256SUM:** 83b42fa03c5dca8d042e7aa50d22af0ab7f2616c5d03bf0fddb3b4652f474de0
-- **B3SUM:** f57cccee51854891d72b4619eba532c97b67c9b0aa3828c9c6328ff720c48e14
+- **SHA256SUM:** c7d3f6d499c1957d0ca0169a41b07389eb441be8cdbc309726a1fb7aafd08865
+- **B3SUM:** d14ab2e608380dce621d169d2f072894e9ec6ae206bcedc3fa0a94d867ad4546
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/pspy
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -14286,7 +14306,7 @@
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
-- **Stars:** 4959
+- **Stars:** 4961
 - **Version:** v3.4.1
 - **Updated:** 2024-10-23T10:22:09Z
 - **Size:** 2.5 MB
@@ -14306,7 +14326,7 @@
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
-- **Stars:** 4959
+- **Stars:** 4961
 - **Version:** v3.4.1
 - **Updated:** 2024-10-23T10:22:09Z
 - **Size:** 2.56 MB
@@ -14448,10 +14468,10 @@
 - **Repository:** [https://github.com/userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)
 - **Stars:** 1097
 - **Version:** release-5.0.1_v2.0.10
-- **Updated:** 2024-10-29T09:45:51Z
-- **Size:** 27.94 MB
-- **SHA256SUM:** b440e8d8e4d36a337f1c19bcb85a60fddf6dee86fcfc5c48df5dd60e1b96d349
-- **B3SUM:** e0d887c8074273f3851b428874a334fc54981680c323a317dec47332c0bc5d65
+- **Updated:** 2024-10-29T19:31:37Z
+- **Size:** 28.14 MB
+- **SHA256SUM:** dced8d49a36c3396393ff6f55780c4db7fdd2fa5ddec463174457183ffbbf8f6
+- **B3SUM:** 3ce58e2d0faff8cc517967836f529d34d5b65cdbedc6d0b66f47c808b86d7baa
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qbittorrent-nox
 - **Language:** Shell
 - **License:** Apache License 2.0
@@ -14466,12 +14486,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 6.23 MB
-- **SHA256SUM:** c4ebc34d7886d0539d6ce37e0efe2309fdedee209a0145f2bc2a9f9658bb3a29
-- **B3SUM:** 64a32279f3cf6871d1db24c1471ad310b20a2557ae8db55ac13eaa29c0b7864f
+- **SHA256SUM:** e5e9cd29ba12f840071c77f824379c528af7d6af25f29ebd0ead20f243bd542d
+- **B3SUM:** 7744d7327da1cc1fbb9731530df30461acfcf59362d250ef09667558e73f1438
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-aarch64-static
 - **Language:** C
 - **License:** Other
@@ -14486,12 +14506,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 6.23 MB
-- **SHA256SUM:** 035c4d87272971eb55740b6d73c671acb275957c20937e48029620fb14b90c0f
-- **B3SUM:** efef56faaca63886c862eb0ef370459870d61c30459ef092f69254d73b13dcbc
+- **SHA256SUM:** 9bb955c823305db3690adc6ba5b3ede9daa2ea23453d6a2aeb2d6de2fd17acfb
+- **B3SUM:** d654ba1cd4de0b27afd779ac9d2c4fedb34f17a793cc0db18f8f97ef2a5760bb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-aarch64_be-static
 - **Language:** C
 - **License:** Other
@@ -14506,9 +14526,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** 3ae63b11176cb6daf4a8161bf44b87c0c85a0d5667cfa6d320f8ccc3180eab9c
 - **B3SUM:** f69b8a5b73a956863027dd72686a4f5dd5e37c62bc9d2f85e2f8df6c2ed18836
@@ -14526,12 +14546,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.35 MB
-- **SHA256SUM:** 66f81f85e7cd150dbe3a1598c7fbb8850aabba86bd1052b98adfe915e8bd7450
-- **B3SUM:** 41b59e459e80ebca69447b797e5af5561096cf159829055401c26175cfd12682
+- **SHA256SUM:** 3849e5e6de28d4a855253907ee9c76e8dafb085b2e16a4bbf8eed803d5f04ff9
+- **B3SUM:** f986da65731a224a0b4b1cf348a45bf43c9065cf478b2a8193953512499bb299
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-arm-static
 - **Language:** C
 - **License:** Other
@@ -14546,12 +14566,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.35 MB
-- **SHA256SUM:** ac808abcd17255acc3a03b1f511edd496ebf9328168503eae8d3fd0663a62162
-- **B3SUM:** 96e1112cd73cd8eac1473e898341a1d3d77cdee426e41461fd57d180de9bd7a3
+- **SHA256SUM:** f09ff9808eb5a64e9257df3b85384105df3829ebe69e5d988e37345444988ca7
+- **B3SUM:** 89405aaa0fd34f5283375da4655d6dac4c085e583d2b0bed62eae4c8bea12aa2
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-armeb-static
 - **Language:** C
 - **License:** Other
@@ -14566,9 +14586,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** e4b34580c8e195c54c983964de5cd2aae6f677640bfd211eb2f40d3dc1b93e2a
 - **B3SUM:** 22e4fe4c43ed241e6e2419e93555e63903a8e3d80a8498f385299ab18ddc83d5
@@ -14586,12 +14606,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 5.03 MB
-- **SHA256SUM:** 97409a38babf351419d7d3d5059d6e34b9f9e7340aaf46411561f7f236c3db11
-- **B3SUM:** 85b64b9d3e902db0a39c022bcd696542a32fb1e6f0f34b2b4346d35b135ff073
+- **SHA256SUM:** c38cc2f3d0e98c2d5cc6702c45a1d5db5c69b70017b4651597a8068f22f8a596
+- **B3SUM:** 381880f751074252d39b060064d4505ee23a674e050c54c690bc659d0f72f067
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-hexagon-static
 - **Language:** C
 - **License:** Other
@@ -14606,12 +14626,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.16 MB
-- **SHA256SUM:** ef2d720a12bb47f61221cf8a5c18b8cc8ff529d6b79de1eb6707b7bdb3fa947c
-- **B3SUM:** b460dec55aa82873c57d6afc8dd4bc22b60ace8ad4d30cb6c16f4e28d2d61ef0
+- **SHA256SUM:** 1fffac9421e83e976fdb8d3b7ccedf61f08984220630b27b26e15caf8ffef3cf
+- **B3SUM:** e2079db1b25504d1112278eca0cae7b3c8f649479ed27074352cadd975628100
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-hppa-static
 - **Language:** C
 - **License:** Other
@@ -14626,9 +14646,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.73 MB
 - **SHA256SUM:** c274487657a5ed57b47db4846d9d8b35da0272f8348c7bda7430bd3f0c94b773
 - **B3SUM:** bc812fc7f3475dd5251e8f871c6337466bf1d489820a474b464baa2219218d16
@@ -14646,12 +14666,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.67 MB
-- **SHA256SUM:** 02bbb875ddb438f11a70cc123e6cd2feb11ab5ad61d38b0b0a8b8d3222f9670c
-- **B3SUM:** abe34fc13455c9c125015afac27150b3c2d7df1d8fe231f001f69150bef8ffb4
+- **SHA256SUM:** 25f5124c6d179327d2dec8663842fd50a8408fc6c4922725123e0db5582d2c72
+- **B3SUM:** 0dc1fa7fe8b56511353ed26a630f6e98420bc6caa46c897a7a36fb564432ae2e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-loongarch64-static
 - **Language:** C
 - **License:** Other
@@ -14666,9 +14686,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.36 MB
 - **SHA256SUM:** f8d79d32566a5b1a00e0d2bef52c95096225b10f04c4e12cbb1d1de823eb0758
 - **B3SUM:** 5439f142ac1400cb4760870f98e2bdfd8f0bed522c64925fb9c5ee330245933d
@@ -14686,12 +14706,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.03 MB
-- **SHA256SUM:** 1a7790ba1f2ffc2a26ab5750cfa92e6b407dcfd7b94b1d0b49dc5f6beaad484e
-- **B3SUM:** f0a1091790b6a73611d04c5d49c44dbb4e3d9922c73409fba2ff5f8f1dccb842
+- **SHA256SUM:** dcdce6ada9360dae9e6b9dfe3acaeafc12b2e6e90f857c1c83c93fd756e7b149
+- **B3SUM:** 1b768fe8db8996d83b055db0f7e3f48ff2866a83cc4cc389bea9a29b390b2872
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-microblaze-static
 - **Language:** C
 - **License:** Other
@@ -14706,12 +14726,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.03 MB
-- **SHA256SUM:** f5df788466b2b4addfd1d34454edecba1acdf6b5516c65c320c215cf5afb0e52
-- **B3SUM:** a65478750355d0e389bbf119a7f1b00e40d05400bac083ef057d739c01a89e50
+- **SHA256SUM:** 0906caa3132fdff52836fc671ea219983b2aa5ad9e1069e98c4245a42a3d5656
+- **B3SUM:** 82bf0b165473eea8beea97a95b86e25ac616d67369c00a425157a4fb86e00e40
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-microblazeel-static
 - **Language:** C
 - **License:** Other
@@ -14726,12 +14746,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.15 MB
-- **SHA256SUM:** c4df468c6aad5350c6f10b4c44cd91c2b32b517f929b82ecae988d6b87415cd7
-- **B3SUM:** 016d0f13742f74dda35eac3a0ba308553cd7e2773b9362bf6dbbd454feb308b3
+- **SHA256SUM:** 5606afea0d28f2d8cf2080a8d51f8e461655a58f13854c7da2fed8ab7c027ed2
+- **B3SUM:** fbd0ea13a4b28fb54008b4ea8a152a0d8649fe0328fd0dd9a45dcf9bf9b8d9f6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mips-static
 - **Language:** C
 - **License:** Other
@@ -14746,12 +14766,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.17 MB
-- **SHA256SUM:** 4937ddb5b773bafe4a5a1830d443345aa7610967e67a88e749188d303eb3fb7b
-- **B3SUM:** 534a8a8b48c67d572c73e6c0aff974de53b7d8b0de8682cb5955fa1cc12145a8
+- **SHA256SUM:** 59c36ae26607831ba99144d692439f477e6627d65c60e2a772c794af1ade9826
+- **B3SUM:** 1a547ce9d51a18dfec5baec304e4fb618aafc708cf8081b573fa38ae7b156258
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mips64-static
 - **Language:** C
 - **License:** Other
@@ -14766,12 +14786,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.17 MB
-- **SHA256SUM:** 001b90fdbd1c23d6b4303ac8b1d9333b234e44bc064e893a308ac753a676324f
-- **B3SUM:** ffd477470e8707af5210f079f1f849267427e79fe63df6dfe2e2b6dde1c906a1
+- **SHA256SUM:** eaad0f434c098624bd675fa963644c54032e03011f0a7b5dd20e5a5df6cd4355
+- **B3SUM:** c9b23b994a3e2d3e74a74bb728e66dba9bc6a80147c1d9030edd7bdd485cdeb5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mips64el-static
 - **Language:** C
 - **License:** Other
@@ -14786,12 +14806,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.15 MB
-- **SHA256SUM:** 2ec74705c564dd872e909b33f6979e809a2dc0bec20a793f68c983fa00a42f6b
-- **B3SUM:** e22ab3b89c42facbf826508398e7823555ab5e1028746fe3717ace79841eb9d0
+- **SHA256SUM:** 975134e1353f3ff4033d27a77b5264cb1d3f0a222813466c4c30a7be7fcb81a0
+- **B3SUM:** fc139f5ee7eb9f92b8513facc1156c90d45778ef932d5024b11581e1aba0fc35
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mipsel-static
 - **Language:** C
 - **License:** Other
@@ -14806,12 +14826,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.17 MB
-- **SHA256SUM:** ddf72ba596ae270e4e1e8e2cbb08d30300ad1fb8467343bbdfe918d5d089bf24
-- **B3SUM:** ffafb9577fae9d8f5d8c2cc0118219209e93a8871d11a6c87ca87b86f5743878
+- **SHA256SUM:** 009a5ad22e5da5c8f2d515464bb126c1cd23e9a55d6b8083597c79599ed4a34c
+- **B3SUM:** aca4127655d90077f0830f45217b4b3586bb8affc8136bf44ab82c469a05a3ff
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mipsn32-static
 - **Language:** C
 - **License:** Other
@@ -14826,12 +14846,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.17 MB
-- **SHA256SUM:** 2bace12d180ffebf100becd65807c778246ea6b9b34e37f7b07734c6add85489
-- **B3SUM:** fb660bdc2c7b8e8c67eacb1f0f58117c9b84d8ffab27242889842e43099a74c8
+- **SHA256SUM:** 0a5222d8ec638b308affc793f4ff78ac9425b3bd71f3170eb2b3605162c62cb3
+- **B3SUM:** 4555e7bf74f008c3086536232e7509415fadd9177965107ca071af8496df183e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-mipsn32el-static
 - **Language:** C
 - **License:** Other
@@ -14846,9 +14866,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 2.96 MB
 - **SHA256SUM:** 30c490c47d935c73248c0c8a5873aafe5d78841cde0853820eb9af303a3dae91
 - **B3SUM:** 52ea01b4d9b544b53c21e47d27f22a557cdc3f1ebc6f40fa26140ba7c7edeb55
@@ -14866,12 +14886,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 2.96 MB
-- **SHA256SUM:** ad215f19cabcabc7ab80c9f8236b81dda1a863f926f1f152f3274feb6134e0f3
-- **B3SUM:** b5cdfacae5608bb98ab9c30204fa5367d7ba9dbfcd7b2f46b2622fd1e8da28d5
+- **SHA256SUM:** a83354d6778d0761ece981b432c061537bdad4ec7d24991db6309cf32d96c82e
+- **B3SUM:** 3785759ee71c68b3d37cc7b3f44ad114f2bb705e20feeaf913bb251659b5afe2
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-or1k-static
 - **Language:** C
 - **License:** Other
@@ -14886,12 +14906,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.04 MB
-- **SHA256SUM:** 6719e5221edba9aedc0072ed93b2112e9b0d9cb24bb00df77a326bc6a83ddf54
-- **B3SUM:** c99f6de22d4dcfeb1ab6ebdc628baadd47045bdd4d4742529fe8c9d8f64275e3
+- **SHA256SUM:** d26cf6db7d4b3b98958fff2ac257ae65a89209ef671407a12e6708ee8c53cce3
+- **B3SUM:** 175b97a783a4aa49f412a8f7b427884b9f50ab854125970f37da2ea4de1a4af0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-ppc-static
 - **Language:** C
 - **License:** Other
@@ -14906,12 +14926,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.11 MB
-- **SHA256SUM:** cdf04d0e1295c55d2bec43f98e8f6f908402ec759e15feb17c22d72e74bf440d
-- **B3SUM:** 0991ec0e129e08a7a7cc835aeafac359bea504a6a198d2547168d07ffe9ecf65
+- **SHA256SUM:** e24b78d63282fab7404780e7e030b04682b29a4dc58d116bdd84c7db6d35d7ae
+- **B3SUM:** 346e69e906a93db1f7071acc07b38cf5611df3fc5ce6b3f4cd764abf9710c091
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-ppc64-static
 - **Language:** C
 - **License:** Other
@@ -14926,12 +14946,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.11 MB
-- **SHA256SUM:** 8323afe340a8d514e09bf57f8b4538fe48245fd7eec79d1ffbfebabf69330c34
-- **B3SUM:** 3fd315bf73bf61e9c58c0e3a003fd5f3c220a6bf3fa1d9c8f30a2325a5966845
+- **SHA256SUM:** 1eedf0b2686fd97eae472a19d032fff4b3a8347591fd711b8fdeddd84920f0d3
+- **B3SUM:** 4f918e8ed4511e34bdd9ff242a11fcecff209ed79b9ad36309626f9b08157fce
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-ppc64le-static
 - **Language:** C
 - **License:** Other
@@ -14946,12 +14966,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.45 MB
-- **SHA256SUM:** 4080056333f32699b1d8cecd1d359e9d000d86f41d09b3622b9982c930699098
-- **B3SUM:** 84fd5396fb6c1b8dc8361cf8ce152d69d331505f03526e8234fc9ade8fbac80e
+- **SHA256SUM:** 1d1e874446efe2759b8799554b8ee0233e88a989f53856e074e8ae3577ac5d61
+- **B3SUM:** f85cd41bdf99acef32ababc5f09e3694cf3bf0edc9a8e55f6f29d6234e76125a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-riscv32-static
 - **Language:** C
 - **License:** Other
@@ -14966,12 +14986,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 4.52 MB
-- **SHA256SUM:** 75966413ac44483679cb4b89fd1f03260dc8d16257956d1bf76827c4c3347cdb
-- **B3SUM:** 593b401844515543726a5a7aa29fa4d4420d8566cc30a552d8de93008d241f34
+- **SHA256SUM:** 46da25e42c650259bbedb629ff3eaee1cac39d2bc7935e0e83ddad0880fc74c7
+- **B3SUM:** 7386183f8e2e9932e0a09eaf496880f1f5f1e03262e7a44ac326bb2f0cdfdff3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-riscv64-static
 - **Language:** C
 - **License:** Other
@@ -14986,9 +15006,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.53 MB
 - **SHA256SUM:** 557ddab9b81077ca2877839c31219c09dc5c2a3f626092d93053b1e59abbe005
 - **B3SUM:** a5fbf56084952fed4fe832fa3ebca7237953226ce706f97217f32e0973222001
@@ -15006,9 +15026,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** 5e042248925618600f996de4fe3a9ccf2bca88de238a5937abd69d85e82bdeda
 - **B3SUM:** 80d431ec4145fa5feed531392013bc1fa9be0eba10a42cd59aef27777efd42c7
@@ -15026,9 +15046,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.03 MB
 - **SHA256SUM:** 6d251e77cb3f0bc2dfc6e09a04e3e5a3b5369c6241dcf14b414dbd5525d3cfc0
 - **B3SUM:** cdf656be83d88a51b9e5d447cea49d2151055df4c06b8fa15243da1fd38a9c31
@@ -15046,12 +15066,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.29 MB
-- **SHA256SUM:** 87764a6f30247f5167c9198b295e2e226f5db467896296b971469554f0d69b08
-- **B3SUM:** 271d7acd0835e7222e19b206ab51eafc55ea3508b6848ac820b96ec5f202578e
+- **SHA256SUM:** 1d17612dadf58fd369e5704a8af5f22fc39813fc0c3120065dca9c5ff6f17301
+- **B3SUM:** ae829fa356210e3775450c56cbb1c6a2c0d2724940c790c52576fb085fa34fa8
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sparc-static
 - **Language:** C
 - **License:** Other
@@ -15066,12 +15086,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.43 MB
-- **SHA256SUM:** 1fb906697796ab681e82db9c93851e123253711a35accbbd33bb8c8c0abfb481
-- **B3SUM:** 763726ff47cc88a14629035d5f0ae384f23d8f72f1aba1c566046686c4b76053
+- **SHA256SUM:** 0c32ba4d6aeeff0824749e074bd034f1a31a62bf16816514656dc94b9abf6142
+- **B3SUM:** 2734dfe09c6a0dbadb76b05c75d2127eb2930eb28fd5a12ccfb47c75766caf11
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sparc32plus-static
 - **Language:** C
 - **License:** Other
@@ -15086,12 +15106,12 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.37 MB
-- **SHA256SUM:** c03c4720d2c82c6d3cd881aa61fad7d6ab087daca213c70d5e5f7b22512fdbaf
-- **B3SUM:** 730ff1a7e4c6bed8e75aee45ae1ab1ce3537df7021397cefaae7b07aef121954
+- **SHA256SUM:** 56709c4040fde205c80a05da1bfd6f7984b614398197bf822eac3677d4df1de8
+- **B3SUM:** 74208fe1b04c6c6a2949048926d78feeb6d96ab52486f3a76aa860f722eb08ff
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qemu-sparc64-static
 - **Language:** C
 - **License:** Other
@@ -15106,9 +15126,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 3.73 MB
 - **SHA256SUM:** 299570d01290dfadd53fb574d87dc62d1d1dd987ae69de9cc913ebbbe608fc65
 - **B3SUM:** 8020bee0dd14a0add073976714a944de9a81a4e14b401250117fd8a9b4eb2345
@@ -15126,9 +15146,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 7.4 MB
 - **SHA256SUM:** a2c8b12d9847d8dba68269d5334bf485fb2638d72fbaad87ba5bc6a26f168161
 - **B3SUM:** 60095b57ce2e8710e8c0d763ecf34efb230e461b22679f21ce645eca8a540ca4
@@ -15146,9 +15166,9 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10328
+- **Stars:** 10331
 - **Version:** v9.1.1
-- **Updated:** 2024-10-29T14:01:05Z
+- **Updated:** 2024-10-29T17:11:24Z
 - **Size:** 7.29 MB
 - **SHA256SUM:** 2859bce1cf8873ed216ddcd381b73597e219d39cb33722dc18ec49ed0828d587
 - **B3SUM:** cec0bda19f547825a00c300f5870c3e73f52ab9240876acf31b31a73a94ba020
@@ -15170,8 +15190,8 @@
 - **Version:** v0.0.3
 - **Updated:** 2022-11-23T15:42:28Z
 - **Size:** 1.62 MB
-- **SHA256SUM:** 1ebdbf96e42a599e728cf6ec206e9bcfa28790863d8d2c51d010219b7d884e3e
-- **B3SUM:** b34c2954c656da112bfbab6307ea275e7fe04db5ed9ae54ed54aafe7fc1e2e1b
+- **SHA256SUM:** 55f4dc681f4a5d28c33666fbddc261b5759e9833c4a5d30b21373752b2635378
+- **B3SUM:** b993df32fd9240e37180b9d68a52ddd89c998d513a45156572ef9c8205a1a220
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qsreplace
 - **Language:** Go
 - **License:** MIT License
@@ -15186,12 +15206,12 @@
 - **Author:** jqnatividad
 - **WebURL:** [https://github.com/jqnatividad/qsv](https://github.com/jqnatividad/qsv)
 - **Repository:** [https://github.com/jqnatividad/qsv](https://github.com/jqnatividad/qsv)
-- **Stars:** 2479
+- **Stars:** 2481
 - **Version:** 0.137.0
-- **Updated:** 2024-10-29T08:57:19Z
-- **Size:** 13.54 MB
-- **SHA256SUM:** d2d7ab999f4ca1af041ac1f5c387c92c5f233711c52a906f2ae118413c11f4df
-- **B3SUM:** e730282b9d9bb2739f1bd8f5ea44ed77bf04a0c23fe6b699166e171329e4b08e
+- **Updated:** 2024-10-29T22:19:26Z
+- **Size:** 13.64 MB
+- **SHA256SUM:** 64c77b6984f5914ad4b2f346b3c9f31b3048924e2dd89a9e41b6ed93362c59ea
+- **B3SUM:** 4dd4446c88c78ab875b8adf4e06b3f2eb24c3974f87e3b55bd470755717c7260
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/qsv
 - **Language:** Rust
 - **License:** The Unlicense
@@ -15210,8 +15230,8 @@
 - **Version:** v0.0.2
 - **Updated:** 2023-11-09T18:50:23Z
 - **Size:** 7.97 MB
-- **SHA256SUM:** 1b2aecec60324b905128f0d40ca30ca21b7df35e68e73b425b6cbb5a8780020e
-- **B3SUM:** ebfe36bca7e6563cdc1097e2da48a03a205ef6747946854b9b346a23de71f7b3
+- **SHA256SUM:** 1b781b024c2de0bb872ea23aa10adddbc0a1ea8bf371fb7c52f24a98fea212c2
+- **B3SUM:** 600cfa2d0c27f0be00caf8b8786c9eb16aff536271597432da916134a114f883
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/quickcert
 - **Language:** Go
 - **License:** 
@@ -15230,8 +15250,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 1.62 MB
-- **SHA256SUM:** ceffc894265e5b8f546a5b1fe20a0f6da8ff774c6eaf26987beed79272048038
-- **B3SUM:** 4affec3c7a51d4c8b5c51f881b000e84616e0218c4fcf54159c94f62f50527fb
+- **SHA256SUM:** c4ad3348c66d1e5db25a633ffa38d43dc3c1f5248ae54d3a20e89d6fec9f867e
+- **B3SUM:** c13235252b7f3a2fab491e55b6a6693aa2c938f0d9428770e15b0a9a892553fe
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/quotes-escaper
 - **Language:** Shell
 - **License:** The Unlicense
@@ -15246,12 +15266,12 @@
 - **Author:** str4d
 - **WebURL:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
 - **Repository:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
-- **Stars:** 2604
+- **Stars:** 2605
 - **Version:** v0.10.0
 - **Updated:** 2024-10-20T04:26:24Z
 - **Size:** 3.18 MB
-- **SHA256SUM:** 436f0ea34751e4e11b4bf97d5bb7ec919a18c64665711b6a17d63d8f698da249
-- **B3SUM:** a50d1e26be4361985fb3f4e7a59ad3f1f19d479ad3906299227ee5dadf38499d
+- **SHA256SUM:** 7bf896311c4ab59d2cfac3a8ba31bf2d1f25246ba669d85fb325b79f36449cef
+- **B3SUM:** 0a63b1568e9ce0d10ebe3b613a3197361e9b4980b090911f87053470e0228187
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rage
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -15266,12 +15286,12 @@
 - **Author:** str4d
 - **WebURL:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
 - **Repository:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
-- **Stars:** 2604
+- **Stars:** 2605
 - **Version:** v0.10.0
 - **Updated:** 2024-10-20T04:26:24Z
 - **Size:** 2.52 MB
-- **SHA256SUM:** f7470a69c167770c630d441421faa4cc7adcd3a2bdc6438943ec9dee2d168133
-- **B3SUM:** daa0c4a7b982143e69ba2fd46733262aefe131d46b356c6d1af6a5b03bacc902
+- **SHA256SUM:** 033410bbc4b87c9f6676ed04ba465580547d17a79db9080a3e3d750c55a42d3e
+- **B3SUM:** 8741e54324e81d378629dc0edb739ac3036420f51768eac09b575860da9b95c0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rage-keygen
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -15290,8 +15310,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 4.99 MB
-- **SHA256SUM:** f37ca8ee690841357d63eed7bdf3597c0c90c9b2cfcec596a1380c03e878087d
-- **B3SUM:** ebb0c3be33cc8f8d0cb837788f603b726e8ee2ea07b251ebaf36437f2d4f5a19
+- **SHA256SUM:** ae670fdf622d99035fcee36dbb0eb63537489aad038f5dc940b94355bce06360
+- **B3SUM:** 602e89cf0d78803a58756c9a5905b2282d22d6d7ce73e18ec9858209ec0e084a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rate-limit-checker
 - **Language:** Shell
 - **License:** The Unlicense
@@ -15326,7 +15346,7 @@
 - **Author:** rapiz1
 - **WebURL:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
 - **Repository:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
-- **Stars:** 9582
+- **Stars:** 9583
 - **Version:** v0.5.0
 - **Updated:** 2024-07-06T20:09:48Z
 - **Size:** 1.03 MB
@@ -15347,11 +15367,11 @@
 - **WebURL:** [https://github.com/prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)
 - **Repository:** [https://github.com/prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)
 - **Stars:** 210
-- **Version:** v0.28.1
-- **Updated:** 2024-10-28T06:38:32Z
-- **Size:** 22.92 MB
-- **SHA256SUM:** 477b9f18a5b7b73aea0baacb0f4e7a3f0e7ee206d40e6f08f3f16a37f98c7b85
-- **B3SUM:** 9e46087a2432815fff44388ad77ede1e7652488bdc138720629dde08d1660e3a
+- **Version:** v0.28.2
+- **Updated:** 2024-10-29T18:25:41Z
+- **Size:** 22.91 MB
+- **SHA256SUM:** a296edc3b564a715c914fb1254361c6e6c383066c196d8cb155664e511574244
+- **B3SUM:** 9cd4f67f98159b4ac991cae0f36510c08cef2356a315594fa93195d8220955fc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rattler-build
 - **Language:** Rust
 - **License:** BSD 3-Clause New or Revised License
@@ -15366,7 +15386,7 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 46923
+- **Stars:** 46934
 - **Version:** v1.68.1
 - **Updated:** 2024-10-29T08:26:37Z
 - **Size:** 58.07 MB
@@ -15450,8 +15470,8 @@
 - **Version:** v0.1.0
 - **Updated:** 2024-10-28T02:13:51Z
 - **Size:** 52.86 MB
-- **SHA256SUM:** 3eee7ef049a16c22e43482ac4d208ce091923ff127b84f85bcf36e8948649a76
-- **B3SUM:** ffd947804a90c24b6cb9c17439a9491d1661bfea98396fc28c35f241cdc42307
+- **SHA256SUM:** c890b9bc5710ebbd5be3a40d0f3846c1993372da64bb81171c9241f63e9b6e82
+- **B3SUM:** 9ea2eca554e2815ba4f4be9a21e8c8a1906f404901a36bc1804c906afe38f718
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tavern
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -15490,8 +15510,8 @@
 - **Version:** v0.20.0
 - **Updated:** 2024-09-20T17:24:51Z
 - **Size:** 9.93 MB
-- **SHA256SUM:** e13860f7ea976fb9e8ba900ada43153da449a3a5664b7f2a520e28a2ae2fa59e
-- **B3SUM:** 0fb54d4af61fcdca0e3ce5efa607a257af37356e8f71a467fce70f22acc2548f
+- **SHA256SUM:** 3c15783485833c577ddf3cc934d7cae6c4d9a1418ec0c0ab4f9d529e783396fd
+- **B3SUM:** 51d1aacb1a01cc926983b1a4ff9f18a67f96cfef2530b5d1c599ae4b3727f543
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rebuilderd-worker
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -15510,8 +15530,8 @@
 - **Version:** v0.2
 - **Updated:** 2024-01-09T20:28:27Z
 - **Size:** 8.13 MB
-- **SHA256SUM:** 6bde4de911f33f09a3d39a81a4f408fcf1e1589a0e5d4e62557505a88d170dec
-- **B3SUM:** 3af48f2bb50e80803b4d8a238af75f61116f175a548ed92f6b65b02ecfb2f0cf
+- **SHA256SUM:** 0b07d1daecf6b56265b8fee2a4b099b7bfa92897919fbd3bcf5a95f136397f22
+- **B3SUM:** bbe1dc7bb37bb1762a60ed8792e751cab5fc62c9decd815e643514353619b025
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/recollapse_staticx
 - **Language:** Python
 - **License:** MIT License
@@ -15530,8 +15550,8 @@
 - **Version:** 24.06.18
 - **Updated:** 2024-08-20T17:43:35Z
 - **Size:** 9.81 MB
-- **SHA256SUM:** 080db542e84e38fb86b0383ca7e37c315d13bf83797d6649fcbc6cc592e1a60a
-- **B3SUM:** 525c451b7eac343d38d698bbafaba968c7a2882b2b7d68ecb92e9d4f88784ca5
+- **SHA256SUM:** b1abea4940677dc217091ca123e3f05c5ee5e694764adce6a5e92ad62f5e8cf7
+- **B3SUM:** 071e5fe7a808114b395070c51af52b5ee96b127cc89aafb065348bb24aee6a8f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/redguard
 - **Language:** Go
 - **License:** GNU General Public License v2.0
@@ -15566,7 +15586,7 @@
 - **Author:** lmc999
 - **WebURL:** [https://github.com/lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)
 - **Repository:** [https://github.com/lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)
-- **Stars:** 4043
+- **Stars:** 4045
 - **Version:** v1.0
 - **Updated:** 2024-10-13T15:25:50Z
 - **Size:** 292.77 KB
@@ -15586,7 +15606,7 @@
 - **Author:** sigstore
 - **WebURL:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
 - **Repository:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
-- **Stars:** 892
+- **Stars:** 893
 - **Version:** v1.3.6
 - **Updated:** 2024-10-28T12:08:53Z
 - **Size:** 18.74 MB
@@ -15606,7 +15626,7 @@
 - **Author:** sigstore
 - **WebURL:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
 - **Repository:** [https://github.com/sigstore/rekor](https://github.com/sigstore/rekor)
-- **Stars:** 892
+- **Stars:** 893
 - **Version:** v1.3.6
 - **Updated:** 2024-10-28T12:08:53Z
 - **Size:** 47.11 MB
@@ -15627,11 +15647,11 @@
 - **WebURL:** [https://github.com/sassoftware/relic](https://github.com/sassoftware/relic)
 - **Repository:** [https://github.com/sassoftware/relic](https://github.com/sassoftware/relic)
 - **Stars:** 153
-- **Version:** v8.0.1
-- **Updated:** 2024-06-27T22:41:53Z
+- **Version:** v8.1.0
+- **Updated:** 2024-10-29T21:46:36Z
 - **Size:** 27.45 MB
-- **SHA256SUM:** d3426761a129e65ca2af4d343cb92f63eece73d148498042285e807221aa7211
-- **B3SUM:** facf449d6606e4219a90462f1585bb127053566e7f9426992b6faea9058b4459
+- **SHA256SUM:** fd3785965f0fc1de30628d3a797dadf16698809beee19d80f9fa470638e2a8d8
+- **B3SUM:** 2713268b195402c9f2e8d1358d3a37283973be5a6851e29a6e0e13ed6210a008
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/relic
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -15646,7 +15666,7 @@
 - **Author:** nelhage
 - **WebURL:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
 - **Repository:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
-- **Stars:** 5813
+- **Stars:** 5815
 - **Version:** reptyr-0.10.0
 - **Updated:** 2023-09-05T01:53:44Z
 - **Size:** 213.8 KB
@@ -15706,12 +15726,12 @@
 - **Author:** restic
 - **WebURL:** [https://github.com/restic/restic](https://github.com/restic/restic)
 - **Repository:** [https://github.com/restic/restic](https://github.com/restic/restic)
-- **Stars:** 26346
+- **Stars:** 26357
 - **Version:** v0.17.2
 - **Updated:** 2024-10-27T19:18:19Z
 - **Size:** 25.32 MB
-- **SHA256SUM:** dd18c922b8adf2e5e45742de83c0c7992fa6743579284867ac3dda772eb76815
-- **B3SUM:** 31284e025f0077c8f404a2429aeab44c442e7a2fee79c162aba649f673d79207
+- **SHA256SUM:** 98f7a746fe40e5328eb98dbe964a53d670daee3d3ada21a59774bc147e116d02
+- **B3SUM:** be26f05347b04cc8353a7e55a59ac9407dc0e9a7737227265f526a21b2cd0ca1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/restic
 - **Language:** Go
 - **License:** BSD 2-Clause Simplified License
@@ -15730,8 +15750,8 @@
 - **Version:** v0.1.6
 - **Updated:** 2024-07-19T06:20:07Z
 - **Size:** 10.21 MB
-- **SHA256SUM:** 5048c7e7f2834a7abbe369c4af1955a5c58af72d61224a4cc301222993c0a4bc
-- **B3SUM:** 690f96425fca2f9eb722d3fcdc8b3ae76ca3a7840a30c5c78ef79135a299bd59
+- **SHA256SUM:** cb15d42514c7aeb54e6139e3c42d99da56f8b258b78c6d131459c75f4974dabf
+- **B3SUM:** f474a8d189073d90240afbbf71f46c77428ab0de67b1416afb9fc99a93be4f86
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/resto
 - **Language:** Go
 - **License:** MIT License
@@ -15746,9 +15766,9 @@
 - **Author:** reviewdog
 - **WebURL:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
 - **Repository:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
-- **Stars:** 7908
+- **Stars:** 7912
 - **Version:** v0.20.2
-- **Updated:** 2024-10-25T18:54:49Z
+- **Updated:** 2024-10-29T21:31:56Z
 - **Size:** 14.12 MB
 - **SHA256SUM:** b08baa6992dc39c70b9ad6c249910017e3be515c36e7a78da6fa0f3f75ecccb1
 - **B3SUM:** 98c45671daea674e01a3ecbfcae482b4d63dc6a53777e45c7f01d81d02a10e1b
@@ -15770,8 +15790,8 @@
 - **Version:** v0.0.1
 - **Updated:** 2023-08-10T12:45:45Z
 - **Size:** 2.22 MB
-- **SHA256SUM:** 3a60fe33f0123b3347f4e70ac64091b4f787b547706cb9389017f845445a16fc
-- **B3SUM:** eb31deffacb5cc18467c65678ee81642bb5b576fe3e6c8ada21dad620145f824
+- **SHA256SUM:** 758c4ec3f0c0d2f5341859d0fcbedf07e28fd7120d8fcd08a1ae8e789127e994
+- **B3SUM:** 08c92e5c2c6cb506e70b91f2c6d9ce4b0bc81aa52a2f5f3607e5225744bfde73
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/revit
 - **Language:** Go
 - **License:** MIT License
@@ -15810,8 +15830,8 @@
 - **Version:** 
 - **Updated:** 2023-12-02T22:57:22Z
 - **Size:** 3.34 MB
-- **SHA256SUM:** 17626deeb8a7334e7a44ac4859217c297793c5954a2249100fe1939c8590730a
-- **B3SUM:** 38f361fe07378551968059c374d400ff29f9ad6ead2619615b0a384f3ab23687
+- **SHA256SUM:** bad305b8acef3472395e92f016a607423b6182e02594d265efc5a6f88a6733c7
+- **B3SUM:** f1559fa94aab1d0fac3b54777ae4dec300f30b911f83eb382bb4bf85e0eacf07
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ripgen
 - **Language:** Rust
 - **License:** 
@@ -15826,12 +15846,12 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 48430
+- **Stars:** 48446
 - **Version:** 14.1.1
 - **Updated:** 2024-09-30T11:38:42Z
 - **Size:** 4.11 MB
-- **SHA256SUM:** 2c7889ebe6c242494395787a5f81a725c43da6991ff96559558c324029a5fd84
-- **B3SUM:** d34b90455cccbd3b684d35be8d959e738912427c3fabcce9b1479ed925afc4ce
+- **SHA256SUM:** 33fc0125c85e60885a528a8e024c056b0ea4b7675d6be1048ba4d9f92edda04f
+- **B3SUM:** 547fc5402900361a80c81bd8ecd7e46d60fec4bc415f9e7968686ab687d1396b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rg
 - **Language:** Rust
 - **License:** The Unlicense
@@ -15846,12 +15866,12 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 48430
+- **Stars:** 48446
 - **Version:** 14.1.1
 - **Updated:** 2024-09-30T11:38:42Z
 - **Size:** 4.11 MB
-- **SHA256SUM:** 2c7889ebe6c242494395787a5f81a725c43da6991ff96559558c324029a5fd84
-- **B3SUM:** d34b90455cccbd3b684d35be8d959e738912427c3fabcce9b1479ed925afc4ce
+- **SHA256SUM:** 33fc0125c85e60885a528a8e024c056b0ea4b7675d6be1048ba4d9f92edda04f
+- **B3SUM:** 547fc5402900361a80c81bd8ecd7e46d60fec4bc415f9e7968686ab687d1396b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ripgrep
 - **Language:** Rust
 - **License:** The Unlicense
@@ -15890,8 +15910,8 @@
 - **Version:** 
 - **Updated:** 2022-03-02T13:11:21Z
 - **Size:** 5.51 MB
-- **SHA256SUM:** 1869f9b7f18aab35efa301693597b8bae066f62aa0598cc3070f57f883ea2b47
-- **B3SUM:** 7d44ada7a122b9ef7ed43e0f2246ea5e2596ee71ea7471c19b8f14c60dbd7f95
+- **SHA256SUM:** fd6565b5f97e5791854fed020fe5b6d7a1bfd67923e1176bc68ceccbfa25b614
+- **B3SUM:** eefda62bc9ccd7f39802337714ee2ce03aa1b1253baaae809db997cb1eb0f4c2
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/roboxtractor
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -15910,8 +15930,8 @@
 - **Version:** 
 - **Updated:** 2024-06-03T17:22:37Z
 - **Size:** 57.82 MB
-- **SHA256SUM:** 495a455fcfd1b836a7c6e6911fb1c7621d3e31fbe2defe5db0f1465566d0998d
-- **B3SUM:** 6a0446ea374c69f40430af45f0f3da83bb842018b375f2dfb988efd32e151b9b
+- **SHA256SUM:** fb12e4a01f5a9f6bc2699ecf186c2d5b53fbb5392609c415face7fc52167a252
+- **B3SUM:** 2930b62b4207c170e63a52b392fbf2f5601542c6ff602d56de39da7b90758c25
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rockylinux-minimal.no_strip
 - **Language:** Shell
 - **License:** 
@@ -15930,8 +15950,8 @@
 - **Version:** 
 - **Updated:** 2024-06-03T17:22:37Z
 - **Size:** 73.42 MB
-- **SHA256SUM:** 53ad8a05baa9cbf6ca6de960bc9edabaa1d353125c04880930d7a4cd8d8136b6
-- **B3SUM:** 5632f591f989e4de080dfc686b6a27d0b48eb80e4564701dc9b8e0ba6549c680
+- **SHA256SUM:** dd887033254ecfea2a05e7a6e2d75c8a5024e3b5afd1e6eae7248dedf3526965
+- **B3SUM:** 26c5a0f9bf4001ac366943bea557a40d8354b20529741d6a7778a88053d3bb82
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rockylinux.no_strip
 - **Language:** Shell
 - **License:** 
@@ -16030,8 +16050,8 @@
 - **Version:** v0.5.1
 - **Updated:** 2024-10-09T09:22:32Z
 - **Size:** 1.66 MB
-- **SHA256SUM:** d05fc79ef9a531a4121f8fa9b0af03c734806c39b768c6f562703044c51eeae0
-- **B3SUM:** f89869a89b618722afc89630cac1c6176abc6465e37f871fac8373f9643abf6c
+- **SHA256SUM:** d31136fdab104f5156d9582e5360aaf34934bd1dd88b5eafb265cd3c1318bfca
+- **B3SUM:** 202d9ae534bf91845b39c5318801b548e7a393c69180bb05a0a9da41d6987981
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rshijack
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -16086,12 +16106,12 @@
 - **Author:** astral-sh
 - **WebURL:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
 - **Repository:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
-- **Stars:** 32279
+- **Stars:** 32304
 - **Version:** 0.7.1
-- **Updated:** 2024-10-29T11:12:09Z
-- **Size:** 21.33 MB
-- **SHA256SUM:** fcac5170a790739200b27f5000e3efe8d684f1fc02f8e07d39718bc5d3aa0141
-- **B3SUM:** a368799c7827c94f3ef8815b37bbfe83bd9fdd621bfb90270afacd0af6908749
+- **Updated:** 2024-10-29T22:31:59Z
+- **Size:** 21.58 MB
+- **SHA256SUM:** 0df30db9d3d9f0cf2b6e694731f066342a70cd2609ef256a5a3f793eb2e4c74b
+- **B3SUM:** 377ebd71083da27d75270a3d8687dcf15992cdbd85933be8c8168538e9922320
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ruff
 - **Language:** Rust
 - **License:** MIT License
@@ -16106,9 +16126,9 @@
 - **Author:** opencontainers
 - **WebURL:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
 - **Repository:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
-- **Stars:** 11856
+- **Stars:** 11860
 - **Version:** v1.2.0
-- **Updated:** 2024-10-29T07:14:48Z
+- **Updated:** 2024-10-30T01:45:36Z
 - **Size:** 10.71 MB
 - **SHA256SUM:** 3d4f66dc1d91f1b2a46713d185a506a604f1fe9f2f2b89c281eb1c5c13677ff0
 - **B3SUM:** 3393a4d3563a17d99982c42ccca4d7779245aef1a90bed4f906fcc0fd778d86f
@@ -16129,9 +16149,9 @@
 - **Stars:** 2
 - **Version:** v0.0.6
 - **Updated:** 2024-10-27T01:35:17Z
-- **Size:** 158.66 KB
-- **SHA256SUM:** 114570ca713cb1379cf1148accca116cab7bf308bf9fcae5e33956ec74855d9a
-- **B3SUM:** 9decacea67257efdb7d80e66b6c36d853d1374441f1aea5f2ee854c99af2090d
+- **Size:** 158.63 KB
+- **SHA256SUM:** e976f71e3b43077907252087d2077a46cb104ce907c72c39a2f0b2d0748c7cd0
+- **B3SUM:** 2e08fca047a7c2aa3a1c0decc9127485eb0a94aa3bdd9b582172dad8d1d31edf
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/runimage-run
 - **Language:** Shell
 - **License:** MIT License
@@ -16150,8 +16170,8 @@
 - **Version:** v2.0.0
 - **Updated:** 2024-09-23T16:11:25Z
 - **Size:** 2.01 MB
-- **SHA256SUM:** bd90f412a775baa3d8c16428ef3f0dda3e6815db00ebcc8a1e61b579b4a92e68
-- **B3SUM:** 9d9f6850d33e366da2c7348819d222226ab8e9e6ae876f97e73d7cecdd220a04
+- **SHA256SUM:** 6bcb7eb011575da8279c600d97c8536e9db879846a97245eaa2e77651f0e26f6
+- **B3SUM:** 5b62e7ace2e5541fadc5fd0d35fbae58527e139e82da48a21548dca5183ba2c1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/runiq
 - **Language:** Rust
 - **License:** MIT License
@@ -16166,12 +16186,12 @@
 - **Author:** stateful
 - **WebURL:** [https://github.com/stateful/runme](https://github.com/stateful/runme)
 - **Repository:** [https://github.com/stateful/runme](https://github.com/stateful/runme)
-- **Stars:** 1161
+- **Stars:** 1162
 - **Version:** v3.9.2
-- **Updated:** 2024-10-28T19:36:33Z
-- **Size:** 28.74 MB
-- **SHA256SUM:** 9c67532f6b4cc49cde994df3a46e891aef3c40b18ac2aa8bdcaae999193d6861
-- **B3SUM:** d505ff6be3f1f5d4dfb52c57c82f474f471085943e6c59192df219760d9d4dd1
+- **Updated:** 2024-10-29T19:31:00Z
+- **Size:** 29.21 MB
+- **SHA256SUM:** 3c5b03ebc7be64fce3b1bafbd140d3979ddd28b39a6fd12435d6f59e442709e0
+- **B3SUM:** 569df96969adfd560b7ce9a255f50c2cf119b685528e307c7c3175513ce33d35
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/runme
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -16206,7 +16226,7 @@
 - **Author:** shenwei356
 - **WebURL:** [https://github.com/shenwei356/rush](https://github.com/shenwei356/rush)
 - **Repository:** [https://github.com/shenwei356/rush](https://github.com/shenwei356/rush)
-- **Stars:** 874
+- **Stars:** 875
 - **Version:** v0.5.6
 - **Updated:** 2024-09-14T21:16:50Z
 - **Size:** 7.67 MB
@@ -16229,9 +16249,9 @@
 - **Stars:** 592
 - **Version:** 0.4.2
 - **Updated:** 2024-10-28T02:31:04Z
-- **Size:** 183.69 KB
-- **SHA256SUM:** 40351a5f2e98f849561447370b1621da9cca7ebe6cee1cc75e8c4f76bbd51999
-- **B3SUM:** ed9b087a60f05fec3095c1589e3c740cb2fc08e14c0a89d42d6a437fb065a3ad
+- **Size:** 183.68 KB
+- **SHA256SUM:** 6192c7429555374e8e0fbc6f5c9e4ff983d4112ec6843a8c17b402269297fec2
+- **B3SUM:** baf31c6c5e1b956831fd80a6957d861aa72edeb09cc072e2003defae445a875c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/hypervisor-fw
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16249,9 +16269,9 @@
 - **Stars:** 592
 - **Version:** 0.4.2
 - **Updated:** 2024-10-28T02:31:04Z
-- **Size:** 183.69 KB
-- **SHA256SUM:** 40351a5f2e98f849561447370b1621da9cca7ebe6cee1cc75e8c4f76bbd51999
-- **B3SUM:** ed9b087a60f05fec3095c1589e3c740cb2fc08e14c0a89d42d6a437fb065a3ad
+- **Size:** 183.68 KB
+- **SHA256SUM:** 6192c7429555374e8e0fbc6f5c9e4ff983d4112ec6843a8c17b402269297fec2
+- **B3SUM:** baf31c6c5e1b956831fd80a6957d861aa72edeb09cc072e2003defae445a875c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rust-hypervisor-firmware
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16326,12 +16346,12 @@
 - **Author:** RustScan
 - **WebURL:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
 - **Repository:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
-- **Stars:** 14556
+- **Stars:** 14566
 - **Version:** 2.3.0
 - **Updated:** 2024-10-26T10:52:08Z
 - **Size:** 5.11 MB
-- **SHA256SUM:** e7bf9c98b15dcbd78b2162b0e863b029469507b18cb6c50b6f64972ce5ef1687
-- **B3SUM:** ef25ff046bc6fa5c8c0507ea69de4145c9cc59c9152c779bc0f6f10cd4f03983
+- **SHA256SUM:** 78a07f7cacf8c6397afc57fe6e15b78364d639779db2953da0a55c9ec7d2da13
+- **B3SUM:** e17a314b687925a767107dba5905992efc871a47a2731f9661d0b5b09686be90
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rustcan
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -16369,9 +16389,9 @@
 - **Stars:** 789
 - **Version:** v0.15.1
 - **Updated:** 2024-10-29T12:25:38Z
-- **Size:** 9.02 MB
-- **SHA256SUM:** dfe0360633d4383569efcac7713beac917171bdf3c6425f3ccaa292adc77765f
-- **B3SUM:** bdc932e1d4a0fbb50066559e1a8207c810048a56f2fcfe5a738158bbc4187d8a
+- **Size:** 9.13 MB
+- **SHA256SUM:** be6df92389d32cd51bdeac6d54d78bb1f1b53406a867144235112fa3746df2c1
+- **B3SUM:** 861f7f14733512aae08dd4361aa459d13046fe577ebad132844fcafda7448d17
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/rustypaste
 - **Language:** Rust
 - **License:** MIT License
@@ -16386,7 +16406,7 @@
 - **Author:** astral-sh
 - **WebURL:** [https://rye.astral.sh](https://rye.astral.sh)
 - **Repository:** [https://github.com/astral-sh/rye](https://github.com/astral-sh/rye)
-- **Stars:** 13782
+- **Stars:** 13783
 - **Version:** 0.42.0
 - **Updated:** 2024-10-29T00:25:04Z
 - **Size:** 16.37 MB
@@ -16410,8 +16430,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 13.79 MB
-- **SHA256SUM:** 6068074dc3821c4ad9f5bc749a7052221e3f8b523ad5331806411f8e35aed07c
-- **B3SUM:** 292f892d366580230bb4b393e83bef9cebcdeceeac4b447354a811c9c92bfa3b
+- **SHA256SUM:** 94337a77d95d5c7bd4fbc4f7c03e7d3bc78ddfeda0ad86737387205e7fd6c391
+- **B3SUM:** 1328233d523096f3563b48f9d927244d607381bd6fe0c2341d597e54f9052142
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ryelang
 - **Language:** 
 - **License:** 
@@ -16426,7 +16446,7 @@
 - **Author:** sa7mon
 - **WebURL:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
 - **Repository:** [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)
-- **Stars:** 2551
+- **Stars:** 2555
 - **Version:** v3.1.1
 - **Updated:** 2024-10-28T13:59:00Z
 - **Size:** 14.58 MB
@@ -16466,7 +16486,7 @@
 - **Author:** peak
 - **WebURL:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
 - **Repository:** [https://github.com/peak/s5cmd](https://github.com/peak/s5cmd)
-- **Stars:** 2643
+- **Stars:** 2644
 - **Version:** v2.2.2
 - **Updated:** 2024-10-24T11:27:36Z
 - **Size:** 14.82 MB
@@ -16506,7 +16526,7 @@
 - **Author:** Foxboron
 - **WebURL:** [https://github.com/Foxboron/sbctl](https://github.com/Foxboron/sbctl)
 - **Repository:** [https://github.com/Foxboron/sbctl](https://github.com/Foxboron/sbctl)
-- **Stars:** 1481
+- **Stars:** 1482
 - **Version:** 0.16
 - **Updated:** 2024-10-28T21:45:08Z
 - **Size:** 7.98 MB
@@ -16530,8 +16550,8 @@
 - **Version:** v1.3.0
 - **Updated:** 2024-10-28T20:21:01Z
 - **Size:** 10.61 MB
-- **SHA256SUM:** b540b8380adaa5e0a12ae57bb4cb5c8073cd53c269db085f900c01766f10928d
-- **B3SUM:** 11a4a5d77e72f51a7d2029a2fbf95745429680d6299d60b1129b352cf7ceed3e
+- **SHA256SUM:** 1eaace577fd9797d131a9d37f73030081770513516e26bc3fc0b1297defc7e17
+- **B3SUM:** 4b75825117e3197a29eac24872fafdb2f01d012f1eb0de01ecb8e737c9f9058e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/scilla
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -16550,8 +16570,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 1.62 MB
-- **SHA256SUM:** 7b6026be4f4ab85f8f867536503bada1a66886ee7ae7cd2c784904efe3c343ea
-- **B3SUM:** b06b31a04c36c438cbf5037270ea3d566da75d7bc2ffa373e157ef724a323527
+- **SHA256SUM:** dabd371f68ae3f31abbd47ec87d7caba19546e98443b8d584c53bf264455b42b
+- **B3SUM:** 62fcf60c852e2a9725c533f95db2af14bc6feae5f1858d482a64ad13287f5947
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/scopegen
 - **Language:** Shell
 - **License:** The Unlicense
@@ -16586,7 +16606,7 @@
 - **Author:** KittyKatt
 - **WebURL:** [https://github.com/KittyKatt/screenFetch](https://github.com/KittyKatt/screenFetch)
 - **Repository:** [https://github.com/KittyKatt/screenFetch](https://github.com/KittyKatt/screenFetch)
-- **Stars:** 3873
+- **Stars:** 3874
 - **Version:** v3.9.1
 - **Updated:** 2024-07-21T09:59:22Z
 - **Size:** 258.68 KB
@@ -16650,8 +16670,8 @@
 - **Version:** v1.8.1
 - **Updated:** 2024-10-28T16:58:33Z
 - **Size:** 7.27 MB
-- **SHA256SUM:** a55fd862d5af8beb1ef1f28d86764242dd7f0604ef71f8ba26dae5df899d4f42
-- **B3SUM:** 043f3136157626836feac16f174d0ff0996f0b0569bf4292f2830fd0a002aec2
+- **SHA256SUM:** b243139bc82b53f943edd4fdfa559ff9b2bcdceb20fe8693f6be8f6b90ef3f40
+- **B3SUM:** c77879fdf2c44ae63e6c084486f29b1217cd076b727e015daa57ad65489b0701
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-client
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16690,8 +16710,8 @@
 - **Version:** v1.8.1
 - **Updated:** 2024-10-28T16:58:33Z
 - **Size:** 14.7 MB
-- **SHA256SUM:** e1b456fc64a7db3a62cd1308dc8d2d18df831cb765e07532e83daf8442d043d8
-- **B3SUM:** 4896d945acfb122805386b2926f62a90be2a33459614bb7cda32b6ce5c874c6d
+- **SHA256SUM:** 5b55b9cd75f8477eaef0dd82241aea19dee470a1ea4d0c1396d2050808ab9e31
+- **B3SUM:** e27e93a000b5b6d97e3a00d4ac1e5d4133ee4717ad3576d410cd80915696edd7
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16710,8 +16730,8 @@
 - **Version:** v1.8.1
 - **Updated:** 2024-10-28T16:58:33Z
 - **Size:** 11.72 MB
-- **SHA256SUM:** 590927239a10e50b5f1c9382ea63d6bb522e4b4dd53df24c97f85bc74da26ae7
-- **B3SUM:** 138f3f4bf96266b30385d16e41ee9f205c27d6412178ff0a2ce1a9efbcaaf67b
+- **SHA256SUM:** 727cc4fe34a8a98808e29206fab911617b7a5208c8dc8ec78a2e9d4e718bc4a8
+- **B3SUM:** 30211a6218c980b51342f5e5a6b76cb1b3f8483c5eaf8ac670167b75e3adac05
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/serverstatus-server-themed
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16750,8 +16770,8 @@
 - **Version:** v1.8.1
 - **Updated:** 2024-10-28T16:58:33Z
 - **Size:** 7.27 MB
-- **SHA256SUM:** a55fd862d5af8beb1ef1f28d86764242dd7f0604ef71f8ba26dae5df899d4f42
-- **B3SUM:** 043f3136157626836feac16f174d0ff0996f0b0569bf4292f2830fd0a002aec2
+- **SHA256SUM:** b243139bc82b53f943edd4fdfa559ff9b2bcdceb20fe8693f6be8f6b90ef3f40
+- **B3SUM:** c77879fdf2c44ae63e6c084486f29b1217cd076b727e015daa57ad65489b0701
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ssr-client
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16770,8 +16790,8 @@
 - **Version:** v1.8.1
 - **Updated:** 2024-10-28T16:58:33Z
 - **Size:** 14.7 MB
-- **SHA256SUM:** e1b456fc64a7db3a62cd1308dc8d2d18df831cb765e07532e83daf8442d043d8
-- **B3SUM:** 4896d945acfb122805386b2926f62a90be2a33459614bb7cda32b6ce5c874c6d
+- **SHA256SUM:** 5b55b9cd75f8477eaef0dd82241aea19dee470a1ea4d0c1396d2050808ab9e31
+- **B3SUM:** e27e93a000b5b6d97e3a00d4ac1e5d4133ee4717ad3576d410cd80915696edd7
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16790,8 +16810,8 @@
 - **Version:** v1.8.1
 - **Updated:** 2024-10-28T16:58:33Z
 - **Size:** 11.72 MB
-- **SHA256SUM:** 590927239a10e50b5f1c9382ea63d6bb522e4b4dd53df24c97f85bc74da26ae7
-- **B3SUM:** 138f3f4bf96266b30385d16e41ee9f205c27d6412178ff0a2ce1a9efbcaaf67b
+- **SHA256SUM:** 727cc4fe34a8a98808e29206fab911617b7a5208c8dc8ec78a2e9d4e718bc4a8
+- **B3SUM:** 30211a6218c980b51342f5e5a6b76cb1b3f8483c5eaf8ac670167b75e3adac05
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ssr-server-themed
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -16810,8 +16830,8 @@
 - **Version:** v1.0.0
 - **Updated:** 2024-03-28T14:12:01Z
 - **Size:** 7.28 MB
-- **SHA256SUM:** f6d13369df787d73e3b95c50556b729b24910f101e03309ac57400f80962ffb2
-- **B3SUM:** c5fa3c36335a9d4993f14f49c4ecb2bfe669ae0378135122e6ec43ede1aa3b15
+- **SHA256SUM:** 75abff9c257aa2589cf21df15c4d6157669e8927d17095e691710e0cbe63d05d
+- **B3SUM:** 4158e2a80ca5ab8d2674238e5d67842603e37c2076c5498bf008924f9b88a7ca
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sessionprobe
 - **Language:** Go
 - **License:** MIT License
@@ -16829,9 +16849,9 @@
 - **Stars:** 2
 - **Version:** v0.0.1
 - **Updated:** 2024-09-28T09:17:19Z
-- **Size:** 66.94 KB
-- **SHA256SUM:** 40f2499cbad078e618d26a9c410735b81e640c1ea90c7e06bb49fa1878066e5e
-- **B3SUM:** fbd99707ab54dc3cb4eb0e83d06767c024d9ead7fe7b8c4ac6d5f3ea8760411b
+- **Size:** 66.86 KB
+- **SHA256SUM:** 91585f8a4fd9b9dbe1b57f5b39084648a9b2642209dd9fb2537d6e940e4bbd4b
+- **B3SUM:** b9601d1c057148636afb7b6c9b4b9e694d560a24fd8eb9fdea655622b78d9976
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sharun
 - **Language:** Shell
 - **License:** MIT License
@@ -16930,8 +16950,8 @@
 - **Version:** v1.6.0
 - **Updated:** 2024-07-13T14:45:13Z
 - **Size:** 33.59 MB
-- **SHA256SUM:** af7cb7f14084e562a3b7a287fe7d1d6075d203ebe5165d68d430b0e26551de47
-- **B3SUM:** 230db90a375f68fdd4ed77d188b595ffcc24c87c206939076b2e0d365926c5b2
+- **SHA256SUM:** e1e0525b00dd48a2d0085b09e4b617b95e0e2853b14a0b3f241231f1f4b251ea
+- **B3SUM:** 1aae01356fb323b930f6de3912d6187739c28d98274388d0057bd346b9331750
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/shellz
 - **Language:** Go
 - **License:** Other
@@ -16970,8 +16990,8 @@
 - **Version:** v0.9.0
 - **Updated:** 2024-07-24T23:44:14Z
 - **Size:** 10.23 MB
-- **SHA256SUM:** 22ddcb5a5cf7c026b09d83277e75b920753b7d22eea195d2b93798b2a8d8ac39
-- **B3SUM:** 17307e15770c8cf4523a78ca039d52c1dadce038f3741e6f22c8af1f668752b5
+- **SHA256SUM:** 4e0db63278d003eca3664e18371fcf214a8a1684117d7eab3e2ee3710e74f399
+- **B3SUM:** be80c76c2b0f265d363a3e31dcdc07e42f087f3327fd36529a01eff61edfed73
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/shortscan
 - **Language:** Go
 - **License:** MIT License
@@ -16990,8 +17010,8 @@
 - **Version:** v0.9.0
 - **Updated:** 2024-07-24T23:44:14Z
 - **Size:** 2.34 MB
-- **SHA256SUM:** c8ed91be2306b4399b745bb0c63cad10a3ddb58888a2c4f8887f03d0633fca7e
-- **B3SUM:** d9de9d3d383402f58cf24c1deac7ba88d38940267706b1d02bc07f7d59d63d62
+- **SHA256SUM:** e9ed4df3228d5c6bba2b3e085d88dba7a5b572200a216ae8eb253a00a47c0ee2
+- **B3SUM:** 1d2429dff3a71a22dd72efce4a9c2fa317d985382e521379aed93474c40ee2b4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/shortutil
 - **Language:** Go
 - **License:** MIT License
@@ -17006,7 +17026,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns)
 - **Repository:** [https://github.com/projectdiscovery/shuffledns](https://github.com/projectdiscovery/shuffledns)
-- **Stars:** 1318
+- **Stars:** 1319
 - **Version:** v1.1.0
 - **Updated:** 2024-10-28T19:44:21Z
 - **Size:** 22.21 MB
@@ -17030,8 +17050,8 @@
 - **Version:** v0.22.4
 - **Updated:** 2024-10-28T21:22:34Z
 - **Size:** 6.78 MB
-- **SHA256SUM:** 7705e7ce15959e34a784bc430006cd97021589f3e174291e91c5895cda7d3cff
-- **B3SUM:** ad2e70099c7a3bd8ee992d2b2402aaafc0ac66b5a808a915c909dd3fee6c3df2
+- **SHA256SUM:** b968dd06935f4d8b78d380c7406c90bcd10e30ad833051514cf9738b0cf668dc
+- **B3SUM:** 076df110bb701777aaaccfc6540558fc87cc746141276d91b51b59041caf2810
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sic
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -17050,8 +17070,8 @@
 - **Version:** v1.11.1
 - **Updated:** 2024-10-25T09:46:58Z
 - **Size:** 7.19 MB
-- **SHA256SUM:** 83f572a97f888c579a96b39ca59c4c666c46d731d98f8f038a91a50c87462893
-- **B3SUM:** 11f7202d260d79ab04936d6ed13db9fbf0483c2245fd6c0ccf143686156162a5
+- **SHA256SUM:** 9b80df2bf73d4da1220fbac54bb9a9b9fc377e850881dc168a0997ebe46f2e39
+- **B3SUM:** 00df4388f1123e0d95e6c5066c1f33e29fb8a78d48cdf1a46d9873c00a8317ec
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sf
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -17066,7 +17086,7 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 19615
+- **Stars:** 19623
 - **Version:** v1.10.1
 - **Updated:** 2024-10-29T10:30:57Z
 - **Size:** 29.69 MB
@@ -17086,7 +17106,7 @@
 - **Author:** antoniomika
 - **WebURL:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
 - **Repository:** [https://github.com/antoniomika/sish](https://github.com/antoniomika/sish)
-- **Stars:** 4005
+- **Stars:** 4006
 - **Version:** v2.16.0
 - **Updated:** 2024-09-17T16:27:43Z
 - **Size:** 19.1 MB
@@ -17110,8 +17130,8 @@
 - **Version:** 1.9.2
 - **Updated:** 2024-10-16T18:28:17Z
 - **Size:** 8.54 MB
-- **SHA256SUM:** c609759abcd2dd54931b164626d12bc67433783e832d959c9f7cd0677542bf0b
-- **B3SUM:** 9428fda43eb9df3fdf99b9ce09c2b983a032f3eb5ea205b6a5e00418e0e86e5f
+- **SHA256SUM:** 16e9870646f3553bbc16a548c5cd86f7aebb66e78ff2856908e0e96207dd047f
+- **B3SUM:** cba7c44f873998d8303281a08a562fb89879e6149f6e017dfb688ad3b380fe75
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sj
 - **Language:** Go
 - **License:** MIT License
@@ -17126,7 +17146,7 @@
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 5137
+- **Stars:** 5139
 - **Version:** v0.10.4
 - **Updated:** 2024-07-19T21:42:07Z
 - **Size:** 2.7 MB
@@ -17146,7 +17166,7 @@
 - **Author:** lotabout
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 5137
+- **Stars:** 5139
 - **Version:** v0.10.4
 - **Updated:** 2024-07-19T21:42:07Z
 - **Size:** 7342 B
@@ -17168,7 +17188,7 @@
 - **Repository:** [https://github.com/skupperproject/skupper](https://github.com/skupperproject/skupper)
 - **Stars:** 588
 - **Version:** 1.8.1
-- **Updated:** 2024-10-29T11:42:27Z
+- **Updated:** 2024-10-29T20:57:28Z
 - **Size:** 33.46 MB
 - **SHA256SUM:** 459be3508fcee05fba7f29c1e5926610eb5be4e849d3671aa1fc6c8adca2edd6
 - **B3SUM:** c3c44082e9b186acfa13eeca7cf8297656a6400650015b5ee7957fb04731ce41
@@ -17210,8 +17230,8 @@
 - **Version:** 0.21.4
 - **Updated:** 2024-10-29T01:19:21Z
 - **Size:** 103.31 MB
-- **SHA256SUM:** cb5b9271848d50b771c16ce0cb5e1fcc6c57a524d07c417b96dec5599eeba4ba
-- **B3SUM:** 018eaee86aefff94e22d4baffab7512dd1e7a23e96862cf9049db827a62085d6
+- **SHA256SUM:** 7bec6d687fd48ec9776803be36078b490902e79092f5fdfca158bc094359f98b
+- **B3SUM:** 2a8125e694697bad69b7e4c28154767d8a71336f220bc1de9d67ddf5214804b6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/slskd.no_strip
 - **Language:** C#
 - **License:** GNU Affero General Public License v3.0
@@ -17230,8 +17250,8 @@
 - **Version:** 0.1.12
 - **Updated:** 2024-04-03T18:09:35Z
 - **Size:** 14.64 MB
-- **SHA256SUM:** d45e3f65a6055c7fdc9c7011b02be5d14a42136e4f6e72bf49abcf0457514643
-- **B3SUM:** d39a4594d2ec377a3cdb14a826a17e69c17264b4f2d5d7e52f42f776f538417a
+- **SHA256SUM:** c7dad5ddaf1537b766cee60c871f384a388b83b36f742501dd0510e27fdc6fb4
+- **B3SUM:** d4fa1ebb0ff2a4dbc3887460b20be1164c2341defe3105045e4b3458b01fcaa9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/smap
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -17266,7 +17286,7 @@
 - **Author:** pymumu
 - **WebURL:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 - **Repository:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
-- **Stars:** 8398
+- **Stars:** 8400
 - **Version:** Release46
 - **Updated:** 2024-10-02T06:04:08Z
 - **Size:** 2.92 MB
@@ -17286,12 +17306,12 @@
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/sn0int](https://github.com/kpcyrd/sn0int)
 - **Repository:** [https://github.com/kpcyrd/sn0int](https://github.com/kpcyrd/sn0int)
-- **Stars:** 2026
+- **Stars:** 2027
 - **Version:** v0.26.1
 - **Updated:** 2024-09-24T08:06:24Z
 - **Size:** 14.78 MB
-- **SHA256SUM:** ca80b2f12e9dd3697bf8aa0e7a0ee4d46d8ebb20661ce2d158f0c6944a8463ae
-- **B3SUM:** 96b9a1425ee808a9fa4093db3249c2d609ea4cb4a5b04f6937dc02d1232cdc6f
+- **SHA256SUM:** 61107744fb805184d8f85a6e73fbd0c5a68716e809569b92ed142d5aafb9cb42
+- **B3SUM:** 587d110ed9a12b59c47e3ef7cc57dbfff5550bbc820207afdbf1c653a245204a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sn0int
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -17310,8 +17330,8 @@
 - **Version:** 
 - **Updated:** 2023-03-25T18:14:45Z
 - **Size:** 8.61 MB
-- **SHA256SUM:** 09f565be5e1a003d5e672cedebc08e41d1c16e26d9489cffd36b144d63c0beb1
-- **B3SUM:** 78d4d0bd2c7add4f886009a87e445b0a029a69eb19635fc0d7df83c5e1116b95
+- **SHA256SUM:** 4a2ecefde029e909e4baaeed558385a6d2f97d47c6b229185d1a6c18940b701c
+- **B3SUM:** e0c28a66ca72f6e70f8e9c2f94354b343f18e43a4387abc75cd6a9513583614b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sns
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -17328,10 +17348,10 @@
 - **Repository:** [https://github.com/QaidVoid/soar](https://github.com/QaidVoid/soar)
 - **Stars:** 10
 - **Version:** v0.3.1
-- **Updated:** 2024-10-29T12:04:10Z
-- **Size:** 4.95 MB
-- **SHA256SUM:** 2ea21889af2de212d6f0c3f6e0da854a0cddb356c6607cda5ea7fc42d4a3fcf8
-- **B3SUM:** 96999877ac1bd796e2f1277bd7eb8bdabcbb663a618c33f789626168e66af4a3
+- **Updated:** 2024-10-29T17:44:26Z
+- **Size:** 4.96 MB
+- **SHA256SUM:** 064c480385dff47813491826bc3cb23c181f482f5024338034f27be4ec13176b
+- **B3SUM:** 5bcef81af163e6bae629d85e0316b4ea05f4afaeae721059b829e5e9dca0f2d6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/soar
 - **Language:** Rust
 - **License:** MIT License
@@ -17406,7 +17426,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
 - **Repository:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
-- **Stars:** 5326
+- **Stars:** 5327
 - **Version:** v0.7.6
 - **Updated:** 2024-10-25T15:13:18Z
 - **Size:** 26.54 MB
@@ -17430,8 +17450,8 @@
 - **Version:** 
 - **Updated:** 2024-03-22T04:01:09Z
 - **Size:** 5.51 MB
-- **SHA256SUM:** 4be29725fe62d43952176293c278a4e953e41907db787941dcf6e7d40334bb7c
-- **B3SUM:** 903196084ea9beca777abe67d1f8c0a5b88809ed5c1538e02d4919b82df7aab4
+- **SHA256SUM:** 8285f1815f6e25cb825531882e05c3dc2b9f006c463db431fb64faa0932cae2c
+- **B3SUM:** 0e829950d8b32c5c38eecfc26ab2a986022e07544efa544dd8922f3733c5b360
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sourcemapper
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -17446,7 +17466,7 @@
 - **Author:** showwin
 - **WebURL:** [https://github.com/showwin/speedtest-go](https://github.com/showwin/speedtest-go)
 - **Repository:** [https://github.com/showwin/speedtest-go](https://github.com/showwin/speedtest-go)
-- **Stars:** 543
+- **Stars:** 544
 - **Version:** v1.7.9
 - **Updated:** 2024-09-08T09:38:20Z
 - **Size:** 6.62 MB
@@ -17510,8 +17530,8 @@
 - **Version:** 
 - **Updated:** 2024-05-12T21:47:25Z
 - **Size:** 7.01 MB
-- **SHA256SUM:** 6aacb496905926b3431345574472a7924366cb8839c30ec19792aea93cfaa22c
-- **B3SUM:** d151d053da6853cccdee2665da97a93463f526684174b4ce609c3d27a15afe34
+- **SHA256SUM:** 60be2b12108c3568c3a075f7dfd2fffdc402718ba2e2e3767cb218d52178393a
+- **B3SUM:** c0d29575e2b5f8a7a4c8b79014495679dc39449cb67342bd03401e54cadba8bc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/spk
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -17526,7 +17546,7 @@
 - **Author:** xvzc
 - **WebURL:** [https://github.com/xvzc/SpoofDPI](https://github.com/xvzc/SpoofDPI)
 - **Repository:** [https://github.com/xvzc/SpoofDPI](https://github.com/xvzc/SpoofDPI)
-- **Stars:** 3686
+- **Stars:** 3690
 - **Version:** v0.12.0
 - **Updated:** 2024-09-19T12:33:21Z
 - **Size:** 7.06 MB
@@ -17570,8 +17590,8 @@
 - **Version:** v0.1.1
 - **Updated:** 2023-12-19T00:14:01Z
 - **Size:** 28.13 MB
-- **SHA256SUM:** c4ae997d9595c41dfe33234135f6a9cf8d75d4f060230673cd746b82ad84ec61
-- **B3SUM:** 6d7dced70748926589ea4f06eaea457283156db3be3a491e5a4842aa75d7de22
+- **SHA256SUM:** 20dd379d6332aaba6fa8373945e242732dd374328f16cf15352ed31b0eece951
+- **B3SUM:** a36e0ce864e8818308bab8e4ada187bd62f3f5d32b21ce050cf0bf8daab9cae6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sqlc
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -17586,9 +17606,9 @@
 - **Author:** sqlite
 - **WebURL:** [https://www.sqlite.org](https://www.sqlite.org)
 - **Repository:** [https://github.com/sqlite/sqlite](https://github.com/sqlite/sqlite)
-- **Stars:** 6579
+- **Stars:** 6581
 - **Version:** vesion-3.45.1
-- **Updated:** 2024-10-29T09:15:53Z
+- **Updated:** 2024-10-30T01:15:53Z
 - **Size:** 1.99 MB
 - **SHA256SUM:** d4e4ed9cefa72beeb1460661f209fed528956d05b9f2f62a3677e7ff1020465c
 - **B3SUM:** aaae5b8b61c86c51f98fb73411d14a01c966504dc78a546cdec936a731ca809f
@@ -17650,8 +17670,8 @@
 - **Version:** v0.0.39
 - **Updated:** 2024-10-21T23:23:25Z
 - **Size:** 8.5 MB
-- **SHA256SUM:** 34b7e8a28b4e717d9ac5ca34fe56b842135c2df03bed0546334c339a9d308601
-- **B3SUM:** e194291dffe8263478995bcee107a4f7769998ad0dafbc687f528a677cbaed6c
+- **SHA256SUM:** 228c4b54c5dbdab1f8bacdcc390264de3da73a3ec2d00ad0cda78181da5f0b4d
+- **B3SUM:** 09934a3dcfa905019484dd057d44c9731bb6fd3f642748b7fff094c123b5a0ef
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sshesame
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -17710,8 +17730,8 @@
 - **Version:** v1.19.5
 - **Updated:** 2024-10-28T20:29:53Z
 - **Size:** 11.23 MB
-- **SHA256SUM:** 77d3ab6eb3ce2ad17d88006f6925d93aec2f2b8bd8f91455f6f85f27862b7a9a
-- **B3SUM:** 65c613dc9c16d02596f73338dec8337822f85f756d8db3a7222d40c7541d4ad4
+- **SHA256SUM:** 95b174acaf9faf22abc4e488774457ed3a17ff70b5f59b5d3572a3f05e2c78de
+- **B3SUM:** ccb3849aa9ff33c4ffc101712aab6ba7f278125e6b0d25970d7427b0002916a1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sshportal
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -17726,12 +17746,12 @@
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 - **Repository:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
-- **Stars:** 5920
+- **Stars:** 5921
 - **Version:** v0.2.5
 - **Updated:** 2024-10-09T22:38:59Z
 - **Size:** 6.21 MB
-- **SHA256SUM:** dfd2e91d297d1f871220ca949a55ff307031f233aad0243d87ead42e00742910
-- **B3SUM:** a2df4a74061a0d0ab6a82de37529553b6fc0c0007f8eded58975eb8da166fdf7
+- **SHA256SUM:** 87084928b729235b33f52d5c595851e11754042e5f65477fb42d88dc2de82485
+- **B3SUM:** 542f5500016f41eba7ef71fd0255c2f4bfb03febda67cd5bb8526ceecab737d3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sshx
 - **Language:** Rust
 - **License:** MIT License
@@ -17746,12 +17766,12 @@
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 - **Repository:** [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
-- **Stars:** 5920
+- **Stars:** 5921
 - **Version:** v0.2.5
 - **Updated:** 2024-10-09T22:38:59Z
 - **Size:** 8.36 MB
-- **SHA256SUM:** 801df3c2335381446074317b251ea5f24e5727122a4761d16a726e757843f212
-- **B3SUM:** e4de5ee38f67b8987f3a9ad6a5d60e909551ec24556325cfa83025a55a00d565
+- **SHA256SUM:** 60e36ed5d24e0cd9f55f7579c56c10750eb77db079e7cbb87144826e29608c04
+- **B3SUM:** 50a7f17f6bb15084717df72de903d55f9b170398f9073844371cdfdcfa512dbc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sshx-server
 - **Language:** Rust
 - **License:** MIT License
@@ -17770,8 +17790,8 @@
 - **Version:** 
 - **Updated:** 2024-01-02T21:03:01Z
 - **Size:** 12.12 MB
-- **SHA256SUM:** fd1aea35d02f29fa9fee94ea4448682f200d74f472e23a64e45c5045649d7a74
-- **B3SUM:** 69d1bf9b8e25c421a85986402bc0fb8ec3b867c7f6b1bed809ca01755250f6cd
+- **SHA256SUM:** 7274592ad23efa6346b50fbecf74ed47d8e676f5c2d7a625d28091717d5f9a3d
+- **B3SUM:** 5087b89baadc2a7ca5270b47638667b09892c02e5dd83df935cba4ea72af55f1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sslsearch
 - **Language:** Go
 - **License:** MIT License
@@ -17786,9 +17806,9 @@
 - **Author:** starship
 - **WebURL:** [https://github.com/starship/starship](https://github.com/starship/starship)
 - **Repository:** [https://github.com/starship/starship](https://github.com/starship/starship)
-- **Stars:** 44955
+- **Stars:** 44963
 - **Version:** v1.21.1
-- **Updated:** 2024-10-28T21:51:15Z
+- **Updated:** 2024-10-29T22:49:26Z
 - **Size:** 8.24 MB
 - **SHA256SUM:** b03e506925e4e715f746278a6d96b97038c8828ea14219ba32fab13d5f1c7cee
 - **B3SUM:** fa5ad7ff02c945b68ce3c447a0121091081205d404d03b525a62a3bc56b6ad58
@@ -17806,7 +17826,7 @@
 - **Author:** turbot
 - **WebURL:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
 - **Repository:** [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe)
-- **Stars:** 6905
+- **Stars:** 6906
 - **Version:** v1.0.0
 - **Updated:** 2024-10-23T02:51:44Z
 - **Size:** 50.45 MB
@@ -17830,8 +17850,8 @@
 - **Version:** v0.4.0
 - **Updated:** 2024-04-07T07:36:29Z
 - **Size:** 9.3 MB
-- **SHA256SUM:** cc05dcd041056da3d6fd52815be2e3f66433d12af0066f55160a4f2cca202932
-- **B3SUM:** de4a1f428fe45664b22aa92c9d49466eb64da38625969b1c091b6a13143be6bc
+- **SHA256SUM:** ef9520a83e64f54c4f03d27346337a2ac57e92c9e9c722578542d3d11d0d9831
+- **B3SUM:** 3cb654792d46f2844367782a435eeb43967cdc44c646675abed21eb0b0626b94
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/stew
 - **Language:** Go
 - **License:** MIT License
@@ -17846,7 +17866,7 @@
 - **Author:** strace
 - **WebURL:** [https://github.com/strace/strace](https://github.com/strace/strace)
 - **Repository:** [https://github.com/strace/strace](https://github.com/strace/strace)
-- **Stars:** 2231
+- **Stars:** 2232
 - **Version:** v6.11
 - **Updated:** 2024-10-28T21:04:54Z
 - **Size:** 1.51 MB
@@ -17930,8 +17950,8 @@
 - **Version:** v1.3.0
 - **Updated:** 2023-12-05T16:16:38Z
 - **Size:** 3.38 MB
-- **SHA256SUM:** 303ef2844bfde87bf90dd104669797fe989260e48064140c739d3598d00f8c54
-- **B3SUM:** a06d4a7326af16f4d48d40facd8f49f4d6cb0a33ecbfe9efb527e59cfbab14c4
+- **SHA256SUM:** 322dc227667d1df9a92e81441c273403e809286eb9f1011db37f648633c2e8fc
+- **B3SUM:** d5fda14b317d0ef91a64c990cb61a28166d778791fd64f4cf62a1b69ed45abb3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/stuffbin
 - **Language:** Go
 - **License:** Other
@@ -17966,12 +17986,12 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
 - **Repository:** [https://github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder)
-- **Stars:** 10186
+- **Stars:** 10190
 - **Version:** v2.6.7
 - **Updated:** 2024-10-28T14:16:14Z
-- **Size:** 27.75 MB
-- **SHA256SUM:** a8474eccf054aaffe9b63f3d80f8bb61315db85b3e9d8d72552b07a56aa0b5c0
-- **B3SUM:** 9fce1d281398a56326b2f28658e59dfb970795008b60a3310f9e37bc9b9dabef
+- **Size:** 25.03 MB
+- **SHA256SUM:** cc59e49917b0cca6f466509055575c337b4a9907e3b1de065682b353a6d968e4
+- **B3SUM:** 5cc33eefffcb6a907c6140e96760d058bde8956abfef13b4b85c0f5282346fe7
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/subfinder
 - **Language:** Go
 - **License:** MIT License
@@ -17990,8 +18010,8 @@
 - **Version:** v1.0.1
 - **Updated:** 2023-05-21T20:55:56Z
 - **Size:** 5.57 MB
-- **SHA256SUM:** 3c767f2cb3d5455b4c3beee11413e54ddb1c1edb9223628c39ff222ac1050bbc
-- **B3SUM:** cacc2195a0b59f6dec5b66acf00169181511341772710c4c1d0200e018742098
+- **SHA256SUM:** bf930e124141a2ce57736bef46778defbe5ac9609ab81b6c6052278ff0cce1dd
+- **B3SUM:** 73e8d4a5818a63518170f93e5092f1c0cd99096fefad0c98eda8b52600fcfe4c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/subjs
 - **Language:** Go
 - **License:** MIT License
@@ -18010,8 +18030,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 7.71 MB
-- **SHA256SUM:** 129e6252dc2f74f4789621e935c5565576275f50532e28db2a79aa7a93460dfa
-- **B3SUM:** 3f94057d7aca9e192d93c0dc10594629ab5e71211f5d926abf62f6f539bcef2b
+- **SHA256SUM:** bc4cf5a123b98e345e9a3a431fb1815fd24b21898b84ac96642cc927fec34450
+- **B3SUM:** 8229b0bac68ead24c48657aa2013d723859e1e45037db8b3a761e975364e6b40
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/subxtract
 - **Language:** Shell
 - **License:** The Unlicense
@@ -18026,12 +18046,12 @@
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
-- **Stars:** 2898
+- **Stars:** 2899
 - **Version:** v0.2.3
-- **Updated:** 2024-10-29T14:14:18Z
+- **Updated:** 2024-10-29T15:13:54Z
 - **Size:** 1.1 MB
-- **SHA256SUM:** 2517bb0e1efa08bc24a925936e179a5b72b5822b7643b7593b96f41099fd9c87
-- **B3SUM:** d4fa462b8e7738346bd15ff4fb6914bb49f194e67cf723331de8d855d83b7d9f
+- **SHA256SUM:** bb6508729f13a79e5773615522c8110088f9107e3920950480a0daf250fd1e1c
+- **B3SUM:** 509facc4a32e656d8b6160648bfae312758d899e69696d3945e66728344902fc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/su-rs
 - **Language:** Rust
 - **License:** Other
@@ -18046,12 +18066,12 @@
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
-- **Stars:** 2898
+- **Stars:** 2899
 - **Version:** v0.2.3
-- **Updated:** 2024-10-29T14:14:18Z
+- **Updated:** 2024-10-29T15:13:54Z
 - **Size:** 1.23 MB
-- **SHA256SUM:** 62e8e8ea57d6469c37bd065ececaa682cec0d7e9b186d0c51542a09395e234f2
-- **B3SUM:** 91fb55774cea47695a3f4aa0aedbf09889743bc01ca1f0845b42c9d7389d7ea3
+- **SHA256SUM:** 9fa9da6afaa5f1a43a73a50198ff768a4786346e699d59067b93dc58dd6604f4
+- **B3SUM:** a52864397fd0ca12a04082f4ebbeef1f3f87caddc0748b591786d2037ca7b858
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sudo-rs
 - **Language:** Rust
 - **License:** Other
@@ -18066,12 +18086,12 @@
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
-- **Stars:** 2898
+- **Stars:** 2899
 - **Version:** v0.2.3
-- **Updated:** 2024-10-29T14:14:18Z
+- **Updated:** 2024-10-29T15:13:54Z
 - **Size:** 1.09 MB
-- **SHA256SUM:** 0c1099902d10ab947c542d119925746361f8cfe5e8b07afe5ca82d4ca1bed44f
-- **B3SUM:** b46a9e6c133368b8c116c7b5eede5800e4a4d234219a493b336b3201fc12a940
+- **SHA256SUM:** 352df2c9a2631782f77a4f8951bb66a3096313db9922514624b6f7cef8bd52e5
+- **B3SUM:** af6584e6853f704ce1483d47a748e7d1720f20b0d0d46bbe8a68622bd0eee855
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/visudo-rs
 - **Language:** Rust
 - **License:** Other
@@ -18090,8 +18110,8 @@
 - **Version:** v1.0.0
 - **Updated:** 2024-09-19T14:56:42Z
 - **Size:** 18.13 MB
-- **SHA256SUM:** bf5b5761e6b254c7eb04090f1a6a396663844858f2a4afb04ea97e7edfa41bc1
-- **B3SUM:** 9dfe3af2b0e2e14548323dd56399ac6260cbe6962dda8c22bb24b18078d26a6a
+- **SHA256SUM:** 3dc77f189b5b7a728370f347e65de4376883ad05cfe79cfdea4c45f3acb47a59
+- **B3SUM:** dafd3ec0e3e24178f07abcb5509eaebfa0215d56cce30ecd7cd342a12937a270
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/sunbeam
 - **Language:** Go
 - **License:** MIT License
@@ -18106,12 +18126,12 @@
 - **Author:** aptible
 - **WebURL:** [https://github.com/aptible/supercronic](https://github.com/aptible/supercronic)
 - **Repository:** [https://github.com/aptible/supercronic](https://github.com/aptible/supercronic)
-- **Stars:** 1890
+- **Stars:** 1892
 - **Version:** v0.2.33
 - **Updated:** 2024-10-10T22:00:04Z
 - **Size:** 8.77 MB
-- **SHA256SUM:** 2b6c4c3f2f91e0ffd4ed0f7b63b9ca5e34e2ad303211a2b1ed2914ea8e3fe88d
-- **B3SUM:** e167202cb6aeb9445f00a3fcdb45c01026d1f9fb4f2c3e3de9fd0fa98bc45e4d
+- **SHA256SUM:** 536dca3e97519ea8ff542ad05ff2c90ad96b7aeedbc312e69a36e794505e6a77
+- **B3SUM:** 281e0c037a79a3ac9531029e6e16654ebd3528fd1565d6fa1a59768a97fa4d17
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/supercronic
 - **Language:** Go
 - **License:** MIT License
@@ -18126,12 +18146,12 @@
 - **Author:** ochinchina
 - **WebURL:** [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
 - **Repository:** [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
-- **Stars:** 4020
+- **Stars:** 4021
 - **Version:** v0.7.3
 - **Updated:** 2024-07-03T16:23:49Z
 - **Size:** 11.07 MB
-- **SHA256SUM:** 50ff548393554db3ceead1b504534b3f1b064970782c7087c4f60fbd2eeb2d3c
-- **B3SUM:** 8a6bafec72ec61aa7bd3c7698b61cbf0afe8061160da70f7f2b2e517d64a8c56
+- **SHA256SUM:** 9a59365001a47f2f14d6eb1ff025cc06a93143c9c01bdf43d2b1c2012623cc7e
+- **B3SUM:** ed14977068a416c279357cc4dea387ca78f0a47da88478a7031f0cc1aeeb744c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/supervisord
 - **Language:** Go
 - **License:** MIT License
@@ -18150,8 +18170,8 @@
 - **Version:** v0.0.5
 - **Updated:** 2023-12-19T00:13:43Z
 - **Size:** 33.23 MB
-- **SHA256SUM:** dd9aa9ae37ca0d4edf4ee008186cf9fe49c5275814e0ab79e1ecf9bb6da525d0
-- **B3SUM:** fd8244cf596f6a723f8a7bd0f8acfc425e2e1617e4c24891dae9f67b2ea98b0d
+- **SHA256SUM:** 531d0d69150d0b3967812b89f72567b4411dd7c881d2bf5aa38aa02ac6cf32da
+- **B3SUM:** f6df217a9c3afbb2cf1c4b5e9788e92d1f61c529a941401b4921fd86e2fe4257
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/surf
 - **Language:** Go
 - **License:** 
@@ -18170,8 +18190,8 @@
 - **Version:** 0.9.4
 - **Updated:** 2024-09-23T18:46:35Z
 - **Size:** 882.83 KB
-- **SHA256SUM:** 9b2a5f9ea3f6ce76e7180a4beda1451c96813dfb78bba8ec37ffae5905bd4ed7
-- **B3SUM:** 63bbe42ac70d8018bfc35d9bd4a3f28345613084eaa8f45769698c1159061a61
+- **SHA256SUM:** 1df6d9badb9b51bae7b8a7032d75800ffe758a439a5b53a13fcc04cc4bb0d857
+- **B3SUM:** 248f02024008f26170c63c860792060b5d71b9e3f7201a7803db5169243757c9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/svg-hush
 - **Language:** Rust
 - **License:** MIT License
@@ -18190,8 +18210,8 @@
 - **Version:** 3.7.0
 - **Updated:** 2024-10-05T17:42:06Z
 - **Size:** 8.08 MB
-- **SHA256SUM:** 689583c215e14acfec73b72b7921f58e1b07ff8f3fb3f3f2d7d189cab41e9ba7
-- **B3SUM:** e267c1da9f76ca24dd220fc5a8d17ac43efa80866a7998bd0dd1301f7769634b
+- **SHA256SUM:** 98352c6b556af50b8444c483655cd70f344d745fa57ce73d8034aeb390548bb3
+- **B3SUM:** 8f7abe2c1306c4ac05d228cbda8464b1e2c694f148430730340a06d1f8ee0d3b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/syncat
 - **Language:** Rust
 - **License:** MIT License
@@ -18206,7 +18226,7 @@
 - **Author:** syncthing
 - **WebURL:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
 - **Repository:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
-- **Stars:** 64922
+- **Stars:** 64929
 - **Version:** v1.28.0
 - **Updated:** 2024-10-29T01:29:35Z
 - **Size:** 23.98 MB
@@ -18226,7 +18246,7 @@
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2786
+- **Stars:** 2789
 - **Version:** v0.6.4
 - **Updated:** 2024-10-19T23:03:15Z
 - **Size:** 11.92 MB
@@ -18246,7 +18266,7 @@
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2786
+- **Stars:** 2789
 - **Version:** v0.6.4
 - **Updated:** 2024-10-19T23:03:15Z
 - **Size:** 11.77 MB
@@ -18266,7 +18286,7 @@
 - **Author:** nestybox
 - **WebURL:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
 - **Repository:** [https://github.com/nestybox/sysbox](https://github.com/nestybox/sysbox)
-- **Stars:** 2786
+- **Stars:** 2789
 - **Version:** v0.6.4
 - **Updated:** 2024-10-19T23:03:15Z
 - **Size:** 14.35 MB
@@ -18330,8 +18350,8 @@
 - **Version:** v0.3.8
 - **Updated:** 2024-09-16T01:37:59Z
 - **Size:** 6.32 MB
-- **SHA256SUM:** dff1f934e3d1013adc32319c5d5ed971daaef4c04a133457f88def066ce29c95
-- **B3SUM:** 7dbb56884c40905197f8999b4271c62286c14d9f2189798c2240b4ee6d36e34b
+- **SHA256SUM:** 24b5898d382e9b60263404db679326799f8ac8481dc111afff32aedf6a424727
+- **B3SUM:** 771a88ab7aebadfa55dd6e9194154a1300e0425c3442eebec72ae16a07840bfd
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/systemctl-tui
 - **Language:** Rust
 - **License:** MIT License
@@ -18366,7 +18386,7 @@
 - **Author:** ztelliot
 - **WebURL:** [https://github.com/ztelliot/taierspeed-cli](https://github.com/ztelliot/taierspeed-cli)
 - **Repository:** [https://github.com/ztelliot/taierspeed-cli](https://github.com/ztelliot/taierspeed-cli)
-- **Stars:** 186
+- **Stars:** 187
 - **Version:** v1.7.2
 - **Updated:** 2024-08-09T15:39:53Z
 - **Size:** 2.97 MB
@@ -18386,12 +18406,12 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19124
+- **Stars:** 19125
 - **Version:** v1.76.1
-- **Updated:** 2024-10-29T13:55:18Z
-- **Size:** 13.44 MB
-- **SHA256SUM:** 02b138f537dda0cd220a4955d469df8a699d4c37c43cb8b856ed18ec1d2533a5
-- **B3SUM:** 6c6f45f7666be27c2d976ea91185e5dbf9935df703459fbe1f43a2eaf7a907c1
+- **Updated:** 2024-10-29T21:28:22Z
+- **Size:** 14.1 MB
+- **SHA256SUM:** 21b57069d795324fc34519984058bdbb66ea970147977b8d44bb74c6e3ab6f3b
+- **B3SUM:** f31968ef8a368fae735a1f5d18d8d4a9edfd45cb35bde6a0a155328db8f3ba34
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tailscale
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -18406,12 +18426,12 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19124
+- **Stars:** 19125
 - **Version:** v1.76.1
-- **Updated:** 2024-10-29T13:55:18Z
-- **Size:** 27.8 MB
-- **SHA256SUM:** 48af16313f2b8e480a47195e0f091cb618f325fcaa05e96b415f591586c743de
-- **B3SUM:** 7b0a80dc7875eeaa7c7cb06b8cc4a0d29e476bb4d13d6396a3d5b4c4df14da0d
+- **Updated:** 2024-10-29T21:28:22Z
+- **Size:** 28.39 MB
+- **SHA256SUM:** 6497d1d930f25af0737fe57729563b76d5323573ef712666b0b4aed2b91ce50d
+- **B3SUM:** d4849c199d59cf218326ac0cc10ad41311619409066cefb54b0ab58299c91f2a
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tailscale_bb
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -18426,12 +18446,12 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19124
+- **Stars:** 19125
 - **Version:** v1.76.1
-- **Updated:** 2024-10-29T13:55:18Z
-- **Size:** 26.24 MB
-- **SHA256SUM:** 7c080757514f2f1a7ea373f1cac2e3f7aa6efd2688f4f709557ce367ebd287a6
-- **B3SUM:** bf8ed0466fb58e9232a1a9a216c6be9eb7a9fe4f5f45769e2024e82abb304d2a
+- **Updated:** 2024-10-29T21:28:22Z
+- **Size:** 26.84 MB
+- **SHA256SUM:** 7b70a97261cc1b382d01812da8fbd3c63118923290ed95f1b955f6bdba83f881
+- **B3SUM:** 5c5f8f5eeca02c015e7fd534c0326bd465f3b8eb3e0d8441eb69fa263fcb7952
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tailscaled
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -18446,12 +18466,12 @@
 - **Author:** bensadeh
 - **WebURL:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
 - **Repository:** [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
-- **Stars:** 5907
+- **Stars:** 5908
 - **Version:** 4.0.0
 - **Updated:** 2024-10-28T05:27:12Z
-- **Size:** 4.29 MB
-- **SHA256SUM:** 78fbccd1577853d7f6b8030188f994073071c96f49dabebae4706176448f1c5e
-- **B3SUM:** cbf53794c1f27222bab829d2711bbed160e0038286593bcd84c07b0cb9aa71f9
+- **Size:** 4.31 MB
+- **SHA256SUM:** cb5f41c5f2d41249a256d4303658502e8fb91feffbe2d99cb63082bf035ebf8d
+- **B3SUM:** 6c9a2f4674e23f6bcca703e7aea5a5a7a9ed59df18a60363d500077a3733b4ae
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tailspin
 - **Language:** Rust
 - **License:** MIT License
@@ -18466,12 +18486,12 @@
 - **Author:** tamasfe
 - **WebURL:** [https://github.com/tamasfe/taplo](https://github.com/tamasfe/taplo)
 - **Repository:** [https://github.com/tamasfe/taplo](https://github.com/tamasfe/taplo)
-- **Stars:** 1408
+- **Stars:** 1409
 - **Version:** 0.9.3
 - **Updated:** 2024-10-04T15:41:42Z
 - **Size:** 10.86 MB
-- **SHA256SUM:** a1c1d3efc4302dea9101ad9bd00a30ac39d479f4e5942ec6eaff25e7c4b6ddf3
-- **B3SUM:** efc34707057849a64eeb23f64367608da37c6b239a984c212ca94e4a16a37883
+- **SHA256SUM:** bc057d9e2c26eedad24cd897fe5d1aa5114fd90c4d22bc6fab948dd5f1003cda
+- **B3SUM:** 9dabe88e2deebddc8fc45f34cf4e4157d115a0a25c1be61db65d5ee88cd7d688
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/taplo
 - **Language:** Rust
 - **License:** MIT License
@@ -18486,7 +18506,7 @@
 - **Author:** the-tcpdump-group
 - **WebURL:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
 - **Repository:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
-- **Stars:** 2715
+- **Stars:** 2716
 - **Version:** tcpdump-4.99.5
 - **Updated:** 2024-10-29T08:23:14Z
 - **Size:** 1.66 MB
@@ -18506,12 +18526,12 @@
 - **Author:** iyear
 - **WebURL:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
 - **Repository:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
-- **Stars:** 4394
+- **Stars:** 4396
 - **Version:** v0.17.6
 - **Updated:** 2024-10-29T10:21:22Z
 - **Size:** 38.22 MB
-- **SHA256SUM:** e856a15217529e993b85872549043272bac50f7321727579b183fffa142af318
-- **B3SUM:** 23d32da6f7ccc1f15a49a28844a660bb9a55a7ca84f517f8d0424e2982226960
+- **SHA256SUM:** 1fba2454e455f1340037c896eeedf644b5f8a20bef81c9ab0b94879c91f87087
+- **B3SUM:** b5e201fb8b3b9630273e55e5821bbe8885376779732607bdb1cf23976e90e085
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tdl
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -18526,7 +18546,7 @@
 - **Author:** tealdeer-rs
 - **WebURL:** [https://tealdeer-rs.github.io/tealdeer](https://tealdeer-rs.github.io/tealdeer)
 - **Repository:** [https://github.com/tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer)
-- **Stars:** 4204
+- **Stars:** 4207
 - **Version:** v1.7.0
 - **Updated:** 2024-10-19T17:49:08Z
 - **Size:** 3.23 MB
@@ -18546,9 +18566,9 @@
 - **Author:** tgdrive
 - **WebURL:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
 - **Repository:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
-- **Stars:** 1787
-- **Version:** 1.5.3
-- **Updated:** 2024-10-22T08:34:23Z
+- **Stars:** 1788
+- **Version:** 1.5.4
+- **Updated:** 2024-10-29T22:15:26Z
 - **Size:** 51.75 MB
 - **SHA256SUM:** bf290f271d1eb86266c6f53775b67c023ff1c42525f314e539deeb3e80619e79
 - **B3SUM:** 0dd4b0c02b23f8c40fd0216dbe0efb4fb1c3787251ddbee3df9ad6e576f663a2
@@ -18570,8 +18590,8 @@
 - **Version:** v1.6.0
 - **Updated:** 2024-10-25T15:52:06Z
 - **Size:** 2.31 MB
-- **SHA256SUM:** 85efa9e0e703bd523c22417dac7fb8c4e23421f785c28ae1b2197397b020805c
-- **B3SUM:** c55c8604ee209fd1d03fbab139af1014fe885554f18c328c47ed75da9de4f477
+- **SHA256SUM:** f6004b3af196e3cb23191db1bb3fecfb8e4fc3b01721adb82c67401ecb57307c
+- **B3SUM:** 76ff34495e6672ea50a7347541d6c2abc630cc1cc192c2568489e0dc6489e213
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tere
 - **Language:** Rust
 - **License:** European Union Public License 1.2
@@ -18586,12 +18606,12 @@
 - **Author:** gcla
 - **WebURL:** [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
 - **Repository:** [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
-- **Stars:** 9079
+- **Stars:** 9080
 - **Version:** v2.4.0
 - **Updated:** 2024-04-30T06:15:11Z
 - **Size:** 15.7 MB
-- **SHA256SUM:** ca096d47a72cbc54b0efac22d9c989490102be65ebe3fcf0029994b53a281cd3
-- **B3SUM:** 422d88a8297e4abcb4e1014acca87f9e298827a2d0cf1f623e54521ef07f4675
+- **SHA256SUM:** 061d0a3e592546b21f903ade567338a00570d306ceb86debde4fed49d55d0dbd
+- **B3SUM:** 42e715f856765925b3229ed66abd2878d092db7169042c3013727f4b7e074912
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/termshark
 - **Language:** Go
 - **License:** MIT License
@@ -18610,8 +18630,8 @@
 - **Version:** 
 - **Updated:** 2024-07-23T18:29:54Z
 - **Size:** 54.95 MB
-- **SHA256SUM:** 4336fdd1ab29cac8afaf668f776b69c4dcff20a39a4c7530f7665b9a2e20c4b9
-- **B3SUM:** 91d80d5003e7beae30bbf985857cf114902d1a3fe0aaffade39649f395d9379a
+- **SHA256SUM:** 23650489b6c29bb8d4c9cea6fa8bd6a7580542186f51b89c0ea2fa43562f8c4b
+- **B3SUM:** babf9f8a9861b6e9c42e04a7b4c105bc6569f204c1a984fbaa275b0be8d8639e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/termux.no_strip
 - **Language:** Dockerfile
 - **License:** 
@@ -18650,8 +18670,8 @@
 - **Version:** v2.8.2
 - **Updated:** 2024-10-13T07:35:27Z
 - **Size:** 9.27 MB
-- **SHA256SUM:** 99ddebd52c6953dc11acd8024a7d72cee896949c415177ba0bd3a31e0fe0fffa
-- **B3SUM:** 2eab5d33d948f898892e732bb96c20a8a96e248afd1f91e3607cfbf160ba6ffd
+- **SHA256SUM:** 96efcda82221ca0dd2bb66deb56c7521fe19e97d777a2db1014769722ff8c109
+- **B3SUM:** b66b53d34bc40fed2831ae1681af86002a48770f5266a367cff144351772c669
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tgpt
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -18710,8 +18730,8 @@
 - **Version:** 1.1.4
 - **Updated:** 2024-05-02T09:13:18Z
 - **Size:** 15.64 MB
-- **SHA256SUM:** f62efea532c2af1df3311a20142bc5eff3cef3df27f663c37253875c58edebe6
-- **B3SUM:** b01240aa4cc7986777c7fccc77d6b6904c0eb2f128686a0eeb00afa4bda84316
+- **SHA256SUM:** a8427070137a08bc066c44a0461a1d1ff3a4f8479194f90e31df4475e4f40697
+- **B3SUM:** 7aac3d1854eb593442bb4d3a171c57cd0b6efc318524af4a00017e63a636d693
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tinja
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -18786,7 +18806,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/tlsx](https://github.com/projectdiscovery/tlsx)
 - **Repository:** [https://github.com/projectdiscovery/tlsx](https://github.com/projectdiscovery/tlsx)
-- **Stars:** 850
+- **Stars:** 852
 - **Version:** v1.1.8
 - **Updated:** 2024-10-28T03:28:48Z
 - **Size:** 24.38 MB
@@ -18806,7 +18826,7 @@
 - **Author:** tmate-io
 - **WebURL:** [https://github.com/tmate-io/tmate](https://github.com/tmate-io/tmate)
 - **Repository:** [https://github.com/tmate-io/tmate](https://github.com/tmate-io/tmate)
-- **Stars:** 5682
+- **Stars:** 5683
 - **Version:** 2.4.0
 - **Updated:** 2023-10-16T11:59:37Z
 - **Size:** 2.97 MB
@@ -18826,7 +18846,7 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 35177
+- **Stars:** 35180
 - **Version:** 3.5a
 - **Updated:** 2024-10-28T10:02:52Z
 - **Size:** 1.84 MB
@@ -18850,8 +18870,8 @@
 - **Version:** 
 - **Updated:** 2024-10-26T10:39:08Z
 - **Size:** 1.49 MB
-- **SHA256SUM:** 2590bbf0b7133752a6b68a504a4fa2778cc89d3de5a2ca5dfa348b99248dd572
-- **B3SUM:** 725cfbb62386b8ee70be38b9e29f14bc7b4c580c5872fac6d85f400dc12d2a90
+- **SHA256SUM:** b49139601935b0b5b28d431e93eae92e44ba7c5f22b81f624a3fdb243ea88631
+- **B3SUM:** c6bf15709d129ed0936e63e83b226fbac2105fbd79fbec9f587aaad4bd259f49
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tok
 - **Language:** Shell
 - **License:** The Unlicense
@@ -18866,12 +18886,12 @@
 - **Author:** XAMPPRocky
 - **WebURL:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
 - **Repository:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
-- **Stars:** 11137
+- **Stars:** 11139
 - **Version:** v13.0.0-alpha.6
 - **Updated:** 2024-10-11T11:57:59Z
 - **Size:** 4.02 MB
-- **SHA256SUM:** ee2191ecacb17025a011caa1e519fe15268bbdedb1ce117c86bc850b0144a554
-- **B3SUM:** b03baca5ba1fddfea9a8c1b4397c1b58225583785dee504de9a19fb69f80e86c
+- **SHA256SUM:** 0aa839df16070ca1510e61aad931033c32041490082aabad2dfc24581164f46e
+- **B3SUM:** 76e38ecfe43624644f46854c6fb62e0ad63c4f13c887a021be437711bbfd3089
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tokei
 - **Language:** Rust
 - **License:** Other
@@ -18890,8 +18910,8 @@
 - **Version:** v0.3.3
 - **Updated:** 2024-10-24T18:15:13Z
 - **Size:** 21.91 MB
-- **SHA256SUM:** 2ccf90f7944b840065fa4d31be596d075a6caf79ee4fc929b0fac6ed757d7fcf
-- **B3SUM:** 1b0193e14c95568d32258a4a709d54d925e0021f70ae7e5754b2ef3fc9f0f555
+- **SHA256SUM:** 8286236dbf5741abac42ce6b8f888563bc5e4f03e3da68a3ed155a88efa32167
+- **B3SUM:** ae3126bb21a2316ae4c262bdfe1cf3322fb5d18dbe5d02460cc7307af5bdd33d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/toru
 - **Language:** Go
 - **License:** MIT License
@@ -18906,9 +18926,9 @@
 - **Author:** landley
 - **WebURL:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
 - **Repository:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
-- **Stars:** 2426
+- **Stars:** 2427
 - **Version:** 0.8.11
-- **Updated:** 2024-10-23T17:01:15Z
+- **Updated:** 2024-10-29T16:52:09Z
 - **Size:** 841.69 KB
 - **SHA256SUM:** ef98721241d9949fc4b2472bbef76260c9669e8e5d0d7ac99de50fff26cc1aa9
 - **B3SUM:** a6db9d826c493db902409585080fcc8b4e262993450196561a023e271623a18e
@@ -18926,12 +18946,12 @@
 - **Author:** traefik
 - **WebURL:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
 - **Repository:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
-- **Stars:** 51104
+- **Stars:** 51115
 - **Version:** v3.2.0
-- **Updated:** 2024-10-29T14:14:58Z
-- **Size:** 160.29 MB
-- **SHA256SUM:** 77220321e9d0d7078fe3454750e4f7b4ea85cb7b0b28bee6841ac90db00acec7
-- **B3SUM:** 0997ac8b0888bec13d8c1b75b3ed7700051d78336b894a6656ed68c0e202592b
+- **Updated:** 2024-10-29T18:05:30Z
+- **Size:** 171.67 MB
+- **SHA256SUM:** 7aa8aa5a90233e9f7d58ed08c608c6999d18eceaeb7f20cab956c200e2f37b80
+- **B3SUM:** bc5752734ac5737cbb12120585fcb0fe79babd9730d5857c64e3cbf6221ecaad
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/traefik
 - **Language:** Go
 - **License:** MIT License
@@ -18946,9 +18966,9 @@
 - **Author:** transmission
 - **WebURL:** [https://transmissionbt.com/](https://transmissionbt.com/)
 - **Repository:** [https://github.com/transmission/transmission](https://github.com/transmission/transmission)
-- **Stars:** 12163
+- **Stars:** 12164
 - **Version:** 4.0.6
-- **Updated:** 2024-10-29T05:14:54Z
+- **Updated:** 2024-10-29T22:07:14Z
 - **Size:** 9.21 MB
 - **SHA256SUM:** 9768c87a878815a44ea09e7c6759f69578fc42e8dcedd82f0aa682b72400e692
 - **B3SUM:** 8592a23d4c76686a84b38e4ed537f04d4e36eff5d44b138e5d2dc11d6034d830
@@ -18966,12 +18986,12 @@
 - **Author:** fujiapple852
 - **WebURL:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
 - **Repository:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
-- **Stars:** 3681
+- **Stars:** 3685
 - **Version:** 0.11.0
 - **Updated:** 2024-10-28T03:32:03Z
-- **Size:** 6.59 MB
-- **SHA256SUM:** 592c45a62dc00639ea10c4cf305c92491b5346b37789ef7b7d5ec096c1e78911
-- **B3SUM:** 8a2f6c2a702e3c6ddd2da27c5fe35e7de80c52bf2b9cc17e6f27439343829e68
+- **Size:** 6.53 MB
+- **SHA256SUM:** 39fc1aadb572656cabf2ae859aa82ff15e7e2bc72b04a8bdf801da1c34bdac8e
+- **B3SUM:** 6f6940e1726fbdf09bdd015361181443b6123c1ffb4f6bc080cb94f99a8e13f7
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/trip
 - **Language:** Rust
 - **License:** Apache License 2.0
@@ -18986,12 +19006,12 @@
 - **Author:** trufflesecurity
 - **WebURL:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
 - **Repository:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
-- **Stars:** 16014
+- **Stars:** 16021
 - **Version:** v3.82.13
-- **Updated:** 2024-10-29T13:57:34Z
+- **Updated:** 2024-10-29T23:16:10Z
 - **Size:** 119.53 MB
-- **SHA256SUM:** 6b5644865229ec63732123136623c3907320f32e457851e9491b538bdbe864dc
-- **B3SUM:** 713ec3537ea798d77fd6589bfa0a19efd90c1c030c7325e552185ba03c3e4dd2
+- **SHA256SUM:** 73efe5ac4c3f287c076cc3939dc9a46283ac7c4ad4ae284037293548b9abeca9
+- **B3SUM:** 9f547bf4f1c83e5d1e3a2bf860c5f235b4931941fc62fc533d5f78a014181c82
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/trufflehog
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -19006,9 +19026,9 @@
 - **Author:** binpash
 - **WebURL:** [https://github.com/binpash/try](https://github.com/binpash/try)
 - **Repository:** [https://github.com/binpash/try](https://github.com/binpash/try)
-- **Stars:** 5199
+- **Stars:** 5200
 - **Version:** v0.2.0
-- **Updated:** 2024-10-29T06:00:27Z
+- **Updated:** 2024-10-29T18:18:24Z
 - **Size:** 23.31 KB
 - **SHA256SUM:** 5737eea6aea085ddb45092c9d3ed3ef78ecaeffa8a3280603a4e0fd983864a0b
 - **B3SUM:** 53692c2144e4f94acb4035f2ab9df5329a95a7cc03087558b11bcc40127d4baa
@@ -19026,7 +19046,7 @@
 - **Author:** trzsz
 - **WebURL:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
 - **Repository:** [https://github.com/trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh)
-- **Stars:** 1713
+- **Stars:** 1714
 - **Version:** v0.1.22
 - **Updated:** 2024-10-19T13:38:58Z
 - **Size:** 12.34 MB
@@ -19050,8 +19070,8 @@
 - **Version:** v3.0.3
 - **Updated:** 2024-03-13T23:09:02Z
 - **Size:** 12.15 MB
-- **SHA256SUM:** fe72111dd07dd42536fc850da911286870a93b1205080d802050f79092eeaed3
-- **B3SUM:** 6e0d17bfa247f359dfcf998b33705fefa12ae5944e055e4c39e5967a1d2cc986
+- **SHA256SUM:** 256bf641ab2e7b878e9dfa6e226c4c62b21ecafb130a064d27e77d15f60fba00
+- **B3SUM:** 08a9fe8b12ca9296c706d1d70eccde7a94765d24c67a7d9a3b0588d54837a7f1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tty2web
 - **Language:** Go
 - **License:** MIT License
@@ -19066,7 +19086,7 @@
 - **Author:** tsl0922
 - **WebURL:** [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
 - **Repository:** [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
-- **Stars:** 8121
+- **Stars:** 8123
 - **Version:** 1.7.7
 - **Updated:** 2024-06-14T17:12:42Z
 - **Size:** 1.37 MB
@@ -19090,8 +19110,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 21.95 MB
-- **SHA256SUM:** 33d10d3e8ee98cc91cb116b4b9fbb7851dd361aa118c4548cfe0ba81a955b597
-- **B3SUM:** 72b3409e1c1438bd9765c64b4c35fb11d3214770eb537e9b3eeb3cc774db02be
+- **SHA256SUM:** bb9e51e469cebf3d505f4fc5770fc2df0e906982dee00cec013527109c1c8ef2
+- **B3SUM:** 8a5bb7e25f32f9fcfe1ee337add77f5acf10a1ab4b53a33a54295b2deec462ab
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/tuiarchiver
 - **Language:** 
 - **License:** 
@@ -19106,7 +19126,7 @@
 - **Author:** tun2proxy
 - **WebURL:** [https://github.com/tun2proxy/tun2proxy](https://github.com/tun2proxy/tun2proxy)
 - **Repository:** [https://github.com/tun2proxy/tun2proxy](https://github.com/tun2proxy/tun2proxy)
-- **Stars:** 515
+- **Stars:** 516
 - **Version:** v0.6.0
 - **Updated:** 2024-10-28T06:05:11Z
 - **Size:** 3.81 MB
@@ -19126,7 +19146,7 @@
 - **Author:** tus
 - **WebURL:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
 - **Repository:** [https://github.com/tus/tusd](https://github.com/tus/tusd)
-- **Stars:** 3070
+- **Stars:** 3071
 - **Version:** v2.5.0
 - **Updated:** 2024-10-22T06:44:30Z
 - **Size:** 26.15 MB
@@ -19206,12 +19226,12 @@
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
-- **Stars:** 2605
+- **Stars:** 2606
 - **Version:** v0.14.0
 - **Updated:** 2024-10-28T16:55:09Z
 - **Size:** 6.83 MB
-- **SHA256SUM:** cbd2af6d1297969f6d176498317bfa4a72c863708c03fc0e83abd448ff1af87c
-- **B3SUM:** 61f54b234a5d6b2854e8f138a01dd63f6f44f5d42edd7b737b06ffb138df5ef6
+- **SHA256SUM:** 11fc5985160de1186cddea775d7f1149e0f398a02266a84c1a03dbe8f2b713b8
+- **B3SUM:** 49e0ceef94d8eb93ce41f48663c48056da81796ea31dc43017dec139a5a16ad9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/u-root
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -19226,12 +19246,12 @@
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
-- **Stars:** 2605
+- **Stars:** 2606
 - **Version:** v0.14.0
 - **Updated:** 2024-10-28T16:55:09Z
 - **Size:** 6.83 MB
-- **SHA256SUM:** cbd2af6d1297969f6d176498317bfa4a72c863708c03fc0e83abd448ff1af87c
-- **B3SUM:** 61f54b234a5d6b2854e8f138a01dd63f6f44f5d42edd7b737b06ffb138df5ef6
+- **SHA256SUM:** 11fc5985160de1186cddea775d7f1149e0f398a02266a84c1a03dbe8f2b713b8
+- **B3SUM:** 49e0ceef94d8eb93ce41f48663c48056da81796ea31dc43017dec139a5a16ad9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/uroot
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -19270,8 +19290,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 44.55 MB
-- **SHA256SUM:** 30311ed444e2c0a213a710eb579229b3df5f4fa7db8f357239c4dac6effc5e17
-- **B3SUM:** a970e1652725c831cbaeca8de2686d52147c08d534b180a31022c794d65ef3d9
+- **SHA256SUM:** 258ec950834b183d3164a409947b4e0a3761ab3abe9a8a9455502670c42e59b2
+- **B3SUM:** c2d1ca9cc6c5f961a6cb24649993d8aaf5b7d230fec094c4b68b11a397b86754
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ubuntu.no_strip
 - **Language:** 
 - **License:** 
@@ -19290,8 +19310,8 @@
 - **Version:** v1.0.7
 - **Updated:** 2023-04-23T20:52:18Z
 - **Size:** 2.36 MB
-- **SHA256SUM:** 582520423eae8af521b622158252d3af6bda9671e72cc7ac2443e859bb7f6532
-- **B3SUM:** c604f6a34b23ad69865a79c8ec5e91c05bcbca1d8cb82edd64455dabda8defdf
+- **SHA256SUM:** 468130992ee3ceaf3f02d9e5b78483b9ad3a259119adc33b08be0d833a35517a
+- **B3SUM:** 7c9a8c0a73c99eeaf590d382e1667c0ffaab2d26cc07adf11165a410c0c61b3b
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/udpx
 - **Language:** Go
 - **License:** MIT License
@@ -19329,9 +19349,9 @@
 - **Stars:** 9
 - **Version:** v0.1.2
 - **Updated:** 2024-10-24T10:08:14Z
-- **Size:** 5.35 MB
-- **SHA256SUM:** b53e59057811405f00ed84e4cb225be8ea842248e0303d12f288561401f6acf4
-- **B3SUM:** d31ec1adc90f6e3e527a4916ad5fa79a62bbe4a68850f24d842bffc5a3ce55b6
+- **Size:** 5.36 MB
+- **SHA256SUM:** 316b7c8e27a44c024bf1784df44fc85c4dc9435911fe4742f728293f0aa6ed35
+- **B3SUM:** d358776124b2dc6a2f48a74bd481526d5182c8919e8d8ec6c957ad840513c4d5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ulexec
 - **Language:** Rust
 - **License:** MIT License
@@ -19346,7 +19366,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
 - **Repository:** [https://github.com/projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
-- **Stars:** 2401
+- **Stars:** 2403
 - **Version:** v1.0.9
 - **Updated:** 2024-10-28T16:03:07Z
 - **Size:** 26.31 MB
@@ -19366,7 +19386,7 @@
 - **Author:** io12
 - **WebURL:** [https://github.com/io12/unf](https://github.com/io12/unf)
 - **Repository:** [https://github.com/io12/unf](https://github.com/io12/unf)
-- **Stars:** 59
+- **Stars:** 60
 - **Version:** 2.1.4
 - **Updated:** 2023-04-07T05:03:46Z
 - **Size:** 2.39 MB
@@ -19390,8 +19410,8 @@
 - **Version:** v0.4.3
 - **Updated:** 2023-08-12T04:13:27Z
 - **Size:** 5.44 MB
-- **SHA256SUM:** a066656337998c301c90b72476105240931fc1f2fb60fa43963f983bbd00f801
-- **B3SUM:** 7b1c73ea964c7794bd5c20076276c19cf6f6e52689d05854f7c3ec8080c03c4c
+- **SHA256SUM:** d1c5654a0f0e617201fa8be0a416dce4760efcbfdab5bcac0f48a6ac5157ec4f
+- **B3SUM:** aef79262c8cd529bf16b688d3072da3f7013a2027b2634579f05fcb70650d4bb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/unfurl
 - **Language:** Go
 - **License:** MIT License
@@ -19426,7 +19446,7 @@
 - **Author:** upx
 - **WebURL:** [https://github.com/upx/upx](https://github.com/upx/upx)
 - **Repository:** [https://github.com/upx/upx](https://github.com/upx/upx)
-- **Stars:** 14479
+- **Stars:** 14481
 - **Version:** v4.2.4
 - **Updated:** 2024-10-08T16:01:46Z
 - **Size:** 577.12 KB
@@ -19449,9 +19469,9 @@
 - **Stars:** 8955
 - **Version:** v0.19.12
 - **Updated:** 2024-10-27T00:49:13Z
-- **Size:** 133.6 MB
-- **SHA256SUM:** d0ad52332027a7abb3edf25fb9451da1e7b1c832eb3ba93f49c36915a702e937
-- **B3SUM:** ceecd724037bcf5135272a5fe45a6b8921986fc0bcc9bffd0302030dd98b58c2
+- **Size:** 150.63 MB
+- **SHA256SUM:** 791192c14ca9c41ed96f9633e2f419698c09e76d4c685c3369f52c181650d8c1
+- **B3SUM:** c06eaf714a625c25ebd02360d804943a07930e6dab528746f96feb3a3578ade9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/usql
 - **Language:** Go
 - **License:** MIT License
@@ -19466,12 +19486,12 @@
 - **Author:** v2rayA
 - **WebURL:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
 - **Repository:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
-- **Stars:** 11310
+- **Stars:** 11311
 - **Version:** v2.2.6.2
 - **Updated:** 2024-10-26T14:49:28Z
-- **Size:** 29.49 MB
-- **SHA256SUM:** d3523ebbf6e3740373ecbbc67f2965e6aec83fb8a0cbe317d321f0f9aa0deb63
-- **B3SUM:** 3d07c9dac3c69cc54a8d00f4bcd61587114a1ca5b0d29d9b5c03d7e538580040
+- **Size:** 30.02 MB
+- **SHA256SUM:** 0de75ef8714d919081cfb60cbdf5d552be9e5ab38734253ba1bddf816d24f200
+- **B3SUM:** 7f54bcacf2916dca69b32adce374ae5ce793141972fbdc78735344e5eae73609
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/v2raya
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -19490,8 +19510,8 @@
 - **Version:** 
 - **Updated:** 2024-02-23T02:24:07Z
 - **Size:** 6.4 MB
-- **SHA256SUM:** ac3ab9bc6af22dadb11315a31e12781966c0778710fa80ace81a3a8adf800b80
-- **B3SUM:** f0fdc920b005620bd1854c251a6e3e5cc100c85149a41bcd8d080522c8b4b4c6
+- **SHA256SUM:** 4ffc2352f9a78c6e78dbcf40d7682f4ae76233a14a0051a6257490de2023c6f3
+- **B3SUM:** 9a88b9126c9107fc169fd56b27f186ec469652f7210f80764ffa5a4aa39589b1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/v6run
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -19510,8 +19530,8 @@
 - **Version:** 0.2.0
 - **Updated:** 2023-02-25T17:58:15Z
 - **Size:** 4.25 MB
-- **SHA256SUM:** efa7b289c5821d4ce843ed4ab130495d39e5d39e4d2489fe64458dd0037dee66
-- **B3SUM:** f9f9a2daecfe0e5cbf2d45aaaba0705308a6022277c43596590e6908401274c8
+- **SHA256SUM:** ddb9602d90867d66be38a379721cfc5e1a1f4099719a9ace066e97bb3803e517
+- **B3SUM:** 98555baad31592fe748db66059676f6588f7b70057e5caca55a59dfccac798a0
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/validtoml
 - **Language:** Go
 - **License:** MIT License
@@ -19526,7 +19546,7 @@
 - **Author:** tsenart
 - **WebURL:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
 - **Repository:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
-- **Stars:** 23522
+- **Stars:** 23528
 - **Version:** v12.12.0
 - **Updated:** 2024-10-28T16:39:48Z
 - **Size:** 10.55 MB
@@ -19566,7 +19586,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
 - **Repository:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
-- **Stars:** 15104
+- **Stars:** 15109
 - **Version:** v0.8.0
 - **Updated:** 2024-10-28T11:59:10Z
 - **Size:** 21.89 MB
@@ -19586,7 +19606,7 @@
 - **Author:** sachaos
 - **WebURL:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
 - **Repository:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
-- **Stars:** 4745
+- **Stars:** 4757
 - **Version:** v1.2.0
 - **Updated:** 2024-10-13T18:00:07Z
 - **Size:** 7.31 MB
@@ -19610,8 +19630,8 @@
 - **Version:** v0.2
 - **Updated:** 2023-05-10T07:58:16Z
 - **Size:** 8.77 MB
-- **SHA256SUM:** 7f142557662d2c0ec56ff11ecd771d5fa138e83f82ef7906c5f0e8e2cb9acd54
-- **B3SUM:** 962bdc0536724c793a03d1c5c28182a637fa1fb65619967b47a505b778aa1065
+- **SHA256SUM:** 7c45e685a542413f5409d6b755ff8d831d95ba3e701500abab52d8f8a8081220
+- **B3SUM:** 44973262a076343c8a5e53a0b3771f4d3344a2f35995dc0401b00dd6f91eb8a9
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/viewgen_staticx
 - **Language:** Python
 - **License:** MIT License
@@ -19626,7 +19646,7 @@
 - **Author:** atanunq
 - **WebURL:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
 - **Repository:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
-- **Stars:** 2569
+- **Stars:** 2570
 - **Version:** v1.5.1
 - **Updated:** 2024-10-22T20:11:21Z
 - **Size:** 3.23 MB
@@ -19650,8 +19670,8 @@
 - **Version:** v2.12
 - **Updated:** 2024-09-06T17:30:33Z
 - **Size:** 1.73 MB
-- **SHA256SUM:** 6af58b7c8ce8f39d5eafc073251e300b0b4f7b1e328f8c18c9ebf1d065949720
-- **B3SUM:** 701e97ec4d95a500359e41448ee24bf1dafc4ef3c20e374cc0c39a933e5a1871
+- **SHA256SUM:** b7bc166dda24fc3f6b2f62477610d8cbcd2b5581682824eba9efc2a32bb8b924
+- **B3SUM:** 1672ba8d67ae391e5dd67c1003a76aaa53adf7c43799c136b7895ba7c6bde3eb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/vnstat
 - **Language:** C
 - **License:** GNU General Public License v2.0
@@ -19670,8 +19690,8 @@
 - **Version:** 
 - **Updated:** 2024-05-26T07:40:12Z
 - **Size:** 64.38 MB
-- **SHA256SUM:** a6ec661b2fcc1bc9a07845f4bee47260a141d9f93ad9029fc4e9d104417f8baa
-- **B3SUM:** 3e5fa257a6bb50a9a2ac1b5b4730c72c92384321e857b7d14a7cf64ee0c2080f
+- **SHA256SUM:** 3588debd9964c6b3f0500ed970cea236c2a09de04b907f090ac9a8cac24e4407
+- **B3SUM:** 6d7fe993a9169b2d90245ce9f9afbc4e6c3fee291277d4ec32540e41e59cbc96
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/void-glibc.no_strip
 - **Language:** Dockerfile
 - **License:** Other
@@ -19690,8 +19710,8 @@
 - **Version:** 
 - **Updated:** 2024-05-26T07:40:12Z
 - **Size:** 49.63 MB
-- **SHA256SUM:** fd72ce1ba8133edc40434738d5ce9758452489727ae9d65108eba5a24d3ec671
-- **B3SUM:** 056cba36969fc95f6d22e88ccb28fdb20e172059a3ff24fc29823f59b6c63836
+- **SHA256SUM:** 574e8b8ff3ebba1a6881c4d6fa0e7b0240485f26c9f2fce49bfcdab53bfeb442
+- **B3SUM:** 121d911342f4a3dbd1e45fd02f940ebfa70c2084ce7c74288caed9614712e57d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/void-musl.no_strip
 - **Language:** Dockerfile
 - **License:** Other
@@ -19708,10 +19728,10 @@
 - **Repository:** [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
 - **Stars:** 11075
 - **Version:** v2.0.1
-- **Updated:** 2024-10-24T18:03:48Z
-- **Size:** 5.4 MB
-- **SHA256SUM:** a30a9ee308ebc4084fd3094c75eec8d2f7db1d264fc096f89fcf167c34342cce
-- **B3SUM:** 5db0a94ebc0b7e2343c325fed568b2f1f3e39ec1248ce66d3b8d02f4541c0bd0
+- **Updated:** 2024-10-29T14:57:46Z
+- **Size:** 5.36 MB
+- **SHA256SUM:** 60c15ad5299599aaa9c9918d9956e05719c6821c52e9e581e2f93c7c0a0de1e2
+- **B3SUM:** 071539f01b84bc47735dd9a6c1c6ff75b586634bbbb9af2ad7c1b15a7fc329c6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/volta
 - **Language:** Rust
 - **License:** Other
@@ -19769,9 +19789,9 @@
 - **Stars:** 1618
 - **Version:** v0.9.99.35
 - **Updated:** 2024-10-25T19:44:21Z
-- **Size:** 5.44 MB
-- **SHA256SUM:** 29c1b0ffc6ddda4e3a4189e8f0d513c1af42cd985711c7ccb4cc016a50923ef4
-- **B3SUM:** 6e1cc0a061c56898d6b4e585aa86276eee79058d0ef0740d186fc8ccd5d67e7d
+- **Size:** 5.42 MB
+- **SHA256SUM:** bc3e50e8148b99187eda5d134cebb124fb27f337bd2607d1781713f20cf37561
+- **B3SUM:** 76a5717bffb0fe65a2110d330f936a9702c8ccb5066a770c88ae1ca4b18fd227
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/vtm
 - **Language:** C++
 - **License:** MIT License
@@ -19810,8 +19830,8 @@
 - **Version:** v0.1.1
 - **Updated:** 2024-10-19T00:06:11Z
 - **Size:** 6.28 MB
-- **SHA256SUM:** 1512cb0442feb8c62a9ba78f61b931ea23a8bf1436a927ff4d01ee83b54fb495
-- **B3SUM:** c0c949b98a0c2287e829afc02c6996afbc57164cd49e3f82fc428774480f450a
+- **SHA256SUM:** b039ef449fb02a5d01a2169be7541f342d7944727bfdd815273295dd0ecbac8f
+- **B3SUM:** 1cab3359d224feda2917c9b6c9d041f44f1298d5ed06f7ce2712e738877c9be1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wadl-dumper
 - **Language:** Go
 - **License:** MIT License
@@ -19850,8 +19870,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 4.39 MB
-- **SHA256SUM:** 30a1daa7e9ce82f0979da3e6c1801e7648751135320fa53903fc9faf66d7fc66
-- **B3SUM:** 1fb9ccc6bcbb39784044cc532fbf09a4c1d229a9c9265a6fdfb19b39a6b4dc80
+- **SHA256SUM:** 46523d6cccfaab3d38420b9b6592e5e0317556074872ea9a1477fb9243696cfb
+- **B3SUM:** a5282161956e127c5be8c9d1cbf9972657d207e097544b0324a8ec86ba44b846
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-cli
 - **Language:** 
 - **License:** 
@@ -19870,8 +19890,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 5.49 MB
-- **SHA256SUM:** f2b795e84bcaca75e9056026e8fe7ff0a82c574f995423d6d00c1c6edd8759a3
-- **B3SUM:** 79563f1b11f7e1ddb6071f28c48873939de80c4e719ef4ee195fcacebe2494b2
+- **SHA256SUM:** 210cd4d1e88e65cd63e85a6309d42067e504e2b19037ad621119804874608fea
+- **B3SUM:** 64514d83d057f966837e3fcd2663970853c30f4c6e6b96c13d79f90d8114a6cc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-dex
 - **Language:** 
 - **License:** 
@@ -19890,8 +19910,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 6.67 MB
-- **SHA256SUM:** f3eb626273ae03fe199fe142f7a8df856a3bec04f9e3cbc8697be5862022f054
-- **B3SUM:** d7c926ab1b79a59200425e9194eeab645b2ee4d845b3a3c9320ba3f7ae908350
+- **SHA256SUM:** b19110ba9413d6370a79cb72a382c3fe47baf8efde64c92c000a4ab2361a7f12
+- **B3SUM:** 44b5ca10a860c339febea43efb9acaca3b2b900b07e10f5afc07f56a5c66b0cf
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-diag
 - **Language:** 
 - **License:** 
@@ -19909,9 +19929,9 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 10.87 MB
-- **SHA256SUM:** 6823206f94ca545e1057f3e7479448a2003bea828c06360228b16617547ba96f
-- **B3SUM:** 324ac3233589035e51e71ded25211de0b4928cf67049da274dc0463d618a9a93
+- **Size:** 10.88 MB
+- **SHA256SUM:** ffb9535995aa7961edcd94d8057bf0aeec5458c6ebd64c227974fee8216fd434
+- **B3SUM:** 36d0b83903d64b21e735dd476a8070b7fbcd3a819afa8b6db22696667fd71f31
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/warp-svc
 - **Language:** 
 - **License:** 
@@ -19926,12 +19946,12 @@
 - **Author:** minio
 - **WebURL:** [https://github.com/minio/warp](https://github.com/minio/warp)
 - **Repository:** [https://github.com/minio/warp](https://github.com/minio/warp)
-- **Stars:** 561
+- **Stars:** 562
 - **Version:** v1.0.4
 - **Updated:** 2024-10-29T10:04:38Z
 - **Size:** 16.72 MB
-- **SHA256SUM:** dfc7111677e63060ae7eebfe1a3d34a15a03d1c456d0ef3e8eca4df3de24b80d
-- **B3SUM:** 5c62c2ffcadd84077e70093fba14fae7eb9ba1639e44a86212e876fd9fed941e
+- **SHA256SUM:** c85bbed2b53c12f890e8b790098e96ea778aae1f206b0a440ba299017166cf84
+- **B3SUM:** 835e5d54ac57b5dc8163ff45e4697f672ef6717824b01dab78277f839ea32da8
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/warp
 - **Language:** Go
 - **License:** GNU Affero General Public License v3.0
@@ -19946,7 +19966,7 @@
 - **Author:** watchexec
 - **WebURL:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
 - **Repository:** [https://github.com/watchexec/watchexec](https://github.com/watchexec/watchexec)
-- **Stars:** 5342
+- **Stars:** 5343
 - **Version:** v2.2.0
 - **Updated:** 2024-10-28T15:41:14Z
 - **Size:** 7.3 MB
@@ -19966,12 +19986,12 @@
 - **Author:** mhmdiaa
 - **WebURL:** [https://github.com/mhmdiaa/waybackrobots](https://github.com/mhmdiaa/waybackrobots)
 - **Repository:** [https://github.com/mhmdiaa/waybackrobots](https://github.com/mhmdiaa/waybackrobots)
-- **Stars:** 37
+- **Stars:** 38
 - **Version:** v1.0.1
 - **Updated:** 2023-09-21T15:25:43Z
 - **Size:** 5.91 MB
-- **SHA256SUM:** 919510dd47b7ab441c298f17c9e195f545fd90b9d99c3b153a061a701d05eea9
-- **B3SUM:** 508ad47769109b9c2cf70c796973e719bdf4e8dbb3b0886c51674b135f5d8a55
+- **SHA256SUM:** cc05210320feac8426daf8e433954b18b1d47469fb0fb32acfd65bb1f303b9d4
+- **B3SUM:** e94354ec4de086e52ed6fa50564bcfac827d5124cef1e6a0692dc7148c31548d
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/waybackrobots
 - **Language:** Go
 - **License:** MIT License
@@ -19986,12 +20006,12 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/waybackurls](https://github.com/tomnomnom/waybackurls)
 - **Repository:** [https://github.com/tomnomnom/waybackurls](https://github.com/tomnomnom/waybackurls)
-- **Stars:** 3514
+- **Stars:** 3516
 - **Version:** v0.1.0
 - **Updated:** 2024-05-01T05:40:44Z
 - **Size:** 5.19 MB
-- **SHA256SUM:** fc07122a833b94ca2f852c036d9fa15ee116e66ba53eae2a139c2bbcba2405b9
-- **B3SUM:** e13d338b44de5e7e671d08a598c59a8e1524fd78192ee735ab6bc9a95da20f97
+- **SHA256SUM:** f63fe203d56ca166f82a4a5550130e73da58f9146ecef186d716a8060cfe135c
+- **B3SUM:** 4dda927ed16290cf06807d0d9293a50c86f8e968176b9483f76cb1cefd45d188
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/waybackurls
 - **Language:** Go
 - **License:** 
@@ -20010,8 +20030,8 @@
 - **Version:** 1.2.1
 - **Updated:** 2024-03-20T08:17:24Z
 - **Size:** 5.92 MB
-- **SHA256SUM:** fb63059c1285ac9ca24c696904d4e4dd310ca6c72e17823cd630b094bcbca98c
-- **B3SUM:** c056a98c4036105104e6b21a1f6c5bf896eee54b6a5aef42e082dc5a2b84ea3f
+- **SHA256SUM:** 919930f95c99e5d7f0064e86d343c536b7fa72733e1af27105183286e504d1e2
+- **B3SUM:** 31b588f27727ca791cb94e7e39cb3acde7184545d83b170d0303cdce46dfe3d4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/web-cache-vulnerability-scanner
 - **Language:** Go
 - **License:** Other
@@ -20026,9 +20046,9 @@
 - **Author:** vi
 - **WebURL:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
 - **Repository:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
-- **Stars:** 7084
+- **Stars:** 7089
 - **Version:** v1.13.0
-- **Updated:** 2024-10-15T09:50:53Z
+- **Updated:** 2024-10-29T18:28:20Z
 - **Size:** 5.94 MB
 - **SHA256SUM:** ef90459c2886463ddb889eb5df454dede7067f594e3be482e182dd0752340cca
 - **B3SUM:** 28c8af169fc675e1c6cf3ef3d277795e39d4021fd47c885cbdb24f1824abc0ef
@@ -20046,12 +20066,12 @@
 - **Author:** schachmat
 - **WebURL:** [https://github.com/schachmat/wego](https://github.com/schachmat/wego)
 - **Repository:** [https://github.com/schachmat/wego](https://github.com/schachmat/wego)
-- **Stars:** 7814
+- **Stars:** 7815
 - **Version:** 2.3
 - **Updated:** 2024-10-06T16:47:46Z
 - **Size:** 6.11 MB
-- **SHA256SUM:** 95eb5c466d8c834bd1d2b0fcc62d1baef731e05abf4d4f775966b12d76816725
-- **B3SUM:** 07f845cfabd6f2d57d7b8724eb0bcccfd95f9982e586c76d67af5e5ddcf15447
+- **SHA256SUM:** 378413d40b5100fb5d684c905e27ff767608b88fe4e68c809af356ea9045cf85
+- **B3SUM:** df6f5459b937466ff31ccde6cd552f4f4318b778bbef2624a2143f9211ccdf3e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wego
 - **Language:** Go
 - **License:** ISC License
@@ -20066,7 +20086,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 17535
+- **Stars:** 17549
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-27T00:24:36Z
 - **Size:** 438.4 KB
@@ -20086,12 +20106,12 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 17535
+- **Stars:** 17549
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-27T00:24:36Z
 - **Size:** 1.06 MB
-- **SHA256SUM:** ca633373eff2d119dfea68df3de70be5e347293c7f732b2729125d1314004e5d
-- **B3SUM:** ddd250fbfac859acb2d42a3043003f0abd71407b0a043baf3080e26b35e851a5
+- **SHA256SUM:** ee4c3d8f47bb6b99243751193e32dddf35e0bb06f8a773fde0f5ca946860112a
+- **B3SUM:** 0b6a4ee718824dd9809f755cdad34780beba03132d20760de9af89919ba3a125
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/strip-ansi-escapes
 - **Language:** Rust
 - **License:** Other
@@ -20106,7 +20126,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 17535
+- **Stars:** 17549
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-27T00:24:36Z
 - **Size:** 10.42 MB
@@ -20126,12 +20146,12 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 17535
+- **Stars:** 17549
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-27T00:24:36Z
 - **Size:** 24.71 MB
-- **SHA256SUM:** 025f129479b8f9664d58934662e370ebe6fe92cf44592d8afe000df1bc605b95
-- **B3SUM:** 75a7cf7662f890bdcc2d6def64d89447d769f2f96b1a331e8348879434479cd4
+- **SHA256SUM:** 97e5bb8e3e217442d19720083c52f2bc1b7c0c009ae35cef30560172f99931ef
+- **B3SUM:** 0fbb966161e54deae79beeed94de31e022af0492afb7dedf1f08b98d762059e2
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wezterm
 - **Language:** Rust
 - **License:** Other
@@ -20146,12 +20166,12 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 17535
+- **Stars:** 17549
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-10-27T00:24:36Z
 - **Size:** 23.11 MB
-- **SHA256SUM:** ad16cebecc3ca72234fbfd537a8026772b1b5d903a1d0185ac8c12fafc1505a3
-- **B3SUM:** c25d1321e6a1b589a1c78bd0fc44d0c50e0bbce1b6f9f633eb58b39ddd9f159b
+- **SHA256SUM:** cc4f3d4b0a2d644061c64962e8b37a79242364991e88a1bf48a98fc236a4ec06
+- **B3SUM:** 7a5f8a063f16905d0f00deb96dc88d537b8a4011e334aa436299b3de27107b54
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wezterm-mux-server
 - **Language:** Rust
 - **License:** Other
@@ -20170,8 +20190,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 6.01 MB
-- **SHA256SUM:** 2bf8498acfd62d4d13b2dfdc90364ffee9182c25325c3a6a324fbc1b29242bac
-- **B3SUM:** a2cfda633a69eea2511eaf137c666e342b17723152959e831bebc0073d6cf3d9
+- **SHA256SUM:** 50c98d5d5e4587dc1317d8c9ee9b30ea5476f5ee24acd999d27aca042bdd15ae
+- **B3SUM:** 1419365ec7c5093302a9e4b82149dd502a601d8278fdf09de5c42fe3035053f3
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wget
 - **Language:** 
 - **License:** 
@@ -20230,8 +20250,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 2.93 MB
-- **SHA256SUM:** c02243264fead514dbf1b751f980a5b33e79fb7a9533cb4bdcdef8dff734d426
-- **B3SUM:** 236dde08e57ecef043854094d1c9f4efb9f7f985913aca72a128948f3acda77a
+- **SHA256SUM:** 9df8f3ed8adf5df961ed03224b51cea4bdd9ac72eb39361769635232b9176354
+- **B3SUM:** aeb6604066acd9f40f8bda1cc58135162080c374206ee0b0d1943d403d0cf5a6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wireguard-go
 - **Language:** 
 - **License:** 
@@ -20306,7 +20326,7 @@
 - **Author:** pufferffish
 - **WebURL:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
 - **Repository:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
-- **Stars:** 4452
+- **Stars:** 4453
 - **Version:** v1.0.9
 - **Updated:** 2024-09-03T20:21:40Z
 - **Size:** 8.13 MB
@@ -20350,8 +20370,8 @@
 - **Version:** 0.7.3
 - **Updated:** 2024-10-25T00:32:15Z
 - **Size:** 7.83 MB
-- **SHA256SUM:** 6c0799ad221b6ae4a179a90f790a94768e5b4acb862f967d54c4884fc9a02713
-- **B3SUM:** 9a9bb5df930cd31ae28984ce4d55882b14efd080f1cb755c91492a808e422c20
+- **SHA256SUM:** 6540e0d69b8aa0bedf3b751e012dc4db369b6e00f23f9f90c0614f41b7f8f74c
+- **B3SUM:** 42aeb97f7b983aeea24542897e439b78333075ed71955b106633656cc28052a6
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wormhole-rs
 - **Language:** Rust
 - **License:** European Union Public License 1.2
@@ -20366,7 +20386,7 @@
 - **Author:** erebe
 - **WebURL:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
 - **Repository:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
-- **Stars:** 4271
+- **Stars:** 4274
 - **Version:** v10.1.5
 - **Updated:** 2024-10-16T15:21:01Z
 - **Size:** 9.69 MB
@@ -20386,7 +20406,7 @@
 - **Author:** wtfutil
 - **WebURL:** [https://github.com/wtfutil/wtf](https://github.com/wtfutil/wtf)
 - **Repository:** [https://github.com/wtfutil/wtf](https://github.com/wtfutil/wtf)
-- **Stars:** 15836
+- **Stars:** 15839
 - **Version:** v0.43.0
 - **Updated:** 2024-08-10T01:51:27Z
 - **Size:** 61.07 MB
@@ -20426,12 +20446,12 @@
 - **Author:** coder
 - **WebURL:** [https://wush.dev](https://wush.dev)
 - **Repository:** [https://github.com/coder/wush](https://github.com/coder/wush)
-- **Stars:** 848
+- **Stars:** 849
 - **Version:** v0.3.0
-- **Updated:** 2024-10-28T18:33:29Z
+- **Updated:** 2024-10-30T00:37:39Z
 - **Size:** 46.43 MB
-- **SHA256SUM:** fe5cd47850d84d338dd4bc159482dd14983bee39c72cd03bfb837efd40e196f9
-- **B3SUM:** 158555370e036d56a38a938d9dbacf60ce4055b1db4439a0d80c34f53c07d638
+- **SHA256SUM:** d2fd515f67d3ba513537b42014d4ccad7ecf64bde6a8193afb8a5f7c62fade70
+- **B3SUM:** 37b71c26dc58f7b1e522648724565e8db01d780b0d41cde7d73c0367c67bc607
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/wush
 - **Language:** Go
 - **License:** Creative Commons Zero v1.0 Universal
@@ -20450,8 +20470,8 @@
 - **Version:** v4.3.0
 - **Updated:** 2024-09-08T10:29:37Z
 - **Size:** 10.86 MB
-- **SHA256SUM:** 15d2f7a43f58f0391d3f14be7f72994cf3a894a13869b8e0b66321bd703535ea
-- **B3SUM:** 93664214a4d7356ca1ac87037d1191520185bd04ea291e744f228ebfb31f42e4
+- **SHA256SUM:** 11a3ab5d84ad6c9d1f4c0c32dbafd6650594b6224ef62022a0184d01a9e2c4fd
+- **B3SUM:** a5dcc9a7119c35eaec5541899a3c7c668b8d20099472df480251bb9ab8e6f6a2
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/x8
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -20468,10 +20488,10 @@
 - **Repository:** [https://github.com/medialab/xan](https://github.com/medialab/xan)
 - **Stars:** 170
 - **Version:** 0.13.0
-- **Updated:** 2024-10-29T14:05:41Z
-- **Size:** 8.12 MB
-- **SHA256SUM:** 9f9e56f1a7d764cefdba1ee724ffdee05ecd5a01e5aef78981cfef08f2674b88
-- **B3SUM:** cafa015a5edf1c53140a454c9981622e0590130271ac7577b6a52d46e820014b
+- **Updated:** 2024-10-29T16:56:08Z
+- **Size:** 8.27 MB
+- **SHA256SUM:** 8d853bc4376d6f08f03039b7292ba3e19d4669ee1ef30358b319528b6495ab53
+- **B3SUM:** 0f14e126d6e6bbd948146268d632de31aa49f345f1e057c0361a74917106119f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/xan
 - **Language:** Rust
 - **License:** The Unlicense
@@ -20489,9 +20509,9 @@
 - **Stars:** 744
 - **Version:** v0.22.0
 - **Updated:** 2024-10-28T02:40:11Z
-- **Size:** 3.17 MB
-- **SHA256SUM:** 60b8381474d33568f0716b01e9ab111ab72f2ff1b74f74967b90acb342b7e28c
-- **B3SUM:** 7715725e6aed59d9cacdaced09318ed085623f3c84fa59ae1148e61a6fd0d497
+- **Size:** 3.19 MB
+- **SHA256SUM:** 5dce0361cd42c606040bd5868a391fb466846a53df0725c3cf3d1edacf8b9629
+- **B3SUM:** 659e2432c9af4a3926f65d279080af1471ee11ecde09ea27368286cecd9988d1
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/xcp
 - **Language:** Rust
 - **License:** GNU General Public License v3.0
@@ -20526,12 +20546,12 @@
 - **Author:** jordansissel
 - **WebURL:** [https://github.com/jordansissel/xdotool](https://github.com/jordansissel/xdotool)
 - **Repository:** [https://github.com/jordansissel/xdotool](https://github.com/jordansissel/xdotool)
-- **Stars:** 3233
+- **Stars:** 3235
 - **Version:** v3.20211022.1
 - **Updated:** 2024-10-16T06:17:12Z
 - **Size:** 1.06 MB
-- **SHA256SUM:** 06ba884201b99c0ec1053b003719731f8777744b91dc2d7e1cead9ba5864245d
-- **B3SUM:** 4d5b037c8516ccd2ee5b5ea349c8fd86e44baea217b15084fcd2cbe780390095
+- **SHA256SUM:** 7772985d59bdf900f232cedf3382a01dd723a4ad888b8bcdf20f27df1f2c604c
+- **B3SUM:** e607931e81138a346c42725ef2fc7076d2b7afad4e997433164dac6ce49c6c44
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/xdotool
 - **Language:** C
 - **License:** Other
@@ -20569,9 +20589,9 @@
 - **Stars:** 
 - **Version:** 
 - **Updated:** 
-- **Size:** 968.23 KB
-- **SHA256SUM:** 10eb342892f7bd7349349c92a84401cdcf5eb866fe3d49d7c3e972ca2394359d
-- **B3SUM:** 272eb7be59e0b80b6dc8ab2ba67c4b1588ea103887fade2e1244a284f3d12a1b
+- **Size:** 967.88 KB
+- **SHA256SUM:** c3c3bbe11ea9c4e8eb10ad6b7ea58b86288a8723f264fa5f45ff6594e1a80506
+- **B3SUM:** ee90bc69009ec15a46699ee8450a1e839332b98c0e0cf9e6cac7bd988fa7e993
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/xhost
 - **Language:** 
 - **License:** 
@@ -20606,7 +20626,7 @@
 - **Author:** sibprogrammer
 - **WebURL:** [https://github.com/sibprogrammer/xq](https://github.com/sibprogrammer/xq)
 - **Repository:** [https://github.com/sibprogrammer/xq](https://github.com/sibprogrammer/xq)
-- **Stars:** 848
+- **Stars:** 849
 - **Version:** v1.2.5
 - **Updated:** 2024-10-28T09:48:53Z
 - **Size:** 6.95 MB
@@ -20630,8 +20650,8 @@
 - **Version:** v2.5.0
 - **Updated:** 2024-10-01T14:55:55Z
 - **Size:** 5.34 MB
-- **SHA256SUM:** 58f115847ce5faccf820f0552a4ec5f57a09718cde4943768cf9e4d56c01d117
-- **B3SUM:** 4649c0ae5b7eb0fb8cf47133b3f9b9d1276b79025d7d17f58b220f688e8e5620
+- **SHA256SUM:** 36f3169d4ce405ec1452d1b22dae71eb0262fe84d9a2f335de7cf6d55aac55ba
+- **B3SUM:** 90bb2b890b386e4e67c11e5cae3fb15d5fb0a6d28c702281154719fd347149e5
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/xurls
 - **Language:** Go
 - **License:** BSD 3-Clause New or Revised License
@@ -20646,7 +20666,7 @@
 - **Author:** masonr
 - **WebURL:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
 - **Repository:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
-- **Stars:** 4305
+- **Stars:** 4308
 - **Version:** 
 - **Updated:** 2024-07-27T14:41:41Z
 - **Size:** 45.17 KB
@@ -20670,8 +20690,8 @@
 - **Version:** 
 - **Updated:** 2023-03-09T19:40:31Z
 - **Size:** 6.77 MB
-- **SHA256SUM:** 0a21db18e6ff6c6052161fab0fe512753b828177ebb2e5db66c419a621b2ef72
-- **B3SUM:** 88689eebe2d4b6c4ae30368ae7545fcc93d14f509b91750ac38bfe0316931068
+- **SHA256SUM:** 80ec3a04c09c99d8eac3a49a46ec929603156ac29a5b7bf7908d7f900256bfd4
+- **B3SUM:** 6df89538038d798eb40d9331b12c5f291ddd906ad3371bb25f4d6f7c7d290518
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/yalis
 - **Language:** Go
 - **License:** GNU General Public License v3.0
@@ -20690,8 +20710,8 @@
 - **Version:** 1.0.0
 - **Updated:** 2024-09-11T09:53:05Z
 - **Size:** 5.24 MB
-- **SHA256SUM:** 132cf50e31961384fb3415f85c197f29fd5a29d57c9d2e1d817ad4ac261a3ae3
-- **B3SUM:** a79856d7cacc88b2dc54960b3da7e4648b3ddb2c397788a756c60c0e9a71bde3
+- **SHA256SUM:** 6410f990b1824595123534127d815b7d0c4c6280b0f7604b5369770ea003b3e0
+- **B3SUM:** 0eea5da720c348ea0d425be84e0d2e67e1fddb13d5ae24786eed1cfb99941a61
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/yataf
 - **Language:** Go
 - **License:** 
@@ -20706,12 +20726,12 @@
 - **Author:** sxyazi
 - **WebURL:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - **Repository:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
-- **Stars:** 16006
+- **Stars:** 16021
 - **Version:** v0.3.3
 - **Updated:** 2024-10-29T11:11:52Z
-- **Size:** 14.53 MB
-- **SHA256SUM:** 059491425fc4b510ec105e76c84affcc81f6951d2af496cc679e09fec908ce2e
-- **B3SUM:** 738fd7c5788dde0d4329d88265c4683b8a23805acb7e486fc3844cd3275ed298
+- **Size:** 14.51 MB
+- **SHA256SUM:** 7d7b21df2b19ca2350ab31fe6307c1a0fb2a1625443be31cc8b19120ef42a565
+- **B3SUM:** 00071083469a9add52083d96bfcd5e69da56857c83f12bb4c60b6013b61b43a4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/yazi
 - **Language:** Rust
 - **License:** MIT License
@@ -20768,10 +20788,10 @@
 - **Repository:** [https://github.com/mudler/yip](https://github.com/mudler/yip)
 - **Stars:** 71
 - **Version:** v1.12.0
-- **Updated:** 2024-10-22T07:50:39Z
+- **Updated:** 2024-10-30T01:14:36Z
 - **Size:** 14.76 MB
-- **SHA256SUM:** bc20e51cf38431acab971150bc4150bf6634121433dff31b998e5bee8a5faae0
-- **B3SUM:** a15e4fe953814761d4a1f827d3e0084772b941e4282c5577d48a1c3d42c9d037
+- **SHA256SUM:** d0fd12821ea780ed6fd2c601d0f0e1d3ae82649133ca52b0ad9a2ae5fa72052a
+- **B3SUM:** 4507cf5c9480bbe4b240052b822ab1af1380fe615ed3ef9dfca885c328a99c10
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/yip
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -20790,8 +20810,8 @@
 - **Version:** v5.1.0
 - **Updated:** 2024-01-01T17:54:01Z
 - **Size:** 3.06 MB
-- **SHA256SUM:** 47be13d7f64afa02fea98e75c3935dda32166cf00dd275d472dbae703f051c94
-- **B3SUM:** 6688e4f0bf0ef52c8f7114379ed2cc93891fd8604eb5d48537d3fe93acaaf60a
+- **SHA256SUM:** 7e1a079ce5a078d853e414ad11ebe1dc2ab94a48a574bd1d601d4e81517eb962
+- **B3SUM:** 883f83e72594244feb9eb135c58bc686e27912041cbd9dc48df4cc0f57658107
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/yj
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -20806,7 +20826,7 @@
 - **Author:** mikefarah
 - **WebURL:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
 - **Repository:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
-- **Stars:** 12148
+- **Stars:** 12162
 - **Version:** v4.44.3
 - **Updated:** 2024-10-24T03:37:22Z
 - **Size:** 9.64 MB
@@ -20826,12 +20846,12 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://discord.gg/H5MNcFW63r](https://discord.gg/H5MNcFW63r)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 86287
+- **Stars:** 86327
 - **Version:** 2024.10.22
-- **Updated:** 2024-10-28T11:08:46Z
+- **Updated:** 2024-10-29T23:25:46Z
 - **Size:** 34.15 MB
-- **SHA256SUM:** 4f86c94b258f25a2b33b4588bd2dc5f9bd80a5707b9660c3836d23a0f768f731
-- **B3SUM:** ff6657b3e53255f5ca9728098fbfba9e146ae11199d225445d2f854daad70074
+- **SHA256SUM:** 3da07b9e2d0ac2a12452c78948feda9be3d937e1b17e2b38701b3e1461ff3164
+- **B3SUM:** bf564279048703249fe10ac941378d803377de6a95e0d0675e218e02c2ec0ad4
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/yt-dlp
 - **Language:** Python
 - **License:** The Unlicense
@@ -20849,9 +20869,9 @@
 - **Stars:** 78
 - **Version:** v0.2.1
 - **Updated:** 2024-10-22T20:26:23Z
-- **Size:** 6.05 MB
-- **SHA256SUM:** 5ab9a9e4452a96223bc346c2bd744ede1e6f0e473cb3ee403866e38edbc4cef1
-- **B3SUM:** aa9d2a4e1de30364e94a1a5dc5fb265f21570a98992ab8c1af3ae00bfad4b152
+- **Size:** 6.1 MB
+- **SHA256SUM:** 41905eab8a8320c819983e6d19e4795ad6f28a0aaa7df42db184ed6627aaf64d
+- **B3SUM:** 9276d79672a348ab4bbeb0a1cdf3d978ac70c3c669849feac3ce039f5125d422
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/z-tokens
 - **Language:** Rust
 - **License:** 
@@ -20870,8 +20890,8 @@
 - **Version:** v0.2.1
 - **Updated:** 2024-10-22T20:26:23Z
 - **Size:** 503.38 KB
-- **SHA256SUM:** b01c1c6c01ff8b77802ce15849edaec9b40ec9fe7fbd147503a27c785cc99d03
-- **B3SUM:** 8bb8c3088bb9b45c3e8cbc5ceb8831919700fae2f01acdf76a148dfd99b48971
+- **SHA256SUM:** 5b82f220ed678c3208a76461b7d4a8170d3ad158c5589c504920388ffbd90002
+- **B3SUM:** 68f9c8bb31bf56f59a96f904d8df6327ddfd2c39a90d6093ecdaa78b6b8b431e
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-encodings
 - **Language:** Rust
 - **License:** 
@@ -20890,8 +20910,8 @@
 - **Version:** v0.2.1
 - **Updated:** 2024-10-22T20:26:23Z
 - **Size:** 2.54 MB
-- **SHA256SUM:** d271c8093849db261ef2accffa642126a6cc321dd15053880e49c30103b111f4
-- **B3SUM:** 2a6e72d974e0195382ed6dd62aa26b6ed658ae0f3a3c5430ca6563aa40568138
+- **SHA256SUM:** b4567d094e3b1151e903baead2d19fa8af5daf4b8b6bd6133f65622d4c6cb058
+- **B3SUM:** 23c6d6d6a3847e4a739641537ac93dcfd2e6632babd87c009d1093ca03883d68
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-exchange
 - **Language:** Rust
 - **License:** 
@@ -20910,8 +20930,8 @@
 - **Version:** v0.2.1
 - **Updated:** 2024-10-22T20:26:23Z
 - **Size:** 703.11 KB
-- **SHA256SUM:** fa48310445528cf8f0eef2d5a849840d8e774c01158f1809b8e9c2970628e441
-- **B3SUM:** 7bbf01bf40c42b2b42fee23b9a638301bd3e9f1350ce7c55bb7537299dd2661b
+- **SHA256SUM:** 2ad5ee9cc0f29f1f6f4ea6150010338508919c914d7293830ddc78c23af900b1
+- **B3SUM:** 040374274e1dec24804307c82a3b67a6a351a87210cff618f3fe501c253ad896
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-hashes
 - **Language:** Rust
 - **License:** 
@@ -20929,9 +20949,9 @@
 - **Stars:** 78
 - **Version:** v0.2.1
 - **Updated:** 2024-10-22T20:26:23Z
-- **Size:** 3.91 MB
-- **SHA256SUM:** 9d7ac2f658411ce806940d401a2183c4d1e507efce7b7894918465f5befd8e2b
-- **B3SUM:** ca16961be1695556f63010e51edb611239aad69a67ea94bbc60be46c7a5f75d0
+- **Size:** 3.96 MB
+- **SHA256SUM:** 6467b5c48a23568b3046e7faa398ad3856dad495961eb33fbe13aafdd815b03c
+- **B3SUM:** adb77e3ed222bc3c3d073f10fc32fb0c91cd0538b6bc7fdfb7e82197a7ae6c20
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zt-patterns
 - **Language:** Rust
 - **License:** 
@@ -20950,8 +20970,8 @@
 - **Version:** v1.1
 - **Updated:** 2024-04-26T20:00:18Z
 - **Size:** 216.33 KB
-- **SHA256SUM:** c899b9aa73a9284a9cd28b5472e6fd793564bd77aa0c3ce0b87ca3d4f3d3cc40
-- **B3SUM:** 766e3e92baf97814faac5b0232ca4632f17063b22cec4b61ede98c6d204b2058
+- **SHA256SUM:** 318026be9e95e9d151482a27219d78d64ef4d418737a25b7636eac7813502623
+- **B3SUM:** 452de3224ff34a83ce4496ea4719b76c383b1cc665a48eafdde1bee9bc4537fb
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zapper
 - **Language:** C
 - **License:** 
@@ -20990,8 +21010,8 @@
 - **Version:** v1.1.0
 - **Updated:** 2024-10-28T20:07:58Z
 - **Size:** 11.28 MB
-- **SHA256SUM:** b68f506b1daa5dc45dae50b9ca9affd7d14314d98de4eaffa4be42990e81d24b
-- **B3SUM:** e8fb3925b2fcae09b329b54f65e3f850139e552dbe2d8c6c35a91c3ceec49d3b
+- **SHA256SUM:** 05d2a722c037315844573d8af91e3180e4458e420a472938a4d8ccfeba4c5efd
+- **B3SUM:** ff81d7fe7495fd269376001eca4975fe01e57cd3093473000bd77a86d36b851f
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zdns
 - **Language:** Go
 - **License:** Apache License 2.0
@@ -21006,7 +21026,7 @@
 - **Author:** zellij-org
 - **WebURL:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
 - **Repository:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
-- **Stars:** 21369
+- **Stars:** 21371
 - **Version:** v0.40.1
 - **Updated:** 2024-10-25T13:26:09Z
 - **Size:** 25.8 MB
@@ -21046,12 +21066,12 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14448
-- **Version:** 1.14.1
-- **Updated:** 2024-10-25T18:37:17Z
-- **Size:** 14.13 MB
-- **SHA256SUM:** bed8a118269c1d5128fe1b0d6bdd366455ae214fcd7975c843be7c9763b2d169
-- **B3SUM:** 2af11bea35657aed769ba26d291fb5d785e1b1d9413f4aadd6358ed41db14462
+- **Stars:** 14451
+- **Version:** 1.14.2
+- **Updated:** 2024-10-29T16:17:33Z
+- **Size:** 14.06 MB
+- **SHA256SUM:** 94b87e1a98fb5ff654e150ca049ffb24206f2ce215138771bb83a83c9bf16d79
+- **B3SUM:** f8658508680ec9c083612f7967dc41f3ea6a6756ac8a027615dc8e4c7de29e46
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zerotier-cli
 - **Language:** C++
 - **License:** Other
@@ -21066,12 +21086,12 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14448
-- **Version:** 1.14.1
-- **Updated:** 2024-10-25T18:37:17Z
-- **Size:** 14.13 MB
-- **SHA256SUM:** bed8a118269c1d5128fe1b0d6bdd366455ae214fcd7975c843be7c9763b2d169
-- **B3SUM:** 2af11bea35657aed769ba26d291fb5d785e1b1d9413f4aadd6358ed41db14462
+- **Stars:** 14451
+- **Version:** 1.14.2
+- **Updated:** 2024-10-29T16:17:33Z
+- **Size:** 14.06 MB
+- **SHA256SUM:** 94b87e1a98fb5ff654e150ca049ffb24206f2ce215138771bb83a83c9bf16d79
+- **B3SUM:** f8658508680ec9c083612f7967dc41f3ea6a6756ac8a027615dc8e4c7de29e46
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zerotier-idtool
 - **Language:** C++
 - **License:** Other
@@ -21086,12 +21106,12 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14448
-- **Version:** 1.14.1
-- **Updated:** 2024-10-25T18:37:17Z
-- **Size:** 14.13 MB
-- **SHA256SUM:** bed8a118269c1d5128fe1b0d6bdd366455ae214fcd7975c843be7c9763b2d169
-- **B3SUM:** 2af11bea35657aed769ba26d291fb5d785e1b1d9413f4aadd6358ed41db14462
+- **Stars:** 14451
+- **Version:** 1.14.2
+- **Updated:** 2024-10-29T16:17:33Z
+- **Size:** 14.06 MB
+- **SHA256SUM:** 94b87e1a98fb5ff654e150ca049ffb24206f2ce215138771bb83a83c9bf16d79
+- **B3SUM:** f8658508680ec9c083612f7967dc41f3ea6a6756ac8a027615dc8e4c7de29e46
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zerotier-one
 - **Language:** C++
 - **License:** Other
@@ -21130,8 +21150,8 @@
 - **Version:** 0.3.2
 - **Updated:** 2023-11-06T01:34:22Z
 - **Size:** 1.88 MB
-- **SHA256SUM:** 4405e4f9f82b0ff31a89acea8a6de4d9f5cb2120c1d2391fdce9d4c8b2f96b90
-- **B3SUM:** 39fa6ffb0c86fa5e98ae9f24340e4ea50a987b1853fc3013a83762b710bba33c
+- **SHA256SUM:** 4b13b3a9560990a3e70eeb542d74fd72fd165af2e91e2fd70f0889c778cbe590
+- **B3SUM:** b576c8865e5a48007e1b59d07360e67f192866d637b34629705cebf8f73e8bdc
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zfxtop
 - **Language:** Go
 - **License:** BSD 2-Clause Simplified License
@@ -21150,8 +21170,8 @@
 - **Version:** v0.1.8
 - **Updated:** 2024-08-26T20:22:40Z
 - **Size:** 13.24 MB
-- **SHA256SUM:** 4b878da681bf9560f034a6f0f8cd9f942cf7dca31c7c6d917708802e60fa0cda
-- **B3SUM:** a691d1b022d9eead256a1444925d1c9e3387dfd1dd546ea763d134b355ef1648
+- **SHA256SUM:** 0a67724c71fe2e4e2843a12f0b69c13bf2bc98a9eaccd8719b36d5dfd29274b4
+- **B3SUM:** 8707ce4fe935dee7c8b761734dbc7765b9d66b1326920b83c57c928c818b1716
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/zgrab2
 - **Language:** Go
 - **License:** Other
@@ -21186,7 +21206,7 @@
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 22532
+- **Stars:** 22537
 - **Version:** v0.9.6
 - **Updated:** 2024-10-15T23:07:48Z
 - **Size:** 1.05 MB
@@ -21206,7 +21226,7 @@
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 22532
+- **Stars:** 22537
 - **Version:** v0.9.6
 - **Updated:** 2024-10-15T23:07:48Z
 - **Size:** 1.05 MB
@@ -21226,7 +21246,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://www.zsh.org/](https://www.zsh.org/)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3644
+- **Stars:** 3645
 - **Version:** zsh-5.9
 - **Updated:** 2024-10-16T20:31:25Z
 - **Size:** 1.63 MB
