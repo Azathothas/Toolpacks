@@ -1010,7 +1010,6 @@
  557K   ├── dagu.preview.png
  556K   ├── neofetch
  541K   ├── ncdu
- 530K   ├── pixi.preview.png
  529K   ├── masscan
  522K   ├── elfcat
  516K   ├── loksh
@@ -1077,9 +1076,9 @@
  314K   ├── cutlines.preview-1.png
  314K   ├── comb.preview-1.png
  314K   ├── certstream.preview-1.png
+ 308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  286K   ├── region_restriction_check.sh
- 278K   ├── freeze.preview.png
  276K   ├── cpufetch
  274K   ├── sftp-server
  274K   ├── viddy.preview.png
@@ -1100,9 +1099,9 @@
  251K   ├── meli.preview.png
  247K   ├── METADATA.AIO.json.xz
  246K   ├── METADATA.AIO.json.zstd
+ 245K   ├── METADATA.AIO.min.json.zstd
  244K   ├── METADATA.AIO.yaml.zstd
  244K   ├── METADATA.AIO.toml.zstd
- 244K   ├── METADATA.AIO.min.json.zstd
  244K   ├── METADATA.AIO.yaml.xz
  243K   ├── lorien.preview.png
  243K   ├── METADATA.AIO.toml.xz
@@ -1216,15 +1215,14 @@
   97K   ├── darkhttpd
   97K   ├── listmonk.preview.png
   94K   ├── cronie-crontab
-  93K   ├── gh-dash.preview.png
   92K   ├── mdcat.preview.png
   91K   ├── git-cliff.preview.png
+  90K   ├── steampipe.preview.png
   87K   ├── runst.preview.png
   85K   ├── kubo.preview.png
   83K   ├── yggdrasil.preview.png
   82K   ├── algernon.preview.png
   81K   ├── reviewdog.preview.png
-  81K   ├── albafetch.preview.png
   81K   ├── vtm.preview.png
   80K   ├── smartdns.preview.png
   80K   ├── cronie-cronnext
@@ -1235,10 +1233,13 @@
   74K   ├── bin2video
   72K   ├── hugo.preview.png
   69K   ├── rage.preview.png
+  69K   ├── albafetch.preview.png
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
+  67K   ├── sn0int.preview.png
   67K   ├── ruri.preview.png
   67K   ├── hacker-scoper.preview.png
+  67K   ├── pixi.preview.png
   66K   ├── proxychains
   66K   ├── oha.preview.png
   65K   ├── sharun
@@ -1258,6 +1259,7 @@
   58K   ├── gguf-tools
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
+  55K   ├── freeze.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── podsync.preview.png
@@ -1281,7 +1283,6 @@
   41K   ├── sshpass
   41K   ├── pipetty
   41K   ├── fzf.preview.png
-  40K   ├── steampipe.preview.png
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
   39K   ├── gowitness.preview.png
@@ -1299,7 +1300,6 @@
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
-  27K   ├── sn0int.preview.png
   27K   ├── aggligator.preview.png
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png

@@ -207,7 +207,6 @@ ssh-shellhost.exe:             PE32+ executable (console) x86-64 (stripped to ex
 ssh-sk-helper.exe:             PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 ssh.exe:                       PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 sshd.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
-stP1kAlM:                      empty
 step.exe:                      PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
 step.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 stunner.exe:                   PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows

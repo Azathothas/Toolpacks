@@ -10135,7 +10135,7 @@ bin:
     bin_name: miniflux
     description: Minimalist and opinionated feed reader
     note: ""
-    version: 2.2.1
+    version: 2.2.2
     download_url: https://bin.ajam.dev/x86_64/miniflux
     size: 20.75 MB
     bsum: cc98cbdf1c3c2b9099f4c6b70be67e23c1f31b7ad65d1f627558d88163e28f50
@@ -10492,7 +10492,7 @@ bin:
     bin_name: naabu
     description: A fast port scanner written in go with a focus on reliability and simplicity
     note: ""
-    version: v2.3.1
+    version: v2.3.2
     download_url: https://bin.ajam.dev/x86_64/naabu
     size: 35.15 MB
     bsum: 8a13a1b4b9e3c2596c04584a9c50526f76b038adfa7d2d9c8900955a746c6192
@@ -13378,6 +13378,23 @@ bin:
     category: firewall, frp, http, nat, network, ngrok, noise, noise-protocol, proxy, rust, tunnel
     icon: https://bin.ajam.dev/x86_64/rathole.preview.png
     extra_bins: ""
+  - name: rattler-build
+    bin_name: rattler-build
+    description: rattler-build is a universal package builder for Windows, macOS and Linux
+    note: ""
+    version: v0.28.2
+    download_url: https://bin.ajam.dev/x86_64/rattler-build
+    size: 28.23 MB
+    bsum: a37f3a423ea0fdba5919cea0c850b42a074a467c973c5d5d1694a9934694c9c6
+    shasum: eeb359a90eb0bb7e01db4cabf93e54d1ed321f06b77f5056cafdb9a868f2afd1
+    build_date: 2024-10-29T05:38:41
+    src_url: https://github.com/prefix-dev/rattler-build
+    web_url: https://github.com/prefix-dev/rattler-build
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/rattler-build.sh
+    build_log: https://bin.ajam.dev/x86_64/rattler-build.log.txt
+    category: conda, hacktoberfest, mamba, package-management
+    icon: https://bin.ajam.dev/x86_64/rattler-build.preview.png
+    extra_bins: ""
   - name: rclone
     bin_name: rclone
     description: rsync for cloud storage
@@ -14028,7 +14045,7 @@ bin:
     bin_name: rshijack
     description: tcp connection hijacker, rust rewrite of shijack
     note: ""
-    version: v0.5.1
+    version: v0.5.2
     download_url: https://bin.ajam.dev/x86_64/rshijack
     size: 2.09 MB
     bsum: 5648d3a3f002fcde855c17c615dc294aeaed15c30834b7253a15389aa66d608a
@@ -16799,7 +16816,7 @@ bin:
     bin_name: tun2proxy
     description: Tunnel (TUN) interface for SOCKS and HTTP proxies
     note: ""
-    version: v0.6.0
+    version: v0.6.1
     download_url: https://bin.ajam.dev/x86_64/tun2proxy
     size: 4.57 MB
     bsum: 5c7f277172cbb107373cf772c4aa1932fc11a82b022213a685f2470bcd95ce2e
@@ -41043,7 +41060,7 @@ pkg:
     bin_id: net._86box._86Box
     bin_name: 86box
     description: Emulator of x86-based machines
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/86Box/86Box<br>You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)
+    note: Officially Created AppImage. Check/Report @ https://github.com/86Box/86Box. You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)
     version: v4.2.1
     download_url: https://pkg.ajam.dev/x86_64/86box.AppImage
     size: 57.96 MB
@@ -41054,7 +41071,7 @@ pkg:
     web_url: https://86box.readthedocs.io
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/86box.AppImage.log
-    category: emulator,hypervisor
+    category: Emulator
     icon: https://pkg.ajam.dev/x86_64/86box.icon.png
     extra_bins: ""
     snapshots:
@@ -41065,7 +41082,7 @@ pkg:
     bin_id: xxx.acreom.acreom
     bin_name: acreom
     description: An IDE based Knowledge Base using Markdown (AppImage)
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/Acreom/releases
+    note: Officially Created AppImage. Check/Report @ https://github.com/Acreom/releases
     version: v1.20.2
     download_url: https://pkg.ajam.dev/x86_64/acreom.AppImage
     size: 139.12 MB
@@ -41076,7 +41093,7 @@ pkg:
     web_url: https://acreom.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/acreom.AppImage.log
-    category: ide,knowledge-base,wiki
+    category: Database,Education,IDE
     icon: https://pkg.ajam.dev/x86_64/acreom.icon.png
     extra_bins: ""
     snapshots:
@@ -41087,7 +41104,7 @@ pkg:
     bin_id: xxx.actual.actual
     bin_name: actual
     description: A local-first personal finance app
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/actualbudget/actual
+    note: Officially Created AppImage. Check/Report @ https://github.com/actualbudget/actual
     version: v24.10.1
     download_url: https://pkg.ajam.dev/x86_64/actual.AppImage
     size: 93.54 MB
@@ -41098,7 +41115,7 @@ pkg:
     web_url: https://actualbudget.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/actual.AppImage.log
-    category: finance
+    category: Finance
     icon: https://pkg.ajam.dev/x86_64/actual.icon.png
     extra_bins: ""
     snapshots:
@@ -41109,7 +41126,7 @@ pkg:
     bin_id: xxx.advanced-passgen.advanced-passgen
     bin_name: advanced-passgen
     description: Advanced Password Generator
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/CodeDead/Advanced-PassGen
+    note: Officially Created AppImage. Check/Report @ https://github.com/CodeDead/Advanced-PassGen
     version: v2.5.2
     download_url: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage
     size: 101.13 MB
@@ -41120,7 +41137,7 @@ pkg:
     web_url: https://advancedpassgen.codedead.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage.log
-    category: passgen,password-manager
+    category: Security,Utility
     icon: https://pkg.ajam.dev/x86_64/advanced-passgen.icon.png
     extra_bins: ""
     snapshots:
@@ -41131,7 +41148,7 @@ pkg:
     bin_id: xxx.affine.affine
     bin_name: affine
     description: A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/toeverything/AFFiNE
+    note: Officially Created AppImage. Check/Report @ https://github.com/toeverything/AFFiNE
     version: v0.17.5
     download_url: https://pkg.ajam.dev/x86_64/affine.AppImage
     size: 156.97 MB
@@ -41142,7 +41159,7 @@ pkg:
     web_url: https://affine.pro
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/affine.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/affine.AppImage.log
-    category: knowledge-base,wiki
+    category: Database,Education
     icon: https://pkg.ajam.dev/x86_64/affine.icon.png
     extra_bins: ""
     snapshots:
@@ -41153,7 +41170,7 @@ pkg:
     bin_id: org.browservice.browservice
     bin_name: browservice
     description: Browse the modern web on historical browsers
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/ttalvitie/browservice
+    note: Officially Created AppImage. Check/Report @ https://github.com/ttalvitie/browservice
     version: v0.9.10.0
     download_url: https://pkg.ajam.dev/x86_64/browservice.AppImage
     size: 228.38 MB
@@ -41164,7 +41181,7 @@ pkg:
     web_url: https://github.com/ttalvitie/browservice
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/browservice.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/browservice.AppImage.log
-    category: browser
+    category: WebBrowser
     icon: https://pkg.ajam.dev/x86_64/browservice.icon.png
     extra_bins: ""
     snapshots:
@@ -41174,7 +41191,7 @@ pkg:
     bin_id: org.chromium.Chromium
     bin_name: chromium
     description: Open source web browser from Google
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 130.0.6723.69
     download_url: https://pkg.ajam.dev/x86_64/chromium.dwfs.AppBundle
     size: 250.9 MB
@@ -41185,8 +41202,8 @@ pkg:
     web_url: https://www.chromium.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/chromium.AppBundle.log
-    category: browser
-    icon: https://pkg.ajam.dev/x86_64/chromium.icon.png
+    category: WebBrowser
+    icon: https://pkg.ajam.dev/x86_64/chromium.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/chromium.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41195,7 +41212,7 @@ pkg:
     bin_id: org.chromium.Chromium
     bin_name: chromium
     description: Open source web browser from Google
-    note: 'FlatImages: https://github.com/ruanformigoni/flatimage<br>More: https://l.ajam.dev/flatimages'
+    note: 'FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages'
     version: 130.0.6723.69
     download_url: https://pkg.ajam.dev/x86_64/chromium-alpine.FlatImage
     size: 244.55 MB
@@ -41206,7 +41223,7 @@ pkg:
     web_url: https://www.chromium.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.FlatImage.sh
     build_log: https://pkg.ajam.dev/x86_64/chromium.FlatImage.log
-    category: browser
+    category: WebBrowser
     icon: https://pkg.ajam.dev/x86_64/chromium.icon.png
     extra_bins: ""
     snapshots:
@@ -41228,7 +41245,7 @@ pkg:
     web_url: https://www.chromium.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.NixAppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/chromium.NixAppImage.log
-    category: browser
+    category: WebBrowser
     icon: https://pkg.ajam.dev/x86_64/chromium.icon.png
     extra_bins: ""
     snapshots:
@@ -41238,7 +41255,7 @@ pkg:
     bin_id: org.mate.engrampa
     bin_name: engrampa
     description: A file archiver for MATE
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 1.28.1
     download_url: https://pkg.ajam.dev/x86_64/engrampa.dwfs.AppBundle
     size: 17.27 MB
@@ -41249,8 +41266,8 @@ pkg:
     web_url: https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/engrampa.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/engrampa.AppBundle.log
-    category: browser
-    icon: https://pkg.ajam.dev/x86_64/engrampa.icon.png
+    category: WebBrowser
+    icon: https://pkg.ajam.dev/x86_64/engrampa.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/engrampa.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41259,7 +41276,7 @@ pkg:
     bin_id: org.kde.falkon.desktop
     bin_name: falkon
     description: A KDE web browser with the QtWebEngine Rendering Engine
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 24.08.2
     download_url: https://pkg.ajam.dev/x86_64/falkon.dwfs.AppBundle
     size: 304.18 MB
@@ -41270,8 +41287,8 @@ pkg:
     web_url: https://www.falkon.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/falkon.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/falkon.AppBundle.log
-    category: browser
-    icon: https://pkg.ajam.dev/x86_64/falkon.icon.png
+    category: WebBrowser
+    icon: https://pkg.ajam.dev/x86_64/falkon.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/falkon.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41280,7 +41297,7 @@ pkg:
     bin_id: org.mozilla.firefox
     bin_name: firefox
     description: A web browser built from Firefox source tree
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 131.0.3
     download_url: https://pkg.ajam.dev/x86_64/firefox.dwfs.AppBundle
     size: 206 MB
@@ -41291,8 +41308,8 @@ pkg:
     web_url: http://www.mozilla.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/firefox.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/firefox.AppBundle.log
-    category: browser
-    icon: https://pkg.ajam.dev/x86_64/firefox.icon.png
+    category: WebBrowser
+    icon: https://pkg.ajam.dev/x86_64/firefox.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/firefox.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41301,7 +41318,7 @@ pkg:
     bin_id: org.i3wm.i3
     bin_name: i3
     description: A Tiling Window Manager
-    note: Community Created AppImage based on Conty (ArchLinux)<br>Check/Report @ https://github.com/Samueru-sama/i3-AppImage
+    note: Community Created AppImage based on Conty (ArchLinux). Check/Report @ https://github.com/Samueru-sama/i3-AppImage
     version: "4.23"
     download_url: https://pkg.ajam.dev/x86_64/i3.AppImage
     size: 3.86 MB
@@ -41312,7 +41329,7 @@ pkg:
     web_url: https://i3wm.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/i3.AppImage.log
-    category: window,window-manager,wm
+    category: System,Utility
     icon: https://pkg.ajam.dev/x86_64/i3.icon.png
     extra_bins: ""
     snapshots:
@@ -41323,7 +41340,7 @@ pkg:
     bin_id: org.imagemagick
     bin_name: magick
     description: FOSS suite for editing and manipulating Digital Images & Files
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 7.1.1.39
     download_url: https://pkg.ajam.dev/x86_64/imagemagick.dwfs.AppBundle
     size: 13.04 MB
@@ -41334,8 +41351,8 @@ pkg:
     web_url: https://imagemagick.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/imagemagick.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/imagemagick.AppBundle.log
-    category: graphics
-    icon: https://pkg.ajam.dev/x86_64/magick.icon.png
+    category: ConsoleOnly,Graphics,ImageProcessing,Utility
+    icon: https://pkg.ajam.dev/x86_64/imagemagick.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/imagemagick.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41344,7 +41361,7 @@ pkg:
     bin_id: org.inkscape.Inkscape
     bin_name: inkscape
     description: FOSS Vector Graphics Editor
-    note: Officially Created AppImage<br>Check/Report @ https://gitlab.com/inkscape/inkscape
+    note: Officially Created AppImage. Check/Report @ https://gitlab.com/inkscape/inkscape
     version: 94322e9-dev
     download_url: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage
     size: 100.83 MB
@@ -41355,7 +41372,7 @@ pkg:
     web_url: https://inkscape.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape-dev.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage.log
-    category: graphics,multimedia
+    category: Graphics,Office
     icon: https://pkg.ajam.dev/x86_64/inkscape.icon.png
     extra_bins: ""
     snapshots:
@@ -41366,7 +41383,7 @@ pkg:
     bin_id: org.inkscape.Inkscape
     bin_name: inkscape
     description: FOSS Vector Graphics Editor
-    note: Officially Created AppImage<br>Check/Report @ https://gitlab.com/inkscape/inkscape
+    note: Officially Created AppImage. Check/Report @ https://gitlab.com/inkscape/inkscape
     version: "1.4"
     download_url: https://pkg.ajam.dev/x86_64/inkscape.AppImage
     size: 96.39 MB
@@ -41377,7 +41394,7 @@ pkg:
     web_url: https://inkscape.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/inkscape.AppImage.log
-    category: graphics,multimedia
+    category: Graphics,Office
     icon: https://pkg.ajam.dev/x86_64/inkscape.icon.png
     extra_bins: ""
     snapshots:
@@ -41388,7 +41405,7 @@ pkg:
     bin_id: io.gitlab.librewolf-community
     bin_name: librewolf
     description: A fork of Firefox, focused on privacy, security and freedom
-    note: Officially Created AppImage<br>Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
+    note: Officially Created AppImage. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
     version: v131.0.3-1
     download_url: https://pkg.ajam.dev/x86_64/librewolf.AppImage
     size: 93.92 MB
@@ -41399,7 +41416,7 @@ pkg:
     web_url: https://librewolf.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/librewolf.AppImage.log
-    category: browser,privacy
+    category: WebBrowser,Security
     icon: https://pkg.ajam.dev/x86_64/librewolf.icon.png
     extra_bins: ""
     snapshots:
@@ -41410,7 +41427,7 @@ pkg:
     bin_id: io.gitlab.librewolf-community
     bin_name: librewolf
     description: A custom version of Firefox, focused on privacy, security and freedom
-    note: 'FlatImages: https://github.com/ruanformigoni/flatimage<br>More: https://l.ajam.dev/flatimages'
+    note: 'FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages'
     version: 131.0.3
     download_url: https://pkg.ajam.dev/x86_64/librewolf-cachyos.FlatImage
     size: 471.26 MB
@@ -41421,7 +41438,7 @@ pkg:
     web_url: https://librewolf.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.FlatImage.sh
     build_log: https://pkg.ajam.dev/x86_64/librewolf.FlatImage.log
-    category: browser,privacy
+    category: WebBrowser,Security
     icon: https://pkg.ajam.dev/x86_64/librewolf.icon.png
     extra_bins: ""
     snapshots:
@@ -41431,7 +41448,7 @@ pkg:
     bin_id: org.xfce.mousepad
     bin_name: mousepad
     description: An easy-to-use, Fast & Simple Editor
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 0.6.3
     download_url: https://pkg.ajam.dev/x86_64/mousepad.dwfs.AppBundle
     size: 17.98 MB
@@ -41442,8 +41459,8 @@ pkg:
     web_url: https://docs.xfce.org/apps/mousepad/start
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mousepad.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/mousepad.AppBundle.log
-    category: editor,text-editor
-    icon: https://pkg.ajam.dev/x86_64/mousepad.icon.png
+    category: TextEditor
+    icon: https://pkg.ajam.dev/x86_64/mousepad.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/mousepad.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41452,7 +41469,7 @@ pkg:
     bin_id: com.obsproject.Studio
     bin_name: obs-studio
     description: FOSS cross-platform screencasting and streaming app (AppImage|NixAppImage)
-    note: Community Created AppImage<br>Check/Report @ https://github.com/ivan-hc/OBS-Studio-appimage
+    note: Community Created AppImage. Check/Report @ https://github.com/ivan-hc/OBS-Studio-appimage
     version: 30.2.1
     download_url: https://pkg.ajam.dev/x86_64/obs-studio.AppImage
     size: 174.2 MB
@@ -41463,7 +41480,7 @@ pkg:
     web_url: https://obsproject.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/obs-studio.AppImage.log
-    category: multimedia,screenrecording,video
+    category: AudioVideoEditing,Recorder
     icon: https://pkg.ajam.dev/x86_64/obs-studio.icon.png
     extra_bins: ""
     snapshots:
@@ -41474,7 +41491,7 @@ pkg:
     bin_id: org.olivevideoeditor.Olive
     bin_name: olive
     description: Free open-source non-linear video editor
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/olive-editor/olive
+    note: Officially Created AppImage. Check/Report @ https://github.com/olive-editor/olive
     version: "2024-08-24T22:35:10Z"
     download_url: https://pkg.ajam.dev/x86_64/olive-editor.AppImage
     size: 120.57 MB
@@ -41485,7 +41502,7 @@ pkg:
     web_url: https://www.olivevideoeditor.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/olive-editor.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/olive-editor.AppImage.log
-    category: multimedia,video,video-editor
+    category: AudioVideoEditing
     icon: https://pkg.ajam.dev/x86_64/olive.icon.png
     extra_bins: ""
     snapshots:
@@ -41496,7 +41513,7 @@ pkg:
     bin_id: org.lxqt-project.pcmanfm
     bin_name: pcmanfm
     description: Extremely fast and lightweight file manager
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 1.3.2
     download_url: https://pkg.ajam.dev/x86_64/pcmanfm.dwfs.AppBundle
     size: 17.45 MB
@@ -41507,8 +41524,8 @@ pkg:
     web_url: https://github.com/lxde/pcmanfm
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/pcmanfm.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/pcmanfm.AppBundle.log
-    category: file-explorer,file-manager
-    icon: https://pkg.ajam.dev/x86_64/pcmanfm.icon.png
+    category: Core,FileManager
+    icon: https://pkg.ajam.dev/x86_64/pcmanfm.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/pcmanfm.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41517,7 +41534,7 @@ pkg:
     bin_id: org.ppsspp.PPSSPP
     bin_name: ppsspp
     description: A Fast and Portable PSP emulator
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 1.17.1
     download_url: https://pkg.ajam.dev/x86_64/ppsspp.dwfs.AppBundle
     size: 170.81 MB
@@ -41528,8 +41545,8 @@ pkg:
     web_url: https://www.ppsspp.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ppsspp.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/ppsspp.AppBundle.log
-    category: emulator,gaming
-    icon: https://pkg.ajam.dev/x86_64/ppsspp.icon.png
+    category: Emulator,Game
+    icon: https://pkg.ajam.dev/x86_64/ppsspp.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/ppsspp.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41538,7 +41555,7 @@ pkg:
     bin_id: net.puddletag.puddletag
     bin_name: puddletag
     description: Powerful, simple, audio tag editor for GNU/Linux
-    note: Community Created AppImage<br>Check/Report @ https://github.com/Samueru-sama/puddletag-AppImage
+    note: Community Created AppImage. Check/Report @ https://github.com/Samueru-sama/puddletag-AppImage
     version: 2.4.0
     download_url: https://pkg.ajam.dev/x86_64/puddletag.AppImage
     size: 52.03 MB
@@ -41549,7 +41566,7 @@ pkg:
     web_url: https://docs.puddletag.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/puddletag.AppImage.log
-    category: audio,multimedia,music
+    category: AudioVideoEditing,Music
     icon: https://pkg.ajam.dev/x86_64/puddletag.icon.png
     extra_bins: ""
     snapshots:
@@ -41559,7 +41576,7 @@ pkg:
     bin_id: org.qbittorrent.qBittorrent
     bin_name: qbittorrent-enhanced
     description: A qBittorrent for with Enhanced Features
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/c0re100/qBittorrent-Enhanced-Edition
+    note: Officially Created AppImage. Check/Report @ https://github.com/c0re100/qBittorrent-Enhanced-Edition
     version: release-4.6.7.10
     download_url: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage
     size: 24.91 MB
@@ -41570,7 +41587,7 @@ pkg:
     web_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent-enhanced.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage.log
-    category: downloader,torrent
+    category: Network,P2P
     icon: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.icon.png
     extra_bins: ""
     snapshots: []
@@ -41578,7 +41595,7 @@ pkg:
     bin_id: org.qbittorrent.qBittorrent
     bin_name: qbittorrent
     description: A Bittorrent Client
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/qbittorrent/qBittorrent
+    note: Officially Created AppImage. Check/Report @ https://github.com/qbittorrent/qBittorrent
     version: release-5.0.0.10
     download_url: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage
     size: 25.59 MB
@@ -41589,7 +41606,7 @@ pkg:
     web_url: https://www.qbittorrent.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.log
-    category: downloader,torrent
+    category: Network,P2P
     icon: https://pkg.ajam.dev/x86_64/qbittorrent.icon.png
     extra_bins: ""
     snapshots:
@@ -41600,7 +41617,7 @@ pkg:
     bin_id: org.xfce.ristretto
     bin_name: ristretto
     description: An Image Viewer
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 0.13.2
     download_url: https://pkg.ajam.dev/x86_64/ristretto.dwfs.AppBundle
     size: 17.4 MB
@@ -41611,8 +41628,8 @@ pkg:
     web_url: https://docs.xfce.org/apps/ristretto/start
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ristretto.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/ristretto.AppBundle.log
-    category: image,media
-    icon: https://pkg.ajam.dev/x86_64/ristretto.icon.png
+    category: ImageProcessing,Photography,Viewer
+    icon: https://pkg.ajam.dev/x86_64/ristretto.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/ristretto.dwfs.AppBundle#[2024-10-28T18:14:31]
@@ -41621,7 +41638,7 @@ pkg:
     bin_id: org.ryujinx.Ryujinx
     bin_name: ryujinx
     description: A simple, experimental Nintendo Switch emulator
-    note: Officially Created AppImage<br>Check/Report @ https://github.com/ryujinx-mirror/ryujinx
+    note: Officially Created AppImage. Check/Report @ https://github.com/ryujinx-mirror/ryujinx
     version: r.49574a9
     download_url: https://pkg.ajam.dev/x86_64/ryujinx.AppImage
     size: 25.23 MB
@@ -41632,7 +41649,7 @@ pkg:
     web_url: https://github.com/ryujinx-mirror/ryujinx
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ryujinx.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/ryujinx.AppImage.log
-    category: emulator
+    category: Emulator
     icon: https://pkg.ajam.dev/x86_64/ryujinx.icon.png
     extra_bins: ""
     snapshots:
@@ -41643,7 +41660,7 @@ pkg:
     bin_id: org.signal.Signal
     bin_name: signal-desktop
     description: A private messenger for Windows, macOS, and Linux
-    note: Community Created AppImage<br>Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage
+    note: Community Created AppImage. Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage
     version: 7.30.0
     download_url: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage
     size: 138.44 MB
@@ -41654,7 +41671,7 @@ pkg:
     web_url: https://signal.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage.log
-    category: messenger,privacy
+    category: Chat,Security
     icon: https://pkg.ajam.dev/x86_64/signal-desktop.icon.png
     extra_bins: ""
     snapshots:
@@ -41664,7 +41681,7 @@ pkg:
     bin_id: com.valvesoftware.Steam
     bin_name: steam
     description: A video game digital distribution service and storefront from Valve
-    note: Community Created AppImage based on Conty (ArchLinux)<br>Check/Report @ https://github.com/ivan-hc/Steam-appimage
+    note: Community Created AppImage based on Conty (ArchLinux). Check/Report @ https://github.com/ivan-hc/Steam-appimage
     version: 1.0.0.81
     download_url: https://pkg.ajam.dev/x86_64/steam.AppImage
     size: 356.04 MB
@@ -41675,7 +41692,7 @@ pkg:
     web_url: https://store.steampowered.com/about/
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/steam.AppImage.log
-    category: gaming
+    category: Game
     icon: https://pkg.ajam.dev/x86_64/steam.icon.png
     extra_bins: ""
     snapshots:
@@ -41686,7 +41703,7 @@ pkg:
     bin_id: com.valvesoftware.Steam
     bin_name: steam
     description: A video game digital distribution service and storefront from Valve
-    note: 'FlatImages: https://github.com/ruanformigoni/flatimage<br>More: https://l.ajam.dev/flatimages'
+    note: 'FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages'
     version: 1.0.0.81
     download_url: https://pkg.ajam.dev/x86_64/steam-cachyos.FlatImage
     size: 557.25 MB
@@ -41697,7 +41714,7 @@ pkg:
     web_url: https://store.steampowered.com/about/
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.FlatImage.sh
     build_log: https://pkg.ajam.dev/x86_64/steam.FlatImage.log
-    category: gaming
+    category: Game
     icon: https://pkg.ajam.dev/x86_64/steam.icon.png
     extra_bins: ""
     snapshots:
@@ -41707,7 +41724,7 @@ pkg:
     bin_id: org.xfce.terminal
     bin_name: xfce4-terminal
     description: A lightweight and easy to use Terminal Emulator
-    note: 'AppBundles: https://github.com/xplshn/pelf<br>More: https://l.ajam.dev/appbundles'
+    note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 1.1.3
     download_url: https://pkg.ajam.dev/x86_64/xfce4-terminal.dwfs.AppBundle
     size: 21.28 MB
@@ -41718,8 +41735,8 @@ pkg:
     web_url: https://docs.xfce.org/apps/xfce4-terminal/start
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/xfce4-terminal.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/xfce4-terminal.AppBundle.log
-    category: terminal,terminal-emulator
-    icon: https://pkg.ajam.dev/x86_64/xfce4-terminal.icon.png
+    category: Core,TerminalEmulator
+    icon: https://pkg.ajam.dev/x86_64/xfce4-terminal.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/255c777989205ead915148d66def5fd92ed2527b/x86_64-Linux/xfce4-terminal.dwfs.AppBundle#[2024-10-28T18:14:31]

@@ -65,7 +65,7 @@ appstreamcli:                     ELF 64-bit LSB executable, x86-64, version 1 (
 aptly:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 arc:                              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 archey:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-archey.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+archey.preview.png:               PNG image data, 2000 x 1686, 8-bit/color RGBA, non-interlaced
 archlinux-flatimage.no_strip:     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=92b7e22fdc2b157cbcb728069434c59ca75c15b6, stripped
 archlinux.no_strip:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
 arduino-cli:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=_N4WnqLwpkeZ8DmwOnpf/XBFsKGNZ7NloBIcRq0i3/kJRw8dDe3L6MFHqSgqVi/FO_OFtUHWW4fQOS90KcV, stripped
@@ -528,7 +528,7 @@ gs-netcat:                        ELF 64-bit LSB pie executable, x86-64, version
 gsocket:                          Bourne-Again shell script, ASCII text executable, with very long lines (384)
 gsocket.preview.png:              PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 gum:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-gum.preview.png:                  PNG image data, 1280 x 650, 8-bit/color RGBA, non-interlaced
+gum.preview.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 gup:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=9_WKtkIBp4AYLXpi5By5/oezpO0H1oT1c1DoiKyWG/IrHl3zBOhgPweKvqTq4r/qkbEcqOgo7lg9s_jPlmg, stripped
 gxss:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=bin.ajam.dev/x86_64_Linux/, stripped
 hacker-scoper:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -593,7 +593,7 @@ ifrename:                         ELF 64-bit LSB executable, x86-64, version 1 (
 imagemagick.no_strip:             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped
 imdl:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 imgcat:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
-imhex.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+imhex.preview.png:                PNG image data, 1528 x 948, 8-bit/color RGB, non-interlaced
 imix:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 importenv:                        ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 indextree:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=3AU3g8Q515FyTgZ4uv7D/6FpEbAJSkBda5ScuwjRL/LI5DpZSEQzPo6Xr9EQwF/5g03StqTNCsLqY5Gb5EM, stripped
@@ -665,7 +665,7 @@ kanha:                            ELF 64-bit LSB pie executable, x86-64, version
 katana:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 killport:                         ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 kitten:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=XvGHkWzEffnVjBkvH8Pb/BehnbdD6G2CytopWZ9YH/8CQuvAmjJR8Wit_dWuS1/tKr8ZZtut61tMkf7j_GK, stripped
-kitty.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+kitty.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 kmon:                             ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=4352ee8e35535f685b3034a03bc89fbce7c15573, stripped
 kmon.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 knoxssme:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=WHPwR9ucql_GOg6k1kMx/B3Vqf7tw23nwrN_iEzoM/ZKcrzQFx7Fjah9fHUUVt/zrHJBCUJbHWOBe4VeLz9, stripped
@@ -923,7 +923,7 @@ ptyspawn:                         ELF 64-bit LSB executable, x86-64, version 1 (
 pueue:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=b2f818b417a8a75518b5ec02cece647e8fbf1d95, stripped
 pueued:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=b6be30c9802003f06264e44e63fe2da7f1fdc82b, stripped
 puredns:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=bhO2gMjx9aj2LnAbOwa9/qwl6zQq2GrTeZBeap_HA/iuEQLlaz9ohCmaIBMH0J/mqlRyOsDsBu4KkD0sG8d, stripped
-puredns.preview.png:              PNG image data, 1080 x 540, 8-bit/color RGBA, non-interlaced
+puredns.preview.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 pv:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pwait:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 pwninit:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
@@ -1335,7 +1335,7 @@ void-musl-flatimage.no_strip:     ELF 64-bit LSB executable, x86-64, version 1 (
 void-musl.no_strip:               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
 volta:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 vopono:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=12e3b632c18369c0f8ad5883b7d9cda74db19663, stripped
-vopono.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+vopono.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 vpnkit:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 vproxy:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 vtm:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=f232ab5b0081858e1afb5c3211d9d3edcc32cc73, for GNU/Linux 3.2.0, stripped
