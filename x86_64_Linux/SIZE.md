@@ -1069,7 +1069,6 @@
  411K   ├── dbclient
  402K   ├── sadf
  401K   ├── smenu
- 397K   ├── traefik.preview.png
  394K   ├── nnn
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
@@ -1130,7 +1129,7 @@
  288K   ├── METADATA.AIO.json.xz
  286K   ├── region_restriction_check.sh
  286K   ├── METADATA.AIO.json.zstd
- 285K   ├── METADATA.AIO.yaml.xz
+ 284K   ├── METADATA.AIO.yaml.xz
  284K   ├── METADATA.AIO.min.json.zstd
  283K   ├── METADATA.AIO.yaml.zstd
  283K   ├── METADATA.AIO.toml.zstd
@@ -1202,7 +1201,6 @@
  166K   ├── migspeed
  166K   ├── migratepages
  166K   ├── memhog
- 158K   ├── k9s.preview.png
  154K   ├── mkpasswd
  149K   ├── asn.preview.png
  149K   ├── sshportal.preview.png
@@ -1320,9 +1318,12 @@
   61K   ├── zoxide.preview.png
   58K   ├── batcat.preview.png
   57K   ├── gguf-tools
+  57K   ├── traefik.preview.png
   57K   ├── joker
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
+  55K   ├── pfetch-rs.preview.png
+  55K   ├── k9s.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── ptyspawn
@@ -1336,7 +1337,6 @@
   50K   ├── hcxeiutool
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
-  48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
   46K   ├── hexyl.preview.png
@@ -1346,7 +1346,6 @@
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
-  41K   ├── aggligator.preview.png
   40K   ├── jsmug
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
@@ -1368,6 +1367,7 @@
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
+  27K   ├── aggligator.preview.png
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh

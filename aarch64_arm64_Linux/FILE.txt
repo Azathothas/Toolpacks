@@ -803,7 +803,7 @@ nvme:                             ELF 64-bit LSB executable, ARM aarch64, versio
 nvme-cli:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, stripped
 ocat:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 ockam:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-ockam.preview.png:                PNG image data, 2400 x 1260, 8-bit/color RGBA, non-interlaced
+ockam.preview.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 oha:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 oha.preview.png:                  PNG image data, 1364 x 684, 8-bit/color RGBA, non-interlaced
 oksh:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -936,10 +936,15 @@ qsv:                              ELF 64-bit LSB executable, ARM aarch64, versio
 qsv.preview.png:                  PNG image data, 1280 x 800, 8-bit/color RGBA, non-interlaced
 quickcert:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 quotes-escaper:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+quotes-escaper.preview-0.png:     PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+quotes-escaper.preview-1.png:     PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+quotes-escaper.preview-2.png:     PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+quotes-escaper.preview-3.png:     PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+quotes-escaper.preview-4.png:     PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 quotes-escaper.preview.png:       GIF image data, version 89a, 1920 x 1080
 rage:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 rage-keygen:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-rage.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+rage.preview.png:                 PNG image data, 1246 x 592, 8-bit/color RGBA, non-interlaced
 rapwp:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=W-q86BmIIrzuYFgoaLGL/Ft59hbKalvDGmBr68tQ3/XBZsH1g1k8ZPfWEueiMR/CCcogoV9lX2XRUYFE-6n, stripped
 rate-limit-checker:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 rate-limit-checker.preview.png:   GIF image data, version 89a, 1920 x 1080
@@ -953,7 +958,7 @@ rclone:                           ELF 64-bit LSB executable, ARM aarch64, versio
 rclone.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 reader:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=S6dZpsy1wQujdqFyZ-VX/21fsliR8NJmCKApHHAUV/tK4MKn-vs78gJJByXG2K/U6-dDXLdvfUCLz_HjNL6, stripped
 realm:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-realm-tavern.preview.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA, non-interlaced
 rebuilderd-worker:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 recollapse_staticx:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 redguard:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -1330,7 +1335,7 @@ xplr.preview.png:                 JPEG image data, JFIF standard 1.01, resolutio
 xq:                               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=lw6clYmWOtR1Xq3I8meP/NnJtWKZItd0GidIZAlAc/XFO-hqj6UHEzYNvLY2cR/3G3zdF8s8J_eabhPoVON, stripped
 xurls:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 yabs.sh:                          Bourne-Again shell script, ASCII text executable, with very long lines (326)
-yabs.sh.preview.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+yabs.sh.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 yalis:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 yataf:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 yazi:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -1345,7 +1350,7 @@ yt-dlp:                           ELF 64-bit LSB executable, ARM aarch64, versio
 yt-dlp.preview.png:               PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
 z:                                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 z-tokens:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-z-tokens.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+z-tokens.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 zapper:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 zapper-stealth:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 zdns:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
