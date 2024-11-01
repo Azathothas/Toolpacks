@@ -186,7 +186,7 @@
 20:METADATA.AIO.yaml.xz:             7-zip archive data, version 0.4
 22:METADATA.AIO.yaml.zstd:           Zstandard compressed data (v0.8+), Dictionary ID: None
 28:age.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-32:aggligator.preview.png:           PNG image data, 467 x 482, 8-bit/color RGBA, non-interlaced
+32:aggligator.preview.png:           PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 37:albafetch.preview.png:            PNG image data, 685 x 396, 8-bit/color RGBA, non-interlaced
 39:algernon.preview.png:             JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=6, xresolution=86, yresolution=94, resolutionunit=2, software=GIMP 2.10.14, datetime=2020:01:31 17:23:12], progressive, precision 8, 1280x640, components 3
 48:amass.preview.png:                PNG image data, 3000 x 1000, 8-bit/color RGB, non-interlaced
@@ -235,7 +235,7 @@
 265:daktilo.preview.png:              JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
 267:dalfox.preview.png:               JPEG image data, JFIF standard 1.01, aspect ratio, density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1], baseline, precision 8, 1280x640, components 3
 274:dbeaver.preview.png:              PNG image data, 1000 x 500, 8-bit/color RGBA, non-interlaced
-291:devpod.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+291:devpod.preview.png:               PNG image data, 1280 x 640, 8-bit colormap, non-interlaced
 303:dnstake.preview.png:              JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
 318:dotenv-linter.preview.png:        PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 328:duf.preview.png:                  PNG image data, 1122 x 726, 8-bit/color RGBA, non-interlaced
@@ -319,11 +319,11 @@
 738:meli.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 743:micro.preview.png:                PNG image data, 1280 x 437, 8-bit/color RGBA, non-interlaced
 746:miller.preview.png:               PNG image data, 190 x 190, 8-bit/color RGBA, non-interlaced
-751:miniserve.preview.png:            PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+751:miniserve.preview.png:            PNG image data, 850 x 570, 8-bit/color RGBA, non-interlaced
 775:mubeng.preview.png:               JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 1280x640, components 3
 788:netexec.preview.png:              PNG image data, 2560 x 1280, 8-bit/color RGBA, non-interlaced
 805:ngocok.preview.png:               JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 2134x1066, components 3
-807:nicotine-plus.preview.png:        PNG image data, 512 x 512, 16-bit/color RGBA, non-interlaced
+807:nicotine-plus.preview.png:        PNG image data, 1280 x 640, 16-bit/color RGBA, non-interlaced
 819:noir.preview.png:                 JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1280x640, components 3
 823:noseyparker.preview.png:          PNG image data, 640 x 320, 8-bit/color RGBA, non-interlaced
 840:ockam.preview.png:                PNG image data, 2400 x 1260, 8-bit/color RGBA, non-interlaced
@@ -409,7 +409,7 @@
 1232:tailscale.preview.png:            PNG image data, 2560 x 1280, 8-bit/color RGBA, non-interlaced
 1238:tailspin.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 1248:termshark.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1253:tidy-viewer.preview.png:          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1253:tidy-viewer.preview.png:          PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1263:tok.preview-0.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1264:tok.preview-1.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 1265:tok.preview-2.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced

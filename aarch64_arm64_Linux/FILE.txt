@@ -637,7 +637,7 @@ killport:                         ELF 64-bit LSB executable, ARM aarch64, versio
 kitten:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=pu5FJrLXIrPHvoRZq0IS/ZzBbOy51wqV0f8Uqf54Q/1tWprm2v7sUkCQXLUphL/tLh8DpSAb8q9sbjJvcrf, stripped
 kitty.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 kmon:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-kmon.preview.png:                 PNG image data, 512 x 512, 8-bit gray+alpha, non-interlaced
+kmon.preview.png:                 PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 knoxssme:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=1liOqbx4Amd1VsSUDz6g/5CbOyFHAia6U9CaTSjAA/4OKl35r0VKZXxnHaCJny/f_L2AWmwfOH7MT3eG-ls, stripped
 kondo:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 kopia:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=fmXHzVSfXGZE5y0lqqau/kNYAhXAEqpjyBbkJMNLT/S43AqtTvGlxEIhyUNFLa/MdK4vPcak3zdwJu4dmh6, stripped
@@ -658,7 +658,7 @@ linutil:                          ELF 64-bit LSB executable, ARM aarch64, versio
 linuxdeploy.no_strip:             ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, BuildID[sha1]=0cb09c8cecdebf11ffcbb472525d94d86d6400b9, stripped
 linuxwave:                        ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 listmonk:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ygcIUfpAhsJMmgmT3iCT/uBMxQx8g7XSCnMHe4JO2/SG6wnHwzpWl3V4L9o51H/mVC54gUGRZRDbxP6GhjB, stripped
-listmonk.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+listmonk.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
 litefs:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=KUA1LBnbeOKZoi97Bysu/HNodNcghM1x8IhykB6aK/Amq_oPkx4Zr0prZDzI4I/ZRhK0PbB6D2FSkEnIZmX, stripped
 localxpose:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=FTf5wpj2VS9MEWtPLJ9O/HWP5ZPxxYlSOzFS0u1xn/R1DHhK6_YCkYaRB6YNks/7dcmN_cGXaKMLflTvn_C, stripped
 loclx:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=FTf5wpj2VS9MEWtPLJ9O/HWP5ZPxxYlSOzFS0u1xn/R1DHhK6_YCkYaRB6YNks/7dcmN_cGXaKMLflTvn_C, stripped
@@ -861,7 +861,7 @@ pkg.default.png:                  PNG image data, 512 x 512, 8-bit/color RGBA, n
 pkgtop:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pktstat:                          ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 planor:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=MaFjbwt5BlLcpgBBD3-8/xZJPGuTw0AkCTvxaFcc_/GfRwNaQ7qZzoO3wzd16q/GI8hU9AwX5HkN0F-E59W, stripped
-planor.preview.png:               PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+planor.preview.png:               PNG image data, 1137 x 870, 8-bit/color RGBA, non-interlaced
 pls:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 pls.preview.png:                  PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 podman:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=qudakbcokYFZ1fxkVPnm/QmBCwjR5N7Ok-3dpNl5u/t7aYzKJtcRN8g9-NEuHt/eVfV3SD-CMdYe6MfO-IH, stripped
@@ -939,7 +939,7 @@ quotes-escaper:                   ELF 64-bit LSB executable, ARM aarch64, versio
 quotes-escaper.preview.png:       GIF image data, version 89a, 1920 x 1080
 rage:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 rage-keygen:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-rage.preview.png:                 PNG image data, 1246 x 592, 8-bit/color RGBA, non-interlaced
+rage.preview.png:                 PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 rapwp:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=W-q86BmIIrzuYFgoaLGL/Ft59hbKalvDGmBr68tQ3/XBZsH1g1k8ZPfWEueiMR/CCcogoV9lX2XRUYFE-6n, stripped
 rate-limit-checker:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 rate-limit-checker.preview.png:   GIF image data, version 89a, 1920 x 1080
@@ -953,7 +953,7 @@ rclone:                           ELF 64-bit LSB executable, ARM aarch64, versio
 rclone.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 reader:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=S6dZpsy1wQujdqFyZ-VX/21fsliR8NJmCKApHHAUV/tK4MKn-vs78gJJByXG2K/U6-dDXLdvfUCLz_HjNL6, stripped
 realm:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-realm-tavern.preview.png:         PNG image data, 3456 x 1834, 8-bit/color RGBA, non-interlaced
+realm-tavern.preview.png:         PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 rebuilderd-worker:                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 recollapse_staticx:               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 redguard:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -1330,7 +1330,7 @@ xplr.preview.png:                 JPEG image data, JFIF standard 1.01, resolutio
 xq:                               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=lw6clYmWOtR1Xq3I8meP/NnJtWKZItd0GidIZAlAc/XFO-hqj6UHEzYNvLY2cR/3G3zdF8s8J_eabhPoVON, stripped
 xurls:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 yabs.sh:                          Bourne-Again shell script, ASCII text executable, with very long lines (326)
-yabs.sh.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+yabs.sh.preview.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 yalis:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 yataf:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 yazi:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
@@ -1345,7 +1345,7 @@ yt-dlp:                           ELF 64-bit LSB executable, ARM aarch64, versio
 yt-dlp.preview.png:               PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
 z:                                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 z-tokens:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
-z-tokens.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+z-tokens.preview.png:             PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
 zapper:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 zapper-stealth:                   ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 zdns:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped

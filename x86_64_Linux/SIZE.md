@@ -744,12 +744,12 @@
  3.8M   ├── wasminspect
  3.7M   ├── find-rs
  3.7M   ├── qemu-ppc-static
- 3.7M   ├── spiped
  3.7M   ├── METADATA.AIO.yaml
+ 3.7M   ├── spiped
  3.7M   ├── tealdeer
  3.7M   ├── spipe
- 3.7M   ├── viu
  3.7M   ├── METADATA.AIO.toml
+ 3.7M   ├── viu
  3.7M   ├── deoptimizer
  3.6M   ├── passdetective
  3.6M   ├── pelfd
@@ -1047,6 +1047,7 @@
  473K   ├── visudo
  463K   ├── shellharden
  459K   ├── dropbear
+ 452K   ├── devpod.preview.png
  448K   ├── loksh
  447K   ├── oksh
  446K   ├── sbase-box
@@ -1129,10 +1130,10 @@
  288K   ├── METADATA.AIO.json.xz
  286K   ├── region_restriction_check.sh
  286K   ├── METADATA.AIO.json.zstd
- 284K   ├── METADATA.AIO.yaml.xz
- 283K   ├── METADATA.AIO.toml.zstd
- 283K   ├── METADATA.AIO.min.json.zstd
+ 285K   ├── METADATA.AIO.yaml.xz
+ 284K   ├── METADATA.AIO.min.json.zstd
  283K   ├── METADATA.AIO.yaml.zstd
+ 283K   ├── METADATA.AIO.toml.zstd
  283K   ├── METADATA.AIO.toml.xz
  283K   ├── METADATA.AIO.min.json.xz
  282K   ├── doas
@@ -1201,7 +1202,6 @@
  166K   ├── migspeed
  166K   ├── migratepages
  166K   ├── memhog
- 161K   ├── devpod.preview.png
  158K   ├── k9s.preview.png
  154K   ├── mkpasswd
  149K   ├── asn.preview.png
@@ -1340,12 +1340,13 @@
   47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
   46K   ├── hexyl.preview.png
-  45K   ├── miniserve.preview.png
   44K   ├── yabs.sh
   44K   ├── tailscale.preview.png
   43K   ├── stree.preview.png
   42K   ├── fx.preview.png
+  42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
+  41K   ├── aggligator.preview.png
   40K   ├── jsmug
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
@@ -1367,7 +1368,7 @@
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
-  27K   ├── aggligator.preview.png
+  26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
   25K   ├── czkawka.preview.png
@@ -1397,10 +1398,9 @@
   14K   ├── tldr
   13K   ├── wg-quick
   11K   ├── yt-dlp.preview.png
-  11K   ├── tidy-viewer.preview.png
   11K   ├── lsix
   11K   ├── tailspin.preview.png
-  10K   ├── nicotine-plus.preview.png
+  11K   ├── nicotine-plus.preview.png
  8.5K   ├── sharun-lib4bin
  8.5K   ├── proot.preview.png
  8.5K   ├── halp.preview.png
