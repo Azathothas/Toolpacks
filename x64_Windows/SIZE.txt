@@ -78,6 +78,7 @@
  2.3M   ├── geoping.exe
  2.2M   ├── tac.exe
  2.2M   ├── pdftops.exe
+ 2.2M   ├── err.exe
  2.1M   ├── pdftopng.exe
  2.1M   ├── pdftoppm.exe
  2.0M   ├── jwt-cracker.exe
@@ -89,7 +90,6 @@
  1.6M   ├── dua.exe
  1.6M   ├── sort.exe
  1.5M   ├── ls.exe
- 1.5M   ├── err.exe
  1.5M   ├── vdir.exe
  1.5M   ├── dir.exe
  1.5M   ├── fastfetch.exe
@@ -109,9 +109,9 @@
  1.2M   ├── pdfdetach.exe
  1.2M   ├── mv.exe
  1.1M   ├── du.exe
- 1.0M   ├── seq.exe
  1.0M   ├── env.exe
  1.0M   ├── b3sum.exe
+ 1.0M   ├── seq.exe
 1011K   ├── dd.exe
 1001K   ├── od.exe
 1001K   ├── more.exe
