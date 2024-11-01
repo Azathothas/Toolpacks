@@ -20,7 +20,7 @@ curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/SHA256SUM.txt" -o "$TMPDIR/S
 #Get BUILD.BIN.log.txt
 curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/BUILD.BIN.log.txt" -o "$SYSTMP/BUILD.log"
 if command -v trufflehog &> /dev/null; then
- trufflehog filesystem "$SYSTMP/BUILD.log" --no-fail --no-update --json 2>/dev/null | jq -r '.Raw' | sed '/{/d' | xargs -I "{}" sh -c 'echo "{}" | tr -d " \t\r\f\v"' | xargs -I "{}" sed "s/{}/ /g" -i "$SYSTMP/BUILD.log"
+ trufflehog filesystem "$SYSTMP/BUILD.log" --no-fail --no-verification --no-update --json 2>/dev/null | jq -r '.Raw' | sed '/{/d' | xargs -I "{}" sh -c 'echo "{}" | tr -d " \t\r\f\v"' | xargs -I "{}" sed "s/{}/ /g" -i "$SYSTMP/BUILD.log"
 fi
 sed -e '/.*github_pat.*/Id' \
         -e '/.*ghp_.*/Id' \

@@ -143,7 +143,7 @@ jobs:
           ##Purge Tokens (in case set -x & gh didn't redact)
           cat "$SYSTMP/BUILD.log" | ansi2txt > "$SYSTMP/BUILD.log.tmp.txt"
           if command -v trufflehog &> /dev/null; then
-             trufflehog filesystem "$SYSTMP/BUILD.log.tmp.txt" --no-fail --no-update --json 2>/dev/null | jq -r '.Raw' | sed '/{/d' | xargs -I "{}" sh -c 'echo "{}" | tr -d " \t\r\f\v"' | xargs -I "{}" sed "s/{}/ /g" -i "$SYSTMP/BUILD.log.tmp.txt"
+             trufflehog filesystem "$SYSTMP/BUILD.log.tmp.txt" --no-fail --no-verification --no-update --json 2>/dev/null | jq -r '.Raw' | sed '/{/d' | xargs -I "{}" sh -c 'echo "{}" | tr -d " \t\r\f\v"' | xargs -I "{}" sed "s/{}/ /g" -i "$SYSTMP/BUILD.log.tmp.txt"
           fi
           sed 's/\r/\n/g' -i "$SYSTMP/BUILD.log.tmp.txt"
           sed -i '/.*github_pat.*/Id' "$SYSTMP/BUILD.log.tmp.txt" 2>/dev/null

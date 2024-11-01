@@ -21,7 +21,7 @@ curl -qfsSL "https://bin.ajam.dev/x64_Windows/SHA256SUM.txt" -o "$TMPDIR/SHA256S
 curl -qfsSL "https://bin.ajam.dev/x64_Windows/BUILD.log.txt" -o "$TMPDIR/BUILD.log.tmp"
 sed -n "$(grep -nE '^\[\+\] (Building|Fetching)' "$TMPDIR/BUILD.log.tmp" | head -n 1 | cut -d: -f1),$(grep -nE '^\[\+\] Completed \(Building|Fetching\)' "$TMPDIR/BUILD.log.tmp" | tail -n 1 | cut -d: -f1)p" "$TMPDIR/BUILD.log.tmp" > "$SYSTMP/BUILD.log"
 if command -v trufflehog &> /dev/null; then
- trufflehog filesystem "$SYSTMP/BUILD.log" --no-fail --no-update --json 2>/dev/null | jq -r '.Raw' | sed '/{/d' | xargs -I "{}" sh -c 'echo "{}" | tr -d " \t\r\f\v"' | xargs -I "{}" sed "s/{}/ /g" -i "$SYSTMP/BUILD.log"
+ trufflehog filesystem "$SYSTMP/BUILD.log" --no-fail --no-verification --no-update --json 2>/dev/null | jq -r '.Raw' | sed '/{/d' | xargs -I "{}" sh -c 'echo "{}" | tr -d " \t\r\f\v"' | xargs -I "{}" sed "s/{}/ /g" -i "$SYSTMP/BUILD.log"
 fi
 sed -e '/.*github_pat.*/Id' \
         -e '/.*ghp_.*/Id' \
