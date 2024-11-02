@@ -20,7 +20,7 @@ bin:
     bin_name: act
     description: "Run your GitHub Actions locally \U0001F680"
     note: ""
-    version: v0.2.68
+    version: v0.2.69
     download_url: https://bin.ajam.dev/x86_64/act
     size: 18.45 MB
     bsum: f48f79641fb626ef36fa5e6eb75d06e53772c854af22725bc0242d20566da041
@@ -1533,7 +1533,7 @@ bin:
     bin_name: cargo-unlock
     description: Remove Cargo.lock lockfile
     note: ""
-    version: 1.0.9
+    version: 1.0.10
     download_url: https://bin.ajam.dev/x86_64/cargo-unlock
     size: 1 MB
     bsum: 19b378577837ac03a8709a20a343408db2f60465e3f46acce35c3913f1c0a5bb
@@ -2842,7 +2842,7 @@ bin:
     bin_name: csvtk
     description: A cross-platform, efficient and practical CSV/TSV toolkit
     note: ""
-    version: v0.30.0
+    version: v0.31.0
     download_url: https://bin.ajam.dev/x86_64/csvtk
     size: 21.72 MB
     bsum: b59152b73a024c3837e90bede2df857f73b1884ec5d65f2d6cdb76ed4bb8682f
@@ -7105,6 +7105,23 @@ bin:
     category: bug-hunting-tools, hactoberfest, osint, pwnwriter, rust, rustlang, screenshot-utility
     icon: https://bin.ajam.dev/x86_64/haylxon.preview.png
     extra_bins: haylxon
+  - name: hcloud
+    bin_name: hcloud
+    description: A command-line interface for Hetzner Cloud
+    note: ""
+    version: v1.48.0
+    download_url: https://bin.ajam.dev/x86_64/hcloud
+    size: 14.87 MB
+    bsum: a3daa9db4c2dd3b9046d277ec6774d7b89885585647d5e1230022386ed54e8ee
+    shasum: b222d29b5e7385706e6476ce48f9556e43623ed781388573b33d1da129a473ef
+    build_date: 2024-10-29T01:13:01
+    src_url: https://github.com/hetznercloud/cli
+    web_url: https://github.com/hetznercloud/cli
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/hcloud.sh
+    build_log: https://bin.ajam.dev/x86_64/hcloud.log.txt
+    category: cli, command-line, command-line-tool, commandline-interface, hcloud, hetzner, hetzner-cloud
+    icon: https://bin.ajam.dev/x86_64/hcloud.preview.png
+    extra_bins: ""
   - name: hcxdumptool
     bin_name: hcxdumptool
     description: Small tool to capture packets from wlan devices.
@@ -8792,7 +8809,7 @@ bin:
     bin_name: lf
     description: Terminal file manager
     note: ""
-    version: r32
+    version: r33
     download_url: https://bin.ajam.dev/x86_64/lf
     size: 3.55 MB
     bsum: c898ed947bf294ce30bd4522a3350f2a3ec5de48c2c39754715c08e53acaba1f
@@ -9754,7 +9771,7 @@ bin:
     web_url: https://imagemagick.org
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/magick.sh
     build_log: https://bin.ajam.dev/x86_64/imagemagick.no_strip.log.txt
-    category: convert, hacktoberfest, image, imagemagick, magick, resize
+    category: command-line-image-tool, digital-image-editing, image-conversion, image-manipulation, image-processing, imagemagick, mastering-digital-image-alchemy, open-source-software
     icon: https://bin.ajam.dev/x86_64/magick.preview.png
     extra_bins: magick.no_strip,magick_appbundle.no_strip
   - name: magick.no_strip
@@ -9771,7 +9788,7 @@ bin:
     web_url: https://imagemagick.org
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/magick.sh
     build_log: https://bin.ajam.dev/x86_64/magick.no_strip.log.txt
-    category: convert, hacktoberfest, image, imagemagick, magick, resize
+    category: command-line-image-tool, digital-image-editing, image-conversion, image-manipulation, image-processing, imagemagick, mastering-digital-image-alchemy, open-source-software
     icon: https://bin.ajam.dev/x86_64/magick.preview.png
     extra_bins: imagemagick.no_strip,magick_appbundle.no_strip
   - name: magick_appbundle.no_strip
@@ -9788,14 +9805,14 @@ bin:
     web_url: https://imagemagick.org
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/magick.sh
     build_log: https://bin.ajam.dev/x86_64/magick_appbundle.no_strip.log.txt
-    category: convert, hacktoberfest, image, imagemagick, magick, resize
+    category: command-line-image-tool, digital-image-editing, image-conversion, image-manipulation, image-processing, imagemagick, mastering-digital-image-alchemy, open-source-software
     icon: https://bin.ajam.dev/x86_64/magick.preview.png
     extra_bins: imagemagick.no_strip,magick.no_strip
   - name: mailpit
     bin_name: mailpit
     description: An email and SMTP testing tool with API for developers
     note: ""
-    version: v1.21.0
+    version: v1.21.1
     download_url: https://bin.ajam.dev/x86_64/mailpit
     size: 20.45 MB
     bsum: 8ce2793c3ba1af7cab544c536ecb0e4501c70a1847c18ee3f59772261bb6d25f
@@ -10203,7 +10220,7 @@ bin:
     bin_name: mise
     description: dev tools, env vars, task runner
     note: ""
-    version: v2024.10.13
+    version: v2024.11.0
     download_url: https://bin.ajam.dev/x86_64/mise
     size: 27.52 MB
     bsum: 4af3b703ff0e41dc5d8845a93bfb8dc3e107c17e32d83500f54fa11eb0d26336
@@ -10730,7 +10747,7 @@ bin:
     bin_name: nezha-agent
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.6
+    version: v0.20.7
     download_url: https://bin.ajam.dev/x86_64/nezha-agent
     size: 22.82 MB
     bsum: c19603e2cc70840f82f4c6d6e4103532a74f3f6932f5c32e90b70340218a4feb
@@ -10747,7 +10764,7 @@ bin:
     bin_name: nezha-dashboard
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.6
+    version: v0.20.7
     download_url: https://bin.ajam.dev/x86_64/nezha-dashboard
     size: 38.05 MB
     bsum: c95597e2ad61dc918a53f77b9a198785c7b901a8cb32ced39e03f4a8bd122d08
@@ -10764,7 +10781,7 @@ bin:
     bin_name: nezha-dashboard.openrc
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.6
+    version: v0.20.7
     download_url: https://bin.ajam.dev/x86_64/nezha-dashboard.openrc
     size: 376 B
     bsum: 5c1d7d58d6b4c7940968773c09a415b8da56ded17d9713b0d1fc1d6142edb01c
@@ -10781,7 +10798,7 @@ bin:
     bin_name: nezha-dashboard.service
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.6
+    version: v0.20.7
     download_url: https://bin.ajam.dev/x86_64/nezha-dashboard.service
     size: 798 B
     bsum: bd71a8149d962451109a1fca429318b363ea5c2e62d6763838ecd94f402559e6
@@ -10798,7 +10815,7 @@ bin:
     bin_name: nezha-install.sh
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.20.6
+    version: v0.20.7
     download_url: https://bin.ajam.dev/x86_64/nezha-install.sh
     size: 31.77 KB
     bsum: f5541a2e28bce397239a45a5d612fa0b584d492328609a8f09687aa20e4af927
@@ -11172,7 +11189,7 @@ bin:
     bin_name: notify
     description: stream the output of several tools (or read from a file) and send notifications
     note: ""
-    version: v1.0.6
+    version: v1.0.7
     download_url: https://bin.ajam.dev/x86_64/notify
     size: 21.06 MB
     bsum: eeed615a052b1702fdaab0b284337aaa73f8d97ad2599be52250601de0360cd6
@@ -11580,7 +11597,7 @@ bin:
     bin_name: opengist
     description: Self-hosted pastebin powered by Git, open-source alternative to Github Gist.
     note: ""
-    version: v1.7.5
+    version: v1.8.0
     download_url: https://bin.ajam.dev/x86_64/opengist
     size: 48.08 MB
     bsum: 322fde1adee7fe7866ca834efe2cf02cd72093b2902a7451150b19ef8bd82ebc
@@ -13637,7 +13654,7 @@ bin:
     bin_name: relic
     description: a tool for adding digital signatures to operating system packages for Linux and Windows
     note: ""
-    version: v8.1.0
+    version: v8.1.1
     download_url: https://bin.ajam.dev/x86_64/relic
     size: 28.77 MB
     bsum: 856476e8542855fdbd0a069d6f91925a6033fcc471907af857d27bd2b0dc1f6c
@@ -14181,7 +14198,7 @@ bin:
     bin_name: rush
     description: A cross-platform command-line tool for executing jobs in parallel
     note: ""
-    version: v0.5.6
+    version: v0.5.7
     download_url: https://bin.ajam.dev/x86_64/rush
     size: 7.98 MB
     bsum: 031dfbd0bc9501026e2e39e5246c5af86c61281b88a28c2d71963346dcb34085
@@ -16255,7 +16272,7 @@ bin:
     bin_name: tdl
     description: "\U0001F4E5 A Telegram downloader/tools written in Golang"
     note: ""
-    version: v0.17.6
+    version: v0.17.7
     download_url: https://bin.ajam.dev/x86_64/tdl
     size: 39.04 MB
     bsum: 2575eb46290f69fefc1e323921251307b306acf2bf3af0c0191c9036e8b03d53
@@ -16799,7 +16816,7 @@ bin:
     bin_name: tun2proxy
     description: Tunnel (TUN) interface for SOCKS and HTTP proxies
     note: ""
-    version: v0.6.1
+    version: v0.6.2
     download_url: https://bin.ajam.dev/x86_64/tun2proxy
     size: 4.57 MB
     bsum: 5c7f277172cbb107373cf772c4aa1932fc11a82b022213a685f2470bcd95ce2e
@@ -41047,23 +41064,23 @@ pkg:
     version: v4.2.1
     download_url: https://pkg.ajam.dev/x86_64/86box.AppImage
     size: 57.96 MB
-    bsum: 942ca2d119d782217f76db009bd2fba293b5cb22024231d1d0f714f8ddb853e9
-    shasum: 15ee72cd30bfc8d44e8441d8bc046d90c67c4fa471fd4e99ff534fae37c4d1db
-    build_date: 2024-10-31T18:30:26
+    bsum: 99d7642b145f5c47f40fe454e65d299b74daf31bca95186b99a5cbb26cfcfcc6
+    shasum: 92f8dd71f9bcf4b9ac136e07c877f422bcbce031d68193701a16347892155ee5
+    build_date: 2024-11-01T11:07:20
     repology: https://pkg.ajam.dev/x86_64/86box.AppImage.repology.json
     src_url: https://github.com/86Box/86Box
     web_url: https://86box.readthedocs.io
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/86box.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/86box.AppImage.appdata.xml
     category: Emulator
     desktop: https://pkg.ajam.dev/x86_64/86box.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/86box.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/86box.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/86box.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/86box.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/86box.AppImage#[2024-10-29T12:20:04]
   - name: acreom.AppImage
     bin_id: xxx.acreom.acreom
     bin_name: acreom
@@ -41072,23 +41089,23 @@ pkg:
     version: v1.20.2
     download_url: https://pkg.ajam.dev/x86_64/acreom.AppImage
     size: 139.12 MB
-    bsum: 42af5d2b339744759800d948fa169d730241e0f6aedab91a3433ed8f8cb889ff
-    shasum: 12ead7edc3bcff2bc4efd455bf199777d91fef27f6dc7e533ca072dd9f5aaa8f
-    build_date: 2024-10-31T18:31:31
+    bsum: c15f0848e261a679e004e69f6fec4068d2cb7e41c44ce362fd134e21b9a4a6ba
+    shasum: 2f234f7f01e6c699f606c59c2aa1c6b525859c177912def133b0dfdbd9e43cab
+    build_date: 2024-11-01T11:08:23
     repology: https://pkg.ajam.dev/x86_64/acreom.AppImage.repology.json
     src_url: https://github.com/Acreom/releases
     web_url: https://acreom.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/acreom.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: Database,Education,IDE
     desktop: https://pkg.ajam.dev/x86_64/acreom.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/acreom.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/acreom.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/acreom.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/acreom.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/acreom.AppImage#[2024-10-29T12:20:04]
   - name: actual.AppImage
     bin_id: xxx.actual.actual
     bin_name: actual
@@ -41097,23 +41114,23 @@ pkg:
     version: v24.10.1
     download_url: https://pkg.ajam.dev/x86_64/actual.AppImage
     size: 93.54 MB
-    bsum: 32faa56d081eca34821a94581a404c3a3402784ccc3c09ce9fff60911fcf6a36
-    shasum: b5b9ad7bff13ec03e1c337ee7f90d0f368fac7281f9e6906fa608cfb0dd7bdef
-    build_date: 2024-10-31T18:32:10
+    bsum: 0eb90f4ad99e6aa9a008c56dfe26db71857ffd5f059732694dc4cbc0d71f439b
+    shasum: 27a68b933cde8919330cc47fe3048edd5f274a6fab7cf199597330b526dea738
+    build_date: 2024-11-01T11:09:05
     repology: ""
     src_url: https://github.com/actualbudget/actual
     web_url: https://actualbudget.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/actual.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: Finance
     desktop: https://pkg.ajam.dev/x86_64/actual.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/actual.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/actual.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/actual.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/actual.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/actual.AppImage#[2024-10-29T12:20:04]
   - name: advanced-passgen.AppImage
     bin_id: xxx.advanced-passgen.advanced-passgen
     bin_name: advanced-passgen
@@ -41122,23 +41139,23 @@ pkg:
     version: v2.5.2
     download_url: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage
     size: 101.13 MB
-    bsum: 9b7d5cd9c0862ca100dd638ccc1fc5a5202ee7ac41269722988d85e9929684c3
-    shasum: f2a6f2a1e6ee94aea3cec26f4db41944347382174bc868391b0a8c5281dbf716
-    build_date: 2024-10-31T18:32:55
+    bsum: 45d47c6bcffb9e123c3a45b89aa24ae0693e63b25f3010a1ff41772a92707e33
+    shasum: b2631fa6ef437b72c93b18d97d84d2e0764fcecc3cb03e4fe8d7685d8cb4ace5
+    build_date: 2024-11-01T11:09:49
     repology: ""
     src_url: https://github.com/CodeDead/Advanced-PassGen
     web_url: https://advancedpassgen.codedead.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: Security,Utility
     desktop: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/advanced-passgen.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/advanced-passgen.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/advanced-passgen.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/advanced-passgen.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/advanced-passgen.AppImage#[2024-10-29T12:20:04]
   - name: affine.AppImage
     bin_id: xxx.affine.affine
     bin_name: affine
@@ -41149,13 +41166,13 @@ pkg:
     size: 156.97 MB
     bsum: cf0e39d1640ea2b4be1fccf73e6da2d194e4b3616d3a1ac31f0085e2d9902706
     shasum: 018abf2b6fab7ef5b242d42cf80c1b51eafa307db851feea452ac8ffe870b086
-    build_date: 2024-10-31T19:21:06
+    build_date: 2024-11-01T11:55:13
     repology: https://pkg.ajam.dev/x86_64/affine.AppImage.repology.json
     src_url: https://github.com/toeverything/AFFiNE
     web_url: https://affine.pro
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/affine.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/affine.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: Database,Education
     desktop: https://pkg.ajam.dev/x86_64/affine.desktop
     icon: https://pkg.ajam.dev/x86_64/affine.icon.png
@@ -41172,23 +41189,23 @@ pkg:
     version: v0.9.10.0
     download_url: https://pkg.ajam.dev/x86_64/browservice.AppImage
     size: 228.38 MB
-    bsum: 6e96fa4716ceee16d738c2adfd7da522ba83493093b5789d71a6a6fcf1317bf8
-    shasum: ddb6c47fac78c90fa35a5d18b3936d600986ce597dc7c5df8dbfbd12fdbde012
-    build_date: 2024-10-31T18:34:03
+    bsum: 5af5b023e208a6fff2c63a8e75af92c74046de7b6c68857cf4f6aa3c86d9cebe
+    shasum: fb88194e27314f125aa7b597e4b74748d666c42ed2558dbc7929a2f8ee5fd21e
+    build_date: 2024-11-01T11:10:57
     repology: ""
     src_url: https://github.com/ttalvitie/browservice
     web_url: https://github.com/ttalvitie/browservice
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/browservice.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/browservice.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: WebBrowser
     desktop: https://pkg.ajam.dev/x86_64/browservice.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/browservice.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/browservice.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/browservice.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/browservice.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/browservice.AppImage#[2024-10-29T12:20:04]
   - name: chromium.dwfs.AppBundle
     bin_id: org.chromium.Chromium
     bin_name: chromium
@@ -41196,24 +41213,24 @@ pkg:
     note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 130.0.6723.69
     download_url: https://pkg.ajam.dev/x86_64/chromium.dwfs.AppBundle
-    size: 250.97 MB
-    bsum: 7e6391b5dc24b6e00ab4eb4fd2d1e0d21fc2afcba840283b78b8c2e944e2f9db
-    shasum: fafeb493ae621fe0cf8a3cd8fad611f8451ebd30aa089cec33d675b76794dc81
-    build_date: 2024-10-31T18:36:14
+    size: 250.94 MB
+    bsum: 57e437d0d97bb6b24613fa153ba78b211a3559156d7750ca0f47c5897c6b82dc
+    shasum: a82332d5f4065154691d296d7cb8d0b3bef26ee9374c832f49789fefba18ec32
+    build_date: 2024-11-01T11:13:06
     repology: https://pkg.ajam.dev/x86_64/chromium.dwfs.AppBundle.repology.json
     src_url: https://chromium.googlesource.com/chromium/src.git
     web_url: https://www.chromium.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/chromium.AppBundle.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/chromium.alpine.appdata.xml
     category: WebBrowser
     desktop: https://pkg.ajam.dev/x86_64/chromium.alpine.desktop
     icon: https://pkg.ajam.dev/x86_64/chromium.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/chromium.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/chromium.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/chromium.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/chromium.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: chromium-alpine.FlatImage
     bin_id: org.chromium.Chromium
     bin_name: chromium
@@ -41221,24 +41238,24 @@ pkg:
     note: 'FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages'
     version: 130.0.6723.69
     download_url: https://pkg.ajam.dev/x86_64/chromium-alpine.FlatImage
-    size: 246.26 MB
-    bsum: 904e256819f73d21cf36d35a78a9b0598a8edcf2e0c60c04cdb8fac2ecb610ae
-    shasum: 1b4ad4118d4787967d45f44b212fd20ddd18e1a41f7dc36cb276f91912c7e07e
-    build_date: 2024-10-31T18:39:18
-    repology: ""
+    size: 246.86 MB
+    bsum: fc6fc10ade5f315dbc331441956c80344bdfad52e375411bf920b0429063ebdf
+    shasum: c94767d9cc8accad6efd84da31b25c322449b05127bb60adbc62de3b27d72b93
+    build_date: 2024-11-01T11:15:55
+    repology: https://pkg.ajam.dev/x86_64/chromium-alpine.FlatImage.repology.json
     src_url: https://chromium.googlesource.com/chromium/src.git
     web_url: https://www.chromium.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.FlatImage.sh
     build_log: https://pkg.ajam.dev/x86_64/chromium.FlatImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/chromium.alpine.appdata.xml
     category: WebBrowser
     desktop: https://pkg.ajam.dev/x86_64/chromium.alpine.desktop
     icon: https://pkg.ajam.dev/x86_64/chromium.FlatImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/chromium-alpine.FlatImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/chromium-alpine.FlatImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/chromium-alpine.FlatImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/chromium-alpine.FlatImage#[2024-10-29T12:20:04]
   - name: chromium.NixAppImage
     bin_id: org.chromium.Chromium
     bin_name: chromium
@@ -41246,24 +41263,24 @@ pkg:
     note: 'NixAppImages: https://l.ajam.dev/nix-appimage'
     version: 130.0.6723.69
     download_url: https://pkg.ajam.dev/x86_64/chromium.NixAppImage
-    size: 437.78 MB
-    bsum: 41de12405ce1aaa719642cccfff9aa31b33edb99333e84d768b363ce9c073887
-    shasum: 4920307e2cf3075e0d3d92bfe551f46088c185f52d2c60be8e0e52545bde4752
-    build_date: 2024-10-31T18:46:53
-    repology: ""
+    size: 437.79 MB
+    bsum: d0c56ca08409b0d0cffe01bdf3cf65c8df1f55918cf659fc7608868bcd2bcbcc
+    shasum: 6bfbfa46e21ba46ef5635cdc2b7776340afefcac9690cebef69cde5080ad3450
+    build_date: 2024-11-01T11:23:00
+    repology: https://pkg.ajam.dev/x86_64/chromium.NixAppImage.repology.json
     src_url: https://chromium.googlesource.com/chromium/src.git
     web_url: https://www.chromium.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.NixAppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/chromium.NixAppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/chromium.alpine.appdata.xml
     category: WebBrowser
     desktop: https://pkg.ajam.dev/x86_64/chromium.NixAppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/chromium.NixAppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/chromium.NixAppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/chromium.NixAppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/chromium.NixAppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/chromium.NixAppImage#[2024-10-29T12:20:04]
   - name: engrampa.dwfs.AppBundle
     bin_id: org.mate.engrampa
     bin_name: engrampa
@@ -41272,23 +41289,23 @@ pkg:
     version: 1.28.1
     download_url: https://pkg.ajam.dev/x86_64/engrampa.dwfs.AppBundle
     size: 17.27 MB
-    bsum: a3ef7d6f3fa59beeee7bac993498af267292687f5e48052e7202c12d0247b107
-    shasum: 3ae9f384ae0e730a25f439f8be8b378d942aa826119095c8a3685eed03d4767c
-    build_date: 2024-10-31T18:47:50
+    bsum: 4a8d023ecb62911d968225c467d7e82f34f7a8d4d1bd28410de0b6039d62b2bf
+    shasum: 376e3e8396ed2d3ddbe55a0d7285ba564826097c7f4f8d3af24f82a6a049e69e
+    build_date: 2024-11-01T11:23:56
     repology: https://pkg.ajam.dev/x86_64/engrampa.dwfs.AppBundle.repology.json
     src_url: https://github.com/mate-desktop/engrampa
     web_url: https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/engrampa.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/engrampa.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: WebBrowser
     desktop: ""
     icon: https://pkg.ajam.dev/x86_64/engrampa.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/engrampa.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/engrampa.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/engrampa.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/engrampa.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: falkon.dwfs.AppBundle
     bin_id: org.kde.falkon.desktop
     bin_name: falkon
@@ -41296,24 +41313,24 @@ pkg:
     note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 24.08.2
     download_url: https://pkg.ajam.dev/x86_64/falkon.dwfs.AppBundle
-    size: 304.2 MB
-    bsum: 01d2682643dd6e64b509debdb8eed8e425fe74b79fe75f37eadd429e62121611
-    shasum: 8f8889bd4796cc541ab5082f4cef807ff5d8787176a2d59c29be2a56ecb7c0c7
-    build_date: 2024-10-31T18:50:57
+    size: 304.23 MB
+    bsum: 88b2da5c04943c78811378f6a0f0934409ac523c9b1ec13d6bd6009301587a70
+    shasum: f2d494356c080fc7f6350c5c96e95de4682dcb7a4d2cdcc9c9f00f8c6c3bc008
+    build_date: 2024-11-01T11:26:50
     repology: https://pkg.ajam.dev/x86_64/falkon.dwfs.AppBundle.repology.json
     src_url: https://invent.kde.org/network/falkon
     web_url: https://www.falkon.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/falkon.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/falkon.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: WebBrowser
     desktop: ""
     icon: https://pkg.ajam.dev/x86_64/falkon.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/falkon.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/falkon.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/falkon.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/falkon.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: firefox.dwfs.AppBundle
     bin_id: org.mozilla.firefox
     bin_name: firefox
@@ -41322,23 +41339,23 @@ pkg:
     version: "132.0"
     download_url: https://pkg.ajam.dev/x86_64/firefox.dwfs.AppBundle
     size: 207.53 MB
-    bsum: 283474783b33acd5eae83d7c9754f4fae13c35a1d16243a70e7881d04f2a1ceb
-    shasum: 72007f548d6b4d9ea400423f769e46981d528fff46537d01a12c5a593faf977c
-    build_date: 2024-10-31T18:53:04
+    bsum: b1f236ab0c3372c6dfc79ecbbcf2cdf0f153c417be3826fe4f6ce52518b649ba
+    shasum: f2011b0b1cf7a5e546a47f846b4d1299da3a7b7a408f4569f4824906e42d6c4c
+    build_date: 2024-11-01T11:28:47
     repology: https://pkg.ajam.dev/x86_64/firefox.dwfs.AppBundle.repology.json
     src_url: https://hg.mozilla.org/mozilla-central
     web_url: http://www.mozilla.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/firefox.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/firefox.AppBundle.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/firefox.alpine.appdata.xml
     category: WebBrowser
     desktop: https://pkg.ajam.dev/x86_64/firefox.alpine.desktop
     icon: https://pkg.ajam.dev/x86_64/firefox.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/firefox.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/firefox.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/firefox.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/firefox.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: i3.AppImage
     bin_id: org.i3wm.i3
     bin_name: i3
@@ -41347,23 +41364,23 @@ pkg:
     version: "4.23"
     download_url: https://pkg.ajam.dev/x86_64/i3.AppImage
     size: 3.86 MB
-    bsum: 7fb646b3d34e0497cb6298ada6865c2c01d28c5dbba5876a27956a6ae07e6a10
-    shasum: 16dd6172ce227f8c9d223692d0068d1d51261180dabf3a6154cc8358475a3154
-    build_date: 2024-10-31T18:53:27
+    bsum: 3444b95ca66bf159986b91eb3fb05f65d4d3e5dc296fb4d1b1528b3d12b5f6ac
+    shasum: f109861a704858407382fdbb2f201f6740ec4442698889dcf33990e09a54a791
+    build_date: 2024-11-01T11:29:11
     repology: https://pkg.ajam.dev/x86_64/i3.AppImage.repology.json
     src_url: https://github.com/i3/i3
     web_url: https://i3wm.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/i3.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: System,Utility
     desktop: https://pkg.ajam.dev/x86_64/i3.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/i3.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/i3.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/i3.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/i3.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/i3.AppImage#[2024-10-29T12:20:04]
   - name: imagemagick.dwfs.AppBundle
     bin_id: org.imagemagick
     bin_name: magick
@@ -41372,23 +41389,23 @@ pkg:
     version: 7.1.1.39
     download_url: https://pkg.ajam.dev/x86_64/imagemagick.dwfs.AppBundle
     size: 13.04 MB
-    bsum: fa0b567aa08bd3f0281ccb491dde041d280d60ea6f6cae658fec493e125ee5fe
-    shasum: e6f134c59b0438b99b13577b8c39f2476742e504f562346ca21b3f5e163099cf
-    build_date: 2024-10-31T18:53:53
+    bsum: 66ae883e03e3f31277e49e01b9e87065db6b5b9a974c4610992d2d25b3277d7f
+    shasum: 2b9c479b8754afa434ba2e21a58a382347aceb6af9109825ce9dd014377633ac
+    build_date: 2024-11-01T11:29:35
     repology: https://pkg.ajam.dev/x86_64/imagemagick.dwfs.AppBundle.repology.json
     src_url: https://github.com/ImageMagick/ImageMagick
     web_url: https://imagemagick.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/imagemagick.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/imagemagick.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: ConsoleOnly,Graphics,ImageProcessing,Utility
     desktop: ""
     icon: https://pkg.ajam.dev/x86_64/imagemagick.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/imagemagick.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/imagemagick.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/imagemagick.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/imagemagick.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: inkscape-dev.AppImage
     bin_id: org.inkscape.Inkscape
     bin_name: inkscape
@@ -41397,23 +41414,23 @@ pkg:
     version: f2cf11b-dev
     download_url: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage
     size: 100.84 MB
-    bsum: 0319b9e36b25bab3e9fe0db8f894f91213b2f8b59534cfbb05e44ef15d6020af
-    shasum: 18f287de476534ee02320493efffbfd1f95d0398dca64549fa64f7cade218ae5
-    build_date: 2024-10-31T18:55:21
+    bsum: 4385794ab3a1936864ba526711b8d54d310f0ab3b58f3afadce5a91e3cd69e82
+    shasum: 3fdddb47e415190c9fd096a624ebe862061ca948a37d56960835cc611ab7f29a
+    build_date: 2024-11-01T11:30:54
     repology: ""
     src_url: https://gitlab.com/inkscape/inkscape
     web_url: https://inkscape.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape-dev.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage.appdata.xml
     category: Graphics,Office
     desktop: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/inkscape-dev.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/inkscape-dev.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/inkscape-dev.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/inkscape-dev.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/inkscape-dev.AppImage#[2024-10-29T12:20:04]
   - name: inkscape.AppImage
     bin_id: org.inkscape.Inkscape
     bin_name: inkscape
@@ -41422,23 +41439,23 @@ pkg:
     version: "1.4"
     download_url: https://pkg.ajam.dev/x86_64/inkscape.AppImage
     size: 96.39 MB
-    bsum: 8675e952e587119204b78ab96ef30aef666ec191841ed980d5c9ac4d4944b446
-    shasum: e62a48775a49db3759283cf639c63db4a07f754d0f6294c9d7900895ad80de21
-    build_date: 2024-10-31T18:56:54
+    bsum: 19632208525c91876d85a4cbe7149213963a7a343477e30d6e9a328c95399139
+    shasum: 5fefe66570ecb7001e3c11fba3b104a8068cf324fc1104cd3648c5fe3a9d9c2a
+    build_date: 2024-11-01T11:32:24
     repology: https://pkg.ajam.dev/x86_64/inkscape.AppImage.repology.json
     src_url: https://gitlab.com/inkscape/inkscape
     web_url: https://inkscape.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/inkscape.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/inkscape.AppImage.appdata.xml
     category: Graphics,Office
     desktop: https://pkg.ajam.dev/x86_64/inkscape.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/inkscape.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/inkscape.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/inkscape.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/inkscape.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/inkscape.AppImage#[2024-10-29T12:20:04]
   - name: librewolf.AppImage
     bin_id: io.gitlab.librewolf-community
     bin_name: librewolf
@@ -41447,23 +41464,23 @@ pkg:
     version: v131.0.3-1
     download_url: https://pkg.ajam.dev/x86_64/librewolf.AppImage
     size: 93.92 MB
-    bsum: 19d5ddd733dccaada44b0f1b75da977ecac51c8aa20c0d424dbfa8dda7dc08e4
-    shasum: 55515c833877e46cb1d0ae1071bbb001a3dadf63a364bd64708dc84e30bb5852
-    build_date: 2024-10-31T18:57:46
+    bsum: 8810b186d346d1bcfd0a61df3e0a652714dada0c287fdf0f4432b41f3c06f08d
+    shasum: b8c8ecf897f1286bb24350c422564093d8d226097511a26df843aaa90533b65e
+    build_date: 2024-11-01T11:33:14
     repology: https://pkg.ajam.dev/x86_64/librewolf.AppImage.repology.json
     src_url: https://gitlab.com/librewolf-community/browser
     web_url: https://librewolf.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/librewolf.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/librewolf.AppImage.appdata.xml
     category: WebBrowser,Security
     desktop: https://pkg.ajam.dev/x86_64/librewolf.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/librewolf.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/librewolf.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/librewolf.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/librewolf.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/librewolf.AppImage#[2024-10-29T12:20:04]
   - name: librewolf-cachyos.FlatImage
     bin_id: io.gitlab.librewolf-community
     bin_name: librewolf
@@ -41471,24 +41488,24 @@ pkg:
     note: 'FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages'
     version: 131.0.3
     download_url: https://pkg.ajam.dev/x86_64/librewolf-cachyos.FlatImage
-    size: 471.55 MB
-    bsum: fc3cc1fc63cbcb8944963aca894e481070f69eebdd06c5cb39abbf15617ae2b3
-    shasum: 5c776427e3e725ed7b91b0d586a6f5acc255d51d40a63a35ab2b0816cc8a48d6
-    build_date: 2024-10-31T19:01:55
-    repology: ""
+    size: 470.18 MB
+    bsum: 0e299352694664f31b226950f26de5593fbee0928048864925e3c2c09a0552a2
+    shasum: 82fc76dc664d4f1da89c73537726f32656570a68c8c4675a76bfed70dd061ec7
+    build_date: 2024-11-01T11:37:09
+    repology: https://pkg.ajam.dev/x86_64/librewolf-cachyos.FlatImage.repology.json
     src_url: https://codeberg.org/librewolf/source
     web_url: https://librewolf.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.FlatImage.sh
     build_log: https://pkg.ajam.dev/x86_64/librewolf.FlatImage.log
-    appstream: "null"
+    appstream: ""
     category: WebBrowser,Security
     desktop: https://pkg.ajam.dev/x86_64/librewolf.desktop
     icon: https://pkg.ajam.dev/x86_64/librewolf.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/librewolf-cachyos.FlatImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/librewolf-cachyos.FlatImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/librewolf-cachyos.FlatImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/librewolf-cachyos.FlatImage#[2024-10-29T12:20:04]
   - name: mousepad.dwfs.AppBundle
     bin_id: org.xfce.mousepad
     bin_name: mousepad
@@ -41497,23 +41514,23 @@ pkg:
     version: 0.6.3
     download_url: https://pkg.ajam.dev/x86_64/mousepad.dwfs.AppBundle
     size: 17.98 MB
-    bsum: a27ab192399a152dd1f376798d45245b0d4442e8c3aa999534a1dd206dd158ea
-    shasum: bca7c70ccfc6ec83bfc8d9863e4ac1165c70b96a9845ddc9d0b7ec623acb24fa
-    build_date: 2024-10-31T19:02:31
+    bsum: 2b3f189eda7f1e8a04bb33e8acc6eba75a5be6cd086c006ba7302103bc56b6fc
+    shasum: 9321986409bd2d919c394c2ee8a91d0036c39006854870b691c0ef91dc9a2f0f
+    build_date: 2024-11-01T11:37:44
     repology: https://pkg.ajam.dev/x86_64/mousepad.dwfs.AppBundle.repology.json
     src_url: https://gitlab.xfce.org/apps/mousepad
     web_url: https://docs.xfce.org/apps/mousepad/start
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mousepad.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/mousepad.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: TextEditor
     desktop: ""
     icon: https://pkg.ajam.dev/x86_64/mousepad.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/mousepad.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/mousepad.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/mousepad.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/mousepad.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: obs-studio.AppImage
     bin_id: com.obsproject.Studio
     bin_name: obs-studio
@@ -41521,24 +41538,24 @@ pkg:
     note: Community Created AppImage. Check/Report @ https://github.com/ivan-hc/OBS-Studio-appimage
     version: 30.2.1
     download_url: https://pkg.ajam.dev/x86_64/obs-studio.AppImage
-    size: 174.2 MB
-    bsum: 94ea946c398439aec8ef5fea6b288fb99b401ed5d9510561447f11ec2908c776
-    shasum: 17e09bc4492021e8ed28627eaced293c4f188a637d5bc12fecec0fdf98990460
-    build_date: 2024-10-31T19:03:48
+    size: 174.22 MB
+    bsum: 8587c5818b683ff3759c4cbf86aa3f554433f2b35fa3c062e626a9886764fb81
+    shasum: 54d63463953fa38685fff7938996d7341cc3aba299b422c4da3c2bb15a781fc3
+    build_date: 2024-11-01T11:38:56
     repology: https://pkg.ajam.dev/x86_64/obs-studio.AppImage.repology.json
     src_url: https://github.com/obsproject/obs-studio
     web_url: https://obsproject.com
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/obs-studio.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/obs-studio.AppImage.metainfo.xml
     category: AudioVideoEditing,Recorder
     desktop: https://pkg.ajam.dev/x86_64/obs-studio.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/obs-studio.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/obs-studio.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/obs-studio.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/obs-studio.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/obs-studio.AppImage#[2024-10-29T12:20:04]
   - name: olive-editor.AppImage
     bin_id: org.olivevideoeditor.Olive
     bin_name: olive
@@ -41547,23 +41564,23 @@ pkg:
     version: "2024-08-24T22:35:10Z"
     download_url: https://pkg.ajam.dev/x86_64/olive-editor.AppImage
     size: 120.57 MB
-    bsum: f405dc654af397cfc3ec5bd6399d812f108acc14426da6f0b721f5c12a778624
-    shasum: 381949bc4cff42844aaeddd4a6ce737a205750fe60bf8bf2121128f2cab1a499
-    build_date: 2024-10-31T19:05:14
+    bsum: 867f0d4f0916dfd50dcfe00524edcc89ff0d487725268c2c9968d723d64f6b23
+    shasum: 6d991e9fe0c5a3c6fb84de2017790eeb464b4bd26000c1800c0188158423a5a7
+    build_date: 2024-11-01T11:40:16
     repology: https://pkg.ajam.dev/x86_64/olive-editor.AppImage.repology.json
     src_url: https://github.com/olive-editor/olive
     web_url: https://www.olivevideoeditor.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/olive-editor.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/olive-editor.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/olive-editor.AppImage.appdata.xml
     category: AudioVideoEditing
     desktop: https://pkg.ajam.dev/x86_64/olive-editor.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/olive-editor.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/olive-editor.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/olive-editor.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/olive-editor.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/olive-editor.AppImage#[2024-10-29T12:20:04]
   - name: pcmanfm.dwfs.AppBundle
     bin_id: org.lxqt-project.pcmanfm
     bin_name: pcmanfm
@@ -41572,23 +41589,23 @@ pkg:
     version: 1.3.2
     download_url: https://pkg.ajam.dev/x86_64/pcmanfm.dwfs.AppBundle
     size: 17.45 MB
-    bsum: 6569a9ed7ab45de10fa2bd70a60ef2490851b6653a2e0910371e2e6ad3b965e9
-    shasum: 2ee49da34f31715c0e250bb97b458a4f9f4141217b9b1e627b533d525db490af
-    build_date: 2024-10-31T19:05:47
+    bsum: c73f3acaba960620a7c6406d8ebc1f4d2c06d3e3bda023af4b0e14b9e9b90e92
+    shasum: d3c8a2e41c18f8fc54e45220aa5c6dac42a27388f1816de196bf944f9d6475e1
+    build_date: 2024-11-01T11:40:45
     repology: https://pkg.ajam.dev/x86_64/pcmanfm.dwfs.AppBundle.repology.json
     src_url: https://github.com/lxde/pcmanfm
     web_url: https://github.com/lxde/pcmanfm
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/pcmanfm.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/pcmanfm.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: Core,FileManager
     desktop: ""
     icon: ""
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/pcmanfm.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/pcmanfm.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/pcmanfm.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/pcmanfm.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: ppsspp.dwfs.AppBundle
     bin_id: org.ppsspp.PPSSPP
     bin_name: ppsspp
@@ -41596,24 +41613,24 @@ pkg:
     note: 'AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles'
     version: 1.17.1
     download_url: https://pkg.ajam.dev/x86_64/ppsspp.dwfs.AppBundle
-    size: 170.84 MB
-    bsum: be62e787241ccbe11e8afe459bad67c5f1c3db7338e7e6acb63f3513e37da47a
-    shasum: 1ab8d1ee53cb8409bd59098dcfe38ebaea96bf10f0c2fc8a9baae71cade77d14
-    build_date: 2024-10-31T19:07:32
+    size: 170.82 MB
+    bsum: fb40e91e2cded67232137fdadc0142d45fa6555a84fe2bc4f67b412310cebf2a
+    shasum: e615ff62d93e4270250108e518f7620ea30584b3fd2a3015c6d9cbe684482373
+    build_date: 2024-11-01T11:42:22
     repology: https://pkg.ajam.dev/x86_64/ppsspp.dwfs.AppBundle.repology.json
     src_url: https://github.com/hrydgard/ppsspp
     web_url: https://www.ppsspp.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ppsspp.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/ppsspp.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: Emulator,Game
     desktop: ""
     icon: https://pkg.ajam.dev/x86_64/ppsspp.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/ppsspp.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/ppsspp.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/ppsspp.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/ppsspp.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: puddletag.AppImage
     bin_id: net.puddletag.puddletag
     bin_name: puddletag
@@ -41622,23 +41639,23 @@ pkg:
     version: 2.4.0
     download_url: https://pkg.ajam.dev/x86_64/puddletag.AppImage
     size: 52.03 MB
-    bsum: 8059c0093905ef04f5819a6d8be524f50b9a50704087cd22e189d4c948956aff
-    shasum: 7245476255d79b2985445e8dedb62b09faf44aad382eee316c7c3ad135dd053d
-    build_date: 2024-10-31T19:08:06
+    bsum: 28b1990f08714979c8b67bd8f335b48f78e0a6f9f88e8f872fdf887505ef90cd
+    shasum: d8559465b8a05a933a3c9ea38d10966b0fe9cc14c5ea7cdbf250de938e64fe5a
+    build_date: 2024-11-01T11:42:53
     repology: https://pkg.ajam.dev/x86_64/puddletag.AppImage.repology.json
     src_url: https://github.com/puddletag/puddletag
     web_url: https://docs.puddletag.net
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/puddletag.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: AudioVideoEditing,Music
     desktop: https://pkg.ajam.dev/x86_64/puddletag.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/puddletag.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/puddletag.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/puddletag.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/puddletag.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/puddletag.AppImage#[2024-10-29T12:20:04]
   - name: qbittorrent-enhanced.AppImage
     bin_id: org.qbittorrent.qBittorrent
     bin_name: qbittorrent-enhanced
@@ -41647,20 +41664,21 @@ pkg:
     version: release-5.0.0.10
     download_url: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage
     size: 25.59 MB
-    bsum: fb64f64a105d2ada0a5883aab9f5d341b94eb18ec8d557443fcca79c2b7a9a0d
-    shasum: 5e5363df1ac773a43cff0c3b1282d246ff3d212bf3df09b6de5d7e28b11c5fd1
-    build_date: 2024-10-31T19:08:23
+    bsum: 79e41fbf376d48f19483f44ffd0d99498b4bd1857cafdc63cacacaf150ab106e
+    shasum: a981ddecef16d9e66195338de4e6ae645add68d128fb425bcb48d2a31014b440
+    build_date: 2024-11-01T11:43:08
     repology: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage.repology.json
     src_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
     web_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent-enhanced.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage.metainfo.xml
     category: Network,P2P
     desktop: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/qbittorrent-enhanced.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/qbittorrent-enhanced.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/fbf94113188caf301212cd73ffbeac7ba65fe037/x86_64-Linux/qbittorrent-enhanced.AppImage#[2024-09-29T12:05:39]
   - name: qbittorrent.AppImage
@@ -41671,23 +41689,23 @@ pkg:
     version: 5.0.1
     download_url: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage
     size: 84.66 MB
-    bsum: 09158462cbc427006658e56eb68384796d0ece2e4a941353dfe4bc3771dc62e1
-    shasum: f1ce99ad7decfd1edffdedfbb893cf711e466fc680c218802bad58097f7df63d
-    build_date: 2024-10-31T19:11:13
+    bsum: 588480cd531a1d9858202f0bc8cdbfb8218bd3d985fc2cbcbb6db62f031245b2
+    shasum: 7a198d51d9a83d42a952f47f7748ae0c9d17f9f1630eab2f061b5c6739e4f83e
+    build_date: 2024-11-01T11:45:43
     repology: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.repology.json
     src_url: https://github.com/qbittorrent/qBittorrent
     web_url: https://www.qbittorrent.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.log
-    appstream: "null"
+    appstream: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.metainfo.xml
     category: Network,P2P
     desktop: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/qbittorrent.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/qbittorrent.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/qbittorrent.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/qbittorrent.AppImage#[2024-10-29T12:20:04]
   - name: ristretto.dwfs.AppBundle
     bin_id: org.xfce.ristretto
     bin_name: ristretto
@@ -41696,23 +41714,23 @@ pkg:
     version: 0.13.2
     download_url: https://pkg.ajam.dev/x86_64/ristretto.dwfs.AppBundle
     size: 17.4 MB
-    bsum: 3819417987967891994fc580bd7fb8e2aa4cb437f386106dc76dcf3b86238688
-    shasum: 89218c4168fc9a2b798ec26285aac77956decc3a7479d49b640f01afc6ed45ca
-    build_date: 2024-10-31T19:11:50
+    bsum: 0a577eaaac8acc1906f2a832800825814eac9d7c03b02453d16df6cee5e2cb81
+    shasum: ffa79a8c79915c839ac081c4ec0a5150f2609ee2d6c1fee0695d0396f9c28dfa
+    build_date: 2024-11-01T11:46:13
     repology: https://pkg.ajam.dev/x86_64/ristretto.dwfs.AppBundle.repology.json
     src_url: https://gitlab.xfce.org/apps/ristretto
     web_url: https://docs.xfce.org/apps/ristretto/start
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ristretto.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/ristretto.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: ImageProcessing,Photography,Viewer
     desktop: ""
     icon: https://pkg.ajam.dev/x86_64/ristretto.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/ristretto.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/ristretto.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/ristretto.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/ristretto.dwfs.AppBundle#[2024-10-29T12:20:04]
   - name: ryujinx.AppImage
     bin_id: org.ryujinx.Ryujinx
     bin_name: ryujinx
@@ -41721,23 +41739,23 @@ pkg:
     version: r.49574a9
     download_url: https://pkg.ajam.dev/x86_64/ryujinx.AppImage
     size: 25.23 MB
-    bsum: be94550fa3e8fe1da8e88cb44ef5e807a6defb7104a46c2af63e8bc827842007
-    shasum: a8f36aac1b63d4f095b00a04cacfd3b2bd6de5dd785baaf2a23e380abb8e4e50
-    build_date: 2024-10-31T19:12:13
+    bsum: 55105a9529b063f7bbb44bf01369a3a4df844c87cbeea8696ad30b08aaf77bc7
+    shasum: 9afe032e4743c993911645b6a9e3bcb31b77712083ba7ddd19fd417b3c41456b
+    build_date: 2024-11-01T11:46:34
     repology: https://pkg.ajam.dev/x86_64/ryujinx.AppImage.repology.json
     src_url: https://github.com/ryujinx-mirror/ryujinx
     web_url: https://github.com/ryujinx-mirror/ryujinx
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ryujinx.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/ryujinx.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: Emulator
     desktop: https://pkg.ajam.dev/x86_64/ryujinx.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/ryujinx.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/ryujinx.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/ryujinx.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/ryujinx.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/ryujinx.AppImage#[2024-10-29T12:20:04]
   - name: signal-desktop.AppImage
     bin_id: org.signal.Signal
     bin_name: signal-desktop
@@ -41746,23 +41764,23 @@ pkg:
     version: 7.30.0
     download_url: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage
     size: 138.44 MB
-    bsum: 42f3a7e9bca46ade8cbd24dd35e4061b205dee9ea0ab7a5c115d67d194e73821
-    shasum: d0267fd84c3de3a14bbfc62e8af116c8dec74103f6f022ba9aadd73fe2261a50
-    build_date: 2024-10-31T19:13:09
+    bsum: 0e0cc36eb7f1764d4ca8aa70a2f76076b2ed343c356855d374fecdcdd90bdee8
+    shasum: 6378144ae4089e9ed531c7e9f0a73dd28c5ed0af397b3593ef786e41061a2442
+    build_date: 2024-11-01T11:47:25
     repology: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage.repology.json
     src_url: https://github.com/signalapp/Signal-Desktop
     web_url: https://signal.org
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: Chat,Security
     desktop: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/signal-desktop.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/signal-desktop.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/signal-desktop.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/signal-desktop.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/signal-desktop.AppImage#[2024-10-29T12:20:04]
   - name: steam.AppImage
     bin_id: com.valvesoftware.Steam
     bin_name: steam
@@ -41770,24 +41788,24 @@ pkg:
     note: Community Created AppImage based on Conty (ArchLinux). Check/Report @ https://github.com/ivan-hc/Steam-appimage
     version: 1.0.0.81
     download_url: https://pkg.ajam.dev/x86_64/steam.AppImage
-    size: 357.86 MB
-    bsum: 2caf84f7536b653b0a04ca2ef21a35d83f3e38fe1cd12cddc1a864acde997c4c
-    shasum: 92243b5321ef67a0ba5a9ae0738841c11ae25f775751880e3acb50b27800a6d4
-    build_date: 2024-10-31T19:13:45
+    size: 354.62 MB
+    bsum: b4533bda2ce6b02895d09991d077b8c3a62e48f82fa279fad7f9156557418cd8
+    shasum: becd4fa989abe2c4ab6938831fbc9825b90d914458300c88f65bc97e0fe117db
+    build_date: 2024-11-01T11:48:08
     repology: https://pkg.ajam.dev/x86_64/steam.AppImage.repology.json
     src_url: https://github.com/ivan-hc/Steam-appimage
     web_url: https://store.steampowered.com/about/
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.AppImage.sh
     build_log: https://pkg.ajam.dev/x86_64/steam.AppImage.log
-    appstream: "null"
+    appstream: ""
     category: Game
     desktop: https://pkg.ajam.dev/x86_64/steam.AppImage.desktop
     icon: https://pkg.ajam.dev/x86_64/steam.AppImage.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/steam.AppImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/steam.AppImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/steam.AppImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/steam.AppImage#[2024-10-29T12:20:04]
   - name: steam-cachyos.FlatImage
     bin_id: com.valvesoftware.Steam
     bin_name: steam
@@ -41795,24 +41813,24 @@ pkg:
     note: 'FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages'
     version: 1.0.0.81
     download_url: https://pkg.ajam.dev/x86_64/steam-cachyos.FlatImage
-    size: 556.7 MB
-    bsum: 5f74e05ac75aa7643702e22f40f4867b6283af396674b7007cc42dc19e0053a5
-    shasum: cc7fba7aa8122c96a9e4b98c82894403eb30bf82b5657633a41c4e3541789232
-    build_date: 2024-10-31T19:19:17
-    repology: ""
+    size: 555.09 MB
+    bsum: ef4f69c04edd467d6ac49869dc3d02540ff9b3a377b2d9662329047dbeed8b2a
+    shasum: 519daf313cee38b5ce46dbbb62712430ac41f45473f3367b187c3f04b04fe2a9
+    build_date: 2024-11-01T11:53:22
+    repology: https://pkg.ajam.dev/x86_64/steam-cachyos.FlatImage.repology.json
     src_url: https://github.com/ValveSoftware/steam-for-linux
     web_url: https://store.steampowered.com/about/
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.FlatImage.sh
     build_log: https://pkg.ajam.dev/x86_64/steam.FlatImage.log
-    appstream: "null"
+    appstream: ""
     category: Game
     desktop: https://pkg.ajam.dev/x86_64/steam.desktop
     icon: https://pkg.ajam.dev/x86_64/steam.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/steam-cachyos.FlatImage#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/steam-cachyos.FlatImage#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/steam-cachyos.FlatImage#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/steam-cachyos.FlatImage#[2024-10-29T12:20:04]
   - name: xfce4-terminal.dwfs.AppBundle
     bin_id: org.xfce.terminal
     bin_name: xfce4-terminal
@@ -41821,20 +41839,20 @@ pkg:
     version: 1.1.3
     download_url: https://pkg.ajam.dev/x86_64/xfce4-terminal.dwfs.AppBundle
     size: 21.28 MB
-    bsum: 59deed785e23a4d8aea573ee639112c273e8be58e99cf3174d89041f976f1f22
-    shasum: 4c6bbc1fa01c2d4a6ee6ad5347814fa2e32b10460a97d8fdedc87afe3f7b01b5
-    build_date: 2024-10-31T19:19:59
+    bsum: c6c0a13d13d89d1683fd0e65d61116ff0d43f04bc57180369b9c83a9b2bb1e5a
+    shasum: ee9b0aba429307f0e1d5955633e0dcd4ec929041316299ed471bc38dfe42f92d
+    build_date: 2024-11-01T11:53:58
     repology: https://pkg.ajam.dev/x86_64/xfce4-terminal.dwfs.AppBundle.repology.json
     src_url: https://gitlab.xfce.org/apps/xfce4-terminal
     web_url: https://docs.xfce.org/apps/xfce4-terminal/start
     build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/xfce4-terminal.AppBundle.sh
     build_log: https://pkg.ajam.dev/x86_64/xfce4-terminal.AppBundle.log
-    appstream: "null"
+    appstream: ""
     category: Core,TerminalEmulator
     desktop: ""
     icon: https://pkg.ajam.dev/x86_64/xfce4-terminal.dwfs.AppBundle.icon.png
     extra_bins: ""
     snapshots:
+      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/3b0cabf28efc74527ca9f609f59669f16af9f92a/x86_64-Linux/xfce4-terminal.dwfs.AppBundle#[2024-10-31T19:22:27]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/878ced641dfdb805e454ac03d33374bc062fa243/x86_64-Linux/xfce4-terminal.dwfs.AppBundle#[2024-10-31T11:11:57]
       - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/cd9aa38715fd9a80e72cfbb04ad445263fa5cee9/x86_64-Linux/xfce4-terminal.dwfs.AppBundle#[2024-10-31T05:52:41]
-      - https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/be1b4bcc4fbd1c666d4edff39654237421fdf992/x86_64-Linux/xfce4-terminal.dwfs.AppBundle#[2024-10-29T12:20:04]

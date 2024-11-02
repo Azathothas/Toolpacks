@@ -788,6 +788,7 @@
  2.7M   ├── shfmt
  2.7M   ├── jobs
  2.7M   ├── fwanalyzer
+ 2.7M   ├── METADATA.AIO.soar.capnp
  2.6M   ├── bingrep
  2.6M   ├── p9cpu
  2.6M   ├── kalc
@@ -1034,6 +1035,7 @@
  415K   ├── scopeview.preview-3.png
  415K   ├── scopegen.preview-3.png
  415K   ├── resdns.preview-3.png
+ 415K   ├── quotes-escaper.preview-3.png
  415K   ├── inscope.preview-3.png
  415K   ├── cutlines.preview-3.png
  415K   ├── comb.preview-3.png
@@ -1045,6 +1047,7 @@
  387K   ├── lsof
  386K   ├── logrotate
  386K   ├── fi6s
+ 373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  362K   ├── sftp
  336K   ├── ppfuzz.preview.png
@@ -1054,6 +1057,7 @@
  322K   ├── scopeview.preview-4.png
  322K   ├── scopegen.preview-4.png
  322K   ├── resdns.preview-4.png
+ 322K   ├── quotes-escaper.preview-4.png
  322K   ├── pigz
  322K   ├── inscope.preview-4.png
  322K   ├── doas
@@ -1065,6 +1069,7 @@
  320K   ├── scopeview.preview-2.png
  320K   ├── scopegen.preview-2.png
  320K   ├── resdns.preview-2.png
+ 320K   ├── quotes-escaper.preview-2.png
  320K   ├── inscope.preview-2.png
  320K   ├── cutlines.preview-2.png
  320K   ├── comb.preview-2.png
@@ -1073,6 +1078,7 @@
  314K   ├── scopeview.preview-1.png
  314K   ├── scopegen.preview-1.png
  314K   ├── resdns.preview-1.png
+ 314K   ├── quotes-escaper.preview-1.png
  314K   ├── inscope.preview-1.png
  314K   ├── cutlines.preview-1.png
  314K   ├── comb.preview-1.png
@@ -1080,6 +1086,7 @@
  308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  286K   ├── region_restriction_check.sh
+ 282K   ├── pdfcpu.preview.png
  278K   ├── freeze.preview.png
  276K   ├── cpufetch
  274K   ├── sftp-server
@@ -1090,6 +1097,7 @@
  268K   ├── wg
  261K   ├── flawz.preview.png
  261K   ├── netstat
+ 259K   ├── METADATA.AIO.soar.capnp.zstd
  259K   ├── numactl
  258K   ├── sed
  258K   ├── numademo
@@ -1099,14 +1107,15 @@
  255K   ├── mubeng.preview.png
  253K   ├── screenfetch
  251K   ├── meli.preview.png
- 247K   ├── METADATA.AIO.json.zstd
+ 249K   ├── METADATA.AIO.soar.capnp.xz
  247K   ├── METADATA.AIO.json.xz
+ 247K   ├── METADATA.AIO.json.zstd
  245K   ├── METADATA.AIO.min.json.zstd
  244K   ├── METADATA.AIO.yaml.zstd
  244K   ├── METADATA.AIO.yaml.xz
  244K   ├── METADATA.AIO.toml.zstd
- 244K   ├── METADATA.AIO.toml.xz
  243K   ├── lorien.preview.png
+ 243K   ├── METADATA.AIO.toml.xz
  243K   ├── METADATA.AIO.min.json.xz
  240K   ├── rattler-build.preview.png
  238K   ├── udpx.preview.png
@@ -1127,6 +1136,7 @@
  199K   ├── scopeview.preview-0.png
  199K   ├── scopegen.preview-0.png
  199K   ├── resdns.preview-0.png
+ 199K   ├── quotes-escaper.preview-0.png
  199K   ├── inscope.preview-0.png
  199K   ├── cutlines.preview-0.png
  199K   ├── comb.preview-0.png
@@ -1144,6 +1154,7 @@
  193K   ├── mkpasswd
  193K   ├── dalfox.preview.png
  191K   ├── sar
+ 188K   ├── yabs.sh.preview.png
  187K   ├── rescope.preview.png
  184K   ├── trufflehog.preview.png
  184K   ├── haylxon.preview.png
@@ -1234,6 +1245,7 @@
   75K   ├── arduino-cli.preview.png
   74K   ├── bin2video
   72K   ├── hugo.preview.png
+  69K   ├── rage.preview.png
   69K   ├── cocogitto.preview.png
   68K   ├── age.preview.png
   67K   ├── sn0int.preview.png
@@ -1247,9 +1259,9 @@
   65K   ├── hcxeiutool
   65K   ├── hakrawler.preview.png
   64K   ├── joker
-  63K   ├── pdfcpu.preview.png
   63K   ├── jaeles.preview.png
   63K   ├── importenv
+  62K   ├── z-tokens.preview.png
   62K   ├── tut.preview.png
   62K   ├── libtree.preview.png
   61K   ├── zoxide.preview.png
@@ -1260,7 +1272,6 @@
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── podsync.preview.png
-  52K   ├── yabs.sh.preview.png
   52K   ├── miller.preview.png
   51K   ├── redguard.preview.png
   51K   ├── catatonit
@@ -1272,7 +1283,6 @@
   48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
-  46K   ├── rage.preview.png
   46K   ├── hexyl.preview.png
   44K   ├── yabs.sh
   44K   ├── tailscale.preview.png
@@ -1292,10 +1302,8 @@
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
   36K   ├── micro.preview.png
-  35K   ├── z-tokens.preview.png
   35K   ├── puredns.preview.png
   35K   ├── broot.preview.png
-  34K   ├── realm-tavern.preview.png
   33K   ├── fnm.preview.png
   31K   ├── nezha-install.sh
   29K   ├── rustscan.preview.png
@@ -1365,6 +1373,9 @@
  512B   ├── METADATA.AIO.toml.zstd.bsum
  512B   ├── METADATA.AIO.toml.xz.bsum
  512B   ├── METADATA.AIO.toml.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.zstd.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.xz.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.bsum
  512B   ├── METADATA.AIO.min.json.zstd.bsum
  512B   ├── METADATA.AIO.min.json.xz.bsum
  512B   ├── METADATA.AIO.min.json.bsum

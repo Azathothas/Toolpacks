@@ -767,6 +767,7 @@
  3.4M   ├── cidr
  3.4M   ├── lf
  3.4M   ├── rust-parallel
+ 3.4M   ├── METADATA.AIO.soar.capnp
  3.4M   ├── qemu-loongarch64-static
  3.4M   ├── kalc
  3.3M   ├── stuffbin
@@ -1126,16 +1127,19 @@
  308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  303K   ├── mdp
+ 301K   ├── METADATA.AIO.soar.capnp.zstd
  292K   ├── linuxwave
  288K   ├── METADATA.AIO.json.xz
- 286K   ├── region_restriction_check.sh
  286K   ├── METADATA.AIO.json.zstd
+ 286K   ├── region_restriction_check.sh
+ 285K   ├── METADATA.AIO.soar.capnp.xz
  285K   ├── METADATA.AIO.yaml.xz
  284K   ├── METADATA.AIO.min.json.zstd
  283K   ├── METADATA.AIO.yaml.zstd
  283K   ├── METADATA.AIO.toml.zstd
  283K   ├── METADATA.AIO.toml.xz
  283K   ├── METADATA.AIO.min.json.xz
+ 282K   ├── pdfcpu.preview.png
  282K   ├── doas
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
@@ -1312,7 +1316,6 @@
   66K   ├── zapper-stealth
   66K   ├── oha.preview.png
   65K   ├── hakrawler.preview.png
-  63K   ├── pdfcpu.preview.png
   63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
   62K   ├── tut.preview.png
@@ -1346,7 +1349,6 @@
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
-  41K   ├── aggligator.preview.png
   40K   ├── jsmug
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
@@ -1368,6 +1370,7 @@
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
+  27K   ├── aggligator.preview.png
   26K   ├── tidy-viewer.preview.png
   26K   ├── smap.preview.png
   26K   ├── apk.sh
@@ -1430,6 +1433,9 @@
  512B   ├── METADATA.AIO.toml.zstd.bsum
  512B   ├── METADATA.AIO.toml.xz.bsum
  512B   ├── METADATA.AIO.toml.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.zstd.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.xz.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.bsum
  512B   ├── METADATA.AIO.min.json.zstd.bsum
  512B   ├── METADATA.AIO.min.json.xz.bsum
  512B   ├── METADATA.AIO.min.json.bsum
