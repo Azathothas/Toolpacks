@@ -626,9 +626,11 @@
  4.5M   ├── xbps-install
  4.4M   ├── elinks-lite
  4.4M   ├── elinks
+ 4.4M   ├── METADATA.AIO.yaml
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
  4.4M   ├── enumerepo
+ 4.3M   ├── METADATA.AIO.toml
  4.3M   ├── xbps-query
  4.3M   ├── xbps-dgraph
  4.3M   ├── xbps-uunshare
@@ -673,6 +675,7 @@
  4.1M   ├── validtoml
  4.0M   ├── dns-doctor
  4.0M   ├── cfspeedtest
+ 4.0M   ├── METADATA.AIO.soar.capnp
  4.0M   ├── qemu-mipsn32el-static
  4.0M   ├── qemu-mipsn32-static
  4.0M   ├── qemu-mips64el-static
@@ -757,14 +760,12 @@
  2.9M   ├── yj
  2.9M   ├── ctrsploit-checksec
  2.9M   ├── wasminspect
- 2.9M   ├── METADATA.AIO.yaml
  2.9M   ├── qemu-alpha-static
  2.9M   ├── qemu-microblazeel-static
  2.9M   ├── qemu-microblaze-static
  2.9M   ├── qemu-sh4eb-static
  2.9M   ├── qemu-sh4-static
  2.9M   ├── qemu-cris-static
- 2.9M   ├── METADATA.AIO.toml
  2.9M   ├── imgcat
  2.9M   ├── goawk
  2.9M   ├── deoptimizer
@@ -788,7 +789,6 @@
  2.7M   ├── shfmt
  2.7M   ├── jobs
  2.7M   ├── fwanalyzer
- 2.7M   ├── METADATA.AIO.soar.capnp
  2.6M   ├── bingrep
  2.6M   ├── p9cpu
  2.6M   ├── kalc
@@ -1050,8 +1050,18 @@
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  362K   ├── sftp
+ 341K   ├── METADATA.AIO.soar.capnp.zstd
  336K   ├── ppfuzz.preview.png
+ 331K   ├── METADATA.AIO.json.xz
  329K   ├── proot
+ 329K   ├── METADATA.AIO.yaml.xz
+ 328K   ├── METADATA.AIO.toml.xz
+ 328K   ├── METADATA.AIO.min.json.xz
+ 327K   ├── METADATA.AIO.soar.capnp.xz
+ 326K   ├── METADATA.AIO.json.zstd
+ 325K   ├── METADATA.AIO.min.json.zstd
+ 324K   ├── METADATA.AIO.yaml.zstd
+ 324K   ├── METADATA.AIO.toml.zstd
  322K   ├── mawk
  322K   ├── tok.preview-4.png
  322K   ├── scopeview.preview-4.png
@@ -1097,7 +1107,6 @@
  268K   ├── wg
  261K   ├── flawz.preview.png
  261K   ├── netstat
- 259K   ├── METADATA.AIO.soar.capnp.zstd
  259K   ├── numactl
  258K   ├── sed
  258K   ├── numademo
@@ -1107,16 +1116,7 @@
  255K   ├── mubeng.preview.png
  253K   ├── screenfetch
  251K   ├── meli.preview.png
- 249K   ├── METADATA.AIO.soar.capnp.xz
- 247K   ├── METADATA.AIO.json.xz
- 247K   ├── METADATA.AIO.json.zstd
- 245K   ├── METADATA.AIO.min.json.zstd
- 244K   ├── METADATA.AIO.yaml.zstd
- 244K   ├── METADATA.AIO.yaml.xz
- 244K   ├── METADATA.AIO.toml.zstd
  243K   ├── lorien.preview.png
- 243K   ├── METADATA.AIO.toml.xz
- 243K   ├── METADATA.AIO.min.json.xz
  240K   ├── rattler-build.preview.png
  238K   ├── udpx.preview.png
  236K   ├── planor.preview.png

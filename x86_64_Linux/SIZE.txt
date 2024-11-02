@@ -679,6 +679,7 @@
  4.5M   ├── iperf
  4.5M   ├── agrind
  4.5M   ├── datadash
+ 4.5M   ├── METADATA.AIO.yaml
  4.4M   ├── checkbypass
  4.4M   ├── doomxss
  4.4M   ├── robotstxt
@@ -686,6 +687,7 @@
  4.4M   ├── heacoll
  4.4M   ├── chainredir
  4.4M   ├── hcxpsktool
+ 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── ouch
  4.4M   ├── timer
  4.4M   ├── hcxpmktool
@@ -718,6 +720,7 @@
  4.0M   ├── makebbmain
  4.0M   ├── qemu-armeb-static
  4.0M   ├── just
+ 4.0M   ├── METADATA.AIO.soar.capnp
  4.0M   ├── qemu-arm-static
  4.0M   ├── dotenv-linter
  4.0M   ├── handlr
@@ -743,11 +746,9 @@
  3.8M   ├── wasminspect
  3.7M   ├── find-rs
  3.7M   ├── qemu-ppc-static
- 3.7M   ├── METADATA.AIO.yaml
  3.7M   ├── spiped
  3.7M   ├── tealdeer
  3.7M   ├── spipe
- 3.7M   ├── METADATA.AIO.toml
  3.7M   ├── viu
  3.7M   ├── deoptimizer
  3.6M   ├── passdetective
@@ -766,7 +767,6 @@
  3.4M   ├── cidr
  3.4M   ├── lf
  3.4M   ├── rust-parallel
- 3.4M   ├── METADATA.AIO.soar.capnp
  3.4M   ├── qemu-loongarch64-static
  3.4M   ├── kalc
  3.3M   ├── stuffbin
@@ -1074,12 +1074,22 @@
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
+ 367K   ├── METADATA.AIO.soar.capnp.zstd
  363K   ├── find
  362K   ├── scp
  354K   ├── sftp
  352K   ├── sudoreplay
  350K   ├── fi6s
+ 348K   ├── METADATA.AIO.soar.capnp.xz
  346K   ├── logrotate
+ 343K   ├── METADATA.AIO.json.xz
+ 341K   ├── METADATA.AIO.yaml.xz
+ 340K   ├── METADATA.AIO.toml.xz
+ 340K   ├── METADATA.AIO.min.json.xz
+ 339K   ├── METADATA.AIO.json.zstd
+ 337K   ├── METADATA.AIO.min.json.zstd
+ 336K   ├── METADATA.AIO.yaml.zstd
+ 336K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
  331K   ├── lsof
  322K   ├── tok.preview-4.png
@@ -1126,18 +1136,8 @@
  308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  303K   ├── mdp
- 301K   ├── METADATA.AIO.soar.capnp.zstd
  292K   ├── linuxwave
- 288K   ├── METADATA.AIO.json.xz
- 286K   ├── METADATA.AIO.json.zstd
  286K   ├── region_restriction_check.sh
- 285K   ├── METADATA.AIO.soar.capnp.xz
- 285K   ├── METADATA.AIO.yaml.xz
- 284K   ├── METADATA.AIO.min.json.zstd
- 283K   ├── METADATA.AIO.yaml.zstd
- 283K   ├── METADATA.AIO.toml.zstd
- 283K   ├── METADATA.AIO.toml.xz
- 283K   ├── METADATA.AIO.min.json.xz
  282K   ├── pdfcpu.preview.png
  282K   ├── doas
  278K   ├── freeze.preview.png
