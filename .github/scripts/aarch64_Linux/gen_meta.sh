@@ -99,8 +99,9 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='Asia/Kathmandu' date +'%A,
             REPO_LANGUAGE="$(echo $REPO_METADATA | jq -r '.language' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_LANGUAGE="$REPO_LANGUAGE"
             REPO_LICENSE="$(echo $REPO_METADATA | jq -r '.license.name' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')" && export REPO_LICENSE="$REPO_LICENSE"
             #Get Preview Images
-            REPO_IMG="$(curl -qfsSL "${REPO_URL}" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | grep -oP '(?<=property="og:image" content=")[^"]+' | tr -d '[:space:]' | grep -im1 "repository-images")" && export REPO_IMG="${REPO_IMG}"
-            [ -n "${REPO_IMG+x}" ] && [ -n "${REPO_IMG}" ] && curl -qfsSL "${REPO_IMG}" -o "${SYSTMP}/GH_TMP/${C_NAME}.preview.png" 2>/dev/null
+            #REPO_IMG="$(curl -qfsSL "${REPO_URL}" -H "Authorization: Bearer $GITHUB_TOKEN" 2>/dev/null | grep -oP '(?<=property="og:image" content=")[^"]+' | tr -d '[:space:]' | grep -im1 "repository-images")" && export REPO_IMG="${REPO_IMG}"
+            #[ -n "${REPO_IMG+x}" ] && [ -n "${REPO_IMG}" ] && curl -qfsSL "${REPO_IMG}" -o "${SYSTMP}/GH_TMP/${C_NAME}.preview.png" 2>/dev/null
+            export REPO_IMG=""
             #Last Updated          
             LAST_UPDATED="$(echo $REPO_METADATA | jq -r '.pushed_at' | sed 's/"//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g' | tr -d '[:space:]')" && export LAST_UPDATED="$LAST_UPDATED"
            #If Releases don't exist, use tags
