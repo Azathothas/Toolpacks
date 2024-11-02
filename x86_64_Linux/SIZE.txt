@@ -766,6 +766,7 @@
  3.4M   ├── cidr
  3.4M   ├── lf
  3.4M   ├── rust-parallel
+ 3.4M   ├── METADATA.AIO.soar.capnp
  3.4M   ├── qemu-loongarch64-static
  3.4M   ├── kalc
  3.3M   ├── stuffbin
@@ -1068,6 +1069,7 @@
  411K   ├── dbclient
  402K   ├── sadf
  401K   ├── smenu
+ 397K   ├── traefik.preview.png
  394K   ├── nnn
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
@@ -1124,16 +1126,19 @@
  308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  303K   ├── mdp
+ 301K   ├── METADATA.AIO.soar.capnp.zstd
  292K   ├── linuxwave
  288K   ├── METADATA.AIO.json.xz
- 286K   ├── region_restriction_check.sh
  286K   ├── METADATA.AIO.json.zstd
- 284K   ├── METADATA.AIO.yaml.xz
+ 286K   ├── region_restriction_check.sh
+ 285K   ├── METADATA.AIO.soar.capnp.xz
+ 285K   ├── METADATA.AIO.yaml.xz
  284K   ├── METADATA.AIO.min.json.zstd
  283K   ├── METADATA.AIO.yaml.zstd
  283K   ├── METADATA.AIO.toml.zstd
  283K   ├── METADATA.AIO.toml.xz
  283K   ├── METADATA.AIO.min.json.xz
+ 282K   ├── pdfcpu.preview.png
  282K   ├── doas
  278K   ├── freeze.preview.png
  274K   ├── viddy.preview.png
@@ -1200,6 +1205,7 @@
  166K   ├── migspeed
  166K   ├── migratepages
  166K   ├── memhog
+ 158K   ├── k9s.preview.png
  154K   ├── mkpasswd
  149K   ├── asn.preview.png
  149K   ├── sshportal.preview.png
@@ -1309,7 +1315,6 @@
   66K   ├── zapper-stealth
   66K   ├── oha.preview.png
   65K   ├── hakrawler.preview.png
-  63K   ├── pdfcpu.preview.png
   63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
   62K   ├── tut.preview.png
@@ -1317,12 +1322,9 @@
   61K   ├── zoxide.preview.png
   58K   ├── batcat.preview.png
   57K   ├── gguf-tools
-  57K   ├── traefik.preview.png
   57K   ├── joker
   57K   ├── amass.preview.png
   56K   ├── cloudfox.preview.png
-  55K   ├── pfetch-rs.preview.png
-  55K   ├── k9s.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
   54K   ├── ptyspawn
@@ -1336,6 +1338,7 @@
   50K   ├── hcxeiutool
   49K   ├── circumflex.preview.png
   48K   ├── resto.preview.png
+  48K   ├── pfetch-rs.preview.png
   47K   ├── rathole.preview.png
   47K   ├── massdns.preview.png
   46K   ├── hexyl.preview.png
@@ -1429,6 +1432,9 @@
  512B   ├── METADATA.AIO.toml.zstd.bsum
  512B   ├── METADATA.AIO.toml.xz.bsum
  512B   ├── METADATA.AIO.toml.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.zstd.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.xz.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.bsum
  512B   ├── METADATA.AIO.min.json.zstd.bsum
  512B   ├── METADATA.AIO.min.json.xz.bsum
  512B   ├── METADATA.AIO.min.json.bsum

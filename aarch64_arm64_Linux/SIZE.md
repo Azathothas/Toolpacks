@@ -788,6 +788,7 @@
  2.7M   ├── shfmt
  2.7M   ├── jobs
  2.7M   ├── fwanalyzer
+ 2.7M   ├── METADATA.AIO.soar.capnp
  2.6M   ├── bingrep
  2.6M   ├── p9cpu
  2.6M   ├── kalc
@@ -998,6 +999,7 @@
  658K   ├── whois
  647K   ├── htop
  645K   ├── starship.preview.png
+ 643K   ├── ockam.preview.png
  642K   ├── squashfuse_ll
  641K   ├── squashfuse
  587K   ├── docker-init
@@ -1084,6 +1086,7 @@
  308K   ├── gh-dash.preview.png
  305K   ├── gum.preview.png
  286K   ├── region_restriction_check.sh
+ 282K   ├── pdfcpu.preview.png
  278K   ├── freeze.preview.png
  276K   ├── cpufetch
  274K   ├── sftp-server
@@ -1094,6 +1097,7 @@
  268K   ├── wg
  261K   ├── flawz.preview.png
  261K   ├── netstat
+ 259K   ├── METADATA.AIO.soar.capnp.zstd
  259K   ├── numactl
  258K   ├── sed
  258K   ├── numademo
@@ -1103,8 +1107,9 @@
  255K   ├── mubeng.preview.png
  253K   ├── screenfetch
  251K   ├── meli.preview.png
- 247K   ├── METADATA.AIO.json.zstd
+ 249K   ├── METADATA.AIO.soar.capnp.xz
  247K   ├── METADATA.AIO.json.xz
+ 247K   ├── METADATA.AIO.json.zstd
  245K   ├── METADATA.AIO.min.json.zstd
  244K   ├── METADATA.AIO.yaml.zstd
  244K   ├── METADATA.AIO.yaml.xz
@@ -1254,7 +1259,6 @@
   65K   ├── hcxeiutool
   65K   ├── hakrawler.preview.png
   64K   ├── joker
-  63K   ├── pdfcpu.preview.png
   63K   ├── jaeles.preview.png
   63K   ├── importenv
   62K   ├── z-tokens.preview.png
@@ -1297,7 +1301,6 @@
   37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
   36K   ├── pls.preview.png
-  36K   ├── ockam.preview.png
   36K   ├── micro.preview.png
   35K   ├── puredns.preview.png
   35K   ├── broot.preview.png
@@ -1370,6 +1373,9 @@
  512B   ├── METADATA.AIO.toml.zstd.bsum
  512B   ├── METADATA.AIO.toml.xz.bsum
  512B   ├── METADATA.AIO.toml.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.zstd.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.xz.bsum
+ 512B   ├── METADATA.AIO.soar.capnp.bsum
  512B   ├── METADATA.AIO.min.json.zstd.bsum
  512B   ├── METADATA.AIO.min.json.xz.bsum
  512B   ├── METADATA.AIO.min.json.bsum
