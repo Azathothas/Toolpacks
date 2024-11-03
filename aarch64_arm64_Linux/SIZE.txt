@@ -78,6 +78,7 @@
   35M   ├── httpx
   35M   ├── nezha-dashboard
   34M   ├── alpine-flatimage.no_strip
+  34M   ├── FLATPAK_APPSTREAM.xml
   34M   ├── amass
   33M   ├── kopia
   33M   ├── nushell
@@ -1057,10 +1058,10 @@
  328K   ├── METADATA.AIO.toml.xz
  328K   ├── METADATA.AIO.min.json.xz
  327K   ├── METADATA.AIO.soar.capnp.xz
- 326K   ├── METADATA.AIO.json.zstd
+ 327K   ├── METADATA.AIO.json.zstd
  325K   ├── METADATA.AIO.min.json.zstd
+ 325K   ├── METADATA.AIO.toml.zstd
  324K   ├── METADATA.AIO.yaml.zstd
- 324K   ├── METADATA.AIO.toml.zstd
  322K   ├── mawk
  322K   ├── tok.preview-4.png
  322K   ├── scopeview.preview-4.png

@@ -85,6 +85,7 @@
   35M   ├── alpine-flatimage.no_strip
   35M   ├── amass
   34M   ├── sliver-client
+  34M   ├── FLATPAK_APPSTREAM.xml
   34M   ├── nushell
   34M   ├── nu
   34M   ├── mitmweb
@@ -682,12 +683,12 @@
  4.5M   ├── METADATA.AIO.yaml
  4.4M   ├── checkbypass
  4.4M   ├── doomxss
+ 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── robotstxt
  4.4M   ├── nrp
  4.4M   ├── heacoll
  4.4M   ├── chainredir
  4.4M   ├── hcxpsktool
- 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── ouch
  4.4M   ├── timer
  4.4M   ├── hcxpmktool
@@ -1074,22 +1075,22 @@
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
- 367K   ├── METADATA.AIO.soar.capnp.zstd
+ 366K   ├── METADATA.AIO.soar.capnp.zstd
  363K   ├── find
  362K   ├── scp
  354K   ├── sftp
  352K   ├── sudoreplay
  350K   ├── fi6s
- 348K   ├── METADATA.AIO.soar.capnp.xz
+ 349K   ├── METADATA.AIO.soar.capnp.xz
  346K   ├── logrotate
- 343K   ├── METADATA.AIO.json.xz
+ 344K   ├── METADATA.AIO.json.xz
  341K   ├── METADATA.AIO.yaml.xz
  340K   ├── METADATA.AIO.toml.xz
  340K   ├── METADATA.AIO.min.json.xz
  339K   ├── METADATA.AIO.json.zstd
- 337K   ├── METADATA.AIO.min.json.zstd
- 336K   ├── METADATA.AIO.yaml.zstd
- 336K   ├── METADATA.AIO.toml.zstd
+ 338K   ├── METADATA.AIO.min.json.zstd
+ 337K   ├── METADATA.AIO.yaml.zstd
+ 337K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
  331K   ├── lsof
  322K   ├── tok.preview-4.png
