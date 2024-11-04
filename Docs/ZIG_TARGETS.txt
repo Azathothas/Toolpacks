@@ -35,10 +35,12 @@ mipsel-linux-musleabi
 mipsel-linux-musleabihf
 mips64-linux-gnuabi64
 mips64-linux-gnuabin32
-mips64-linux-musl
+mips64-linux-muslabi64
+mips64-linux-muslabin32
 mips64el-linux-gnuabi64
 mips64el-linux-gnuabin32
-mips64el-linux-musl
+mips64el-linux-muslabi64
+mips64el-linux-muslabin32
 powerpc-linux-gnueabi
 powerpc-linux-gnueabihf
 powerpc-linux-musleabi
@@ -63,5 +65,6 @@ x86-windows-gnu
 x86_64-linux-gnu
 x86_64-linux-gnux32
 x86_64-linux-musl
+x86_64-linux-muslx32
 x86_64-macos-none
 x86_64-windows-gnu
