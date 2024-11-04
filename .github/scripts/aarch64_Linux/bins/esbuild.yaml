@@ -1,0 +1,8 @@
+name: "esbuild"
+description: "An extremely fast bundler for the web"
+note: ""
+web_url: "https://esbuild.github.io"
+repo_url: "https://github.com/evanw/esbuild"
+path: "/"
+bins:
+  - "esbuild"
