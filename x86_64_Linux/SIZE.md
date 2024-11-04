@@ -682,8 +682,8 @@
  4.5M   ├── agrind
  4.5M   ├── datadash
  4.5M   ├── METADATA.AIO.yaml
- 4.4M   ├── checkbypass
  4.4M   ├── METADATA.AIO.toml
+ 4.4M   ├── checkbypass
  4.4M   ├── doomxss
  4.4M   ├── robotstxt
  4.4M   ├── nrp
@@ -715,6 +715,7 @@
  4.1M   ├── hwatch
  4.1M   ├── tokei
  4.1M   ├── ssh-add
+ 4.1M   ├── METADATA.AIO.soar.capnp
  4.1M   ├── validtoml
  4.0M   ├── ssh-agent
  4.0M   ├── kalker
@@ -722,7 +723,6 @@
  4.0M   ├── makebbmain
  4.0M   ├── qemu-armeb-static
  4.0M   ├── just
- 4.0M   ├── METADATA.AIO.soar.capnp
  4.0M   ├── qemu-arm-static
  4.0M   ├── dotenv-linter
  4.0M   ├── handlr
@@ -1076,20 +1076,20 @@
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
- 367K   ├── METADATA.AIO.soar.capnp.zstd
  363K   ├── find
  362K   ├── scp
  354K   ├── sftp
+ 354K   ├── METADATA.AIO.soar.capnp.zstd
  352K   ├── sudoreplay
  350K   ├── fi6s
- 349K   ├── METADATA.AIO.soar.capnp.xz
  346K   ├── logrotate
- 344K   ├── METADATA.AIO.json.xz
- 341K   ├── METADATA.AIO.yaml.xz
- 340K   ├── METADATA.AIO.toml.xz
- 340K   ├── METADATA.AIO.min.json.xz
- 339K   ├── METADATA.AIO.json.zstd
+ 345K   ├── METADATA.AIO.json.xz
+ 342K   ├── METADATA.AIO.yaml.xz
+ 341K   ├── METADATA.AIO.toml.xz
+ 341K   ├── METADATA.AIO.min.json.xz
+ 340K   ├── METADATA.AIO.json.zstd
  338K   ├── METADATA.AIO.min.json.zstd
+ 338K   ├── METADATA.AIO.soar.capnp.xz
  337K   ├── METADATA.AIO.yaml.zstd
  337K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
