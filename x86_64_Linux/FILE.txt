@@ -364,6 +364,7 @@ enola:                             ELF 64-bit LSB executable, x86-64, version 1 
 entr:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 enumerepo:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=BEISBsPVPHVPQfHd6JBd/0NJBoO6MD2VshrDTZ7Ce/oxBXPjsMUsKYh2awTaHs/CGLawo7TgRpxVkdspcBR, stripped
 epoch:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+esbuild:                           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 etcd:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=e0VoZNGiExK71J99dz3F/rFVZeXcNyKA_mT23x4n8/t9eKfDL_0kbx2m9deJA8/iLRffHncpT0t6KTe_HGD, stripped
 etcdctl:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=YReFny1VovgrEemUbr03/Ba7CAO1BDpC17bXpxt0i/31zm9IgMF9Pu7-DKcV8h/IEuR3ukS9gKy9EVI_7sp, stripped
 etcdutl:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=J_QQYWCW4qxaTCUPkbHJ/etVs6NROV78VcZHcFGIT/BYkkJsopmOHvULbTiY3M/ux8wjCNdv_gAGD_4S_mJ, stripped

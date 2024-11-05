@@ -358,6 +358,7 @@ enola:                             ELF 64-bit LSB executable, ARM aarch64, versi
 entr:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 enumerepo:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=Xoo7kmd2r8o_4YiQ6sPz/Wbc_cGz8WeNhDja7Ek0m/jxl9yUx_GG2L95Ykt5VK/eH7fuMbN7Blx6zJyLDsT, stripped
 epoch:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+esbuild:                           ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 etcd:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=qNRmJ-yn74jurdGmRGHY/4YkU9Eh-bSfOjungpSab/grLfw9brFCAKit7omext/tcxLfZpeSqNStslSRjsw, stripped
 etcdctl:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=UePBpOMv3RnFSqU-xIzB/z3z1EYVWZQh38eaTl4UE/BJsPfG0-ayaZug5TVRvx/FOPDHzRVxWf2LbBgVyMW, stripped
 etcdutl:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=8wGRYBuhbJA04jLQXvWO/b6Ehtp9ZeGrIHSlU6G3x/COfH87bXTgrIGnOypa6R/NtLVmEVhm73UvXraz7jY, stripped
