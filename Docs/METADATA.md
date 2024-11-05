@@ -45,4 +45,4 @@ The information below is outdated & stale
 > > Invoke-WebRequest -Uri "https://bin.ajam.dev/$env:PROCESSOR_ARCHITECTURE/$BIN_OR_PATH_TO_BIN.exe" -OutFile "$BIN.exe"
 > >
 > > ```
-> ![image](https://github.com/user-attachments/assets/10579cc7-bee5-4695-87c1-61942610a9da)
+> ![image](https://github.com/user-attachments/assets/d7d52de3-1690-4b58-872c-a6b7d5168aee)
