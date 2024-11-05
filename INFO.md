@@ -68,7 +68,7 @@
 > - See: [Parse METADATA.json](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---
 #### 🔽 Download 🔽
-- ##### `Package Managers` `NOT RECOMMENDED`
+- ##### `Package Managers` `RECOMMENDED`
 > - [**`Soar`**<img src="https://github.com/user-attachments/assets/cc2f8c7c-fc40-4f8a-bbef-fef9d149dfc9" width="20" height="20">](https://github.com/pkgforge/soar)
 > > - If you want a pkg-manager in [Rust](https://github.com/rust-unofficial/awesome-rust) 🦀, Choose this.
 > > [Details](https://github.com/pkgforge/soar) ➣ [https://github.com/pkgforge/soar](https://github.com/pkgforge/soar)
@@ -108,7 +108,7 @@
 ---
 
 - #### 🚧 Security ⚙️
-It is _never a good idea_ to **install random binaries** from **random sources**. 
+It is _NEVER a good idea_ to **install random binaries** from **random sources**. 
 - Check these `HackerNews Discussions`
 > - [A cautionary tale from the decline of SourceForge](https://news.ycombinator.com/item?id=31110206)
 > - [Downloading PuTTY Safely Is Nearly Impossible (2014)](https://news.ycombinator.com/item?id=9577861)
