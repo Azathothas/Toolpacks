@@ -1,3 +1,7 @@
+> ℹ️ Some of the information here is stale & `outdated`, please refer to: https://github.com/pkgforge/pkgcache/tree/main/Docs instead.<br>
+> Or Contact us directly: https://t.me/official_loonix
+
+
 - #### What? & Why?
 > - This, at the time of writing is, the **[largest collection](https://github.com/Azathothas/Toolpacks#-status-)** of [*`downloadable`* (without requiring compilation)](https://bin.ajam.dev/) & [*`up-to-date`*](https://github.com/Azathothas/Toolpacks/commits/main/) [static binaries](https://en.wikipedia.org/wiki/Static_build) available on the public web.
 > > **`More >`** than all of these *COMBINED*: [andrew-d/static-binaries](https://github.com/andrew-d/static-binaries), [s.minos.io/archive/](https://github.com/minos-org/minos-static), [polaco1782/linux-static-binaries](https://github.com/polaco1782/linux-static-binaries), [borestad/static-binaries](https://github.com/borestad/static-binaries), [files.serverless.industries/bin/](https://github.com/perryflynn/static-binaries), [mosajjal/binary-tools](https://github.com/mosajjal/binary-tools), [ryanwoodsmall/static-binaries](https://github.com/ryanwoodsmall/static-binaries), [bol-van/bins](https://github.com/bol-van/bins)
@@ -117,7 +121,8 @@
 
 - #### **`📦 Frontend Package Managers 📦`**
 > - Here are some fantastic package managers 📦 [developed](https://antonz.org/writing-package-manager/) by talented individuals that [utilize this project](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md):
-> > - [`@xplshn/dbin`](https://github.com/xplshn/dbin) is the current de-facto, recommended one you should use.
+> > - [`@QaidVoid/soar`](https://github.com/pkgforge/soar) is the `official` package manager written in rust 🦀 as part of [PkgForge](https://github.com/pkgforge)
+> > - [`@xplshn/dbin`](https://github.com/xplshn/dbin) is written in GoLang.
 > > - [`@pwnwriter/hysp`](https://github.com/pwnwriter/hysp) was <ins>archived</ins> is no longer recommended.
 ---
 
