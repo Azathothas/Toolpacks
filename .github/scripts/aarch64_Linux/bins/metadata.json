@@ -2416,7 +2416,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-11-07T12:13:11",
+    "update_date": "2024-11-08T00:17:21",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -3488,6 +3488,11 @@
     "name": "shell2http.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shell2http.sh"
+  },
+  {
+    "name": "shellcheck.sh",
+    "update_date": "2024-11-08T12:07:24",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/shellcheck.sh"
   },
   {
     "name": "shellharden.sh",
