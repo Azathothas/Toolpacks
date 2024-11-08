@@ -5,10 +5,10 @@
  184M   ├── usql
  170M   ├── cachyos-flatimage.no_strip
  168M   ├── traefik
- 163M   ├── archlinux-flatimage.no_strip
+ 164M   ├── archlinux-flatimage.no_strip
  161M   ├── sliver-server
  151M   ├── cloudfox
- 144M   ├── artix-flatimage.no_strip
+ 145M   ├── artix-flatimage.no_strip
  143M   ├── aws-nuke
  135M   ├── archlinux.no_strip
  121M   ├── trufflehog
@@ -29,10 +29,8 @@
   77M   ├── alist
   75M   ├── ffmpeg
   74M   ├── ffprobe
-  74M   ├── fedora.no_strip
   73M   ├── falconhound
   73M   ├── ockam
-  72M   ├── hugo
   71M   ├── devpod
   71M   ├── rclone
   69M   ├── clearlinux.no_strip
@@ -41,13 +39,14 @@
   66M   ├── eweos.no_strip
   65M   ├── almalinux.no_strip
   65M   ├── dockerc
-  61M   ├── ipfs
+  63M   ├── ipfs
   61M   ├── void-musl-flatimage.no_strip
   61M   ├── rockylinux.no_strip
+  61M   ├── ipfswatch
   60M   ├── dockerd
   59M   ├── wtfutil
   59M   ├── wtf
-  59M   ├── ipfswatch
+  56M   ├── fedora.no_strip
   53M   ├── miniooni
   53M   ├── kalilinux.no_strip
   52M   ├── debian-flatimage.no_strip
@@ -55,8 +54,9 @@
   51M   ├── amazonlinux.no_strip
   51M   ├── gowitness
   50M   ├── void-glibc.no_strip
-  50M   ├── ooniprobe
+  50M   ├── hugo
   50M   ├── teldrive
+  50M   ├── ooniprobe
   49M   ├── steampipe
   49M   ├── debian.no_strip
   48M   ├── bpftrace
@@ -68,15 +68,15 @@
   46M   ├── rekor-server
   46M   ├── rekor
   45M   ├── wush
-  45M   ├── opengist
-  45M   ├── termux.no_strip
   45M   ├── melange
+  45M   ├── termux.no_strip
   39M   ├── katana
   38M   ├── kadeessh
   38M   ├── caddy
   38M   ├── proxify
   37M   ├── containerd
   37M   ├── mitmproxy
+  37M   ├── opengist
   37M   ├── tdl
   36M   ├── void-musl.no_strip
   36M   ├── almalinux-minimal.no_strip
@@ -90,9 +90,10 @@
   34M   ├── nushell
   34M   ├── nu
   34M   ├── mitmweb
-  34M   ├── step
   34M   ├── pixi
+  34M   ├── zellij
   34M   ├── loki-canary
+  34M   ├── step
   33M   ├── cloudreve
   33M   ├── aptly
   33M   ├── logdy
@@ -111,7 +112,6 @@
   31M   ├── dblab
   30M   ├── edgevpn
   29M   ├── aix
-  29M   ├── zellij
   29M   ├── podman
   29M   ├── sing-box
   29M   ├── v2raya
@@ -125,8 +125,8 @@
   28M   ├── iamb
   27M   ├── himalaya
   27M   ├── lnav
-  27M   ├── sqlc
   27M   ├── netbird
+  27M   ├── sqlc
   27M   ├── relic
   27M   ├── tailscale_merged
   27M   ├── tailscale_bb
@@ -142,10 +142,10 @@
   26M   ├── cvemap
   26M   ├── blueprint-flatimage.no_strip
   26M   ├── uncover
-  26M   ├── mise
   26M   ├── tailscale_combined
   26M   ├── soft-serve
   26M   ├── qsv
+  26M   ├── mise
   26M   ├── tusd
   25M   ├── tailscaled
   25M   ├── asnmap
@@ -167,8 +167,8 @@
   24M   ├── grpcurl
   24M   ├── magick.no_strip
   24M   ├── imagemagick.no_strip
-  24M   ├── ruff
   24M   ├── tlsx
+  24M   ├── ruff
   24M   ├── xetcmd
   24M   ├── jaeles
   23M   ├── interactsh-client
@@ -181,12 +181,13 @@
   22M   ├── vpnkit
   22M   ├── xetmnt
   22M   ├── jj
+  22M   ├── caido-cli
   22M   ├── etcd
   22M   ├── dnspyre
   22M   ├── reader
   22M   ├── imix
+  22M   ├── gix
   21M   ├── shuffledns
-  21M   ├── gix
   21M   ├── arduino-cli
   21M   ├── nezha-agent
   21M   ├── toru
@@ -194,7 +195,6 @@
   21M   ├── vhs
   21M   ├── lux
   21M   ├── atuin
-  21M   ├── caido-cli
   20M   ├── jira
   20M   ├── alterx
   20M   ├── csvtk
@@ -205,7 +205,6 @@
   20M   ├── gomuks
   20M   ├── golem
   20M   ├── go-audit
-  20M   ├── notify
   19M   ├── tor-socks-proxy.no_strip
   19M   ├── libaws-cli
   19M   ├── libaws
@@ -236,14 +235,15 @@
   17M   ├── gh-dash
   17M   ├── act
   17M   ├── sn0int
+  17M   ├── notify
   17M   ├── circumflex
   17M   ├── gp
   17M   ├── gitpod-cli
   17M   ├── etcdctl
+  16M   ├── hrekt
   16M   ├── warp
   16M   ├── diffoci
   16M   ├── clipcatd
-  16M   ├── hrekt
   16M   ├── ssr-server
   16M   ├── serverstatus-server
   16M   ├── hednsextractor
@@ -319,17 +319,15 @@
   12M   ├── nfpm
   12M   ├── wstunnel
   12M   ├── git-cliff
-  12M   ├── aria2c
-  12M   ├── aria2
   12M   ├── containerd-shim-runc-v2
   12M   ├── rebuilderd-worker
   12M   ├── gost
   12M   ├── sysbox-fs
   12M   ├── litefs
+  12M   ├── ncgopher
   12M   ├── tty2web
   11M   ├── sslsearch
   11M   ├── sync-color-schemes
-  11M   ├── ncgopher
   11M   ├── fq
   11M   ├── jqp
   11M   ├── taplo
@@ -353,35 +351,40 @@
   11M   ├── multirootca
   11M   ├── hakrawler
   11M   ├── micro
-  11M   ├── lazydocker
   11M   ├── coreutils
+  11M   ├── lazydocker
+  11M   ├── aria2c
+  11M   ├── aria2
   11M   ├── cheat
   11M   ├── fx
   10M   ├── supervisord
+  10M   ├── xan
   10M   ├── gip
   10M   ├── git-lfs
   10M   ├── gosmee
-  10M   ├── xan
+  10M   ├── esbuild
   10M   ├── runc
   10M   ├── alpine.no_strip
   10M   ├── scilla
   10M   ├── vegeta
+  10M   ├── orbiton
   10M   ├── yq
   10M   ├── binocle
+  10M   ├── noir
   10M   ├── agg-speed
   10M   ├── yggdrasil
   10M   ├── htb-cli
   10M   ├── vopono
   10M   ├── resto
-  10M   ├── bucketloot
-  10M   ├── goop
   10M   ├── flawz
+  10M   ├── bucketloot
+  10M   ├── vultr-cli
+  10M   ├── goop
   10M   ├── ctrsploit
 10.0M   ├── nix-channel-index
 10.0M   ├── sshx-server
 10.0M   ├── ngocok
 10.0M   ├── shortscan
- 9.9M   ├── noir
  9.9M   ├── tut
  9.9M   ├── ipinfo-cli
  9.9M   ├── ipinfo
@@ -393,7 +396,6 @@
  9.6M   ├── mubeng
  9.6M   ├── rospo
  9.6M   ├── csprecon
- 9.6M   ├── vultr-cli
  9.5M   ├── tgpt
  9.4M   ├── sttr
  9.4M   ├── transmission-daemon
@@ -411,6 +413,7 @@
  9.2M   ├── wormhole-rs
  9.1M   ├── pping
  9.1M   ├── nix-index
+ 9.1M   ├── go-appimagetool.no_strip
  9.1M   ├── ghfetch
  9.0M   ├── certstream-server-go
  9.0M   ├── gocryptfs
@@ -420,7 +423,6 @@
  9.0M   ├── bluetuith
  9.0M   ├── openrisk
  8.9M   ├── chisel
- 8.9M   ├── go-appimagetool.no_strip
  8.9M   ├── rebuilderd
  8.9M   ├── doggo
  8.8M   ├── gocurl
@@ -444,7 +446,6 @@
  8.4M   ├── nomore403
  8.4M   ├── vproxy
  8.4M   ├── q
- 8.3M   ├── orbiton
  8.3M   ├── hostctl
  8.3M   ├── viddy
  8.3M   ├── ctlwatcher
@@ -458,6 +459,7 @@
  8.2M   ├── gau
  8.2M   ├── ov
  8.1M   ├── cfssl-bundle
+ 8.1M   ├── trip
  8.1M   ├── pingmole
  8.0M   ├── ladder
  8.0M   ├── wireproxy
@@ -470,6 +472,7 @@
  7.9M   ├── godnsbench
  7.9M   ├── sbctl
  7.9M   ├── rate-mirrors
+ 7.8M   ├── go-mkappimage.no_strip
  7.8M   ├── quickcert
  7.8M   ├── hxn
  7.8M   ├── ffuf
@@ -477,9 +480,7 @@
  7.7M   ├── subxtract
  7.7M   ├── gobuster
  7.7M   ├── trurl
- 7.7M   ├── cherrybomb
- 7.7M   ├── trip
- 7.7M   ├── go-mkappimage.no_strip
+ 7.6M   ├── cherrybomb
  7.6M   ├── eget2
  7.6M   ├── rush
  7.6M   ├── husarnet
@@ -559,9 +560,10 @@
  6.2M   ├── wadl-dumper
  6.2M   ├── rescope
  6.2M   ├── presenterm
- 6.1M   ├── ulexec
+ 6.1M   ├── soar
  6.1M   ├── rustcan
  6.1M   ├── wego
+ 6.0M   ├── ulexec
  6.0M   ├── v6run
  6.0M   ├── zigup
  6.0M   ├── socat
@@ -571,7 +573,6 @@
  5.9M   ├── waybackrobots
  5.9M   ├── web-cache-vulnerability-scanner
  5.9M   ├── wget
- 5.9M   ├── soar
  5.9M   ├── nginx
  5.9M   ├── warp-dex
  5.8M   ├── cowitness
@@ -587,9 +588,9 @@
  5.7M   ├── dnsperf
  5.7M   ├── resperf
  5.7M   ├── bombadillo
+ 5.7M   ├── macchina
  5.7M   ├── certspotter
  5.7M   ├── makebb
- 5.7M   ├── macchina
  5.6M   ├── hacker-scoper
  5.6M   ├── getJS
  5.6M   ├── procs
@@ -637,7 +638,6 @@
  5.0M   ├── fget
  5.0M   ├── wth
  5.0M   ├── cfspeedtest
- 5.0M   ├── actionlint
  5.0M   ├── crlfuzz
  5.0M   ├── openssl
  5.0M   ├── hakip2host
@@ -645,16 +645,17 @@
  5.0M   ├── hakoriginfinder
  4.9M   ├── rate-limit-checker
  4.9M   ├── stress-ng
- 4.9M   ├── ppfuzz
  4.9M   ├── crt
- 4.9M   ├── fblog
  4.9M   ├── jwt-hack
  4.9M   ├── elinks-lite
  4.9M   ├── elinks
+ 4.9M   ├── fblog
  4.9M   ├── hysp
  4.9M   ├── nping
+ 4.9M   ├── actionlint
  4.9M   ├── pls
  4.9M   ├── mkbundle
+ 4.8M   ├── ppfuzz
  4.8M   ├── sshd
  4.8M   ├── certstream
  4.8M   ├── qemu-hexagon-static
@@ -670,10 +671,12 @@
  4.6M   ├── bbtargets
  4.6M   ├── gpg-tui
  4.6M   ├── tahm
+ 4.6M   ├── METADATA.AIO.yaml
  4.6M   ├── enumerepo
+ 4.6M   ├── apk-static
  4.6M   ├── realm
  4.6M   ├── appstreamcli
- 4.5M   ├── apk-static
+ 4.5M   ├── METADATA.AIO.toml
  4.5M   ├── gotld
  4.5M   ├── ssh
  4.5M   ├── hcxpcapngtool
@@ -681,8 +684,6 @@
  4.5M   ├── iperf
  4.5M   ├── agrind
  4.5M   ├── datadash
- 4.5M   ├── METADATA.AIO.yaml
- 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── checkbypass
  4.4M   ├── doomxss
  4.4M   ├── robotstxt
@@ -691,11 +692,11 @@
  4.4M   ├── chainredir
  4.4M   ├── hcxpsktool
  4.4M   ├── ouch
+ 4.4M   ├── ox
  4.4M   ├── timer
  4.4M   ├── hcxpmktool
  4.4M   ├── tun2proxy
  4.4M   ├── onetun
- 4.3M   ├── ox
  4.3M   ├── axel
  4.3M   ├── ssh-keysign
  4.3M   ├── ssh-keyscan
@@ -715,9 +716,9 @@
  4.1M   ├── hwatch
  4.1M   ├── tokei
  4.1M   ├── ssh-add
- 4.1M   ├── METADATA.AIO.soar.capnp
  4.1M   ├── validtoml
  4.0M   ├── ssh-agent
+ 4.0M   ├── METADATA.AIO.soar.capnp
  4.0M   ├── kalker
  4.0M   ├── arc
  4.0M   ├── makebbmain
@@ -739,9 +740,9 @@
  3.9M   ├── pfetch-rs
  3.8M   ├── kanha
  3.8M   ├── ripgen
+ 3.8M   ├── rage
  3.8M   ├── otree
  3.8M   ├── qemu-ppc64-static
- 3.8M   ├── rage
  3.8M   ├── qemu-ppc64le-static
  3.8M   ├── sshkeys
  3.8M   ├── mqttui
@@ -765,9 +766,9 @@
  3.4M   ├── qemu-x86_64-static
  3.4M   ├── tlrc
  3.4M   ├── nix-locate
+ 3.4M   ├── lf
  3.4M   ├── killport
  3.4M   ├── cidr
- 3.4M   ├── lf
  3.4M   ├── rust-parallel
  3.4M   ├── qemu-loongarch64-static
  3.4M   ├── kalc
@@ -807,9 +808,9 @@
  2.9M   ├── t-rec
  2.9M   ├── zt-exchange
  2.9M   ├── qemu-hppa-static
- 2.9M   ├── cotp
  2.9M   ├── cowthink
  2.9M   ├── cowsay
+ 2.9M   ├── cotp
  2.9M   ├── htmlq
  2.9M   ├── dust
  2.9M   ├── gping
@@ -840,8 +841,8 @@
  2.6M   ├── findlargedir
  2.5M   ├── kakoune
  2.5M   ├── kak
- 2.5M   ├── phantun-client
  2.5M   ├── dsieve
+ 2.5M   ├── phantun-client
  2.5M   ├── encode
  2.5M   ├── sd
  2.5M   ├── phantun-server
@@ -901,6 +902,7 @@
  1.8M   ├── ds
  1.8M   ├── zfxtop
  1.7M   ├── bore
+ 1.7M   ├── goaccess
  1.7M   ├── xargs-rs
  1.7M   ├── botsay
  1.7M   ├── vnstat
@@ -919,7 +921,6 @@
  1.6M   ├── ecoji
  1.6M   ├── vnstatd
  1.6M   ├── genscope
- 1.6M   ├── goaccess
  1.5M   ├── v6disk
  1.5M   ├── fastfetch-staticx
  1.5M   ├── tcpdump
@@ -929,9 +930,9 @@
  1.5M   ├── visudo-rs
  1.5M   ├── qsreplace
  1.5M   ├── mksub
+ 1.5M   ├── tio
  1.5M   ├── jaq
  1.5M   ├── namegen
- 1.4M   ├── tio
  1.4M   ├── tok
  1.4M   ├── rapwp
  1.4M   ├── eah
@@ -950,9 +951,9 @@
  1.4M   ├── removepro
  1.4M   ├── strace
  1.4M   ├── hyperfine
+ 1.4M   ├── slirp4netns
  1.4M   ├── rustcat
  1.4M   ├── rcat
- 1.3M   ├── slirp4netns
  1.3M   ├── ubase-box
  1.3M   ├── fuse-overlayfs
  1.3M   ├── ttyd
@@ -981,19 +982,19 @@
  1.0M   ├── jql
  1.0M   ├── bash
  1.0M   ├── grep
+ 1.0M   ├── hexyl
  1.0M   ├── awk
  987K   ├── husarnet.preview.png
- 978K   ├── cargo-unlock
+ 977K   ├── cargo-unlock
  971K   ├── svg-hush
  963K   ├── xdotool
- 946K   ├── hexyl
  946K   ├── csview
  934K   ├── xhost
  918K   ├── catp
  917K   ├── hx
  909K   ├── yazi.preview.png
  891K   ├── ngocok.preview.png
- 880K   ├── anew-rs
+ 879K   ├── anew-rs
  868K   ├── tok.preview.png
  868K   ├── subxtract.preview.png
  868K   ├── scopeview.preview.png
@@ -1030,7 +1031,7 @@
  566K   ├── cvtsudoers
  564K   ├── gosmee.preview.png
  557K   ├── dagu.preview.png
- 556K   ├── neofetch
+ 557K   ├── neofetch
  550K   ├── upx
  544K   ├── dropbearmulti
  540K   ├── zt-encodings
@@ -1052,8 +1053,8 @@
  452K   ├── devpod.preview.png
  448K   ├── loksh
  447K   ├── oksh
- 446K   ├── sbase-box
  446K   ├── mount.fuse3
+ 445K   ├── sbase-box
  428K   ├── magick.preview.png
  415K   ├── tok.preview-3.png
  415K   ├── subxtract.preview-3.png
@@ -1079,21 +1080,21 @@
  363K   ├── find
  362K   ├── scp
  354K   ├── sftp
- 354K   ├── METADATA.AIO.soar.capnp.zstd
  352K   ├── sudoreplay
  350K   ├── fi6s
  346K   ├── logrotate
- 345K   ├── METADATA.AIO.json.xz
+ 346K   ├── METADATA.AIO.soar.capnp.zstd
+ 344K   ├── METADATA.AIO.json.xz
+ 342K   ├── METADATA.AIO.json.zstd
  342K   ├── METADATA.AIO.yaml.xz
- 341K   ├── METADATA.AIO.toml.xz
- 341K   ├── METADATA.AIO.min.json.xz
- 340K   ├── METADATA.AIO.json.zstd
- 338K   ├── METADATA.AIO.min.json.zstd
- 338K   ├── METADATA.AIO.soar.capnp.xz
- 337K   ├── METADATA.AIO.yaml.zstd
- 337K   ├── METADATA.AIO.toml.zstd
+ 340K   ├── METADATA.AIO.toml.xz
+ 340K   ├── METADATA.AIO.min.json.xz
+ 339K   ├── METADATA.AIO.min.json.zstd
+ 339K   ├── METADATA.AIO.yaml.zstd
+ 339K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
  331K   ├── lsof
+ 330K   ├── METADATA.AIO.soar.capnp.xz
  322K   ├── tok.preview-4.png
  322K   ├── subxtract.preview-4.png
  322K   ├── scopeview.preview-4.png
@@ -1167,11 +1168,11 @@
  231K   ├── glow.preview.png
  220K   ├── ppsspp.preview.png
  218K   ├── soft-serve.preview.png
- 208K   ├── nfs-cp
- 207K   ├── nfs-ls
+ 207K   ├── nfs-cp
  206K   ├── sar
- 204K   ├── nfs-stat
+ 206K   ├── nfs-ls
  204K   ├── asn
+ 203K   ├── nfs-stat
  201K   ├── netstat
  199K   ├── tok.preview-0.png
  199K   ├── subxtract.preview-0.png
@@ -1186,7 +1187,7 @@
  199K   ├── cutlines.preview-0.png
  199K   ├── comb.preview-0.png
  199K   ├── certstream.preview-0.png
- 198K   ├── nfs-cat
+ 197K   ├── nfs-cat
  194K   ├── xdo
  193K   ├── dalfox.preview.png
  188K   ├── yabs.sh.preview.png
@@ -1202,7 +1203,6 @@
  182K   ├── jless.preview.png
  182K   ├── hcxdumptool
  177K   ├── fq.preview.png
- 174K   ├── runimage-run
  169K   ├── gpg-tui.preview.png
  166K   ├── migspeed
  166K   ├── migratepages
@@ -1251,11 +1251,12 @@
  114K   ├── iwconfig
  111K   ├── tapestat
  110K   ├── massdns
+ 110K   ├── sharun
  110K   ├── iwgetid
  110K   ├── iwevent
  106K   ├── crontab
  105K   ├── daktilo.preview.png
- 104K   ├── cronie-crond
+ 103K   ├── cronie-crond
  103K   ├── dnstake.preview.png
  102K   ├── unix2mac
  102K   ├── unix2dos
@@ -1270,16 +1271,17 @@
   99K   ├── gitpod-cli.preview.png
   98K   ├── fusermount3
   97K   ├── termshark.preview.png
+  97K   ├── runimage-run
   97K   ├── listmonk.preview.png
   94K   ├── imhex.preview.png
   94K   ├── darkhttpd
   93K   ├── mpstat
   92K   ├── mdcat.preview.png
-  91K   ├── shc
   91K   ├── numastat
   91K   ├── git-cliff.preview.png
   90K   ├── steampipe.preview.png
-  89K   ├── cronie-crontab
+  90K   ├── shc
+  88K   ├── cronie-crontab
   87K   ├── runst.preview.png
   85K   ├── libtree
   85K   ├── kubo.preview.png
@@ -1301,7 +1303,6 @@
   74K   ├── entr
   73K   ├── pwait
   73K   ├── dropbearscp
-  73K   ├── sharun
   72K   ├── hugo.preview.png
   70K   ├── which
   69K   ├── rage.preview.png
@@ -1314,8 +1315,8 @@
   67K   ├── hacker-scoper.preview.png
   67K   ├── cifsiostat
   66K   ├── binfetch
-  66K   ├── zapper-stealth
   66K   ├── oha.preview.png
+  65K   ├── zapper-stealth
   65K   ├── hakrawler.preview.png
   63K   ├── jaeles.preview.png
   62K   ├── z-tokens.preview.png
@@ -1324,8 +1325,8 @@
   61K   ├── zoxide.preview.png
   58K   ├── batcat.preview.png
   57K   ├── gguf-tools
-  57K   ├── joker
   57K   ├── amass.preview.png
+  56K   ├── joker
   56K   ├── cloudfox.preview.png
   55K   ├── huggingface-cli.preview.png
   55K   ├── cherrybomb.preview.png
@@ -1350,9 +1351,9 @@
   42K   ├── fx.preview.png
   42K   ├── miniserve.preview.png
   41K   ├── fzf.preview.png
-  40K   ├── jsmug
   39K   ├── pkg.default.png
   39K   ├── kitty.preview.png
+  39K   ├── jsmug
   39K   ├── gowitness.preview.png
   38K   ├── rclone.preview.png
   37K   ├── base.default.png
@@ -1361,12 +1362,12 @@
   36K   ├── pls.preview.png
   36K   ├── micro.preview.png
   36K   ├── dbeaver.preview.png
-  35K   ├── sshpass
   35K   ├── puredns.preview.png
-  35K   ├── pipetty
   35K   ├── broot.preview.png
+  34K   ├── sshpass
+  34K   ├── pipetty
   33K   ├── fnm.preview.png
-  33K   ├── ansi2html
+  32K   ├── ansi2html
   31K   ├── nezha-install.sh
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
@@ -1378,9 +1379,9 @@
   25K   ├── czkawka.preview.png
   24K   ├── goaccess.preview.png
   24K   ├── certstream-server-go.preview.png
+  23K   ├── try
   23K   ├── prettyping
   23K   ├── ani-cli
-  23K   ├── try
   21K   ├── txeh.preview.png
   20K   ├── findomain.preview.png
   19K   ├── pelf
@@ -1405,7 +1406,7 @@
   11K   ├── lsix
   11K   ├── tailspin.preview.png
   11K   ├── nicotine-plus.preview.png
- 8.5K   ├── sharun-lib4bin
+ 9.0K   ├── sharun-lib4bin
  8.5K   ├── proot.preview.png
  8.5K   ├── halp.preview.png
  7.5K   ├── sk-tmux

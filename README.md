@@ -19,6 +19,11 @@
   </a>    
 </details>
 
+> - ℹ️ As of `2024-11-05`, this repo is a part of [PkgForge](https://github.com/pkgforge).
+> - [PkgForge](https://github.com/pkgforge) was created to fix the [disparate status of Linux Package Formats](https://www.linux-magazine.com/Online/Features/The-Status-of-Universal-Package-Systems).
+> - Other than [Static Binaries](https://github.com/Azathothas/Toolpacks), we now also provide [prebuilts](https://github.com/pkgforge/pkgcache) & [build recipes](https://github.com/pkgforge/soarpkgs) for formats like [AppBundle](https://github.com/pkgforge/pkgcache/blob/main/Docs/APPBUNDLES.md), [AppImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/APPIMAGES.md), [FlatImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/FLATIMAGES.md), [GameImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/GAMEIMAGES.md), [RunImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/RUNIMAGES.md) & [More](https://github.com/pkgforge/pkgcache/tree/main/Docs)<br>
+> - We also have our own [`Package-Manager`](https://github.com/pkgforge/soar) built in blazingly fast 🦀 rust called [Soar](https://github.com/pkgforge/soar)
+> - [Repo Migration was Attempted but proved unsuccessful.](https://github.com/pkgforge/bincache/issues/1)
 ---
 #### Contents
 > - [**📖 Docs & FAQs 📖**](https://github.com/Azathothas/Toolpacks/tree/main/Docs)
@@ -34,7 +39,7 @@
 > > - [**`Why RESET ALL GIT Commits`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
 > > - [**`Where can I find the code for bin.ajam.dev?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#webui-binajamdev)
 > > - [**`UPX Binaries ⏬`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#-upx-)
-> > - [**`🏜️ GUI PKGs 📀`**](https://github.com/Azathothas/Toolpacks-Extras)
+> > - [**`🏜️ GUI PKGs 📀`**](https://github.com/pkgforge/pkgcache)
 > > - [**`Caching & Rebuilds`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#cache--rebuild)
 > > - [**`Current Problems & Setbacks`**](https://github.com/Azathothas/Toolpacks/issues?q=is%3Aissue+is%3Aopen+label%3AInfra)
 > > - [**`DMCA & Copyright`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#dmca-copyright--cease--desist)
@@ -55,194 +60,55 @@
 | 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 | 🧾Logs|
 |---------------------|-----------------------|-----------------|------------------|
 |[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|161| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|[BUILD.log](https://bin.ajam.dev/arm64_v8a_Android/BUILD.BIN.log.txt)|
-|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|2438| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.BIN.log.txt)|
-|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2508| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.BIN.log.txt)|
+|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|2439| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.BIN.log.txt)|
+|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2509| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.BIN.log.txt)|
 |[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.ajam.dev/x64_Windows/BUILD.BIN.log.txt)|
 
-> - A [Trello-Board](https://trello.com/b/rxIHO8Zj/toolpacks-status) informing the Build Status is at: [https://trello.com/b/rxIHO8Zj/toolpacks-status](https://trello.com/b/rxIHO8Zj/toolpacks-status)
 > - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/Azathothas/Toolpacks/main/METADATA.yaml).
 > - See: [Parse METADATA.json](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---
 #### 🔽 Download 🔽
-- ##### GUI
-> - Visit [bin.ajam.dev](https://bin.ajam.dev)
-> > Note: The dir listing may not list everything. Make **sure to check [`METADATA.json`](https://bin.ajam.dev/METADATA.json)**
-> ![bin](https://github.com/user-attachments/assets/775f0022-9932-4d7c-8d25-3a9df2bde78d)
-> ![bin x86_64_Linux](https://github.com/user-attachments/assets/8dfb6f89-6129-4692-a918-23a6b18876d7)
-> 
+- ##### `Package Managers` `RECOMMENDED`
+> - [**`Soar`**<img src="https://github.com/user-attachments/assets/cc2f8c7c-fc40-4f8a-bbef-fef9d149dfc9" width="20" height="20">](https://github.com/pkgforge/soar)
+> > - If you want a pkg-manager in [Rust](https://github.com/rust-unofficial/awesome-rust) 🦀, Choose this.
+> > [Details](https://github.com/pkgforge/soar) ➣ [https://github.com/pkgforge/soar](https://github.com/pkgforge/soar)
+> > ```bash
+> > bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soar/refs/heads/main/install.sh")
+> > ```
+> > 
+> - [**`Dbin`**<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg" width="20" height="20">](https://github.com/xplshn/dbin) 
+> > - If you want a pkg-manager in [Go](https://github.com/avelino/awesome-go), Choose this.
+> > [Details](https://github.com/xplshn/dbin) ➣ [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
+> > ```bash
+> > wget -qO- "https://raw.githubusercontent.com/xplshn/dbin/master/stubdl" | sh -s -- --install "${HOME}/.local/bin/dbin"
+> > ```
+> > 
 ---
-- ##### CLI
-> ℹ️ Recommended ℹ️ : Use [**`dbin`**](https://github.com/xplshn/dbin) if you want to skip everything below, since `dbin` already [uses this repo as it's Source.](https://github.com/xplshn/dbin#where-do-these-binaries-come-from-)
-> - It's also possible to use `"$(uname -m)"` | `$env:PROCESSOR_ARCHITECTURE` | `adb shell getprop ro.product.cpu.abi` variations
+
+- ##### `CLI`
+> - It's also possible to use `"$(uname -m)"`
 > > SEE: https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#url-redirects
 > > 
 > > ```bash
 > > !# curl needs the `-L, --location` flag to Follow redirects
 > > !# wget works without any flags
 > > 
-> > !# Example on Android
-> > curl -qfsSLO "https://bin.ajam.dev/$(getprop ro.product.cpu.abi)/$BIN_OR_PATH_TO_BIN"
-> > 
-> > !# Example on Linux
+> > !# Example
 > > curl -qfsSLO "https://bin.ajam.dev/$(uname -m)/$BIN_OR_PATH_TO_BIN"
 > >
-> > !# Example on Windows
-> > Invoke-WebRequest -Uri "https://bin.ajam.dev/$env:PROCESSOR_ARCHITECTURE/$BIN_OR_PATH_TO_BIN.exe" -OutFile "$BIN.exe"
-> >
 > > ```
->
-> <details><summary>Install <b><a href="https://github.com/zyedidia/eget"><code>eget</code></a></b></summary>
->
-> ```bash
-> #--------------------------------------------------------------------------------------------#
-> ❯ amd || x86_64 (Linux) 
-> 
-> !# As $USER
-> mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
-> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> 
-> !# As ROOT
-> sudo curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> sudo wget -q "https://bin.ajam.dev/x86_64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> #--------------------------------------------------------------------------------------------#
-> 
-> #--------------------------------------------------------------------------------------------#
-> ❯ arm64 || aarch64 (Linux) 
-> 
-> !# As $USER
-> mkdir -p "$HOME/bin" ; export PATH="$HOME/bin:$PATH"
-> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "$HOME/bin/eget" && chmod +xwr "$HOME/bin/eget"
-> 
-> !# As ROOT
-> sudo curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -o "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> sudo wget -q "https://bin.ajam.dev/aarch64_arm64_Linux/eget" -O "/usr/local/bin/eget" && sudo chmod +xwr "/usr/local/bin/eget"
-> #--------------------------------------------------------------------------------------------#
->
-> #--------------------------------------------------------------------------------------------#
-> ❯ arm64-v8a (Android) 
-> 
-> !# As $USER (TERMUX)
-> # $PREFIX:/data/data/com.termux/files/usr
-> curl -qfSL "https://bin.ajam.dev/arm64_v8a_Android/eget" -o "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
-> wget -q "https://bin.ajam.dev/arm64_v8a_Android/eget" -O "$PREFIX/bin/eget" && chmod +xwr "$PREFIX/bin/eget"
-> !# Root requires remounting /system/bin as RWR (NOT RECOMMENDED)
-> #--------------------------------------------------------------------------------------------#
-> ```
-> </details>
->
-> <details><summary>Install <b><a href="https://www.7-zip.org/"><code>7z</code></a></b></summary>
->    
-> ```bash
-> #--------------------------------------------------------------------------------------------#
-> ❯ amd || x86_64 (Linux) 
-> 
-> !# As $USER
-> eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "$HOME/bin/7z"
-> 
-> !# As ROOT
-> sudo eget "https://bin.ajam.dev/x86_64_Linux/7z" --to "/usr/local/bin/7z"
-> #--------------------------------------------------------------------------------------------#
-> 
-> #--------------------------------------------------------------------------------------------#
-> ❯ arm64 || aarch64 (Linux) 
-> 
-> !# As $USER
-> eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "$HOME/bin/7z"
-> 
-> !# As ROOT
-> sudo eget "https://bin.ajam.dev/aarch64_arm64_Linux/7z" --to "/usr/local/bin/7z"
-> ```
-> --- 
-> </details>
->
-> <details><summary>Info <b><a href="https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux"><code>(amd | x86_64) Linux</code></a></b></summary>
->
-> ```bash
-> #--------------------------------------------------------------------------------------------#
-> ❯ Single/Individual Binaries
-> 
-> !# $USER
-> eget "https://bin.ajam.dev/x86_64_Linux/$BINARY_NAME" --to "$HOME/bin"
->
-> !# ROOT
-> sudo eget "https://bin.ajam.dev/x86_64_Linux/$BINARY_NAME" --to "/usr/local/bin"
-> 
-> #--------------------------------------------------------------------------------------------#
-> ❯ Everything All at once
-> !# $USER
-> !#Download .7z archive
->  wget --quiet --show-progress --progress="dot:giga" "https://bin.ajam.dev/x86_64_Linux/_toolpack_x86_64.7z" -O "./toolpack_x86_64.7z"
-> 
-> !# $USER
->  mkdir -p "$HOME/bin" ; 7z e "./toolpack_x86_64.7z" -o"$HOME/bin" -y ; rm -rf "$HOME/bin/toolpack_x86_64" 2>/dev/null ; rm -rf "./toolpack_x86_64.7z" ; chmod +xwr $HOME/bin/*
-> 
-> !# ROOT [NOT-RECOMMENDED]
->  sudo 7z e "./toolpack_x86_64.7z" -o"/usr/local/bin" -y ; sudo rm -rf "/usr/local/bin/toolpack_x86_64" 2>/dev/null ; rm -rf "./toolpack_x86_64.7z" ; sudo chmod +xwr /usr/local/bin/* 2>/dev/null
-> #--------------------------------------------------------------------------------------------#
-> ```
-> ---
-> </details>
->
-> <details><summary>Info <b><a href="https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux"><code>(aarch64 | arm64) Linux</code></a></b></summary>    
->
-> ```bash
-> #--------------------------------------------------------------------------------------------#
-> ❯ Single/Individual Binaries
-> 
-> !# $USER
-> eget "https://bin.ajam.dev/aarch64_arm64_Linux/$BINARY_NAME" --to "$HOME/bin"
->
-> !# ROOT
-> sudo eget "https://bin.ajam.dev/aarch64_arm64_Linux/$BINARY_NAME" --to "/usr/local/bin"
-> 
-> #--------------------------------------------------------------------------------------------#
-> ❯ Everything All at once
-> !# $USER
-> !#Download .7z archive
->  wget --quiet --show-progress --progress="dot:giga" "https://bin.ajam.dev/aarch64_arm64_Linux/_toolpack_aarch64_arm64.7z" -O "./toolpack_aarch64_arm64.7z"
-> 
-> !# $USER
->  mkdir -p "$HOME/bin" ; 7z e "./toolpack_aarch64_arm64.7z" -o"$HOME/bin" -y ; rm -rf "$HOME/bin/toolpack_aarch64_arm64" 2>/dev/null ; rm -rf "./toolpack_aarch64_arm64.7z" ; chmod +xwr $HOME/bin/*
-> 
-> !# ROOT [NOT-RECOMMENDED]
->  sudo 7z e "./toolpack_aarch64_arm64.7z" -o"/usr/local/bin" -y ; sudo rm -rf "/usr/local/bin/toolpack_aarch64_arm64" 2>/dev/null ; rm -rf "./toolpack_aarch64_arm64.7z" ; sudo chmod +xwr /usr/local/bin/* 2>/dev/null
-> #--------------------------------------------------------------------------------------------#
-> ```
-> ---
-> </details>
->
-> <details><summary>Info <b><a href="https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android"><code>(arm64-v8a) Android</code></a></b></summary> 
->
-> ```bash
-> #--------------------------------------------------------------------------------------------#
-> ❯ Single/Individual Binaries
->
-> eget "https://bin.ajam.dev/arm64_v8a_Android/$BINARY_NAME" --to "$PREFIX/bin/$BINARY_NAME"
-> 
-> #--------------------------------------------------------------------------------------------#
-> ❯ Everything All at once
->
-> !# Create tmp dir
-> pushd "$(mktemp -d)"
-> !# Download all bins
-> for url in $(curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" | jq -r '.[].Source' | grep -v "BLAKE3SUM\|FILE\.txt\|METADATA.json\|README\.md\|SHA256SUM"); do echo -e "\n[+] $url\n" && curl -qfLJO "$url"; done
->
-> !# Move all to "$PREFIX/bin"
-> # $PREFIX=/data/data/com.termux/files/usr
-> find . -maxdepth 1 -type f ! -name '*.md' -exec mv {} "$PREFIX/bin/" \; 2>/dev/null
-> #chmod
-> chmod +xwr $PREFIX/bin/*
-> #list
-> ls "$PREFIX/bin" | column -t ; popd
-> #--------------------------------------------------------------------------------------------#
-> ```
-> </details>
->
 ---
+
+- ##### GUI `NOT RECOMMENDED`
+> - Visit [bin.ajam.dev](https://bin.ajam.dev)
+> > Note: If you notice slow loading, it is because it is <ins>not a real website.</ins><br>
+> > It is a [r2 bucket](https://developers.cloudflare.com/r2/), and <ins>loads all objects upon each request</ins>.
+> ![bin](https://github.com/user-attachments/assets/775f0022-9932-4d7c-8d25-3a9df2bde78d)
+> ![bin x86_64_Linux](https://github.com/user-attachments/assets/8dfb6f89-6129-4692-a918-23a6b18876d7)
+---
+
 - #### 🚧 Security ⚙️
-It is _never a good idea_ to **install random binaries** from **random sources**. 
+It is _NEVER a good idea_ to **install random binaries** from **random sources**. 
 - Check these `HackerNews Discussions`
 > - [A cautionary tale from the decline of SourceForge](https://news.ycombinator.com/item?id=31110206)
 > - [Downloading PuTTY Safely Is Nearly Impossible (2014)](https://news.ycombinator.com/item?id=9577861)
