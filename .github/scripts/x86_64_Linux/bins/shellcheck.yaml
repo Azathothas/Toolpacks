@@ -1,0 +1,8 @@
+name: "shellcheck"
+description: "A static analysis tool for shell scripts"
+note: ""
+web_url: "https://www.shellcheck.net"
+repo_url: "https://github.com/koalaman/shellcheck"
+path: "/"
+bins:
+  - "shellcheck"
