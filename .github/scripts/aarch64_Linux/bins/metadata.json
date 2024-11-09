@@ -2416,7 +2416,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-11-08T12:12:24",
+    "update_date": "2024-11-09T00:16:12",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
@@ -3663,6 +3663,11 @@
     "name": "squashfuse.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/squashfuse.sh"
+  },
+  {
+    "name": "squishy-cli.sh",
+    "update_date": "2024-11-09T12:06:41",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/squishy-cli.sh"
   },
   {
     "name": "sshesame.sh",
