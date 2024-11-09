@@ -99,6 +99,7 @@
   31M   ├── mitmdump
   30M   ├── dblab
   30M   ├── algernon
+  30M   ├── shellcheck
   30M   ├── sq
   29M   ├── edgevpn
   29M   ├── aix
@@ -1084,8 +1085,8 @@
  320K   ├── METADATA.AIO.toml.xz
  320K   ├── METADATA.AIO.min.json.xz
  319K   ├── METADATA.AIO.min.json.zstd
- 318K   ├── METADATA.AIO.yaml.zstd
  318K   ├── METADATA.AIO.toml.zstd
+ 317K   ├── METADATA.AIO.yaml.zstd
  314K   ├── tok.preview-1.png
  314K   ├── scopeview.preview-1.png
  314K   ├── scopegen.preview-1.png

@@ -1,0 +1,18 @@
+
+In .github/scripts/aarch64_Linux/bins/shellcheck.sh line 24:
+   #shellcheck : A static analysis tool for shell scripts
+   ^-- SC1073 (error): Couldn't parse this shellcheck directive. Fix to allow more checks.
+               ^-- SC1072 (error):  Fix any mentioned problems and try again.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1072 --  Fix any mentioned problems and t...
+  https://www.shellcheck.net/wiki/SC1073 -- Couldn't parse this shellcheck di...
+
+In .github/scripts/x86_64_Linux/bins/shellcheck.sh line 24:
+   #shellcheck : A static analysis tool for shell scripts
+   ^-- SC1073 (error): Couldn't parse this shellcheck directive. Fix to allow more checks.
+               ^-- SC1072 (error):  Fix any mentioned problems and try again.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1072 --  Fix any mentioned problems and t...
+  https://www.shellcheck.net/wiki/SC1073 -- Couldn't parse this shellcheck di...

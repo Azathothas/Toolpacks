@@ -1,5 +1,5 @@
 7z:                                ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8f388fa250943ba18d148fa065ce15e24f273ce7, for GNU/Linux 3.2.0, stripped
-FLATPAK_APPSTREAM.xml:             XML 1.0 document, Unicode text, UTF-8 text, with very long lines (2841)
+FLATPAK_APPSTREAM.xml:             XML 1.0 document, Unicode text, UTF-8 text, with very long lines (2077)
 METADATA.AIO.json.bsum:            ASCII text, with no line terminators
 METADATA.AIO.json.xz:              7-zip archive data, version 0.4
 METADATA.AIO.json.xz.bsum:         ASCII text, with no line terminators
@@ -1123,6 +1123,7 @@ sharun-lib4bin:                    Bourne-Again shell script, ASCII text executa
 shc:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 shell2http:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AiVp-YLpnea7VHGvShxv/atpIs5vStslZE5E57Zf8/9mY-5RzGwzPGtkRMZK8j/GHwPzywrsPai6ve99kYr, stripped
 shell2http.preview.png:            PNG image data, 1280 x 640, 8-bit/color RGB, non-interlaced
+shellcheck:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 shellharden:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 shellz:                            ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 shfmt:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=eEyPQ5_adV69uR11syXW/ZnV7_Ge-qARj3R3QqBKE/JzJJ8QBUy49mb1eJXW8Q/3sMTInujtnmbs9ikD0im, stripped
