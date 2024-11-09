@@ -99,6 +99,7 @@
   31M   ├── mitmdump
   30M   ├── dblab
   30M   ├── algernon
+  30M   ├── shellcheck
   30M   ├── sq
   29M   ├── edgevpn
   29M   ├── aix

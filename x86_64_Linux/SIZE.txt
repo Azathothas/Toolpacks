@@ -263,6 +263,7 @@
   15M   ├── kitten
   15M   ├── ct_monitor
   15M   ├── bleve
+  14M   ├── shellcheck
   14M   ├── yip
   14M   ├── bin
   14M   ├── s5cmd
@@ -1085,7 +1086,7 @@
  346K   ├── METADATA.AIO.soar.capnp.zstd
  344K   ├── METADATA.AIO.json.xz
  342K   ├── METADATA.AIO.json.zstd
- 342K   ├── METADATA.AIO.yaml.xz
+ 341K   ├── METADATA.AIO.yaml.xz
  340K   ├── METADATA.AIO.toml.xz
  340K   ├── METADATA.AIO.min.json.xz
  339K   ├── METADATA.AIO.min.json.zstd
