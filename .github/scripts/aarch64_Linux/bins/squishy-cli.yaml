@@ -1,0 +1,8 @@
+name: "squishy-cli"
+description: "A convenient wrapper for reading and extracting files from SquashFS filesystems"
+note: ""
+web_url: "https://github.com/pkgforge/squishy-rs"
+repo_url: "https://github.com/pkgforge/squishy-rs"
+path: "/"
+bins:
+  - "squishy-cli"
