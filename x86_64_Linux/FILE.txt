@@ -1165,6 +1165,7 @@ sqlc:                              ELF 64-bit LSB executable, x86-64, version 1 
 sqlite3:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=0660b9e0412539d76b28ff3cb3f52533ddfaa677, stripped
 squashfuse:                        ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 squashfuse_ll:                     ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+squishy-cli:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 ssh:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=70a3e2091358da4d5e8bf14414705e9383939f0d, stripped
 ssh-add:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 ssh-agent:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

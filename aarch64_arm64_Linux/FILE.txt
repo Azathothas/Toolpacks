@@ -1116,6 +1116,7 @@ sqlc:                              ELF 64-bit LSB executable, ARM aarch64, versi
 sqlite3:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=07c6e16273d08ee61af327f3f2ab4c7bd32c535a, stripped
 squashfuse:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 squashfuse_ll:                     ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+squishy-cli:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 sshd_config:                       ASCII text
 sshesame:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 sshkeys:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=uOFKQN6RzL37O1xmsMU9/QRYUF-szHN6L6XJH9f-Q/qmeJORXd6vgv-P3YiLyR/5TT4yi_53IUVUdpmXZYP, stripped

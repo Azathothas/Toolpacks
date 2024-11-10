@@ -909,6 +909,7 @@
  1.7M   ├── tmux
  1.7M   ├── uip
  1.7M   ├── fio
+ 1.7M   ├── squishy-cli
  1.7M   ├── exa
  1.7M   ├── moac-pwgen
  1.6M   ├── sudo-rs
@@ -1084,7 +1085,7 @@
  350K   ├── fi6s
  346K   ├── logrotate
  346K   ├── METADATA.AIO.soar.capnp.zstd
- 344K   ├── METADATA.AIO.json.xz
+ 345K   ├── METADATA.AIO.json.xz
  342K   ├── METADATA.AIO.json.zstd
  342K   ├── METADATA.AIO.yaml.xz
  341K   ├── METADATA.AIO.toml.xz

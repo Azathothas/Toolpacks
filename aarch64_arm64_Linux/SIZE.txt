@@ -921,6 +921,7 @@
  1.4M   ├── anew
  1.4M   ├── ppath
  1.4M   ├── comb
+ 1.4M   ├── squishy-cli
  1.4M   ├── kmon
  1.4M   ├── ds
  1.4M   ├── removepro
