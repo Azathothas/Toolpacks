@@ -1,9 +1,9 @@
 <!-- This can be changed -->
 <p align="center">
-    <a href="https://bin.ajam.dev">
+    <a href="https://github.com/pkgforge/soar">
         <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/d226c553-1835-464c-8908-fe293d3aac3c" width="100"></a>
     <br>
-    <b><strong> <a href="https://github.com/Azathothas/Toolpacks">Statically Compiled Binaries</a></code></strong></b>
+    <b><strong> <a href="https://github.com/pkgforge/soar">Statically Compiled Binaries</a></code></strong></b>
     <br>
   <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/dbb447ce-19f9-4a3a-8b56-b21eeba470d7" width="200" />
 </p>
