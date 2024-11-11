@@ -3,7 +3,7 @@
 
 
 - #### What? & Why?
-> - This, at the time of writing is, the **[largest collection](https://github.com/Azathothas/Toolpacks#-status-)** of [*`downloadable`* (without requiring compilation)](https://bin.ajam.dev/) & [*`up-to-date`*](https://github.com/Azathothas/Toolpacks/commits/main/) [static binaries](https://en.wikipedia.org/wiki/Static_build) available on the public web.
+> - This, at the time of writing is, the **[largest collection](https://github.com/Azathothas/Toolpacks#-status-)** of [*`downloadable`* (without requiring compilation)](https://bin.pkgforge.dev/) & [*`up-to-date`*](https://github.com/Azathothas/Toolpacks/commits/main/) [static binaries](https://en.wikipedia.org/wiki/Static_build) available on the public web.
 > > **`More >`** than all of these *COMBINED*: [andrew-d/static-binaries](https://github.com/andrew-d/static-binaries), [s.minos.io/archive/](https://github.com/minos-org/minos-static), [polaco1782/linux-static-binaries](https://github.com/polaco1782/linux-static-binaries), [borestad/static-binaries](https://github.com/borestad/static-binaries), [files.serverless.industries/bin/](https://github.com/perryflynn/static-binaries), [mosajjal/binary-tools](https://github.com/mosajjal/binary-tools), [ryanwoodsmall/static-binaries](https://github.com/ryanwoodsmall/static-binaries), [bol-van/bins](https://github.com/bol-van/bins)
 > - I recommend reading ["Static Linking Considered Harmful" Considered Harmful](https://gavinhoward.com/2021/10/static-linking-considered-harmful-considered-harmful/)
 > - [Dynamic Linking Is Bad For Apps And Static Linking Is Also Bad For Apps](https://belkadan.com/blog/2022/02/Dynamic-Linking-and-Static-Linking/)
@@ -17,7 +17,7 @@
 > - And then, each and every script under `bins` ([x86_64](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins) | [aarch64](https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins)) is run.
 > - These `bin` scripts are what's responsible for actually `building/compiling/fetching` the binaries.
 > - After this is completed, some additional housekeeping such as stripping debug symbols etc is done.
-> - Finally, all the binaries are uploaded to [bin.ajam.dev](https://bin.ajam.dev/). This is a [Cloudflare R2 Bucket](https://developers.cloudflare.com/r2/) and is managed using [rClone](https://github.com/rclone/rclone). All the binaries are also [compressed using 7z](https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/TIPS_TRICKS.md#archive--compress-dir--all-its-subfolders-with-best-possible-compression-7z) & uploaded to [R2](https://bin.ajam.dev/).
+> - Finally, all the binaries are uploaded to [bin.pkgforge.dev](https://bin.pkgforge.dev/). This is a [Cloudflare R2 Bucket](https://developers.cloudflare.com/r2/) and is managed using [rClone](https://github.com/rclone/rclone). All the binaries are also [compressed using 7z](https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/TIPS_TRICKS.md#archive--compress-dir--all-its-subfolders-with-best-possible-compression-7z) & uploaded to [R2](https://bin.pkgforge.dev/).
 > - These steps are same when compiling for other `$ARCH/$OS`
 
 ---
@@ -26,13 +26,13 @@
 > ```bash
 > #-----------------------------------------------------------------------------#
 > ↣ x86_64 Linux
-> curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
+> curl -qfsSL "https://bin.pkgforge.dev/x86_64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
 >
 > #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/x86_64_Linux/DETAILED.md
 >
 > #-----------------------------------------------------------------------------#
 > ↣ aarch64 || arm64 Linux
-> curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
+> curl -qfsSL "https://bin.pkgforge.dev/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "\(.name) --> \((if .repo_url == null or .repo_url == "" then .web_url else .repo_url end))"' | sort -u
 >
 > #Detailed (May not Contain Everything)  : https://github.com/Azathothas/Toolpacks/blob/main/aarch64_arm64_Linux/DETAILED.md
 > 
@@ -53,12 +53,12 @@
 > - Android has [known issues that are `won't fix | by design`](https://github.com/termux/termux-packages/wiki/Common-porting-problems)
 > - Android binaries [`CAN NOT BE COMPILED STATICALLY`](https://github.com/Zackptg5/Cross-Compiled-Binaries-Android/tree/master/build_script#dns-issues) without signifcant efforts & manual patching for each & every binary. This is not Automatable.
 > - [Termux](https://termux.dev/en/) already [ports thousands of packages](https://github.com/termux/termux-packages), Check the [Issues for your `pkg`](https://github.com/termux/termux-packages/issues). There's also a [**near-complete** list of all packages offically available on Termux](https://github.com/Azathothas/Termux-Packages)
-> - [bin.ajam.dev/arm64_v8a_Android](https://bin.ajam.dev/arm64_v8a_Android/) Only provides Tools/Pkgs (Only for `arm64-v8a`) that I personally use but aren't already available in termux-pkgs or broken or just for lulz. I will probably not accept request for android binaries.
+> - [bin.pkgforge.dev/arm64_v8a_Android](https://bin.pkgforge.dev/arm64_v8a_Android/) Only provides Tools/Pkgs (Only for `arm64-v8a`) that I personally use but aren't already available in termux-pkgs or broken or just for lulz. I will probably not accept request for android binaries.
 > - Check these : [Zackptg5/Cross-Compiled-Binaries-Android](https://github.com/Zackptg5/Cross-Compiled-Binaries-Android) & [bol-van/bins](https://github.com/bol-van/bins) 
 ---
 
 - #### What is `Baseutils`?
-> - Essentially [Baseutils is a collection](https://bin.ajam.dev/x86_64_Linux/Baseutils/) of `Bins from CoreUtils` + `BusyBox` + `FindUtils` + `OpenSSH` + `Procps` + `ToyBox` + `UtilLinux` + `XZ-Utils` & [`More`](https://bin.ajam.dev/x86_64_Linux/Baseutils/).
+> - Essentially [Baseutils is a collection](https://bin.pkgforge.dev/x86_64_Linux/Baseutils/) of `Bins from CoreUtils` + `BusyBox` + `FindUtils` + `OpenSSH` + `Procps` + `ToyBox` + `UtilLinux` + `XZ-Utils` & [`More`](https://bin.pkgforge.dev/x86_64_Linux/Baseutils/).
 > Mostly meant for restricted environments like ephemeral [AWS Lambda](https://medium.com/clog/ssh-ing-into-your-aws-lambda-functions-c940cebf7646), [Google Cloud Functions](https://cloud.google.com/functions?hl=en) or anywhere really where there's a lack of coreutils or no privs to use pkg managers.
 > This could also be _theoretically_ used to [bootstrap a linux distro](https://www.youtube.com/watch?v=0vOEcw_sPaM), however, some binaries may not work as I haven't tested all of them comprehensively. Stability & Reliability isn't Guaranteed.
 ---
@@ -93,13 +93,13 @@
 > ```bash
 > ❯ Linux (curl + jq + sha256sum) [RECOMMENDED]
 > !#path= should be exact location to $BIN, so if it's in cwd, path="./$BIN" [REPLACE $BIN with literal Value)
-> echo "$(curl -qfsSL "https://bin.ajam.dev/$(uname -m)/METADATA.json" | jq -r '.[] | select(.name == "$BIN") | .sha256')  $PATH_TO_BIN" | sha256sum -c -
-> !#If you downloaded from Baseutils/*, URL: https://bin.ajam.dev/$(uname -m)/Baseutils/METADATA.json"
+> echo "$(curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)/METADATA.json" | jq -r '.[] | select(.name == "$BIN") | .sha256')  $PATH_TO_BIN" | sha256sum -c -
+> !#If you downloaded from Baseutils/*, URL: https://bin.pkgforge.dev/$(uname -m)/Baseutils/METADATA.json"
 >  
 > ❯ Linux (curl + awk + sha256sum)
 > !#path= should be exact location to $BIN, so if it's in cwd, path="./$BIN" [REPLACE $BIN with literal Value)
-> curl -qfsSL "https://bin.ajam.dev/$(uname -m)/SHA256SUM.txt" | awk -v path="$PATH_TO_BIN" '/ $BIN$/{print $1, path}' | sha256sum -c -
-> !#If you downloaded from Baseutils/* etc, you must pass the correct URL: https://bin.ajam.dev/$(uname -m)/Baseutils/$PATH/SHA256SUM.txt
+> curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)/SHA256SUM.txt" | awk -v path="$PATH_TO_BIN" '/ $BIN$/{print $1, path}' | sha256sum -c -
+> !#If you downloaded from Baseutils/* etc, you must pass the correct URL: https://bin.pkgforge.dev/$(uname -m)/Baseutils/$PATH/SHA256SUM.txt
 >
 > ```
 ---
@@ -128,18 +128,18 @@
 
 - #### [⏬ **`UPX`** ⏬](https://upx.github.io/)
 > - Binaries are also packed using [`upx --best`](https://github.com/upx/upx/blob/devel/doc/upx-doc.txt#L114) after a [CI Build is Complete.](https://github.com/Azathothas/Toolpacks/actions)
-> - These can be downloaded by either using the [GUI Button](https://bin.ajam.dev/)⏬ or by simply adding a `.upx` to any binary.
+> - These can be downloaded by either using the [GUI Button](https://bin.pkgforge.dev/)⏬ or by simply adding a `.upx` to any binary.
 > > Example:
 > > ```bash
 > > #This will download upx packed version of curl
-> > curl -qfsSL "https://bin.ajam.dev/$(uname -m)/curl.upx" -o "./curl"
+> > curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)/curl.upx" -o "./curl"
 > > ```
 > - There is no entry for `UPX` Binaries in [METADATA](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) & also no [`CHECKSUMS`](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-verify-checksums)
 > - `UPX` Binaries can still be decompressed `upx -d $BIN.upx` & then checked for original [`CHECKSUMS`](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-verify-checksums)
 > - Note: If a build was completed recently, it's `UPX` packed version may need some time to show up (Because it's done as post-build)
 > > - Hence, raw binary may be a newer version while it's `UPX` may still be from the old one. In this case, using `UPX` to decompress & verify checksum will fail.
 > > - `UPX` counterparts generally take **5-10** hrs to show up, packed fresh from the latest batch.
-> - Note: ALL Binaries (Platforms) may NOT have `UPX` Versions even if they show in [GUI Button](https://bin.ajam.dev/)⏬
+> - Note: ALL Binaries (Platforms) may NOT have `UPX` Versions even if they show in [GUI Button](https://bin.pkgforge.dev/)⏬
 ---
 
 - #### [`DMCA`](https://opensource.guide/legal/), [`Copyright`](https://opensource.guide/legal/) & [`Cease & Desist`](https://opensource.guide/legal/)
@@ -190,9 +190,9 @@
 > > | [`aarch64` `Linux`](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml) | `14 vCPU (Ampere Altra)` `+` `32 GB RAM (??)` `+` `1024 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3991) | `NO` | `35-40` `Hrs` | `$17/Mo` | 
 ---
 
-- #### [WebUI (bin.ajam.dev)](https://bin.ajam.dev/)
-> - There's no public source code for the web frontend powering https://bin.ajam.dev/
-> > - [bin.ajam.dev](https://bin.ajam.dev/) is **<ins>NOT a web server</ins>**. It's a [web proxy](https://developers.cloudflare.com/r2/buckets/public-buckets/#connect-a-bucket-to-a-custom-domain) to an [R2 Bucket](https://developers.cloudflare.com/r2/buckets/public-buckets/)
+- #### [WebUI (bin.pkgforge.dev)](https://bin.pkgforge.dev/)
+> - There's no public source code for the web frontend powering https://bin.pkgforge.dev/
+> > - [bin.pkgforge.dev](https://bin.pkgforge.dev/) is **<ins>NOT a web server</ins>**. It's a [web proxy](https://developers.cloudflare.com/r2/buckets/public-buckets/#connect-a-bucket-to-a-custom-domain) to an [R2 Bucket](https://developers.cloudflare.com/r2/buckets/public-buckets/)
 > > - Internally, it uses a fork of [cmj2002/r2-dir-list](https://github.com/cmj2002/r2-dir-list) with [<ins>Hardcoded Cloudflare Credentials</ins>](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/)
 > > - The content can always <ins>be verified by comparing **CHECKSUMS**</ins>, Published both here on [Github (via Publicly Auditable & Log Viewable) Actions & on the Site.](https://github.com/Azathothas/Toolpacks/tree/main#-security-%EF%B8%8F)
 ---
@@ -206,11 +206,6 @@
 - #### How do I find new Tools to add?
 > - [GitHub Search](https://github.com/search?q=is%3Apublic+archived%3Afalse+template%3Afalse+lang%3Ac+lang%3Acrystal+lang%3Ago+lang%3Anim+lang%3Arust+lang%3Azig+stars%3A%3E5+cli+OR+tool+OR+utility&type=repositories&s=updated&o=desc): `is:public archived:false template:false lang:c lang:crystal lang:go lang:nim lang:rust lang:zig stars:>5 cli OR tool OR utility` (Sorted By: `Recently Updated`)
 > - [GitHub Issues](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt): [https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt](https://github.com/Azathothas/Toolpacks/blob/main/.github/pub_issues.txt)
----
-
-- #### Public Code Search
-> - [GitHub Search](https://github.com/search?q=NOT+user%3AAzathothas+NOT+user%3Axplshn+NOT+user%3Ametis-os+NOT+user%3Ahackerschoice+NOT+is%3Afork+bin.ajam.dev&type=code&s=updated&o=desc): `NOT user:Azathothas NOT user:xplshn NOT user:metis-os NOT user:hackerschoice NOT is:fork bin.ajam.dev`
-> - [Google](https://www.google.com)|[Bing](https://www.bing.com/)|[Baidu](https://www.baidu.com): `"*.bin.ajam.dev" -site:ajam.dev`
 ---
 
 - #### [Contact](https://ajam.dev/contact)
