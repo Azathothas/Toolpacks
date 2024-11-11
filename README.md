@@ -37,7 +37,7 @@
 > > - [**`How To Contribute/Donate`**](https://github.com/Azathothas/Toolpacks/tree/main/Docs#how-to-contribute)
 > > - [**`Why NOT Host On GitHub`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-not-host-on-github)
 > > - [**`Why RESET ALL GIT Commits`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#why-reset-all-git-commits)
-> > - [**`Where can I find the code for bin.ajam.dev?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#webui-binajamdev)
+> > - [**`Where can I find the code for bin.pkgforge.dev?`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#webui-binajamdev)
 > > - [**`UPX Binaries ⏬`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#-upx-)
 > > - [**`🏜️ GUI PKGs 📀`**](https://github.com/pkgforge/pkgcache)
 > > - [**`Caching & Rebuilds`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#cache--rebuild)
@@ -45,10 +45,10 @@
 > > - [**`DMCA & Copyright`**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/README.md#dmca-copyright--cease--desist)
 > > - [**`Contact Me`**](https://ajam.dev/contact)
 > - [**🔽 Download 🔽**](https://github.com/Azathothas/Toolpacks/tree/main#-download-)
-> > - [**`📦Linux x86_64📦`**](https://bin.ajam.dev/x86_64_Linux/)
-> > - [**`📦Linux aarch64📦`**](https://bin.ajam.dev/aarch64_arm64_Linux/)
-> > - [**`📦Windows_NT AMD64📦`**](https://bin.ajam.dev/x64_Windows/)
-> > - [**`📦Android arm64-v8a📦`**](https://bin.ajam.dev/arm64_v8a_Android/)
+> > - [**`📦Linux x86_64📦`**](https://bin.pkgforge.dev/x86_64_Linux/)
+> > - [**`📦Linux aarch64📦`**](https://bin.pkgforge.dev/aarch64_arm64_Linux/)
+> > - [**`📦Windows_NT AMD64📦`**](https://bin.pkgforge.dev/x64_Windows/)
+> > - [**`📦Android arm64-v8a📦`**](https://bin.pkgforge.dev/arm64_v8a_Android/)
 > - [**📦 Status 🔖**](https://github.com/Azathothas/Toolpacks/tree/main#-status-)
 > - [**🚧 Security ⚙️**](https://github.com/Azathothas/Toolpacks#-security-%EF%B8%8F)
 > - [**Community 💬**](https://t.me/official_loonix/63949)
@@ -59,12 +59,12 @@
 - #### [📦 Status 🔖](https://trello.com/b/rxIHO8Zj/toolpacks-status)
 | 🧰 Architecture 🧰 | 📦 Total Binaries 📦 | 🇨🇭 WorkFlows 🇨🇭 | 🧾Logs|
 |---------------------|-----------------------|-----------------|------------------|
-|[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|161| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|[BUILD.log](https://bin.ajam.dev/arm64_v8a_Android/BUILD.BIN.log.txt)|
-|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|2441| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.BIN.log.txt)|
-|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2511| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.ajam.dev/x86_64_Linux/BUILD.BIN.log.txt)|
-|[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.ajam.dev/x64_Windows/BUILD.BIN.log.txt)|
+|[ **Android `arm64-v8a`**](https://github.com/Azathothas/Toolpacks/tree/main/arm64_v8a_Android)|161| [![🛍️ Build 📦 (toolpack_arm64_v8a_Android) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_arm64_v8a_Android.yaml)|[BUILD.log](https://bin.pkgforge.dev/arm64_v8a_Android/BUILD.BIN.log.txt)|
+|[ **Linux `aarch64 // arm64`**](https://github.com/Azathothas/Toolpacks/tree/main/aarch64_arm64_Linux)|2441| [![🛍️ Build 📦 (toolpack_aarch64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_aarch64_Linux.yaml)|[BUILD.log](https://bin.pkgforge.dev/aarch64_arm64_Linux/BUILD.BIN.log.txt)|
+|[ **Linux `amd // x86_64`**](https://github.com/Azathothas/Toolpacks/tree/main/x86_64_Linux)|2511| [![🛍️ Build 📦 (toolpack_x86_64_Linux) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x86_64_Linux.yaml)|[BUILD.log](https://bin.pkgforge.dev/x86_64_Linux/BUILD.BIN.log.txt)|
+|[ **Windows `x64 // AMD64`**](https://github.com/Azathothas/Toolpacks/tree/main/x64_Windows)|157| [![🛍️ Build 📦 (toolpack_x64_Windows) Binaries 📦🗄️](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml/badge.svg)](https://github.com/Azathothas/Toolpacks/actions/workflows/build_x64_Windows.yaml)|[BUILD.log](https://bin.pkgforge.dev/x64_Windows/BUILD.BIN.log.txt)|
 
-> - Raw [**`metadata`**](https://bin.ajam.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) on [bin.ajam.dev/METADATA.json](https://bin.ajam.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/Azathothas/Toolpacks/main/METADATA.yaml).
+> - Raw [**`metadata`**](https://bin.pkgforge.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md) on [bin.pkgforge.dev/METADATA.json](https://bin.pkgforge.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/Azathothas/Toolpacks/main/METADATA.yaml).
 > - See: [Parse METADATA.json](https://github.com/Azathothas/Toolpacks/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---
 #### 🔽 Download 🔽
@@ -94,13 +94,13 @@
 > > !# wget works without any flags
 > > 
 > > !# Example
-> > curl -qfsSLO "https://bin.ajam.dev/$(uname -m)/$BIN_OR_PATH_TO_BIN"
+> > curl -qfsSLO "https://bin.pkgforge.dev/$(uname -m)/$BIN_OR_PATH_TO_BIN"
 > >
 > > ```
 ---
 
 - ##### GUI `NOT RECOMMENDED`
-> - Visit [bin.ajam.dev](https://bin.ajam.dev)
+> - Visit [bin.pkgforge.dev](https://bin.pkgforge.dev)
 > > Note: If you notice slow loading, it is because it is <ins>not a real website.</ins><br>
 > > It is a [r2 bucket](https://developers.cloudflare.com/r2/), and <ins>loads all objects upon each request</ins>.
 > ![bin](https://github.com/user-attachments/assets/775f0022-9932-4d7c-8d25-3a9df2bde78d)
