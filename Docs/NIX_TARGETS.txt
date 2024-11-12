@@ -60,6 +60,7 @@ pkgsCross.s390
 pkgsCross.s390x
 pkgsCross.sheevaplug
 pkgsCross.ucrt64
+pkgsCross.ucrtAarch64
 pkgsCross.vc4
 pkgsCross.wasi32
 pkgsCross.wasm32-unknown-none
