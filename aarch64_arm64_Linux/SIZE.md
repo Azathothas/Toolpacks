@@ -78,8 +78,8 @@
   36M   ├── opengist
   35M   ├── httpx
   35M   ├── nezha-dashboard
-  34M   ├── alpine-flatimage.no_strip
   34M   ├── FLATPAK_APPSTREAM.xml
+  34M   ├── alpine-flatimage.no_strip
   34M   ├── amass
   33M   ├── kopia
   33M   ├── nushell
@@ -922,7 +922,6 @@
  1.4M   ├── anew
  1.4M   ├── ppath
  1.4M   ├── comb
- 1.4M   ├── squishy-cli
  1.4M   ├── kmon
  1.4M   ├── ds
  1.4M   ├── removepro
@@ -938,6 +937,7 @@
  1.3M   ├── desktop-file-install
  1.3M   ├── desktop-file-edit
  1.3M   ├── ciopfs
+ 1.2M   ├── squishy-cli
  1.2M   ├── genact
  1.2M   ├── bore
  1.2M   ├── update-desktop-database
@@ -1074,6 +1074,7 @@
  322K   ├── berty.preview.png
  321K   ├── METADATA.AIO.json.zstd
  320K   ├── METADATA.AIO.yaml.xz
+ 320K   ├── METADATA.AIO.min.json.xz
  320K   ├── tok.preview-2.png
  320K   ├── scopeview.preview-2.png
  320K   ├── scopegen.preview-2.png
@@ -1084,7 +1085,6 @@
  320K   ├── comb.preview-2.png
  320K   ├── certstream.preview-2.png
  320K   ├── METADATA.AIO.toml.xz
- 320K   ├── METADATA.AIO.min.json.xz
  319K   ├── METADATA.AIO.toml.zstd
  319K   ├── METADATA.AIO.min.json.zstd
  318K   ├── METADATA.AIO.yaml.zstd

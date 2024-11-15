@@ -910,7 +910,6 @@
  1.7M   ├── tmux
  1.7M   ├── uip
  1.7M   ├── fio
- 1.7M   ├── squishy-cli
  1.7M   ├── exa
  1.7M   ├── moac-pwgen
  1.6M   ├── sudo-rs
@@ -934,6 +933,7 @@
  1.5M   ├── mksub
  1.5M   ├── tio
  1.5M   ├── jaq
+ 1.5M   ├── squishy-cli
  1.5M   ├── namegen
  1.4M   ├── tok
  1.4M   ├── rapwp
