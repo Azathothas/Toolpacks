@@ -6,12 +6,12 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 55327
+- **Stars:** 55339
 - **Version:** v0.2.69
 - **Updated:** 2024-11-11T02:55:15Z
 - **Size:** 19.31 MB
-- **SHA256SUM:** 05fbdb1e6df1b420e67c9635571782116a974234485552915062a927243601ed
-- **B3SUM:** 7551cdcfd70750272f52f6a13a6e6a5a3493df5cfc0af765a1281f81127f1207
+- **SHA256SUM:** 946b505fbf0dea70ef9a4e276900ec7c91fbdc49056c15ec8c37e53506b7618b
+- **B3SUM:** 67199f31ff589e05b44fb23a1eb01e2605fa65f17105bb2db14cb8fbdaf446b4
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/act
 - **Language:** Go
 - **License:** MIT License
@@ -26,7 +26,7 @@
 - **Author:** rhysd
 - **WebURL:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
 - **Repository:** [https://github.com/rhysd/actionlint](https://github.com/rhysd/actionlint)
-- **Stars:** 2806
+- **Stars:** 2807
 - **Version:** v1.7.4
 - **Updated:** 2024-11-15T08:42:07Z
 - **Size:** 5.38 MB
@@ -50,8 +50,8 @@
 - **Version:** v1.34.3
 - **Updated:** 2024-11-14T14:18:17Z
 - **Size:** 186.01 KB
-- **SHA256SUM:** 753d8abad4e6bf303f4c6796f3ac280525008c20991fc56db83cc6586988a290
-- **B3SUM:** 5ca54573b76f97bae8142b22657ad0b5891366856dd1859012833de041dc62c9
+- **SHA256SUM:** 8904cc0e58a632b4a7ee811f8e7c140479f532680553f1442cd5b3bae08bc14a
+- **B3SUM:** 9100c40ecb09fc91704371b335ec5e333a153007835e3f727d70ad3e0a6dbe18
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/adig
 - **Language:** C
 - **License:** MIT License
@@ -70,8 +70,8 @@
 - **Version:** v0.1.0
 - **Updated:** 2024-05-08T12:29:15Z
 - **Size:** 1.13 MB
-- **SHA256SUM:** 3e4812b9980043e701caef6a2c96ffdd18de9440f5e20f75b4a75b8e7c9d21c4
-- **B3SUM:** bc15835383c4e8cae52790f87d5b59241b6fb7069ba17ee088aa9e1e0723ca4c
+- **SHA256SUM:** 38e0442abd9a0195bf7ec1327e454eb999b8a1198af1da3b5b5bc8ffe77b82a7
+- **B3SUM:** dae6146e7c91c6c97ad988479f53a9665813c26e8af8ca495fbf814730242134
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/anew-rs
 - **Language:** Rust
 - **License:** MIT License
@@ -90,8 +90,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 3.76 MB
-- **SHA256SUM:** f1069fdacb294477322ce739a66a3dd0281892424f962ca52af2e61b9186e517
-- **B3SUM:** 850395222d31bc155362f58d9af9e46679e423b30e0d2c5cb8b86e522cd90dc4
+- **SHA256SUM:** 5b9bf2966846b0db35c1c3919bb62caf1d112fbbf15b767368d06f349610afcc
+- **B3SUM:** 5bacbe36cffac2422062f8c83194addd28235ba807e055783c97b1a97c5078a0
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/axel
 - **Language:** 
 - **License:** 
@@ -110,8 +110,8 @@
 - **Version:** 1.5.4
 - **Updated:** 2024-10-08T12:05:59Z
 - **Size:** 1.44 MB
-- **SHA256SUM:** ef836e1a2f2d70c60ea9f74278981cb687fe11f214b9dde2f71be74fb9867524
-- **B3SUM:** 8df29b527925adb081c7aba072bfbdb8b17bde01cac311a45e82fb1df0d31277
+- **SHA256SUM:** c1b7175e3abf51eab5e5f6d0aba1ab3dded7eede7ab399a02f1c700fce6d4a22
+- **B3SUM:** 9ee92476c6d4ac356673d3744d6d21772b6bc6727ed4d73421e81e2aa500464c
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/b3sum
 - **Language:** Assembly
 - **License:** Apache License 2.0
@@ -130,8 +130,8 @@
 - **Version:** 
 - **Updated:** 
 - **Size:** 1.78 MB
-- **SHA256SUM:** c85dd0f382adbe6313144c205f98b9ff5811695778ef3bc1b1b3b03af2930ce8
-- **B3SUM:** 9086c5799b32347b45cd2e83e1e7c963e8f1986a2370c0846bfee94b22c44933
+- **SHA256SUM:** 7d38c5dc09280655c78f36962bb0ee3e3f7a1396b36d34683a9231aea52f2b2a
+- **B3SUM:** a556a24cb3fe5355ab2715027ae90999550f8d56049e24ff7066c853b1507bce
 - **Source:** https://bin.ajam.dev/arm64_v8a_Android/bash
 - **Language:** 
 - **License:** 
@@ -148,7 +148,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35943
 - **Version:** curl-8_11_0
-- **Updated:** 2024-11-15T10:50:55Z
+- **Updated:** 2024-11-15T23:13:17Z
 - **Size:** 5.36 MB
 - **SHA256SUM:** 6a8d6c58d5ee96df4852a3d1ca2d99ba93e2fe030a6c1a931641325ea3a96d36
 - **B3SUM:** f37c80f27b035c3eb103051406167c4a7bf40484a04e7edd6600f406110bda26
@@ -168,7 +168,7 @@
 - **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
 - **Stars:** 35943
 - **Version:** curl-8_11_0
-- **Updated:** 2024-11-15T10:50:55Z
+- **Updated:** 2024-11-15T23:13:17Z
 - **Size:** 234.85 KB
 - **SHA256SUM:** 189d3cf6d103185fba06d76c1af915263c6d42225481a1759e853b33ac857540
 - **B3SUM:** 1856b10ee91d0e1828f100a99b50dbf6c66373f659f855f01c8a9f9a22b002b5
@@ -206,7 +206,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4778
+- **Stars:** 4779
 - **Version:** v0.9.0
 - **Updated:** 2024-09-07T16:16:59Z
 - **Size:** 2.03 MB
@@ -266,9 +266,9 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 47207
-- **Version:** v1.68.1
-- **Updated:** 2024-11-15T12:21:48Z
+- **Stars:** 47210
+- **Version:** v1.68.2
+- **Updated:** 2024-11-15T14:51:43Z
 - **Size:** 85.87 MB
 - **SHA256SUM:** d41fad562d717ba09eeb4155568e6532cfa537fcae32faf5ea9c41b1b86d21c9
 - **B3SUM:** 37b98f90cb44185e5435c7d7196bf97674971b4f396d9ff297fbaf3648a815bd
@@ -286,7 +286,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2902
+- **Stars:** 2904
 - **Version:** v3.3.0
 - **Updated:** 2024-11-14T19:59:17Z
 - **Size:** 5.26 MB
@@ -306,7 +306,7 @@
 - **Author:** agnostic-apollo
 - **WebURL:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
 - **Repository:** [https://github.com/agnostic-apollo/sudo](https://github.com/agnostic-apollo/sudo)
-- **Stars:** 99
+- **Stars:** 100
 - **Version:** v0.2.0
 - **Updated:** 2021-04-10T21:03:10Z
 - **Size:** 250.38 KB
@@ -326,9 +326,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19361
+- **Stars:** 19369
 - **Version:** v1.76.6
-- **Updated:** 2024-11-15T03:57:50Z
+- **Updated:** 2024-11-16T00:18:38Z
 - **Size:** 12.46 MB
 - **SHA256SUM:** bd17012ec2204dfd0019d7bb430919e73a0af092b07716777a7a2bbfa26c0ae2
 - **B3SUM:** 67e813cd75e06d1ae679da90403c48dd5903d718d580a0975afeea8c8e25627a
@@ -346,9 +346,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19361
+- **Stars:** 19369
 - **Version:** v1.76.6
-- **Updated:** 2024-11-15T03:57:50Z
+- **Updated:** 2024-11-16T00:18:38Z
 - **Size:** 26.75 MB
 - **SHA256SUM:** d363015f0cf122b73b206ef1baa9617ac364a876c18ac1b849fc0620c5d91954
 - **B3SUM:** 49bf63489ff0d6ccb1ac30c9e52ed8002ad62f26664d53e0e79aa09b7fc6849b
@@ -366,9 +366,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19361
+- **Stars:** 19369
 - **Version:** v1.76.6
-- **Updated:** 2024-11-15T03:57:50Z
+- **Updated:** 2024-11-16T00:18:38Z
 - **Size:** 24.61 MB
 - **SHA256SUM:** 226b283c5b11fd4856c9d5ab7acadb44dfa9a8263d444143c13b352ed30eb65d
 - **B3SUM:** 58edcdfc38ac1da46a68c3771a65fde58b143d51b1bf230fb57067894ff0c182
@@ -386,9 +386,9 @@
 - **Author:** vim
 - **WebURL:** [https://github.com/vim/vim](https://github.com/vim/vim)
 - **Repository:** [https://github.com/vim/vim](https://github.com/vim/vim)
-- **Stars:** 36649
-- **Version:** v9.1.0866
-- **Updated:** 2024-11-14T22:23:26Z
+- **Stars:** 36655
+- **Version:** v9.1.0867
+- **Updated:** 2024-11-15T19:00:21Z
 - **Size:** 5.07 MB
 - **SHA256SUM:** 9c4d88bd8c906af1ff31cc632dbcbda3d1901d1e32ad2382afee6c28c6c07461
 - **B3SUM:** bfe908bbbd64ccfbcde0c26bd361e2bb9a45d0d60f249106cdf4dd61495d7f63
@@ -446,7 +446,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3652
+- **Stars:** 3653
 - **Version:** zsh-5.9
 - **Updated:** 2024-11-13T04:15:25Z
 - **Size:** 1.8 MB
