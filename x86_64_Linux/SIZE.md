@@ -925,6 +925,7 @@
  1.5M   ├── v6disk
  1.5M   ├── fastfetch-staticx
  1.5M   ├── tcpdump
+ 1.5M   ├── squishy-cli
  1.5M   ├── quotes-escaper
  1.5M   ├── zsh
  1.5M   ├── scopegen
@@ -933,7 +934,6 @@
  1.5M   ├── mksub
  1.5M   ├── tio
  1.5M   ├── jaq
- 1.5M   ├── squishy-cli
  1.5M   ├── namegen
  1.4M   ├── tok
  1.4M   ├── rapwp

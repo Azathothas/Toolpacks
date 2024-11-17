@@ -928,6 +928,7 @@
  1.3M   ├── patchelf
  1.3M   ├── uip
  1.3M   ├── ttyd
+ 1.3M   ├── squishy-cli
  1.3M   ├── xargs-rs
  1.3M   ├── mgwls
  1.3M   ├── dropbear
@@ -936,7 +937,6 @@
  1.3M   ├── desktop-file-install
  1.3M   ├── desktop-file-edit
  1.3M   ├── ciopfs
- 1.2M   ├── squishy-cli
  1.2M   ├── genact
  1.2M   ├── bore
  1.2M   ├── update-desktop-database
@@ -1084,9 +1084,9 @@
  320K   ├── certstream.preview-2.png
  320K   ├── METADATA.AIO.toml.xz
  320K   ├── METADATA.AIO.min.json.xz
+ 319K   ├── METADATA.AIO.toml.zstd
  319K   ├── METADATA.AIO.min.json.zstd
  318K   ├── METADATA.AIO.yaml.zstd
- 318K   ├── METADATA.AIO.toml.zstd
  314K   ├── tok.preview-1.png
  314K   ├── scopeview.preview-1.png
  314K   ├── scopegen.preview-1.png
