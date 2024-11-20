@@ -1,0 +1,13 @@
+Name: bat.exe
+DESCR: cat with colors & syntax highlights
+Download URL: https://bin.ajam.dev/x64_Windows/bat.exe
+REPO: https://github.com/sharkdp/bat
+Web URL: https://github.com/sharkdp/bat
+
+Name: batcat.exe
+DESCR: cat with colors & syntax highlights
+Download URL: https://bin.ajam.dev/x64_Windows/batcat.exe
+REPO: https://github.com/sharkdp/bat
+Web URL: https://github.com/sharkdp/bat
+
+---------------------
