@@ -205,14 +205,17 @@ jobs:
           echo -e "[+] BTOP: http://$TS_DNS:7777 ||  https://$TS_DNS/btop/\n"
           ##Loonix (Start)
           GH_EVENT="${{ github.event_name }}"
+          GH_WORKFLOW_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           START_TIME="$(date +%s)" && export START_TIME
           echo "GH_EVENT=${GH_EVENT}" >> "${GITHUB_ENV}"
+          echo "GH_WORKFLOW_URL=${GH_WORKFLOW_URL}" >> "${GITHUB_ENV}"
           echo "START_TIME=${START_TIME}" >> "${GITHUB_ENV}"
           rm -rvf "/tmp/PKGFORGE_LOONIX.html" 2>/dev/null
           echo -e "ℹ️ <b>Triggered</b> <a href='https://github.com/Azathothas/Toolpacks/blob/main/.github/workflows/build_aarch64_Linux.yaml'><b>🛍️ Build 📦 Bincache (ToolPacks) 📦🗄️</b></a> <a href='https://github.com/Azathothas/Toolpacks'><b>Azathothas/Toolpacks (aarch64-Linux)</b></a> [<b><u>$(date --utc +'%Y-%m-%dT%H:%M:%S.%3N') UTC</u></b>]" > "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Event</u></b>: <code>${GH_EVENT}</code>" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Btop</u></b>: https://${TS_DNS}/btop/" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Tmux</u></b>: https://${TS_DNS}/tmux/" >> "/tmp/PKGFORGE_LOONIX.html"
+          echo -e "<b><u>URL</u></b>: ${GH_WORKFLOW_URL}" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>GH Repo</u></b>: https://github.com/${GITHUB_REPOSITORY}" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Maintainer</u></b>: @Azathothas" >> "/tmp/PKGFORGE_LOONIX.html"
           curl "https://api.telegram.org/bot${PKGFORGE_LOONIX_TOKEN}/sendMessage" -d "chat_id=-1002007583969&message_thread_id=63949" -d "text=$(cat /tmp/PKGFORGE_LOONIX.html)" -d "parse_mode=html"
@@ -249,12 +252,15 @@ jobs:
           set +x ; set +e
           #-------------#
           END_TIME="$(date +%s)" && export END_TIME="${END_TIME}"
-          ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
+          SECS="$((END_TIME - START_TIME))"
+          #ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
+          ELAPSED_TIME="$((SECS/86400))(Day):$(date -u -d@$((SECS%86400)) '+%H(Hr):%M(Min):%S(Sec)')"
           echo "ELAPSED_TIME=${ELAPSED_TIME}" >> "${GITHUB_ENV}"
           rm -rvf "/tmp/PKGFORGE_LOONIX.html" 2>/dev/null
           echo -e "ℹ️ <b>Completed</b> <a href='https://github.com/Azathothas/Toolpacks/blob/main/.github/workflows/build_aarch64_Linux.yaml'><b>🛍️ Build 📦 Bincache (ToolPacks) 📦🗄️</b></a> <a href='https://github.com/Azathothas/Toolpacks'><b>Azathothas/Toolpacks (aarch64-Linux)</b></a> [<b><u>$(date --utc +'%Y-%m-%dT%H:%M:%S.%3N') UTC</u></b>]" > "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>ELAPSED_TIME</u></b>: <code>${ELAPSED_TIME}</code>" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Event</u></b>: <code>${GH_EVENT}</code>" >> "/tmp/PKGFORGE_LOONIX.html"
+          echo -e "<b><u>URL</u></b>: ${GH_WORKFLOW_URL}" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Log (Success)</u></b>: https://bin.pkgforge.dev/aarch64-Linux/BUILD.log.txt" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Log (Failure)</u></b>: https://bin.pkgforge.dev/aarch64-Linux/BUILD_FAILED.log.txt" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>GH Repo</u></b>: https://github.com/${GITHUB_REPOSITORY}" >> "/tmp/PKGFORGE_LOONIX.html"
