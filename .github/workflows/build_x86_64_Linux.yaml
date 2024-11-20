@@ -207,6 +207,7 @@ jobs:
           GH_WORKFLOW_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           START_TIME="$(date +%s)" && export START_TIME
           echo "GH_EVENT=${GH_EVENT}" >> "${GITHUB_ENV}"
+          echo "GH_WORKFLOW_URL=${GH_WORKFLOW_URL}" >> "${GITHUB_ENV}"
           echo "START_TIME=${START_TIME}" >> "${GITHUB_ENV}"
           rm -rvf "/tmp/PKGFORGE_LOONIX.html" 2>/dev/null
           echo -e "ℹ️ <b>Triggered</b> <a href='https://github.com/Azathothas/Toolpacks/blob/main/.github/workflows/build_x86_64_Linux.yaml'><b>🛍️ Build 📦 Bincache (ToolPacks) 📦🗄️</b></a> <a href='https://github.com/Azathothas/Toolpacks'><b>Azathothas/Toolpacks (x86_64-Linux)</b></a> [<b><u>$(date --utc +'%Y-%m-%dT%H:%M:%S.%3N') UTC</u></b>]" > "/tmp/PKGFORGE_LOONIX.html"
@@ -258,6 +259,7 @@ jobs:
           echo -e "ℹ️ <b>Completed</b> <a href='https://github.com/Azathothas/Toolpacks/blob/main/.github/workflows/build_x86_64_Linux.yaml'><b>🛍️ Build 📦 Bincache (ToolPacks) 📦🗄️</b></a> <a href='https://github.com/Azathothas/Toolpacks'><b>Azathothas/Toolpacks (x86_64-Linux)</b></a> [<b><u>$(date --utc +'%Y-%m-%dT%H:%M:%S.%3N') UTC</u></b>]" > "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>ELAPSED_TIME</u></b>: <code>${ELAPSED_TIME}</code>" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Event</u></b>: <code>${GH_EVENT}</code>" >> "/tmp/PKGFORGE_LOONIX.html"
+          echo -e "<b><u>URL</u></b>: ${GH_WORKFLOW_URL}" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Log (Success)</u></b>: https://bin.pkgforge.dev/x86_64-Linux/BUILD.log.txt" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>Log (Failure)</u></b>: https://bin.pkgforge.dev/x86_64-Linux/BUILD_FAILED.log.txt" >> "/tmp/PKGFORGE_LOONIX.html"
           echo -e "<b><u>GH Repo</u></b>: https://github.com/${GITHUB_REPOSITORY}" >> "/tmp/PKGFORGE_LOONIX.html"
