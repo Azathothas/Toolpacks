@@ -1074,8 +1074,6 @@
  322K   ├── berty.preview.png
  321K   ├── METADATA.AIO.json.zstd
  320K   ├── METADATA.AIO.yaml.xz
- 320K   ├── METADATA.AIO.toml.xz
- 320K   ├── METADATA.AIO.min.json.xz
  320K   ├── tok.preview-2.png
  320K   ├── scopeview.preview-2.png
  320K   ├── scopegen.preview-2.png
@@ -1085,6 +1083,8 @@
  320K   ├── cutlines.preview-2.png
  320K   ├── comb.preview-2.png
  320K   ├── certstream.preview-2.png
+ 320K   ├── METADATA.AIO.toml.xz
+ 320K   ├── METADATA.AIO.min.json.xz
  319K   ├── METADATA.AIO.min.json.zstd
  318K   ├── METADATA.AIO.toml.zstd
  318K   ├── METADATA.AIO.yaml.zstd
