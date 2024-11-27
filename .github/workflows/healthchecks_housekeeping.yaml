@@ -426,31 +426,31 @@ jobs:
            #--------------#
            cd "$GITHUB_WORKSPACE/main"
            #Generate $GITHUB_WORKSPACE/main/README.md
-           cat "$GITHUB_WORKSPACE/main/INFO.md" > "$GITHUB_WORKSPACE/main/README.md"
+           #cat "$GITHUB_WORKSPACE/main/INFO.md" > "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/arm64_v8a_Android/
            unset MAIN_N BASE_N TOTAL_PACKAGES
            MAIN_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "arm64-v8a-Android") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export MAIN_N="${MAIN_N}"
            BASE_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "arm64-v8a-Android") | .baseutils' | jq -r '.[].name' | sort -u | wc -l)" && export BASE_N="${BASE_N}"
            export TOTAL_PACKAGES="$((MAIN_N + BASE_N))" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
-           sed "s/PLACEHOLDER_arm64_v8a_Android/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #sed "s/PLACEHOLDER_arm64_v8a_Android/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/aarch64_arm64_Linux
            unset MAIN_N BASE_N TOTAL_PACKAGES
            MAIN_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "aarch64-Linux") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export MAIN_N="${MAIN_N}"
            BASE_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "aarch64-Linux") | .baseutils' | jq -r '.[].name' | sort -u | wc -l)" && export BASE_N="${BASE_N}"
            export TOTAL_PACKAGES="$((MAIN_N + BASE_N))" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
-           sed "s/PLACEHOLDER_aarch64_arm64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #sed "s/PLACEHOLDER_aarch64_arm64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/x86_64_Linux/
            unset MAIN_N BASE_N TOTAL_PACKAGES
            MAIN_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export MAIN_N="${MAIN_N}"
            BASE_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .baseutils' | jq -r '.[].name' | sort -u | wc -l)" && export BASE_N="${BASE_N}"
            export TOTAL_PACKAGES="$((MAIN_N + BASE_N))" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
-           sed "s/PLACEHOLDER_x86_64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #sed "s/PLACEHOLDER_x86_64_Linux/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
            ##bin.ajam.dev/x64_Windows/
            unset MAIN_N BASE_N TOTAL_PACKAGES
            MAIN_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "AMD64-Windows_NT") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export MAIN_N="${MAIN_N}"
            BASE_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "AMD64-Windows_NT") | .baseutils' | jq -r '.[].name' | sort -u | wc -l)" && export BASE_N="${BASE_N}"
            export TOTAL_PACKAGES="$((MAIN_N + BASE_N))" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
-           sed "s/PLACEHOLDER_x64_Windows/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
+           #sed "s/PLACEHOLDER_x64_Windows/$TOTAL_PACKAGES/g" -i "$GITHUB_WORKSPACE/main/README.md"
         continue-on-error: true
 
       - name: Scrape Public Issues
