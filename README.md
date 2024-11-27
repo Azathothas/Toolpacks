@@ -1,11 +1,30 @@
-<!-- This can be changed -->
+<div align="center">
+
+[stars-shield]: https://img.shields.io/github/stars/Azathothas/Toolpacks.svg
+[stars-url]: https://github.com/Azathothas/Toolpacks/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Azathothas/Toolpacks.svg
+[issues-url]: https://github.com/Azathothas/Toolpacks/issues
+[license-shield]: https://img.shields.io/github/license/Azathothas/Toolpacks.svg
+[license-url]: https://github.com/Azathothas/Toolpacks/blob/main/LICENSE
+[doc-shield]: https://img.shields.io/badge/docs.pkgforge.dev-blue
+[doc-url]: https://docs.pkgforge.dev/orgs/pkgforge-core/projects/toolpacks-bincache
+
+<a href="https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Binaries-(2411)+(2511)-blue?labelColor=orange&style=flat&link=https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts" alt="Binaries" /></a>
+[![Documentation][doc-shield]][doc-url]
+[![Issues][issues-shield]][issues-url]
+[![License: MIT][license-shield]][license-url]
+[![Stars][stars-shield]][stars-url]
+</div>
+
 <p align="center">
+    <!-- <a href="https://github.com/pkgforge/soar">
+        <img src="https://github.com/user-attachments/assets/220ce7b3-55b3-496e-b3b8-2556123193a2" width="100">
+    </a><br> -->
     <a href="https://github.com/pkgforge/soar">
-        <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/d226c553-1835-464c-8908-fe293d3aac3c" width="100"></a>
+        <img src="https://bin.pkgforge.dev/list.gif" alt="soar-list" width="500">
+    </a><br> 
+    <b><strong> <a href="https://docs.pkgforge.dev/orgs/pkgforge-core/projects/toolpacks-bincache">Package Forge Binary Cache</a></code></strong></b>
     <br>
-    <b><strong> <a href="https://github.com/pkgforge/soar">Statically Compiled Binaries</a></code></strong></b>
-    <br>
-  <img src="https://github.com/Azathothas/Toolpacks/assets/58171889/dbb447ce-19f9-4a3a-8b56-b21eeba470d7" width="200" />
 </p>
 
 <!-- Crude Attempt at Humor -->
