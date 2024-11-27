@@ -1,0 +1,8 @@
+name: "dagger-cli"
+description: "An engine to run your pipelines in containers"
+note: ""
+web_url: "https://github.com/dagger/dagger"
+repo_url: "https://github.com/dagger/dagger"
+path: "/"
+bins:
+  - "dagger"
