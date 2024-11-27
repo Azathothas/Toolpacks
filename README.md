@@ -40,7 +40,7 @@
 
 > - ℹ️ As of `2024-11-05`, this repo is a part of [PkgForge](https://github.com/pkgforge).
 > - [PkgForge](https://github.com/pkgforge) was created to fix the [disparate status of Linux Package Formats](https://www.linux-magazine.com/Online/Features/The-Status-of-Universal-Package-Systems).
-> - Other than [Static Binaries](https://github.com/Azathothas/Toolpacks), we now also provide [prebuilts](https://github.com/pkgforge/pkgcache) & [build recipes](https://github.com/pkgforge/soarpkgs) for formats like [AppBundle](https://github.com/pkgforge/pkgcache/blob/main/Docs/APPBUNDLES.md), [AppImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/APPIMAGES.md), [FlatImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/FLATIMAGES.md), [GameImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/GAMEIMAGES.md), [RunImage](https://github.com/pkgforge/pkgcache/blob/main/Docs/RUNIMAGES.md) & [More](https://github.com/pkgforge/pkgcache/tree/main/Docs)<br>
+> - Other than [Static Binaries](https://github.com/Azathothas/Toolpacks), we now also provide [prebuilts](https://github.com/pkgforge/pkgcache) & [build recipes](https://github.com/pkgforge/soarpkgs) for formats like [AppBundle](https://docs.pkgforge.dev/formats/packages/appbundle), [AppImage](https://docs.pkgforge.dev/formats/packages/appimage), [FlatImage](https://docs.pkgforge.dev/formats/packages/flatimage), & [More](https://docs.pkgforge.dev/formats/packages)<br>
 > - We also have our own [`Package-Manager`](https://github.com/pkgforge/soar) built in blazingly fast 🦀 rust called [Soar](https://github.com/pkgforge/soar)
 > - [Repo Migration was Attempted but proved unsuccessful.](https://github.com/pkgforge/bincache/issues/1)
 ---
@@ -57,4 +57,3 @@
 > - [**🚧 Security ⚙️**](https://docs.pkgforge.dev/repositories/pkgforge-edge/security)
 > - [**Community 💬**](https://t.me/official_loonix/63949)
 > > - <a href="https://t.me/official_loonix/63949"><img src="https://github.com/user-attachments/assets/2edc90b9-606e-4bfc-89f3-2a758b2f0377" width="18" height="18"><code>Loonix (<img src="https://github.com/user-attachments/assets/abc35eee-c9c9-4023-9035-d440b56cac4c" width="18" height="18">) Telegram</code></a> `➼` [`https://t.me/official_loonix/63949`](https://t.me/official_loonix/63949)
-> > - <a href="https://matrix.to/#/#loonix:matrix.org"><img src="https://github.com/user-attachments/assets/1dcd4a64-2fec-4f4f-926a-e61313b6b646" width="18" height="18"><code>Loonix (<img src="https://github.com/user-attachments/assets/abc35eee-c9c9-4023-9035-d440b56cac4c" width="18" height="18">) Matrix </code></a> `➼` [`https://matrix.to/#/#loonix:matrix.org`](https://matrix.to/#/#loonix:matrix.org) **`ABANDONED & NOT ACTIVE`** 
