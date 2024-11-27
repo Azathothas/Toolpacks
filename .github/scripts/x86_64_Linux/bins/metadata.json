@@ -785,6 +785,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/czkawka.sh"
   },
   {
+    "name": "dagger-cli.sh",
+    "update_date": "2024-11-27T12:08:06",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dagger-cli.sh"
+  },
+  {
     "name": "dagu.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/dagu.sh"
@@ -2446,7 +2451,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-11-26T12:12:10",
+    "update_date": "2024-11-27T00:17:46",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
