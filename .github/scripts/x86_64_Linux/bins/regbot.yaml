@@ -1,0 +1,8 @@
+name: "regbot"
+description: "a scripting tool on top of the regclient API"
+note: ""
+web_url: "https://github.com/regclient/regclient"
+repo_url: "https://github.com/regclient/regclient"
+path: "/"
+bins:
+  - "regbot"

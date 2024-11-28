@@ -1,0 +1,8 @@
+name: "regsync"
+description: "an image mirroring tool"
+note: ""
+web_url: "https://github.com/regclient/regclient"
+repo_url: "https://github.com/regclient/regclient"
+path: "/"
+bins:
+  - "regsync"
