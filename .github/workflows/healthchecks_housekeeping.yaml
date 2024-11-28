@@ -44,8 +44,8 @@ jobs:
           #GH ENV
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
-          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
-          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/aarch64-Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/x86_64-Linux"
           #-------------#
           mkdir -p "$HOME/bin"
           ##Setup rClone
@@ -227,18 +227,18 @@ jobs:
            set +x ; set +e
            #--------------#
            #Fetch from r2
-           #Copy to $GITHUB_WORKSPACE/main/aarch64_arm64_Linux
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BLAKE3SUM.txt" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/FILE.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/FILE.txt" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.json" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.min.json" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.toml" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.AIO.yaml" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/SIZE.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.txt" 2>/dev/null
-           echo '```mathematica' > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
-           cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
-           echo '```' >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SIZE.md" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/SHA256SUM.txt" 2>/dev/null
+           #Copy to ${GITHUB_WORKSPACE}/main/aarch64-Linux
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/BLAKE3SUM.txt" "${GITHUB_WORKSPACE}/main/aarch64-Linux/BLAKE3SUM.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/FILE.txt" "${GITHUB_WORKSPACE}/main/aarch64-Linux/FILE.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/SIZE.txt" "${GITHUB_WORKSPACE}/main/aarch64-Linux/SIZE.txt" 2>/dev/null
+           echo '```mathematica' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/SIZE.md" 2>/dev/null
+           cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/SIZE.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/SIZE.md" 2>/dev/null
+           echo '```' >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/SIZE.md" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/SHA256SUM.txt" "${GITHUB_WORKSPACE}/main/aarch64-Linux/SHA256SUM.txt" 2>/dev/null
         continue-on-error: true
 #-----------------------------------------------------#
 #-----------------------------------------------------#
@@ -248,18 +248,18 @@ jobs:
            set +x ; set +e
            #--------------#
            #Fetch from r2
-           #Copy to $GITHUB_WORKSPACE/main/x86_64_Linux
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/BLAKE3SUM.txt" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/FILE.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/FILE.txt" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.json" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.min.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.min.json" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.toml" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.toml" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.yaml" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.AIO.yaml" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/SIZE.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.txt" 2>/dev/null
-           echo '```mathematica' > "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
-           cat "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
-           echo '```' >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
-           rclone copyto --checksum "r2:/bin/x86_64_Linux/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/SHA256SUM.txt" 2>/dev/null
+           #Copy to ${GITHUB_WORKSPACE}/main/x86_64-Linux
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/BLAKE3SUM.txt" "${GITHUB_WORKSPACE}/main/x86_64-Linux/BLAKE3SUM.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/FILE.txt" "${GITHUB_WORKSPACE}/main/x86_64-Linux/FILE.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.json" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.min.json" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.toml" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.AIO.yaml" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/SIZE.txt" "${GITHUB_WORKSPACE}/main/x86_64-Linux/SIZE.txt" 2>/dev/null
+           echo '```mathematica' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/SIZE.md" 2>/dev/null
+           cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/SIZE.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/SIZE.md" 2>/dev/null
+           echo '```' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/SIZE.md" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x86_64_Linux/SHA256SUM.txt" "${GITHUB_WORKSPACE}/main/x86_64-Linux/SHA256SUM.txt" 2>/dev/null
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       - name: Generate Repo Metadata (git-sizer)
@@ -283,40 +283,40 @@ jobs:
            cd "$GITHUB_WORKSPACE/main"
            #--------------------#
            ##aarch64_arm64_Linux##
-           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.BIN.log.txt" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt"
+           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/BUILD.BIN.log.txt" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt"
            #Secrets & Tokens
-           sed -i '/.*github_pat.*/Id' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*ghp_.*/Id' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*access_key_id.*/Id' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*secret_access_key.*/Id' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*cloudflarestorage.*/Id' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt"
-           echo -e '```mathematica' > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           sed -i '/.*github_pat.*/Id' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*ghp_.*/Id' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*access_key_id.*/Id' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*secret_access_key.*/Id' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*cloudflarestorage.*/Id' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt"
+           echo -e '```mathematica' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Broken GH Repos
-           echo -e "\n[-] Authentication failed --> # Invalid/Deleted GH Repos\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           grep -B5 -A3 -in ".* Authentication failed .*" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n[-] Authentication failed --> # Invalid/Deleted GH Repos\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           grep -B5 -A3 -in ".* Authentication failed .*" "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Eget Fails
-           echo -e "\n\n[-] asset * not found --> # Eget failed to find that --asset\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           grep -B5 -in "asset .* not found" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] asset * not found --> # Eget failed to find that --asset\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           grep -B5 -in "asset .* not found" "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Failed URLs
-           echo -e "\n\n[-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           awk '/Could not resolve host/{print prev; print; found=1} {prev=$0} /^\[+\]/{exit} END{if (!found) print prev}' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           awk '/Could not resolve host/{print prev; print; found=1} {prev=$0} /^\[+\]/{exit} END{if (!found) print prev}' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Failed Installs
-           echo -e "\n\n[-] command not found --> # Something failed to Install\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           grep -in "command not found" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] command not found --> # Something failed to Install\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           grep -in "command not found" "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Dynamically Linked
-           echo -e "\n\n[-] Dynamically Linked --> # Not Statically Linked\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           grep -in "dynamically linked" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/FILE.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Dynamically Linked --> # Not Statically Linked\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           grep -in "dynamically linked" "${GITHUB_WORKSPACE}/main/aarch64-Linux/FILE.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Not correct binary
-           echo -e "\n\n[-] Incorrect Arch --> # Not for aarch64\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           grep -ivn "aarch64\|text" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/FILE.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Incorrect Arch --> # Not for aarch64\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           grep -ivn "aarch64\|text" "${GITHUB_WORKSPACE}/main/aarch64-Linux/FILE.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Build Failures
-           echo -e "\n\n[-] No such file or directory # Usually Because Build Failures\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           grep -in "No such file or directory" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] No such file or directory # Usually Because Build Failures\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           grep -in "No such file or directory" "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #Empty Bins
-           echo -e "\n\n[-] Empty (0 Sized) Bins # Usually Because Symlinks\n" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
-           jq -r '.[] | select(.Size == "0 B") | "\(.Name) --> \(.Size)"' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" >> "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Empty (0 Sized) Bins # Usually Because Symlinks\n" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
+           jq -r '.[] | select(.Size == "0 B") | "\(.Name) --> \(.Size)"' "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
            #END
-           echo -e '```' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_ERROR.log.md"
+           echo -e '```' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_ERROR.log.md"
         continue-on-error: true
 
       - name: Parse Build Logs (x86_64_Linux)
@@ -328,39 +328,39 @@ jobs:
            #--------------------#
            ##x86_64_Linux##
            #Secrets & Tokens
-           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BUILD.BIN.log.txt" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*github_pat.*/Id' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*ghp_.*/Id' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*access_key_id.*/Id' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*secret_access_key.*/Id' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt"
-           sed -i '/.*cloudflarestorage.*/Id' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt"
-           echo -e '```mathematica' > "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/BUILD.BIN.log.txt" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*github_pat.*/Id' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*ghp_.*/Id' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*access_key_id.*/Id' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*secret_access_key.*/Id' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt"
+           sed -i '/.*cloudflarestorage.*/Id' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt"
+           echo -e '```mathematica' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Broken GH Repos
-           echo -e "\n[-] Authentication failed --> # Invalid/Deleted GH Repos\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           grep -B5 -A3 -in ".* Authentication failed .*" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n[-] Authentication failed --> # Invalid/Deleted GH Repos\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           grep -B5 -A3 -in ".* Authentication failed .*" "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Eget Fails
-           echo -e "\n\n[-] asset * not found --> # Eget failed to find that --asset\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           grep -B5 -in "asset .* not found" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] asset * not found --> # Eget failed to find that --asset\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           grep -B5 -in "asset .* not found" "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Failed URLs 
-           echo -e "\n\n[-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           awk '/Could not resolve host/{print prev; print; found=1} {prev=$0} /^\[+\]/{exit} END{if (!found) print prev}' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Could not resolve host --> # Curl Failed to connect, usually Invalid URL\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           awk '/Could not resolve host/{print prev; print; found=1} {prev=$0} /^\[+\]/{exit} END{if (!found) print prev}' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Failed Installs
-           echo -e "\n\n[-] command not found --> # Something failed to Install\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           grep -in "command not found" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] command not found --> # Something failed to Install\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           grep -in "command not found" "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Dynamically Linked
-           echo -e "\n\n[-] Dynamically Linked --> # Not Statically Linked\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           grep -in "dynamically linked" "$GITHUB_WORKSPACE/main/x86_64_Linux/FILE.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Dynamically Linked --> # Not Statically Linked\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           grep -in "dynamically linked" "${GITHUB_WORKSPACE}/main/x86_64-Linux/FILE.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Not correct binary
-           echo -e "\n\n[-] Incorrect Arch --> # Not for x86_64\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           grep -ivn "x86-64\|text" "$GITHUB_WORKSPACE/main/x86_64_Linux/FILE.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Incorrect Arch --> # Not for x86_64\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           grep -ivn "x86-64\|text" "${GITHUB_WORKSPACE}/main/x86_64-Linux/FILE.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Broken Builds
-           echo -e "\n\n[-] No such file or directory # Usually Because Build Failures\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           grep -in "No such file or directory" "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD.BIN.log.txt" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] No such file or directory # Usually Because Build Failures\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           grep -in "No such file or directory" "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.BIN.log.txt" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #Empty Bins
-           echo -e "\n\n[-] Empty (0 Sized) Bins # Usually Because Symlinks\n" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
-           jq -r '.[] | select(.Size == "0 B") | "\(.Name) --> \(.Size)"' "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" >> "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e "\n\n[-] Empty (0 Sized) Bins # Usually Because Symlinks\n" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
+           jq -r '.[] | select(.Size == "0 B") | "\(.Name) --> \(.Size)"' "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
            #END
-           echo -e '```' "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_ERROR.log.md"
+           echo -e '```' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_ERROR.log.md"
         continue-on-error: true
 
       - name: Generate Markdown (Main README.md)
@@ -578,8 +578,8 @@ jobs:
           #GH ENV
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
-          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
-          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/aarch64-Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/x86_64-Linux"
           #-------------#
           mkdir -p "$HOME/bin"
           ##Setup rClone
@@ -656,7 +656,7 @@ jobs:
           chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
           dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
           bash "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/gen_meta.sh"
-          cd "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BINS.yaml"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins/" && yq ea '[.]' *.yaml > "${GITHUB_WORKSPACE}/main/aarch64-Linux/BINS.yaml"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -683,8 +683,8 @@ jobs:
           #GH ENV
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
-          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
-          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/aarch64-Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/x86_64-Linux"
           #-------------#
           mkdir -p "$HOME/bin"
           ##Setup rClone
@@ -761,7 +761,7 @@ jobs:
           chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
           dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
           bash "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/gen_meta.sh"
-          cd "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/x86_64_Linux/BINS.yaml"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/" && yq ea '[.]' *.yaml > "${GITHUB_WORKSPACE}/main/x86_64-Linux/BINS.yaml"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -788,8 +788,8 @@ jobs:
           #GH ENV
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
-          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
-          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/aarch64-Linux"
+          mkdir -p "${GITHUB_WORKSPACE}/main/x86_64-Linux"
           #-------------#
           mkdir -p "$HOME/bin"
           ##Setup rClone
@@ -851,11 +851,11 @@ jobs:
           set +x ; set +e
           #-------------#
           #aarch64_arm64_Linux
-          rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
-          #curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json"
+          rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.json" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          #curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json"
           #x86_64_Linux
-          rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
-          #curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json"
+          rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.json" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          #curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json"
         continue-on-error: true
 
       - name: Generate README (aarch64)
@@ -863,13 +863,13 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          if jq empty "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" 2>/dev/null; then
+          if jq empty "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" 2>/dev/null; then
              #Convert to YAML
-             cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" | yj -jy > cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.yaml"
+             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | yj -jy > cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.yaml"
              #Gen README
-             cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/DETAILED.md"
-             { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/README.md"
-             sed 's/||//g' -i "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/README.md"
+             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/DETAILED.md"
+             { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.md"
+             sed 's/||//g' -i "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.md"
           fi
         continue-on-error: true
 
@@ -878,13 +878,13 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          if jq empty "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" 2>/dev/null; then
+          if jq empty "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" 2>/dev/null; then
              #Convert to YAML
-             cat "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" | yj -jy > cat "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.yaml"
+             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | yj -jy > cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.yaml"
              #Gen README
-             cat "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "$GITHUB_WORKSPACE/main/x86_64_Linux/DETAILED.md"
-             { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "$GITHUB_WORKSPACE/main/x86_64_Linux/README.md"
-             sed 's/||//g' -i "$GITHUB_WORKSPACE/main/x86_64_Linux/README.md"
+             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/DETAILED.md"
+             { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.md"
+             sed 's/||//g' -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.md"
           fi   
         continue-on-error: true
 
@@ -895,16 +895,16 @@ jobs:
           #--------------#
           rclone copyto "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #Duplicates
-          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/DUPLICATES.txt"
+          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "${GITHUB_WORKSPACE}/main/aarch64-Linux/DUPLICATES.txt"
           #Duplicates (overwrites)
-          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          yq e '.[] | .bins[]' "${GITHUB_WORKSPACE}/main/aarch64-Linux/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
           readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
           for dupe in "${dupes[@]}"; do
-            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BINS.yaml" | paste -sd ' ')
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "${GITHUB_WORKSPACE}/main/aarch64-Linux/BINS.yaml" | paste -sd ' ')
             echo "$dupe --> $names_and_paths"
-          done | tee "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/DUPLICATES_OVERWRITES.txt"          
+          done | tee "${GITHUB_WORKSPACE}/main/aarch64-Linux/DUPLICATES_OVERWRITES.txt"          
           #Dates
-          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/BUILD_DATES.txt"
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_DATES.txt"
         continue-on-error: true
 
       - name: Check Health (x86_64_Linux)
@@ -914,16 +914,16 @@ jobs:
           #--------------#
           rclone copyto "r2:/bin/x86_64_Linux/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           #Duplicates
-          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/x86_64_Linux/DUPLICATES.txt"
+          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "${GITHUB_WORKSPACE}/main/x86_64-Linux/DUPLICATES.txt"
           #Duplicates (overwrites)
-          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/x86_64_Linux/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          yq e '.[] | .bins[]' "${GITHUB_WORKSPACE}/main/x86_64-Linux/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
           readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
           for dupe in "${dupes[@]}"; do
-            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/x86_64_Linux/BINS.yaml" | paste -sd ' ')
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "${GITHUB_WORKSPACE}/main/x86_64-Linux/BINS.yaml" | paste -sd ' ')
             echo "$dupe --> $names_and_paths"
-          done | tee "$GITHUB_WORKSPACE/main/x86_64_Linux/DUPLICATES_OVERWRITES.txt"
+          done | tee "${GITHUB_WORKSPACE}/main/x86_64-Linux/DUPLICATES_OVERWRITES.txt"
           #Dates
-          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_DATES.txt"
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_DATES.txt"
         continue-on-error: true
 
       - name: Get DateTime
