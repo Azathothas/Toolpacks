@@ -389,67 +389,7 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          #https://docs.github.com/en/rest/issues/issues
-          export DATE_CUTOFF="2024-00-00T00:00:00Z"
-          TEMP_ISSUES="$(mktemp -d)" && export TEMP_ISSUES="${TEMP_ISSUES}"
-          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
-          echo -e "\n[+] Using Temp Dir : ${TEMP_ISSUES}"
-          #Fetch: `static binary`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: Static Binary ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=static+binary+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          #Fetch: `static build`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: Static Build ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=static+build+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          wait ; echo
-          #Fetch: `static compile`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: Static Compile ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=static+compile+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          #Fetch: `musl binary`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: MUSL Binary ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=musl+binary+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          wait ; echo
-          #Fetch: `musl build`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: MUSL Build ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=musl+build+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          #Fetch: `musl compile`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: MUSL Compile ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=musl+compile+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          wait ; echo
-          #Fetch: `release binary`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: Release Binary ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=release+binary+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          #Fetch: `release static`
-          (for page in {1..10}; do
-              echo -e "\n[+] GH API: Release Binary ($page/10)\n"
-               curl -qfsSL -A "$USER_AGENT" "https://api.github.com/search/issues?q=release+static+state:open+is:issue&filter=all&since=${DATE_CUTOFF}&sort=created&direction=desc&per_page=100&page=$page" -H "Authorization: Bearer ${GITHUB_TOKEN}" | jq -r '.items | sort_by(.created_at)[] | "\(.created_at // "NA") \(.title // "NA") --> \(.html_url // "NA") (\(.user.login // "NA"))"' | tee -a "${TEMP_ISSUES}/$(openssl rand -hex 3).txt"
-               sleep 2
-          done) &
-          wait ; echo
-          #Sort
-          find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --unique --reverse -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
-          #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --numeric-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
-          #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --version-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks/refs/heads/main/.github/scripts/scrape_pub_issues.sh")
         continue-on-error: true
         
       - name: Get DateTime
@@ -484,9 +424,9 @@ jobs:
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
           #--------------------#
           ##aarch64_arm64_Linux##
-          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_aarch64_arm64_Linux" &
+          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bsum|capnp|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|xml|xz|zip|zstd)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Path)", extra_bins, pkg_family, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_aarch64_arm64_Linux" &
           ##x86_64_Linux##
-          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x86_64_Linux" &
+          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bsum|capnp|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|xml|xz|zip|zstd)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/\(.Path)", extra_bins, pkg_family, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x86_64_Linux" &
           ##Clean Pretty Formatted
           wait ; echo
           echo "[" $(cat metadata.json.tmp_aarch64_arm64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_aarch64_arm64_Linux" &
@@ -519,9 +459,9 @@ jobs:
           ##Enrich
           wait ; echo
           ##aarch64_arm64_Linux##
-          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
+          rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bsum|capnp|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|xml|xz|zip|zstd)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)", extra_bins, pkg_family, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
           ##x86_64_Linux##
-          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x86_64_Linux" &
+          rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bsum|capnp|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|xml|xz|zip|zstd)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)", extra_bins, pkg_family, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x86_64_Linux" &
           ##Clean
           wait ; echo 
           sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
@@ -865,7 +805,7 @@ jobs:
           #-------------#
           if jq empty "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" 2>/dev/null; then
              #Convert to YAML
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | yj -jy > cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.yaml"
+             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | yj -jy > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.yaml"
              #Gen README
              cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/DETAILED.md"
              { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.md"
@@ -880,7 +820,7 @@ jobs:
           #-------------#
           if jq empty "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" 2>/dev/null; then
              #Convert to YAML
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | yj -jy > cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.yaml"
+             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | yj -jy > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.yaml"
              #Gen README
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/DETAILED.md"
              { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.md"
