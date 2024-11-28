@@ -5,7 +5,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron: "15 0 * * *" #12:15 AM UTC --> 06:00 AM NPT
+    - cron: "15 0 * * 1" #12:15 AM UTC --> 06:00 AM NPT Tue
 
 jobs:
   linkChecker:
