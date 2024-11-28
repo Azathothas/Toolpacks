@@ -45,6 +45,8 @@ jobs:
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
           mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
@@ -141,7 +143,11 @@ jobs:
           #--------------#
           cd "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins"
           find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins"
+          find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
           cd "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins"
+          find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins"
           find . -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
         continue-on-error: true
 
@@ -196,7 +202,9 @@ jobs:
           #Del Bloat
           rm -rf "$(pwd)/.git"
           # rm -rf "$(pwd)/aarch64_arm64_Linux"
+          # rm -rf "$(pwd)/arm64_v8a_Android"
           # rm -rf "$(pwd)/x86_64_Linux"
+          # rm -rf "$(pwd)/x64_Windows"
           #Upload to Pub
           wait ; echo
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
@@ -205,22 +213,52 @@ jobs:
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
           ##Scripts_aarch64_Linux
           rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/" --exclude="*.yaml" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/\(.Path)"}' | jq . > "./metadata.json.tmp_aarch64_Linux" &
+          ##Scripts_arm64_v8a_Android
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/" --exclude="*.yaml" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/\(.Path)"}' | jq . > "./metadata.json.tmp_arm64_v8a_Android" &
           ##Scripts_x86_64_Linux
           rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/" --exclude="*.yaml" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/\(.Path)"}' | jq . > "./metadata.json.tmp_x86_64_Linux" &
+          ##Scripts_x64_Windows
+          rclone lsjson --fast-list "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/" --exclude="*.yaml" | jq -r 'include "./to_human_bytes" ; .[] | select(.IsDir == false) | {name: (.Name), update_date: (.ModTime | split(".")[0]), source_url: "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/\(.Path)"}' | jq . > "./metadata.json.tmp_x64_Windows" &
           ##Clean Pretty Formatted
           wait ; echo
           echo "[" $(cat metadata.json.tmp_aarch64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_aarch64_Linux" &
+          echo "[" $(cat metadata.json.tmp_arm64_v8a_Android | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_arm64_v8a_Android" &
           echo "[" $(cat metadata.json.tmp_x86_64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x86_64_Linux" &
+          echo "[" $(cat metadata.json.tmp_x64_Windows | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x64_Windows" &
           ##Update Metadata
           wait ; echo
           rclone copyto --checksum "./metadata.json_aarch64_Linux" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json" &
+          rclone copyto --checksum "./metadata.json_arm64_v8a_Android" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/arm64_v8a_Android/bins/metadata.json" &
           rclone copyto --checksum "./metadata.json_x86_64_Linux" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json" &
+          rclone copyto --checksum "./metadata.json_x64_Windows" "r2:/pub/repos/Azathothas/Toolpacks/.github/scripts/x64_Windows/bins/metadata.json" &
           ##Update Repo
           wait ; echo
           cat "./metadata.json_aarch64_Linux" > "$GITHUB_WORKSPACE/main/.github/scripts/aarch64_Linux/bins/metadata.json"
+          cat "./metadata.json_arm64_v8a_Android" > "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins/metadata.json"  
           cat "./metadata.json_x86_64_Linux" > "$GITHUB_WORKSPACE/main/.github/scripts/x86_64_Linux/bins/metadata.json"
+          cat "./metadata.json_x64_Windows" > "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins/metadata.json"  
         continue-on-error: true
 #------------------------------------------------------------------------------------#
+#-----------------------------------------------------#        
+#-----------------------------------------------------#
+      - name: Parse ("bin.ajam.dev/arm64_v8a_Android/") Bins
+        run: |
+           #Presets
+           set +x ; set +e
+           #--------------#
+           #Fetch from r2
+           #Copy to $GITHUB_WORKSPACE/main/arm64_v8a_Android
+           rclone copyto --checksum "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BLAKE3SUM.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/arm64_v8a_Android/FILE.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/FILE.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/arm64_v8a_Android/SIZE.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.txt" 2>/dev/null
+           echo '```mathematica' > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.md" 2>/dev/null
+           cat "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.txt" >> "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.md" 2>/dev/null
+           echo '```' >> "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SIZE.md" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/SHA256SUM.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/arm64_v8a_Android/METADATA.json" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" 2>/dev/null
+        continue-on-error: true
+#-----------------------------------------------------#
+#-----------------------------------------------------#
       - name: Parse ("bin.ajam.dev/aarch64_arm64_Linux/") Bins
         run: |
            #Presets
@@ -261,6 +299,24 @@ jobs:
            echo '```' >> "$GITHUB_WORKSPACE/main/x86_64_Linux/SIZE.md" 2>/dev/null
            rclone copyto --checksum "r2:/bin/x86_64_Linux/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/x86_64_Linux/SHA256SUM.txt" 2>/dev/null
         continue-on-error: true
+#-----------------------------------------------------#
+#-----------------------------------------------------#
+      - name: Parse ("bin.ajam.dev/x64_Windows/") Bins
+        run: |
+           #Presets
+           set +x ; set +e
+           #--------------#
+           #Fetch from r2
+           #Copy to $GITHUB_WORKSPACE/main/x64_Windows
+           rclone copyto --checksum "r2:/bin/x64_Windows/BLAKE3SUM.txt" "$GITHUB_WORKSPACE/main/x64_Windows/BLAKE3SUM.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x64_Windows/FILE.txt" "$GITHUB_WORKSPACE/main/x64_Windows/FILE.txt" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x64_Windows/SIZE.txt" "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.txt" 2>/dev/null
+           echo '```mathematica' > "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.md" 2>/dev/null
+           cat "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.txt" >> "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.md" 2>/dev/null
+           echo '```' >> "$GITHUB_WORKSPACE/main/x64_Windows/SIZE.md" 2>/dev/null
+           rclone copyto --checksum "r2:/bin/x64_Windows/SHA256SUM.txt" "$GITHUB_WORKSPACE/main/x64_Windows/SHA256SUM.txt" 2>/dev/null
+        continue-on-error: true
+#-----------------------------------------------------#
 #------------------------------------------------------------------------------------#
       - name: Generate Repo Metadata (git-sizer)
         run: |
@@ -451,6 +507,35 @@ jobs:
           #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --numeric-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
           #find "${TEMP_ISSUES}" -name "*.txt" -exec cat {} + | grep '^[0-9]' | grep -v '\[bot\])' | sort --version-sort --reverse --unique -o "$GITHUB_WORKSPACE/main/.github/pub_issues.txt"
         continue-on-error: true
+
+      #- name: Ensure Healthy Commit Nums (RESET ON >= 1000)
+      #  run: |
+      #    #Presets
+      #    set +x ; set +e
+      #    #--------------#
+      #    pushd "$(mktemp -d)" > /dev/null 2>&1 && git clone --filter="blob:none" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY"
+      #    cd "$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})"
+      #    CLONED_DIR="$(realpath .)" && export CLONED_DIR="$CLONED_DIR"
+      #    COMMIT_NUMS="$(git rev-list --count HEAD)" && export COMMIT_NUMS="$COMMIT_NUMS"
+      #    popd > /dev/null 2>&1 ; rm -rf "$CLONED_DIR" 2>/dev/null
+      #    cd "$GITHUB_WORKSPACE/main"
+      #    if [ "$COMMIT_NUMS" -gt 1000 ]; then
+      #        echo -e "\n[+] Total number of commits exceeds 1000. ($COMMIT_NUMS)\n"
+      #        cd "$GITHUB_WORKSPACE/main"
+      #        git config "user.name" "Azathothas"
+      #        git config "user.email" "AjamX101@gmail.com"
+      #        git checkout --orphan temp
+      #        git add --all --verbose && git commit -m "Purge (Re:Init)"
+      #        git branch -D "main"
+      #        git branch -m "main"
+      #        git push --set-upstream origin main --force
+      #        echo "RESET_HISTORY=YES" >> "$GITHUB_ENV"
+      #    else
+      #        echo -e "\n[+] Total number of commits looks healthy. ($COMMIT_NUMS)\n"
+      #        echo "RESET_HISTORY=NO" >> "$GITHUB_ENV"
+      #    fi
+      #    pushd "$GITHUB_WORKSPACE/main" >/dev/null 2>&1 && git pull origin main && popd >/dev/null 2>&1
+      #  continue-on-error: true
         
       - name: Get DateTime
         run: |
@@ -483,17 +568,25 @@ jobs:
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
           #--------------------#
+          ##arm64_v8a_Android##
+          rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/arm64_v8a_Android/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_arm64_v8a_Android" &
           ##aarch64_arm64_Linux##
           rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_aarch64_arm64_Linux" &
           ##x86_64_Linux##
           rclone lsjson --fast-list "r2:/bin/x86_64_Linux/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x86_64_Linux" &
+          ##x64_Windows##
+          rclone lsjson --fast-list "r2:/bin/x64_Windows/" | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x64_Windows/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata.json.tmp_x64_Windows" &
           ##Clean Pretty Formatted
           wait ; echo
+          echo "[" $(cat metadata.json.tmp_arm64_v8a_Android | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_arm64_v8a_Android" &
           echo "[" $(cat metadata.json.tmp_aarch64_arm64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_aarch64_arm64_Linux" &
           echo "[" $(cat metadata.json.tmp_x86_64_Linux | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x86_64_Linux" &
+          echo "[" $(cat metadata.json.tmp_x64_Windows | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "./metadata.json_x64_Windows" &
           ##Update Metadata
+          rclone copyto --checksum "./metadata.json_arm64_v8a_Android" "r2:/bin/arm64_v8a_Android/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
           rclone copyto --checksum "./metadata.json_aarch64_arm64_Linux" "r2:/bin/aarch64_arm64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
           rclone copyto --checksum "./metadata.json_x86_64_Linux" "r2:/bin/x86_64_Linux/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
+          rclone copyto --checksum "./metadata.json_x64_Windows" "r2:/bin/x64_Windows/METADATA.json.tmp" --check-first --checkers 2000 --transfers 1000 --progress &
           wait ; echo
         continue-on-error: true          
 
@@ -507,32 +600,47 @@ jobs:
           #Get JQ Module to convert size : https://users.aalto.fi/~tontti/posts/jq-and-human-readable-bytes/
           curl -qfsSL "https://pub.ajam.dev/utils/devscripts/jq/to_human_bytes.jq" -o "./to_human_bytes.jq"
           #--------------------#
+          ##arm64_v8a_Android##
+          rclone copy "r2:/bin/arm64_v8a_Android/Baseutils/" "./metadata_Baseutils_arm64_v8a_Android_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
           ##aarch64_arm64_Linux##
           rclone copy "r2:/bin/aarch64_arm64_Linux/Baseutils/" "./metadata_Baseutils_aarch64_arm64_Linux_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
           ##x86_64_Linux##
           rclone copy "r2:/bin/x86_64_Linux/Baseutils/" "./metadata_Baseutils_x86_64_Linux_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
+          ##x64_Windows##
+          rclone copy "r2:/bin/x64_Windows/Baseutils/" "./metadata_Baseutils_x64_Windows_TEMP_JSON/" --include="INFO.json" --user-agent="$USER_AGENT" --buffer-size="10M" --s3-upload-concurrency="50" --s3-chunk-size="10M" --multi-thread-streams="50" --checkers="2000" --transfers="100" --retries="10" --check-first --checksum --copy-links --fast-list --progress &
           ##Merge (INFO)
           wait ; echo
+          find "./metadata_Baseutils_arm64_v8a_Android_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_arm64_v8a_Android_INFO_ALL.json" &
           ##aarch64_arm64_Linux##
           find "./metadata_Baseutils_aarch64_arm64_Linux_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_aarch64_arm64_Linux_INFO_ALL.json" &
           find "./metadata_Baseutils_x86_64_Linux_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_x86_64_Linux_INFO_ALL.json" &
+          find "./metadata_Baseutils_x64_Windows_TEMP_JSON/" -iname "INFO.json" -exec jq -c '.[]' {} \; > "./metadata_Baseutils_x64_Windows_INFO_ALL.json" &
           ##Enrich
           wait ; echo
+          rclone lsjson --fast-list "r2:/bin/arm64_v8a_Android/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_arm64_v8a_Android" &
           ##aarch64_arm64_Linux##
           rclone lsjson --fast-list "r2:/bin/aarch64_arm64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
           ##x86_64_Linux##
           rclone lsjson --fast-list "r2:/bin/x86_64_Linux/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x86_64_Linux/Baseutils/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x86_64_Linux" &
+          ##x64_Windows##
+          rclone lsjson --fast-list "r2:/bin/x64_Windows/Baseutils/" --files-only | jq -r 'include "./to_human_bytes" ; .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(7z|ascii|bz2|gz|jq|json|log|md|png|rar|svg|tar|tgz|tmp|txt|upx|zip)$") | not)) | {name: (.Name), build_date: (.ModTime | split(".")[0]), build_log, build_script, b3sum, description, download_url: "https://bin.ajam.dev/x64_Windows/Baseutils/\(.Path)", extra_bins, note, sha256, size: (.Size | tonumber | bytes), repo_url, web_url}' | jq -s 'sort_by(.name)' | jq '.[]' > "./metadata_Baseutils.json.tmp_x64_Windows" &
           ##Clean
           wait ; echo 
+          sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_arm64_v8a_Android" &
           sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" &
           sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_x86_64_Linux" &
+          sed -i 's/: null/: ""/g' "./metadata_Baseutils.json.tmp_x64_Windows" &
           ##Merge (ALL)
           wait ; echo
+          jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_arm64_v8a_Android" "./metadata_Baseutils_arm64_v8a_Android_INFO_ALL.json" > "./metadata_Baseutils.json_arm64_v8a_Android" &
           jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_aarch64_arm64_Linux" "./metadata_Baseutils_aarch64_arm64_Linux_INFO_ALL.json" > "./metadata_Baseutils.json_aarch64_arm64_Linux" &
           jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_x86_64_Linux" "./metadata_Baseutils_x86_64_Linux_INFO_ALL.json" > "./metadata_Baseutils.json_x86_64_Linux" &
+          jq -s 'sort_by(.download_url)' "./metadata_Baseutils.json.tmp_x64_Windows" "./metadata_Baseutils_x64_Windows_INFO_ALL.json" > "./metadata_Baseutils.json_x64_Windows" &
           ##Update
+          rclone copyto --checksum "./metadata_Baseutils.json_arm64_v8a_Android" "r2:/bin/arm64_v8a_Android/Baseutils/METADATA.json" &
           rclone copyto --checksum "./metadata_Baseutils.json_aarch64_arm64_Linux" "r2:/bin/aarch64_arm64_Linux/Baseutils/METADATA.json" &
           rclone copyto --checksum "./metadata_Baseutils.json_x86_64_Linux" "r2:/bin/x86_64_Linux/Baseutils/METADATA.json" &
+          rclone copyto --checksum "./metadata_Baseutils.json_x64_Windows" "r2:/bin/x64_Windows/Baseutils/METADATA.json" &
           wait ; echo
         continue-on-error: true
 #------------------------------------------------------------------------------------#
@@ -552,6 +660,113 @@ jobs:
           #Upload to Pub
           echo -e "[+] Syncing $GITHUB_REPOSITORY to pub.ajam.dev/repos/$GITHUB_REPOSITORY \n"
           rclone sync "." "r2:/pub/repos/$GITHUB_REPOSITORY/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  enrich-arm64v8a-Android:
+    runs-on: ubuntu-latest
+    needs: [check-post]
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set +x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          #GH Dirs
+          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          #-------------#
+          mkdir -p "$HOME/bin"
+          ##Setup rClone
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
+          sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
+          sudo sed 's/#user_allow_other/user_allow_other/g' -i "/etc/fuse.conf"
+        continue-on-error: true
+
+      - name: rClone Check Metadata (bin.ajam.dev/arm64_v8a_Android)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          BINDIR="${SYSTMP}/toolpack_arm64_v8a_Android" && export BINDIR="${BINDIR}"
+          mkdir -p "${BINDIR}"
+          rclone mount "r2:/bin/arm64_v8a_Android/" "${BINDIR}" \
+          --daemon \
+          --allow-other \
+          --no-modtime \
+          --read-only \
+          --attr-timeout 15s \
+          --checkers 100 \
+          --buffer-size 512M \
+          --dir-cache-time 5m \
+          --low-level-retries 10 \
+          --multi-thread-streams 16 \
+          --poll-interval 15s \
+          --transfers 16 \
+          --vfs-read-wait 0 \
+          --vfs-cache-mode full \
+          --vfs-cache-max-size 20G \
+          --vfs-cache-poll-interval 15s \
+          --vfs-read-chunk-size 128M \
+          --vfs-read-chunk-size-limit off \
+          --user-agent="${USER_AGENT}" ; df -h
+          #File
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs file | sed 's/^.\///' > "${SYSTMP}/arm64_v8a_Android_FILE"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_FILE" "r2:/bin/arm64_v8a_Android/FILE.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Size (Dust)
+          dust --depth 1 -v '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "${BINDIR}" | tee "${SYSTMP}/arm64_v8a_Android_SIZE.txt"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_SIZE.txt" "r2:/bin/arm64_v8a_Android/SIZE.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #BLAKE3SUM
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs b3sum | sed 's/\.\///g' > "${SYSTMP}/arm64_v8a_Android_BLAKE3SUM"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_BLAKE3SUM" "r2:/bin/arm64_v8a_Android/BLAKE3SUM.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #SHA256SUM
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f | grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs sha256sum | sed 's/\.\///g' > "${SYSTMP}/arm64_v8a_Android_SHA256SUM"
+          rclone copyto "${SYSTMP}/arm64_v8a_Android_SHA256SUM" "r2:/bin/arm64_v8a_Android/SHA256SUM.txt" --user-agent="${USER_AGENT}" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          ##Purge
+          #rm -rf "${BINDIR}"
+          sudo fusermount3 -uz "${BINDIR}" ; df -h
+        continue-on-error: true
+
+      - name: rClone Enrich Metadata (bin.ajam.dev/arm64_v8a_Android)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          ##Run
+          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
+          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/gen_meta.sh"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/arm64_v8a_Android/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BINS.yaml"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -579,6 +794,8 @@ jobs:
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
           mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
@@ -684,6 +901,8 @@ jobs:
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
           mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
@@ -765,9 +984,119 @@ jobs:
         continue-on-error: true
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+  enrich-x64-Windows:
+    runs-on: ubuntu-latest
+    needs: [check-post]
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none" #https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/
+
+      - name: Setup Env
+        run: |
+          #presets
+          set +x ; set +e
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="$SYSTMP"
+          #GH ENV
+          echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
+          #GH Dirs
+          mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
+          mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
+          #-------------#
+          mkdir -p "$HOME/bin"
+          ##Setup rClone
+          mkdir -p "$HOME/.config/rclone"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.config/rclone/rclone.conf"
+          export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "$GITHUB_ENV"
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
+          echo "USER_AGENT=$USER_AGENT" >> "$GITHUB_ENV"
+        continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
+          sudo apt-get update -y -qq && sudo apt-get install kmod -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install fuse3 -y -qq
+          sudo apt-get update -y -qq && sudo apt-get install libfuse3-dev -y -qq
+          sudo sed 's/#user_allow_other/user_allow_other/g' -i "/etc/fuse.conf"          
+        continue-on-error: true
+
+      - name: rClone Check Metadata (bin.ajam.dev/x64_Windows)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          BINDIR="${SYSTMP}/toolpack_x86_64" && export BINDIR="${BINDIR}"
+          mkdir -p "${BINDIR}"
+          rclone mount "r2:/bin/x64_Windows/" "${BINDIR}" \
+          --daemon \
+          --allow-other \
+          --no-modtime \
+          --read-only \
+          --attr-timeout 15s \
+          --checkers 100 \
+          --buffer-size 512M \
+          --dir-cache-time 5m \
+          --low-level-retries 10 \
+          --multi-thread-streams 16 \
+          --poll-interval 15s \
+          --transfers 16 \
+          --vfs-read-wait 0 \
+          --vfs-cache-mode full \
+          --vfs-cache-max-size 20G \
+          --vfs-cache-poll-interval 15s \
+          --vfs-read-chunk-size 128M \
+          --vfs-read-chunk-size-limit off \
+          --user-agent="${USER_AGENT}" ; df -h
+          #File
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f |  grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs file | sed 's/^.\///' > "${SYSTMP}/x64_Windows_FILE"
+          rclone copyto "${SYSTMP}/x64_Windows_FILE" "r2:/bin/x64_Windows/FILE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Size (Dust)
+          dust --depth 1 -v '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' --only-file --no-percent-bars --no-colors --ignore_hidden --reverse --number-of-lines 99999999 "${BINDIR}" | tee "${SYSTMP}/x64_Windows_SIZE.txt"
+          rclone copyto "${SYSTMP}/x64_Windows_SIZE.txt" "r2:/bin/x64_Windows/SIZE.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #BLAKE3SUM
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f |  grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs b3sum | sed 's/\.\///g' > "${SYSTMP}/x64_Windows_BLAKE3SUM"
+          rclone copyto "${SYSTMP}/x64_Windows_BLAKE3SUM" "r2:/bin/x64_Windows/BLAKE3SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #SHA256SUM
+          cd "${BINDIR}" && find "./" -maxdepth 1 -type f |  grep -v -E '\.7z$|\.gz$|\.jq$|\.json$|\.log$|\.md$|\.tar$|\.tgz$|\.tmp$|\.txt$|\.upx$|\.zip$|Baseutils/' | sort | xargs sha256sum | sed 's/\.\///g' > "${SYSTMP}/x64_Windows_SHA256SUM"
+          rclone copyto "${SYSTMP}/x64_Windows_SHA256SUM" "r2:/bin/x64_Windows/SHA256SUM.txt" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          ##Purge
+          #rm -rf "${BINDIR}"
+          sudo fusermount3 -uz "${BINDIR}" ; df -h
+        continue-on-error: true
+        
+      - name: rClone Enrich Metadata (bin.ajam.dev/x64_Windows)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          ##Run
+          chmod +x "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
+          dos2unix --quiet "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
+          bash "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/gen_meta.sh"
+          cd "$GITHUB_WORKSPACE/main/.github/scripts/x64_Windows/bins/" && yq ea '[.]' *.yaml > "$GITHUB_WORKSPACE/main/x64_Windows/BINS.yaml"
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
+
+#------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------#
   merge-all:
     runs-on: ubuntu-latest
-    needs: [enrich-arm64-Linux, enrich-x86-64-Linux]
+    needs: [enrich-arm64v8a-Android, enrich-arm64-Linux, enrich-x86-64-Linux, enrich-x64-Windows]
     permissions:
       contents: write
           
@@ -789,6 +1118,8 @@ jobs:
           echo "SYSTMP=$SYSTMP" >> "$GITHUB_ENV"
           #GH Dirs
           mkdir -p "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux"
+          mkdir -p "$GITHUB_WORKSPACE/main/arm64_v8a_Android"
+          mkdir -p "$GITHUB_WORKSPACE/main/x64_Windows"
           mkdir -p "$GITHUB_WORKSPACE/main/x86_64_Linux"
           #-------------#
           mkdir -p "$HOME/bin"
@@ -815,6 +1146,10 @@ jobs:
           set +x ; set +e
           #-------------#
           ##Fetch
+          #arm64_v8a_Android
+          curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$SYSTMP/METADATA.json" || echo '{}' > "$SYSTMP/METADATA.json"
+          curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
+          jq -n --slurpfile baseutils "$SYSTMP/Baseutils.json" '{ main: input, baseutils: $baseutils[0] }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/arm64_v8a_Android.json"
           #aarch64_arm64_Linux
           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$SYSTMP/METADATA.json" || echo '{}' > "$SYSTMP/METADATA.json"
           curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
@@ -825,9 +1160,14 @@ jobs:
           curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
           #cat "$SYSTMP/Baseutils.json" | jq -n --argjson baseutils "$(jq -n 'input')" '{ main: input, baseutils: $baseutils }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x86_64_Linux.json"
           jq -n --slurpfile baseutils "$SYSTMP/Baseutils.json" '{ main: input, baseutils: $baseutils[0] }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x86_64_Linux.json"
+          #x64_Windows
+          curl -qfsSL "https://bin.ajam.dev/x64_Windows/METADATA.json" -o "$SYSTMP/METADATA.json" || echo '{}' > "$SYSTMP/METADATA.json"
+          curl -qfsSL "https://bin.ajam.dev/x64_Windows/Baseutils/METADATA.json" -o "$SYSTMP/Baseutils.json" || echo '{}' > "$SYSTMP/Baseutils.json"
+          jq -n --slurpfile baseutils "$SYSTMP/Baseutils.json" '{ main: input, baseutils: $baseutils[0] }' "$SYSTMP/METADATA.json" | jq -s . > "$SYSTMP/x64_Windows.json"
           ##Merge
-          if jq empty "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" 2>/dev/null; then
-             jq -s '[{ "host": "aarch64-Linux" } + .[0][], { "host": "x86_64-Linux" } + .[1][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" | jq 'sort_by(.host)' > "$SYSTMP/METADATA.json"
+          if jq empty "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" 2>/dev/null; then
+             #jq -s '[{ "host": "aarch64-Linux" } + .[0][]], [{ "host": "x86_64-Linux" } + .[1][]], [{ "host": "arm64-v8a-Android" } + .[2][]], [{ "host": "AMD64-Windows_NT" } + .[3][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq 'sort_by(.host)' > "$SYSTMP/METADATA.json"
+             jq -s '[{ "host": "aarch64-Linux" } + .[0][], { "host": "x86_64-Linux" } + .[1][], { "host": "arm64-v8a-Android" } + .[2][], { "host": "AMD64-Windows_NT" } + .[3][]]' "$SYSTMP/aarch64_arm64_Linux.json" "$SYSTMP/x86_64_Linux.json" "$SYSTMP/arm64_v8a_Android.json" "$SYSTMP/x64_Windows.json" | jq 'sort_by(.host)' > "$SYSTMP/METADATA.json"
              if jq empty "$SYSTMP/METADATA.json" 2>/dev/null; then
                ##rClone Update
                echo -e "\n Updating Metadata.json\n"
@@ -850,12 +1190,17 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
+          #arm64_v8a_Android
+          rclone copyto --checksum "r2:/bin/arm64_v8a_Android/METADATA.json" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          #curl -qfsSL "https://bin.ajam.dev/arm64_v8a_Android/METADATA.json" -o "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json"          
           #aarch64_arm64_Linux
           rclone copyto --checksum "r2:/bin/aarch64_arm64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           #curl -qfsSL "https://bin.ajam.dev/aarch64_arm64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json"
           #x86_64_Linux
           rclone copyto --checksum "r2:/bin/x86_64_Linux/METADATA.json" "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
           #curl -qfsSL "https://bin.ajam.dev/x86_64_Linux/METADATA.json" -o "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json"
+          #x64_Windows
+          rclone copyto --checksum "r2:/bin/x64_Windows/METADATA.json" "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.json" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 
       - name: Generate README (aarch64)
@@ -870,7 +1215,22 @@ jobs:
              cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/DETAILED.md"
              { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/README.md"
              sed 's/||//g' -i "$GITHUB_WORKSPACE/main/aarch64_arm64_Linux/README.md"
-          fi
+          fi   
+        continue-on-error: true
+
+      - name: Generate README (arm64-v8a)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          if jq empty "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" 2>/dev/null; then
+             #Convert to YAML
+             cat "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" | yj -jy > cat "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.yaml"
+             #Gen README
+             cat "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/DETAILED.md"
+             { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "$GITHUB_WORKSPACE/main/arm64_v8a_Android/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/README.md"
+             sed 's/||//g' -i "$GITHUB_WORKSPACE/main/arm64_v8a_Android/README.md"
+          fi             
         continue-on-error: true
 
       - name: Generate README (x86_64)
@@ -886,6 +1246,40 @@ jobs:
              { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "$GITHUB_WORKSPACE/main/x86_64_Linux/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "$GITHUB_WORKSPACE/main/x86_64_Linux/README.md"
              sed 's/||//g' -i "$GITHUB_WORKSPACE/main/x86_64_Linux/README.md"
           fi   
+        continue-on-error: true
+
+      - name: Generate README (X64-Windows)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          if jq empty "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.json" 2>/dev/null; then
+             #Convert to YAML
+             cat "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.json" | yj -jy > cat "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.yaml"
+             #Gen README
+             cat "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.json" | jq -r '.[] | "### \(.name // "" | if . == null or . == "" then "" else . end)\n- **Log:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Script:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Description:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Author:** \(.repo_author // "" | if . == null or . == "" then "" else . end)\n- **WebURL:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Repository:** [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end))\n- **Stars:** \(.repo_stars // "" | if . == null or . == "" then "" else . end)\n- **Version:** \(.repo_version // "" | if . == null or . == "" then "" else . end)\n- **Updated:** \(.repo_updated // "" | if . == null or . == "" then "" else . end)\n- **Size:** \(.size // "" | if . == null or . == "" then "" else . end)\n- **SHA256SUM:** \(.sha256 // "" | if . == null or . == "" then "" else . end)\n- **B3SUM:** \(.b3sum // "" | if . == null or . == "" then "" else . end)\n- **Source:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Language:** \(.repo_language // "" | if . == null or . == "" then "" else . end)\n- **License:** \(.repo_license // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "$GITHUB_WORKSPACE/main/x64_Windows/DETAILED.md"
+             { echo "| Name | Description | Author | WebURL | Repository | Stars | Version | Updated | Size | SHA256SUM | B3SUM | Source | Language | License |" ; echo "| ---- | ----------- | ------ | ------ | ---------- | ----- | ------- | ------- | ---- | --- | ------|------ | -------- | ------- |" ; cat "$GITHUB_WORKSPACE/main/x64_Windows/METADATA.json" | jq -r '.[] | "| \(.name // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.repo_author // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.repo_url // "" | if . == null or . == "" then "" else . end)](\(.repo_url // "" | if . == null or . == "" then "" else . end)) | \(.repo_stars // "" | if . == null or . == "" then "" else . end) | \(.repo_version // "" | if . == null or . == "" then "" else . end) | \(.repo_updated // "" | if . == null or . == "" then "" else . end) | \(.repo_size // "" | if . == null or . == "" then "" else . end) | \(.sha256 // "" | if . == null or . == "" then "" else . end) | \(.b3sum // "" | if . == null or . == "" then "" else . end) | \(.download_url // "" | if . == null or . == "" then "" else . end) | \(.repo_language // "" | if . == null or . == "" then "" else . end) | \(.repo_license // "" | if . == null or . == "" then "" else . end) |"' ; } > "$GITHUB_WORKSPACE/main/x64_Windows/README.md"
+             sed 's/||//g' -i "$GITHUB_WORKSPACE/main/x64_Windows/README.md"
+          fi   
+        continue-on-error: true
+
+      - name: Check Health (arm64_v8a_Android)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          rclone copyto "r2:/bin/arm64_v8a_Android/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Duplicates
+          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/DUPLICATES.txt"
+          #Duplicates (overwrites)
+          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
+          for dupe in "${dupes[@]}"; do
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BINS.yaml" | paste -sd ' ')
+            echo "$dupe --> $names_and_paths"
+          done | tee "$GITHUB_WORKSPACE/main/arm64_v8a_Android/DUPLICATES_OVERWRITES.txt"          
+          #Dates
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/arm64_v8a_Android/BUILD_DATES.txt"
         continue-on-error: true
 
       - name: Check Health (aarch64_arm64_Linux)
@@ -924,6 +1318,25 @@ jobs:
           done | tee "$GITHUB_WORKSPACE/main/x86_64_Linux/DUPLICATES_OVERWRITES.txt"
           #Dates
           jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/x86_64_Linux/BUILD_DATES.txt"
+        continue-on-error: true
+
+      - name: Check Health (x64_Windows)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          rclone copyto "r2:/bin/x64_Windows/METADATA.json" "$SYSTMP/METADATA.json" --user-agent="$USER_AGENT" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+          #Duplicates
+          jq -r 'group_by(.b3sum, .sha256) | map(select(length > 1)) | map( map("Name: \(.name)\nDESCR: \(.description)\nDownload URL: \(.download_url)\nREPO: \(.repo_url)\nWeb URL: \(.web_url)\n"),"---------------------") | flatten[]' "$SYSTMP/METADATA.json" > "$GITHUB_WORKSPACE/main/x64_Windows/DUPLICATES.txt"
+          #Duplicates (overwrites)
+          yq e '.[] | .bins[]' "$GITHUB_WORKSPACE/main/x64_Windows/BINS.yaml" | sort | uniq -c | awk '$1 > 1 {print $2}' > "$SYSTMP/duplicate_bins.txt"
+          readarray -t dupes < "$SYSTMP/duplicate_bins.txt"
+          for dupe in "${dupes[@]}"; do
+            names_and_paths=$(yq e ".[] | select(.bins[] == \"$dupe\") | .name + \" (\(.path))\"" "$GITHUB_WORKSPACE/main/x64_Windows/BINS.yaml" | paste -sd ' ')
+            echo "$dupe --> $names_and_paths"
+          done | tee "$GITHUB_WORKSPACE/main/x64_Windows/DUPLICATES_OVERWRITES.txt"          
+          #Dates
+          jq -r '.[] | "\(.build_date) --> [\(.name) \(.repo_info) (\(.repo_updated))]"' "$SYSTMP/METADATA.json" | sort --numeric-sort > "$GITHUB_WORKSPACE/main/x64_Windows/BUILD_DATES.txt"
         continue-on-error: true
 
       - name: Get DateTime
