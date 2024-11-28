@@ -1,5 +1,5 @@
 375M └─┬ main
-180M   ├─┬ x86_64_Linux
+180M   ├─┬ x86_64-Linux
  98M   │ ├── BUILD.log.txt
  60M   │ ├── BUILD.BIN.log.txt
 5.0M   │ ├── METADATA.AIO.json
@@ -19,7 +19,7 @@
  20K   │ ├── DUPLICATES.txt
 4.0K   │ ├── METADATA.urls
   0B   │ └── DUPLICATES_OVERWRITES.txt
-174M   ├─┬ aarch64_arm64_Linux
+174M   ├─┬ aarch64-Linux
  91M   │ ├── BUILD.log.txt
  62M   │ ├── BUILD.BIN.log.txt
 4.8M   │ ├── METADATA.AIO.json
@@ -41,30 +41,31 @@
   0B   │ └── DUPLICATES_OVERWRITES.txt
  10M   ├── METADATA.json
 9.5M   ├── METADATA.yaml
-548K   ├─┬ x64_Windows
-232K   │ ├── METADATA.json
-132K   │ ├── DETAILED.md
- 72K   │ ├── README.md
- 28K   │ ├── FILE.txt
- 20K   │ ├── SHA256SUM.txt
- 20K   │ ├── BUILD_DATES.txt
- 20K   │ ├── BLAKE3SUM.txt
-8.0K   │ ├── SIZE.txt
-8.0K   │ ├── SIZE.md
-4.0K   │ ├── DUPLICATES.txt
-  0B   │ └── DUPLICATES_OVERWRITES.txt
- 96K   ├─┬ arm64_v8a_Android
- 28K   │ ├── METADATA.json
- 20K   │ ├── DETAILED.md
- 12K   │ ├── README.md
-8.0K   │ ├── FILE.txt
-4.0K   │ ├── SIZE.txt
-4.0K   │ ├── SIZE.md
-4.0K   │ ├── SHA256SUM.txt
-4.0K   │ ├── DUPLICATES.txt
-4.0K   │ ├── BUILD_DATES.txt
-4.0K   │ ├── BLAKE3SUM.txt
-  0B   │ └── DUPLICATES_OVERWRITES.txt
+648K   ├─┬ archived
+548K   │ ├─┬ x64_Windows
+232K   │ │ ├── METADATA.json
+132K   │ │ ├── DETAILED.md
+ 72K   │ │ ├── README.md
+ 28K   │ │ ├── FILE.txt
+ 20K   │ │ ├── SHA256SUM.txt
+ 20K   │ │ ├── BUILD_DATES.txt
+ 20K   │ │ ├── BLAKE3SUM.txt
+8.0K   │ │ ├── SIZE.txt
+8.0K   │ │ ├── SIZE.md
+4.0K   │ │ ├── DUPLICATES.txt
+  0B   │ │ └── DUPLICATES_OVERWRITES.txt
+ 96K   │ └─┬ arm64_v8a_Android
+ 28K   │   ├── METADATA.json
+ 20K   │   ├── DETAILED.md
+ 12K   │   ├── README.md
+8.0K   │   ├── FILE.txt
+4.0K   │   ├── SIZE.txt
+4.0K   │   ├── SIZE.md
+4.0K   │   ├── SHA256SUM.txt
+4.0K   │   ├── DUPLICATES.txt
+4.0K   │   ├── BUILD_DATES.txt
+4.0K   │   ├── BLAKE3SUM.txt
+  0B   │   └── DUPLICATES_OVERWRITES.txt
  72K   ├─┬ Docs
  36K   │ ├── BUILD_NOTES.md
 4.0K   │ ├── ZIG_TARGETS.txt
