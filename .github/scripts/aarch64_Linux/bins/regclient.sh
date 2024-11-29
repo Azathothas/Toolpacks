@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "${SKIP_BUILD}" == "NO" ]; then
     #regclient : Docker and OCI Registry Client
+    export BIN="regclient"
     export SOURCE_URL="https://github.com/regclient/regclient" #github/gitlab/homepage/etc for $BIN
     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
     #Fetch
