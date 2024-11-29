@@ -625,15 +625,15 @@
  4.5M   ├── cwe_checker
  4.5M   ├── datadash
  4.5M   ├── dizi
+ 4.5M   ├── METADATA.AIO.yaml
  4.5M   ├── xbps-remove
  4.5M   ├── xbps-install
  4.4M   ├── elinks-lite
  4.4M   ├── elinks
- 4.4M   ├── METADATA.AIO.yaml
+ 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── qemu-riscv64-static
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
- 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── enumerepo
  4.3M   ├── xbps-query
  4.3M   ├── xbps-dgraph
@@ -1057,8 +1057,15 @@
  351K   ├── METADATA.AIO.soar.capnp.zstd
  336K   ├── ppfuzz.preview.png
  335K   ├── METADATA.AIO.soar.capnp.xz
+ 330K   ├── METADATA.AIO.json.xz
  329K   ├── proot
- 323K   ├── METADATA.AIO.json.xz
+ 329K   ├── METADATA.AIO.json.zstd
+ 327K   ├── METADATA.AIO.yaml.xz
+ 327K   ├── METADATA.AIO.toml.xz
+ 327K   ├── METADATA.AIO.min.json.xz
+ 326K   ├── METADATA.AIO.yaml.zstd
+ 326K   ├── METADATA.AIO.toml.zstd
+ 326K   ├── METADATA.AIO.min.json.zstd
  322K   ├── mawk
  322K   ├── tok.preview-4.png
  322K   ├── scopeview.preview-4.png
@@ -1072,8 +1079,6 @@
  322K   ├── comb.preview-4.png
  322K   ├── certstream.preview-4.png
  322K   ├── berty.preview.png
- 321K   ├── METADATA.AIO.json.zstd
- 320K   ├── METADATA.AIO.yaml.xz
  320K   ├── tok.preview-2.png
  320K   ├── scopeview.preview-2.png
  320K   ├── scopegen.preview-2.png
@@ -1083,11 +1088,6 @@
  320K   ├── cutlines.preview-2.png
  320K   ├── comb.preview-2.png
  320K   ├── certstream.preview-2.png
- 320K   ├── METADATA.AIO.toml.xz
- 320K   ├── METADATA.AIO.min.json.xz
- 319K   ├── METADATA.AIO.min.json.zstd
- 318K   ├── METADATA.AIO.yaml.zstd
- 318K   ├── METADATA.AIO.toml.zstd
  314K   ├── tok.preview-1.png
  314K   ├── scopeview.preview-1.png
  314K   ├── scopegen.preview-1.png

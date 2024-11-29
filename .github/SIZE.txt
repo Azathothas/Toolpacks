@@ -1,5 +1,5 @@
-374M └─┬ main
-180M   ├─┬ x86_64-Linux
+377M └─┬ main
+181M   ├─┬ x86_64-Linux
  98M   │ ├── BUILD.log.txt
  60M   │ ├── BUILD.BIN.log.txt
 5.1M   │ ├── METADATA.AIO.json
@@ -7,6 +7,7 @@
 4.6M   │ ├── METADATA.AIO.toml
 4.6M   │ ├── METADATA.AIO.min.json
 1.3M   │ ├── METADATA.json
+1.1M   │ ├── METADATA.yaml
 908K   │ ├── DETAILED.md
 512K   │ ├── README.md
 196K   │ ├── FILE.txt
@@ -19,7 +20,7 @@
  20K   │ ├── DUPLICATES.txt
 4.0K   │ ├── METADATA.urls
   0B   │ └── DUPLICATES_OVERWRITES.txt
-174M   ├─┬ aarch64-Linux
+175M   ├─┬ aarch64-Linux
  91M   │ ├── BUILD.log.txt
  62M   │ ├── BUILD.BIN.log.txt
 4.9M   │ ├── METADATA.AIO.json
@@ -27,6 +28,7 @@
 4.4M   │ ├── METADATA.AIO.toml
 4.4M   │ ├── METADATA.AIO.min.json
 1.2M   │ ├── METADATA.json
+1.1M   │ ├── METADATA.yaml
 896K   │ ├── DETAILED.md
 504K   │ ├── README.md
 192K   │ ├── FILE.txt
@@ -66,15 +68,12 @@
 4.0K   │   ├── BUILD_DATES.txt
 4.0K   │   ├── BLAKE3SUM.txt
   0B   │   └── DUPLICATES_OVERWRITES.txt
- 72K   ├─┬ Docs
- 36K   │ ├── BUILD_NOTES.md
+ 28K   ├─┬ Docs
 4.0K   │ ├── ZIG_TARGETS.txt
 4.0K   │ ├── TODO.md
 4.0K   │ ├── RUST_TARGETS.txt
 4.0K   │ ├── README.md
 4.0K   │ ├── NIX_TARGETS.txt
-4.0K   │ ├── METADATA.md
-4.0K   │ ├── GO_TARGETS.md
-4.0K   │ └── DEBUG.md
+4.0K   │ └── GO_TARGETS.md
 8.0K   ├── README.md
 4.0K   └── LICENSE
