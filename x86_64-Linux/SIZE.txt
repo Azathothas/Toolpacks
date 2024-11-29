@@ -1083,17 +1083,17 @@
  362K   ├── scp
  354K   ├── sftp
  352K   ├── sudoreplay
- 352K   ├── METADATA.AIO.json.xz
  350K   ├── logrotate
  350K   ├── fi6s
- 350K   ├── METADATA.AIO.json.zstd
- 349K   ├── METADATA.AIO.yaml.xz
- 348K   ├── METADATA.AIO.toml.xz
- 348K   ├── METADATA.AIO.min.json.xz
- 347K   ├── METADATA.AIO.yaml.zstd
- 347K   ├── METADATA.AIO.toml.zstd
- 347K   ├── METADATA.AIO.min.json.zstd
+ 350K   ├── METADATA.AIO.json.xz
+ 348K   ├── METADATA.AIO.json.zstd
+ 347K   ├── METADATA.AIO.yaml.xz
  346K   ├── METADATA.AIO.soar.capnp.zstd
+ 346K   ├── METADATA.AIO.toml.xz
+ 346K   ├── METADATA.AIO.min.json.xz
+ 345K   ├── METADATA.AIO.min.json.zstd
+ 345K   ├── METADATA.AIO.yaml.zstd
+ 344K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
  331K   ├── lsof
  330K   ├── METADATA.AIO.soar.capnp.xz

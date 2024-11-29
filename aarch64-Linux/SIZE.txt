@@ -1057,15 +1057,15 @@
  351K   ├── METADATA.AIO.soar.capnp.zstd
  336K   ├── ppfuzz.preview.png
  335K   ├── METADATA.AIO.soar.capnp.xz
- 330K   ├── METADATA.AIO.json.xz
  329K   ├── proot
- 329K   ├── METADATA.AIO.json.zstd
- 327K   ├── METADATA.AIO.yaml.xz
- 327K   ├── METADATA.AIO.toml.xz
- 327K   ├── METADATA.AIO.min.json.xz
- 326K   ├── METADATA.AIO.yaml.zstd
- 326K   ├── METADATA.AIO.toml.zstd
- 326K   ├── METADATA.AIO.min.json.zstd
+ 328K   ├── METADATA.AIO.json.xz
+ 326K   ├── METADATA.AIO.json.zstd
+ 325K   ├── METADATA.AIO.yaml.xz
+ 324K   ├── METADATA.AIO.toml.xz
+ 324K   ├── METADATA.AIO.min.json.xz
+ 323K   ├── METADATA.AIO.yaml.zstd
+ 323K   ├── METADATA.AIO.toml.zstd
+ 323K   ├── METADATA.AIO.min.json.zstd
  322K   ├── mawk
  322K   ├── tok.preview-4.png
  322K   ├── scopeview.preview-4.png
