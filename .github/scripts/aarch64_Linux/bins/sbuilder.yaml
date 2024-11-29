@@ -1,0 +1,9 @@
+name: "sbuilder"
+description: "Utilities for linting and building SBUILD packages"
+note: ""
+web_url: "https://docs.pkgforge.dev/sbuild/introduction"
+repo_url: "https://github.com/pkgforge/sbuilder"
+path: "/"
+bins:
+  - "sbuilder-builder"
+  - "sbuild-linter"
