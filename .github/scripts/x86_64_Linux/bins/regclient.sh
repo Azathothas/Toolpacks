@@ -21,12 +21,13 @@ fi
 ##Main
 export SKIP_BUILD="NO" #YES, in case of deleted repos, broken builds etc
 if [ "${SKIP_BUILD}" == "NO" ]; then
-    #regctl : Docker and OCI Registry Client
-     export BIN="regctl" #Name of final binary/pkg/cli, sometimes differs from $REPO
-     export SOURCE_URL="https://github.com/regclient/regclient" #github/gitlab/homepage/etc for $BIN
-     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
-      #Fetch
-       eval "$EGET_TIMEOUT" eget "$SOURCE_URL" -a "amd64" -a "linux" -a "regctl" "$EGET_EXCLUDE" --to "$BINDIR/$BIN"
+    #regclient : Docker and OCI Registry Client
+    export SOURCE_URL="https://github.com/regclient/regclient" #github/gitlab/homepage/etc for $BIN
+    echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
+    #Fetch
+    eval "$EGET_TIMEOUT" eget "$SOURCE_URL" -a "amd64" -a "linux" -a "regctl" "$EGET_EXCLUDE" --to "$BINDIR/regctl"
+    eval "$EGET_TIMEOUT" eget "$SOURCE_URL" -a "amd64" -a "linux" -a "regbot" "$EGET_EXCLUDE" --to "$BINDIR/regbot"
+    eval "$EGET_TIMEOUT" eget "$SOURCE_URL" -a "amd64" -a "linux" -a "regsync" "$EGET_EXCLUDE" --to "$BINDIR/regsync"
 fi
 #-------------------------------------------------------#
 
