@@ -2,6 +2,7 @@ pkgsCross.aarch64-android
 pkgsCross.aarch64-android-prebuilt
 pkgsCross.aarch64-darwin
 pkgsCross.aarch64-embedded
+pkgsCross.aarch64-freebsd
 pkgsCross.aarch64-multiplatform
 pkgsCross.aarch64-multiplatform-musl
 pkgsCross.aarch64be-embedded
