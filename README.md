@@ -9,7 +9,7 @@
 [doc-shield]: https://img.shields.io/badge/docs.pkgforge.dev-blue
 [doc-url]: https://docs.pkgforge.dev/orgs/pkgforge-core/projects/toolpacks-bincache
 
-<a href="https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Binaries-(2441)+(2511)-blue?labelColor=orange&style=flat&link=https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts" alt="Binaries" /></a>
+<a href="https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Binaries-(2446)+(2516)-blue?labelColor=orange&style=flat&link=https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts" alt="Binaries" /></a>
 [![Documentation][doc-shield]][doc-url]
 [![Issues][issues-shield]][issues-url]
 [![License: MIT][license-shield]][license-url]

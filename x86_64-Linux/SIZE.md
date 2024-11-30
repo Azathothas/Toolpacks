@@ -125,6 +125,7 @@
   28M   ├── glab
   28M   ├── gitlab-cli
   28M   ├── qbittorrent-nox
+  28M   ├── dagger-cli
   28M   ├── dbbench
   28M   ├── iamb
   27M   ├── himalaya
@@ -363,6 +364,7 @@
   10M   ├── supervisord
   10M   ├── gip
   10M   ├── gosmee
+  10M   ├── regbot
   10M   ├── esbuild
   10M   ├── runc
   10M   ├── alpine.no_strip
@@ -371,6 +373,7 @@
   10M   ├── yq
   10M   ├── binocle
   10M   ├── orbiton
+  10M   ├── regctl
   10M   ├── noir
   10M   ├── agg-speed
   10M   ├── yggdrasil
@@ -393,6 +396,7 @@
  9.8M   ├── gotty
  9.8M   ├── gitql
  9.7M   ├── redguard
+ 9.7M   ├── regsync
  9.6M   ├── starship
  9.6M   ├── mubeng
  9.6M   ├── rospo
