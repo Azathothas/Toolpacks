@@ -1,0 +1,8 @@
+name: "wrappe"
+description: "Packer for creating self-contained single-binary applications from executables and directories"
+note: ""
+web_url: "https://github.com/Systemcluster/wrappe"
+repo_url: "https://github.com/Systemcluster/wrappe"
+path: "/"
+bins:
+  - "wrappe"
