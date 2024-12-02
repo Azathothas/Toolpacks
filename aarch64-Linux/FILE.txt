@@ -262,6 +262,7 @@ cwe_checker:                       ELF 64-bit LSB executable, ARM aarch64, versi
 czkawka-cli:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 czkawka.preview.png:               PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
 czkawka_cli:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+dagger-cli:                        ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=BioMUTQnWKHvJd0q9Ru8/98kPk0VgPlSb6JUUJ5Wx/WCjIWacu2gZwQXpMQYaL/wdNt10mLE_Lykpl5RmMG, stripped
 dagu:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=j7ySGeUvFrrMIdPshnT1/fCw1IxhrBZ9u6ILR6nqR/M4_ePwcEwN16h5wa4qe3/-Z6smh2K2a9HOc-FdIu1, stripped
 dagu.preview.png:                  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1280x640, components 3
 daktilo.preview.png:               JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 1280x640, components 3
@@ -972,7 +973,10 @@ recollapse_staticx:                ELF 64-bit LSB executable, ARM aarch64, versi
 redguard:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 redguard.preview.png:              PNG image data, 640 x 365, 8-bit/color RGB, non-interlaced
 redive:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+regbot:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+regctl:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 region_restriction_check.sh:       Bourne-Again shell script, Unicode text, UTF-8 text executable, with very long lines (1558)
+regsync:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 rekor-cli:                         ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ZKI-hQl22-LVGTiduFuz/rogpZJd3pd7iY8VeRpmx/1pfkIXCdEwdd0am9BSh2/Ueb9cxp6fSBWoxtA9N1c, stripped
 rekor-server:                      ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=ksVmnENolXBoLt6-JjMQ/1pZqFx2Fm7eL1gdk_3gY/nMCHjtBrZM-49t-nRaOu/fi7twAO9Va4_bLk-nKVj, stripped
 relic:                             ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped

@@ -114,6 +114,7 @@
   27M   ├── glab
   27M   ├── gitlab-cli
   27M   ├── dbbench
+  27M   ├── dagger-cli
   27M   ├── tailscale_merged
   27M   ├── tailscale_bb
   26M   ├── qbittorrent-nox
@@ -328,6 +329,7 @@
   10M   ├── feroxbuster
   10M   ├── warp-svc
   10M   ├── doggo
+  10M   ├── regbot
   10M   ├── x8
   10M   ├── taplo
   10M   ├── gosmee
@@ -350,6 +352,7 @@
  9.9M   ├── linuxdeploy.no_strip
  9.9M   ├── yggdrasil
  9.8M   ├── bucketloot
+ 9.8M   ├── regctl
  9.8M   ├── htb-cli
  9.8M   ├── shortscan
  9.7M   ├── resto
@@ -367,6 +370,7 @@
  9.4M   ├── wstunnel
  9.4M   ├── tut
  9.4M   ├── redguard
+ 9.3M   ├── regsync
  9.3M   ├── rospo
  9.3M   ├── rebuilderd-worker
  9.3M   ├── mubeng
@@ -1058,15 +1062,15 @@
  351K   ├── METADATA.AIO.soar.capnp.zstd
  336K   ├── ppfuzz.preview.png
  335K   ├── METADATA.AIO.soar.capnp.xz
- 330K   ├── METADATA.AIO.json.xz
  329K   ├── proot
- 329K   ├── METADATA.AIO.json.zstd
- 327K   ├── METADATA.AIO.yaml.xz
- 327K   ├── METADATA.AIO.toml.xz
- 327K   ├── METADATA.AIO.min.json.xz
- 326K   ├── METADATA.AIO.yaml.zstd
- 326K   ├── METADATA.AIO.toml.zstd
- 326K   ├── METADATA.AIO.min.json.zstd
+ 329K   ├── METADATA.AIO.json.xz
+ 326K   ├── METADATA.AIO.json.zstd
+ 325K   ├── METADATA.AIO.yaml.xz
+ 325K   ├── METADATA.AIO.toml.xz
+ 325K   ├── METADATA.AIO.min.json.xz
+ 324K   ├── METADATA.AIO.min.json.zstd
+ 324K   ├── METADATA.AIO.yaml.zstd
+ 324K   ├── METADATA.AIO.toml.zstd
  322K   ├── mawk
  322K   ├── tok.preview-4.png
  322K   ├── scopeview.preview-4.png

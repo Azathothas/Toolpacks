@@ -382,6 +382,7 @@ jobs:
            BASE_N="$(curl -qfsSL "https://bin.ajam.dev/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .baseutils' | jq -r '.[].name' | sort -u | wc -l)" && export BASE_N="${BASE_N}"
            export TOTAL_PACKAGES="$((MAIN_N + BASE_N))" && export TOTAL_PACKAGES="$TOTAL_PACKAGES"
            sed -E "s|(https://img.shields.io/badge/Binaries-[^(]*\([0-9]+\)\+\()[0-9]+|\1${TOTAL_PACKAGES}|" -i "$GITHUB_WORKSPACE/main/README.md"
+           sed -E "s~(https://bin\.pkgforge\.dev/list\.gif)[^\"]*~\1?$(basename "$(mktemp -u)")=$(basename "$(mktemp -u)")~g" -i "${GITHUB_WORKSPACE}/main/README.md"
         continue-on-error: true
 
       - name: Scrape Public Issues

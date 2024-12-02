@@ -85,8 +85,8 @@
   36M   ├── nezha-dashboard
   35M   ├── alpine-flatimage.no_strip
   35M   ├── amass
-  34M   ├── sliver-client
   34M   ├── FLATPAK_APPSTREAM.xml
+  34M   ├── sliver-client
   34M   ├── pixi
   34M   ├── mitmweb
   34M   ├── logdy
@@ -125,6 +125,7 @@
   28M   ├── glab
   28M   ├── gitlab-cli
   28M   ├── qbittorrent-nox
+  28M   ├── dagger-cli
   28M   ├── dbbench
   28M   ├── iamb
   27M   ├── himalaya
@@ -363,6 +364,7 @@
   10M   ├── supervisord
   10M   ├── gip
   10M   ├── gosmee
+  10M   ├── regbot
   10M   ├── esbuild
   10M   ├── runc
   10M   ├── alpine.no_strip
@@ -371,6 +373,7 @@
   10M   ├── yq
   10M   ├── binocle
   10M   ├── orbiton
+  10M   ├── regctl
   10M   ├── noir
   10M   ├── agg-speed
   10M   ├── yggdrasil
@@ -393,6 +396,7 @@
  9.8M   ├── gotty
  9.8M   ├── gitql
  9.7M   ├── redguard
+ 9.7M   ├── regsync
  9.6M   ├── starship
  9.6M   ├── mubeng
  9.6M   ├── rospo
@@ -667,14 +671,14 @@
  4.7M   ├── warp-cli
  4.7M   ├── realm
  4.7M   ├── bottom
- 4.7M   ├── fclones
  4.7M   ├── METADATA.AIO.yaml
+ 4.7M   ├── fclones
  4.6M   ├── kubemetrics
  4.6M   ├── knoxssme
  4.6M   ├── eefjsf
  4.6M   ├── bbtargets
- 4.6M   ├── gpg-tui
  4.6M   ├── METADATA.AIO.toml
+ 4.6M   ├── gpg-tui
  4.6M   ├── tahm
  4.6M   ├── enumerepo
  4.6M   ├── appstreamcli
@@ -1084,17 +1088,17 @@
  362K   ├── scp
  354K   ├── sftp
  352K   ├── sudoreplay
- 352K   ├── METADATA.AIO.json.xz
+ 351K   ├── METADATA.AIO.json.xz
  350K   ├── logrotate
  350K   ├── fi6s
- 350K   ├── METADATA.AIO.json.zstd
- 349K   ├── METADATA.AIO.yaml.xz
- 348K   ├── METADATA.AIO.toml.xz
- 348K   ├── METADATA.AIO.min.json.xz
- 347K   ├── METADATA.AIO.yaml.zstd
- 347K   ├── METADATA.AIO.toml.zstd
- 347K   ├── METADATA.AIO.min.json.zstd
+ 349K   ├── METADATA.AIO.json.zstd
+ 347K   ├── METADATA.AIO.yaml.xz
+ 346K   ├── METADATA.AIO.toml.xz
  346K   ├── METADATA.AIO.soar.capnp.zstd
+ 346K   ├── METADATA.AIO.min.json.zstd
+ 346K   ├── METADATA.AIO.min.json.xz
+ 346K   ├── METADATA.AIO.yaml.zstd
+ 345K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
  331K   ├── lsof
  330K   ├── METADATA.AIO.soar.capnp.xz

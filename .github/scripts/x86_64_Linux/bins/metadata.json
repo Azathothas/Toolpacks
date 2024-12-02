@@ -2451,7 +2451,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-11-28T12:12:18",
+    "update_date": "2024-12-01T12:11:47",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -3220,6 +3220,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/redive.sh"
   },
   {
+    "name": "regclient.sh",
+    "update_date": "2024-11-29T12:09:10",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/regclient.sh"
+  },
+  {
     "name": "region_restriction_check.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/region_restriction_check.sh"
@@ -3488,6 +3493,11 @@
     "name": "sbctl.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sbctl.sh"
+  },
+  {
+    "name": "sbuilder.sh",
+    "update_date": "2024-11-29T12:09:10",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/sbuilder.sh"
   },
   {
     "name": "scilla.sh",
