@@ -2451,7 +2451,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-12-01T12:11:47",
+    "update_date": "2024-12-02T00:20:43",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -3136,7 +3136,7 @@
   },
   {
     "name": "qsv.sh",
-    "update_date": "2024-10-03T12:14:35",
+    "update_date": "2024-12-02T12:08:14",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/qsv.sh"
   },
   {
@@ -4418,6 +4418,11 @@
     "name": "wormhole-rs.sh",
     "update_date": "2024-10-11T14:50:02",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wormhole-rs.sh"
+  },
+  {
+    "name": "wrappe.sh",
+    "update_date": "2024-12-02T12:08:14",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/wrappe.sh"
   },
   {
     "name": "wstunnel.sh",
