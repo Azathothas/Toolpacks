@@ -1,10 +1,16 @@
 7z:                                ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, for GNU/Linux 3.7.0, stripped
 FLATPAK_APPSTREAM.xml:             XML 1.0 document, Unicode text, UTF-8 text, with very long lines (2077)
+METADATA.AIO.db:                   SQLite 3.x database, last written using SQLite version 3046000, file counter 6, database pages 1181, cookie 0x3, schema 4, UTF-8, version-valid-for 6
+METADATA.AIO.db.bsum:              ASCII text, with no line terminators
+METADATA.AIO.db.xz:                7-zip archive data, version 0.4
+METADATA.AIO.db.xz.bsum:           ASCII text, with no line terminators
+METADATA.AIO.db.zstd:              Zstandard compressed data (v0.8+), Dictionary ID: None
+METADATA.AIO.db.zstd.bsum:         ASCII text, with no line terminators
 METADATA.AIO.json.bsum:            ASCII text, with no line terminators
 METADATA.AIO.json.xz:              7-zip archive data, version 0.4
 METADATA.AIO.json.xz.bsum:         ASCII text, with no line terminators
 METADATA.AIO.json.zstd:            Zstandard compressed data (v0.8+), Dictionary ID: None
-METADATA.AIO.json.zstd.bsum:       777 archive data
+METADATA.AIO.json.zstd.bsum:       ASCII text, with no line terminators
 METADATA.AIO.min.json.bsum:        ASCII text, with no line terminators
 METADATA.AIO.min.json.xz:          7-zip archive data, version 0.4
 METADATA.AIO.min.json.xz.bsum:     ASCII text, with no line terminators

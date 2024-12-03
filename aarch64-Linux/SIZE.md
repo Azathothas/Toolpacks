@@ -621,6 +621,7 @@
  4.7M   ├── dnsperf
  4.6M   ├── mkbundle
  4.6M   ├── agg
+ 4.6M   ├── METADATA.AIO.db
  4.6M   ├── procs
  4.6M   ├── stress-ng
  4.6M   ├── certstream
@@ -633,9 +634,9 @@
  4.5M   ├── METADATA.AIO.yaml
  4.5M   ├── xbps-remove
  4.5M   ├── xbps-install
+ 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── elinks-lite
  4.4M   ├── elinks
- 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── qemu-riscv64-static
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
@@ -1060,13 +1061,15 @@
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  362K   ├── sftp
+ 359K   ├── METADATA.AIO.db.zstd
  351K   ├── METADATA.AIO.soar.capnp.zstd
+ 351K   ├── METADATA.AIO.db.xz
  336K   ├── ppfuzz.preview.png
  335K   ├── METADATA.AIO.soar.capnp.xz
  329K   ├── proot
  329K   ├── METADATA.AIO.json.xz
- 326K   ├── METADATA.AIO.json.zstd
- 325K   ├── METADATA.AIO.yaml.xz
+ 327K   ├── METADATA.AIO.json.zstd
+ 326K   ├── METADATA.AIO.yaml.xz
  325K   ├── METADATA.AIO.toml.xz
  325K   ├── METADATA.AIO.min.json.xz
  324K   ├── METADATA.AIO.min.json.zstd
@@ -1391,5 +1394,8 @@
  512B   ├── METADATA.AIO.min.json.bsum
  512B   ├── METADATA.AIO.json.zstd.bsum
  512B   ├── METADATA.AIO.json.xz.bsum
- 512B   └── METADATA.AIO.json.bsum
+ 512B   ├── METADATA.AIO.json.bsum
+ 512B   ├── METADATA.AIO.db.zstd.bsum
+ 512B   ├── METADATA.AIO.db.xz.bsum
+ 512B   └── METADATA.AIO.db.bsum
 ```
