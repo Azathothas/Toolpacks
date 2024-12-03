@@ -178,6 +178,7 @@
 
 4:METADATA.AIO.json.xz:              7-zip archive data, version 0.4
 6:METADATA.AIO.json.zstd:            Zstandard compressed data (v0.8+), Dictionary ID: None
+7:METADATA.AIO.json.zstd.bsum:       777 archive data
 9:METADATA.AIO.min.json.xz:          7-zip archive data, version 0.4
 11:METADATA.AIO.min.json.zstd:        Zstandard compressed data (v0.8+), Dictionary ID: None
 13:METADATA.AIO.soar.capnp:           data
@@ -410,16 +411,16 @@
 1281:vopono.preview.png:                PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1285:vtm.preview.png:                   PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
 1296:watchexec.preview.png:             PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
-1349:xplr.preview.png:                  JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1], baseline, precision 8, 1200x630, components 3
-1353:yabs.sh.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1357:yazi.preview.png:                  JPEG image data, JFIF standard 1.01, aspect ratio, density 144x144, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=4, xresolution=62, yresolution=70, resolutionunit=2], baseline, precision 8, 2620x1420, components 3
-1359:yggdrasil.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1365:yt-dlp.preview.png:                PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
-1368:z-tokens.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
-1373:zellij.preview.png:                PNG image data, 1065 x 534, 8-bit/color RGBA, non-interlaced
-1384:zoxide.preview-0.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-1385:zoxide.preview-1.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
-1386:zoxide.preview.png:                GIF image data, version 89a, 2002 x 1002
+1350:xplr.preview.png:                  JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=1], baseline, precision 8, 1200x630, components 3
+1354:yabs.sh.preview.png:               PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1358:yazi.preview.png:                  JPEG image data, JFIF standard 1.01, aspect ratio, density 144x144, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=4, xresolution=62, yresolution=70, resolutionunit=2], baseline, precision 8, 2620x1420, components 3
+1360:yggdrasil.preview.png:             PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1366:yt-dlp.preview.png:                PNG image data, 500 x 500, 8-bit/color RGBA, non-interlaced
+1369:z-tokens.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
+1374:zellij.preview.png:                PNG image data, 1065 x 534, 8-bit/color RGBA, non-interlaced
+1385:zoxide.preview-0.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1386:zoxide.preview-1.png:              PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+1387:zoxide.preview.png:                GIF image data, version 89a, 2002 x 1002
 
 
 [-] No such file or directory # Usually Because Build Failures

@@ -135,7 +135,6 @@
   27M   ├── tailscale_merged
   27M   ├── tailscale_bb
   27M   ├── devbox
-  27M   ├── qsv
   27M   ├── dnsx
   27M   ├── maddy
   26M   ├── rattler-build
@@ -167,6 +166,7 @@
   24M   ├── php-fpm
   24M   ├── php
   24M   ├── php-micro
+  24M   ├── qsv
   24M   ├── cloudflared
   24M   ├── grpcurl
   24M   ├── magick.no_strip
@@ -811,6 +811,7 @@
  2.9M   ├── goawk
  2.9M   ├── halp
  2.9M   ├── imgcat
+ 2.9M   ├── wrappe
  2.9M   ├── qemu-hppa-static
  2.9M   ├── t-rec
  2.9M   ├── zt-exchange
@@ -934,7 +935,6 @@
  1.5M   ├── zsh
  1.5M   ├── scopegen
  1.5M   ├── visudo-rs
- 1.5M   ├── qsreplace
  1.5M   ├── mksub
  1.5M   ├── tio
  1.5M   ├── jaq

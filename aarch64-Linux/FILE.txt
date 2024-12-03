@@ -4,7 +4,7 @@ METADATA.AIO.json.bsum:            ASCII text, with no line terminators
 METADATA.AIO.json.xz:              7-zip archive data, version 0.4
 METADATA.AIO.json.xz.bsum:         ASCII text, with no line terminators
 METADATA.AIO.json.zstd:            Zstandard compressed data (v0.8+), Dictionary ID: None
-METADATA.AIO.json.zstd.bsum:       ASCII text, with no line terminators
+METADATA.AIO.json.zstd.bsum:       777 archive data
 METADATA.AIO.min.json.bsum:        ASCII text, with no line terminators
 METADATA.AIO.min.json.xz:          7-zip archive data, version 0.4
 METADATA.AIO.min.json.xz.bsum:     ASCII text, with no line terminators
@@ -1313,6 +1313,7 @@ wireproxy:                         ELF 64-bit LSB executable, ARM aarch64, versi
 wiretap:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=MKvxgEGUd3sKQMW6urN6/oReew2j8yvBt7P9iRZvy/0AE2Q3_ZTWnmt40Hh22o/B5W_8meG0d2UhWX0ckqD, stripped
 wlancap2wpasec:                    ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 wormhole-rs:                       ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+wrappe:                            ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 wstunnel:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 wtf:                               ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=35ZE2FkOOH0FAGDt5Zac/tYSU7D2chSC0x-iYilbj/LMJuLClhKcV03rN1bSJz/gQSuQJPmk3iF23000A60, stripped
 wtfutil:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=35ZE2FkOOH0FAGDt5Zac/tYSU7D2chSC0x-iYilbj/LMJuLClhKcV03rN1bSJz/gQSuQJPmk3iF23000A60, stripped

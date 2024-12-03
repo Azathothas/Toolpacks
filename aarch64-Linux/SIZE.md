@@ -185,6 +185,7 @@
   19M   ├── xetcmd
   19M   ├── csvtk
   19M   ├── jj
+  19M   ├── qsv
   19M   ├── uroot-busybox
   19M   ├── u-root-busybox
   19M   ├── gobusybox
@@ -229,7 +230,6 @@
   15M   ├── golem
   15M   ├── hednsextractor
   15M   ├── findomain
-  15M   ├── qsv
   15M   ├── filebrowser
   15M   ├── rye
   15M   ├── glow
@@ -807,6 +807,7 @@
  2.5M   ├── gencmddeps
  2.5M   ├── encode
  2.5M   ├── binary-security-check
+ 2.4M   ├── wrappe
  2.4M   ├── pueued
  2.4M   ├── dsieve
  2.4M   ├── encrypted-dns

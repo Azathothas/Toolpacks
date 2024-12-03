@@ -974,8 +974,7 @@ qemu-sparc64-static:               ELF 64-bit LSB pie executable, x86-64, versio
 qemu-x86_64-static:                ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=a414157ca02511ab65b367fe36bb804c8b2954b4, stripped
 qemu-xtensa-static:                ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=99feb2019802925042b33bbc5b4495380d9ff478, stripped
 qemu-xtensaeb-static:              ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=a5c385100936720e3a586b59076606455f3e7634, stripped
-qsreplace:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
-qsv:                               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=c17229c09e39de82142266ad77ac087b707fac5a, stripped
+qsv:                               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 qsv.preview.png:                   PNG image data, 1280 x 800, 8-bit/color RGBA, non-interlaced
 quickcert:                         ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 quotes-escaper:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
@@ -1386,6 +1385,7 @@ wiretap:                           ELF 64-bit LSB executable, x86-64, version 1 
 wlancap2wpasec:                    ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 woofwoof:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=30e06184968532b6a9aa36f44ada39e4af0bda56, for GNU/Linux 2.6.32, stripped
 wormhole-rs:                       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
+wrappe:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 wstunnel:                          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, BuildID[sha1]=4a62b813181eace787e54f50f7e62737af3f66cb, stripped
 wtf:                               ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=qOUQJdUWHAH1y94dLut7/jr5TFPvwwbKPhOjN5yjE/XgxWR8RUnyYqneEgBkIT/H06WKIsVoD2jf-5dm4lJ, stripped
 wtfutil:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=qOUQJdUWHAH1y94dLut7/jr5TFPvwwbKPhOjN5yjE/XgxWR8RUnyYqneEgBkIT/H06WKIsVoD2jf-5dm4lJ, stripped
