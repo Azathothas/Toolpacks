@@ -1062,8 +1062,8 @@
  369K   ├── eza.preview.png
  362K   ├── sftp
  360K   ├── METADATA.AIO.db.zstd
- 352K   ├── METADATA.AIO.db.xz
  351K   ├── METADATA.AIO.soar.capnp.zstd
+ 351K   ├── METADATA.AIO.db.xz
  336K   ├── ppfuzz.preview.png
  335K   ├── METADATA.AIO.soar.capnp.xz
  329K   ├── proot
@@ -1071,7 +1071,7 @@
  327K   ├── METADATA.AIO.json.zstd
  326K   ├── METADATA.AIO.yaml.xz
  326K   ├── METADATA.AIO.toml.xz
- 326K   ├── METADATA.AIO.min.json.xz
+ 325K   ├── METADATA.AIO.min.json.xz
  325K   ├── METADATA.AIO.min.json.zstd
  324K   ├── METADATA.AIO.yaml.zstd
  324K   ├── METADATA.AIO.toml.zstd
