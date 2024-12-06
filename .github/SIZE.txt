@@ -22,7 +22,7 @@
   0B   │ └── DUPLICATES_OVERWRITES.txt
 175M   ├─┬ aarch64-Linux
  91M   │ ├── BUILD.log.txt
- 62M   │ ├── BUILD.BIN.log.txt
+ 61M   │ ├── BUILD.BIN.log.txt
 4.9M   │ ├── METADATA.AIO.json
 4.5M   │ ├── METADATA.AIO.yaml
 4.4M   │ ├── METADATA.AIO.toml
@@ -30,12 +30,12 @@
 1.2M   │ ├── METADATA.json
 1.1M   │ ├── METADATA.yaml
 900K   │ ├── DETAILED.md
-504K   │ ├── README.md
+508K   │ ├── README.md
 192K   │ ├── FILE.txt
 132K   │ ├── BUILD_DATES.txt
 108K   │ ├── SHA256SUM.txt
 108K   │ ├── BLAKE3SUM.txt
- 68K   │ ├── BUILD_ERROR.log.md
+ 72K   │ ├── BUILD_ERROR.log.md
  44K   │ ├── SIZE.txt
  44K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt

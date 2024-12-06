@@ -1,7 +1,7 @@
 ```mathematica
   13G └─┬ toolpack_aarch64
- 292M   ├── gentoo.no_strip
- 256M   ├── gentoo-musl.no_strip
+ 304M   ├── gentoo.no_strip
+ 267M   ├── gentoo-musl.no_strip
  184M   ├── archlinux.no_strip
  167M   ├── traefik
  152M   ├── archlinux-flatimage.no_strip
@@ -9,8 +9,8 @@
  142M   ├── aws-nuke
  139M   ├── cloudfox
  134M   ├── artix-flatimage.no_strip
- 127M   ├── aws-cli.no_strip
- 115M   ├── trufflehog
+ 128M   ├── aws-cli.no_strip
+ 116M   ├── trufflehog
  111M   ├── cloudlist
   98M   ├── gitea
   98M   ├── slskd.no_strip
@@ -20,12 +20,12 @@
   84M   ├── ubuntu-flatimage.no_strip
   82M   ├── almalinux.no_strip
   80M   ├── logcli
+  78M   ├── devpod
   78M   ├── daytona
   78M   ├── nuclei
   77M   ├── berty
   75M   ├── alist
   75M   ├── jr
-  72M   ├── devpod
   72M   ├── falconhound
   70M   ├── rockylinux.no_strip
   65M   ├── void-glibc-flatimage.no_strip
@@ -36,9 +36,9 @@
   61M   ├── loki
   61M   ├── void-glibc.no_strip
   60M   ├── amazonlinux.no_strip
+  60M   ├── ockam
   60M   ├── magick.no_strip
   60M   ├── imagemagick.no_strip
-  60M   ├── ockam
   59M   ├── void-musl-flatimage.no_strip
   59M   ├── debian.no_strip
   58M   ├── wtfutil
@@ -54,6 +54,7 @@
   49M   ├── teldrive
   48M   ├── hugo
   48M   ├── rekor-server
+  48M   ├── wush
   48M   ├── steampipe
   47M   ├── bearer
   47M   ├── ffmpeg
@@ -63,15 +64,15 @@
   47M   ├── kopia
   46M   ├── matterbridge
   45M   ├── almalinux-minimal.no_strip
-  44M   ├── wush
-  43M   ├── xet_staticx
   43M   ├── melange
+  43M   ├── xet_staticx
   43M   ├── bpftrace
   42M   ├── ubuntu.no_strip
   41M   ├── debian-flatimage.no_strip
   41M   ├── debian-slim.no_strip
   38M   ├── tdl
   38M   ├── katana
+  37M   ├── tusd
   37M   ├── caddy
   36M   ├── mitmproxy
   36M   ├── proxify
@@ -83,20 +84,21 @@
   34M   ├── alpine-flatimage.no_strip
   34M   ├── amass
   34M   ├── logdy
+  33M   ├── mitmweb
   33M   ├── nushell
   33M   ├── nu
-  33M   ├── mitmweb
+  32M   ├── yt-dlp
   32M   ├── cloudreve
   32M   ├── naabu
   32M   ├── mlr
-  32M   ├── yt-dlp
   32M   ├── fscan
   32M   ├── aptly
   32M   ├── shellz
   31M   ├── skupper
-  31M   ├── surf
   31M   ├── mitmdump
+  31M   ├── surf
   31M   ├── loki-canary
+  30M   ├── pixi
   30M   ├── sq
   30M   ├── sslsearch
   30M   ├── dblab
@@ -110,7 +112,6 @@
   28M   ├── zellij
   28M   ├── v2raya
   28M   ├── vpnkit
-  27M   ├── pixi
   27M   ├── glab
   27M   ├── gitlab-cli
   27M   ├── dbbench
@@ -136,7 +137,6 @@
   25M   ├── cvemap
   25M   ├── uncover
   24M   ├── ngrok
-  24M   ├── tusd
   24M   ├── blueprint-flatimage.no_strip
   24M   ├── php-fpm
   24M   ├── crictl
@@ -149,11 +149,11 @@
   24M   ├── restic
   23M   ├── nerdctl
   23M   ├── subfinder
-  23M   ├── grpcurl
-  23M   ├── boltconn
-  23M   ├── wezterm
-  23M   ├── cloudflared
   23M   ├── mise
+  23M   ├── wezterm
+  23M   ├── boltconn
+  23M   ├── grpcurl
+  23M   ├── cloudflared
   23M   ├── himalaya
   23M   ├── jaeles
   23M   ├── tlsx
@@ -170,14 +170,14 @@
   21M   ├── reader
   21M   ├── dnspyre
   21M   ├── shuffledns
+  20M   ├── caido-cli
   20M   ├── tuiarchiver
   20M   ├── toru
   20M   ├── vhs
-  20M   ├── meli
   20M   ├── ruff
   20M   ├── nezha-agent
+  20M   ├── meli
   20M   ├── lux
-  20M   ├── caido-cli
   20M   ├── alpine.no_strip
   20M   ├── alterx
   19M   ├── jira
@@ -185,6 +185,7 @@
   19M   ├── xetcmd
   19M   ├── csvtk
   19M   ├── jj
+  19M   ├── qsv
   19M   ├── uroot-busybox
   19M   ├── u-root-busybox
   19M   ├── gobusybox
@@ -203,11 +204,11 @@
   18M   ├── gosec
   18M   ├── luet
   18M   ├── xetmnt
+  18M   ├── exatorrent
   18M   ├── gix
+  18M   ├── exatorrent-noui
   18M   ├── ctr
   18M   ├── sish
-  18M   ├── exatorrent
-  17M   ├── exatorrent-noui
   17M   ├── garm
   17M   ├── podsync
   17M   ├── gitpod
@@ -215,7 +216,6 @@
   17M   ├── lazygit
   17M   ├── atuin
   17M   ├── jira-cli
-  17M   ├── sunbeam
   17M   ├── gh-dash
   17M   ├── go-audit
   16M   ├── notify
@@ -229,9 +229,9 @@
   15M   ├── golem
   15M   ├── hednsextractor
   15M   ├── findomain
-  15M   ├── qsv
   15M   ├── filebrowser
   15M   ├── rye
+  15M   ├── ryelang
   15M   ├── glow
   15M   ├── pgweb
   14M   ├── termshark
@@ -239,20 +239,21 @@
   14M   ├── cloudcash
   14M   ├── tinja
   14M   ├── tget
+  14M   ├── sunbeam
   14M   ├── bleve
   14M   ├── godns
   14M   ├── ct_monitor
-  14M   ├── yazi
   14M   ├── gost
-  14M   ├── kitten
   14M   ├── ipasd
   14M   ├── ipa-server
+  14M   ├── kitten
   14M   ├── wiretap
   14M   ├── bin
   14M   ├── s5cmd
   14M   ├── clipcatd
   14M   ├── sn0int
   14M   ├── yip
+  14M   ├── yazi
   14M   ├── ssr-server
   14M   ├── serverstatus-server
   13M   ├── certwatcher
@@ -270,26 +271,25 @@
   13M   ├── zerotier-idtool
   13M   ├── zerotier-cli
   13M   ├── tailscale
-  13M   ├── ryelang
   13M   ├── garm-cli
   12M   ├── fyne
   12M   ├── jc
   12M   ├── gdu
   12M   ├── opengfw
   12M   ├── netexec
+  12M   ├── dwarfs-tools
   12M   ├── stree
   12M   ├── goodls
-  12M   ├── dwarfs-tools
   12M   ├── zgrab2
   12M   ├── ffufw
   12M   ├── s3sync
   12M   ├── freeze
   12M   ├── mabel
   12M   ├── hadolint
-  12M   ├── gitui
+  12M   ├── netscanner
   12M   ├── gum
   12M   ├── cent
-  12M   ├── netscanner
+  12M   ├── gitui
   12M   ├── cntb
   12M   ├── mirrorbits
   11M   ├── aws-wire-lengths
@@ -303,8 +303,8 @@
   11M   ├── fq
   11M   ├── litefs
   11M   ├── jqp
-  11M   ├── openapi-tui
   11M   ├── sysbox-fs
+  11M   ├── openapi-tui
   11M   ├── pktstat
   11M   ├── sysbox-mgr
   11M   ├── git-lfs
@@ -327,15 +327,16 @@
   10M   ├── cheat
   10M   ├── supervisord
   10M   ├── feroxbuster
-  10M   ├── warp-svc
   10M   ├── doggo
-  10M   ├── regbot
+  10M   ├── warp-svc
   10M   ├── x8
   10M   ├── taplo
+  10M   ├── regbot
   10M   ├── gosmee
   10M   ├── aria2c
   10M   ├── aria2
   10M   ├── apkeep
+  10M   ├── orbiton
   10M   ├── ncgopher
   10M   ├── runc
   10M   ├── esbuild
@@ -345,12 +346,11 @@
   10M   ├── czkawka_cli
   10M   ├── czkawka-cli
   10M   ├── hurl
- 9.9M   ├── orbiton
- 9.9M   ├── sync-color-schemes
  9.9M   ├── katana_staticx
  9.9M   ├── oha
  9.9M   ├── linuxdeploy.no_strip
  9.9M   ├── yggdrasil
+ 9.9M   ├── sync-color-schemes
  9.8M   ├── bucketloot
  9.8M   ├── regctl
  9.8M   ├── htb-cli
@@ -370,17 +370,17 @@
  9.4M   ├── wstunnel
  9.4M   ├── tut
  9.4M   ├── redguard
- 9.3M   ├── regsync
  9.3M   ├── rospo
- 9.3M   ├── rebuilderd-worker
+ 9.3M   ├── regsync
  9.3M   ├── mubeng
  9.2M   ├── csprecon
+ 9.2M   ├── rebuilderd-worker
  9.2M   ├── sttr
  9.1M   ├── dasel
  9.0M   ├── naabu_staticx
  9.0M   ├── cfssl-newkey
+ 9.0M   ├── xan
  8.9M   ├── invidtui
- 8.9M   ├── xan
  8.9M   ├── pgrok
  8.9M   ├── archey
  8.9M   ├── stew
@@ -388,13 +388,14 @@
  8.8M   ├── tgpt
  8.8M   ├── transmission-daemon
  8.8M   ├── pping
- 8.7M   ├── coreutils
+ 8.8M   ├── coreutils
  8.7M   ├── go-appimagetool.no_strip
  8.7M   ├── noir
  8.7M   ├── openrisk
  8.7M   ├── bluetuith
  8.6M   ├── rustypaste
  8.6M   ├── ctrsploit
+ 8.6M   ├── croc
  8.6M   ├── certstream-server-go
  8.6M   ├── ghfetch
  8.6M   ├── gip
@@ -403,8 +404,8 @@
  8.5M   ├── ddns-go
  8.5M   ├── gocryptfs
  8.4M   ├── enola
- 8.4M   ├── enc
  8.4M   ├── viewgen_staticx
+ 8.4M   ├── enc
  8.4M   ├── supercronic
  8.3M   ├── ov
  8.3M   ├── vopono
@@ -419,7 +420,7 @@
  8.1M   ├── revive
  8.1M   ├── binocle
  8.1M   ├── nmap
- 8.0M   ├── croc
+ 8.0M   ├── dbin
  8.0M   ├── nomore403
  8.0M   ├── sshx-server
  8.0M   ├── q
@@ -428,13 +429,13 @@
  7.9M   ├── cfssl-bundle
  7.9M   ├── starship
  7.9M   ├── pingtunnel
- 7.8M   ├── hostctl
  7.8M   ├── hardeningmeter_staticx
+ 7.8M   ├── hostctl
  7.8M   ├── recollapse_staticx
  7.8M   ├── wireproxy
  7.7M   ├── cfssl-certinfo
- 7.7M   ├── syncat
  7.7M   ├── bita
+ 7.7M   ├── syncat
  7.7M   ├── ladder
  7.6M   ├── planor
  7.6M   ├── sbctl
@@ -444,8 +445,8 @@
  7.5M   ├── godnsbench
  7.5M   ├── go-mkappimage.no_strip
  7.5M   ├── ffuf
- 7.4M   ├── gobuster
  7.4M   ├── monolith
+ 7.4M   ├── gobuster
  7.4M   ├── wormhole-rs
  7.4M   ├── subxtract
  7.3M   ├── dura
@@ -485,46 +486,43 @@
  6.8M   ├── exiflooter
  6.8M   ├── gitleaks
  6.8M   ├── cfspeed
- 6.8M   ├── dbin
  6.7M   ├── spoof-dpi
+ 6.7M   ├── trip
  6.7M   ├── elvish
  6.7M   ├── yggdrasilctl
  6.7M   ├── pingmole
  6.7M   ├── spk
  6.6M   ├── xq
- 6.6M   ├── trip
  6.6M   ├── rate-mirrors
  6.5M   ├── stunner
  6.5M   ├── cloak-client
  6.5M   ├── uroot
  6.5M   ├── u-root
  6.5M   ├── fuzzuli
- 6.5M   ├── system-info-collector
- 6.5M   ├── sysinfo-collector
- 6.5M   ├── sic
  6.5M   ├── yalis
+ 6.4M   ├── sic
  6.4M   ├── hub
- 6.4M   ├── ctlwatcher
  6.4M   ├── warp-diag
+ 6.4M   ├── ctlwatcher
  6.3M   ├── direnv
  6.3M   ├── speedtest-go
- 6.3M   ├── soar
  6.3M   ├── hxn
  6.3M   ├── aretext
  6.3M   ├── cloak-server
  6.2M   ├── xplr
+ 6.2M   ├── soar
  6.2M   ├── cobalt-cli
  6.2M   ├── go-simplehttpserver
  6.2M   ├── pixterm
  6.2M   ├── bigdl
- 6.2M   ├── cherrybomb
  6.1M   ├── allxfr
  6.1M   ├── v6run
  6.1M   ├── mullvad-cli
+ 6.1M   ├── cherrybomb
  6.1M   ├── dperf
  6.0M   ├── onionpipe
- 6.0M   ├── hcxhashtool
  6.0M   ├── systemctl-tui
+ 6.0M   ├── hcxhashtool
  6.0M   ├── qemu-aarch64_be-static
  6.0M   ├── wadl-dumper
  6.0M   ├── whoismac
@@ -533,8 +531,8 @@
  5.9M   ├── sshx
  5.9M   ├── rescope
  5.8M   ├── wego
- 5.8M   ├── z-tokens
  5.8M   ├── fnm
+ 5.8M   ├── z-tokens
  5.8M   ├── cfssljson
  5.7M   ├── websocat
  5.7M   ├── wget
@@ -553,19 +551,19 @@
  5.4M   ├── hacker-scoper
  5.4M   ├── gup
  5.4M   ├── getJS
- 5.4M   ├── vtm
+ 5.3M   ├── vtm
  5.3M   ├── gitdorks_go
  5.3M   ├── golinkfinder
  5.3M   ├── subjs
  5.3M   ├── gron
  5.3M   ├── delta
+ 5.3M   ├── batcat
+ 5.3M   ├── bat
  5.3M   ├── clipcatctl
  5.3M   ├── gitlab-subdomains
  5.3M   ├── github-endpoints
- 5.3M   ├── warp-dex
  5.3M   ├── github-subdomains
- 5.3M   ├── batcat
- 5.3M   ├── bat
+ 5.3M   ├── warp-dex
  5.3M   ├── presenterm
  5.3M   ├── github-regexp
  5.3M   ├── sourcemapper
@@ -579,9 +577,9 @@
  5.1M   ├── volta
  5.1M   ├── xurls
  5.1M   ├── dnstake
- 5.1M   ├── ulexec
  5.1M   ├── cpu
  5.1M   ├── ksubdomain_staticx
+ 5.1M   ├── ulexec
  5.1M   ├── rewritepkg
  5.1M   ├── mantra
  5.0M   ├── nginx
@@ -601,7 +599,6 @@
  4.8M   ├── rootlesskit-docker-proxy
  4.8M   ├── wth
  4.8M   ├── actionlint
- 4.8M   ├── apk-static
  4.8M   ├── rsync
  4.8M   ├── appstreamcli
  4.8M   ├── jwt-hack
@@ -621,21 +618,22 @@
  4.7M   ├── dnsperf
  4.6M   ├── mkbundle
  4.6M   ├── agg
+ 4.6M   ├── METADATA.AIO.db
  4.6M   ├── procs
  4.6M   ├── stress-ng
  4.6M   ├── certstream
  4.6M   ├── macchina
  4.6M   ├── gxss
  4.5M   ├── nping
- 4.5M   ├── cwe_checker
  4.5M   ├── datadash
  4.5M   ├── dizi
+ 4.5M   ├── cwe_checker
  4.5M   ├── METADATA.AIO.yaml
  4.5M   ├── xbps-remove
  4.5M   ├── xbps-install
+ 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── elinks-lite
  4.4M   ├── elinks
- 4.4M   ├── METADATA.AIO.toml
  4.4M   ├── qemu-riscv64-static
  4.4M   ├── kubemetrics
  4.4M   ├── eefjsf
@@ -660,13 +658,14 @@
  4.3M   ├── qemu-riscv32-static
  4.3M   ├── mcfly
  4.2M   ├── qemu-armeb-static
+ 4.2M   ├── apk-static
  4.2M   ├── agg-tunnel
  4.2M   ├── warp-cli
  4.2M   ├── overmind
  4.2M   ├── minify
- 4.2M   ├── gorilla
  4.2M   ├── cpud
  4.2M   ├── qemu-arm-static
+ 4.1M   ├── gorilla
  4.1M   ├── doomxss
  4.1M   ├── robotstxt
  4.1M   ├── heacoll
@@ -676,17 +675,18 @@
  4.1M   ├── ouch
  4.1M   ├── hysp
  4.1M   ├── tailspin
- 4.1M   ├── jnv
  4.1M   ├── fclones
+ 4.1M   ├── jnv
  4.1M   ├── validtoml
  4.0M   ├── dns-doctor
- 4.0M   ├── cfspeedtest
  4.0M   ├── qemu-mipsn32el-static
  4.0M   ├── qemu-mipsn32-static
  4.0M   ├── qemu-mips64el-static
  4.0M   ├── qemu-mips64-static
+ 4.0M   ├── gojq
  4.0M   ├── ppfuzz
  4.0M   ├── METADATA.AIO.soar.capnp
+ 4.0M   ├── cfspeedtest
  4.0M   ├── qemu-mipsel-static
  4.0M   ├── qemu-mips-static
  4.0M   ├── axel
@@ -697,11 +697,10 @@
  3.9M   ├── rg
  3.9M   ├── qemu-ppc64le-static
  3.9M   ├── qemu-ppc64-static
- 3.9M   ├── gojq
  3.9M   ├── qemu-ppc-static
  3.8M   ├── tokei
+ 3.8M   ├── fblog
  3.8M   ├── zt-patterns
- 3.7M   ├── fblog
  3.7M   ├── bottom
  3.6M   ├── rga
  3.6M   ├── tun2proxy
@@ -726,17 +725,17 @@
  3.4M   ├── ox
  3.4M   ├── qemu-s390x-static
  3.4M   ├── dufs
+ 3.4M   ├── onetun
  3.4M   ├── hcxpsktool
  3.4M   ├── spiped
  3.4M   ├── age
  3.4M   ├── cidr
  3.4M   ├── intermodal
  3.4M   ├── imdl
- 3.4M   ├── onetun
  3.3M   ├── spipe
+ 3.3M   ├── stuffbin
  3.3M   ├── fd-find
  3.3M   ├── fd
- 3.3M   ├── stuffbin
  3.3M   ├── qemu-sparc64-static
  3.3M   ├── qemu-sparc32plus-static
  3.3M   ├── hcxpmktool
@@ -753,18 +752,20 @@
  3.1M   ├── viu
  3.1M   ├── tealdeer
  3.1M   ├── walk
+ 3.1M   ├── sk
  3.1M   ├── txeh
- 3.1M   ├── rage
  3.0M   ├── otree
+ 3.0M   ├── rage
  3.0M   ├── xcp
  3.0M   ├── kalker
  3.0M   ├── qemu-hppa-static
  3.0M   ├── mosh-client
- 3.0M   ├── sk
  3.0M   ├── mosh-server
+ 3.0M   ├── system-info-collector
+ 3.0M   ├── sysinfo-collector
+ 3.0M   ├── 7z
  3.0M   ├── logtimer
  3.0M   ├── qemu-sh4eb-static
- 2.9M   ├── 7z
  2.9M   ├── find-rs
  2.9M   ├── yj
  2.9M   ├── ctrsploit-checksec
@@ -777,14 +778,13 @@
  2.9M   ├── imgcat
  2.9M   ├── goawk
  2.9M   ├── deoptimizer
+ 2.9M   ├── arc
  2.9M   ├── cowthink
  2.9M   ├── cowsay
  2.8M   ├── ctrsploit-env
  2.8M   ├── lsd
  2.8M   ├── killport
- 2.8M   ├── arc
  2.8M   ├── tmate
- 2.8M   ├── tlrc
  2.8M   ├── taierspeed-cli
  2.8M   ├── njs
  2.8M   ├── qemu-or1k-static
@@ -792,14 +792,15 @@
  2.8M   ├── wireguard-go
  2.8M   ├── git-sizer
  2.8M   ├── smartdns
+ 2.8M   ├── tlrc
  2.7M   ├── rust-parallel
  2.7M   ├── gs-netcat
  2.7M   ├── shfmt
  2.7M   ├── jobs
  2.7M   ├── fwanalyzer
+ 2.6M   ├── kalc
  2.6M   ├── bingrep
  2.6M   ├── p9cpu
- 2.6M   ├── kalc
  2.5M   ├── cdwe
  2.5M   ├── bpftrace-aotrt
  2.5M   ├── dysk
@@ -807,19 +808,18 @@
  2.5M   ├── gencmddeps
  2.5M   ├── encode
  2.5M   ├── binary-security-check
- 2.4M   ├── pueued
  2.4M   ├── dsieve
  2.4M   ├── encrypted-dns
  2.4M   ├── tz
+ 2.4M   ├── wrappe
  2.4M   ├── zt-exchange
  2.4M   ├── halp
  2.4M   ├── rpaste
  2.4M   ├── rage-keygen
  2.4M   ├── cotp
- 2.4M   ├── pueue
- 2.4M   ├── navi
- 2.3M   ├── ropr
  2.3M   ├── gping
+ 2.3M   ├── navi
+ 2.3M   ├── ropr
  2.3M   ├── pkgtop
  2.3M   ├── dust
  2.3M   ├── unf
@@ -828,13 +828,14 @@
  2.3M   ├── kak
  2.3M   ├── udpx
  2.2M   ├── p9cpud
+ 2.2M   ├── noroot-do
  2.2M   ├── hakrevdns
  2.2M   ├── shortutil
  2.2M   ├── cmd-wrapped
- 2.2M   ├── tere
  2.2M   ├── wireguard-rs
- 2.2M   ├── eza
+ 2.2M   ├── tere
  2.2M   ├── btop
+ 2.2M   ├── eza
  2.2M   ├── husarnet-daemon
  2.2M   ├── htmlq
  2.2M   ├── ffufPostprocessing
@@ -852,7 +853,6 @@
  2.0M   ├── curlie
  2.0M   ├── findlargedir
  2.0M   ├── pelfd-bin
- 2.0M   ├── noroot-do
  2.0M   ├── sd
  2.0M   ├── cexec
  2.0M   ├── byp4xx
@@ -862,10 +862,10 @@
  1.9M   ├── deark
  1.9M   ├── pencode
  1.9M   ├── boringtun-cli
- 1.9M   ├── runiq
  1.9M   ├── age-keygen
  1.9M   ├── cutlines
  1.9M   ├── systeroid
+ 1.9M   ├── runiq
  1.9M   ├── sqlite3
  1.9M   ├── netcat
  1.9M   ├── redive
@@ -892,16 +892,16 @@
  1.6M   ├── moac
  1.6M   ├── jq
  1.6M   ├── ecoji
+ 1.6M   ├── mmv
  1.6M   ├── notify-send-rs
  1.6M   ├── notify-send
- 1.6M   ├── mmv
- 1.6M   ├── rshijack
  1.6M   ├── tcpdump
+ 1.6M   ├── rshijack
  1.6M   ├── flashfetch
  1.6M   ├── tio
  1.6M   ├── zsh
  1.6M   ├── genscope
- 1.5M   ├── squishy-cli
+ 1.6M   ├── squishy-cli
  1.5M   ├── qsreplace
  1.5M   ├── v6disk
  1.5M   ├── scopegen
@@ -911,6 +911,8 @@
  1.5M   ├── tok
  1.5M   ├── mksub
  1.5M   ├── anakin
+ 1.5M   ├── pueued
+ 1.5M   ├── pueue
  1.4M   ├── slirp4netns
  1.4M   ├── strace
  1.4M   ├── jless_staticx
@@ -928,8 +930,8 @@
  1.4M   ├── ppath
  1.4M   ├── comb
  1.4M   ├── kmon
- 1.4M   ├── ds
  1.4M   ├── removepro
+ 1.4M   ├── ds
  1.3M   ├── dropbearmulti
  1.3M   ├── patchelf
  1.3M   ├── uip
@@ -937,7 +939,6 @@
  1.3M   ├── xargs-rs
  1.3M   ├── mgwls
  1.3M   ├── dropbear
- 1.3M   ├── jaq
  1.3M   ├── desktop-file-validate
  1.3M   ├── desktop-file-install
  1.3M   ├── desktop-file-edit
@@ -945,8 +946,8 @@
  1.2M   ├── genact
  1.2M   ├── bore
  1.2M   ├── update-desktop-database
- 1.2M   ├── hyperfine
  1.2M   ├── busybox
+ 1.2M   ├── hyperfine
  1.2M   ├── sudo-rs
  1.2M   ├── rustcat
  1.2M   ├── rcat
@@ -955,10 +956,10 @@
  1.1M   ├── dbclient
  1.1M   ├── bash
  1.0M   ├── su-rs
- 1.0M   ├── pier
  1.0M   ├── visudo-rs
- 1.0M   ├── strip-ansi-escapes
+ 1.0M   ├── pier
  1.0M   ├── xdotool
+ 1.0M   ├── strip-ansi-escapes
  1.0M   ├── zoxide
  1.0M   ├── z
 1002K   ├── rathole
@@ -969,11 +970,10 @@
  909K   ├── yazi.preview.png
  906K   ├── dropbearkey
  906K   ├── dropbearconvert
- 903K   ├── b3sum
+ 894K   ├── b3sum
  891K   ├── ngocok.preview.png
  890K   ├── jql
- 886K   ├── hexyl
- 872K   ├── csview
+ 882K   ├── hexyl
  868K   ├── tok.preview.png
  868K   ├── subxtract.preview.png
  868K   ├── scopeview.preview.png
@@ -987,21 +987,23 @@
  868K   ├── cutlines.preview.png
  868K   ├── comb.preview.png
  868K   ├── certstream.preview.png
- 862K   ├── svg-hush
+ 867K   ├── csview
+ 859K   ├── svg-hush
  842K   ├── ruri
  822K   ├── toybox
  821K   ├── cargo-unlock
  793K   ├── sshx.preview.png
  782K   ├── awk
- 778K   ├── hx
+ 776K   ├── jaq
+ 775K   ├── hx
  753K   ├── hysp.preview.png
- 743K   ├── anew-rs
+ 739K   ├── anew-rs
  729K   ├── procan
  729K   ├── filan
  709K   ├── caddy.preview.png
- 709K   ├── anewer
+ 708K   ├── anewer
  696K   ├── gh.preview.png
- 687K   ├── zt-hashes
+ 685K   ├── zt-hashes
  675K   ├── htb-cli.preview.png
  664K   ├── binfetch
  662K   ├── sbuild-linter
@@ -1023,12 +1025,12 @@
  541K   ├── ncdu
  530K   ├── pixi.preview.png
  529K   ├── masscan
- 522K   ├── elfcat
+ 520K   ├── elfcat
  516K   ├── loksh
  515K   ├── oksh
  514K   ├── mount.fuse3
- 492K   ├── zt-encodings
  490K   ├── unifetch
+ 489K   ├── zt-encodings
  484K   ├── mkappimage
  484K   ├── appimagetool
  484K   ├── appimaged
@@ -1039,7 +1041,7 @@
  450K   ├── scp
  428K   ├── generate-bidi
  428K   ├── magick.preview.png
- 419K   ├── shellharden
+ 416K   ├── shellharden
  415K   ├── tok.preview-3.png
  415K   ├── scopeview.preview-3.png
  415K   ├── scopegen.preview-3.png
@@ -1059,16 +1061,18 @@
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  362K   ├── sftp
+ 360K   ├── METADATA.AIO.db.zstd
  351K   ├── METADATA.AIO.soar.capnp.zstd
+ 351K   ├── METADATA.AIO.db.xz
  336K   ├── ppfuzz.preview.png
  335K   ├── METADATA.AIO.soar.capnp.xz
  329K   ├── proot
  329K   ├── METADATA.AIO.json.xz
- 326K   ├── METADATA.AIO.json.zstd
- 325K   ├── METADATA.AIO.yaml.xz
+ 327K   ├── METADATA.AIO.json.zstd
+ 326K   ├── METADATA.AIO.yaml.xz
  325K   ├── METADATA.AIO.toml.xz
  325K   ├── METADATA.AIO.min.json.xz
- 324K   ├── METADATA.AIO.min.json.zstd
+ 325K   ├── METADATA.AIO.min.json.zstd
  324K   ├── METADATA.AIO.yaml.zstd
  324K   ├── METADATA.AIO.toml.zstd
  322K   ├── mawk
@@ -1163,11 +1167,11 @@
  193K   ├── mkpasswd
  193K   ├── dalfox.preview.png
  191K   ├── sar
- 189K   ├── sharun
  188K   ├── yabs.sh.preview.png
  187K   ├── rescope.preview.png
  184K   ├── trufflehog.preview.png
  184K   ├── haylxon.preview.png
+ 183K   ├── sharun
  182K   ├── jless.preview.png
  179K   ├── rust-hypervisor-firmware
  179K   ├── hypervisor-fw
@@ -1309,12 +1313,12 @@
   37K   ├── base.default.png
   37K   ├── v2raya.preview.png
   37K   ├── hyperfine.preview.png
+  36K   ├── sharun-lib4bin
   36K   ├── pls.preview.png
   36K   ├── micro.preview.png
   35K   ├── puredns.preview.png
   35K   ├── broot.preview.png
   33K   ├── fnm.preview.png
-  31K   ├── nezha-install.sh
   29K   ├── rustscan.preview.png
   27K   ├── zoxide.preview-1.png
   27K   ├── zoxide.preview-0.png
@@ -1323,7 +1327,6 @@
   26K   ├── smap.preview.png
   26K   ├── apk.sh
   26K   ├── ttyrec2ansi
-  25K   ├── sharun-lib4bin
   25K   ├── czkawka.preview.png
   24K   ├── goaccess.preview.png
   24K   ├── try
@@ -1368,6 +1371,7 @@
  2.0K   ├── sa2
  2.0K   ├── sa1
  2.0K   ├── pelf_linker
+ 2.0K   ├── nezha-install.sh
  1.5K   ├── sysstat
  1.5K   ├── serverstatus-gen-certs.sh
  1.5K   ├── pelf_extract
@@ -1390,5 +1394,8 @@
  512B   ├── METADATA.AIO.min.json.bsum
  512B   ├── METADATA.AIO.json.zstd.bsum
  512B   ├── METADATA.AIO.json.xz.bsum
- 512B   └── METADATA.AIO.json.bsum
+ 512B   ├── METADATA.AIO.json.bsum
+ 512B   ├── METADATA.AIO.db.zstd.bsum
+ 512B   ├── METADATA.AIO.db.xz.bsum
+ 512B   └── METADATA.AIO.db.bsum
 ```
