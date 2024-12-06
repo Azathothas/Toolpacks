@@ -6,7 +6,7 @@
 - **Author:** ip7z
 - **WebURL:** [https://www.7-zip.org](https://www.7-zip.org)
 - **Repository:** [https://github.com/ip7z/7zip](https://github.com/ip7z/7zip)
-- **Stars:** 919
+- **Stars:** 920
 - **Version:** 24.09
 - **Updated:** 2024-11-30T10:28:27Z
 - **Size:** 3.11 MB
@@ -26,7 +26,7 @@
 - **Author:** nektos
 - **WebURL:** [https://github.com/nektos/act](https://github.com/nektos/act)
 - **Repository:** [https://github.com/nektos/act](https://github.com/nektos/act)
-- **Stars:** 55949
+- **Stars:** 55958
 - **Version:** v0.2.70
 - **Updated:** 2024-12-02T02:55:53Z
 - **Size:** 17.54 MB
@@ -66,7 +66,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 17560
+- **Stars:** 17563
 - **Version:** v1.2.0
 - **Updated:** 2024-09-26T11:09:18Z
 - **Size:** 3.55 MB
@@ -86,7 +86,7 @@
 - **Author:** FiloSottile
 - **WebURL:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 - **Repository:** [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-- **Stars:** 17560
+- **Stars:** 17563
 - **Version:** v1.2.0
 - **Updated:** 2024-09-26T11:09:18Z
 - **Size:** 2.01 MB
@@ -266,7 +266,7 @@
 - **Author:** AlistGo
 - **WebURL:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
 - **Repository:** [https://github.com/alist-org/alist](https://github.com/alist-org/alist)
-- **Stars:** 44475
+- **Stars:** 44490
 - **Version:** v3.40.0
 - **Updated:** 2024-11-22T00:53:19Z
 - **Size:** 79.66 MB
@@ -346,7 +346,7 @@
 - **Author:** alpinelinux
 - **WebURL:** [https://github.com/alpinelinux/docker-alpine](https://github.com/alpinelinux/docker-alpine)
 - **Repository:** [https://github.com/alpinelinux/docker-alpine](https://github.com/alpinelinux/docker-alpine)
-- **Stars:** 1110
+- **Stars:** 1111
 - **Version:** 
 - **Updated:** 2024-12-05T12:49:25Z
 - **Size:** 21.58 MB
@@ -386,9 +386,9 @@
 - **Author:** owasp-amass
 - **WebURL:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
 - **Repository:** [https://github.com/owasp-amass/amass](https://github.com/owasp-amass/amass)
-- **Stars:** 12154
+- **Stars:** 12157
 - **Version:** v4.2.0
-- **Updated:** 2024-12-05T21:50:38Z
+- **Updated:** 2024-12-06T06:31:31Z
 - **Size:** 36.18 MB
 - **SHA256SUM:** 1ac4adf218bf77c73bcb727642a110ab9e7d4ab77d1520b796b26ae5e4ceafc4
 - **B3SUM:** 0a5541159a7860988d39a5d64a9b36388428bca23bd0df698db8af164d280261
@@ -546,7 +546,7 @@
 - **Author:** pystardust
 - **WebURL:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
 - **Repository:** [https://github.com/pystardust/ani-cli](https://github.com/pystardust/ani-cli)
-- **Stars:** 8107
+- **Stars:** 8115
 - **Version:** v4.9
 - **Updated:** 2024-11-18T11:52:15Z
 - **Size:** 23.69 KB
@@ -708,7 +708,7 @@
 - **Repository:** [https://github.com/Azathothas/docker-archlinux](https://github.com/Azathothas/docker-archlinux)
 - **Stars:** 1
 - **Version:** 
-- **Updated:** 2024-12-06T00:12:33Z
+- **Updated:** 2024-12-06T12:04:54Z
 - **Size:** 193.42 MB
 - **SHA256SUM:** ee3264b0439c690a799edd4aa9a1a2dc34b813bee019471feee3c4bd1cab73ac
 - **B3SUM:** 263a6a95911946766e33e73b457adf022c344e359a75b5de63af32bce5d0ed17
@@ -766,7 +766,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 36092
+- **Stars:** 36095
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
 - **Size:** 10.79 MB
@@ -786,7 +786,7 @@
 - **Author:** aria2
 - **WebURL:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 - **Repository:** [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-- **Stars:** 36092
+- **Stars:** 36095
 - **Version:** release-1.37.0
 - **Updated:** 2024-08-03T07:01:16Z
 - **Size:** 10.79 MB
@@ -826,7 +826,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
 - **Repository:** [https://github.com/projectdiscovery/asnmap](https://github.com/projectdiscovery/asnmap)
-- **Stars:** 782
+- **Stars:** 784
 - **Version:** v1.1.1
 - **Updated:** 2024-12-02T17:51:52Z
 - **Size:** 25.81 MB
@@ -846,7 +846,7 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
 - **Repository:** [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)
-- **Stars:** 3069
+- **Stars:** 3070
 - **Version:** v0.1.1
 - **Updated:** 2024-06-07T17:08:47Z
 - **Size:** 5.19 MB
@@ -868,7 +868,7 @@
 - **Repository:** [https://github.com/moul/assh](https://github.com/moul/assh)
 - **Stars:** 3075
 - **Version:** v2.16.0
-- **Updated:** 2024-12-05T20:37:00Z
+- **Updated:** 2024-12-06T01:43:29Z
 - **Size:** 8.57 MB
 - **SHA256SUM:** 33153568c94e4098aba05f12c6a3a56249e7833dbf692342d694074cad29eb7e
 - **B3SUM:** 1c182cd35f015223e41e38549a6e2a0ae19d82dc95d7f530693f465cf83942df
@@ -886,7 +886,7 @@
 - **Author:** atuinsh
 - **WebURL:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
 - **Repository:** [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
-- **Stars:** 21329
+- **Stars:** 21336
 - **Version:** v18.3.0
 - **Updated:** 2024-12-05T23:24:19Z
 - **Size:** 18.22 MB
@@ -1006,7 +1006,7 @@
 - **Author:** BLAKE3-team
 - **WebURL:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
 - **Repository:** [https://github.com/BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
-- **Stars:** 5240
+- **Stars:** 5239
 - **Version:** 1.5.5
 - **Updated:** 2024-11-27T02:39:11Z
 - **Size:** 915.12 KB
@@ -1026,9 +1026,9 @@
 - **Author:** imsnif
 - **WebURL:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
 - **Repository:** [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
-- **Stars:** 10164
+- **Stars:** 10165
 - **Version:** v0.23.1
-- **Updated:** 2024-12-04T18:30:44Z
+- **Updated:** 2024-12-06T04:43:34Z
 - **Size:** 2.65 MB
 - **SHA256SUM:** 11c01f0315e4c2d5f25ccae7eb081d84fcd64ff264ed206341199c56a7eb7400
 - **B3SUM:** d3ad8a94e0cdc66a97385880e3e615b0e14221bd42bb70cf9d8e0b33b8688019
@@ -1046,7 +1046,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 49980
+- **Stars:** 49987
 - **Version:** v0.24.0
 - **Updated:** 2024-12-01T17:16:06Z
 - **Size:** 5.57 MB
@@ -1066,7 +1066,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 - **Repository:** [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-- **Stars:** 49980
+- **Stars:** 49987
 - **Version:** v0.24.0
 - **Updated:** 2024-12-01T17:16:06Z
 - **Size:** 5.57 MB
@@ -1106,7 +1106,7 @@
 - **Author:** Bearer
 - **WebURL:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
 - **Repository:** [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer)
-- **Stars:** 2100
+- **Stars:** 2101
 - **Version:** v1.47.0
 - **Updated:** 2024-12-02T02:06:07Z
 - **Size:** 50.27 MB
@@ -1146,7 +1146,7 @@
 - **Author:** teddysun
 - **WebURL:** [https://github.com/teddysun/across](https://github.com/teddysun/across)
 - **Repository:** [https://github.com/teddysun/across](https://github.com/teddysun/across)
-- **Stars:** 5027
+- **Stars:** 5028
 - **Version:** 
 - **Updated:** 2024-12-03T09:53:05Z
 - **Size:** 15.13 KB
@@ -1166,9 +1166,9 @@
 - **Author:** berty
 - **WebURL:** [https://github.com/berty/berty](https://github.com/berty/berty)
 - **Repository:** [https://github.com/berty/berty](https://github.com/berty/berty)
-- **Stars:** 7651
+- **Stars:** 7652
 - **Version:** v2.470.7
-- **Updated:** 2024-12-02T17:39:16Z
+- **Updated:** 2024-12-06T13:03:24Z
 - **Size:** 80.81 MB
 - **SHA256SUM:** 779c2440647aefb45dd7bf7ffe8fc74ef7c0fabe16569792f7a48cd4ed4b7324
 - **B3SUM:** 8dc87e678658d0863806246865ac6191633373fa60ec5be98292bc741e66820b
@@ -1348,7 +1348,7 @@
 - **Repository:** [https://github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
 - **Stars:** 10129
 - **Version:** v2.4.3
-- **Updated:** 2024-12-05T10:39:54Z
+- **Updated:** 2024-12-06T11:16:32Z
 - **Size:** 15.4 MB
 - **SHA256SUM:** 9f704911d60812081388ee54f7173308e06404917b7d99cace626f57478e2166
 - **B3SUM:** 378924a1b288555409db08fde41b334d356562c77122ac7f721619a562bae3b7
@@ -1426,7 +1426,7 @@
 - **Author:** ekzhang
 - **WebURL:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
 - **Repository:** [https://github.com/ekzhang/bore](https://github.com/ekzhang/bore)
-- **Stars:** 8689
+- **Stars:** 8691
 - **Version:** v0.5.2
 - **Updated:** 2024-12-05T18:44:54Z
 - **Size:** 1.27 MB
@@ -1446,7 +1446,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/boringtun](https://github.com/cloudflare/boringtun)
 - **Repository:** [https://github.com/cloudflare/boringtun](https://github.com/cloudflare/boringtun)
-- **Stars:** 6150
+- **Stars:** 6151
 - **Version:** boringtun-cli-0.5.2
 - **Updated:** 2024-10-14T20:25:17Z
 - **Size:** 2.01 MB
@@ -1486,7 +1486,7 @@
 - **Author:** ClementTsang
 - **WebURL:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
 - **Repository:** [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
-- **Stars:** 10384
+- **Stars:** 10389
 - **Version:** 0.10.2
 - **Updated:** 2024-12-06T00:38:53Z
 - **Size:** 3.89 MB
@@ -1506,7 +1506,7 @@
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8713
+- **Stars:** 8717
 - **Version:** v0.21.2
 - **Updated:** 2024-12-04T17:21:00Z
 - **Size:** 45.2 MB
@@ -1526,7 +1526,7 @@
 - **Author:** bpftrace
 - **WebURL:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 - **Repository:** [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
-- **Stars:** 8713
+- **Stars:** 8717
 - **Version:** v0.21.2
 - **Updated:** 2024-12-04T17:21:00Z
 - **Size:** 2.67 MB
@@ -1566,7 +1566,7 @@
 - **Author:** txthinking
 - **WebURL:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
 - **Repository:** [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
-- **Stars:** 14648
+- **Stars:** 14650
 - **Version:** v20240606
 - **Updated:** 2024-11-17T02:27:26Z
 - **Size:** 19.55 MB
@@ -1586,7 +1586,7 @@
 - **Author:** Canop
 - **WebURL:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
 - **Repository:** [https://github.com/Canop/broot](https://github.com/Canop/broot)
-- **Stars:** 10845
+- **Stars:** 10846
 - **Version:** v1.44.2
 - **Updated:** 2024-12-03T14:43:26Z
 - **Size:** 9.96 MB
@@ -1626,7 +1626,7 @@
 - **Author:** aristocratos
 - **WebURL:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
 - **Repository:** [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
-- **Stars:** 21396
+- **Stars:** 21411
 - **Version:** v1.4.0
 - **Updated:** 2024-11-08T16:25:16Z
 - **Size:** 2.29 MB
@@ -1746,7 +1746,7 @@
 - **Author:** caddyserver
 - **WebURL:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 - **Repository:** [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
-- **Stars:** 58772
+- **Stars:** 58795
 - **Version:** v2.8.4
 - **Updated:** 2024-12-05T21:10:40Z
 - **Size:** 39.34 MB
@@ -1866,7 +1866,7 @@
 - **Author:** xm1k3
 - **WebURL:** [https://github.com/xm1k3/cent](https://github.com/xm1k3/cent)
 - **Repository:** [https://github.com/xm1k3/cent](https://github.com/xm1k3/cent)
-- **Stars:** 882
+- **Stars:** 883
 - **Version:** v1.3.4
 - **Updated:** 2024-06-14T11:29:37Z
 - **Size:** 12.72 MB
@@ -1948,7 +1948,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 4.8 MB
 - **SHA256SUM:** 5c3b769704a79f5d48fc6f478f826bc0b76761b148bd9f9d2b16c7334242e7d5
 - **B3SUM:** 7d1c3016d18a5ae9c22302d9cf5dd8d56064e4b8d9d499b3fb2d6f8f6001308d
@@ -2046,7 +2046,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 11.51 MB
@@ -2066,7 +2066,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 8.26 MB
@@ -2086,7 +2086,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 8.12 MB
@@ -2106,7 +2106,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 9.45 MB
@@ -2126,7 +2126,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 8.53 MB
@@ -2146,7 +2146,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 6.06 MB
@@ -2166,7 +2166,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 4.87 MB
@@ -2186,7 +2186,7 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
 - **Repository:** [https://github.com/cloudflare/cfssl](https://github.com/cloudflare/cfssl)
-- **Stars:** 8797
+- **Stars:** 8798
 - **Version:** v1.6.5
 - **Updated:** 2024-10-15T19:24:45Z
 - **Size:** 11.31 MB
@@ -2226,7 +2226,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/chaos-client](https://github.com/projectdiscovery/chaos-client)
 - **Repository:** [https://github.com/projectdiscovery/chaos-client](https://github.com/projectdiscovery/chaos-client)
-- **Stars:** 655
+- **Stars:** 656
 - **Version:** v0.5.2
 - **Updated:** 2024-12-02T13:59:43Z
 - **Size:** 25.5 MB
@@ -2246,7 +2246,7 @@
 - **Author:** cheat
 - **WebURL:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - **Repository:** [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
-- **Stars:** 12468
+- **Stars:** 12470
 - **Version:** 4.4.2
 - **Updated:** 2024-07-29T06:38:08Z
 - **Size:** 11.1 MB
@@ -2286,7 +2286,7 @@
 - **Author:** jpillora
 - **WebURL:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
 - **Repository:** [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
-- **Stars:** 13715
+- **Stars:** 13716
 - **Version:** v1.10.1
 - **Updated:** 2024-09-28T23:35:13Z
 - **Size:** 8.99 MB
@@ -2446,7 +2446,7 @@
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
-- **Stars:** 3435
+- **Stars:** 3436
 - **Version:** v2.10.0
 - **Updated:** 2024-10-11T19:46:00Z
 - **Size:** 6.83 MB
@@ -2466,7 +2466,7 @@
 - **Author:** cbeuw
 - **WebURL:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
 - **Repository:** [https://github.com/cbeuw/Cloak](https://github.com/cbeuw/Cloak)
-- **Stars:** 3435
+- **Stars:** 3436
 - **Version:** v2.10.0
 - **Updated:** 2024-10-11T19:46:00Z
 - **Size:** 6.56 MB
@@ -2506,9 +2506,9 @@
 - **Author:** cloudflare
 - **WebURL:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
 - **Repository:** [https://github.com/cloudflare/cloudflared](https://github.com/cloudflare/cloudflared)
-- **Stars:** 9407
+- **Stars:** 9410
 - **Version:** 2024.11.1
-- **Updated:** 2024-12-05T22:14:07Z
+- **Updated:** 2024-12-06T13:05:17Z
 - **Size:** 24.67 MB
 - **SHA256SUM:** de500854cde0414c033904215afa3769c485741c27b5e41c157e66d89a14db42
 - **B3SUM:** 893294235abc20b9888d6c75f60f9e690b5372158d2d7723dbb99036cff3bc6e
@@ -2526,7 +2526,7 @@
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
 - **Repository:** [https://github.com/BishopFox/cloudfox](https://github.com/BishopFox/cloudfox)
-- **Stars:** 1970
+- **Stars:** 1972
 - **Version:** v1.15.0
 - **Updated:** 2024-10-17T11:38:01Z
 - **Size:** 145.89 MB
@@ -2546,7 +2546,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/cloudlist](https://github.com/projectdiscovery/cloudlist)
 - **Repository:** [https://github.com/projectdiscovery/cloudlist](https://github.com/projectdiscovery/cloudlist)
-- **Stars:** 868
+- **Stars:** 869
 - **Version:** v1.1.0
 - **Updated:** 2024-12-02T06:17:41Z
 - **Size:** 116.69 MB
@@ -2566,7 +2566,7 @@
 - **Author:** cloudreve
 - **WebURL:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
 - **Repository:** [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
-- **Stars:** 22052
+- **Stars:** 22056
 - **Version:** 3.8.3
 - **Updated:** 2024-10-25T05:31:22Z
 - **Size:** 33.89 MB
@@ -2586,9 +2586,9 @@
 - **Author:** YiNNx
 - **WebURL:** [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
 - **Repository:** [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
-- **Stars:** 1055
+- **Stars:** 1058
 - **Version:** v0.4.1
-- **Updated:** 2024-09-07T06:14:55Z
+- **Updated:** 2024-12-06T09:19:38Z
 - **Size:** 2.32 MB
 - **SHA256SUM:** 29f25cc61d4906255745d6dcc77e8b68eb2e143c64b34e28cc64638a216bdd3c
 - **B3SUM:** 558e18bf2390987e2c1e7bc0844b46d98b96ceffb7a2b6e32de9dd12c4ee8f6c
@@ -2748,7 +2748,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 1.49 MB
 - **SHA256SUM:** cac938a79537628e380d4d8d1ce70e8e982c8d9dc57f95223a2f2ddc8469413f
 - **B3SUM:** 573203f1ffefd955927fa9853bf3592434044a4c302ebd585fe4c2fded962e4c
@@ -2766,9 +2766,9 @@
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
 - **Repository:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
-- **Stars:** 17609
+- **Stars:** 17612
 - **Version:** v2.0.0
-- **Updated:** 2024-12-06T01:06:25Z
+- **Updated:** 2024-12-06T01:28:29Z
 - **Size:** 38.44 MB
 - **SHA256SUM:** 3d866d7ca8b871efd4bf4571de68b496710b04eb551146965bf65d100838fe0a
 - **B3SUM:** 63d082ef8242d7eb652a895bfd7847f6dbdd0e2171032a5635393e7f69c81eda
@@ -2788,7 +2788,7 @@
 - **Repository:** [https://github.com/replydev/cotp](https://github.com/replydev/cotp)
 - **Stars:** 258
 - **Version:** v1.9.2
-- **Updated:** 2024-12-04T20:10:29Z
+- **Updated:** 2024-12-06T11:01:45Z
 - **Size:** 2.51 MB
 - **SHA256SUM:** cb39759327617dc5f614b1c0b83e2c92761a9fc4e8aba86b53cb6364733b7521
 - **B3SUM:** b5108d6e9a4f6d5f15dc8669bfd79a641c0b8fedb4b1f4d1c79b8ef758cd0ced
@@ -2986,7 +2986,7 @@
 - **Author:** Dr-Noob
 - **WebURL:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
 - **Repository:** [https://github.com/Dr-Noob/cpufetch](https://github.com/Dr-Noob/cpufetch)
-- **Stars:** 1910
+- **Stars:** 1911
 - **Version:** v1.06
 - **Updated:** 2024-10-10T07:40:36Z
 - **Size:** 282.9 KB
@@ -3026,9 +3026,9 @@
 - **Author:** kubernetes-sigs
 - **WebURL:** [https://github.com/kubernetes-sigs/cri-tools](https://github.com/kubernetes-sigs/cri-tools)
 - **Repository:** [https://github.com/kubernetes-sigs/cri-tools](https://github.com/kubernetes-sigs/cri-tools)
-- **Stars:** 1696
+- **Stars:** 1697
 - **Version:** v1.31.1
-- **Updated:** 2024-12-05T07:39:09Z
+- **Updated:** 2024-12-06T09:22:10Z
 - **Size:** 26.02 MB
 - **SHA256SUM:** 584766102eae68499eee747375fd11a21c1dfb1f944f0c79744e2de8201de3f9
 - **B3SUM:** 137c32339af8d1a9ea044110c3e2403e59e54b5033263dbc62ad05c05698510b
@@ -3066,7 +3066,7 @@
 - **Author:** schollz
 - **WebURL:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
 - **Repository:** [https://github.com/schollz/croc](https://github.com/schollz/croc)
-- **Stars:** 28278
+- **Stars:** 28282
 - **Version:** v10.1.1
 - **Updated:** 2024-12-05T08:28:03Z
 - **Size:** 9.04 MB
@@ -3248,7 +3248,7 @@
 - **Repository:** [https://github.com/shenwei356/csvtk](https://github.com/shenwei356/csvtk)
 - **Stars:** 1022
 - **Version:** v0.32.0
-- **Updated:** 2024-12-05T13:03:45Z
+- **Updated:** 2024-12-06T03:29:14Z
 - **Size:** 20.64 MB
 - **SHA256SUM:** 6d34633662ec83decb7e9c4bb1b00f2bf8e9794f8210fea501d020b4925ab3fc
 - **B3SUM:** ad23efe7f4741f10e565856584760fce4c3dce10919e66e20eaee5148249b65b
@@ -3308,7 +3308,7 @@
 - **Repository:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
 - **Stars:** 76
 - **Version:** v0.5.15
-- **Updated:** 2024-08-31T09:31:25Z
+- **Updated:** 2024-12-06T06:59:58Z
 - **Size:** 9.05 MB
 - **SHA256SUM:** 23aa14c79493357f028f78a68b143dc30be6c9bf4cbd46fd680f1737d4d0488c
 - **B3SUM:** 8c4c6ea9a16e19489e382c69e1f236b3d39df98350d47c32ac17be6cdbdd9448
@@ -3328,7 +3328,7 @@
 - **Repository:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
 - **Stars:** 76
 - **Version:** v0.5.15
-- **Updated:** 2024-08-31T09:31:25Z
+- **Updated:** 2024-12-06T06:59:58Z
 - **Size:** 3.05 MB
 - **SHA256SUM:** 2acd2e560637912f8814ea2ffbd025e0b65019a3c91ba336305d25878552705d
 - **B3SUM:** 01565cb0d82e18aff813e014ee3791d230cbf1b9b2e44cacc3ab27c51abdbea9
@@ -3348,7 +3348,7 @@
 - **Repository:** [https://github.com/ctrsploit/ctrsploit](https://github.com/ctrsploit/ctrsploit)
 - **Stars:** 76
 - **Version:** v0.5.15
-- **Updated:** 2024-08-31T09:31:25Z
+- **Updated:** 2024-12-06T06:59:58Z
 - **Size:** 2.99 MB
 - **SHA256SUM:** 87a8625f73a6047a4ee34eb2fc40c241ddab0ad8a3e8920a725792d3ea764b92
 - **B3SUM:** 44888fb4bb0adcbd5042e53dc4be4a07d251ef6aaf9ec6cb4bbcb9b5d02d7127
@@ -3448,7 +3448,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 2.01 MB
 - **SHA256SUM:** c5561017e96407ba4289b50e62a19c73d1e2b2f34eeeae7e74ea652c09a29dcf
 - **B3SUM:** 7b47fd62922723e854511417e4b228a0a9161599a67886473f9fa59a4fd4e059
@@ -3546,9 +3546,9 @@
 - **Author:** dagger
 - **WebURL:** [https://github.com/dagger/dagger](https://github.com/dagger/dagger)
 - **Repository:** [https://github.com/dagger/dagger](https://github.com/dagger/dagger)
-- **Stars:** 11549
+- **Stars:** 11553
 - **Version:** v0.14.0
-- **Updated:** 2024-12-06T00:34:59Z
+- **Updated:** 2024-12-06T12:17:59Z
 - **Size:** 28.7 MB
 - **SHA256SUM:** 117338b65eafca39b5231d2b5b466fd16b2b2ff658a97eb219a18f0db390879a
 - **B3SUM:** 4c1cbabdc18e8e0c2f76c26df5021463faf395da741f976ac8d9e65dbd1ec451
@@ -3567,8 +3567,8 @@
 - **WebURL:** [https://github.com/dagu-dev/dagu](https://github.com/dagu-dev/dagu)
 - **Repository:** [https://github.com/dagu-dev/dagu](https://github.com/dagu-dev/dagu)
 - **Stars:** 1676
-- **Version:** v1.14.8
-- **Updated:** 2024-12-01T01:43:56Z
+- **Version:** v1.15.0
+- **Updated:** 2024-12-06T07:28:41Z
 - **Size:** 26.62 MB
 - **SHA256SUM:** e55c66ae7c208926003644401d1d588b99153ff038cb4d6d4574ade2534efad8
 - **B3SUM:** dfbcdae45aa0c1083cdf5dc12b050724637bd92817c72a36a8d9f9a2e594a427
@@ -3706,7 +3706,7 @@
 - **Author:** xplshn
 - **WebURL:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
 - **Repository:** [https://github.com/xplshn/dbin](https://github.com/xplshn/dbin)
-- **Stars:** 167
+- **Stars:** 171
 - **Version:** 0.7
 - **Updated:** 2024-12-05T23:22:05Z
 - **Size:** 8.42 MB
@@ -3726,7 +3726,7 @@
 - **Author:** danvergara
 - **WebURL:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
 - **Repository:** [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
-- **Stars:** 2423
+- **Stars:** 2425
 - **Version:** v0.29.0
 - **Updated:** 2024-11-19T15:33:55Z
 - **Size:** 31.74 MB
@@ -3746,7 +3746,7 @@
 - **Author:** jeessy2
 - **WebURL:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
 - **Repository:** [https://github.com/jeessy2/ddns-go](https://github.com/jeessy2/ddns-go)
-- **Stars:** 12389
+- **Stars:** 12405
 - **Version:** v6.7.6
 - **Updated:** 2024-12-05T10:44:47Z
 - **Size:** 8.89 MB
@@ -3826,7 +3826,7 @@
 - **Author:** dandavison
 - **WebURL:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
 - **Repository:** [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
-- **Stars:** 24667
+- **Stars:** 24674
 - **Version:** 0.18.2
 - **Updated:** 2024-12-02T23:19:41Z
 - **Size:** 5.57 MB
@@ -3846,7 +3846,7 @@
 - **Author:** EgeBalci
 - **WebURL:** [https://github.com/EgeBalci/deoptimizer](https://github.com/EgeBalci/deoptimizer)
 - **Repository:** [https://github.com/EgeBalci/deoptimizer](https://github.com/EgeBalci/deoptimizer)
-- **Stars:** 335
+- **Stars:** 333
 - **Version:** v0.1.2
 - **Updated:** 2024-07-22T23:04:47Z
 - **Size:** 3 MB
@@ -3946,7 +3946,7 @@
 - **Author:** jetify-com
 - **WebURL:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
 - **Repository:** [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
-- **Stars:** 8894
+- **Stars:** 8900
 - **Version:** 0.13.6
 - **Updated:** 2024-12-05T23:27:53Z
 - **Size:** 27.2 MB
@@ -3966,9 +3966,9 @@
 - **Author:** loft-sh
 - **WebURL:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
 - **Repository:** [https://github.com/loft-sh/devpod](https://github.com/loft-sh/devpod)
-- **Stars:** 9602
+- **Stars:** 9605
 - **Version:** v0.6.3
-- **Updated:** 2024-12-05T13:15:41Z
+- **Updated:** 2024-12-06T13:05:45Z
 - **Size:** 82.62 MB
 - **SHA256SUM:** 7e73b14c803f369fdb391bb087cd3003a1e7e87f7867472288d2dc911f4d7236
 - **B3SUM:** d02127fbdc65692c48ff8408dff15fc2d9ce84bb5c8ff95f550a61215e3f1bd2
@@ -4026,7 +4026,7 @@
 - **Author:** direnv
 - **WebURL:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
 - **Repository:** [https://github.com/direnv/direnv](https://github.com/direnv/direnv)
-- **Stars:** 12678
+- **Stars:** 12681
 - **Version:** v2.35.0
 - **Updated:** 2024-11-20T20:38:49Z
 - **Size:** 6.62 MB
@@ -4066,7 +4066,7 @@
 - **Author:** wagoodman
 - **WebURL:** [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive)
 - **Repository:** [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive)
-- **Stars:** 48142
+- **Stars:** 48153
 - **Version:** v0.12.0
 - **Updated:** 2024-07-15T05:05:37Z
 - **Size:** 9.87 MB
@@ -4146,7 +4146,7 @@
 - **Author:** ameshkov
 - **WebURL:** [https://github.com/ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
 - **Repository:** [https://github.com/ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
-- **Stars:** 861
+- **Stars:** 862
 - **Version:** v1.11.1
 - **Updated:** 2024-07-26T11:44:56Z
 - **Size:** 7.3 MB
@@ -4546,7 +4546,7 @@
 - **Author:** NilsIrl
 - **WebURL:** [https://github.com/NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
 - **Repository:** [https://github.com/NilsIrl/dockerc](https://github.com/NilsIrl/dockerc)
-- **Stars:** 3667
+- **Stars:** 3742
 - **Version:** v0.3.2
 - **Updated:** 2024-11-02T04:00:37Z
 - **Size:** 67.47 MB
@@ -4726,7 +4726,7 @@
 - **Author:** muesli
 - **WebURL:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
 - **Repository:** [https://github.com/muesli/duf](https://github.com/muesli/duf)
-- **Stars:** 12951
+- **Stars:** 12954
 - **Version:** v0.8.1
 - **Updated:** 2024-07-30T09:50:14Z
 - **Size:** 2.24 MB
@@ -4746,7 +4746,7 @@
 - **Author:** sigoden
 - **WebURL:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
 - **Repository:** [https://github.com/sigoden/dufs](https://github.com/sigoden/dufs)
-- **Stars:** 6575
+- **Stars:** 6578
 - **Version:** v0.43.0
 - **Updated:** 2024-11-16T10:26:26Z
 - **Size:** 3.59 MB
@@ -4766,7 +4766,7 @@
 - **Author:** tkellogg
 - **WebURL:** [https://github.com/tkellogg/dura](https://github.com/tkellogg/dura)
 - **Repository:** [https://github.com/tkellogg/dura](https://github.com/tkellogg/dura)
-- **Stars:** 4304
+- **Stars:** 4305
 - **Version:** v0.2.0
 - **Updated:** 2023-10-02T00:18:51Z
 - **Size:** 7.68 MB
@@ -4806,7 +4806,7 @@
 - **Author:** mhx
 - **WebURL:** [https://github.com/mhx/dwarfs](https://github.com/mhx/dwarfs)
 - **Repository:** [https://github.com/mhx/dwarfs](https://github.com/mhx/dwarfs)
-- **Stars:** 2170
+- **Stars:** 2169
 - **Version:** v0.10.2
 - **Updated:** 2024-12-03T20:30:48Z
 - **Size:** 13.32 MB
@@ -4966,7 +4966,7 @@
 - **Author:** elves
 - **WebURL:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
 - **Repository:** [https://github.com/elves/elvish](https://github.com/elves/elvish)
-- **Stars:** 5747
+- **Stars:** 5748
 - **Version:** v0.21.0
 - **Updated:** 2024-11-22T14:51:21Z
 - **Size:** 7.02 MB
@@ -5066,7 +5066,7 @@
 - **Author:** eradman
 - **WebURL:** [https://eradman.com/entrproject/](https://eradman.com/entrproject/)
 - **Repository:** [https://github.com/eradman/entr](https://github.com/eradman/entr)
-- **Stars:** 4666
+- **Stars:** 4667
 - **Version:** 5.6
 - **Updated:** 2024-09-27T07:53:09Z
 - **Size:** 132.85 KB
@@ -5126,7 +5126,7 @@
 - **Author:** evanw
 - **WebURL:** [https://esbuild.github.io](https://esbuild.github.io)
 - **Repository:** [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
-- **Stars:** 38280
+- **Stars:** 38284
 - **Version:** v0.24.0
 - **Updated:** 2024-10-21T20:49:51Z
 - **Size:** 10.62 MB
@@ -5146,9 +5146,9 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47994
+- **Stars:** 47996
 - **Version:** v3.5.17
-- **Updated:** 2024-12-05T11:18:49Z
+- **Updated:** 2024-12-06T09:20:19Z
 - **Size:** 22.86 MB
 - **SHA256SUM:** 869f0722f532ea001141b1b4df8964f8b8ce3125da84e10bab6ca77c3a8d3782
 - **B3SUM:** 7ec641f774fe682da8d1f8198e1a052dc4ad99cf5f5857d6755210de33e10e1c
@@ -5166,9 +5166,9 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47994
+- **Stars:** 47996
 - **Version:** v3.5.17
-- **Updated:** 2024-12-05T11:18:49Z
+- **Updated:** 2024-12-06T09:20:19Z
 - **Size:** 17.35 MB
 - **SHA256SUM:** 05c4220334053b875f43e0170a206b9b4d10cdef5107a80052d6a221cd7e061e
 - **B3SUM:** 9b9a25e1f32e554e51b4d93055570d239ce398e1b6581cae2657469eefcccbc4
@@ -5186,9 +5186,9 @@
 - **Author:** etcd-io
 - **WebURL:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 - **Repository:** [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **Stars:** 47994
+- **Stars:** 47996
 - **Version:** v3.5.17
-- **Updated:** 2024-12-05T11:18:49Z
+- **Updated:** 2024-12-06T09:20:19Z
 - **Size:** 14.51 MB
 - **SHA256SUM:** 18b48188cd31d36236df682a2d99b8555ad804d105ab31870f83d4bce6e980eb
 - **B3SUM:** 2ef557556653809c336079a63ef174309b09a5e66497f29c32a10121144c1147
@@ -5226,7 +5226,7 @@
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
-- **Stars:** 1920
+- **Stars:** 1921
 - **Version:** v1.3.0
 - **Updated:** 2024-12-04T08:45:43Z
 - **Size:** 19.31 MB
@@ -5246,7 +5246,7 @@
 - **Author:** varbhat
 - **WebURL:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
 - **Repository:** [https://github.com/varbhat/exatorrent](https://github.com/varbhat/exatorrent)
-- **Stars:** 1920
+- **Stars:** 1921
 - **Version:** v1.3.0
 - **Updated:** 2024-12-04T08:45:43Z
 - **Size:** 19.12 MB
@@ -5286,9 +5286,9 @@
 - **Author:** eza-community
 - **WebURL:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
 - **Repository:** [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
-- **Stars:** 12691
+- **Stars:** 12697
 - **Version:** v0.20.11
-- **Updated:** 2024-12-05T19:20:49Z
+- **Updated:** 2024-12-06T11:48:11Z
 - **Size:** 2.28 MB
 - **SHA256SUM:** 8837a1c1c5248c242bc534ceafcf4b39a9b86ec1a48ff31ecfd0c6b3474f7447
 - **B3SUM:** 8f99e9726d0852c571b79a0da934d9a882b0efefff0b523df98eeff53eeecfbe
@@ -5326,7 +5326,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 11062
+- **Stars:** 11070
 - **Version:** 2.31.0
 - **Updated:** 2024-12-05T06:16:40Z
 - **Size:** 1.84 MB
@@ -5346,7 +5346,7 @@
 - **Author:** fastfetch-cli
 - **WebURL:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Repository:** [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- **Stars:** 11062
+- **Stars:** 11070
 - **Version:** 2.31.0
 - **Updated:** 2024-12-05T06:16:40Z
 - **Size:** 1.65 MB
@@ -5406,7 +5406,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- **Stars:** 34376
+- **Stars:** 34379
 - **Version:** v10.2.0
 - **Updated:** 2024-12-02T16:16:39Z
 - **Size:** 3.44 MB
@@ -5426,7 +5426,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - **Repository:** [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- **Stars:** 34376
+- **Stars:** 34379
 - **Version:** v10.2.0
 - **Updated:** 2024-12-02T16:16:39Z
 - **Size:** 3.44 MB
@@ -5446,7 +5446,7 @@
 - **Author:** adrianlopezroche
 - **WebURL:** [https://github.com/adrianlopezroche/fdupes](https://github.com/adrianlopezroche/fdupes)
 - **Repository:** [https://github.com/adrianlopezroche/fdupes](https://github.com/adrianlopezroche/fdupes)
-- **Stars:** 2531
+- **Stars:** 2532
 - **Version:** v2.3.2
 - **Updated:** 2024-07-15T00:27:16Z
 - **Size:** 2.38 MB
@@ -5546,7 +5546,7 @@
 - **Author:** ffuf
 - **WebURL:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
 - **Repository:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
-- **Stars:** 12825
+- **Stars:** 12826
 - **Version:** v2.1.0
 - **Updated:** 2024-06-30T06:46:22Z
 - **Size:** 7.82 MB
@@ -5608,7 +5608,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 4.99 MB
 - **SHA256SUM:** 291bc6ee44ee0f829cfc28d23a01a8d78f2489674230e99f0def67a50be8dbb1
 - **B3SUM:** d17f5aa1b0ed1e37e9794c783dee90e88d492b4253979e93d976e4891c08b300
@@ -5626,7 +5626,7 @@
 - **Author:** sfan5
 - **WebURL:** [https://github.com/sfan5/fi6s](https://github.com/sfan5/fi6s)
 - **Repository:** [https://github.com/sfan5/fi6s](https://github.com/sfan5/fi6s)
-- **Stars:** 166
+- **Stars:** 167
 - **Version:** 
 - **Updated:** 2024-04-28T21:00:28Z
 - **Size:** 395.4 KB
@@ -5646,7 +5646,7 @@
 - **Author:** filebrowser
 - **WebURL:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
 - **Repository:** [https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
-- **Stars:** 27042
+- **Stars:** 27046
 - **Version:** v2.31.2
 - **Updated:** 2024-12-03T11:55:24Z
 - **Size:** 16.45 MB
@@ -5708,7 +5708,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 313
 - **Version:** 0.7.0
-- **Updated:** 2024-12-04T03:20:58Z
+- **Updated:** 2024-12-06T03:24:22Z
 - **Size:** 3.07 MB
 - **SHA256SUM:** d10aead3bf72d892063ef41589fc146271b1f09b4dcedd49458064c74a422f4c
 - **B3SUM:** e63c127ee466efeb9891ccb32610298de366a8e1bccfffff076bef70a997f8ae
@@ -5728,7 +5728,7 @@
 - **Repository:** [https://github.com/uutils/findutils](https://github.com/uutils/findutils)
 - **Stars:** 313
 - **Version:** 0.7.0
-- **Updated:** 2024-12-04T03:20:58Z
+- **Updated:** 2024-12-06T03:24:22Z
 - **Size:** 1.36 MB
 - **SHA256SUM:** d0cfa7bb4b601570cf9eb8119919f9ed6e72946e71cb73d339c62748d94c10c6
 - **B3SUM:** fa5f43412c7d40550c85e001069133c31e2cbbe620e0ab4f60b1eabee6eca671
@@ -5766,7 +5766,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 36.37 MB
@@ -5786,7 +5786,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 159.57 MB
@@ -5806,7 +5806,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 141.52 MB
@@ -5826,7 +5826,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 26.07 MB
@@ -5846,7 +5846,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 43.97 MB
@@ -5866,7 +5866,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 88.22 MB
@@ -5886,7 +5886,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 68.57 MB
@@ -5906,7 +5906,7 @@
 - **Author:** ruanformigoni
 - **WebURL:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
 - **Repository:** [https://github.com/ruanformigoni/flatimage](https://github.com/ruanformigoni/flatimage)
-- **Stars:** 75
+- **Stars:** 76
 - **Version:** v1.0.6
 - **Updated:** 2024-11-16T15:09:55Z
 - **Size:** 62.05 MB
@@ -5926,9 +5926,9 @@
 - **Author:** orhun
 - **WebURL:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
 - **Repository:** [https://github.com/orhun/flawz](https://github.com/orhun/flawz)
-- **Stars:** 418
+- **Stars:** 419
 - **Version:** v0.3.0
-- **Updated:** 2024-12-04T07:13:07Z
+- **Updated:** 2024-12-06T07:41:25Z
 - **Size:** 8.95 MB
 - **SHA256SUM:** de3999d35d6a98f185842e5c37e2f53fa73a3a503b7b11ba41d4fd8024add556
 - **B3SUM:** 1b98d2428e5c255cf806d4ba18162011cc065ca0a33e80612d97257982c95b92
@@ -5946,7 +5946,7 @@
 - **Author:** Schniz
 - **WebURL:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 - **Repository:** [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
-- **Stars:** 18532
+- **Stars:** 18543
 - **Version:** v1.38.1
 - **Updated:** 2024-12-06T00:48:03Z
 - **Size:** 6.07 MB
@@ -5966,7 +5966,7 @@
 - **Author:** wader
 - **WebURL:** [https://github.com/wader/fq](https://github.com/wader/fq)
 - **Repository:** [https://github.com/wader/fq](https://github.com/wader/fq)
-- **Stars:** 9794
+- **Stars:** 9793
 - **Version:** v0.13.0
 - **Updated:** 2024-12-05T16:27:15Z
 - **Size:** 12.12 MB
@@ -5986,7 +5986,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
 - **Repository:** [https://github.com/charmbracelet/freeze](https://github.com/charmbracelet/freeze)
-- **Stars:** 3458
+- **Stars:** 3460
 - **Version:** v0.1.6
 - **Updated:** 2024-12-05T05:41:04Z
 - **Size:** 12.92 MB
@@ -6006,7 +6006,7 @@
 - **Author:** shadow1ng
 - **WebURL:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
 - **Repository:** [https://github.com/shadow1ng/fscan](https://github.com/shadow1ng/fscan)
-- **Stars:** 10895
+- **Stars:** 10900
 - **Version:** 1.8.4
 - **Updated:** 2024-10-25T08:41:45Z
 - **Size:** 33.78 MB
@@ -6106,7 +6106,7 @@
 - **Author:** fyne-io
 - **WebURL:** [https://fyne.io](https://fyne.io)
 - **Repository:** [https://github.com/fyne-io/fyne](https://github.com/fyne-io/fyne)
-- **Stars:** 25317
+- **Stars:** 25321
 - **Version:** v2.5.2
 - **Updated:** 2024-12-04T22:04:48Z
 - **Size:** 13.59 MB
@@ -6126,7 +6126,7 @@
 - **Author:** junegunn
 - **WebURL:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - **Repository:** [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-- **Stars:** 66019
+- **Stars:** 66030
 - **Version:** v0.56.3
 - **Updated:** 2024-12-03T11:34:27Z
 - **Size:** 3.71 MB
@@ -6206,7 +6206,7 @@
 - **Author:** dundee
 - **WebURL:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - **Repository:** [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
-- **Stars:** 4019
+- **Stars:** 4023
 - **Version:** v5.29.0
 - **Updated:** 2024-12-01T10:13:44Z
 - **Size:** 13.51 MB
@@ -6226,7 +6226,7 @@
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
 - **Repository:** [https://github.com/svenstaro/genact](https://github.com/svenstaro/genact)
-- **Stars:** 9755
+- **Stars:** 9760
 - **Version:** v1.4.2
 - **Updated:** 2024-12-01T14:31:09Z
 - **Size:** 1.29 MB
@@ -6328,7 +6328,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 5.64 MB
 - **SHA256SUM:** 2eb06dadf70da7b91f6bd2ae457fd4b038275fa9751c1ecafee8c75d6a213357
 - **B3SUM:** e6601e1b02b09e42f30c38c41d292f7629df9ceeb493a79fc4bfe5281bb6bf49
@@ -6446,7 +6446,7 @@
 - **Author:** cli
 - **WebURL:** [https://github.com/cli/cli](https://github.com/cli/cli)
 - **Repository:** [https://github.com/cli/cli](https://github.com/cli/cli)
-- **Stars:** 37509
+- **Stars:** 37513
 - **Version:** v2.63.2
 - **Updated:** 2024-12-05T18:15:12Z
 - **Size:** 49.76 MB
@@ -6468,13 +6468,33 @@
 - **Repository:** [https://github.com/orangekame3/ghfetch](https://github.com/orangekame3/ghfetch)
 - **Stars:** 46
 - **Version:** v0.0.19
-- **Updated:** 2024-12-06T00:05:39Z
+- **Updated:** 2024-12-06T12:03:23Z
 - **Size:** 9.02 MB
 - **SHA256SUM:** f831d847b10170a404950f9d09042667ba7b6c05d9706809b744503c1b04d111
 - **B3SUM:** 0b715559f16d861fe7f50b9e7c05072b5cc001747627d0e065c9ec967529509c
 - **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ghfetch
 - **Language:** Go
 - **License:** MIT License
+
+---
+
+### ghorg
+- **Log:** 
+- **Script:** https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ghorg.sh
+- **Description:** Quickly clone or backup an entire org/users repositories into one directory
+- **Note:** 
+- **Author:** gabrie30
+- **WebURL:** [https://github.com/gabrie30/ghorg](https://github.com/gabrie30/ghorg)
+- **Repository:** [https://github.com/gabrie30/ghorg](https://github.com/gabrie30/ghorg)
+- **Stars:** 1605
+- **Version:** v1.11.0
+- **Updated:** 2024-12-03T14:03:44Z
+- **Size:** 26.34 MB
+- **SHA256SUM:** 82051f66026242d21c3086f0b3edbfcc3b0b2eadc4925555a091a9f2aa98d833
+- **B3SUM:** 7a14a2ef82d4ada87c3ddb83aa7ba03e77977958c7b789671c49e1958d157059
+- **Source:** https://bin.ajam.dev/aarch64_arm64_Linux/ghorg
+- **Language:** Go
+- **License:** Apache License 2.0
 
 ---
 
@@ -6546,7 +6566,7 @@
 - **Author:** git-lfs
 - **WebURL:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
 - **Repository:** [https://github.com/git-lfs/git-lfs](https://github.com/git-lfs/git-lfs)
-- **Stars:** 13061
+- **Stars:** 13063
 - **Version:** v3.6.0
 - **Updated:** 2024-12-02T19:08:39Z
 - **Size:** 11.77 MB
@@ -6566,7 +6586,7 @@
 - **Author:** github
 - **WebURL:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
 - **Repository:** [https://github.com/github/git-sizer](https://github.com/github/git-sizer)
-- **Stars:** 3591
+- **Stars:** 3592
 - **Version:** v1.5.0
 - **Updated:** 2024-08-10T18:54:04Z
 - **Size:** 2.93 MB
@@ -6666,9 +6686,9 @@
 - **Author:** go-gitea
 - **WebURL:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
 - **Repository:** [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
-- **Stars:** 45463
+- **Stars:** 45472
 - **Version:** v1.22.4
-- **Updated:** 2024-12-05T22:11:35Z
+- **Updated:** 2024-12-06T12:00:24Z
 - **Size:** 103.41 MB
 - **SHA256SUM:** 6b5479da8ddd92769083fd55e45a4514e2f092362628eb82225fa5d00842dc2f
 - **B3SUM:** 34febd6318e335c25a710539b5924de42199bf76aaece25b33b859f4f1f6bd72
@@ -6786,7 +6806,7 @@
 - **Author:** gwen001
 - **WebURL:** [https://github.com/gwen001/gitlab-subdomains](https://github.com/gwen001/gitlab-subdomains)
 - **Repository:** [https://github.com/gwen001/gitlab-subdomains](https://github.com/gwen001/gitlab-subdomains)
-- **Stars:** 71
+- **Stars:** 72
 - **Version:** v1.0.1
 - **Updated:** 2024-04-28T05:43:26Z
 - **Size:** 5.55 MB
@@ -6806,7 +6826,7 @@
 - **Author:** gitleaks
 - **WebURL:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
 - **Repository:** [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
-- **Stars:** 18091
+- **Stars:** 18093
 - **Version:** v8.21.2
 - **Updated:** 2024-12-05T16:37:54Z
 - **Size:** 7.16 MB
@@ -6826,7 +6846,7 @@
 - **Author:** GitoxideLabs
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 9177
+- **Stars:** 9181
 - **Version:** v0.39.0
 - **Updated:** 2024-12-05T19:08:39Z
 - **Size:** 12.14 MB
@@ -6846,7 +6866,7 @@
 - **Author:** GitoxideLabs
 - **WebURL:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
 - **Repository:** [https://github.com/Byron/gitoxide](https://github.com/Byron/gitoxide)
-- **Stars:** 9177
+- **Stars:** 9181
 - **Version:** v0.39.0
 - **Updated:** 2024-12-05T19:08:39Z
 - **Size:** 19.31 MB
@@ -6868,7 +6888,7 @@
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Stars:** 13015
 - **Version:** 2022.11.3
-- **Updated:** 2024-12-05T18:14:10Z
+- **Updated:** 2024-12-06T13:23:03Z
 - **Size:** 18.42 MB
 - **SHA256SUM:** 3a51e5b48184188c1e574383a1ac441e334739126e705e73ff2ae0517d15b668
 - **B3SUM:** 2a2e1cff8b1122c15d956596b58799f347b552f4a4641b11d8396b8efc5bf54b
@@ -6888,7 +6908,7 @@
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Stars:** 13015
 - **Version:** 2022.11.3
-- **Updated:** 2024-12-05T18:14:10Z
+- **Updated:** 2024-12-06T13:23:03Z
 - **Size:** 17.42 MB
 - **SHA256SUM:** 709235f8e3a74a0e80d513d7f90508741edeb5d713e5cc255998bf61f44cf913
 - **B3SUM:** 65683d0f462b6959d6eb2d9cdc84f436ab69f48f43983412eb138512661e66e9
@@ -6908,7 +6928,7 @@
 - **Repository:** [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
 - **Stars:** 13015
 - **Version:** 2022.11.3
-- **Updated:** 2024-12-05T18:14:10Z
+- **Updated:** 2024-12-06T13:23:03Z
 - **Size:** 17.42 MB
 - **SHA256SUM:** 709235f8e3a74a0e80d513d7f90508741edeb5d713e5cc255998bf61f44cf913
 - **B3SUM:** 65683d0f462b6959d6eb2d9cdc84f436ab69f48f43983412eb138512661e66e9
@@ -6946,7 +6966,7 @@
 - **Author:** extrawurst
 - **WebURL:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
 - **Repository:** [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
-- **Stars:** 18674
+- **Stars:** 18675
 - **Version:** v0.26.3
 - **Updated:** 2024-12-04T03:00:21Z
 - **Size:** 12.68 MB
@@ -6966,7 +6986,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
 - **Repository:** [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
-- **Stars:** 16479
+- **Stars:** 16482
 - **Version:** v2.0.0
 - **Updated:** 2024-12-05T01:30:14Z
 - **Size:** 16.15 MB
@@ -7086,9 +7106,9 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 6027
+- **Stars:** 6028
 - **Version:** v5.12.0
-- **Updated:** 2024-12-05T13:42:31Z
+- **Updated:** 2024-12-06T06:59:03Z
 - **Size:** 7.38 MB
 - **SHA256SUM:** d49f10cb573ef47adf00ffac0fed75797926e86d563f71656c08d2240844ff48
 - **B3SUM:** 18ee1294ca67de60b8d7e1c36bdf9989eab1c1d47f7cb488af6a8ee9784c2b71
@@ -7106,9 +7126,9 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 6027
+- **Stars:** 6028
 - **Version:** v5.12.0
-- **Updated:** 2024-12-05T13:42:31Z
+- **Updated:** 2024-12-06T06:59:03Z
 - **Size:** 7.38 MB
 - **SHA256SUM:** 741e3a1b9ef21242690616036783905112c56e13a29b6c099adfee2f91bb28c1
 - **B3SUM:** 39ba10f8cb1c8dfe3b199435ade175aee752ef3394301ea30ece0b5877a64588
@@ -7126,9 +7146,9 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 6027
+- **Stars:** 6028
 - **Version:** v5.12.0
-- **Updated:** 2024-12-05T13:42:31Z
+- **Updated:** 2024-12-06T06:59:03Z
 - **Size:** 7.51 MB
 - **SHA256SUM:** 36733776cf6d92c5b655626c6628687741507a1fe6a4eb080cebfc5adf1c9361
 - **B3SUM:** 2484f1d9488d05e0daedf98dc2103ceacdf67ec74e59bbfc1c8fa61955db69ff
@@ -7146,9 +7166,9 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 6027
+- **Stars:** 6028
 - **Version:** v5.12.0
-- **Updated:** 2024-12-05T13:42:31Z
+- **Updated:** 2024-12-06T06:59:03Z
 - **Size:** 7.38 MB
 - **SHA256SUM:** c1e361728b1ab610e42a65c1ccf6745b612e989b1284d2e59ac3a69c970d081d
 - **B3SUM:** e23cd1becd3e589fdbb76884781bb70895ff7648d4161d5a5905856246542df3
@@ -7166,9 +7186,9 @@
 - **Author:** go-git
 - **WebURL:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
 - **Repository:** [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
-- **Stars:** 6027
+- **Stars:** 6028
 - **Version:** v5.12.0
-- **Updated:** 2024-12-05T13:42:31Z
+- **Updated:** 2024-12-06T06:59:03Z
 - **Size:** 5.39 MB
 - **SHA256SUM:** 8b11a4b1b99bd9211bc12e096c9dc44d651e085ec2d59794fed32ff43d061802
 - **B3SUM:** 1b203eb1f1034a49e0a1a10a4d3e1ead433ac6692fe84dd5bfb42ec710b438ad
@@ -7206,7 +7226,7 @@
 - **Author:** allinurl
 - **WebURL:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
 - **Repository:** [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
-- **Stars:** 18613
+- **Stars:** 18614
 - **Version:** v1.9.3
 - **Updated:** 2024-11-26T13:14:55Z
 - **Size:** 1.88 MB
@@ -7246,7 +7266,7 @@
 - **Author:** OJ
 - **WebURL:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
 - **Repository:** [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
-- **Stars:** 10273
+- **Stars:** 10280
 - **Version:** v3.6.0
 - **Updated:** 2024-11-08T21:41:51Z
 - **Size:** 7.75 MB
@@ -7588,7 +7608,7 @@
 - **Repository:** [https://github.com/tulir/gomuks](https://github.com/tulir/gomuks)
 - **Stars:** 1381
 - **Version:** v0.3.1
-- **Updated:** 2024-12-06T00:33:20Z
+- **Updated:** 2024-12-06T10:21:41Z
 - **Size:** 20.38 MB
 - **SHA256SUM:** aa3f97ea24835b25cf2d24b65fa376ca764a9a412d1002ec08c42f8e871f832b
 - **B3SUM:** 5a7192ec7967f84596ad79441b5c936bbe88d48a05248f0e3e752e64c35fd71f
@@ -7726,7 +7746,7 @@
 - **Author:** ginuerzh
 - **WebURL:** [https://github.com/ginuerzh/gost](https://github.com/ginuerzh/gost)
 - **Repository:** [https://github.com/ginuerzh/gost](https://github.com/ginuerzh/gost)
-- **Stars:** 16106
+- **Stars:** 16111
 - **Version:** v2.12.0
 - **Updated:** 2024-12-02T17:39:18Z
 - **Size:** 15.28 MB
@@ -7828,7 +7848,7 @@
 - **Repository:** [https://github.com/orhun/gpg-tui](https://github.com/orhun/gpg-tui)
 - **Stars:** 1392
 - **Version:** v0.11.0
-- **Updated:** 2024-12-04T11:11:38Z
+- **Updated:** 2024-12-06T11:26:56Z
 - **Size:** 3.76 MB
 - **SHA256SUM:** 7aa8d1c04461adfe4fbfcf14149d437330c092dec6cfe52f06b0df1f60a7e14d
 - **B3SUM:** 5920d6295762d05b979f578736b9d0e5249d3f57497ab412162d535dc98694c1
@@ -7846,9 +7866,9 @@
 - **Author:** orf
 - **WebURL:** [https://github.com/orf/gping](https://github.com/orf/gping)
 - **Repository:** [https://github.com/orf/gping](https://github.com/orf/gping)
-- **Stars:** 10918
+- **Stars:** 10922
 - **Version:** gping-v1.18.0
-- **Updated:** 2024-12-04T10:24:33Z
+- **Updated:** 2024-12-06T10:39:03Z
 - **Size:** 2.46 MB
 - **SHA256SUM:** 85578ff76bc150973611fa091e96221ab2b13d640cddf9dd25cbeda3cec0f3a1
 - **B3SUM:** e4bb923face280b4cafdb076d6328fd8cb7b2fdf331cef7d4370300965765ccb
@@ -7906,7 +7926,7 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
 - **Repository:** [https://github.com/tomnomnom/gron](https://github.com/tomnomnom/gron)
-- **Stars:** 13888
+- **Stars:** 13889
 - **Version:** v0.7.1
 - **Updated:** 2024-11-29T23:37:22Z
 - **Size:** 5.57 MB
@@ -7946,7 +7966,7 @@
 - **Author:** fullstorydev
 - **WebURL:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
 - **Repository:** [https://github.com/fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl)
-- **Stars:** 10985
+- **Stars:** 10988
 - **Version:** v1.9.2
 - **Updated:** 2024-11-28T16:29:43Z
 - **Size:** 24.76 MB
@@ -8006,9 +8026,9 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
 - **Repository:** [https://github.com/charmbracelet/gum](https://github.com/charmbracelet/gum)
-- **Stars:** 18372
+- **Stars:** 18376
 - **Version:** v0.14.5
-- **Updated:** 2024-12-06T00:01:31Z
+- **Updated:** 2024-12-06T03:26:15Z
 - **Size:** 12.72 MB
 - **SHA256SUM:** 90b038709476795291561969e1358dadbd446944b40304468b13f1242333278d
 - **B3SUM:** 2baa21d0465854eb8d812b0018b640de604f14dcc74501194fc3442563f9f980
@@ -8026,7 +8046,7 @@
 - **Author:** nao1215
 - **WebURL:** [https://github.com/nao1215/gup](https://github.com/nao1215/gup)
 - **Repository:** [https://github.com/nao1215/gup](https://github.com/nao1215/gup)
-- **Stars:** 353
+- **Stars:** 354
 - **Version:** v0.27.5
 - **Updated:** 2024-12-04T20:44:43Z
 - **Size:** 5.67 MB
@@ -8066,7 +8086,7 @@
 - **Author:** hadolint
 - **WebURL:** [https://github.com/hadolint/hadolint](https://github.com/hadolint/hadolint)
 - **Repository:** [https://github.com/hadolint/hadolint](https://github.com/hadolint/hadolint)
-- **Stars:** 10503
+- **Stars:** 10505
 - **Version:** v2.12.0
 - **Updated:** 2024-10-28T08:27:47Z
 - **Size:** 12.85 MB
@@ -8168,7 +8188,7 @@
 - **Repository:** [https://github.com/orhun/halp](https://github.com/orhun/halp)
 - **Stars:** 713
 - **Version:** v0.2.0
-- **Updated:** 2024-12-05T05:14:26Z
+- **Updated:** 2024-12-06T05:47:03Z
 - **Size:** 2.53 MB
 - **SHA256SUM:** 3d9c5d7cac50bb76e1dd67ce930b36472cb532b6676eb6ef05176649748beb82
 - **B3SUM:** ae4c44273f1fef06b880733b1c5dad03e4c76c740d5eb96fb0d42c13c5405272
@@ -8228,7 +8248,7 @@
 - **Repository:** [https://github.com/pwnwriter/haylxon](https://github.com/pwnwriter/haylxon)
 - **Stars:** 400
 - **Version:** v1.0.0
-- **Updated:** 2024-12-04T04:00:30Z
+- **Updated:** 2024-12-06T03:17:36Z
 - **Size:** 6.57 MB
 - **SHA256SUM:** bb10a59922fc3931a0fa194f0bcc5a0feafb0afcfcec74539e225cc12def6d80
 - **B3SUM:** 436d68ed7130ffd48c46787a299e2f8eb8e90886373ce8332a281219b1791883
@@ -8526,7 +8546,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
 - **Repository:** [https://github.com/sharkdp/hexyl](https://github.com/sharkdp/hexyl)
-- **Stars:** 9197
+- **Stars:** 9198
 - **Version:** v0.15.0
 - **Updated:** 2024-10-29T21:47:05Z
 - **Size:** 902.83 KB
@@ -8646,7 +8666,7 @@
 - **Author:** mgdm
 - **WebURL:** [https://github.com/mgdm/htmlq](https://github.com/mgdm/htmlq)
 - **Repository:** [https://github.com/mgdm/htmlq](https://github.com/mgdm/htmlq)
-- **Stars:** 7139
+- **Stars:** 7138
 - **Version:** v0.4.0
 - **Updated:** 2024-05-29T03:40:49Z
 - **Size:** 2.28 MB
@@ -8666,7 +8686,7 @@
 - **Author:** htop-dev
 - **WebURL:** [https://htop.dev](https://htop.dev)
 - **Repository:** [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
-- **Stars:** 6579
+- **Stars:** 6581
 - **Version:** 3.3.0
 - **Updated:** 2024-10-12T11:37:42Z
 - **Size:** 662.3 KB
@@ -8706,7 +8726,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
 - **Repository:** [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
-- **Stars:** 7826
+- **Stars:** 7829
 - **Version:** v1.6.9
 - **Updated:** 2024-12-03T19:29:44Z
 - **Size:** 37.22 MB
@@ -8746,7 +8766,7 @@
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
-- **Stars:** 2150
+- **Stars:** 2151
 - **Version:** v0.26.3
 - **Updated:** 2024-12-05T17:22:01Z
 - **Size:** 20.24 MB
@@ -8766,7 +8786,7 @@
 - **Author:** huggingface
 - **WebURL:** [https://huggingface.co/docs/huggingface_hub](https://huggingface.co/docs/huggingface_hub)
 - **Repository:** [https://github.com/huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)
-- **Stars:** 2150
+- **Stars:** 2151
 - **Version:** v0.26.3
 - **Updated:** 2024-12-05T17:22:01Z
 - **Size:** 20.24 MB
@@ -8786,7 +8806,7 @@
 - **Author:** gohugoio
 - **WebURL:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
 - **Repository:** [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
-- **Stars:** 76294
+- **Stars:** 76300
 - **Version:** v0.139.3
 - **Updated:** 2024-12-05T11:40:59Z
 - **Size:** 51.13 MB
@@ -8806,9 +8826,9 @@
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 13248
+- **Stars:** 13254
 - **Version:** 6.0.0
-- **Updated:** 2024-12-05T20:04:14Z
+- **Updated:** 2024-12-06T13:26:12Z
 - **Size:** 10.51 MB
 - **SHA256SUM:** 53ea396c732f5bde47707de0177b2c51ae855eb0dae617a3d24fc68f26e98805
 - **B3SUM:** 0d6873ecb4d47424d748cedc5069a0f28d76923f864fbeadbbf69beae1204b4c
@@ -8826,9 +8846,9 @@
 - **Author:** Orange-OpenSource
 - **WebURL:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - **Repository:** [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
-- **Stars:** 13248
+- **Stars:** 13254
 - **Version:** 6.0.0
-- **Updated:** 2024-12-05T20:04:14Z
+- **Updated:** 2024-12-06T13:26:12Z
 - **Size:** 3.61 MB
 - **SHA256SUM:** 35de81c3aba44f2dd948fc5e199484eb787bac050d51cd66f2ed28ef6b894e14
 - **B3SUM:** 2afba50b6543ddebdacfd68ae79ce6faed9b867e81b53bf8565f4c361c58626d
@@ -8886,7 +8906,7 @@
 - **Author:** blacknon
 - **WebURL:** [https://github.com/blacknon/hwatch](https://github.com/blacknon/hwatch)
 - **Repository:** [https://github.com/blacknon/hwatch](https://github.com/blacknon/hwatch)
-- **Stars:** 793
+- **Stars:** 794
 - **Version:** 0.3.18
 - **Updated:** 2024-11-15T10:15:56Z
 - **Size:** 3.67 MB
@@ -8906,7 +8926,7 @@
 - **Author:** sharkdp
 - **WebURL:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 - **Repository:** [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
-- **Stars:** 23167
+- **Stars:** 23176
 - **Version:** v1.19.0
 - **Updated:** 2024-12-01T20:49:31Z
 - **Size:** 1.23 MB
@@ -9028,7 +9048,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 1.94 MB
 - **SHA256SUM:** cb16d5b4510def36934ade0b6dca8a4a2fb2e28c3fea7829fc8f663808015b9f
 - **B3SUM:** 4a743a371c573a0d336ec7049255dd7ec18411ea668ce461212153cae8e0a748
@@ -9046,7 +9066,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
-- **Stars:** 3474
+- **Stars:** 3475
 - **Version:** v1.2.2
 - **Updated:** 2024-12-02T01:45:18Z
 - **Size:** 23.84 MB
@@ -9066,7 +9086,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
 - **Repository:** [https://github.com/projectdiscovery/interactsh](https://github.com/projectdiscovery/interactsh)
-- **Stars:** 3474
+- **Stars:** 3475
 - **Version:** v1.2.2
 - **Updated:** 2024-12-02T01:45:18Z
 - **Size:** 26.41 MB
@@ -9086,7 +9106,7 @@
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
 - **Repository:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
-- **Stars:** 492
+- **Stars:** 493
 - **Version:** v0.1.14
 - **Updated:** 2024-11-03T19:45:30Z
 - **Size:** 3.53 MB
@@ -9106,7 +9126,7 @@
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
 - **Repository:** [https://github.com/casey/intermodal](https://github.com/casey/intermodal)
-- **Stars:** 492
+- **Stars:** 493
 - **Version:** v0.1.14
 - **Updated:** 2024-11-03T19:45:30Z
 - **Size:** 3.53 MB
@@ -9186,7 +9206,7 @@
 - **Author:** esnet
 - **WebURL:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
 - **Repository:** [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
-- **Stars:** 7009
+- **Stars:** 7014
 - **Version:** 3.17.1
 - **Updated:** 2024-12-03T18:42:36Z
 - **Size:** 3.62 MB
@@ -9366,7 +9386,7 @@
 - **Author:** istio
 - **WebURL:** [https://github.com/istio/istio](https://github.com/istio/istio)
 - **Repository:** [https://github.com/istio/istio](https://github.com/istio/istio)
-- **Stars:** 36197
+- **Stars:** 36199
 - **Version:** 1.24.1
 - **Updated:** 2024-12-06T00:51:07Z
 - **Size:** 92.71 MB
@@ -9406,7 +9426,7 @@
 - **Author:** 01mf02
 - **WebURL:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
 - **Repository:** [https://github.com/01mf02/jaq](https://github.com/01mf02/jaq)
-- **Stars:** 2865
+- **Stars:** 2866
 - **Version:** v2.0.0
 - **Updated:** 2024-12-04T10:15:56Z
 - **Size:** 794.54 KB
@@ -9426,7 +9446,7 @@
 - **Author:** kellyjonbrazil
 - **WebURL:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
 - **Repository:** [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
-- **Stars:** 7945
+- **Stars:** 7948
 - **Version:** v1.25.4
 - **Updated:** 2024-11-29T01:02:31Z
 - **Size:** 13.54 MB
@@ -9466,7 +9486,7 @@
 - **Author:** ankitpokhrel
 - **WebURL:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
 - **Repository:** [https://github.com/ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli)
-- **Stars:** 4020
+- **Stars:** 4021
 - **Version:** v1.5.2
 - **Updated:** 2024-09-22T08:14:14Z
 - **Size:** 18.18 MB
@@ -9486,9 +9506,9 @@
 - **Author:** martinvonz
 - **WebURL:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 - **Repository:** [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
-- **Stars:** 9527
+- **Stars:** 9534
 - **Version:** v0.24.0
-- **Updated:** 2024-12-06T00:59:37Z
+- **Updated:** 2024-12-06T06:32:50Z
 - **Size:** 20.62 MB
 - **SHA256SUM:** 3b18cbbe54e07b34b4887e9695c07323d742e10352c6ef9ede6bdcd087953a33
 - **B3SUM:** 3bd292501853e80fe401b1c510585651e838d30756e84dffb3e01ba8c217a1ac
@@ -9506,7 +9526,7 @@
 - **Author:** PaulJuliusMartinez
 - **WebURL:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
 - **Repository:** [https://github.com/PaulJuliusMartinez/jless](https://github.com/PaulJuliusMartinez/jless)
-- **Stars:** 4807
+- **Stars:** 4806
 - **Version:** v0.9.0
 - **Updated:** 2024-09-07T16:16:59Z
 - **Size:** 1.5 MB
@@ -9586,7 +9606,7 @@
 - **Author:** jqlang
 - **WebURL:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
 - **Repository:** [https://github.com/jqlang/jq](https://github.com/jqlang/jq)
-- **Stars:** 30686
+- **Stars:** 30689
 - **Version:** jq-1.7.1
 - **Updated:** 2024-12-01T10:49:45Z
 - **Size:** 1.71 MB
@@ -9606,7 +9626,7 @@
 - **Author:** yamafaktory
 - **WebURL:** [https://github.com/yamafaktory/jql](https://github.com/yamafaktory/jql)
 - **Repository:** [https://github.com/yamafaktory/jql](https://github.com/yamafaktory/jql)
-- **Stars:** 1516
+- **Stars:** 1517
 - **Version:** jql-v8.0.1
 - **Updated:** 2024-12-04T18:32:02Z
 - **Size:** 911.09 KB
@@ -9686,7 +9706,7 @@
 - **Author:** casey
 - **WebURL:** [https://github.com/casey/just](https://github.com/casey/just)
 - **Repository:** [https://github.com/casey/just](https://github.com/casey/just)
-- **Stars:** 21880
+- **Stars:** 21891
 - **Version:** 1.37.0
 - **Updated:** 2024-12-02T21:17:27Z
 - **Size:** 3.36 MB
@@ -9746,7 +9766,7 @@
 - **Author:** derailed
 - **WebURL:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
 - **Repository:** [https://github.com/derailed/k9s](https://github.com/derailed/k9s)
-- **Stars:** 27608
+- **Stars:** 27613
 - **Version:** v0.32.7
 - **Updated:** 2024-12-02T23:54:35Z
 - **Size:** 96.57 MB
@@ -9868,7 +9888,7 @@
 - **Repository:** [https://github.com/pwnwriter/kanha](https://github.com/pwnwriter/kanha)
 - **Stars:** 265
 - **Version:** v-v0.1.2
-- **Updated:** 2024-12-04T18:36:43Z
+- **Updated:** 2024-12-06T12:55:35Z
 - **Size:** 3.41 MB
 - **SHA256SUM:** 44d9de8c65f9429c828a9e729528e34084812aae330e60e995c5560373035db5
 - **B3SUM:** 323a629c7d10cffe10560b883ad4171b2b2891af18eacf35bf4de6094e416cc7
@@ -9886,9 +9906,9 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
-- **Stars:** 12437
+- **Stars:** 12451
 - **Version:** v1.1.2
-- **Updated:** 2024-12-02T14:28:04Z
+- **Updated:** 2024-12-06T12:06:49Z
 - **Size:** 40.34 MB
 - **SHA256SUM:** ab30af4392753fbf7d128b393e9da56798c816444963ca6e6b38d9f6d60f1760
 - **B3SUM:** 4243f951d11a76d7342f71bb4f76991f9798c634149513d0f46433fd91566286
@@ -9906,9 +9926,9 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
 - **Repository:** [https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)
-- **Stars:** 12437
+- **Stars:** 12451
 - **Version:** v1.1.2
-- **Updated:** 2024-12-02T14:28:04Z
+- **Updated:** 2024-12-06T12:06:49Z
 - **Size:** 10.39 MB
 - **SHA256SUM:** ee5eff46c87539cd2f56817a9b78b88a5ba84c523dee406f3ad86524c3dac9d0
 - **B3SUM:** 1d40b92a368b566b24d195560a40531bb015e1772613252c463e201c366d71fe
@@ -9946,9 +9966,9 @@
 - **Author:** kovidgoyal
 - **WebURL:** [https://sw.kovidgoyal.net/kitty/](https://sw.kovidgoyal.net/kitty/)
 - **Repository:** [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
-- **Stars:** 24865
+- **Stars:** 24869
 - **Version:** v0.37.0
-- **Updated:** 2024-12-05T13:58:02Z
+- **Updated:** 2024-12-06T03:13:06Z
 - **Size:** 15.24 MB
 - **SHA256SUM:** 3207d286e5d9e8400b1507c1f1eccda0e3628b1f88b98ebcd27e383b9b052a0b
 - **B3SUM:** 9f923156aca42bdb8305a1d40b583c69a5170a08b581c0716b36fff55902ca55
@@ -10006,7 +10026,7 @@
 - **Author:** kopia
 - **WebURL:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
 - **Repository:** [https://github.com/kopia/kopia](https://github.com/kopia/kopia)
-- **Stars:** 8227
+- **Stars:** 8228
 - **Version:** v0.18.2
 - **Updated:** 2024-12-02T23:59:00Z
 - **Size:** 49.63 MB
@@ -10066,7 +10086,7 @@
 - **Author:** everywall
 - **WebURL:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
 - **Repository:** [https://github.com/everywall/ladder](https://github.com/everywall/ladder)
-- **Stars:** 4543
+- **Stars:** 4550
 - **Version:** v0.0.21
 - **Updated:** 2024-10-02T07:19:49Z
 - **Size:** 8.05 MB
@@ -10086,7 +10106,7 @@
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
 - **Repository:** [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
-- **Stars:** 39090
+- **Stars:** 39110
 - **Version:** v0.24.1
 - **Updated:** 2024-11-23T06:31:57Z
 - **Size:** 11.58 MB
@@ -10106,7 +10126,7 @@
 - **Author:** jesseduffield
 - **WebURL:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 - **Repository:** [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
-- **Stars:** 53908
+- **Stars:** 53933
 - **Version:** v0.44.1
 - **Updated:** 2024-12-04T08:46:29Z
 - **Size:** 18.25 MB
@@ -10126,7 +10146,7 @@
 - **Author:** gokcehan
 - **WebURL:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
 - **Repository:** [https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)
-- **Stars:** 7829
+- **Stars:** 7830
 - **Version:** r33
 - **Updated:** 2024-12-05T07:21:23Z
 - **Size:** 3.61 MB
@@ -10326,7 +10346,7 @@
 - **Author:** knadh
 - **WebURL:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
 - **Repository:** [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
-- **Stars:** 15506
+- **Stars:** 15512
 - **Version:** v4.1.0
 - **Updated:** 2024-12-04T17:41:59Z
 - **Size:** 15.68 MB
@@ -10826,7 +10846,7 @@
 - **Author:** superfly
 - **WebURL:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
 - **Repository:** [https://github.com/superfly/litefs](https://github.com/superfly/litefs)
-- **Stars:** 4105
+- **Stars:** 4106
 - **Version:** v0.5.11
 - **Updated:** 2024-09-24T19:02:39Z
 - **Size:** 12.1 MB
@@ -10886,7 +10906,7 @@
 - **Author:** logdyhq
 - **WebURL:** [https://logdy.dev](https://logdy.dev)
 - **Repository:** [https://github.com/logdyhq/logdy-core](https://github.com/logdyhq/logdy-core)
-- **Stars:** 1305
+- **Stars:** 1306
 - **Version:** v0.13.2
 - **Updated:** 2024-11-26T18:11:23Z
 - **Size:** 35.68 MB
@@ -10966,9 +10986,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 24110
+- **Stars:** 24117
 - **Version:** v3.3.0
-- **Updated:** 2024-12-05T21:49:13Z
+- **Updated:** 2024-12-06T13:35:18Z
 - **Size:** 83.89 MB
 - **SHA256SUM:** fbd4619f6ee5bb248c0279b5b57cc7c3e0a6cfe4070753c871c9d0848bd64708
 - **B3SUM:** e698809701b51cf69c795042a6fd2f9e47ccfb0f6a56c9c96d9b2b020925f08d
@@ -10986,9 +11006,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 24110
+- **Stars:** 24117
 - **Version:** v3.3.0
-- **Updated:** 2024-12-05T21:49:13Z
+- **Updated:** 2024-12-06T13:35:18Z
 - **Size:** 64.59 MB
 - **SHA256SUM:** d9511125beedaf839af3d461bfd5be4732948ffffa24f90566611881399cbbbf
 - **B3SUM:** c796a901346034c248077a74d185b2fd8a4109bb1d37961f1278fe32b98af48c
@@ -11006,9 +11026,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 24110
+- **Stars:** 24117
 - **Version:** v3.3.0
-- **Updated:** 2024-12-05T21:49:13Z
+- **Updated:** 2024-12-06T13:35:18Z
 - **Size:** 32.76 MB
 - **SHA256SUM:** af725cf861779c07ae786c35458b848fa594fabdbfe04db58e7fb9807bccfe83
 - **B3SUM:** 42f2d21d94843f893433bc927b4eb3fece838f478be8727f7f3033f1254e4fa9
@@ -11026,9 +11046,9 @@
 - **Author:** grafana
 - **WebURL:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
 - **Repository:** [https://github.com/grafana/loki](https://github.com/grafana/loki)
-- **Stars:** 24110
+- **Stars:** 24117
 - **Version:** v3.3.0
-- **Updated:** 2024-12-05T21:49:13Z
+- **Updated:** 2024-12-06T13:35:18Z
 - **Size:** 99.72 MB
 - **SHA256SUM:** 623a07c092bb7ffaaed368d65a483fc97f96dba149bdbc2c592538424f953925
 - **B3SUM:** 19bd8748ec05f18b73614d6a19b5fe55c601c2bb86d3a09d326fa12008d485b8
@@ -11066,7 +11086,7 @@
 - **Author:** lsd-rs
 - **WebURL:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
 - **Repository:** [https://github.com/lsd-rs/lsd](https://github.com/lsd-rs/lsd)
-- **Stars:** 13656
+- **Stars:** 13657
 - **Version:** v1.1.5
 - **Updated:** 2024-11-24T07:22:58Z
 - **Size:** 2.99 MB
@@ -11146,7 +11166,7 @@
 - **Author:** iawia002
 - **WebURL:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
 - **Repository:** [https://github.com/iawia002/lux](https://github.com/iawia002/lux)
-- **Stars:** 27876
+- **Stars:** 27880
 - **Version:** v0.24.1
 - **Updated:** 2024-10-12T05:49:08Z
 - **Size:** 21.74 MB
@@ -11166,7 +11186,7 @@
 - **Author:** smmr-software
 - **WebURL:** [https://github.com/smmr-software/mabel](https://github.com/smmr-software/mabel)
 - **Repository:** [https://github.com/smmr-software/mabel](https://github.com/smmr-software/mabel)
-- **Stars:** 425
+- **Stars:** 426
 - **Version:** v0.1.7
 - **Updated:** 2023-08-22T17:57:20Z
 - **Size:** 12.85 MB
@@ -11186,7 +11206,7 @@
 - **Author:** Macchina-CLI
 - **WebURL:** [https://github.com/Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)
 - **Repository:** [https://github.com/Macchina-CLI/macchina](https://github.com/Macchina-CLI/macchina)
-- **Stars:** 1496
+- **Stars:** 1498
 - **Version:** v6.4.0
 - **Updated:** 2024-11-16T01:39:23Z
 - **Size:** 4.79 MB
@@ -11206,7 +11226,7 @@
 - **Author:** foxcpp
 - **WebURL:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
 - **Repository:** [https://github.com/foxcpp/maddy](https://github.com/foxcpp/maddy)
-- **Stars:** 5182
+- **Stars:** 5186
 - **Version:** v0.7.1
 - **Updated:** 2024-11-24T18:17:21Z
 - **Size:** 26.98 MB
@@ -11226,7 +11246,7 @@
 - **Author:** ImageMagick
 - **WebURL:** [https://imagemagick.org](https://imagemagick.org)
 - **Repository:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
-- **Stars:** 12384
+- **Stars:** 12386
 - **Version:** 7.1.1-41
 - **Updated:** 2024-12-05T20:41:48Z
 - **Size:** 63.04 MB
@@ -11246,7 +11266,7 @@
 - **Author:** ImageMagick
 - **WebURL:** [https://imagemagick.org](https://imagemagick.org)
 - **Repository:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
-- **Stars:** 12384
+- **Stars:** 12386
 - **Version:** 7.1.1-41
 - **Updated:** 2024-12-05T20:41:48Z
 - **Size:** 63.04 MB
@@ -11266,7 +11286,7 @@
 - **Author:** ImageMagick
 - **WebURL:** [https://imagemagick.org](https://imagemagick.org)
 - **Repository:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
-- **Stars:** 12384
+- **Stars:** 12386
 - **Version:** 7.1.1-41
 - **Updated:** 2024-12-05T20:41:48Z
 - **Size:** 19.57 MB
@@ -11286,9 +11306,9 @@
 - **Author:** axllent
 - **WebURL:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
 - **Repository:** [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
-- **Stars:** 6188
+- **Stars:** 6191
 - **Version:** v1.21.5
-- **Updated:** 2024-12-05T08:27:19Z
+- **Updated:** 2024-12-06T04:24:31Z
 - **Size:** 19.65 MB
 - **SHA256SUM:** eca1542af5da6356db402c193777cef9f08e16e54cdba3db5934ec47a32a57ec
 - **B3SUM:** ac7bd7836f85fc478ffc5676a39461a5d096f8f217a57daf751426caaf431e97
@@ -11366,7 +11386,7 @@
 - **Author:** robertdavidgraham
 - **WebURL:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
 - **Repository:** [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
-- **Stars:** 23790
+- **Stars:** 23791
 - **Version:** 1.3.2
 - **Updated:** 2024-08-13T01:38:30Z
 - **Size:** 541.85 KB
@@ -11386,7 +11406,7 @@
 - **Author:** blechschmidt
 - **WebURL:** [https://github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns)
 - **Repository:** [https://github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns)
-- **Stars:** 3181
+- **Stars:** 3182
 - **Version:** v1.1.0
 - **Updated:** 2024-03-11T21:34:47Z
 - **Size:** 109.96 KB
@@ -11567,8 +11587,8 @@
 - **WebURL:** [https://github.com/meli/meli](https://github.com/meli/meli)
 - **Repository:** [https://github.com/meli/meli](https://github.com/meli/meli)
 - **Stars:** 682
-- **Version:** v0.8.9
-- **Updated:** 2024-12-05T12:12:35Z
+- **Version:** v0.8.10
+- **Updated:** 2024-12-06T09:19:56Z
 - **Size:** 21.76 MB
 - **SHA256SUM:** 25ffe2f4291df1feea4f3568e326c159d0cb11b0e630d0ce02d522fd356f5772
 - **B3SUM:** 09f3ee6bef5f21c83fcfc09b63b72646d5015c7551ebd9644dd70859fc6c26c8
@@ -11626,7 +11646,7 @@
 - **Author:** zyedidia
 - **WebURL:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 - **Repository:** [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
-- **Stars:** 25306
+- **Stars:** 25310
 - **Version:** v2.0.14
 - **Updated:** 2024-12-06T00:23:06Z
 - **Size:** 12.16 MB
@@ -11646,9 +11666,9 @@
 - **Author:** johnkerl
 - **WebURL:** [https://github.com/johnkerl/miller](https://github.com/johnkerl/miller)
 - **Repository:** [https://github.com/johnkerl/miller](https://github.com/johnkerl/miller)
-- **Stars:** 9032
+- **Stars:** 9035
 - **Version:** v6.13.0
-- **Updated:** 2024-12-05T12:34:09Z
+- **Updated:** 2024-12-06T11:35:56Z
 - **Size:** 33.81 MB
 - **SHA256SUM:** 82339a2da9970f4910518e896ad60c649337927e74a73f77e1f369ed11af6297
 - **B3SUM:** bd4b041ab04bfea3c969199987809418d0d809934bb2d60eb82a2d0701c2724e
@@ -11666,7 +11686,7 @@
 - **Author:** miniflux
 - **WebURL:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
 - **Repository:** [https://github.com/miniflux/v2](https://github.com/miniflux/v2)
-- **Stars:** 7010
+- **Stars:** 7011
 - **Version:** 2.2.3
 - **Updated:** 2024-12-05T02:30:05Z
 - **Size:** 20.14 MB
@@ -11706,7 +11726,7 @@
 - **Author:** svenstaro
 - **WebURL:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - **Repository:** [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
-- **Stars:** 6190
+- **Stars:** 6192
 - **Version:** v0.28.0
 - **Updated:** 2024-12-01T14:31:19Z
 - **Size:** 1.87 MB
@@ -11726,7 +11746,7 @@
 - **Author:** jedisct1
 - **WebURL:** [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign)
 - **Repository:** [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign)
-- **Stars:** 2180
+- **Stars:** 2181
 - **Version:** 0.11
 - **Updated:** 2024-06-30T11:31:00Z
 - **Size:** 172.3 KB
@@ -11766,9 +11786,9 @@
 - **Author:** jdx
 - **WebURL:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
 - **Repository:** [https://github.com/jdx/mise](https://github.com/jdx/mise)
-- **Stars:** 10480
-- **Version:** v2024.12.0
-- **Updated:** 2024-12-06T00:36:09Z
+- **Stars:** 10490
+- **Version:** v2024.12.1
+- **Updated:** 2024-12-06T12:38:46Z
 - **Size:** 24.93 MB
 - **SHA256SUM:** 7153a6d76534e507ba86b228a406e4f48a8ef5a27ee9b2e047e7245dadf78622
 - **B3SUM:** 0136f4200cacf0996d8ad595ad0cbf775eac91a78e91fa9cd3adfc477089a191
@@ -11786,7 +11806,7 @@
 - **Author:** mitmproxy
 - **WebURL:** [https://mitmproxy.org](https://mitmproxy.org)
 - **Repository:** [https://github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy)
-- **Stars:** 37062
+- **Stars:** 37067
 - **Version:** v11.0.2
 - **Updated:** 2024-12-05T09:31:17Z
 - **Size:** 33.29 MB
@@ -11806,7 +11826,7 @@
 - **Author:** mitmproxy
 - **WebURL:** [https://mitmproxy.org](https://mitmproxy.org)
 - **Repository:** [https://github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy)
-- **Stars:** 37062
+- **Stars:** 37067
 - **Version:** v11.0.2
 - **Updated:** 2024-12-05T09:31:17Z
 - **Size:** 38.72 MB
@@ -11826,7 +11846,7 @@
 - **Author:** mitmproxy
 - **WebURL:** [https://mitmproxy.org](https://mitmproxy.org)
 - **Repository:** [https://github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy)
-- **Stars:** 37062
+- **Stars:** 37067
 - **Version:** v11.0.2
 - **Updated:** 2024-12-05T09:31:17Z
 - **Size:** 35.12 MB
@@ -11946,7 +11966,7 @@
 - **Author:** Y2Z
 - **WebURL:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - **Repository:** [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
-- **Stars:** 11294
+- **Stars:** 11297
 - **Version:** v2.8.3
 - **Updated:** 2024-12-02T21:34:44Z
 - **Size:** 7.75 MB
@@ -11966,7 +11986,7 @@
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12713
+- **Stars:** 12714
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-17T12:43:50Z
 - **Size:** 3.16 MB
@@ -11986,7 +12006,7 @@
 - **Author:** mobile-shell
 - **WebURL:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - **Repository:** [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
-- **Stars:** 12713
+- **Stars:** 12714
 - **Version:** mosh-1.4.0
 - **Updated:** 2024-07-17T12:43:50Z
 - **Size:** 3.15 MB
@@ -12026,7 +12046,7 @@
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
-- **Stars:** 2717
+- **Stars:** 2719
 - **Version:** v0.95
 - **Updated:** 2024-08-27T17:12:57Z
 - **Size:** 594.75 KB
@@ -12046,7 +12066,7 @@
 - **Author:** traviscross
 - **WebURL:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - **Repository:** [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
-- **Stars:** 2717
+- **Stars:** 2719
 - **Version:** v0.95
 - **Updated:** 2024-08-27T17:12:57Z
 - **Size:** 132.84 KB
@@ -12066,7 +12086,7 @@
 - **Author:** kitabisa
 - **WebURL:** [https://github.com/kitabisa/mubeng](https://github.com/kitabisa/mubeng)
 - **Repository:** [https://github.com/kitabisa/mubeng](https://github.com/kitabisa/mubeng)
-- **Stars:** 1645
+- **Stars:** 1646
 - **Version:** v0.18.0
 - **Updated:** 2024-12-05T07:21:37Z
 - **Size:** 9.71 MB
@@ -12146,7 +12166,7 @@
 - **Author:** denisidoro
 - **WebURL:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
 - **Repository:** [https://github.com/denisidoro/navi](https://github.com/denisidoro/navi)
-- **Stars:** 15239
+- **Stars:** 15245
 - **Version:** v2.23.0
 - **Updated:** 2024-11-20T21:29:06Z
 - **Size:** 2.46 MB
@@ -12188,7 +12208,7 @@
 - **Repository:** [https://github.com/jansc/ncgopher](https://github.com/jansc/ncgopher)
 - **Stars:** 172
 - **Version:** v0.7.0
-- **Updated:** 2024-12-04T05:01:39Z
+- **Updated:** 2024-12-06T04:47:34Z
 - **Size:** 10.73 MB
 - **SHA256SUM:** 5cf3bc2310100c9e70e6aa3ee3123d4e3a31520062c1d9b92409d6e97eeb055b
 - **B3SUM:** 2c87f444ccff37000e1faafc3b5f757175f24d03254027f0036b7ae6f0101ea7
@@ -12206,7 +12226,7 @@
 - **Author:** hykilpikonna
 - **WebURL:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
 - **Repository:** [https://github.com/hykilpikonna/hyfetch](https://github.com/hykilpikonna/hyfetch)
-- **Stars:** 1364
+- **Stars:** 1365
 - **Version:** 1.99.0
 - **Updated:** 2024-11-22T07:46:58Z
 - **Size:** 569.93 KB
@@ -12226,7 +12246,7 @@
 - **Author:** containerd
 - **WebURL:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
 - **Repository:** [https://github.com/containerd/nerdctl](https://github.com/containerd/nerdctl)
-- **Stars:** 8242
+- **Stars:** 8246
 - **Version:** v2.0.1
 - **Updated:** 2024-12-05T09:50:35Z
 - **Size:** 25.15 MB
@@ -12246,7 +12266,7 @@
 - **Author:** netbirdio
 - **WebURL:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 - **Repository:** [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
-- **Stars:** 11393
+- **Stars:** 11401
 - **Version:** v0.34.1
 - **Updated:** 2024-12-05T15:07:29Z
 - **Size:** 28.07 MB
@@ -12286,7 +12306,7 @@
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
-- **Stars:** 3335
+- **Stars:** 3336
 - **Version:** v1.3.0
 - **Updated:** 2024-12-05T12:05:49Z
 - **Size:** 13.32 MB
@@ -12306,7 +12326,7 @@
 - **Author:** Pennyw0rth
 - **WebURL:** [https://netexec.wiki/](https://netexec.wiki/)
 - **Repository:** [https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
-- **Stars:** 3335
+- **Stars:** 3336
 - **Version:** v1.3.0
 - **Updated:** 2024-12-05T12:05:49Z
 - **Size:** 12.41 MB
@@ -12328,7 +12348,7 @@
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Stars:** 9576
 - **Version:** v0.26.0
-- **Updated:** 2024-12-05T20:20:29Z
+- **Updated:** 2024-12-06T09:17:54Z
 - **Size:** 14.48 MB
 - **SHA256SUM:** 714359df12154234ee5c7d59a362d8f303c5baa0119c8693ab93bdb4f3bd20da
 - **B3SUM:** 40e55e53a6a5eeb2e1c7ad408ded325d0a3594675ec8d2361cfa3d53743ab4e6
@@ -12348,7 +12368,7 @@
 - **Repository:** [https://github.com/gravitl/netmaker](https://github.com/gravitl/netmaker)
 - **Stars:** 9576
 - **Version:** v0.26.0
-- **Updated:** 2024-12-05T20:20:29Z
+- **Updated:** 2024-12-06T09:17:54Z
 - **Size:** 11.5 MB
 - **SHA256SUM:** 51a7ce9f18594120b7cf3558ebeb08e67a54a7f53ebed2fcf6efd2207463ed32
 - **B3SUM:** 7e42e0790ab4bdcc8396890018d021d9520fe3b6f3c42fc6963146c1eaf82167
@@ -12406,7 +12426,7 @@
 - **Author:** nezhahq
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7721
+- **Stars:** 7737
 - **Version:** v1.0.22
 - **Updated:** 2024-12-05T13:40:54Z
 - **Size:** 21.78 MB
@@ -12426,7 +12446,7 @@
 - **Author:** nezhahq
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7721
+- **Stars:** 7737
 - **Version:** v1.0.22
 - **Updated:** 2024-12-05T13:40:54Z
 - **Size:** 37.04 MB
@@ -12446,7 +12466,7 @@
 - **Author:** nezhahq
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7721
+- **Stars:** 7737
 - **Version:** v1.0.22
 - **Updated:** 2024-12-05T13:40:54Z
 - **Size:** 376 B
@@ -12466,7 +12486,7 @@
 - **Author:** nezhahq
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7721
+- **Stars:** 7737
 - **Version:** v1.0.22
 - **Updated:** 2024-12-05T13:40:54Z
 - **Size:** 798 B
@@ -12486,7 +12506,7 @@
 - **Author:** nezhahq
 - **WebURL:** [https://nezha.wiki/en_US/](https://nezha.wiki/en_US/)
 - **Repository:** [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
-- **Stars:** 7721
+- **Stars:** 7737
 - **Version:** v1.0.22
 - **Updated:** 2024-12-05T13:40:54Z
 - **Size:** 1960 B
@@ -12508,7 +12528,7 @@
 - **Repository:** [https://github.com/goreleaser/nfpm](https://github.com/goreleaser/nfpm)
 - **Stars:** 2186
 - **Version:** v2.41.1
-- **Updated:** 2024-11-26T08:49:49Z
+- **Updated:** 2024-12-06T08:57:25Z
 - **Size:** 12.39 MB
 - **SHA256SUM:** 5b10f7512874d11a6e9efc10195dac1c4723d0138fefec50b8f5d22f556f2279
 - **B3SUM:** 8b436720b23e48a63d053353115169a5a80d8ad54aaa59262d0cd2a090aff56c
@@ -12626,7 +12646,7 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 10296
+- **Stars:** 10297
 - **Version:** 
 - **Updated:** 2024-12-04T23:30:05Z
 - **Size:** 4.55 MB
@@ -12646,7 +12666,7 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 10296
+- **Stars:** 10297
 - **Version:** 
 - **Updated:** 2024-12-04T23:30:05Z
 - **Size:** 8.46 MB
@@ -12666,7 +12686,7 @@
 - **Author:** nmap
 - **WebURL:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 - **Repository:** [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-- **Stars:** 10296
+- **Stars:** 10297
 - **Version:** 
 - **Updated:** 2024-12-04T23:30:05Z
 - **Size:** 4.75 MB
@@ -12706,7 +12726,7 @@
 - **Author:** jarun
 - **WebURL:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
 - **Repository:** [https://github.com/jarun/nnn](https://github.com/jarun/nnn)
-- **Stars:** 19440
+- **Stars:** 19439
 - **Version:** v5.0
 - **Updated:** 2024-12-03T22:21:50Z
 - **Size:** 460.85 KB
@@ -12866,7 +12886,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
 - **Repository:** [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
-- **Stars:** 20915
+- **Stars:** 20919
 - **Version:** v3.3.7
 - **Updated:** 2024-12-05T11:50:50Z
 - **Size:** 81.84 MB
@@ -12886,7 +12906,7 @@
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
-- **Stars:** 418
+- **Stars:** 421
 - **Version:** v2.0.19
 - **Updated:** 2024-11-27T07:29:55Z
 - **Size:** 198.62 KB
@@ -12906,7 +12926,7 @@
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
-- **Stars:** 418
+- **Stars:** 421
 - **Version:** v2.0.19
 - **Updated:** 2024-11-27T07:29:55Z
 - **Size:** 198.7 KB
@@ -12926,7 +12946,7 @@
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
-- **Stars:** 418
+- **Stars:** 421
 - **Version:** v2.0.19
 - **Updated:** 2024-11-27T07:29:55Z
 - **Size:** 198.63 KB
@@ -12946,7 +12966,7 @@
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
-- **Stars:** 418
+- **Stars:** 421
 - **Version:** v2.0.19
 - **Updated:** 2024-11-27T07:29:55Z
 - **Size:** 265.04 KB
@@ -12966,7 +12986,7 @@
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
-- **Stars:** 418
+- **Stars:** 421
 - **Version:** v2.0.19
 - **Updated:** 2024-11-27T07:29:55Z
 - **Size:** 264.24 KB
@@ -12986,7 +13006,7 @@
 - **Author:** numactl
 - **WebURL:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
 - **Repository:** [https://github.com/numactl/numactl](https://github.com/numactl/numactl)
-- **Stars:** 418
+- **Stars:** 421
 - **Version:** v2.0.19
 - **Updated:** 2024-11-27T07:29:55Z
 - **Size:** 133.8 KB
@@ -13006,9 +13026,9 @@
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 32887
+- **Stars:** 32895
 - **Version:** 0.100.0
-- **Updated:** 2024-12-05T13:54:14Z
+- **Updated:** 2024-12-06T12:03:13Z
 - **Size:** 35.08 MB
 - **SHA256SUM:** cae698e463bad51f8830e74d8aae649bd9d060151ada230ba5e4a9fd48d2c3f3
 - **B3SUM:** c79a63d28f49f82ef69729febe9abd67e8859618b18ce8666387a3157e975f21
@@ -13026,9 +13046,9 @@
 - **Author:** nushell
 - **WebURL:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - **Repository:** [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-- **Stars:** 32887
+- **Stars:** 32895
 - **Version:** 0.100.0
-- **Updated:** 2024-12-05T13:54:14Z
+- **Updated:** 2024-12-06T12:03:13Z
 - **Size:** 35.08 MB
 - **SHA256SUM:** cae698e463bad51f8830e74d8aae649bd9d060151ada230ba5e4a9fd48d2c3f3
 - **B3SUM:** c79a63d28f49f82ef69729febe9abd67e8859618b18ce8666387a3157e975f21
@@ -13046,7 +13066,7 @@
 - **Author:** linux-nvme
 - **WebURL:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
 - **Repository:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
-- **Stars:** 1496
+- **Stars:** 1497
 - **Version:** v2.11
 - **Updated:** 2024-12-05T10:33:28Z
 - **Size:** 4.96 MB
@@ -13066,7 +13086,7 @@
 - **Author:** linux-nvme
 - **WebURL:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
 - **Repository:** [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
-- **Stars:** 1496
+- **Stars:** 1497
 - **Version:** v2.11
 - **Updated:** 2024-12-05T10:33:28Z
 - **Size:** 4.96 MB
@@ -13106,9 +13126,9 @@
 - **Author:** hatoo
 - **WebURL:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 - **Repository:** [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
-- **Stars:** 6571
+- **Stars:** 6579
 - **Version:** v1.4.7
-- **Updated:** 2024-12-05T08:32:00Z
+- **Updated:** 2024-12-06T12:06:07Z
 - **Size:** 10.39 MB
 - **SHA256SUM:** bf202774e4813ccfb9b16c748b75da84f1b709fbe0adbaf6217a93b97f203f1b
 - **B3SUM:** 5b1f2cadff1d27c6ee248cdd40095b88ff5713a1a87543197b73c9f1e0dfa7e5
@@ -13286,7 +13306,7 @@
 - **Author:** apernet
 - **WebURL:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
 - **Repository:** [https://github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW)
-- **Stars:** 9825
+- **Stars:** 9827
 - **Version:** v0.4.1
 - **Updated:** 2024-10-28T02:12:14Z
 - **Size:** 13.43 MB
@@ -13346,9 +13366,9 @@
 - **Author:** OpenVPN
 - **WebURL:** [https://openvpn.net/](https://openvpn.net/)
 - **Repository:** [https://github.com/OpenVPN/openvpn](https://github.com/OpenVPN/openvpn)
-- **Stars:** 11088
+- **Stars:** 11089
 - **Version:** v2.6.12
-- **Updated:** 2024-12-05T23:21:45Z
+- **Updated:** 2024-12-06T07:17:05Z
 - **Size:** 4.94 MB
 - **SHA256SUM:** cf17b149bbeacf7c88f3f01d20c0f55aa6b3b9b64ee13c693ff32aec15fb0ad3
 - **B3SUM:** f7b6d0b26793209093209a8fbc12bba216f7158c5e6ed6cc9ab0f1f888eefdf6
@@ -13366,7 +13386,7 @@
 - **Author:** xyproto
 - **WebURL:** [https://github.com/xyproto/orbiton](https://github.com/xyproto/orbiton)
 - **Repository:** [https://github.com/xyproto/orbiton](https://github.com/xyproto/orbiton)
-- **Stars:** 502
+- **Stars:** 503
 - **Version:** v2.68.4
 - **Updated:** 2024-12-03T19:15:13Z
 - **Size:** 10.77 MB
@@ -13386,7 +13406,7 @@
 - **Author:** j3ssie
 - **WebURL:** [https://github.com/j3ssie/osmedeus](https://github.com/j3ssie/osmedeus)
 - **Repository:** [https://github.com/j3ssie/osmedeus](https://github.com/j3ssie/osmedeus)
-- **Stars:** 5380
+- **Stars:** 5381
 - **Version:** v4.6.4
 - **Updated:** 2024-05-27T04:29:10Z
 - **Size:** 26.99 MB
@@ -13466,7 +13486,7 @@
 - **Author:** DarthSim
 - **WebURL:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
 - **Repository:** [https://github.com/DarthSim/overmind](https://github.com/DarthSim/overmind)
-- **Stars:** 2906
+- **Stars:** 2905
 - **Version:** v2.5.1
 - **Updated:** 2024-11-26T00:29:13Z
 - **Size:** 4.39 MB
@@ -13486,9 +13506,9 @@
 - **Author:** curlpipe
 - **WebURL:** [https://github.com/curlpipe/ox](https://github.com/curlpipe/ox)
 - **Repository:** [https://github.com/curlpipe/ox](https://github.com/curlpipe/ox)
-- **Stars:** 3370
-- **Version:** 0.7.3
-- **Updated:** 2024-12-06T01:39:01Z
+- **Stars:** 3371
+- **Version:** 0.7.4
+- **Updated:** 2024-12-06T13:38:01Z
 - **Size:** 3.6 MB
 - **SHA256SUM:** 90666cb159745a1ec624970cc421f7374effa92980d0cf0e8aabf5b69f5d4ed7
 - **B3SUM:** a249dae920249190679e8b2417dc4a65ebdae3d9dd8a9de10e2e6c6b9b25a144
@@ -13546,7 +13566,7 @@
 - **Author:** pdfcpu
 - **WebURL:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
 - **Repository:** [https://github.com/pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu)
-- **Stars:** 7071
+- **Stars:** 7072
 - **Version:** v0.9.1
 - **Updated:** 2024-12-02T00:09:06Z
 - **Size:** 11.25 MB
@@ -13668,7 +13688,7 @@
 - **Repository:** [https://github.com/Gobidev/pfetch-rs](https://github.com/Gobidev/pfetch-rs)
 - **Stars:** 276
 - **Version:** v2.11.0
-- **Updated:** 2024-09-19T19:52:46Z
+- **Updated:** 2024-12-06T12:29:00Z
 - **Size:** 3.32 MB
 - **SHA256SUM:** 22a819d3c04b3b8905c102bf83c623b7f5010d680fe605a2edf95b4b76ba6cdb
 - **B3SUM:** bb2aded2527fc17f05dee5122295b4c433a084ca5d68879f997d2cef2e013cb4
@@ -13726,7 +13746,7 @@
 - **Author:** sosedoff
 - **WebURL:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
 - **Repository:** [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
-- **Stars:** 8669
+- **Stars:** 8670
 - **Version:** v0.16.2
 - **Updated:** 2024-11-20T05:55:45Z
 - **Size:** 15.73 MB
@@ -13746,7 +13766,7 @@
 - **Author:** dndx
 - **WebURL:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
 - **Repository:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
-- **Stars:** 1725
+- **Stars:** 1727
 - **Version:** v0.7.0
 - **Updated:** 2024-11-21T17:31:25Z
 - **Size:** 2.18 MB
@@ -13766,7 +13786,7 @@
 - **Author:** dndx
 - **WebURL:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
 - **Repository:** [https://github.com/dndx/phantun](https://github.com/dndx/phantun)
-- **Stars:** 1725
+- **Stars:** 1727
 - **Version:** v0.7.0
 - **Updated:** 2024-11-21T17:31:25Z
 - **Size:** 2.15 MB
@@ -13788,7 +13808,7 @@
 - **Repository:** [https://github.com/crazywhalecc/static-php-cli](https://github.com/crazywhalecc/static-php-cli)
 - **Stars:** 1357
 - **Version:** 2.4.1
-- **Updated:** 2024-12-05T10:58:58Z
+- **Updated:** 2024-12-06T05:13:50Z
 - **Size:** 26.02 MB
 - **SHA256SUM:** a5c21eff4e8d15bc5b8dea59fb46fed3b545bd73121a2c89ee7c38c76eed99db
 - **B3SUM:** 0e8345a55d4793f4a8433cef01dad52e13d75ad17b5fc76293a7765343c98323
@@ -13808,7 +13828,7 @@
 - **Repository:** [https://github.com/crazywhalecc/static-php-cli](https://github.com/crazywhalecc/static-php-cli)
 - **Stars:** 1357
 - **Version:** 2.4.1
-- **Updated:** 2024-12-05T10:58:58Z
+- **Updated:** 2024-12-06T05:13:50Z
 - **Size:** 26.04 MB
 - **SHA256SUM:** 670167327c393983d164b6ed19660f55d38bc6681eac28f6b4ed85661507d30f
 - **B3SUM:** afcdeca701b554cc2a585c155c3af82cd25200eea0cfc423ad615735cacb207c
@@ -13886,7 +13906,7 @@
 - **Author:** esrrhs
 - **WebURL:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
 - **Repository:** [https://github.com/esrrhs/pingtunnel](https://github.com/esrrhs/pingtunnel)
-- **Stars:** 3109
+- **Stars:** 3111
 - **Version:** 2.8
 - **Updated:** 2024-08-14T07:14:37Z
 - **Size:** 8.24 MB
@@ -13906,9 +13926,9 @@
 - **Author:** prefix-dev
 - **WebURL:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
 - **Repository:** [https://github.com/prefix-dev/pixi](https://github.com/prefix-dev/pixi)
-- **Stars:** 3455
+- **Stars:** 3465
 - **Version:** v0.39.0
-- **Updated:** 2024-12-05T16:06:15Z
+- **Updated:** 2024-12-06T09:54:45Z
 - **Size:** 32.16 MB
 - **SHA256SUM:** 3c2bbf1ea88c0fd6582c74bd8364590a833fe99b4ee2c8ffb30b66db5247a5bf
 - **B3SUM:** 32959c36222e0affa6ab44c8e66e5b0bfe8b2d45d9ae35e8e7fce5343ce593bf
@@ -14026,9 +14046,9 @@
 - **Author:** containers
 - **WebURL:** [https://github.com/containers/podman](https://github.com/containers/podman)
 - **Repository:** [https://github.com/containers/podman](https://github.com/containers/podman)
-- **Stars:** 24052
+- **Stars:** 24062
 - **Version:** v5.3.1
-- **Updated:** 2024-12-05T13:12:22Z
+- **Updated:** 2024-12-06T10:01:49Z
 - **Size:** 30.28 MB
 - **SHA256SUM:** 050443285bf9c436312cadad360d4fb10f6d499e805deda5eb8a137a8c61b9d8
 - **B3SUM:** 55e1500fed2b34b4b526b2e37a53bc3827ef590c061629fe3168a02fabf43fc6
@@ -14126,7 +14146,7 @@
 - **Author:** mfontanini
 - **WebURL:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
 - **Repository:** [https://github.com/mfontanini/presenterm](https://github.com/mfontanini/presenterm)
-- **Stars:** 1478
+- **Stars:** 1480
 - **Version:** v0.9.0
 - **Updated:** 2024-12-04T13:43:01Z
 - **Size:** 5.52 MB
@@ -14206,7 +14226,7 @@
 - **Author:** Xfennec
 - **WebURL:** [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
 - **Repository:** [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
-- **Stars:** 8580
+- **Stars:** 8581
 - **Version:** v0.17
 - **Updated:** 2024-11-19T08:43:10Z
 - **Size:** 1.2 MB
@@ -14246,7 +14266,7 @@
 - **Author:** projectdiscovery
 - **WebURL:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
 - **Repository:** [https://github.com/projectdiscovery/proxify](https://github.com/projectdiscovery/proxify)
-- **Stars:** 2734
+- **Stars:** 2735
 - **Version:** v0.0.15
 - **Updated:** 2024-12-02T10:12:36Z
 - **Size:** 38.53 MB
@@ -14306,7 +14326,7 @@
 - **Author:** DominicBreuker
 - **WebURL:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
 - **Repository:** [https://github.com/DominicBreuker/pspy](https://github.com/DominicBreuker/pspy)
-- **Stars:** 4991
+- **Stars:** 4992
 - **Version:** v1.2.1
 - **Updated:** 2023-01-17T21:09:22Z
 - **Size:** 3.72 MB
@@ -14346,7 +14366,7 @@
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
-- **Stars:** 5100
+- **Stars:** 5101
 - **Version:** v4.0.0-rc.1
 - **Updated:** 2024-12-04T14:11:22Z
 - **Size:** 1.53 MB
@@ -14366,7 +14386,7 @@
 - **Author:** Nukesor
 - **WebURL:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
 - **Repository:** [https://github.com/Nukesor/pueue](https://github.com/Nukesor/pueue)
-- **Stars:** 5100
+- **Stars:** 5101
 - **Version:** v4.0.0-rc.1
 - **Updated:** 2024-12-04T14:11:22Z
 - **Size:** 1.53 MB
@@ -14506,7 +14526,7 @@
 - **Author:** userdocs
 - **WebURL:** [https://github.com/userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)
 - **Repository:** [https://github.com/userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)
-- **Stars:** 1162
+- **Stars:** 1163
 - **Version:** release-5.0.2_v2.0.10
 - **Updated:** 2024-12-05T13:35:31Z
 - **Size:** 28.14 MB
@@ -14526,7 +14546,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 6.23 MB
@@ -14546,7 +14566,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 6.3 MB
@@ -14566,7 +14586,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.03 MB
@@ -14586,7 +14606,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.35 MB
@@ -14606,7 +14626,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.42 MB
@@ -14626,7 +14646,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.03 MB
@@ -14646,7 +14666,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 5.1 MB
@@ -14666,7 +14686,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.16 MB
@@ -14686,7 +14706,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.8 MB
@@ -14706,7 +14726,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.67 MB
@@ -14726,7 +14746,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.36 MB
@@ -14746,7 +14766,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.03 MB
@@ -14766,7 +14786,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.03 MB
@@ -14786,7 +14806,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.15 MB
@@ -14806,7 +14826,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.23 MB
@@ -14826,7 +14846,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.23 MB
@@ -14846,7 +14866,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.15 MB
@@ -14866,7 +14886,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.23 MB
@@ -14886,7 +14906,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.23 MB
@@ -14906,7 +14926,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 2.96 MB
@@ -14926,7 +14946,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 2.96 MB
@@ -14946,7 +14966,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.04 MB
@@ -14966,7 +14986,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.11 MB
@@ -14986,7 +15006,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.11 MB
@@ -15006,7 +15026,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.52 MB
@@ -15026,7 +15046,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 4.58 MB
@@ -15046,7 +15066,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.59 MB
@@ -15066,7 +15086,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.03 MB
@@ -15086,7 +15106,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.09 MB
@@ -15106,7 +15126,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.36 MB
@@ -15126,7 +15146,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.43 MB
@@ -15146,7 +15166,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.43 MB
@@ -15166,7 +15186,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 3.73 MB
@@ -15186,7 +15206,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 7.46 MB
@@ -15206,7 +15226,7 @@
 - **Author:** qemu
 - **WebURL:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
 - **Repository:** [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- **Stars:** 10529
+- **Stars:** 10531
 - **Version:** v9.2.0-rc3
 - **Updated:** 2024-12-03T18:05:16Z
 - **Size:** 7.29 MB
@@ -15226,7 +15246,7 @@
 - **Author:** tomnomnom
 - **WebURL:** [https://github.com/tomnomnom/qsreplace](https://github.com/tomnomnom/qsreplace)
 - **Repository:** [https://github.com/tomnomnom/qsreplace](https://github.com/tomnomnom/qsreplace)
-- **Stars:** 772
+- **Stars:** 773
 - **Version:** v0.0.3
 - **Updated:** 2022-11-23T15:42:28Z
 - **Size:** 1.62 MB
@@ -15248,7 +15268,7 @@
 - **Repository:** [https://github.com/dathere/qsv](https://github.com/dathere/qsv)
 - **Stars:** 2549
 - **Version:** 1.0.0
-- **Updated:** 2024-12-05T21:26:31Z
+- **Updated:** 2024-12-06T10:49:54Z
 - **Size:** 20.42 MB
 - **SHA256SUM:** e20a7fe8f69a227eb12d1c87f5408689dc00643e2f4ae2b71a2056da84801c93
 - **B3SUM:** 80d09880455e6d11d98886cc4f08e4bae7a27295004934476241300c71740b57
@@ -15288,7 +15308,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 1.62 MB
 - **SHA256SUM:** f82a74e825786f2678826564e8248aeed8d534828b9413b6528f398f9ac07eda
 - **B3SUM:** 23c8c7a30127512b1417f1e5d1e5e893b86f302603d32c4a7a14735450c5c7bc
@@ -15306,9 +15326,9 @@
 - **Author:** str4d
 - **WebURL:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
 - **Repository:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
-- **Stars:** 2706
+- **Stars:** 2707
 - **Version:** v0.11.0
-- **Updated:** 2024-12-05T19:07:25Z
+- **Updated:** 2024-12-06T03:21:01Z
 - **Size:** 3.19 MB
 - **SHA256SUM:** 05fff6de1b79bfc1ed94db141517d5e169f766321586f931d98b306f597e0dae
 - **B3SUM:** 2aff12c5dae1d24298acb078c9da4d781ccf430a06ab7f684072eee4d165bb7c
@@ -15326,9 +15346,9 @@
 - **Author:** str4d
 - **WebURL:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
 - **Repository:** [https://github.com/str4d/rage](https://github.com/str4d/rage)
-- **Stars:** 2706
+- **Stars:** 2707
 - **Version:** v0.11.0
-- **Updated:** 2024-12-05T19:07:25Z
+- **Updated:** 2024-12-06T03:21:01Z
 - **Size:** 2.52 MB
 - **SHA256SUM:** 5ef43d8cf093ae2662ac88a2b1880d557f4732f1ab3dd43c78364e8c15257027
 - **B3SUM:** 2ef114add5246fb3aefff0429b5ecffe680de0f34f70890572a55b828210cf46
@@ -15348,7 +15368,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 4.99 MB
 - **SHA256SUM:** efadd36f442ec164eb90ed700e1afd80808efc23c92d4d3f18080a49c56af5ed
 - **B3SUM:** cc974d7a12eb3fd82a8b9722b9960cfffd8144262c8e548cc927915908558722
@@ -15386,7 +15406,7 @@
 - **Author:** rapiz1
 - **WebURL:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
 - **Repository:** [https://github.com/rapiz1/rathole](https://github.com/rapiz1/rathole)
-- **Stars:** 9873
+- **Stars:** 9878
 - **Version:** v0.5.0
 - **Updated:** 2024-07-06T20:09:48Z
 - **Size:** 1.03 MB
@@ -15408,7 +15428,7 @@
 - **Repository:** [https://github.com/prefix-dev/rattler-build](https://github.com/prefix-dev/rattler-build)
 - **Stars:** 225
 - **Version:** v0.31.1
-- **Updated:** 2024-12-05T16:52:11Z
+- **Updated:** 2024-12-06T09:53:25Z
 - **Size:** 22.87 MB
 - **SHA256SUM:** 568bc6caa40bb59e81eccaa1cde72f00da67cfd0ab7393f1e8b2e6b4a66e591a
 - **B3SUM:** 7df17273498bfb249dab73ba8a687ff3dc1e2b859c0707cc8dfa010b32d17d9e
@@ -15426,9 +15446,9 @@
 - **Author:** rclone
 - **WebURL:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
 - **Repository:** [https://github.com/rclone/rclone](https://github.com/rclone/rclone)
-- **Stars:** 47515
+- **Stars:** 47520
 - **Version:** v1.68.2
-- **Updated:** 2024-12-05T18:14:42Z
+- **Updated:** 2024-12-06T08:14:09Z
 - **Size:** 58.07 MB
 - **SHA256SUM:** abb84376a0ff0db92dac4d580cf1cfc7e89f84c3738c8c3b176fc2f86a7e3fe8
 - **B3SUM:** 20c6e0a8a08413b6021a7010425388f52e8195ee89cc0059c7c7b531d411fe59
@@ -15466,7 +15486,7 @@
 - **Author:** spellshift
 - **WebURL:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
-- **Stars:** 426
+- **Stars:** 427
 - **Version:** v0.1.0
 - **Updated:** 2024-12-02T01:56:43Z
 - **Size:** 16.71 MB
@@ -15486,7 +15506,7 @@
 - **Author:** spellshift
 - **WebURL:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
-- **Stars:** 426
+- **Stars:** 427
 - **Version:** v0.1.0
 - **Updated:** 2024-12-02T01:56:43Z
 - **Size:** 18.3 MB
@@ -15506,7 +15526,7 @@
 - **Author:** spellshift
 - **WebURL:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
 - **Repository:** [https://github.com/spellshift/realm](https://github.com/spellshift/realm)
-- **Stars:** 426
+- **Stars:** 427
 - **Version:** v0.1.0
 - **Updated:** 2024-12-02T01:56:43Z
 - **Size:** 52.86 MB
@@ -15526,7 +15546,7 @@
 - **Author:** zhboner
 - **WebURL:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
 - **Repository:** [https://github.com/zhboner/realm](https://github.com/zhboner/realm)
-- **Stars:** 1614
+- **Stars:** 1618
 - **Version:** v2.7.0
 - **Updated:** 2024-11-22T17:30:09Z
 - **Size:** 4.12 MB
@@ -15686,9 +15706,9 @@
 - **Author:** lmc999
 - **WebURL:** [https://github.com/lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)
 - **Repository:** [https://github.com/lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck)
-- **Stars:** 4172
+- **Stars:** 4176
 - **Version:** v1.0
-- **Updated:** 2024-11-26T15:30:09Z
+- **Updated:** 2024-12-06T02:54:11Z
 - **Size:** 293.86 KB
 - **SHA256SUM:** 85a93098f25f51ccd418d607b8cfe10c8c9b47c9edc3e1e623ae453ceee315a1
 - **B3SUM:** d705d5caa4cc898347eb1d3b1b46562a46f0365b7330e6600f4ac9dd06d4f2a2
@@ -15766,7 +15786,7 @@
 - **Author:** nelhage
 - **WebURL:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
 - **Repository:** [https://github.com/nelhage/reptyr](https://github.com/nelhage/reptyr)
-- **Stars:** 5847
+- **Stars:** 5848
 - **Version:** reptyr-0.10.0
 - **Updated:** 2023-09-05T01:53:44Z
 - **Size:** 214.39 KB
@@ -15808,7 +15828,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 17.49 KB
 - **SHA256SUM:** 5c7763da58f0ec48aafce0d47efc21793286499d65411b67ae65fd64b1776d1a
 - **B3SUM:** 32b7d5ab3b9ec470ff7d1d53154f28d5fc8fbd6d8d307d3a52ead98e95967bcf
@@ -15826,7 +15846,7 @@
 - **Author:** restic
 - **WebURL:** [https://github.com/restic/restic](https://github.com/restic/restic)
 - **Repository:** [https://github.com/restic/restic](https://github.com/restic/restic)
-- **Stars:** 26840
+- **Stars:** 26844
 - **Version:** v0.17.3
 - **Updated:** 2024-12-01T18:17:58Z
 - **Size:** 25.32 MB
@@ -15866,9 +15886,9 @@
 - **Author:** reviewdog
 - **WebURL:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
 - **Repository:** [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
-- **Stars:** 8013
+- **Stars:** 8016
 - **Version:** v0.20.3
-- **Updated:** 2024-12-06T01:11:40Z
+- **Updated:** 2024-12-06T06:47:28Z
 - **Size:** 14.12 MB
 - **SHA256SUM:** b08baa6992dc39c70b9ad6c249910017e3be515c36e7a78da6fa0f3f75ecccb1
 - **B3SUM:** 98c45671daea674e01a3ecbfcae482b4d63dc6a53777e45c7f01d81d02a10e1b
@@ -15906,7 +15926,7 @@
 - **Author:** mgechev
 - **WebURL:** [https://github.com/mgechev/revive](https://github.com/mgechev/revive)
 - **Repository:** [https://github.com/mgechev/revive](https://github.com/mgechev/revive)
-- **Stars:** 4840
+- **Stars:** 4841
 - **Version:** v1.5.1
 - **Updated:** 2024-12-05T12:09:31Z
 - **Size:** 8.49 MB
@@ -15946,7 +15966,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 49075
+- **Stars:** 49086
 - **Version:** 14.1.1
 - **Updated:** 2024-09-30T11:38:42Z
 - **Size:** 4.11 MB
@@ -15966,7 +15986,7 @@
 - **Author:** BurntSushi
 - **WebURL:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - **Repository:** [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
-- **Stars:** 49075
+- **Stars:** 49086
 - **Version:** 14.1.1
 - **Updated:** 2024-09-30T11:38:42Z
 - **Size:** 4.11 MB
@@ -16126,7 +16146,7 @@
 - **Author:** ikatson
 - **WebURL:** [https://github.com/ikatson/rqbit](https://github.com/ikatson/rqbit)
 - **Repository:** [https://github.com/ikatson/rqbit](https://github.com/ikatson/rqbit)
-- **Stars:** 880
+- **Stars:** 884
 - **Version:** v7.0.1
 - **Updated:** 2024-12-05T21:30:10Z
 - **Size:** 14.3 MB
@@ -16146,7 +16166,7 @@
 - **Author:** kpcyrd
 - **WebURL:** [https://github.com/kpcyrd/rshijack](https://github.com/kpcyrd/rshijack)
 - **Repository:** [https://github.com/kpcyrd/rshijack](https://github.com/kpcyrd/rshijack)
-- **Stars:** 479
+- **Stars:** 480
 - **Version:** v0.5.2
 - **Updated:** 2024-10-30T12:05:48Z
 - **Size:** 1.65 MB
@@ -16166,7 +16186,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2972
+- **Stars:** 2973
 - **Version:** v3.3.0
 - **Updated:** 2024-11-20T05:45:50Z
 - **Size:** 5.01 MB
@@ -16186,7 +16206,7 @@
 - **Author:** RsyncProject
 - **WebURL:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
 - **Repository:** [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
-- **Stars:** 2972
+- **Stars:** 2973
 - **Version:** v3.3.0
 - **Updated:** 2024-11-20T05:45:50Z
 - **Size:** 5217 B
@@ -16206,9 +16226,9 @@
 - **Author:** astral-sh
 - **WebURL:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
 - **Repository:** [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
-- **Stars:** 33422
+- **Stars:** 33433
 - **Version:** 0.8.2
-- **Updated:** 2024-12-06T01:15:12Z
+- **Updated:** 2024-12-06T13:47:01Z
 - **Size:** 21.83 MB
 - **SHA256SUM:** e18354fa7f2f1f77b4731c069cfdec28ae5007790762277dd499daa8c0353072
 - **B3SUM:** d42b56644221b5662e83c9f2ee14eb4d4a535bc1c64769452b005b8d1e8b2ea0
@@ -16226,7 +16246,7 @@
 - **Author:** opencontainers
 - **WebURL:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
 - **Repository:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
-- **Stars:** 11962
+- **Stars:** 11963
 - **Version:** v1.2.2
 - **Updated:** 2024-12-05T09:50:58Z
 - **Size:** 10.64 MB
@@ -16286,7 +16306,7 @@
 - **Author:** stateful
 - **WebURL:** [https://github.com/stateful/runme](https://github.com/stateful/runme)
 - **Repository:** [https://github.com/stateful/runme](https://github.com/stateful/runme)
-- **Stars:** 1211
+- **Stars:** 1210
 - **Version:** v3.10.0
 - **Updated:** 2024-12-04T15:34:12Z
 - **Size:** 31.44 MB
@@ -16306,9 +16326,9 @@
 - **Author:** Moe-hacker
 - **WebURL:** [https://blog.crack.moe/2023/07/31/moe-ruri-notes/](https://blog.crack.moe/2023/07/31/moe-ruri-notes/)
 - **Repository:** [https://github.com/Moe-hacker/ruri](https://github.com/Moe-hacker/ruri)
-- **Stars:** 85
-- **Version:** v3.7
-- **Updated:** 2024-11-30T01:57:26Z
+- **Stars:** 86
+- **Version:** v3.8-rc1
+- **Updated:** 2024-12-06T07:21:18Z
 - **Size:** 862.21 KB
 - **SHA256SUM:** a652a3449cfbcaa2940d463bb307e5ba5fbc0b2c4634691f2a41bd6bae949e20
 - **B3SUM:** c8d6e0af5bf07fb91da682f635fbfcac4c1514fbb40814146d324faf92b0530b
@@ -16346,7 +16366,7 @@
 - **Author:** cloud-hypervisor
 - **WebURL:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
 - **Repository:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
-- **Stars:** 608
+- **Stars:** 609
 - **Version:** 0.5.0
 - **Updated:** 2024-12-04T03:52:39Z
 - **Size:** 183.69 KB
@@ -16366,7 +16386,7 @@
 - **Author:** cloud-hypervisor
 - **WebURL:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
 - **Repository:** [https://github.com/cloud-hypervisor/rust-hypervisor-firmware](https://github.com/cloud-hypervisor/rust-hypervisor-firmware)
-- **Stars:** 608
+- **Stars:** 609
 - **Version:** 0.5.0
 - **Updated:** 2024-12-04T03:52:39Z
 - **Size:** 183.69 KB
@@ -16446,9 +16466,9 @@
 - **Author:** RustScan
 - **WebURL:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
 - **Repository:** [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan)
-- **Stars:** 14846
+- **Stars:** 14849
 - **Version:** 2.3.0
-- **Updated:** 2024-11-26T13:08:54Z
+- **Updated:** 2024-12-06T09:31:05Z
 - **Size:** 5.1 MB
 - **SHA256SUM:** 5a8eab8b19b87e733328ae27db7f0e0923c40c0eb234b011397d64398ce1b531
 - **B3SUM:** 40e6965243f0425938d3361f71b45927c8057df944b4d403d864161164b81c5e
@@ -16688,7 +16708,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 1.62 MB
 - **SHA256SUM:** 32c2d9aa309c9daf018ea8fcb7890fa3201c072e6ffe5957760ba596c959634a
 - **B3SUM:** 693676b9b26780b92ecadfe2ea610ec31a29ce5dbabe3c12edf6ce2eca2b6433
@@ -16708,7 +16728,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 2532 B
 - **SHA256SUM:** 1230b65d7e5558576bc76a743023e4c1756d5faad543c46c17b812177771f4ce
 - **B3SUM:** 816056faddc42363ac7aa271f02dcd418d3db778869ce9d1224a9ad6378c8eff
@@ -16786,7 +16806,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 7.27 MB
@@ -16806,7 +16826,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 1076 B
@@ -16826,7 +16846,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 14.7 MB
@@ -16846,7 +16866,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 11.72 MB
@@ -16866,7 +16886,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 19.28 KB
@@ -16886,7 +16906,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 7.27 MB
@@ -16906,7 +16926,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 14.7 MB
@@ -16926,7 +16946,7 @@
 - **Author:** zdz
 - **WebURL:** [https://doc.ssr.rs](https://doc.ssr.rs)
 - **Repository:** [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
-- **Stars:** 1908
+- **Stars:** 1911
 - **Version:** v1.8.1
 - **Updated:** 2024-12-05T23:16:17Z
 - **Size:** 11.72 MB
@@ -17046,7 +17066,7 @@
 - **Author:** koalaman
 - **WebURL:** [https://www.shellcheck.net](https://www.shellcheck.net)
 - **Repository:** [https://github.com/koalaman/shellcheck](https://github.com/koalaman/shellcheck)
-- **Stars:** 36551
+- **Stars:** 36552
 - **Version:** v0.10.0
 - **Updated:** 2024-11-30T02:13:34Z
 - **Size:** 31.48 MB
@@ -17226,9 +17246,9 @@
 - **Author:** SagerNet
 - **WebURL:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - **Repository:** [https://github.com/SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-- **Stars:** 20511
+- **Stars:** 20534
 - **Version:** v1.10.3
-- **Updated:** 2024-12-05T15:46:58Z
+- **Updated:** 2024-12-06T13:26:31Z
 - **Size:** 30.29 MB
 - **SHA256SUM:** f29ae6f7a548b93b0d13168c5c369d03874bf426b6b042231338b304f0b4c505
 - **B3SUM:** eccdcc95e5a3637b0e6a0bba09c1b7fd6ef89ab00e4a4f39398cb3a266930b8a
@@ -17266,7 +17286,7 @@
 - **Author:** BishopFox
 - **WebURL:** [https://github.com/BishopFox/sj](https://github.com/BishopFox/sj)
 - **Repository:** [https://github.com/BishopFox/sj](https://github.com/BishopFox/sj)
-- **Stars:** 552
+- **Stars:** 553
 - **Version:** 1.10.1
 - **Updated:** 2024-11-15T21:30:50Z
 - **Size:** 8.54 MB
@@ -17286,9 +17306,9 @@
 - **Author:** skim-rs
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 5234
+- **Stars:** 5235
 - **Version:** v0.15.5
-- **Updated:** 2024-12-04T14:19:42Z
+- **Updated:** 2024-12-06T13:30:31Z
 - **Size:** 3.21 MB
 - **SHA256SUM:** b02efce33421a06f56d92409dd90f5b7205e3b52d475c9f86e3c56b8779474d4
 - **B3SUM:** e239f547142d9b14cb52eda7327e1eb22cd874717d21393571a7f98aaca744cd
@@ -17306,9 +17326,9 @@
 - **Author:** skim-rs
 - **WebURL:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
 - **Repository:** [https://github.com/lotabout/skim](https://github.com/lotabout/skim)
-- **Stars:** 5234
+- **Stars:** 5235
 - **Version:** v0.15.5
-- **Updated:** 2024-12-04T14:19:42Z
+- **Updated:** 2024-12-06T13:30:31Z
 - **Size:** 7434 B
 - **SHA256SUM:** 0f9918af2dbf0db547939e2b3e39fed682335e0cf504358ee69f15ca300cc27b
 - **B3SUM:** 3d2fdf1aee9a7cbdd38e6b56f5c2ca073115d5546254c0e96a639319b45590e3
@@ -17386,7 +17406,7 @@
 - **Author:** s0md3v
 - **WebURL:** [https://github.com/s0md3v/Smap](https://github.com/s0md3v/Smap)
 - **Repository:** [https://github.com/s0md3v/Smap](https://github.com/s0md3v/Smap)
-- **Stars:** 2920
+- **Stars:** 2921
 - **Version:** 0.1.12
 - **Updated:** 2024-04-03T18:09:35Z
 - **Size:** 14.64 MB
@@ -17426,7 +17446,7 @@
 - **Author:** pymumu
 - **WebURL:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 - **Repository:** [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
-- **Stars:** 8522
+- **Stars:** 8523
 - **Version:** Release46
 - **Updated:** 2024-11-18T15:23:20Z
 - **Size:** 2.92 MB
@@ -17486,7 +17506,7 @@
 - **Author:** pkgforge
 - **WebURL:** [https://github.com/QaidVoid/soar](https://github.com/QaidVoid/soar)
 - **Repository:** [https://github.com/QaidVoid/soar](https://github.com/QaidVoid/soar)
-- **Stars:** 32
+- **Stars:** 33
 - **Version:** v0.4.8
 - **Updated:** 2024-12-02T16:50:06Z
 - **Size:** 6.53 MB
@@ -17566,7 +17586,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
 - **Repository:** [https://github.com/charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve)
-- **Stars:** 5418
+- **Stars:** 5420
 - **Version:** v0.7.6
 - **Updated:** 2024-12-05T17:27:43Z
 - **Size:** 26.54 MB
@@ -17626,7 +17646,7 @@
 - **Author:** Tarsnap
 - **WebURL:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
 - **Repository:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
-- **Stars:** 859
+- **Stars:** 860
 - **Version:** 1.6.2
 - **Updated:** 2024-11-17T01:06:17Z
 - **Size:** 3.48 MB
@@ -17646,7 +17666,7 @@
 - **Author:** Tarsnap
 - **WebURL:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
 - **Repository:** [https://github.com/Tarsnap/spiped](https://github.com/Tarsnap/spiped)
-- **Stars:** 859
+- **Stars:** 860
 - **Version:** 1.6.2
 - **Updated:** 2024-11-17T01:06:17Z
 - **Size:** 3.55 MB
@@ -17706,7 +17726,7 @@
 - **Author:** neilotoole
 - **WebURL:** [https://github.com/neilotoole/sq](https://github.com/neilotoole/sq)
 - **Repository:** [https://github.com/neilotoole/sq](https://github.com/neilotoole/sq)
-- **Stars:** 2157
+- **Stars:** 2158
 - **Version:** v0.48.4
 - **Updated:** 2024-12-02T22:22:32Z
 - **Size:** 32.01 MB
@@ -17746,9 +17766,9 @@
 - **Author:** sqlite
 - **WebURL:** [https://www.sqlite.org](https://www.sqlite.org)
 - **Repository:** [https://github.com/sqlite/sqlite](https://github.com/sqlite/sqlite)
-- **Stars:** 6821
+- **Stars:** 6823
 - **Version:** vesion-3.45.1
-- **Updated:** 2024-12-06T00:17:11Z
+- **Updated:** 2024-12-06T10:17:09Z
 - **Size:** 1.99 MB
 - **SHA256SUM:** 2067ee972a6795f36ecba857b49a71901e9b0ec7f373b42fb762986ac87bfa81
 - **B3SUM:** 49c8bd850c2bfb00c033bdf8119e4eeaea78442225b77b46a3d7148fc5606e86
@@ -17826,7 +17846,7 @@
 - **Author:** jaksi
 - **WebURL:** [https://github.com/jaksi/sshesame](https://github.com/jaksi/sshesame)
 - **Repository:** [https://github.com/jaksi/sshesame](https://github.com/jaksi/sshesame)
-- **Stars:** 1553
+- **Stars:** 1554
 - **Version:** v0.0.39
 - **Updated:** 2024-10-21T23:23:25Z
 - **Size:** 8.5 MB
@@ -17966,9 +17986,9 @@
 - **Author:** starship
 - **WebURL:** [https://github.com/starship/starship](https://github.com/starship/starship)
 - **Repository:** [https://github.com/starship/starship](https://github.com/starship/starship)
-- **Stars:** 45702
+- **Stars:** 45708
 - **Version:** v1.21.1
-- **Updated:** 2024-12-06T00:46:24Z
+- **Updated:** 2024-12-06T13:06:41Z
 - **Size:** 8.24 MB
 - **SHA256SUM:** b03e506925e4e715f746278a6d96b97038c8828ea14219ba32fab13d5f1c7cee
 - **B3SUM:** fa5ad7ff02c945b68ce3c447a0121091081205d404d03b525a62a3bc56b6ad58
@@ -18188,7 +18208,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 7.71 MB
 - **SHA256SUM:** 1cf9f62ef74b0cd8067c5a62ebc0408ea31d2b1b26547ae415d05571c1320027
 - **B3SUM:** 0d085c811e201f1537df4387a882c0a3fedeb85b4c68908f466c3473da75e67c
@@ -18206,7 +18226,7 @@
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
-- **Stars:** 2927
+- **Stars:** 2926
 - **Version:** v0.2.3
 - **Updated:** 2024-12-02T16:23:16Z
 - **Size:** 1.1 MB
@@ -18226,7 +18246,7 @@
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
-- **Stars:** 2927
+- **Stars:** 2926
 - **Version:** v0.2.3
 - **Updated:** 2024-12-02T16:23:16Z
 - **Size:** 1.22 MB
@@ -18246,7 +18266,7 @@
 - **Author:** trifectatechfoundation
 - **WebURL:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
 - **Repository:** [https://github.com/memorysafety/sudo-rs](https://github.com/memorysafety/sudo-rs)
-- **Stars:** 2927
+- **Stars:** 2926
 - **Version:** v0.2.3
 - **Updated:** 2024-12-02T16:23:16Z
 - **Size:** 1.09 MB
@@ -18306,7 +18326,7 @@
 - **Author:** ochinchina
 - **WebURL:** [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
 - **Repository:** [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
-- **Stars:** 4034
+- **Stars:** 4035
 - **Version:** v0.7.3
 - **Updated:** 2024-07-03T16:23:49Z
 - **Size:** 11.07 MB
@@ -18326,7 +18346,7 @@
 - **Author:** assetnote
 - **WebURL:** [https://github.com/assetnote/surf](https://github.com/assetnote/surf)
 - **Repository:** [https://github.com/assetnote/surf](https://github.com/assetnote/surf)
-- **Stars:** 586
+- **Stars:** 587
 - **Version:** v0.0.5
 - **Updated:** 2023-12-19T00:13:43Z
 - **Size:** 33.23 MB
@@ -18386,7 +18406,7 @@
 - **Author:** syncthing
 - **WebURL:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
 - **Repository:** [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
-- **Stars:** 66005
+- **Stars:** 66011
 - **Version:** v1.28.1
 - **Updated:** 2024-12-06T01:29:48Z
 - **Size:** 24.05 MB
@@ -18566,9 +18586,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19690
+- **Stars:** 19699
 - **Version:** v1.78.1
-- **Updated:** 2024-12-06T00:11:20Z
+- **Updated:** 2024-12-06T12:12:42Z
 - **Size:** 14.04 MB
 - **SHA256SUM:** e2773d3af5f972af8de0dba46fd97b6f74ad1e7c93d69fc7dde357cbe5841ebc
 - **B3SUM:** 338f2a7fa1c5e780db1004f746ac48ffe73829d47ae3cadd5e5bf73e234fe3c9
@@ -18586,9 +18606,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19690
+- **Stars:** 19699
 - **Version:** v1.78.1
-- **Updated:** 2024-12-06T00:11:20Z
+- **Updated:** 2024-12-06T12:12:42Z
 - **Size:** 28.39 MB
 - **SHA256SUM:** 30d6ffd3ece2887192f0f278d9c43c24ef77b983f2f4b723270cf7663dbda922
 - **B3SUM:** af5eea54ff4cb464f81e67332e0e381afcb47622fc5c1eb72d69a349508bb8cc
@@ -18606,9 +18626,9 @@
 - **Author:** tailscale
 - **WebURL:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
 - **Repository:** [https://github.com/tailscale/tailscale](https://github.com/tailscale/tailscale)
-- **Stars:** 19690
+- **Stars:** 19699
 - **Version:** v1.78.1
-- **Updated:** 2024-12-06T00:11:20Z
+- **Updated:** 2024-12-06T12:12:42Z
 - **Size:** 26.84 MB
 - **SHA256SUM:** c5fd5d09e27c0fc3958de21f807bdd82734abcf94d62748591f6daa4bacc3a28
 - **B3SUM:** 6f3ae15a7c78bedcece640f43ba77cf4ce2a32a1c22bc6a9364a604605aa5da8
@@ -18666,7 +18686,7 @@
 - **Author:** the-tcpdump-group
 - **WebURL:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
 - **Repository:** [https://github.com/the-tcpdump-group/tcpdump](https://github.com/the-tcpdump-group/tcpdump)
-- **Stars:** 2749
+- **Stars:** 2751
 - **Version:** tcpdump-4.99.5
 - **Updated:** 2024-12-05T12:07:24Z
 - **Size:** 1.66 MB
@@ -18686,7 +18706,7 @@
 - **Author:** iyear
 - **WebURL:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
 - **Repository:** [https://github.com/iyear/tdl](https://github.com/iyear/tdl)
-- **Stars:** 4555
+- **Stars:** 4559
 - **Version:** v0.18.3
 - **Updated:** 2024-12-02T09:13:52Z
 - **Size:** 40.86 MB
@@ -18726,7 +18746,7 @@
 - **Author:** tgdrive
 - **WebURL:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
 - **Repository:** [https://github.com/divyam234/teldrive](https://github.com/divyam234/teldrive)
-- **Stars:** 1847
+- **Stars:** 1849
 - **Version:** 1.5.5
 - **Updated:** 2024-12-02T13:53:22Z
 - **Size:** 52.08 MB
@@ -18746,7 +18766,7 @@
 - **Author:** mgunyho
 - **WebURL:** [https://github.com/mgunyho/tere](https://github.com/mgunyho/tere)
 - **Repository:** [https://github.com/mgunyho/tere](https://github.com/mgunyho/tere)
-- **Stars:** 1703
+- **Stars:** 1704
 - **Version:** v1.6.0
 - **Updated:** 2024-10-25T15:52:06Z
 - **Size:** 2.3 MB
@@ -18946,7 +18966,7 @@
 - **Author:** tldr-pages
 - **WebURL:** [https://github.com/tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)
 - **Repository:** [https://github.com/tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)
-- **Stars:** 363
+- **Stars:** 364
 - **Version:** v1.9.3
 - **Updated:** 2024-12-01T21:04:36Z
 - **Size:** 2.92 MB
@@ -18986,7 +19006,7 @@
 - **Author:** tmate-io
 - **WebURL:** [https://github.com/tmate-io/tmate](https://github.com/tmate-io/tmate)
 - **Repository:** [https://github.com/tmate-io/tmate](https://github.com/tmate-io/tmate)
-- **Stars:** 5693
+- **Stars:** 5695
 - **Version:** 2.4.0
 - **Updated:** 2023-10-16T11:59:37Z
 - **Size:** 2.97 MB
@@ -19006,9 +19026,9 @@
 - **Author:** tmux
 - **WebURL:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
 - **Repository:** [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-- **Stars:** 35666
+- **Stars:** 35669
 - **Version:** 3.5a
-- **Updated:** 2024-12-04T22:01:44Z
+- **Updated:** 2024-12-06T12:01:50Z
 - **Size:** 1.84 MB
 - **SHA256SUM:** 60f4235b8318798bc52e08d217660489226122323dee30303dffdd52fa392365
 - **B3SUM:** fd5e9d4e93731f79dea6100400a44893dcc31246abe95fdd8ecb1d5a0c538dd9
@@ -19028,7 +19048,7 @@
 - **Repository:** [https://github.com/Azathothas/Arsenal](https://github.com/Azathothas/Arsenal)
 - **Stars:** 73
 - **Version:** 
-- **Updated:** 2024-12-02T10:26:57Z
+- **Updated:** 2024-12-06T05:41:49Z
 - **Size:** 1.56 MB
 - **SHA256SUM:** ea73bd00e8add5d9c2792e8343f5ed15bab0bf4fa49daab444bfc037d6f1e637
 - **B3SUM:** ee520c97dae3fee366d24c9c07decf3691a20153c39c3ca3ae6edcdc81ebdbb0
@@ -19046,7 +19066,7 @@
 - **Author:** XAMPPRocky
 - **WebURL:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
 - **Repository:** [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
-- **Stars:** 11397
+- **Stars:** 11402
 - **Version:** v13.0.0-alpha.7
 - **Updated:** 2024-11-20T10:14:04Z
 - **Size:** 4.02 MB
@@ -19066,7 +19086,7 @@
 - **Author:** sweetbbak
 - **WebURL:** [https://github.com/sweetbbak/toru](https://github.com/sweetbbak/toru)
 - **Repository:** [https://github.com/sweetbbak/toru](https://github.com/sweetbbak/toru)
-- **Stars:** 295
+- **Stars:** 296
 - **Version:** v0.3.3
 - **Updated:** 2024-10-24T18:15:13Z
 - **Size:** 21.91 MB
@@ -19086,7 +19106,7 @@
 - **Author:** landley
 - **WebURL:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
 - **Repository:** [https://github.com/landley/toybox](https://github.com/landley/toybox)
-- **Stars:** 2447
+- **Stars:** 2448
 - **Version:** 0.8.11
 - **Updated:** 2024-12-03T20:10:05Z
 - **Size:** 841.69 KB
@@ -19106,9 +19126,9 @@
 - **Author:** traefik
 - **WebURL:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
 - **Repository:** [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
-- **Stars:** 51702
+- **Stars:** 51709
 - **Version:** v3.2.1
-- **Updated:** 2024-12-05T17:54:01Z
+- **Updated:** 2024-12-06T13:50:04Z
 - **Size:** 175.37 MB
 - **SHA256SUM:** 6ca16af3f19bf0253893246f3d9e4b6196c157ae8b4e0b2e6078f995202c7933
 - **B3SUM:** 2cca5b426a695e06eb44f5ef611bf5fe03c35c389615e4e0832b8eada2ce4bb3
@@ -19126,7 +19146,7 @@
 - **Author:** transmission
 - **WebURL:** [https://transmissionbt.com/](https://transmissionbt.com/)
 - **Repository:** [https://github.com/transmission/transmission](https://github.com/transmission/transmission)
-- **Stars:** 12342
+- **Stars:** 12344
 - **Version:** 4.0.6
 - **Updated:** 2024-11-27T01:52:05Z
 - **Size:** 9.21 MB
@@ -19148,7 +19168,7 @@
 - **Repository:** [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
 - **Stars:** 3811
 - **Version:** 0.12.0
-- **Updated:** 2024-12-05T16:00:02Z
+- **Updated:** 2024-12-06T02:40:27Z
 - **Size:** 7.02 MB
 - **SHA256SUM:** 6b38404a5aceeb4e9c097254559364c0ec9f0911ffa511091f7665099d2165c3
 - **B3SUM:** eb1dd8d6acebc2accaaee40ac763d57d36139824c9d4299b463fc53cacae2b77
@@ -19166,7 +19186,7 @@
 - **Author:** trufflesecurity
 - **WebURL:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
 - **Repository:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
-- **Stars:** 17479
+- **Stars:** 17485
 - **Version:** v3.85.0
 - **Updated:** 2024-12-05T21:50:27Z
 - **Size:** 122.1 MB
@@ -19246,7 +19266,7 @@
 - **Author:** tsl0922
 - **WebURL:** [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
 - **Repository:** [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
-- **Stars:** 8241
+- **Stars:** 8245
 - **Version:** 1.7.7
 - **Updated:** 2024-11-26T15:38:56Z
 - **Size:** 1.37 MB
@@ -19286,7 +19306,7 @@
 - **Author:** tun2proxy
 - **WebURL:** [https://github.com/tun2proxy/tun2proxy](https://github.com/tun2proxy/tun2proxy)
 - **Repository:** [https://github.com/tun2proxy/tun2proxy](https://github.com/tun2proxy/tun2proxy)
-- **Stars:** 564
+- **Stars:** 565
 - **Version:** v0.6.6
 - **Updated:** 2024-11-26T05:32:50Z
 - **Size:** 3.81 MB
@@ -19386,9 +19406,9 @@
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
-- **Stars:** 2625
+- **Stars:** 2626
 - **Version:** v0.14.0
-- **Updated:** 2024-12-05T07:35:08Z
+- **Updated:** 2024-12-06T06:49:47Z
 - **Size:** 6.83 MB
 - **SHA256SUM:** ab9603208a518d7ff3acaab697252c2c33847286864e716c0cd59f72a9d030be
 - **B3SUM:** 392183e00190c6555dfcc42ab37bf382d210779260cc3436534ca81461e7e6aa
@@ -19406,9 +19426,9 @@
 - **Author:** u-root
 - **WebURL:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
 - **Repository:** [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
-- **Stars:** 2625
+- **Stars:** 2626
 - **Version:** v0.14.0
-- **Updated:** 2024-12-05T07:35:08Z
+- **Updated:** 2024-12-06T06:49:47Z
 - **Size:** 6.83 MB
 - **SHA256SUM:** ab9603208a518d7ff3acaab697252c2c33847286864e716c0cd59f72a9d030be
 - **B3SUM:** 392183e00190c6555dfcc42ab37bf382d210779260cc3436534ca81461e7e6aa
@@ -19606,7 +19626,7 @@
 - **Author:** upx
 - **WebURL:** [https://github.com/upx/upx](https://github.com/upx/upx)
 - **Repository:** [https://github.com/upx/upx](https://github.com/upx/upx)
-- **Stars:** 14680
+- **Stars:** 14683
 - **Version:** v4.2.4
 - **Updated:** 2024-12-05T19:32:39Z
 - **Size:** 577.12 KB
@@ -19626,7 +19646,7 @@
 - **Author:** xo
 - **WebURL:** [https://github.com/xo/usql](https://github.com/xo/usql)
 - **Repository:** [https://github.com/xo/usql](https://github.com/xo/usql)
-- **Stars:** 9104
+- **Stars:** 9105
 - **Version:** v0.19.12
 - **Updated:** 2024-12-02T19:06:06Z
 - **Size:** 150.63 MB
@@ -19646,7 +19666,7 @@
 - **Author:** v2rayA
 - **WebURL:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
 - **Repository:** [https://github.com/v2rayA/v2rayA](https://github.com/v2rayA/v2rayA)
-- **Stars:** 11685
+- **Stars:** 11690
 - **Version:** v2.2.6.3
 - **Updated:** 2024-11-24T11:49:39Z
 - **Size:** 30.02 MB
@@ -19706,7 +19726,7 @@
 - **Author:** tsenart
 - **WebURL:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
 - **Repository:** [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
-- **Stars:** 23681
+- **Stars:** 23683
 - **Version:** v12.12.0
 - **Updated:** 2024-10-28T16:39:48Z
 - **Size:** 10.55 MB
@@ -19726,7 +19746,7 @@
 - **Author:** version-fox
 - **WebURL:** [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
 - **Repository:** [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
-- **Stars:** 2912
+- **Stars:** 2914
 - **Version:** v0.6.0
 - **Updated:** 2024-10-13T09:18:28Z
 - **Size:** 11.43 MB
@@ -19746,7 +19766,7 @@
 - **Author:** charmbracelet
 - **WebURL:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
 - **Repository:** [https://github.com/charmbracelet/vhs](https://github.com/charmbracelet/vhs)
-- **Stars:** 15390
+- **Stars:** 15395
 - **Version:** v0.8.0
 - **Updated:** 2024-12-04T20:50:01Z
 - **Size:** 21.89 MB
@@ -19766,7 +19786,7 @@
 - **Author:** sachaos
 - **WebURL:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
 - **Repository:** [https://github.com/sachaos/viddy](https://github.com/sachaos/viddy)
-- **Stars:** 4816
+- **Stars:** 4818
 - **Version:** v1.3.0
 - **Updated:** 2024-11-28T23:50:39Z
 - **Size:** 7.45 MB
@@ -19806,7 +19826,7 @@
 - **Author:** atanunq
 - **WebURL:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
 - **Repository:** [https://github.com/atanunq/viu](https://github.com/atanunq/viu)
-- **Stars:** 2606
+- **Stars:** 2605
 - **Version:** v1.5.1
 - **Updated:** 2024-12-04T18:31:08Z
 - **Size:** 3.23 MB
@@ -19826,7 +19846,7 @@
 - **Author:** vergoh
 - **WebURL:** [https://humdi.net/vnstat/](https://humdi.net/vnstat/)
 - **Repository:** [https://github.com/vergoh/vnstat](https://github.com/vergoh/vnstat)
-- **Stars:** 1458
+- **Stars:** 1459
 - **Version:** v2.12
 - **Updated:** 2024-09-06T17:30:33Z
 - **Size:** 1.73 MB
@@ -19846,7 +19866,7 @@
 - **Author:** void-linux
 - **WebURL:** [https://voidlinux.org/download/#containers](https://voidlinux.org/download/#containers)
 - **Repository:** [https://github.com/void-linux/void-containers](https://github.com/void-linux/void-containers)
-- **Stars:** 71
+- **Stars:** 72
 - **Version:** 
 - **Updated:** 2024-05-26T07:40:12Z
 - **Size:** 64.38 MB
@@ -19866,7 +19886,7 @@
 - **Author:** void-linux
 - **WebURL:** [https://voidlinux.org/download/#containers](https://voidlinux.org/download/#containers)
 - **Repository:** [https://github.com/void-linux/void-containers](https://github.com/void-linux/void-containers)
-- **Stars:** 71
+- **Stars:** 72
 - **Version:** 
 - **Updated:** 2024-05-26T07:40:12Z
 - **Size:** 49.63 MB
@@ -19886,7 +19906,7 @@
 - **Author:** volta-cli
 - **WebURL:** [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
 - **Repository:** [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
-- **Stars:** 11219
+- **Stars:** 11222
 - **Version:** v2.0.2
 - **Updated:** 2024-12-05T06:38:49Z
 - **Size:** 5.35 MB
@@ -20206,7 +20226,7 @@
 - **Author:** vi
 - **WebURL:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
 - **Repository:** [https://github.com/vi/websocat](https://github.com/vi/websocat)
-- **Stars:** 7201
+- **Stars:** 7202
 - **Version:** v1.14.0
 - **Updated:** 2024-11-13T23:57:54Z
 - **Size:** 6.01 MB
@@ -20226,7 +20246,7 @@
 - **Author:** schachmat
 - **WebURL:** [https://github.com/schachmat/wego](https://github.com/schachmat/wego)
 - **Repository:** [https://github.com/schachmat/wego](https://github.com/schachmat/wego)
-- **Stars:** 7858
+- **Stars:** 7859
 - **Version:** 2.3
 - **Updated:** 2024-10-06T16:47:46Z
 - **Size:** 6.11 MB
@@ -20246,7 +20266,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 18197
+- **Stars:** 18202
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-12-05T15:35:51Z
 - **Size:** 438.4 KB
@@ -20266,7 +20286,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 18197
+- **Stars:** 18202
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-12-05T15:35:51Z
 - **Size:** 1.06 MB
@@ -20286,7 +20306,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 18197
+- **Stars:** 18202
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-12-05T15:35:51Z
 - **Size:** 10.34 MB
@@ -20306,7 +20326,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 18197
+- **Stars:** 18202
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-12-05T15:35:51Z
 - **Size:** 24.88 MB
@@ -20326,7 +20346,7 @@
 - **Author:** wez
 - **WebURL:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Repository:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
-- **Stars:** 18197
+- **Stars:** 18202
 - **Version:** 20240203-110809-5046fc22
 - **Updated:** 2024-12-05T15:35:51Z
 - **Size:** 23.17 MB
@@ -20486,7 +20506,7 @@
 - **Author:** pufferffish
 - **WebURL:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
 - **Repository:** [https://github.com/pufferffish/wireproxy](https://github.com/pufferffish/wireproxy)
-- **Stars:** 4564
+- **Stars:** 4567
 - **Version:** v1.0.9
 - **Updated:** 2024-09-03T20:21:40Z
 - **Size:** 8.13 MB
@@ -20506,7 +20526,7 @@
 - **Author:** sandialabs
 - **WebURL:** [https://github.com/sandialabs/wiretap](https://github.com/sandialabs/wiretap)
 - **Repository:** [https://github.com/sandialabs/wiretap](https://github.com/sandialabs/wiretap)
-- **Stars:** 859
+- **Stars:** 860
 - **Version:** v0.6.0
 - **Updated:** 2024-11-26T00:33:13Z
 - **Size:** 15.12 MB
@@ -20526,7 +20546,7 @@
 - **Author:** magic-wormhole
 - **WebURL:** [https://github.com/magic-wormhole/magic-wormhole.rs](https://github.com/magic-wormhole/magic-wormhole.rs)
 - **Repository:** [https://github.com/magic-wormhole/magic-wormhole.rs](https://github.com/magic-wormhole/magic-wormhole.rs)
-- **Stars:** 770
+- **Stars:** 771
 - **Version:** 0.7.4
 - **Updated:** 2024-11-30T18:52:11Z
 - **Size:** 7.74 MB
@@ -20566,7 +20586,7 @@
 - **Author:** erebe
 - **WebURL:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
 - **Repository:** [https://github.com/erebe/wstunnel](https://github.com/erebe/wstunnel)
-- **Stars:** 4385
+- **Stars:** 4386
 - **Version:** v10.1.6
 - **Updated:** 2024-11-08T19:39:37Z
 - **Size:** 9.85 MB
@@ -20586,7 +20606,7 @@
 - **Author:** wtfutil
 - **WebURL:** [https://github.com/wtfutil/wtf](https://github.com/wtfutil/wtf)
 - **Repository:** [https://github.com/wtfutil/wtf](https://github.com/wtfutil/wtf)
-- **Stars:** 15907
+- **Stars:** 15911
 - **Version:** v0.43.0
 - **Updated:** 2024-08-10T01:51:27Z
 - **Size:** 61.07 MB
@@ -20646,7 +20666,7 @@
 - **Author:** Sh1Yo
 - **WebURL:** [https://github.com/Sh1Yo/x8](https://github.com/Sh1Yo/x8)
 - **Repository:** [https://github.com/Sh1Yo/x8](https://github.com/Sh1Yo/x8)
-- **Stars:** 1704
+- **Stars:** 1705
 - **Version:** v4.3.0
 - **Updated:** 2024-09-08T10:29:37Z
 - **Size:** 10.87 MB
@@ -20846,7 +20866,7 @@
 - **Author:** masonr
 - **WebURL:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
 - **Repository:** [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
-- **Stars:** 4502
+- **Stars:** 4505
 - **Version:** 
 - **Updated:** 2024-11-08T02:35:47Z
 - **Size:** 45.17 KB
@@ -20906,7 +20926,7 @@
 - **Author:** sxyazi
 - **WebURL:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - **Repository:** [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
-- **Stars:** 17129
+- **Stars:** 17148
 - **Version:** v0.3.3
 - **Updated:** 2024-12-05T14:37:13Z
 - **Size:** 14.74 MB
@@ -21006,7 +21026,7 @@
 - **Author:** mikefarah
 - **WebURL:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
 - **Repository:** [https://github.com/mikefarah/yq](https://github.com/mikefarah/yq)
-- **Stars:** 12420
+- **Stars:** 12426
 - **Version:** v4.44.5
 - **Updated:** 2024-12-05T03:54:37Z
 - **Size:** 9.97 MB
@@ -21026,7 +21046,7 @@
 - **Author:** yt-dlp
 - **WebURL:** [https://discord.gg/H5MNcFW63r](https://discord.gg/H5MNcFW63r)
 - **Repository:** [https://github.com/yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- **Stars:** 91955
+- **Stars:** 92016
 - **Version:** 2024.12.03
 - **Updated:** 2024-12-04T23:11:55Z
 - **Size:** 33.96 MB
@@ -21206,9 +21226,9 @@
 - **Author:** zellij-org
 - **WebURL:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
 - **Repository:** [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
-- **Stars:** 22118
+- **Stars:** 22130
 - **Version:** v0.41.2
-- **Updated:** 2024-12-05T16:46:17Z
+- **Updated:** 2024-12-06T13:55:10Z
 - **Size:** 30.21 MB
 - **SHA256SUM:** af03652a1fb36d79d40f8d71936fbb19679292b34b1fd21bf9cd72f2f73f5adf
 - **B3SUM:** 125a94519ad6216e8075b57a334663219b7a4ac42a1611f18fdab638cce9979e
@@ -21246,7 +21266,7 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14657
+- **Stars:** 14661
 - **Version:** 1.14.2
 - **Updated:** 2024-12-04T22:46:57Z
 - **Size:** 14.06 MB
@@ -21266,7 +21286,7 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14657
+- **Stars:** 14661
 - **Version:** 1.14.2
 - **Updated:** 2024-12-04T22:46:57Z
 - **Size:** 14.06 MB
@@ -21286,7 +21306,7 @@
 - **Author:** zerotier
 - **WebURL:** [https://www.zerotier.com/](https://www.zerotier.com/)
 - **Repository:** [https://github.com/zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)
-- **Stars:** 14657
+- **Stars:** 14661
 - **Version:** 1.14.2
 - **Updated:** 2024-12-04T22:46:57Z
 - **Size:** 14.06 MB
@@ -21386,7 +21406,7 @@
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 23221
+- **Stars:** 23225
 - **Version:** v0.9.6
 - **Updated:** 2024-11-15T21:52:47Z
 - **Size:** 1.05 MB
@@ -21406,7 +21426,7 @@
 - **Author:** ajeetdsouza
 - **WebURL:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - **Repository:** [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-- **Stars:** 23221
+- **Stars:** 23225
 - **Version:** v0.9.6
 - **Updated:** 2024-11-15T21:52:47Z
 - **Size:** 1.05 MB
@@ -21426,7 +21446,7 @@
 - **Author:** zsh-users
 - **WebURL:** [https://www.zsh.org/](https://www.zsh.org/)
 - **Repository:** [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)
-- **Stars:** 3668
+- **Stars:** 3669
 - **Version:** zsh-5.9
 - **Updated:** 2024-11-23T22:35:25Z
 - **Size:** 1.63 MB
