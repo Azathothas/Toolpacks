@@ -1069,7 +1069,7 @@
  329K   ├── METADATA.AIO.json.xz
  327K   ├── METADATA.AIO.json.zstd
  326K   ├── METADATA.AIO.yaml.xz
- 326K   ├── METADATA.AIO.toml.xz
+ 325K   ├── METADATA.AIO.toml.xz
  325K   ├── METADATA.AIO.min.json.xz
  325K   ├── METADATA.AIO.min.json.zstd
  324K   ├── METADATA.AIO.yaml.zstd
