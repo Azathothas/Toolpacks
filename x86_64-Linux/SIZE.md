@@ -1,5 +1,5 @@
 ```mathematica
-  14G └─┬ toolpack_x86_64
+  15G └─┬ toolpack_x86_64
  313M   ├── gentoo.no_strip
  261M   ├── gentoo-musl.no_strip
  184M   ├── usql
@@ -87,7 +87,7 @@
   36M   ├── nezha-dashboard
   35M   ├── alpine-flatimage.no_strip
   35M   ├── amass
-  34M   ├── FLATPAK_APPSTREAM.xml
+  35M   ├── FLATPAK_APPSTREAM.xml
   34M   ├── sliver-client
   34M   ├── mitmweb
   34M   ├── logdy
@@ -150,6 +150,7 @@
   26M   ├── tailscale_combined
   26M   ├── soft-serve
   26M   ├── dagu
+  25M   ├── ghorg
   25M   ├── tailscaled
   25M   ├── asnmap
   25M   ├── meli
@@ -1096,9 +1097,9 @@
  348K   ├── METADATA.AIO.yaml.xz
  347K   ├── METADATA.AIO.toml.xz
  347K   ├── METADATA.AIO.min.json.xz
+ 346K   ├── METADATA.AIO.yaml.zstd
  346K   ├── METADATA.AIO.soar.capnp.zstd
  346K   ├── METADATA.AIO.min.json.zstd
- 346K   ├── METADATA.AIO.yaml.zstd
  346K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
  331K   ├── lsof

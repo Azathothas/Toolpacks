@@ -456,6 +456,7 @@ gh-dash:                           ELF 64-bit LSB executable, x86-64, version 1 
 gh-dash.preview.png:               PNG image data, 1282 x 640, 8-bit/color RGBA, non-interlaced
 gh.preview.png:                    PNG image data, 1200 x 630, 8-bit/color RGBA, non-interlaced
 ghfetch:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=AWfYq3gLwK4k-ZdEbk8h/c0TlJdB1OUh5bzA5bdt5/c9aUKKHjnmJNYNK5QVnt/p6nrvCoe7OBSdng9PNpE, stripped
+ghorg:                             ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 gickup:                            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, stripped
 gip:                               ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), static-pie linked, for GNU/Linux 3.2.0, stripped
 git-checkout:                      ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped

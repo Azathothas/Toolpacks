@@ -9,7 +9,7 @@
 [doc-shield]: https://img.shields.io/badge/docs.pkgforge.dev-blue
 [doc-url]: https://docs.pkgforge.dev/orgs/pkgforge-core/projects/toolpacks-bincache
 
-<a href="https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Binaries-(2447)+(2517)-blue?labelColor=orange&style=flat&link=https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts" alt="Binaries" /></a>
+<a href="https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Binaries-(2448)+(2518)-blue?labelColor=orange&style=flat&link=https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts" alt="Binaries" /></a>
 [![Documentation][doc-shield]][doc-url]
 [![Issues][issues-shield]][issues-url]
 [![License: MIT][license-shield]][license-url]
@@ -21,7 +21,7 @@
         <img src="https://github.com/user-attachments/assets/220ce7b3-55b3-496e-b3b8-2556123193a2" width="100">
     </a><br> -->
     <a href="https://github.com/pkgforge/soar">
-        <img src="https://bin.pkgforge.dev/list.gif?tmp.aNFMo8pDmo=tmp.ANaa1H5pIf" alt="soar-list" width="500">
+        <img src="https://bin.pkgforge.dev/list.gif?tmp.rDKcTe9OLm=tmp.aw0mgEeIPF" alt="soar-list" width="500">
     </a><br> 
     <b><strong> <a href="https://docs.pkgforge.dev/orgs/pkgforge-core/projects/toolpacks-bincache">Package Forge Binary Cache</a></code></strong></b>
     <br>
