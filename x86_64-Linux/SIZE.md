@@ -660,6 +660,7 @@
  4.9M   ├── ppfuzz
  4.8M   ├── sshd
  4.8M   ├── certstream
+ 4.8M   ├── METADATA.AIO.db
  4.8M   ├── qemu-hexagon-static
  4.8M   ├── mani
  4.7M   ├── gxss
@@ -1083,6 +1084,8 @@
  401K   ├── smenu
  397K   ├── traefik.preview.png
  394K   ├── nnn
+ 384K   ├── METADATA.AIO.db.zstd
+ 376K   ├── METADATA.AIO.db.xz
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
@@ -1452,5 +1455,8 @@
  512B   ├── METADATA.AIO.min.json.bsum
  512B   ├── METADATA.AIO.json.zstd.bsum
  512B   ├── METADATA.AIO.json.xz.bsum
- 512B   └── METADATA.AIO.json.bsum
+ 512B   ├── METADATA.AIO.json.bsum
+ 512B   ├── METADATA.AIO.db.zstd.bsum
+ 512B   ├── METADATA.AIO.db.xz.bsum
+ 512B   └── METADATA.AIO.db.bsum
 ```
