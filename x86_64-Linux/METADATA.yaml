@@ -13,7 +13,7 @@
   repo_updated: "2024-11-30T10:28:27Z"
   repo_released: "2024-11-30T10:45:19Z"
   repo_version: "24.09"
-  repo_stars: "931"
+  repo_stars: "933"
   repo_language: C++
   repo_license: ""
   repo_topics: ""
@@ -36,7 +36,7 @@
   repo_updated: "2024-12-09T02:53:31Z"
   repo_released: "2024-12-01T02:42:07Z"
   repo_version: v0.2.70
-  repo_stars: "56041"
+  repo_stars: "56055"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ci, devops, github-actions, golang
@@ -59,7 +59,7 @@
   repo_updated: "2024-11-30T15:15:44Z"
   repo_released: "2024-11-04T11:05:18Z"
   repo_version: v1.7.4
-  repo_stars: "2850"
+  repo_stars: "2851"
   repo_language: Go
   repo_license: MIT License
   repo_topics: actions, ci, github-actions, lint, linter
@@ -82,7 +82,7 @@
   repo_updated: "2024-09-26T11:09:18Z"
   repo_released: "2024-06-16T14:11:14Z"
   repo_version: v1.2.0
-  repo_stars: "17584"
+  repo_stars: "17586"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: age-encryption, built-at-rc
@@ -105,7 +105,7 @@
   repo_updated: "2024-09-26T11:09:18Z"
   repo_released: "2024-06-16T14:11:14Z"
   repo_version: v1.2.0
-  repo_stars: "17584"
+  repo_stars: "17586"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: age-encryption, built-at-rc
@@ -128,7 +128,7 @@
   repo_updated: "2024-10-23T16:13:04Z"
   repo_released: "2024-10-23T16:14:52Z"
   repo_version: v1.5.0
-  repo_stars: "1215"
+  repo_stars: "1214"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: asciinema, gif, rust, terminal
@@ -312,7 +312,7 @@
   repo_updated: "2024-12-10T12:22:39Z"
   repo_released: "2024-11-22T00:53:37Z"
   repo_version: v3.40.0
-  repo_stars: "44583"
+  repo_stars: "44587"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: file-server, gin, golang, onedrive, solidjs, webdav
@@ -404,7 +404,7 @@
   repo_updated: "2024-12-05T12:49:25Z"
   repo_released: ""
   repo_version: ""
-  repo_stars: "1110"
+  repo_stars: "1111"
   repo_language: Lua
   repo_license: MIT License
   repo_topics: ""
@@ -450,7 +450,7 @@
   repo_updated: "2024-12-09T23:33:21Z"
   repo_released: "2023-09-10T20:52:27Z"
   repo_version: v4.2.0
-  repo_stars: "12172"
+  repo_stars: "12175"
   repo_language: Go
   repo_license: Other
   repo_topics: attack-surfaces, dns, enumeration, go, golang, information-gathering, maltego, network-security, osint, osint-reconnaissance, owasp, recon, subdomain
@@ -470,7 +470,7 @@
   repo_url: https://github.com/aws/amazon-linux-docker-images
   repo_author: amazonlinux
   repo_info: Artifact repository for Amazon Linux container images
-  repo_updated: "2024-11-22T23:41:01Z"
+  repo_updated: "2024-12-10T22:45:07Z"
   repo_released: ""
   repo_version: ""
   repo_stars: "221"
@@ -496,7 +496,7 @@
   repo_updated: "2024-12-09T02:39:19Z"
   repo_released: "2024-09-27T03:48:21Z"
   repo_version: 0.7.1
-  repo_stars: "3754"
+  repo_stars: "3755"
   repo_language: Rust
   repo_license: Other
   repo_topics: rust, terminal, text-editor, vim
@@ -588,7 +588,7 @@
   repo_updated: "2024-01-12T01:06:36Z"
   repo_released: "2022-03-15T22:35:31Z"
   repo_version: v0.1.1
-  repo_stars: "1410"
+  repo_stars: "1411"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -634,7 +634,7 @@
   repo_updated: "2024-12-10T12:28:49Z"
   repo_released: "2024-08-26T16:11:34Z"
   repo_version: v4.9
-  repo_stars: "8409"
+  repo_stars: "8450"
   repo_language: Shell
   repo_license: GNU General Public License v3.0
   repo_topics: anime, cli, fzf, linux, mac, posix, rofi, shell, steamdeck, syncplay, terminal, termux, webscraping, windows
@@ -820,10 +820,10 @@
   repo_url: https://github.com/arduino/arduino-cli
   repo_author: arduino
   repo_info: Arduino command line tool
-  repo_updated: "2024-12-05T12:47:56Z"
+  repo_updated: "2024-12-10T17:28:17Z"
   repo_released: "2024-11-22T09:35:28Z"
   repo_version: v1.1.1
-  repo_stars: "4399"
+  repo_stars: "4400"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: arduino, cli, command-line, golang, tooling-team
@@ -869,7 +869,7 @@
   repo_updated: "2024-08-03T07:01:16Z"
   repo_released: "2023-11-15T12:07:32Z"
   repo_version: release-1.37.0
-  repo_stars: "36105"
+  repo_stars: "36111"
   repo_language: C++
   repo_license: GNU General Public License v2.0
   repo_topics: bittorrent, cpp11, download, ftp, http, metalink, rpc, sftp
@@ -892,7 +892,7 @@
   repo_updated: "2024-08-03T07:01:16Z"
   repo_released: "2023-11-15T12:07:32Z"
   repo_version: release-1.37.0
-  repo_stars: "36105"
+  repo_stars: "36111"
   repo_language: C++
   repo_license: GNU General Public License v2.0
   repo_topics: bittorrent, cpp11, download, ftp, http, metalink, rpc, sftp
@@ -915,7 +915,7 @@
   repo_updated: "2024-12-09T20:55:41Z"
   repo_released: "2024-08-20T13:48:47Z"
   repo_version: v0.78.0
-  repo_stars: "1401"
+  repo_stars: "1402"
   repo_language: Shell
   repo_license: MIT License
   repo_topics: api, as-path, asn, asn-lookup, autonomous-systems, bash, bgp, fingerprinting, geolocation, incident-response, ip-lookup, ip-reputation, mtr, osint, recon, rpki, shodan, team-cymru, traceroute, whois
@@ -938,7 +938,7 @@
   repo_updated: "2024-12-09T16:48:19Z"
   repo_released: "2024-06-27T03:30:06Z"
   repo_version: v1.1.1
-  repo_stars: "789"
+  repo_stars: "790"
   repo_language: Go
   repo_license: MIT License
   repo_topics: asn, asn-lookup, cidr-range, osint, recon
@@ -961,7 +961,7 @@
   repo_updated: "2024-06-07T17:08:47Z"
   repo_released: "2020-04-15T10:38:43Z"
   repo_version: v0.1.1
-  repo_stars: "3073"
+  repo_stars: "3074"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -1007,7 +1007,7 @@
   repo_updated: "2024-12-09T22:04:08Z"
   repo_released: "2024-06-10T13:58:38Z"
   repo_version: v18.3.0
-  repo_stars: "21373"
+  repo_stars: "21376"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: bash, fish, history, rust, shell, zsh
@@ -1145,7 +1145,7 @@
   repo_updated: "2024-11-27T02:39:11Z"
   repo_released: "2024-11-27T02:39:13Z"
   repo_version: 1.5.5
-  repo_stars: "5245"
+  repo_stars: "5246"
   repo_language: Assembly
   repo_license: Apache License 2.0
   repo_topics: ""
@@ -1191,7 +1191,7 @@
   repo_updated: "2024-12-07T10:08:42Z"
   repo_released: "2023-10-11T18:20:46Z"
   repo_version: v0.24.0
-  repo_stars: "50037"
+  repo_stars: "50045"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: cli, command-line, git, hacktoberfest, rust, syntax-highlighting, terminal, tool
@@ -1214,7 +1214,7 @@
   repo_updated: "2024-12-07T10:08:42Z"
   repo_released: "2023-10-11T18:20:46Z"
   repo_version: v0.24.0
-  repo_stars: "50037"
+  repo_stars: "50045"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: cli, command-line, git, hacktoberfest, rust, syntax-highlighting, terminal, tool
@@ -1257,7 +1257,7 @@
   repo_url: https://github.com/Bearer/bearer
   repo_author: Bearer
   repo_info: Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.
-  repo_updated: "2024-12-10T07:47:20Z"
+  repo_updated: "2024-12-10T15:22:30Z"
   repo_released: "2024-11-22T16:04:27Z"
   repo_version: v1.47.0
   repo_stars: "2111"
@@ -1467,7 +1467,7 @@
   repo_updated: "2023-02-06T07:00:29Z"
   repo_released: "2023-02-06T05:34:55Z"
   repo_version: v0.11.0
-  repo_stars: "1714"
+  repo_stars: "1713"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: binary, elf, grep, mach-o, objdump, portable-executable
@@ -1533,10 +1533,10 @@
   repo_url: https://github.com/blevesearch/bleve
   repo_author: blevesearch
   repo_info: A modern text/numeric/geo-spatial/vector indexing library for go
-  repo_updated: "2024-12-10T11:05:53Z"
+  repo_updated: "2024-12-10T14:23:47Z"
   repo_released: "2024-11-13T17:54:52Z"
   repo_version: v2.4.3
-  repo_stars: "10128"
+  repo_stars: "10129"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: ""
@@ -1559,7 +1559,7 @@
   repo_updated: "2024-10-19T08:11:18Z"
   repo_released: "2024-08-12T11:13:55Z"
   repo_version: v0.2.3
-  repo_stars: "960"
+  repo_stars: "962"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bluetooth, bluez, linux, tui
@@ -1619,7 +1619,7 @@
   repo_updated: "2024-12-05T18:44:54Z"
   repo_released: "2024-12-05T18:44:54Z"
   repo_version: v0.5.2
-  repo_stars: "8695"
+  repo_stars: "8696"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, localhost, networking, proxy, rust, self-hosted, tcp, tunnel
@@ -1688,7 +1688,7 @@
   repo_updated: "2024-12-06T00:38:53Z"
   repo_released: "2024-08-06T00:45:30Z"
   repo_version: 0.10.2
-  repo_stars: "10404"
+  repo_stars: "10406"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: bottom, btm, cli, cross-platform, monitoring, rust, terminal, top, tui
@@ -1734,7 +1734,7 @@
   repo_updated: "2024-12-09T17:25:15Z"
   repo_released: "2024-07-19T11:07:26Z"
   repo_version: v0.21.2
-  repo_stars: "8726"
+  repo_stars: "8727"
   repo_language: C++
   repo_license: Apache License 2.0
   repo_topics: bcc, bpf, ebpf, kprobes, tracepoints, tracing, uprobes, usdt
@@ -1757,7 +1757,7 @@
   repo_updated: "2024-12-09T17:25:15Z"
   repo_released: "2024-07-19T11:07:26Z"
   repo_version: v0.21.2
-  repo_stars: "8726"
+  repo_stars: "8727"
   repo_language: C++
   repo_license: Apache License 2.0
   repo_topics: bcc, bpf, ebpf, kprobes, tracepoints, tracing, uprobes, usdt
@@ -1803,7 +1803,7 @@
   repo_updated: "2024-12-10T03:27:32Z"
   repo_released: "2024-05-10T09:51:53Z"
   repo_version: v20240606
-  repo_stars: "14653"
+  repo_stars: "14654"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: android, cross-platform, decryption, encryption, ios, linux, macos, mitm, network-analysis, network-monitoring, network-programming, network-security, openwrt, packet-capture, proxy, socks5, tls, vpn, windows, zero-configuration
@@ -1826,7 +1826,7 @@
   repo_updated: "2024-12-03T14:43:26Z"
   repo_released: "2024-10-22T06:46:11Z"
   repo_version: v1.44.2
-  repo_stars: "10855"
+  repo_stars: "10856"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: balanced-bfs-descent, command-line, command-line-tool, fuzzy-search, hacktoberfest, linux, rust, tree
@@ -1872,7 +1872,7 @@
   repo_updated: "2024-11-08T16:25:16Z"
   repo_released: "2024-09-22T10:48:44Z"
   repo_version: v1.4.0
-  repo_stars: "21484"
+  repo_stars: "21493"
   repo_language: C++
   repo_license: Apache License 2.0
   repo_topics: ""
@@ -1895,7 +1895,7 @@
   repo_updated: "2024-10-30T16:27:17Z"
   repo_released: "2024-10-30T16:28:43Z"
   repo_version: v0.11.0
-  repo_stars: "3999"
+  repo_stars: "4001"
   repo_language: C
   repo_license: Other
   repo_topics: linux-containers, user-namespaces
@@ -1918,7 +1918,7 @@
   repo_updated: "2024-10-30T16:27:17Z"
   repo_released: "2024-10-30T16:28:43Z"
   repo_version: v0.11.0
-  repo_stars: "3999"
+  repo_stars: "4001"
   repo_language: C
   repo_license: Other
   repo_topics: linux-containers, user-namespaces
@@ -1941,7 +1941,7 @@
   repo_updated: "2024-10-30T16:27:17Z"
   repo_released: "2024-10-30T16:28:43Z"
   repo_version: v0.11.0
-  repo_stars: "3999"
+  repo_stars: "4001"
   repo_language: C
   repo_license: Other
   repo_topics: linux-containers, user-namespaces
@@ -2007,10 +2007,10 @@
   repo_url: https://github.com/caddyserver/caddy
   repo_author: caddyserver
   repo_info: Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
-  repo_updated: "2024-12-09T06:17:42Z"
+  repo_updated: "2024-12-10T23:48:30Z"
   repo_released: "2024-06-02T12:24:47Z"
   repo_version: v2.8.4
-  repo_stars: "58929"
+  repo_stars: "58943"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: acme, automatic-https, caddy, caddyfile, go, golang, http, http-server, http3, https, privacy, reverse-proxy, security, tls, web-server
@@ -2171,7 +2171,7 @@
   repo_updated: "2024-06-14T11:29:37Z"
   repo_released: "2024-06-11T17:00:00Z"
   repo_version: v1.3.4
-  repo_stars: "891"
+  repo_stars: "899"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: bugbounty, golang, hacktoberfest, nuclei, nuclei-templates, penetration-testing, pentesting, templates
@@ -2585,7 +2585,7 @@
   repo_updated: "2023-05-17T14:34:20Z"
   repo_released: "2022-10-26T19:38:39Z"
   repo_version: v1.1.0
-  repo_stars: "371"
+  repo_stars: "372"
   repo_language: Rust
   repo_license: ""
   repo_topics: bugbounty, pentesting, security-tools
@@ -2654,7 +2654,7 @@
   repo_updated: "2024-10-25T10:04:00Z"
   repo_released: "2023-11-19T15:05:29Z"
   repo_version: v1.0.1
-  repo_stars: "1159"
+  repo_stars: "1160"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: api, api-security, best-practices, blst, business-logic, cli, cyber, cybersecurity, firecracker, http, open-source, openapi, openapi3, security, security-tools, web-sec-scanner, web-security, websecurity
@@ -2677,7 +2677,7 @@
   repo_updated: "2024-09-28T23:35:13Z"
   repo_released: "2024-10-05T02:13:52Z"
   repo_version: v1.10.1
-  repo_stars: "13729"
+  repo_stars: "13731"
   repo_language: Go
   repo_license: MIT License
   repo_topics: golang, http, tcp, tunnel
@@ -2746,7 +2746,7 @@
   repo_updated: "2024-12-02T10:51:23Z"
   repo_released: "2024-07-28T08:30:25Z"
   repo_version: "3.7"
-  repo_stars: "1310"
+  repo_stars: "1311"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cli, client, command-line, console, hacker, hacker-news, hackernews, news, reader, terminal, tui, ycombinator
@@ -2766,7 +2766,7 @@
   repo_url: https://github.com/clearlinux/docker-brew-clearlinux
   repo_author: clearlinux
   repo_info: Dockerhub image snapshots for Clear Linux
-  repo_updated: "2024-12-08T07:47:53Z"
+  repo_updated: "2024-12-10T17:30:04Z"
   repo_released: ""
   repo_version: ""
   repo_stars: "35"
@@ -2950,10 +2950,10 @@
   repo_url: https://github.com/cloudflare/cloudflared
   repo_author: cloudflare
   repo_info: Cloudflare Tunnel client (formerly Argo Tunnel)
-  repo_updated: "2024-12-10T10:24:07Z"
-  repo_released: "2024-12-10T10:40:12Z"
-  repo_version: 2024.12.0
-  repo_stars: "9428"
+  repo_updated: "2024-12-10T21:03:13Z"
+  repo_released: "2024-12-10T17:08:24Z"
+  repo_version: 2024.12.1
+  repo_stars: "9434"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: argo-tunnel, cloudflare, cloudflare-tunnel, reverse-proxy, zero-trust-network-access
@@ -3022,7 +3022,7 @@
   repo_updated: "2024-10-25T05:31:22Z"
   repo_released: "2023-10-07T12:30:31Z"
   repo_version: 3.8.3
-  repo_stars: "22078"
+  repo_stars: "22079"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: cloud, cloud-storage, cloudreve, file, file-manager, file-sharing, golang
@@ -3045,7 +3045,7 @@
   repo_updated: "2024-12-08T08:15:42Z"
   repo_released: "2024-09-01T19:08:40Z"
   repo_version: v0.4.1
-  repo_stars: "1074"
+  repo_stars: "1076"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: atuin, bash, cli, commandline, fish, rust, shell, zsh
@@ -3068,7 +3068,7 @@
   repo_updated: "2024-04-09T12:46:06Z"
   repo_released: "2024-04-09T12:48:21Z"
   repo_version: v1.4.12
-  repo_stars: "188"
+  repo_stars: "189"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: cli, cloud, command-line, command-line-interface, command-line-tool, commandline, contabo, contabo-cloud
@@ -3249,10 +3249,10 @@
   repo_url: https://github.com/containerd/containerd
   repo_author: containerd
   repo_info: An open and reliable container runtime
-  repo_updated: "2024-12-09T23:35:27Z"
+  repo_updated: "2024-12-10T19:29:02Z"
   repo_released: "2024-11-05T19:37:39Z"
   repo_version: v2.0.0
-  repo_stars: "17628"
+  repo_stars: "17634"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cncf, containerd, containers, cri, docker, hacktoberfest, kubernetes, oci
@@ -3346,7 +3346,7 @@
   repo_url: https://github.com/NOBLES5E/cproxy
   repo_author: NOBLES5E
   repo_info: Easy per application transparent proxy built on cgroup.
-  repo_updated: "2024-12-02T04:15:08Z"
+  repo_updated: "2024-12-10T22:50:01Z"
   repo_released: "2024-09-20T16:48:05Z"
   repo_version: v4.2.1
   repo_stars: "393"
@@ -3510,7 +3510,7 @@
   repo_updated: "2024-10-10T07:40:36Z"
   repo_released: "2024-08-18T14:40:28Z"
   repo_version: v1.06
-  repo_stars: "1914"
+  repo_stars: "1915"
   repo_language: C
   repo_license: GNU General Public License v2.0
   repo_topics: amd, android, arm, cpus, intel, linux, macos, microarchitecture, windows
@@ -3593,7 +3593,7 @@
   repo_updated: "2024-12-07T15:21:08Z"
   repo_released: "2024-12-07T15:21:09Z"
   repo_version: v10.1.3
-  repo_stars: "28320"
+  repo_stars: "28322"
   repo_language: Go
   repo_license: MIT License
   repo_topics: data-transfer, file-sharing, golang, pake, peer-to-peer, tcp, transfer
@@ -3736,7 +3736,7 @@
   repo_updated: "2024-12-09T21:54:39Z"
   repo_released: "2024-09-27T07:04:33Z"
   repo_version: v0.4.0
-  repo_stars: "382"
+  repo_stars: "383"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bounty-hunting, bugbounty, bugbounty-tool, content-security-policy, csp, golang, hacking, hacktoberfest, information-retrieval, offensive-security, offensivesecurity, recon, recon-tool, reconnaissance, security, security-tools
@@ -3759,7 +3759,7 @@
   repo_updated: "2024-12-09T08:28:15Z"
   repo_released: "2024-07-08T13:24:50Z"
   repo_version: v1.3.3
-  repo_stars: "607"
+  repo_stars: "608"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: cjk, cli, command-line, csv, pager, rust, table, terminal, tool
@@ -3920,7 +3920,7 @@
   repo_updated: "2024-11-10T19:16:38Z"
   repo_released: "2024-11-10T19:16:38Z"
   repo_version: 8.11.0
-  repo_stars: "238"
+  repo_stars: "239"
   repo_language: Shell
   repo_license: MIT License
   repo_topics: curl, http-client, http3, http3-client
@@ -3943,7 +3943,7 @@
   repo_updated: "2024-11-10T19:16:38Z"
   repo_released: "2024-11-10T19:16:38Z"
   repo_version: 8.11.0
-  repo_stars: "238"
+  repo_stars: "239"
   repo_language: Shell
   repo_license: MIT License
   repo_topics: curl, http-client, http3, http3-client
@@ -3966,7 +3966,7 @@
   repo_updated: "2024-12-07T20:53:40Z"
   repo_released: "2023-10-23T16:11:03Z"
   repo_version: v1.7.2
-  repo_stars: "2884"
+  repo_stars: "2885"
   repo_language: Go
   repo_license: MIT License
   repo_topics: api-client, cli, curl, developer-tools, go, http-client, httpie, terminal, webdevelopment
@@ -4035,7 +4035,7 @@
   repo_updated: "2024-12-09T11:54:24Z"
   repo_released: "2024-06-25T17:10:16Z"
   repo_version: v0.0.7
-  repo_stars: "1788"
+  repo_stars: "1789"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -4081,7 +4081,7 @@
   repo_updated: "2024-10-12T21:01:05Z"
   repo_released: "2024-10-11T07:26:49Z"
   repo_version: 8.0.0
-  repo_stars: "20585"
+  repo_stars: "20590"
   repo_language: Rust
   repo_license: Other
   repo_topics: cleaner, duplicates, gtk-rs, multiplatform, rust, similar-images, similar-music, similar-videos
@@ -4104,7 +4104,7 @@
   repo_updated: "2024-10-12T21:01:05Z"
   repo_released: "2024-10-11T07:26:49Z"
   repo_version: 8.0.0
-  repo_stars: "20585"
+  repo_stars: "20590"
   repo_language: Rust
   repo_license: Other
   repo_topics: cleaner, duplicates, gtk-rs, multiplatform, rust, similar-images, similar-music, similar-videos
@@ -4124,16 +4124,16 @@
   repo_url: https://github.com/dagger/dagger
   repo_author: dagger
   repo_info: An engine to run your pipelines in containers
-  repo_updated: "2024-12-10T12:59:07Z"
+  repo_updated: "2024-12-10T20:08:07Z"
   repo_released: "2024-11-08T21:49:24Z"
   repo_version: v0.14.0
-  repo_stars: "11560"
+  repo_stars: "11565"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: buildkit, ci-cd, containers, continuous-delivery, continuous-deployment, continuous-integration, deployment, devops, docker
   web_url: https://github.com/dagger/dagger
   build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/dagger-cli.sh
-  build_log: ""
+  build_log: https://bin.ajam.dev/x86_64_Linux/dagger-cli.log.txt
   extra_bins: ""
 - name: dagu
   pkg_family: dagu
@@ -4147,9 +4147,9 @@
   repo_url: https://github.com/dagu-dev/dagu
   repo_author: dagu-org
   repo_info: Developer-friendly, minimalism Cron alternative, but with much more capabilities. It aims to solve greater problems.
-  repo_updated: "2024-12-06T07:28:41Z"
-  repo_released: "2024-12-06T07:32:38Z"
-  repo_version: v1.15.0
+  repo_updated: "2024-12-10T13:45:56Z"
+  repo_released: "2024-12-10T13:49:54Z"
+  repo_version: v1.15.1
   repo_stars: "1680"
   repo_language: Go
   repo_license: GNU General Public License v3.0
@@ -4173,7 +4173,7 @@
   repo_updated: "2024-12-09T15:36:44Z"
   repo_released: "2024-09-03T15:18:55Z"
   repo_version: v2.9.3
-  repo_stars: "3798"
+  repo_stars: "3800"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bugbounty, bugbounty-tool, cicd-pipeline, devsecops, golang, hacktoberfest, security, vulnerability, xss, xss-bruteforce, xss-detection, xss-exploit, xss-scanner
@@ -4219,7 +4219,7 @@
   repo_updated: "2024-12-09T07:52:34Z"
   repo_released: "2024-06-30T18:38:16Z"
   repo_version: v2.8.1
-  repo_stars: "7238"
+  repo_stars: "7243"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, config, configuration, data-processing, data-structures, data-wrangling, devops-tools, go, golang, json, json-processing, parser, query, selector, toml, update, xml, yaml, yaml-processor
@@ -4285,7 +4285,7 @@
   repo_url: https://github.com/sj14/dbbench
   repo_author: sj14
   repo_info: "\U0001F3CB️ dbbench is a simple database benchmarking tool which supports several databases and own scripts"
-  repo_updated: "2024-12-05T01:26:29Z"
+  repo_updated: "2024-12-11T01:13:54Z"
   repo_released: "2024-08-25T11:40:38Z"
   repo_version: v0.7.0
   repo_stars: "102"
@@ -4308,7 +4308,7 @@
   repo_url: https://github.com/xplshn/dbin
   repo_author: xplshn
   repo_info: "\U0001F4E6 Poor mans package manager. +3100 statically linked binaries in the repos! The easy to use, easy to get, suckless software distribution system"
-  repo_updated: "2024-12-09T17:54:07Z"
+  repo_updated: "2024-12-11T00:35:57Z"
   repo_released: "2024-12-05T23:22:05Z"
   repo_version: "0.7"
   repo_stars: "179"
@@ -4357,7 +4357,7 @@
   repo_updated: "2024-12-07T12:39:57Z"
   repo_released: "2024-12-07T12:45:19Z"
   repo_version: v6.7.7
-  repo_stars: "12446"
+  repo_stars: "12447"
   repo_language: Go
   repo_license: MIT License
   repo_topics: alidns, baiduyun, cloudflare, ddns, ddns-go, dnspod, godaddy-ddns, google-domains, porkbun
@@ -4449,7 +4449,7 @@
   repo_updated: "2024-12-09T23:04:06Z"
   repo_released: "2024-09-11T12:37:21Z"
   repo_version: 0.18.2
-  repo_stars: "24709"
+  repo_stars: "24717"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: color-themes, delta, diff, git, git-delta, pager, rust, syntax-highlighter
@@ -4548,10 +4548,10 @@
   repo_url: https://github.com/jetpack-io/devbox
   repo_author: jetify-com
   repo_info: Instant, easy, and predictable development environments
-  repo_updated: "2024-12-09T19:34:54Z"
+  repo_updated: "2024-12-10T21:18:24Z"
   repo_released: "2024-12-06T20:16:51Z"
   repo_version: 0.13.7
-  repo_stars: "8926"
+  repo_stars: "8928"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: build-system, build-tool, buildpack, containers, dev-environment, devbox, development-environment, nix, venv, virtual-environment, virtualization
@@ -4571,10 +4571,10 @@
   repo_url: https://github.com/loft-sh/devpod
   repo_author: loft-sh
   repo_info: 'Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker.'
-  repo_updated: "2024-12-10T11:53:59Z"
-  repo_released: "2024-12-06T14:39:39Z"
-  repo_version: v0.6.4
-  repo_stars: "9640"
+  repo_updated: "2024-12-10T15:33:04Z"
+  repo_released: "2024-12-10T13:43:37Z"
+  repo_version: v0.6.5
+  repo_stars: "9642"
   repo_language: Go
   repo_license: Mozilla Public License 2.0
   repo_topics: cloud, devcontainer, devcontainers, developer-tools, development, docker, ide, kubernetes, remote-development, remote-development-environment, vscode
@@ -4597,7 +4597,7 @@
   repo_updated: "2024-12-09T18:45:32Z"
   repo_released: "2024-08-16T05:57:55Z"
   repo_version: v0.1.5
-  repo_stars: "321"
+  repo_stars: "323"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: ""
@@ -4643,7 +4643,7 @@
   repo_updated: "2024-11-20T20:38:49Z"
   repo_released: "2024-10-07T19:31:53Z"
   repo_version: v2.35.0
-  repo_stars: "12712"
+  repo_stars: "12723"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bash, buildbot-numtide, direnv, environment, fish, shell, shell-extension, tcsh, zsh
@@ -4689,7 +4689,7 @@
   repo_updated: "2024-07-15T05:05:37Z"
   repo_released: "2024-02-02T15:44:50Z"
   repo_version: v0.12.0
-  repo_stars: "48321"
+  repo_stars: "48334"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, docker, docker-image, explorer, inspector, tui
@@ -4781,7 +4781,7 @@
   repo_updated: "2024-07-26T11:44:56Z"
   repo_released: "2024-06-23T20:48:16Z"
   repo_version: v1.11.1
-  repo_stars: "862"
+  repo_stars: "863"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -4873,7 +4873,7 @@
   repo_updated: "2023-02-13T09:08:15Z"
   repo_released: "2022-04-15T09:40:35Z"
   repo_version: v0.1.1
-  repo_stars: "836"
+  repo_stars: "837"
   repo_language: Go
   repo_license: MIT License
   repo_topics: dns, go, golang, nameserver, subdomain, takeover, vulnerability
@@ -4896,7 +4896,7 @@
   repo_updated: "2024-12-09T02:41:42Z"
   repo_released: "2024-03-04T08:26:22Z"
   repo_version: v1.2.1
-  repo_stars: "2209"
+  repo_stars: "2210"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, dns-bruteforcer, dns-client, dns-records, dns-resolution, wildcard-filtering
@@ -5241,7 +5241,7 @@
   repo_updated: "2024-11-02T04:00:37Z"
   repo_released: "2024-08-16T08:19:27Z"
   repo_version: v0.3.2
-  repo_stars: "3825"
+  repo_stars: "3828"
   repo_language: Zig
   repo_license: GNU General Public License v3.0
   repo_topics: containers, docker, oci, oci-image
@@ -5264,7 +5264,7 @@
   repo_updated: "2024-09-30T09:30:59Z"
   repo_released: "2024-09-30T09:36:10Z"
   repo_version: v1.0.5
-  repo_stars: "3139"
+  repo_stars: "3141"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: dns, dns-client, doh
@@ -5412,7 +5412,7 @@
   repo_updated: "2024-07-30T09:50:14Z"
   repo_released: "2022-02-08T06:49:51Z"
   repo_version: v0.8.1
-  repo_stars: "12960"
+  repo_stars: "12961"
   repo_language: Go
   repo_license: Other
   repo_topics: cli, df, disk-space, disk-usage, filesystem, freebsd, hacktoberfest, linux, macos, openbsd, terminal, tui, user-friendly, windows
@@ -5432,10 +5432,10 @@
   repo_url: https://github.com/sigoden/dufs
   repo_author: sigoden
   repo_info: A file server that supports static serving, uploading, searching, accessing control, webdav...
-  repo_updated: "2024-11-16T10:26:26Z"
+  repo_updated: "2024-12-11T01:05:00Z"
   repo_released: "2024-11-05T09:17:02Z"
   repo_version: v0.43.0
-  repo_stars: "6702"
+  repo_stars: "6703"
   repo_language: Rust
   repo_license: Other
   repo_topics: cloud-disk, command-line, file-sharing, file-upload-server, rust, static-server, webdav, webdav-server
@@ -5458,7 +5458,7 @@
   repo_updated: "2023-10-02T00:18:51Z"
   repo_released: "2022-07-10T00:39:35Z"
   repo_version: v0.2.0
-  repo_stars: "4308"
+  repo_stars: "4310"
   repo_language: Rust
   repo_license: Other
   repo_topics: git, rust
@@ -5481,7 +5481,7 @@
   repo_updated: "2024-11-08T22:50:03Z"
   repo_released: "2024-07-17T18:38:14Z"
   repo_version: v1.1.1
-  repo_stars: "9015"
+  repo_stars: "9018"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: ""
@@ -5504,7 +5504,7 @@
   repo_updated: "2024-12-08T19:15:31Z"
   repo_released: "2024-12-02T17:00:00Z"
   repo_version: v0.10.2
-  repo_stars: "2171"
+  repo_stars: "2172"
   repo_language: C++
   repo_license: GNU General Public License v3.0
   repo_topics: archiving, compression, cpp, deduplication, dwarfs, filesystem, flac, fuse, fuse-filesystem, gpl-license, linux, lrzip, lzma, macfuse, macos, squashfs, windows, winfsp, zpaq, zstd
@@ -5527,7 +5527,7 @@
   repo_updated: "2024-09-08T08:40:39Z"
   repo_released: "2024-09-08T08:40:39Z"
   repo_version: v2.9.1
-  repo_stars: "922"
+  repo_stars: "923"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: filesystem, hacktoberfest, linux, rust
@@ -5685,10 +5685,10 @@
   repo_url: https://github.com/rkd77/elinks
   repo_author: rkd77
   repo_info: Fork of elinks
-  repo_updated: "2024-12-09T15:08:32Z"
+  repo_updated: "2024-12-10T15:28:57Z"
   repo_released: "2024-10-05T06:33:30Z"
   repo_version: v0.17.1.1
-  repo_stars: "366"
+  repo_stars: "367"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -5708,10 +5708,10 @@
   repo_url: https://github.com/rkd77/elinks
   repo_author: rkd77
   repo_info: Fork of elinks
-  repo_updated: "2024-12-09T15:08:32Z"
+  repo_updated: "2024-12-10T15:28:57Z"
   repo_released: "2024-10-05T06:33:30Z"
   repo_version: v0.17.1.1
-  repo_stars: "366"
+  repo_stars: "367"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -5734,7 +5734,7 @@
   repo_updated: "2024-11-22T14:51:21Z"
   repo_released: "2024-08-14T14:59:37Z"
   repo_version: v0.21.0
-  repo_stars: "5754"
+  repo_stars: "5755"
   repo_language: Go
   repo_license: BSD 2-Clause Simplified License
   repo_topics: go, programming-language, shell, unix
@@ -5849,7 +5849,7 @@
   repo_updated: "2024-09-27T07:53:09Z"
   repo_released: ""
   repo_version: "5.6"
-  repo_stars: "4673"
+  repo_stars: "4674"
   repo_language: C
   repo_license: Other
   repo_topics: inotify, kqueue, test-automation
@@ -5918,7 +5918,7 @@
   repo_updated: "2024-10-21T20:49:51Z"
   repo_released: "2024-09-22T02:07:26Z"
   repo_version: v0.24.0
-  repo_stars: "38299"
+  repo_stars: "38300"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bundler, commonjs, compiler, css, esm, javascript, jsx, minifier, react, tsx, typescript
@@ -5941,7 +5941,7 @@
   repo_updated: "2024-12-10T08:05:49Z"
   repo_released: "2024-11-12T16:41:41Z"
   repo_version: v3.5.17
-  repo_stars: "48026"
+  repo_stars: "48028"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cncf, consensus, database, distributed-database, distributed-systems, etcd, go, key-value, kubernetes, raft
@@ -5964,7 +5964,7 @@
   repo_updated: "2024-12-10T08:05:49Z"
   repo_released: "2024-11-12T16:41:41Z"
   repo_version: v3.5.17
-  repo_stars: "48026"
+  repo_stars: "48028"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cncf, consensus, database, distributed-database, distributed-systems, etcd, go, key-value, kubernetes, raft
@@ -5987,7 +5987,7 @@
   repo_updated: "2024-12-10T08:05:49Z"
   repo_released: "2024-11-12T16:41:41Z"
   repo_version: v3.5.17
-  repo_stars: "48026"
+  repo_stars: "48028"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cncf, consensus, database, distributed-database, distributed-systems, etcd, go, key-value, kubernetes, raft
@@ -6033,7 +6033,7 @@
   repo_updated: "2024-12-10T03:50:59Z"
   repo_released: "2023-11-27T08:50:02Z"
   repo_version: v1.3.0
-  repo_stars: "1922"
+  repo_stars: "1923"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: bittorrent, bittorrent-client, cloud, go, golang, qbittorrent, self-hosted, svelte, torrent, transmission, typescript
@@ -6056,7 +6056,7 @@
   repo_updated: "2024-12-10T03:50:59Z"
   repo_released: "2023-11-27T08:50:02Z"
   repo_version: v1.3.0
-  repo_stars: "1922"
+  repo_stars: "1923"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: bittorrent, bittorrent-client, cloud, go, golang, qbittorrent, self-hosted, svelte, torrent, transmission, typescript
@@ -6102,7 +6102,7 @@
   repo_updated: "2024-12-09T23:00:23Z"
   repo_released: "2024-12-05T10:13:06Z"
   repo_version: v0.20.11
-  repo_stars: "12789"
+  repo_stars: "12803"
   repo_language: Rust
   repo_license: European Union Public License 1.2
   repo_topics: color, command-line, files, hacktoberfest, icons, ls, nerd-fonts, rust, terminal, tools
@@ -6148,7 +6148,7 @@
   repo_updated: "2024-12-09T15:07:32Z"
   repo_released: "2024-12-03T07:15:20Z"
   repo_version: 2.31.0
-  repo_stars: "11133"
+  repo_stars: "11141"
   repo_language: C
   repo_license: MIT License
   repo_topics: command-line, fastfetch, fetch, flashfetch, hacktoberfest, neofetch, terminal
@@ -6171,7 +6171,7 @@
   repo_updated: "2024-12-09T15:07:32Z"
   repo_released: "2024-12-03T07:15:20Z"
   repo_version: 2.31.0
-  repo_stars: "11133"
+  repo_stars: "11141"
   repo_language: C
   repo_license: MIT License
   repo_topics: command-line, fastfetch, fetch, flashfetch, hacktoberfest, neofetch, terminal
@@ -6194,7 +6194,7 @@
   repo_updated: "2024-12-09T15:07:32Z"
   repo_released: "2024-12-03T07:15:20Z"
   repo_version: 2.31.0
-  repo_stars: "11133"
+  repo_stars: "11141"
   repo_language: C
   repo_license: MIT License
   repo_topics: command-line, fastfetch, fetch, flashfetch, hacktoberfest, neofetch, terminal
@@ -6263,7 +6263,7 @@
   repo_updated: "2024-12-09T18:41:21Z"
   repo_released: "2024-08-23T06:36:39Z"
   repo_version: v10.2.0
-  repo_stars: "34418"
+  repo_stars: "34423"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: cli, command-line, filesystem, hacktoberfest, regex, rust, search, terminal, tool
@@ -6286,7 +6286,7 @@
   repo_updated: "2024-12-09T18:41:21Z"
   repo_released: "2024-08-23T06:36:39Z"
   repo_version: v10.2.0
-  repo_stars: "34418"
+  repo_stars: "34423"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: cli, command-line, filesystem, hacktoberfest, regex, rust, search, terminal, tool
@@ -6355,7 +6355,7 @@
   repo_updated: "2024-09-15T11:36:18Z"
   repo_released: "2024-09-15T11:27:22Z"
   repo_version: v2.11.0
-  repo_stars: "6047"
+  repo_stars: "6048"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: content-discovery, enumeration, hacktoberfest, pentest, pentesting-tool, rust, url-bruteforcer, web
@@ -6424,7 +6424,7 @@
   repo_updated: "2024-06-30T06:46:22Z"
   repo_released: "2023-09-16T12:23:19Z"
   repo_version: v2.1.0
-  repo_stars: "12846"
+  repo_stars: "12849"
   repo_language: Go
   repo_license: MIT License
   repo_topics: fuzzer, infosec, pentesting, web
@@ -6539,7 +6539,7 @@
   repo_updated: "2024-12-09T11:28:28Z"
   repo_released: "2024-10-03T13:20:54Z"
   repo_version: v2.31.2
-  repo_stars: "27093"
+  repo_stars: "27100"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: administrator, extension, filemanager, gui, interface, plugin, vuejs, web
@@ -6585,7 +6585,7 @@
   repo_updated: "2024-02-17T09:45:20Z"
   repo_released: "2023-11-30T20:29:30Z"
   repo_version: 9.0.4
-  repo_stars: "3345"
+  repo_stars: "3346"
   repo_language: Rust
   repo_license: GNU General Public License v3.0
   repo_topics: bugbounty, dns, osint, subdomains
@@ -6930,7 +6930,7 @@
   repo_updated: "2024-12-08T01:01:42Z"
   repo_released: "2024-11-17T10:15:28Z"
   repo_version: v1.38.1
-  repo_stars: "18598"
+  repo_stars: "18606"
   repo_language: Rust
   repo_license: GNU General Public License v3.0
   repo_topics: hacktoberfest, javascript, nodejs, nvm, reasonml, version
@@ -6953,7 +6953,7 @@
   repo_updated: "2024-12-05T16:27:15Z"
   repo_released: "2024-09-21T15:19:35Z"
   repo_version: v0.13.0
-  repo_stars: "9801"
+  repo_stars: "9809"
   repo_language: Go
   repo_license: Other
   repo_topics: binary, cli, decode, go, golang, hexdump, jq, json, pcap, query, repl, tls, xml
@@ -6999,7 +6999,7 @@
   repo_updated: "2024-10-25T08:41:45Z"
   repo_released: "2024-05-11T08:51:48Z"
   repo_version: 1.8.4
-  repo_stars: "10914"
+  repo_stars: "10915"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -7091,7 +7091,7 @@
   repo_updated: "2024-08-07T04:20:48Z"
   repo_released: "2024-06-27T10:05:12Z"
   repo_version: 35.0.0
-  repo_stars: "19090"
+  repo_stars: "19091"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, command-line, json
@@ -7114,7 +7114,7 @@
   repo_updated: "2024-12-09T09:55:32Z"
   repo_released: "2024-10-15T10:50:12Z"
   repo_version: v2.5.2
-  repo_stars: "25344"
+  repo_stars: "25347"
   repo_language: Go
   repo_license: Other
   repo_topics: android, cross-platform, fyne, go, golang, gui, hacktoberfest, ios, theme, toolkit
@@ -7137,7 +7137,7 @@
   repo_updated: "2024-12-09T14:07:31Z"
   repo_released: "2024-11-15T01:07:53Z"
   repo_version: v0.56.3
-  repo_stars: "66115"
+  repo_stars: "66134"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bash, cli, fish, fzf, go, neovim, tmux, unix, vim, zsh
@@ -7183,7 +7183,7 @@
   repo_updated: "2024-12-01T10:13:44Z"
   repo_released: "2024-06-17T10:32:03Z"
   repo_version: v5.29.0
-  repo_stars: "4036"
+  repo_stars: "4039"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, disk-usage, filesystem, golang, hacktoberfest
@@ -7418,7 +7418,7 @@
   repo_updated: "2024-11-12T12:54:28Z"
   repo_released: "2024-11-10T11:33:28Z"
   repo_version: v4.7.3
-  repo_stars: "7276"
+  repo_stars: "7279"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bubbles, bubbletea, cli, cobra, gh-extension, github, glamour, go, golang, lipgloss, terminal
@@ -7438,10 +7438,10 @@
   repo_url: https://github.com/cli/cli
   repo_author: cli
   repo_info: GitHub’s official command line tool
-  repo_updated: "2024-12-09T17:16:41Z"
+  repo_updated: "2024-12-10T22:25:58Z"
   repo_released: "2024-12-05T18:15:12Z"
   repo_version: v2.63.2
-  repo_stars: "37546"
+  repo_stars: "37566"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, git, github-api-v4, golang
@@ -7461,7 +7461,7 @@
   repo_url: https://github.com/orangekame3/ghfetch
   repo_author: orangekame3
   repo_info: ':octocat: ghfetch is a CLI tool to fetch GitHub user information and show like neofetch.'
-  repo_updated: "2024-12-10T12:03:17Z"
+  repo_updated: "2024-12-11T00:05:59Z"
   repo_released: "2023-10-10T10:20:17Z"
   repo_version: v0.0.19
   repo_stars: "46"
@@ -7493,7 +7493,7 @@
   repo_topics: bitbucket, clone, devops, gitea, github, gitlab, go, security-tools
   web_url: https://github.com/gabrie30/ghorg
   build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/ghorg.sh
-  build_log: ""
+  build_log: https://bin.ajam.dev/x86_64_Linux/ghorg.log.txt
   extra_bins: ""
 - name: gickup
   pkg_family: gickup
@@ -7553,10 +7553,10 @@
   repo_url: https://github.com/orhun/git-cliff
   repo_author: orhun
   repo_info: A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
-  repo_updated: "2024-12-09T23:03:00Z"
+  repo_updated: "2024-12-10T18:37:09Z"
   repo_released: "2024-11-20T10:58:53Z"
   repo_version: v2.7.0
-  repo_stars: "9398"
+  repo_stars: "9400"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: changelog, changelog-generator, commit, conventional-changelog, conventional-commit, conventional-commits, generator, git, git-cliff, hacktoberfest, keepachangelog, rust, semver
@@ -7579,7 +7579,7 @@
   repo_updated: "2024-12-10T04:08:29Z"
   repo_released: "2024-11-21T01:37:24Z"
   repo_version: v3.6.0
-  repo_stars: "13074"
+  repo_stars: "13079"
   repo_language: Go
   repo_license: Other
   repo_topics: git, git-lfs, go
@@ -7602,7 +7602,7 @@
   repo_updated: "2024-08-10T18:54:04Z"
   repo_released: "2021-11-16T16:14:39Z"
   repo_version: v1.5.0
-  repo_stars: "3597"
+  repo_stars: "3598"
   repo_language: Go
   repo_license: MIT License
   repo_topics: git, github, golang
@@ -7714,10 +7714,10 @@
   repo_url: https://github.com/go-gitea/gitea
   repo_author: go-gitea
   repo_info: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-  repo_updated: "2024-12-10T08:44:39Z"
+  repo_updated: "2024-12-11T01:22:03Z"
   repo_released: "2024-11-25T19:28:44Z"
   repo_version: v1.22.4
-  repo_stars: "45549"
+  repo_stars: "45561"
   repo_language: Go
   repo_license: MIT License
   repo_topics: devops, docker-registry-v2, git, git-gui, git-server, gitea, github, github-actions, gitlab, go, gogs, golang, hacktoberfest, maven-server, npm-registry, vue
@@ -7856,11 +7856,11 @@
   build_date: 2024-10-29T00:27:18
   repo_url: https://github.com/gitleaks/gitleaks
   repo_author: gitleaks
-  repo_info: "Protect and discover secrets using Gitleaks \U0001F511"
-  repo_updated: "2024-12-06T13:41:41Z"
+  repo_info: "Find secrets with Gitleaks \U0001F511"
+  repo_updated: "2024-12-11T00:56:11Z"
   repo_released: "2024-10-28T13:32:54Z"
   repo_version: v8.21.2
-  repo_stars: "18119"
+  repo_stars: "18124"
   repo_language: Go
   repo_license: MIT License
   repo_topics: devsecops, git, gitleaks, go, golang, hacktoberfest, secret, security, security-tools
@@ -7880,10 +7880,10 @@
   repo_url: https://github.com/Byron/gitoxide
   repo_author: GitoxideLabs
   repo_info: An idiomatic, lean, fast & safe pure Rust implementation of Git
-  repo_updated: "2024-12-10T09:28:08Z"
+  repo_updated: "2024-12-10T21:23:55Z"
   repo_released: "2024-11-24T10:01:22Z"
   repo_version: v0.39.0
-  repo_stars: "9195"
+  repo_stars: "9193"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: blazingly-fast, built-with-rust, cli, git, version-control
@@ -7903,10 +7903,10 @@
   repo_url: https://github.com/Byron/gitoxide
   repo_author: GitoxideLabs
   repo_info: An idiomatic, lean, fast & safe pure Rust implementation of Git
-  repo_updated: "2024-12-10T09:28:08Z"
+  repo_updated: "2024-12-10T21:23:55Z"
   repo_released: "2024-11-24T10:01:22Z"
   repo_version: v0.39.0
-  repo_stars: "9195"
+  repo_stars: "9193"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: blazingly-fast, built-with-rust, cli, git, version-control
@@ -7926,10 +7926,10 @@
   repo_url: https://github.com/gitpod-io/gitpod
   repo_author: gitpod-io
   repo_info: The developer platform for on-demand cloud development environments to create software faster and more securely.
-  repo_updated: "2024-12-10T11:04:06Z"
+  repo_updated: "2024-12-10T21:29:32Z"
   repo_released: "2023-06-05T12:24:19Z"
   repo_version: 2022.11.3
-  repo_stars: "13015"
+  repo_stars: "13014"
   repo_language: TypeScript
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cde, cloud, cloud-development, cloud-development-environments, cloud-ide, code-review, dev-environment, developer-environment, developer-experience, disposable, editor, ephemeral, gitpod, ide, jetbrains, prebuilds, remote-development, remote-devtools, vscode
@@ -7949,10 +7949,10 @@
   repo_url: https://github.com/gitpod-io/gitpod
   repo_author: gitpod-io
   repo_info: The developer platform for on-demand cloud development environments to create software faster and more securely.
-  repo_updated: "2024-12-10T11:04:06Z"
+  repo_updated: "2024-12-10T21:29:32Z"
   repo_released: "2023-06-05T12:24:19Z"
   repo_version: 2022.11.3
-  repo_stars: "13015"
+  repo_stars: "13014"
   repo_language: TypeScript
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cde, cloud, cloud-development, cloud-development-environments, cloud-ide, code-review, dev-environment, developer-environment, developer-experience, disposable, editor, ephemeral, gitpod, ide, jetbrains, prebuilds, remote-development, remote-devtools, vscode
@@ -7972,10 +7972,10 @@
   repo_url: https://github.com/gitpod-io/gitpod
   repo_author: gitpod-io
   repo_info: The developer platform for on-demand cloud development environments to create software faster and more securely.
-  repo_updated: "2024-12-10T11:04:06Z"
+  repo_updated: "2024-12-10T21:29:32Z"
   repo_released: "2023-06-05T12:24:19Z"
   repo_version: 2022.11.3
-  repo_stars: "13015"
+  repo_stars: "13014"
   repo_language: TypeScript
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cde, cloud, cloud-development, cloud-development-environments, cloud-ide, code-review, dev-environment, developer-environment, developer-experience, disposable, editor, ephemeral, gitpod, ide, jetbrains, prebuilds, remote-development, remote-devtools, vscode
@@ -8018,10 +8018,10 @@
   repo_url: https://github.com/extrawurst/gitui
   repo_author: extrawurst
   repo_info: "Blazing \U0001F4A5 fast terminal-ui for git written in rust \U0001F980"
-  repo_updated: "2024-12-10T08:45:45Z"
+  repo_updated: "2024-12-10T21:56:49Z"
   repo_released: "2024-06-02T13:05:46Z"
   repo_version: v0.26.3
-  repo_stars: "18687"
+  repo_stars: "18689"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: async, bash, command-line-interface, command-line-tool, git, hacktoberfest, rust, terminal, tui
@@ -8044,7 +8044,7 @@
   repo_updated: "2024-12-05T01:30:14Z"
   repo_released: "2024-08-23T19:27:58Z"
   repo_version: v2.0.0
-  repo_stars: "16510"
+  repo_stars: "16513"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, excitement, hacktoberfest, markdown
@@ -8182,7 +8182,7 @@
   repo_updated: "2024-12-06T06:59:03Z"
   repo_released: "2024-03-31T12:27:02Z"
   repo_version: v5.12.0
-  repo_stars: "6051"
+  repo_stars: "6055"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: git, git-client, git-server, go-git, golang
@@ -8205,7 +8205,7 @@
   repo_updated: "2024-12-06T06:59:03Z"
   repo_released: "2024-03-31T12:27:02Z"
   repo_version: v5.12.0
-  repo_stars: "6051"
+  repo_stars: "6055"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: git, git-client, git-server, go-git, golang
@@ -8228,7 +8228,7 @@
   repo_updated: "2024-12-06T06:59:03Z"
   repo_released: "2024-03-31T12:27:02Z"
   repo_version: v5.12.0
-  repo_stars: "6051"
+  repo_stars: "6055"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: git, git-client, git-server, go-git, golang
@@ -8251,7 +8251,7 @@
   repo_updated: "2024-12-06T06:59:03Z"
   repo_released: "2024-03-31T12:27:02Z"
   repo_version: v5.12.0
-  repo_stars: "6051"
+  repo_stars: "6055"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: git, git-client, git-server, go-git, golang
@@ -8274,7 +8274,7 @@
   repo_updated: "2024-12-06T06:59:03Z"
   repo_released: "2024-03-31T12:27:02Z"
   repo_version: v5.12.0
-  repo_stars: "6051"
+  repo_stars: "6055"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: git, git-client, git-server, go-git, golang
@@ -8320,7 +8320,7 @@
   repo_updated: "2024-11-26T13:14:55Z"
   repo_released: ""
   repo_version: v1.9.3
-  repo_stars: "18631"
+  repo_stars: "18632"
   repo_language: C
   repo_license: MIT License
   repo_topics: analytics, apache, c, caddy, cli, command-line, dashboard, data-analysis, gdpr, goaccess, google-analytics, monitoring, ncurses, nginx, privacy, real-time, terminal, tui, web-analytics, webserver
@@ -8366,7 +8366,7 @@
   repo_updated: "2024-12-09T22:51:18Z"
   repo_released: "2023-08-14T08:30:05Z"
   repo_version: v3.6.0
-  repo_stars: "10306"
+  repo_stars: "10309"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: dns, go, pentesting, tool, web
@@ -8754,7 +8754,7 @@
   repo_url: https://github.com/tulir/gomuks
   repo_author: tulir
   repo_info: A Matrix client written in Go.
-  repo_updated: "2024-12-09T15:12:02Z"
+  repo_updated: "2024-12-11T00:27:51Z"
   repo_released: "2024-07-16T11:04:10Z"
   repo_version: v0.3.1
   repo_stars: "1385"
@@ -8826,7 +8826,7 @@
   repo_updated: "2024-12-02T18:48:41Z"
   repo_released: "2024-11-24T16:20:43Z"
   repo_version: v1.15.15
-  repo_stars: "5956"
+  repo_stars: "5957"
   repo_language: Go
   repo_license: MIT License
   repo_topics: git, go, gpg, hacktoberfest, password-manager, security
@@ -8872,7 +8872,7 @@
   repo_updated: "2024-12-09T09:42:38Z"
   repo_released: "2024-09-26T11:58:33Z"
   repo_version: v2.21.4
-  repo_stars: "7882"
+  repo_stars: "7883"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: golang, security, security-automation, security-tools, static-analysis, static-code-analysis
@@ -8918,7 +8918,7 @@
   repo_updated: "2024-12-02T17:39:18Z"
   repo_released: "2024-10-10T17:00:22Z"
   repo_version: v2.12.0
-  repo_stars: "16124"
+  repo_stars: "16126"
   repo_language: Go
   repo_license: MIT License
   repo_topics: dns, go, golang, http2, kcp, obfs4, quic, shadowsocks, sni, socks5, ssh, tls, tunnel, tuntap, udp
@@ -8941,7 +8941,7 @@
   repo_updated: "2024-09-27T08:20:44Z"
   repo_released: "2023-11-02T21:46:05Z"
   repo_version: "1.17"
-  repo_stars: "4728"
+  repo_stars: "4730"
   repo_language: Shell
   repo_license: Apache License 2.0
   repo_topics: ""
@@ -9010,7 +9010,7 @@
   repo_updated: "2024-10-22T12:59:24Z"
   repo_released: "2024-10-21T19:30:41Z"
   repo_version: 3.0.5
-  repo_stars: "3385"
+  repo_stars: "3386"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: chrome, chrome-headless, fingerprint, footprinting, golang, headless, reporting, screenshot, security, technologies, web
@@ -9116,7 +9116,7 @@
   repo_updated: "2024-11-29T23:37:22Z"
   repo_released: "2022-04-13T14:09:29Z"
   repo_version: v0.7.1
-  repo_stars: "13893"
+  repo_stars: "13898"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, json
@@ -9228,10 +9228,10 @@
   repo_url: https://github.com/charmbracelet/gum
   repo_author: charmbracelet
   repo_info: "A tool for glamorous shell scripts \U0001F380"
-  repo_updated: "2024-12-09T23:53:56Z"
+  repo_updated: "2024-12-11T00:48:09Z"
   repo_released: "2024-09-06T16:52:48Z"
   repo_version: v0.14.5
-  repo_stars: "18396"
+  repo_stars: "18400"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bash, shell
@@ -9254,7 +9254,7 @@
   repo_updated: "2024-12-04T20:44:43Z"
   repo_released: "2024-09-10T11:24:06Z"
   repo_version: v0.27.5
-  repo_stars: "354"
+  repo_stars: "355"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cli-app, command-line-tool, cross-platform, go, golang, golang-tools, update, updater, user-friendly
@@ -9300,7 +9300,7 @@
   repo_updated: "2024-12-09T08:05:16Z"
   repo_released: "2022-11-09T18:20:48Z"
   repo_version: v2.12.0
-  repo_stars: "10518"
+  repo_stars: "10519"
   repo_language: Haskell
   repo_license: GNU General Public License v3.0
   repo_topics: docker, dockerfile, dockerfile-linter, haskell, linter, shellcheck, static-analysis
@@ -9346,7 +9346,7 @@
   repo_updated: "2024-01-12T11:56:34Z"
   repo_released: ""
   repo_version: ""
-  repo_stars: "849"
+  repo_stars: "850"
   repo_language: Go
   repo_license: ""
   repo_topics: ""
@@ -9369,7 +9369,7 @@
   repo_updated: "2024-01-23T10:58:14Z"
   repo_released: "2022-05-23T08:28:59Z"
   repo_version: "2.1"
-  repo_stars: "4525"
+  repo_stars: "4527"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: bugbounty, crawling, hacking, osint, pentesting, recon, reconnaissance
@@ -9852,7 +9852,7 @@
   repo_updated: "2024-10-29T21:47:05Z"
   repo_released: "2024-10-29T21:47:59Z"
   repo_version: v0.15.0
-  repo_stars: "9206"
+  repo_stars: "9207"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: binary-data, command-line, hexadecimal, rust, tool
@@ -9875,7 +9875,7 @@
   repo_updated: "2024-12-09T20:53:08Z"
   repo_released: "2024-12-09T12:01:05Z"
   repo_version: v1.0.0
-  repo_stars: "3912"
+  repo_stars: "4065"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, client, email, gpg, himalaya, imap, notmuch, pgp, pimalaya, rust, sendmail, smtp, terminal
@@ -10010,10 +10010,10 @@
   repo_url: https://github.com/htop-dev/htop
   repo_author: htop-dev
   repo_info: htop - an interactive process viewer
-  repo_updated: "2024-12-09T21:18:13Z"
+  repo_updated: "2024-12-10T15:35:40Z"
   repo_released: "2024-01-10T10:13:16Z"
   repo_version: 3.3.0
-  repo_stars: "6597"
+  repo_stars: "6598"
   repo_language: C
   repo_license: GNU General Public License v2.0
   repo_topics: bsd, c, console, hacktoberfest, linux, macos, process, terminal, viewer
@@ -10036,7 +10036,7 @@
   repo_updated: "2024-06-22T22:47:09Z"
   repo_released: "2022-06-09T16:22:06Z"
   repo_version: v0.2
-  repo_stars: "2899"
+  repo_stars: "2900"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -10059,7 +10059,7 @@
   repo_updated: "2024-12-09T10:49:28Z"
   repo_released: "2024-10-20T22:35:38Z"
   repo_version: v1.6.9
-  repo_stars: "7842"
+  repo_stars: "7845"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bugbounty, cli, cybersecurity, hacktoberfest, http, lib, osint, pentest-tool, pipeline, ssl-certificate
@@ -10082,7 +10082,7 @@
   repo_updated: "2024-02-02T21:00:44Z"
   repo_released: "2020-03-05T17:55:23Z"
   repo_version: v2.14.2
-  repo_stars: "22855"
+  repo_stars: "22854"
   repo_language: Go
   repo_license: MIT License
   repo_topics: git, github-api, go, homebrew, pull-request
@@ -10102,10 +10102,10 @@
   repo_url: https://github.com/huggingface/huggingface_hub
   repo_author: huggingface
   repo_info: The official Python client for the Huggingface Hub.
-  repo_updated: "2024-12-10T09:10:10Z"
+  repo_updated: "2024-12-10T16:09:22Z"
   repo_released: "2024-12-06T18:28:15Z"
   repo_version: v0.26.5
-  repo_stars: "2158"
+  repo_stars: "2162"
   repo_language: Python
   repo_license: Apache License 2.0
   repo_topics: deep-learning, hacktoberfest, machine-learning, model-hub, models, natural-language-processing, pretrained-models, pytorch
@@ -10125,10 +10125,10 @@
   repo_url: https://github.com/huggingface/huggingface_hub
   repo_author: huggingface
   repo_info: The official Python client for the Huggingface Hub.
-  repo_updated: "2024-12-10T09:10:10Z"
+  repo_updated: "2024-12-10T16:09:22Z"
   repo_released: "2024-12-06T18:28:15Z"
   repo_version: v0.26.5
-  repo_stars: "2158"
+  repo_stars: "2162"
   repo_language: Python
   repo_license: Apache License 2.0
   repo_topics: deep-learning, hacktoberfest, machine-learning, model-hub, models, natural-language-processing, pretrained-models, pytorch
@@ -10151,7 +10151,7 @@
   repo_updated: "2024-12-10T12:33:27Z"
   repo_released: "2024-12-09T18:00:17Z"
   repo_version: v0.139.4
-  repo_stars: "76368"
+  repo_stars: "76371"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: blog-engine, cms, content-management-system, documentation-tool, go, hugo, static-site-generator
@@ -10171,10 +10171,10 @@
   repo_url: https://github.com/Orange-OpenSource/hurl
   repo_author: Orange-OpenSource
   repo_info: Hurl, run and test HTTP requests with plain text.
-  repo_updated: "2024-12-10T13:27:52Z"
+  repo_updated: "2024-12-10T17:17:00Z"
   repo_released: "2024-12-04T10:15:31Z"
   repo_version: 6.0.0
-  repo_stars: "13364"
+  repo_stars: "13376"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: api-testing, cli, curl, http, http-client, integration-testing, testing, testing-tools
@@ -10194,10 +10194,10 @@
   repo_url: https://github.com/Orange-OpenSource/hurl
   repo_author: Orange-OpenSource
   repo_info: Hurl, run and test HTTP requests with plain text.
-  repo_updated: "2024-12-10T13:27:52Z"
+  repo_updated: "2024-12-10T17:17:00Z"
   repo_released: "2024-12-04T10:15:31Z"
   repo_version: 6.0.0
-  repo_stars: "13364"
+  repo_stars: "13376"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: api-testing, cli, curl, http, http-client, integration-testing, testing, testing-tools
@@ -10217,10 +10217,10 @@
   repo_url: https://github.com/husarnet/husarnet
   repo_author: husarnet
   repo_info: Husarnet is a Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration.
-  repo_updated: "2024-12-05T16:20:13Z"
+  repo_updated: "2024-12-10T15:59:00Z"
   repo_released: "2023-10-05T12:08:34Z"
   repo_version: v2.0.180
-  repo_stars: "314"
+  repo_stars: "315"
   repo_language: C++
   repo_license: Other
   repo_topics: esp32, linux, low-latency, networking, p2p, peer-to-peer, sdn, vpn, windows
@@ -10240,10 +10240,10 @@
   repo_url: https://github.com/husarnet/husarnet
   repo_author: husarnet
   repo_info: Husarnet is a Peer-to-Peer VPN to connect your laptops, servers and microcontrollers over the Internet with zero configuration.
-  repo_updated: "2024-12-05T16:20:13Z"
+  repo_updated: "2024-12-10T15:59:00Z"
   repo_released: "2023-10-05T12:08:34Z"
   repo_version: v2.0.180
-  repo_stars: "314"
+  repo_stars: "315"
   repo_language: C++
   repo_license: Other
   repo_topics: esp32, linux, low-latency, networking, p2p, peer-to-peer, sdn, vpn, windows
@@ -10289,7 +10289,7 @@
   repo_updated: "2024-12-01T20:49:31Z"
   repo_released: "2024-11-11T21:43:25Z"
   repo_version: v1.19.0
-  repo_stars: "23228"
+  repo_stars: "23235"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: benchmark, cli, command-line, rust, terminal, tool
@@ -10450,7 +10450,7 @@
   repo_updated: "2024-12-09T01:38:46Z"
   repo_released: "2024-09-28T14:04:11Z"
   repo_version: v1.2.2
-  repo_stars: "3480"
+  repo_stars: "3482"
   repo_language: Go
   repo_license: MIT License
   repo_topics: appsec, bugbounty, dns, golang, http, ldap, oast, oob, security, smtp
@@ -10473,7 +10473,7 @@
   repo_updated: "2024-12-09T01:38:46Z"
   repo_released: "2024-09-28T14:04:11Z"
   repo_version: v1.2.2
-  repo_stars: "3480"
+  repo_stars: "3482"
   repo_language: Go
   repo_license: MIT License
   repo_topics: appsec, bugbounty, dns, golang, http, ldap, oast, oob, security, smtp
@@ -10657,7 +10657,7 @@
   repo_updated: "2024-12-06T19:35:43Z"
   repo_released: "2024-05-13T19:08:28Z"
   repo_version: 3.17.1
-  repo_stars: "7024"
+  repo_stars: "7025"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -10703,7 +10703,7 @@
   repo_updated: "2024-08-14T00:40:19Z"
   repo_released: "2024-03-01T12:41:35Z"
   repo_version: ipinfo-3.3.1
-  repo_stars: "1764"
+  repo_stars: "1765"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cli, golang, ip-address, ip-data, ip-geolocation, ip-lookup, ipinfo
@@ -10726,7 +10726,7 @@
   repo_updated: "2024-08-14T00:40:19Z"
   repo_released: "2024-03-01T12:41:35Z"
   repo_version: ipinfo-3.3.1
-  repo_stars: "1764"
+  repo_stars: "1765"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cli, golang, ip-address, ip-data, ip-geolocation, ip-lookup, ipinfo
@@ -10861,7 +10861,7 @@
   repo_url: https://github.com/Devolutions/IronRDP
   repo_author: Devolutions
   repo_info: Rust implementation of the Microsoft Remote Desktop Protocol (RDP)
-  repo_updated: "2024-12-10T03:50:47Z"
+  repo_updated: "2024-12-10T14:28:22Z"
   repo_released: "2024-12-06T14:23:12Z"
   repo_version: ironrdp-v0.7.0
   repo_stars: "404"
@@ -10884,10 +10884,10 @@
   repo_url: https://github.com/istio/istio
   repo_author: istio
   repo_info: Connect, secure, control, and observe services.
-  repo_updated: "2024-12-10T11:46:45Z"
+  repo_updated: "2024-12-11T00:02:48Z"
   repo_released: "2024-11-25T20:17:56Z"
   repo_version: 1.24.1
-  repo_stars: "36208"
+  repo_stars: "36213"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: api-management, circuit-breaker, consul, enforce-policies, envoy, fault-injection, kubernetes, lyft-envoy, microservice, microservices, nomad, polyglot-microservices, proxies, request-routing, resiliency, service-mesh
@@ -10930,10 +10930,10 @@
   repo_url: https://github.com/01mf02/jaq
   repo_author: 01mf02
   repo_info: A jq clone focussed on correctness, speed, and simplicity
-  repo_updated: "2024-12-09T09:41:51Z"
+  repo_updated: "2024-12-10T16:32:09Z"
   repo_released: "2024-12-09T09:38:38Z"
   repo_version: v2.0.1
-  repo_stars: "2883"
+  repo_stars: "2886"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: jq, json, query, rust
@@ -11002,7 +11002,7 @@
   repo_updated: "2024-09-22T08:14:14Z"
   repo_released: "2024-09-22T08:28:13Z"
   repo_version: v1.5.2
-  repo_stars: "4027"
+  repo_stars: "4029"
   repo_language: Go
   repo_license: MIT License
   repo_topics: atlassian, cli, cli-app, command-line, command-line-tool, console, go, golang, golang-cli, jira, jira-cli, made-in-nepal, productivity, productivity-tools, terminal, terminal-app, tui
@@ -11022,10 +11022,10 @@
   repo_url: https://github.com/martinvonz/jj
   repo_author: martinvonz
   repo_info: A Git-compatible VCS that is both simple and powerful
-  repo_updated: "2024-12-10T07:08:50Z"
+  repo_updated: "2024-12-11T01:38:08Z"
   repo_released: "2024-12-04T20:47:50Z"
   repo_version: v0.24.0
-  repo_stars: "9568"
+  repo_stars: "9601"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: cli, git, jj, jujutsu, mercurial, vcs
@@ -11048,7 +11048,7 @@
   repo_updated: "2024-09-07T16:16:59Z"
   repo_released: "2023-07-17T02:51:34Z"
   repo_version: v0.9.0
-  repo_stars: "4813"
+  repo_stars: "4814"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, json, rust
@@ -11140,7 +11140,7 @@
   repo_updated: "2024-12-01T10:49:45Z"
   repo_released: "2023-12-13T19:56:17Z"
   repo_version: jq-1.7.1
-  repo_stars: "30712"
+  repo_stars: "30714"
   repo_language: C
   repo_license: Other
   repo_topics: jq
@@ -11163,7 +11163,7 @@
   repo_updated: "2024-12-06T15:19:12Z"
   repo_released: "2024-12-06T15:14:18Z"
   repo_version: jql-v8.0.2
-  repo_stars: "1518"
+  repo_stars: "1519"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: cargo, cli, devops-tools, json, rust, rustlang, tool, tools, utility
@@ -11186,7 +11186,7 @@
   repo_updated: "2024-09-12T16:20:48Z"
   repo_released: "2024-06-09T22:10:49Z"
   repo_version: v0.7.0
-  repo_stars: "2224"
+  repo_stars: "2225"
   repo_language: Go
   repo_license: MIT License
   repo_topics: go, jq, tui
@@ -11252,10 +11252,10 @@
   repo_url: https://github.com/casey/just
   repo_author: casey
   repo_info: "\U0001F916 Just a command runner"
-  repo_updated: "2024-12-07T01:54:15Z"
-  repo_released: "2024-11-20T22:08:41Z"
-  repo_version: 1.37.0
-  repo_stars: "22451"
+  repo_updated: "2024-12-11T00:31:53Z"
+  repo_released: "2024-12-10T21:43:11Z"
+  repo_version: 1.38.0
+  repo_stars: "22476"
   repo_language: Rust
   repo_license: Creative Commons Zero v1.0 Universal
   repo_topics: ""
@@ -11324,7 +11324,7 @@
   repo_updated: "2024-12-09T23:23:01Z"
   repo_released: "2024-11-16T20:37:51Z"
   repo_version: v0.32.7
-  repo_stars: "27662"
+  repo_stars: "27666"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: go, golang, k8s, k8s-cluster, k9s, kubernetes, kubernetes-cli, kubernetes-clusters
@@ -11370,7 +11370,7 @@
   repo_updated: "2024-12-09T20:49:35Z"
   repo_released: "2024-05-18T04:46:58Z"
   repo_version: v2024.05.18
-  repo_stars: "10020"
+  repo_stars: "10022"
   repo_language: C++
   repo_license: The Unlicense
   repo_topics: c-plus-plus, console-application, kakoune, modal-editing, text-editor, vim
@@ -11393,7 +11393,7 @@
   repo_updated: "2024-12-09T20:49:35Z"
   repo_released: "2024-05-18T04:46:58Z"
   repo_version: v2024.05.18
-  repo_stars: "10020"
+  repo_stars: "10022"
   repo_language: C++
   repo_license: The Unlicense
   repo_topics: c-plus-plus, console-application, kakoune, modal-editing, text-editor, vim
@@ -11499,7 +11499,7 @@
   repo_updated: "2024-12-09T13:05:37Z"
   repo_released: "2024-12-02T10:30:58Z"
   repo_version: v1.1.2
-  repo_stars: "12507"
+  repo_stars: "12517"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, crawler, gocrawler, headless, spider-framework, web-spider
@@ -11542,10 +11542,10 @@
   repo_url: https://github.com/kovidgoyal/kitty
   repo_author: kovidgoyal
   repo_info: Cross-platform, fast, feature-rich, GPU based terminal
-  repo_updated: "2024-12-10T07:59:30Z"
+  repo_updated: "2024-12-10T15:02:00Z"
   repo_released: "2024-10-30T16:29:36Z"
   repo_version: v0.37.0
-  repo_stars: "24936"
+  repo_stars: "24955"
   repo_language: Python
   repo_license: GNU General Public License v3.0
   repo_topics: c, go, golang, golang-application, kitty, kitty-terminal, opengl, python, terminal, terminal-emulators, terminfo, vt100
@@ -11568,7 +11568,7 @@
   repo_updated: "2024-12-07T15:50:19Z"
   repo_released: "2024-04-12T11:02:17Z"
   repo_version: v1.6.5
-  repo_stars: "2561"
+  repo_stars: "2563"
   repo_language: Rust
   repo_license: GNU General Public License v3.0
   repo_topics: hacktoberfest, kernel-activities, kernel-information, kernel-modules, kmon, linux, linux-kernel, management, monitoring, tui
@@ -11614,7 +11614,7 @@
   repo_updated: "2024-12-10T04:18:32Z"
   repo_released: "2024-11-21T00:13:50Z"
   repo_version: v0.18.2
-  repo_stars: "8255"
+  repo_stars: "8260"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: backup, cloud, deduplication, encryption, google-cloud-storage, hacktoberfest
@@ -11657,10 +11657,10 @@
   repo_url: https://github.com/ipfs/kubo
   repo_author: ipfs
   repo_info: An IPFS implementation in Go
-  repo_updated: "2024-12-10T12:46:41Z"
+  repo_updated: "2024-12-11T01:20:36Z"
   repo_released: "2024-11-15T20:50:44Z"
   repo_version: v0.32.1
-  repo_stars: "16218"
+  repo_stars: "16221"
   repo_language: Go
   repo_license: Other
   repo_topics: ipfs
@@ -11680,10 +11680,10 @@
   repo_url: https://github.com/ipfs/kubo
   repo_author: ipfs
   repo_info: An IPFS implementation in Go
-  repo_updated: "2024-12-10T12:46:41Z"
+  repo_updated: "2024-12-11T01:20:36Z"
   repo_released: "2024-11-15T20:50:44Z"
   repo_version: v0.32.1
-  repo_stars: "16218"
+  repo_stars: "16221"
   repo_language: Go
   repo_license: Other
   repo_topics: ipfs
@@ -11729,7 +11729,7 @@
   repo_updated: "2024-11-23T06:31:57Z"
   repo_released: "2024-11-23T06:33:25Z"
   repo_version: v0.24.1
-  repo_stars: "39228"
+  repo_stars: "39235"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -11752,7 +11752,7 @@
   repo_updated: "2024-12-08T11:14:06Z"
   repo_released: "2024-09-18T10:55:50Z"
   repo_version: v0.44.1
-  repo_stars: "54054"
+  repo_stars: "54070"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cli, git, terminal
@@ -11798,7 +11798,7 @@
   repo_updated: "2024-12-05T07:21:23Z"
   repo_released: "2024-11-01T12:48:19Z"
   repo_version: r33
-  repo_stars: "7835"
+  repo_stars: "7836"
   repo_language: Go
   repo_license: MIT License
   repo_topics: file-manager, terminal
@@ -11936,7 +11936,7 @@
   repo_updated: "2024-06-21T12:53:49Z"
   repo_released: "2022-05-13T09:36:15Z"
   repo_version: v3.1.1
-  repo_stars: "2671"
+  repo_stars: "2672"
   repo_language: C
   repo_license: MIT License
   repo_topics: ""
@@ -11959,7 +11959,7 @@
   repo_updated: "2024-12-05T03:36:38Z"
   repo_released: "2024-10-31T20:25:00Z"
   repo_version: 2024.10.31
-  repo_stars: "2887"
+  repo_stars: "2892"
   repo_language: Shell
   repo_license: MIT License
   repo_topics: linux
@@ -12025,10 +12025,10 @@
   repo_url: https://github.com/knadh/listmonk
   repo_author: knadh
   repo_info: High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
-  repo_updated: "2024-12-04T17:41:59Z"
+  repo_updated: "2024-12-10T17:35:44Z"
   repo_released: "2024-11-12T18:49:52Z"
   repo_version: v4.1.0
-  repo_stars: "15544"
+  repo_stars: "15550"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: campaign, campaign-management, email-marketing, email-subscription, listmonk, mailing-list, newsletter, newsletter-management, newsletter-software, self-hosted, sms-gateway, smtp, transactional-emails
@@ -12603,7 +12603,7 @@
   repo_updated: "2024-09-24T19:02:39Z"
   repo_released: "2024-01-24T19:41:33Z"
   repo_version: v0.5.11
-  repo_stars: "4113"
+  repo_stars: "4114"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: sqlite
@@ -12626,7 +12626,7 @@
   repo_updated: "2024-11-24T05:47:18Z"
   repo_released: "2024-11-20T17:22:36Z"
   repo_version: v0.12.3
-  repo_stars: "8099"
+  repo_stars: "8100"
   repo_language: C++
   repo_license: BSD 2-Clause Simplified License
   repo_topics: command-line-tool, less, log-analysis, log-monitor, log-viewer, log-visualization, logging, more, pager, tail, terminal, terminal-pager, tui
@@ -12674,9 +12674,9 @@
   repo_url: https://github.com/logdyhq/logdy-core
   repo_author: logdyhq
   repo_info: Web based real-time log viewer. Stream ANY content to a web UI with autogenerated filters. Parse any format with TypeScript.
-  repo_updated: "2024-11-26T18:11:23Z"
-  repo_released: "2024-11-26T18:11:53Z"
-  repo_version: v0.13.2
+  repo_updated: "2024-12-10T22:05:55Z"
+  repo_released: "2024-12-10T22:05:55Z"
+  repo_version: v0.13.3
   repo_stars: "1312"
   repo_language: Go
   repo_license: Apache License 2.0
@@ -12766,10 +12766,10 @@
   repo_url: https://github.com/grafana/loki
   repo_author: grafana
   repo_info: Like Prometheus, but for logs.
-  repo_updated: "2024-12-10T10:55:57Z"
+  repo_updated: "2024-12-11T00:30:00Z"
   repo_released: "2024-11-19T18:40:17Z"
   repo_version: v3.3.0
-  repo_stars: "24145"
+  repo_stars: "24146"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cloudnative, grafana, hacktoberfest, logging, loki, prometheus
@@ -12789,10 +12789,10 @@
   repo_url: https://github.com/grafana/loki
   repo_author: grafana
   repo_info: Like Prometheus, but for logs.
-  repo_updated: "2024-12-10T10:55:57Z"
+  repo_updated: "2024-12-11T00:30:00Z"
   repo_released: "2024-11-19T18:40:17Z"
   repo_version: v3.3.0
-  repo_stars: "24145"
+  repo_stars: "24146"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cloudnative, grafana, hacktoberfest, logging, loki, prometheus
@@ -12812,10 +12812,10 @@
   repo_url: https://github.com/grafana/loki
   repo_author: grafana
   repo_info: Like Prometheus, but for logs.
-  repo_updated: "2024-12-10T10:55:57Z"
+  repo_updated: "2024-12-11T00:30:00Z"
   repo_released: "2024-11-19T18:40:17Z"
   repo_version: v3.3.0
-  repo_stars: "24145"
+  repo_stars: "24146"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cloudnative, grafana, hacktoberfest, logging, loki, prometheus
@@ -12835,10 +12835,10 @@
   repo_url: https://github.com/grafana/loki
   repo_author: grafana
   repo_info: Like Prometheus, but for logs.
-  repo_updated: "2024-12-10T10:55:57Z"
+  repo_updated: "2024-12-11T00:30:00Z"
   repo_released: "2024-11-19T18:40:17Z"
   repo_version: v3.3.0
-  repo_stars: "24145"
+  repo_stars: "24146"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: cloudnative, grafana, hacktoberfest, logging, loki, prometheus
@@ -12884,7 +12884,7 @@
   repo_updated: "2024-11-24T07:22:58Z"
   repo_released: "2024-08-20T16:28:33Z"
   repo_version: v1.1.5
-  repo_stars: "13670"
+  repo_stars: "13671"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: color, icons, ls, nerd-fonts, rust
@@ -12976,7 +12976,7 @@
   repo_updated: "2024-10-12T05:49:08Z"
   repo_released: "2024-05-06T01:32:39Z"
   repo_version: v0.24.1
-  repo_stars: "27903"
+  repo_stars: "27907"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bilibili, crawler, download, downloader, go, golang, iqiyi, qq, scraper, tumblr, video, youku, youtube
@@ -13045,7 +13045,7 @@
   repo_updated: "2024-11-24T18:17:21Z"
   repo_released: "2024-01-23T21:54:37Z"
   repo_version: v0.7.1
-  repo_stars: "5200"
+  repo_stars: "5202"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: dkim, dmarc, email, imap, mail, smtp, spf
@@ -13068,7 +13068,7 @@
   repo_updated: "2024-12-09T22:11:38Z"
   repo_released: "2024-11-17T08:51:29Z"
   repo_version: 7.1.1-41
-  repo_stars: "12412"
+  repo_stars: "12415"
   repo_language: C
   repo_license: Other
   repo_topics: command-line-image-tool, digital-image-editing, image-conversion, image-manipulation, image-processing, imagemagick, mastering-digital-image-alchemy, open-source-software
@@ -13091,7 +13091,7 @@
   repo_updated: "2024-12-09T22:11:38Z"
   repo_released: "2024-11-17T08:51:29Z"
   repo_version: 7.1.1-41
-  repo_stars: "12412"
+  repo_stars: "12415"
   repo_language: C
   repo_license: Other
   repo_topics: command-line-image-tool, digital-image-editing, image-conversion, image-manipulation, image-processing, imagemagick, mastering-digital-image-alchemy, open-source-software
@@ -13114,7 +13114,7 @@
   repo_updated: "2024-12-09T22:11:38Z"
   repo_released: "2024-11-17T08:51:29Z"
   repo_version: 7.1.1-41
-  repo_stars: "12412"
+  repo_stars: "12415"
   repo_language: C
   repo_license: Other
   repo_topics: command-line-image-tool, digital-image-editing, image-conversion, image-manipulation, image-processing, imagemagick, mastering-digital-image-alchemy, open-source-software
@@ -13137,7 +13137,7 @@
   repo_updated: "2024-12-10T09:00:49Z"
   repo_released: "2024-12-08T00:06:20Z"
   repo_version: v1.21.6
-  repo_stars: "6216"
+  repo_stars: "6217"
   repo_language: Go
   repo_license: MIT License
   repo_topics: email-testing, go, golang, mailpit, pop3-server, smtp-relay, smtp-server, smtp-testing
@@ -13229,7 +13229,7 @@
   repo_updated: "2024-08-13T01:38:30Z"
   repo_released: "2021-01-31T09:19:32Z"
   repo_version: 1.3.2
-  repo_stars: "23813"
+  repo_stars: "23815"
   repo_language: C
   repo_license: GNU Affero General Public License v3.0
   repo_topics: ""
@@ -13252,7 +13252,7 @@
   repo_updated: "2024-03-11T21:34:47Z"
   repo_released: "2024-03-09T00:39:02Z"
   repo_version: v1.1.0
-  repo_stars: "3185"
+  repo_stars: "3186"
   repo_language: C
   repo_license: GNU General Public License v3.0
   repo_topics: bulk-dns, dns, dns-bruteforcer, dns-client, dns-lookup, dns-resolution, dns-resolver, massdns, reconnaissance, subbrute, subdomain
@@ -13275,7 +13275,7 @@
   repo_updated: "2024-08-27T17:04:10Z"
   repo_released: "2023-01-29T17:55:27Z"
   repo_version: v1.26.0
-  repo_stars: "6731"
+  repo_stars: "6734"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: bridge, counter-strike, discord, facebook-messenger, gitter, irc, matrix, mattermost, microsoft-teams, minecraft-chat, mumble, nextcloud, rocketchat, slack, telegram, twitch, vk, whatsapp, xmpp, zulip
@@ -13344,7 +13344,7 @@
   repo_updated: "2024-11-16T01:03:43Z"
   repo_released: "2024-08-12T02:42:01Z"
   repo_version: v0.9.2
-  repo_stars: "6988"
+  repo_stars: "6989"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: history, rust, search, shell
@@ -13482,7 +13482,7 @@
   repo_updated: "2024-12-04T03:27:39Z"
   repo_released: "2024-03-01T05:39:03Z"
   repo_version: 2.40.2
-  repo_stars: "4345"
+  repo_stars: "4346"
   repo_language: C++
   repo_license: Other
   repo_topics: aufs, datahoarding, filesystem, fuse, jbod, kodi, libfuse, mergerfs, mhddfs, overlayfs, plex, subsonic, unionfs, xattr
@@ -13525,10 +13525,10 @@
   repo_url: https://github.com/zyedidia/micro
   repo_author: zyedidia
   repo_info: A modern and intuitive terminal-based text editor
-  repo_updated: "2024-12-10T00:23:35Z"
+  repo_updated: "2024-12-11T00:23:23Z"
   repo_released: "2024-08-27T18:13:07Z"
   repo_version: v2.0.14
-  repo_stars: "25308"
+  repo_stars: "25309"
   repo_language: Go
   repo_license: MIT License
   repo_topics: command-line, cross-platform, editor, go, golang, micro, terminal, text-editor
@@ -13574,7 +13574,7 @@
   repo_updated: "2024-12-10T03:32:59Z"
   repo_released: "2024-11-11T00:21:50Z"
   repo_version: 2.2.3
-  repo_stars: "7020"
+  repo_stars: "7022"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: atom, feed, go, golang, jsonfeed, letsencrypt, opml, postgresql, rdf, rss
@@ -13597,7 +13597,7 @@
   repo_updated: "2024-12-09T19:59:49Z"
   repo_released: "2024-11-24T20:41:17Z"
   repo_version: v2.21.2
-  repo_stars: "3760"
+  repo_stars: "3761"
   repo_language: Go
   repo_license: MIT License
   repo_topics: css, go, html, javascript, js, json, minifier, minify, svg, xml
@@ -13620,7 +13620,7 @@
   repo_updated: "2024-12-01T14:31:19Z"
   repo_released: "2024-09-12T02:15:52Z"
   repo_version: v0.28.0
-  repo_stars: "6203"
+  repo_stars: "6205"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, command-line, command-line-tool, http-server, serve, server, static-files
@@ -13686,10 +13686,10 @@
   repo_url: https://github.com/jdx/mise
   repo_author: jdx
   repo_info: dev tools, env vars, task runner
-  repo_updated: "2024-12-10T13:23:49Z"
-  repo_released: "2024-12-09T19:47:13Z"
-  repo_version: v2024.12.4
-  repo_stars: "11611"
+  repo_updated: "2024-12-11T01:19:49Z"
+  repo_released: "2024-12-10T19:05:25Z"
+  repo_version: v2024.12.5
+  repo_stars: "11661"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: ""
@@ -13709,10 +13709,10 @@
   repo_url: https://github.com/mitmproxy/mitmproxy
   repo_author: mitmproxy
   repo_info: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
-  repo_updated: "2024-12-10T07:07:35Z"
+  repo_updated: "2024-12-11T00:31:55Z"
   repo_released: "2024-12-05T09:31:18Z"
   repo_version: v11.0.2
-  repo_stars: "37113"
+  repo_stars: "37121"
   repo_language: Python
   repo_license: MIT License
   repo_topics: debugging, http, http2, man-in-the-middle, mitmproxy, proxy, python, security, ssl, tls, websocket
@@ -13732,10 +13732,10 @@
   repo_url: https://github.com/mitmproxy/mitmproxy
   repo_author: mitmproxy
   repo_info: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
-  repo_updated: "2024-12-10T07:07:35Z"
+  repo_updated: "2024-12-11T00:31:55Z"
   repo_released: "2024-12-05T09:31:18Z"
   repo_version: v11.0.2
-  repo_stars: "37113"
+  repo_stars: "37121"
   repo_language: Python
   repo_license: MIT License
   repo_topics: debugging, http, http2, man-in-the-middle, mitmproxy, proxy, python, security, ssl, tls, websocket
@@ -13755,10 +13755,10 @@
   repo_url: https://github.com/mitmproxy/mitmproxy
   repo_author: mitmproxy
   repo_info: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
-  repo_updated: "2024-12-10T07:07:35Z"
+  repo_updated: "2024-12-11T00:31:55Z"
   repo_released: "2024-12-05T09:31:18Z"
   repo_version: v11.0.2
-  repo_stars: "37113"
+  repo_stars: "37121"
   repo_language: Python
   repo_license: MIT License
   repo_topics: debugging, http, http2, man-in-the-middle, mitmproxy, proxy, python, security, ssl, tls, websocket
@@ -13887,7 +13887,7 @@
   repo_updated: "2024-12-02T21:34:44Z"
   repo_released: "2024-09-05T23:06:26Z"
   repo_version: v2.8.3
-  repo_stars: "11307"
+  repo_stars: "11310"
   repo_language: Rust
   repo_license: Creative Commons Zero v1.0 Universal
   repo_topics: come-and-take-it, e-hoarding, its-mine, make-the-internet-great-again, no-more-404, procrastination, save-the-internet, tab-rehab
@@ -13956,7 +13956,7 @@
   repo_updated: "2024-12-09T01:12:27Z"
   repo_released: "2024-07-30T10:07:20Z"
   repo_version: v0.21.1
-  repo_stars: "411"
+  repo_stars: "412"
   repo_language: Rust
   repo_license: GNU General Public License v3.0
   repo_topics: cli, hacktoberfest, mqtt, mqtt-cli, mqtt-client, mqtt-explorer, mqtt-topic, terminal-based
@@ -14094,7 +14094,7 @@
   repo_updated: "2024-11-20T21:29:06Z"
   repo_released: "2023-12-10T09:46:00Z"
   repo_version: v2.23.0
-  repo_stars: "15261"
+  repo_stars: "15262"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: bash, cheatsheets, cli, command-line, rust, shell, snippet, snippets, terminal
@@ -14154,7 +14154,7 @@
   repo_updated: "2024-12-10T09:04:16Z"
   repo_released: "2024-10-23T21:45:01Z"
   repo_version: 1.99.0
-  repo_stars: "1369"
+  repo_stars: "1371"
   repo_language: Shell
   repo_license: MIT License
   repo_topics: hyfetch, neofetch, neowofetch, screenfetch
@@ -14174,10 +14174,10 @@
   repo_url: https://github.com/containerd/nerdctl
   repo_author: containerd
   repo_info: contaiNERD CTL - Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS, ...
-  repo_updated: "2024-12-10T07:02:46Z"
-  repo_released: "2024-12-02T20:19:57Z"
-  repo_version: v2.0.1
-  repo_stars: "8260"
+  repo_updated: "2024-12-10T22:58:00Z"
+  repo_released: "2024-12-10T16:18:59Z"
+  repo_version: v2.0.2
+  repo_stars: "8264"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: containerd
@@ -14197,10 +14197,10 @@
   repo_url: https://github.com/netbirdio/netbird
   repo_author: netbirdio
   repo_info: Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
-  repo_updated: "2024-12-10T11:10:10Z"
+  repo_updated: "2024-12-10T23:34:50Z"
   repo_released: "2024-12-05T15:07:29Z"
   repo_version: v0.34.1
-  repo_stars: "11446"
+  repo_stars: "11449"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: golang, mesh, mesh-networks, nat-traversal, netbird, vpn, wireguard, wireguard-vpn, wiretrustee, zero-trust-network-access
@@ -14234,10 +14234,10 @@
   repo_url: https://github.com/Pennyw0rth/NetExec
   repo_author: Pennyw0rth
   repo_info: The Network Execution Tool
-  repo_updated: "2024-12-05T12:05:49Z"
+  repo_updated: "2024-12-10T23:29:25Z"
   repo_released: "2024-10-13T20:40:15Z"
   repo_version: v1.3.0
-  repo_stars: "3341"
+  repo_stars: "3343"
   repo_language: Python
   repo_license: BSD 2-Clause Simplified License
   repo_topics: active-directory, hacking, infosec, infosectools, networks, pentest, pentest-tool, pentest-tools, pentesting, python, python3, red-team, security, security-tools, windows
@@ -14257,10 +14257,10 @@
   repo_url: https://github.com/Pennyw0rth/NetExec
   repo_author: Pennyw0rth
   repo_info: The Network Execution Tool
-  repo_updated: "2024-12-05T12:05:49Z"
+  repo_updated: "2024-12-10T23:29:25Z"
   repo_released: "2024-10-13T20:40:15Z"
   repo_version: v1.3.0
-  repo_stars: "3341"
+  repo_stars: "3343"
   repo_language: Python
   repo_license: BSD 2-Clause Simplified License
   repo_topics: active-directory, hacking, infosec, infosectools, networks, pentest, pentest-tool, pentest-tools, pentesting, python, python3, red-team, security, security-tools, windows
@@ -14363,10 +14363,10 @@
   repo_url: https://github.com/naiba/nezha
   repo_author: nezhahq
   repo_info: ':trollface: Self-hosted, lightweight server and website monitoring and O&M tool'
-  repo_updated: "2024-12-09T12:44:04Z"
-  repo_released: "2024-12-09T12:49:17Z"
-  repo_version: v1.1.3
-  repo_stars: "7787"
+  repo_updated: "2024-12-10T14:28:13Z"
+  repo_released: "2024-12-10T14:33:31Z"
+  repo_version: v1.1.4
+  repo_stars: "7791"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: monitoring, monitoring-tool, system
@@ -14386,10 +14386,10 @@
   repo_url: https://github.com/naiba/nezha
   repo_author: nezhahq
   repo_info: ':trollface: Self-hosted, lightweight server and website monitoring and O&M tool'
-  repo_updated: "2024-12-09T12:44:04Z"
-  repo_released: "2024-12-09T12:49:17Z"
-  repo_version: v1.1.3
-  repo_stars: "7787"
+  repo_updated: "2024-12-10T14:28:13Z"
+  repo_released: "2024-12-10T14:33:31Z"
+  repo_version: v1.1.4
+  repo_stars: "7791"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: monitoring, monitoring-tool, system
@@ -14409,10 +14409,10 @@
   repo_url: https://github.com/naiba/nezha
   repo_author: nezhahq
   repo_info: ':trollface: Self-hosted, lightweight server and website monitoring and O&M tool'
-  repo_updated: "2024-12-09T12:44:04Z"
-  repo_released: "2024-12-09T12:49:17Z"
-  repo_version: v1.1.3
-  repo_stars: "7787"
+  repo_updated: "2024-12-10T14:28:13Z"
+  repo_released: "2024-12-10T14:33:31Z"
+  repo_version: v1.1.4
+  repo_stars: "7791"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: monitoring, monitoring-tool, system
@@ -14432,10 +14432,10 @@
   repo_url: https://github.com/naiba/nezha
   repo_author: nezhahq
   repo_info: ':trollface: Self-hosted, lightweight server and website monitoring and O&M tool'
-  repo_updated: "2024-12-09T12:44:04Z"
-  repo_released: "2024-12-09T12:49:17Z"
-  repo_version: v1.1.3
-  repo_stars: "7787"
+  repo_updated: "2024-12-10T14:28:13Z"
+  repo_released: "2024-12-10T14:33:31Z"
+  repo_version: v1.1.4
+  repo_stars: "7791"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: monitoring, monitoring-tool, system
@@ -14455,10 +14455,10 @@
   repo_url: https://github.com/naiba/nezha
   repo_author: nezhahq
   repo_info: ':trollface: Self-hosted, lightweight server and website monitoring and O&M tool'
-  repo_updated: "2024-12-09T12:44:04Z"
-  repo_released: "2024-12-09T12:49:17Z"
-  repo_version: v1.1.3
-  repo_stars: "7787"
+  repo_updated: "2024-12-10T14:28:13Z"
+  repo_released: "2024-12-10T14:33:31Z"
+  repo_version: v1.1.4
+  repo_stars: "7791"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: monitoring, monitoring-tool, system
@@ -14794,7 +14794,7 @@
   repo_updated: "2024-12-03T22:21:50Z"
   repo_released: "2024-08-26T13:22:00Z"
   repo_version: v5.0
-  repo_stars: "19453"
+  repo_stars: "19459"
   repo_language: C
   repo_license: BSD 2-Clause Simplified License
   repo_topics: android, batch-rename, c, cli, command-line, developer-tools, disk-usage, file-manager, file-preview, file-search, filesystem, launcher, multi-platform, ncurses, productivity, raspberry-pi, terminal, tui, vim, wsl
@@ -14989,10 +14989,10 @@
   repo_url: https://github.com/projectdiscovery/nuclei
   repo_author: projectdiscovery
   repo_info: Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
-  repo_updated: "2024-12-10T10:28:21Z"
+  repo_updated: "2024-12-10T18:23:58Z"
   repo_released: "2024-12-02T12:14:59Z"
   repo_version: v3.3.7
-  repo_stars: "20966"
+  repo_stars: "20973"
   repo_language: Go
   repo_license: MIT License
   repo_topics: attack-surface, cve-scanner, dast, hacktoberfest, nuclei-engine, security, security-scanner, subdomain-takeover, vulnerability-assessment, vulnerability-detection, vulnerability-scanner
@@ -15150,10 +15150,10 @@
   repo_url: https://github.com/nushell/nushell
   repo_author: nushell
   repo_info: A new type of shell
-  repo_updated: "2024-12-10T12:36:27Z"
+  repo_updated: "2024-12-11T01:40:17Z"
   repo_released: "2024-11-13T08:35:38Z"
   repo_version: 0.100.0
-  repo_stars: "32916"
+  repo_stars: "32921"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: rust, shell
@@ -15173,10 +15173,10 @@
   repo_url: https://github.com/nushell/nushell
   repo_author: nushell
   repo_info: A new type of shell
-  repo_updated: "2024-12-10T12:36:27Z"
+  repo_updated: "2024-12-11T01:40:17Z"
   repo_released: "2024-11-13T08:35:38Z"
   repo_version: 0.100.0
-  repo_stars: "32916"
+  repo_stars: "32921"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: rust, shell
@@ -15196,7 +15196,7 @@
   repo_url: https://github.com/linux-nvme/nvme-cli
   repo_author: linux-nvme
   repo_info: NVMe management command line interface.
-  repo_updated: "2024-12-10T07:33:41Z"
+  repo_updated: "2024-12-10T16:09:11Z"
   repo_released: "2024-10-31T09:40:27Z"
   repo_version: v2.11
   repo_stars: "1500"
@@ -15219,7 +15219,7 @@
   repo_url: https://github.com/linux-nvme/nvme-cli
   repo_author: linux-nvme
   repo_info: NVMe management command line interface.
-  repo_updated: "2024-12-10T07:33:41Z"
+  repo_updated: "2024-12-10T16:09:11Z"
   repo_released: "2024-10-31T09:40:27Z"
   repo_version: v2.11
   repo_stars: "1500"
@@ -15242,10 +15242,10 @@
   repo_url: https://github.com/build-trust/ockam
   repo_author: build-trust
   repo_info: Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
-  repo_updated: "2024-12-10T11:34:39Z"
+  repo_updated: "2024-12-10T17:31:15Z"
   repo_released: "2024-12-04T23:56:07Z"
   repo_version: ockam_v0.144.0
-  repo_stars: "4484"
+  repo_stars: "4485"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: authentication, authorization, credentials, distributed-systems, e2ee, encrypted-connections, encrypted-messages, encryption, end-to-end-encryption, identity, kafka, key-management, messaging, rust, security, snowflake, trust, zero-trust
@@ -15268,7 +15268,7 @@
   repo_updated: "2024-12-09T05:56:06Z"
   repo_released: "2024-12-07T06:34:39Z"
   repo_version: v1.5.0
-  repo_stars: "6645"
+  repo_stars: "6651"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: benchmark, cli, command-line, http, http2, load-generator, load-testing, rust, tui
@@ -15452,7 +15452,7 @@
   repo_updated: "2024-10-04T15:39:06Z"
   repo_released: "2024-10-04T15:39:06Z"
   repo_version: 0.10.0
-  repo_stars: "676"
+  repo_stars: "677"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: openapi3, openapi31, ratatui-rs, rust-lang, tui
@@ -15475,7 +15475,7 @@
   repo_updated: "2024-10-28T02:12:14Z"
   repo_released: "2024-10-28T02:12:14Z"
   repo_version: v0.4.1
-  repo_stars: "9836"
+  repo_stars: "9839"
   repo_language: Go
   repo_license: Mozilla Public License 2.0
   repo_topics: censorship, dpi, filtering, firewall, gfw, ips, networking
@@ -15498,7 +15498,7 @@
   repo_updated: "2024-12-03T01:18:08Z"
   repo_released: "2024-11-26T21:46:52Z"
   repo_version: v1.8.3
-  repo_stars: "1926"
+  repo_stars: "1928"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: docker, gist, git, go, golang, pastebin, pastebin-service, self-hosted, tailwindcss, typescript
@@ -15541,10 +15541,10 @@
   repo_url: https://github.com/OpenVPN/openvpn
   repo_author: OpenVPN
   repo_info: OpenVPN is an open source VPN daemon
-  repo_updated: "2024-12-09T20:25:07Z"
+  repo_updated: "2024-12-10T16:29:56Z"
   repo_released: "2024-07-18T11:44:31Z"
   repo_version: v2.6.12
-  repo_stars: "11101"
+  repo_stars: "11104"
   repo_language: C
   repo_license: Other
   repo_topics: security, vpn
@@ -15567,7 +15567,7 @@
   repo_updated: "2024-12-10T13:24:04Z"
   repo_released: "2024-12-01T14:16:34Z"
   repo_version: v2.68.4
-  repo_stars: "503"
+  repo_stars: "504"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: command-line, configuration-free, editor, freebsd, gdb, go, hare, ide, image-viewer, linux, markdown, rainbow-parentheses, rust, terminal, text-editor, tui, unix, vt100, zig
@@ -15656,7 +15656,7 @@
   repo_url: https://github.com/noborus/ov
   repo_author: noborus
   repo_info: "\U0001F391Feature-rich terminal-based text viewer. It is a so-called terminal pager."
-  repo_updated: "2024-12-02T23:01:00Z"
+  repo_updated: "2024-12-11T00:17:26Z"
   repo_released: "2024-11-09T09:37:59Z"
   repo_version: v0.37.0
   repo_stars: "1496"
@@ -15751,7 +15751,7 @@
   repo_updated: "2024-11-18T11:44:52Z"
   repo_released: "2023-04-23T11:37:21Z"
   repo_version: 0.18.0
-  repo_stars: "3613"
+  repo_stars: "3614"
   repo_language: C
   repo_license: GNU General Public License v3.0
   repo_topics: ""
@@ -15774,7 +15774,7 @@
   repo_updated: "2023-09-25T14:24:02Z"
   repo_released: "2023-05-11T10:45:24Z"
   repo_version: v0.5.5
-  repo_stars: "117"
+  repo_stars: "119"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: bug-bounty, path-normalization, rust, url-filter-bypass
@@ -15797,7 +15797,7 @@
   repo_updated: "2024-12-09T10:11:50Z"
   repo_released: "2024-10-24T09:14:05Z"
   repo_version: v0.9.1
-  repo_stars: "7083"
+  repo_stars: "7084"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: go, golang, golang-library, pdf, pdf-files, pdf-lib, pdf-processor, pdflib, processor
@@ -15817,11 +15817,11 @@
   repo_url: https://github.com/xplshn/pelf
   repo_author: xplshn
   repo_info: Pack an ELF. Turn your binaries into single-file executables [.AppBundle.blob], similar to AppImages/FlatImages and compatible with AppDirs. LIBC-independent, works on *BSDs.
-  repo_updated: "2024-12-09T00:51:53Z"
+  repo_updated: "2024-12-11T00:24:30Z"
   repo_released: "2024-09-29T07:14:56Z"
   repo_version: "1.8"
   repo_stars: "28"
-  repo_language: Shell
+  repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: appbundle, appdir, appimage, binary-distribution, bundle, bundler, dynamic-libraries, elf, executable-format, no-dependencies, package-format, packaging-tool, pelf, portable-executable, posix, single-file, static, statically-linked, staticx
   web_url: https://github.com/xplshn/pelf
@@ -15840,11 +15840,11 @@
   repo_url: https://github.com/xplshn/pelf
   repo_author: xplshn
   repo_info: Pack an ELF. Turn your binaries into single-file executables [.AppBundle.blob], similar to AppImages/FlatImages and compatible with AppDirs. LIBC-independent, works on *BSDs.
-  repo_updated: "2024-12-09T00:51:53Z"
+  repo_updated: "2024-12-11T00:24:30Z"
   repo_released: "2024-09-29T07:14:56Z"
   repo_version: "1.8"
   repo_stars: "28"
-  repo_language: Shell
+  repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: appbundle, appdir, appimage, binary-distribution, bundle, bundler, dynamic-libraries, elf, executable-format, no-dependencies, package-format, packaging-tool, pelf, portable-executable, posix, single-file, static, statically-linked, staticx
   web_url: https://github.com/xplshn/pelf
@@ -15863,11 +15863,11 @@
   repo_url: https://github.com/xplshn/pelf
   repo_author: xplshn
   repo_info: Pack an ELF. Turn your binaries into single-file executables [.AppBundle.blob], similar to AppImages/FlatImages and compatible with AppDirs. LIBC-independent, works on *BSDs.
-  repo_updated: "2024-12-09T00:51:53Z"
+  repo_updated: "2024-12-11T00:24:30Z"
   repo_released: "2024-09-29T07:14:56Z"
   repo_version: "1.8"
   repo_stars: "28"
-  repo_language: Shell
+  repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: appbundle, appdir, appimage, binary-distribution, bundle, bundler, dynamic-libraries, elf, executable-format, no-dependencies, package-format, packaging-tool, pelf, portable-executable, posix, single-file, static, statically-linked, staticx
   web_url: https://github.com/xplshn/pelf
@@ -15886,11 +15886,11 @@
   repo_url: https://github.com/xplshn/pelf
   repo_author: xplshn
   repo_info: Pack an ELF. Turn your binaries into single-file executables [.AppBundle.blob], similar to AppImages/FlatImages and compatible with AppDirs. LIBC-independent, works on *BSDs.
-  repo_updated: "2024-12-09T00:51:53Z"
+  repo_updated: "2024-12-11T00:24:30Z"
   repo_released: "2024-09-29T07:14:56Z"
   repo_version: "1.8"
   repo_stars: "28"
-  repo_language: Shell
+  repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: appbundle, appdir, appimage, binary-distribution, bundle, bundler, dynamic-libraries, elf, executable-format, no-dependencies, package-format, packaging-tool, pelf, portable-executable, posix, single-file, static, statically-linked, staticx
   web_url: https://github.com/xplshn/pelf
@@ -16004,7 +16004,7 @@
   repo_updated: "2024-11-20T05:55:45Z"
   repo_released: "2024-11-02T16:25:23Z"
   repo_version: v0.16.2
-  repo_stars: "8673"
+  repo_stars: "8674"
   repo_language: Go
   repo_license: MIT License
   repo_topics: cross-platform, golang, pgweb, postgresql
@@ -16070,7 +16070,7 @@
   repo_url: https://github.com/crazywhalecc/static-php-cli
   repo_author: crazywhalecc
   repo_info: Build standalone PHP binary on Linux, macOS, FreeBSD, Windows, with PHP project together, with popular extensions included.
-  repo_updated: "2024-12-09T13:57:38Z"
+  repo_updated: "2024-12-10T15:55:40Z"
   repo_released: "2024-12-05T10:58:58Z"
   repo_version: 2.4.1
   repo_stars: "1360"
@@ -16093,7 +16093,7 @@
   repo_url: https://github.com/crazywhalecc/static-php-cli
   repo_author: crazywhalecc
   repo_info: Build standalone PHP binary on Linux, macOS, FreeBSD, Windows, with PHP project together, with popular extensions included.
-  repo_updated: "2024-12-09T13:57:38Z"
+  repo_updated: "2024-12-10T15:55:40Z"
   repo_released: "2024-12-05T10:58:58Z"
   repo_version: 2.4.1
   repo_stars: "1360"
@@ -16116,7 +16116,7 @@
   repo_url: https://github.com/crazywhalecc/static-php-cli
   repo_author: crazywhalecc
   repo_info: Build standalone PHP binary on Linux, macOS, FreeBSD, Windows, with PHP project together, with popular extensions included.
-  repo_updated: "2024-12-09T13:57:38Z"
+  repo_updated: "2024-12-10T15:55:40Z"
   repo_released: "2024-12-05T10:58:58Z"
   repo_version: 2.4.1
   repo_stars: "1360"
@@ -16211,7 +16211,7 @@
   repo_updated: "2024-08-14T07:14:37Z"
   repo_released: "2023-11-29T03:52:00Z"
   repo_version: "2.8"
-  repo_stars: "3117"
+  repo_stars: "3118"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bypass, docker, icmp, icmp-traffic, ping, pingtunnel, socks5, tcp, tcp-pingtunnel, traffic, tunnel, udp, udp-traffic, wifi
@@ -16231,10 +16231,10 @@
   repo_url: https://github.com/prefix-dev/pixi
   repo_author: prefix-dev
   repo_info: Package management made easy
-  repo_updated: "2024-12-10T13:25:37Z"
+  repo_updated: "2024-12-10T20:56:30Z"
   repo_released: "2024-12-02T13:01:54Z"
   repo_version: v0.39.0
-  repo_stars: "3487"
+  repo_stars: "3490"
   repo_language: Rust
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: conda, conda-environment, conda-packages, package-management, package-manager, package-manager-tool, python-virtual-environment, rust, rust-lang
@@ -16349,7 +16349,7 @@
   repo_updated: "2024-11-06T20:56:18Z"
   repo_released: ""
   repo_version: v0.0.1-beta.9
-  repo_stars: "837"
+  repo_stars: "839"
   repo_language: Rust
   repo_license: GNU General Public License v3.0
   repo_topics: ansi, cli, ls, posix, rust, terminal
@@ -16369,10 +16369,10 @@
   repo_url: https://github.com/containers/podman
   repo_author: containers
   repo_info: 'Podman: A tool for managing OCI containers and pods.'
-  repo_updated: "2024-12-10T07:17:25Z"
+  repo_updated: "2024-12-10T18:48:38Z"
   repo_released: "2024-11-21T15:39:48Z"
   repo_version: v5.3.1
-  repo_stars: "24111"
+  repo_stars: "24117"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: containers, docker, kubernetes, linux, oci
@@ -16441,7 +16441,7 @@
   repo_updated: "2023-03-20T15:01:05Z"
   repo_released: "2022-12-01T20:59:05Z"
   repo_version: v1.0.2
-  repo_stars: "593"
+  repo_stars: "592"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: bugbounty, bugbounty-tool, bugbountytips, chromium, prototype-pollution, rust, rust-tools, security, security-tools, vulnerability-scanners
@@ -16487,7 +16487,7 @@
   repo_updated: "2024-12-07T21:06:22Z"
   repo_released: "2024-10-06T19:33:00Z"
   repo_version: v0.9.0
-  repo_stars: "1492"
+  repo_stars: "1496"
   repo_language: Rust
   repo_license: BSD 2-Clause Simplified License
   repo_topics: cli, markdown, markdown-slides, presentation, rust, slides, slideshow, terminal
@@ -16556,7 +16556,7 @@
   repo_updated: "2024-12-09T20:55:44Z"
   repo_released: "2024-10-23T10:25:53Z"
   repo_version: v0.14.8
-  repo_stars: "5204"
+  repo_stars: "5205"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, process, rust
@@ -16602,7 +16602,7 @@
   repo_updated: "2024-08-15T06:49:04Z"
   repo_released: "2023-05-13T07:11:06Z"
   repo_version: v5.4.0
-  repo_stars: "2097"
+  repo_stars: "2099"
   repo_language: C
   repo_license: GNU General Public License v2.0
   repo_topics: c, chroot, chroot-environment, hacktoberfest, linux, ptrace, rootfs, syscalls, userland-exec
@@ -16694,7 +16694,7 @@
   repo_updated: "2024-12-08T23:56:06Z"
   repo_released: "2024-12-01T17:26:17Z"
   repo_version: v4.0.0-rc.1
-  repo_stars: "5108"
+  repo_stars: "5109"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: command-line, command-line-tool, daemon, hacktoberfest, queue-manager, queue-tasks, rust, shell-queue
@@ -16717,7 +16717,7 @@
   repo_updated: "2024-12-08T23:56:06Z"
   repo_released: "2024-12-01T17:26:17Z"
   repo_version: v4.0.0-rc.1
-  repo_stars: "5108"
+  repo_stars: "5109"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: command-line, command-line-tool, daemon, hacktoberfest, queue-manager, queue-tasks, rust, shell-queue
@@ -16740,7 +16740,7 @@
   repo_updated: "2024-11-18T20:17:45Z"
   repo_released: "2023-04-11T18:09:27Z"
   repo_version: v2.1.1
-  repo_stars: "1733"
+  repo_stars: "1734"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: bugbounty, dns, dns-bruteforcer, dns-lookup, dns-resolution, dns-resolver, hacking, massdns, recon, subdomain, subdomain-bruteforcing
@@ -16889,10 +16889,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -16912,10 +16912,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -16935,10 +16935,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -16958,10 +16958,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -16981,10 +16981,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17004,10 +17004,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17027,10 +17027,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17050,10 +17050,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17073,10 +17073,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17096,10 +17096,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17119,10 +17119,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17142,10 +17142,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17165,10 +17165,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17188,10 +17188,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17211,10 +17211,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17234,10 +17234,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17257,10 +17257,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17280,10 +17280,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17303,10 +17303,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17326,10 +17326,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17349,10 +17349,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17372,10 +17372,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17395,10 +17395,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17418,10 +17418,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17441,10 +17441,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17464,10 +17464,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17487,10 +17487,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17510,10 +17510,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17533,10 +17533,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17556,10 +17556,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17579,10 +17579,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17602,10 +17602,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17625,10 +17625,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17648,10 +17648,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17671,10 +17671,10 @@
   repo_url: https://github.com/qemu/qemu
   repo_author: qemu
   repo_info: Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.
-  repo_updated: "2024-12-03T18:05:16Z"
+  repo_updated: "2024-12-10T17:41:08Z"
   repo_released: ""
-  repo_version: v9.2.0-rc3
-  repo_stars: "10550"
+  repo_version: v9.2.0
+  repo_stars: "10551"
   repo_language: C
   repo_license: Other
   repo_topics: emulation, qemu, virtualization
@@ -17717,7 +17717,7 @@
   repo_url: https://github.com/dathere/qsv
   repo_author: dathere
   repo_info: Blazing-fast Data-Wrangling toolkit
-  repo_updated: "2024-12-10T12:57:40Z"
+  repo_updated: "2024-12-11T01:31:14Z"
   repo_released: "2024-12-02T13:27:11Z"
   repo_version: 1.0.0
   repo_stars: "2554"
@@ -17789,7 +17789,7 @@
   repo_updated: "2024-12-06T03:21:01Z"
   repo_released: "2024-11-03T10:53:30Z"
   repo_version: v0.11.0
-  repo_stars: "2712"
+  repo_stars: "2713"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: age-encryption, cli, curve25519, encryption, rust, rust-library, scrypt, secure-by-default, unix-philosophy, yubikey, zero-configuration
@@ -17812,7 +17812,7 @@
   repo_updated: "2024-12-06T03:21:01Z"
   repo_released: "2024-11-03T10:53:30Z"
   repo_version: v0.11.0
-  repo_stars: "2712"
+  repo_stars: "2713"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: age-encryption, cli, curve25519, encryption, rust, rust-library, scrypt, secure-by-default, unix-philosophy, yubikey, zero-configuration
@@ -17881,7 +17881,7 @@
   repo_updated: "2024-07-06T20:09:48Z"
   repo_released: "2023-10-01T10:14:10Z"
   repo_version: v0.5.0
-  repo_stars: "9899"
+  repo_stars: "9900"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: firewall, frp, http, nat, network, ngrok, noise, noise-protocol, proxy, rust, tunnel
@@ -17901,10 +17901,10 @@
   repo_url: https://github.com/prefix-dev/rattler-build
   repo_author: prefix-dev
   repo_info: rattler-build is a universal package builder for Windows, macOS and Linux
-  repo_updated: "2024-12-10T13:29:56Z"
+  repo_updated: "2024-12-10T20:53:40Z"
   repo_released: "2024-12-10T13:48:32Z"
   repo_version: v0.32.0
-  repo_stars: "227"
+  repo_stars: "228"
   repo_language: Rust
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: conda, hacktoberfest, mamba, package-management
@@ -17927,7 +17927,7 @@
   repo_updated: "2024-12-09T13:23:17Z"
   repo_released: "2024-11-15T13:56:01Z"
   repo_version: v1.68.2
-  repo_stars: "47599"
+  repo_stars: "47609"
   repo_language: Go
   repo_license: MIT License
   repo_topics: azure-blob, azure-blob-storage, azure-files, backblaze-b2, cloud-storage, dropbox, encryption, ftp, fuse-filesystem, go, golang, google-cloud-storage, google-drive, onedrive, openstack-swift, rclone, s3, sftp, sync, webdav
@@ -18157,7 +18157,7 @@
   repo_updated: "2024-08-20T17:43:35Z"
   repo_released: "2024-06-18T12:47:04Z"
   repo_version: 24.06.18
-  repo_stars: "1419"
+  repo_stars: "1420"
   repo_language: Go
   repo_license: GNU General Public License v2.0
   repo_topics: ""
@@ -18200,16 +18200,16 @@
   repo_url: https://github.com/regclient/regclient
   repo_author: regclient
   repo_info: Docker and OCI Registry Client in Go and tooling using those libraries.
-  repo_updated: "2024-12-09T21:46:02Z"
-  repo_released: "2024-11-04T14:49:38Z"
-  repo_version: v0.7.2
-  repo_stars: "1327"
+  repo_updated: "2024-12-10T20:56:26Z"
+  repo_released: "2024-12-10T21:02:09Z"
+  repo_version: v0.8.0
+  repo_stars: "1329"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: docker, hacktoberfest, registry
   web_url: https://github.com/regclient/regclient
   build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/regclient.sh
-  build_log: ""
+  build_log: https://bin.ajam.dev/x86_64_Linux/regbot.log.txt
   extra_bins: regctl,regsync
 - name: regctl
   pkg_family: regclient
@@ -18223,16 +18223,16 @@
   repo_url: https://github.com/regclient/regclient
   repo_author: regclient
   repo_info: Docker and OCI Registry Client in Go and tooling using those libraries.
-  repo_updated: "2024-12-09T21:46:02Z"
-  repo_released: "2024-11-04T14:49:38Z"
-  repo_version: v0.7.2
-  repo_stars: "1327"
+  repo_updated: "2024-12-10T20:56:26Z"
+  repo_released: "2024-12-10T21:02:09Z"
+  repo_version: v0.8.0
+  repo_stars: "1329"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: docker, hacktoberfest, registry
   web_url: https://github.com/regclient/regclient
   build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/regclient.sh
-  build_log: ""
+  build_log: https://bin.ajam.dev/x86_64_Linux/regctl.log.txt
   extra_bins: regbot,regsync
 - name: regsync
   pkg_family: regclient
@@ -18246,16 +18246,16 @@
   repo_url: https://github.com/regclient/regclient
   repo_author: regclient
   repo_info: Docker and OCI Registry Client in Go and tooling using those libraries.
-  repo_updated: "2024-12-09T21:46:02Z"
-  repo_released: "2024-11-04T14:49:38Z"
-  repo_version: v0.7.2
-  repo_stars: "1327"
+  repo_updated: "2024-12-10T20:56:26Z"
+  repo_released: "2024-12-10T21:02:09Z"
+  repo_version: v0.8.0
+  repo_stars: "1329"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: docker, hacktoberfest, registry
   web_url: https://github.com/regclient/regclient
   build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/regclient.sh
-  build_log: ""
+  build_log: https://bin.ajam.dev/x86_64_Linux/regsync.log.txt
   extra_bins: regbot,regctl
 - name: region_restriction_check.sh
   pkg_family: region_restriction_check
@@ -18433,7 +18433,7 @@
   repo_updated: "2024-12-09T20:48:38Z"
   repo_released: "2024-11-08T19:52:25Z"
   repo_version: v0.17.3
-  repo_stars: "26891"
+  repo_stars: "26897"
   repo_language: Go
   repo_license: BSD 2-Clause Simplified License
   repo_topics: backup, dedupe, deduplication, go, restic, secure-by-default
@@ -18476,10 +18476,10 @@
   repo_url: https://github.com/reviewdog/reviewdog
   repo_author: reviewdog
   repo_info: "\U0001F436 Automated code review tool integrated with any code analysis tools regardless of programming language"
-  repo_updated: "2024-12-09T21:46:06Z"
+  repo_updated: "2024-12-10T21:38:09Z"
   repo_released: "2024-12-04T14:23:57Z"
   repo_version: v0.20.3
-  repo_stars: "8024"
+  repo_stars: "8025"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bitbucket, ci, cli, code-quality, code-review, codereview, github, gitlab, go, lint, linter, static-analysis, static-code-analysis
@@ -18525,7 +18525,7 @@
   repo_updated: "2024-12-10T11:25:49Z"
   repo_released: "2024-11-16T10:45:52Z"
   repo_version: v1.5.1
-  repo_stars: "4842"
+  repo_stars: "4843"
   repo_language: Go
   repo_license: MIT License
   repo_topics: go, golang, golint, hacktoberfest, linter, static-analysis, static-code-analysis
@@ -18548,7 +18548,7 @@
   repo_updated: "2024-12-08T14:03:22Z"
   repo_released: "2024-01-16T00:48:25Z"
   repo_version: v0.10.6
-  repo_stars: "8363"
+  repo_stars: "8365"
   repo_language: Rust
   repo_license: Other
   repo_topics: ""
@@ -18594,7 +18594,7 @@
   repo_updated: "2024-09-30T11:38:42Z"
   repo_released: "2024-09-09T02:28:54Z"
   repo_version: 14.1.1
-  repo_stars: "49151"
+  repo_stars: "49162"
   repo_language: Rust
   repo_license: The Unlicense
   repo_topics: cli, command-line, command-line-tool, gitignore, grep, recursively-search, regex, ripgrep, rust, search
@@ -18617,7 +18617,7 @@
   repo_updated: "2024-09-30T11:38:42Z"
   repo_released: "2024-09-09T02:28:54Z"
   repo_version: 14.1.1
-  repo_stars: "49151"
+  repo_stars: "49162"
   repo_language: Rust
   repo_license: The Unlicense
   repo_topics: cli, command-line, command-line-tool, gitignore, grep, recursively-search, regex, ripgrep, rust, search
@@ -18778,7 +18778,7 @@
   repo_updated: "2024-12-04T17:20:13Z"
   repo_released: "2024-08-17T19:30:46Z"
   repo_version: v2.3.1
-  repo_stars: "998"
+  repo_stars: "999"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: rootless-containers
@@ -18847,7 +18847,7 @@
   repo_updated: "2024-12-07T14:33:30Z"
   repo_released: "2024-08-28T13:05:41Z"
   repo_version: v7.0.1
-  repo_stars: "885"
+  repo_stars: "888"
   repo_language: Rust
   repo_license: Other
   repo_topics: ""
@@ -18893,7 +18893,7 @@
   repo_updated: "2024-11-20T05:45:50Z"
   repo_released: ""
   repo_version: v3.3.0
-  repo_stars: "2981"
+  repo_stars: "2983"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -18916,7 +18916,7 @@
   repo_updated: "2024-11-20T05:45:50Z"
   repo_released: ""
   repo_version: v3.3.0
-  repo_stars: "2981"
+  repo_stars: "2983"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -18936,10 +18936,10 @@
   repo_url: https://github.com/astral-sh/ruff
   repo_author: astral-sh
   repo_info: An extremely fast Python linter and code formatter, written in Rust.
-  repo_updated: "2024-12-10T13:19:28Z"
+  repo_updated: "2024-12-10T23:50:55Z"
   repo_released: "2024-12-05T12:53:46Z"
   repo_version: 0.8.2
-  repo_stars: "33593"
+  repo_stars: "33615"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: linter, pep8, python, python3, ruff, rust, rustpython, static-analysis, static-code-analysis, style-guide, styleguide
@@ -18962,7 +18962,7 @@
   repo_updated: "2024-12-08T01:31:45Z"
   repo_released: "2024-11-16T01:54:06Z"
   repo_version: v1.2.2
-  repo_stars: "11973"
+  repo_stars: "11974"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: containers, docker, oci
@@ -19028,10 +19028,10 @@
   repo_url: https://github.com/stateful/runme
   repo_author: stateful
   repo_info: DevOps Notebooks Built with Markdown
-  repo_updated: "2024-12-10T00:38:05Z"
+  repo_updated: "2024-12-10T19:59:15Z"
   repo_released: "2024-12-04T00:09:50Z"
   repo_version: v3.10.0
-  repo_stars: "1212"
+  repo_stars: "1214"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: cloud, devops, notebooks, workflows
@@ -19054,7 +19054,7 @@
   repo_updated: "2024-12-10T01:55:29Z"
   repo_released: "2024-12-06T07:20:29Z"
   repo_version: v3.8-rc1
-  repo_stars: "86"
+  repo_stars: "87"
   repo_language: C
   repo_license: MIT License
   repo_topics: capability, chroot, container, linux, linux-container, rootfs, unshare
@@ -19215,7 +19215,7 @@
   repo_updated: "2024-12-08T14:39:08Z"
   repo_released: "2024-07-08T13:57:12Z"
   repo_version: 2.3.0
-  repo_stars: "14870"
+  repo_stars: "14872"
   repo_language: Rust
   repo_license: GNU General Public License v3.0
   repo_topics: docker, hacking, hacktoberfest, networking, nmap, pentesting, port, rust, scanning, security, security-tools
@@ -19284,7 +19284,7 @@
   repo_updated: "2024-12-09T22:55:00Z"
   repo_released: "2024-12-09T22:44:12Z"
   repo_version: 0.43.0
-  repo_stars: "13896"
+  repo_stars: "13897"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: package-manager, packaging, python
@@ -19436,7 +19436,7 @@
   repo_updated: "2024-11-27T18:04:31Z"
   repo_released: "2024-10-18T20:49:36Z"
   repo_version: "0.16"
-  repo_stars: "1518"
+  repo_stars: "1520"
   repo_language: Go
   repo_license: MIT License
   repo_topics: efi, efi-stub, go, golang, linux, secureboot, signatures, uefi, uefi-secureboot
@@ -19465,7 +19465,7 @@
   repo_topics: ""
   web_url: https://docs.pkgforge.dev/sbuild/introduction
   build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/sbuilder.sh
-  build_log: ""
+  build_log: https://bin.ajam.dev/x86_64_Linux/sbuild-linter.log.txt
   extra_bins: sbuilder-builder
 - name: scilla
   pkg_family: scilla
@@ -19551,7 +19551,7 @@
   repo_updated: "2024-12-03T08:05:58Z"
   repo_released: "2024-12-03T07:27:54Z"
   repo_version: v3.9.9
-  repo_stars: "3888"
+  repo_stars: "3890"
   repo_language: Shell
   repo_license: GNU General Public License v3.0
   repo_topics: bash, desktop, information-retrieval, shell
@@ -19611,7 +19611,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19634,7 +19634,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19657,7 +19657,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19680,7 +19680,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19703,7 +19703,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19726,7 +19726,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19749,7 +19749,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19772,7 +19772,7 @@
   repo_updated: "2024-12-08T20:05:08Z"
   repo_released: "2024-03-18T14:48:28Z"
   repo_version: v1.8.1
-  repo_stars: "1926"
+  repo_stars: "1927"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: probe, railway, rust, serverstatus, serverstatus-rust, telegram, vnstat, webhook, wechat
@@ -19910,7 +19910,7 @@
   repo_updated: "2024-11-30T02:13:34Z"
   repo_released: "2024-03-08T02:37:35Z"
   repo_version: v0.10.0
-  repo_stars: "36578"
+  repo_stars: "36579"
   repo_language: Haskell
   repo_license: GNU General Public License v3.0
   repo_topics: bash, developer-tools, haskell, linter, shell, static-analysis
@@ -19979,7 +19979,7 @@
   repo_updated: "2024-11-30T22:43:44Z"
   repo_released: "2024-10-20T20:42:47Z"
   repo_version: v3.10.0
-  repo_stars: "7368"
+  repo_stars: "7369"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: bash, beautify, formatter, go, interpreter, mksh, parser, posix, shell, shfmt
@@ -20002,7 +20002,7 @@
   repo_updated: "2024-11-25T00:25:00Z"
   repo_released: "2024-11-25T00:23:54Z"
   repo_version: v0.9.2
-  repo_stars: "822"
+  repo_stars: "824"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bugbounty, bugbounty-tool, iis, iis-security, iis-server, pentesting, pentesting-tools, redteam, redteam-tools, security, security-audit, security-automation, security-scanner, security-tools, vulnerability-detection, vulnerability-scanners
@@ -20025,7 +20025,7 @@
   repo_updated: "2024-11-25T00:25:00Z"
   repo_released: "2024-11-25T00:23:54Z"
   repo_version: v0.9.2
-  repo_stars: "822"
+  repo_stars: "824"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bugbounty, bugbounty-tool, iis, iis-security, iis-server, pentesting, pentesting-tools, redteam, redteam-tools, security, security-audit, security-automation, security-scanner, security-tools, vulnerability-detection, vulnerability-scanners
@@ -20048,7 +20048,7 @@
   repo_updated: "2024-12-09T20:04:20Z"
   repo_released: "2024-05-21T21:28:03Z"
   repo_version: v1.1.0
-  repo_stars: "1339"
+  repo_stars: "1341"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: dns, dns-bruteforcer, dns-resolution, dns-resolver, hacktoberfest, massdns, reconnaissance, subdomain-bruteforcing
@@ -20068,7 +20068,7 @@
   repo_url: https://github.com/foresterre/sic
   repo_author: foresterre
   repo_info: "\U0001F99C Accessible image processing and conversion from the terminal. Front-end for image-rs/image."
-  repo_updated: "2024-12-10T13:33:15Z"
+  repo_updated: "2024-12-10T22:13:35Z"
   repo_released: "2023-09-16T23:15:26Z"
   repo_version: v0.22.4
   repo_stars: "172"
@@ -20117,7 +20117,7 @@
   repo_updated: "2024-12-10T13:38:43Z"
   repo_released: "2024-11-27T12:02:01Z"
   repo_version: v1.10.3
-  repo_stars: "20629"
+  repo_stars: "20644"
   repo_language: Go
   repo_license: Other
   repo_topics: ""
@@ -20183,10 +20183,10 @@
   repo_url: https://github.com/lotabout/skim
   repo_author: skim-rs
   repo_info: Fuzzy Finder in rust!
-  repo_updated: "2024-12-09T23:40:53Z"
+  repo_updated: "2024-12-10T15:31:57Z"
   repo_released: "2024-12-04T14:17:52Z"
   repo_version: v0.15.5
-  repo_stars: "5240"
+  repo_stars: "5242"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: fuzzyfinder, rust, skim
@@ -20206,10 +20206,10 @@
   repo_url: https://github.com/lotabout/skim
   repo_author: skim-rs
   repo_info: Fuzzy Finder in rust!
-  repo_updated: "2024-12-09T23:40:53Z"
+  repo_updated: "2024-12-10T15:31:57Z"
   repo_released: "2024-12-04T14:17:52Z"
   repo_version: v0.15.5
-  repo_stars: "5240"
+  repo_stars: "5242"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: fuzzyfinder, rust, skim
@@ -20229,7 +20229,7 @@
   repo_url: https://github.com/skupperproject/skupper
   repo_author: skupperproject
   repo_info: Skupper is an implementation of a Virtual Application Network, enabling rich hybrid cloud communication.
-  repo_updated: "2024-12-10T13:45:32Z"
+  repo_updated: "2024-12-10T17:36:31Z"
   repo_released: "2024-11-06T15:59:31Z"
   repo_version: 1.8.2
   repo_stars: "597"
@@ -20324,7 +20324,7 @@
   repo_updated: "2024-12-09T04:02:37Z"
   repo_released: "2024-12-09T04:02:38Z"
   repo_version: 0.22.0
-  repo_stars: "1110"
+  repo_stars: "1112"
   repo_language: C#
   repo_license: GNU Affero General Public License v3.0
   repo_topics: hacktoberfest, soulseek, soulseek-network, soulseek-web
@@ -20393,7 +20393,7 @@
   repo_updated: "2024-11-18T15:23:20Z"
   repo_released: "2024-06-12T14:20:14Z"
   repo_version: Release46
-  repo_stars: "8539"
+  repo_stars: "8541"
   repo_language: C
   repo_license: GNU General Public License v3.0
   repo_topics: c, dns, dns-over-https, dns-over-tls, dns-server, dns64, doh, dot, nftables, nftables-sets, openwrt, openwrt-package, smartdns, stubby
@@ -20439,7 +20439,7 @@
   repo_updated: "2024-09-24T08:06:24Z"
   repo_released: "2024-09-15T11:58:01Z"
   repo_version: v0.26.1
-  repo_stars: "2078"
+  repo_stars: "2080"
   repo_language: Rust
   repo_license: GNU General Public License v3.0
   repo_topics: bug-bounty, certificate-transparency, intelligence, investigation, location, lua, osint, osint-framework, pentesting, recon, reconnaissance, rust, security, security-audit, security-scanner
@@ -20485,7 +20485,7 @@
   repo_updated: "2024-12-08T14:41:40Z"
   repo_released: "2024-11-25T14:37:06Z"
   repo_version: v0.4.8
-  repo_stars: "36"
+  repo_stars: "37"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: appimage, appimage-repository, appimagehub, appimages, apps, download-manager, experimental, fast, flatimage, linux, linux-app, linux-apps-managment, package, package-manager, packages, portable, portable-apps, portableapps, runimage, rust
@@ -20577,7 +20577,7 @@
   repo_updated: "2024-12-09T15:40:14Z"
   repo_released: "2024-12-09T15:49:24Z"
   repo_version: v0.8.0
-  repo_stars: "5433"
+  repo_stars: "5449"
   repo_language: Go
   repo_license: MIT License
   repo_topics: git, golang, ssh
@@ -20715,7 +20715,7 @@
   repo_updated: "2024-09-19T12:33:21Z"
   repo_released: "2024-09-08T13:53:11Z"
   repo_version: v0.12.0
-  repo_stars: "3764"
+  repo_stars: "3766"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: anti-censorship, censorship-circumvention, censorship-free, deep-packet-inspection, dpi, dpi-bypassing, dpi-filtering, golang, proxy-server
@@ -20781,10 +20781,10 @@
   repo_url: https://github.com/sqlite/sqlite
   repo_author: sqlite
   repo_info: Official Git mirror of the SQLite source tree
-  repo_updated: "2024-12-10T13:17:11Z"
+  repo_updated: "2024-12-10T22:17:10Z"
   repo_released: "2024-01-30T16:01:20Z"
   repo_version: vesion-3.45.1
-  repo_stars: "6865"
+  repo_stars: "6870"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -20959,7 +20959,7 @@
   repo_updated: "2024-11-11T15:42:34Z"
   repo_released: "2024-09-24T01:00:11Z"
   repo_version: v0.2.5
-  repo_stars: "6036"
+  repo_stars: "6037"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: collaborative, rust, share, ssh, terminal, tty, web
@@ -20982,7 +20982,7 @@
   repo_updated: "2024-11-11T15:42:34Z"
   repo_released: "2024-09-24T01:00:11Z"
   repo_version: v0.2.5
-  repo_stars: "6036"
+  repo_stars: "6037"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: collaborative, rust, share, ssh, terminal, tty, web
@@ -21028,7 +21028,7 @@
   repo_updated: "2024-12-09T13:15:05Z"
   repo_released: "2024-10-18T16:27:45Z"
   repo_version: v1.21.1
-  repo_stars: "45763"
+  repo_stars: "45774"
   repo_language: Rust
   repo_license: ISC License
   repo_topics: bash, fish, fish-prompt, fish-theme, oh-my-zsh, powershell, rust, shell-prompt, starship, zsh, zsh-prompt, zsh-theme
@@ -21051,7 +21051,7 @@
   repo_updated: "2024-12-10T02:24:46Z"
   repo_released: "2024-11-21T06:36:28Z"
   repo_version: v1.0.1
-  repo_stars: "7043"
+  repo_stars: "7047"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: aws, azure, cis, cloud, cnapp, cspm, devops, devsecops, etl, gcp, golang, hacktoberfest, kubernetes, postgresql, postgresql-fdw, security, sqlite, steampipe, terraform, zero-etl
@@ -21071,10 +21071,10 @@
   repo_url: https://github.com/smallstep/cli
   repo_author: smallstep
   repo_info: "\U0001F9F0 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc."
-  repo_updated: "2024-12-09T18:11:56Z"
+  repo_updated: "2024-12-10T18:16:11Z"
   repo_released: "2024-11-20T19:13:25Z"
   repo_version: v0.28.2
-  repo_stars: "3694"
+  repo_stars: "3697"
   repo_language: Go
   repo_license: Apache License 2.0
   repo_topics: certificate, cryptography, encryption, jose, jwe, jws, jwt, mfa, oath, oauth, security, security-tools, ssh, sso, tls, totp, x509
@@ -21120,7 +21120,7 @@
   repo_updated: "2024-12-05T11:15:19Z"
   repo_released: "2024-11-18T15:32:32Z"
   repo_version: v6.12
-  repo_stars: "2266"
+  repo_stars: "2267"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -21249,7 +21249,7 @@
   repo_updated: "2024-12-09T14:32:53Z"
   repo_released: "2024-10-25T19:54:49Z"
   repo_version: v2.6.7
-  repo_stars: "10401"
+  repo_stars: "10404"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bugbounty, hacking, osint, reconnaissance, subdomain-enumeration, subdomains
@@ -21315,7 +21315,7 @@
   repo_url: https://github.com/memorysafety/sudo-rs
   repo_author: trifectatechfoundation
   repo_info: A memory safe implementation of sudo and su.
-  repo_updated: "2024-12-10T09:57:20Z"
+  repo_updated: "2024-12-10T16:58:10Z"
   repo_released: "2024-07-11T14:05:38Z"
   repo_version: v0.2.3
   repo_stars: "2928"
@@ -21338,7 +21338,7 @@
   repo_url: https://github.com/memorysafety/sudo-rs
   repo_author: trifectatechfoundation
   repo_info: A memory safe implementation of sudo and su.
-  repo_updated: "2024-12-10T09:57:20Z"
+  repo_updated: "2024-12-10T16:58:10Z"
   repo_released: "2024-07-11T14:05:38Z"
   repo_version: v0.2.3
   repo_stars: "2928"
@@ -21361,7 +21361,7 @@
   repo_url: https://github.com/memorysafety/sudo-rs
   repo_author: trifectatechfoundation
   repo_info: A memory safe implementation of sudo and su.
-  repo_updated: "2024-12-10T09:57:20Z"
+  repo_updated: "2024-12-10T16:58:10Z"
   repo_released: "2024-07-11T14:05:38Z"
   repo_version: v0.2.3
   repo_stars: "2928"
@@ -21433,7 +21433,7 @@
   repo_updated: "2024-07-03T16:23:49Z"
   repo_released: "2021-05-03T13:50:27Z"
   repo_version: v0.7.3
-  repo_stars: "4035"
+  repo_stars: "4036"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ""
@@ -21456,7 +21456,7 @@
   repo_updated: "2023-12-19T00:13:43Z"
   repo_released: "2023-06-17T07:23:34Z"
   repo_version: v0.0.5
-  repo_stars: "595"
+  repo_stars: "598"
   repo_language: Go
   repo_license: ""
   repo_topics: ""
@@ -21522,10 +21522,10 @@
   repo_url: https://github.com/syncthing/syncthing
   repo_author: syncthing
   repo_info: Open Source Continuous File Synchronization
-  repo_updated: "2024-12-10T13:35:19Z"
+  repo_updated: "2024-12-11T01:29:52Z"
   repo_released: "2024-12-03T12:03:09Z"
   repo_version: v1.28.1
-  repo_stars: "66086"
+  repo_stars: "66099"
   repo_language: Go
   repo_license: Mozilla Public License 2.0
   repo_topics: go, p2p, peer-to-peer, synchronization
@@ -21545,7 +21545,7 @@
   repo_url: https://github.com/nestybox/sysbox
   repo_author: nestybox
   repo_info: An open-source, next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
-  repo_updated: "2024-12-09T18:16:56Z"
+  repo_updated: "2024-12-10T17:52:24Z"
   repo_released: "2024-11-09T23:09:39Z"
   repo_version: v0.6.5
   repo_stars: "2849"
@@ -21568,7 +21568,7 @@
   repo_url: https://github.com/nestybox/sysbox
   repo_author: nestybox
   repo_info: An open-source, next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
-  repo_updated: "2024-12-09T18:16:56Z"
+  repo_updated: "2024-12-10T17:52:24Z"
   repo_released: "2024-11-09T23:09:39Z"
   repo_version: v0.6.5
   repo_stars: "2849"
@@ -21591,7 +21591,7 @@
   repo_url: https://github.com/nestybox/sysbox
   repo_author: nestybox
   repo_info: An open-source, next-generation runc that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
-  repo_updated: "2024-12-09T18:16:56Z"
+  repo_updated: "2024-12-10T17:52:24Z"
   repo_released: "2024-11-09T23:09:39Z"
   repo_version: v0.6.5
   repo_stars: "2849"
@@ -21752,10 +21752,10 @@
   repo_url: https://github.com/tailscale/tailscale
   repo_author: tailscale
   repo_info: The easiest, most secure way to use WireGuard and 2FA.
-  repo_updated: "2024-12-10T13:50:48Z"
+  repo_updated: "2024-12-10T22:15:13Z"
   repo_released: "2024-12-06T01:44:28Z"
   repo_version: v1.78.1
-  repo_stars: "19750"
+  repo_stars: "19756"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: 2fa, oauth, sso, tailscale, vpn, wireguard
@@ -21775,10 +21775,10 @@
   repo_url: https://github.com/tailscale/tailscale
   repo_author: tailscale
   repo_info: The easiest, most secure way to use WireGuard and 2FA.
-  repo_updated: "2024-12-10T13:50:48Z"
+  repo_updated: "2024-12-10T22:15:13Z"
   repo_released: "2024-12-06T01:44:28Z"
   repo_version: v1.78.1
-  repo_stars: "19750"
+  repo_stars: "19756"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: 2fa, oauth, sso, tailscale, vpn, wireguard
@@ -21798,10 +21798,10 @@
   repo_url: https://github.com/tailscale/tailscale
   repo_author: tailscale
   repo_info: The easiest, most secure way to use WireGuard and 2FA.
-  repo_updated: "2024-12-10T13:50:48Z"
+  repo_updated: "2024-12-10T22:15:13Z"
   repo_released: "2024-12-06T01:44:28Z"
   repo_version: v1.78.1
-  repo_stars: "19750"
+  repo_stars: "19756"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: 2fa, oauth, sso, tailscale, vpn, wireguard
@@ -21821,10 +21821,10 @@
   repo_url: https://github.com/tailscale/tailscale
   repo_author: tailscale
   repo_info: The easiest, most secure way to use WireGuard and 2FA.
-  repo_updated: "2024-12-10T13:50:48Z"
+  repo_updated: "2024-12-10T22:15:13Z"
   repo_released: "2024-12-06T01:44:28Z"
   repo_version: v1.78.1
-  repo_stars: "19750"
+  repo_stars: "19756"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: 2fa, oauth, sso, tailscale, vpn, wireguard
@@ -21847,7 +21847,7 @@
   repo_updated: "2024-12-09T06:29:12Z"
   repo_released: "2024-10-12T13:45:07Z"
   repo_version: 4.0.0
-  repo_stars: "6001"
+  repo_stars: "6002"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: colorizer, colors, file, follow, highlighter, less, log, log-file, logfile, syntax-highlighting, tail
@@ -21890,10 +21890,10 @@
   repo_url: https://github.com/the-tcpdump-group/tcpdump
   repo_author: the-tcpdump-group
   repo_info: the TCPdump network dissector
-  repo_updated: "2024-12-10T12:20:13Z"
+  repo_updated: "2024-12-10T18:47:32Z"
   repo_released: ""
   repo_version: tcpdump-4.99.5
-  repo_stars: "2757"
+  repo_stars: "2758"
   repo_language: C
   repo_license: Other
   repo_topics: auditing, berkeley-packet-filter, bpf, bsd-packet-filter, libpcap, packet-capture, pcap, pcapng, security, sniffer, tcpdump, troubleshooting
@@ -21939,7 +21939,7 @@
   repo_updated: "2024-11-14T21:30:44Z"
   repo_released: "2024-11-14T21:36:44Z"
   repo_version: v1.7.1
-  repo_stars: "4542"
+  repo_stars: "4543"
   repo_language: Rust
   repo_license: Apache License 2.0
   repo_topics: hacktoberfest, rust, tldr
@@ -21962,7 +21962,7 @@
   repo_updated: "2024-12-09T12:35:53Z"
   repo_released: "2024-11-20T10:39:28Z"
   repo_version: 1.5.5
-  repo_stars: "1871"
+  repo_stars: "1878"
   repo_language: Go
   repo_license: MIT License
   repo_topics: drive, golang, rclone, teldrive, teledrive, telegram, telegram-bot, telegramdrive
@@ -22077,7 +22077,7 @@
   repo_updated: "2024-12-07T17:59:00Z"
   repo_released: "2024-12-07T17:58:24Z"
   repo_version: v2.8.3
-  repo_stars: "2095"
+  repo_stars: "2097"
   repo_language: Go
   repo_license: GNU General Public License v3.0
   repo_topics: ai, chatbot, chatgpt, cli, go, golang, gpt3, linux, llama, macos, mixtral, terminal, windows
@@ -22169,7 +22169,7 @@
   repo_updated: "2024-12-01T13:32:56Z"
   repo_released: "2024-11-30T11:23:32Z"
   repo_version: v3.8
-  repo_stars: "2068"
+  repo_stars: "2069"
   repo_language: C
   repo_license: Other
   repo_topics: automation, cli, command-line, developers, embedded, hackers, linux, lua, macos, open-source, rs-232, rs-485, script, serial, serial-port, terminal, tty, uart, xmodem, ymodem
@@ -22284,7 +22284,7 @@
   repo_updated: "2024-12-06T12:01:50Z"
   repo_released: "2024-10-05T06:30:51Z"
   repo_version: 3.5a
-  repo_stars: "35705"
+  repo_stars: "35712"
   repo_language: C
   repo_license: Other
   repo_topics: ""
@@ -22330,7 +22330,7 @@
   repo_updated: "2024-11-20T10:14:04Z"
   repo_released: "2024-11-10T09:36:56Z"
   repo_version: v13.0.0-alpha.7
-  repo_stars: "11416"
+  repo_stars: "11417"
   repo_language: Rust
   repo_license: Other
   repo_topics: badge, cli, cloc, code, command-line-tool, linux, macos, rust, sloc, statistics, tokei, windows
@@ -22350,7 +22350,7 @@
   repo_url: https://github.com/PeterDaveHello/tor-socks-proxy
   repo_author: PeterDaveHello
   repo_info: "\U0001F433 Tiny Docker image (\U0001F90F 10MB) as \U0001F9C5 Tor SOCKS5 proxy \U0001F6E1"
-  repo_updated: "2024-12-07T13:02:21Z"
+  repo_updated: "2024-12-10T15:02:33Z"
   repo_released: ""
   repo_version: ""
   repo_stars: "545"
@@ -22396,7 +22396,7 @@
   repo_url: https://github.com/landley/toybox
   repo_author: landley
   repo_info: toybox
-  repo_updated: "2024-12-08T05:54:47Z"
+  repo_updated: "2024-12-10T14:25:46Z"
   repo_released: "2024-04-09T01:50:07Z"
   repo_version: 0.8.11
   repo_stars: "2451"
@@ -22422,7 +22422,7 @@
   repo_updated: "2024-12-10T05:58:49Z"
   repo_released: "2024-10-27T13:51:15Z"
   repo_version: v0.8.0
-  repo_stars: "290"
+  repo_stars: "291"
   repo_language: Rust
   repo_license: GNU General Public License v2.0
   repo_topics: command-line-tool, debugger, ebpf, exec, execve, ptrace, strace, tracer, tracexec, tui
@@ -22442,10 +22442,10 @@
   repo_url: https://github.com/traefik/traefik
   repo_author: traefik
   repo_info: The Cloud Native Application Proxy
-  repo_updated: "2024-12-10T13:49:37Z"
-  repo_released: "2024-11-20T18:31:09Z"
-  repo_version: v3.2.1
-  repo_stars: "51751"
+  repo_updated: "2024-12-10T15:44:53Z"
+  repo_released: "2024-12-10T15:01:43Z"
+  repo_version: v3.2.2
+  repo_stars: "51756"
   repo_language: Go
   repo_license: MIT License
   repo_topics: consul, docker, etcd, go, golang, kubernetes, letsencrypt, load-balancer, marathon, mesos, microservice, reverse-proxy, traefik, zookeeper
@@ -22465,10 +22465,10 @@
   repo_url: https://github.com/transmission/transmission
   repo_author: transmission
   repo_info: Official Transmission BitTorrent client repository
-  repo_updated: "2024-12-10T01:22:55Z"
+  repo_updated: "2024-12-10T14:59:30Z"
   repo_released: "2024-05-29T23:27:35Z"
   repo_version: 4.0.6
-  repo_stars: "12364"
+  repo_stars: "12369"
   repo_language: C++
   repo_license: Other
   repo_topics: ""
@@ -22488,7 +22488,7 @@
   repo_url: https://github.com/fujiapple852/trippy
   repo_author: fujiapple852
   repo_info: A network diagnostic tool
-  repo_updated: "2024-12-10T13:54:51Z"
+  repo_updated: "2024-12-11T01:35:25Z"
   repo_released: "2024-12-04T09:29:03Z"
   repo_version: 0.12.0
   repo_stars: "3818"
@@ -22511,10 +22511,10 @@
   repo_url: https://github.com/trufflesecurity/trufflehog
   repo_author: trufflesecurity
   repo_info: Find, verify, and analyze leaked credentials
-  repo_updated: "2024-12-09T18:28:31Z"
-  repo_released: "2024-12-05T16:11:31Z"
-  repo_version: v3.85.0
-  repo_stars: "17514"
+  repo_updated: "2024-12-10T20:32:07Z"
+  repo_released: "2024-12-10T19:48:07Z"
+  repo_version: v3.86.0
+  repo_stars: "17525"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: credentials, devsecops, dynamic-analysis, hacktoberfest, precommit, scanning, secret, secret-management, secrets, security, security-tools, trufflehog, verification
@@ -22534,7 +22534,7 @@
   repo_url: https://github.com/binpash/try
   repo_author: binpash
   repo_info: Inspect a commands effects before modifying your live system
-  repo_updated: "2024-11-30T05:06:17Z"
+  repo_updated: "2024-12-10T21:55:52Z"
   repo_released: "2023-07-24T20:24:15Z"
   repo_version: v0.2.0
   repo_stars: "5218"
@@ -22606,7 +22606,7 @@
   repo_updated: "2024-11-26T15:38:56Z"
   repo_released: "2024-03-30T03:18:34Z"
   repo_version: 1.7.7
-  repo_stars: "8256"
+  repo_stars: "8257"
   repo_language: C
   repo_license: MIT License
   repo_topics: openwrt, ssl, terminal, terminal-emulators, tty, ttyd, websocket, websockets, xterm
@@ -22689,7 +22689,7 @@
   repo_updated: "2023-12-18T22:52:28Z"
   repo_released: "2023-01-26T17:48:00Z"
   repo_version: 2.0.1
-  repo_stars: "455"
+  repo_stars: "456"
   repo_language: Go
   repo_license: MIT License
   repo_topics: mastodon, mastodon-app, mastodon-client, terminal-based, tui
@@ -22758,7 +22758,7 @@
   repo_updated: "2024-12-09T09:51:53Z"
   repo_released: "2024-02-27T18:11:49Z"
   repo_version: v0.14.0
-  repo_stars: "2636"
+  repo_stars: "2635"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: busybox, coreboot, embedded, hacktoberfest, initramfs, kernel, linux, linuxboot, ramfs, system, tinycore
@@ -22781,7 +22781,7 @@
   repo_updated: "2024-12-09T09:51:53Z"
   repo_released: "2024-02-27T18:11:49Z"
   repo_version: v0.14.0
-  repo_stars: "2636"
+  repo_stars: "2635"
   repo_language: Go
   repo_license: BSD 3-Clause New or Revised License
   repo_topics: busybox, coreboot, embedded, hacktoberfest, initramfs, kernel, linux, linuxboot, ramfs, system, tinycore
@@ -23002,7 +23002,7 @@
   repo_updated: "2024-12-09T22:26:26Z"
   repo_released: "2024-05-09T10:27:23Z"
   repo_version: v4.2.4
-  repo_stars: "14695"
+  repo_stars: "14697"
   repo_language: C++
   repo_license: Other
   repo_topics: ""
@@ -23025,7 +23025,7 @@
   repo_updated: "2024-12-09T00:38:51Z"
   repo_released: "2024-12-09T00:51:48Z"
   repo_version: v0.19.14
-  repo_stars: "9111"
+  repo_stars: "9113"
   repo_language: Go
   repo_license: MIT License
   repo_topics: command-line, database, go, golang, mariadb, microsoft-sql-server, mysql, oracle, oracle-database, postgres, postgresql, sql, sqlite, sqlite3
@@ -23048,7 +23048,7 @@
   repo_updated: "2024-12-09T22:57:07Z"
   repo_released: "2024-11-24T11:49:39Z"
   repo_version: v2.2.6.3
-  repo_stars: "11730"
+  repo_stars: "11732"
   repo_language: Go
   repo_license: GNU Affero General Public License v3.0
   repo_topics: gfw, gui, juicity, linux, shadowsocks, shadowsocksr, ssr, trojan, tuic, v2ray
@@ -23117,7 +23117,7 @@
   repo_updated: "2024-10-28T16:39:48Z"
   repo_released: "2024-07-29T17:37:17Z"
   repo_version: v12.12.0
-  repo_stars: "23705"
+  repo_stars: "23708"
   repo_language: Go
   repo_license: MIT License
   repo_topics: benchmarking, go, http, load-testing
@@ -23163,7 +23163,7 @@
   repo_updated: "2024-12-04T20:50:01Z"
   repo_released: "2024-09-06T17:16:14Z"
   repo_version: v0.8.0
-  repo_stars: "15406"
+  repo_stars: "15412"
   repo_language: Go
   repo_license: MIT License
   repo_topics: ascii, cli, command-line, gif, recording, terminal, vhs, video
@@ -23186,7 +23186,7 @@
   repo_updated: "2024-11-28T23:50:39Z"
   repo_released: "2024-11-28T23:50:39Z"
   repo_version: v1.3.0
-  repo_stars: "4825"
+  repo_stars: "4827"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, golang, terminal, tui, watch
@@ -23232,7 +23232,7 @@
   repo_updated: "2024-12-04T18:31:08Z"
   repo_released: "2024-10-20T21:57:55Z"
   repo_version: v1.5.1
-  repo_stars: "2610"
+  repo_stars: "2611"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, image-viewer, rust, terminal
@@ -23347,7 +23347,7 @@
   repo_updated: "2024-12-09T19:28:25Z"
   repo_released: "2024-12-05T06:48:02Z"
   repo_version: v2.0.2
-  repo_stars: "11235"
+  repo_stars: "11238"
   repo_language: Rust
   repo_license: Other
   repo_topics: hacktoberfest, node, nodejs, package-manager
@@ -23633,7 +23633,7 @@
   repo_updated: "2024-05-01T05:40:44Z"
   repo_released: "2022-04-05T10:19:55Z"
   repo_version: v0.1.0
-  repo_stars: "3585"
+  repo_stars: "3587"
   repo_language: Go
   repo_license: ""
   repo_topics: ""
@@ -23679,7 +23679,7 @@
   repo_updated: "2024-11-13T23:57:54Z"
   repo_released: "2024-11-12T14:58:45Z"
   repo_version: v1.14.0
-  repo_stars: "7214"
+  repo_stars: "7216"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: cli, command-line, command-line-tool, curl, netcat, proxy, rfc-6455, socat, websocket-client, websocket-server, websockets
@@ -23725,7 +23725,7 @@
   repo_updated: "2024-12-08T00:26:49Z"
   repo_released: "2024-02-03T18:32:26Z"
   repo_version: 20240203-110809-5046fc22
-  repo_stars: "18272"
+  repo_stars: "18285"
   repo_language: Rust
   repo_license: Other
   repo_topics: rust, serial, serial-port, terminal, terminal-emulator, terminal-emulators
@@ -23748,7 +23748,7 @@
   repo_updated: "2024-12-08T00:26:49Z"
   repo_released: "2024-02-03T18:32:26Z"
   repo_version: 20240203-110809-5046fc22
-  repo_stars: "18272"
+  repo_stars: "18285"
   repo_language: Rust
   repo_license: Other
   repo_topics: rust, serial, serial-port, terminal, terminal-emulator, terminal-emulators
@@ -23771,7 +23771,7 @@
   repo_updated: "2024-12-08T00:26:49Z"
   repo_released: "2024-02-03T18:32:26Z"
   repo_version: 20240203-110809-5046fc22
-  repo_stars: "18272"
+  repo_stars: "18285"
   repo_language: Rust
   repo_license: Other
   repo_topics: rust, serial, serial-port, terminal, terminal-emulator, terminal-emulators
@@ -23794,7 +23794,7 @@
   repo_updated: "2024-12-08T00:26:49Z"
   repo_released: "2024-02-03T18:32:26Z"
   repo_version: 20240203-110809-5046fc22
-  repo_stars: "18272"
+  repo_stars: "18285"
   repo_language: Rust
   repo_license: Other
   repo_topics: rust, serial, serial-port, terminal, terminal-emulator, terminal-emulators
@@ -23817,7 +23817,7 @@
   repo_updated: "2024-12-08T00:26:49Z"
   repo_released: "2024-02-03T18:32:26Z"
   repo_version: 20240203-110809-5046fc22
-  repo_stars: "18272"
+  repo_stars: "18285"
   repo_language: Rust
   repo_license: Other
   repo_topics: rust, serial, serial-port, terminal, terminal-emulator, terminal-emulators
@@ -23938,7 +23938,7 @@
   repo_updated: "2024-09-03T20:21:40Z"
   repo_released: "2024-04-19T14:40:52Z"
   repo_version: v1.0.9
-  repo_stars: "4576"
+  repo_stars: "4579"
   repo_language: Go
   repo_license: ISC License
   repo_topics: golang, network, proxy, socks5, socks5-proxy, vpn, wireguard, wireguard-tunnel
@@ -23961,7 +23961,7 @@
   repo_updated: "2024-11-26T00:33:13Z"
   repo_released: "2024-11-26T00:33:13Z"
   repo_version: v0.6.0
-  repo_stars: "869"
+  repo_stars: "870"
   repo_language: Go
   repo_license: Other
   repo_topics: golang, infosec, proxy, scr-2819, snl-applications, snl-cyber-sec, tunnel, vpn, wireguard
@@ -24013,7 +24013,7 @@
   repo_topics: command-line-tool, compression, cross-platform, extraction, packer, rust
   web_url: https://github.com/Systemcluster/wrappe
   build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/wrappe.sh
-  build_log: ""
+  build_log: https://bin.ajam.dev/x86_64_Linux/wrappe.log.txt
   extra_bins: ""
 - name: wstunnel
   pkg_family: wstunnel
@@ -24053,7 +24053,7 @@
   repo_updated: "2024-08-10T01:51:27Z"
   repo_released: "2023-02-24T05:34:48Z"
   repo_version: v0.43.0
-  repo_stars: "15918"
+  repo_stars: "15919"
   repo_language: Go
   repo_license: Mozilla Public License 2.0
   repo_topics: cui, dashboard, devops, go, golang, hacktoberfest, terminal, tui, wtf, wtfutil
@@ -24142,7 +24142,7 @@
   repo_url: https://github.com/medialab/xan
   repo_author: medialab
   repo_info: The CSV magician
-  repo_updated: "2024-12-10T10:28:02Z"
+  repo_updated: "2024-12-10T16:14:32Z"
   repo_released: ""
   repo_version: 0.13.0
   repo_stars: "177"
@@ -24237,7 +24237,7 @@
   repo_updated: "2024-12-01T20:33:03Z"
   repo_released: "2024-10-12T21:44:28Z"
   repo_version: v0.23.0
-  repo_stars: "5649"
+  repo_stars: "5650"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: api-testing, cli, developer-tools, http-client, rust, terminal
@@ -24274,7 +24274,7 @@
   repo_updated: "2024-11-08T06:03:49Z"
   repo_released: "2024-11-03T07:56:39Z"
   repo_version: v6.22.2
-  repo_stars: "8864"
+  repo_stars: "8868"
   repo_language: C
   repo_license: GNU General Public License v3.0
   repo_topics: argon2, cpuminer, cryptocurrency, cryptonight, miner, monero, randomx, xmr, xmrig
@@ -24366,7 +24366,7 @@
   repo_updated: "2024-11-08T02:35:47Z"
   repo_released: ""
   repo_version: ""
-  repo_stars: "4520"
+  repo_stars: "4522"
   repo_language: Shell
   repo_license: Do What The F*ck You Want To Public License
   repo_topics: bash, bench-script, benchmark, benchmark-scripts, disk-performance, fio, geekbench, iperf3, linux, performance, speedtest
@@ -24435,7 +24435,7 @@
   repo_updated: "2024-12-10T12:20:01Z"
   repo_released: "2024-12-10T12:35:50Z"
   repo_version: v0.4.1
-  repo_stars: "17379"
+  repo_stars: "17425"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: android, asyncio, cli, concurrency, file-explorer, file-manager, hacktoberfest, helix, linux, macos, neovim, productivity, rust, terminal, tui, vim, windows, yazi
@@ -24455,7 +24455,7 @@
   repo_url: https://github.com/yggdrasil-network/yggdrasil-go
   repo_author: yggdrasil-network
   repo_info: An experiment in scalable routing as an encrypted IPv6 overlay network
-  repo_updated: "2024-12-02T17:53:39Z"
+  repo_updated: "2024-12-10T19:03:42Z"
   repo_released: "2024-11-24T13:01:59Z"
   repo_version: v0.5.10
   repo_stars: "3687"
@@ -24478,7 +24478,7 @@
   repo_url: https://github.com/yggdrasil-network/yggdrasil-go
   repo_author: yggdrasil-network
   repo_info: An experiment in scalable routing as an encrypted IPv6 overlay network
-  repo_updated: "2024-12-02T17:53:39Z"
+  repo_updated: "2024-12-10T19:03:42Z"
   repo_released: "2024-11-24T13:01:59Z"
   repo_version: v0.5.10
   repo_stars: "3687"
@@ -24550,7 +24550,7 @@
   repo_updated: "2024-12-07T06:35:57Z"
   repo_released: "2024-12-07T07:10:21Z"
   repo_version: v4.44.6
-  repo_stars: "12451"
+  repo_stars: "12459"
   repo_language: Go
   repo_license: MIT License
   repo_topics: bash, cli, csv, devops-tools, golang, json, portable, properties, splat, toml, xml, yaml, yaml-processor
@@ -24573,7 +24573,7 @@
   repo_updated: "2024-12-06T16:13:30Z"
   repo_released: "2024-12-06T16:13:30Z"
   repo_version: 2024.12.06
-  repo_stars: "92378"
+  repo_stars: "92422"
   repo_language: Python
   repo_license: The Unlicense
   repo_topics: python, sponsorblock, video-downloader, youtube-dl, youtube-dlc, youtube-downloader, yt-dlp
@@ -24780,7 +24780,7 @@
   repo_updated: "2024-12-09T15:08:13Z"
   repo_released: "2024-11-19T12:34:04Z"
   repo_version: v0.41.2
-  repo_stars: "22173"
+  repo_stars: "22174"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: multiplexer, terminal, workspace
@@ -24826,7 +24826,7 @@
   repo_updated: "2024-12-04T22:46:57Z"
   repo_released: "2024-10-29T16:17:48Z"
   repo_version: 1.14.2
-  repo_stars: "14675"
+  repo_stars: "14677"
   repo_language: C++
   repo_license: Other
   repo_topics: decentralization, networking, peer-to-peer, sd-wan, sdn, virtual-network, vpn
@@ -24849,7 +24849,7 @@
   repo_updated: "2024-12-04T22:46:57Z"
   repo_released: "2024-10-29T16:17:48Z"
   repo_version: 1.14.2
-  repo_stars: "14675"
+  repo_stars: "14677"
   repo_language: C++
   repo_license: Other
   repo_topics: decentralization, networking, peer-to-peer, sd-wan, sdn, virtual-network, vpn
@@ -24872,7 +24872,7 @@
   repo_updated: "2024-12-04T22:46:57Z"
   repo_released: "2024-10-29T16:17:48Z"
   repo_version: 1.14.2
-  repo_stars: "14675"
+  repo_stars: "14677"
   repo_language: C++
   repo_license: Other
   repo_topics: decentralization, networking, peer-to-peer, sd-wan, sdn, virtual-network, vpn
@@ -24987,7 +24987,7 @@
   repo_updated: "2024-11-15T21:52:47Z"
   repo_released: "2024-09-19T08:21:22Z"
   repo_version: v0.9.6
-  repo_stars: "23278"
+  repo_stars: "23296"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: autojump, bash, cli, command-line, command-line-tool, elvish, fasd, fish, fish-shell, fzf, hacktoberfest, jump, nushell, powershell, rust, shell, xonsh, xontrib, z, zsh
@@ -25010,7 +25010,7 @@
   repo_updated: "2024-11-15T21:52:47Z"
   repo_released: "2024-09-19T08:21:22Z"
   repo_version: v0.9.6
-  repo_stars: "23278"
+  repo_stars: "23296"
   repo_language: Rust
   repo_license: MIT License
   repo_topics: autojump, bash, cli, command-line, command-line-tool, elvish, fasd, fish, fish-shell, fzf, hacktoberfest, jump, nushell, powershell, rust, shell, xonsh, xontrib, z, zsh
@@ -25033,7 +25033,7 @@
   repo_updated: "2024-11-23T22:35:25Z"
   repo_released: ""
   repo_version: zsh-5.9
-  repo_stars: "3673"
+  repo_stars: "3674"
   repo_language: C
   repo_license: Other
   repo_topics: ""
