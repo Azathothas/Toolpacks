@@ -1410,6 +1410,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ghfetch.sh"
   },
   {
+    "name": "ghorg.sh",
+    "update_date": "2024-12-06T12:07:28",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/ghorg.sh"
+  },
+  {
     "name": "gickup.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/gickup.sh"
@@ -2421,7 +2426,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-12-05T12:11:21",
+    "update_date": "2024-12-11T00:18:23",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/aarch64_Linux/bins/metadata.json"
   },
   {
