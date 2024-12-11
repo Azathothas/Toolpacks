@@ -190,7 +190,7 @@
 
 [-] Incorrect Arch --> # Not for x86_64
 
-3:METADATA.AIO.db:                   SQLite 3.x database, last written using SQLite version 3046000, file counter 6, database pages 1232, cookie 0x3, schema 4, UTF-8, version-valid-for 6
+3:METADATA.AIO.db:                   SQLite 3.x database, last written using SQLite version 3046000, file counter 6, database pages 1231, cookie 0x3, schema 4, UTF-8, version-valid-for 6
 5:METADATA.AIO.db.xz:                7-zip archive data, version 0.4
 7:METADATA.AIO.db.zstd:              Zstandard compressed data (v0.8+), Dictionary ID: None
 10:METADATA.AIO.json.xz:              7-zip archive data, version 0.4
