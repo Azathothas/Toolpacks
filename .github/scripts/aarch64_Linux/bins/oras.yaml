@@ -1,0 +1,8 @@
+name: "oras"
+description: "OCI registry client - managing content like artifacts, images, packages"
+note: ""
+web_url: "https://oras.land"
+repo_url: "https://github.com/oras-project/oras"
+path: "/"
+bins:
+  - "oras"
