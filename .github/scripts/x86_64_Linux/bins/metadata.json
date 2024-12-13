@@ -2215,6 +2215,11 @@
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/legba.sh"
   },
   {
+    "name": "less.sh",
+    "update_date": "2024-12-12T00:13:28",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/less.sh"
+  },
+  {
     "name": "lf.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/lf.sh"
@@ -2456,7 +2461,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-12-11T00:18:23",
+    "update_date": "2024-12-13T00:22:10",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
