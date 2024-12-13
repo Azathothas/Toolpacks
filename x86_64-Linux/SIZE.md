@@ -1097,13 +1097,13 @@
  350K   ├── logrotate
  350K   ├── fi6s
  349K   ├── METADATA.AIO.json.zstd
- 347K   ├── METADATA.AIO.yaml.xz
- 346K   ├── METADATA.AIO.toml.xz
+ 348K   ├── METADATA.AIO.yaml.xz
+ 347K   ├── METADATA.AIO.toml.xz
+ 347K   ├── METADATA.AIO.min.json.xz
  346K   ├── METADATA.AIO.soar.capnp.zstd
- 346K   ├── METADATA.AIO.min.json.xz
  346K   ├── METADATA.AIO.min.json.zstd
- 345K   ├── METADATA.AIO.yaml.zstd
- 345K   ├── METADATA.AIO.toml.zstd
+ 346K   ├── METADATA.AIO.yaml.zstd
+ 346K   ├── METADATA.AIO.toml.zstd
  336K   ├── ppfuzz.preview.png
  331K   ├── lsof
  330K   ├── METADATA.AIO.soar.capnp.xz
