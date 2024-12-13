@@ -1073,8 +1073,8 @@
  326K   ├── METADATA.AIO.toml.xz
  326K   ├── METADATA.AIO.min.json.xz
  325K   ├── METADATA.AIO.min.json.zstd
+ 325K   ├── METADATA.AIO.toml.zstd
  324K   ├── METADATA.AIO.yaml.zstd
- 324K   ├── METADATA.AIO.toml.zstd
  322K   ├── mawk
  322K   ├── tok.preview-4.png
  322K   ├── scopeview.preview-4.png
