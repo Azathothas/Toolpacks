@@ -11,7 +11,7 @@ METADATA.AIO.json.xz:              7-zip archive data, version 0.4
 METADATA.AIO.json.xz.bsum:         ASCII text, with no line terminators
 METADATA.AIO.json.zstd:            Zstandard compressed data (v0.8+), Dictionary ID: None
 METADATA.AIO.json.zstd.bsum:       ASCII text, with no line terminators
-METADATA.AIO.min.json.bsum:        ASCII text, with no line terminators
+METADATA.AIO.min.json.bsum:        777 archive data
 METADATA.AIO.min.json.xz:          7-zip archive data, version 0.4
 METADATA.AIO.min.json.xz.bsum:     ASCII text, with no line terminators
 METADATA.AIO.min.json.zstd:        Zstandard compressed data (v0.8+), Dictionary ID: None
@@ -832,6 +832,7 @@ opengfw:                           ELF 64-bit LSB executable, ARM aarch64, versi
 opengist:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 openrisk:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 openvpn:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
+oras:                              ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 orbiton:                           ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=1JOw1Hfe-hKyf9qnjZza/zZxM2c-y8mTq8r7d788Z/m9mV4gL9HLSLtWLG5-2J/9SS98xNo1a_oyUc5CATj, stripped
 osmedeus:                          ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, stripped
 osmedeus.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced

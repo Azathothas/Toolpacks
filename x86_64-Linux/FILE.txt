@@ -867,6 +867,7 @@ opengist:                          ELF 64-bit LSB executable, x86-64, version 1 
 openrisk:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 openssl:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=f1c4eef41a20b0e44f6f38af0cf829d469f2be22, stripped
 openvpn:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+oras:                              ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 orbiton:                           ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=97ruogrwIsLHmkUwPedP/OLgF-1ocXD-cpycaXiHq/CNm4eljMq3Jmm3lPMB2e/NtQ_Ak3e4OAiHzPuuydI, stripped
 osmedeus:                          ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
 osmedeus.preview.png:              PNG image data, 1280 x 640, 8-bit/color RGBA, non-interlaced
