@@ -2461,7 +2461,7 @@
   },
   {
     "name": "metadata.json",
-    "update_date": "2024-12-13T00:22:10",
+    "update_date": "2024-12-13T12:12:55",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/metadata.json"
   },
   {
@@ -2843,6 +2843,11 @@
     "name": "openvpn.sh",
     "update_date": "2024-10-03T12:14:35",
     "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/openvpn.sh"
+  },
+  {
+    "name": "oras.sh",
+    "update_date": "2024-12-14T00:14:15",
+    "source_url": "https://pub.ajam.dev/repos/Azathothas/Toolpacks/.github/scripts/x86_64_Linux/bins/oras.sh"
   },
   {
     "name": "orbiton.sh",
