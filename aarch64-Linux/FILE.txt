@@ -11,7 +11,7 @@ METADATA.AIO.json.xz:              7-zip archive data, version 0.4
 METADATA.AIO.json.xz.bsum:         ASCII text, with no line terminators
 METADATA.AIO.json.zstd:            Zstandard compressed data (v0.8+), Dictionary ID: None
 METADATA.AIO.json.zstd.bsum:       ASCII text, with no line terminators
-METADATA.AIO.min.json.bsum:        777 archive data
+METADATA.AIO.min.json.bsum:        ASCII text, with no line terminators
 METADATA.AIO.min.json.xz:          7-zip archive data, version 0.4
 METADATA.AIO.min.json.xz.bsum:     ASCII text, with no line terminators
 METADATA.AIO.min.json.zstd:        Zstandard compressed data (v0.8+), Dictionary ID: None

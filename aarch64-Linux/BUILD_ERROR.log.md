@@ -182,7 +182,6 @@
 7:METADATA.AIO.db.zstd:              Zstandard compressed data (v0.8+), Dictionary ID: None
 10:METADATA.AIO.json.xz:              7-zip archive data, version 0.4
 12:METADATA.AIO.json.zstd:            Zstandard compressed data (v0.8+), Dictionary ID: None
-14:METADATA.AIO.min.json.bsum:        777 archive data
 15:METADATA.AIO.min.json.xz:          7-zip archive data, version 0.4
 17:METADATA.AIO.min.json.zstd:        Zstandard compressed data (v0.8+), Dictionary ID: None
 19:METADATA.AIO.soar.capnp:           data
