@@ -1085,7 +1085,7 @@
  397K   ├── traefik.preview.png
  394K   ├── nnn
  384K   ├── METADATA.AIO.db.zstd
- 376K   ├── METADATA.AIO.db.xz
+ 375K   ├── METADATA.AIO.db.xz
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
