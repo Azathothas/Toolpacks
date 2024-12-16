@@ -1085,7 +1085,7 @@
  397K   ├── traefik.preview.png
  394K   ├── nnn
  384K   ├── METADATA.AIO.db.zstd
- 375K   ├── METADATA.AIO.db.xz
+ 376K   ├── METADATA.AIO.db.xz
  373K   ├── realm-tavern.preview.png
  369K   ├── eza.preview.png
  368K   ├── sudo_sendlog
@@ -1096,7 +1096,7 @@
  351K   ├── METADATA.AIO.json.xz
  350K   ├── logrotate
  350K   ├── fi6s
- 350K   ├── METADATA.AIO.json.zstd
+ 349K   ├── METADATA.AIO.json.zstd
  348K   ├── METADATA.AIO.yaml.xz
  347K   ├── METADATA.AIO.toml.xz
  347K   ├── METADATA.AIO.min.json.xz
