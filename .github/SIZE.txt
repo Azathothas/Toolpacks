@@ -10,10 +10,10 @@
 1.1M   │ ├── METADATA.yaml
 916K   │ ├── DETAILED.md
 516K   │ ├── README.md
-196K   │ ├── FILE.txt
+172K   │ ├── FILE.txt
 136K   │ ├── BUILD_DATES.txt
-112K   │ ├── SHA256SUM.txt
-112K   │ ├── BLAKE3SUM.txt
+ 92K   │ ├── SHA256SUM.txt
+ 92K   │ ├── BLAKE3SUM.txt
  76K   │ ├── BUILD_ERROR.log.md
  44K   │ ├── SIZE.txt
  44K   │ ├── SIZE.md
