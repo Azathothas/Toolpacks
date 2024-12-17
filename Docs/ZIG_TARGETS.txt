@@ -57,7 +57,6 @@ s390x-linux-gnu
 s390x-linux-musl
 sparc-linux-gnu
 sparc64-linux-gnu
-wasm32-freestanding-musl
 wasm32-wasi-musl
 x86-linux-gnu
 x86-linux-musl
