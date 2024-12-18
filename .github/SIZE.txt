@@ -1,5 +1,5 @@
 377M └─┬ main
-182M   ├─┬ x86_64-Linux
+181M   ├─┬ x86_64-Linux
  98M   │ ├── BUILD.log.txt
  60M   │ ├── BUILD.BIN.log.txt
 5.1M   │ ├── METADATA.AIO.json
@@ -14,13 +14,13 @@
 136K   │ ├── BUILD_DATES.txt
  92K   │ ├── SHA256SUM.txt
  92K   │ ├── BLAKE3SUM.txt
- 76K   │ ├── BUILD_ERROR.log.md
+ 52K   │ ├── BUILD_ERROR.log.md
  44K   │ ├── SIZE.txt
  44K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt
 4.0K   │ ├── METADATA.urls
   0B   │ └── DUPLICATES_OVERWRITES.txt
-176M   ├─┬ aarch64-Linux
+175M   ├─┬ aarch64-Linux
  91M   │ ├── BUILD.log.txt
  62M   │ ├── BUILD.BIN.log.txt
 4.9M   │ ├── METADATA.AIO.json
@@ -31,10 +31,10 @@
 1.1M   │ ├── METADATA.yaml
 904K   │ ├── DETAILED.md
 508K   │ ├── README.md
-196K   │ ├── FILE.txt
+172K   │ ├── FILE.txt
 132K   │ ├── BUILD_DATES.txt
-108K   │ ├── SHA256SUM.txt
-108K   │ ├── BLAKE3SUM.txt
+ 92K   │ ├── SHA256SUM.txt
+ 92K   │ ├── BLAKE3SUM.txt
  72K   │ ├── BUILD_ERROR.log.md
  44K   │ ├── SIZE.txt
  44K   │ ├── SIZE.md
