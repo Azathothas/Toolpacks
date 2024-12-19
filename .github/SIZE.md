@@ -1,26 +1,5 @@
 ```mathematica
-365M └─┬ main
-175M   ├─┬ aarch64-Linux
- 91M   │ ├── BUILD.log.txt
- 62M   │ ├── BUILD.BIN.log.txt
-4.9M   │ ├── METADATA.AIO.json
-4.5M   │ ├── METADATA.AIO.yaml
-4.4M   │ ├── METADATA.AIO.toml
-4.4M   │ ├── METADATA.AIO.min.json
-1.2M   │ ├── METADATA.json
-1.1M   │ ├── METADATA.yaml
-904K   │ ├── DETAILED.md
-508K   │ ├── README.md
-196K   │ ├── FILE.txt
-132K   │ ├── BUILD_DATES.txt
-108K   │ ├── SHA256SUM.txt
-108K   │ ├── BLAKE3SUM.txt
- 44K   │ ├── SIZE.txt
- 44K   │ ├── SIZE.md
- 44K   │ ├── BUILD_ERROR.log.md
- 20K   │ ├── DUPLICATES.txt
-4.0K   │ ├── METADATA.urls
-  0B   │ └── DUPLICATES_OVERWRITES.txt
+353M └─┬ main
 169M   ├─┬ x86_64-Linux
  98M   │ ├── BUILD.log.txt
  48M   │ ├── BUILD.BIN.log.txt
@@ -36,7 +15,28 @@
 136K   │ ├── BUILD_DATES.txt
 112K   │ ├── SHA256SUM.txt
 112K   │ ├── BLAKE3SUM.txt
- 48K   │ ├── BUILD_ERROR.log.md
+ 76K   │ ├── BUILD_ERROR.log.md
+ 44K   │ ├── SIZE.txt
+ 44K   │ ├── SIZE.md
+ 20K   │ ├── DUPLICATES.txt
+4.0K   │ ├── METADATA.urls
+  0B   │ └── DUPLICATES_OVERWRITES.txt
+163M   ├─┬ aarch64-Linux
+ 91M   │ ├── BUILD.log.txt
+ 50M   │ ├── BUILD.BIN.log.txt
+4.9M   │ ├── METADATA.AIO.json
+4.5M   │ ├── METADATA.AIO.yaml
+4.4M   │ ├── METADATA.AIO.toml
+4.4M   │ ├── METADATA.AIO.min.json
+1.2M   │ ├── METADATA.json
+1.1M   │ ├── METADATA.yaml
+904K   │ ├── DETAILED.md
+508K   │ ├── README.md
+196K   │ ├── FILE.txt
+132K   │ ├── BUILD_DATES.txt
+108K   │ ├── SHA256SUM.txt
+108K   │ ├── BLAKE3SUM.txt
+ 68K   │ ├── BUILD_ERROR.log.md
  44K   │ ├── SIZE.txt
  44K   │ ├── SIZE.md
  20K   │ ├── DUPLICATES.txt
