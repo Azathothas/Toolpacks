@@ -24,7 +24,7 @@
         <img src="https://github.com/user-attachments/assets/220ce7b3-55b3-496e-b3b8-2556123193a2" width="100">
     </a><br> -->
     <a href="https://github.com/pkgforge/soar">
-        <img src="https://bin.pkgforge.dev/list.gif?tmp.K5V4s4fbfM=tmp.q0QFsgLNur" alt="soar-list" width="650">
+        <img src="https://bin.pkgforge.dev/list.gif?tmp.h2FyGJRIbc=tmp.p8c0gVAZLj" alt="soar-list" width="650">
     </a><br> 
     <b><strong> <a href="https://docs.pkgforge.dev/orgs/pkgforge-core/projects/toolpacks-bincache">Package Forge Binary Cache</a></code></strong></b>
     <br>
