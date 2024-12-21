@@ -312,6 +312,9 @@ RUN <<EOS
   apk add libsixel-tool --latest --upgrade --no-interactive 2>/dev/null
   apk add libslirp --latest --upgrade --no-interactive 2>/dev/null
   apk add libslirp-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsodium --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsodium-dev --latest --upgrade --no-interactive 2>/dev/null
+  apk add libsodium-static --latest --upgrade --no-interactive 2>/dev/null
   apk add libsoup --latest --upgrade --no-interactive 2>/dev/null
   apk add libsoup-dev --latest --upgrade --no-interactive 2>/dev/null
   apk add libsoup3 --latest --upgrade --no-interactive 2>/dev/null
