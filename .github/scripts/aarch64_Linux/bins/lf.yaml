@@ -1,8 +1,0 @@
-name: "lf"
-description: "Terminal file manager"
-note: ""
-web_url: "https://github.com/gokcehan/lf"
-repo_url: "https://github.com/gokcehan/lf"
-path: "/"
-bins:
-  - "lf"

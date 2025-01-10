@@ -1,8 +1,0 @@
-name: "stunner"
-description: "tool to test and exploit STUN, TURN and TURN over TCP servers."
-note: ""
-web_url: "https://github.com/firefart/stunner"
-repo_url: "https://github.com/firefart/stunner"
-path: "/"
-bins:
-  - "stunner"

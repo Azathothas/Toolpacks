@@ -1,8 +1,0 @@
-name: "fnm"
-description: "\U0001F680 Fast and simple Node.js version manager, built in Rust"
-note: ""
-web_url: "https://github.com/Schniz/fnm"
-repo_url: "https://github.com/Schniz/fnm"
-path: "/"
-bins:
-  - "fnm"

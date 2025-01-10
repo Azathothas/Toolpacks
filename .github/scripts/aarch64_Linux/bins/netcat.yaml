@@ -1,9 +1,0 @@
-name: "netcat"
-description: "TCP/IP swiss army knife (libressl-variant)"
-note: ""
-web_url: "https://www.libressl.org/"
-repo_url: "https://github.com/libressl/portable"
-path: "/Baseutils/netcat/"
-bins:
-  - "nc"
-  - "netcat"

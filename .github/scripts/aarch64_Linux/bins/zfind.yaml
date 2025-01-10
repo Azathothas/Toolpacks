@@ -1,8 +1,0 @@
-name: "zfind"
-description: "Search for files (even inside tar/zip/7z/rar) using a SQL-WHERE filter"
-note: ""
-web_url: "https://github.com/laktak/zfind"
-repo_url: "https://github.com/laktak/zfind"
-path: "/"
-bins:
-  - "zfind"

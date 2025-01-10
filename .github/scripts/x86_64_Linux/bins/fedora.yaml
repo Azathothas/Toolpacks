@@ -1,9 +1,0 @@
-name: "fedora"
-description: "Portable Ephemeral Fedora Linux Docker Image (DockerC)"
-note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/fedora)"
-web_url: "https://github.com/docker-library/repo-info/tree/master/repos/fedora"
-repo_url: "https://github.com/docker-library/repo-info/tree/master/repos/fedora"
-path: "/"
-bins:
-  - "fedora"
-  - "fedora.no_strip"

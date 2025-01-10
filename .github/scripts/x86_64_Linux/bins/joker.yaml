@@ -1,8 +1,0 @@
-name: "joker"
-description: "turn process into daemon. Zero-Configuration"
-note: ""
-web_url: "https://github.com/txthinking/joker"
-repo_url: "https://github.com/txthinking/joker"
-path: "/"
-bins:
-  - "joker"

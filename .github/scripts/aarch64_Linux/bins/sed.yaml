@@ -1,8 +1,0 @@
-name: "sed"
-description: "(stream editor) is a non-interactive command-line text editor"
-note: ""
-web_url: "https://www.gnu.org/software/sed/"
-repo_url: ""
-path: "/"
-bins:
-  - "sed"

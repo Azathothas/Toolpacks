@@ -1,8 +1,0 @@
-name: "eget"
-description: "Easily install prebuilt binaries from GitHub."
-note: ""
-web_url: "https://github.com/zyedidia/eget"
-repo_url: "https://github.com/zyedidia/eget"
-path: "/"
-bins:
-  - "eget"

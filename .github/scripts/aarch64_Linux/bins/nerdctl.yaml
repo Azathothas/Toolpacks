@@ -1,8 +1,0 @@
-name: "nerdctl"
-description: "Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS"
-note: ""
-web_url: "https://github.com/containerd/nerdctl"
-repo_url: "https://github.com/containerd/nerdctl"
-path: "/"
-bins:
-  - "nerdctl"

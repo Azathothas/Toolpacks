@@ -1,8 +1,0 @@
-name: "ngrok"
-description: "External Tunnel to Internal Assets"
-note: ""
-web_url: "https://ngrok.com/"
-repo_url: ""
-path: "/"
-bins:
-  - "ngrok.exe"

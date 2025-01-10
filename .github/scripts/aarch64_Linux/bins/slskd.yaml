@@ -1,9 +1,0 @@
-name: "slskd"
-description: "A modern client-server application for the Soulseek file sharing network. (DockerC)"
-note: "Created using DockerC (Run: slskd -e 'SLSKD_REMOTE_CONFIGURATION=true' -v '<path/to/application/data>:/app')"
-web_url: "https://github.com/slskd/slskd"
-repo_url: "https://github.com/slskd/slskd"
-path: "/"
-bins:
-  - "slskd"
-  - "slskd.no_strip"

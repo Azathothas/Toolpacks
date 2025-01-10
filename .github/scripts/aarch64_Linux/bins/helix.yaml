@@ -1,8 +1,0 @@
-name: "helix"
-description: "A post-modern modal text editor (AppImage)"
-note: ""
-web_url: "https://helix-editor.com"
-repo_url: "https://github.com/helix-editor/helix"
-path: "/"
-bins:
-  - "helix.AppImage"

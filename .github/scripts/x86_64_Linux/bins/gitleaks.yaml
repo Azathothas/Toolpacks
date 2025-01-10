@@ -1,8 +1,0 @@
-name: "gitleaks"
-description: "Protect and discover secrets using Gitleaks \U0001F511"
-note: ""
-web_url: "https://github.com/gitleaks/gitleaks"
-repo_url: "https://github.com/gitleaks/gitleaks"
-path: "/"
-bins:
-  - "gitleaks"

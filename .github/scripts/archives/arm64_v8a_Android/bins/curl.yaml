@@ -1,9 +1,0 @@
-name: "curl"
-description: "A command line tool for transferring files with URL syntax"
-note: ""
-web_url: "https://github.com/curl/curl"
-repo_url: "https://github.com/curl/curl"
-path: "/"
-bins:
-  - "curl"
-  - "curl_cacert.pem"

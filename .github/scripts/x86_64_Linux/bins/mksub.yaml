@@ -1,8 +1,0 @@
-name: "mksub"
-description: "Generate tens of thousands of subdomain combinations in a matter of seconds"
-note: ""
-web_url: "https://github.com/trickest/mksub"
-repo_url: "https://github.com/trickest/mksub"
-path: "/"
-bins:
-  - "mksub"

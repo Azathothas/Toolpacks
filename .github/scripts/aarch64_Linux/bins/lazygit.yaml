@@ -1,8 +1,0 @@
-name: "lazygit"
-description: "simple terminal UI for git commands"
-note: ""
-web_url: "https://github.com/jesseduffield/lazygit"
-repo_url: "https://github.com/jesseduffield/lazygit"
-path: "/"
-bins:
-  - "lazygit"

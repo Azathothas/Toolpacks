@@ -1,8 +1,0 @@
-name: "siegfried"
-description: "signature-based file format identification"
-note: ""
-web_url: "https://github.com/richardlehane/siegfried"
-repo_url: "https://github.com/richardlehane/siegfried"
-path: "/"
-bins:
-  - "sf"

@@ -1,8 +1,0 @@
-name: "bita"
-description: "Differential file synchronization over http"
-note: ""
-web_url: "https://github.com/oll3/bita"
-repo_url: "https://github.com/oll3/bita"
-path: "/"
-bins:
-  - "bita"

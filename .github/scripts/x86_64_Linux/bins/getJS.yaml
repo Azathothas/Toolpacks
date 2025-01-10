@@ -1,8 +1,0 @@
-name: "getJS"
-description: "A tool to fastly get all javascript sources/files"
-note: ""
-web_url: "https://github.com/Azathothas/Arsenal"
-repo_url: "https://github.com/Azathothas/Arsenal"
-path: "/"
-bins:
-  - "getJS"

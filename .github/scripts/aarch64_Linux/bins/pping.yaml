@@ -1,8 +1,0 @@
-name: "pping"
-description: "tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping"
-note: ""
-web_url: "https://github.com/wzv5/pping"
-repo_url: "https://github.com/wzv5/pping"
-path: "/"
-bins:
-  - "pping"

@@ -1,9 +1,0 @@
-name: "archlinux"
-description: "Portable Ephemeral ArchLinux Docker Image (DockerC)"
-note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/archlinux)"
-web_url: "https://wiki.archlinux.org/title/Docker"
-repo_url: "https://gitlab.archlinux.org/archlinux/archlinux-docker"
-path: "/"
-bins:
-  - "archlinux"
-  - "archlinux.no_strip"

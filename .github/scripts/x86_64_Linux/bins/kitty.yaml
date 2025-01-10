@@ -1,9 +1,0 @@
-name: "kitty"
-description: "Cross-platform, fast, feature-rich, GPU based terminal"
-note: ""
-web_url: "https://sw.kovidgoyal.net/kitty/"
-repo_url: "https://github.com/kovidgoyal/kitty"
-path: "/"
-bins:
-  - "kitty.AppImage"
-  - "kitten"

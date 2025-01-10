@@ -1,8 +1,0 @@
-name: "revive"
-description: "\U0001F525 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint"
-note: ""
-web_url: "https://github.com/mgechev/revive"
-repo_url: "https://github.com/mgechev/revive"
-path: "/"
-bins:
-  - "revive"

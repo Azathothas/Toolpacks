@@ -1,8 +1,0 @@
-name: "bore"
-description: "ngrok alternative for making tunnels to localhost"
-note: ""
-web_url: "https://github.com/ekzhang/bore"
-repo_url: "https://github.com/ekzhang/bore"
-path: "/"
-bins:
-  - "bore"

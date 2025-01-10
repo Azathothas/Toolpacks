@@ -1,8 +1,0 @@
-name: "wstunnel"
-description: "Tunnel all your traffic over websocket protocol - Bypass firewalls/DPI"
-note: ""
-web_url: "https://github.com/erebe/wstunnel"
-repo_url: "https://github.com/erebe/wstunnel"
-path: "/"
-bins:
-  - "wstunnel"

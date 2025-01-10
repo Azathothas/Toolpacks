@@ -1,8 +1,0 @@
-name: "cut-cdn"
-description: "✂️ Removing CDN IPs from the list of IP addresses"
-note: ""
-web_url: "https://github.com/ImAyrix/cut-cdn"
-repo_url: "https://github.com/ImAyrix/cut-cdn"
-path: "/"
-bins:
-  - "cut-cdn"

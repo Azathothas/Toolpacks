@@ -1,8 +1,0 @@
-name: "kondo"
-description: "Cleans dependencies and build artifacts from your projects."
-note: ""
-web_url: "https://github.com/tbillington/kondo"
-repo_url: "https://github.com/tbillington/kondo"
-path: "/"
-bins:
-  - "kondo"

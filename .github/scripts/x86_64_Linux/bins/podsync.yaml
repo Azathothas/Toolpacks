@@ -1,8 +1,0 @@
-name: "podsync"
-description: "Turn YouTube or Vimeo channels, users, or playlists into podcast feeds"
-note: ""
-web_url: "https://github.com/mxpv/podsync"
-repo_url: "https://github.com/mxpv/podsync"
-path: "/"
-bins:
-  - "podsync"

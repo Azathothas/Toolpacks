@@ -1,8 +1,0 @@
-name: "dbin"
-description: "Binary Downloader(s) || Like a package manager, but for statically linked binaries."
-note: ""
-web_url: "https://github.com/xplshn/dbin"
-repo_url: "https://github.com/xplshn/dbin"
-path: "/"
-bins:
-  - "dbin"

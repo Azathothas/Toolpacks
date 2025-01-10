@@ -1,8 +1,0 @@
-name: "albafetch"
-description: "system-info-fetcher"
-note: ""
-web_url: "https://github.com/alba4k/albafetch"
-repo_url: "https://github.com/alba4k/albafetch"
-path: "/"
-bins:
-  - "albafetch"

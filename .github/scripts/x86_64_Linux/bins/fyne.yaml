@@ -1,8 +1,0 @@
-name: "fyne"
-description: "Cross platform GUI toolkit in Go inspired by Material Design"
-note: ""
-web_url: "https://fyne.io"
-repo_url: "https://github.com/fyne-io/fyne"
-path: "/"
-bins:
-  - "fyne"

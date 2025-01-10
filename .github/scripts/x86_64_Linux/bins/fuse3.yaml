@@ -1,9 +1,0 @@
-name: "fuse3"
-description: "The reference implementation of the Linux FUSE (Filesystem in Userspace) interface"
-note: ""
-web_url: "https://github.com/libfuse/libfuse"
-repo_url: "https://github.com/libfuse/libfuse"
-path: "/Baseutils/fuse3/"
-bins:
-  - "fusermount3"
-  - "mount.fuse3"

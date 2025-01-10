@@ -1,9 +1,0 @@
-name: "tor-socks-proxy"
-description: "Tiny Docker Image as Tor SOCKS5 proxy (DockerC)"
-note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/r/peterdavehello/tor-socks-proxy)"
-web_url: "https://github.com/PeterDaveHello/tor-socks-proxy"
-repo_url: "https://github.com/PeterDaveHello/tor-socks-proxy"
-path: "/"
-bins:
-  - "tor-socks-proxy"
-  - "tor-socks-proxy.no_strip"

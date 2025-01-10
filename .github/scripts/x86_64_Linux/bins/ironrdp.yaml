@@ -1,8 +1,0 @@
-name: "IronRDP"
-description: "Rust implementation of the Microsoft Remote Desktop Protocol (RDP) "
-note: ""
-web_url: "https://github.com/Devolutions/IronRDP"
-repo_url: "https://github.com/Devolutions/IronRDP"
-path: "/"
-bins:
-  - "ironrdp-client"

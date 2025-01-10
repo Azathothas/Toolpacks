@@ -1,8 +1,0 @@
-name: "micro"
-description: "A modern and intuitive terminal-based text editor"
-note: ""
-web_url: "https://github.com/zyedidia/micro"
-repo_url: "https://github.com/zyedidia/micro"
-path: "/"
-bins:
-  - "micro"

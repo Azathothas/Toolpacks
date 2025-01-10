@@ -1,9 +1,0 @@
-name: "curl"
-description: "A command line tool for transferring files with URL syntax"
-note: ""
-web_url: "https://github.com/stunnel/static-curl"
-repo_url: "https://github.com/stunnel/static-curl"
-path: "/"
-bins:
-  - "curl"
-  - "trurl"

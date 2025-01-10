@@ -1,9 +1,0 @@
-name: "aws-cli"
-description: "Portable Ephemeral aws-cli Docker Image (DockerC)"
-note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/r/amazon/aws-cli)"
-web_url: "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-docker.html"
-repo_url: "https://github.com/aws/aws-cli/blob/v2/docker/Dockerfile"
-path: "/"
-bins:
-  - "aws-cli"
-  - "aws-cli.no_strip"

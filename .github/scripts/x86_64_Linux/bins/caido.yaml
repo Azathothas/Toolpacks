@@ -1,8 +1,0 @@
-name: "caido"
-description: "A lightweight web security auditing toolkit"
-note: ""
-web_url: "https://github.com/caido/caido"
-repo_url: "https://github.com/caido/caido"
-path: "/"
-bins:
-  - "caido-cli"

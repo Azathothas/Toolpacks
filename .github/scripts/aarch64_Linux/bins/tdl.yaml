@@ -1,8 +1,0 @@
-name: "tdl"
-description: "\U0001F4E5 A Telegram downloader/tools written in Golang"
-note: ""
-web_url: "https://github.com/iyear/tdl"
-repo_url: "https://github.com/iyear/tdl"
-path: "/"
-bins:
-  - "tdl"

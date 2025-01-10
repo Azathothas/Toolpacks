@@ -1,8 +1,0 @@
-name: "pingmole"
-description: "CLI that helps to filter pingmole servers and pick the closest one."
-note: ""
-web_url: "https://github.com/norskeld/pingmole"
-repo_url: "https://github.com/norskeld/pingmole"
-path: "/"
-bins:
-  - "pingmole"

@@ -1,8 +1,0 @@
-name: "lorien"
-description: "An infinite canvas drawing/note-taking app (AppImage)"
-note: ""
-web_url: "https://github.com/mbrlabs/Lorien"
-repo_url: "https://github.com/mbrlabs/Lorien"
-path: "/"
-bins:
-  - "lorien.AppImage"

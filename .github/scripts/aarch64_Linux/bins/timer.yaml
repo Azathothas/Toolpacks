@@ -1,8 +1,0 @@
-name: "timer"
-description: "A sleep with progress"
-note: ""
-web_url: "https://github.com/caarlos0/timer"
-repo_url: "https://github.com/caarlos0/timer"
-path: "/"
-bins:
-  - "timer"

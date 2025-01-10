@@ -1,8 +1,0 @@
-name: "enumerepo"
-description: "List all public repositories for (valid) GitHub usernames"
-note: ""
-web_url: "https://github.com/trickest/enumerepo"
-repo_url: "https://github.com/trickest/enumerepo"
-path: "/"
-bins:
-  - "enumerepo"

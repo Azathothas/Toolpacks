@@ -1,8 +1,0 @@
-name: "wth"
-description: "What The Heck  The better personal information dashboard for your terminal"
-note: ""
-web_url: "https://github.com/mrusme/wth"
-repo_url: "https://github.com/mrusme/wth"
-path: "/"
-bins:
-  - "wth"

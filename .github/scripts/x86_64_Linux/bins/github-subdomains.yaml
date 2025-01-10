@@ -1,8 +1,0 @@
-name: "github-subdomains"
-description: "Find subdomains on GitHub"
-note: ""
-web_url: "https://github.com/gwen001/github-subdomains"
-repo_url: "https://github.com/gwen001/github-subdomains"
-path: "/"
-bins:
-  - "github-subdomains"

@@ -1,8 +1,0 @@
-name: "csview"
-description: "\U0001F4E0 Pretty and fast csv viewer for cli with cjk/emoji support."
-note: ""
-web_url: "https://github.com/wfxr/csview"
-repo_url: "https://github.com/wfxr/csview"
-path: "/"
-bins:
-  - "csview"

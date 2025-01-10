@@ -1,8 +1,0 @@
-name: "appstreamcli"
-description: "Tool to work with AppStream metadata"
-note: ""
-web_url: "https://github.com/ximion/appstream"
-repo_url: "https://github.com/probonopd/static-tools"
-path: "/"
-bins:
-  - "appstreamcli"

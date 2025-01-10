@@ -1,9 +1,0 @@
-name: "kalilinux"
-description: "Portable Ephemeral KaliLinux Docker Image (DockerC)"
-note: "Created using DockerC, might require ROOT (Details: https://hub.docker.com/r/kalilinux/kali-rolling)"
-web_url: "https://www.kali.org/docs/containers/official-kalilinux-docker-images/"
-repo_url: "https://gitlab.com/kalilinux/build-scripts/kali-docker"
-path: "/"
-bins:
-  - "kalilinux"
-  - "kalilinux.no_strip"

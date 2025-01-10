@@ -1,8 +1,0 @@
-name: "libaws"
-description: "A simpler way to declare aws infrastructure that is easy to use and extend"
-note: ""
-web_url: "https://nathants.com/projects/libaws"
-repo_url: "https://github.com/nathants/libaws"
-path: "/"
-bins:
-  - "libaws"

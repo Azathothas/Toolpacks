@@ -1,9 +1,0 @@
-name: "czkawka"
-description: "Multi functional app to find duplicates, empty folders, similar images etc."
-note: ""
-web_url: "https://github.com/qarmin/czkawka"
-repo_url: "https://github.com/qarmin/czkawka"
-path: "/"
-bins:
-  - "czkawka-cli"
-  - "czkawka_cli"

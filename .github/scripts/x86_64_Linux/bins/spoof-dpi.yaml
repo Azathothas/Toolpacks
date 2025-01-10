@@ -1,8 +1,0 @@
-name: "spoof-dpi"
-description: "A simple and fast anti-censorship tool written in Go"
-note: ""
-web_url: "https://github.com/xvzc/SpoofDPI"
-repo_url: "https://github.com/xvzc/SpoofDPI"
-path: "/"
-bins:
-  - "spoof-dpi"

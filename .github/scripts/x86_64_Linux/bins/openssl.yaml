@@ -1,9 +1,0 @@
-name: "openssl"
-description: "A cryptographic library that implements the SSL and TLS protocols"
-note: ""
-web_url: "https://www.openssl.org/"
-repo_url: "https://github.com/openssl/openssl"
-path: "/Baseutils/openssl/"
-bins:
-  - "c_rehash"
-  - "openssl"

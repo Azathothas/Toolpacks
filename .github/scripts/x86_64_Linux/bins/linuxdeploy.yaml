@@ -1,8 +1,0 @@
-name: "linuxdeploy"
-description: "AppDir creation and maintenance tool. Featuring flexible plugin system"
-note: ""
-web_url: "https://github.com/linuxdeploy/linuxdeploy"
-repo_url: "https://github.com/linuxdeploy/linuxdeploy"
-path: "/"
-bins:
-  - "linuxdeploy.no_strip"

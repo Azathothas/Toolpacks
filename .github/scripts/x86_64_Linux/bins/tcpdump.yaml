@@ -1,8 +1,0 @@
-name: "tcpdump"
-description: "the TCPdump network dissector"
-note: ""
-web_url: "https://github.com/the-tcpdump-group/tcpdump"
-repo_url: "https://github.com/the-tcpdump-group/tcpdump"
-path: "/"
-bins:
-  - "tcpdump"

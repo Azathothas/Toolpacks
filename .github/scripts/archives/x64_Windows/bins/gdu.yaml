@@ -1,8 +1,0 @@
-name: "gdu"
-description: "(ncdu) Fast disk usage analyzer with console interface written in Go"
-note: ""
-web_url: "https://github.com/dundee/gdu"
-repo_url: "https://github.com/dundee/gdu"
-path: "/"
-bins:
-  - "gdu.exe"

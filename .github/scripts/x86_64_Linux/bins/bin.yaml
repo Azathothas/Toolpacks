@@ -1,8 +1,0 @@
-name: "bin"
-description: "Effortless binary manager"
-note: ""
-web_url: "https://github.com/marcosnils/bin"
-repo_url: "https://github.com/marcosnils/bin"
-path: "/"
-bins:
-  - "bin"

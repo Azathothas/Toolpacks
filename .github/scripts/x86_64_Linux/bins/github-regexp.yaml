@@ -1,8 +1,0 @@
-name: "github-regexp"
-description: "Basically a regexp over a GitHub search"
-note: ""
-web_url: "https://github.com/gwen001/github-regexp"
-repo_url: "https://github.com/gwen001/github-regexp"
-path: "/"
-bins:
-  - "github-regexp"

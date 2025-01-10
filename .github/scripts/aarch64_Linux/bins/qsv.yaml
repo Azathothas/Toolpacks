@@ -1,8 +1,0 @@
-name: "qsv"
-description: "Blazing-fast Data-Wrangling toolkit"
-note: ""
-web_url: "https://qsv.dathere.com"
-repo_url: "https://github.com/dathere/qsv"
-path: "/"
-bins:
-  - "qsv"

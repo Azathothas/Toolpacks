@@ -1,8 +1,0 @@
-name: "axel"
-description: "A lightweight download accelerator"
-note: ""
-web_url: "https://github.com/axel/axel"
-repo_url: "https://github.com/axel/axel"
-path: "/"
-bins:
-  - "axel"

@@ -1,8 +1,0 @@
-name: "tlrc"
-description: "A tldr client written in Rust"
-note: ""
-web_url: "https://github.com/tldr-pages/tlrc"
-repo_url: "https://github.com/tldr-pages/tlrc"
-path: "/"
-bins:
-  - "tlrc"

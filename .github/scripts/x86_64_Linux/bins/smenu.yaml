@@ -1,8 +1,0 @@
-name: "smenu"
-description: "a powerful and versatile CLI selection tool for interactive or scripting use."
-note: ""
-web_url: "https://github.com/p-gen/smenu"
-repo_url: "https://github.com/p-gen/smenu"
-path: "/"
-bins:
-  - "smenu"

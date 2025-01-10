@@ -1,8 +1,0 @@
-name: "gping"
-description: "Ping, but with a graph"
-note: ""
-web_url: "https://github.com/orf/gping"
-repo_url: "https://github.com/orf/gping"
-path: "/"
-bins:
-  - "gping"

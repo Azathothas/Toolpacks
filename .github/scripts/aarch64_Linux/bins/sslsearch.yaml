@@ -1,8 +1,0 @@
-name: "sslsearch"
-description: "Hunt SSL Certificates for interesting keywords on major cloud service providers / internet"
-note: ""
-web_url: "https://github.com/HarshVaragiya/sslsearch"
-repo_url: "https://github.com/HarshVaragiya/sslsearch"
-path: "/"
-bins:
-  - "sslsearch"

@@ -1,8 +1,0 @@
-name: "gost"
-description: "\U0001F916 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows"
-note: ""
-web_url: "https://github.com/ginuerzh/gost"
-repo_url: "https://github.com/ginuerzh/gost"
-path: "/"
-bins:
-  - "gost.exe"

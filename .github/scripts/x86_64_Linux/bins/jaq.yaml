@@ -1,8 +1,0 @@
-name: "jaq"
-description: "A jq clone focussed on correctness, speed, and simplicity"
-note: ""
-web_url: "https://github.com/01mf02/jaq"
-repo_url: "https://github.com/01mf02/jaq"
-path: "/"
-bins:
-  - "jaq"

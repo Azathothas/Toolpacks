@@ -1,8 +1,0 @@
-name: "containerd"
-description: "An open and reliable container runtime"
-note: ""
-web_url: "https://github.com/containerd/containerd"
-repo_url: "https://github.com/containerd/containerd"
-path: "/"
-bins:
-  - "containerd"

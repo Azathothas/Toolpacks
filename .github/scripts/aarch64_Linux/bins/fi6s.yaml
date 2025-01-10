@@ -1,8 +1,0 @@
-name: "fi6s"
-description: "IPv6 network scanner designed to be fast"
-note: ""
-web_url: "https://github.com/sfan5/fi6s"
-repo_url: "https://github.com/sfan5/fi6s"
-path: "/"
-bins:
-  - "fi6s"

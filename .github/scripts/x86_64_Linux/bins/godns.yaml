@@ -1,8 +1,0 @@
-name: "godns"
-description: "A dynamic DNS client tool supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc"
-note: ""
-web_url: "https://github.com/TimothyYe/godns"
-repo_url: "https://github.com/TimothyYe/godns"
-path: "/"
-bins:
-  - "godns"

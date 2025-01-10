@@ -1,8 +1,0 @@
-name: "waybackurls"
-description: "Fetch all the URLs that the Wayback Machine knows about for a domain"
-note: ""
-web_url: "https://github.com/tomnomnom/waybackurls"
-repo_url: "https://github.com/tomnomnom/waybackurls"
-path: "/"
-bins:
-  - "waybackurls"

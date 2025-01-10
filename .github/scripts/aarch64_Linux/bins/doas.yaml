@@ -1,8 +1,0 @@
-name: "doas"
-description: "A portable fork of the OpenBSD doas command"
-note: ""
-web_url: "https://github.com/Duncaen/OpenDoas"
-repo_url: "https://github.com/Duncaen/OpenDoas"
-path: "/"
-bins:
-  - "doas"

@@ -1,8 +1,0 @@
-name: "shellharden"
-description: "The corrective bash syntax highlighter"
-note: ""
-web_url: "https://github.com/anordal/shellharden"
-repo_url: "https://github.com/anordal/shellharden"
-path: "/"
-bins:
-  - "shellharden"

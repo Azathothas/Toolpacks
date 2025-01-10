@@ -1,8 +1,0 @@
-name: "amp"
-description: "A complete text editor for your terminal."
-note: ""
-web_url: "https://github.com/jmacdonald/amp"
-repo_url: "https://github.com/jmacdonald/amp"
-path: "/"
-bins:
-  - "amp"

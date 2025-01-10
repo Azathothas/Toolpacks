@@ -1,8 +1,0 @@
-name: "linutil"
-description: "Chris Titus Tech's Distro-agnostic Toolbox designed to simplify everyday Linux tasks"
-note: ""
-web_url: "https://christitustech.github.io/linutil"
-repo_url: "https://github.com/ChrisTitusTech/linutil"
-path: "/"
-bins:
-  - "linutil"

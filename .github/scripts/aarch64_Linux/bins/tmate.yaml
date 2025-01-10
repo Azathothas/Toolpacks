@@ -1,8 +1,0 @@
-name: "tmate"
-description: "Instant Terminal Sharing"
-note: ""
-web_url: "https://github.com/tmate-io/tmate"
-repo_url: "https://github.com/tmate-io/tmate"
-path: "/"
-bins:
-  - "tmate"

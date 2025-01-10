@@ -1,9 +1,0 @@
-name: "gitlab-cli"
-description: "Official Gitlab CLI"
-note: ""
-web_url: "https://docs.gitlab.com/ee/editor_extensions/gitlab_cli"
-repo_url: "https://gitlab.com/gitlab-org/cli"
-path: "/"
-bins:
-  - "gitlab-cli"
-  - "glab"

@@ -1,8 +1,0 @@
-name: "enc"
-description: "\U0001F511\U0001F512 A modern and friendly CLI alternative to GnuPG"
-note: ""
-web_url: "https://github.com/life4/enc"
-repo_url: "https://github.com/life4/enc"
-path: "/"
-bins:
-  - "enc"

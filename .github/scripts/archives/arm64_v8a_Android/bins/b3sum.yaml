@@ -1,8 +1,0 @@
-name: "b3sum"
-description: "A command line utility for calculating BLAKE3 hashes"
-note: ""
-web_url: "https://github.com/BLAKE3-team/BLAKE3"
-repo_url: "https://github.com/BLAKE3-team/BLAKE3"
-path: "/"
-bins:
-  - "b3sum"

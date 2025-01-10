@@ -1,9 +1,0 @@
-name: "nginx"
-description: "Static Nginx and njs binaries for Linux"
-note: ""
-web_url: "https://github.com/jirutka/nginx-binaries"
-repo_url: "https://github.com/jirutka/nginx-binaries"
-path: "/"
-bins:
-  - "nginx"
-  - "njs"

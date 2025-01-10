@@ -1,8 +1,0 @@
-name: "xdo"
-description: "Small X utility to perform elementary actions on windows"
-note: ""
-web_url: "https://github.com/baskerville/xdo"
-repo_url: "https://github.com/baskerville/xdo"
-path: "/"
-bins:
-  - "xdo"

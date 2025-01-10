@@ -1,9 +1,0 @@
-name: "netcat-gnu"
-description: "TCP/IP swiss army knife (GNU-variant)"
-note: ""
-web_url: "https://netcat.sourceforge.net/"
-repo_url: "https://svn.code.sf.net/p/netcat/code/trunk/"
-path: "/"
-bins:
-  - "nc"
-  - "netcat"

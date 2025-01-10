@@ -1,8 +1,0 @@
-name: "warp"
-description: "S3 benchmarking tool"
-note: ""
-web_url: "https://github.com/minio/warp"
-repo_url: "https://github.com/minio/warp"
-path: "/"
-bins:
-  - "warp"

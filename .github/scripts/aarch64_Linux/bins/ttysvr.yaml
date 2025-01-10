@@ -1,8 +1,0 @@
-name: "ttysvr"
-description: "Screen saver for your Terminal"
-note: ""
-web_url: "https://github.com/cxreiff/ttysvr"
-repo_url: "https://github.com/cxreiff/ttysvr"
-path: "/"
-bins:
-  - "ttysvr"

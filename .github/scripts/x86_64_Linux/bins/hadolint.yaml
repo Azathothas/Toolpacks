@@ -1,8 +1,0 @@
-name: "hadolint"
-description: "Dockerfile linter, validate inline bash, written in Haskell"
-note: ""
-web_url: "https://github.com/hadolint/hadolint"
-repo_url: "https://github.com/hadolint/hadolint"
-path: "/"
-bins:
-  - "hadolint"

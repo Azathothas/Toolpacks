@@ -1,9 +1,0 @@
-name: "proxychains-ng"
-description: "Preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies"
-note: "Updated & Maintained fork of: https://github.com/haad/proxychains"
-web_url: "https://github.com/rofl0r/proxychains-ng"
-repo_url: "https://github.com/rofl0r/proxychains-ng"
-path: "/"
-bins:
-  - "proxychains"
-  - "proxychains-daemon"

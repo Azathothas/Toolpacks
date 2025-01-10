@@ -1,8 +1,0 @@
-name: "pls"
-description: "pls is a prettier and powerful ls(1) for the pros"
-note: ""
-web_url: "https://github.com/pls-rs/pls"
-repo_url: "https://github.com/pls-rs/pls"
-path: "/"
-bins:
-  - "pls"

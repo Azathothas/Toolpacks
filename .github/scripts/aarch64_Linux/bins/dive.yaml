@@ -1,8 +1,0 @@
-name: "dive"
-description: "A tool for exploring each layer in a docker image"
-note: ""
-web_url: "https://github.com/wagoodman/dive"
-repo_url: "https://github.com/wagoodman/dive"
-path: "/"
-bins:
-  - "dive"

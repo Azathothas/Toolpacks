@@ -1,8 +1,0 @@
-name: "nnn"
-description: "n³ The unorthodox terminal file manager"
-note: ""
-web_url: "https://github.com/jarun/nnn"
-repo_url: "https://github.com/jarun/nnn"
-path: "/"
-bins:
-  - "nnn"

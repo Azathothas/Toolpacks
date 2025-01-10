@@ -1,8 +1,0 @@
-name: "adig"
-description: "A command-line tool that allows you to perform DNS lookups from the command line"
-note: ""
-web_url: "https://github.com/c-ares/c-ares"
-repo_url: "https://github.com/c-ares/c-ares"
-path: "/"
-bins:
-  - "adig"

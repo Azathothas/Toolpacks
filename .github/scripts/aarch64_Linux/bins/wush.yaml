@@ -1,8 +1,0 @@
-name: "wush"
-description: "Simplest & Fastest way to transfer files between computers via WireGuard"
-note: ""
-web_url: "https://wush.dev"
-repo_url: "https://github.com/coder/wush"
-path: "/"
-bins:
-  - "wush"

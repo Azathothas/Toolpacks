@@ -1,9 +1,0 @@
-name: "geonet"
-description: "Network tools that run from multiple geographic locations using the GeoNet API."
-note: ""
-web_url: "https://gitlab.com/shodan-public/geonet-rs"
-repo_url: "https://gitlab.com/shodan-public/geonet-rs"
-path: "/"
-bins:
-  - "geodns.exe"
-  - "geoping.exe"

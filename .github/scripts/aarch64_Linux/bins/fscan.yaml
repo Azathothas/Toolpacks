@@ -1,8 +1,0 @@
-name: "fscan"
-description: "A comprehensive intranet scanning tool that facilitates one-click automated, all-round missed scanning."
-note: ""
-web_url: "https://github.com/shadow1ng/fscan"
-repo_url: "https://github.com/shadow1ng/fscan"
-path: "/"
-bins:
-  - "fscan"

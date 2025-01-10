@@ -1,7 +1,0 @@
-name: "xpdf-tools"
-description: "PDF tools"
-note: ""
-web_url: "https://www.xpdfreader.com/index.html"
-repo_url: ""
-bins:
-  - ""

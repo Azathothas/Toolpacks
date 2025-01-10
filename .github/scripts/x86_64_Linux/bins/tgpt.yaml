@@ -1,8 +1,0 @@
-name: "tgpt"
-description: "Access ChatGPT from the comfort of your terminal. No API or config files are needed."
-note: ""
-web_url: "https://github.com/aandrew-me/tgpt"
-repo_url: "https://github.com/aandrew-me/tgpt"
-path: "/"
-bins:
-  - "tgpt"

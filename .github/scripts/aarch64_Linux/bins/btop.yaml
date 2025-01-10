@@ -1,8 +1,0 @@
-name: "btop"
-description: "htop clone | A monitor of resources"
-note: ""
-web_url: "https://github.com/aristocratos/btop"
-repo_url: "https://github.com/aristocratos/btop"
-path: "/"
-bins:
-  - "btop"

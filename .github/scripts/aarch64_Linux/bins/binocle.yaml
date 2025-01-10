@@ -1,8 +1,0 @@
-name: "binocle"
-description: "a graphical tool to visualize binary data"
-note: ""
-web_url: "https://github.com/sharkdp/binocle"
-repo_url: "https://github.com/sharkdp/binocle"
-path: "/"
-bins:
-  - "binocle"

@@ -1,8 +1,0 @@
-name: "WireGuard-rs"
-description: "Rust Implementation of WireGuard"
-note: ""
-web_url: "https://git.zx2c4.com/wireguard-rs"
-repo_url: "https://git.zx2c4.com/wireguard-rs"
-path: "/"
-bins:
-  - "wireguard-rs"

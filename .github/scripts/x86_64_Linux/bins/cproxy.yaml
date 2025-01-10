@@ -1,8 +1,0 @@
-name: "cproxy"
-description: "Easy per application transparent proxy built on cgroup."
-note: ""
-web_url: "https://github.com/NOBLES5E/cproxy"
-repo_url: "https://github.com/NOBLES5E/cproxy"
-path: "/"
-bins:
-  - "cproxy"

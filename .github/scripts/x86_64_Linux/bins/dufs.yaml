@@ -1,8 +1,0 @@
-name: "dufs"
-description: "A file server that supports static serving, uploading, searching, accessing control, webdav"
-note: ""
-web_url: "https://github.com/sigoden/dufs"
-repo_url: "https://github.com/sigoden/dufs"
-path: "/"
-bins:
-  - "dufs"

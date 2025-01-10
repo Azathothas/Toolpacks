@@ -1,8 +1,0 @@
-name: "dns-doctor"
-description: "Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems"
-note: ""
-web_url: "https://github.com/jvns/dns-doctor"
-repo_url: "https://github.com/jvns/dns-doctor"
-path: "/"
-bins:
-  - "dns-doctor"

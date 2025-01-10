@@ -1,9 +1,0 @@
-name: "batcat"
-description: "cat with colors & syntax highlights"
-note: ""
-web_url: "https://github.com/sharkdp/bat"
-repo_url: "https://github.com/sharkdp/bat"
-path: "/"
-bins:
-  - "bat"
-  - "batcat"

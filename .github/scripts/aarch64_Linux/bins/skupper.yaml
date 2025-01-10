@@ -1,8 +1,0 @@
-name: "skupper"
-description: "Virtual Application Network, enabling rich hybrid cloud communication"
-note: ""
-web_url: "https://github.com/skupperproject/skupper"
-repo_url: "https://github.com/skupperproject/skupper"
-path: "/"
-bins:
-  - "skupper"

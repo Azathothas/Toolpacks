@@ -1,8 +1,0 @@
-name: "trippy"
-description: "A network diagnostic tool"
-note: ""
-web_url: "https://github.com/fujiapple852/trippy"
-repo_url: "https://github.com/fujiapple852/trippy"
-path: "/"
-bins:
-  - "trip"

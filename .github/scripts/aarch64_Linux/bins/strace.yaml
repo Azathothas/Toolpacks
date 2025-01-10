@@ -1,8 +1,0 @@
-name: "strace"
-description: "strace is a diagnostic, debugging and instructional userspace utility for Linux"
-note: ""
-web_url: "https://github.com/strace/strace"
-repo_url: "https://github.com/strace/strace"
-path: "/"
-bins:
-  - "strace"

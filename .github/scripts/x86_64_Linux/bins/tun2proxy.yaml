@@ -1,8 +1,0 @@
-name: "tun2proxy"
-description: "Tunnel (TUN) interface for SOCKS and HTTP proxies"
-note: ""
-web_url: "https://github.com/tun2proxy/tun2proxy"
-repo_url: "https://github.com/tun2proxy/tun2proxy"
-path: "/"
-bins:
-  - "tun2proxy"

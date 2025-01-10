@@ -1,8 +1,0 @@
-name: "q"
-description: "A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH."
-note: ""
-web_url: "https://github.com/natesales/q"
-repo_url: "https://github.com/natesales/q"
-path: "/"
-bins:
-  - "q"

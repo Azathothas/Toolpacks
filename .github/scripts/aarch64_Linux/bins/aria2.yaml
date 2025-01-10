@@ -1,9 +1,0 @@
-name: "aria2"
-description: "A multi-protocol (HTTP/HTTPS, FTP, SFTP, BitTorrent & Metalink) & multi-source command-line download utility"
-note: ""
-web_url: "https://github.com/aria2/aria2"
-repo_url: "https://github.com/aria2/aria2"
-path: "/"
-bins:
-  - "aria2"
-  - "aria2c"

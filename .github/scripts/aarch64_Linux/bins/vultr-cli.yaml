@@ -1,8 +1,0 @@
-name: "vultr-cli"
-description: "Official command line tool for Vultr services"
-note: ""
-web_url: "https://github.com/vultr/vultr-cli"
-repo_url: "https://github.com/vultr/vultr-cli"
-path: "/"
-bins:
-  - "vultr-cli"

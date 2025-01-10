@@ -1,8 +1,0 @@
-name: "sessionprobe"
-description: "evaluates user privileges in web applications by taking a session token and checking access across a list of URLs"
-note: ""
-web_url: "https://github.com/dub-flow/sessionprobe"
-repo_url: "https://github.com/dub-flow/sessionprobe"
-path: "/"
-bins:
-  - "sessionprobe"

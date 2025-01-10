@@ -1,8 +1,0 @@
-name: "ncdu"
-description: "disk usage analyzer"
-note: ""
-web_url: "https://dev.yorhel.nl"
-repo_url: ""
-path: "/"
-bins:
-  - "ncdu"

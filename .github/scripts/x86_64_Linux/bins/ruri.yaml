@@ -1,8 +1,0 @@
-name: "ruri"
-description: "Lightweight, User-friendly Linux-container Implementation"
-note: ""
-web_url: "https://blog.crack.moe/2023/07/31/moe-ruri-notes/"
-repo_url: "https://github.com/Moe-hacker/ruri"
-path: "/"
-bins:
-  - "ruri"

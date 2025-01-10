@@ -1,8 +1,0 @@
-name: "shellz"
-description: "a small utility to manage your ssh, telnet, kubernetes, winrm, web or any custom shell in a single place."
-note: ""
-web_url: "https://github.com/evilsocket/shellz"
-repo_url: "https://github.com/evilsocket/shellz"
-path: "/"
-bins:
-  - "shellz"

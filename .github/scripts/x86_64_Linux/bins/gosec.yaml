@@ -1,8 +1,0 @@
-name: "gosec"
-description: "Go security checker"
-note: ""
-web_url: "https://github.com/securego/gosec"
-repo_url: "https://github.com/securego/gosec"
-path: "/"
-bins:
-  - "gosec"

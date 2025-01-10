@@ -1,8 +1,0 @@
-name: "htmlq"
-description: "Like jq, but for HTML"
-note: ""
-web_url: "https://github.com/mgdm/htmlq"
-repo_url: "https://github.com/mgdm/htmlq"
-path: "/"
-bins:
-  - "htmlq"

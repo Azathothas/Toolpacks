@@ -1,8 +1,0 @@
-name: "picocrypt"
-description: "A very small, very simple, yet very secure encryption tool"
-note: ""
-web_url: "https://github.com/Picocrypt/Picocrypt"
-repo_url: "https://github.com/Picocrypt/Picocrypt"
-path: "/"
-bins:
-  - "picocrypt-gui.exe"

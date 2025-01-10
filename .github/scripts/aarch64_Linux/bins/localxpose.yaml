@@ -1,9 +1,0 @@
-name: "localxpose"
-description: "reverse proxy that enables you to expose your localhost to the internet."
-note: ""
-web_url: "https://localxpose.io/"
-repo_url: ""
-path: "/"
-bins:
-  - "localxpose"
-  - "loclx"

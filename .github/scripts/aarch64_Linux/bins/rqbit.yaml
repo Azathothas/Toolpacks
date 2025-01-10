@@ -1,8 +1,0 @@
-name: "rqbit"
-description: "A bittorrent client in Rust"
-note: ""
-web_url: "https://github.com/ikatson/rqbit"
-repo_url: "https://github.com/ikatson/rqbit"
-path: "/"
-bins:
-  - "rqbit"

@@ -1,8 +1,0 @@
-name: "vegeta"
-description: "HTTP load testing tool and library"
-note: ""
-web_url: "https://github.com/tsenart/vegeta"
-repo_url: "https://github.com/tsenart/vegeta"
-path: "/"
-bins:
-  - "vegeta"

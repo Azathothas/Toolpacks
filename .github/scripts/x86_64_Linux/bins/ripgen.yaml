@@ -1,8 +1,0 @@
-name: "ripgen"
-description: "Rust-based high performance domain permutation generator"
-note: ""
-web_url: "https://github.com/resyncgg/ripgen"
-repo_url: "https://github.com/resyncgg/ripgen"
-path: "/"
-bins:
-  - "ripgen"

@@ -1,8 +1,0 @@
-name: "ox"
-description: "An independent Rust text editor that runs in your terminal"
-note: ""
-web_url: "https://github.com/curlpipe/ox"
-repo_url: "https://github.com/curlpipe/ox"
-path: "/"
-bins:
-  - "ox"

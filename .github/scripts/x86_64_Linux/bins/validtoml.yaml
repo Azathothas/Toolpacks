@@ -1,8 +1,0 @@
-name: "validtoml"
-description: "simple toml validitor"
-note: ""
-web_url: "https://github.com/martinlindhe/validtoml"
-repo_url: "https://github.com/martinlindhe/validtoml"
-path: "/"
-bins:
-  - "validtoml"

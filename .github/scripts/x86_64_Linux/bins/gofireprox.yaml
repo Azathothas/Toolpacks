@@ -1,8 +1,0 @@
-name: "gofireprox"
-description: "FireProx written in Go"
-note: ""
-web_url: "https://github.com/mr-pmillz/gofireprox"
-repo_url: "https://github.com/mr-pmillz/gofireprox"
-path: "/"
-bins:
-  - "gofireprox"

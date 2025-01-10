@@ -1,8 +1,0 @@
-name: "tget"
-description: "wget but for torrents"
-note: ""
-web_url: "https://github.com/sweetbbak/tget"
-repo_url: "https://github.com/sweetbbak/tget"
-path: "/"
-bins:
-  - "tget"

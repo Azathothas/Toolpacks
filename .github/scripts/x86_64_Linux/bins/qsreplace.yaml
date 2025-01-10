@@ -1,8 +1,0 @@
-name: "qsreplace"
-description: "Accept URLs on stdin, replace all query string values with a user-supplied value"
-note: ""
-web_url: "https://github.com/tomnomnom/qsreplace"
-repo_url: "https://github.com/tomnomnom/qsreplace"
-path: "/"
-bins:
-  - "qsreplace"

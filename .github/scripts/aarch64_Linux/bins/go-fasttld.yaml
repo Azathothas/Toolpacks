@@ -1,8 +1,0 @@
-name: "fastld"
-description: "go-fasttld is a high performance effective top level domains (eTLD) extraction module"
-note: ""
-web_url: "https://github.com/elliotwutingfeng/go-fasttld"
-repo_url: "https://github.com/elliotwutingfeng/go-fasttld"
-path: "/"
-bins:
-  - "fasttld"

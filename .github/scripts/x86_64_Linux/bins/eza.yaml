@@ -1,8 +1,0 @@
-name: "eza"
-description: "A modern replacement for ‘ls’. (Fork of exa)"
-note: ""
-web_url: "https://github.com/eza-community/eza"
-repo_url: "https://github.com/eza-community/eza"
-path: "/"
-bins:
-  - "eza"

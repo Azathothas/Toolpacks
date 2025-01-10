@@ -1,8 +1,0 @@
-name: "catp"
-description: "Print the output of a running process"
-note: ""
-web_url: "https://github.com/rapiz1/catp"
-repo_url: "https://github.com/rapiz1/catp"
-path: "/"
-bins:
-  - "catp"

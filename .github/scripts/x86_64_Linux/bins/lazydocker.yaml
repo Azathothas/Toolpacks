@@ -1,8 +1,0 @@
-name: "lazydocker"
-description: "The lazier way to manage everything docker"
-note: ""
-web_url: "https://github.com/jesseduffield/lazydocker"
-repo_url: "https://github.com/jesseduffield/lazydocker"
-path: "/"
-bins:
-  - "lazydocker"

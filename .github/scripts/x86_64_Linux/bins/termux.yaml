@@ -1,9 +1,0 @@
-name: "termux"
-description: "The Android Termux Environment as a Docker Image (DockerC)"
-note: "Created using DockerC, might require ROOT (Details: https://github.com/termux/termux-docker/issues/63)"
-web_url: "https://github.com/termux/termux-docker"
-repo_url: "https://github.com/termux/termux-docker"
-path: "/"
-bins:
-  - "termux"
-  - "termux.no_strip"

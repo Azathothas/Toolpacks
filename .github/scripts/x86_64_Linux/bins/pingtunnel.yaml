@@ -1,8 +1,0 @@
-name: "pingtunnel"
-description: "Pingtunnel is a tool that send TCP/UDP traffic over ICMP"
-note: ""
-web_url: "https://github.com/esrrhs/pingtunnel"
-repo_url: "https://github.com/esrrhs/pingtunnel"
-path: "/"
-bins:
-  - "pingtunnel"

@@ -1,8 +1,0 @@
-name: "hcloud"
-description: "A command-line interface for Hetzner Cloud"
-note: ""
-web_url: "https://github.com/hetznercloud/cli"
-repo_url: "https://github.com/hetznercloud/cli"
-path: "/"
-bins:
-  - "hcloud"

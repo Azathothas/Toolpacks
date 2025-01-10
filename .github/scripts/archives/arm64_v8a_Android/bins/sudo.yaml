@@ -1,8 +1,0 @@
-name: "sudo"
-description: "Download with resuming and segmented downloading"
-note: ""
-web_url: "https://github.com/agnostic-apollo/sudo"
-repo_url: "https://github.com/agnostic-apollo/sudo"
-path: "/"
-bins:
-  - "sudo"

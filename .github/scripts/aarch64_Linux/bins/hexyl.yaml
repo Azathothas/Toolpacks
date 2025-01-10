@@ -1,8 +1,0 @@
-name: "Hexyl"
-description: "A command-line hex viewer"
-note: ""
-web_url: "https://github.com/sharkdp/hexyl"
-repo_url: "https://github.com/sharkdp/hexyl"
-path: "/"
-bins:
-  - "hexyl"

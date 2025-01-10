@@ -1,8 +1,0 @@
-name: "masscan"
-description: "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes."
-note: ""
-web_url: "https://github.com/robertdavidgraham/masscan"
-repo_url: "https://github.com/robertdavidgraham/masscan"
-path: "/"
-bins:
-  - "masscan"

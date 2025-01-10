@@ -1,8 +1,0 @@
-name: "taierspeed-cli"
-description: "Speedtest cli for Tel Speed Test"
-note: ""
-web_url: "https://github.com/ztelliot/taierspeed-cli"
-repo_url: "https://github.com/ztelliot/taierspeed-cli"
-path: "/"
-bins:
-  - "taierspeed-cli.exe"

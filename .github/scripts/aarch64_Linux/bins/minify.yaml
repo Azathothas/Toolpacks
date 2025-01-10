@@ -1,8 +1,0 @@
-name: "minify"
-description: "Tool to minify web formats like HTML5, CSS3, JS, JSON, SVG, XML & More"
-note: ""
-web_url: "https://go.tacodewolff.nl/minify"
-repo_url: "https://github.com/tdewolff/minify"
-path: "/"
-bins:
-  - "minify"

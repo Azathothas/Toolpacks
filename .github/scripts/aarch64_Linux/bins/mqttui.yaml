@@ -1,8 +1,0 @@
-name: "mqttui"
-description: "Subscribe to a MQTT Topic or publish something quickly from the terminal"
-note: ""
-web_url: "https://github.com/EdJoPaTo/mqttui"
-repo_url: "https://github.com/EdJoPaTo/mqttui"
-path: "/"
-bins:
-  - "mqttui"

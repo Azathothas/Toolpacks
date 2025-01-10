@@ -1,8 +1,0 @@
-name: "sish"
-description: "HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH."
-note: ""
-web_url: "https://github.com/antoniomika/sish"
-repo_url: "https://github.com/antoniomika/sish"
-path: "/"
-bins:
-  - "sish.exe"

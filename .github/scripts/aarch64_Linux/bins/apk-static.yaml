@@ -1,8 +1,0 @@
-name: "apk-static"
-description: "Alpine Package Keeper (apk)"
-note: ""
-web_url: "https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper"
-repo_url: "https://gitlab.alpinelinux.org/alpine/apk-tools"
-path: "/"
-bins:
-  - "apk-static"

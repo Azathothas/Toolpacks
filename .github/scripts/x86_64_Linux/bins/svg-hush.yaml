@@ -1,8 +1,0 @@
-name: "svg-hush"
-description: "Make it safe to serve untrusted SVG files"
-note: ""
-web_url: "https://github.com/cloudflare/svg-hush"
-repo_url: "https://github.com/cloudflare/svg-hush"
-path: "/"
-bins:
-  - "svg-hush"

@@ -1,8 +1,0 @@
-name: "tz"
-description: "\U0001F310 A time zone helper"
-note: ""
-web_url: "https://github.com/oz/tz"
-repo_url: "https://github.com/oz/tz"
-path: "/"
-bins:
-  - "tz"

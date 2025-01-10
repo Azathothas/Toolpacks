@@ -1,8 +1,0 @@
-name: "rate-mirrors"
-description: "Client-Side map-aware Mirror Ranking Tool (Arch Linux; Manjaro; custom ones)"
-note: ""
-web_url: "https://github.com/westandskif/rate-mirrors"
-repo_url: "https://github.com/westandskif/rate-mirrors"
-path: "/"
-bins:
-  - "rate-mirrors"

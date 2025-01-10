@@ -1,8 +1,0 @@
-name: "litefs"
-description: "FUSE-based file system for replicating SQLite databases across a cluster of machines"
-note: ""
-web_url: "https://github.com/superfly/litefs"
-repo_url: "https://github.com/superfly/litefs"
-path: "/"
-bins:
-  - "litefs"

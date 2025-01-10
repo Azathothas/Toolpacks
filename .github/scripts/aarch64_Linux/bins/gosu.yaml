@@ -1,8 +1,0 @@
-name: "gosu"
-description: "Simple Go-based setuid+setgid+setgroups+exec"
-note: ""
-web_url: "https://github.com/tianon/gosu"
-repo_url: "https://github.com/tianon/gosu"
-path: "/"
-bins:
-  - "gosu"

@@ -1,8 +1,0 @@
-name: "fuzzuli"
-description: "URL fuzzing tool that aims to find critical backup files by creating a dynamic wordlist based on the domain."
-note: ""
-web_url: "https://github.com/musana/fuzzuli"
-repo_url: "https://github.com/musana/fuzzuli"
-path: "/"
-bins:
-  - "fuzzuli"

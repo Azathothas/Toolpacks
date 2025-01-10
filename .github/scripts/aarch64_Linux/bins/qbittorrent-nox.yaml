@@ -1,8 +1,0 @@
-name: "Qbittorent-nox"
-description: "static Single binary for qbittorent"
-note: ""
-web_url: "https://github.com/userdocs/qbittorrent-nox-static"
-repo_url: "https://github.com/userdocs/qbittorrent-nox-static"
-path: "/"
-bins:
-  - "qbittorrent-nox"

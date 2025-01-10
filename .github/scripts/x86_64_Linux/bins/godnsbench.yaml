@@ -1,8 +1,0 @@
-name: "godnsbench"
-description: "Simple DNS bench util that supports encrypted protocols."
-note: ""
-web_url: "https://github.com/ameshkov/godnsbench"
-repo_url: "https://github.com/ameshkov/godnsbench"
-path: "/"
-bins:
-  - "godnsbench"

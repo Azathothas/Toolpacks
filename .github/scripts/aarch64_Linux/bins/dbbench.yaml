@@ -1,8 +1,0 @@
-name: "dbbench"
-description: "a simple database benchmarking tool which supports several databases and own scripts"
-note: ""
-web_url: "https://github.com/sj14/dbbench"
-repo_url: "https://github.com/sj14/dbbench"
-path: "/"
-bins:
-  - "dbbench"

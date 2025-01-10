@@ -1,8 +1,0 @@
-name: "jj"
-description: "A Git-compatible DVCS that is both simple and powerful"
-note: ""
-web_url: "https://github.com/martinvonz/jj"
-repo_url: "https://github.com/martinvonz/jj"
-path: "/"
-bins:
-  - "jj"

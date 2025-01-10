@@ -1,8 +1,0 @@
-name: "httprobe"
-description: "Take a list of domains and probe for working HTTP and HTTPS servers"
-note: ""
-web_url: "https://github.com/tomnomnom/httprobe"
-repo_url: "https://github.com/tomnomnom/httprobe"
-path: "/"
-bins:
-  - "httprobe"

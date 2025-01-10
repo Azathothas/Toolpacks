@@ -1,8 +1,0 @@
-name: "importenv"
-description: "Launch an executable file with environment variables from a specific process id"
-note: ""
-web_url: "https://github.com/VHSgunzo/importenv"
-repo_url: "https://github.com/VHSgunzo/importenv"
-path: "/"
-bins:
-  - "importenv"

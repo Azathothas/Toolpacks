@@ -1,9 +1,0 @@
-name: "cron"
-description: ""
-note: ""
-web_url: "https://www.gnu.org/software/cron/"
-repo_url: ""
-path: "/"
-bins:
-  - "cron"
-  - "crontab"

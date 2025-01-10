@@ -1,8 +1,0 @@
-name: "elvish"
-description: "Elvish = Expressive Programming Language + Versatile Interactive Shell"
-note: ""
-web_url: "https://github.com/elves/elvish"
-repo_url: "https://github.com/elves/elvish"
-path: "/"
-bins:
-  - "elvish"

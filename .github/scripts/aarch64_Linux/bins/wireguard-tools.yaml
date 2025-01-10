@@ -1,9 +1,0 @@
-name: "wireguard-tools"
-description: "tools for configuring WireGuard"
-note: ""
-web_url: "https://git.zx2c4.com/wireguard-tools"
-repo_url: "https://git.zx2c4.com/wireguard-tools"
-path: "/"
-bins:
-  - "wg"
-  - "wg-quick"

@@ -1,8 +1,0 @@
-name: "encode"
-description: "Encode|Decode input from stdin"
-note: ""
-web_url: "https://github.com/Brum3ns/encode"
-repo_url: "https://github.com/Brum3ns/encode"
-path: "/"
-bins:
-  - "encode"

@@ -1,8 +1,0 @@
-name: "ghorg"
-description: "Quickly clone or backup an entire org/users repositories into one directory"
-note: ""
-web_url: "https://github.com/gabrie30/ghorg"
-repo_url: "https://github.com/gabrie30/ghorg"
-path: "/"
-bins:
-  - "ghorg"

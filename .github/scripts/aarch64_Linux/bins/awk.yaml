@@ -1,8 +1,0 @@
-name: "awk"
-description: "One true awk"
-note: ""
-web_url: "https://github.com/onetrueawk/awk"
-repo_url: "https://github.com/onetrueawk/awk"
-path: "/"
-bins:
-  - "awk"

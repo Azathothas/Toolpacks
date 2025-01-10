@@ -1,8 +1,0 @@
-name: "ryelang"
-description: "Interpreter for RyeLang"
-note: ""
-web_url: "https://ryelang.org"
-repo_url: "https://github.com/astral-sh/ryelang"
-path: "/"
-bins:
-  - "ryelang"

@@ -1,8 +1,0 @@
-name: "taplo"
-description: "A TOML toolkit written in Rust"
-note: ""
-web_url: "https://github.com/tamasfe/taplo"
-repo_url: "https://github.com/tamasfe/taplo"
-path: "/"
-bins:
-  - "taplo"

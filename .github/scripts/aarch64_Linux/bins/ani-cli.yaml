@@ -1,8 +1,0 @@
-name: "ani-cli"
-description: "A cli tool to browse and play anime"
-note: ""
-web_url: "https://github.com/pystardust/ani-cli"
-repo_url: "https://github.com/pystardust/ani-cli"
-path: "/"
-bins:
-  - "ani-cli"

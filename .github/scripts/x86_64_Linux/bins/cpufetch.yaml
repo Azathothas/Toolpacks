@@ -1,8 +1,0 @@
-name: "cpufetch"
-description: "fetch for cpu"
-note: ""
-web_url: "https://github.com/Dr-Noob/cpufetch"
-repo_url: "https://github.com/Dr-Noob/cpufetch"
-path: "/"
-bins:
-  - "cpufetch"

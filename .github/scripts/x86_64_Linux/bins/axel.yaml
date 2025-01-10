@@ -1,8 +1,0 @@
-name: "axel"
-description: "Lightweight CLI download accelerator"
-note: ""
-web_url: "https://github.com/axel-download-accelerator/axel"
-repo_url: "https://github.com/axel-download-accelerator/axel"
-path: "/"
-bins:
-  - "axel"

@@ -1,8 +1,0 @@
-name: "gitea"
-description: "Git with a cup of tea"
-note: ""
-web_url: "https://github.com/go-gitea/gitea"
-repo_url: "https://github.com/go-gitea/gitea"
-path: "/"
-bins:
-  - "gitea"

@@ -1,8 +1,0 @@
-name: "xmrig"
-description: "Monero (XMR) CPU miner"
-note: ""
-web_url: "https://xmrig.com/"
-repo_url: "https://github.com/xmrig/xmrig"
-path: "/"
-bins:
-  - "xmrig"

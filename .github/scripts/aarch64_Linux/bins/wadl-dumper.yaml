@@ -1,8 +1,0 @@
-name: "wadl-dumper"
-description: "Dump all available paths and/or endpoints on WADL file"
-note: ""
-web_url: "https://github.com/dwisiswant0/wadl-dumper"
-repo_url: "https://github.com/dwisiswant0/wadl-dumper"
-path: "/"
-bins:
-  - "wadl-dumper"

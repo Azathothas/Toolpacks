@@ -1,8 +1,0 @@
-name: "yip"
-description: "\U0001F4CC Yaml Instructions Processor - Simply applies a cloud-init style yaml file to the system"
-note: ""
-web_url: "https://github.com/mudler/yip"
-repo_url: "https://github.com/mudler/yip"
-path: "/"
-bins:
-  - "yip"

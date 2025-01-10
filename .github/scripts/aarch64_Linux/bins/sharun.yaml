@@ -1,9 +1,0 @@
-name: "sharun"
-description: "Run shared binary everywhere"
-note: ""
-web_url: "https://github.com/VHSgunzo/sharun"
-repo_url: "https://github.com/VHSgunzo/sharun"
-path: "/"
-bins:
-  - "sharun"
-  - "sharun-lib4bin"

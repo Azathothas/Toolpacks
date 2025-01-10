@@ -1,8 +1,0 @@
-name: "proot"
-description: "User-space implementation of chroot, mount --bind and binfmt_misc"
-note: ""
-web_url: "https://proot-me.github.io/"
-repo_url: "https://github.com/proot-me/proot"
-path: "/"
-bins:
-  - "proot"

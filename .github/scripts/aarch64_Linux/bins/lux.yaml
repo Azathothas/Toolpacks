@@ -1,8 +1,0 @@
-name: "lux"
-description: "\U0001F47E Fast and simple video download library and CLI tool written in Go"
-note: ""
-web_url: "https://github.com/iawia002/lux"
-repo_url: "https://github.com/iawia002/lux"
-path: "/"
-bins:
-  - "lux"

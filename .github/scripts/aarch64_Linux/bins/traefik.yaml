@@ -1,8 +1,0 @@
-name: "traefik"
-description: "The Cloud Native Application Proxy"
-note: ""
-web_url: "https://github.com/traefik/traefik"
-repo_url: "https://github.com/traefik/traefik"
-path: "/"
-bins:
-  - "traefik"

@@ -1,8 +1,0 @@
-name: "pktstat"
-description: "Simple ethernet interface traffic monitor and reporting tool"
-note: ""
-web_url: "https://github.com/dkorunic/pktstat"
-repo_url: "https://github.com/dkorunic/pktstat"
-path: "/"
-bins:
-  - "pktstat"

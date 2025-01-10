@@ -1,8 +1,0 @@
-name: "uncover"
-description: "Quickly discover exposed hosts on the internet using multiple search engines"
-note: ""
-web_url: "https://github.com/projectdiscovery/uncover"
-repo_url: "https://github.com/projectdiscovery/uncover"
-path: "/"
-bins:
-  - "uncover"

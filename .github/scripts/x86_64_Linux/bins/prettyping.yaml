@@ -1,8 +1,0 @@
-name: "prettyping"
-description: "Ping prettier, more colorful, more compact, and easier to read"
-note: ""
-web_url: "https://github.com/denilsonsa/prettyping"
-repo_url: "https://github.com/denilsonsa/prettyping"
-path: "/"
-bins:
-  - "prettyping"

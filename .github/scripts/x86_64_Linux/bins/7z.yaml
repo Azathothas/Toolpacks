@@ -1,8 +1,0 @@
-name: "7z"
-description: "Unarchiver"
-note: ""
-web_url: "https://www.7-zip.org"
-repo_url: "https://github.com/ip7z/7zip"
-path: "/"
-bins:
-  - "7z"

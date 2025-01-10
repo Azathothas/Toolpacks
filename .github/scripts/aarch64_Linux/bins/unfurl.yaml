@@ -1,8 +1,0 @@
-name: "unfurl"
-description: "Pull out bits of URLs provided on stdin"
-note: ""
-web_url: "https://github.com/tomnomnom/unfurl"
-repo_url: "https://github.com/tomnomnom/unfurl"
-path: "/"
-bins:
-  - "unfurl"

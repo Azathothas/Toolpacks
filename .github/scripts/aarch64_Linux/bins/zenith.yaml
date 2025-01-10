@@ -1,8 +1,0 @@
-name: "zenith"
-description: "sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage"
-note: ""
-web_url: "https://github.com/bvaisvil/zenith"
-repo_url: "https://github.com/bvaisvil/zenith"
-path: "/"
-bins:
-  - "zenith"

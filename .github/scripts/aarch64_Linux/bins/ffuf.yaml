@@ -1,8 +1,0 @@
-name: "ffuf"
-description: "Fast web fuzzer written in Go"
-note: ""
-web_url: "https://github.com/ffuf/ffuf"
-repo_url: "https://github.com/ffuf/ffuf"
-path: "/"
-bins:
-  - "ffuf"

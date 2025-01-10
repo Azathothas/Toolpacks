@@ -1,8 +1,0 @@
-name: "imgcat"
-description: "Display images and gifs in your terminal"
-note: ""
-web_url: "https://github.com/danielgatis/imgcat"
-repo_url: "https://github.com/danielgatis/imgcat"
-path: "/"
-bins:
-  - "imgcat"

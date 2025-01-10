@@ -1,8 +1,0 @@
-name: "cheat"
-description: "create and view interactive cheatsheets on the command-line"
-note: ""
-web_url: "https://github.com/cheat/cheat"
-repo_url: "https://github.com/cheat/cheat"
-path: "/"
-bins:
-  - "cheat.exe"

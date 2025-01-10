@@ -1,8 +1,0 @@
-name: "rattler-build"
-description: "rattler-build is a universal package builder for Windows, macOS and Linux"
-note: ""
-web_url: "https://github.com/prefix-dev/rattler-build"
-repo_url: "https://github.com/prefix-dev/rattler-build"
-path: "/"
-bins:
-  - "rattler-build"

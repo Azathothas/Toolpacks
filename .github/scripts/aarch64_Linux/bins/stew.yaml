@@ -1,8 +1,0 @@
-name: "stew"
-description: "\U0001F958 An independent package manager for compiled binaries."
-note: ""
-web_url: "https://github.com/marwanhawari/stew"
-repo_url: "https://github.com/marwanhawari/stew"
-path: "/"
-bins:
-  - "stew"

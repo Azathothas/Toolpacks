@@ -1,8 +1,0 @@
-name: "halp"
-description: "A CLI tool to get help with CLI tools \U0001F419"
-note: ""
-web_url: "https://github.com/orhun/halp"
-repo_url: "https://github.com/orhun/halp"
-path: "/"
-bins:
-  - "halp"

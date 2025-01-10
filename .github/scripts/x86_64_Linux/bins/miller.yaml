@@ -1,8 +1,0 @@
-name: "mlr(miller)"
-description: "Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON"
-note: ""
-web_url: "https://github.com/johnkerl/miller"
-repo_url: "https://github.com/johnkerl/miller"
-path: "/"
-bins:
-  - "mlr"

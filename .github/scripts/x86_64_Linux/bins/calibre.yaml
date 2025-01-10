@@ -1,8 +1,0 @@
-name: "calibre"
-description: "A powerful and easy to use E-Book Manager"
-note: ""
-web_url: "https://calibre-ebook.com"
-repo_url: "https://github.com/kovidgoyal/calibre"
-path: "/"
-bins:
-  - "calibre.AppImage"

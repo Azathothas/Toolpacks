@@ -1,8 +1,0 @@
-name: "eget2"
-description: "eget fork with dbin Integrations"
-note: ""
-web_url: "https://github.com/xplshn/eget2"
-repo_url: "https://github.com/xplshn/eget2"
-path: "/"
-bins:
-  - "eget2"

@@ -1,8 +1,0 @@
-name: "golinkfinder"
-description: "A fast and minimal JS endpoint extractor"
-note: ""
-web_url: "https://github.com/0xsha/GoLinkFinder"
-repo_url: "https://github.com/0xsha/GoLinkFinder"
-path: "/"
-bins:
-  - "golinkfinder"

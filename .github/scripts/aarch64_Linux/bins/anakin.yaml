@@ -1,8 +1,0 @@
-name: "anakin"
-description: "Kill orphan processes"
-note: ""
-web_url: "https://github.com/Timmmm/anakin"
-repo_url: "https://github.com/Timmmm/anakin"
-path: "/"
-bins:
-  - "anakin"

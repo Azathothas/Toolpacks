@@ -1,8 +1,0 @@
-name: "assetfinder"
-description: "Find domains and subdomains related to a given domain"
-note: ""
-web_url: "https://github.com/tomnomnom/assetfinder"
-repo_url: "https://github.com/tomnomnom/assetfinder"
-path: "/"
-bins:
-  - "assetfinder"

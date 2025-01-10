@@ -1,8 +1,0 @@
-name: "ulexec"
-description: "A tool for loading and executing PE/ELF from memory"
-note: ""
-web_url: "https://github.com/VHSgunzo/ulexec"
-repo_url: "https://github.com/VHSgunzo/ulexec"
-path: "/"
-bins:
-  - "ulexec"

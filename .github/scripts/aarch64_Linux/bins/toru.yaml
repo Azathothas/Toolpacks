@@ -1,8 +1,0 @@
-name: "toru"
-description: "Bittorrent streaming CLI for anime torrents, real-time with no waiting for downloads."
-note: ""
-web_url: "https://github.com/sweetbbak/toru"
-repo_url: "https://github.com/sweetbbak/toru"
-path: "/"
-bins:
-  - "toru"

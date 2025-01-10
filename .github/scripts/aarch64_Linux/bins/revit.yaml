@@ -1,8 +1,0 @@
-name: "revit"
-description: "A command-line utility for performing reverse DNS lookups"
-note: ""
-web_url: "https://github.com/devanshbatham/revit"
-repo_url: "https://github.com/devanshbatham/revit"
-path: "/"
-bins:
-  - "revit"

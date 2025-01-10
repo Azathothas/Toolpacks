@@ -1,8 +1,0 @@
-name: "stress-ng"
-description: "stress test a computer system in various selectable ways"
-note: ""
-web_url: "https://www.gnu.org/software/stress-ng/"
-repo_url: ""
-path: "/"
-bins:
-  - "stress-ng"

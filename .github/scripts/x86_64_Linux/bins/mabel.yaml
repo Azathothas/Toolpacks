@@ -1,8 +1,0 @@
-name: "mabel"
-description: "A fancy BitTorrent client for the terminal."
-note: ""
-web_url: "https://github.com/smmr-software/mabel"
-repo_url: "https://github.com/smmr-software/mabel"
-path: "/"
-bins:
-  - "mabel"

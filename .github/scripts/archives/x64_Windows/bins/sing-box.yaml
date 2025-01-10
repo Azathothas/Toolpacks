@@ -1,8 +1,0 @@
-name: "sing-box"
-description: "The universal proxy platform"
-note: ""
-web_url: "https://github.com/SagerNet/sing-box"
-repo_url: "https://github.com/SagerNet/sing-box"
-path: "/"
-bins:
-  - "sing-box.exe"

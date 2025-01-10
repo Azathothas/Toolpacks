@@ -1,8 +1,0 @@
-name: "zellij"
-description: "A terminal workspace with batteries included"
-note: ""
-web_url: "https://github.com/zellij-org/zellij"
-repo_url: "https://github.com/zellij-org/zellij"
-path: "/"
-bins:
-  - "zellij"

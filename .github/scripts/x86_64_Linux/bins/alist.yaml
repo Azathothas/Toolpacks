@@ -1,8 +1,0 @@
-name: "alist"
-description: "A file list/WebDAV program that supports multiple storages"
-note: ""
-web_url: "https://github.com/alist-org/alist"
-repo_url: "https://github.com/alist-org/alist"
-path: "/"
-bins:
-  - "alist"

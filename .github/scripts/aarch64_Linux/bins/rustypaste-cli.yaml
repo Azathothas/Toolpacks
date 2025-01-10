@@ -1,8 +1,0 @@
-name: "rpaste(rustypaste-cli)"
-description: "A CLI tool for rustypaste"
-note: ""
-web_url: "https://github.com/orhun/rustypaste-cli"
-repo_url: "https://github.com/orhun/rustypaste-cli"
-path: "/"
-bins:
-  - "rpaste"

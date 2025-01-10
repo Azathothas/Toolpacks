@@ -1,8 +1,0 @@
-name: "minisign"
-description: "A dead simple tool to sign files and verify digital signatures."
-note: ""
-web_url: "https://github.com/jedisct1/minisign"
-repo_url: "https://github.com/jedisct1/minisign"
-path: "/"
-bins:
-  - "minisign"

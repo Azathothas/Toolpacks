@@ -1,8 +1,0 @@
-name: "certstream-server-go"
-description: "drop-in replacement for Calidogs outdated server"
-note: ""
-web_url: "https://github.com/d-Rickyy-b/certstream-server-go"
-repo_url: "https://github.com/d-Rickyy-b/certstream-server-go"
-path: "/"
-bins:
-  - "certstream-server-go"

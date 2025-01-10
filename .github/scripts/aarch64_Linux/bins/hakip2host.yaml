@@ -1,8 +1,0 @@
-name: "hakip2host"
-description: "takes a list of IP addresses via stdin, then does a series of checks to return associated domain names"
-note: ""
-web_url: "https://github.com/hakluke/hakip2host"
-repo_url: "https://github.com/hakluke/hakip2host"
-path: "/"
-bins:
-  - "hakip2host"

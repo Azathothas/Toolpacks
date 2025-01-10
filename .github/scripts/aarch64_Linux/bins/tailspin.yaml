@@ -1,8 +1,0 @@
-name: "tailspin"
-description: "\U0001F300 A log file highlighter"
-note: ""
-web_url: "https://github.com/bensadeh/tailspin"
-repo_url: "https://github.com/bensadeh/tailspin"
-path: "/"
-bins:
-  - "tailspin"

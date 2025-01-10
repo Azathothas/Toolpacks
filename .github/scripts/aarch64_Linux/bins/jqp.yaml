@@ -1,8 +1,0 @@
-name: "jqp"
-description: "TUI for jq"
-note: ""
-web_url: "https://github.com/noahgorstein/jqp"
-repo_url: "https://github.com/noahgorstein/jqp"
-path: "/"
-bins:
-  - "jqp"

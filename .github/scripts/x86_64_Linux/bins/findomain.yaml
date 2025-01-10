@@ -1,8 +1,0 @@
-name: "Findomain"
-description: "Subdomains Finder"
-note: ""
-web_url: "https://github.com/Findomain/Findomain"
-repo_url: "https://github.com/Findomain/Findomain"
-path: "/"
-bins:
-  - "findomain"

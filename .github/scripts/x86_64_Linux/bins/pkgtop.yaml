@@ -1,8 +1,0 @@
-name: "pkgtop"
-description: "Interactive package manager and resource monitor designed for the GNU/Linux."
-note: ""
-web_url: "https://github.com/orhun/pkgtop"
-repo_url: "https://github.com/orhun/pkgtop"
-path: "/"
-bins:
-  - "pkgtop"
